@@ -1,0 +1,36 @@
+{
+    "folders": [
+        {
+            "path": "."
+        }
+    ],
+    "settings": {
+        "spellright.language": [
+            "en"
+        ],
+        "spellright.documentTypes": [
+            "markdown",
+            "latex",
+            "plaintext"
+        ],
+        "editor.minimap.enabled": false,
+        "files.autoSave": "onFocusChange",
+        "materialTheme.accent": "Red",
+        "workbench.colorTheme": "Material Theme High Contrast",
+        "pasteImage.path": "${currentFileDir}/assets",
+        "vscodeMarkdownNotes.slugifyCharacter": "NONE",
+        "markdown-preview-enhanced.enableWikiLinkSyntax": true,
+        "markdown-preview-enhanced.wikiLinkFileExtension": ".md",
+        "dendron.rootDir": "/Users/kevinlin/Dendron"
+    },
+    "extensions": {
+        "recommendations": [
+            "shd101wyy.markdown-preview-enhanced",
+            "ban.spellright",
+            "mushan.vscode-paste-image",
+            "kortina.vscode-markdown-notes",
+            "equinusocio.vsc-material-theme",
+            "mdickin.markdown-shortcuts"
+        ]
+    }
+}
