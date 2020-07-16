@@ -1,7 +1,7 @@
 {
     "folders": [
         {
-            "path": "."
+            "path": "vault"
         }
     ],
     "settings": {
@@ -21,7 +21,7 @@
         "vscodeMarkdownNotes.slugifyCharacter": "NONE",
         "markdown-preview-enhanced.enableWikiLinkSyntax": true,
         "markdown-preview-enhanced.wikiLinkFileExtension": ".md",
-        "dendron.rootDir": "/Users/kevinlin/Dendron"
+        "dendron.rootDir": "."
     },
     "extensions": {
         "recommendations": [
