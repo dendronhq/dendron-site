@@ -4,10 +4,6 @@ title: dendron.special-notes
 desc: ''
 updated: 1595004457029
 created: 1595004457029
-data:
-  links:
-    - type: note
-      id: '[[dendron.journal.2020-07-17-104824]]'
 custom: {}
 fname: dendron.special-notes
 parent: ba69c2d7-1af8-441b-b7b1-429047be7ec8
