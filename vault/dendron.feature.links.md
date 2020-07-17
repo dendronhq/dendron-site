@@ -26,4 +26,5 @@ For markdown and wiki links pointing to markdown files, Dendron will open it up 
 
 - [Think PDF](./assets/think.pdf)
 
-<div style="position: relative; padding-bottom: 62.5%; height: 0;"><iframe src="https://www.loom.com/embed/01250485e20a4cdca2a053dd6047ac68" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+<a href="https://www.loom.com/share/01250485e20a4cdca2a053dd6047ac68"> <p>Dendron Tutorial - Open Link - Watch Video</p> <img src="https://cdn.loom.com/sessions/thumbnails/01250485e20a4cdca2a053dd6047ac68-with-play.gif"> </a>
+
