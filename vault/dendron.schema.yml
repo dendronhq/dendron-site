@@ -1,17 +1,9 @@
 - id: dendron
   parent: root
   children:
-    - features
-    - lookup
-    - schema
-    - faq
-    - capabilities
-    - tips
-- id: features
+    - topic
+- id: topic
   data: 
     namespace: true 
-- id: lookup
-- id: schema
 - id: faq
-- id: capabilities
 - id: tips
