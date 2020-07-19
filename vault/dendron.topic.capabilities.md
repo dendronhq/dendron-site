@@ -8,6 +8,8 @@ Since Dendron runs on top of VSCode, it means that you also have access to thous
 
 By default, Dendron will initialize your first workspace with the following extensions and features.
 
+- [Dendron Markdown Links](https://marketplace.visualstudio.com/items?itemName=dendron.dendron-markdown-links)
+    - Graph View 
 - [Markdown Notes](https://marketplace.visualstudio.com/items?itemName=kortina.vscode-markdown-notes)
     - [wiki links](https://marketplace.visualstudio.com/items?itemName=kortina.vscode-markdown-notes)
     - [tags](https://marketplace.visualstudio.com/items?itemName=kortina.vscode-markdown-notes)
