@@ -1,12 +1,10 @@
 ---
 id: 3472226a-ff3c-432d-bf5d-10926f39f6c2
-title: dendron.feature.links
 desc: ''
 updated: 1595003088839
 created: 1595003088839
 data: {}
 custom: {}
-fname: dendron.feature.links
 parent: null
 children: []
 ---

@@ -1,4 +1,4 @@
-# Welcome to Dendron
+# Dendron
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/logo-256.png)
 
@@ -107,6 +107,6 @@ The lookup bar is how you interact with notes inside of Dendron. Use it to creat
 
 ## Next
 
-Now that we've covered the major concepts inside Dendron, go to [[dendron.lookup]] to continue the tutorial. You can navigate there by either clicking the link in the `preview pane` or putting your cursor over `[[dendron.lookup]]` and using the `Go To Definition` command.
+Now that we've covered the major concepts inside Dendron, go to [[dendron.topic.lookup]] to continue the tutorial. You can navigate there by either clicking the link in the `preview pane` or putting your cursor over `[[dendron.topic.lookup]]` and using the `Go To Definition` command.
 
 
