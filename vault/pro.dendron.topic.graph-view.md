@@ -15,7 +15,7 @@ children: []
 
 Dendron provides support for graph view using a fork of the [markdown-links](https://marketplace.visualstudio.com/items?itemName=tchayen.markdown-links) extension. It has a few modifications to make it work with Dendron's hierarchal naming scheme.
 
-You can open the graph view using the `Show Graph` command. Note that this feature is currently experimental. Adding and deleting nodes will require you to issue the `Reload Window` command for the changes to show up.
+You can open the graph view using the `Show Graph` command. Note that this feature is currently experimental. Adding and deleting nodes will require you to issue the `Reload Graph` command for the changes to show up.
 
 
 ![ ](https://github.com/tchayen/markdown-links/raw/master/demo.gif)
