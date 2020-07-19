@@ -1,3 +1,7 @@
+---
+title: Schema
+---
+
 # Schemas
 
 

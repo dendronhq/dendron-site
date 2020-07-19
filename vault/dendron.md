@@ -1,3 +1,6 @@
+---
+title: Dendron
+---
 # Dendron
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/logo-256.png)

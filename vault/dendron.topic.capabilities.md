@@ -1,3 +1,6 @@
+---
+title: Capabilities
+---
 
 # Additional Capabilities
 

@@ -1,3 +1,7 @@
+---
+title: Tips
+---
+
 # Tips (and Tricks)
 
 We've only scratched the surface of what you can do with Dendron. Because Dendron is built on top of [VSCode](), it comes with all the [extensions](https://code.visualstudio.com/docs/introvideos/extend) already built in to the platform. 

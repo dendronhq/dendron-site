@@ -1,6 +1,6 @@
 ---
 id: 21c1288a-6fb8-42f5-90c0-9b3cc7d872ad
-title: dendron.upgrading
+title: Upgrading
 desc: ''
 updated: 1595010631247
 created: 1595010631247

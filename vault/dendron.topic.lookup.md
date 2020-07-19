@@ -1,3 +1,6 @@
+---
+title: Lookup
+---
 # Lookup
 
 To work with notes, Dendron uses  **lookups**. Lookups help you navigate a hierarchal corpus of notes.
