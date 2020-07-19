@@ -13,7 +13,7 @@ children: []
 
 # Pod
 
-A pod is an external container for notes. As a human living in the 20th century, there's a good chance that you already have notes in a whole bunch of places. Dendron uses pods to import pods from external sources (eg. your file system, evernote, roam) into Dendron. 
+A pod is an external container for notes. As a human living in the 20th century, there's a good chance that you already have notes in a whole bunch of places. Dendron can import pods from external sources (eg. your file system, evernote, roam) into your workspace. 
 
 To use a pod, launch the `Command Bar` and select `> Dendron: Import Pod`. From here, you can select from one of our builtin pods or use a third party pod (COMING SOON).
 
