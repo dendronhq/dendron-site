@@ -1,7 +1,3 @@
----
-title: dendron
----
-
 # Dendron
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/logo-256.png)
@@ -21,6 +17,8 @@ Some popular use cases include:
 - CRM to keep track of clients, friends and enemies
 - recipe book 
 - keeping track of things you care about
+
+![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/graph-intro.gif)
 
 # Motivation
 
@@ -197,14 +195,14 @@ When the workspace opens, it will show dialogue to install the recommended exten
 
 # FAQ
 
-See [[FAQ]] to answers for common questions.
+See [FAQ](https://github.com/dendronhq/dendron-template/blob/master/vault/pro.dendron.faq.md) to answers for common questions.
 
 # Contributing
 
-We welcome community contributions and pull requests. See [[CONTRIBUTING]] for information on how to set up a development environment and submit code.
+We welcome community contributions and pull requests. See [CONTRIBUTING](https://github.com/dendronhq/dendron/blob/master/CONTRIBUTING.md) for information on how to set up a development environment and submit code.
 
 # License
 
 Dendron is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE Version 3.
 
-See [[LICENSE]] and [[NOTICE]] for more information.
+See [LICENSE](https://github.com/dendronhq/dendron/blob/master/LICENSE.md) and [NOTICE](https://github.com/dendronhq/dendron/blob/master/NOTICE.md) for more information.
