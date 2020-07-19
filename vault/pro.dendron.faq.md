@@ -4,6 +4,16 @@ title: faq
 
 # FAQ
 
+### Can I use Dendron with existing notes?
+
+You can use Dendron with existing repositories of markdown notes.
+
+Open the `Command Bar` in vscode and use the `Dendron: Change Workspace` command. It will ask you for a folder path as input.
+
+Dendron will create a `dendron.code-workspace` file in specified directory and then open the workspace (if a workspace file already exists, it will use that). It will also create a `root.md` file in that directory if it doesn't exist (currently this is part of the internal working of dendron).
+
+Dendron **does not** delete or overwrite any files during the **Change Workspace** operation.
+
 ### How do I save?
 - Dendron automatically saves when you change focus (switch tabs or applications). You can also manually save using `CMD+S` or `CTRL+S` depending on your operating system
 
@@ -31,3 +41,7 @@ children: []
 ### Why are there two `book` icons that do markdown preview?
 
 We use an extension to do markdown preview. VSCode comes with its default markdown preview extension and its not currently possible to hide the button. You can re-open and upvote the issue [here](https://github.com/microsoft/vscode/issues/86994) if you want to fix this.
+
+### How are hierarchies created?
+
+Hierarchies today are created automatically when dendron crawls your folder for `.` delimited file names and custom schema.yml files.
