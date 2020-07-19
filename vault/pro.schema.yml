@@ -1,0 +1,23 @@
+- id: pro
+  desc: projects
+  parent: root
+  data: 
+    namespace: true
+  children:
+    - quickstart
+    - concepts
+    - tips
+    - faq
+    - upgrading
+    - topic
+- id: quickstart
+  desc: getting started with a project
+- id: concepts
+  desc: basic concepts to do with the project
+- id: tips
+- id: faq
+- id: upgrading
+- id: topic
+  desc: important areas of a project
+  data: 
+    namespace: true

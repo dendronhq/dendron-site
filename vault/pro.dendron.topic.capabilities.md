@@ -1,5 +1,5 @@
 ---
-title: Capabilities
+title: capabilities
 ---
 
 # Additional Capabilities

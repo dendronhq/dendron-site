@@ -16,7 +16,7 @@
         "editor.minimap.enabled": false,
         "files.autoSave": "onFocusChange",
         "materialTheme.accent": "Red",
-        "workbench.colorTheme": "Material Theme High Contrast",
+        "workbench.colorTheme": "Material Theme Darker",
         "pasteImage.path": "${currentFileDir}/assets",
         "vscodeMarkdownNotes.slugifyCharacter": "NONE",
         "markdown-preview-enhanced.enableWikiLinkSyntax": true,

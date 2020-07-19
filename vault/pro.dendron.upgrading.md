@@ -1,17 +1,12 @@
 ---
 id: 21c1288a-6fb8-42f5-90c0-9b3cc7d872ad
-title: Upgrading
+title: upgrading
 desc: ''
 updated: 1595010631247
 created: 1595010631247
-data: {}
-custom: {}
-parent: null
-children: []
 ---
 
 # Upgrading
-
 
 VSCode auto updates outdated extensions periodically but if you want to trigger it manually, you can click the extensions tab and look for dendron. If there's an update available, it will be done at this point.
 

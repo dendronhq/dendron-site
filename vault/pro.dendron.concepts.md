@@ -1,12 +1,11 @@
 ---
-title: Dendron
+id: c6fd6bc4-7f75-4cbb-8f34-f7b99bfe2d50
+title: concepts
+desc: ''
+updated: 1595169512265
+created: 1595169512265
 ---
 
-# Dendron
-
-![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/logo-256.png)
-
-If you haven't already done so, you can read about Dendron and the available features [here](https://github.com/dendronhq/dendron#dendron).
 
 ## Concepts
 
@@ -108,9 +107,3 @@ The lookup bar is how you interact with notes inside of Dendron. Use it to creat
 - <img src="https://www.microsoft.com/favicon.ico" width=16 height=16/> <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf">Windows</a> `CTRL+L`
 
 ![](assets/2020-07-07-20-14-57.png)
-
-## Next
-
-Now that we've covered the major concepts inside Dendron, go to [[dendron.topic.lookup]] to continue the tutorial. You can navigate there by either clicking the link in the `preview pane` or putting your cursor over `[[dendron.topic.lookup]]` and using the `Go To Definition` command.
-
-

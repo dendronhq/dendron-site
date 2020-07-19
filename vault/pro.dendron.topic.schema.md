@@ -1,5 +1,5 @@
 ---
-title: Schema
+title: schema
 ---
 
 # Schemas
