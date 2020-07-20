@@ -31,9 +31,9 @@ After you've created the note, you can click the 'x' next to the tab to come bac
 To delete [[dendron.lookup.hello]], use the `CMD-SHIFT-D` shortcut on the note that you want to delete. Alternatively, you can also launch the `Command Bar` and type `Dendron: Delete Node` 
 
 
-After a note has been deleted, we automatically surface the parent note (in this case, [[dendron.lookup]]). 
+After a note has been deleted, we automatically surface the parent note (in this case, [[pro.dendron.topic.lookup]]). 
 
 
 ##  Next
-Now that you've seen some of the things you can lookup, its time we talk about [[dendron.schema]]. Click the link or type `dendron.schema` to continue.
+Now that you've seen some of the things you can lookup, its time we talk about [[pro.dendron.topic.schema]]. Click the link or type `dendron.schema` to continue.
 

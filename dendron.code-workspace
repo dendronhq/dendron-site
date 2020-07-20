@@ -25,7 +25,6 @@
     },
     "extensions": {
         "recommendations": [
-            "shd101wyy.markdown-preview-enhanced",
             "ban.spellright",
             "mushan.vscode-paste-image",
             "kortina.vscode-markdown-notes",
