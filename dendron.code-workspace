@@ -16,20 +16,24 @@
         "editor.minimap.enabled": false,
         "files.autoSave": "onFocusChange",
         "materialTheme.accent": "Red",
-        "workbench.colorTheme": "Material Theme Darker",
+        "workbench.colorTheme": "Material Theme High Contrast",
         "pasteImage.path": "${currentFileDir}/assets",
         "vscodeMarkdownNotes.slugifyCharacter": "NONE",
         "markdown-preview-enhanced.enableWikiLinkSyntax": true,
-        "markdown-preview-enhanced.wikiLinkFileExtension": ".md",
-        "dendron.rootDir": "."
+        "dendron.rootDir": ".",
     },
     "extensions": {
+        "unwantedRecommendations": [
+            "shd101wyy.markdown-preview-enhanced",
+        ],
         "recommendations": [
+            "dendron.dendron-markdown-preview-enhanced",
             "ban.spellright",
             "mushan.vscode-paste-image",
             "kortina.vscode-markdown-notes",
             "equinusocio.vsc-material-theme",
-            "mdickin.markdown-shortcuts"
+            "mdickin.markdown-shortcuts",
+            "dendron.dendron-markdown-links"
         ]
     }
 }
