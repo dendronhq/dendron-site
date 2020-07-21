@@ -31,8 +31,8 @@ When the workspace opens, it will show dialogue to install the recommended exten
 
 ## Concepts
 
-After you have read the first page, get acquainted with the concepts: [[pro.dendron.concepts]]
+After you have read the first page, get acquainted with the [concepts](pro.dendron.concepts.md). 
 
-## Your First Note
+## Performing your first lookup
 
-- #todo
+Read about lookups and performing your first lookup [here](pro.dendron.topic.lookup.md). Follow the instructions from the lookup page for the rest of the tutorial.
