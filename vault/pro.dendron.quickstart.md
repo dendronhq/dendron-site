@@ -8,6 +8,7 @@ created: 1595170096361
 
 # QuickStart
 
+## Installation
 Dendron can be installed as a [vscode plugin](https://marketplace.visualstudio.com/items?itemName=dendron.dendron). If you don't already have VSCode, you can download it [here](https://code.visualstudio.com/).
 
 After you have downloaded the plugin, following the instructions to create your first **workspace**.
@@ -32,6 +33,11 @@ When the workspace opens, it will show dialogue to install the recommended exten
 ## Concepts
 
 After you have read the first page, get acquainted with the [concepts](pro.dendron.concepts.md). 
+
+## VSCode
+
+Dendron is built on top of VSCode, an open source [IDE](https://www.codecademy.com/articles/what-is-an-ide) from microsoft. If you are not familiar with IDEs or VSCode, it'll be useful to go over their [basics](https://code.visualstudio.com/docs/editor/codebasics) section to get acquainted with some features and functions.
+
 
 ## Performing your first lookup
 
