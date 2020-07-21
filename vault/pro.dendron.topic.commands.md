@@ -22,3 +22,7 @@ Dendron has a series of builtin commands. They are all prefixed with `Dendron:` 
 Dendron will create a `dendron.code-workspace` file in specified directory and then open the workspace (if a workspace file already exists, it will use that). It will also create a `root.md` file in that directory if it doesn't exist (currently this is part of the internal working of dendron).
 
 Dendron **does not** delete or overwrite any files during the **Change Workspace** operation.
+
+### Reload Index
+
+Dendron will re-initialize the index. This is currently necessary if you add new entries to a [[schema | pro.dendron.topic.schema.md]].

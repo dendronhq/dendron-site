@@ -16,17 +16,19 @@
         "editor.minimap.enabled": false,
         "files.autoSave": "onFocusChange",
         "materialTheme.accent": "Red",
-        "workbench.colorTheme": "Material Theme High Contrast",
         "pasteImage.path": "${currentFileDir}/assets",
         "vscodeMarkdownNotes.slugifyCharacter": "NONE",
         "markdown-preview-enhanced.enableWikiLinkSyntax": true,
         "dendron.rootDir": ".",
+        "workbench.colorTheme": "Material Theme High Contrast",
+        "markdown-preview-enhanced.wikiLinkFileExtension": ".md",
     },
     "extensions": {
         "unwantedRecommendations": [
             "shd101wyy.markdown-preview-enhanced",
         ],
         "recommendations": [
+            "shd101wyy.markdown-preview-enhanced",
             "dendron.dendron-markdown-preview-enhanced",
             "ban.spellright",
             "mushan.vscode-paste-image",
