@@ -1,13 +1,8 @@
 ---
 id: 5c213aa6-e4ba-49e8-85c5-1bdcb33ce202
 title: special notes
-desc: ''
 updated: 1595004457029
 created: 1595004457029
-custom: {}
-fname: dendron.special-notes
-parent: ba69c2d7-1af8-441b-b7b1-429047be7ec8
-children: []
 ---
 
 # Special Notes

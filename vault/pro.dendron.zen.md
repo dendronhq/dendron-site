@@ -4,11 +4,6 @@ title: zen
 desc: ''
 updated: 1595341882454
 created: 1595341882454
-data: {}
-custom: {}
-fname: pro.dendron.zen
-parent: null
-children: []
 ---
 
 ### On Hierarchies
