@@ -16,6 +16,8 @@ children: []
 
 Dendron has a series of builtin commands. They are all prefixed with `Dendron:` and can be accessed throught the command prompt inside vscode. 
 
+## Normal Commands
+
 ### Change Workspace
 - input: path to workspace
 
@@ -26,3 +28,16 @@ Dendron **does not** delete or overwrite any files during the **Change Workspace
 ### Reload Index
 
 Dendron will re-initialize the index. This is currently necessary if you add new entries to a [[schema | pro.dendron.topic.schema.md]].
+
+### Upgrade Settings
+
+Dendron will automatically update your workspace settings during version upgrades to make sure they stay up to date with new features and bundled extensions. If you've modified the settings or want to restore your settings back to their default, you can run this command.
+
+
+## Dev Commands
+
+These commands should not be needed for regular use of Dendron but can aid in development and debugging. They are prefixed with `Dev:Dendron:`
+
+###  Open Logs
+
+This opens up the dendron logs file. If you are submitting a bug, please paste the output of this command to your issue.
