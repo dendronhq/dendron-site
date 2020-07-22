@@ -5,14 +5,6 @@
         }
     ],
     "settings": {
-        "spellright.language": [
-            "en"
-        ],
-        "spellright.documentTypes": [
-            "markdown",
-            "latex",
-            "plaintext"
-        ],
         "editor.minimap.enabled": false,
         "files.autoSave": "onFocusChange",
         "materialTheme.accent": "Red",
@@ -21,21 +13,21 @@
         "markdown-preview-enhanced.enableWikiLinkSyntax": true,
         "dendron.rootDir": ".",
         "workbench.colorTheme": "Material Theme High Contrast",
-        "markdown-preview-enhanced.wikiLinkFileExtension": ".md",
+        "markdown-preview-enhanced.wikiLinkFileExtension": ".md"
     },
     "extensions": {
+        "recommendations": [
+            "mushan.vscode-paste-image",
+            "equinusocio.vsc-material-theme",
+            "dendron.dendron-markdown-shortcuts",
+            "dendron.dendron-markdown-preview-enhanced",
+            "dendron.dendron-markdown-links",
+            "dendron.dendron-vscode-markdown-notes",
+            "dendron.dendron-markdown-notes"
+        ],
         "unwantedRecommendations": [
             "shd101wyy.markdown-preview-enhanced",
-        ],
-        "recommendations": [
-            "shd101wyy.markdown-preview-enhanced",
-            "dendron.dendron-markdown-preview-enhanced",
-            "ban.spellright",
-            "mushan.vscode-paste-image",
-            "kortina.vscode-markdown-notes",
-            "equinusocio.vsc-material-theme",
-            "mdickin.markdown-shortcuts",
-            "dendron.dendron-markdown-links"
+            "kortina.vscode-markdown-notes"
         ]
     }
 }
