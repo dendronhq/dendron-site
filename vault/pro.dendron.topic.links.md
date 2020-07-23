@@ -16,7 +16,7 @@ Dendron supports multiple types of links and formats.
 
 - [markdown links](./dendron.md)
 - [[wiki links | dendron]]
-- [url links](https://github.com/dendronhq/dendron-template/blob/master/vault/dendron.md)
+- [url links](https://github.com/orgs/dendronhq/projects/1)
 - images
     - ![image links](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/logo-256.png)
 - links to [local files](./assets/think.pdf) (eg. pdfs, psds, etc)

@@ -41,5 +41,7 @@ This section covers advanced functionality in Dendron. Become a seasoned backpac
 
 This section covers additional topics and the wider ecosystem around Dendron
 
-1. Find [[recipes | pro.dendron.cook]] to common operations (or contribute your own).
+1. Find [[recipes | pro.dendron.cook]] to common operations (or contribute your own)
+1. Found an issue or want to submit a feature request? Do so on [github](https://github.com/dendronhq/dendron/issues)
+1. See and vote on what's coming next by checking out our [public roadmap](https://github.com/orgs/dendronhq/projects/1)
 1. More wilderness coming soon!
