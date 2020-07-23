@@ -11,6 +11,16 @@ created: 1595169512265
 
 Below are some concepts that are helpful to know when using Dendron. Note that features with 🚧 are still under active development and might not be fully implemented.
 
+### Markdown
+
+Dendron supports markdown, a popular markup syntax that is like HTML but 1000x simpler. If you are new to markdown, you can read about the syntax [here](https://docs.gitbook.com/editing-content/markdown).
+
+### Frontmatter
+
+Frontmatter is [YAML](https://yaml.org/) that you can add to the front of your markdown file. It was first introduced by [jekyll](https://jekyllrb.com/docs/front-matter/) and is a convenient way of adding metadata to your plaintext documents. 
+
+You can read more about the frontmatter used in Dendron [[here | pro.dendron.topic.frontmatter]]
+
 ### Workspace
 In Dendron, your **workspace** is the root of where all your files are located. It's definde by the `dendron.rootDir` property and created when you first run `Dendron: Initialize Workspace`
 
