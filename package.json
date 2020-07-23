@@ -1,0 +1,8 @@
+{
+  "name": "dendron-template",
+  "version": "0.3.41",
+  "main": "index.js",
+  "repository": "git@github.com:dendronhq/dendron-template.git",
+  "author": "kevinslin <kevin@thence.io>",
+  "license": "MIT"
+}
