@@ -1,0 +1,9 @@
+language: node_js
+deploy:
+  provider: releases
+  api_key:
+    secure: SiplwCXTBJDwQmL79mrf4iCkxnGgXMtzhZB/TYlW7cKrH+3rZc/P0zlCnMg00gCRFl1zrLEyXS82sD291Q+t0qdzXJHF64ZO2KnqAuY2lK0KRYJnJ8TrLwalo7LmRdoVeiYFIN2TJXWdyRsOX3fwl3mUP/ktrnLPLyCEiM9VKTliogOOPR1jdjpxROi8Lld5ZnMl/ZcMSqlpbwHBRieMzVsvYdu5HoaPiGVdhlf6MiyEp/16Eijbhu9qVWTi3FHGevpnEQ+xnKadg+68AEZp/wqrua8Aj1Nk+r2nFwuk8E3CV7/rh3d74O6hOEPIjv99+OK4vXRYThbJsn5+DDNYmN2kQpiXViznHqrQim/+eOBmvrTmLbCBgwJEYW2MXCJRKCgpbleGalkkthIygYa9SiDo6a8dTTzOz0AT3fcUhK9at6H+n5qic9KifPidOOHqHou5WWPRZkFcKyo7ZRNL8KNo/w3ax1Wg01gPfYwxrIovylvhYbBId7PtQ+BH6HUoW37iiMMxTCQgqhwUOo2jwdrctu0MMvLyn2Rruc+V/REPszjWLQM5kTicaTlJ9244Z2F8YbsNddjwktsiaQp42Z2MXXYU0vyrrkg2qYUl2XPBXQyscIcDRBYQ2mvEV6x6tTDCHkcIjQFIz07GSnCNDPaeKWqRG+3CCQlE4hCCmAk=
+  file: vault/**/*
+  on:
+    tags: true
+  skip_cleanup: 'true'
