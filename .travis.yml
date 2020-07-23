@@ -4,8 +4,6 @@ deploy:
   api_key:
     secure: IkwGciuWnwVrJZegdp1nKa7PS2hXc94haHC94pxuHilxeJlOHMI6pzJ5lhhNWpuS7jkqdfwRVxfwECbwWYpyJ7brT2tqDwM+bF0dlBPp+biiX4fCBNAFjhCOVzGkb885V5XvimZzCUZpkcpaBZvulc122gbJGreYgA9QTN49y8fPkZWtamlUXWqyrzIwwKAZkuHLR2Nv7GYIoTWfZRpE/pUpAIOpTkQikCH0WgAGXewpwI1BClIPMejFfsBLJjGVkgxkQygjOqnuCoZNLjlVZo/+XJjEM7RJdlawJRr11icoO4AldznMa9xx930u+saVljI6UUMWa+FgemXcRokeSamV4PZDQTZ9W+Q1LK615CYewxAvHmNAS9Vo6yayskEhF5KYYxDh9oV0OFdv+w8sGiflLlL4EZCa4ME7uTKfDeOySV0AfvEKN02CpHclXRhu2MQOpfLBdcwb64skL10x0JXKO5B8V/MCa9SB1wiIEY3VyWrvzGXeZ/uJ/6abyO3nF4NMiCNPD1NQQhLHjo3Jk4KEiTY3kBG5K6xUKz6o/4AA5Xc6iVaHlp3CnCfC+uyHoP+2jU+KRUNk5lfKktI0MSko5FTydOabWfeX0Hws2b/KLdpy3c6XPkXOzBCjGfGPZWD0PTx7CjUDewvzH8ESkoHivvf6qvB74cVhGBC3fuM=
   file: vault/**/*
-  on:
-    branch: all_branches
   skip_cleanup: 'true'
 env:
   global:
