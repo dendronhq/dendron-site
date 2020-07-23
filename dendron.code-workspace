@@ -13,7 +13,8 @@
         "markdown-preview-enhanced.enableWikiLinkSyntax": true,
         "dendron.rootDir": ".",
         "workbench.colorTheme": "Material Theme High Contrast",
-        "markdown-preview-enhanced.wikiLinkFileExtension": ".md"
+        "markdown-preview-enhanced.wikiLinkFileExtension": ".md",
+        "vscodeMarkdownNotes.noteCompletionConvention": "noExtension"
     },
     "extensions": {
         "recommendations": [

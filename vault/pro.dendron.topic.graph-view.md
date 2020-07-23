@@ -17,6 +17,7 @@ Dendron provides support for graph view using a fork of the [markdown-links](htt
 
 You can open the graph view using the `Show Graph` command. Note that this feature is currently experimental. Adding and deleting nodes will require you to issue the `Reload Graph` command for the changes to show up.
 
+Note that unlike the original `markdown-links`, our graph does not show backlinks between notes but rather visualizes the hierarchy of your notes.
 
-![ ](https://github.com/tchayen/markdown-links/raw/master/demo.gif)
 
+![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/graph-intro.gif)

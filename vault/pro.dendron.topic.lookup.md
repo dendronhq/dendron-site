@@ -32,8 +32,3 @@ To delete [[dendron.lookup.hello]], use the `CMD-SHIFT-D` shortcut on the note t
 
 
 After a note has been deleted, we automatically surface the parent note (in this case, [[pro.dendron.topic.lookup]]). 
-
-
-##  Next
-Now that you've seen some of the things you can lookup, its time we talk about [[pro.dendron.topic.schema]]. Click the link or type `dendron.schema` to continue.
-

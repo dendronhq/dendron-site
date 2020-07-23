@@ -8,37 +8,38 @@ created: 1595170096361
 
 # QuickStart
 
-## Installation
-Dendron can be installed as a [vscode plugin](https://marketplace.visualstudio.com/items?itemName=dendron.dendron). If you don't already have VSCode, you can download it [here](https://code.visualstudio.com/).
+This guide will help get you started with Dendron. 
 
-After you have downloaded the plugin, following the instructions to create your first **workspace**.
+## Pre-requisites
 
-1. Launch the _command bar_:
+- [[Install Dendron | pro.dendron.install]]
+- Get familiar with the [basics](https://code.visualstudio.com/docs/editor/codebasics) of VSCode, an open source [IDE](https://www.codecademy.com/articles/what-is-an-ide) from Microsoft (and what Dendron is built on top of) 
 
-- <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf">Linux</a> `Ctrl+SHIFT+P`
-- <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf">macOS</a> `CMD+SHIFT+P`
-- <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf">Windows</a> `Ctrl+SHIFT+P`
+## The Trail 🥾
 
-2. Paste the following command and press `Enter`:
+This section covers the basics of Dendron. Get started on the right foot and start growing your knowledge base. 
 
-```sh
-> Dendron: Initialize Workspace
-```
+1. Go through Dendron's basic [[concepts | pro.dendron.concepts]]
+1. Do your first [[lookup | pro.dendron.topic.lookup]] - a better way to find your notes
+1. Learn about [[schemas | pro.dendron.topic.schema]] - a flexible type system for all your notes
+1. Create some [[links | pro.dendron.topic.links]]
+1. Go deep into Dendron's [[additional capabilities | pro.dendron.topic.capabilities]]
+1. Join us on [discord](https://discord.com/invite/6j85zNX) and discuss all things knowledge management with your fellow trail blazers.
 
-![Initialize workspace](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/dendron-init.gif)
+## The Woods 🌲
 
-When the workspace opens, it will show dialogue to install the recommended extensions. Though not required, these extensions add all the **non-core** features of Dendron like wiki links and tagging support.
+This section covers advanced functionality in Dendron. Become a seasoned backpacker by mastering these trails.
 
-
-## Concepts
-
-After you have read the first page, get acquainted with the [concepts](pro.dendron.concepts.md). 
-
-## VSCode
-
-Dendron is built on top of VSCode, an open source [IDE](https://www.codecademy.com/articles/what-is-an-ide) from microsoft. If you are not familiar with IDEs or VSCode, it'll be useful to go over their [basics](https://code.visualstudio.com/docs/editor/codebasics) section to get acquainted with some features and functions.
+1. Explore the [[graph view | pro.dendron.topic.graph-view]]
+1. Execute custom [[Dendron commands | pro.dendron.topic.commands]]
+1. Understand [[frontmatter | pro.dendron.topic.frontmatter]]
+1. Adopt a [[pod | pro.dendron.topic.pod]]
+1. Create a [[special note | pro.dendron.topic.special-notes.md]]
 
 
-## Performing your first lookup
+## The Wilderness ⛰️
 
-Read about lookups and performing your first lookup [here](pro.dendron.topic.lookup.md). Follow the instructions from the lookup page for the rest of the tutorial.
+This section covers additional topics and the wider ecosystem around Dendron
+
+1. Find [[recipes | pro.dendron.cook]] to common operations (or contribute your own).
+1. More wilderness coming soon!

@@ -10,6 +10,7 @@
     - faq
     - upgrading
     - topic
+    - install
 - id: quickstart
   desc: getting started with a project
 - id: concepts
@@ -17,6 +18,7 @@
 - id: tips
 - id: faq
 - id: upgrading
+- id: install
 - id: topic
   desc: important areas of a project
   data: 
