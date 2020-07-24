@@ -22,6 +22,7 @@ This section covers the basics of Dendron. Get started on the right foot and sta
 1. Go through Dendron's basic [[concepts | pro.dendron.concepts]]
 1. Do your first [[lookup | pro.dendron.topic.lookup]] - a better way to find your notes
 1. Learn about [[schemas | pro.dendron.topic.schema]] - a flexible type system for all your notes
+1. Insert an [[image | pro.dendron.topic.images]]
 1. Create some [[links | pro.dendron.topic.links]]
 1. Go deep into Dendron's [[additional capabilities | pro.dendron.topic.capabilities]]
 1. Join us on [discord](https://discord.com/invite/6j85zNX) and discuss all things knowledge management with your fellow trail blazers.
