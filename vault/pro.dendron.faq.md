@@ -4,6 +4,29 @@ title: faq
 
 # FAQ
 
+All the questions we thought you might ask. 
+
+## Why use Dendron?
+
+### I'm overwhelmed with the number of options. Would you mind give me a quick sense of how Dendron is going to distinguish itself from other note taking apps?
+
+Being overwhelmed is exactly the problem dendron tries to solve. The problem with **every** note taking application, newcomers included, is that the more notes you add, the harder it becomes to find any of it. 
+
+The only way to really scale a large corpus of notes is to apply some sort of structure on top of it - this is true if you are using notebooks like in one note or graphs as in roam. 
+
+Dendron not only supports the features of the aforementioned tools but is built from the ground up to help you structure and organize your notes. This means that whether you have a few notes to a few thousand notes, you will always be able to find the notes that matter to you. 
+
+### How does Dendron help me find my notes?
+
+1. Dendron organizes and collapse all your  notes into managable chunks using [[hiearchies | pro.dendron.topic.hierarchies ]].
+2. Dendron helps you manage your hiearchies using [[schemas | pro.dendron.topic.schemas ]]
+3. Dendron gets out of your way when your working with your notes during [[lookup | pro.dendron.topic.lookup]]
+
+You can read more about how all of this comes together in the [[ zen of dendron | pro.dendron.zen]].
+
+
+## Working with notes
+
 ### Can I use Dendron with existing notes?
 
 You can use Dendron with existing repositories of markdown notes.
@@ -17,7 +40,9 @@ Dendron **does not** delete or overwrite any files during the **Change Workspace
 ### How do I save?
 - Dendron automatically saves when you change focus (switch tabs or applications). You can also manually save using `CMD+S` or `CTRL+S` depending on your operating system
 
-### Extra files being created
+## Misc
+
+### Why does Dendron create `root.*` files in my vault?
 - Dendron currently creates a `root.md` file and a `root.schema.yml` file where you initialize your vault. these files will be used in the future to automatically generate an index of everything in your vault. you may safely ignore them for now
 
 ### What is the extra text that is created at the beginning of each note?
