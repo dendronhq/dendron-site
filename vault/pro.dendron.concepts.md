@@ -74,6 +74,8 @@ The same hiearchy in Dendron would look like the following:
 └── project1.tasks.task2.md
 ```
 
+You can read more about hierarchies [[here | pro.dendron.topic.hierarchies]]
+
 ### Schema  
 
 As you end up creating more notes, it can be hard to keep track of it all. This is why Dendron has **schemas** to help you manage your notes. Think of schemas as an **optional type system** for your information. They describe the hierarchy of your notes and are themselves, represented as a hierarchy. 
