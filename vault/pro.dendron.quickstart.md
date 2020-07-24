@@ -19,30 +19,31 @@ This guide will help get you started with Dendron.
 
 This section covers the basics of Dendron. Get started on the right foot and start growing your knowledge base. 
 
-1. Go through Dendron's basic [[concepts | pro.dendron.concepts]]
-1. Do your first [[lookup | pro.dendron.topic.lookup]] - a better way to find your notes
-1. Learn about [[schemas | pro.dendron.topic.schema]] - a flexible type system for all your notes
-1. Insert an [[image | pro.dendron.topic.images]]
-1. Create some [[links | pro.dendron.topic.links]]
-1. Go deep into Dendron's [[additional capabilities | pro.dendron.topic.capabilities]]
-1. Join us on [discord](https://discord.com/invite/6j85zNX) and discuss all things knowledge management with your fellow trail blazers.
+- [ ] Go through Dendron's basic [[concepts | pro.dendron.concepts]]
+- [ ] Do your first [[lookup | pro.dendron.topic.lookup]] - a better way to find your notes
+- [ ] Learn about [[schemas | pro.dendron.topic.schema]] - a flexible type system for all your notes
+- [ ] Insert an [[image | pro.dendron.topic.images]]
+- [ ] Create some [[links | pro.dendron.topic.links]]
+- [ ] Go deep into Dendron's [[additional capabilities | pro.dendron.topic.capabilities]]
+- [ ] Join us on [discord](https://discord.com/invite/6j85zNX) and discuss all things knowledge management with your fellow trail blazers.
 
 ## The Woods 🌲
 
 This section covers advanced functionality in Dendron. Become a seasoned backpacker by mastering these trails.
 
-1. Explore the [[graph view | pro.dendron.topic.graph-view]]
-1. Execute custom [[Dendron commands | pro.dendron.topic.commands]]
-1. Understand [[frontmatter | pro.dendron.topic.frontmatter]]
-1. Adopt a [[pod | pro.dendron.topic.pod]]
-1. Create a [[special note | pro.dendron.topic.special-notes.md]]
+- [ ] Read our [[FAQ | pro.dendron.faq ]]
+- [ ] Explore the [[graph view | pro.dendron.topic.graph-view]]
+- [ ] Execute custom [[Dendron commands | pro.dendron.topic.commands]]
+- [ ] Understand [[frontmatter | pro.dendron.topic.frontmatter]]
+- [ ] Adopt a [[pod | pro.dendron.topic.pod]]
+- [ ] Create a [[special note | pro.dendron.topic.special-notes.md]]
 
 
 ## The Wilderness ⛰️
 
 This section covers additional topics and the wider ecosystem around Dendron
 
-1. Find [[recipes | pro.dendron.cook]] to common operations (or contribute your own)
-1. Found an issue or want to submit a feature request? Do so on [github](https://github.com/dendronhq/dendron/issues)
-1. See and vote on what's coming next by checking out our [public roadmap](https://github.com/orgs/dendronhq/projects/1)
-1. More wilderness coming soon!
+- [ ] Find [[recipes | pro.dendron.cook]] to common operations (or contribute your own)
+- [ ] Found an issue or want to submit a feature request? Do so on [github](https://github.com/dendronhq/dendron/issues)
+- [ ] See and vote on what's coming next by checking out our [public roadmap](https://github.com/orgs/dendronhq/projects/1)
+- [ ] Stay tuned for more wilderness coming soon!
