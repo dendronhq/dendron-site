@@ -76,6 +76,23 @@ The same hiearchy in Dendron would look like the following:
 
 You can read more about hierarchies [[here | pro.dendron.topic.hierarchies]]
 
+### Domain
+
+A domain is the root of a hierarchy. In the example below, `project1` would be the domain.
+
+
+```
+.
+├── project1.md
+├── project1.designs.md
+├── project1.designs.promotion.md
+├── project1.paperwork.md
+├── project1.paperwork.legal.md
+├── project1.tasks.md
+├── project1.tasks.task1.md
+└── project1.tasks.task2.md
+```
+
 ### Schema  
 
 As you end up creating more notes, it can be hard to keep track of it all. This is why Dendron has **schemas** to help you manage your notes. Think of schemas as an **optional type system** for your information. They describe the hierarchy of your notes and are themselves, represented as a hierarchy. 
