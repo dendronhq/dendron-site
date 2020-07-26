@@ -27,7 +27,7 @@ Dendron **does not** delete or overwrite any files during the **Change Workspace
 
 ### Reload Index
 
-Dendron will re-initialize the index. This is currently necessary if you add new entries to a [[schema | pro.dendron.topic.schema.md]].
+Dendron will re-initialize the index. This is currently necessary if you add new entries to a [[schema | pro.dendron.topic.schema]].
 
 ### Upgrade Settings
 
