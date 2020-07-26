@@ -6,7 +6,7 @@ updated: 1595170237255
 created: 1595170237255
 data: {}
 custom: {}
-fname: pro.dendron.topic.workspace
+fname: dendron.topic.workspace
 parent: null
 children: []
 ---

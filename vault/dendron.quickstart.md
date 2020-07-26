@@ -30,12 +30,13 @@ This section covers the basics of Dendron. Get started on the right foot and sta
 
 This section covers advanced functionality in Dendron. Become a seasoned backpacker by mastering these trails.
 
-- [ ] Read our [[FAQ | pro.dendron.faq ]]
+- [ ] Read our [[FAQ | dendron.faq ]]
 - [ ] Explore the [[graph view |dendron.topic.graph-view]]
 - [ ] Execute custom [[Dendron commands |dendron.topic.commands]]
 - [ ] Understand [[frontmatter |dendron.topic.frontmatter]]
 - [ ] Adopt a [[pod |dendron.topic.pod]]
-- [ ] Create a [[special note | pro.dendron.topic.special-notes.md]]
+- [ ] Create a [[special note | dendron.topic.special-notes]]
+- [ ] Use [[ snippets | dendron.topic.snippets]] to save time and reduce typoes
 
 
 ## The Wilderness ⛰️

@@ -17,8 +17,8 @@ Dendron not only supports the features of the aforementioned tools but is built 
 
 ### How does Dendron help me find my notes?
 
-1. Dendron organizes and collapse all your  notes into managable chunks using [[hiearchies | pro.dendron.topic.hierarchies ]].
-2. Dendron helps you manage your hiearchies using [[schemas | pro.dendron.topic.schema ]]
+1. Dendron organizes and collapse all your  notes into managable chunks using [[hiearchies | dendron.topic.hierarchies ]].
+2. Dendron helps you manage your hiearchies using [[schemas | dendron.topic.schema ]]
 3. Dendron gets out of your way when your working with your notes during [[lookup |dendron.topic.lookup]]
 
 You can read more about how all of this comes together in the [[ zen of dendron |dendron.zen]].

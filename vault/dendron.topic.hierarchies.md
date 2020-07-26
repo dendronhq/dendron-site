@@ -80,7 +80,7 @@ Dendron is built around hierarchies and the axiom that a canonical hierarichal r
     ├── a-parent.child-a
     └── a-parent.child-a.child-b
     ```
-1. It allows us to create [[stubs | pro.dendron.topic.schema ]] for parts of the hierarchy that don't exist and not clutter our file system with empty folders 
+1. It allows us to create [[stubs | dendron.topic.schema ]] for parts of the hierarchy that don't exist and not clutter our file system with empty folders 
     - with the classical folder hierarchy
     ```
     .
