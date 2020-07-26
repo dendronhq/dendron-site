@@ -1,10 +1,9 @@
 ---
+created: 1595352354163
 id: ffec2853-c0e0-4165-a368-339db12c8e4b
 title: frontmatter
 updated: 1595352354163
-created: 1595352354163
 ---
-
 # Frontmatter
 
 Frontmatter is [YAML](https://yaml.org/) that you can add to the front of your markdown file. It was first introduced by [jekyll](https://jekyllrb.com/docs/front-matter/) and is a convenient way of adding metadata to your plaintext documents. 

@@ -1,11 +1,10 @@
 ---
+created: 1595611213607
+desc: ''
 id: f3a41725-c5e5-4851-a6ed-5f541054d409
 title: hierarchies
-desc: ''
 updated: 1595611213607
-created: 1595611213607
 ---
-
 # Hierarchies
 
 Dendron has hierarchies. They are represented by `.` delimited filenames. 
@@ -48,7 +47,7 @@ Dendron is built around hierarchies and the axiom that a canonical hierarichal r
 
 1. It allows each **file** to also be a **folder**. This means your notes can have data but also contain other notes. 
 1. It makes it much easier to perform certain refactoring operations
-    - for example, say you had the following [[schema | pro.dendron.topic.schema]]
+    - for example, say you had the following [[schema |dendron.topic.schema]]
     ```yml
     - id: a-parent
     children:

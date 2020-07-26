@@ -1,17 +1,10 @@
 ---
+created: 1595261816971
+desc: ''
 id: eea2b078-1acc-4071-a14e-18299fc28f47
 title: commands
-desc: ''
 updated: 1595261816971
-created: 1595261816971
-data: {}
-custom: {}
-fname: pro.dendron.topic.commands
-parent: null
-children: []
 ---
-
-
 # Commands
 
 Dendron has a series of builtin commands. They are all prefixed with `Dendron:` and can be accessed throught the command prompt inside vscode. 
@@ -27,7 +20,7 @@ Dendron **does not** delete or overwrite any files during the **Change Workspace
 
 ### Reload Index
 
-Dendron will re-initialize the index. This is currently necessary if you add new entries to a [[schema | pro.dendron.topic.schema]].
+Dendron will re-initialize the index. This is currently necessary if you add new entries to a [[schema | pro.dendron.topic.schema.md]].
 
 ### Upgrade Settings
 

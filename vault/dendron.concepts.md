@@ -1,12 +1,10 @@
 ---
+created: 1595169512265
+desc: ''
 id: c6fd6bc4-7f75-4cbb-8f34-f7b99bfe2d50
 title: concepts
-desc: ''
 updated: 1595169512265
-created: 1595169512265
 ---
-
-
 ## Concepts
 
 Below are some concepts that are helpful to know when using Dendron. Note that features with 🚧 are still under active development and might not be fully implemented.
@@ -19,7 +17,7 @@ Dendron supports markdown, a popular markup syntax that is like HTML but 1000x s
 
 Frontmatter is [YAML](https://yaml.org/) that you can add to the front of your markdown file. It was first introduced by [jekyll](https://jekyllrb.com/docs/front-matter/) and is a convenient way of adding metadata to your plaintext documents. 
 
-You can read more about the frontmatter used in Dendron [[here | pro.dendron.topic.frontmatter]]
+You can read more about the frontmatter used in Dendron [[here |dendron.topic.frontmatter]]
 
 ### Workspace
 In Dendron, your **workspace** is the root of where all your files are located. It's definde by the `dendron.rootDir` property and created when you first run `Dendron: Initialize Workspace`
@@ -74,7 +72,7 @@ The same hiearchy in Dendron would look like the following:
 └── project1.tasks.task2.md
 ```
 
-You can read more about hierarchies [[here | pro.dendron.topic.hierarchies]]
+You can read more about hierarchies [[here |dendron.topic.hierarchies]]
 
 ### Domain
 

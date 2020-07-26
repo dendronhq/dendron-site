@@ -13,5 +13,4 @@ Copy the settings in this [sample workspace](https://github.com/dendronhq/dendro
 ],
 ```
 
-Rename your current workspace file to `dendron.code-workspace`. Use the [Dendron: Change Workspace](pro.dendron.topic.commands.md) command and set the workspace to the directory containing `dendron.code-workspace`. 
-
+Rename your current workspace file to `dendron.code-workspace`. Use the [Dendron: Change Workspace](pro.dendron.topic.commands.md) command and set the workspace to the directory containing `dendron.code-workspace`.
