@@ -1,5 +1,6 @@
 _site
-dendron-md-links.code-workspace
+*.code-workspace
 reports
 .sass-cache
 local
+
