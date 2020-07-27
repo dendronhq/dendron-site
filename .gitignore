@@ -4,3 +4,5 @@ reports
 .sass-cache
 local
 
+.jekyll-cache
+site-builder/docs
