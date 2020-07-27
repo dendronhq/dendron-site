@@ -19,12 +19,12 @@ Below is an example of a three-level hierarchy describing cli commands. You don'
 - id: cli
   # human readable description of hierarchy
   desc: command line interface reference
+  # this means this node is the domain of this hierarchy
   parent: root
   data: 
     # when a schema is a namespace, it can have arbitary children. equivalent to cli.* glob pattern
     namespace: true 
   children:
-    # specifies 
     - cmd
     - env
 # will match cli.*.env
@@ -36,6 +36,8 @@ Below is an example of a three-level hierarchy describing cli commands. You don'
   data: 
     namespace: true
 ```
+
+After you've created a schema, you'll need to run [[> Dendron: Reload Index| dendron.topic.commands]] for it to take affect. 
 
 # Stub
 
