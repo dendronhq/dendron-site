@@ -1,6 +1,6 @@
 ---
 id: 401c5889-20ae-4b3a-8468-269def4b4865
-title: cook
+title: Cook
 desc: ''
 updated: 1595952505024
 created: 1595952505024

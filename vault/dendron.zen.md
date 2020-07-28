@@ -1,6 +1,6 @@
 ---
 id: 97b90ae4-fedb-4927-bf3f-7f9fc472a939
-title: zen
+title: Zen
 desc: ''
 updated: 1595341882454
 created: 1595341882454

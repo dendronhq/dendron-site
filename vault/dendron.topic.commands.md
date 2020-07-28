@@ -1,6 +1,6 @@
 ---
 id: eea2b078-1acc-4071-a14e-18299fc28f47
-title: commands
+title: Commands
 desc: ''
 updated: 1595261816971
 created: 1595261816971

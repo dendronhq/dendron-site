@@ -1,6 +1,6 @@
 ---
 id: 587e6d62-3c5b-49b0-aedc-02f62f0448e6
-title: graph view
+title: Graph-view
 desc: ''
 updated: 1595120707814
 created: 1595120707814

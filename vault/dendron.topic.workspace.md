@@ -1,6 +1,6 @@
 ---
 id: f7ebd4aa-8ba7-4bc5-bd00-a1efc5315f07
-title: workspace
+title: Workspace
 desc: ''
 updated: 1595170237255
 created: 1595170237255

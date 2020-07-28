@@ -1,6 +1,6 @@
 ---
 id: a91fd8da-6895-49fe-8164-a17acd8d9a17
-title: images
+title: Images
 desc: ''
 updated: 1595562035825
 created: 1595562035825

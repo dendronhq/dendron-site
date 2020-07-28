@@ -1,6 +1,6 @@
 ---
 id: 692fa114-f798-467f-a0b9-3cccc327aa6f
-title: tips
+title: Tips
 desc: ''
 updated: 1595614204291
 created: 1595614204291

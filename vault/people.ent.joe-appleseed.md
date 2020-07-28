@@ -1,6 +1,6 @@
 ---
 id: 8efc8d45-18fa-4fb0-85a9-ac20f87f526d
-title: people.ent.joe-appleseed
+title: Joe-appleseed
 desc: ''
 updated: 1594926747744
 created: 1594926747744

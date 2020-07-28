@@ -1,6 +1,6 @@
 ---
 id: 66727a39-d0a7-449b-a10d-f6c438185d7f
-title: pods
+title: Pod
 desc: ''
 updated: 1595041605856
 created: 1595041605856
