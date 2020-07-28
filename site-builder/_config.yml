@@ -1,7 +1,9 @@
 theme: "just-the-docs"
+title: Dendron
+exclude: ["node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "package.json", "package-lock.json",  "script/", "LICENSE.txt", "lib/", "bin/", "README.md", "Rakefile"]
 defaults:
   -
     scope:
-      path: "" # an empty string here means all files in the project
+      path: "docs" # an empty string here means all files in the project
     values:
       layout: "default"
