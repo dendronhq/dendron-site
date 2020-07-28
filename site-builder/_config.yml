@@ -4,6 +4,6 @@ exclude: ["node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "pac
 defaults:
   -
     scope:
-      path: "docs" # an empty string here means all files in the project
+      path: "notes" # an empty string here means all files in the project
     values:
       layout: "default"

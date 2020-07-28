@@ -7,3 +7,4 @@ local
 .jekyll-cache
 site-builder/docs
 .python-version
+site-builder/notes
