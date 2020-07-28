@@ -6,3 +6,4 @@ local
 
 .jekyll-cache
 site-builder/docs
+.python-version
