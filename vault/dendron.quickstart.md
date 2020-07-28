@@ -37,8 +37,6 @@ This section covers advanced functionality in Dendron. Become a seasoned backpac
 - [ ] Understand [[frontmatter |dendron.topic.frontmatter]]
 - [ ] Adopt a [[pod |dendron.topic.pod]]
 - [ ] Create a [[special note | dendron.topic.special-notes]]
-- [ ] Use [[ snippets | dendron.topic.snippets]] to save time and reduce typoes
-
 
 ## The Wilderness ⛰️
 
