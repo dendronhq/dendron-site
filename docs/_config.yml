@@ -1,3 +1,4 @@
+# uncomment to preview locally
 #theme: "just-the-docs"
 remote_theme: dendronhq/just-the-docs
 title: Dendron
