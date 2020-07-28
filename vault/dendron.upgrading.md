@@ -4,6 +4,7 @@ title: Upgrading
 desc: ''
 updated: 1595010631247
 created: 1595010631247
+nav_exclude: true
 ---
 
 # Upgrading

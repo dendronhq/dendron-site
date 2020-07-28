@@ -4,6 +4,7 @@ title: Tips
 desc: ''
 updated: 1595614204291
 created: 1595614204291
+nav_order: 7
 ---
 ### Peeking
 
