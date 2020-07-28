@@ -4,11 +4,7 @@ title: people.journal.2020-07-17-105322
 desc: ''
 updated: 1595008416395
 created: 1595008416395
-data: {}
 custom: {}
-fname: people.journal.2020-07-17-105322
-parent: null
-children: []
 ---
 
 

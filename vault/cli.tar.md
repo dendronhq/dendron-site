@@ -1,3 +1,10 @@
+---
+id: 69cc4b72-a98e-4133-8dcc-2b45d2456101
+title: tar
+desc: ''
+updated: 1595952505022
+created: 1595952505022
+---
 # Overview
 - creates and manipulates streaming archive files
 

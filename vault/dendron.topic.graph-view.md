@@ -4,11 +4,7 @@ title: graph view
 desc: ''
 updated: 1595120707814
 created: 1595120707814
-data: {}
 custom: {}
-fname: dendron.topic.graph-view
-parent: null
-children: []
 ---
 
 # 🚧 Graph View

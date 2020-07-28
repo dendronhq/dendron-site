@@ -4,11 +4,6 @@ title: projects
 desc: ''
 updated: 1595169140541
 created: 1595169140541
-data: {}
 custom: {}
-fname: pro
-parent: root
-children:
-  - 83ba6d07-c8d2-402c-9f38-a536b731ecac
 ---
 

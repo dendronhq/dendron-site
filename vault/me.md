@@ -5,10 +5,6 @@ desc: ''
 updated: 1594925171447
 created: 1594925171447
 custom: {}
-fname: me
-parent: root
-children:
-  - 1ca614cc-175a-4208-8507-e67c222d23e8
 ---
 
 # Me

@@ -1,3 +1,10 @@
+---
+id: c435c385-eb67-42a3-815c-a1eccc285296
+title: curl
+desc: ''
+updated: 1595952505020
+created: 1595952505020
+---
 # Overview
 - command line url reference
 

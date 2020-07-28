@@ -1,3 +1,10 @@
+---
+id: 401c5889-20ae-4b3a-8468-269def4b4865
+title: cook
+desc: ''
+updated: 1595952505024
+created: 1595952505024
+---
 # Cookbook
 
 ### Use Dendron with a current workspace

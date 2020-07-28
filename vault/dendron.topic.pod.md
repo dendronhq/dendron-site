@@ -4,11 +4,7 @@ title: pods
 desc: ''
 updated: 1595041605856
 created: 1595041605856
-data: {}
 custom: {}
-fname: dendron.topic.pod
-parent: null
-children: []
 ---
 
 # Pod

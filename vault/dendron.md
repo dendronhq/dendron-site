@@ -1,3 +1,10 @@
+---
+id: b0fe6ef7-1553-4280-bc45-a71824c2ce36
+title: dendron
+desc: ''
+updated: 1595952505017
+created: 1595952505017
+---
 # Dendron
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/logo-256.png)

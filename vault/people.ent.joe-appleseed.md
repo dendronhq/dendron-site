@@ -4,14 +4,7 @@ title: people.ent.joe-appleseed
 desc: ''
 updated: 1594926747744
 created: 1594926747744
-data:
-  links:
-    - type: note
-      id: '[[people.journal.2020-07-17-105322]]'
 custom: {}
-fname: people.ent.joe-appleseed
-parent: null
-children: []
 ---
 
 # Joe Appleseed
