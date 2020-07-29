@@ -18,25 +18,20 @@
         "workbench.colorTheme": "Material Theme High Contrast",
         "markdown-preview-enhanced.wikiLinkFileExtension": ".md",
         "vscodeMarkdownNotes.noteCompletionConvention": "noExtension",
-        "workbench.colorCustomizations": {
-            "activityBar.activeBackground": "#2f7c47",
-            "activityBar.activeBorder": "#422c74",
-            "activityBar.background": "#2f7c47",
-            "activityBar.foreground": "#e7e7e7",
-            "activityBar.inactiveForeground": "#e7e7e799",
-            "activityBarBadge.background": "#422c74",
-            "activityBarBadge.foreground": "#e7e7e7",
-            "statusBar.background": "#215732",
-            "statusBar.border": "#215732",
-            "statusBar.foreground": "#e7e7e7",
-            "statusBarItem.hoverBackground": "#2f7c47",
-            "titleBar.activeBackground": "#215732",
-            "titleBar.activeForeground": "#e7e7e7",
-            "titleBar.border": "#215732",
-            "titleBar.inactiveBackground": "#21573299",
-            "titleBar.inactiveForeground": "#e7e7e799"
-        },
-        "peacock.color": "#215732",
         "cSpell.enabled": true
+    },
+    "extensions": {
+        "recommendations": [
+            "mushan.vscode-paste-image",
+            "equinusocio.vsc-material-theme",
+            "dendron.dendron-markdown-shortcuts",
+            "dendron.dendron-markdown-preview-enhanced",
+            "dendron.dendron-markdown-links",
+            "dendron.dendron-markdown-notes"
+        ],
+        "unwantedRecommendations": [
+            "shd101wyy.markdown-preview-enhanced",
+            "kortina.vscode-markdown-notes"
+        ]
     }
 }
