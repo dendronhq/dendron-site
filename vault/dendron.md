@@ -5,13 +5,16 @@ desc: ''
 updated: 1595952505017
 created: 1595952505017
 ---
+<!-- Place this tag in your head or just before your close body tag. -->
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+
 # Dendron
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/logo-256.png)
 
 A personal knowledge management tool that **grows** as you do.
 
-Dendron is a local-first, markdown based, hierarchical note-taking application built on top of [VSCode](https://code.visualstudio.com/) and [friends](./ACKNOWLEDGEMENTS.md).
+Dendron is a local-first, markdown based, hierarchical note-taking application built on top of [VSCode](https://code.visualstudio.com/).
 
 
 Whether you organize your notes with [PARA](https://fortelabs.co/blog/para/) or [Zettelkasten](https://zettelkasten.de/), link notes together like [roam](https://roamresearch.com/), or simply create notes in an ad-hoc manner, Dendron can help.
@@ -30,7 +33,7 @@ Click [here](https://youtu.be/6rwWUalr9Ac) to see an example of Dendron in actio
 
 # Join Us
 
-To stay up to date on Dendron developments and all things knowledge management, you can follow us at [@dendronhq](https://twitter.com/dendronhq) or join us on [discord](https://discord.gg/6j85zNX) (or even do both)!
+To stay up to date on Dendron developments and all things knowledge management, you can follow us at [@dendronhq](https://twitter.com/dendronhq) or join us on [discord](https://discord.gg/6j85zNX)! 
 
 # Motivation
 

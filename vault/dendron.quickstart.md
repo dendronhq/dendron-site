@@ -25,6 +25,7 @@ This section covers the basics of Dendron. Get started on the right foot and sta
 - [ ] Insert an [[image |dendron.topic.images]]
 - [ ] Create some [[links |dendron.topic.links]]
 - [ ] Go deep into Dendron's [[additional capabilities |dendron.topic.capabilities]]
+- [ ] [[Publish | dendron.topic.publishing]] your vault 
 - [ ] Join us on [discord](https://discord.com/invite/6j85zNX) and discuss all things knowledge management with your fellow trail blazers.
 
 ## The Woods 🌲
