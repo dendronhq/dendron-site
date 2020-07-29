@@ -1,4 +1,17 @@
 
+
+## Markdown Preview
+
+### Why can't I click the checkbox?
+
+It could be that you are using the VSCode default markdown instead of Dendron's Markdown Preview. 
+
+They both have identical icons and its currently not possible to disable the builtin preview (we are looking into fixing this [here](https://github.com/dendronhq/dendron/issues/42)).
+
+Meanwhile, you can open Dendron's markdown preview by clicking the preview button on the left of the menu bar or by using the `Markdown Preview Enhanced: Open Preview to the Side` command
+
+![](assets/2020-07-29-09-05-39.png)
+
 ## Misc
 
 ### Why does Dendron create `root.*` files in my vault?
