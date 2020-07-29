@@ -2,16 +2,19 @@
     "folders": [
         {
             "path": "vault"
+        },
+        {
+            "path": "."
         }
     ],
     "settings": {
+        "dendron.rootDir": ".",
+        "pasteImage.path": "${currentFileDir}/assets/images",
         "editor.minimap.enabled": false,
         "files.autoSave": "onFocusChange",
         "materialTheme.accent": "Red",
-        "pasteImage.path": "${currentFileDir}/assets",
         "vscodeMarkdownNotes.slugifyCharacter": "NONE",
         "markdown-preview-enhanced.enableWikiLinkSyntax": true,
-        "dendron.rootDir": ".",
         "workbench.colorTheme": "Material Theme High Contrast",
         "markdown-preview-enhanced.wikiLinkFileExtension": ".md",
         "vscodeMarkdownNotes.noteCompletionConvention": "noExtension",
@@ -33,20 +36,7 @@
             "titleBar.inactiveBackground": "#21573299",
             "titleBar.inactiveForeground": "#e7e7e799"
         },
-        "peacock.color": "#215732"
-    },
-    "extensions": {
-        "recommendations": [
-            "mushan.vscode-paste-image",
-            "equinusocio.vsc-material-theme",
-            "dendron.dendron-markdown-shortcuts",
-            "dendron.dendron-markdown-preview-enhanced",
-            "dendron.dendron-markdown-links",
-            "dendron.dendron-markdown-notes"
-        ],
-        "unwantedRecommendations": [
-            "shd101wyy.markdown-preview-enhanced",
-            "kortina.vscode-markdown-notes"
-        ]
+        "peacock.color": "#215732",
+        "cSpell.enabled": true
     }
 }
