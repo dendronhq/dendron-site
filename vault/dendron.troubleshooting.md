@@ -1,4 +1,13 @@
+---
+id: a6c03f9b-8959-4d67-8394-4d204ab69bfe
+title: Troubleshooting
+desc: ''
+updated: 1595952505025
+created: 1595952505025
+nav_order: 9
+---
 
+# Troubleshooting
 
 ## Markdown Preview
 
@@ -8,7 +17,7 @@ It could be that you are using the VSCode default markdown instead of Dendron's 
 
 They both have identical icons and its currently not possible to disable the builtin preview (we are looking into fixing this [here](https://github.com/dendronhq/dendron/issues/42)).
 
-Meanwhile, you can open Dendron's markdown preview by clicking the preview button on the left of the menu bar or by using the `Markdown Preview Enhanced: Open Preview to the Side` command
+Meanwhile, you can open Dendron's markdown preview by clicking the preview button on the left of the menu bar or by using the `> Markdown Preview Enhanced: Open Preview to the Side` command
 
 ![](assets/2020-07-29-09-05-39.png)
 
