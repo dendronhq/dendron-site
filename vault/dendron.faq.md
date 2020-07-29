@@ -20,13 +20,15 @@ Dendron is a local-first, markdown based, hierarchical note taking tool. It is m
 
 Substitute X with `roam|obsidian|foam|one note|evernote|...`
 
-Dendron is focused on helping you **organize your notes** after they are **inside your knowledge base**.
+Dendron is focused on helping you **organize your notes inside your knowledge base**.
 
-Generally, the pattern for any note taking tool is that the **more notes you put it**, the **harder it becomes** to get anything **back out** again. 
+All note taking tooks (try to make it) easy to get notes in. Its getting it back out again that's hard and it **becomes harder** as you get more notes.
 
-Whether you are using notebooks or graphs, once you have more than a few hundred notes, you'll need to have some sort of structure in place (eg. naming convention, hierarchy, etc) to keep track of it. 
+Whether you are using notebooks tags, or backlinks, once you have more than a few hundred notes, you'll need to have some sort of structure in place (eg. naming convention, hierarchy, etc) to keep track of it. 
 
-Dendron is designed to help you track your notes using hierarchies and enforce a consistent structure across your knowledge base. As an example, the author [@kevins8](https://twitter.com/kevins8) uses Dendron to manage +20K notes. 
+Dendron provides that **structure**. We make it possible for you to keep track of knowledge bases of any size, 
+
+is designed to help you track your notes using hierarchies and enforce a consistent structure across your knowledge base. As an example, the author [@kevins8](https://twitter.com/kevins8) uses Dendron to manage +20K notes. 
 
 
 ### How does Dendron help me track my notes?
