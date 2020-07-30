@@ -15,9 +15,8 @@ nav_order: 9
 
 1. Reload your window. This is the equivalent of restarting your computer. 
     - `> Developer: Reload Window`
-
-
-The most common reason why something isn't working is because a necessary extension isn't installed. Make sure you have the necessary extensions by checking searching for `@enabled dendron` inside the extensions pane and making sure that you have the latest version of all dendron extensions.
+2. Check that all the recommended extensions are installed.
+    - Make sure you have the necessary extensions by checking searching for `@enabled dendron` inside the extensions pane and making sure that you have the latest version of all dendron extensions.
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/trouble-extensions.jpg)
 

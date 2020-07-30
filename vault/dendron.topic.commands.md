@@ -28,16 +28,15 @@ Dendron will re-initialize the index. This is currently necessary if you add new
 
 Dendron will automatically update your workspace settings during version upgrades to make sure they stay up to date with new features and bundled extensions. If you've modified the settings or want to restore your settings back to their default, you can run this command.
 
-### Doctor #TODO
-
-This makes sure your workspace is up to date. It will execute the following commands:
-- Backill Notes: add frontmatter to all notes that are missing 
-- Setup a `docs` folder if it doesn't exist. Required if you want to [[publish | dendron.topic.publishing]] your notes
-- Make sure your settings are up to date
-
 ## Dev Commands
 
 These commands should not be needed for regular use of Dendron but can aid in development and debugging. They are prefixed with `Dev:Dendron:`
+
+### Doctor 
+
+This makes sure your workspace is up to date. It will execute the following actions:
+- add ids and titles to the frontmatter of all notes that are missing it
+- setup a `docs` folder if it doesn't exist. Required if you want to [[publish | dendron.topic.publishing]] your notes
 
 ###  Open Logs
 

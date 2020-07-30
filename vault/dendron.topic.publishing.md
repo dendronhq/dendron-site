@@ -81,8 +81,15 @@ publish:
 - Make sure you have a `docs` folder inside `dendron.rootDir`.
     - If you've created your workspace using `Dendron: Initialize Workspace` on 0.4.2 or later, this is already done 
     - If you've created your workspace before `0.4.2` or have manually created your workspace, you can run `Dendron: Doctor` to create this folder
+/pages/)
+- Setup a github repo with [github pages enabled](https://guides.github.com/features/pages/)
+  - when selecting the source, make sure to pick `master branch/docs folder`
+![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/gh-page-docs.jpg)
+- Create an initial commit and push your vault to your github page
 
 ### Guide
-1. Depending on what notes you want to publish, you will want to update your `dendron.yml` file
+1. Depending on what notes you want to publish, you will want to update your `dendron.yml` file. By default, everything will be published
+2. When you are ready to publish, run the `> Dendron: Build Pod` command to prepare your site for publication. This builds your notes into the `siteRoot` directory which defaults to `docs`.
+3. To publish your site, commit the changes and push
 
 

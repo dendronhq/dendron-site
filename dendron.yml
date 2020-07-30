@@ -1,4 +1,3 @@
-workspace:
 site:
-  noteRoot: root
-  siteRoot: "docs"
+  noteRoot: dendron
+  siteRoot: docs

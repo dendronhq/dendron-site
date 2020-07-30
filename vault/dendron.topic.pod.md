@@ -7,15 +7,30 @@ created: 1595041605856
 custom: {}
 ---
 
-# Pod
+# Pod 🚧
 
-A pod is an external container for notes. As a human living in the 20th century, there's a good chance that you already have notes in a whole bunch of places. Dendron can import pods from external sources (eg. your file system, evernote, roam) into your workspace. 
+Pods are the mechanisms Dendron uses to import and export notes. Dendron has a different pod depending on where you are getting and publishing your data to. 
 
-To use a pod, launch the `Command Bar` and select `> Dendron: Import Pod`. From here, you can select from one of our builtin pods or use a third party pod (COMING SOON).
+To access pods, Dendron exposes three commands:
+- `Dendron: Import Pod`: imports notes from an external data source 
+- `Dendron: Build Pod`: prepares notes for export
+- `Dendron: Export Pod`: export notes #TODO
 
-## Builtin Pods
+Note that some pods are only available for import and others only for build/export at this time. 
 
-### LocalFile Pod
+The status of each pod method is represented by the following symbols:
+- ✅ supported 
+- 🚧 supported but experimental 
+- ➖ no support applicable 
+- ❌ not currently supported
+
+## Pods
+
+### LocalFile 
+- coverage:
+    - 🚧 import
+    - ➖ build
+    - ❌ export
 
 This pod imports files stored in your local file system. To get started, select `LocalFile Pod` in the pod dropdown and enter the path to `root` directory where your notes are stored.
 
@@ -62,3 +77,12 @@ Non-markdown files within a directory will be moved into the `assets` folder of 
 ```
 
 Note that all files starting with a `.` will be ignored during the import.
+
+
+### GithubPages
+- coverage:
+    - ❌ import
+    - 🚧 build
+    - ❌ export 
+
+Builds your notes for publication to github pages using the [dendron-jekyll](https://github.com/dendronhq/dendron-jekyll) theme.  See [[publishing | dendron.topic.publishing]] for more details.

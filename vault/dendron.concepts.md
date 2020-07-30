@@ -117,6 +117,11 @@ Below is an example of a three-level hierarchy describing cli commands. You don'
     namespace: true
 ```
 
+### Pods 🚧
+
+[[Pods | dendron.topic.pod]] are the mechanisms Dendron uses to import and export notes. Dendron has a different pod depending on where you are getting and publishing your data to. 
+
+
 ### Command Bar
 
 The command bar is native to `vscode`. You can use it to run dendron commands, which will all be prefixed with `Dendron:`. You can use the following shortcut to open the command bar. 
