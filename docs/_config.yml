@@ -8,9 +8,18 @@ footer_content: "Copyright &copy; 2020 Thence LLC"
 
 gh_edit_link: false # 
 
+# seo
+tagline: "A better way to know"
+description: "A personal knowledge management tool that grows as you do."
+url: "https://www.dendron.so"
+twitter:
+  card: summary
+  username: dendronhq
+
 defaults:
   -
     scope:
       path: "notes" # an empty string here means all files in the project
     values:
       layout: "default"
+      image: "/assets/images/logo.png"
