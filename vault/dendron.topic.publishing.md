@@ -6,23 +6,37 @@ updated: 1595170096361
 created: 1595170096361
 ---
 
-# Publishing
+# Publishing 🚧
 
 Dendron lets you publish the contents of your vault, either in its entirety or only a subset. What gets published is controlled by the `dendron.yml` file located inside your workspace. 
 
+## Limitations
+
+- publishing only works with pages but not any assets that you might have (eg. images pasted using `Paste Images`)
+- currently not possible to publish multiple domains
+  - current options when it comes to publishing are either everything (by setting noteRoot to `root`), one domain, or nothing
+  - If you would like this feature, you can vote for it [here](https://github.com/dendronhq/dendron/issues/64).
+
 ## dendron.yml
 ```yml
-publish:
-  # the root of the published website. by default, dendron will set the root to `root.md`
-  # this means the contents of `root.md` will be set as your home page and that all the contents
-  # of your vault will be published
-  # you can change the root to a specific `domain`. this will set that `domain` as the home page
+site:
+  # the note that will serve as the root of your published website
+  # by default, dendron will set the root to `root`
+  # 
+  # this means the contents of `root.md` will be set as your home 
+  # page and that all the contents # of your vault will be published
+  # 
+  # you can change the root to a specific `domain` 
+  # this will set that `domain` as the home page
   # and publish everything under that domain
-  root: root 
-
+  noteRoot: root
+  # there's usually a built step before publishing your site
+  # eg. converting your markdown files into jekyll-compatible
+  # markdown files
+  # 
+  # this controls where the new documents will be published
+  siteRoot: docs
 ```
-
-Note that it is not yet possible to publish multiple domains. Current options are either everything, one domain, or nothing. If you would like this feature, you can vote for it [here](https://github.com/dendronhq/dendron/issues/64).
 
 ### Example publishing entire vault
 - vault
