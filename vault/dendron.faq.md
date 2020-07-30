@@ -26,10 +26,7 @@ All note taking tooks (try to make it) easy to get notes in. Its getting it back
 
 Whether you are using notebooks tags, or backlinks, once you have more than a few hundred notes, you'll need to have some sort of structure in place (eg. naming convention, hierarchy, etc) to keep track of it. 
 
-Dendron provides that **structure**. We make it possible for you to keep track of knowledge bases of any size, 
-
-is designed to help you track your notes using hierarchies and enforce a consistent structure across your knowledge base. As an example, the author [@kevins8](https://twitter.com/kevins8) uses Dendron to manage +20K notes. 
-
+Dendron provides that **structure**. We make it possible for you to keep track of knowledge bases of any size. As an example, the author [@kevins8](https://twitter.com/kevins8) uses Dendron to manage +20K notes. 
 
 ### How does Dendron help me track my notes?
 
