@@ -109,5 +109,11 @@ publish:
 <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/3ce95a74c0cc40c5bd96ae1775edebbd-with-play.gif"> 
 4. Push your repository using `> Git: Push`
 
+## Exclude from publication
 
+To exclude a page from publication, you can add the following to the frontmatter:
 
+```yml
+...
+published: false
+```
