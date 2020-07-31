@@ -10,6 +10,7 @@
     "settings": {
         "dendron.rootDir": ".",
         "pasteImage.path": "${currentFileDir}/assets/images",
+        "pasteImage.prefix": "/",
         "editor.minimap.enabled": false,
         "files.autoSave": "onFocusChange",
         "materialTheme.accent": "Red",
