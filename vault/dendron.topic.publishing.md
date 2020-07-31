@@ -106,6 +106,8 @@ publish:
 2. When you are ready to publish, run the `> Dendron: Build Pod` command to prepare your site for publication. This builds your notes into the `siteRoot` directory which defaults to `docs`.
 <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/3d97846081b64c7baea23ff9d01512cd-with-play.gif"> 
 3. Commit your changes.
-4. Push your repository using `>Git: Push`
+<img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/3ce95a74c0cc40c5bd96ae1775edebbd-with-play.gif"> 
+4. Push your repository using `> Git: Push`
+
 
 
