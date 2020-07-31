@@ -9,7 +9,9 @@ created: 1595952505038
 
 To work with notes, Dendron uses  **lookups**. Lookups help you navigate a hierarchal corpus of notes.
 
-## Simple Example
+## Notes
+
+### Finding Notes
 
 Below is an example of a simple two level hierarchy with notes on various [command line interface](https://en.wikipedia.org/wiki/Command-line_interface) commands. Use `CMD+L` (we are going to use mac keybindings for this tutorial) to bring up the lookup and try some of the following queries.
 
@@ -19,7 +21,8 @@ Below is an example of a simple two level hierarchy with notes on various [comma
 - cli.dig
 ```
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/lookup-cli.gif)
-## Creating Notes
+
+### Creating Notes
 
 While we call it the `Lookup Bar`, you can also use it to create notes that don't exist. When you lookup for a note that hasn't been created, Dendron will create it for you. 
 
@@ -30,9 +33,28 @@ Dendron is all about reducing the friction between you and the information you c
 After you've created the note, you can click the 'x' next to the tab to come back to this screen.
 
 
-## Deleting Notes
+### Deleting Notes
 
 To delete `dendron.lookup.hello`, use the `CMD-SHIFT-D` shortcut on the note that you want to delete. Alternatively, you can also launch the `Command Bar` and type `Dendron: Delete Node` 
 
-
 After a note has been deleted, we automatically surface the parent note (in this case, [[dendron.topic.lookup]]).
+
+## Schemas
+
+Dendron also provides lookup for [[schemas | dendron.topic.schema]]. To lookup a schema, use `> Dendron: Lookup Schema` or the `cmd+shift+L` (`ctrl+ctrl+L` on windows and linux) shortcut to bring up the schema lookup.
+
+### Finding Schemas
+
+The process for finding schemas using Dendron is the same as that for finding notes.
+
+### Creating Schemas
+
+Just like with notes, if you enter the name of a schema that does not exist, Dendron will create it for you.
+
+Specifically, Dendron will create `{value}.schema.yml` in your vault. At this point, you are free to edit the schema. After you're satisfied with the result, you'll need to run [[> Dendron: Reload Index| dendron.topic.commands]] for it to take affect. 
+
+- TODO: Guide
+
+## Deleting Schemas
+
+The process for deleting schemas using Dendron is identical to deleting notes.
