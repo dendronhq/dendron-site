@@ -4,6 +4,7 @@
     - faq
     - tips
     - topic
+    - demo
 - id: faq
 - id: tips
 - id: demo
@@ -13,5 +14,5 @@
   namespace: true
 - id: template
   template: 
-    - id: dendron.template.example
-      type: note
+    id: dendron.template.example
+    type: note
