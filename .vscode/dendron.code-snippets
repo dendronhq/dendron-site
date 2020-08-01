@@ -1,17 +1,82 @@
 {
-	// Place your dendron-template workspace snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and 
-	// description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope 
-	// is left empty or omitted, the snippet gets applied to all languages. The prefix is what is 
-	// used to trigger the snippet and the body will be expanded and inserted. Possible variables are: 
-	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. 
-	// Placeholders with the same ids are connected.
-	// Example:
-	"s3 prefix": {
-		"scope": "markdown",
-		"prefix": "s3",
-		"body": [
-			"![$0](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/$1)",
-		],
-		"description": "image with s3 prefix"
-	}
+  // Place your dendron-template workspace snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and
+  // description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope
+  // is left empty or omitted, the snippet gets applied to all languages. The prefix is what is
+  // used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+  // $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders.
+  // Placeholders with the same ids are connected.
+  // Example:
+  "Insert image for dendron": {
+    "scope": "markdown",
+    "prefix": "/dendron.img",
+    "body": [
+      "![$0](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/$1)"
+    ],
+    "description": "image with s3 prefix"
+  },
+  "Insert bold text": {
+    "prefix": "/bold",
+    "body": "**${1:${TM_SELECTED_TEXT}}**$0",
+    "description": "Insert bold text"
+  },
+  "Insert italic text": {
+    "prefix": "/italic",
+    "body": "*${1:${TM_SELECTED_TEXT}}*$0",
+    "description": "Insert italic text"
+  },
+  "Insert quoted text": {
+    "prefix": "/quote",
+    "body": "> ${1:${TM_SELECTED_TEXT}}",
+    "description": "Insert quoted text"
+  },
+  "Insert code": {
+    "prefix": "/code",
+    "body": "`${1:${TM_SELECTED_TEXT}}`$0",
+    "description": "Insert code"
+  },
+  "Insert fenced code block": {
+    "prefix": "/fenced codeblock",
+    "body": ["```${1:language}", "${TM_SELECTED_TEXT}$0", "```"],
+    "description": "Insert fenced code block"
+  },
+  "Insert h1 heading": {
+    "prefix": "/h1",
+    "body": "# ${1:${TM_SELECTED_TEXT}}",
+    "description": "Insert heading"
+  },
+  "Insert h2 heading": {
+    "prefix": "/h1",
+    "body": "# ${1:${TM_SELECTED_TEXT}}",
+    "description": "Insert heading"
+  },
+  "Insert h3 heading": {
+    "prefix": "/h1",
+    "body": "# ${1:${TM_SELECTED_TEXT}}",
+    "description": "Insert heading"
+  },
+  "Insert unordered list": {
+    "prefix": "/unordered list",
+    "body": ["- ${1:first}", "- ${2:second}", "- ${3:third}", "$0"],
+    "description": "Insert unordered list"
+  },
+  "Insert ordered list": {
+    "prefix": "/ordered list",
+    "body": ["1. ${1:first}", "2. ${2:second}", "3. ${3:third}", "$0"],
+    "description": "Insert ordered list"
+  },
+  "Insert horizontal rule": {
+    "prefix": "/horizontal rule",
+    "body": "----------\n",
+    "description": "Insert horizontal rule"
+  },
+  "Insert link": {
+    "prefix": "/link",
+    "body": "[${TM_SELECTED_TEXT:${1:text}}](https://${2:link})$0",
+    "description": "Insert link"
+  },
+  "Insert image": {
+    "prefix": "/image",
+    "body": "![${TM_SELECTED_TEXT:${1:alt}}](https://${2:link})$0",
+    "description": "Insert image"
+  }
 }
