@@ -1,8 +1,7 @@
 - id: pro
   desc: projects
   parent: root
-  data: 
-    namespace: true
+  namespace: true
   children:
     - quickstart
     - concepts
@@ -21,5 +20,4 @@
 - id: install
 - id: topic
   desc: important areas of a project
-  data: 
-    namespace: true
+  namespace: true

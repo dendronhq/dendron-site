@@ -100,8 +100,7 @@ Below is an example of a three-level hierarchy describing cli commands. You don'
 - id: cli
   desc: command line interface reference
   parent: root
-  data:
-    namespace: true
+  namespace: true
   children:
     - cmd
     - env
@@ -109,8 +108,7 @@ Below is an example of a three-level hierarchy describing cli commands. You don'
   desc: variables relevant for command
 - id: cmd
   desc: subcommands
-  data:
-    namespace: true
+  namespace: true
 ```
 
 Schemas help you organize your notes by letting you know what comes next.
