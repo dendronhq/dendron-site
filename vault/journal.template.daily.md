@@ -9,7 +9,9 @@ created: 1596301096394
 ## Thoughts
 
 ## Tasks
-- [ ] 
+- [ ]
+- [ ]
+- [ ]
 
 ## 3 Things I'm Grateful For
 
