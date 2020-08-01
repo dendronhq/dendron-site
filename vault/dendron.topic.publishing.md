@@ -104,9 +104,13 @@ publish:
 ### Guide
 1. Depending on what notes you want to publish, you will want to update your `dendron.yml` file. By default, everything will be published
 2. When you are ready to publish, run the `> Dendron: Build Pod` command to prepare your site for publication. This builds your notes into the `siteRoot` directory which defaults to `docs`.
-<img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/3d97846081b64c7baea23ff9d01512cd-with-play.gif"> 
+<a href="https://www.loom.com/share/3d97846081b64c7baea23ff9d01512cd">
+<img style="" src="https://cdn.loom.com/sessions/thumbnails/3d97846081b64c7baea23ff9d01512cd-with-play.gif"> 
+</a>
 3. Commit your changes.
-<img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/3ce95a74c0cc40c5bd96ae1775edebbd-with-play.gif"> 
+<a href="https://www.loom.com/share/3ce95a74c0cc40c5bd96ae1775edebbd">
+<img style="" src="https://cdn.loom.com/sessions/thumbnails/3ce95a74c0cc40c5bd96ae1775edebbd-with-play.gif"> 
+</a>
 4. Push your repository using `> Git: Push`
 
 ## Exclude from publication

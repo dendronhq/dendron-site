@@ -10,4 +10,6 @@ created: 1595562035825
 
 Dendron automatically inserts images in your clipboard using the `> Paste Image` command. The image is saved to `${currentFileDir}/assets` by default.
 
-<img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/e1f6d207a1134f42b7a1a7750658acec-with-play.gif"> </a>
+<a href="https://www.loom.com/share/e1f6d207a1134f42b7a1a7750658acec">
+<img style="" src="https://cdn.loom.com/sessions/thumbnails/e1f6d207a1134f42b7a1a7750658acec-with-play.gif"> </a>
+</a>
