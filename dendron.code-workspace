@@ -5,7 +5,10 @@
         },
         {
             "path": "."
-        }
+        },
+        {
+            "path": "reports"
+        },
     ],
     "settings": {
         "dendron.rootDir": ".",
