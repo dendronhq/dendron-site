@@ -4,7 +4,7 @@ title: Quickstart
 desc: ''
 updated: 1595170096361
 created: 1595170096361
-nav_order: 2
+nav_order: 1
 ---
 # QuickStart
 

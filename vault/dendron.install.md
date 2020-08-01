@@ -4,7 +4,7 @@ title: Install
 desc: ''
 updated: 1595537796868
 created: 1595537796868
-nav_order: 1
+nav_hide: true
 ---
 
 # Installation
