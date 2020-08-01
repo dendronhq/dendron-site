@@ -53,8 +53,6 @@ Just like with notes, if you enter the name of a schema that does not exist, Den
 
 Specifically, Dendron will create `{value}.schema.yml` in your vault. At this point, you are free to edit the schema. After you're satisfied with the result, you'll need to run [[> Dendron: Reload Index| dendron.topic.commands]] for it to take affect. 
 
-- TODO: Guide
-
 ## Deleting Schemas
 
 The process for deleting schemas using Dendron is identical to deleting notes.
