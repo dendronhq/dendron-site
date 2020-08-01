@@ -20,7 +20,7 @@ By default, Dendron will create the journal note with the following hierarchy `{
 
 Dendron will also ~~create a **backlink** from your new note to the note that you were previously at. This link is added under `links` in the **frontmatter** of the note you were previously at~~ copy the link to the note in your clipboard so you can easily create backlinks in other notes (we've removed auto-backlinking temporarily as we figure out the right default behavior and UX). 
 
-<a href="https://www.loom.com/share/da562a166af9427e908a76be8bc38355"> <p>Dendron Tutorial - Journal Notes - Watch Video</p> <img src="https://cdn.loom.com/sessions/thumbnails/da562a166af9427e908a76be8bc38355-with-play.gif"> </a>
+<img src="https://cdn.loom.com/sessions/thumbnails/da562a166af9427e908a76be8bc38355-with-play.gif"> 
 
 ## Scratch Note
 
@@ -28,4 +28,4 @@ A scratch note is a self contained note that is meant to be used as scratchpad. 
 
 If you highlight text while creating a scratch note, the highlighted text will automatically be turned into a link to the new scratch note. 
 
-<a href="https://www.loom.com/share/104a3e0bb10f4012a831194d02483e4a"> <p>Dendron - Scratch Notes - Watch Video</p> <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/104a3e0bb10f4012a831194d02483e4a-with-play.gif"> </a>
+<img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/104a3e0bb10f4012a831194d02483e4a-with-play.gif">
