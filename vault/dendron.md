@@ -6,10 +6,7 @@ updated: 1595952505017
 created: 1595952505017
 ---
 
-<script async defer src="https://buttons.github.io/buttons.js"></script>
-
 # Dendron
-
 
 ![](https://travis-ci.com/dendronhq/dendron.svg?branch=master)
 

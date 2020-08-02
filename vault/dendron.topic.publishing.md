@@ -12,7 +12,6 @@ Dendron lets you publish the contents of your vault, either in its entirety or o
 
 ## Limitations
 
-- publishing only works with pages but not any assets that you might have (eg. images pasted using `Paste Images`)
 - currently not possible to publish multiple domains
   - current options when it comes to publishing are either everything (by setting noteRoot to `root`), one domain, or nothing
   - If you would like this feature, you can vote for it [here](https://github.com/dendronhq/dendron/issues/64).
