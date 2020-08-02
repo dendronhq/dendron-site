@@ -86,6 +86,8 @@ Schema templates let you specify a pre-defined template that will automatically 
 
 This is extremely useful whenver you want to re-use the outline of a note. Examples include daily journals, weekly shopping lists, and weekly reviews.  
 
+NOTE: you'll need to run `> Dendron: Reload Index` whenever you updated your schema for the changes to take effect. 
+
 <a href="https://www.loom.com/share/481b7ab051394c1caa383383bd265755"> 
 <img style="" src="https://cdn.loom.com/sessions/thumbnails/481b7ab051394c1caa383383bd265755-with-play.gif"> 
 </a>
