@@ -8,7 +8,7 @@
   // Example:
   "Insert image for dendron": {
     "scope": "markdown",
-    "prefix": "/dendron.img",
+    "prefix": "/found",
     "body": [
       "![$0](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/$1)"
     ],

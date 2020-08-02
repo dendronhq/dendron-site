@@ -8,15 +8,53 @@ created: 1595170096361
 
 # Publishing 🚧
 
-Dendron lets you publish the contents of your vault, either in its entirety or only a subset. What gets published is controlled by the `dendron.yml` file located inside your workspace. 
+Dendron lets you publish the contents of your vault, either in its entirety or only a subset. Notes are published under the [dendron-jekyll theme](https://github.com/dendronhq/dendron-jekyll). 
 
-## Limitations
+## Features
 
-- currently not possible to publish multiple domains
-  - current options when it comes to publishing are either everything (by setting noteRoot to `root`), one domain, or nothing
-  - If you would like this feature, you can vote for it [here](https://github.com/dendronhq/dendron/issues/64).
+### Nested Hierarchies
+
+dendron-jekyll supports the same nested hierarchies as your notes and allows you to navigate via the sidebar.
+
+<img style="max-width: 720px;" src="https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/site-hierarchy.gif" />
+
+### Lookup
+
+If you'd rather not click, dendron-jekyll also supports path based lookup.
+
+<img style="max-width: 720px;" src="https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/site-lookup.gif" />
+
+### Permanent Ids
+
+Every page is published using its unique ID which means that urls will never change, even if the filenames do.
+
+<img style="max-width: 720px;" src="https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/site-ids.jpg" />
+
+### Free hosting, custom domain names and SSL Certs
+
+If you have a free github account, then you can host your Dendron notes for free using [github pages](https://pages.github.com/) 
+
+<img style="max-width: 720px;" src="https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/site-domain.jpg" />
+
+### Jekyll Liquid Tags and Variables 
+
+You can find the docs on this under [[liquid| dendron.topic.liquid]]
+- NOTE: this will only be "compiled" in the published site but won't be rendered in the regular markdown 
+
+
+<img style="max-width: 720px;" src="https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/site-liquid.gif" />
+
+### Selective Publication
+
+You can choose to publish your whole vault or a single domain within your vault. 
+
+- NOTE: It is not currently possible to publish multiple domains. If you would like this feature, you can vote for it [here](https://github.com/dendronhq/dendron/issues/64).
 
 ## dendron.yml
+
+This config file controls what gets published. It is located at the root of your workspace. Below is a sample config.
+
+
 ```yml
 site:
   # the note that will serve as the root of your published website
@@ -102,15 +140,17 @@ publish:
 
 ### Guide
 1. Depending on what notes you want to publish, you will want to update your `dendron.yml` file. By default, everything will be published
-2. When you are ready to publish, run the `> Dendron: Build Pod` command to prepare your site for publication. This builds your notes into the `siteRoot` directory which defaults to `docs`.
-<a href="https://www.loom.com/share/3d97846081b64c7baea23ff9d01512cd">
-<img style="" src="https://cdn.loom.com/sessions/thumbnails/3d97846081b64c7baea23ff9d01512cd-with-play.gif"> 
-</a>
+1. Update the contents of `_config.yml` inside your `docs` folder to specify site wide configuration like logo and title.
+    - NOTE: this is located relative to `dendron.rootDir`
+    - if you do not have a `docs` folder, you can run `Dev:Dendron: Doctor` to create one
+2. When you are ready to publish, run the `> Dendron: Build Pod` command to prepare your site for publication. This builds your notes into the `siteRoot` directory which defaults to `docs`. `Build Pod` does the following when it builds your site:
+    - copies over the notes specified in `dendron.yml`
+    - creates a copy of your notes with the ids in place of the file names 
+    - updates all `wiki-links` to `markdown-links` so Jekyll can process it, preserving titles if there are any
 3. Commit your changes.
-<a href="https://www.loom.com/share/3ce95a74c0cc40c5bd96ae1775edebbd">
-<img style="" src="https://cdn.loom.com/sessions/thumbnails/3ce95a74c0cc40c5bd96ae1775edebbd-with-play.gif"> 
-</a>
 4. Push your repository using `> Git: Push`
+
+<a href="https://www.youtube.com/watch?v=VOZJxKg0-js">![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/dendron-publishing.jpg)</a>
 
 ## Exclude from publication
 

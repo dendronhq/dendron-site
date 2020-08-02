@@ -43,13 +43,17 @@ Dendron also provides lookup for [[schemas | dendron.topic.schema]]. To lookup a
 
 ### Finding Schemas
 
-The process for finding schemas using Dendron is the same as that for finding notes.
+The process for finding schemas using Dendron is the same as that for finding notes. One lookup to rule them all. 
+
+![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/schema-lookup.gif)
 
 ### Creating Schemas
 
 Just like with notes, if you enter the name of a schema that does not exist, Dendron will create it for you.
 
 Specifically, Dendron will create `{value}.schema.yml` in your vault. At this point, you are free to edit the schema. After you're satisfied with the result, you'll need to run [[> Dendron: Reload Index| dendron.topic.commands]] for it to take affect. 
+
+![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/schema-create.gif)
 
 ## Deleting Schemas
 

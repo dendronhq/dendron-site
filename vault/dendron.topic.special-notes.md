@@ -8,7 +8,7 @@ created: 1595004457029
 
 # Special Notes
 
-Dendron has builtin support for a variety of special note formats which we will cover in this section.
+Dendron has builtin support for a variety of special note formats. These notes can be created using regular lookup - these commands provide convenient shortcuts for frequently used notes. 
 
 ## Journal Note
 
