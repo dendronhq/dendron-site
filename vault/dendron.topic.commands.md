@@ -24,6 +24,10 @@ Dendron **does not** delete or overwrite any files during the **Change Workspace
 
 Dendron will re-initialize the index. This is currently necessary if you add new entries to a [[schema | dendron.topic.schema]] and want to see the updates in the current session. Otherwise, Dendron will re-index schemas the next time you reload/open your workspace.
 
+### Show Help
+
+Dendron will open your current browser to the [[quickstart | dendron.quickstart]] page. 
+
 ### Upgrade Settings
 
 Dendron will automatically update your workspace settings during version upgrades to make sure they stay up to date with new features and bundled extensions. If you've modified the settings or want to restore your settings back to their default, you can run this command.
