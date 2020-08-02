@@ -7,7 +7,7 @@ created: 1595261816971
 ---
 # Commands
 
-Dendron has a series of builtin commands. They are all prefixed with `Dendron:` and can be accessed throught the command prompt inside vscode. 
+Dendron has a series of builtin commands. They are all prefixed with `Dendron:` and can be accessed through the [command prompt](https://www.dendron.so/notes/c6fd6bc4-7f75-4cbb-8f34-f7b99bfe2d50.html#command-bar).
 
 ## Normal Commands
 
@@ -24,9 +24,13 @@ Dendron **does not** delete or overwrite any files during the **Change Workspace
 
 Dendron will re-initialize the index. This is currently necessary if you add new entries to a [[schema | dendron.topic.schema]] and want to see the updates in the current session. Otherwise, Dendron will re-index schemas the next time you reload/open your workspace.
 
-### Show Help
+### ShowHelp
 
 Dendron will open your current browser to the [[quickstart | dendron.quickstart]] page. 
+
+<a href="https://www.loom.com/share/b81ce02f30b84d79b92584f339184a00">
+<img style="" src="https://cdn.loom.com/sessions/thumbnails/b81ce02f30b84d79b92584f339184a00-with-play.gif"> 
+</a>
 
 ### Upgrade Settings
 
@@ -45,6 +49,10 @@ These commands should not be needed for regular use of Dendron but can aid in de
 This makes sure your workspace is up to date. It will execute the following actions:
 - add ids and titles to the frontmatter of all notes that are missing it
 - setup a `docs` folder if it doesn't exist. Required if you want to [[publish | dendron.topic.publishing]] your notes
+
+<a href="https://www.loom.com/share/bd045f708f8e474193de8e3de0dc820f"> 
+<img style="" src="https://cdn.loom.com/sessions/thumbnails/bd045f708f8e474193de8e3de0dc820f-with-play.gif"> 
+</a>
 
 ###  Open Logs
 
