@@ -6,10 +6,11 @@ updated: 1595952505017
 created: 1595952505017
 ---
 
-<!-- Place this tag in your head or just before your close body tag. -->
 <script async defer src="https://buttons.github.io/buttons.js"></script>
 
 # Dendron
+
+
 ![](https://travis-ci.com/dendronhq/dendron.svg?branch=master)
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/logo-256.png)
@@ -45,7 +46,10 @@ Some popular use cases include:
 
 ## Join Us
 
+<iframe src="https://ghbtns.com/github-btn.html?user=twbs&repo=bootstrap&type=star&count=true&size=large" frameborder="0" scrolling="0" width="170" height="30" title="GitHub"></iframe>
+
 To stay up to date on Dendron developments and all things knowledge management, you can follow us at [@dendronhq](https://twitter.com/dendronhq) or join us on [discord](https://discord.gg/6j85zNX)! 
+
 
 ## Features
 
