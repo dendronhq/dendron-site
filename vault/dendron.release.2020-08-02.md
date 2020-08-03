@@ -11,6 +11,11 @@ created: 1596374984386
 
 With the coming of August, 2020 is officially on the wane. I think many of us are ready for a fresh start. In the meantime, you can prepare for better times by playing with new Dendron features. Happy gardening! 🌱
 
+
+With this release, we are also conducting our first dendron user survey. It's a short survey that should take no more than 3 minutes to fill out and will help inform me on the future growth of Dendron. Your participation is immensely appreciated 🙏
+
+https://forms.gle/PPqe2axvwEmpXj4v5
+
 These release notes are summary of the more notable changes, for the full list, please look at our [CHANGELOG](https://github.com/dendronhq/dendron/blob/master/CHANGELOG.md)
 
 ## Legend
