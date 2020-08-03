@@ -13,7 +13,7 @@ created: 1595952505017
 
 <div class="alert alert-primary" role="alert">
 <a href="https://marketplace.visualstudio.com/items?itemName=dendron.dendron">Version 0.5.0</a> has planted 🌱 
-Read about the new features and fixes in our <a href="https://www.dendron.so/notes/e32aa1e2-9780-4183-927e-2f46372050aa.html">release notes</a></div>
+Read about the new features and fixes in our <a href="https://www.dendron.so/notes/e32aa1e2-9780-4183-927e-2f46372050aa.html">release notes</a>
 </div>
 
 # Dendron
