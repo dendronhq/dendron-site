@@ -12,6 +12,8 @@
     ],
     "settings": {
         "dendron.rootDir": ".",
+        "dendron.defaultJournalDateFormat": "Y.MM.DD",
+        "dendron.defaultScratchDateFormat": "Y.MM.DD-HHmmss",
         "pasteImage.path": "${currentFileDir}/assets/images",
         "pasteImage.prefix": "/",
         "editor.minimap.enabled": false,
