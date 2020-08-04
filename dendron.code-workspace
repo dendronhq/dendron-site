@@ -22,7 +22,11 @@
         "workbench.colorTheme": "Material Theme High Contrast",
         "markdown-preview-enhanced.wikiLinkFileExtension": ".md",
         "vscodeMarkdownNotes.noteCompletionConvention": "noExtension",
-        "cSpell.enabled": true
+        "cSpell.enabled": true,
+        "editor.snippetSuggestions": "inline",
+        "editor.suggest.snippetsPreventQuickSuggestions": false,
+        "editor.suggest.showSnippets": true,
+        "editor.tabCompletion": "on"
     },
     "extensions": {
         "recommendations": [
