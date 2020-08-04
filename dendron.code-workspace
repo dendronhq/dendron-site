@@ -26,16 +26,17 @@
     },
     "extensions": {
         "recommendations": [
-            "mushan.vscode-paste-image",
             "equinusocio.vsc-material-theme",
             "dendron.dendron-markdown-shortcuts",
             "dendron.dendron-markdown-preview-enhanced",
             "dendron.dendron-markdown-links",
-            "dendron.dendron-markdown-notes"
+            "dendron.dendron-markdown-notes",
+            "dendron.dendron-paste-image"
         ],
         "unwantedRecommendations": [
             "shd101wyy.markdown-preview-enhanced",
-            "kortina.vscode-markdown-notes"
+            "kortina.vscode-markdown-notes",
+            "mushan.vscode-paste-image"
         ]
     }
 }
