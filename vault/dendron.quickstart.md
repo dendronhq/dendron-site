@@ -22,6 +22,7 @@ This section covers the basics of Dendron. Get started on the right foot and sta
 - [ ] Go through Dendron's basic [[concepts |dendron.concepts]]
 - [ ] Do your first [[lookup |dendron.topic.lookup]] - a better way to find your notes
 - [ ] Learn about [[schemas |dendron.topic.schema]] - a flexible type system for all your notes
+- [ ] Use a [[snippet | dendron.topic.snippets]]
 - [ ] Insert an [[image |dendron.topic.images]]
 - [ ] Create some [[links |dendron.topic.links]]
 - [ ] Go deep into Dendron's [[additional capabilities |dendron.topic.capabilities]]
