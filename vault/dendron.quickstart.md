@@ -33,6 +33,7 @@ This section covers the basics of Dendron. Get started on the right foot and sta
 
 This section covers advanced functionality in Dendron. Become a seasoned backpacker by mastering these trails.
 
+- [ ] Check out our [[case studies | dendron.case-studies]]
 - [ ] Read our [[FAQ | dendron.faq ]]
 - [ ] Explore the [[graph view |dendron.topic.graph-view]]
 - [ ] Execute custom [[Dendron commands |dendron.topic.commands]]
