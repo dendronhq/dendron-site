@@ -56,7 +56,9 @@ Below is another way of representing the above schema
 the identifier of the schema. also designates the glob pattern match
 
 ### desc
-human readable description of the schema node
+human readable description of the schema node. these will automatically when creating notes that match the schema.
+
+![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/schema-desc.gif)
 
 ### parent
 only required for schema [domain](https://www.dendron.so/notes/c6fd6bc4-7f75-4cbb-8f34-f7b99bfe2d50.html#domain)

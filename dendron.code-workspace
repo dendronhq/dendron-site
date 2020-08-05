@@ -11,6 +11,8 @@
         }
     ],
     "settings": {
+        "workbench.editor.showTabs": true,
+        "workbench.editor.enablePreview": false,
         "dendron.rootDir": ".",
         "dendron.defaultJournalDateFormat": "Y.MM.DD",
         "dendron.defaultScratchDateFormat": "Y.MM.DD-HHmmss",

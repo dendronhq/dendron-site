@@ -15,3 +15,8 @@ Dendron automatically comes with snippets. They are available at in the followin
 
 You can modify snippets by using `> Preferences: Configure User Snippets` and selection `dendron.code-snippets`.
 
+# Using Snippets
+
+You can use intellisense to preview snippets and use `tab` key to complete them.
+
+![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/tab-autocomplete.gif)
