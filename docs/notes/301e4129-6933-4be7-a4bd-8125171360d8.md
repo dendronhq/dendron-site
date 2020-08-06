@@ -1,6 +1,6 @@
 ---
 id: 301e4129-6933-4be7-a4bd-8125171360d8
-title: Bundled-extensions
+title: Bundled Extensions
 desc: ''
 updated: 1596643515473
 created: 1596643515473
