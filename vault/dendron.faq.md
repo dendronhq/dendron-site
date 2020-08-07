@@ -12,9 +12,19 @@ All the questions we thought you might ask.
 
 ## General
 
-### What is Dendron?
+### What is a Dendron?
 
-Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you organize, manage, publish, and collaborate on knowledge bases of any size.
+A Dendron is many things. 
+
+1. Dendron is the greek word for tree. It's a reference to the hierarchal note taking that Dendron(3) enables. 
+
+2. Dendron is another word for [dendrite](https://en.wikipedia.org/wiki/Dendrite) which is an extension of the nerve cell that sends and receives signals in the brain. Think of Dendron(3) as a digital nervous system that helps you consolidate all the information that you care about in the fastest and most efficient way possible.
+
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Neuron_Hand-tuned.svg/2880px-Neuron_Hand-tuned.svg.png)
+- Image by [Quasar Jarosz](https://en.wikipedia.org/wiki/User:Quasar_Jarosz) at [English Wikipedia](https://en.wikipedia.org/wiki/)
+
+
+3. Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you organize, manage, publish, and collaborate on knowledge bases of any size.
 
 ### How is Dendron different from X note taking tool?
 
@@ -26,7 +36,7 @@ All note taking tools (try to make it) easy to get notes in. Its getting it back
 
 Whether you are using notebooks tags, or backlinks, once you have more than a few hundred notes, you'll need to have some sort of structure in place (eg. naming convention, hierarchy, etc) to keep track of it. 
 
-Dendron is a highly opinonated note taking tool that focuses on what I'm calling **structured note taking**. It provides the freedom of Roam's *every note exists everywhere philosophy* while offering **structure** through **flexible hierarchies**. 
+Dendron is a highly opinonated note taking tool that focuses on **hierarichal note taking**. It provides the freedom of Roam's *every note exists everywhere philosophy* while layering on top **flexible hierarchies** to keep track of it all. 
 
 While Dendron works with knowledge bases of any size, it really shines once you've accumulated a few hundred notes. I created it to handle my personal knowledge base of 20k+ markdown notes - Dendron lets me track and find any specific note in it in seconds.
 
@@ -50,7 +60,6 @@ That being said, I'm all in on Dendron and this is my full time gig. I want to m
     - eg. on premise installations of Dendron with single sign on, active directory, and fine grained permissions
 - offering private subscription based vaults (eg. think [substack](https://substack.com) but having people subscribe to vaults instead of newsletters )
 - server side IFFT like functionality (eg. everytime I add an entry to airtable, add a note to Dendron)
-
 
 ## Working with notes
 
