@@ -36,7 +36,7 @@ Dendron will open your current browser to the [[quickstart | dendron.quickstart]
 
 Dendron will automatically update your workspace settings during version upgrades to make sure they stay up to date with new features and bundled extensions. If you've modified the settings or want to restore your settings back to their default, you can run this command.
 
-## Refactor Commandso
+## Refactor Commands
 
 ### Rename File 🚧
 
