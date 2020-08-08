@@ -36,6 +36,30 @@ Dendron will open your current browser to the [[quickstart | dendron.quickstart]
 
 Dendron will automatically update your workspace settings during version upgrades to make sure they stay up to date with new features and bundled extensions. If you've modified the settings or want to restore your settings back to their default, you can run this command.
 
+## Refactor Commandso
+
+### Rename File 🚧
+
+NOTE: this command is still experimental and requires a little bit of setup. It's advisable to backup your files before running it. 
+
+Rename files will rename your note. It will also make sure that all links referencing said note are also updated. This command currently requires you download a separate program to help with the renaming. 
+
+Installation Instructions:
+1. Install pyenv by following instructions [here](https://github.com/pyenv/pyenv)
+1. Install python 3.7.5 by running `pyenv install 3.7.5`
+1. Run `pip install dendron-notesdir`
+1. Run `pyenv which notesdir` and copy the output 
+5. Run `Preferences: Open Workspaces Setting (JSON)` inside your Dendron Workspace
+6. Set `dendron.notesDirPath` to the output of `pyenv which notesdir`
+
+Limitations:
+- rename currently doesn't rename links in frontmatter
+- rename currently doesn't rename titles in the frontmatter or in `h1` headers
+- you need to run `Dendron: Reload Index` afterwards or navigate to the renamed link for Dendron to index the changes
+
+![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/command-rename.gif)
+
+
 ## Pod Commands
 
 Podslet you import and export notes in and out of Dendron. You can look at [[pods docs | dendron.topic.pod]] for a list of pod commands.
