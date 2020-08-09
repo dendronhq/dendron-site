@@ -50,13 +50,11 @@ async function main() {
 
 const sections = {
     commands: {},
+    notes: {},
+    other: {},
     pods: {},
     schemas: {},
-    notes: {},
-    fixes: {},
-    enhancements: {},
     workspace: {},
-    other: {},
 }
 
 main();

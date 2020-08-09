@@ -1,6 +1,6 @@
 ---
 id: 075e9806-0367-40a2-8154-2e84d5a020e2
-title: '2020-07-25 Release Notes'
+title: '{{ date }} Release Notes'
 desc: ''
 updated: 1596374871110
 created: 1596374871110
@@ -16,7 +16,17 @@ These release notes are summary of the more notable changes, for the full list, 
 
 - 🚧 experimental
 
-## Features
+{% for topic, notes in notes | groupby('topic') %}
+{% if topic != 'other' %} 
+## {{ topic.capitalize() }}
+{% for item in notes | groupby('ctype') | sort(attribute="grouper.feat") %}
+### {{ item['cmsg'].capitalize() }}
+- ([{{item.chash}}}())([docs]())
+
+{{ item.desc }}
+{% endfor %}
+{% endif %}
+{% endfor %}
 
 ## Thank You
 

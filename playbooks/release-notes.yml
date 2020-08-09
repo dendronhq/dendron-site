@@ -1,7 +1,9 @@
 - hosts: localhost # use all for remote
-  vars: 
-    date: "2020-08-09"
+  vars:
   tasks:
+    - name: include vars
+      include_vars:
+        file: ../data/v0.5.15.yml
     - name: copy release note
       template:
         src: ../vault/dendron.template.release.md

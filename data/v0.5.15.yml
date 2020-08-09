@@ -1,3 +1,7 @@
+version: 0.6
+date: 2020-08-09
+note: ""
+notes:
 -
     chash: a081587
     ctype: 'enhance:'
@@ -30,21 +34,21 @@
     chash: 239c63c
     ctype: 'fix:'
     cmsg: 'issue with buildpod logging'
-    topic: ""
+    topic: "pods"
     desc: ""
     tags: []
 -
     chash: 416a515
     ctype: 'fix:'
     cmsg: 'scratch note title set to fname'
-    topic: ""
+    topic: "notes"
     desc: ""
     tags: []
 -
     chash: 1b261ab
     ctype: 'fix:'
     cmsg: 'doctor reload index before doing backfill'
-    topic: ""
+    topic: "commands"
     desc: ""
     tags: []
 -
