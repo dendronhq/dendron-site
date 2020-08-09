@@ -11,7 +11,7 @@ Dendron has a series of builtin commands. They are all prefixed with `Dendron:` 
 
 ## Note Commands
 
-### Copy Link
+### Copy Note Link
 
 - shortcut: `CMD+SHIFT+C` (mac), `CTRL+SHIFT+C` (windows, linux)
 

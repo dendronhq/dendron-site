@@ -16,16 +16,31 @@ These release notes are summary of the more notable changes, for the full list, 
 
 - 🚧 experimental
 
-{% for topic, notes in notes | groupby('topic') %}
-{% if topic != 'other' %} 
+{% for topic, entries in notes | groupby('topic')%}
 ## {{ topic.capitalize() }}
-{% for item in notes | groupby('ctype') | sort(attribute="grouper.feat") %}
-### {{ item['cmsg'].capitalize() }}
-- ([{{item.chash}}}())([docs]())
+{% for ctype, entries_list in entries | groupby('ctype') %}
+{% if ctype == "feat:" %}
+{% for item in entries_list %}
+### {{ item['cmsg'] }}
+{{ item['desc'] }}
 
-{{ item.desc }}
 {% endfor %}
 {% endif %}
+{% if ctype == "enhance:" %}
+### Enhancements
+{% for item in entries_list %}
+- {{ item['cmsg'].capitalize() }}{% if item['desc'] != '' %}: {{ item['desc'] }} {% endif %} 
+{% endfor %}
+
+{% endif %}
+{% if ctype == "fix:" %}
+### Fixes
+{% for item in entries_list %}
+- {{ item['cmsg'].capitalize() }}{% if item['desc'] != '' %}: {{ item['desc'] }} {% endif %} 
+{% endfor %}
+
+{% endif %}
+{% endfor %}
 {% endfor %}
 
 ## Thank You

@@ -16,74 +16,67 @@ These release notes are summary of the more notable changes, for the full list, 
 
 - 🚧 experimental
 
- 
 ## Commands
-### Show feedback on copy note link
-- ([a081587}())([docs]())
+### Enhancements
+- Show feedback on copy note link 
+
+### Add Rename Note Command
+Do you have regrets? While there are some things that you can't take back, mis-naming a note should never be one of them. Dendron now let's you rename files and will update all links in all files that link to it!
+![rename](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/command-rename.gif)
 
 
-### Index notes created through rename
-- ([40f8fb6}())([docs]())
+### Add Copy Note Link Command
+School's out so its okay to copy notes. Use this to get the wiki-link (with title) of the current open note.
+![copy note link](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/command.copy-link.gif)
 
 
-### Standalone rename note command
-- ([72809a4}())([docs]())
-
-
-### Add copy note link command
-- ([5ca2434}())([docs]())
-
-
-### Doctor reload index before doing backfill
-- ([1b261ab}())([docs]())
-
-
+### Fixes
+- Issue with renamed notes not being indexed 
+- Issue where `doctor` doesnt backkfill newly created notes'
  
+
 ## Notes
-### Scratch note title set to fname
-- ([416a515}())([docs]())
+### Enhancements
+- Copy on create: Journal and Scratch notes will automatically copy their links to the clipboard after creation
+  
+
+### Flexible Configuration for Notes
+Notes are now more flexible than your yoga teacher. You can now customize every aspect of `Journal Notes` and `Scratch Notes` - change where they are added, the time format and even what they're called
 
 
-### Flexible configuration for journal notes and scratch notes
-- ([f26fb61}())([docs]())
+### Add Built in Snippets
+All the oneliners and bad jokes that you have for that special someone? Type them out faster than ever with built in snippets. This updates the default settings to allow tab-based snippet completion and also initialize new vaults with some default snippets. 
+![snippets](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/tab-autocomplete.gif)
 
 
-### Better scratch note command
-- ([277d240}())([docs]())
+### Fixes
+- Scratch note title set to fname 
+- Not all notes indexed in sparse vaults: There was an issue where certain notes without a full hierarchy would not be indexed by Dendron. That issue has now been eliminated.
+  
+- Notes created via link not being indexed properly: Issue where sometimes new notes created using link navigation wasn't being indexed. 
+  
+
+## Other
+### Make Dendron available on [Open VSX Registry](https://open-vsx.org/)
+Maybe you just don't like microsoft. Maybe you want to see other people. Whatever the reason, Dendron is now available on all VSCode compatible editors like [vscodium](https://vscodium.com/) and [Gitpod](https://www.gitpod.io/).
 
 
-### Not all notes indexed in sparse vaults
-- ([383b6e3}())([docs]())
-
-
-### Add built in snippets
-- ([b639998}())([docs]())
-
-
-### Notes created via link not being indexed properly
-- ([5c1b495}())([docs]())
-
-
- 
 ## Pods
-### Issue with buildpod logging
-- ([239c63c}())([docs]())
+### Fixes
+- Issue with buildpod logging 
 
-
- 
 ## Schemas
-### Remove data field from new schemas
-- ([0371ea4}())([docs]())
+### Enhancements
+- Remove data field from new schemas: Schema notes only show you fields that are required on creation. 
+  
+
+### Apply Schema Description to New Notes
+Schemas now automatically apply their description to newly created notes that match said schema. Because life is too short to annotate all your notes all the time. 
 
 
-### Apply schema description to new notes
-- ([c4b9f15}())([docs]())
-
-
- 
 ## Workspace
-### Update index when notes are deleted outside of dendron
-- ([93ad260}())([docs]())
+### Update Index When Notes are Deleted Outside of Dendron
+We know that sometimes, it can't be helped and you'll need to work with your notes outside of Dendron. If that work is deleting notes, Dendron will now keep track of it and remove it from its lookup index as well!
 
 
 
