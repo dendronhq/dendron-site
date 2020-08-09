@@ -3,7 +3,8 @@
 remote_theme: dendronhq/dendron-jekyll
 title: Dendron
 logo: "/assets/images/logo.png"
-exclude: ["node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "package.json", "package-lock.json",  "script/", "LICENSE.txt", "lib/", "bin/", "README.md", "Rakefile"]
+exclude: [ "node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "package.json", "package-lock.json",  "script/", "LICENSE.txt", "lib/", "bin/", "README.md", "Rakefile", "*/dendron.template.release.md"
+]
 footer_content: "Copyright &copy; 2020 Thence LLC"
 
 gh_edit_link: false # 
