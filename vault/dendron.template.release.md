@@ -22,6 +22,7 @@ These release notes are summary of the more notable changes, for the full list, 
 {% if ctype == "feat:" %}
 {% for item in entries_list %}
 ### {{ item['cmsg'] }}
+- {{ item['docs'] }}
 {{ item['desc'] }}
 
 {% endfor %}

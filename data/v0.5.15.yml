@@ -24,6 +24,7 @@ notes:
     docs: https://www.dendron.so/notes/eea2b078-1acc-4071-a14e-18299fc28f47.html#rename-note
     desc: | 
         Do you have regrets? While there are some things that you can't take back, mis-naming a note should never be one of them. Dendron now let's you rename files and will update all links in all files that link to it!
+
         ![rename](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/command-rename.gif)
     tags: []
 -
@@ -34,6 +35,7 @@ notes:
     topic: "commands"
     desc: |
         School's out so its okay to copy notes. Use this to get the wiki-link (with title) of the current open note.
+
         ![copy note link](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/command.copy-link.gif)
     tags: []
 -
@@ -88,6 +90,7 @@ notes:
     ctype: 'feat:'
     cmsg: 'Apply Schema Description to New Notes'
     topic: "schemas"
+    docs: https://www.dendron.so/notes/c5e5adde-5459-409b-b34d-a0d75cbb1052.html#desc
     desc: |
         Schemas now automatically apply their description to newly created notes that match said schema. Because life is too short to annotate all your notes all the time. 
     tags: []
@@ -107,11 +110,12 @@ notes:
     docs: https://www.dendron.so/notes/9eca1992-7540-4d9d-97fb-328b27748b2c.html
     desc: | 
         All the oneliners and bad jokes that you have for that special someone? Type them out faster than ever with built in snippets. This updates the default settings to allow tab-based snippet completion and also initialize new vaults with some default snippets. 
+
         ![snippets](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/tab-autocomplete.gif)
     tags: []
 -
     chash: 93ad260
-    ctype: 'feat:'
+    ctype: 'enhance:'
     cmsg: 'Update Index When Notes are Deleted Outside of Dendron'
     topic: "workspace"
     desc: |
