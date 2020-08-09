@@ -1,0 +1,112 @@
+-
+    chash: a081587
+    ctype: 'enhance:'
+    cmsg: 'show feedback on copy note link'
+    topic: "commands"
+    desc: ""
+    tags: []
+-
+    chash: 40f8fb6
+    ctype: 'fix:'
+    cmsg: 'index notes created through rename'
+    topic: "commands"
+    desc: ""
+    tags: []
+-
+    chash: 72809a4
+    ctype: 'feat:'
+    cmsg: 'standalone rename note command'
+    topic: "commands"
+    desc: ""
+    tags: []
+-
+    chash: 5ca2434
+    ctype: 'feat:'
+    cmsg: 'add copy note link command'
+    topic: "commands"
+    desc: ""
+    tags: []
+-
+    chash: 239c63c
+    ctype: 'fix:'
+    cmsg: 'issue with buildpod logging'
+    topic: ""
+    desc: ""
+    tags: []
+-
+    chash: 416a515
+    ctype: 'fix:'
+    cmsg: 'scratch note title set to fname'
+    topic: ""
+    desc: ""
+    tags: []
+-
+    chash: 1b261ab
+    ctype: 'fix:'
+    cmsg: 'doctor reload index before doing backfill'
+    topic: ""
+    desc: ""
+    tags: []
+-
+    chash: f26fb61
+    ctype: 'feat:'
+    cmsg: 'flexible configuration for journal notes and scratch notes'
+    topic: "notes"
+    desc: ""
+    tags: []
+-
+    chash: 277d240
+    ctype: 'feat:'
+    cmsg: 'better scratch note command'
+    topic: "notes"
+    desc: ""
+    tags: []
+-
+    chash: 0371ea4
+    ctype: 'enhance:'
+    cmsg: 'remove data field from new schemas'
+    topic: "schemas"
+    desc: ""
+    tags: []
+-
+    chash: c4b9f15
+    ctype: 'feat:'
+    cmsg: 'apply schema description to new notes'
+    topic: "schemas"
+    desc: ""
+    tags: []
+-
+    chash: 383b6e3
+    ctype: 'fix:'
+    cmsg: 'not all notes indexed in sparse vaults'
+    topic: "notes"
+    desc: ""
+    tags: []
+-
+    chash: b639998
+    ctype: 'feat:'
+    cmsg: 'add built in snippets'
+    topic: "notes"
+    desc: ""
+    tags: []
+-
+    chash: d2410cb
+    ctype: 'feat:'
+    cmsg: 'deploy to ovsx'
+    topic: "other"
+    desc: ""
+    tags: []
+-
+    chash: 93ad260
+    ctype: 'feat:'
+    cmsg: 'update index when notes are deleted outside of dendron'
+    topic: "workspace"
+    desc: ""
+    tags: []
+-
+    chash: 5c1b495
+    ctype: 'fix:'
+    cmsg: 'notes created via link not being indexed properly'
+    topic: "notes"
+    desc: ""
+    tags: []
