@@ -9,7 +9,18 @@ created: 1595261816971
 
 Dendron has a series of builtin commands. They are all prefixed with `Dendron:` and can be accessed through the [command prompt](https://www.dendron.so/notes/c6fd6bc4-7f75-4cbb-8f34-f7b99bfe2d50.html#command-bar).
 
-## Normal Commands
+## Note Commands
+
+### Copy Link
+
+- shortcut: `CMD+SHIFT+C` (mac), `CTRL+SHIFT+C` (windows, linux)
+
+Copies the current open document as a wiki link.
+
+![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/command.copy-link.gif)
+
+
+## Workspace Commands
 
 ### Initialize Workspace
 
@@ -38,24 +49,9 @@ Dendron will automatically update your workspace settings during version upgrade
 
 ## Refactor Commands
 
-### RenameNote 🚧
+### Rename Note 
 
-NOTE: this command is still experimental and requires a little bit of setup. It's advisable to backup your files before running it. 
-
-Rename files will rename your note. It will also make sure that all links referencing said note are also updated. This command currently requires you download a separate program to help with the renaming. 
-
-Installation Instructions:
-1. Install pyenv by following instructions [here](https://github.com/pyenv/pyenv)
-1. Install python 3.7.5 by running `pyenv install 3.7.5`
-1. Run `pip install dendron-notesdir`
-1. Run `pyenv which notesdir` and copy the output 
-5. Run `Preferences: Open Workspaces Setting (JSON)` inside your Dendron Workspace
-6. Set `dendron.notesDirPath` to the output of `pyenv which notesdir`
-
-Limitations:
-- rename currently doesn't rename links in frontmatter
-- rename currently doesn't rename titles in the frontmatter or in `h1` headers
-- you need to run `Dendron: Reload Index` afterwards or navigate to the renamed link for Dendron to index the changes
+Rename files will rename your note. It will also make sure that all links referencing said note are also updated. 
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/command-rename.gif)
 
