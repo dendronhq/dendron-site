@@ -12,17 +12,14 @@ created: 1596374871110
 
 These release notes are summary of the more notable changes, for the full list, please look at our [CHANGELOG](https://github.com/dendronhq/dendron/blob/master/CHANGELOG.md)
 
-## Legend
-
-- 🚧 experimental
 
 {% for topic, entries in notes | groupby('topic')%}
 ## {{ topic.capitalize() }}
 {% for ctype, entries_list in entries | groupby('ctype') %}
 {% if ctype == "feat:" %}
 {% for item in entries_list %}
-### {{ item['cmsg'] }}
-- {{ item['docs'] }}
+### {{ item['cmsg'] }} ([docs]({{ item['docs'] }}))
+
 {{ item['desc'] }}
 
 {% endfor %}
@@ -47,3 +44,7 @@ These release notes are summary of the more notable changes, for the full list, 
 ## Thank You
 
 Last and most of all, a big **thanks** to all these people that contributed issues and suggestions during this release.
+
+{% for ent in contributors %}
+- [{{ ent.name }}]({{ ent.profile }})
+{% endfor %}

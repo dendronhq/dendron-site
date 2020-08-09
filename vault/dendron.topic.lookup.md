@@ -45,7 +45,7 @@ Dendron also provides lookup for [[schemas | dendron.topic.schema]]. To lookup a
 
 The process for finding schemas using Dendron is the same as that for finding notes. One lookup to rule them all. 
 
-![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/schema-lookup.gif)
+![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/schema-lookup.gif)
 
 ### Creating Schemas
 

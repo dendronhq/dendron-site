@@ -6,5 +6,5 @@
         file: ../data/v0.5.15.yml
     - name: copy release note
       template:
-        src: ../vault/dendron.template.release.md
+        src: templates/dendron.template.release.md
         dest: "../vault/dendron.release.{{ date }}.md"
