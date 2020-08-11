@@ -13,6 +13,13 @@
                 "kind": "build",
                 "isDefault": true
             }
+        },
+        {
+            "label": "sync:assets",
+            "type": "shell",
+            "command": "./scripts/syncAssets.sh",
+            "options": {"cwd": "../"},
+            "problemMatcher": []
         }
     ]
 }

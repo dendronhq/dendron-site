@@ -19,6 +19,31 @@ Copies the current open document as a wiki link.
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/command.copy-link.gif)
 
+### Rename Note 
+
+Rename files will rename your note. It will also make sure that all links referencing said note are also updated. 
+
+![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/command-rename.gif)
+
+## Hierarchy Commands
+
+### Archive Hierarchy 
+
+This is a convenience method around `Refactor Hierarchy` for the case of archiving hierarchies you are no longer using. For example, if you were currently at `pro.foo`, running `Archive Hierarchy` would be equivalent to running `Refactor Hierarchy` with the following arguments:
+- matcher: `pro.foo`
+- replacement:  `archive.pro.foo`
+
+<a href="https://www.loom.com/share/9698d5a4451b49d8b107f3ff67d97877">  <img style="" src="https://cdn.loom.com/sessions/thumbnails/9698d5a4451b49d8b107f3ff67d97877-with-play.gif"> </a>
+
+### Refactor Hierarchy
+
+Like `Rename Note` but works on an entire hierarchy of notes. This command takes two arguments: 
+- matcher: regex that matches text you want to capture for replacement
+- replacer: regex that represents text you want to use as replacement
+
+After running the command, you will be taken to a preview that shows all files that will be affected. You will be given an option in a dropdown to either proceed with the refactor or cancel the operation. 
+<a href="https://www.loom.com/share/11d90a86fd1348a5a504406b52d79f85">
+ <img style="" src="https://cdn.loom.com/sessions/thumbnails/11d90a86fd1348a5a504406b52d79f85-with-play.gif"> </a>
 
 ## Workspace Commands
 
@@ -47,13 +72,6 @@ Dendron will open your current browser to the [[quickstart | dendron.quickstart]
 
 Dendron will automatically update your workspace settings during version upgrades to make sure they stay up to date with new features and bundled extensions. If you've modified the settings or want to restore your settings back to their default, you can run this command.
 
-## Refactor Commands
-
-### Rename Note 
-
-Rename files will rename your note. It will also make sure that all links referencing said note are also updated. 
-
-![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/command-rename.gif)
 
 
 ## Pod Commands
