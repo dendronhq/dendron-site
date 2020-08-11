@@ -18,8 +18,6 @@ To create a journal note, use the command bar to select the `>Dendron: New Journ
 
 By default, Dendron will create the journal note with the following hierarchy `{domain}.journal.{Y-MM-DD}`. `{domain}` is the **domain** of the current active note when you execute `New Journal Note`. 
 
-Dendron will also copy the link to the note in your clipboard so you can easily create backlinks in other notes.
-
 <a href="https://www.loom.com/share/da562a166af9427e908a76be8bc38355">
 <img src="https://cdn.loom.com/sessions/thumbnails/da562a166af9427e908a76be8bc38355-with-play.gif"> 
 </a>
