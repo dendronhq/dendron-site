@@ -48,6 +48,16 @@ After running the command, you will be taken to a preview that shows all files t
 ## Workspace Commands
 
 ### Initialize Workspace
+- input: 
+    - path to workspace
+    - initialization mode
+        - initialize with dendron tutorial notes,
+        - initialize empty repository,
+
+Create a new workspace. 
+
+![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/workspace-init.gif)
+
 
 ### Change Workspace
 - input: path to workspace
