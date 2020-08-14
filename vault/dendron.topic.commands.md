@@ -19,6 +19,13 @@ Copies the current open document as a wiki link.
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/command.copy-link.gif)
 
+### Copy Note Ref
+- shortcut: `CMD+SHIFT+R` (mac), `CTRL+SHIFT+R` (windows, linux)
+
+Copies a reference to the current open document. See [[references | dendron.topic.refs]] for more details.
+
+![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/ref-note.gif)
+
 ### Rename Note 
 
 Rename files will rename your note. It will also make sure that all links referencing said note are also updated. 

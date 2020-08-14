@@ -4,12 +4,6 @@ title: References
 desc: ''
 updated: 1597356582509
 created: 1597356582509
-data: {}
-fname: dendron.topic.refs
-stub: false
-parent: 7a7af2fa-b9d0-4adc-81e6-f03186123539
-children: []
-hpath: dendron.topic.refs
 ---
 
 # References 🚧
