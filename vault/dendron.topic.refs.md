@@ -11,9 +11,10 @@ created: 1597356582509
 Dendron allows you to reference content from other notes and embed them in your current note.
 
 Currently, Dendron supports 3 types of references:
-    - note references
-    - block references
-    - block range references
+
+- note references
+- block references
+- block range references
 
 References have the following syntax
 
@@ -24,6 +25,11 @@ References have the following syntax
     :#ENDING_HEADER                             # optional
 ))
 ```
+
+- NOTE: References only work with the regular markdown preview and not `Dendron Markdown Preview Enhanced`
+    - we are planning on migrating the core functionality of `Dendron Markdown Preview Enhanced` into the builtin VSCode markdown preview and shipt it as part of the `dendron` plugin in the future
+
+![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/ref-md-preview.jpg)
 
 - NOTE: Dendron has a `Copy Note Ref` command that will copy the reference of the current note.
 
