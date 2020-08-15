@@ -26,10 +26,6 @@ References have the following syntax
 ))
 ```
 
-- NOTE: References only work with the regular markdown preview and not `Dendron Markdown Preview Enhanced`
-    - we are planning on migrating the core functionality of `Dendron Markdown Preview Enhanced` into the builtin VSCode markdown preview and shipt it as part of the `dendron` plugin in the future
-
-![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/ref-md-preview.jpg)
 
 - NOTE: Dendron has a `Copy Note Ref` command that will copy the reference of the current note.
 
