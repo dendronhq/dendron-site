@@ -152,7 +152,9 @@ publish:
 
 <a href="https://www.youtube.com/watch?v=VOZJxKg0-js">![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/dendron-publishing.jpg)</a>
 
-## Exclude from publication
+## Advanced
+
+### Exclude from publication
 
 To exclude a page from publication, you can add the following to the frontmatter:
 
@@ -160,3 +162,15 @@ To exclude a page from publication, you can add the following to the frontmatter
 ...
 published: false
 ```
+
+### Exclude line from publication
+
+Sometimes, you just want to keep a few lines private while publishing the rest of your vault. You can do that with `Local only`. In order to mark a line as `Local Only`, add the following markdown comment at the end of the line: `<!--LOCAL_ONLY_LINE-->`
+
+```markdown
+Hello World!  <!-- Will be published -->
+
+This is a secret <!--LOCAL_ONLY_LINE--> <!-- won't be published -->
+```
+
+![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/pod-local.gif)
