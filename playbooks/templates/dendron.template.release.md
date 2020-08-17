@@ -16,7 +16,7 @@ These release notes are summary of the more notable changes, for the full list, 
 {% for topic, entries in notes | groupby('topic')%}
 ## {{ topic.capitalize() }}
 {% for ctype, entries_list in entries | groupby('ctype') %}
-{% if ctype == "feat:" %}
+{% if ctype == "feat" %}
 {% for item in entries_list %}
 ### {{ item['cmsg'] }} ([docs]({{ item['docs'] }}))
 
@@ -24,14 +24,14 @@ These release notes are summary of the more notable changes, for the full list, 
 
 {% endfor %}
 {% endif %}
-{% if ctype == "enhance:" %}
+{% if ctype == "enhance" %}
 ### Enhancements
 {% for item in entries_list %}
 - {{ item['cmsg'].capitalize() }}{% if item['desc'] != '' %}: {{ item['desc'] }} {% endif %} 
 {% endfor %}
 
 {% endif %}
-{% if ctype == "fix:" %}
+{% if ctype == "fix" %}
 ### Fixes
 {% for item in entries_list %}
 - {{ item['cmsg'].capitalize() }}{% if item['desc'] != '' %}: {{ item['desc'] }} {% endif %} 

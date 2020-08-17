@@ -3,6 +3,8 @@ const moment = require("moment");
 const _ = require("lodash");
 const YAML = require('yamljs');
 const fs = require("fs-extra");
+const { parseCommit } = require('parse-commit-message');
+
 
 
 async function gitLogs(repoPath) {
@@ -15,9 +17,22 @@ async function gitLogs(repoPath) {
     console.log(gitTagAnchor)
     const command = `git log ${gitTagAnchor}..HEAD --format=\'%C(auto) %h %s\'`;
     const out = await execa.command(command, { cwd: repoPath, shell: true })
+    // const re = new RegExp(/(?<type>(^[:\(])+)?)(\((?<topic>.+)\))?:?/);
+    // const parser = conventionalCommitsParser();
+    // sync()
     const commits = out.stdout.split("\n").map(line => {
-        const [skip, chash, ctype, ...cmsg] = line.split(" ")
-        return { chash, ctype, cmsg: cmsg.join(" ") }
+        // const out = sync(_.trim(line));
+        console.log(line);
+        const [skip, chash, ...ccommit] = line.split(" ")
+        console.log(ccommit);
+        const tmp = ccommit.join(" ");
+        console.log(tmp);
+        const out = parseCommit(tmp);
+        const {type: ctype, scope: topic, subject: cmsg} = out.header;
+        // const match = re.exec(ctype);
+        // const {type, topic}  = match.groups
+        // return { chash, ctype: type, topic, cmsg: cmsg.join(" ") }
+        return {chash, ctype, topic, cmsg}
     })
     const tag = { major, minor, patch }
     return { commits, tag };
@@ -31,7 +46,7 @@ async function cleanCommits(commits) {
 
 function addExtraFields(commits) {
     return commits.map(c => {
-        return { ...c, topic: "", desc: "", tags: [] }
+        return _.defaults(c, { topic: "", desc: "", tags: [] })
     })
 }
 

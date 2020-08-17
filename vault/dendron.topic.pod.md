@@ -7,7 +7,7 @@ created: 1595041605856
 custom: {}
 ---
 
-# Pod 🚧
+# Pods 🚧
 
 Pods are the mechanisms Dendron uses to import and export notes. Dendron has a different pod depending on where you are getting and publishing your data to. 
 
@@ -22,9 +22,8 @@ Note that not all pods will expose all three commands. The status of each pod me
 - ➖ no support applicable 
 - ❌ not currently supported
 
-## Pods
 
-### LocalFile 
+### LocalFile Pod
 - status
     - 🚧 import
     - ➖ build
@@ -76,7 +75,7 @@ Non-markdown files within a directory will be moved into the `assets` folder of 
 Note that all files starting with a `.` will be ignored during the import.
 
 
-### GithubPages
+### GithubPages Pod
 - coverage
     - ❌ import
     - 🚧 build

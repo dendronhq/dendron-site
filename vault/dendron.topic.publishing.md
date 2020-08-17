@@ -46,9 +46,9 @@ You can find the docs on this under [[liquid| dendron.topic.liquid]]
 
 ### Selective Publication
 
-You can choose to publish your whole vault or a single domain within your vault. 
+You can choose to publish your whole vault, a single domain, or multiple domains within your vault.
 
-- NOTE: It is not currently possible to publish multiple domains. If you would like this feature, you can vote for it [here](https://github.com/dendronhq/dendron/issues/64).
+- ~~NOTE: It is not currently possible to publish multiple domains. If you would like this feature, you can vote for it [here](https://github.com/dendronhq/dendron/issues/64)~~
 
 ## dendron.yml
 
@@ -66,13 +66,16 @@ site:
   # you can change the root to a specific `domain` 
   # this will set that `domain` as the home page
   # and publish everything under that domain
-  noteRoot: root
+  noteRoot: home
+  # specify domains that you want to publish
+  noteRoots: [home, books]
   # there's usually a built step before publishing your site
   # eg. converting your markdown files into jekyll-compatible
   # markdown files
   # 
   # this controls where the new documents will be published
   siteRoot: docs
+
 ```
 
 ### Example publishing entire vault
