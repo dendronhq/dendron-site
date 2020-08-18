@@ -1,6 +1,6 @@
 ---
 id: 683740e3-70ce-4a47-a1f4-1f140e80b558
-title: Faq
+title: FAQ
 desc: ''
 updated: 1595952505025
 created: 1595952505025
@@ -53,11 +53,14 @@ Hierarchies are one of the most effective ways that **both humans and computers*
 Dendron, the client, is free and will always remain free. It is also open source so anyone is free to make their own fork of Dendron.
 
 That being said, I'm all in on Dendron and this is my full time gig. I want to make sure that developing Dendron remains sustainable. To that end, I plan on introducing value add server side functionality that folks may pay for. Examples of paid for features include: 
+
 - private hosting (for folks who want to publish but not use github pages or want to add authentication)
 - enterprisy things 
     - eg. on premise installations of Dendron with single sign on, active directory, and fine grained permissions
 - offering private subscription based vaults (eg. think [substack](https://substack.com) but having people subscribe to vaults instead of newsletters )
 - server side IFTTT like functionality (eg. everytime I add an entry to airtable, add a note to Dendron)
+
+Paid for features will be 100% optional and will not be necessary for any client side functionality in Dendron.
 
 ## Working with notes
 
