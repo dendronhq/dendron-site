@@ -40,13 +40,14 @@ While Dendron works with knowledge bases of any size, it really shines once you'
 
 ### How does Dendron help me track my notes?
 
-1. Dendron organizes and collapse all your  notes into managable chunks using [[hiearchies | dendron.topic.hierarchies ]].
+1. Dendron organizes and collapse all your  notes into managable chunks using [[hiearchies |dendron.topic.hierarchies]].
 2. Dendron helps you manage your hiearchies using [[schemas | dendron.topic.schema ]]
 3. Dendron gets out of your way when your working with your notes during [[lookup |dendron.topic.lookup]]
 
 Dendron's secret sauce is that it provides the necessary tooling for you to work with hierarichal notes. While hierarchies have traditionally (and justifiably) gotten a bad, I would argue that this is because the **tooling** around hierarchies were bad, not because hierarchies themselves are bad. 
 
 Hierarchies are one of the most effective ways that **both humans and computers** process large amount of information (there's a reason why almost every database is built from a variation of the [b-tree](https://en.wikipedia.org/wiki/B-tree)). You can find further details about hierarchies in this [blog post](https://www.kevinslin.com/notes/e1455752-b052-4212-ac6e-cc054659f2bb.html.)
+
 
 ### Is Dendron Free? Will it stay free?
 

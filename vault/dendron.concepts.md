@@ -73,7 +73,7 @@ The same hiearchy in Dendron would look like the following:
 └── project1.tasks.task2.md
 ```
 
-You can read more about hierarchies [[here |dendron.topic.hierarchies]]
+You can read more about hierarchies [[here|dendron.topic.hierarchies]]
 
 ### Domain
 
