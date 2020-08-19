@@ -11,5 +11,4 @@ parent: d14ff02a-c80a-49b1-886e-5125c31c129a
 children: []
 hpath: dendron.demo.template
 ---
-
 I am text from a template.

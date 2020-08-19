@@ -12,9 +12,6 @@ parent: 7a7af2fa-b9d0-4adc-81e6-f03186123539
 children: []
 hpath: dendron.topic.workspace
 ---
-
-
 # Workspace
 
 In Dendron, your **workspace** is the root of where all your files are located. It's definde by the `dendron.rootDir` property and created when you first run `Dendron: Initialize Workspace`.
-
