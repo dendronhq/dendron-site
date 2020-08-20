@@ -20,6 +20,12 @@
             "command": "./scripts/syncAssets.sh",
             "options": {"cwd": "../"},
             "problemMatcher": []
+        },
+        {
+            "label": "check:links",
+            "type": "shell",
+            "command": "./scripts/check_links.sh",
+            "problemMatcher": []
         }
     ]
 }

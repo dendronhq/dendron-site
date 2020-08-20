@@ -21,7 +21,7 @@ Blog Optimized Features:
     - NOTE: currently, only `figure` is supported
 
 ## Getting Started
-- 🚧 Instructions are currently being written and will be up soon. If you're feeling adventurous, you can publish your own blog by following the code in this [repo]([repo](https://github.com/kevinslin/dendron-kevinslin))
+- 🚧 Instructions are currently being written and will be up soon 
 
 # Remote and Gem Based Themes
 
