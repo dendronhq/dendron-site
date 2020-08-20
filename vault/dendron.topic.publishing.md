@@ -58,7 +58,7 @@ This config file controls what gets published. It is located at the root of your
 ```yml
 site:
   siteHierarchies: [dendron]
-  siteRoot: docs
+  siteRootDir: docs
 ```
 
 ## Properties
@@ -71,7 +71,7 @@ List of hierarchies to publish
 - optional, path of your index (home page)
 - defaults to the first element of `siteHierarchies`
 
-### siteRoot: str
+### siteRootDir: str
 
 Location of the directory where site will be build. Relative to your workspace
 
@@ -157,7 +157,7 @@ publish:
 1. Update the contents of `_config.yml` inside your `docs` folder to specify site wide configuration like logo and title.
     - NOTE: this is located relative to `dendron.rootDir`
     - if you do not have a `docs` folder, you can run `Dev:Dendron: Doctor` to create one
-2. When you are ready to publish, run the `> Dendron: Build Pod` command to prepare your site for publication. This builds your notes into the `siteRoot` directory which defaults to `docs`. `Build Pod` does the following when it builds your site:
+2. When you are ready to publish, run the `> Dendron: Build Pod` command to prepare your site for publication. This builds your notes into the `siteRootDir` directory which defaults to `docs`. `Build Pod` does the following when it builds your site:
     - copies over the notes specified in `dendron.yml`
     - creates a copy of your notes with the ids in place of the file names 
     - updates all `wiki-links` to `markdown-links` so Jekyll can process it, preserving titles if there are any
