@@ -52,42 +52,28 @@ You can choose to publish your whole vault, a single domain, or multiple domains
 
 ## dendron.yml
 
-This config file controls what gets published. It is located at the root of your workspace. Below is a sample config.
+This config file controls what gets published. It is located at the root of your workspace. Below is the config that is used to publish `dendron.so` from the contents of this [repo](https://github.com/dendronhq/dendron-template)
 
 
 ```yml
 site:
-  # the note that will serve as the root of your published website
-  # by default, dendron will set the root to `root`
-  # 
-  # this means the contents of `root.md` will be set as your home 
-  # page and that all the contents # of your vault will be published
-  # 
-  # you can change the root to a specific `domain` 
-  # this will set that `domain` as the home page
-  # and publish everything under that domain
-  noteRoot: home
-  # specify domains that you want to publish
-  noteRoots: [home, books]
-  # there's usually a built step before publishing your site
-  # eg. converting your markdown files into jekyll-compatible
-  # markdown files
-  # 
-  # this controls where the new documents will be published
+  siteHierarchies: [dendron]
   siteRoot: docs
-
-site:
-  noteRoot: home
-  noteRoots: [home, blog, books]
-  siteRoot: docs
-  # optional, per hierarchy overrides
-  config:
-    books:
-      # only publish if `published` is set to true in the frontmatter
-      publishByDefault: false
 ```
 
 ## Properties
+
+### siteHierarchies: str[]
+
+List of hierarchies to publish
+
+### siteIndex?: str
+- optional, path of your index (home page)
+- defaults to the first element of `siteHierarchies`
+
+### siteRoot: str
+
+Location of the directory where site will be build. Relative to your workspace
 
 ### config
 
@@ -117,7 +103,7 @@ The list of possible options:
 - dendron.yml
 ```yml
 publish:
-  root: root
+  siteHierarchies: [root]
 ```
 - what gets published
 
@@ -143,7 +129,7 @@ publish:
 - dendron.yml
 ```yml
 publish:
-  root: dendron
+  siteHierarchies: [dendron]
 ```
 - published:
 
@@ -184,7 +170,7 @@ publish:
 
 ### Exclude from publication
 
-To exclude a page from publication, you can add the following to the frontmatter:
+To exclude a page from publication, you can add the following to the frontmatter. If you set `publishByDefault: false` for a hierarchy, this needs to be set to `true` to publish
 
 ```yml
 ...
