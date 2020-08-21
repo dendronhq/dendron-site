@@ -17,11 +17,9 @@ All the questions we thought you might ask.
 A Dendron is many things. 
 
 1. Dendron is the greek word for tree. It's a reference to the hierarchal note taking that Dendron(3) enables. 
-
 2. Dendron is another word for [dendrite](https://en.wikipedia.org/wiki/Dendrite) which is an extension of the nerve cell that sends and receives signals in the brain. Think of Dendron(3) as a digital nervous system that helps you consolidate all the information that you care about in the fastest and most efficient way possible.
     ![](https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Neuron_Hand-tuned.svg/2880px-Neuron_Hand-tuned.svg.png)
-- Image by Quasar Jarosz at English Wikipedia
-
+    - Image by Quasar Jarosz at English Wikipedia
 3. Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you organize, manage, publish, and collaborate on knowledge bases of any size.
 
 ### How is Dendron different from X note taking tool?
