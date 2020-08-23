@@ -5,8 +5,8 @@ desc: ''
 updated: 1595952505039
 created: 1595952505039
 ---
-# Schemas
 
+# Schemas
 
 As you end up creating more notes, it can be hard to keep track of it all. This is why Dendron has **schemas** to help you manage your notes at scale. Think of schemas as an **optional type system** for your notes. They describe the hierarchy of your data and are themselves, represented as a hierarchy.
 
@@ -21,6 +21,8 @@ A schema is a YAML file with the following naming scheme `{name}.schema.yml`
 Below is an example of a four-level hierarchy describing cli commands. The `id` field of the schema is used to build a [glob pattern](https://facelessuser.github.io/wcmatch/glob/) which will be used to match notes matching the schema.
 
 ```yml
+version: 1
+schemas:
 # this will match "cli.*" notes
 - id: cli 
   # human readable description of hierarchy
@@ -52,26 +54,113 @@ Below is another way of representing the above schema
 ```
 
 ## Schema Properties
-### id
-the identifier of the schema. also designates the glob pattern match
 
-### desc
+### version (optional): number
+- values: `0|1`
+- default: 0
+- description: schema version number
+
+### imports (optional): str[]
+- values: list of schemas to import
+- default: []
+- description: import schemas from another schema into the current schema
+  - when using schemas from an external schema file, you will need to prefix the schema with the file name without the `schema.yml` suffix
+- NOTE: `import` is only available in schema version `1`
+
+Example:
+
+- foo.schema. yml
+```yml
+version: 1
+imports:
+- bar
+schemas:
+- id: foo
+  parent: root
+  children:
+    - bar.bar # notice that we prefix the id bar with the filename
+```
+
+- bar.schema.yml
+```yml
+version: 1
+schemas:
+- id: bar
+  parent: root
+  children: 
+    - one
+- id: one
+```
+
+The above would match the following files
+
+```
+foo.bar # match
+foo.bar.one #match
+```
+
+### schemas
+- list of schema entities
+
+#### id
+
+the identifier of the schema. also designates the glob pattern match. this is the **only** required part of a schema. all other fields are optional
+
+#### desc
 human readable description of the schema node. these will automatically when creating notes that match the schema.
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/schema-desc.gif)
 
-### parent
+#### parent
 only required for schema [domain](https://www.dendron.so/notes/c6fd6bc4-7f75-4cbb-8f34-f7b99bfe2d50.html#domain)
 
-### namespace
+#### namespace
 
 designates this schema as a namespace meaning it will match any arbitrary child. equivalent to `{id}.*` glob pattern
 
-### children
+#### pattern
+
+glob pattern that schema matches. by default, this is the `id` of the schema. you can override this. 
+
+For example, take a look at the journal schema below
+```yml
+schemas:
+- id: journal
+  title: journal
+  desc: ""
+  parent: root
+  children:
+    - year
+- id: year
+  title: year
+  pattern: "[0-2][0-9][0-9][0-9]"
+  children: 
+    - month
+- id: month
+  title: month
+  pattern: "[0-9][0-9]"
+  children: 
+    - day
+- id: day
+  title: day
+  pattern: "[0-9][0-9]"
+  namespace: true
+```
+
+This will match the following queries
+```
+journal
+journal.2020
+journal.2020.09
+journal.2020.09.12
+journal.2020.09.12.foo.md
+```
+
+#### children
 
 list of ids of schemas that are the child of the current schema
 
-### template
+#### template
 a template you can apply to all notes that match this schema
 ```yml
 template:
