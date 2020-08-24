@@ -29,6 +29,6 @@ Dendron Jekyll works as both a github remote theme and as a gem based theme. [de
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/jekyll-dendron-so.gif)
 
-[kevinslin.com](https://www.kevinslin.com/) is built as a gem based theme from this [repo](https://github.com/kevinslin/dendron-kevinslin) and deployed using [AWS Amplify](https://aws.amazon.com/amplify/). 
+[kevinslin.com](https://www.kevinslin.com/) is built as a gem based theme from a private github repo and deployed using [AWS Amplify](https://aws.amazon.com/amplify/). 
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/jekyll-kevinslin.gif)

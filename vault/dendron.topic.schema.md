@@ -149,11 +149,11 @@ schemas:
 
 This will match the following queries
 ```
-journal
-journal.2020
-journal.2020.09
-journal.2020.09.12
-journal.2020.09.12.foo.md
+# journal
+# journal.2020
+# journal.2020.09
+# journal.2020.09.12
+# journal.2020.09.12.foo.md
 ```
 
 #### children

@@ -1,5 +1,5 @@
 ---
-id: 075e9806-0367-40a2-8154-2e84d5a020e2
+id: 075e9806-0367-40a2-8154-2e84d5a1110
 title: '{{ date }} Release Notes'
 desc: ''
 updated: 1596374871110
@@ -15,7 +15,8 @@ These release notes are summary of the more notable changes, for the full list, 
 
 {% for topic, entries in notes | groupby('topic')%}
 ## {{ topic.capitalize() }}
-{% for ctype, entries_list in entries | groupby('ctype') %}
+{% for ctype_order, entries_list in entries | groupby('ctype') %}
+{% set ctype = ctype_order.split("-")[1] %}
 {% if ctype == "feat" %}
 {% for item in entries_list %}
 ### {{ item['cmsg'] }} ([docs]({{ item['docs'] }}))
@@ -43,7 +44,7 @@ These release notes are summary of the more notable changes, for the full list, 
 
 ## Thank You
 
-Last and most of all, a big **thanks** to all these people that contributed issues and suggestions during this release.
+Last and most of all, a big **thanks** to the following gardeners that brought up issues and contributed fixes to this release.
 
 {% for ent in contributors %}
 - [{{ ent.name }}]({{ ent.profile }})

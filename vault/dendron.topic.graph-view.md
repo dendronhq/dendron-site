@@ -28,7 +28,7 @@ Show your note hierarchies visually in a graph.
 
 ### Dendron: Show Schema Graph
 
-Show your note schemas visually in a graph.
+Show your note schemas visually in a graph. Schemas will be labelled by their `title` attribute. If `title` is not set, default to its `id`.
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/graphs.show-schema.gif)
 

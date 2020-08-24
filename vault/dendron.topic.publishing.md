@@ -88,6 +88,17 @@ The list of possible options:
 - publishByDefault: boolean, default: true
   - if set to false, dendron will only publish notes within the hierarchy that have `published: true` set in the frontmatter
 
+As an example, below is the config for [my website](https://kevinslin.com). It publishes everything under the `home` and `blog` hierarchies but will only publish notes under `books` if `published: true` is set on the frontmatter. 
+
+- dendron.yml
+```yml
+site:
+  siteHierarchies: [home, blog, books]
+  siteRootDir: docs
+  config:
+    books:
+      publishByDefault: false
+```
 
 ### Example publishing entire vault
 - vault
