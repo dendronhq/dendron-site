@@ -7,6 +7,7 @@ exclude: [ "node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "pa
 ]
 footer_content: "Copyright &copy; 2020 Thence LLC"
 
+
 gh_edit_link: false # 
 
 # seo

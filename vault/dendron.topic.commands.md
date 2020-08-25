@@ -42,6 +42,14 @@ This is a convenience method around `Refactor Hierarchy` for the case of archivi
 
 <a href="https://www.loom.com/share/9698d5a4451b49d8b107f3ff67d97877">  <img style="" src="https://cdn.loom.com/sessions/thumbnails/9698d5a4451b49d8b107f3ff67d97877-with-play.gif"> </a>
 
+### Go Up Hierarchy
+
+- shortcut: `CMD+u` (mac), `CTRL+u` (windows, linux)
+
+Go up to the closest non-stub parent of the currently open note. 
+
+![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/hierarchy.go-up.gif)
+
 ### Refactor Hierarchy
 
 Like `Rename Note` but works on an entire hierarchy of notes. This command takes two arguments: 
