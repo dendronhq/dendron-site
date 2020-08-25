@@ -83,7 +83,7 @@ See the [[FAQ | dendron.faq]] for answers for common questions.
 
 ## Contributing
 
-We welcome community contributions and pull requests. See [CONTRIBUTING](https://github.com/dendronhq/dendron/blob/master/CONTRIBUTING.md) for information on how to set up a development environment and submit code.
+We welcome community contributions and pull requests. See [CONTRIBUTING](https://github.com/dendronhq/dendron/blob/master/docs/CONTRIBUTING.md) for information on how to set up a development environment and submit code.
 
 ## License
 
