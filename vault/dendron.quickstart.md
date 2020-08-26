@@ -13,7 +13,7 @@ This guide will help get you started with Dendron.
 ## Pre-requisites
 
 - [[Install Dendron |dendron.install]]
-- Get familiar with the [basics](https://code.visualstudio.com/docs/editor/codebasics) of VSCode, an open source [IDE](https://www.codecademy.com/articles/what-is-an-ide) from Microsoft (and what Dendron is built on top of) 
+<!-- - Get familiar with the [basics](https://code.visualstudio.com/docs/editor/codebasics) of VSCode, an open source [IDE](https://www.codecademy.com/articles/what-is-an-ide) from Microsoft (and what Dendron is built on top of)  -->
 
 ## The Trail 🥾
 
