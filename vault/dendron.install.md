@@ -4,20 +4,18 @@ title: Install
 desc: ''
 updated: 1595537796868
 created: 1595537796868
-nav_exclude: true
+nav_order: 0.9
 ---
 
-# Installation
+# Install
 Dendron can be installed as a [vscode plugin](https://marketplace.visualstudio.com/items?itemName=dendron.dendron). If you don't already have VSCode, you can download it [here](https://code.visualstudio.com/).
 
 After you have downloaded the plugin, following the instructions to create your first **workspace**.
 
 1. Launch the _command bar_:
-
-- <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf">Linux</a> `Ctrl+SHIFT+P`
-- <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf">macOS</a> `CMD+SHIFT+P`
-- <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf">Windows</a> `Ctrl+SHIFT+P`
-
+    - Linux: `Ctrl+SHIFT+P`
+    - macOS: `CMD+SHIFT+P`
+    - Windows: `Ctrl+SHIFT+P`
 2. Paste the following command and press `Enter`:
 
 ```sh
