@@ -13,7 +13,7 @@ created: 1595952505017
 
 <div class="alert alert-primary" role="alert">
 <a href="https://www.dendron.so/notes/075e9806-0367-40a2-8154-2e84d5a1110.html">Version 0.8.0</a> has planted 🌱 
-Read about the new features and fixes in our release notes</a>
+Read about the new features and fixes in our release notes
 </div>
 
 # Dendron

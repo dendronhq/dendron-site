@@ -39,7 +39,8 @@
             "dendron.dendron-markdown-preview-enhanced",
             "dendron.dendron-markdown-links",
             "dendron.dendron-markdown-notes",
-            "dendron.dendron-paste-image"
+            "dendron.dendron-paste-image",
+            "github.github-vscode-theme"
         ],
         "unwantedRecommendations": [
             "shd101wyy.markdown-preview-enhanced",
