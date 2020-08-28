@@ -25,6 +25,10 @@ schemas:
   children:
     - setup
     - design
+    - testing
+    - debug
 - id: setup
 - id: design
   namepspace: true
+- id: testing
+- id: debug

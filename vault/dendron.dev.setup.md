@@ -48,3 +48,11 @@ npx lerna run build --scope @dendronhq/plugin-core
  cd packages/plugin-core/
  ./scripts/sync_vault.sh
 ```
+
+## Developing
+
+To continuously compile all dependencies, run the following
+
+```sh
+npx lerna run watch --parallel --scope @dendronhq/common-all --scope @dendronhq/common-server --scope @dendronhq/engine-server --scope @dendronhq/plugin-core --scope @dendronhq/dendron-cli
+```
