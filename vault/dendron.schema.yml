@@ -1,4 +1,6 @@
 version: 1
+imports:
+  - pro
 schemas:
 - id: dendron
   parent: root
@@ -7,6 +9,7 @@ schemas:
     - tips
     - topic
     - demo
+    - dev
 - id: faq
 - id: tips
 - id: demo
@@ -18,3 +21,10 @@ schemas:
   template: 
     id: dendron.template.example
     type: note
+- id: dev
+  children:
+    - setup
+    - design
+- id: setup
+- id: design
+  namepspace: true

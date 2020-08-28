@@ -4,6 +4,7 @@ title: Welcome
 desc: ''
 updated: 1598457956604
 created: 1598457956604
+nav_exclude: true
 ---
 
 # Welcome to Dendron 🌲
