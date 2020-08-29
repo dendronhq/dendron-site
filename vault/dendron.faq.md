@@ -81,4 +81,4 @@ Dendron **does not** delete or overwrite any files during the **Change Workspace
 
 ### How do I save?
 
-Dendron automatically saves when you change focus (switch tabs or applications). You can also manually save using `CMD+S` or `CTRL+S` depending on your operating system
+Dendron automatically saves when you change focus (switch tabs or applications). You can also manually save using `Cmd+S` or `Ctrl+S` depending on your operating system

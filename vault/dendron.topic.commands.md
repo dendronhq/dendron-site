@@ -13,14 +13,14 @@ Dendron has a series of builtin commands. They are all prefixed with `Dendron:` 
 
 ### Copy Note Link
 
-- shortcut: `CMD+SHIFT+C` (mac), `CTRL+SHIFT+C` (windows, linux)
+- shortcut: `Cmd+Shift+C` (mac), `Ctrl+Shift+C` (windows, linux)
 
 Copies the current open document as a wiki link.
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/command.copy-link.gif)
 
 ### Copy Note Ref
-- shortcut: `CMD+SHIFT+R` (mac), `CTRL+SHIFT+R` (windows, linux)
+- shortcut: `Cmd+Shift+R` (mac), `Ctrl+Shift+R` (windows, linux)
 
 Copies a reference to the current open document. See [[references | dendron.topic.refs]] for more details.
 
@@ -44,7 +44,7 @@ This is a convenience method around `Refactor Hierarchy` for the case of archivi
 
 ### Go Up Hierarchy
 
-- shortcut: `CMD+u` (mac), `CTRL+u` (windows, linux)
+- shortcut: `Cmd+Shift+UpArrow` (mac), `Ctrl+Shift+UpArrow` (windows, linux)
 
 Go up to the closest non-stub parent of the currently open note. 
 
@@ -98,9 +98,9 @@ Dendron will open your current browser to the [[quickstart | dendron.quickstart]
 
 ### ShowPreview
 
-- shortcut: `CTRL+SHIFT+R`
+- shortcut: `Ctrl+K V`
 
-Dendron will open up `Dendron Markdown Preview` to the site if it is installed. It will open the regular markdown preview otherwise. 
+Dendron will open up `Dendron Markdown Preview` to the side if it is installed. It will open the regular markdown preview otherwise. 
 
 ### Upgrade Settings
 

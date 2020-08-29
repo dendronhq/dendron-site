@@ -13,7 +13,7 @@ To work with notes, Dendron uses  **lookups**. Lookups help you navigate a hiera
 
 ### Finding Notes
 
-Below is an example of a simple two level hierarchy with notes on various [command line interface](https://en.wikipedia.org/wiki/Command-line_interface) commands. Use `CMD+L` (we are going to use mac keybindings for this tutorial) to bring up the lookup and try some of the following queries.
+Below is an example of a simple two level hierarchy with notes on various [command line interface](https://en.wikipedia.org/wiki/Command-line_interface) commands. Use `Cmd+L` (we are going to use mac keybindings for this tutorial) to bring up the lookup and try some of the following queries.
 
 ```
 - cli.tar
@@ -35,11 +35,11 @@ After you've created the note, you can click the 'x' next to the tab to come bac
 
 ### Deleting Notes
 
-To delete `dendron.lookup.hello`, use the `CMD-SHIFT-D` shortcut on the note that you want to delete. Alternatively, you can also launch the `Command Bar` and type `Dendron: Delete Node` 
+To delete `dendron.lookup.hello`, use the `Cmd+Shift+D` shortcut on the note that you want to delete. Alternatively, you can also launch the `Command Bar` and type `Dendron: Delete Node` 
 
 ## Schemas
 
-Dendron also provides lookup for [[schemas | dendron.topic.schema]]. To lookup a schema, use `> Dendron: Lookup Schema` or the `cmd+shift+L` (`ctrl+shift+L` on windows and linux) shortcut to bring up the schema lookup.
+Dendron also provides lookup for [[schemas | dendron.topic.schema]]. To lookup a schema, use `> Dendron: Lookup Schema` or the `Cmd+Shift+L` (`Ctrl+Shift+L` on windows and linux) shortcut to bring up the schema lookup.
 
 ### Finding Schemas
 
