@@ -1,0 +1,278 @@
+{
+    "notes": [
+        {
+            "key": "dendron.gotoNote",
+            "title": "Goto Note",
+            "group": "notes",
+            "skipDocs": true
+        },
+        {
+            "key": "dendron.createDailyJournalNote",
+            "title": "Dendron: Create Daily Journal Note",
+            "group": "notes",
+            "keybindings": {
+                "key": "ctrl+shift+i",
+                "mac": "cmd+shift+i",
+                "when": "editorFocus"
+            },
+            "desc": "Create a global journal note",
+            "docLink": "dendron.topic.special-notes.md",
+            "docPreview": "![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/notes.daily.gif)",
+            "skipDocs": false
+        },
+        {
+            "key": "dendron.createJournalNote",
+            "title": "Dendron: Create Journal Note",
+            "group": "notes",
+            "keybindings": {
+                "key": "ctrl+shift+j",
+                "mac": "cmd+shift+j",
+                "when": "editorFocus"
+            },
+            "desc": "Create a hierarchy specific journal note",
+            "docLink": "dendron.topic.special-notes.md",
+            "docPreview": "<a href=\"https://www.loom.com/share/da562a166af9427e908a76be8bc38355\"><img src=\"https://cdn.loom.com/sessions/thumbnails/da562a166af9427e908a76be8bc38355-with-play.gif\"></a>",
+            "skipDocs": false
+        },
+        {
+            "key": "dendron.createScratchNote",
+            "title": "Dendron: Create Scratch Note",
+            "group": "notes",
+            "keybindings": {
+                "key": "ctrl+shift+s",
+                "mac": "cmd+shift+s"
+            },
+            "desc": "Create a hierarchy specific scratch note",
+            "docLink": "dendron.topic.special-notes.md",
+            "docPreview": "<a href=\"https://www.loom.com/share/104a3e0bb10f4012a831194d02483e4a\"> <img style=\"\" src=\"https://cdn.loom.com/sessions/thumbnails/104a3e0bb10f4012a831194d02483e4a-with-play.gif\"> </a>",
+            "skipDocs": false
+        },
+        {
+            "key": "dendron.copyNoteLink",
+            "title": "Dendron: Copy Note Link",
+            "group": "notes",
+            "desc": "Copy wiki link to note",
+            "docLink": "dendron.topic.commands.md",
+            "docPreview": "![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/command.copy-link.gif)",
+            "keybindings": {
+                "key": "ctrl+shift+c",
+                "mac": "cmd+shift+c",
+                "when": "editorFocus"
+            },
+            "skipDocs": false
+        },
+        {
+            "key": "dendron.copyNoteRef",
+            "title": "Dendron: Copy Note Ref",
+            "group": "notes",
+            "desc": "Copy reference to note",
+            "docLink": "dendron.topic.commands.md",
+            "docPreview": "![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/ref-note.gif)",
+            "keybindings": {
+                "key": "ctrl+shift+r",
+                "mac": "cmd+shift+r",
+                "when": "editorFocus"
+            },
+            "skipDocs": false
+        },
+        {
+            "key": "dendron.deleteNode",
+            "title": "Dendron: Delete Node",
+            "group": "notes",
+            "keybindings": {
+                "key": "ctrl+shift+d",
+                "mac": "cmd+shift+d"
+            },
+            "desc": "Delete a note or schema",
+            "docLink": "dendron.topic.lookup.md",
+            "docPreview": "",
+            "skipDocs": false
+        },
+        {
+            "key": "dendron.renameNote",
+            "title": "Dendron: Rename Note",
+            "group": "notes",
+            "desc": "Rename a note and all backlinks",
+            "docLink": "dendron.topic.commands.md",
+            "docPreview": "![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/command-rename.gif)",
+            "skipDocs": false
+        },
+        {
+            "key": "dendron.showPreview",
+            "title": "Dendron: Show Preview",
+            "group": "notes",
+            "keybindings": {
+                "windows": "windows+ctrl+p",
+                "mac": "cmd+ctrl+p"
+            },
+            "desc": "Show Markdown Preview",
+            "docLink": "dendron.topic.commands.md",
+            "docPreview": "",
+            "skipDocs": false
+        }
+    ],
+    "navigation": [
+        {
+            "key": "dendron.lookup",
+            "title": "Dendron: Lookup",
+            "group": "navigation",
+            "keybindings": {
+                "mac": "cmd+L",
+                "key": "ctrl+l"
+            },
+            "desc": "Initiate note lookup",
+            "docLink": "dendron.topic.lookup.md",
+            "docPreview": "![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/lookup-cli.gif)",
+            "skipDocs": false
+        },
+        {
+            "key": "dendron.lookupSchema",
+            "title": "Dendron: Lookup Schema",
+            "group": "navigation",
+            "keybindings": {
+                "mac": "cmd+shift+L",
+                "key": "ctrl+shift+l"
+            },
+            "desc": "Initiate schema lookup",
+            "docLink": "dendron.topic.lookup.md",
+            "docPreview": "![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/schema-lookup.gif)",
+            "skipDocs": false
+        },
+        {
+            "key": "dendron.openLink",
+            "title": "Dendron: Open Link",
+            "group": "navigation",
+            "desc": "Open link to external file (eg. pdf, .mov, etc) use system default",
+            "docLink": "dendron.topic.links.md",
+            "docPreview": "<a href=\"https://www.loom.com/share/01250485e20a4cdca2a053dd6047ac68\"><img src=\"https://cdn.loom.com/sessions/thumbnails/01250485e20a4cdca2a053dd6047ac68-with-play.gif\"> </a>",
+            "skipDocs": false
+        }
+    ],
+    "hierarchies": [
+        {
+            "key": "dendron.reloadIndex",
+            "title": "Dendron: Reload Index",
+            "group": "hierarchies",
+            "desc": "Reload the index. Necessary for Dendron to pick up on schema changes.",
+            "docLink": "dendron.topic.commands.md",
+            "docPreview": "",
+            "skipDocs": false
+        },
+        {
+            "key": "dendron.archiveHierarchy",
+            "title": "Dendron: Archive Hierarchy",
+            "group": "hierarchies",
+            "desc": "Move current note and all children under the `archive` hierarchy",
+            "docLink": "dendron.topic.commands.md",
+            "docPreview": "<a href=\"https://www.loom.com/share/9698d5a4451b49d8b107f3ff67d97877\">  <img style=\"\" src=\"https://cdn.loom.com/sessions/thumbnails/9698d5a4451b49d8b107f3ff67d97877-with-play.gif\"> </a>",
+            "skipDocs": false
+        },
+        {
+            "key": "dendron.refactorHierarchy",
+            "title": "Dendron: Refactor Hierarchy",
+            "group": "hierarchies",
+            "desc": "Update hierarchy using regex",
+            "docLink": "dendron.topic.commands.md",
+            "docPreview": "<a href=\"https://www.loom.com/share/11d90a86fd1348a5a504406b52d79f85\"> <img style=\"\" src=\"https://cdn.loom.com/sessions/thumbnails/11d90a86fd1348a5a504406b52d79f85-with-play.gif\"> </a>",
+            "skipDocs": false
+        },
+        {
+            "key": "dendron.goUpHierarchy",
+            "title": "Dendron: Go Up",
+            "group": "hierarchies",
+            "keybindings": {
+                "mac": "cmd+shift+up",
+                "key": "ctrl+shift+up",
+                "when": "editorFocus"
+            },
+            "desc": "Go to closet non-stub parent",
+            "docLink": "dendron.topic.commands.md",
+            "docPreview": "![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/hierarchy.go-up.gif)",
+            "skipDocs": false
+        }
+    ],
+    "workspace": [
+        {
+            "key": "dendron.initWS",
+            "title": "Dendron: Initialize Workspace",
+            "group": "workspace",
+            "desc": "Create a new workspace",
+            "docLink": "dendron.topic.commands.md",
+            "docPreview": "![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/workspace-init.gif)",
+            "skipDocs": false
+        },
+        {
+            "key": "dendron.changeWS",
+            "title": "Dendron: Change Workspace",
+            "group": "workspace",
+            "desc": "Change into existing workspace",
+            "docLink": "dendron.topic.commands.md",
+            "docPreview": "",
+            "skipDocs": false
+        },
+        {
+            "key": "dendron.upgradeSettings",
+            "title": "Dendron: Upgrade Settings",
+            "group": "workspace",
+            "desc": "Upgrade to the latest Dendron settings. You shouldn't need to run this manually. Its run everytime you get a Dendron update.",
+            "docLink": "dendron.topic.commands.md",
+            "docPreview": "",
+            "skipDocs": true
+        },
+        {
+            "key": "dendron.showHelp",
+            "title": "Dendron: Show Help",
+            "group": "workspace",
+            "desc": "Show this help page",
+            "docLink": "dendron.topic.commands.md",
+            "docPreview": "<a href=\"https://www.loom.com/share/b81ce02f30b84d79b92584f339184a00\"> <img style=\"\" src=\"https://cdn.loom.com/sessions/thumbnails/b81ce02f30b84d79b92584f339184a00-with-play.gif\"> </a>",
+            "skipDocs": false
+        }
+    ],
+    "pods": [
+        {
+            "key": "dendron.buildPod",
+            "title": "Dendron: Build Pod",
+            "group": "pods",
+            "desc": "Build your notes for export. Currently, only export to github pages is supported.",
+            "docLink": "dendron.topic.pod.md",
+            "docPreview": "",
+            "skipDocs": false
+        },
+        {
+            "key": "dendron.importPod",
+            "title": "Dendron: Import Pod",
+            "group": "pods",
+            "desc": "Import notes from an external data source. Currently, only the local file system is supported",
+            "docLink": "dendron.topic.pod.md",
+            "docPreview": "",
+            "skipDocs": false
+        }
+    ],
+    "dev": [
+        {
+            "key": "dendron.dev.doctor",
+            "title": "Dendron: Doctor",
+            "group": "dev",
+            "desc": "Auto fix issues with frontmatter",
+            "docLink": "dendron.topic.commands.md",
+            "docPreview": "<a href=\"https://www.loom.com/share/bd045f708f8e474193de8e3de0dc820f\"> <img style=\"\" src=\"https://cdn.loom.com/sessions/thumbnails/bd045f708f8e474193de8e3de0dc820f-with-play.gif\"> </a>",
+            "skipDocs": false
+        },
+        {
+            "key": "dendron.dev.resetConfig",
+            "title": "Dendron:Dev: Reset Config",
+            "group": "dev",
+            "skipDocs": true
+        },
+        {
+            "key": "dendron.dev.openLogs",
+            "title": "Dendron:Dev: Open Logs",
+            "group": "dev",
+            "desc": "Open Dendron logs for current session",
+            "docLink": "dendron.topic.commands.md",
+            "docPreview": "",
+            "skipDocs": false
+        }
+    ]
+}
