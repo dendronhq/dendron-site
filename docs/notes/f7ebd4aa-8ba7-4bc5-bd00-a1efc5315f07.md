@@ -24,11 +24,17 @@ Dendron has a few custom workbench components to deal with hierarchal notes.
 
 ## Dendron Tree View
 
-The Dendron Tree View lets you view your hierarchal notes as a traditional folder hierarchy. Besides for the tree hierarchy, it has the following capabilities:
+The Dendron Tree View lets you view your hierarchal notes as a traditional folder hierarchy. 
+
+![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/workbench.treeview.gif)
+
+The Dendron Tree View has the following capabilities:
 
 - click to open note
 - show indicators for `stub` and `schema` notes
 - show title using tooltip
 - realtime update when you create/delete notes
+- toggle all functionality
+- reveal currently open text document
 
-![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/workbench.treeview.gif)
+![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/workbench.treeview-active-doc.gif)
