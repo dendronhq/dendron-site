@@ -60,8 +60,7 @@ After running the command, you will be taken to a preview that shows all files t
 
 - NOTE: Dendron will warn you if refactoring will overwrite existing files. You will need to either change your `replacer` or move the affected files before Dendron will perform a refactor
 
-<a href="https://www.loom.com/share/11d90a86fd1348a5a504406b52d79f85">
- <img style="" src="https://cdn.loom.com/sessions/thumbnails/11d90a86fd1348a5a504406b52d79f85-with-play.gif"> </a>
+<a href="https://www.loom.com/share/11d90a86fd1348a5a504406b52d79f85"> <img style="" src="https://cdn.loom.com/sessions/thumbnails/11d90a86fd1348a5a504406b52d79f85-with-play.gif"> </a>
 
 ## Workspace Commands
 
@@ -92,9 +91,7 @@ Dendron will re-initialize the index. This is currently necessary if you add new
 
 Dendron will open your current browser to the [[quickstart | dendron.quickstart]] page. 
 
-<a href="https://www.loom.com/share/b81ce02f30b84d79b92584f339184a00">
-<img style="" src="https://cdn.loom.com/sessions/thumbnails/b81ce02f30b84d79b92584f339184a00-with-play.gif"> 
-</a>
+<a href="https://www.loom.com/share/b81ce02f30b84d79b92584f339184a00"> <img style="" src="https://cdn.loom.com/sessions/thumbnails/b81ce02f30b84d79b92584f339184a00-with-play.gif"> </a>
 
 ### ShowPreview
 
@@ -121,9 +118,7 @@ This makes sure your workspace is up to date. It will execute the following acti
 - add ids and titles to the frontmatter of all notes that are missing it
 - setup a `docs` folder if it doesn't exist. Required if you want to [[publish | dendron.topic.publishing]] your notes
 
-<a href="https://www.loom.com/share/bd045f708f8e474193de8e3de0dc820f"> 
-<img style="" src="https://cdn.loom.com/sessions/thumbnails/bd045f708f8e474193de8e3de0dc820f-with-play.gif"> 
-</a>
+<a href="https://www.loom.com/share/bd045f708f8e474193de8e3de0dc820f"> <img style="" src="https://cdn.loom.com/sessions/thumbnails/bd045f708f8e474193de8e3de0dc820f-with-play.gif"> </a>
 
 ###  Open Logs
 

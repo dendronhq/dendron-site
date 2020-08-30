@@ -82,3 +82,30 @@ Dendron **does not** delete or overwrite any files during the **Change Workspace
 ### How do I save?
 
 Dendron automatically saves when you change focus (switch tabs or applications). You can also manually save using `Cmd+S` or `Ctrl+S` depending on your operating system
+
+### How do I go back to the previous note?
+
+There are 3 ways to go back to my previous note: 
+1. `ctrl-tab` (go to previous tab)
+2. click on the previous tab
+3. using the open editors pane 
+
+- NOTE: to have more than a single tab show, you need to have the following settings
+```json
+{
+    "workbench.editor.enablePreview": false,
+    "workbench.editor.showTabs": true
+}
+```
+
+![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/faq.go-back.gif)
+
+## Other
+
+### Can I use a dark theme for the markdown preview?
+
+Yes. There's a setting called `markdown-preview-enhanced.previewTheme` that you can set which has a list of default themes, including dark themes. 
+
+### Can I customize the markdown preview CSS?
+
+Yes. Read [this](https://shd101wyy.github.io/markdown-preview-enhanced/#/customize-css) for more information.
