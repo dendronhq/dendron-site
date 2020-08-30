@@ -89,9 +89,9 @@ Dendron will re-initialize the index. This is currently necessary if you add new
 
 ### ShowHelp
 
-Dendron will open your current browser to the [[quickstart | dendron.quickstart]] page. 
+Dendron will open your current browser to the [[cheatsheet|dendron.cheatsheet]] page. 
 
-<a href="https://www.loom.com/share/b81ce02f30b84d79b92584f339184a00"> <img style="" src="https://cdn.loom.com/sessions/thumbnails/b81ce02f30b84d79b92584f339184a00-with-play.gif"> </a>
+![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/workbench.help.gif)
 
 ### ShowPreview
 
