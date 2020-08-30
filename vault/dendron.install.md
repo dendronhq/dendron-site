@@ -13,9 +13,9 @@ Dendron can be installed as a [vscode plugin](https://marketplace.visualstudio.c
 After you have downloaded the plugin, following the instructions to create your first **workspace**.
 
 1. Launch the _command bar_:
-    - Linux: `Ctrl+SHIFT+P`
-    - macOS: `CMD+SHIFT+P`
-    - Windows: `Ctrl+SHIFT+P`
+    - Linux: `Ctrl+Shift+P`
+    - macOS: `Cmd+Shift+P`
+    - Windows: `Ctrl+Shift+P`
 2. Paste the following command and press `Enter`:
 
 ```sh

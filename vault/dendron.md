@@ -66,7 +66,7 @@ See our core [[features | dendron.features]] that help you manage your notes.
 ## Getting Started
 To get started, you can follow the instructions in [[quickstart | dendron.quickstart]].
 
-## Motvation
+## Motivation
 
 > "We are overwhelmed with information and we don't have the tools to properly index and filter through it. [The development of these tools, which] will give society access to and command over the inherited knowledge of the ages [should] be the first objective of our scientist" - Vannevar Bush, 1945
 
