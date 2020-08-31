@@ -64,17 +64,36 @@ Defaults:
 
 ### default{NodeType}AddBehavior
 
-Determines how note is added in relation to current hierarchy:
+Determines how note is added in relation to current hierarchy. Say you have the following schema:
+
+```yml
+schema: 
+- id: pro
+  parent: root
+  namespace: true
+```
 
 Possible values:
-- childOfDomain: note is added as child of the domain of the current hierarchy
-    - eg: `dendron.demo.md -> create new journal note -> dendron.journal.2020-08-03.md`
-- childOfDomainNamespace: note is added as child of the namespace of the current domain if it has a namespace. otherwise behaves the same as `childOfDomain`
-    - eg: `pro.foo.md -> create new journal note -> pro.foo.journal.2020-08-03.md`
-- childOfCurrent: note is added as a child of the current open note
-    - eg: `dendron.demo.md -> create new journal note -> dendron.demo.journal.2020-08-03.md`
-- asOwnDomain: note is created under the domain `dendron.default{NodeType}Name`
-    - eg: `dendron.demo.md -> create new journal note -> journal.2020-08-03.md`
+- childOfDomain
+    - note is added as child of the [domain](https://dendron.so/notes/c6fd6bc4-7f75-4cbb-8f34-f7b99bfe2d50.html#domain) of the current hierarchy
+    - eg:
+        - current open note: `pro.dendron.demo.md`
+        - path of new journal note: `pro.journal.2020-08-03.md`
+- childOfDomainNamespace
+    - note is added as child of the namespace of the current domain if it has a namespace. otherwise behaves the same as `childOfDomain`
+    - eg: 
+        - current open note: `pro.dendron.demo.md` 
+        - path of new journal note:  `pro.dendron.journal.2020-08-03.md`
+- childOfCurrent
+    - note is added as a child of the current open note
+        - current open note: `pro.dendron.demo.md` 
+        - path of new journal note:  `pro.dendron.demo.journal.2020-08-03.md`
+- asOwnDomain
+    -  note is created under the domain specified by the `dendron.default{NodeType}Name` config value
+    - eg:
+        - current open note: `pro.dendron.demo.md` 
+        - config: `dendron.defaultJournalNoteName: "journal"`
+        - path of new journal note:  `journal.2020-08-03.md`
 
 
 Defaults:
