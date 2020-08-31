@@ -7,8 +7,9 @@ exclude: [ "node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "pa
 ]
 footer_content: "Copyright &copy; 2020 Thence LLC"
 
-
-gh_edit_link: false # 
+gh_edit_link: true #
+gh_edit_repository: "https://github.com/dendronhq/dendron-template"
+dendron_vault_path: "vault"
 
 # seo
 tagline: "A better way to know"

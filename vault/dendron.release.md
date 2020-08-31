@@ -5,8 +5,6 @@ desc: ''
 updated: 1595984607503
 created: 1595984607503
 nav_order: 8
-has_collection: true
-sort_by: title
 ---
 
 # Releases
