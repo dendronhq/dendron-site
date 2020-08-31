@@ -7,8 +7,12 @@ exclude: [ "node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "pa
 ]
 footer_content: "Copyright &copy; 2020 Thence LLC"
 
-gh_edit_link: true #
+gh_edit_link: true 
 gh_edit_repository: "https://github.com/dendronhq/dendron-template"
+gh_edit_link_text: "Edit this page on GitHub"
+gh_edit_branch: "master" # the branch that your docs is served from
+gh_root: "docs/" # doc root
+gh_edit_view_mode: "edit" # "tree" or "edit" if you want the user to jump into the editor immediately
 dendron_vault_path: "vault"
 
 # seo
