@@ -185,3 +185,76 @@ toNote {
   ret
 }
 ```
+
+# New Node
+
+## Flow
+- loc: engine-server/engine.ts
+```ts
+write(node){
+  @store.write
+  @updateNodes node
+}
+```
+
+
+# Updating a Node
+
+## Summary
+
+## Flow
+- loc: engine-server/engine.ts
+
+```ts
+updateNodes(nodes) {
+  if node.type == 'schema' {
+    ...
+  } else {
+    @_updateNote(nodes)
+  }
+}
+
+_updateNote(nodes, opts) {
+  addParent(nodes) if !opts.noAddParent
+  @refreshNodes
+}
+
+```
+
+# Deleting a Node
+
+## Summary
+
+## Flow
+- loc: engine-server/engine.ts
+
+```ts
+delete(idOrFname, mode, opts) {
+  if (mode == 'note') {
+    noteToDelete := @notes
+  } else {
+    // schemas
+    ...
+  }
+
+  // delete from store
+  if !opts.metaOnly {
+    @store.delete(noteToDelete)
+  }
+
+  // remove from index
+  @deleteFromNodes noteToDelete
+
+  // if node has children , keep it in index as a stub
+  if noteToDelete.children {
+    noteToDelete.stub = true
+    @refreshNotes noteToDelete
+  } else {
+    // remove node from parent 
+    noteToDelete.parent.children.reject { noteToDelete } if noteToDelete.parent
+  }
+
+
+
+}
+```
