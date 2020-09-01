@@ -18,6 +18,25 @@ dendron-jekyll supports the same nested hierarchies as your notes and allows you
 
 <img style="max-width: 720px;" src="https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/site-hierarchy.gif" />
 
+## Nav Based Hierarchy Hints
+
+You can see at a glance which notes have children and explore them from the nav without refreshing the page. 
+
+![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/dendron.jekyll.gif)
+
+## Edit on Github
+
+Every page can accept one-click contributions as long as the contributor has a github account. 
+
+![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/jekyll.edit.jpg)
+
+
+Example of making a contribution to Dendron. 
+
+<a href="https://www.loom.com/share/4a1b67f3fd1a40dab16949e9ea5e53dc"> <img style="" src="https://cdn.loom.com/sessions/thumbnails/4a1b67f3fd1a40dab16949e9ea5e53dc-with-play.gif"> </a>
+
+
+
 ### Lookup
 
 If you'd rather not click, dendron-jekyll also supports path based lookup.
