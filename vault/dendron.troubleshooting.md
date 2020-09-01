@@ -109,3 +109,7 @@ We use an extension to do markdown preview. VSCode comes with its default markdo
 ### How are hierarchies created?
 
 Hierarchies today are created automatically when dendron crawls your folder for `.` delimited file names and custom schema.yml files.
+
+### Reference to Another Note on Ubuntu
+
+If Ctrl+Shift+R (reference to another note) doesn't work on Ubuntu, do ```sudo apt install xsel```.
