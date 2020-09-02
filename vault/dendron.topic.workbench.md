@@ -29,6 +29,9 @@ The Dendron Tree View has the following capabilities:
 - show title using tooltip
 - realtime update when you create/delete notes
 - toggle all functionality
+- click to create from stub 
+![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/workbench.treeview.stub.gif)
+
 - reveal currently open text document
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/workbench.treeview-active-doc.gif)
