@@ -9,6 +9,10 @@ nav_order: 9.5
 
 # Contribute
 
+$$
+f(x) = \sin(x)
+$$
+
 ## Documentation
 If you would like to contribute to the docs, you can do so one of two ways.
 
