@@ -50,6 +50,14 @@ Go up to the closest non-stub parent of the currently open note.
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/hierarchy.go-up.gif)
 
+## Go Down Hierarchy
+
+- shortcut: `Cmd+Shift+Down` (mac), `Ctrl+Shift+Down` (windows, linux)
+
+Open lookup to next level of the current hierarchy
+
+![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/hierarchy.go-down.gif)
+
 ### Refactor Hierarchy
 
 Like `Rename Note` but works on an entire hierarchy of notes. This command takes two arguments: 

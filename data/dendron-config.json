@@ -189,6 +189,20 @@
             "docLink": "dendron.topic.commands.md",
             "docPreview": "![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/hierarchy.go-up.gif)",
             "skipDocs": false
+        },
+        {
+            "key": "dendron.goDownHierarchy",
+            "title": "Dendron: Go Down",
+            "group": "hierarchies",
+            "keybindings": {
+                "mac": "cmd+shift+down",
+                "key": "ctrl+shift+down",
+                "when": "editorFocus"
+            },
+            "desc": "Go down the hierarchy",
+            "docLink": "dendron.topic.commands.md",
+            "docPreview": "",
+            "skipDocs": false
         }
     ],
     "workspace": [

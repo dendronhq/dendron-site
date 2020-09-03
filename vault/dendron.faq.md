@@ -61,7 +61,7 @@ That being said, I'm all in on Dendron and this is my full time gig. I want to m
 
 Paid for features will be 100% optional and will not be necessary for any client side functionality in Dendron.
 
-## Working with notes
+## Working with Notes
 
 ### Why markdown?
 
@@ -100,6 +100,22 @@ There are 3 ways to go back to my previous note:
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/faq.go-back.gif)
 
+## Working with Schemas
+
+## What is the deal with schemas? Do I need to use them?
+
+The short answer is no, you don't **need** to use schemas. That being said, schemas can help you manage your notes, especially as you collect more of them.
+
+If you're familiar with typescript - Dendron schemas are similar to the types offered by typescript. You can compile your typescript code into javascript even if the types don't match (subject to your tsconfig). Types help make your projects maintainable, especially as they grow.
+
+Currently, the only thing Dendron will do is show you an indicator if your schema doesn't match. In the future, we'll have a strict mode where we will actually prevent you from creating notes that don't match your schema.
+
+Schemas at the end of the day help you construct consistent hierarchies for your notes. Consistent hierarchies alleviate the cognitive overhead of needing to understand and track N things where N can be very big. instead, you can construct a single schema that encompasses the common areas of all N things.
+
+This allows you to quickly reference anything within your hierarchy because they all have the same shape. It also helps with understanding a topic - I (Kevin, Dendron author) find my schema for a domain tends to reflect my mental model for said domain as well.
+
+For example, I'm using nodejs and need to access a file. I have no idea what the builtin/recommended library for file access is. Instead of having to dig up [fs-extra](https://www.npmjs.com/package/fs-extra), i can navigate to `l.node.file` and see my notes on the best way to work with files. You can replace node with any other programming language. now i have a general way of referencing file access for all languages without needing to remember the specific implementation detail of any of them.
+
 ## Other
 
 ### Can I use a dark theme for the markdown preview?
@@ -109,3 +125,13 @@ Yes. There's a setting called `markdown-preview-enhanced.previewTheme` that you 
 ### Can I customize the markdown preview CSS?
 
 Yes. Read [this](https://shd101wyy.github.io/markdown-preview-enhanced/#/customize-css) for more information.
+
+### Is there a list of keyboard shortcuts I can see? 
+
+Dendron has a list of keyboard shortcuts that you can access using `Dendron: Show Help` command. Note that these only show the commands that come with the Dendron Plugin but not its bundled extensions. We currently have an open [issue](https://github.com/dendronhq/dendron/issues/148) to list all shortcuts on one page. 
+
+### Why are there '+' signs next to the notes in the Tree View?
+
+![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/faq.plus-sign.jpg)
+
+The reason you see this is because dendron will create [stub](https://www.dendron.so/notes/c5e5adde-5459-409b-b34d-a0d75cbb1052.html#stubs) notes when creating notes that have parents that don't exist. These notes are placeholders and will only be visible in the Dendron Tree View with a `+` sign next to the name. The reason we do stubs is because we don't want to litter your file system with empty files. Stubs are a compromise - they let you see the hierarchy of your newly created notes without forcing you to create intermediary files.
