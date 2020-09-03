@@ -15,6 +15,7 @@ This is a cheatsheet for Dendron.
 - [Dendron Onboarding](https://calendly.com/thence/dendron): If you are a new user, [Kevin](http://kevinslin.com/), our founder, does a personal onboarding to help you setup your workspace. You can see an example of said onboarding [here](https://www.dendron.so/notes/e8d6241e-1708-4bde-bd3d-93b440a1eaad.html).
 - [Github Issues](https://github.com/dendronhq/dendron/issues): If you found a bug or want to submit a feature request, you can file a ticket
 - [Hierarchal First Approach to Note Taking](https://www.kevinslin.com/notes/3dd58f62-fee5-4f93-b9f1-b0f0f59a9b64.html): An article about the principle that Dendron was built around
+- [VSCode Keyboard Shortcuts](https://code.visualstudio.com/docs/getstarted/keybindings#_keyboard-shortcuts-reference)
 
 # Commands
 ---
@@ -60,7 +61,7 @@ This is a cheatsheet for Dendron.
 
 ### Dendron: Copy Note Ref
 - [[docs|dendron.topic.commands.md]]
-- description: Copy reference to note
+- description: Copies a reference to the current open document
 - shortcuts: 
   - key: `ctrl+shift+r`
   - mac: `cmd+shift+r`
@@ -145,13 +146,43 @@ This is a cheatsheet for Dendron.
 
 ### Dendron: Go Up
 - [[docs|dendron.topic.commands.md]]
-- description: Go to closet non-stub parent
+- description: Go to closet non-stub parent of the currently open note
 - shortcuts: 
   - mac: `cmd+shift+up`
   - key: `ctrl+shift+up`
   - when: `editorFocus`
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/hierarchy.go-up.gif)
+
+### Dendron: Go Next Sibling
+- [[docs|dendron.topic.commands.md]]
+- description: Go to the next sibling
+- shortcuts: 
+  - mac: `cmd+shift+right`
+  - key: `ctrl+shift+right`
+  - when: `editorFocus`
+
+![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/hierarchy.go-sibling.gif)
+
+### Dendron: Go Previous Sibling
+- [[docs|dendron.topic.commands.md]]
+- description: Go to the previous sibling
+- shortcuts: 
+  - mac: `cmd+shift+left`
+  - key: `ctrl+shift+left`
+  - when: `editorFocus`
+
+![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/hierarchy.go-sibling.gif)
+
+### Dendron: Go Down
+- [[docs|dendron.topic.commands.md]]
+- description: Go down the hierarchy
+- shortcuts: 
+  - mac: `cmd+shift+down`
+  - key: `ctrl+shift+down`
+  - when: `editorFocus`
+
+![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/hierarchy.go-down.gif)
 
 ---
 ## Workspace
@@ -171,10 +202,10 @@ This is a cheatsheet for Dendron.
 
 ### Dendron: Show Help
 - [[docs|dendron.topic.commands.md]]
-- description: Show this help page
+- description: Dendron will open your current browser to the [[cheatsheet|dendron.cheatsheet]] page. 
 - shortcuts: none
 
-<a href="https://www.loom.com/share/b81ce02f30b84d79b92584f339184a00"> <img style="" src="https://cdn.loom.com/sessions/thumbnails/b81ce02f30b84d79b92584f339184a00-with-play.gif"> </a>
+![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/workbench.help.gif)
 
 ---
 ## Pods

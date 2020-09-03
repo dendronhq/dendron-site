@@ -258,3 +258,25 @@ delete(idOrFname, mode, opts) {
 
 }
 ```
+
+# Reference
+
+## Refresh Node
+
+- loc: engine-server/src/engine.ts
+```ts
+refreshNodes(nodes) {
+  ...
+  type = nodes[0].type
+  if type == schema {
+
+  } else {
+    ...
+  }
+  @updateLocalCollection nodes {
+    @schemaFuse.setCollection nodes
+  }
+  @store.updateNodes nodes
+}
+
+```
