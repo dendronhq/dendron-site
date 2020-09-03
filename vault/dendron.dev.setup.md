@@ -25,25 +25,22 @@ npm install
 
 ## Build Code Plugin
 
-- bootstrap dependencies
+- you should run this when building dendron for the first time and also every time you run a git pull
+  - new dependencies might have been picked up between pulls and this makes sure that they are installed
 
 ```sh
-npx lerna bootstrap --scope @dendronhq/common-all  --scope @dendronhq/common-server --scope @dendronhq/engine-server --scope @dendronhq/plugin-core --scope @dendronhq/dendron-cli
-
+./bootstrap/scripts/init.sh
 ```
 
-- build dependencies
+- we recommend you use `vscode` to develop for dendron. there is a `dendron.code-workspace` file in the root of the monorepo that you should use when developing
 
-```sh
-npx lerna run build --scope @dendronhq/common-all
-npx lerna run build --scope @dendronhq/common-server
-npx lerna run build --scope @dendronhq/engine-server
-npx lerna run build --scope @dendronhq/dendron-cli
-npx lerna run build --scope @dendronhq/plugin-core
-```
+### Advanced
 
-- initialize template-repo
+You shouldn't need to use this in case something goes wrong with a build step or you want to save time by not running everything, `init.sh` is just a thin wrapper around the following scripts, each of which can be run individually
 
+- ./bootstrap/scripts/bootstrap.sh: `lerna bootstrap all packages`
+- ./bootstrap/scripts/build.sh: `lerna build all packages`
+- initialize template repo (this bundles the latest [dendron-template](https://github.com/dendronhq/dendron-template) with the plugin so that the right notes are initialized when a user creates their first workspace)
 ```sh
  cd packages/plugin-core/
  ./scripts/sync_vault.sh
@@ -54,5 +51,5 @@ npx lerna run build --scope @dendronhq/plugin-core
 To continuously compile all dependencies, run the following
 
 ```sh
-npx lerna run watch --parallel --scope @dendronhq/common-all --scope @dendronhq/common-server --scope @dendronhq/engine-server --scope @dendronhq/plugin-core --scope @dendronhq/dendron-cli
+./bootstrap/scripts/watch.sh
 ```
