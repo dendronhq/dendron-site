@@ -48,9 +48,13 @@ Some popular use cases include:
 - CRM to keep track of clients, friends and enemies
 - recipe book 
 
+## Onboarding
 
+[Kevin](https://kevinslin.com/), the founder of Dendron, does a personal onboarding with new users. This onboarding is customized to your note taking goals and familiarity with Dendron. You can see an example onboarding below and boo your own [here](https://calendly.com/thence/dendron).
 
-<a href="https://youtu.be/6rwWUalr9Ac">![](/assets/images/2020-08-01-14-51-46.png)</a>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3io2fHRmZsE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+You can find a rough transcript of this onboarding [[here|dendron.ref.transcript]] for reference (thank you Tom Diaz for providing the transcript).
 
 ## Join Us
 
