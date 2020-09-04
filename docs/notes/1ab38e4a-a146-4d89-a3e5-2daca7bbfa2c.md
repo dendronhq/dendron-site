@@ -1,9 +1,9 @@
 ---
-id: 7b92b5d7-3ae5-4681-b6e9-36a8a391477f
+id: 1ab38e4a-a146-4d89-a3e5-2daca7bbfa2c
 title: Commands
 desc: ''
-updated: 1599238749144
-created: 1599238749144
+updated: 1599262158165
+created: 1599262158165
 data: {}
 fname: dendron.dev.design.commands
 stub: true
