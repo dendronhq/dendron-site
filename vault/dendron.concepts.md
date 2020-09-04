@@ -117,7 +117,7 @@ Below is an example of a three-level hierarchy describing cli commands. You don'
 
 ### Pods 🚧
 
-[[Pods | dendron.topic.pod]] are the mechanisms Dendron uses to import and export notes. Dendron has a different pod depending on where you are getting and publishing your data to. 
+[[Pods |dendron.topic.pod]] are the mechanisms Dendron uses to import and export notes. Dendron has a different pod depending on where you are getting and publishing your data to. 
 
 
 ### Command Bar

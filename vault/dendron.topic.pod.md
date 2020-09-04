@@ -1,6 +1,6 @@
 ---
 id: 66727a39-d0a7-449b-a10d-f6c438185d7f
-title: Pod
+title: Pods
 desc: ''
 updated: 1595041605856
 created: 1595041605856
@@ -9,7 +9,17 @@ custom: {}
 
 # Pods 🚧
 
-Pods are the mechanisms Dendron uses to import and export notes. Dendron has a different pod depending on where you are getting and publishing your data to. 
+> Note: Pods are highly experimental and under active development. Content here is subject to change with no moments notice. 
+
+<img src="https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/pods.png" height="300px"/>
+
+> Pod image courtesy of [Ilana Lin]((https://www.instagram.com/ilana_lin/))
+
+Dendron refers to pods as anything you could conceivably use to store/publish notes. Evernote, Roam, static websites, twitter - any and all of these things are potential pods. 
+
+Pods let you do the following:
+- import your notes from any existing pod, converting and formatting the content to Dendron's hierarchal format. 
+- export your notes to any existing pod, converting and formatting the content to the pods native format
 
 To access pods, Dendron exposes three commands:
 - `Dendron: Import Pod`: imports notes from an external data source 
@@ -22,6 +32,13 @@ Note that not all pods will expose all three commands. The status of each pod me
 - ➖ no support applicable 
 - ❌ not currently supported
 
+Dendron supports two kinds of pods:
+- Builtin Pods
+- Custom Pods
+
+Builtin pods are installed with Dendron and can be invoked without any further action. Custom pods are `npm packages` that adopt the pod interface (TBD). These packages can be installed into the `pods` directory under Dendron to support additional sources not covered by the built-in pods. 
+
+## Builtin Pods
 
 ### LocalFile Pod
 - status
@@ -82,3 +99,8 @@ Note that all files starting with a `.` will be ignored during the import.
     - ❌ export 
 
 Builds your notes for publication to github pages using the [dendron-jekyll](https://github.com/dendronhq/dendron-jekyll) theme.  See [[publishing | dendron.topic.publishing]] for more details.
+
+
+## Custom Pods
+
+TBD. Stay tuned
