@@ -13,7 +13,7 @@ custom: {}
 
 <img src="https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/pods.png" height="300px"/>
 
-> Pod image courtesy of [Ilana Lin]((https://www.instagram.com/ilana_lin/))
+> Pod image courtesy of [Ilana Lin](https://www.instagram.com/ilana_lin/)
 
 Dendron refers to pods as anything you could conceivably use to store/publish notes. Evernote, Roam, static websites, twitter - any and all of these things are potential pods. 
 
