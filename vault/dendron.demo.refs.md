@@ -6,5 +6,4 @@ updated: 1598979295853
 created: 1598979295853
 ---
 
-
-((ref:[[dendron.demo.refs.sample]]#h1))
+((ref:[[dendron.demo.refs.sample]]#h2:#h3))
