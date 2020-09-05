@@ -223,6 +223,13 @@ This is a cheatsheet for Dendron.
 
 
 
+### Dendron: Export Pod
+- [[docs|dendron.topic.pod.md]]
+- description: Export notes to an external data source. Currently only JSON is supported. 
+- shortcuts: none
+
+<a href="https://www.loom.com/share/d49e5f4155af485cadc9cd810b6cab28"> <img src="https://cdn.loom.com/sessions/thumbnails/d49e5f4155af485cadc9cd810b6cab28-with-play.gif"> </a>
+
 ---
 ## Dev
 ### Dendron: Doctor
