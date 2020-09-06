@@ -6,16 +6,6 @@ updated: 1595952505017
 created: 1595952505017
 ---
 
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-
-<div class="alert alert-primary" role="alert">
-<a href="https://www.dendron.so/notes/1a79e2a1-c906-4ed4-a528-15bd34c4e649.html">Version 0.9.0</a> has planted 🌱 
-Read about the new features and fixes in our release notes
-</div>
-
 # Dendron
 
 ![](https://travis-ci.com/dendronhq/dendron.svg?branch=master)
@@ -49,8 +39,6 @@ Some popular use cases include:
 - recipe book 
 
 ## Join Us
-
-<iframe src="https://ghbtns.com/github-btn.html?user=dendronhq&repo=dendron&type=star&count=true&size=large" frameborder="0" scrolling="0" width="170" height="30" title="GitHub"></iframe>
 
 To stay up to date on Dendron developments and all things knowledge management, you can follow us at [@dendronhq](https://twitter.com/dendronhq) or join us on [discord](https://discord.gg/6j85zNX)! 
 
