@@ -42,36 +42,7 @@ By default, when you look for notes in dendron, it will search over all vaults.
 
 ### Hierarchies
 
-Within a vault, your notes are stored **hierarchically** as `.` delimited markdown files. 
-
-Below is a hypothetical hierarchy for a file tree:
-
-```
-.
-└── project1/
-    ├── project1/designs/
-    │   └── project1/designs/promotion.png
-    ├── project1/paperwork/
-    │   └── project1/paperwork/legal.md
-    └── project1/tasks/
-        ├── project1/tasks/task1.md
-        └── project1/tasks/task2.md
-```
-
-
-The same hiearchy in Dendron would look like the following:
-
-```
-.
-├── project1.md
-├── project1.designs.md
-├── project1.designs.promotion.md
-├── project1.paperwork.md
-├── project1.paperwork.legal.md
-├── project1.tasks.md
-├── project1.tasks.task1.md
-└── project1.tasks.task2.md
-```
+((ref:[[dendron.topic.hierarchies]]#Hierarchies,1:#Concepts))
 
 You can read more about hierarchies [[here|dendron.topic.hierarchies]]
 

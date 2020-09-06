@@ -10,7 +10,7 @@ created: 1596740451789
 
 ## New workspace using `Dendron: Initialize Workspace`
 
-### Layout
+### File Tree
 ```
 .
 ├── dendron.code-workspace
@@ -19,7 +19,8 @@ created: 1596740451789
 └── vault/
     ├── root.md
     ├── root.schema.md
-    ├── dendron.*
+    ├── dendron.md
+    ├── dendron.faq.md
     ├── ...
     └── assets/images
 ```

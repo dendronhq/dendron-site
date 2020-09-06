@@ -7,9 +7,9 @@ created: 1595611213607
 ---
 # Hierarchies
 
-Dendron has hierarchies. They are represented by `.` delimited filenames. 
+Within a vault, your notes are stored **hierarchically** as `.` delimited markdown files. 
 
-Below is the example of converting a normal hierarchy from a file system to a Dendron hierarchy. 
+Below is a hypothetical hierarchy for a file tree:
 
 ```
 .
@@ -37,6 +37,21 @@ The same hiearchy in Dendron would look like the following:
 ├── project1.tasks.task1.md
 └── project1.tasks.task2.md
 ```
+
+## Concepts
+
+In the following concepts, we will be using the following file tree
+
+((ref:[[dendron.ref.layout]]#File Tree,1:#Files))
+
+### Root
+
+Every vault has a root. This is the `root.md`. 
+
+### Domain
+
+The domain is the root of a specific hierarchy. In our example vault, we have one domain - `dendron`.
+
 
 ## Why Hierarchies?
 
