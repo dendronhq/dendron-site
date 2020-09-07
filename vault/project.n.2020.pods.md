@@ -14,6 +14,7 @@ Make it possible for people to import/export their data between Dendron and **an
 ## Details
 
 TBD
+- [[pod proposal issue | project.scratch.2020.09.07-164009]]
 
 ## Release Notes
 
