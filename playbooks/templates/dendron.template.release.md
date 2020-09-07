@@ -19,7 +19,7 @@ These release notes are summary of the more notable changes, for the full list, 
 {% set ctype = ctype_order.split("-")[1] %}
 {% if ctype == "feat" %}
 {% for item in entries_list %}
-### {{ item['cmsg'] }} ([docs]({{ item['docs'] }}))
+### {{ item['cmsg'] }} ([[docs|{{ item['docs'] }}]])
 
 {{ item['desc'] }}
 
@@ -44,8 +44,13 @@ These release notes are summary of the more notable changes, for the full list, 
 
 ## Thank You
 
-Last and most of all, a big **thanks** to the following gardeners that brought up issues and contributed fixes to this release.
+Last and most of all, a big **thanks** to the following gardeners that brought up issues, contributions, and fixes to this release.
 
 {% for ent in contributors %}
+{%if ent.profile != '' %}
 - [{{ ent.name }}]({{ ent.profile }})
+{% else %}
+- {{ ent.name }}
+{% endif %}
+{{ ent.for | indent(4, True) }}
 {% endfor %}
