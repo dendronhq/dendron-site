@@ -13,6 +13,16 @@ Users should be able to initialize their workspace with multiple workspaces
 
 ## Details
 
+## Discussions
+
+### Naming Collisions
+
+- [[kevin response to jojo |project.scratch.2020.09.07-121834]]
+
+### Sharing Material Between Vaults
+
+- [[thread | project.scratch.2020.09.07-121952]]
+
 ## Tasks
 
 ## Release Notes
