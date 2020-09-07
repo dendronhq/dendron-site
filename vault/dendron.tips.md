@@ -70,4 +70,4 @@ a[href*=".tags.business"] {
 ```
 
 The result looks like this:
-![](https://i.imgur.com/NPJgzwV.png)
+![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/tips.tags.png)
