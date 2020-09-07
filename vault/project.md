@@ -30,11 +30,11 @@ This hierarchy describes the short term and long term projects of Dendron.
 # Structure
 
 ## Custom Frontmatter
-- start: start date
-- end: end date
+- start: start date for project
+- end: end date for project
 
 ## Snipeets
-- `project`
+- `project`: creates the outline for a new project
 
 ## Sections
 
@@ -47,8 +47,11 @@ What are we trying to accomplish. Try to limit this to one or two sentences.
 
 This can be used to further elaborate on the task at hand
 
-## Tasks
+## Discussions
 
+Link to existing discussion on the topic. 
+
+## Tasks
 What tasks are related to accomplish this project?
 
 ## Release Notes
