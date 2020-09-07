@@ -9,5 +9,19 @@
     "prefix": "h3",
     "scope": "markdown",
     "body": "### "
+  },
+  "project": {
+    "prefix": "project",
+    "body": [
+      "## Goals",
+      "",
+      "## Details",
+      "",
+      "## Tasks",
+      "",
+      "## Release Notes",
+      "",
+    ],
+    "description": ""
   }
 }
