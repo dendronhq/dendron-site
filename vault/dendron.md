@@ -48,6 +48,10 @@ Some popular use cases include:
 - CRM to keep track of clients, friends and enemies
 - recipe book 
 
+## Getting Started 
+
+((ref:[[dendron.install]]#Getting Started,1:#Install))
+
 ## Onboarding
 
 [Kevin](https://kevinslin.com/), the founder of Dendron, does a personal onboarding with new users. This onboarding is customized to your note taking goals and familiarity with Dendron. You can see an example onboarding below and book your own [here](https://calendly.com/thence/dendron).
