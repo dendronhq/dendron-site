@@ -78,6 +78,13 @@ This is a cheatsheet for Dendron.
 
 
 
+### Dendron: New Note From Selection
+- [[docs|dendron.topic.commands.md]]
+- description: Create new note based on a selection. Remove selection from original note.
+- shortcuts: none
+
+![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/notes.new-from-select.gif)
+
 ### Dendron: Rename Note
 - [[docs|dendron.topic.commands.md]]
 - description: Rename a note and all backlinks
