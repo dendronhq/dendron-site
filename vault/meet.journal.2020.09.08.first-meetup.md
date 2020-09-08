@@ -11,3 +11,6 @@ created: 1599580612448
 - [ ] talk about the roadmap
 - [ ] figure out high level ordering for things to do
 - [ ] talk about sustainability
+
+# Prep
+- [ ] have read and/or commented on the [[project]]
