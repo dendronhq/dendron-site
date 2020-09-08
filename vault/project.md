@@ -23,6 +23,18 @@ This hierarchy describes the short term and long term projects of Dendron.
 - [[Better Docs|project.n.2020.better-docs]]
 - [[Long Term Sustainability|project.n.2020.long-term-sustainability]]
 
+## Commenting and Reviews
+
+### For Dendrologists
+The easiest way to leave a comment is by using the [code stream extension](https://marketplace.visualstudio.com/items?itemName=CodeStream.codestream).
+
+You should have received an invite to be part of the **Dendrologist** team (if not, ping Kevin).  
+
+After you install the extension and log in, you'll be able to leave comments inline in the the docs!
+
+![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/project.code-stream.gif)
+
+
 ## Other Resources
 
 - [[Cookbook|project.cook]]: Optional things to help you manage Dendron projects
