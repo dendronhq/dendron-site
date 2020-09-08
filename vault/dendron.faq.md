@@ -99,13 +99,15 @@ There are 3 ways to go back to my previous note:
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/faq.go-back.gif)
 
-## How should I name a note?
+## Working with Hierarchies
+
+### How should I name a note?
 
 There are no rigid requirements on note naming in Dendron, other than the dots in the file name are used to construct the note [[note hierarchy|dendron.topic.hierarchies]]. However, the recommended way is to use all lowercase letters, replace spaces with `-`-mark and remove any special characters. Thus e.g. `John's amazing garage` becomes `johns-amazing-garage`.
 
 Also, remember that you will use the note [[lookup-feature|dendron.topic.lookup]] to find notes quickly, and the lookup will use the names of the files. Thus try to name the files using the words that you are likely to use to find the note.
 
-## What kind of note hierarchy should I create?
+### What kind of note hierarchy should I create?
 
 A good guideline is to start with a relatively flat hierarchy (even just a single note in the root!) and add topics as headings into those notes. When notes grow to the point that you have to start scrolling, it’s time to consider if it would be beneficial to split those notes. At that point, you probably already have some idea how the thoughts are placed in your mind - try to mimic that also with the hierarchy.
 
@@ -113,7 +115,7 @@ If you have a hard time deciding which ideas belong closer to root, think which 
 
 ## Working with Schemas
 
-## What is the deal with schemas? Do I need to use them?
+### What is the deal with schemas? Do I need to use them?
 
 The short answer is no, you don't **need** to use schemas. That being said, schemas can help you manage your notes, especially as you collect more of them.
 
@@ -126,6 +128,18 @@ Schemas at the end of the day help you construct consistent hierarchies for your
 This allows you to quickly reference anything within your hierarchy because they all have the same shape. It also helps with understanding a topic - I (Kevin, Dendron author) find my schema for a domain tends to reflect my mental model for said domain as well.
 
 For example, I'm using nodejs and need to access a file. I have no idea what the builtin/recommended library for file access is. Instead of having to dig up [fs-extra](https://www.npmjs.com/package/fs-extra), i can navigate to `l.node.file` and see my notes on the best way to work with files. You can replace node with any other programming language. now i have a general way of referencing file access for all languages without needing to remember the specific implementation detail of any of them.
+
+## Finding Notes
+
+### Can I do filter by the metadata in Dendron?
+
+Metadata is currently under utilized because we don't have a built in way of easily querying by it. We currently have [this issue](https://github.com/dendronhq/dendron/issues/152) tracking the progress of advanced query work.
+
+In the future, we want to support:
+- querying by custom frontmatter attributes: https://github.com/dendronhq/dendron/issues/152
+- query by attributes with logical operators: https://github.com/dendronhq/dendron/issues/159
+
+We also want to support some subset of the queries as note references so that the results can be included in page.
 
 ## Other
 
