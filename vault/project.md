@@ -21,6 +21,7 @@ This hierarchy describes the short term and long term projects of Dendron.
 - [[Community Building|project.n.2020.community-building]]
 - [[Power Functionality|project.n.2020.power-functionality]]
 - [[Better Docs|project.n.2020.better-docs]]
+- [[Git All The People|project.n.2020.git]]
 - [[Long Term Sustainability|project.n.2020.long-term-sustainability]]
 
 ## Commenting and Reviews
