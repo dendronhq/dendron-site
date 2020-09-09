@@ -8,7 +8,47 @@ created: 1596566533712
 
 # Todos
 
-This is a video of managing todos in Dendron. It goes over the following:
+## General Workflows
+
+When working with todo's sometimes you need more states than `unfinished|finished`. Below are three different workflows to delineate todo state. 
+
+### Inside the checkbox
+- put state in checkbox
+
+```
+- [ ]: not started
+- [w] : work in progress
+- [x] : done
+- [?] : feedback
+- [>] : postponed
+```
+
+### Kanban based
+- put state in a header
+
+```
+# wip
+- [ ] foo
+
+# pending
+- [ ] bar
+
+# done
+- [ ] baz
+```
+
+### Tag Baed
+
+```
+- [ ] foo #wip
+- [ ] bar #feedback
+- [ ] baz
+```
+
+## Kevin's Workflow
+
+This is a video of how Kevin manages todos in Dendron. It goes over the following:
+
 - using [[journal notes | dendron.topic.special-notes]] to keep a daily todo list
 - using [[snippets | dendron.topic.snippets]] to create check boxes
 - using [[scratch notes | dendron.topic.special-notes]] to create nested todos in new notes
@@ -18,7 +58,7 @@ This is a video of managing todos in Dendron. It goes over the following:
 <img style="" src="https://cdn.loom.com/sessions/thumbnails/88cfdc3e900a4f4eadf7b14429e01d65-with-play.gif"> 
 </a>
 
-## Resources
+### Resources
 
 Below are some of the settings used in the above video
 
