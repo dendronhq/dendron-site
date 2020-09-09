@@ -223,6 +223,13 @@ This is a cheatsheet for Dendron.
 
 
 
+### Dendron: Configure Pod
+- [[docs|dendron.topic.pod.md]]
+- description: Update your pod configuration
+- shortcuts: none
+
+![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/pods.configure.gif)
+
 ### Dendron: Import Pod
 - [[docs|dendron.topic.pod.md]]
 - description: Import notes from an external data source. Currently, only the local file system is supported

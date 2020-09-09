@@ -189,7 +189,10 @@ Update hierarchy using regex
 
 After running the command, you will be taken to a preview that shows all files that will be affected. You will be given an option in a dropdown to either proceed with the refactor or cancel the operation. 
 
-- NOTE: Dendron will warn you if refactoring will overwrite existing files. You will need to either change your `replacer` or move the affected files before Dendron will perform a refactor 
+- NOTE: Dendron will warn you if refactoring will overwrite existing files. You will need to either change your `replacer` or move the affected files before Dendron will perform a refactor
+
+Refactor Hierarchy is 
+https://discordapp.com/channels/717965437182410783/743194856788328497/743195382795993291 
 
 <a href="https://www.loom.com/share/11d90a86fd1348a5a504406b52d79f85"> <img style="" src="https://cdn.loom.com/sessions/thumbnails/11d90a86fd1348a5a504406b52d79f85-with-play.gif"> </a>
 
@@ -290,6 +293,16 @@ Build your notes for export. Currently, only export to github pages is supported
 
 
 
+
+### Dendron: Configure Pod
+- shortcuts: none
+
+
+Update your pod configuration
+
+
+
+![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/pods.configure.gif)
 
 ### Dendron: Import Pod
 - shortcuts: none
