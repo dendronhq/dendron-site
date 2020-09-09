@@ -22,6 +22,6 @@ An easy way to insert an image which is saved locally to your markdown note is t
 
 - Copy / save the image in your `assets/images` folder located in your vault,
 - In Dendron navigate to the note where you wish to input the image(s), and type:
-- `![Image_Description] (assets\images\File_Name.png)`
+- `![Image_Description](assets/images/File_Name.png)`
   - Be sure to replace `Image_Description` and `File_Name.png` with the description of the image and the actual filename
   
