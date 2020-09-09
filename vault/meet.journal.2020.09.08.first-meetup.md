@@ -4,7 +4,12 @@ title: meet.journal.2020.09.08.first-meetup
 desc: ''
 updated: 1599580612448
 created: 1599580612448
+start: 2020.09.15 17:00
+end: 2020.09.15 18:00
 ---
+
+# Links
+- start time: https://everytimezone.com/s/0f71602d
 
 # Agenda
 - [ ] put faces to names
