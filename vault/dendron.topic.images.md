@@ -16,7 +16,7 @@ Dendron automatically inserts images in your clipboard using the `> Paste Image`
 <img style="" src="https://cdn.loom.com/sessions/thumbnails/e1f6d207a1134f42b7a1a7750658acec-with-play.gif"> </a>
 </a>
 
-  ## Inserting Saved Images 
+## Inserting Saved Images 
  
 An easy way to insert an image which is saved locally to your markdown note is to do the following:
 
