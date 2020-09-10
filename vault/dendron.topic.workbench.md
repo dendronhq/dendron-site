@@ -35,3 +35,18 @@ The Dendron Tree View has the following capabilities:
 - reveal currently open text document
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/workbench.treeview-active-doc.gif)
+
+
+## Working with Multiple Columns
+
+VSCode lets you create multiple columns of your editor and arrange them any way you want them.
+
+![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/workbench.windows.gif)
+
+<!-- TODO
+### Expanding the Current Editor
+
+### Zen Mode
+
+### Useful Shortcuts
+-->
