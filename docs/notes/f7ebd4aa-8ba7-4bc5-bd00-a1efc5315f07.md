@@ -53,8 +53,20 @@ VSCode lets you create multiple columns of your editor and arrange them any way 
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/workbench.windows.gif)
 
-<!-- TODO
 ### Expanding the Current Editor
+
+You can use the `toggleEditorWidth` command with a hotkey to quickly expand the current editor.
+
+```json
+{
+    "command": "workbench.action.toggleEditorWidths",
+    "key": "ctrl+cmd+m"
+}
+```
+
+![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/workbench.toggle-editor.gif)
+
+<!-- TODO
 
 ### Zen Mode
 

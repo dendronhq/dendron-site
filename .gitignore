@@ -10,3 +10,5 @@ site-builder/docs
 site-builder/notes
 node_modules
 docs-dev/notes
+
+proto.*
