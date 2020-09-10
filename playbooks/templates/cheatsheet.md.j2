@@ -37,4 +37,27 @@ This is a cheatsheet for Dendron.
 {{ entry.docPreview | default('') }}
 
 {% endfor %}
+{% endfor %} {# end plugin #}
+
+# Bundled Extensions
+# Commands
+{% for topic in bundled %}
+---
+## {{ topic.capitalize() }}
+{% for entry in plugin[topic] | rejectattr("skipDocs") %}
+### {{ entry.title }}
+- [[docs|{{ entry.docLink | default('TODO') }}]]
+- description: {{ entry.desc | default('TODO') }}
+{% if 'keybindings' in entry %}
+- shortcuts: 
+{% for k, v in entry.keybindings.items() %}
+  - {{ k }}: `{{ v }}`
 {% endfor %}
+{% else %}
+- shortcuts: none
+{% endif %}
+
+{{ entry.docPreview | default('') }}
+
+{% endfor %}
+{% endfor %} {# end plugin #}
