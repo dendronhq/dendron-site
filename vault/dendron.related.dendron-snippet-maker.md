@@ -11,7 +11,6 @@ stub: false
 
 This is a standalone extension used by Dendron to help you more easily create snippets. 
 
-
 # Commands
 
 ### Create Global Snippet
