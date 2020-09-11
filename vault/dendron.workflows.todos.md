@@ -11,22 +11,27 @@ created: 1596566533712
 ## Snippets
 The default dendron workspace comes with the `to` snippet that expands to `- [ ]`. You can use this to quickly create bulleted checkboxes. 
 
+## Interactive Checkboxes
+
+Markdown preview renders an empty checkbox for any line that starts with `- [ ]`. A checked checkbox is rendered for lines starting with `- [x]`. Clicking a checkbox changes its state in the markdown file.
+
 ## General Workflows
 
-When working with todo's sometimes you need more states than `unfinished|finished`. Below are three different workflows to delineate todo state. 
+When working with todos sometimes you need more states than `unfinished|finished`. Below are three different workflows to delineate todo state. 
 
-### Inside the checkbox
+### Inside the Checkbox
 - put state in checkbox
+- note that custom checkbox states such as `[w]` are displayed as plain text in markdown previews. Todo lists of this type look best in the editor.
 
 ```
-- [ ]: not started
+- [ ] : not started
 - [w] : work in progress
 - [x] : done
 - [?] : feedback
 - [>] : postponed
 ```
 
-### Kanban based
+### Kanban Based
 - put state in a header
 
 ```
@@ -40,13 +45,18 @@ When working with todo's sometimes you need more states than `unfinished|finishe
 - [ ] baz
 ```
 
-### Tag Baed
+### Tag Based
+- put tags in todo items
 
 ```
 - [ ] foo #wip
 - [ ] bar #feedback
 - [ ] baz
 ```
+
+## Reordering tasks
+
+((ref:[[dendron.tips]]#Moving lines,1:#*))
 
 ## Kevin's Workflow
 
@@ -55,7 +65,7 @@ This is a video of how Kevin manages todos in Dendron. It goes over the followin
 - using [[journal notes | dendron.topic.special-notes]] to keep a daily todo list
 - using [[snippets | dendron.topic.snippets]] to create check boxes
 - using [[scratch notes | dendron.topic.special-notes]] to create nested todos in new notes
-- using [search editor commands](https://code.visualstudio.com/updates/v1_47#_new-search-editor-command-arguments) to get an aggregration of all my tasks in a given day
+- using [search editor commands](https://code.visualstudio.com/updates/v1_47#_new-search-editor-command-arguments) to get an aggregration of all tasks in a given day
 
 <a href="https://www.loom.com/share/88cfdc3e900a4f4eadf7b14429e01d65"> 
 <img style="" src="https://cdn.loom.com/sessions/thumbnails/88cfdc3e900a4f4eadf7b14429e01d65-with-play.gif"> 
