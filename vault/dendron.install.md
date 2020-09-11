@@ -20,9 +20,9 @@ Dendron can be installed as a [vscode plugin](https://marketplace.visualstudio.c
 After you have downloaded the plugin, following the instructions to create your first **workspace**.
 
 1. With VSCode in focus, launch the _command bar_:
-    - Linux: `Ctrl+Shift+P`
-    - macOS: `Cmd+Shift+P`
-    - Windows: `Ctrl+Shift+P`
+
+((ref: [[dendron.cook]]#launch the command bar,3:#*))
+
 2. Paste the following command and press `Enter`: 
 ```sh
 > Dendron: Initialize Workspace

@@ -27,6 +27,14 @@ Rename your current workspace file to `dendron.code-workspace`. Use the [Dendron
 
 Dendron doesn't currently provide native support for this. You can download the [Bookmarks](https://marketplace.visualstudio.com/items?itemName=alefragnani.Bookmarks) extension to achieve the functionality in the interim.
 
+### Launch the command bar
+
+This lets you execute commands inside vscode
+
+- Linux: `Ctrl+Shift+P`
+- macOS: `Cmd+Shift+P`
+- Windows: `Ctrl+Shift+P`
+
 ### Analyze notes using elasticsearch
 
 - WARNING: this is advanced material 
@@ -73,3 +81,4 @@ Some potential use cases you can do using elasticsearch and Dendron:
 Some useful additional links: 
 - [elasticsearch docs](https://www.elastic.co/guide/en/elasticsearch/reference/current/elasticsearch-intro.html)
 - [elasticsearch vscode extension](https://marketplace.visualstudio.com/items?itemName=ria.elastic)
+
