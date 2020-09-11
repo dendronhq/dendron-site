@@ -242,3 +242,7 @@ Dendron doesn't force you to use schemas if you don't want to. This is why you c
 ## Working with Schemas
 
 Schemas can be modified, created and deleted using the same lookup interface that you use for regular notes. See [[lookup | dendron.topic.lookup]] for further details about working with schemas.
+
+## Example Schemas
+
+- [Project and Journal](https://gist.github.com/kevinslin/5ca7a6f25a239add5ea374f329e6a19e)
