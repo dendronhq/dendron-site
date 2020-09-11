@@ -11,22 +11,25 @@ custom: {}
 
 Dendron provides support for graph view using a fork of the [markdown-links](https://marketplace.visualstudio.com/items?itemName=tchayen.markdown-links) extension. 
 
-The Dendron graph view is generated using our hierarichal index. It also shows different relationships than most of the graph views you're probably used to.
+The Dendron graph view is generated using our hierarchical index. It also shows different relationships than most of the graph views you're probably used to.
 
-Instead of showing edges as links between nodes, Dendron edges are the hierarichal relationships between your notes. Think of it as a 20,000 foot view of the structure of your knowledge base. 
+Instead of showing edges as links between nodes, Dendron edges are the hierarchical relationships between your notes. Think of it as a 20,000 foot view of the structure of your knowledge base. 
 
-Note that this command is not optimized for performance and you might notice slowdowns if you have more than a few hundred notes. If you are running into performance issues, please upvote this [issue](https://github.com/dendronhq/dendron/issues/107) to prioritize the performacne work!
+Note that this command is not optimized for performance and you might notice slowdowns if you have more than a few hundred notes. If you are running into performance issues, please upvote this [issue](https://github.com/dendronhq/dendron/issues/107) to prioritize the performance work!
 
 ## Commands
 
 ### Dendron: Show Note Graph
 
+Ctrl + Shift + P: `> Dendron: Show Note Graph`
+
 Show your note hierarchies visually in a graph.
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/graph.show-notes.gif)
 
-
 ### Dendron: Show Schema Graph
+
+Ctrl + Shift + P: `> Dendron: Show Schema Graph`
 
 Show your note schemas visually in a graph. Schemas will be labelled by their `title` attribute. If `title` is not set, default to its `id`.
 
