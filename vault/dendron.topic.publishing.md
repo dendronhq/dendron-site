@@ -110,6 +110,9 @@ config:
 The list of possible options:
 - publishByDefault: boolean, default: true
   - if set to false, dendron will only publish notes within the hierarchy that have `published: true` set in the frontmatter
+- noindexByDefault: boolean, default: false
+  - if set to true, dendron will add the following meta tag `<meta name="robots" content="noindex, nofollow”>` which will tell google to not index your page
+  - when google indexes a page, it will penalize sites that have duplicate content from other sites. this is useful if you are using your hiearchy as a [[cache|dendron.workflows.cache]]
 
 As an example, below is the config for [my website](https://kevinslin.com). It publishes everything under the `home` and `blog` hierarchies but will only publish notes under `books` if `published: true` is set on the frontmatter. 
 
@@ -210,6 +213,16 @@ To exclude a page from publication, you can add the following to the frontmatter
 ...
 published: false
 ```
+
+### Exclude from indexing
+
+To tell google to not index a page, you can add the following tag to the frontmatter. You can also have this as a default for a given hierarchy by setting `noIndexByDefault: true` in the site config.
+
+```yml
+...
+noindex: true
+```
+
 
 ### Exclude line from publication
 
