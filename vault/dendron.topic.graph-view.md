@@ -21,7 +21,7 @@ Note that this command is not optimized for performance and you might notice slo
 
 ### Dendron: Show Note Graph
 
-Ctrl + Shift + P: `> Dendron: Show Note Graph`
+Launch the command bar (see [link](https://www.dendron.so/notes/401c5889-20ae-4b3a-8468-269def4b4865.html#launch-the-command-bar) for info): `> Dendron: Show Note Graph`
 
 Show your note hierarchies visually in a graph.
 
@@ -29,7 +29,7 @@ Show your note hierarchies visually in a graph.
 
 ### Dendron: Show Schema Graph
 
-Ctrl + Shift + P: `> Dendron: Show Schema Graph`
+Launch the command bar (see [link](https://www.dendron.so/notes/401c5889-20ae-4b3a-8468-269def4b4865.html#launch-the-command-bar) for info): `> Dendron: Show Schema Graph`
 
 Show your note schemas visually in a graph. Schemas will be labelled by their `title` attribute. If `title` is not set, default to its `id`.
 
