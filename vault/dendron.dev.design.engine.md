@@ -259,6 +259,50 @@ delete(idOrFname, mode, opts) {
 }
 ```
 
+# Parsing note references
+
+
+## Summary
+
+((ref: [[dendron.topic.refs]]#references,1:#*))
+
+## Flow
+
+- engine-server/src/topics/markdown/plugins/dendronRefsPlugin.ts
+```ts
+dendronRefsPlugin {
+    // match note ref
+    match := /^\(\((?<ref>[^)]+)\)\)/.match(text)
+
+    stringify(link) := {
+      body = read(join(root, link.name + ".md))
+      bodyAST = getProcessor.parse(body)
+
+      refRange = calculateRefRange(body, link)
+      bodyAST.children = bodyAST.children.slice(refRange)
+      out = getProcessor().stringify(bodyAST);
+      ...
+      if (renderWithOutline) {
+        return doRenderWithOutline
+      } 
+      return out
+    }
+
+}
+
+```
+
+## Related
+
+- engine-server/src/utils.ts
+
+```ts
+parseDendronRef {
+  ...
+}
+```
+
+
 # Reference
 
 ## Refresh Node

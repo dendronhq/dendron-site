@@ -6,7 +6,7 @@ updated: 1597356582509
 created: 1597356582509
 ---
 
-# References 🚧
+# References 
 
 Dendron allows you to reference content from other notes and embed them in your current note.
 

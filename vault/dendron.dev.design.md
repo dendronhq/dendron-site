@@ -13,7 +13,7 @@ created: 1598651922993
 ### Dendron Engine 
 - [repo](https://github.com/dendronhq/dendron/tree/master/packages/engine-server)
 
-This is responsible for Dendron's hierarchal index and lookup capabilities. 
+This is responsible for Dendron's hierarchal index and lookup capabilities. It also contains Dendron specific markdown parsers. 
 
 ### Dendron Plugin
 - [repo](https://github.com/dendronhq/dendron/tree/master/packages/plugin-core)
