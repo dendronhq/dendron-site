@@ -69,9 +69,13 @@ Copy wiki link to note
 
 Copies a reference to the current open document
 
- See [[references | dendron.topic.refs]] for more details 
-
+ Lets you quickly create a [[note reference| dendron.topic.refs]] to the current note.
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/ref-note.gif)
+
+If you have a header selected while running this command, it will copy the note ref with the selected header to the next note ref
+![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/refs.copy-selection.gif) 
+
+
 
 ### Dendron: Delete Node
 - shortcuts: 

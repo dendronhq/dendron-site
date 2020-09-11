@@ -67,7 +67,7 @@ This is a cheatsheet for Dendron.
   - mac: `cmd+shift+r`
   - when: `editorFocus`
 
-![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/ref-note.gif)
+
 
 ### Dendron: Delete Node
 - [[docs|dendron.topic.lookup.md]]
@@ -260,3 +260,4 @@ This is a cheatsheet for Dendron.
 
 
 
+ 
