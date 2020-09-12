@@ -30,16 +30,22 @@ References have the following syntax
 - NOTE: Dendron has a `Copy Note Ref` command that will copy the reference of the current note.
 
 
+## Configuration
+- note references by default come with an outline. you can set the following to `false` in the settings to disable this behavior
+
+```
+"markdown-preview-enhanced.renderRefWithOutline": true
+```
 
 ## Note Reference
 
 A note reference will include the entire contents of a note within another note. Below is an example of a note reference.
 
 ```
-((ref:[[demo.embed.block]]))
+((ref: [[dendron.demo.refs.sample]]))
 ```
 
-![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/ref-note.gif)
+![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/refs.block.gif)
 
 ## Block Reference
 A block reference will include the entire contents of a note starting from a specified heading. 
@@ -81,3 +87,4 @@ For example, the following would reference the content from header1 to the next 
 ```
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/refs.wildcard.gif)
+
