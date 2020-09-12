@@ -1,0 +1,14 @@
+---
+id: 2367a2af-c216-414b-88bf-02acd9d4eca4
+title: Myles
+desc: ''
+updated: 1599936132300
+created: 1599936132300
+stub: false
+---
+
+> I started taking organised notes in 1993. I had read 'Lila' by Robert Pirsing and 'The Tao of Physics' by Fritjof Capra, both of whom used index card systems to organise those books. I've never stopped taking notes since 1993. I may have a few thousand more notes than @kevins8.
+> I've used apps - everything from Filemaker Pro, to Mark Bernstein's excellent Tinderbox, to DevonThink, to Tiddlywiki, to ones i've written myself, and dozens more, including the latest batch of 'tools for thought'. 
+> Given my volume of notes over decades, I know a bit about the cul-de-sacs knowledge systems run into. I use new knowledge apps to see how they feel, but mostly studiously avoid getting stuck into complex systems and closed silos. I'm allergic to apps that are too limited for my volume and density of knowledge. I can't use Roam. I can almost use logseq. I can use dendron.
+> Kevin hid a copy of Vannevar Bush's 'As We May Think' in the dendron codebase. It's definitely true that the original vision of the hyperweb is back: something is changing today - a new level of literacy or a higher level of knowledge is emerging, and language, logic, and code are merging. This isn't the late 90's, no company is going to 'win'. Instead, a few pioneers are going to build a bridge to a new level  of thought for networked humanity.
+> Dendron stands apart from the pack. Kevin is on to something. Excited to see where he leads.

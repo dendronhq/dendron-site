@@ -4,16 +4,18 @@ title: Testimonials
 desc: ''
 updated: 1599596104324
 created: 1599596104324
-nav_exclude: true
+nav_order: 2.1
 ---
 
+# Testimonials
 
-> Dendron is awesome.  Each day the simple things are getting easier
+This page is a collection of nice things that people have said about Dendron. If you want to add to it, feel free to add it using the `Edit` link on the bottom of the page or messaging kevin at kevin@dendron.so 🙏
+
+((ref: [[dendron.testimonials.tom]]))
 - Tom Diaz MD, Researcher/Technologist
 
-> I think the reason i'm using dendron, and not logseq, foam, roam, etc., is because i'm like the creator of dendron. He created dendron, not because he wanted to take notes, but because he had already created 20K+ notes. I'm  using dendron, and not one of the many other 'tools for thought', because i started taking organised notes in 1993. I had read 'Lila' by Robert Pirsing and 'The Tao of Physics' by Fritjof Capra, both of whom used index card systems to organise those books. I've never stopped taking notes since 1993. I may have a few thousand more notes than @kevins8.
-> I've used apps - everything from Filemaker Pro, to Mark Bernstein's excellent Tinderbox, to DevonThink, to Tiddlywiki, to ones i've written myself, and dozens more, including the latest batch of 'tools for thought'. 
-> Given my volume of notes over decades, i know a bit about the cul-de-sacs knowledge systems run into. I use new knowledge apps to see how they feel, but mostly studiously avoid getting stuck into complex systems and closed silos. I'm allergic to apps that are too limited for my volume and density of knowledge. I can't use Roam. I can almost use logseq. I can use dendron.
-> Kevin hid a copy of Vannevar Bush's 'As We May Think' in the dendron codebase. It's definitely true that the original vision of the hyperweb is back: something is changing today - a new level of literacy or a higher level of knowledge is emerging, and language, logic, and code are merging. This isn't the late 90's, no company is going to 'win'. Instead, a few pioneers are going to build a bridge to a new level  of thought for networked humanity.
-> Dendron stands apart from the pack. Kevin is on to something. Excited to see where he leads.
+((ref: [[dendron.testimonials.myles]]))
 -  Myles Byrne, Semantic Web Developer 
+
+((ref: [[dendron.testimonials.ed]]))
+- Ed, Accountant

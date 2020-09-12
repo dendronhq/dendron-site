@@ -82,3 +82,7 @@ Some useful additional links:
 - [elasticsearch docs](https://www.elastic.co/guide/en/elasticsearch/reference/current/elasticsearch-intro.html)
 - [elasticsearch vscode extension](https://marketplace.visualstudio.com/items?itemName=ria.elastic)
 
+### Convert timestamps in the frontmatter
+
+Currently, Dendron notes show timestamps in epoch time which is not the most parsable for humans. You can use the [timestamp converter extension](https://marketplace.visualstudio.com/items?itemName=Stalinbalraj.timestamp-converter) order to see a human representation of said timestamp.
+

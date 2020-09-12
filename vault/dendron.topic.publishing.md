@@ -18,13 +18,13 @@ dendron-jekyll supports the same nested hierarchies as your notes and allows you
 
 <img style="max-width: 720px;" src="https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/site-hierarchy.gif" />
 
-## Nav Based Hierarchy Hints
+### Nav Based Hierarchy Hints
 
 You can see at a glance which notes have children and explore them from the nav without refreshing the page. 
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/dendron.jekyll.gif)
 
-## Edit on Github
+### Edit on Github
 
 Every page can accept one-click contributions as long as the contributor has a github account. 
 
@@ -97,6 +97,11 @@ List of hierarchies to publish
 ### siteRootDir: str
 
 Location of the directory where site will be build. Relative to your workspace
+
+### usePrettyRefs?: boolean
+- default: True
+
+Whether to use pretty note refs or plain refs. 
 
 ### config
 

@@ -261,16 +261,18 @@ delete(idOrFname, mode, opts) {
 
 # Parsing note references
 
+((ref: [[dendron.topic.refs]]#references,1:#*))
 
 ## Summary
 
-((ref: [[dendron.topic.refs]]#references,1:#*))
-
 ## Flow
 
+
 - engine-server/src/topics/markdown/plugins/dendronRefsPlugin.ts
+- data:
+  - [[replaceRefs| dendron.scratch.2020.09.12-091632]]
 ```ts
-dendronRefsPlugin {
+dendronRefsPlugin({..., replaceRefs}) {
     // match note ref
     match := /^\(\((?<ref>[^)]+)\)\)/.match(text)
 
@@ -283,11 +285,25 @@ dendronRefsPlugin {
       out = getProcessor().stringify(bodyAST);
       ...
       if (renderWithOutline) {
-        return doRenderWithOutline
+        link = getProcessor()
+          .use(replaceRef, {
+            wikiLink2Html: true
+          })
+          .process(link)
+        return doRenderWithOutline(link, ...)
       } 
       return out
     }
 
+}
+```
+
+- engine-server/src/topics/markdown/plugins/replaceRefs.ts
+```
+replaceRefs(node) {
+  if node.type == 'wikilink' {
+
+  }
 }
 
 ```
