@@ -1,15 +1,15 @@
 ---
-id: 32dc1d7e-962d-4cb4-8ae5-f94cdc900f71
+id: 9afba6cc-57ad-40d7-95fa-354ce2b00dff
 title: '2020'
 desc: ''
-updated: 1600038689484
-created: 1600038689484
+updated: 1600039026636
+created: 1600039026636
 data: {}
 fname: dendron.scratch.2020
 stub: true
 parent: bda5bccb-c679-4ebd-854e-67f9f6bc07fa
 children:
-  - 72f0e179-6096-4461-acf2-743a595d52c9
+  - 1639c72c-fd1a-406b-9beb-1124d5726fd7
 hpath: dendron.scratch.2020
 ---
 
