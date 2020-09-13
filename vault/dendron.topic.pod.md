@@ -38,6 +38,7 @@ Dendron supports two kinds of pods:
 
 Builtin pods are installed with Dendron and can be invoked without any further action. Custom pods are `npm packages` that adopt the pod interface (TBD). These packages can be installed into the `pods` directory under Dendron to support additional sources not covered by the built-in pods. 
 
+
 ## Builtin Pods
 
 ### LocalFile Pod
@@ -189,3 +190,20 @@ Video example of exporting to JSON
 ## Custom Pods
 
 TBD. Stay tuned
+
+## Config
+
+### Import Config
+
+### Export Config
+
+#### dest: string
+- where to export to
+
+#### includeStubs?: boolean
+- include stubs when exporting notes
+- default: false
+
+#### includeBody?: boolean
+- include body when exporting notes
+- default: true

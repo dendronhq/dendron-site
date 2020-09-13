@@ -9,7 +9,7 @@ created: 1595261816971
 # Commands
 ---
 ## Notes
-### Dendron: Create Daily Journal Note
+### Create Daily Journal Note
 - shortcuts: 
   - key: `ctrl+shift+i`
   - mac: `cmd+shift+i`
@@ -22,7 +22,7 @@ Create a global journal note
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/notes.daily.gif)
 
-### Dendron: Create Journal Note
+### Create Journal Note
 - shortcuts: 
   - key: `ctrl+shift+j`
   - mac: `cmd+shift+j`
@@ -35,7 +35,7 @@ Create a hierarchy specific journal note
 
 <a href="https://www.loom.com/share/da562a166af9427e908a76be8bc38355"><img src="https://cdn.loom.com/sessions/thumbnails/da562a166af9427e908a76be8bc38355-with-play.gif"></a>
 
-### Dendron: Create Scratch Note
+### Create Scratch Note
 - shortcuts: 
   - key: `ctrl+shift+s`
   - mac: `cmd+shift+s`
@@ -47,7 +47,7 @@ Create a hierarchy specific scratch note
 
 <a href="https://www.loom.com/share/104a3e0bb10f4012a831194d02483e4a"> <img style="" src="https://cdn.loom.com/sessions/thumbnails/104a3e0bb10f4012a831194d02483e4a-with-play.gif"> </a>
 
-### Dendron: Copy Note Link
+### Copy Note Link
 - shortcuts: 
   - key: `ctrl+shift+c`
   - mac: `cmd+shift+c`
@@ -60,7 +60,7 @@ Copy wiki link to note
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/command.copy-link.gif)
 
-### Dendron: Copy Note Ref
+### Copy Note Ref
 - shortcuts: 
   - key: `ctrl+shift+r`
   - mac: `cmd+shift+r`
@@ -77,7 +77,7 @@ If you have a header selected while running this command, it will copy the note 
 
 
 
-### Dendron: Delete Node
+### Delete Node
 - shortcuts: 
   - key: `ctrl+shift+d`
   - mac: `cmd+shift+d`
@@ -89,7 +89,7 @@ Delete a note or schema
 
 
 
-### Dendron: New Note From Selection
+### New Note From Selection
 - shortcuts: none
 
 
@@ -99,7 +99,7 @@ Create new note based on a selection. Remove selection from original note.
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/notes.new-from-select.gif)
 
-### Dendron: Rename Note
+### Rename Note
 - shortcuts: none
 
 
@@ -109,7 +109,7 @@ Rename a note and all backlinks
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/command-rename.gif)
 
-### Dendron: Show Preview
+### Show Preview
 - shortcuts: 
   - windows: `windows+ctrl+p`
   - mac: `cmd+ctrl+p`
@@ -123,7 +123,7 @@ Show Markdown Preview
 
 ---
 ## Navigation
-### Dendron: Lookup
+### Lookup
 - shortcuts: 
   - mac: `cmd+L`
   - key: `ctrl+l`
@@ -135,7 +135,7 @@ Initiate note lookup
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/lookup-cli.gif)
 
-### Dendron: Lookup Schema
+### Lookup Schema
 - shortcuts: 
   - mac: `cmd+shift+L`
   - key: `ctrl+shift+l`
@@ -147,7 +147,7 @@ Initiate schema lookup
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/schema-lookup.gif)
 
-### Dendron: Open Link
+### Open Link
 - shortcuts: none
 
 
@@ -159,7 +159,7 @@ Open link to external file (eg. pdf, .mov, etc) use system default
 
 ---
 ## Hierarchies
-### Dendron: Reload Index
+### Reload Index
 - shortcuts: none
 
 
@@ -169,7 +169,7 @@ Reload the index. Necessary for Dendron to pick up on schema changes.
 
 
 
-### Dendron: Archive Hierarchy
+### Archive Hierarchy
 - shortcuts: none
 
 
@@ -181,7 +181,7 @@ Move current note and all children under the `archive` hierarchy
 
 <a href="https://www.loom.com/share/9698d5a4451b49d8b107f3ff67d97877">  <img style="" src="https://cdn.loom.com/sessions/thumbnails/9698d5a4451b49d8b107f3ff67d97877-with-play.gif"> </a>
 
-### Dendron: Refactor Hierarchy
+### Refactor Hierarchy
 - shortcuts: none
 
 
@@ -200,7 +200,7 @@ https://discordapp.com/channels/717965437182410783/743194856788328497/7431953827
 
 <a href="https://www.loom.com/share/11d90a86fd1348a5a504406b52d79f85"> <img style="" src="https://cdn.loom.com/sessions/thumbnails/11d90a86fd1348a5a504406b52d79f85-with-play.gif"> </a>
 
-### Dendron: Go Up
+### Go Up
 - shortcuts: 
   - mac: `cmd+shift+up`
   - key: `ctrl+shift+up`
@@ -213,7 +213,7 @@ Go to closet non-stub parent of the currently open note
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/hierarchy.go-up.gif)
 
-### Dendron: Go Next Sibling
+### Go Next Sibling
 - shortcuts: 
   - mac: `cmd+shift+right`
   - key: `ctrl+shift+right`
@@ -226,7 +226,7 @@ Go to the next sibling
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/hierarchy.go-sibling.gif)
 
-### Dendron: Go Previous Sibling
+### Go Previous Sibling
 - shortcuts: 
   - mac: `cmd+shift+left`
   - key: `ctrl+shift+left`
@@ -239,7 +239,7 @@ Go to the previous sibling
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/hierarchy.go-sibling.gif)
 
-### Dendron: Go Down
+### Go Down
 - shortcuts: 
   - mac: `cmd+shift+down`
   - key: `ctrl+shift+down`
@@ -254,7 +254,7 @@ Go down the hierarchy
 
 ---
 ## Workspace
-### Dendron: Initialize Workspace
+### Initialize Workspace
 - shortcuts: none
 
 
@@ -264,7 +264,7 @@ Create a new workspace
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/workspace-init.gif)
 
-### Dendron: Change Workspace
+### Change Workspace
 - shortcuts: none
 
 
@@ -276,7 +276,7 @@ Dendron **does not** delete or overwrite any files during the **Change Workspace
 
 
 
-### Dendron: Show Help
+### Show Help
 - shortcuts: none
 
 
@@ -288,7 +288,7 @@ Dendron will open your current browser to the [[cheatsheet|dendron.cheatsheet]] 
 
 ---
 ## Pods
-### Dendron: Build Pod
+### Build Pod
 - shortcuts: none
 
 
@@ -298,7 +298,7 @@ Build your notes for export. Currently, only export to github pages is supported
 
 
 
-### Dendron: Configure Pod
+### Configure Pod
 - shortcuts: none
 
 
@@ -308,7 +308,7 @@ Update your pod configuration
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/pods.configure.gif)
 
-### Dendron: Import Pod
+### Import Pod
 - shortcuts: none
 
 
@@ -318,7 +318,7 @@ Import notes from an external data source. Currently, only the local file system
 
 
 
-### Dendron: Export Pod
+### Export Pod
 - shortcuts: none
 
 
@@ -330,7 +330,7 @@ Export notes to an external data source. Currently only JSON is supported.
 
 ---
 ## Dev
-### Dendron: Doctor
+### Doctor
 - shortcuts: none
 
 

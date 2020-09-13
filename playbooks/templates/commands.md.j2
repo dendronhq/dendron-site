@@ -11,7 +11,7 @@ created: 1595261816971
 ---
 ## {{ topic.capitalize() }}
 {% for entry in plugin[topic] | rejectattr("skipDocs") %}
-### {{ entry.title }}
+### {{ entry.title | replace("Dendron: ", "") }}
 {% if 'keybindings' in entry %}
 - shortcuts: 
 {% for k, v in entry.keybindings.items() %}

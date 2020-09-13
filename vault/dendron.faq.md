@@ -175,3 +175,9 @@ Dendron has a list of keyboard shortcuts that you can access using `Dendron: Sho
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/faq.plus-sign.jpg)
 
 The reason you see this is because dendron will create [stub](https://www.dendron.so/notes/c5e5adde-5459-409b-b34d-a0d75cbb1052.html#stubs) notes when creating notes that have parents that don't exist. These notes are placeholders and will only be visible in the Dendron Tree View with a `+` sign next to the name. The reason we do stubs is because we don't want to litter your file system with empty files. Stubs are a compromise - they let you see the hierarchy of your newly created notes without forcing you to create intermediary files.
+
+### Why custom markdown preview instead of the VSC one? 
+
+Our custom markdown preview gives us much more functionality then the vscode one -> eg. note references, checkboxes, etc.
+
+In addition, the markdown preview that dendron uses is platform agnostic (eg. it's also available on atom). This means that other editors could potentially adopt it as well 

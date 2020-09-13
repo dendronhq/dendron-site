@@ -1,5 +1,5 @@
 ---
-id: 075e9806-0367-40a2-8154-2e84d5a1110
+id: 50071eda-fc46-4aca-ba6c-9d53db00d068
 title: '{{ date }} Release Notes'
 desc: ''
 updated: 1596374871110
@@ -19,7 +19,7 @@ These release notes are summary of the more notable changes, for the full list, 
 {% set ctype = ctype_order.split("-")[1] %}
 {% if ctype == "feat" %}
 {% for item in entries_list %}
-### {{ item['cmsg'] }} ([[docs|{{ item['docs'] }}]])
+### {{ item['cmsg'] }} 
 
 {{ item['desc'] }}
 
@@ -28,7 +28,8 @@ These release notes are summary of the more notable changes, for the full list, 
 {% if ctype == "enhance" %}
 ### Enhancements
 {% for item in entries_list %}
-- {{ item['cmsg'].capitalize() }}{% if item['desc'] != '' %}: {{ item['desc'] }} {% endif %} 
+- {{ item['cmsg'].capitalize() }}
+{% if item['desc'] != '' %} {{ item['desc'] }} {% endif %} 
 {% endfor %}
 
 {% endif %}
