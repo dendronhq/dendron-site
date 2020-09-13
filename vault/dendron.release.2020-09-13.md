@@ -10,7 +10,7 @@ created: 1596374871110
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/comic.1.png)
 
-- My wife, [Ilana Lin](https://www.instagram.com/accidentalflower/), drew a comic for this week's release. Follow her on instagram and she might draw more comics for Dendron 😇
+- My wife, Ilana Lin, drew a comic for this week's release. Follow her on [instagram](https://www.instagram.com/accidentalflower/) and she might draw more comics for Dendron 😇
 
 ## Summary
 
