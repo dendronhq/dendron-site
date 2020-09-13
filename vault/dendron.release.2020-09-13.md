@@ -8,6 +8,10 @@ created: 1596374871110
 
 # 2020-09-13 Release Notes (version 0.11)
 
+![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/comic.1.png)
+
+- My wife, [Ilana Lin](https://www.instagram.com/accidentalflower/), drew a comic for this week's release. Follow her on instagram and she might draw more comics for Dendron 😇
+
 ## Summary
 
 This week's release comes with improved references as well as better tooling around pods and snippets. 
@@ -21,6 +25,7 @@ The **Dendron CLI** lets you access a subset of Dendron's functionality inside t
 We also released the **Dendron Snippet Maker**, a standalone extension that comes bundled with Dendron which helps you create [[snippets|dendron.topic.snippets]] from the current selected text.
 
 These release notes are summary of the more notable changes, for the full list, please look at our [CHANGELOG](https://github.com/dendronhq/dendron/blob/master/CHANGELOG.md)
+
 
 ## CLI
 ### Release Dendron CLI 
