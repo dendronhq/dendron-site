@@ -10,19 +10,60 @@ published: false
 
 # CRM
 
-Dendron can be used as a CRM to keep up with people and conversations. This is one way you could set it up. 
+Dendron can be used as a CRM to keep up with people and conversations. The following describes on way of setting it up. 
 
 ## Schemas
+- people.schema.yml
 ```yml
-- people hierarchy: people.{name}
-- meet hierarchy: meet.journal.{date}.hint
+- id: people
+  title: people
+  desc: ""
+  parent: root
+  namespace: true
 ```
 
-i have a section in every meeting note for people that are involved
+- meet.schema.yml
 ```yml
-# notes
-- ...
-
-# people
-- [[people.jojanaho]]
+version: 1
+schemas:
+- id: meet
+  parent: root
+  children:
+    - journal
+- id: journal
+  children:
+    - year
+- id: year
+  title: year
+  pattern: "[0-2][0-9][0-9][0-9]"
+  children: 
+    - month
+- id: month
+  title: month
+  pattern: "[0-9][0-9]"
+  children: 
+    - day
+- id: day
+  title: day
+  pattern: "[0-9][0-9]"
+  namespace: true
 ```
+
+## Notes
+I have a section in every meeting note for people that are involved
+
+- eg. meet.journal.2020.09.12.camping-trip
+```yml
+# People
+- [[people.alice]]
+- [[people.bob]]
+
+# Notes
+- get supplies for camping trip
+```
+
+## Benefits
+- whats nice with this approach is that every person inside the `people` hierarchy will have backlinks to all meetings
+
+## Future Improvements
+- [ ] create schema template for both `people` and `meet` notes

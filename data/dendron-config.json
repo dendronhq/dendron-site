@@ -320,6 +320,15 @@
             "docLink": "dendron.topic.pod.md",
             "docPreview": "<a href=\"https://www.loom.com/share/d49e5f4155af485cadc9cd810b6cab28\"> <img src=\"https://cdn.loom.com/sessions/thumbnails/d49e5f4155af485cadc9cd810b6cab28-with-play.gif\"> </a>",
             "skipDocs": false
+        },
+        {
+            "key": "dendron.copyNoteURL",
+            "title": "Dendron: Copy Note URL",
+            "group": "pods",
+            "desc": "Get URL of current note from published site",
+            "docLink": "",
+            "docPreview": "",
+            "skipDocs": false
         }
     ],
     "dev": [

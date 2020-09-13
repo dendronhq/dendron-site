@@ -71,3 +71,9 @@ a[href*=".tags.business"] {
 
 The result looks like this:
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/tips.tags.png)
+
+### Collapsing Headers and Bullets
+
+You can collapse headers at different levels and bullets at different indentation levels inside VSCode. 
+
+![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/tips.toggle-bullets.gif)

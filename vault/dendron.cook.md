@@ -86,3 +86,7 @@ Some useful additional links:
 
 Currently, Dendron notes show timestamps in epoch time which is not the most parsable for humans. You can use the [timestamp converter extension](https://marketplace.visualstudio.com/items?itemName=Stalinbalraj.timestamp-converter) order to see a human representation of said timestamp.
 
+
+### Use Dendron with Anki
+
+- [Anki for VSCode](https://marketplace.visualstudio.com/items?itemName=jasew.anki)

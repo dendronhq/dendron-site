@@ -8,3 +8,9 @@ stub: false
 ---
 
 > Dendron is awesome.  Each day the simple things are getting easier
+
+for , 
+
+give us a feature request and i'll add it to the roadmap :) 
+
+https://github.com/dendronhq/dendron/issues/new?assignees=&labels=&template=feature_request.md&title=
