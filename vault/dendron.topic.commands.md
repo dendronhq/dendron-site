@@ -88,7 +88,6 @@ Delete a note or schema
 
 
 
-
 ### New Note From Selection
 - shortcuts: none
 
