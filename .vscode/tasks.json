@@ -26,6 +26,12 @@
             "type": "shell",
             "command": "./scripts/check_links.sh",
             "problemMatcher": []
+        },
+        {
+            "label": "gen:cheatsheet",
+            "type": "shell",
+            "command": "./scripts/gen-cheatsheet.sh",
+            "problemMatcher": []
         }
     ]
 }

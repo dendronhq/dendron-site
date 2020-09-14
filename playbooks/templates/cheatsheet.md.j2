@@ -23,7 +23,7 @@ This is a cheatsheet for Dendron.
 ## {{ topic.capitalize() }}
 {% for entry in plugin[topic] | rejectattr("skipDocs") %}
 ### {{ entry.title }}
-- [[docs|{{ entry.docLink | default('TODO') }}]]
+{# - [[docs|{{ entry.docLink | default('TODO') }}]] #}
 - description: {{ entry.desc | default('TODO') }}
 {% if 'keybindings' in entry %}
 - shortcuts: 

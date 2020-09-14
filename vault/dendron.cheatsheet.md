@@ -21,7 +21,6 @@ This is a cheatsheet for Dendron.
 ---
 ## Notes
 ### Dendron: Create Daily Journal Note
-- [[docs|dendron.topic.special-notes.md]]
 - description: Create a global journal note
 - shortcuts: 
   - key: `ctrl+shift+i`
@@ -31,7 +30,6 @@ This is a cheatsheet for Dendron.
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/notes.daily.gif)
 
 ### Dendron: Create Journal Note
-- [[docs|dendron.topic.special-notes.md]]
 - description: Create a hierarchy specific journal note
 - shortcuts: 
   - key: `ctrl+shift+j`
@@ -41,7 +39,6 @@ This is a cheatsheet for Dendron.
 <a href="https://www.loom.com/share/da562a166af9427e908a76be8bc38355"><img src="https://cdn.loom.com/sessions/thumbnails/da562a166af9427e908a76be8bc38355-with-play.gif"></a>
 
 ### Dendron: Create Scratch Note
-- [[docs|dendron.topic.special-notes.md]]
 - description: Create a hierarchy specific scratch note
 - shortcuts: 
   - key: `ctrl+shift+s`
@@ -50,7 +47,6 @@ This is a cheatsheet for Dendron.
 <a href="https://www.loom.com/share/104a3e0bb10f4012a831194d02483e4a"> <img style="" src="https://cdn.loom.com/sessions/thumbnails/104a3e0bb10f4012a831194d02483e4a-with-play.gif"> </a>
 
 ### Dendron: Copy Note Link
-- [[docs|dendron.topic.commands.md]]
 - description: Copy wiki link to note
 - shortcuts: 
   - key: `ctrl+shift+c`
@@ -60,7 +56,6 @@ This is a cheatsheet for Dendron.
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/command.copy-link.gif)
 
 ### Dendron: Copy Note Ref
-- [[docs|dendron.topic.commands.md]]
 - description: Copies a reference to the current open document
 - shortcuts: 
   - key: `ctrl+shift+r`
@@ -70,7 +65,6 @@ This is a cheatsheet for Dendron.
 
 
 ### Dendron: Delete Node
-- [[docs|dendron.topic.lookup.md]]
 - description: Delete a note or schema
 - shortcuts: 
   - key: `ctrl+shift+d`
@@ -79,21 +73,18 @@ This is a cheatsheet for Dendron.
 
 
 ### Dendron: New Note From Selection
-- [[docs|dendron.topic.commands.md]]
 - description: Create new note based on a selection. Remove selection from original note.
 - shortcuts: none
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/notes.new-from-select.gif)
 
 ### Dendron: Rename Note
-- [[docs|dendron.topic.commands.md]]
 - description: Rename a note and all backlinks
 - shortcuts: none
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/command-rename.gif)
 
 ### Dendron: Show Preview
-- [[docs|dendron.topic.commands.md]]
 - description: Show Markdown Preview
 - shortcuts: 
   - windows: `windows+ctrl+p`
@@ -104,7 +95,6 @@ This is a cheatsheet for Dendron.
 ---
 ## Navigation
 ### Dendron: Lookup
-- [[docs|dendron.topic.lookup.md]]
 - description: Initiate note lookup
 - shortcuts: 
   - mac: `cmd+L`
@@ -113,7 +103,6 @@ This is a cheatsheet for Dendron.
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/lookup-cli.gif)
 
 ### Dendron: Lookup Schema
-- [[docs|dendron.topic.lookup.md]]
 - description: Initiate schema lookup
 - shortcuts: 
   - mac: `cmd+shift+L`
@@ -122,7 +111,6 @@ This is a cheatsheet for Dendron.
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/schema-lookup.gif)
 
 ### Dendron: Open Link
-- [[docs|dendron.topic.links.md]]
 - description: Open link to external file (eg. pdf, .mov, etc) use system default
 - shortcuts: none
 
@@ -131,28 +119,24 @@ This is a cheatsheet for Dendron.
 ---
 ## Hierarchies
 ### Dendron: Reload Index
-- [[docs|dendron.topic.commands.md]]
 - description: Reload the index. Necessary for Dendron to pick up on schema changes.
 - shortcuts: none
 
 
 
 ### Dendron: Archive Hierarchy
-- [[docs|dendron.topic.commands.md]]
 - description: Move current note and all children under the `archive` hierarchy
 - shortcuts: none
 
 <a href="https://www.loom.com/share/9698d5a4451b49d8b107f3ff67d97877">  <img style="" src="https://cdn.loom.com/sessions/thumbnails/9698d5a4451b49d8b107f3ff67d97877-with-play.gif"> </a>
 
 ### Dendron: Refactor Hierarchy
-- [[docs|dendron.topic.commands.md]]
 - description: Update hierarchy using regex
 - shortcuts: none
 
 <a href="https://www.loom.com/share/11d90a86fd1348a5a504406b52d79f85"> <img style="" src="https://cdn.loom.com/sessions/thumbnails/11d90a86fd1348a5a504406b52d79f85-with-play.gif"> </a>
 
 ### Dendron: Go Up
-- [[docs|dendron.topic.commands.md]]
 - description: Go to closet non-stub parent of the currently open note
 - shortcuts: 
   - mac: `cmd+shift+up`
@@ -162,7 +146,6 @@ This is a cheatsheet for Dendron.
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/hierarchy.go-up.gif)
 
 ### Dendron: Go Next Sibling
-- [[docs|dendron.topic.commands.md]]
 - description: Go to the next sibling
 - shortcuts: 
   - mac: `cmd+shift+right`
@@ -172,7 +155,6 @@ This is a cheatsheet for Dendron.
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/hierarchy.go-sibling.gif)
 
 ### Dendron: Go Previous Sibling
-- [[docs|dendron.topic.commands.md]]
 - description: Go to the previous sibling
 - shortcuts: 
   - mac: `cmd+shift+left`
@@ -182,7 +164,6 @@ This is a cheatsheet for Dendron.
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/hierarchy.go-sibling.gif)
 
 ### Dendron: Go Down
-- [[docs|dendron.topic.commands.md]]
 - description: Go down the hierarchy
 - shortcuts: 
   - mac: `cmd+shift+down`
@@ -194,21 +175,18 @@ This is a cheatsheet for Dendron.
 ---
 ## Workspace
 ### Dendron: Initialize Workspace
-- [[docs|dendron.topic.commands.md]]
 - description: Create a new workspace
 - shortcuts: none
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/workspace-init.gif)
 
 ### Dendron: Change Workspace
-- [[docs|dendron.topic.commands.md]]
 - description: Change into existing workspace
 - shortcuts: none
 
 
 
 ### Dendron: Show Help
-- [[docs|dendron.topic.commands.md]]
 - description: Dendron will open your current browser to the [[cheatsheet|dendron.cheatsheet]] page. 
 - shortcuts: none
 
@@ -217,44 +195,46 @@ This is a cheatsheet for Dendron.
 ---
 ## Pods
 ### Dendron: Build Pod
-- [[docs|dendron.topic.pod.md]]
 - description: Build your notes for export. Currently, only export to github pages is supported.
 - shortcuts: none
 
 
 
 ### Dendron: Configure Pod
-- [[docs|dendron.topic.pod.md]]
 - description: Update your pod configuration
 - shortcuts: none
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/pods.configure.gif)
 
 ### Dendron: Import Pod
-- [[docs|dendron.topic.pod.md]]
 - description: Import notes from an external data source. Currently, only the local file system is supported
 - shortcuts: none
 
 
 
 ### Dendron: Export Pod
-- [[docs|dendron.topic.pod.md]]
 - description: Export notes to an external data source. Currently only JSON is supported. 
 - shortcuts: none
 
 <a href="https://www.loom.com/share/d49e5f4155af485cadc9cd810b6cab28"> <img src="https://cdn.loom.com/sessions/thumbnails/d49e5f4155af485cadc9cd810b6cab28-with-play.gif"> </a>
 
+### Dendron: Copy Note URL
+- description: Get URL of current note from published site
+- shortcuts: 
+  - mac: `cmd+shift+u`
+  - windows: `ctrl+shift+u`
+
+![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/notes.copy-url.gif)
+
 ---
 ## Dev
 ### Dendron: Doctor
-- [[docs|dendron.topic.commands.md]]
 - description: Auto fix issues with frontmatter
 - shortcuts: none
 
 <a href="https://www.loom.com/share/bd045f708f8e474193de8e3de0dc820f"> <img style="" src="https://cdn.loom.com/sessions/thumbnails/bd045f708f8e474193de8e3de0dc820f-with-play.gif"> </a>
 
 ### Dendron:Dev: Open Logs
-- [[docs|dendron.topic.commands.md]]
 - description: Open Dendron logs for current session
 - shortcuts: none
 

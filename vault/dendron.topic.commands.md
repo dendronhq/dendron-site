@@ -88,6 +88,7 @@ Delete a note or schema
 
 
 
+
 ### New Note From Selection
 - shortcuts: none
 
@@ -326,6 +327,18 @@ Export notes to an external data source. Currently only JSON is supported.
 
 
 <a href="https://www.loom.com/share/d49e5f4155af485cadc9cd810b6cab28"> <img src="https://cdn.loom.com/sessions/thumbnails/d49e5f4155af485cadc9cd810b6cab28-with-play.gif"> </a>
+
+### Copy Note URL
+- shortcuts: 
+  - mac: `cmd+shift+u`
+  - windows: `ctrl+shift+u`
+
+
+Get URL of current note from published site
+
+ If you highlight a header, will copy the url with the header set as the anchor 
+
+![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/notes.copy-url.gif)
 
 ---
 ## Dev

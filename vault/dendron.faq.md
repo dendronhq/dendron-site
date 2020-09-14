@@ -158,6 +158,8 @@ We also want to support some subset of the queries as note references so that th
 
 ## Other
 
+
+
 ### Can I use a dark theme for the markdown preview?
 
 Yes. There's a setting called `markdown-preview-enhanced.previewTheme` that you can set which has a list of default themes, including dark themes. 
