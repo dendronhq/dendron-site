@@ -110,6 +110,23 @@ Builds your notes for publication to github pages using the [dendron-jekyll](htt
 
 #### Import
 
+Imports a JSON file as Dendron notes
+
+- format:
+  - fname: name of note (without extension)
+  - body: contents of note
+- eg:
+```json
+[
+  {
+    "fname": "one",
+    "body": "one body"
+  }
+]
+```
+
+<a href="https://www.loom.com/share/375b64a6597346ec8e6be5ca35049194"> <img style="" src="https://cdn.loom.com/sessions/thumbnails/375b64a6597346ec8e6be5ca35049194-with-play.gif"> </a>
+
 
 #### Export
 
