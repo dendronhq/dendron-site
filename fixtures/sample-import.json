@@ -1,0 +1,10 @@
+[
+    {
+        "fname": "demo.ref.import-json.one",
+        "body": "one body"
+    },
+    {
+        "fname": "demo.ref.import-json.two",
+        "body": "two body"
+    }
+]

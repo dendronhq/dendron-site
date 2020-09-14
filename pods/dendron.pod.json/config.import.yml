@@ -1,0 +1,9 @@
+# description: where will notes be imported from
+# type: string
+src: ./fixtures/sample-import.json
+# description: concatenate all entries into one note? if set to true, need to set `destName`
+# type: boolean
+concatenate: false
+# description: if `concatenate: true`, specify name of concatenated note
+# type: string
+destName: ""

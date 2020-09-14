@@ -104,11 +104,12 @@ Builds your notes for publication to github pages using the [dendron-jekyll](htt
 
 ### JSON Pod
 - coverage
-    - ❌ import
+    -  🚧import
     - ➖ build
     - 🚧 export 
 
-Export your Dendron notes to a JSON file. 
+#### Import
+
 
 #### Export
 
@@ -194,6 +195,16 @@ TBD. Stay tuned
 ## Config
 
 ### Import Config
+
+#### src: string
+- where to import from
+
+#### concatenate?: boolean
+- concatenate all entries into one note? if set to true, need to set `destName`
+- default: false
+
+#### destName?: string
+- if `concatenate: true`, specify name of concatenated note
 
 ### Export Config
 
