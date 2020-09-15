@@ -21,7 +21,6 @@ end: '2020.09.15 18:00'
 # Prep
 - [ ] have read and/or commented on the [[project]]
 
-
 # Timeline
 
 ## Epics
