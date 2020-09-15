@@ -111,7 +111,7 @@ This describes what will be the main provider of the functionality that is curre
 - Dendron:Dev: Open Logs
     - provider: [[p.engine-client]]
 
-### Additional functionality Via LSP
+### Additional Functionality Via LSP
 - [[lsp.publish-diagnostics]]
 - [[lsp.completion-and-completion-resolve]]
     - all links

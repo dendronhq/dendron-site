@@ -42,3 +42,4 @@ You can't have something that is everything for everyone. There are tradeoffs we
     - when thinking about features and tool chain, bias for speed
 - focus on hierarchies
     - while dendron supports backlinks and other forms of organizing notes, dendron's foundation is tooling to help you manage hierarchies
+- retrieval over insertion @kpathakota

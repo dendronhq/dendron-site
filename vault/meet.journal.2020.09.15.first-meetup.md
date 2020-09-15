@@ -13,13 +13,14 @@ end: '2020.09.15 18:00'
 - start time: https://everytimezone.com/s/0f71602d
 
 # Agenda
-- [ ] put faces to names
-- [ ] talk about the roadmap
-- [ ] figure out high level ordering for things to do
-- [ ] talk about sustainability
+- [x] put faces to names
+- [x] talk about the roadmap
+- [x] figure out high level ordering for things to do
+- [x] talk about sustainability
 
 # Prep
 - [ ] have read and/or commented on the [[project]]
+
 
 # Timeline
 
@@ -45,3 +46,103 @@ These projects don't have an end date. They are something we'll be continuously 
 - [[project.n.2020.better-docs]]
 - [[project.n.2020.community-building]]
 - [[project.n.2020.recruit-gardeners]]
+
+# Notes
+- faycal, brain square
+    - web developer, full stack, php, js, pythons scraping
+    - algeria, north africa
+    - linux
+    - knowledge management, think about it
+- janne
+    - building my own note taking app
+    - foam traction
+    - janni, personal issues
+    - dev stalled
+    - vs memo 
+    - dendron
+    - 20 years, software work, 10 years, nokia, software architecture, software consultant
+    - toddler, 2 years
+- kevin
+    - i'm doing everything in dendron
+- kiran
+    - know c
+
+- what do people want to take on?
+    - community 
+    - development
+    - roadmap
+
+- contribution
+    - setting expectations
+    - what is everyone here for
+
+
+- log
+    - janne: what sort of users are we targeting?
+        - publishing, maybe should be flashy
+        - foam does this well 
+    - kiran:
+        - focus on retrieval over insertion 
+        - speed of retrieval quick, speed of input can be slow
+        - good form over other things
+    - faycal:
+        - roam, take popular text and put into roam
+        - useful community 
+    - seed bank -> seed catalogue
+        - figure out name
+    - faycal:
+        - interactive tutorial
+        - simple note to master
+    - janne
+        - long term sustainbility
+        - lsp
+            - big project, should do as soon as possible
+        - foam is doing prototyping on lsp now
+    - faycal
+        - speed boost
+        - extensability
+        - additional features (eg. real time diagnostics) 
+    - faycal
+        - make it easier to publisher
+    - community
+        - basic questions
+            - people are offput by the naming convention
+            - folders vs files
+            - how to get more eyeballs
+            - how do i open this folder
+        - keep things free flowing
+        - opp with lsp to change this
+        - other tools don't have this convention, hard to interoperate
+            - when people see this in file explorer
+        - add a note about dot based file names vs folders @jojanaho
+        - tutorial #star @d3vr
+            - write a single article/note
+            - write second one, link
+            - third note, notice structure
+            - grow structure
+            - notice schema
+    - multi vault
+        - drop additional folder
+            - links will be iffy, duplicates are weird
+        - will flesh out @kevinslin
+    - involvement
+        - kevin
+            - full time
+        - kiran
+            - project management, community
+        - faycal
+            - currently busy, want to involved in code, make conrib
+        - janne
+            - lsp
+            - some implementation
+            - note
+                - lots of qa involved (not necessarily fun)
+                - profit sharing 
+
+- frequency of meeting
+    - need based
+    - once a month?
+
+# Next
+- [ ] share the zoom video
+- [ ] work on any @ tasks mention
