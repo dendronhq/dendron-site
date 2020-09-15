@@ -149,3 +149,4 @@ These projects don't have an end date. They are something we'll be continuously 
 - [ ] [[better getting started tutorial|project.scratch.2020.09.15-112310]]  @d3vr
 - [ ] write up details about multi-vault @kevinslin
 - [ ] watch video and pick a task to do :) @kpathakota
+- [ ] set a date to meet again in a month @kevinslin
