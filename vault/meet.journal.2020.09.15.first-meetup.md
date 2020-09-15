@@ -150,3 +150,4 @@ These projects don't have an end date. They are something we'll be continuously 
 - [ ] write up details about multi-vault @kevinslin
 - [ ] watch video and pick a task to do :) @kpathakota
 - [ ] set a date to meet again in a month @kevinslin
+- [ ] investigate how other pkm communities are managing outreach @d3vr
