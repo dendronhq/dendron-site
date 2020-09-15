@@ -138,11 +138,11 @@ If you're familiar with typescript - Dendron schemas are similar to the types of
 
 Currently, the only thing Dendron will do is show you an indicator if your schema doesn't match. In the future, we'll have a strict mode where we will actually prevent you from creating notes that don't match your schema.
 
-Schemas at the end of the day help you construct consistent hierarchies for your notes. Consistent hierarchies alleviate the cognitive overhead of needing to understand and track N things where N can be very big. instead, you can construct a single schema that encompasses the common areas of all N things.
+Schemas at the end of the day help you construct consistent hierarchies for your notes. Consistent hierarchies alleviate the cognitive overhead of needing to understand and track N things where N can be very big. Instead, you can construct a single schema that encompasses the common areas of all N things.
 
 This allows you to quickly reference anything within your hierarchy because they all have the same shape. It also helps with understanding a topic - I (Kevin, Dendron author) find my schema for a domain tends to reflect my mental model for said domain as well.
 
-For example, I'm using nodejs and need to access a file. I have no idea what the builtin/recommended library for file access is. Instead of having to dig up [fs-extra](https://www.npmjs.com/package/fs-extra), i can navigate to `l.node.file` and see my notes on the best way to work with files. You can replace node with any other programming language. now i have a general way of referencing file access for all languages without needing to remember the specific implementation detail of any of them.
+For example, I'm using nodejs and need to access a file. I have no idea what the builtin/recommended library for file access is. Instead of having to dig up [fs-extra](https://www.npmjs.com/package/fs-extra), I can navigate to `l.node.file` and see my notes on the best way to work with files. You can replace node with any other programming language. Now I have a general way of referencing file access for all languages without needing to remember the specific implementation detail of any of them.
 
 ## Finding Notes
 
@@ -176,10 +176,10 @@ Dendron has a list of keyboard shortcuts that you can access using `Dendron: Sho
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/faq.plus-sign.jpg)
 
-The reason you see this is because dendron will create [stub](https://www.dendron.so/notes/c5e5adde-5459-409b-b34d-a0d75cbb1052.html#stubs) notes when creating notes that have parents that don't exist. These notes are placeholders and will only be visible in the Dendron Tree View with a `+` sign next to the name. The reason we do stubs is because we don't want to litter your file system with empty files. Stubs are a compromise - they let you see the hierarchy of your newly created notes without forcing you to create intermediary files.
+The reason you see this is because Dendron will create [stub](https://www.dendron.so/notes/c5e5adde-5459-409b-b34d-a0d75cbb1052.html#stubs) notes when creating notes that have parents that don't exist. These notes are placeholders and will only be visible in the Dendron Tree View with a `+` sign next to the name. The reason we do stubs is because we don't want to litter your file system with empty files. Stubs are a compromise - they let you see the hierarchy of your newly created notes without forcing you to create intermediary files.
 
 ### Why custom markdown preview instead of the VSC one? 
 
 Our custom markdown preview gives us much more functionality then the vscode one -> eg. note references, checkboxes, etc.
 
-In addition, the markdown preview that dendron uses is platform agnostic (eg. it's also available on atom). This means that other editors could potentially adopt it as well 
+In addition, the markdown preview that Dendron uses is platform agnostic (eg. it's also available on atom). This means that other editors could potentially adopt it as well.
