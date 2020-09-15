@@ -144,5 +144,8 @@ These projects don't have an end date. They are something we'll be continuously 
     - once a month?
 
 # Next
-- [ ] share the zoom video
-- [ ] work on any @ tasks mention
+- [ ] share the zoom video @kevinslin
+- [ ] add a note about dot based file names vs folders @jojanaho
+- [ ] [[better getting started tutorial|project.scratch.2020.09.15-112310]]  @d3vr
+- [ ] write up details about multi-vault @kevinslin
+- [ ] watch video and pick a task to do :) @kpathakota
