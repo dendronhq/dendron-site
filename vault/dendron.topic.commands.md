@@ -131,9 +131,9 @@ Show Markdown Preview
 
 Initiate note lookup
 
+ ((ref: [[dendron.topic.lookup]]#notes,1:#schemas)) 
 
 
-![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/lookup-cli.gif)
 
 ### Lookup Schema
 - shortcuts: 
