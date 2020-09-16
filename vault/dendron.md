@@ -32,7 +32,7 @@ Traditional note-taking tools are often **too rigid** by having an in-flexible h
 
 Dendron finds the **usable center** between the two extremes by supporting the linking of any two arbitrary notes through backlinks while also maintaining a **canonical hierarchy** for every note. We do this through a form of **structured note-taking** that relies on the combination of [[hierarchies|dendron.topic.hierarchies]], [[schemas | dendron.topic.schema]], and [[path based lookups | dendron.topic.lookup]]. Read our [[quickstart | dendron.quickstart]] to learn about the details.
 
-You can use Dendron to **create, find, collaborate ** the information that **matters to you**. 
+You can use Dendron to **create, find, collaborate** with the information that **matters to you**.
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/graph-intro.gif)
 
