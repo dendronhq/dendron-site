@@ -112,3 +112,6 @@ export default class MySeed extends DendronSeed {
 ```
 dendron-cli plantSeed --id myseed --wsRoot /path/to/root --vault /path/to/vault
 ```
+
+# Resources
+- [[Seeds API|dendron.dev.api.seeds]]
