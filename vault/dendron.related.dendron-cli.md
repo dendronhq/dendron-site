@@ -35,6 +35,12 @@ Options:
   --help     Show help                                                 [boolean]
 ```
 
+## Publishing Commands
+```
+dendron-cli build-site  
+
+```
+
 ## Pod Commands
 
 ### Export Pod
