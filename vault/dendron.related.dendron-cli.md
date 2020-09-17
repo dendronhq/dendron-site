@@ -35,7 +35,7 @@ Options:
   --help     Show help                                                 [boolean]
 ```
 
-## Commands
+## Pod Commands
 
 ### Export Pod
 - export a pod
