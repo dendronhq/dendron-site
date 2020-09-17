@@ -19,6 +19,8 @@ You can use a **Dendron Seed** to ingest data from existing sources and import t
 
 Note that seeds differ from [[pods|dendron.topic.pod]] in that they help you ingest content from external sources from content that you might have no control over. Pods help you import/export your content between various platforms.
 
+You can see an example of a published seeded vault [here](https://aws.dendron.so/).
+
 # Using a seed
 
 - NOTE: currently, seeds are only available using the [[dendron-cli|dendron.related.dendron-cli]]
