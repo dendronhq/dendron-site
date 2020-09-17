@@ -22,3 +22,15 @@ You can use [[intellisense|dendron.ref.intellisense]] to preview snippets and us
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/tab-autocomplete.gif)
 
 ((ref:[[dendron.related.dendron-snippet-maker]]))
+
+# Issues
+
+### Can't autocomplete snippets inline
+
+To get snippets to autocomplete, you'll have to tweak the following settings.
+
+1. go to > workspace: open user settings (json
+2. change the following line to `true`
+```
+"editor.suggest.showSnippets": false,
+```
