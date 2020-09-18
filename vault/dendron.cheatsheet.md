@@ -1,10 +1,9 @@
 ---
 id: f9540bb6-7a5a-46db-ae7c-e1a606f28c73
-title: Cheatsheet
+title: 'Cheatsheet'
 desc: ''
 updated: 1596374871110
 created: 1596374871110
-stub: false
 nav_order: 8.5
 ---
 # Cheatsheet
@@ -226,6 +225,14 @@ This is a cheatsheet for Dendron.
   - windows: `ctrl+shift+u`
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/notes.copy-url.gif)
+
+---
+## Publishing
+### Dendron: Publish
+- description: Build, commit and publish your notes
+- shortcuts: none
+
+
 
 ---
 ## Dev
