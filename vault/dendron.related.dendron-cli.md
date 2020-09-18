@@ -36,10 +36,34 @@ Options:
 ```
 
 ## Publishing Commands
+
+### build-site
 ```
 dendron-cli build-site  
 
 ```
+
+### publishNotes
+
+```
+dendron-cli publishNotes
+
+Build, commit, and push your notes for publication
+
+Options:
+  --version  Show version number                                       [boolean]
+  --help     Show help                                                 [boolean]
+  --wsRoot   location of workspace                                    [required]
+  --vault    location of vault                                        [required]
+  --noPush   don't push the result                                     [boolean]
+```
+
+- eg:
+```
+dendron-cli publishNotes  --wsRoot . --vault ./vault --noPush
+```
+
+###
 
 ## Pod Commands
 - NOTE: you can find pod ids in the [[pods|dendron.topic.pod]] page. Just add a `.import|.export` to the end of the id (eg. `dendron.pod.json.import`)
