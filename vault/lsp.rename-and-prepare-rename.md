@@ -4,5 +4,6 @@ title: Rename and prepare rename
 desc: ''
 updated: 1600107425775
 created: 1600107425775
+stub: false
 ---
 # Rename and prepare rename

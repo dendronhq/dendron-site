@@ -4,6 +4,7 @@ title: Daily
 desc: ''
 updated: 1596301096394
 created: 1596301096394
+stub: false
 ---
 
 ## Thoughts

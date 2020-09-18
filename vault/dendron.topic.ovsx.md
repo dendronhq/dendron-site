@@ -4,6 +4,7 @@ title: Open VSX
 desc: ''
 updated: 1597006851049
 created: 1597006851049
+stub: false
 ---
 
 # Open VSX

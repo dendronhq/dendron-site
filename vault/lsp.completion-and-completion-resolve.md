@@ -4,5 +4,6 @@ title: Completion and completion resolve
 desc: ''
 updated: 1600107217924
 created: 1600107217924
+stub: false
 ---
 # Completion and completion resolve

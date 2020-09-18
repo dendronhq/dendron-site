@@ -4,6 +4,7 @@ title: Lookup
 desc: ''
 updated: 1595952505038
 created: 1595952505038
+stub: false
 ---
 # Lookup
 
@@ -30,9 +31,14 @@ To try it yourself, bring up the lookup bar. Type `dendron.lookup.hello` and hit
 
 ### Creating Notes with a Selection
 
-If you have text highlighted while creating a new note with a lookup, the new note will be created with the text from the old note. The highlighted text will also be removed from the original note. 
+If you have text highlighted while creating a new note with a lookup, the new note will be created using the text selected. How the text will be used depends on  the `dendron.defaultLookupCreateBehavior` setting.
+- values: 
+    - selectionExtract (default): create new note with text from the old note. remove text from the old note
+    - selection2link: create new empty note and turn selection into a link referencing the old note
 
-<a href="https://www.loom.com/share/33b6ad44479c4902834b01db0feeee43"> <img style="" src="https://cdn.loom.com/sessions/thumbnails/33b6ad44479c4902834b01db0feeee43-with-play.gif"> </a>
+<a href="https://www.loom.com/share/61d754c1dca84b99b2786b2f89473566">
+<img style="" src="https://cdn.loom.com/sessions/thumbnails/61d754c1dca84b99b2786b2f89473566-with-play.gif"> </a>
+
 
 ### Deleting Notes
 

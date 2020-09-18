@@ -4,6 +4,7 @@ title: 2020-07-24-090117
 desc: ''
 updated: 1595606477552
 created: 1595606477552
+stub: false
 ---
 
 The title is generated from the link

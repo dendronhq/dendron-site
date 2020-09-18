@@ -4,6 +4,7 @@ title: Schema
 desc: ''
 updated: 1595952505039
 created: 1595952505039
+stub: false
 ---
 
 # Schemas

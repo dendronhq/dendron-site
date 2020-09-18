@@ -4,5 +4,6 @@ title: People
 desc: ''
 updated: 1595953214308
 created: 1595953214308
+stub: false
 ---
 

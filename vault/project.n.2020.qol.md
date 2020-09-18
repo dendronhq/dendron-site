@@ -4,6 +4,7 @@ title: 2020 qol
 desc: ''
 updated: 1599501500764
 created: 1599501500764
+stub: false
 ---
 # 2020 Quality of Life Improvements
 

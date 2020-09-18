@@ -13,6 +13,7 @@
     "settings": {
         "workbench.editor.showTabs": true,
         "workbench.editor.enablePreview": false,
+        "dendron.defaultLookupCreateBehavior": "selectionExtract",
         "dendron.rootDir": ".",
         "dendron.defaultJournalDateFormat": "Y.MM.DD",
         "dendron.defaultScratchDateFormat": "Y.MM.DD-HHmmss",

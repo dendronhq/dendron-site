@@ -4,6 +4,7 @@ title: Tar
 desc: ''
 updated: 1595952505022
 created: 1595952505022
+stub: false
 ---
 # Overview
 - creates and manipulates streaming archive files

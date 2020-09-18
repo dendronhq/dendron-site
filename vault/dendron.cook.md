@@ -4,6 +4,7 @@ title: Cook
 desc: ''
 updated: 1595952505024
 created: 1595952505024
+stub: false
 nav_order: 8.9
 ---
 # Cookbook

@@ -4,8 +4,10 @@ title: thread
 desc: ''
 updated: 1599506392418
 created: 1599506392418
-source: |
-    - https://discordapp.com/channels/717965437182410783/735365126227493004/752607009068810340
+stub: false
+source: >
+  -
+  https://discordapp.com/channels/717965437182410783/735365126227493004/752607009068810340
 ---
 
 # Log

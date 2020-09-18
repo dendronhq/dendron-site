@@ -1,9 +1,10 @@
 ---
 id: e32aa1e2-9780-4183-927e-2f46372050aa
-title: '2020-08-02 Release Notes'
+title: 2020-08-02 Release Notes
 desc: ''
 updated: 1596374984386
 created: 1596374984386
+stub: false
 ---
 
 

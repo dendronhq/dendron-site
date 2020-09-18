@@ -4,6 +4,7 @@ title: Concepts
 desc: ''
 updated: 1595169512265
 created: 1595169512265
+stub: false
 nav_order: 3
 ---
 ## Concepts

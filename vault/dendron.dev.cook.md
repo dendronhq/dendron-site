@@ -4,6 +4,7 @@ title: Cook
 desc: ''
 updated: 1599151918645
 created: 1599151918645
+stub: false
 ---
 
 # Cookbook

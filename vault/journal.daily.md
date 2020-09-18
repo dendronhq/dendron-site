@@ -4,6 +4,7 @@ title: Daily
 desc: ''
 updated: 1596303334733
 created: 1596303334733
+stub: false
 ---
 
 # Daily Journals

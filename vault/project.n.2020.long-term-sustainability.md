@@ -4,6 +4,7 @@ title: Long term sustainability
 desc: ''
 updated: 1599501881180
 created: 1599501881180
+stub: false
 ---
 # Long term sustainability
 

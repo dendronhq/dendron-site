@@ -4,6 +4,7 @@ title: demo.journal.2020.09.08.image-export
 desc: ''
 updated: 1599574222073
 created: 1599574222073
+stub: false
 ---
 
 # Behold the Dendron

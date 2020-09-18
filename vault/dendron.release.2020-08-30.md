@@ -1,9 +1,10 @@
 ---
 id: 1a79e2a1-c906-4ed4-a528-15bd34c4e649
-title: '2020-08-30 Release Notes'
+title: 2020-08-30 Release Notes
 desc: ''
 updated: 1596374871110
 created: 1596374871110
+stub: false
 ---
 
 # 2020-08-30 Release Notes (version 0.9)

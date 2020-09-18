@@ -4,6 +4,7 @@ title: demo.journal.2020.09.07.new-note-from-selection
 desc: ''
 updated: 1599530681813
 created: 1599530681813
+stub: false
 ---
 
 

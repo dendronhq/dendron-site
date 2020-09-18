@@ -4,6 +4,7 @@ title: Scratch
 desc: ''
 updated: 1595606382984
 created: 1595606382984
+stub: false
 ---
 
 - a scratch note: [[foo | scratch.2020-07-24-090054]]

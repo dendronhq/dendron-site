@@ -4,6 +4,7 @@ title: 2020-07-24-090054
 desc: ''
 updated: 1595606456646
 created: 1595606456646
+stub: false
 ---
 
 # Foo Scratch Note

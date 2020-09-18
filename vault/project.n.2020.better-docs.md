@@ -4,6 +4,7 @@ title: Better docs
 desc: ''
 updated: 1599501863528
 created: 1599501863528
+stub: false
 ---
 # Better docs
 

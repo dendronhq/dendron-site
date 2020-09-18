@@ -4,6 +4,7 @@ title: Template
 desc: ''
 updated: 1598114150042
 created: 1598114150042
+stub: false
 ---
 
 I am text from a template.

@@ -4,5 +4,6 @@ title: Dendron extension
 desc: ''
 updated: 1600108345733
 created: 1600108345733
+stub: false
 ---
 # Dendron extension

@@ -4,6 +4,7 @@ title: Testimonials
 desc: ''
 updated: 1599596104324
 created: 1599596104324
+stub: false
 nav_order: 2.1
 ---
 

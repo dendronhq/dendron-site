@@ -4,6 +4,7 @@ title: Power functionality
 desc: ''
 updated: 1599501792934
 created: 1599501792934
+stub: false
 ---
 # Power functionality
 

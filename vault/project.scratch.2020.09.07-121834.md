@@ -4,6 +4,7 @@ title: kevin response to jojo
 desc: ''
 updated: 1599506314235
 created: 1599506314235
+stub: false
 source: >
   -
   https://discordapp.com/channels/717965437182410783/735365126227493004/752606691518054450

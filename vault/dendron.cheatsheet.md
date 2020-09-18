@@ -1,9 +1,10 @@
 ---
 id: f9540bb6-7a5a-46db-ae7c-e1a606f28c73
-title: 'Cheatsheet'
+title: Cheatsheet
 desc: ''
 updated: 1596374871110
 created: 1596374871110
+stub: false
 nav_order: 8.5
 ---
 # Cheatsheet

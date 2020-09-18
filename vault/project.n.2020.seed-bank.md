@@ -4,6 +4,7 @@ title: 2020-seed-bank
 desc: ''
 updated: 1599498995178
 created: 1599498995178
+stub: false
 ---
 
 # The Seed Bank

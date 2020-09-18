@@ -4,6 +4,7 @@ title: Capabilities
 desc: ''
 updated: 1595952505033
 created: 1595952505033
+stub: false
 ---
 
 ## Additional Features

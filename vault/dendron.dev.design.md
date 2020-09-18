@@ -4,6 +4,7 @@ title: Design
 desc: ''
 updated: 1598651922993
 created: 1598651922993
+stub: false
 ---
 
 # Design

@@ -4,6 +4,7 @@ title: commonplace-book
 desc: ''
 updated: 1596206559612
 created: 1596206559612
+stub: false
 ---
 
 # Commonplace Books

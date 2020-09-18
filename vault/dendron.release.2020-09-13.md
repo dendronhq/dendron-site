@@ -1,9 +1,10 @@
 ---
 id: 50071eda-fc46-4aca-ba6c-9d53db00d068
-title: '2020-09-13 Release Notes'
+title: 2020-09-13 Release Notes
 desc: ''
 updated: 1596374871110
 created: 1596374871110
+stub: false
 ---
 
 # 2020-09-13 Release Notes (version 0.11)

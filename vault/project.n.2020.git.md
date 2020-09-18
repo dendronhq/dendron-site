@@ -4,6 +4,7 @@ title: Git All the People
 desc: ''
 updated: 1599577035289
 created: 1599577035289
+stub: false
 ---
 # Git All the People
 

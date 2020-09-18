@@ -4,6 +4,7 @@ title: Template
 desc: ''
 updated: 1596318372330
 created: 1596318372330
+stub: false
 nav_exclude: true
 ---
 

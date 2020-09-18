@@ -4,6 +4,7 @@ title: 2020 principles and values
 desc: ''
 updated: 1599499842665
 created: 1599499842665
+stub: false
 start: 2020.09.07
 end: 2020.09.20
 ---
