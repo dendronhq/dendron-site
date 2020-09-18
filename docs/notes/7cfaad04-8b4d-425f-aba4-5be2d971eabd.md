@@ -1,13 +1,13 @@
 ---
-id: 2acc73d8-af42-46ea-8739-2ed567818642
+id: 7cfaad04-8b4d-425f-aba4-5be2d971eabd
 title: 09
 desc: ''
-updated: 1600390022670
-created: 1600390022670
+updated: 1600439286283
+created: 1600439286283
 data: {}
 fname: dendron.scratch.2020.09
 stub: true
-parent: 2698d3a9-9b9b-4f5e-a46f-caed06d97d10
+parent: c642084e-0ab6-45aa-b419-371c7118bb1d
 children:
   - 65745697-0f30-43d8-9085-a213e8227e8b
 hpath: dendron.scratch.2020.09

@@ -42,6 +42,7 @@ dendron-cli build-site
 ```
 
 ## Pod Commands
+- NOTE: you can find pod ids in the [[pods|dendron.topic.pod]] page. Just add a `.import|.export` to the end of the id (eg. `dendron.pod.json.import`)
 
 ### Export Pod
 - export a pod

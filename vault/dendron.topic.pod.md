@@ -43,6 +43,7 @@ Builtin pods are installed with Dendron and can be invoked without any further a
 ## Builtin Pods
 
 ### LocalFile Pod
+- id: dendron.pod.file
 - status
     - 🚧 import
     - ➖ build
@@ -104,6 +105,7 @@ Builds your notes for publication to github pages using the [dendron-jekyll](htt
 
 
 ### JSON Pod
+- id: dendron.pod.json
 - coverage
     -  🚧import
     - ➖ build

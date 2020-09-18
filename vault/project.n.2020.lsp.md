@@ -14,6 +14,14 @@ Migrate the Dendron engine implementation to the language server protocol
 
 ## Details
 
+### Breakdown
+
+- create `@dendronhq/lsp-server` package
+- create interface btw lsp -> engine
+- implement a basic **new** feature using lsp (eg. hover preview of link) and delegate to lsp
+- route basic **old** feature to lsp (eg. go to definition from markdown-notes)
+- everything else
+
 ### Design
 - components
     - [[p.dendron-extension]]: vscode extension
