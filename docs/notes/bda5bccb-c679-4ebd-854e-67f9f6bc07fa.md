@@ -9,7 +9,7 @@ data: {}
 fname: dendron.scratch
 stub: false
 children:
-  - c642084e-0ab6-45aa-b419-371c7118bb1d
+  - 3cd8f1ba-00d1-42e8-9607-5745c844d1d0
 hpath: dendron.scratch
 ---
 
