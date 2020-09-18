@@ -37,10 +37,23 @@ Options:
 
 ## Publishing Commands
 
-### build-site
+### buildSite
 ```
-dendron-cli build-site  
+dendron-cli buildSite 
 
+build notes for publication
+
+Options:
+  --version  Show version number                                       [boolean]
+  --help     Show help                                                 [boolean]
+  --wsRoot   location of workspace                                    [required]
+  --vault    location of vault                                        [required]
+
+```
+
+- eg
+```
+dendron-cli buildSite --wsRoot . --vault ./vault 
 ```
 
 ### publishNotes
@@ -60,7 +73,7 @@ Options:
 
 - eg:
 ```
-dendron-cli publishNotes  --wsRoot . --vault ./vault --noPush
+dendron-cli publishNotes  --wsRoot . --vault ./vault 
 ```
 
 ###

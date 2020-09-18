@@ -5,7 +5,10 @@ desc: ''
 updated: 1600033791071
 created: 1600033791071
 stub: false
+nav_exclude: true
 ---
+
+# TODO: turn into alias
 
 # CLI
 
