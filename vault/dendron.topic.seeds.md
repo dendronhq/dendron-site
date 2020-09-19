@@ -11,6 +11,8 @@ stub: false
 
 > Note: Seeds are highly experimental and under active development. Content here is subject to change.
 
+![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/seeds.png)
+
 Seeds represent existing knowledge out in the world. A seed could be a wikipedia article, a github repo, or an arbitrary website. 
 
 
