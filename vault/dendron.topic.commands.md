@@ -346,11 +346,11 @@ Get URL of current note from published site
 - shortcuts: none
 
 
-Build, commit and publish your notes
+Build, commit and publish your notes with a single command
 
- Single command to publish your notes 
+  
 
-
+<a href="https://www.loom.com/share/c58edf543e234a8fa164095237579ccc"> <img style="" src="https://cdn.loom.com/sessions/thumbnails/c58edf543e234a8fa164095237579ccc-with-play.gif"> </a>
 
 ---
 ## Dev
