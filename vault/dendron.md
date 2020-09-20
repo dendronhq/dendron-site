@@ -13,7 +13,7 @@ stub: false
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 
 <div class="alert alert-primary" role="alert">
-<a href="https://www.dendron.so/notes/50071eda-fc46-4aca-ba6c-9d53db00d068.html">Version 0.11</a> has planted 🌱 
+<a href="https://dendron.so//notes/8e59e25f-808c-42f1-a82a-e9ce4fd8edd8.html">Version 0.12</a> has planted 🌱 
 Read about the new features and fixes in our release notes
 </div>
 
