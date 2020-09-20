@@ -1,7 +1,7 @@
 PATH
   remote: /Users/kevinlin/projects/dendronv2/dendron-just-the-docs
   specs:
-    dendron-jekyll (0.3.3)
+    dendron-jekyll (0.3.9)
       jekyll (>= 3.8.5)
       jekyll-seo-tag (~> 2.0)
       rake (>= 12.3.1, < 13.1.0)
