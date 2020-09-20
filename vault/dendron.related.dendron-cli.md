@@ -38,17 +38,23 @@ Options:
 ## Publishing Commands
 
 ### buildSite
+
+Build dendron site. 
+
 ```
-dendron-cli buildSite 
+dendron-cli buildSite
 
 build notes for publication
 
 Options:
-  --version  Show version number                                       [boolean]
-  --help     Show help                                                 [boolean]
-  --wsRoot   location of workspace                                    [required]
-  --vault    location of vault                                        [required]
-
+  --version      Show version number                                   [boolean]
+  --help         Show help                                             [boolean]
+  --wsRoot       location of workspace                                [required]
+  --vault        location of vault                                    [required]
+  --writeStubs   writeStubs                                      [default: true]
+  --incremental  use rsync to only copy files that changed
+                                                      [boolean] [default: false]
+  --dryRun       don't actually build                 [boolean] [default: false]
 ```
 
 - eg
@@ -58,17 +64,24 @@ dendron-cli buildSite --wsRoot . --vault ./vault
 
 ### publishNotes
 
+Publish a dendron site
+
 ```
 dendron-cli publishNotes
 
 Build, commit, and push your notes for publication
 
 Options:
-  --version  Show version number                                       [boolean]
-  --help     Show help                                                 [boolean]
-  --wsRoot   location of workspace                                    [required]
-  --vault    location of vault                                        [required]
-  --noPush   don't push the result                                     [boolean]
+  --version         Show version number                                [boolean]
+  --help            Show help                                          [boolean]
+  --wsRoot          location of workspace                             [required]
+  --vault           location of vault                                 [required]
+  --writeStubs      writeStubs                                   [default: true]
+  --incremental     use rsync to only copy files that changed
+                                                      [boolean] [default: false]
+  --dryRun          don't actually build              [boolean] [default: false]
+  --noPush          don't push the result                              [boolean]
+  --publishRepoDir  repo to publish from. default is same as `wsRoot`
 ```
 
 - eg:
