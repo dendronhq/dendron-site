@@ -7,6 +7,11 @@ created: 1600573427628
 stub: false
 ---
 
+# Frontmatter
+
+Dendron notes have [[frontmatter|dendron.topic.frontmatter]]. Dendron Jekyll uses this frontmatter to configure various aspects about the appearance and publication status of a particular page. 
+
+
 ## Appearance
 ### title: string
 
