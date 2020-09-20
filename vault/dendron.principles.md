@@ -8,7 +8,7 @@ stub: false
 nav_order: 1.3
 ---
 
-# Principals
+# Principles
 
 ### Speed
 
