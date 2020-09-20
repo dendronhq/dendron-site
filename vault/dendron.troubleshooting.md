@@ -27,6 +27,10 @@ To manually install a custom version of Dendron, first obtain the Dendron vsix f
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/trouble.install.gif)
 
+## Logs
+
+You can diagnose most problems by checking the logs. You can view the logs by following the instructions [here](https://www.loom.com/share/d1983753684e48a2b0592bbbbbbb6be5).
+
 ## Schemas
 
 ### I'm getting a `you cannot define a mapping item when in a sequence` when trying to define a schema 
