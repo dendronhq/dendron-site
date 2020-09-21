@@ -40,3 +40,24 @@ This is a secret <!--LOCAL_ONLY_LINE--> <!-- won't be published -->
 ```
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/pod-local.gif)
+
+
+### Link Checking
+
+It's useful to check if all your links work before publishing your notes. You can use the [awesome-bot](https://github.com/dkhamsing/awesome_bot) gem to validate your links.
+
+- setup
+    - create a folder named `reports` to hold the results
+    ```
+    cd {wsRoot}
+    mkdir reports
+    ```
+    - add `reports` to your vscode workspace in order to browse it via vscode
+
+- check links
+    - build your site using the `Build Pod` command
+    - start a local server
+    - run the following command
+    ```sh
+    cd {wsRoot}/reports && awesome_bot ../docs/_site/notes/*.html --allow-redirect --allow-dupe --allow 429 
+    ```
