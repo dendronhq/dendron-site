@@ -7,8 +7,8 @@ created: 1600840127160
 stub: false
 ---
 
-# Timeline
-
+# Project Roadmap
+Here's what we're working on currently. 
 ## Epics
 - September
     - [[project.n.2020.principles-and-values]]
