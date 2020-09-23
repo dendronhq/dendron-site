@@ -18,7 +18,7 @@
         "dendron.defaultJournalDateFormat": "Y.MM.DD",
         "dendron.defaultScratchDateFormat": "Y.MM.DD-HHmmss",
         "dendron.defaultScratchAddBehavior": "childOfDomainNamespace",
-        "dendron.copyNoteUrlRoot": "https://dendron.so/",
+        "dendron.copyNoteUrlRoot": "https://dendron.so",
         "pasteImage.path": "${currentFileDir}/assets/images",
         "pasteImage.prefix": "/",
         "editor.minimap.enabled": false,

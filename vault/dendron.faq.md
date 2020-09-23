@@ -27,8 +27,6 @@ A Dendron is many things.
 
 Substitute X with `roam|obsidian|foam|one note|evernote|...`
 
-Dendron is focused on helping you **organize your notes inside your knowledge base**.
-
 All note taking tools (try to make it) easy to get notes in. Its getting it back out again that's hard and it **becomes harder** as you get more notes.
 
 Whether you are using notebooks tags, or backlinks, once you have more than a few hundred notes, you'll need to have some sort of structure in place (eg. naming convention, hierarchy, etc) to keep track of it. 

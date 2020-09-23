@@ -4,7 +4,7 @@
   tasks:
     - name: include vars
       include_vars:
-        file: ../data/v0.10.7.yml
+        file: ../data/v0.11.9.yml
     - name: copy release note
       template:
         src: templates/dendron.template.release.md

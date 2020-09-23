@@ -1,6 +1,4 @@
 version: 1
-imports:
-  - pro
 schemas:
 - id: dendron
   parent: root

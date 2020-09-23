@@ -25,7 +25,7 @@ You can read more about the frontmatter used in Dendron [[here |dendron.topic.fr
 In Dendron, your **workspace** is the root of where all your files are located. It's set when you first run `Dendron: Initialize Workspace`.
 
 ### Vaults 🚧
-Your workspace is made up of **vaults**. A dendron vault stores a collection of related notes. If your familiar with git, it's just like a code repo. By default, Dendron creates a *vault.main* folder when you first initialize a **workspace**. All your notes are stored on a per vault basis.
+Your workspace is made up of **vaults**. A dendron vault stores a collection of related notes. If you're familiar with git, it's just like a code repo. By default, Dendron creates a *vault.main* folder when you first initialize a **workspace**. All your notes are stored on a per vault basis.
 
 ```
 .
@@ -39,7 +39,7 @@ Your workspace is made up of **vaults**. A dendron vault stores a collection of 
         └── secret.two.md
 ```
 
-By default, when you look for notes in dendron, it will search over all vaults.
+By default, when you look for notes in Dendron, it will search over all vaults.
 
 ### Hierarchies
 

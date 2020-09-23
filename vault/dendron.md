@@ -13,7 +13,7 @@ stub: false
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 
 <div class="alert alert-primary" role="alert">
-<a href="https://www.dendron.so/notes/50071eda-fc46-4aca-ba6c-9d53db00d068.html">Version 0.11</a> has planted 🌱 
+<a href="https://dendron.so//notes/8e59e25f-808c-42f1-a82a-e9ce4fd8edd8.html">Version 0.12</a> has planted 🌱 
 Read about the new features and fixes in our release notes
 </div>
 
@@ -31,7 +31,7 @@ I originally created Dendron because I'd accumulated over **20k notes** on progr
 
 Traditional note-taking tools are often **too rigid** by having an in-flexible hierarchy that doesn't let you file a note in multiple places. Newer tools are **too flexible** by eschewing hierarchies altogether in favour of relying solely on backlinks. 
 
-Dendron finds the **usable center** between the two extremes by supporting the linking of any two arbitrary notes through backlinks while also maintaining a **canonical hierarchy** for every note. We do this through a form of **structured note-taking** that relies on the combination of [[hierarchies|dendron.topic.hierarchies]], [[schemas | dendron.topic.schema]], and [[path based lookups | dendron.topic.lookup]]. Read our [[quickstart | dendron.quickstart]] to learn about the details.
+Dendron finds the **usable center** between the two extremes by supporting the linking of any two arbitrary notes through backlinks while also maintaining a **canonical hierarchy** for every note. We do this through a form of **structured note-taking** that relies on the combination of [[hierarchies|dendron.topic.hierarchies]], [[schemas|dendron.topic.schema]], and [[path based lookups| dendron.topic.lookup]]. Read our [[quickstart | dendron.quickstart]] to learn about the details.
 
 You can use Dendron to **create, find, collaborate** with the information that **matters to you**.
 
