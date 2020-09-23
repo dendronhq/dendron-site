@@ -5,6 +5,9 @@ desc: ''
 updated: 1599501616541
 created: 1599501616541
 stub: false
+start: 2020.10.07
+end: 2020.10.30
+status: In Progress
 ---
 # Language Server Protocol
 

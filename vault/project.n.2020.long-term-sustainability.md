@@ -5,6 +5,9 @@ desc: ''
 updated: 1599501881180
 created: 1599501881180
 stub: false
+start: 2020.10.07
+end: 2020.11.29
+status: In Progress
 ---
 # Long term sustainability
 

@@ -5,6 +5,9 @@ desc: ''
 updated: 1599577035289
 created: 1599577035289
 stub: false
+start: 2020.12.07
+end: 2020.12.16
+status: In Progress
 ---
 # Git All the People
 
