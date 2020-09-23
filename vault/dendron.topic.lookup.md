@@ -31,6 +31,14 @@ While we call it the `Lookup Bar`, you can also use it to create notes that don'
 
 To try it yourself, bring up the lookup bar. Type `dendron.lookup.hello` and hit `Enter`.
 
+#### Creating Special Notes
+
+Dendron has builtin notion for certain notes with special naming conventions. Dendron has shortcuts to trigger the creation of such notes. 
+
+((ref: [[dendron.topic.special-notes]]#journal note:#*))
+
+((ref: [[dendron.topic.special-notes]]#scratch note:#*))
+
 ### Creating Notes with a Selection
 
 If you have text highlighted while creating a new note with a lookup, the new note will be created using the text selected. How the text will be used depends on  the `dendron.defaultLookupCreateBehavior` setting.

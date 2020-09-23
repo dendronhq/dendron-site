@@ -80,6 +80,7 @@ You can collapse headers at different levels and bullets at different indentatio
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/tips.toggle-bullets.gif)
 
 
+<!-- 
 ### Custom Outlines
 
 Outlines are super helpful but there are not always feasible depending on the file format
@@ -95,3 +96,17 @@ In those situations, I like to leave markers inside a note and use the search ed
 https://www.loom.com/share/eabf90dbc74e4a1facd5e82bd76a6134
 
 You can use the same technique 
+-->
+
+### Create a new note in a deeply nested hierarchy 
+
+- Problem: You are currently in `foo` and you want to create the note `foo.child1.child2.my-note`. You don't want to type out the full path. Is there an easier way to create `my-note` than typing out the full path?
+- Discord thread: https://discordapp.com/channels/717965437182410783/735365126227493004/758235198403117087
+- Solution: VSCode doesn't support autocomplete inside the quickinput widget which Dendron uses for lookups. We are experimenting with different ways of getting around this. 
+  - Today, the workaround is to create a wiki-link inside another note and navigate via link to create it. 
+  - Another method, if you know you will be creating multiple children under a single deeply nested parent, is to pin the parent and create the child from the parent 
+
+<a href="https://www.loom.com/share/f0bbfc9cae0a474a99f8a1169b7b96c7">
+<img style="" src="https://cdn.loom.com/sessions/thumbnails/f0bbfc9cae0a474a99f8a1169b7b96c7-with-play.gif"> </a>
+
+

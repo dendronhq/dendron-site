@@ -21,25 +21,21 @@ You can create a daily journal using `> Dendron: Create Daily Journal Note` or `
 
 ## Journal Note
 
-This is like the `Daily Journal` except it will be created under whatever hierarchy you happen to be in when you invoke this command. A journal note is a self contained note that is meant to track something over time. Examples of journals include recording **workout sessions**, making **meeting notes**, and keeping a **mood journal**.
+A journal note is a self contained note that is meant to track something over time. Examples of journals include recording **workout sessions**, making **meeting notes**, and keeping a **mood journal**.
 
-To create a journal note, use the command bar to select the `>Dendron: New Journal Note` command. 
+To create a journal note, trigger a lookup and then click on the calendar icon. 
+
+<a href="https://www.loom.com/share/3c3ddc1dc63547cea8bf186bec31f71b"> 
+<img style="" src="https://cdn.loom.com/sessions/thumbnails/3c3ddc1dc63547cea8bf186bec31f71b-with-play.gif"> </a>
 
 By default, Dendron will create the journal note with the following hierarchy `{domain}.journal.{Y-MM-DD}`. `{domain}` is the **domain** of the current active note when you execute `New Journal Note`. 
-
-<a href="https://www.loom.com/share/da562a166af9427e908a76be8bc38355">
-<img src="https://cdn.loom.com/sessions/thumbnails/da562a166af9427e908a76be8bc38355-with-play.gif"> 
-</a>
 
 ## Scratch Note
 
 A scratch note is a self contained note that is meant to be used as scratchpad. Use it for thoughts or when you want to expand on a bullet point. Scratch notes are created in the `scratch` domain and have the following format: `{domain}.journal.{Y-MM-DD-HHHHmmss}`. 
 
-If you highlight text while creating a scratch note, the highlighted text will automatically be turned into a link to the new scratch note. 
-
-<a href="https://www.loom.com/share/104a3e0bb10f4012a831194d02483e4a">
-<img style="" src="https://cdn.loom.com/sessions/thumbnails/104a3e0bb10f4012a831194d02483e4a-with-play.gif">
-</a>
+<a href="https://www.loom.com/share/2fd3042119124df8bb4592d8ffe6d708"> 
+<img style="" src="https://cdn.loom.com/sessions/thumbnails/2fd3042119124df8bb4592d8ffe6d708-with-play.gif"> </a>
 
 
 ## Configuration
