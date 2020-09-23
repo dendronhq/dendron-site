@@ -78,3 +78,20 @@ The result looks like this:
 You can collapse headers at different levels and bullets at different indentation levels inside VSCode. 
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/tips.toggle-bullets.gif)
+
+
+### Custom Outlines
+
+Outlines are super helpful but there are not always feasible depending on the file format
+
+![](/assets/images/2020-09-21-19-33-21.png)
+
+In those situations, I like to leave markers inside a note and use the search editor to surface those markers 
+
+<a href="https://www.loom.com/share/eabf90dbc74e4a1facd5e82bd76a6134"> 
+<p>Tips - Breadcrumbs - Watch Video</p> 
+<img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/eabf90dbc74e4a1facd5e82bd76a6134-with-play.gif"> </a>
+
+https://www.loom.com/share/eabf90dbc74e4a1facd5e82bd76a6134
+
+You can use the same technique 
