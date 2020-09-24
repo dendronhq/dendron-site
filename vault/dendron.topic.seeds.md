@@ -16,7 +16,7 @@ stub: false
 Seeds represent existing knowledge out in the world. A seed could be a wikipedia article, a github repo, or an arbitrary website. 
 
 
-You can use a **Dendron Seed** to ingest data from existing sources and import them into your vault. Data ingestion is also refereed to as **planting**.
+You can use a **Dendron Seed** to ingest data from existing sources and import them into your vault. Data ingestion is also referred to as **planting**.
 
 Note that seeds differ from [[pods|dendron.topic.pod]] in that they help you ingest content from external sources from content that you might have no control over. Pods help you import/export your content between various platforms.
 
