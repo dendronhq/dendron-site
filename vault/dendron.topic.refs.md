@@ -38,6 +38,12 @@ References have the following syntax
 "markdown-preview-enhanced.renderRefWithOutline": true
 ```
 
+## Commands
+
+You can create a ref either by hand or using the `Copy Note Ref` command.
+
+((ref: [[dendron.topic.commands]]#copy note ref:#*))
+
 ## Note Reference
 
 A note reference will include the entire contents of a note within another note. Below is an example of a note reference.
