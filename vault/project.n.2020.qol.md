@@ -7,7 +7,7 @@ created: 1599501500764
 stub: false
 start: 2020.10.07
 end: 2020.10.29
-status: In Progress
+status: Next
 ---
 # 2020 Quality of Life Improvements
 

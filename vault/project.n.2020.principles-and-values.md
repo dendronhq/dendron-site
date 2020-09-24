@@ -13,7 +13,7 @@ status: Done
 
 ## Goals
 
-Come up with governing principals and values for the Dendron product and the Dendron Community
+Come up with governing principals and values for the Dendron product and the Dendron Community. This item is complete and documented under [[dendron.principles]]
 
 ## Details
 

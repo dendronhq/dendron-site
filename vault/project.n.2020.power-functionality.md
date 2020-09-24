@@ -7,7 +7,7 @@ created: 1599501792934
 stub: false
 start: 2020.12.07
 end: 2020.12.15
-status: In Progress
+status: Next
 ---
 # Power functionality
 
