@@ -111,6 +111,85 @@ You can collapse headers at different levels and bullets at different indentatio
 - Solution
   - Use [git automator](https://marketplace.visualstudio.com/items?itemName=ivangabriele.vscode-git-add-and-commit).
 
+### Publish to GitHub Pages with Actions
+
+- [discord thread](https://discordapp.com/channels/717965437182410783/749641193322971238/759190468671438848)
+
+It's possible to publish your Dendron site to GitHub Pages without the shadow copy of your notes in the `docs` directory.
+
+You can create a GitHub Actions workflow to perform the export process using the Dendron CLI and push the result to your `pages` branch, triggering a Pages build.
+
+Note that this configuration won't retain any history on the `paths` branch. Paths below are relative to your workspace root.
+
+Ignore the shadow directories in `.gitignore`:
+
+```gitignore
+# Dendron
+/docs/assets/
+/docs/notes/
+/docs/_site/
+
+# npm
+/node_modules/
+```
+
+Create a `package.json` to install the package:
+
+```json
+{
+  "scripts": {
+    "dendron-cli": "dendron-cli"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LukeCarrier/brain.git"
+  },
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@dendronhq/dendron-cli": "^0.12.3-alpha.16"
+  }
+}
+```
+
+Create the workflow `.github/workflows/dendron.yml`:
+
+```yaml
+name: Dendron
+
+on:
+  push:
+    branches:
+    - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout source
+      uses: actions/checkout@v2
+
+    - name: Install npm dependencies
+      run: npm install
+
+    - name: Build pod
+      run: npm run dendron-cli -- buildSite --wsRoot ./ --vault notes/
+
+    - name: Deploy site
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_branch: pages
+        publish_dir: docs/
+        force_orphan: true
+```
+
+Configure your repository's Pages settings as follows:
+
+* _Branch_: `pages`
+* _Folder_: _/ (root)_
+
+Finally, commit these three files and push them to your `master` branch. Within a few seconds you should see the workflow run, your `pages` branch get updated and your Pages build start.
+
 <!-- 
 ### Custom Outlines
 
