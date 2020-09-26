@@ -72,12 +72,6 @@ This is a cheatsheet for Dendron.
 
 
 
-### Dendron: New Note From Selection
-- description: Create new note based on a selection. Remove selection from original note.
-- shortcuts: none
-
-![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/notes.new-from-select.gif)
-
 ### Dendron: Rename Note
 - description: Rename a note and all backlinks
 - shortcuts: none
@@ -99,6 +93,15 @@ This is a cheatsheet for Dendron.
 - shortcuts: 
   - mac: `cmd+L`
   - key: `ctrl+l`
+
+
+
+### Dendron: Lookup
+- description: Initiate note lookup
+- shortcuts: 
+  - key: `ctrl+shift+j`
+  - mac: `cmd+shift+j`
+  - args: `{'noteType': 'journal'}`
 
 
 
