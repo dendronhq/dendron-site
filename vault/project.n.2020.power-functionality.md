@@ -5,6 +5,9 @@ desc: ''
 updated: 1599501792934
 created: 1599501792934
 stub: false
+start: 2020.12.07
+end: 2020.12.15
+status: Next
 ---
 # Power functionality
 

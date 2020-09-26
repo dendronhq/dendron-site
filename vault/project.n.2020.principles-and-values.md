@@ -7,12 +7,13 @@ created: 1599499842665
 stub: false
 start: 2020.09.07
 end: 2020.09.20
+status: Done
 ---
 # 2020 principles and values
 
 ## Goals
 
-Come up with governing principals and values for the Dendron product and the Dendron Community
+Come up with governing principals and values for the Dendron product and the Dendron Community. This item is complete and documented under [[dendron.principles]]
 
 ## Details
 
@@ -33,7 +34,7 @@ Come up with governing principals and values for the Dendron product and the Den
 
 ### Tradeoffs
 
-You can't have something that is everything for everyone. There are tradeoffs we are making
+You can't have something that is everything for everyone. While both characteristics matter, we agree to make these tradeoffs when necessary. 
 
 - function over form    
     - in dendron, its more important for something to be useful than it is to be beautiful 
