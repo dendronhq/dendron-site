@@ -21,11 +21,11 @@ Users should be able to initialize their workspace with multiple workspaces
 
 ### Naming Collisions
 
-- [[ thread |project.scratch.2020.09.07-121834]]
+- [[thread |dendron.roadmap.project.scratch.2020.09.07-121834]]
 
 ### Sharing Material Between Vaults
 
-- [[thread | project.scratch.2020.09.07-121952]]
+- [[thread |dendron.roadmap.project.scratch.2020.09.07-121952]]
 
 ## Tasks
 

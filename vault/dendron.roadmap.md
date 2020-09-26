@@ -19,23 +19,23 @@ This is a list of items that we are working on.
 
 ## Epics
 - September
-    - [x] [[principles and values|project.n.2020.principles-and-values]]
-    - [ ] [[pods|project.n.2020.pods]] #wip #feedback
-    - [ ] [[seeds|project.n.2020.seeds]]  #wip #feedback
+    - [x] [[principles and values|dendron.roadmap.project.n.2020.principles-and-values]]
+    - [ ] [[pods|dendron.roadmap.project.n.2020.pods]] #wip #feedback
+    - [ ] [[seeds|dendron.roadmap.project.n.2020.seeds]]  #wip #feedback
 - October
-    - [ ] [[Language Server Protocol |project.n.2020.lsp]] #wip
-    - [ ] [[2020 Quality of Life Improvements|project.n.2020.qol]] #feedback
-    - [ ] [[Multi Vaults|project.n.2020.multi-vault]] #feedback
+    - [ ] [[Language Server Protocol |dendron.roadmap.project.n.2020.lsp]] #wip
+    - [ ] [[2020 Quality of Life Improvements|dendron.roadmap.project.n.2020.qol]] #feedback
+    - [ ] [[Multi Vaults|dendron.roadmap.project.n.2020.multi-vault]] #feedback
 - November
-    - [ ] [[Long Term Sustainability|project.n.2020.long-term-sustainability]] 
+    - [ ] [[Long Term Sustainability|dendron.roadmap.project.n.2020.long-term-sustainability]] 
 - December
-    - [ ] [[Git all the people|project.n.2020.git]]
-    - [ ] [[Power Functionality|project.n.2020.power-functionality]]
+    - [ ] [[Git all the people|dendron.roadmap.project.n.2020.git]]
+    - [ ] [[Power Functionality|dendron.roadmap.project.n.2020.power-functionality]]
 
 ## Long Lived Initiatives
 
 These projects don't have an end date. They are something we'll continuously work towards.
 
-- [[Better Docs|project.n.2020.better-docs]]
-- [[Community Building|project.n.2020.community-building]]
-- [[Recruiting Gardeners|project.n.2020.recruit-gardeners]]
+- [[Better Docs|dendron.roadmap.project.n.2020.better-docs]]
+- [[Community Building|dendron.roadmap.project.n.2020.community-building]]
+- [[Recruiting Gardeners|dendron.roadmap.project.n.2020.recruit-gardeners]]

@@ -19,33 +19,33 @@ end: '2020.09.15 18:00'
 - [x] talk about sustainability
 
 # Prep
-- [ ] have read and/or commented on the [[project]]
+- [ ] have read and/or commented on the [[dendron.roadmap.project]]
 
 
 # Timeline
 
 ## Epics
 - September
-    - [[project.n.2020.principles-and-values]]
-    - [[project.n.2020.pods]]
-    - [[project.n.2020.seeds]]
+    - [[dendron.roadmap.project.n.2020.principles-and-values]]
+    - [[dendron.roadmap.project.n.2020.pods]]
+    - [[dendron.roadmap.project.n.2020.seeds]]
 - October
-    - [[project.n.2020.lsp]]
-    - [[project.n.2020.qol]]
-    - [[project.n.2020.multi-vault]]
+    - [[dendron.roadmap.project.n.2020.lsp]]
+    - [[dendron.roadmap.project.n.2020.qol]]
+    - [[dendron.roadmap.project.n.2020.multi-vault]]
 - November
-    - [[project.n.2020.long-term-sustainability]]
+    - [[dendron.roadmap.project.n.2020.long-term-sustainability]]
 - December
-    - [[project.n.2020.git]]
-    - [[project.n.2020.power-functionality]]
+    - [[dendron.roadmap.project.n.2020.git]]
+    - [[dendron.roadmap.project.n.2020.power-functionality]]
 
 ## Long Lived Initiatives
 
 These projects don't have an end date. They are something we'll be continuously working towards.
 
-- [[project.n.2020.better-docs]]
-- [[project.n.2020.community-building]]
-- [[project.n.2020.recruit-gardeners]]
+- [[dendron.roadmap.project.n.2020.better-docs]]
+- [[dendron.roadmap.project.n.2020.community-building]]
+- [[dendron.roadmap.project.n.2020.recruit-gardeners]]
 
 # Notes
 - faycal, brain square
@@ -146,7 +146,7 @@ These projects don't have an end date. They are something we'll be continuously 
 # Next
 - [ ] share the zoom video @kevinslin
 - [ ] add a note about dot based file names vs folders @jojanaho
-- [ ] [[better getting started tutorial|project.scratch.2020.09.15-112310]]  @d3vr
+- [ ] [[better getting started tutorial|dendron.roadmap.project.scratch.2020.09.15-112310]]  @d3vr
 - [ ] write up details about multi-vault @kevinslin
 - [ ] watch video and pick a task to do :) @kpathakota
 - [ ] set a date to meet again in a month @kevinslin

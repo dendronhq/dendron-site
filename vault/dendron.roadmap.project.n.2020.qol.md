@@ -19,4 +19,4 @@ Make Dendron easy to onboard (even for non-technical users) and smooth some of t
 
 ## Tasks
 - [ ] create an easy schema builder
-- [ ] [[interactive tutorial | project.scratch.2020.09.15-112310]] 
+- [ ] [[interactive tutorial |dendron.roadmap.project.scratch.2020.09.15-112310]] 

@@ -12,18 +12,18 @@ stub: false
 This hierarchy describes the short term and long term projects of Dendron.
 
 ## Q4 2020
-- [[Principles and Values|project.n.2020.principles-and-values]]
-- [[Pods|project.n.2020.pods]]
-- [[The Seed Bank|project.n.2020.seeds]]
-- [[Recruit Gardeners|project.n.2020.recruit-gardeners]]
-- [[Quality of Life Improvements|project.n.2020.qol]]
-- [[Dendron Language Server Protocol|project.n.2020.lsp]]
-- [[Multi-Vault Support|project.n.2020.multi-vault]]
-- [[Community Building|project.n.2020.community-building]]
-- [[Power Functionality|project.n.2020.power-functionality]]
-- [[Better Docs|project.n.2020.better-docs]]
-- [[Git All The People|project.n.2020.git]]
-- [[Long Term Sustainability|project.n.2020.long-term-sustainability]]
+- [[Principles and Values|dendron.roadmap.project.n.2020.principles-and-values]]
+- [[Pods|dendron.roadmap.project.n.2020.pods]]
+- [[The Seed Bank|dendron.roadmap.project.n.2020.seeds]]
+- [[Recruit Gardeners|dendron.roadmap.project.n.2020.recruit-gardeners]]
+- [[Quality of Life Improvements|dendron.roadmap.project.n.2020.qol]]
+- [[Dendron Language Server Protocol|dendron.roadmap.project.n.2020.lsp]]
+- [[Multi-Vault Support|dendron.roadmap.project.n.2020.multi-vault]]
+- [[Community Building|dendron.roadmap.project.n.2020.community-building]]
+- [[Power Functionality|dendron.roadmap.project.n.2020.power-functionality]]
+- [[Better Docs|dendron.roadmap.project.n.2020.better-docs]]
+- [[Git All The People|dendron.roadmap.project.n.2020.git]]
+- [[Long Term Sustainability|dendron.roadmap.project.n.2020.long-term-sustainability]]
 
 ## Commenting and Reviews
 
@@ -39,7 +39,7 @@ After you install the extension and log in, you'll be able to leave comments inl
 
 ## Other Resources
 
-- [[Cookbook|project.cook]]: Optional things to help you manage Dendron projects
+- [[Cookbook|dendron.roadmap.project.cook]]: Optional things to help you manage Dendron projects
 
 # Structure
 
