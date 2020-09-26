@@ -49,6 +49,36 @@ If you have text highlighted while creating a new note with a lookup, the new no
 <a href="https://www.loom.com/share/61d754c1dca84b99b2786b2f89473566">
 <img style="" src="https://cdn.loom.com/sessions/thumbnails/61d754c1dca84b99b2786b2f89473566-with-play.gif"> </a>
 
+### Passing Arguments to Lookup
+
+The lookup command accepts the following arguments:
+- selectionType: controls selection modifier
+    - "selectionExtract": selection is extracted to newly created note (default)
+    - "selection2link": selection ist turned into a link to newly created note
+- noteType: controls what sort of note is created
+    - {none}: create a normal note  (default)
+    - journal: create a journal note
+    - scratch: create a scratch ntoe:
+
+This means you can define custom arguments when triggering a lookup. The following keybinding will trigger lookup set to creating a journal note and turning a selection into a link. 
+
+((ref: [[dendron.topic.keybindings]]#keybindings,1))
+
+```json
+{
+"command": "dendron.lookup",
+"key": "cmd+k j",
+    "args": {
+        "noteType": "journal",
+        "selectionType": "selection2link"
+    }
+}
+```
+
+
+<a href="https://www.loom.com/share/1e6b39a93b7245e4b13310f7c06d972f"> 
+<img style="" src="https://cdn.loom.com/sessions/thumbnails/1e6b39a93b7245e4b13310f7c06d972f-with-play.gif"> </a>
+
 
 ### Deleting Notes
 
