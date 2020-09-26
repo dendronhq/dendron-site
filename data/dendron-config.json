@@ -24,11 +24,6 @@
             "key": "dendron.createJournalNote",
             "title": "Dendron: Create Journal Note",
             "group": "notes",
-            "keybindings": {
-                "key": "ctrl+shift+j",
-                "mac": "cmd+shift+j",
-                "when": "editorFocus"
-            },
             "desc": "Create a hierarchy specific journal note",
             "docLink": "dendron.topic.special-notes.md",
             "docPreview": "<a href=\"https://www.loom.com/share/da562a166af9427e908a76be8bc38355\"><img src=\"https://cdn.loom.com/sessions/thumbnails/da562a166af9427e908a76be8bc38355-with-play.gif\"></a>",
@@ -38,10 +33,6 @@
             "key": "dendron.createScratchNote",
             "title": "Dendron: Create Scratch Note",
             "group": "notes",
-            "keybindings": {
-                "key": "ctrl+shift+s",
-                "mac": "cmd+shift+s"
-            },
             "desc": "Create a hierarchy specific scratch note",
             "docLink": "dendron.topic.special-notes.md",
             "docPreview": "<a href=\"https://www.loom.com/share/104a3e0bb10f4012a831194d02483e4a\"> <img style=\"\" src=\"https://cdn.loom.com/sessions/thumbnails/104a3e0bb10f4012a831194d02483e4a-with-play.gif\"> </a>",
@@ -129,7 +120,8 @@
         },
         {
             "key": "dendron.lookup",
-            "title": "Dendron: Lookup",
+            "shortcut": true,
+            "title": "Dendron: Lookup (Journal Note)",
             "group": "navigation",
             "keybindings": {
                 "key": "ctrl+shift+j",
@@ -138,7 +130,26 @@
                     "noteType": "journal"
                 }
             },
-            "desc": "Initiate note lookup",
+            "desc": "Initiate note lookup with journal note pre-selected",
+            "docs": "((ref: [[dendron.topic.lookup]]#notes,1:#schemas))",
+            "docLink": "dendron.topic.lookup.md",
+            "docPreview": "",
+            "skipDocs": false
+        },
+        {
+            "key": "dendron.lookup",
+            "shortcut": true,
+            "title": "Dendron: Lookup (Scratch Note)",
+            "group": "navigation",
+            "keybindings": {
+                "key": "ctrl+shift+s",
+                "mac": "cmd+shift+s",
+                "args": {
+                    "noteType": "scratch",
+                    "selectionType": "selection2link"
+                }
+            },
+            "desc": "Initiate note lookup with scratch note pre-selected",
             "docs": "((ref: [[dendron.topic.lookup]]#notes,1:#schemas))",
             "docLink": "dendron.topic.lookup.md",
             "docPreview": "",

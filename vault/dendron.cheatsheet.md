@@ -31,18 +31,13 @@ This is a cheatsheet for Dendron.
 
 ### Dendron: Create Journal Note
 - description: Create a hierarchy specific journal note
-- shortcuts: 
-  - key: `ctrl+shift+j`
-  - mac: `cmd+shift+j`
-  - when: `editorFocus`
+- shortcuts: none
 
 <a href="https://www.loom.com/share/da562a166af9427e908a76be8bc38355"><img src="https://cdn.loom.com/sessions/thumbnails/da562a166af9427e908a76be8bc38355-with-play.gif"></a>
 
 ### Dendron: Create Scratch Note
 - description: Create a hierarchy specific scratch note
-- shortcuts: 
-  - key: `ctrl+shift+s`
-  - mac: `cmd+shift+s`
+- shortcuts: none
 
 <a href="https://www.loom.com/share/104a3e0bb10f4012a831194d02483e4a"> <img style="" src="https://cdn.loom.com/sessions/thumbnails/104a3e0bb10f4012a831194d02483e4a-with-play.gif"> </a>
 
@@ -96,12 +91,21 @@ This is a cheatsheet for Dendron.
 
 
 
-### Dendron: Lookup
-- description: Initiate note lookup
+### Dendron: Lookup (Journal Note)
+- description: Initiate note lookup with journal note pre-selected
 - shortcuts: 
   - key: `ctrl+shift+j`
   - mac: `cmd+shift+j`
   - args: `{'noteType': 'journal'}`
+
+
+
+### Dendron: Lookup (Scratch Note)
+- description: Initiate note lookup with scratch note pre-selected
+- shortcuts: 
+  - key: `ctrl+shift+s`
+  - mac: `cmd+shift+s`
+  - args: `{'noteType': 'scratch', 'selectionType': 'selection2link'}`
 
 
 

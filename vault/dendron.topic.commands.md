@@ -23,10 +23,7 @@ Create a global journal note
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/notes.daily.gif)
 
 ### Create Journal Note
-- shortcuts: 
-  - key: `ctrl+shift+j`
-  - mac: `cmd+shift+j`
-  - when: `editorFocus`
+- shortcuts: none
 
 
 Create a hierarchy specific journal note
@@ -36,9 +33,7 @@ Create a hierarchy specific journal note
 <a href="https://www.loom.com/share/da562a166af9427e908a76be8bc38355"><img src="https://cdn.loom.com/sessions/thumbnails/da562a166af9427e908a76be8bc38355-with-play.gif"></a>
 
 ### Create Scratch Note
-- shortcuts: 
-  - key: `ctrl+shift+s`
-  - mac: `cmd+shift+s`
+- shortcuts: none
 
 
 Create a hierarchy specific scratch note
@@ -125,14 +120,27 @@ Initiate note lookup
 
 
 
-### Lookup
+### Lookup (Journal Note)
 - shortcuts: 
   - key: `ctrl+shift+j`
   - mac: `cmd+shift+j`
   - args: `{'noteType': 'journal'}`
 
 
-Initiate note lookup
+Initiate note lookup with journal note pre-selected
+
+ ((ref: [[dendron.topic.lookup]]#notes,1:#schemas)) 
+
+
+
+### Lookup (Scratch Note)
+- shortcuts: 
+  - key: `ctrl+shift+s`
+  - mac: `cmd+shift+s`
+  - args: `{'noteType': 'scratch', 'selectionType': 'selection2link'}`
+
+
+Initiate note lookup with scratch note pre-selected
 
  ((ref: [[dendron.topic.lookup]]#notes,1:#schemas)) 
 
