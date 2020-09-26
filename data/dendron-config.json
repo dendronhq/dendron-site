@@ -90,15 +90,6 @@
             "skipDocs": false
         },
         {
-            "key": "dendron.newNoteFromSelection",
-            "title": "Dendron: New Note From Selection (Removed)",
-            "group": "notes",
-            "desc": "This command is now deprecated. You can now use lookup with highlighted text to achieve the same functionality",
-            "docLink": "dendron.topic.commands.md",
-            "docPreview": "![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/notes.new-from-select.gif)",
-            "skipDocs": false
-        },
-        {
             "key": "dendron.renameNote",
             "title": "Dendron: Rename Note",
             "group": "notes",
