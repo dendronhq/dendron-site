@@ -104,7 +104,7 @@ You can collapse headers at different levels and bullets at different indentatio
 "markdownShortcuts.icons.bullets": false,
 ```
 
-### Automate git tasks
+### Automate Git Tasks
 - [discord thread](https://discordapp.com/channels/717965437182410783/742532267058004098/759130627781558403)
 - Problem:
   - You want an easier way to `git add && git commit && git push`
