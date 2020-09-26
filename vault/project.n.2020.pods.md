@@ -28,8 +28,11 @@ To do that effectively, we believe its important that you have **full control of
 
 Dendron refers to a pod as anything you could conceivably use to store/publish notes. Evernote, Roam, static websites, twitter - any and all of these things are potential pods. The vision with pods is that you should be able to seamlessly move **your information** in and out a pod and in and out of Dendron. 	
 
-Unlike what the [notion](https://www.notion.so/) marketing folks might tell you, I don't believe there is a one size fits all approach when it comes to knowledge management, a concept that includes collecting articles, project management, journaling, collaboration, and basically any workflows that involve working with information.	
+Unlike what the [notion](https://www.notion.so/) marketing folks might tell you, we don't believe there is a one size fits all approach when it comes to knowledge management, a concept that includes collecting articles, project management, journaling, collaboration, and basically any workflows that involve working with information.	
 
 While Dendron will make it possible for you to do these things, it will also help you move your information to tools that do it better for a given use case. Imagine being able to collaborate on a note using [google docs](https://docs.google.com/), use the spreadsheet functionality in [airtable](https://airtable.com/) to organize and all the while keep a canonical copy of that note inside Dendron where it is just a lookup away. 	
 
 If you have ideas about pods and pod related workflows that you would like to see us build, please come discuss them with us in our newly created [#pods](https://discord.gg/8vjasHj) channel. 	
+
+# Related
+- [[dendron.topic.pod]]

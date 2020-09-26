@@ -14,7 +14,7 @@ This hierarchy describes the short term and long term projects of Dendron.
 ## Q4 2020
 - [[Principles and Values|project.n.2020.principles-and-values]]
 - [[Pods|project.n.2020.pods]]
-- [[The Seed Bank|project.n.2020.seed-bank]]
+- [[The Seed Bank|project.n.2020.seeds]]
 - [[Recruit Gardeners|project.n.2020.recruit-gardeners]]
 - [[Quality of Life Improvements|project.n.2020.qol]]
 - [[Dendron Language Server Protocol|project.n.2020.lsp]]

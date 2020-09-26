@@ -28,7 +28,7 @@ end: '2020.09.15 18:00'
 - September
     - [[project.n.2020.principles-and-values]]
     - [[project.n.2020.pods]]
-    - [[project.n.2020.seed-bank]]
+    - [[project.n.2020.seeds]]
 - October
     - [[project.n.2020.lsp]]
     - [[project.n.2020.qol]]

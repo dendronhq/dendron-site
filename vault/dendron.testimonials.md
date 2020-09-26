@@ -20,3 +20,6 @@ This page is a collection of nice things that people have said about Dendron. If
 
 ((ref: [[dendron.testimonials.ed]]))
 - Ed, Accountant
+
+((ref: [[dendron.testimonials.tyler]]))
+- Tyler Nieman, Software engineeer/Illustrator

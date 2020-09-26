@@ -10,6 +10,8 @@ nav_order: 1.3
 
 # Principles
 
+## Product
+
 ### Speed
 
 Dendron should be the fastest way for **people** to access the information they care about.
@@ -31,8 +33,15 @@ It should be possible to import/export your data from/to any other source where 
 - see [Bushnell's Law
 ](https://en.wikipedia.org/wiki/Bushnell%27s_Law#:~:text=Bushnell's%20Law%20or%20Nolan's%20Law,first%20quarter%20and%20the%20hundredth.)
 
-# Tradeoffs
+## Community
 
+### Open and Inclusive
+Dendron is a tool for **all users** that are interested in creating, building, using, and sharing knowledge. full stop. 
+
+### Have it in writing
+We don't just share what we learn in a chat at a moment in time. We make sure that the information remains accessible longer after we are gone. 
+
+# Tradeoffs
 You can't have something that is everything for everyone. There are tradeoffs we are making in Dendron.
 
 ### Function over Form    
