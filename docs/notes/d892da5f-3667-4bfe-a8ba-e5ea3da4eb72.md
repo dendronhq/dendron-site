@@ -79,4 +79,3 @@ Paid for features will be 100% optional and will not be necessary for any client
     - vscodium
   - charge a pay what you can model?
 - wyswg @jojanaho
-- get bigger community

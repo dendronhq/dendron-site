@@ -44,4 +44,3 @@ Figure out and experiment with a long term business model for Dendron.
         - vscodium
     - charge a pay what you can model?
 - wyswg @jojanaho
-- get bigger community
