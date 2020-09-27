@@ -35,6 +35,7 @@ Figure out and experiment with a long term business model for Dendron.
 <div class="portal-parent-fader-top"></div>
 <div class="portal-parent-fader-bottom"></div>        
   
+### Is Dendron Free? Will it stay free?
 
 Dendron, the client, is free and will always remain free. It is also open source so anyone is free to make their own fork of Dendron.
 
@@ -48,14 +49,6 @@ That being said, I'm all in on Dendron and this is my full time gig. I want to m
 
 Paid for features will be 100% optional and will not be necessary for any client side functionality in Dendron.
 
-### Why is Dendron built on top of VSCode?
-
-As with all things, its a matter of tradeoffs. Dendron started its life as a standalone app (eg. think Obsidian) but I quickly realized I was spending most of my time building undifferentiated editor scaffolding instead of focusing on the hierarchies and schemas that made Dendron unique.
-
-I wanted to spend more time building out features that supported Dendron's [hiearchy first approach](https://www.kevinslin.com/notes/3dd58f62-fee5-4f93-b9f1-b0f0f59a9b64.html) to note taking which is what led me to re-write it for VSCode. 
-
-That being said, the core dendron engine is not vscode specific and there are folks that are experimenting with porting it over to other editors (eg. sublime, vim). We also have plans for a standalone editor in the future (most likely, this will be a fork of VSCode optimized for note taking)
-
 
 </div>    
 </div>
@@ -65,8 +58,9 @@ That being said, the core dendron engine is not vscode specific and there are fo
 
 - pro status
   - support dendron development using one time or recurring fee
+  - get a dendron sticker and special discord badge
+  - get discount when we launch sever feature rates
 - workshops
-  - eg. how to best organize
 - server features
   - use **code-server** or something equivalent to run dendron inside a browser
   - dedicated end2end sync
@@ -86,7 +80,3 @@ That being said, the core dendron engine is not vscode specific and there are fo
   - charge a pay what you can model?
 - wyswg @jojanaho
 - get bigger community
-
-## Tasks
-
-## Release Notes
