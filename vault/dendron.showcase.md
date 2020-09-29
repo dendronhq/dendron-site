@@ -32,3 +32,9 @@ Below are examples of published Dendron vaults
 - discord: `@I'm a lightbulb#6986`
 
 ![](/assets/images/2020-09-13-09-01-48.png)
+
+## Luke's second brain
+- homepage: https://luke.carrier.im/
+- discord: `@lukecarrier#2081`
+
+![](/assets/images/2020-09-27-20-50-54.png)
