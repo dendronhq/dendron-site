@@ -1,6 +1,6 @@
 ---
 id: 35d7d7bc-64a6-4850-9a54-7de7f43ad751
-title: 2020 principles and values
+title: Principles and Values
 desc: ''
 updated: 1599499842665
 created: 1599499842665
@@ -9,7 +9,7 @@ start: 2020.09.07
 end: 2020.09.20
 status: Done
 ---
-# 2020 principles and values
+# Principles and Values
 
 ## Goals
 

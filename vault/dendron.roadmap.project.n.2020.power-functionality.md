@@ -1,6 +1,6 @@
 ---
 id: ff1b9ea5-6d0e-49b2-97d1-a7e31299164e
-title: Power functionality
+title: Power functionality v0
 desc: ''
 updated: 1599501792934
 created: 1599501792934
@@ -9,7 +9,7 @@ start: 2020.12.07
 end: 2020.12.15
 status: Next
 ---
-# Power functionality
+# Power functionality v0
 
 ## Goals
 

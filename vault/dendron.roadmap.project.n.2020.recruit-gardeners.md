@@ -1,12 +1,12 @@
 ---
 id: 750c86bc-9b72-46b5-9c08-865af1bed622
-title: 2020 recruit gardeners
+title: Recruit Gardeners
 desc: ''
 updated: 1599501257121
 created: 1599501257121
 stub: false
 ---
-# 2020 recruit gardeners
+# Recruit Gardeners
 
 ## Goals
 

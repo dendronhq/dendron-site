@@ -12,7 +12,7 @@ nav_order: 2.1
 
 The Dendron Public Roadmap is a list of all the things we're working on for the year. 
 
-https://github.com/orgs/dendronhq/projects/1
+You can see the corresponding issues on [github](https://github.com/orgs/dendronhq/projects/1) where you can leave comments and feedback. You can also comment in our [#feedback](https://discord.gg/mxvczE9) channel on discord. 
 
 # Legend
 - `[x]`: done
@@ -22,17 +22,17 @@ https://github.com/orgs/dendronhq/projects/1
 ## Epics
 - September
     - [x] [[principles and values|dendron.roadmap.project.n.2020.principles-and-values]]
-    - [ ] [[pods|dendron.roadmap.project.n.2020.pods]] #wip #feedback
-    - [ ] [[seeds|dendron.roadmap.project.n.2020.seeds]]  #wip #feedback
+    - [ ] [[pods v0|dendron.roadmap.project.n.2020.pods]] #wip #feedback
+    - [ ] [[seeds v0|dendron.roadmap.project.n.2020.seeds]]  #wip #feedback
 - October
-    - [ ] [[Language Server Protocol |dendron.roadmap.project.n.2020.lsp]] #wip
-    - [ ] [[2020 Quality of Life Improvements|dendron.roadmap.project.n.2020.qol]] #feedback
+    - [ ] [[Server Migration|dendron.roadmap.project.n.2020.lsp]] #wip
+    - [ ] [[Quality of Life Improvements v0|dendron.roadmap.project.n.2020.qol]] #feedback
     - [ ] [[Multi Vaults|dendron.roadmap.project.n.2020.multi-vault]] #feedback
 - November
-    - [ ] [[Long Term Sustainability|dendron.roadmap.project.n.2020.long-term-sustainability]] 
+    - [ ] [[Long Term Sustainability v0|dendron.roadmap.project.n.2020.long-term-sustainability]] 
 - December
     - [ ] [[Git all the people|dendron.roadmap.project.n.2020.git]]
-    - [ ] [[Power Functionality|dendron.roadmap.project.n.2020.power-functionality]]
+    - [ ] [[Power Functionality v0|dendron.roadmap.project.n.2020.power-functionality]]
 
 ## Long Lived Initiatives
 
