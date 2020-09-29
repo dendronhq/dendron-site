@@ -1,6 +1,6 @@
 ---
 id: c4cb56af-ec13-4e57-aede-eb341e870736
-title: 2020 qol
+title: QoL V0
 desc: ''
 updated: 1599501500764
 created: 1599501500764
@@ -9,14 +9,24 @@ start: 2020.10.07
 end: 2020.10.29
 status: Next
 ---
-# 2020 Quality of Life Improvements
+# Quality of Life Improvements (QoL) v0
 
 ## Goals
 
-Make Dendron easy to onboard (even for non-technical users) and smooth some of the rough edges in Dendron.
+Dendron is many things but easy to use it is not quite (yet). 
 
 ## Details
 
+Make Dendron easy to onboard (even for non-technical users) and smooth some of the rough edges. 
+
 ## Tasks
 - [ ] create an easy schema builder
-- [ ] [[interactive tutorial |dendron.roadmap.project.scratch.2020.09.15-112310]] 
+- [ ] interactive tutorial?
+- [ ] collect feedback from the community
+
+## Next
+- TBD
+
+## Links
+- [project docs](https://dendron.so/notes/c4cb56af-ec13-4e57-aede-eb341e870736.html)
+- [issues](https://github.com/dendronhq/dendron/labels/pro.qol-v0)

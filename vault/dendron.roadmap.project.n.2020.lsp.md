@@ -1,6 +1,6 @@
 ---
 id: 725d99be-fadd-4464-88c3-0a5fcc7292c7
-title: 2020 lsp
+title: Server Migration
 desc: ''
 updated: 1599501616541
 created: 1599501616541
@@ -9,14 +9,45 @@ start: 2020.09.23
 end: 2020.10.30
 status: In Progress
 ---
-# Language Server Protocol
+# Server Migration
 
 ## Goals
 
-Migrate the Dendron engine implementation to the language server protocol
+Migrate the Dendron to client <-> server architecture
 
 ## Details
 
+Dendron's current architecture can be found [here](https://dendron.so/notes/c160ddce-edec-4f6e-841b-418d6030fa37.html). Currently, all of Dendron's indexing capabilities is provided by the `dendron engine` as a library which is included in every extension that uses it. This has many drawbacks - every extension re-indexes all notes and also blocks the client (vscode) during this process.
+
+The Dendron server migration is to move Dendron to a client server architecture. Note that the migration will involve standing up **two servers**: one for language server functionality (the lsp server), and another for dendron's [lookup](https://dendron.so/notes/a7c3a810-28c8-4b47-96a6-8156b1524af3.html) capabilities (the express server). 
+
+The rationale for having two servers is discussed [here](https://discordapp.com/channels/717965437182410783/748936364283920495/759153642644701285).
+
+Instead of calling the engine directly, the Dendron extension, as well as related plugins, will communicate to Dendron's server using IPC and on local ports. 
+
+## Tasks
+- [x] add LSP server to Dendron
+- [x] add Express server to Dendron
+- [ ] migrate lookup to server model
+- [ ] migrate all current functionality to server model
+- [ ] migrate bundled extensions to server model
+
+## Next
+- use custom goto definition provider 
+- use custom backlink definition provider
+- use schema based completions
+
+## Links
+- [project docs](https://dendron.so/notes/725d99be-fadd-4464-88c3-0a5fcc7292c7.html)
+- [issues](https://github.com/dendronhq/dendron/labels/pro.server-migration)
+
+## Related
+- [[dendron.topic.pod]]
+- [[pod proposal issue |dendron.roadmap.project.scratch.2020.09.07-164009]]	
+
+
+
+<!-- 
 ### Breakdown
 
 - create `@dendronhq/lsp-server` package
@@ -155,3 +186,4 @@ This describes what will be the main provider of the functionality that is curre
 - [[lsp.ontype-formatting]]
 - [[lsp.rename-and-prepare-rename]]
 - [[lsp.folding-range]]
+-->

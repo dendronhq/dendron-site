@@ -17,7 +17,15 @@ Support power user functionality
 
 ## Details
 
-## Tasks
-- github query: [is:issue is:open label:pro.power-func ](https://github.com/dendronhq/dendron/issues?q=is%3Aissue+is%3Aopen+label%3Apro.power-func)
+TBD
 
-## Release Notes
+## Tasks
+
+TBD
+
+## Next
+TBD
+
+## Links
+- [project docs](https://dendron.so/notes/ff1b9ea5-6d0e-49b2-97d1-a7e31299164e.html)
+- [issues](https://github.com/dendronhq/dendron/labels/pro.power-func-v0)

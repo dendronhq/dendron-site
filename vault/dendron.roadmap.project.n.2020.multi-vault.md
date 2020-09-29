@@ -17,6 +17,17 @@ Users should be able to initialize their workspace with multiple workspaces
 
 ## Details
 
+This enables many use cases like keeping a private local only vault and a synced dropbox vault. 
+
+## Tasks
+- [ ] writeup design
+- [ ] collect feedback
+- [ ] implement
+
+## Links
+- [project docs](https://dendron.so/notes/45cfb9f2-46cf-4f67-a41e-834818fbd06e.html)
+- [issues](https://github.com/dendronhq/dendron/labels/pro.multi-vault)
+
 ## Discussions
 
 ### Naming Collisions
@@ -26,8 +37,3 @@ Users should be able to initialize their workspace with multiple workspaces
 ### Sharing Material Between Vaults
 
 - [[thread |dendron.roadmap.project.scratch.2020.09.07-121952]]
-
-## Tasks
-
-## Release Notes
-

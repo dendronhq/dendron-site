@@ -8,9 +8,11 @@ stub: false
 nav_order: 2.1
 ---
 
-# Project Roadmap
+# Project Public Roadway
 
-This is a list of items that we are working on.
+The Dendron Public Roadmap is a list of all the things we're working on for the year. 
+
+https://github.com/orgs/dendronhq/projects/1
 
 # Legend
 - `[x]`: done

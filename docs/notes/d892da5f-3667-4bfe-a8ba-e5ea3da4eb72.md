@@ -3,7 +3,7 @@ start: 2020.10.07
 end: 2020.11.29
 status: Next
 id: d892da5f-3667-4bfe-a8ba-e5ea3da4eb72
-title: Long term sustainability
+title: Long term sustainability v0
 desc: ''
 updated: 1599501881180
 created: 1599501881180
@@ -14,7 +14,7 @@ parent: 58247dfb-55b4-4269-9b37-42a90a0045ef
 children: []
 hpath: dendron.roadmap.project.n.2020.long-term-sustainability
 ---
-# Long term sustainability
+# Long term sustainability v0
 
 ## Goals
 
@@ -22,39 +22,35 @@ Figure out and experiment with a long term business model for Dendron.
 
 ## Details
 
+[Kevin](https://github.com/kevinslin) is the founder of Dendron and working on it full time. He funds it by selling Amazon stock every couple of months. While this works for now, it will eventually hit a wall.
 
+Kevin wants to work on Dendron full time for the forseeable future and would like to hire other people full time to do the same. 
 
-<div class="portal-container">
-<div class="portal-head">
-<div class="portal-backlink" >
-<div class="portal-title">From <span class="portal-text-title">dendron.faq</span></div>
-<a href="683740e3-70ce-4a47-a1f4-1f140e80b558.html" class="portal-arrow">Go to text <span class="right-arrow">→</span></a>
-</div>
-</div>
-<div id="portal-parent-anchor" class="portal-parent" markdown="1">
-<div class="portal-parent-fader-top"></div>
-<div class="portal-parent-fader-bottom"></div>        
-  
-### Is Dendron Free? Will it stay free?
+## Tasks
 
-Dendron, the client, is free and will always remain free. It is also open source so anyone is free to make their own fork of Dendron.
+- [x] come up with different revenue plans
+- [ ] launch the **environmentalist plan**
+  - optional one time/re-curring payment to support development of Dendron
+  - access to special once a month zoom chat about features
+  - swag
+  - discord icon
+  - discount for server side features
 
-That being said, I'm all in on Dendron and this is my full time gig. I want to make sure that developing Dendron remains sustainable. To that end, I plan on introducing value add server side functionality that folks may pay for. Examples of paid for features include: 
+## Next
 
-- private hosting (for folks who want to publish but not use github pages or want to add authentication)
-- enterprisy things 
-  - eg. on premise installations of Dendron with single sign on, active directory, and fine grained permissions
-- offering private subscription based vaults (eg. think [substack](https://substack.com) but having people subscribe to vaults instead of newsletters )
-- server side IFTTT like functionality (eg. everytime I add an entry to airtable, add a note to Dendron)
+- server side features 
+  - private hosting
+  - native sync
+  - etc.
 
-Paid for features will be 100% optional and will not be necessary for any client side functionality in Dendron.
+## Links
 
+- [project docs](https://dendron.so/notes/d892da5f-3667-4bfe-a8ba-e5ea3da4eb72.html)
+- [issues](https://github.com/dendronhq/dendron/labels/pro.lts-v0)
 
-</div>    
-</div>
+## Notes
 
-
-## Plans
+### Revenue Ideas
 
 - pro status
   - support dendron development using one time or recurring fee

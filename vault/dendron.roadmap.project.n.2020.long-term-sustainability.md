@@ -1,6 +1,6 @@
 ---
 id: d892da5f-3667-4bfe-a8ba-e5ea3da4eb72
-title: Long term sustainability
+title: Long term sustainability v0
 desc: ''
 updated: 1599501881180
 created: 1599501881180
@@ -9,7 +9,8 @@ start: 2020.10.07
 end: 2020.11.29
 status: Next
 ---
-# Long term sustainability
+
+# Long term sustainability v0
 
 ## Goals
 
@@ -17,10 +18,33 @@ Figure out and experiment with a long term business model for Dendron.
 
 ## Details
 
-((ref:[[dendron.faq]]#Is Dendron Free? Will it stay free?:#*))
+[Kevin](https://github.com/kevinslin) is the founder of Dendron and working on it full time. He funds it by selling Amazon stock every couple of months. While this works for now, it will eventually hit a wall.
 
-## Plans
+Kevin wants to work on Dendron full time for the forseeable future and would like to hire other people full time to do the same. 
 
+## Tasks
+- [x] come up with different revenue plans
+- [ ] launch the **environmentalist plan**
+    - optional one time/re-curring payment to support development of Dendron
+    - access to special once a month zoom chat about features
+    - swag
+    - discord icon
+    - discount for server side features
+
+## Next
+- server side features 
+    - private hosting
+    - native sync
+    - etc.
+
+## Links
+- [project docs](https://dendron.so/notes/d892da5f-3667-4bfe-a8ba-e5ea3da4eb72.html)
+- [issues](https://github.com/dendronhq/dendron/labels/pro.lts-v0)
+
+
+## Notes
+
+### Revenue Ideas
 - pro status
     - support dendron development using one time or recurring fee
     - get a dendron sticker and special discord badge

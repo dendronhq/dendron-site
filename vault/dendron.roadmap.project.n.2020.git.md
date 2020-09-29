@@ -17,8 +17,15 @@ Git+Dendron make an ideal workflow but this is currently hard and non-obvious to
 
 ## Details
 
-## Discussions
+TBD
 
 ## Tasks
 
-## Release Notes
+TBD
+
+## Next
+TBD
+
+## Links
+- [project docs](https://dendron.so/notes/37f3623c-d87e-4181-8531-2edb578d3391.html)
+- [issues](https://github.com/dendronhq/dendron/labels/pro.git)
