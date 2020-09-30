@@ -211,13 +211,17 @@ The latest VSCode lets you control pin behavior for tabs. It's not currently doc
 "workbench.editor.pinnedTabSizing": "shrink"
 ```
 
-<!-- 
+### Keep Track of Tabs
 
-### Navigating Tabs
+It's really easy to lose sight of your tabs, especially with menu items occluding the little horizontal space you have for tabs. 
 
-Use `Show All Editors` to navigate all open editors
-  - default shortcut: none
-  - custom shortcut:
+![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/tips.tabs.nav.jpg)
+
+Instead of relying on the menu, you can use `Show All Editors` to see all tabs via a dropdown. You can also narrow down tabs after selection.
+
+![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/tips.tabs.editors.gif)
+
+You can streamline this process by assigning a keyboard shortcut to the command. Below is an example.
   ```json
   {
     "key": "ctrl+t",
@@ -225,7 +229,8 @@ Use `Show All Editors` to navigate all open editors
   }
   ```
 
-![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/tips.tabs.editors.gif)
+<!-- 
+
 ### Custom Outlines
 
 TODO: need to add more details
