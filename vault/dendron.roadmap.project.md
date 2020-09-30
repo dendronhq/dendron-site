@@ -17,7 +17,7 @@ This hierarchy describes the short term and long term projects of Dendron.
 - [[The Seed Bank|dendron.roadmap.project.n.2020.seeds]]
 - [[Recruit Gardeners|dendron.roadmap.project.n.2020.recruit-gardeners]]
 - [[Quality of Life Improvements|dendron.roadmap.project.n.2020.qol]]
-- [[Dendron Language Server Protocol|dendron.roadmap.project.n.2020.lsp]]
+- [[Dendron Language Server Protocol|dendron.roadmap.project.n.2020.server-migration]]
 - [[Multi-Vault Support|dendron.roadmap.project.n.2020.multi-vault]]
 - [[Community Building|dendron.roadmap.project.n.2020.community-building]]
 - [[Power Functionality|dendron.roadmap.project.n.2020.power-functionality]]

@@ -12,6 +12,8 @@ To work with notes, Dendron uses  **lookups**. Lookups help you create, find, an
 
 <img style="" src="https://cdn.loom.com/sessions/thumbnails/a409a621763548d395e48c9d4380cbe7-1600813345789-with-play.gif"> </a>
 
+
+
 ## Notes
 
 ### Finding Notes
@@ -31,13 +33,14 @@ While we call it the `Lookup Bar`, you can also use it to create notes that don'
 
 To try it yourself, bring up the lookup bar. Type `dendron.lookup.hello` and hit `Enter`.
 
+
 #### Creating Special Notes
 
-Dendron has builtin notion for certain notes with special naming conventions. Dendron has shortcuts to trigger the creation of such notes. 
-
-((ref: [[dendron.topic.special-notes]]#journal note:#*))
-
-((ref: [[dendron.topic.special-notes]]#scratch note:#*))
+Dendron has builtin notion for certain types of notes with [[pre-defined hierarchies|dendron.topic.special-notes]]. These notes can be created by toggling the corresponding **note button**  on the lookup menu or by using the respective builtin shortcuts.
+- values:
+    - none (default): create a regular note
+    - journal: create a journal note
+    - scratch: create a scratch note
 
 ### Creating Notes with a Selection
 
@@ -107,3 +110,28 @@ Specifically, Dendron will create `{value}.schema.yml` in your vault. At this po
 ### Deleting Schemas
 
 The process for deleting schemas using Dendron is identical to deleting notes. 
+
+## Lookup Menu
+
+When working with lookup, users can toggle one of the different menu items on the upper right corner.
+
+![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/lookup.menu.jpg)
+
+These menus are divided into 3 categories:
+- selection toggle
+- note toggle
+- split toggle
+
+### Selection Toggle
+((ref: [[dendron.topic.lookup]]#creating notes with a selection,1:#*))
+
+### note toggle
+((ref: [[dendron.topic.lookup]]#creating special notes,1:#*))
+
+### split toggle
+
+When opening a note via lookup, you can decide to have the note open in a horizontal split.This works when you're creating new notes or opening an existing note
+
+<a href="https://www.loom.com/share/814bccbdec384cf094e040f1cc6eebe9"> 
+<img style="" src="https://cdn.loom.com/sessions/thumbnails/814bccbdec384cf094e040f1cc6eebe9-with-play.gif"> </a>
+

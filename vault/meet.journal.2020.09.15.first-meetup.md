@@ -30,7 +30,7 @@ end: '2020.09.15 18:00'
     - [[dendron.roadmap.project.n.2020.pods]]
     - [[dendron.roadmap.project.n.2020.seeds]]
 - October
-    - [[dendron.roadmap.project.n.2020.lsp]]
+    - [[dendron.roadmap.project.n.2020.server-migration]]
     - [[dendron.roadmap.project.n.2020.qol]]
     - [[dendron.roadmap.project.n.2020.multi-vault]]
 - November

@@ -25,7 +25,7 @@ You can see the corresponding issues on [github](https://github.com/orgs/dendron
     - [ ] [[pods v0|dendron.roadmap.project.n.2020.pods]] #wip #feedback
     - [ ] [[seeds v0|dendron.roadmap.project.n.2020.seeds]]  #wip #feedback
 - October
-    - [ ] [[Server Migration|dendron.roadmap.project.n.2020.lsp]] #wip
+    - [ ] [[Server Migration|dendron.roadmap.project.n.2020.server-migration]] #wip
     - [ ] [[Quality of Life Improvements v0|dendron.roadmap.project.n.2020.qol]] #feedback
     - [ ] [[Multi Vaults|dendron.roadmap.project.n.2020.multi-vault]] #feedback
 - November
