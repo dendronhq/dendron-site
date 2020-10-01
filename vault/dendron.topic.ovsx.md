@@ -13,3 +13,4 @@ Dendron and all its recommended extensions are published on the [open vsx](https
 
 - [VSCodium](https://github.com/VSCodium/vscodium)
 - [Theia](https://theia-ide.org/)
+- [Code Server](https://github.com/cdr/code-server)
