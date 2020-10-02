@@ -83,6 +83,20 @@ _You **can** combine them_
    1. Item 3b
 ```
 
+#### Definition List
+
+```markdown
+Item 1
+: Definition for Item 1
+
+Item 2
+~ Definition for Item 2
+~ Another definition for Item 2, with a [link](http://www.example.com)
+  ```
+  markup can be a part of a definition as well!
+  ```
+```
+
 ### Images
 
 ```markdown
