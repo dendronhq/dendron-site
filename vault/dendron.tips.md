@@ -229,6 +229,20 @@ You can streamline this process by assigning a keyboard shortcut to the command.
   }
   ```
 
+### Moving Panes
+
+You can move vscode tabs using the following builtin commands:
+- `View: Move Editor Into Next Group`
+- `View: Move Editor Into Previous Group`
+
+They are mapped on to the following keyboard shortcuts:
+- mac: `cmd+ctrl+left|right`
+
+This is helpful for looking at your notes side by side. 
+
+<a href="https://www.loom.com/share/d99ec9cce8ff4d869cf8c36955152808"> 
+<img style="" src="https://cdn.loom.com/sessions/thumbnails/d99ec9cce8ff4d869cf8c36955152808-with-play.gif"> </a>
+
 <!-- 
 
 ### Custom Outlines

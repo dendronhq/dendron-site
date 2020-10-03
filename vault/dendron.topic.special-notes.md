@@ -44,7 +44,7 @@ All special notes support the following configuration options
 - NodeType has the value of `Journal` or `Scratch`
 
 
-### dendron.default{NodeType}Name
+### default{NodeType}Name
 
 Determines the node name.
 
