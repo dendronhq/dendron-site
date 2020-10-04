@@ -91,3 +91,43 @@ Currently, Dendron notes show timestamps in epoch time which is not the most par
 ### Use Dendron with Anki
 
 - [Anki for VSCode](https://marketplace.visualstudio.com/items?itemName=jasew.anki)
+
+
+## Publishing
+
+
+### Incremental Builds
+
+You can do incremental builds from Jekyll and Dendron 
+
+- when previewing the site locally, add the `incremental` flag
+  ```sh
+  bundle exec jekyll s --watch --incremental
+  ```
+- when building the site, also add an incremental flag
+  - NOTE: you'll need `rsync` installed to use the incremental flag
+```sh
+dendron-cli buildSite --wsRoot {path/to/ws} --vault {path/to/vault} --incremental
+```
+
+### Automatically Update Site while editing
+
+The following instructions cover how to update your local preview everytime you make a change to your notes
+
+-  install `dendron-cli`
+((ref: [[dendron.related.dendron-cli]]#installation,1:#*))
+
+- have jekyll watch your site-root
+```sh
+cd {your-site-root}
+bundle exec jekyll s --watch
+```
+
+- use `nodemon` to watch your vault
+
+```sh
+npm install -g nodemon
+nodemon --watch {path/to/vault} --ext md dendron-cli buildSite --wsRoot {path/to/ws} --vault {path/to/vault}
+```
+
+- NOTE: you can combine this with incremental builds to have the best editing experience
