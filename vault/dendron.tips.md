@@ -198,7 +198,9 @@ Use "> Quick Open Previous Recently Used...` to navigate through recently opened
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/tips.tabs.most-recent.gif)
 
 
-### Control Pin Behavior
+### Pinning Tabs
+
+You can pin tabs in VSCode by right clicking on a tab and selecting `Pin Tab`. 
 
 The latest VSCode lets you control pin behavior for tabs. It's not currently documented as of 2020.09.28 but as of the latest insider build, it has a few different options to control the pinned behavior. 
 

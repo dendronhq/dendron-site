@@ -22,7 +22,7 @@ Make Dendron easy to onboard (even for non-technical users) and smooth some of t
 ## Tasks
 - [ ] collect feedback from the community
 - [ ] support anchor based markdown links
-- [ ] easier schema creation
+- [ ] [easier schema creation](https://github.com/dendronhq/dendron/issues/249)
 - [ ] easier note publication
 - [ ] improve initial onboarding
 - [ ] update note metadata in realtime

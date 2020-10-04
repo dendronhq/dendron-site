@@ -21,7 +21,8 @@ TBD
 
 ## Tasks
 
-TBD
+- schemas
+    - [ ] [specify sections within notes](https://github.com/dendronhq/dendron/issues/248)
 
 ## Next
 TBD
