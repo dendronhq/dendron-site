@@ -368,6 +368,14 @@
             "skipDocs": false
         }
     ],
+    "lookup": [
+        {
+            "key": "dendron.updateSchema",
+            "title": "Dendron: Update Schema",
+            "group": "lookup",
+            "skipDocs": false
+        }
+    ],
     "dev": [
         {
             "key": "dendron.dev.doctor",
