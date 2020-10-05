@@ -1,7 +1,7 @@
 {
   "todo": {
     "prefix": "to",
-    "scope": "markdown",
+    "scope": "markdown,yaml",
     "body": "- [ ] ",
     "description": "todo box"
   },
@@ -9,6 +9,12 @@
     "prefix": "h3",
     "scope": "markdown",
     "body": "### "
+  },
+  "tag": {
+    "prefix": "#",
+    "scope": "markdown,yaml",
+    "body": "[[#${1:my-tag}|tag.${1}]]",
+    "description": "render todo box",
   },
   "project": {
     "prefix": "project",
