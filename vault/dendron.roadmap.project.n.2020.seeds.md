@@ -24,8 +24,10 @@ Dendron seeds is a project to to curate notes from existing open source material
 
 ## Tasks
 - [x] establish basic seed framework
-- [x] use seeds for CLI
-- [ ] create 3 seeds in 3 different verticals  #wip
+- [x] populate seeds using CLI
+- [x] create ~~3~~ 2 seeds in 3 ~~2~~ different verticals  #wip
+    - [x] aws
+    - [x] open pkm
 
 ## Next
 - use seeds from within the dendron extension
