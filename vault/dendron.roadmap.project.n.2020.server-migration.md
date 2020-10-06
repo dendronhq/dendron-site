@@ -26,9 +26,18 @@ The rationale for having two servers is discussed [here](https://discordapp.com/
 Instead of calling the engine directly, the Dendron extension, as well as related plugins, will communicate to Dendron's server using IPC and on local ports. 
 
 ## Tasks
-- [x] add LSP server to Dendron
-- [x] add Express server to Dendron
-- [ ] migrate lookup to server model
+- [x] add LSP server to Dendron (0.12)
+- [x] add api server to Dendron (0.12)
+- [x] hook server into dendron startup (0.12.4)
+- [ ] migrate lookup to server model #wip
+    - [x] support read notes (0.12.5)
+    - [x] support write notes (0.12.5)
+    - [ ] support write note with schema #wip  
+    - [x] support list notes (0.12.5)
+    - [x] support list notes with schema (0.12.5)
+    - [ ] support read schema
+    - [ ] support write schema
+    - [ ] support list schema
 - [ ] migrate all current functionality to server model
 - [ ] migrate bundled extensions to server model
 
