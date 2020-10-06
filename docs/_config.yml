@@ -6,7 +6,7 @@ logo: "/assets/images/logo.png"
 exclude: [ "node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "package.json", "package-lock.json",  "script/", "LICENSE.txt", "lib/", "bin/", "README.md", "Rakefile", "*/dendron.template.release.md"
 ]
 footer_content: "Copyright &copy; 2020 Thence LLC"
-url: "https://pkm.dendron.so"
+url: "https://dendron.so"
 
 gh_edit_link: true 
 gh_edit_repository: "https://github.com/dendronhq/dendron-template"
