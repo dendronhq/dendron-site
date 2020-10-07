@@ -11,7 +11,6 @@ stub: false
 
 You can enable math using the following options in the `_config.yml`. By default, this will be located in `{workspace}/docs/_config.yml`
 
-
 ```yml
 enable_mathjax: true;
 kramdown:
@@ -19,7 +18,6 @@ kramdown:
 ```
 
 - NOTE: If you are using the local preview, be sure to reload your server to have the changes take place.
-
 
 You can now add math using the standard [mathjax](https://www.mathjax.org/) notation.
 
