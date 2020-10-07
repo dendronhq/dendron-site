@@ -1,4 +1,3 @@
-# uncomment to preview locally
 theme: "dendron-jekyll"
 title: Dendron
 logo: "/assets/images/logo.png"
@@ -8,6 +7,10 @@ footer_content: "Copyright &copy; 2020 Thence LLC"
 gh_edit_link: true #
 gh_edit_repository: "https://github.com/dendronhq/dendron-template"
 dendron_vault_path: "vault"
+
+enable_mathjax: true
+kramdown:
+  math_engine: mathjax
 
 # seo
 tagline: "A better way to know"
