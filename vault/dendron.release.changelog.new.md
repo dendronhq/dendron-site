@@ -21,6 +21,10 @@ Dendron now initializes your workspace with common default snippets
 
 ((ref: [[dendron.related.dendron-jekyll.topic.math]]#math,1:#*))
 
+### Introduce siteRepoDir Customization
+
+((ref: [[dendron.topic.publishing.configuration]]#siterepodir,1:#*))
+
 ## Bug Fixes
 
 - trying to publish the `dendron-template` no longer results in a missing links report
@@ -37,6 +41,8 @@ This section tracks our progress against the milestones in our [[public roadmap|
 ((ref: [[dendron.roadmap.project.n.2020.server-migration]]#tasks,1:#*))
 
 ## Other 
+
+### Seeds
 - We launched two [[seeds|dendron.topic.seeds]]. A seed is a dendron site that tries to be be a all encompassing reference for a particular vertical. Dendron provides specific libraries and CLIs that make it easy for users to create seeds from existing open source content as well as personal notes.
 
 Current Seeds:
@@ -45,3 +51,7 @@ Current Seeds:
 
 ((ref: [[dendron.showcase]]#open pkm catalogue,1:#*))
 ((ref: [[dendron.showcase]]#open aws catalogue,1:#*))
+
+### Alternatives
+
+this announcement also comes with an ask. Dendron is now in [AlternativesTo](https://alternativeto.net/), a crowdsourced catalogue for software recommendations. If you like Dendron and want to help us spread the word 🌱, please leave us a review [here]((https://alternativeto.net/software/dendron/reviews/)) 🙏

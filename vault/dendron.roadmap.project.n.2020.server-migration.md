@@ -30,11 +30,11 @@ Instead of calling the engine directly, the Dendron extension, as well as relate
 - [x] add api server to Dendron (0.12)
 - [x] hook server into dendron startup (0.12.4)
 - [ ] migrate lookup to server model #wip
-    - [x] support read notes (0.12.5)
-    - [x] support write notes (0.12.5)
-    - [x] support write note with schema (0.12.5)
-    - [x] support list notes (0.12.5)
-    - [x] support list notes with schema (0.12.5)
+    - [x] support read notes (0.12.6)
+    - [x] support write notes (0.12.6)
+    - [x] support write note with schema (0.12.6)
+    - [x] support list notes (0.12.6)
+    - [x] support list notes with schema (0.12.6)
     - [ ] support delete note #wip
     - [ ] support read schema
     - [ ] support write schema

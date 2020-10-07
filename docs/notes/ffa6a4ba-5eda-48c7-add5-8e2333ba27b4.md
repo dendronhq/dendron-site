@@ -51,6 +51,13 @@ List of hierarchies to publish
 
 Location of the directory where site will be build. Relative to your workspace
 
+### siteRepoDir
+
+- required: no
+- type: string
+
+Location of the github repo where your site notes are located. By default, this is assumed to be your `workspaceRoot` if not set. This is used with the `Publish Notes` command
+
 ### usePrettyRefs?: boolean
 
 - default: True
