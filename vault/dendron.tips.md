@@ -181,6 +181,7 @@ jobs:
         publish_branch: pages
         publish_dir: docs/
         force_orphan: true
+        enable_jekyll: true
 ```
 
 Configure your repository's Pages settings as follows:
