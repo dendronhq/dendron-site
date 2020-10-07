@@ -1,0 +1,41 @@
+---
+id: 84e01690-4ea0-4b71-8cc4-c2d38e09dcf4
+title: Math
+desc: ''
+updated: 1602087509879
+created: 1602087509879
+stub: false
+---
+
+# Math
+
+You can enable math using the following options in the `_config.yml`. By default, this will be located in `{workspace}/docs/_config.yml`
+
+
+```yml
+enable_mathjax: true;
+kramdown:
+  math_engine: mathjax
+```
+
+- NOTE: If you are using the local preview, be sure to reload your server to have the changes take place.
+
+
+You can now add math using the standard [mathjax](https://www.mathjax.org/) notation.
+
+## Inline
+
+```
+$ f(x) = sin(x) $
+```
+$ f(x) = sin(x) $
+
+## Block
+```
+$$
+f(x) = sin(x)
+$$
+```
+$$ 
+f(x) = sin(x) 
+$$

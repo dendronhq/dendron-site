@@ -16,6 +16,10 @@ gh_root: "docs/" # doc root
 gh_edit_view_mode: "edit" # "tree" or "edit" if you want the user to jump into the editor immediately
 dendron_vault_path: "vault"
 
+enable_mathjax: true
+kramdown:
+  math_engine: mathjax
+
 # seo
 tagline: "A better way to know"
 description: "Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size."
