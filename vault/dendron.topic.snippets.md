@@ -61,9 +61,9 @@ time: {
 
 ### Can't autocomplete snippets inline
 
-To get snippets to autocomplete, you'll have to tweak the following settings.
+To get snippets to autocomplete, make sure you don't have snippets disabled
 
-1. go to > workspace: open user settings (json
+1. go to > workspace: open user settings (json)
 2. change the following line to `true`
 ```
 "editor.suggest.showSnippets": false,

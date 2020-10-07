@@ -11,37 +11,83 @@ stub: false
 
 The plugin is the code responsible for the vscode bindings between the dendron engine and vscode.
 
-# Upgrades
-- [ ] oneV
-- [x] oneV
 
-## Flow
+## Init
 
-- loc: plugin-core/extension.ts
+- file: plugin-core/src/_extension.ts
+
 ```ts
-_activate(context) {
-    if DendronWorkspace.isActive {
-        ws.reloadWorkspace
-        
-        showWelcome if !context.globalState.DENDRON_FIRST_WS 
-        HistorySerivce.add "initialized"
+_activate {
+    ws :=
 
-        const previousGlobalVersion = context.globalState.get GLOBAL_STATE.VERSION_PREV
-        const previousWSVersion = context.workspaceState.get WORKSPACE_STATE.WS_VERSION
-
-        // first time install
-        if !prevVersion {
-            execute UPGRADE_SETTINGS
-            context.workspaceState.update(WS_VERSION, DendronWorkspace.version)
-        } else {
-            newVersion := 
-            if prevVersion < newVersion {
-
-            }
-        }
+    if ws.isActive {
+        installedGlobalVersion
+        previousGlobalVersion
+        ...
+        ws.activateWorkspace
+        reloadWorkspace
     }
 
+}
+```
 
+- reloadWorkspace
+```ts
+reloadWorkspace {
+    ws.reloadWorkspace
+    if isFirstInstall {
+        showTutorial
+    }
+    postReloadWorkspace
+    emit(extension, initialized)
+}
+```
+
+- postReloadWorkspace
+```ts
+postReloadWorkspace {
+    ws :=
+    previousWsVersion = config.get(WORKSPACE_STATE.WS_VERSION)
+
+    if previousWsVersion == 0.0.0 {
+        execute(Upgrade)
+        config.set(WORKSPACE_STATE.WS_VERSION, ws.version)
+    } else {
+        newVersion :=
+        if (newVersion > previousWsVersion) {
+            execute(Upgrade)
+            config.set(WORKSPACE_STATE.WS_VERSION, ws.version)
+            emit(extension, upgraded)
+        }
+    }
+}
+
+```
+
+
+## Welcome Message
+
+- file: plugin-core/src/_extension.ts
+```ts
+
+showWelcomeOrWhatsNew {
+    previousVersion := config.get(dendron.version)
+    version :=
+
+    // 1st install
+    if !previousVersion {
+        config.set(GLOBAL_STATE.VERSION, version)
+        config.set(GLOBAL_STATE.VERSION_PREV, 0.0.0)
+        return showWelcome()
+    }
+
+    // not 1st install
+    if (version != previousVersion) {
+        config.set(GLOBAL_STATE.VERSION, version)
+        config.set(GLOBAL_STATE.VERSION_PREV, previousVersion)
+        showInformationMessage(dendron has upgraded)
+
+    }
 }
 
 ```
