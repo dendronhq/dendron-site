@@ -47,7 +47,7 @@ This project discusses how to best incorporate org-mode functionality into dendr
 
 ## Thoughts
 
-Currently i'm leaning towards 2). folks that want org-mode support in dendron can create markdown files and manually set the filetype to org mode. it's not ideal since you lose the preview but other functions like lookup still work. 
+Currently i'm leaning towards 1). folks that want org-mode support in dendron can create markdown files and manually set the filetype to org mode. it's not ideal since you lose the preview but other functions like lookup still work. 
 
 Changing filetype has a custom command. VSCode has a default shortcut (`cmd+k m` on mac) that can be re-mapped. 
 ```
