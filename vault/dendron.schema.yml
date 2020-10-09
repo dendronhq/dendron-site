@@ -3,12 +3,21 @@ schemas:
 - id: dendron
   parent: root
   children:
+    - mission
+    - principles
+    - todo
+    - features
     - faq
     - tips
     - topic
     - demo
     - dev
 - id: faq
+- id: features
+- id: principles
+- id: todo
+- id: mission
+  pattern: "mission-statement"
 - id: tips
 - id: demo
   children:
