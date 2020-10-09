@@ -25,4 +25,5 @@ hpath: dendron.dev.testing
 ### Run test from a specific file
 
 1. Go to file
-2. > npm:test:watch {package}
+2. Use command prompt and run `> Tasks: Run tasks`
+3. Find the appropriate package and run `> npm:test:watch {package}`

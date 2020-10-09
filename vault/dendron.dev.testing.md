@@ -21,4 +21,5 @@ stub: false
 ### Run test from a specific file
 
 1. Go to file
-2. > npm:test:watch {package}
+2. Use command prompt and run `> Tasks: Run tasks`
+2. Find the appropriate package and run `> npm:test:watch {package}`
