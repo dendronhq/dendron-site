@@ -303,6 +303,7 @@ There are five types of Critic marks:
 
 - [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
 - [Daring Fireball: Markdown Basics](https://daringfireball.net/projects/markdown/basics)
+- [Markdown Guide](https://www.markdownguide.org/)
 
 ## References
 
