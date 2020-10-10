@@ -21,11 +21,11 @@ _activate {
     ws :=
 
     if ws.isActive {
-        installedGlobalVersion
-        previousGlobalVersion
-        ...
-        ws.activateWorkspace
-        reloadWorkspace
+        port = startServer
+        updateEngineAPI(port)
+        startLSPClient
+        ws.reloadWorkspace
+        ws.activateWatchers
     }
 
 }

@@ -29,16 +29,18 @@ Instead of calling the engine directly, the Dendron extension, as well as relate
 - [x] add LSP server to Dendron (0.12)
 - [x] add api server to Dendron (0.12)
 - [x] hook server into dendron startup (0.12.4)
-- [ ] migrate lookup to server model #wip
+- [x] migrate lookup to server model 
     - [x] support query notes (0.12.6)
     - [x] support query notes with schema (0.12.6)
     - [x] support write notes (0.12.6)
     - [x] support write note with schema (0.12.6)
     - [x] support delete note (current)
     - [x] support query schema (current)
-    - [ ] support write schema
-    - [ ] support delete schema 
-- [ ] migrate all current functionality to server model
+    - [x] support write schema (current)
+    - [x] support delete schema  (current)
+- [ ] migrate all current functionality to server model #wip
+    - [ ] dendron tree view (current)
+    - [ ] all commands
 - [ ] migrate bundled extensions to server model
 
 ## Next
