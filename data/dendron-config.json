@@ -21,24 +21,6 @@
             "skipDocs": false
         },
         {
-            "key": "dendron.createJournalNote",
-            "title": "Dendron: Create Journal Note",
-            "group": "notes",
-            "desc": "Create a hierarchy specific journal note",
-            "docLink": "dendron.topic.special-notes.md",
-            "docPreview": "<a href=\"https://www.loom.com/share/da562a166af9427e908a76be8bc38355\"><img src=\"https://cdn.loom.com/sessions/thumbnails/da562a166af9427e908a76be8bc38355-with-play.gif\"></a>",
-            "skipDocs": false
-        },
-        {
-            "key": "dendron.createScratchNote",
-            "title": "Dendron: Create Scratch Note",
-            "group": "notes",
-            "desc": "Create a hierarchy specific scratch note",
-            "docLink": "dendron.topic.special-notes.md",
-            "docPreview": "<a href=\"https://www.loom.com/share/104a3e0bb10f4012a831194d02483e4a\"> <img style=\"\" src=\"https://cdn.loom.com/sessions/thumbnails/104a3e0bb10f4012a831194d02483e4a-with-play.gif\"> </a>",
-            "skipDocs": false
-        },
-        {
             "key": "dendron.copyNoteLink",
             "title": "Dendron: Copy Note Link",
             "group": "notes",
