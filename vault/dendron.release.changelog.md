@@ -9,6 +9,68 @@ stub: false
 
 # Changelog
 
+## [0.12.7](https://github.com/dendronhq/dendron/compare/v0.12.7-alpha.10...v0.12.7) (2020-10-13)
+
+### Features
+
+#### (Local) Server Side Indexing
+
+Dendron can now index and manage your notes as a standalone **local** server independent from VSCode. 
+
+This is part of the [[server migration milestone|dendron.roadmap.project.n.2020.server-migration]] which we took on for October. 
+
+Dendron's server side indexing is a **complete rewrite** of the [[Dendron engine|dendron.dev.design.engine]] which powers Dendron's lookup capabilities. The new engine is **leaner, meaner, and significantly faster** (especially when initializing your workspace with a large amount of notes).
+
+Server site indexing is a pre-cursor enables our upcoming roadmap items which include:
+
+- [[multi-vault support|dendron.roadmap.project.n.2020.multi-vault]]
+- rich graphical interfaces for schemas, pods, and publishing
+- unified index for all dendron extensions (currently each extension makes a separate index of your notes and requires manual reloading)
+- realtime updates for graph extensions
+- custom dendron extensions written in any language 
+
+Server side indexing is currently off by default since it's still a beta feature. You can turn it on by adding the following in your settings.
+
+```json
+"dendron.useExperimentalLSPSupport": true
+```
+
+Note that the current commands are currently un-available when you switch on on server side indexing:
+- RenameNote
+- Refactor Hierarchy
+- Archive Hierarchy
+- Realtime Schema Updates
+
+You can switch back to regular indexing at anytime by changing the above setting to `false` and running `> Developer: Reload Window`. 
+
+### Enhancements
+- **Additional Arguments for lookup**: You can now use `noConfirm` and `value` arguments when creating custom lookup shortcuts ([docs](https://dendron.so/notes/a7c3a810-28c8-4b47-96a6-8156b1524af3.html#passing-arguments-to-lookup))
+- **Update Default Snippets**: default todo snippet now leaves a space after insertion
+- **Set custom log levels**: you can now define the verbosity of dendron logs using the `dendron.logLevel` configuration
+- **Upgraded Schema defaults** (server only): new schemas will be created using version one defaults
+- **Cleaner note frontmatter** (server only): new notes won't have the optional attributes in frontmatter
+
+### Bug Fixes
+- **Missing logs**: issue where `Open Logs` would not show logs
+- **Tree View empty**: tree view would not populate in some cases
+- **Upgrade Snippets with comments**: Upgrading settings would fail if they had comments inside the JSON
+
+### Breaking Changes
+- **Remove Scratch Note Command**: replaced by Lookup Scratch Note shortcut
+- **Remove Journal Note Command**: replaced by Lookup Journal Note shortcut
+
+### Progress
+
+#### Server Migration
+
+These past two weeks have been spent on server migration work. We are almost at the end and I'm aiming to have full coverage of all existing functionality by early next week.
+
+((ref: [[dendron.roadmap.project.n.2020.server-migration]]#tasks,1:#*))
+
+### Other 
+- Add overview of [[configuration|dendron.topic.config]]
+- Add proposal for [[custom color tabs|dendron.roadmap.project.n.backlog.color-tabs]]
+
 ## [0.12.6](https://github.com/dendronhq/dendron/compare/v0.12.5...v0.12.6) (2020-10-07)
 
 ### Features
@@ -64,9 +126,9 @@ this announcement also comes with an ask. Dendron is now in [AlternativesTo](htt
 
 ### Features
 
-- **schemas:** live schema updates ([868a125](https://github.com/dendronhq/dendron/commit/868a125a0f07dcbfb5cbeb5dd04d05ab7556e12b))
-    - schema changes are now updated in realtime. no more `Reload Index`
-    - NOTE: this doesn't yet apply to `Show Schema Graph`. you'll still need to run `Reload Index` to see the changes in the graph
+#### Live schema updates 
+- schema changes are now updated in realtime. no more `Reload Index`
+- NOTE: this doesn't yet apply to `Show Schema Graph`. you'll still need to run `Reload Index` to see the changes in the graph
 
 ### Enhancements
 

@@ -35,9 +35,13 @@ updatePickerBehavior(quickpick, provider) {
     selectedPath := buttons
     selectedSelection := buttons
 
-    if selectedPath {
-        quickpick.value := 
-        provider.onUpdatePickerItem
+    switch selectedPath {
+        case journal {
+            quickpick.value := 
+            provider.onUpdatePickerItem(
+                ....
+            )
+        }
     }
 
     switch selectedSelection {

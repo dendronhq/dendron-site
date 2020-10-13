@@ -4,6 +4,7 @@
             "key": "dendron.gotoNote",
             "title": "Goto Note",
             "group": "notes",
+            "desc": "Go to a note",
             "skipDocs": true
         },
         {
@@ -354,8 +355,9 @@
         {
             "key": "dendron.updateSchema",
             "title": "Dendron: Update Schema",
+            "desc": "Update schema",
             "group": "lookup",
-            "skipDocs": false
+            "skipDocs": true
         }
     ],
     "dev": [
@@ -372,6 +374,7 @@
         {
             "key": "dendron.dev.resetConfig",
             "title": "Dendron:Dev: Reset Config",
+            "desc": "Reset the config",
             "group": "dev",
             "skipDocs": true
         },

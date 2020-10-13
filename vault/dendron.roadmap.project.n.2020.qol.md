@@ -20,7 +20,7 @@ Dendron is many things but easy to use it is not quite (yet).
 Make Dendron easy to onboard (even for non-technical users) and smooth some of the rough edges. 
 
 ## Tasks
-- [ ] collect feedback from the community
+- [x] collect feedback from the community
 - [ ] support anchor based markdown links
 - [ ] [easier schema creation](https://github.com/dendronhq/dendron/issues/249)
 - [ ] easier note publication
