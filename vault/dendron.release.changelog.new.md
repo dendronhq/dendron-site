@@ -90,9 +90,10 @@ These past two weeks have been spent on server migration work. We are almost at 
 
 # --- updates
 
-highlights of 2020.10.12 updates () 🌱  
+@everyone
+highlights of 2020.10.12 updates (0.12.7) 🌱  
 
-(local) server side indexing is here! you can now enable dendron to index and process your notes independently from vscode. the dendron engine has been completely re-written to be leaner, meaner and faster in server mode. server mode is currently not enabled by default since we're not yet at 100% feature parity but you can enable it by updating the following setting
+(local) server side indexing is (finally) here! you can now enable dendron to index and process your notes independently from vscode. the dendron engine has been completely re-written to be leaner, meaner and faster in server mode. server mode is currently not enabled by default since we're not yet at 100% feature parity but you can enable it by updating the following setting
 
 ```json
 "dendron.useExperimentalLSPSupport": true
@@ -101,8 +102,11 @@ highlights of 2020.10.12 updates () 🌱
 we also made a bunch of enhancements and bug fixes across various parts of dendron. 
 you can find the full list of changes in our changelog.
 
+https://dendron.so/notes/9bc92432-a24c-492b-b831-4d5378c1692b.html
 
-https://github.com/dendronhq/dendron/blob/master/CHANGELOG.md
+twitter
+
+
 
 ## --- documentation
 

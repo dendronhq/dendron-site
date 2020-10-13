@@ -40,6 +40,7 @@ Note that the current commands are currently un-available when you switch on on 
 - Refactor Hierarchy
 - Archive Hierarchy
 - Realtime Schema Updates
+- Pod Commands
 
 You can switch back to regular indexing at anytime by changing the above setting to `false` and running `> Developer: Reload Window`. 
 
