@@ -39,8 +39,8 @@ To try it yourself, bring up the lookup bar. Type `dendron.lookup.hello` and hit
 Dendron has builtin notion for certain types of notes with [[pre-defined hierarchies|dendron.topic.special-notes]]. These notes can be created by toggling the corresponding **note button**  on the lookup menu or by using the respective builtin shortcuts.
 - values:
     - none (default): create a regular note
-    - journal: create a journal note
-    - scratch: create a scratch note
+    - journal: create a journal note (cmd/ctrl + shift + s)
+    - scratch: create a scratch note (cmd/ctrl + shift + j)
 
 ### Creating Notes with a Selection
 

@@ -1,22 +1,22 @@
 - hosts: localhost # use all for remote
   vars:
   tasks:
-    # - name: include vars
-    #   include_vars:
-    #     file: ../data/dendron-config.json
-    #     name: plugin
-    # - name: create commands
-    #   template:
-    #     src: templates/commands.md.j2
-    #     dest: "../vault/dendron.topic.commands.md"
-    # - name: include vars
-    #   include_vars:
-    #     file: ../data/dendron-snippet-maker-config.json 
-    #     name: bundled
-    # - name: create cheatsheet
-    #   template:
-    #     src: templates/cheatsheet.md.j2
-    #     dest: "../vault/dendron.cheatsheet.md"
+    - name: include vars
+      include_vars:
+        file: ../data/dendron-config.json
+        name: plugin
+    - name: create commands
+      template:
+        src: templates/commands.md.j2
+        dest: "../vault/dendron.topic.commands.md"
+    - name: include vars
+      include_vars:
+        file: ../data/dendron-snippet-maker-config.json 
+        name: bundled
+    - name: create cheatsheet
+      template:
+        src: templates/cheatsheet.md.j2
+        dest: "../vault/dendron.cheatsheet.md"
     - name: include config vars
       include_vars:
         file: ../data/generated-config.json

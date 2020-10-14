@@ -26,7 +26,7 @@ This section covers the basics of Dendron. Get started on the right foot and sta
 - [ ] Use a [[snippet | dendron.topic.snippets]]
 - [ ] Insert an [[image |dendron.topic.images]]
 - [ ] Create some [[links |dendron.topic.links]]
-- [ ] Explore additional features from [[Dendron's bundled extensions | dendron.topic.bundled-extensions]]
+- [ ] Explore additional features from [[Dendron's bundled extensions |dendron.topic.extensions]]
 - [ ] [[Publish | dendron.topic.publishing]] your vault 
 - [ ] Join us on [discord](https://discord.com/invite/6j85zNX) and discuss all things knowledge management with your fellow trail blazers.
 

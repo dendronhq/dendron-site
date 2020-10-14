@@ -98,6 +98,14 @@ You can use Dendron on a separate instance of VS Code by launching it with the [
 code --user-data-dir=/path/to/code-dendron --extensions-dir=/path/to/code-dendron-ext
 ```
 
+### Mobile Support
+
+Dendron does not have a dedicated mobile client at this time. There are numerous mobile markdown editors that can be used to view and edit Dendron notes. Some popular options are listed below:
+
+- [Git Journal](https://github.com/GitJournal/GitJournal)
+- [iA Writer](https://ia.net/writer)
+- [Epsilon Notes](https://play.google.com/store/apps/details?id=com.ekartoyev.enotes&hl=en_US&gl=US)
+
 
 ## Publishing
 
