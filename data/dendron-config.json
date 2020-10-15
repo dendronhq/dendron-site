@@ -372,6 +372,14 @@
             "skipDocs": false
         },
         {
+            "key": "dendron.dev.dumpState",
+            "title": "Dendron: Dump State",
+            "group": "dev",
+            "desc": "Dump internal state of Dendron inside logs",
+            "docs": "This is useful when diagnosing issues in Dendron",
+            "skipDocs": false
+        },
+        {
             "key": "dendron.dev.resetConfig",
             "title": "Dendron:Dev: Reset Config",
             "desc": "Reset the config",

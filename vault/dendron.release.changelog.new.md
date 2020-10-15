@@ -8,38 +8,32 @@ published: false
 nav_exclude: true
 ---
 
-## 12.8
+## [0.12.9](https://github.com/dendronhq/dendron/compare/v0.12.9-alpha.1...v0.12.9) (2020-10-15)
 
 ### Features
 
-#### Really update time in frontmatter (server only)
+#### Human Friendly Timestamps (server mode)
 
-Dendron notes have frontmatter with an **updated** field. This field is supposed to show you the time in milliseconds of when the document was last updated. Until today's update, this field did not actually change  😅
+Timestamps now have human friendly decorators on the side.
 
-```
-id: 65b03213-d3d1-46c0-9881-a6280ed9bdeb
-title: New
-desc: ''
-updated: 1602096212957
-created: 1602096212957
-```
-
-Today's update makes **updated** update! 
+![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/daily.ts.jpg)
 
 ### Enhancements
-- **support BuildPod command (server mode)**: build pod now works when server mode is enabled
+
+- **copyAssets configuration**: when publishing, you can now toggle whether you want to copy assets or not
+- **dump state**: dendron now has a `Dump State` command which will dump the internal state into the logs (useful for debugging)
 
 ### Bug Fixes
-- **navigating to special notes**: scratch/journal notes could fail to open if note already exists
+- **assets not being copied:** assets not copied on publishing when `assetsPrefix` was set
+- **GoUp comman go to wrong note (server mode):** GoUp would sometimes try to open a stub node which would result in an error
+- **Multiple workspaces result in bad timestamps (server mode):** Having multiple workspaces of the same vaults open could result in bad timestamps
 
 ### Progress
 
 ### Other 
-((ref: [[dendron.topic.extensions]]#useful extensions))
 
-((ref: [[dendron.tips]]#copy and paste web content into dendron:#*))
-
-((ref: [[dendron.cook]]#mobile support:#*))
+### Documentation
+((ref: [[dendron.troubleshooting]]#error upgrading:#*))
 
 # --- Template
 ### Features

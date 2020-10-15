@@ -31,6 +31,16 @@ To manually install a custom version of Dendron, first obtain the Dendron vsix f
 
 You can diagnose most problems by checking the logs. You can view the logs by following the instructions [here](https://www.loom.com/share/d1983753684e48a2b0592bbbbbbb6be5).
 
+## Upgrading
+
+### Error upgrading
+
+![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/trouble.upgrade.png)
+
+Dendron will update keybindings/settings/etc to the latest defaults if not currently set on upgrade. If you see the above error, it means that Dendron had trouble parsing one of your settings files. This doesn't stop dendron from starting but it does mean that the latest settings aren't being applied.
+
+The most likely culprit of this error is a bad snippets file. To fix, bring up the command prompt, type `>Configure User Snippets`, open `dendron.code-snippets` and see if there's anything funky with the json on the line mentioned by the error. You can also use tools like [jsonlint](https://jsonlint.com/) to validate your JSON.
+
 ## Schemas
 
 ### I'm getting a `you cannot define a mapping item when in a sequence` when trying to define a schema 
