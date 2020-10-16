@@ -96,16 +96,6 @@ You can collapse headers at different levels and bullets at different indentatio
 <img style="" src="https://cdn.loom.com/sessions/thumbnails/f0bbfc9cae0a474a99f8a1169b7b96c7-with-play.gif"> </a>
 
 
-### Remove Markdown Buttons in Menu Bar
-- [discord thread](https://discordapp.com/channels/717965437182410783/739186036495876126/758408534848831558)
-
-```json
-"markdownShortcuts.icons.bold": false,
-"markdownShortcuts.icons.italic": false,
-"markdownShortcuts.icons.strikethrough": false,
-"markdownShortcuts.icons.bullets": false,
-```
-
 ### Automate Git Tasks
 - [discord thread](https://discordapp.com/channels/717965437182410783/742532267058004098/759130627781558403)
 - Problem:
@@ -201,21 +191,6 @@ Use "> Quick Open Previous Recently Used...` to navigate through recently opened
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/tips.tabs.most-recent.gif)
 
 
-### Pinning Tabs
-
-You can pin tabs in VSCode by right clicking on a tab and selecting `Pin Tab`. 
-
-The latest VSCode lets you control pin behavior for tabs. It's not currently documented as of 2020.09.28 but as of the latest insider build, it has a few different options to control the pinned behavior. 
-
-- options:
-  - normal (default), normal tab size with a pin icon
-  - shrink: reduced tab size with some text visible
-  - compact: only icon visible
-
-```json
-"workbench.editor.pinnedTabSizing": "shrink"
-```
-
 ### Keep Track of Tabs
 
 It's really easy to lose sight of your tabs, especially with menu items occluding the little horizontal space you have for tabs. 
@@ -234,19 +209,6 @@ You can streamline this process by assigning a keyboard shortcut to the command.
   }
   ```
 
-### Moving Panes
-
-You can move vscode tabs using the following builtin commands:
-- `View: Move Editor Into Next Group`
-- `View: Move Editor Into Previous Group`
-
-They are mapped on to the following keyboard shortcuts:
-- mac: `cmd+ctrl+left|right`
-
-This is helpful for looking at your notes side by side. 
-
-<a href="https://www.loom.com/share/d99ec9cce8ff4d869cf8c36955152808"> 
-<img style="" src="https://cdn.loom.com/sessions/thumbnails/d99ec9cce8ff4d869cf8c36955152808-with-play.gif"> </a>
 
 ### Copy and Paste Web Content into Dendron
 
@@ -276,6 +238,76 @@ You can use the same technique
 
 https://stackoverflow.com/questions/25701265/how-to-generate-a-list-of-all-dates-in-a-range-using-the-tools-available-in-bash
 -->
+
+## Workbench
+
+### Remove Markdown Buttons in Menu Bar
+- [discord thread](https://discordapp.com/channels/717965437182410783/739186036495876126/758408534848831558)
+
+```json
+"markdownShortcuts.icons.bold": false,
+"markdownShortcuts.icons.italic": false,
+"markdownShortcuts.icons.strikethrough": false,
+"markdownShortcuts.icons.bullets": false,
+```
+
+### Moving Panes
+
+You can move vscode tabs using the following builtin commands:
+- `View: Move Editor Into Next Group`
+- `View: Move Editor Into Previous Group`
+
+They are mapped on to the following keyboard shortcuts:
+- mac: `cmd+ctrl+left|right`
+
+This is helpful for looking at your notes side by side. 
+
+<a href="https://www.loom.com/share/d99ec9cce8ff4d869cf8c36955152808"> 
+<img style="" src="https://cdn.loom.com/sessions/thumbnails/d99ec9cce8ff4d869cf8c36955152808-with-play.gif"> </a>
+
+### Pinning Tabs
+
+You can pin tabs in VSCode by right clicking on a tab and selecting `Pin Tab`. 
+
+The latest VSCode lets you control pin behavior for tabs. It's not currently documented as of 2020.09.28 but as of the latest insider build, it has a few different options to control the pinned behavior. 
+
+- options:
+  - normal (default), normal tab size with a pin icon
+  - shrink: reduced tab size with some text visible
+  - compact: only icon visible
+
+```json
+"workbench.editor.pinnedTabSizing": "shrink"
+```
+
+
+### Zen Mode
+
+VSCode can be visually noisy. You can hide most of the UI by toggling `Zen Mode` with a three panel layout. 
+
+![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/tips.zen.jpg)
+
+The following setting overrides are useful: 
+
+```json
+// by default, zen mode will open a new "workspace" which I don't like
+"zenMode.fullScreen": false,
+// I'm a vim user so I like my line numbers
+"zenMode.hideLineNumbers": false,
+```
+
+To navigate tabs and look at the breadcrumb outline, You can use the following commands
+
+```json
+workbench.action.showAllEditors -> (no shortcut by default, consider mapping to ctrl + t)
+breadcrumbs.focusAndSelect -> cmd + t
+```
+
+You can see a video of this workflow in the video below.
+
+<a href="https://www.loom.com/share/dd27df6d556d4ba6b28b2028ca7d1455"> 
+<img style="" src="https://cdn.loom.com/sessions/thumbnails/dd27df6d556d4ba6b28b2028ca7d1455-with-play.gif"> </a>
+
 
 ## Snippets
 

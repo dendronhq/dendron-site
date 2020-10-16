@@ -9,6 +9,8 @@ nav_order: 8.9
 ---
 # Cookbook
 
+## Bucket
+
 ### Use Dendron with a current workspace
 
 Copy the settings in this [sample workspace](https://github.com/dendronhq/dendron-template/blob/master/dendron.code-workspace) file. Dendron uses your first folder as the index for where it will look for notes.
@@ -105,6 +107,10 @@ Dendron does not have a dedicated mobile client at this time. There are numerous
 - [Git Journal](https://github.com/GitJournal/GitJournal)
 - [iA Writer](https://ia.net/writer)
 - [Epsilon Notes](https://play.google.com/store/apps/details?id=com.ekartoyev.enotes&hl=en_US&gl=US)
+
+### WebClipper
+
+You can use the [markdownload-markdown-web](https://chrome.google.com/webstore/detail/markdownload-markdown-web/pcmpcfapbekmbjjkdalcgopdkipoggdi) extension to clip content as markdown from Chrome. 
 
 
 ## Publishing
