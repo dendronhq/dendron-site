@@ -9,6 +9,26 @@ stub: false
 
 # Changelog
 
+## [0.12.10](https://github.com/dendronhq/dendron/compare/v0.12.10-alpha.4...v0.12.10) (2020-10-16)
+
+### Features
+
+#### Rename and Refactor Commands an Order of Magnitude Faster Now (server mode) 🚀🚀🚀
+
+These commands have been completely re-written and use a proper markdown parser to find links (vs many fragile regex statements). 
+The re-write results in both much faster performance as well as a more correct implementation. 
+
+### Enhancements
+- **progress indicator on startup (server mode)**: loading indicator to help with large workspaces
+- **rename command support (server mode)**: rename command is now available in server mode
+- **refactor command support (server mode)**: refactor hierarchy command is now available in server mode
+- **publish notes support (server mode)**: publish notes command is now available in server mode
+- **archive command support (server mode)**: archive hierarchy is now available in server mode
+- **doctor command support (server mode)**: doctor command is now available in server mode
+
+### Bug Fixes
+- **schema templates not working (server mode)**: issue where schema templates were not being applied
+
 ## [0.12.9](https://github.com/dendronhq/dendron/compare/v0.12.9-alpha.1...v0.12.9) (2020-10-15)
 
 ### Features

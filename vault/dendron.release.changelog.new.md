@@ -8,32 +8,28 @@ published: false
 nav_exclude: true
 ---
 
-## [0.12.9](https://github.com/dendronhq/dendron/compare/v0.12.9-alpha.1...v0.12.9) (2020-10-15)
+## [0.12.10](https://github.com/dendronhq/dendron/compare/v0.12.10-alpha.4...v0.12.10) (2020-10-16)
 
 ### Features
 
-#### Human Friendly Timestamps (server mode)
+#### Rename and Refactor Commands an Order of Magnitude Faster Now (server mode) 🚀🚀🚀
 
-Timestamps now have human friendly decorators on the side.
-
-![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/daily.ts.jpg)
+These commands have been completely re-written and use a proper markdown parser to find links (vs many fragile regex statements). 
+The re-write results in both much faster performance as well as a more correct implementation. 
 
 ### Enhancements
-
-- **copyAssets configuration**: when publishing, you can now toggle whether you want to copy assets or not
-- **dump state**: dendron now has a `Dump State` command which will dump the internal state into the logs (useful for debugging)
+- **progress indicator on startup (server mode)**: loading indicator to help with large workspaces
+- **rename command support (server mode)**: rename command is now available in server mode
+- **refactor command support (server mode)**: refactor hierarchy command is now available in server mode
+- **publish notes support (server mode)**: publish notes command is now available in server mode
+- **archive command support (server mode)**: archive hierarchy is now available in server mode
+- **doctor command support (server mode)**: doctor command is now available in server mode
 
 ### Bug Fixes
-- **assets not being copied:** assets not copied on publishing when `assetsPrefix` was set
-- **GoUp comman go to wrong note (server mode):** GoUp would sometimes try to open a stub node which would result in an error
-- **Multiple workspaces result in bad timestamps (server mode):** Having multiple workspaces of the same vaults open could result in bad timestamps
-
-### Progress
+- **schema templates not working (server mode)**: issue where schema templates were not being applied
 
 ### Other 
-
-### Documentation
-((ref: [[dendron.troubleshooting]]#error upgrading:#*))
+- we've created a **bug catcher** role for folks that reported bugs to Dendron. currently trying to backfill with all the people that have contributed bugs. feel free to ping me if I missed you and big thanks to the current bug catchers!
 
 # --- Template
 ### Features
