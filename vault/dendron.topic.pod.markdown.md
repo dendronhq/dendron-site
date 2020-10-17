@@ -95,7 +95,6 @@ id: meet.journal.2020.10.17.publish
 - note after publishing with following options
 
 ```yml
-renderOutline: true
 wikiLinkBehavior: convert2Text
 addAutogenWarning: true
 wikiLinkHierarchyBehavior: useBasename
