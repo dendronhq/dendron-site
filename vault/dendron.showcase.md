@@ -2,7 +2,7 @@
 id: 3a82c5ff-7945-46ae-8bf9-3b2275fc6642
 title: Showcase
 desc: ''
-updated: 1600010740851
+updated: 1603138980083
 created: 1600010740851
 stub: false
 nav_order: 2.2
@@ -49,3 +49,4 @@ Below are examples of published Dendron vaults
 - discord: `@lukecarrier#2081`
 
 ![](/assets/images/2020-09-27-20-50-54.png)
+

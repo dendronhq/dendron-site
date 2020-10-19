@@ -32,7 +32,7 @@
         "materialTheme.accent": "Red",
         "vscodeMarkdownNotes.slugifyCharacter": "NONE",
         "markdown-preview-enhanced.enableWikiLinkSyntax": true,
-        "workbench.colorTheme": "Default Dark+",
+        "workbench.colorTheme": "GitHub Light",
         "markdown-preview-enhanced.wikiLinkFileExtension": ".md",
         "vscodeMarkdownNotes.noteCompletionConvention": "noExtension",
         "cSpell.enabled": true,
