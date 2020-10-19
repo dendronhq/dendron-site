@@ -56,11 +56,10 @@ Instead of calling the engine directly, the Dendron extension, as well as relate
     - [x] archive hierarchy
     - [x] refactor hiearchy
     - [x] doctor
-- [ ] migrate schema watcher to server
-- [ ] migrate bundled extensions to server model
 - [x] integration tests for all server functionality
 
 ## Next
+- migrate bundled extensions to server model
 - use custom goto definition provider 
 - use custom backlink definition provider
 - use schema based completions

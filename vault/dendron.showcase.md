@@ -23,7 +23,7 @@ Below are examples of published Dendron vaults
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/showcase.pkm.jpg)
 
 ## Open AWS Catalogue
-- homepage: https://pkm.dendron.so
+- homepage: https://aws.dendron.so
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/showcase.aws.jpg)
 
