@@ -3,30 +3,23 @@ id: 65b03213-d3d1-46c0-9881-a6280ed9bdeb
 title: New
 desc: ''
 updated: 1602096212957
-created: 1602096212957
+created: 1602096212957 
 published: false
 nav_exclude: true
 ---
 
-## [0.12.10](https://github.com/dendronhq/dendron/compare/v0.12.10-alpha.4...v0.12.10) (2020-10-16)
+## [0.12.11](https://github.com/dendronhq/dendron/compare/v0.12.11-alpha.6...v0.12.11) (2020-10-18)
 
 ### Features
 
-#### Rename and Refactor Commands an Order of Magnitude Faster Now (server mode) 🚀🚀🚀
+#### Recursive Note References
 
-These commands have been completely re-written and use a proper markdown parser to find links (vs many fragile regex statements). 
-The re-write results in both much faster performance as well as a more correct implementation. 
-
-### Enhancements
-- **progress indicator on startup (server mode)**: loading indicator to help with large workspaces
-- **rename command support (server mode)**: rename command is now available in server mode
-- **refactor command support (server mode)**: refactor hierarchy command is now available in server mode
-- **publish notes support (server mode)**: publish notes command is now available in server mode
-- **archive command support (server mode)**: archive hierarchy is now available in server mode
-- **doctor command support (server mode)**: doctor command is now available in server mode
+((ref: [[dendron.topic.refs]]#recursive reference,1))
 
 ### Bug Fixes
-- **schema templates not working (server mode)**: issue where schema templates were not being applied
+- **time decorator lose position**: updating the frontmatter will cause the time decorator to sometimes lose its position
+- **time decorator not updating**
+- **rename note** doesn't update all links
 
 ### Other 
 - we've created a **bug catcher** role for folks that reported bugs to Dendron. currently trying to backfill with all the people that have contributed bugs. feel free to ping me if I missed you and big thanks to the current bug catchers!

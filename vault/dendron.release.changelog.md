@@ -9,6 +9,20 @@ stub: false
 
 # Changelog
 
+## [0.12.11](https://github.com/dendronhq/dendron/compare/v0.12.11-alpha.6...v0.12.11) (2020-10-18)
+
+### Features
+
+#### Recursive Note References
+
+((ref: [[dendron.topic.refs]]#recursive reference,1))
+
+### Bug Fixes
+- **time decorator lose position**: updating the frontmatter will cause the time decorator to sometimes lose its position
+- **time decorator not updating**
+- **rename note** doesn't update all links
+
+
 ## [0.12.10](https://github.com/dendronhq/dendron/compare/v0.12.10-alpha.4...v0.12.10) (2020-10-16)
 
 ### Features

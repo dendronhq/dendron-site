@@ -8,6 +8,7 @@ created: 1602262532844
 data: {}
 fname: dendron.mission-statement
 stub: false
+parent: null
 children: []
 hpath: dendron.mission-statement
 ---
