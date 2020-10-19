@@ -1,13 +1,15 @@
 ---
+custom: {}
 id: f7ebd4aa-8ba7-4bc5-bd00-a1efc5315f07
 title: Workbench
 desc: ''
 updated: 1595170237255
 created: 1595170237255
+data: {}
+fname: dendron.topic.workbench
+stub: false
 parent: 7a7af2fa-b9d0-4adc-81e6-f03186123539
 children: []
-stub: false
-fname: dendron.topic.workbench
 hpath: dendron.topic.workbench
 ---
 # Workbench
