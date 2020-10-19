@@ -4,11 +4,10 @@ title: Testing
 desc: ''
 updated: 1598654055046
 created: 1598654055046
-data: {}
-fname: dendron.dev.testing
-stub: false
 parent: 3489b652-cd0e-4ac8-a734-08094dc043eb
 children: []
+stub: false
+fname: dendron.dev.testing
 hpath: dendron.dev.testing
 ---
 # Testing

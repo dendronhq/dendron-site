@@ -1,15 +1,14 @@
 ---
-nav_order: 3
 id: ffa6a4ba-5eda-48c7-add5-8e2333ba27b4
 title: Configuration
 desc: ''
 updated: 1600564020051
 created: 1600564020051
-data: {}
-fname: dendron.topic.publishing.configuration
-stub: false
 parent: 73d395c9-5041-4d0d-9db7-080d9586136e
 children: []
+stub: false
+nav_order: 3
+fname: dendron.topic.publishing.configuration
 hpath: dendron.topic.publishing.configuration
 ---
 ## Configuration
