@@ -10,7 +10,7 @@ created: 1603123991664
 
 Dendron 0.13 is here 🌱
 
-It's been a few weeks since the last minor release. Below are some highlights of this sprint:
+It's been a few weeks since the last minor release. This iteration was mostly spent on our server migration as well as a series of quality of life improvements across Dendron's core features. You can find the details of all this in the highlights below. 
 
 ## Highlights
 - move to the final phase of the [[server migration|dendron.roadmap.project.n.2020.server-migration]] 
