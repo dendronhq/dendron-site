@@ -18,8 +18,8 @@ nav_exclude: true
 
 ### Bug Fixes
 - **time decorator lose position**: updating the frontmatter will cause the time decorator to sometimes lose its position
-- **time decorator not updating**
-- **rename note** doesn't update all links
+- **time decorator not updating**: turned off temporarily to investigate performance impact
+- **rename note**: doesn't update all links in some cases
 
 ### Other 
 - we've created a **bug catcher** role for folks that reported bugs to Dendron. currently trying to backfill with all the people that have contributed bugs. feel free to ping me if I missed you and big thanks to the current bug catchers!
