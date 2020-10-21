@@ -2,7 +2,7 @@
 id: 725d99be-fadd-4464-88c3-0a5fcc7292c7
 title: Server Migration
 desc: ''
-updated: 1599501616541
+updated: 1603209345198
 created: 1599501616541
 stub: false
 start: 2020.09.23
@@ -63,6 +63,10 @@ Instead of calling the engine directly, the Dendron extension, as well as relate
 - use custom goto definition provider 
 - use custom backlink definition provider
 - use schema based completions
+
+## Configuration
+
+To enable server mode, update the following setting in your workspace settings `"dendron.useExperimentalLSPSupport": true`. Run `> Developer: Reload Window` afterwards for the changes to take effect.
 
 ## Links
 - [project docs](https://dendron.so/notes/725d99be-fadd-4464-88c3-0a5fcc7292c7.html)

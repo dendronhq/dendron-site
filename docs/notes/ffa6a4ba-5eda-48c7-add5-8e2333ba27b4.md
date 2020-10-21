@@ -2,18 +2,51 @@
 id: ffa6a4ba-5eda-48c7-add5-8e2333ba27b4
 title: Configuration
 desc: ''
-updated: 1603138771533
+updated: '1603217039901'
 created: 1600564020051
 parent: 73d395c9-5041-4d0d-9db7-080d9586136e
 children: []
-stub: false
+toc: true
 nav_order: 3
 fname: dendron.topic.publishing.configuration
 hpath: dendron.topic.publishing.configuration
 ---
-## Configuration
+# Configuration
 
-This config file controls what gets published. It is located at the root of your workspace. 
+Dendron lets you control publication behavior at three levels:
+
+- **globally** through `dendron.yml` configuration
+- **per note** through the publication related frontmatter
+- **per line** through custom dendron directives inside the note
+
+## Table of Contents
+
+- [Global Configuration](#global-configuration)
+
+- [Properties](#properties)
+
+  - - [assetsPrefix?: str](#assetsprefix-str)
+    - [copyAssets](#copyassets)
+    - [siteHierarchies: str\[\]](#sitehierarchies-str)
+    - [siteIndex?: str](#siteindex-str)
+    - [siteRootDir: str](#siterootdir-str)
+    - [siteRepoDir](#siterepodir)
+    - [usePrettyRefs?: boolean](#useprettyrefs-boolean)
+    - [config](#config)
+    - [Example publishing entire vault](#example-publishing-entire-vault)
+    - [Example publishing just one domain](#example-publishing-just-one-domain)
+
+- [Note Configuration](#note-configuration)
+
+  - [Properties](#properties-1)
+
+    - [published](#published)
+    - [noindex](#noindex)
+    - [toc](#toc)
+
+## Global Configuration
+
+The `dendron.yml` configuration file controls what notes get published. It is located at the root of your workspace. 
 
 ```
 .
@@ -31,13 +64,13 @@ site:
 
 ## Properties
 
-### assetsPrefix?: str
+#### assetsPrefix?: str
 
 Prefix for assets. 
 
 - NOTE: By default, assets are served from the root. If you are publishing to github pages and followed the instructions [here](https://pages.github.com/) by creating a repo named `{username}.github.io`, then no further action is needed. This is because github will make your site available at `https://{username}.github.io`. If you created a custom repo, you will need to set the prefix to the name of your repo because github will make your site available at `https://username.github.io/{your-repo-name/}`
 
-### copyAssets
+#### copyAssets
 
 - required: no
 - type: boolean
@@ -45,33 +78,33 @@ Prefix for assets.
 
 Copy assets from vault to site.
 
-### siteHierarchies: str\[]
+#### siteHierarchies: str\[]
 
 List of hierarchies to publish
 
-### siteIndex?: str
+#### siteIndex?: str
 
 - optional, path of your index (home page)
 - defaults to the first element of `siteHierarchies`
 
-### siteRootDir: str
+#### siteRootDir: str
 
 Location of the directory where site will be build. Relative to your workspace
 
-### siteRepoDir
+#### siteRepoDir
 
 - required: no
 - type: string
 
 Location of the github repo where your site notes are located. By default, this is assumed to be your `workspaceRoot` if not set. This is used with the `Publish Notes` command
 
-### usePrettyRefs?: boolean
+#### usePrettyRefs?: boolean
 
 - default: True
 
 Whether to use pretty note refs or plain refs. 
 
-### config
+#### config
 
 Per hierarchy specific config. 
 
@@ -101,7 +134,7 @@ site:
       publishByDefault: false
 ```
 
-### Example publishing entire vault
+#### Example publishing entire vault
 
 - vault
 
@@ -134,7 +167,7 @@ publish:
         └── flowers.bud
 ```
 
-### Example publishing just one domain
+#### Example publishing just one domain
 
 - vault
 
@@ -160,4 +193,51 @@ publish:
 └── dendron
     ├── dendron.quickstart
     └── dendron.zen
+```
+
+## Note Configuration
+
+You can specify how notes are published via the frontmatter of each note. 
+
+### Properties
+
+#### published
+
+- type: boolean
+- default: true
+
+To exclude a page from publication, you can add the following to the frontmatter. If you set `publishByDefault: false` for a hierarchy, this needs to be set to `true` to publish
+
+```yml
+...
+published: false
+```
+
+#### noindex
+
+- type: boolean
+- default: true
+
+To tell google to not index a page, you can add the following tag to the frontmatter. You can also have this as a default for a given hierarchy by setting `noIndexByDefault: true` in the site config.
+
+```yml
+...
+noindex: true
+```
+
+#### toc
+
+- type: boolean
+- default: false
+
+To generate a table of contents in a given note, enable this directive in the note frontmatter.
+
+```yml
+toc: true
+```
+
+You will also need to include the following line somewhere in the note body. Dendron will generate a table of contents when it finds that particular header
+
+```md
+## Table of Contents
 ```
