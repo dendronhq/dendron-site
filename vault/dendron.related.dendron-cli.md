@@ -2,7 +2,7 @@
 id: 8b03ed06-4f46-46e0-8652-c6abf2266a79
 title: Dendron-cli
 desc: ''
-updated: 1599709645355
+updated: 1603302376498
 created: 1599709645355
 stub: false
 ---
@@ -89,8 +89,6 @@ Options:
 dendron-cli publishNotes  --wsRoot . --vault ./vault 
 ```
 
-###
-
 ## Pod Commands
 - NOTE: you can find pod ids in the [[pods|dendron.topic.pod]] page. Just add a `.import|.export` to the end of the id (eg. `dendron.pod.json.import`)
 
@@ -107,4 +105,11 @@ dendron-cli exportPod --podId dendron.pod.json --vault "/Users/kevinlin/Dendron/
 - eg: Import notes from FilePod
 ```
 dendron-cli importPod --podId dendron.pod.file --vault "/Users/kevinlin/Dendron-es/vault" --podsDir /Users/kevinlin/Dendron-es/pods
+```
+
+### Publish Pod
+
+- eg: Publish a note as regular markdown
+```sh
+dendron-cli publishPod --wsRoot . --vault ./vault --podId dendron.markdown --noteByName dendron
 ```

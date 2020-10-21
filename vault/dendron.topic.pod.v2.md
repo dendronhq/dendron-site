@@ -2,7 +2,7 @@
 id: 7e40be03-4fa6-44db-b7cf-3ef19e67e7a8
 title: V2
 desc: ''
-updated: 1602958663144
+updated: 1603306621819
 created: 1602958663144
 stub: false
 nav_exclude: true
@@ -23,9 +23,9 @@ Pods let you do the following:
 - **publish** your notes from Dendron to any existing location
 
 To access pods, Dendron exposes three commands:
-- `Dendron: Pod Import`: imports notes 
-- `Dendron: Pod Export`: export notes 
-- `Dendron: Pod Publish`: publish notes 
+- `Dendron: Import Pod`: imports notes 
+- `Dendron: Export Pod`: export notes 
+- `Dendron: Publish Pod`: publish notes 
 
 **NOTE**: not all pods will expose all three commands. Each pod implementation can choose to implement any subset of the three commands. 
 

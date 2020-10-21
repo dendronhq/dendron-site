@@ -2,7 +2,7 @@
 id: 66727a39-d0a7-449b-a10d-f6c438185d7f
 title: Pods
 desc: ''
-updated: 1595041605856
+updated: 1603306712872
 created: 1595041605856
 stub: false
 ---
@@ -103,109 +103,6 @@ Note that all files starting with a `.` will be ignored during the import.
 Builds your notes for publication to github pages using the [dendron-jekyll](https://github.com/dendronhq/dendron-jekyll) theme.  See [[publishing | dendron.topic.publishing]] for more details.
 
 
-### JSON Pod
-- id: dendron.pod.json
-- coverage
-    -  🚧import
-    - ➖ build
-    - 🚧 export 
-
-#### Import
-
-Imports a JSON file as Dendron notes
-
-- format:
-  - fname: name of note (without extension)
-  - body: contents of note
-- eg:
-```json
-[
-  {
-    "fname": "one",
-    "body": "one body"
-  }
-]
-```
-
-<a href="https://www.loom.com/share/375b64a6597346ec8e6be5ca35049194"> <img style="" src="https://cdn.loom.com/sessions/thumbnails/375b64a6597346ec8e6be5ca35049194-with-play.gif"> </a>
-
-
-#### Export
-
-Below is sample output from an export of a vault with the following files
-
-```
-.
-└── vault
-    ├── root.md
-    ├── sample.child.md
-    └── sample.md
-```
-Exported JSON
-```json
-[
-  {
-    "id": "root",
-    "title": "root",
-    "desc": "",
-    "type": "note",
-    "updated": 1599430958377,
-    "created": 1599430958377,
-    "fname": "root",
-    "data": {},
-    "stub": false,
-    "custom": {},
-    "parent": null,
-    "children": [
-      "01d712a3-3676-403c-87d7-f3e7057ca43e",
-      "01d712a3-3676-403c-87d7-f3e7057ca43e"
-    ]
-  },
-  {
-    "id": "01d712a3-3676-403c-87d7-f3e7057ca43e",
-    "title": "Sample",
-    "desc": "",
-    "type": "note",
-    "updated": 1599430965554,
-    "created": 1599430965554,
-    "fname": "sample",
-    "data": {},
-    "stub": false,
-    "custom": {
-      "tags": [
-        "one",
-        "two",
-        "three"
-      ]
-    },
-    "parent": "root",
-    "children": [
-      "1d947d6e-39c4-4d31-9bec-749a467fc514"
-    ]
-  },
-  {
-    "id": "1d947d6e-39c4-4d31-9bec-749a467fc514",
-    "title": "Child",
-    "desc": "",
-    "type": "note",
-    "updated": 1599430969355,
-    "created": 1599430969355,
-    "fname": "sample.child",
-    "data": {},
-    "stub": false,
-    "custom": {
-      "customProp": "yellow",
-      "customStat": 5
-    },
-    "parent": "01d712a3-3676-403c-87d7-f3e7057ca43e",
-    "children": []
-  }
-]
-```
-
-Video example of exporting to JSON
-
-<a href="https://www.loom.com/share/d49e5f4155af485cadc9cd810b6cab28"> <img src="https://cdn.loom.com/sessions/thumbnails/d49e5f4155af485cadc9cd810b6cab28-with-play.gif"> </a>
 
 ## Custom Pods
 

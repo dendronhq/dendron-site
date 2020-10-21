@@ -22,6 +22,7 @@
         "dendron.defaultJournalDateFormat": "Y.MM.DD",
         "zenMode.fullScreen": false,
         "zenMode.hideLineNumbers": false,
+        "zenMode.silentNotifications": false,
         "dendron.defaultScratchDateFormat": "Y.MM.DD-HHmmss",
         "dendron.defaultScratchAddBehavior": "childOfDomainNamespace",
         "dendron.copyNoteUrlRoot": "https://dendron.so",
