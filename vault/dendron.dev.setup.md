@@ -39,7 +39,7 @@ npm install
 
 To start an instance of the Dendron with the Debugger, Run `Extension (plugin-core)` from the debug panel in vscode
 
-![debugger](assets/images/start_debugger.gif)
+![debugger](/assets/images/start_debugger.gif)
 
 _Note: Running via Run -> Start Debugging will not work unless you've previously targeted `Extension (plugin-core)`_
 
