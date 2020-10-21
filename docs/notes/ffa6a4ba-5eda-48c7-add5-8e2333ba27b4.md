@@ -2,7 +2,7 @@
 id: ffa6a4ba-5eda-48c7-add5-8e2333ba27b4
 title: Configuration
 desc: ''
-updated: '1603217039901'
+updated: 1603217039901
 created: 1600564020051
 parent: 73d395c9-5041-4d0d-9db7-080d9586136e
 children: []
@@ -23,9 +23,9 @@ Dendron lets you control publication behavior at three levels:
 
 - [Global Configuration](#global-configuration)
 
-- [Properties](#properties)
+  - [Properties](#properties)
 
-  - - [assetsPrefix?: str](#assetsprefix-str)
+    - [assetsPrefix?: str](#assetsprefix-str)
     - [copyAssets](#copyassets)
     - [siteHierarchies: str\[\]](#sitehierarchies-str)
     - [siteIndex?: str](#siteindex-str)
@@ -33,6 +33,10 @@ Dendron lets you control publication behavior at three levels:
     - [siteRepoDir](#siterepodir)
     - [usePrettyRefs?: boolean](#useprettyrefs-boolean)
     - [config](#config)
+
+  - [Examples](#examples)
+
+    - [Blog](#blog)
     - [Example publishing entire vault](#example-publishing-entire-vault)
     - [Example publishing just one domain](#example-publishing-just-one-domain)
 
@@ -43,6 +47,12 @@ Dendron lets you control publication behavior at three levels:
     - [published](#published)
     - [noindex](#noindex)
     - [toc](#toc)
+
+- [Line Configuration](#line-configuration)
+
+- [Properties](#properties-2)
+
+  - [LOCAL_ONLY_LINE](#local_only_line)
 
 ## Global Configuration
 
@@ -62,7 +72,7 @@ site:
   siteRootDir: docs
 ```
 
-## Properties
+### Properties
 
 #### assetsPrefix?: str
 
@@ -115,13 +125,30 @@ config:
 
 The list of possible options:
 
-- publishByDefault: boolean, default: true
+- **publishByDefault**: boolean, default: true
   - if set to false, dendron will only publish notes within the hierarchy that have `published: true` set in the frontmatter
-- noindexByDefault: boolean, default: false
+- **noindexByDefault**: boolean, default: false
   - if set to true, dendron will add the following meta tag `<meta name="robots" content="noindex, nofollow”>` which will tell google to not index your page
   - when google indexes a page, it will penalize sites that have duplicate content from other sites. this is useful if you are using your hiearchy as a [cache](3e7baac6-f120-4378-a667-92e7a0869dca)
+- **customFrontmatter**: list, default: \[]
+  - if set, dendron will add the specified frontmatter to each published note in the hierarchy. note that this will override existing keys with the same name when publishing
+  - eg. add `toc: true` to all notes published under the `iam.*` hierarchy
+  ```yml
+    config:
+      iam: 
+          customFrontmatter: [
+            {
+              key: "toc",
+              value: true,
+            }
+          ]
+  ```
 
-As an example, below is the config for [my website](https://kevinslin.com). It publishes everything under the `home` and `blog` hierarchies but will only publish notes under `books` if `published: true` is set on the frontmatter. 
+### Examples
+
+#### Blog
+
+Below is the config for [kevinslin.com](https://kevinslin.com). It publishes everything under the `home` and `blog` hierarchies but will only publish notes under `books` if `published: true` is set on the frontmatter. 
 
 - dendron.yml
 
@@ -241,3 +268,24 @@ You will also need to include the following line somewhere in the note body. Den
 ```md
 ## Table of Contents
 ```
+
+The output will look like the below.
+![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/change.toc.jpg)
+
+## Line Configuration
+
+You can control publication on a per line basis.
+
+## Properties
+
+### LOCAL_ONLY_LINE
+
+\`
+
+```markdown
+Hello World!  <!-- Will be published -->
+
+ <!-- won't be published -->
+```
+
+![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/pod-local.gif)
