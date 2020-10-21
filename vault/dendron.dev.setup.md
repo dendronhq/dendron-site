@@ -2,7 +2,7 @@
 id: 64f0e2d5-2c83-43df-9144-40f2c68935aa
 title: Setup
 desc: ''
-updated: 1603210043374
+updated: 1603252450553
 created: 1598651458825
 stub: false
 ---
@@ -54,6 +54,9 @@ To continuously compile all dependencies, run the following
 ```sh
 ./bootstrap/scripts/watch.sh
 ```
+
+## Testing
+- see [[Testing|dendron.dev.testing]]
 
 ## Debugging
 - see [[Debugging|dendron.dev.debug]]
