@@ -2,7 +2,7 @@
 id: 1b1aef8e-c9d5-42de-b850-d1b1467cf88b
 title: '2020-10-19 Release Notes'
 desc: ''
-updated: 1603244540323
+updated: 1603245087271
 created: 1603123991664
 ---
 
@@ -49,7 +49,7 @@ Aside from features, we've also launched two [[seeds|dendron.topic.seeds]]. Seed
 
 Finally, a bunch of you have asked if you can support Dendron financially. The answer is coming at the end of the month! Dendron will be coming out of **preview** in November, at which point we will launch our **Environmentalist Plan** 🌲. This is a monthly subscription to support the development of Dendron. **Environmentalist** will get a special badge on Discord, priority email/discord access to the development team, and stickers! More details on this soon.
 
-## Thank Yo((ref: [[dendron.release.changelog]]#0.12.11,1:#*))u
+## Thank You
 
 Last and most of all, a big **thanks** to the following gardeners that brought up issues, contributions, and fixes to this release.
 - [Britt](https://github.com/bs)
@@ -65,4 +65,4 @@ Last and most of all, a big **thanks** to the following gardeners that brought u
     - [issue refactoring with mixed case filenames](https://github.com/dendronhq/dendron/issues/250)
 
 
-((ref: [[dendron.release.changelog]]#0.12.11))
+((ref: [[dendron.release.changelog]]#0.12.11,1))
