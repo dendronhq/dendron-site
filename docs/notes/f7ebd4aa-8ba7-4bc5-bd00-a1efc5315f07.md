@@ -70,3 +70,4 @@ You can use the `toggleEditorWidth` command with a hotkey to quickly expand the 
 
 ### Useful Shortcuts
 -->
+

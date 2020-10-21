@@ -31,3 +31,4 @@ hpath: dendron.dev.testing
 1. Go to file
 2. Use command prompt and run `> Tasks: Run tasks`
 3. Find the appropriate package and run `> npm:test:watch {package}`
+

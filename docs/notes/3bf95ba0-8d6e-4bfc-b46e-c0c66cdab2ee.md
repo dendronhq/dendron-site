@@ -14,3 +14,4 @@ hpath: dendron.mission-statement
 # Mission Statement
 
 Dendron helps people create, reference, and collaborate on the information they care about. 
+
