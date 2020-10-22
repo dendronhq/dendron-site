@@ -2,135 +2,54 @@
 id: 66727a39-d0a7-449b-a10d-f6c438185d7f
 title: Pods
 desc: ''
-updated: 1603306712872
-created: 1595041605856
+updated: 1603333700168
+created: 1602958663144
 stub: false
 ---
 
-# Pods 🚧
-
-> Note: Pods are highly experimental and under active development. Content here is subject to change with no moments notice. 
+# Pods 
 
 <img src="https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/pods.png" height="300px"/>
 
 > Pod image courtesy of [Ilana Lin](https://www.instagram.com/ilana_lin/)
 
-Dendron refers to pods as anything you could conceivably use to store/publish notes. Evernote, Roam, static websites, twitter - any and all of these things are potential pods. 
+Dendron refers to pods as any tool or location that is used to hold information. Tools like Evernote and Roam are pods. Social media services like Twitter and Facebook are pods. Publication destinations like static sites and Medium are pods. Everything is a pod.
 
 Pods let you do the following:
-- import your notes from any existing pod, converting and formatting the content to Dendron's hierarchal format. 
-- export your notes to any existing pod, converting and formatting the content to the pods native format
+- **import** your notes from any existing location into Dendron
+- **export** your notes from Dendron to any existing location
+- **publish** your notes from Dendron to any existing location
 
 To access pods, Dendron exposes three commands:
-- `Dendron: Import Pod`: imports notes from an external data source 
-- `Dendron: Build Pod`: prepares notes for export 
-- `Dendron: Export Pod`: export notes (note that there are no pods with export capabilities at this time)
+- `Dendron: Import Pod`: imports notes 
+- `Dendron: Export Pod`: export notes 
+- `Dendron: Publish Pod`: publish notes 
 
-Note that not all pods will expose all three commands. The status of each pod method is represented by the following status symbols:
-- ✅ supported 
-- 🚧 supported but experimental 
-- ➖ no support applicable 
-- ❌ not currently supported
+**NOTE**: not all pods will expose all three commands. Each pod implementation can choose to implement any subset of the three commands. 
 
-Dendron supports two kinds of pods:
-- Builtin Pods
-- Custom Pods
+## Pod Methods
 
-Builtin pods are installed with Dendron and can be invoked without any further action. Custom pods are `npm packages` that adopt the pod interface (TBD). These packages can be installed into the `pods` directory under Dendron to support additional sources not covered by the built-in pods. 
+### Import
 
+Importing lets you bulk import notes from a given source and into Dendron. The notes are formatted and converted to Dendron's hierarchal structure.
 
-## Builtin Pods
+### Export
 
-### LocalFile Pod
-- id: dendron.pod.file
-- status
-    - 🚧 import
-    - ➖ build
-    - ❌ export
+Exporting lets you bulk export notes from Dendron into another destinations. The notes will be formatted and converted to the native format of the destination. 
 
-This pod imports files stored in your local file system. To get started, select `LocalFile Pod` in the pod dropdown and enter the path to `root` directory where your notes are stored.
+### Publish
 
-The `LocalFile` pod finds all files from the `root`, and copies over the files into your vault, cleaning the file names to fit dendron's naming hierarchy. You can see an example below. 
+Publishing lets you take one note and output it into a different format/destination. 
 
-- Original
-```
-.
-└── projects
-    ├── p1
-    │   ├── one.md
-    │   ├── two.md
-    │   └── one.pdf
-    └── p2
-        ├── three.md
-        ├── four.md
-        └── three.gif
-```
+For example, you might want to use our [[markdown pod|dendron.topic.pod.markdown]] to take a note with [[note references|dendron.topic.refs]] and publish it as a regular markdown note to use in a github issue or another tool.
 
-- After Import
-```
-.
-└── vault
-    ├── assets
-    │   ├── one-{uuid}.pdf
-    │   └── three-{uuid}.gif
-    ├── projects.p1.md
-    ├── projects.p1.one.md
-    ├── projects.p1.two.md
-    ├── projects.p2.md
-    ├── projects.p2.three.md
-    └── projects.p2.four.md
-```
-
-Non-markdown files within a directory will be moved into the `assets` folder of your `vault`. A [uuid](https://en.wikipedia.org/wiki/Universally_unique_identifier) will be added to non-markdown file names to ensure it does not overwrite any existing files. A link of the original filenames will be made in the note that corresponds to the imported directory
+Future uses of the **publish** method will be taking a note and publishing it to social media (eg. twitter, facebook, linkedin), publishing it to Gmail, and publishing to destinations like Medium and dev.to.
 
 
-```md
-...
-# Imported Assets
-- [one.pdf](assets/one-c91d4cb3-1db8-4703-884f-c4f5f9a00734.pdf)
+## Types of Pods
+There are two types of pods:
+- builtin 
+- custom
 
-```
-
-Note that all files starting with a `.` will be ignored during the import.
-
-
-### GithubPages Pod
-- coverage
-    - ❌ import
-    - 🚧 build
-    - ❌ export 
-
-Builds your notes for publication to github pages using the [dendron-jekyll](https://github.com/dendronhq/dendron-jekyll) theme.  See [[publishing | dendron.topic.publishing]] for more details.
-
-
-
-## Custom Pods
-
-TBD. Stay tuned
-
-## Config
-
-### Import Config
-
-#### src: string
-- where to import from
-
-#### concatenate?: boolean
-- concatenate all entries into one note? if set to true, need to set `destName`
-- default: false
-
-#### destName?: string
-- if `concatenate: true`, specify name of concatenated note
-
-### Export Config
-
-#### dest: string
-- where to export to
-
-#### includeStubs?: boolean
-- include stubs when exporting notes
-- default: false
-
-#### includeBody?: boolean
-- include body when exporting notes
-- default: true
+((ref: [[dendron.topic.pod.builtin]]#builtin pods:#*))
+((ref: [[dendron.topic.pod.custom]]#custom pods:#*))

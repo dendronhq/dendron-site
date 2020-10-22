@@ -2,48 +2,41 @@
 id: 65b03213-d3d1-46c0-9881-a6280ed9bdeb
 title: New
 desc: ''
-updated: 1603244275676
+updated: 1603344945504
 created: 1602096212957 
 published: false
 nav_exclude: true
 ---
 
+## [0.13.2](https://github.com/dendronhq/dendron/compare/v0.13.2-alpha.2...v0.13.2) (2020-10-22)
 
 ### Features
 
-#### Generate table of contents when Publishing
-- **publishing:** generate toc when publishing ([53ee270](https://github.com/dendronhq/dendron/commit/53ee270c89f530b9224f33a28dc811de7e5cb2ad))
 
-((ref: [[dendron.topic.publishing.configuration]]#toc:#*))
+#### Pod Publishing
 
-- **publishing:** set frontmatter overrides globally when publishing ([782d637](https://github.com/dendronhq/dendron/commit/782d6374c55b00bcda36da9149fb2cedeac0c3d9))
+- **pods:** add publish pod cmd ([8947a60](https://github.com/dendronhq/dendron/commit/8947a60cbc2e76f00d214a1913952c58db86f2f1))
+
+In addition to **import** and **export**, you can now also **publish** notes with pods.
+
+((ref: [[dendron.topic.pod]]#publish,1:#*))
+
 
 ### Enhancements
-- **lookup:** add contrast btw note/schema lookup ([4faec8e](https://github.com/dendronhq/dendron/commit/4faec8e4548a80eb56469c46efadd608c26e0230))
-    ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/change.lookup-note.jpg)
-    ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/change.lookup-schema.jpg)
+- **publishing:** preserve abbreviations ([06d9191](https://github.com/dendronhq/dendron/commit/06d91912b34bc5f81b20fce77652366c501865ec)) --> thank you [Luke Carrier](https://github.com/LukeCarrier) for the pull request
+- **pods:** add json publish pod ([127dd7c](https://github.com/dendronhq/dendron/commit/127dd7c02a0081b027e06c40d6189904c5da0694))
+- **pods:** add markdown publish pod ([127dd7c](https://github.com/dendronhq/dendron/commit/127dd7c02a0081b027e06c40d6189904c5da0694))
+- **pods:** update placeholder text ([57a4af8](https://github.com/dendronhq/dendron/commit/57a4af8887404c21d07b45a3a565516bf73cc944))
+- **refs:** render error when ref doesn't exist ([ba1be1a](https://github.com/dendronhq/dendron/commit/ba1be1a12c4a1742e93ab4058d0f132b320be539))
+- **schemas:** realtime schema updates (server mode) ([42191bcd](https://github.com/dendronhq/dendron/commit/42191bcd))
 
+### Breaking
+- `dendron.pod.file` has been renamed `dendron.markdown`
+- `dendron.pod.json` has been renamed `dendron.json`
 
-### Bug Fixes
-- **publish:** issues with Publish command in server mode ([7f3789a](https://github.com/dendronhq/dendron/commit/7f3789a88a01465cca30efe3b3d261bf89a100df))
-- **lookup:** re-enable schema suggestions on namespace ([56ee6c4](https://github.com/dendronhq/dendron/commit/56ee6c460dd562200931381923e72971681d1390))
-- **workbench:** reload index will update tree view ([deadedc](https://github.com/dendronhq/dendron/commit/deadedc30358ee668806434196ddd45b74aff0cc))
-- **lookup:** display schema id if title undefined ([6c7cc70](https://github.com/dendronhq/dendron/commit/6c7cc70cf85181b11654074e17672e39a44fb874))
-- **seeds:** update replace merge strategy to really replace ([a02e08a](https://github.com/dendronhq/dendron/commit/a02e08a753c0603871a1ff76e6de78906a04b056))
+### Documentation Updates
+#### Pods
 
+Documentation for pods has been re-written for clarity. 
 
-### Progress
-
-### Other 
-
-
-# --- Template
-### Features
-
-### Enhancements
-
-### Bug Fixes
-
-### Progress
-
-### Other 
+((ref: [[dendron.topic.pod]]))

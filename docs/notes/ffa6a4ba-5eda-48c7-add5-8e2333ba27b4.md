@@ -2,7 +2,7 @@
 id: ffa6a4ba-5eda-48c7-add5-8e2333ba27b4
 title: Configuration
 desc: ''
-updated: 1603217039901
+updated: 1603308112232
 created: 1600564020051
 parent: 73d395c9-5041-4d0d-9db7-080d9586136e
 children: []
@@ -271,6 +271,20 @@ You will also need to include the following line somewhere in the note body. Den
 
 The output will look like the below.
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/change.toc.jpg)
+
+- NOTE: in order to generate a table of contents, the heading levels after ToC need to be at an equal level or greater than the heading level of `Table of Contents`
+  - this is okay
+  ```markdown
+  ## Table of Contents
+  ## Header1
+  ## Header2
+  ```
+  - this is not
+  ```markdown
+  ## Table of Contents
+  ### Header1
+  ### Header2
+  ```
 
 ## Line Configuration
 

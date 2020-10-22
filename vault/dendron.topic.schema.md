@@ -2,7 +2,7 @@
 id: c5e5adde-5459-409b-b34d-a0d75cbb1052
 title: Schema
 desc: ''
-updated: 1595952505039
+updated: 1603346469868
 created: 1595952505039
 stub: false
 ---
@@ -37,7 +37,6 @@ Schemas will autosuggest valid children when you create a new project.
 If you accidentally do a typo, your schema will let you know that you have an inconsistency. 
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/schema.unknown.gif)
-
 
 ## Schema Anatomy
 
