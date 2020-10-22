@@ -2,7 +2,7 @@
 id: 401c5889-20ae-4b3a-8468-269def4b4865
 title: Cook
 desc: ''
-updated: 1595952505024
+updated: 1603384284456
 created: 1595952505024
 stub: false
 nav_order: 8.9
@@ -111,6 +111,33 @@ Dendron does not have a dedicated mobile client at this time. There are numerous
 ### WebClipper
 
 You can use the [markdownload-markdown-web](https://chrome.google.com/webstore/detail/markdownload-markdown-web/pcmpcfapbekmbjjkdalcgopdkipoggdi) extension to clip content as markdown from Chrome. 
+
+## VSCode
+
+### Access Dendron Workspace from multiple windows
+
+There are usually two scenarios:
+
+1. you want two windows of different workspaces
+2. you want two windows of the same workspace
+
+- for 1, create a new window and initialize a new workspace in some directory that is different from your first workspace
+- for 2, you have a few options
+    - a. initialize a new workspace in a different directory. open the settings using `> Open User Workspace settings (JSON)`. change the folder to the path of your vault in the initial workspace. run `> Reload Window` for the changes to take affect
+    - b. use a different version of vscode to open the same workspace (eg. vscode insider, vscodium, vscode regular). you need to do this because vscode will re-use the same window when opening the same workspace
+
+
+## Navigation
+
+### Enable Table of Contents
+
+When viewing your notes locally, you can view the toc either from the outline view or by toggling the preview
+
+- from the outline
+((ref: [[dendron.topic.workbench]]#outline view,1:#*))
+
+- from the preview
+((ref: [[dendron.topic.preview]]#table of contents,1))
 
 
 ## Publishing
