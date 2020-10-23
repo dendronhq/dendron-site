@@ -74,3 +74,4 @@ Kevin wants to work on Dendron full time for the forseeable future and would lik
     - vscodium
   - charge a pay what you can model?
 - wyswg client
+

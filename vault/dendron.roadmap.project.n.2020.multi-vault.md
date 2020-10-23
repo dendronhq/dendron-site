@@ -2,7 +2,7 @@
 id: 45cfb9f2-46cf-4f67-a41e-834818fbd06e
 title: Multi Vault Support
 desc: ''
-updated: 1603167294365
+updated: 1603403436213
 created: 1599501659137
 stub: false
 start: 2020.10.07
@@ -135,6 +135,30 @@ This enables many use cases like keeping a private local only vault and a synced
         $vault1/two.md
         ```
 
+## Special Cases
+
+### Adding a vault under another vault
+
+- you want to put all notes from `vault2` under `vault1` under the `vault2` node
+- eg: lookup should see the following hierarchy
+```
+├── foo.md
+├── foo.two.md
+├── vault2.foo.md
+└── vault2.foo.one.md
+```
+
+This can be achieved with the following config
+```yml
+vaults:
+- name: main
+    path: vault1
+- name: private
+    path: vault2
+    mountUnder: vault2
+```
+
+
 ## Ref
 
 ### File Layout
@@ -151,7 +175,22 @@ This layout is used as the basis for all examples
         └── foo.one.md
 ```
 
+### Configuration
 
+#### vaults
+- top level directive in `dendron.yml`
+- collection of one or more vaults
+
+#### {vault}.name
+- name of vault
+
+#### {vault}.path
+- path to vault
+
+#### {vault}.mountUnder
+- optional
+- by default, all hierarchies are mounted at the root
+- you change this by adding a mountpoint which is equivalent of adding a **prefix** to all files within the vault
 
 ## Additional Resources
 - [project docs](https://dendron.so/notes/45cfb9f2-46cf-4f67-a41e-834818fbd06e.html)
