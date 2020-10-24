@@ -2,7 +2,7 @@
 id: 401c5889-20ae-4b3a-8468-269def4b4865
 title: Cook
 desc: ''
-updated: 1603384284456
+updated: 1603478117089
 created: 1595952505024
 stub: false
 nav_order: 8.9
@@ -10,21 +10,6 @@ nav_order: 8.9
 # Cookbook
 
 ## Bucket
-
-### Use Dendron with a current workspace
-
-Copy the settings in this [sample workspace](https://github.com/dendronhq/dendron-template/blob/master/dendron.code-workspace) file. Dendron uses your first folder as the index for where it will look for notes.
-
-```
-"folders": [
-    {
-        "path": "vault"
-    },
-    ...
-],
-```
-
-Rename your current workspace file to `dendron.code-workspace`. Use the [Dendron: Change Workspace](dendron.topic.commands) command and set the workspace to the directory containing `dendron.code-workspace`.
 
 ### Star/Favorite/Pin Notes
 
@@ -113,6 +98,25 @@ Dendron does not have a dedicated mobile client at this time. There are numerous
 You can use the [markdownload-markdown-web](https://chrome.google.com/webstore/detail/markdownload-markdown-web/pcmpcfapbekmbjjkdalcgopdkipoggdi) extension to clip content as markdown from Chrome. 
 
 ## VSCode
+
+### Use Dendron with a current folder
+
+- 1. start by initializing a workspace
+
+((ref: [[dendron.topic.commands]]#initialize workspace:#*))
+
+- 2. by default, dendron uses a `vaults` folder underneath your workspace to store you vaults. Update your [[settings|dendron.settings]] and change `vault` to the path of your current notes (alternatively, you can also copy your current notes into `vault`)
+
+```
+"folders": [
+    {
+        "path": "vault"
+    },
+    ...
+],
+```
+- 3. Run `> Dendron: Reload Index` for Dendron to pick up changes
+
 
 ### Access Dendron Workspace from multiple windows
 

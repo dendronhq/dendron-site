@@ -2,7 +2,7 @@
 id: a7c3a810-28c8-4b47-96a6-8156b1524af3
 title: Lookup
 desc: ''
-updated: 1595952505038
+updated: 1603566069834
 created: 1595952505038
 stub: false
 ---
@@ -53,6 +53,11 @@ If you have text highlighted while creating a new note with a lookup, the new no
 <img style="" src="https://cdn.loom.com/sessions/thumbnails/61d754c1dca84b99b2786b2f89473566-with-play.gif"> </a>
 
 ### Passing Arguments to Lookup
+
+#### filterType
+- controls notes shown for lookup
+- options:
+    - `directChildOnly`: filter all notes that are not the direct children of the current note
 
 #### selectionType
 - controls selection modifier
@@ -136,18 +141,28 @@ When working with lookup, users can toggle one of the different menu items on th
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/lookup.menu.jpg)
 
-These menus are divided into 3 categories:
+These menus are divided into 4 categories:
+- filter toggle
 - selection toggle
 - note toggle
 - split toggle
 
+### Filter Toggle
+
+By default, unless you are at the root of your workspace, dendron does a fuzzy search of all notes that match your current hierarchy prefix. This is useful to see your entire sub-tree in one glance but can be overwhelming if you have a lot of notes. 
+
+Dendron's **directChildFilter** is a toggle that limits lookup to just the next level in the tree. This is useful for exploring your hierarchy one level at a time. 
+
+<a href="https://www.loom.com/share/45b49b53bf324aeebe387d2ba9515d94"> 
+<img style="" src="https://cdn.loom.com/sessions/thumbnails/45b49b53bf324aeebe387d2ba9515d94-with-play.gif"> </a>
+
 ### Selection Toggle
 ((ref: [[dendron.topic.lookup]]#creating notes with a selection,1:#*))
 
-### note toggle
+### Note toggle
 ((ref: [[dendron.topic.lookup]]#creating special notes,1:#*))
 
-### split toggle
+### Split toggle
 
 When opening a note via lookup, you can decide to have the note open in a horizontal split.This works when you're creating new notes or opening an existing note
 

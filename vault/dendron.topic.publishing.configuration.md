@@ -2,7 +2,7 @@
 id: ffa6a4ba-5eda-48c7-add5-8e2333ba27b4
 title: Configuration
 desc: ''
-updated: 1603308112232
+updated: 1603565415154
 created: 1600564020051
 toc: true
 nav_order: 3
@@ -75,7 +75,7 @@ Whether to use pretty note refs or plain refs.
 
 #### config
 
-Per hierarchy specific config. 
+Per hierarchy specific config. To set options for **all** hierarchies, set `{hiearchy name}` to **root**.
 
 ```yml
 config:

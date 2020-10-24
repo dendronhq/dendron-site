@@ -2,12 +2,14 @@
 id: cb22bd36-d45a-4ffd-a31e-96c4b39cb7fb
 title: Testing
 desc: ''
-updated: 1603252615067
+updated: 1603468882089
 created: 1598654055046
 stub: false
 ---
 
 # Testing
+
+## Running Tests
 
 ### All packages except the plugin
 
@@ -27,3 +29,14 @@ stub: false
 1. Go to file
 2. Use command prompt and run `> Tasks: Run tasks`
 2. Find the appropriate package and run `> npm:test:watch {package}`
+
+
+## Writing Tests
+
+All packages have tests written in `jest` except plugin-core. these tests use `mocha` assertion because vscode has a special test harness built around `mocha`  
+
+## Debugging Tests
+
+You can put a breakpoint directly in any code that's part of `plugin-core` and it'll break at those points
+
+> Kevin's Aside: If you need to debug a related package, I haven't found a good way to put a break point. Instead, I manually insert a `debugger` statement and vscode will break. Don't forget to remove the `debugger` statement 
