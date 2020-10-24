@@ -2,7 +2,7 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1603566440988
+updated: 1603566794901
 created: 1601508213606
 stub: false
 ---
@@ -23,7 +23,7 @@ stub: false
 
 
 ### Enhancements
-- **publish:** be able to set config for all hiearchies ([a27d94a](https://github.com/dendronhq/dendron/commit/a27d94a3c469a4efaf2ee8c2bca40a8a471773f2))
+- **publish:** be able to set config for all hierarchies ([a27d94a](https://github.com/dendronhq/dendron/commit/a27d94a3c469a4efaf2ee8c2bca40a8a471773f2))
 ((ref: [[dendron.topic.publishing.configuration]]#config:#*))
 
 - **schema:** add custom props from schema template ([5264544](https://github.com/dendronhq/dendron/commit/52645449b8e155e168baaac0fa4e99903efafcf0))
@@ -38,7 +38,7 @@ stub: false
 - **comp:common-server:** don't throw error on missing log vars ([9d00e55](https://github.com/dendronhq/dendron/commit/9d00e55b2104efa7739ec94f0bb2793daa888450))
 - **notes:** refactor will miss links in newly created notes ([c8a5dde](https://github.com/dendronhq/dendron/commit/c8a5dde2ca46e2402bc50b1a8f635d9fb5318c9d))
 - **lookup:** don't update lookup text unless a *note btn* is pressed ([30140f7](https://github.com/dendronhq/dendron/commit/30140f7a16c6fb5ab81a9eae8af13f17575c78f3))
-- **workbench**: Doctor command will create two `doc` directories if no `doc` directory is found --> ( 🙏 thanks to [Britt](https://github.com/bs) for the pull request)
+- **workbench**: Doctor command will create two `doc` directories if no `doc` directory is found ([43f7bfc9](https://github.com/dendronhq/dendron/commit/43f7bfc9)) --> ( 🙏 thanks to [Britt](https://github.com/bs) for the pull request)
 ### House Cleaning
 
 #### Dendron: Change Workspace will no longer create a workspace if no workspace exists
