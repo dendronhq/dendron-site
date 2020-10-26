@@ -2,7 +2,7 @@
 id: 533857a4-3dcb-478e-9877-5ab7f94ed6e6
 title: Mindmap View
 desc: ''
-updated: 1603426799330
+updated: 1603636828393
 created: 1603426485399
 ---
 

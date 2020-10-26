@@ -2,7 +2,7 @@
 id: 301e4129-6933-4be7-a4bd-8125171360d8
 title: Bundled Extensions
 desc: ''
-updated: 1596643515473
+updated: 1603636632507
 created: 1596643515473
 stub: false
 ---
@@ -41,3 +41,8 @@ Since Dendron runs on top of VSCode, it means that you also have access to thous
 
 ### Other
 - [Macros](https://marketplace.visualstudio.com/items?itemName=geddski.macros): Define custom macros 
+
+## Browser Extensions
+
+### Web Clipper
+- [Markdown Web](https://chrome.google.com/webstore/detail/markdownload-markdown-web/pcmpcfapbekmbjjkdalcgopdkipoggdi?hl=en-GB): markdown based web clipper

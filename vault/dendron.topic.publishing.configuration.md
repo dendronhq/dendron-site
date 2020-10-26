@@ -2,7 +2,7 @@
 id: ffa6a4ba-5eda-48c7-add5-8e2333ba27b4
 title: Configuration
 desc: ''
-updated: 1603565415154
+updated: 1603673851957
 created: 1600564020051
 toc: true
 nav_order: 3
@@ -58,7 +58,7 @@ List of hierarchies to publish
 - optional, path of your index (home page)
 - defaults to the first element of `siteHierarchies`
 
-#### siteRootDir: str
+#### siteRootDir
 
 Location of the directory where site will be build. Relative to your workspace
 

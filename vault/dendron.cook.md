@@ -2,7 +2,7 @@
 id: 401c5889-20ae-4b3a-8468-269def4b4865
 title: Cook
 desc: ''
-updated: 1603478117089
+updated: 1603684103523
 created: 1595952505024
 stub: false
 nav_order: 8.9
@@ -182,3 +182,46 @@ nodemon --watch {path/to/vault} --ext md dendron-cli buildSite --wsRoot {path/to
 ```
 
 - NOTE: you can combine this with incremental builds to have the best editing experience
+
+
+### Publish password protected site using AWS Amplify
+
+You can click [here](https://main.d19svbygngqnpb.amplifyapp.com/) to see a demo of the end result. 
+
+You can access the site with username: `dendron`, password: `hierarchy`
+
+
+#### Setup your github repo
+1. Create a new github repo using this [template](https://github.com/dendronhq/dendron-amplify-template/generate).
+1. In your Dendron workspace, remove the `docs` directory and clone your newly created repository 
+    ```sh
+    cd {your-workspace}
+    rm -r docs
+    git clone {your-repo} docs
+    ```
+
+#### Setup aws
+1. Create an [aws account](https://aws.amazon.com/)
+1. Login to your AWS account and go select the [Amplify Service](https://us-west-2.console.aws.amazon.com/amplify/home?region=us-west-2#/)
+    - ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/amplify.select.jpg)
+1. Follow the instructions [here](https://docs.aws.amazon.com/amplify/latest/userguide/getting-started.html) to connect your github with your amplify
+1. Follow the instructions [here](https://docs.aws.amazon.com/amplify/latest/userguide/access-control.html) to restrict access to your site.
+1. Verify that your site is now password protected
+
+#### Publish your notes
+
+1. Update `siteRepoDir` in `dendron.yml` with the location of your github directory
+    - Your `dendron.yml` should look similar to the one below
+      ```yml
+      site:
+          copyAssets: true
+          siteHierarchies:
+              - root
+          siteRootDir: docs
+          usePrettyRefs: true
+          siteRepoDir: docs
+      ```
+2. Run `> Dendron: Publish` to build your notes for publication and push your notes
+3. Your notes are now published privately behind a password
+
+
