@@ -2,12 +2,14 @@
 id: 401c5889-20ae-4b3a-8468-269def4b4865
 title: Cook
 desc: ''
-updated: 1603684103523
+updated: 1603684362608
 created: 1595952505024
-stub: false
 nav_order: 8.9
+toc: true
 ---
 # Cookbook
+
+## Table of Contents
 
 ## Bucket
 
@@ -188,7 +190,9 @@ nodemon --watch {path/to/vault} --ext md dendron-cli buildSite --wsRoot {path/to
 
 You can click [here](https://main.d19svbygngqnpb.amplifyapp.com/) to see a demo of the end result. 
 
-You can access the site with username: `dendron`, password: `hierarchy`
+You can access the site with username: `dendron`, password: `hierarchy`.
+
+- NOTE: this requires hosting your site on AWS. For most people, this will end up costing you a few cents a month. 
 
 
 #### Setup your github repo
