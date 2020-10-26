@@ -2,7 +2,7 @@
 id: c5e5adde-5459-409b-b34d-a0d75cbb1052
 title: Schema
 desc: ''
-updated: 1603565611274
+updated: 1603747828802
 created: 1595952505039
 stub: false
 ---
@@ -136,7 +136,8 @@ human readable description of the schema node. these will automatically when cre
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/schema-desc.gif)
 
 #### parent
-only required for schema [domain](https://www.dendron.so/notes/c6fd6bc4-7f75-4cbb-8f34-f7b99bfe2d50.html#domain)
+- only required for schema [domain](https://www.dendron.so/notes/c6fd6bc4-7f75-4cbb-8f34-f7b99bfe2d50.html#domain)
+- NOTE: at least one schema MUST have `parent: root` set 
 
 #### namespace
 
@@ -244,3 +245,15 @@ Schemas can be modified, created and deleted using the same lookup interface tha
 ## Example Schemas
 
 - [Project and Journal](https://gist.github.com/kevinslin/5ca7a6f25a239add5ea374f329e6a19e)
+
+## Troubleshooting
+
+### Error with parsing some schemas during initialization
+
+If you get this error, it means that Dendron encountered some malformed schemas during initialization. You can open the error message to see what schemas are affected.
+
+Common errors:
+- the YAML isn't valid (use http://www.yamllint.com/ to validate)
+- there is no schema with `parent: root` property 
+
+((ref: [[dendron.topic.schema]]#parent:#*))
