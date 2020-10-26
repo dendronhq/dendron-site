@@ -213,6 +213,12 @@ This is a cheatsheet for Dendron.
 
 <a href="https://www.loom.com/share/d49e5f4155af485cadc9cd810b6cab28"> <img src="https://cdn.loom.com/sessions/thumbnails/d49e5f4155af485cadc9cd810b6cab28-with-play.gif"> </a>
 
+### Dendron: Publish Pod
+- description: Publish your note to a different format/location
+- shortcuts: none
+
+
+
 ### Dendron: Copy Note URL
 - description: Get URL of current note from published site
 - shortcuts: 
@@ -238,6 +244,12 @@ This is a cheatsheet for Dendron.
 - shortcuts: none
 
 <a href="https://www.loom.com/share/bd045f708f8e474193de8e3de0dc820f"> <img style="" src="https://cdn.loom.com/sessions/thumbnails/bd045f708f8e474193de8e3de0dc820f-with-play.gif"> </a>
+
+### Dendron: Dump State
+- description: Dump internal state of Dendron inside logs
+- shortcuts: none
+
+
 
 ### Dendron:Dev: Open Logs
 - description: Open Dendron logs for current session
