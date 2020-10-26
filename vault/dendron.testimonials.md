@@ -2,7 +2,7 @@
 id: b08155fe-c5c6-4d4c-a737-d500923f35ad
 title: Testimonials
 desc: ''
-updated: 1599596104324
+updated: 1603730133240
 created: 1599596104324
 stub: false
 nav_order: 2.1
@@ -23,3 +23,6 @@ This page is a collection of nice things that people have said about Dendron. If
 
 ((ref: [[dendron.testimonials.tyler]]))
 - Tyler Nieman, Software engineeer/Illustrator
+
+((ref: [[dendron.testimonials.luke]]))
+- Luke Carrier, Site Reliability Engineer 
