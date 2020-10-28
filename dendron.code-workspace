@@ -2,15 +2,6 @@
     "folders": [
         {
             "path": "vault"
-        },
-        {
-            "path": "."
-        },
-        {
-            "path": "docs"
-        },
-        {
-            "path": "reports"
         }
     ],
     "settings": {
