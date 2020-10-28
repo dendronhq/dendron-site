@@ -21,7 +21,7 @@ name used for journal notes
 
 ### dendron.defaultJournalDateFormat
 - type: string
-- default: Y-MM-DD
+- default: Y.MM.DD
 
 date format used for journal notes
 
@@ -40,7 +40,7 @@ name used for scratch notes
 
 ### dendron.defaultScratchDateFormat
 - type: string
-- default: Y-MM-DD-HHmmss
+- default: Y.MM.DD.HHmmss
 
 date format used for scratch notes
 
@@ -56,6 +56,13 @@ strategy for adding new scratch notes
 - default: none
 
 override root url when getting note url
+
+### dendron.linkSelectAutoTitleBehavior
+- type: string
+- default: slug
+- options:  ['none', 'slug']
+
+Control title behavior when using selection2link with lookup
 
 ### dendron.defaultLookupCreateBehavior
 - type: string
@@ -77,11 +84,11 @@ location of dendron workspace
 
 control verbosity of dendron logs
 
-### dendron.useExperimentalLSPSupport
+### dendron.noServerMode
 - type: boolean
-- default: False
+- default: none
 
-launch dendron with lsp support
+revert server mode
 
 ### dendron.trace.server
 - type: string

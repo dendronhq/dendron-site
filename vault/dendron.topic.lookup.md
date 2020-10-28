@@ -2,7 +2,7 @@
 id: a7c3a810-28c8-4b47-96a6-8156b1524af3
 title: Lookup
 desc: ''
-updated: 1603566069834
+updated: 1603847080129
 created: 1595952505038
 stub: false
 ---
@@ -63,7 +63,13 @@ If you have text highlighted while creating a new note with a lookup, the new no
 - controls selection modifier
 - options
     - `selectionExtract`: selection is extracted to newly created note (default)
-    - `selection2link`: selection ist turned into a link to newly created note
+    - `selection2link`: selection is turned into a link to newly created note. note path is set to `{current-path}.{slug-of-selection}` 
+        - a [slug](https://stackoverflow.com/questions/19335215/what-is-a-slug) is the human readable portion of an url
+        <a href="https://www.loom.com/share/abaa8083d93f4192aa480f1acef1a8b7"> 
+        <img style="" src="https://cdn.loom.com/sessions/thumbnails/abaa8083d93f4192aa480f1acef1a8b7-with-play.gif"> </a>
+    - you can control this behavior using `dendron.linkSelectAutoTitleBehavior`
+
+((ref: [[dendron.topic.config]]#dendron.linkselectautotitlebehavior,1:#*))
 
 #### noteType
 - controls what sort of note is created

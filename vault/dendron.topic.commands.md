@@ -261,9 +261,7 @@ Create a new workspace
 
 Change into existing workspace
 
- Dendron will create a `dendron.code-workspace` file in specified directory and then open the workspace (if a workspace file already exists, it will use that). It will also create a `root.md` file in that directory if it doesn't exist (currently this is part of the internal working of dendron).
 
-Dendron **does not** delete or overwrite any files during the **Change Workspace** operation. 
 
 
 

@@ -2,7 +2,7 @@
 id: 401c5889-20ae-4b3a-8468-269def4b4865
 title: Cook
 desc: ''
-updated: 1603730242768
+updated: 1603816563670
 created: 1595952505024
 nav_order: 8.9
 toc: true
@@ -100,6 +100,10 @@ Dendron does not have a dedicated mobile client at this time. There are numerous
 ### WebClipper
 
 You can use the [markdownload-markdown-web](https://chrome.google.com/webstore/detail/markdownload-markdown-web/pcmpcfapbekmbjjkdalcgopdkipoggdi) extension to clip content as markdown from Chrome. 
+
+### Regex
+
+To get familiar with regex syntax, try [regexr](https://regexr.com/) is a great place to experiment with different queries.
 
 ## VSCode
 
