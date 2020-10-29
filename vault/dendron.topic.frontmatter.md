@@ -52,6 +52,10 @@ Node parent
 
 Node children
 
+### stub
+
+A Boolean that indicates that the note, before being created, would have been a stub
+
 ### uri
 
 Absolute filepath to the note
