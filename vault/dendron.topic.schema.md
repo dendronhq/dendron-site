@@ -223,8 +223,9 @@ This is extremely useful whenever you want to re-use the outline of a note. Exam
 
 ## Stubs
 
-Stubs are notes that don't exist but will show up in lookup results. There are two reasons why these notes might show up: 
-- they are the parent of a note deeper in the hierarchy (eg. `foo.bar` might be a stub for `foo.bar.foobar`)
+Stubs are notes that don't exist but that you might want to create. They will show up as suggestions in lookup results.
+There are two reasons why these suggested notes might show up: 
+- they are the uncreated parent of a note deeper in the hierarchy (eg. `foo.bar` might be a stub for `foo.bar.foobar`)
 - they are possible notes according to the schema
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/schema-plus.jpg)
