@@ -2,9 +2,8 @@
 id: 66727a39-d0a7-449b-a10d-f6c438185d7f
 title: Pods
 desc: ''
-updated: 1603333700168
+updated: 1603982102517
 created: 1602958663144
-stub: false
 ---
 
 # Pods 

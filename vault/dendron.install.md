@@ -2,10 +2,10 @@
 id: d95b93bf-5e6f-4dd0-b7d7-c8e29e061876
 title: Install
 desc: ''
-updated: 1595537796868
+updated: 1603982110734
 created: 1595537796868
-stub: false
 nav_order: 0.9
+nav_exclude: true
 ---
 
 # Getting Started
