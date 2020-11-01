@@ -2,10 +2,8 @@
 id: 97b90ae4-fedb-4927-bf3f-7f9fc472a939
 title: Zen
 desc: ''
-updated: 1595341882454
+updated: 1604235708979
 created: 1595341882454
-stub: false
-nav_order: 5
 ---
 
 ## On Hierarchies

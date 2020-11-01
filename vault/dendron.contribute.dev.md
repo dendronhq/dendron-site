@@ -1,11 +1,9 @@
 ---
-id: 3489b652-cd0e-4ac8-a734-08094dc043eb
+id: 81da87be-2d4e-47b5-a1d6-c0d647e1ab00
 title: Development
 desc: ''
-updated: 1604236002912
-created: 1598645869692
-stub: false
-nav_order: 9.6
+updated: 1604236048639
+created: 1604236041570
 ---
 
 # Development
