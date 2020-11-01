@@ -2,7 +2,7 @@
 id: b0fe6ef7-1553-4280-bc45-a71824c2ce36
 title: Dendron
 desc: ''
-updated: 1604242481139
+updated: 1604248143373
 created: 1595952505017
 stub: false
 ---
@@ -16,7 +16,7 @@ stub: false
 Read about the new features and fixes in our release notes
 </div>
 <div class="alert alert-primary" role="alert">
-Dendron is now out of preview. We also launched on <a href="https://www.producth nt.com/posts/dendron">Product Hunt</a>. Please leave us feedback there to spread the word!</div>
+Dendron is now out of preview. We also launched on <a href="https://www.producthunt.com/posts/dendron?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-dendron">Product Hunt</a>. Please leave us feedback there to spread the word!</div>
 
 # Dendron
 
