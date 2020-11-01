@@ -19,6 +19,14 @@ This is a cheatsheet for Dendron.
 
 # Commands
 ---
+## Lookup
+### Dendron: Contribute
+- description: Become an environmentalist and keep Dendron sustainable
+- shortcuts: none
+
+
+
+---
 ## Notes
 ### Dendron: Create Daily Journal Note
 - description: Create a global journal note
@@ -181,6 +189,18 @@ This is a cheatsheet for Dendron.
 
 
 
+### Dendron: Snapshot Vault
+- description: Create a snapshot of your vault
+- shortcuts: none
+
+
+
+### Dendron: Restore Vault
+- description: Restore your vault from a snapshot
+- shortcuts: none
+
+
+
 ### Dendron: Show Help
 - description: Dendron will open your current browser to the [[cheatsheet|dendron.cheatsheet]] page. 
 - shortcuts: none
@@ -235,8 +255,6 @@ This is a cheatsheet for Dendron.
 
 <a href="https://www.loom.com/share/c58edf543e234a8fa164095237579ccc"> <img style="" src="https://cdn.loom.com/sessions/thumbnails/c58edf543e234a8fa164095237579ccc-with-play.gif"> </a>
 
----
-## Lookup
 ---
 ## Dev
 ### Dendron: Doctor

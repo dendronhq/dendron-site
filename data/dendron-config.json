@@ -1,4 +1,20 @@
 {
+    "lookup": [
+        {
+            "key": "dendron.contributeToCause",
+            "title": "Dendron: Contribute",
+            "group": "lookup",
+            "desc": "Become an environmentalist and keep Dendron sustainable",
+            "skipDocs": false
+        },
+        {
+            "key": "dendron.updateSchema",
+            "title": "Dendron: Update Schema",
+            "desc": "Update schema",
+            "group": "lookup",
+            "skipDocs": true
+        }
+    ],
     "notes": [
         {
             "key": "dendron.gotoNote",
@@ -277,6 +293,24 @@
             "skipDocs": true
         },
         {
+            "key": "dendron.snapshotVault",
+            "title": "Dendron: Snapshot Vault",
+            "group": "workspace",
+            "desc": "Create a snapshot of your vault",
+            "docLink": "",
+            "docPreview": "",
+            "skipDocs": false
+        },
+        {
+            "key": "dendron.restoreVault",
+            "title": "Dendron: Restore Vault",
+            "group": "workspace",
+            "desc": "Restore your vault from a snapshot",
+            "docLink": "",
+            "docPreview": "",
+            "skipDocs": false
+        },
+        {
             "key": "dendron.showHelp",
             "title": "Dendron: Show Help",
             "group": "workspace",
@@ -357,15 +391,6 @@
             "docLink": "",
             "docPreview": "<a href=\"https://www.loom.com/share/c58edf543e234a8fa164095237579ccc\"> <img style=\"\" src=\"https://cdn.loom.com/sessions/thumbnails/c58edf543e234a8fa164095237579ccc-with-play.gif\"> </a>",
             "skipDocs": false
-        }
-    ],
-    "lookup": [
-        {
-            "key": "dendron.updateSchema",
-            "title": "Dendron: Update Schema",
-            "desc": "Update schema",
-            "group": "lookup",
-            "skipDocs": true
         }
     ],
     "dev": [

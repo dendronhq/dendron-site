@@ -2,12 +2,23 @@
 id: eea2b078-1acc-4071-a14e-18299fc28f47
 title: Commands
 desc: ''
-updated: 1603930427691
+updated: 1595261816971
 created: 1595261816971
 ---
 
-
 # Commands
+---
+## Lookup
+### Contribute
+- shortcuts: none
+
+
+Become an environmentalist and keep Dendron sustainable
+
+
+
+
+
 ---
 ## Notes
 ### Create Daily Journal Note
@@ -266,6 +277,26 @@ Change into existing workspace
 
 
 
+### Snapshot Vault
+- shortcuts: none
+
+
+Create a snapshot of your vault
+
+
+
+
+
+### Restore Vault
+- shortcuts: none
+
+
+Restore your vault from a snapshot
+
+
+
+
+
 ### Show Help
 - shortcuts: none
 
@@ -352,8 +383,6 @@ Build, commit and publish your notes with a single command
 
 <a href="https://www.loom.com/share/c58edf543e234a8fa164095237579ccc"> <img style="" src="https://cdn.loom.com/sessions/thumbnails/c58edf543e234a8fa164095237579ccc-with-play.gif"> </a>
 
----
-## Lookup
 ---
 ## Dev
 ### Doctor

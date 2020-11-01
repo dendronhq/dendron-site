@@ -84,12 +84,6 @@ location of dendron workspace
 
 control verbosity of dendron logs
 
-### dendron.noServerMode
-- type: boolean
-- default: none
-
-revert server mode
-
 ### dendron.trace.server
 - type: string
 - default: messages

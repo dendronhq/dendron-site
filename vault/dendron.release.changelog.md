@@ -2,12 +2,37 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1603847976348
+updated: 1604211238488
 created: 1601508213606
 stub: false
 ---
 
 # Changelog
+
+## 13.6
+
+### Features
+
+#### Add Contribute Command
+- **workbench:** ([130a58a](https://github.com/dendronhq/dendron/commit/130a58a62cc40eb4178afac554f8f4ff30c93055))
+
+((ref: [[dendron.topic.commands]]#contribute:#*))
+
+#### Add Snapshot Capability to Dendron
+- **workbench:**  ([3af64b7](https://github.com/dendronhq/dendron/commit/3af64b701d47ed28818d7e6017c758f63be617f0))
+
+((ref: [[dendron.topic.capabilities.snapshot]]))
+
+### Bug Fixes
+
+- **publishing:** use remark-abbr types from DT ([04be351](https://github.com/dendronhq/dendron/commit/04be351f79a0abf21cb1059fbb284630ab2688a6))
+
+## [0.13.5](https://github.com/dendronhq/dendron/compare/v0.13.4...v0.13.5) (2020-10-28)
+
+### Bug Fixes
+
+- **workbench:** tree view can delete notes with caps ([d37926d](https://github.com/dendronhq/dendron/commit/d37926d7f38d784f847a4c2a58fb75ba7c03b0e0))
+
 
 ## [0.13.4](https://github.com/dendronhq/dendron/compare/v0.13.4-alpha.1...v0.13.4) (2020-10-28)
 
@@ -21,8 +46,6 @@ This is the last phase in Dendron's server mode migration. All new workspaces ar
 As a reminder, [[server mode|dendron.roadmap.project.n.2020.server-migration]] is a re-architecture of Dendron that enables both better performance and a vast array of new features. 
 
 Finally, we do have an escape valve in things something goes terribly wrong. You can set the following option to revert server mode behavior. If you end up using this, please also cut as [a ticket]( https://github.com/dendronhq/dendron/issues/new?assignees=&labels=&template=bug_report.md&title=) or a message in [discord](https://discord.gg/QbKsNx). 
-
-((ref: [[dendron.topic.config]]#dendron.noservermode:#*))
 
 ### Enhancements
 - **notes:** selection2link will auto generate a title based on the selection ([9964339](https://github.com/dendronhq/dendron/commit/9964339138bde18dc022fdd62ce9ba9d529cfa2b))

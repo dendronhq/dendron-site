@@ -2,7 +2,7 @@
 id: b0fe6ef7-1553-4280-bc45-a71824c2ce36
 title: Dendron
 desc: ''
-updated: 1603579191402
+updated: 1604028795790
 created: 1595952505017
 stub: false
 ---
@@ -31,7 +31,7 @@ I originally created Dendron because I'd accumulated over **20k notes** on progr
 
 Traditional note-taking tools are often **too rigid** by having an in-flexible hierarchy that doesn't let you file a note in multiple places. Newer tools are **too flexible** by eschewing hierarchies altogether in favour of relying solely on backlinks. 
 
-Dendron finds the **usable center** between the two extremes by supporting the linking of any two arbitrary notes through backlinks while also maintaining a **canonical hierarchy** for every note. We do this through our **[hierarchal first approach to note taking](https://www.kevinslin.com/notes/3dd58f62-fee5-4f93-b9f1-b0f0f59a9b64.html)** that relies on the combination of [[hierarchies|dendron.topic.hierarchies]], [[schemas|dendron.topic.schema]], and [[path based lookups| dendron.topic.lookup]]. 
+Dendron finds the **usable center** between the two extremes by supporting backlinks of any two arbitrary notes while also maintaining a **canonical hierarchy** for every note. We do this through our **[hierarchal first approach to note taking](https://www.kevinslin.com/notes/3dd58f62-fee5-4f93-b9f1-b0f0f59a9b64.html)** that relies on the combination of [[hierarchies|dendron.topic.hierarchies]], [[schemas|dendron.topic.schema]], and [[path based lookups| dendron.topic.lookup]]. 
 
 With Dendron, you can **create, find, and collaborate** on information that **matters to you**.
 

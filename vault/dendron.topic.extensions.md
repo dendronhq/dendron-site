@@ -2,7 +2,7 @@
 id: 301e4129-6933-4be7-a4bd-8125171360d8
 title: Bundled Extensions
 desc: ''
-updated: 1603636632507
+updated: 1604209651815
 created: 1596643515473
 stub: false
 ---
@@ -38,9 +38,12 @@ Since Dendron runs on top of VSCode, it means that you also have access to thous
 ### Git
 - [Git Automator](https://marketplace.visualstudio.com/items?itemName=ivangabriele.vscode-git-add-and-commit): one command to commit and push all changes
 - [Git Doc](https://marketplace.visualstudio.com/items?itemName=vsls-contrib.gitdoc): auto-commit and (optionally) auto push your notes at fixed intervals
+- [Gitlens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens): Repository/File/Line history and annotations of all your files
 
 ### Other
 - [Macros](https://marketplace.visualstudio.com/items?itemName=geddski.macros): Define custom macros 
+- [Vim](https://marketplace.visualstudio.com/items?itemName=vscodevim.vim): VIM key bindings 😍
+- [Bookmarks](https://marketplace.visualstudio.com/items?itemName=alefragnani.Bookmarks): Bookmark lines within Files
 
 ## Browser Extensions
 
