@@ -2,7 +2,7 @@
 id: 1b1aef8e-c9d5-42de-b850-d1b1467cf88b
 title: 2020-10-19 Release Notes
 desc: ''
-updated: 1603685766621
+updated: 1604240260239
 created: 1603123991664
 ---
 # 2020-10-19 Release Notes (version 0.13)
@@ -51,7 +51,7 @@ Finally, a bunch of you have asked if you can support Dendron financially. The a
 
 ## Thank You
 
-Last and most of all, a big **thanks** to the following gardeners that brought up issues, contributions, and fixes to this release.
+Last and most of all, a big to the following gardeners that brought up issues, contributions, and fixes to this release.
 
 - [Britt](https://github.com/bs)
   - [silent log errors](https://github.com/dendronhq/dendron/issues/277)

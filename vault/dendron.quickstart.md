@@ -13,8 +13,8 @@ This guide will help get you started with Dendron.
 
 ## Pre-requisites
 
-- [[Install Dendron |dendron.install]]
-<!-- - Get familiar with the [basics](https://code.visualstudio.com/docs/editor/codebasics) of VSCode, an open source [IDE](https://www.codecademy.com/articles/what-is-an-ide) from Microsoft (and what Dendron is built on top of)  -->
+- [[Install Dendron |dendron.guides.install]]
+  <!-- - Get familiar with the [basics](https://code.visualstudio.com/docs/editor/codebasics) of VSCode, an open source [IDE](https://www.codecademy.com/articles/what-is-an-ide) from Microsoft (and what Dendron is built on top of)  -->
 
 ## The Trail 🥾
 
@@ -35,7 +35,7 @@ This section covers the basics of Dendron. Get started on the right foot and sta
 This section covers advanced functionality in Dendron. Become a seasoned backpacker by mastering these trails.
 
 - [ ] Check out our [[case studies | dendron.case-studies]]
-- [ ] Read our [[FAQ | dendron.faq ]]
+- [ ] Read our [[FAQ | dendron.faq]]
 - [ ] Explore the [[graph view |dendron.topic.graph-view]]
 - [ ] Execute custom [[Dendron commands |dendron.topic.commands]]
 - [ ] Understand [[frontmatter |dendron.topic.frontmatter]]
@@ -46,7 +46,8 @@ This section covers advanced functionality in Dendron. Become a seasoned backpac
 
 This section covers additional topics and the wider ecosystem around Dendron
 
-- [ ] Find [[recipes |dendron.cook]] to common operations (or contribute your own)
+- [ ] Find [[recipes |dendron.guides.cook]] to common operations (or contribute your own)
 - [ ] Found an issue or want to submit a feature request? Do so on [github](https://github.com/dendronhq/dendron/issues)
 - [ ] See and vote on what's coming next by checking out our [public roadmap](https://github.com/orgs/dendronhq/projects/1)
 - [ ] Stay tuned for more wilderness coming soon!
+

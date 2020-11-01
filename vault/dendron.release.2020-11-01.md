@@ -1,11 +1,9 @@
 ---
-id: 2e9cebfa-a93b-43b9-8065-9259d969f269
-title: New
+id: 98ad9b6b-53f3-4883-939e-e14055f2cac7
+title: '2020-11-01'
 desc: ''
-updated: 1604240745377
-created: 1603080088933
-published: false
-nav_exclude: true
+updated: 1604241480611
+created: 1604241475533
 ---
 
 # 2020-11-01 Release Notes (version 0.14)

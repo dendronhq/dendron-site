@@ -15,7 +15,8 @@ created: 1595261816971
 
 Become an environmentalist and keep Dendron sustainable
 
-
+ This command takes you to Dendron's [Environmentalist](https://accounts.dendron.so/account/subscribe) plans.
+Environmentalists are users that can support Dendron financially through a monthly contribution. Environmentalist get access to insider builds, priority support, and access to exclusive dev channels. 
 
 
 
@@ -283,7 +284,8 @@ Change into existing workspace
 
 Create a snapshot of your vault
 
-
+ Takes a snapshot of your entire vault, including assets. This command will ignore version control folders like .git when making a snapshot.
+Snapshots are saved under {workspace}/snapshots/{timestamp} 
 
 
 
@@ -293,7 +295,7 @@ Create a snapshot of your vault
 
 Restore your vault from a snapshot
 
-
+ Restores your vault based on a snapshot. When restoring, it will over-write any notes that have the same name as notes in the snapshot. It will ignore version control directories like .git when restoring your vault 
 
 
 

@@ -5,6 +5,7 @@
             "title": "Dendron: Contribute",
             "group": "lookup",
             "desc": "Become an environmentalist and keep Dendron sustainable",
+            "docs": "This command takes you to Dendron's [Environmentalist](https://accounts.dendron.so/account/subscribe) plans.\nEnvironmentalists are users that can support Dendron financially through a monthly contribution. Environmentalist get access to insider builds, priority support, and access to exclusive dev channels.",
             "skipDocs": false
         },
         {
@@ -24,7 +25,7 @@
             "skipDocs": true
         },
         {
-            "key": "dendron.createDailyJournalNote",
+            "key": "dendron.createDailyJornalNote",
             "title": "Dendron: Create Daily Journal Note",
             "group": "notes",
             "keybindings": {
@@ -297,6 +298,7 @@
             "title": "Dendron: Snapshot Vault",
             "group": "workspace",
             "desc": "Create a snapshot of your vault",
+            "docs": "Takes a snapshot of your entire vault, including assets. This command will ignore version control folders like .git when making a snapshot.\nSnapshots are saved under {workspace}/snapshots/{timestamp}",
             "docLink": "",
             "docPreview": "",
             "skipDocs": false
@@ -306,6 +308,7 @@
             "title": "Dendron: Restore Vault",
             "group": "workspace",
             "desc": "Restore your vault from a snapshot",
+            "docs": "Restores your vault based on a snapshot. When restoring, it will over-write any notes that have the same name as notes in the snapshot. It will ignore version control directories like .git when restoring your vault",
             "docLink": "",
             "docPreview": "",
             "skipDocs": false

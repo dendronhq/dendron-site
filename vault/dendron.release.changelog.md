@@ -2,7 +2,7 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1604237403748
+updated: 1604240879060
 created: 1601508213606
 stub: false
 ---
@@ -22,11 +22,7 @@ stub: false
 
 - **workbench:**  ([3af64b7](https://github.com/dendronhq/dendron/commit/3af64b701d47ed28818d7e6017c758f63be617f0))
 
-((ref: [[dendron.topic.capabilities.snapshot]]))
-
-### Bug Fixes
-
-- **publishing:** use remark-abbr types from DT ([04be351](https://github.com/dendronhq/dendron/commit/04be351f79a0abf21cb1059fbb284630ab2688a6))
+((ref: [[dendron.topic.capabilities.snapshot]]#Snapshots:#*))
 
 ## [0.13.5](https://github.com/dendronhq/dendron/compare/v0.13.4...v0.13.5) (2020-10-28)
 
@@ -121,7 +117,7 @@ Previously, if you wanted to use an existing folder (aka vault) with a workspace
 
 If you've used `Change Workspace` to bootstrap existing files, we recommend using the following guide to migrate your notes to a new workspace. 
 
-((ref: [[dendron.cook]]#use dendron with a current folder:#*))
+((ref: [[dendron.guides.cook]]#use dendron with a current folder:#*))
 
 ## [0.13.2](https://github.com/dendronhq/dendron/compare/v0.13.2-alpha.2...v0.13.2) (2020-10-22)
 
@@ -251,7 +247,7 @@ Timestamps now have human friendly decorators on the side.
 
 ### Documentation
 
-((ref: [[dendron.troubleshooting]]#error upgrading:#*))
+((ref: [[dendron.guides.troubleshooting]]#error upgrading:#*))
 
 ## [0.12.8](https://github.com/dendronhq/dendron/compare/v0.12.8-alpha.2...v0.12.8) (2020-10-14)
 
@@ -283,9 +279,9 @@ Today's update makes **updated** update!
 
 ((ref: [[dendron.topic.extensions]]#useful extensions))
 
-((ref: [[dendron.tips]]#copy and paste web content into dendron:#*))
+((ref: [[dendron.guides.tips]]#copy and paste web content into dendron:#*))
 
-((ref: [[dendron.cook]]#mobile support:#*))
+((ref: [[dendron.guides.cook]]#mobile support:#*))
 
 ## [0.12.7](https://github.com/dendronhq/dendron/compare/v0.12.7-alpha.10...v0.12.7) (2020-10-13)
 

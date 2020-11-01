@@ -2,11 +2,10 @@
 id: 8bc9b3f1-8508-4d3a-a2de-be9f12ef1821
 title: Tags
 desc: ''
-updated: 1601910058115
+updated: 1604239992867
 created: 1601910058115
 stub: false
 ---
-
 # Tags
 
 Besides hierarchies, Dendron also supports tags. We recommend that you use the following syntax for tags:
@@ -22,7 +21,6 @@ You get a few advantages for structuring tags in this format.
 3. You can deeply nest tags by adding additional levels to your hierarchies
 4. You can use autocomplete to create tags
 
-
 ## Pretty Tags
 
 You can format your tags to look like regular tags wiki-link aliases
@@ -33,4 +31,5 @@ You can format your tags to look like regular tags wiki-link aliases
 
 You can further customize the look of tags in the preview by using the following CSS modification.
 
-((ref: [[dendron.tips]]#stylized tags using custom css:#*))
+((ref: [[dendron.guides.tips]]#stylized tags using custom css:#*))
+

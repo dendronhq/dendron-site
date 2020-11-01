@@ -6,7 +6,6 @@ updated: 1604028795790
 created: 1595952505017
 stub: false
 ---
-
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
@@ -44,6 +43,7 @@ Whether you organize your notes with [PARA](https://fortelabs.co/blog/para/) or 
 Think of it as a [second brain](https://www.buildingasecondbrain.com/) to help you **make sense** of all the information you care about.
 
 Some popular use cases include:
+
 - project management 
 - learning & academia
 - personal knowledge base 
@@ -51,9 +51,9 @@ Some popular use cases include:
 - CRM to keep track of clients, friends and enemies
 - {Your Use Case Here}
 
-## Getting Started 
+## Getting Started
 
-((ref:[[dendron.install]]#Getting Started,1:#Install))
+((ref:[[dendron.guides.install]]#Getting Started,1:#Install))
 
 ## Onboarding
 
@@ -69,18 +69,17 @@ You can find a rough transcript of this onboarding [[here|dendron.ref.transcript
 
 To stay up to date on Dendron developments and all things knowledge management, you can follow us at [@dendronhq](https://twitter.com/dendronhq) or join us on [discord](https://discord.gg/6j85zNX)! 
 
-
 ## Features
 
 See our core [[features | dendron.features]] that help you manage your notes.
 
 ## Getting Started
+
 To get started, you can follow the instructions in [[quickstart | dendron.quickstart]].
 
 ## Motivation
 
 > "We are overwhelmed with information and we don't have the tools to properly index and filter through it. [The development of these tools, which] will give society access to and command over the inherited knowledge of the ages [should] be the first objective of our scientist" - Vannevar Bush, 1945
-
 
 ## You Are Here
 
@@ -101,3 +100,4 @@ We welcome community contributions and pull requests. See [CONTRIBUTING](https:/
 Dendron is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE Version 3.
 
 See [LICENSE](https://github.com/dendronhq/dendron/blob/master/LICENSE.md) and [NOTICE](https://github.com/dendronhq/dendron/blob/master/NOTICE.md) for more information.
+

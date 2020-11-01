@@ -2,10 +2,8 @@
 id: 26d66e84-6e4f-4688-bf6e-af070def7c38
 title: Settings
 desc: ''
-updated: 1600729806764
+updated: 1604238328894
 created: 1600729806764
-stub: false
-nav_order: 4.7
 ---
 
 # Settings
