@@ -2,7 +2,7 @@
 id: 98ad9b6b-53f3-4883-939e-e14055f2cac7
 title: 2020-11-01 Release Notes
 desc: ''
-updated: 1604248069215
+updated: 1604248991598
 created: 1604241475533
 ---
 
@@ -22,9 +22,6 @@ Concretely, this means a few things:
 As part of getting out of preview, we are launching on [Product Hunt](https://www.producthunt.com/posts/dendron), a popular online catalogue for new products. If Dendron has been helpful in your life, we would appreciate it 🙏 if you could leave us some comments there. This will help new people discover our community!
 
 <a href="https://www.producthunt.com/posts/dendron?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-dendron" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=273037&theme=light" alt="Dendron - A better way to know | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
-
-### Table of Contents
-
 
 ### Highlights
 - complete [[server migration|dendron.roadmap.project.n.2020.server-migration]] for all users
