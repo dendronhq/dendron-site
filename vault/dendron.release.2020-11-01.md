@@ -1,8 +1,8 @@
 ---
 id: 98ad9b6b-53f3-4883-939e-e14055f2cac7
-title: '2020-11-01'
+title: 2020-11-01 Release Notes
 desc: ''
-updated: 1604241480611
+updated: 1604248069215
 created: 1604241475533
 ---
 
@@ -23,7 +23,7 @@ As part of getting out of preview, we are launching on [Product Hunt](https://ww
 
 <a href="https://www.producthunt.com/posts/dendron?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-dendron" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=273037&theme=light" alt="Dendron - A better way to know | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
 
-## Table of Contents
+### Table of Contents
 
 
 ### Highlights

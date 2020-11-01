@@ -2,7 +2,7 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1604240879060
+updated: 1604241968682
 created: 1601508213606
 stub: false
 ---
@@ -47,8 +47,6 @@ Finally, we do have an escape valve in things something goes terribly wrong. You
 ### Enhancements
 
 - **notes:** selection2link will auto generate a title based on the selection ([9964339](https://github.com/dendronhq/dendron/commit/9964339138bde18dc022fdd62ce9ba9d529cfa2b))
-
-((ref: [[dendron.topic.lookup]]#selectiontype:#*))
 
 - **workbench:** graceful failure on bad schema ([4db5064](https://github.com/dendronhq/dendron/commit/4db5064e4eef61d9c95b9abe34f2dec41550bd9d))
   - instead of refusing to initialize, Dendron will skip bad schemas and generate an error report post-startup
@@ -115,10 +113,6 @@ As a reminder, dendrologist are active members of the community who are recogniz
 
 Previously, if you wanted to use an existing folder (aka vault) with a workspace, we recommended you run `Change Workspace` which would create a Dendron workspace **inside** the folder if it didn't exist. This turns out to be an anti-pattern that interferes with features like publishing which expect the workspace to be in a separate folder from its vaults.
 
-If you've used `Change Workspace` to bootstrap existing files, we recommend using the following guide to migrate your notes to a new workspace. 
-
-((ref: [[dendron.guides.cook]]#use dendron with a current folder:#*))
-
 ## [0.13.2](https://github.com/dendronhq/dendron/compare/v0.13.2-alpha.2...v0.13.2) (2020-10-22)
 
 ### Features
@@ -156,7 +150,7 @@ You will now get a warning if you are trying to save a badly formatted schema.
 
 Documentation for pods has been re-written to reflect recent changes with pods
 
-((ref: [[dendron.topic.pod]]))
+((ref: [[dendron.topic.pod]]#pods:#*))
 
 ## [0.13.1](https://github.com/dendronhq/dendron/compare/v0.13.1-alpha.2...v0.13.1) (2020-10-21)
 
