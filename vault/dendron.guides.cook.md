@@ -2,7 +2,7 @@
 id: 401c5889-20ae-4b3a-8468-269def4b4865
 title: Cook
 desc: ''
-updated: 1604329077020
+updated: 1604418663503
 created: 1595952505024
 nav_order: 8.9
 toc: true
@@ -112,6 +112,15 @@ You can use the [markdownload-markdown-web](https://chrome.google.com/webstore/d
 
 To get familiar with regex syntax, try [regexr](https://regexr.com/) is a great place to experiment with different queries.
 
+## Markdown Preview
+
+### Prevent newly opened files from replacing the preview pane?
+
+Set the following option in your workspace settings
+
+```json
+"markdown-preview-enhanced.automaticallyShowPreviewOfMarkdownBeingEdited": true,
+```
 ## VSCode
 
 ### Use Dendron with a current folder
@@ -144,6 +153,12 @@ There are usually two scenarios:
 - for 2, you have a few options
   - a. initialize a new workspace in a different directory. open the settings using `> Open User Workspace settings (JSON)`. change the folder to the path of your vault in the initial workspace. run `> Reload Window` for the changes to take affect
   - b. use a different version of vscode to open the same workspace (eg. vscode insider, vscodium, vscode regular). you need to do this because vscode will re-use the same window when opening the same workspace
+
+### Change the sorting order in the outline Panel
+
+Click the three little dots next to outline to change the sorting order. You can sort by **Name** (alphabetical) or **Position** (linear order)
+
+![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/cook.vscode.outline.jpg)
 
 ## Navigation
 
