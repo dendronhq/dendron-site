@@ -2,7 +2,7 @@
 id: 45cfb9f2-46cf-4f67-a41e-834818fbd06e
 title: Multi Vault Support
 desc: ''
-updated: 1603403436213
+updated: 1604434066890
 created: 1599501659137
 stub: false
 start: 2020.10.07
@@ -93,6 +93,10 @@ This enables many use cases like keeping a private local only vault and a synced
 
 - navigating to `[[foo.two]]` will directly navigate to the note since it is unique across all vaults
 - navigating to `[[$vault1/foo]]` will open foo in vault1 
+
+### Moving Notes Between Vaults
+
+- TBD
 
 ### Publishing Notes
 ((ref: [[dendron.roadmap.project.n.2020.multi-vault]]#file layout,1:#*))

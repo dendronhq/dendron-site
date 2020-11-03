@@ -2,7 +2,7 @@
 id: 8b03ed06-4f46-46e0-8652-c6abf2266a79
 title: Dendron-cli
 desc: ''
-updated: 1603302376498
+updated: 1604445345059
 created: 1599709645355
 stub: false
 ---
@@ -24,7 +24,6 @@ npm install -g @dendronhq/dendron-cli
 dendron-cli <command>
 
 Commands:
-  dendron-cli backfill    backfill frontmatter
   dendron-cli build-site  build static site
   dendron-cli exportPod   export a pod
   dendron-cli importPod   import a pod
