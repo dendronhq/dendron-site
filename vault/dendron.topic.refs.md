@@ -83,7 +83,7 @@ A note reference offset is a way to skip a number of lines when using a note ref
 
 <a href="https://www.loom.com/share/31cb62916586453f8475f94ba68b74a1">  <img style="" src="https://cdn.loom.com/sessions/thumbnails/31cb62916586453f8475f94ba68b74a1-with-play.gif"> </a>
 
-## Wildcard Header Ref
+## Wildcard Header Reference
 
 When you're referencing a header by reference, sometimes you don't care what the next header is, just that the reference covers all text up to the next header. You can now specify this using the `*` symbol in a header reference.
 
@@ -95,3 +95,8 @@ For example, the following would reference the content from header1 to the next 
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/refs.wildcard.gif)
 
+## Recursive Reference
+
+Note references can refer to notes with references inside. Dendron current supports references two levels deep. This applies to both the **local preview** as well as **publishing**.
+
+![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/refs.recursion.jpg)

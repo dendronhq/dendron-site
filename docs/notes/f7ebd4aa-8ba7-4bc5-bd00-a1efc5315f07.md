@@ -1,15 +1,13 @@
 ---
-custom: {}
 id: f7ebd4aa-8ba7-4bc5-bd00-a1efc5315f07
 title: Workbench
 desc: ''
-updated: 1595170237255
+updated: 1603381090268
 created: 1595170237255
-data: {}
-fname: dendron.topic.workbench
-stub: false
 parent: 7a7af2fa-b9d0-4adc-81e6-f03186123539
 children: []
+stub: false
+fname: dendron.topic.workbench
 hpath: dendron.topic.workbench
 ---
 # Workbench
@@ -21,6 +19,11 @@ The Dendron workbench is the overall UI that surrounds the editor. It is equival
 > Image from [Visual Studio Docs](https://code.visualstudio.com/api/extension-capabilities/extending-workbench)
 
 Dendron has a few custom workbench components to deal with hierarchal notes.
+
+## Outline View
+
+<a href="https://www.loom.com/share/41d1bd75be8e4fa0b0666b6e8f22174b"> 
+<img style="" src="https://cdn.loom.com/sessions/thumbnails/41d1bd75be8e4fa0b0666b6e8f22174b-with-play.gif"> </a>
 
 ## Dendron Tree View
 
@@ -72,3 +75,4 @@ You can use the `toggleEditorWidth` command with a hotkey to quickly expand the 
 
 ### Useful Shortcuts
 -->
+

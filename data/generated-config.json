@@ -11,7 +11,7 @@
     },
     "dendron.defaultJournalDateFormat": {
         "type": "string",
-        "default": "Y-MM-DD",
+        "default": "Y.MM.DD",
         "description": "date format used for journal notes"
     },
     "dendron.defaultJournalAddBehavior": {
@@ -32,7 +32,7 @@
     },
     "dendron.defaultScratchDateFormat": {
         "type": "string",
-        "default": "Y-MM-DD-HHmmss",
+        "default": "Y.MM.DD.HHmmss",
         "description": "date format used for scratch notes"
     },
     "dendron.defaultScratchAddBehavior": {
@@ -49,6 +49,15 @@
     "dendron.copyNoteUrlRoot": {
         "type": "string",
         "description": "override root url when getting note url"
+    },
+    "dendron.linkSelectAutoTitleBehavior": {
+        "type": "string",
+        "description": "Control title behavior when using selection2link with lookup",
+        "enum": [
+            "none",
+            "slug"
+        ],
+        "default": "slug"
     },
     "dendron.defaultLookupCreateBehavior": {
         "default": "selectionExtract",
@@ -73,11 +82,6 @@
             "info",
             "error"
         ]
-    },
-    "dendron.useExperimentalLSPSupport": {
-        "type": "boolean",
-        "default": false,
-        "description": "launch dendron with lsp support"
     },
     "dendron.trace.server": {
         "enum": [

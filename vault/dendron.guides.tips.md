@@ -2,10 +2,8 @@
 id: 692fa114-f798-467f-a0b9-3cccc327aa6f
 title: Tips
 desc: ''
-updated: 1595614204291
+updated: 1604416151561
 created: 1595614204291
-stub: false
-nav_order: 7
 ---
 
 ## Bucket
@@ -307,6 +305,14 @@ You can see a video of this workflow in the video below.
 
 <a href="https://www.loom.com/share/dd27df6d556d4ba6b28b2028ca7d1455"> 
 <img style="" src="https://cdn.loom.com/sessions/thumbnails/dd27df6d556d4ba6b28b2028ca7d1455-with-play.gif"> </a>
+
+### Always show preview of md being edited
+
+Set the following option in your workspace settings
+
+```json
+"markdown-preview-enhanced.automaticallyShowPreviewOfMarkdownBeingEdited": true,
+```
 
 
 ## Snippets

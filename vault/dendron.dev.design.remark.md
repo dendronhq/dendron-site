@@ -8,7 +8,6 @@ stub: false
 ---
 
 
-
 # Remark
 
 ## Summary

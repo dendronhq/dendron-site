@@ -2,7 +2,7 @@
 id: 2d0f95dd-89f9-4f7b-a945-acf059b07717
 title: Plugin
 desc: ''
-updated: 1599073669594
+updated: 1604341966162
 created: 1599073669594
 stub: false
 ---
@@ -91,3 +91,7 @@ showWelcomeOrWhatsNew {
 }
 
 ```
+
+
+## SetupWorkspace
+- note: `dendron.code-workspace` is completely overwritten when running setup

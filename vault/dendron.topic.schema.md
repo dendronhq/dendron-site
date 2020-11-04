@@ -2,7 +2,7 @@
 id: c5e5adde-5459-409b-b34d-a0d75cbb1052
 title: Schema
 desc: ''
-updated: 1595952505039
+updated: 1603747828802
 created: 1595952505039
 stub: false
 ---
@@ -37,7 +37,6 @@ Schemas will autosuggest valid children when you create a new project.
 If you accidentally do a typo, your schema will let you know that you have an inconsistency. 
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/schema.unknown.gif)
-
 
 ## Schema Anatomy
 
@@ -137,7 +136,8 @@ human readable description of the schema node. these will automatically when cre
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/schema-desc.gif)
 
 #### parent
-only required for schema [domain](https://www.dendron.so/notes/c6fd6bc4-7f75-4cbb-8f34-f7b99bfe2d50.html#domain)
+- only required for schema [domain](https://www.dendron.so/notes/c6fd6bc4-7f75-4cbb-8f34-f7b99bfe2d50.html#domain)
+- NOTE: at least one schema MUST have `parent: root` set 
 
 #### namespace
 
@@ -201,7 +201,7 @@ This will match the following queries
 list of ids of schemas that are the child of the current schema
 
 #### template
-a template you can apply to all notes that match this schema
+a template you can apply to all notes that match this schema. See **Schema Templates** for more details.
 ```yml
 template:
   # identifier for the template (for a note based template, it would be the name of the note)
@@ -213,9 +213,9 @@ template:
 
 ## Schema Templates
 
-Schema templates let you specify a pre-defined template that will automatically be applied to all notes that match the template. You can see a video of how this works below.
+Schema templates let you designate a note as a **template**. Newly created notes that match a schema with a template will have both the contents and custom frontmatter of the template note applied at creation.
 
-This is extremely useful whenver you want to re-use the outline of a note. Examples include daily journals, weekly shopping lists, and weekly reviews.  
+This is extremely useful whenever you want to re-use the outline of a note. Examples include daily journals, weekly shopping lists, and weekly reviews.  
 
 <a href="https://www.loom.com/share/481b7ab051394c1caa383383bd265755"> 
 <img style="" src="https://cdn.loom.com/sessions/thumbnails/481b7ab051394c1caa383383bd265755-with-play.gif"> 
@@ -245,3 +245,15 @@ Schemas can be modified, created and deleted using the same lookup interface tha
 ## Example Schemas
 
 - [Project and Journal](https://gist.github.com/kevinslin/5ca7a6f25a239add5ea374f329e6a19e)
+
+## Troubleshooting
+
+### Error with parsing some schemas during initialization
+
+If you get this error, it means that Dendron encountered some malformed schemas during initialization. You can open the error message to see what schemas are affected.
+
+Common errors:
+- the YAML isn't valid (use http://www.yamllint.com/ to validate)
+- there is no schema with `parent: root` property 
+
+((ref: [[dendron.topic.schema]]#parent:#*))

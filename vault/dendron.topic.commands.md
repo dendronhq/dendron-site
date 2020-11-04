@@ -8,6 +8,19 @@ created: 1595261816971
 
 # Commands
 ---
+## Lookup
+### Contribute
+- shortcuts: none
+
+
+Become an environmentalist and keep Dendron sustainable
+
+ This command takes you to Dendron's [Environmentalist](https://accounts.dendron.so/account/subscribe) plans.
+Environmentalists are users that can support Dendron financially through a monthly contribution. Environmentalist get access to insider builds, priority support, and access to exclusive dev channels. 
+
+
+
+---
 ## Notes
 ### Create Daily Journal Note
 - shortcuts: 
@@ -261,9 +274,28 @@ Create a new workspace
 
 Change into existing workspace
 
- Dendron will create a `dendron.code-workspace` file in specified directory and then open the workspace (if a workspace file already exists, it will use that). It will also create a `root.md` file in that directory if it doesn't exist (currently this is part of the internal working of dendron).
 
-Dendron **does not** delete or overwrite any files during the **Change Workspace** operation. 
+
+
+
+### Snapshot Vault
+- shortcuts: none
+
+
+Create a snapshot of your vault
+
+ Takes a snapshot of your entire vault, including assets. This command will ignore version control folders like .git when making a snapshot.
+Snapshots are saved under {workspace}/snapshots/{timestamp} 
+
+
+
+### Restore Vault
+- shortcuts: none
+
+
+Restore your vault from a snapshot
+
+ Restores your vault based on a snapshot. When restoring, it will over-write any notes that have the same name as notes in the snapshot. It will ignore version control directories like .git when restoring your vault 
 
 
 
@@ -319,6 +351,16 @@ Export notes to an external data source. Currently only JSON is supported.
 
 <a href="https://www.loom.com/share/d49e5f4155af485cadc9cd810b6cab28"> <img src="https://cdn.loom.com/sessions/thumbnails/d49e5f4155af485cadc9cd810b6cab28-with-play.gif"> </a>
 
+### Publish Pod
+- shortcuts: none
+
+
+Publish your note to a different format/location
+
+
+
+
+
 ### Copy Note URL
 - shortcuts: 
   - mac: `cmd+shift+u`
@@ -344,8 +386,6 @@ Build, commit and publish your notes with a single command
 <a href="https://www.loom.com/share/c58edf543e234a8fa164095237579ccc"> <img style="" src="https://cdn.loom.com/sessions/thumbnails/c58edf543e234a8fa164095237579ccc-with-play.gif"> </a>
 
 ---
-## Lookup
----
 ## Dev
 ### Doctor
 - shortcuts: none
@@ -358,6 +398,16 @@ Auto fix issues with frontmatter
 - setup a `docs` folder if it doesn't exist. Required if you want to [[publish | dendron.topic.publishing]] your notes 
 
 <a href="https://www.loom.com/share/bd045f708f8e474193de8e3de0dc820f"> <img style="" src="https://cdn.loom.com/sessions/thumbnails/bd045f708f8e474193de8e3de0dc820f-with-play.gif"> </a>
+
+### Dump State
+- shortcuts: none
+
+
+Dump internal state of Dendron inside logs
+
+ This is useful when diagnosing issues in Dendron 
+
+
 
 ### Dendron:Dev: Open Logs
 - shortcuts: none

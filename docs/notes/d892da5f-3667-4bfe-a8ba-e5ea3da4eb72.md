@@ -1,17 +1,16 @@
 ---
-start: 2020.10.07
-end: 2020.11.29
-status: Next
 id: d892da5f-3667-4bfe-a8ba-e5ea3da4eb72
 title: Long term sustainability v0
 desc: ''
 updated: 1599501881180
 created: 1599501881180
-data: {}
-fname: dendron.roadmap.project.n.2020.long-term-sustainability
-stub: false
 parent: 58247dfb-55b4-4269-9b37-42a90a0045ef
 children: []
+stub: false
+start: 2020.10.07
+end: 2020.11.29
+status: Next
+fname: dendron.roadmap.project.n.2020.long-term-sustainability
 hpath: dendron.roadmap.project.n.2020.long-term-sustainability
 ---
 # Long term sustainability v0
@@ -30,7 +29,7 @@ Kevin wants to work on Dendron full time for the forseeable future and would lik
 
 - [x] come up with different revenue plans
 - [ ] launch the **environmentalist plan**
-  - optional one time/re-curring payment to support development of Dendron
+  - re-curring payment to support development of Dendron
   - access to special once a month zoom chat about features
   - swag
   - discord icon
@@ -41,7 +40,7 @@ Kevin wants to work on Dendron full time for the forseeable future and would lik
 - server side features 
   - private hosting
   - native sync
-  - etc.
+  - server side pods (eg. everytime you add data to airtable, add an entry to Dendron)
 
 ## Links
 
@@ -74,4 +73,5 @@ Kevin wants to work on Dendron full time for the forseeable future and would lik
     - theia 
     - vscodium
   - charge a pay what you can model?
-- wyswg @jojanaho
+- wyswg client
+

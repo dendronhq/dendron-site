@@ -2,7 +2,7 @@
 id: 725d99be-fadd-4464-88c3-0a5fcc7292c7
 title: Server Migration
 desc: ''
-updated: 1599501616541
+updated: 1603982170477
 created: 1599501616541
 stub: false
 start: 2020.09.23
@@ -13,7 +13,7 @@ status: In Progress
 
 ## Goals
 
-Migrate the Dendron to client <-> server architecture
+Migrate the Dendron to (local) client <-> server architecture
 
 ## Details
 
@@ -56,14 +56,17 @@ Instead of calling the engine directly, the Dendron extension, as well as relate
     - [x] archive hierarchy
     - [x] refactor hiearchy
     - [x] doctor
-- [ ] migrate schema watcher to server
-- [ ] migrate bundled extensions to server model
 - [x] integration tests for all server functionality
 
 ## Next
+- migrate bundled extensions to server model
 - use custom goto definition provider 
 - use custom backlink definition provider
 - use schema based completions
+
+## Configuration
+
+To enable server mode, update the following setting in your workspace settings `"dendron.useExperimentalLSPSupport": true`. Run `> Developer: Reload Window` afterwards for the changes to take effect.
 
 ## Links
 - [project docs](https://dendron.so/notes/725d99be-fadd-4464-88c3-0a5fcc7292c7.html)

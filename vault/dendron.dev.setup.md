@@ -2,7 +2,7 @@
 id: 64f0e2d5-2c83-43df-9144-40f2c68935aa
 title: Setup
 desc: ''
-updated: 1598651458825
+updated: 1603252450553
 created: 1598651458825
 stub: false
 ---
@@ -51,7 +51,6 @@ To continuously compile all dependencies, run the following
 ```sh
 ./bootstrap/scripts/watch.sh
 ```
-
 ## Troubleshooting
 
 In case something something goes wrong with a build step or you want to save time by not running everything, `init.sh` is just a thin wrapper around the following scripts, each of which can be run individually
@@ -63,3 +62,9 @@ In case something something goes wrong with a build step or you want to save tim
  cd packages/plugin-core/
  ./scripts/sync_vault.sh
 ```
+
+## Testing
+- see [[Testing|dendron.dev.testing]]
+
+## Debugging
+- see [[Debugging|dendron.dev.debug]]

@@ -15,6 +15,7 @@ schemas:
 - id: faq
 - id: features
 - id: principles
+  desc: what we stand for
 - id: todo
 - id: mission
   pattern: "mission-statement"
@@ -24,6 +25,7 @@ schemas:
     - template
 - id: topic
   namespace: true
+  desc: "Major feature areas"
 - id: template
   template: 
     id: dendron.template.example

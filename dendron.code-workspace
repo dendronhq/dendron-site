@@ -5,12 +5,6 @@
         },
         {
             "path": "."
-        },
-        {
-            "path": "docs"
-        },
-        {
-            "path": "reports"
         }
     ],
     "settings": {
@@ -18,8 +12,11 @@
         "workbench.editor.enablePreview": false,
         "dendron.defaultLookupCreateBehavior": "selectionExtract",
         "dendron.rootDir": ".",
-        "dendron.useExperimentalLSPSupport": false,
+        "dendron.useExperimentalLSPSupport": true,
         "dendron.defaultJournalDateFormat": "Y.MM.DD",
+        "zenMode.fullScreen": false,
+        "zenMode.hideLineNumbers": false,
+        "zenMode.silentNotifications": false,
         "dendron.defaultScratchDateFormat": "Y.MM.DD-HHmmss",
         "dendron.defaultScratchAddBehavior": "childOfDomainNamespace",
         "dendron.copyNoteUrlRoot": "https://dendron.so",

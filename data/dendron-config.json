@@ -1,4 +1,21 @@
 {
+    "lookup": [
+        {
+            "key": "dendron.contributeToCause",
+            "title": "Dendron: Contribute",
+            "group": "lookup",
+            "desc": "Become an environmentalist and keep Dendron sustainable",
+            "docs": "This command takes you to Dendron's [Environmentalist](https://accounts.dendron.so/account/subscribe) plans.\nEnvironmentalists are users that can support Dendron financially through a monthly contribution. Environmentalist get access to insider builds, priority support, and access to exclusive dev channels.",
+            "skipDocs": false
+        },
+        {
+            "key": "dendron.updateSchema",
+            "title": "Dendron: Update Schema",
+            "desc": "Update schema",
+            "group": "lookup",
+            "skipDocs": true
+        }
+    ],
     "notes": [
         {
             "key": "dendron.gotoNote",
@@ -8,7 +25,7 @@
             "skipDocs": true
         },
         {
-            "key": "dendron.createDailyJournalNote",
+            "key": "dendron.createDailyJornalNote",
             "title": "Dendron: Create Daily Journal Note",
             "group": "notes",
             "keybindings": {
@@ -263,7 +280,6 @@
             "title": "Dendron: Change Workspace",
             "group": "workspace",
             "desc": "Change into existing workspace",
-            "docs": "Dendron will create a `dendron.code-workspace` file in specified directory and then open the workspace (if a workspace file already exists, it will use that). It will also create a `root.md` file in that directory if it doesn't exist (currently this is part of the internal working of dendron).\n\nDendron **does not** delete or overwrite any files during the **Change Workspace** operation.",
             "docLink": "dendron.topic.commands.md",
             "docPreview": "",
             "skipDocs": false
@@ -276,6 +292,26 @@
             "docLink": "dendron.topic.commands.md",
             "docPreview": "",
             "skipDocs": true
+        },
+        {
+            "key": "dendron.snapshotVault",
+            "title": "Dendron: Snapshot Vault",
+            "group": "workspace",
+            "desc": "Create a snapshot of your vault",
+            "docs": "Takes a snapshot of your entire vault, including assets. This command will ignore version control folders like .git when making a snapshot.\nSnapshots are saved under {workspace}/snapshots/{timestamp}",
+            "docLink": "",
+            "docPreview": "",
+            "skipDocs": false
+        },
+        {
+            "key": "dendron.restoreVault",
+            "title": "Dendron: Restore Vault",
+            "group": "workspace",
+            "desc": "Restore your vault from a snapshot",
+            "docs": "Restores your vault based on a snapshot. When restoring, it will over-write any notes that have the same name as notes in the snapshot. It will ignore version control directories like .git when restoring your vault",
+            "docLink": "",
+            "docPreview": "",
+            "skipDocs": false
         },
         {
             "key": "dendron.showHelp",
@@ -325,6 +361,15 @@
             "skipDocs": false
         },
         {
+            "key": "dendron.publishPod",
+            "title": "Dendron: Publish Pod",
+            "group": "pods",
+            "desc": "Publish your note to a different format/location",
+            "docLink": "dendron.topic.pod.md",
+            "docPreview": "",
+            "skipDocs": false
+        },
+        {
             "key": "dendron.copyNoteURL",
             "title": "Dendron: Copy Note URL",
             "group": "pods",
@@ -349,15 +394,6 @@
             "docLink": "",
             "docPreview": "<a href=\"https://www.loom.com/share/c58edf543e234a8fa164095237579ccc\"> <img style=\"\" src=\"https://cdn.loom.com/sessions/thumbnails/c58edf543e234a8fa164095237579ccc-with-play.gif\"> </a>",
             "skipDocs": false
-        }
-    ],
-    "lookup": [
-        {
-            "key": "dendron.updateSchema",
-            "title": "Dendron: Update Schema",
-            "desc": "Update schema",
-            "group": "lookup",
-            "skipDocs": true
         }
     ],
     "dev": [

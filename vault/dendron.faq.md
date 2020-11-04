@@ -2,7 +2,7 @@
 id: 683740e3-70ce-4a47-a1f4-1f140e80b558
 title: FAQ
 desc: ''
-updated: 1595952505025
+updated: 1603295822308
 created: 1595952505025
 stub: false
 nav_order: 6
@@ -160,6 +160,25 @@ In the future, we want to support:
 We also want to support some subset of the queries as note references so that the results can be included in page.
 
 ## Other
+
+### Why are there `root` files in my notes?
+
+When you initialize a vault, `root.md` and `root.schema.yml` get created inside each vault.
+
+They serve as the "roots" of your vault for your notes and schema respectively.
+
+root.md is used as the parent of all hierarchies, root.schema as the parent of all schemas
+
+root.md is what shows up when you do a lookup with an empty line ""
+
+root.schema.yml is a schema that is global for all hierarchies (normally, a schema is scoped to a particular hierarchy)
+
+Now this isn't required per-say, we could just do away with **root** notes and stick strictly to hierarchies and this might be an option in the future but this is the reasoning at the current time
+
+ps. root.schema.yml doesn't work right now as described in the sense that we haven't implemented global schemas yet
+
+
+
 
 
 

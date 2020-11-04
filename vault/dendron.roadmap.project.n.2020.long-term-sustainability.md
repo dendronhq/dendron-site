@@ -25,7 +25,7 @@ Kevin wants to work on Dendron full time for the forseeable future and would lik
 ## Tasks
 - [x] come up with different revenue plans
 - [ ] launch the **environmentalist plan**
-    - optional one time/re-curring payment to support development of Dendron
+    - re-curring payment to support development of Dendron
     - access to special once a month zoom chat about features
     - swag
     - discord icon
@@ -35,12 +35,11 @@ Kevin wants to work on Dendron full time for the forseeable future and would lik
 - server side features 
     - private hosting
     - native sync
-    - etc.
+    - server side pods (eg. everytime you add data to airtable, add an entry to Dendron)
 
 ## Links
 - [project docs](https://dendron.so/notes/d892da5f-3667-4bfe-a8ba-e5ea3da4eb72.html)
 - [issues](https://github.com/dendronhq/dendron/labels/pro.lts-v0)
-
 
 ## Notes
 
@@ -67,4 +66,4 @@ Kevin wants to work on Dendron full time for the forseeable future and would lik
         - theia 
         - vscodium
     - charge a pay what you can model?
-- wyswg @jojanaho
+- wyswg client
