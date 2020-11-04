@@ -37,7 +37,7 @@ While Dendron works with knowledge bases of any size, it really shines once you'
 
 ### How does Dendron help me track my notes?
 
-1. Dendron organizes and collapse all your  notes into managable chunks using [[hiearchies |dendron.topic.hierarchies]].
+1. Dendron organizes and collapse all your  notes into managable chunks using [[hierarchies |dendron.topic.hierarchies]].
 2. Dendron helps you manage your hiearchies using [[schemas | dendron.topic.schema ]]
 3. Dendron gets out of your way when your working with your notes during [[lookup |dendron.topic.lookup]]
 
