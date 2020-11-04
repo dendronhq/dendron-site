@@ -2,7 +2,7 @@
 id: 8b03ed06-4f46-46e0-8652-c6abf2266a79
 title: Dendron-cli
 desc: ''
-updated: 1604446343337
+updated: 1604446417035
 created: 1599709645355
 stub: false
 ---
