@@ -215,6 +215,6 @@ notes:
     topic: workbench
     cmsg: 'Dendron Snippet Maker'
     desc: |
-        ((ref: [[dendron.related.dendron-snippet-maker]]#dendron snippet maker,1))
+        ((ref: [[dendron.pro.dendron-snippet-maker]]#dendron snippet maker,1))
     tags: []
     docs: ""

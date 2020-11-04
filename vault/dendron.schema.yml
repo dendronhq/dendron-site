@@ -1,4 +1,6 @@
 version: 1
+imports:
+  - pro
 schemas:
 - id: dendron
   parent: root
@@ -12,6 +14,7 @@ schemas:
     - topic
     - demo
     - dev
+    - pro.pro
 - id: faq
 - id: features
 - id: principles

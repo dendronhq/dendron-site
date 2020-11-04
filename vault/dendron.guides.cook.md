@@ -121,13 +121,14 @@ Set the following option in your workspace settings
 ```json
 "markdown-preview-enhanced.automaticallyShowPreviewOfMarkdownBeingEdited": true,
 ```
+
 ## VSCode
 
 ### Use Dendron with a current folder
 
 - 1. start by initializing a workspace
 
-((ref: [[dendron.topic.commands]]#initialize workspace:#*))
+((ref: [[dendron.topic.commands]]#initialize workspace:#\*))
 
 - 2. by default, dendron uses a `vaults` folder underneath your workspace to store you vaults. Update your [[settings|dendron.guides.settings]] and change `vault` to the path of your current notes (alternatively, you can also copy your current notes into `vault`)
 
@@ -167,7 +168,7 @@ Click the three little dots next to outline to change the sorting order. You can
 When viewing your notes locally, you can view the toc either from the outline view or by toggling the preview
 
 - from the outline
-  ((ref: [[dendron.topic.workbench]]#outline view,1:#*))
+  ((ref: [[dendron.topic.workbench]]#outline view,1:#\*))
 
 - from the preview
   ((ref: [[dendron.topic.preview]]#table of contents,1))
@@ -194,7 +195,7 @@ dendron-cli buildSite --wsRoot {path/to/ws} --vault {path/to/vault} --incrementa
 The following instructions cover how to update your local preview everytime you make a change to your notes
 
 - install `dendron-cli`
-  ((ref: [[dendron.related.dendron-cli]]#installation,1:#*))
+  ((ref: [[dendron.pro.dendron-cli]]#installation,1:#\*))
 
 - have jekyll watch your site-root
 

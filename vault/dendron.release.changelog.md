@@ -16,13 +16,13 @@ stub: false
 
 - **workbench:** ([130a58a](https://github.com/dendronhq/dendron/commit/130a58a62cc40eb4178afac554f8f4ff30c93055))
 
-((ref: [[dendron.topic.commands]]#contribute:#*))
+((ref: [[dendron.topic.commands]]#contribute:#\*))
 
 #### Add Snapshot Capability to Dendron
 
 - **workbench:**  ([3af64b7](https://github.com/dendronhq/dendron/commit/3af64b701d47ed28818d7e6017c758f63be617f0))
 
-((ref: [[dendron.topic.capabilities.snapshot]]#Snapshots:#*))
+((ref: [[dendron.topic.capabilities.snapshot]]#Snapshots:#\*))
 
 ## [0.13.5](https://github.com/dendronhq/dendron/compare/v0.13.4...v0.13.5) (2020-10-28)
 
@@ -50,6 +50,7 @@ Finally, we do have an escape valve in things something goes terribly wrong. You
 
 - **workbench:** graceful failure on bad schema ([4db5064](https://github.com/dendronhq/dendron/commit/4db5064e4eef61d9c95b9abe34f2dec41550bd9d))
   - instead of refusing to initialize, Dendron will skip bad schemas and generate an error report post-startup
+
 - **workbench:** nicer error messages  ([9e371e1](https://github.com/dendronhq/dendron/commit/9e371e132b565ae2abebaa2bf1307a5a03a91b9b))
   - certain errors now have human friendly messages instead of JSON goop
 
@@ -82,19 +83,19 @@ As a reminder, dendrologist are active members of the community who are recogniz
 
 - **lookup:** support direct child filter ([1cae082](https://github.com/dendronhq/dendron/commit/1cae08294baa844c0c0ee3c8d390e337bd6172be))
 
-((ref: [[dendron.topic.lookup]]#filter toggle,1:#*))
+((ref: [[dendron.topic.lookup]]#filter toggle,1:#\*))
 
 - you can create a keyboard shortcut to do a lookup with the direct child filter pre-selected
-  ((ref: [[dendron.topic.lookup]]#filtertype:#*))
+  ((ref: [[dendron.topic.lookup]]#filtertype:#\*))
 
 ### Enhancements
 
 - **publish:** be able to set config for all hierarchies ([a27d94a](https://github.com/dendronhq/dendron/commit/a27d94a3c469a4efaf2ee8c2bca40a8a471773f2))
-  ((ref: [[dendron.topic.publishing.configuration]]#config:#*))
+  ((ref: [[dendron.topic.publishing.configuration]]#config:#\*))
 
 - **schema:** add custom props from schema template ([5264544](https://github.com/dendronhq/dendron/commit/52645449b8e155e168baaac0fa4e99903efafcf0))
 
-((ref: [[dendron.topic.schema]]#schema templates,1:#*))
+((ref: [[dendron.topic.schema]]#schema templates,1:#\*))
 
 - **workbench:** reload index re-create root if not exist ([c66e242](https://github.com/dendronhq/dendron/commit/c66e242bac91c73404a5dd21ed3813c0dc2f022b))
   - dendron requires `root.md` and `root.schema.yml` to start indexing and would previously throw an error if these files were deleted
@@ -123,7 +124,7 @@ Previously, if you wanted to use an existing folder (aka vault) with a workspace
 
 In addition to **import** and **export**, you can now also **publish** notes with pods.
 
-((ref: [[dendron.topic.pod]]#publish,1:#*))
+((ref: [[dendron.topic.pod]]#publish,1:#\*))
 
 #### Realtime Schema Validation
 
@@ -150,7 +151,7 @@ You will now get a warning if you are trying to save a badly formatted schema.
 
 Documentation for pods has been re-written to reflect recent changes with pods
 
-((ref: [[dendron.topic.pod]]#pods:#*))
+((ref: [[dendron.topic.pod]]#pods:#\*))
 
 ## [0.13.1](https://github.com/dendronhq/dendron/compare/v0.13.1-alpha.2...v0.13.1) (2020-10-21)
 
@@ -160,7 +161,7 @@ Documentation for pods has been re-written to reflect recent changes with pods
 
 - **publishing:** generate toc when publishing ([53ee270](https://github.com/dendronhq/dendron/commit/53ee270c89f530b9224f33a28dc811de7e5cb2ad))
 
-((ref: [[dendron.topic.publishing.configuration]]#toc:#*))
+((ref: [[dendron.topic.publishing.configuration]]#toc:#\*))
 
 - **publishing:** set frontmatter overrides globally when publishing ([782d637](https://github.com/dendronhq/dendron/commit/782d6374c55b00bcda36da9149fb2cedeac0c3d9))
 
@@ -241,7 +242,7 @@ Timestamps now have human friendly decorators on the side.
 
 ### Documentation
 
-((ref: [[dendron.guides.troubleshooting]]#error upgrading:#*))
+((ref: [[dendron.guides.troubleshooting]]#error upgrading:#\*))
 
 ## [0.12.8](https://github.com/dendronhq/dendron/compare/v0.12.8-alpha.2...v0.12.8) (2020-10-14)
 
@@ -273,9 +274,9 @@ Today's update makes **updated** update!
 
 ((ref: [[dendron.topic.extensions]]#useful extensions))
 
-((ref: [[dendron.guides.tips]]#copy and paste web content into dendron:#*))
+((ref: [[dendron.guides.tips]]#copy and paste web content into dendron:#\*))
 
-((ref: [[dendron.guides.cook]]#mobile support:#*))
+((ref: [[dendron.guides.cook]]#mobile support:#\*))
 
 ## [0.12.7](https://github.com/dendronhq/dendron/compare/v0.12.7-alpha.10...v0.12.7) (2020-10-13)
 
@@ -338,7 +339,7 @@ You can switch back to regular indexing at anytime by changing the above setting
 
 These past two weeks have been spent on server migration work. We are almost at the end and I'm aiming to have full coverage of all existing functionality by early next week.
 
-((ref: [[dendron.roadmap.project.n.2020.server-migration]]#tasks,1:#*))
+((ref: [[dendron.roadmap.project.n.2020.server-migration]]#tasks,1:#\*))
 
 ### Other
 
@@ -353,15 +354,15 @@ These past two weeks have been spent on server migration work. We are almost at 
 
 Dendron now initializes your workspace with common default snippets
 
-((ref: [[dendron.topic.snippets]]#default snippets,1:#*))
+((ref: [[dendron.topic.snippets]]#default snippets,1:#\*))
 
 #### Latex Support on Published Site
 
-((ref: [[dendron.related.dendron-jekyll.topic.math]]#math,1:#*))
+((ref: [[dendron.pro.dendron-jekyll.topic.math]]#math,1:#\*))
 
 #### Introduce siteRepoDir Customization
 
-((ref: [[dendron.topic.publishing.configuration]]#siterepodir,1:#*))
+((ref: [[dendron.topic.publishing.configuration]]#siterepodir,1:#\*))
 
 ### Bug Fixes
 
@@ -378,7 +379,7 @@ This section tracks our progress against the milestones in our [[public roadmap|
   - below is a summary of our progress. we are currently about half way done
   - aiming to have a workable version using the Dendron server by next week
   ```
-  ((ref: [[dendron.roadmap.project.n.2020.server-migration]]#tasks,1:#*))
+  ((ref: [[dendron.roadmap.project.n.2020.server-migration]]#tasks,1:#\*))
 
 ### Other
 
@@ -424,7 +425,7 @@ this announcement also comes with an ask. Dendron is now in [AlternativesTo](htt
 
 Dendron will now recognize a header selection if you have any part of the header highlighted (vs needing to highlight the entire line)
 
-((ref: [[dendron.topic.commands]]#copy note ref:#*))
+((ref: [[dendron.topic.commands]]#copy note ref:#\*))
 
 ### Documentation
 
@@ -434,7 +435,7 @@ Dendron will now recognize a header selection if you have any part of the header
 
 - changelog moved to dedicated [page](https://dendron.so/notes/9bc92432-a24c-492b-b831-4d5378c1692b.html)
 - lookup menu docs
-  ((ref: [[dendron.topic.lookup]]#lookup menu:#*))
+  ((ref: [[dendron.topic.lookup]]#lookup menu:#\*))
 
 ### Community Highlights
 

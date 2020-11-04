@@ -6,7 +6,6 @@ updated: 1600219243498
 created: 1600219243498
 stub: false
 ---
-
 # Seeds 🚧
 
 > Note: Seeds are highly experimental and under active development. Content here is subject to change.
@@ -14,7 +13,6 @@ stub: false
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/seeds.png)
 
 Seeds represent existing knowledge out in the world. A seed could be a wikipedia article, a github repo, or an arbitrary website. 
-
 
 You can use a **Dendron Seed** to ingest data from existing sources and import them into your vault. Data ingestion is also referred to as **planting**.
 
@@ -24,31 +22,32 @@ You can see an example of a published seeded vault [here](https://aws.dendron.so
 
 # Using a seed
 
-- NOTE: currently, seeds are only available using the [[dendron-cli|dendron.related.dendron-cli]]
+- NOTE: currently, seeds are only available using the [[dendron-cli|dendron.pro.dendron-cli]]
 
 ## Pre-requisites
 
 Make sure you have the dendron-cli installed.
 
-((ref: [[dendron.related.dendron-cli]]#installation,1:#*))
+((ref: [[dendron.pro.dendron-cli]]#installation,1:#\*))
 
 ## Instructions
+
 1. Inside the workspace where you to plant your seeds, initialize a node project.
-    ```sh
-    cd /path/to/ws
-    yarn init
-    ```
-1. Install seeds that you want to plant
-    - currently, the only available seed is @dendronhq/og-aws-seed
-        - this seed gets data from [og-aws guide](https://github.com/open-guides/og-aws)
-    ```sh
-    yarn add @dendronhq/og-aws-seed
-    ```
-1. Plant seeds using the cli
-    ```
-    dendron-cli plantSeed --id @dendronhq/og-aws-seed --wsRoot ./ --vault ./vault
-    ```
-1. Enjoy your garden
+   ```sh
+   cd /path/to/ws
+   yarn init
+   ```
+2. Install seeds that you want to plant
+   - currently, the only available seed is @dendronhq/og-aws-seed
+     - this seed gets data from [og-aws guide](https://github.com/open-guides/og-aws)
+   ```sh
+   yarn add @dendronhq/og-aws-seed
+   ```
+3. Plant seeds using the cli
+   ```
+   dendron-cli plantSeed --id @dendronhq/og-aws-seed --wsRoot ./ --vault ./vault
+   ```
+4. Enjoy your garden
 
 # Creating a Seed
 
@@ -57,22 +56,23 @@ A seed is just a npm package. You can create your own by creating an npm package
 You can see an example of a custom seed [here](https://github.com/dendronhq/seeds.aws/tree/master/packages/og-aws-seed).
 
 ## Instructions
+
 1. Initialize a new node project
-    ```sh
-    mkdir my-new-seed
-    cd my-new-seed
-    yarn init
-    ```
-1. Add core dependencies
-    ```sh
-    yarn add @dendronhq/seeds-core
-    ```
-1. Create a seed
+   ```sh
+   mkdir my-new-seed
+   cd my-new-seed
+   yarn init
+   ```
+2. Add core dependencies
+   ```sh
+   yarn add @dendronhq/seeds-core
+   ```
+3. Create a seed
 
 ### Creating a seed
 
-
 - index.ts
+
 ```ts
 import {
   DendronSeed,
@@ -116,4 +116,6 @@ dendron-cli plantSeed --id myseed --wsRoot /path/to/root --vault /path/to/vault
 ```
 
 # Resources
+
 - [[Seeds API|dendron.dev.api.seeds]]
+

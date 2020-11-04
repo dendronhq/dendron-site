@@ -18,7 +18,7 @@ This week's release comes with improved references as well as better tooling aro
 
 **Dendron's pretty refs** help you identify when content is embedded from elsewhere and provide links back to the source. 
 
-((ref: [[dendron.topic.refs]]#references,1:#*)) 
+((ref: [[dendron.topic.refs]]#references,1:#\*)) 
 
 The **Dendron CLI** lets you access a subset of Dendron's functionality inside the terminal, including the ability to import/export your notes. 
 
@@ -48,13 +48,13 @@ Dendron now has a its own CLI that you can run standalone from the Dendron plugi
 
 ### New note from selection cmd
 
-((ref: [[dendron.topic.commands]]#new note from selection,1:#*))
+((ref: [[dendron.topic.commands]]#new note from selection,1:#\*))
 
 ## Pods
 
 ### Add configure pod command
 
-((ref: [[dendron.topic.commands]]#configure pod,1:#*))
+((ref: [[dendron.topic.commands]]#configure pod,1:#\*))
 
 ### Enhancements
 
@@ -71,11 +71,11 @@ Dendron now has a its own CLI that you can run standalone from the Dendron plugi
 
 ### Published sites use pretty refs
 
-((ref: [[dendron.topic.publishing]]#note references,1:#*))
+((ref: [[dendron.topic.publishing]]#note references,1:#\*))
 
 ### Support noindex option
 
-((ref: [[dendron.topic.publishing]]#exclude from indexing,1:#*))
+((ref: [[dendron.topic.publishing]]#exclude from indexing,1:#\*))
 
 ### Enhancements
 
@@ -105,7 +105,7 @@ Dendron now has a its own CLI that you can run standalone from the Dendron plugi
 
 ### Dendron Snippet Maker
 
-((ref: [[dendron.related.dendron-snippet-maker]]#dendron snippet maker,1))
+((ref: [[dendron.pro.dendron-snippet-maker]]#dendron snippet maker,1))
 
 ### Enhancements
 

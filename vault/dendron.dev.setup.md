@@ -2,7 +2,7 @@
 id: 64f0e2d5-2c83-43df-9144-40f2c68935aa
 title: Setup
 desc: ''
-updated: 1603252450553
+updated: 1604512046318
 created: 1598651458825
 stub: false
 ---
@@ -24,7 +24,7 @@ cd dendron
 npm install
 ```
 
-### 3. Build Code Plugin
+### 3. Build Repo
 
 - you should run this when building dendron for the first time and also every time you run a git pull
   - new dependencies might have been picked up between pulls and this makes sure that they are installed
@@ -35,7 +35,8 @@ npm install
 
 - we recommend you use `vscode` to develop for dendron. there is a `dendron.code-workspace` file in the root of the monorepo that you should use when developing
 
-### 4. Start Debugging
+### 4. Start Debugging (the plugin)
+- NOTE: you don't need to do this if you are not directly working on the extension (eg. you're working on the [[server|dendron.pro.dendron-next-server]])
 
 To start an instance of the Dendron with the Debugger, Run `Extension (plugin-core)` from the debug panel in vscode
 
