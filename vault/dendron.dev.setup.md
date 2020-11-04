@@ -11,20 +11,20 @@ stub: false
 
 ## Getting Started
 
+### 1. Requirements
 Before you begin, you need to make sure to have the following SDKs and tools:
 
 - [Node.js >= 12.0.0](https://nodejs.org/download/release/latest-v10.x/)
   - We recommend using a version in [Active LTS](https://nodejs.org/en/about/releases/)
 
-The basic commands to get the repository cloned and built locally follow:
-
+### 2. Clone and npm install
 ```console
 git clone https://github.com/dendronhq/dendron.git
 cd dendron
 npm install
 ```
 
-## Build Code Plugin
+### 3. Build Code Plugin
 
 - you should run this when building dendron for the first time and also every time you run a git pull
   - new dependencies might have been picked up between pulls and this makes sure that they are installed
@@ -35,9 +35,25 @@ npm install
 
 - we recommend you use `vscode` to develop for dendron. there is a `dendron.code-workspace` file in the root of the monorepo that you should use when developing
 
-### Advanced
+### 4. Start Debugging
 
-You shouldn't need to use this in case something goes wrong with a build step or you want to save time by not running everything, `init.sh` is just a thin wrapper around the following scripts, each of which can be run individually
+To start an instance of the Dendron with the Debugger, Run `Extension (plugin-core)` from the debug panel in vscode
+
+![debugger](/assets/images/start_debugger.gif)
+
+_Note: Running via Run -> Start Debugging will not work unless you've previously targeted `Extension (plugin-core)`_
+
+
+## Tips
+
+To continuously compile all dependencies, run the following
+
+```sh
+./bootstrap/scripts/watch.sh
+```
+## Troubleshooting
+
+In case something something goes wrong with a build step or you want to save time by not running everything, `init.sh` is just a thin wrapper around the following scripts, each of which can be run individually
 
 - ./bootstrap/scripts/bootstrap.sh: `lerna bootstrap all packages`
 - ./bootstrap/scripts/build.sh: `lerna build all packages`
@@ -45,14 +61,6 @@ You shouldn't need to use this in case something goes wrong with a build step or
 ```sh
  cd packages/plugin-core/
  ./scripts/sync_vault.sh
-```
-
-## Developing
-
-To continuously compile all dependencies, run the following
-
-```sh
-./bootstrap/scripts/watch.sh
 ```
 
 ## Testing
