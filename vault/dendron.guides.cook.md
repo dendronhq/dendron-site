@@ -2,7 +2,7 @@
 id: 401c5889-20ae-4b3a-8468-269def4b4865
 title: Cook
 desc: ''
-updated: 1604418663503
+updated: 1604540162501
 created: 1595952505024
 nav_order: 8.9
 toc: true
@@ -128,7 +128,7 @@ Set the following option in your workspace settings
 
 - 1. start by initializing a workspace
 
-((ref: [[dendron.topic.commands]]#initialize workspace:#\*))
+((ref: [[dendron.topic.commands]]#initialize workspace:#*))
 
 - 2. by default, dendron uses a `vaults` folder underneath your workspace to store you vaults. Update your [[settings|dendron.guides.settings]] and change `vault` to the path of your current notes (alternatively, you can also copy your current notes into `vault`)
 
@@ -155,11 +155,15 @@ There are usually two scenarios:
   - a. initialize a new workspace in a different directory. open the settings using `> Open User Workspace settings (JSON)`. change the folder to the path of your vault in the initial workspace. run `> Reload Window` for the changes to take affect
   - b. use a different version of vscode to open the same workspace (eg. vscode insider, vscodium, vscode regular). you need to do this because vscode will re-use the same window when opening the same workspace
 
-### Change the sorting order in the outline Panel
+### Change the sorting order in the Outline Panel
 
 Click the three little dots next to outline to change the sorting order. You can sort by **Name** (alphabetical) or **Position** (linear order)
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/cook.vscode.outline.jpg)
+
+### Change the sorting oder in the Explorer Panel
+
+See instructions [here](https://stackoverflow.com/questions/51543871/sorting-files-in-vs-code-explorer)
 
 ## Navigation
 
@@ -168,7 +172,7 @@ Click the three little dots next to outline to change the sorting order. You can
 When viewing your notes locally, you can view the toc either from the outline view or by toggling the preview
 
 - from the outline
-  ((ref: [[dendron.topic.workbench]]#outline view,1:#\*))
+  ((ref: [[dendron.topic.workbench]]#outline view,1:#*))
 
 - from the preview
   ((ref: [[dendron.topic.preview]]#table of contents,1))
@@ -195,7 +199,7 @@ dendron-cli buildSite --wsRoot {path/to/ws} --vault {path/to/vault} --incrementa
 The following instructions cover how to update your local preview everytime you make a change to your notes
 
 - install `dendron-cli`
-  ((ref: [[dendron.pro.dendron-cli]]#installation,1:#\*))
+  ((ref: [[dendron.pro.dendron-cli]]#installation,1:#*))
 
 - have jekyll watch your site-root
 

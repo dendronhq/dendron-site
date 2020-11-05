@@ -2,7 +2,7 @@
 id: eea2b078-1acc-4071-a14e-18299fc28f47
 title: Commands
 desc: ''
-updated: 1595261816971
+updated: 1604536446639
 created: 1595261816971
 ---
 
@@ -185,7 +185,7 @@ Move current note and all children under the `archive` hierarchy
 
 <a href="https://www.loom.com/share/9698d5a4451b49d8b107f3ff67d97877">  <img style="" src="https://cdn.loom.com/sessions/thumbnails/9698d5a4451b49d8b107f3ff67d97877-with-play.gif"> </a>
 
-### Refactor Hierarchy
+
 - shortcuts: none
 
 

@@ -1,0 +1,64 @@
+---
+id: 3abd00eb-1c1e-4253-aaf5-dcbe20c21850
+title: Insider
+desc: ''
+updated: 1604540106396
+created: 1604539200840
+---
+
+##
+
+### Features
+
+### Enhancements
+
+### Bug Fixes
+
+### Progress
+
+### Other 
+
+Dendron is now more hygenic. We've eliminated ~8 thousnad lines of code. 
+
+- before 
+112265
+104777
+fun code updates: with the server migration behind us, I too yesterday to clean up the code base. ended up  cutting ~8k lines of code. goal was to bring it under 100k lines of code but I guess that will be for another day 😅
+
+- before cleanup
+```
+-------------------------------------------------------------------------------
+Language                     files          blank        comment           code
+-------------------------------------------------------------------------------
+JSON                            73              6              0          72744
+TypeScript                     246           3089           3089          31790
+Markdown                        50           4682              0           5947
+JavaScript                      16            168             76           1349
+Bourne Shell                    23             40              9            179
+YAML                            13              3              3            158
+CSS                              2             17             32             72
+HTML                             1              0              0             14
+SVG                              1              0              0             12
+-------------------------------------------------------------------------------
+SUM:                           425           8005           3209         112265
+-------------------------------------------------------------------------------
+```
+
+- after cleanup
+```
+-------------------------------------------------------------------------------
+Language                     files          blank        comment           code
+-------------------------------------------------------------------------------
+JSON                            73              6              0          72745
+TypeScript                     224           2343           1810          24352
+Markdown                        34           4772              0           5974
+JavaScript                      16            168             76           1349
+Bourne Shell                    24             40              9            181
+YAML                             6              3              3             78
+CSS                              2             17             32             72
+HTML                             1              0              0             14
+SVG                              1              0              0             12
+-------------------------------------------------------------------------------
+SUM:                           381           7349           1930         104777
+-------------------------------------------------------------------------------
+```
