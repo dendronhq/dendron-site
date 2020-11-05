@@ -2,7 +2,7 @@
 id: 3a82c5ff-7945-46ae-8bf9-3b2275fc6642
 title: Showcase
 desc: ''
-updated: 1604236867819
+updated: 1604598187318
 created: 1600010740851
 ---
 
@@ -24,6 +24,7 @@ Below are examples of published Dendron vaults
 - homepage: https://aws.dendron.so
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/showcase.aws.jpg)
+
 
 ## Members
 
