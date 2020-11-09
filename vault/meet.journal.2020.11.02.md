@@ -2,7 +2,7 @@
 id: ae5c556b-262b-4393-84ce-376ec8becff5
 title: '02'
 desc: ''
-updated: 1604335716131
+updated: 1604945985009
 created: 1604334990589
 ---
 
@@ -31,25 +31,52 @@ Dendron is the best way for people to create, find, and make use of their inform
 
 Have a more concise description of role and responsibilities.
 
-Topics:
 - expected time commitment: ~2h/week
 - responsibilities:
     - welcoming new users
     - responding to incoming feature requests
     - responding to incoming questions
 
+### Specific Dendrologist Focuses
+- community
+    - welcome new users
+    - organizing new events (eg. random coffee)
+    - program carl to do more community things (https://carl.gg/)
+    - channels: #introductions #chat
+- historian
+    - responding to pull request on website docs
+    - collecting user workflows and advice in discord 
+    - keeping docs up to date
+    - collect questions 
+    - channels: #note-taking #tips-and-tricks #workflows #showcase
+- development
+    - help with current milestone features
+    - improve development docs and best practices
+    - channels: #dev #feedback
+- planning
+    - manage monthly milestones: https://github.com/dendronhq/dendron/milestones
+    - triage and label new issues
+    - work with community to figure out minor/big task of the week
+    - channels #dev #feedback
+
+
 ## Community Initiatives
 
 ### Dendron office hours
 
-This will be additional slots you can book outside of the initial onboarding to go over specific workflow
-
-Topics:
-- frequency: 2x per month?
-- time: block off time per week? schedule via calendly?
-- format: one to one? one to many?
-- medium: zoom vs twitch
-- people: do dendrologists want to get involved?
+- community tasks
+    - every week, there's one minor task and one major task that can be voted on by community
+    - minor task will be delivered at end of week
+    - major task will be prioritized and progress will be made
+- live office hours
+    - start off with holding this every two weeks
+    - collect questions and collect votes leading up to office hours
+    - answer both live questions and collected questions during office hours 
+- reserved office hours
+    - every two weeks (when not doing live office hours)
+    - limited 30min slots 
+    - deep dive on something particular
+    - option of broadcasting later
 
 ## Scratch
 

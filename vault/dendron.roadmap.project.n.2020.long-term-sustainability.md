@@ -2,7 +2,7 @@
 id: d892da5f-3667-4bfe-a8ba-e5ea3da4eb72
 title: Long term sustainability v0
 desc: ''
-updated: 1599501881180
+updated: 1604945094990
 created: 1599501881180
 stub: false
 start: 2020.10.07
@@ -24,7 +24,7 @@ Kevin wants to work on Dendron full time for the forseeable future and would lik
 
 ## Tasks
 - [x] come up with different revenue plans
-- [ ] launch the **environmentalist plan**
+- [x] launch the **environmentalist plan**
     - re-curring payment to support development of Dendron
     - access to special once a month zoom chat about features
     - swag
