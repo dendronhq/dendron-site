@@ -2,7 +2,7 @@
 id: 63ea2e72-4eba-406c-9f4c-7300fa0b8935
 title: '2020-11-08'
 desc: ''
-updated: 1604887550247
+updated: 1604888423105
 created: 1604882865662
 ---
 
@@ -19,13 +19,11 @@ Dendron 0.15 is here 🌱
 
 ### Community
 
-Dendron has a new **Dendrologist**. 
+I'm thrilled to announce our latest **Dendrologist**! Meet Luke (@lukecarrier#2081) 👨‍🌾
 
-Meet Luke (@lukecarrier#2081)
+> Hey :wave:  I’m Luke and I’m going to be picking up some development work. Ask me about the markdown editing experience, publishing and integrating external tools.
 
-
-
-Dendrologist are active members of the community who are actively involved in planning our roadmap and help set our community standards. 
+((ref: [[dendron.community.roles]]#dendrologist,1:#*))
 
 ### In the Works
 - Still working through the details of official Dendron office hours. Expect a message later this week!
@@ -45,7 +43,6 @@ Dendrologist are active members of the community who are actively involved in pl
 - [tfer](https://github.com/tfer)
     - [update docs on stub](https://github.com/dendronhq/dendron-template/pull/33/files)
 
-### Changelog
+## Changelog
 
-((ref: [[dendron.release.changelog]]#Changelog,1:#13.6))
-
+((ref: [[dendron.release.changelog.14]]))

@@ -2,7 +2,7 @@
 id: b0fe6ef7-1553-4280-bc45-a71824c2ce36
 title: Dendron
 desc: ''
-updated: 1604248143373
+updated: 1604887879406
 created: 1595952505017
 stub: false
 ---
@@ -12,7 +12,7 @@ stub: false
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 
 <div class="alert alert-primary" role="alert">
-<a href="https://dendron.so/notes/98ad9b6b-53f3-4883-939e-e14055f2cac7.html">Version 0.14</a> has sprouted 🌱 
+<a href="https://dendron.so/notes/63ea2e72-4eba-406c-9f4c-7300fa0b8935.html">Version 0.15</a> has sprouted 🌱 
 Read about the new features and fixes in our release notes
 </div>
 <div class="alert alert-primary" role="alert">
