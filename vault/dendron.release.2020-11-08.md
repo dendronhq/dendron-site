@@ -1,8 +1,8 @@
 ---
 id: 63ea2e72-4eba-406c-9f4c-7300fa0b8935
-title: '2020-11-08'
+title: '2020-11-08 Release Notes'
 desc: ''
-updated: 1604888423105
+updated: 1604890743401
 created: 1604882865662
 ---
 
@@ -45,4 +45,4 @@ I'm thrilled to announce our latest **Dendrologist**! Meet Luke (@lukecarrier#20
 
 ## Changelog
 
-((ref: [[dendron.release.changelog.14]]))
+((ref: [[dendron.release.changelog]]#changelog,1:#13.6))

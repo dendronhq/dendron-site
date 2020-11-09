@@ -2,7 +2,7 @@
 id: b0fe6ef7-1553-4280-bc45-a71824c2ce36
 title: Dendron
 desc: ''
-updated: 1604887879406
+updated: 1604890799715
 created: 1595952505017
 stub: false
 ---
@@ -102,4 +102,3 @@ We welcome community contributions and pull requests. See [CONTRIBUTING](https:/
 Dendron is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE Version 3.
 
 See [LICENSE](https://github.com/dendronhq/dendron/blob/master/LICENSE.md) and [NOTICE](https://github.com/dendronhq/dendron/blob/master/NOTICE.md) for more information.
-
