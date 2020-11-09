@@ -2,9 +2,30 @@
 id: 3abd00eb-1c1e-4253-aaf5-dcbe20c21850
 title: Insider
 desc: ''
-updated: 1604605001779
+updated: 1604884074619
 created: 1604539200840
 ---
+
+## 0.14.2
+
+### Features
+
+### Enhancements
+- **pods:** better markdown import pod  (d1eaa264)
+    - address multiple edge cases that would cause import pod to fail
+    - auto-convert wiki-links from folder-based systems like obsidian into dendron
+- **cli:** launch engine server using cli ([25eae3f](https://github.com/dendronhq/dendron/commit/25eae3fddd6a2d26dcf9e2f3e664b377c2cca978))
+((ref: [[dendron.pro.dendron-cli]]#launchengineserver:#*))
+- **workspace:** write server port in workspace ([6a0ff84](https://github.com/dendronhq/dendron/commit/6a0ff845ebbf010073b271123779fc3f56ac2821))
+    - used by bundled extensions to talk to dendron server
+- **engine:** add sync method ([ec58d39](https://github.com/dendronhq/dendron/commit/ec58d395003640384b7764f4f8b483429cc1ece3))
+    - used by bundled extensions to talk to dendron server
+
+### Bug Fixes
+- **engine:** properly handle \* in refs when refactoring ([704a14f](https://github.com/dendronhq/dendron/commit/704a14f17196e18cb5b26f5fc98ed9f8d492e16a))
+- **workbench:** fix daily journal note command signature ([5ec96ef](https://github.com/dendronhq/dendron/commit/5ec96efd9a006e5e5999f2704dfb3d1e97e60a5c))
+
+### House Cleaning
 
 ## [0.14.1](https://github.com/dendronhq/dendron/compare/v0.14.1-alpha.7...v0.14.1) (2020-11-05)
 
@@ -13,14 +34,12 @@ created: 1604539200840
 #### Lookup Copy WikiLink Modifier
 - **lookup:** copy note link cmd ([e38743d](https://github.com/dendronhq/dendron/commit/e38743ddbac8486f2ac778bd546a6373a15a4f6d))
 
-You can now copy the results of a lookup as wikilinks.
+((ref: [[dendron.topic.lookup.modifiers]]#copywikilink,1:#*))
 
 #### Lookup Multi-Select Modifier
 - **lookup:** support multi-select ([b409c05](https://github.com/dendronhq/dendron/commit/b409c05d3b19797de714dbf10b6a4249758eae8a))
 
-You can now toggle multi-select within lookup. This lets you work with multiple notes at once. You can combine this with other modifiers like **splitType** and the new **copyWikiLink** modifier. 
-
-<div style="position: relative; padding-bottom: 62.5%; height: 0;"><iframe src="https://www.loom.com/embed/913ff5490ba9445787ff1063be749658" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+((ref: [[dendron.topic.lookup.modifiers]]#multiselect,1:#*))
 
 ### House Cleaning
 

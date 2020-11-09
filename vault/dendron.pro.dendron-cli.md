@@ -2,7 +2,7 @@
 id: 8b03ed06-4f46-46e0-8652-c6abf2266a79
 title: Dendron-cli
 desc: ''
-updated: 1604511747912
+updated: 1604881040309
 created: 1599709645355
 stub: false
 ---
@@ -33,6 +33,17 @@ Options:
   --version  Show version number                                       [boolean]
   --help     Show help                                                 [boolean]
 ```
+
+## Engine Commands
+
+### launchEngineServer
+
+Launch the [[dendron server|dendron.roadmap.project.n.2020.server-migration]]. Useful for development purposes or to launch the server in a specified port
+
+```
+dendron-cli launchEngineServer --wsRoot ~/Dendron/ --vaults ~/Dendron/vault --port 3005
+```
+
 
 ## Publishing Commands
 

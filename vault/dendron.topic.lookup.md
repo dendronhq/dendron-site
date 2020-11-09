@@ -2,7 +2,7 @@
 id: a7c3a810-28c8-4b47-96a6-8156b1524af3
 title: Lookup
 desc: ''
-updated: 1604541094821
+updated: 1604884004105
 created: 1595952505038
 stub: false
 ---
@@ -52,50 +52,10 @@ If you have text highlighted while creating a new note with a lookup, the new no
 <a href="https://www.loom.com/share/61d754c1dca84b99b2786b2f89473566">
 <img style="" src="https://cdn.loom.com/sessions/thumbnails/61d754c1dca84b99b2786b2f89473566-with-play.gif"> </a>
 
-### Passing Arguments to Lookup
+### Modifiers
 
-#### filterType
-- controls notes shown for lookup
-- options:
-    - `directChildOnly`: filter all notes that are not the direct children of the current note
-        ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/lookup.dchild.jpg)
+((ref: [[dendron.topic.lookup.modifiers]]#modifiers,1:#*))
 
-#### selectionType
-- controls selection modifier
-- options
-    - `selectionExtract`: selection is extracted to newly created note (default)
-        ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/lookup.selection.jpg)
-    - `selection2link`: selection is turned into a link to newly created note. note path is set to `{current-path}.{slug-of-selection}` 
-        ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/lookup.link.jpg)
-        - a [slug](https://stackoverflow.com/questions/19335215/what-is-a-slug) is the human readable portion of an url
-        <a href="https://www.loom.com/share/abaa8083d93f4192aa480f1acef1a8b7"> 
-        <img style="" src="https://cdn.loom.com/sessions/thumbnails/abaa8083d93f4192aa480f1acef1a8b7-with-play.gif"> </a>
-    - you can control this behavior using `dendron.linkSelectAutoTitleBehavior`
-
-((ref: [[dendron.topic.config]]#dendron.linkselectautotitlebehavior,1:#*))
-
-#### noteType
-- controls what sort of note is created
-- options
-    - {none}: create a normal note  (default)
-    - `journal`: create a journal note
-        ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/lookup.journal.jpg)
-    - `scratch`: create a scratch ntoe:
-        ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/lookup.scratch.jpg)
-
-#### splitType
-- if set, open note in a new split
-- options: 
-    - `horizontal`: open in horizontal split
-        ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/lookup.splitType.jpg)
-
-#### noConfirm
-- if set, select first option from lookup without confirmation
-- type: boolean
-
-#### value
-- if set, have a custom value for lookup
-- type: string
 
 ### Passing Arguments Using Keybindings
 

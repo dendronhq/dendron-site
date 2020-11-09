@@ -2,7 +2,7 @@
 id: ffa6a4ba-5eda-48c7-add5-8e2333ba27b4
 title: Configuration
 desc: ''
-updated: 1603673851957
+updated: 1604887335111
 created: 1600564020051
 toc: true
 nav_order: 3
@@ -68,7 +68,7 @@ Location of the directory where site will be build. Relative to your workspace
 
 Location of the github repo where your site notes are located. By default, this is assumed to be your `workspaceRoot` if not set. This is used with the `Publish Notes` command
 
-#### usePrettyRefs?: boolean
+#### usePrettyRefs
 - default: True
 
 Whether to use pretty note refs or plain refs. 

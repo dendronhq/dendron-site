@@ -2,13 +2,13 @@
 id: 65b03213-d3d1-46c0-9881-a6280ed9bdeb
 title: New
 desc: ''
-updated: 1603847473303
+updated: 1604886235666
 created: 1602096212957 
 published: false
 nav_exclude: true
 ---
 
-##
+## 
 
 ### Features
 
@@ -26,7 +26,7 @@ Finally, we do have an escape valve in things something goes terribly wrong. You
 ### Enhancements
 - **notes:** selection2link will auto generate a title based on the selection ([9964339](https://github.com/dendronhq/dendron/commit/9964339138bde18dc022fdd62ce9ba9d529cfa2b))
 
-((ref: [[dendron.topic.lookup]]#selectiontype:#*))
+((ref: [[dendron.topic.lookup.modifiers]]#selectiontype:#*))
 
 
 - **workbench:** graceful failure on bad schema ([4db5064](https://github.com/dendronhq/dendron/commit/4db5064e4eef61d9c95b9abe34f2dec41550bd9d))

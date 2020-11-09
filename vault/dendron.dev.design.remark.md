@@ -2,7 +2,7 @@
 id: d8a09d7b-8693-437c-8a2c-2bfe0b3c2768
 title: Remark
 desc: ''
-updated: 1602033034187
+updated: 1604676771824
 created: 1602033034187
 stub: false
 ---
@@ -63,4 +63,28 @@ plugin.Compiler {
     }
 }
 
+```
+
+## Replace Links
+
+```ts
+getRemark(opts) {
+    dendronLinksOpts := opts
+    remark()
+        ...
+        .use(dendronLinksPlugin, dendronLinksOpts)
+}
+```
+
+- src/topics/markdown/plugins/dendronLinksPlugin.ts
+```ts
+
+plugin.Compiler({replaceLink}) {
+    if replaceLink {
+        node.value = replaceLink.to.fname;
+        if node.data.alias != replaceLink.from.fname {
+            node.data.alias = opts.replace.to.fname
+        }
+    }
+}
 ```

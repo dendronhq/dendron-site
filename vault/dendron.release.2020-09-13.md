@@ -2,7 +2,7 @@
 id: 50071eda-fc46-4aca-ba6c-9d53db00d068
 title: 2020-09-13 Release Notes
 desc: ''
-updated: 1604540162742
+updated: 1604887528304
 created: 1596374871110
 stub: false
 ---
@@ -48,7 +48,7 @@ Dendron now has a its own CLI that you can run standalone from the Dendron plugi
 
 ### New note from selection cmd
 
-((ref: [[dendron.topic.commands]]#new note from selection,1:#*))
+Create new note from a selection 
 
 ## Pods
 
@@ -60,7 +60,6 @@ Dendron now has a its own CLI that you can run standalone from the Dendron plugi
 
 - Use consistent interface for import/export
 - Additional additional options on export
-  ((ref: [[dendron.topic.pod]]#export config,1))
    
 
 ### Fixes
@@ -71,11 +70,11 @@ Dendron now has a its own CLI that you can run standalone from the Dendron plugi
 
 ### Published sites use pretty refs
 
-((ref: [[dendron.topic.publishing]]#note references,1:#*))
+((ref: [[dendron.topic.publishing.configuration]]#useprettyrefs,1:#*))
 
 ### Support noindex option
 
-((ref: [[dendron.topic.publishing]]#exclude from indexing,1:#*))
+((ref: [[dendron.topic.publishing.configuration]]#noindex,1:#*))
 
 ### Enhancements
 
@@ -90,7 +89,7 @@ Dendron now has a its own CLI that you can run standalone from the Dendron plugi
 
 ### Support wildcard refs
 
-((ref: [[dendron.topic.refs]]#wildcard header ref,1))
+((ref: [[dendron.topic.refs]]#wildcard header reference,1:#*))
 
 ### Enhancements
 

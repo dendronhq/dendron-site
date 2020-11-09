@@ -2,7 +2,7 @@
 id: 1b1aef8e-c9d5-42de-b850-d1b1467cf88b
 title: 2020-10-19 Release Notes
 desc: ''
-updated: 1604240260239
+updated: 1604886966408
 created: 1603123991664
 ---
 # 2020-10-19 Release Notes (version 0.13)
@@ -42,8 +42,8 @@ It's been a few weeks since the last minor release. This iteration was mostly sp
 
 Aside from features, we've also launched two [[seeds|dendron.topic.seeds]]. Seeds are **open source dendron sites** that **consolidate reference material** about a **particular vertical**. Content from the catalogues is derived from existing open source content as well as manual user input. Your 🙏 is welcomed and encouraged. 
 
-((ref: [[dendron.community.showcase]]#open pkm catalogue,1:#_))
-((ref: [[dendron.community.showcase]]#open aws catalogue,1:#_))
+((ref: [[dendron.community.showcase]]#open pkm catalogue,1:#*))
+((ref: [[dendron.community.showcase]]#open aws catalogue,1:#*))
 
 ## Sustainability
 

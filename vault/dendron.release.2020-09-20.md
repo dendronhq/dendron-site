@@ -2,7 +2,7 @@
 id: 8e59e25f-808c-42f1-a82a-e9ce4fd8edd8
 title: '2020-09-20 Release Notes'
 desc: ''
-updated: 1596374871110
+updated: 1604887253561
 created: 1596374871110
 ---
 
@@ -68,7 +68,7 @@ These release notes are summary of the more notable changes, for the full list, 
 ## Pods
 ### Implement Json import pod 
 
-((ref: [[dendron.topic.pod]]#json pod,1:#Custom Pods))
+((ref: [[dendron.topic.pod.builtin.json]]))
 
 
 ### Enhancements

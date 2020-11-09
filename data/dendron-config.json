@@ -25,7 +25,7 @@
             "skipDocs": true
         },
         {
-            "key": "dendron.createDailyJornalNote",
+            "key": "dendron.createDailyJournalNote",
             "title": "Dendron: Create Daily Journal Note",
             "group": "notes",
             "keybindings": {

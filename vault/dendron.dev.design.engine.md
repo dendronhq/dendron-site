@@ -2,7 +2,7 @@
 id: 849ee8ee-05a5-47bf-b44d-d7c257117bc4
 title: Engine
 desc: ''
-updated: 1603142002052
+updated: 1604676540847
 created: 1598652399447
 stub: false
 ---
@@ -241,10 +241,13 @@ renameNote opts {
 - src/topics/markdown/utilsv2.ts
 ```ts
 replaceLinks opts {
-  remark = getRemark({replaceLinks: opts})
+  remark = getRemark(dendronLinksOpts: {replaceLink: { from, to }} )
   return remark.process(opts.content).toString()
 }
 ```
+
+- See [[Remark|dendron.dev.design.remark]]
+
 
 # Deleting a Node
 

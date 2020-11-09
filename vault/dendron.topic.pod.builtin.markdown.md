@@ -2,7 +2,7 @@
 id: 13c4a608-0a32-4c62-9c7e-2b7f9f2d18bf
 title: Markdown
 desc: ''
-updated: 1603308791556
+updated: 1604884283654
 created: 1603306941128
 ---
 
@@ -60,6 +60,11 @@ Non-markdown files within a directory will be moved into the `assets` folder of 
 ```
 
 Note that all files starting with a `.` will be ignored during the import.
+
+#### Links
+
+If you are importing from tools like **Obsidian** that support wiki-links, Dendron will convert those wiki-links to Dendron's dot based format (eg. `[[project/p1]] -> [[project.p1]]`)
+
 
 ### Publish
 

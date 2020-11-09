@@ -2,7 +2,7 @@
 id: 3e7baac6-f120-4378-a667-92e7a0869dca
 title: Cache
 desc: ''
-updated: 1599842689882
+updated: 1604887085455
 created: 1599842689882
 stub: false
 ---
@@ -29,7 +29,7 @@ Some things to note:
 - when re-publishing content, google will penalize your site if you have duplicate content from other sites. you can tell google to not index specific pages or hierarchies
     
 ## Exclude page from index
-((ref: [[dendron.topic.publishing]]#exclude from indexing,1:#*))
+((ref: [[dendron.topic.publishing.advanced]]#exclude from indexing,1:#*))
 
 ## Exclude hierarchy from index
 - set [[noindexByDefault|dendron.topic.publishing]] to true in your site hierarchy specific config
