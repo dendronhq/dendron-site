@@ -2,7 +2,7 @@
 id: 6e4c4f61-80a3-46fa-9ad3-04b99d9e9695
 title: Roadmap
 desc: ''
-updated: 1600840127160
+updated: 1604961245648
 created: 1600840127160
 stub: false
 nav_order: 2.1
@@ -25,10 +25,10 @@ You can see the corresponding issues on [github](https://github.com/orgs/dendron
     - [ ] [[pods v0|dendron.roadmap.project.n.2020.pods]] 
     - [x] [[seeds v0|dendron.roadmap.project.n.2020.seeds]] 
 - October
-    - [ ] [[Server Migration|dendron.roadmap.project.n.2020.server-migration]] #wip
-    - [ ] [[Quality of Life Improvements v0|dendron.roadmap.project.n.2020.qol]] #feedback #wip 
-    - [ ] [[Multi Vaults|dendron.roadmap.project.n.2020.multi-vault]] #feedback
+    - [x] [[Server Migration|dendron.roadmap.project.n.2020.server-migration]] #wip
+    - [x] [[Quality of Life Improvements v0|dendron.roadmap.project.n.2020.qol]] #feedback #wip 
 - November
+    - [.] [[Multi Vaults|dendron.roadmap.project.n.2020.multi-vault]] #feedback
     - [ ] [[Long Term Sustainability v0|dendron.roadmap.project.n.2020.long-term-sustainability]] 
 - December
     - [ ] [[Git all the people|dendron.roadmap.project.n.2020.git]]
