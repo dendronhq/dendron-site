@@ -1,3 +1,7 @@
 site:
-  siteHierarchies: [dendron]
-  siteRootDir: docs
+    siteHierarchies:
+        - dendron
+    siteRootDir: docs
+vaults:
+    -
+        fsPath: /Users/kevinlin/projects/dendronv2/dendron-template/vault

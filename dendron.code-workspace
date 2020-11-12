@@ -12,7 +12,6 @@
         "workbench.editor.enablePreview": false,
         "dendron.defaultLookupCreateBehavior": "selectionExtract",
         "dendron.rootDir": ".",
-        "dendron.useExperimentalLSPSupport": true,
         "dendron.defaultJournalDateFormat": "Y.MM.DD",
         "zenMode.fullScreen": false,
         "zenMode.hideLineNumbers": false,
@@ -43,30 +42,14 @@
             "activityBar.inactiveForeground": "#15202b99",
             "activityBarBadge.background": "#945bc4",
             "activityBarBadge.foreground": "#e7e7e7",
-            "statusBar.background": "#42b883",
+            "statusBar.background": "#42b882",
             "statusBar.foreground": "#15202b",
-            "statusBarItem.hoverBackground": "#359268",
-            "titleBar.activeBackground": "#42b883",
+            "statusBarItem.hoverBackground": "#359267",
+            "titleBar.activeBackground": "#42b882",
             "titleBar.activeForeground": "#15202b",
-            "titleBar.inactiveBackground": "#42b88399",
+            "titleBar.inactiveBackground": "#42b88299",
             "titleBar.inactiveForeground": "#15202b99"
         },
-        "peacock.color": "#42b883"
-    },
-    "extensions": {
-        "recommendations": [
-            "equinusocio.vsc-material-theme",
-            "dendron.dendron-markdown-shortcuts",
-            "dendron.dendron-markdown-preview-enhanced",
-            "dendron.dendron-markdown-links",
-            "dendron.dendron-markdown-notes",
-            "dendron.dendron-paste-image",
-            "github.github-vscode-theme"
-        ],
-        "unwantedRecommendations": [
-            "shd101wyy.markdown-preview-enhanced",
-            "kortina.vscode-markdown-notes",
-            "mushan.vscode-paste-image"
-        ]
+        "peacock.color": "#42b882"
     }
 }

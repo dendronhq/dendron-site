@@ -13,3 +13,5 @@ docs-dev/notes
 
 proto.*
 *.log
+.dendron.port
+.dendron.ws

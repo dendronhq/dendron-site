@@ -207,6 +207,12 @@ This is a cheatsheet for Dendron.
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/workbench.help.gif)
 
+### Dendron: Configure
+- description: Modify Dendron Config
+- shortcuts: none
+
+
+
 ---
 ## Pods
 ### Dendron: Build Pod

@@ -321,6 +321,16 @@
             "docLink": "dendron.topic.commands.md",
             "docPreview": "![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/workbench.help.gif)",
             "skipDocs": false
+        },
+        {
+            "key": "dendron.configure",
+            "title": "Dendron: Configure",
+            "group": "workspace",
+            "desc": "Modify Dendron Config",
+            "docs": "",
+            "docLink": "",
+            "docPreview": "",
+            "skipDocs": false
         }
     ],
     "pods": [
