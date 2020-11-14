@@ -62,8 +62,7 @@ Dendron is built around hierarchies and the axiom that a canonical hierarichal r
 
 
 1. It allows each **file** to also be a **folder**. This means your notes can have data but also contain other notes. 
-1. It makes it much easier to perform certain refactoring operations
-    - for example, say you had the following [[schema |dendron.topic.schema]]
+1. It makes it much easier to perform certain refactoring operations. For example, say you had the following [[schema |dendron.topic.schema]]
     ```yml
     - id: a-parent
     children:
@@ -72,7 +71,7 @@ Dendron is built around hierarchies and the axiom that a canonical hierarichal r
     - id: child-a
     - id: child-b
     ```
-    - lets say you wanted to make `child-b` a child of `child-a`
+   Lets say you wanted to make `child-b` a child of `child-a`
     ```yml
     - id: a-parent
     children:
@@ -82,7 +81,7 @@ Dendron is built around hierarchies and the axiom that a canonical hierarichal r
         - child-b
     - id: child-b
     ```
-    - with the classical folder hierarchy, you would need to turn `child-a` into a folder and then create a custo file to hold the content from the original `child-a`
+    With the classical folder hierarchy, you would need to turn `child-a` into a folder and then create a custo file to hold the content from the original `child-a`
     ```
     .
     └── a-parent
@@ -90,14 +89,13 @@ Dendron is built around hierarchies and the axiom that a canonical hierarichal r
             ├── child-a-note
             └── child-b
     ```
-    - with the `.` delimited hierarchy, this becomes a simple rename operation
+    With the `.` delimited hierarchy, this becomes a simple rename operation
     ```
     .
     ├── a-parent.child-a
     └── a-parent.child-a.child-b
     ```
-1. It allows us to create [[stubs | dendron.topic.schema ]] for parts of the hierarchy that don't exist and not clutter our file system with empty folders 
-    - with the classical folder hierarchy
+1. It allows us to create [[stubs | dendron.topic.schema ]] for parts of the hierarchy that don't exist and not clutter our file system with empty folders. With the classical folder hierarchy
     ```
     .
     └── a-parent
@@ -105,7 +103,7 @@ Dendron is built around hierarchies and the axiom that a canonical hierarichal r
             └── grandchild-a
                 └── great-grandchild-a.md
     ```
-    - with the `.` delimited hierarchy
+    With the `.` delimited hierarchy
     ```
     .
     └── a-parent.child-a.grandchild-a.great-grandchild-a.md
