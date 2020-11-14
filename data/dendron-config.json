@@ -267,6 +267,24 @@
     ],
     "workspace": [
         {
+            "key": "dendron.vaultAdd",
+            "title": "Dendron: Vault: Add",
+            "group": "workspace",
+            "desc": "Add a new vault",
+            "docLink": "",
+            "docPreview": "",
+            "skipDocs": false
+        },
+        {
+            "key": "dendron.vaultRemove",
+            "title": "Dendron: Vault: Remove",
+            "group": "workspace",
+            "desc": "Remove a vault",
+            "docLink": "",
+            "docPreview": "",
+            "skipDocs": false
+        },
+        {
             "key": "dendron.initWS",
             "title": "Dendron: Initialize Workspace",
             "group": "workspace",
