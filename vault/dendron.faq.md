@@ -2,7 +2,7 @@
 id: 683740e3-70ce-4a47-a1f4-1f140e80b558
 title: FAQ
 desc: ''
-updated: 1603295822308
+updated: 1605368248312
 created: 1595952505025
 stub: false
 nav_order: 6
@@ -126,6 +126,13 @@ If you have a hard time deciding which ideas belong closer to root, think which 
 Despite our emphasis on hierarchies, Dendron also supports non-hierarchal ways of organizing notes (eg. backlinks, zettelkasten, etc).
 
 You can, and are encouraged to, combine these other workflows with Dendron hierarchies in order to create your own workflow that takes the best parts of each system!
+
+### What if I have a note that belongs in multiple hierarchies?
+
+This comes up a lot especially when your dealing with organizing collections of things, like music or books. There are a few approaches we recommend here.
+
+1. Use [[tags|dendron.topic.tags]]. Tags work best with categorical data. If you use **Dendron Tags** (aka they're really hierarchies), then you have the added advantage of being able to refactor and track your tags using Dendron's existing hierarchal tooling. 
+2. Use alias nodes. This is an [upcoming feature](https://github.com/dendronhq/dendron/issues/128) that will allow you to put a node under multiple hierarchies. 
 
 ## Working with Schemas
 
