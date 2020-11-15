@@ -25,7 +25,7 @@ Below is a hypothetical hierarchy for a file tree:
 ```
 
 
-The same hiearchy in Dendron would look like the following:
+The same hierarchy in Dendron would look like the following:
 
 ```
 .
