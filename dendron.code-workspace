@@ -9,6 +9,7 @@
     ],
     "settings": {
         "workbench.editor.showTabs": true,
+        "workbench.editor.pinnedTabSizing": "shrink",
         "workbench.editor.enablePreview": false,
         "dendron.defaultLookupCreateBehavior": "selectionExtract",
         "dendron.rootDir": ".",

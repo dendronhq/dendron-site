@@ -2,11 +2,111 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1604890690337
+updated: 1605471682227
 created: 1601508213606
 stub: false
 ---
 # Changelog
+## 0.15.3
+
+### Features
+#### Better Lookup Performance 🚀 🚀 🚀
+
+We've made a whole bunch of optimizations to make lookup hum. You should notice everything about it feel a little faster now
+
+Changelog:
+- **lookup:** multiple lookup optimizations([f14eed8](https://github.com/dendronhq/dendron/commit/f14eed8da822eb75f130edb7364a1f9f0c2fe354))
+- **lookup:** intelligently debounce queries ([2f0ac56](https://github.com/dendronhq/dendron/commit/2f0ac56bd6f64d0b99fcb82d6effa9f062d18fc2))
+
+### Enhancements
+- update getting started ([af5dde9](https://github.com/dendronhq/dendron/commit/af5dde91d153ce46089c8688caec0e583eddb939))
+    - instead of 100+ notes, new vaults will be initialized with a single quickstart note (with links to the 100+ notes)
+
+- better logging ([2d7fd78](https://github.com/dendronhq/dendron/commit/2d7fd780d3c548a362dcf01a2620409b1bcdff3e))
+    - let logs talk for you the next time you submit [an issue](https://github.com/dendronhq/dendron/issues/new?assignees=&labels=&template=bug_report.md&title) (no 🌲 harmed in this process) 
+
+- nicer error messages ([e1e87a1](https://github.com/dendronhq/dendron/commit/e1e87a16186b1e8b8aae6f77fe8a2c5c865c4071))
+    - we'll let you know if you need to submit an issue instead of giving you the silent treatment
+
+- keep old log files ([3f1362c](https://github.com/dendronhq/dendron/commit/3f1362c224ff7dae5de721dd2f2c8cba22db4d84))
+    - dendron currently wipes all logs on startup. this change makes it keep around the last log for debugging purposes
+
+### Bug Fixes
+- creating scratch notes can sometimes fail ([c31c611](https://github.com/dendronhq/dendron/commit/c31c611d975b8eeee4f63abec742edf88dac66ac))
+- sync issues btw server and client nodes that would cause certain commands to fail  ([a446aba](https://github.com/dendronhq/dendron/commit/a446aba9d931d7732553e1ecb43302208d6f798a))
+
+## 0.15.2
+
+### Features
+
+#### Experimental Multi-Vault Support
+
+(Early Experimental ) [[Multi Vault Support|dendron.roadmap.project.n.2020.multi-vault]]  is here! Multi Vault lets you add additional [vaults](https://dendron.so/notes/c6fd6bc4-7f75-4cbb-8f34-f7b99bfe2d50.html#vaults-) to your Dendron workspace.
+
+Each vault is logically separate (they reside in separate directories) but can be universally queried using lookup.
+
+Multi vault enables a bunch of exciting use cases.
+
+((ref: [[dendron.roadmap.project.n.2020.multi-vault]]#use cases,1:#*))
+
+Currently, the following commands are supported with multi-vault:
+- Lookup 
+- Deleting a Note
+- Navigating to a note using Tree View 
+
+Other commands like rename/refactor will still work when performed in your primary vault. They will probably not work if performed against a note not inside your primary vault.
+
+When you use **Lookup** to create a new note with multi vault, the note will be created inside the same vault as the current opened note. **Lookup** will also show you the vault that each note belongs to while performing lookup.
+
+Currently known issues (with supported commands):
+- unable to create a note using Lookup that has the same name as an existing note inside **any** of your vaults 
+- unable to navigating to the root of a vault using Tree View
+
+#### Vault Add Command
+
+Add a new vault to your workspace. 
+
+<div style="position: relative; padding-bottom: 62.5%; height: 0;"><iframe src="https://www.loom.com/embed/b4171372f9794dd7be609c043f343fa3" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
+#### Vault Remove Command
+
+Remove a vault from your workspace. Note that the underlying files wil **not** be deleted - the vault will lose its association with your workspace.
+
+<div style="position: relative; padding-bottom: 62.5%; height: 0;"><iframe src="https://www.loom.com/embed/307effc22b8d4c59a32933529a8393e1" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
+### Enhancements
+### Bug Fixes
+- **engine:** init with empty config won't throw error ([7beb90f](https://github.com/dendronhq/dendron/commit/7beb90fa243bc73563a3ce16b5305345f7348d9f))
+- **engine:** don't delete old note if new note wasn't created by rename ([de44f9f](https://github.com/dendronhq/dendron/commit/de44f9f4d38651d75433ae885fdc78bb762fb1f6))
+- **notes:** fix issue when importing note that already exists ([a08a34a](https://github.com/dendronhq/dendron/commit/a08a34a0563bb4047bd9c7cfc5f2bf150873fdc8))
+
+### House Cleaning
+- vault metadata will be added to `dendron.yml`
+- `dendron.yml` comments will be stripped on workspace initialization
+
+## 0.15.1
+
+### Features
+
+#### Wildcard Note Ref Links
+- **refs:** wildcard note ref links ([98a1177](https://github.com/dendronhq/dendron/commit/98a117715a967492ab9d7b8749d964b07bde4055))
+
+[[Note references|dendron.topic.refs]] now accept the `*` operator at the end which lets you grab all notes of a given level of hierarchy. This also works with typical note reference operation like block selection which means you can use it to grab specific blocks from every note in a level.
+
+<div style="position: relative; padding-bottom: 62.5%; height: 0;"><iframe src="https://www.loom.com/embed/9401e5dfe60f4f589e14d50e280d11f5" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
+#### Dendron: Configure Command
+- **workbench:** add configure command ([db51dc3](https://github.com/dendronhq/dendron/commit/db51dc35864d0c4434f70620ef0e88451c198fa4))
+
+This is a quick way to update the `dendron.yml` file. You can run it by using `Dendron: Configure`
+
+
+
+### Bug Fixes
+- **notes:** fix issue when importing note that already exists ([a08a34a](https://github.com/dendronhq/dendron/commit/a08a34a0563bb4047bd9c7cfc5f2bf150873fdc8))
+
+### House Cleaning
+- add `.dendron.ws` file under workspace to store workspace specific metadata
 
 ## 0.14.2
 

@@ -2,9 +2,37 @@
 id: 3abd00eb-1c1e-4253-aaf5-dcbe20c21850
 title: Early Seed
 desc: ''
-updated: 1605320815797
+updated: 1605471714032
 created: 1604539200840
 ---
+
+## 0.15.3
+
+### Features
+#### Better Lookup Performance 🚀 🚀 🚀
+
+We've made a whole bunch of optimizations to make lookup hum. You should notice everything about it feel a little faster now
+
+Changelog:
+- **lookup:** multiple lookup optimizations([f14eed8](https://github.com/dendronhq/dendron/commit/f14eed8da822eb75f130edb7364a1f9f0c2fe354))
+- **lookup:** intelligently debounce queries ([2f0ac56](https://github.com/dendronhq/dendron/commit/2f0ac56bd6f64d0b99fcb82d6effa9f062d18fc2))
+
+### Enhancements
+- update getting started ([af5dde9](https://github.com/dendronhq/dendron/commit/af5dde91d153ce46089c8688caec0e583eddb939))
+    - instead of 100+ notes, new vaults will be initialized with a single quickstart note (with links to the 100+ notes)
+
+- better logging ([2d7fd78](https://github.com/dendronhq/dendron/commit/2d7fd780d3c548a362dcf01a2620409b1bcdff3e))
+    - let logs talk for you the next time you submit [an issue](https://github.com/dendronhq/dendron/issues/new?assignees=&labels=&template=bug_report.md&title) (no 🌲 harmed in this process) 
+
+- nicer error messages ([e1e87a1](https://github.com/dendronhq/dendron/commit/e1e87a16186b1e8b8aae6f77fe8a2c5c865c4071))
+    - we'll let you know if you need to submit an issue instead of giving you the silent treatment
+
+- keep old log files ([3f1362c](https://github.com/dendronhq/dendron/commit/3f1362c224ff7dae5de721dd2f2c8cba22db4d84))
+    - dendron currently wipes all logs on startup. this change makes it keep around the last log for debugging purposes
+
+### Bug Fixes
+- creating scratch notes can sometimes fail ([c31c611](https://github.com/dendronhq/dendron/commit/c31c611d975b8eeee4f63abec742edf88dac66ac))
+- sync issues btw server and client nodes that would cause certain commands to fail  ([a446aba](https://github.com/dendronhq/dendron/commit/a446aba9d931d7732553e1ecb43302208d6f798a))
 
 ## 0.15.2
 
