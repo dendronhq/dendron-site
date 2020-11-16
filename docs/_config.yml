@@ -9,7 +9,7 @@ footer_content: "Copyright &copy; 2020 Thence LLC"
 url: "https://www.dendron.so"
 
 gh_edit_link: true 
-gh_edit_repository: "https://github.com/dendronhq/dendron-template"
+gh_edit_repository: "https://github.com/dendronhq/dendron-site"
 gh_edit_link_text: "Edit this page on GitHub"
 gh_edit_branch: "master" # the branch that your docs is served from
 gh_root: "docs/" # doc root
