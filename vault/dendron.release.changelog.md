@@ -2,11 +2,17 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1605471682227
+updated: 1605648567227
 created: 1601508213606
 stub: false
 ---
 # Changelog
+
+## 0.16.1
+
+### Bug Fixes
+- new dendron installation missing welcome note
+
 ## 0.15.3
 
 ### Features
