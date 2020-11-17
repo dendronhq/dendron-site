@@ -2,7 +2,7 @@
 id: 5a7103be-eb92-4380-8207-598e9f10724c
 title: Dendron-engine
 desc: ''
-updated: 1605287511510
+updated: 1605542069532
 created: 1605108924902
 ---
 
@@ -51,7 +51,10 @@ renameNote opts {
   notesToChange = getNotesWithLinkTo(oldNote)
   notesToChange.forEach { n =>
     replaceLinks(n, from: oldLoc, to: newLoc)
+    n.links = findLinks(n)
   }
+  newNote = {oldNote, newLoc}
+  @deleteNote( oldNode, metaOnly)
 }
 ```
 
@@ -61,6 +64,20 @@ replaceLinks opts {
   remark = getRemark(dendronLinksOpts: {replaceLink: { from, to }} )
   return remark.process(opts.content).toString()
 }
+```
+
+- src/drivers/file/storev2.ts
+
+```ts
+deleteNote(note) {
+  ...
+  if !note.children {
+    ...
+  } else {
+  }
+
+}
+
 ```
 
 - See [[Remark|dendron.dev.design.remark]]
