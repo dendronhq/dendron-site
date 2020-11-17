@@ -177,6 +177,19 @@ This is a cheatsheet for Dendron.
 
 ---
 ## Workspace
+### Dendron: Vault Add
+- description: Add a new vault
+- shortcuts: none
+
+<div style="position: relative; padding-bottom: 62.5%; height: 0;"><iframe src="https://www.loom.com/embed/b4171372f9794dd7be609c043f343fa3" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
+### Dendron: Vault Remove
+- description: Remove a vault
+- shortcuts: none
+
+Remove a vault from your workspace. Note that the underlying files wil **not** be deleted - the vault will lose its association with your workspace.
+<div style="position: relative; padding-bottom: 62.5%; height: 0;"><iframe src="https://www.loom.com/embed/307effc22b8d4c59a32933529a8393e1" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
 ### Dendron: Initialize Workspace
 - description: Create a new workspace
 - shortcuts: none
