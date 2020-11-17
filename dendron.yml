@@ -4,4 +4,4 @@ site:
     siteRootDir: docs
 vaults:
     -
-        fsPath: /Users/kevinlin/projects/dendronv2/dendron-template/vault
+        fsPath: vault
