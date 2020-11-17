@@ -26,7 +26,7 @@ Since Dendron runs on top of VSCode, it means that you also have access to thous
     - live markdown preview
     - math
     - sequence diagrams
-    - pandoc suppor
+    - pandoc support
     - code chunks
 - [Material Theme](https://marketplace.visualstudio.com/items?itemName=equinusocio.vsc-material-theme) 
   - beautiful colors built using the [Material design system](https://material.io/) 
