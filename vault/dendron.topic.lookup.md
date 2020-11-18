@@ -2,7 +2,7 @@
 id: a7c3a810-28c8-4b47-96a6-8156b1524af3
 title: Lookup
 desc: ''
-updated: 1604884004105
+updated: 1605714680502
 created: 1595952505038
 stub: false
 ---
@@ -39,8 +39,8 @@ To try it yourself, bring up the lookup bar. Type `dendron.lookup.hello` and hit
 Dendron has builtin notion for certain types of notes with [[pre-defined hierarchies|dendron.topic.special-notes]]. These notes can be created by toggling the corresponding **note button**  on the lookup menu or by using the respective builtin shortcuts.
 - values:
     - none (default): create a regular note
-    - journal: create a journal note (cmd/ctrl + shift + s)
-    - scratch: create a scratch note (cmd/ctrl + shift + j)
+    - journal: create a journal note (cmd/ctrl + shift + j)
+    - scratch: create a scratch note (cmd/ctrl + shift + s)
 
 ### Creating Notes with a Selection
 

@@ -2,7 +2,7 @@
 id: 301e4129-6933-4be7-a4bd-8125171360d8
 title: Bundled Extensions
 desc: ''
-updated: 1605366888362
+updated: 1605714577530
 created: 1596643515473
 stub: false
 ---
@@ -49,3 +49,4 @@ Since Dendron runs on top of VSCode, it means that you also have access to thous
 
 ### Web Clipper
 - [Markdown Web](https://chrome.google.com/webstore/detail/markdownload-markdown-web/pcmpcfapbekmbjjkdalcgopdkipoggdi?hl=en-GB): markdown based web clipper
+- [Roam Highlighter](https://chrome.google.com/webstore/detail/mcoimieglmhdjdoplhpcmifgplkbfibp)
