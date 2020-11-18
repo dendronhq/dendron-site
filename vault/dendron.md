@@ -2,7 +2,7 @@
 id: b0fe6ef7-1553-4280-bc45-a71824c2ce36
 title: Dendron
 desc: ''
-updated: 1605471710278
+updated: 1605729810891
 created: 1595952505017
 stub: false
 ---
@@ -35,6 +35,7 @@ Dendron finds the **usable center** between the two extremes by supporting backl
 With Dendron, you can **create, find, and collaborate** on information that **matters to you**.
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/graph-intro.gif)
+
 
 ## Use Cases
 
