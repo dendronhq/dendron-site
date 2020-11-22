@@ -2,7 +2,7 @@
 id: 87d90002-f480-45eb-a8c4-d00df4d61557
 title: Dendron-plugin
 desc: ''
-updated: 1605465073032
+updated: 1605895723906
 created: 1605375348464
 ---
 
@@ -81,3 +81,13 @@ onTriggerButton {
 
 }
 ```
+
+# TreeView
+
+## init
+- onInitialize, reconstruct the whole tre
+
+## refresh
+- ReloadIndex
+- SchemaWatcher
+- FileWatcher
