@@ -10,3 +10,9 @@ nav_exclude: true
 # Style
 
 ## Colors
+
+- `#69B160` - **"dendron green"** - eyedropper-picked from logo
+
+## Logo
+
+![logo](./assets/images/logo.png)
