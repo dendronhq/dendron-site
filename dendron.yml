@@ -5,3 +5,4 @@ site:
 vaults:
     -
         fsPath: vault
+version: 0
