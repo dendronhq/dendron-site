@@ -2,7 +2,7 @@
 id: a6c03f9b-8959-4d67-8394-4d204ab69bfe
 title: Troubleshooting
 desc: ''
-updated: 1604237983143
+updated: 1606072926171
 created: 1595952505025
 ---
 
@@ -27,7 +27,7 @@ To manually install a custom version of Dendron, first obtain the Dendron vsix f
 
 ## Logs
 
-You can diagnose most problems by checking the logs. You can view the logs by following the instructions [here](https://www.loom.com/share/d1983753684e48a2b0592bbbbbbb6be5).
+You can diagnose most problems by checking the logs. You can view the logs using the [[Open Logs Command|dendron.topic.commands#dendrondev-open-logs]]
 
 ## Upgrading
 

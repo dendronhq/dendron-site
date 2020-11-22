@@ -2,7 +2,7 @@
 id: eea2b078-1acc-4071-a14e-18299fc28f47
 title: Commands
 desc: ''
-updated: 1595261816971
+updated: 1606072915795
 created: 1595261816971
 ---
 
@@ -436,7 +436,7 @@ Auto fix issues with frontmatter
 
 Dump internal state of Dendron inside logs
 
- This is useful when diagnosing issues in Dendron 
+his is useful when diagnosing issues in Dendron 
 
 
 
