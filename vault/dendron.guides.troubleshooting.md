@@ -2,10 +2,9 @@
 id: a6c03f9b-8959-4d67-8394-4d204ab69bfe
 title: Troubleshooting
 desc: ''
-updated: 1606072926171
+updated: 1606095213655
 created: 1595952505025
 ---
-
 # Troubleshooting
 
 ## General
@@ -13,9 +12,9 @@ created: 1595952505025
 90% of all issues can be solved with one of the following steps:
 
 1. Reload your window. This is the equivalent of restarting your computer. 
-    - `> Developer: Reload Window`
+   - `> Developer: Reload Window`
 2. Check that all the recommended extensions are installed.
-    - Make sure you have the necessary extensions by checking searching for `@enabled dendron` inside the extensions pane and making sure that you have the latest version of all dendron extensions.
+   - Make sure you have the necessary extensions by checking searching for `@enabled dendron` inside the extensions pane and making sure that you have the latest version of all dendron extensions.
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/trouble-extensions.jpg)
 
@@ -29,6 +28,11 @@ To manually install a custom version of Dendron, first obtain the Dendron vsix f
 
 You can diagnose most problems by checking the logs. You can view the logs using the [[Open Logs Command|dendron.topic.commands#dendrondev-open-logs]]
 
+### Server Logs
+
+Dendron has two sets of logs - client and server. The client logs you can access using the `Open Logs Command`. You can access the server logs by following the tutorial [here](https://www.loom.com/share/3d04cb1d6f904ac099d73e083e62ee2f
+). 
+
 ## Upgrading
 
 ### Error upgrading
@@ -41,7 +45,7 @@ The most likely culprit of this error is a bad snippets file. To fix, bring up t
 
 ## Schemas
 
-### I'm getting a `you cannot define a mapping item when in a sequence` when trying to define a schema 
+### I'm getting a `you cannot define a mapping item when in a sequence` when trying to define a schema
 
 That means there's an issue with your yaml. You can paste it in [yaml lint](http://www.yamllint.com/) to check that you are using the correct yaml syntax. 
 
@@ -66,6 +70,7 @@ For example, this is a valid schema.
 ```
 
 This is not a valid schema.
+
 ```yml
 - id: journal
   title: journal
@@ -95,9 +100,11 @@ Meanwhile, you can open Dendron's markdown preview by clicking the preview butto
 ## Misc
 
 ### Why does Dendron create `root.*` files in my vault?
+
 - Dendron currently creates a `root.md` file and a `root.schema.yml` file where you initialize your vault. these files will be used in the future to automatically generate an index of everything in your vault. you may safely ignore them for now
 
 ### What is the extra text that is created at the beginning of each note?
+
 - currently, you might see the following text added to the top of your note. This is additional metadata that Dendron uses to manage your files. 
 
 ```yml
@@ -125,4 +132,5 @@ Hierarchies today are created automatically when dendron crawls your folder for 
 
 ### Reference to Another Note on Ubuntu
 
-If Ctrl+Shift+R (reference to another note) doesn't work on Ubuntu, do ```sudo apt install xsel```.
+If Ctrl+Shift+R (reference to another note) doesn't work on Ubuntu, do `sudo apt install xsel`.
+

@@ -2,7 +2,7 @@
 id: 301e4129-6933-4be7-a4bd-8125171360d8
 title: Bundled Extensions
 desc: ''
-updated: 1605714577530
+updated: 1606095323795
 created: 1596643515473
 stub: false
 ---
@@ -44,6 +44,8 @@ Since Dendron runs on top of VSCode, it means that you also have access to thous
 - [Macros](https://marketplace.visualstudio.com/items?itemName=geddski.macros): Define custom macros 
 - [Vim](https://marketplace.visualstudio.com/items?itemName=vscodevim.vim): VIM key bindings 😍
 - [Bookmarks](https://marketplace.visualstudio.com/items?itemName=alefragnani.Bookmarks): Bookmark lines within Files
+- [Vertical Limit](https://marketplace.visualstudio.com/items?itemName=generik.vertical-limit): Work with multiple cursors and blocks of text
+- [CodeUI](https://marketplace.visualstudio.com/items?itemName=ryanraposo.codeui): Easier customization of every part of the VSCode UI
 
 ## Browser Extensions
 
