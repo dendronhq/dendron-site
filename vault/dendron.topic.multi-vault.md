@@ -2,7 +2,7 @@
 id: 24b176f1-685d-44e1-a1b0-1704b1a92ca0
 title: Multi-vault
 desc: ''
-updated: 1605849905587
+updated: 1606145608619
 created: 1605630383515
 ---
 
@@ -27,7 +27,7 @@ TBD
 
 ((ref: [[dendron.topic.commands]]#vault add:#*))
 
-((ref: [[dendron.release.changelog.early-seed]]#vault remove command:#*))
+((ref: [[dendron.topic.commands]]#vault remove:#*))
 
 ### Lookup
 
