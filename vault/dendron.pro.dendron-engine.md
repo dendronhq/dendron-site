@@ -2,7 +2,7 @@
 id: 5a7103be-eb92-4380-8207-598e9f10724c
 title: Dendron-engine
 desc: ''
-updated: 1605542069532
+updated: 1606160347418
 created: 1605108924902
 ---
 
@@ -81,3 +81,10 @@ deleteNote(note) {
 ```
 
 - See [[Remark|dendron.dev.design.remark]]
+
+
+# Specifics
+
+### Does Dendron use parent/children metadata inside notes during initialization?
+
+- src/filesv2.ts: `string2Note`

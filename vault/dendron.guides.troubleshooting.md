@@ -2,7 +2,7 @@
 id: a6c03f9b-8959-4d67-8394-4d204ab69bfe
 title: Troubleshooting
 desc: ''
-updated: 1606095213655
+updated: 1606281542953
 created: 1595952505025
 ---
 # Troubleshooting
@@ -32,6 +32,12 @@ You can diagnose most problems by checking the logs. You can view the logs using
 
 Dendron has two sets of logs - client and server. The client logs you can access using the `Open Logs Command`. You can access the server logs by following the tutorial [here](https://www.loom.com/share/3d04cb1d6f904ac099d73e083e62ee2f
 ). 
+
+### Logs from previous session
+
+Dendron has logs for the current session and the previous session.
+
+You can get logs of the previous session by following instructions [here](https://www.loom.com/share/2ca740e8e09b4aaf927d8098e2e6dec0)
 
 ## Upgrading
 

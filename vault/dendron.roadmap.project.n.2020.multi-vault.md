@@ -2,7 +2,7 @@
 id: 45cfb9f2-46cf-4f67-a41e-834818fbd06e
 title: Multi Vault Support
 desc: ''
-updated: 1606155135848
+updated: 1606352558482
 created: 1599501659137
 stub: false
 start: 2020.10.07
@@ -69,6 +69,7 @@ vaults:
     remote:
       type: git
       url: /path/to/vault2/repo
+      branch: nightly # optional, target specific branch
 ```
 
 ### Cloning
