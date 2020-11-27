@@ -2,7 +2,7 @@
 id: dac6a3e2-bc8f-422f-8aa5-3adb3d0543fc
 title: Testimonials
 desc: ''
-updated: 1605156250552
+updated: 1606443183547
 created: 1605156250552
 parent: 6f4cd441-f883-4e75-871b-b7f93895c91b
 children:
@@ -12,6 +12,8 @@ children:
   - cd55a110-0597-4d55-99d7-2bd63787959e
   - 1a7d8768-2056-448e-b587-9f56c104f5b3
 stub: false
+published: false
+nav_exclude: true
 fname: dendron.community.testimonials
 hpath: dendron.community.testimonials
 ---
