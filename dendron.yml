@@ -2,6 +2,8 @@ site:
     siteHierarchies:
         - dendron
     siteRootDir: docs
+    usePrettyRefs: true
+    copyAssets: true
 vaults:
     -
         fsPath: vault

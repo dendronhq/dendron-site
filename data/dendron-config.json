@@ -7,13 +7,6 @@
             "desc": "Become an environmentalist and keep Dendron sustainable",
             "docs": "This command takes you to Dendron's [Environmentalist](https://accounts.dendron.so/account/subscribe) plans.\nEnvironmentalists are users that can support Dendron financially through a monthly contribution. Environmentalist get access to insider builds, priority support, and access to exclusive dev channels.",
             "skipDocs": false
-        },
-        {
-            "key": "dendron.updateSchema",
-            "title": "Dendron: Update Schema",
-            "desc": "Update schema",
-            "group": "lookup",
-            "skipDocs": true
         }
     ],
     "notes": [
@@ -341,10 +334,20 @@
             "skipDocs": false
         },
         {
-            "key": "dendron.configure",
+            "key": "dendron.configureRaw",
+            "title": "Dendron: Configure (yaml)",
+            "group": "workspace",
+            "desc": "Modify Dendron Config as raw YAML",
+            "docs": "",
+            "docLink": "",
+            "docPreview": "",
+            "skipDocs": false
+        },
+        {
+            "key": "dendron.configureUI",
             "title": "Dendron: Configure",
             "group": "workspace",
-            "desc": "Modify Dendron Config",
+            "desc": "Modify Dendron Config using Dendron UI",
             "docs": "",
             "docLink": "",
             "docPreview": "",

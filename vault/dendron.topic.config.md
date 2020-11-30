@@ -77,6 +77,12 @@ when creating a new note with selected text, define behavior for selected text
 
 location of dendron workspace
 
+### dendron.dendronDir
+- type: string
+- default: 
+
+location of dendron configuration
+
 ### dendron.logLevel
 - type: string
 - default: info

@@ -2,7 +2,7 @@
 id: eea2b078-1acc-4071-a14e-18299fc28f47
 title: Commands
 desc: ''
-updated: 1606083072034
+updated: 1595261816971
 created: 1595261816971
 ---
 
@@ -330,11 +330,21 @@ Dendron will open your current browser to the [[cheatsheet|dendron.cheatsheet]] 
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/workbench.help.gif)
 
+### Configure (yaml)
+- shortcuts: none
+
+
+Modify Dendron Config as raw YAML
+
+  
+
+
+
 ### Configure
 - shortcuts: none
 
 
-Modify Dendron Config
+Modify Dendron Config using Dendron UI
 
   
 
@@ -436,7 +446,7 @@ Auto fix issues with frontmatter
 
 Dump internal state of Dendron inside logs
 
-his is useful when diagnosing issues in Dendron 
+ This is useful when diagnosing issues in Dendron 
 
 
 
