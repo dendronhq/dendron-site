@@ -2,7 +2,7 @@
 id: f1af56bb-db27-47ae-8406-61a98de6c78c
 title: References
 desc: ''
-updated: 1597356582509
+updated: 1606549298589
 created: 1597356582509
 stub: false
 ---
@@ -53,6 +53,12 @@ A note reference will include the entire contents of a note within another note.
 ```
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/refs.block.gif)
+
+Note that references also respect the wildcard operator. The following example will include all child pages of sample. 
+
+```
+((ref: [[dendron.demo.refs.sample.*]]))
+```
 
 ## Block Reference
 A block reference will include the entire contents of a note starting from a specified heading. 
