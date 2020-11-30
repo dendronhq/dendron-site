@@ -2,7 +2,7 @@
 id: 45cfb9f2-46cf-4f67-a41e-834818fbd06e
 title: Multi Vault Support
 desc: ''
-updated: 1606352558482
+updated: 1606697880732
 created: 1599501659137
 stub: false
 start: 2020.10.07
@@ -220,9 +220,26 @@ vaults:
 ```
 
 
-### File Layout for Multi-Vault Workspace
-
+### File Layout for Multi-Vault Workspace 
 ```
+.
+└── Dendron
+    |── .git
+    |── dendron.code-workspace
+    |── dendron.yml
+    |── pods
+    |── docs
+    ├── vault1
+    │   |── .git
+    │   ├── foo.md
+    │   └── foo.two.md
+    └── vault2
+        |── .git
+        ├── foo.md
+        └── foo.one.md
+```
+
+<!-- ```
 .
 └── Dendron
     ├── config
@@ -239,7 +256,7 @@ vaults:
         |── .git
         ├── foo.md
         └── foo.one.md
-```
+``` -->
 
 ### Configuration
 

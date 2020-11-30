@@ -2,7 +2,7 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1606693796086
+updated: 1606754110466
 created: 1601508213606
 stub: false
 ---
@@ -26,7 +26,7 @@ Note that the Web UI is still deemed experimental and functionality like keyboar
 
 Special thanks to [Tyler Nieman](https://github.com/tsnieman) for the UI work!
 
-TODO: image
+((ref: [[dendron.topic.commands]]#configure,1:#*))
 
 
 ### Enhancements
@@ -36,6 +36,8 @@ TODO: image
 
 ### Bug Fixes
 - rename would fail if backlink existed at root note
+- numerous fixes to refactor hierarchy
+
 
 ### House Cleaning
 - the `Dendron: Configure` command will now launch the config editor with the web ui

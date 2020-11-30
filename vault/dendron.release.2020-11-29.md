@@ -1,12 +1,12 @@
 ---
 id: a929ff5a-b6c0-417b-a3af-d70af3626aa5
-title: '2020-11-29 Release Notes (0.18)'
+title: 'Release Notes (0.18)'
 desc: ''
-updated: 1606693643824
+updated: 1606754167511
 created: 1606679635868
 ---
 
-# 2020-11-08 Release Notes (version 0.18)
+# Release Notes (version 0.18)
 
 Dendron 0.18 has sprouted 🌱
 
@@ -28,8 +28,8 @@ Dendron 0.18 has sprouted 🌱
 ### In the Works
 
 - bringing multi-vault to feature parity 
-- a better publishing experience
 - better note references 
+- a better publishing experience
 
 ### Thanks
 Last and most of all, a big **thanks** to the following gardeners that brought up issues, contributions, and fixes to this release 👨‍🌾 👩‍🌾
