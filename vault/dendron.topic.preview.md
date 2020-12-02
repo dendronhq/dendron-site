@@ -18,3 +18,8 @@ You can toggle a table of contents from the preview pane using a button toggle.
 
 <a href="https://www.loom.com/share/516b862bc30b49edbff3239632e35f90"> 
 <img style="" src="https://cdn.loom.com/sessions/thumbnails/516b862bc30b49edbff3239632e35f90-with-play.gif"> </a>
+
+### Issues
+
+- Preview does not persist between reloads/restarts
+  - Workaround: [Always show preview of md being edited](/notes/692fa114-f798-467f-a0b9-3cccc327aa6f.html#always-show-preview-of-md-being-edited)
