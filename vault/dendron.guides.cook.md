@@ -2,7 +2,7 @@
 id: 401c5889-20ae-4b3a-8468-269def4b4865
 title: Cook
 desc: ''
-updated: 1604765136920
+updated: 1606859601693
 created: 1595952505024
 nav_order: 8.9
 toc: true
@@ -164,6 +164,12 @@ Click the three little dots next to outline to change the sorting order. You can
 ### Change the sorting oder in the Explorer Panel
 
 See instructions [here](https://stackoverflow.com/questions/51543871/sorting-files-in-vs-code-explorer)
+
+### Drag and Drop files into Dendron
+
+![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/cook.drag.jpg)
+
+To drag files into Dendron, open the workspace pane on the side to drag and drop. We currently recommend you only do this for non-markdown files that you want to link to inside your vaults.
 
 ## Navigation
 

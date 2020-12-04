@@ -151,8 +151,7 @@ This is a cheatsheet for Dendron.
 ### Dendron: Go Next Sibling
 - description: Go to the next sibling
 - shortcuts: 
-  - mac: `cmd+shift+right`
-  - key: `ctrl+shift+right`
+  - key: `ctrl+shift+]`
   - when: `editorFocus`
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/hierarchy.go-sibling.gif)
@@ -160,8 +159,7 @@ This is a cheatsheet for Dendron.
 ### Dendron: Go Previous Sibling
 - description: Go to the previous sibling
 - shortcuts: 
-  - mac: `cmd+shift+left`
-  - key: `ctrl+shift+left`
+  - key: `ctrl+shift+[`
   - when: `editorFocus`
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/hierarchy.go-sibling.gif)

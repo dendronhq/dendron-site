@@ -219,8 +219,7 @@ Go to closet non-stub parent of the currently open note
 
 ### Go Next Sibling
 - shortcuts: 
-  - mac: `cmd+shift+right`
-  - key: `ctrl+shift+right`
+  - key: `ctrl+shift+]`
   - when: `editorFocus`
 
 
@@ -232,8 +231,7 @@ Go to the next sibling
 
 ### Go Previous Sibling
 - shortcuts: 
-  - mac: `cmd+shift+left`
-  - key: `ctrl+shift+left`
+  - key: `ctrl+shift+[`
   - when: `editorFocus`
 
 

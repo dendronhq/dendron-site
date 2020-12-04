@@ -2,7 +2,7 @@
 id: 5fcb8564-7209-4a80-9bb8-025bc8eb489b
 title: Features
 desc: ''
-updated: 1605041914383
+updated: 1606854580661
 created: 1600563942292
 stub: false
 nav_order: 1
@@ -32,7 +32,6 @@ Every page can accept one-click contributions as long as the contributor has a g
 Example of making a contribution to Dendron. 
 
 <a href="https://www.loom.com/share/4a1b67f3fd1a40dab16949e9ea5e53dc"> <img style="" src="https://cdn.loom.com/sessions/thumbnails/4a1b67f3fd1a40dab16949e9ea5e53dc-with-play.gif"> </a>
-
 
 
 ### Lookup

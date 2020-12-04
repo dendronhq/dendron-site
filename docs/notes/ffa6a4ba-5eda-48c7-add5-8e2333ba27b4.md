@@ -2,7 +2,7 @@
 id: ffa6a4ba-5eda-48c7-add5-8e2333ba27b4
 title: Configuration
 desc: ''
-updated: 1604887335111
+updated: 1607043367357
 created: 1600564020051
 parent: 73d395c9-5041-4d0d-9db7-080d9586136e
 children: []
@@ -25,7 +25,7 @@ Dendron lets you control publication behavior at three levels:
 
   - [Properties](#properties)
 
-    - [assetsPrefix?: str](#assetsprefix-str)
+    - [assetsPrefix?:](#assetsprefix)
     - [copyAssets](#copyassets)
     - [siteHierarchies: str\[\]](#sitehierarchies-str)
     - [siteIndex?: str](#siteindex-str)
@@ -74,7 +74,7 @@ site:
 
 ### Properties
 
-#### assetsPrefix?: str
+#### assetsPrefix?:
 
 Prefix for assets. 
 

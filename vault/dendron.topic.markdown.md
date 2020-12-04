@@ -2,7 +2,7 @@
 id: ba97866b-889f-4ac6-86e7-bb2d97f6e376
 title: Markdown
 desc: ''
-updated: 1605800963191
+updated: 1606935621098
 created: 1598673110284
 stub: false
 ---
@@ -320,6 +320,14 @@ Selection applies to the following, and follows a traditional hierarchical patte
 
 ![preview](https://code.visualstudio.com/assets/updates/1_51/markdown-smart-select-demo.gif)
 > Image by Microsoft
+
+## Compatibility with CommonMark
+
+[CommonMark](https://commonmark.org/) is *a strongly defined, highly compatible specification of Markdown*
+
+When possible, Dendron will try to stay to `CommonMark` spec for syntax. That being said, many of the features we have (eg. block based note references) have no common mark equivalent which is why we've had to invent new syntax.
+
+You can use the [[markdown pod|dendron.topic.pod.builtin.markdown]] to migrate both individual notes and your entire vault to a CommonMark compatible format.
 
 ## Other Resources
 

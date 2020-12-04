@@ -2,7 +2,7 @@
 id: ad270a7d-2aed-4273-8319-eb6536e38b29
 title: Modifiers
 desc: ''
-updated: 1604884067751
+updated: 1606889800228
 created: 1604883459208
 ---
 
@@ -12,7 +12,7 @@ Modifiers allow you to update the behavior of lookup. You can trigger a modifier
 
 ## filterType
 
-Filter notes that show up during looup
+Filter notes that show up during lookup
 
 ### directChildOnly
 -  filter all notes that are not the direct children of the current note

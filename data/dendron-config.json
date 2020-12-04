@@ -220,8 +220,7 @@
             "title": "Dendron: Go Next Sibling",
             "group": "hierarchies",
             "keybindings": {
-                "mac": "cmd+shift+right",
-                "key": "ctrl+shift+right",
+                "key": "ctrl+shift+]",
                 "when": "editorFocus"
             },
             "desc": "Go to the next sibling",
@@ -234,8 +233,7 @@
             "title": "Dendron: Go Previous Sibling",
             "group": "hierarchies",
             "keybindings": {
-                "mac": "cmd+shift+left",
-                "key": "ctrl+shift+left",
+                "key": "ctrl+shift+[",
                 "when": "editorFocus"
             },
             "desc": "Go to the previous sibling",
