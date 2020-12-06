@@ -25,7 +25,6 @@ Below are examples of published Dendron vaults
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/showcase.aws.jpg)
 
-
 ## Members
 
 ### Kevin's page
@@ -51,3 +50,8 @@ Below are examples of published Dendron vaults
 
 ![](/assets/images/2020-09-27-20-50-54.png)
 
+### Ian's digital garden
+- homepage: https://garden.ianjones.us/
+- discord: `@ianjones#3696`
+
+![](/assets/images/2020-12-06-09-43-31.png)
