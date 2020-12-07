@@ -2,17 +2,25 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1607368147613
+updated: 1607378245624
 created: 1601508213606
 stub: false
 ---
 # Changelog
 
+## 0.19.1
+
+### Bug Fixes
+- image links not displaying for preview in some cases
+
 ## 0.18.2
 
 ### Features
 - support image hover ([8fee313](https://github.com/dendronhq/dendron/commit/8fee313785dfc4ac2564f74911a4b51879be0673))
+
     - you can now hover over markdown image links and get the image preview
+<div style="position: relative; padding-bottom: 62.5%; height: 0;"><iframe src="https://www.loom.com/embed/82119bc9ee184e3ca8e619c3d7e48209" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
 
 ### Enhancements
 - faster completion ([d9d4598](https://github.com/dendronhq/dendron/commit/d9d4598c1996fdb5eb24e4bda0e51e777b476f6e))
