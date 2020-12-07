@@ -2,9 +2,26 @@
 id: 3abd00eb-1c1e-4253-aaf5-dcbe20c21850
 title: Early Seed
 desc: ''
-updated: 1607045208652
+updated: 1607367916939
 created: 1604539200840
 ---
+
+## 0.18.2
+
+### Features
+- support image hover ([8fee313](https://github.com/dendronhq/dendron/commit/8fee313785dfc4ac2564f74911a4b51879be0673))
+    - you can now hover over markdown image links and get the image preview
+
+### Enhancements
+- faster completion ([d9d4598](https://github.com/dendronhq/dendron/commit/d9d4598c1996fdb5eb24e4bda0e51e777b476f6e))
+
+### Bug Fixes
+- doctor errors when backfilling frontmatter ([862e917](https://github.com/dendronhq/dendron/commit/862e9173e92a2e5d964273bb87c19e79177a6200))
+- properly parsing links that start at beginning of line ([b2dbdfc](https://github.com/dendronhq/dendron/commit/b2dbdfc9e49aa1fa74d5097500eeaddf05bf7ccc))
+- limit completion prompts to inside wiki links ([f49972e](https://github.com/dendronhq/dendron/commit/f49972ee436f9f637bd68729e702ba2169e68faf))
+- adding local vault with fail if using relative path ([fb202e9](https://github.com/dendronhq/dendron/commit/fb202e91e501cfd5506fd73c9a005807954e48d3))
+- make completion match the whole link ([d9d4598](https://github.com/dendronhq/dendron/commit/d9d4598c1996fdb5eb24e4bda0e51e777b476f6e))
+
 
 ## 0.18.1
 

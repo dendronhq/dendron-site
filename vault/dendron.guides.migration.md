@@ -2,7 +2,7 @@
 id: f9b4fc21-7613-4c8a-9257-cec4c06b67f9
 title: Migration
 desc: ''
-updated: 1604238352588
+updated: 1607277962381
 created: 1603982164242
 ---
 
@@ -12,6 +12,8 @@ This note covers migrating your notes from other tools
 
 ## Obsidian
 1. Use the [[markdown pod|dendron.topic.pod.builtin.markdown]] to import your notes into Dendron
+
+<div style="position: relative; padding-bottom: 62.5%; height: 0;"><iframe src="https://www.loom.com/embed/b2cb9672c6814ae5b149eae8e3fbca0b" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 ## One Note
 

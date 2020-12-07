@@ -2,7 +2,7 @@
 id: b239c77e-52f2-4cc3-8390-69e0bc776a72
 title: Debugging
 desc: ''
-updated: 1603252409966
+updated: 1607366232319
 created: 1598653859135
 stub: false
 ---
@@ -37,6 +37,12 @@ stub: false
 
 Note that we currently have trouble setting breakpoints inside non-plugin code. That goes for the packages that Dendron depends on (eg. @dendronhq/common-all). The current workaround is to manually add a `debugger;` statement inside the code. The extension will hit it when restarted under the debugger.
 
+### Verbose Logs
+
+- set in `dendorn.workspace.config`
+```json
+"dendron.logLevel": "debug",
+```
 
 ## Server
 
