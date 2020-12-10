@@ -55,3 +55,10 @@ Below are examples of published Dendron vaults
 - discord: `@ianjones#3696`
 
 ![](/assets/images/2020-12-06-09-43-31.png)
+
+### Kevin's digital garden (another one)
+- homepage: garden.kevincunningham.co.uk
+- discord: `@dolearning (Kevin)#3551`
+
+![ScreenShot of @dolearning digital garden](https://res.cloudinary.com/kc-cloud/image/upload/v1607614868/digital_garden_screenshot_j9wrcz.png)
+
