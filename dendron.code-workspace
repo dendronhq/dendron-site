@@ -35,6 +35,7 @@
         "editor.suggest.snippetsPreventQuickSuggestions": false,
         "editor.suggest.showSnippets": true,
         "editor.tabCompletion": "on",
+        "dendron.logLevel": "debug",
         "workbench.colorCustomizations": {
             "activityBar.activeBackground": "#65c89b",
             "activityBar.activeBorder": "#945bc4",

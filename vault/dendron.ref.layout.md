@@ -2,7 +2,7 @@
 id: 3bff1195-1d13-4e7a-bc2f-7e4cc617109c
 title: Layout
 desc: ''
-updated: 1606872632261
+updated: 1607475429286
 created: 1596740451789
 stub: false
 ---
@@ -45,6 +45,7 @@ stub: false
 - assets/images 
     - default for `Dendron Paste Image` extension to put images in
 
+
 ## Existing non-dendron folder using `Dendron: Change Workspace`
 
 ### Layout Before
@@ -73,3 +74,14 @@ stub: false
 - `root.md`, `dendron.yml` and `dendron.code-workspace` are added to your folder
 - none of your existing notes are modified during this process (unless they have the same name as the three files just named above)
 - no `docs` folder is created (if you want to publish, you can run `Doctor` to create the folder - note that this will also add frontmatter to all your existing notes)
+
+## Additional Files
+- pods: [[pod|dendron.topic.pod]] related files
+- seeds: [[seeds|dendron.topic.seeds]] related files
+
+```
+# seeds
+## {seed-name}
+### repo
+### build
+```

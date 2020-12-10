@@ -2,7 +2,7 @@
 id: 5a7103be-eb92-4380-8207-598e9f10724c
 title: Dendron-engine
 desc: ''
-updated: 1606160347418
+updated: 1607615700277
 created: 1605108924902
 ---
 
@@ -88,3 +88,16 @@ deleteNote(note) {
 ### Does Dendron use parent/children metadata inside notes during initialization?
 
 - src/filesv2.ts: `string2Note`
+
+# WorkspaceService: Add Vault
+
+- src/workspace.ts
+```ts
+createVault(vault, noAddToConfig):
+  ensureDir(vault)
+  createNoteRoot if not_exist
+  createSchemaRoot if not_exist
+
+  if !noAddToConfig:
+    config.add vault
+```

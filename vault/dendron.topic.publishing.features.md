@@ -2,7 +2,7 @@
 id: 5fcb8564-7209-4a80-9bb8-025bc8eb489b
 title: Features
 desc: ''
-updated: 1606854580661
+updated: 1607566016998
 created: 1600563942292
 stub: false
 nav_order: 1
@@ -46,7 +46,6 @@ Every page is published using its unique ID which means that urls will never cha
 
 <img style="max-width: 720px;" src="https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/site-ids.jpg" />
 
-### Free hosting, custom domain names and SSL Certs
 
 If you have a free github account, then you can host your Dendron notes for free using [github pages](https://pages.github.com/) 
 
