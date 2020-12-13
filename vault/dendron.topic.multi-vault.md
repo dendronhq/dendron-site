@@ -2,7 +2,7 @@
 id: 24b176f1-685d-44e1-a1b0-1704b1a92ca0
 title: Multi-vault
 desc: ''
-updated: 1606754480198
+updated: 1607816892009
 created: 1605630383515
 ---
 
@@ -31,9 +31,10 @@ Documentation for lookup is still being written. For *up to date* docs, see the 
 
 ### Lookup
 
-Lookup supports multiple vaults. When using lookup to find a note, each search result is labeled with which vault it belongs to. When creating a note in lookup, the currently opened note's vault is used as the vault for the new note.
+Lookup supports multiple vaults. When using lookup to find a note, each search result is labeled with which vault it belongs to. 
 
-### Known Issues
+When creating a note in lookup, the currently opened note's vault is used as the vault for the new note.
+ Known Issues
 
 Currently, the following commands are not supported when run outside of your primary vault (your primary vault is the one that you initialize with your workspace before any `Vault Add` commands are run)
 - Refactor Hierarchy

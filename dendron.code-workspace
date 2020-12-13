@@ -5,6 +5,9 @@
         },
         {
             "path": "."
+        },
+        {
+            "path": "docs"
         }
     ],
     "settings": {

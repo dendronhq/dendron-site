@@ -2,7 +2,7 @@
 id: 3abd00eb-1c1e-4253-aaf5-dcbe20c21850
 title: Early Seed
 desc: ''
-updated: 1607639457406
+updated: 1607641499175
 created: 1604539200840
 ---
 
@@ -33,6 +33,20 @@ One of our most requested features for multi-vault is now out. Refactor will now
 │   └── james.one
 └── vault2
     └── james.two
+```
+
+#### Support Specifying Vault Location when Creating a Note
+
+((ref: [[dendron.topic.multi-vault]]#lookup,3:#*))
+
+With this change, you can now pick the vault for new notes.  To enable,  add `lookupConfirmVaultOnCreate: true` in the dendron configuration. Instructions to do so below.
+
+1. > Dendron: Configure (yaml)
+2. add `lookupConfirmVaultOnCreate: true` so your configuration looks like the following:
+```yml
+version: 0
+...
+lookupConfirmVaultOnCreate: true
 ```
 
 ### Enhancements

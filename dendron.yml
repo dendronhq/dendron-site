@@ -8,3 +8,4 @@ vaults:
     -
         fsPath: vault
 version: 0
+lookupConfirmVaultOnCreate: true

@@ -2,7 +2,7 @@
 id: 692fa114-f798-467f-a0b9-3cccc327aa6f
 title: Tips
 desc: ''
-updated: 1607443850880
+updated: 1607728459661
 created: 1595614204291
 ---
 
@@ -42,7 +42,7 @@ You can open search editor via keyboard shortcut. I use it to start a search wit
       "triggerSearch": false,
       "focusResults": false,
       "includes": "${fileBasenameNoExtension}",
-    }
+    }the following line
   }
 ```
 
@@ -373,8 +373,7 @@ This is a list of other tools that work well with Dendron.
 ### Other
 - [Macros](https://marketplace.visualstudio.com/items?itemName=geddski.macros): Define custom macros 
 - [Vim](https://marketplace.visualstudio.com/items?itemName=vscodevim.vim): VIM key bindings 😍
-- [Bookmarks](https://marketplace.visualstudio.com/items?itemName=alefragnani.Bookmarks): Bookmark lines within Files
-- [Vertical Limit](https://marketplace.visualstudio.com/items?itemName=generik.vertical-limit): Work with multiple cursors and blocks of text
+- [Bookmarks](https://marketplace.visualstudio.com/items?itemName=alefragnani.Bookmarks): Bookmark lines within File [Vertical Limit](https://marketplace.visualstudio.com/items?itemName=generik.vertical-limit): Work with multiple cursors and blocks of text
 - [CodeUI](https://marketplace.visualstudio.com/items?itemName=ryanraposo.codeui): Easier customization of every part of the VSCode UI
 
 ## Other Browser Extensions
