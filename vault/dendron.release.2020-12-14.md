@@ -2,7 +2,7 @@
 id: 44fd6c57-b7f4-47f5-a632-d352d4f4fa7b
 title: 'Release Notes (0.20'
 desc: ''
-updated: 1607966998130
+updated: 1607969842696
 created: 1607890901199
 ---
 
@@ -53,3 +53,4 @@ Last and most of all, a big **thanks** to the following gardeners that brought u
 
 
 ### Changelog
+((ref: [[dendron.release.changelog]]#0.19.3:#0.18.2))
