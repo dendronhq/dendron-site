@@ -20,3 +20,12 @@ This note covers migrating your notes from other tools
 1. [Convert one note files to markdown](https://itectec.com/superuser/how-to-export-all-onenote-pages-to-individual-markdown-files/)
 2. Use the [[markdown pod|dendron.topic.pod.builtin.markdown]] to import your notes into Dendron
 
+## Importing Files
+
+Once Dendron is initialized, to import an individual markdown file to your Dendron project.
+
+1. drag the markdown file into VSCode
+2. run `Dendron Doctor`so Dendron recognizes the imported file. 
+
+The second step will add some front matter to the head of the file.
+
