@@ -2,9 +2,20 @@
 id: 3abd00eb-1c1e-4253-aaf5-dcbe20c21850
 title: Early Seed
 desc: ''
-updated: 1607641499175
+updated: 1607890815994
 created: 1604539200840
 ---
+
+## 0.19.3
+
+### Bug Fixes
+- be able to name remote vaults ([6da3973](https://github.com/dendronhq/dendron/commit/6da39730f735f4700479f002f57d2a7802398ff5))
+- doctor command shouldn't create stubs ([e812f34](https://github.com/dendronhq/dendron/commit/e812f34246d88b007fb45ca03443a74ac27a5e62))
+- help command not working ([02fc08a](https://github.com/dendronhq/dendron/commit/02fc08a907e196b39c23db36b82565c15588673f))
+- nested git repos not showing up in source control view ([37adc5e](https://github.com/dendronhq/dendron/commit/37adc5e528e0b9fa6c86105b39ebb40384023da4))
+- clicking a stub on tree view would show a false error ([ea0e17e](https://github.com/dendronhq/dendron/commit/ea0e17e7ec8afed44cee1fd0fe442ba4c2064f92))
+
+### House Cleaning
 
 ## 0.19.2
 

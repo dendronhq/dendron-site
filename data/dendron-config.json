@@ -285,14 +285,6 @@
             "skipDocs": false
         },
         {
-            "key": "dendron.syncWS",
-            "title": "Dendron: Sync Workspace",
-            "group": "workspace",
-            "desc": "Synchronize workspace files",
-            "docLink": "dendron.topic.commands.md",
-            "skipDocs": false
-        },
-        {
             "key": "dendron.changeWS",
             "title": "Dendron: Change Workspace",
             "group": "workspace",

@@ -2,7 +2,7 @@
 id: 401c5889-20ae-4b3a-8468-269def4b4865
 title: Cook
 desc: ''
-updated: 1607830693048
+updated: 1607921638440
 created: 1595952505024
 nav_order: 8.9
 toc: true
@@ -125,6 +125,12 @@ Set the following option in your workspace settings
 ```json
 "markdown-preview-enhanced.automaticallyShowPreviewOfMarkdownBeingEdited": true,
 ```
+
+### Customize Theme
+To change the color theme, you can update the `markdown-preview-enhanced.previewTheme` vscode setting
+
+### Customize CSS
+You can see instructions for customizing css [here]( https://shd101wyy.github.io/markdown-preview-enhanced/#/customize-css) 
 
 ## VSCode
 

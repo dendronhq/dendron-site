@@ -2,13 +2,11 @@
 id: cd55a110-0597-4d55-99d7-2bd63787959e
 title: Tom
 desc: ''
-updated: 1599936256433
+updated: 1607965547196
 created: 1599936256433
-parent: b08155fe-c5c6-4d4c-a737-d500923f35ad
-children: []
 stub: false
-fname: dendron.community.testimonials.tom
-hpath: dendron.community.testimonials.tom
 ---
+
 > Dendron is awesome.  Each day the simple things are getting easier
 
+- Tom Diaz MD, Researcher/Technologist

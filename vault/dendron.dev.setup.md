@@ -2,7 +2,7 @@
 id: 64f0e2d5-2c83-43df-9144-40f2c68935aa
 title: Setup
 desc: ''
-updated: 1604512046318
+updated: 1607921832285
 created: 1598651458825
 stub: false
 ---
@@ -54,6 +54,7 @@ To continuously compile all dependencies, run the following
 ```
 ## Troubleshooting
 
+### Something went wrong during the build
 In case something something goes wrong with a build step or you want to save time by not running everything, `init.sh` is just a thin wrapper around the following scripts, each of which can be run individually
 
 - ./bootstrap/scripts/bootstrap.sh: `lerna bootstrap all packages`
@@ -63,6 +64,12 @@ In case something something goes wrong with a build step or you want to save tim
  cd packages/plugin-core/
  ./scripts/sync_vault.sh
 ```
+
+
+### Changes not showing up in Dendron
+1. Are you using the `Run extension` command on the debugger panel to test dendron? 
+
+2. If you have one vscode instance which you have dendron installed and are also doing dendron development on, you might get a version conflict. in that case, use `Run extension with plugin disabled` in the debugger panel (or use a different version of vscode to run dendron vs develop)
 
 ## Testing
 - see [[Testing|dendron.dev.testing]]
