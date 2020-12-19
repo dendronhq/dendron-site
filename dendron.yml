@@ -1,7 +1,7 @@
 site:
     siteHierarchies:
         - dendron
-    siteRootDir: docs2
+    siteRootDir: docs
     usePrettyRefs: true
     copyAssets: true
 vaults:
