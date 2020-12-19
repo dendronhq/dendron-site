@@ -423,6 +423,16 @@
             "docLink": "",
             "docPreview": "<a href=\"https://www.loom.com/share/c58edf543e234a8fa164095237579ccc\"> <img style=\"\" src=\"https://cdn.loom.com/sessions/thumbnails/c58edf543e234a8fa164095237579ccc-with-play.gif\"> </a>",
             "skipDocs": false
+        },
+        {
+            "key": "dendron.siteBuild",
+            "title": "Dendron: Site Build",
+            "group": "publishing",
+            "desc": "build your notes",
+            "docs": "",
+            "docLink": "",
+            "docPreview": "",
+            "skipDocs": false
         }
     ],
     "dev": [

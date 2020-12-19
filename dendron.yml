@@ -1,11 +1,9 @@
 site:
     siteHierarchies:
         - dendron
-    siteRootDir: docs
+    siteRootDir: docs2
     usePrettyRefs: true
     copyAssets: true
 vaults:
-    -
-        fsPath: vault
+    - fsPath: vault
 version: 0
-lookupConfirmVaultOnCreate: true

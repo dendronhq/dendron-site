@@ -1,16 +1,6 @@
 {
-  "name": "dendron-template",
-  "version": "0.3.41",
-  "main": "index.js",
-  "repository": "git@github.com:dendronhq/dendron-template.git",
-  "author": "kevinslin <kevin@thence.io>",
-  "license": "MIT",
   "dependencies": {
-    "execa": "^4.0.3",
-    "fs-extra": "^9.0.1",
-    "lodash": "^4.17.19",
-    "moment": "^2.27.0",
-    "parse-commit-message": "^3.2.3",
-    "yamljs": "^0.3.0"
+    "@11ty/eleventy": "^0.11.1",
+    "@dendronhq/dendron-11ty": "^1.0.1"
   }
 }

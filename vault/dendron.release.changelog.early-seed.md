@@ -2,78 +2,123 @@
 id: 3abd00eb-1c1e-4253-aaf5-dcbe20c21850
 title: Early Seed
 desc: ''
-updated: 1607890815994
+updated: 1608407452189
 created: 1604539200840
 ---
 
-## 0.19.3
+## 0.20.1
 
-### Bug Fixes
-- be able to name remote vaults ([6da3973](https://github.com/dendronhq/dendron/commit/6da39730f735f4700479f002f57d2a7802398ff5))
-- doctor command shouldn't create stubs ([e812f34](https://github.com/dendronhq/dendron/commit/e812f34246d88b007fb45ca03443a74ac27a5e62))
-- help command not working ([02fc08a](https://github.com/dendronhq/dendron/commit/02fc08a907e196b39c23db36b82565c15588673f))
-- nested git repos not showing up in source control view ([37adc5e](https://github.com/dendronhq/dendron/commit/37adc5e528e0b9fa6c86105b39ebb40384023da4))
-- clicking a stub on tree view would show a false error ([ea0e17e](https://github.com/dendronhq/dendron/commit/ea0e17e7ec8afed44cee1fd0fe442ba4c2064f92))
+### Publishing V2 (preview)
 
-### House Cleaning
+We've re-build publishing for Dendron from the ground up to be faster, better, and easier to use.
 
-## 0.19.2
+Besides for schemas, publishing has consistently been one of the hardest to use features in Dendron. Dendron currently publishes using [jekyll](https://jekyllrb.com/) using our own [template](https://github.com/dendronhq/dendron-jekyll). While this has served as well initially, slow compile times for large sites and difficulty of getting started has made it a growing pain point.
 
-### Features
+To address this, we've migrated our publishing stack to [11ty](https://www.11ty.dev/), a super fast javascript based static generator. This means much faster, and perhaps more importantly, easier publishing. 
 
-#### Dendron Seed Bank
+There's still some work left to integrate publishing into the Dendron plugin - meanwhile, you can take the new publishing workflow for a spin using the [[dendron cli|dendron.pro.dendron-cli]]
 
-((ref: [[dendron.topic.seed-bank]]#seed bank,1))
+In order to to use the 11ty based publishing, initialize your workspace with the following commands.
 
-#### Support refactor for multi-vault 
-
-One of our most requested features for multi-vault is now out. Refactor will now work across multiple vaults. All rename operations take place in the same vault as the file being renamed (so a refactor operation that affects files in multiple vaults will end up renaming files within each vault). You can see an example of this below:
-
-```
-.
-├── vault1
-│   └── bond.one
-└── vault2
-    └── bond.two
+```sh
+npm init -y
+npm install @dendronhq/dendron-cli@latest
+npm install @dendronhq/dendron-11ty@latest
 ```
 
-- after refactoring `bond -> james`
-```
-.
-├── vault1
-│   └── james.one
-└── vault2
-    └── james.two
+After you have your dependencies installed, build your your site using the following command.
+
+```sh
+npx dendron-cli buildSiteV2 --wsRoot .  --stage dev --serve
 ```
 
-#### Support Specifying Vault Location when Creating a Note
+This will both compile your site locally and make it available at `localhost:8080` for instant preview. When building your site locally, the pages will be build to `{wsRoot}/build/site`. 
 
-((ref: [[dendron.topic.multi-vault]]#lookup,3:#*))
 
-With this change, you can now pick the vault for new notes.  To enable,  add `lookupConfirmVaultOnCreate: true` in the dendron configuration. Instructions to do so below.
+When you are ready to publish to github, make sure to change the stage to `prod`.
 
-1. > Dendron: Configure (yaml)
-2. add `lookupConfirmVaultOnCreate: true` so your configuration looks like the following:
+```sh
+npx dendron-cli buildSiteV2 --wsRoot .  --stage prod 
+```
+
+This will build your site to the path specified by [[siteRootDir|dendron.topic.publishing.configuration#siterootdir]] in `dendron.yml`. 
+
+#### Benchmarks
+
+Publishing V2 is ~10x faster than jekyll based publishing for sites with +100 pages. For comparison, below is the compilation difference between building the dendron site using 11ty vs jekyll. 
+
+- 11ty: 24.45s
+- jekyll: 220.33s
+
+There are additional optimizations still on the table that will further drive down he compilation time by another order of magnitude for future releases. 
+
+#### Gaps
+
+11ty publishing is currently not at full feature parity with Jekyll publishing. Notably, the following features are missing:
+- setting a custom color theme
+- `edit on github` links
+- `jekyll-seo` functionality
+- `nav_order` not respected 
+- `nav_exclude` not respected
+
+#### Migration
+
+All values that used to be written into `_config.yml` will now be moved into `dendron.yml`. You can see the currently supported configuration values here: `https://github.com/dendronhq/dendron/blob/master/packages/common-all/src/types.ts#L71:L71`
+
+If you currently have a Jekyll based Dendron page, note that the following settings have changed:
+- the `url` property from `_config.yml` is now `siteUrl` in `dendron.yml`
+- favicon is now controlled by `siteFaviconPath` in `dendron.yml` and is a path relative to your workspace root
+- `CNAME` is now controlled by `githubCname` property in `dendron.yml`
+
+#### Sample dendron.yml config
+- publishing without a cname
 ```yml
-version: 0
-...
-lookupConfirmVaultOnCreate: true
+version: 1
+vaults:
+    - fsPath: vault
+site:
+    copyAssets: true
+    siteHierarchies:
+        - dendron
+    siteRootDir: docs
+    siteUrl: "kevinslin.github.io/dendron-11ty-test"
+    usePrettyRefs: true
 ```
 
-### Enhancements
-- add aws to the seed bank ([818bc05](https://github.com/dendronhq/dendron/commit/818bc0510e3b3b99057ef7cda8d9c61be2b6ebc6))
-- nicer refactor formatting ([0e7749a](https://github.com/dendronhq/dendron/commit/0e7749a175a0ce80903cde5c9773649779100a9c))
-- add remote vault to gitignore if exist ([1c252db](https://github.com/dendronhq/dendron/commit/1c252db60c0ea69be8dd10c1768c2dd302711e13))
-- initialize all remote vaults on startup ([1919fe4](https://github.com/dendronhq/dendron/commit/1919fe4e6d853d1f6ef63564ebbcc9af1e11a41a))
-- write remote url to dendron config ([2a285ea](https://github.com/dendronhq/dendron/commit/2a285eacaeef8224d2a3530dc991b4977443c039))
-- add github sponsor badge on github repository to recruit more [[environmentalists|dendron.community.roles#environmentalist]] 👨‍🌾 👩‍🌾
+- using custom cname
+```yml
+version: 1
+vaults:
+    - fsPath: vault
+site:
+    copyAssets: true
+    siteHierarchies:
+        - dendron
+    siteRootDir: docs
+    usePrettyRefs: true
+    siteUrl: "11ty.dendron.so"
+    githubCname: "11ty.dendron.so"
+```
+
+#### Sample repo
+- [github repo](https://github.com/kevinslin/dendron-11ty-test/deployments/activity_log?environment=github-pages)
+- [github page](https://kevinslin.github.io/dendron-11ty-test/)
+
+#### CLI Command Reference
+
+```sh
+dendron-cli buildSiteV2
+
+build notes for publication using 11ty
+
+Options:
+  --version  Show version number                                       [boolean]
+  --help     Show help                                                 [boolean]
+  --wsRoot   location of workspace                                    [required]
+  --vaults   location of vault                                           [array]
+  --serve    serve over local http server             [boolean] [default: false]
+  --stage    serve over local http server
+```
 
 
-### Bug Fixes
-
-- completion on schema suggestions ([223d6a5](https://github.com/dendronhq/dendron/commit/223d6a501bd9e51331d28e21d77408b7ca3fba50))
-
-## 0.19.1
-
-### Bug Fixes
-- image preview regex match wrong range 
+<!-- https://hacks.mozilla.org/2020/10/to-eleventy-and-beyond/ -->

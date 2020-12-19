@@ -15,3 +15,7 @@ proto.*
 *.log
 .dendron.port
 .dendron.ws
+stdout
+stdout.old
+configuration
+docs2
