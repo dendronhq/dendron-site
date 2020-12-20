@@ -2,7 +2,7 @@
 id: 554d3c62-29da-4c86-9d16-f910e36ad7b1
 title: Dendron-api-server
 desc: ''
-updated: 1606628292476
+updated: 1608485512270
 created: 1606628243560
 ---
 
@@ -12,7 +12,7 @@ created: 1606628243560
 ### Initialize a workspace
 - NOTE: specific to kevin's vault, modify for your own
 
-```sh
+```bash
 curl --location --request POST 'http://localhost:3005/api/workspace/initialize' \
 --header 'Content-Type: application/json' \
 --data-raw '{

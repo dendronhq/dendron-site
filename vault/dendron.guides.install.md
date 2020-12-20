@@ -2,7 +2,7 @@
 id: d95b93bf-5e6f-4dd0-b7d7-c8e29e061876
 title: Install
 desc: ''
-updated: 1607889236487
+updated: 1608485512284
 created: 1595537796868
 ---
 # Getting Started
@@ -23,7 +23,7 @@ After you have downloaded the plugin, following the instructions to create your 
 
 2. Paste the following command and press `Enter`: 
 
-```sh
+```bash
 > Dendron: Initialize Workspace
 ```
 

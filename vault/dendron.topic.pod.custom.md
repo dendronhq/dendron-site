@@ -2,7 +2,7 @@
 id: 6322a2de-34fd-4c93-bcbe-d71c30e5f2b6
 title: Custom
 desc: ''
-updated: 1603309437113
+updated: 1608485512293
 created: 1603308868151
 ---
 # Custom Pods
@@ -16,7 +16,7 @@ Custom pods can be developed by anyone as a `NodeJS` package and used after a us
 Run the following inside your Dendron workspace.
 
 ### Install a Pod
-```sh
+```bash
 npm install -g dendron-cli
 npm init
 npm install --save {dendron-pod-package}
@@ -24,6 +24,6 @@ npm install --save {dendron-pod-package}
 
 ### Execute a Pod (CLI)
 
-```sh
+```bash
 dendron-cli importPod --podId {id-of-imported-pod} --wsRoot . --vault ./vault
 ```

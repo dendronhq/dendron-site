@@ -2,7 +2,7 @@
 id: e9f26a4b-ddce-41b3-9619-8f4f64761f86
 title: Advanced
 desc: ''
-updated: 1600564193281
+updated: 1608485512289
 created: 1600564193281
 stub: false
 nav_order: 4
@@ -58,6 +58,6 @@ It's useful to check if all your links work before publishing your notes. You ca
     - build your site using the `Build Pod` command
     - start a local server
     - run the following command
-    ```sh
+    ```bash
     cd {wsRoot}/reports && awesome_bot ../docs/_site/notes/*.html --allow-redirect --allow-dupe --allow 429 
     ```

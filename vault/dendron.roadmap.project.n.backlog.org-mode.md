@@ -2,7 +2,7 @@
 id: c3800271-dd56-46fb-8de7-e850f3c006b7
 title: Org Mode
 desc: ''
-updated: 1602131829574
+updated: 1608485548393
 created: 1602131829574
 stub: false
 ---
@@ -35,10 +35,6 @@ This project discusses how to best incorporate org-mode functionality into dendr
 
 ## 2. support `org` syntax within `md` files
 - implement org-mode as a fenced block
-
-```org
-* org mode syntax
-```
 
 - pros:
     - compatible with existing markdown tool chain

@@ -2,6 +2,7 @@ site:
     siteHierarchies:
         - dendron
     siteRootDir: docs
+    gh_edit_repository: "https://github.com/dendronhq/dendron-site"
     usePrettyRefs: true
     copyAssets: true
 vaults:

@@ -2,7 +2,7 @@
 id: 401c5889-20ae-4b3a-8468-269def4b4865
 title: Cook
 desc: ''
-updated: 1607921638440
+updated: 1608485512290
 created: 1595952505024
 nav_order: 8.9
 toc: true
@@ -61,7 +61,7 @@ PUT notes
 
 3. Pipe exported JSON into the newly created index.
 
-```sh
+```bash
 cat /path/to/exported/notes.json | jq -c '.[] | {"index": {"_index": "notes", "notes", "_id": .id}}, .' | curl -H'Content-Type: application/json' -XPOST localhost:9200/_bulk --data-binary @-
 ```
 
@@ -200,13 +200,13 @@ When viewing your notes locally, you can view the toc either from the outline vi
 You can do incremental builds from Jekyll and Dendron 
 
 - when previewing the site locally, add the `incremental` flag
-  ```sh
+  ```bash
   bundle exec jekyll s --watch --incremental
   ```
 - when building the site, also add an incremental flag
   - NOTE: you'll need `rsync` installed to use the incremental flag
 
-```sh
+```bash
 dendron-cli buildSite --wsRoot {path/to/ws} --vault {path/to/vault} --incremental
 ```
 
@@ -219,14 +219,14 @@ The following instructions cover how to update your local preview everytime you 
 
 - have jekyll watch your site-root
 
-```sh
+```bash
 cd {your-site-root}
 bundle exec jekyll s --watch
 ```
 
 - use `nodemon` to watch your vault
 
-```sh
+```bash
 npm install -g nodemon
 nodemon --watch {path/to/vault} --ext md dendron-cli buildSite --wsRoot {path/to/ws} --vault {path/to/vault}
 ```
@@ -245,7 +245,7 @@ You can access the site with username: `dendron`, password: `hierarchy`.
 
 1. Create a new github repo using this [template](https://github.com/dendronhq/dendron-amplify-template/generate).
 2. In your Dendron workspace, remove the `docs` directory and clone your newly created repository 
-   ```sh
+   ```bash
    cd {your-workspace}
    rm -r docs
    git clone {your-repo} docs

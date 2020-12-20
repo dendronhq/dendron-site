@@ -2,7 +2,7 @@
 id: 7cdd9a74-8b8f-4564-906b-c963bed34273
 title: Dendron-next-server
 desc: ''
-updated: 1606761090554
+updated: 1608485512285
 created: 1604511741960
 ---
 
@@ -11,11 +11,11 @@ created: 1604511741960
 ## Quickstart
 1. follow instructions [[here|dendron.dev.setup]] to clone the repository and install dependencies
 1. navigate to server package
-    ```sh
+    ```bash
     cd {repo-root}/packages/dendron-next-server
     ```
 1. start server
-    ```sh
+    ```bash
     yarn dev
     ```
 1. Open `dendron-next-server.code-workspace` to start editing the code

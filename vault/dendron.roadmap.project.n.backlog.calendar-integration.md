@@ -2,7 +2,7 @@
 id: 61833b7d-1cfe-4500-b78d-b30962a906cd
 title: Calendar Integration
 desc: ''
-updated: 1602708411014
+updated: 1608485512280
 created: 1602708411014
 stub: false
 ---
@@ -47,7 +47,7 @@ range: allEvents
     - reminders
 - flow
 
-```sh
+```bash
 cd /path/to/workspace
 dendron-cli dendron-cli publishPod --wsRoot . --vault ./vault --podId dendron.gcal --noteByName gcal.test --config /tmp/config.yml
 ```

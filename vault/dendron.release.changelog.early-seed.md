@@ -2,7 +2,7 @@
 id: 3abd00eb-1c1e-4253-aaf5-dcbe20c21850
 title: Early Seed
 desc: ''
-updated: 1608407452189
+updated: 1608485512225
 created: 1604539200840
 ---
 
@@ -20,7 +20,7 @@ There's still some work left to integrate publishing into the Dendron plugin - m
 
 In order to to use the 11ty based publishing, initialize your workspace with the following commands.
 
-```sh
+```bash
 npm init -y
 npm install @dendronhq/dendron-cli@latest
 npm install @dendronhq/dendron-11ty@latest
@@ -28,7 +28,7 @@ npm install @dendronhq/dendron-11ty@latest
 
 After you have your dependencies installed, build your your site using the following command.
 
-```sh
+```bash
 npx dendron-cli buildSiteV2 --wsRoot .  --stage dev --serve
 ```
 
@@ -37,7 +37,7 @@ This will both compile your site locally and make it available at `localhost:808
 
 When you are ready to publish to github, make sure to change the stage to `prod`.
 
-```sh
+```bash
 npx dendron-cli buildSiteV2 --wsRoot .  --stage prod 
 ```
 
@@ -106,7 +106,7 @@ site:
 
 #### CLI Command Reference
 
-```sh
+```bash
 dendron-cli buildSiteV2
 
 build notes for publication using 11ty

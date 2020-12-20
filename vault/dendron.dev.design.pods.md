@@ -2,7 +2,7 @@
 id: 92a4f470-1803-4dce-8872-1a7009d8500b
 title: Pods
 desc: ''
-updated: 1602714464908
+updated: 1608485512282
 created: 1602714464908
 stub: false
 ---
@@ -12,7 +12,7 @@ stub: false
 ## Export Pod
 
 - execute
-```sh
+```bash
 dendron-cli export-pod
 ```
 

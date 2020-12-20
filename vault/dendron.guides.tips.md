@@ -2,7 +2,7 @@
 id: 692fa114-f798-467f-a0b9-3cccc327aa6f
 title: Tips
 desc: ''
-updated: 1607728459661
+updated: 1608485603073
 created: 1595614204291
 ---
 
@@ -113,7 +113,8 @@ Note that this configuration won't retain any history on the `paths` branch. Pat
 
 Ignore the shadow directories in `.gitignore`:
 
-```gitignore
+```
+gitignore
 # Dendron
 /docs/assets/
 /docs/notes/

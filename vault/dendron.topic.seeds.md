@@ -2,7 +2,7 @@
 id: 4fdf54ac-599e-42e7-90a5-38964913a9a7
 title: Seeds
 desc: ''
-updated: 1604540162748
+updated: 1608485512271
 created: 1600219243498
 stub: false
 ---
@@ -33,14 +33,14 @@ Make sure you have the dendron-cli installed.
 ## Instructions
 
 1. Inside the workspace where you to plant your seeds, initialize a node project.
-   ```sh
+   ```bash
    cd /path/to/ws
    yarn init
    ```
 2. Install seeds that you want to plant
    - currently, the only available seed is @dendronhq/og-aws-seed
      - this seed gets data from [og-aws guide](https://github.com/open-guides/og-aws)
-   ```sh
+   ```bash
    yarn add @dendronhq/og-aws-seed
    ```
 3. Plant seeds using the cli
@@ -58,13 +58,13 @@ You can see an example of a custom seed [here](https://github.com/dendronhq/seed
 ## Instructions
 
 1. Initialize a new node project
-   ```sh
+   ```bash
    mkdir my-new-seed
    cd my-new-seed
    yarn init
    ```
 2. Add core dependencies
-   ```sh
+   ```bash
    yarn add @dendronhq/seeds-core
    ```
 3. Create a seed

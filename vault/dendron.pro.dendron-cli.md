@@ -2,7 +2,7 @@
 id: 8b03ed06-4f46-46e0-8652-c6abf2266a79
 title: Dendron-cli
 desc: ''
-updated: 1604881040309
+updated: 1608485512267
 created: 1599709645355
 stub: false
 ---
@@ -120,6 +120,6 @@ dendron-cli importPod --podId dendron.markdown --vault "/Users/kevinlin/Dendron-
 ### Publish Pod
 
 - eg: Publish a note as regular markdown
-```sh
+```bash
 dendron-cli publishPod --wsRoot . --vault ./vault --podId dendron.markdown --noteByName dendron
 ```
