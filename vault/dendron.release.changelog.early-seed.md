@@ -2,7 +2,7 @@
 id: 3abd00eb-1c1e-4253-aaf5-dcbe20c21850
 title: Early Seed
 desc: ''
-updated: 1608530675943
+updated: 1608584127160
 created: 1604539200840
 ---
 
@@ -12,7 +12,7 @@ created: 1604539200840
 
 #### Publishing For Multi Vault
 
-((ref: [[dendron.topic.multi-vault]]#publishing,1:#*))
+((ref: [[dendron.topic.multi-vault]]#publishing,1))
 
 ### Enhancements
 - creating engine via cli also initializes meta files ([d72f097](https://github.com/dendronhq/dendron/commit/d72f097e63d1fda065ac7ad50f85bebe99d6da66))([[docs|dendron.pro.dendron-cli#launchengineserver]])

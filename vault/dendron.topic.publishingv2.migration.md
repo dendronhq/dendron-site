@@ -2,11 +2,11 @@
 id: fd26b3ef-7978-41c9-8f45-4c4f8414951d
 title: Migration
 desc: ''
-updated: 1608574558433
+updated: 1608585100333
 created: 1608528487798
 ---
 
-#### Migration
+# Migration
 
 All values that used to be written into `_config.yml` will now be moved into `dendron.yml`. You can see the currently supported configuration values here: `https://github.com/dendronhq/dendron/blob/master/packages/common-all/src/types.ts#L71:L71`
 
@@ -19,9 +19,7 @@ If you currently have a Jekyll based Dendron page, note that the following setti
 - dendron [[writeStubs|dendron.topic.publishingv2.configuration#writestubs-optional]] will be set to true by default
 
 
-
-
-#### Sample dendron.yml config
+### Sample dendron.yml config
 - publishing without a cname
 ```yml
 version: 1
@@ -51,11 +49,11 @@ site:
     githubCname: "11ty.dendron.so"
 ```
 
-#### Sample repo
+### Sample repo
 - [github repo](https://github.com/kevinslin/dendron-11ty-test/deployments/activity_log?environment=github-pages)
 - [github page](https://kevinslin.github.io/dendron-11ty-test/)
 
-#### Gaps
+## Gaps
 
 11ty publishing is currently not at full feature parity with Jekyll publishing. Notably, the following features are missing:
 - setting a custom color theme

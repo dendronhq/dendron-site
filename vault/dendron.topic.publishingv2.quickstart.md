@@ -2,7 +2,7 @@
 id: 861e4e48-dcc5-4813-a695-8940ba6e64d3
 title: Quickstart
 desc: ''
-updated: 1608574985870
+updated: 1608585140593
 created: 1608528402469
 nav_order: 2
 ---
@@ -33,3 +33,6 @@ npx dendron-cli buildSiteV2 --wsRoot .  --stage prod
 ```
 
 This will build your site to the path specified by [[siteRootDir|dendron.topic.publishing.configuration#siterootdir]] in `dendron.yml`. 
+
+
+- NOTE: if you have an existing site, please read the [[migration|dendron.topic.publishingv2.migration]] docs to see whats changed.

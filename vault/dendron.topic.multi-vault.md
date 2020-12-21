@@ -2,7 +2,7 @@
 id: 24b176f1-685d-44e1-a1b0-1704b1a92ca0
 title: Multi-vault
 desc: ''
-updated: 1608529780526
+updated: 1608583786069
 created: 1605630383515
 ---
 
@@ -56,11 +56,3 @@ lookupConfirmVaultOnCreate: true
 You can publish from a multi-vault enabled workspace if you are using [[dendron-11ty|dendron.pro.dendron-11ty]] to publish. 
 
 We have added a new configuration, `duplicateNoteBehavior`, which [[controls|dendron.topic.publishingv2.configuration#duplicatenotebehavior-optional]] how Dendron handles duplicate notes across multiple vaults. 
-
-
-
-## Known Issues
-
-Currently, the following commands are not supported when run outside of your primary vault (your primary vault is the one that you initialize with your workspace before any `Vault Add` commands are run)
-- Build Pod
-- Schema Lookup (when you have multiple schemas with the same name)
