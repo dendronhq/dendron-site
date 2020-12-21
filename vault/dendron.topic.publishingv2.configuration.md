@@ -1,16 +1,17 @@
 ---
-id: ffa6a4ba-5eda-48c7-add5-8e2333ba27b4
+id: f2ed8639-a604-4a9d-b76c-41e205fb8713
 title: Configuration
 desc: ''
-updated: 1608528616137
-created: 1600564020051
+updated: 1608530528462
+created: 1608528797892
 nav_order: 3
 ---
 
 # Configuration
 
-Dendron lets you control publication behavior at three levels:
-- **globally** through `dendron.yml` configuration
+Dendron lets you control publication behavior at multiple levels:
+- **globally** using `dendronConfig.site` 
+- **per hiearchy** through `dendronConfig.site.config` 
 - **per note** through the publication related frontmatter
 - **per line** through custom dendron directives inside the note
 
@@ -33,90 +34,128 @@ site:
   siteRootDir: docs
 ```
 
-### Properties
+### assetsPrefix (optional)
+- default: none
 
-#### assetsPrefix?: 
 Prefix for assets. 
 
 - NOTE: By default, assets are served from the root. If you are publishing to github pages and followed the instructions [here](https://pages.github.com/) by creating a repo named `{username}.github.io`, then no further action is needed. This is because github will make your site available at `https://{username}.github.io`. If you created a custom repo, you will need to set the prefix to the name of your repo because github will make your site available at `https://username.github.io/{your-repo-name/}`
 
-#### copyAssets
-- required: no
-- type: boolean
+### copyAssets (optional)
 - default: true
 
 Copy assets from vault to site.
 
-#### siteHierarchies: str[]
+### duplicateNoteBehavior (optional)
+
+When publishing in multi-vault scenario, how to handle duplicate notes
+
+Currently, only the following setting is allowed. If set, 
+
+```yml
+duplicateNoteBehavior: 
+  action: "useVault"
+  payload: 
+    vault: 
+      fsPath: {path_to_vault}
+```
+
+### githubCname (optional)
+- default: none
+
+Cname used for github pages
+
+### siteFaviconPath (optional)
+- default: "favicon.ico"
+
+Path to favicon. Relative to workspace.
+
+### siteHierarchies (required)
+- default: [root]
 
 List of hierarchies to publish
 
-#### siteIndex?: str
-- optional, path of your index (home page)
-- defaults to the first element of `siteHierarchies`
+### siteIndex (optional)
+- default: first element of `siteHiearchies`
 
-#### siteRootDir
+Path of your index (home page)
+
+### siteProtocol (optional)
+- default: https
+
+Website protocol
+
+### siteRootDir (required)
+- default: "docs"
 
 Location of the directory where site will be build. Relative to your workspace
 
-#### siteRepoDir
-- required: no
-- type: string
+### siteRepoDir (optional)
+- default: none
+- status: NOT currently supported 
 
 Location of the github repo where your site notes are located. By default, this is assumed to be your `workspaceRoot` if not set. This is used with the `Publish Notes` command
 
-#### usePrettyRefs
+### usePrettyRefs (optional)
 - default: True
 
 Whether to use pretty note refs or plain refs. 
 
-#### config
+### writeStubs (optional)
+- default: true
 
-Per hierarchy specific config. To set options for **all** hierarchies, set `{hiearchy name}` to **root**.
+Whether to write [[stubs|dendron.concepts#stubs]] when publishing. 
 
-```yml
-config:
-  {hierarchy name}: {hierarchy options}
-```
+Writing a stub will create an empty note in your vault with the name of the stub. 
 
-The list of possible options:
-- **publishByDefault**: boolean, default: true
-  - if set to false, dendron will only publish notes within the hierarchy that have `published: true` set in the frontmatter
-- **noindexByDefault**: boolean, default: false
-  - if set to true, dendron will add the following meta tag `<meta name="robots" content="noindex, nofollow”>` which will tell google to not index your page
-  - when google indexes a page, it will penalize sites that have duplicate content from other sites. this is useful if you are using your hiearchy as a [[cache|dendron.workflows.cache]]
-- **customFrontmatter**: list, default: []
-  - if set, dendron will add the specified frontmatter to each published note in the hierarchy. note that this will override existing keys with the same name when publishing
-  - eg. add `toc: true` to all notes published under the `iam.*` hierarchy
-  ```yml
-    config:
-      iam: 
-          customFrontmatter: [
-            {
-              key: "toc",
-              value: true,
-            }
-          ]
-  ```
+Writing stubs is important to guarantee permanent urls as Dendron will randomize stub ids whenever Dendron restarts. 
 
 
-### Examples
+## Hierarchy Configuration
 
-#### Blog
+You can update configuration on a per hierarchy level by modifying `site.config` like in the example below
 
-Below is the config for [kevinslin.com](https://kevinslin.com). It publishes everything under the `home` and `blog` hierarchies but will only publish notes under `books` if `published: true` is set on the frontmatter. 
-
-- dendron.yml
 ```yml
 site:
-  siteHierarchies: [home, blog, books]
-  siteRootDir: docs
-  config:
-    books:
-      publishByDefault: false
+  config: 
+    dendron:
+      publishByDefault: true
+      ...
 ```
 
-#### Example publishing entire vault
+To set options for **all** hierarchies, set `{hiearchy name}` to **root**.
+
+### publishByDefault: 
+- default: true
+
+If set to false, dendron will only publish notes within the hierarchy that have `published: true` set in the frontmatter
+
+### noindexByDefault
+- default: false
+- status: NOT currently supported
+
+If set to true, dendron will add the following meta tag `<meta name="robots" content="noindex, nofollow”>` which will tell google to not index your page
+
+When google indexes a page, it will penalize sites that have duplicate content from other sites. this is useful if you are using your hiearchy as a [[cache|dendron.workflows.cache]]
+### customFrontmatter
+- default: []
+
+If set, dendron will add the specified frontmatter to each published note in the hierarchy. note that this will override existing keys with the same name when publishing
+- eg. add `toc: true` to all notes published under the `iam.*` hierarchy
+```yml
+  config:
+    iam: 
+        customFrontmatter: [
+          {
+            key: "toc",
+            value: true,
+          }
+        ]
+```
+
+## Examples
+
+### Example publishing entire vault
 - vault
 ```
 .
@@ -144,7 +183,7 @@ publish:
         └── flowers.bud
 ```
 
-#### Example publishing just one domain
+### Example publishing just one domain
 - vault
 ```
 .
@@ -171,10 +210,7 @@ publish:
 
 You can specify how notes are published via the frontmatter of each note. 
 
-### Properties
-
-#### published
-- type: boolean
+### published
 - default: true
 
 To exclude a page from publication, you can add the following to the frontmatter. If you set `publishByDefault: false` for a hierarchy, this needs to be set to `true` to publish
@@ -184,9 +220,8 @@ To exclude a page from publication, you can add the following to the frontmatter
 published: false
 ```
 
-#### noindex
-- type: boolean
-- default: true
+### noindex
+- default: false
 
 To tell google to not index a page, you can add the following tag to the frontmatter. You can also have this as a default for a given hierarchy by setting `noIndexByDefault: true` in the site config.
 
@@ -195,44 +230,9 @@ To tell google to not index a page, you can add the following tag to the frontma
 noindex: true
 ```
 
-#### toc
-- type: boolean
-- default: false
-
-To generate a table of contents in a given note, enable this directive in the note frontmatter.
-
-```yml
-toc: true
-```
-
-You will also need to include the following line somewhere in the note body. Dendron will generate a table of contents when it finds that particular header
-
-```md
-## Table of Contents
-```
-
-The output will look like the below.
-![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/change.toc.jpg)
-
-- NOTE: in order to generate a table of contents, the heading levels after ToC need to be at an equal level or greater than the heading level of `Table of Contents`
-  - this is okay
-  ```markdown
-  ## Table of Contents
-  ## Header1
-  ## Header2
-  ```
-  - this is not
-  ```markdown
-  ## Table of Contents
-  ### Header1
-  ### Header2
-  ```
-
 ## Line Configuration
 
 You can control publication on a per line basis.
-
-## Properties
 
 ### LOCAL_ONLY_LINE
 

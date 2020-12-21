@@ -2,7 +2,7 @@
 id: 8b03ed06-4f46-46e0-8652-c6abf2266a79
 title: Dendron-cli
 desc: ''
-updated: 1608485512267
+updated: 1608528568302
 created: 1599709645355
 stub: false
 ---
@@ -39,6 +39,8 @@ Options:
 ### launchEngineServer
 
 Launch the [[dendron server|dendron.roadmap.project.n.2020.server-migration]]. Useful for development purposes or to launch the server in a specified port
+
+The CLI will also write out `.dendron.*` [[metadata files|dendron.ref.layout#file-tree]] in the workspace root just the same as the Dendron plugin. 
 
 ```
 dendron-cli launchEngineServer --wsRoot ~/Dendron/ --vaults ~/Dendron/vault --port 3005
@@ -97,6 +99,22 @@ Options:
 - eg:
 ```
 dendron-cli publishNotes  --wsRoot . --vault ./vault 
+```
+
+### BuildSiteV2
+
+```bash
+dendron-cli buildSiteV2
+
+build notes for publication using 11ty
+
+Options:
+  --version  Show version number                                       [boolean]
+  --help     Show help                                                 [boolean]
+  --wsRoot   location of workspace                                    [required]
+  --vaults   location of vault                                           [array]
+  --serve    serve over local http server             [boolean] [default: false]
+  --stage    serve over local http server
 ```
 
 ## Pod Commands

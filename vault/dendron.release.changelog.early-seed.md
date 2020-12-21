@@ -2,9 +2,34 @@
 id: 3abd00eb-1c1e-4253-aaf5-dcbe20c21850
 title: Early Seed
 desc: ''
-updated: 1608485512225
+updated: 1608530675943
 created: 1604539200840
 ---
+
+## 0.20.2
+
+### Features
+
+#### Publishing For Multi Vault
+
+((ref: [[dendron.topic.multi-vault]]#publishing,1:#*))
+
+### Enhancements
+- creating engine via cli also initializes meta files ([d72f097](https://github.com/dendronhq/dendron/commit/d72f097e63d1fda065ac7ad50f85bebe99d6da66))([[docs|dendron.pro.dendron-cli#launchengineserver]])
+- remove github light theme from dendron bundle ([33d5708](https://github.com/dendronhq/dendron/commit/33d57086510cdaefbb8af8f72c945d6f5e02be5c))
+- support [[note refs for multi-vault|dendron.topic.multi-vault#note-references]] 
+- support relative links in dendron preview ([[docs|dendron.topic.links#wiki-links]])
+- further speed enhancements to publishing using 11ty resulting in another 5x improvement  
+- configure [[writeStubs|dendron.topic.publishingv2.configuration#writestubs-optional]] from `dendron.yml`
+
+
+### Bug Fixes
+- refactor hiearchy miss self referential links ([00b385d](https://github.com/dendronhq/dendron/commit/00b385dd0d13e5809da012bbc88388886012b837))
+- reduce frequency of `engine not connecting` error when launching dendron preview
+
+### House Cleaning
+- [[writeStubs|dendron.topic.publishingv2.configuration#writestubs-optional]] is set to `true` by default (or when not set) when publishing using 11ty
+
 
 ## 0.20.1
 
@@ -58,8 +83,7 @@ There are additional optimizations still on the table that will further drive do
 - setting a custom color theme
 - `edit on github` links
 - `jekyll-seo` functionality
-- `nav_order` not respected 
-- `nav_exclude` not respected
+- mathjax
 
 #### Migration
 

@@ -2,7 +2,7 @@
 id: 5fcb8564-7209-4a80-9bb8-025bc8eb489b
 title: Features
 desc: ''
-updated: 1607566016998
+updated: 1608528253084
 created: 1600563942292
 stub: false
 nav_order: 1
@@ -12,7 +12,7 @@ nav_order: 1
 
 ### Nested Hierarchies
 
-dendron-jekyll supports the same nested hierarchies as your notes and allows you to navigate via the sidebar.
+Publishing supports the same nested hierarchies as your notes and allows you to navigate via the sidebar.
 
 <img style="max-width: 720px;" src="https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/site-hierarchy.gif" />
 

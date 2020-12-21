@@ -2,7 +2,7 @@
 id: 692fa114-f798-467f-a0b9-3cccc327aa6f
 title: Tips
 desc: ''
-updated: 1608485603073
+updated: 1608507204772
 created: 1595614204291
 ---
 
@@ -356,6 +356,38 @@ You can add the following setting to your workspace to always have a markdown ed
 When using the standard file-search in vscode (`ctrl-P`), you can search for all titles in your workspace if you use the starting keyword `#`
 
 Example: if i know i had a header with the title "cheatsheet", i can type in `# cheatsheet`
+
+### Auto bullet list
+
+VSCode doesn't support auto-formatting by default. You can use the following workaround to mimic the behavior.
+
+
+- Add list-item below current position. Using `-`
+```json
+{
+        "key": "shift+enter",
+        "command": "type",
+        "args": {
+            "text": "\r\n- "
+        },
+        "when": "editorTextFocus && !editorReadOnly && editorLangId == 'markdown'"
+}
+```
+
+- Add list-item below current position. Using `*`
+
+```json
+{
+        "key": "shift+enter",
+        "command": "type",
+        "args": {
+            "text": "\r\n* "
+        },
+        "when": "editorTextFocus && !editorReadOnly && editorLangId == 'markdown'"
+}
+```
+
+> Credit for this recipe goes to @Stigs#0135 
 
 
 ## Other Tools

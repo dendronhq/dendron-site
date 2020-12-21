@@ -2,7 +2,7 @@
 id: 784b8d5e-58eb-4e3e-98b0-8ed1690abc74
 title: Working with Notes
 desc: ''
-updated: 1608058209586
+updated: 1608530405543
 created: 1608055635963
 nav_order: 0
 ---
@@ -43,7 +43,7 @@ Dendron uses (flexible) hierarchies to help you organize your notes. It's how pe
 
 Note that you can create a hierarchy at any level without friction. For example, type the following into lookup and hit enter: `lets.go.deep`
 
-You'll notice in the tree view that there is now a `+` sign next to `lets` and `go`. The plus sign indicates that this note is a [[stub|dendron.topic.schema#stubs]]. A stub is a placeholder for a note that hasn't actually been created. Dendron uses stubs to avoid cluttering your file system with empty notes when creating hierarchies. 
+You'll notice in the tree view that there is now a `+` sign next to `lets` and `go`. The plus sign indicates that this note is a [[stub|dendron.concepts#stubs]]. A stub is a placeholder for a note that hasn't actually been created. Dendron uses stubs to avoid cluttering your file system with empty notes when creating hierarchies. 
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/quickstart.deep.jpg)
 

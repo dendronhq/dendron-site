@@ -2,9 +2,8 @@
 id: c6fd6bc4-7f75-4cbb-8f34-f7b99bfe2d50
 title: Concepts
 desc: ''
-updated: 1607449275898
+updated: 1608530447432
 created: 1595169512265
-stub: false
 nav_order: 3
 ---
 ## Concepts
@@ -88,6 +87,16 @@ Below is an example of a three-level hierarchy describing cli commands. You don'
   desc: subcommands 
   namespace: true
 ```
+
+### Stubs
+
+Stubs are notes that don't exist but that you might want to create. They will show up as suggestions in lookup results.
+There are two reasons why these suggested notes might show up: 
+- they are the uncreated parent of a note deeper in the hierarchy (eg. `foo.bar` might be a stub for `foo.bar.foobar`)
+- they are possible notes according to the schema
+
+![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/schema-plus.jpg)
+> The `+` sign next to the suggestion indicates that the note is a stub and does not exist 
 
 ### Pods 🚧
 

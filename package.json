@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "@11ty/eleventy": "^0.11.1",
-    "@dendronhq/dendron-11ty": "^1.0.1"
+    "@dendronhq/dendron-11ty": "^1.2.0",
+    "@dendronhq/dendron-cli": "^0.20.1-alpha.13"
   }
 }

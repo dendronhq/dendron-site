@@ -2,7 +2,7 @@
 id: 24b176f1-685d-44e1-a1b0-1704b1a92ca0
 title: Multi-vault
 desc: ''
-updated: 1607891243466
+updated: 1608529780526
 created: 1605630383515
 ---
 
@@ -35,9 +35,32 @@ Lookup supports multiple vaults. When using lookup to find a note, each search r
 
 When creating a note in lookup, the currently opened note's vault is used as the vault for the new note.
 
+#### Specify Vault Location when Creating a Note
+
+With this set, you can pick the vault for new notes.  To enable,  add `lookupConfirmVaultOnCreate: true` in the dendron configuration. Instructions to do so below.
+
+1. > Dendron: Configure (yaml)
+2. add `lookupConfirmVaultOnCreate: true` so your configuration looks like the following:
+```yml
+version: 0
+...
+lookupConfirmVaultOnCreate: true
+```
+
+### Note References
+
+[[Note references|dendron.topic.refs]] are vault specific. When you make a reference, Dendron will include the note from the same note. 
+
+### Publishing
+
+You can publish from a multi-vault enabled workspace if you are using [[dendron-11ty|dendron.pro.dendron-11ty]] to publish. 
+
+We have added a new configuration, `duplicateNoteBehavior`, which [[controls|dendron.topic.publishingv2.configuration#duplicatenotebehavior-optional]] how Dendron handles duplicate notes across multiple vaults. 
+
+
+
 ## Known Issues
 
 Currently, the following commands are not supported when run outside of your primary vault (your primary vault is the one that you initialize with your workspace before any `Vault Add` commands are run)
 - Build Pod
 - Schema Lookup (when you have multiple schemas with the same name)
-- Note References

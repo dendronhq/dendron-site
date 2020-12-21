@@ -2,7 +2,7 @@
 id: c5e5adde-5459-409b-b34d-a0d75cbb1052
 title: Schema
 desc: ''
-updated: 1603747828802
+updated: 1608530445742
 created: 1595952505039
 stub: false
 ---
@@ -220,16 +220,6 @@ This is extremely useful whenever you want to re-use the outline of a note. Exam
 <a href="https://www.loom.com/share/481b7ab051394c1caa383383bd265755"> 
 <img style="" src="https://cdn.loom.com/sessions/thumbnails/481b7ab051394c1caa383383bd265755-with-play.gif"> 
 </a>
-
-## Stubs
-
-Stubs are notes that don't exist but that you might want to create. They will show up as suggestions in lookup results.
-There are two reasons why these suggested notes might show up: 
-- they are the uncreated parent of a note deeper in the hierarchy (eg. `foo.bar` might be a stub for `foo.bar.foobar`)
-- they are possible notes according to the schema
-
-![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/schema-plus.jpg)
-> The `+` sign next to the suggestion indicates that the note is a stub and does not exist 
 
 ## Unknown Schema
 

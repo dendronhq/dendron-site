@@ -2,7 +2,7 @@
 id: 3472226a-ff3c-432d-bf5d-10926f39f6c2
 title: Links
 desc: ''
-updated: 1606926590298
+updated: 1608527947805
 created: 1595003088839
 stub: false
 ---
@@ -19,7 +19,9 @@ Dendron supports multiple types of links and formats.
 ## Wiki Links
 Wiki links support **autocomplete**. To initiate:
 - create wikilink brackets and start typing
-- link to specific sections of notes using the `[[wiki link#header]]` syntax. Note: these links don't work in preview or when exported through a pod (yet) but do work in a published vault. 
+- link to specific sections of notes using the `[[wiki link#header]]` syntax. 
+    - NOTE: relative links will not go to the anchor if clicked on the preview, in that case, it becomes a normal link to the file
+    - NOTE2: don't work when exported through a pod 
 - use the vscode [intellisense shortcut](https://code.visualstudio.com/docs/editor/intellisense#_key-bindings) to trigger the autocomplete
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/links-autocomplete.gif)

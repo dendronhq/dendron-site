@@ -2,7 +2,7 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1607969718545
+updated: 1608527230983
 created: 1601508213606
 stub: false
 ---
@@ -48,17 +48,7 @@ One of our most requested features for multi-vault is now out. Refactor will now
 
 #### Support Specifying Vault Location when Creating a Note
 
-((ref: [[dendron.topic.multi-vault]]#lookup,3:#*))
-
-With this change, you can now pick the vault for new notes.  To enable,  add `lookupConfirmVaultOnCreate: true` in the dendron configuration. Instructions to do so below.
-
-1. > Dendron: Configure (yaml)
-2. add `lookupConfirmVaultOnCreate: true` so your configuration looks like the following:
-```yml
-version: 0
-...
-lookupConfirmVaultOnCreate: true
-```
+((ref: [[dendron.topic.multi-vault]]#specify vault location when creating a note,1:#*))
 
 ### Enhancements
 - add aws to the seed bank ([818bc05](https://github.com/dendronhq/dendron/commit/818bc0510e3b3b99057ef7cda8d9c61be2b6ebc6))
@@ -330,9 +320,7 @@ Remove a vault from your workspace. Note that the underlying files wil **not** b
 #### Wildcard Note Ref Links
 - **refs:** wildcard note ref links ([98a1177](https://github.com/dendronhq/dendron/commit/98a117715a967492ab9d7b8749d964b07bde4055))
 
-[[Note references|dendron.topic.refs]] now accept the `*` operator at the end which lets you grab all notes of a given level of hierarchy. This also works with typical note reference operation like block selection which means you can use it to grab specific blocks from every note in a level.
-
-<div style="position: relative; padding-bottom: 62.5%; height: 0;"><iframe src="https://www.loom.com/embed/9401e5dfe60f4f589e14d50e280d11f5" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+((ref: [[dendron.topic.refs]]#wildcard note refs,1))
 
 #### Dendron: Configure Command
 - **workbench:** add configure command ([db51dc3](https://github.com/dendronhq/dendron/commit/db51dc35864d0c4434f70620ef0e88451c198fa4))
