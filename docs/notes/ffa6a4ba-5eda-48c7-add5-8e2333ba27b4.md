@@ -2,11 +2,10 @@
 id: ffa6a4ba-5eda-48c7-add5-8e2333ba27b4
 title: Configuration
 desc: ''
-updated: 1607043367357
+updated: 1608528616137
 created: 1600564020051
 parent: 73d395c9-5041-4d0d-9db7-080d9586136e
 children: []
-toc: true
 nav_order: 3
 fname: dendron.topic.publishing.configuration
 hpath: dendron.topic.publishing.configuration
@@ -18,41 +17,6 @@ Dendron lets you control publication behavior at three levels:
 - **globally** through `dendron.yml` configuration
 - **per note** through the publication related frontmatter
 - **per line** through custom dendron directives inside the note
-
-## Table of Contents
-
-- [Global Configuration](#global-configuration)
-
-  - [Properties](#properties)
-
-    - [assetsPrefix?:](#assetsprefix)
-    - [copyAssets](#copyassets)
-    - [siteHierarchies: str\[\]](#sitehierarchies-str)
-    - [siteIndex?: str](#siteindex-str)
-    - [siteRootDir](#siterootdir)
-    - [siteRepoDir](#siterepodir)
-    - [usePrettyRefs](#useprettyrefs)
-    - [config](#config)
-
-  - [Examples](#examples)
-
-    - [Blog](#blog)
-    - [Example publishing entire vault](#example-publishing-entire-vault)
-    - [Example publishing just one domain](#example-publishing-just-one-domain)
-
-- [Note Configuration](#note-configuration)
-
-  - [Properties](#properties-1)
-
-    - [published](#published)
-    - [noindex](#noindex)
-    - [toc](#toc)
-
-- [Line Configuration](#line-configuration)
-
-- [Properties](#properties-2)
-
-  - [LOCAL_ONLY_LINE](#local_only_line)
 
 ## Global Configuration
 
