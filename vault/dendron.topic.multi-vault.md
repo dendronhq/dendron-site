@@ -2,7 +2,7 @@
 id: 24b176f1-685d-44e1-a1b0-1704b1a92ca0
 title: Multi-vault
 desc: ''
-updated: 1608583786069
+updated: 1608585213034
 created: 1605630383515
 ---
 
@@ -47,12 +47,12 @@ version: 0
 lookupConfirmVaultOnCreate: true
 ```
 
-### Note References
-
-[[Note references|dendron.topic.refs]] are vault specific. When you make a reference, Dendron will include the note from the same note. 
-
 ### Publishing
 
 You can publish from a multi-vault enabled workspace if you are using [[dendron-11ty|dendron.pro.dendron-11ty]] to publish. 
 
 We have added a new configuration, `duplicateNoteBehavior`, which [[controls|dendron.topic.publishingv2.configuration#duplicatenotebehavior-optional]] how Dendron handles duplicate notes across multiple vaults. 
+
+### Note References
+
+[[Note references|dendron.topic.refs]] are vault specific. When you make a reference, Dendron will include the note from the same note. 
