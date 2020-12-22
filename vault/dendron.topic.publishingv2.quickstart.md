@@ -2,7 +2,7 @@
 id: 861e4e48-dcc5-4813-a695-8940ba6e64d3
 title: Quickstart
 desc: ''
-updated: 1608653442152
+updated: 1608660834558
 created: 1608528402469
 nav_order: 2
 ---
@@ -40,3 +40,6 @@ This will build your site to the path specified by [[siteRootDir|dendron.topic.p
 
 
 - NOTE: if you have an existing site, please read the [[migration|dendron.topic.publishingv2.migration]] docs to see whats changed.
+
+## Details
+- Dendron reads the [[vaults|dendron.topic.config#vaults]] portion of `dendron.yml` to find your notes

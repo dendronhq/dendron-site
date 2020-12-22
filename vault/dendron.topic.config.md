@@ -2,11 +2,22 @@
 id: eea2b078-1acc-4071-a14e-18299fc28f48
 title: Config
 desc: ''
-updated: 1595261816971
+updated: 1608658736298
 created: 1595261816971
 ---
 
 # Config
+
+## Dendron.yml
+
+This is created as part of your dendron workspace. See [[layout|dendron.ref.layout]] for more information.
+
+### vaults
+- type: `{fsPath: {path/relative/to/workspace}, name?: {optional name}}`
+
+Managed by Dendron. A record of your current workspaces. 
+
+## VSCode
 ### dendron.dailyJournalDomain
 - type: string
 - default: daily
