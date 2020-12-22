@@ -2,7 +2,7 @@
 id: cb22bd36-d45a-4ffd-a31e-96c4b39cb7fb
 title: Testing
 desc: ''
-updated: 1607879017767
+updated: 1608593993462
 created: 1598654055046
 stub: false
 ---
@@ -13,7 +13,14 @@ stub: false
 
 ### All packages except the plugin
 
+- Inside VSCode
 > Run Task: Test (bootstrap)
+
+- Using CLI
+```bash
+./bootstrap/scripts/test-all.sh
+```
+
 
 ### Run all test for Dendron Plugin (plugin-core)
 
