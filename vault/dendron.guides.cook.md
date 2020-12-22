@@ -2,7 +2,7 @@
 id: 401c5889-20ae-4b3a-8468-269def4b4865
 title: Cook
 desc: ''
-updated: 1608485512290
+updated: 1608653591686
 created: 1595952505024
 nav_order: 8.9
 toc: true
@@ -105,7 +105,10 @@ Dendron does not have a dedicated mobile client at this time. There are numerous
 - [Neutrinote](https://neutrinote.wordpress.com/) (Android only)
 
 
-NOTE: Most mobile apps do not have git support. If you are on iOS, you can follow the instructions [here](https://victoria.dev/blog/a-remote-sync-solution-for-ios-and-linux-git-and-working-copy/) to sync your git backed Dendron with any note taking tool on iOS.
+
+Most mobile apps do not have git support. 
+- If you are on iOS, you can follow the instructions [here](https://victoria.dev/blog/a-remote-sync-solution-for-ios-and-linux-git-and-working-copy/) to sync your git backed Dendron with any note taking tool on iOS.
+- If you are on Android, you can read [this writeup](https://mstempl.netlify.app/post/working-with-git-on-android/) by one of users on having Git Sync on Android devices
 
 
 ### WebClipper

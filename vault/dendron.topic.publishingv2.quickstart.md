@@ -2,13 +2,17 @@
 id: 861e4e48-dcc5-4813-a695-8940ba6e64d3
 title: Quickstart
 desc: ''
-updated: 1608585140593
+updated: 1608653442152
 created: 1608528402469
 nav_order: 2
 ---
 
 # Quickstart
 
+## Requirements
+- node version 0.12 or higher
+
+## Setup
 In order to to use the 11ty based publishing, initialize your workspace with the following commands.
 
 ```bash
