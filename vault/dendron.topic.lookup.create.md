@@ -2,19 +2,19 @@
 id: 0e57f8d1-e501-49db-974c-01eb64c20c22
 title: Creating Notes
 desc: ''
-updated: 1608494582338
+updated: 1608752992139
 created: 1608494562268
 ---
 
 # Creating Notes
 
-### Creating Notes
+## Summary
 
 While we call it the `Lookup Bar`, you can also use it to create notes that don't exist. When you lookup for a note that hasn't been created, Dendron will create it for you. 
 
-To try it yourself, bring up the lookup bar. Type `dendron.lookup.hello` and hit `Enter`.
+To try it yourself, bring up the lookup bar. Type `hello` and hit `Enter`.
 
-#### Creating Special Notes
+## Creating Special Notes
 
 Dendron has builtin notion for certain types of notes with [[pre-defined hierarchies|dendron.topic.special-notes]]. These notes can be created by toggling the corresponding **note button**  on the lookup menu or by using the respective builtin shortcuts.
 - values:
@@ -22,7 +22,7 @@ Dendron has builtin notion for certain types of notes with [[pre-defined hierarc
     - journal: create a journal note (cmd/ctrl + shift + j)
     - scratch: create a scratch note (cmd/ctrl + shift + s)
 
-### Creating Notes with a Selection
+## Creating Notes with a Selection
 
 If you have text highlighted while creating a new note with a lookup, the new note will be created using the text selected. How the text will be used depends on  the `dendron.defaultLookupCreateBehavior` setting.
 - values: 

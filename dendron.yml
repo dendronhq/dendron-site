@@ -5,6 +5,13 @@ site:
     gh_edit_repository: "https://github.com/dendronhq/dendron-site"
     usePrettyRefs: true
     copyAssets: true
+    logo: "vault/assets/images/logo.png"
+    siteUrl: "https://dendron.so"
+    githubCname: "dendron.so"
+    title: Dendron
+    author: "dendronhq"
+    twitter: "dendronhq"
+    description: "Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size."
 vaults:
     - fsPath: vault
 version: 0
