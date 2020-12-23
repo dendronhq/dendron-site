@@ -17,24 +17,24 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Dendron - Page 23</title>
+  <title>Dendron - Page 143</title>
 
 <meta name="description" content="Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.">
 <meta name="robots" content="noindex,follow">
 <meta name="author" content="dendronhq">
 
-<link rel="canonical" href="https://dendron.so/notes/09692c77-1861-4b01-a7e7-d0da8a80cea6.html">
+<link rel="canonical" href="https://dendron.so/notes/9af9cf56-d2a0-47d1-b8bf-5a02c42ac2fd.html">
 
-<meta property="og:title" content="Dendron - Page 23">
+<meta property="og:title" content="Dendron - Page 143">
 <meta property="og:type" content="article">
-<meta property="og:url" content="https://dendron.so/notes/09692c77-1861-4b01-a7e7-d0da8a80cea6.html">
+<meta property="og:url" content="https://dendron.so/notes/9af9cf56-d2a0-47d1-b8bf-5a02c42ac2fd.html">
 <meta property="og:description" content="Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.">
 <meta property="og:image" content="https://dendron.so/logo.png">
 
 <meta name="twitter:card" content="summary">
 <meta name="twitter:site" content="@dendronhq">
-<meta name="twitter:url" content="https://dendron.so/notes/09692c77-1861-4b01-a7e7-d0da8a80cea6.html">
-<meta name="twitter:title" content="Dendron - Page 23">
+<meta name="twitter:url" content="https://dendron.so/notes/9af9cf56-d2a0-47d1-b8bf-5a02c42ac2fd.html">
+<meta name="twitter:title" content="Dendron - Page 143">
 <meta name="twitter:description" content="Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.">
 <meta name="twitter:image" content="https://dendron.so/logo.png">
 
@@ -768,9 +768,44 @@
         
 
         
-        <h1>Search</h1>
-<p>Dendron gives you the ability to do a full text search of your notes. Most queries can be satisfied using <a href="https://dendron.so/notes/a7c3a810-28c8-4b47-96a6-8156b1524af3.html">lookup</a> but depending on the use case, sometimes searching is more useful.</p>
-<p>We leverage VSCode <a href="https://code.visualstudio.com/docs/editor/codebasics#_search-across-files">builtin search</a> capabilities to do full text search.</p>
+        <h1>Markdown Links</h1>
+<h2>Setup</h2>
+<ol>
+<li>Install dependencies<pre class="language-bash"><code class="language-bash"><span class="token function">git</span> clone https://github.com/dendronhq/markdown-links.git<br><span class="token builtin class-name">cd</span> markdown-links<br><span class="token function">npm</span> <span class="token function">install</span></code></pre>
+</li>
+<li>Use <code>Run Extension</code> from the <a href="https://dendron.so/notes/3307c16e-69d9-48cd-b1cc-1dfe88274191.html">debug pane</a> (note: this requires that dendron be installed. VSCode might ask you to install Dendron and reload at this point)</li>
+<li>Make sure you are inside a Dendron workspace. If not, either initialize one using <code>Dendron: Initialize Workspace</code> or change to one using <code>Dendron: Change Workspace</code></li>
+</ol>
+<h2>Setup without Dendron Extension Installed</h2>
+<p>Dendron markdown links depends on the dendron extension to be active. You can still make it work without the extension by the following instructions:</p>
+<ol>
+<li>
+<p>Comment out the following in <code>package.json</code></p>
+<pre class="language-json"><code class="language-json"><span class="token property">"extensionDependencies"</span><span class="token operator">:</span> <span class="token punctuation">[</span><br>    <span class="token string">"dendron.dendron"</span><br><span class="token punctuation">]</span><span class="token punctuation">,</span></code></pre>
+</li>
+<li>
+<p>Follow step 2 in the setup instructions above.</p>
+</li>
+<li>
+<p>Instead of using the plugin to initialize a Dendron workspace, initialize the workspace using the <code>dendron-cli</code></p>
+<div class="portal-container">
+<div class="portal-head">
+<div class="portal-backlink" >
+<div class="portal-title">From <span class="portal-text-title">dendron.pro.dendron-cli</span></div>
+<a href="https://dendron.so/notes/8b03ed06-4f46-46e0-8652-c6abf2266a79.html" class="portal-arrow">Go to text <span class="right-arrow">→</span></a>
+</div>
+</div>
+<div id="portal-parent-anchor" class="portal-parent" markdown="1">
+<div class="portal-parent-fader-top"></div>
+<div class="portal-parent-fader-bottom"></div>        
+<p>Launch the <a href="https://dendron.so/notes/725d99be-fadd-4464-88c3-0a5fcc7292c7.html">dendron server</a>. Useful for development purposes or to launch the server in a specified port</p>
+<p>The CLI will also write out <code>.dendron.*</code> <a href="https://dendron.so/notes/3bff1195-1d13-4e7a-bc2f-7e4cc617109c.html">metadata files</a> in the workspace root just the same as the Dendron plugin.</p>
+<pre><code>dendron-cli launchEngineServer --wsRoot ~/Dendron/ --vaults ~/Dendron/vault --port 3005
+</code></pre>
+</div>    
+</div>
+</li>
+</ol>
 
 
         
