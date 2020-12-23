@@ -1,0 +1,28 @@
+name: Dendron
+
+on:
+  push:
+    branches:
+    - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout source
+      uses: actions/checkout@v2
+
+    - name: Install npm dependencies
+      run: npm install
+
+    - name: Build pod
+      run: npm run dendron-cli buildSiteV2 --wsRoot .  --stage prod 
+
+    - name: Deploy site
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_branch: pages
+        publish_dir: docs/
+        force_orphan: true
+        cname: "dendron.so"
