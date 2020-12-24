@@ -2,7 +2,7 @@
 id: 8b03ed06-4f46-46e0-8652-c6abf2266a79
 title: Dendron-cli
 desc: ''
-updated: 1608833938250
+updated: 1608835700837
 created: 1599709645355
 stub: false
 ---
@@ -117,7 +117,7 @@ Options:
   --stage    serve over local http server
 ```
 
-#### Connect to a running workspace
+<!-- #### Connect to a running workspace
 
 Normally, this command will spawn a new Dendron Engine that indexes your notes before building them for publication. You can skip this initial indexing if you have a current Dendron workspace running. 
 
@@ -126,8 +126,8 @@ In that case, the CLI can connect to the current engine instead of starting a ne
 ```bash
 cd {root/of/workspace}
 # .dendron.port has the port of the current running workspace
-dendron-cli buildSiteV2 --wsRoot . --stage dev --serve --enginePort `cat .dendron.port`
-```
+npx dendron-cli buildSiteV2 --wsRoot . --stage dev --serve --enginePort `cat .dendron.port`
+``` -->
 
 ## Pod Commands
 - NOTE: you can find pod ids in the [[pods|dendron.topic.pod]] page. Just add a `.import|.export` to the end of the id (eg. `dendron.pod.json.import`)
