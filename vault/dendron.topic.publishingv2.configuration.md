@@ -2,7 +2,7 @@
 id: f2ed8639-a604-4a9d-b76c-41e205fb8713
 title: Configuration
 desc: ''
-updated: 1608530528462
+updated: 1608834360702
 created: 1608528797892
 nav_order: 3
 ---
@@ -110,6 +110,49 @@ Writing a stub will create an empty note in your vault with the name of the stub
 
 Writing stubs is important to guarantee permanent urls as Dendron will randomize stub ids whenever Dendron restarts. 
 
+### Github Options
+
+#### gh_edit_link
+- default: true
+
+Show a edit on github link at the bottom of the page
+
+![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/publish.edit-on-github.jpg)
+
+#### gh_edit_repository 
+
+the URL of the project's GitHub repository
+
+#### gh_edit_branch 
+- default: master
+
+the branch that the docs site is served from
+
+#### gh_edit_view_mode 
+- default: tree (brings user to github page)
+
+switch to "edit" to bring the user directly into editing mode
+
+### SEO Options
+
+#### title
+- title of page
+- eg: `Dendron`
+
+#### description 
+- eg: `Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.`
+
+#### author
+Name of person or organization doing the publishing
+
+- eg: `Kevin`
+
+#### twitter
+Twitter Handle
+
+- eg: `dendronhq`
+
+
 
 ## Hierarchy Configuration
 
@@ -204,6 +247,25 @@ publish:
 └── dendron
     ├── dendron.quickstart
     └── dendron.zen
+```
+
+### Examples of CNAME, Github and SEO Options
+
+```yml
+site:
+    siteHierarchies:
+        - dendron
+    siteRootDir: docs
+    gh_edit_repository: "https://github.com/dendronhq/dendron-site"
+    logo: "vault/assets/images/logo.png"
+    siteUrl: "https://dendron.so"
+    githubCname: "dendron.so"
+    title: Dendron
+    author: "dendronhq"
+    twitter: "dendronhq"
+    description: "Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size."
+vaults:
+    - fsPath: vault
 ```
 
 ## Note Configuration

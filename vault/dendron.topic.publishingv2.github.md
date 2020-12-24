@@ -2,7 +2,7 @@
 id: 877f4347-f013-43ba-aec4-87412b2e1bec
 title: Github
 desc: ''
-updated: 1608776324753
+updated: 1608834569735
 created: 1608770937168
 ---
 
@@ -100,3 +100,6 @@ This will initialize the following files into your dendron workspace
 
 3. By default, when you are ready for publishing, Dendron will 
 -->
+
+## Citations
+- this guide is heavily inspired by [[the github action guide|dendron.guides.tips#publish-to-github-pages-with-actions]] originally published by [Luke Carrier](https://github.com/LukeCarrier)
