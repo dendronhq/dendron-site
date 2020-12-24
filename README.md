@@ -4,7 +4,7 @@
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/logo-256.png)
 
-The **hierarchical** note taking tool that **grows** as you do.
+The **hierarchical** note taking tool that **grows** as you do 🌱
 
 Dendron is an **open-source, local-first, markdown-based, note-taking tool** built on top of [VSCode](https://code.visualstudio.com/). Like most such tools,  Dendron supports all the usual features you would expect like tagging, backlinks, a graph view, split panes, and so forth. But it doesn't stop there - whereas most tools (try to make it) easy to **get notes in**, they tend to make it **hard to get them back out** later, and it only **gets worse as you add more notes**. Dendron helps you **get notes back out** and **works better** the **more notes you have**.
 
