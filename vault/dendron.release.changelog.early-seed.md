@@ -2,7 +2,7 @@
 id: 3abd00eb-1c1e-4253-aaf5-dcbe20c21850
 title: Early Seed
 desc: ''
-updated: 1608835718603
+updated: 1608839475742
 created: 1604539200840
 published: true
 nav_exclude: true
@@ -17,7 +17,7 @@ This change brings a whole bunch of additional 11ty publishing features. At this
 
 Latest Versions
 - @dendronhq/cli, version: v0.21.1-alpha.3
-- @dendronhq/dendron-11ty, version 1.3.7
+- @dendronhq/dendron-11ty, version 1.3.8
 
 Installation (inside a running dendron workspace):
 
