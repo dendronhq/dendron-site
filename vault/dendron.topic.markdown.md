@@ -2,9 +2,8 @@
 id: ba97866b-889f-4ac6-86e7-bb2d97f6e376
 title: Markdown
 desc: ''
-updated: 1606935621098
+updated: 1609036710883
 created: 1598673110284
-stub: false
 ---
 
 # Markdown
