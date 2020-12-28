@@ -2,11 +2,43 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1608585239208
+updated: 1609184287353
 created: 1601508213606
 stub: false
 ---
 # Changelog
+
+## 0.21.2
+
+### Enhancements
+- build-site command can connect to current running workspace ([[docs|dendron.pro.dendron-cli#connect-to-open-workspace]])
+- support inline math when publishing
+- support block math when publishing 
+- support rendering gfm inside note reference when publishing
+- support anchor headings when publishing
+- support relative links when publishing
+
+### Bug Fixes
+- issue with displaying math in preview
+
+### House Cleaning
+- the code highlighter has been changed from `prismjs` to `highligher.js`
+
+## 0.21.1
+
+### Enhancements
+- add seo tags ([[docs|dendron.topic.publishingv2.configuration#seo-options]])
+- enable edit on github link ([[docs|dendron.topic.publishingv2.configuration#github-options]])
+- migrate all jekyll `_config.yml` settings to `dendron.yml`
+
+### Bug Fixes
+- build-site errors when building from vaults without `asset folder`
+- build-site error on certain operating systems
+- build-site error on node version != 12
+
+### Docs
+- [dendron.so](https://dendron.so) is now published using the new 11ty framework
+- add [[publishing to github guide|dendron.topic.publishingv2.github]] using github actions
 
 ## 0.20.2
 

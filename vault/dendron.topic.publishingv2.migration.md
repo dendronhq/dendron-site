@@ -2,7 +2,7 @@
 id: fd26b3ef-7978-41c9-8f45-4c4f8414951d
 title: Migration
 desc: ''
-updated: 1608585100333
+updated: 1609184154630
 created: 1608528487798
 ---
 
@@ -56,8 +56,11 @@ site:
 ## Gaps
 
 11ty publishing is currently not at full feature parity with Jekyll publishing. Notably, the following features are missing:
+- ~~`edit on github` links~~
+- ~~`jekyll-seo` functionality~~
+- ~~math~~
+- ~~anchor headers~~
 - setting a custom color theme
-- `edit on github` links
-- `jekyll-seo` functionality
-- mathjax
+- support for bad links report
 - support for automatically generated toc
+- integration with dendron plugin
