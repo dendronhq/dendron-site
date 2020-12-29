@@ -2,7 +2,7 @@
 id: 8cf880da-6402-47fb-8e9a-9d5fa38e31d0
 title: Projects
 desc: ''
-updated: 1608486249996
+updated: 1609269445117
 created: 1599498964153
 stub: false
 ---
@@ -52,7 +52,7 @@ After you install the extension and log in, you'll be able to leave comments inl
 
 ## Sections
 
-```text
+```
 ## Goals
 
 What are we trying to accomplish. Try to limit this to one or two sentences. 

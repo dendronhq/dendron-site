@@ -2,7 +2,7 @@
 id: a929ff5a-b6c0-417b-a3af-d70af3626aa5
 title: 'Release Notes (0.18)'
 desc: ''
-updated: 1606863925598
+updated: 1609261174120
 created: 1606679635868
 ---
 
@@ -11,6 +11,7 @@ created: 1606679635868
 Dendron 0.18 has sprouted 🌱
 
 ### Highlights
+
 - instant link previews
     - peek into links without opening them
 - dendron web ui (for configuration updates)
