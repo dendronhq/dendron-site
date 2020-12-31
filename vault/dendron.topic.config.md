@@ -2,7 +2,7 @@
 id: eea2b078-1acc-4071-a14e-18299fc28f48
 title: Config
 desc: ''
-updated: 1608658736298
+updated: 1609439812378
 created: 1595261816971
 ---
 
@@ -16,6 +16,12 @@ This is created as part of your dendron workspace. See [[layout|dendron.ref.layo
 - type: `{fsPath: {path/relative/to/workspace}, name?: {optional name}}`
 
 Managed by Dendron. A record of your current workspaces. 
+
+### useFMTitle 🚧
+
+If set to `true`, use the `title` field in the frontmatter to set the h1 title when publishing and in the preview
+
+- NOTE: if you change the `title` filed, you currently need to run `Reload: Index` for the changes to show up in the preview
 
 ## VSCode
 ### dendron.dailyJournalDomain

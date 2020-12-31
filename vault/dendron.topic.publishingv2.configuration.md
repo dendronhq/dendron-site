@@ -2,7 +2,7 @@
 id: f2ed8639-a604-4a9d-b76c-41e205fb8713
 title: Configuration
 desc: ''
-updated: 1608834360702
+updated: 1609436622323
 created: 1608528797892
 nav_order: 3
 ---
@@ -282,6 +282,10 @@ To exclude a page from publication, you can add the following to the frontmatter
 published: false
 ```
 
+### nav_exclude
+
+If set, do not include the current note in the navigation bar. 
+
 ### noindex
 - default: false
 
@@ -291,6 +295,48 @@ To tell google to not index a page, you can add the following tag to the frontma
 ...
 noindex: true
 ```
+
+### collection options
+
+[[Collection specific|dendron.topic.publishingv2.collections]] options. 
+
+#### date 
+
+If set, used to designate a custom publication date. By default, use timestamp of `created` field. 
+
+#### has_collection
+- default: false
+
+Whether a given page is a collection
+
+#### skipLevels
+
+If set, determines how many levels of children to skip when making the collection. For example, you might have the following hierarchy. 
+
+```
+- blog.md
+- blog.reading.md
+- blog.reading.journal.md
+- blog.reading.journal.2020.md
+- blog.reading.journal.2020.12.md
+- blog.reading.journal.2020.12.20.one.md
+- blog.reading.journal.2020.12.31.two.md
+```
+
+When you publish, you might only want to show the leaf nodes and skip the intermediary levels. In the above example, setting `skipLevels: 3` on `blog.reading.md` will result in the following hierarchy being published.
+
+```
+- blog.md
+- blog.reading.md
+- blog.reading.journal.2020.12.20.one.md
+- blog.reading.journal.2020.12.31.two.md
+```
+
+#### sort_order
+- default: normal
+
+Sort items in a collection page. Ascending by default. Specify `reverse` to sort in descending order.
+
 
 ## Line Configuration
 

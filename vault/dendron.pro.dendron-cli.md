@@ -2,7 +2,7 @@
 id: 8b03ed06-4f46-46e0-8652-c6abf2266a79
 title: Dendron-cli
 desc: ''
-updated: 1609180788471
+updated: 1609438053052
 created: 1599709645355
 stub: false
 ---
@@ -35,6 +35,38 @@ Options:
 ```
 
 ## Engine Commands
+
+### doctor
+
+Use doctor to perform specific fixes over your notes. 
+- NOTE: the functionality here is different from what is available in the plugin version of [[Doctor|dendron.topic.commands#doctor]]. 
+
+```bash
+doctor helps you fix your notes
+
+Options:
+  --version     Show version number                                    [boolean]
+  --help        Show help                                              [boolean]
+  --wsRoot      location of workspace                                 [required]
+  --enginePort  If set, connecto to running engine. If not set, create new
+                instance of Dendron Engine
+  --actions     what actions the doctor should take
+                            [array] [choices: "h1ToTitle", "h1ToH2"]
+  --query       run doctor over a query                                 [string]
+  --limit       limit num changes                                       [number]
+  --dryRun      dry run                                                [boolean]
+```
+
+#### available actions
+- h1ToTitle: remove initial `h1` header and use it to replace contents of `title` field in frontmatter
+- h1ToH2: convert all initial `h1` header to `h2` header
+
+#### example 
+
+- convert all `h1` tags to frontmatter `title` values for the `readings` hiearchy
+```bash
+dendron-cli doctor --wsRoot . --actions h1ToTitle --limit 10 --query "readings.*" 
+```
 
 ### launchEngineServer
 
@@ -108,12 +140,16 @@ dendron-cli buildSiteV2
 build notes for publication using 11ty
 
 Options:
-  --version  Show version number                                       [boolean]
-  --help     Show help                                                 [boolean]
-  --wsRoot   location of workspace                                    [required]
-  --vaults   location of vault                                           [array]
-  --serve    serve over local http server             [boolean] [default: false]
-  --stage    serve over local http server
+  --version     Show version number                                    [boolean]
+  --help        Show help                                              [boolean]
+  --wsRoot      location of workspace                                 [required]
+  --enginePort  If set, connecto to running engine. If not set, create new
+                instance of Dendron Engine
+  --serve       serve over local http server          [boolean] [default: false]
+  --stage       serve over local http server
+                                       [choices: "dev", "prod"] [default: "dev"]
+  --servePort   port to serve over                             [default: "8080"]
+  --output      if set, override output from config.yml                 [string]
 ```
 
 #### Connect to Open Workspace
