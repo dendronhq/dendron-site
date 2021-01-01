@@ -2,7 +2,7 @@
 id: fd26b3ef-7978-41c9-8f45-4c4f8414951d
 title: Migration
 desc: ''
-updated: 1609184154630
+updated: 1609529113068
 created: 1608528487798
 ---
 
@@ -45,7 +45,7 @@ site:
         - dendron
     siteRootDir: docs
     usePrettyRefs: true
-    siteUrl: "11ty.dendron.so"
+    siteUrl: "https://11ty.dendron.so"
     githubCname: "11ty.dendron.so"
 ```
 

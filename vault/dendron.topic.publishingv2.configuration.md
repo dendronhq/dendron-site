@@ -2,7 +2,7 @@
 id: f2ed8639-a604-4a9d-b76c-41e205fb8713
 title: Configuration
 desc: ''
-updated: 1609528381320
+updated: 1609531924020
 created: 1608528797892
 nav_order: 3
 ---
@@ -99,7 +99,8 @@ Location of the github repo where your site notes are located. By default, this 
 ### siteUrl (required)
 
 Set to the URL that you plan on publishing to. All links will be prefixed with this. 
-If you are publishing with github pages, the format is `https://github.com/{USERNAME}/{REPO_NAME}`
+If you are publishing with github pages, the format is `https://{username}.github.io/{repo}/`
+ 
 
 ### usePrettyRefs (optional)
 - default: True
