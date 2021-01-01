@@ -15,7 +15,7 @@ You have scripts that you want to organize and whose outputs you might want to r
 
 ## Solution
 
-Currently (2020.09.24), Dendron's convention for any file that is ont markdown is to keep it under an assets folder in your vault.
+Currently (2020.09.24), Dendron's convention for any file that is not markdown is to keep it under an assets folder in your vault.
 
 ```
 .
