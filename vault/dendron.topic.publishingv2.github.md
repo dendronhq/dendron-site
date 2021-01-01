@@ -2,7 +2,7 @@
 id: 877f4347-f013-43ba-aec4-87412b2e1bec
 title: Github
 desc: ''
-updated: 1609185353165
+updated: 1609538031878
 created: 1608770937168
 ---
 
@@ -84,6 +84,12 @@ git add .
 git commit -m "add publishing via gh-action"
 git push 
 ```
+
+6. Update your github pages setting to build github pages from the `pages` branch and using the root folder. 
+
+![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/publishv2.pages.jpg)
+
+7. Github actions will update your page every time you push. You might have to add a change and push before your changes will show up. 
 
 <!-- 
 1. Run > Dendron: Doctor
