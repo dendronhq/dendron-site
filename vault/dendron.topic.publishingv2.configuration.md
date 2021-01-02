@@ -2,7 +2,7 @@
 id: f2ed8639-a604-4a9d-b76c-41e205fb8713
 title: Configuration
 desc: ''
-updated: 1609531924020
+updated: 1609563690771
 created: 1608528797892
 nav_order: 3
 ---
@@ -291,6 +291,11 @@ published: false
 ### nav_exclude
 
 If set, do not include the current note in the navigation bar. 
+
+### nav_order
+- type: number
+
+If set, denote order that item appears in the published nav bar
 
 ### noindex
 - default: false
