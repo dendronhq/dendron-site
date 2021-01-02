@@ -2,7 +2,7 @@
 id: 87d90002-f480-45eb-a8c4-d00df4d61557
 title: Dendron-plugin
 desc: ''
-updated: 1608838282427
+updated: 1609550117054
 created: 1605375348464
 ---
 
@@ -20,5 +20,11 @@ created: 1605375348464
     - tests are in `plugin-core/src/test/suite-integ/{COMMAND}`
     - testing instructions are [[heree|dendron.dev.testing]]
 5. Write command logic
+1. If it makes sense, add a keyboard shortcut for the command. Make sure it doesn't conflict with an generic VSCode command or existing Dendron commands. You can detect existing keybindings by using the guide [here](https://code.visualstudio.com/docs/getstarted/keybindings#_detecting-keybinding-conflicts)
 6. Add command to `src/commands/index.ts`
 7. Submit pull request
+
+
+# Dev
+
+You can control the log level in the workspace settings using `dendron.logLevel`. This sets the log level for the plugin and well any server it launches. You will need to restart the workspace for the log level to take effect. 

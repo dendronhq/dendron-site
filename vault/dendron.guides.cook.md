@@ -2,14 +2,36 @@
 id: 401c5889-20ae-4b3a-8468-269def4b4865
 title: Cook
 desc: ''
-updated: 1608653591686
+updated: 1609552748216
 created: 1595952505024
 nav_order: 8.9
 toc: true
 ---
 # Cookbook
 
-## Table of Contents
+## General
+
+### Manual Install
+
+To manually install a custom version of Dendron, first obtain the Dendron vsix file (most likely, Kevin will send you a dropbox link 😅). Afterwards, you can install it by the extended options in the extensions pane. 
+
+![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/trouble.install.gif)
+
+### Checking Logs
+
+You can diagnose most problems by checking the logs. You can view the logs using the [[Open Logs Command|dendron.topic.commands#dendrondev-open-logs]]
+
+#### Server Logs
+
+Dendron has two sets of logs - client and server. The client logs you can access using the `Open Logs Command`. You can access the server logs by following the tutorial [here](https://www.loom.com/share/3d04cb1d6f904ac099d73e083e62ee2f
+). 
+
+#### Logs from previous session
+
+Dendron has logs for the current session and the previous session.
+
+You can get logs of the previous session by following instructions [here](https://www.loom.com/share/2ca740e8e09b4aaf927d8098e2e6dec0)
+
 
 ## Bucket
 

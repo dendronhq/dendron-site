@@ -2,7 +2,7 @@
 id: 64f0e2d5-2c83-43df-9144-40f2c68935aa
 title: Setup
 desc: ''
-updated: 1608485662625
+updated: 1609550313648
 created: 1598651458825
 stub: false
 ---
@@ -76,3 +76,6 @@ In case something something goes wrong with a build step or you want to save tim
 
 ## Debugging
 - see [[Debugging|dendron.dev.debug]]
+
+## Style
+- see [[Style|dendron.dev.style]]
