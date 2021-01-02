@@ -2,7 +2,7 @@
 id: 8b03ed06-4f46-46e0-8652-c6abf2266a79
 title: Dendron-cli
 desc: ''
-updated: 1609438053052
+updated: 1609605767632
 created: 1599709645355
 stub: false
 ---
@@ -50,7 +50,7 @@ Options:
   --wsRoot      location of workspace                                 [required]
   --enginePort  If set, connecto to running engine. If not set, create new
                 instance of Dendron Engine
-  --actions     what actions the doctor should take
+  --     what actions the doctor should take
                             [array] [choices: "h1ToTitle", "h1ToH2"]
   --query       run doctor over a query                                 [string]
   --limit       limit num changes                                       [number]
@@ -65,7 +65,7 @@ Options:
 
 - convert all `h1` tags to frontmatter `title` values for the `readings` hiearchy
 ```bash
-dendron-cli doctor --wsRoot . --actions h1ToTitle --limit 10 --query "readings.*" 
+dendron-cli doctor --wsRoot . --action h1ToTitle --limit 10 --query "readings.*" 
 ```
 
 ### launchEngineServer
