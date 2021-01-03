@@ -2,7 +2,7 @@
 id: 87d90002-f480-45eb-a8c4-d00df4d61557
 title: Dendron-plugin
 desc: ''
-updated: 1609714490055
+updated: 1609716107985
 created: 1605375348464
 ---
 
@@ -22,7 +22,7 @@ created: 1605375348464
     - you can copy the contents of an existing command (eg. `src/commands/ShowHelp.ts`) to help you get started
 4. Write tests
     - tests are in `plugin-core/src/test/suite-integ/{COMMAND}`
-    - testing instructions are [[heree|dendron.dev.testing]]
+    - testing instructions are [[here|dendron.dev.testing]]
 5. Write command logic
 1. If it makes sense, add a keyboard shortcut for the command. Make sure it doesn't conflict with an generic VSCode command or existing Dendron commands. You can detect existing keybindings by using the guide [here](https://code.visualstudio.com/docs/getstarted/keybindings#_detecting-keybinding-conflicts)
 6. Add command to `src/commands/index.ts`
