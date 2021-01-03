@@ -2,10 +2,14 @@
 id: 87d90002-f480-45eb-a8c4-d00df4d61557
 title: Dendron-plugin
 desc: ''
-updated: 1609550117054
+updated: 1609714490055
 created: 1605375348464
 ---
 
+# Dendron Plugin
+
+## Activation
+- check if we have an active dendron workspace
 
 # Cook
 

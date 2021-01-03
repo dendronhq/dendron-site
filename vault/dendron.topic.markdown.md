@@ -2,7 +2,7 @@
 id: ba97866b-889f-4ac6-86e7-bb2d97f6e376
 title: Markdown
 desc: ''
-updated: 1609036710883
+updated: 1609605890636
 created: 1598673110284
 ---
 
@@ -162,54 +162,9 @@ require 'redcarpet'
 markdown = Redcarpet.new("Hello World!")
 puts markdown.to_html
 ```
-
-#### Code block class (MPE extended feature)
-
-You can set `class` for your code blocks.
-
-For example, to add `class1 class2` to a code block
-
-    ```javascript {.class1 .class}
-    function add(x, y) {
-      return x + y
-    }
-    ```
-
-##### line-numbers
-
-You can enable line number for a code block by adding `line-numbers` class.
-
-For example:
-
-````markdown
-```javascript {.line-numbers}
-function add(x, y) {
-  return x + y;
-}
-```
-````
-
-![screen shot 2017-07-14 at 1 20 27 am](https://user-images.githubusercontent.com/1908863/28200587-a8582b0a-6832-11e7-83a7-6c3bb011322f.png)
-
-##### highlighting rows
-
-You can highlight rows by add `highlight` attribute:
-
-````markdown
-```javascript {highlight=10}
-```
-
-```javascript {highlight=10-20}
-```
-
-```javascript {highlight=[1-10,15,20-22]}
-```
-````
-
 ### Task lists
 
 ```markdown
-- [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported
 - [x] list syntax required (any unordered or ordered list supported)
 - [x] this is a complete item
 - [ ] this is an incomplete item
@@ -231,6 +186,18 @@ You can create a table from existing content using `> Markdown Shortcuts: Add Ta
 
 ![](https://raw.githubusercontent.com/mdickin/vscode-markdown-shortcuts/master/media/demo/table_with_header.gif)
 
+### Abbreviation
+
+
+The HTML specification
+
+```markdown
+_[HTML]: Hyper Text Markup Language
+_[W3C]: World Wide Web Consortium
+The HTML specification
+is maintained by the W3C.
+```
+<!-- 
 ## Extended syntax
 
 ### Table
@@ -269,18 +236,6 @@ Content [^1]
 [^1]: Hi! This is a footnote
 ```
 
-### Abbreviation
-
-
-The HTML specification
-
-```markdown
-_[HTML]: Hyper Text Markup Language
-_[W3C]: World Wide Web Consortium
-The HTML specification
-is maintained by the W3C.
-```
-
 ### Mark
 
 ```markdown
@@ -300,6 +255,7 @@ There are five types of Critic marks:
 - Highlight `{== ==}{>> <<}`
 
 > CriticMarkup only works with the markdown-it parser, but not the pandoc parser.
+-->
 
 ## VSCode Specific Commands
 

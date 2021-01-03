@@ -2,7 +2,7 @@
 id: 8b03ed06-4f46-46e0-8652-c6abf2266a79
 title: Dendron-cli
 desc: ''
-updated: 1609605767632
+updated: 1609695109532
 created: 1599709645355
 stub: false
 ---
@@ -36,7 +36,7 @@ Options:
 
 ## Engine Commands
 
-### doctor
+### doctor 🚧
 
 Use doctor to perform specific fixes over your notes. 
 - NOTE: the functionality here is different from what is available in the plugin version of [[Doctor|dendron.topic.commands#doctor]]. 
@@ -61,11 +61,16 @@ Options:
 - h1ToTitle: remove initial `h1` header and use it to replace contents of `title` field in frontmatter
 - h1ToH2: convert all initial `h1` header to `h2` header
 
-#### example 
+#### examples
 
 - convert all `h1` tags to frontmatter `title` values for the `readings` hiearchy
 ```bash
 dendron-cli doctor --wsRoot . --action h1ToTitle --limit 10 --query "readings.*" 
+```
+
+- see log
+```bash
+LOG_LEVEL=info LOG_DST=stdout dendron-cli doctor --wsRoot . --action h1ToTitle --limit 10 
 ```
 
 ### launchEngineServer

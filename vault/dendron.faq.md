@@ -2,7 +2,7 @@
 id: 683740e3-70ce-4a47-a1f4-1f140e80b558
 title: FAQ
 desc: ''
-updated: 1608530425706
+updated: 1609703586427
 created: 1595952505025
 stub: false
 nav_order: 6
@@ -209,3 +209,7 @@ Our custom markdown preview gives us much more functionality then the vscode one
 
 In addition, the markdown preview that Dendron uses is platform agnostic (eg. it's also available on atom). This means that other editors could potentially adopt it as well.
 
+
+### VSCode Snippets are not working in Frontmatter
+
+The default snippets are scoped to markdown. You can create [global snippets](https://code.visualstudio.com/docs/editor/userdefinedsnippets#_create-your-own-snippets) file to have snippets that work across all languages.
