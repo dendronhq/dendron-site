@@ -2,11 +2,50 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1609184287353
+updated: 1609784854122
 created: 1601508213606
 stub: false
 ---
 # Changelog
+
+## 0.22.2
+
+### Enhancements
+
+- better fuzzy search for lookup
+- publishing v2 enhancements
+  - abbreviation support for 11ty publishing ([[docs|dendron.topic.markdown#abbreviation]])
+  - better note titles ([[docs|dendron.ref.titles]])
+  - shrink size of published page 10x
+  - fix left nav position of current active page
+  - ability to override output folder from CLI when building site
+  - don't throw error on code blocks that are unsupported by prismjs
+
+### Bug Fixes
+- markdown preview delay in showing newly created notes
+- `buildSiteV2` not connect to running workspace
+
+## 0.22.1
+
+### Features
+- [[Collections|dendron.topic.publishingv2.collections]] support for 11ty
+    - publish blog like archives using Dendron
+- CLI Based Doctor ([[docs|dendron.pro.dendron-cli#doctor]])
+    - run various tests to make your notes are healthy for the new year
+- use frontmatter as title when publishing and in the preview ([[docs|dendron.topic.config#usefmtitle]])
+
+### Enhancements
+- additional metadata tags for published pages
+- support `noindex` option ([[docs|dendron.topic.publishingv2.configuration#noindex]])
+- add anchor links to headers
+- use note title for page title
+- support [[nav_exclude|dendron.topic.publishingv2.configuration#nav_exclude]] option
+- support overriding [[output|dendron.pro.dendron-cli#buildsitev2]] in `buildSiteV2` command
+- don't throw error if no syntax highlighter available for code block
+
+### Bug Fixes
+- issue connecting to open workspace using CLI
+- nav bar when publishing multiple hierarchies will show wrong expansion options
 
 ## 0.21.2
 
