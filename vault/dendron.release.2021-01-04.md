@@ -2,13 +2,16 @@
 id: e81d2800-83c0-4ba6-8f00-34c3557da43d
 title: 'Release Notes (0.23)'
 desc: ''
-updated: 1609786376007
+updated: 1609787113058
 created: 1609786176221
 ---
 
 # Release Notes (version 0.23)
 
 Dendron 0.23.0 has sprouted :seedling:
+
+See the upgrade instructions [[here|dendron.guides.upgrading#dendron-cli-and-dendron-11ty]]
+
 
 ### Highlights
 
