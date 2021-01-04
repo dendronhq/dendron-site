@@ -2,7 +2,7 @@
 id: 301e4129-6933-4be7-a4bd-8125171360d8
 title: Bundled Extensions
 desc: ''
-updated: 1607392607266
+updated: 1609795837739
 created: 1596643515473
 stub: false
 ---
@@ -14,10 +14,6 @@ Since Dendron runs on top of VSCode, it means that you also have access to thous
 
 - [Dendron Markdown Links](https://marketplace.visualstudio.com/items?itemName=dendron.dendron-markdown-links)
     - Graph View 
-- [Dendron Markdown Notes](https://marketplace.visualstudio.com/items?itemName=dendron.dendron-markdown-notes)
-    - wiki links
-    - tags
-    - backlinks
 - [Dendron Markdown Shortcuts](https://marketplace.visualstudio.com/items?itemName=dendron.dendron-markdown-shortcuts)
     - Quickly toggle bullet points
     - Easily generate URLs
