@@ -2,7 +2,7 @@
 id: 21c1288a-6fb8-42f5-90c0-9b3cc7d872ad
 title: Upgrading
 desc: ''
-updated: 1609787119031
+updated: 1609787243336
 created: 1595010631247
 stub: false
 nav_order: 1.2
@@ -17,8 +17,6 @@ VSCode auto updates outdated extensions periodically but if you want to trigger 
 </a>
 
 To check what version of dendron you're on, you can open the lookup bar and look for the version number in the title. 
-
-![](assets/2020-07-17-11-40-55.png)
 
 ## Bundled Extensions
 

@@ -2,7 +2,7 @@
 id: e81d2800-83c0-4ba6-8f00-34c3557da43d
 title: 'Release Notes (0.23)'
 desc: ''
-updated: 1609787113058
+updated: 1609787304398
 created: 1609786176221
 ---
 
@@ -51,6 +51,14 @@ Last and most of all, a big **thanks** to the following gardeners that brought u
         - [Ctrl + hover creates a note, it should only create one on Ctrl + Click #430](https://github.com/dendronhq/dendron/issues/430)
     - [Luke Carrier](https://github.com/LukeCarrier) @lukecarrier#2081
         - tireless work battling windows CI issues
+
+### Version Numbers
+
+Version numbers for this week's release
+
+- plugin: 0.23.0
+- 11ty: v1.23.0
+- preview: 0.10.17
 
 ### Changelog
 
