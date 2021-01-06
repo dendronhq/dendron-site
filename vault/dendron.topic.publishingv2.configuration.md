@@ -2,7 +2,7 @@
 id: f2ed8639-a604-4a9d-b76c-41e205fb8713
 title: Configuration
 desc: ''
-updated: 1609563690771
+updated: 1609883828421
 created: 1608528797892
 nav_order: 3
 ---
@@ -73,7 +73,7 @@ Path to favicon. Relative to workspace.
 ### siteHierarchies (required)
 - default: [root]
 
-List of hierarchies to publish
+List of hierarchies to publish. `root` is a special value that means `publish all`.
 
 ### siteIndex (optional)
 - default: first element of `siteHiearchies`
