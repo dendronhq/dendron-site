@@ -32,6 +32,12 @@
             "type": "shell",
             "command": "./scripts/gen-cheatsheet.sh",
             "problemMatcher": []
-        }
+        },
+        {
+            "label": "update:deps",
+            "type": "shell",
+            "command": "./scripts/update-deps.sh",
+            "problemMatcher": []
+        },
     ]
 }
