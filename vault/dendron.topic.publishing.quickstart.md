@@ -24,7 +24,7 @@ NOTE: it's possible to publish Dendron on any platform that can host static site
 1. Depending on what notes you want to publish, you will want to update your `dendron.yml` file. By default, everything will be published
 1. Update the contents of `_config.yml` inside your `docs` folder to specify site wide configuration like logo and title.
     - NOTE: this is located relative to `dendron.rootDir`
-    - if you do not have a `docs` folder, you can run `Dev:Dendron: Doctor` to create one
+    - if you do not have a `docs` folder, you can run `Dendron: Doctor` to create one
 2. When you are ready to publish, run the `> Dendron: Build Pod` command to prepare your site for publication. This builds your notes into the `siteRootDir` directory which defaults to `docs`. `Build Pod` does the following when it builds your site:
     - copies over the notes specified in `dendron.yml`
     - creates a copy of your notes with the ids in place of the file names 
