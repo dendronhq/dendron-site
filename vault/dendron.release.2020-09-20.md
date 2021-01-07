@@ -1,9 +1,10 @@
 ---
 id: 8e59e25f-808c-42f1-a82a-e9ce4fd8edd8
-title: 2020-09-20 Release Notes (version 0.12)
+title: Release Notes(version 0.12)
 desc: ''
-updated: 1604887253561
+updated: 1609990694687
 created: 1596374871110
+date: 2020-09-20
 ---
 Dendron 0.12 is here 🌱
 

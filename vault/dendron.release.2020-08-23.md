@@ -1,10 +1,10 @@
 ---
 id: 075e9806-0367-40a2-8154-2e84d5a1110
-title: 2020-08-23 Release Notes (version 0.8)
+title: Release Notes(version 0.8)
 desc: ''
-updated: 1596374871110
+updated: 1609990753899
 created: 1596374871110
-stub: false
+date: 2020-08-23
 ---
 Schemas and pods were the focus of this week's efforts. 
 

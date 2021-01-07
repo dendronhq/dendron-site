@@ -1,10 +1,10 @@
 ---
 id: e32aa1e2-9780-4183-927e-2f46372050aa
-title: 2020-08-02 Release Notes (version 0.5)
+title: Release Notes(version 0.5)
 desc: ''
-updated: 1596374984386
+updated: 1609990774348
 created: 1596374984386
-stub: false
+date: 2020-08-02
 ---
 With the coming of August, 2020 is officially on the wane. I think many of us are ready for a fresh start. In the meantime, you can prepare for better times by playing with new Dendron features. Happy gardening! 🌱
 

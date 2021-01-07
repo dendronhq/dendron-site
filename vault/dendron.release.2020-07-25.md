@@ -1,10 +1,10 @@
 ---
 id: 6aed338c-df05-420d-aa7b-59dfd2214349
-title: 2020-07-25 Release Notes (version 0.4)
+title: Release Notes(version 0.4)
 desc: ''
-updated: 1595984607502
+updated: 1609990780194
 created: 1595984607502
-stub: false
+date: 2020-07-25
 ---
 Its been an active week of Dendron development. These weekly release notes are to keep you up to date on some of the things we're working on.
 

@@ -1,8 +1,8 @@
 ---
 id: 2e9cebfa-a93b-43b9-8065-9259d969f269
-title: 2020-11-01 Release Notes (version 0.14)
+title: Release Notes(version 0.14)
 desc: ''
-updated: 1604248886710
+updated: 1609990585327
 created: 1603080088933
 published: false
 nav_exclude: true

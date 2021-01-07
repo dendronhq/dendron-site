@@ -1,10 +1,10 @@
 ---
 id: 08b2e6ea-bd3e-4f4b-b2b9-676a7b743a65
-title: 2020-09-06 Release Notes (version 0.10)
+title: Release Notes(version 0.10)
 desc: ''
-updated: 1596374871110
+updated: 1609990740754
 created: 1596374871110
-stub: false
+date: 2020-09-06
 ---
 Dendron turns 0.10 today 🌲. To mark this milestone, the pre-amble for this release will be a tad longer (and more sentimental) than usual. 
 

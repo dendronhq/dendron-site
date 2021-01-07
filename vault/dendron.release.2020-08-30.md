@@ -1,10 +1,10 @@
 ---
 id: 1a79e2a1-c906-4ed4-a528-15bd34c4e649
-title: 2020-08-30 Release Notes (version 0.9)
+title: Release Notes(version 0.9)
 desc: ''
-updated: 1596374871110
+updated: 1609990746697
 created: 1596374871110
-stub: false
+date: 2020-08-30
 ---
 This week's focus was on improving the initial Dendron startup experience as well as the overall usability. To that end, we introduced our own tree view, overhauled the getting started experience and created a cheatsheet of all commands (with GIFs of course). 
 

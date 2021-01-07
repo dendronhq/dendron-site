@@ -1,10 +1,10 @@
 ---
 id: 50071eda-fc46-4aca-ba6c-9d53db00d068
-title: 2020-09-13 Release Notes (version 0.11)
+title: Release Notes(version 0.11)
 desc: ''
-updated: 1604887528304
+updated: 1609990735210
 created: 1596374871110
-stub: false
+date: 2020-09-13
 ---
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/comic.1.png)
 

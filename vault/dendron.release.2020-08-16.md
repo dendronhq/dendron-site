@@ -1,10 +1,10 @@
 ---
 id: 075e9806-0367-40a2-8154-2e84d5a020e5
-title: 2020-08-16 Release Notes (version 0.7)
+title: Release Notes(version 0.7)
 desc: ''
-updated: 1596374871110
+updated: 1609990760541
 created: 1596374871110
-stub: false
+date: 2020-08-16
 ---
 This is one of our biggest releases yet! Support for r**efactoring hierarchies** and **note references** (think Roam's block references) are the highlight of this week's work. Enjoy responsibly 🌱
 
