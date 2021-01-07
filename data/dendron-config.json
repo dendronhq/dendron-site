@@ -433,6 +433,16 @@
             "docLink": "",
             "docPreview": "",
             "skipDocs": false
+        },
+        {
+            "key": "dendron.sitePreview",
+            "title": "Dendron: Site Preview",
+            "group": "publishing",
+            "desc": "preview your notes",
+            "docs": "",
+            "docLink": "",
+            "docPreview": "",
+            "skipDocs": false
         }
     ],
     "dev": [
