@@ -1,10 +1,8 @@
 ---
 id: e86ac3ab-dbe1-47a1-bcd7-9df0d0490b40
 title: QuickStart
-desc: ''
-updated: 1595170096361
+updated: 1609992432166
 created: 1595170096361
-stub: false
 nav_order: 1
 ---
 This guide will help get you started with Dendron. 

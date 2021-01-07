@@ -2,7 +2,7 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1610060993103
+updated: 1610062137701
 created: 1601508213606
 stub: false
 ---
@@ -93,7 +93,7 @@ stub: false
 
 #### Publishing For Multi Vault
 
-((ref:[[dendron.topic.multi-vault]]#publishing,1:#*))
+![[dendron.topic.multi-vault#publishing:#*]]
 
 ### Enhancements
 
@@ -451,7 +451,7 @@ Note that the header is expected in [github slug](https://github.com/gosimple/sl
 
 Similarly to copying a note ref, if you select any part of a header while running `Copy Note Link`, a relative wiki-link will be automatically generated.
 
-((ref:[[dendron.topic.commands]]#copy note link:#*))
+((ref: [[dendron.topic.commands]]# copy note link:# *))
 
 #### All link features are now multi-vault aware
 

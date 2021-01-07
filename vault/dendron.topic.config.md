@@ -2,7 +2,7 @@
 id: eea2b078-1acc-4071-a14e-18299fc28f48
 title: Config
 desc: ''
-updated: 1609992231656
+updated: 1609992508331
 created: 1595261816971
 ---
 ## Dendron.yml
@@ -20,6 +20,8 @@ Managed by Dendron. A record of your current workspaces.
 If set to `true`, use the `title` field in the frontmatter to set the h1 title when publishing and in the preview
 
 - NOTE: if you change the title, you'll need to refresh the preview to see the update
+
+![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/config.fmTitle.jpg)
 
 ## VSCode
 

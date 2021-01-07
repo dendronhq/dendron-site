@@ -2,7 +2,7 @@
 id: 50071eda-fc46-4aca-ba6c-9d53db00d068
 title: Release Notes(version 0.11)
 desc: ''
-updated: 1609990735210
+updated: 1610062114528
 created: 1596374871110
 date: 2020-09-13
 ---
@@ -16,7 +16,7 @@ This week's release comes with improved references as well as better tooling aro
 
 **Dendron's pretty refs** help you identify when content is embedded from elsewhere and provide links back to the source. 
 
-((ref:[[dendron.topic.refs]]#references,1:#*)) 
+((ref: [[dendron.topic.refs]]# references,1:# *)) 
 
 The **Dendron CLI** lets you access a subset of Dendron's functionality inside the terminal, including the ability to import/export your notes. 
 
