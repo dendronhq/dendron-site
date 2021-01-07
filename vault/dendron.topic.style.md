@@ -6,9 +6,6 @@ updated: 1606065859430
 created: 1606065789770
 nav_exclude: true
 ---
-
-# Style
-
 ## Colors
 
 - `#69B160` - **"dendron green"** - eyedropper-picked from logo
@@ -16,3 +13,4 @@ nav_exclude: true
 ## Logo
 
 ![logo](./assets/images/logo.png)
+

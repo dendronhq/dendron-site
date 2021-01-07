@@ -1,15 +1,12 @@
 ---
 id: 23a1b942-99af-45c8-8116-4f4bb7dccd21
-title: Cli
+title: 'TODO: turn into alias'
 desc: ''
 updated: 1608485512283
 created: 1600033791071
 stub: false
 nav_exclude: true
 ---
-
-# TODO: turn into alias
-
 # CLI
 
 Dendron has a cli that you can install separate from the Dendron plugin. You can use it to run a subset of features that you can find inside Dendron. 
@@ -35,3 +32,4 @@ Options:
   --version  Show version number                                       [boolean]
   --help     Show help                                                 [boolean]
 ```
+

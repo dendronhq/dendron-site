@@ -6,9 +6,6 @@ updated: 1599751228313
 created: 1599751228313
 stub: false
 ---
-
-# Collab
-
 Because knowledge is like kit kat - it's better shared. 
 
 ## Git/Github
@@ -16,10 +13,12 @@ Because knowledge is like kit kat - it's better shared.
 Git and github, while traditionally used for collaborating on code, works out great for notes as well. 
 
 ### Git
+
 - use `git blame` to see line level authorship of all your notes
 - use the git feature branch workflow to have multiple people working on separate parts of the knowledge base at the same time
 
 ### Github
+
 - use pull requests to contribute and collection contributions for your notes
 - use the wiki to have meta discussions about notes
 - use issues to request changes
@@ -28,3 +27,4 @@ Git and github, while traditionally used for collaborating on code, works out gr
 ## Live Share
 
 VSCode provides a live share extension that let you do google doc style like collab. You can the extension and read the docs about it [here](https://visualstudio.microsoft.com/services/live-share/).
+

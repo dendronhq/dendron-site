@@ -6,8 +6,6 @@ updated: 1599501757503
 created: 1599501757503
 stub: false
 ---
-# Community building
-
 ## Goals
 
 Grow the Dendron community while keeping the intimate and cozy atmosphere we have today
@@ -17,3 +15,4 @@ Grow the Dendron community while keeping the intimate and cozy atmosphere we hav
 ## Tasks
 
 ## Release Notes
+

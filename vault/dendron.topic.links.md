@@ -6,8 +6,6 @@ updated: 1608527947805
 created: 1595003088839
 stub: false
 ---
-# Links
-
 Dendron supports multiple types of links and formats. 
 
 - `[markdown links](./dendron.md)`
@@ -17,11 +15,13 @@ Dendron supports multiple types of links and formats.
 - links to `[local files](assets/think.pdf)` (eg. pdfs, psds, etc)
 
 ## Wiki Links
+
 Wiki links support **autocomplete**. To initiate:
+
 - create wikilink brackets and start typing
 - link to specific sections of notes using the `[[wiki link#header]]` syntax. 
-    - NOTE: relative links will not go to the anchor if clicked on the preview, in that case, it becomes a normal link to the file
-    - NOTE2: don't work when exported through a pod 
+  - NOTE: relative links will not go to the anchor if clicked on the preview, in that case, it becomes a normal link to the file
+  - NOTE2: don't work when exported through a pod 
 - use the vscode [intellisense shortcut](https://code.visualstudio.com/docs/editor/intellisense#_key-bindings) to trigger the autocomplete
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/links-autocomplete.gif)
@@ -33,6 +33,8 @@ Dendron has a backlink panel which shows all notes with links to the current not
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/links.backlink.jpg)
 
 ## Other Links
+
 For links to a file format Dendron does not support, you can use the highlight the link and use `> Dendron: Open Link` to open the file using your operating system default for that file. This also applies to opening paths to folders.
 
 <a href="https://www.loom.com/share/01250485e20a4cdca2a053dd6047ac68"><img src="https://cdn.loom.com/sessions/thumbnails/01250485e20a4cdca2a053dd6047ac68-with-play.gif"> </a>
+

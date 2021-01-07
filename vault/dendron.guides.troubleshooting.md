@@ -5,9 +5,7 @@ desc: ''
 updated: 1609606578560
 created: 1595952505025
 ---
-# Troubleshooting
-
-## Diagnosing 
+## Diagnosing
 
 You can get a better idea of what went wrong by checking out the [[logs|dendron.guides.cook#checking-logs]]. At that point, you should be able to narrow down the root cause to one of the issues below. If not, please bring it up on the [discord](https://discord.gg/AE3NRw9) or file a [bug report](https://github.com/dendronhq/dendron/issues/new?assignees=&labels=&template=bug_report.md&title=)
 
@@ -84,7 +82,6 @@ They both have identical icons and its currently not possible to disable the bui
 Meanwhile, you can open Dendron's markdown preview by clicking the preview button on the left of the menu bar or by using the `> Markdown Preview Enhanced: Open Preview to the Side` command
 
 ![Markdown preview](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/trouble-md.png)
-
 
 ## Linux
 

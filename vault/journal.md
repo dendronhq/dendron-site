@@ -6,7 +6,5 @@ updated: 1596301069349
 created: 1596301069349
 stub: false
 ---
-
-# Journal
-
 The narrative of the days
+

@@ -6,22 +6,20 @@ updated: 1600573427628
 created: 1600573427628
 stub: false
 ---
-
-# Frontmatter
-
 Dendron notes have [[frontmatter|dendron.topic.frontmatter]]. Dendron Jekyll uses this frontmatter to configure various aspects about the appearance and publication status of a particular page. 
 
-
 ## Appearance
+
 ### title: string
 
 Title of the content. Control's how the title shows up in the nav bar
 
-### sources: source[]
+### sources: source\[]
 
 Automatically create attributions for a page
 
 - eg: [AWS Page](https://aws.dendron.so/notes/dynamodb.html#)
+
 ```yml
 ...
 sources:
@@ -45,4 +43,5 @@ By default, everything under `siteHierarchies` is published unless `publishByDef
 
 You can also set this to `false` to selectively withhold specific pages from publication. 
 
-((ref: [[dendron.topic.publishing.configuration]]#config:#*))
+((ref:[[dendron.topic.publishing.configuration]]#config:#*))
+

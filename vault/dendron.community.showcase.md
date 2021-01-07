@@ -5,58 +5,65 @@ desc: ''
 updated: 1604598187318
 created: 1600010740851
 ---
-
-# Showcase
-
 Below are examples of published Dendron vaults
 
 ## Official
+
 ### Dendron homepage
-- homepage: https://dendron.so
-![](/assets/images/2020-09-13-09-05-45.png)
+
+- homepage: <https://dendron.so>
+  ![](/assets/images/2020-09-13-09-05-45.png)
 
 ### Open PKM Catalogue
-- homepage: https://pkm.dendron.so
+
+- homepage: <https://pkm.dendron.so>
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/showcase.pkm.jpg)
 
 ### Open AWS Catalogue
-- homepage: https://aws.dendron.so
+
+- homepage: <https://aws.dendron.so>
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/showcase.aws.jpg)
 
 ## Members
 
 ### Kevin's page
-- homepage: https://kevinslin.com/
+
+- homepage: <https://kevinslin.com/>
 - discord: `@kevins8#0590`
-![](/assets/images/2020-09-13-08-45-00.png)
+  ![](/assets/images/2020-09-13-08-45-00.png)
 
 ### Ed's Page
-- homepage: https://ens100.github.io/
+
+- homepage: <https://ens100.github.io/>
 - discord: `@edns100#4851`
 
 ![](/assets/images/2020-09-13-09-04-36.png)
 
 ### Jack's page
-- homepage: https://jackqaq-byte.github.io/my-second-brain/
+
+- homepage: <https://jackqaq-byte.github.io/my-second-brain/>
 - discord: `@I'm a lightbulb#6986`
 
 ![](/assets/images/2020-09-13-09-01-48.png)
 
 ### Luke's second brain
-- homepage: https://luke.carrier.im/
+
+- homepage: <https://luke.carrier.im/>
 - discord: `@lukecarrier#2081`
 
 ![](/assets/images/2020-09-27-20-50-54.png)
 
 ### Ian's digital garden
-- homepage: https://garden.ianjones.us/
+
+- homepage: <https://garden.ianjones.us/>
 - discord: `@ianjones#3696`
 
 ![](/assets/images/2020-12-06-09-43-31.png)
 
 ### Kevin's digital garden (another one)
+
 - homepage: garden.kevincunningham.co.uk
 - discord: `@dolearning (Kevin)#3551`
 

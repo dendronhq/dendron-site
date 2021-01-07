@@ -6,7 +6,5 @@ updated: 1596206520799
 created: 1596206520799
 stub: false
 ---
-
-# Personal Knowledge Management
-
 A collection of notes related to personal knowledge management (pkm). 
+

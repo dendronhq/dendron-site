@@ -5,11 +5,7 @@ desc: ''
 updated: 1595120707814
 created: 1595120707814
 stub: false
-custom: {}
 ---
-
-#  Graph View
-
 Dendron provides support for graph view using a fork of the [markdown-links](https://marketplace.visualstudio.com/items?itemName=tchayen.markdown-links) extension. 
 
 The Dendron graph view is generated using our hierarchical index. It also shows different relationships than most of the graph views you're probably used to.
@@ -43,3 +39,4 @@ Reload all graphs. Use this when you update a schema or add/remove files from wi
 - NOTE: This command acts over all **open** graph panels. If you have closed a panel, you must re-open it for Dendron to reload it
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/graphs.reload.gif)
+

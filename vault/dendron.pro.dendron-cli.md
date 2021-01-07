@@ -1,17 +1,15 @@
 ---
 id: 8b03ed06-4f46-46e0-8652-c6abf2266a79
-title: Dendron-cli
+title: "Dendron CLI \U0001F6A7"
 desc: ''
 updated: 1609784186517
 created: 1599709645355
 stub: false
 ---
-
-# Dendron CLI 🚧
-
 The Dendron CLI exposes Dendron's functionality via the command line. 
 
 ## Installation
+
 ```
 npm install -g @dendronhq/dendron-cli
 ```
@@ -21,6 +19,7 @@ npm install -g @dendronhq/dendron-cli
 ### doctor 🚧
 
 Use doctor to perform specific fixes over your notes. 
+
 - NOTE: the functionality here is different from what is available in the plugin version of [[Doctor|dendron.topic.commands#doctor]]. 
 
 ```bash
@@ -40,17 +39,20 @@ Options:
 ```
 
 #### available actions
+
 - h1ToTitle: remove initial `h1` header and use it to replace contents of `title` field in frontmatter
 - h1ToH2: convert all initial `h1` header to `h2` header
 
 #### examples
 
 - convert all `h1` tags to frontmatter `title` values for the `readings` hiearchy
+
 ```bash
 dendron-cli doctor --wsRoot . --action h1ToTitle --limit 10 --query "readings.*" 
 ```
 
 - see log
+
 ```bash
 LOG_LEVEL=info LOG_DST=stdout dendron-cli doctor --wsRoot . --action h1ToTitle --limit 10 
 ```
@@ -88,6 +90,7 @@ Options:
 ```
 
 - eg
+
 ```
 dendron-cli buildSite --wsRoot . --vault ./vault 
 ```
@@ -115,6 +118,7 @@ Options:
 ```
 
 - eg:
+
 ```
 dendron-cli publishNotes  --wsRoot . --vault ./vault 
 ```
@@ -149,15 +153,18 @@ In that case, the CLI can connect to the current engine instead of starting a ne
 cd {root/of/workspace}
 # .dendron.port has the port of the current running workspace
 npx dendron-cli buildSiteV2 --wsRoot . --stage dev --serve --enginePort `cat .dendron.port`
-``` 
+```
 
 ## Pod Commands
+
 - NOTE: you can find pod ids in the [[pods|dendron.topic.pod]] page. Just add a `.import|.export` to the end of the id (eg. `dendron.pod.json.import`)
 
 ### Export Pod
+
 - export a pod
 
 - eg: Export notes to JSONPod
+
 ```
 dendron-cli exportPod --podId dendron.json --wsRoot . --vault "vault" 
 ```
@@ -165,6 +172,7 @@ dendron-cli exportPod --podId dendron.json --wsRoot . --vault "vault"
 ### Import Pod
 
 - eg: Import notes from FilePod
+
 ```
 dendron-cli importPod --podId dendron.markdown --vault "/Users/kevinlin/Dendron-es/vault" --podsDir /Users/kevinlin/Dendron-es/pods
 ```
@@ -172,6 +180,8 @@ dendron-cli importPod --podId dendron.markdown --vault "/Users/kevinlin/Dendron-
 ### Publish Pod
 
 - eg: Publish a note as regular markdown
+
 ```bash
 dendron-cli publishPod --wsRoot . --vault ./vault --podId dendron.markdown --noteByName dendron
 ```
+

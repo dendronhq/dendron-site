@@ -5,9 +5,6 @@ desc: ''
 updated: 1603383860949
 created: 1603383580067
 ---
-
-# Preview
-
 The preview pane renders the Dendron's markdown text into nicely formatted HTML. The preview is a fork of the [markdown-preview-enhanced extension](https://github.com/shd101wyy/vscode-markdown-preview-enhanced). 
 
 All documentation pertaining to the original extension can be found [here](https://shd101wyy.github.io/markdown-preview-enhanced/#/). This page will highlight some key features as well as Dendron specific additions. 
@@ -23,3 +20,4 @@ You can toggle a table of contents from the preview pane using a button toggle.
 
 - Preview does not persist between reloads/restarts
   - Workaround: [Always show preview of md being edited](./dendron.guides.tips.md#always-show-preview-of-md-being-edited)
+

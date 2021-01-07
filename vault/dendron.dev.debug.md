@@ -6,10 +6,8 @@ updated: 1607366232319
 created: 1598653859135
 stub: false
 ---
-
-# Debugging
-
 ## Plugin
+
 - run extension
   - launch the `Run Extnesion` build task (copied below for reference)
 
@@ -40,6 +38,7 @@ Note that we currently have trouble setting breakpoints inside non-plugin code. 
 ### Verbose Logs
 
 - set in `dendorn.workspace.config`
+
 ```json
 "dendron.logLevel": "debug",
 ```
@@ -51,3 +50,4 @@ Normally, Dendron will launch an express server at a random port. To debug the s
 1. Launch the server using the build task `api-server:test launch server`
 2. Update the workspace settings of Dendron to use a running server through the following workspace setting `dendron.serverPort": 3005`
 3. Reload the workspace for the settings to take affect
+

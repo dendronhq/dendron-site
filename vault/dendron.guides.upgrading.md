@@ -7,9 +7,6 @@ created: 1595010631247
 stub: false
 nav_order: 1.2
 ---
-
-# Upgrading
-
 VSCode auto updates outdated extensions periodically but if you want to trigger it manually, you can click the extensions tab and look for dendron. If there's an update available, it will be done at this point.
 
 <a href="https://www.loom.com/share/796a10cab7204733877e7f708b6aaaca">
@@ -22,8 +19,7 @@ To check what version of dendron you're on, you can open the lookup bar and look
 
 Upgrading a recommended extension goes through the same process as upgrading dendron. It should happen automatically but you can manually trigger it by looking for the extension by name in the extension tab. 
 
-You can find the list of all bundled extensions [[here |dendron.topic.extensions]].
-
+You can find the list of all bundled extensions [[here|dendron.topic.extensions]].
 
 ## Dendron CLI and Dendron 11ty
 
@@ -33,3 +29,4 @@ To upgrade the CLI and 11ty, you need to manually run the following commands in 
 npm install @dendronhq/dendron-cli@latest
 npm install --save @dendronhq/dendron-11ty@latest
 ```
+

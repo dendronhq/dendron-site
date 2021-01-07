@@ -6,9 +6,6 @@ updated: 1595004457029
 created: 1595004457029
 stub: false
 ---
-
-# Special Notes
-
 Dendron has builtin support for a variety of special note formats. These notes can be created using regular lookup - these commands provide convenient shortcuts for frequently used notes. 
 
 ## Daily Journal
@@ -37,18 +34,18 @@ A scratch note is a self contained note that is meant to be used as scratchpad. 
 <a href="https://www.loom.com/share/2fd3042119124df8bb4592d8ffe6d708"> 
 <img style="" src="https://cdn.loom.com/sessions/thumbnails/2fd3042119124df8bb4592d8ffe6d708-with-play.gif"> </a>
 
-
 ## Configuration
 
 All special notes support the following configuration options 
-- NodeType has the value of `Journal` or `Scratch`
 
+- NodeType has the value of `Journal` or `Scratch`
 
 ### default{NodeType}Name
 
 Determines the node name.
 
 Defaults: 
+
 - Journal: `journal`
 - Scratch: `scratch`
 
@@ -57,6 +54,7 @@ Defaults:
 Determines the date format.
 
 Defaults: 
+
 - Journal: `Y-MM-DD`
 - Scratch: `Y-MM-DD-HHmmss`
 
@@ -72,28 +70,30 @@ schema:
 ```
 
 Possible values:
-- childOfDomain
-    - note is added as child of the [domain](https://dendron.so/notes/c6fd6bc4-7f75-4cbb-8f34-f7b99bfe2d50.html#domain) of the current hierarchy
-    - eg:
-        - current open note: `pro.dendron.demo.md`
-        - path of new journal note: `pro.journal.2020-08-03.md`
-- childOfDomainNamespace
-    - note is added as child of the namespace of the current domain if it has a namespace. otherwise behaves the same as `childOfDomain`
-    - eg: 
-        - current open note: `pro.dendron.demo.md` 
-        - path of new journal note:  `pro.dendron.journal.2020-08-03.md`
-- childOfCurrent
-    - note is added as a child of the current open note
-        - current open note: `pro.dendron.demo.md` 
-        - path of new journal note:  `pro.dendron.demo.journal.2020-08-03.md`
-- asOwnDomain
-    -  note is created under the domain specified by the `dendron.default{NodeType}Name` config value
-    - eg:
-        - current open note: `pro.dendron.demo.md` 
-        - config: `dendron.defaultJournalNoteName: "journal"`
-        - path of new journal note:  `journal.2020-08-03.md`
 
+- childOfDomain
+  - note is added as child of the [domain](https://dendron.so/notes/c6fd6bc4-7f75-4cbb-8f34-f7b99bfe2d50.html#domain) of the current hierarchy
+  - eg:
+    - current open note: `pro.dendron.demo.md`
+    - path of new journal note: `pro.journal.2020-08-03.md`
+- childOfDomainNamespace
+  - note is added as child of the namespace of the current domain if it has a namespace. otherwise behaves the same as `childOfDomain`
+  - eg: 
+    - current open note: `pro.dendron.demo.md` 
+    - path of new journal note:  `pro.dendron.journal.2020-08-03.md`
+- childOfCurrent
+  - note is added as a child of the current open note
+    - current open note: `pro.dendron.demo.md` 
+    - path of new journal note:  `pro.dendron.demo.journal.2020-08-03.md`
+- asOwnDomain
+  - note is created under the domain specified by the `dendron.default{NodeType}Name` config value
+  - eg:
+    - current open note: `pro.dendron.demo.md` 
+    - config: `dendron.defaultJournalNoteName: "journal"`
+    - path of new journal note:  `journal.2020-08-03.md`
 
 Defaults:
+
 - Journal: `childOfDomain`
 - Scratch: `asOwnDomain`
+

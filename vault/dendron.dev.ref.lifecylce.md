@@ -1,20 +1,18 @@
 ---
 id: 5e164216-c464-4a6f-ae85-a6f5cbc787e7
-title: Lifecylce
+title: Extension
 desc: ''
 updated: 1608754259470
 created: 1604341985772
 ---
-
-
-# Extension
 - not_initialized
-    - tried starting workspace but something went wrong
+  - tried starting workspace but something went wrong
 - initialized
-    - reloadWorkspace complete
-    - **upgraded**
-    - upgrade workspace complete
+  - reloadWorkspace complete
+  - **upgraded**
+  - upgrade workspace complete
 - upgraded (optional)
-    - extension has upgraded
+  - extension has upgraded
 - activate
-    - finish showWelcome
+  - finish showWelcome
+

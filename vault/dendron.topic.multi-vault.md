@@ -1,16 +1,14 @@
 ---
 id: 24b176f1-685d-44e1-a1b0-1704b1a92ca0
-title: Multi-vault
+title: Multi Vault
 desc: ''
 updated: 1608585213034
 created: 1605630383515
 ---
-
-# Multi Vault
-
 Multi vault lets you create multiple vaults for a given workspace. Each vault is a folder that can contain any number of hierarchies. 
 
 ## Use Cases
+
 - for **sensitive notes**, multi-vault enables local only vaults vs vaults that can are synced on file sharing services like dropbox 
 - for **modularizing knowledge**, multi-vault enables users to mix and match existing vaults depending on context
 - for **federating and curating knowledge**, multi-vault enables users to publish/subscribe to public vaults using protocols like `git`
@@ -18,16 +16,15 @@ Multi vault lets you create multiple vaults for a given workspace. Each vault is
 
 ## Quickstart
 
-
-Documentation for lookup is still being written. For *up to date* docs, see the [[multi vault project page|dendron.roadmap.project.n.2020.multi-vault]].
+Documentation for lookup is still being written. For _up to date_ docs, see the [[multi vault project page|dendron.roadmap.project.n.2020.multi-vault]].
 
 ## Topics
 
 ### Commands
 
-((ref: [[dendron.topic.commands]]#vault add:#*))
+((ref:[[dendron.topic.commands]]#vault add:#*))
 
-((ref: [[dendron.topic.commands]]#vault remove:#*))
+((ref:[[dendron.topic.commands]]#vault remove:#*))
 
 ### Lookup
 
@@ -41,6 +38,7 @@ With this set, you can pick the vault for new notes.  To enable,  add `lookupCon
 
 1. > Dendron: Configure (yaml)
 2. add `lookupConfirmVaultOnCreate: true` so your configuration looks like the following:
+
 ```yml
 version: 0
 ...
@@ -56,3 +54,4 @@ We have added a new configuration, `duplicateNoteBehavior`, which [[controls|den
 ### Note References
 
 [[Note references|dendron.topic.refs]] are vault specific. When you make a reference, Dendron will include the note from the same note. 
+

@@ -2,12 +2,10 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1609784854122
+updated: 1610060993103
 created: 1601508213606
 stub: false
 ---
-# Changelog
-
 ## 0.22.2
 
 ### Enhancements
@@ -22,19 +20,22 @@ stub: false
   - don't throw error on code blocks that are unsupported by prismjs
 
 ### Bug Fixes
+
 - markdown preview delay in showing newly created notes
 - `buildSiteV2` not connect to running workspace
 
 ## 0.22.1
 
 ### Features
+
 - [[Collections|dendron.topic.publishingv2.collections]] support for 11ty
-    - publish blog like archives using Dendron
+  - publish blog like archives using Dendron
 - CLI Based Doctor ([[docs|dendron.pro.dendron-cli#doctor]])
-    - run various tests to make your notes are healthy for the new year
+  - run various tests to make your notes are healthy for the new year
 - use frontmatter as title when publishing and in the preview ([[docs|dendron.topic.config#usefmtitle]])
 
 ### Enhancements
+
 - additional metadata tags for published pages
 - support `noindex` option ([[docs|dendron.topic.publishingv2.configuration#noindex]])
 - add anchor links to headers
@@ -44,12 +45,14 @@ stub: false
 - don't throw error if no syntax highlighter available for code block
 
 ### Bug Fixes
+
 - issue connecting to open workspace using CLI
 - nav bar when publishing multiple hierarchies will show wrong expansion options
 
 ## 0.21.2
 
 ### Enhancements
+
 - build-site command can connect to current running workspace ([[docs|dendron.pro.dendron-cli#connect-to-open-workspace]])
 - support inline math when publishing
 - support block math when publishing 
@@ -58,24 +61,29 @@ stub: false
 - support relative links when publishing
 
 ### Bug Fixes
+
 - issue with displaying math in preview
 
 ### House Cleaning
+
 - the code highlighter has been changed from `prismjs` to `highligher.js`
 
 ## 0.21.1
 
 ### Enhancements
+
 - add seo tags ([[docs|dendron.topic.publishingv2.configuration#seo-options]])
 - enable edit on github link ([[docs|dendron.topic.publishingv2.configuration#github-options]])
 - migrate all jekyll `_config.yml` settings to `dendron.yml`
 
 ### Bug Fixes
+
 - build-site errors when building from vaults without `asset folder`
 - build-site error on certain operating systems
 - build-site error on node version != 12
 
 ### Docs
+
 - [dendron.so](https://dendron.so) is now published using the new 11ty framework
 - add [[publishing to github guide|dendron.topic.publishingv2.github]] using github actions
 
@@ -85,9 +93,10 @@ stub: false
 
 #### Publishing For Multi Vault
 
-((ref: [[dendron.topic.multi-vault]]#publishing,1:#*))
+((ref:[[dendron.topic.multi-vault]]#publishing,1:#*))
 
 ### Enhancements
+
 - creating engine via cli also initializes meta files ([d72f097](https://github.com/dendronhq/dendron/commit/d72f097e63d1fda065ac7ad50f85bebe99d6da66))([[docs|dendron.pro.dendron-cli#launchengineserver]])
 - remove github light theme from dendron bundle ([33d5708](https://github.com/dendronhq/dendron/commit/33d57086510cdaefbb8af8f72c945d6f5e02be5c))
 - support [[note refs for multi-vault|dendron.topic.multi-vault#note-references]] 
@@ -95,14 +104,14 @@ stub: false
 - further speed enhancements to publishing using 11ty resulting in another 5x improvement  
 - configure [[writeStubs|dendron.topic.publishingv2.configuration#writestubs-optional]] from `dendron.yml`
 
-
 ### Bug Fixes
+
 - refactor hierarchy miss self referential links ([00b385d](https://github.com/dendronhq/dendron/commit/00b385dd0d13e5809da012bbc88388886012b837))
 - reduce frequency of `engine not connecting` error when launching dendron preview
 
 ### House Cleaning
-- [[writeStubs|dendron.topic.publishingv2.configuration#writestubs-optional]] is set to `true` by default (or when not set) when publishing using 11ty
 
+- [[writeStubs|dendron.topic.publishingv2.configuration#writestubs-optional]] is set to `true` by default (or when not set) when publishing using 11ty
 
 ## 0.20.1
 
@@ -132,7 +141,6 @@ npx dendron-cli buildSiteV2 --wsRoot .  --stage dev --serve
 
 This will both compile your site locally and make it available at `localhost:8080` for instant preview. When building your site locally, the pages will be build to `{wsRoot}/build/site`. 
 
-
 When you are ready to publish to github, make sure to change the stage to `prod`.
 
 ```bash
@@ -153,6 +161,7 @@ There are additional optimizations still on the table that will further drive do
 #### Gaps
 
 11ty publishing is currently not at full feature parity with Jekyll publishing. Notably, the following features are missing:
+
 - setting a custom color theme
 - `edit on github` links
 - `jekyll-seo` functionality
@@ -163,12 +172,15 @@ There are additional optimizations still on the table that will further drive do
 All values that used to be written into `_config.yml` will now be moved into `dendron.yml`. You can see the currently supported configuration values here: `https://github.com/dendronhq/dendron/blob/master/packages/common-all/src/types.ts#L71:L71`
 
 If you currently have a Jekyll based Dendron page, note that the following settings have changed:
+
 - the `url` property from `_config.yml` is now `siteUrl` in `dendron.yml`
 - favicon is now controlled by `siteFaviconPath` in `dendron.yml` and is a path relative to your workspace root
 - `CNAME` is now controlled by `githubCname` property in `dendron.yml`
 
 #### Sample dendron.yml config
+
 - publishing without a cname
+
 ```yml
 version: 1
 vaults:
@@ -183,6 +195,7 @@ site:
 ```
 
 - using custom cname
+
 ```yml
 version: 1
 vaults:
@@ -198,6 +211,7 @@ site:
 ```
 
 #### Sample repo
+
 - [github repo](https://github.com/kevinslin/dendron-11ty-test/deployments/activity_log?environment=github-pages)
 - [github page](https://kevinslin.github.io/dendron-11ty-test/)
 
@@ -217,12 +231,12 @@ Options:
   --stage    serve over local http server
 ```
 
-
 <!-- https://hacks.mozilla.org/2020/10/to-eleventy-and-beyond/ -->
 
 ## 0.19.3
 
 ### Bug Fixes
+
 - be able to name remote vaults ([6da3973](https://github.com/dendronhq/dendron/commit/6da39730f735f4700479f002f57d2a7802398ff5))
 - doctor command shouldn't create stubs ([e812f34](https://github.com/dendronhq/dendron/commit/e812f34246d88b007fb45ca03443a74ac27a5e62))
 - help command not working ([02fc08a](https://github.com/dendronhq/dendron/commit/02fc08a907e196b39c23db36b82565c15588673f))
@@ -235,9 +249,9 @@ Options:
 
 #### Dendron Seed Bank
 
-((ref: [[dendron.topic.seed-bank]]#seed bank,1))
+((ref:[[dendron.topic.seed-bank]]))
 
-#### Support refactor for multi-vault 
+#### Support refactor for multi-vault
 
 One of our most requested features for multi-vault is now out. Refactor will now work across multiple vaults. All rename operations take place in the same vault as the file being renamed (so a refactor operation that affects files in multiple vaults will end up renaming files within each vault). You can see an example of this below:
 
@@ -250,6 +264,7 @@ One of our most requested features for multi-vault is now out. Refactor will now
 ```
 
 - after refactoring `bond -> james`
+
 ```
 .
 ├── vault1
@@ -260,16 +275,16 @@ One of our most requested features for multi-vault is now out. Refactor will now
 
 #### Support Specifying Vault Location when Creating a Note
 
-((ref: [[dendron.topic.multi-vault]]#specify vault location when creating a note,1:#*))
+((ref:[[dendron.topic.multi-vault]]#specify vault location when creating a note,1:#*))
 
 ### Enhancements
+
 - add aws to the seed bank ([818bc05](https://github.com/dendronhq/dendron/commit/818bc0510e3b3b99057ef7cda8d9c61be2b6ebc6))
 - nicer refactor formatting ([0e7749a](https://github.com/dendronhq/dendron/commit/0e7749a175a0ce80903cde5c9773649779100a9c))
 - add remote vault to gitignore if exist ([1c252db](https://github.com/dendronhq/dendron/commit/1c252db60c0ea69be8dd10c1768c2dd302711e13))
 - initialize all remote vaults on startup ([1919fe4](https://github.com/dendronhq/dendron/commit/1919fe4e6d853d1f6ef63564ebbcc9af1e11a41a))
 - write remote url to dendron config ([2a285ea](https://github.com/dendronhq/dendron/commit/2a285eacaeef8224d2a3530dc991b4977443c039))
 - add github sponsor badge on github repository to recruit more [[environmentalists|dendron.community.roles#environmentalist]] 👨‍🌾 👩‍🌾
-
 
 ### Bug Fixes
 
@@ -278,21 +293,27 @@ One of our most requested features for multi-vault is now out. Refactor will now
 ## 0.19.1
 
 ### Bug Fixes
+
 - image preview regex match wrong range 
 
 ## 0.18.2
 
 ### Features
+
 - support image hover ([8fee313](https://github.com/dendronhq/dendron/commit/8fee313785dfc4ac2564f74911a4b51879be0673))
 
-    - you can now hover over markdown image links and get the image preview
-<div style="position: relative; padding-bottom: 62.5%; height: 0;"><iframe src="https://www.loom.com/embed/82119bc9ee184e3ca8e619c3d7e48209" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+  ```
+  - you can now hover over markdown image links and get the image preview
+  ```
 
+  <div style="position: relative; padding-bottom: 62.5%; height: 0;"><iframe src="https://www.loom.com/embed/82119bc9ee184e3ca8e619c3d7e48209" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 ### Enhancements
+
 - faster completion ([d9d4598](https://github.com/dendronhq/dendron/commit/d9d4598c1996fdb5eb24e4bda0e51e777b476f6e))
 
 ### Bug Fixes
+
 - doctor errors when backfilling frontmatter ([862e917](https://github.com/dendronhq/dendron/commit/862e9173e92a2e5d964273bb87c19e79177a6200))
 - properly parsing links that start at beginning of line ([b2dbdfc](https://github.com/dendronhq/dendron/commit/b2dbdfc9e49aa1fa74d5097500eeaddf05bf7ccc))
 - limit completion prompts to inside wiki links ([f49972e](https://github.com/dendronhq/dendron/commit/f49972ee436f9f637bd68729e702ba2169e68faf))
@@ -305,10 +326,11 @@ One of our most requested features for multi-vault is now out. Refactor will now
 
 ### Features
 
-#### Support adding remote vaults 
+#### Support adding remote vaults
+
 - commit: ([d7501b9](https://github.com/dendronhq/dendron/commit/d7501b9a5cb116faae64d26798cfd7ccfc73a4b0))
 
-You can now natively add published Dendron git repos as a *remote vault* inside Dendron. These vaults are stored in a custom `repos` folder underneath your `workspaceRoot`. Since a remote vault is just a git repo, you are able to perform all the usual git operations on it like `push`, `pull`, `merge`, and `blame`. 
+You can now natively add published Dendron git repos as a _remote vault_ inside Dendron. These vaults are stored in a custom `repos` folder underneath your `workspaceRoot`. Since a remote vault is just a git repo, you are able to perform all the usual git operations on it like `push`, `pull`, `merge`, and `blame`. 
 
 <div style="position: relative; padding-bottom: 62.5%; height: 0;"><iframe src="https://www.loom.com/embed/ef3fa948460c4f2cb4f7a7b8242579d1" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
@@ -325,6 +347,7 @@ You can now natively add published Dendron git repos as a *remote vault* inside 
 - multiple commands not working properly for multi-vault([fd5a381](https://github.com/dendronhq/dendron/commit/fd5a381674384588850b07b193fc0bf609abc0fd))
 
 ### House Cleaning
+
 - breaking: the [[go to sibling|dendron.topic.commands#go-next-sibling]] commands have a new keyboard shortcut since the old one was conflicting with the vscode default. the new shortcuts are `ctrl+shift+]` and `ctrl+shift+[`
 
 ## 0.17.2
@@ -345,27 +368,30 @@ Note that the Web UI is still deemed experimental and functionality like keyboar
 
 Special thanks to [Tyler Nieman](https://github.com/tsnieman) for the UI work!
 
-((ref: [[dendron.topic.commands]]#configure,1:#*))
-
+((ref:[[dendron.topic.commands]]#configure,1:#*))
 
 ### Enhancements
+
 - update config commands ([44dce76](https://github.com/dendronhq/dendron/commit/44dce76b6fd447cd29a2f4f594632ef758eff927))
 - enable rename with multi-vault ([e26b294](https://github.com/dendronhq/dendron/commit/e26b294e8bbe1e49e44318152c247595e82639bb))
 - tree view and backlinks panel no longer appear when Dendron is not active (thank you [Christopher Corley](https://github.com/cscorley))
 
 ### Bug Fixes
+
 - rename would fail if backlink existed at root note
 - numerous fixes to refactor hierarchy
 
-
 ### House Cleaning
+
 - the `Dendron: Configure` command will now launch the config editor with the web ui
 - the old `Dendron: Configure` command as been renamed to `Dendron: Configure (yaml)`
 
 ## 0.17.1
 
 ### Features
+
 #### Automatic Hover's for Links
+
 - add hover provider ([8d19a1b](https://github.com/dendronhq/dendron/commit/8d19a1b47f114ae738f7483fd751b62f68b46d24))
 
 You can now preview notes and references inside the editor as a hover without ever opening the link. Previews are compatible with note references and will show references as inlined markdown.
@@ -373,20 +399,21 @@ You can now preview notes and references inside the editor as a hover without ev
 <div style="position: relative; padding-bottom: 62.5%; height: 0;"><iframe src="https://www.loom.com/embed/aee387226d5c4bb0a4e38cee76a1aa3e" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 ### Bug Fixes
+
 - **workbench:** copy header cmd will sometimes chop of last character ([34c2530](https://github.com/dendronhq/dendron/commit/34c253036cf959ef00620db9063c8de36ae9c848))
 - **markdown:** relative links sometimes don't resolve ([c1ffa54](https://github.com/dendronhq/dendron/commit/c1ffa54ab780bec98cb5b322b4d0905cc26acce7))
 
 ### Work in Progress
+
 - continued multi-vault compatibility for existing features
 - integrating [Dendron's first Web UI component](https://github.com/dendronhq/dendron/pull/351) 
 - backend changes to enable new [[multi vault layout|dendron.roadmap.project.n.2020.multi-vault#initialization]]
 - heaps of performance and stability improvements
 
-
-
 ## 0.16.3
 
 ### Enhancements
+
 - **language**: better completion on partial links  ([e7489b3](https://github.com/dendronhq/dendron/commit/e7489b324fb8b5b1a0cb3daf4bd33978073bd90a))
 - **workbench**: remove color theme and minimap presets ([6b6bd8d](https://github.com/dendronhq/dendron/commit/6b6bd8d1b866bfe881b8ed7c341e5f2191bfa741))
 - **publishing**: support relative links in publishing ([d7d612d](https://github.com/dendronhq/dendron/commit/d7d612d00bf0fedfc5e7dc9beda1e00927be83a9))
@@ -394,6 +421,7 @@ You can now preview notes and references inside the editor as a hover without ev
 - **workbench:** auto upgrade deprecated workspace settings
 
 ### Bug Fixes
+
 - **language**: re-enable preview functionality when peeking at a definition ([afe71c4](https://github.com/dendronhq/dendron/commit/afe71c41daff3acc935cb5bed7b51d20ef8e6267))
 - **language**: creating a note by going to its definition now respects schema templates
 - **workbench**: initialize dendron in the absence of a workspace file ([c1aabb4](https://github.com/dendronhq/dendron/commit/c1aabb4a6b2084990269ea169c1a90d800b430c3))
@@ -423,7 +451,7 @@ Note that the header is expected in [github slug](https://github.com/gosimple/sl
 
 Similarly to copying a note ref, if you select any part of a header while running `Copy Note Link`, a relative wiki-link will be automatically generated.
 
-((ref: [[dendron.topic.commands]]#copy note link:#*))
+((ref:[[dendron.topic.commands]]#copy note link:#*))
 
 #### All link features are now multi-vault aware
 
@@ -438,41 +466,48 @@ When the same note exists in multiple vaults, Dendron will show you a prompt to 
 You can now auto complete notes that have aliases. This was a common issue for folks that were using [[pretty tags|dendron.topic.tags]]
 
 ### Bug Fixes
+
 - Issue with creating notes with same name in a new vault
 
 ### House Cleaning
+
 - remove dependency on markdown-notes
 
 ## 0.16.1
 
 ### Bug Fixes
+
 - new dendron installation missing welcome note
 
 ## 0.15.3
 
 ### Features
+
 #### Better Lookup Performance 🚀 🚀 🚀
 
 We've made a whole bunch of optimizations to make lookup hum. You should notice everything about it feel a little faster now
 
 Changelog:
+
 - **lookup:** multiple lookup optimizations([f14eed8](https://github.com/dendronhq/dendron/commit/f14eed8da822eb75f130edb7364a1f9f0c2fe354))
 - **lookup:** intelligently debounce queries ([2f0ac56](https://github.com/dendronhq/dendron/commit/2f0ac56bd6f64d0b99fcb82d6effa9f062d18fc2))
 
 ### Enhancements
+
 - update getting started ([af5dde9](https://github.com/dendronhq/dendron/commit/af5dde91d153ce46089c8688caec0e583eddb939))
-    - instead of 100+ notes, new vaults will be initialized with a single quickstart note (with links to the 100+ notes)
+  - instead of 100+ notes, new vaults will be initialized with a single quickstart note (with links to the 100+ notes)
 
 - better logging ([2d7fd78](https://github.com/dendronhq/dendron/commit/2d7fd780d3c548a362dcf01a2620409b1bcdff3e))
-    - let logs talk for you the next time you submit [an issue](https://github.com/dendronhq/dendron/issues/new?assignees=&labels=&template=bug_report.md&title) (no 🌲 harmed in this process) 
+  - let logs talk for you the next time you submit [an issue](https://github.com/dendronhq/dendron/issues/new?assignees=&labels=&template=bug_report.md&title) (no 🌲 harmed in this process) 
 
 - nicer error messages ([e1e87a1](https://github.com/dendronhq/dendron/commit/e1e87a16186b1e8b8aae6f77fe8a2c5c865c4071))
-    - we'll let you know if you need to submit an issue instead of giving you the silent treatment
+  - we'll let you know if you need to submit an issue instead of giving you the silent treatment
 
 - keep old log files ([3f1362c](https://github.com/dendronhq/dendron/commit/3f1362c224ff7dae5de721dd2f2c8cba22db4d84))
-    - dendron currently wipes all logs on startup. this change makes it keep around the last log for debugging purposes
+  - dendron currently wipes all logs on startup. this change makes it keep around the last log for debugging purposes
 
 ### Bug Fixes
+
 - creating scratch notes can sometimes fail ([c31c611](https://github.com/dendronhq/dendron/commit/c31c611d975b8eeee4f63abec742edf88dac66ac))
 - sync issues btw server and client nodes that would cause certain commands to fail  ([a446aba](https://github.com/dendronhq/dendron/commit/a446aba9d931d7732553e1ecb43302208d6f798a))
 
@@ -488,9 +523,10 @@ Each vault is logically separate (they reside in separate directories) but can b
 
 Multi vault enables a bunch of exciting use cases.
 
-((ref: [[dendron.roadmap.project.n.2020.multi-vault]]#use cases,1:#*))
+((ref:[[dendron.roadmap.project.n.2020.multi-vault]]#use cases,1:#*))
 
 Currently, the following commands are supported with multi-vault:
+
 - Lookup 
 - Deleting a Note
 - Navigating to a note using Tree View 
@@ -500,6 +536,7 @@ Other commands like rename/refactor will still work when performed in your prima
 When you use **Lookup** to create a new note with multi vault, the note will be created inside the same vault as the current opened note. **Lookup** will also show you the vault that each note belongs to while performing lookup.
 
 Currently known issues (with supported commands):
+
 - unable to create a note using Lookup that has the same name as an existing note inside **any** of your vaults 
 - unable to navigating to the root of a vault using Tree View
 
@@ -516,12 +553,15 @@ Remove a vault from your workspace. Note that the underlying files wil **not** b
 <div style="position: relative; padding-bottom: 62.5%; height: 0;"><iframe src="https://www.loom.com/embed/307effc22b8d4c59a32933529a8393e1" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 ### Enhancements
+
 ### Bug Fixes
+
 - **engine:** init with empty config won't throw error ([7beb90f](https://github.com/dendronhq/dendron/commit/7beb90fa243bc73563a3ce16b5305345f7348d9f))
 - **engine:** don't delete old note if new note wasn't created by rename ([de44f9f](https://github.com/dendronhq/dendron/commit/de44f9f4d38651d75433ae885fdc78bb762fb1f6))
 - **notes:** fix issue when importing note that already exists ([a08a34a](https://github.com/dendronhq/dendron/commit/a08a34a0563bb4047bd9c7cfc5f2bf150873fdc8))
 
 ### House Cleaning
+
 - vault metadata will be added to `dendron.yml`
 - `dendron.yml` comments will be stripped on workspace initialization
 
@@ -530,21 +570,23 @@ Remove a vault from your workspace. Note that the underlying files wil **not** b
 ### Features
 
 #### Wildcard Note Ref Links
+
 - **refs:** wildcard note ref links ([98a1177](https://github.com/dendronhq/dendron/commit/98a117715a967492ab9d7b8749d964b07bde4055))
 
-((ref: [[dendron.topic.refs]]#wildcard note refs,1))
+((ref:[[dendron.topic.refs]]#wildcard note refs,1))
 
 #### Dendron: Configure Command
+
 - **workbench:** add configure command ([db51dc3](https://github.com/dendronhq/dendron/commit/db51dc35864d0c4434f70620ef0e88451c198fa4))
 
 This is a quick way to update the `dendron.yml` file. You can run it by using `Dendron: Configure`
 
-
-
 ### Bug Fixes
+
 - **notes:** fix issue when importing note that already exists ([a08a34a](https://github.com/dendronhq/dendron/commit/a08a34a0563bb4047bd9c7cfc5f2bf150873fdc8))
 
 ### House Cleaning
+
 - add `.dendron.ws` file under workspace to store workspace specific metadata
 
 ## 0.14.2
@@ -552,36 +594,39 @@ This is a quick way to update the `dendron.yml` file. You can run it by using `D
 ### Features
 
 ### Enhancements
+
 - **pods:** better markdown import pod  (d1eaa264)
-    - address multiple edge cases that would cause import pod to fail
-    - auto-convert wiki-links from folder-based systems like obsidian into dendron
+  - address multiple edge cases that would cause import pod to fail
+  - auto-convert wiki-links from folder-based systems like obsidian into dendron
 - **cli:** launch engine server using cli ([25eae3f](https://github.com/dendronhq/dendron/commit/25eae3fddd6a2d26dcf9e2f3e664b377c2cca978))
 
-((ref: [[dendron.pro.dendron-cli]]#launchengineserver:#*))
+((ref:[[dendron.pro.dendron-cli]]#launchengineserver:#*))
 
 - **workspace:** write server port in workspace ([6a0ff84](https://github.com/dendronhq/dendron/commit/6a0ff845ebbf010073b271123779fc3f56ac2821))
-    - used by bundled extensions to talk to dendron server
+  - used by bundled extensions to talk to dendron server
 - **engine:** add sync method ([ec58d39](https://github.com/dendronhq/dendron/commit/ec58d395003640384b7764f4f8b483429cc1ece3))
-    - used by bundled extensions to talk to dendron server
+  - used by bundled extensions to talk to dendron server
 
 ### Bug Fixes
+
 - **engine:** properly handle \* in refs when refactoring ([704a14f](https://github.com/dendronhq/dendron/commit/704a14f17196e18cb5b26f5fc98ed9f8d492e16a))
 - **workbench:** fix daily journal note command signature ([5ec96ef](https://github.com/dendronhq/dendron/commit/5ec96efd9a006e5e5999f2704dfb3d1e97e60a5c))
-
 
 ## [0.14.1](https://github.com/dendronhq/dendron/compare/v0.14.1-alpha.7...v0.14.1) (2020-11-05)
 
 ### Features
 
 #### Lookup Copy WikiLink Modifier
+
 - **lookup:** copy note link cmd ([e38743d](https://github.com/dendronhq/dendron/commit/e38743ddbac8486f2ac778bd546a6373a15a4f6d))
 
-((ref: [[dendron.topic.lookup.modifiers]]#copywikilink,1:#*))
+((ref:[[dendron.topic.lookup.modifiers]]#copywikilink,1:#*))
 
 #### Lookup Multi-Select Modifier
+
 - **lookup:** support multi-select ([b409c05](https://github.com/dendronhq/dendron/commit/b409c05d3b19797de714dbf10b6a4249758eae8a))
 
-((ref: [[dendron.topic.lookup.modifiers]]#multiselect,1:#*))
+((ref:[[dendron.topic.lookup.modifiers]]#multiselect,1:#*))
 
 ### House Cleaning
 
@@ -590,6 +635,7 @@ This is a quick way to update the `dendron.yml` file. You can run it by using `D
 With the server migration behind us, we took some time to make Dendron more hygenic by removing old code and consolidating existing code. All in all, we eliminated ~8k lines. If you are currently working on a branch, I suggest you merge with master to get the latest changes 😅 
 
 - before cleanup
+
 ```
 -------------------------------------------------------------------------------
 Language                     files          blank        comment           code
@@ -609,6 +655,7 @@ SUM:                           425           8005           3209         112265
 ```
 
 - after cleanup
+
 ```
 -------------------------------------------------------------------------------
 Language                     files          blank        comment           code
@@ -635,13 +682,13 @@ SUM:                           381           7349           1930         104777
 
 - **workbench:** ([130a58a](https://github.com/dendronhq/dendron/commit/130a58a62cc40eb4178afac554f8f4ff30c93055))
 
-((ref: [[dendron.topic.commands]]#contribute:#*))
+((ref:[[dendron.topic.commands]]#contribute:#*))
 
 #### Add Snapshot Capability to Dendron
 
 - **workbench:**  ([3af64b7](https://github.com/dendronhq/dendron/commit/3af64b701d47ed28818d7e6017c758f63be617f0))
 
-((ref: [[dendron.topic.capabilities.snapshot]]#Snapshots:#*))
+((ref:[[dendron.topic.capabilities.snapshot]]#Snapshots:#*))
 
 ## [0.13.5](https://github.com/dendronhq/dendron/compare/v0.13.4...v0.13.5) (2020-10-28)
 
@@ -702,19 +749,19 @@ As a reminder, dendrologist are active members of the community who are recogniz
 
 - **lookup:** support direct child filter ([1cae082](https://github.com/dendronhq/dendron/commit/1cae08294baa844c0c0ee3c8d390e337bd6172be))
 
-((ref: [[dendron.topic.lookup]]#filter toggle,1:#*))
+((ref:[[dendron.topic.lookup]]#filter toggle,1:#*))
 
 - you can create a keyboard shortcut to do a lookup with the direct child filter pre-selected
-  ((ref: [[dendron.topic.lookup.modifiers]]#filtertype:#*))
+  ((ref:[[dendron.topic.lookup.modifiers]]#filtertype:#*))
 
 ### Enhancements
 
 - **publish:** be able to set config for all hierarchies ([a27d94a](https://github.com/dendronhq/dendron/commit/a27d94a3c469a4efaf2ee8c2bca40a8a471773f2))
-  ((ref: [[dendron.topic.publishing.configuration]]#config:#*))
+  ((ref:[[dendron.topic.publishing.configuration]]#config:#*))
 
 - **schema:** add custom props from schema template ([5264544](https://github.com/dendronhq/dendron/commit/52645449b8e155e168baaac0fa4e99903efafcf0))
 
-((ref: [[dendron.topic.schema]]#schema templates,1:#*))
+((ref:[[dendron.topic.schema]]#schema templates,1:#*))
 
 - **workbench:** reload index re-create root if not exist ([c66e242](https://github.com/dendronhq/dendron/commit/c66e242bac91c73404a5dd21ed3813c0dc2f022b))
   - dendron requires `root.md` and `root.schema.yml` to start indexing and would previously throw an error if these files were deleted
@@ -743,7 +790,7 @@ Previously, if you wanted to use an existing folder (aka vault) with a workspace
 
 In addition to **import** and **export**, you can now also **publish** notes with pods.
 
-((ref: [[dendron.topic.pod]]#publish,1:#*))
+((ref:[[dendron.topic.pod]]#publish,1:#*))
 
 #### Realtime Schema Validation
 
@@ -770,7 +817,7 @@ You will now get a warning if you are trying to save a badly formatted schema.
 
 Documentation for pods has been re-written to reflect recent changes with pods
 
-((ref: [[dendron.topic.pod]]#pods:#*))
+((ref:[[dendron.topic.pod]]#pods:#*))
 
 ## [0.13.1](https://github.com/dendronhq/dendron/compare/v0.13.1-alpha.2...v0.13.1) (2020-10-21)
 
@@ -780,7 +827,7 @@ Documentation for pods has been re-written to reflect recent changes with pods
 
 - **publishing:** generate toc when publishing ([53ee270](https://github.com/dendronhq/dendron/commit/53ee270c89f530b9224f33a28dc811de7e5cb2ad))
 
-((ref: [[dendron.topic.publishing.configuration]]#toc:#*))
+((ref:[[dendron.topic.publishing.configuration]]#toc:#*))
 
 - **publishing:** set frontmatter overrides globally when publishing ([782d637](https://github.com/dendronhq/dendron/commit/782d6374c55b00bcda36da9149fb2cedeac0c3d9))
 
@@ -804,7 +851,7 @@ Documentation for pods has been re-written to reflect recent changes with pods
 
 #### Recursive Note References
 
-((ref: [[dendron.topic.refs]]#recursive reference,1))
+((ref:[[dendron.topic.refs]]#recursive reference,1))
 
 ### Bug Fixes
 
@@ -861,7 +908,7 @@ Timestamps now have human friendly decorators on the side.
 
 ### Documentation
 
-((ref: [[dendron.guides.troubleshooting]]#error upgrading:#*))
+((ref:[[dendron.guides.troubleshooting]]#error upgrading:#*))
 
 ## [0.12.8](https://github.com/dendronhq/dendron/compare/v0.12.8-alpha.2...v0.12.8) (2020-10-14)
 
@@ -891,11 +938,11 @@ Today's update makes **updated** update!
 
 ### Other
 
-((ref: [[dendron.topic.extensions]]#useful extensions))
+((ref:[[dendron.topic.extensions]]#useful extensions))
 
-((ref: [[dendron.guides.tips]]#copy and paste web content into dendron:#*))
+((ref:[[dendron.guides.tips]]#copy and paste web content into dendron:#*))
 
-((ref: [[dendron.guides.cook]]#mobile support:#*))
+((ref:[[dendron.guides.cook]]#mobile support:#*))
 
 ## [0.12.7](https://github.com/dendronhq/dendron/compare/v0.12.7-alpha.10...v0.12.7) (2020-10-13)
 
@@ -958,7 +1005,7 @@ You can switch back to regular indexing at anytime by changing the above setting
 
 These past two weeks have been spent on server migration work. We are almost at the end and I'm aiming to have full coverage of all existing functionality by early next week.
 
-((ref: [[dendron.roadmap.project.n.2020.server-migration]]#tasks,1:#*))
+((ref:[[dendron.roadmap.project.n.2020.server-migration]]#tasks,1:#*))
 
 ### Other
 
@@ -973,15 +1020,15 @@ These past two weeks have been spent on server migration work. We are almost at 
 
 Dendron now initializes your workspace with common default snippets
 
-((ref: [[dendron.topic.snippets]]#default snippets,1:#*))
+((ref:[[dendron.topic.snippets]]#default snippets,1:#*))
 
 #### Latex Support on Published Site
 
-((ref: [[dendron.pro.dendron-jekyll.topic.math]]#math,1:#*))
+((ref:[[dendron.pro.dendron-jekyll.topic.math]]#math,1:#*))
 
 #### Introduce siteRepoDir Customization
 
-((ref: [[dendron.topic.publishing.configuration]]#siterepodir,1:#*))
+((ref:[[dendron.topic.publishing.configuration]]#siterepodir,1:#*))
 
 ### Bug Fixes
 
@@ -998,7 +1045,7 @@ This section tracks our progress against the milestones in our [[public roadmap|
   - below is a summary of our progress. we are currently about half way done
   - aiming to have a workable version using the Dendron server by next week
   ```
-  ((ref: [[dendron.roadmap.project.n.2020.server-migration]]#tasks,1:#*))
+  ((ref:[[dendron.roadmap.project.n.2020.server-migration]]#tasks,1:#*))
 
 ### Other
 
@@ -1013,8 +1060,8 @@ Current Seeds:
 - open AWS catalogue
 ```
 
-((ref: [[dendron.community.showcase]]#open pkm catalogue,1:#*))
-((ref: [[dendron.community.showcase]]#open aws catalogue,1:#*))
+((ref:[[dendron.community.showcase]]#open pkm catalogue,1:#*))
+((ref:[[dendron.community.showcase]]#open aws catalogue,1:#*))
 
 #### Alternatives
 
@@ -1038,28 +1085,28 @@ this announcement also comes with an ask. Dendron is now in [AlternativesTo](htt
 
 - **lookup:** support lookups opening with a new split ([da825a9](https://github.com/dendronhq/dendron/commit/da825a9d2b1ec10a3f9d3eac20db06448fe5344b))
 
-((ref: [[dendron.topic.lookup]]#split toggle))
+((ref:[[dendron.topic.lookup]]#split toggle))
 
 - **refs:** easier note ref selection([114ff87](https://github.com/dendronhq/dendron/commit/114ff87be04f8d746b0be28f7627ba0d1ec9b504))
 
 Dendron will now recognize a header selection if you have any part of the header highlighted (vs needing to highlight the entire line)
 
-((ref: [[dendron.topic.commands]]#copy note ref:#*))
+((ref:[[dendron.topic.commands]]#copy note ref:#*))
 
 ### Documentation
 
 - we published our public roadmap
 
-((ref: [[dendron.roadmap]]))
+((ref:[[dendron.roadmap]]))
 
 - changelog moved to dedicated [page](https://dendron.so/notes/9bc92432-a24c-492b-b831-4d5378c1692b.html)
 - lookup menu docs
-  ((ref: [[dendron.topic.lookup]]#lookup menu:#*))
+  ((ref:[[dendron.topic.lookup]]#lookup menu:#*))
 
 ### Community Highlights
 
 - a new planter has appeared 🌲
-  ((ref: [[dendron.community.showcase]]#luke's second brain))
+  ((ref:[[dendron.community.showcase]]#luke's second brain))
 
 ## [0.12.3](https://github.com/dendronhq/dendron/compare/v0.12.3-alpha.16...v0.12.3) (2020-09-26)
 

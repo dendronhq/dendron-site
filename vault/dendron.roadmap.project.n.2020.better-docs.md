@@ -6,8 +6,6 @@ updated: 1599501863528
 created: 1599501863528
 stub: false
 ---
-# Better docs
-
 ## Goals
 
 Improve Dendorn documentation for new comers and power users
@@ -17,3 +15,4 @@ Improve Dendorn documentation for new comers and power users
 ## Tasks
 
 ## Release Notes
+

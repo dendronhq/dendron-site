@@ -5,8 +5,6 @@ desc: ''
 updated: 1608528178387
 created: 1595170096361
 ---
-# Publishing 
-
 Dendron lets you publish the contents of your vault, either in its entirety or only a subset. Notes are published under the [dendron-jekyll theme](https://github.com/dendronhq/dendron-jekyll). 
 
 You can find documentation about the theme [[here|dendron.pro.dendron-jekyll]]

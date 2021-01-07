@@ -6,9 +6,6 @@ updated: 1608485512280
 created: 1602708411014
 stub: false
 ---
-
-# Calendar Integration
-
 ## Goals
 
 Support integrating calendars like google calendar with Dendron
@@ -36,15 +33,15 @@ range: allEvents
 ## Publish
 
 - configuration: 
-    - summary
-    - location
-    - description
-    - start
-    - end
+  - summary
+  - location
+  - description
+  - start
+  - end
 - not covered
-    - recurrence
-    - attendees
-    - reminders
+  - recurrence
+  - attendees
+  - reminders
 - flow
 
 ```bash
@@ -52,11 +49,11 @@ cd /path/to/workspace
 dendron-cli dendron-cli publishPod --wsRoot . --vault ./vault --podId dendron.gcal --noteByName gcal.test --config /tmp/config.yml
 ```
 
-
-
 ### Resources
-- api: https://developers.google.com/calendar/create-events
+
+- api: <https://developers.google.com/calendar/create-events>
 - sdk:
+
 ```ts
 // Refer to the Node.js quickstart on how to setup the environment:
 // https://developers.google.com/calendar/quickstart/node
@@ -105,7 +102,7 @@ calendar.events.insert({
 
 ```
 
-
 ### Export
 
 ## Flows
+

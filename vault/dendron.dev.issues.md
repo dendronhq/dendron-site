@@ -5,9 +5,6 @@ desc: ''
 updated: 1608593535254
 created: 1608593449583
 ---
-
-# Issues
-
 ### gyp issue when installing
 
 - Call to 'krb5-config gssapi --libs' returned exit status 127 while in binding.gyp. while trying to load binding.gyp
@@ -15,3 +12,4 @@ created: 1608593449583
 ```bash
 yum install make glibc-devel gcc patch
 ```
+

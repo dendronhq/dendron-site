@@ -5,9 +5,6 @@ desc: ''
 updated: 1609605890636
 created: 1598673110284
 ---
-
-# Markdown
-
 - Notice: all references of `MPE` in this guide is in reference to `Dendron Markdown Preview Enhanced`, the default markdown renderer of Dendron
 
 ## Markdown Basics
@@ -49,6 +46,7 @@ If you want to add `id` and `class` to the header, then simply append `{#id .cla
 ### Emphasis
 
 <!-- prettier-ignore -->
+
 ```markdown
 *This text will be italic*
 _This will also be italic_
@@ -151,17 +149,20 @@ You can add an optional language identifier to enable syntax highlighting in you
 
 For example, to syntax highlight Ruby code:
 
-    ```ruby
-    require 'redcarpet'
-    markdown = Redcarpet.new("Hello World!")
-    puts markdown.to_html
-    ```
+````
+```ruby
+require 'redcarpet'
+markdown = Redcarpet.new("Hello World!")
+puts markdown.to_html
+```
+````
 
 ```ruby
 require 'redcarpet'
 markdown = Redcarpet.new("Hello World!")
 puts markdown.to_html
 ```
+
 ### Task lists
 
 ```markdown
@@ -175,6 +176,7 @@ puts markdown.to_html
 You can create tables by assembling a list of words and dividing them with hyphens `-` (for the first row), and then separating each column with a pipe `|`:
 
 <!-- prettier-ignore -->
+
 ```markdown
 First Header | Second Header
 ------------ | -------------
@@ -188,7 +190,6 @@ You can create a table from existing content using `> Markdown Shortcuts: Add Ta
 
 ### Abbreviation
 
-
 The HTML specification
 
 ```markdown
@@ -197,6 +198,7 @@ _[W3C]: World Wide Web Consortium
 The HTML specification
 is maintained by the W3C.
 ```
+
 <!-- 
 ## Extended syntax
 
@@ -262,23 +264,26 @@ There are five types of Critic marks:
 ### Markdown Smart Select
 
 This allows you to expand and shrink selections of markdown using a keyboard shortcut.
-* Expand: ⌃⇧⌘→
-* Shrink: ⌃⇧⌘←
+
+- Expand: ⌃⇧⌘→
+- Shrink: ⌃⇧⌘←
 
 Selection applies to the following, and follows a traditional hierarchical pattern:
-* Headers
-* Lists
-* Block quotes
-* Fenced code blocks
-* Html code blocks
-* Paragraphs
+
+- Headers
+- Lists
+- Block quotes
+- Fenced code blocks
+- Html code blocks
+- Paragraphs
 
 ![preview](https://code.visualstudio.com/assets/updates/1_51/markdown-smart-select-demo.gif)
+
 > Image by Microsoft
 
 ## Compatibility with CommonMark
 
-[CommonMark](https://commonmark.org/) is *a strongly defined, highly compatible specification of Markdown*
+[CommonMark](https://commonmark.org/) is _a strongly defined, highly compatible specification of Markdown_
 
 When possible, Dendron will try to stay to `CommonMark` spec for syntax. That being said, many of the features we have (eg. block based note references) have no common mark equivalent which is why we've had to invent new syntax.
 
@@ -296,5 +301,4 @@ The content of this page is derived from the following sources:
 
 1. [markdown preview enhanced docs](https://shd101wyy.github.io/markdown-preview-enhanced/#/markdown-basics) published under the [University of Illinois/NCSA Open Source License](https://github.com/shd101wyy/markdown-preview-enhanced/blob/master/LICENSE.md)
 2. [markdown shortcuts docs](https://marketplace.visualstudio.com/items?itemName=mdickin.markdown-shortcuts) published under the [MIT License](https://marketplace.visualstudio.com/items/mdickin.markdown-shortcuts/license)
-
 

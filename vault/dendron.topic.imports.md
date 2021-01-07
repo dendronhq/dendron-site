@@ -6,9 +6,6 @@ updated: 1599596299357
 created: 1599596299357
 stub: false
 ---
-
-# Imports
-
 ## Foam
 
 Dendron should be compatible with foam notes without any changes. 
@@ -18,3 +15,4 @@ Few things to note though: foam adds "link reference definitions" to the bottom 
 ## Roam
 
 ## Obsidian
+
