@@ -5,9 +5,6 @@ desc: ''
 updated: 1609435471496
 created: 1609433737726
 ---
-
-# Collections 
-
 Sometimes, you might want to publish a page that has all its children listed like in a blog archive format. 
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/publishv2.collection.jpg)
@@ -24,4 +21,5 @@ You can control sort order via the [[sort_order|dendron.topic.publishingv2.confi
 
 ## Skip Levels
 
-((ref: [[dendron.topic.publishingv2.configuration]]#skiplevels,1:#*))
+((ref:[[dendron.topic.publishingv2.configuration]]#skiplevels,1:#*))
+

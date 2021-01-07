@@ -6,10 +6,8 @@ updated: 1608528616137
 created: 1600564020051
 nav_order: 3
 ---
-
-# Configuration
-
 Dendron lets you control publication behavior at three levels:
+
 - **globally** through `dendron.yml` configuration
 - **per note** through the publication related frontmatter
 - **per line** through custom dendron directives inside the note
@@ -26,7 +24,6 @@ The `dendron.yml` configuration file controls what notes get published. It is lo
 
 Below is the config that is used to publish `dendron.so` from the contents of this [repo](https://github.com/dendronhq/dendron-template)
 
-
 ```yml
 site:
   siteHierarchies: [dendron]
@@ -35,23 +32,26 @@ site:
 
 ### Properties
 
-#### assetsPrefix?: 
+#### assetsPrefix?:
+
 Prefix for assets. 
 
 - NOTE: By default, assets are served from the root. If you are publishing to github pages and followed the instructions [here](https://pages.github.com/) by creating a repo named `{username}.github.io`, then no further action is needed. This is because github will make your site available at `https://{username}.github.io`. If you created a custom repo, you will need to set the prefix to the name of your repo because github will make your site available at `https://username.github.io/{your-repo-name/}`
 
 #### copyAssets
+
 - required: no
 - type: boolean
 - default: true
 
 Copy assets from vault to site.
 
-#### siteHierarchies: str[]
+#### siteHierarchies: str\[]
 
 List of hierarchies to publish
 
 #### siteIndex?: str
+
 - optional, path of your index (home page)
 - defaults to the first element of `siteHierarchies`
 
@@ -60,12 +60,14 @@ List of hierarchies to publish
 Location of the directory where site will be build. Relative to your workspace
 
 #### siteRepoDir
+
 - required: no
 - type: string
 
 Location of the github repo where your site notes are located. By default, this is assumed to be your `workspaceRoot` if not set. This is used with the `Publish Notes` command
 
 #### usePrettyRefs
+
 - default: True
 
 Whether to use pretty note refs or plain refs. 
@@ -80,12 +82,13 @@ config:
 ```
 
 The list of possible options:
+
 - **publishByDefault**: boolean, default: true
   - if set to false, dendron will only publish notes within the hierarchy that have `published: true` set in the frontmatter
 - **noindexByDefault**: boolean, default: false
   - if set to true, dendron will add the following meta tag `<meta name="robots" content="noindex, nofollow”>` which will tell google to not index your page
   - when google indexes a page, it will penalize sites that have duplicate content from other sites. this is useful if you are using your hiearchy as a [[cache|dendron.workflows.cache]]
-- **customFrontmatter**: list, default: []
+- **customFrontmatter**: list, default: \[]
   - if set, dendron will add the specified frontmatter to each published note in the hierarchy. note that this will override existing keys with the same name when publishing
   - eg. add `toc: true` to all notes published under the `iam.*` hierarchy
   ```yml
@@ -99,7 +102,6 @@ The list of possible options:
           ]
   ```
 
-
 ### Examples
 
 #### Blog
@@ -107,6 +109,7 @@ The list of possible options:
 Below is the config for [kevinslin.com](https://kevinslin.com). It publishes everything under the `home` and `blog` hierarchies but will only publish notes under `books` if `published: true` is set on the frontmatter. 
 
 - dendron.yml
+
 ```yml
 site:
   siteHierarchies: [home, blog, books]
@@ -117,7 +120,9 @@ site:
 ```
 
 #### Example publishing entire vault
+
 - vault
+
 ```
 .
 ├── root.md
@@ -127,11 +132,14 @@ site:
 ├── flowers.md
 └── flowers.bud.md
 ```
+
 - dendron.yml
+
 ```yml
 publish:
   siteHierarchies: [root]
 ```
+
 - what gets published
 
 ```
@@ -145,7 +153,9 @@ publish:
 ```
 
 #### Example publishing just one domain
+
 - vault
+
 ```
 .
 ├── root.md
@@ -153,11 +163,14 @@ publish:
 ├── dendron.quickstart.md
 └── dendron.zen.md
 ```
+
 - dendron.yml
+
 ```yml
 publish:
   siteHierarchies: [dendron]
 ```
+
 - published:
 
 ```
@@ -174,6 +187,7 @@ You can specify how notes are published via the frontmatter of each note.
 ### Properties
 
 #### published
+
 - type: boolean
 - default: true
 
@@ -185,6 +199,7 @@ published: false
 ```
 
 #### noindex
+
 - type: boolean
 - default: true
 
@@ -196,6 +211,7 @@ noindex: true
 ```
 
 #### toc
+
 - type: boolean
 - default: false
 
@@ -245,3 +261,4 @@ This is a secret <!--LOCAL_ONLY_LINE--> <!-- won't be published -->
 ```
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/pod-local.gif)
+

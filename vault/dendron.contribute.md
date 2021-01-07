@@ -8,24 +8,21 @@ stub: false
 nav_order: 9.5
 toc: true
 ---
-# Contribute
-
 ## Table of Contents
-
 
 ## Development
 
-((ref: [[dendron.contribute.dev]]#development,1))
+((ref:[[dendron.contribute.dev]]#development,1))
 
 ### First Time Developers
 
-((ref: [[dendron.contribute.first-dev]]#first time developers,1))
+((ref:[[dendron.contribute.first-dev]]#first time developers,1))
 
 ## Documentation
 
-((ref: [[dendron.contribute.documentation]]#documentation,1:#*))
+((ref:[[dendron.contribute.documentation]]#documentation,1:#*))
 
 ## Financially
 
-((ref: [[dendron.contribute.financial]]#financial,1))
+((ref:[[dendron.contribute.financial]]#financial,1))
 

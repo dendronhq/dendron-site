@@ -6,10 +6,6 @@ updated: 1604676771824
 created: 1602033034187
 stub: false
 ---
-
-
-# Remark
-
 ## Summary
 
 This goes over how Dendron parses markdown files
@@ -77,6 +73,7 @@ getRemark(opts) {
 ```
 
 - src/topics/markdown/plugins/dendronLinksPlugin.ts
+
 ```ts
 
 plugin.Compiler({replaceLink}) {
@@ -88,3 +85,4 @@ plugin.Compiler({replaceLink}) {
     }
 }
 ```
+

@@ -6,7 +6,5 @@ updated: 1607965800209
 created: 1604236612582
 nav_order: 2.2
 ---
-
-# Community
-
 Dendron wouldn't be what it is today without its wonderful users.
+

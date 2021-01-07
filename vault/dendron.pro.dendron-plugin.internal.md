@@ -1,13 +1,10 @@
 ---
 id: 4b8f0470-dacb-433b-8d0c-f5a7d8f5245d
-title: Internal
+title: Lookup
 desc: ''
 updated: 1608838053693
 created: 1608838048476
 ---
-
-# Lookup
-
 ```ts
 show {
     quickpick := create
@@ -42,39 +39,45 @@ updatePickerBehavior {
 ```
 
 ## Example
+
 ### Normal
+
 - show
 - updatePickerBehavior
-    - source: updateBehaviorByNoteType(normal)
+  - source: updateBehaviorByNoteType(normal)
 
 ### Change Value
+
 - updatePickerBehavior
-    - source: onValueChange
+  - source: onValueChange
 
 ## Ref
 
 ### Times when Picker is Updated
+
 - onUpdatePickerItem
-    - lc.show, on init
-    - lc.updateBehaviorByNoteType, note type toggle
-    - lc.updatePickerBehavior, direct filter toggle
+  - lc.show, on init
+  - lc.updateBehaviorByNoteType, note type toggle
+  - lc.updatePickerBehavior, direct filter toggle
 
 ### sources
 
 #### UPDATE_PICKER_FILTER
+
 - when direct filter has changed
 
 #### updatePickerBehavior
+
 - when changing note type
 - values
-    - normal
-    - journal
-    - scratch
-
+  - normal
+  - journal
+  - scratch
 
 ## Lookup: onButton
 
 - src/components/lookup/LookupControllerV2.ts
+
 ```ts
 onTriggerButton {
 
@@ -84,15 +87,18 @@ onTriggerButton {
 # TreeView
 
 ## init
+
 - onInitialize, reconstruct the whole tre
 
 ## refresh
+
 - ReloadIndex
 - SchemaWatcher
 - FileWatcher
 
 # Startup
-- file: plugin-core/src/_extension.ts
+
+- file: plugin-core/src/\_extension.ts
 
 ```ts
 _activate {
@@ -110,6 +116,7 @@ _activate {
 ```
 
 - reloadWorkspace
+
 ```ts
 reloadWorkspace {
     ws.reloadWorkspace
@@ -122,6 +129,7 @@ reloadWorkspace {
 ```
 
 - postReloadWorkspace
+
 ```ts
 postReloadWorkspace {
     ws :=
@@ -142,10 +150,10 @@ postReloadWorkspace {
 
 ```
 
-
 ## Welcome Message
 
-- file: plugin-core/src/_extension.ts
+- file: plugin-core/src/\_extension.ts
+
 ```ts
 
 showWelcomeOrWhatsNew {
@@ -170,11 +178,12 @@ showWelcomeOrWhatsNew {
 
 ```
 
-
 ## SetupWorkspace
+
 - note: `dendron.code-workspace` is completely overwritten when running setup
 
 # Vault Add
+
 - src/commands/VaultAddCommand.ts 
 
 ```ts
@@ -192,3 +201,4 @@ addVaultToWorkspace vault:
     createVault(vault)
     addToWorkspaceFile(vault)
 ```
+

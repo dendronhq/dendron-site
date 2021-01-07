@@ -1,6 +1,6 @@
 ---
 id: ec4aa793-acb7-447d-93a7-6f2c5289bbf9
-title: Links
+title: Agenda
 desc: ''
 updated: 1599580612448
 created: 1599580612448
@@ -10,7 +10,6 @@ end: '2020.09.15 18:00'
 ---
 - start time: <https://everytimezone.com/s/0f71602d>
 
-# Agenda
 
 - [x] put faces to names
 - [x] talk about the roadmap

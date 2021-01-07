@@ -5,15 +5,14 @@ desc: ''
 updated: 1609538101517
 created: 1608770937168
 ---
-
-# Github
-
 This guide describes publishing to github using github actions
 
 ## Pre-requisite
+
 - we assume that you already have your workspace under version control. 
 
 ## Setup
+
 1. Checkout the pages branch and push it to github
 
 ```bash
@@ -22,6 +21,7 @@ git push origin pages
 ```
 
 2. Switch back to your original branch
+
 - NOTE: if you are using old versions of github, this command will be `git checkout master`
 
 ```bash
@@ -29,7 +29,9 @@ git checkout main
 ```
 
 3. Create a `package.json` at the root of your workspace
+
 - NOTE: by default, we adopt the [Creative Commons License](https://creativecommons.org/licenses/by/4.0/legalcode) but you might want to change this depending on your use case
+
 ```json
 {
   "scripts": {
@@ -108,4 +110,6 @@ This will initialize the following files into your dendron workspace
 -->
 
 ## Citations
+
 - this guide is heavily inspired by [[the github action guide|dendron.guides.tips#publish-to-github-pages-with-actions]] originally published by [Luke Carrier](https://github.com/LukeCarrier)
+

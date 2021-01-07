@@ -1,6 +1,6 @@
 ---
 id: ae5c556b-262b-4393-84ce-376ec8becff5
-title: Dendrologist November Meetup
+title: Notes
 desc: ''
 updated: 1604967185782
 created: 1604334990589
@@ -81,8 +81,6 @@ Have a more concise description of role and responsibilities.
 ## Scratch
 
 Additional topics to bring up
-
-# Notes
 
 - pods and publishing as two concepts is confusing
   - make it clear that publishing is a special case for pods

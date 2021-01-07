@@ -1,14 +1,11 @@
 ---
 id: c84aa95c-83b9-4d52-90a1-eeec8f0ca84f
-title: Qa
+title: QA
 desc: ''
 updated: 1609716111365
 created: 1609713960639
 ---
-
-# QA
-
-### Writing Tests 
+### Writing Tests
 
 When writing a test for new functionality, make sure to consider both the `single` vault and `multi-vault` scenario. 
 
@@ -23,3 +20,4 @@ The arguments are explained [here](https://github.com/dendronhq/dendron/blob/mas
 Note that VSCode uses [mocha](https://mochajs.org/) as its default test runner whereas Dendron uses  [jest](https://jestjs.io/).
 
 We shim the [jest methods](https://github.com/dendronhq/dendron/blob/master/packages/plugin-core/src/test/testUtilsv2.ts#L418:L418) when testing the plugin though so that we can re-use the same logic between our non-vscode packages and the Dendron VSCode Plugin. 
+

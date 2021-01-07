@@ -7,8 +7,6 @@ created: 1595952505025
 stub: false
 nav_order: 6
 ---
-# FAQ
-
 All the questions we thought you might ask. 
 
 ## General
@@ -19,8 +17,8 @@ A Dendron is many things.
 
 1. Dendron is the greek word for tree. It's a reference to the hierarchal note taking that Dendron(3) enables. 
 2. Dendron is another word for [dendrite](https://en.wikipedia.org/wiki/Dendrite) which is an extension of the nerve cell that sends and receives signals in the brain. Think of Dendron(3) as a digital nervous system that helps you consolidate all the information that you care about in the fastest and most efficient way possible.
-    ![](https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Neuron_Hand-tuned.svg/2880px-Neuron_Hand-tuned.svg.png)
-    - Image by Quasar Jarosz at English Wikipedia
+   ![](https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Neuron_Hand-tuned.svg/2880px-Neuron_Hand-tuned.svg.png)
+   - Image by Quasar Jarosz at English Wikipedia
 3. Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you organize, manage, publish, and collaborate on knowledge bases of any size.
 
 ### How is Dendron different from X note taking tool?
@@ -31,15 +29,15 @@ All note taking tools (try to make it) easy to get notes in. Its getting it back
 
 Whether you are using notebooks tags, or backlinks, once you have more than a few hundred notes, you'll need to have some sort of structure in place (eg. naming convention, hierarchy, etc) to keep track of it. 
 
-Dendron is a highly opinionated note taking tool that focuses on **hierarchal note taking**. It provides the freedom of Roam's *every note exists everywhere philosophy* while layering on top **flexible hierarchies** to keep track of it all. 
+Dendron is a highly opinionated note taking tool that focuses on **hierarchal note taking**. It provides the freedom of Roam's _every note exists everywhere philosophy_ while layering on top **flexible hierarchies** to keep track of it all. 
 
 While Dendron works with knowledge bases of any size, it really shines once you've accumulated a few hundred notes. I created it to handle my personal knowledge base of 20k+ markdown notes - Dendron lets me track and find any specific note in it in seconds. You can read more about Dendron's hierarchal approach to note taking [here](https://www.kevinslin.com/notes/3dd58f62-fee5-4f93-b9f1-b0f0f59a9b64.html).
 
 ### How does Dendron help me track my notes?
 
-1. Dendron organizes and collapse all your  notes into managable chunks using [[hierarchies |dendron.topic.hierarchies]].
-2. Dendron helps you manage your hiearchies using [[schemas | dendron.topic.schema ]]
-3. Dendron gets out of your way when your working with your notes during [[lookup |dendron.topic.lookup]]
+1. Dendron organizes and collapse all your  notes into managable chunks using [[hierarchies|dendron.topic.hierarchies]].
+2. Dendron helps you manage your hiearchies using [[schemas|dendron.topic.schema]]
+3. Dendron gets out of your way when your working with your notes during [[lookup|dendron.topic.lookup]]
 
 Dendron's secret sauce is that it provides the necessary tooling for you to work with hierarichal notes. While hierarchies have traditionally (and justifiably) gotten a bad, I would argue that this is because the **tooling** around hierarchies were bad, not because hierarchies themselves are bad. 
 
@@ -53,7 +51,7 @@ That being said, I'm all in on Dendron and this is my full time gig. I want to m
 
 - private hosting (for folks who want to publish but not use github pages or want to add authentication)
 - enterprisy things 
-    - eg. on premise installations of Dendron with single sign on, active directory, and fine grained permissions
+  - eg. on premise installations of Dendron with single sign on, active directory, and fine grained permissions
 - offering private subscription based vaults (eg. think [substack](https://substack.com) but having people subscribe to vaults instead of newsletters )
 - server side IFTTT like functionality (eg. everytime I add an entry to airtable, add a note to Dendron)
 
@@ -67,14 +65,13 @@ I wanted to spend more time building out features that supported Dendron's [hiea
 
 That being said, the core dendron engine is not vscode specific and there are folks that are experimenting with porting it over to other editors (eg. sublime, vim). We also have plans for a standalone editor in the future (most likely, this will be a fork of VSCode optimized for note taking)
 
-
 ## Working with Notes
 
 ### Why markdown?
 
 Markdown lets you write text in a simple human readable notation that is platform independent. You don't need to have microsoft word to read a markdown file and now a days, all new note taking tools support importing and displaying markdown.
 
-For more context, you can see the original markdown declaration [here]( https://daringfireball.net/projects/markdown/) 
+For more context, you can see the original markdown declaration [here](https://daringfireball.net/projects/markdown/) 
 
 ### Can I use Dendron with existing notes?
 
@@ -93,11 +90,13 @@ Dendron automatically saves when you change focus (switch tabs or applications).
 ### How do I go back to the previous note?
 
 There are 3 ways to go back to my previous note: 
+
 1. `ctrl-tab` (go to previous tab)
 2. click on the previous tab
 3. using the open editors pane 
 
 - NOTE: to have more than a single tab show, you need to have the following settings
+
 ```json
 {
     "workbench.editor.enablePreview": false,
@@ -161,8 +160,9 @@ For example, I'm using nodejs and need to access a file. I have no idea what the
 Metadata is currently under utilized because we don't have a built in way of easily querying by it. We currently have [this issue](https://github.com/dendronhq/dendron/issues/152) tracking the progress of advanced query work.
 
 In the future, we want to support:
-- querying by custom frontmatter attributes: https://github.com/dendronhq/dendron/issues/152
-- query by attributes with logical operators: https://github.com/dendronhq/dendron/issues/159
+
+- querying by custom frontmatter attributes: <https://github.com/dendronhq/dendron/issues/152>
+- query by attributes with logical operators: <https://github.com/dendronhq/dendron/issues/159>
 
 We also want to support some subset of the queries as note references so that the results can be included in page.
 
@@ -184,7 +184,6 @@ Now this isn't required per-say, we could just do away with **root** notes and s
 
 ps. root.schema.yml doesn't work right now as described in the sense that we haven't implemented global schemas yet
 
-
 ### Can I use a dark theme for the markdown preview?
 
 Yes. There's a setting called `markdown-preview-enhanced.previewTheme` that you can set which has a list of default themes, including dark themes. 
@@ -193,7 +192,7 @@ Yes. There's a setting called `markdown-preview-enhanced.previewTheme` that you 
 
 Yes. Read [this](https://shd101wyy.github.io/markdown-preview-enhanced/#/customize-css) for more information.
 
-### Is there a list of keyboard shortcuts I can see? 
+### Is there a list of keyboard shortcuts I can see?
 
 Dendron has a list of keyboard shortcuts that you can access using `Dendron: Show Help` command. Note that these only show the commands that come with the Dendron Plugin but not its bundled extensions. We currently have an open [issue](https://github.com/dendronhq/dendron/issues/148) to list all shortcuts on one page. 
 
@@ -203,13 +202,13 @@ Dendron has a list of keyboard shortcuts that you can access using `Dendron: Sho
 
 The reason you see this is because Dendron will create [[stub|dendron.concepts#stubs]] notes when creating notes that have parents that don't exist. These notes are placeholders and will only be visible in the Dendron Tree View with a `+` sign next to the name. The reason we do stubs is because we don't want to litter your file system with empty files. Stubs are a compromise - they let you see the hierarchy of your newly created notes without forcing you to create intermediary files.
 
-### Why custom markdown preview instead of the VSC one? 
+### Why custom markdown preview instead of the VSC one?
 
 Our custom markdown preview gives us much more functionality then the vscode one -> eg. note references, checkboxes, etc.
 
 In addition, the markdown preview that Dendron uses is platform agnostic (eg. it's also available on atom). This means that other editors could potentially adopt it as well.
 
-
 ### VSCode Snippets are not working in Frontmatter
 
 The default snippets are scoped to markdown. You can create [global snippets](https://code.visualstudio.com/docs/editor/userdefinedsnippets#_create-your-own-snippets) file to have snippets that work across all languages.
+

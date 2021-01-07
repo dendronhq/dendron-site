@@ -7,7 +7,5 @@ created: 1600575510386
 stub: false
 nav_order: 3.5
 ---
+((ref:[[dendron.topic.commands]]#publishing,1:#Dev))
 
-# Commands
-
-((ref: [[dendron.topic.commands]]#publishing,1:#Dev))

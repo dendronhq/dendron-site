@@ -1,6 +1,6 @@
 ---
 id: a4252774-0c08-4bca-a1b5-b6f369908aeb
-title: Color Tabs
+title: Related
 desc: ''
 updated: 1603426502775
 created: 1602430633050
@@ -44,8 +44,6 @@ schemas:
 By default, `tabColor` would be recursive, so any child schemas would also have the property applied. More specific `tabColor` settings on child schemas would take precedence over parent `tabColor` settings.
 
 Currently, the only way to set tab color is via the settings file which means Dendron would dynamically update your workspace settings as you navigate files. 
-
-# Related
 
 - [per editor/tab background color](https://github.com/Microsoft/vscode/issues/35379)
 - settings: 

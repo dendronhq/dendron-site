@@ -6,17 +6,16 @@ updated: 1608485512282
 created: 1602714464908
 stub: false
 ---
-
-# Pods
-
 ## Export Pod
 
 - execute
+
 ```bash
 dendron-cli export-pod
 ```
 
 - src/commands/pod.ts
+
 ```ts
 enrichArgs {
     podClass :=
@@ -33,6 +32,7 @@ execute {
 ```
 
 - src/builtin/JSONPod.ts
+
 ```ts
 plant {
     cleanConfig :=
@@ -43,6 +43,7 @@ plant {
 ```
 
 - src/base.ts
+
 ```ts
 prepareForExport {
     @initEngine
@@ -51,3 +52,4 @@ prepareForExport {
     return nodes
 }
 ```
+

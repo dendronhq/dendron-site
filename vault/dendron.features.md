@@ -7,8 +7,6 @@ created: 1596320368075
 stub: false
 nav_order: 2
 ---
-
-# Features
 ## Hierarchies
 
 Dendron proposes **hierarchies** as the **human solution** to information overload. This is because there are few things as effective as a multi-level hiearchy for quickly filtering an overwhelming amount of information to something humans can work with. You can read [this blog post](https://kevinslin.com/organizing/its_not_you_its_your_knowledge_base/) for the extended rationale behind this.
@@ -141,3 +139,4 @@ The following extensions also work well with Dendron but are not bundled by defa
   - VIM key bindings 😍
 - [Bookmarks](https://marketplace.visualstudio.com/items?itemName=alefragnani.Bookmarks)
   - Bookmark lines within files
+

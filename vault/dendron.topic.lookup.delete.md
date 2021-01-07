@@ -5,8 +5,5 @@ desc: ''
 updated: 1608494857196
 created: 1608494673903
 ---
-
-
-# Deleting Notes
-
 To delete `dendron.lookup.hello`, use the `Cmd+Shift+D` shortcut on the note that you want to delete. Alternatively, you can also launch the `Command Bar` and type `Dendron: Delete Node` 
+

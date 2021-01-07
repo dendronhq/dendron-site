@@ -1,6 +1,6 @@
 ---
 id: 61833b7d-1cfe-4500-b78d-b30962a906cd
-title: Calendar Integration
+title: Google Calendar Pod
 desc: ''
 updated: 1608485512280
 created: 1602708411014
@@ -27,8 +27,6 @@ range: allEvents
 
 
 ```
-
-# Google Calendar Pod
 
 ## Publish
 

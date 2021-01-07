@@ -1,14 +1,11 @@
 ---
 id: da241d31-8a05-429c-a041-02ac6170bf20
-title: Files-vs-folders
+title: Dotted filenames
 desc: ''
 updated: 1600270046572
 created: 1600270046572
 stub: false
 ---
-
-# Dotted filenames
-
 - note renames are simpler, no need to create / delete folders
 - note containers can be created with a single artifact (e.g. foo.bar.md is the container for foo.bar vs. foo/bar.md + foo/bar/)
 - note stubs can be created without intermediate folders
@@ -26,3 +23,4 @@ stub: false
 - normal file system permissions could be used to limit visibility to certain sub-hierarchies
 - various sub-parts of the hierarchy can be brought into the same workspace via symlinks
 - Is compliant with enterprise setting, many companies just wouldn't adopt dot-based hierarcies for their knowledge-base (it's "too weird", "unproven" etc.)
+

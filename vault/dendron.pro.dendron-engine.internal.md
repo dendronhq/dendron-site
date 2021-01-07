@@ -1,12 +1,10 @@
 ---
 id: 26be950a-eaf3-4684-bddd-64be52273b73
-title: Internal
+title: Schema
 desc: ''
 updated: 1608527506447
 created: 1608527496774
 ---
-
-# Schema
 ```
   "root": Object {
     "fname": "root",
@@ -58,6 +56,7 @@ renameNote opts {
 ```
 
 - src/topics/markdown/utilsv2.ts
+
 ```ts
 replaceLinks opts {
   remark = getRemark(dendronLinksOpts: {replaceLink: { from, to }} )
@@ -81,7 +80,6 @@ deleteNote(note) {
 
 - See [[Remark|dendron.dev.design.remark]]
 
-
 # Specifics
 
 ### Does Dendron use parent/children metadata inside notes during initialization?
@@ -91,6 +89,7 @@ deleteNote(note) {
 # WorkspaceService: Add Vault
 
 - src/workspace.ts
+
 ```ts
 createVault(vault, noAddToConfig):
   ensureDir(vault)
@@ -100,3 +99,4 @@ createVault(vault, noAddToConfig):
   if !noAddToConfig:
     config.add vault
 ```
+

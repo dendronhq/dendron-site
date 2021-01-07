@@ -5,9 +5,6 @@ desc: ''
 updated: 1608495043297
 created: 1604883459208
 ---
-
-# Modifiers
-
 Modifiers allow you to update the behavior of lookup. You can trigger a modifier by clicking on the modifier icon or passing custom arguments to `dendron.lookup` when defining a custom keyboard shortcut. 
 
 Modifiers are divided into 6 categories:
@@ -29,34 +26,35 @@ By default, unless you are at the root of your workspace, dendron does a fuzzy s
 
 Dendron's **directChildFilter** is a toggle that limits lookup to just the next level in the tree. This is useful for exploring your hierarchy one level at a time. 
 
--  filter all notes that are not the direct children of the current note
-        ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/lookup.dchild.jpg)
+- filter all notes that are not the direct children of the current note
+       ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/lookup.dchild.jpg)
 
 <a href="https://www.loom.com/share/45b49b53bf324aeebe387d2ba9515d94"> 
 <img style="" src="https://cdn.loom.com/sessions/thumbnails/45b49b53bf324aeebe387d2ba9515d94-with-play.gif"> </a>
-
 
 ## selectionType
 
 Determines behavior of selected text when creating a new note via lookup
 
 ### selectionExtract
+
 selection is extracted to newly created note (default)
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/lookup.selection.jpg)
 
-### selection2link 
+### selection2link
 
 selection is turned into a link to newly created note. note path is set to `{current-path}.{slug-of-selection}` 
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/lookup.link.jpg)
+
 - a [slug](https://stackoverflow.com/questions/19335215/what-is-a-slug) is the human readable portion of an url
-<a href="https://www.loom.com/share/abaa8083d93f4192aa480f1acef1a8b7"> 
-<img style="" src="https://cdn.loom.com/sessions/thumbnails/abaa8083d93f4192aa480f1acef1a8b7-with-play.gif"> </a>
+  <a href="https://www.loom.com/share/abaa8083d93f4192aa480f1acef1a8b7"> 
+  <img style="" src="https://cdn.loom.com/sessions/thumbnails/abaa8083d93f4192aa480f1acef1a8b7-with-play.gif"> </a>
 
 - you can control this behavior using `dendron.linkSelectAutoTitleBehavior`
 
-((ref: [[dendron.topic.config]]#dendron.linkselectautotitlebehavior,1:#*))
+((ref:[[dendron.topic.config]]#dendron.linkselectautotitlebehavior,1:#*))
 
 ## noteType
 
@@ -68,13 +66,14 @@ Create a journal note
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/lookup.journal.jpg)
 
-### scratch 
+### scratch
 
 create a scratch note
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/lookup.scratch.jpg)
 
 ## splitType
+
 If set, open note in a new split
 
 ### horizontal
@@ -107,8 +106,12 @@ Dendron has a few additional modifiers that can only be set programatically
 ### noConfirm
 
 If set, select first option from lookup without confirmation
+
 - type: boolean
 
 ### value
+
 If set, have a custom value for lookup
+
 - type: string
+

@@ -5,9 +5,6 @@ desc: ''
 updated: 1609951239968
 created: 1609883716869
 ---
-
-# Selective Publication
-
 In Dendron, you control what gets published. 
 
 ![[dendron.topic.publishingv2.configuration#configuration,1:#*]]
@@ -23,3 +20,4 @@ In Dendron, you control what gets published.
 ## Per Note
 
 ![[dendron.topic.publishingv2.configuration#note-configuration:#nav_exclude]]
+

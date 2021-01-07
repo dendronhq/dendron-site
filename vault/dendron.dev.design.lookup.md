@@ -6,9 +6,6 @@ updated: 1604600828175
 created: 1602392064100
 stub: false
 ---
-
-# Lookup
-
 ## Lookup Command
 
 - src: plugin-core/src/components/lookup/LookupControllerV2.ts
@@ -29,6 +26,7 @@ show {
 ```
 
 ### updatePickerBehavior
+
 ```ts
 updatePickerBehavior(quickpick, provider) {
     buttons := 
@@ -54,6 +52,7 @@ updatePickerBehavior(quickpick, provider) {
 ```
 
 ### provide
+
 - file: src/components/lookup/LookupProviderV2.ts
 
 ```ts
@@ -113,7 +112,6 @@ updateBehaviorByNoteType {
 }
 ```
 
-
 ```ts
 onUpdatePickerItem(picker) {
 
@@ -135,3 +133,4 @@ onUpdatePickerItem(picker) {
 }
 
 ```
+

@@ -6,7 +6,5 @@ updated: 1604237878745
 created: 1604237852460
 nav_order: 7
 ---
-
-# Guides
-
 Resources to help you with using Dendron.
+
