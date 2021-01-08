@@ -2,7 +2,7 @@
 id: 3abd00eb-1c1e-4253-aaf5-dcbe20c21850
 title: Early Seed
 desc: ''
-updated: 1610066050158
+updated: 1610121281952
 created: 1604539200840
 published: true
 nav_exclude: true
@@ -20,6 +20,10 @@ Note that the new ref syntax expects a [[sluggified|dendron.ref.terms#slug]] hea
 This change makes it possible to create a ref to a header with special characters.
 
 The old syntax ref syntax will still work but should now be considered deprecated. We will release a `doctor` command to help you auto-upgrade from the old syntax to the new syntax in the coming week.
+
+#### Frontmatter Variable Substitution
+
+It is now possible to use variables defined in your note frontmatter inside your note. The syntax is `{{fm.VAR_NAME}}` where `VAR_NAME` is the name of your variable. The `fm` designates that you want to use a frontmatter variable. 
 
 #### Publishing V2 Integration with Plugin
 
