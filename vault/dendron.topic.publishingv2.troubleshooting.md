@@ -2,7 +2,7 @@
 id: 5ca2fe99-0abc-413d-aa06-50f9a66e13e0
 title: Troubleshooting
 desc: ''
-updated: 1609556027736
+updated: 1610130263125
 created: 1609525003662
 ---
 ### My favicon isn't showing up
@@ -27,3 +27,8 @@ siteUrl: https://www.foo.com
 cname: foo.com
 ```
 
+
+### My image isn't showing up
+
+- Make sure your images have a leading `/`. So `/assets/images/foo.jpg` instead of `assets/images/foo.jpg`.
+- If you are publishing to github, check if [[assetsPrefix|dendron.topic.publishingv2.configuration#assetsprefix-optional]] is set
