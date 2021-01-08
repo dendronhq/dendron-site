@@ -2,52 +2,30 @@
 id: eea2b078-1acc-4071-a14e-18299fc28f48
 title: Config
 desc: ''
-updated: 1609992508331
+updated: 1595261816971
 created: 1595261816971
 ---
-## Dendron.yml
 
-This is created as part of your dendron workspace. See [[layout|dendron.ref.layout]] for more information.
-
-### vaults
-
-- type: `{fsPath: {path/relative/to/workspace}, name?: {optional name}}`
-
-Managed by Dendron. A record of your current workspaces. 
-
-### useFMTitle 
-
-If set to `true`, use the `title` field in the frontmatter to set the h1 title when publishing and in the preview
-
-- NOTE: if you change the title, you'll need to refresh the preview to see the update
-
-![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/config.fmTitle.jpg)
-
-## VSCode
-
+# Config
 ### dendron.dailyJournalDomain
-
 - type: string
 - default: daily
 
 domain where daily journals are kept
 
 ### dendron.defaultJournalName
-
 - type: string
 - default: journal
 
 name used for journal notes
 
 ### dendron.defaultJournalDateFormat
-
 - type: string
 - default: Y.MM.DD
 
 date format used for journal notes
 
 ### dendron.defaultJournalAddBehavior
-
 - type: string
 - default: childOfDomain
 - options:  ['childOfDomain', 'childOfDomainNamespace', 'childOfCurrent', 'asOwnDomain']
@@ -55,21 +33,18 @@ date format used for journal notes
 strategy for adding new journal notes
 
 ### dendron.defaultScratchName
-
 - type: string
 - default: scratch
 
 name used for scratch notes
 
 ### dendron.defaultScratchDateFormat
-
 - type: string
 - default: Y.MM.DD.HHmmss
 
 date format used for scratch notes
 
 ### dendron.defaultScratchAddBehavior
-
 - type: string
 - default: asOwnDomain
 - options:  ['childOfDomain', 'childOfDomainNamespace', 'childOfCurrent', 'asOwnDomain']
@@ -77,14 +52,12 @@ date format used for scratch notes
 strategy for adding new scratch notes
 
 ### dendron.copyNoteUrlRoot
-
 - type: string
 - default: none
 
 override root url when getting note url
 
 ### dendron.linkSelectAutoTitleBehavior
-
 - type: string
 - default: slug
 - options:  ['none', 'slug']
@@ -92,7 +65,6 @@ override root url when getting note url
 Control title behavior when using selection2link with lookup
 
 ### dendron.defaultLookupCreateBehavior
-
 - type: string
 - default: selectionExtract
 - options:  ['selection2link', 'selectionExtract']
@@ -100,21 +72,18 @@ Control title behavior when using selection2link with lookup
 when creating a new note with selected text, define behavior for selected text
 
 ### dendron.rootDir
-
 - type: string
 - default: 
 
 location of dendron workspace
 
 ### dendron.dendronDir
-
 - type: string
 - default: 
 
 location of dendron configuration
 
 ### dendron.logLevel
-
 - type: string
 - default: info
 - options:  ['debug', 'info', 'error']
@@ -122,7 +91,6 @@ location of dendron configuration
 control verbosity of dendron logs
 
 ### dendron.trace.server
-
 - type: string
 - default: messages
 - options:  ['off', 'messages', 'verbose']
@@ -130,7 +98,6 @@ control verbosity of dendron logs
 LSP log level
 
 ### dendron.serverPort
-
 - type: number
 - default: none
 

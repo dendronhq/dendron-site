@@ -2,7 +2,7 @@
 id: ba97866b-889f-4ac6-86e7-bb2d97f6e376
 title: Markdown
 desc: ''
-updated: 1609605890636
+updated: 1610065630213
 created: 1598673110284
 ---
 - Notice: all references of `MPE` in this guide is in reference to `Dendron Markdown Preview Enhanced`, the default markdown renderer of Dendron
@@ -199,6 +199,14 @@ The HTML specification
 is maintained by the W3C.
 ```
 
+### Footnotes
+
+```markdown
+Content [^1]
+
+[^1]: Hi! This is a footnote
+```
+
 <!-- 
 ## Extended syntax
 
@@ -230,13 +238,6 @@ is maintained by the W3C.
 H~2~O
 ```
 
-### Footnotes
-
-```markdown
-Content [^1]
-
-[^1]: Hi! This is a footnote
-```
 
 ### Mark
 
