@@ -2,7 +2,7 @@
 id: 3abd00eb-1c1e-4253-aaf5-dcbe20c21850
 title: Early Seed
 desc: ''
-updated: 1610065657840
+updated: 1610066050158
 created: 1604539200840
 published: true
 nav_exclude: true
@@ -34,3 +34,7 @@ You can now both build your notes for publication and preview it from inside vsc
 
 ### Bug Fixes
 - spaces in wiki link not rendering in prevew
+
+## Version Numbers
+- Dendron Markdown Preview: 0.10.18
+- Dendron 11ty: 1.23.6
