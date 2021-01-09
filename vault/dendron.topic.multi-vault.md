@@ -2,7 +2,7 @@
 id: 24b176f1-685d-44e1-a1b0-1704b1a92ca0
 title: Multi Vault
 desc: ''
-updated: 1608585213034
+updated: 1610206770050
 created: 1605630383515
 ---
 Multi vault lets you create multiple vaults for a given workspace. Each vault is a folder that can contain any number of hierarchies. 
@@ -34,7 +34,9 @@ When creating a note in lookup, the currently opened note's vault is used as the
 
 #### Specify Vault Location when Creating a Note
 
-With this set, you can pick the vault for new notes.  To enable,  add `lookupConfirmVaultOnCreate: true` in the dendron configuration. Instructions to do so below.
+![[dendron.topic.config#lookupconfirmvaultoncreate,1:#*]]
+
+To enable,  add `lookupConfirmVaultOnCreate: true` in the dendron configuration. Instructions to do so below.
 
 1. > Dendron: Configure (yaml)
 2. add `lookupConfirmVaultOnCreate: true` so your configuration looks like the following:

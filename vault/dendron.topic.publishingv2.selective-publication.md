@@ -2,12 +2,12 @@
 id: c93938a4-0938-49d0-aca2-00e624793650
 title: Selective Publication
 desc: ''
-updated: 1609951239968
+updated: 1610165600940
 created: 1609883716869
 ---
 In Dendron, you control what gets published. 
 
-![[dendron.topic.publishingv2.configuration#configuration,1:#*]]
+![[dendron.topic.publishingv2.configuration#summary,1:#*]]
 
 ## Globally
 

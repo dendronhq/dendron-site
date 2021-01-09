@@ -2,11 +2,21 @@
 id: eea2b078-1acc-4071-a14e-18299fc28f48
 title: Config
 desc: ''
-updated: 1595261816971
+updated: 1610206744763
 created: 1595261816971
 ---
 
-# Config
+Dendron configuration currently lives in two places:
+- Dendron config: `dendron.yml` located at the root of your workspace
+- VSCode config: `dendron.code-workspace`: the vscode workspace file 
+
+## Dendron Config
+
+### lookupConfirmVaultOnCreate
+
+With this set, you can pick the vault for new notes.  
+
+## VSCode Config
 ### dendron.dailyJournalDomain
 - type: string
 - default: daily

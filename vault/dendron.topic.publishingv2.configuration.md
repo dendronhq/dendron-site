@@ -2,10 +2,12 @@
 id: f2ed8639-a604-4a9d-b76c-41e205fb8713
 title: Configuration
 desc: ''
-updated: 1609883828421
+updated: 1610165581314
 created: 1608528797892
 nav_order: 3
 ---
+
+## Summary
 Dendron lets you control publication behavior at multiple levels:
 
 - **globally** using `dendronConfig.site` 
