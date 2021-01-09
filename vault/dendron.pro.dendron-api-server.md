@@ -2,9 +2,10 @@
 id: 554d3c62-29da-4c86-9d16-f910e36ad7b1
 title: Ops
 desc: ''
-updated: 1608485512270
+updated: 1610144187255
 created: 1606628243560
 ---
+
 ### Initialize a workspace
 
 - NOTE: specific to kevin's vault, modify for your own

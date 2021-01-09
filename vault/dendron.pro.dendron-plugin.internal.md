@@ -2,7 +2,7 @@
 id: 4b8f0470-dacb-433b-8d0c-f5a7d8f5245d
 title: Lookup
 desc: ''
-updated: 1608838053693
+updated: 1610160273101
 created: 1608838048476
 ---
 ```ts
@@ -96,61 +96,8 @@ onTriggerButton {
 - SchemaWatcher
 - FileWatcher
 
-# Startup
 
-- file: plugin-core/src/\_extension.ts
-
-```ts
-_activate {
-    ws :=
-
-    if ws.isActive {
-        port = startServer
-        updateEngineAPI(port)
-        startLSPClient
-        ws.reloadWorkspace
-        ws.activateWatchers
-    }
-
-}
-```
-
-- reloadWorkspace
-
-```ts
-reloadWorkspace {
-    ws.reloadWorkspace
-    if isFirstInstall {
-        showTutorial
-    }
-    postReloadWorkspace
-    emit(extension, initialized)
-}
-```
-
-- postReloadWorkspace
-
-```ts
-postReloadWorkspace {
-    ws :=
-    previousWsVersion = config.get(WORKSPACE_STATE.WS_VERSION)
-
-    if previousWsVersion == 0.0.0 {
-        execute(Upgrade)
-        config.set(WORKSPACE_STATE.WS_VERSION, ws.version)
-    } else {
-        newVersion :=
-        if (newVersion > previousWsVersion) {
-            execute(Upgrade)
-            config.set(WORKSPACE_STATE.WS_VERSION, ws.version)
-            emit(extension, upgraded)
-        }
-    }
-}
-
-```
-
-## Welcome Message
+# Welcome Message
 
 - file: plugin-core/src/\_extension.ts
 
@@ -202,3 +149,12 @@ addVaultToWorkspace vault:
     addToWorkspaceFile(vault)
 ```
 
+
+# Reload Index
+
+```ts
+ws.getEngine()
+engine.vaultsv3.map {
+
+}
+```
