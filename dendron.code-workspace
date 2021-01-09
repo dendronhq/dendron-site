@@ -26,6 +26,7 @@
         "dendron.defaultScratchDateFormat": "Y.MM.DD-HHmmss",
         "dendron.defaultScratchAddBehavior": "childOfDomainNamespace",
         "dendron.copyNoteUrlRoot": "https://dendron.so",
+        "dendron.logLevel": "debug",
         "pasteImage.path": "${currentFileDir}/assets/images",
         "pasteImage.prefix": "/",
         "editor.minimap.enabled": false,
@@ -41,7 +42,6 @@
         "editor.suggest.snippetsPreventQuickSuggestions": false,
         "editor.suggest.showSnippets": true,
         "editor.tabCompletion": "on",
-        "dendron.logLevel": "debug",
         "workbench.colorCustomizations": {
             "activityBar.activeBackground": "#65c89b",
             "activityBar.activeBorder": "#945bc4",
