@@ -2,7 +2,7 @@
 id: f2ed8639-a604-4a9d-b76c-41e205fb8713
 title: Configuration
 desc: ''
-updated: 1610165581314
+updated: 1610296907774
 created: 1608528797892
 nav_order: 3
 ---
@@ -130,7 +130,6 @@ Writing stubs is important to guarantee permanent urls as Dendron will randomize
 #### gh_edit_link
 
 - default: true
-
 Show a edit on github link at the bottom of the page
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/publish.edit-on-github.jpg)
@@ -138,6 +137,8 @@ Show a edit on github link at the bottom of the page
 #### gh_edit_repository
 
 the URL of the project's GitHub repository
+
+- NOTE: if you are using [[remote vaults|dendron.concepts#remote-vault]], this value will be ignored and the [[remote url|dendron.topic.config#remote]] will be used instead
 
 #### gh_edit_branch
 

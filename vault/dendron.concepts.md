@@ -2,11 +2,10 @@
 id: c6fd6bc4-7f75-4cbb-8f34-f7b99bfe2d50
 title: Concepts
 desc: ''
-updated: 1610064865923
+updated: 1610233079324
 created: 1595169512265
 nav_order: 3
 ---
-## Concepts
 
 Below are some concepts that are helpful to know when using Dendron. Note that features with 🚧 are still under active development and might not be fully implemented.
 
@@ -23,7 +22,7 @@ You can read more about the frontmatter used in Dendron [[here |dendron.topic.fr
 ### Workspace
 In Dendron, your **workspace** is the root of where all your files are located. It's set when you first run `Dendron: Initialize Workspace`. The folder that contains your workspace is also known as your **workspace root**.
 
-### Vaults 🚧
+### Vaults 
 Your workspace is made up of **vaults**. A dendron vault stores a collection of related notes. If you're familiar with git, it's just like a code repo. By default, Dendron creates a *vaults* folder when you first initialize a **workspace**. All your notes are stored on a per vault basis.
 
 ```
@@ -39,6 +38,18 @@ Your workspace is made up of **vaults**. A dendron vault stores a collection of 
 ```
 
 By default, when you look for notes in Dendron, it will search over all vaults.
+
+A vault can be one of two types: 
+- local 
+- remote
+
+#### Local Vault
+
+A local vault is what you start off with. Its a vault that is local to your file system.
+
+#### Remote Vault
+
+A remote vault is what you get when you run the [[Vault Add|dendron.topic.commands#vault-add]] command and select a remote vault. This is a vault that is cloned from a git repo. 
 
 ### Workspace Configuration
 Workspace configuration is located directly underneath the **workspace root**.  By convention, the default configuration is going to be in a folder titled **config**. This is also called the **configuration root**. A workspace can have multiple configurations that initializes your workspace with a different subset of vaults.

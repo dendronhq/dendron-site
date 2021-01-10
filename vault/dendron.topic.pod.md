@@ -2,7 +2,7 @@
 id: 66727a39-d0a7-449b-a10d-f6c438185d7f
 title: Pods
 desc: ''
-updated: 1604210875776
+updated: 1610233304410
 created: 1602958663144
 ---
 <img src="https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/pods.png" height="300px"/>
@@ -50,6 +50,6 @@ There are two types of pods:
 - builtin 
 - custom
 
-((ref:[[dendron.topic.pod.builtin]]#builtin pods:#*))
-((ref:[[dendron.topic.pod.custom]]#custom pods:#*))
+![[dendron.topic.pod.builtin#summary,1:#*]]
+![[dendron.topic.pod.custom#summary,1:#*]]
 
