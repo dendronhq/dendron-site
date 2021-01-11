@@ -2,7 +2,7 @@
 id: 5c213aa6-e4ba-49e8-85c5-1bdcb33ce202
 title: Special Notes
 desc: ''
-updated: 1595004457029
+updated: 1610401212952
 created: 1595004457029
 stub: false
 ---
@@ -25,11 +25,13 @@ To create a journal note, trigger a lookup and then click on the calendar icon.
 <a href="https://www.loom.com/share/3c3ddc1dc63547cea8bf186bec31f71b"> 
 <img style="" src="https://cdn.loom.com/sessions/thumbnails/3c3ddc1dc63547cea8bf186bec31f71b-with-play.gif"> </a>
 
-By default, Dendron will create the journal note with the following hierarchy `{domain}.journal.{Y-MM-DD}`. `{domain}` is the **domain** of the current active note when you execute `New Journal Note`. 
+By default, Dendron will create the journal note with the following hierarchy `{domain}.journal.{y.MM.dd}`. `{domain}` is the **domain** of the current active note when you execute `New Journal Note`. 
+
+A reference for date formatting tokens can be found [here](https://moment.github.io/luxon/docs/manual/formatting.html)
 
 ## Scratch Note
 
-A scratch note is a self contained note that is meant to be used as scratchpad. Use it for thoughts or when you want to expand on a bullet point. Scratch notes are created in the `scratch` domain and have the following format: `{domain}.journal.{Y-MM-DD-HHHHmmss}`. 
+A scratch note is a self contained note that is meant to be used as scratchpad. Use it for thoughts or when you want to expand on a bullet point. Scratch notes are created in the `scratch` domain and have the following format: `{domain}.journal.{y.MM.dd.HHmmss}`. 
 
 <a href="https://www.loom.com/share/2fd3042119124df8bb4592d8ffe6d708"> 
 <img style="" src="https://cdn.loom.com/sessions/thumbnails/2fd3042119124df8bb4592d8ffe6d708-with-play.gif"> </a>

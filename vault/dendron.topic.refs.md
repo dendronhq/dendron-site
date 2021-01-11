@@ -2,7 +2,7 @@
 id: f1af56bb-db27-47ae-8406-61a98de6c78c
 title: References
 desc: ''
-updated: 1608527239099
+updated: 1610403701022
 created: 1597356582509
 stub: false
 ---
@@ -17,14 +17,13 @@ Currently, Dendron supports 3 types of references:
 References have the following syntax
 
 ```
-((
-    ref: [[ NAME_OF_NOTE ]]                     # name of note, required
+![[ NAME_OF_NOTE 
     #STARTING_HEADER                            # optional
     :#ENDING_HEADER                             # optional
-))
+]]
 ```
 
-- NOTE: Dendron has a `Copy Note Ref` command that will copy the reference of the current note.
+- NOTE: Dendron recently switched the note ref syntax for `((ref: [[foo]]))` to `![[foo]]`. The videos have not yet been updated to reflect this change
 
 ## Configuration
 
@@ -45,7 +44,7 @@ You can create a ref either by hand or using the `Copy Note Ref` command.
 A note reference will include the entire contents of a note within another note. Below is an example of a note reference.
 
 ```
-((ref: [[dendron.demo.refs.sample]]))
+![[dendron.demo.refs.sample]]
 ```
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/refs.block.gif)
@@ -53,7 +52,7 @@ A note reference will include the entire contents of a note within another note.
 Note that references also respect the wildcard operator. The following example will include all child pages of sample. 
 
 ```
-((ref: [[dendron.demo.refs.sample.*]]))
+![[dendron.demo.refs.sample.*]]
 ```
 
 ## Block Reference
@@ -61,7 +60,7 @@ Note that references also respect the wildcard operator. The following example w
 A block reference will include the entire contents of a note starting from a specified heading. 
 
 ```
-((ref:[[demo.embed.block]]#head1))
+![[demo.embed.block#head1]]
 ```
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/ref-block.gif)
@@ -71,7 +70,7 @@ A block reference will include the entire contents of a note starting from a spe
 A block range reference will include the contents of a note starting from a `start` header and ending at a `end` header. 
 
 ```
-((ref:[[demo.embed.block]]#head1:#head3))
+![[demo.embed.block#head1:#head3]]
 ```
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/ref-block-range.gif)
@@ -83,7 +82,7 @@ A note reference offset is a way to skip a number of lines when using a note ref
 - NOTE: currently, note reference offsets are limited to the first anchor inside a block reference. They must also be a positive value
 
 ```
-((ref:[[demo.embed.block]]#head1,1))
+![[demo.embed.block#head1,1]]
 ```
 
 <a href="https://www.loom.com/share/31cb62916586453f8475f94ba68b74a1">  <img style="" src="https://cdn.loom.com/sessions/thumbnails/31cb62916586453f8475f94ba68b74a1-with-play.gif"> </a>
@@ -95,7 +94,7 @@ When you're referencing a header by reference, sometimes you don't care what the
 For example, the following would reference the content from header1 to the next header. 
 
 ```
-((ref:[[demo.embed.block]]#head1:#*))
+![[demo.embed.block#head1:#*]]
 ```
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/refs.wildcard.gif)

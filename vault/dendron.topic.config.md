@@ -2,7 +2,7 @@
 id: eea2b078-1acc-4071-a14e-18299fc28f48
 title: Config
 desc: ''
-updated: 1610297440940
+updated: 1610403907025
 created: 1595261816971
 ---
 
@@ -81,9 +81,9 @@ name used for journal notes
 
 ### dendron.defaultJournalDateFormat
 - type: string
-- default: Y.MM.DD
+- default: y.MM.dd
 
-date format used for journal notes
+Date format used for journal notes. Use [luxon style formatting](https://moment.github.io/luxon/docs/manual/formatting.html)
 
 ### dendron.defaultJournalAddBehavior
 - type: string
@@ -96,11 +96,11 @@ strategy for adding new journal notes
 - type: string
 - default: scratch
 
-name used for scratch notes
+Name used for scratch notes. Date format used for scratch notes. Use [luxon style formatting](https://moment.github.io/luxon/docs/manual/formatting.html)
 
 ### dendron.defaultScratchDateFormat
 - type: string
-- default: Y.MM.DD.HHmmss
+- default: y.MM.dd.HHmmss
 
 date format used for scratch notes
 

@@ -2,7 +2,7 @@
 id: c93938a4-0938-49d0-aca2-00e624793650
 title: Selective Publication
 desc: ''
-updated: 1610165600940
+updated: 1610397565906
 created: 1609883716869
 ---
 In Dendron, you control what gets published. 
@@ -21,3 +21,9 @@ In Dendron, you control what gets published.
 
 ![[dendron.topic.publishingv2.configuration#note-configuration:#nav_exclude]]
 
+
+## 403 Page
+
+If you link to a page that is not published, Dendron will show users a 403 page with the following content
+
+![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/publishv2.unpublished.jpg)

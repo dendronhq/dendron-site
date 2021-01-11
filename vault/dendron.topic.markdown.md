@@ -2,7 +2,7 @@
 id: ba97866b-889f-4ac6-86e7-bb2d97f6e376
 title: Markdown
 desc: ''
-updated: 1610065630213
+updated: 1610403757316
 created: 1598673110284
 ---
 - Notice: all references of `MPE` in this guide is in reference to `Dendron Markdown Preview Enhanced`, the default markdown renderer of Dendron
@@ -171,6 +171,10 @@ puts markdown.to_html
 - [ ] this is an incomplete item
 ```
 
+## Extended Syntax
+
+These are non-standard markdown syntax used in Dendron. Everything here is both available in Dendron's preview as well as when publishing.
+
 ### Tables
 
 You can create tables by assembling a list of words and dividing them with hyphens `-` (for the first row), and then separating each column with a pipe `|`:
@@ -206,6 +210,11 @@ Content [^1]
 
 [^1]: Hi! This is a footnote
 ```
+
+### Frontmatter Variable Substitution
+
+You can use variables defined in your note frontmatter inside your note. The syntax is `{{fm.VAR_NAME}}` where `VAR_NAME` is the name of your variable. The `fm` designates that you want to use a frontmatter variable. 
+
 
 <!-- 
 ## Extended syntax
