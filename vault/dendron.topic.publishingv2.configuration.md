@@ -2,7 +2,7 @@
 id: f2ed8639-a604-4a9d-b76c-41e205fb8713
 title: Configuration
 desc: ''
-updated: 1610296907774
+updated: 1610473908509
 created: 1608528797892
 nav_order: 3
 ---
@@ -46,6 +46,21 @@ Prefix for assets.
 - default: true
 
 Copy assets from vault to site.
+
+### customHeaderPath (optional)
+
+If set, set path to a custom header file (relative to your workspace root) which will be included in all your published pages
+
+```yml
+site:
+  ...
+  customHeaderPath: header.html
+```
+
+- header.html
+```
+<script> console.log("hello world"); </script>
+```
 
 ### duplicateNoteBehavior (optional)
 
