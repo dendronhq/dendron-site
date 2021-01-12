@@ -2,7 +2,7 @@
 id: f2ed8639-a604-4a9d-b76c-41e205fb8713
 title: Configuration
 desc: ''
-updated: 1610473908509
+updated: 1610475843409
 created: 1608528797892
 nav_order: 3
 ---
@@ -75,6 +75,12 @@ duplicateNoteBehavior:
     vault: 
       fsPath: {path_to_vault}
 ```
+
+### ga_tracking (optional)
+
+Your ga tracking number if you want to add google analytics. 
+
+- NOTE: won't be included in `dev` preview
 
 ### githubCname (optional)
 
