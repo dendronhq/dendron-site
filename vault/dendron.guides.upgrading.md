@@ -2,7 +2,7 @@
 id: 21c1288a-6fb8-42f5-90c0-9b3cc7d872ad
 title: Upgrading
 desc: ''
-updated: 1609787243336
+updated: 1610601370405
 created: 1595010631247
 stub: false
 nav_order: 1.2
@@ -26,7 +26,7 @@ You can find the list of all bundled extensions [[here|dendron.topic.extensions]
 To upgrade the CLI and 11ty, you need to manually run the following commands in your workspace:
 
 ```
-npm install @dendronhq/dendron-cli@latest
+npm install --save @dendronhq/dendron-cli@latest
 npm install --save @dendronhq/dendron-11ty@latest
 ```
 

@@ -2,7 +2,7 @@
 id: 64f0e2d5-2c83-43df-9144-40f2c68935aa
 title: Setup
 desc: ''
-updated: 1609550313648
+updated: 1610681578164
 created: 1598651458825
 stub: false
 ---
@@ -29,7 +29,9 @@ npm install
   - new dependencies might have been picked up between pulls and this makes sure that they are installed
 
 ```bash
-./bootstrap/scripts/init.sh
+npm run bootstrap:bootstrap
+npm run-script bootstrap:build 
+npm run-script bootstrap:build:plugin-core:sync-vault 
 ```
 
 - we recommend you use `vscode` to develop for dendron. there is a `dendron.code-workspace` file in the root of the monorepo that you should use when developing

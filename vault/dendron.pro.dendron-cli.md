@@ -1,8 +1,8 @@
 ---
 id: 8b03ed06-4f46-46e0-8652-c6abf2266a79
-title: "Dendron CLI \U0001F6A7"
+title: "Dendron CLI"
 desc: ''
-updated: 1609784186517
+updated: 1610687842501
 created: 1599709645355
 stub: false
 ---

@@ -2,7 +2,7 @@
 id: 784b8d5e-58eb-4e3e-98b0-8ed1690abc74
 title: Working with Notes
 desc: ''
-updated: 1608752995225
+updated: 1610686075414
 created: 1608055635963
 nav_order: 0
 ---
@@ -15,7 +15,7 @@ In this section, we will demonstrate how to create and find notes inside Dendron
 
 To create a note, `<cmd>+L` (mac) or `<ctrl>+L` (windows/linux) to bring up Dendron's [[lookup|dendron.topic.lookup]]. 
 
-((ref: [[dendron.topic.lookup.create]]#summary,1:#*))
+![[dendron.topic.lookup.create#summary,1:#*]]
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/quickstart.hello.png)
 

@@ -2,14 +2,14 @@
 id: 877f4347-f013-43ba-aec4-87412b2e1bec
 title: Github
 desc: ''
-updated: 1610680996663
+updated: 1610687706858
 created: 1608770937168
 ---
 This guide describes publishing to github using github actions
 
 ## Pre-requisite
 
-- we assume that you already have your workspace under version control. 
+- we assume that you already have your workspace under version control and a repository on github
 
 ## Setup
 
