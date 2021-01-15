@@ -2,71 +2,11 @@
 id: eea2b078-1acc-4071-a14e-18299fc28f48
 title: Config
 desc: ''
-updated: 1610403907025
+updated: 1595261816971
 created: 1595261816971
 ---
 
-Dendron configuration currently lives in two places:
-- Dendron config: `dendron.yml` located at the root of your workspace
-- VSCode config: `dendron.code-workspace`: the vscode workspace file 
-
-## Dendron Config
-
-### lookupConfirmVaultOnCreate
-
-With this set, you can pick the vault for new notes.  
-
-### useFMTitle
-
-When set to true, use frontmatter as title when publishing and in the preview.
-
-### vaults
-
-Tracks [[vaults|dendron.concepts#vaults]] for the workspace. You shouldn't have to manually edit this value. This is updated automatically when you first initialize a workspace and when you add or remove vaults to your workspace.
-
-#### Vault properties:
-
-##### fsPath
-- file path to vault
-
-##### name
-- default: last component of `fsPath`
-
-vault name 
-
-##### remote?
-- added property for [[remote vaults|dendron.concepts#remote-vault]]
-- properties
-    - type: currently only `git` is supported (in the future, we might add additional types)
-    - url: url to github repo
-
-
-#### Local Vault Example
-```yml
-vaults:
-    - fsPath: vault
-```
-
-
-#### Remote Vault Example
-```yml
-vaults:
-    -
-        fsPath: repos/dendron-vault
-        remote:
-            type: git
-            url: 'git@github.com:kevinslin/dendron-vault.git'
-        name: dendron
-    -
-        fsPath: repos/yc-vault
-        remote:
-            type: git
-            url: 'git@github.com:kevinslin/yc-vault.git'
-        name: yc
-```
-
-
-## VSCode Config
+# Config
 ### dendron.dailyJournalDomain
 - type: string
 - default: daily
@@ -83,7 +23,7 @@ name used for journal notes
 - type: string
 - default: y.MM.dd
 
-Date format used for journal notes. Use [luxon style formatting](https://moment.github.io/luxon/docs/manual/formatting.html)
+date format used for journal notes
 
 ### dendron.defaultJournalAddBehavior
 - type: string
@@ -96,7 +36,7 @@ strategy for adding new journal notes
 - type: string
 - default: scratch
 
-Name used for scratch notes. Date format used for scratch notes. Use [luxon style formatting](https://moment.github.io/luxon/docs/manual/formatting.html)
+name used for scratch notes
 
 ### dendron.defaultScratchDateFormat
 - type: string

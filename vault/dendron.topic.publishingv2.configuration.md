@@ -2,7 +2,7 @@
 id: f2ed8639-a604-4a9d-b76c-41e205fb8713
 title: Configuration
 desc: ''
-updated: 1610475843409
+updated: 1610689613526
 created: 1608528797892
 nav_order: 3
 ---
@@ -210,11 +210,25 @@ site:
 
 To set options for **all** hierarchies, set `{hiearchy name}` to **root**.
 
-### publishByDefault:
+### publishByDefault
 
-- default: true
+- default: true 
+- values: true|false|hashByVault
 
 If set to false, dendron will only publish notes within the hierarchy that have `published: true` set in the frontmatter
+
+If set as a hash, you can further specify `publishByDefault` settings on a per vault basis. The key is the name of the vault and the value is a boolean. 
+
+For example, the following config says that the `finance` hiearchy in the `public` vault should all be published but that the `finance` hiearchy in the `private` vault should not
+
+```yml
+site: 
+  config:
+    finance:
+      publishByDefault:
+        public: true
+        private: false
+```
 
 ### noindexByDefault
 
