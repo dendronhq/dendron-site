@@ -2,7 +2,7 @@
 id: 877f4347-f013-43ba-aec4-87412b2e1bec
 title: Github
 desc: ''
-updated: 1609538101517
+updated: 1610680996663
 created: 1608770937168
 ---
 This guide describes publishing to github using github actions
@@ -39,8 +39,8 @@ git checkout main
   },
   "license": "CC BY 4.0",
   "devDependencies": {
-    "@dendronhq/dendron-11ty": "^1.22.0",
-    "@dendronhq/dendron-cli": "^0.22.0"
+    "@dendronhq/dendron-11ty": "^1.24.4",
+    "@dendronhq/dendron-cli": "^0.24.0"
   }
 }
 ```
@@ -91,7 +91,10 @@ git push
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/publishv2.pages.jpg)
 
-7. Github actions will update your page every time you push. You might have to add a change and push before your changes will show up. 
+7. Github actions will update your page every time you push. You might have to add a change and push before your changes will show up. You can verify that your action is running by clicking on the actions tab in github.
+
+![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/publishv2.actions.jpg)
+
 
 <!-- 
 1. Run > Dendron: Doctor
