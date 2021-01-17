@@ -1,8 +1,8 @@
 ---
 id: 17c61d62-f92e-4002-b8fe-9c05686e4bf9
-title: Dendron - Next Edition
+title: RFC 1 - Dendron: Next Edition
 desc: ''
-updated: 1610911902273
+updated: 1610912086096
 created: 1610911846754
 ---
 
@@ -46,3 +46,7 @@ created: 1610911846754
 - [ ] bundle next.js with dendron using custom router
 - [ ] add api to dendron engine to preview a note
 - [ ] update `Dendron: Show Preview` command to call API with current note
+
+## Related
+
+- [Code for rendering webview currently](https://github.com/dendronhq/dendron/blob/master/packages/plugin-core/src/commands/ConfigureWithUI.ts#L6:L6)
