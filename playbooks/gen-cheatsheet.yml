@@ -17,11 +17,11 @@
       template:
         src: templates/cheatsheet.md.j2
         dest: "../vault/dendron.cheatsheet.md"
-    - name: include config vars
-      include_vars:
-        file: ../data/generated-config.json
-        name: config
-    - name: create config
-      template:
-        src: templates/config.md.j2
-        dest: "../vault/dendron.topic.config.md"
+    # - name: include config vars
+    #   include_vars:
+    #     file: ../data/generated-config.json
+    #     name: config
+    # - name: create config
+    #   template:
+    #     src: templates/config.md.j2
+    #     dest: "../vault/dendron.topic.config.md"
