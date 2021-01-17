@@ -2,7 +2,7 @@
 id: 587e6d62-3c5b-49b0-aedc-02f62f0448e6
 title: Graph View
 desc: ''
-updated: 1595120707814
+updated: 1610908980098
 created: 1595120707814
 stub: false
 ---
@@ -32,11 +32,10 @@ Show your note schemas visually in a graph. Schemas will be labelled by their `t
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/graphs.show-schema.gif)
 
-### Dendron: Reload Graphs
+### Dendron: Sync Note Graph
 
-Reload all graphs. Use this when you update a schema or add/remove files from within your workspace. 
+Updates the note graph with most recent changes
 
-- NOTE: This command acts over all **open** graph panels. If you have closed a panel, you must re-open it for Dendron to reload it
+### Dendron: Sync Schema Graph
 
-![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/graphs.reload.gif)
-
+Updates the schema graph with most recent changes
