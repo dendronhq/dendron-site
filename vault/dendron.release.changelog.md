@@ -2,9 +2,9 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1610992670780
+updated: 1610994187844
 created: 1601508213606
-date: 2021-01-07
+date: 2021-01-19
 ---
 
 ## 0.24.2
