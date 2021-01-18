@@ -2,10 +2,54 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1610407009552
+updated: 1610992670780
 created: 1601508213606
 date: 2021-01-07
 ---
+
+## 0.24.2
+
+### Features
+
+#### Site Build and Preview built-in to extension
+
+You can now publish and build your notes without going to the command line ([[docs|dendron.topic.commands#site-build]])
+
+### Enhancements
+- show progress bar when syncing graph
+- show progress bar when installing node modules
+- [[useFMTitle|dendron.topic.config#usefmtitle]] set to true by default
+- add `.gitignore` to newly created workspace
+- [[Copy Note Url|dendron.topic.commands#copy-note-url]] uses `siteUrl` as value for noteRef
+
+### Bug Fixes
+- fix issues with nav capitalization
+- fix dup items in nav
+- windows site preview not cleaning up child processes
+- fix note graph errors
+
+### Docs
+- revamped publishing docs
+
+### House Cleaning
+- jekyll based publishing is now deprecated 
+- [[dendron.copyNoteUrlRoot|dendron.topic.config#dendroncopynoteurlroot]] deprecated for `siteUrl`
+
+## 0.24.1
+
+### Features
+
+### Enhancements
+- enable pass dict to config ([ccbc017](https://github.com/dendronhq/dendron/commit/ccbc0178cdc0399230a47e4ab1c90d345e447aeb))
+- use enhanced filter when creating 403 links ([65afe8c](https://github.com/dendronhq/dendron/commit/65afe8c084d1a657e943edb3ef1b497f3fd97ea6))
+- custom header support ([[docs|dendron.topic.publishingv2.configuration#customheaderpath-optional]])
+  - [[add custom headers|scratch.2021.01.12.085012.add-custom-headers]]
+- google analytics support ([[docs|dendron.topic.publishingv2.configuration#ga_tracking-optional]])
+- [[Multi Vault Edit on GitHub|dendron.scratch.2021.01.09.multi-vault-edit-on-github]]
+
+### Bug Fixes
+- fix multi-vault breadcrump null issue 
+- fix windows build for site
 
 ## 0.23.2
 

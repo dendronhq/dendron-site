@@ -1,8 +1,8 @@
 ---
 id: 17c61d62-f92e-4002-b8fe-9c05686e4bf9
-title: RFC 1 - Dendron: Next Edition
+title: "RFC 1 - Dendron: Next Edition"
 desc: ''
-updated: 1610912086096
+updated: 1610928149160
 created: 1610911846754
 ---
 

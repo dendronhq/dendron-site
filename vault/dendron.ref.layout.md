@@ -2,7 +2,7 @@
 id: 3bff1195-1d13-4e7a-bc2f-7e4cc617109c
 title: Layout
 desc: ''
-updated: 1610233387271
+updated: 1610926662178
 created: 1596740451789
 stub: false
 ---
@@ -16,6 +16,7 @@ stub: false
 ├── .dendron.port
 ├── .dendron.meta
 ├── docs/
+├── .gitignore
 └── vault/
     ├── root.md
     ├── root.schema.md
@@ -33,6 +34,8 @@ stub: false
   - writes the port that the [[dendron engine|dendron.pro.dendron-engine]] is listening to
 - .dendron.meta
   - writes dendron specific metadata
+- .gitignore
+  - add special notes 
 - docs/ 
   - used to generate a static site from your vault
 - vault/ 

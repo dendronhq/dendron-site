@@ -2,7 +2,7 @@
 id: d508e0f9-8bbe-43b4-83c1-0ff022b1d4fb
 title: Release Notes (version 0.24)
 desc: ''
-updated: 1610407085233
+updated: 1610992516921
 created: 1610403349466
 ---
 
@@ -15,20 +15,6 @@ Dendron 0.24 has sprouted :seedling:
   - use variables defined in your frontmatter inside your notes!
 - markdown improvements for preview and publishing ([[docs|dendron.topic.markdown#extended-syntax]])
 - bugs and performance related changes
-
-<!--
-- build and preview site inside vscode  ([[docs|dendron.topic.commands#site-build]])
-  - NOTE: mac and linux only. windows support coming soon!
-### Deprecations
-- [[dendron v1|dendron.topic.publishing]] publishing is now being deprecated
-    - all users are encouraged to switch to [[Publishing V2 (Preview)|dendron.topic.publishingv2]]
-    - support until end of January at which point we will be removing v1 related functionality 
-    - this includes
-        - [[Build Pod Command|dendron.topic.commands#build-pod]]
-        - [[Publish Command|dendron.topic.commands#publish]]
-        - [[buildSite CLI|dendron.pro.dendron-cli#buildsite]]
-        - [[publishnotes CLI|dendron.pro.dendron-cli#publishnotes]]
--->
 
 ### Breaking Changes
 - update date format for journal and scratch notes to use [Luxon style formatting](https://moment.github.io/luxon/docs/manual/formatting.html) ([[docs|dendron.topic.config#dendrondefaultjournaldateformat]])

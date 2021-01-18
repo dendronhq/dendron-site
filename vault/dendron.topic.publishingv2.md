@@ -1,8 +1,8 @@
 ---
 id: 857936de-1bd5-4666-8ea9-a218d426c7ec
-title: Publishing V2 (Preview)
+title: Publishing V2 
 desc: ''
-updated: 1608528612584
+updated: 1610993383621
 created: 1608528160486
 nav_order: 3
 ---

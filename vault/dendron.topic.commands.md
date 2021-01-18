@@ -2,7 +2,7 @@
 id: eea2b078-1acc-4071-a14e-18299fc28f47
 title: Commands
 desc: ''
-updated: 1595261816971
+updated: 1610992339410
 created: 1595261816971
 ---
 
@@ -404,10 +404,11 @@ Publish your note to a different format/location
   - mac: `cmd+shift+u`
   - windows: `ctrl+shift+u`
 
-
 Get URL of current note from published site
 
- If you highlight a header, will copy the url with the header set as the anchor 
+If you highlight a header, will copy the url with the header set as the anchor 
+
+The url is taken from the [[siteUrl|dendron.topic.publishingv2.configuration#siteurl-required]] property.
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/notes.copy-url.gif)
 
@@ -429,18 +430,16 @@ Build, commit and publish your notes with a single command
 
 Build your notes using publishing v2
 
- This command works by running `dendron-cli` in the background. 
+This command works by running `dendron-cli` in the background. 
 
 
 
 ### Site Preview
 - shortcuts: none
 
+Preview your notes on localhost using publishing v2.
 
-Preview your notes on localhost using publishing v2
-
- This command works by running `dendron-cli` in the background. 
-
+This command works by running `dendron-cli` in the background. 
 
 
 ---
