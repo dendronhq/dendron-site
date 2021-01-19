@@ -11,10 +11,6 @@
         },
         {
             "path": "build"
-        },
-        {
-            "name": "dendron-site @ c8f778e",
-            "uri": "gitlens://c8f778e/Users/kevinlin/projects/dendronv2/dendron-site?{\"path\":\"/Users/kevinlin/projects/dendronv2/dendron-site\",\"ref\":\"c8f778e5e34c23ceb40c3e84d275bb9800a22792\",\"repoPath\":\"/Users/kevinlin/projects/dendronv2/dendron-site\"}"
         }
     ],
     "settings": {
