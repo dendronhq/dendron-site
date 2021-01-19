@@ -2,7 +2,7 @@
 id: 81da87be-2d4e-47b5-a1d6-c0d647e1ab00
 title: Development
 desc: ''
-updated: 1611097552048
+updated: 1611097616133
 created: 1604236041570
 ---
 If you would like to contribute to the development of dendron, checkout out the [repo](https://github.com/dendronhq/dendron) from github.
@@ -25,7 +25,8 @@ Remember that you are always welcome to ask for help inside the [#dev discord ch
 
 - we follow [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/) with the following tags
 - categories:
-    - chore: backend improvements
     - feat: feature - introduce new functionality
     - enhance: enhancement - improve existing functionality
+    - fix: make something not broken
+    - chore: backend improvements
     - spike: not complete commit
