@@ -2,7 +2,7 @@
 id: 81da87be-2d4e-47b5-a1d6-c0d647e1ab00
 title: Development
 desc: ''
-updated: 1607879214451
+updated: 1611097552048
 created: 1604236041570
 ---
 If you would like to contribute to the development of dendron, checkout out the [repo](https://github.com/dendronhq/dendron) from github.
@@ -20,3 +20,12 @@ Remember that you are always welcome to ask for help inside the [#dev discord ch
 - [ ] if its your first pull request to Dendron, watch out for the [CLA](https://en.wikipedia.org/wiki/Contributor_License_Agreement) bot that will ask you to agree to Dendron's CLA
 - [ ] if its your first pull request and you're on our Discord, make sure that Kevin gives you the [[horticulturalist|dendron.community.roles#horticulturalist]] role  👨‍🌾👩‍🌾
 
+
+## Commit Style
+
+- we follow [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/) with the following tags
+- categories:
+    - chore: backend improvements
+    - feat: feature - introduce new functionality
+    - enhance: enhancement - improve existing functionality
+    - spike: not complete commit
