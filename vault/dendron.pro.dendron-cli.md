@@ -2,7 +2,7 @@
 id: 8b03ed06-4f46-46e0-8652-c6abf2266a79
 title: "Dendron CLI"
 desc: ''
-updated: 1610687842501
+updated: 1611159191428
 created: 1599709645355
 stub: false
 ---
@@ -69,7 +69,7 @@ dendron-cli launchEngineServer --wsRoot ~/Dendron/ --vaults ~/Dendron/vault --po
 
 ## Publishing Commands
 
-### buildSite
+### buildSite (DEPRECATED)
 
 Build dendron site. 
 
@@ -95,7 +95,7 @@ Options:
 dendron-cli buildSite --wsRoot . --vault ./vault 
 ```
 
-### publishNotes
+### publishNotes (DEPRECATED)
 
 Publish a dendron site
 

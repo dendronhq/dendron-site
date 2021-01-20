@@ -2,7 +2,7 @@
 id: 64f0e2d5-2c83-43df-9144-40f2c68935aa
 title: Setup
 desc: ''
-updated: 1610681578164
+updated: 1611098346414
 created: 1598651458825
 stub: false
 ---
@@ -62,12 +62,6 @@ In case something something goes wrong with a build step or you want to save tim
 
 - ./bootstrap/scripts/bootstrap.sh: `lerna bootstrap all packages`
 - ./bootstrap/scripts/build.sh: `lerna build all packages`
-- initialize template repo (this bundles the latest [dendron-template](https://github.com/dendronhq/dendron-template) with the plugin so that the right notes are initialized when a user creates their first workspace)
-
-```bash
- cd packages/plugin-core/
- ./scripts/sync_vault.sh
-```
 
 ### Changes not showing up in Dendron
 

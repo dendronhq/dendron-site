@@ -2,7 +2,7 @@
 id: eea2b078-1acc-4071-a14e-18299fc28f47
 title: Commands
 desc: ''
-updated: 1610992339410
+updated: 1611107712772
 created: 1595261816971
 ---
 
@@ -108,8 +108,7 @@ Show Markdown Preview
 
 Initiate note lookup
 
- ((ref: [[dendron.topic.lookup]]#notes,1:#schemas)) 
-
+![[dendron.topic.lookup]]
 
 
 ### Lookup (Journal Note)
@@ -121,9 +120,6 @@ Initiate note lookup
 
 Initiate note lookup with journal note pre-selected
 
- ((ref: [[dendron.topic.lookup]]#notes,1:#schemas)) 
-
-
 
 ### Lookup (Scratch Note)
 - shortcuts: 
@@ -133,9 +129,6 @@ Initiate note lookup with journal note pre-selected
 
 
 Initiate note lookup with scratch note pre-selected
-
- ((ref: [[dendron.topic.lookup]]#notes,1:#schemas)) 
-
 
 
 ### Lookup Schema

@@ -2,7 +2,7 @@
 id: a6c03f9b-8959-4d67-8394-4d204ab69bfe
 title: Troubleshooting
 desc: ''
-updated: 1609606578560
+updated: 1611159433512
 created: 1595952505025
 ---
 ## Diagnosing
@@ -82,6 +82,10 @@ They both have identical icons and its currently not possible to disable the bui
 Meanwhile, you can open Dendron's markdown preview by clicking the preview button on the left of the menu bar or by using the `> Markdown Preview Enhanced: Open Preview to the Side` command
 
 ![Markdown preview](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/trouble-md.png)
+
+### Still initializing.  Please close this window and try again after Dendron has been initialized.
+
+When Dendron starts up, it initializes a local server which is responsible for indexing notes and fetching note metadata. Plugins like the preview depend on the server being initialized before activating. You'll know the server is initialized after you see a `Dendron is activated` notification.
 
 ## Linux
 
