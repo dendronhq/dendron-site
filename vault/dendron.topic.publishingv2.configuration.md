@@ -2,7 +2,7 @@
 id: f2ed8639-a604-4a9d-b76c-41e205fb8713
 title: Configuration
 desc: ''
-updated: 1610928087855
+updated: 1611193822095
 created: 1608528797892
 nav_order: 3
 ---
@@ -87,6 +87,7 @@ Your ga tracking number if you want to add google analytics.
 - default: none
 
 Cname used for github pages
+
 
 ### siteFaviconPath (optional)
 

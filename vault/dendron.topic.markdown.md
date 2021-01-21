@@ -2,7 +2,7 @@
 id: ba97866b-889f-4ac6-86e7-bb2d97f6e376
 title: Markdown
 desc: ''
-updated: 1610403757316
+updated: 1611193855836
 created: 1598673110284
 ---
 - Notice: all references of `MPE` in this guide is in reference to `Dendron Markdown Preview Enhanced`, the default markdown renderer of Dendron
@@ -215,6 +215,31 @@ Content [^1]
 
 You can use variables defined in your note frontmatter inside your note. The syntax is `{{fm.VAR_NAME}}` where `VAR_NAME` is the name of your variable. The `fm` designates that you want to use a frontmatter variable. 
 
+### Diagrams 
+
+Dendron lets you create Diagrams using [mermaid](https://mermaid-js.github.io/mermaid/#/)
+Create a code block with mermaid support to use mermaid. The following block turns into the diagram below.
+
+<pre>
+```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
+</pre>
+
+
+```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
+
+- NOTE: in order to publish diagrams, you'll need to enable [[mermaid in the config|dendron.topic.config#mermaid-optional]]
 
 <!-- 
 ## Extended syntax

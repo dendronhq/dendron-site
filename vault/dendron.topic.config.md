@@ -2,7 +2,7 @@
 id: eea2b078-1acc-4071-a14e-18299fc28f48
 title: Config
 desc: ''
-updated: 1610923509833
+updated: 1611193841038
 created: 1595261816971
 ---
 
@@ -15,6 +15,11 @@ Dendron configuration currently lives in two places:
 ### lookupConfirmVaultOnCreate
 
 With this set, you can pick the vault for new notes.  
+
+### mermaid (optional)
+- default: false
+
+Turn on to enable [[mermaid support|dendron.topic.markdown#diagrams]]
 
 ### useFMTitle
 
