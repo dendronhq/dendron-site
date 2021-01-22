@@ -2,7 +2,7 @@
 id: f2ed8639-a604-4a9d-b76c-41e205fb8713
 title: Configuration
 desc: ''
-updated: 1611193822095
+updated: 1611279618686
 created: 1608528797892
 nav_order: 3
 ---
@@ -75,6 +75,18 @@ duplicateNoteBehavior:
     vault: 
       fsPath: {path_to_vault}
 ```
+
+#### passing multiple vaults
+
+Instead of passing a vault, you can also pass a string of [[vault names|dendron.topic.config#name]]. When a duplicate is found, Dendron will go throw the vaults in your list from left to right and resolve to the first one that matches.
+
+```yml
+duplicateNoteBehavior: 
+  action: "useVault"
+  payload: [yc, dendron, dendron-site]
+```
+
+
 
 ### ga_tracking (optional)
 

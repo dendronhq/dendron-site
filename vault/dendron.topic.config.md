@@ -2,7 +2,7 @@
 id: eea2b078-1acc-4071-a14e-18299fc28f48
 title: Config
 desc: ''
-updated: 1611193841038
+updated: 1611281264583
 created: 1595261816971
 ---
 
@@ -24,6 +24,12 @@ Turn on to enable [[mermaid support|dendron.topic.markdown#diagrams]]
 ### useFMTitle
 
 When set to true, use frontmatter as title when publishing and in the preview.
+
+### useNoteTitleForLink
+
+If true, use the note title when displaying naked links
+
+### [[Blocked|dendron.weekly.2021.01.25#blocked]]
 
 ### vaults
 
