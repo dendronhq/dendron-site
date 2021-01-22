@@ -2,7 +2,7 @@
 id: f2ed8639-a604-4a9d-b76c-41e205fb8713
 title: Configuration
 desc: ''
-updated: 1611279618686
+updated: 1611338010908
 created: 1608528797892
 nav_order: 3
 ---
@@ -100,6 +100,11 @@ Your ga tracking number if you want to add google analytics.
 
 Cname used for github pages
 
+### logo (optional)
+- default: none
+- eg: `vault/assets/images/logo.png`
+
+Used to add a logo image for all headers
 
 ### siteFaviconPath (optional)
 
