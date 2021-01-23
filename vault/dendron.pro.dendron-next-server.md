@@ -2,7 +2,7 @@
 id: 7cdd9a74-8b8f-4564-906b-c963bed34273
 title: Dendron Next Server
 desc: ''
-updated: 1608485512285
+updated: 1611360654426
 created: 1604511741960
 ---
 ## Quickstart
@@ -38,8 +38,3 @@ ENGINE_ENDPOINT_PORT=3005
 ```
 
 Run `yarn dev` to start the next server 
-
-## Cookbook
-
-((ref:[[dendron.dev.cook]]#cookbook,1))
-
