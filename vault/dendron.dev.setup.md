@@ -2,7 +2,7 @@
 id: 64f0e2d5-2c83-43df-9144-40f2c68935aa
 title: Setup
 desc: ''
-updated: 1611098346414
+updated: 1611516142181
 created: 1598651458825
 stub: false
 ---
@@ -48,6 +48,7 @@ _Note: Running via Run -> Start Debugging will not work unless you've previously
 
 ## Tips
 
+### Watch Monorepo
 To continuously compile all dependencies, run the following
 
 ```bash
