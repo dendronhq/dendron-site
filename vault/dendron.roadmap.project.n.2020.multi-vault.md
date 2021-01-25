@@ -2,7 +2,7 @@
 id: 45cfb9f2-46cf-4f67-a41e-834818fbd06e
 title: Multi Vault Support
 desc: ''
-updated: 1606697880732
+updated: 1611593573560
 created: 1599501659137
 stub: false
 start: 2020.10.07
@@ -22,11 +22,10 @@ Users should be able to create multiple vaults for a given workspace. Each vault
 
 ## Concepts
 
-((ref:[[dendron.concepts]]#workspace:#*))
-((ref:[[dendron.concepts]]#vaults 🚧:#*))
-((ref:[[dendron.concepts]]#workspace configuration:#*))
-((ref:[[dendron.concepts]]#hierarchies:#*))
-((ref:[[dendron.concepts]]#domain:#*))
+![[dendron.concepts#workspace:#*]]
+![[dendron.concepts#vaults:#*]]
+![[dendron.concepts#hierarchies:#*]]
+![[dendron.concepts#domain:#*]]
 
 ## Specs
 
@@ -277,6 +276,8 @@ vaults:
 - path to vault
 
 #### {vault}.mountUnder
+
+**NOTE**: this is not implemented yet
 
 - optional
 - by default, all hierarchies are mounted at the root

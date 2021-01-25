@@ -2,7 +2,7 @@
 id: 401c5889-20ae-4b3a-8468-269def4b4865
 title: Cookbook
 desc: ''
-updated: 1609552748216
+updated: 1611597461245
 created: 1595952505024
 nav_order: 8.9
 toc: true
@@ -134,6 +134,11 @@ You can use the [markdownload-markdown-web](https://chrome.google.com/webstore/d
 ### Regex
 
 To get familiar with regex syntax, try [regexr](https://regexr.com/) is a great place to experiment with different queries.
+
+### Convert Local Vault to a Remote Vault
+1. Initialize local vault as a git repo and push it to a remote 
+1. Remove the local vault from your current workspace 
+1. Use the `Vault: Add` command and enter the remote url of the repo you would like to add
 
 ## Markdown Preview
 

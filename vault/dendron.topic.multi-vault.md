@@ -2,7 +2,7 @@
 id: 24b176f1-685d-44e1-a1b0-1704b1a92ca0
 title: Multi Vault
 desc: ''
-updated: 1610206770050
+updated: 1611597482577
 created: 1605630383515
 ---
 Multi vault lets you create multiple vaults for a given workspace. Each vault is a folder that can contain any number of hierarchies. 
@@ -16,7 +16,14 @@ Multi vault lets you create multiple vaults for a given workspace. Each vault is
 
 ## Quickstart
 
-Documentation for lookup is still being written. For _up to date_ docs, see the [[multi vault project page|dendron.roadmap.project.n.2020.multi-vault]].
+- TODO
+
+## Concepts
+
+![[dendron.concepts#workspace:#*]]
+![[dendron.concepts#vaults:#*]]
+![[dendron.concepts#hierarchies:#*]]
+![[dendron.concepts#domain:#*]]
 
 ## Topics
 
@@ -57,3 +64,34 @@ We have added a new configuration, `duplicateNoteBehavior`, which [[controls|den
 
 [[Note references|dendron.topic.refs]] are vault specific. When you make a reference, Dendron will include the note from the same note. 
 
+### Version Control
+
+For multi-vault, there are several approaches to version control. If you are using Git, you can either commit everything as one repo or version control your workspace and each vault separately as distinct repos.
+
+If you use `Vault: Add` with a remote vault, Dendron will automatically add the remote properties to your `dendron.yml` file. See example below.
+
+![[dendron.topic.config#remote-vault-example,1:#*]]
+
+Versioned controlled vaults are kept in the `repos` folder and will be auto-initialized when someone pulls in the workspace. 
+
+If you want to convert a local vault to a remote vault, you can follow the instructions [[here|dendron.guides.cook#convert-local-vault-to-a-remote-vault]].
+
+#### File Layout for Multi-Vault Workspace
+
+```
+.
+└── Dendron
+    ├── .git
+    ├── dendron.code-workspace
+    ├── dendron.yml
+    ├── ...
+    └── repos/
+        ├── vault1
+        │   ├── .git
+        │   ├── root.md
+        │   └── ...
+        └── vault2
+            ├── .git
+            ├── root.md
+            └── ...
+```

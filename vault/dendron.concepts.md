@@ -2,7 +2,7 @@
 id: c6fd6bc4-7f75-4cbb-8f34-f7b99bfe2d50
 title: Concepts
 desc: ''
-updated: 1610233079324
+updated: 1611593407941
 created: 1595169512265
 nav_order: 3
 ---
@@ -51,8 +51,10 @@ A local vault is what you start off with. Its a vault that is local to your file
 
 A remote vault is what you get when you run the [[Vault Add|dendron.topic.commands#vault-add]] command and select a remote vault. This is a vault that is cloned from a git repo. 
 
+<!-- 
 ### Workspace Configuration
 Workspace configuration is located directly underneath the **workspace root**.  By convention, the default configuration is going to be in a folder titled **config**. This is also called the **configuration root**. A workspace can have multiple configurations that initializes your workspace with a different subset of vaults.
+-->
 
 ### Hierarchies
 
