@@ -2,7 +2,7 @@
 id: eea2b078-1acc-4071-a14e-18299fc28f47
 title: Commands
 desc: ''
-updated: 1611107712772
+updated: 1611615903416
 created: 1595261816971
 ---
 
@@ -41,7 +41,7 @@ Create a global journal note
   - when: `editorFocus`
 
 
-Copy wiki link to note
+Copy wiki link to note. The title of the note will be applied as the note alias. If you highlighter a header, dendron will create a relative link to the header with the alias set to the header value.
 
 
 

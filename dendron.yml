@@ -17,3 +17,4 @@ vaults:
 version: 1
 useFMTitle: true
 mermaid: true
+useNoteTitleForLink: true

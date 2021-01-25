@@ -2,10 +2,37 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1610994187844
+updated: 1611616655694
 created: 1601508213606
-date: 2021-01-19
+date: 2022-01-01
 ---
+
+## 0.25.3
+
+### Features
+- mermaid diagram support when publishing ([[docs|dendron.topic.markdown#diagrams]])
+- display note title as link ([[docs|dendron.topic.config#usenotetitleforlink]])
+
+### Enhancements
+- use list of vaults when resolving duplicate notes ([[docs|dendron.topic.publishingv2.configuration#passing-multiple-vaults]])
+- go to definition now works for `![[refs]]` 
+- [[Copy Note Link|dendron.topic.commands#copy-note-link]] now updates alias to header value when copying header
+
+### Bug Fix
+- grammar issue with unpublished page notification
+
+### House Cleaning
+- remove `sync_vault` as a step when building dendron for the first time
+
+## 0.25.2
+
+### Bug Fix
+- issue with new vaults not having welcome note
+
+## 0.25.1
+
+### Bug Fix
+- issue with md outline not showing
 
 ## 0.24.2
 
