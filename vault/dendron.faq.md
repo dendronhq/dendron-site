@@ -2,7 +2,7 @@
 id: 683740e3-70ce-4a47-a1f4-1f140e80b558
 title: FAQ
 desc: ''
-updated: 1611416305421
+updated: 1611688391623
 created: 1595952505025
 stub: false
 nav_order: 6
@@ -132,6 +132,14 @@ This comes up a lot especially when your dealing with organizing collections of 
 
 1. Use [[tags|dendron.topic.tags]]. Tags work best with categorical data. If you use **Dendron Tags** (aka they're really hierarchies), then you have the added advantage of being able to refactor and track your tags using Dendron's existing hierarchal tooling. 
 2. Use alias nodes. This is an [upcoming feature](https://github.com/dendronhq/dendron/issues/128) that will allow you to put a node under multiple hierarchies. 
+
+### Hierarchies add too much friction
+
+The hierarchy adds friction but the idea is that the friction (eg. hierarchy) is not a bug but the reason why dendron works with thousands of notes. 
+
+The analogy to think about is excel: while putting your numbers inside the structure of a spreadsheet might not be the most straightforward way of getting to a numerical solution, its use becomes indispensable once you deal with a significant amount ofnumbers. 
+
+The way to think about dendron is that its not like google where you type a question and try to find an answer - until we get true AI, this simply doesn't work for personal knowledge. Rather, Dendron helps you organize your notes so you can reference the information you need to answer your own questions.
 
 ## Working with Schemas
 
