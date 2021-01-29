@@ -74,6 +74,13 @@
             "skipDocs": false
         },
         {
+            "key": "dendron.moveNote",
+            "title": "Dendron: Move Note",
+            "group": "notes",
+            "desc": "Move a note",
+            "skipDocs": false
+        },
+        {
             "key": "dendron.renameNote",
             "title": "Dendron: Rename Note",
             "group": "notes",

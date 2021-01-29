@@ -2,7 +2,7 @@
 id: a6c03f9b-8959-4d67-8394-4d204ab69bfe
 title: Troubleshooting
 desc: ''
-updated: 1611159433512
+updated: 1611946406355
 created: 1595952505025
 ---
 ## Diagnosing
@@ -93,3 +93,26 @@ When Dendron starts up, it initializes a local server which is responsible for i
 
 If Ctrl+Shift+R (reference to another note) doesn't work on Ubuntu, do `sudo apt install xsel`.
 
+## Publishing
+
+### Can't open local preview
+
+Dendron runs the preview on port 8080. Make sure you don't have something already running there.
+
+- windows
+```powershell
+# get ids of processes
+Get-Process -Id (Get-NetTCPConnection -LocalPort 8080).OwningProcess
+
+# if you see any result, you can stop them using the following command
+Stop-process -Id {IDS_FROM_ABOVE}
+```
+
+- linux
+```bash
+# get ids
+lsof -l -n -P -i tcp:3005 
+
+# kill
+kill -9 {IDS}
+```
