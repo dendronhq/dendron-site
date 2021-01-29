@@ -2,7 +2,7 @@
 id: a6c03f9b-8959-4d67-8394-4d204ab69bfe
 title: Troubleshooting
 desc: ''
-updated: 1611946406355
+updated: 1611948795551
 created: 1595952505025
 ---
 ## Diagnosing
@@ -116,3 +116,14 @@ lsof -l -n -P -i tcp:3005
 # kill
 kill -9 {IDS}
 ```
+
+## Send a support request
+
+If none of the troubleshooting methods work, you can ping kevin on Discord or submit a github issue.
+
+When doing either of these things, please include the following information:
+
+- [[Plugin Logs|dendron.guides.cook#checking-logs]]
+- [[Server Logs|dendron.guides.cook#server-logs]]
+- Contents of your [[workspace settings|dendron.guides.settings]]
+- Contents of [[dendron.yml|dendron.topic.commands#configure-yaml]]
