@@ -1,8 +1,8 @@
 ---
 id: ae4a0c98-e2ea-47e0-8a20-016eba3424be
-title: Managed Publishing
+title: 2 - Managed Publishing
 desc: ''
-updated: 1612044616874
+updated: 1612046126684
 created: 1611853430165
 ---
 
