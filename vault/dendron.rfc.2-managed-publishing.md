@@ -2,7 +2,7 @@
 id: ae4a0c98-e2ea-47e0-8a20-016eba3424be
 title: Managed Publishing
 desc: ''
-updated: 1612044476402
+updated: 1612044616874
 created: 1611853430165
 ---
 
@@ -30,3 +30,10 @@ Your published page will have its own subdomain under `{username}.dendron.wiki`.
 ## Pricing
 - Publishing one public workspace will be free. 
 - Publishing with additional features will have a nominal monthly fee with tiered pricing depending on feature set
+
+## FAQ
+
+### What if I want to publish using my own provider?
+
+Dendron generates static assets and you'll always be able to publish using any host that can serve static content (aka all of them). Dendron managed publishing is about giving users a simplified one click solution to selectively publish notes that is maintained to be always up to date with the latest Dendron release. 
+
