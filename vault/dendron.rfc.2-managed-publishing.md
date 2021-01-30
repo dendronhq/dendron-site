@@ -2,9 +2,31 @@
 id: ae4a0c98-e2ea-47e0-8a20-016eba3424be
 title: Managed Publishing
 desc: ''
-updated: 1611853659261
+updated: 1612044476402
 created: 1611853430165
 ---
 
+## Goal
 
-Support netlify like deployments for Dendron
+Make it easy for everyone to publish a [digital garden](https://www.kevinslin.com/notes/30a9ec3e-d58f-44ce-8d7c-535f122f7d0b.html)
+
+## Product
+
+Provide a [netlify](https://www.netlify.com/) like service focused solely on Dendron based content.
+
+This service will let you selectively publish your notes using Dendron itself without having to configure a third party host like netlify or github pages.
+Pages will be hosted and published using [AWS](aws.amazon.com/) and will be [deployed globally](https://aws.amazon.com/cloudfront/features/) across the AWS edge network. 
+
+Your published page will have its own subdomain under `{username}.dendron.wiki`. We'll add support for custom domains early February as well. 
+
+## Additional Planned Features
+- protect published notes with a username/password
+- whitelist individuals by email when sharing published notes
+- create a secure link to a page (could be published or not-published)
+- get detailed analytics for a page
+- support comments underneath the page
+- **{your suggestion here}**
+
+## Pricing
+- Publishing one public workspace will be free. 
+- Publishing with additional features will have a nominal monthly fee with tiered pricing depending on feature set
