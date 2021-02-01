@@ -111,7 +111,7 @@ Stop-process -Id {IDS_FROM_ABOVE}
 - linux
 ```bash
 # get ids
-lsof -l -n -P -i tcp:3005 
+lsof -l -n -P -i tcp:8080 
 
 # kill
 kill -9 {IDS}
