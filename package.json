@@ -4,7 +4,7 @@
   },
   "license": "CC BY 4.0",
   "dependencies": {
-    "@dendronhq/dendron-11ty": "^1.26.0",
-    "@dendronhq/dendron-cli": "^0.26.0"
+    "@dendronhq/dendron-11ty": "^1.26.2",
+    "@dendronhq/dendron-cli": "^0.26.2"
   }
 }

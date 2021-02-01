@@ -2,7 +2,7 @@
 id: eea2b078-1acc-4071-a14e-18299fc28f47
 title: Commands
 desc: ''
-updated: 1611615903416
+updated: 1612205076156
 created: 1595261816971
 ---
 
@@ -73,7 +73,9 @@ If you have a header selected while running this command, it will copy the note 
 Delete a note or schema
 
 
+### Move Note
 
+Move a note. Also includes option to move a note between vaults
 
 
 ### Rename Note

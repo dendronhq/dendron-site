@@ -2,10 +2,24 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1611616655694
+updated: 1612207821172
 created: 1601508213606
 date: 2022-01-01
 ---
+
+## 0.26.1
+
+### Features
+- move notes between vaults using the move note command ([[docs|dendron.topic.commands#move-note]])
+
+### Enhancements
+- nicer 403 page on unpublished pages ([[docs|dendron.topic.publishingv2.selective-publication#403-page]])
+
+### Bug Fixes
+- issue with daily journal notes not getting pretty titles
+- ctrl hover over images will create a note
+- when removing a note with empty parents, clean up empty parents
+
 
 ## 0.25.3
 
