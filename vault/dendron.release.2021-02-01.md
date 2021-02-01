@@ -2,11 +2,11 @@
 id: b5db61c8-9d48-449a-b6b4-2750d3be1a6f
 title: Release Notes (version 0.27)
 desc: ''
-updated: 1612207850316
+updated: 1612208194965
 created: 1612204959344
 ---
 
-Dendron 0.27 has sprouted :seedling:
+Dendron 0.27 has sprouted 🌱
 
 ### Highlights
 - move notes between vaults using the move note command ([[docs|dendron.topic.commands#move-note]])
