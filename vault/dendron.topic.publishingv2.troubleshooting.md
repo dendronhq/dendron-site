@@ -2,9 +2,20 @@
 id: 5ca2fe99-0abc-413d-aa06-50f9a66e13e0
 title: Troubleshooting
 desc: ''
-updated: 1610684167037
+updated: 1612282296770
 created: 1609525003662
 ---
+
+### Site Preview shows "Cannot Get/"
+
+Causes:
+1. You have another program running on port 8080
+2. You have a firewall that is blocking port 8080
+
+Diagnosis:
+1. Check if something is running on port 8080 and close it
+1. Check if your firewall is blocking port 8080
+    - [windows](https://windowsreport.com/is-windows-firewall-blocking-port-program/)
 
 ### My favicon isn't showing up
 
