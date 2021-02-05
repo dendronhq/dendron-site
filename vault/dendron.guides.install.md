@@ -5,7 +5,7 @@ desc: ''
 updated: 1608485512284
 created: 1595537796868
 ---
-[Ed](https://www.youtube.com/channel/UCBDaEQKIAgU-U6bsUfPcWnA), our fellow Dendrite, has made a fantastic getting started video to help folks install and setup Dendron. 
+[Ed](https://www.youtube.com/channel/UCBDaEQKIAgU-U6bsUfPcWnA), our fellow Dendrologist, has made a fantastic getting started video to help folks install and setup Dendron. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/BRLLZ9IEh10" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
