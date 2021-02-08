@@ -2,7 +2,7 @@
 id: 692fa114-f798-467f-a0b9-3cccc327aa6f
 title: Tips
 desc: ''
-updated: 1608507204772
+updated: 1612800748642
 created: 1595614204291
 ---
 
@@ -239,6 +239,12 @@ https://stackoverflow.com/questions/25701265/how-to-generate-a-list-of-all-dates
 -->
 
 ## Workbench
+
+### Navigating a hierarchy
+
+One easy way of navigating hierarchies it to click on the file name. This will reveal a dropdown that shows you all siblings of the current note. 
+
+![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/guide.siblings.jpg)
 
 ### Remove Markdown Buttons in Menu Bar
 - [discord thread](https://discordapp.com/channels/717965437182410783/739186036495876126/758408534848831558)
