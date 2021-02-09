@@ -11,7 +11,7 @@ The engine provides the core of dendron's capabilities.
 
 ## Fuse.js
 
-- <https://fusejs.io/-> 
+- https://fusejs.io
 - powers dendron fuzzy search
 
 ### Cook
