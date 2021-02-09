@@ -2,7 +2,7 @@
 id: 6f3bc07c-5232-4148-a42f-bac9c2fe12f6
 title: Setup
 desc: ''
-updated: 1611516161683
+updated: 1612886077995
 created: 1611515613711
 ---
 
@@ -35,10 +35,10 @@ Dendron depends on a bunch of packages from the dendron monorepo. If you already
 ### 2. Create links to the monorepo packages
 
 Run `yarn link` inside the following packages
-
 * @dendronhq/engine-server
 * @dendronhq/common-server
 * @dendronhq/common-all
+
 
 ### 3. Link monorepo to 11ty
 
@@ -47,3 +47,11 @@ Inside dendron-11ty, execute `./scripts/link.sh` file
 - NOTE: don't forget to watch the monorepo to compile changes
 
 ![[dendron.dev.setup#watch-monorepo,1:#*]]
+
+### 4. Run Dendron Cli
+
+You can run this CLI on any valid workspace. There's a test workspace in `dendron-11ty` that is good to test against
+```sh
+cd dendron-11ty/fixtures/test-workspace
+```
+![[dendron.pro.dendron-11ty.quickstart#start-the-server-in-preview,1:#*]]
