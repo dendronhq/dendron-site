@@ -2,7 +2,7 @@
 id: f2ed8639-a604-4a9d-b76c-41e205fb8713
 title: Configuration
 desc: ''
-updated: 1611338010908
+updated: 1612820532351
 created: 1608528797892
 nav_order: 3
 ---
@@ -66,27 +66,15 @@ site:
 
 When publishing in multi-vault scenario, how to handle duplicate notes
 
-Currently, only the following setting is allowed. If set, 
+Currently, only the `useVault` option is allowed. It takes a list of [[vault names|dendron.topic.config#name]]. When a duplicate is found, Dendron will go throw the vaults in your list from left to right and resolve to the first one that matches.
+
+- NOTE: this is done automatically when you run the [[Vault Add|dendron.topic.commands#vault-add]] command 
 
 ```yml
 duplicateNoteBehavior: 
   action: "useVault"
-  payload: 
-    vault: 
-      fsPath: {path_to_vault}
+  payload: [{vault1}, {vault2}, {vault3}]
 ```
-
-#### passing multiple vaults
-
-Instead of passing a vault, you can also pass a string of [[vault names|dendron.topic.config#name]]. When a duplicate is found, Dendron will go throw the vaults in your list from left to right and resolve to the first one that matches.
-
-```yml
-duplicateNoteBehavior: 
-  action: "useVault"
-  payload: [yc, dendron, dendron-site]
-```
-
-
 
 ### ga_tracking (optional)
 

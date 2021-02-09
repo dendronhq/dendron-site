@@ -2,7 +2,7 @@
 id: eea2b078-1acc-4071-a14e-18299fc28f47
 title: Commands
 desc: ''
-updated: 1612205076156
+updated: 1612823271939
 created: 1595261816971
 ---
 
@@ -468,6 +468,7 @@ Dump internal state of Dendron inside logs
 Open Dendron logs for current session
 
 
+### Dendron:Dev: Diagnostics Report
+- shortcuts: none
 
-
-
+Copy last 3000 lines of all logs and config to clipboard. Use when submitting an issue to Dendron

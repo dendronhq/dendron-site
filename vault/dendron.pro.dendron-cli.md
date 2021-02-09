@@ -2,7 +2,7 @@
 id: 8b03ed06-4f46-46e0-8652-c6abf2266a79
 title: "Dendron CLI"
 desc: ''
-updated: 1611159191428
+updated: 1612819032115
 created: 1599709645355
 stub: false
 ---
@@ -123,7 +123,7 @@ Options:
 dendron-cli publishNotes  --wsRoot . --vault ./vault 
 ```
 
-### BuildSiteV2
+### buildSiteV2
 
 ```bash
 dendron-cli buildSiteV2
@@ -131,16 +131,17 @@ dendron-cli buildSiteV2
 build notes for publication using 11ty
 
 Options:
-  --version     Show version number                                    [boolean]
-  --help        Show help                                              [boolean]
-  --wsRoot      location of workspace                                 [required]
-  --enginePort  If set, connecto to running engine. If not set, create new
-                instance of Dendron Engine
-  --serve       serve over local http server          [boolean] [default: false]
-  --stage       serve over local http server
+  --version         Show version number                                [boolean]
+  --help            Show help                                          [boolean]
+  --wsRoot          location of workspace                             [required]
+  --enginePort      If set, connecto to running engine. If not set, create new
+                    instance of Dendron Engine
+  --serve           serve over local http server      [boolean] [default: false]
+  --stage           serve over local http server
                                        [choices: "dev", "prod"] [default: "dev"]
-  --servePort   port to serve over                             [default: "8080"]
-  --output      if set, override output from config.yml                 [string]
+  --servePort       port to serve over                         [default: "8080"]
+  --output          if set, override output from config.yml             [string]
+  --custom11tyPath  if set, path to custom 11ty installation            [string]
 ```
 
 #### Connect to Open Workspace

@@ -2,11 +2,34 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1612294050368
+updated: 1612823341985
 created: 1601508213606
 date: 2022-01-01
 ---
 
+## 0.27.2
+
+### Features
+- diagnostics report ([[docs|dendron.topic.commands#dendrondev-diagnostics-report]])
+
+![[dendron.topic.commands#dendrondev-diagnostics-report,1]]
+
+
+
+### Enhancements
+- add path customization to build-site ([[docs|dendron.pro.dendron-cli#buildsitev2]])
+- Add default description option to dendron config  ([[docs|dendron.topic.publishingv2.configuration#description]])
+- add config to publish multi-vault when adding vault ([[docs|dendron.topic.publishingv2.configuration#duplicatenotebehavior-optional]])
+
+### Bug Fixes
+- build-site doesn't overwrite STAGE environment 
+- do not delete text when extracting non-vault text
+- add new vaults to newline in .gitignore
+
+## 0.27.1
+
+### Bug Fixes
+-  server close error when building website for production
 
 ## 0.26.1
 
@@ -20,7 +43,6 @@ date: 2022-01-01
 - issue with daily journal notes not getting pretty titles
 - ctrl hover over images will create a note
 - when removing a note with empty parents, clean up empty parents
-
 
 ## 0.25.3
 
