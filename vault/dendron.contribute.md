@@ -2,7 +2,7 @@
 id: 125c990b-6fe7-4ada-a65f-44cbde8b33f0
 title: Contribute
 desc: ''
-updated: 1605761211634
+updated: 1612846152764
 created: 1596817278150
 stub: false
 nav_order: 9.5
@@ -12,17 +12,18 @@ toc: true
 
 ## Development
 
-((ref:[[dendron.contribute.dev]]#development,1))
+
+![[dendron.contribute.dev#summary,1:#*]]
 
 ### First Time Developers
 
-((ref:[[dendron.contribute.first-dev]]#first time developers,1))
+![[dendron.contribute.first-dev]]
 
 ## Documentation
 
-((ref:[[dendron.contribute.documentation]]#documentation,1:#*))
+![[dendron.contribute.documentation#summary,1:#*]]
 
 ## Financially
 
-((ref:[[dendron.contribute.financial]]#financial,1))
+![[dendron.contribute.financial]]
 

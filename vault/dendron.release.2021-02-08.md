@@ -2,7 +2,7 @@
 id: c99c55b0-a709-41fe-a59e-1f1c932346dc
 title: Release Notes (version 0.28)
 desc: ''
-updated: 1612845328910
+updated: 1612845956396
 created: 1612844876830
 ---
 
@@ -26,7 +26,7 @@ You can see an overview of all roles [[here|dendron.community.roles]]
 
 - [Mark H. Choi](https://github.com/hikchoi/cerebrarium) @hikchoi#8934 
     - [don't delete text when extracting fro non-vault file](https://github.com/dendronhq/dendron/pull/471)
-- [Nikita Voloboev](https://github.com/nikitavoloboev) @nikivi#5640 
+- [Nikita Voloboev](https://github.com/nikitavoloboev) @nikivi#5640  `+@Horticulturalist`
     - [add default description to published sites](https://github.com/dendronhq/dendron/pull/472)
 
 ### Version Number
@@ -37,3 +37,5 @@ This release comes with the following versions:
 - dendron plugin and dendron markdown preview will be auto-installed by VSCode
 
 - See the upgrade instructions [[here for dendron-11ty and dendron cli|dendron.guides.upgrading#dendron-cli-and-dendron-11ty]]
+
+![[dendron.release.changelog#0272:#0261]]

@@ -2,11 +2,11 @@
 id: b58801fc-43a9-4d42-a58b-eabc3e8538cb
 title: Documentation
 desc: ''
-updated: 1604236164130
+updated: 1612846119097
 created: 1604235766390
 ---
 
-## Documentation
+## Summary
 If you would like to contribute to the docs, you can do so by either making changes on github directly or by cloning our website repo and sending us a pull request.
 
 ### Making Changes on Github

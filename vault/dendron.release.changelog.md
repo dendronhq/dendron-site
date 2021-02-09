@@ -2,7 +2,7 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1612823341985
+updated: 1612845800421
 created: 1601508213606
 date: 2022-01-01
 ---
@@ -13,8 +13,6 @@ date: 2022-01-01
 - diagnostics report ([[docs|dendron.topic.commands#dendrondev-diagnostics-report]])
 
 ![[dendron.topic.commands#dendrondev-diagnostics-report,1]]
-
-
 
 ### Enhancements
 - add path customization to build-site ([[docs|dendron.pro.dendron-cli#buildsitev2]])
