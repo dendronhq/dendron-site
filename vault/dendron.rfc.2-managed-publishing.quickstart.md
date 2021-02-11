@@ -2,13 +2,14 @@
 id: 53de5c1e-b20c-4adc-ae48-e1659ecc6d13
 title: Quickstart
 desc: ''
-updated: 1613066230925
+updated: 1613070492929
 created: 1613009015603
 ---
 
 ## Pre-requisites
 - push a Dendron workspace to Github
-- have an account on https://app.dendron.so
+    - if you don't have one ready, you can use the [starter template](https://github.com/dendronhq/workspace-sample) 
+- create an account on https://app.dendron.so
 
 ## Instructions
 1. Go to https://app.dendron.so 
@@ -25,4 +26,7 @@ created: 1613009015603
 - one site per account
 - no custom domains
 - no multi-vault support
-- the home page doesn't update the deploy status - usually deployments are ready ~20s (you will need to manually refresh the page to have the status update)
+
+## Deleting a Site
+1. Click `Site Settings` on the site widget
+2. Click `Delete`

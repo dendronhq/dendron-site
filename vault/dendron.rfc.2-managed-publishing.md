@@ -2,7 +2,7 @@
 id: ae4a0c98-e2ea-47e0-8a20-016eba3424be
 title: 2 - Managed Publishing
 desc: ''
-updated: 1612046126684
+updated: 1613067905558
 created: 1611853430165
 ---
 
@@ -19,12 +19,19 @@ Pages will be hosted and published using [AWS](aws.amazon.com/) and will be [dep
 
 Your published page will have its own subdomain under `{username}.dendron.wiki`. We'll add support for custom domains early February as well. 
 
-## Additional Planned Features
-- protect published notes with a username/password
-- whitelist individuals by email when sharing published notes
-- create a secure link to a page (could be published or not-published)
-- get detailed analytics for a page
-- support comments underneath the page
+## Features
+- [x] publish to dendron subdomain
+- [x] SSL certs
+- [x] global deployments using [worldwide CDN](https://en.wikipedia.org/wiki/Content_delivery_network)
+- [x] github based publishing
+
+## Upcoming Features
+- [ ] custom domain names
+- [ ] protect published notes with a username/password
+- [ ] whitelist individuals by email when sharing published notes
+- [ ] create a secure link to a page (could be published or not-published)
+- [ ] get detailed analytics for a page
+- [ ] support comments underneath the page
 - **{your suggestion here}**
 
 ## Pricing
