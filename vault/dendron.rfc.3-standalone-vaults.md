@@ -2,7 +2,7 @@
 id: ceca23ee-6181-4fa6-9724-9943433c6e96
 title: 3 - Standalone Vaults
 desc: ''
-updated: 1612909365516
+updated: 1612910758281
 created: 1612908742957
 ---
 
@@ -39,5 +39,16 @@ This file will be similar to [[dendron.yml|dendron.topic.config#dendron-config]]
     - this is similar to the [[vault property |dendron.topic.config#vault-properties]] of `dendron.yml`
     - when a standalone vault is included in a dendron workspace, the vault properties in `dendron.vault.yml` will be merged and take precedence
     - no `fsPath` property 
+
+
+```
+- docs/
+    - dendron.vault.yml
+    - README.md
+    - notes/
+    - assets/
+```
+
+
 
 ## Related
