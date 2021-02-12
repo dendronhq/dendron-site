@@ -2,7 +2,7 @@
 id: f2ed8639-a604-4a9d-b76c-41e205fb8713
 title: Configuration
 desc: ''
-updated: 1612820532351
+updated: 1613151798357
 created: 1608528797892
 nav_order: 3
 ---
@@ -105,6 +105,13 @@ Path to favicon. Relative to workspace.
 - default: [root]
 
 List of hierarchies to publish. `root` is a special value that means `publish all`.
+
+### siteLastModified (optional)
+- default: false
+
+If set to true, show a last modified at the bottom of your site. This value is set form the `updated` timestamp in your note frontmatter.
+
+![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/publishv2.last-modified.jpg)
 
 ### siteIndex (optional)
 
