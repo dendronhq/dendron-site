@@ -2,7 +2,7 @@
 id: 53de5c1e-b20c-4adc-ae48-e1659ecc6d13
 title: Quickstart
 desc: ''
-updated: 1613070492929
+updated: 1613084857984
 created: 1613009015603
 ---
 
@@ -17,7 +17,7 @@ created: 1613009015603
 1. Enter the url of the repo that you want to publish
 1. Enter a [[personal access token|dendron.rfc.2-managed-publishing.ref.github-token]]
 
-## Details
+## Fine Print
 - Dendron publishes your site at `{username}.dendron.wiki` 
 
 ## Limitations 

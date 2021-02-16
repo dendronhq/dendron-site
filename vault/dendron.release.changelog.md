@@ -2,11 +2,56 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1612845800421
+updated: 1613450529825
 created: 1601508213606
 date: 2022-01-01
 ---
 
+## 0.28.1
+
+### Features
+
+#### Managed Publishing (Early Preview)
+
+The initial release comes with the ability to publish a dendron workspace under {username}.dendron.wiki. 
+Dendron takes care of configuring your domain and building your site. 
+
+After you connect your github repo with Dendron, we'll kick off the initial publication.
+Every subsequent time you push to your repo, Dendron will automatically build your site with the latest changes.
+
+At launch, we are supporting publishing from a connected github repo. 
+Instructions to get started are [[here|dendron.rfc.2-managed-publishing.quickstart]]
+
+### Enhancements
+- show last modified time for published sites ([[docs|dendron.topic.publishingv2.configuration#sitelastmodified-optional]])
+- add option to configure human readable ts formatting 
+- smaller downloads when using publishing commands for the first time
+- much faster publishing commands
+- frontmatter can now be folded 
+
+### Bug Fixes
+- 11ty build issues
+- dendron `move note` command can fail when parents are stubs
+- preview can get out of sync with Dendron
+
+### House Cleaning
+- dendron monorepo is now on yarn
+  - this results in 4x faster initial builds and 6x smaller bundle sizes when developing
+- dendron-11ty is now merged into the dendron monorepo
+
+If you currently have Dendron checked out, you can use the following instructions to migrate 
+
+```sh
+# get latest version
+git pull
+
+npm install -g yarn
+# remove old node_modules
+./bootstrap/scripts/cleanup.sh
+yarn bootstrap:bootstrap
+yarn bootstrap:build 
+
+```
 ## 0.27.2
 
 ### Features
