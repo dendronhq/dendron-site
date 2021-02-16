@@ -2,7 +2,7 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1613450529825
+updated: 1613496235395
 created: 1601508213606
 date: 2022-01-01
 ---
@@ -24,7 +24,7 @@ Instructions to get started are [[here|dendron.rfc.2-managed-publishing.quicksta
 
 ### Enhancements
 - show last modified time for published sites ([[docs|dendron.topic.publishingv2.configuration#sitelastmodified-optional]])
-- add option to configure human readable ts formatting 
+- add option to configure human readable ts formatting  ([[docs|dendron.topic.config#dendrondefaulttimestampdecorationformat]])
 - smaller downloads when using publishing commands for the first time
 - much faster publishing commands
 - frontmatter can now be folded 

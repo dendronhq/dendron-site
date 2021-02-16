@@ -2,7 +2,7 @@
 id: eea2b078-1acc-4071-a14e-18299fc28f48
 title: Config
 desc: ''
-updated: 1611617903270
+updated: 1613496148888
 created: 1595261816971
 ---
 
@@ -121,6 +121,35 @@ date format used for scratch notes
 - options:  ['childOfDomain', 'childOfDomainNamespace', 'childOfCurrent', 'asOwnDomain']
 
 strategy for adding new scratch notes
+
+
+### dendron.defaultTimestampDecorationFormat: 
+- default: DATETIME_MED
+- type: string
+- values (see description of values [here](https://moment.github.io/luxon/docs/manual/formatting.html)) 
+    * DATETIME_FULL
+    * DATETIME_FULL_WITH_SECONDS
+    * DATETIME_HUGE
+    * DATETIME_HUGE_WITH_SECONDS
+    * DATETIME_MED
+    * DATETIME_MED_WITH_SECONDS
+    * DATETIME_SHORT
+    * DATETIME_SHORT_WITH_SECONDS
+    * DATE_FULL
+    * DATE_HUGE
+    * DATE_MED
+    * DATE_MED_WITH_WEEKDAY
+    * DATE_SHORT
+    * TIME_24_SIMPLE
+    * TIME_24_WITH_LONG_OFFSET
+    * TIME_24_WITH_SECONDS
+    * TIME_24_WITH_SHORT_OFFSET
+    * TIME_SIMPLE
+    * TIME_WITH_LONG_OFFSET
+    * TIME_WITH_SECONDS
+    * TIME_WITH_SHORT_OFFSET
+
+Decide how human readable timestamp decoration is displayed
 
 ### dendron.copyNoteUrlRoot
 - type: string
