@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "dendron-cli": "dendron-cli"
+  },
   "dependencies": {
     "@dendronhq/dendron-11ty": "^1.29.1",
     "@dendronhq/dendron-cli": "^0.29.2-alpha.0"
