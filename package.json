@@ -4,6 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "@dendronhq/dendron-11ty": "^1.29.1"
+    "@dendronhq/dendron-11ty": "^1.29.1",
+    "@dendronhq/dendron-cli": "^0.29.2-alpha.0"
   }
 }
