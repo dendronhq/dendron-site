@@ -2,7 +2,7 @@
 id: 727b1087-191a-4bef-a6d0-8c9ae190426d
 title: Markdown
 desc: ''
-updated: 1602959006344
+updated: 1613611442956
 created: 1602959006344
 stub: false
 ---
@@ -126,4 +126,5 @@ wikiLinkHierarchyBehavior: useBasename
 2. Nicer ways of rendering a note reference. Currently, Dendron's note references come with the **title** and **link** of the original text. We use custom css to style the outline. When publishing, we can't assume the presence of that css. How would a **renderOutline** option look like?
 
 ((ref:[[dendron.topic.refs]]#references,1:#*))
+
 

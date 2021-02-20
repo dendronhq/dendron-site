@@ -2,7 +2,7 @@
 id: ffa6a4ba-5eda-48c7-add5-8e2333ba27b4
 title: Configuration
 desc: ''
-updated: 1608528616137
+updated: 1613770983668
 created: 1600564020051
 nav_order: 3
 ---
@@ -179,6 +179,12 @@ publish:
     ├── dendron.quickstart
     └── dendron.zen
 ```
+
+## Vault Configuration
+
+The following needs to be set in the [[vaults|dendron.topic.config#vaults]] section of the config.
+
+![[dendron.topic.config#visibility:#*]]
 
 ## Note Configuration
 

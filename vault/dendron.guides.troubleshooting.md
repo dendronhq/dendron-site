@@ -2,7 +2,7 @@
 id: a6c03f9b-8959-4d67-8394-4d204ab69bfe
 title: Troubleshooting
 desc: ''
-updated: 1611948795551
+updated: 1613843773250
 created: 1595952505025
 ---
 ## Diagnosing
@@ -116,6 +116,12 @@ lsof -l -n -P -i tcp:8080
 # kill
 kill -9 {IDS}
 ```
+
+## Etc
+
+### Error: spawn git ENOENT
+
+Check if you have git installed. You can find more details [here](https://stackoverflow.com/questions/42545885/vs-code-error-spawn-git-enoent)
 
 ## Send a support request
 

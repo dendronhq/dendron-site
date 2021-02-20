@@ -2,7 +2,7 @@
 id: eea2b078-1acc-4071-a14e-18299fc28f48
 title: Config
 desc: ''
-updated: 1613496148888
+updated: 1613771031456
 created: 1595261816971
 ---
 
@@ -44,6 +44,11 @@ Tracks [[vaults|dendron.concepts#vaults]] for the workspace. You shouldn't have 
 - default: last component of `fsPath`
 
 vault name 
+
+##### visibility?
+- choices: "private|public"
+
+If set to private, notes in this vault will not be published regardless of any other configuration. This takes precedences over everything.
 
 ##### remote?
 - added property for [[remote vaults|dendron.concepts#remote-vault]]
