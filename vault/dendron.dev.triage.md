@@ -2,7 +2,7 @@
 id: 1e6c8b49-ef88-4e79-b2df-e9d614c38a53
 title: Triage
 desc: ''
-updated: 1613819228194
+updated: 1613821943272
 created: 1610468038819
 ---
 
@@ -29,6 +29,10 @@ If you have problems with the workbench components that get provided by dendron 
 ### pods
 
 Everything about pods, requests for new ones or problems with existing ones
+
+### seeds
+
+Everything about seeds, requests for new ones or problems with existing ones
 
 ### markdown
 
