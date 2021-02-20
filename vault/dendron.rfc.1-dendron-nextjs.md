@@ -2,7 +2,7 @@
 id: 17c61d62-f92e-4002-b8fe-9c05686e4bf9
 title: "1 - Dendron: Next Edition"
 desc: ''
-updated: 1612046122430
+updated: 1613843263173
 created: 1610911846754
 ---
 
@@ -26,6 +26,9 @@ created: 1610911846754
 - [ ] scroll sync
 - [ ] use next.js to preview dendron site
 - [ ] better preview for schemas
+
+### Additional Features
+- [ ] folding of headers
 
 ## Future Goals
 - use next.js to provide WYSWYG experience for dendron notes
