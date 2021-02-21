@@ -2,7 +2,7 @@
 id: 8b03ed06-4f46-46e0-8652-c6abf2266a79
 title: "Dendron CLI"
 desc: ''
-updated: 1612819032115
+updated: 1613874448961
 created: 1599709645355
 stub: false
 ---
@@ -167,7 +167,7 @@ npx dendron-cli buildSiteV2 --wsRoot . --stage dev --serve --enginePort `cat .de
 - eg: Export notes to JSONPod
 
 ```
-dendron-cli exportPod --podId dendron.json --wsRoot . --vault "vault" 
+dendron-cli exportPod --podId dendron.json --wsRoot . 
 ```
 
 ### Import Pod
