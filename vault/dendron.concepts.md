@@ -2,7 +2,7 @@
 id: c6fd6bc4-7f75-4cbb-8f34-f7b99bfe2d50
 title: Concepts
 desc: ''
-updated: 1611593407941
+updated: 1614057298609
 created: 1595169512265
 nav_order: 3
 ---
@@ -111,7 +111,7 @@ There are two reasons why these suggested notes might show up:
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/schema-plus.jpg)
 > The `+` sign next to the suggestion indicates that the note is a stub and does not exist 
 
-### Pods 🚧
+### Pods 
 
 [[Pods |dendron.topic.pod]] are the mechanisms Dendron uses to import and export notes. Dendron has a different pod depending on where you are getting and publishing your data to. 
 

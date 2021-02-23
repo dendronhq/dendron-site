@@ -2,7 +2,7 @@
 id: 24b176f1-685d-44e1-a1b0-1704b1a92ca0
 title: Multi Vault
 desc: ''
-updated: 1611597482577
+updated: 1614057932509
 created: 1605630383515
 ---
 Multi vault lets you create multiple vaults for a given workspace. Each vault is a folder that can contain any number of hierarchies. 
@@ -41,7 +41,7 @@ When creating a note in lookup, the currently opened note's vault is used as the
 
 #### Specify Vault Location when Creating a Note
 
-![[dendron.topic.config#lookupconfirmvaultoncreate,1:#*]]
+![[dendron.topic.config#lookupconfirmvaultoncreate:#*]]
 
 To enable,  add `lookupConfirmVaultOnCreate: true` in the dendron configuration. Instructions to do so below.
 
@@ -72,7 +72,7 @@ If you use `Vault: Add` with a remote vault, Dendron will automatically add the 
 
 ![[dendron.topic.config#remote-vault-example,1:#*]]
 
-Versioned controlled vaults are kept in the `repos` folder and will be auto-initialized when someone pulls in the workspace. 
+Versioned controlled vaults will be auto-initialized when someone pulls in the workspace. 
 
 If you want to convert a local vault to a remote vault, you can follow the instructions [[here|dendron.guides.cook#convert-local-vault-to-a-remote-vault]].
 
@@ -85,13 +85,12 @@ If you want to convert a local vault to a remote vault, you can follow the instr
     ├── dendron.code-workspace
     ├── dendron.yml
     ├── ...
-    └── repos/
-        ├── vault1
-        │   ├── .git
-        │   ├── root.md
-        │   └── ...
-        └── vault2
-            ├── .git
-            ├── root.md
-            └── ...
+    ├── vault1
+    │   ├── .git
+    │   ├── root.md
+    │   └── ...
+    └── vault2
+        ├── .git
+        ├── root.md
+        └── ...
 ```

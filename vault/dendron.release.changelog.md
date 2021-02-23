@@ -2,10 +2,42 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1613496235395
+updated: 1614058757606
 created: 1601508213606
 date: 2022-01-01
 ---
+
+## 0.29.2
+
+### Features
+
+#### Experimental Nunjuck Templates
+
+Extremely powerful templating capabilities with [[nunjuck templates|dendron.topic.markdown#nunjuck-templates]]
+
+### Enhancements
+- better multi-vault defaults
+  - instead of keeping [[remote vaults|dendron.concepts#remote-vault]] under a special `repos` folder, you can now initialize them where ever you want
+- better git defaults with new vaults
+
+### Bug Fixes
+- support turning off pretty refs for dendron preview ([[docs|dendron.topic.config#useprettyrefs]])
+
+
+## 0.29.1
+
+### Enhancements
+- private vaults ([[docs|dendron.topic.config#visibility]])
+- popover 403 links ([[docs|dendron.topic.publishingv2.selective-publication#403-page]])
+- standardize pod cli interface
+
+### Bug Fixes
+- use builtin clipboard manager 
+- private wiki links render errors on published page
+
+### House Cleaning
+- [issue labeling automation](https://github.com/dendronhq/dendron/pull/453)
+- remove legacy publishing commands (BuildPod & Publish)
 
 ## 0.28.1
 

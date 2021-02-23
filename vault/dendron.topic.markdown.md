@@ -2,7 +2,7 @@
 id: ba97866b-889f-4ac6-86e7-bb2d97f6e376
 title: Markdown
 desc: ''
-updated: 1611193855836
+updated: 1614058664647
 created: 1598673110284
 ---
 - Notice: all references of `MPE` in this guide is in reference to `Dendron Markdown Preview Enhanced`, the default markdown renderer of Dendron
@@ -32,16 +32,6 @@ This article is a brief introduction to [GitHub Flavored Markdown writing](https
 
 ###### This is an <h6> tag
 ```
-
-If you want to add `id` and `class` to the header, then simply append `{#id .class1 .class2}`. For example:
-
-```markdown
-# This heading has 1 id {#my_id}
-
-# This heading has 2 classes {.class1 .class2}
-```
-
-> This is a MPE extended feature.
 
 ### Emphasis
 
@@ -215,6 +205,51 @@ Content [^1]
 
 You can use variables defined in your note frontmatter inside your note. The syntax is `{{fm.VAR_NAME}}` where `VAR_NAME` is the name of your variable. The `fm` designates that you want to use a frontmatter variable. 
 
+### Nunjuck Templates
+- status: EXPERIMENTAL
+
+You can use a limited set of [nunjucks](https://mozilla.github.io/nunjucks/) to customize your notes. 
+
+To enable, you can set the following to true inside your `dendorn.yml`.
+```yml
+useNunjucks: true
+```
+
+Once enabled, you'll have access to nunjucks specific constructs. You'll have the same variables available as during [[frontmatter variable substitution|dendron.topic.markdown#frontmatter-variable-substitution]]. Nunjucks templates also get access to the `fname` builtin variable which will be substituted with the filename of the current note. 
+
+Below is an example of what you can do with nunjucks.
+
+- Raw Markdown
+```md
+## Variables
+
+- special variables: {{fname}}
+- special variable as link: [[{{fname}}]]
+- special variable as note ref: ![[{{fname}}#footer]]
+
+## Loops
+
+{% for item in fm.alist %}
+
+- Item: {{item}}
+  {% endfor %}
+
+## Footer
+
+This is some footer content
+```
+
+- Compiled 
+![nunjucks example](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/topic.nunjucks.jpg)
+
+
+Nunjucks will work for both the preview and for publishing. It is still an experimental feature which means it might change in backwards in-compatible ways at any point.
+
+It currently also has the following limitations:
+- disables live preview of markdown (you'll need to refresh the markdown to see changes)
+- will throw an error if you currently have nunjucks like strings inside your notes `eg. {% %}`
+- will throw errors if you refer to an undefined variable `{{ foo }}` 
+
 ### Diagrams 
 
 Dendron lets you create Diagrams using [mermaid](https://mermaid-js.github.io/mermaid/#/)
@@ -240,59 +275,6 @@ graph TD;
 ```
 
 - NOTE: in order to publish diagrams, you'll need to enable [[mermaid in the config|dendron.topic.config#mermaid-optional]]
-
-<!-- 
-## Extended syntax
-
-### Table
-
-> Need to enable `enableExtendedTableSyntax` in extension settings to get it work.
-
-![screen shot 2017-07-15 at 8 16 45 pm](https://user-images.githubusercontent.com/1908863/28243710-945e3004-699a-11e7-9a5f-d74f6c944c3b.png)
-
-### Emoji & Font-Awesome
-
-> This only works for `markdown-it parser` but not `pandoc parser`.  
-> Enabled by default. You can disable it from the package settings.
-
-```
-:smile:
-:fa-car:
-```
-
-### Superscript
-
-```markdown
-30^th^
-```
-
-### Subscript
-
-```markdown
-H~2~O
-```
-
-
-### Mark
-
-```markdown
-==marked==
-```
-
-### CriticMarkup
-
-CriticMarkup is **disabled** by default, but you can enable it from the package settings.  
-
-There are five types of Critic marks:
-
-- Addition `{++ ++}`
-- Deletion `{-- --}`
-- Substitution `{~~ ~> ~~}`
-- Comment `{>> <<}`
-- Highlight `{== ==}{>> <<}`
-
-> CriticMarkup only works with the markdown-it parser, but not the pandoc parser.
--->
 
 ## VSCode Specific Commands
 

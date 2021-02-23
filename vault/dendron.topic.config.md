@@ -2,7 +2,7 @@
 id: eea2b078-1acc-4071-a14e-18299fc28f48
 title: Config
 desc: ''
-updated: 1613771031456
+updated: 1614057845597
 created: 1595261816971
 ---
 
@@ -16,7 +16,7 @@ Dendron configuration currently lives in two places:
 
 With this set, you can pick the vault for new notes.  
 
-### mermaid (optional)
+### mermaid
 - default: false
 
 Turn on to enable [[mermaid support|dendron.topic.markdown#diagrams]]
@@ -30,6 +30,11 @@ When set to true, use frontmatter as title when publishing and in the preview.
 If true, use the note title when displaying naked links
 
 - NOTE: this is not yet fully supported for multi-vault. specifically, cross vault links are not yet supported
+
+### usePrettyRefs
+- default: true
+
+If set to false, don't use [[pretty refs|dendron.ref.terms#pretty-ref]]
 
 ### vaults
 
@@ -68,13 +73,13 @@ vaults:
 ```yml
 vaults:
     -
-        fsPath: repos/dendron-vault
+        fsPath: dendron-vault
         remote:
             type: git
             url: 'git@github.com:kevinslin/dendron-vault.git'
         name: dendron
     -
-        fsPath: repos/yc-vault
+        fsPath: yc-vault
         remote:
             type: git
             url: 'git@github.com:kevinslin/yc-vault.git'

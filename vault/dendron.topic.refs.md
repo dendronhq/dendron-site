@@ -2,7 +2,7 @@
 id: f1af56bb-db27-47ae-8406-61a98de6c78c
 title: References
 desc: ''
-updated: 1610403701022
+updated: 1614057759268
 created: 1597356582509
 stub: false
 ---
@@ -27,17 +27,18 @@ References have the following syntax
 
 ## Configuration
 
-- note references by default come with an outline. you can set the following to `false` in the settings to disable this behavior
+- note references by default come with an outline. They are called [[pretty refs|dendron.ref.terms#pretty-ref]]. 
 
-```
-"markdown-preview-enhanced.renderRefWithOutline": true
-```
+
+Toggle the following configuration to turn off this setting.
+
+![[dendron.topic.config#useprettyrefs:#*]]
 
 ## Commands
 
 You can create a ref either by hand or using the `Copy Note Ref` command.
 
-((ref:[[dendron.topic.commands]]#copy note ref:#*))
+![[dendron.topic.commands#copy-note-ref:#*]]
 
 ## Note Reference
 

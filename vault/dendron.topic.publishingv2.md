@@ -1,10 +1,9 @@
 ---
-id: 857936de-1bd5-4666-8ea9-a218d426c7ec
-title: Publishing V2 
+id: 5aeb90f3-2854-42fd-a7cf-c093a1a9bf1b
+title: Publishingv2
 desc: ''
-updated: 1610993383621
-created: 1608528160486
-nav_order: 3
+updated: 1613875971659
+created: 1613875971659
+stub: true
 ---
-Dendron lets you publish the contents of your vault, either in its entirety or only a subset. Notes are published using a custom [11ty](https://www.11ty.dev/) generator.
 
