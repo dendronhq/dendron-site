@@ -2,7 +2,7 @@
 id: 3a82c5ff-7945-46ae-8bf9-3b2275fc6642
 title: Showcase
 desc: ''
-updated: 1604598187318
+updated: 1614059886015
 created: 1600010740851
 ---
 Below are examples of published Dendron vaults
@@ -43,7 +43,7 @@ Below are examples of published Dendron vaults
 
 ### Jack's page
 
-- homepage: <https://jackqaq-byte.github.io/my-second-brain/>
+- homepage: <https://imalightbulb.xyz>
 - discord: `@I'm a lightbulb#6986`
 
 ![](/assets/images/2020-09-13-09-01-48.png)
