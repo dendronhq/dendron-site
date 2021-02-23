@@ -69,3 +69,10 @@ Below are examples of published Dendron vaults
 
 ![ScreenShot of @dolearning digital garden](https://res.cloudinary.com/kc-cloud/image/upload/v1607614868/digital_garden_screenshot_j9wrcz.png)
 
+
+### Cameron's digital garden
+
+- homepage: <https://notes.serendipidata.com/>
+- discord: `@cameron#9185`
+
+![](https://p-qkfgo2.t2.n0.cdn.getcloudapp.com/items/WnuBJ0L1/8befb6dd-740d-4088-bbeb-b5c21954e308.jpg?v=4e54f3d2ffbbe051c195eab04c72971f)
