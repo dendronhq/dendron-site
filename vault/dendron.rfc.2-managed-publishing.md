@@ -2,13 +2,16 @@
 id: ae4a0c98-e2ea-47e0-8a20-016eba3424be
 title: 2 - Managed Publishing
 desc: ''
-updated: 1613067905558
+updated: 1614101307925
 created: 1611853430165
 ---
 
 ## Goal
 
 Make it easy for everyone to publish a [digital garden](https://www.kevinslin.com/notes/30a9ec3e-d58f-44ce-8d7c-535f122f7d0b.html)
+
+## Tenants
+- publishing should be accessible to everyone
 
 ## Product
 

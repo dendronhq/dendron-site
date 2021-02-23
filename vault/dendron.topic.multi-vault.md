@@ -2,9 +2,11 @@
 id: 24b176f1-685d-44e1-a1b0-1704b1a92ca0
 title: Multi Vault
 desc: ''
-updated: 1614057932509
+updated: 1614108409082
 created: 1605630383515
 ---
+
+## Summary
 Multi vault lets you create multiple vaults for a given workspace. Each vault is a folder that can contain any number of hierarchies. 
 
 ## Use Cases

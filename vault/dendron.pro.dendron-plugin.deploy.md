@@ -2,7 +2,7 @@
 id: 2976e5df-c8b4-4176-9d3f-fe4220dfa9b6
 title: Deploy
 desc: ''
-updated: 1614053227384
+updated: 1614096853882
 created: 1613863275374
 ---
 
@@ -68,6 +68,7 @@ cd packages/plugin-core
 ```
 
 - test changes
+    - [ ] any packages installed will be with verdaccio so don't use dendron-site
 
 ## publish
 
@@ -94,10 +95,15 @@ sleep 60
 ./scripts/pack_and_install.sh
 ```
 
+## cleanup
 ```
+cd $WORKSPACE_BUILD
 gbD integ-publish
+
+cd $WORKSPACE
 gbD integ-publish
 ```
+
 
 ## cook
 

@@ -2,7 +2,7 @@
 id: 230d0ccf-5758-4a8f-b39b-3b68e1482e2b
 title: Publishing Your Site
 desc: ''
-updated: 1610845880192
+updated: 1614113190758
 created: 1610844337503
 ---
 
@@ -10,7 +10,7 @@ created: 1610844337503
 
 ### Pre-requisites 
 - This assumes you have a github repository. 
-    - If not, you can create an account on [github](https://github.com/)
+    - If not, you can create one [here](https://github.com/new) from your existing workspace
 
 ### Create a github repo
 - Follow the instructions [here](https://pages.github.com/) to create a repository named `{username}.github.io` where `{username}` is your username on Github
