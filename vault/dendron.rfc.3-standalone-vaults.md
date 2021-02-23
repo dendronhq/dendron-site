@@ -16,7 +16,7 @@ Currently Dendron requires a `dendron.code-workspace` file and to be in an activ
 - it requires that a user be in an active vscode workspace
 - it doesn't let you use Dendron in an existing VSCode project (eg. editing `docs` folder inside a code owrkspace)
 
-See this [issue](https://github.com/dendronhq/dendron/issues?q=is%3Aissue+is%3Aopen+markdown) for more details.
+See this [issue](https://github.com/dendronhq/dendron/issues/402) for more details.
 
 ## Proposal
 
