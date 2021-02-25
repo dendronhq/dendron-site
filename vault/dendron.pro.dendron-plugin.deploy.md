@@ -2,7 +2,7 @@
 id: 2976e5df-c8b4-4176-9d3f-fe4220dfa9b6
 title: Deploy
 desc: ''
-updated: 1614096853882
+updated: 1614213422129
 created: 1613863275374
 ---
 
@@ -36,11 +36,11 @@ yarn bootstrap:build
 ## test local
 
 - publish from local
-```
+```sh
 gco -b integ-publish
 setRegLocal
 
-version=minor
+version=patch
 lerna version $version --no-git-tag-version 
 
 git add .
@@ -48,6 +48,10 @@ git commit -m "integ: publish $version"
 git push --set-upstream origin integ-publish --force
 
 lerna publish from-package 
+
+# if you already built
+lerna publish from-package --ignore-scripts
+
 node bootstrap/scripts/genMeta.js
 ```
 

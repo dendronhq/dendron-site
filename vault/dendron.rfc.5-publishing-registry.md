@@ -2,7 +2,7 @@
 id: 21b2e152-95f7-4904-8a8e-8d4d0b8c950c
 title: 5 Publishing Registry
 desc: ''
-updated: 1614184535632
+updated: 1614203819082
 created: 1614183727211
 ---
 
@@ -64,3 +64,5 @@ host:
 ## Tradeoffs
 
 - TBD
+
+can you run the `> Diagnostics Report` command and DM me the output?
