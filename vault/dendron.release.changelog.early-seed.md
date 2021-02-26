@@ -2,7 +2,7 @@
 id: 3abd00eb-1c1e-4253-aaf5-dcbe20c21850
 title: Early Seed
 desc: ''
-updated: 1614313128913
+updated: 1614313385678
 created: 1604539200840
 published: true
 nav_exclude: true
@@ -35,3 +35,4 @@ As an example of what you can do with a custom pod, we created the [[Dev.to Pod|
 
 ### House Cleaning
 - if you're working on the codebase, `dendron.code-workspace` has been renamed to `dendron-main.code-workspace`
+    - this helps if you're working on dendron while having dendron installed since Dendron, prior to this change, would also activate when you were editing the code

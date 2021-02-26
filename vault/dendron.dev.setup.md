@@ -2,7 +2,7 @@
 id: 64f0e2d5-2c83-43df-9144-40f2c68935aa
 title: Setup
 desc: ''
-updated: 1613863512506
+updated: 1614313342658
 created: 1598651458825
 stub: false
 ---
@@ -35,7 +35,11 @@ yarn bootstrap:build
 
 - we recommend you use `vscode` to develop for dendron. there is a `dendron.code-workspace` file in the root of the monorepo that you should use when developing
 
-### 4. Start Debugging (the plugin)
+### 4. Editing (the plugin)
+
+At the root of the monorepo, open `dendron-main.code-workspace`. Open this with VSCode to start editing. While its not required to use VSCode, most of the helper scripts in this repository are created with VSCode in mind so using it will make development significantly easier.
+
+### 5. Start Debugging (the plugin)
 
 - NOTE: you don't need to do this if you are not directly working on the extension (eg. you're working on the [[server|dendron.pro.dendron-next-server]])
 
