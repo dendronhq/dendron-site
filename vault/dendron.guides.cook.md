@@ -2,7 +2,7 @@
 id: 401c5889-20ae-4b3a-8468-269def4b4865
 title: Cookbook
 desc: ''
-updated: 1611597461245
+updated: 1614314036931
 created: 1595952505024
 nav_order: 8.9
 toc: true
@@ -139,6 +139,10 @@ To get familiar with regex syntax, try [regexr](https://regexr.com/) is a great 
 1. Initialize local vault as a git repo and push it to a remote 
 1. Remove the local vault from your current workspace 
 1. Use the `Vault: Add` command and enter the remote url of the repo you would like to add
+
+### Automatically Convert Casing on a Note
+
+You can use the [string converter](https://marketplace.visualstudio.com/items?itemName=adamwalzer.string-converter) extension to change `[[normal note with spaces]]` to `[[normal-note-with-spaces]]` as well as a series of other text transformations.
 
 ## Markdown Preview
 
