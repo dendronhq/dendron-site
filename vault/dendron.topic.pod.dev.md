@@ -2,7 +2,7 @@
 id: 5de219e6-d9b9-4abf-9367-998109cd57cd
 title: Developing a Pod
 desc: ''
-updated: 1614216717066
+updated: 1614217637177
 created: 1614201272488
 ---
 
@@ -148,8 +148,9 @@ Hello Albert
 Pods have full access to all the metadata attached to a note. You can see the pod arguments below
 ![[dendron.topic.pod.sdk#plantopts-publishpodplantoptst,1]]
 
-- TODO
+TODO - You can see an example of this [[here|dendron.pro.devto-pod]]
+
 
 ### Using Typescript
 
-- TODO
+TODO - You can see an example of this [[here|dendron.pro.devto-pod]]

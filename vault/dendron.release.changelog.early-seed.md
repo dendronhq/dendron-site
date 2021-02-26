@@ -2,7 +2,7 @@
 id: 3abd00eb-1c1e-4253-aaf5-dcbe20c21850
 title: Early Seed
 desc: ''
-updated: 1614216957228
+updated: 1614313128913
 created: 1604539200840
 published: true
 nav_exclude: true
@@ -17,7 +17,21 @@ nav_exclude: true
 We now have custom pod support
 ![[dendron.topic.pod.custom#summary,1:#*]]
 
-### Enhancements
-### Bug Fixes
-### House Cleaning
+If you are interested in developing your own publishing pod, you can docs to do so [[here|dendron.topic.pod.dev]]
 
+#### Dev.to Pod
+
+As an example of what you can do with a custom pod, we created the [[Dev.to Pod|dendron.pro.devto-pod]] which lets you publish your notes to dev.to
+
+### Enhancements
+- backlinks in published sites 
+
+![[dendron.topic.publishingv2.features#backlinks,1]]
+
+### Bug Fixes
+- delete node sometimes fails in multi-vault
+- publishing multi-vault will sometimes not work if multiple domain notes
+- unable to select `root` of multi-vault notes in tree view
+
+### House Cleaning
+- if you're working on the codebase, `dendron.code-workspace` has been renamed to `dendron-main.code-workspace`

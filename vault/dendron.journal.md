@@ -1,10 +1,9 @@
 ---
-id: 9dd17206-c4a9-44e1-8046-78970f0ea97c
+id: 923d1bad-74fa-4aff-bac3-9e1792db886f
 title: Journal
 desc: ''
-updated: 1613844043854
-created: 1613844030119
-stub: false
-nav_exclude: true
+updated: 1614310670438
+created: 1614310670438
+stub: true
 ---
 

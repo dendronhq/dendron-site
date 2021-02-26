@@ -2,7 +2,7 @@
 id: 2976e5df-c8b4-4176-9d3f-fe4220dfa9b6
 title: Deploy
 desc: ''
-updated: 1614213422129
+updated: 1614305751920
 created: 1613863275374
 ---
 
@@ -37,6 +37,7 @@ yarn bootstrap:build
 
 - publish from local
 ```sh
+gbD integ-publish
 gco -b integ-publish
 setRegLocal
 
@@ -51,22 +52,22 @@ lerna publish from-package
 
 # if you already built
 lerna publish from-package --ignore-scripts
-
 node bootstrap/scripts/genMeta.js
 ```
 
 - pull in new changes
 ```sh
 WORKSPACE_BUILD=/mnt/one/dendron-build
-WORKSPACE_BUILD=/Users/kevinlin/projects/dendronv2/dendron/build/dendron
+WORKSPACE_BUILD=/Users/kevinlin/projects/dendronv2/dendron/build/dendron/packages/plugin-core
 cd $WORKSPACE_BUILD
 
 git reset --hard
 git clean -f
+gco master
+gbD integ-publish
 git checkout --track origin/integ-publish
 
 # installing
-cd packages/plugin-core
 ./scripts/package.sh
 ./scripts/install.sh
 ```
@@ -85,7 +86,7 @@ setRegRemote
 - [ ] cherry pick if needed
 
 ```
-version=minor
+version=patch
 lerna version $version 
 lerna publish from-package 
 ```
