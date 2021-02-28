@@ -2,10 +2,11 @@
 id: 6e4c4f61-80a3-46fa-9ad3-04b99d9e9695
 title: Project Public Roadmap
 desc: ''
-updated: 1605565729232
+updated: 1614538364450
 created: 1600840127160
 stub: false
 nav_order: 2.1
+nav_exclude: true
 ---
 The Dendron Public Roadmap is a list of all the things we're working on for the year. 
 

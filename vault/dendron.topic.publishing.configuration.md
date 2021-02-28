@@ -2,12 +2,12 @@
 id: f2ed8639-a604-4a9d-b76c-41e205fb8713
 title: Configuration
 desc: ''
-updated: 1613151798357
+updated: 1614538359705
 created: 1608528797892
 nav_order: 3
 ---
-
 ## Summary
+
 Dendron lets you control publication behavior at multiple levels:
 
 - **globally** using `dendronConfig.site` 
@@ -58,6 +58,7 @@ site:
 ```
 
 - header.html
+
 ```
 <script> console.log("hello world"); </script>
 ```
@@ -89,6 +90,7 @@ Your ga tracking number if you want to add google analytics.
 Cname used for github pages
 
 ### logo (optional)
+
 - default: none
 - eg: `vault/assets/images/logo.png`
 
@@ -107,6 +109,7 @@ Path to favicon. Relative to workspace.
 List of hierarchies to publish. `root` is a special value that means `publish all`.
 
 ### siteLastModified (optional)
+
 - default: false
 
 If set to true, show a last modified at the bottom of your site. This value is set form the `updated` timestamp in your note frontmatter.
@@ -164,7 +167,7 @@ Writing stubs is important to guarantee permanent urls as Dendron will randomize
 #### gh_edit_link
 
 - default: true
-Show a edit on github link at the bottom of the page
+  Show a edit on github link at the bottom of the page
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/publish.edit-on-github.jpg)
 
@@ -391,7 +394,7 @@ noindex: true
 
 ### collection options
 
-[[Collection specific|dendron.topic.publishingv2.collections]] options. 
+[[Collection specific|dendron.topic.publishing.collections]] options. 
 
 #### date
 

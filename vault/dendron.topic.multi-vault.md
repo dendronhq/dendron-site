@@ -5,8 +5,8 @@ desc: ''
 updated: 1614108409082
 created: 1605630383515
 ---
-
 ## Summary
+
 Multi vault lets you create multiple vaults for a given workspace. Each vault is a folder that can contain any number of hierarchies. 
 
 ## Use Cases
@@ -60,7 +60,7 @@ lookupConfirmVaultOnCreate: true
 
 You can publish from a multi-vault enabled workspace if you are using [[dendron-11ty|dendron.pro.dendron-11ty]] to publish. 
 
-We have added a new configuration, `duplicateNoteBehavior`, which [[controls|dendron.topic.publishingv2.configuration#duplicatenotebehavior-optional]] how Dendron handles duplicate notes across multiple vaults. 
+We have added a new configuration, `duplicateNoteBehavior`, which [[controls|dendron.topic.publishing.configuration#duplicatenotebehavior-optional]] how Dendron handles duplicate notes across multiple vaults. 
 
 ### Note References
 
@@ -96,3 +96,4 @@ If you want to convert a local vault to a remote vault, you can follow the instr
         ├── root.md
         └── ...
 ```
+

@@ -29,7 +29,7 @@ Extremely powerful templating capabilities with [[nunjuck templates|dendron.topi
 ### Enhancements
 
 - private vaults ([[docs|dendron.topic.config#visibility]])
-- popover 403 links ([[docs|dendron.topic.publishingv2.selective-publication#403-page]])
+- popover 403 links ([[docs|dendron.topic.publishing.selective-publication#403-page]])
 - standardize pod cli interface
 
 ### Bug Fixes
@@ -59,7 +59,7 @@ Instructions to get started are [[here|dendron.rfc.2-managed-publishing.quicksta
 
 ### Enhancements
 
-- show last modified time for published sites ([[docs|dendron.topic.publishingv2.configuration#sitelastmodified-optional]])
+- show last modified time for published sites ([[docs|dendron.topic.publishing.configuration#sitelastmodified-optional]])
 - add option to configure human readable ts formatting  ([[docs|dendron.topic.config#dendrondefaulttimestampdecorationformat]])
 - smaller downloads when using publishing commands for the first time
 - much faster publishing commands
@@ -102,8 +102,8 @@ yarn bootstrap:build
 ### Enhancements
 
 - add path customization to build-site ([[docs|dendron.pro.dendron-cli#buildsitev2]])
-- Add default description option to dendron config  ([[docs|dendron.topic.publishingv2.configuration#description]])
-- add config to publish multi-vault when adding vault ([[docs|dendron.topic.publishingv2.configuration#duplicatenotebehavior-optional]])
+- Add default description option to dendron config  ([[docs|dendron.topic.publishing.configuration#description]])
+- add config to publish multi-vault when adding vault ([[docs|dendron.topic.publishing.configuration#duplicatenotebehavior-optional]])
 
 ### Bug Fixes
 
@@ -125,7 +125,7 @@ yarn bootstrap:build
 
 ### Enhancements
 
-- nicer 403 page on unpublished pages ([[docs|dendron.topic.publishingv2.selective-publication#403-page]])
+- nicer 403 page on unpublished pages ([[docs|dendron.topic.publishing.selective-publication#403-page]])
 
 ### Bug Fixes
 
@@ -142,7 +142,7 @@ yarn bootstrap:build
 
 ### Enhancements
 
-- use list of vaults when resolving duplicate notes ([[docs|dendron.topic.publishingv2.configuration#passing-multiple-vaults]])
+- use list of vaults when resolving duplicate notes ([[docs|dendron.topic.publishing.configuration#passing-multiple-vaults]])
 - go to definition now works for `![[refs]]` 
 - [[Copy Note Link|dendron.topic.commands#copy-note-link]] now updates alias to header value when copying header
 
@@ -206,9 +206,9 @@ You can now publish and build your notes without going to the command line ([[do
 
 - enable pass dict to config ([ccbc017](https://github.com/dendronhq/dendron/commit/ccbc0178cdc0399230a47e4ab1c90d345e447aeb))
 - use enhanced filter when creating 403 links ([65afe8c](https://github.com/dendronhq/dendron/commit/65afe8c084d1a657e943edb3ef1b497f3fd97ea6))
-- custom header support ([[docs|dendron.topic.publishingv2.configuration#customheaderpath-optional]])
+- custom header support ([[docs|dendron.topic.publishing.configuration#customheaderpath-optional]])
   - [[add custom headers|scratch.2021.01.12.085012.add-custom-headers]]
-- google analytics support ([[docs|dendron.topic.publishingv2.configuration#ga_tracking-optional]])
+- google analytics support ([[docs|dendron.topic.publishing.configuration#ga_tracking-optional]])
 - [[Multi Vault Edit on GitHub|dendron.scratch.2021.01.09.multi-vault-edit-on-github]]
 
 ### Bug Fixes
@@ -222,7 +222,7 @@ You can now publish and build your notes without going to the command line ([[do
 
 ### Enhancements
 
-- better 403 page ([[docs|dendron.topic.publishingv2.selective-publication#403-page]])
+- better 403 page ([[docs|dendron.topic.publishing.selective-publication#403-page]])
 - spurious error message if user doesn't create note from not selecting a vault
 - better default journal note titles
 
@@ -267,7 +267,7 @@ You can now both build your notes for publication and preview it from inside vsc
 
 ### Enhancements
 
-- `nav_exclude` property excludes from nav sider and table of contents ([[docs|dendron.topic.publishingv2.navigation#nav-exclude]])
+- `nav_exclude` property excludes from nav sider and table of contents ([[docs|dendron.topic.publishing.navigation#nav-exclude]])
 - [[copy note ref|dendron.topic.commands#copy-note-ref]] command will use the new note ref syntax
 - footnote support in preview and when publishing ([[docs|dendron.topic.markdown#footnotes]])
 
@@ -297,7 +297,7 @@ You can now both build your notes for publication and preview it from inside vsc
 
 ### Features
 
-- [[Collections|dendron.topic.publishingv2.collections]] support for 11ty
+- [[Collections|dendron.topic.publishing.collections]] support for 11ty
   - publish blog like archives using Dendron
 - CLI Based Doctor ([[docs|dendron.pro.dendron-cli#doctor]])
   - run various tests to make your notes are healthy for the new year
@@ -306,10 +306,10 @@ You can now both build your notes for publication and preview it from inside vsc
 ### Enhancements
 
 - additional metadata tags for published pages
-- support `noindex` option ([[docs|dendron.topic.publishingv2.configuration#noindex]])
+- support `noindex` option ([[docs|dendron.topic.publishing.configuration#noindex]])
 - add anchor links to headers
 - use note title for page title
-- support [[nav_exclude|dendron.topic.publishingv2.configuration#nav_exclude]] option
+- support [[nav_exclude|dendron.topic.publishing.configuration#nav_exclude]] option
 - support overriding [[output|dendron.pro.dendron-cli#buildsitev2]] in `buildSiteV2` command
 - don't throw error if no syntax highlighter available for code block
 
@@ -341,8 +341,8 @@ You can now both build your notes for publication and preview it from inside vsc
 
 ### Enhancements
 
-- add seo tags ([[docs|dendron.topic.publishingv2.configuration#seo-options]])
-- enable edit on github link ([[docs|dendron.topic.publishingv2.configuration#github-options]])
+- add seo tags ([[docs|dendron.topic.publishing.configuration#seo-options]])
+- enable edit on github link ([[docs|dendron.topic.publishing.configuration#github-options]])
 - migrate all jekyll `_config.yml` settings to `dendron.yml`
 
 ### Bug Fixes
@@ -354,7 +354,7 @@ You can now both build your notes for publication and preview it from inside vsc
 ### Docs
 
 - [dendron.so](https://dendron.so) is now published using the new 11ty framework
-- add [[publishing to github guide|dendron.topic.publishingv2.github]] using github actions
+- add [[publishing to github guide|dendron.topic.publishing.github]] using github actions
 
 ## 0.20.2
 
@@ -371,7 +371,7 @@ You can now both build your notes for publication and preview it from inside vsc
 - support [[note refs for multi-vault|dendron.topic.multi-vault#note-references]] 
 - support relative links in dendron preview ([[docs|dendron.topic.links#wiki-links]])
 - further speed enhancements to publishing using 11ty resulting in another 5x improvement  
-- configure [[writeStubs|dendron.topic.publishingv2.configuration#writestubs-optional]] from `dendron.yml`
+- configure [[writeStubs|dendron.topic.publishing.configuration#writestubs-optional]] from `dendron.yml`
 
 ### Bug Fixes
 
@@ -380,7 +380,7 @@ You can now both build your notes for publication and preview it from inside vsc
 
 ### House Cleaning
 
-- [[writeStubs|dendron.topic.publishingv2.configuration#writestubs-optional]] is set to `true` by default (or when not set) when publishing using 11ty
+- [[writeStubs|dendron.topic.publishing.configuration#writestubs-optional]] is set to `true` by default (or when not set) when publishing using 11ty
 
 ## 0.20.1
 

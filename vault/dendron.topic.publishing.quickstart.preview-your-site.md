@@ -2,7 +2,7 @@
 id: 1399b5d2-28fb-4077-aa5f-c8edbe52bc5d
 title: Preview Your Site
 desc: ''
-updated: 1614535778070
+updated: 1614538242822
 created: 1610844309611
 nav_order: 1
 ---
@@ -52,7 +52,7 @@ The following describes how to prepare your notes for publication using VSCode.
 
 ### Get ready to publish
 
-When you are ready, you can go to [[publishing your site|dendron.topic.publishingv2.quickstart.publishing-your-site]] for instructions on announcing your site to the world.
+When you are ready, you can go to [[publishing your site|dendron.topic.publishing.quickstart.publishing-your-site]] for instructions on announcing your site to the world.
 
 ## CLI
 
@@ -125,7 +125,7 @@ When you are ready to publish to github, make sure to change the stage to `prod`
 npx dendron-cli buildSiteV2 --wsRoot .  --stage prod 
 ```
 
-This will build your site to the path specified by [[siteRootDir|dendron.topic.publishingv2.configuration#siterootdir-required]] in `dendron.yml`.  By default, this is located at `{wsRoot}/docs`.
+This will build your site to the path specified by [[siteRootDir|dendron.topic.publishing.configuration#siterootdir-required]] in `dendron.yml`.  By default, this is located at `{wsRoot}/docs`.
 
-![[dendron.topic.publishingv2.quickstart.preview-your-site#get-ready-to-publish,1:#*]]
+![[dendron.topic.publishing.quickstart.preview-your-site#get-ready-to-publish,1:#*]]
 

@@ -11,7 +11,7 @@ With 0.21, multi-vault should now be at feature parity with single vault workspa
 
 0.21 also brings about Dendron's 2nd Generation publishing feature. This is a faster, leaner, and more powerful way to publish your notes using Dendron. 
 
-There's still some work left to integrate publishing into the Dendron plugin - meanwhile, you can take the new publishing workflow for a spin by following the instructions [[here|dendron.topic.publishingv2.quickstart]]
+There's still some work left to integrate publishing into the Dendron plugin - meanwhile, you can take the new publishing workflow for a spin by following the instructions [[here|dendron.topic.publishing.quickstart]]
 
 ### Highlights
 
