@@ -5,7 +5,6 @@ desc: ''
 updated: 1610397134154
 created: 1610397097347
 ---
-
 ## 0.19.3
 
 ### Bug Fixes
@@ -224,7 +223,7 @@ Note that the header is expected in [github slug](https://github.com/gosimple/sl
 
 Similarly to copying a note ref, if you select any part of a header while running `Copy Note Link`, a relative wiki-link will be automatically generated.
 
-((ref: [[dendron.topic.commands]]# copy note link:# *))
+((ref:[[dendron.topic.commands]]# copy note link:# *))
 
 #### All link features are now multi-vault aware
 
@@ -935,4 +934,3 @@ A scratch note is a self contained note that is meant to be used as scratchpad. 
 - **refs:** emit error when header not found ([5deb2d1](https://github.com/dendronhq/dendron/commit/5deb2d18160974bd035b3703715acc16d0dcb012))
 - **publish:** configure repoDir via config ([fa838e4](https://github.com/dendronhq/dendron/commit/fa838e48bc5e33b8aa00d5aa954283c55af4d917))
 
- 

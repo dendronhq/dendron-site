@@ -4,9 +4,8 @@ title: Changelog
 desc: ''
 updated: 1614058757606
 created: 1601508213606
-date: 2022-01-01
+date: '2022-01-01'
 ---
-
 ## 0.29.2
 
 ### Features
@@ -16,26 +15,30 @@ date: 2022-01-01
 Extremely powerful templating capabilities with [[nunjuck templates|dendron.topic.markdown#nunjuck-templates]]
 
 ### Enhancements
+
 - better multi-vault defaults
   - instead of keeping [[remote vaults|dendron.concepts#remote-vault]] under a special `repos` folder, you can now initialize them where ever you want
 - better git defaults with new vaults
 
 ### Bug Fixes
-- support turning off pretty refs for dendron preview ([[docs|dendron.topic.config#useprettyrefs]])
 
+- support turning off pretty refs for dendron preview ([[docs|dendron.topic.config#useprettyrefs]])
 
 ## 0.29.1
 
 ### Enhancements
+
 - private vaults ([[docs|dendron.topic.config#visibility]])
 - popover 403 links ([[docs|dendron.topic.publishingv2.selective-publication#403-page]])
 - standardize pod cli interface
 
 ### Bug Fixes
+
 - use builtin clipboard manager 
 - private wiki links render errors on published page
 
 ### House Cleaning
+
 - [issue labeling automation](https://github.com/dendronhq/dendron/pull/453)
 - remove legacy publishing commands (BuildPod & Publish)
 
@@ -55,6 +58,7 @@ At launch, we are supporting publishing from a connected github repo.
 Instructions to get started are [[here|dendron.rfc.2-managed-publishing.quickstart]]
 
 ### Enhancements
+
 - show last modified time for published sites ([[docs|dendron.topic.publishingv2.configuration#sitelastmodified-optional]])
 - add option to configure human readable ts formatting  ([[docs|dendron.topic.config#dendrondefaulttimestampdecorationformat]])
 - smaller downloads when using publishing commands for the first time
@@ -62,11 +66,13 @@ Instructions to get started are [[here|dendron.rfc.2-managed-publishing.quicksta
 - frontmatter can now be folded 
 
 ### Bug Fixes
+
 - 11ty build issues
 - dendron `move note` command can fail when parents are stubs
 - preview can get out of sync with Dendron
 
 ### House Cleaning
+
 - dendron monorepo is now on yarn
   - this results in 4x faster initial builds and 6x smaller bundle sizes when developing
 - dendron-11ty is now merged into the dendron monorepo
@@ -84,19 +90,23 @@ yarn bootstrap:bootstrap
 yarn bootstrap:build 
 
 ```
+
 ## 0.27.2
 
 ### Features
+
 - diagnostics report ([[docs|dendron.topic.commands#dendrondev-diagnostics-report]])
 
 ![[dendron.topic.commands#dendrondev-diagnostics-report,1]]
 
 ### Enhancements
+
 - add path customization to build-site ([[docs|dendron.pro.dendron-cli#buildsitev2]])
 - Add default description option to dendron config  ([[docs|dendron.topic.publishingv2.configuration#description]])
 - add config to publish multi-vault when adding vault ([[docs|dendron.topic.publishingv2.configuration#duplicatenotebehavior-optional]])
 
 ### Bug Fixes
+
 - build-site doesn't overwrite STAGE environment 
 - do not delete text when extracting non-vault text
 - add new vaults to newline in .gitignore
@@ -104,17 +114,21 @@ yarn bootstrap:build
 ## 0.27.1
 
 ### Bug Fixes
--  server close error when building website for production
+
+- server close error when building website for production
 
 ## 0.26.1
 
 ### Features
+
 - move notes between vaults using the move note command ([[docs|dendron.topic.commands#move-note]])
 
 ### Enhancements
+
 - nicer 403 page on unpublished pages ([[docs|dendron.topic.publishingv2.selective-publication#403-page]])
 
 ### Bug Fixes
+
 - issue with daily journal notes not getting pretty titles
 - ctrl hover over images will create a note
 - when removing a note with empty parents, clean up empty parents
@@ -122,28 +136,34 @@ yarn bootstrap:build
 ## 0.25.3
 
 ### Features
+
 - mermaid diagram support when publishing ([[docs|dendron.topic.markdown#diagrams]])
 - display note title as link ([[docs|dendron.topic.config#usenotetitleforlink]])
 
 ### Enhancements
+
 - use list of vaults when resolving duplicate notes ([[docs|dendron.topic.publishingv2.configuration#passing-multiple-vaults]])
 - go to definition now works for `![[refs]]` 
 - [[Copy Note Link|dendron.topic.commands#copy-note-link]] now updates alias to header value when copying header
 
 ### Bug Fix
+
 - grammar issue with unpublished page notification
 
 ### House Cleaning
+
 - remove `sync_vault` as a step when building dendron for the first time
 
 ## 0.25.2
 
 ### Bug Fix
+
 - issue with new vaults not having welcome note
 
 ## 0.25.1
 
 ### Bug Fix
+
 - issue with md outline not showing
 
 ## 0.24.2
@@ -155,6 +175,7 @@ yarn bootstrap:build
 You can now publish and build your notes without going to the command line ([[docs|dendron.topic.commands#site-build]])
 
 ### Enhancements
+
 - show progress bar when syncing graph
 - show progress bar when installing node modules
 - [[useFMTitle|dendron.topic.config#usefmtitle]] set to true by default
@@ -162,15 +183,18 @@ You can now publish and build your notes without going to the command line ([[do
 - [[Copy Note Url|dendron.topic.commands#copy-note-url]] uses `siteUrl` as value for noteRef
 
 ### Bug Fixes
+
 - fix issues with nav capitalization
 - fix dup items in nav
 - windows site preview not cleaning up child processes
 - fix note graph errors
 
 ### Docs
+
 - revamped publishing docs
 
 ### House Cleaning
+
 - jekyll based publishing is now deprecated 
 - [[dendron.copyNoteUrlRoot|dendron.topic.config#dendroncopynoteurlroot]] deprecated for `siteUrl`
 
@@ -179,6 +203,7 @@ You can now publish and build your notes without going to the command line ([[do
 ### Features
 
 ### Enhancements
+
 - enable pass dict to config ([ccbc017](https://github.com/dendronhq/dendron/commit/ccbc0178cdc0399230a47e4ab1c90d345e447aeb))
 - use enhanced filter when creating 403 links ([65afe8c](https://github.com/dendronhq/dendron/commit/65afe8c084d1a657e943edb3ef1b497f3fd97ea6))
 - custom header support ([[docs|dendron.topic.publishingv2.configuration#customheaderpath-optional]])
@@ -187,6 +212,7 @@ You can now publish and build your notes without going to the command line ([[do
 - [[Multi Vault Edit on GitHub|dendron.scratch.2021.01.09.multi-vault-edit-on-github]]
 
 ### Bug Fixes
+
 - fix multi-vault breadcrump null issue 
 - fix windows build for site
 
@@ -195,19 +221,23 @@ You can now publish and build your notes without going to the command line ([[do
 ### Features
 
 ### Enhancements
+
 - better 403 page ([[docs|dendron.topic.publishingv2.selective-publication#403-page]])
 - spurious error message if user doesn't create note from not selecting a vault
 - better default journal note titles
 
 ### Bug Fixes
+
 - issue publishing with subdomain
 - some queries not being returned in multi-vault settings
 - issue with noteRef mangling when using doctor
 
 ### House Cleaning
+
 - update on date format for journal and scratch notes to use [Luxon style formatting](https://moment.github.io/luxon/docs/manual/formatting.html)
 
 ## 0.23.1
+
 - Dendron Markdown Preview: 0.10.18
 - Dendron 11ty: 1.23.6
 
@@ -236,11 +266,13 @@ You can now both build your notes for publication and preview it from inside vsc
 -->
 
 ### Enhancements
+
 - `nav_exclude` property excludes from nav sider and table of contents ([[docs|dendron.topic.publishingv2.navigation#nav-exclude]])
 - [[copy note ref|dendron.topic.commands#copy-note-ref]] command will use the new note ref syntax
 - footnote support in preview and when publishing ([[docs|dendron.topic.markdown#footnotes]])
 
 ### Bug Fixes
+
 - spaces in wiki link not rendering in preview
 
 ## 0.22.2
@@ -384,7 +416,7 @@ When you are ready to publish to github, make sure to change the stage to `prod`
 npx dendron-cli buildSiteV2 --wsRoot .  --stage prod 
 ```
 
-This will build your site to the path specified by [[siteRootDir|dendron.topic.publishing.configuration#siterootdir]] in `dendron.yml`. 
+This will build your site to the path specified by [[siteRootDir|dendron.topic.publishing-legacy.configuration#siterootdir]] in `dendron.yml`. 
 
 #### Benchmarks
 
@@ -470,6 +502,7 @@ Options:
 
 <!-- https://hacks.mozilla.org/2020/10/to-eleventy-and-beyond/ -->
 
-
 ## Past Releases
+
 - [[0.1.X|dendron.release.changelog.0-1-x]]
+

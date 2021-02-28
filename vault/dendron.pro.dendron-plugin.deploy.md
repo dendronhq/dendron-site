@@ -2,7 +2,7 @@
 id: 2976e5df-c8b4-4176-9d3f-fe4220dfa9b6
 title: Deploy
 desc: ''
-updated: 1614305751920
+updated: 1614533946140
 created: 1613863275374
 ---
 
@@ -41,7 +41,7 @@ gbD integ-publish
 gco -b integ-publish
 setRegLocal
 
-version=patch
+version=prepatch
 lerna version $version --no-git-tag-version 
 
 git add .
