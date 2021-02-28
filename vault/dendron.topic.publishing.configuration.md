@@ -2,7 +2,7 @@
 id: f2ed8639-a604-4a9d-b76c-41e205fb8713
 title: Configuration
 desc: ''
-updated: 1614538359705
+updated: 1614547295573
 created: 1608528797892
 nav_order: 3
 ---
@@ -394,17 +394,15 @@ noindex: true
 
 ### collection options
 
-[[Collection specific|dendron.topic.publishing.collections]] options. 
-
-#### date
-
-If set, used to designate a custom publication date. By default, use timestamp of `created` field. 
-
 #### has_collection
 
 - default: false
 
-Whether a given page is a collection
+Whether a given page is a collection. A collection doesn't have a table of contents and allows you to set collection specific options.
+
+#### date
+
+If set, used to designate a custom publication date. By default, use timestamp of `created` field. 
 
 #### skipLevels
 
@@ -431,7 +429,8 @@ When you publish, you might only want to show the leaf nodes and skip the interm
 
 #### sort_order
 
-- default: normal
+- default: `ascending`
+- values: `ascending|reverse`
 
 Sort items in a collection page. Ascending by default. Specify `reverse` to sort in descending order.
 

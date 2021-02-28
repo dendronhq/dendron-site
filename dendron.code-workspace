@@ -40,7 +40,6 @@
         "dendron.logLevel": "debug",
         "pasteImage.path": "${currentFileDir}/assets/images",
         "pasteImage.prefix": "/",
-        "dendron.serverPort": 3005,
         "editor.minimap.enabled": false,
         "files.autoSave": "onFocusChange",
         "materialTheme.accent": "Red",
