@@ -2,7 +2,7 @@
 id: a6c03f9b-8959-4d67-8394-4d204ab69bfe
 title: Troubleshooting
 desc: ''
-updated: 1613843773250
+updated: 1614571894654
 created: 1595952505025
 ---
 ## Diagnosing
@@ -14,6 +14,10 @@ You can get a better idea of what went wrong by checking out the [[logs|dendron.
 ### Engine not initialized
 
 This is most likely due to the VSCode [workspace file](https://code.visualstudio.com/docs/editor/multi-root-workspaces#_opening-workspace-files) not being open. Make sure to open the **dendron.code-workspace** file by following the instructions [here](https://code.visualstudio.com/docs/editor/multi-root-workspaces#_opening-workspace-files)
+
+### Multiple Vaults with the same name
+
+You will get this if you have multiple [[vaults|dendron.topic.config#vaults]] that have the same name. This is an error with Dendron since Dendron requires all vault names be unique. You can fix this by removing the duplicate vaults or setting a unique [[name|dendron.topic.config#name]] property for the vault.  
 
 ### Notes from the graph/tree view are out of sync
 

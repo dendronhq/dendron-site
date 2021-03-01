@@ -2,9 +2,8 @@
 id: 7117a023-f090-47f5-a104-5968fc256c23
 title: 4 Richer Templating
 desc: ''
-updated: 1614183685447
+updated: 1614550965753
 created: 1613929636812
-published: false
 ---
 
 ## Goals
