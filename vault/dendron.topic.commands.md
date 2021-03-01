@@ -2,7 +2,7 @@
 id: eea2b078-1acc-4071-a14e-18299fc28f47
 title: Commands
 desc: ''
-updated: 1612823271939
+updated: 1614639256759
 created: 1595261816971
 ---
 ---
@@ -42,6 +42,8 @@ Create a global journal note
 
 Copy wiki link to note. The title of the note will be applied as the note alias. If you highlighter a header, dendron will create a relative link to the header with the alias set to the header value.
 
+If you use this command in a [[multi vault|dendron.topic.multi-vault]] workspace, Dendron will create a [[cross vault link|dendron.topic.links#cross-vault-links]] to the note in question.
+
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/command.copy-link.gif)
 
 ### Copy Note Ref
@@ -58,6 +60,8 @@ Copies a reference to the current open document
 
 If you have a header selected while running this command, it will copy the note ref with the selected header to the next note ref
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/refs.copy-selection.gif) 
+
+If you use this command in a [[multi vault|dendron.topic.multi-vault]] workspace, Dendron will create a [[cross vault link|dendron.topic.links#cross-vault-links]] to the note in question.
 
 ### Delete Node
 
@@ -232,7 +236,11 @@ Go down the hierarchy
 
 Add a new vault
 
- When you add a vault, you can choose between adding a local vault or a remote vault. 
+When you add a vault, you can choose between adding a local vault or a remote vault. A local vault is a folder in your file system and a remote vault is a git repository. If you choose a remote vault, you can choose from a vault from the registry or enter a custom git url.
+
+We currently have two vaults in the registry: `dendron.so` and `aws.dendron.so`. These correspond to the notes backing https://dendron.so/ and https://aws.dendron.so/ respectively. 
+
+Note that when you add a remote vault, the url can also point to a remote workspace. In that case, dendron will inspect the `dendron.yml` to get a list of all vaults within the workspace and add all vaults from inside the workspace.
 
 <div style="position: relative; padding-bottom: 62.5%; height: 0;"><iframe src="https://www.loom.com/embed/b4171372f9794dd7be609c043f343fa3" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 

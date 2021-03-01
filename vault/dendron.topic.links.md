@@ -2,7 +2,7 @@
 id: 3472226a-ff3c-432d-bf5d-10926f39f6c2
 title: Links
 desc: ''
-updated: 1608527947805
+updated: 1614639285945
 created: 1595003088839
 stub: false
 ---
@@ -37,4 +37,16 @@ Dendron has a backlink panel which shows all notes with links to the current not
 For links to a file format Dendron does not support, you can use the highlight the link and use `> Dendron: Open Link` to open the file using your operating system default for that file. This also applies to opening paths to folders.
 
 <a href="https://www.loom.com/share/01250485e20a4cdca2a053dd6047ac68"><img src="https://cdn.loom.com/sessions/thumbnails/01250485e20a4cdca2a053dd6047ac68-with-play.gif"> </a>
+
+## Cross Vault Links
+
+Cross vault links are a way of exactly specifying a note in a [[multi vault|dendron.topic.multi-vault]] workspace. You can turn a regular link into a cross vault link by adding `dendron://$vaultName/` prefix where `$vaultName` is the [[name|dendron.topic.config#name]] of your vault.
+
+Some examples:
+- regular wiki link: `[[dendron://vault/foo]]`
+- wiki link with alias: `[[Foo Note|dendron://vault/foo]]`
+- relative link: `[[Foo Note|dendron://vault/foo#header1]]`
+
+You can also use cross vault links for [[note references|dendron.topic.refs]]. 
+- note ref: `![[dendron://vault/foo]]`
 

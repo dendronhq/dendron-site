@@ -2,7 +2,7 @@
 id: 24b176f1-685d-44e1-a1b0-1704b1a92ca0
 title: Multi Vault
 desc: ''
-updated: 1614108409082
+updated: 1614637478785
 created: 1605630383515
 ---
 ## Summary
@@ -56,15 +56,26 @@ version: 0
 lookupConfirmVaultOnCreate: true
 ```
 
+### Navigating Links
+- Sample workspace
+
+![[dendron.roadmap.project.n.2020.multi-vault#file-layout-for-multi-vault-workspace,1:#*]]
+
+- navigating  to `[[foo]]` will result in a display prompting the user to select the vault to navigate to 
+- navigating to `[[foo.two]]` will directly navigate to the note since it is unique across all vaults
+- navigating to `[[vault1/foo]]` will open `foo` in vault1 
+- navigating to `[[dendron://vault2/foo]]` will open `foo` in vault1
+
+### Note References
+
+~~[[Note references|dendron.topic.refs]] are vault specific~~ When you make a reference, Dendron will include the note from the same note. You can create a reference to a note in a different vault by using [[cross vault links|dendron.topic.links#cross-vault-links]].
+
+
 ### Publishing
 
 You can publish from a multi-vault enabled workspace if you are using [[dendron-11ty|dendron.pro.dendron-11ty]] to publish. 
 
 We have added a new configuration, `duplicateNoteBehavior`, which [[controls|dendron.topic.publishing.configuration#duplicatenotebehavior-optional]] how Dendron handles duplicate notes across multiple vaults. 
-
-### Note References
-
-[[Note references|dendron.topic.refs]] are vault specific. When you make a reference, Dendron will include the note from the same note. 
 
 ### Version Control
 
@@ -97,3 +108,6 @@ If you want to convert a local vault to a remote vault, you can follow the instr
         └── ...
 ```
 
+
+## Related
+- [[Cross Vault Links|dendron.topic.links#cross-vault-links]]

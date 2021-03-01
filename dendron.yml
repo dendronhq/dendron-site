@@ -16,6 +16,7 @@ site:
     ga_tracking: G-B0JN2HHCNY
 vaults:
     - fsPath: vault
+      name: dendron-site
 usePrettyRefs: true
 version: 1
 useFMTitle: true

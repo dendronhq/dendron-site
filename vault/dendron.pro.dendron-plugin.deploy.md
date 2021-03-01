@@ -2,7 +2,7 @@
 id: 2976e5df-c8b4-4176-9d3f-fe4220dfa9b6
 title: Deploy
 desc: ''
-updated: 1614573545094
+updated: 1614640706977
 created: 1613863275374
 ---
 
@@ -89,7 +89,7 @@ setRegRemote
 - [ ] cherry pick if needed
 
 ```
-version=patch
+version=minor
 lerna version $version 
 lerna publish from-package 
 ```
@@ -101,6 +101,13 @@ git clean -f
 gco master 
 sleep 60
 ./scripts/pack_and_install.sh
+```
+
+## re-publish
+
+```sh
+./unpublish.sh
+lerna publish from-package --ignore-scripts
 ```
 
 ## cleanup

@@ -2,7 +2,7 @@
 id: 2fe96d3a-dcf9-409b-8a09-fdaa5a664433
 title: Features
 desc: ''
-updated: 1614312648592
+updated: 1614637638117
 created: 1608528227846
 nav_order: 1
 ---
@@ -67,7 +67,7 @@ Dendron has [[note references|dendron.topic.refs]] that let you inline either th
 
 This is the equivalent to the [[backlinks panel|dendron.topic.workbench#backlinks]] when using the desktop app. 
 
-Backlinks are automatically deduped and also work in a multi-vault setting.
+Backlinks are automatically deduped and also work in a multi-vault setting. 
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/Fullscreen_2_25_21__8_08_PM.jpg)
 

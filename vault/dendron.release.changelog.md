@@ -2,10 +2,72 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1614058757606
+updated: 1614639929807
 created: 1601508213606
 date: '2022-01-01'
 ---
+
+## 0.30.2
+
+### Features
+
+#### Cross Vault Links
+
+![[dendron://dendron-site/dendron.topic.links#cross-vault-links,1]]
+
+### Enhancements
+- you can now add a workspace when adding a remote vault ([[docs|dendron://dendron-site/dendron.topic.commands#vault-add]])
+- better block quotes ([[docs|dendron.topic.publishing.misc#blockquote]])
+- better formatted backlinks on published pages
+- backlinks display using note title instead of file names
+- copy note commands will create a cross vault link when in multi-vault environment
+
+### Bug Fixes
+- selecting non-primary root note in dendron tree 
+- bad backlinks created for home page
+- issue with hierarchies for mixed case parents
+
+### Documentation
+- new docs on using dendron for [[blogging|dendron.topic.publishing.blogging]]
+
+### House Cleaning
+- table of contents on published sites is now a remark extension, header changed to `children` 
+- jekyll publishing has been renamed to `legacy publishing` 
+- lots of internal refactoring of code 
+
+## 0.30.1
+
+### Features
+
+#### Custom Pods
+
+We now have custom pod support
+![[dendron.topic.pod.custom#summary,1:#*]]
+
+If you are interested in developing your own publishing pod, you can docs to do so [[here|dendron.topic.pod.dev]]
+
+#### Dev.to Pod
+
+As an example of what you can do with a custom pod, we created the [[Dev.to Pod|dendron.pro.devto-pod]] which lets you publish your notes to dev.to
+
+### Enhancements
+
+- backlinks in published sites 
+
+![[dendron.topic.publishing.features#backlinks,1]]
+
+### Bug Fixes
+
+- delete node sometimes fails in multi-vault
+- publishing multi-vault will sometimes not work if multiple domain notes
+- unable to select `root` of multi-vault notes in tree view
+
+### House Cleaning
+
+- if you're working on the codebase, `dendron.code-workspace` has been renamed to `dendron-main.code-workspace`
+  - this helps if you're working on dendron while having dendron installed since Dendron, prior to this change, would also activate when you were editing the code
+
+
 ## 0.29.2
 
 ### Features
