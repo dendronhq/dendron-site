@@ -2,7 +2,7 @@
 id: eea2b078-1acc-4071-a14e-18299fc28f47
 title: Commands
 desc: ''
-updated: 1614639256759
+updated: 1614655750642
 created: 1595261816971
 ---
 ---
@@ -355,7 +355,7 @@ Get URL of current note from published site
 
 If you highlight a header, will copy the url with the header set as the anchor 
 
-The url is taken from the [[siteUrl|dendron.topic.publishing.configuration#siteurl-required]] property.
+The url is taken from the [[siteUrl|dendron.topic.publishing.configuration#siteurl]] property.
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/notes.copy-url.gif)
 

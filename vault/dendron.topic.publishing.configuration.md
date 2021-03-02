@@ -2,7 +2,7 @@
 id: f2ed8639-a604-4a9d-b76c-41e205fb8713
 title: Configuration
 desc: ''
-updated: 1614547295573
+updated: 1614655770757
 created: 1608528797892
 nav_order: 3
 ---
@@ -141,7 +141,8 @@ Location of the directory where site will be build. Relative to your workspace
 
 Location of the github repo where your site notes are located. By default, this is assumed to be your `workspaceRoot` if not set. This is used with the `Publish Notes` command
 
-### siteUrl (required)
+### siteUrl 
+- required
 
 Set to the URL that you plan on publishing to. All links will be prefixed with this. 
 If you are publishing with github pages, the format is `https://{username}.github.io/{repo}/`

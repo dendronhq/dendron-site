@@ -2,10 +2,14 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1614639929807
+updated: 1614700545637
 created: 1601508213606
 date: '2022-01-01'
 ---
+## 0.31.1
+
+### Bug Fixes
+- issue with mixed case file names
 
 ## 0.30.2
 
