@@ -23,8 +23,8 @@ Dendron 0.25 has sprouted 🌱
   - this includes
     - [[Build Pod Command|dendron.topic.commands#build-pod]]
     - [[Publish Command|dendron.topic.commands#publish]]
-    - [[buildSite CLI|dendron.pro.dendron-cli#buildsite]]
-    - [[publishnotes CLI|dendron.pro.dendron-cli#publishnotes]]
+    - [[buildSite CLI|dendron.t.dendron-cli#buildsite]]
+    - [[publishnotes CLI|dendron.t.dendron-cli#publishnotes]]
 - [[dendron.copyNoteUrlRoot|dendron.topic.config#dendroncopynoteurlroot]] deprecated for `siteUrl`
 
 ### Community

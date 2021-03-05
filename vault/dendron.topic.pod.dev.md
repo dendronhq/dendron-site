@@ -5,15 +5,16 @@ desc: ''
 updated: 1614217637177
 created: 1614201272488
 ---
-
 ## Summary
+
 - status: WORK_IN_PROGRESS 🚧
 
 In this module, we'll go over how to create a custom pod. You can clone the end result [here](https://github.com/dendronhq/hello-pod)
 
 ## Pre-requisites
+
 - Install dendron-cli
-![[dendron.pro.dendron-cli#installation,1:#*]]
+  ![[dendron.t.dendron-cli#installation,1:#*]]
 - [[Install Dendron|dendron.guides.install#install]] and have a workspace initialized
 
 ## Tutorial
@@ -30,6 +31,7 @@ touch index.js
 ```
 
 Open index.js and add the following
+
 ```js
 const { PublishPod } = require("@dendronhq/pods-core");
 
@@ -49,30 +51,30 @@ module.exports = {
 };
 ```
 
-
 ## Testing your pod
 
 1. Create a symlink of your current package. This lets you use your package locally in other projects
-    ```sh
-    npm link
-    ```
-1. Go to your [[workspace root|dendron.ref.layout#workspace-root]].
-    ```sh
-    cd $WORKSPACE_ROOT
-    ```
-1. If you don't have a `package.json` already , create one by running `npm init -y`
-    ```sh
-    npm init -y
-    ```
-1. Link to your created pod
-    ```sh
-    npm link hello-pod
-    ```
-1. Excecute your pod
-    ```sh
-    dendron-cli publishPod --wsRoot . --podId hello --podPkg hello-pod --podSource remote --config fname=dendron,vaultName=vault,dest=stdout
-    ```
-    - since I was running this in a new Dendron vault, I got the following output
+   ```sh
+   npm link
+   ```
+2. Go to your [[workspace root|dendron.ref.layout#workspace-root]].
+   ```sh
+   cd $WORKSPACE_ROOT
+   ```
+3. If you don't have a `package.json` already , create one by running `npm init -y`
+   ```sh
+   npm init -y
+   ```
+4. Link to your created pod
+   ```sh
+   npm link hello-pod
+   ```
+5. Excecute your pod
+   ```sh
+   dendron-cli publishPod --wsRoot . --podId hello --podPkg hello-pod --podSource remote --config fname=dendron,vaultName=vault,dest=stdout
+   ```
+   - since I was running this in a new Dendron vault, I got the following output
+
 ```markdown
 Hello World
 
@@ -132,9 +134,12 @@ Below is a diff to make the changes a bit more obvious.
 ![diff of code](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/pod-change.jpg)
 
 Run the pod again the the additional argument.
-    ```sh
-    dendron-cli publishPod --wsRoot . --podId hello --podPkg hello-pod --podSource remote --config fname=dendron,vaultName=vault,dest=stdout,name=Albert
-    ```
+
+````
+```sh
+dendron-cli publishPod --wsRoot . --podId hello --podPkg hello-pod --podSource remote --config fname=dendron,vaultName=vault,dest=stdout,name=Albert
+```
+````
 
 ```markdown
 Hello Albert
@@ -150,7 +155,7 @@ Pods have full access to all the metadata attached to a note. You can see the po
 
 TODO - You can see an example of this [[here|dendron.pro.devto-pod]]
 
-
 ### Using Typescript
 
 TODO - You can see an example of this [[here|dendron.pro.devto-pod]]
+

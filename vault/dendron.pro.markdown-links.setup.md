@@ -5,7 +5,6 @@ desc: ''
 updated: 1611516232954
 created: 1611516225361
 ---
-
 ## Getting Started
 
 1. Install dependencies
@@ -30,3 +29,4 @@ Dendron markdown links depends on the dendron extension to be active. You can st
 2. Follow step 2 in the setup instructions above.
 3. Instead of using the plugin to initialize a Dendron workspace, initialize the workspace using the `dendron-cli`
    ((ref:[[dendron.pro.dendron-cli]]#launchengineserver,1:#*))
+

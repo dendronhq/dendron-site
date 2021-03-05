@@ -2,7 +2,7 @@
 id: 2976e5df-c8b4-4176-9d3f-fe4220dfa9b6
 title: Deploy
 desc: ''
-updated: 1614640706977
+updated: 1614699948443
 created: 1613863275374
 ---
 
@@ -89,7 +89,7 @@ setRegRemote
 - [ ] cherry pick if needed
 
 ```
-version=minor
+version=patch
 lerna version $version 
 lerna publish from-package 
 ```

@@ -2,7 +2,7 @@
 id: 81da87be-2d4e-47b5-a1d6-c0d647e1ab00
 title: Development
 desc: ''
-updated: 1614576619880
+updated: 1614811289748
 created: 1604236041570
 ---
 
@@ -12,7 +12,6 @@ If you would like to contribute to the development of dendron, checkout out the 
 You can then follow the [[setup instructions|dendron.dev.setup#getting-started]].
 
 - NOTE: the above setup instructions are for the dendron plugin. See the below links if you are working on a different part of Dendron: 
-    - [[11ty|dendron.pro.dendron-11ty.setup]]
     - [[Markdown Preview|dendron.pro.dendron-preview.setup]]
     - [[Markdown Links|dendron.pro.markdown-links.setup]]
 

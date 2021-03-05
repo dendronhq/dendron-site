@@ -136,9 +136,10 @@ You can use the [markdownload-markdown-web](https://chrome.google.com/webstore/d
 To get familiar with regex syntax, try [regexr](https://regexr.com/) is a great place to experiment with different queries.
 
 ### Convert Local Vault to a Remote Vault
+
 1. Initialize local vault as a git repo and push it to a remote 
-1. Remove the local vault from your current workspace 
-1. Use the `Vault: Add` command and enter the remote url of the repo you would like to add
+2. Remove the local vault from your current workspace 
+3. Use the `Vault: Add` command and enter the remote url of the repo you would like to add
 
 ### Automatically Convert Casing on a Note
 

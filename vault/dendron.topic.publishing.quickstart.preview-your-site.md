@@ -56,7 +56,7 @@ When you are ready, you can go to [[publishing your site|dendron.topic.publishin
 
 ## CLI
 
-The following describes how to prepare your notes for publication using [[Dendron CLI|dendron.pro.dendron-cli]].
+The following describes how to prepare your notes for publication using [[Dendron CLI|dendron.t.dendron-cli]].
 
 ### Requirements
 

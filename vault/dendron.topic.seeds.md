@@ -20,7 +20,7 @@ You can see an example of a published seeded vault [here](https://aws.dendron.so
 
 # Using a seed
 
-- NOTE: currently, seeds are only available using the [[dendron-cli|dendron.pro.dendron-cli]]
+- NOTE: currently, seeds are only available using the [[dendron-cli|dendron.t.dendron-cli]]
 
 ## Pre-requisites
 
