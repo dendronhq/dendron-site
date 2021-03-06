@@ -2,7 +2,7 @@
 id: 1399b5d2-28fb-4077-aa5f-c8edbe52bc5d
 title: Preview Your Site
 desc: ''
-updated: 1614538242822
+updated: 1614965542494
 created: 1610844309611
 nav_order: 1
 ---
@@ -56,7 +56,7 @@ When you are ready, you can go to [[publishing your site|dendron.topic.publishin
 
 ## CLI
 
-The following describes how to prepare your notes for publication using [[Dendron CLI|dendron.t.dendron-cli]].
+The following describes how to prepare your notes for publication using [[Dendron CLI|dendron.topic.cli]].
 
 ### Requirements
 

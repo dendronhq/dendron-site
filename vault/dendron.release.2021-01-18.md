@@ -2,7 +2,7 @@
 id: 9293d889-e07f-4a01-b67f-e8aca7c1c7f7
 title: Release Notes (version 0.25)
 desc: ''
-updated: 1610995104062
+updated: 1614965553884
 created: 1610992021546
 ---
 Dendron 0.25 has sprouted 🌱
@@ -23,8 +23,8 @@ Dendron 0.25 has sprouted 🌱
   - this includes
     - [[Build Pod Command|dendron.topic.commands#build-pod]]
     - [[Publish Command|dendron.topic.commands#publish]]
-    - [[buildSite CLI|dendron.t.dendron-cli#buildsite]]
-    - [[publishnotes CLI|dendron.t.dendron-cli#publishnotes]]
+    - [[buildSite CLI|dendron.topic.cli#buildsite]]
+    - [[publishnotes CLI|dendron.topic.cli#publishnotes]]
 - [[dendron.copyNoteUrlRoot|dendron.topic.config#dendroncopynoteurlroot]] deprecated for `siteUrl`
 
 ### Community

@@ -2,7 +2,7 @@
 id: 7cdd9a74-8b8f-4564-906b-c963bed34273
 title: Dendron Next Server
 desc: ''
-updated: 1611360654426
+updated: 1614924050218
 created: 1604511741960
 ---
 ## Quickstart
@@ -23,7 +23,7 @@ created: 1604511741960
 If your working with the Dendron Engine (eg. fetching notes, config or schemas), you'll need to start an instance of the engine.
 
 First, install the Dendron CLI
-((ref:[[dendron.pro.dendron-cli]]#installation,1:#*))
+((ref:[[dendron.topic.cli]]#installation,1:#*))
 
 Next, use the `launchEngineServer` command to start the server to an existing workspace
 

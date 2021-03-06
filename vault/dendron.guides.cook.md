@@ -2,7 +2,7 @@
 id: 401c5889-20ae-4b3a-8468-269def4b4865
 title: Cookbook
 desc: ''
-updated: 1614314036931
+updated: 1614923908257
 created: 1595952505024
 nav_order: 8.9
 toc: true
@@ -246,7 +246,7 @@ dendron-cli buildSite --wsRoot {path/to/ws} --vault {path/to/vault} --incrementa
 The following instructions cover how to update your local preview everytime you make a change to your notes
 
 - install `dendron-cli`
-  ((ref:[[dendron.pro.dendron-cli]]#installation,1:#*))
+  ((ref:[[dendron.topic.cli]]#installation,1:#*))
 
 - have jekyll watch your site-root
 

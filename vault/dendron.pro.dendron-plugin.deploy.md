@@ -2,7 +2,7 @@
 id: 2976e5df-c8b4-4176-9d3f-fe4220dfa9b6
 title: Deploy
 desc: ''
-updated: 1614699948443
+updated: 1614978378700
 created: 1613863275374
 ---
 
@@ -37,11 +37,13 @@ yarn bootstrap:build
 
 - publish from local
 ```sh
+setRegLocal
+verdaccio
+
 gbD integ-publish
 gco -b integ-publish
-setRegLocal
 
-version=minor
+version=prepatch
 lerna version $version --no-git-tag-version 
 
 git add .

@@ -2,7 +2,7 @@
 id: a6c03f9b-8959-4d67-8394-4d204ab69bfe
 title: Troubleshooting
 desc: ''
-updated: 1614571894654
+updated: 1614968239601
 created: 1595952505025
 ---
 ## Diagnosing
@@ -126,6 +126,12 @@ kill -9 {IDS}
 ### Error: spawn git ENOENT
 
 Check if you have git installed. You can find more details [here](https://stackoverflow.com/questions/42545885/vs-code-error-spawn-git-enoent)
+
+### Clicking on the link creates multiple files
+
+This is likely due to other extensions that you have installed that provide conflicting definitions for [[wiki links|dendron.topic.links#wiki-links]].
+
+The most likely culprits are `foam` or `markdown-notes`. Uninstalling them will fix this issue. 
 
 ## Send a support request
 

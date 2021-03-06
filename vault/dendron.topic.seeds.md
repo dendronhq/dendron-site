@@ -2,9 +2,8 @@
 id: 4fdf54ac-599e-42e7-90a5-38964913a9a7
 title: "Seeds \U0001F6A7"
 desc: ''
-updated: 1608485512271
+updated: 1614965542492
 created: 1600219243498
-stub: false
 ---
 > Note: Seeds are highly experimental and under active development. Content here is subject to change.
 
@@ -20,13 +19,13 @@ You can see an example of a published seeded vault [here](https://aws.dendron.so
 
 # Using a seed
 
-- NOTE: currently, seeds are only available using the [[dendron-cli|dendron.t.dendron-cli]]
+- NOTE: currently, seeds are only available using the [[dendron-cli|dendron.topic.cli]]
 
 ## Pre-requisites
 
 Make sure you have the dendron-cli installed.
 
-((ref:[[dendron.pro.dendron-cli]]#installation,1:#*))
+((ref:[[dendron.topic.cli]]#installation,1:#*))
 
 ## Instructions
 
