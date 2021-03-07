@@ -2,13 +2,17 @@
 id: 1bce1c33-c14b-4e5e-b493-45683c8cf54f
 title: Cook
 desc: ''
-updated: 1615092558306
+updated: 1615092736145
 created: 1610469139531
 ---
 
 ### Adding a new unified plugin
 <!-- - [pr example](https://github.com/dendronhq/dendron/pull/260)  -->
 <!-- ea648849f94528d8000a31fd8b89ca8c89de2598 -->
+
+Resources:
+- [video of pairing session](https://youtu.be/mHkx17akuCg)
+- [commit from pairing session](https://github.com/dendronhq/dendron/commit/ea648849f94528d8000a31fd8b89ca8c89de2598)
 
 Context:
 - Dendron uses [remark](https://github.com/remarkjs/remark) and [rehype](https://github.com/rehypejs/rehype) to handle markdown and html transformations
