@@ -210,7 +210,7 @@ You can use variables defined in your note frontmatter inside your note. The syn
 
 You can use a limited set of [nunjucks](https://mozilla.github.io/nunjucks/) to customize your notes. 
 
-To enable, you can set the following to true inside your `dendorn.yml`.
+To enable, you can set the following to true inside your `dendron.yml`.
 ```yml
 useNunjucks: true
 ```

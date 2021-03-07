@@ -25,7 +25,7 @@ See remote pairing session for an overview of setting up tests.
 - Using CLI
 
 ```bash
-./bootstrap/scripts/test-all.sh
+./bootstrap/scripts/testAll.sh
 ```
 
 ### Run all test for Dendron Plugin (plugin-core)
