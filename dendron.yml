@@ -17,17 +17,7 @@ site:
         It is meant to help you create, organize, and collaborate on knowledge
         bases of any size.
     ga_tracking: G-B0JN2HHCNY
-    duplicateNoteBehavior:
-        action: useVault
-        payload:
-            - dendron-aws-vault
-            - dendron-site
 vaults:
-    -
-        fsPath: dendron-aws-vault
-        remote:
-            type: git
-            url: 'https://github.com/dendronhq/dendron-aws-vault.git'
     -
         fsPath: vault
         name: dendron-site
