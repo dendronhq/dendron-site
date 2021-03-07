@@ -2,21 +2,35 @@ site:
     siteHierarchies:
         - dendron
     siteRootDir: docs
-    gh_edit_repository: "https://github.com/dendronhq/dendron-site"
+    gh_edit_repository: 'https://github.com/dendronhq/dendron-site'
     usePrettyRefs: true
     copyAssets: true
-    logo: "vault/assets/images/logo.png"
-    siteUrl: "https://dendron.so"
+    logo: vault/assets/images/logo.png
+    siteUrl: 'https://dendron.so'
     siteLastModified: true
-    githubCname: "dendron.so"
+    githubCname: dendron.so
     title: Dendron
-    author: "dendronhq"
-    twitter: "dendronhq"
-    description: "Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size."
+    author: dendronhq
+    twitter: dendronhq
+    description: >-
+        Dendron is a local-first, markdown based, hierarchical note taking tool.
+        It is meant to help you create, organize, and collaborate on knowledge
+        bases of any size.
     ga_tracking: G-B0JN2HHCNY
+    duplicateNoteBehavior:
+        action: useVault
+        payload:
+            - dendron-aws-vault
+            - dendron-site
 vaults:
-    - fsPath: vault
-      name: dendron-site
+    -
+        fsPath: dendron-aws-vault
+        remote:
+            type: git
+            url: 'https://github.com/dendronhq/dendron-aws-vault.git'
+    -
+        fsPath: vault
+        name: dendron-site
 usePrettyRefs: true
 version: 1
 useFMTitle: true

@@ -1,6 +1,9 @@
 {
     "folders": [
         {
+            "path": "dendron-aws-vault"
+        },
+        {
             "path": "vault"
         },
         {
