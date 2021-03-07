@@ -47,7 +47,7 @@ Copy the text from `push an existing repository` section and run it in the termi
 
 ### Publish your github repo
 
-![[dendron.rfc.2-managed-publishing.quickstart#instructions,1:#*]]
+![[dendron.topic.managed-publishing.quickstart#instructions,1:#*]]
 
 Your published site will be available at `https://{username}.dendron.wiki`
 

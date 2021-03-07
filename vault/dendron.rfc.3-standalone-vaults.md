@@ -1,8 +1,8 @@
 ---
 id: ceca23ee-6181-4fa6-9724-9943433c6e96
-title: 3 - Standalone Vaults
+title: 3 Standalone Vaults
 desc: ''
-updated: 1612910758281
+updated: 1615160641871
 created: 1612908742957
 ---
 

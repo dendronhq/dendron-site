@@ -2,7 +2,7 @@
 id: 401c5889-20ae-4b3a-8468-269def4b4865
 title: Cookbook
 desc: ''
-updated: 1614923908257
+updated: 1615132368125
 created: 1595952505024
 nav_order: 8.9
 toc: true
@@ -211,6 +211,10 @@ See instructions [here](https://stackoverflow.com/questions/51543871/sorting-fil
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/cook.drag.jpg)
 
 To drag files into Dendron, open the workspace pane on the side to drag and drop. We currently recommend you only do this for non-markdown files that you want to link to inside your vaults.
+
+### Find Installed Extensions
+1. Navigate to the extensions pane
+1. Search for `@installed`
 
 ## Navigation
 

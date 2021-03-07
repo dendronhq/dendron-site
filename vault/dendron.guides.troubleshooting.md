@@ -2,7 +2,7 @@
 id: a6c03f9b-8959-4d67-8394-4d204ab69bfe
 title: Troubleshooting
 desc: ''
-updated: 1614968239601
+updated: 1615132375354
 created: 1595952505025
 ---
 ## Diagnosing
@@ -132,6 +132,8 @@ Check if you have git installed. You can find more details [here](https://stacko
 This is likely due to other extensions that you have installed that provide conflicting definitions for [[wiki links|dendron.topic.links#wiki-links]].
 
 The most likely culprits are `foam` or `markdown-notes`. Uninstalling them will fix this issue. 
+
+You can see your installed 
 
 ## Send a support request
 

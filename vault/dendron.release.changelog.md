@@ -125,7 +125,7 @@ After you connect your github repo with Dendron, we'll kick off the initial publ
 Every subsequent time you push to your repo, Dendron will automatically build your site with the latest changes.
 
 At launch, we are supporting publishing from a connected github repo. 
-Instructions to get started are [[here|dendron.rfc.2-managed-publishing.quickstart]]
+Instructions to get started are [[here|dendron.topic.managed-publishing.quickstart]]
 
 ### Enhancements
 
