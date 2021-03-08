@@ -2,7 +2,7 @@
 id: 53de5c1e-b20c-4adc-ae48-e1659ecc6d13
 title: Quickstart
 desc: ''
-updated: 1615180361006
+updated: 1615227076068
 created: 1613009015603
 ---
 
@@ -43,6 +43,7 @@ When your site is ready, you should see the following screen
 ### Pre-prequisites 
 
 - have a domain that you own and control the CNAME records for
+- have your github repo hooked up to dendron (see [[Creating a site|dendron.topic.managed-publishing.quickstart#creating-a-site]])
 
 ### Steps
 1. Decide on a CNAME that you want to use. Lets call this YOUR_CNAME
@@ -68,6 +69,7 @@ When your site is ready, you should see the following screen
 ### Pre-prequisites 
 
 - have a domain that you own and control the name server records for
+- have your github repo hooked up to dendron (see [[Creating a site|dendron.topic.managed-publishing.quickstart#creating-a-site]])
 
 ### Steps
 1. Email support@dendron.so with the subject: `NS Request: YOUR_DOMAIN` 

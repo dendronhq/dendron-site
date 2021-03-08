@@ -11,6 +11,7 @@ site:
     githubCname: dendron.so
     title: Dendron
     author: dendronhq
+    generateChangelog: true
     twitter: dendronhq
     description: >-
         Dendron is a local-first, markdown based, hierarchical note taking tool.
