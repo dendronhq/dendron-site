@@ -2,7 +2,7 @@
 id: 53de5c1e-b20c-4adc-ae48-e1659ecc6d13
 title: Quickstart
 desc: ''
-updated: 1615227076068
+updated: 1615245519277
 created: 1613009015603
 ---
 
@@ -48,6 +48,7 @@ When your site is ready, you should see the following screen
 ### Steps
 1. Decide on a CNAME that you want to use. Lets call this YOUR_CNAME
 1. Email support@dendron.so with the subject: `CNAME Request: YOUR_CNAME` 
+    - optionally, also send us the name with your registrar and we can respond with precise instructions on how to update your DNS settings
 1. You'll get a response with a custom CNAME entry. Add that to your DNS (instructions to do this will depend on your registrar)
     ```
     _5e6e3c15a64565a3fbd9609d390e06d4.www.awschangelog.com. to _1fcefb9e363e5ebc64d8bc7ad6f31535.nfyddsqlcy.acm-validations.aws.
@@ -74,6 +75,7 @@ When your site is ready, you should see the following screen
 ### Steps
 1. Email support@dendron.so with the subject: `NS Request: YOUR_DOMAIN` 
     - example: `NS Request: kevin.xyz`
+    - optionally, also send us the name with your registrar and we can respond with precise instructions on how to update your DNS settings
 1. You'll get a response with a custom NS entry. Add that to your DNS (instructions to do this will depend on your registrar)
     - example response
     ```
