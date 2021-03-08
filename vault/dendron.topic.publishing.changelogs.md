@@ -2,7 +2,7 @@
 id: e1b84d7e-9b0d-4616-917f-f3af1e7541b0
 title: Changelogs
 desc: ''
-updated: 1615241456334
+updated: 1615245224502
 created: 1615241095799
 ---
 
@@ -21,6 +21,8 @@ Update `dendron.yml`
 ## Limitations
 
 The current version of changelogs is deliberately limited as we are iterating on the feature. Currently it will only generate a diff based off the latest local git commit. It also assumes that your entire workspace is versioned using one git repo. 
+
+- NOTE: this currently **won't** work with the documented way of [[publishing with github actions|dendron.topic.publishing.github]]
 
 ## FAQ
 
