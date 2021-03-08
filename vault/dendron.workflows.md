@@ -7,7 +7,5 @@ created: 1599059343888
 stub: false
 nav_order: 4.6
 ---
-
-# Workflows
-
 Different ways of using Dendron to accomplish specific goals
+

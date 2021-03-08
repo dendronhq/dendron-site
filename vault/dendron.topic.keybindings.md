@@ -6,9 +6,6 @@ updated: 1597950074331
 created: 1597950074331
 stub: false
 ---
-
-# Keybindings
-
 Dendron uses VSCode [keybinding](https://code.visualstudio.com/docs/getstarted/keybindings) functionality to define its own keybindings. 
 
 To update your keybindings, open the command prompt and type `Open Keyboard Shortcuts`.
@@ -30,3 +27,4 @@ You can read more about keybinding syntax [here](https://code.visualstudio.com/d
 
 <a href="https://www.loom.com/share/ec107e7c70f94070b9a4f52dd88b0899"> 
 <img style="" src="https://cdn.loom.com/sessions/thumbnails/ec107e7c70f94070b9a4f52dd88b0899-with-play.gif"> </a>
+

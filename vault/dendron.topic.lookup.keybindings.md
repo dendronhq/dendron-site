@@ -5,13 +5,9 @@ desc: ''
 updated: 1608494660278
 created: 1608494646816
 ---
-
-
-# Keybindings
-
 You can trigger specific lookups using custom key bindings. For example, The following keybinding will trigger lookup set to creating a journal note and turning a selection into a link. 
 
-((ref: [[dendron.topic.keybindings]]#keybindings,1))
+((ref:[[dendron.topic.keybindings]]#keybindings,1))
 
 ```json
 {
@@ -23,7 +19,6 @@ You can trigger specific lookups using custom key bindings. For example, The fol
     }
 }
 ```
-
 
 <a href="https://www.loom.com/share/1e6b39a93b7245e4b13310f7c06d972f"> 
 <img style="" src="https://cdn.loom.com/sessions/thumbnails/1e6b39a93b7245e4b13310f7c06d972f-with-play.gif"> </a>

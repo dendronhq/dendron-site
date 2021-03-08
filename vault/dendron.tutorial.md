@@ -1,14 +1,11 @@
 ---
 id: 678c77d9-ef2c-4537-97b5-64556d6337f1
-title: Tutorial
+title: Dendron Tutorial
 desc: ''
-updated: 1608058098603
+updated: 1614118652781
 created: 1608051264282
+nav_order: 1.1
 ---
-
-# Dendron Tutorial
-
-
 ## Pre-requisites
 
 This walkthrough will help you get started with Dendron. Before you start, make sure you have Dendron installed. If not, you can do so by following the instructions [[here|dendron.guides.install]].

@@ -6,7 +6,6 @@ updated: 1596374871110
 created: 1596374871110
 nav_order: 8.5
 ---
-# Cheatsheet
 
 This is a cheatsheet for Dendron.
 
@@ -277,6 +276,18 @@ Remove a vault from your workspace. Note that the underlying files wil **not** b
 - shortcuts: none
 
 <a href="https://www.loom.com/share/c58edf543e234a8fa164095237579ccc"> <img style="" src="https://cdn.loom.com/sessions/thumbnails/c58edf543e234a8fa164095237579ccc-with-play.gif"> </a>
+
+### Dendron: Site Build
+- description: Build your notes using publishing v2
+- shortcuts: none
+
+
+
+### Dendron: Site Preview
+- description: Preview your notes on localhost using publishing v2
+- shortcuts: none
+
+
 
 ---
 ## Dev

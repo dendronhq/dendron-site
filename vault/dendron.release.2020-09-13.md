@@ -1,13 +1,11 @@
 ---
 id: 50071eda-fc46-4aca-ba6c-9d53db00d068
-title: 2020-09-13 Release Notes
+title: Release Notes(version 0.11)
 desc: ''
-updated: 1604887528304
+updated: 1610062114528
 created: 1596374871110
-stub: false
+date: '2020-09-13'
 ---
-# 2020-09-13 Release Notes (version 0.11)
-
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/comic.1.png)
 
 - My wife, Ilana Lin, drew a comic for this week's release. Follow her on [instagram](https://www.instagram.com/accidentalflower/) and she might draw more comics for Dendron 😇
@@ -18,7 +16,7 @@ This week's release comes with improved references as well as better tooling aro
 
 **Dendron's pretty refs** help you identify when content is embedded from elsewhere and provide links back to the source. 
 
-((ref: [[dendron.topic.refs]]#references,1:#*)) 
+((ref:[[dendron.topic.refs]]# references,1:# *)) 
 
 The **Dendron CLI** lets you access a subset of Dendron's functionality inside the terminal, including the ability to import/export your notes. 
 
@@ -32,7 +30,7 @@ These release notes are summary of the more notable changes, for the full list, 
 
 Dendron now has a its own CLI that you can run standalone from the Dendron plugin.
 
-((ref: [[dendron.topic.cli]]#install))
+((ref:[[dendron.topic.cli]]#install))
 
 ### Enhancements
 
@@ -54,7 +52,7 @@ Create new note from a selection
 
 ### Add configure pod command
 
-((ref: [[dendron.topic.commands]]#configure pod,1:#*))
+((ref:[[dendron.topic.commands]]#configure pod,1:#*))
 
 ### Enhancements
 
@@ -70,11 +68,11 @@ Create new note from a selection
 
 ### Published sites use pretty refs
 
-((ref: [[dendron.topic.publishing.configuration]]#useprettyrefs,1:#*))
+((ref:[[dendron.topic.publishing.configuration]]#useprettyrefs,1:#*))
 
 ### Support noindex option
 
-((ref: [[dendron.topic.publishing.configuration]]#noindex,1:#*))
+((ref:[[dendron.topic.publishing.configuration]]#noindex,1:#*))
 
 ### Enhancements
 
@@ -89,7 +87,7 @@ Create new note from a selection
 
 ### Support wildcard refs
 
-((ref: [[dendron.topic.refs]]#wildcard header reference,1:#*))
+((ref:[[dendron.topic.refs]]#wildcard header reference,1:#*))
 
 ### Enhancements
 
@@ -104,7 +102,7 @@ Create new note from a selection
 
 ### Dendron Snippet Maker
 
-((ref: [[dendron.pro.dendron-snippet-maker]]#dendron snippet maker,1))
+((ref:[[dendron.pro.dendron-snippet-maker]]#dendron snippet maker,1))
 
 ### Enhancements
 

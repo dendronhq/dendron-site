@@ -5,9 +5,6 @@ desc: ''
 updated: 1603636828393
 created: 1603426485399
 ---
-
-# Mindmap View
-
 ## Goals
 
 Support a mindmap view for notes in Dendron. 
@@ -62,6 +59,8 @@ The graph view shows an overview of your _entire knowledge base_ and can be trav
 The mindmap view would allow users to focus their attention on a particular node, it's siblings, parents and children, view them in a visually organised manner, and traverse their notes by selecting notes directly attached to that domain. In this sense, it is more suited to giving you an overview of a particular _domain_.
 
 ## Resources
+
 - [The Brain App](https://www.thebrain.com/)
 - [Discussion](https://discordapp.com/channels/717965437182410783/739186036495876126/766252142549270550)
 - [React Sortable Tree](https://github.com/mikcaweb/react-sortable-tree)
+

@@ -14,18 +14,30 @@
         }
     ],
     "settings": {
+        "files.exclude": {
+            "**/.git": true,
+            "**/.svn": true,
+            "**/.hg": true,
+            "**/CVS": true,
+            "**/.DS_Store": true,
+            "docs": true
+        },
+        "search.exclude": {
+            "**/node_modules": true,
+            "**/bower_components": true,
+            "**/*.code-search": true,
+            "docs": true
+        },
         "workbench.editor.showTabs": true,
         "workbench.editor.pinnedTabSizing": "shrink",
         "workbench.editor.enablePreview": false,
         "dendron.defaultLookupCreateBehavior": "selectionExtract",
         "dendron.rootDir": ".",
-        "dendron.defaultJournalDateFormat": "Y.MM.DD",
         "zenMode.fullScreen": false,
         "zenMode.hideLineNumbers": false,
         "zenMode.silentNotifications": false,
-        "dendron.defaultScratchDateFormat": "Y.MM.DD-HHmmss",
-        "dendron.defaultScratchAddBehavior": "childOfDomainNamespace",
         "dendron.copyNoteUrlRoot": "https://dendron.so",
+        "dendron.logLevel": "debug",
         "pasteImage.path": "${currentFileDir}/assets/images",
         "pasteImage.prefix": "/",
         "editor.minimap.enabled": false,
@@ -41,7 +53,6 @@
         "editor.suggest.snippetsPreventQuickSuggestions": false,
         "editor.suggest.showSnippets": true,
         "editor.tabCompletion": "on",
-        "dendron.logLevel": "debug",
         "workbench.colorCustomizations": {
             "activityBar.activeBackground": "#65c89b",
             "activityBar.activeBorder": "#945bc4",

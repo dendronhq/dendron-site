@@ -6,11 +6,9 @@ updated: 1597006851049
 created: 1597006851049
 stub: false
 ---
-
-# Open VSX
-
 Dendron and all its recommended extensions are published on the [open vsx](https://open-vsx.org/) registry. This means that Dendron can now be run on all VSCode compatible editors. The list of editors that Dendron **should** be compatible on is listed below:
 
 - [VSCodium](https://github.com/VSCodium/vscodium)
 - [Theia](https://theia-ide.org/)
 - [Code Server](https://github.com/cdr/code-server)
+

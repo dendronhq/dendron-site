@@ -6,13 +6,12 @@ updated: 1599927898931
 created: 1599927898931
 stub: false
 ---
-
-# Publishing
 ## Summary
 
 ## Flows
 
 - src/commands/build-site.ts
+
 ```ts
 siteHierarchies := read(dendron.yml)
 
@@ -34,6 +33,7 @@ while nodes {
 ```
 
 - src/commands/build-site.ts
+
 ```ts
 note2JekyllMdFile {
     ...
@@ -42,3 +42,4 @@ note2JekyllMdFile {
         .process(note.body)
 }
 ```
+

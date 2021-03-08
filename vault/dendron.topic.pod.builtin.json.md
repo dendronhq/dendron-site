@@ -1,17 +1,17 @@
 ---
 id: 28dfaaf8-4944-447c-be30-39c514a80bb0
-title: Json
+title: JSON Pod
 desc: ''
-updated: 1606863869711
+updated: 1610233180012
 created: 1603306959022
 ---
 
-# JSON Pod
+## Summary
 - id: `dendron.json`
 - coverage
-    - ✅ import
-    - ✅ export 
-    - ✅ publish
+  - ✅ import
+  - ✅ export 
+  - ✅ publish
 
 ### Import
 
@@ -21,6 +21,7 @@ Imports a JSON file as Dendron notes
   - fname: name of note (without extension)
   - body: contents of note
 - eg:
+
 ```json
 [
   {
@@ -31,7 +32,6 @@ Imports a JSON file as Dendron notes
 ```
 
 <a href="https://www.loom.com/share/375b64a6597346ec8e6be5ca35049194"> <img style="" src="https://cdn.loom.com/sessions/thumbnails/375b64a6597346ec8e6be5ca35049194-with-play.gif"> </a>
-
 
 #### Export
 
@@ -44,7 +44,9 @@ Below is sample output from an export of a vault with the following files
     ├── sample.child.md
     └── sample.md
 ```
+
 Exported JSON
+
 ```json
 [
   {
@@ -115,6 +117,7 @@ Video example of exporting to JSON
 Publish notre to JSON and copy into clipboard
 
 Sample output
+
 ```json
 {
     "id": "814f9a2c-f011-4852-a077-c887dd985656",

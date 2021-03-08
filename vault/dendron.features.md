@@ -2,16 +2,14 @@
 id: 4bb85c39-d8ac-48ad-a765-3f2a071f7bc9
 title: Features
 desc: ''
-updated: 1596320368075
+updated: 1614612734259
 created: 1596320368075
 stub: false
 nav_order: 2
 ---
-
-# Features
 ## Hierarchies
 
-Dendron proposes **hierarchies** as the **human solution** to information overload. This is because there are few things as effective as a multi-level hiearchy for quickly filtering an overwhelming amount of information to something humans can work with. You can read [this blog post](https://kevinslin.com/organizing/its_not_you_its_your_knowledge_base/) for the extended rationale behind this.
+Dendron proposes **hierarchies** as the **human solution** to information overload. This is because there are few things as effective as a multi-level hiearchy for quickly filtering an overwhelming amount of information to something humans can work with. You can read [this blog post](https://www.kevinslin.com/notes/e1455752-b052-4212-ac6e-cc054659f2bb.html) for the extended rationale behind this.
 
 In Dendron, you can quickly **lookup** related notes by their hierarchy. Hierarchies are simply `.` delimited filenames, similar to the hierarchies made by domain names (eg. `github.com`).
 
@@ -141,3 +139,4 @@ The following extensions also work well with Dendron but are not bundled by defa
   - VIM key bindings 😍
 - [Bookmarks](https://marketplace.visualstudio.com/items?itemName=alefragnani.Bookmarks)
   - Bookmark lines within files
+

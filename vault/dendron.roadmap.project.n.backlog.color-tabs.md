@@ -1,13 +1,10 @@
 ---
 id: a4252774-0c08-4bca-a1b5-b6f369908aeb
-title: Color Tabs
+title: Related
 desc: ''
 updated: 1603426502775
 created: 1602430633050
 ---
-
-# Color Tabs
-
 - [github issue](https://github.com/dendronhq/dendron/issues/261)
 
 ## Goals
@@ -15,6 +12,7 @@ created: 1602430633050
 Support custom colorization of tabs in Dendron, specified by schema. 
 
 ## Details
+
 VSCode has the following settings for tabs. 
 
 ```
@@ -33,7 +31,7 @@ The properties that can be customized are `activeBackground` and `inactiveBackgr
 
 ## Proposal
 
-### Set custom tab color based on schema. 
+### Set custom tab color based on schema.
 
 ```yml
 schemas:
@@ -47,12 +45,11 @@ By default, `tabColor` would be recursive, so any child schemas would also have 
 
 Currently, the only way to set tab color is via the settings file which means Dendron would dynamically update your workspace settings as you navigate files. 
 
-
-# Related
 - [per editor/tab background color](https://github.com/Microsoft/vscode/issues/35379)
 - settings: 
-    - workbench.colorTheme: per workspace/folder settings
-    - tab.inactiveForeground 
-    - tab.inactiveBackground 
+  - workbench.colorTheme: per workspace/folder settings
+  - tab.inactiveForeground 
+  - tab.inactiveBackground 
 - [discord](https://discordapp.com/channels/717965437182410783/735365126227493004/764283816130248734)
 - [color tabs extension](https://marketplace.visualstudio.com/items?itemName=orepor.color-tabs-vscode-ext)
+

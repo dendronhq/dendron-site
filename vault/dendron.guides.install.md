@@ -1,13 +1,11 @@
 ---
 id: d95b93bf-5e6f-4dd0-b7d7-c8e29e061876
-title: Install
+title: Getting Started
 desc: ''
 updated: 1608485512284
 created: 1595537796868
 ---
-# Getting Started
-
-[Ed](https://www.youtube.com/channel/UCBDaEQKIAgU-U6bsUfPcWnA), our fellow Dendrite, has made a fantastic getting started video to help folks install and setup Dendron. 
+[Ed](https://www.youtube.com/channel/UCBDaEQKIAgU-U6bsUfPcWnA), our fellow Dendrologist, has made a fantastic getting started video to help folks install and setup Dendron. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/BRLLZ9IEh10" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -19,7 +17,7 @@ After you have downloaded the plugin, following the instructions to create your 
 
 1. With VSCode in focus, launch the _command bar_:
 
-((ref: [[dendron.guides.cook]]#launch the command bar,3:#*))
+((ref:[[dendron.guides.cook]]#launch the command bar,3:#*))
 
 2. Paste the following command and press `Enter`: 
 

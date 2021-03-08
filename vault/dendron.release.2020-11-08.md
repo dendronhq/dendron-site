@@ -1,16 +1,14 @@
 ---
 id: 63ea2e72-4eba-406c-9f4c-7300fa0b8935
-title: '2020-11-08 Release Notes'
+title: Release Notes(version 0.15)
 desc: ''
-updated: 1604891027697
+updated: 1609990585327
 created: 1604882865662
 ---
-
-# 2020-11-08 Release Notes (version 0.15)
-
 Dendron 0.15 is here 🌱
 
 ### Highlights
+
 - [lookup multi-select](https://dendron.so/notes/ad270a7d-2aed-4273-8319-eb6536e38b29.html#multiselect)
 - [copy links](https://dendron.so/notes/ad270a7d-2aed-4273-8319-eb6536e38b29.html#copywikilink) from lookup
 - better [obsidian markdown import](https://dendron.so/notes/13c4a608-0a32-4c62-9c7e-2b7f9f2d18bf.html#links)
@@ -23,26 +21,29 @@ I'm thrilled to announce our latest **Dendrologist**! Meet Luke (@lukecarrier#20
 
 > Hey 👋 I’m Luke and I’m going to be picking up some development work. Ask me about the markdown editing experience, publishing and integrating external tools.
 
-((ref: [[dendron.community.roles]]#dendrologist,1:#*))
+((ref:[[dendron.community.roles]]#dendrologist,1:#*))
 
 ### In the Works
+
 - Still working through the details of official Dendron office hours. Expect a message later this week!
 - Dendron [[Multi Vault Support|dendron.roadmap.project.n.2020.multi-vault]]
 - [November Milestones](https://github.com/dendronhq/dendron/milestone/5)
 
 ### Thanks
+
 - environmentalist 👨‍🌾👩‍🌾
-    - Michael Pfammatter
-    - Matthew Long
-    - Geert Theys 
-    - Huw Millar
+  - Michael Pfammatter
+  - Matthew Long
+  - Geert Theys 
+  - Huw Millar
 - [gnomesoup](https://github.com/gnomesoup)
-    - [bad create daily journal note signature](https://github.com/dendronhq/dendron/issues/333)
+  - [bad create daily journal note signature](https://github.com/dendronhq/dendron/issues/333)
 - [seedublancaster](https://github.com/seedublancaster)
-    - [fix typos](https://github.com/dendronhq/dendron/pull/323)
+  - [fix typos](https://github.com/dendronhq/dendron/pull/323)
 - [tfer](https://github.com/tfer)
-    - [update docs on stub](https://github.com/dendronhq/dendron-template/pull/33/files)
+  - [update docs on stub](https://github.com/dendronhq/dendron-template/pull/33/files)
 
 ## Changelog
 
-((ref: [[dendron.release.changelog]]#changelog,1:#13.6))
+((ref:[[dendron.release.changelog]]#changelog,1:#13.6))
+

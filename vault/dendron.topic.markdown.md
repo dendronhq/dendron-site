@@ -2,12 +2,9 @@
 id: ba97866b-889f-4ac6-86e7-bb2d97f6e376
 title: Markdown
 desc: ''
-updated: 1609605890636
+updated: 1614058664647
 created: 1598673110284
 ---
-
-# Markdown
-
 - Notice: all references of `MPE` in this guide is in reference to `Dendron Markdown Preview Enhanced`, the default markdown renderer of Dendron
 
 ## Markdown Basics
@@ -36,19 +33,10 @@ This article is a brief introduction to [GitHub Flavored Markdown writing](https
 ###### This is an <h6> tag
 ```
 
-If you want to add `id` and `class` to the header, then simply append `{#id .class1 .class2}`. For example:
-
-```markdown
-# This heading has 1 id {#my_id}
-
-# This heading has 2 classes {.class1 .class2}
-```
-
-> This is a MPE extended feature.
-
 ### Emphasis
 
 <!-- prettier-ignore -->
+
 ```markdown
 *This text will be italic*
 _This will also be italic_
@@ -151,17 +139,20 @@ You can add an optional language identifier to enable syntax highlighting in you
 
 For example, to syntax highlight Ruby code:
 
-    ```ruby
-    require 'redcarpet'
-    markdown = Redcarpet.new("Hello World!")
-    puts markdown.to_html
-    ```
+````
+```ruby
+require 'redcarpet'
+markdown = Redcarpet.new("Hello World!")
+puts markdown.to_html
+```
+````
 
 ```ruby
 require 'redcarpet'
 markdown = Redcarpet.new("Hello World!")
 puts markdown.to_html
 ```
+
 ### Task lists
 
 ```markdown
@@ -170,11 +161,16 @@ puts markdown.to_html
 - [ ] this is an incomplete item
 ```
 
+## Extended Syntax
+
+These are non-standard markdown syntax used in Dendron. Everything here is both available in Dendron's preview as well as when publishing.
+
 ### Tables
 
 You can create tables by assembling a list of words and dividing them with hyphens `-` (for the first row), and then separating each column with a pipe `|`:
 
 <!-- prettier-ignore -->
+
 ```markdown
 First Header | Second Header
 ------------ | -------------
@@ -188,7 +184,6 @@ You can create a table from existing content using `> Markdown Shortcuts: Add Ta
 
 ### Abbreviation
 
-
 The HTML specification
 
 ```markdown
@@ -196,36 +191,6 @@ _[HTML]: Hyper Text Markup Language
 _[W3C]: World Wide Web Consortium
 The HTML specification
 is maintained by the W3C.
-```
-<!-- 
-## Extended syntax
-
-### Table
-
-> Need to enable `enableExtendedTableSyntax` in extension settings to get it work.
-
-![screen shot 2017-07-15 at 8 16 45 pm](https://user-images.githubusercontent.com/1908863/28243710-945e3004-699a-11e7-9a5f-d74f6c944c3b.png)
-
-### Emoji & Font-Awesome
-
-> This only works for `markdown-it parser` but not `pandoc parser`.  
-> Enabled by default. You can disable it from the package settings.
-
-```
-:smile:
-:fa-car:
-```
-
-### Superscript
-
-```markdown
-30^th^
-```
-
-### Subscript
-
-```markdown
-H~2~O
 ```
 
 ### Footnotes
@@ -236,49 +201,106 @@ Content [^1]
 [^1]: Hi! This is a footnote
 ```
 
-### Mark
+### Frontmatter Variable Substitution
 
-```markdown
-==marked==
+You can use variables defined in your note frontmatter inside your note. The syntax is `{{fm.VAR_NAME}}` where `VAR_NAME` is the name of your variable. The `fm` designates that you want to use a frontmatter variable. 
+
+### Nunjuck Templates
+- status: EXPERIMENTAL
+
+You can use a limited set of [nunjucks](https://mozilla.github.io/nunjucks/) to customize your notes. 
+
+To enable, you can set the following to true inside your `dendron.yml`.
+```yml
+useNunjucks: true
 ```
 
-### CriticMarkup
+Once enabled, you'll have access to nunjucks specific constructs. You'll have the same variables available as during [[frontmatter variable substitution|dendron.topic.markdown#frontmatter-variable-substitution]]. Nunjucks templates also get access to the `fname` builtin variable which will be substituted with the filename of the current note. 
 
-CriticMarkup is **disabled** by default, but you can enable it from the package settings.  
+Below is an example of what you can do with nunjucks.
 
-There are five types of Critic marks:
+- Raw Markdown
+```md
+## Variables
 
-- Addition `{++ ++}`
-- Deletion `{-- --}`
-- Substitution `{~~ ~> ~~}`
-- Comment `{>> <<}`
-- Highlight `{== ==}{>> <<}`
+- special variables: {{fname}}
+- special variable as link: [[{{fname}}]]
+- special variable as note ref: ![[{{fname}}#footer]]
 
-> CriticMarkup only works with the markdown-it parser, but not the pandoc parser.
--->
+## Loops
+
+{% for item in fm.alist %}
+
+- Item: {{item}}
+  {% endfor %}
+
+## Footer
+
+This is some footer content
+```
+
+- Compiled 
+![nunjucks example](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/topic.nunjucks.jpg)
+
+
+Nunjucks will work for both the preview and for publishing. It is still an experimental feature which means it might change in backwards in-compatible ways at any point.
+
+It currently also has the following limitations:
+- disables live preview of markdown (you'll need to refresh the markdown to see changes)
+- will throw an error if you currently have nunjucks like strings inside your notes `eg. {% %}`
+- will throw errors if you refer to an undefined variable `{{ foo }}` 
+
+### Diagrams 
+
+Dendron lets you create Diagrams using [mermaid](https://mermaid-js.github.io/mermaid/#/)
+Create a code block with mermaid support to use mermaid. The following block turns into the diagram below.
+
+<pre>
+```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
+</pre>
+
+
+```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
+
+- NOTE: in order to publish diagrams, you'll need to enable [[mermaid in the config|dendron.topic.config#mermaid-optional]]
 
 ## VSCode Specific Commands
 
 ### Markdown Smart Select
 
 This allows you to expand and shrink selections of markdown using a keyboard shortcut.
-* Expand: ⌃⇧⌘→
-* Shrink: ⌃⇧⌘←
+
+- Expand: ⌃⇧⌘→
+- Shrink: ⌃⇧⌘←
 
 Selection applies to the following, and follows a traditional hierarchical pattern:
-* Headers
-* Lists
-* Block quotes
-* Fenced code blocks
-* Html code blocks
-* Paragraphs
+
+- Headers
+- Lists
+- Block quotes
+- Fenced code blocks
+- Html code blocks
+- Paragraphs
 
 ![preview](https://code.visualstudio.com/assets/updates/1_51/markdown-smart-select-demo.gif)
+
 > Image by Microsoft
 
 ## Compatibility with CommonMark
 
-[CommonMark](https://commonmark.org/) is *a strongly defined, highly compatible specification of Markdown*
+[CommonMark](https://commonmark.org/) is _a strongly defined, highly compatible specification of Markdown_
 
 When possible, Dendron will try to stay to `CommonMark` spec for syntax. That being said, many of the features we have (eg. block based note references) have no common mark equivalent which is why we've had to invent new syntax.
 
@@ -296,5 +318,4 @@ The content of this page is derived from the following sources:
 
 1. [markdown preview enhanced docs](https://shd101wyy.github.io/markdown-preview-enhanced/#/markdown-basics) published under the [University of Illinois/NCSA Open Source License](https://github.com/shd101wyy/markdown-preview-enhanced/blob/master/LICENSE.md)
 2. [markdown shortcuts docs](https://marketplace.visualstudio.com/items?itemName=mdickin.markdown-shortcuts) published under the [MIT License](https://marketplace.visualstudio.com/items/mdickin.markdown-shortcuts/license)
-
 

@@ -1,18 +1,17 @@
 ---
 id: 13c4a608-0a32-4c62-9c7e-2b7f9f2d18bf
-title: Markdown
+title: Markdown Pod
 desc: ''
-updated: 1604884283654
+updated: 1610233214080
 created: 1603306941128
 ---
 
-
-# Markdown Pod
+## Summary
 - id: `dendron.markdown`
 - coverage
-    -  export 
-    - ✅ import
-    - ✅ publish
+  - export 
+  - ✅ import
+  - ✅ publish
 
 ### Import
 
@@ -21,6 +20,7 @@ Import markdown files stored locally.
 The pod finds all files from the `root`, and copies over the files into your vault, cleaning the file names to fit dendron's naming hierarchy. You can see an example below. 
 
 - Original
+
 ```
 .
 └── projects
@@ -35,6 +35,7 @@ The pod finds all files from the `root`, and copies over the files into your vau
 ```
 
 - After Import
+
 ```
 .
 └── vault
@@ -51,7 +52,6 @@ The pod finds all files from the `root`, and copies over the files into your vau
 
 Non-markdown files within a directory will be moved into the `assets` folder of your `vault`. A [uuid](https://en.wikipedia.org/wiki/Universally_unique_identifier) will be added to non-markdown file names to ensure it does not overwrite any existing files. A link of the original filenames will be made in the note that corresponds to the imported directory
 
-
 ```md
 ...
 # Imported Assets
@@ -65,7 +65,7 @@ Note that all files starting with a `.` will be ignored during the import.
 
 If you are importing from tools like **Obsidian** that support wiki-links, Dendron will convert those wiki-links to Dendron's dot based format (eg. `[[project/p1]] -> [[project.p1]]`)
 
-
 ### Publish
 
 Publish Dendron Markdown to regular markdown. Convert note references and dendron specific syntax to regular markdown.
+

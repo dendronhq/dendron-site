@@ -2,12 +2,10 @@
 id: a6c03f9b-8959-4d67-8394-4d204ab69bfe
 title: Troubleshooting
 desc: ''
-updated: 1609606578560
+updated: 1615132375354
 created: 1595952505025
 ---
-# Troubleshooting
-
-## Diagnosing 
+## Diagnosing
 
 You can get a better idea of what went wrong by checking out the [[logs|dendron.guides.cook#checking-logs]]. At that point, you should be able to narrow down the root cause to one of the issues below. If not, please bring it up on the [discord](https://discord.gg/AE3NRw9) or file a [bug report](https://github.com/dendronhq/dendron/issues/new?assignees=&labels=&template=bug_report.md&title=)
 
@@ -16,6 +14,10 @@ You can get a better idea of what went wrong by checking out the [[logs|dendron.
 ### Engine not initialized
 
 This is most likely due to the VSCode [workspace file](https://code.visualstudio.com/docs/editor/multi-root-workspaces#_opening-workspace-files) not being open. Make sure to open the **dendron.code-workspace** file by following the instructions [here](https://code.visualstudio.com/docs/editor/multi-root-workspaces#_opening-workspace-files)
+
+### Multiple Vaults with the same name
+
+You will get this if you have multiple [[vaults|dendron.topic.config#vaults]] that have the same name. This is an error with Dendron since Dendron requires all vault names be unique. You can fix this by removing the duplicate vaults or setting a unique [[name|dendron.topic.config#name]] property for the vault.  
 
 ### Notes from the graph/tree view are out of sync
 
@@ -85,6 +87,9 @@ Meanwhile, you can open Dendron's markdown preview by clicking the preview butto
 
 ![Markdown preview](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/trouble-md.png)
 
+### Still initializing.  Please close this window and try again after Dendron has been initialized.
+
+When Dendron starts up, it initializes a local server which is responsible for indexing notes and fetching note metadata. Plugins like the preview depend on the server being initialized before activating. You'll know the server is initialized after you see a `Dendron is activated` notification.
 
 ## Linux
 
@@ -92,3 +97,51 @@ Meanwhile, you can open Dendron's markdown preview by clicking the preview butto
 
 If Ctrl+Shift+R (reference to another note) doesn't work on Ubuntu, do `sudo apt install xsel`.
 
+## Publishing
+
+### Can't open local preview
+
+Dendron runs the preview on port 8080. Make sure you don't have something already running there.
+
+- windows
+```powershell
+# get ids of processes
+Get-Process -Id (Get-NetTCPConnection -LocalPort 8080).OwningProcess
+
+# if you see any result, you can stop them using the following command
+Stop-process -Id {IDS_FROM_ABOVE}
+```
+
+- linux
+```bash
+# get ids
+lsof -l -n -P -i tcp:8080 
+
+# kill
+kill -9 {IDS}
+```
+
+## Etc
+
+### Error: spawn git ENOENT
+
+Check if you have git installed. You can find more details [here](https://stackoverflow.com/questions/42545885/vs-code-error-spawn-git-enoent)
+
+### Clicking on the link creates multiple files
+
+This is likely due to other extensions that you have installed that provide conflicting definitions for [[wiki links|dendron.topic.links#wiki-links]].
+
+The most likely culprits are `foam` or `markdown-notes`. Uninstalling them will fix this issue. 
+
+You can see your installed 
+
+## Send a support request
+
+If none of the troubleshooting methods work, you can ping kevin on Discord or submit a github issue.
+
+When doing either of these things, please include the following information:
+
+- [[Plugin Logs|dendron.guides.cook#checking-logs]]
+- [[Server Logs|dendron.guides.cook#server-logs]]
+- Contents of your [[workspace settings|dendron.guides.settings]]
+- Contents of [[dendron.yml|dendron.topic.commands#configure-yaml]]

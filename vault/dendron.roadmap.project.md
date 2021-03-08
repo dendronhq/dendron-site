@@ -1,17 +1,15 @@
 ---
 id: 8cf880da-6402-47fb-8e9a-9d5fa38e31d0
-title: Projects
+title: Project
 desc: ''
 updated: 1609269445117
 created: 1599498964153
 stub: false
 ---
-
-# Project
-
 This hierarchy describes the short term and long term projects of Dendron.
 
 ## Q4 2020
+
 - [[Principles and Values|dendron.roadmap.project.n.2020.principles-and-values]]
 - [[Pods|dendron.roadmap.project.n.2020.pods]]
 - [[The Seed Bank|dendron.roadmap.project.n.2020.seeds]]
@@ -28,6 +26,7 @@ This hierarchy describes the short term and long term projects of Dendron.
 ## Commenting and Reviews
 
 ### For Dendrologists
+
 The easiest way to leave a comment is by using the [code stream extension](https://marketplace.visualstudio.com/items?itemName=CodeStream.codestream).
 
 You should have received an invite to be part of the **Dendrologist** team (if not, ping Kevin).  
@@ -36,7 +35,6 @@ After you install the extension and log in, you'll be able to leave comments inl
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/project.code-stream.gif)
 
-
 ## Other Resources
 
 - [[Cookbook|dendron.roadmap.project.cook]]: Optional things to help you manage Dendron projects
@@ -44,10 +42,12 @@ After you install the extension and log in, you'll be able to leave comments inl
 # Structure
 
 ## Custom Frontmatter
+
 - start: start date for project
 - end: end date for project
 
 ## Snipets
+
 - `project`: creates the outline for a new project
 
 ## Sections
@@ -72,3 +72,4 @@ What tasks are related to accomplish this project?
 
 What does the public announcement of this project look like?
 ```
+

@@ -7,11 +7,9 @@ created: 1598645869692
 stub: false
 nav_order: 9.6
 ---
-
-# Development
-
 If you would like to contribute to the development of dendron, you can do so by checkout out the [repo](https://github.com/dendronhq/dendron) from github.
 
 You can then follow the setup instructions below to prepare your first commit!
 
-((ref: [[dendron.dev.setup]]#getting started))
+((ref:[[dendron.dev.setup]]#getting started))
+

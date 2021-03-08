@@ -9,8 +9,6 @@ start: null
 end: null
 status: null
 ---
-# <Project Name>
-
 ## Goal
 
 ## Details and Discussion
@@ -21,3 +19,4 @@ status: null
 
 - [ ] 
 - [ ] 
+

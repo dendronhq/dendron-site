@@ -1,13 +1,11 @@
 ---
 id: 8e59e25f-808c-42f1-a82a-e9ce4fd8edd8
-title: '2020-09-20 Release Notes'
+title: Release Notes(version 0.12)
 desc: ''
-updated: 1604887253561
+updated: 1609990694687
 created: 1596374871110
+date: 2020-09-20
 ---
-
-# 2020-09-20 Release Notes (version 0.12)
-
 Dendron 0.12 is here 🌱
 
 This week's focus was on publishing. We have a bunch of enhancements and additions to the publishing workflows. We also introduced the [[seeds library|dendron.topic.seeds]], a way of you to remix existing content with Dendron. You can see an example of this [here](http://aws.dendron.so/)
@@ -36,98 +34,92 @@ I believe we're are planting something special here and am excited to see us gro
 
 These release notes are summary of the more notable changes, for the full list, please look at our [CHANGELOG](https://github.com/dendronhq/dendron/blob/master/CHANGELOG.md)
 
----
-
+* * *
 
 ## Cli
-### Support for seeds 
 
-((ref: [[dendron.topic.seeds]]#seeds 🚧,1:#*))
+### Support for seeds
 
+((ref:[[dendron.topic.seeds]]#seeds 🚧,1:#*))
 
 ### Enhancements
+
 - Standardize on core cli flags across all commands
- 
 - More options when planting seeds
- 
 
 ## Hierarchies
+
 ### Fixes
+
 - Rename when stub is present 
 
 ## Lookup
-### Lookup new notes with Selection 
 
-((ref: [[dendron.topic.lookup]]#creating notes with a selection,1:#*))
+### Lookup new notes with Selection
 
+((ref:[[dendron.topic.lookup]]#creating notes with a selection,1:#*))
 
 ### Enhancements
+
 - Lookup can extract highlighted text
- 
 
 ## Pods
-### Implement Json import pod 
 
-((ref: [[dendron.topic.pod.builtin.json]]))
+### Implement Json import pod
 
+((ref:[[dendron.topic.pod.builtin.json]]))
 
 ### Enhancements
+
 - All filepaths can be set relative to the workspace root
- 
 - Json pod can import filenames as links
- 
 - Standardize interface for import/export pod commands
- 
 
 ### Fixes
+
 - Handle stub notes correctly on import 
 
 ## Publishing
-### Publish command 
 
-((ref: [[dendron.topic.commands]]#publish,1:#*))
+### Publish command
 
+((ref:[[dendron.topic.commands]]#publish,1:#*))
 
-### Copy note url command 
+### Copy note url command
 
-((ref: [[dendron.topic.commands]]#copy note url,1:#*))
-
+((ref:[[dendron.topic.commands]]#copy note url,1:#*))
 
 ### Enhancements
+
 - Support relative path for all file paths
- 
 - Set custom path for publishing repo
- 
 - Keyboard shortcuts for copy note url cmd
- 
 - Be able to pass in custom args to commands
- 
 - Support incremental page building
- 
 
 ### Fixes
-- Copy url truncates `//` 
 
+- Copy url truncates `//` 
 
 ## Thank You
 
 Last and most of all, a big **thanks** to the following gardeners that brought up issues, contributions, and fixes to this release.
 
 - [Denis Sikuler](https://github.com/gamtiq)
-    - update docs
+  - update docs
 
 - [agichim](https://github.com/agichim)
-    - update docs
+  - update docs
 
 - [Daria Vasyukova](https://github.com/gereleth)
-    - bug with copy note url
+  - bug with copy note url
 
 - [Jack](https://github.com/JackQAQ-byte)
-    - issue with images on published sites
+  - issue with images on published sites
 
 - [Tom](https://github.com/peanutputter)
-    - [issue with image paths](https://github.com/dendronhq/dendron/issues/200)
+  - [issue with image paths](https://github.com/dendronhq/dendron/issues/200)
 
 - [Janne Ojanaho](https://github.com/jojanaho)
-    - [writeup on files vs folders](https://github.com/dendronhq/dendron/issues/210)
+  - [writeup on files vs folders](https://github.com/dendronhq/dendron/issues/210)
 

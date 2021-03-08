@@ -5,12 +5,10 @@ desc: ''
 updated: 1605552659231
 created: 1604237102230
 ---
-
-# Roles
-
 Dendron has special roles for members of its community. 
 
 ## Dendrologist
+
 **Dendrologist** are active members of the Dendron community. They play a vital role in helping new members get started and setting best practices for Dendron and its community. 
 
 Dendrologist help shape Dendron's roadmap and community standards. They also gain additional discord super powers like creating channels, pinning messages, and other moderation capabilities. 

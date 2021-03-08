@@ -6,9 +6,6 @@ updated: 1603589517663
 created: 1602087509879
 stub: false
 ---
-
-# Math
-
 You can enable math using the following options in the `_config.yml`. By default, this will be located in `{workspace}/docs/_config.yml`
 
 ```yml
@@ -26,13 +23,16 @@ You can now add math using the standard [mathjax](https://www.mathjax.org/) nota
 ### Example
 
 The following 
+
 ```
 $$
 f(x) = sin(x)
 $$
 ```
+
 will render as
 
-$$ 
+$$
 f(x) = sin(x) 
 $$
+

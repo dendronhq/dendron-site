@@ -1,13 +1,10 @@
 ---
 id: 4b8f0470-dacb-433b-8d0c-f5a7d8f5245d
-title: Internal
+title: Lookup
 desc: ''
-updated: 1608838053693
+updated: 1610160273101
 created: 1608838048476
 ---
-
-# Lookup
-
 ```ts
 show {
     quickpick := create
@@ -42,39 +39,45 @@ updatePickerBehavior {
 ```
 
 ## Example
+
 ### Normal
+
 - show
 - updatePickerBehavior
-    - source: updateBehaviorByNoteType(normal)
+  - source: updateBehaviorByNoteType(normal)
 
 ### Change Value
+
 - updatePickerBehavior
-    - source: onValueChange
+  - source: onValueChange
 
 ## Ref
 
 ### Times when Picker is Updated
+
 - onUpdatePickerItem
-    - lc.show, on init
-    - lc.updateBehaviorByNoteType, note type toggle
-    - lc.updatePickerBehavior, direct filter toggle
+  - lc.show, on init
+  - lc.updateBehaviorByNoteType, note type toggle
+  - lc.updatePickerBehavior, direct filter toggle
 
 ### sources
 
 #### UPDATE_PICKER_FILTER
+
 - when direct filter has changed
 
 #### updatePickerBehavior
+
 - when changing note type
 - values
-    - normal
-    - journal
-    - scratch
-
+  - normal
+  - journal
+  - scratch
 
 ## Lookup: onButton
 
 - src/components/lookup/LookupControllerV2.ts
+
 ```ts
 onTriggerButton {
 
@@ -84,68 +87,20 @@ onTriggerButton {
 # TreeView
 
 ## init
+
 - onInitialize, reconstruct the whole tre
 
 ## refresh
+
 - ReloadIndex
 - SchemaWatcher
 - FileWatcher
 
-# Startup
-- file: plugin-core/src/_extension.ts
 
-```ts
-_activate {
-    ws :=
+# Welcome Message
 
-    if ws.isActive {
-        port = startServer
-        updateEngineAPI(port)
-        startLSPClient
-        ws.reloadWorkspace
-        ws.activateWatchers
-    }
+- file: plugin-core/src/\_extension.ts
 
-}
-```
-
-- reloadWorkspace
-```ts
-reloadWorkspace {
-    ws.reloadWorkspace
-    if isFirstInstall {
-        showTutorial
-    }
-    postReloadWorkspace
-    emit(extension, initialized)
-}
-```
-
-- postReloadWorkspace
-```ts
-postReloadWorkspace {
-    ws :=
-    previousWsVersion = config.get(WORKSPACE_STATE.WS_VERSION)
-
-    if previousWsVersion == 0.0.0 {
-        execute(Upgrade)
-        config.set(WORKSPACE_STATE.WS_VERSION, ws.version)
-    } else {
-        newVersion :=
-        if (newVersion > previousWsVersion) {
-            execute(Upgrade)
-            config.set(WORKSPACE_STATE.WS_VERSION, ws.version)
-            emit(extension, upgraded)
-        }
-    }
-}
-
-```
-
-
-## Welcome Message
-
-- file: plugin-core/src/_extension.ts
 ```ts
 
 showWelcomeOrWhatsNew {
@@ -170,11 +125,12 @@ showWelcomeOrWhatsNew {
 
 ```
 
-
 ## SetupWorkspace
+
 - note: `dendron.code-workspace` is completely overwritten when running setup
 
 # Vault Add
+
 - src/commands/VaultAddCommand.ts 
 
 ```ts
@@ -191,4 +147,14 @@ handleRemote:
 addVaultToWorkspace vault: 
     createVault(vault)
     addToWorkspaceFile(vault)
+```
+
+
+# Reload Index
+
+```ts
+ws.getEngine()
+engine.vaultsv3.map {
+
+}
 ```

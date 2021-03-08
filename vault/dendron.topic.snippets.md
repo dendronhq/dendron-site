@@ -6,8 +6,6 @@ updated: 1596561207607
 created: 1596561207607
 stub: false
 ---
-# Snippets
-
 Snippets are templates that you can trigger to automatically insert text that you use on a regular basis. Examples include meeting note templates, contact details and recipes. 
 
 You can read about how to work with snippets [here](https://code.visualstudio.com/docs/editor/userdefinedsnippets).

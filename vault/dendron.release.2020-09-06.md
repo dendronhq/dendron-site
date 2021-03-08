@@ -1,13 +1,11 @@
 ---
 id: 08b2e6ea-bd3e-4f4b-b2b9-676a7b743a65
-title: 2020-09-06 Release Notes
+title: Release Notes(version 0.10)
 desc: ''
-updated: 1596374871110
+updated: 1609990740754
 created: 1596374871110
-stub: false
+date: 2020-09-06
 ---
-# 2020-09-06 Release Notes (version 0.10)
-
 Dendron turns 0.10 today 🌲. To mark this milestone, the pre-amble for this release will be a tad longer (and more sentimental) than usual. 
 
 This week's release focuses on publication and exports. Dendron sites now come with [one click collaboration support](https://www.dendron.so/notes/73d395c9-5041-4d0d-9db7-080d9586136e.html#edit-on-github), [note references](https://www.dendron.so/notes/73d395c9-5041-4d0d-9db7-080d9586136e.html#note-references), and [hierarchy hints](https://www.dendron.so/notes/73d395c9-5041-4d0d-9db7-080d9586136e.html#nav-based-hierarchy-hints). If publishing online isn't your jam, you'll be happy to know that you can now [export your notes](https://www.dendron.so/notes/66727a39-d0a7-449b-a10d-f6c438185d7f.html#json-pod) to any format you desire (as long as that format is JSON 😅 - more formats coming soon).

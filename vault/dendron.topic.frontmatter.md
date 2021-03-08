@@ -2,17 +2,16 @@
 id: ffec2853-c0e0-4165-a368-339db12c8e4b
 title: Frontmatter
 desc: ''
-updated: 1595352354163
+updated: 1614665377409
 created: 1595352354163
 stub: false
 ---
-# Frontmatter
-
 Frontmatter is [YAML](https://yaml.org/) that you can add to the front of your markdown file. It was first introduced by [jekyll](https://jekyllrb.com/docs/front-matter/) and is a convenient way of adding metadata to your plaintext documents. 
 
 Dendron supports frontmatter. By default, we add the following keys to a new note created with Dendron:
+
 - id: a globally unique identifier for the note
-- title: your note title. used to label nodes in [[graph view | dendron.topic.graph-view]]
+- title: your note title. used to label nodes in [[graph view|dendron.topic.graph-view]]
 - desc: optional description about your note. will show up in lookup results
 - updated: unix timestamp of when note was updated
 - created: unix timestamp of when note was created
@@ -25,12 +24,11 @@ Note that not all the keys are written out to the markdown file. Dendron merges 
 
 ### id
 
-
 A globally unique identifier for the note.
 
 ### title
 
-Your note title. used to label nodes in [[graph view | dendron.topic.graph-view]]
+Your note title. used to label nodes in [[graph view|dendron.topic.graph-view]]
 
 ### desc
 
@@ -60,6 +58,10 @@ Absolute filepath to the note
 
 this is reserved for internal use
 
-### custom 
+### custom
 
 this is reserved for internal use
+
+# Other keys
+
+((ref:[[dendron.topic.publishing.configuration]]#Note Configuration))

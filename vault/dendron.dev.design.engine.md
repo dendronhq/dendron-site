@@ -1,15 +1,13 @@
 ---
 id: 849ee8ee-05a5-47bf-b44d-d7c257117bc4
-title: Engine
+title: Summary
 desc: ''
 updated: 1605287509430
 created: 1598652399447
 stub: false
 ---
-
-# Summary
-
 These documents are a high level overview of the code inside Dendron. They are written in a type script like pseudo code. The code blocks are broken down into the following structure:
+
 ```
 # {Function}  --> what is happening
 ## Summary    --> high level function call of what is happening
@@ -24,16 +22,18 @@ These documents are a high level overview of the code inside Dendron. They are w
 ## Pseudo Code
 
 The code description is typescript-ish. The goal isn't to write valid typescript but be a **summarized** version of the code. The syntax is evolving but here is a loosely documented starting point:
+
 - @: equivalent of `this.`
 - $: referencing a global variable
 - `...`: code that is omitted because it would clutter the summary
 - `=:` magic equality, 
 
-The places where you see this convention being broken (eg. actual valid typescript) are areas where the author got lazy and just copied code into the summary. Try to not do this because that defeats the point of a *summarized* view. That being said, Dendron is all about being pragmatic and taking an iterative approach to things. 
+The places where you see this convention being broken (eg. actual valid typescript) are areas where the author got lazy and just copied code into the summary. Try to not do this because that defeats the point of a _summarized_ view. That being said, Dendron is all about being pragmatic and taking an iterative approach to things. 
 
 # Initializing the Engine
 
 ## Summary
+
 - engine.query
   - store.query
     - FileParser.parse
@@ -53,11 +53,14 @@ The places where you see this convention being broken (eg. actual valid typescri
         }
       }
       ```
+
 ## Flow
 
 ### Initialize the engine
+
 - loc: engine-server/engine.ts
 - desc: initial query to index all notes 
+
 ```ts
 init {
   @query("**/*", "schema", {
@@ -72,9 +75,12 @@ init {
 }
 
 ```
+
 ### Query - Engine
+
 - loc: engine-server/engine.ts
 - desc: engine will query the store
+
 ```ts
 async query(scope: Scope, queryString: string, opts?: QueryOpts) {
   opts = _.defaults(opts || {}, {
@@ -88,9 +94,11 @@ async query(scope: Scope, queryString: string, opts?: QueryOpts) {
 ```
 
 ### Query - Store
+
 - loc: engine-server/store.ts
   - FileStore.query
 - desc: store is swappable. currently, we only support `FileStore`
+
 ```ts
   if (@isQueryAll(queryString)) {
       noteProps = @_getNoteAll() {
@@ -112,6 +120,7 @@ async query(scope: Scope, queryString: string, opts?: QueryOpts) {
 
 - loc: engine-server/parser.ts
 - details: read files
+
 ```ts
 parse(data: string[]): Note[] {
     fileMetaDict: FileMetaDict = getFileMeta(data) {
@@ -157,7 +166,9 @@ toNode {
 ```
 
 #### Build Nodes
+
 - loc: src/node.ts
+
 ```ts
 buildNoteFromProps(nodes) {
     // initialize root
@@ -190,7 +201,9 @@ toNote {
 # New Node
 
 ## Flow
+
 - loc: engine-server/engine.ts
+
 ```ts
 write(node){
   @store.write
@@ -198,12 +211,12 @@ write(node){
 }
 ```
 
-
 # Updating a Node
 
 ## Summary
 
 ## Flow
+
 - loc: engine-server/engine.ts
 
 ```ts
@@ -222,13 +235,12 @@ _updateNote(nodes, opts) {
 
 ```
 
-
-
 # Deleting a Node
 
 ## Summary
 
 ## Flow
+
 - loc: engine-server/engine.ts
 
 ```ts
@@ -264,16 +276,16 @@ delete(idOrFname, mode, opts) {
 
 # Parsing note references
 
-((ref: [[dendron.topic.refs]]#references,1:#*))
+((ref:[[dendron.topic.refs]]#references,1:#*))
 
 ## Summary
 
 ## Flow
 
-
 - engine-server/src/topics/markdown/plugins/dendronRefsPlugin.ts
 - data:
-  - [[replaceRefs| dendron.scratch.2020.09.12-091632]]
+  - [[replaceRefs|dendron.scratch.2020.09.12-091632]]
+
 ```ts
 dendronRefsPlugin({..., replaceRefs}) {
     // match note ref
@@ -302,6 +314,7 @@ dendronRefsPlugin({..., replaceRefs}) {
 ```
 
 - engine-server/src/topics/markdown/plugins/replaceRefs.ts
+
 ```
 replaceRefs(node) {
   if node.type == 'wikilink' {
@@ -321,12 +334,12 @@ parseDendronRef {
 }
 ```
 
-
 # Reference
 
 ## Refresh Node
 
 - loc: engine-server/src/engine.ts
+
 ```ts
 refreshNodes(nodes) {
   ...
@@ -343,3 +356,4 @@ refreshNodes(nodes) {
 }
 
 ```
+

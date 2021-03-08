@@ -6,9 +6,6 @@ updated: 1596394978287
 created: 1596394978287
 stub: false
 ---
-
-# Liquid
-
 You can publish your Dendron notes using Jekyll which has its own templating language called [liquid](https://jekyllrb.com/docs/liquid/). Because of this, published Dendron notes have access to all the templating features of liquid. 
 
 Note that the templating features won't appear on regular markdown notes but will be rendered when you publish your notes.
@@ -20,3 +17,4 @@ You can use variables defined in the frontmatter inside your page: {{page.create
 ## Filters
 
 You can use filters to transform text. {{ "This title will be modified" | slugify }}
+

@@ -1,12 +1,10 @@
 ---
 id: 1b1aef8e-c9d5-42de-b850-d1b1467cf88b
-title: 2020-10-19 Release Notes
+title: Release Notes(version 0.13)
 desc: ''
-updated: 1604886966408
+updated: 1609990585321
 created: 1603123991664
 ---
-# 2020-10-19 Release Notes (version 0.13)
-
 Dendron 0.13 is here 🌱
 
 It's been a few weeks since the last minor release. This iteration was mostly spent on our server migration as well as a series of quality of life improvements across Dendron's core features. You can find the details of all this in the highlights below. 
@@ -42,8 +40,8 @@ It's been a few weeks since the last minor release. This iteration was mostly sp
 
 Aside from features, we've also launched two [[seeds|dendron.topic.seeds]]. Seeds are **open source dendron sites** that **consolidate reference material** about a **particular vertical**. Content from the catalogues is derived from existing open source content as well as manual user input. Your 🙏 is welcomed and encouraged. 
 
-((ref: [[dendron.community.showcase]]#open pkm catalogue,1:#*))
-((ref: [[dendron.community.showcase]]#open aws catalogue,1:#*))
+((ref:[[dendron.community.showcase]]#open pkm catalogue,1:#*))
+((ref:[[dendron.community.showcase]]#open aws catalogue,1:#*))
 
 ## Sustainability
 
@@ -65,5 +63,5 @@ Last and most of all, a big to the following gardeners that brought up issues, c
 - [robothor](https://github.com/robothor)
   - [issue refactoring with mixed case filenames](https://github.com/dendronhq/dendron/issues/250)
 
-((ref: [[dendron.release.changelog]]#0.12.11,1))
+((ref:[[dendron.release.changelog]]#0.12.11,1))
 

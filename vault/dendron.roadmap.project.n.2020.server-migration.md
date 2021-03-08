@@ -9,11 +9,9 @@ start: 2020.09.23
 end: 2020.10.30
 status: In Progress
 ---
-# Server Migration
-
 ## Goals
 
-Migrate the Dendron to (local) client <-> server architecture
+Migrate the Dendron to (local) client &lt;-> server architecture
 
 ## Details
 
@@ -28,37 +26,39 @@ They are also elaborated upon [here](https://discordapp.com/channels/71796543718
 Instead of calling the engine directly, the Dendron extension, as well as related plugins, will communicate to Dendron's server using IPC and on local ports. 
 
 ## Tasks
+
 - [x] add LSP server to Dendron (0.12)
 - [x] add api server to Dendron (0.12)
 - [x] hook server into dendron startup (0.12.4)
 - [x] migrate lookup to server model 
-    - [x] support query notes (0.12.6)
-    - [x] support query notes with schema (0.12.6)
-    - [x] support write notes (0.12.6)
-    - [x] support write note with schema (0.12.6)
-    - [x] support delete note (0.12.7)
-    - [x] support query schema (0.12.7)
-    - [x] support write schema (0.12.7)
-    - [x] support delete schema  (0.12.7)
+  - [x] support query notes (0.12.6)
+  - [x] support query notes with schema (0.12.6)
+  - [x] support write notes (0.12.6)
+  - [x] support write note with schema (0.12.6)
+  - [x] support delete note (0.12.7)
+  - [x] support query schema (0.12.7)
+  - [x] support write schema (0.12.7)
+  - [x] support delete schema  (0.12.7)
 - [x] optimize server lookup performance (0.12.7)
 - [x] enable file watcher (0.12.7)
 - [x] dendron tree view (0.12.7)
 - [x] migrate commands
-    - [x] scratch note (0.12.7)
-    - [x] journal note (0.12.7)
-    - [x] copy note command (0.12.7)
-    - [x] copy note url (0.12.7)
-    - [x] lookup scratch note (0.12.7)
-    - [x] lookup journal note (0.12.7)
-    - [x] global journal note (0.12.7)
-    - [x] build pod (0.12.8)
-    - [x] rename note
-    - [x] archive hierarchy
-    - [x] refactor hiearchy
-    - [x] doctor
+  - [x] scratch note (0.12.7)
+  - [x] journal note (0.12.7)
+  - [x] copy note command (0.12.7)
+  - [x] copy note url (0.12.7)
+  - [x] lookup scratch note (0.12.7)
+  - [x] lookup journal note (0.12.7)
+  - [x] global journal note (0.12.7)
+  - [x] build pod (0.12.8)
+  - [x] rename note
+  - [x] archive hierarchy
+  - [x] refactor hiearchy
+  - [x] doctor
 - [x] integration tests for all server functionality
 
 ## Next
+
 - migrate bundled extensions to server model
 - use custom goto definition provider 
 - use custom backlink definition provider
@@ -69,14 +69,14 @@ Instead of calling the engine directly, the Dendron extension, as well as relate
 To enable server mode, update the following setting in your workspace settings `"dendron.useExperimentalLSPSupport": true`. Run `> Developer: Reload Window` afterwards for the changes to take effect.
 
 ## Links
+
 - [project docs](https://dendron.so/notes/725d99be-fadd-4464-88c3-0a5fcc7292c7.html)
 - [issues](https://github.com/dendronhq/dendron/labels/pro.server-migration)
 
 ## Related
+
 - [[dendron.topic.pod]]
-- [[pod proposal issue |dendron.roadmap.project.scratch.2020.09.07-164009]]	
-
-
+- [[pod proposal issue|dendron.roadmap.project.scratch.2020.09.07-164009]]	
 
 <!-- 
 ### Breakdown
@@ -218,3 +218,4 @@ This describes what will be the main provider of the functionality that is curre
 - [[lsp.rename-and-prepare-rename]]
 - [[lsp.folding-range]]
 -->
+

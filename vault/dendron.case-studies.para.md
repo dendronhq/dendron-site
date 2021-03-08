@@ -6,9 +6,6 @@ updated: 1597286900059
 created: 1597286900059
 stub: false
 ---
-
-# PARA
-
 PARA is a way of organizing all notes into four buckets. It's described [here](https://fortelabs.co/blog/para/).
 
 This is a video of how you might apply PARA inside Dendron. 
@@ -16,3 +13,4 @@ This is a video of how you might apply PARA inside Dendron.
 <a href="https://youtu.be/vrhBNGMJQwE">
 <img src="https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/usecase-para.jpg"/>
 </a>
+

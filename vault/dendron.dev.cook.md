@@ -1,14 +1,11 @@
 ---
 id: a80f36d9-01d0-4c5a-a228-867b093a4913
-title: Cook
+title: Cookbook
 desc: ''
-updated: 1608485597906
+updated: 1614811373375
 created: 1599151918645
 stub: false
 ---
-
-# Cookbook
-
 ### Install a new package
 
 Because Dendron is packaged as a mono repo managed using [lerna](https://github.com/lerna/lerna), you can't just do a regular `yarn add` to install new packages. This is because lerna symlinks mono-repo dependencies together and a `yarn add` would override that. Instead, use the following command:
@@ -46,7 +43,6 @@ npm publish --access public
 
 All packages in the repo use a standard base configuration found at [.eslintrc.js](.eslintrc.js). If you're using the VS Code and would like to see eslint violations on it, install the [eslint extension](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint).
 
-
 ### Add a new site config option
 
 The following is an example of controlling formatting options to the DendronSiteConfig. You can see the [issue](https://github.com/dendronhq/dendron/issues/278) for more details.
@@ -67,9 +63,10 @@ To make this customizable, the following changes need to be made:
 - [ ] accept it when [replacing links](https://github.com/dendronhq/dendron/blob/master/packages/engine-server/src/topics/markdown/utilsv2.ts#L85:L85)
 - [ ] accept it in [remark pipeline](https://github.com/dendronhq/dendron/blob/master/packages/engine-server/src/topics/markdown/utilsv2.ts#L41:L41)
 
-
 When all this is done, we can add tests that the formatting behavior works
+
 - [ ] [engine tests](https://github.com/dendronhq/dendron/blob/master/packages/engine-server/src/__tests__/enginev2.spec.ts#L652:L652)
 - [ ] [plugin test](https://github.com/dendronhq/dendron/blob/master/packages/plugin-core/src/test/suite-integ/RenameNoteV2.test.ts#L157:L157)
 
 The above changes are for `Rename`. `Refactor` calls rename in a loop so changing rename should update refactor as well.
+

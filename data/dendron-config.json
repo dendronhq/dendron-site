@@ -74,6 +74,13 @@
             "skipDocs": false
         },
         {
+            "key": "dendron.moveNote",
+            "title": "Dendron: Move Note",
+            "group": "notes",
+            "desc": "Move a note",
+            "skipDocs": false
+        },
+        {
             "key": "dendron.renameNote",
             "title": "Dendron: Rename Note",
             "group": "notes",
@@ -263,6 +270,7 @@
             "group": "workspace",
             "desc": "Add a new vault",
             "docPreview": "<div style=\"position: relative; padding-bottom: 62.5%; height: 0;\"><iframe src=\"https://www.loom.com/embed/b4171372f9794dd7be609c043f343fa3\" frameborder=\"0\" webkitallowfullscreen mozallowfullscreen allowfullscreen style=\"position: absolute; top: 0; left: 0; width: 100%; height: 100%;\"></iframe></div>",
+            "docs": "When you add a vault, you can choose between adding a local vault or a remote vault.",
             "docLink": "",
             "skipDocs": false
         },
@@ -323,6 +331,20 @@
             "skipDocs": false
         },
         {
+            "key": "dendron.signUp",
+            "title": "Dendron: Sign Up",
+            "group": "workspace",
+            "desc": "sign up for a Dendron account",
+            "skipDocs": false
+        },
+        {
+            "key": "dendron.signIn",
+            "title": "Dendron: Sign In",
+            "group": "workspace",
+            "desc": "sign in to a Dendron account",
+            "skipDocs": false
+        },
+        {
             "key": "dendron.showHelp",
             "title": "Dendron: Show Help",
             "group": "workspace",
@@ -353,15 +375,6 @@
         }
     ],
     "pods": [
-        {
-            "key": "dendron.buildPod",
-            "title": "Dendron: Build Pod",
-            "group": "pods",
-            "desc": "Build your notes for export. Currently, only export to github pages is supported.",
-            "docLink": "dendron.topic.pod.md",
-            "docPreview": "",
-            "skipDocs": false
-        },
         {
             "key": "dendron.configurePod",
             "title": "Dendron: Configure Pod",
@@ -415,21 +428,21 @@
     ],
     "publishing": [
         {
-            "key": "dendron.publish",
-            "title": "Dendron: Publish",
-            "group": "publishing",
-            "desc": "Build, commit and publish your notes with a single command",
-            "docs": "",
-            "docLink": "",
-            "docPreview": "<a href=\"https://www.loom.com/share/c58edf543e234a8fa164095237579ccc\"> <img style=\"\" src=\"https://cdn.loom.com/sessions/thumbnails/c58edf543e234a8fa164095237579ccc-with-play.gif\"> </a>",
-            "skipDocs": false
-        },
-        {
             "key": "dendron.siteBuild",
             "title": "Dendron: Site Build",
             "group": "publishing",
-            "desc": "build your notes",
-            "docs": "",
+            "desc": "Build your notes using publishing v2",
+            "docs": "This command works by running `dendron-cli` in the background.",
+            "docLink": "",
+            "docPreview": "",
+            "skipDocs": false
+        },
+        {
+            "key": "dendron.sitePreview",
+            "title": "Dendron: Site Preview",
+            "group": "publishing",
+            "desc": "Preview your notes on localhost using publishing v2",
+            "docs": "This command works by running `dendron-cli` in the background.",
             "docLink": "",
             "docPreview": "",
             "skipDocs": false
@@ -466,6 +479,15 @@
             "title": "Dendron:Dev: Open Logs",
             "group": "dev",
             "desc": "Open Dendron logs for current session",
+            "docLink": "dendron.topic.commands.md",
+            "docPreview": "",
+            "skipDocs": false
+        },
+        {
+            "key": "dendron.diagnosticsReport",
+            "title": "Dendron:Dev: Diagnostics Report",
+            "group": "dev",
+            "desc": "Generate diagnostics report",
             "docLink": "dendron.topic.commands.md",
             "docPreview": "",
             "skipDocs": false

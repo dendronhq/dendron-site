@@ -6,8 +6,6 @@ updated: 1604239992242
 created: 1596566533712
 stub: false
 ---
-# Todos
-
 ## Snippets
 
 The default dendron workspace comes with the `to` snippet that expands to `- [ ]`. You can use this to quickly create bulleted checkboxes. 
@@ -66,9 +64,9 @@ When working with todos sometimes you need more states than `unfinished|finished
 
 This is a video of how Kevin manages todos in Dendron. It goes over the following:
 
-- using [[journal notes | dendron.topic.special-notes]] to keep a daily todo list
-- using [[snippets | dendron.topic.snippets]] to create check boxes
-- using [[scratch notes | dendron.topic.special-notes]] to create nested todos in new notes
+- using [[journal notes|dendron.topic.special-notes]] to keep a daily todo list
+- using [[snippets|dendron.topic.snippets]] to create check boxes
+- using [[scratch notes|dendron.topic.special-notes]] to create nested todos in new notes
 - using [search editor commands](https://code.visualstudio.com/updates/v1_47#_new-search-editor-command-arguments) to get an aggregration of all tasks in a given day
 
 <a href="https://www.loom.com/share/88cfdc3e900a4f4eadf7b14429e01d65"> 

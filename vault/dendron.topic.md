@@ -8,5 +8,4 @@ stub: false
 nav_order: 4
 ---
 
-# Topics
 

@@ -1,14 +1,12 @@
 ---
 id: 401c5889-20ae-4b3a-8468-269def4b4865
-title: Cook
+title: Cookbook
 desc: ''
-updated: 1609552748216
+updated: 1615132368125
 created: 1595952505024
 nav_order: 8.9
 toc: true
 ---
-# Cookbook
-
 ## General
 
 ### Manual Install
@@ -23,15 +21,13 @@ You can diagnose most problems by checking the logs. You can view the logs using
 
 #### Server Logs
 
-Dendron has two sets of logs - client and server. The client logs you can access using the `Open Logs Command`. You can access the server logs by following the tutorial [here](https://www.loom.com/share/3d04cb1d6f904ac099d73e083e62ee2f
-). 
+Dendron has two sets of logs - client and server. The client logs you can access using the `Open Logs Command`. You can access the server logs by following the tutorial [here](https://www.loom.com/share/3d04cb1d6f904ac099d73e083e62ee2f). 
 
 #### Logs from previous session
 
 Dendron has logs for the current session and the previous session.
 
 You can get logs of the previous session by following instructions [here](https://www.loom.com/share/2ca740e8e09b4aaf927d8098e2e6dec0)
-
 
 ## Bucket
 
@@ -126,12 +122,10 @@ Dendron does not have a dedicated mobile client at this time. There are numerous
 - [Epsilon Notes](https://play.google.com/store/apps/details?id=com.ekartoyev.enotes&hl=en_US&gl=US)
 - [Neutrinote](https://neutrinote.wordpress.com/) (Android only)
 
-
-
 Most mobile apps do not have git support. 
+
 - If you are on iOS, you can follow the instructions [here](https://victoria.dev/blog/a-remote-sync-solution-for-ios-and-linux-git-and-working-copy/) to sync your git backed Dendron with any note taking tool on iOS.
 - If you are on Android, you can read [this writeup](https://mstempl.netlify.app/post/working-with-git-on-android/) by one of users on having Git Sync on Android devices
-
 
 ### WebClipper
 
@@ -140,6 +134,16 @@ You can use the [markdownload-markdown-web](https://chrome.google.com/webstore/d
 ### Regex
 
 To get familiar with regex syntax, try [regexr](https://regexr.com/) is a great place to experiment with different queries.
+
+### Convert Local Vault to a Remote Vault
+
+1. Initialize local vault as a git repo and push it to a remote 
+2. Remove the local vault from your current workspace 
+3. Use the `Vault: Add` command and enter the remote url of the repo you would like to add
+
+### Automatically Convert Casing on a Note
+
+You can use the [string converter](https://marketplace.visualstudio.com/items?itemName=adamwalzer.string-converter) extension to change `[[normal note with spaces]]` to `[[normal-note-with-spaces]]` as well as a series of other text transformations.
 
 ## Markdown Preview
 
@@ -152,10 +156,12 @@ Set the following option in your workspace settings
 ```
 
 ### Customize Theme
+
 To change the color theme, you can update the `markdown-preview-enhanced.previewTheme` vscode setting
 
 ### Customize CSS
-You can see instructions for customizing css [here]( https://shd101wyy.github.io/markdown-preview-enhanced/#/customize-css) 
+
+You can see instructions for customizing css [here](https://shd101wyy.github.io/markdown-preview-enhanced/#/customize-css) 
 
 ## VSCode
 
@@ -163,7 +169,7 @@ You can see instructions for customizing css [here]( https://shd101wyy.github.io
 
 - 1. start by initializing a workspace
 
-((ref: [[dendron.topic.commands]]#initialize workspace:#*))
+((ref:[[dendron.topic.commands]]#initialize workspace:#*))
 
 - 2. by default, dendron uses a `vaults` folder underneath your workspace to store you vaults. Update your [[settings|dendron.guides.settings]] and change `vault` to the path of your current notes (alternatively, you can also copy your current notes into `vault`)
 
@@ -206,6 +212,10 @@ See instructions [here](https://stackoverflow.com/questions/51543871/sorting-fil
 
 To drag files into Dendron, open the workspace pane on the side to drag and drop. We currently recommend you only do this for non-markdown files that you want to link to inside your vaults.
 
+### Find Installed Extensions
+1. Navigate to the extensions pane
+1. Search for `@installed`
+
 ## Navigation
 
 ### Enable Table of Contents
@@ -213,10 +223,10 @@ To drag files into Dendron, open the workspace pane on the side to drag and drop
 When viewing your notes locally, you can view the toc either from the outline view or by toggling the preview
 
 - from the outline
-  ((ref: [[dendron.topic.workbench]]#outline view,1:#*))
+  ((ref:[[dendron.topic.workbench]]#outline view,1:#*))
 
 - from the preview
-  ((ref: [[dendron.topic.preview]]#table of contents,1))
+  ((ref:[[dendron.topic.preview]]#table of contents,1))
 
 ## Publishing
 
@@ -240,7 +250,7 @@ dendron-cli buildSite --wsRoot {path/to/ws} --vault {path/to/vault} --incrementa
 The following instructions cover how to update your local preview everytime you make a change to your notes
 
 - install `dendron-cli`
-  ((ref: [[dendron.pro.dendron-cli]]#installation,1:#*))
+  ((ref:[[dendron.topic.cli]]#installation,1:#*))
 
 - have jekyll watch your site-root
 

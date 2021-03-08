@@ -6,8 +6,6 @@ updated: 1604239992867
 created: 1601910058115
 stub: false
 ---
-# Tags
-
 Besides hierarchies, Dendron also supports tags. We recommend that you use the following syntax for tags:
 
 ```md
@@ -31,5 +29,5 @@ You can format your tags to look like regular tags wiki-link aliases
 
 You can further customize the look of tags in the preview by using the following CSS modification.
 
-((ref: [[dendron.guides.tips]]#stylized tags using custom css:#*))
+((ref:[[dendron.guides.tips]]#stylized tags using custom css:#*))
 

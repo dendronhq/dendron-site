@@ -1,13 +1,11 @@
 ---
 id: 6aed338c-df05-420d-aa7b-59dfd2214349
-title: 2020-07-25 Release Notes
+title: Release Notes(version 0.4)
 desc: ''
-updated: 1595984607502
+updated: 1609990780194
 created: 1595984607502
-stub: false
+date: 2020-07-25
 ---
-# 2020-07-25 Release Notes (version 0.4)
-
 Its been an active week of Dendron development. These weekly release notes are to keep you up to date on some of the things we're working on.
 
 These release notes are summary of the more notable changes, for the full list, please look at our [CHANGELOG](https://github.com/dendronhq/dendron/blob/master/CHANGELOG.md)
@@ -130,3 +128,4 @@ Last and most of all, a big **thanks** to all these people that contributed issu
 - [Alexis Argyris](https://github.com/alexisargyris)
 - [Jay A. Patel](https://github.com/jayp)
 - [Kiran Pathakota](https://github.com/kpathakota)
+

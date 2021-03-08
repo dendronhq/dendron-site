@@ -9,9 +9,6 @@ start: 2020.10.07
 end: 2020.11.29
 status: Next
 ---
-
-# Long term sustainability v0
-
 ## Goals
 
 Figure out and experiment with a long term business model for Dendron.
@@ -23,47 +20,52 @@ Figure out and experiment with a long term business model for Dendron.
 Kevin wants to work on Dendron full time for the forseeable future and would like to hire other people full time to do the same. 
 
 ## Tasks
+
 - [x] come up with different revenue plans
 - [x] launch the **environmentalist plan**
-    - re-curring payment to support development of Dendron
-    - access to special once a month zoom chat about features
-    - swag
-    - discord icon
-    - discount for server side features
+  - re-curring payment to support development of Dendron
+  - access to special once a month zoom chat about features
+  - swag
+  - discord icon
+  - discount for server side features
 
 ## Next
+
 - server side features 
-    - private hosting
-    - native sync
-    - server side pods (eg. everytime you add data to airtable, add an entry to Dendron)
+  - private hosting
+  - native sync
+  - server side pods (eg. everytime you add data to airtable, add an entry to Dendron)
 
 ## Links
+
 - [project docs](https://dendron.so/notes/d892da5f-3667-4bfe-a8ba-e5ea3da4eb72.html)
 - [issues](https://github.com/dendronhq/dendron/labels/pro.lts-v0)
 
 ## Notes
 
 ### Revenue Ideas
+
 - pro status
-    - support dendron development using one time or recurring fee
-    - get a dendron sticker and special discord badge
-    - get discount when we launch sever feature rates
+  - support dendron development using one time or recurring fee
+  - get a dendron sticker and special discord badge
+  - get discount when we launch sever feature rates
 - workshops
 - server features
-    - use **code-server** or something equivalent to run dendron inside a browser
-    - dedicated end2end sync
-    - hosted pods 
-        - do daily import/export of notes from/to diff places
+  - use **code-server** or something equivalent to run dendron inside a browser
+  - dedicated end2end sync
+  - hosted pods 
+    - do daily import/export of notes from/to diff places
 - dendron private catalogues
-    - give people the option to build a paying subscription base for their published notes (eg. substack)
+  - give people the option to build a paying subscription base for their published notes (eg. substack)
 - enterprise features
-    - active directory and support
-    - support remote mount point
+  - active directory and support
+  - support remote mount point
 - mobile app 
 - standalone client
-    - standalone dendron app  
-        - maybe modified vscode (without coding)
-        - theia 
-        - vscodium
-    - charge a pay what you can model?
+  - standalone dendron app  
+    - maybe modified vscode (without coding)
+    - theia 
+    - vscodium
+  - charge a pay what you can model?
 - wyswg client
+

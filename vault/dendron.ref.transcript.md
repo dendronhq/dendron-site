@@ -6,9 +6,6 @@ updated: 1599235587751
 created: 1599235587751
 stub: false
 ---
-
-# Dendron Onboarding Transcript
-
 0:00  
 So getting started? And have you had a chance to play around with engine at all, or this is the first time.
 

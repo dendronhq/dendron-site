@@ -1,19 +1,18 @@
 ---
 id: de93124b-c23b-4028-9e2c-6de6a56ca5e9
-title: Crm
+title: CRM
 desc: ''
-updated: 1599922711522
+updated: 1613934806409
 created: 1599922711522
 stub: false
 published: false
 ---
-
-# CRM
-
 Dendron can be used as a CRM to keep up with people and conversations. The following describes on way of setting it up. 
 
 ## Schemas
+
 - people.schema.yml
+
 ```yml
 - id: people
   title: people
@@ -23,6 +22,7 @@ Dendron can be used as a CRM to keep up with people and conversations. The follo
 ```
 
 - meet.schema.yml
+
 ```yml
 version: 1
 schemas:
@@ -50,9 +50,11 @@ schemas:
 ```
 
 ## Notes
+
 I have a section in every meeting note for people that are involved
 
 - eg. meet.journal.2020.09.12.camping-trip
+
 ```yml
 # People
 - [[people.alice]]
@@ -63,7 +65,10 @@ I have a section in every meeting note for people that are involved
 ```
 
 ## Benefits
+
 - whats nice with this approach is that every person inside the `people` hierarchy will have backlinks to all meetings
 
 ## Future Improvements
+
 - [ ] create schema template for both `people` and `meet` notes
+

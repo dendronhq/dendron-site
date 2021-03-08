@@ -2,45 +2,22 @@
 id: 26be950a-eaf3-4684-bddd-64be52273b73
 title: Internal
 desc: ''
-updated: 1608527506447
+updated: 1614924289100
 created: 1608527496774
 ---
 
-# Schema
-```
-  "root": Object {
-    "fname": "root",
-    "imports": Array [],
-    "root": Object {
-      "children": Array [],
-      "id": "root",
-      "parent": "root",
-      "title": "root",
-    },
-    "schemas": Object {
-      "root": Object {
-        "body": "",
-        "children": Array [],
-        "created": 1605108880847,
-        "data": Object {},
-        "desc": "",
-        "fname": "__empty",
-        "id": "root",
-        "links": Array [],
-        "parent": "root",
-        "title": "root",
-        "type": "schema",
-        "updated": 1605108880847,
-        "vault": undefined,
-      },
-    },
-    "version": 1,
-  },
+## Initializing a new workspace
+- engine-server/src/workspace.ts
+
+```ts
+WorkspaceService.createWorkspace
 ```
 
-# Renaming a Note
+## Initializing dendron.yml
 
-## Flow
+## Renaming a Note
+
+### Flow
 
 - engine-server/src/drivers/file/storev2.ts
 
@@ -58,6 +35,7 @@ renameNote opts {
 ```
 
 - src/topics/markdown/utilsv2.ts
+
 ```ts
 replaceLinks opts {
   remark = getRemark(dendronLinksOpts: {replaceLink: { from, to }} )
@@ -81,8 +59,7 @@ deleteNote(note) {
 
 - See [[Remark|dendron.dev.design.remark]]
 
-
-# Specifics
+## MISC
 
 ### Does Dendron use parent/children metadata inside notes during initialization?
 
@@ -91,6 +68,7 @@ deleteNote(note) {
 # WorkspaceService: Add Vault
 
 - src/workspace.ts
+
 ```ts
 createVault(vault, noAddToConfig):
   ensureDir(vault)
@@ -100,3 +78,4 @@ createVault(vault, noAddToConfig):
   if !noAddToConfig:
     config.add vault
 ```
+
