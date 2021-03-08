@@ -2,7 +2,7 @@
 id: eea2b078-1acc-4071-a14e-18299fc28f48
 title: Config
 desc: ''
-updated: 1614057845597
+updated: 1615241271952
 created: 1595261816971
 ---
 
@@ -12,6 +12,12 @@ Dendron configuration currently lives in two places:
 
 ## Dendron Config
 
+### generateChangelog
+- default: false
+- status: 🚧
+
+Turn on to enable [[changelogs|dendron.topic.publishing.changelogs]]
+
 ### lookupConfirmVaultOnCreate
 
 With this set, you can pick the vault for new notes.  
@@ -20,6 +26,11 @@ With this set, you can pick the vault for new notes.
 - default: false
 
 Turn on to enable [[mermaid support|dendron.topic.markdown#diagrams]]
+
+### useContainers
+- default: false
+
+Turn on to enable [remark-container support](https://github.com/Nevenall/remark-containers)
 
 ### useFMTitle
 

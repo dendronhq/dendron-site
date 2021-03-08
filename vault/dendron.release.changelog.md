@@ -2,16 +2,44 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1614965542490
+updated: 1615242074818
 created: 1601508213606
 date: '2022-01-01'
 ---
+
+## 0.31.3
+### Features
+#### Changelogs
+![[dendron.topic.publishing.changelogs#summary,1:#*]]
+
+### House Cleaning
+- all tests are now `jest style` tests
+
+## 0.31.2
+### Features
+
+#### Custom Domain Names 
+
+Dendron now supports custom domain names for [[managed publishing|dendron.topic.managed-publishing]]. You can find docs [[here|dendron.topic.managed-publishing.quickstart#adding-a-custom-domain-via-cname]]. Note that this feature is currently limited to [[environmentalist|dendron.community.roles#environmentalist]] .
+
+### Enhancements
+- Add paste link command ([[docs|dendron.topic.commands#paste-link]])
+- don't throw fatal error on bad wikilink
+- don't throw fatal error if `siteUrl` not set while in `dev`
+- add remark-containers plugin [[docs|dendron.topic.config#usecontainers]]
+
+### Bug Fixes
+- refs don't include children or backlinks 
+- clean `dendron.yml` after removing a vault
+
 ## 0.31.1
 
 ### Bug Fixes
 
 - issue with mixed case file names
 
+## 0.31.0
+***
 ## 0.30.2
 
 ### Features

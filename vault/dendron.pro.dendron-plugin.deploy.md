@@ -2,7 +2,7 @@
 id: 2976e5df-c8b4-4176-9d3f-fe4220dfa9b6
 title: Deploy
 desc: ''
-updated: 1615083879180
+updated: 1615242299836
 created: 1613863275374
 ---
 
@@ -43,7 +43,7 @@ verdaccio
 gbD integ-publish
 gco -b integ-publish
 
-version=prepatch
+version=minor
 lerna version $version --no-git-tag-version 
 
 git add .
@@ -91,7 +91,7 @@ setRegRemote
 - [ ] cherry pick if needed
 
 ```
-version=prepatch
+version=minor
 lerna version $version 
 lerna publish from-package 
 lerna publish from-package --ignore-scripts

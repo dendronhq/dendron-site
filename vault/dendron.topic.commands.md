@@ -2,7 +2,7 @@
 id: eea2b078-1acc-4071-a14e-18299fc28f47
 title: Commands
 desc: ''
-updated: 1614655750642
+updated: 1615240879684
 created: 1595261816971
 ---
 ---
@@ -74,6 +74,10 @@ Delete a note or schema
 ### Move Note
 
 Move a note. Also includes option to move a note between vaults
+
+### Paste Link
+
+Transform URL in clipboard to nicely formatted markdown link
 
 ### Rename Note
 
