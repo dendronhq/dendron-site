@@ -1,8 +1,8 @@
 ---
 id: d0f34b08-0725-4ec5-a600-a4d6309bb2ae
 title: Windows
-desc: ''
-updated: 1615167686103
+desc: 'Windows gotchas'
+updated: 1615168192996
 created: 1615165852271
 ---
 
@@ -26,9 +26,9 @@ If you are still seeing blank changes in git run:
 
 ## watch script
 
-Dendron has a watch.sh script which will continuously compile all dependencies while you are developing. This is useful, but windows does not know how to run shell scripts natively... 
+Dendron has a watch.sh script which will continuously compile all dependencies while you are developing. This is useful, but windows does not run shell scripts natively... 
 
-The easiest way to get this running on Windows is to use git BASH[^git][^gitbash].
+The easiest way to run shell scripts on Windows is to use git BASH[^git][^gitbash], which gets automatically installed, when you install git for windows. (It should also already be on your PATH.)
 
 Open git BASH inside the Dendron repo and run the script:
 
