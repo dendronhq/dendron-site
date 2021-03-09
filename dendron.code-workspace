@@ -49,7 +49,12 @@
         "editor.snippetSuggestions": "inline",
         "editor.suggest.snippetsPreventQuickSuggestions": false,
         "editor.suggest.showSnippets": true,
-        "editor.tabCompletion": "on"
+        "editor.tabCompletion": "on",
+        "markdownlint.config": {
+            "MD007": {
+                "indent": 4
+            }
+        }
     },
     "extensions": {
         "recommendations": []
