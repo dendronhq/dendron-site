@@ -2,7 +2,7 @@
 id: c998c642-a748-4f77-9285-cfec35330251
 title: 6 Graph Improvements
 desc: Improvement Proposal For the Graph
-updated: 1615194174388
+updated: 1615404734189
 created: 1615106291022
 ---
 
@@ -62,7 +62,7 @@ This RFC contains Multiple Proposals on how to improve the Graph handling of Den
         - Text
     1. What Interactions do we want?
         - Just clicking on Nodes
-        - The ability to move Nodes from One Hierarcy to another?
+        - The ability to move Nodes from One Hierarchy to another?
         - Creating a Schema from Selected Nodes?
 3. [[How are the Graphs embedded|dendron.rfc.6-graph-rework.graph-embedding]]
     - Code Blocks?

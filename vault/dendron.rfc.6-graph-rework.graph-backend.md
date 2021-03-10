@@ -2,7 +2,7 @@
 id: e53cb939-88f1-4892-9e8d-e98551923995
 title: Graph Backend
 desc: ''
-updated: 1615212167119
+updated: 1615404954316
 created: 1615194010974
 ---
 
@@ -43,9 +43,13 @@ Improvement on how the Graph gets handled in the Backend/Engine of Dendron.
         >
         GUN is a small, easy, and fast data sync and storage system that runs everywhere JavaScript does. The aim of GUN is to let you focus on the data that needs to be stored, loaded, and shared in your app without worrying about servers, network calls, databases, or tracking offline changes or concurrency conflicts.
     - [Neo4j](https://neo4j.com/) 
-        Neo4j is a Full featured Graph Database Platform that.
+        Neo4j is a Full-featured Graph Database Platform
 
 ### Caching
 
 - Only in the extension
 - In a file that gets committed to the vault?
+
+## Proposal
+
+I would Personally recommend using Gun.js 
