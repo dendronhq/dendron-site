@@ -188,6 +188,10 @@ We also want to support some subset of the queries as note references so that th
 
 ## Other
 
+### How to launch dendron with most recent vault quickly?
+
+In menu bar of VSCode, select `File` -> `New Window` and click the Dendron workspace in Recent section of the Welcome tab.
+
 ### Why are there `root` files in my notes?
 
 When you initialize a vault, `root.md` and `root.schema.yml` get created inside each vault.
