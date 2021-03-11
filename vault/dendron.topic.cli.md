@@ -2,7 +2,7 @@
 id: 23a1b942-99af-45c8-8116-4f4bb7dccd21
 title: Dendron CLI
 desc: ''
-updated: 1614924024964
+updated: 1615332755836
 created: 1600033791071
 ---
 The Dendron CLI exposes Dendron's functionality via the command line. 
@@ -63,7 +63,7 @@ Launch the [[dendron server|dendron.roadmap.project.n.2020.server-migration]]. U
 The CLI will also write out `.dendron.*` [[metadata files|dendron.ref.layout#file-tree]] in the workspace root just the same as the Dendron plugin. 
 
 ```
-dendron-cli launchEngineServer --wsRoot ~/Dendron/ --vaults ~/Dendron/vault --port 3005
+dendron-cli launchEngineServer --wsRoot ~/Dendron/ --port 3005
 ```
 
 ## Publishing Commands

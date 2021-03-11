@@ -2,7 +2,7 @@
 id: 7c00d606-7b75-4d28-b563-d75f33f8e0d7
 title: Roles
 desc: ''
-updated: 1605552659231
+updated: 1615418011491
 created: 1604237102230
 ---
 Dendron has special roles for members of its community. 
@@ -17,8 +17,13 @@ Dendrologist help shape Dendron's roadmap and community standards. They also gai
 
 **Environmentalist** are members that show their support by making monthly [financial contributions](https://accounts.dendron.so/account/subscribe) to Dendron.
 
-Environmentalist get a special discord role, early access to new features, 
-special channels, and other goodies. 
+Environmentalist get a special discord role, early access to new features, special channels, and other goodies. 
+
+There are currently four levels of environmentalist plans:
+- seed
+- sprout
+- sapling
+- forest
 
 ## Horticulturalist
 

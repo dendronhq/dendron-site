@@ -2,7 +2,7 @@
 id: c5e5adde-5459-409b-b34d-a0d75cbb1052
 title: Schemas
 desc: ''
-updated: 1608530445742
+updated: 1615395158163
 created: 1595952505039
 stub: false
 ---
@@ -260,3 +260,9 @@ Common errors:
 
 ((ref:[[dendron.topic.schema]]#parent:#*))
 
+
+## Cookbook
+
+### Testing schemas
+
+If you want to test what your schemas will match, you can use a glob tester like [Glob teste ](https://globster.xyz/) to do so
