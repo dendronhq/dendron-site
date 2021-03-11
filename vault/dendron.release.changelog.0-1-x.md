@@ -2,7 +2,7 @@
 id: ed4162aa-5474-4483-9fbc-c0b505310c59
 title: 0.1.X
 desc: ''
-updated: 1614924050223
+updated: 1615427862023
 created: 1610397097347
 ---
 ## 0.19.3
@@ -832,8 +832,9 @@ Current Seeds:
 - open AWS catalogue
 ```
 
-((ref:[[dendron.community.showcase]]#open pkm catalogue,1:#*))
-((ref:[[dendron.community.showcase]]#open aws catalogue,1:#*))
+![[dendron.community.showcase#open-pkm-catalogue,1:#*]]
+
+![[dendron.community.showcase#Open-AWS-Catalogue,1:#*]]
 
 #### Alternatives
 
