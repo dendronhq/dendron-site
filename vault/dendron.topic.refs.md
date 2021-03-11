@@ -2,7 +2,7 @@
 id: f1af56bb-db27-47ae-8406-61a98de6c78c
 title: References
 desc: ''
-updated: 1614057759268
+updated: 1615430357861
 created: 1597356582509
 stub: false
 ---
@@ -14,16 +14,25 @@ Currently, Dendron supports 3 types of references:
 - block references
 - block range references
 
-References have the following syntax
+References have the following syntax:
 
 ```
-![[ NAME_OF_NOTE 
-    #STARTING_HEADER                            # optional
-    :#ENDING_HEADER                             # optional
-]]
+![[NAME.OF.NOTE]]
 ```
 
-- NOTE: Dendron recently switched the note ref syntax for `((ref: [[foo]]))` to `![[foo]]`. The videos have not yet been updated to reflect this change
+Another example with a header range:
+
+```
+![[NAME.OF.NOTE#STARTING-HEADER:#ENDING-HEADER]]
+```
+
+> NOTE: When referencing headers with spaces in them, the note ref needs to use `-` instead of spaces within the name. This is a limitation of adopting GitHub-style slugger references. This is also useful for when multiple subheaders on a page may have the same name, which would expect something else `#foo` vs. `#foo-1` vs. `#foo-2`. This can be automatically taken care of by highlighting a header, and using `cmd+shift+r` / `ctrl+shift+r` to add a properly-formatted note ref to the clipboard.
+>
+> For more information:
+> - [StackOverflow: How to escape symbols in GitHub-flavored markdown internal links / heading anchors?](https://stackoverflow.com/a/48760076/5340149)
+> - [Anchors in Markdown gist](https://gist.github.com/asabaylus/3071099)
+
+> NOTE: Dendron recently switched the note ref syntax for `((ref: [[foo]]))` to `![[foo]]`. The videos have not yet been updated to reflect this change.
 
 ## Configuration
 
