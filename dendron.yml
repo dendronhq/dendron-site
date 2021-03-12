@@ -6,9 +6,9 @@ site:
     usePrettyRefs: true
     copyAssets: true
     logo: vault/assets/images/logo.png
-    siteUrl: 'https://dendron.so'
+    siteUrl: 'https://wiki.dendron.so'
     siteLastModified: true
-    githubCname: dendron.so
+    githubCname: wiki.dendron.so
     title: Dendron
     author: dendronhq
     twitter: dendronhq
