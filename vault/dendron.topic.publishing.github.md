@@ -39,8 +39,8 @@ git checkout main
   },
   "license": "CC BY 4.0",
   "devDependencies": {
-    "@dendronhq/dendron-11ty": "^1.24.4",
-    "@dendronhq/dendron-cli": "^0.24.0"
+    "@dendronhq/dendron-11ty": "^1.32.0",
+    "@dendronhq/dendron-cli": "^0.32.0"
   }
 }
 ```
