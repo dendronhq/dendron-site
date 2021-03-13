@@ -2,7 +2,7 @@
 id: 3abd00eb-1c1e-4253-aaf5-dcbe20c21850
 title: Early Seed
 desc: ''
-updated: 1615614960609
+updated: 1615646734812
 created: 1604539200840
 published: true
 nav_exclude: true
@@ -29,6 +29,7 @@ You can now use managed publishing with a password. Note that while the instruct
 ### Bug Fixes
 - dendron will check if dependencies are actually installed before trying to preview your site
 - remove un-used extensions
+- failure when importing large amounts of markdown files using import pod
 
 ### House Cleaning
 - importing a pod now requires a `vaultName` parameter (previous, we just defaulted to the first vault)
