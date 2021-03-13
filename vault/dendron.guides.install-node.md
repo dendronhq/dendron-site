@@ -2,9 +2,9 @@
 id: f7de40f7-75c1-4d7a-aa6b-77444c034ad1
 title: Install Node
 desc: ''
-updated: 1610684206760
+updated: 1615652093120
 created: 1610681611843
-published: false
+published: true
 ---
 
 - visit [nodes.org](https://nodejs.org/en/) and download node for windows
