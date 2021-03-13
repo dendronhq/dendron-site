@@ -2,40 +2,33 @@
 id: 3abd00eb-1c1e-4253-aaf5-dcbe20c21850
 title: Early Seed
 desc: ''
-updated: 1614313385678
+updated: 1615614960609
 created: 1604539200840
 published: true
 nav_exclude: true
 ---
-## 0.30.1
+## 0.32.1
 
 ### Features
 
-#### Custom Pods
+#### Password protected sites
+- [docs](https://dendron.so/notes/8b08d91b-3da8-4b8a-90c5-799d3026ad9b.html#add-password-protection-to-your-site)
 
-We now have custom pod support
-![[dendron.topic.pod.custom#summary,1:#*]]
-
-If you are interested in developing your own publishing pod, you can docs to do so [[here|dendron.topic.pod.dev]]
-
-#### Dev.to Pod
-
-As an example of what you can do with a custom pod, we created the [[Dev.to Pod|dendron.pro.devto-pod]] which lets you publish your notes to dev.to
+You can now use managed publishing with a password. Note that while the instruction says you need a `sprout` membership, it's available for all current environmentalist regardless of what tier you're in 
 
 ### Enhancements
-
-- backlinks in published sites 
-
-![[dendron.topic.publishing.features#backlinks,1]]
+- control display for children links ([[docs|dendron.topic.config#hiearchydisplaytitle]])
+- [[skipLevels|dendron.topic.publishing.configuration#skiplevels]] also applies to children lins
+- [[useNoteTitleForLink|dendron.topic.config#usenotetitleforlink]] also applies to note references
+- importing from markdown is now 5x faster 🚀🚀🚀
+    - NOTE: this is only for the CLI 
+- a bunch of new options when importing a pod ([[docs|dendron.topic.pod.import]])
+    - NOTE: these options currently only apply for the [[Markdown Import Pod|dendron.topic.pod.builtin.markdown#import]]
+- show progress bar when importing pod from plugin
 
 ### Bug Fixes
-
-- delete node sometimes fails in multi-vault
-- publishing multi-vault will sometimes not work if multiple domain notes
-- unable to select `root` of multi-vault notes in tree view
+- dendron will check if dependencies are actually installed before trying to preview your site
+- remove un-used extensions
 
 ### House Cleaning
-
-- if you're working on the codebase, `dendron.code-workspace` has been renamed to `dendron-main.code-workspace`
-  - this helps if you're working on dendron while having dendron installed since Dendron, prior to this change, would also activate when you were editing the code
-
+- importing a pod now requires a `vaultName` parameter (previous, we just defaulted to the first vault)

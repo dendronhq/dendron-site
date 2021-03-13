@@ -2,7 +2,7 @@
 id: f2ed8639-a604-4a9d-b76c-41e205fb8713
 title: Configuration
 desc: ''
-updated: 1614655770757
+updated: 1615523112761
 created: 1608528797892
 nav_order: 3
 ---
@@ -427,6 +427,8 @@ When you publish, you might only want to show the leaf nodes and skip the interm
 - blog.reading.journal.2020.12.20.one.md
 - blog.reading.journal.2020.12.31.two.md
 ```
+
+- NOTE: when you set `skipLevels`, this also affects [[children links|dendron.topic.links#children-links]]
 
 #### sort_order
 

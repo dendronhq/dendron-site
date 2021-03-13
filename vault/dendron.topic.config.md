@@ -2,7 +2,7 @@
 id: eea2b078-1acc-4071-a14e-18299fc28f48
 title: Config
 desc: ''
-updated: 1615241271952
+updated: 1615523276297
 created: 1595261816971
 ---
 
@@ -14,9 +14,15 @@ Dendron configuration currently lives in two places:
 
 ### generateChangelog
 - default: false
-- status: 🚧
+- status: experimental 🚧
 
 Turn on to enable [[changelogs|dendron.topic.publishing.changelogs]]
+
+### hiearchyDisplayTitle
+- default: Children
+- status: [[Early Seed 🌱|dendron.ref.status#early-seed-]]
+
+Controls the title for [[children links|dendron.topic.links#children-links]] in published sites
 
 ### lookupConfirmVaultOnCreate
 
@@ -38,7 +44,7 @@ When set to true, use frontmatter as title when publishing and in the preview.
 
 ### useNoteTitleForLink
 
-If true, use the note title when displaying naked links
+If true, use the note title when displaying naked links. This also applies to note references. 
 
 - NOTE: this is not yet fully supported for multi-vault. specifically, cross vault links are not yet supported
 

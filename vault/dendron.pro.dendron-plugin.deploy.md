@@ -2,7 +2,7 @@
 id: 2976e5df-c8b4-4176-9d3f-fe4220dfa9b6
 title: Deploy
 desc: ''
-updated: 1615242299836
+updated: 1615614915171
 created: 1613863275374
 ---
 
@@ -43,7 +43,7 @@ verdaccio
 gbD integ-publish
 gco -b integ-publish
 
-version=minor
+version=patch
 lerna version $version --no-git-tag-version 
 
 git add .
@@ -66,6 +66,7 @@ cd $WORKSPACE_BUILD
 git reset --hard
 git clean -f
 gco master
+git fetch
 gbD integ-publish
 git checkout --track origin/integ-publish
 
@@ -101,6 +102,7 @@ lerna publish from-package --ignore-scripts
 ```
 git reset --hard
 git clean -f
+git fetch
 gco master 
 sleep 60
 ./scripts/pack_and_install.sh

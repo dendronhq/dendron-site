@@ -2,7 +2,7 @@
 id: 13c4a608-0a32-4c62-9c7e-2b7f9f2d18bf
 title: Markdown Pod
 desc: ''
-updated: 1610233214080
+updated: 1615608224395
 created: 1603306941128
 ---
 
@@ -60,6 +60,9 @@ Non-markdown files within a directory will be moved into the `assets` folder of 
 ```
 
 Note that all files starting with a `.` will be ignored during the import.
+
+#### Configuration
+![[dendron.topic.pod.import#configuration,1]]
 
 #### Links
 

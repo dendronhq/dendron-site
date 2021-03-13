@@ -2,7 +2,7 @@
 id: 3472226a-ff3c-432d-bf5d-10926f39f6c2
 title: Links
 desc: ''
-updated: 1614639285945
+updated: 1615522719717
 created: 1595003088839
 stub: false
 ---
@@ -26,10 +26,16 @@ Wiki links support **autocomplete**. To initiate:
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/links-autocomplete.gif)
 
+## Children Links
+
+When you [[publish|dendron.topic.publishing]] your notes, Dendron shows all children of the note at the bottom.
+
+![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/Quickstart_-_Dendron.jpg)
+
 ## Backlinks
 
-Dendron has a backlink panel which shows all notes with links to the current note. 
-
+Dendron has a backlink panel which shows all notes with links to the current note. This will also show up underneath [[children Links|dendron.topic.links#children-links]] on published pages.
+ 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/links.backlink.jpg)
 
 ## Other Links

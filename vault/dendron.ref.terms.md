@@ -2,10 +2,13 @@
 id: 20b23165-d803-4eb2-98aa-0f0934dd3bd9
 title: Terms
 desc: ''
-updated: 1614057590921
+updated: 1615522248238
 created: 1610064859384
 ---
 
+### Early Seed Release
+
+Early builds of Dendron. Only availble to [[Environmentalist|dendron.community.roles#environmentalist]].
 
 ### Slug
 

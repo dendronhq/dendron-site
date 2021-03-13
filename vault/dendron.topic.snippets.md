@@ -2,7 +2,7 @@
 id: 9eca1992-7540-4d9d-97fb-328b27748b2c
 title: Snippets
 desc: ''
-updated: 1596561207607
+updated: 1615485998818
 created: 1596561207607
 stub: false
 ---
@@ -47,7 +47,7 @@ date: {
     description: "today's date",
 },
 time: {
-    prefix: "time",
+    prefix: "time"~~,~~
     scope: "markdown,yaml",
     body: "$CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE $CURRENT_HOUR:$CURRENT_MINUTE",
     description: "time",

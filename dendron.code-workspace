@@ -28,7 +28,6 @@
             "**/*.code-search": true,
             "docs": true
         },
-        "workbench.editor.showTabs": true,
         "workbench.editor.pinnedTabSizing": "shrink",
         "workbench.editor.enablePreview": false,
         "dendron.defaultLookupCreateBehavior": "selectionExtract",
