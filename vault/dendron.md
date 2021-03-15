@@ -2,7 +2,7 @@
 id: b0fe6ef7-1553-4280-bc45-a71824c2ce36
 title: Dendron
 desc: ''
-updated: 1615347298182
+updated: 1615829391831
 created: 1595952505017
 stub: false
 ---
@@ -45,8 +45,7 @@ Some popular use cases include:
 - {Your Use Case Here}
 
 ## Getting Started
-
-((ref:[[dendron.guides.install]]#Getting Started,1:#Install))
+![[dendron.guides.install]]
 
 ## Onboarding
 

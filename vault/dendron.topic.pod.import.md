@@ -2,7 +2,7 @@
 id: 34893663-b1cc-4c4f-aea7-6f1728365b89
 title: Import
 desc: ''
-updated: 1615608061285
+updated: 1615831749642
 created: 1615607767935
 ---
 
@@ -16,7 +16,6 @@ Import pods let you import data from a data source into Dendron
 * required: true
 
 ### vaultName
-- status: [[Early Seed 🌱|dendron.ref.status#early-seed-]]
 * description: "name of vault to import into"
 * type: "string" as const
 * required: true
@@ -32,12 +31,10 @@ Import pods let you import data from a data source into Dendron
 
 
 ### frontmatter
-- status: [[Early Seed 🌱|dendron.ref.status#early-seed-]]
 * description: "frontmatter to add to each note"
 * type: "object"
 
 ### fnameAsId
-- status: [[Early Seed 🌱|dendron.ref.status#early-seed-]]
 * description: "use the file name as the id"
 * type: "boolean"
 

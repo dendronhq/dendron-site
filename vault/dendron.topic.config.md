@@ -2,7 +2,7 @@
 id: eea2b078-1acc-4071-a14e-18299fc28f48
 title: Config
 desc: ''
-updated: 1615523276297
+updated: 1615831736520
 created: 1595261816971
 ---
 
@@ -20,7 +20,6 @@ Turn on to enable [[changelogs|dendron.topic.publishing.changelogs]]
 
 ### hiearchyDisplayTitle
 - default: Children
-- status: [[Early Seed 🌱|dendron.ref.status#early-seed-]]
 
 Controls the title for [[children links|dendron.topic.links#children-links]] in published sites
 

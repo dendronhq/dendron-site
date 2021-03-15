@@ -2,7 +2,7 @@
 id: d95b93bf-5e6f-4dd0-b7d7-c8e29e061876
 title: Getting Started
 desc: ''
-updated: 1608485512284
+updated: 1615829448021
 created: 1595537796868
 ---
 [Ed](https://www.youtube.com/channel/UCBDaEQKIAgU-U6bsUfPcWnA), our fellow Dendrologist, has made a fantastic getting started video to help folks install and setup Dendron. 
@@ -17,7 +17,7 @@ After you have downloaded the plugin, following the instructions to create your 
 
 1. With VSCode in focus, launch the _command bar_:
 
-((ref:[[dendron.guides.cook]]#launch the command bar,3:#*))
+![[dendron.guides.cook#launch-the-command-bar,1:#*]]
 
 2. Paste the following command and press `Enter`: 
 
@@ -31,3 +31,6 @@ After you have downloaded the plugin, following the instructions to create your 
 
 When the workspace opens, it will show dialogue to install the recommended extensions. Though not required, these extensions add all the **non-core** features of Dendron like wiki links and tagging support.
 
+
+## Next Steps
+- Go through the [[Dendron Tutorial|dendron.tutorial]]

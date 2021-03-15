@@ -2,7 +2,7 @@
 id: ae4a0c98-e2ea-47e0-8a20-016eba3424be
 title: 2 Managed Publishing
 desc: ''
-updated: 1615160645832
+updated: 1615745443004
 created: 1611853430165
 ---
 
@@ -29,8 +29,8 @@ Your published page will have its own subdomain under `{username}.dendron.wiki`.
 - [x] github based publishing
 
 ## Upcoming Features
-- [ ] custom domain names
-- [ ] protect published notes with a username/password
+- [x] custom domain names [2021-03-14 11:03]
+- [x] protect published notes with a username/password [2021-03-14 11:03]
 - [ ] whitelist individuals by email when sharing published notes
 - [ ] create a secure link to a page (could be published or not-published)
 - [ ] get detailed analytics for a page

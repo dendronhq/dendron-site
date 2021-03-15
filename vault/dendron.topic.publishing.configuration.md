@@ -2,7 +2,7 @@
 id: f2ed8639-a604-4a9d-b76c-41e205fb8713
 title: Configuration
 desc: ''
-updated: 1615523112761
+updated: 1615831757415
 created: 1608528797892
 nav_order: 3
 ---
@@ -392,6 +392,19 @@ To tell google to not index a page, you can add the following tag to the frontma
 ...
 noindex: true
 ```
+
+### gitNoLink
+
+Disable git linking for this page
+
+### gitNotePath
+
+When set, override how we generate the URL for the [[edit on github|dendron.topic.publishing.features#edit-on-github]] link.
+
+There are a few special variables you can set:
+
+- `${noteHierarchy}`: this specifies the full hiearchy to the note in posix format
+  - eg. `foo.bar` will translate to `foot/bar`
 
 ### collection options
 

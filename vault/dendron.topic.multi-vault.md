@@ -2,7 +2,7 @@
 id: 24b176f1-685d-44e1-a1b0-1704b1a92ca0
 title: Multi Vault
 desc: ''
-updated: 1615501218603
+updated: 1615672471832
 created: 1605630383515
 ---
 ## Summary
@@ -76,6 +76,13 @@ lookupConfirmVaultOnCreate: true
 You can publish from a multi-vault enabled workspace if you are using [[dendron-11ty|dendron.pro.dendron-11ty]] to publish. 
 
 We have added a new configuration, `duplicateNoteBehavior`, which [[controls|dendron.topic.publishing.configuration#duplicatenotebehavior-optional]] how Dendron handles duplicate notes across multiple vaults. 
+
+### Preset Remote Vaults
+When you add a [[remote vault|dendron.concepts#remote-vault]], you can either add a vault using a custom git url or select from one of the pre-defined endpoints. Currently, Dendron provide the following remote vaults:
+- [AWS Vault](https://aws.dendron.so/)
+- [TLDR Vault](https://tldr.dendron.so/)
+- [Dendron Vault](https://wiki.dendron.so/)
+
 
 ### Version Control
 
