@@ -2,7 +2,7 @@
 id: 2976e5df-c8b4-4176-9d3f-fe4220dfa9b6
 title: Deploy
 desc: ''
-updated: 1615828714089
+updated: 1615944001551
 created: 1613863275374
 ---
 
@@ -43,16 +43,13 @@ verdaccio
 gbD integ-publish
 gco -b integ-publish
 
-version=minor
+version=patch
 lerna version $version --no-git-tag-version 
 
 git add .
 git commit -m "integ: publish $version"
 git push --set-upstream origin integ-publish --force
 
-lerna publish from-package 
-
-# if you already built
 lerna publish from-package --ignore-scripts
 node bootstrap/scripts/genMeta.js
 ```
@@ -70,12 +67,9 @@ git fetch
 gbD integ-publish
 git checkout --track origin/integ-publish
 
-# installing
-./scripts/package.sh
-./scripts/install.sh
-
 # combine the above
 ./scripts/pack_and_install.sh
+./scripts/publish-insider.sh
 ```
 
 - test changes

@@ -2,7 +2,7 @@
 id: ab2b8bac-db9a-4af8-9a2b-d8a219334841
 title: Release Notes (version 0.33)
 desc: ''
-updated: 1615844821302
+updated: 1615845600370
 created: 1615843960014
 ---
 
@@ -38,7 +38,7 @@ You can see an overview of all roles [[here|dendron.community.roles]]
 - [Max Krieger](https://github.com/maxkrieger) @Maxotronic#1632 
   - `+bugcatcher`
   - [ Renaming/refactoring note hierarchies edge cases](https://github.com/dendronhq/dendron/issues/536)
-  - [<a> textwrap](https://github.com/dendronhq/dendron/issues/535)
+  - [a textwrap issue](https://github.com/dendronhq/dendron/issues/535)
 
 
 ![[dendron.release.changelog#0322:#0320]]

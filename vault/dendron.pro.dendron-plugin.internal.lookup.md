@@ -2,7 +2,7 @@
 id: f528e8ad-a3f9-4f66-af1d-0af400014383
 title: Lookup
 desc: ''
-updated: 1610206601056
+updated: 1615940352067
 created: 1610205567544
 ---
 
@@ -44,10 +44,16 @@ onUpdatePickerItem {
 ```
 
 ### createPickerItemsFromEngine
+- see [[queryNotes|dendron.pro.dendron-engine.internal.lookup#querynotes]]
 
 ```ts
 createPickerItemsFromEngine {
     resp = await engine.queryNotes
+    if resp.length > PAGINATE_LIMIT:
+        resp.slice(0, PAGINATE_LIMIT)
     ...
 }
 ```
+
+
+### queryNotes
