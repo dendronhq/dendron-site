@@ -2,7 +2,7 @@
 id: a6c03f9b-8959-4d67-8394-4d204ab69bfe
 title: Troubleshooting
 desc: ''
-updated: 1615132375354
+updated: 1616080223480
 created: 1595952505025
 ---
 ## Diagnosing
@@ -134,6 +134,11 @@ This is likely due to other extensions that you have installed that provide conf
 The most likely culprits are `foam` or `markdown-notes`. Uninstalling them will fix this issue. 
 
 You can see your installed 
+
+### Dendron fails to initialize
+
+- check if you have a file with two consecutive dots: `eg. pro..foo.bar`
+
 
 ## Send a support request
 

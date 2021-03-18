@@ -2,7 +2,7 @@
 id: f9b4fc21-7613-4c8a-9257-cec4c06b67f9
 title: Migration
 desc: ''
-updated: 1607277962381
+updated: 1616111736389
 created: 1603982164242
 ---
 This note covers migrating your notes from other tools
@@ -17,6 +17,11 @@ This note covers migrating your notes from other tools
 
 1. [Convert one note files to markdown](https://itectec.com/superuser/how-to-export-all-onenote-pages-to-individual-markdown-files/)
 2. Use the [[markdown pod|dendron.topic.pod.builtin.markdown]] to import your notes into Dendron
+
+## Googkle Keep
+
+1. Use [vHanda/google-keep-exporter](https://github.com/vHanda/google-keep-exporter) to transform keep files into markdown
+2. Use the [[markdown pod|dendron.topic.pod.builtin.markdown#import]] to import your notes into Dendron
 
 ## Importing Files
 
