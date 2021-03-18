@@ -125,6 +125,7 @@ Now highlight the first header and use `CMD|CTRL+SHIFT+R` to create another note
 Go back to `pro.skynet`. Notice how the note ref has updated with the latest text. 
 
 Now copy your newly created reference and paste it underneath.
+- BE CAREFUL - some methods of selecting the line will put an extra space after the work "more!". We don't want that space. Make sure that what's highlighted is just all the text from "##" to "more!"
 - notice that the newly created reference only has the contents from the newly created header
 - notice that the newly created reference doesn't show the actual header itself (you can change this behavior by removing the `,1` inside the reference)
 
