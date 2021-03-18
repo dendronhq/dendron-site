@@ -2,7 +2,7 @@
 id: 683740e3-70ce-4a47-a1f4-1f140e80b558
 title: FAQ
 desc: ''
-updated: 1612368130856
+updated: 1616029972587
 created: 1595952505025
 stub: false
 nav_order: 6
@@ -37,7 +37,7 @@ While Dendron works with knowledge bases of any size, it really shines once you'
 
 Whereas Roam is built around the idea of **bi-directional links** (and daily journals) which help you create notes without having to explicitly organize your notes, Dendron is built to help you organize notes without friction using **flexible hierarchies**.
 
-We provide the tooling to create, enforce, and change these hierarchies at will. If you think of Roam as a graph database for notes, you can think of Dendron as Redis. To give you a sense of scale, I use Dendron to manage a corpus of +20K notes. 
+We provide the tooling to create, enforce, and change these hierarchies at will. If you think of Roam as a graph database for notes, you can think of Dendron as Redis. To give you a sense of scale, Dendron is used to manage knowledge bases of +30K notes. 
 
 Some additional features that set Dendron apart:
 - Dendron allows you to compose your workspace with vaults (a vault is a collection of notes that can come from anywhere) from any number of sources
