@@ -2,10 +2,10 @@
 id: 4ad7ee77-86c3-4a01-a525-14e7d7f8acad
 title: Jack
 desc: ''
-updated: 1616038149989
+updated: 1616118489676
 created: 1616037990594
 ---
-# Testimonial
+
 <!-- Your testimonial goes here -->
 > As one of the cofounder of The Productivists and a note taking tool hunter, I found it hard to control myself to not get my hand dirty in front of new shiny tools. I was frequently changing my tools without a fixed workflow in the early days of stepping into the productivity and note taking world, it is just great to see that so many cool guys are building tools to make knowledge management a pleasure and more efficient. I met Dendron at the time that I was in a chaos state using different note taking apps like Roam, Obsidian, Evernote, etc and had been sticking with it for a couple months now. I have also tried other tools meanwhile as well but eventually I always turn my head back to Dendron.
 > 
