@@ -19,5 +19,5 @@ You can toggle a table of contents from the preview pane using a button toggle.
 ### Issues
 
 - Preview does not persist between reloads/restarts
-  - Workaround: [Always show preview of md being edited](./dendron.guides.tips.md#always-show-preview-of-md-being-edited)
+  - Workaround: [[Always show preview of md being edited|dendron.guides.tips#always-show-preview-of-md-being-edited]]
 
