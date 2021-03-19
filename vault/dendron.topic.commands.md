@@ -2,7 +2,7 @@
 id: eea2b078-1acc-4071-a14e-18299fc28f47
 title: Commands
 desc: ''
-updated: 1615240879684
+updated: 1616126278130
 created: 1595261816971
 ---
 ---
@@ -238,9 +238,15 @@ Go down the hierarchy
 
 - shortcuts: none
 
-Add a new vault
+Add a new vault to your workspace.
 
-When you add a vault, you can choose between adding a local vault or a remote vault. A local vault is a folder in your file system and a remote vault is a git repository. If you choose a remote vault, you can choose from a vault from the registry or enter a custom git url.
+When you add a vault, you can choose between adding a local vault or a remote vault. 
+
+#### Local Vault
+A local vault is a folder in your file system. 
+
+#### Remote Vault
+A remote vault is a git repository. If you choose a remote vault, you can choose from a vault from the registry or enter a custom git url.
 
 We currently have two vaults in the registry: `dendron.so` and `aws.dendron.so`. These correspond to the notes backing https://dendron.so/ and https://aws.dendron.so/ respectively. 
 

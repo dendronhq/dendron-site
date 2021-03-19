@@ -2,7 +2,7 @@
 id: 24b176f1-685d-44e1-a1b0-1704b1a92ca0
 title: Multi Vault
 desc: ''
-updated: 1615672471832
+updated: 1616126265042
 created: 1605630383515
 ---
 ## Summary
@@ -31,9 +31,11 @@ Multi vault lets you create multiple vaults for a given workspace. Each vault is
 
 ### Commands
 
-((ref:[[dendron.topic.commands]]#vault add:#*))
+#### Vault Add
+![[dendron.topic.commands#vault-add,1:#*]]
 
-((ref:[[dendron.topic.commands]]#vault remove:#*))
+#### Vault Remove
+![[dendron.topic.commands#vault-remove,1:#*]]
 
 ### Lookup
 
