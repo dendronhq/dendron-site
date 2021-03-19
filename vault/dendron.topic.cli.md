@@ -2,7 +2,7 @@
 id: 23a1b942-99af-45c8-8116-4f4bb7dccd21
 title: Dendron CLI
 desc: ''
-updated: 1615332755836
+updated: 1616118007138
 created: 1600033791071
 ---
 The Dendron CLI exposes Dendron's functionality via the command line. 
@@ -47,13 +47,13 @@ Options:
 - convert all `h1` tags to frontmatter `title` values for the `readings` hiearchy
 
 ```bash
-dendron-cli doctor --wsRoot . --action h1ToTitle --limit 10 --query "readings.*" 
+dendron doctor --wsRoot . --action h1ToTitle --limit 10 --query "readings.*" 
 ```
 
 - see log
 
 ```bash
-LOG_LEVEL=info LOG_DST=stdout dendron-cli doctor --wsRoot . --action h1ToTitle --limit 10 
+LOG_LEVEL=info LOG_DST=stdout dendron doctor --wsRoot . --action h1ToTitle --limit 10 
 ```
 
 ### launchEngineServer
@@ -63,7 +63,7 @@ Launch the [[dendron server|dendron.roadmap.project.n.2020.server-migration]]. U
 The CLI will also write out `.dendron.*` [[metadata files|dendron.ref.layout#file-tree]] in the workspace root just the same as the Dendron plugin. 
 
 ```
-dendron-cli launchEngineServer --wsRoot ~/Dendron/ --port 3005
+dendron launchEngineServer --wsRoot ~/Dendron/ --port 3005
 ```
 
 ## Publishing Commands
@@ -73,7 +73,7 @@ dendron-cli launchEngineServer --wsRoot ~/Dendron/ --port 3005
 Build dendron site. 
 
 ```
-dendron-cli buildSite
+dendron buildSite
 
 build notes for publication
 
@@ -91,7 +91,7 @@ Options:
 - eg
 
 ```
-dendron-cli buildSite --wsRoot . --vault ./vault 
+dendron buildSite --wsRoot . --vault ./vault 
 ```
 
 ### publishNotes (DEPRECATED)
@@ -99,7 +99,7 @@ dendron-cli buildSite --wsRoot . --vault ./vault
 Publish a dendron site
 
 ```
-dendron-cli publishNotes
+dendron publishNotes
 
 Build, commit, and push your notes for publication
 
@@ -119,13 +119,13 @@ Options:
 - eg:
 
 ```
-dendron-cli publishNotes  --wsRoot . --vault ./vault 
+dendron publishNotes  --wsRoot . --vault ./vault 
 ```
 
 ### buildSiteV2
 
 ```bash
-dendron-cli buildSiteV2
+dendron buildSiteV2
 
 build notes for publication using 11ty
 
@@ -152,7 +152,7 @@ In that case, the CLI can connect to the current engine instead of starting a ne
 ```bash
 cd {root/of/workspace}
 # .dendron.port has the port of the current running workspace
-npx dendron-cli buildSiteV2 --wsRoot . --stage dev --serve --enginePort `cat .dendron.port`
+npx dendron buildSiteV2 --wsRoot . --stage dev --serve --enginePort `cat .dendron.port`
 ```
 
 ## Pod Commands
@@ -166,7 +166,7 @@ npx dendron-cli buildSiteV2 --wsRoot . --stage dev --serve --enginePort `cat .de
 - eg: Export notes to JSONPod
 
 ```
-dendron-cli exportPod --podId dendron.json --wsRoot . 
+dendron exportPod --podId dendron.json --wsRoot . 
 ```
 
 ### Import Pod
@@ -174,7 +174,7 @@ dendron-cli exportPod --podId dendron.json --wsRoot .
 - eg: Import notes from FilePod
 
 ```
-dendron-cli importPod --podId dendron.markdown --vault "/Users/kevinlin/Dendron-es/vault" --podsDir /Users/kevinlin/Dendron-es/pods
+dendron importPod --podId dendron.markdown --wsRoot . 
 ```
 
 ### Publish Pod
@@ -182,6 +182,6 @@ dendron-cli importPod --podId dendron.markdown --vault "/Users/kevinlin/Dendron-
 - eg: Publish a note as regular markdown
 
 ```bash
-dendron-cli publishPod --wsRoot . --vault ./vault --podId dendron.markdown --noteByName dendron
+dendron publishPod --wsRoot . --podId dendron.markdown --noteByName dendron
 ```
 
