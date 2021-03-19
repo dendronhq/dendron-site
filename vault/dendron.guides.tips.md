@@ -395,6 +395,17 @@ VSCode doesn't support auto-formatting by default. You can use the following wor
 
 > Credit for this recipe goes to @Stigs#0135 
 
+### Academic Notes with Templates  
+
+With Dendron's [schema templates](https://wiki.dendron.so/notes/c5e5adde-5459-409b-b34d-a0d75cbb1052.html#schema-templates) you can make templates that are applied automatically whenever you create reading notes. You can even make different templates for different types of sources. For instance, you can have one template for articles and another for books.
+
+- Add an `article.schema.yml` schema file that applies an `article.template.notes.md` template file
+- Add a `book.schema.yml` schema file that applies a `book.template.notes.md` template file
+- Add other schema and template files with relevant patterns for conference presentations, TED talks, edited collections, etc.
+
+You can adopt or adapt these schema template files for [books and articles](https://github.com/ryan-p-randall/some-dendron-starter-files).
+
+Once you've made similar schema and template files, when you make a new file using the [lookup bar](https://wiki.dendron.so/notes/0e57f8d1-e501-49db-974c-01eb64c20c22.html), the template will be applied to your new note in the corresponding schema's domain. A new note with a name like `article.hall-stuart-encoding-decoding.notes` will apply the article template, and a new note with a name like `book.hooks-bell-feminism-is-for-everybody.notes` will apply the book template.
 
 ## Other Tools
 
