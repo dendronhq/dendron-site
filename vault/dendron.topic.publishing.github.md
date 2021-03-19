@@ -75,9 +75,11 @@ jobs:
         publish_branch: pages
         publish_dir: docs/
         force_orphan: true
-        cname: "dendron.so"
+        cname: "dendron.so" # UPDATE WITH DOMAIN NAME
 
 ```
+
+Make sure to update the `cname: "dendron.so"` value above with your own domain name.
 
 5. Commit these changes and then push your main branch
 
