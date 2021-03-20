@@ -2,10 +2,12 @@
 id: 678c77d9-ef2c-4537-97b5-64556d6337f1
 title: Dendron Tutorial
 desc: ''
-updated: 1614118652781
+updated: 1616278404483
 created: 1608051264282
 nav_order: 1.1
 ---
+- NOTE: if you'd rather follow a video tutorial, fellow dendrologist [Ian Jones](https://github.com/theianjones) made a fantastic video series which you can follow [here](https://egghead.io/courses/build-a-personal-knowledge-management-system-with-dendron-b24b)
+
 ## Pre-requisites
 
 This walkthrough will help you get started with Dendron. Before you start, make sure you have Dendron installed. If not, you can do so by following the instructions [[here|dendron.guides.install]].
