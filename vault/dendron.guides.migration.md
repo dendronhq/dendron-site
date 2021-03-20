@@ -13,9 +13,12 @@ This note covers migrating your notes from other tools
 
 <div style="position: relative; padding-bottom: 62.5%; height: 0;"><iframe src="https://www.loom.com/embed/b2cb9672c6814ae5b149eae8e3fbca0b" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-## One Note
+## OneNote
 
-1. [Convert one note files to markdown](https://itectec.com/superuser/how-to-export-all-onenote-pages-to-individual-markdown-files/)
+1. Converting OneNote notebooks to markdown is not trivial but there are some options:
+   - convert manually using [this guide](https://itectec.com/superuser/how-to-export-all-onenote-pages-to-individual-markdown-files/),
+   - export locally using [OneNote Md Exporter](https://github.com/alxnbl/onenote-md-exporter) console app, or
+   - export from Microsoft 365 using [OneNote Export](https://github.com/sspeiser/onenote-export) app.
 2. Use the [[markdown pod|dendron.topic.pod.builtin.markdown]] to import your notes into Dendron
 
 ## Google Keep
