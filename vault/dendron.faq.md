@@ -25,13 +25,13 @@ A Dendron is many things.
 
 Substitute X with `roam|obsidian|foam|one note|evernote|...`
 
-All note taking tools (try to make it) easy to get notes in. Its getting it back out again that's hard and it **becomes harder** as you get more notes.
+All note taking tools (try to) make it easy to get notes in. It's getting it back out again that's hard, and it **becomes harder** as you get more notes.
 
-Whether you are using notebooks tags, or backlinks, once you have more than a few hundred notes, you'll need to have some sort of structure in place (eg. naming convention, hierarchy, etc) to keep track of it. 
+Whether you are using notebooks tags, or backlinks, once you have more than a few hundred notes, you'll need to have some sort of structure in place (eg. naming convention, hierarchy, etc.) to keep track of them. 
 
-Dendron is a highly opinionated note taking tool that focuses on **hierarchal note taking**. It provides the freedom of Roam's _every note exists everywhere philosophy_ while layering on top **flexible hierarchies** to keep track of it all. 
+Dendron is a highly opinionated note taking tool that focuses on **hierarchal note taking**. It provides the freedom of Roam's _every note exists everywhere philosophy_, while layering on top **flexible hierarchies** to keep track of it all. 
 
-While Dendron works with knowledge bases of any size, it really shines once you've accumulated a few hundred notes. I created it to handle my personal knowledge base of 20k+ markdown notes - Dendron lets me track and find any specific note in it in seconds. You can read more about Dendron's hierarchal approach to note taking [here](https://www.kevinslin.com/notes/3dd58f62-fee5-4f93-b9f1-b0f0f59a9b64.html).
+While Dendron works with knowledge bases of any size, it really shines once you've accumulated a few hundred notes. I created it to handle my personal knowledge base of 20k+ markdown notes — Dendron lets me track and find any specific note in it in seconds. You can read more about Dendron's hierarchal approach to note taking [here](https://www.kevinslin.com/notes/3dd58f62-fee5-4f93-b9f1-b0f0f59a9b64.html).
 
 ### How is Dendron different from Roam?
 
@@ -41,7 +41,7 @@ We provide the tooling to create, enforce, and change these hierarchies at will.
 
 Some additional features that set Dendron apart:
 - Dendron allows you to compose your workspace with vaults (a vault is a collection of notes that can come from anywhere) from any number of sources
-- Dendron is based on plain text (Dendron flavored) markdown (exportable to regular markdown or any other format)
+- Dendron is based on plain text (Dendron-flavored) markdown (exportable to regular markdown or any other format)
 - Dendron is integrated into VSCode  
 - Dendron allows for easy publishing public/private content to any platform that can host a static site (and we're rolling out our own publishing platform to help people publish with additional access controls)
 
@@ -49,13 +49,13 @@ Some additional features that set Dendron apart:
 
 1. Dendron organizes and collapse all your  notes into managable chunks using [[hierarchies|dendron.topic.hierarchies]].
 2. Dendron helps you manage your hiearchies using [[schemas|dendron.topic.schema]]
-3. Dendron gets out of your way when your working with your notes during [[lookup|dendron.topic.lookup]]
+3. Dendron gets out of your way when you're working with your notes during [[lookup|dendron.topic.lookup]]
 
 Dendron's secret sauce is that it provides the necessary tooling for you to work with hierarichal notes. While hierarchies have traditionally (and justifiably) gotten a bad, I would argue that this is because the **tooling** around hierarchies were bad, not because hierarchies themselves are bad. 
 
 Hierarchies are one of the most effective ways that **both humans and computers** process large amount of information (there's a reason why almost every database is built from a variation of the [b-tree](https://en.wikipedia.org/wiki/B-tree)). You can find further details about hierarchies in this [blog post](https://www.kevinslin.com/notes/e1455752-b052-4212-ac6e-cc054659f2bb.html)
 
-### Is Dendron Free? Will it stay free?
+### Is Dendron free? Will it stay free?
 
 Dendron, the client, is free and will always remain free. It is also open source so anyone is free to make their own fork of Dendron.
 
