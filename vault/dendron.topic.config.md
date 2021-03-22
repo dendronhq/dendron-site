@@ -2,7 +2,7 @@
 id: eea2b078-1acc-4071-a14e-18299fc28f48
 title: Config
 desc: ''
-updated: 1615997013261
+updated: 1616447682419
 created: 1595261816971
 ---
 
@@ -32,6 +32,11 @@ With this set, you can pick the vault for new notes.
 
 Turn on to enable [[mermaid support|dendron.topic.markdown#diagrams]]
 
+### noLegacyNoteRef
+- default: true
+
+Disable dendron legacy note refs
+
 ### useContainers
 - default: false
 
@@ -40,6 +45,11 @@ Turn on to enable [remark-container support](https://github.com/Nevenall/remark-
 ### useFMTitle
 
 When set to true, use frontmatter as title when publishing and in the preview.
+
+### useKatex
+- default: true
+
+Turn on [Katex](https://katex.org/) support
 
 ### useNoteTitleForLink
 

@@ -2,7 +2,7 @@
 id: 2976e5df-c8b4-4176-9d3f-fe4220dfa9b6
 title: Deploy
 desc: ''
-updated: 1615944001551
+updated: 1616447098839
 created: 1613863275374
 ---
 
@@ -30,6 +30,7 @@ verdaccio
 ```sh
 yarn
 yarn bootstrap:build 
+# initialize scripts
 . bootstrap/scripts/helpers.sh
 ```
 
@@ -43,7 +44,7 @@ verdaccio
 gbD integ-publish
 gco -b integ-publish
 
-version=patch
+version=prepatch
 lerna version $version --no-git-tag-version 
 
 git add .
@@ -66,6 +67,7 @@ gco master
 git fetch
 gbD integ-publish
 git checkout --track origin/integ-publish
+./scripts/pack_and_install.sh
 
 # combine the above
 ./scripts/pack_and_install.sh
@@ -98,8 +100,8 @@ git reset --hard
 git clean -f
 git fetch
 gco master 
-sleep 60
 ./scripts/pack_and_install.sh
+sleep 60
 ```
 
 ## re-publish

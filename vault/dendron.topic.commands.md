@@ -2,7 +2,7 @@
 id: eea2b078-1acc-4071-a14e-18299fc28f47
 title: Commands
 desc: ''
-updated: 1616126278130
+updated: 1616446903893
 created: 1595261816971
 ---
 ---
@@ -21,6 +21,11 @@ Environmentalists are users that can support Dendron financially through a month
 ---
 
 ## Notes
+
+### Browse Note
+- shortcuts: None
+
+Open the github repository (if it exists) of the current note. If you have a [[multi vault|dendron.topic.multi-vault]] workspace with different git repositories, this command will 
 
 ### Create Daily Journal Note
 

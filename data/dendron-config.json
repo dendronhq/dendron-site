@@ -1,15 +1,12 @@
 {
-    "lookup": [
-        {
-            "key": "dendron.contributeToCause",
-            "title": "Dendron: Contribute",
-            "group": "lookup",
-            "desc": "Become an environmentalist and keep Dendron sustainable",
-            "docs": "This command takes you to Dendron's [Environmentalist](https://accounts.dendron.so/account/subscribe) plans.\nEnvironmentalists are users that can support Dendron financially through a monthly contribution. Environmentalist get access to insider builds, priority support, and access to exclusive dev channels.",
-            "skipDocs": false
-        }
-    ],
     "notes": [
+        {
+            "key": "dendron.browseNote",
+            "title": "Dendron: Browse Note",
+            "group": "notes",
+            "desc": "Browse note on github",
+            "skipDocs": false
+        },
         {
             "key": "dendron.gotoNote",
             "title": "Goto Note",
@@ -103,6 +100,16 @@
             "skipDocs": false
         }
     ],
+    "lookup": [
+        {
+            "key": "dendron.contributeToCause",
+            "title": "Dendron: Contribute",
+            "group": "lookup",
+            "desc": "Become an environmentalist and keep Dendron sustainable",
+            "docs": "This command takes you to Dendron's [Environmentalist](https://accounts.dendron.so/account/subscribe) plans.\nEnvironmentalists are users that can support Dendron financially through a monthly contribution. Environmentalist get access to insider builds, priority support, and access to exclusive dev channels.",
+            "skipDocs": false
+        }
+    ],
     "navigation": [
         {
             "key": "dendron.lookup",
@@ -113,7 +120,6 @@
                 "key": "ctrl+l"
             },
             "desc": "Initiate note lookup",
-            "docs": "((ref: [[dendron.topic.lookup]]#notes,1:#schemas))",
             "docLink": "dendron.topic.lookup.md",
             "docPreview": "",
             "skipDocs": false
@@ -131,7 +137,6 @@
                 }
             },
             "desc": "Initiate note lookup with journal note pre-selected",
-            "docs": "((ref: [[dendron.topic.lookup]]#notes,1:#schemas))",
             "docLink": "dendron.topic.lookup.md",
             "docPreview": "",
             "skipDocs": false
@@ -150,7 +155,6 @@
                 }
             },
             "desc": "Initiate note lookup with scratch note pre-selected",
-            "docs": "((ref: [[dendron.topic.lookup]]#notes,1:#schemas))",
             "docLink": "dendron.topic.lookup.md",
             "docPreview": "",
             "skipDocs": false
@@ -342,6 +346,13 @@
             "title": "Dendron: Sign In",
             "group": "workspace",
             "desc": "sign in to a Dendron account",
+            "skipDocs": false
+        },
+        {
+            "key": "dendron.pasteLink",
+            "title": "Dendron: Paste Link",
+            "group": "workspace",
+            "desc": "Fetch metadata for a web link and format as markdown",
             "skipDocs": false
         },
         {

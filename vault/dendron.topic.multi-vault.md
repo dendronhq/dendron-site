@@ -2,7 +2,7 @@
 id: 24b176f1-685d-44e1-a1b0-1704b1a92ca0
 title: Multi Vault
 desc: ''
-updated: 1616126265042
+updated: 1616447575764
 created: 1605630383515
 ---
 ## Summary
@@ -84,6 +84,7 @@ When you add a [[remote vault|dendron.concepts#remote-vault]], you can either ad
 - [AWS Vault](https://aws.dendron.so/)
 - [TLDR Vault](https://tldr.dendron.so/)
 - [Dendron Vault](https://wiki.dendron.so/)
+- [XKCD Vault](https://xkcd.dendron.so/)
 
 
 ### Version Control

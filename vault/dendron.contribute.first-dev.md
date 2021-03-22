@@ -2,7 +2,7 @@
 id: 70b4a93a-c7e0-4e1c-a873-3a9a291f5248
 title: First Time Developers
 desc: ''
-updated: 1605761135508
+updated: 1616426423400
 created: 1605760540330
 ---
 If you are interested in contributing to Dendron but haven't spent your career doing software, worry not. This is definitely something you can 🌱 into.

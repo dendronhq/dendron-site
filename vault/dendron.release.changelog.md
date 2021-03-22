@@ -2,10 +2,35 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1615843945402
+updated: 1616447708080
 created: 1601508213606
 date: '2022-01-01'
 ---
+
+### 0.33.1
+
+### Features
+
+#### Browse Current File
+
+![[dendron.topic.commands#browse-note,1:#*]]
+
+### Enhancements
+
+- wikilinks to missing vaults will display an error instead of throwing one
+- ability to disable legacy refs ([[docs|dendron.topic.config#nolegacynoteref]])
+- add xkcd to vault presets ([[docs|dendron.topic.multi-vault#preset-remote-vaults]])
+- 5x faster markdown pod import using plugin 🚀 🚀 🚀
+- toggle katex settings from config ([[docs|dendron.topic.config#usekatex]])
+
+### Bug Fixes
+
+- displaying children hierarchies fails on stub notes
+- empty query doesn't display all root nodes when multi-vault
+
+## 0.33.0
+
+***
 ## 0.32.2
 
 ### Features
