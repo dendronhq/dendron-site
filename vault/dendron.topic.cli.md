@@ -2,7 +2,7 @@
 id: 23a1b942-99af-45c8-8116-4f4bb7dccd21
 title: Dendron CLI
 desc: ''
-updated: 1616118007138
+updated: 1616541201858
 created: 1600033791071
 ---
 The Dendron CLI exposes Dendron's functionality via the command line. 
@@ -68,64 +68,10 @@ dendron launchEngineServer --wsRoot ~/Dendron/ --port 3005
 
 ## Publishing Commands
 
-### buildSite (DEPRECATED)
-
-Build dendron site. 
-
-```
-dendron buildSite
-
-build notes for publication
-
-Options:
-  --version      Show version number                                   [boolean]
-  --help         Show help                                             [boolean]
-  --wsRoot       location of workspace                                [required]
-  --vault        location of vault                                    [required]
-  --writeStubs   writeStubs                                      [default: true]
-  --incremental  use rsync to only copy files that changed
-                                                      [boolean] [default: false]
-  --dryRun       don't actually build                 [boolean] [default: false]
-```
-
-- eg
-
-```
-dendron buildSite --wsRoot . --vault ./vault 
-```
-
-### publishNotes (DEPRECATED)
-
-Publish a dendron site
-
-```
-dendron publishNotes
-
-Build, commit, and push your notes for publication
-
-Options:
-  --version         Show version number                                [boolean]
-  --help            Show help                                          [boolean]
-  --wsRoot          location of workspace                             [required]
-  --vault           location of vault                                 [required]
-  --writeStubs      writeStubs                                   [default: true]
-  --incremental     use rsync to only copy files that changed
-                                                      [boolean] [default: false]
-  --dryRun          don't actually build              [boolean] [default: false]
-  --noPush          don't push the result                              [boolean]
-  --publishRepoDir  repo to publish from. default is same as `wsRoot`
-```
-
-- eg:
-
-```
-dendron publishNotes  --wsRoot . --vault ./vault 
-```
-
-### buildSiteV2
+### buildSite
 
 ```bash
-dendron buildSiteV2
+dendron buildSite
 
 build notes for publication using 11ty
 
