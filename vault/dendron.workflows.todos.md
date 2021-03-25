@@ -2,7 +2,7 @@
 id: 593206ea-5658-4874-bafd-18a138870f91
 title: Todos
 desc: ''
-updated: 1604239992242
+updated: 1616692663207
 created: 1596566533712
 stub: false
 ---
@@ -73,6 +73,57 @@ This is a video of how Kevin manages todos in Dendron. It goes over the followin
 <img style="" src="https://cdn.loom.com/sessions/thumbnails/88cfdc3e900a4f4eadf7b14429e01d65-with-play.gif"> 
 </a>
 
+#### Example of a daily journal note
+
+- fname: `daily.journal.2021.03.5`
+```md
+---
+id: f06dcdd8-9880-46c5-8e02-ca4d515f59b9
+title: '2021-03-25'
+desc: ''
+updated: 1616682579084
+created: 1616647136455
+---
+
+## Tasks
+- [ ] respond to missed discussions
+- [ ] file tasks from yesterday
+- [ ] file discussions
+- [ ] github issues
+- [ ] github pull request
+- [ ] update weekly release
+- [ ] commit all notes for the day
+
+### New
+<!-- Any new tasks that come up during the day go here -->
+
+### Current
+<!-- Long running tasks I'm focused on -->
+
+### Today
+<!-- This is usually created the day before -->
+
+<!-- A lot of bullets are scratch notes that have additional context inside the note -->
+- [[bob issue|scratch.2021.03.24.073330.tristan-issue]]
+- [[weekly bug bash|scratch.2021.03.24.072120.bugs]]
+- [[weekly performance improvements|scratch.2021.03.24.074210.perf]]
+- Performance improvements
+- Better Onboarding UX
+- Custom Markdown Preview
+
+### Blocked
+<!-- Things that I run into blockers with-->
+
+### Pending 
+<!-- Features that are completed and pending deployment -->
+
+### Done for Today
+<!-- Features that are not completed but will take multiple days to complete -->
+
+### Done
+<!-- Stuff that I can leave here -->
+```
+
 ### Resources
 
 Below are some of the settings used in the above video
@@ -111,6 +162,7 @@ Below are some of the settings used in the above video
     }
   }
 ```
+
 
 ## Other Resources
 
