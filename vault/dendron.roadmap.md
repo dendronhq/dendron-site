@@ -1,44 +1,32 @@
 ---
 id: 6e4c4f61-80a3-46fa-9ad3-04b99d9e9695
-title: Project Public Roadmap
-desc: ''
-updated: 1614538364450
+title: Dendron Public Roadmap
+desc: ""
+updated: 1616876002669
 created: 1600840127160
 stub: false
 nav_order: 2.1
 nav_exclude: true
 ---
-The Dendron Public Roadmap is a list of all the things we're working on for the year. 
 
-You can see the corresponding issues on [github](https://github.com/orgs/dendronhq/projects/1) where you can leave comments and feedback. You can also comment in our [#feedback](https://discord.gg/mxvczE9) channel on discord. 
+Behold! The [Dendron Public Roadmap](https://github.com/orgs/dendronhq/projects/1).
 
-# Legend
+The public roadmap is designed to give you more information about what features and functionality you can expect from Dendron over the coming months. With more transparency into what we’re building, you can share feedback earlier and have more influence into what we’re building.
 
-- `[x]`: done
-- \#wip: work in progress
-- \#feedback: actively looking for feedback
+![](/assets/images/2021-03-27-13-13-02.png)
 
-## Epics
+## Feedback
 
-- September
-  - [x] [[principles and values|dendron.roadmap.project.n.2020.principles-and-values]]
-  - [ ] [[pods v0|dendron.roadmap.project.n.2020.pods]] 
-  - [x] [[seeds v0|dendron.roadmap.project.n.2020.seeds]] 
-- October
-  - [x] [[Server Migration|dendron.roadmap.project.n.2020.server-migration]] #wip
-  - [x] [[Quality of Life Improvements v0|dendron.roadmap.project.n.2020.qol]] #feedback #wip 
-- November
-  - [ ] [[Multi Vaults|dendron.roadmap.project.n.2020.multi-vault]] #wip
-  - [ ] [[Long Term Sustainability v0|dendron.roadmap.project.n.2020.long-term-sustainability]] 
-- December
-  - [ ] [[Git all the people|dendron.roadmap.project.n.2020.git]]
-  - [ ] [[Power Functionality v0|dendron.roadmap.project.n.2020.power-functionality]]
+If you have questions or comments, share them either as [Github issues](https://github.com/dendronhq/dendron/issues/new/choose) or in the #feedback channel [in Discord](https://discord.gg/xrKTUStHNZ).
 
-## Long Lived Initiatives
+In addition to the content of the roadmap being updated regularly, we will also iterate on the format of the roadmap itself. We see the potential of reactions, issue comments, and even GitHub Discussions being useful for receiving direct signals back from the community about what we’ve planned. If you have feedback about the roadmap repository itself, such as how the issues are presented, let us know on Discord.
 
-These projects don't have an end date. They are something we'll continuously work towards.
+## How can you help?
 
-- [[Better Docs|dendron.roadmap.project.n.2020.better-docs]]
-- [[Community Building|dendron.roadmap.project.n.2020.community-building]]
-- [[Recruiting Gardeners|dendron.roadmap.project.n.2020.recruit-gardeners]]
+We're really lucky to have a strong community committed to building open-source knowledge management tools. There are a few ways to get involved:
 
+1. **Bug Bash:** While we're working on performance and stability improvements this month, please [file actionable bugs](https://github.com/dendronhq/dendron/issues/new?assignees=&labels=&template=bug_report.md&title=) with good details. It'll help us prioritize them and fix them!
+2. **Document:** We're on a journey to improve documentation in all forms. Whether contributing to [PKM](https://pkm.dendron.so/), or keeping the extensive documentation
+3. **Develop:** A super impactful way to get involved is by working on and delivering one of the community-picked features. We have [a separate section](https://github.com/orgs/dendronhq/projects/1#column-13569288) in the roadmap just for issues that have been highly requested by the community (and feasible to tackle in isolation).
+
+Make sure to check out the [roles](https://wiki.dendron.so/notes/7c00d606-7b75-4d28-b563-d75f33f8e0d7.html) to get more ideas for ways to help.
