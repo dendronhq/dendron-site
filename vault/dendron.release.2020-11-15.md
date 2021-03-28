@@ -2,7 +2,7 @@
 id: 11c9f170-3864-4406-9631-053241553b35
 title: Release Notes(version 0.16)
 desc: ''
-updated: 1610062031478
+updated: 1616950016820
 created: 1605459905174
 ---
 Dendron 0.16 has sprouted 🌱
@@ -49,8 +49,3 @@ Last and most of all, a big **thanks** to the following gardeners that brought u
   - [fix typos in docs](https://github.com/dendronhq/dendron-site/pull/37)
 - [Bassmann](https://github.com/Bassmann), [Konrad Jamrozik](https://github.com/konrad-jamrozik)
   - [can't create scratch notes issue](https://github.com/dendronhq/dendron/issues/346)
-
-### Changelog
-
-((ref:[[dendron.release.changelog]]#0.15.3:#0.14.2))
-

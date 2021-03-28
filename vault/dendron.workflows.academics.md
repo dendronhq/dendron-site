@@ -10,11 +10,11 @@ stub: false
 
 You can use a combination of external links and footnotes to keep track of papers you are reading. 
 
-((ref:[[dendron.topic.markdown]]#footnotes,1:#*))
+![[dendron.topic.markdown#footnotes,1:#*]]
 
 If you move links inside Dendron's `vault/assets` folder, you'll be able to keep your papers in sync across devices. 
 
-((ref:[[dendron.topic.links]]#other links,1))
+![[dendron.topic.links#other-links,1]]
 
 ## Citations
 

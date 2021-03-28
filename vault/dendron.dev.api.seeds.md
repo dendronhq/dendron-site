@@ -2,11 +2,12 @@
 id: 08a917a9-31f1-434d-bc7f-71dce2b63a27
 title: Seeds
 desc: ''
-updated: 1600376826105
+updated: 1616949372174
 created: 1600376826105
 stub: false
+published: false
 ---
-((ref:[[dendron.topic.seeds]]#seeds 🚧,1:#*))
+![[dendron.topic.seeds#seeds-,1:#*]]
 
 # DendronSeed
 

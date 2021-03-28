@@ -54,7 +54,7 @@ selection is turned into a link to newly created note. note path is set to `{cur
 
 - you can control this behavior using `dendron.linkSelectAutoTitleBehavior`
 
-((ref:[[dendron.topic.config]]#dendron.linkselectautotitlebehavior,1:#*))
+![[dendron.topic.config#dendronlinkselectautotitlebehavior,1:#*]]
 
 ## noteType
 

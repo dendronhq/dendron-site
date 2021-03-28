@@ -2,9 +2,11 @@
 id: 23a1b942-99af-45c8-8116-4f4bb7dccd21
 title: Dendron CLI
 desc: ''
-updated: 1616541201858
+updated: 1616949816145
 created: 1600033791071
 ---
+
+## Summary
 The Dendron CLI exposes Dendron's functionality via the command line. 
 
 ## Installation

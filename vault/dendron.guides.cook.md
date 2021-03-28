@@ -169,7 +169,7 @@ You can see instructions for customizing css [here](https://shd101wyy.github.io/
 
 - 1. start by initializing a workspace
 
-((ref:[[dendron.topic.commands]]#initialize workspace:#*))
+![[dendron.topic.commands#initialize-workspace:#*]]
 
 - 2. by default, dendron uses a `vaults` folder underneath your workspace to store you vaults. Update your [[settings|dendron.guides.settings]] and change `vault` to the path of your current notes (alternatively, you can also copy your current notes into `vault`)
 
@@ -213,8 +213,9 @@ See instructions [here](https://stackoverflow.com/questions/51543871/sorting-fil
 To drag files into Dendron, open the workspace pane on the side to drag and drop. We currently recommend you only do this for non-markdown files that you want to link to inside your vaults.
 
 ### Find Installed Extensions
+
 1. Navigate to the extensions pane
-1. Search for `@installed`
+2. Search for `@installed`
 
 ## Navigation
 
@@ -223,10 +224,10 @@ To drag files into Dendron, open the workspace pane on the side to drag and drop
 When viewing your notes locally, you can view the toc either from the outline view or by toggling the preview
 
 - from the outline
-  ((ref:[[dendron.topic.workbench]]#outline view,1:#*))
+  ![[dendron.topic.workbench#outline-view,1:#*]]
 
 - from the preview
-  ((ref:[[dendron.topic.preview]]#table of contents,1))
+  ![[dendron.topic.preview#table-of-contents,1]]
 
 ## Publishing
 
@@ -250,7 +251,7 @@ dendron-cli buildSite --wsRoot {path/to/ws} --vault {path/to/vault} --incrementa
 The following instructions cover how to update your local preview everytime you make a change to your notes
 
 - install `dendron-cli`
-  ((ref:[[dendron.topic.cli]]#installation,1:#*))
+  ![[dendron.topic.cli#installation,1:#*]]
 
 - have jekyll watch your site-root
 

@@ -258,11 +258,11 @@ Common errors:
 - the YAML isn't valid (use <http://www.yamllint.com/> to validate)
 - there is no schema with `parent: root` property 
 
-((ref:[[dendron.topic.schema]]#parent:#*))
-
+![[dendron.topic.schema#parent:#*]]
 
 ## Cookbook
 
 ### Testing schemas
 
 If you want to test what your schemas will match, you can use a glob tester like [Glob teste ](https://globster.xyz/) to do so
+

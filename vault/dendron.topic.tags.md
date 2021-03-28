@@ -29,5 +29,5 @@ You can format your tags to look like regular tags wiki-link aliases
 
 You can further customize the look of tags in the preview by using the following CSS modification.
 
-((ref:[[dendron.guides.tips]]#stylized tags using custom css:#*))
+![[dendron.guides.tips#stylized-tags-using-custom-css:#*]]
 

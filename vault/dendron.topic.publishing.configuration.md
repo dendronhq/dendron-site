@@ -2,7 +2,7 @@
 id: f2ed8639-a604-4a9d-b76c-41e205fb8713
 title: Configuration
 desc: ''
-updated: 1615831757415
+updated: 1616949867492
 created: 1608528797892
 nav_order: 3
 ---
@@ -147,14 +147,14 @@ Location of the github repo where your site notes are located. By default, this 
 Set to the URL that you plan on publishing to. All links will be prefixed with this. 
 If you are publishing with github pages, the format is `https://{username}.github.io/{repo}/`
 
-### usePrettyRefs (optional)
-
+### usePrettyRefs 
+- status: optional
 - default: True
 
 Whether to use pretty note refs or plain refs. 
 
-### writeStubs (optional)
-
+### writeStubs 
+- status: optional
 - default: true
 
 Whether to write [[stubs|dendron.concepts#stubs]] when publishing. 

@@ -2,7 +2,7 @@
 id: 3489b652-cd0e-4ac8-a734-08094dc043eb
 title: Development
 desc: ''
-updated: 1604511673556
+updated: 1616949636449
 created: 1598645869692
 stub: false
 nav_order: 9.6
@@ -11,5 +11,5 @@ If you would like to contribute to the development of dendron, you can do so by 
 
 You can then follow the setup instructions below to prepare your first commit!
 
-((ref:[[dendron.dev.setup]]#getting started))
+![[dendron.dev.setup]]
 

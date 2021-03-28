@@ -27,5 +27,5 @@ Since Dendron runs on top of VSCode, it means that you also have access to thous
 - [Dendron Paste Image](https://marketplace.visualstudio.com/items?itemName=dendron.dendron-paste-image)
   - easily add images from your clipboard to your markdown files
 
-((ref:[[dendron.guides.tips]]#other VSCode extensions:#other Browser Extensions))
+![[dendron.guides.tips#other-vscode-extensions:#other-browser-extensions]]
 

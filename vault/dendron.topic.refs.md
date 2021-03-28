@@ -2,10 +2,12 @@
 id: f1af56bb-db27-47ae-8406-61a98de6c78c
 title: References
 desc: ''
-updated: 1615430357861
+updated: 1616949447402
 created: 1597356582509
 stub: false
 ---
+
+## Summary
 Dendron allows you to reference content from other notes and embed them in your current note.
 
 Currently, Dendron supports 3 types of references:

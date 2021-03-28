@@ -2,7 +2,7 @@
 id: 63ea2e72-4eba-406c-9f4c-7300fa0b8935
 title: Release Notes(version 0.15)
 desc: ''
-updated: 1609990585327
+updated: 1616950012440
 created: 1604882865662
 ---
 Dendron 0.15 is here 🌱
@@ -21,7 +21,7 @@ I'm thrilled to announce our latest **Dendrologist**! Meet Luke (@lukecarrier#20
 
 > Hey 👋 I’m Luke and I’m going to be picking up some development work. Ask me about the markdown editing experience, publishing and integrating external tools.
 
-((ref:[[dendron.community.roles]]#dendrologist,1:#*))
+![[dendron.community.roles#dendrologist,1:#*]]
 
 ### In the Works
 
@@ -42,8 +42,3 @@ I'm thrilled to announce our latest **Dendrologist**! Meet Luke (@lukecarrier#20
   - [fix typos](https://github.com/dendronhq/dendron/pull/323)
 - [tfer](https://github.com/tfer)
   - [update docs on stub](https://github.com/dendronhq/dendron-template/pull/33/files)
-
-## Changelog
-
-((ref:[[dendron.release.changelog]]#changelog,1:#13.6))
-

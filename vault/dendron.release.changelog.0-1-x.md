@@ -21,7 +21,7 @@ created: 1610397097347
 
 #### Dendron Seed Bank
 
-((ref:[[dendron.topic.seed-bank]]))
+![[dendron.topic.seed-bank]]
 
 #### Support refactor for multi-vault
 
@@ -47,7 +47,7 @@ One of our most requested features for multi-vault is now out. Refactor will now
 
 #### Support Specifying Vault Location when Creating a Note
 
-((ref:[[dendron.topic.multi-vault]]#specify vault location when creating a note,1:#*))
+![[dendron.topic.multi-vault#specify-vault-location-when-creating-a-note,1:#*]]
 
 ### Enhancements
 
@@ -140,7 +140,7 @@ Note that the Web UI is still deemed experimental and functionality like keyboar
 
 Special thanks to [Tyler Nieman](https://github.com/tsnieman) for the UI work!
 
-((ref:[[dendron.topic.commands]]#configure,1:#*))
+![[dendron.topic.commands#configure,1:#*]]
 
 ### Enhancements
 
@@ -223,7 +223,7 @@ Note that the header is expected in [github slug](https://github.com/gosimple/sl
 
 Similarly to copying a note ref, if you select any part of a header while running `Copy Note Link`, a relative wiki-link will be automatically generated.
 
-((ref:[[dendron.topic.commands]]# copy note link:# *))
+![[dendron.topic.commands#copy-note-link:#*]]
 
 #### All link features are now multi-vault aware
 
@@ -295,7 +295,7 @@ Each vault is logically separate (they reside in separate directories) but can b
 
 Multi vault enables a bunch of exciting use cases.
 
-((ref:[[dendron.roadmap.project.n.2020.multi-vault]]#use cases,1:#*))
+![[dendron.roadmap.project.n.2020.multi-vault#use-cases,1:#*]]
 
 Currently, the following commands are supported with multi-vault:
 
@@ -345,7 +345,7 @@ Remove a vault from your workspace. Note that the underlying files wil **not** b
 
 - **refs:** wildcard note ref links ([98a1177](https://github.com/dendronhq/dendron/commit/98a117715a967492ab9d7b8749d964b07bde4055))
 
-((ref:[[dendron.topic.refs]]#wildcard note refs,1))
+![[dendron.topic.refs#wildcard-note-refs,1]]
 
 #### Dendron: Configure Command
 
@@ -372,7 +372,7 @@ This is a quick way to update the `dendron.yml` file. You can run it by using `D
   - auto-convert wiki-links from folder-based systems like obsidian into dendron
 - **cli:** launch engine server using cli ([25eae3f](https://github.com/dendronhq/dendron/commit/25eae3fddd6a2d26dcf9e2f3e664b377c2cca978))
 
-((ref:[[dendron.topic.cli]]#launchengineserver:#*))
+![[dendron.topic.cli#launchengineserver:#*]]
 
 - **workspace:** write server port in workspace ([6a0ff84](https://github.com/dendronhq/dendron/commit/6a0ff845ebbf010073b271123779fc3f56ac2821))
   - used by bundled extensions to talk to dendron server
@@ -392,13 +392,13 @@ This is a quick way to update the `dendron.yml` file. You can run it by using `D
 
 - **lookup:** copy note link cmd ([e38743d](https://github.com/dendronhq/dendron/commit/e38743ddbac8486f2ac778bd546a6373a15a4f6d))
 
-((ref:[[dendron.topic.lookup.modifiers]]#copywikilink,1:#*))
+![[dendron.topic.lookup.modifiers#copywikilink,1:#*]]
 
 #### Lookup Multi-Select Modifier
 
 - **lookup:** support multi-select ([b409c05](https://github.com/dendronhq/dendron/commit/b409c05d3b19797de714dbf10b6a4249758eae8a))
 
-((ref:[[dendron.topic.lookup.modifiers]]#multiselect,1:#*))
+![[dendron.topic.lookup.modifiers#multiselect,1:#*]]
 
 ### House Cleaning
 
@@ -454,13 +454,13 @@ SUM:                           381           7349           1930         104777
 
 - **workbench:** ([130a58a](https://github.com/dendronhq/dendron/commit/130a58a62cc40eb4178afac554f8f4ff30c93055))
 
-((ref:[[dendron.topic.commands]]#contribute:#*))
+![[dendron.topic.commands#contribute:#*]]
 
 #### Add Snapshot Capability to Dendron
 
 - **workbench:**  ([3af64b7](https://github.com/dendronhq/dendron/commit/3af64b701d47ed28818d7e6017c758f63be617f0))
 
-((ref:[[dendron.topic.capabilities.snapshot]]#Snapshots:#*))
+![[dendron.topic.capabilities.snapshot#snapshots:#*]]
 
 ## [0.13.5](https://github.com/dendronhq/dendron/compare/v0.13.4...v0.13.5) (2020-10-28)
 
@@ -521,19 +521,19 @@ As a reminder, dendrologist are active members of the community who are recogniz
 
 - **lookup:** support direct child filter ([1cae082](https://github.com/dendronhq/dendron/commit/1cae08294baa844c0c0ee3c8d390e337bd6172be))
 
-((ref:[[dendron.topic.lookup]]#filter toggle,1:#*))
+![[dendron.topic.lookup#filter-toggle,1:#*]]
 
 - you can create a keyboard shortcut to do a lookup with the direct child filter pre-selected
-  ((ref:[[dendron.topic.lookup.modifiers]]#filtertype:#*))
+  ![[dendron.topic.lookup.modifiers#filtertype:#*]]
 
 ### Enhancements
 
 - **publish:** be able to set config for all hierarchies ([a27d94a](https://github.com/dendronhq/dendron/commit/a27d94a3c469a4efaf2ee8c2bca40a8a471773f2))
-  ((ref:[[dendron.topic.publishing.configuration]]#config:#*))
+  ![[dendron.topic.publishing.configuration#config:#*]]
 
 - **schema:** add custom props from schema template ([5264544](https://github.com/dendronhq/dendron/commit/52645449b8e155e168baaac0fa4e99903efafcf0))
 
-((ref:[[dendron.topic.schema]]#schema templates,1:#*))
+![[dendron.topic.schema#schema-templates,1:#*]]
 
 - **workbench:** reload index re-create root if not exist ([c66e242](https://github.com/dendronhq/dendron/commit/c66e242bac91c73404a5dd21ed3813c0dc2f022b))
   - dendron requires `root.md` and `root.schema.yml` to start indexing and would previously throw an error if these files were deleted
@@ -562,7 +562,7 @@ Previously, if you wanted to use an existing folder (aka vault) with a workspace
 
 In addition to **import** and **export**, you can now also **publish** notes with pods.
 
-((ref:[[dendron.topic.pod]]#publish,1:#*))
+![[dendron.topic.pod#publish,1:#*]]
 
 #### Realtime Schema Validation
 
@@ -589,7 +589,7 @@ You will now get a warning if you are trying to save a badly formatted schema.
 
 Documentation for pods has been re-written to reflect recent changes with pods
 
-((ref:[[dendron.topic.pod]]#pods:#*))
+![[dendron.topic.pod#pods:#*]]
 
 ## [0.13.1](https://github.com/dendronhq/dendron/compare/v0.13.1-alpha.2...v0.13.1) (2020-10-21)
 
@@ -599,7 +599,7 @@ Documentation for pods has been re-written to reflect recent changes with pods
 
 - **publishing:** generate toc when publishing ([53ee270](https://github.com/dendronhq/dendron/commit/53ee270c89f530b9224f33a28dc811de7e5cb2ad))
 
-((ref:[[dendron.topic.publishing.configuration]]#toc:#*))
+![[dendron.topic.publishing.configuration#toc:#*]]
 
 - **publishing:** set frontmatter overrides globally when publishing ([782d637](https://github.com/dendronhq/dendron/commit/782d6374c55b00bcda36da9149fb2cedeac0c3d9))
 
@@ -623,7 +623,7 @@ Documentation for pods has been re-written to reflect recent changes with pods
 
 #### Recursive Note References
 
-((ref:[[dendron.topic.refs]]#recursive reference,1))
+![[dendron.topic.refs#recursive-reference,1]]
 
 ### Bug Fixes
 
@@ -680,7 +680,7 @@ Timestamps now have human friendly decorators on the side.
 
 ### Documentation
 
-((ref:[[dendron.guides.troubleshooting]]#error upgrading:#*))
+![[dendron.guides.troubleshooting#error-upgrading:#*]]
 
 ## [0.12.8](https://github.com/dendronhq/dendron/compare/v0.12.8-alpha.2...v0.12.8) (2020-10-14)
 
@@ -710,11 +710,11 @@ Today's update makes **updated** update!
 
 ### Other
 
-((ref:[[dendron.topic.extensions]]#useful extensions))
+![[dendron.topic.extensions#useful-extensions]]
 
-((ref:[[dendron.guides.tips]]#copy and paste web content into dendron:#*))
+![[dendron.guides.tips#copy-and-paste-web-content-into-dendron:#*]]
 
-((ref:[[dendron.guides.cook]]#mobile support:#*))
+![[dendron.guides.cook#mobile-support:#*]]
 
 ## [0.12.7](https://github.com/dendronhq/dendron/compare/v0.12.7-alpha.10...v0.12.7) (2020-10-13)
 
@@ -777,7 +777,7 @@ You can switch back to regular indexing at anytime by changing the above setting
 
 These past two weeks have been spent on server migration work. We are almost at the end and I'm aiming to have full coverage of all existing functionality by early next week.
 
-((ref:[[dendron.roadmap.project.n.2020.server-migration]]#tasks,1:#*))
+![[dendron.roadmap.project.n.2020.server-migration#tasks,1:#*]]
 
 ### Other
 
@@ -792,15 +792,15 @@ These past two weeks have been spent on server migration work. We are almost at 
 
 Dendron now initializes your workspace with common default snippets
 
-((ref:[[dendron.topic.snippets]]#default snippets,1:#*))
+![[dendron.topic.snippets#default-snippets,1:#*]]
 
 #### Latex Support on Published Site
 
-((ref:[[dendron.pro.dendron-jekyll.topic.math]]#math,1:#*))
+![[dendron.pro.dendron-jekyll.topic.math#math,1:#*]]
 
 #### Introduce siteRepoDir Customization
 
-((ref:[[dendron.topic.publishing.configuration]]#siterepodir,1:#*))
+![[dendron.topic.publishing.configuration#siterepodir,1:#*]]
 
 ### Bug Fixes
 
@@ -817,7 +817,7 @@ This section tracks our progress against the milestones in our [[public roadmap|
   - below is a summary of our progress. we are currently about half way done
   - aiming to have a workable version using the Dendron server by next week
   ```
-  ((ref:[[dendron.roadmap.project.n.2020.server-migration]]#tasks,1:#*))
+  ![[dendron.roadmap.project.n.2020.server-migration#tasks-1,1:#*]]
 
 ### Other
 
@@ -858,28 +858,28 @@ this announcement also comes with an ask. Dendron is now in [AlternativesTo](htt
 
 - **lookup:** support lookups opening with a new split ([da825a9](https://github.com/dendronhq/dendron/commit/da825a9d2b1ec10a3f9d3eac20db06448fe5344b))
 
-((ref:[[dendron.topic.lookup]]#split toggle))
+![[dendron.topic.lookup#split-toggle]]
 
 - **refs:** easier note ref selection([114ff87](https://github.com/dendronhq/dendron/commit/114ff87be04f8d746b0be28f7627ba0d1ec9b504))
 
 Dendron will now recognize a header selection if you have any part of the header highlighted (vs needing to highlight the entire line)
 
-((ref:[[dendron.topic.commands]]#copy note ref:#*))
+![[dendron.topic.commands#copy-note-ref:#*]]
 
 ### Documentation
 
 - we published our public roadmap
 
-((ref:[[dendron.roadmap]]))
+![[dendron.roadmap]]
 
 - changelog moved to dedicated [page](https://dendron.so/notes/9bc92432-a24c-492b-b831-4d5378c1692b.html)
 - lookup menu docs
-  ((ref:[[dendron.topic.lookup]]#lookup menu:#*))
+  ![[dendron.topic.lookup#lookup-menu:#*]]
 
 ### Community Highlights
 
 - a new planter has appeared 🌲
-  ((ref:[[dendron.community.showcase]]#luke's second brain))
+  ![[dendron.community.showcase#lukes-second-brain]]
 
 ## [0.12.3](https://github.com/dendronhq/dendron/compare/v0.12.3-alpha.16...v0.12.3) (2020-09-26)
 

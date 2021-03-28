@@ -2,7 +2,7 @@
 id: e543ad13-1108-448c-b3a6-9976fd7a65ce
 title: Release Notes(version 0.21)
 desc: ''
-updated: 1609990585326
+updated: 1616950042304
 created: 1608580995965
 ---
 Dendron 0.21 is here 🌱
@@ -44,8 +44,3 @@ Last and most of all, a big **thanks** to the following gardeners that brought u
   - [Note creation from selected text mangles non-vault files](https://github.com/dendronhq/dendron/issues/410)
 - [Mike](https://github.com/ms3056)
   - [Matching requires unique files for lower nodes](https://github.com/dendronhq/dendron/issues/407)
-
-### Changelog
-
-((ref:[[dendron.release.changelog]]#0.20.2:#0.19.3))
-

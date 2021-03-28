@@ -2,7 +2,7 @@
 id: 45cfb9f2-46cf-4f67-a41e-834818fbd06e
 title: Multi Vault Support
 desc: ''
-updated: 1611593573560
+updated: 1616950170052
 created: 1599501659137
 stub: false
 start: 2020.10.07
@@ -43,11 +43,11 @@ To facilitate separation and re-usability of vaults, we are changing how the ini
 
 Today, all files (configuration, vaults, docs) are located directly inside the **workspace root**.
 
-((ref:[[dendron.roadmap.project.n.2020.multi-vault]]#file layout for legacy workspace,1:#*))
+![[dendron.roadmap.project.n.2020.multi-vault#file-layout-for-legacy-workspace,1:#*]]
 
 With multivault, workspace configuration  will be moved underneath a separate folder underneath the **configuration root**. By default, this will inside a folder named **config**.
 
-((ref:[[dendron.roadmap.project.n.2020.multi-vault]]#file layout for multi-vault workspace,1:#*))
+![[dendron.roadmap.project.n.2020.multi-vault#file-layout-for-multi-vault-workspace,1:#*]]
 
 Inside a multi-vault workspace, each vault and config will be initialized as separate and independent git repositories. To initialize a multi-vault workspace, you can run `Dendorn: Initialize MultiVault Workspace` to bootstrap the folder layout that you see above. 
 
@@ -84,8 +84,7 @@ Cloning is the act of checking out a workspace on another machine. To clone, Den
   - empty vaults will contain a `root.md` and `root.schema.yml` file
 
 ### Lookup
-
-((ref:[[dendron.roadmap.project.n.2020.multi-vault]]#file layout for multi-vault workspace,1:#*))
+![[dendron.roadmap.project.n.2020.multi-vault#file-layout-for-multi-vault-workspace,1:#*]]
 
 - lookup: {empty query}
   - show all top level results of all vaults. note how the vault name shows up in parenthesis next to the result
@@ -119,8 +118,7 @@ Cloning is the act of checking out a workspace on another machine. To clone, Den
     ```
 
 ### Navigating Links
-
-((ref:[[dendron.roadmap.project.n.2020.multi-vault]]#file layout for multi-vault workspace,1:#*))
+![[dendron.roadmap.project.n.2020.multi-vault#file-layout-for-multi-vault-workspace,1:#*]]
 
 - navigating  to `[[foo]]` will result in a display prompting the user to select the vault to navigate to 
   - the UI should be similar to the **Peek Action**
@@ -136,7 +134,7 @@ Cloning is the act of checking out a workspace on another machine. To clone, Den
 
 ### Publishing Notes
 
-((ref:[[dendron.roadmap.project.n.2020.multi-vault]]#file layout for multi-vault workspace,1:#*))
+![[dendron.roadmap.project.n.2020.multi-vault#file-layout-for-multi-vault-workspace,1:#*]]
 
 - configuration to publish everything under foo
   - config

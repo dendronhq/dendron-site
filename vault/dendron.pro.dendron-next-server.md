@@ -23,7 +23,7 @@ created: 1604511741960
 If your working with the Dendron Engine (eg. fetching notes, config or schemas), you'll need to start an instance of the engine.
 
 First, install the Dendron CLI
-((ref:[[dendron.topic.cli]]#installation,1:#*))
+![[dendron.topic.cli#installation,1:#*]]
 
 Next, use the `launchEngineServer` command to start the server to an existing workspace
 

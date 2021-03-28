@@ -64,4 +64,5 @@ this is reserved for internal use
 
 # Other keys
 
-((ref:[[dendron.topic.publishing.configuration]]#Note Configuration))
+![[dendron.topic.publishing.configuration#note-configuration]]
+

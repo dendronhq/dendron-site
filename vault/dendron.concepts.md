@@ -2,11 +2,10 @@
 id: c6fd6bc4-7f75-4cbb-8f34-f7b99bfe2d50
 title: Concepts
 desc: ''
-updated: 1614057298609
+updated: 1616949356394
 created: 1595169512265
 nav_order: 3
 ---
-
 Below are some concepts that are helpful to know when using Dendron. Note that features with 🚧 are still under active development and might not be fully implemented.
 
 ### Markdown
@@ -17,13 +16,15 @@ Dendron supports markdown, a popular markup syntax that is like HTML but 1000x s
 
 Frontmatter is a convenient way of adding extra information to your documents like a shorthand title or longer description (think any extra information you can use to describe a note). This type of information is generally called metadata and the structure used is called [YAML](https://yaml.org/). You can add it to the front of your markdown file and it won't show up in the preview. It was first introduced by [jekyll](https://jekyllrb.com/docs/front-matter/). 
 
-You can read more about the frontmatter used in Dendron [[here |dendron.topic.frontmatter]]
+You can read more about the frontmatter used in Dendron [[here|dendron.topic.frontmatter]]
 
 ### Workspace
+
 In Dendron, your **workspace** is the root of where all your files are located. It's set when you first run `Dendron: Initialize Workspace`. The folder that contains your workspace is also known as your **workspace root**.
 
-### Vaults 
-Your workspace is made up of **vaults**. A dendron vault stores a collection of related notes. If you're familiar with git, it's just like a code repo. By default, Dendron creates a *vaults* folder when you first initialize a **workspace**. All your notes are stored on a per vault basis.
+### Vaults
+
+Your workspace is made up of **vaults**. A dendron vault stores a collection of related notes. If you're familiar with git, it's just like a code repo. By default, Dendron creates a _vaults_ folder when you first initialize a **workspace**. All your notes are stored on a per vault basis.
 
 ```
 .
@@ -40,6 +41,7 @@ Your workspace is made up of **vaults**. A dendron vault stores a collection of 
 By default, when you look for notes in Dendron, it will search over all vaults.
 
 A vault can be one of two types: 
+
 - local 
 - remote
 
@@ -58,14 +60,13 @@ Workspace configuration is located directly underneath the **workspace root**.  
 
 ### Hierarchies
 
-((ref:[[dendron.topic.hierarchies]]#Hierarchies,1:#Concepts))
+![[dendron.topic.hierarchies#Summary,1:#concepts]]
 
 You can read more about hierarchies [[here|dendron.topic.hierarchies]]
 
 ### Domain
 
 A domain is the root of a hierarchy. In the example below, `project1` would be the domain.
-
 
 ```
 .
@@ -79,7 +80,7 @@ A domain is the root of a hierarchy. In the example below, `project1` would be t
 └── project1.tasks.task2.md
 ```
 
-### Schema  
+### Schema
 
 As you end up creating more notes, it can be hard to keep track of it all. This is why Dendron has **schemas** to help you manage your notes. Think of schemas as an **optional type system** for your information. They describe the hierarchy of your notes and are themselves, represented as a hierarchy. 
 
@@ -105,16 +106,17 @@ Below is an example of a three-level hierarchy describing cli commands. You don'
 
 Stubs are notes that don't exist but that you might want to create. They will show up as suggestions in lookup results.
 There are two reasons why these suggested notes might show up: 
+
 - they are the uncreated parent of a note deeper in the hierarchy (eg. `foo.bar` might be a stub for `foo.bar.foobar`)
 - they are possible notes according to the schema
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/schema-plus.jpg)
+
 > The `+` sign next to the suggestion indicates that the note is a stub and does not exist 
 
-### Pods 
+### Pods
 
-[[Pods |dendron.topic.pod]] are the mechanisms Dendron uses to import and export notes. Dendron has a different pod depending on where you are getting and publishing your data to. 
-
+[[Pods|dendron.topic.pod]] are the mechanisms Dendron uses to import and export notes. Dendron has a different pod depending on where you are getting and publishing your data to. 
 
 ### Command Bar
 
@@ -123,7 +125,6 @@ The command bar is native to `vscode`. You can use it to run dendron commands, w
 - <img src="https://www.kernel.org/theme/images/logos/favicon.png" width=16 height=16/> <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf">Linux</a> `Ctrl+Shift+P`
 - <img src="https://developer.apple.com/favicon.ico" width=16 height=16/> <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf">macOS</a> `Cmd+Shift+P`
 - <img src="https://www.microsoft.com/favicon.ico" width=16 height=16/> <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf">Windows</a> `Ctrl+Shift+P`
-
 
 ### Lookup Bar
 
@@ -134,3 +135,4 @@ The lookup bar is how you interact with notes inside of Dendron. Use it to creat
 - <img src="https://www.microsoft.com/favicon.ico" width=16 height=16/> <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf">Windows</a> `Ctrl+L`
 
 ![](assets/2020-07-07-20-14-57.png)
+

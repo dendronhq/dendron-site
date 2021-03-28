@@ -2,7 +2,7 @@
 id: a929ff5a-b6c0-417b-a3af-d70af3626aa5
 title: Release Notes (version 0.18)
 desc: ''
-updated: 1609261174120
+updated: 1616950030049
 created: 1606679635868
 ---
 Dendron 0.18 has sprouted 🌱
@@ -45,8 +45,3 @@ Last and most of all, a big **thanks** to the following gardeners that brought u
   - [Toggle plugin views using 'when' contexts](https://github.com/dendronhq/dendron/pull/386)
 - [Tyler Nieman](https://github.com/tsnieman)
   - [Dendron Web UI PR](https://github.com/dendronhq/dendron/pull/351)
-
-### Changelog
-
-((ref:[[dendron.release.changelog]]#0.17.2:#0.16.3))
-
