@@ -2,7 +2,7 @@
 id: 2976e5df-c8b4-4176-9d3f-fe4220dfa9b6
 title: Deploy
 desc: ''
-updated: 1616447098839
+updated: 1617039146949
 created: 1613863275374
 ---
 
@@ -96,12 +96,12 @@ lerna publish from-package --ignore-scripts
 
 - pull in new changes
 ```
+sleep 60
 git reset --hard
 git clean -f
 git fetch
 gco master 
 ./scripts/pack_and_install.sh
-sleep 60
 ```
 
 ## re-publish

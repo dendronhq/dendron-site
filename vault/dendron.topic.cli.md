@@ -2,7 +2,7 @@
 id: 23a1b942-99af-45c8-8116-4f4bb7dccd21
 title: Dendron CLI
 desc: ''
-updated: 1616949816145
+updated: 1617038588049
 created: 1600033791071
 ---
 
@@ -17,11 +17,11 @@ npm install -g @dendronhq/dendron-cli
 
 ## Engine Commands
 
-### doctor 🚧
+### doctor
 
 Use doctor to perform specific fixes over your notes. 
 
-- NOTE: the functionality here is different from what is available in the plugin version of [[Doctor|dendron.topic.commands#doctor]]. 
+- NOTE: the `fixFrontmatter` option is only available via the plugin at this time
 
 ```bash
 doctor helps you fix your notes
@@ -41,8 +41,7 @@ Options:
 
 #### available actions
 
-- h1ToTitle: remove initial `h1` header and use it to replace contents of `title` field in frontmatter
-- h1ToH2: convert all initial `h1` header to `h2` header
+![[dendron.topic.commands#actions,1:#*]]
 
 #### examples
 

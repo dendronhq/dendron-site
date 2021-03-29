@@ -2,10 +2,37 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1616447708080
+updated: 1617038925917
 created: 1601508213606
 date: '2022-01-01'
 ---
+
+## 0.34.1
+
+### Features
+
+#### A Better Doctor
+
+Dendron doctor has been updated with a bunch of new options including the ability to migrate old style refs to new style refs
+
+![[dendron.topic.commands#doctor,1:#dump-state]]
+
+### Enhancements
+- support hiding hierarchy view on published page ([[docs|dendron.topic.config#hierarchydisplay]])
+- GitPunchcard support multi-vault ([[docs|dendron.topic.pod.builtin#gitpod]])
+- support toggling vault initialization behavior at startup ([[docs|dendron.topic.config#initializeremotevaults]])
+- support migrating old note refs to new note refs ([[docs|dendron.topic.commands#actions]])
+
+### Bug Fixes
+- correct `hiearchyDisplayTitle` to  `hierarchyDisplay` option (BREAKING)
+- fix spurious `getVault` errors 
+
+### House Cleaning
+- removed all old style refs from `dendron-site`
+- formal deprecation notice for old style refs (`((ref: ))` syntax) - they will be removed in the next release. use `doctor` to upgrade
+
+## 0.34.0
+***
 
 ### 0.33.1
 

@@ -2,7 +2,7 @@
 id: eea2b078-1acc-4071-a14e-18299fc28f47
 title: Commands
 desc: ''
-updated: 1616446903893
+updated: 1617038851598
 created: 1595261816971
 ---
 ---
@@ -409,17 +409,23 @@ This command works by running `dendron-cli` in the background.
 ## Dev
 
 ### Doctor
-
 - shortcuts: none
 
-Auto fix issues with frontmatter
+Auto fix various issues with Dendron. You can pick among various actions for the doctor to perform
 
- This makes sure your workspace is up to date. It will execute the following actions:
+#### Actions
 
-- add ids and titles to the frontmatter of all notes that are missing it
-- setup a `docs` folder if it doesn't exist. Required if you want to [[publish|dendron.topic.publishing]] your notes 
+- fixFrontmatter
+  - add ids and titles to the frontmatter of all notes that are missing it
+  - setup a `docs` folder if it doesn't exist. Required if you want to [[publish|dendron.topic.publishing]] your notes 
 
 <a href="https://www.loom.com/share/bd045f708f8e474193de8e3de0dc820f"> <img style="" src="https://cdn.loom.com/sessions/thumbnails/bd045f708f8e474193de8e3de0dc820f-with-play.gif"> </a>
+
+- h1ToTitle: remove initial `h1` header and use it to replace contents of `title` field in frontmatter
+- h1ToH2: convert all initial `h1` header to `h2` header
+- removeStubs: remove all stub docs
+- oldNoteRefToNew: convert legacy note refs to new style note refs
+
 
 ### Dump State
 

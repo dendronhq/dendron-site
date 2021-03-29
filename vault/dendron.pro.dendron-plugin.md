@@ -2,7 +2,7 @@
 id: 87d90002-f480-45eb-a8c4-d00df4d61557
 title: Dendron Plugin
 desc: ''
-updated: 1611160743812
+updated: 1617038142481
 created: 1605375348464
 ---
 ## Activation
@@ -32,6 +32,13 @@ created: 1605375348464
 1. sample code for json export pod: https://github.com/dendronhq/dendron/blob/master/packages/pods-core/src/builtin/JSONPod.ts#L143:L143
 1. what you will get from `prepareNotesForExport`: https://dendron.so/notes/0db94b86-d5c2-4e70-8f61-1a686fa8cc1d.html
 1. anki pod: take notes and transform them to anki format
+
+### Adding a new config
+
+`dendron.yml` configuration is determined by `plugin-core/src/types.ts`.
+
+Whenever you add a new entry with a default, make sure to do the following as well.
+- [ ] update `Extension.test.ts` (we have a test that checks for default config values that will break)
 
 # Dev
 
