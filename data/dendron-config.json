@@ -269,6 +269,13 @@
     ],
     "workspace": [
         {
+            "key": "dendron.addAndCommit",
+            "title": "Dendron: Workspace: Add and Commit",
+            "group": "workspace",
+            "desc": "add and commit all files",
+            "skipDocs": false
+        },
+        {
             "key": "dendron.vaultAdd",
             "title": "Dendron: Vault Add",
             "group": "workspace",
