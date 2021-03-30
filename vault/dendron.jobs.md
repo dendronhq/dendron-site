@@ -2,7 +2,7 @@
 id: c378b702-7d49-4e91-be6e-b2078103c86e
 title: Jobs
 desc: ''
-updated: 1617038156870
+updated: 1617053018017
 created: 1616983302480
 published: false
 ---
@@ -30,3 +30,9 @@ Dendron is a note-taking tool that is
 - deep understanding of git
 
 <!-- https://boards.greenhouse.io/airtable/jobs/4997530002 -->
+
+## Inspiration
+
+https://boards.greenhouse.io/airtable/jobs/4997530002
+
+
