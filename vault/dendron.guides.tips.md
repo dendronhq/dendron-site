@@ -2,7 +2,7 @@
 id: 692fa114-f798-467f-a0b9-3cccc327aa6f
 title: Tips
 desc: ''
-updated: 1612800748642
+updated: 1617212316691
 created: 1595614204291
 ---
 
@@ -137,7 +137,7 @@ Create a `package.json` to install the package:
   },
   "license": "UNLICENSED",
   "devDependencies": {
-    "@dendronhq/dendron-cli": "^0.12.3-alpha.16"
+    "@dendronhq/dendron-cli": "*"
   }
 }
 ```
@@ -163,7 +163,7 @@ jobs:
       run: npm install
 
     - name: Build pod
-      run: npm run dendron-cli -- buildSite --wsRoot ./ --vault notes/
+      run: npm run dendron-cli -- buildSite --wsRoot . 
 
     - name: Deploy site
       uses: peaceiris/actions-gh-pages@v3

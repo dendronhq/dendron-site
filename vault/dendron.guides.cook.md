@@ -2,7 +2,7 @@
 id: 401c5889-20ae-4b3a-8468-269def4b4865
 title: Cookbook
 desc: ''
-updated: 1617197389392
+updated: 1617212567282
 created: 1595952505024
 nav_order: 8.9
 toc: true
@@ -318,3 +318,9 @@ You can access the site with username: `dendron`, password: `hierarchy`.
 ### Using Dendron with Github and Git
 
 One of our users published a great beginners guide on this [here](https://mstempl.netlify.app/post/dendron-git/)
+
+### Adding a Remote Vault to your Dendron Workspace
+
+If you haven't already done so, install Dendron and initialize a workspace by following the instructions [[here|dendron.guides.install]].
+
+Use the [[Vault Add|dendron.topic.commands#remote-vault]] command via the [[command palette|dendron.ref.terms#command-palette]], select remote vault, and paste the git url of the vault that you like to add
