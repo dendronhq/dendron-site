@@ -2,7 +2,7 @@
 id: 401c5889-20ae-4b3a-8468-269def4b4865
 title: Cookbook
 desc: ''
-updated: 1615132368125
+updated: 1617197389392
 created: 1595952505024
 nav_order: 8.9
 toc: true
@@ -312,3 +312,9 @@ You can access the site with username: `dendron`, password: `hierarchy`.
 2. Run `> Dendron: Publish` to build your notes for publication and push your notes
 3. Your notes are now published privately behind a password
 
+
+## Workspace
+
+### Using Dendron with Github and Git
+
+One of our users published a great beginners guide on this [here](https://mstempl.netlify.app/post/dendron-git/)
