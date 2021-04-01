@@ -2,7 +2,7 @@
 id: eea2b078-1acc-4071-a14e-18299fc28f48
 title: Config
 desc: ''
-updated: 1617038806358
+updated: 1617288490560
 created: 1595261816971
 ---
 
@@ -91,7 +91,7 @@ vault name
 
 If set to private, notes in this vault will not be published regardless of any other configuration. This takes precedences over everything.
 
-##### remote?
+##### remote
 - added property for [[remote vaults|dendron.concepts#remote-vault]]
 - properties
     - type: currently only `git` is supported (in the future, we might add additional types)

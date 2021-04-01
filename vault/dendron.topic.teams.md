@@ -2,14 +2,13 @@
 id: 98f6d928-3f61-49fb-9c9e-70c27d25f838
 title: Teams
 desc: ""
-updated: 1617254800475
+updated: 1617300310275
 created: 1617062224981
-published: false
 ---
 
 ## Summary
 
-This goes over some best practices when using Dendron for teams. To get started, you can use [this template](TODO) to help you get started.
+This goes over some best practices when using Dendron for teams. To get started, you can use this [[quickstart|dendron.topic.teams.quickstart]].
 
 ## Vaults
 
@@ -21,13 +20,21 @@ This goes over some best practices when using Dendron for teams. To get started,
   - {company}-private: material you never want to share publicly
 
 ## Schemas
-
+- NOTE: you can get a copy of these schemas by adding this [vault](https://github.com/kevinslin/schemas)
+<!-- -->
 - company.yml
   - this reflects your company hierarchy
 - team.yml
   - this is used for your team
 - user.yml
   - this is used for users
+
+## Other Hiearchies
+- standup
+  - `standup.journal.*`: good for < 10 people
+  - once you expand, you can division standup journals into teams
+    - `team.{name}.standup.journal.*`
+  - you can use [[note references|dendron.topic.refs]] to include standup updates from users individual `user` hiearchy
 
 ## Example Workspace
 
@@ -64,6 +71,20 @@ Move note will allow you to move notes quickly from one vault to another (potent
 
 Use the refactor hierarchy command to bulk-move notes from one hierarchy/structure to another.
 
-### Notes
+### [[Workspace: Add and Commit|dendron.topic.commands#workspace-add-and-commit]]
+- status: [[Early Seed 🌱|dendron.ref.status#early-seed-]]
 
-This works with a small startup where everyone is kept up to date with everyone elses progress.
+Easier management of multiple repos
+
+## More helpful stuff
+
+### Sync git repos
+You can use the source code panel to pull all repos and push all repos 
+
+![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/push-and-pull.jpg)
+
+## Team Workflow Recommendations
+- follow the [[quickstart|dendron.topic.teams.quickstart]] to setup your workspace
+- use [[Workspace: Add and Commit|dendron.topic.commands#workspace-add-and-commit]] and pull/push at least once a day
+- have users manage tasks in `user.{name}.journal.{date}` 
+- use [code stream extension](https://marketplace.visualstudio.com/items?itemName=CodeStream.codestream) to add collaborative features like commenting into the IDE

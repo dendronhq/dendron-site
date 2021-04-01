@@ -2,7 +2,7 @@
 id: 401c5889-20ae-4b3a-8468-269def4b4865
 title: Cookbook
 desc: ''
-updated: 1617212567282
+updated: 1617292266804
 created: 1595952505024
 nav_order: 8.9
 toc: true
@@ -324,3 +324,9 @@ One of our users published a great beginners guide on this [here](https://mstemp
 If you haven't already done so, install Dendron and initialize a workspace by following the instructions [[here|dendron.guides.install]].
 
 Use the [[Vault Add|dendron.topic.commands#remote-vault]] command via the [[command palette|dendron.ref.terms#command-palette]], select remote vault, and paste the git url of the vault that you like to add
+
+### Converting a local vault to a remote vault
+
+1. If you're vault is committed along with your workspace, use `git rm --cached` to remove it from the workspace repo and use `git init` to initialze your vault as a standalone repo
+1. Create a remote repo and push your vault to that repo
+1. Run [[Configure (yaml)|dendron.topic.commands#configure-yaml]] and add the git [[remote|dendron.topic.config#remote]] urls to the repo. the entries should look like what you see below
