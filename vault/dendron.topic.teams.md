@@ -2,7 +2,7 @@
 id: 98f6d928-3f61-49fb-9c9e-70c27d25f838
 title: Teams
 desc: ''
-updated: 1617212081909
+updated: 1617234829398
 created: 1617062224981
 published: false
 ---
@@ -14,10 +14,11 @@ This goes over some best practices when using Dendron for teams. To get started,
 ## Vaults
 
 - core
-  - work-main: your main workspace. unless there's a good reason, your notes should go in
+  - {company}: your main workspace. unless there's a good reason, your notes should go in
   - user-{name}: individual specific vaults
 - optional
-  - work-public: material you want to share publicly (eg. FAQs, documentation, blogs, etc)
+  - {company}-public: material you want to share publicly (eg. FAQs, documentation, blogs, etc)
+  - {company}-private: material you never want to share publicly
 
 ## Schemas
 - company.yml
@@ -34,7 +35,7 @@ This goes over some best practices when using Dendron for teams. To get started,
 ├── .
 ├── dendron.code-workspace
 ├── dendron.yml
-├── work-main/
+├── acme/
 │   ├── root.md
 │   ├── acme.onboarding
 │   ├── team.backend.onboarding
