@@ -2,7 +2,7 @@
 id: 401c5889-20ae-4b3a-8468-269def4b4865
 title: Cookbook
 desc: ''
-updated: 1617386052405
+updated: 1617386162776
 created: 1595952505024
 nav_order: 8.9
 toc: true
@@ -333,7 +333,7 @@ Use the [[Vault Add|dendron.topic.commands#remote-vault]] command via the [[comm
 
 ### Private Vaults
 
-You can create private vaults that won't be published or initialized when others clone the workspace. To do this, set the [[visibility|dendron.topic.config#visibility]] of the vault to "private" in `dendron.yml`.
+You can create private vaults that won't be published or initialized when others clone the workspace. To do this, run [[Vault Add|dendron.topic.commands#vault-add]] and add your private vault as a local vault. After it's been added, run [[Configure (yaml)|dendron.topic.commands#configure-yaml]] and set the [[visibility|dendron.topic.config#visibility]] of the vault to "private" in `dendron.yml`.
 
 ```yml
 vaults:
