@@ -2,7 +2,7 @@
 id: 98f6d928-3f61-49fb-9c9e-70c27d25f838
 title: Teams
 desc: ""
-updated: 1617300310275
+updated: 1617330368232
 created: 1617062224981
 ---
 
@@ -79,7 +79,7 @@ Easier management of multiple repos
 ## More helpful stuff
 
 ### Sync git repos
-You can use the source code panel to pull all repos and push all repos 
+You can use the source code panel to pull all repos and push all repos. Download the [gitlens](https://github.com/eamodio/vscode-gitlens) extension and use the commits panel to push and pull everything at once.
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/push-and-pull.jpg)
 
