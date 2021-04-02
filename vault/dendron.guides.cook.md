@@ -2,7 +2,7 @@
 id: 401c5889-20ae-4b3a-8468-269def4b4865
 title: Cookbook
 desc: ''
-updated: 1617292266804
+updated: 1617386052405
 created: 1595952505024
 nav_order: 8.9
 toc: true
@@ -330,3 +330,15 @@ Use the [[Vault Add|dendron.topic.commands#remote-vault]] command via the [[comm
 1. If you're vault is committed along with your workspace, use `git rm --cached` to remove it from the workspace repo and use `git init` to initialze your vault as a standalone repo
 1. Create a remote repo and push your vault to that repo
 1. Run [[Configure (yaml)|dendron.topic.commands#configure-yaml]] and add the git [[remote|dendron.topic.config#remote]] urls to the repo. the entries should look like what you see below
+
+### Private Vaults
+
+You can create private vaults that won't be published or initialized when others clone the workspace. To do this, set the [[visibility|dendron.topic.config#visibility]] of the vault to "private" in `dendron.yml`.
+
+```yml
+vaults:
+    - fsPath: vault
+      visibility: private
+```
+
+

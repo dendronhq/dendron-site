@@ -2,7 +2,7 @@
 id: eea2b078-1acc-4071-a14e-18299fc28f48
 title: Config
 desc: ''
-updated: 1617327663335
+updated: 1617385752776
 created: 1595261816971
 ---
 
@@ -92,10 +92,10 @@ Tracks [[vaults|dendron.concepts#vaults]] for the workspace. You shouldn't have 
 
 vault name 
 
-##### visibility?
+##### visibility
 - choices: "private|public"
 
-If set to private, notes in this vault will not be published regardless of any other configuration. This takes precedences over everything.
+If set to private, notes in this vault will not be published regardless of any other configuration. This takes precedences over everything. 
 
 ##### remote
 - added property for [[remote vaults|dendron.concepts#remote-vault]]
