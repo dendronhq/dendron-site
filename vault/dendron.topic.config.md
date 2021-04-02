@@ -2,13 +2,18 @@
 id: eea2b078-1acc-4071-a14e-18299fc28f48
 title: Config
 desc: ''
-updated: 1617288490560
+updated: 1617327663335
 created: 1595261816971
 ---
 
 Dendron configuration currently lives in two places:
 - Dendron config: `dendron.yml` located at the root of your workspace
 - VSCode config: `dendron.code-workspace`: the vscode workspace file 
+
+## Legend
+- default: the default value of a config
+- status: see [[status|dendron.ref.status]] docs
+- frontmatter: this option can be set using the note [[frontmatter|dendron.concepts#frontmatter]]
 
 ## Dendron Config
 
@@ -39,6 +44,7 @@ Disable dendron legacy note refs
 
 ### hierarchyDisplay
 - default: true
+- frontmatter: true
 
 Disable dendron showing hierarchies on published pages
 
