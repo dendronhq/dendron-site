@@ -2,7 +2,7 @@
 id: f7ebd4aa-8ba7-4bc5-bd00-a1efc5315f07
 title: Workbench
 desc: ''
-updated: 1614312211145
+updated: 1617553275054
 created: 1595170237255
 stub: false
 ---
@@ -13,6 +13,14 @@ The Dendron workbench is the overall UI that surrounds the editor. It is equival
 > Image from [Visual Studio Docs](https://code.visualstudio.com/api/extension-capabilities/extending-workbench)
 
 Dendron has a few custom workbench components to deal with hierarchal notes.
+
+## Output View
+
+Open the command palette and type `>View: Toggle Output` to toggle the output view. 
+
+You can filter the output by application by using the dropdown menu.
+
+![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/output.jpg)
 
 ## Outline View
 

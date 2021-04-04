@@ -2,7 +2,7 @@
 id: a6c03f9b-8959-4d67-8394-4d204ab69bfe
 title: Troubleshooting
 desc: ''
-updated: 1616080223480
+updated: 1617553316507
 created: 1595952505025
 ---
 ## Diagnosing
@@ -90,6 +90,11 @@ Meanwhile, you can open Dendron's markdown preview by clicking the preview butto
 ### Still initializing.  Please close this window and try again after Dendron has been initialized.
 
 When Dendron starts up, it initializes a local server which is responsible for indexing notes and fetching note metadata. Plugins like the preview depend on the server being initialized before activating. You'll know the server is initialized after you see a `Dendron is activated` notification.
+
+### Get the logs
+
+Open the [[output view|dendron.topic.workbench#output-view]] and use the dropdown menu to find the log titled `DENDRON`. 
+
 
 ## Linux
 
