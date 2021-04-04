@@ -9,10 +9,13 @@
         },
         {
             "key": "dendron.gotoNote",
-            "title": "Goto Note",
+            "title": "Dendron: Goto Note",
             "group": "notes",
             "desc": "Go to a note",
-            "skipDocs": true
+            "skipDocs": true,
+            "keybindings": {
+                "key": "ctrl+enter"
+            }
         },
         {
             "key": "dendron.createDailyJournalNote",
