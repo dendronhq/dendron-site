@@ -2,9 +2,10 @@
 id: 4b8f0470-dacb-433b-8d0c-f5a7d8f5245d
 title: Lookup
 desc: ''
-updated: 1610160273101
+updated: 1617510555993
 created: 1608838048476
 ---
+
 ```ts
 show {
     quickpick := create

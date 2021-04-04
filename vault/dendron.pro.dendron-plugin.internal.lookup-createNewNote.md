@@ -2,9 +2,9 @@
 id: 89281554-099e-4f10-b6e1-2aedd37fd419
 title: Create New Note
 desc: ''
-updated: 1617510245522
+updated: 1617510407555
 created: 1610206609498
-published: false
+published: true
 ---
 
 
