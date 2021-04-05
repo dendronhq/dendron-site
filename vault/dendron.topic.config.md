@@ -2,7 +2,7 @@
 id: eea2b078-1acc-4071-a14e-18299fc28f48
 title: Config
 desc: ''
-updated: 1617385752776
+updated: 1617583101658
 created: 1595261816971
 ---
 
@@ -52,6 +52,11 @@ Disable dendron showing hierarchies on published pages
 - default: true
 
 Determines if dendron pulls in un-initialized [[remote vault|dendron.concepts#remote-vault]] at startup
+
+### noAutoCreateOnDefinition
+- default: true
+
+If a note doesn't exist, don't create it via the `GoToDefinition` functionality
 
 ### useContainers
 - default: false

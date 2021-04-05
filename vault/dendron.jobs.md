@@ -2,7 +2,7 @@
 id: c378b702-7d49-4e91-be6e-b2078103c86e
 title: Jobs
 desc: ''
-updated: 1617124563405
+updated: 1617592176608
 created: 1616983302480
 nav_exclude: true
 ---
@@ -34,3 +34,21 @@ Know that you'll be coming in at the ground level - Dendron launched last summer
 - You are proficient with Javascript/Typescript 
 - You have experience building collaborative real time services
 
+
+## What we offer
+- real salaries and meaningful equity
+- work that's in the open (dendron is open source so you'll be able to share and talk about what your building)
+- a remote first workplace
+- a chance to make a meaningful difference in the world
+
+![[dendron#motivation,1:#*]]
+
+## What we're built on 
+- our stack is all Typescript
+- our frontend is React, Next.js and Chakra UI
+- our backend is express.js
+- our infrastructure (will) consist of a series of micro-services running on top of AWS
+
+## Apply
+
+To apply, email kevin@dendron.so with resume/linkedin/github and we can proceed from there. 
