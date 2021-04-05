@@ -2,7 +2,7 @@
 id: eea2b078-1acc-4071-a14e-18299fc28f47
 title: Commands
 desc: ""
-updated: 1617292788871
+updated: 1617643962345
 created: 1595261816971
 ---
 
@@ -195,6 +195,13 @@ Refactor Hierarchy is a huge time-saver:
 
 <a href="https://www.loom.com/share/11d90a86fd1348a5a504406b52d79f85"> <img style="" src="https://cdn.loom.com/sessions/thumbnails/11d90a86fd1348a5a504406b52d79f85-with-play.gif"> </a>
 
+### Goto Note
+- shortcuts:
+  - key: `ctrl+enter`
+  - when: `editorFocus`
+
+Goto to the note under the cursor, creating it if it doesn't exist.
+
 ### Go Up
 
 - shortcuts:
@@ -328,7 +335,6 @@ Modify Dendron Config using Dendron UI
 
 
 ### Workspace: Add and Commit
-- status: [[Early Seed 🌱|dendron.ref.status#early-seed-]]
 
 Add and commit all notes across all vaults to git.
 

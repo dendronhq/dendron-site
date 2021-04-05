@@ -14,7 +14,8 @@
             "desc": "Go to a note",
             "skipDocs": true,
             "keybindings": {
-                "key": "ctrl+enter"
+                "key": "ctrl+enter",
+                "when": "editorFocus"
             }
         },
         {

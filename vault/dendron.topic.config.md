@@ -2,7 +2,7 @@
 id: eea2b078-1acc-4071-a14e-18299fc28f48
 title: Config
 desc: ''
-updated: 1617583101658
+updated: 1617643314670
 created: 1595261816971
 ---
 
@@ -56,7 +56,7 @@ Determines if dendron pulls in un-initialized [[remote vault|dendron.concepts#re
 ### noAutoCreateOnDefinition
 - default: true
 
-If a note doesn't exist, don't create it via the `GoToDefinition` functionality
+If a note doesn't exist, don't create it via the `GoToDefinition` 
 
 ### useContainers
 - default: false

@@ -2,7 +2,7 @@
 id: 98f6d928-3f61-49fb-9c9e-70c27d25f838
 title: Teams
 desc: ""
-updated: 1617330368232
+updated: 1617643968030
 created: 1617062224981
 ---
 
@@ -72,7 +72,6 @@ Move note will allow you to move notes quickly from one vault to another (potent
 Use the refactor hierarchy command to bulk-move notes from one hierarchy/structure to another.
 
 ### [[Workspace: Add and Commit|dendron.topic.commands#workspace-add-and-commit]]
-- status: [[Early Seed 🌱|dendron.ref.status#early-seed-]]
 
 Easier management of multiple repos
 

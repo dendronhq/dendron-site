@@ -2,7 +2,7 @@
 id: f1af56bb-db27-47ae-8406-61a98de6c78c
 title: References
 desc: ''
-updated: 1616949447402
+updated: 1617643698464
 created: 1597356582509
 stub: false
 ---
@@ -123,3 +123,6 @@ Note references can refer to notes with references inside. Dendron current suppo
 
 <div style="position: relative; padding-bottom: 62.5%; height: 0;"><iframe src="https://www.loom.com/embed/9401e5dfe60f4f589e14d50e280d11f5" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
+## Publishing
+
+When you [[publish|dendron.topic.publishing]] a note with a note reference, Dendron will embed the content of the reference in the page. If the content is part of a published page as specified by the publishing [[configuration|dendron.topic.publishing.configuration]], dendron will include a link to the page. If not, Dendron will embed the content without a link. If the referenced content is not publishable (eg. `published: false` set on frontmatter), dendron will generate a custom [[404 link|dendron.topic.publishing.features#selective-publication]].

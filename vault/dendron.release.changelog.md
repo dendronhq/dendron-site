@@ -2,10 +2,55 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1617044897086
+updated: 1617643937956
 created: 1601508213606
 date: '2022-01-01'
 ---
+
+## 0.35.2
+
+### Features
+
+#### Goto Note command
+
+![[dendron.topic.commands#goto-note,1:#*]]
+
+- NOTE: this fixes [issue 564](https://github.com/dendronhq/dendron/issues/564) which causes a new note to be created on hover. We introduced [[noAutoCreateOnDefinition|dendron.topic.config#noautocreateondefinition]] configuration to help folks transition to the new behavior. Auto creating on definition will be deprecated in a future release
+
+### Enhancements
+- better details in diagnostics report
+- support xvault [[backlinks|dendron.topic.links#backlinks]]
+- faster backlink generation
+- include content from unpublished notes ([[docs|dendron.topic.refs#publishing]])
+  - this allows you to use note references to hierarchies that aren't explicitly published
+- better [Theia](https://theia-ide.org/) compatibility
+
+### Bug Fixes
+- disable auto-creation notes on definition ([[docs|dendron.topic.config#noautocreateondefinition]])
+
+## 0.35.1
+
+### Features
+
+#### Add and Commit
+![[dendron.topic.commands#workspace-add-and-commit,1:#*]]
+
+### Enhancements
+- [[useNoteTitleForLink|dendron.topic.config#usenotetitleforlink]] now true by default 
+- control hierarchy display using note frontmatter ([[docs|dendron.topic.config#hierarchydisplay]])
+- ability to disable appending uuid's to assets when importing markdown ([[docs|dendron.topic.pod.builtin.markdown.import#noadduuid]])
+- ability to set an index file when importing markdown ([[docs|dendron.topic.pod.builtin.markdown.import#indexname]])
+
+### Bug Fixes
+- bulk importing notes would fail if payload was greater than 10mb
+- punchcard pod referring to wrong commit
+
+### Docs
+- update [[example schemas|dendron.topic.schema#example-schemas]] as an importable remote vault
+- create dendron for [[teams|dendron.topic.teams]] docs
+
+## 0.35.0
+***
 
 ## 0.34.1
 
@@ -56,8 +101,8 @@ Dendron doctor has been updated with a bunch of new options including the abilit
 - empty query doesn't display all root nodes when multi-vault
 
 ## 0.33.0
-
 ***
+
 ## 0.32.2
 
 ### Features
