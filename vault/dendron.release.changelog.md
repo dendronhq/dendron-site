@@ -2,7 +2,7 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1617643937956
+updated: 1617645900581
 created: 1601508213606
 date: '2022-01-01'
 ---
@@ -15,7 +15,7 @@ date: '2022-01-01'
 
 ![[dendron.topic.commands#goto-note,1:#*]]
 
-- NOTE: this fixes [issue 564](https://github.com/dendronhq/dendron/issues/564) which causes a new note to be created on hover. We introduced [[noAutoCreateOnDefinition|dendron.topic.config#noautocreateondefinition]] configuration to help folks transition to the new behavior. Auto creating on definition will be deprecated in a future release
+- NOTE: this fixes [issue 564](https://github.com/dendronhq/dendron/issues/564) which causes a new note to be created on hover when combined with `noAutoCreateOnDefinition` set to `true`. We introduced [[noAutoCreateOnDefinition|dendron.topic.config#noautocreateondefinition]] configuration to help folks transition to the new behavior. Auto creating on definition will be deprecated in a future release
 
 ### Enhancements
 - better details in diagnostics report
