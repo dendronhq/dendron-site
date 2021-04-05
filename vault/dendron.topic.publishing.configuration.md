@@ -456,7 +456,7 @@ You can control publication on a per line basis.
 
 ### LOCAL_ONLY_LINE
 
-Sometimes, you just want to keep a few lines private while publishing the rest of your vault. You can do that with `Local only`. In order to mark a line as `Local Only`, add the following markdown comment at the end of the line: `<!--LOCAL_ONLY_LINE-->`
+Sometimes, you just want to keep a few lines private while publishing the rest of your vault. You can do that with `Local only`. In order to mark a line as `Local Only`, add the following markdown comment at the end of the line: 
 
 ```markdown
 Hello World!  <!-- Will be published -->
