@@ -2,7 +2,7 @@
 id: e71bcee0-2e97-49bd-ab5b-634df8903132
 title: Release Notes (version 0.35)
 desc: ''
-updated: 1617045032407
+updated: 1617644797532
 created: 1617039442351
 ---
 
@@ -22,9 +22,8 @@ Old style note references  are formally deprecated and will be removed in future
 A big **thanks** to the following gardeners that brought up issues, contributions, and fixes to this release :man_farmer: :woman_farmer: 
 You can see an overview of all roles [[here|dendron.community.roles]]
 
-- [Vivek Raja](https://github.com/vivkr)
+- [Vivek Raja](https://github.com/vivkr) `+bugcatcher`
   - Lookup hangs on non-dendron workspace
-- Vivek Raja
   - plugin tries to index files outside of dendron workspace
 - [Nbartzokas](https://github.com/nbartzokas)
   - Wildcard note ref causes formatting issues in lists of second and subsequent notes
