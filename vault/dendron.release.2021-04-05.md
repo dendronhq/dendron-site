@@ -2,7 +2,7 @@
 id: f240676a-a003-46e2-ac79-784bd142c7f0
 title: Release Notes (version 0.36)
 desc: ''
-updated: 1617645228989
+updated: 1617645692821
 created: 1617644812612
 ---
 
@@ -32,5 +32,7 @@ You can see an overview of all roles [[here|dendron.community.roles]]
   - issues running dendron on theia
 - [Kevin Poorman](https://github.com/codefriar) @codefriar#4876  `+bugcatcher`
   - Unable to use triple-tilde code blocks in a template
+- [Aleksey Rowan](https://github.com/aleksey-rowan) @aleksey#5276 `+taxonomist`
+Add a note about yarn failing with npm v7 on Windows
 
 ![[dendron.release.changelog#0352:#0350]]

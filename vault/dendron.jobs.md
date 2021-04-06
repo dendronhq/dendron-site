@@ -2,7 +2,7 @@
 id: c378b702-7d49-4e91-be6e-b2078103c86e
 title: Jobs
 desc: ''
-updated: 1617592176608
+updated: 1617670892062
 created: 1616983302480
 nav_exclude: true
 ---
@@ -47,7 +47,7 @@ Know that you'll be coming in at the ground level - Dendron launched last summer
 - our stack is all Typescript
 - our frontend is React, Next.js and Chakra UI
 - our backend is express.js
-- our infrastructure (will) consist of a series of micro-services running on top of AWS
+- our infrastructure (will) consist about having you come on of a series of micro-services running on top of AWS
 
 ## Apply
 
