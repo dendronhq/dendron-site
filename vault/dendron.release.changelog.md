@@ -2,11 +2,21 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1617645900581
+updated: 1617670246198
 created: 1601508213606
 date: '2022-01-01'
 ---
+## 0.36.2
+### Bug Fixes
+- multiple notes created when clicking on a link with an alias
 
+## 0.36.1
+### Bug Fixes
+- Multiple notes created when opening a note via the treeview
+
+## 0.36.0
+
+***
 ## 0.35.2
 
 ### Features
