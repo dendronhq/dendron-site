@@ -2,7 +2,7 @@
 id: 683740e3-70ce-4a47-a1f4-1f140e80b558
 title: FAQ
 desc: ''
-updated: 1616596554843
+updated: 1617845249193
 created: 1595952505025
 stub: false
 nav_order: 6
@@ -185,6 +185,14 @@ In the future, we want to support:
 - query by attributes with logical operators: <https://github.com/dendronhq/dendron/issues/159>
 
 We also want to support some subset of the queries as note references so that the results can be included in page.
+
+### Can I autocomplete an hierarchy?
+
+See this [issue](https://github.com/dendronhq/dendron/issues/490).
+
+TLDR: vscode doesn't expose tab completion via API. There are two alternatives we're currently considering: 
+- overload the `enter` command, one press to autocomplete, two presses to select 
+- replace the lookup component with a webview
 
 ## Other
 
