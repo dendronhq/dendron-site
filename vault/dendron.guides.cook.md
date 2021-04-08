@@ -2,7 +2,7 @@
 id: 401c5889-20ae-4b3a-8468-269def4b4865
 title: Cookbook
 desc: ''
-updated: 1617386162776
+updated: 1617891994915
 created: 1595952505024
 nav_order: 8.9
 toc: true
@@ -330,6 +330,12 @@ Use the [[Vault Add|dendron.topic.commands#remote-vault]] command via the [[comm
 1. If you're vault is committed along with your workspace, use `git rm --cached` to remove it from the workspace repo and use `git init` to initialze your vault as a standalone repo
 1. Create a remote repo and push your vault to that repo
 1. Run [[Configure (yaml)|dendron.topic.commands#configure-yaml]] and add the git [[remote|dendron.topic.config#remote]] urls to the repo. the entries should look like what you see below
+
+### Using Dendron alongside your codebase
+
+The easiest current way to do this is to have multiple instances of VSCode open and toggle between the two. If you are very adventurous, you might even have [multiple versions of vscode](https://www.kevinslin.com/notes/7f197479-279e-4b1e-9edd-21bf2da423b0.html#dendron-setup) for different contexts.
+
+We are working on being able to run Dendron without the need for a workspace. You can track the progress of this on this [issue](https://github.com/dendronhq/dendron/issues/322)
 
 ### Private Vaults
 
