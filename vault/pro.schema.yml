@@ -7,6 +7,7 @@ schemas:
   children:
     - quickstart
     - concepts
+    - arch
     - tips
     - faq
     - upgrading
@@ -14,6 +15,8 @@ schemas:
     - install
 - id: quickstart
   desc: getting started with a project
+- id: arch
+  title: architecture
 - id: concepts
   desc: basic concepts to do with the project
 - id: tips

@@ -2,7 +2,7 @@
 id: 401c5889-20ae-4b3a-8468-269def4b4865
 title: Cookbook
 desc: ''
-updated: 1617891994915
+updated: 1617892007103
 created: 1595952505024
 nav_order: 8.9
 toc: true
@@ -331,7 +331,7 @@ Use the [[Vault Add|dendron.topic.commands#remote-vault]] command via the [[comm
 1. Create a remote repo and push your vault to that repo
 1. Run [[Configure (yaml)|dendron.topic.commands#configure-yaml]] and add the git [[remote|dendron.topic.config#remote]] urls to the repo. the entries should look like what you see below
 
-### Using Dendron alongside your codebase
+### Using Dendron with Code
 
 The easiest current way to do this is to have multiple instances of VSCode open and toggle between the two. If you are very adventurous, you might even have [multiple versions of vscode](https://www.kevinslin.com/notes/7f197479-279e-4b1e-9edd-21bf2da423b0.html#dendron-setup) for different contexts.
 
