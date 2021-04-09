@@ -2,7 +2,7 @@
 id: 23a1b942-99af-45c8-8116-4f4bb7dccd21
 title: Dendron CLI
 desc: ''
-updated: 1617038588049
+updated: 1617904418190
 created: 1600033791071
 ---
 
@@ -67,6 +67,56 @@ The CLI will also write out `.dendron.*` [[metadata files|dendron.ref.layout#fil
 dendron launchEngineServer --wsRoot ~/Dendron/ --port 3005
 ```
 
+## Note Commands
+- status: [[Early Seed 🌱|dendron.ref.status#early-seed-]]
+
+```bash
+dendron note <cmd>
+
+note related commands
+
+Positionals:
+  cmd  a command to run        [string] [required] [choices: "lookup", "delete"]
+
+Options:
+  --version         Show version number                                [boolean]
+  --help            Show help                                          [boolean]
+  --wsRoot          location of workspace
+  --vault           name of vault
+  --quiet           don't print output to stdout
+  --enginePort      If set, connect to to running engine. If not set, create new
+                    instance of Dendron Engine
+  --useLocalEngine  If set, use in memory engine instead of connecting to a
+                    server                                             [boolean]
+  --query           the query to run                                    [string]
+
+```
+
+### Parameters
+
+#### wsRoot
+This only needs to be set if you are not executing the CLI from within the root of your [[workspace|dendron.concepts#workspace]]
+
+#### vault
+This only needs to be set if you are in a [[Multi Vault|dendron.topic.multi-vault]] workspace. This should be the [[name|dendron.topic.config#name]] of your vault
+
+### Examples
+
+#### Creating a note
+```bash
+dendron note lookup --query "hello" 
+```
+
+#### Deleting a note
+```bash
+dendron note delete --query "foo" 
+```
+
+#### Deleting a note within a multi-vault workspace
+```bash
+dendron note delete --vault vault2 --query "foo" 
+```
+
 ## Publishing Commands
 
 ### buildSite
@@ -79,7 +129,7 @@ build notes for publication using 11ty
 Options:
   --version         Show version number                                [boolean]
   --help            Show help                                          [boolean]
-  --wsRoot          location of workspace                             [required]
+  --wsRoot          location of workspace                             
   --enginePort      If set, connecto to running engine. If not set, create new
                     instance of Dendron Engine
   --serve           serve over local http server      [boolean] [default: false]

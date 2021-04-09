@@ -2,7 +2,7 @@
 id: eea2b078-1acc-4071-a14e-18299fc28f48
 title: Config
 desc: ''
-updated: 1617643314670
+updated: 1617898706145
 created: 1595261816971
 ---
 
@@ -57,6 +57,11 @@ Determines if dendron pulls in un-initialized [[remote vault|dendron.concepts#re
 - default: true
 
 If a note doesn't exist, don't create it via the `GoToDefinition` 
+
+### noXVaultWikiLink
+- status: [[Early Seed 🌱|dendron.ref.status#early-seed-]]
+
+If set, disable [[Cross Vault Links|dendron.topic.links#cross-vault-links]] when using [[Copy Note Link|dendron.topic.commands#copy-note-link]].
 
 ### useContainers
 - default: false
