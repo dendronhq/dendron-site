@@ -23,7 +23,7 @@ Dendron configuration currently lives in two places:
 
 Turn on to enable [[changelogs|dendron.topic.publishing.changelogs]]
 
-### hiearchyDisplayTitle
+### hierarchyDisplayTitle
 - default: Children
 
 Controls the title for [[children links|dendron.topic.links#children-links]] in published sites
