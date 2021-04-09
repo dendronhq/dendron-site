@@ -2,9 +2,9 @@
 id: c378b702-7d49-4e91-be6e-b2078103c86e
 title: Jobs
 desc: ''
-updated: 1617670892062
+updated: 1618003431996
 created: 1616983302480
-nav_exclude: true
+nav_order: 9.7
 ---
 
 Help us create a better tool for thought.
