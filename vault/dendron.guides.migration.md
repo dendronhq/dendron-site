@@ -2,7 +2,7 @@
 id: f9b4fc21-7613-4c8a-9257-cec4c06b67f9
 title: Migration
 desc: ''
-updated: 1616111751707
+updated: 1618154129829
 created: 1603982164242
 ---
 This note covers migrating your notes from other tools
@@ -25,6 +25,10 @@ This note covers migrating your notes from other tools
 
 1. Use [vHanda/google-keep-exporter](https://github.com/vHanda/google-keep-exporter) to transform keep files into markdown
 2. Use the [[markdown pod|dendron.topic.pod.builtin.markdown#import]] to import your notes into Dendron
+
+## Joplin
+
+Check out this [extension](https://marketplace.visualstudio.com/items?itemName=rxliuli.joplin-vscode-plugin)
 
 ## Importing Files
 
