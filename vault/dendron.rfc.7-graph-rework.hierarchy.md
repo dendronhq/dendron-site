@@ -5,7 +5,6 @@ desc: ''
 updated: 1618136299723
 created: 1617983749839
 ---
-
 ## Question
 
 How is a Hierarchy represented in the Graph?
@@ -35,8 +34,9 @@ The Graph is just an example visualization as a flowchart. As you see, each Leve
 But now we have Notes and Schemas that interact with the Hierarchy.
 
 - A note sits in the Graph at the Hierarchy level.
-Could a note contain its Hierarchy through its headings?
-Extending the Hierarchy, it sits inside with the headings it contains.
-[[read more|dendron.rfc.6-graph-rework.notes]]
+  Could a note contain its Hierarchy through its headings?
+  Extending the Hierarchy, it sits inside with the headings it contains.
+  [[read more|dendron.rfc.7-graph-rework.notes]]
 - A schema describes a hierarchy to validate it.
-[[read more|dendron.rfc.6-graph-rework.schemas]]
+  [[read more|dendron.rfc.7-graph-rework.schemas]]
+

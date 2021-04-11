@@ -5,7 +5,6 @@ desc: ''
 updated: 1618136414542
 created: 1615116287140
 ---
-
 ## Goal
 
 Clarify what role schemas play in the Graph.
@@ -46,7 +45,7 @@ schemas:
   namespace: true
 ```
 
-This Schema would validate a particular Hierarchy pattern lets take the example from the [[Graph Rework - Hierarchy|dendron.rfc.6-graph-rework.hierarchy]] file to explain it.
+This Schema would validate a particular Hierarchy pattern lets take the example from the [[Graph Rework - Hierarchy|dendron.rfc.7-graph-rework.hierarchy]] file to explain it.
 
 We have the Hierarchy `journal.daily.2020.04.10` that would turn through this Schema into the following structure:
 
@@ -114,3 +113,4 @@ schemas:
 
 Each month gets declared like January is in that Schema.
 Having that possibility would be extending the possible use cases of Schemas in my Eyes.
+
