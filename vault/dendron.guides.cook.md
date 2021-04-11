@@ -2,7 +2,7 @@
 id: 401c5889-20ae-4b3a-8468-269def4b4865
 title: Cookbook
 desc: ''
-updated: 1617892007103
+updated: 1618156310626
 created: 1595952505024
 nav_order: 8.9
 toc: true
@@ -134,12 +134,6 @@ You can use the [markdownload-markdown-web](https://chrome.google.com/webstore/d
 ### Regex
 
 To get familiar with regex syntax, try [regexr](https://regexr.com/) is a great place to experiment with different queries.
-
-### Convert Local Vault to a Remote Vault
-
-1. Initialize local vault as a git repo and push it to a remote 
-2. Remove the local vault from your current workspace 
-3. Use the `Vault: Add` command and enter the remote url of the repo you would like to add
 
 ### Automatically Convert Casing on a Note
 
@@ -337,6 +331,15 @@ The easiest current way to do this is to have multiple instances of VSCode open 
 
 We are working on being able to run Dendron without the need for a workspace. You can track the progress of this on this [issue](https://github.com/dendronhq/dendron/issues/322)
 
+### Renaming a Vault
+
+We currently haven't implemented a command to do but you can use the current manual steps to implement. 
+1. Update the [[name|dendron.topic.config#name]] property in `dendron.yml`
+1. Update the name property on the corresponding [[workspace folders|dendron.topic.config#folders]]
+1. Replace any [[cross Vault Links|dendron.topic.links#cross-vault-links]] with the name of the new workspace
+  - ctrl search `dendron://{vaultName}` and replace it with the new vaultName 
+1. Run `> Reload Window` when these steps are completed
+
 ### Private Vaults
 
 You can create private vaults that won't be published or initialized when others clone the workspace. To do this, run [[Vault Add|dendron.topic.commands#vault-add]] and add your private vault as a local vault. After it's been added, run [[Configure (yaml)|dendron.topic.commands#configure-yaml]] and set the [[visibility|dendron.topic.config#visibility]] of the vault to "private" in `dendron.yml`.
@@ -346,5 +349,4 @@ vaults:
     - fsPath: vault
       visibility: private
 ```
-
 

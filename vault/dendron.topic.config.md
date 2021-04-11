@@ -2,7 +2,7 @@
 id: eea2b078-1acc-4071-a14e-18299fc28f48
 title: Config
 desc: ''
-updated: 1617898706145
+updated: 1618156196730
 created: 1595261816971
 ---
 
@@ -140,6 +140,23 @@ vaults:
 
 
 ## VSCode Config
+
+### folders
+- type: folders[]
+
+This is a list of folders that is tracked by your workspace. Should mirror vaults in `dendron.yml`.
+
+Each folder entry has the following structure
+
+```ts
+type Folder = {
+    // relative path to vault from workspace
+    path: string
+    // name for folder (default to folder anme)
+    name?: string
+}
+```
+
 ### dendron.dailyJournalDomain
 - type: string
 - default: daily
