@@ -1,8 +1,8 @@
 ---
 id: c998c642-a748-4f77-9285-cfec35330251
-title:  Graph Improvements
+title:  RFC 7 Graph Rework
 desc: Improvement Proposal For the Graph
-updated: 1618215254967
+updated: 1618227443374
 created: 1615106291022
 ---
 ## Description
@@ -83,7 +83,7 @@ What questions should we ask about the Graph?
 ## Comments
 
 To comment on this Request for comment, feel free to either submit a pull request for changes to it or commenting on Pull requests for this RFC.
-Additionally, you can comment on the corresponding discussion.
+Additionally, you can comment on the corresponding [discussion](https://github.com/dendronhq/dendron/discussions/615).
 
 ## Author
 
