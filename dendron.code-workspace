@@ -41,10 +41,8 @@
         "pasteImage.prefix": "/",
         "editor.minimap.enabled": false,
         "files.autoSave": "onFocusChange",
-        "materialTheme.accent": "Red",
         "vscodeMarkdownNotes.slugifyCharacter": "NONE",
         "markdown-preview-enhanced.enableWikiLinkSyntax": true,
-        "workbench.colorTheme": "GitHub Light",
         "markdown-preview-enhanced.wikiLinkFileExtension": ".md",
         "vscodeMarkdownNotes.noteCompletionConvention": "noExtension",
         "cSpell.enabled": true,
@@ -52,23 +50,11 @@
         "editor.suggest.snippetsPreventQuickSuggestions": false,
         "editor.suggest.showSnippets": true,
         "editor.tabCompletion": "on",
-        "workbench.colorCustomizations": {
-            "activityBar.activeBackground": "#65c89b",
-            "activityBar.activeBorder": "#945bc4",
-            "activityBar.background": "#65c89b",
-            "activityBar.foreground": "#15202b",
-            "activityBar.inactiveForeground": "#15202b99",
-            "activityBarBadge.background": "#945bc4",
-            "activityBarBadge.foreground": "#e7e7e7",
-            "statusBar.background": "#42b882",
-            "statusBar.foreground": "#15202b",
-            "statusBarItem.hoverBackground": "#359267",
-            "titleBar.activeBackground": "#42b882",
-            "titleBar.activeForeground": "#15202b",
-            "titleBar.inactiveBackground": "#42b88299",
-            "titleBar.inactiveForeground": "#15202b99"
-        },
-        "peacock.color": "#42b882"
+        "markdownlint.config": {
+            "MD007": {
+                "indent": 4
+            }
+        }
     },
     "extensions": {
         "recommendations": []
