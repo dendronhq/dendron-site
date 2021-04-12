@@ -2,7 +2,7 @@
 id: fdf615f9-5292-467d-8d77-f136ecc8e109
 title: Graph Rework - Hierarchy
 desc: ''
-updated: 1618136299723
+updated: 1618215091880
 created: 1617983749839
 ---
 ## Question
@@ -40,3 +40,9 @@ But now we have Notes and Schemas that interact with the Hierarchy.
 - A schema describes a hierarchy to validate it.
   [[read more|dendron.rfc.7-graph-rework.schemas]]
 
+## Author
+
+flammehawk:
+
+- [@Github](https://github.com/flammehawk)
+- @Discord fudo#1010

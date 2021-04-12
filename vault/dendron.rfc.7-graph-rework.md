@@ -2,7 +2,7 @@
 id: c998c642-a748-4f77-9285-cfec35330251
 title:  Graph Improvements
 desc: Improvement Proposal For the Graph
-updated: 1618158004268
+updated: 1618215254967
 created: 1615106291022
 ---
 ## Description
@@ -12,14 +12,14 @@ This RFC contains Multiple Proposals on how to improve the Graph handling of Den
 ## Goals
 
 - Functional improvements of the Graph
-  - View
-  - Filtering
-  - Coloring
-  - Embedding
+    - View
+    - Filtering
+    - Coloring
+    - Embedding
 - Performance Improvements
 - Connection between Graph's
-  - Multi-Vault
-  - Other published Gardens and their Graph's see [[RFC 5|dendron.rfc.5-publishing-registry]]
+    - Multi-Vault
+    - Other published Gardens and their Graph's see [[RFC 5|dendron.rfc.5-publishing-registry]]
 - Clarify what is part of the Graph.
 
 ## Questions
@@ -83,7 +83,7 @@ What questions should we ask about the Graph?
 ## Comments
 
 To comment on this Request for comment, feel free to either submit a pull request for changes to it or commenting on Pull requests for this RFC.
-Additionally, you can comment on the Corresponding Issue for it.
+Additionally, you can comment on the corresponding discussion.
 
 ## Author
 
@@ -91,4 +91,3 @@ flammehawk:
 
 - [@Github](https://github.com/flammehawk)
 - @Discord fudo#1010
-

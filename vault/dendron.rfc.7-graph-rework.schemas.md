@@ -2,7 +2,7 @@
 id: a155f412-d730-48cc-8893-1bcb7f637206
 title: Graph Rework - Schemas
 desc: ''
-updated: 1618136414542
+updated: 1618215293355
 created: 1615116287140
 ---
 ## Goal
@@ -87,7 +87,7 @@ graph TB
 
 ## Further Thoughts
 
-The Schemas should provide a way to use the Value that gets matched from the Pattern it provides, like in this case done for the title.
+The Schemas should provide a way to use the Value that gets matched from the Pattern it gives, like in this case done for the title.
 
 Further extensions of this could be to provide multiple patterns.
 An example here could be the Month schema, to have a group of Schemas that act as one Hierarchy level Month but have different patterns and styles.
@@ -114,3 +114,9 @@ schemas:
 Each month gets declared like January is in that Schema.
 Having that possibility would be extending the possible use cases of Schemas in my Eyes.
 
+## Author
+
+flammehawk:
+
+- [@Github](https://github.com/flammehawk)
+- @Discord fudo#1010
