@@ -2,10 +2,35 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1617670246198
+updated: 1618261504855
 created: 1601508213606
 date: '2022-01-01'
 ---
+
+## 0.36.4
+
+### Features
+#### CLI for Working with Vaults
+![[dendron.topic.cli#vault-commands,1:#*]]
+
+### Enhancements
+- less verbose logs for CLI
+
+## 0.36.3
+
+### Features
+
+#### CLI for Working with Notes
+
+![[dendron.topic.cli#note-commands,1:#*]]
+
+### Enhancements
+- toggle xvault wiki links ([[docs|dendron.topic.config#noxvaultwikilink]])
+- auto detect workspace root if `--wsRoot` not passed to CLI
+- add `--quiet` flag to cli 
+
+### House Cleaning
+- remove legacy note references, use [[doctor|dendron.topic.commands#actions]] with `oldNoteRefToNew` to convert your old note references
 ## 0.36.2
 ### Bug Fixes
 - multiple notes created when clicking on a link with an alias

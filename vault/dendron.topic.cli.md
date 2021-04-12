@@ -2,7 +2,7 @@
 id: 23a1b942-99af-45c8-8116-4f4bb7dccd21
 title: Dendron CLI
 desc: ''
-updated: 1617904418190
+updated: 1618261527116
 created: 1600033791071
 ---
 
@@ -68,7 +68,6 @@ dendron launchEngineServer --wsRoot ~/Dendron/ --port 3005
 ```
 
 ## Note Commands
-- status: [[Early Seed 🌱|dendron.ref.status#early-seed-]]
 
 ```bash
 dendron note <cmd>
@@ -182,3 +181,36 @@ dendron importPod --podId dendron.markdown --wsRoot .
 dendron publishPod --wsRoot . --podId dendron.markdown --noteByName dendron
 ```
 
+## Vault Commands
+
+```sh
+dendron vault <cmd>
+
+vault related commands
+
+Positionals:
+  cmd  a command to run                  [string] [required] [choices: "create"]
+
+Options:
+  --version         Show version number                                [boolean]
+  --help            Show help                                          [boolean]
+  --wsRoot          location of workspace
+  --vault           name of vault
+  --quiet           don't print output to stdout
+  --enginePort      If set, connect to to running engine. If not set, create new
+                    instance of Dendron Engine
+  --useLocalEngine  If set, use in memory engine instead of connecting to a
+                    server                                             [boolean]
+  --vaultPath       path to vault                            [string] [required]
+  --noAddToConfig   if set, don't add vault to dendron.yml             [boolean]
+```
+
+### Actions
+
+#### Create
+
+Create a vault. By default, also add entry to `dendron.yml`. If no `dendorn.yml` is present, will create one. 
+
+```sh
+dendron vault create --vaultPath kevin-test --wsRoot .
+```
