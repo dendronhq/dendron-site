@@ -2,7 +2,7 @@
 id: 23a1b942-99af-45c8-8116-4f4bb7dccd21
 title: Dendron CLI
 desc: ''
-updated: 1618261527116
+updated: 1618324188942
 created: 1600033791071
 ---
 
@@ -14,6 +14,16 @@ The Dendron CLI exposes Dendron's functionality via the command line.
 ```
 npm install -g @dendronhq/dendron-cli
 ```
+
+## Common Options
+
+### wsRoot
+
+This only needs to be set if you are not executing the CLI from within the root of your [[workspace|dendron.concepts#workspace]]
+
+### vault
+
+Path to a [[vaults|dendron.concepts#vaults]]. If not given and not a [[multi vault|dendron.topic.multi-vault]] workspace, Dendron will use the only existing vault. Otherwise, will ask for you to specify a vault
 
 ## Engine Commands
 
@@ -91,18 +101,24 @@ Options:
 
 ```
 
-### Parameters
+### Common Parameters
 
-#### wsRoot
-This only needs to be set if you are not executing the CLI from within the root of your [[workspace|dendron.concepts#workspace]]
-
-#### vault
-This only needs to be set if you are in a [[Multi Vault|dendron.topic.multi-vault]] workspace. This should be the [[name|dendron.topic.config#name]] of your vault
+![[dendron.topic.cli#common-options,1:#engine-commands]]
 
 ### Examples
 
 #### Creating a note
+
+
 ```bash
+# creates hello if it does not exist
+dendron note lookup --query "hello" 
+```
+
+#### Querying a note
+
+```bash
+# retrieves hello.md if it does exist
 dendron note lookup --query "hello" 
 ```
 
