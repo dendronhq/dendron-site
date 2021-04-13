@@ -17,7 +17,7 @@ You can then follow the [[setup instructions|dendron.dev.setup#getting-started]]
 
 A great place to start is with issues labelled with the [size.small label](https://github.com/dendronhq/dendron/labels/size.small) on github. These are items that we picked out specifically for first time contributors and are small self contained task that are well suited for first time contributors.
 
-Leave a comment in the issue if you decide to work on it. Issues that are being worked on will have the [status.wip label](https://github.com/dendronhq/dendron/labels/status.wip).
+Leave a comment in the issue if you decide to work on it. Issues that are being worked on will be assigned to a person already. 
 
 Remember that you are always welcome to ask for help inside the [#dev discord channel](https://discord.gg/AE3NRw9).
 
