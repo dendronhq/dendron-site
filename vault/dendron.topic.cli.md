@@ -2,7 +2,7 @@
 id: 23a1b942-99af-45c8-8116-4f4bb7dccd21
 title: Dendron CLI
 desc: ''
-updated: 1618324188942
+updated: 1618454748504
 created: 1600033791071
 ---
 
@@ -150,10 +150,13 @@ Options:
   --serve           serve over local http server      [boolean] [default: false]
   --stage           serve over local http server
                                        [choices: "dev", "prod"] [default: "dev"]
-  --servePort       port to serve over                         [default: "8080"]
   --output          if set, override output from config.yml             [string]
   --custom11tyPath  if set, path to custom 11ty installation            [string]
 ```
+
+#### Using a different port
+
+![[dendron.topic.publishing.configuration#previewport,1:#*]]
 
 #### Connect to Open Workspace
 
@@ -166,6 +169,9 @@ cd {root/of/workspace}
 # .dendron.port has the port of the current running workspace
 npx dendron buildSiteV2 --wsRoot . --stage dev --serve --enginePort `cat .dendron.port`
 ```
+
+### Using a custom port
+- status: [[Early Seed 🌱|dendron.ref.status#early-seed-]]
 
 ## Pod Commands
 

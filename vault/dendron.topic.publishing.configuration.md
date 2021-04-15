@@ -2,7 +2,7 @@
 id: f2ed8639-a604-4a9d-b76c-41e205fb8713
 title: Configuration
 desc: ''
-updated: 1617385548112
+updated: 1618454728808
 created: 1608528797892
 nav_order: 3
 ---
@@ -95,6 +95,12 @@ Cname used for github pages
 - eg: `vault/assets/images/logo.png`
 
 Used to add a logo image for all headers
+
+### previewPort
+- status: [[Early Seed 🌱|dendron.ref.status#early-seed-]]
+- default: 8080
+
+Set a different port when using the [[buildSite|dendron.topic.cli#buildsite]] command.
 
 ### siteFaviconPath (optional)
 
