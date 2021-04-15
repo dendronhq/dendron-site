@@ -1,58 +1,42 @@
 ---
 id: 1e6c8b49-ef88-4e79-b2df-e9d614c38a53
 title: Triage
-desc: ''
+desc: ""
 updated: 1613821943272
 created: 1610468038819
 ---
 
-This describes how Dendron [issues](https://github.com/dendronhq/dendron/labels?page=1&sort=name-asc) are laid out in github. 
-
-## general
-
-### Epic
-
-This is a collection of multiple tasks
+This describes how Dendron [issues](https://github.com/dendronhq/dendron/labels?page=1&sort=name-asc) are laid out in github.
 
 ## area
 
 different components of dendron
 
-### hierarchy
+-   area.onboard
+-   area.create
+-   area.retrieve
+-   area.structure
+-   area.publish
 
-Everything that has to do with the hierarchy's be it the schema files or other things where they play a role.
+### onboard
 
-### workbench
+Everything to do with initial vault setup and import/export of your notes to other systems.
 
-If you have problems with the workbench components that get provided by dendron like the "Dendron Tree View" or the "Backlink" panel.
+### create
 
-### pods
+Note creation, lookup, snippets and templates. Anything to do with making the note creation process as clear and fast as possible.
 
-Everything about pods, requests for new ones or problems with existing ones
+### retrieve
 
-### seeds
+Retrieval and recall of notes. Backlinks, references, graph view. Things that make engaging with your notes after they're written productive and enjoyable.
 
-Everything about seeds, requests for new ones or problems with existing ones
+### structure
 
-### markdown
+Feature area that helps keep your knowledge base manageable. Includes features that help bring structure and order to your notes like refactoring, multi-vault and schemas.
 
-Features or issues with the parsing of markdown and it's related syntax
+### publish
 
-### engine
-
-Dendron backend
-
-### publishing
-
-Publishing related features
-
-### ui
-
-WebView related functionality
-
-#### graph
-
-Features or Issues related to the Graph
+Static site generation, sending note links and anything that has to do with publishing your notes to a broader community.
 
 ## size
 
@@ -84,6 +68,10 @@ everything that has this label still needs to be looked over by a Contributor or
 
 ## type
 
+### epic
+
+This is a collection of multiple tasks
+
 ### bug
 
 Everything that does not work as intended lands here
@@ -94,4 +82,4 @@ Improvements to existing features
 
 ### feature
 
-Requests for new Features land here
+Requests for new features land here
