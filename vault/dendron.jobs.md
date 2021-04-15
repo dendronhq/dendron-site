@@ -11,7 +11,7 @@ Help us create a better tool for thought.
 
 # Senior Full Stack Engineer
 
-Dendron is an open source note-taking tool built inside the IDE that gives developers the ability to work with and organize information as they do code. Notes are plaintext markdown and can be compiled to static page which can then be deployed and shared anywhere.
+Dendron is an open source note-taking tool built inside the IDE that gives developers the ability to work with and organize information as they do code. Notes are plaintext markdown and can be compiled to static pages which can then be deployed and shared anywhere.
 
 We're looking for engineers that can help us build out our feature set inside the IDE, on the browser, and in our up and coming cloud offering. Help us translate programming concepts like refactoring and debugging into the realm of knowledge management. 
 
@@ -47,7 +47,7 @@ Know that you'll be coming in at the ground level - Dendron launched last summer
 - our stack is all Typescript
 - our frontend is React, Next.js and Chakra UI
 - our backend is express.js
-- our infrastructure (will) consist about having you come on of a series of micro-services running on top of AWS
+- our infrastructure (will) consist about having you code one of a series of micro-services running on top of AWS
 
 ## Apply
 
