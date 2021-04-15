@@ -10,13 +10,7 @@ This describes how Dendron [issues](https://github.com/dendronhq/dendron/labels?
 
 ## area
 
-different components of dendron
-
--   area.onboard
--   area.create
--   area.retrieve
--   area.structure
--   area.publish
+Different vertical feature groups of dendron. These are intended to be long-running areas of investment.
 
 ### onboard
 
