@@ -18,6 +18,21 @@ Diagnosis:
 2. Check if your firewall is blocking port 8080
    - [windows](https://windowsreport.com/is-windows-firewall-blocking-port-program/)
 
+### Changes to vault files are not reflected in preview
+
+In order to get an updated site preview, you currently need to restart VSCode.
+
+### Certain hierarchies are not appearing
+
+If you're only publishing a sub-set of your notes (i.e. not everything under root), all the hierarchies you want to appear on the site must be listed in dendron.yml under siteHierarchies. E.g.
+```
+site: 
+    siteHierarchies:
+        - topics
+        - projects
+        - areas
+```
+
 ### My favicon isn't showing up
 
 This might be due to favicon caching on localhost. It should resolve when published.
