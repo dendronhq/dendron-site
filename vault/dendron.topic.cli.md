@@ -2,7 +2,7 @@
 id: 23a1b942-99af-45c8-8116-4f4bb7dccd21
 title: Dendron CLI
 desc: ''
-updated: 1618454748504
+updated: 1618518169308
 created: 1600033791071
 ---
 
@@ -236,3 +236,46 @@ Create a vault. By default, also add entry to `dendron.yml`. If no `dendorn.yml`
 ```sh
 dendron vault create --vaultPath kevin-test --wsRoot .
 ```
+
+## Workspace Command
+- [[Early Seed 🌱|dendron.ref.status#early-seed-]]
+
+```sh
+dendron workspace <cmd>
+
+workspace related commands
+
+Positionals:
+  cmd  a command to run            [string] [required] [choices: "pull", "push"]
+
+Options:
+  --version         Show version number                                [boolean]
+  --help            Show help                                          [boolean]
+  --wsRoot          location of workspace
+  --vault           name of vault
+  --quiet           don't print output to stdout
+  --enginePort      If set, connect to to running engine. If not set, create new
+                    instance of Dendron Engine
+  --useLocalEngine  If set, use in memory engine instead of connecting to a
+                    server                                             [boolean]
+```
+
+### Actions
+
+#### pull
+
+Run `git pull --rebase` on all vaults inside workspace
+
+#### push
+
+Run `git push` on all vaults inside workspace
+
+- NOTE: push currently skips [[workspace vaults|dendron.concepts#workspace-vault]]
+
+#### addAndCommit
+
+Run `git add . && git commit` on all vaults inside the workspace
+
+#### sync
+
+Run `addAndCommit`, `pull`, and `push` on all vaults inside the workspace.

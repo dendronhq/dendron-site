@@ -2,7 +2,7 @@
 id: c6fd6bc4-7f75-4cbb-8f34-f7b99bfe2d50
 title: Concepts
 desc: ''
-updated: 1617292165439
+updated: 1618510173936
 created: 1595169512265
 nav_order: 3
 ---
@@ -65,6 +65,10 @@ vaults:
 ### Workspace Configuration
 Workspace configuration is located directly underneath the **workspace root**.  By convention, the default configuration is going to be in a folder titled **config**. This is also called the **configuration root**. A workspace can have multiple configurations that initializes your workspace with a different subset of vaults.
 -->
+
+#### Workspace Vault
+
+When cloning a remote vault, you can either specify the remote git endpoint of a vault or a workspace. In the case of a workspace, all vaults from within the workspace will be imported separately. All these vaults are known as workspace vaults.
 
 ### Hierarchies
 
