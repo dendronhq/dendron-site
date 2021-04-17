@@ -2,7 +2,7 @@
 id: 87d90002-f480-45eb-a8c4-d00df4d61557
 title: Dendron Plugin
 desc: ''
-updated: 1617038142481
+updated: 1618675610946
 created: 1605375348464
 ---
 ## Activation
@@ -39,6 +39,48 @@ created: 1605375348464
 
 Whenever you add a new entry with a default, make sure to do the following as well.
 - [ ] update `Extension.test.ts` (we have a test that checks for default config values that will break)
+
+### Add a new button
+
+1. add type
+    - src/commands/LookupCommand.ts
+    ```ts
+    export type LookupEffectType = "copyNoteLink" | "copyNoteRef" | "multiSelect" | "insertNote";
+    ```
+1. add button
+```ts
+export class InsertNoteLinkButton extends DendronBtn {
+  static create(pressed?: boolean) {
+    return new CopyNoteLinkButton({
+      title: "Insert Note",
+      iconOff: "diff-added",
+      iconOn: "menu-selection",
+      type: "insertNote" as LookupEffectType,
+      pressed,
+    });
+  }
+
+  async handle({ quickPick }: ButtonHandleOpts) {
+    if (this.pressed) {
+      let items: readonly DNodePropsQuickInputV2[];
+      if (quickPick.canSelectMany) {
+        items = quickPick.selectedItems;
+      } else {
+        items = quickPick.activeItems;
+      }
+      let links = items
+        .filter((ent) => !PickerUtilsV2.isCreateNewNotePick(ent))
+        .map((note) => NoteUtils.createWikiLink({ note }));
+      if (_.isEmpty(links)) {
+        vscode.window.showInformationMessage(`no items selected`);
+      } else {
+        await clipboard.writeText(links.join("\n"));
+        vscode.window.showInformationMessage(`${links.length} links copied`);
+      }
+    }
+  }
+}
+```
 
 # Dev
 

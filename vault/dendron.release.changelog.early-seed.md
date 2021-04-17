@@ -2,7 +2,7 @@
 id: 3abd00eb-1c1e-4253-aaf5-dcbe20c21850
 title: Early Seed
 desc: ''
-updated: 1618631737845
+updated: 1618687170911
 created: 1604539200840
 published: true
 nav_exclude: true
@@ -14,6 +14,9 @@ nav_exclude: true
 
 #### CLI for Workspace Commands
 ![[dendron.topic.cli#workspace-command,1:#*]]
+
+#### Insert Note Command
+![[dendron.topic.commands#insert-note,1:#*]]
 
 ### Enhancements
 - support custom port for preview ([[docs|dendron.topic.publishing.configuration#previewport]])

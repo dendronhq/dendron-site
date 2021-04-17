@@ -75,6 +75,13 @@
             "skipDocs": false
         },
         {
+            "key": "dendron.insertNote",
+            "title": "Dendron: Insert Note",
+            "group": "notes",
+            "desc": "Insert note contents",
+            "skipDocs": false
+        },
+        {
             "key": "dendron.moveNote",
             "title": "Dendron: Move Note",
             "group": "notes",

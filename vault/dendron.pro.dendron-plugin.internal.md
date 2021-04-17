@@ -2,7 +2,7 @@
 id: 4b8f0470-dacb-433b-8d0c-f5a7d8f5245d
 title: Lookup
 desc: ''
-updated: 1617510555993
+updated: 1618676174637
 created: 1608838048476
 ---
 
@@ -24,21 +24,7 @@ refreshButtons(buttons) {
 }
 ```
 
-```ts
-updatePickerBehavior {
-    @updateBehaviorByEffect
-
-    if changedNoteType {
-        @updateBehaviorByNoteType
-    }
-
-    if changedFilterType
-        @provider.onUpdatePickerItem
-
-    quickpick.oncreate :=
-}
-```
-
+- [[updatePickerBehavior|dendron.pro.dendron-plugin.internal.lookup-modifiers#updatepickerbehavior]]
 ## Example
 
 ### Normal
