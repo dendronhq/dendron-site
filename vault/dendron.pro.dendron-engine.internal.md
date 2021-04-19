@@ -2,7 +2,7 @@
 id: 26be950a-eaf3-4684-bddd-64be52273b73
 title: Internal
 desc: ''
-updated: 1614924289100
+updated: 1618781599704
 created: 1608527496774
 ---
 
@@ -79,3 +79,18 @@ createVault(vault, noAddToConfig):
     config.add vault
 ```
 
+# Sync Vault
+
+- src/workspace.ts
+```ts
+sync {
+    emptyRemoteVaults.map {
+        @cloneVault
+    }
+}
+
+cloneVault {
+    
+}
+
+```

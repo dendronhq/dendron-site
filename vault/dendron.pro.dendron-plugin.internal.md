@@ -2,7 +2,7 @@
 id: 4b8f0470-dacb-433b-8d0c-f5a7d8f5245d
 title: Lookup
 desc: ''
-updated: 1618676174637
+updated: 1618781640046
 created: 1608838048476
 ---
 
@@ -116,25 +116,7 @@ showWelcomeOrWhatsNew {
 
 - note: `dendron.code-workspace` is completely overwritten when running setup
 
-# Vault Add
 
-- src/commands/VaultAddCommand.ts 
-
-```ts
-execute:
-    vaults = handleRemote
-
-handleRemote:
-    repoDir := 
-    ensureDir(repoDir)
-    git clone gitRepo
-    vaults := repoDir
-    vaults.map { addVaultToWorkspace }
-
-addVaultToWorkspace vault: 
-    createVault(vault)
-    addToWorkspaceFile(vault)
-```
 
 
 # Reload Index
