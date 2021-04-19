@@ -5,9 +5,8 @@ desc: ''
 updated: 1618676177955
 created: 1618674343209
 ---
-
-
 ### updatePickerBehavior
+
 ```ts
 updatePickerBehavior {
     @updateBehaviorByEffect
@@ -23,10 +22,11 @@ updatePickerBehavior {
 }
 ```
 
+* * *
 
-***
+### \_onAcceptNewNote
 
-### _onAcceptNewNote
-- see [[_onAcceptNewNote|dendron.pro.dendron-plugin.internal.lookup-createNewNote#_onacceptnewnote]]
+- see [[_onAcceptNewNote|pro.dendron-plugin.internal.lookup-createNewNote#_onacceptnewnote]]
 
 ### picker.onCreate
+

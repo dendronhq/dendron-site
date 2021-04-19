@@ -5,18 +5,18 @@ desc: ''
 updated: 1610160307560
 created: 1610160007286
 ---
+## Summary
 
-## Summary 
 - check for dendron.code-workspace 
 - start engine (local server that does indexing)
 - reload workspace (connect to the local server)
 - activate file watchers 
 
 ## Code
-- file: plugin-core/src/_extension.ts
 
+- file: plugin-core/src/\_extension.ts
 
-### Check for workspace 
+### Check for workspace
 
 ```ts
 _activate {
@@ -47,7 +47,7 @@ reloadWorkspace {
 }
 ```
 
-####  postReloadWorkspace
+#### postReloadWorkspace
 
 ```ts
 postReloadWorkspace {
@@ -86,8 +86,9 @@ constructor {
 ```
 
 ### startServer
-- file: src/_extension.ts: 
-- related: [[launch|dendron.pro.dendron-api-server.internal#launch]]
+
+- file: src/\_extension.ts: 
+- related: [[launch|pro.dendron-api-server.internal#launch]]
 
 ```ts
 startServer {
@@ -99,7 +100,8 @@ startServer {
 ```
 
 ### updateEngine
-- [[workspace.vaults|dendron.pro.dendron-plugin.internal#workspacevaults]]
+
+- [[workspace.vaults|pro.dendron-plugin.internal#workspacevaults]]
 
 ```ts
 class EngineAPIService {
@@ -120,9 +122,9 @@ get vaults {
 
 ```
 
-
 ### ws.reloadWorkspace
 
 ```ts
 executeCommand(RELOAD_INDEX)
 ```
+

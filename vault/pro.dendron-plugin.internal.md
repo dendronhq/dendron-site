@@ -5,7 +5,6 @@ desc: ''
 updated: 1618781640046
 created: 1608838048476
 ---
-
 ```ts
 show {
     quickpick := create
@@ -24,7 +23,8 @@ refreshButtons(buttons) {
 }
 ```
 
-- [[updatePickerBehavior|dendron.pro.dendron-plugin.internal.lookup-modifiers#updatepickerbehavior]]
+- [[updatePickerBehavior|pro.dendron-plugin.internal.lookup-modifiers#updatepickerbehavior]]
+
 ## Example
 
 ### Normal
@@ -83,7 +83,6 @@ onTriggerButton {
 - SchemaWatcher
 - FileWatcher
 
-
 # Welcome Message
 
 - file: plugin-core/src/\_extension.ts
@@ -116,9 +115,6 @@ showWelcomeOrWhatsNew {
 
 - note: `dendron.code-workspace` is completely overwritten when running setup
 
-
-
-
 # Reload Index
 
 ```ts
@@ -127,3 +123,4 @@ engine.vaultsv3.map {
 
 }
 ```
+

@@ -5,7 +5,6 @@ desc: ''
 updated: 1616949617253
 created: 1598651458825
 ---
-
 ## Getting Started
 
 ### 1. Requirements
@@ -43,7 +42,7 @@ At the root of the monorepo, open `dendron-main.code-workspace`. Open this with 
 
 ### 5. Start Debugging (the plugin)
 
-- NOTE: you don't need to do this if you are not directly working on the extension (eg. you're working on the [[server|dendron.pro.dendron-next-server]])
+- NOTE: you don't need to do this if you are not directly working on the extension (eg. you're working on the [[server|pro.dendron-next-server]])
 
 To start an instance of the Dendron with the Debugger, Run `Extension (plugin-core)` from the debug panel in vscode
 
@@ -54,6 +53,7 @@ _Note: Running via Run -> Start Debugging will not work unless you've previously
 ## Tips
 
 ### Watch Monorepo
+
 To continuously compile all dependencies, run the following
 
 ```bash

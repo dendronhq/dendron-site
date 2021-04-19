@@ -20,7 +20,7 @@ You can use [[intellisense|dendron.ref.intellisense]] to preview snippets and us
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/tab-autocomplete.gif)
 
-![[dendron.pro.dendron-snippet-maker]]
+![[pro.dendron-snippet-maker]]
 
 ## Default Snippets
 

@@ -5,15 +5,15 @@ desc: ''
 updated: 1614811289748
 created: 1604236041570
 ---
-
 ## Summary
+
 If you would like to contribute to the development of dendron, checkout out the [repo](https://github.com/dendronhq/dendron) from github.
 
 You can then follow the [[setup instructions|dendron.dev.setup#getting-started]].
 
 - NOTE: the above setup instructions are for the dendron plugin. See the below links if you are working on a different part of Dendron: 
-    - [[Markdown Preview|dendron.pro.dendron-preview.setup]]
-    - [[Markdown Links|dendron.pro.markdown-links.setup]]
+  - [[Markdown Preview|pro.dendron-preview.setup]]
+  - [[Markdown Links|pro.markdown-links.setup]]
 
 A great place to start is with issues labelled with the [size.small label](https://github.com/dendronhq/dendron/labels/size.small) on github. These are items that we picked out specifically for first time contributors and are small self contained task that are well suited for first time contributors.
 
@@ -38,13 +38,13 @@ Afterwards, you can see how specific features are implemented through the [vscod
 - [ ] if its your first pull request to Dendron, watch out for the [CLA](https://en.wikipedia.org/wiki/Contributor_License_Agreement) bot that will ask you to agree to Dendron's CLA
 - [ ] if its your first pull request and you're on our Discord, make sure that Kevin gives you the [[horticulturalist|dendron.community.roles#horticulturalist]] role  👨‍🌾👩‍🌾
 
-
 ## Commit Style
 
 - we follow [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/) with the following tags
 - categories:
-    - feat: feature - introduce new functionality
-    - enhance: enhancement - improve existing functionality
-    - fix: make something not broken
-    - chore: backend improvements
-    - spike: not complete commit
+  - feat: feature - introduce new functionality
+  - enhance: enhancement - improve existing functionality
+  - fix: make something not broken
+  - chore: backend improvements
+  - spike: not complete commit
+

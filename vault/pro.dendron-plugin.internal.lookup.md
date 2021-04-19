@@ -5,10 +5,10 @@ desc: ''
 updated: 1618678985175
 created: 1610205567544
 ---
-
 ## Summary
 
 ### Lookup
+
 - src/components/lookup/LookupControllerV2.ts
 
 ```ts
@@ -26,12 +26,12 @@ show {
 ```
 
 - next
-    - [[updatePickerBehavior|dendron.pro.dendron-plugin.internal.lookup#updatepickerbehavior]]
+  - [[updatePickerBehavior|dendron.pro.dendron-plugin.internal.lookup#updatepickerbehavior]]
 
 ### updatePickerBehavior
 
-
 ### provide
+
 - src: src/components/lookup/LookupProviderV2.ts
 
 ```ts
@@ -76,7 +76,8 @@ onUpdatePickerItem {
 ```
 
 ### createPickerItemsFromEngine
-- see [[queryNotes|dendron.pro.dendron-engine.internal.lookup#querynotes]]
+
+- see [[queryNotes|pro.dendron-engine.internal.lookup#querynotes]]
 
 ```ts
 createPickerItemsFromEngine {
@@ -86,3 +87,4 @@ createPickerItemsFromEngine {
     ...
 }
 ```
+
