@@ -2,7 +2,7 @@
 id: f2ed8639-a604-4a9d-b76c-41e205fb8713
 title: Configuration
 desc: ''
-updated: 1618692928958
+updated: 1618857933832
 created: 1608528797892
 nav_order: 3
 ---
@@ -97,7 +97,7 @@ Cname used for github pages
 Used to add a logo image for all headers
 
 ### previewPort
-- status: [[Early Seed 🌱|dendron.ref.status#early-seed-]]
+
 - default: 8080
 
 Set a different port when using the [[buildSite|dendron.topic.cli#buildsite]] command.

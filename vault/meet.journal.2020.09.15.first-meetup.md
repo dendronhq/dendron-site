@@ -2,7 +2,7 @@
 id: ec4aa793-acb7-447d-93a7-6f2c5289bbf9
 title: Agenda
 desc: ''
-updated: 1599580612448
+updated: 1618852109909
 created: 1599580612448
 stub: false
 start: '2020.09.15 17:00'
@@ -68,7 +68,7 @@ These projects don't have an end date. They are something we'll be continuously 
   - i'm doing everything in dendron
 
 - kiran
-  - know c
+  - know 
 
 - what do people want to take on?
   - community 

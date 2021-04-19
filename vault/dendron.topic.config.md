@@ -2,7 +2,7 @@
 id: eea2b078-1acc-4071-a14e-18299fc28f48
 title: Config
 desc: ''
-updated: 1618692951448
+updated: 1618857933818
 created: 1595261816971
 ---
 
@@ -18,7 +18,7 @@ Dendron configuration currently lives in two places:
 ## Dendron Config
 
 ### defaultInsertHierarchy
-- status: [[Early Seed 🌱|dendron.ref.status#early-seed-]]
+
 
 Execute [[Insert Note|dendron.topic.commands#insert-note]] with a hierarchy in place
 

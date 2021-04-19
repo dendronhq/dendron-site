@@ -2,7 +2,7 @@
 id: 23a1b942-99af-45c8-8116-4f4bb7dccd21
 title: Dendron CLI
 desc: ''
-updated: 1618518169308
+updated: 1618857933820
 created: 1600033791071
 ---
 
@@ -171,7 +171,7 @@ npx dendron buildSiteV2 --wsRoot . --stage dev --serve --enginePort `cat .dendro
 ```
 
 ### Using a custom port
-- status: [[Early Seed 🌱|dendron.ref.status#early-seed-]]
+
 
 ## Pod Commands
 
@@ -238,7 +238,7 @@ dendron vault create --vaultPath kevin-test --wsRoot .
 ```
 
 ## Workspace Command
-- [[Early Seed 🌱|dendron.ref.status#early-seed-]]
+
 
 ```sh
 dendron workspace <cmd>

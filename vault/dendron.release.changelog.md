@@ -2,10 +2,36 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1618263292988
+updated: 1618857831338
 created: 1601508213606
 date: '2022-01-01'
 ---
+
+
+## 0.37.2
+
+### Bug Fixes
+- correctly index notes added outside of Dendron
+
+### Docs
+- [[RFC 8 - Multi Publish|dendron://dendron-site/dendron.rfc.8-multi-publish]]
+
+## 0.37.1
+
+### Features
+
+#### CLI for Workspace Commands
+![[dendron.topic.cli#workspace-command,1:#*]]
+
+#### Insert Note Command
+![[dendron.topic.commands#insert-note,1:#*]]
+
+### Enhancements
+- support custom port for preview ([[docs|dendron.topic.publishing.configuration#previewport]])
+
+## 0.37.0
+
+* * *
 ## 0.36.4
 
 ### Features
