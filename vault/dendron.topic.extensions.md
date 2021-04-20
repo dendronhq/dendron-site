@@ -2,7 +2,7 @@
 id: 301e4129-6933-4be7-a4bd-8125171360d8
 title: Extensions
 desc: ''
-updated: 1609795837739
+updated: 1618930601980
 created: 1596643515473
 stub: false
 ---
@@ -22,7 +22,6 @@ Since Dendron runs on top of VSCode, it means that you also have access to thous
   - sequence diagrams
   - pandoc support
   - code chunks
-- [Material Theme](https://marketplace.visualstudio.com/items?itemName=equinusocio.vsc-material-theme) 
   - beautiful colors built using the [Material design system](https://material.io/) 
 - [Dendron Paste Image](https://marketplace.visualstudio.com/items?itemName=dendron.dendron-paste-image)
   - easily add images from your clipboard to your markdown files
