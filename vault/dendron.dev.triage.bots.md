@@ -16,6 +16,6 @@ Please see the [config file](https://github.com/dendronhq/dendron/blob/master/.g
 
 ## Stale issue bot
 
-Every repo starts to accumulate cruft which eventually slows down planning and execution since we're not sure if issues still need work. The stale issue bot is intended to identify issues that haven't had any activity for <n> days and will allow the triage team to decide whether they're still valid. Note: there's a cooldown period between an issue marked "won't fix" and when it's actually closed. This gives us about a week to go through and decide if the issue continues to be actionable.
+Every repo starts to accumulate cruft which eventually slows down planning and execution since we're not sure if issues still need work. The stale issue bot is intended to identify issues that haven't had any activity for `x` days and will allow the triage team to decide whether they're still valid. Note: there's a cooldown period between an issue marked "won't fix" and when it's actually closed. This gives us about a week to go through and decide if the issue continues to be actionable.
 
 Please see the [config file](https://github.com/dendronhq/dendron/blob/master/.github/stale.yml) for the latest parameters we're using.
