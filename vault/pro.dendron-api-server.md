@@ -2,7 +2,7 @@
 id: 554d3c62-29da-4c86-9d16-f910e36ad7b1
 title: Dendron API Server
 desc: ''
-updated: 1616430818937
+updated: 1618956831962
 created: 1606628243560
 ---
 
@@ -20,8 +20,6 @@ curl --location --request POST 'http://localhost:3005/api/workspace/initialize' 
     }
 }'
 ```
-
-
 
 # APIs
 
