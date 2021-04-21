@@ -65,7 +65,7 @@ The following describes how to prepare your notes for publication using [[Dendro
 
 ### Setup
 
-In order to to use the 11ty based publishing, initialize your workspace with the following commands.
+In order to to use the [11ty](https://www.11ty.dev/) based publishing, initialize your workspace with the following commands.
 
 ```bash
 npm init -y
