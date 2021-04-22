@@ -2,7 +2,7 @@
 id: eea2b078-1acc-4071-a14e-18299fc28f47
 title: Commands
 desc: ""
-updated: 1618860331196
+updated: 1619103162011
 created: 1595261816971
 ---
 
@@ -97,7 +97,9 @@ Transform URL in clipboard to nicely formatted markdown link
 
 - shortcuts: none
 
-Rename a note and all backlinks
+Rename a note and all backlinks.
+
+If the title is the same as what Dendron would autogenerate (kebab-case capitalized), then refactor will change the title as well. Otherwise, it will preserve the existing title.
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/command-rename.gif)
 

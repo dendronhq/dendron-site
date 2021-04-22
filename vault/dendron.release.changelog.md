@@ -2,7 +2,7 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1618864389653
+updated: 1619103381926
 created: 1601508213606
 date: '2022-01-01'
 ---
@@ -630,7 +630,7 @@ You can now both build your notes for publication and preview it from inside vsc
 - better fuzzy search for lookup
 - publishing v2 enhancements
   - abbreviation support for 11ty publishing ([[docs|dendron.topic.markdown#abbreviation]])
-  - better note titles ([[docs|dendron.ref.titles]])
+  - better note titles ([[docs|dendron.guides.best-practices#naming]])
   - shrink size of published page 10x
   - fix left nav position of current active page
   - ability to override output folder from CLI when building site
