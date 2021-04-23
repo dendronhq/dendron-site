@@ -2,7 +2,7 @@
 id: eea2b078-1acc-4071-a14e-18299fc28f47
 title: Commands
 desc: ""
-updated: 1619103162011
+updated: 1619215494997
 created: 1595261816971
 ---
 
@@ -258,7 +258,6 @@ Go down the hierarchy
 ## Workspace
 
 ### Vault Add
-
 - shortcuts: none
 
 Add a new vault to your workspace.
