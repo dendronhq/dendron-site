@@ -2,7 +2,7 @@
 id: 98f6d928-3f61-49fb-9c9e-70c27d25f838
 title: Teams
 desc: ""
-updated: 1617643968030
+updated: 1619211448487
 created: 1617062224981
 ---
 
@@ -48,10 +48,8 @@ This goes over some best practices when using Dendron for teams. To get started,
 │   ├── acme.onboarding
 │   ├── team.backend.onboarding
 │   ├── team.backend.journal.2020.03.29
-│   └── ...
-├── user-alice
-│   └── user.alice.journal.2020.03.29
-└── user-bob
+│   ├── ...
+│   ├── user.alice.journal.2020.03.29
     └── user.bob.journal.2020.03.29
 ```
 
