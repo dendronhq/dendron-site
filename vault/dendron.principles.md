@@ -2,7 +2,7 @@
 id: 7fcebd7d-6411-4c9d-8baf-65629dc018a1
 title: Principles
 desc: ''
-updated: 1615524832173
+updated: 1619212498244
 created: 1600440828180
 stub: false
 nav_order: 1.3

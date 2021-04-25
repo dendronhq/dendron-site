@@ -24,8 +24,7 @@
             "group": "notes",
             "keybindings": {
                 "key": "ctrl+shift+i",
-                "mac": "cmd+shift+i",
-                "when": "editorFocus"
+                "mac": "cmd+shift+i"
             },
             "desc": "Create a global journal note",
             "docLink": "dendron.topic.special-notes.md",
