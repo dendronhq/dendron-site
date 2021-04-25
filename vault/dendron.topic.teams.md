@@ -2,7 +2,7 @@
 id: 98f6d928-3f61-49fb-9c9e-70c27d25f838
 title: Teams
 desc: ""
-updated: 1617643968030
+updated: 1619215533243
 created: 1617062224981
 ---
 
@@ -10,14 +10,64 @@ created: 1617062224981
 
 This goes over some best practices when using Dendron for teams. To get started, you can use this [[quickstart|dendron.topic.teams.quickstart]].
 
+## Workspace
+
+We recommend setting up a workspace like the one below to get started. You can clone the following from our [github template](https://github.com/dendronhq/org-workspace-template). 
+
+Use [[Vault Add|dendron.topic.commands#vault-add]] to create the following vaults. Foollow the instructions of [[converting a local vault to a remote vault|dendron.guides.cook#converting-a-local-vault-to-a-remote-vault]] to end up with the below setup (replace TODO with the url of your remote vaults).
+
+```yml
+version: 1
+vaults:
+    -
+        fsPath: repos/org-private
+        remote:
+            type: git
+            url: 'TODO'
+        name: private
+    -
+        fsPath: repos/org-dev
+        name: dev
+        remote:
+            type: git
+            url: 'TODO'
+useFMTitle: true
+useNoteTitleForLink: true
+usePrettyRefs: false
+noXVaultWikiLink: true
+site:
+    copyAssets: true
+    siteHierarchies:
+        - handbook
+    siteRootDir: docs
+    usePrettyRefs: true
+    siteUrl: 'TODO'
+    title: Dendron
+    duplicateNoteBehavior:
+        action: useVault
+        payload:
+            - dendron
+            - handbook
+            - notes
+            - aws
+initializeRemoteVaults: true
+useKatex: false
+defaultInsertHierarchy: templates
+```
+
 ## Vaults
 
-- core
-  - {company}: your main workspace. unless there's a good reason, your notes should go here.
-  - user-{name}: individual specific vaults
-- optional
-  - {company}-public: material you want to share publicly (eg. FAQs, documentation, blogs, etc)
-  - {company}-private: material you never want to share publicly
+### main
+- org-private: 
+  - for company private notes
+- org-dev: 
+  - for developer related notes
+
+### optional
+- org-admin: 
+  - for sensitive data that you don't want to share with everyone in the company 
+- org-public
+  - for company material that you plan on publishing publically
 
 ## Schemas
 - NOTE: you can get a copy of these schemas by adding this [vault](https://github.com/kevinslin/schemas)
@@ -29,12 +79,11 @@ This goes over some best practices when using Dendron for teams. To get started,
 - user.yml
   - this is used for users
 
-## Other Hiearchies
-- standup
-  - `standup.journal.*`: good for < 10 people
-  - once you expand, you can division standup journals into teams
-    - `team.{name}.standup.journal.*`
-  - you can use [[note references|dendron.topic.refs]] to include standup updates from users individual `user` hiearchy
+## Hiearchies
+- user.{username}.journal.{date}: use for daily updates from individual people
+- org.standup.{date}: use for standups
+  - when the company grows, you can divide org into team specific standups (s/org/team.{teamName}/g)
+- meet.journal.{date}: use for notes on meetings
 
 ## Example Workspace
 
@@ -43,15 +92,13 @@ This goes over some best practices when using Dendron for teams. To get started,
 ├── .
 ├── dendron.code-workspace
 ├── dendron.yml
-├── acme/
+├── org-private/
 │   ├── root.md
 │   ├── acme.onboarding
 │   ├── team.backend.onboarding
-│   ├── team.backend.journal.2020.03.29
-│   └── ...
-├── user-alice
-│   └── user.alice.journal.2020.03.29
-└── user-bob
+│   ├── team.backend.standup.2020.03.29
+│   ├── ...
+│   ├── user.alice.journal.2020.03.29
     └── user.bob.journal.2020.03.29
 ```
 
