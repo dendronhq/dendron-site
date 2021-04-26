@@ -2,7 +2,7 @@
 id: d84d5b33-76d3-4190-9a32-a728dc0eb97e
 title: Release Notes (version 0.38)
 desc: ''
-updated: 1618864420293
+updated: 1619458692862
 created: 1618857996575
 ---
 
@@ -34,6 +34,5 @@ You can see an overview of all roles [[here|dendron.community.roles]]
 
 
 ### Changelog
-
 - [[0.37.2|dendron.release.changelog#0372]]
 - [[0.37.1|dendron.release.changelog#0371]]

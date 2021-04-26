@@ -2,7 +2,7 @@
 id: eea2b078-1acc-4071-a14e-18299fc28f48
 title: Config
 desc: ''
-updated: 1619456396981
+updated: 1619460230417
 created: 1595261816971
 ---
 
@@ -45,7 +45,7 @@ Turn on to enable [[mermaid support|dendron.topic.markdown#diagrams]]
 
 ### noCaching
 
-Disable dendron caching features
+Disable dendron [[caching|dendron.ref.caching]]
 
 ### noLegacyNoteRef
 - default: true

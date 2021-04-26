@@ -2,11 +2,39 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1619103381926
+updated: 1619462441114
 created: 1601508213606
 date: '2022-01-01'
 ---
 
+
+# 0.39
+### Features
+#### Faster startup performance 
+
+Dendron startup is now up to 5x faster for large workspaces 🚀🚀🚀
+Prior to this release, Dendron re-indexes all files at startup. We're now smarter about this and will read data from our cache instead if the note contents have not changed. You can read about the details [[here|dendron.ref.caching]].
+
+### Enhancements
+- [[Managed Publishing (NEW)|dendron.topic.managed-publishing]] is now compatible with version 0.37 of Dendron 
+- Add progress bar to Dendron: Show Note Graph
+- MoveNoteCommand will not prompt for vaults if not multi-vault
+
+### Bug Fixes
+- Create daily journal note fails if there's no note open
+
+### House Cleaning
+
+#### Telemetry
+
+With this release of Dendron, we've added limited telemetry that is opt-out by default.
+
+This is to help us understand how many people are using Dendron as well as measure the impact on performance when we introduce new features. We **do not and will never** read the data inside **your notes**.
+
+You can see the full list of information we collect and why we do it in our [[telemetry documentation|dendron.topic.telemetry]] as well as instructions on how to opt out of telemetry.
+
+* * *
+# 0.38.0
 
 ## 0.37.2
 
