@@ -2,7 +2,7 @@
 id: eea2b078-1acc-4071-a14e-18299fc28f48
 title: Config
 desc: ''
-updated: 1618857933818
+updated: 1619455022533
 created: 1595261816971
 ---
 
@@ -18,7 +18,6 @@ Dendron configuration currently lives in two places:
 ## Dendron Config
 
 ### defaultInsertHierarchy
-
 
 Execute [[Insert Note|dendron.topic.commands#insert-note]] with a hierarchy in place
 
@@ -42,10 +41,18 @@ With this set, you can pick the vault for new notes.
 
 Turn on to enable [[mermaid support|dendron.topic.markdown#diagrams]]
 
+### noCaching
+
+Disable dendron caching features
+
 ### noLegacyNoteRef
 - default: true
 
 Disable dendron legacy note refs
+
+### noTelemetry
+
+Disable [[telemetry|dendron.topic.telemetry]]
 
 ### hierarchyDisplay
 - default: true
