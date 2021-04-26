@@ -25,3 +25,4 @@ docs
 
 dendron-aws-vault
 package-lock.json
+vault/.dendron.cache.json
