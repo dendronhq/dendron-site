@@ -23,8 +23,8 @@ vaults:
         fsPath: vault
         name: dendron-site
 usePrettyRefs: true
-enableCaching: true
 version: 1
 useFMTitle: true
 mermaid: true
-useNoteTitleForLink: true
+useTitleForLink: true
+

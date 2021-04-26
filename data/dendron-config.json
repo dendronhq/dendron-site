@@ -366,6 +366,20 @@
             "skipDocs": false
         },
         {
+            "key": "dendron.enableTelemetry",
+            "title": "Dendron: Enable Telemetry",
+            "group": "workspace",
+            "desc": "Enable telemetry",
+            "skipDocs": false
+        },
+        {
+            "key": "dendron.disableTelemetry",
+            "title": "Dendron: Disable Telemetry",
+            "group": "workspace",
+            "desc": "Disable telemetry",
+            "skipDocs": false
+        },
+        {
             "key": "dendron.pasteLink",
             "title": "Dendron: Paste Link",
             "group": "workspace",
