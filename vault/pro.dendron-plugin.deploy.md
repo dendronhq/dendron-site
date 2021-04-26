@@ -2,7 +2,7 @@
 id: 2976e5df-c8b4-4176-9d3f-fe4220dfa9b6
 title: Deploy
 desc: ''
-updated: 1617039146949
+updated: 1619388574064
 created: 1613863275374
 ---
 
@@ -41,18 +41,7 @@ yarn bootstrap:build
 setRegLocal
 verdaccio
 
-gbD integ-publish
-gco -b integ-publish
-
-version=prepatch
-lerna version $version --no-git-tag-version 
-
-git add .
-git commit -m "integ: publish $version"
-git push --set-upstream origin integ-publish --force
-
-lerna publish from-package --ignore-scripts
-node bootstrap/scripts/genMeta.js
+./bootstrap/scripts/createBuild.sh
 ```
 
 - pull in new changes
@@ -61,17 +50,7 @@ WORKSPACE_BUILD=/mnt/one/dendron-build
 WORKSPACE_BUILD=/Users/kevinlin/projects/dendronv2/dendron/build/dendron/packages/plugin-core
 cd $WORKSPACE_BUILD
 
-git reset --hard
-git clean -f
-gco master
-git fetch
-gbD integ-publish
-git checkout --track origin/integ-publish
-./scripts/pack_and_install.sh
-
-# combine the above
-./scripts/pack_and_install.sh
-./scripts/publish-insider.sh
+./scripts/pullBuild.sh
 ```
 
 - test changes
