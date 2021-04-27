@@ -2,7 +2,7 @@
 id: 3472226a-ff3c-432d-bf5d-10926f39f6c2
 title: Links
 desc: ""
-updated: 1617305673972
+updated: 1619550834270
 created: 1595003088839
 stub: false
 ---
@@ -51,7 +51,7 @@ For links to a file format Dendron does not support, you can use the highlight t
 
 ## Cross Vault Links
 
-Cross vault links are a way of exactly specifying a note in a [[multi vault|dendron.topic.multi-vault]] workspace. You can turn a regular link into a cross vault link by adding `dendron://$vaultName/` prefix where `$vaultName` is the [[name|dendron.topic.config#name]] of your vault.
+Cross vault links are a way of exactly specifying a note in a [[multi vault|dendron.topic.multi-vault]] workspace. You can turn a regular link into a cross vault link by adding `dendron://$vaultName/` prefix where `$vaultName` is the [[name|dendron.topic.config.dendron#name]] of your vault.
 
 Some examples:
 

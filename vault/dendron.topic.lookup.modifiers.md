@@ -2,7 +2,7 @@
 id: ad270a7d-2aed-4273-8319-eb6536e38b29
 title: Modifiers
 desc: ''
-updated: 1618853403108
+updated: 1619550892661
 created: 1604883459208
 ---
 Modifiers allow you to update the behavior of lookup. You can trigger a modifier by clicking on the modifier icon or passing custom arguments to `dendron.lookup` when defining a custom keyboard shortcut. 
@@ -54,7 +54,7 @@ selection is turned into a link to newly created note. note path is set to `{cur
 
 - you can control this behavior using `dendron.linkSelectAutoTitleBehavior`
 
-![[dendron.topic.config#dendronlinkselectautotitlebehavior,1:#*]]
+![[dendron.topic.config.vscode-config#dendronlinkselectautotitlebehavior,1:#*]]
 
 ## noteType
 

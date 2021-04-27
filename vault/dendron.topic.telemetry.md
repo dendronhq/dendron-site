@@ -2,7 +2,7 @@
 id: 84df871b-9442-42fd-b4c3-0024e35b5f3c
 title: Telemetry
 desc: ''
-updated: 1619535658623
+updated: 1619551188420
 created: 1619460500071
 ---
 
@@ -72,7 +72,7 @@ When telemetry is disabled or enabled, we collect information about the event to
 
 ## How to opt out of data collection
 
-You can disable telemetry from Dendron either on a per-workspace level or globally. To disable on a workspace level, set [[noTelemetry|dendron.topic.config#notelemetry]] to `true` in `dendron.yml`.
+You can disable telemetry from Dendron either on a per-workspace level or globally. To disable on a workspace level, set [[noTelemetry|dendron.topic.config.dendron#notelemetry]] to `true` in `dendron.yml`.
 
 To disable telemetry across all workspaces, you can run the [[Disable Telemetry|dendron.topic.commands#disable-telemetry]] command.
 

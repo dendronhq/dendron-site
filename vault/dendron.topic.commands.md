@@ -2,7 +2,7 @@
 id: eea2b078-1acc-4071-a14e-18299fc28f47
 title: Commands
 desc: ""
-updated: 1619460606077
+updated: 1619550772139
 created: 1595261816971
 ---
 
@@ -83,7 +83,7 @@ Delete a note or schema
 
 Insert the contents from a note into another note. You can configure a starting hierarchy for this command. Useful if you designated a hierarchy (eg. `templates`) for insertions.
 
-- configuration: [[defaultInsertHierarchy|dendron.topic.config#defaultinserthierarchy]]
+- configuration: [[defaultInsertHierarchy|dendron.topic.config.dendron#defaultinserthierarchy]]
 
 ### Move Note
 

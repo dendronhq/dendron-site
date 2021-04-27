@@ -2,7 +2,7 @@
 id: 401c5889-20ae-4b3a-8468-269def4b4865
 title: Cookbook
 desc: ''
-updated: 1618156310626
+updated: 1619549685692
 created: 1595952505024
 nav_order: 8.9
 toc: true
@@ -323,7 +323,7 @@ Use the [[Vault Add|dendron.topic.commands#remote-vault]] command via the [[comm
 
 1. If you're vault is committed along with your workspace, use `git rm --cached` to remove it from the workspace repo and use `git init` to initialze your vault as a standalone repo
 1. Create a remote repo and push your vault to that repo
-1. Run [[Configure (yaml)|dendron.topic.commands#configure-yaml]] and add the git [[remote|dendron.topic.config#remote]] urls to the repo. the entries should look like what you see below
+1. Run [[Configure (yaml)|dendron.topic.commands#configure-yaml]] and add the git [[remote|dendron.topic.config.dendron#remote]] urls to the repo. the entries should look like what you see below
 
 ### Using Dendron with Code
 
@@ -334,15 +334,15 @@ We are working on being able to run Dendron without the need for a workspace. Yo
 ### Renaming a Vault
 
 We currently haven't implemented a command to do but you can use the current manual steps to implement. 
-1. Update the [[name|dendron.topic.config#name]] property in `dendron.yml`
-1. Update the name property on the corresponding [[workspace folders|dendron.topic.config#folders]]
+1. Update the [[name|dendron.topic.config.dendron#name]] property in `dendron.yml`
+1. Update the name property on the corresponding [[workspace folders|dendron.topic.config.vscode-config#folders]]
 1. Replace any [[cross Vault Links|dendron.topic.links#cross-vault-links]] with the name of the new workspace
   - ctrl search `dendron://{vaultName}` and replace it with the new vaultName 
 1. Run `> Reload Window` when these steps are completed
 
 ### Private Vaults
 
-You can create private vaults that won't be published or initialized when others clone the workspace. To do this, run [[Vault Add|dendron.topic.commands#vault-add]] and add your private vault as a local vault. After it's been added, run [[Configure (yaml)|dendron.topic.commands#configure-yaml]] and set the [[visibility|dendron.topic.config#visibility]] of the vault to "private" in `dendron.yml`.
+You can create private vaults that won't be published or initialized when others clone the workspace. To do this, run [[Vault Add|dendron.topic.commands#vault-add]] and add your private vault as a local vault. After it's been added, run [[Configure (yaml)|dendron.topic.commands#configure-yaml]] and set the [[visibility|dendron.topic.config.dendron#visibility]] of the vault to "private" in `dendron.yml`.
 
 ```yml
 vaults:
