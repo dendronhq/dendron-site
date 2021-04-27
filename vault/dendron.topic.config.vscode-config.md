@@ -2,7 +2,7 @@
 id: 19a0ea9d-7292-4a68-bc6f-ffd462a54bc5
 title: VSCode Config
 desc: ''
-updated: 1619543348878
+updated: 1619544887278
 created: 1619541378119
 ---
 
@@ -16,16 +16,21 @@ You can access these Configurations through the [VSCode Settings,](https://code.
 
 - type: folders[]
 
-This is a list of folders that is tracked by your workspace. Should mirror vaults in `dendron.yml`.
+This entry is a list of folders that are tracked by your workspace.
+The entries here should mirror the vaults from [[dendron.topic.config.dendron#vaults]]
 
 Each folder entry has the following structure
 
-```ts
-type Folder = {
-    // relative path to vault from workspace
-    path: string
-    // name for folder (default to folder anme)
-    name?: string
+```json
+{
+    "folders": [
+        {
+            // relative path to vault from workspace
+            "path": "vault",
+            // name for folder (default to folder anme)
+            "name": "optional"
+        }
+    ]
 }
 ```
 
