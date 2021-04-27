@@ -2,7 +2,7 @@
 id: 84df871b-9442-42fd-b4c3-0024e35b5f3c
 title: Telemetry
 desc: ''
-updated: 1619460642181
+updated: 1619535658623
 created: 1619460500071
 ---
 
@@ -76,3 +76,10 @@ You can disable telemetry from Dendron either on a per-workspace level or global
 
 To disable telemetry across all workspaces, you can run the [[Disable Telemetry|dendron.topic.commands#disable-telemetry]] command.
 
+## Why not have opt-in telemetry?
+
+The goal of telemetry is to make data driven decisions about features and use cases that can make the most difference to our users. 
+
+One way we could collect data is to conduct surveys but traditionally, these had very low participation and are also biased towards users that are already active in our community. Having telemetry allows us to collect feedback from our larger user base and avoids this bias. 
+
+Opt-in telemetry, at best, gives us a narrow and biased set of users. At this point, we are back to make decisions based on limited data. Opt-out telemetry that is limited in scope is the tradeoff we made in terms of preserving user privacy while still gathering meaningful data that can help improve the product. 
