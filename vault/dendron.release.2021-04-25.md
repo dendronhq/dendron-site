@@ -2,7 +2,7 @@
 id: 82130f1f-521d-42ec-a7da-b76a82f0d39d
 title: Release Notes (version 0.39)
 desc: ''
-updated: 1619470433759
+updated: 1619488308792
 created: 1619460958432
 ---
 
@@ -16,7 +16,7 @@ created: 1619460958432
 
 ### Telemetry
 
-With this release of Dendron, we've added limited telemetry that is opt-out by default.
+With this release of Dendron, we've added limited telemetry. Telemetry is on by default with a command to opt out. 
 
 This is to help us understand how many people are using Dendron as well as measure the impact on performance when we introduce new features. We **do not and will never** read the data inside **your notes**.
 
