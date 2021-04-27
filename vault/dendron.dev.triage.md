@@ -54,7 +54,7 @@ feature not in scope of current timeline. looking for outside contributors
 
 ### pending
 
-waiting for response from submiter
+waiting for response from submitter
 
 ### triage-needed
 
