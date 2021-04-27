@@ -2,10 +2,16 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1619550616084
+updated: 1619557698705
 created: 1601508213606
 date: '2022-01-01'
 ---
+
+
+## 0.39.1
+
+### Bug Fixes
+- proper initialization of backlinks when initializing from cache
 
 
 # 0.39
