@@ -2,7 +2,7 @@
 id: 24b176f1-685d-44e1-a1b0-1704b1a92ca0
 title: Multi Vault
 desc: ''
-updated: 1616447575764
+updated: 1619551021163
 created: 1605630383515
 ---
 ## Summary
@@ -47,7 +47,7 @@ When creating a note in lookup, the currently opened note's vault is used as the
 
 #### Specify Vault Location when Creating a Note
 
-![[dendron.topic.config#lookupconfirmvaultoncreate:#*]]
+![[dendron.topic.config.dendron#lookupconfirmvaultoncreate:#*]]
 
 To enable,  add `lookupConfirmVaultOnCreate: true` in the dendron configuration. Instructions to do so below.
 
@@ -96,7 +96,7 @@ For multi-vault, there are several approaches to version control. If you are usi
 
 If you use `Vault: Add` with a remote vault, Dendron will automatically add the remote properties to your `dendron.yml` file. See example below.
 
-![[dendron.topic.config#remote-vault-example,1:#*]]
+![[dendron.topic.config.dendron#remote-vault-example,1:*]]
 
 Versioned controlled vaults will be auto-initialized when someone pulls in the workspace. 
 

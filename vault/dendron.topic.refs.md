@@ -2,7 +2,7 @@
 id: f1af56bb-db27-47ae-8406-61a98de6c78c
 title: References
 desc: ''
-updated: 1619197773757
+updated: 1619551140806
 created: 1597356582509
 stub: false
 ---
@@ -43,7 +43,7 @@ Another example with a header range:
 
 Toggle the following configuration to turn off this setting.
 
-![[dendron.topic.config#useprettyrefs:#*]]
+![[dendron.topic.config.dendron#useprettyrefs:#*]]
 
 ## Commands
 

@@ -2,14 +2,14 @@
 id: f5d459b0-01ea-4bd2-bb8b-ed7f7f7a8e0c
 title: Release Notes (version 0.26)
 desc: ''
-updated: 1611617928912
+updated: 1619549949221
 created: 1611615493246
 ---
 Dendron 0.26 has sprouted 🌱
 
 ### Highlights
 
-- use note titles for link names ([[docs|dendron.topic.config#usenotetitleforlink]])
+- use note titles for link names ([[docs|dendron.topic.config.dendron#usenotetitleforlink]])
 - mermaid diagram support when publishing ([[docs|dendron.topic.markdown#diagrams]])
 - better dup note handling when publishing from multi-vault ([[docs|dendron.topic.publishing.configuration#passing-multiple-vaults]])
 

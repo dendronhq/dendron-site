@@ -2,7 +2,7 @@
 id: a6c03f9b-8959-4d67-8394-4d204ab69bfe
 title: Troubleshooting
 desc: ''
-updated: 1617553316507
+updated: 1619549731870
 created: 1595952505025
 ---
 ## Diagnosing
@@ -17,7 +17,7 @@ This is most likely due to the VSCode [workspace file](https://code.visualstudio
 
 ### Multiple Vaults with the same name
 
-You will get this if you have multiple [[vaults|dendron.topic.config#vaults]] that have the same name. This is an error with Dendron since Dendron requires all vault names be unique. You can fix this by removing the duplicate vaults or setting a unique [[name|dendron.topic.config#name]] property for the vault.  
+You will get this if you have multiple [[vaults|dendron.topic.config.dendron#vaults]] that have the same name. This is an error with Dendron since Dendron requires all vault names be unique. You can fix this by removing the duplicate vaults or setting a unique [[name|dendron.topic.config.dendron#name]] property for the vault.  
 
 ### Notes from the graph/tree view are out of sync
 
