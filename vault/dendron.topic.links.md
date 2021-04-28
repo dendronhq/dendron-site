@@ -2,7 +2,7 @@
 id: 3472226a-ff3c-432d-bf5d-10926f39f6c2
 title: Links
 desc: ""
-updated: 1619550834270
+updated: 1619621092808
 created: 1595003088839
 stub: false
 ---
@@ -17,7 +17,7 @@ Dendron supports multiple types of links and formats.
 
 ## Markdown links
 
-Markdown links can be used for local files and stuff on the internet (websites, images, blogs etc.). The `Markdown Shortucts: Toggle hyperlink` command makes this operation really easy. You can even bind this to a shortcut key combination. We'd recommend using 'cmd/ctrl + K' to get the usual application behavior or 'cmd/ctrl + U' if you want to continue using ctrl+k as part of the usual VSCode combo operation.
+Markdown links can be used for local files and stuff on the internet (websites, images, blogs etc.). The `Markdown Shortcuts: Toggle hyperlink` command makes this operation really easy. You can even bind this to a shortcut key combination. We'd recommend using 'cmd/ctrl + K' to get the usual application behavior or 'cmd/ctrl + U' if you want to continue using ctrl+k as part of the usual VSCode combo operation.
 
 ## Wiki Links
 
