@@ -1,8 +1,8 @@
 ---
 id: d2f8fe67-36c7-4600-b745-c22bdcb5b2cf
-title: - 9 Note Lifecycle Plugins
+title: 9 Note Lifecycle Plugins
 desc: ''
-updated: 1619709090236
+updated: 1619709702039
 created: 1619706504483
 ---
 
