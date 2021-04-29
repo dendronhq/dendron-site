@@ -2,7 +2,7 @@
 id: c6fd6bc4-7f75-4cbb-8f34-f7b99bfe2d50
 title: Concepts
 desc: ''
-updated: 1619103311572
+updated: 1619620962223
 created: 1595169512265
 nav_order: 3
 ---
@@ -105,7 +105,8 @@ Below is an example of a three-level hierarchy describing cli commands. You don'
   desc: command line interface reference
   parent: root
   namespace: true
-  children cmd
+  children:
+    - cmd
     - env
 - id: env
   desc: variables relevant for command
