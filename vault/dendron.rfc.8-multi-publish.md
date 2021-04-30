@@ -1,6 +1,6 @@
 ---
 id: 8b3bfb16-8330-4a78-85cc-45581c319450
-title: 8 - Multi Publish
+title: 8 Multi Publish
 desc: ''
 updated: 1618790883101
 created: 1618789793997
