@@ -2,21 +2,34 @@
 id: 3abd00eb-1c1e-4253-aaf5-dcbe20c21850
 title: Early Seed
 desc: ''
-updated: 1618687170911
+updated: 1619793972593
 created: 1604539200840
 published: true
 nav_exclude: true
 ---
 
-## 0.37.1
+
+## 0.39.1
 
 ### Features
 
-#### CLI for Workspace Commands
-![[dendron.topic.cli#workspace-command,1:#*]]
+#### More Caching Improvements
 
-#### Insert Note Command
-![[dendron.topic.commands#insert-note,1:#*]]
+Even if your workspace is +10k notes, initialization of said workspace should happen in the matter of seconds. You can read about the details [[here|dendron.ref.caching]]
 
 ### Enhancements
-- support custom port for preview ([[docs|dendron.topic.publishing.configuration#previewport]])
+- show progress bar when adding a remote vault
+- init engine from cli
+- add html pod
+- move note shows lookup 
+- rename note shows lookup 
+
+### Bug Fixes
+- Tree widget doesn't update when new files are added
+- Goto note prefer existing note for multi-vault workspace
+- Nested note refs in preview not rendering well
+- MarkdownPod still using legacy note refs
+- Move note will sometimes error
+
+### House Cleaning
+- Rename note is now mapped to move note and should be considered deprecated
