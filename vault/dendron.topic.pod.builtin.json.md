@@ -2,7 +2,7 @@
 id: 28dfaaf8-4944-447c-be30-39c514a80bb0
 title: JSON Pod
 desc: ''
-updated: 1610233180012
+updated: 1619797790889
 created: 1603306959022
 ---
 
@@ -114,7 +114,7 @@ Video example of exporting to JSON
 
 ### Publish Pod
 
-Publish notre to JSON and copy into clipboard
+Publish note to JSON and copy into clipboard
 
 Sample output
 

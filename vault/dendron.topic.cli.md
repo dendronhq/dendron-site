@@ -2,7 +2,7 @@
 id: 23a1b942-99af-45c8-8116-4f4bb7dccd21
 title: Dendron CLI
 desc: ''
-updated: 1618857933820
+updated: 1619797715853
 created: 1600033791071
 ---
 
@@ -72,6 +72,23 @@ LOG_LEVEL=info LOG_DST=stdout dendron doctor --wsRoot . --action h1ToTitle --lim
 Launch the [[dendron server|dendron.roadmap.project.n.2020.server-migration]]. Useful for development purposes or to launch the server in a specified port
 
 The CLI will also write out `.dendron.*` [[metadata files|dendron.ref.layout#file-tree]] in the workspace root just the same as the Dendron plugin. 
+
+
+```sh
+launch instance of dendron engine
+
+Options:
+  --version  Show version number                                       [boolean]
+  --help     Show help                                                 [boolean]
+  --wsRoot   location of workspace
+  --vault    name of vault
+  --quiet    don't print output to stdout
+  --port     port to launch server                                      [number]
+  --init     initialize server                                         [boolean]
+```
+
+
+#### Example
 
 ```
 dendron launchEngineServer --wsRoot ~/Dendron/ --port 3005
