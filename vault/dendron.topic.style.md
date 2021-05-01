@@ -2,9 +2,8 @@
 id: 734a8c36-baff-43d1-8b12-99bb16837049
 title: Style
 desc: ''
-updated: 1615915802633
+updated: 1619887682442
 created: 1606065789770
-nav_exclude: true
 ---
 ## Colors
 
