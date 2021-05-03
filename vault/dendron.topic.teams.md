@@ -2,7 +2,7 @@
 id: 98f6d928-3f61-49fb-9c9e-70c27d25f838
 title: Teams
 desc: ""
-updated: 1619215533243
+updated: 1620082564000
 created: 1617062224981
 ---
 
@@ -133,4 +133,6 @@ You can use the source code panel to pull all repos and push all repos. Download
 - follow the [[quickstart|dendron.topic.teams.quickstart]] to setup your workspace
 - use [[Workspace: Add and Commit|dendron.topic.commands#workspace-add-and-commit]] and pull/push at least once a day
 - have users manage tasks in `user.{name}.journal.{date}` 
-- use [code stream extension](https://marketplace.visualstudio.com/items?itemName=CodeStream.codestream) to add collaborative features like commenting into the IDE
+
+## 
+- See the [Dendron handbook](https://handbook.dendron.so/notes/fc057be8-80e7-4a08-bca6-5bd6bc398eea.html) to see how we organize our own teams workspace 
