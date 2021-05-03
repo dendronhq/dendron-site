@@ -2,7 +2,7 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1620073717331
+updated: 1620074413860
 created: 1601508213606
 date: '2022-01-01'
 ---
@@ -14,6 +14,7 @@ date: '2022-01-01'
 
 ### Enhancements
 - Sort numeric siblings in GoToSiblingCommand
+- Disable Dendron shortcuts when plugin is not active
 
 ### Bug Fixes
 - Nested note refs in preview can display incorrectly
