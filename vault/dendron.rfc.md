@@ -2,7 +2,7 @@
 id: f143ca38-dcc6-4cd3-b84b-997aec1160ef
 title: Rfc
 desc: ""
-updated: 1620067833689
+updated: 1620068069047
 created: 1605539111635
 ---
 
@@ -16,7 +16,7 @@ future state of the system and to discover projects for contribution.
 
 **Jump to**: [What is an RFC?](#what-is-an-rfc) |
 [When to submit?](#when-to-submit-an-rfc) |
-[RFC Process](#rfc-states) |
+[RFC States](#rfc-states) |
 
 <!--BEGIN_TABLE-->
 
@@ -148,12 +148,6 @@ as a markdown file and gets it approved and merged into the RFC repo. At that po
 > a core team member will be assigned to 'shepherd' each proposal. They will
 > generally be the ones updating the RFCs state in the tracking issue as it moves
 > through the process. They can decide when a final comment period is triggered.
->
-> On the other hand, if the submitter is a core team member, they will identify
-> another core team member, with consent, as their 'shepherd'. The shepherd would
-> be the first contact for brainstorming, process and reviews. The core team
-> would defer to the shepherd to do the first few rounds of reviews, after which
-> the rest of the team should be engaged.
 
 ## RFC States
 
