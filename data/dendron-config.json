@@ -24,7 +24,8 @@
             "group": "notes",
             "keybindings": {
                 "key": "ctrl+shift+i",
-                "mac": "cmd+shift+i"
+                "mac": "cmd+shift+i",
+                "when": "dendron:pluginActive"
             },
             "desc": "Create a global journal note",
             "docLink": "dendron.topic.special-notes.md",
@@ -41,7 +42,7 @@
             "keybindings": {
                 "key": "ctrl+shift+c",
                 "mac": "cmd+shift+c",
-                "when": "editorFocus"
+                "when": "editorFocus && dendron:pluginActive"
             },
             "skipDocs": false
         },
@@ -56,7 +57,7 @@
             "keybindings": {
                 "key": "ctrl+shift+r",
                 "mac": "cmd+shift+r",
-                "when": "editorFocus"
+                "when": "editorFocus && dendron:pluginActive"
             },
             "skipDocs": false
         },
@@ -66,7 +67,8 @@
             "group": "notes",
             "keybindings": {
                 "key": "ctrl+shift+d",
-                "mac": "cmd+shift+d"
+                "mac": "cmd+shift+d",
+                "when": "dendron:pluginActive"
             },
             "desc": "Delete a note or schema",
             "docLink": "dendron.topic.lookup.md",
@@ -127,11 +129,13 @@
             "group": "navigation",
             "keybindings": {
                 "mac": "cmd+L",
-                "key": "ctrl+l"
+                "key": "ctrl+l",
+                "when": "dendron:pluginActive"
             },
             "desc": "Initiate note lookup",
             "docLink": "dendron.topic.lookup.md",
             "docPreview": "",
+            "when": "dendron:pluginActive",
             "skipDocs": false
         },
         {
@@ -144,7 +148,8 @@
                 "mac": "cmd+shift+j",
                 "args": {
                     "noteType": "journal"
-                }
+                },
+                "when": "dendron:pluginActive"
             },
             "desc": "Initiate note lookup with journal note pre-selected",
             "docLink": "dendron.topic.lookup.md",
@@ -162,7 +167,8 @@
                 "args": {
                     "noteType": "scratch",
                     "selectionType": "selection2link"
-                }
+                },
+                "when": "dendron:pluginActive"
             },
             "desc": "Initiate note lookup with scratch note pre-selected",
             "docLink": "dendron.topic.lookup.md",
@@ -175,7 +181,8 @@
             "group": "navigation",
             "keybindings": {
                 "mac": "cmd+shift+L",
-                "key": "ctrl+shift+l"
+                "key": "ctrl+shift+l",
+                "when": "dendron:pluginActive"
             },
             "desc": "Initiate schema lookup",
             "docLink": "dendron.topic.lookup.md",
@@ -229,7 +236,7 @@
             "keybindings": {
                 "mac": "cmd+shift+up",
                 "key": "ctrl+shift+up",
-                "when": "editorFocus"
+                "when": "editorFocus && dendron:pluginActive"
             },
             "desc": "Go to closet non-stub parent of the currently open note",
             "docLink": "dendron.topic.commands.md",
@@ -242,7 +249,7 @@
             "group": "hierarchies",
             "keybindings": {
                 "key": "ctrl+shift+]",
-                "when": "editorFocus"
+                "when": "editorFocus && dendron:pluginActive"
             },
             "desc": "Go to the next sibling",
             "docLink": "dendron.topic.commands.md",
@@ -255,7 +262,7 @@
             "group": "hierarchies",
             "keybindings": {
                 "key": "ctrl+shift+[",
-                "when": "editorFocus"
+                "when": "editorFocus && dendron:pluginActive"
             },
             "desc": "Go to the previous sibling",
             "docLink": "dendron.topic.commands.md",
@@ -269,7 +276,7 @@
             "keybindings": {
                 "mac": "cmd+shift+down",
                 "key": "ctrl+shift+down",
-                "when": "editorFocus"
+                "when": "editorFocus && dendron:pluginActive"
             },
             "desc": "Go down the hierarchy",
             "docLink": "dendron.topic.commands.md",
@@ -463,7 +470,8 @@
             "docPreview": "![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/notes.copy-url.gif)",
             "keybindings": {
                 "mac": "cmd+shift+u",
-                "windows": "ctrl+shift+u"
+                "windows": "ctrl+shift+u",
+                "when": "editorFocus && dendron:pluginActive"
             },
             "skipDocs": false
         }
