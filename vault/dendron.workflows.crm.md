@@ -2,12 +2,14 @@
 id: de93124b-c23b-4028-9e2c-6de6a56ca5e9
 title: CRM
 desc: ''
-updated: 1613934806409
+updated: 1620084058419
 created: 1599922711522
 stub: false
 published: false
 ---
-Dendron can be used as a CRM to keep up with people and conversations. The following describes on way of setting it up. 
+Dendron can be used as a CRM to keep up with people and conversations. 
+
+<div style="position: relative; padding-bottom: 62.5%; height: 0;"><iframe src="https://www.loom.com/embed/b3c0b7577f2d4f2f86625a26c27d5bb7" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 ## Schemas
 
