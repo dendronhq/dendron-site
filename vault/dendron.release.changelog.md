@@ -2,11 +2,15 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1620074413860
+updated: 1620143889890
 created: 1601508213606
 date: '2022-01-01'
 ---
 
+## 0.40.1
+
+### Bug Fixes
+- Go to prev hierarchy command accidentally removed
 
 # 0.40
 
