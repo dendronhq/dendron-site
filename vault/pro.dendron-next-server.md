@@ -2,9 +2,10 @@
 id: 7cdd9a74-8b8f-4564-906b-c963bed34273
 title: Dendron Next Server
 desc: ''
-updated: 1614924050218
+updated: 1620145880560
 created: 1604511741960
 ---
+
 ## Quickstart
 
 1. follow instructions [[here|dendron.dev.setup]] to clone the repository and install dependencies
