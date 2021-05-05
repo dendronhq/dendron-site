@@ -2,12 +2,12 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1620231600176
+updated: 1620239805237
 created: 1601508213606
 date: '2022-01-01'
 ---
 
-## 0.40.1
+## 0.40.2
 
 ### Bug Fixes
 - Navigating siblings not working

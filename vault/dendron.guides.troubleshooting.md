@@ -2,14 +2,18 @@
 id: a6c03f9b-8959-4d67-8394-4d204ab69bfe
 title: Troubleshooting
 desc: ''
-updated: 1619549731870
+updated: 1620231843542
 created: 1595952505025
 ---
 ## Diagnosing
 
 You can get a better idea of what went wrong by checking out the [[logs|dendron.guides.cook#checking-logs]]. At that point, you should be able to narrow down the root cause to one of the issues below. If not, please bring it up on the [discord](https://discord.gg/AE3NRw9) or file a [bug report](https://github.com/dendronhq/dendron/issues/new?assignees=&labels=&template=bug_report.md&title=)
 
-## General
+## General Fixes
+1. Run `> Reload Window`. Like restarting your computer or rebooting your router, this tends to fix most issues
+2. Clear your [[cache|dendron.ref.caching#summary]]
+
+## Common Errors
 
 ### Engine not initialized
 
@@ -143,7 +147,6 @@ You can see your installed
 ### Dendron fails to initialize
 
 - check if you have a file with two consecutive dots: `eg. pro..foo.bar`
-
 
 ## Send a support request
 
