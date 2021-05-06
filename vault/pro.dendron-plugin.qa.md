@@ -2,7 +2,7 @@
 id: c84aa95c-83b9-4d52-90a1-eeec8f0ca84f
 title: QA
 desc: ''
-updated: 1609716111365
+updated: 1620318169885
 created: 1609713960639
 ---
 ### Writing Tests
@@ -21,3 +21,28 @@ Note that VSCode uses [mocha](https://mochajs.org/) as its default test runner w
 
 We shim the [jest methods](https://github.com/dendronhq/dendron/blob/master/packages/plugin-core/src/test/testUtilsv2.ts#L418:L418) when testing the plugin though so that we can re-use the same logic between our non-vscode packages and the Dendron VSCode Plugin. 
 
+## Remote Developent
+
+The following is for working with Dendron through VSCode remote explorer. 
+
+### Running a single test
+
+Make sure you have the following `launch.json` settings
+
+```json
+    {
+      "name": "Extension Integ Tests - File",
+      "type": "extensionHost",
+      "request": "launch",
+      "runtimeExecutable": "${execPath}",
+      "args": [
+        "--extensionDevelopmentPath=${workspaceFolder}",
+        "--extensionTestsPath=${workspaceFolder}/out/test/suite-integ/index",
+      ],
+      "env": {
+        "STAGE": "test",
+        "TEST_TO_RUN": "${fileBasenameNoExtension}"
+      },
+      "outFiles": ["${workspaceFolder}/out/test/**/*.js"]
+    }
+```
