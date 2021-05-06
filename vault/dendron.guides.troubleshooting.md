@@ -2,7 +2,7 @@
 id: a6c03f9b-8959-4d67-8394-4d204ab69bfe
 title: Troubleshooting
 desc: ''
-updated: 1620231843542
+updated: 1620329371325
 created: 1595952505025
 ---
 ## Diagnosing
@@ -85,11 +85,7 @@ This is not a valid schema.
 
 It could be that you are using the VSCode default markdown instead of Dendron's Markdown Preview. 
 
-They both have identical icons and its currently not possible to disable the builtin preview (we are looking into fixing this [here](https://github.com/dendronhq/dendron/issues/42)).
-
-Meanwhile, you can open Dendron's markdown preview by clicking the preview button on the left of the menu bar or by using the `> Markdown Preview Enhanced: Open Preview to the Side` command
-
-![Markdown preview](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/trouble-md.png)
+![[dendron://dendron-site/dendron.ref.gotchas#multiple-preview-panes,1]]
 
 ### Still initializing.  Please close this window and try again after Dendron has been initialized.
 

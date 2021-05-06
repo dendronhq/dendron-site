@@ -2,7 +2,7 @@
 id: 678c77d9-ef2c-4537-97b5-64556d6337f1
 title: Dendron Tutorial
 desc: ''
-updated: 1616278404483
+updated: 1620329027492
 created: 1608051264282
 nav_order: 1.1
 ---
@@ -18,3 +18,6 @@ After you've started Dendron, you should see a screen like the one below (depend
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/quickstart.workspace.jpg)
 
+
+### Next
+- [[Working with Notes|dendron.tutorial.notes]]
