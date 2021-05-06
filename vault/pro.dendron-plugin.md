@@ -2,9 +2,16 @@
 id: 87d90002-f480-45eb-a8c4-d00df4d61557
 title: Dendron Plugin
 desc: ''
-updated: 1618675610946
+updated: 1620336469924
 created: 1605375348464
 ---
+
+## Utilities
+- VSCode specific utilities
+  - loc: `src/utils.ts`
+- VSCode Editor
+  - loc: `src/utils/editor.ts`
+
 ## Activation
 
 - check if we have an active dendron workspace

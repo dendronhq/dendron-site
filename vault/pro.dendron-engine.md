@@ -2,17 +2,21 @@
 id: 5a7103be-eb92-4380-8207-598e9f10724c
 title: Dendron Engine
 desc: ''
-updated: 1609699498153
+updated: 1620336498315
 created: 1605108924902
 ---
 The engine provides the core of dendron's capabilities. 
 
-# Components
+## Components
 
-## Fuse.js
+### Fuse.js
 
 - https://fusejs.io
 - powers dendron fuzzy search
+
+## Utilities
+- markdown parsing and remark related utilities
+   - loc: `src/markdown*`
 
 ### Cook
 
