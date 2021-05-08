@@ -2,7 +2,7 @@
 id: 33f8e460-99dc-49b3-baf3-cadb54e4853b
 title: Utilities
 desc: ''
-updated: 1620343700011
+updated: 1620490072962
 created: 1619128756963
 ---
 ## Summary
@@ -27,11 +27,11 @@ In order of precedence:
 
 ### Common-All
 
-![[dendron://private/pro.common-all#Utilities,1]]
+![[pro.common-all#Utilities,1]]
 
 ### Common-Server
 
-![[dendron://private/pro.common-server#utilities,1]]
+![[pro.common-server#utilities,1]]
 
 ### Engine
 

@@ -2,12 +2,14 @@
 id: 12551d19-04c2-4d26-ac1e-d23ff3181a9c
 title: Hooks
 desc: ''
-updated: 1620489378953
+updated: 1620490005009
 created: 1620426131596
 ---
 
 ## Summary
-- status: [[Early Seed 🌱|dendron.ref.status#early-seed-]]
+- status: 
+    - [[Early Seed 🌱|dendron.ref.status#early-seed-]]
+    - [[Work In Progress 🚧|dendron.ref.status#work-in-progress-]]
 
 Hooks allow users to attach custom scripts to various parts of Dendron's lifecycle.
 
@@ -62,6 +64,12 @@ To delete your hook, run [[Hook Delete|dendron.topic.commands#hook-delete]]. Thi
 
 ## Configuration
 - See [[here|dendron.topic.config.dendron#hooks]] for configuration details.
+
+## API
+- status: [[Work In Progress 🚧|dendron.ref.status#work-in-progress-]]
+
+### note
+- This is a plain javascript object that has all properties of a note. See [[NoteProps|pro.common-all#noteprops]]
 
 ## Errors
 
