@@ -2,13 +2,14 @@
 id: 12551d19-04c2-4d26-ac1e-d23ff3181a9c
 title: Hooks
 desc: ''
-updated: 1620434804119
+updated: 1620489378953
 created: 1620426131596
 ---
 
 ## Summary
+- status: [[Early Seed 🌱|dendron.ref.status#early-seed-]]
 
-This describes the Dendron hook system that allows users to attach custom scripts to Dendron's lifecycle. 
+Hooks allow users to attach custom scripts to various parts of Dendron's lifecycle.
 
 ## Use Cases
 - carry over all your uncompleted todos from one note to the next
@@ -61,6 +62,16 @@ To delete your hook, run [[Hook Delete|dendron.topic.commands#hook-delete]]. Thi
 
 ## Configuration
 - See [[here|dendron.topic.config.dendron#hooks]] for configuration details.
+
+## Errors
+
+### NoteProps is undefined
+- cause: a hook function isn't returning a valid `{note}` object. make sure your returning a dictionary instead of simply `note`
+- fix: inspect your hook function and make sure its returning a `{note}` object
+
+### hook X has missing script
+- cause: you defined a hook without a script
+- fix: create a script for your hook function in `hooks/{script}.js`
 
 
 ## Related

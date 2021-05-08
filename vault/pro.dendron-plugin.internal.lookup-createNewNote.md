@@ -2,7 +2,7 @@
 id: 89281554-099e-4f10-b6e1-2aedd37fd419
 title: Create New Note
 desc: ''
-updated: 1617510407555
+updated: 1620440236652
 created: 1610206609498
 published: true
 ---
@@ -19,6 +19,9 @@ published: true
 selectedItem := result from the picker
 if selectedItem {
     if isCreateNewNotePickForSingle
+        acceptResp = @onAcceptNewNode
+    ...
+    showDocAndHidePicker
 }
 ```
 
@@ -37,6 +40,9 @@ _onAcceptNewNote {
 
     maybeTemplate = nodeNew.schema
     SchemaUtils.applyTemplate
+    ...
+
+    engine.writeNote nodeNew
 }
 
 ```
@@ -54,5 +60,4 @@ applyTemplate {
 
 
 }
-
 ```

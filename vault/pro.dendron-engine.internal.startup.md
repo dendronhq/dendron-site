@@ -2,7 +2,7 @@
 id: af17fd9e-d7d7-4e6c-a2c2-a3bd9ee3be18
 title: Startup
 desc: ''
-updated: 1619535943103
+updated: 1620439164637
 created: 1619225744179
 ---
 
@@ -58,7 +58,8 @@ findLinks(note) {
 
 ### NoteParser
 
-```
+#### parse
+```ts
 parse {
     parseFile {
     }
@@ -66,12 +67,35 @@ parse {
 
 parseFile(files) {
     meta := getFileMeta
-
     rootNote = @parseNoteProps
-    meta[1].map {
-        notes = 
+    maxLvl := meta
+
+    // 1st level notes
+    lvl = 1
+    prevNodes = meta[lvl]
+    prevNodes.map  {
+        note = @parseNoteProps it
+        if !(note in $cache) { updateCache note }
+        return note
+    }
+    prevNodes.map {
+        addChild(rootNote, it)
+    }
+    lvl++
+
+    // remaining notse
+    while lvl < maxLvl {
+        notes = meta[lvl]];
+        notes.map {
+            note = @parseNoteProps it
+        }
     }
 }
+
+```
+
+#### parseNoteProps
+```ts
 
 parseNoteProps(vault, meta, opts, notes) {
     noteProps = file2Note(vault, meta)
