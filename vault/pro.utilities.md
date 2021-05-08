@@ -2,7 +2,7 @@
 id: 33f8e460-99dc-49b3-baf3-cadb54e4853b
 title: Utilities
 desc: ''
-updated: 1620336499483
+updated: 1620343700011
 created: 1619128756963
 ---
 
@@ -17,6 +17,8 @@ In order of precedence:
     - [[Common Server|pro.common-server]]
     - [[Dendron Engine|pro.dendron-engine]]
     - [[Dendron Plugin|pro.dendron-plugin]]
+- Testing 
+    - [[Engine Test Utils|pro.engine-test-utils]]
 
 ## By Library
 
@@ -31,6 +33,9 @@ In order of precedence:
 
 ### Plugin 
 ![[dendron://dendron-site/pro.dendron-plugin#utilities,1:#*]]
+
+### Engine Test Utils
+![[dendron://dendron-site/pro.engine-test-utils#utilities,1]]
 
 ## Git Utils
 - engine-server:src/topics/git.ts
