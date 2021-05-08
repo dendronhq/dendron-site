@@ -36,25 +36,18 @@
         "zenMode.hideLineNumbers": false,
         "zenMode.silentNotifications": false,
         "dendron.copyNoteUrlRoot": "https://dendron.so",
-        "dendron.logLevel": "debug",
+        "dendron.logLevel": "info",
         "pasteImage.path": "${currentFileDir}/assets/images",
         "pasteImage.prefix": "/",
         "editor.minimap.enabled": false,
         "files.autoSave": "onFocusChange",
-        "vscodeMarkdownNotes.slugifyCharacter": "NONE",
         "markdown-preview-enhanced.enableWikiLinkSyntax": true,
         "markdown-preview-enhanced.wikiLinkFileExtension": ".md",
-        "vscodeMarkdownNotes.noteCompletionConvention": "noExtension",
         "cSpell.enabled": true,
         "editor.snippetSuggestions": "inline",
         "editor.suggest.snippetsPreventQuickSuggestions": false,
         "editor.suggest.showSnippets": true,
-        "editor.tabCompletion": "on",
-        "markdownlint.config": {
-            "MD007": {
-                "indent": 4
-            }
-        }
+        "editor.tabCompletion": "on"
     },
     "extensions": {
         "recommendations": []

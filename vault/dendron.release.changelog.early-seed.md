@@ -2,13 +2,13 @@
 id: 3abd00eb-1c1e-4253-aaf5-dcbe20c21850
 title: Early Seed
 desc: ''
-updated: 1620489469676
+updated: 1620495585180
 created: 1604539200840
 published: true
 nav_exclude: true
 ---
 
-## 0.40.1
+## 0.40.4
 
 ### Features
 

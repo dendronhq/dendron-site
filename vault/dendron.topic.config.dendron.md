@@ -2,7 +2,7 @@
 id: f83c1d87-eac0-48f3-a5cf-8a69989d8ec1
 title: Dendrons Config
 desc: ''
-updated: 1620440034365
+updated: 1620495841000
 created: 1619539817122
 ---
 
@@ -150,37 +150,4 @@ vaults:
 
 ## Hooks
 
-This configuration covers all [[hooks|dendron.topic.hooks]] related sections
-
-### General Options
-
-#### id
-
-Unique id for the note. This also corresponds to the javascript file that will be created under `{workspace}/hooks/{id}.js`
-
-#### pattern
-- default: `*`
-
-A [[glob pattern|dendron.concepts#glob-pattern]] that determines what notes the hook will be active for. 
-
-#### type
-
-Type of script. Currently we support `js` scripts and might add additional options in the future. 
-
-
-### Hook Types
-
-#### onCreate
-
-Runs when a note is created 
-
-### Examples
-
-```yml
-hooks:
-    onCreate:
-        -
-            id: hello
-            pattern: '*'
-            type: js
-```
+![[dendron.topic.hooks.config]]
