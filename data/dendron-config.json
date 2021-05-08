@@ -476,6 +476,24 @@
             "skipDocs": false
         }
     ],
+    "hooks": [
+        {
+            "key": "dendron.createHook",
+            "title": "Dendron: Hook Create",
+            "group": "hooks",
+            "desc": "Create a hook",
+            "when": "dendron:pluginActive",
+            "skipDocs": false
+        },
+        {
+            "key": "dendron.deleteHook",
+            "title": "Dendron: Hook Delete",
+            "group": "hooks",
+            "desc": "Delete a hook",
+            "when": "dendron:pluginActive",
+            "skipDocs": false
+        }
+    ],
     "publishing": [
         {
             "key": "dendron.siteBuild",

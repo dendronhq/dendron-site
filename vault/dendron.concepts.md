@@ -2,7 +2,7 @@
 id: c6fd6bc4-7f75-4cbb-8f34-f7b99bfe2d50
 title: Concepts
 desc: ''
-updated: 1619620962223
+updated: 1620432975804
 created: 1595169512265
 nav_order: 3
 ---
@@ -151,6 +151,10 @@ The lookup bar is how you interact with notes inside of Dendron. Use it to creat
 
 
 ## Misc
+
+### Glob Pattern
+
+Glob patterns are a way of pattern matching characters. You can test and see more example of glob patterns [here](https://facelessuser.github.io/wcmatch/glob/).
 
 ### Kebab Case
 

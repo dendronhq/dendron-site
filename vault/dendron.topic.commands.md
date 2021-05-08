@@ -2,7 +2,7 @@
 id: eea2b078-1acc-4071-a14e-18299fc28f47
 title: Commands
 desc: ""
-updated: 1619550772139
+updated: 1620427201146
 created: 1595261816971
 ---
 
@@ -252,6 +252,30 @@ Go to the previous sibling
 Go down the hierarchy
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/hierarchy.go-down.gif)
+
+---
+
+## Hooks
+
+### Hook Create
+
+Create a custom [[hook|dendron.topic.hooks]] to trigger during Dendron's lifecycle. This command takes two parameters:
+
+- hookName: name of your hook
+- hookFilter: a glob pattern that filters what notes your hook applies to
+    - default: `*`, apply hook to all notes by default
+- hookType: where to attach the hook (coming soon - we only support `onCreate` at the moment)
+    - types: onCreate|onDelete|onChange
+    - default: onCreate
+
+### Hook Delete
+
+Delete a custom [[hook|dendron.topic.hooks]]. Will remove the hook from `dendron.yml` and optionally, remove `{workspace}/hooks/{hookName}.js`
+
+Parameters:
+- hookName: name of the hook to remove
+- shouldDeleteScript: whether you should also delete the hook script 
+
 
 ---
 

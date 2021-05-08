@@ -2,7 +2,7 @@
 id: 692fa114-f798-467f-a0b9-3cccc327aa6f
 title: Tips
 desc: ''
-updated: 1618517965492
+updated: 1620400139991
 created: 1595614204291
 ---
 
@@ -419,6 +419,9 @@ This is a list of other tools that work well with Dendron.
 - [Git Doc](https://marketplace.visualstudio.com/items?itemName=vsls-contrib.gitdoc): auto-commit and (optionally) auto push your notes at fixed intervals
 - [Gitlens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens): Repository/File/Line history and annotations of all your files
 - [Path AutoComplete](https://github.com/ionutvmi/path-autocomplete): Path autocomplete for VSCode
+
+### Coding
+- [Code Runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner)
 
 ### Other
 - [Macros](https://marketplace.visualstudio.com/items?itemName=geddski.macros): Define custom macros 

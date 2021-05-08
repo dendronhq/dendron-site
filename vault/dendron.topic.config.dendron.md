@@ -2,11 +2,11 @@
 id: f83c1d87-eac0-48f3-a5cf-8a69989d8ec1
 title: Dendrons Config
 desc: ''
-updated: 1619543083414
+updated: 1620434785667
 created: 1619539817122
 ---
 
-## Access
+### Summary
 
 `dendron.yml` located at the root of your workspace.
 
@@ -14,122 +14,124 @@ This file can be accessed using these Commands ![[dendron.topic.commands#Configu
 
 ![[dendron.topic.config#legend,0:#*]]
 
-## defaultInsertHierarchy
+## General
+
+### defaultInsertHierarchy
 
 Execute [[Insert Note|dendron.topic.commands#insert-note]] with a hierarchy in place
 
-## generateChangelog
+### generateChangelog
 - default: false
 - status: experimental 🚧
 
 Turn on to enable [[changelogs|dendron.topic.publishing.changelogs]]
 
-## hierarchyDisplayTitle
+### hierarchyDisplayTitle
 - default: Children
 
 Controls the title for [[children links|dendron.topic.links#children-links]] in published sites
 
-## lookupConfirmVaultOnCreate
+### lookupConfirmVaultOnCreate
 
 With this set, you can pick the vault for new notes.  
 
-## mermaid
+### mermaid
 - default: false
 
 Turn on to enable [[mermaid support|dendron.topic.markdown#diagrams]]
 
-## noCaching
+### noCaching
 
 Disable dendron [[caching|dendron.ref.caching]]
 
-## noLegacyNoteRef
+### noLegacyNoteRef
 - default: true
 
 Disable dendron legacy note refs
 
-## noTelemetry
+### noTelemetry
 
 Disable [[telemetry|dendron.topic.telemetry]]
 
-## hierarchyDisplay
+### hierarchyDisplay
 - default: true
 - frontmatter: true
 
 Disable dendron showing hierarchies on published pages
 
-## initializeRemoteVaults
+### initializeRemoteVaults
 - default: true
 
 Determines if dendron pulls in un-initialized [[remote vault|dendron.concepts#remote-vault]] at startup
 
-## noAutoCreateOnDefinition
+### noAutoCreateOnDefinition
 - default: true
 
 If a note doesn't exist, don't create it via the `GoToDefinition` 
 
-## noXVaultWikiLink
+### noXVaultWikiLink
 
 If set, disable [[Cross Vault Links|dendron.topic.links#cross-vault-links]] when using [[Copy Note Link|dendron.topic.commands#copy-note-link]].
 
-## useContainers
+### useContainers
 - default: false
 
 Turn on to enable [remark-container support](https://github.com/Nevenall/remark-containers)
 
-## useFMTitle
+### useFMTitle
 
 When set to true, use frontmatter as title when publishing and in the preview.
 
-## useKatex
+### useKatex
 - default: true
 
 Turn on [Katex](https://katex.org/) support
 
-## useNoteTitleForLink
+### useNoteTitleForLink
 
 If true, use the note title when displaying naked links. This also applies to note references. 
 
 - NOTE: this is not yet fully supported for multi-vault. specifically, cross vault links are not yet supported
 
-## usePrettyRefs
+### usePrettyRefs
 - default: true
 
 If set to false, don't use [[pretty refs|dendron.ref.terms#pretty-ref]]
 
-## vaults
+### vaults
 
 Tracks [[vaults|dendron.concepts#vaults]] for the workspace. You shouldn't have to manually edit this value. This is updated automatically when you first initialize a workspace and when you add or remove vaults to your workspace.
 
-## Vault properties:
+### Vault properties:
 
-### fsPath
+#### fsPath
 - file path to vault
 
-### name
+#### name
 - default: last component of `fsPath`
 
 vault name 
 
-### visibility
+#### visibility
 - choices: "private|public"
 
 If set to private, notes in this vault will not be published regardless of any other configuration. This takes precedences over everything. 
 
-### remote
+#### remote
 - added property for [[remote vaults|dendron.concepts#remote-vault]]
 - properties
     - type: currently only `git` is supported (in the future, we might add additional types)
     - url: url to github repo
 
 
-## Local Vault Example
+### Local Vault Example
 ```yml
 vaults:
     - fsPath: vault
 ```
 
 
-## Remote Vault Example
+### Remote Vault Example
 ```yml
 vaults:
     -
@@ -144,4 +146,41 @@ vaults:
             type: git
             url: 'git@github.com:kevinslin/yc-vault.git'
         name: yc
+```
+
+## Hooks
+
+This configuration covers all [[hooks|dendron.topic.hooks]] related sections
+
+### General Options
+
+#### id
+
+Unique id for the note. This also corresponds to the javascript file that will be created under `{workspace}/hooks/{id}.js`
+
+#### pattern
+- default: `*`
+
+A [[glob pattern|dendron.concepts#glob-pattern]] that determines what notes the hook will be active for. 
+
+#### type
+
+Type of script. Currently we support `js` scripts and might add additional options in the future. 
+
+
+### Hook Types
+
+#### onCreate
+
+Runs when a note is created 
+
+### Examples
+
+```yml
+hooks:
+    onCreate:
+        -
+            id: hello
+            pattern: '*'
+            type: js
 ```
