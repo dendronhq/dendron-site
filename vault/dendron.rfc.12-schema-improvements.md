@@ -1,6 +1,6 @@
 ---
 id: 8bc80164-6436-4c77-8077-7842f53a4a23
-title: [712](https://github.com/dendronhq/dendron/issues/712) Schema Improvements
+title: 712 Schema Improvements
 desc: ''
 updated: 1620582728224
 created: 1620580916541

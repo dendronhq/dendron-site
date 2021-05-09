@@ -2,7 +2,7 @@
 id: ffe67303-57be-452c-aa73-f7d7e9c4f00f
 title: Types
 desc: ''
-updated: 1620588120384
+updated: 1620592717103
 created: 1620582238808
 ---
 
