@@ -2,7 +2,7 @@
 id: eea2b078-1acc-4071-a14e-18299fc28f47
 title: Commands
 desc: ""
-updated: 1620427201146
+updated: 1620555752234
 created: 1595261816971
 ---
 
@@ -230,6 +230,8 @@ Go to closet non-stub parent of the currently open note
 
 Go to the next sibling
 
+Siblings with numeric names will be sorted numerically, whereas siblings with alphabetical names will be sorted alphabetically when determining the next sibling.
+
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/hierarchy.go-sibling.gif)
 
 ### Go Previous Sibling
@@ -239,6 +241,8 @@ Go to the next sibling
   - when: `editorFocus`
 
 Go to the previous sibling
+
+Siblings with numeric names will be sorted numerically, whereas siblings with alphabetical names will be sorted alphabetically when determining the previous sibling.
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/hierarchy.go-sibling.gif)
 
