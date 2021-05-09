@@ -2,30 +2,55 @@
 id: a6c03f9b-8959-4d67-8394-4d204ab69bfe
 title: Troubleshooting
 desc: ''
-updated: 1620329371325
+updated: 1620592478784
 created: 1595952505025
 ---
 ## Diagnosing
 
 You can get a better idea of what went wrong by checking out the [[logs|dendron.guides.cook#checking-logs]]. At that point, you should be able to narrow down the root cause to one of the issues below. If not, please bring it up on the [discord](https://discord.gg/AE3NRw9) or file a [bug report](https://github.com/dendronhq/dendron/issues/new?assignees=&labels=&template=bug_report.md&title=)
 
-## General Fixes
-1. Run `> Reload Window`. Like restarting your computer or rebooting your router, this tends to fix most issues
-2. Clear your [[cache|dendron.ref.caching#summary]]
-
 ## Common Errors
 
-### Engine not initialized
+### Engine not Initialized
+- cause: You are not running inside a workspace
+- fix: [[Run Dendron inside a Workspace|dendron.guides.troubleshooting#run-dendron-inside-a-workspace]]
 
-This is most likely due to the VSCode [workspace file](https://code.visualstudio.com/docs/editor/multi-root-workspaces#_opening-workspace-files) not being open. Make sure to open the **dendron.code-workspace** file by following the instructions [here](https://code.visualstudio.com/docs/editor/multi-root-workspaces#_opening-workspace-files)
+### Notes from the graph/tree view show wrong results
+- cause: Views are out of sync
+- fix: [[Reload Dendron|dendron.guides.troubleshooting#reload-dendron]]
 
-### Multiple Vaults with the same name
+### Preview not Rendering Correctly
+- causes: Using the built-in preview instead of the Dendron preview
+- fixes: [[Use Dendron Markdown Preview|dendron.guides.troubleshooting#use-dendron-markdown-preview]]
 
-You will get this if you have multiple [[vaults|dendron.topic.config.dendron#vaults]] that have the same name. This is an error with Dendron since Dendron requires all vault names be unique. You can fix this by removing the duplicate vaults or setting a unique [[name|dendron.topic.config.dendron#name]] property for the vault.  
+## Common Fixes
 
-### Notes from the graph/tree view are out of sync
+### Uninstall Conflicting Extensions
+Markdown Notes, Markdown Preview Enhanced, and Markdown All in One are known to interfere with Dendron
 
-Run `Dendron: Reload Index` to manually sync. If that doesn't work, you can also try `Developer: Reload Window` to restart VSCode.
+### Use Dendron Markdown Preview
+
+The VSCode default markdown preview has the same icon as Dendron's Markdown Preview.  It is currently not possible to disable the builtin preview (we are looking into fixing this [here](https://github.com/dendronhq/dendron/issues/42)).
+
+Meanwhile, you can open Dendron's markdown preview by clicking the preview button on the left of the menu bar or by using the `> Markdown Preview Enhanced: Open Preview to the Side` command
+
+![Markdown preview](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/trouble-md.png)
+
+### Reload Dendron
+
+Sometimes Dendron views can get out of sync with notes. To fix, run `Dendron: Reload Index` to manually sync. If that doesn't work, you can also try `Developer: Reload Window` to restart VSCode.
+
+### Remove notes that extend from root
+
+We currently don't support creating children of `root.md` This note is special. While the contents can be edited, creating a hierarchy off root is not officially supported
+
+### Run Dendron inside a Workspace
+
+Dendron requires a VSCode [workspace file](https://code.visualstudio.com/docs/editor/multi-root-workspaces#_opening-workspace-files) to operate. Make sure to open the **dendron.code-workspace** file by following the instructions [here](https://code.visualstudio.com/docs/editor/multi-root-workspaces#_opening-workspace-files)
+
+### Clear the cache
+
+Delete dendron [[cache|dendron.ref.caching#summary]] files.
 
 ## Upgrading
 
@@ -85,7 +110,7 @@ This is not a valid schema.
 
 It could be that you are using the VSCode default markdown instead of Dendron's Markdown Preview. 
 
-![[dendron://dendron-site/dendron.ref.gotchas#multiple-preview-panes,1]]
+![[dendron.guides.troubleshooting#using-the-wrong-preview,1:#*]]
 
 ### Still initializing.  Please close this window and try again after Dendron has been initialized.
 
@@ -143,6 +168,11 @@ You can see your installed
 ### Dendron fails to initialize
 
 - check if you have a file with two consecutive dots: `eg. pro..foo.bar`
+
+### Multiple Vaults with the same name
+
+You will get this if you have multiple [[vaults|dendron.topic.config.dendron#vaults]] that have the same name. This is an error with Dendron since Dendron requires all vault names be unique. You can fix this by removing the duplicate vaults or setting a unique [[name|dendron.topic.config.dendron#name]] property for the vault.  
+
 
 ## Send a support request
 
