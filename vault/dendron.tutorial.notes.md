@@ -1,8 +1,8 @@
 ---
 id: 784b8d5e-58eb-4e3e-98b0-8ed1690abc74
-title: Working with Notes
+title: Notes
 desc: ''
-updated: 1620329972375
+updated: 1620593468584
 created: 1608055635963
 nav_order: 0
 ---
@@ -10,6 +10,8 @@ nav_order: 0
 ## Summary
 
 In this module, we will demonstrate how to create and find notes inside Dendron.
+
+- NOTE: if you run into problems with the below instructions, see if you are running into any of the [[common errors|dendron.guides.troubleshooting#common-errors]]
 
 ### Creating your first note
 
@@ -46,7 +48,8 @@ You'll notice in the tree view that there is now a `+` sign next to `lets` and `
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/quickstart.deep.jpg)
 
 #### NOTE: Don't create children from `root`
-![[dendron://dendron-site/dendron.ref.gotchas#root-note-is-special,1:#*]]
+
+![[dendron.guides.troubleshooting#remove-notes-that-extend-from-root,1:#*]]
 
 ### Finding Notes
 
