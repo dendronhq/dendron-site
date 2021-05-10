@@ -2,14 +2,14 @@
 id: e86ac3ab-dbe1-47a1-bcd7-9df0d0490b40
 title: Recap
 desc: ''
-updated: 1620596685776
+updated: 1620662309265
 created: 1595170096361
 nav_order: 1
 ---
 
 ## Summary
 
-This is a recap of the topics we covered in this tutorial and a bunch of additional topics we haven't.
+This is an synopsis of the topics we covered in the [[getting started tutorial|dendron.tutorial]]. It also contains a bunch of additional topics for further reading.
 
 ## The Trail 🥾
 

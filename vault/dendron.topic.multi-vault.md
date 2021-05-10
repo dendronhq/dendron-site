@@ -2,13 +2,13 @@
 id: 24b176f1-685d-44e1-a1b0-1704b1a92ca0
 title: Multi Vault
 desc: ''
-updated: 1620592648173
+updated: 1620662183467
 created: 1605630383515
 ---
 
 ## Summary
 
-Multi vault refers to managing multiple [[vaults|dendron.concepts#vaults]] within your workspace
+Multi vault refers to managing multiple [[vaults|dendron.concepts#vaults]] within your workspace.
 
 ## Use Cases
 
