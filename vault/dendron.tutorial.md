@@ -10,7 +10,7 @@ nav_order: 1.1
 
 ## Pre-requisites
 
-This walkthrough will help you get started with Dendron. Before you start, make sure you have Dendron installed and a workspace initialized. 
+This walkthrough will help you get started with Dendron. Before you start, make sure you have Dendron installed and **_a workspace initialized_**. 
 
 ![[dendron.guides.install#initialize-your-workspace:#*]]
 
