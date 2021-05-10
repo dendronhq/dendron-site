@@ -2,7 +2,7 @@
 id: 19a0ea9d-7292-4a68-bc6f-ffd462a54bc5
 title: VSCode Config
 desc: ''
-updated: 1619544887278
+updated: 1620661727611
 created: 1619541378119
 ---
 
@@ -58,6 +58,7 @@ Date format used for journal notes. Use [luxon style formatting](https://moment.
 - options:  ['childOfDomain', 'childOfDomainNamespace', 'childOfCurrent', 'asOwnDomain']
 
 strategy for adding new journal notes
+- NOTE: this only applies to regular journal notes but not to  [[daily journal|dendron.topic.special-notes#daily-journal]] notes.
 
 ## dendron.defaultScratchName
 - type: string
