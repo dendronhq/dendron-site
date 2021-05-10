@@ -2,10 +2,45 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1620239805237
+updated: 1620668689772
 created: 1601508213606
 date: '2022-01-01'
 ---
+## 0.40.4
+
+### Enhancements
+- new welcome page for new users
+- running site preview will fetch latest changes from current workspace session
+- running site build will fetch latest changes from current workspace session
+- support configurable site preview port in workspace
+- better error messages when building site
+
+### Bug Fixes
+- double confirmation message when using publish pod
+
+### House Cleaning
+- collect telemetry around lookup performance ([[docs|dendron.topic.telemetry#lookup]])
+- remove `initialize with tutorial notes` when initializing a new workspace (functionality replaced with the new getting started guide ([[docs|dendron.tutorial]]))
+### Docs
+- new getting started guide ([[docs|dendron.tutorial]])
+
+## 0.40.3
+
+### Features
+
+#### Dendron Hooks 🪝 
+![[dendron.topic.hooks]]
+
+### Enhancements
+- Dendron will successfully initialize on recoverable errors (eg. bad schema file)
+- nicer error messages 
+
+### Bug Fixes
+- footer text occludes published content on mobile
+- tree view order for newly created notes
+
+### Dev
+- we documented the organization of utility modules [here]([[Utilities|pro.utilities]])
 
 ## 0.40.2
 
