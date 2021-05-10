@@ -2,7 +2,7 @@
 id: 95f7193b-9940-42ba-841f-3e2a4d937ba3
 title: 10 Blocks
 desc: ''
-updated: 1619808544810
+updated: 1620606531625
 created: 1619804977969
 ---
 ## Goals
@@ -23,6 +23,32 @@ This section describes existing work that has been done on this topic.
 ## Proposal
 
 Extend Dendron syntax to support block references. Obsidian has a great implementation of this already - unless there are critical deficiencies, we should adhere to their implementation and strive for interoperability. 
+
+## Concepts
+
+### Block Links
+
+A block link has the following format. It is created in a note that is referencing a piece of text. When navigating the link, users should be taken to the block anchor. 
+
+```
+[[somelink#^1234]]
+```
+
+### Block Anchor
+
+A block anchor has the following format. It is created in the note where a block link is targeting. 
+
+```
+{Some markdown block element} ^1234
+```
+
+### Block Reference Link
+
+A block reference link is a reference to a block link. 
+
+```
+![[somelink#^1234]]
+```
 
 ## Details
 
