@@ -1,8 +1,8 @@
 ---
 id: d758fe38-558c-4f20-a091-cac146a781cb
-title: Working with Links
+title: Links
 desc: ""
-updated: 1620329198410
+updated: 1620596505590
 created: 1608055731373
 nav_order: 1
 ---
@@ -165,4 +165,4 @@ At the end of this module, you should have the following files in your vault
 ```
 
 ### Next
--   [[Publishing your notes|dendron.tutorial.publishing]]
+-   [[Working with Vaults|dendron.tutorial.vaults]]

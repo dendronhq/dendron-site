@@ -2,7 +2,7 @@
 id: 5de219e6-d9b9-4abf-9367-998109cd57cd
 title: Developing a Pod
 desc: ''
-updated: 1614965542487
+updated: 1620596198550
 created: 1614201272488
 ---
 ## Summary
@@ -15,7 +15,7 @@ In this module, we'll go over how to create a custom pod. You can clone the end 
 
 - Install dendron-cli
   ![[dendron.topic.cli#installation,1:#*]]
-- [[Install Dendron|dendron.guides.install#install]] and have a workspace initialized
+- [[Install Dendron|dendron.guides.install]]
 
 ## Tutorial
 
