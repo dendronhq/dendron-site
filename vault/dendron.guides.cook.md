@@ -226,7 +226,7 @@ Keywords=dendron;notes;pkm;
 Categories=Utility;TextEditor;
 ```
 
-Make sure the path to the dendron workspace matches your setup. Then, run `update-desktop-database ~/.local/share/applications/` in a terminal or restart your system. You should now see Dendron in the laucher under the Utilities section, or if you search for Dendron in your launcher. Launching Dendron from here will launch VSCode with your Dendron workspace open.
+Make sure the path to the dendron workspace matches your setup. Then, run `update-desktop-database ~/.local/share/applications/` in a terminal or restart your system. You should now see Dendron in the launcher under the Utilities section, or if you search for Dendron in your launcher. Launching Dendron from here will launch VSCode with your Dendron workspace open.
 
 ## Navigation
 
