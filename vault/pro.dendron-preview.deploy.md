@@ -2,7 +2,7 @@
 id: fb2cfc7e-f71d-4ec6-8c17-90f323a6c075
 title: Deploy
 desc: ''
-updated: 1620069912653
+updated: 1620748960348
 created: 1614031837862
 ---
 
@@ -33,4 +33,7 @@ git commit -m "chore: bump deps"
 gbD integ-publish
 gco -b integ-publish
 scripts/bump-pkg-install.sh
+./scripts/publish.sh
+
+gco master
 ```
