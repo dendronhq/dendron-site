@@ -2,7 +2,7 @@
 id: a80f36d9-01d0-4c5a-a228-867b093a4913
 title: Cookbook
 desc: ''
-updated: 1614811373375
+updated: 1620687280970
 created: 1599151918645
 stub: false
 ---
@@ -70,3 +70,21 @@ When all this is done, we can add tests that the formatting behavior works
 
 The above changes are for `Rename`. `Refactor` calls rename in a loop so changing rename should update refactor as well.
 
+### Using a local registry
+
+- pre-req:
+  - install verdaccio
+
+```sh
+source bootstrap/scripts/helpers.sh
+setRegLocal
+verdaccio
+```
+
+### Publishing
+
+This will publish a patch release
+
+```
+./bootstrap/scripts/createBuild.sh
+```

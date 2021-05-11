@@ -2,7 +2,7 @@
 id: 64f0e2d5-2c83-43df-9144-40f2c68935aa
 title: Setup
 desc: ''
-updated: 1620402469849
+updated: 1620684232508
 created: 1598651458825
 ---
 ## Getting Started
@@ -88,3 +88,7 @@ In case something something goes wrong with a build step or you want to save tim
 
 - see [[Style|dendron.dev.style]]
 
+
+## Publishing
+
+- see [[Publishing|dendron.dev.publishing]]
