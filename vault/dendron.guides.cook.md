@@ -211,6 +211,23 @@ To drag files into Dendron, open the workspace pane on the side to drag and drop
 1. Navigate to the extensions pane
 2. Search for `@installed`
 
+### Add Dendron to application launchers on Linux desktops
+
+Linux desktop systems often include application launchers where you can see the applications installed on your computer and launch them. You can add an entry for Dendron to the application launcher by creating a file at `~/.local/share/applications/dendron.desktop`, then pasting the following contents into it.
+
+```
+[Desktop Entry]
+Comment=A personal knowledge management tool that grows as you do.
+Exec=code --no-sandbox --new-window ~/Dendron/dendron.code-workspace
+Name=Dendron
+Type=Application
+StartupWMClass=code
+Keywords=dendron;notes;pkm;
+Categories=Utility;TextEditor;
+```
+
+Make sure the path to the dendron workspace matches your setup. Then, run `update-desktop-database ~/.local/share/applications/` in a terminal or restart your system. You should now see Dendron in the launcher under the Utilities section, or if you search for Dendron in your launcher. Launching Dendron from here will launch VSCode with your Dendron workspace open.
+
 ## Navigation
 
 ### Enable Table of Contents
