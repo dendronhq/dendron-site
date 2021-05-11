@@ -2,7 +2,7 @@
 id: b0fe6ef7-1553-4280-bc45-a71824c2ce36
 title: Dendron
 desc: ''
-updated: 1619468971357
+updated: 1620594203342
 created: 1595952505017
 stub: false
 ---
@@ -68,7 +68,7 @@ See our core [[features|dendron.features]] that help you manage your notes.
 
 ## Getting Started
 
-To get started, you can follow the instructions in [[quickstart|dendron.quickstart]].
+To get started, you can follow the instructions in [[getting started|dendron.tutorial]]
 
 ## Motivation
 

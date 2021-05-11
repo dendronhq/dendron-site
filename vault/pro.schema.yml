@@ -13,6 +13,8 @@ schemas:
     - upgrading
     - topic
     - install
+    - lifecycle
+- id: lifecycle
 - id: quickstart
   desc: getting started with a project
 - id: arch

@@ -2,7 +2,7 @@
 id: 84df871b-9442-42fd-b4c3-0024e35b5f3c
 title: Telemetry
 desc: ''
-updated: 1620071932009
+updated: 1620513331398
 created: 1619460500071
 ---
 
@@ -66,6 +66,22 @@ When Dendron is first installed or upgraded, we collect information about both p
 | -------------: | :--------: | :------------------------------------------------------------------------------------- |
 |      `previousVersion` |  _string_| Previous version of Dendron |
 
+### Lookup
+
+When lookup is performed, Dendron collects profiling information for different phases of lookup. This helps us measure the performance impact of optimizations and features we add to lookup.
+
+Events
+- Lookup Show: when lookup is presented
+- Lookup Update: when lookup items are updated
+- Lookup Accept: when a result from lookup is accepted
+
+
+|          Field | Attributes | Description                                                                            |
+| -------------: | :--------: | :------------------------------------------------------------------------------------- |
+|      `flavor` |  _string_| What kind of lookup ("schema" or "note") |
+|      `error` |  _boolean_| Did an error happen during this phase? |
+|      `source` |  _string_| What initiated the lookup? ("onValueChange", "updatePickerBehavior:journal", etc ) |
+|      `createNewNote` |  _boolean_| Was a new note created during this phase? |
 
 ### Telemetry Toggle
 When telemetry is disabled or enabled, we collect information about the event to let us get an estimate of the number of untracked clients

@@ -2,7 +2,7 @@
 id: 137008c9-29ca-436c-a94c-dc378a942b1f
 title: Markdown Integration
 desc: ''
-updated: 1619807867451
+updated: 1620606796227
 created: 1619807298632
 ---
 
@@ -15,3 +15,7 @@ created: 1619807298632
 - [ ] compiling block links
 - [ ] compiling block anchors
 - [ ] compiling block link references
+
+## Compiling block links
+- add a compiler for a block link
+- should generate
