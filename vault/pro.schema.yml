@@ -14,7 +14,14 @@ schemas:
     - topic
     - install
     - lifecycle
+    - ops
 - id: lifecycle
+- id: qa
+  desc: |
+    How to run debugger and tests
+- id: ops
+  desc: |
+    Diagnose issues
 - id: quickstart
   desc: getting started with a project
 - id: arch
