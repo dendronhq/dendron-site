@@ -17,6 +17,7 @@ Before you begin, you need to make sure to have the following SDKs and tools:
   - `npm install -g yarn`
 - a different instance of VSCode
   - because debugging VSCode by default loads up all extensions that are installed, you'll have issues trying to develop Dendron if you also have VSCode installed . the workaround is to install an alternative flavor of vscode (eg. [insider edition](https://code.visualstudio.com/insiders/)) to use for development 
+
 ### 2. Clone and npm install
 
 ```bash
@@ -78,7 +79,7 @@ In case something something goes wrong with a build step or you want to save tim
 
 ## Testing
 
-- see [[Testing|dendron.dev.testing]]
+- see [[Testing|dendron.dev.qa]]
 
 ## Debugging
 
@@ -88,7 +89,7 @@ In case something something goes wrong with a build step or you want to save tim
 
 - see [[Style|dendron.dev.style]]
 
-
 ## Publishing
 
 - see [[Publishing|dendron.dev.publishing]]
+

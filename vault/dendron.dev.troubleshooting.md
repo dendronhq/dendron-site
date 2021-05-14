@@ -2,7 +2,7 @@
 id: dde0d05d-3e4c-498b-90bb-de4e902f02d6
 title: Troubleshooting
 desc: ''
-updated: 1620686973195
+updated: 1620988397179
 created: 1620686948200
 ---
 
@@ -11,4 +11,4 @@ created: 1620686948200
 
 ### Remove the `lib` folder
 
-After a major refactor, you might need to clean out the `lib` folder
+After a major refactor, you might need to clean out the `lib` folder. For [[Dendron Plugin|pro.dendron-plugin]], this would be the `out` folder.

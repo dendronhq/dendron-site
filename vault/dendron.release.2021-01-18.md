@@ -36,7 +36,7 @@ Last and most of all, a big **thanks** to the following gardeners that brought u
   - Ryan Randall `#environmentalist`
     - contributing to dendron
 - [Mark H. Choi](https://github.com/hikchoi/cerebrarium) @hikchoi#8934 `#taxonomist` `#bug-catcher`
-  - [[Dendron QA Notes|dendron.dev.testing.notes]]
+  - [[Dendron QA Notes|dendron.dev.qa.notes]]
   - [issue with breadcrumbs](https://github.com/dendronhq/dendron-11ty/issues/9)
 - [Simon Claudius](https://github.com/Simon-Claudius) @Simon-Claudius#7577 `#bug-catcher`
   - [graph view broken](https://github.com/dendronhq/dendron/issues/452)
