@@ -2,16 +2,16 @@
 id: 95f7193b-9940-42ba-841f-3e2a4d937ba3
 title: 10 Blocks
 desc: ''
-updated: 1620606531625
+updated: 1621016138712
 created: 1619804977969
 ---
 ## Goals
 
-Implement Roam like block references in Dendron
+Implement Roam like block references in Dendron.
 
 ## Context
 
-Block references let you embed blocks of text into different parts of your code
+Block references let you link or embed blocks of text into different parts of your notes. This allows you to link and refer to any part of a note, including paragraphs, lists, and tables.
 
 ## [Lookup](https://handbook.dendron.so/notes/b89ba854-72fb-4ebc-a8a0-55960b89e9dc.html#lookup)
 
@@ -76,7 +76,7 @@ A block reference link is a reference to a block link.
 ```md
 Some notes ^dcf64c
 
-[[filename#^dcf64c]]
+[[#^dcf64c]]
 
 More notes
 ```

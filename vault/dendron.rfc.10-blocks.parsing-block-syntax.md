@@ -2,13 +2,14 @@
 id: 0f4f9dd0-396b-4064-b451-97a2276ce4e1
 title: Parsing Block Syntax
 desc: ''
-updated: 1620607010623
+updated: 1620963730586
 created: 1619807883119
 ---
 
 
 ## Tasks
-- [ ] parsing block links
+- [x] parsing block links
+    * Revised existing link parsing code to recognize block links. We can now parse links like `[[note#^block-id]]` and `[[#^block-id]]`. As an extra benefit, we also now allow links like `[[#header]]` for linking to headers within the same file.
 - [ ] parsing block anchors
 - [ ] parsing block reference link 
 - [ ] store block ids
