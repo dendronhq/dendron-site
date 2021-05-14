@@ -2,7 +2,7 @@
 id: 95f7193b-9940-42ba-841f-3e2a4d937ba3
 title: 10 Blocks
 desc: ''
-updated: 1621016138712
+updated: 1621019730255
 created: 1619804977969
 ---
 ## Goals
@@ -36,7 +36,7 @@ A block link has the following format. It is created in a note that is referenci
 
 ### Block Anchor
 
-A block anchor has the following format. It is created in the note where a block link is targeting. 
+A block anchor is a `^` character, followed by one or more digits, letters, dashes, and underscores. Dendron should automatically generate these anchors when requested, and users should be able to add in custom anchors. The following is an example of an anchor:
 
 ```
 {Some markdown block element} ^1234
