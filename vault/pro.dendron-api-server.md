@@ -2,12 +2,19 @@
 id: 554d3c62-29da-4c86-9d16-f910e36ad7b1
 title: Dendron API Server
 desc: ''
-updated: 1620434053014
+updated: 1620948514888
 created: 1606628243560
 ---
 
 
-### Initialize a workspace
+## Details
+- api gateway backed by lambda
+
+## Components
+- Public Remote Server
+- Private Remote Server
+
+## Initialize a workspace
 
 - NOTE: specific to kevin's vault, modify for your own
 
