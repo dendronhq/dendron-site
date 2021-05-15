@@ -2,12 +2,36 @@
 id: 60fbcc05-df2a-44a2-aa0e-cdd62c2557b6
 title: Qa
 desc: ''
-updated: 1620999768589
+updated: 1621000734691
 created: 1614812225185
 ---
 
-## Unified Tests
+## Local
 
+### Debug
+
+Use `Launch Task` and run `Debug One Test (engine-test-utils)` on a `spec` file that you want to test. This will run the test in `debug` mode which will enable breakpoints. 
+
+### Test:Unit
+
+#### Engine
+Engine tests use the presets in `common-test-utils/src/presets/engine-server/index.ts` to run through a wide range of scenarios.
+
+In order to narrow the test case to a single preset, use `getPreset`.
+
+### Test:Integration
+
+## Remote
+
+### Debug
+
+### Test:Unit
+
+### Test:Integration
+
+## Topics
+
+### Unified Tests
 These tests cover everything related to `unified` plugins. This refers to anything in packages/engine-server/src/markdown/utils.ts
 
 - plugin tests are located in `packages/engine-test-utils/src/__tests__/engine-server/markdown/`

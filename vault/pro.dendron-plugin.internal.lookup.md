@@ -2,33 +2,52 @@
 id: f528e8ad-a3f9-4f66-af1d-0af400014383
 title: Lookup
 desc: ''
-updated: 1618678985175
+updated: 1621041806322
 created: 1610205567544
 ---
 ## Summary
 
-### Lookup
+## Lookup
 
+### show
 - src/components/lookup/LookupControllerV2.ts
 
 ```ts
-show {
+show({value}) {
     opts :=
 
     quickPick =:
 
     provider =: opts
+    // set buttons
+    @refreshButtons
     @updatePickerBehavior 
-
     ...
     provide.provide
+    ...
+    quickPick.show
 }
 ```
 
-- next
-  - [[updatePickerBehavior|dendron.pro.dendron-plugin.internal.lookup#updatepickerbehavior]]
-
 ### updatePickerBehavior
+- paarms: value
+
+```ts
+@updateBehaviorByEffect
+@updateBehaviorByNoteType
+quickPick.onCreate = () => {]}
+...
+@onUpdatePickerItem
+
+```
+
+### updateBehaviorByNoteType
+
+```ts
+
+onUpdateValue = 
+
+```
 
 ### provide
 

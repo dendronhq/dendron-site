@@ -2,17 +2,12 @@
 id: 75dced84-4ebb-42c1-92bc-a5ed601446a2
 title: Lookupv3
 desc: ''
-updated: 1619740973806
+updated: 1621026983193
 created: 1619740761993
 ---
 
-
-- src/components/lookup/LookupControllerV3.ts
-```ts
-show {
-    provider.provide
-}
-```
+## Summary
+- status: [[Work In Progress 🚧|dendron.ref.status#work-in-progress-]]
 
 - src/components/lookup/LookupProviderV3.ts
 ```ts
@@ -37,11 +32,43 @@ onDidAccept {
 
 
 ```ts
-gatherInputs {
-    ...
-    subscribev2(lookupProvider) {
-        data = event.data;
-        return {...}
+execute {
+    @acceptItem
+}
+
+acceptItem(item, picker) {
+
+    throw if not picker.validate(item)
+
+    if isNew(item) {
+        @acceptNewItem
+    } else {
+        @acceptExistingItem
     }
 }
+
+acceptExistingItem {
+    uri := item
+    show uri
+}
+
+acceptNewItem(item, picker) {
+    fname := picker
+    if isStub(item) {
+        note = notes[item.stub]
+        delete note.stub
+    } else {
+        note = Note.create item
+        if matchSchema(note) {
+            addSchema(note)
+        }
+        if note.schema.template {
+            applyTemplate(note)
+        }
+    }
+    note = picker.transformTitle(note)
+    picker.onCreate(note)
+    writeNote note
+}
+
 ```
