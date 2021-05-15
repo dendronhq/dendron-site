@@ -2,7 +2,7 @@
 id: cb22bd36-d45a-4ffd-a31e-96c4b39cb7fb
 title: Testing
 desc: ''
-updated: 1621000000626
+updated: 1621095914522
 created: 1598654055046
 stub: false
 ---
@@ -55,7 +55,17 @@ You can put a breakpoint directly in any code that's part of `plugin-core` and i
 
 > Kevin's Aside: If you need to debug a related package, I haven't found a good way to put a break point. Instead, I manually insert a `debugger` statement and vscode will break. Don't forget to remove the `debugger` statement 
 
-## Anatomy of an Engine Test
+## Writing Test
+
+### Git Related Tests
+
+Any tests that involve setting up git should use [GitTestUtils](https://github.com/dendronhq/dendron/blob/dev-kevin/packages/engine-test-utils/src/utils.ts#L22:L22). This will help you create a git workspace with necessary commit history. 
+
+You can see it being used [here](https://github.com/dendronhq/dendron/blob/dev-kevin/packages/engine-test-utils/src/__tests__/engine-server/workspace.spec.ts#L21:L21).
+
+If a tests involve a remote git repository, use `tmpDir` to setup a *local remote*. Use `GitTestUtils` to create a repo and then push an dpull to the local remote.
+
+### Engine Test
 
 - pre-req:
   - read over the overall [[design|dendron.dev.design#overview]] for Dendron 
@@ -68,7 +78,7 @@ Testing the engine in Dendron involves a little bit of setup because:
 
 Because of the aforementioned issues, we've created the following two classes to make testing easier and re-usable across environments.
 
-### runEngineTest
+#### runEngineTest
 
 - setup a mock dendron environment
 
@@ -80,7 +90,7 @@ Because of the aforementioned issues, we've created the following two classes to
   - the most current version is `runEngineTestV5`
   - see example of usage [here](https://github.com/dendronhq/dendron/blob/master/packages/engine-test-utils/src/__tests__/site.spec.ts#L84:L84)
 
-### TestPresetEntry
+#### TestPresetEntry
 
 - [code](https://github.com/dendronhq/dendron/blob/master/packages/common-test-utils/src/utilsv2.ts#L48:L48)
 

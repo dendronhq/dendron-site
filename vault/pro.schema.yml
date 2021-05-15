@@ -10,11 +10,10 @@ schemas:
     - arch
     - tips
     - faq
-    - upgrading
     - topic
-    - install
     - lifecycle
     - ops
+    - dev
 - id: lifecycle
 - id: qa
   desc: |
@@ -23,15 +22,17 @@ schemas:
   desc: |
     Diagnose issues
 - id: quickstart
-  desc: getting started with a project
+  desc: |
+    Getting started with the project
 - id: arch
   title: architecture
+- id: dev
+  desc: |
+    Development related 
 - id: concepts
   desc: basic concepts to do with the project
 - id: tips
 - id: faq
-- id: upgrading
-- id: install
 - id: topic
   desc: important areas of a project
   namespace: true
