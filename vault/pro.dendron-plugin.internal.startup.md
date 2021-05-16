@@ -2,7 +2,7 @@
 id: 8d09cc3f-25e3-42a2-ac86-82806c0c8c65
 title: Startup
 desc: ''
-updated: 1610160307560
+updated: 1621097087889
 created: 1610160007286
 ---
 ## Summary
@@ -25,7 +25,6 @@ _activate {
     if ws.isActive {
         port = startServer
         updateEngineAPI(port)
-        startLSPClient
         ws.reloadWorkspace // 312
         ws.activateWatchers
     }
@@ -33,7 +32,11 @@ _activate {
 }
 ```
 
+- related
+    - [[Internal|pro.dendron-api-server.internal]]
+
 ### Reload Workspace
+- src/commands/ReloadIndex.ts
 
 ```ts
 // 49
@@ -102,6 +105,13 @@ startServer {
 ### updateEngine
 
 - [[workspace.vaults|pro.dendron-plugin.internal#workspacevaults]]
+
+- src/utils.ts
+```
+WSUtils.updateEngineAPI {
+    EngineAPIService.create
+}
+```
 
 ```ts
 class EngineAPIService {
