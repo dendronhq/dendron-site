@@ -2,7 +2,7 @@
 id: 8bc80164-6436-4c77-8077-7842f53a4a23
 title: 712 Schema Improvements
 desc: ''
-updated: 1621159247410
+updated: 1621160291280
 created: 1620580916541
 ---
 
@@ -33,4 +33,6 @@ Schemas have so much potential and the features that are listed here could help 
 
 ## Discussion
 
-///TODO: add discusion link.
+Feel free to leave comments about this RFC on the Linked Disscusion: 
+[Github Disccusion](https://github.com/dendronhq/dendron/discussions/727)
+
