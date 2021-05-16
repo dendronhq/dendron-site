@@ -2,7 +2,7 @@
 id: ffe67303-57be-452c-aa73-f7d7e9c4f00f
 title: Types
 desc: ''
-updated: 1620913503636
+updated: 1620920046926
 created: 1620582238808
 ---
 
@@ -71,7 +71,10 @@ schemas:
 
 #### Enum
 
-This type extends the Pattern type with the option to map the matched values of the Pattern to a title that should be used in the UI. 
+This type extends the Pattern type with the option to map the matched values of the Pattern to a title that should be used in the UI.
+
+Additionaly we Could extend it to provide a way to conditionaly change the Children depending on what gets matched. 
+Exampel being here the pattern for the day to reflect the actual days of the month.
 
 ##### Example
 

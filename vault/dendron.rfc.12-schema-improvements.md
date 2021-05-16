@@ -2,7 +2,7 @@
 id: 8bc80164-6436-4c77-8077-7842f53a4a23
 title: 712 Schema Improvements
 desc: ''
-updated: 1620582728224
+updated: 1621159247410
 created: 1620580916541
 ---
 
@@ -24,7 +24,8 @@ This is a proposal of multiple features, each indivitual feature will have its o
 1. [[Reusability|dendron.rfc.12-schema-improvements.reusability]]
 1. [[Vault Specific|dendron.rfc.12-schema-improvements.vault-specific]]
 1. [[UI Options|dendron.rfc.12-schema-improvements.ui-options]]
-
+1. [[Json Schema|dendron.rfc.12-schema-improvements.json-schema]]
+1. [[Custom Editor|dendron.rfc.12-schema-improvements.custom-editor]]
 
 ## Details
 
