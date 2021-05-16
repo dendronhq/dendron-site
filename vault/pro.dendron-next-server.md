@@ -2,24 +2,15 @@
 id: 7cdd9a74-8b8f-4564-906b-c963bed34273
 title: Dendron Next Server
 desc: ''
-updated: 1620145880560
+updated: 1621201602514
 created: 1604511741960
 ---
 
-## Quickstart
+## Summary
 
-1. follow instructions [[here|dendron.dev.setup]] to clone the repository and install dependencies
-2. navigate to server package
-   ```bash
-   cd {repo-root}/packages/dendron-next-server
-   ```
-3. start server
-   ```bash
-   yarn dev
-   ```
-4. Open `dendron-next-server.code-workspace` to start editing the code
+This is the next generation UI for the Dendron Client, implemented as a NextJS Application
 
-## Working with the Dendron Engine
+<!-- ## Working with the Dendron Engine
 
 If your working with the Dendron Engine (eg. fetching notes, config or schemas), you'll need to start an instance of the engine.
 
@@ -39,4 +30,4 @@ ENGINE_ENDPOINT_PORT=3005
 ```
 
 Run `yarn dev` to start the next server 
-
+ -->

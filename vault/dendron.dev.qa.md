@@ -2,7 +2,7 @@
 id: cb22bd36-d45a-4ffd-a31e-96c4b39cb7fb
 title: Testing
 desc: ''
-updated: 1621095914522
+updated: 1621202170492
 created: 1598654055046
 stub: false
 ---
@@ -49,13 +49,15 @@ See remote pairing session for an overview of setting up tests.
 
 All packages have tests written in `jest` except plugin-core. these tests use `mocha` assertion because vscode has a special test harness built around `mocha`  
 
+### Test Workspace
+
+If you want to use a workspace to test changes on the workspace at `{ROOT}/packages/dendron-11ty/fixtures/test-workspace`
+
 ## Debugging Tests
 
 You can put a breakpoint directly in any code that's part of `plugin-core` and it'll break at those points
 
 > Kevin's Aside: If you need to debug a related package, I haven't found a good way to put a break point. Instead, I manually insert a `debugger` statement and vscode will break. Don't forget to remove the `debugger` statement 
-
-## Writing Test
 
 ### Git Related Tests
 

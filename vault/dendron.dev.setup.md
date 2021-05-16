@@ -2,9 +2,10 @@
 id: 64f0e2d5-2c83-43df-9144-40f2c68935aa
 title: Setup
 desc: ''
-updated: 1620684232508
+updated: 1621201776956
 created: 1598651458825
 ---
+
 ## Getting Started
 
 ### 1. Requirements
@@ -51,6 +52,30 @@ To start an instance of the Dendron with the Debugger, Run `Extension (plugin-co
 ![debugger](/assets/images/start_debugger.gif)
 
 _Note: Running via Run -> Start Debugging will not work unless you've previously targeted `Extension (plugin-core)`_
+
+## Updating
+
+When you are merging new changes, note that new dependencies and sometimes packages will be installed. 
+
+### New Dependencies
+```sh
+# install all new dependencies
+lerna bootstrap
+```
+
+### New Packages
+Adding new packages is a rarer event but might require a workspace rebuild
+
+```sh
+# clean up old files (this might take a few minutes)
+./bootscrap/scripts/cleanup.sh
+
+# install all dependencies
+lerna bootstrap
+
+# build all dependencies
+./bootscrap/scripts/build.sh
+```
 
 ## Tips
 
