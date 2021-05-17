@@ -2,7 +2,7 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1621288345067
+updated: 1621288918532
 created: 1601508213606
 date: '2022-01-01'
 ---
@@ -20,17 +20,6 @@ date: '2022-01-01'
 ### Bug Fixes
 - issue with latex not displaying in latest preview
 
-### Community
-
-#### Office Hours
-
-You can find notes from our latest office hours [here](https://docs.google.com/document/d/1FEEo_0aNiNfnW_tzo58m_HAM8wI_YMujHmKUaNBSzBk/edit#heading=h.pjy8r5v7ldw)
-
-#### Contributors Page
-
-We have a new contributors page that showcases all the gardeners that help make Dendron what it is. 
-
-![[dendron.community.roles#summary,1:#*]]
 
 ## 0.41
 
