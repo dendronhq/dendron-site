@@ -2,7 +2,7 @@
 id: d758fe38-558c-4f20-a091-cac146a781cb
 title: Links
 desc: ""
-updated: 1620596505590
+updated: 1621168460239
 created: 1608055731373
 nav_order: 1
 ---
@@ -35,11 +35,11 @@ In this case, `pro` is an alias for `projects` and `skynet` is the code name of 
 
 ### Creating a note (with a link)
 
-With your cursor somewhere inside `[[pro.skynet]]`, hit `F12`. This will create the `pro.skynet` note. Just like with lookup, Dendron automatically creates notes to links that don't exist when you navigate to them.
+With your cursor somewhere inside `[[pro.skynet]]`, hit `CTRL + ENTER`. This will create the `pro.skynet` note. Just like with lookup, Dendron automatically creates notes to links that don't exist when you navigate to them.
+
+-   TIP: `CTRL + ENTER` has been mapped to the command `Dendron: Goto Note`. You can always reconfigure this shortcut to something more convenient by updating the [[keybindings|dendron.topic.keybindings#add-reset-and-remove]]
 
 You can switch back to the previous note by pressing `CTRL-Tab`
-
--   TIP: `F12` is not the most convenient shortcut for this often used action. You can switch it to `CTRL-ENTER` or something more convenient by updating the [[keybindings|dendron.topic.keybindings#add-reset-and-remove]]
 
 ### Adding a link alias
 
@@ -165,4 +165,5 @@ At the end of this module, you should have the following files in your vault
 ```
 
 ### Next
+
 -   [[Working with Vaults|dendron.tutorial.vaults]]
