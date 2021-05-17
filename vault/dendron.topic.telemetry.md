@@ -2,7 +2,7 @@
 id: 84df871b-9442-42fd-b4c3-0024e35b5f3c
 title: Telemetry
 desc: ''
-updated: 1620513331398
+updated: 1621290409476
 created: 1619460500071
 ---
 
@@ -31,9 +31,9 @@ The below is a collection of common fields that are collected
 
 |          Field | Attributes | Description                                                                            |
 | -------------: | :--------: | :------------------------------------------------------------------------------------- |
-|      `extensionVersion` |  _string_  | Currently installed version of the product (e.g. `1.0.0-rc0`)                          |
+|      `app` |  _string_  | Currently installed version of the product (e.g. `1.0.0-rc0`)                          |
 |      `ideVersion` |  _string_  | Currently installed version of the IDE (e.g. `1.0.0-rc0`)                          |
-|      `ideFlavor` |  _string_  |  The specific IDE in question(e.g. `VSCodium`)                          |
+|      `userAgent` |  _string_  |  The specific IDE in question(e.g. `VSCodium`)                          |
 |         `arch` |  _string_  | Client's operating system architecture (e.g. `amd64`).                                 |
 |           `os` |  _string_  | Client's operating system (e.g. `darwin`).                                             |
 | `nodeVersion` |  _string_  | Client's node version (e.g. `v12.12.0`).                                               |
