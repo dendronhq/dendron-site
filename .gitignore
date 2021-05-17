@@ -26,3 +26,7 @@ docs
 dendron-aws-vault
 package-lock.json
 vault/.dendron.cache.json
+
+.DS_Store
+
+vault/.vscode/settings.json
