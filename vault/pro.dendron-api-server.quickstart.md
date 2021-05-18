@@ -2,13 +2,14 @@
 id: 014c5e7a-39f7-40a2-bc24-4c3e56e98d26
 title: Quickstart
 desc: getting started with a project
-updated: 1620434422108
+updated: 1621356446082
 created: 1620434055302
 ---
 
 ## Summary
 
 ### Start Server
+
 ```sh
 yarn start:integ
 ```

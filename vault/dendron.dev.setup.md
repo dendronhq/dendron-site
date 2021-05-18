@@ -2,7 +2,7 @@
 id: 64f0e2d5-2c83-43df-9144-40f2c68935aa
 title: Setup
 desc: ''
-updated: 1621201776956
+updated: 1621356990503
 created: 1598651458825
 ---
 
@@ -52,6 +52,10 @@ To start an instance of the Dendron with the Debugger, Run `Extension (plugin-co
 ![debugger](/assets/images/start_debugger.gif)
 
 _Note: Running via Run -> Start Debugging will not work unless you've previously targeted `Extension (plugin-core)`_
+
+### 6. Remote Development (optional)
+
+If you are developing Dendron in a remote environment using VSCode, see additional instructions [[here|dendron.dev.remote]].
 
 ## Updating
 
