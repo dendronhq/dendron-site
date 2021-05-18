@@ -2,13 +2,13 @@
 id: f1847179-e74d-4fc6-a853-441674e6de8e
 title: Export
 desc: ''
-updated: 1621366689659
+updated: 1621369221540
 created: 1621366517747
 ---
 
 ## Summary
 
-The GraphViz export pod will take Dendron markdown and convert it into a graph structured using DOT Language. The export config some additional options for filtering the graph output by the type of note connection.
+The [GraphViz](https://www.graphviz.org/) export pod will take Dendron markdown and convert it into a graph structured using [DOT Language](https://en.wikipedia.org/wiki/DOT_(graph_description_language)). The export config some additional options for filtering the graph output by the type of note connection.
 
 In the graph output, hierarchical connections are notated with a solid line and edge connections are notated with a dotted line.
 
