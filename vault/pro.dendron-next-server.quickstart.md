@@ -3,7 +3,7 @@ id: 9aa25182-4f40-45ce-b94c-f9eaf7a9a073
 title: Quickstart
 desc: |
   Getting started with the project
-updated: 1621202400106
+updated: 1621376739736
 created: 1621201571965
 ---
 
@@ -15,6 +15,10 @@ created: 1621201571965
    ```bash
    cd {repo-root}/packages/dendron-next-server
    ```
+1. If this is your first time running this, you need to generate the style files
+  ```
+  yarn gen:theme
+  ```
 1. start server
    ```bash
    yarn dev
@@ -28,14 +32,14 @@ You can test the Dendron Next App by launching a workspace using the CLI and the
   ```sh
   # engine port
   PORT=3005
-  # your workspace root
-  # you can test it aga
-  WORKSPACE=packages/dendron-11ty/fixtures/test-workspace
+  # absolute path to your workspace root
+  WORKSPACE=/packages/dendron-11ty/fixtures/test-workspace
   cd $WORKSPACE
   env LOG_LEVEL=info dendron launchEngineServer --init --port $PORT
   ```
 1. Connect to the workspace (replace WORKSPACE and PORT with your own values)
   ```
+  # for example, if you launched the engine at /user/adam/workspace, WORKSPACE should equal /user/adam/workspace
   http://localhost:3000/vscode/sample?ws=$WORKSPACE&port=$PORT
   ```
 
