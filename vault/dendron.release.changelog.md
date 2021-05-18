@@ -2,11 +2,26 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1620668689772
+updated: 1621288918532
 created: 1601508213606
 date: '2022-01-01'
 ---
-## 0.40.4
+
+# 0.42
+
+### Features
+
+#### Schema Library
+![[dendron.topic.schema.lib]]
+
+### Enhancements
+- Specify initial value with custom keyboard shortcuts for lookup ([[docs|dendron.topic.lookup.modifiers#value]])
+
+### Bug Fixes
+- issue with latex not displaying in latest preview
+
+
+## 0.41
 
 ### Enhancements
 - new welcome page for new users

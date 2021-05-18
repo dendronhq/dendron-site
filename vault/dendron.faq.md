@@ -178,7 +178,7 @@ For example, I'm using nodejs and need to access a file. I have no idea what the
 ### Can I do filter by the metadata in Dendron?
 
 Metadata is currently under utilized because we don't have a built in way of easily querying by it. We currently have [this issue](https://github.com/dendronhq/dendron/issues/152) tracking the progress of advanced query work.
-
+gg
 In the future, we want to support:
 
 - querying by custom frontmatter attributes: <https://github.com/dendronhq/dendron/issues/152>
