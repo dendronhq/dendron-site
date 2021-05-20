@@ -2,7 +2,7 @@
 id: cb22bd36-d45a-4ffd-a31e-96c4b39cb7fb
 title: Testing
 desc: ''
-updated: 1621202170492
+updated: 1621520266835
 created: 1598654055046
 stub: false
 ---
@@ -48,6 +48,27 @@ See remote pairing session for an overview of setting up tests.
 ## Writing Tests
 
 All packages have tests written in `jest` except plugin-core. these tests use `mocha` assertion because vscode has a special test harness built around `mocha`  
+
+### Plugin Tests
+
+- NOTE: mocha will mark a test as a success if you return a promise. This is why we use callback style version of the tests
+
+```ts
+// good
+describe("foo", function() {
+  test("does foo", function(done) {
+    ...
+    done();
+  });
+});
+
+// bad
+describe("foo", function() {
+  test("does foo", async function( ) {
+    ...
+  });
+});
+```
 
 ### Test Workspace
 
