@@ -2,7 +2,7 @@
 id: 2976e5df-c8b4-4176-9d3f-fe4220dfa9b6
 title: Deploy
 desc: ''
-updated: 1621547584203
+updated: 1621549955817
 created: 1613863275374
 ---
 
@@ -25,16 +25,16 @@ verdaccio
 ```
 
 
-## build and source
+## Build Local
 
+### Pull Build
 ```sh
 yarn
 yarn bootstrap:build 
-# initialize scripts
-. bootstrap/scripts/helpers.sh
+./bootstrap/scripts/helpers.sh
 ```
 
-## test local
+### Create Build
 
 - publish from local
 ```sh
@@ -44,14 +44,20 @@ verdaccio
 ./bootstrap/scripts/createBuild.sh
 ```
 
-- pull in new changes
+### Install Build
 ```sh
 WORKSPACE_BUILD=/mnt/one/dendron-build
 WORKSPACE_BUILD=/Users/kevinlin/projects/dendronv2/dendron/build/dendron/packages/plugin-core
 cd $WORKSPACE_BUILD
 
 ./scripts/pullBuild.sh
+
+# use this if you have ui changes
+./scripts/pullBuildAndSync.sh
+
+cd ~/.vscode-insiders/extensions/dendron.dendron-0.42.1-alpha.0/
 ```
+
 
 - test changes
     - [ ] any packages installed will be with verdaccio so don't use dendron-site
