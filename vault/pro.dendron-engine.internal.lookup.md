@@ -2,7 +2,7 @@
 id: d77cc114-5c4b-4185-a353-47888e5a8976
 title: Lookup
 desc: ''
-updated: 1615940397389
+updated: 1621458815737
 created: 1615940090746
 ---
 
@@ -23,6 +23,36 @@ queryNote {
     else:
         @index.search qs
 }
+```
+
+## write new note
+
+- src/enginev2.ts
+```ts
+writeNote {
+  @store.writeNote
+}
+```
+
+- src/drivers/file/storev2.ts
+```ts
+writeNote(note, opts) {
+  maybeNote := note
+  if (maybeNote.stub || opts.updateExisting) {
+    ...
+  } else {
+    @_writeNewNote()
+  }
+
+  SchemaUtils.matchPath(h)
+
+
+}
+
+_writeNewNote() {
+  ....
+}
+
 ```
 
 # Reference
