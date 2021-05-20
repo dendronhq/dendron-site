@@ -56,7 +56,7 @@ If you use links for tags: `[[#business|books.tags.business]]`, you can use this
 
 ```css
 /* General tag styling */
-a[href*=".tags."] {
+a[href*="tag."] {
     color: #000;
     background: #fff;
     display: inline-block;
