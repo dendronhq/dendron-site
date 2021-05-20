@@ -2,7 +2,7 @@
 id: 2976e5df-c8b4-4176-9d3f-fe4220dfa9b6
 title: Deploy
 desc: ''
-updated: 1621549955817
+updated: 1621550684789
 created: 1613863275374
 ---
 
@@ -55,12 +55,12 @@ cd $WORKSPACE_BUILD
 # use this if you have ui changes
 ./scripts/pullBuildAndSync.sh
 
+# see bundle
 cd ~/.vscode-insiders/extensions/dendron.dendron-0.42.1-alpha.0/
+cd ~/.vscode-oss/extensions/dendron.dendron-0.42.1-alpha.0/
 ```
 
-
-- test changes
-    - [ ] any packages installed will be with verdaccio so don't use dendron-site
+- NOTE: when you are testing, remember that all dependencies are LOCAL which means running `git push` and relying on external workflows won't work at this point
 
 ## publish
 
