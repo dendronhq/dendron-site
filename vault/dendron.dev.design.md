@@ -2,7 +2,7 @@
 id: c160ddce-edec-4f6e-841b-418d6030fa37
 title: Design
 desc: ''
-updated: 1621446544257
+updated: 1621521064335
 created: 1598651922993
 stub: false
 ---
@@ -51,7 +51,6 @@ This package contains the express server implementation for Dendron. It provides
 
 ## Other Components
 ### Dendron Common All
-
 - name: @dendronhq/common-all
 - [repo](https://github.com/dendronhq/dendron/tree/master/packages/common-all)
 
@@ -71,29 +70,5 @@ This is common utilities that are used by server-side versions of Dendron (curre
 
 This package lets you access Dendron via CLI. 
 
-<!-- ### Dendron Server
-
-This packages contains the vscode LSP server implementation for Dendron. The LSP server will start the `Dendron Express Server` in order to query the engine. -->
-
-
-
-<!-- ### LSP Related functionality
-
-```
-Dendron Plugin <-> LSP Server <-> Express Server <-> Dendron Engine
-``` -->
-
-<!-- ### Non-LSP Functionality -->
-
-<!-- - if no server is set
-
-```
-Dendron CLI <-> Dendron Engine
-```
-
-- if server is set (able to use engine instead of re-indexing)
-
-```
-Dendron CLI <-> Express Server <-> Dendron Engine
-```
- -->
+## Next
+- You can see the full list of projects as well as detailed documentation [[here|pro]]

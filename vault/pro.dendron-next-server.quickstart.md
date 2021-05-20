@@ -3,7 +3,7 @@ id: 9aa25182-4f40-45ce-b94c-f9eaf7a9a073
 title: Quickstart
 desc: |
   Getting started with the project
-updated: 1621376739736
+updated: 1621539039074
 created: 1621201571965
 ---
 
@@ -24,11 +24,19 @@ created: 1621201571965
    yarn dev
    ```
 
-## Development
+## Development 
 
 You can test the Dendron Next App by launching a workspace using the CLI and then connecting to it. 
 
-1. Launch a workspace
+1. Modify the `dendron.yml` of the workspace you want to use
+  ```yml
+  dev:
+    # use CLI based engine instead of creating a new one
+    engineServerPort: 3005
+    # for UI components, proxy to next server instead of creating our own
+    nextServerUrl: http://localhost:3000
+  ```
+1. Launch the workspace
   ```sh
   # engine port
   PORT=3005
@@ -42,6 +50,27 @@ You can test the Dendron Next App by launching a workspace using the CLI and the
   # for example, if you launched the engine at /user/adam/workspace, WORKSPACE should equal /user/adam/workspace
   http://localhost:3000/vscode/sample?ws=$WORKSPACE&port=$PORT
   ```
+
+## Static Build
+
+When your ready to ship a UI related feature, export the static assets. 
+
+```
+yarn build
+```
+
+Afterwards, update `dendron.yml` in your test workspace
+
+  ```yml
+  dev:
+    # use CLI based engine instead of creating a new one
+    engineServerPort: 3005
+    # replace ROOT with absolute location of your workspace 
+    nextStaticRoot: /{ROOT}/packages/dendron-next-server
+  ```
+
+You should see the following line in the logs
+
 
 ## Tools
 When working with the webapp, download the following extensions
