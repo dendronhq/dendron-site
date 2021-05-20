@@ -2,7 +2,7 @@
 id: f83c1d87-eac0-48f3-a5cf-8a69989d8ec1
 title: Dendrons Config
 desc: ''
-updated: 1620495841000
+updated: 1621552686260
 created: 1619539817122
 ---
 
@@ -151,3 +151,13 @@ vaults:
 ## Hooks
 
 ![[dendron.topic.hooks.config]]
+
+## Dev
+- status: [[Early Seed 🌱|dendron.ref.status#early-seed-]]
+
+Development configuration covers option to enable [[experimental 🧪|dendron.ref.status#experimental-🧪]] features and when working on Dendron. 
+
+### enableWebUI
+- default: false
+
+Enables turning on Dendron's new web ui. Currently (2021.05.20), this means enabling the new [Antd](https://ant.design/) based tree view
