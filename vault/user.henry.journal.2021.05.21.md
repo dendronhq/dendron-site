@@ -2,7 +2,7 @@
 id: 5b323a54-ab43-4227-96e5-5a42c0bd501e
 title: "2021-05-21"
 desc: ""
-updated: 1621613092677
+updated: 1621613164889
 created: 1621611517865
 ---
 
@@ -22,9 +22,11 @@ created: 1621611517865
 
 -   [ ] Design plan
 
-    -   [ ] PR at end of day
+    -   [ ] Commit to `dendron-site`
     -   [ ] Share PR with team, `/dev` channel, GitHub discussions
+    -   [ ] Read feedback and discuss when given
 
+-   [ ] Begin work on `/graph` endpoint
 -   [ ] Overdue: Onboarding, day 4
     -   [ ] Improve handbook
         -   [ ] Additional details on communication policies for various tasks
@@ -36,8 +38,8 @@ created: 1621611517865
 
 -   Start of day
     -   [x] Review and complete standup
-    -   [ ] Review Discord
-    -   [ ] Review GitHub discussions
+    -   [x] Review Discord
+    -   [x] Review GitHub discussions
 -   End of day
     -   [ ] Commit code if haven't already
     -   [ ] Review Discord
