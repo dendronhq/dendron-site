@@ -293,6 +293,14 @@
             "skipDocs": false
         },
         {
+            "key": "dendron.sync",
+            "title": "Dendron: Workspace: Sync",
+            "group": "workspace",
+            "desc": "Sync all files",
+            "docPreview": "Sync all files in your workspace, across all vaults.\nThis will add and commit all changes, then pull and push to sync all changes.",
+            "skipDocs": false
+        },
+        {
             "key": "dendron.vaultAdd",
             "title": "Dendron: Vault Add",
             "group": "workspace",

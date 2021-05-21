@@ -27,4 +27,6 @@ version: 1
 useFMTitle: true
 mermaid: true
 useTitleForLink: true
+dev:
+  enableWebUI: true
 
