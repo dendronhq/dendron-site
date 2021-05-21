@@ -2,7 +2,7 @@
 id: 19f4e85e-da75-44cf-881c-51c43bf8aeea
 title: Vaults
 desc: ''
-updated: 1620596389320
+updated: 1621568608325
 created: 1608098066514
 nav_order: 2
 ---
@@ -48,6 +48,7 @@ At the end of this module, you should have the following files in your vault
 ```
 .
 └── vault
+    ├── daily.journal.{date}.md
     ├── dendron.md
     ├── dendron.welcome.md
     ├── hello.md
