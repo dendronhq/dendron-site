@@ -2,7 +2,7 @@
 id: eea2b078-1acc-4071-a14e-18299fc28f47
 title: Commands
 desc: ""
-updated: 1620555752234
+updated: 1621574578497
 created: 1595261816971
 ---
 
@@ -320,7 +320,7 @@ Note that when you add a remote vault, the url can also point to a remote worksp
 
 Remove a vault
 
-Remove a vault from your workspace. Note that the underlying files wil **not** be deleted - the vault will lose its association with your workspace.
+Remove a vault from your workspace. Note that the underlying files will **not** be deleted - the vault will lose its association with your workspace.
 
 <div style="position: relative; padding-bottom: 62.5%; height: 0;"><iframe src="https://www.loom.com/embed/307effc22b8d4c59a32933529a8393e1" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
@@ -381,6 +381,10 @@ Modify Dendron Config using Dendron UI
 ### Workspace: Add and Commit
 
 Add and commit all notes across all vaults to git.
+
+### Workspace: Sync
+
+Synchronizes all notes across all vaults with git. Any changes you made will be pushed back to remote, and any changes in the remote will be pulled.
 
 ---
 
