@@ -2,7 +2,7 @@
 id: 5b323a54-ab43-4227-96e5-5a42c0bd501e
 title: "2021-05-21"
 desc: ""
-updated: 1621611543004
+updated: 1621611579789
 created: 1621611517865
 ---
 
@@ -20,7 +20,12 @@ created: 1621611517865
 
 ## Daily
 
--
+-   [ ] Overdue: Onboarding, day 4
+    -   [ ] Improve handbook
+        -   [ ] Additional details on communication policies for various tasks
+            -   [ ] Pull requests
+            -   [ ] Issues
+    -   [ ] Create pull request
 
 ## Routine
 
