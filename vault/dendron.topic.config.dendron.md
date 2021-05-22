@@ -157,7 +157,16 @@ vaults:
 
 Development configuration covers option to enable [[experimental 🧪|dendron.ref.status#experimental-🧪]] features and when working on Dendron. 
 
+
 ### enableWebUI
 - default: false
 
 Enables turning on Dendron's new web ui. Currently (2021.05.20), this means enabling the new [Antd](https://ant.design/) based tree view
+
+#### Example
+It will work by adding it under the `dev` section (which is not created in default).  
+```yml
+dev:
+    enableWebUI: true
+```
+
