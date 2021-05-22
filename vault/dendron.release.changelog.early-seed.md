@@ -2,13 +2,13 @@
 id: 3abd00eb-1c1e-4253-aaf5-dcbe20c21850
 title: Early Seed
 desc: ''
-updated: 1621645146681
+updated: 1621645705269
 created: 1604539200840
 published: true
 nav_exclude: true
 ---
 
-## 0.42.1
+## 0.42.2
 ### Features
 
 #### Dendron Web UI with a new Tree View
