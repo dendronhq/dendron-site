@@ -2,7 +2,7 @@
 id: 84df871b-9442-42fd-b4c3-0024e35b5f3c
 title: Telemetry
 desc: ''
-updated: 1621631422966
+updated: 1621645107737
 created: 1619460500071
 ---
 
@@ -85,10 +85,10 @@ Events
 
 ### Other
 
-This is other metrics that are collected
+These are groupings of other metrics we collect. We collect them to gather performance impact and improvements across various features.
 
 Events
-- TreeView Ready: when the tree view finishes loading
+- TreeView Ready: measures when the web ui based [[TreeView|dendron.ref.web-ui#treeview]] is finished loading
 
 |          Field | Attributes | Description                                                                            |
 | -------------: | :--------: | :------------------------------------------------------------------------------------- |
