@@ -2,11 +2,7 @@
 id: 95f7193b-9940-42ba-841f-3e2a4d937ba3
 title: 10 Blocks
 desc: ''
-<<<<<<< HEAD
-updated: 1621644689755
-=======
-updated: 1621657007179
->>>>>>> 189e3e8 (Update RFC 10 (Blocks) status)
+updated: 1621657142989
 created: 1619804977969
 ---
 ## Goals
