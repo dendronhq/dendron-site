@@ -2,13 +2,15 @@
 id: 2976e5df-c8b4-4176-9d3f-fe4220dfa9b6
 title: Deploy
 desc: ''
-updated: 1621550684789
+updated: 1621634849735
 created: 1613863275374
 ---
 
 
 
 ## pre-req
+
+### Install locally
 ```sh
 npm install -g verdaccio
 npm install -g yarn
@@ -16,7 +18,6 @@ npm install -g vsce
 sudo apt-get install jq -y
 
 git clone git@github.com:dendronhq/dendron.git dendron
-git clone git@github.com:dendronhq/dendron.git dendron-build
 ```
 
 - run verdaccio
@@ -24,6 +25,14 @@ git clone git@github.com:dendronhq/dendron.git dendron-build
 verdaccio
 ```
 
+### Create Build Folder
+
+```
+cd dendron
+mkdir build
+git clone https://github.com/dendronhq/dendron.git
+...
+```
 
 ## Build Local
 
@@ -50,10 +59,12 @@ WORKSPACE_BUILD=/mnt/one/dendron-build
 WORKSPACE_BUILD=/Users/kevinlin/projects/dendronv2/dendron/build/dendron/packages/plugin-core
 cd $WORKSPACE_BUILD
 
-./scripts/pullBuild.sh
-
 # use this if you have ui changes
 ./scripts/pullBuildAndSync.sh
+
+# use this if you don't have ui changes
+./scripts/pullBuild.sh
+
 
 # see bundle
 cd ~/.vscode-insiders/extensions/dendron.dendron-0.42.1-alpha.0/

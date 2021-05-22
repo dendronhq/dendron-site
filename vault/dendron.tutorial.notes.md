@@ -2,7 +2,7 @@
 id: 784b8d5e-58eb-4e3e-98b0-8ed1690abc74
 title: Notes
 desc: ''
-updated: 1620593468584
+updated: 1621569970522
 created: 1608055635963
 nav_order: 0
 ---
@@ -57,6 +57,13 @@ To find notes, we use the same lookup interface that we used to create them. Typ
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/quickstart.lookup-fuzzy.jpg)
 
+### Daily Journal Notes
+
+![[dendron://dendron-site/dendron.topic.special-notes#daily-journal,1:#*]]
+
+Go ahead and create a journal note for today. 
+
+A daily journal note is one of multiple special note types you can create in Dendron. You can see a full list of them [[here|dendron.topic.special-notes]].
 
 ### Files
 
@@ -65,6 +72,7 @@ At the end of this module, you should have the following files in your vault
 ```
 .
 └── vault
+    ├── daily.journal.{date}.md
     ├── dendron.md
     ├── dendron.welcome.md
     ├── hello.md

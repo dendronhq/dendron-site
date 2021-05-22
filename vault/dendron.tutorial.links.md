@@ -2,7 +2,7 @@
 id: d758fe38-558c-4f20-a091-cac146a781cb
 title: Links
 desc: ""
-updated: 1621168460239
+updated: 1621568601175
 created: 1608055731373
 nav_order: 1
 ---
@@ -154,6 +154,7 @@ At the end of this module, you should have the following files in your vault
 ```
 .
 └── vault
+    ├── daily.journal.{date}.md
     ├── dendron.md
     ├── dendron.welcome.md
     ├── hello.md

@@ -2,7 +2,7 @@
 id: 84df871b-9442-42fd-b4c3-0024e35b5f3c
 title: Telemetry
 desc: ''
-updated: 1621290409476
+updated: 1621631422966
 created: 1619460500071
 ---
 
@@ -82,6 +82,17 @@ Events
 |      `error` |  _boolean_| Did an error happen during this phase? |
 |      `source` |  _string_| What initiated the lookup? ("onValueChange", "updatePickerBehavior:journal", etc ) |
 |      `createNewNote` |  _boolean_| Was a new note created during this phase? |
+
+### Other
+
+This is other metrics that are collected
+
+Events
+- TreeView Ready: when the tree view finishes loading
+
+|          Field | Attributes | Description                                                                            |
+| -------------: | :--------: | :------------------------------------------------------------------------------------- |
+|      `duration` |  _number_| How long it takes for the tree view to be initialized |
 
 ### Telemetry Toggle
 When telemetry is disabled or enabled, we collect information about the event to let us get an estimate of the number of untracked clients

@@ -2,7 +2,7 @@
 id: c998c642-a748-4f77-9285-cfec35330251
 title: 7 Graph Rework
 desc: Improvement Proposal For the Graph
-updated: 1620607143460
+updated: 1621614459260
 created: 1615106291022
 ---
 
@@ -26,7 +26,7 @@ This RFC contains Multiple Proposals on how to improve the Graph handling of Den
 ## Questions
 
 -   What does the Graph represent?
--   [[Hierarchies and the Graph|dendron.rfc.7-graph-rework.hierarchy]]
+-   [[Hierarchies and the Graph|dendron.rfc.7-graph-rework.hierarchy]]bet
 -   [[How are Notes represented in the Graph|dendron.rfc.7-graph-rework.notes]]
 -   [[What role do Schemas play in the Graph|dendron.rfc.7-graph-rework.schemas]]
 
