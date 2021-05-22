@@ -2,7 +2,11 @@
 id: 95f7193b-9940-42ba-841f-3e2a4d937ba3
 title: 10 Blocks
 desc: ''
+<<<<<<< HEAD
 updated: 1621644689755
+=======
+updated: 1621657007179
+>>>>>>> 189e3e8 (Update RFC 10 (Blocks) status)
 created: 1619804977969
 ---
 ## Goals
@@ -62,7 +66,7 @@ A block reference link is a reference to a block link.
 
 ## Tasks
 
-- [ ] [[Parsing block syntax|dendron.rfc.10-blocks.parsing-block-syntax]]
+- [x] [[Parsing block syntax|dendron.rfc.10-blocks.parsing-block-syntax]]
 - [ ] [[Markdown integration|dendron.rfc.10-blocks.markdown-integration]]
 - [ ] [[Html integration|dendron.rfc.10-blocks.html-integration]]
 - [ ] [[Integration with Vscode|dendron.rfc.10-blocks.vscode-integration]]
