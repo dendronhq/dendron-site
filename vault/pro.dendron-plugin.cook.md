@@ -2,7 +2,7 @@
 id: 04dd9ad8-3d81-4098-a661-21b6acc6f443
 title: Cook
 desc: ''
-updated: 1621722860037
+updated: 1621784238097
 created: 1621721485330
 ---
 
@@ -86,6 +86,18 @@ export class InsertNoteLinkButton extends DendronBtn {
 ```ts
 import { clipboard } from "../utils";
 clipboard.writeText(link);
+```
+
+### Check if file is in vault
+- see src/views/DendronTreeViewV2.ts
+
+```ts
+  const uri = editor.document.uri;
+  const basename = path.basename(uri.fsPath);
+  const ws = getWS();
+  if (!ws.workspaceService?.isPathInWorkspace(uri.fsPath)) {
+    return;
+  }
 ```
 
 ### Prompt User for Input using Selection
