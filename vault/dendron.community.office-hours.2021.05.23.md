@@ -2,11 +2,11 @@
 id: f49f6c7a-80f3-4097-a9ac-5f2223626eeb
 title: "23"
 desc: ""
-updated: 1621789378273
+updated: 1621794837482
 created: 1621785443334
 ---
 
-Company Updates
+## Company Updates
 
 -   First component of panel built (Tree View)
     -   Behind a feature flag &lt;link to docs>
@@ -14,11 +14,11 @@ Company Updates
     -   Trying to figure out how people are using Dendron.
     -   What people find useful/not so useful.
 
-Questions
+## Questions
 
--   Office hours timing survey
+-   Office hours timing? Is this working?
 
-Minutes
+## Minutes
 
 -   Discord Stages and Clubhouse
 -   Marc Andreesen Books
