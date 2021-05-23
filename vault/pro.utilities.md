@@ -2,7 +2,7 @@
 id: 33f8e460-99dc-49b3-baf3-cadb54e4853b
 title: Utilities
 desc: ''
-updated: 1620496347629
+updated: 1621711814380
 created: 1619128756963
 ---
 ## Summary
@@ -32,6 +32,10 @@ In order of precedence:
 ### Common-Server
 
 ![[pro.common-server#utilities,1]]
+
+### Dendron CLI
+
+![[pro.dendron-cli#utilities]]
 
 ### Engine
 
