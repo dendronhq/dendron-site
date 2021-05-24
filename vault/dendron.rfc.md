@@ -2,7 +2,7 @@
 id: f143ca38-dcc6-4cd3-b84b-997aec1160ef
 title: Rfc
 desc: ""
-updated: 1620070410377
+updated: 1621862429469
 created: 1605539111635
 ---
 
@@ -17,18 +17,18 @@ future state of the system and to discover projects for contribution.
 
 <!--BEGIN_TABLE-->
 
-| \#                                                                            | Title (Linked to Discussion)                                                   | Owner                                          | Status      |
-| ----------------------------------------------------------------------------- | ------------------------------------------------------------------------------ | ---------------------------------------------- | ----------- |
-| [7](https://wiki.dendron.so/notes/c998c642-a748-4f77-9285-cfec35330251.html)  | [Graph Rework](https://github.com/dendronhq/dendron/discussions/615)           | [@HFellerhoff](https://github.com/hfellerhoff) | ✍️ review   |
-| [10](https://wiki.dendron.so/notes/95f7193b-9940-42ba-841f-3e2a4d937ba3.html) | [Block References](https://github.com/dendronhq/dendron/discussions/685)       | [@SeriousBug](https://github.com/SeriousBug)   | ✍️ review   |
-| [9](https://wiki.dendron.so/notes/d2f8fe67-36c7-4600-b745-c22bdcb5b2cf.html)  | [Note Lifecycle Plugins](https://github.com/dendronhq/dendron/discussions/680) | [@kevin](https://github.com/kevinslin)         | ✍️ review   |
-| [1](https://wiki.dendron.so/notes/17c61d62-f92e-4002-b8fe-9c05686e4bf9.html)  | [Dendron: Next Edition]()                                                      | [@kevin](https://github.com/kevinslin)         | 💡 proposed |
-| [3](https://wiki.dendron.so/notes/ceca23ee-6181-4fa6-9724-9943433c6e96.html)  | [Standalone Vaults]()                                                          | [@kevin](https://github.com/kevinslin)         | 💡 proposed |
-| [4](https://wiki.dendron.so/notes/7117a023-f090-47f5-a104-5968fc256c23.html)  | [Richer Templating]()                                                          | [@kevin](https://github.com/kevinslin)         | 💡 proposed |
-| [5](https://wiki.dendron.so/notes/21b2e152-95f7-4904-8a8e-8d4d0b8c950c.html)  | [Publishing Registry]()                                                        | [@kevin](https://github.com/kevinslin)         | 💡 proposed |
-| [6](https://wiki.dendron.so/notes/d7597569-e3dd-4e56-b719-0f97f8e93030.html)  | [Design System]()                                                              | [@kevin](https://github.com/kevinslin)         | 💡 proposed |
-| [8](https://wiki.dendron.so/notes/8b3bfb16-8330-4a78-85cc-45581c319450.html)  | [Multi-publish]()                                                              | [@kevin](https://github.com/kevinslin)         | 💡 proposed |
-| [2](https://wiki.dendron.so/notes/ae4a0c98-e2ea-47e0-8a20-016eba3424be.html)  | [Managed Publishing]()                                                         | [@kevin](https://github.com/kevinslin)         | ✅ done     |
+| \#                                                                            | Title (Linked to Discussion)                                                   | Owner                                          | Status          |
+| ----------------------------------------------------------------------------- | ------------------------------------------------------------------------------ | ---------------------------------------------- | --------------- |
+| [7](https://wiki.dendron.so/notes/c998c642-a748-4f77-9285-cfec35330251.html)  | [Graph Rework](https://github.com/dendronhq/dendron/discussions/615)           | [@HFellerhoff](https://github.com/hfellerhoff) | 👷 implementing |
+| [10](https://wiki.dendron.so/notes/95f7193b-9940-42ba-841f-3e2a4d937ba3.html) | [Block References](https://github.com/dendronhq/dendron/discussions/685)       | [@SeriousBug](https://github.com/SeriousBug)   | 👷 implementing |
+| [9](https://wiki.dendron.so/notes/d2f8fe67-36c7-4600-b745-c22bdcb5b2cf.html)  | [Note Lifecycle Plugins](https://github.com/dendronhq/dendron/discussions/680) | [@kevin](https://github.com/kevinslin)         | 👷 implementing |
+| [1](https://wiki.dendron.so/notes/17c61d62-f92e-4002-b8fe-9c05686e4bf9.html)  | [Dendron: Next Edition]()                                                      | [@kevin](https://github.com/kevinslin)         | 💡 proposed     |
+| [3](https://wiki.dendron.so/notes/ceca23ee-6181-4fa6-9724-9943433c6e96.html)  | [Standalone Vaults]()                                                          | [@kevin](https://github.com/kevinslin)         | 💡 proposed     |
+| [4](https://wiki.dendron.so/notes/7117a023-f090-47f5-a104-5968fc256c23.html)  | [Richer Templating]()                                                          | [@kevin](https://github.com/kevinslin)         | 💡 proposed     |
+| [5](https://wiki.dendron.so/notes/21b2e152-95f7-4904-8a8e-8d4d0b8c950c.html)  | [Publishing Registry]()                                                        | [@kevin](https://github.com/kevinslin)         | 💡 proposed     |
+| [6](https://wiki.dendron.so/notes/d7597569-e3dd-4e56-b719-0f97f8e93030.html)  | [Design System]()                                                              | [@kevin](https://github.com/kevinslin)         | 💡 proposed     |
+| [8](https://wiki.dendron.so/notes/8b3bfb16-8330-4a78-85cc-45581c319450.html)  | [Multi-publish]()                                                              | [@kevin](https://github.com/kevinslin)         | 💡 proposed     |
+| [2](https://wiki.dendron.so/notes/ae4a0c98-e2ea-47e0-8a20-016eba3424be.html)  | [Managed Publishing]()                                                         | [@kevin](https://github.com/kevinslin)         | ✅ done         |
 
 ## What is an RFC?
 
@@ -52,12 +52,12 @@ You should consider using this process if you intend to make "substantial"
 changes to [Dendron](https://github.com/dendronhq/dendron) or related tools.
 Some examples that would benefit from an RFC are:
 
-- Major new features where the desired exprience is ambiguous.
-- Any change to existing APIs that could break existing code.
-- The removal of existing features or public APIs.
-- Changes to the documented contribution workflow.
-- Features that cross multiple construct libraries.
-- Additions or changes to framework capabilities.
+-   Major new features where the desired exprience is ambiguous.
+-   Any change to existing APIs that could break existing code.
+-   The removal of existing features or public APIs.
+-   Changes to the documented contribution workflow.
+-   Features that cross multiple construct libraries.
+-   Additions or changes to framework capabilities.
 
 The RFC process is a great opportunity to get more eyeballs on your proposal
 before it becomes a part of a released version of Dendron. Quite often, even
@@ -75,9 +75,9 @@ first.
 
 Some changes do not require an RFC:
 
-- Bugfixes for known issues.
-- Additions only likely to be _noticed by_ other developers of Dendro, invisible
-  to end product users.
+-   Bugfixes for known issues.
+-   Additions only likely to be _noticed by_ other developers of Dendro, invisible
+    to end product users.
 
 If you're not sure whether your change requires an RFC, feel free to create an
 issue and ask.
