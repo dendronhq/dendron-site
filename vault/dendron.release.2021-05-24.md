@@ -2,7 +2,7 @@
 id: 1572fad1-a971-4802-81d9-ac678cee84a6
 title: Release Notes (version 0.43)
 desc: ''
-updated: 1621894266631
+updated: 1621897400162
 created: 1621888251389
 ---
 
@@ -26,7 +26,7 @@ You can find notes from our latest office hours [[here|dendron.community.office-
 A big **thanks** to the following gardeners that brought up issues, contributions, and fixes to this release :man_farmer: :woman_farmer: 
 You can see an overview of all roles [[here|dendron.community.roles]]
 
-- [Jack](https://github.com/JackQAQ-byte) @I'm a lightbulb#6986
+- [Jack](https://github.com/imalightbulb) @I'm a lightbulb#6986
   - [update tag docs on site](https://github.com/dendronhq/dendron-site/pull/94)
   - [add web ui enablement example](https://github.com/dendronhq/dendron-site/pull/95)
 
