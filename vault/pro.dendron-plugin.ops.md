@@ -11,6 +11,6 @@ created: 1621830830888
 ## inspect bundles
 ```
 # see bundle
-cd ~/.vscode-insiders/extensions/dendron.dendron-0.42.1-alpha.0/
+cd ~/.vscode-insiders/extensions/dendron.dendron-$version/
 cd ~/.vscode-oss/extensions/dendron.dendron-0.42.1-alpha.0/
 ```

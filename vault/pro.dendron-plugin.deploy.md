@@ -2,7 +2,7 @@
 id: 2976e5df-c8b4-4176-9d3f-fe4220dfa9b6
 title: Deploy
 desc: ''
-updated: 1621875912967
+updated: 1621892549879
 created: 1613863275374
 ---
 
@@ -77,23 +77,32 @@ yarn install --no-lockfile
 echo "syncing..."
 ./scripts/sync_static.sh
 
-# packing
+echo "package..."
 ./scripts/package.sh
-
+echo "done"
 ```
-
-
 
 - NOTE: when you are testing, remember that all dependencies are LOCAL which means running `git push` and relying on external workflows won't work at this point
 
-## publish
+## Publish New Version
+
+### Build
 
 - checkout
-```
-gco master
+```sh
 setRegRemote
+gco master
+git pull
+git merge dev
+
+echo "creating release..."
+./bootstrap/scripts/createRelease.sh
+echo "patching 11ty
+./bootstrap/scripts/patch11tyVersion.sh
 ```
 
+
+## Other
 - [ ] cherry pick if needed
 
 ```
@@ -138,13 +147,9 @@ gbD integ-publish
 ./unpublish.sh
 ```
 
-## rest
+### install a specific version
 
-### git 
-```sh
-
-yarn
-yarn bootstrap:build 
-. bootstrap/scripts/helpers.sh
-
+```
+version=0.42
+./scripts/install.sh
 ```
