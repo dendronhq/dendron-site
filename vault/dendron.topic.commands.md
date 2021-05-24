@@ -2,7 +2,7 @@
 id: eea2b078-1acc-4071-a14e-18299fc28f47
 title: Commands
 desc: ""
-updated: 1621644949136
+updated: 1621892239955
 created: 1595261816971
 ---
 
@@ -92,6 +92,7 @@ Move a note. Also includes option to move a note between vaults
 ### Paste Link
 
 Transform URL in clipboard to nicely formatted markdown link
+
 
 ### Rename Note
 
@@ -437,6 +438,14 @@ If you highlight a header, will copy the url with the header set as the anchor
 The url is taken from the [[siteUrl|dendron.topic.publishing.configuration#siteurl]] property.
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/notes.copy-url.gif)
+
+---
+
+## Misc
+
+### Paste File
+
+Copy file path in clipboard, copy the file into `{vault}/assets`, and insert markdown link in the current note. This is the file equivalent of Dendron's [[Paste Image|dendron.topic.images]] command
 
 ---
 

@@ -2,14 +2,12 @@
 id: 25287595-96bb-410b-ab46-eb9a26b0e259
 title: Web UI
 desc: ''
-updated: 1621644444093
+updated: 1621892278981
 created: 1621552722494
 ---
 
 ## Summary
-- status: 
-    - [[Early Seed 🌱|dendron.ref.status#early-seed-]],
-    - [[Experimental 🧪|dendron.ref.status#experimental-🧪]]
+- status: [[Experimental 🧪|dendron.ref.status#experimental-🧪]]
 
 The Dendron Web UI refers to Dendron's native UI components build using the latest web technologies (instead of VSCode components).
 This lets us create dynamic interfaces with dynamic dropdowns, drag and drop and custom made components. 

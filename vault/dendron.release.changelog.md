@@ -2,7 +2,7 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1621888660580
+updated: 1621892363349
 created: 1601508213606
 date: '2022-01-01'
 ---
@@ -12,24 +12,29 @@ date: '2022-01-01'
 ### Features
 
 #### Dendron Web UI with a new Tree View
-- status: [[Experimental 🧪|dendron.ref.status#experimental-🧪]]
 
 ![[dendron://dendron-site/dendron.ref.web-ui#summary,1:#*]]
 
 #### Block References 
-- status: [[Experimental 🧪|dendron.ref.status#experimental-🧪]]
 
 ![[dendron.topic.links#block-references,1:#*]]
+
+#### Paste File Command
+![[dendron.topic.commands#paste-file,1:#*]]
 
 #### GraphViz Pod
 
 ![[dendron://dendron-site/dendron.topic.pod.builtin.graphviz.export#summary,1:#*]]
 
 ### Enhancements
-- Workspace Sync Command ([[docs|dendron.topic.commands#workspace-sync]])
+- Workspace Sync Command is now available as a native Dendron command ([[docs|dendron.topic.commands#workspace-sync]])
+
+### Bug Fixes
+- dendron caching old links at startup
 
 ### House Cleaning
 - collect analytics on Web UI load time ([[docs|dendron.topic.telemetry#other]])
+- internal interface refactoring
 
 # 0.42
 

@@ -2,7 +2,7 @@
 id: 3472226a-ff3c-432d-bf5d-10926f39f6c2
 title: Links
 desc: ""
-updated: 1621644775427
+updated: 1621892289225
 created: 1595003088839
 stub: false
 ---
@@ -44,9 +44,7 @@ Dendron has a backlink panel which shows all notes with links to the current not
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/links.backlink.jpg)
 
 ## Block References
-- status: 
-    - [[Experimental 🧪|dendron.ref.status#experimental-🧪]]
-    - [[Early Seed 🌱|dendron.ref.status#early-seed-]]
+- status: [[Experimental 🧪|dendron.ref.status#experimental-🧪]]
 
 Block references let you link or embed blocks of text into different parts of your notes. This allows you to link and refer to any part of a note, including paragraphs, lists, and tables.
 
