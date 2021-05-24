@@ -2,8 +2,9 @@
 id: 1572fad1-a971-4802-81d9-ac678cee84a6
 title: Release Notes (version 0.43)
 desc: ''
-updated: 1621888360794
+updated: 1621891778025
 created: 1621888251389
+published: false
 ---
 
 Dendron 0.43 has sprouted  🌱

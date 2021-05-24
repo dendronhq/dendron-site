@@ -41,7 +41,7 @@ Use [nunjucks](https://mozilla.github.io/nunjucks/) to customize Dendron
     ```
     {% block content %}
 
-    # [{{fm.title}}]({{fm.homepage}}) 
+    # [{{fm.title}}]({{fm.homepage}})
 
     - discord: {{fm.discord}}
     - email: {{fm.email}}
@@ -52,10 +52,10 @@ Use [nunjucks](https://mozilla.github.io/nunjucks/) to customize Dendron
     - output
     ```md
     # [John Snow](https://john.dendron.wiki)
-    
+
     - discord: @john123
     - email: john@hey.me
-    
+
     ```
 
 
@@ -68,4 +68,3 @@ Use [nunjucks](https://mozilla.github.io/nunjucks/) to customize Dendron
 ## Related
 
 ## People
-- [[Tmss|people.tmss]]
