@@ -2,7 +2,7 @@
 id: 04dd9ad8-3d81-4098-a661-21b6acc6f443
 title: Cook
 desc: ''
-updated: 1621784238097
+updated: 1621794002944
 created: 1621721485330
 ---
 
@@ -99,6 +99,9 @@ clipboard.writeText(link);
     return;
   }
 ```
+
+### Insert Text
+- src/commands/InsertNoteCommand.ts
 
 ### Prompt User for Input using Selection
 

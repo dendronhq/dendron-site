@@ -2,7 +2,7 @@
 id: 2976e5df-c8b4-4176-9d3f-fe4220dfa9b6
 title: Deploy
 desc: ''
-updated: 1621634849735
+updated: 1621826663086
 created: 1613863275374
 ---
 
@@ -37,6 +37,7 @@ git clone https://github.com/dendronhq/dendron.git
 ## Build Local
 
 ### Pull Build
+
 ```sh
 yarn
 yarn bootstrap:build 
@@ -55,9 +56,22 @@ verdaccio
 
 ### Install Build
 ```sh
-WORKSPACE_BUILD=/mnt/one/dendron-build
-WORKSPACE_BUILD=/Users/kevinlin/projects/dendronv2/dendron/build/dendron/packages/plugin-core
-cd $WORKSPACE_BUILD
+pushd build/dendron/packages/plugin-core
+echo "cleaning..."
+rf -r out
+
+echo "checkout..."
+git reset --hard
+git clean -f
+git checkout master
+git fetch
+git branch -D integ-publish
+git checkout --track origin/integ-publish
+
+echo "installing..."
+yarn install --no-lockfile
+echo "building..."
+yarn build
 
 # use this if you have ui changes
 ./scripts/pullBuildAndSync.sh
