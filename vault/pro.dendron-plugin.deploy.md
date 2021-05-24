@@ -2,7 +2,7 @@
 id: 2976e5df-c8b4-4176-9d3f-fe4220dfa9b6
 title: Deploy
 desc: ''
-updated: 1621826663086
+updated: 1621830909220
 created: 1613863275374
 ---
 
@@ -58,7 +58,7 @@ verdaccio
 ```sh
 pushd build/dendron/packages/plugin-core
 echo "cleaning..."
-rf -r out
+rm -r out
 
 echo "checkout..."
 git reset --hard
@@ -70,20 +70,17 @@ git checkout --track origin/integ-publish
 
 echo "installing..."
 yarn install --no-lockfile
-echo "building..."
-yarn build
 
-# use this if you have ui changes
-./scripts/pullBuildAndSync.sh
+# optional
+echo "syncing..."
+./scripts/sync_static.sh
 
-# use this if you don't have ui changes
-./scripts/pullBuild.sh
+# packing
+./scripts/package.sh
 
-
-# see bundle
-cd ~/.vscode-insiders/extensions/dendron.dendron-0.42.1-alpha.0/
-cd ~/.vscode-oss/extensions/dendron.dendron-0.42.1-alpha.0/
 ```
+
+
 
 - NOTE: when you are testing, remember that all dependencies are LOCAL which means running `git push` and relying on external workflows won't work at this point
 
