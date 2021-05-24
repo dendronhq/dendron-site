@@ -2,7 +2,7 @@
 id: 55577c37-0943-44e7-9c85-c0327bdc9212
 title: Plan
 desc: ""
-updated: 1621615134454
+updated: 1621888788892
 created: 1619793470844
 issue: 692
 ---
@@ -47,7 +47,7 @@ issue: 692
 
 <!-- Important links -->
 
--   [[Design Document | proj.2021-better-graph-view.design]]
--   [[7 Graph Rework|dendron.rfc.7-graph-rework]]
+- [[Better Graph View – Design|dendron.rfc.7-graph-rework.design]]
+- [[7 Graph Rework|dendron.rfc.7-graph-rework]]
 
 ## Notes

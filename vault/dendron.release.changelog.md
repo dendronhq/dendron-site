@@ -2,10 +2,34 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1621288918532
+updated: 1621888660580
 created: 1601508213606
 date: '2022-01-01'
 ---
+
+## 0.43
+
+### Features
+
+#### Dendron Web UI with a new Tree View
+- status: [[Experimental 🧪|dendron.ref.status#experimental-🧪]]
+
+![[dendron://dendron-site/dendron.ref.web-ui#summary,1:#*]]
+
+#### Block References 
+- status: [[Experimental 🧪|dendron.ref.status#experimental-🧪]]
+
+![[dendron.topic.links#block-references,1:#*]]
+
+#### GraphViz Pod
+
+![[dendron://dendron-site/dendron.topic.pod.builtin.graphviz.export#summary,1:#*]]
+
+### Enhancements
+- Workspace Sync Command ([[docs|dendron.topic.commands#workspace-sync]])
+
+### House Cleaning
+- collect analytics on Web UI load time ([[docs|dendron.topic.telemetry#other]])
 
 # 0.42
 
@@ -690,7 +714,7 @@ You can now publish and build your notes without going to the command line ([[do
 - custom header support ([[docs|dendron.topic.publishing.configuration#customheaderpath-optional]])
   - [[add custom headers|scratch.2021.01.12.085012.add-custom-headers]]
 - google analytics support ([[docs|dendron.topic.publishing.configuration#ga_tracking-optional]])
-- [[Multi Vault Edit on GitHub|dendron.scratch.2021.01.09.multi-vault-edit-on-github]]
+- Multi Vault Edit on GitHub
 
 ### Bug Fixes
 

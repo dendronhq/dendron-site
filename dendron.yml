@@ -29,4 +29,7 @@ mermaid: true
 useTitleForLink: true
 dev:
   enableWebUI: true
+#   engineServerPort: 3005
+#   nextServerUrl: http://localhost:3000
+
 
