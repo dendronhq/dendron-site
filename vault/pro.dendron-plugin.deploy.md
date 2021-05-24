@@ -2,7 +2,7 @@
 id: 2976e5df-c8b4-4176-9d3f-fe4220dfa9b6
 title: Deploy
 desc: ''
-updated: 1621830909220
+updated: 1621875912967
 created: 1613863275374
 ---
 
@@ -56,7 +56,9 @@ verdaccio
 
 ### Install Build
 ```sh
+# navigate to build
 pushd build/dendron/packages/plugin-core
+
 echo "cleaning..."
 rm -r out
 

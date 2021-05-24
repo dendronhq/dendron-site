@@ -2,7 +2,7 @@
 id: f143ca38-dcc6-4cd3-b84b-997aec1160ef
 title: Rfc
 desc: ""
-updated: 1621862429469
+updated: 1621865444146
 created: 1605539111635
 ---
 
@@ -154,6 +154,7 @@ point the RFC is 'in review' and may be implemented.
    the RFC.
 6. **👷 implementing** - Implemetation plan is approved and merged and the RFC
    is actively being implemented.
+7. **1️⃣ phase one done** - Implementation for phase1 is complete
 7. **✅ done** - Implementation is complete and merged across appropriate
    repositories.
 8. **👎 rejected** - During the review period, the RFC may be rejected and then
