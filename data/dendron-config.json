@@ -524,6 +524,16 @@
             "skipDocs": false
         }
     ],
+    "misc": [
+        {
+            "key": "dendron.pasteFile",
+            "title": "Dendron: Paste File",
+            "group": "misc",
+            "keybindings": {},
+            "desc": "Paste file",
+            "skipDocs": false
+        }
+    ],
     "dev": [
         {
             "key": "dendron.dev.doctor",

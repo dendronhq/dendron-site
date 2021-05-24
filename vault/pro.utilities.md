@@ -2,7 +2,7 @@
 id: 33f8e460-99dc-49b3-baf3-cadb54e4853b
 title: Utilities
 desc: ''
-updated: 1620496347629
+updated: 1621875401802
 created: 1619128756963
 ---
 ## Summary
@@ -46,6 +46,7 @@ In order of precedence:
 ![[dendron://dendron-site/pro.engine-test-utils#utilities,1]]
 
 ## Git Utils
+- NOTE: git support is a wrapper around the native `git` installation. we assume a minimal version of `2.20`. when adding new functionality, make sure that it is available in git 2.20
 
 - engine-server:src/topics/git.ts
 - common-server:src/git.ts
