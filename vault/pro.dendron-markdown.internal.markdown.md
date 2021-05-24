@@ -2,7 +2,7 @@
 id: 8289cf77-51fa-4644-96c6-b5b2c2ef62fc
 title: Markdown
 desc: ''
-updated: 1614024416739
+updated: 1621827386635
 created: 1613752938733
 ---
 
@@ -25,7 +25,9 @@ convertNoteRef {
     noteRefs := 
 
     noteRefs.map {
-        convertNoteRefHelper 
+        npath = getFullPath it
+        note = file2Note npath
+        convertNoteRefHelper note
     }
 
 }

@@ -2,7 +2,7 @@
 id: cb22bd36-d45a-4ffd-a31e-96c4b39cb7fb
 title: Testing
 desc: ''
-updated: 1621520266835
+updated: 1621722293247
 created: 1598654055046
 stub: false
 ---
@@ -69,6 +69,8 @@ describe("foo", function() {
   });
 });
 ```
+
+You can see an example of a test [here](https://github.com/dendronhq/dendron/blob/dev-kevin/packages/plugin-core/src/commands/CopyNoteURL.ts#L1:L1)
 
 ### Test Workspace
 
