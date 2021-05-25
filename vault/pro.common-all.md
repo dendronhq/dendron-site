@@ -2,7 +2,7 @@
 id: 5c71637f-d08f-4ce5-8160-c5ab90254dee
 title: Common All
 desc: ''
-updated: 1620489782463
+updated: 1621950279719
 created: 1620335767697
 ---
 
@@ -15,6 +15,7 @@ Meant to be used for web and node js environemnts
 - constants (eg. name of dendron.yml file, etc)
 - time utilities
 - helpers to work with vaults and notes
+- [note utilities](https://github.com/dendronhq/dendron/blob/master/packages/common-all/src/dnode.ts#L775:L775)
 
 ## Types 
 
