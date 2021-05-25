@@ -2,7 +2,7 @@
 id: eea2b078-1acc-4071-a14e-18299fc28f47
 title: Commands
 desc: ""
-updated: 1621951355219
+updated: 1621958175771
 created: 1595261816971
 ---
 
@@ -445,7 +445,7 @@ The url is taken from the [[siteUrl|dendron.topic.publishing.configuration#siteu
 
 ### Paste File
 
-Copy file path in clipboard, copy the file into `{vault}/assets`, and insert markdown link in the current note. This is the file equivalent of Dendron's [[Paste Image|dendron.topic.images]] command
+Takes the path currently in the clipboard, copies the file into `{vault}/assets`, and inserts markdown link in the current note. This is the file equivalent of Dendron's [[Paste Image|dendron.topic.images]] command
 
 Note that most file types won't be natively supported in the preview. You'll need to use the vscode built-in `> Open Link` command to open the file. 
 
