@@ -2,7 +2,7 @@
 id: eea2b078-1acc-4071-a14e-18299fc28f47
 title: Commands
 desc: ""
-updated: 1621958175771
+updated: 1621958585129
 created: 1595261816971
 ---
 
@@ -447,6 +447,8 @@ The url is taken from the [[siteUrl|dendron.topic.publishing.configuration#siteu
 Takes the path currently in the clipboard, copies the file into `{vault}/assets`, and inserts markdown link in the current note. This is the file equivalent of Dendron's [[Paste Image|dendron.topic.images]] command
 
 Note that most file types won't be natively supported in the preview. You'll need to use the vscode built-in `> Open Link` command to open the file. 
+
+If you are on macOs, you can find instructions for getting the path to the current file [here](https://www.switchingtomac.com/tutorials/osx/5-ways-to-reveal-the-path-of-a-file-on-macos/#:~:text=To%20see%20it%20for%20yourself,your%20file%20is%20located%20in)
 
 ---
 
