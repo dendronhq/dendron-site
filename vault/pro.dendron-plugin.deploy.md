@@ -2,7 +2,7 @@
 id: 2976e5df-c8b4-4176-9d3f-fe4220dfa9b6
 title: Deploy
 desc: ''
-updated: 1621892549879
+updated: 1621897576743
 created: 1613863275374
 ---
 
@@ -73,13 +73,16 @@ git checkout --track origin/integ-publish
 echo "installing..."
 yarn install --no-lockfile
 
-# optional
-echo "syncing..."
-./scripts/sync_static.sh
-
 echo "package..."
 ./scripts/package.sh
 echo "done"
+```
+
+- sync UI changes
+```
+# optional, add before package
+echo "syncing..."
+./scripts/sync_static.sh
 ```
 
 - NOTE: when you are testing, remember that all dependencies are LOCAL which means running `git push` and relying on external workflows won't work at this point
