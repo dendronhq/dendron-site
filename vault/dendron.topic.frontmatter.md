@@ -2,7 +2,7 @@
 id: ffec2853-c0e0-4165-a368-339db12c8e4b
 title: Frontmatter
 desc: ""
-updated: 1620984001761
+updated: 1621927707863
 created: 1595352354163
 stub: false
 ---
@@ -42,6 +42,14 @@ Unix timestamp of when note was updated
 ### created
 
 Unix timestamp of when note was created
+
+### parent
+
+Node parent
+
+### children
+
+Node children
 
 ### uri
 
