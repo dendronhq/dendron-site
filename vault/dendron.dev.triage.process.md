@@ -2,7 +2,7 @@
 id: 06751374-7982-4df2-b30b-92b10aba733a
 title: Process
 desc: ""
-updated: 1622034887181
+updated: 1622043427333
 created: 1619524509981
 ---
 
@@ -103,4 +103,8 @@ Every week, we post three issues in the [#feedback](https://discordapp.com/chann
 
 We take a quick poll over the weekend (opens Friday and closes on Monday) and we commit to delivering or making substantial progress on the issue by the next release (next Monday). If you're particularly interested in an issue being included as part of next week's CROP, that's good feedback too and we'll do our best to honor your requests. Don't worry if an issue doesn't make it, we have a weekly rotation of issues so it's bound to come back in soon.
 
-We borrowed liberally from the [vscode process](https://github.com/microsoft/vscode/wiki/Issues-Triaging) in the spirit of [lookup](https://handbook.dendron.so/notes/b89ba854-72fb-4ebc-a8a0-55960b89e9dc.html#lookup)
+## [Lookup](https://handbook.dendron.so/notes/b89ba854-72fb-4ebc-a8a0-55960b89e9dc.html#lookup)
+
+This section is both inspired by and borrows heavily from the following project:
+
+-   [vscode triage process](https://github.com/microsoft/vscode/wiki/Issues-Triaging)
