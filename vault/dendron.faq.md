@@ -2,7 +2,7 @@
 id: 683740e3-70ce-4a47-a1f4-1f140e80b558
 title: FAQ
 desc: ""
-updated: 1622039190129
+updated: 1622044518035
 created: 1595952505025
 stub: false
 nav_order: 6
@@ -154,6 +154,10 @@ The hierarchy adds friction but the idea is that the friction (eg. hierarchy) is
 The analogy to think about is excel: while putting your numbers inside the structure of a spreadsheet might not be the most straightforward way of getting to a numerical solution, its use becomes indispensable once you deal with a significant amount ofnumbers.
 
 The way to think about dendron is that its not like google where you type a question and try to find an answer - until we get true AI, this simply doesn't work for personal knowledge. Rather, Dendron helps you organize your notes so you can reference the information you need to answer your own questions.
+
+### Will Dendron ever support folders?
+
+It is possible though most of the approaches we've thought of would take a large amount of effort and deliver questionable benefit on top of what's already planned (for more info, see the discussion [here](https://github.com/dendronhq/dendron/issues/210)). A read only version of Dendron with a folder structure is planned to be supported for the next iteration of the Markdown pod: https://wiki.dendron.so/notes/ccab31c4-e9ca-4ee8-b754-f786a3f3be6e.html
 
 ## Working with Schemas
 
