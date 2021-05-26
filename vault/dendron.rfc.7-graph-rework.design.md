@@ -2,7 +2,7 @@
 id: 6e87249b-358f-4f4b-8049-dff6e6a8463b
 title: Better Graph View – Design
 desc: ""
-updated: 1622042461638
+updated: 1622042726673
 created: 1621277234750
 ---
 
@@ -56,6 +56,12 @@ Performance is determined primarily by the layout algorithm used. The current im
 
 #### Accessibility
 
+##### Keyboard Navigation
+
+Basic keyboard navigation will be implemented for the new graph view. This will include navigating up and down between hierarchies, cycling between child nodes, and opening notes. Cytoscape offers [a number of events](https://js.cytoscape.org/#events) that can be listened to, making it fairly straightforward to create robust keyboard-driven navigation.
+
+##### Other Notes
+
 Making a graph truly accessible is a difficult task. Most visualization libraries (including those researched) say virtually nothing about accessibility. While a tradeoff of creating a rich graph may be accessibility, some of the [canvas accessibility ideas shared by Mozilla](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Hit_regions_and_accessibility) creating possibilities for creating a more accessible graph display.
 
 ---
@@ -72,6 +78,10 @@ Create a more or less 1 to 1 drop in replacement for `markdown-links`, accessibl
 -   [ ] Initialize graph, layout nodes
 -   [ ] Display graph
 -   [ ] Embedding capability in VSCode
+
+After this initial integration, work will be done on:
+
+-   [ ] Keyboard navigation/accessibility
 
 ### Stage 2: Core Features
 
