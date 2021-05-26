@@ -2,10 +2,17 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1621892363349
+updated: 1622048513916
 created: 1601508213606
 date: '2022-01-01'
 ---
+
+## 0.43.1
+
+### Bug Fixes
+- welcome page not showing up unless workspace is initialized
+- paste file command should handle names with spaces and special characters
+- markdown import pod not working
 
 ## 0.43
 
@@ -36,7 +43,7 @@ date: '2022-01-01'
 - collect analytics on Web UI load time ([[docs|dendron.topic.telemetry#other]])
 - internal interface refactoring
 
-# 0.42
+## 0.42
 
 ### Features
 

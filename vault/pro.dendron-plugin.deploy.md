@@ -2,7 +2,7 @@
 id: 2976e5df-c8b4-4176-9d3f-fe4220dfa9b6
 title: Deploy
 desc: ''
-updated: 1621987426434
+updated: 1622049005540
 created: 1613863275374
 ---
 
@@ -66,7 +66,7 @@ echo "installing..."
 yarn install --no-lockfile
 
 echo "package..."
-./scripts/package.sh
+./scripts/pack_and_install.sh
 echo "done"
 ```
 
@@ -81,6 +81,21 @@ echo "syncing..."
 
 ## Publish New Version
 
+### pre-req
+- vsce
+- ovsx
+
+
+- login to vsce
+```
+vsce login dendron
+```
+
+- get access to osvx
+```
+cat $OSVX_ACCESS > ~/.osvx
+```
+
 ### Build
 
 - checkout
@@ -88,8 +103,19 @@ echo "syncing..."
 setRegRemote
 gco master
 git pull
-git merge dev
+git merge dev-kevin
+```
 
+- minor
+```sh
+echo "creating release..."
+./bootstrap/scripts/createInsider.sh
+echo "patching 11ty
+./bootstrap/scripts/patch11tyVersion.sh
+```
+
+- major
+```sh
 echo "creating release..."
 ./bootstrap/scripts/createRelease.sh
 echo "patching 11ty
