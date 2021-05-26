@@ -2,7 +2,7 @@
 id: 6e87249b-358f-4f4b-8049-dff6e6a8463b
 title: Better Graph View – Design
 desc: ""
-updated: 1622042276057
+updated: 1622042461638
 created: 1621277234750
 ---
 
@@ -40,16 +40,22 @@ Here is the [[list of all libraries researched.|dendron.rfc.7-graph-rework.libra
 
 ### Implementation
 
-**Graph Structure**
+#### Graph Structure
+
 One of the benefits of going with a Next.js-centered approach is we get all the benefits of React and global state. Since notes will be loaded into the global Redux store already, querying them and creating the graph structure should be fairly straightforward.
 
-**Styling**
+#### Styling
+
 Styling in Cytoscape is done through a style object, which is a CSS-like style array. There are two clear options for styling: either a dedicated CSS stylesheet or a config file with various options. Since the Cytoscape styling method is slightly abstracted from direct CSS, it may be easier to use a config file and lightly parse it into a useable form.
 
-**Performance**
+#### Performance
+
 One of the biggest issues with visualization libraries is performance. While adding many nodes and edges to a graph can degrad`e performance, Cytoscape contains [a number of optimization options](https://js.cytoscape.org/#performance/optimisations) to scale large, complex graphs.
 
-**Accessibility**
+Performance is determined primarily by the layout algorithm used. The current implementation will use the [cytoscape.js-euler](https://github.com/cytoscape/cytoscape.js-euler) layout, as it is able to display a graph with thousands of nodes and edges in an understandable format.
+
+#### Accessibility
+
 Making a graph truly accessible is a difficult task. Most visualization libraries (including those researched) say virtually nothing about accessibility. While a tradeoff of creating a rich graph may be accessibility, some of the [canvas accessibility ideas shared by Mozilla](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Hit_regions_and_accessibility) creating possibilities for creating a more accessible graph display.
 
 ---
