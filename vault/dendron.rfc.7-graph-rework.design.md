@@ -2,7 +2,7 @@
 id: 6e87249b-358f-4f4b-8049-dff6e6a8463b
 title: Better Graph View – Design
 desc: ""
-updated: 1621615127550
+updated: 1622042276057
 created: 1621277234750
 ---
 
@@ -47,7 +47,10 @@ One of the benefits of going with a Next.js-centered approach is we get all the 
 Styling in Cytoscape is done through a style object, which is a CSS-like style array. There are two clear options for styling: either a dedicated CSS stylesheet or a config file with various options. Since the Cytoscape styling method is slightly abstracted from direct CSS, it may be easier to use a config file and lightly parse it into a useable form.
 
 **Performance**
-One of the biggest issues with visualization libraries is performance. While adding many nodes and edges to a graph can degrade performance, Cytoscape contains [a number of optimization options](https://js.cytoscape.org/#performance/optimisations) to scale large, complex graphs.
+One of the biggest issues with visualization libraries is performance. While adding many nodes and edges to a graph can degrad`e performance, Cytoscape contains [a number of optimization options](https://js.cytoscape.org/#performance/optimisations) to scale large, complex graphs.
+
+**Accessibility**
+Making a graph truly accessible is a difficult task. Most visualization libraries (including those researched) say virtually nothing about accessibility. While a tradeoff of creating a rich graph may be accessibility, some of the [canvas accessibility ideas shared by Mozilla](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Hit_regions_and_accessibility) creating possibilities for creating a more accessible graph display.
 
 ---
 
