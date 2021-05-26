@@ -2,7 +2,7 @@
 id: 2976e5df-c8b4-4176-9d3f-fe4220dfa9b6
 title: Deploy
 desc: ''
-updated: 1621897576743
+updated: 1621987426434
 created: 1613863275374
 ---
 
@@ -11,18 +11,17 @@ created: 1613863275374
 ## pre-req
 
 ### Install locally
+- install jq
+
 ```sh
 npm install -g verdaccio
-npm install -g yarn
 npm install -g vsce
-sudo apt-get install jq -y
+npm install -g yarn
 
-git clone git@github.com:dendronhq/dendron.git dendron
-```
-
-- run verdaccio
-```
+# create verdaccio user
 verdaccio
+npm login {user}
+CTRL+C
 ```
 
 ### Create Build Folder
@@ -31,23 +30,16 @@ verdaccio
 cd dendron
 mkdir build
 git clone https://github.com/dendronhq/dendron.git
-...
+cd dendron/packages/plugin-core/
 ```
 
 ## Build Local
-
-### Pull Build
-
-```sh
-yarn
-yarn bootstrap:build 
-./bootstrap/scripts/helpers.sh
-```
 
 ### Create Build
 
 - publish from local
 ```sh
+. bootstrap/scripts/helpers.sh
 setRegLocal
 verdaccio
 
