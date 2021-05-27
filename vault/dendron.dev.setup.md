@@ -2,7 +2,7 @@
 id: 64f0e2d5-2c83-43df-9144-40f2c68935aa
 title: Setup
 desc: ''
-updated: 1621994613688
+updated: 1622078988355
 created: 1598651458825
 ---
 
@@ -94,6 +94,17 @@ To start Dendron with the next server active, you can set the following value in
 ```yml
 dev:
   nextServerUrl: "http://localhost:3000"
+```
+
+## Working with the CLI
+
+Symlink `dendron` 
+
+```sh
+cd packages/dendorn-cli
+npm link
+
+npm link -g @dendronhq/dendron-cli
 ```
 
 ## Tips
