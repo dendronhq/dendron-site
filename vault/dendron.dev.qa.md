@@ -2,7 +2,7 @@
 id: cb22bd36-d45a-4ffd-a31e-96c4b39cb7fb
 title: Testing
 desc: ''
-updated: 1621722293247
+updated: 1622100373512
 created: 1598654055046
 stub: false
 ---
@@ -72,6 +72,7 @@ describe("foo", function() {
 
 You can see an example of a test [here](https://github.com/dendronhq/dendron/blob/dev-kevin/packages/plugin-core/src/commands/CopyNoteURL.ts#L1:L1)
 
+Also, consider enabling "Uncaught Exceptions" under "Breakpoints" when running tests. Otherwise, if you forget to `await` a function that returns a promise and that function throws an exception, the test will appear to pass even though an exception was thrown.
 ### Test Workspace
 
 If you want to use a workspace to test changes on the workspace at `{ROOT}/packages/dendron-11ty/fixtures/test-workspace`
