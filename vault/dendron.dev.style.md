@@ -2,7 +2,7 @@
 id: 773e0b5a-510f-4c21-acf4-2d1ab3ed741e
 title: Style
 desc: ''
-updated: 1621718186646
+updated: 1622099673503
 created: 1609550314371
 ---
 
@@ -50,3 +50,28 @@ function foo(opts: {arg1: string, arg2: string}) {
 function foo(arg1: string, arg2: string) {
 }
 ```
+
+### prefer compile time checks for exhaustive patterns
+
+If you have a `switch` or a chain of `if ... else if` statements where you check all possible cases, add a static assertion so that if a revision breaks this in the future it will be easily caught.
+
+```ts
+import { assertUnreachable } from "@dendronhq/common-all";
+
+type MyOptions = "one" | "two";
+
+// bad
+function myFunction(var: MyOptions) {
+  if (var === "one") {/* ... */}
+  else {/* ... */}
+}
+
+// good
+function myFunction(var: MyOptions) {
+  if (var === "one") {/* ... */}
+  else if (var === "two") {/* ... */}
+  else assertUnreachable(var);
+}
+```
+
+This works with properties within objects (e.g. `node.type`) too! One hint is that if the type of the object shows up as `never` in the editor, then you can use this assertion.
