@@ -2,9 +2,13 @@
 id: 04dd9ad8-3d81-4098-a661-21b6acc6f443
 title: Cook
 desc: ''
-updated: 1621794002944
+updated: 1622129146996
 created: 1621721485330
 ---
+
+## Features
+
+This goes over adding major feature items to the Dendron Plugin
 
 ### Create a new Command
 
@@ -78,6 +82,34 @@ export class InsertNoteLinkButton extends DendronBtn {
   }
 }
 ```
+
+### Adding a Web UI Component
+1. see [[Create a new Command|pro.dendron-plugin.cook#create-a-new-command]] for creating a new command
+1. Add a new entry to [DendronWebViewKey](https://github.com/dendronhq/dendron/blob/dev-kevin/packages/common-all/src/types/typesv2.ts#L486:L486)
+1. in `execute`, create a new webview
+  ```ts
+    const title = //TODO: add panel title
+    const panel = window.createWebviewPanel(
+      "dendronIframe", // Identifies the type of the webview. Used internally
+      title, // Title of the panel displayed to the user
+      ViewColumn.One, // Editor column to show the new webview panel in.
+      {
+        enableScripts: true,
+        enableCommandUris: true,
+        enableFindWidget: true,
+        localResourceRoots: [],
+      }
+    );
+    resp = WebViewUtils.genHTMLForWebView({
+        title: "Dendron Config",
+        view: DendronWebViewKey[TODO]
+    });
+    panel.webview.html = resp;
+  ```
+
+Related:
+- See [[here|pro.dendron-next-server.dev#development]] for how to preview and test your web ui.
+
 
 ## Utilities
 

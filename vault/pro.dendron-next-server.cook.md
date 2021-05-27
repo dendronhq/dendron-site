@@ -2,7 +2,7 @@
 id: 1698aef0-efd4-4c92-a3b0-5ca702b228a3
 title: Cook
 desc: ''
-updated: 1621829084324
+updated: 1622130399057
 created: 1621376746723
 ---
 
@@ -18,3 +18,14 @@ created: 1621376746723
 ### Integrating a view with the plugin
 
 - see [here](https://github.com/dendronhq/dendron/blob/master/packages/plugin-core/src/commands/ConfigureWithUI.ts#L22:L22) for integrating a command with the web ui
+
+
+### Adding a VSCode Webview
+- webview naming should follow kebab case
+```ts
+// good
+tree-view.tsx
+
+//bad
+treeView.tsx
+```

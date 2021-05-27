@@ -2,11 +2,11 @@
 id: e4162af6-36e3-483e-b44f-1df1f3659556
 title: Internal
 desc: ''
-updated: 1621533861991
+updated: 1622130845052
 created: 1621526990532
 ---
 
-- onClick
+### onClick
 
 ```mermaid
 sequenceDiagram

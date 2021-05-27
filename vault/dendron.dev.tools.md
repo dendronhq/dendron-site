@@ -2,7 +2,7 @@
 id: cf0b09ca-e366-4406-9dd5-9035dc1d63ed
 title: Tools
 desc: ''
-updated: 1621994719842
+updated: 1622132547619
 created: 1621994646365
 ---
 
@@ -11,8 +11,16 @@ created: 1621994646365
 
 Useful tools when working with Dendron
 
-## Postman
+### Postman
 
 - [Postman | The Collaboration Platform for API Development](https://www.postman.com/)
 
 It's just `curl` but using postman is useful when doing lots of things at once
+
+
+### SourceTree
+- [url](https://www.sourcetreeapp.com/)
+
+Pretty graphical git 
+
+/Users/kevinlin/Dropbox/Apps/Noah/workspaces/org-workspace/repos/dendron-site/vault/pro.dendron-next-server.dev.md
