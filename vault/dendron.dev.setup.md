@@ -2,7 +2,7 @@
 id: 64f0e2d5-2c83-43df-9144-40f2c68935aa
 title: Setup
 desc: ''
-updated: 1622078988355
+updated: 1622133728377
 created: 1598651458825
 ---
 
@@ -131,3 +131,7 @@ In case something something goes wrong with a build step or you want to save tim
 1. Are you using the `Run extension` command on the debugger panel to test dendron? 
 
 2. If you have one vscode instance which you have dendron installed and are also doing dendron development on, you might get a version conflict. in that case, use `Run extension with plugin disabled` in the debugger panel (or use a different version of vscode to run dendron vs develop)
+
+### Husky Hooks not running
+
+Make sure you run `yarn` at the root of your workspace 
