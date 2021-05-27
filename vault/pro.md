@@ -2,7 +2,7 @@
 id: 32cdd4aa-d9f6-4582-8d0c-07f64a00299b
 title: Related Projects
 desc: ''
-updated: 1621462666466
+updated: 1622151969915
 created: 1596684856906
 stub: false
 nav_order: 10
@@ -18,6 +18,7 @@ This goes over all projects in the dendron monorepo
     - [[Dendron Markdown|pro.dendron-markdown]]
   - [[Dendron Plugin|pro.dendron-plugin]]
   - [[Dendron Next Server|pro.dendron-next-server]]
+  [[pro.pods-core]]
 - Other Extensions
   - [[Dendron Preview|pro.dendron-preview]]
   - [[Dendron Snippet Maker|pro.dendron-snippet-maker]]
