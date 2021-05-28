@@ -2,7 +2,7 @@
 id: 2976e5df-c8b4-4176-9d3f-fe4220dfa9b6
 title: Deploy
 desc: ''
-updated: 1622222045061
+updated: 1622238951999
 created: 1613863275374
 ---
 
@@ -76,7 +76,7 @@ echo "syncing..."
 ## Publish New Version
 
 ### pre-req
-- vsce
+- vsce 
 - ovsx
 
 
