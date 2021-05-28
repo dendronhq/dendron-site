@@ -2,12 +2,34 @@
 id: 75dced84-4ebb-42c1-92bc-a5ed601446a2
 title: Lookupv3
 desc: ''
-updated: 1621026983193
+updated: 1622165071562
 created: 1619740761993
 ---
 
 ## Summary
 - status: [[Work In Progress 🚧|dendron.ref.status#work-in-progress-]]
+
+- src/commands/NoteLookupCommand.ts
+
+```ts
+gatherInputs {
+    lc = this._controller = LookupControllerV3.create
+    this._provider = new NoteLookupProvider("lookup", {
+    lc.prepareQuickPickV
+}
+```
+
+- src/components/lookup/LookupControllerV3.ts
+```
+create {
+    new LookupControllerV3
+}
+
+constructor {
+
+}
+```
+
 
 - src/components/lookup/LookupProviderV3.ts
 ```ts
