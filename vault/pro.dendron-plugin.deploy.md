@@ -2,27 +2,21 @@
 id: 2976e5df-c8b4-4176-9d3f-fe4220dfa9b6
 title: Deploy
 desc: ''
-updated: 1622049005540
+updated: 1622222045061
 created: 1613863275374
 ---
 
 
 
 ## pre-req
+- install [[Verdaccio|dendron.dev.setup#working-with-verdaccio]]
 
 ### Install locally
 - install jq
 
 ```sh
-npm install -g verdaccio
 npm install -g vsce
 npm install -g yarn
-
-# create verdaccio user
-verdaccio
-npm login {user}
-CTRL+C
-```
 
 ### Create Build Folder
 

@@ -2,7 +2,7 @@
 id: 554d3c62-29da-4c86-9d16-f910e36ad7b1
 title: Dendron API Server
 desc: ''
-updated: 1620948514888
+updated: 1622227392377
 created: 1606628243560
 ---
 
@@ -13,6 +13,13 @@ created: 1606628243560
 ## Components
 - Public Remote Server
 - Private Remote Server
+
+# Setup
+```
+cd packages/api-publish
+yarn local:dev
+```
+
 
 ## Initialize a workspace
 
