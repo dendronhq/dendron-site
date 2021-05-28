@@ -2,7 +2,7 @@
 id: 6e4c4f61-80a3-46fa-9ad3-04b99d9e9695
 title: Dendron Public Roadmap
 desc: ""
-updated: 1616877409074
+updated: 1622202522231
 created: 1600840127160
 stub: false
 nav_order: 2.1
@@ -14,6 +14,18 @@ Behold! The [Dendron Public Roadmap](https://github.com/orgs/dendronhq/projects/
 The public roadmap is designed to give you more information about what features and functionality you can expect from Dendron over the coming months. With more transparency into what we’re building, you can share feedback earlier and have more influence into what we’re building.
 
 ![](/assets/images/2021-03-27-13-13-02.png)
+
+## Context
+
+Our roadmap is intended to align with Dendron's overall [[Mission statement|dendron.mission-statement]]. We have only added the top-level "epics" i.e. the large things that will have a large amount of impact on the user experience.
+
+The way we think we'll have the most impact is to focus the year on three things:
+
+1. Improve the core Dendron quality of life and make onboarding easy. This will lower operations costs as well as make Dendron accessible to more people. Being built into VSCode has it's challenges but we think we can work through it to deliver significant improvements to the preview, auto-complete, backlinks and graph (amongst others. )
+2. Deliver growth features to help more people learn about Dendron and taking notes. Dendron has mostly relied on word-of-mouth for any new people. We'd like to make it easy for people to publish, share and discover high quality vaults/digital gardens. This will in turn bring more people into the fold and seed the growth of the next group of Dendrologists.
+3. Build out teams based functionality so we can help scale knowledge creation out to groups of people. This also has the potential to sustainably cover operations costs and keep Dendron development going for the long haul.
+
+This breaks down into our quarterly goals for the next few months ...
 
 ## Feedback
 
