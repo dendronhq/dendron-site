@@ -2,7 +2,7 @@
 id: a6c03f9b-8959-4d67-8394-4d204ab69bfe
 title: Troubleshooting
 desc: ''
-updated: 1620592478784
+updated: 1622221019749
 created: 1595952505025
 ---
 ## Diagnosing
@@ -12,8 +12,15 @@ You can get a better idea of what went wrong by checking out the [[logs|dendron.
 ## Common Errors
 
 ### Engine not Initialized
-- cause: You are not running inside a workspace
-- fix: [[Run Dendron inside a Workspace|dendron.guides.troubleshooting#run-dendron-inside-a-workspace]]
+- cause: 
+  - 1. You are not running inside a workspace
+  - 2. Localhost is blocked
+- diagnose
+  - 1. See fix
+  - 2. Look for `ECONNREFUSED` in the [[logs|dendron.topic.commands#dendrondev-open-logs]]
+- fix: 
+  - 1. [[Run Dendron inside a Workspace|dendron.guides.troubleshooting#run-dendron-inside-a-workspace]]
+  - 2. [[Whitelisting localhost|dendron.guides.troubleshooting#whitelisting-localhost]]
 
 ### Notes from the graph/tree view show wrong results
 - cause: Views are out of sync
@@ -22,6 +29,7 @@ You can get a better idea of what went wrong by checking out the [[logs|dendron.
 ### Preview not Rendering Correctly
 - causes: Using the built-in preview instead of the Dendron preview
 - fixes: [[Use Dendron Markdown Preview|dendron.guides.troubleshooting#use-dendron-markdown-preview]]
+
 
 ## Common Fixes
 
@@ -51,6 +59,10 @@ Dendron requires a VSCode [workspace file](https://code.visualstudio.com/docs/ed
 ### Clear the cache
 
 Delete dendron [[cache|dendron.ref.caching#summary]] files.
+
+### Whitelisting localhost
+
+Dendron starts a [[local server|dendron.dev.design#overview]] in the background and the plugin connects to it to index notes. Check that you don't have anything that is running or blocking localhost.
 
 ## Upgrading
 
