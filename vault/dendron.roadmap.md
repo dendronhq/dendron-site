@@ -2,7 +2,7 @@
 id: 6e4c4f61-80a3-46fa-9ad3-04b99d9e9695
 title: Dendron Public Roadmap
 desc: ""
-updated: 1622202522231
+updated: 1622229786223
 created: 1600840127160
 stub: false
 nav_order: 2.1
@@ -13,19 +13,39 @@ Behold! The [Dendron Public Roadmap](https://github.com/orgs/dendronhq/projects/
 
 The public roadmap is designed to give you more information about what features and functionality you can expect from Dendron over the coming months. With more transparency into what we’re building, you can share feedback earlier and have more influence into what we’re building.
 
-![](/assets/images/2021-03-27-13-13-02.png)
+![](/assets/images/2021-05-29-00-38-50.png)
 
 ## Context
 
-Our roadmap is intended to align with Dendron's overall [[Mission statement|dendron.mission-statement]]. We have only added the top-level "epics" i.e. the large things that will have a large amount of impact on the user experience.
+Our roadmap is intended to align with Dendron's overall [[Mission statement|dendron.mission-statement]]. We have only added the top-level "epics" to our roadmap i.e. the large things that will have a high impact on the user experience.
 
 The way we think we'll have the most impact is to focus the year on three things:
 
-1. Improve the core Dendron quality of life and make onboarding easy. This will lower operations costs as well as make Dendron accessible to more people. Being built into VSCode has it's challenges but we think we can work through it to deliver significant improvements to the preview, auto-complete, backlinks and graph (amongst others. )
-2. Deliver growth features to help more people learn about Dendron and taking notes. Dendron has mostly relied on word-of-mouth for any new people. We'd like to make it easy for people to publish, share and discover high quality vaults/digital gardens. This will in turn bring more people into the fold and seed the growth of the next group of Dendrologists.
-3. Build out teams based functionality so we can help scale knowledge creation out to groups of people. This also has the potential to sustainably cover operations costs and keep Dendron development going for the long haul.
+1. **Build out Dendron's core functionality**: lookup, schemas, language features, sharing, plugins, and performance. These are some of the foundational features Dendrologists rely on everyday and we will make sure that they keep getting better. We will continue to add new features, improve existing features, and make sure that everything is more intuitive and easier to use over time.
 
-This breaks down into our quarterly goals for the next few months ...
+2. **Create a Federated Knowledge Repository**. The promise of Dendron is helping people manage knowledge at scale. Most knowledge already exists in READMEs, specs, and other places. We want to make it easy to access both existing content as well as for Dendrologist to share their own.
+
+3. **Build out Dendron for Teams**. Dendron is great to use individually but is even more powerful when used with others. To this end, we are building out authentication, synchronization and sharing features to make Dendron a best in class tool for collaboration.
+
+These high-level goals lead us to the following stack of features split out over the next 2 quarters. These can definitely change (and they're really the highlights amongst all the other enhancements and bug fixes) but hopefully this gives you a birds-eye view of what we're delivering.
+
+### In Q3
+
+-   [Unified Markdown Preview](https://github.com/dendronhq/dendron/issues/643)
+-   [Standalone Vaults](https://github.com/dendronhq/dendron/issues/41)
+-   [Private published sites](https://github.com/dendronhq/dendron/issues/758)
+-   [Markdown export pod](https://github.com/dendronhq/dendron/issues/541)
+-   [Better autocomplete](https://github.com/dendronhq/dendron/issues/663)
+
+### In Q4
+
+-   [Advanced Queries](https://github.com/dendronhq/dendron/issues/159)
+-   [Database storage layer](https://github.com/dendronhq/dendron/issues/759)
+-   [Synchronization Pods](https://github.com/dendronhq/dendron/issues/732)
+-   [Schema Improvements](https://github.com/dendronhq/dendron/issues/712)
+-   [Better Pods](https://github.com/dendronhq/dendron/issues/701)
+
+We'll be sure to add more issues here, but go over to the [Github project](https://github.com/orgs/dendronhq/projects/1) if you want the latest info.
 
 ## Feedback
 
