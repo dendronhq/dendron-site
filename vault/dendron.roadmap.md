@@ -2,7 +2,7 @@
 id: 6e4c4f61-80a3-46fa-9ad3-04b99d9e9695
 title: Dendron Public Roadmap
 desc: ""
-updated: 1622299260218
+updated: 1622308514937
 created: 1600840127160
 stub: false
 nav_order: 2.1
@@ -33,16 +33,16 @@ These goals lead us to the following set of features. These can definitely chang
 
 -   [Unified Markdown Preview](https://github.com/dendronhq/dendron/issues/643)
 -   [Standalone Vaults](https://github.com/dendronhq/dendron/issues/41)
+-   [Schema Improvements](https://github.com/dendronhq/dendron/issues/712)
 -   [Private published sites](https://github.com/dendronhq/dendron/issues/758)
 -   [Markdown export pod](https://github.com/dendronhq/dendron/issues/541)
--   [Better autocomplete](https://github.com/dendronhq/dendron/issues/663)
 
 ### In Q4
 
 -   [Advanced Queries](https://github.com/dendronhq/dendron/issues/159)
 -   [Database storage layer](https://github.com/dendronhq/dendron/issues/759)
+-   [Better autocomplete](https://github.com/dendronhq/dendron/issues/663)
 -   [Synchronization Pods](https://github.com/dendronhq/dendron/issues/732)
--   [Schema Improvements](https://github.com/dendronhq/dendron/issues/712)
 -   [Better Pods](https://github.com/dendronhq/dendron/issues/701)
 
 We'll be sure to add more issues here, but go over to the [Github project](https://github.com/orgs/dendronhq/projects/1) if you want the latest info.
