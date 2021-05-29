@@ -2,7 +2,7 @@
 id: 3e7baac6-f120-4378-a667-92e7a0869dca
 title: Caching
 desc: ''
-updated: 1604887085455
+updated: 1616950292464
 created: 1599842689882
 stub: false
 ---
@@ -31,7 +31,7 @@ Some things to note:
 
 ## Exclude page from index
 
-((ref:[[dendron.topic.publishing.advanced]]#exclude from indexing,1:#*))
+- [[Exclude from indexing|dendron.topic.publishing.advanced#exclude-from-indexing]]
 
 ## Exclude hierarchy from index
 

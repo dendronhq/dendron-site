@@ -2,7 +2,7 @@
 id: e1b84d7e-9b0d-4616-917f-f3af1e7541b0
 title: Changelogs
 desc: ''
-updated: 1615245224502
+updated: 1619551082909
 created: 1615241095799
 ---
 
@@ -16,7 +16,7 @@ Dendron can now generate a changelog for your published site. Note that this fea
 ## Enable Changelogs
 
 Update `dendron.yml`
-![[dendron.topic.config#generatechangelog:#*]]
+![[dendron.topic.config.dendron#generatechangelog:#*]]
 
 ## Limitations
 

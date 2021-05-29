@@ -2,7 +2,7 @@
 id: 8bc9b3f1-8508-4d3a-a2de-be9f12ef1821
 title: Tags
 desc: ''
-updated: 1604239992867
+updated: 1620228719481
 created: 1601910058115
 stub: false
 ---
@@ -21,13 +21,7 @@ You get a few advantages for structuring tags in this format.
 
 ## Pretty Tags
 
-You can format your tags to look like regular tags wiki-link aliases
-
-```md
-[[#foo|tag.foo]] --> will render as #foo
-```
-
 You can further customize the look of tags in the preview by using the following CSS modification.
 
-((ref:[[dendron.guides.tips]]#stylized tags using custom css:#*))
+![[dendron.guides.tips#stylized-tags-using-custom-css:#*]]
 

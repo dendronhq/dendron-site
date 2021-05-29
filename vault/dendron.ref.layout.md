@@ -9,6 +9,7 @@ stub: false
 ## File Tree
 
 ### Basic
+
 ```
 .
 ├── dendron.code-workspace
@@ -31,7 +32,7 @@ stub: false
 - dendron.yml 
   - dendron specific settings
 - .dendron.port
-  - writes the port that the [[dendron engine|dendron.pro.dendron-engine]] is listening to
+  - writes the port that the [[dendron engine|pro.dendron-engine]] is listening to
 - .dendron.meta
   - writes dendron specific metadata
 - .gitignore
@@ -49,6 +50,7 @@ stub: false
 ## Terms
 
 ### workspace root
+
 This is the folder where `dendron.code-workspace` is located
 
 ## Additional Folders
@@ -56,3 +58,4 @@ This is the folder where `dendron.code-workspace` is located
 - pods: [[pod|dendron.topic.pod]] related files
 - seeds: [[seeds|dendron.topic.seeds]] related files
 - repos: used by dendron to store [[remote vaults|dendron.concepts#remote-vault]]
+

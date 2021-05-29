@@ -26,7 +26,7 @@ You can see an example of a published seeded vault [here](https://aws.dendron.so
 
 Make sure you have the dendron-cli installed.
 
-((ref:[[dendron.topic.cli]]#installation,1:#*))
+![[dendron.topic.cli#installation,1:#*]]
 
 ## Instructions
 

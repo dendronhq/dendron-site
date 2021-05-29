@@ -1,8 +1,8 @@
 ---
 id: 784b8d5e-58eb-4e3e-98b0-8ed1690abc74
-title: Working with Notes
+title: Notes
 desc: ''
-updated: 1614109519084
+updated: 1621569970522
 created: 1608055635963
 nav_order: 0
 ---
@@ -10,6 +10,8 @@ nav_order: 0
 ## Summary
 
 In this module, we will demonstrate how to create and find notes inside Dendron.
+
+- NOTE: if you run into problems with the below instructions, see if you are running into any of the [[common errors|dendron.guides.troubleshooting#common-errors]]
 
 ### Creating your first note
 
@@ -45,12 +47,23 @@ You'll notice in the tree view that there is now a `+` sign next to `lets` and `
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/quickstart.deep.jpg)
 
+#### NOTE: Don't create children from `root`
+
+![[dendron.guides.troubleshooting#remove-notes-that-extend-from-root,1:#*]]
+
 ### Finding Notes
 
 To find notes, we use the same lookup interface that we used to create them. Type the path of the note that you want to find them. Note that lookup uses fuzzy search which means you can type out partial results and still see the results. In practice, you'll only need to type a couple of characters to find any note stored inside Dendron.
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/quickstart.lookup-fuzzy.jpg)
 
+### Daily Journal Notes
+
+![[dendron://dendron-site/dendron.topic.special-notes#daily-journal,1:#*]]
+
+Go ahead and create a journal note for today. 
+
+A daily journal note is one of multiple special note types you can create in Dendron. You can see a full list of them [[here|dendron.topic.special-notes]].
 
 ### Files
 
@@ -59,6 +72,7 @@ At the end of this module, you should have the following files in your vault
 ```
 .
 └── vault
+    ├── daily.journal.{date}.md
     ├── dendron.md
     ├── dendron.welcome.md
     ├── hello.md

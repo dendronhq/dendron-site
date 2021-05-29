@@ -2,7 +2,7 @@
 id: f09162ec-6b20-4b53-bd5c-68aaa4698ed8
 title: Release Notes(version 0.17)
 desc: ''
-updated: 1609990585314
+updated: 1616950026025
 created: 1606074212157
 ---
 Dendron 0.17 has sprouted 🌱
@@ -63,8 +63,3 @@ Last and most of all, a big **thanks** to the following gardeners that brought u
   - [Don't override minimap preferences](https://github.com/dendronhq/dendron/issues/366)
 - [Tim Condit](https://github.com/tcondit)
   - [Fix typos](https://github.com/dendronhq/dendron-site/pull/40)
-
-### Changelog
-
-((ref:[[dendron.release.changelog]]#0.16.3:#0.16.1))
-

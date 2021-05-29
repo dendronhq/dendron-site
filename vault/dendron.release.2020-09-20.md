@@ -2,9 +2,9 @@
 id: 8e59e25f-808c-42f1-a82a-e9ce4fd8edd8
 title: Release Notes(version 0.12)
 desc: ''
-updated: 1609990694687
+updated: 1616949957976
 created: 1596374871110
-date: 2020-09-20
+date: '2020-09-20'
 ---
 Dendron 0.12 is here 🌱
 
@@ -39,8 +39,7 @@ These release notes are summary of the more notable changes, for the full list, 
 ## Cli
 
 ### Support for seeds
-
-((ref:[[dendron.topic.seeds]]#seeds 🚧,1:#*))
+[[dendron.topic.seeds]]
 
 ### Enhancements
 
@@ -57,7 +56,7 @@ These release notes are summary of the more notable changes, for the full list, 
 
 ### Lookup new notes with Selection
 
-((ref:[[dendron.topic.lookup]]#creating notes with a selection,1:#*))
+![[dendron.topic.lookup.create#creating-notes-with-a-selection,1]]
 
 ### Enhancements
 
@@ -67,7 +66,7 @@ These release notes are summary of the more notable changes, for the full list, 
 
 ### Implement Json import pod
 
-((ref:[[dendron.topic.pod.builtin.json]]))
+![[dendron.topic.pod.builtin.json]]
 
 ### Enhancements
 
@@ -83,11 +82,11 @@ These release notes are summary of the more notable changes, for the full list, 
 
 ### Publish command
 
-((ref:[[dendron.topic.commands]]#publish,1:#*))
+![[dendron.topic.commands#publish,1:#*]]
 
 ### Copy note url command
 
-((ref:[[dendron.topic.commands]]#copy note url,1:#*))
+![[dendron.topic.commands#copy-note-url,1:#*]]
 
 ### Enhancements
 

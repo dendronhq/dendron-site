@@ -1,6 +1,7 @@
 site:
     siteHierarchies:
         - dendron
+        - pro
     siteRootDir: docs
     gh_edit_repository: 'https://github.com/dendronhq/dendron-site'
     usePrettyRefs: true
@@ -25,4 +26,10 @@ usePrettyRefs: true
 version: 1
 useFMTitle: true
 mermaid: true
-useNoteTitleForLink: true
+useTitleForLink: true
+dev:
+  enableWebUI: true
+#   engineServerPort: 3005
+#   nextServerUrl: http://localhost:3000
+
+

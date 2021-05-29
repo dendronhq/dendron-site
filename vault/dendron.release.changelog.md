@@ -2,10 +2,334 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1616447708080
+updated: 1622048513916
 created: 1601508213606
 date: '2022-01-01'
 ---
+
+## 0.43.1
+
+### Bug Fixes
+- welcome page not showing up unless workspace is initialized
+- paste file command should handle names with spaces and special characters
+- markdown import pod not working
+
+## 0.43
+
+### Features
+
+#### Dendron Web UI with a new Tree View
+
+![[dendron://dendron-site/dendron.ref.web-ui#summary,1:#*]]
+
+#### Block References 
+
+![[dendron.topic.links#block-references,1:#*]]
+
+#### Paste File Command
+![[dendron.topic.commands#paste-file,1:#*]]
+
+#### GraphViz Pod
+
+![[dendron://dendron-site/dendron.topic.pod.builtin.graphviz.export#summary,1:#*]]
+
+### Enhancements
+- Workspace Sync Command is now available as a native Dendron command ([[docs|dendron.topic.commands#workspace-sync]])
+
+### Bug Fixes
+- dendron caching old links at startup
+
+### House Cleaning
+- collect analytics on Web UI load time ([[docs|dendron.topic.telemetry#other]])
+- internal interface refactoring
+
+## 0.42
+
+### Features
+
+#### Schema Library
+![[dendron.topic.schema.lib]]
+
+### Enhancements
+- Specify initial value with custom keyboard shortcuts for lookup ([[docs|dendron.topic.lookup.modifiers#value]])
+
+### Bug Fixes
+- issue with latex not displaying in latest preview
+
+
+## 0.41
+
+### Enhancements
+- new welcome page for new users
+- running site preview will fetch latest changes from current workspace session
+- running site build will fetch latest changes from current workspace session
+- support configurable site preview port in workspace
+- better error messages when building site
+
+### Bug Fixes
+- double confirmation message when using publish pod
+
+### House Cleaning
+- collect telemetry around lookup performance ([[docs|dendron.topic.telemetry#lookup]])
+- remove `initialize with tutorial notes` when initializing a new workspace (functionality replaced with the new getting started guide ([[docs|dendron.tutorial]]))
+### Docs
+- new getting started guide ([[docs|dendron.tutorial]])
+
+## 0.40.3
+
+### Features
+
+#### Dendron Hooks 🪝 
+![[dendron.topic.hooks]]
+
+### Enhancements
+- Dendron will successfully initialize on recoverable errors (eg. bad schema file)
+- nicer error messages 
+
+### Bug Fixes
+- footer text occludes published content on mobile
+- tree view order for newly created notes
+
+### Dev
+- we documented the organization of utility modules [here]([[Utilities|pro.utilities]])
+
+## 0.40.2
+
+### Bug Fixes
+- Navigating siblings not working
+
+## 0.40.1
+
+### Bug Fixes
+- Go to prev hierarchy command accidentally removed
+
+# 0.40
+
+## 0.39.3
+
+### Enhancements
+- Sort numeric siblings in GoToSiblingCommand
+- Disable Dendron shortcuts when plugin is not active
+
+### Bug Fixes
+- Nested note refs in preview can display incorrectly
+
+### House Cleaning
+- Update initialization telemetry to only collect rounded numbers of notes ([[docs|dendron.topic.telemetry#startup]])
+
+## 0.39.2
+
+### Features
+
+#### More Caching Improvements
+
+Even if your workspace is +10k notes, initialization of said workspace should happen in the matter of seconds. You can read about the details [[here|dendron.ref.caching]]
+
+### Enhancements
+- progress indicator when adding a remote vault
+- init engine from cli ([[docs|dendron.topic.cli#launchengineserver]])
+- add html pod ([[docs|dendron.topic.pod.builtin.html#publish]])
+- [[move note|dendron.topic.commands#move-note]] now shows completions via lookup
+- [[rename note|dendron.topic.commands#rename-note]] now shows completions via lookup
+
+### Bug Fixes
+- Tree widget doesn't update when new files are added
+- Goto note prefer existing note for multi-vault workspace
+- MarkdownPod still using legacy note refs
+- Move note will sometimes fail
+- Insert note will sometimes fail
+- Vault picker toggle for move note will execute if user clicks escape
+
+### House Cleaning
+- Rename note is now just a re-mapped version of the `Move Note` command. In the future, we might deprecate `Rename` altogether and replace with `Move Note`
+
+## 0.39.1
+
+### Bug Fixes
+- proper initialization of backlinks when initializing from cache
+
+
+# 0.39
+### Features
+#### Faster startup performance 
+
+Dendron startup is now up to 5x faster for large workspaces 🚀🚀🚀
+Prior to this release, Dendron re-indexes all files at startup. We're now smarter about this and will read data from our cache instead if the note contents have not changed. You can read about the details [[here|dendron.ref.caching]].
+
+### Enhancements
+- [[Managed Publishing (NEW)|dendron.topic.managed-publishing]] is now compatible with version 0.37 of Dendron 
+- Add progress bar to Dendron: Show Note Graph
+- MoveNoteCommand will not prompt for vaults if not multi-vault
+
+### Bug Fixes
+- Create daily journal note fails if there's no note open
+
+### House Cleaning
+
+#### Telemetry
+
+With this release of Dendron, we've added limited telemetry that is opt-out by default.
+
+This is to help us understand how many people are using Dendron as well as measure the impact on performance when we introduce new features. We **do not and will never** read the data inside **your notes**.
+
+You can see the full list of information we collect and why we do it in our [[telemetry documentation|dendron.topic.telemetry]] as well as instructions on how to opt out of telemetry.
+
+* * *
+# 0.38.0
+
+## 0.37.2
+
+### Bug Fixes
+- correctly index notes added outside of Dendron
+
+### Docs
+- [[RFC 8 - Multi Publish|dendron://dendron-site/dendron.rfc.8-multi-publish]]
+
+## 0.37.1
+
+### Features
+
+#### CLI for Workspace Commands
+![[dendron.topic.cli#workspace-command,1:#*]]
+
+#### Insert Note Command
+![[dendron.topic.commands#insert-note,1:#*]]
+
+### Enhancements
+- support custom port for preview ([[docs|dendron.topic.publishing.configuration#previewport]])
+
+## 0.37.0
+
+* * *
+
+## 0.36.4
+
+### Features
+
+#### CLI for Working with Vaults
+
+![[dendron.topic.cli#vault-commands,1:#*]]
+
+### Enhancements
+
+- less verbose logs for CLI
+
+## 0.36.3
+
+### Features
+
+#### CLI for Working with Notes
+
+![[dendron.topic.cli#note-commands,1:#*]]
+
+### Enhancements
+
+- toggle xvault wiki links ([[docs|dendron.topic.config.dendron#noxvaultwikilink]])
+- auto detect workspace root if `--wsRoot` not passed to CLI
+- add `--quiet` flag to cli 
+
+### House Cleaning
+
+- remove legacy note references, use [[doctor|dendron.topic.commands#actions]] with `oldNoteRefToNew` to convert your old note references
+
+## 0.36.2
+
+### Bug Fixes
+
+- multiple notes created when clicking on a link with an alias
+
+## 0.36.1
+
+### Bug Fixes
+
+- Multiple notes created when opening a note via the treeview
+
+## 0.36.0
+
+* * *
+
+## 0.35.2
+
+### Features
+
+#### Goto Note command
+
+![[dendron.topic.commands#goto-note,1:#*]]
+
+- NOTE: this fixes [issue 564](https://github.com/dendronhq/dendron/issues/564) which causes a new note to be created on hover when combined with `noAutoCreateOnDefinition` set to `true`. We introduced [[noAutoCreateOnDefinition|dendron.topic.config.dendron#noautocreateondefinition]] configuration to help folks transition to the new behavior. Auto creating on definition will be deprecated in a future release
+
+### Enhancements
+
+- better details in diagnostics report
+- support xvault [[backlinks|dendron.topic.links#backlinks]]
+- faster backlink generation
+- include content from unpublished notes ([[docs|dendron.topic.refs#publishing]])
+  - this allows you to use note references to hierarchies that aren't explicitly published
+- better [Theia](https://theia-ide.org/) compatibility
+
+### Bug Fixes
+
+- disable auto-creation notes on definition ([[docs|dendron.topic.config.dendron#noautocreateondefinition]])
+
+## 0.35.1
+
+### Features
+
+#### Add and Commit
+
+![[dendron.topic.commands#workspace-add-and-commit,1:#*]]
+
+### Enhancements
+
+- [[useNoteTitleForLink|dendron.topic.config.dendron#usenotetitleforlink]] now true by default 
+- control hierarchy display using note frontmatter ([[docs|dendron.topic.config.dendron#hierarchydisplay]])
+- ability to disable appending uuid's to assets when importing markdown ([[docs|dendron.topic.pod.builtin.markdown.import#noadduuid]])
+- ability to set an index file when importing markdown ([[docs|dendron.topic.pod.builtin.markdown.import#indexname]])
+
+### Bug Fixes
+
+- bulk importing notes would fail if payload was greater than 10mb
+- punchcard pod referring to wrong commit
+
+### Docs
+
+- update [[example schemas|dendron.topic.schema#example-schemas]] as an importable remote vault
+- create dendron for [[teams|dendron.topic.teams]] docs
+
+## 0.35.0
+
+* * *
+
+## 0.34.1
+
+### Features
+
+#### A Better Doctor
+
+Dendron doctor has been updated with a bunch of new options including the ability to migrate old style refs to new style refs
+
+![[dendron.topic.commands#doctor,1:#dump-state]]
+
+### Enhancements
+
+- support hiding hierarchy view on published page ([[docs|dendron.topic.config.dendron#hierarchydisplay]])
+- GitPunchcard support multi-vault ([[docs|dendron.topic.pod.builtin#gitpod]])
+- support toggling vault initialization behavior at startup ([[docs|dendron.topic.config.dendron#initializeremotevaults]])
+- support migrating old note refs to new note refs ([[docs|dendron.topic.commands#actions]])
+
+### Bug Fixes
+
+- correct `hiearchyDisplayTitle` to  `hierarchyDisplay` option (BREAKING)
+- fix spurious `getVault` errors 
+
+### House Cleaning
+
+- removed all old style refs from `dendron-site`
+- formal deprecation notice for old style refs (`((ref: ))` syntax) - they will be removed in the next release. use `doctor` to upgrade
+
+## 0.34.0
+
+* * *
 
 ### 0.33.1
 
@@ -18,10 +342,10 @@ date: '2022-01-01'
 ### Enhancements
 
 - wikilinks to missing vaults will display an error instead of throwing one
-- ability to disable legacy refs ([[docs|dendron.topic.config#nolegacynoteref]])
+- ability to disable legacy refs ([[docs|dendron.topic.config.dendron#nolegacynoteref]])
 - add xkcd to vault presets ([[docs|dendron.topic.multi-vault#preset-remote-vaults]])
 - 5x faster markdown pod import using plugin 🚀 🚀 🚀
-- toggle katex settings from config ([[docs|dendron.topic.config#usekatex]])
+- toggle katex settings from config ([[docs|dendron.topic.config.dendron#usekatex]])
 
 ### Bug Fixes
 
@@ -30,17 +354,22 @@ date: '2022-01-01'
 
 ## 0.33.0
 
-***
+* * *
+
 ## 0.32.2
 
 ### Features
+
 #### Markdown Export
+
 ![[dendron.topic.pod.builtin.markdown#export,1:#*]]
 
 #### GitPod
+
 ![[dendron.topic.pod.builtin#dendrongitpunchard,1]]
 
 ### Enhancements
+
 - disable git linking on a per note basis ([[docs|dendron.topic.publishing.configuration#gitnolink]])
 - set a custom path for git url  ([[docs|dendron.topic.publishing.configuration#gitnotepath]])
 - `dendron-cli` is now named `dendron` (`dendron-cli` will continue to work)
@@ -50,6 +379,7 @@ date: '2022-01-01'
 - fix link textwrap issue when publishing for mobile
 
 ### House Cleaning
+
 - consolidate `engine-server` and `common-server` tests into `engine-test-utils`
 
 ## 0.32.1
@@ -57,52 +387,65 @@ date: '2022-01-01'
 ### Features
 
 #### Password protected sites
+
 - [docs](https://dendron.so/notes/8b08d91b-3da8-4b8a-90c5-799d3026ad9b.html#add-password-protection-to-your-site)
 
 You can now use managed publishing with a password. Note that you'll need [sprout membership](http://accounts.dendron.so/) to use the feature. 
 
 ### Enhancements
-- control display for children links ([[docs|dendron.topic.config#hiearchydisplaytitle]])
+
+- control display for children links ([[docs|dendron.topic.config.dendron#hiearchydisplaytitle]])
 - [[skipLevels|dendron.topic.publishing.configuration#skiplevels]] also applies to children lins
-- [[useNoteTitleForLink|dendron.topic.config#usenotetitleforlink]] also applies to note references
+- [[useNoteTitleForLink|dendron.topic.config.dendron#usenotetitleforlink]] also applies to note references
 - importing from markdown is now 5x faster 🚀🚀🚀
-    - NOTE: this is only for the CLI 
+  - NOTE: this is only for the CLI 
 - a bunch of new options when importing a pod ([[docs|dendron.topic.pod.import]])
-    - NOTE: these options currently only apply for the [[Markdown Import Pod|dendron.topic.pod.builtin.markdown#import]]
+  - NOTE: these options currently only apply for the [[Markdown Import Pod|dendron.topic.pod.builtin.markdown#import]]
 - show progress bar when importing pod from plugin
 
 ### Bug Fixes
+
 - dendron will check if dependencies are actually installed before trying to preview your site
 - remove un-used extensions
 - failure when importing large amounts of markdown files using import pod
 
 ### House Cleaning
+
 - importing a pod now requires a `vaultName` parameter (previous, we just defaulted to the first vault)
 
 ## 0.32.0
-***
+
+* * *
+
 ## 0.31.3
+
 ### Features
+
 #### Changelogs
+
 ![[dendron.topic.publishing.changelogs#summary,1:#*]]
 
 ### House Cleaning
+
 - all tests are now `jest style` tests
 
 ## 0.31.2
+
 ### Features
 
-#### Custom Domain Names 
+#### Custom Domain Names
 
 Dendron now supports custom domain names for [[managed publishing|dendron.topic.managed-publishing]]. You can find docs [[here|dendron.topic.managed-publishing.quickstart#adding-a-custom-domain-via-cname]]. Note that this feature is currently limited to [[environmentalist|dendron.community.roles#environmentalist]] .
 
 ### Enhancements
+
 - Add paste link command ([[docs|dendron.topic.commands#paste-link]])
 - don't throw fatal error on bad wikilink
 - don't throw fatal error if `siteUrl` not set while in `dev`
-- add remark-containers plugin [[docs|dendron.topic.config#usecontainers]]
+- add remark-containers plugin [[docs|dendron.topic.config.dendron#usecontainers]]
 
 ### Bug Fixes
+
 - refs don't include children or backlinks 
 - clean `dendron.yml` after removing a vault
 
@@ -113,7 +456,9 @@ Dendron now supports custom domain names for [[managed publishing|dendron.topic.
 - issue with mixed case file names
 
 ## 0.31.0
-***
+
+* * *
+
 ## 0.30.2
 
 ### Features
@@ -159,7 +504,7 @@ If you are interested in developing your own publishing pod, you can docs to do 
 
 #### Dev.to Pod
 
-As an example of what you can do with a custom pod, we created the [[Dev.to Pod|dendron.pro.devto-pod]] which lets you publish your notes to dev.to
+As an example of what you can do with a custom pod, we created the [[Dev.to Pod|pro.devto-pod]] which lets you publish your notes to dev.to
 
 ### Enhancements
 
@@ -194,13 +539,13 @@ Extremely powerful templating capabilities with [[nunjuck templates|dendron.topi
 
 ### Bug Fixes
 
-- support turning off pretty refs for dendron preview ([[docs|dendron.topic.config#useprettyrefs]])
+- support turning off pretty refs for dendron preview ([[docs|dendron.topic.config.dendron#useprettyrefs]])
 
 ## 0.29.1
 
 ### Enhancements
 
-- private vaults ([[docs|dendron.topic.config#visibility]])
+- private vaults ([[docs|dendron.topic.config.dendron#visibility]])
 - popover 403 links ([[docs|dendron.topic.publishing.selective-publication#403-page]])
 - standardize pod cli interface
 
@@ -232,7 +577,7 @@ Instructions to get started are [[here|dendron.topic.managed-publishing.quicksta
 ### Enhancements
 
 - show last modified time for published sites ([[docs|dendron.topic.publishing.configuration#sitelastmodified-optional]])
-- add option to configure human readable ts formatting  ([[docs|dendron.topic.config#dendrondefaulttimestampdecorationformat]])
+- add option to configure human readable ts formatting  ([[docs|dendron.topic.config.vscode-config#dendrondefaulttimestampdecorationformat]])
 - smaller downloads when using publishing commands for the first time
 - much faster publishing commands
 - frontmatter can now be folded 
@@ -310,7 +655,7 @@ yarn bootstrap:build
 ### Features
 
 - mermaid diagram support when publishing ([[docs|dendron.topic.markdown#diagrams]])
-- display note title as link ([[docs|dendron.topic.config#usenotetitleforlink]])
+- display note title as link ([[docs|dendron.topic.config.dendron#usenotetitleforlink]])
 
 ### Enhancements
 
@@ -350,7 +695,7 @@ You can now publish and build your notes without going to the command line ([[do
 
 - show progress bar when syncing graph
 - show progress bar when installing node modules
-- [[useFMTitle|dendron.topic.config#usefmtitle]] set to true by default
+- [[useFMTitle|dendron.topic.config.dendron#usefmtitle]] set to true by default
 - add `.gitignore` to newly created workspace
 - [[Copy Note Url|dendron.topic.commands#copy-note-url]] uses `siteUrl` as value for noteRef
 
@@ -368,7 +713,7 @@ You can now publish and build your notes without going to the command line ([[do
 ### House Cleaning
 
 - jekyll based publishing is now deprecated 
-- [[dendron.copyNoteUrlRoot|dendron.topic.config#dendroncopynoteurlroot]] deprecated for `siteUrl`
+- [[dendron.copyNoteUrlRoot|dendron.topic.config.vscode-config#dendroncopynoteurlroot]] deprecated for `siteUrl`
 
 ## 0.24.1
 
@@ -381,7 +726,7 @@ You can now publish and build your notes without going to the command line ([[do
 - custom header support ([[docs|dendron.topic.publishing.configuration#customheaderpath-optional]])
   - [[add custom headers|scratch.2021.01.12.085012.add-custom-headers]]
 - google analytics support ([[docs|dendron.topic.publishing.configuration#ga_tracking-optional]])
-- [[Multi Vault Edit on GitHub|dendron.scratch.2021.01.09.multi-vault-edit-on-github]]
+- Multi Vault Edit on GitHub
 
 ### Bug Fixes
 
@@ -454,7 +799,7 @@ You can now both build your notes for publication and preview it from inside vsc
 - better fuzzy search for lookup
 - publishing v2 enhancements
   - abbreviation support for 11ty publishing ([[docs|dendron.topic.markdown#abbreviation]])
-  - better note titles ([[docs|dendron.ref.titles]])
+  - better note titles ([[docs|dendron.guides.best-practices#naming]])
   - shrink size of published page 10x
   - fix left nav position of current active page
   - ability to override output folder from CLI when building site
@@ -473,7 +818,7 @@ You can now both build your notes for publication and preview it from inside vsc
   - publish blog like archives using Dendron
 - CLI Based Doctor ([[docs|dendron.topic.cli#doctor]])
   - run various tests to make your notes are healthy for the new year
-- use frontmatter as title when publishing and in the preview ([[docs|dendron.topic.config#usefmtitle]])
+- use frontmatter as title when publishing and in the preview ([[docs|dendron.topic.config.dendron#usefmtitle]])
 
 ### Enhancements
 

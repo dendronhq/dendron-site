@@ -17,21 +17,21 @@ Bullet journalling is a way of quickly getting your thoughts down for the day. I
 
 ### Create Daily Journal Notes Command
 
-((ref:[[dendron.topic.special-notes]]#daily journal,1:#*))
+![[dendron.topic.special-notes#daily-journal,1:#*]]
 
 ### Sibling Navigation Command
 
-((ref:[[dendron.topic.commands]]#go next sibling,1:#*))
+![[dendron.topic.commands#go-next-sibling,1:#*]]
 
 ### Schema Templates
 
-((ref:[[dendron.topic.schema]]#template,1:#*))
+![[dendron.topic.schema#template,1:#*]]
 
 ## VSCode Commands
 
 ### Move Editor Command
 
-((ref:[[dendron.guides.tips]]#moving panes,1))
+![[dendron.guides.tips#moving-panes,1]]
 
 ## Kevin's Workflow Part 2
 

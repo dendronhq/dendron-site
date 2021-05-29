@@ -2,7 +2,7 @@
 id: 692fa114-f798-467f-a0b9-3cccc327aa6f
 title: Tips
 desc: ''
-updated: 1612800748642
+updated: 1620400139991
 created: 1595614204291
 ---
 
@@ -27,7 +27,7 @@ When working with lines, you can move entire lines at a time using `option-up|do
 
 - [docs](https://code.visualstudio.com/updates/v1_43#_search-editors)
 
-Also known as the coolest feature in vscode that most people have never heard of. This lets you view and save your search results in a full blown text editor. You can combine it with Dendron's hierarchies to do some amazing things, like aggregating all your todos. 
+Also known as the coolest feature in vscode that most people have never heard of. This lets you view and save your search results in a full blown text editor. You can combine it with Dendron's hierarchies to do some amazing things, like aggregating all your todos and scoping your search to a specific hierarchy. 
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/tips.search-editor.gif)
 
@@ -56,7 +56,7 @@ If you use links for tags: `[[#business|books.tags.business]]`, you can use this
 
 ```css
 /* General tag styling */
-a[href*=".tags."] {
+a[href*="tag."] {
     color: #000;
     background: #fff;
     display: inline-block;
@@ -137,7 +137,7 @@ Create a `package.json` to install the package:
   },
   "license": "UNLICENSED",
   "devDependencies": {
-    "@dendronhq/dendron-cli": "^0.12.3-alpha.16"
+    "@dendronhq/dendron-cli": "*"
   }
 }
 ```
@@ -163,7 +163,7 @@ jobs:
       run: npm install
 
     - name: Build pod
-      run: npm run dendron-cli -- buildSite --wsRoot ./ --vault notes/
+      run: npm run dendron-cli -- buildSite --wsRoot . 
 
     - name: Deploy site
       uses: peaceiris/actions-gh-pages@v3
@@ -420,11 +420,15 @@ This is a list of other tools that work well with Dendron.
 - [Gitlens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens): Repository/File/Line history and annotations of all your files
 - [Path AutoComplete](https://github.com/ionutvmi/path-autocomplete): Path autocomplete for VSCode
 
+### Coding
+- [Code Runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner)
+
 ### Other
 - [Macros](https://marketplace.visualstudio.com/items?itemName=geddski.macros): Define custom macros 
 - [Vim](https://marketplace.visualstudio.com/items?itemName=vscodevim.vim): VIM key bindings 😍
 - [Bookmarks](https://marketplace.visualstudio.com/items?itemName=alefragnani.Bookmarks): Bookmark lines within File [Vertical Limit](https://marketplace.visualstudio.com/items?itemName=generik.vertical-limit): Work with multiple cursors and blocks of text
 - [CodeUI](https://marketplace.visualstudio.com/items?itemName=ryanraposo.codeui): Easier customization of every part of the VSCode UI
+- [Open in Typora](https://marketplace.visualstudio.com/items?itemName=cyberbiont.vscode-open-in-typora&utm_source=VSCode.pro&utm_campaign=AhmadAwais): Open note in Typora
 
 ## Other Browser Extensions
 

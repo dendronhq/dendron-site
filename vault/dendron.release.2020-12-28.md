@@ -2,7 +2,7 @@
 id: e05c751f-7d5c-4fcf-8868-01092813d1dd
 title: Release Notes(version 0.22)
 desc: ''
-updated: 1609990585313
+updated: 1616950049310
 created: 1609180024902
 ---
 Dendron 0.22 is here 🌱
@@ -52,5 +52,5 @@ Last and most of all, a big **thanks** to the following gardeners that brought u
 
 ### Changelog
 
-((ref:[[dendron.release.changelog]]#0.21.2:#0.20.2))
+![[dendron.release.changelog#0212:#0202]]
 

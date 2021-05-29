@@ -2,7 +2,7 @@
 id: ad270a7d-2aed-4273-8319-eb6536e38b29
 title: Modifiers
 desc: ''
-updated: 1608495043297
+updated: 1621279187748
 created: 1604883459208
 ---
 Modifiers allow you to update the behavior of lookup. You can trigger a modifier by clicking on the modifier icon or passing custom arguments to `dendron.lookup` when defining a custom keyboard shortcut. 
@@ -54,7 +54,7 @@ selection is turned into a link to newly created note. note path is set to `{cur
 
 - you can control this behavior using `dendron.linkSelectAutoTitleBehavior`
 
-((ref:[[dendron.topic.config]]#dendron.linkselectautotitlebehavior,1:#*))
+![[dendron.topic.config.vscode-config#dendronlinkselectautotitlebehavior,1:#*]]
 
 ## noteType
 
@@ -111,7 +111,32 @@ If set, select first option from lookup without confirmation
 
 ### value
 
-If set, have a custom value for lookup
+If set, have a custom value for lookup. This will chain with other modifiers like `noteType` 
 
 - type: string
 
+
+#### Examples
+
+- create lookup with initial value of `people.`
+```json
+{
+    "key": "alt+l p",
+    "command": "dendron.lookup",
+    "args": {
+        "value": "people."
+    }
+}
+```
+
+- create lookup with initial value of meet.{journal-format}`
+```json
+  {
+    "key": "alt+l m",
+    "command": "dendron.lookup",
+    "args": {
+      "noteType": "journal",
+      "value": "meet"
+    }
+  },
+```

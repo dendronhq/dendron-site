@@ -2,7 +2,7 @@
 id: ba97866b-889f-4ac6-86e7-bb2d97f6e376
 title: Markdown
 desc: ''
-updated: 1615348545027
+updated: 1619550928028
 created: 1598673110284
 ---
 - Notice: all references of `MPE` in this guide is in reference to `Dendron Markdown Preview Enhanced`, the default markdown renderer of Dendron
@@ -274,7 +274,7 @@ graph TD;
     C-->D;
 ```
 
-- NOTE: in order to publish diagrams, you'll need to enable [[mermaid in the config|dendron.topic.config#mermaid-optional]]
+- NOTE: in order to publish diagrams, you'll need to enable [[mermaid in the config|dendron.topic.config.dendron#mermaid-optional]]
 
 ## VSCode Specific Commands
 

@@ -5,7 +5,6 @@ desc: ''
 updated: 1614312977869
 created: 1603308868151
 ---
-
 ## Summary
 
 <!-- - STATUS: DRAFT
@@ -15,7 +14,6 @@ Custom pods can be developed by anyone as a `NodeJS` package and used after a us
 
 - NOTE: at the current time, custom pods can only be run using `dendron-cli`. We're working on building them into the plugin within the next couple of weeks
 - NOTE: currently, only custom pods for **publishing** is supported. We're working on adding support for `import` and `export` pods
-
 
 ## Quickstart (Using a custom pod)
 
@@ -37,4 +35,6 @@ dendron-cli publishPod --wsRoot . --podId {podId} --podPkg {npmPkg} --podSource 
 ```
 
 ## List of Custom Pods
-- [[Dev.to Pod|dendron.pro.devto-pod]]: publish notes to dev.to
+
+- [[Dev.to Pod|pro.devto-pod]]: publish notes to dev.to
+

@@ -8,7 +8,15 @@ created: 1615165852271
 
 The Dendron VSCode extension is built in TypeScript and uses a lot of JavaScript tooling to build and compile, and does not always play nice with Windows.
 
-Here are some of the things to look out for.
+Here are some of the things to look out for:
+
+## yarn
+
+The current version of yarn fails[^yarn-8555] with npm v7. Downgrading to npm v6 is the only known workaround:
+
+```sh
+npm i -g npm@^6.14.11
+```
 
 ## git
 
@@ -32,13 +40,13 @@ The easiest way to run shell scripts on Windows is to use git BASH[^git][^gitbas
 
 Open git BASH inside the Dendron repo and run the script:
 
-```
+```sh
 ./bootstrap/scripts/watch.sh
 ```
 
-
+[^yarn-8555]: ["Cannot create property 'module' on string '{\"module\":\"C:\\\\Users\\\\[USER]\\\\.npm-init.js\"}'".](https://github.com/yarnpkg/yarn/issues/8555#issuecomment-788099208)
 [^diff]: [git status shows changed files but git diff doesn't](https://stackoverflow.com/questions/14564946/git-status-shows-changed-files-but-git-diff-doesnt)
-[^chmod]: [How do I make git ignore file mode (chmod) changed?](https://stackoverflow.com/questions/1580596/how-do-i-make-git-ignore-file-mode-chmod-changes)
 [^lineendings]: [How to change line-ending settings](https://stackoverflow.com/questions/10418975/how-to-change-line-ending-settings)
+[^chmod]: [How do I make git ignore file mode (chmod) changed?](https://stackoverflow.com/questions/1580596/how-do-i-make-git-ignore-file-mode-chmod-changes)
 [^git]: [git for Windows](https://gitforwindows.org/)
 [^gitbash]: [How to run shell scripts on Window](https://www.thewindowsclub.com/how-to-run-sh-or-shell-script-file-in-windows-10) See last comment

@@ -10,7 +10,7 @@ created: 1614183727211
 
 Make it possible to discover, link, and build upon other published digital gardens. 
 
-## Tenants
+## Tenets
 - extensible
 - accessible
 - interoperable

@@ -6,7 +6,7 @@ updated: 1598579955124
 created: 1598579955124
 stub: false
 ---
-For new users, I do an initial [onboarding](https://calendly.com/thence/dendron) session to help folks get started.
+For new users, I do an initial [onboarding](https://calendly.com/d/mqtk-rf7q/onboard) session to help folks get started.
 
 This is an example of an onboarding session.
 

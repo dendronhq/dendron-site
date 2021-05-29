@@ -2,14 +2,27 @@
 id: 877f4347-f013-43ba-aec4-87412b2e1bec
 title: Github
 desc: ''
-updated: 1615670874581
+updated: 1617212263915
 created: 1608770937168
 ---
 This guide describes publishing to github using github actions
 
 ## Pre-requisite
 
-- we assume that you already have your workspace under version control and a repository on github
+- you already have your workspace under version control and a repository on github
+- you have [[configured|dendron.topic.publishing.quickstart.publishing-your-site#configure-your-notes-for-publication]] your `dendron.yml` for publication
+
+
+## Checklist
+- [ ] create `pages` branch
+- [ ] enable github pages on pages branch
+- [ ] have `package.json`
+- [ ] create github action 
+- [ ] enable actions on your repo
+- [ ] add `.nojekyll` to the root of your repo
+- [ ] configure your `dendron.yml` 
+- [ ] link cname with github pages
+- [ ] enforce https on your page 
 
 ## Setup
 
@@ -39,14 +52,18 @@ git checkout main
   },
   "license": "CC BY 4.0",
   "devDependencies": {
-    "@dendronhq/dendron-11ty": "^1.32.0",
-    "@dendronhq/dendron-cli": "^0.32.0"
+    "@dendronhq/dendron-cli": "*"
   }
 }
 ```
 
 4. Create the workflow `.github/workflows/dendron-action.yml`:
-
+  - create the workflow
+```sh
+mkdir -p .github/workflows
+touch .github/workflows/dendron-action.yml
+```
+  - file contents
 ```yml
 name: Dendron
 
@@ -81,6 +98,12 @@ jobs:
 
 Make sure to update the `cname: "dendron.so"` value above with your own domain name.
 
+5. Add the `.nojekyll` file at the base of your repo
+
+```sh
+touch .nojekyll
+```
+
 5. Commit these changes and then push your main branch
 
 ```bash
@@ -93,26 +116,10 @@ git push
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/publishv2.pages.jpg)
 
-7. Github actions will update your page every time you push. You might have to add a change and push before your changes will show up. You can verify that your action is running by clicking on the actions tab in github.
+7. Github actions will update your page every time you push. You might have to add a change and push before your changes will show up. You can verify that your action is running by clicking on the actions tab in github. 
+- NOTE: depending on your account settings, you might need to enable github first
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/publishv2.actions.jpg)
-
-
-<!-- 
-1. Run > Dendron: Doctor
-2. Select `Add Publishing Requirements`
-
-This will initialize the following files into your dendron workspace
-
-```
-# package.json
-# .github
-## workflows
-### dendron-action.yml
-```
-
-3. By default, when you are ready for publishing, Dendron will 
--->
 
 ## Citations
 

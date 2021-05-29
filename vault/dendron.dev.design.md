@@ -2,7 +2,7 @@
 id: c160ddce-edec-4f6e-841b-418d6030fa37
 title: Design
 desc: ''
-updated: 1613007487633
+updated: 1621521064335
 created: 1598651922993
 stub: false
 ---
@@ -10,10 +10,24 @@ stub: false
 
 Dendron is composed of three main components and a collection of complementing libraries.
 
-Below is a sketch of the General Architecture
+Below is an example of the initialization process
+
+```mermaid
+sequenceDiagram
+    participant plugin
+    participant api server
+    participant engine
+    plugin ->> api server: Initialization
+    api server ->> engine: Initialization
+    engine ->> api server: Init Response
+    api server ->> plugin: Init Response 
 ```
-|Dendron Plugin| (vscode) <-> |API Server <-> Dendron Engine| (local express server)
-```
+
+Dendron has a [[CLI|dendron.topic.cli]] that executes the above workflow as well, except replace `plugin` with `cli`. The difference is that the CLI will tear down the server and engine after the command has completed whereas for the plugin, the server and engine run as long as the workspace is active.
+
+Note that you can run just the server by itself using the [[launchEngineServer|dendron.topic.cli#launchengineserver]] command.
+
+
 ## Major Components
 
 ### Dendron Plugin
@@ -37,7 +51,6 @@ This package contains the express server implementation for Dendron. It provides
 
 ## Other Components
 ### Dendron Common All
-
 - name: @dendronhq/common-all
 - [repo](https://github.com/dendronhq/dendron/tree/master/packages/common-all)
 
@@ -57,29 +70,5 @@ This is common utilities that are used by server-side versions of Dendron (curre
 
 This package lets you access Dendron via CLI. 
 
-<!-- ### Dendron Server
-
-This packages contains the vscode LSP server implementation for Dendron. The LSP server will start the `Dendron Express Server` in order to query the engine. -->
-
-
-
-<!-- ### LSP Related functionality
-
-```
-Dendron Plugin <-> LSP Server <-> Express Server <-> Dendron Engine
-``` -->
-
-<!-- ### Non-LSP Functionality -->
-
-<!-- - if no server is set
-
-```
-Dendron CLI <-> Dendron Engine
-```
-
-- if server is set (able to use engine instead of re-indexing)
-
-```
-Dendron CLI <-> Express Server <-> Dendron Engine
-```
- -->
+## Next
+- You can see the full list of projects as well as detailed documentation [[here|pro]]

@@ -2,12 +2,13 @@
 id: 24b176f1-685d-44e1-a1b0-1704b1a92ca0
 title: Multi Vault
 desc: ''
-updated: 1616447575764
+updated: 1620662183467
 created: 1605630383515
 ---
+
 ## Summary
 
-Multi vault lets you create multiple vaults for a given workspace. Each vault is a folder that can contain any number of hierarchies. 
+Multi vault refers to managing multiple [[vaults|dendron.concepts#vaults]] within your workspace.
 
 ## Use Cases
 
@@ -15,10 +16,6 @@ Multi vault lets you create multiple vaults for a given workspace. Each vault is
 - for **modularizing knowledge**, multi-vault enables users to mix and match existing vaults depending on context
 - for **federating and curating knowledge**, multi-vault enables users to publish/subscribe to public vaults using protocols like `git`
 - for **access control**, multi-vault lets users configure specific vaults to be **private** which turns off publication and sharing of any notes inside said vault
-
-## Quickstart
-
-- TODO
 
 ## Concepts
 
@@ -32,9 +29,11 @@ Multi vault lets you create multiple vaults for a given workspace. Each vault is
 ### Commands
 
 #### Vault Add
+
 ![[dendron.topic.commands#vault-add,1:#*]]
 
 #### Vault Remove
+
 ![[dendron.topic.commands#vault-remove,1:#*]]
 
 ### Lookup
@@ -45,7 +44,7 @@ When creating a note in lookup, the currently opened note's vault is used as the
 
 #### Specify Vault Location when Creating a Note
 
-![[dendron.topic.config#lookupconfirmvaultoncreate:#*]]
+![[dendron.topic.config.dendron#lookupconfirmvaultoncreate:#*]]
 
 To enable,  add `lookupConfirmVaultOnCreate: true` in the dendron configuration. Instructions to do so below.
 
@@ -59,6 +58,7 @@ lookupConfirmVaultOnCreate: true
 ```
 
 ### Navigating Links
+
 - Sample workspace
 
 ![[dendron.roadmap.project.n.2020.multi-vault#file-layout-for-multi-vault-workspace,1:#*]]
@@ -72,20 +72,20 @@ lookupConfirmVaultOnCreate: true
 
 ~~[[Note references|dendron.topic.refs]] are vault specific~~ When you make a reference, Dendron will include the note from the same note. You can create a reference to a note in a different vault by using [[cross vault links|dendron.topic.links#cross-vault-links]].
 
-
 ### Publishing
 
-You can publish from a multi-vault enabled workspace if you are using [[dendron-11ty|dendron.pro.dendron-11ty]] to publish. 
+You can publish from a multi-vault enabled workspace if you are using [[dendron-11ty|pro.dendron-publishing]] to publish. 
 
 We have added a new configuration, `duplicateNoteBehavior`, which [[controls|dendron.topic.publishing.configuration#duplicatenotebehavior-optional]] how Dendron handles duplicate notes across multiple vaults. 
 
 ### Preset Remote Vaults
+
 When you add a [[remote vault|dendron.concepts#remote-vault]], you can either add a vault using a custom git url or select from one of the pre-defined endpoints. Currently, Dendron provide the following remote vaults:
+
 - [AWS Vault](https://aws.dendron.so/)
 - [TLDR Vault](https://tldr.dendron.so/)
 - [Dendron Vault](https://wiki.dendron.so/)
 - [XKCD Vault](https://xkcd.dendron.so/)
-
 
 ### Version Control
 
@@ -93,7 +93,7 @@ For multi-vault, there are several approaches to version control. If you are usi
 
 If you use `Vault: Add` with a remote vault, Dendron will automatically add the remote properties to your `dendron.yml` file. See example below.
 
-![[dendron.topic.config#remote-vault-example,1:#*]]
+![[dendron.topic.config.dendron#remote-vault-example,1:*]]
 
 Versioned controlled vaults will be auto-initialized when someone pulls in the workspace. 
 
@@ -123,4 +123,6 @@ If you want to convert a local vault to a remote vault, you can follow the instr
 - Sample Multi-Vault workspace 
 
 ## Related
+
 - [[Cross Vault Links|dendron.topic.links#cross-vault-links]]
+
