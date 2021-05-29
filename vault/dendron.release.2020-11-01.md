@@ -2,7 +2,7 @@
 id: 98ad9b6b-53f3-4883-939e-e14055f2cac7
 title: Release Notes(version 0.14)
 desc: ''
-updated: 1609990585322
+updated: 1616950002664
 created: 1604241475533
 ---
 Dendron 0.14 is here 🌱
@@ -74,7 +74,4 @@ Last and most of all, a big **thanks** to the following gardeners that brought u
 
 - [Britt](https://github.com/bs)
 
-### Changelog
-
-((ref:[[dendron.release.changelog]]#13.6:#0.12.11))
 

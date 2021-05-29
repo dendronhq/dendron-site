@@ -2,7 +2,7 @@
 id: f2ed8639-a604-4a9d-b76c-41e205fb8713
 title: Configuration
 desc: ''
-updated: 1615831757415
+updated: 1619551114739
 created: 1608528797892
 nav_order: 3
 ---
@@ -67,7 +67,7 @@ site:
 
 When publishing in multi-vault scenario, how to handle duplicate notes
 
-Currently, only the `useVault` option is allowed. It takes a list of [[vault names|dendron.topic.config#name]]. When a duplicate is found, Dendron will go throw the vaults in your list from left to right and resolve to the first one that matches.
+Currently, only the `useVault` option is allowed. It takes a list of [[vault names|dendron.topic.config.dendron#name]]. When a duplicate is found, Dendron will go throw the vaults in your list from left to right and resolve to the first one that matches.
 
 - NOTE: this is done automatically when you run the [[Vault Add|dendron.topic.commands#vault-add]] command 
 
@@ -95,6 +95,12 @@ Cname used for github pages
 - eg: `vault/assets/images/logo.png`
 
 Used to add a logo image for all headers
+
+### previewPort
+
+- default: 8080
+
+Set a different port when using the [[buildSite|dendron.topic.cli#buildsite]] command.
 
 ### siteFaviconPath (optional)
 
@@ -147,14 +153,14 @@ Location of the github repo where your site notes are located. By default, this 
 Set to the URL that you plan on publishing to. All links will be prefixed with this. 
 If you are publishing with github pages, the format is `https://{username}.github.io/{repo}/`
 
-### usePrettyRefs (optional)
-
+### usePrettyRefs 
+- status: optional
 - default: True
 
 Whether to use pretty note refs or plain refs. 
 
-### writeStubs (optional)
-
+### writeStubs 
+- status: optional
 - default: true
 
 Whether to write [[stubs|dendron.concepts#stubs]] when publishing. 
@@ -176,7 +182,7 @@ Writing stubs is important to guarantee permanent urls as Dendron will randomize
 
 the URL of the project's GitHub repository
 
-- NOTE: if you are using [[remote vaults|dendron.concepts#remote-vault]], this value will be ignored and the [[remote url|dendron.topic.config#remote]] will be used instead
+- NOTE: if you are using [[remote vaults|dendron.concepts#remote-vault]], this value will be ignored and the [[remote url|dendron.topic.config.dendron#remote]] will be used instead
 
 #### gh_edit_branch
 
@@ -236,7 +242,7 @@ If set to false, dendron will only publish notes within the hierarchy that have 
 
 If set as a hash, you can further specify `publishByDefault` settings on a per vault basis. The key is the name of the vault and the value is a boolean. 
 
-For example, the following config says that the `finance` hiearchy in the `public` vault should all be published but that the `finance` hiearchy in the `private` vault should not
+For example, the following config says that the `finance` hierarchy in the `public` vault should all be published but that the `finance` hierarchy in the `private` vault should not
 
 ```yml
 site: 
@@ -456,7 +462,7 @@ You can control publication on a per line basis.
 
 ### LOCAL_ONLY_LINE
 
-Sometimes, you just want to keep a few lines private while publishing the rest of your vault. You can do that with `Local only`. In order to mark a line as `Local Only`, add the following markdown comment at the end of the line: `<!--LOCAL_ONLY_LINE-->`
+Sometimes, you just want to keep a few lines private while publishing the rest of your vault. You can do that with `Local only`. In order to mark a line as `Local Only`, add the following markdown comment at the end of the line: 
 
 ```markdown
 Hello World!  <!-- Will be published -->

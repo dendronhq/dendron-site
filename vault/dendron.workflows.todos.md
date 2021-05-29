@@ -58,7 +58,7 @@ When working with todos sometimes you need more states than `unfinished|finished
 
 ## Reordering tasks
 
-((ref:[[dendron.guides.tips]]#Moving lines,1:#*))
+![[dendron.guides.tips#moving-lines,1:#*]]
 
 ## Kevin's Workflow
 
@@ -76,6 +76,7 @@ This is a video of how Kevin manages todos in Dendron. It goes over the followin
 #### Example of a daily journal note
 
 - fname: `daily.journal.2021.03.5`
+
 ```md
 ---
 id: f06dcdd8-9880-46c5-8e02-ca4d515f59b9
@@ -162,7 +163,6 @@ Below are some of the settings used in the above video
     }
   }
 ```
-
 
 ## Other Resources
 

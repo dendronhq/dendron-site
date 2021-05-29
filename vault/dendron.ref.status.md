@@ -2,7 +2,7 @@
 id: 3be48b69-76e1-495e-9314-cae2fe22813d
 title: Status
 desc: ''
-updated: 1615744355018
+updated: 1622131613043
 created: 1615522130919
 ---
 
@@ -13,6 +13,17 @@ Sometimes, you'll see a `status` underneath certain features or options. This pa
 
 The feature or option is only available in Dendron's [[early seed release|dendron.ref.terms#early-seed-release]]
 
-### Experimental 🚧
+### Experimental 🧪 
 
 This is a new feature. It is subject to non-backward compatible changes between releases.
+
+### Work In Progress 🚧
+
+This section is actively being worked on and may be incomplete. 
+
+### Planning 🗺️ 
+
+This is not yet build out.
+
+
+

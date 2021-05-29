@@ -4,7 +4,7 @@ title: Release Notes(version 0.5)
 desc: ''
 updated: 1609990774348
 created: 1596374984386
-date: 2020-08-02
+date: '2020-08-02'
 ---
 With the coming of August, 2020 is officially on the wane. I think many of us are ready for a fresh start. In the meantime, you can prepare for better times by playing with new Dendron features. Happy gardening! 🌱
 
@@ -39,7 +39,7 @@ This makes sure your workspace is up to date. It will execute the following acti
 
 ([ecf3c68](https://github.com/dendronhq/dendron/commit/ecf3c6822848834d9a00e373d1c59b6628e7f4df))([docs](https://www.dendron.so/notes/eea2b078-1acc-4071-a14e-18299fc28f47.html#show-help))
 
-Dendron will open your current browser to the [[quickstart|dendron.quickstart]] page. 
+Dendron will open your current browser to the [[quickstart|dendron.tutorial.recap]] page. 
 
 <a href="https://www.loom.com/share/b81ce02f30b84d79b92584f339184a00">
 <img style="" src="https://cdn.loom.com/sessions/thumbnails/b81ce02f30b84d79b92584f339184a00-with-play.gif"> 

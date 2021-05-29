@@ -2,7 +2,7 @@
 id: 849ee8ee-05a5-47bf-b44d-d7c257117bc4
 title: Summary
 desc: ''
-updated: 1605287509430
+updated: 1616949584388
 created: 1598652399447
 stub: false
 ---
@@ -276,7 +276,7 @@ delete(idOrFname, mode, opts) {
 
 # Parsing note references
 
-((ref:[[dendron.topic.refs]]#references,1:#*))
+- [[dendron.topic.refs]]
 
 ## Summary
 

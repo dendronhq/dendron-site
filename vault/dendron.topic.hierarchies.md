@@ -2,10 +2,11 @@
 id: f3a41725-c5e5-4851-a6ed-5f541054d409
 title: Hierarchies
 desc: ''
-updated: 1595611213607
+updated: 1616949344576
 created: 1595611213607
 stub: false
 ---
+## Summary
 Within a vault, your notes are stored **hierarchically** as `.` delimited markdown files. 
 
 Below is a hypothetical hierarchy for a file tree:
@@ -40,7 +41,7 @@ The same hierarchy in Dendron would look like the following:
 
 In the following concepts, we will be using the following file tree
 
-((ref:[[dendron.ref.layout]]#File Tree,1:#Additional Folders))
+![[dendron.ref.layout#file-tree,1:#additional-folders]]
 
 ### Root
 

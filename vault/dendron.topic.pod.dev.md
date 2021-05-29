@@ -2,7 +2,7 @@
 id: 5de219e6-d9b9-4abf-9367-998109cd57cd
 title: Developing a Pod
 desc: ''
-updated: 1614965542487
+updated: 1622045743569
 created: 1614201272488
 ---
 ## Summary
@@ -15,7 +15,7 @@ In this module, we'll go over how to create a custom pod. You can clone the end 
 
 - Install dendron-cli
   ![[dendron.topic.cli#installation,1:#*]]
-- [[Install Dendron|dendron.guides.install#install]] and have a workspace initialized
+- [[Install Dendron|dendron.guides.install]]
 
 ## Tutorial
 
@@ -71,9 +71,10 @@ module.exports = {
    ```
 5. Excecute your pod
    ```sh
-   dendron-cli publishPod --wsRoot . --podId hello --podPkg hello-pod --podSource remote --config fname=dendron,vaultName=vault,dest=stdout
+   dendron-cli publishPod --wsRoot . --podId hello --podPkg hello-pod --podSource custom --config fname=dendron,vaultName=vault,dest=stdout
    ```
-   - since I was running this in a new Dendron vault, I got the following output
+   - since I was running this in a new Dendron vault, I got the following output.
+   - you can change the value of the fname config to an existing note's file name to run it against that note.
 
 ```markdown
 Hello World
@@ -153,9 +154,9 @@ Hello Albert
 Pods have full access to all the metadata attached to a note. You can see the pod arguments below
 ![[dendron.topic.pod.sdk#plantopts-publishpodplantoptst,1]]
 
-TODO - You can see an example of this [[here|dendron.pro.devto-pod]]
+TODO - You can see an example of this [[here|pro.devto-pod]]
 
 ### Using Typescript
 
-TODO - You can see an example of this [[here|dendron.pro.devto-pod]]
+TODO - You can see an example of this [[here|pro.devto-pod]]
 

@@ -2,7 +2,7 @@
 id: 44fd6c57-b7f4-47f5-a632-d352d4f4fa7b
 title: Release Notes(version 0.20)
 desc: ''
-updated: 1609990585324
+updated: 1616950035971
 created: 1607890901199
 ---
 Dendron 0.20 is here 🌱
@@ -52,8 +52,3 @@ Last and most of all, a big **thanks** to the following gardeners that brought u
   - [note creation not respect title case](https://github.com/dendronhq/dendron/pull/404)
 - [flammehawk](https://github.com/flammehawk)
   - bad link in testimonial docs
-
-### Changelog
-
-((ref:[[dendron.release.changelog]]#0.19.3:#0.18.2))
-

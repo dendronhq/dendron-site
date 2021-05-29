@@ -2,7 +2,7 @@
 id: 401c5889-20ae-4b3a-8468-269def4b4865
 title: Cookbook
 desc: ''
-updated: 1615132368125
+updated: 1619549685692
 created: 1595952505024
 nav_order: 8.9
 toc: true
@@ -135,12 +135,6 @@ You can use the [markdownload-markdown-web](https://chrome.google.com/webstore/d
 
 To get familiar with regex syntax, try [regexr](https://regexr.com/) is a great place to experiment with different queries.
 
-### Convert Local Vault to a Remote Vault
-
-1. Initialize local vault as a git repo and push it to a remote 
-2. Remove the local vault from your current workspace 
-3. Use the `Vault: Add` command and enter the remote url of the repo you would like to add
-
 ### Automatically Convert Casing on a Note
 
 You can use the [string converter](https://marketplace.visualstudio.com/items?itemName=adamwalzer.string-converter) extension to change `[[normal note with spaces]]` to `[[normal-note-with-spaces]]` as well as a series of other text transformations.
@@ -169,7 +163,7 @@ You can see instructions for customizing css [here](https://shd101wyy.github.io/
 
 - 1. start by initializing a workspace
 
-((ref:[[dendron.topic.commands]]#initialize workspace:#*))
+![[dendron.topic.commands#initialize-workspace:#*]]
 
 - 2. by default, dendron uses a `vaults` folder underneath your workspace to store you vaults. Update your [[settings|dendron.guides.settings]] and change `vault` to the path of your current notes (alternatively, you can also copy your current notes into `vault`)
 
@@ -213,8 +207,26 @@ See instructions [here](https://stackoverflow.com/questions/51543871/sorting-fil
 To drag files into Dendron, open the workspace pane on the side to drag and drop. We currently recommend you only do this for non-markdown files that you want to link to inside your vaults.
 
 ### Find Installed Extensions
+
 1. Navigate to the extensions pane
-1. Search for `@installed`
+2. Search for `@installed`
+
+### Add Dendron to application launchers on Linux desktops
+
+Linux desktop systems often include application launchers where you can see the applications installed on your computer and launch them. You can add an entry for Dendron to the application launcher by creating a file at `~/.local/share/applications/dendron.desktop`, then pasting the following contents into it.
+
+```
+[Desktop Entry]
+Comment=A personal knowledge management tool that grows as you do.
+Exec=code --no-sandbox --new-window ~/Dendron/dendron.code-workspace
+Name=Dendron
+Type=Application
+StartupWMClass=code
+Keywords=dendron;notes;pkm;
+Categories=Utility;TextEditor;
+```
+
+Make sure the path to the dendron workspace matches your setup. Then, run `update-desktop-database ~/.local/share/applications/` in a terminal or restart your system. You should now see Dendron in the launcher under the Utilities section, or if you search for Dendron in your launcher. Launching Dendron from here will launch VSCode with your Dendron workspace open.
 
 ## Navigation
 
@@ -223,10 +235,10 @@ To drag files into Dendron, open the workspace pane on the side to drag and drop
 When viewing your notes locally, you can view the toc either from the outline view or by toggling the preview
 
 - from the outline
-  ((ref:[[dendron.topic.workbench]]#outline view,1:#*))
+  ![[dendron.topic.workbench#outline-view,1:#*]]
 
 - from the preview
-  ((ref:[[dendron.topic.preview]]#table of contents,1))
+  ![[dendron.topic.preview#table-of-contents,1]]
 
 ## Publishing
 
@@ -250,7 +262,7 @@ dendron-cli buildSite --wsRoot {path/to/ws} --vault {path/to/vault} --incrementa
 The following instructions cover how to update your local preview everytime you make a change to your notes
 
 - install `dendron-cli`
-  ((ref:[[dendron.topic.cli]]#installation,1:#*))
+  ![[dendron.topic.cli#installation,1:#*]]
 
 - have jekyll watch your site-root
 
@@ -310,4 +322,48 @@ You can access the site with username: `dendron`, password: `hierarchy`.
      ```
 2. Run `> Dendron: Publish` to build your notes for publication and push your notes
 3. Your notes are now published privately behind a password
+
+
+## Workspace
+
+### Using Dendron with Github and Git
+
+One of our users published a great beginners guide on this [here](https://mstempl.netlify.app/post/dendron-git/)
+
+### Adding a Remote Vault to your Dendron Workspace
+
+If you haven't already done so, install Dendron and initialize a workspace by following the instructions [[here|dendron.guides.install]].
+
+Use the [[Vault Add|dendron.topic.commands#remote-vault]] command via the [[command palette|dendron.ref.terms#command-palette]], select remote vault, and paste the git url of the vault that you like to add
+
+### Converting a local vault to a remote vault
+
+1. If you're vault is committed along with your workspace, use `git rm --cached` to remove it from the workspace repo and use `git init` to initialze your vault as a standalone repo
+1. Create a remote repo and push your vault to that repo
+1. Run [[Configure (yaml)|dendron.topic.commands#configure-yaml]] and add the git [[remote|dendron.topic.config.dendron#remote]] urls to the repo. the entries should look like what you see below
+
+### Using Dendron with Code
+
+The easiest current way to do this is to have multiple instances of VSCode open and toggle between the two. If you are very adventurous, you might even have [multiple versions of vscode](https://www.kevinslin.com/notes/7f197479-279e-4b1e-9edd-21bf2da423b0.html#dendron-setup) for different contexts.
+
+We are working on being able to run Dendron without the need for a workspace. You can track the progress of this on this [issue](https://github.com/dendronhq/dendron/issues/322)
+
+### Renaming a Vault
+
+We currently haven't implemented a command to do but you can use the current manual steps to implement. 
+1. Update the [[name|dendron.topic.config.dendron#name]] property in `dendron.yml`
+1. Update the name property on the corresponding [[workspace folders|dendron.topic.config.vscode-config#folders]]
+1. Replace any [[cross Vault Links|dendron.topic.links#cross-vault-links]] with the name of the new workspace
+  - ctrl search `dendron://{vaultName}` and replace it with the new vaultName 
+1. Run `> Reload Window` when these steps are completed
+
+### Private Vaults
+
+You can create private vaults that won't be published or initialized when others clone the workspace. To do this, run [[Vault Add|dendron.topic.commands#vault-add]] and add your private vault as a local vault. After it's been added, run [[Configure (yaml)|dendron.topic.commands#configure-yaml]] and set the [[visibility|dendron.topic.config.dendron#visibility]] of the vault to "private" in `dendron.yml`.
+
+```yml
+vaults:
+    - fsPath: vault
+      visibility: private
+```
 

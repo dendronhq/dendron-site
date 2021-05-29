@@ -2,7 +2,7 @@
 id: a80f36d9-01d0-4c5a-a228-867b093a4913
 title: Cookbook
 desc: ''
-updated: 1614811373375
+updated: 1622233757477
 created: 1599151918645
 stub: false
 ---
@@ -70,3 +70,170 @@ When all this is done, we can add tests that the formatting behavior works
 
 The above changes are for `Rename`. `Refactor` calls rename in a loop so changing rename should update refactor as well.
 
+### Using a local registry
+
+- pre-req:
+  - install verdaccio
+
+```sh
+source bootstrap/scripts/helpers.sh
+setRegLocal
+verdaccio
+```
+
+### Publishing
+
+This will publish a patch release
+
+```
+./bootstrap/scripts/createBuild.sh
+```
+
+### Tuning Lookup
+- create `proto.ts` inside `engine-server`
+
+```ts
+import { DNodeUtils, NoteProps, NoteUtils } from "@dendronhq/common-all";
+import { getDurationMilliseconds } from "@dendronhq/common-server";
+import fs from "fs-extra";
+import Fuse from "fuse.js";
+import _ from "lodash";
+import { DendronEngineClient } from "engineClient";
+
+export async function main2() {
+    const engine = DendronEngineClient.create({
+        port: "3005",
+        ws: "/Users/kevinlin/code/dendron/test-workspace",
+        vaults: []
+      });
+       await engine.init();
+    //   const notes = data?.notes!
+      const notes: NoteProps[] = [NoteUtils.create({fname: "notes.dendron-improvements", vault: engine.vaults[0]})]
+
+    const initList: any[] = [];
+    const options = {
+        shouldSort: true,
+        threshold: 0.6,
+        location: 0,
+        distance: 50,
+        maxPatternLength: 32,
+        minMatchCharLength: 2,
+        keys: ["fname"],
+        useExtendedSearch: true,
+        includeScore: true,
+      };
+      const fuse = new Fuse(initList, options);
+      fuse.setCollection(
+        _.map(notes, ({ fname, title, id, vault }, _key) => ({
+          fname,
+          id,
+          title,
+          vault,
+        }))
+      );
+      const qs = "dendron.notes"
+      const resp = fuse.search(qs)
+      console.log(JSON.stringify(resp, null, 4));
+      const numResults = _.size(notes);
+      const numHits = _.size(resp);
+      const stats = {numResults, numHits};
+      console.log(stats);
+}
+
+export async function main() {
+  let start = process.hrtime();
+  const engine = DendronEngineClient.create({
+    port: "3005",
+    ws: "/Users/kevinlin/Dropbox/Apps/Noah",
+    vaults: [],
+  });
+  let engineCreate = getDurationMilliseconds(start);
+  const wsRoot = engine.wsRoot;
+
+  start = process.hrtime();
+  await engine.init();
+  let engineInit = getDurationMilliseconds(start);
+
+  start = process.hrtime();
+  await engine.queryNotes({ qs: "*" });
+  let engineStarQuery = getDurationMilliseconds(start);
+
+  start = process.hrtime();
+  let resp = await engine.queryNotes({ qs: "pr" });
+  let engineDomainQuery = getDurationMilliseconds(start);
+  let nodes = resp.data;
+
+  start = process.hrtime();
+  resp = await engine.queryNotes({ qs: "cli.git" });
+  let engineDomainWithChildQuery = getDurationMilliseconds(start);
+  nodes = resp.data;
+  const numProps = nodes.length;
+
+  start = process.hrtime();
+  await Promise.all(
+    nodes.map(async (ent) =>
+      DNodeUtils.enhancePropForQuickInput({
+        wsRoot,
+        props: ent,
+        schemas: engine.schemas,
+        vaults: engine.vaults,
+      })
+    )
+  );
+  let enhancePropsWithPromise = getDurationMilliseconds(start);
+
+  start = process.hrtime();
+  await Promise.all(
+    nodes.slice(0, 100).map(async (ent) =>
+      DNodeUtils.enhancePropForQuickInput({
+        wsRoot,
+        props: ent,
+        schemas: engine.schemas,
+        vaults: engine.vaults,
+      })
+    )
+  );
+  let enhancePropsWithPromise100 = getDurationMilliseconds(start);
+
+  start = process.hrtime();
+  await Promise.all(
+    nodes.slice(0, 50).map(async (ent) =>
+      DNodeUtils.enhancePropForQuickInput({
+        wsRoot,
+        props: ent,
+        schemas: engine.schemas,
+        vaults: engine.vaults,
+      })
+    )
+  );
+  let enhancePropsWithPromise50 = getDurationMilliseconds(start);
+
+  start = process.hrtime();
+  nodes.slice(0, 50).map((ent) =>
+    DNodeUtils.enhancePropForQuickInput({
+      wsRoot,
+      props: ent,
+      schemas: engine.schemas,
+      vaults: engine.vaults,
+    })
+  );
+  let enhancePropsNoPromise50 = getDurationMilliseconds(start);
+
+  const out = {
+    engineCreate,
+    engineInit,
+    engineStarQuery,
+    engineDomainQuery,
+    engineDomainWithChildQuery,
+    numProps,
+    enhancePropsWithPromise,
+    enhancePropsWithPromise100,
+    enhancePropsWithPromise50,
+    enhancePropsNoPromise50,
+  };
+  console.log(out);
+  fs.writeJSONSync("/tmp/data.json", out, { spaces: 4 });
+  return;
+}
+main2();
+```

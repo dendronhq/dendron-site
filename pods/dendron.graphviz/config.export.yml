@@ -1,0 +1,20 @@
+# description: Where to export to
+# type: string
+# required: true
+dest: /tmp/
+
+# description: should body be included
+# type: boolean
+# includeBody: true
+
+# description: should stubs be included
+# type: boolean
+# includeStubs: TODO
+
+# description: Include hierarchical note connections (e.g. parent -> child connections)
+# type: boolean
+showGraphByHierarchy: false
+
+# description: Include linked note relationships, e.g. note with [[link]] -> another note
+# type: boolean
+showGraphByEdges: true

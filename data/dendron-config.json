@@ -9,10 +9,14 @@
         },
         {
             "key": "dendron.gotoNote",
-            "title": "Goto Note",
+            "title": "Dendron: Goto Note",
             "group": "notes",
             "desc": "Go to a note",
-            "skipDocs": true
+            "skipDocs": true,
+            "keybindings": {
+                "key": "ctrl+enter",
+                "when": "editorFocus"
+            }
         },
         {
             "key": "dendron.createDailyJournalNote",
@@ -21,7 +25,7 @@
             "keybindings": {
                 "key": "ctrl+shift+i",
                 "mac": "cmd+shift+i",
-                "when": "editorFocus"
+                "when": "dendron:pluginActive"
             },
             "desc": "Create a global journal note",
             "docLink": "dendron.topic.special-notes.md",
@@ -38,7 +42,7 @@
             "keybindings": {
                 "key": "ctrl+shift+c",
                 "mac": "cmd+shift+c",
-                "when": "editorFocus"
+                "when": "editorFocus && dendron:pluginActive"
             },
             "skipDocs": false
         },
@@ -53,7 +57,7 @@
             "keybindings": {
                 "key": "ctrl+shift+r",
                 "mac": "cmd+shift+r",
-                "when": "editorFocus"
+                "when": "editorFocus && dendron:pluginActive"
             },
             "skipDocs": false
         },
@@ -63,11 +67,19 @@
             "group": "notes",
             "keybindings": {
                 "key": "ctrl+shift+d",
-                "mac": "cmd+shift+d"
+                "mac": "cmd+shift+d",
+                "when": "dendron:pluginActive"
             },
             "desc": "Delete a note or schema",
             "docLink": "dendron.topic.lookup.md",
             "docPreview": "",
+            "skipDocs": false
+        },
+        {
+            "key": "dendron.insertNote",
+            "title": "Dendron: Insert Note",
+            "group": "notes",
+            "desc": "Insert note contents",
             "skipDocs": false
         },
         {
@@ -117,11 +129,13 @@
             "group": "navigation",
             "keybindings": {
                 "mac": "cmd+L",
-                "key": "ctrl+l"
+                "key": "ctrl+l",
+                "when": "dendron:pluginActive"
             },
             "desc": "Initiate note lookup",
             "docLink": "dendron.topic.lookup.md",
             "docPreview": "",
+            "when": "dendron:pluginActive",
             "skipDocs": false
         },
         {
@@ -134,7 +148,8 @@
                 "mac": "cmd+shift+j",
                 "args": {
                     "noteType": "journal"
-                }
+                },
+                "when": "dendron:pluginActive"
             },
             "desc": "Initiate note lookup with journal note pre-selected",
             "docLink": "dendron.topic.lookup.md",
@@ -152,7 +167,8 @@
                 "args": {
                     "noteType": "scratch",
                     "selectionType": "selection2link"
-                }
+                },
+                "when": "dendron:pluginActive"
             },
             "desc": "Initiate note lookup with scratch note pre-selected",
             "docLink": "dendron.topic.lookup.md",
@@ -165,7 +181,8 @@
             "group": "navigation",
             "keybindings": {
                 "mac": "cmd+shift+L",
-                "key": "ctrl+shift+l"
+                "key": "ctrl+shift+l",
+                "when": "dendron:pluginActive"
             },
             "desc": "Initiate schema lookup",
             "docLink": "dendron.topic.lookup.md",
@@ -219,7 +236,7 @@
             "keybindings": {
                 "mac": "cmd+shift+up",
                 "key": "ctrl+shift+up",
-                "when": "editorFocus"
+                "when": "editorFocus && dendron:pluginActive"
             },
             "desc": "Go to closet non-stub parent of the currently open note",
             "docLink": "dendron.topic.commands.md",
@@ -232,7 +249,7 @@
             "group": "hierarchies",
             "keybindings": {
                 "key": "ctrl+shift+]",
-                "when": "editorFocus"
+                "when": "editorFocus && dendron:pluginActive"
             },
             "desc": "Go to the next sibling",
             "docLink": "dendron.topic.commands.md",
@@ -245,7 +262,7 @@
             "group": "hierarchies",
             "keybindings": {
                 "key": "ctrl+shift+[",
-                "when": "editorFocus"
+                "when": "editorFocus && dendron:pluginActive"
             },
             "desc": "Go to the previous sibling",
             "docLink": "dendron.topic.commands.md",
@@ -259,7 +276,7 @@
             "keybindings": {
                 "mac": "cmd+shift+down",
                 "key": "ctrl+shift+down",
-                "when": "editorFocus"
+                "when": "editorFocus && dendron:pluginActive"
             },
             "desc": "Go down the hierarchy",
             "docLink": "dendron.topic.commands.md",
@@ -268,6 +285,21 @@
         }
     ],
     "workspace": [
+        {
+            "key": "dendron.addAndCommit",
+            "title": "Dendron: Workspace: Add and Commit",
+            "group": "workspace",
+            "desc": "add and commit all files",
+            "skipDocs": false
+        },
+        {
+            "key": "dendron.sync",
+            "title": "Dendron: Workspace: Sync",
+            "group": "workspace",
+            "desc": "Sync all files",
+            "docPreview": "Sync all files in your workspace, across all vaults.\nThis will add and commit all changes, then pull and push to sync all changes.",
+            "skipDocs": false
+        },
         {
             "key": "dendron.vaultAdd",
             "title": "Dendron: Vault Add",
@@ -346,6 +378,20 @@
             "title": "Dendron: Sign In",
             "group": "workspace",
             "desc": "sign in to a Dendron account",
+            "skipDocs": false
+        },
+        {
+            "key": "dendron.enableTelemetry",
+            "title": "Dendron: Enable Telemetry",
+            "group": "workspace",
+            "desc": "Enable telemetry",
+            "skipDocs": false
+        },
+        {
+            "key": "dendron.disableTelemetry",
+            "title": "Dendron: Disable Telemetry",
+            "group": "workspace",
+            "desc": "Disable telemetry",
             "skipDocs": false
         },
         {
@@ -432,8 +478,27 @@
             "docPreview": "![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/notes.copy-url.gif)",
             "keybindings": {
                 "mac": "cmd+shift+u",
-                "windows": "ctrl+shift+u"
+                "windows": "ctrl+shift+u",
+                "when": "editorFocus && dendron:pluginActive"
             },
+            "skipDocs": false
+        }
+    ],
+    "hooks": [
+        {
+            "key": "dendron.createHook",
+            "title": "Dendron: Hook Create",
+            "group": "hooks",
+            "desc": "Create a hook",
+            "when": "dendron:pluginActive",
+            "skipDocs": false
+        },
+        {
+            "key": "dendron.deleteHook",
+            "title": "Dendron: Hook Delete",
+            "group": "hooks",
+            "desc": "Delete a hook",
+            "when": "dendron:pluginActive",
             "skipDocs": false
         }
     ],
@@ -456,6 +521,16 @@
             "docs": "This command works by running `dendron-cli` in the background.",
             "docLink": "",
             "docPreview": "",
+            "skipDocs": false
+        }
+    ],
+    "misc": [
+        {
+            "key": "dendron.pasteFile",
+            "title": "Dendron: Paste File",
+            "group": "misc",
+            "keybindings": {},
+            "desc": "Paste file",
             "skipDocs": false
         }
     ],

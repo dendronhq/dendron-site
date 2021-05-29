@@ -2,7 +2,7 @@
 id: b0fe6ef7-1553-4280-bc45-a71824c2ce36
 title: Dendron
 desc: ''
-updated: 1616691443307
+updated: 1620594203342
 created: 1595952505017
 stub: false
 ---
@@ -50,7 +50,7 @@ Some popular use cases include:
 
 ## Onboarding
 
-[Kevin](https://kevinslin.com/), the founder of Dendron, does a personal onboarding with new users. This onboarding is customized to your note taking goals and familiarity with Dendron. You can see an example onboarding below and book your own [here](https://calendly.com/thence/dendron).
+[Kevin](https://kevinslin.com/), the founder of Dendron, does a personal onboarding with new users. This onboarding is customized to your note taking goals and familiarity with Dendron. You can see an example onboarding below and book your own [here](https://calendly.com/d/mqtk-rf7q/onboard).
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/3io2fHRmZsE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -68,7 +68,7 @@ See our core [[features|dendron.features]] that help you manage your notes.
 
 ## Getting Started
 
-To get started, you can follow the instructions in [[quickstart|dendron.quickstart]].
+To get started, you can follow the instructions in [[getting started|dendron.tutorial]]
 
 ## Motivation
 

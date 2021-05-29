@@ -11,9 +11,9 @@ This will save all your vaults into `snapshots/{current_timestamp}`
 
 ## Commands
 
-((ref:[[dendron.topic.commands]]#snapshot vault:#*))
+![[dendron.topic.commands#snapshot-vault:#*]]
 
 You can restore your snapshots using the `Restore Vault` Command
 
-((ref:[[dendron.topic.commands]]#restore vault:#*))
+![[dendron.topic.commands#restore-vault:#*]]
 

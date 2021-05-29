@@ -2,7 +2,7 @@
 id: 2fe96d3a-dcf9-409b-8a09-fdaa5a664433
 title: Features
 desc: ''
-updated: 1614637638117
+updated: 1617643671872
 created: 1608528227846
 nav_order: 1
 ---
@@ -55,7 +55,7 @@ You can find the docs on this under [[liquid|dendron.topic.liquid]]
 
 ### Selective Publication
 
-You can choose to publish your whole vault, a single domain, or multiple domains within your vault.
+You can choose to publish your whole vault, a single domain, or multiple domains within your vault. If a note links to a note that is not publishable, Dendron will create a custom 404 page.
 
 ### Note References
 
