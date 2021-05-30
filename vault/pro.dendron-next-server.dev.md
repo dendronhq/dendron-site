@@ -3,12 +3,11 @@ id: 6293d9dc-9bd3-4b01-8428-34d8256f0a32
 title: Dev
 desc: |
   Development related
-updated: 1622132225281
+updated: 1622404104424
 created: 1621630111186
 ---
 
 ## Development
-
 
 ### Pre-req
 - [[Symlink|pro.dendron-cli.dev#symlink]] `dendron-cli`
