@@ -2,7 +2,7 @@
 id: 04dd9ad8-3d81-4098-a661-21b6acc6f443
 title: Cook
 desc: ''
-updated: 1622129146996
+updated: 1622403043225
 created: 1621721485330
 ---
 
@@ -110,6 +110,39 @@ export class InsertNoteLinkButton extends DendronBtn {
 Related:
 - See [[here|pro.dendron-next-server.dev#development]] for how to preview and test your web ui.
 
+### Adding Command with Lookup
+
+Pre-requisites:
+- [[Create a new Command|pro.dendron-plugin.cook#create-a-new-command]]
+
+This goes over adding a new command with lookup. To see an example, see this [command](https://github.com/dendronhq/dendron/blob/dev-kevin/packages/plugin-core/src/commands/InsertNoteLink.ts#L1:L1) and this commit: cc8a02b4.
+
+```mermaid
+sequenceDiagram
+    participant user
+    participant lookupCommand
+    participant lookupController
+    participant lookupProvider
+    user ->> lookupCommand: user issues command
+    Note left of user: 1. cmd.gatherInput()
+    rect rgb(0, 255, 0)
+      lookupCommand ->> lookupController: creates controller 
+      lookupCommand ->> lookupProvider: creates provider
+      lookupCommand ->> lookupController: call show(provider)
+      lookupCommand ->> lookupProvider: subscribe to provider
+      lookupController ->> user: shows quickinput 
+    end
+    user ->> user: chooses a selection
+    lookupProvider ->> lookupCommand: notify(selection)
+    lookupCommand ->> lookupCommand: calls command.execute()
+```
+
+1 Gather inputs
+  - this method is responsible for configuring and instantiating the lookup controller and provider
+    - controller controls presentation of the quickinput
+    - provider controls the data retrieval behavior 
+    - on success, will return the following [response type](https://github.com/dendronhq/dendron/blob/dev-kevin/packages/plugin-core/src/components/lookup/LookupProviderV3.ts#L39:L39)
+    - NOTE: because we can't simply block on `showQuickInput`, we return a promise that listens to a `lookupProvider` event with the corresponding `id` of the particular command
 
 ## Utilities
 
