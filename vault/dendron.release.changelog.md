@@ -2,10 +2,40 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1622048513916
+updated: 1622401267241
 created: 1601508213606
 date: '2022-01-01'
 ---
+
+## 0.43.3
+
+### Features
+
+#### Insert Note Link Command
+
+![[dendron://dendron-site/dendron.topic.commands#insert-note-link,1:#*]]
+
+### Enhancements
+
+### Bug Fixes
+
+### House Cleaning
+
+### Docs
+
+## 0.43.2
+
+### Features
+- Better Fuzzy Match for Lookup 
+
+### Enhancements
+- Block Reference Support in Published Site 
+- Block Reference Support in Dendron Preview 
+- Open Link is Vault Aware ([[docs|dendron.topic.commands#open-link]])
+
+### Docs
+- [[Lookup Internals|dendron.topic.lookup#details]]
+
 
 ## 0.43.1
 
@@ -24,7 +54,7 @@ date: '2022-01-01'
 
 #### Block References 
 
-![[dendron.topic.links#block-references,1:#*]]
+![[dendron://dendron-site/dendron.topic.links.block-references#summary,1:#*]]
 
 #### Paste File Command
 ![[dendron.topic.commands#paste-file,1:#*]]

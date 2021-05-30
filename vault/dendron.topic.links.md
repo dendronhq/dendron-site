@@ -2,7 +2,7 @@
 id: 3472226a-ff3c-432d-bf5d-10926f39f6c2
 title: Links
 desc: ""
-updated: 1622238996764
+updated: 1622401187922
 created: 1595003088839
 stub: false
 ---
@@ -44,27 +44,8 @@ Dendron has a backlink panel which shows all notes with links to the current not
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/links.backlink.jpg)
 
 ## Block References
-- status: [[Experimental 🧪|dendron.ref.status#experimental-🧪]]
 
-Block references let you link or embed blocks of text into different parts of your notes. This allows you to link and refer to any part of a note, including paragraphs, lists, and tables.
-
-Currently, we support using block references that can be navigated to by using the [[Goto Note|dendron.topic.commands#goto-note]] command. We currently (2021.05.21) **do not** support rendering block references in the preview or when publishing.
-
-### Block Links
-
-A block link has the following format. It is created in a note that is referencing a piece of text. When navigating the link, users should be taken to the block anchor. 
-
-```
-[[somelink#^1234]]
-```
-
-### Block Anchor
-
-A block anchor is a `^` character, followed by one or more digits, letters, dashes, and underscores. Dendron should automatically generate these anchors when requested, and users should be able to add in custom anchors. The following is an example of an anchor:
-
-```
-{Some markdown block element} ^1234
-```
+![[dendron://dendron-site/dendron.topic.links.block-references#summary,1:#*]]
 
 ## Other Links
 
