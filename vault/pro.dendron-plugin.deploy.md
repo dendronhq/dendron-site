@@ -2,7 +2,7 @@
 id: 2976e5df-c8b4-4176-9d3f-fe4220dfa9b6
 title: Deploy
 desc: ''
-updated: 1622238951999
+updated: 1622485680166
 created: 1613863275374
 ---
 
@@ -17,6 +17,7 @@ created: 1613863275374
 ```sh
 npm install -g vsce
 npm install -g yarn
+```
 
 ### Create Build Folder
 
@@ -38,6 +39,18 @@ setRegLocal
 verdaccio
 
 ./bootstrap/scripts/createBuild.sh
+
+# when releaseing locally
+./bootstrap/scripts/createReleaseLocal.sh
+
+# when releasing to prod
+setRegRemote
+./bootstrap/scripts/createRelease.sh
+
+# update integ branch
+git branch -D integ-publish
+git checkout -b integ-publish
+git push --set-upstream origin integ-publish --force
 ```
 
 ### Install Build
