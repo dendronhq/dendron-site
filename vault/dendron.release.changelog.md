@@ -2,27 +2,20 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1622401267241
+updated: 1622484089116
 created: 1601508213606
 date: '2022-01-01'
 ---
 
+## 0.44
 ## 0.43.3
-
 ### Features
-
 #### Insert Note Link Command
 
 ![[dendron://dendron-site/dendron.topic.commands#insert-note-link,1:#*]]
 
 ### Enhancements
-
-### Bug Fixes
-
-### House Cleaning
-
-### Docs
-
+- Block Reference Support in Dendron Preview 
 ## 0.43.2
 
 ### Features
@@ -30,7 +23,6 @@ date: '2022-01-01'
 
 ### Enhancements
 - Block Reference Support in Published Site 
-- Block Reference Support in Dendron Preview 
 - Open Link is Vault Aware ([[docs|dendron.topic.commands#open-link]])
 
 ### Docs
