@@ -2,7 +2,7 @@
 id: 3da0e9c2-c6cb-468c-a0bf-be2a267a1a41
 title: "30"
 desc: ""
-updated: 1622398107403
+updated: 1622468997290
 created: 1622398067339
 ---
 
@@ -43,4 +43,4 @@ created: 1622398067339
         -   JSON &lt;-> TS. Which direction to go?
         -   Looking at the current codebase - non-obvious which types are for schemas.
         -   Going from JSON Schema to interfaces should be the preferred way to go.
-        -   Fudo already has repo for review.
+        -   Fudo already has [repo](https://github.com/flammehawk/dendron-schemas) for review.
