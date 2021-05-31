@@ -2,7 +2,7 @@
 id: f83c1d87-eac0-48f3-a5cf-8a69989d8ec1
 title: Dendrons Config
 desc: ''
-updated: 1621552686260
+updated: 1622485249738
 created: 1619539817122
 ---
 
@@ -153,8 +153,6 @@ vaults:
 ![[dendron.topic.hooks.config]]
 
 ## Dev
-- status: [[Early Seed 🌱|dendron.ref.status#early-seed-]]
-
 Development configuration covers option to enable [[experimental 🧪|dendron.ref.status#experimental-🧪]] features and when working on Dendron. 
 
 

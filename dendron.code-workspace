@@ -14,7 +14,8 @@
             "**/.hg": true,
             "**/CVS": true,
             "**/.DS_Store": true,
-            "docs": true
+            "docs": true,
+            ".dendron.cache.json": true
         },
         "search.exclude": {
             "**/node_modules": true,
