@@ -2,7 +2,7 @@
 id: 00e6f3d8-4243-42c7-8e4f-a074a1bd0ffb
 title: Release Notes (version 0.44)
 desc: ''
-updated: 1622493974247
+updated: 1622494847233
 created: 1622484155123
 ---
 
@@ -40,6 +40,12 @@ Our documentation changes a lot week by week. Below is a highlight of some updat
 #### Office Hours
 
 You can find notes from our latest office hours [[here|dendron.community.office-hours.2021.05.30]]
+
+#### Newsletter
+
+A bunch of you have asked for a way of staying up to date with changes by email. To that end, we are launching an email newsletter.  
+You can subscribe [here](https://buttondown.email/dendron). The Dendron Newsletter will feature a recap of major features announced the past month. 
+The publication frequency should be ~1 per month though we might also offer a weekly subscription in the future if there's demand for that. The first issue will be sent out later this week!
 
 #### Thank You's
 
