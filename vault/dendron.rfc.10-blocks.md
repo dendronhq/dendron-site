@@ -2,7 +2,7 @@
 id: 95f7193b-9940-42ba-841f-3e2a4d937ba3
 title: 10 Blocks
 desc: ''
-updated: 1621657142989
+updated: 1622526720220
 created: 1619804977969
 ---
 ## Goals
@@ -36,11 +36,24 @@ A block link has the following format. It is created in a note that is referenci
 
 ### Block Anchor
 
-A block anchor is a `^` character, followed by one or more digits, letters, dashes, and underscores. Dendron should automatically generate these anchors when requested, and users should be able to add in custom anchors. The following is an example of an anchor:
+A block anchor is a `^` character, followed by one or more digits, letters, dashes, and underscores. Dendron should automatically generate these anchors when requested, and users should be able to add in custom anchors. The following are a few examples of anchors:
 
 ```
-{Some markdown block element} ^1234
+Lorem ipsum dolor amet ^1234
+
+* Item 1
+* Item 2 ^second-item
+* Item 3
+
+^whole-list
+
+| Sapiente | accusamus |
+|----------|-----------|
+| Laborum  | libero    |
+| Ullam    | optio     | ^whole-table
 ```
+
+`^whole-list`, `^whole-table`, and `^1234` reference the blocks they are attached to. Lists are special though, `^second-item` only references the list item it is next to.
 
 ### Block Reference Link
 
@@ -49,6 +62,40 @@ A block reference link is a reference to a block link.
 ```
 ![[somelink#^1234]]
 ```
+
+#### Block Range References
+
+Block references should also support [[range references|dendron.topic.refs#block-range-reference]]. Any valid block anchor is also a valid target for the start or end of a range.
+
+When referring to block anchors, the range will be inclusive on both ends. For example:
+
+```
+paragraph 1
+
+paragraph 2 ^start
+
+paragraph 3 ^end
+
+paragraph 4
+
+![[#^start:^end]]
+```
+
+The reference here will include both paragraph 2 and 3. A single paragraph can be referenced without the range.
+
+The range can also refer to anchors inside lists. When referencing lists, the anchors will include the list items between them.
+
+```
+* Item 1
+* Item 2 ^start
+* Item 3 ^end
+* Item 4
+
+![[#^start:^end]]
+```
+
+This references the items 2 and 3.
+
 
 ## Details
 
