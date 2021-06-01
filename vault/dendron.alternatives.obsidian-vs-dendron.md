@@ -1,7 +1,7 @@
 ---
 id: a84ff014-e871-445d-9366-d97f1ad882f1
 title: Obsidian Vs Dendron
-desc: ""
+desc: ''
 updated: 1622559646604
 created: 1622558883449
 ---

@@ -1,14 +1,14 @@
 ---
-id: 9de065ab-4802-4580-93a6-769e94a599c8
-title: Notion Vs Dendron
-desc: ""
-updated: 1622559752691
-created: 1622545672148
+id: ca35f923-ee90-4655-8db2-3ec7eabd7f1a
+title: Roam Vs Dendron
+desc: ''
+updated: 1622559737545
+created: 1622559637841
 ---
 
-> Dendron is your IDE for General Knowledge, see how it stacks up vs. Notion.
+> Dendron is your IDE for General Knowledge, see how it stacks up vs. roam.
 
-Notion is an online notetaking workspace for teams and individuals. Unlike Notion, Dendron is fast, local-first and open source, giving you control of your data so there's never any downtime.
+Roam Research is a notetaking tool for network thought. Unlike Roam, Dendron is fast, local-first and open source, giving you control of your data so there's never any downtime.
 
 ## Fast and performant.
 
