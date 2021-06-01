@@ -1,8 +1,8 @@
 ---
 id: a84ff014-e871-445d-9366-d97f1ad882f1
 title: Obsidian Vs Dendron
-desc: ''
-updated: 1622559646604
+desc: ""
+updated: 1622573844660
 created: 1622558883449
 ---
 
@@ -12,8 +12,8 @@ Obsidian is a knowledge base that works on your local markdown files. Unlike Obs
 
 ## Extensible and open-source
 
-Dendron is built into VSCode and can take advantage of all the extensions you've come to love. Whether you want vim keybindings, mermaid diagram support or snippet support, the extension ecosystem has you covered. And if you can't find something that you need, we also offer [[dendron.topic.hooks]] so you can build advanced workflows, right into Dendron.
+![[dendron://dendron-site/dendron.features#extensible-and-open-source,1:#*]]
 
 ## Hierarchically structured
 
-Whereas notes can end up in a tangled mess when you only have backlinks and folders, Dendron has a flexible and emergent series of tools to help you structure your data. [[dendron.topic.hierarchies]] function as support beams, they help enforce the foundations of your knowledge base. Dendron encourages you to be flexible with your mental models by allowing you to [[refactor|dendron.topic.commands#refactor-hierarchy]] them. And once you've got a handle on a particular topic, [[schemas|dendron.topic.schema]] can help you scale out to other domains and see patterns that you otherwise wouldn't.
+![[dendron://dendron-site/dendron.features#flexible-structure,1:#*]]
