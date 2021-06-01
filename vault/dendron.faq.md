@@ -2,7 +2,7 @@
 id: 683740e3-70ce-4a47-a1f4-1f140e80b558
 title: FAQ
 desc: ""
-updated: 1622059582011
+updated: 1622503815688
 created: 1595952505025
 stub: false
 nav_order: 6
@@ -154,6 +154,12 @@ The hierarchy adds friction but the idea is that the friction (eg. hierarchy) is
 The analogy to think about is excel: while putting your numbers inside the structure of a spreadsheet might not be the most straightforward way of getting to a numerical solution, its use becomes indispensable once you deal with a significant amount ofnumbers.
 
 The way to think about dendron is that its not like google where you type a question and try to find an answer - until we get true AI, this simply doesn't work for personal knowledge. Rather, Dendron helps you organize your notes so you can reference the information you need to answer your own questions.
+
+### Hierarchies are too rigid
+
+Traditional hierarchies are like straight jackets - they are confining and force you down a certain path once set. The hierarchies in Dendron are more like support beams - they help enforce the foundation of your knowledge base. Dendron encourages you to be flexible with your mental models (represented as hierarchies in Dendron) and change them over time. 
+
+Current tools for Zettelkasten or Notes you can think of as a *one level hierarchy* that is strung together by links. Dendron provides that but also lets you go deeper by building out multi-level hierarchies when it is useful to do so. 
 
 ### Will Dendron ever support folders?
 

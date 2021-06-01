@@ -2,14 +2,14 @@
 id: b239c77e-52f2-4cc3-8390-69e0bc776a72
 title: Debugging
 desc: ''
-updated: 1607366232319
+updated: 1622554487344
 created: 1598653859135
 stub: false
 ---
 ## Plugin
 
 - run extension
-  - launch the `Run Extnesion` build task (copied below for reference)
+  - launch the `Run Extnesion: Local` build task (copied below for reference)
 
 ```json
     {
