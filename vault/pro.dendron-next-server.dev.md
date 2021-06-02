@@ -3,7 +3,7 @@ id: 6293d9dc-9bd3-4b01-8428-34d8256f0a32
 title: Dev
 desc: |
   Development related
-updated: 1622404104424
+updated: 1622568187763
 created: 1621630111186
 ---
 
@@ -15,28 +15,14 @@ created: 1621630111186
 
 ### Steps
 
-You can test the Dendron Next App by launching a workspace using the CLI and then connecting to it. We recommend using the workspace in `dendron/test-workspace` which is alreayd pre-configured to use a local nextjs setup (you can skip step 1 if you are doing this
-
-
-1. Modify the `dendron.yml` of the workspace you want to use
-   ```yml
-   dev:
-     # use CLI based engine instead of creating a new one
-     engineServerPort: 3005
-     # for UI components, proxy to next server instead of creating our own
-     nextServerUrl: http://localhost:3000
-   ```
-2. Launch the workspace
+You can test the Dendron Next App by launching a workspace using the CLI and then connecting to it. The instructions below cover using `dendron/test-workspace` which is alreayd pre-configured to use a local nextjs setup.
+1. Initialize test-workspace
+  ```sh
+  cd dendron/test-workspace
+  ./scripts/dev.sh
+  ```
+1. Connect to the workspace (replace WORKSPACE and PORT with your own values)
    ```sh
-   # engine port
-   PORT=3005
-   # absolute path to your workspace root
-   WORKSPACE={path/to/workspace}
-   cd $WORKSPACE
-   env LOG_LEVEL=info dendron launchEngineServer --init --port $PORT
-   ```
-3. Connect to the workspace (replace WORKSPACE and PORT with your own values)
-   ```
    # for example, if you launched the engine at /user/adam/workspace, WORKSPACE should equal /user/adam/workspace
    http://localhost:3000/vscode/sample?ws=$WORKSPACE&port=$PORT
    ```
@@ -99,3 +85,28 @@ Look for the following html in the webview debugger.
 ```html
 <div id="webview-webviewview-dendron-tree-view" data-keybinding-context="30" style="visibility: visible; position: absolute; overflow: hidden; top: 405px; left: 48px; width: 305px; height: 353px;"><iframe class="webview ready" sandbox="allow-scripts allow-same-origin allow-forms allow-pointer-lock allow-downloads" allow="clipboard-read; clipboard-write;" src="vscode-webview://webviewview-dendron-tree-view/index.html?id=webviewview-dendron-tree-view&amp;extensionId=&amp;purpose=undefined&amp;serviceWorkerFetchIgnoreSubdomain=undefined&amp;platform=electron&amp;vscode-resource-origin=https%3A%2F%2Fwebviewview-dendron-tree-view.vscode-webview-test.com" style="border: none; width: 100%; height: 100%;"></iframe></div>
 ```
+
+### Using a custom workspace
+
+1. Modify the `dendron.yml` of the workspace you want to use
+   ```yml
+   dev:
+     # use CLI based engine instead of creating a new one
+     engineServerPort: 3005
+     # for UI components, proxy to next server instead of creating our own
+     nextServerUrl: http://localhost:3000
+   ```
+2. Launch the workspace
+   ```sh
+   # engine port
+   PORT=3005
+   # absolute path to your workspace root
+   WORKSPACE={path/to/workspace}
+   cd $WORKSPACE
+   env LOG_LEVEL=info dendron launchEngineServer --init --port $PORT
+   ```
+3. Connect to the workspace (replace WORKSPACE and PORT with your own values)
+   ```
+   # for example, if you launched the engine at /user/adam/workspace, WORKSPACE should equal /user/adam/workspace
+   http://localhost:3000/vscode/sample?ws=$WORKSPACE&port=$PORT
+   ```

@@ -3,7 +3,7 @@ id: 3c80629b-4048-48f0-bdfd-352645bda2ec
 title: Dev
 desc: |
   Development related
-updated: 1622556679875
+updated: 1622572577042
 created: 1622079130106
 ---
 
@@ -16,3 +16,7 @@ For server based modules, put them into [[Common Server|pro.common-server]] inst
 ## NoteProps
 - try having plain objects on the note props
 
+yeah, be happy to. you can find my availability here: https://calendly.com/thence/meet
+feel free to grab any open slot
+https://calendly.com/thence/meet
+https://calendly.com/thence/meet-extended
