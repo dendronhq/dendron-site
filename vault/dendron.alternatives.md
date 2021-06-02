@@ -2,7 +2,7 @@
 id: b33d1803-6e4e-418f-a269-c4d4bde967cf
 title: Dendron Alternatives
 desc: ""
-updated: 1622574631804
+updated: 1622647860354
 created: 1615999699967
 nav_order: 5
 published: false
@@ -16,9 +16,9 @@ The main difference between Dendron and almost every other note taking tool can 
 
 All the tools below are excellent for their own use-cases. This comparison rests purely where Dendron is different.
 
-| Software Name | Comparison w/ Dendron                        | Flexible Hierarchy | Open source | Local-first | Fast and performant |
-| ------------- | -------------------------------------------- | ------------------ | ----------- | ----------- | ------------------- |
-| Dendron       | How?                                         | ✅                 | ✅          | ✅          | ✅                  |
-| Notion        | [[dendron.alternatives.notion-vs-dendron]]   | ✅                 | ❌          | ❌          | ✅                  |
-| Obsidian      | [[dendron.alternatives.obsidian-vs-dendron]] | ❌                 | ❌          | ✅          | ✅                  |
-| Roam          | [[dendron.alternatives.roam-vs-dendron]]     | ❌                 | ❌          | ❌          | ❌                  |
+| Software Name | Comparison w/ Dendron                        | Flexible Hierarchy | Open source | Local-first | Fast and performant | Bi-directional links | Outlining |
+| ------------- | -------------------------------------------- | ------------------ | ----------- | ----------- | ------------------- | -------------------- | --------- |
+| Dendron       | How?                                         | ✅                 | ✅          | ✅          | ✅                  | ✅                   | ❌        |
+| Notion        | [[dendron.alternatives.notion-vs-dendron]]   | ✅                 | ❌          | ❌          | ✅                  | ✅                   | ✅        |
+| Obsidian      | [[dendron.alternatives.obsidian-vs-dendron]] | ❌                 | ❌          | ✅          | ✅                  | ✅                   | ❌        |
+| Roam          | [[dendron.alternatives.roam-vs-dendron]]     | ❌                 | ❌          | ❌          | ❌                  | ✅                   | ✅        |
