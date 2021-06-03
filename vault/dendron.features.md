@@ -1,11 +1,12 @@
 ---
 id: 4bb85c39-d8ac-48ad-a765-3f2a071f7bc9
 title: Features
-desc: ''
-updated: 1618002423357
+desc: ""
+updated: 1622573830579
 created: 1596320368075
 nav_order: 2
 ---
+
 ## Hierarchies
 
 Dendron proposes **hierarchies** as the **human solution** to information overload. This is because there are few things as effective as a multi-level hiearchy for quickly filtering an overwhelming amount of information to something humans can work with. You can read [this blog post](https://www.kevinslin.com/notes/e1455752-b052-4212-ac6e-cc054659f2bb.html) for the extended rationale behind this.
@@ -20,6 +21,10 @@ The following are a few notes that have this hierarchical naming format.
 - cli.curl.md
 - cli.dig.md
 ```
+
+### Flexible structure
+
+Whereas notes can end up in a tangled mess when you only have backlinks and folders, Dendron has a flexible and emergent series of tools to help you structure your data. [[dendron.topic.hierarchies]] function as support beams, they help enforce the foundations of your knowledge base. Dendron encourages you to be flexible with your mental models by allowing you to [[refactor|dendron.topic.commands#refactor-hierarchy]] them. And once you've got a handle on a particular topic, [[schemas|dendron.topic.schema]] can help you scale out to other domains and see patterns that you otherwise wouldn't.
 
 ## Lookup
 
@@ -63,8 +68,8 @@ Below is an example of a three-level hierarchy describing cli commands. You don'
   parent: root
   namespace: true
   children:
-    - cmd
-    - env
+      - cmd
+      - env
 - id: env
   desc: variables relevant for command
 - id: cmd
@@ -106,36 +111,47 @@ Since Dendron runs on top of VSCode, it means that you also have access to thous
 
 By default, Dendron will initialize your first workspace with the following extensions and features.
 
-- [Markdown Notes](https://marketplace.visualstudio.com/items?itemName=kortina.vscode-markdown-notes)
-  - [wiki links](https://marketplace.visualstudio.com/items?itemName=kortina.vscode-markdown-notes)
-  - [tags](https://marketplace.visualstudio.com/items?itemName=kortina.vscode-markdown-notes)
-  - [backlinks](https://marketplace.visualstudio.com/items?itemName=kortina.vscode-markdown-notes) (think Roam)
-- [Markdown Shortcuts](https://marketplace.visualstudio.com/items?itemName=mdickin.markdown-shortcuts)
-  - Quickly toggle bullet points
-  - Easily generate URLs
-  - Convert tabular data to tables
-- [Markdown Preview Enhanced](https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced)
-  - [live markdown preview](https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced)
-  - [math](https://shd101wyy.github.io/markdown-preview-enhanced/#/math) (KaTeX or MathJax)
-  - [sequence diagrams](https://shd101wyy.github.io/markdown-preview-enhanced/#/diagrams?id=mermaid) (mermaid)
-  - [pandoc support](https://shd101wyy.github.io/markdown-preview-enhanced/#/pandoc)
-  - [code chunks](https://shd101wyy.github.io/markdown-preview-enhanced/#/code-chunk)
-  - [presentations](https://rawgit.com/shd101wyy/markdown-preview-enhanced/master/docs/presentation-intro.html)
-- [Material Theme](https://marketplace.visualstudio.com/items?itemName=equinusocio.vsc-material-theme)
-  - beautiful colors built using the [Material design system](https://material.io/)
-- [Paste Image](https://marketplace.visualstudio.com/items?itemName=mushan.vscode-paste-image)
-  - easily add images from your clipboard to your markdown files
-- [Spell Right](https://marketplace.visualstudio.com/items?itemName=ban.spellright)
-  - Spell Check
+-   [Markdown Notes](https://marketplace.visualstudio.com/items?itemName=kortina.vscode-markdown-notes)
+    -   [wiki links](https://marketplace.visualstudio.com/items?itemName=kortina.vscode-markdown-notes)
+    -   [tags](https://marketplace.visualstudio.com/items?itemName=kortina.vscode-markdown-notes)
+    -   [backlinks](https://marketplace.visualstudio.com/items?itemName=kortina.vscode-markdown-notes) (think Roam)
+-   [Markdown Shortcuts](https://marketplace.visualstudio.com/items?itemName=mdickin.markdown-shortcuts)
+    -   Quickly toggle bullet points
+    -   Easily generate URLs
+    -   Convert tabular data to tables
+-   [Markdown Preview Enhanced](https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced)
+    -   [live markdown preview](https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced)
+    -   [math](https://shd101wyy.github.io/markdown-preview-enhanced/#/math) (KaTeX or MathJax)
+    -   [sequence diagrams](https://shd101wyy.github.io/markdown-preview-enhanced/#/diagrams?id=mermaid) (mermaid)
+    -   [pandoc support](https://shd101wyy.github.io/markdown-preview-enhanced/#/pandoc)
+    -   [code chunks](https://shd101wyy.github.io/markdown-preview-enhanced/#/code-chunk)
+    -   [presentations](https://rawgit.com/shd101wyy/markdown-preview-enhanced/master/docs/presentation-intro.html)
+-   [Material Theme](https://marketplace.visualstudio.com/items?itemName=equinusocio.vsc-material-theme)
+    -   beautiful colors built using the [Material design system](https://material.io/)
+-   [Paste Image](https://marketplace.visualstudio.com/items?itemName=mushan.vscode-paste-image)
+    -   easily add images from your clipboard to your markdown files
+-   [Spell Right](https://marketplace.visualstudio.com/items?itemName=ban.spellright)
+    -   Spell Check
+
+## Fast and performant
+
+Dendron operates completely on local data and is able serve your notes to you without ever having to pull from a server. That means there's no downtime. We index your notes so [[dendron.topic.lookup]] is fast and everything (and I mean [[everything|dendron.topic.keybindings]]) has keyboard shortcuts so you never have to leave the home row.
+
+## Local-first
+
+Did we mention we're local first? We'll never send your notes off your system unless you want to explicitly. We also have easy guides for syncing with Github or you can always use your own service (Dropbox, Onedrive) to sync your notes wherever you want. Because you own your data.
+
+## Extensible and open-source
+
+Dendron is built into VSCode and can take advantage of all the extensions you've come to love. Whether you want vim keybindings, mermaid diagram support or snippet support, the extension ecosystem has you covered. And if you can't find something that you need, we also offer [[dendron.topic.hooks]] so you can build advanced workflows, right into Dendron.
 
 ## Additional Features
 
 The following extensions also work well with Dendron but are not bundled by default. You can download them separately to unlock additional functionality.
 
-- [Gitlens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens) 🔍
-  - Repository/File/Line history and annotations of all your files
-- [Vim](https://marketplace.visualstudio.com/items?itemName=vscodevim.vim)
-  - VIM key bindings 😍
-- [Bookmarks](https://marketplace.visualstudio.com/items?itemName=alefragnani.Bookmarks)
-  - Bookmark lines within files
-
+-   [Gitlens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens) 🔍
+    -   Repository/File/Line history and annotations of all your files
+-   [Vim](https://marketplace.visualstudio.com/items?itemName=vscodevim.vim)
+    -   VIM key bindings 😍
+-   [Bookmarks](https://marketplace.visualstudio.com/items?itemName=alefragnani.Bookmarks)
+    -   Bookmark lines within files
