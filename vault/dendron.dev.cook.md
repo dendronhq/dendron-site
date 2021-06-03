@@ -2,7 +2,7 @@
 id: a80f36d9-01d0-4c5a-a228-867b093a4913
 title: Cookbook
 desc: ''
-updated: 1622233757477
+updated: 1622655533227
 created: 1599151918645
 stub: false
 ---
@@ -237,3 +237,20 @@ export async function main() {
 }
 main2();
 ```
+
+### Manually Formatting the code
+
+From the root workspace, you can run `yarn format` to run `prettier` on all packages. This should be unecessary since we auto format on every commit
+
+
+### Git Ignore Blame
+
+In case of large refactorign changes, we want to not overwrite authorship and commit history. 
+
+In the project root, run the following after you have commited your styling changes to preserve the history.
+
+```sh
+echo $HASH_OF_COMMIT >> .git-blame-ignore-revs
+```
+
+You can see an explanation of how it works [here](https://git-scm.com/docs/git-blame#Documentation/git-blame.txt---ignore-revs-fileltfilegt)

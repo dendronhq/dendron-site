@@ -2,7 +2,7 @@
 id: 64f0e2d5-2c83-43df-9144-40f2c68935aa
 title: Setup
 desc: ''
-updated: 1622411545863
+updated: 1622656800814
 created: 1598651458825
 ---
 
@@ -21,28 +21,25 @@ Before you begin, you need to make sure to have the following SDKs and tools:
 - a different instance of VSCode
   - because debugging VSCode by default loads up all extensions that are installed, you'll have issues trying to develop Dendron if you also have VSCode installed . the workaround is to install an alternative flavor of vscode (eg. [insider edition](https://code.visualstudio.com/insiders/)) to use for development 
 
-### 2. Clone and npm install
+### 2. Clone 
 
 ```bash
 git clone https://github.com/dendronhq/dendron.git
 cd dendron
-yarn
 ```
 
-### 3. Build Repo
-
-- you should run this when building dendron for the first time and also every time you run a git pull
-  - new dependencies might have been picked up between pulls and this makes sure that they are installed
-
+### 3. Install Dependencies and Build
 ```bash
-yarn bootstrap:bootstrap
-yarn bootstrap:build 
-```
+# this should install all dependencies
+yarn init
 
-- we recommend you use `vscode` to develop for dendron. there is a `dendron.code-workspace` file in the root of the monorepo that you should use when developing
+# if the above script errors out, you can diagnose the issue and run the following scripts sequentially dependeing on where the error occured
+yarn # install package root dependencies
+yarn bootstrap:bootstrap # install package dependencise
+yarn bootstrap:build  # build package dependencies
+```
 
 ### 4. Editing (the plugin)
-
 At the root of the monorepo, open `dendron-main.code-workspace`. Open this with VSCode to start editing. While its not required to use VSCode, most of the helper scripts in this repository are created with VSCode in mind so using it will make development significantly easier.
 
 ### 5. Start Debugging (the plugin)
@@ -59,7 +56,7 @@ _Note: Running via Run -> Start Debugging will not work unless you've previously
 
 If you are developing Dendron in a remote environment using VSCode, see additional instructions [[here|dendron.dev.remote]].
 
-## Updating
+## Adding dependencies
 
 When you are merging new changes, note that new dependencies and sometimes packages will be installed. 
 
@@ -69,7 +66,7 @@ When you are merging new changes, note that new dependencies and sometimes packa
 lerna bootstrap
 ```
 
-### New Packages
+### New Package in Dendron Mono Repo
 Adding new packages is a rarer event but might require a workspace rebuild
 
 ```sh
@@ -82,6 +79,13 @@ lerna bootstrap
 # build all dependencies
 ./bootscrap/scripts/build.sh
 ```
+
+## Normal Workflow
+
+1. Checkout a feature branch for your task
+1. Work on code
+1. Submit a pull request before end of the week
+
 
 ## Working with the API Server
 
