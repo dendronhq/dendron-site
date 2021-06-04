@@ -2,7 +2,7 @@
 id: f2ed8639-a604-4a9d-b76c-41e205fb8713
 title: Configuration
 desc: ''
-updated: 1622841508188
+updated: 1623003391757
 created: 1608528797892
 nav_order: 3
 ---
@@ -158,6 +158,12 @@ If you are publishing with github pages, the format is `https://{username}.githu
 - default: True
 
 Whether to use pretty note refs or plain refs. 
+
+### hideBlockAnchors (optional)
+- default: false
+
+When set to `false`, [[dendron.topic.links.block-references#block-anchor]] will be displayed as small clickable links.
+Setting this option to `true` hides the block anchors so they are not visible, but they will continue to function when linked to.
 
 ### writeStubs 
 - status: optional
