@@ -2,7 +2,7 @@
 id: ffa6a4ba-5eda-48c7-add5-8e2333ba27b4
 title: Configuration
 desc: ''
-updated: 1619551070936
+updated: 1622842369103
 created: 1600564020051
 nav_order: 3
 ---
@@ -183,9 +183,6 @@ publish:
 ## Vault Configuration
 
 The following needs to be set in the [[vaults|dendron.topic.config.dendron#vaults]] section of the config.
-
-![[dendron.topic.config.dendron#visibility:#*]]
-
 ## Note Configuration
 
 You can specify how notes are published via the frontmatter of each note. 

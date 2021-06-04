@@ -2,7 +2,7 @@
 id: 2976e5df-c8b4-4176-9d3f-fe4220dfa9b6
 title: Deploy
 desc: ''
-updated: 1622485680166
+updated: 1622850202032
 created: 1613863275374
 ---
 
@@ -54,6 +54,13 @@ git push --set-upstream origin integ-publish --force
 ```
 
 ### Install Build
+
+- quick
+```sh
+./scripts/pullBuild.sh
+```
+
+- long
 ```sh
 # navigate to build
 pushd build/dendron/packages/plugin-core

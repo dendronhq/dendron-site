@@ -12,7 +12,7 @@ nav_order: 1.1
 
 This walkthrough will help you get started with Dendron. Before you start, make sure you have Dendron installed and **_a workspace initialized_**. 
 
-![[dendron.guides.install#initialize-your-workspace:#*]]
+![[dendron.guides.install#initialize-your-workspace,1:#*]]
 
 ### Your first workspace
 

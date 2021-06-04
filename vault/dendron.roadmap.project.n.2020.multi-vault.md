@@ -2,7 +2,7 @@
 id: 45cfb9f2-46cf-4f67-a41e-834818fbd06e
 title: Multi Vault Support
 desc: ''
-updated: 1616950170052
+updated: 1622842106074
 created: 1599501659137
 stub: false
 start: 2020.10.07
@@ -22,8 +22,8 @@ Users should be able to create multiple vaults for a given workspace. Each vault
 
 ## Concepts
 
-![[dendron.concepts#workspace:#*]]
-![[dendron.concepts#vaults:#*]]
+![[dendron.ref.workspace#summary,1:#*]]
+![[dendron.ref.vaults#summary,1:#*]]
 ![[dendron.concepts#hierarchies:#*]]
 ![[dendron.concepts#domain:#*]]
 

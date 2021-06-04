@@ -2,7 +2,7 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1622498007066
+updated: 1622841508187
 created: 1601508213606
 date: '2022-01-01'
 ---
@@ -556,7 +556,7 @@ Extremely powerful templating capabilities with [[nunjuck templates|dendron.topi
 ### Enhancements
 
 - better multi-vault defaults
-  - instead of keeping [[remote vaults|dendron.concepts#remote-vault]] under a special `repos` folder, you can now initialize them where ever you want
+  - instead of keeping [[remote vaults|dendron.ref.vaults#remote]] under a special `repos` folder, you can now initialize them where ever you want
 - better git defaults with new vaults
 
 ### Bug Fixes

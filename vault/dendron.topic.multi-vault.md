@@ -2,7 +2,7 @@
 id: 24b176f1-685d-44e1-a1b0-1704b1a92ca0
 title: Multi Vault
 desc: ''
-updated: 1620662183467
+updated: 1622842339880
 created: 1605630383515
 ---
 
@@ -19,10 +19,14 @@ Multi vault refers to managing multiple [[vaults|dendron.concepts#vaults]] withi
 
 ## Concepts
 
-![[dendron.concepts#workspace:#*]]
-![[dendron.concepts#vaults:#*]]
-![[dendron.concepts#hierarchies:#*]]
-![[dendron.concepts#domain:#*]]
+### Workspace
+![[dendron.ref.workspace#summary,1:#*]]
+### Vaults
+![[dendron.ref.vaults#summary,1:#*]]
+### Hierarchies
+![[dendron.concepts#hierarchies,1:#*]]
+### Domain
+![[dendron.concepts#domain,1:#*]]
 
 ## Topics
 
@@ -80,7 +84,7 @@ We have added a new configuration, `duplicateNoteBehavior`, which [[controls|den
 
 ### Preset Remote Vaults
 
-When you add a [[remote vault|dendron.concepts#remote-vault]], you can either add a vault using a custom git url or select from one of the pre-defined endpoints. Currently, Dendron provide the following remote vaults:
+When you add a [[remote vault|dendron.ref.vaults#remote]], you can either add a vault using a custom git url or select from one of the pre-defined endpoints. Currently, Dendron provide the following remote vaults:
 
 - [AWS Vault](https://aws.dendron.so/)
 - [TLDR Vault](https://tldr.dendron.so/)
@@ -93,7 +97,7 @@ For multi-vault, there are several approaches to version control. If you are usi
 
 If you use `Vault: Add` with a remote vault, Dendron will automatically add the remote properties to your `dendron.yml` file. See example below.
 
-![[dendron.topic.config.dendron#remote-vault-example,1:*]]
+![[dendron.ref.vaults#remote-workspace-vault,1:*]]
 
 Versioned controlled vaults will be auto-initialized when someone pulls in the workspace. 
 
