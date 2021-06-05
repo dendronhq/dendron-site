@@ -2,12 +2,21 @@
 id: a6c03f9b-8959-4d67-8394-4d204ab69bfe
 title: Troubleshooting
 desc: ''
-updated: 1622221019749
+updated: 1622909147762
 created: 1595952505025
 ---
 ## Diagnosing
 
 You can get a better idea of what went wrong by checking out the [[logs|dendron.guides.cook#checking-logs]]. At that point, you should be able to narrow down the root cause to one of the issues below. If not, please bring it up on the [discord](https://discord.gg/AE3NRw9) or file a [bug report](https://github.com/dendronhq/dendron/issues/new?assignees=&labels=&template=bug_report.md&title=)
+
+### Dendron-CLI
+
+Check the version numbers of your dependencies. You can get version numbers by running the following commands
+
+```sh
+npm info @dendronhq/dendron-cli
+npm info @dendronhq/dendron-11ty
+```
 
 ## Common Errors
 

@@ -2,7 +2,7 @@
 id: eea2b078-1acc-4071-a14e-18299fc28f47
 title: Commands
 desc: ""
-updated: 1622400883002
+updated: 1622849367117
 created: 1595261816971
 ---
 
@@ -297,35 +297,12 @@ Disable [[telemetry|dendron.topic.telemetry]] across all workspaces with Dendron
 Enable [[telemetry|dendron.topic.telemetry]] across all workspaces with Dendron
 
 ### Vault Add
-- shortcuts: none
 
-Add a new vault to your workspace.
-
-When you add a vault, you can choose between adding a local vault or a remote vault.
-
-#### Local Vault
-
-A local vault is a folder in your file system.
-
-#### Remote Vault
-
-A remote vault is a git repository. If you choose a remote vault, you can choose from a vault from the registry or enter a custom git url.
-
-We currently have four vaults in the registry: `dendron.so`, `aws.dendron.so`, `tldr.dendron.so and `xkcd.dendron.so`. These correspond to the notes backing https://dendron.so/ and https://aws.dendron.so/ respectively.
-
-Note that when you add a remote vault, the url can also point to a remote workspace. In that case, dendron will inspect the `dendron.yml` to get a list of all vaults within the workspace and add all vaults from inside the workspace.
-
-<div style="position: relative; padding-bottom: 62.5%; height: 0;"><iframe src="https://www.loom.com/embed/b4171372f9794dd7be609c043f343fa3" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+![[dendron://dendron-site/dendron.ref.vaults#vault-add,1:#*]]
 
 ### Vault Remove
 
-- shortcuts: none
-
-Remove a vault
-
-Remove a vault from your workspace. Note that the underlying files will **not** be deleted - the vault will lose its association with your workspace.
-
-<div style="position: relative; padding-bottom: 62.5%; height: 0;"><iframe src="https://www.loom.com/embed/307effc22b8d4c59a32933529a8393e1" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+![[dendron://dendron-site/dendron.ref.vaults#vault-remove,1:#*]]
 
 ### Initialize Workspace
 

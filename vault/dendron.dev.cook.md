@@ -2,7 +2,7 @@
 id: a80f36d9-01d0-4c5a-a228-867b093a4913
 title: Cookbook
 desc: ''
-updated: 1622655533227
+updated: 1622909690167
 created: 1599151918645
 stub: false
 ---
@@ -19,6 +19,8 @@ Because this is typescript, don't forget to also install the `@types` package if
 ```bash
 lerna add @types/{package-to-install} --scope @dendronhq/{package-to-install-into}
 ```
+
+- NOTE: watch out that you are installing dependencies in the right package. Missing dependencies will appear to work in development if that dependency is present in any of the other packages. The reason things work is because of the way the nodejs module resolution works and that we're in a monorepo. Dependencies are installed at the root of the monorepo and will be found there when the package doesn't have them. When we publish them as npm packages, these dependencies will show up as missing in their respective packages if its not included in the dependencies
 
 ### Add a new node package
 

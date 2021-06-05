@@ -2,7 +2,7 @@
 id: 19a0ea9d-7292-4a68-bc6f-ffd462a54bc5
 title: VSCode Config
 desc: ''
-updated: 1620661727611
+updated: 1622842283286
 created: 1619541378119
 ---
 
@@ -17,7 +17,7 @@ You can access these Configurations through the [VSCode Settings,](https://code.
 - type: folders[]
 
 This entry is a list of folders that are tracked by your workspace.
-The entries here should mirror the vaults from [[dendron.topic.config.dendron#vaults]]
+The entries here should mirror the vaults from [[dendron.ref.vaults]]
 
 Each folder entry has the following structure
 

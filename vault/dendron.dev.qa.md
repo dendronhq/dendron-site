@@ -2,7 +2,7 @@
 id: cb22bd36-d45a-4ffd-a31e-96c4b39cb7fb
 title: Testing
 desc: ''
-updated: 1622100373512
+updated: 1622898302859
 created: 1598654055046
 stub: false
 ---
@@ -43,7 +43,8 @@ See remote pairing session for an overview of setting up tests.
 
 1. Go to file
 2. Use command prompt and run `> Tasks: Run tasks`
-3. Find the appropriate package and run `> npm:test:watch {package}`
+3. Find the appropriate package and run `> npm:test:watch engine-test-utils`
+  - NOTE: most tests are consolidated in `engine-test-utils`. you can find them in `engine-test-utils/src/__tests__`
 
 ## Writing Tests
 

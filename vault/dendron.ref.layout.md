@@ -2,7 +2,7 @@
 id: 3bff1195-1d13-4e7a-bc2f-7e4cc617109c
 title: Layout
 desc: ''
-updated: 1614202013214
+updated: 1622841508189
 created: 1596740451789
 stub: false
 ---
@@ -57,5 +57,5 @@ This is the folder where `dendron.code-workspace` is located
 
 - pods: [[pod|dendron.topic.pod]] related files
 - seeds: [[seeds|dendron.topic.seeds]] related files
-- repos: used by dendron to store [[remote vaults|dendron.concepts#remote-vault]]
+- repos: used by dendron to store [[remote vaults|dendron.ref.vaults#remote]]
 

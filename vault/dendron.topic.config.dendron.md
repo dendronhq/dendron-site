@@ -2,7 +2,7 @@
 id: f83c1d87-eac0-48f3-a5cf-8a69989d8ec1
 title: Dendrons Config
 desc: ''
-updated: 1622485249738
+updated: 1622842436785
 created: 1619539817122
 ---
 
@@ -62,7 +62,7 @@ Disable dendron showing hierarchies on published pages
 ### initializeRemoteVaults
 - default: true
 
-Determines if dendron pulls in un-initialized [[remote vault|dendron.concepts#remote-vault]] at startup
+Determines if dendron pulls in un-initialized [[remote vault|dendron.ref.vaults#remote]] at startup
 
 ### noAutoCreateOnDefinition
 - default: true
@@ -104,50 +104,7 @@ Tracks [[vaults|dendron.concepts#vaults]] for the workspace. You shouldn't have 
 
 ### Vault properties:
 
-#### fsPath
-- file path to vault
-
-#### name
-- default: last component of `fsPath`
-
-vault name 
-
-#### visibility
-- choices: "private|public"
-
-If set to private, notes in this vault will not be published regardless of any other configuration. This takes precedences over everything. 
-
-#### remote
-- added property for [[remote vaults|dendron.concepts#remote-vault]]
-- properties
-    - type: currently only `git` is supported (in the future, we might add additional types)
-    - url: url to github repo
-
-
-### Local Vault Example
-```yml
-vaults:
-    - fsPath: vault
-```
-
-
-### Remote Vault Example
-```yml
-vaults:
-    -
-        fsPath: dendron-vault
-        remote:
-            type: git
-            url: 'git@github.com:kevinslin/dendron-vault.git'
-        name: dendron
-    -
-        fsPath: yc-vault
-        remote:
-            type: git
-            url: 'git@github.com:kevinslin/yc-vault.git'
-        name: yc
-```
-
+See [[Vault Configuration|dendron.ref.vaults#configuration]]
 ## Hooks
 
 ![[dendron.topic.hooks.config]]
