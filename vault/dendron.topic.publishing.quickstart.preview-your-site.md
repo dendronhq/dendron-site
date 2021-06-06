@@ -2,7 +2,7 @@
 id: 1399b5d2-28fb-4077-aa5f-c8edbe52bc5d
 title: Preview Your Site
 desc: ''
-updated: 1622954640267
+updated: 1623005653965
 created: 1610844309611
 nav_order: 1
 ---
@@ -15,8 +15,7 @@ The following describes how to prepare your notes for publication using [[Dendro
 ### Pre-requisites
 
 - node version 12 or higher, see installation guide [[here|dendron.guides.install-node]]
-
-### Requirements
+ ### Requirements
 
 - pre-requisitie: 
   - node version 12 or higher, see installation guide [[here Node|dendron.guides.install-node]]
