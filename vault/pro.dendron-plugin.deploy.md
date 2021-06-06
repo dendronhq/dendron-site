@@ -2,7 +2,7 @@
 id: 2976e5df-c8b4-4176-9d3f-fe4220dfa9b6
 title: Deploy
 desc: ''
-updated: 1622850202032
+updated: 1622945102629
 created: 1613863275374
 ---
 
@@ -57,7 +57,11 @@ git push --set-upstream origin integ-publish --force
 
 - quick
 ```sh
+# if no ui changes
 ./scripts/pullBuild.sh
+
+# if ui changes
+./scripts/pullBuildAndSync.sh
 ```
 
 - long
