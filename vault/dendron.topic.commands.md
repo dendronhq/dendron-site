@@ -2,7 +2,7 @@
 id: eea2b078-1acc-4071-a14e-18299fc28f47
 title: Commands
 desc: ""
-updated: 1622948516030
+updated: 1622950138782
 created: 1595261816971
 ---
 
@@ -468,20 +468,35 @@ This command works by running `dendron-cli` in the background.
 
 - shortcuts: none
 
-Auto fix various issues with Dendron. You can pick among various actions for the doctor to perform
+Automatically fix various issues with Dendron. 
+
+You can pick among various actions for the doctor to perform.
+
+- Doctor performs it's actions on **_the entire workspace_** by default
+- You can toggle this behavior with the `Change Scope` button on the top right corner of panel so that it runs **_only on the active open document_**.
+- This requires you to have a note open and in focus before running the doctor command.
 
 #### Actions
 
-- fixFrontmatter
-  - add ids and titles to the frontmatter of all notes that are missing it
-  - setup a `docs` folder if it doesn't exist. Required if you want to [[publish|dendron.topic.publishing]] your notes
+- `fixFrontmatter`
+  - Add ids and titles to the frontmatter of all notes that are missing it
+  - Setup a `docs` folder if it doesn't exist. Required if you want to [[publish|dendron.topic.publishing]] your notes
 
 <a href="https://www.loom.com/share/bd045f708f8e474193de8e3de0dc820f"> <img style="" src="https://cdn.loom.com/sessions/thumbnails/bd045f708f8e474193de8e3de0dc820f-with-play.gif"> </a>
 
-- h1ToTitle: remove initial `h1` header and use it to replace contents of `title` field in frontmatter
-- h1ToH2: convert all initial `h1` header to `h2` header
-- removeStubs: remove all stub docs
-- oldNoteRefToNew: convert legacy note refs to new style note refs
+- `h1ToTitle` 
+  - Remove initial `h1` header and use it to replace contents of `title` field in frontmatter
+- `h1ToH2`
+  - Convert all initial `h1` header to `h2` header
+- `removeStubs`:
+  - Remove all stub docs
+- `oldNoteRefToNew`
+  - Convert legacy note refs to new style note refs
+- `createMissingLinkedNotes`
+  - **This doctor action is currently only supported in file scope.**
+  
+  - Create notes that do not exist yet but has a wikilink to it.
+  - A preview pane will appear with the notes that will be created before proceeding.
 
 ### Dump State
 
