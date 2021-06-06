@@ -2,7 +2,7 @@
 id: 683740e3-70ce-4a47-a1f4-1f140e80b558
 title: FAQ
 desc: ""
-updated: 1622993961248
+updated: 1623009751379
 created: 1595952505025
 stub: false
 nav_order: 6
@@ -264,3 +264,13 @@ The default snippets are scoped to markdown. You can create [global snippets](ht
 ### The extension 'Dendron Markdown Preview Enhanced' took a very long time to complete its last operation
 
 This is a known issue whenever we release a new version of the preview (mostly because its uncompressed javascript). Moving forward, we'll be removing the dependency on an external plugin and integrating Dendron's markdown features into vscode's native markdown preview in the near future.
+
+### I want to push all my note to my git repository periodically
+
+This can be done with some extensions that are external to Dendron such as:
+
+1. [autogit](https://marketplace.visualstudio.com/items?itemName=zeitnergmbh.auto-git)
+2. [gitdoc](https://marketplace.visualstudio.com/items?itemName=vsls-contrib.gitdoc)
+3. [text](https://marketplace.visualstudio.com/items?itemName=ivangabriele.vscode-git-add-and-commit)
+
+It is also described in our [[tip|dendron.guides.tips#automate-git-tasks,1:#*]] note.
