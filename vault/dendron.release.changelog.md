@@ -2,12 +2,58 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1622841508187
+updated: 1622949399803
 created: 1601508213606
 date: '2022-01-01'
 ---
 
+## 0.45
+
+## 0.44.2
+
+### Features
+
+#### Native Note Graph
+
+@hfellerhoff
+![[dendron://dendron-site/dendron.topic.graph-view#summary,1:#*]] 
+
+### Enhancements
+@SeriousBug
+- fine grained control for workspace sync ([[docs|dendron.ref.workspace#workspace-sync]]) 
+@hikchoi
+- toggle scope when running the doctor command ([[plugin docs|dendron.topic.commands#doctor]]) ([[cli docs|dendron.topic.cli#doctor]])
+
+### Bug Fixes
+
+### House Cleaning
+
+### Docs
+
+
+## 0.44.1
+### Features
+
+#### Block Reference Refs Support
+
+@SeriousBug
+![[dendron.topic.links.block-references#block-reference,1:#*]]
+
+#### Workspace Vaults
+
+![[dendron.ref.vaults#workspace-vault,1:#configuration]]
+
+### Enhancements
+- faster workspace initialization 
+
+### Bug Fixes
+- tree view not displaying
+
+### Docs
+- [[Vaults|dendron.ref.vaults]]
+
 ## 0.44
+
 ## 0.43.3
 ### Features
 #### Insert Note Link Command

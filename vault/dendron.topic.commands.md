@@ -2,7 +2,7 @@
 id: eea2b078-1acc-4071-a14e-18299fc28f47
 title: Commands
 desc: ""
-updated: 1622849367117
+updated: 1622948516030
 created: 1595261816971
 ---
 
@@ -360,11 +360,11 @@ Modify Dendron Config using Dendron UI
 
 ### Workspace: Add and Commit
 
-Add and commit all notes across all vaults to git.
+![[dendron://dendron-site/dendron.ref.workspace#workspace-add-and-commit,1:#*]]
 
 ### Workspace: Sync
 
-Synchronizes all notes across all vaults with git. Any changes you made will be pushed back to remote, and any changes in the remote will be pulled.
+![[dendron://dendron-site/dendron.ref.workspace#workspace-sync,1]]
 
 ---
 
