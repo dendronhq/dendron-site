@@ -2,7 +2,7 @@
 id: f83c1d87-eac0-48f3-a5cf-8a69989d8ec1
 title: Dendrons Config
 desc: ''
-updated: 1622842436785
+updated: 1623008334889
 created: 1619539817122
 ---
 
@@ -97,6 +97,13 @@ If true, use the note title when displaying naked links. This also applies to no
 - default: true
 
 If set to false, don't use [[pretty refs|dendron.ref.terms#pretty-ref]]
+
+### workspaceVaultSync
+- default: noCommit
+
+See [[workspace sync configuration options|dendron.ref.workspace#configuration-options]] for valid options.
+
+Sets the [[synchronization strategy|dendron.ref.workspace#Workspace: Sync]] for [[workspace vaults|dendron.ref.vaults#workspace-vault]]. For regular vaults, please use the [[per-vault configuration|dendron.ref.vaults#sync]].
 
 ### vaults
 

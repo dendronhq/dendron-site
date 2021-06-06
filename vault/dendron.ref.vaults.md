@@ -2,7 +2,7 @@
 id: 6682fca0-65ed-402c-8634-94cd51463cc4
 title: Vaults
 desc: ''
-updated: 1622843197164
+updated: 1623008379571
 created: 1622841137387
 ---
 
@@ -121,6 +121,14 @@ If set, specifies the workspace that this vault belongs
     - type: currently only `git` is supported (in the future, we might add additional types)
     - url: url to github repo
 
+
+### sync
+- default: `sync`
+
+See [[workspace sync configuration options|dendron.ref.workspace#configuration-options]] for valid options.
+
+Sets the [[synchronization strategy|dendron.ref.workspace#Workspace: Sync]] for this vault. This overrides the [[workspace vault sync option|dendron.topic.config.dendron#workspaceVaultSync]] if it is set.
+
 ### Configuration Examples
 #### Local Vault
 
@@ -147,12 +155,14 @@ vaults:
             type: git
             url: 'git@github.com:kevinslin/dendron-vault.git'
         name: dendron
+        sync: sync
     -
         fsPath: yc-vault
         remote:
             type: git
             url: 'git@github.com:kevinslin/yc-vault.git'
         name: yc
+        sync: noPush
 ```
 
 This will have the following file layout
