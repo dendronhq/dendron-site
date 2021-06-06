@@ -2,7 +2,7 @@
 id: 683740e3-70ce-4a47-a1f4-1f140e80b558
 title: FAQ
 desc: ""
-updated: 1622503815688
+updated: 1622993961248
 created: 1595952505025
 stub: false
 nav_order: 6
@@ -163,7 +163,11 @@ Current tools for Zettelkasten or Notes you can think of as a *one level hierarc
 
 ### Will Dendron ever support folders?
 
-It is possible though most of the approaches we've thought of would take a large amount of effort and deliver questionable benefit on top of what's already planned (for more info, see the discussion [here](https://github.com/dendronhq/dendron/issues/210)). A read only version of Dendron with a folder structure is planned to be supported for the next iteration of the [[Markdown pod|dendron.topic.pod.builtin.markdown.export]].
+It is possible though most of the approaches we've thought of would take a large amount of effort and deliver questionable benefit on top of what's already planned (for more info, see the discussion [here](https://github.com/dendronhq/dendron/issues/210)). 
+
+If you want the ability to collapse folders, you can use the [[dendron tree view|dendron.topic.workbench#dendron-tree-view]]. For existing folder based notes and assets, you can use the [[markdown pod|dendron.topic.pod.builtin.markdown.import]] to import them into Dendron.
+
+At the end of the day, folders are meant to be an implementation detail for dendron. the underlying primitive of a note is an object that has metadata, content, and links. You can think of dendron as a flat file based database and lookup and the tree view as the UI to said database. For use cases involving external tools that require folders, you'll soon be able to use the [markdown export pod|dendron.topic.pod.builtin.markdown.export]] to do just that.
 
 ## Working with Schemas
 

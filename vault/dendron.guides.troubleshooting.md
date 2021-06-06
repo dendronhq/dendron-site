@@ -2,7 +2,7 @@
 id: a6c03f9b-8959-4d67-8394-4d204ab69bfe
 title: Troubleshooting
 desc: ''
-updated: 1622909147762
+updated: 1622990239253
 created: 1595952505025
 ---
 ## Diagnosing
@@ -72,6 +72,12 @@ Delete dendron [[cache|dendron.ref.caching#summary]] files.
 ### Whitelisting localhost
 
 Dendron starts a [[local server|dendron.dev.design#overview]] in the background and the plugin connects to it to index notes. Check that you don't have anything that is running or blocking localhost.
+
+### Correctly Format the Note
+
+Dendron can sometimes fail to load due to a malformed note. Common issues:
+- [[Frontmatter|dendron.topic.frontmatter]] is missing
+- frontmatter has no id
 
 ## Upgrading
 
