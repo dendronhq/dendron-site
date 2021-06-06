@@ -2,7 +2,7 @@
 id: 7c00d606-7b75-4d28-b563-d75f33f8e0d7
 title: Roles
 desc: ""
-updated: 1621279619732
+updated: 1622954219917
 created: 1604237102230
 ---
 
@@ -49,3 +49,7 @@ A **Planter** is a member who published their notes using Dendron
 ## Bug Catcher
 
 A **Bug Catcher** is a member who found a reproducible bug in Dendron.
+
+## Seeder
+
+A **Seeder** is a member who referred a fellow gardener to Dendron.
