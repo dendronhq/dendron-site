@@ -2,7 +2,7 @@
 id: 4039fc46-06b2-4f83-b817-fc490bafbcb3
 title: "14 - The Seed Registry"
 desc: ''
-updated: 1623024491267
+updated: 1623024700568
 created: 1623017672501
 ---
 
@@ -133,7 +133,7 @@ You can disable this behavior by setting [[addAttribution|dendron.rfc.14-seed-re
 
 ## Discussion
 
-## Questions
+All discussions and feedback should be left in this [discussion thread](https://wiki.dendron.so/notes/4039fc46-06b2-4f83-b817-fc490bafbcb3.html)
 
 ## TradeOffs
 - Dendron dependency management is modelled after npm `node_modules`. The benefit is the relatively simple implementation but you can run into latency [issues](https://next.yarnpkg.com/features/pnp) with this approach
