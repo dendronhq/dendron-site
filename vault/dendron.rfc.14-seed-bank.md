@@ -2,7 +2,7 @@
 id: 4039fc46-06b2-4f83-b817-fc490bafbcb3
 title: 14 - The Seed Bank 
 desc: ''
-updated: 1623037767125
+updated: 1623083292826
 created: 1623017672501
 ---
 ## Goals
@@ -119,7 +119,7 @@ You can disable this behavior by setting [[addAttribution|dendron.rfc.14-seed-ba
 
 ## FAQ
 
-![[dendron://dendron-site/dendron.rfc.14-seed-registry.faq]]
+![[dendron://dendron-site/dendron.rfc.14-seed-bank.faq]]
 
 ## Phases
 
