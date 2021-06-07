@@ -2,7 +2,7 @@
 id: 28bc72c6-5d4f-4d7a-abb2-6c1d72f3438a
 title: Release Notes (version 0.45)
 desc: ""
-updated: 1623071867699
+updated: 1623085819848
 created: 1622949548271
 ---
 
@@ -12,7 +12,7 @@ Dendron 0.45 has sprouted 🌱
 
 -   Note graph v2 is in preview (faster, interactive, better looking)
 -   Doctor commands can now be scoped to a workspace or a file.
--   Block references work in preview
+-   Block reference embeds work in preview and when publishing. 
 -   Faster workspace initialization.
 -   Workspace sync improvements
 
@@ -44,3 +44,17 @@ You can see an overview of all roles [[here|dendron.community.roles]]
 ### Changelog
 
 ![[dendron.release.changelog#045,1:#044]]
+
+### Docs 
+
+Our documentation changes a lot week by week. Below is a highlight of some updates from the past week.
+
+- direction
+  - [[Seed bank RFC|dendron.rfc.14-seed-bank]]
+  - [[Updated alternatives list|dendron.alternatives]]
+   
+- dev
+  - [[Block references supported features|dendron.topic.links.block-references]]
+  - [[Hide Block Anchors config|dendron.topic.publishing.configuration]]
+  - [[Workspace Sync Config|dendron.ref.vaults]]
+  - [[Added Noteless to mobile support|dendron.guides.cook]]
