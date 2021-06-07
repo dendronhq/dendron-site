@@ -2,7 +2,7 @@
 id: 28bc72c6-5d4f-4d7a-abb2-6c1d72f3438a
 title: Release Notes (version 0.45)
 desc: ""
-updated: 1623091204000
+updated: 1623095482213
 created: 1622949548271
 ---
 
@@ -39,7 +39,9 @@ A big **thanks** to the following gardeners that brought up issues, contribution
 -   [Kevin Poorman](https://github.com/codefriar) @codefriar#4876
     -   `+taxonomist`
     -   [RFC for Browser Based Dendron](https://github.com/dendronhq/dendron/issues/795)
-        [Marius Müller]() - `bugcatcher` - copyAssets doesn't respect publish config
+- Marius Müller zebrastuhl#6759
+    - `bugcatcher` 
+    - copyAssets doesn't respect publish config
 
 You can see an overview of all roles [[here|dendron.community.roles]]
 

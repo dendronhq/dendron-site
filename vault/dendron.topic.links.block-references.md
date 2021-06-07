@@ -2,7 +2,7 @@
 id: 21bc1caa-d815-42db-bc16-27d6c16a3115
 title: Block References
 desc: ''
-updated: 1623084009090
+updated: 1623095579857
 created: 1622400954171
 ---
 
@@ -12,8 +12,6 @@ created: 1622400954171
 
 Block references let you link or embed blocks of text into different parts of your notes. This allows you to link and refer to any part of a note, including paragraphs, lists, and tables.
 
-^block-ref-example
-
 Currently, we support:
 * navigating to block references by using the [[Goto Note|dendron.topic.commands#goto-note]] command, and by clicking on links while holding down `Ctrl`
 * block references in publishing
@@ -21,6 +19,9 @@ Currently, we support:
 We currently (2021.06.04) **do not** support, but are working on:
 * block references in the preview
 * auto-complete support for block references
+
+^block-ref-example
+
 
 ## Block Anchor
 
@@ -124,7 +125,6 @@ From the header, to the second paragraph:
 
 
 ## Block Reference
-- [[Early Seed 🌱|dendron.ref.status#early-seed-]]
 
 Block References allow you to embed a block in another note. 
 

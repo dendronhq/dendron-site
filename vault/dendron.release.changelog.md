@@ -2,7 +2,7 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ""
-updated: 1623091885216
+updated: 1623095521639
 created: 1601508213606
 date: "2022-01-01"
 ---
@@ -15,12 +15,9 @@ date: "2022-01-01"
 
 #### Native Note Graph
 
-@hfellerhoff
 ![[dendron://dendron-site/dendron.topic.graph-view#summary,1:#RFCs]]
 
 ### Enhancements
-
-@SeriousBug
 
 -   fine grained control for workspace sync ([[docs|dendron.ref.workspace#workspace-sync]])
 -   improved startup speed
@@ -40,7 +37,6 @@ date: "2022-01-01"
 
 #### Block Reference Refs Support
 
-@SeriousBug
 ![[dendron.topic.links.block-references#block-reference,1:#*]]
 
 #### Workspace Vaults
