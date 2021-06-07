@@ -2,7 +2,7 @@
 id: 21bc1caa-d815-42db-bc16-27d6c16a3115
 title: Block References
 desc: ''
-updated: 1623095579857
+updated: 1623096105268
 created: 1622400954171
 ---
 
@@ -127,16 +127,6 @@ From the header, to the second paragraph:
 ## Block Reference
 
 Block References allow you to embed a block in another note. 
-
-### Example
-
-```
-![[#^block-ref-example]]
-```
-
-will render into the following output
-
-![[#^block-ref-example]]
 
 ## Configuration
 - status: [[Work In Progress 🚧|dendron.ref.status#work-in-progress-]]
