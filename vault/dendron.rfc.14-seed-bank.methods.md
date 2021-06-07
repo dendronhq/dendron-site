@@ -2,14 +2,14 @@
 id: 945a1bf2-2d6c-4792-87d0-bf87b7f94182
 title: Methods
 desc: ''
-updated: 1623022471761
+updated: 1623037887619
 created: 1623022056338
 ---
 
 ### add
 
 ```sh
-dendron reg add dendron.dendron-site
+dendron seeds add dendron.dendron-site
 ```
 
 - changes in dendron.yml
@@ -43,7 +43,7 @@ vaults:
 Get information about a seed
 
 ```sh
-dendron reg info dendron.dendron-site
+dendron seeds info dendron.dendron-site
 
 # output
 name: dendron.dendron-site
@@ -63,7 +63,7 @@ dist:
 Publish your own seed to the registry
 
 ```sh
-dendron reg publish 
+dendron seeds publish 
 ```
 
 - NOTE: phase I publishing might involve submitting a pull request
@@ -73,7 +73,7 @@ dendron reg publish
 Get schema for the vault
 
 ```sh
-dendron reg schema dendron.dendron-site
+dendron seeds schema dendron.dendron-site
 
 schemas:
   dendron:
@@ -88,7 +88,7 @@ schemas:
 ### remove
 
 ```sh
-dendron reg remove dendron.dendron-site
+dendron seeds remove dendron.dendron-site
 
 dendron.dendron-site removed
 ```
@@ -97,7 +97,7 @@ dendron.dendron-site removed
 
 ```sh
 # by default, do search
-dendron reg search dendron-site
+dendron seeds search dendron-site
 
 name: dendron.dendron-site
 desc: Documentation for dendron - the hierarchal knowledge base that grows as you do
