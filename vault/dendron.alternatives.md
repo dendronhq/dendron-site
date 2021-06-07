@@ -2,10 +2,10 @@
 id: b33d1803-6e4e-418f-a269-c4d4bde967cf
 title: Dendron Alternatives
 desc: ""
-updated: 1622647860354
+updated: 1622997336593
 created: 1615999699967
 nav_order: 5
-published: false
+published: true
 ---
 
 The main difference between Dendron and almost every other note taking tool can be summed up below. This page is created to dive into additional details of specific tools and for SEO purposes 😅
