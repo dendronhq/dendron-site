@@ -2,7 +2,7 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1622949399803
+updated: 1623084189887
 created: 1601508213606
 date: '2022-01-01'
 ---
@@ -20,7 +20,9 @@ date: '2022-01-01'
 
 ### Enhancements
 @SeriousBug
-- fine grained control for workspace sync ([[docs|dendron.ref.workspace#workspace-sync]]) 
+- fine grained control for workspace sync ([[docs|dendron.ref.workspace#workspace-sync]])
+- improved startup speed
+- block references fully supported in publishing and preview
 @hikchoi
 - toggle scope when running the doctor command ([[plugin docs|dendron.topic.commands#doctor]]) ([[cli docs|dendron.topic.cli#doctor]])
 
