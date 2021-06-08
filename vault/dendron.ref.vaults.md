@@ -177,8 +177,8 @@ This will have the following file layout
 ```yml
 vaults:
     -
-        fsPath: handbook
-        workspace: handbook
+        fsPath: handbook-vault
+        workspace: handbook-workspace
         name: handbook
 workspaces:
     handbook:
@@ -192,7 +192,7 @@ This will have the following file layout
 ```
 .
 └── workspace
-    └── handbook
-        └── handbook
+    └── handbook-workspace
+        └── handbook-vault
 
 ```
