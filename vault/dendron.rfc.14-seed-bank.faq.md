@@ -2,7 +2,7 @@
 id: b33d1ad0-e50e-4af0-9c7c-758baad38e79
 title: Faq
 desc: ''
-updated: 1623097127402
+updated: 1623124067112
 created: 1623021892393
 ---
 
@@ -26,4 +26,19 @@ For the current phase, seeds are un-versioned. When you add a seed, you get the 
 ### Make Contributions to seeds
 
 Because a seed is just a git repo, if it is hosted on github/gitlab, you can use the standard pull request procedure.
+
+## Publishing
+
+### Why be part of the seed bank?
+
+Besides for doing the noble work of spreading knowledge, everyone benefits from a growing seed bank. 
+
+As a publisher:
+- your documentation will be made accessible to all Dendronlogist
+- you will get pull requests from users that are actively engaged with your subject matter
+- for all open source projects, you will receive free hosting with analytics and user feedback
+
+As a consumer:
+- you have online and offline access access to notes that you need
+- you can [[reference|dendron.topic.links.block-references#block-reference]] third material within your own docs
 
