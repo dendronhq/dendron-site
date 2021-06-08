@@ -2,7 +2,7 @@
 id: 773e0b5a-510f-4c21-acf4-2d1ab3ed741e
 title: Style
 desc: ''
-updated: 1622655402360
+updated: 1623124617959
 created: 1609550314371
 ---
 
@@ -48,6 +48,23 @@ function foo(opts: {arg1: string, arg2: string}) {
 }
 // bad
 function foo(arg1: string, arg2: string) {
+}
+```
+
+### prefer `undefined` and `null` over implicitly incorrect values
+
+Type checking can warn you about a potentially undefined value, but not a value that's just implied to be undefined like `""` or `-1`.
+
+```ts
+//good
+function findSomething(...) {
+  if (...) return 4;
+  return undefined; // not found!
+}
+// bad
+function findSomething(...) {
+  if (...) return 4;
+  return -1; // not found!
 }
 ```
 
