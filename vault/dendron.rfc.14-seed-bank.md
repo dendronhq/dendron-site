@@ -2,7 +2,7 @@
 id: 4039fc46-06b2-4f83-b817-fc490bafbcb3
 title: 14 - The Seed Bank 
 desc: ''
-updated: 1623105217406
+updated: 1623199250785
 created: 1623017672501
 ---
 ## Goals
@@ -63,7 +63,7 @@ You are interestd in developing your own vscode plugin but don't know where to s
 1. Look for any existing seeds to do with vscode using the CLI
 
    ```sh
-   dendron reg search vscode
+   dendron seeds search vscode
 
    name: dendron.vscode
    desc: official vscode docs
@@ -71,14 +71,14 @@ You are interestd in developing your own vscode plugin but don't know where to s
 2. Add the docs to your workspace
 
    ```sh
-   dendron reg add dendron.vscode
+   dendron seeds add dendron.vscode
 
    dendron.vscode has been added to your workspace
    ```
 3. Inspect the schema
 
    ```sh
-   dendron reg schema dendron.vscode
+   dendron seeds schema dendron.vscode
 
    # name of the schema 
    project:
@@ -91,6 +91,41 @@ You are interestd in developing your own vscode plugin but don't know where to s
 4. Query the notes
    ```sh
    dendron note lookup --query code.quickstart
+   ```
+5. Resulting configuration
+   - dendron.yml
+   ```yml
+   vaults:
+      # local vaults in your workspace
+      - ...
+      - fsPath: vault
+        seed: dendron.vscode
+   seeds:
+     # newly added seed
+     dendron.vscode:
+   ```
+   - dendorn.code-workspace
+   ```json
+   folders: [
+      {
+         "path": "seeds/dendron.vscode/vault",
+         "name": "dendron.vscode/vault"
+      },
+   ]
+   ```
+   - files
+   ```
+   .
+   └── workspace
+      ├── vault1
+      ├── ...
+      └── seeds
+         └── dendron.vscode
+               ├── dendron.yml
+               └── vault
+                  ├── dendron.md
+                  └── ...
+   
    ```
 
 ## Topics
