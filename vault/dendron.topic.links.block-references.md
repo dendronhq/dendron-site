@@ -2,11 +2,7 @@
 id: 21bc1caa-d815-42db-bc16-27d6c16a3115
 title: Block References
 desc: ''
-<<<<<<< HEAD
-updated: 1623197438246
-=======
 updated: 1623123822915
->>>>>>> master
 created: 1622400954171
 ---
 
