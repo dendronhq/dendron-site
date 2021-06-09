@@ -2,7 +2,7 @@
 id: 773e0b5a-510f-4c21-acf4-2d1ab3ed741e
 title: Style
 desc: ''
-updated: 1623256086446
+updated: 1623256285005
 created: 1609550314371
 ---
 
@@ -22,6 +22,10 @@ Logs are important for debugging and we should strive to have logs that will giv
 
 Raw note objects contain note content which we never want to log. Instead, use [`NoteUtils.toLogObj`](https://github.com/dendronhq/dendron/blob/dev-kevin/packages/common-all/src/dnode.ts#L803:L803) which strips out sensitive fields to the logger. 
 
+
+## Time
+
+We use [`luxon`](https://moment.github.io/luxon/docs/class/src/datetime.js~DateTime.html) for all time related tasks. This is the successor of [`moment.js`](https://sebastiandedeyne.com/moment-js-thank-you-for-your-service/)
 
 
 ## Typescript
