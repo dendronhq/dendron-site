@@ -2,7 +2,11 @@
 id: 21bc1caa-d815-42db-bc16-27d6c16a3115
 title: Block References
 desc: ''
-updated: 1623095579857
+<<<<<<< HEAD
+updated: 1623197438246
+=======
+updated: 1623123822915
+>>>>>>> master
 created: 1622400954171
 ---
 
@@ -12,12 +16,8 @@ created: 1622400954171
 
 Block references let you link or embed blocks of text into different parts of your notes. This allows you to link and refer to any part of a note, including paragraphs, lists, and tables.
 
-Currently, we support:
-* navigating to block references by using the [[Goto Note|dendron.topic.commands#goto-note]] command, and by clicking on links while holding down `Ctrl`
-* block references in publishing
-
 We currently (2021.06.04) **do not** support, but are working on:
-* block references in the preview
+* ~~block references in the preview~~
 * auto-complete support for block references
 
 ^block-ref-example
@@ -61,9 +61,11 @@ Nemo qui voluptatem dolores. ^my-paragraph
 Let's look back at that paragraph: [[#^my-paragraph]]
 ```
 
-## Block Anchor References
+## Block Reference
 
-Block anchors can be used in references as well. Here are a few examples:
+Block References allow you to embed a block marked by an anchor in another note. 
+
+Here are a few examples:
 
 ```
 Ab voluptatem commodi maiores.
@@ -92,7 +94,10 @@ You can reference across notes as well. Say you had a note named "other-note" wh
 ![[other-note#^some-anchor]]
 ```
 
+
 When you refer to a block anchor, it will display the block that the block anchor is attached to. This means you can refer to an entire paragraph, table, list, or even a list item.
+
+## Block Reference Range
 
 You can also refer to block anchors in ranges. This allows you to refer to multiple paragraph, multiple list items etc. using a single reference. Let's look at a few examples of this as well:
 
@@ -124,19 +129,6 @@ From the header, to the second paragraph:
 ```
 
 
-## Block Reference
-
-Block References allow you to embed a block in another note. 
-
-### Example
-
-```
-![[#^block-ref-example]]
-```
-
-will render into the following output
-
-![[#^block-ref-example]]
 
 ## Configuration
 - status: [[Work In Progress 🚧|dendron.ref.status#work-in-progress-]]
