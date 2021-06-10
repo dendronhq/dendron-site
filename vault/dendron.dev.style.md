@@ -2,7 +2,7 @@
 id: 773e0b5a-510f-4c21-acf4-2d1ab3ed741e
 title: Style
 desc: ''
-updated: 1623256285005
+updated: 1623338376137
 created: 1609550314371
 ---
 
@@ -106,3 +106,13 @@ function myFunction(var: MyOptions) {
 ```
 
 This works with properties within objects (e.g. `node.type`) too! One hint is that if the type of the object shows up as `never` in the editor, then you can use this assertion.
+
+### prefer `forEach` when iterating through an array
+
+This is more concise and avoids some [unexpected behaviors](https://thecodebarbarian.com/for-vs-for-each-vs-for-in-vs-for-of-in-javascript.html) that can arise from other methods of iteration.
+
+```ts
+// good
+[1,2,3].forEach(elem => console.log(elem))
+
+```

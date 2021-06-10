@@ -2,7 +2,7 @@
 id: c160ddce-edec-4f6e-841b-418d6030fa37
 title: Design
 desc: ''
-updated: 1621521064335
+updated: 1623338998094
 created: 1598651922993
 stub: false
 ---
@@ -12,16 +12,7 @@ Dendron is composed of three main components and a collection of complementing l
 
 Below is an example of the initialization process
 
-```mermaid
-sequenceDiagram
-    participant plugin
-    participant api server
-    participant engine
-    plugin ->> api server: Initialization
-    api server ->> engine: Initialization
-    engine ->> api server: Init Response
-    api server ->> plugin: Init Response 
-```
+![[dendron://dendron-site/pro.dendron-engine.arch#initialization,1:#*]]
 
 Dendron has a [[CLI|dendron.topic.cli]] that executes the above workflow as well, except replace `plugin` with `cli`. The difference is that the CLI will tear down the server and engine after the command has completed whereas for the plugin, the server and engine run as long as the workspace is active.
 

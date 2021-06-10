@@ -2,29 +2,39 @@
 id: 3b39c820-5250-48f4-935a-284f74a8930e
 title: Configuration
 desc: ''
-updated: 1623198863909
+updated: 1623280754644
 created: 1623095865798
 ---
 
-## Summary
 
-These are new configuration values that will be added to `dendron.yml`
+## seeds.yml
+
+Configuration for seeds are kept in `seeds.yml`. It is located at the root of a vault.
 
 ### name
 - required: true
 
-This is the name of your seed. It has the format `{namespace}.{seed-name}`
+This is the name of your seed. It has the format `{publisher}.{seed-name}`
 
-#### description
+### description
 
 Description of the repository
+
+### publisher
+
+The name of the publisher
+
+### root
+- default: vault
+
+Path to the vault. 
 
 ### version
 - [[Next Phase ⏩|dendron.ref.status#next-phase-]]
 
 The version of this vault. For the initial phase, all seeds will just pull from latest
 
-### author
+### contact
 
 #### name
 
@@ -44,6 +54,10 @@ List of schemas to publish alongside the vault.
 schemas: [dendron-site]
 ```
 
+## dendron.yml
+
+Configuration added to `dendron.yml`
+
 ### seeds
 
 What seeds a workspace depends on. When initializing a workspace with seeds, Dendron will automatically fetch the given vaults.
@@ -59,13 +73,6 @@ Format:
 - default: `root`
 
 Which registry to look at . Currently, the only option is `root` which is the default registry used by Dendron
-
-##### visibility
-- default: `private`
-
-Identical to `visibilty for vaults`. 
-
-![[dendron.ref.vaults#visibility,1:#*]]
 
 ##### addAttribution
 - default: true

@@ -2,7 +2,7 @@
 id: 945a1bf2-2d6c-4792-87d0-bf87b7f94182
 title: Methods
 desc: ''
-updated: 1623037887619
+updated: 1623279631983
 created: 1623022056338
 ---
 
@@ -56,6 +56,21 @@ desc: Documentation for dendron - the hierarchal knowledge base that grows as yo
 url: https://wiki.dendron.so
 dist:
   git: https://github.com/dendronhq/dendron-site.git
+```
+
+
+### init {name}
+
+Initialize a new seed
+
+```
+.
+├── seed.yml
+├── dendron.yml
+├── LICENSE.md
+└── vault
+    ├── root.md
+    └── root.schema.yml
 ```
 
 ### publish
