@@ -2,7 +2,7 @@
 id: eea2b078-1acc-4071-a14e-18299fc28f47
 title: Commands
 desc: ""
-updated: 1622950138782
+updated: 1623379785653
 created: 1595261816971
 ---
 
@@ -95,6 +95,26 @@ Move a note. Also includes option to move a note between vaults
 
 Transform URL in clipboard to nicely formatted markdown link
 
+### Random Note
+
+- [[Early Seed 🌱|dendron.ref.status#early-seed-]]
+
+Navigates to a random note in the workspace. By default, all notes are included in the set that can be navigated to with this command. This can be adjusted with the `randomNote` setting in the Dendron Config (see [[Configure (yaml)|dendron.topic.commands#configure-yaml]]).
+
+```yaml
+# Sample configuration in dendron.yml:
+randomNote:
+    include:
+        - alpha
+        - beta.foo
+    exclude:
+        - alpha.bar
+```
+
+This pattern would specify a set including all notes under `alpha` _except_ for notes in the alpha.bar hierarchy. The set would also include notes under `beta.foo*`.
+
+- If `include` is not specified, then the `include` matching pattern will match all notes.
+- `exclude` takes precedence over `include`, so if the patterns are identical, no notes will match.
 
 ### Rename Note
 
