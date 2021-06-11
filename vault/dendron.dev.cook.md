@@ -2,7 +2,7 @@
 id: a80f36d9-01d0-4c5a-a228-867b093a4913
 title: Cookbook
 desc: ''
-updated: 1623169704023
+updated: 1623431129140
 created: 1599151918645
 stub: false
 ---
@@ -135,7 +135,6 @@ export async function main2() {
       );
       const qs = "dendron.notes"
       const resp = fuse.search(qs)
-      console.log(JSON.stringify(resp, null, 4));
       const numResults = _.size(notes);
       const numHits = _.size(resp);
       const stats = {numResults, numHits};

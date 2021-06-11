@@ -2,7 +2,7 @@
 id: 773e0b5a-510f-4c21-acf4-2d1ab3ed741e
 title: Style
 desc: ''
-updated: 1623338376137
+updated: 1623431388389
 created: 1609550314371
 ---
 
@@ -14,13 +14,6 @@ This page covers code styleguidelines and conventions.
 ## Auto Styling
 We use [eslint](https://eslint.org/) and [prettier](https://prettier.io/) to autoformat all Dendron code before a commit. You can see our styling options [here](https://github.com/dendronhq/dendron/blob/master/.eslintrc.js#L29:L29)
 
-## Logging
-
-Logs are important for debugging and we should strive to have logs that will give enough information that we can debug any errors from the logs alone. Because we're dealing with users personal notes, we also need to ensure not to log any sensitive information.
-
-### Never logging a raw note object
-
-Raw note objects contain note content which we never want to log. Instead, use [`NoteUtils.toLogObj`](https://github.com/dendronhq/dendron/blob/dev-kevin/packages/common-all/src/dnode.ts#L803:L803) which strips out sensitive fields to the logger. 
 
 
 ## Time

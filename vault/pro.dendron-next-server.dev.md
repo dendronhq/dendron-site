@@ -3,7 +3,7 @@ id: 6293d9dc-9bd3-4b01-8428-34d8256f0a32
 title: Dev
 desc: |
   Development related
-updated: 1623430815060
+updated: 1623430829464
 created: 1621630111186
 ---
 
@@ -31,6 +31,7 @@ Next Steps:
 - read the [[architecture|pro.dendron-next-server.arch]] documents to understand how the next server fits in with other Dendron plugins and how to build on top of it
 
 ### PR Checklist
+- see [[Pull Request|dendron.dev.pull-request]]
 - [ ] make sure your UI is compatible with light/dark theme 
 
 ## Remote Development
