@@ -2,7 +2,7 @@
 id: 64f0e2d5-2c83-43df-9144-40f2c68935aa
 title: Setup
 desc: ''
-updated: 1623431679699
+updated: 1623432122509
 created: 1598651458825
 ---
 
@@ -78,6 +78,16 @@ Also note that many objects (eg. commands, pods, etc), have an instance of the l
 Some things to keep in mind:
   - Do not use `console.log` to log data
   - Raw note objects contain note content which we never want to log. Instead, use [`NoteUtils.toLogObj`](https://github.com/dendronhq/dendron/blob/dev-kevin/packages/common-all/src/dnode.ts#L803:L803) which strips out sensitive fields to the logger. 
+
+## Exceptions
+
+When handling a Dendron specific error, use the [DendronError](https://github.com/dendronhq/dendron/blob/dev-joshi/packages/common-all/src/error.ts#L38:L38) class
+
+Some things to keep in mind:
+  - when returning an error from the server, note that you'll need to convert the error to a plain object using [error2PlainObject](https://github.com/dendronhq/dendron/blob/master/packages/common-all/src/error.ts#L110)
+  - when displaying an error in a string, you'll need to convert the error using [stringifyError](https://github.com/dendronhq/dendron/blob/master/packages/common-all/src/error.ts#L106:L106)
+  - whenever possible, attach a [status](https://github.com/dendronhq/dendron/blob/master/packages/common-all/src/constants.ts#L18:L18) to an error
+  - whenever possible, attach a [severity](https://github.com/dendronhq/dendron/blob/master/packages/common-all/src/constants.ts#L45) to an error
 
 ## Project Specific Docs
 ### Working with the API Server
