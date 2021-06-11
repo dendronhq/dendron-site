@@ -2,7 +2,7 @@
 id: f1af56bb-db27-47ae-8406-61a98de6c78c
 title: References
 desc: ''
-updated: 1619551140806
+updated: 1623446290793
 created: 1597356582509
 stub: false
 ---
@@ -10,22 +10,29 @@ stub: false
 ## Summary
 Dendron allows you to reference content from other notes and embed them in your current note.
 
-Currently, Dendron supports 3 types of references:
+Currently, Dendron supports 4 types of references:
 
 - note references
+- header references
 - block references
-- block range references
+- range references
 
 References have the following syntax:
 
 ```
-![[NAME.OF.NOTE]]
+![[name.of.note]]
+```
+
+Here's an example with a block anchor:
+
+```
+![[name.of.note#^important-paragraph]]
 ```
 
 Another example with a header range:
 
 ```
-![[NAME.OF.NOTE#STARTING-HEADER:#ENDING-HEADER]]
+![[name.of.note#starting-header:#ending-header]]
 ```
 
 > NOTE: When referencing headers with spaces in them, the note ref needs to use `-` instead of spaces within the name. This is a limitation of adopting GitHub-style slugger references. This is also useful for when multiple subheaders on a page may have the same name, which would expect something else `#foo` vs. `#foo-1` vs. `#foo-2`. This can be automatically taken care of by highlighting a header, and using `cmd+shift+r` / `ctrl+shift+r` to add a properly-formatted note ref to the clipboard.
@@ -67,7 +74,7 @@ Note that references also respect the wildcard operator. The following example w
 ![[dendron.demo.refs.sample.*]]
 ```
 
-## Block Reference
+## Header Reference
 
 A block reference will include the entire contents of a note starting from a specified heading. 
 
@@ -77,19 +84,29 @@ A block reference will include the entire contents of a note starting from a spe
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/ref-block.gif)
 
+## Block Reference
+
+A block reference will include the contents of a single paragraph, table, list, or a list item. What's referenced depends on where the block anchor is placed, you can find some examples at [[Block References|dendron.topic.links.block-references#block-anchor]].
+
+```
+![[example.my-note#^my-list]]
+```
+
 ## Block Range Reference
 
-A block range reference will include the contents of a note starting from a `start` header and ending at a `end` header. 
+A block range reference will include the contents of a note starting from a `start` header or block anchor, and ending at a `end` header or block anchor. You can also mix headers and block anchors.
 
 ```
 ![[demo.embed.block#head1:#head3]]
+
+![[demo.embed.block#head4:#^some-block]]
 ```
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/ref-block-range.gif)
 
-## Note Reference Offset
+## Header Reference Offset
 
-A note reference offset is a way to skip a number of lines when using a note reference. The syntax is `,{number}`. Below is an example of using a note reference offset to offset an initial heading, skipping the actual header when doing the embeding.
+A note reference offset is a way to skip a number of lines when using a header reference. The syntax is `,{number}`. Below is an example of using a note reference offset to offset an initial heading, skipping the actual header when doing the embeding.
 
 - NOTE: currently, note reference offsets are limited to the first anchor inside a block reference. They must also be a positive value
 
