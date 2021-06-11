@@ -2,7 +2,7 @@
 id: f143ca38-dcc6-4cd3-b84b-997aec1160ef
 title: Rfc
 desc: ""
-updated: 1623072975064
+updated: 1623330370988
 created: 1605539111635
 stub: false
 ---
@@ -99,7 +99,7 @@ point the RFC is 'in review' and may be implemented.
    you're working on a proposal. tracking issue number and `<my-feature>` is the
    rfc title.
 2. Fill in an RFC under the rfc.\* hierarchy on dendron-site. Put care into the
-   details: **We welcome all honest efforts to contribute.**.
+   details: **We welcome all honest efforts to contribute.**. 
 3. Submit a **pull request** with the title `RFC: ### <title>` where ### is the
    tracking issue number and title is the name of the proposal. As a pull
    request the RFC will receive design feedback from the core team and the
