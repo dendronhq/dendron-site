@@ -2,7 +2,7 @@
 id: 3b39c820-5250-48f4-935a-284f74a8930e
 title: Configuration
 desc: ''
-updated: 1623280754644
+updated: 1623342553640
 created: 1623095865798
 ---
 
@@ -53,6 +53,18 @@ List of schemas to publish alongside the vault.
 ```
 schemas: [dendron-site]
 ```
+
+### repository
+
+#### type
+- choices: git
+
+#### url
+- eg: "ssh://git@github.com/dendronhq/dendron.git",
+
+#### directory
+- required: no
+- eg: "packages/common-all"
 
 ## dendron.yml
 
