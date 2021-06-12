@@ -2,7 +2,7 @@
 id: 3abd00eb-1c1e-4253-aaf5-dcbe20c21850
 title: Early Seed
 desc: ''
-updated: 1623460139995
+updated: 1623460596345
 created: 1604539200840
 published: true
 nav_exclude: true
@@ -30,6 +30,12 @@ nav_exclude: true
 ### Bug Fixes
 - published assets now respect vault configuration
 - template error when publishing in windows
+
+### House Cleaning
+- Analytics
+	- we now measure `duration` when installing and upgrading Dendron (see [[docs|dendron.topic.telemetry#installationupgrade]])
+- Deprecation Notices
+	- Dendron Markdown Links is now deprecated and replaced with Dendron's Native Graph Commands. It will be removed July 12, 2021
 
 <!-- ### Bug Fixes
 - `#` in alias can be used again ([#790](https://github.com/dendronhq/dendron/issues/790)) -->
