@@ -2,16 +2,16 @@
 id: 587e6d62-3c5b-49b0-aedc-02f62f0448e6
 title: Graph View
 desc: ""
-updated: 1623091870058
+updated: 1623458582184
 created: 1595120707814
 stub: false
 ---
 
 ## Summary
 
--   Visualize the notes in your workspace in a graph view
--   Click on a node to open up the corresponding note in your workspace
--   Much faster startup times than the legacy note graph
+-   Visualize the notes and schemas in your workspace in a graph view
+-   Click on a node to open up the corresponding note/schema in your workspace
+-   Much faster startup times than the legacy note/schema graph
     -   Scales to virtually any size graph
 
 ## Commands
@@ -23,6 +23,27 @@ Launch the command bar (see [link](https://www.dendron.so/notes/401c5889-20ae-4b
 Click on a node to open up the corresponding note in your workspace.
 
 The note graph currently only supports hierarchical note connections. Future versions of the graph will support linked note connections and the ability to add custom filters and styling to your graph.
+
+### Show Schema Graph V2
+
+Launch the command bar (see [link](https://www.dendron.so/notes/401c5889-20ae-4b3a-8468-269def4b4865.html#launch-the-command-bar) for info): `> Dendron: Show Schema Graph V2`
+
+Click on a node to open up the corresponding schema in your workspace.
+
+The schema graph shows high level connections between a vault's `root` schema and other schemas within the vault. These other schemas may have other nodes connected to them representing additional children of that schema.
+
+## Filter View
+
+In the top left of both the note and schema graphs lives the graph filter view. This UI element contains information about the graph and various filtering options.
+
+### Connections
+
+-   **Hierarchy:** When checked, include hierarchical graph connections
+-   **Links:** When checked, include linked note connections
+
+### Information
+
+Includes various information about the graph, including the number of nodes and connections in the graph. This is primarily for debugging purposes.
 
 ## RFCs
 
