@@ -2,7 +2,7 @@
 id: 587e6d62-3c5b-49b0-aedc-02f62f0448e6
 title: Graph View
 desc: ""
-updated: 1623459941432
+updated: 1623460278975
 created: 1595120707814
 stub: false
 ---
@@ -34,6 +34,7 @@ Click on a node to open up the corresponding schema in your workspace.
 The schema graph shows high level connections between a vault's `root` schema and other schemas within the vault. These other schemas may have other nodes connected to them representing additional children of that schema.
 
 ## Filter View
+- [[Early Seed 🌱|dendron.ref.status#early-seed-]] 
 
 In the top left of both the note and schema graphs lives the graph filter view. This UI element contains information about the graph and various filtering options.
 

@@ -2,7 +2,7 @@
 id: 3abd00eb-1c1e-4253-aaf5-dcbe20c21850
 title: Early Seed
 desc: ''
-updated: 1623459532624
+updated: 1623460139995
 created: 1604539200840
 published: true
 nav_exclude: true
@@ -26,6 +26,10 @@ nav_exclude: true
 ## Enhancements
 - copy note ref will create a block ref and insert block anchors when you have a block element selected ([[docs|dendron.topic.commands#copy-note-ref]])
 - copy note link will create a block link and insert block anchors when you have a block element selected ([[docs|dendron.topic.commands#copy-note-link]])
+
+### Bug Fixes
+- published assets now respect vault configuration
+- template error when publishing in windows
 
 <!-- ### Bug Fixes
 - `#` in alias can be used again ([#790](https://github.com/dendronhq/dendron/issues/790)) -->
