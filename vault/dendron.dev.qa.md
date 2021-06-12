@@ -2,7 +2,7 @@
 id: cb22bd36-d45a-4ffd-a31e-96c4b39cb7fb
 title: Testing
 desc: ''
-updated: 1622898302859
+updated: 1623338579534
 created: 1598654055046
 stub: false
 ---
@@ -128,3 +128,11 @@ Because of the aforementioned issues, we've created the following two classes to
 - NOTE: there are currently multiple versions of this
   - the most current version is `TestPresetEntryV4`
 
+## Cook
+
+### Stubbing dendron.yml in a test
+![[pro.engine-test-utils.cook#stubbing-dendronyml-in-a-test]]
+
+### Creating a mock note
+
+see [this](https://github.com/dendronhq/dendron/blob/dev-kevin/packages/common-test-utils/src/noteUtils.ts#L55:L55)

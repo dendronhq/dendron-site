@@ -2,26 +2,30 @@
 id: 3abd00eb-1c1e-4253-aaf5-dcbe20c21850
 title: Early Seed
 desc: ''
-updated: 1622850994759
+updated: 1623459532624
 created: 1604539200840
 published: true
 nav_exclude: true
 ---
 
-### Features
+## Features
 
-#### Block Reference Refs Support
+### Copy Note Ref Range Selections
+![[dendron.topic.commands#range-selection,1:#*]]
 
-![[dendron.topic.links.block-references#block-reference,1:#*]]
-#### Workspace Vaults
+### Random Note Command 
+![[dendron://dendron-site/dendron.topic.commands#random-note,1:#*]]
 
-![[dendron.ref.vaults#workspace-vault,1:#configuration]]
+### Show Schema Graph V2
+![[dendron.topic.graph-view#show-schema-graph-v2,1:#*]]
 
-### Enhancements
-- faster workspace initialization 
 
-### Bug Fixes
-- tree view not displaying
+### Better Graph Filtering Options
 
-### Docs
-- [[Vaults|dendron.ref.vaults]]
+![[dendron.topic.graph-view#filter-view,1:#rfcs]]
+## Enhancements
+- copy note ref will create a block ref and insert block anchors when you have a block element selected ([[docs|dendron.topic.commands#copy-note-ref]])
+- copy note link will create a block link and insert block anchors when you have a block element selected ([[docs|dendron.topic.commands#copy-note-link]])
+
+<!-- ### Bug Fixes
+- `#` in alias can be used again ([#790](https://github.com/dendronhq/dendron/issues/790)) -->

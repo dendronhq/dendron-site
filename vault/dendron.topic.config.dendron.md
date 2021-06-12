@@ -2,7 +2,7 @@
 id: f83c1d87-eac0-48f3-a5cf-8a69989d8ec1
 title: Dendrons Config
 desc: ''
-updated: 1623008334889
+updated: 1623385344010
 created: 1619539817122
 ---
 
@@ -64,7 +64,6 @@ Disable dendron showing hierarchies on published pages
 
 Determines if dendron pulls in un-initialized [[remote vault|dendron.ref.vaults#remote]] at startup
 
-### noAutoCreateOnDefinition
 - default: true
 
 If a note doesn't exist, don't create it via the `GoToDefinition` 
@@ -72,6 +71,10 @@ If a note doesn't exist, don't create it via the `GoToDefinition`
 ### noXVaultWikiLink
 
 If set, disable [[Cross Vault Links|dendron.topic.links#cross-vault-links]] when using [[Copy Note Link|dendron.topic.commands#copy-note-link]].
+
+### randomNote
+
+Configures the set of notes to include and exclude when using the [[Random Note|dendron.topic.commands#random-note]] command.
 
 ### useContainers
 - default: false

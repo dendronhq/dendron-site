@@ -2,7 +2,7 @@
 id: 23a1b942-99af-45c8-8116-4f4bb7dccd21
 title: Dendron CLI
 desc: ''
-updated: 1620181056680
+updated: 1623122978478
 created: 1600033791071
 ---
 
@@ -301,4 +301,4 @@ Run `git add . && git commit` on all vaults inside the workspace
 
 #### sync
 
-Run `addAndCommit`, `pull`, and `push` on all vaults inside the workspace.
+Run `addAndCommit`, `pull`, and `push` on all vaults inside the workspace. This follows the same configuration as the `Workspace: Sync` command in the extension, see [[Workspace Sync|dendron.ref.workspace#Workspace: Sync]] for details.

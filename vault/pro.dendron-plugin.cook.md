@@ -2,7 +2,7 @@
 id: 04dd9ad8-3d81-4098-a661-21b6acc6f443
 title: Cook
 desc: ''
-updated: 1622403043225
+updated: 1623337814544
 created: 1621721485330
 ---
 
@@ -24,6 +24,10 @@ This goes over adding major feature items to the Dendron Plugin
 6. If it makes sense, add a keyboard shortcut for the command. Make sure it doesn't conflict with an generic VSCode command or existing Dendron commands. You can detect existing keybindings by using the guide [here](https://code.visualstudio.com/docs/getstarted/keybindings#_detecting-keybinding-conflicts)
 7. Add command to `src/commands/index.ts`
 8. Submit pull request
+
+
+Conventions:
+- if your command involves opening a note, also return it in the `CommandOutput` signature. this makes it easy to compose the command as well as test it
 
 ### Create a new Pod
 
@@ -145,6 +149,14 @@ sequenceDiagram
     - NOTE: because we can't simply block on `showQuickInput`, we return a promise that listens to a `lookupProvider` event with the corresponding `id` of the particular command
 
 ## Utilities
+
+### Accessing DendronConfig
+
+There are multiple ways to do this. You should get the config from the workspace instance. 
+
+```ts
+getWs().config
+```
 
 ### Clipboard
 

@@ -2,7 +2,7 @@
 id: a80f36d9-01d0-4c5a-a228-867b093a4913
 title: Cookbook
 desc: ''
-updated: 1622909690167
+updated: 1623431129140
 created: 1599151918645
 stub: false
 ---
@@ -135,7 +135,6 @@ export async function main2() {
       );
       const qs = "dendron.notes"
       const resp = fuse.search(qs)
-      console.log(JSON.stringify(resp, null, 4));
       const numResults = _.size(notes);
       const numHits = _.size(resp);
       const stats = {numResults, numHits};
@@ -256,3 +255,9 @@ echo $HASH_OF_COMMIT >> .git-blame-ignore-revs
 ```
 
 You can see an explanation of how it works [here](https://git-scm.com/docs/git-blame#Documentation/git-blame.txt---ignore-revs-fileltfilegt)
+
+### Adding a new configuration property
+
+Dendron configuration is managed by [DendronConfig](https://github.com/dendronhq/dendron/blob/dev-kevin/packages/common-all/src/types/workspace.ts#L65:L65).
+
+When adding a new configuration, make sure to document it under [[dendrons config|dendron.topic.config.dendron]]

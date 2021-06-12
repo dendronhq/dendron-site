@@ -2,7 +2,7 @@
 id: aa6009e6-db3d-44d8-bc60-723f03c048f7
 title: Internal
 desc: ''
-updated: 1613752914594
+updated: 1623189371298
 created: 1612974783445
 ---
 
@@ -10,6 +10,30 @@ created: 1612974783445
 - [11ty and markdown parsing: I](https://youtu.be/3qWjBh3A55s)
 - [11ty and markdown parsing: II](https://youtu.be/5VJw102iosE)
 - [11ty and markdown parsing: III](https://youtu.be/E5erv3GawAc)
+
+## CLI
+
+- src/commands/build-site-v2.ts
+```ts
+buildNav, copyAssets
+compile
+```
+
+### comiple
+- index.js
+
+```ts
+process.chdir env.cwd
+elev :=
+elev.init
+```
+
+- .eleventy.js
+
+```js
+setTemplateFormats
+
+```
 
 ## Generate notes
 

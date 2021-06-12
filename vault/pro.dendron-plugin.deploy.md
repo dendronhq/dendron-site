@@ -2,7 +2,7 @@
 id: 2976e5df-c8b4-4176-9d3f-fe4220dfa9b6
 title: Deploy
 desc: ''
-updated: 1622945102629
+updated: 1623457293989
 created: 1613863275374
 ---
 
@@ -40,6 +40,9 @@ verdaccio
 
 ./bootstrap/scripts/createBuild.sh
 
+# when releasing inside
+./bootstrap/scripts/createInsider.sh
+
 # when releaseing locally
 ./bootstrap/scripts/createReleaseLocal.sh
 
@@ -62,6 +65,11 @@ git push --set-upstream origin integ-publish --force
 
 # if ui changes
 ./scripts/pullBuildAndSync.sh
+
+# tmp
+./scripts/pullBuild.sh
+./scripts/sync_static.sh
+./scripts/pack_and_install.sh
 ```
 
 - long

@@ -2,7 +2,7 @@
 id: eea2b078-1acc-4071-a14e-18299fc28f47
 title: Commands
 desc: ""
-updated: 1622950138782
+updated: 1623458320313
 created: 1595261816971
 ---
 
@@ -46,7 +46,11 @@ Create a global journal note
   - mac: `cmd+shift+c`
   - when: `editorFocus`
 
-Copy wiki link to note. The title of the note will be applied as the note alias. If you highlighter a header, dendron will create a relative link to the header with the alias set to the header value.
+Copy wiki link to note. The title of the note will be applied as the note alias. If you highlight a header, dendron will create a relative link to the header with the alias set to the header value.
+
+You can also highlight any line of text, and Dendron will create a link to it by inserting a block anchor, or copy an existing anchor.
+
+<a href="https://www.loom.com/share/06d0689d548941219db9708f5b1b70d2"> <img src="https://cdn.loom.com/sessions/thumbnails/06d0689d548941219db9708f5b1b70d2-with-play.gif"> </a>
 
 If you use this command in a [[multi vault|dendron.topic.multi-vault]] workspace, Dendron will create a [[cross vault link|dendron.topic.links#cross-vault-links]] to the note in question.
 
@@ -61,14 +65,28 @@ If you use this command in a [[multi vault|dendron.topic.multi-vault]] workspace
 
 Copies a reference to the current open document
 
-Lets you quickly create a [[note reference|dendron.topic.refs]] to the current note.
+This lets you quickly create a [[note reference|dendron.topic.refs]] to the current note.
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/ref-note.gif)
 
-If you have a header selected while running this command, it will copy the note ref with the selected header to the next note ref
-![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/refs.copy-selection.gif)
+#### Header Selection
+If you have a header selected while running this command, it will copy the note ref with the selected header to the next note ref.
 
+![loom video](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/refs.copy-selection.gif)
+
+#### Block Selection
+- [[Early Seed 🌱|dendron.ref.status#early-seed-]] 
+If you have some text selected, Dendron can insert block anchors to reference the region you have selected.
+
+<div style="position: relative; padding-bottom: 57.78491171749599%; height: 0;"><iframe src="https://www.loom.com/embed/b72a562626a0483f967e724ef8f2d457" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
+#### Range Selection
+- [[Early Seed 🌱|dendron.ref.status#early-seed-]]  
+If you highlight multiple blocks, Dendron can create a range selection that spans the blocks selected. Watch the following video starting at the 10s mark for an example. 
+
+<div style="position: relative; padding-bottom: 57.78491171749599%; height: 0;"><iframe src="https://www.loom.com/embed/b72a562626a0483f967e724ef8f2d457" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
+#### MultiVault
 If you use this command in a [[multi vault|dendron.topic.multi-vault]] workspace, Dendron will create a [[cross vault link|dendron.topic.links#cross-vault-links]] to the note in question.
-
 ### Delete Node
 
 - shortcuts:
@@ -95,6 +113,26 @@ Move a note. Also includes option to move a note between vaults
 
 Transform URL in clipboard to nicely formatted markdown link
 
+### Random Note
+
+- [[Early Seed 🌱|dendron.ref.status#early-seed-]] 
+
+Navigates to a random note in the workspace. By default, all notes are included in the set that can be navigated to with this command. This can be adjusted with the `randomNote` setting in the Dendron Config (see [[Configure (yaml)|dendron.topic.commands#configure-yaml]]).
+
+```yaml
+# Sample configuration in dendron.yml:
+randomNote:
+    include:
+        - alpha
+        - beta.foo
+    exclude:
+        - alpha.bar
+```
+
+This pattern would specify a set including all notes under `alpha` _except_ for notes in the alpha.bar hierarchy. The set would also include notes under `beta.foo*`.
+
+- If `include` is not specified, then the `include` matching pattern will match all notes.
+- `exclude` takes precedence over `include`, so if the patterns are identical, no notes will match.
 
 ### Rename Note
 

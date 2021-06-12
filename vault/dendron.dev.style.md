@@ -2,17 +2,24 @@
 id: 773e0b5a-510f-4c21-acf4-2d1ab3ed741e
 title: Style
 desc: ''
-updated: 1622655402360
+updated: 1623431388389
 created: 1609550314371
 ---
 
 ## Summary
 
-This page covers code styleguidelines We use [prettier](https://prettier.io/) to autoformat the code on every commit which helps with most conventional styling conventions. This page lists some additional conventions not covered by prettier.
+This page covers code styleguidelines and conventions.  
+
 
 ## Auto Styling
-
 We use [eslint](https://eslint.org/) and [prettier](https://prettier.io/) to autoformat all Dendron code before a commit. You can see our styling options [here](https://github.com/dendronhq/dendron/blob/master/.eslintrc.js#L29:L29)
+
+
+
+## Time
+
+We use [`luxon`](https://moment.github.io/luxon/docs/class/src/datetime.js~DateTime.html) for all time related tasks. This is the successor of [`moment.js`](https://sebastiandedeyne.com/moment-js-thank-you-for-your-service/)
+
 
 ## Typescript
 
@@ -51,6 +58,23 @@ function foo(arg1: string, arg2: string) {
 }
 ```
 
+### prefer `undefined` and `null` over implicitly incorrect values
+
+Type checking can warn you about a potentially undefined value, but not a value that's just implied to be undefined like `""` or `-1`.
+
+```ts
+//good
+function findSomething(...) {
+  if (...) return 4;
+  return undefined; // not found!
+}
+// bad
+function findSomething(...) {
+  if (...) return 4;
+  return -1; // not found!
+}
+```
+
 ### prefer compile time checks for exhaustive patterns
 
 If you have a `switch` or a chain of `if ... else if` statements where you check all possible cases, add a static assertion so that if a revision breaks this in the future it will be easily caught.
@@ -75,3 +99,13 @@ function myFunction(var: MyOptions) {
 ```
 
 This works with properties within objects (e.g. `node.type`) too! One hint is that if the type of the object shows up as `never` in the editor, then you can use this assertion.
+
+### prefer `forEach` when iterating through an array
+
+This is more concise and avoids some [unexpected behaviors](https://thecodebarbarian.com/for-vs-for-each-vs-for-in-vs-for-of-in-javascript.html) that can arise from other methods of iteration.
+
+```ts
+// good
+[1,2,3].forEach(elem => console.log(elem))
+
+```
