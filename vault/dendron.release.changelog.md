@@ -2,7 +2,7 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ""
-updated: 1623537022911
+updated: 1623537539610
 created: 1601508213606
 date: "2022-01-01"
 ---
@@ -11,7 +11,7 @@ date: "2022-01-01"
 ## 0.45.3
 ### Enhancements
 - Rename and Refactor will now replace links without formatting the file
-- Dendron respects VSCode Telemetry settgs @kaan
+- Dendron respects VSCode Telemetry settgs 
 - Dendron supports Vscode Workspace Trust Configuration
 ### Bug Fixes
 - Dendron Preview `Go to Text` will sometimes not appear for note references
@@ -20,10 +20,7 @@ date: "2022-01-01"
 - Dendron Preview removes `#` from links
 ### House Cleaning
 - Analytics
-    - Added a `reason` field to `(Enable|Disable)Telemetry` metrics @kaan
-
-### Docs
-
+    - Added a `reason` field to `(Enable|Disable)Telemetry` metrics 
 
 ## 45.2
 ### Features
