@@ -2,10 +2,16 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ""
-updated: 1623095521639
+updated: 1623458726186
 created: 1601508213606
 date: "2022-01-01"
 ---
+
+## 0.45.1
+
+### Bug Fixes
+- published assets now respect vault configuration
+- template error when publishing in windows
 
 ## 0.45
 
