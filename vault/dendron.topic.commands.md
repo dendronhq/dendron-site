@@ -2,7 +2,7 @@
 id: eea2b078-1acc-4071-a14e-18299fc28f47
 title: Commands
 desc: ""
-updated: 1623458320313
+updated: 1623445663476
 created: 1595261816971
 ---
 
@@ -70,8 +70,6 @@ This lets you quickly create a [[note reference|dendron.topic.refs]] to the curr
 
 #### Header Selection
 If you have a header selected while running this command, it will copy the note ref with the selected header to the next note ref.
-
-![loom video](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/refs.copy-selection.gif)
 
 #### Block Selection
 - [[Early Seed 🌱|dendron.ref.status#early-seed-]] 
