@@ -2,7 +2,7 @@
 id: 84df871b-9442-42fd-b4c3-0024e35b5f3c
 title: Telemetry
 desc: ''
-updated: 1621880400034
+updated: 1623460513459
 created: 1619460500071
 ---
 
@@ -65,6 +65,7 @@ When Dendron is first installed or upgraded, we collect information about both p
 |          Field | Attributes | Description                                                                            |
 | -------------: | :--------: | :------------------------------------------------------------------------------------- |
 |      `previousVersion` |  _string_| Previous version of Dendron |
+|      `duration` |  _number_| Number of seconds for startup
 
 ### Lookup
 

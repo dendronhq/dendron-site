@@ -2,11 +2,11 @@
 id: 8bc9b3f1-8508-4d3a-a2de-be9f12ef1821
 title: Tags
 desc: ''
-updated: 1620228719481
+updated: 1623416307214
 created: 1601910058115
 stub: false
 ---
-Besides hierarchies, Dendron also supports tags. We recommend that you use the following syntax for tags:
+Dendron supports tags through a combination of hierarchies and backlinks. We recommend that you use the following syntax for tags:
 
 ```md
 [[tag.foo]]
@@ -14,7 +14,7 @@ Besides hierarchies, Dendron also supports tags. We recommend that you use the f
 
 You get a few advantages for structuring tags in this format.
 
-1. Your tags are just regular hierarchical notes - to find all notes with a particular tag, use the backlink panel
+1. Tags become regular hierarchical notes -  use the backlink panel to find all notes with a particular tag
 2. All the operations on notes and hierarchies apply to tags (eg. Rename, Refactor, etc) and will update both the note and all links 
 3. You can deeply nest tags by adding additional levels to your hierarchies
 4. You can use autocomplete to create tags

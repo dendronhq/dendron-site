@@ -65,18 +65,26 @@ If you use this command in a [[multi vault|dendron.topic.multi-vault]] workspace
 
 Copies a reference to the current open document
 
-Lets you quickly create a [[note reference|dendron.topic.refs]] to the current note.
+This lets you quickly create a [[note reference|dendron.topic.refs]] to the current note.
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/ref-note.gif)
 
-If you have a header selected while running this command, it will copy the note ref with the selected header to the next note ref
-![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/refs.copy-selection.gif)
+#### Header Selection
+If you have a header selected while running this command, it will copy the note ref with the selected header to the next note ref.
 
+#### Block Selection
+- [[Early Seed 🌱|dendron.ref.status#early-seed-]] 
 If you have some text selected, Dendron can insert block anchors to reference the region you have selected.
 
-<a href="https://www.loom.com/share/b72a562626a0483f967e724ef8f2d457"> <img src="https://cdn.loom.com/sessions/thumbnails/b72a562626a0483f967e724ef8f2d457-1623445533618-with-play.gif"> </a>
+<div style="position: relative; padding-bottom: 57.78491171749599%; height: 0;"><iframe src="https://www.loom.com/embed/b72a562626a0483f967e724ef8f2d457" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
+#### Range Selection
+- [[Early Seed 🌱|dendron.ref.status#early-seed-]]  
+If you highlight multiple blocks, Dendron can create a range selection that spans the blocks selected. Watch the following video starting at the 10s mark for an example. 
+
+<div style="position: relative; padding-bottom: 57.78491171749599%; height: 0;"><iframe src="https://www.loom.com/embed/b72a562626a0483f967e724ef8f2d457" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
+#### MultiVault
 If you use this command in a [[multi vault|dendron.topic.multi-vault]] workspace, Dendron will create a [[cross vault link|dendron.topic.links#cross-vault-links]] to the note in question.
-
 ### Delete Node
 
 - shortcuts:
@@ -105,7 +113,7 @@ Transform URL in clipboard to nicely formatted markdown link
 
 ### Random Note
 
-- [[Early Seed 🌱|dendron.ref.status#early-seed-]]
+- [[Early Seed 🌱|dendron.ref.status#early-seed-]] 
 
 Navigates to a random note in the workspace. By default, all notes are included in the set that can be navigated to with this command. This can be adjusted with the `randomNote` setting in the Dendron Config (see [[Configure (yaml)|dendron.topic.commands#configure-yaml]]).
 
