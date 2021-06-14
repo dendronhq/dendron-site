@@ -2,7 +2,7 @@
 id: 683740e3-70ce-4a47-a1f4-1f140e80b558
 title: FAQ
 desc: ""
-updated: 1623009751379
+updated: 1623595726299
 created: 1595952505025
 stub: false
 nav_order: 6
@@ -274,3 +274,12 @@ This can be done with some extensions that are external to Dendron such as:
 3. [text](https://marketplace.visualstudio.com/items?itemName=ivangabriele.vscode-git-add-and-commit)
 
 It is also described in our [[tip|dendron.guides.tips#automate-git-tasks,1:#*]] note.
+
+
+### Dendron 11ty Package Version is Confusing
+
+Dendron 11ty used to be published outside of the monorepo and started with 1.x version whereas the monorepo started with 0.x .
+
+After we synced, we synced 11ty versioning and brought it down to 0.x. every minor release, we also publish the 1.x version of the 11ty package to make it consistent but during patch releases, we just keep the 0.x numbering. 
+
+Its a bit of a hack and something that should go away in July 2021, when we switch to NextJs based publishing. 
