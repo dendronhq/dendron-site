@@ -2,13 +2,13 @@
 id: 12551d19-04c2-4d26-ac1e-d23ff3181a9c
 title: Hooks
 desc: ''
-updated: 1620668712122
+updated: 1623706759532
 created: 1620426131596
 ---
 
 ## Summary
-- status: 
-    - [[Work In Progress 🚧|dendron.ref.status#work-in-progress-]]
+- [[API|dendron.topic.hooks.api#^bPnv52_x]]
+- [[Experimental 🧪|dendron.ref.status#experimental-🧪]]
 
 Hooks allow users to attach custom scripts to various parts of Dendron's lifecycle.
 

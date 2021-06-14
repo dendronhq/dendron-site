@@ -2,7 +2,7 @@
 id: f7ebd4aa-8ba7-4bc5-bd00-a1efc5315f07
 title: Workbench
 desc: ''
-updated: 1623674446476
+updated: 1623706824581
 created: 1595170237255
 stub: false
 ---
@@ -65,6 +65,7 @@ You can see all notes that are linked to the current note via the backlink panel
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/Fullscreen_2_25_21__7_41_PM.jpg)
 
 ## Dendron Calendar View
+- [[Work In Progress 🚧|dendron.ref.status#work-in-progress-]]
 
 The Dendron Calendar View lets you view your daily journal in calendar form.
 

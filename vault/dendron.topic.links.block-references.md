@@ -2,7 +2,7 @@
 id: 21bc1caa-d815-42db-bc16-27d6c16a3115
 title: Block References
 desc: ''
-updated: 1623628831320
+updated: 1623706764735
 created: 1622400954171
 ---
 
@@ -128,7 +128,3 @@ From the header, to the second paragraph:
 ![[#section:#^paragraph-2]]
 ```
 
-
-
-## Configuration
-- status: [[Work In Progress 🚧|dendron.ref.status#work-in-progress-]]
