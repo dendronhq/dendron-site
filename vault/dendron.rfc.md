@@ -2,7 +2,7 @@
 id: f143ca38-dcc6-4cd3-b84b-997aec1160ef
 title: Rfc
 desc: ""
-updated: 1623072975064
+updated: 1623680232045
 created: 1605539111635
 stub: false
 ---
@@ -34,6 +34,7 @@ future state of the system and to discover projects for contribution.
 | [9](https://wiki.dendron.so/notes/d2f8fe67-36c7-4600-b745-c22bdcb5b2cf.html)  | [Note Lifecycle Plugins](https://github.com/dendronhq/dendron/discussions/680) | [@kevin](https://github.com/kevinslin)         | 1️⃣ phase one done |
 | [2](https://wiki.dendron.so/notes/ae4a0c98-e2ea-47e0-8a20-016eba3424be.html)  | [Managed Publishing]()                                                         | [@kevin](https://github.com/kevinslin)         | ✅ done           |
 | [13]()                                                                        | [Todo Notes]()                                                                 | [@kevin](https://github.com/kevinslin)         | draft             |
+| [15]()                                                                        | [Browser Based Dendron]()                                                              | [@kpats](https://github.com/kpathakota)         | draft             |
 
 ## What is an RFC?
 

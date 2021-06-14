@@ -2,7 +2,7 @@
 id: eea2b078-1acc-4071-a14e-18299fc28f47
 title: Commands
 desc: ""
-updated: 1623445663476
+updated: 1623695816376
 created: 1595261816971
 ---
 
@@ -72,13 +72,11 @@ This lets you quickly create a [[note reference|dendron.topic.refs]] to the curr
 If you have a header selected while running this command, it will copy the note ref with the selected header to the next note ref.
 
 #### Block Selection
-- [[Early Seed 🌱|dendron.ref.status#early-seed-]] 
 If you have some text selected, Dendron can insert block anchors to reference the region you have selected.
 
 <div style="position: relative; padding-bottom: 57.78491171749599%; height: 0;"><iframe src="https://www.loom.com/embed/b72a562626a0483f967e724ef8f2d457" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 #### Range Selection
-- [[Early Seed 🌱|dendron.ref.status#early-seed-]]  
 If you highlight multiple blocks, Dendron can create a range selection that spans the blocks selected. Watch the following video starting at the 10s mark for an example. 
 
 <div style="position: relative; padding-bottom: 57.78491171749599%; height: 0;"><iframe src="https://www.loom.com/embed/b72a562626a0483f967e724ef8f2d457" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
@@ -112,8 +110,6 @@ Move a note. Also includes option to move a note between vaults
 Transform URL in clipboard to nicely formatted markdown link
 
 ### Random Note
-
-- [[Early Seed 🌱|dendron.ref.status#early-seed-]] 
 
 Navigates to a random note in the workspace. By default, all notes are included in the set that can be navigated to with this command. This can be adjusted with the `randomNote` setting in the Dendron Config (see [[Configure (yaml)|dendron.topic.commands#configure-yaml]]).
 

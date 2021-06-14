@@ -2,7 +2,7 @@
 id: c8ljkYY3eVkkmTNumc0C7
 title: Airtable
 desc: ''
-updated: 1623502960691
+updated: 1623695829922
 created: 1623502850163
 ---
 
@@ -13,7 +13,6 @@ created: 1623502850163
   - ❌ publish
   - ✅ export
   
-[[Early Seed 🌱|dendron.ref.status#early-seed-]]
 
 ### Export
 
