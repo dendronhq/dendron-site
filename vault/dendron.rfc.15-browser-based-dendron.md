@@ -2,7 +2,7 @@
 id: 65697e1b-ca70-4e6c-be0b-5e977afc9c7d
 title: 15 Browser Based Dendron
 desc: ''
-updated: 1623348402440
+updated: 1623582278354
 created: 1623330279745
 ---
 
@@ -17,7 +17,7 @@ Creating a quick way to launch Dendron with minimal setup will lower the "Time t
 The quickest Dendron needs to run in managed code-server instances
 
 ## Context
-Right now, it requires multiple manual steps to run Dendron detailed [[dendron.tutorial]]. 
+Right now, it requires multiple manual steps to run Dendron detailed in [[Getting Started|dendron.tutorial]]. 
 
 ### References
 - https://github.com/cdr/code-server
