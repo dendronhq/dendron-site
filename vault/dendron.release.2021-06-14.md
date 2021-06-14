@@ -2,7 +2,7 @@
 id: rYFDLOe50uFcfetsuWiGg
 title: Release Notes (version 0.46)
 desc: ''
-updated: 1623673816557
+updated: 1623677556792
 created: 1623536371196
 ---
 
@@ -10,8 +10,13 @@ created: 1623536371196
 Dendron 0.46 has sprouted  🌱
 
 ### Highlights
-- Graph viev now supports schema graph
-	- Filter between a link graph and a hierarchy graph. 
+- Graph view now supports schema graph and filtering between a link graph and a hierarchy graph. 
+- Easier block referencing by supporting block anchors in the existing `Copy Note Link`, `Copy Note Reference` and `Copy Note URL` commands.
+- Note identifier switched to NanoID (makes URLs shorter)
+- Rename and refactor no longer format notes  
+- Random note command - helps review notes you may have lost track of over time.   
+- Telemetry respects vscode preferences
+
 ### Docs
 
 Our documentation changes a lot week by week. Below is a highlight of some updates from the past week.
