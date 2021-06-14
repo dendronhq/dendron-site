@@ -2,7 +2,7 @@
 id: f7ebd4aa-8ba7-4bc5-bd00-a1efc5315f07
 title: Workbench
 desc: ''
-updated: 1623671266535
+updated: 1623674446476
 created: 1595170237255
 stub: false
 ---
@@ -78,7 +78,6 @@ The Dendron Calendar View has the following capabilities:
 - Shows indicators in the form of dots (max 5) to reflect the word count of that entry. Each dot repesents 250 words.
 - Switching between month/year view
 - In a multi-vault workspace it shows the daily journal from the vault associated with the active note
-- Set start of week (eg. `0` for sunday, `1` for monday, `2` for tuesday, etc.) in `dendron.yml` under `dayOfWeek` (default: `1`)
 
 ## Working with Multiple Columns
 
