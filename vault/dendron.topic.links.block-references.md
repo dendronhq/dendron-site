@@ -2,7 +2,7 @@
 id: 21bc1caa-d815-42db-bc16-27d6c16a3115
 title: Block References
 desc: ''
-updated: 1623123822915
+updated: 1623628831320
 created: 1622400954171
 ---
 
@@ -92,6 +92,10 @@ You can reference across notes as well. Say you had a note named "other-note" wh
 
 
 When you refer to a block anchor, it will display the block that the block anchor is attached to. This means you can refer to an entire paragraph, table, list, or even a list item.
+
+Below is an example to a block reference to an earlier part of this page.
+
+![[#^block-ref-example]]
 
 ## Block Reference Range
 
