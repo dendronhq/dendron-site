@@ -2,7 +2,7 @@
 id: rYFDLOe50uFcfetsuWiGg
 title: Release Notes (version 0.46)
 desc: ''
-updated: 1623677556792
+updated: 1623700537335
 created: 1623536371196
 ---
 
@@ -20,12 +20,13 @@ Dendron 0.46 has sprouted  🌱
 ### Docs
 
 Our documentation changes a lot week by week. Below is a highlight of some updates from the past week.
+### [[Pruning ✂️|dendron.ref.status#pruning-️]]
+- [[Legacy Graph View|dendron.topic.graph-view.prune]]
+
 
 ### Ongoing 
--   Last week's [crop](https://github.com/dendronhq/dendron/issues/219) to display ulinked references in the backlinks tab, is going to take some more time. Should be ready by next release.
-
+-   Work on last week's [crop](https://github.com/dendronhq/dendron/issues/219) to underway. Will take a few weeks to sprout but should be ready before July!
 ### Community
-
 #### Office Hours
 
 You can find notes from our latest office hours [[here|dendron.community.office-hours.2021.06.13]]
@@ -35,13 +36,13 @@ You can find notes from our latest office hours [[here|dendron.community.office-
 A big **thanks** to the following gardeners that brought up issues, contributions, and fixes to this release :man_farmer: :woman_farmer: 
 You can see an overview of all roles [[here|dendron.community.roles]]
 
-[Jonathan Yeung](https://github.com/jonathanyeung) mobius#6646
+- [Jonathan Yeung](https://github.com/jonathanyeung) mobius#6646
   - `+horticulturalist`
   - [Random note command](https://github.com/dendronhq/dendron/pull/813)
-[Alexandru Ichim](https://github.com/agichim) ichimga#3577
+- [Alexandru Ichim](https://github.com/agichim) ichimga#3577
   - `+bugcatcher`
   - [Block links not working properly](https://github.com/dendronhq/dendron/issues/817)
-[Bassmann](https://github.com/Bassmann) @Bassmann#5300 
+- [Bassmann](https://github.com/Bassmann) @Bassmann#5300 
   - [Tables in note refs not rendered in preview properly](https://github.com/dendronhq/dendron/issues/815)
 
 ### Changelog

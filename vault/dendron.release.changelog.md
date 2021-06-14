@@ -2,7 +2,7 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ""
-updated: 1623557216014
+updated: 1623700379553
 created: 1601508213606
 date: "2022-01-01"
 ---
@@ -11,17 +11,16 @@ date: "2022-01-01"
 ## 0.45.3
 ### Enhancements
 - Rename and Refactor will now replace links without formatting the file
-- Dendron respects VSCode Telemetry settgs 
-- Dendron supports Vscode Workspace Trust Configuration
+- Dendron respects VSCode Telemetry settgs  ([[docs|dendron.topic.telemetry#how-to-opt-out-of-data-collection]])
 ### Bug Fixes
 - Dendron Preview `Go to Text` will sometimes not appear for note references
 - Dendron Preview links not working in VsCode 1.57
 - Dendron Preview renders the first line of note ref as markdown 
 - Dendron Preview removes `#` from links
 ### House Cleaning
-- Shorter Ids
+- Shorter UUIDs
 - Analytics
-    - Added a `reason` field to `(Enable|Disable)Telemetry` metrics 
+    - Added a `reason` field to `(Enable|Disable)Telemetry` metrics  ([[docs|dendron.topic.telemetry#telemetry-toggle]])
 
 ## 45.2
 ### Features

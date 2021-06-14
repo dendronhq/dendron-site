@@ -2,7 +2,7 @@
 id: 84df871b-9442-42fd-b4c3-0024e35b5f3c
 title: Telemetry
 desc: ''
-updated: 1623697827922
+updated: 1623700308070
 created: 1619460500071
 ---
 
@@ -98,13 +98,15 @@ Events
 ### Telemetry Toggle
 When telemetry is disabled or enabled, we collect information about the event to let us get an estimate of the number of untracked clients
 
+|          Field | Attributes | Description                                                                            |
+| -------------: | :--------: | :------------------------------------------------------------------------------------- |
+|      `reason` |  _enum_| Why telemetry was disabled. See values [here](https://github.com/dendronhq/dendron/blob/master/packages/common-server/src/analytics.ts#L73:L73) |
+
 ## How to opt out of data collection
 
-You can disable telemetry from Dendron either on a per-workspace level or globally. To disable on a workspace level, set [[noTelemetry|dendron.topic.config.dendron#notelemetry]] to `true` in `dendron.yml`.
+If you've disabled telemetry from the [Visual Studio Code Telemetry setting](https://code.visualstudio.com/docs/getstarted/telemetry), no further action is needed. You can set this option in your workspace settings, or user settings.
 
-To disable telemetry across all workspaces, you can run the [[Disable Telemetry|dendron.topic.commands#disable-telemetry]] command.
-
-To disable telemetry for Visual Studio Code as a whole, use the [Visual Studio Code Telemetry setting](https://code.visualstudio.com/docs/getstarted/telemetry). Dendron respects this option, and will disable telemetry if configured. You can set this option in your workspace settings, or user settings.
+To disable telemetry in Dendron specifically, run the [[Disable Telemetry|dendron.topic.commands#disable-telemetry]] command.
 
 ## Why not have opt-in telemetry?
 
