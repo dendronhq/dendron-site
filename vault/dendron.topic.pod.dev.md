@@ -154,9 +154,9 @@ Hello Albert
 Pods have full access to all the metadata attached to a note. You can see the pod arguments below
 ![[dendron.topic.pod.sdk#plantopts-publishpodplantoptst,1]]
 
-TODO - You can see an example of this [[here|pro.devto-pod]]
+TODO - You can see an example of this [[here|pkg.devto-pod]]
 
 ### Using Typescript
 
-TODO - You can see an example of this [[here|pro.devto-pod]]
+TODO - You can see an example of this [[here|pkg.devto-pod]]
 

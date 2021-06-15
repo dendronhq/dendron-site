@@ -51,7 +51,7 @@ Dendron currently supports a node minimum runtime of v12 which means javascript 
 
 We also have an escape hatch for non-javascript executables using [execa](#execacommandcommand-options) to execute an existing binary. Note that you'll have to pass in the note object yourself to the given binary. 
 
-You can see the example of a note object [[here|pro.dendron-engine.ref.note-response]]
+You can see the example of a note object [[here|pkg.dendron-engine.ref.note-response]]
 
 ## Example
 

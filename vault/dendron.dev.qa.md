@@ -101,7 +101,7 @@ Testing the engine in Dendron involves a little bit of setup because:
 
 - it requires initializing the engine and seeding it with the right fixture for the test
 - it might require the same functionality be tested in multiple environments (plugin, CLI, server, engine, etc)
-- it might require using multiple test runners (dendron uses `jest` for all tests except for the [[dendron plugin|dendron.dev.design#dendron-plugin]] which uses [[mocha|pro.dendron-plugin.qa#test-runner]])
+- it might require using multiple test runners (dendron uses `jest` for all tests except for the [[dendron plugin|dendron.dev.design#dendron-plugin]] which uses [[mocha|pkg.dendron-plugin.qa#test-runner]])
 
 Because of the aforementioned issues, we've created the following two classes to make testing easier and re-usable across environments.
 
@@ -131,7 +131,7 @@ Because of the aforementioned issues, we've created the following two classes to
 ## Cook
 
 ### Stubbing dendron.yml in a test
-![[pro.engine-test-utils.cook#stubbing-dendronyml-in-a-test]]
+![[pkg.engine-test-utils.cook#stubbing-dendronyml-in-a-test]]
 
 ### Creating a mock note
 

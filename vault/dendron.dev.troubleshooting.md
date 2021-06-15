@@ -11,4 +11,4 @@ created: 1620686948200
 
 ### Remove the `lib` folder
 
-After a major refactor, you might need to clean out the `lib` folder. For [[Dendron Plugin|pro.dendron-plugin]], this would be the `out` folder.
+After a major refactor, you might need to clean out the `lib` folder. For [[Dendron Plugin|pkg.dendron-plugin]], this would be the `out` folder.

@@ -102,7 +102,7 @@ Create new note from a selection
 
 ### Dendron Snippet Maker
 
-![[pro.dendron-snippet-maker]]
+![[pkg.dendron-snippet-maker]]
 
 ### Enhancements
 

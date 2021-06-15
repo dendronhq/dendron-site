@@ -12,8 +12,8 @@ If you would like to contribute to the development of dendron, checkout out the 
 You can then follow the [[setup instructions|dendron.dev.setup#getting-started]].
 
 - NOTE: the above setup instructions are for the dendron plugin. See the below links if you are working on a different part of Dendron: 
-  - [[Markdown Preview|pro.dendron-preview.setup]]
-  - [[Markdown Links|pro.markdown-links.setup]]
+  - [[Markdown Preview|pkg.dendron-preview.setup]]
+  - [[Markdown Links|pkg.markdown-links.setup]]
 
 A great place to start is with issues labelled with the [size.small label](https://github.com/dendronhq/dendron/labels/size.small) on github. These are small, self contained tasks that are well suited for first time contributors.
 

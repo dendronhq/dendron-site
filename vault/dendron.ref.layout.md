@@ -32,7 +32,7 @@ stub: false
 - dendron.yml 
   - dendron specific settings
 - .dendron.port
-  - writes the port that the [[dendron engine|pro.dendron-engine]] is listening to
+  - writes the port that the [[dendron engine|pkg.dendron-engine]] is listening to
 - .dendron.meta
   - writes dendron specific metadata
 - .gitignore
