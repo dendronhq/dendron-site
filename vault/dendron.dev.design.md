@@ -2,7 +2,7 @@
 id: c160ddce-edec-4f6e-841b-418d6030fa37
 title: Design
 desc: ''
-updated: 1623338998094
+updated: 1623770016571
 created: 1598651922993
 stub: false
 ---
@@ -62,4 +62,4 @@ This is common utilities that are used by server-side versions of Dendron (curre
 This package lets you access Dendron via CLI. 
 
 ## Next
-- You can see the full list of projects as well as detailed documentation [[here|pro]]
+- You can see the full list of packages as well as detailed documentation [[here|pkg]]
