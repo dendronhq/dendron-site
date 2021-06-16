@@ -2,7 +2,7 @@
 id: icBBwbAFLyjsRLheSJkAp
 title: 0 3 X
 desc: ''
-updated: 1623536578140
+updated: 1623882388128
 created: 1623536565649
 ---
 
@@ -33,7 +33,7 @@ With this release of Dendron, we've added limited telemetry that is opt-out by d
 
 This is to help us understand how many people are using Dendron as well as measure the impact on performance when we introduce new features. We **do not and will never** read the data inside **your notes**.
 
-You can see the full list of information we collect and why we do it in our [[telemetry documentation|dendron.topic.telemetry]] as well as instructions on how to opt out of telemetry.
+You can see the full list of information we collect and why we do it in our [[telemetry documentation|dendron.ref.telemetry]] as well as instructions on how to opt out of telemetry.
 
 ---
 

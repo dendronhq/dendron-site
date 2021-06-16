@@ -2,7 +2,7 @@
 id: eea2b078-1acc-4071-a14e-18299fc28f47
 title: Commands
 desc: ""
-updated: 1623695816376
+updated: 1623882388124
 created: 1595261816971
 ---
 
@@ -322,11 +322,11 @@ Parameters:
 
 ### Disable Telemetry
 
-Disable [[telemetry|dendron.topic.telemetry]] across all workspaces with Dendron
+Disable [[telemetry|dendron.ref.telemetry]] across all workspaces with Dendron
 
 ### Enable Telemetry
 
-Enable [[telemetry|dendron.topic.telemetry]] across all workspaces with Dendron
+Enable [[telemetry|dendron.ref.telemetry]] across all workspaces with Dendron
 
 ### Vault Add
 

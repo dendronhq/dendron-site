@@ -33,7 +33,7 @@ nav_exclude: true
 
 ### House Cleaning
 - Analytics
-	- we now measure `duration` when installing and upgrading Dendron (see [[docs|dendron.topic.telemetry#installationupgrade]])
+	- we now measure `duration` when installing and upgrading Dendron (see [[docs|dendron.ref.telemetry#installationupgrade]])
 - Deprecation Notices
 	- Dendron Markdown Links is now deprecated and replaced with Dendron's Native Graph Commands. It will be removed July 12, 2021
 

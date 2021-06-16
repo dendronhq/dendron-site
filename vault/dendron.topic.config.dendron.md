@@ -2,7 +2,7 @@
 id: f83c1d87-eac0-48f3-a5cf-8a69989d8ec1
 title: Dendrons Config
 desc: ''
-updated: 1623674615775
+updated: 1623882388137
 created: 1619539817122
 ---
 
@@ -51,7 +51,7 @@ Disable dendron legacy note refs
 
 ### noTelemetry
 
-Disable [[telemetry|dendron.topic.telemetry]]
+Disable [[telemetry|dendron.ref.telemetry]]
 
 ### hierarchyDisplay
 - default: true
