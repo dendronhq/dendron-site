@@ -2,7 +2,7 @@
 id: 3be48b69-76e1-495e-9314-cae2fe22813d
 title: Status
 desc: ''
-updated: 1623706800570
+updated: 1623882588321
 created: 1615522130919
 ---
 
@@ -23,7 +23,7 @@ Sometimes, you'll see a `status` underneath certain features or options. This pa
 
 ### Early Seed 🌱
 
-The feature or option was recently added and might only be available in Dendron's [[early seed release|dendron.ref.terms#early-seed-release]]
+The feature or option was recently added and might only be available in Dendron's [[early seed release|dendron.ref.terms#early-seed-release]]. Early seed features are considured beta and may change at any time.
 
 ### Experimental 🧪 
 
