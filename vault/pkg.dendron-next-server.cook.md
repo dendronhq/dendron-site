@@ -2,7 +2,7 @@
 id: 1698aef0-efd4-4c92-a3b0-5ca702b228a3
 title: Cook
 desc: ''
-updated: 1623430518653
+updated: 1623805397139
 created: 1621376746723
 ---
 
@@ -16,7 +16,6 @@ created: 1621376746723
 - Instructions for updating the theme were originally obtained from [this guide](https://dev.to/joserfelix/dynamic-theme-switching-in-ant-design-how-to-change-between-light-and-dark-themes-5b8p)
 
 ### Integrating a view with the plugin
-
 - see [here](https://github.com/dendronhq/dendron/blob/master/packages/plugin-core/src/commands/ConfigureWithUI.ts#L22:L22) for integrating a command with the web ui
 
 ### Integrating a tree view with the plugin

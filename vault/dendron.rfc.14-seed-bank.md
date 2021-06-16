@@ -2,7 +2,7 @@
 id: 4039fc46-06b2-4f83-b817-fc490bafbcb3
 title: 14 - The Seed Bank 
 desc: ''
-updated: 1623199250785
+updated: 1623797749253
 created: 1623017672501
 ---
 ## Goals
@@ -156,9 +156,9 @@ You can disable this behavior by setting [[addAttribution|dendron.rfc.14-seed-ba
 
 ### Phase I
 
-- [ ] add registry [[configuration|dendron.rfc.14-seed-bank.configuration]] to `dendron.yml`
-- [ ] add registry [[methods|dendron.rfc.14-seed-bank.methods]] to dendron cli
-- [ ] add seed resolution logic when dendron initializes workspaces with seeds
+- [x] add registry [[configuration|dendron.rfc.14-seed-bank.configuration]] to `dendron.yml` [2021-06-15 15:55]
+- [x] add registry [[methods|dendron.rfc.14-seed-bank.methods]] to dendron cli [2021-06-15 15:55]
+- [x] add seed resolution logic when dendron initializes workspaces with seeds [2021-06-15 15:55]
 
 ### Phase II
 
