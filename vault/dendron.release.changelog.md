@@ -2,10 +2,36 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ""
-updated: 1623700379553
+updated: 1623882160564
 created: 1601508213606
 date: "2022-01-01"
 ---
+
+## 0.46.1
+
+### Features
+- Dendron Seed Bank Preview - docs: @kevin
+
+#### Calendar View
+![[dendron://dendron-site/dendron.ref.web-ui#dendron-calendar-view,1:#*]]
+
+#### Airtable Pod
+![[dendron://dendron-site/dendron.topic.pod.builtin.airtable.export#summary,1:#*]]
+
+#### Find missing links Command
+
+### Enhancements
+
+### Bug Fixes
+- tree view shows error on rename
+
+### Pruning
+
+### House Cleaning
+- webUI is enabled by default, to disable set `disableWebUI` to `true`
+
+### Docs
+
 
 ## 0.46
 ## 0.45.3

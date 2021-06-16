@@ -2,10 +2,20 @@
 id: a80f36d9-01d0-4c5a-a228-867b093a4913
 title: Cookbook
 desc: ''
-updated: 1623431129140
+updated: 1623871770846
 created: 1599151918645
 stub: false
 ---
+
+### Building from clean repo
+
+Sometimes you'll need to rebuild the workspace from scratch. Run the following command to do so
+
+```
+./bootstrap/scripts/cleanup.sh
+yarn setup
+```
+
 ### Install a new package
 
 Because Dendron is packaged as a mono repo managed using [lerna](https://github.com/lerna/lerna), you can't just do a regular `yarn add` to install new packages. This is because lerna symlinks mono-repo dependencies together and a `yarn add` would override that. Instead, use the following command:

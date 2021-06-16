@@ -2,7 +2,7 @@
 id: 25287595-96bb-410b-ab46-eb9a26b0e259
 title: Web UI
 desc: ''
-updated: 1623814389922
+updated: 1623882037732
 created: 1621552722494
 ---
 
@@ -21,6 +21,22 @@ To get started, set [[enableWebUI|dendron.topic.config.dendron#enablewebui]] to 
 ### TreeView
 
 This is an implementation of the [[Dendron Tree View|dendron.topic.workbench#dendron-tree-view]] using the Dendron Web UI. 
+
+### Dendron Calendar View
+- [[Work In Progress 🚧|dendron.ref.status#work-in-progress-]]
+
+The Dendron Calendar View lets you view your daily journal in calendar form.
+
+<a href="https://www.loom.com/share/f506aab0f6eb44fc8cd4dc79a367a309"><img src="https://cdn.loom.com/sessions/thumbnails/f506aab0f6eb44fc8cd4dc79a367a309-with-play.gif"></a>
+
+The Dendron Calendar View has the following capabilities:
+
+- Clicking on a given day date will open the corresponding dayil journal note
+- Clicking on a given day without a daily journal note will create one
+- Days without daily journal note are grayed out and days that contain an entry are displayed in white.
+- Shows indicators in the form of dots (max 5) to reflect the word count of that entry. Each dot repesents 250 words.
+- Switching between month/year view
+- In a multi-vault workspace it shows the daily journal from the vault associated with the active note
 
 ## Theming
 
