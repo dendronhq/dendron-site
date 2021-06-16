@@ -2,7 +2,7 @@
 id: 1698aef0-efd4-4c92-a3b0-5ca702b228a3
 title: Cook
 desc: ''
-updated: 1623805397139
+updated: 1623864400684
 created: 1621376746723
 ---
 
@@ -100,3 +100,9 @@ Look for the following html in the webview debugger.
    # for example, if you launched the engine at /user/adam/workspace, WORKSPACE should equal /user/adam/workspace
    http://localhost:3000/vscode/sample?ws=$WORKSPACE&port=$PORT
    ```
+
+### Use Redux Dev Tools
+
+The developer tools inside VSCode is limited. If you want to use all the power of chrome when debugging, you'll want to visit the webview using chrome.
+
+See [[instructions|pkg.dendron-next-server.dev#^MgEdJdyD]] for connecting to a workspace using the browser

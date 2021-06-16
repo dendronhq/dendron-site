@@ -2,9 +2,14 @@
 id: 5ca2fe99-0abc-413d-aa06-50f9a66e13e0
 title: Troubleshooting
 desc: ''
-updated: 1612282296770
+updated: 1623863531700
 created: 1609525003662
 ---
+
+## Diagnostics
+
+## Issues
+
 ### Site Preview shows "Cannot Get/"
 
 Causes:
@@ -17,10 +22,7 @@ Diagnosis:
 1. Check if something is running on port 8080 and close it
 2. Check if your firewall is blocking port 8080
    - [windows](https://windowsreport.com/is-windows-firewall-blocking-port-program/)
-
-### Changes to vault files are not reflected in preview
-
-In order to get an updated site preview, you currently need to restart VSCode.
+3. See [[Inspect and Kill Existing Process|dendron.topic.publishing.troubleshooting#inspect-and-kill-existing-process]] for more details
 
 ### Certain hierarchies are not appearing
 
@@ -73,3 +75,26 @@ This could be due to multiple reasons:
 - Make sure that `package.json` is not open during installation (you might see `operation not permitted` on windows)
 ```
 
+## Fixes
+
+### Inspect and Kill Existing Process
+
+Dendron runs the preview on port 8080. Make sure you don't have something already running there.
+
+- windows
+```powershell
+# get ids of processes
+Get-Process -Id (Get-NetTCPConnection -LocalPort 8080).OwningProcess
+
+# if you see any result, you can stop them using the following command
+Stop-process -Id {IDS_FROM_ABOVE}
+```
+
+- linux
+```bash
+# get ids
+lsof -l -n -P -i tcp:8080 
+
+# kill
+kill -9 {IDS}
+```
