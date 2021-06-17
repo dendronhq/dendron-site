@@ -37,7 +37,7 @@ Know that you'll be coming in at the ground level - Dendron launched last summer
 
 ## What we offer
 - real salaries and meaningful equity
-- work that's in the open (dendron is open source so you'll be able to share and talk about what your building)
+- work that's in the open (dendron is open source so you'll be able to share and talk about what you are building)
 - a remote first workplace
 - a chance to make a meaningful difference in the world
 
