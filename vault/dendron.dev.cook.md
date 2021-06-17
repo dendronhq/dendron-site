@@ -2,7 +2,7 @@
 id: a80f36d9-01d0-4c5a-a228-867b093a4913
 title: Cookbook
 desc: ''
-updated: 1623871770846
+updated: 1623950644059
 created: 1599151918645
 stub: false
 ---
@@ -268,6 +268,4 @@ You can see an explanation of how it works [here](https://git-scm.com/docs/git-b
 
 ### Adding a new configuration property
 
-Dendron configuration is managed by [DendronConfig](https://github.com/dendronhq/dendron/blob/dev-kevin/packages/common-all/src/types/workspace.ts#L65:L65).
-
-When adding a new configuration, make sure to document it under [[dendrons config|dendron.topic.config.dendron]]
+![[dendron://dendron-site/pkg.dendron-plugin.cook#adding-a-new-config,1:#*]]

@@ -2,7 +2,7 @@
 id: 04dd9ad8-3d81-4098-a661-21b6acc6f443
 title: Cook
 desc: ''
-updated: 1623337814544
+updated: 1623950890750
 created: 1621721485330
 ---
 
@@ -38,11 +38,11 @@ Conventions:
 
 ### Adding a new config
 
-`dendron.yml` configuration is determined by `plugin-core/src/types.ts`.
+Dendron configuration is managed by [DendronConfig](https://github.com/dendronhq/dendron/blob/dev-kevin/packages/common-all/src/types/workspace.ts#L65:L65).
 
 Whenever you add a new entry with a default, make sure to do the following as well.
-
 - [ ] update `Extension.test.ts` (we have a test that checks for default config values that will break)
+- [ ] document it under [[dendron config|dendron.topic.config.dendron]]
 
 ### Add a new button
 
@@ -149,6 +149,12 @@ sequenceDiagram
     - NOTE: because we can't simply block on `showQuickInput`, we return a promise that listens to a `lookupProvider` event with the corresponding `id` of the particular command
 
 ## Utilities
+
+### Getting DendronEngine
+
+```ts
+getWS().engine
+```
 
 ### Accessing DendronConfig
 
