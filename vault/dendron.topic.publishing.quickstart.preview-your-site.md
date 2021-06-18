@@ -33,7 +33,7 @@ npm install @dendronhq/dendron-11ty@latest
 
 ### Local Preview
 
-After you have your dependencies installed, build your your site using the following command inside your workspace root.
+After you have your dependencies installed, build your site using the following command inside your workspace root.
 
 ```bash
 npx dendron buildSite  --stage dev --serve
