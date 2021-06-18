@@ -37,7 +37,7 @@ It should be possible to import/export your data from/to any other source where 
 
 ### Open and Inclusive
 
-Dendron is a tool for **all users** that are interested in creating, building, using, and sharing knowledge. full stop. 
+Dendron is a tool for **all users** that are interested in creating, building, using, and sharing knowledge. Full stop. 
 
 ### Have it in writing
 
