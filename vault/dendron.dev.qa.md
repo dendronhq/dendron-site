@@ -2,7 +2,7 @@
 id: cb22bd36-d45a-4ffd-a31e-96c4b39cb7fb
 title: Testing
 desc: ''
-updated: 1624029979690
+updated: 1624056347788
 created: 1598654055046
 stub: false
 ---
@@ -88,6 +88,37 @@ dev:
     nextServerUrl: 'http://localhost:3000'
     engineServerPort: 3005
 ```
+
+### Stubs
+We use [sinonjs](https://sinonjs.org/) to stub test methods. 
+
+If you use sinon, don't forget to call `sinon.restore` so that stubs don't leak into subsequent tests.
+
+When stubbing tests in the plugin, we following the following pattern
+```ts
+suite("some test", function() {
+  let ctx: vscode.ExtensionContext;
+  ctx = setupBeforeAfter(this, {
+    afterHook: () => {
+      sinon.restore();
+    },
+  });
+
+  it("test", (done) => {
+    sinon.stub(...);
+    done();
+  });
+
+})
+```
+
+When stubbing test any other code, add an `afterEach` block.
+```ts
+afterEach(()=> {
+  sinon.restore()
+});
+```
+
 
 ## Debugging Tests
 

@@ -2,7 +2,7 @@
 id: f83c1d87-eac0-48f3-a5cf-8a69989d8ec1
 title: Dendrons Config
 desc: ''
-updated: 1624036143100
+updated: 1624056467973
 created: 1619539817122
 ---
 
@@ -109,9 +109,8 @@ See [[workspace sync configuration options|dendron.ref.workspace#configuration-o
 Sets the [[synchronization strategy|dendron.ref.workspace#Workspace: Sync]] for [[workspace vaults|dendron.ref.vaults#workspace-vault]]. For regular vaults, please use the [[per-vault configuration|dendron.ref.vaults#sync]].
 
 ### dayOfWeek
-- default: 0
 
-Set start of week (eg. `0` for sunday, `1` for monday, `2` for tuesday, etc.)  for the [[Dendron Calendar View|dendron.topic.workbench#dendron-calendar-view]]
+![[dendron://dendron-site/dendron.ref.web-ui#dayofweek,1:#*]]
 
 ### defaultDailyJournalVault
 
