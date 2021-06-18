@@ -2,7 +2,7 @@
 id: a49370b7-fe61-4174-bf85-f67d15fa35ff
 title: Qa
 desc: ''
-updated: 1614837591776
+updated: 1623965848061
 created: 1614837254472
 ---
 
@@ -10,3 +10,8 @@ created: 1614837254472
 To debug specific dendron-cli commands, run a CLI [[tasks|dendron.dev.ref.vscode#tasks]] from `dendron-cli/.vscode/tasks.json`
 
 See the `build-site` inside `tasks.json` for an example.
+
+Alternatively, you can use the following in the CLI
+```sh
+node --inspect-brk $ROOT/packages/dendron-cli/lib/bin/dendron.js 
+```

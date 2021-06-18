@@ -2,7 +2,7 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1623883440668
+updated: 1623952142991
 created: 1601508213606
 date: '2022-01-01'
 ---
@@ -25,6 +25,7 @@ date: '2022-01-01'
 
 ### Enhancements
 - check and initialize empty seeds on opening workspace
+- Hover displays targeted area for links with #headers and #^anchors
 
 ### Bug Fixes
 - tree view shows error on rename
