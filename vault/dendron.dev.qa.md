@@ -2,7 +2,7 @@
 id: cb22bd36-d45a-4ffd-a31e-96c4b39cb7fb
 title: Testing
 desc: ''
-updated: 1623868009079
+updated: 1624029979690
 created: 1598654055046
 stub: false
 ---
@@ -147,3 +147,10 @@ Because of the aforementioned issues, we've created the following two classes to
 ### Creating a mock note
 
 see [this](https://github.com/dendronhq/dendron/blob/dev-kevin/packages/common-test-utils/src/noteUtils.ts#L55:L55)
+
+### Updating test snapshots
+
+We make frequent use of jest [snapshots](https://jestjs.io/docs/snapshot-testing) in our testing. These snapshots will fail the test if the output of a command changes. If you intend to change the output, run the following command:
+
+1. Use command prompt and run `> Tasks: Run tasks`
+2. Find the appropriate package and run `> test:all engine-test-utils`

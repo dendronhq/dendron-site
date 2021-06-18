@@ -2,7 +2,7 @@
 id: 64f0e2d5-2c83-43df-9144-40f2c68935aa
 title: Setup
 desc: ''
-updated: 1623996396658
+updated: 1624030043747
 created: 1598651458825
 ---
 
@@ -61,7 +61,7 @@ If you are developing Dendron in a remote environment using VSCode, see addition
 
 1. Checkout a feature branch for your task
 1. Work on code
-1. Submit a pull request before end of the week
+1. Submit a [[pull Request|dendron.dev.pull-request]] 
 
 ## Logging
 
