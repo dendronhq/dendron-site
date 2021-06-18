@@ -2,7 +2,7 @@
 id: d95b93bf-5e6f-4dd0-b7d7-c8e29e061876
 title: Install Dendron
 desc: ''
-updated: 1620596297783
+updated: 1623981567828
 created: 1595537796868
 ---
 
@@ -12,11 +12,11 @@ After you have downloaded the plugin, following the instructions to create your 
 
 ## Initialize your workspace
 
-1. With VSCode in focus, launch the _command bar_:
+1. With VSCode in focus, launch the _command palette_:
 
-![[dendron.guides.cook#launch-the-command-bar,1:#*]]
+![[dendron.guides.cook#launch-the-command-palette,1:#*]]
 
-2. Paste the following command and press `Enter`: 
+2. Paste the following command and press `Enter`:
 
 ```bash
 > Dendron: Initialize Workspace
