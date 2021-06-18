@@ -2,7 +2,7 @@
 id: 05774b2e-ebf7-4bbc-8171-ad191ba0ae0a
 title: "Welcome to Dendron \U0001F332"
 desc: ''
-updated: 1608485512294
+updated: 1623921360121
 created: 1598457956604
 stub: false
 nav_exclude: true
@@ -21,7 +21,7 @@ We call this the [hierarchy first approach](https://www.kevinslin.com/notes/3dd5
 
 ## How do I get started?
 
-1. Launch the _command bar_ inside vscode:
+1. Launch the _command palette_ inside vscode:
    - Linux: `Ctrl+Shift+P`
    - macOS: `Cmd+Shift+P`
    - Windows: `Ctrl+Shift+P`

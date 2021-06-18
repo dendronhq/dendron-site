@@ -2,7 +2,7 @@
 id: 587e6d62-3c5b-49b0-aedc-02f62f0448e6
 title: Graph View
 desc: ""
-updated: 1623699810447
+updated: 1623981565964
 created: 1595120707814
 stub: false
 ---
@@ -18,7 +18,7 @@ stub: false
 
 ### Show Note Graph V2
 
-Launch the command bar (see [[docs|dendron.guides.cook#launch-the-command-bar]]): `> Dendron: Show Note Graph V2`
+Launch the command palette (see [[docs|dendron.guides.cook#launch-the-command-palette]]): `> Dendron: Show Note Graph V2`
 
 Click on a node to open up the corresponding note in your workspace.
 
@@ -26,7 +26,7 @@ The note graph currently only supports hierarchical note connections. Future ver
 
 ### Show Schema Graph V2
 
-Launch the command bar (see [[docs|dendron.guides.cook#launch-the-command-bar]]): `> Dendron: Show Schema Graph V2`
+Launch the command palette (see [[docs|dendron.guides.cook#launch-the-command-palette]]): `> Dendron: Show Schema Graph V2`
 
 Click on a node to open up the corresponding schema in your workspace.
 
