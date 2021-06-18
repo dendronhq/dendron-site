@@ -12,8 +12,8 @@ Frontmatter is [YAML](https://yaml.org/) that you can add to the front of your m
 Dendron supports frontmatter. By default, we add the following keys to a new note created with Dendron:
 
 -   id: a globally unique identifier for the note
--   title: your note title. used to label nodes in [[graph view|dendron.topic.graph-view]]
--   desc: optional description about your note. will show up in lookup results
+-   title: your note title. Used to label nodes in [[graph view|dendron.topic.graph-view]]
+-   desc: optional description about your note. Will show up in lookup results
 -   updated: unix timestamp of when note was updated
 -   created: unix timestamp of when note was created
 
@@ -29,7 +29,7 @@ A globally unique identifier for the note. This identifier is used for two thing
 
 ### title
 
-Your note title. used to label nodes in [[graph view|dendron.topic.graph-view]]
+Your note title. Used to label nodes in [[graph view|dendron.topic.graph-view]]
 
 ### desc
 
@@ -57,11 +57,11 @@ Absolute filepath to the note
 
 ### data
 
-this is reserved for internal use
+This is reserved for internal use
 
 ### custom
 
-this is reserved for internal use
+This is reserved for internal use
 
 # Other keys
 
