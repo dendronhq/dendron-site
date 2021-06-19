@@ -2,7 +2,7 @@
 id: c160ddce-edec-4f6e-841b-418d6030fa37
 title: Design
 desc: ''
-updated: 1623338998094
+updated: 1623770016571
 created: 1598651922993
 stub: false
 ---
@@ -12,7 +12,7 @@ Dendron is composed of three main components and a collection of complementing l
 
 Below is an example of the initialization process
 
-![[dendron://dendron-site/pro.dendron-engine.arch#initialization,1:#*]]
+![[dendron://dendron-site/pkg.dendron-engine.arch#initialization,1:#*]]
 
 Dendron has a [[CLI|dendron.topic.cli]] that executes the above workflow as well, except replace `plugin` with `cli`. The difference is that the CLI will tear down the server and engine after the command has completed whereas for the plugin, the server and engine run as long as the workspace is active.
 
@@ -62,4 +62,4 @@ This is common utilities that are used by server-side versions of Dendron (curre
 This package lets you access Dendron via CLI. 
 
 ## Next
-- You can see the full list of projects as well as detailed documentation [[here|pro]]
+- You can see the full list of packages as well as detailed documentation [[here|pkg]]

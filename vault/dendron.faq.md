@@ -2,7 +2,7 @@
 id: 683740e3-70ce-4a47-a1f4-1f140e80b558
 title: FAQ
 desc: ""
-updated: 1623935350292
+updated: 1624072161693
 created: 1595952505025
 stub: false
 nav_order: 6
@@ -91,7 +91,7 @@ For more context, you can see the original markdown declaration [here](https://d
 
 You can use Dendron with existing repositories of markdown notes.
 
-Open the `Command Bar` in vscode and use the `Dendron: Change Workspace` command. It will ask you for a folder path as input.
+Open the `Command Palette` in vscode and use the `Dendron: Change Workspace` command. It will ask you for a folder path as input.
 
 Dendron will create a `dendron.code-workspace` file in specified directory and then open the workspace (if a workspace file already exists, it will use that). It will also create a `root.md` file in that directory if it doesn't exist (currently this is part of the internal working of dendron).
 

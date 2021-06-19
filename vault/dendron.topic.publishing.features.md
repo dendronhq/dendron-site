@@ -2,7 +2,7 @@
 id: 2fe96d3a-dcf9-409b-8a09-fdaa5a664433
 title: Features
 desc: ''
-updated: 1617643671872
+updated: 1623882260851
 created: 1608528227846
 nav_order: 1
 ---
@@ -44,14 +44,6 @@ Every page is published using its unique ID which means that urls will never cha
 If you have a free github account, then you can host your Dendron notes for free using [github pages](https://pages.github.com/) 
 
 <img style="max-width: 720px;" src="https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/site-domain.jpg" />
-
-### Jekyll Liquid Tags and Variables
-
-You can find the docs on this under [[liquid|dendron.topic.liquid]]
-
-- NOTE: this will only be "compiled" in the published site but won't be rendered in the regular markdown 
-
-<img style="max-width: 720px;" src="https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/site-liquid.gif" />
 
 ### Selective Publication
 

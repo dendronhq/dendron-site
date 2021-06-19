@@ -1,17 +1,45 @@
 ---
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
-desc: ""
-updated: 1623700379553
+desc: ''
+updated: 1624072121818
 created: 1601508213606
-date: "2022-01-01"
+date: '2022-01-01'
 ---
+
+## 0.46.1
+
+### Features
+
+#### Dendron Seed Bank
+![[dendron://dendron-site/dendron.topic.seed-bank#summary,1:#*]]
+
+#### Calendar View
+![[dendron://dendron-site/dendron.ref.web-ui#dendron-calendar-view,1:#*]]
+
+#### Airtable Pod
+![[dendron://dendron-site/dendron.topic.pod.builtin.airtable.export#summary,1:#*]]
+
+#### Find missing links Command
+![[dendron://dendron-site/dendron.topic.commands#createmissinglinkednotes,1:#*]]
+
+### Enhancements
+- Check and initialize empty seeds on opening workspace
+- Hover displays targeted area for links with #headers and #^anchors
+
+### Bug Fixes
+- tree view shows error on rename
+
+### House Cleaning
+- remove `dendorn markdonw links` and `github theme` as recommended extensions at startup
+- defaultJournal* commands have been moved to `journal` property in `dendron.yml` ([[docs|dendron.topic.config.dendron#journal]])
 
 ## 0.46
 ## 0.45.3
+
 ### Enhancements
 - Rename and Refactor will now replace links without formatting the file
-- Dendron respects VSCode Telemetry settgs  ([[docs|dendron.topic.telemetry#how-to-opt-out-of-data-collection]])
+- Dendron respects VSCode Telemetry settgs  ([[docs|dendron.ref.telemetry#how-to-opt-out-of-data-collection]])
 ### Bug Fixes
 - Dendron Preview `Go to Text` will sometimes not appear for note references
 - Dendron Preview links not working in VsCode 1.57
@@ -20,7 +48,7 @@ date: "2022-01-01"
 ### House Cleaning
 - Shorter UUIDs
 - Analytics
-    - Added a `reason` field to `(Enable|Disable)Telemetry` metrics  ([[docs|dendron.topic.telemetry#telemetry-toggle]])
+    - Added a `reason` field to `(Enable|Disable)Telemetry` metrics  ([[docs|dendron.ref.telemetry#telemetry-toggle]])
 
 ## 45.2
 ### Features
@@ -47,7 +75,7 @@ date: "2022-01-01"
 
 ### House Cleaning
 - Analytics
-	- we now measure `duration` when installing and upgrading Dendron (see [[docs|dendron.topic.telemetry#installationupgrade]])
+	- we now measure `duration` when installing and upgrading Dendron (see [[docs|dendron.ref.telemetry#installationupgrade]])
 - Deprecation Notices
 	- Dendron Markdown Links is now deprecated and replaced with Dendron's Native Graph Commands. It will be removed July 12, 2021
 
@@ -175,7 +203,7 @@ date: "2022-01-01"
 
 ### House Cleaning
 
--   collect analytics on Web UI load time ([[docs|dendron.topic.telemetry#other]])
+-   collect analytics on Web UI load time ([[docs|dendron.ref.telemetry#other]])
 -   internal interface refactoring
 
 ## 0.42
@@ -210,7 +238,7 @@ date: "2022-01-01"
 
 ### House Cleaning
 
--   collect telemetry around lookup performance ([[docs|dendron.topic.telemetry#lookup]])
+-   collect telemetry around lookup performance ([[docs|dendron.ref.telemetry#lookup]])
 -   remove `initialize with tutorial notes` when initializing a new workspace (functionality replaced with the new getting started guide ([[docs|dendron.tutorial]]))
 
 ### Docs
@@ -266,7 +294,7 @@ date: "2022-01-01"
 
 ### House Cleaning
 
--   Update initialization telemetry to only collect rounded numbers of notes ([[docs|dendron.topic.telemetry#startup]])
+-   Update initialization telemetry to only collect rounded numbers of notes ([[docs|dendron.ref.telemetry#startup]])
 
 ## 0.39.2
 

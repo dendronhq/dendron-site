@@ -20,7 +20,7 @@ With this release of Dendron, we've added limited telemetry. Telemetry is on by 
 
 This is to help us understand how many people are using Dendron as well as measure the impact on performance when we introduce new features. We **do not and will never** read the data inside **your notes**.
 
-You can see the full list of information we collect and why we do it in our [[telemetry documentation|dendron.topic.telemetry]] as well as instructions on how to opt out of telemetry.
+You can see the full list of information we collect and why we do it in our [[telemetry documentation|dendron.ref.telemetry]] as well as instructions on how to opt out of telemetry.
 
 If you have questions or concerns, please tell us in our #feedback channel or bring it up during office hours.
 

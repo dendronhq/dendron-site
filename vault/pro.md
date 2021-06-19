@@ -11,16 +11,16 @@ nav_order: 10
 
 This goes over all projects in the dendron monorepo
 
-- [[Dendron Frontend|pro.dendron-frontend]]
-  - [[11ty|pro.11ty]]
-  - [[Dendron CLI|pro.dendron-cli]]
-  - [[Dendron Engine|pro.dendron-engine]]
-    - [[Dendron Markdown|pro.dendron-markdown]]
-  - [[Dendron Plugin|pro.dendron-plugin]]
-  - [[Dendron Next Server|pro.dendron-next-server]]
-  - [[pro.pods-core]]
-  - [[Dendron API Server|pro.dendron-api-server]]
+- [[Dendron Frontend|pkg.dendron-frontend]]
+  - [[11ty|pkg.11ty]]
+  - [[Dendron CLI|pkg.dendron-cli]]
+  - [[Dendron Engine|pkg.dendron-engine]]
+    - [[Dendron Markdown|pkg.dendron-markdown]]
+  - [[Dendron Plugin|pkg.dendron-plugin]]
+  - [[Dendron Next Server|pkg.dendron-next-server]]
+  - [[pkg.pods-core]]
+  - [[Dendron API Server|pkg.dendron-api-server]]
 - Other Extensions
-  - [[Dendron Preview|pro.dendron-preview]]
-  - [[Dendron Snippet Maker|pro.dendron-snippet-maker]]
-  - [[Dendron Markdown Links|pro.dendron-markdown-links]]
+  - [[Dendron Preview|pkg.dendron-preview]]
+  - [[Dendron Snippet Maker|pkg.dendron-snippet-maker]]
+  - [[Dendron Markdown Links|pkg.dendron-markdown-links]]

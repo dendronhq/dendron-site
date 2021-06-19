@@ -36,5 +36,5 @@ dendron-cli publishPod --wsRoot . --podId {podId} --podPkg {npmPkg} --podSource 
 
 ## List of Custom Pods
 
-- [[Dev.to Pod|pro.devto-pod]]: publish notes to dev.to
+- [[Dev.to Pod|pkg.devto-pod]]: publish notes to dev.to
 

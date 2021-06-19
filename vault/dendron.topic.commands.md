@@ -2,7 +2,7 @@
 id: eea2b078-1acc-4071-a14e-18299fc28f47
 title: Commands
 desc: ""
-updated: 1623695816376
+updated: 1623883031115
 created: 1595261816971
 ---
 
@@ -322,11 +322,11 @@ Parameters:
 
 ### Disable Telemetry
 
-Disable [[telemetry|dendron.topic.telemetry]] across all workspaces with Dendron
+Disable [[telemetry|dendron.ref.telemetry]] across all workspaces with Dendron
 
 ### Enable Telemetry
 
-Enable [[telemetry|dendron.topic.telemetry]] across all workspaces with Dendron
+Enable [[telemetry|dendron.ref.telemetry]] across all workspaces with Dendron
 
 ### Vault Add
 
@@ -516,19 +516,19 @@ You can pick among various actions for the doctor to perform.
 
 <a href="https://www.loom.com/share/bd045f708f8e474193de8e3de0dc820f"> <img style="" src="https://cdn.loom.com/sessions/thumbnails/bd045f708f8e474193de8e3de0dc820f-with-play.gif"> </a>
 
-- `h1ToTitle` 
-  - Remove initial `h1` header and use it to replace contents of `title` field in frontmatter
-- `h1ToH2`
-  - Convert all initial `h1` header to `h2` header
-- `removeStubs`:
-  - Remove all stub docs
-- `oldNoteRefToNew`
-  - Convert legacy note refs to new style note refs
-- `createMissingLinkedNotes`
-  - **This doctor action is currently only supported in file scope.**
-  
-  - Create notes that do not exist yet but has a wikilink to it.
-  - A preview pane will appear with the notes that will be created before proceeding.
+##### h1ToTitle 
+- Remove initial `h1` header and use it to replace contents of `title` field in frontmatter
+##### h1ToH2
+- Convert all initial `h1` header to `h2` header
+##### removeStubs:
+- Remove all stub docs
+##### oldNoteRefToNew
+- Convert legacy note refs to new style note refs
+##### createMissingLinkedNotes
+- **This doctor action is currently only supported in file scope.**
+
+- Create notes that do not exist yet but has a wikilink to it.
+- A preview pane will appear with the notes that will be created before proceeding.
 
 ### Dump State
 
