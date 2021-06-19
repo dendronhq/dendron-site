@@ -9,7 +9,7 @@ nav_order: 9
 
 ## Summary
 
-This is an synopsis of the topics we covered in the [[getting started tutorial|dendron.tutorial]]. It also contains a bunch of additional topics for further reading.
+This is a synopsis of the topics we covered in the [[getting started tutorial|dendron.tutorial]]. It also contains a bunch of additional topics for further reading.
 
 ## The Trail 🥾
 
