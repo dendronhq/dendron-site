@@ -29,7 +29,7 @@ To do so, update the [[lookupConfirmVaultOnCreate|dendron.topic.config.dendron#l
 
 ### Adding a Remote Vault
 
-In addition to adding a vault locally, you can add any valid Dendron vault that is available at a accessible git origin. Run the `Vault Add` command again and this time select `remote vault`. At this point, you can either paste the git url of a vault that you know or select from one of the presets.
+In addition to adding a vault locally, you can add any valid Dendron vault that is available at an accessible git origin. Run the `Vault Add` command again and this time select `remote vault`. At this point, you can either paste the git url of a vault that you know or select from one of the presets.
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/remote-vault.jpg)
 
