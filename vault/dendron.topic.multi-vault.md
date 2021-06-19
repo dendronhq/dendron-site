@@ -12,7 +12,7 @@ Multi vault refers to managing multiple [[vaults|dendron.concepts#vaults]] withi
 
 ## Use Cases
 
-- for **sensitive notes**, multi-vault enables local only vaults vs vaults that can are synced on file sharing services like dropbox 
+- for **sensitive notes**, multi-vault enables local only vaults vs vaults that can be synced on file sharing services like dropbox 
 - for **modularizing knowledge**, multi-vault enables users to mix and match existing vaults depending on context
 - for **federating and curating knowledge**, multi-vault enables users to publish/subscribe to public vaults using protocols like `git`
 - for **access control**, multi-vault lets users configure specific vaults to be **private** which turns off publication and sharing of any notes inside said vault
