@@ -2,7 +2,7 @@
 id: 945a1bf2-2d6c-4792-87d0-bf87b7f94182
 title: Methods
 desc: ''
-updated: 1623883712853
+updated: 1624071086578
 created: 1623022056338
 ---
 
@@ -68,9 +68,6 @@ Initialize a new seed
 Options:
 - create_workspace: create a new dendron workspace as a seed
 - convert_workspace: convert existing workspace as a seed
-
-Layout for workspace with seed:
-![[dendron://dendron-site/dendron.rfc.14-seed-bank.layout#seed-layout,1:#*]]
 
 ### publish
 

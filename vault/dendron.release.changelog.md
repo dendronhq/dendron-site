@@ -2,7 +2,7 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1624031218594
+updated: 1624072121818
 created: 1601508213606
 date: '2022-01-01'
 ---
@@ -24,15 +24,15 @@ date: '2022-01-01'
 ![[dendron://dendron-site/dendron.topic.commands#createmissinglinkednotes,1:#*]]
 
 ### Enhancements
-- check and initialize empty seeds on opening workspace
+- Check and initialize empty seeds on opening workspace
 - Hover displays targeted area for links with #headers and #^anchors
 
 ### Bug Fixes
 - tree view shows error on rename
 
 ### House Cleaning
-- webUI is enabled by default, to disable set `disableWebUI` to `true`
 - remove `dendorn markdonw links` and `github theme` as recommended extensions at startup
+- defaultJournal* commands have been moved to `journal` property in `dendron.yml` ([[docs|dendron.topic.config.dendron#journal]])
 
 ## 0.46
 ## 0.45.3

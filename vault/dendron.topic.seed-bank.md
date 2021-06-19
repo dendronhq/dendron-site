@@ -2,7 +2,7 @@
 id: 6ff8cbb6-e4b8-449b-a967-277b76e4ecef
 title: Seed Bank
 desc: ''
-updated: 1623883929420
+updated: 1624071082718
 created: 1607621369889
 ---
 
@@ -32,7 +32,7 @@ You can see all currently available seeds [here](https://github.com/dendronhq/de
 ![[dendron://dendron-site/dendron.rfc.14-seed-bank.methods#info,1:#*]]
 
 ### init
-![[dendron://dendron-site/dendron.rfc.14-seed-bank.methods#init,1:#*]]
+![[dendron://dendron-site/dendron.rfc.14-seed-bank.methods#init,1:#publish]]
 
 ### remove
 ![[dendron://dendron-site/dendron.rfc.14-seed-bank.methods#remove,1:#*]]

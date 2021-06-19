@@ -2,7 +2,7 @@
 id: 25287595-96bb-410b-ab46-eb9a26b0e259
 title: Web UI
 desc: ''
-updated: 1624033643006
+updated: 1624071215313
 created: 1621552722494
 ---
 
@@ -23,7 +23,7 @@ To get started, set [[enableWebUI|dendron.topic.config.dendron#enablewebui]] to 
 This is an implementation of the [[Dendron Tree View|dendron.topic.workbench#dendron-tree-view]] using the Dendron Web UI. 
 
 ### Dendron Calendar View
-- [[Work In Progress 🚧|dendron.ref.status#work-in-progress-]]
+- [[Early Seed 🌱|dendron.ref.status#early-seed-]]
 
 The Dendron Calendar View lets you view your daily journal in calendar form.
 
@@ -38,9 +38,18 @@ The Dendron Calendar View has the following capabilities:
 - Switching between month/year view
 - In a multi-vault workspace it shows the daily journal from the vault associated with the active note
 
+- NOTE: the calendar view will only work if you have default `journal` settings in your `dendron.yml`
+    ```yml
+    journal:
+        dailyDomain: daily
+        name: journal
+        dateFormat: y.MM.dd
+        addBehavior: childOfDomain
+    ```
+
 #### Configuration
 
-##### dayOfWeek
+##### journal.firstDayOfWeek
 - default: 0
 
 Set start of week (eg. `0` for sunday, `1` for monday, `2` for tuesday, etc.)  for the [[Dendron Calendar View|dendron.topic.workbench#dendron-calendar-view]]
