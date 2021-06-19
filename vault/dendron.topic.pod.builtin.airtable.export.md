@@ -2,13 +2,13 @@
 id: zIBErZ8tT7oU6nm0JESFc
 title: Export
 desc: ''
-updated: 1623706850732
+updated: 1624072387500
 created: 1623502889261
 ---
 
 
 ## Summary
-- [[Work In Progress 🚧|dendron.ref.status#work-in-progress-]]
+- [[Early Seed 🌱|dendron.ref.status#early-seed-]]
 
 The [Airtable](https://airtable.com/) export pod can transfer contents of a dendron hierarchy to an airtable table. The export config have additional options to export a specific hierarchy.
 
