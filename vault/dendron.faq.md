@@ -124,7 +124,7 @@ There are 3 ways to go back to my previous note:
 
 ### How should I name a note?
 
-There are no rigid requirements on note naming in Dendron, other than the dots in the file name are used to construct the note [[note hierarchy|dendron.topic.hierarchies]]. However, the recommended way is to use all lowercase letters, replace spaces with `-`-mark and remove any special characters. Thus e.g. `John's amazing garage` becomes `johns-amazing-garage`.
+There are no rigid requirements on note naming in Dendron, other than the dots in the file name are used to construct the [[note hierarchy|dendron.topic.hierarchies]]. However, the recommended way is to use all lowercase letters, replace spaces with `-`-mark and remove any special characters. Thus e.g. `John's amazing garage` becomes `johns-amazing-garage`.
 
 Also, remember that you will use the note [[lookup-feature|dendron.topic.lookup]] to find notes quickly, and the lookup will use the names of the files. Thus try to name the files using the words that you are likely to use to find the note.
 
@@ -167,7 +167,7 @@ It is possible though most of the approaches we've thought of would take a large
 
 If you want the ability to collapse folders, you can use the [[dendron tree view|dendron.topic.workbench#dendron-tree-view]]. For existing folder based notes and assets, you can use the [[markdown pod|dendron.topic.pod.builtin.markdown.import]] to import them into Dendron.
 
-At the end of the day, folders are meant to be an implementation detail for dendron. the underlying primitive of a note is an object that has metadata, content, and links. You can think of dendron as a flat file based database and lookup and the tree view as the UI to said database. For use cases involving external tools that require folders, you'll soon be able to use the [markdown export pod|dendron.topic.pod.builtin.markdown.export]] to do just that.
+At the end of the day, folders are meant to be an implementation detail for dendron. The underlying primitive of a note is an object that has metadata, content, and links. You can think of dendron as a flat file based database and lookup and the tree view as the UI to said database. For use cases involving external tools that require folders, you'll soon be able to use the [[markdown export pod|dendron.topic.pod.builtin.markdown.export]] to do just that.
 
 ## Working with Schemas
 
