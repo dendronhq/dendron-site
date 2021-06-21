@@ -2,7 +2,7 @@
 id: 4039fc46-06b2-4f83-b817-fc490bafbcb3
 title: 14 - The Seed Bank 
 desc: ''
-updated: 1623797749253
+updated: 1624296294335
 created: 1623017672501
 ---
 ## Goals
@@ -15,7 +15,7 @@ Dendron's [mission](https://handbook.dendron.so/notes/8989a93d-8dde-4a51-bb8d-2a
 
 When working with code, the concepts of modules and packages are standard in every modern programming language - these abstractions make it possible to package frequently used code into re-usable modules. 
 
-The Dendron Seed Bankis an effort to do the same with knowledge.
+The Dendron Seed Bank is an effort to do the same with knowledge.
 
 ## [Lookup](https://handbook.dendron.so/notes/b89ba854-72fb-4ebc-a8a0-55960b89e9dc.html#lookup)
 
