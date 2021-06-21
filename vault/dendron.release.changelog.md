@@ -2,64 +2,98 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1624072395386
+updated: 1624316540796
 created: 1601508213606
-date: '2022-01-01'
+date: "2022-01-01"
 ---
 
-## 0.46.1
+## 0.47
+
+## 0.46.3
+
+### Enhancements
+- support default daily journal vault ([[docs|dendron.topic.config.dendron#dailyvault]])
+
+### Bug Fixes
+
+-   `lookupConfirmVaultOnCreate` is respected when creating a daily journal
+
+## 0.46.2
 
 ### Features
 
 #### Dendron Seed Bank
+
 ![[dendron://dendron-site/dendron.topic.seed-bank#summary,1:#*]]
 
 #### Calendar View
+
 ![[dendron://dendron-site/dendron.ref.web-ui#dendron-calendar-view,1:#*]]
 
 #### Airtable Pod
+
 ![[dendron://dendron-site/dendron.topic.pod.builtin.airtable.export#summary,1:#*]]
 
 #### Find missing links Command
+
 ![[dendron://dendron-site/dendron.topic.commands#createmissinglinkednotes,1:#*]]
 
 ### Enhancements
-- Check and initialize empty seeds on opening workspace
-- Hover displays targeted area for links with #headers and #^anchors
+
+-   Check and initialize empty seeds on opening workspace
+-   Hover displays targeted area for links with #headers and #^anchors
 
 ### Bug Fixes
-- tree view shows error on rename
+
+-   tree view shows error on rename
 
 ### House Cleaning
-- remove `dendorn markdonw links` and `github theme` as recommended extensions at startup
-- defaultJournal* commands have been moved to `journal` property in `dendron.yml` ([[docs|dendron.topic.config.dendron#journal]])
+
+-   remove `dendorn markdonw links` and `github theme` as recommended extensions at startup
+-   defaultJournal\* commands have been moved to `journal` property in `dendron.yml` ([[docs|dendron.topic.config.dendron#journal]])
+
+## 0.46.1
+
+### Bug Fixes
+
+-   issue with publishing using dendron cli
 
 ## 0.46
+
 ## 0.45.3
 
 ### Enhancements
-- Rename and Refactor will now replace links without formatting the file
-- Dendron respects VSCode Telemetry settgs  ([[docs|dendron.ref.telemetry#how-to-opt-out-of-data-collection]])
+
+-   Rename and Refactor will now replace links without formatting the file
+-   Dendron respects VSCode Telemetry settgs ([[docs|dendron.ref.telemetry#how-to-opt-out-of-data-collection]])
+
 ### Bug Fixes
-- Dendron Preview `Go to Text` will sometimes not appear for note references
-- Dendron Preview links not working in VsCode 1.57
-- Dendron Preview renders the first line of note ref as markdown 
-- Dendron Preview removes `#` from links
+
+-   Dendron Preview `Go to Text` will sometimes not appear for note references
+-   Dendron Preview links not working in VsCode 1.57
+-   Dendron Preview renders the first line of note ref as markdown
+-   Dendron Preview removes `#` from links
+
 ### House Cleaning
-- Shorter UUIDs
-- Analytics
-    - Added a `reason` field to `(Enable|Disable)Telemetry` metrics  ([[docs|dendron.ref.telemetry#telemetry-toggle]])
+
+-   Shorter UUIDs
+-   Analytics
+    -   Added a `reason` field to `(Enable|Disable)Telemetry` metrics ([[docs|dendron.ref.telemetry#telemetry-toggle]])
 
 ## 45.2
+
 ### Features
 
 #### Copy Note Ref Range Selections
+
 ![[dendron.topic.commands#range-selection,1:#*]]
 
-#### Random Note Command 
+#### Random Note Command
+
 ![[dendron://dendron-site/dendron.topic.commands#random-note,1:#*]]
 
 ### Show Schema Graph V2
+
 ![[dendron.topic.graph-view#show-schema-graph-v2,1:#*]]
 
 #### Better Graph Filtering Options
@@ -67,17 +101,21 @@ date: '2022-01-01'
 ![[dendron.topic.graph-view#filter-view,1:#rfcs]]
 
 ### Enhancements
-- copy note ref will create a block ref and insert block anchors when you have a block element selected ([[docs|dendron.topic.commands#copy-note-ref]])
-- copy note link will create a block link and insert block anchors when you have a block element selected ([[docs|dendron.topic.commands#copy-note-link]])
+
+-   copy note ref will create a block ref and insert block anchors when you have a block element selected ([[docs|dendron.topic.commands#copy-note-ref]])
+-   copy note link will create a block link and insert block anchors when you have a block element selected ([[docs|dendron.topic.commands#copy-note-link]])
+
 #### Bug Fixes
-- published assets now respect vault configuration
-- template error when publishing in windows
+
+-   published assets now respect vault configuration
+-   template error when publishing in windows
 
 ### House Cleaning
-- Analytics
-	- we now measure `duration` when installing and upgrading Dendron (see [[docs|dendron.ref.telemetry#installationupgrade]])
-- Deprecation Notices
-	- Dendron Markdown Links is now deprecated and replaced with Dendron's Native Graph Commands. It will be removed July 12, 2021
+
+-   Analytics
+    -   we now measure `duration` when installing and upgrading Dendron (see [[docs|dendron.ref.telemetry#installationupgrade]])
+-   Deprecation Notices
+    -   Dendron Markdown Links is now deprecated and replaced with Dendron's Native Graph Commands. It will be removed July 12, 2021
 
 <!-- ### Bug Fixes
 - `#` in alias can be used again ([#790](https://github.com/dendronhq/dendron/issues/790)) -->
@@ -85,8 +123,9 @@ date: '2022-01-01'
 ## 0.45.1
 
 ### Bug Fixes
-- published assets now respect vault configuration
-- template error when publishing in windows
+
+-   published assets now respect vault configuration
+-   template error when publishing in windows
 
 ## 0.45
 
@@ -330,4 +369,3 @@ Even if your workspace is +10k notes, initialization of said workspace should ha
 ### Bug Fixes
 
 -   proper initialization of backlinks when initializing from cache
-

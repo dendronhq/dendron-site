@@ -2,7 +2,7 @@
 id: 25287595-96bb-410b-ab46-eb9a26b0e259
 title: Web UI
 desc: ''
-updated: 1624071215313
+updated: 1624296674571
 created: 1621552722494
 ---
 
@@ -23,7 +23,6 @@ To get started, set [[enableWebUI|dendron.topic.config.dendron#enablewebui]] to 
 This is an implementation of the [[Dendron Tree View|dendron.topic.workbench#dendron-tree-view]] using the Dendron Web UI. 
 
 ### Dendron Calendar View
-- [[Early Seed 🌱|dendron.ref.status#early-seed-]]
 
 The Dendron Calendar View lets you view your daily journal in calendar form.
 

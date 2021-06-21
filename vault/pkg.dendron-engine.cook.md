@@ -2,7 +2,7 @@
 id: 1bce1c33-c14b-4e5e-b493-45683c8cf54f
 title: Cook
 desc: ''
-updated: 1615092736145
+updated: 1624243102369
 created: 1610469139531
 ---
 ### Adding a new unified plugin
@@ -111,3 +111,20 @@ const maybeNode = NoteUtilsV2.getNotesByFname({({
 
 ![[pkg.dendron-engine.ref.note-response]]
 
+
+### Adding a new engine API
+
+Engine apis have many touchpoints. 
+
+See [[Initialization|pkg.dendron-engine.arch#initialization]] to see the different components that an engine call (in this case, initialization), calls. 
+
+When you add a new API to the engine, it needs to be added in both the types and the implementations of the engine:
+
+- types:
+   - [DEngine](https://github.com/dendronhq/dendron/blob/dev/packages/common-all/src/types/typesv2.ts#L353:L353)
+
+- implementation:
+   - [Store](https://github.com/dendronhq/dendron/blob/dev/packages/engine-server/src/drivers/file/storev2.ts#L1:L1): engine methods usually operate on the storage layer (eg. write to disk, read from disk) and so store methods often need to be updated
+   - [Engine](https://github.com/dendronhq/dendron/blob/dev/packages/engine-server/src/enginev2.ts#L68:L68): actual engine implementation
+   - [DendronApi](https://github.com/dendronhq/dendron/blob/dev/packages/common-all/src/api.ts#L264:L264): used by engine client to call the express server 
+   - [DEngineClient](https://github.com/dendronhq/dendron/blob/dev/packages/engine-server/src/engineClient.ts#L55:L55): wrapper around `DendronAPI` that mirrors the `Engine` API

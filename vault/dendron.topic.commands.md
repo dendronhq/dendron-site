@@ -2,7 +2,7 @@
 id: eea2b078-1acc-4071-a14e-18299fc28f47
 title: Commands
 desc: ""
-updated: 1623883031115
+updated: 1624315741527
 created: 1595261816971
 ---
 
@@ -524,6 +524,7 @@ You can pick among various actions for the doctor to perform.
 - Remove all stub docs
 ##### oldNoteRefToNew
 - Convert legacy note refs to new style note refs
+
 ##### createMissingLinkedNotes
 - **This doctor action is currently only supported in file scope.**
 
