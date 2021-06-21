@@ -2,7 +2,7 @@
 id: 64f0e2d5-2c83-43df-9144-40f2c68935aa
 title: Setup
 desc: ''
-updated: 1623432122509
+updated: 1624030043747
 created: 1598651458825
 ---
 
@@ -61,7 +61,7 @@ If you are developing Dendron in a remote environment using VSCode, see addition
 
 1. Checkout a feature branch for your task
 1. Work on code
-1. Submit a pull request before end of the week
+1. Submit a [[pull Request|dendron.dev.pull-request]] 
 
 ## Logging
 
@@ -222,3 +222,11 @@ In case something something goes wrong with a build step or you want to save tim
 ### Husky Hooks not running
 
 Make sure you run `yarn` at the root of your workspace 
+
+## Getting Help
+
+Dendron is actively being developed and it could be quite confusing to start developing for the first time. In this case, we recommend asking for help with whatever blockers you might have with setting up or understanding part of the codebase.
+
+Generally, a member of the Dendron team or the community will chime in for help if you post a specific question in the `#dev` channel in our Discord server.
+
+For more information, check out our handbook entry on `Getting help for development` described [here](https://handbook.dendron.so/notes/bHWjVTtdOCMMRd2_QD0tb.html)

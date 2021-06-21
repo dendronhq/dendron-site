@@ -27,6 +27,12 @@ version: 1
 useFMTitle: true
 mermaid: true
 useTitleForLink: true
+journal:
+    dailyDomain: daily
+    name: journal
+    dateFormat: y.MM.dd
+    addBehavior: childOfDomain
+    firstDayOfWeek: 1
 dev:
   enableWebUI: true
 #   engineServerPort: 3005

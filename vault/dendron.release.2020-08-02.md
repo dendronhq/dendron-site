@@ -2,7 +2,7 @@
 id: e32aa1e2-9780-4183-927e-2f46372050aa
 title: Release Notes(version 0.5)
 desc: ''
-updated: 1609990774348
+updated: 1623981566779
 created: 1596374984386
 date: '2020-08-02'
 ---
@@ -20,7 +20,7 @@ These release notes are summary of the more notable changes, for the full list, 
 
 ## Commands
 
-Dendron has a series of built-in commands. They are all prefixed with `Dendron:` and can be accessed through the [command prompt](https://www.dendron.so/notes/c6fd6bc4-7f75-4cbb-8f34-f7b99bfe2d50.html#command-bar).
+Dendron has a series of built-in commands. They are all prefixed with `Dendron:` and can be accessed through the [command prompt](https://www.dendron.so/notes/c6fd6bc4-7f75-4cbb-8f34-f7b99bfe2d50.html#command-palette).
 
 ### Add Doctor Command
 

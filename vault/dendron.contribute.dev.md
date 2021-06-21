@@ -2,7 +2,7 @@
 id: 81da87be-2d4e-47b5-a1d6-c0d647e1ab00
 title: Development
 desc: ''
-updated: 1619283126009
+updated: 1623814826573
 created: 1604236041570
 ---
 ## Summary
@@ -35,14 +35,4 @@ Afterwards, you can see how specific features are implemented through the [vscod
 - [ ] make sure all the existing [[tests|dendron.dev.qa#running-all-tests]] pass
 - [ ] if its your first pull request to Dendron, watch out for the [CLA](https://en.wikipedia.org/wiki/Contributor_License_Agreement) bot that will ask you to agree to Dendron's CLA
 - [ ] if its your first pull request and you're on our Discord, make sure that Kevin gives you the [[horticulturalist|dendron.community.roles#horticulturalist]] role  👨‍🌾👩‍🌾
-
-## Commit Style
-
-- we follow [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/) with the following tags
-- categories:
-  - feat: feature - introduce new functionality
-  - enhance: enhancement - improve existing functionality
-  - fix: make something not broken
-  - chore: backend improvements
-  - spike: not complete commit
 

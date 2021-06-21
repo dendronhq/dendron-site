@@ -2,7 +2,7 @@
 id: a6c03f9b-8959-4d67-8394-4d204ab69bfe
 title: Troubleshooting
 desc: ''
-updated: 1622990239253
+updated: 1624214864772
 created: 1595952505025
 ---
 ## Diagnosing
@@ -38,6 +38,22 @@ npm info @dendronhq/dendron-11ty
 ### Preview not Rendering Correctly
 - causes: Using the built-in preview instead of the Dendron preview
 - fixes: [[Use Dendron Markdown Preview|dendron.guides.troubleshooting#use-dendron-markdown-preview]]
+
+### Lookup Shortcut is not working
+- causes:
+  - you have the vim extension installed and its overriding the default dendron shortcut
+- fix: 
+  1. open command palette and run `Open Keyboard Shortcuts (JSON)`
+  2. add the following shortcut override
+    - NOTE: replace `cmd+l` with `ctrl+l` if you are on windows
+  ```json
+  {
+    "key": "cmd+l",
+    "command": "-expandLineSelection",
+    "when": "textInputFocus"
+  }
+  ```
+
 
 
 ## Common Fixes

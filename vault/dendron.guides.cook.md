@@ -2,7 +2,7 @@
 id: 401c5889-20ae-4b3a-8468-269def4b4865
 title: Cookbook
 desc: ""
-updated: 1622804242841
+updated: 1623921352199
 created: 1595952505024
 nav_order: 8.9
 toc: true
@@ -36,7 +36,7 @@ You can get logs of the previous session by following instructions [here](https:
 
 Dendron doesn't currently provide native support for this. You can download the [Bookmarks](https://marketplace.visualstudio.com/items?itemName=alefragnani.Bookmarks) extension to achieve the functionality in the interim.
 
-### Launch the command bar
+### Launch the command palette
 
 This lets you execute commands inside vscode
 

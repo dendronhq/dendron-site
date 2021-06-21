@@ -2,10 +2,20 @@
 id: a80f36d9-01d0-4c5a-a228-867b093a4913
 title: Cookbook
 desc: ''
-updated: 1623431129140
+updated: 1623950644059
 created: 1599151918645
 stub: false
 ---
+
+### Building from clean repo
+
+Sometimes you'll need to rebuild the workspace from scratch. Run the following command to do so
+
+```
+./bootstrap/scripts/cleanup.sh
+yarn setup
+```
+
 ### Install a new package
 
 Because Dendron is packaged as a mono repo managed using [lerna](https://github.com/lerna/lerna), you can't just do a regular `yarn add` to install new packages. This is because lerna symlinks mono-repo dependencies together and a `yarn add` would override that. Instead, use the following command:
@@ -258,6 +268,4 @@ You can see an explanation of how it works [here](https://git-scm.com/docs/git-b
 
 ### Adding a new configuration property
 
-Dendron configuration is managed by [DendronConfig](https://github.com/dendronhq/dendron/blob/dev-kevin/packages/common-all/src/types/workspace.ts#L65:L65).
-
-When adding a new configuration, make sure to document it under [[dendrons config|dendron.topic.config.dendron]]
+![[dendron://dendron-site/pkg.dendron-plugin.cook#adding-a-new-config,1:#*]]

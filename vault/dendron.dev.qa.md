@@ -2,7 +2,7 @@
 id: cb22bd36-d45a-4ffd-a31e-96c4b39cb7fb
 title: Testing
 desc: ''
-updated: 1623338579534
+updated: 1624056347788
 created: 1598654055046
 stub: false
 ---
@@ -74,9 +74,51 @@ describe("foo", function() {
 You can see an example of a test [here](https://github.com/dendronhq/dendron/blob/dev-kevin/packages/plugin-core/src/commands/CopyNoteURL.ts#L1:L1)
 
 Also, consider enabling "Uncaught Exceptions" under "Breakpoints" when running tests. Otherwise, if you forget to `await` a function that returns a promise and that function throws an exception, the test will appear to pass even though an exception was thrown.
+
 ### Test Workspace
 
-If you want to use a workspace to test changes on the workspace at `{ROOT}/packages/dendron-11ty/fixtures/test-workspace`
+If you want to use a workspace to test changes on the workspace at `{ROOT}/test-workspace`
+
+Note that this workspace is currently configured to be used with launching a engine server from the command line. 
+
+Remove the following lines in `dendron.yml` to launch it without the CLI engine server
+
+```yml
+dev:
+    nextServerUrl: 'http://localhost:3000'
+    engineServerPort: 3005
+```
+
+### Stubs
+We use [sinonjs](https://sinonjs.org/) to stub test methods. 
+
+If you use sinon, don't forget to call `sinon.restore` so that stubs don't leak into subsequent tests.
+
+When stubbing tests in the plugin, we following the following pattern
+```ts
+suite("some test", function() {
+  let ctx: vscode.ExtensionContext;
+  ctx = setupBeforeAfter(this, {
+    afterHook: () => {
+      sinon.restore();
+    },
+  });
+
+  it("test", (done) => {
+    sinon.stub(...);
+    done();
+  });
+
+})
+```
+
+When stubbing test any other code, add an `afterEach` block.
+```ts
+afterEach(()=> {
+  sinon.restore()
+});
+```
+
 
 ## Debugging Tests
 
@@ -136,3 +178,10 @@ Because of the aforementioned issues, we've created the following two classes to
 ### Creating a mock note
 
 see [this](https://github.com/dendronhq/dendron/blob/dev-kevin/packages/common-test-utils/src/noteUtils.ts#L55:L55)
+
+### Updating test snapshots
+
+We make frequent use of jest [snapshots](https://jestjs.io/docs/snapshot-testing) in our testing. These snapshots will fail the test if the output of a command changes. If you intend to change the output, run the following command:
+
+1. Use command prompt and run `> Tasks: Run tasks`
+2. Find the appropriate package and run `> test:all engine-test-utils`

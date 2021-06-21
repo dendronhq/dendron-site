@@ -2,7 +2,7 @@
 id: a0240c63-2000-4542-a0ba-d570f42323b9
 title: Arch
 desc: ''
-updated: 1622132647858
+updated: 1623865423917
 created: 1622130772977
 ---
 
@@ -72,3 +72,7 @@ The Dendron Published Site will be the default path published using nextjs. It h
     - table of contents 
         - the preview relies on vscode tree view components for this, the site needs to generate its own
     - etc
+
+## Copy and Paste
+
+By default, modifier controls like copy and paste are disabled because we are operating an iframe operating inside a webview. The workaround is described [here](https://github.com/jevakallio/vscode-live-frame#command-key-combinations-copy-paste-select-all-are-disabled). We've implemented it [here](https://github.com/dendronhq/dendron/blob/feature-graph-regex-filter/packages/plugin-core/src/views/utils.ts#L10:L10) so that any webview that uses `WebViewUtils` to generate the HTML will come with the workaround. Make sure that keyboard events are allowed to propagate for this workaround to work. 

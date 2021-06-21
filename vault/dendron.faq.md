@@ -2,7 +2,7 @@
 id: 683740e3-70ce-4a47-a1f4-1f140e80b558
 title: FAQ
 desc: ""
-updated: 1623595726299
+updated: 1624072161693
 created: 1595952505025
 stub: false
 nav_order: 6
@@ -53,7 +53,7 @@ Some additional features that set Dendron apart:
 2. Dendron helps you manage your hiearchies using [[schemas|dendron.topic.schema]]
 3. Dendron gets out of your way when you're working with your notes during [[lookup|dendron.topic.lookup]]
 
-Dendron's secret sauce is that it provides the necessary tooling for you to work with hierarichal notes. While hierarchies have traditionally (and justifiably) gotten a bad, I would argue that this is because the **tooling** around hierarchies were bad, not because hierarchies themselves are bad.
+Dendron's secret sauce is that it provides the necessary tooling for you to work with hierarichal notes. While hierarchies have traditionally (and justifiably) gotten a bad reputation, I would argue that this is because the **tooling** around hierarchies were bad, not because hierarchies themselves are bad.
 
 Hierarchies are one of the most effective ways that **both humans and computers** process large amount of information (there's a reason why almost every database is built from a variation of the [b-tree](https://en.wikipedia.org/wiki/B-tree)). You can find further details about hierarchies in this [blog post](https://www.kevinslin.com/notes/e1455752-b052-4212-ac6e-cc054659f2bb.html)
 
@@ -91,7 +91,7 @@ For more context, you can see the original markdown declaration [here](https://d
 
 You can use Dendron with existing repositories of markdown notes.
 
-Open the `Command Bar` in vscode and use the `Dendron: Change Workspace` command. It will ask you for a folder path as input.
+Open the `Command Palette` in vscode and use the `Dendron: Change Workspace` command. It will ask you for a folder path as input.
 
 Dendron will create a `dendron.code-workspace` file in specified directory and then open the workspace (if a workspace file already exists, it will use that). It will also create a `root.md` file in that directory if it doesn't exist (currently this is part of the internal working of dendron).
 

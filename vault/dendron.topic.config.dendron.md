@@ -2,7 +2,7 @@
 id: f83c1d87-eac0-48f3-a5cf-8a69989d8ec1
 title: Dendrons Config
 desc: ''
-updated: 1623674615775
+updated: 1624072623420
 created: 1619539817122
 ---
 
@@ -51,7 +51,7 @@ Disable dendron legacy note refs
 
 ### noTelemetry
 
-Disable [[telemetry|dendron.topic.telemetry]]
+Disable [[telemetry|dendron.ref.telemetry]]
 
 ### hierarchyDisplay
 - default: true
@@ -108,10 +108,9 @@ See [[workspace sync configuration options|dendron.ref.workspace#configuration-o
 
 Sets the [[synchronization strategy|dendron.ref.workspace#Workspace: Sync]] for [[workspace vaults|dendron.ref.vaults#workspace-vault]]. For regular vaults, please use the [[per-vault configuration|dendron.ref.vaults#sync]].
 
-### dayOfWeek
-- default: 0
+### defaultDailyJournalVault
 
-Set start of week (eg. `0` for sunday, `1` for monday, `2` for tuesday, etc.)  for the [[Dendron Calendar View|dendron.topic.workbench#dendron-calendar-view]]
+Execute [[Create Daily Journal Note|dendron.topic.commands#create-daily-journal-note]] with a default vault in place
 
 ### vaults
 
@@ -120,6 +119,33 @@ Tracks [[vaults|dendron.concepts#vaults]] for the workspace. You shouldn't have 
 ### Vault properties:
 
 See [[Vault Configuration|dendron.ref.vaults#configuration]]
+
+## Journal
+### dailyDomain
+- type: string
+- default: daily
+
+domain where daily journals are kept
+### name
+- type: string
+- default: journal
+
+name used for journal notes
+
+### dateFormat
+- type: string
+- default: y.MM.dd
+
+Date format used for journal notes. Use [luxon style formatting](https://moment.github.io/luxon/docs/manual/formatting.html)
+
+### addBehavior
+- type: string
+- default: childOfDomain
+- options:  ['childOfDomain', 'childOfDomainNamespace', 'childOfCurrent', 'asOwnDomain']
+
+strategy for adding new journal notes
+- NOTE: this only applies to regular journal notes but not to  [[daily journal|dendron.topic.special-notes#daily-journal]] notes.
+
 ## Hooks
 
 ![[dendron.topic.hooks.config]]

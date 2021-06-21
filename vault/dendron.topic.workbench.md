@@ -2,7 +2,7 @@
 id: f7ebd4aa-8ba7-4bc5-bd00-a1efc5315f07
 title: Workbench
 desc: ''
-updated: 1623706824581
+updated: 1623882047075
 created: 1595170237255
 stub: false
 ---
@@ -65,20 +65,7 @@ You can see all notes that are linked to the current note via the backlink panel
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/Fullscreen_2_25_21__7_41_PM.jpg)
 
 ## Dendron Calendar View
-- [[Work In Progress 🚧|dendron.ref.status#work-in-progress-]]
-
-The Dendron Calendar View lets you view your daily journal in calendar form.
-
-<a href="https://www.loom.com/share/f506aab0f6eb44fc8cd4dc79a367a309"><img src="https://cdn.loom.com/sessions/thumbnails/f506aab0f6eb44fc8cd4dc79a367a309-with-play.gif"></a>
-
-The Dendron Calendar View has the following capabilities:
-
-- Clicking on a given day date will open the corresponding dayil journal note
-- Clicking on a given day without a daily journal note will create one
-- Days without daily journal note are grayed out and days that contain an entry are displayed in white.
-- Shows indicators in the form of dots (max 5) to reflect the word count of that entry. Each dot repesents 250 words.
-- Switching between month/year view
-- In a multi-vault workspace it shows the daily journal from the vault associated with the active note
+![[dendron://dendron-site/dendron.ref.web-ui#dendron-calendar-view,1:#*]]
 
 ## Working with Multiple Columns
 

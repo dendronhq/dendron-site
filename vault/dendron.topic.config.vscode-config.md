@@ -2,7 +2,7 @@
 id: 19a0ea9d-7292-4a68-bc6f-ffd462a54bc5
 title: VSCode Config
 desc: ''
-updated: 1622842283286
+updated: 1624071484895
 created: 1619541378119
 ---
 

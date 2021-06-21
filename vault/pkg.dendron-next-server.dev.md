@@ -3,7 +3,7 @@ id: 6293d9dc-9bd3-4b01-8428-34d8256f0a32
 title: Dev
 desc: |
   Development related
-updated: 1623430829464
+updated: 1623867913567
 created: 1621630111186
 ---
 
@@ -12,6 +12,7 @@ created: 1621630111186
 ### Pre-req
 - [[Symlink|pkg.dendron-cli.dev#symlink]] `dendron-cli`
 - [[Setup|dendron.dev.setup]] `plugin-core`
+- Read [[Next Server Architecture|pkg.dendron-next-server.arch]]
 
 ### Steps
 
@@ -21,7 +22,7 @@ You can test the Dendron Next App by launching a workspace using the CLI and the
   cd dendron/test-workspace
   ./scripts/dev.sh
   ```
-1. Connect to the workspace (replace WORKSPACE and PORT with your own values)
+1. (optional) To connect to the workspace using chrome, enter the following in your localhost (replace WORKSPACE and PORT with your own values) ^MgEdJdyD
    ```sh
    # for example, if you launched the engine at /user/adam/workspace, WORKSPACE should equal /user/adam/workspace
    http://localhost:3000/vscode/sample?ws=$WORKSPACE&port=$PORT
