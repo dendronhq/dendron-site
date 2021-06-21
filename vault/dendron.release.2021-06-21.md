@@ -2,7 +2,7 @@
 id: SRqCvd66cO4L5OZ-B0PKG
 title: Release Notes (version 0.47)
 desc: ''
-updated: 1624316729624
+updated: 1624317114929
 created: 1624287990476
 ---
 
@@ -14,7 +14,7 @@ Dendron 0.47 has sprouted  🌱
 - **Calendar view for daily journal.** At a glance, view all your daily journal notes along with indicators displaying how much you've written each day. [[See it in action.|dendron.ref.web-ui#dendron-calendar-view]]
 - **Set default for daily journal notes.** When you've got multiple vaults, it's a pain to keep having to remember which vault should contain your daily journal. No more! The fix for [#628](https://github.com/dendronhq/dendron/issues/628) is here. 
 - **Airtable pod.** We 💖 Airtable at Dendron and for fellow Airheads (that's a thing right?) we built this pod so you can export your notes to an Airtable base. More details [[here|dendron.topic.pod.builtin.airtable]]
-- **Graph view can now be filtered** by vault or by regex (on note name)
+- **Graph view can now be filtered** 
 
 ### Docs
 
