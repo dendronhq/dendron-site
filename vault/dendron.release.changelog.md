@@ -2,12 +2,36 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1624072395386
+updated: 1624246295433
 created: 1601508213606
 date: '2022-01-01'
 ---
 
-## 0.46.1
+
+## 0.46.3
+
+### Features
+
+#### Export Markdown to Folders 
+
+@jonathan -> [[Export|dendron.topic.pod.builtin.markdown.export]]
+
+### Enhancements
+- support default daily journal note 
+
+@kevin
+
+### Bug Fixes
+- `lookupConfirmVaultOnCreate` is respected when creating a daily journal
+
+### Pruning
+
+### House Cleaning
+
+### Docs
+
+
+## 0.46.2
 
 ### Features
 
@@ -33,6 +57,11 @@ date: '2022-01-01'
 ### House Cleaning
 - remove `dendorn markdonw links` and `github theme` as recommended extensions at startup
 - defaultJournal* commands have been moved to `journal` property in `dendron.yml` ([[docs|dendron.topic.config.dendron#journal]])
+
+## 0.46.1
+
+### Bug Fixes
+- issue with publishing using dendron cli
 
 ## 0.46
 ## 0.45.3
