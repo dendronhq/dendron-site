@@ -1,8 +1,8 @@
 ---
 id: SRqCvd66cO4L5OZ-B0PKG
-title: 2021-06-21
+title: Release Notes (version 0.47)
 desc: ''
-updated: 1624310463722
+updated: 1624316729624
 created: 1624287990476
 ---
 
