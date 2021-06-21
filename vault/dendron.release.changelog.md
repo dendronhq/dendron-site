@@ -1,8 +1,8 @@
 ---
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
-desc: ""
-updated: 1624305713675
+desc: ''
+updated: 1624316482856
 created: 1601508213606
 date: "2022-01-01"
 ---
@@ -11,31 +11,12 @@ date: "2022-01-01"
 
 ## 0.46.3
 
-### Features
-
-#### Export Markdown to Folders
-
-@jonathan -> [[Export|dendron.topic.pod.builtin.markdown.export]]
-
-#### Filter Graph by Vault
-
-@henry → [[Filter Graph by Vault | dendron.topic.graph-view#vaults,1:#rfcs]]
-
 ### Enhancements
-
--   support default daily journal note
-
-@kevin
+- support default daily journal vault ([[docs|dendron.topic.config.dendron#dailyvault]])
 
 ### Bug Fixes
 
 -   `lookupConfirmVaultOnCreate` is respected when creating a daily journal
-
-### Pruning
-
-### House Cleaning
-
-### Docs
 
 ## 0.46.2
 

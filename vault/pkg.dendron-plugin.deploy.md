@@ -2,7 +2,7 @@
 id: 2976e5df-c8b4-4176-9d3f-fe4220dfa9b6
 title: Deploy
 desc: ''
-updated: 1623457293989
+updated: 1624315861456
 created: 1613863275374
 ---
 
@@ -144,8 +144,9 @@ echo "patching 11ty
 ```sh
 echo "creating release..."
 ./bootstrap/scripts/createRelease.sh
-echo "patching 11ty
+echo "patching 11ty"
 ./bootstrap/scripts/patch11tyVersion.sh
+echo "done"
 ```
 
 
