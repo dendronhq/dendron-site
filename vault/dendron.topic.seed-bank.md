@@ -2,12 +2,11 @@
 id: 6ff8cbb6-e4b8-449b-a967-277b76e4ecef
 title: Seed Bank
 desc: ''
-updated: 1624071082718
+updated: 1624296683433
 created: 1607621369889
 ---
 
 ## Summary
-- [[Early Seed 🌱|dendron.ref.status#early-seed-]]
 
 The Seed Bank is an open database of [[workspaces|dendron.ref.workspace]] (seeds) that anyone can access and contribute to. 
 

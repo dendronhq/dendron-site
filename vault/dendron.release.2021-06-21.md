@@ -2,7 +2,7 @@
 id: SRqCvd66cO4L5OZ-B0PKG
 title: 2021-06-21
 desc: ''
-updated: 1624296447910
+updated: 1624296573045
 created: 1624287990476
 ---
 
@@ -11,7 +11,7 @@ Dendron 0.47 has sprouted  🌱
 
 ### Highlights
 - **Seed bank in preview**! This marks a meaningful step towards modularizing knowledge to make it easy to compose existing information and build upon it. We invite you to [[get started here.|dendron.topic.seed-bank]]
-- **Calendar view for daily journal.** At a glance, view all your daily journal notes along with indicators displaying how much you've written each day. 
+- **Calendar view for daily journal.** At a glance, view all your daily journal notes along with indicators displaying how much you've written each day. [[See it in action.|dendron.ref.web-ui#dendron-calendar-view]]
 -**Set default for daily journal notes.** When you've got multiple vaults, it's a pain to keep having to remember which vault should contain your daily journal. No more! The fix for [#628](https://github.com/dendronhq/dendron/issues/628) is here. 
 - **Airtable pod.** We 💖 Airtable at Dendron and for fellow Airheads (that's a thing right ...), we built this pod so you can export your notes to an Airtable base. More details [[here|dendron.topic.pod.builtin.airtable]]
 - **Graph view can now be filtered** by vault or by regex (on note name)
