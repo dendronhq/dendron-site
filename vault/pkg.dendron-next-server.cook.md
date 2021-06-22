@@ -2,7 +2,7 @@
 id: 1698aef0-efd4-4c92-a3b0-5ca702b228a3
 title: Cook
 desc: ''
-updated: 1623864400684
+updated: 1624320975618
 created: 1621376746723
 ---
 
@@ -106,3 +106,9 @@ Look for the following html in the webview debugger.
 The developer tools inside VSCode is limited. If you want to use all the power of chrome when debugging, you'll want to visit the webview using chrome.
 
 See [[instructions|pkg.dendron-next-server.dev#^MgEdJdyD]] for connecting to a workspace using the browser
+
+
+### Passing Query Parameters
+
+- [generating query params](https://github.com/dendronhq/dendron/blob/feat-note-view/packages/dendron-next-server/pages/vscode/note-preview.tsx#L31:L31)
+- [Consuming query params in the view](https://github.com/dendronhq/dendron/blob/feat-note-view/packages/dendron-next-server/pages/vscode/note-preview.tsx#L31:L31)

@@ -2,10 +2,9 @@
 id: ebf58a4a-18f8-498d-95eb-04d856c0a000
 title: Arch
 desc: ''
-updated: 1624245554607
+updated: 1624400446517
 created: 1619535999168
 ---
-
 
 
 ## Initialization
@@ -30,6 +29,7 @@ sequenceDiagram
 ```
 
 - [Video walkthrough](https://youtu.be/nWJCP1DR5Io)
+
 
 ## Indexing
 For indexing, would use [fusejs](https://fusejs.io/) - this is the same indexing mechanism as we do for lookup. 

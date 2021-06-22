@@ -2,7 +2,7 @@
 id: 04dd9ad8-3d81-4098-a661-21b6acc6f443
 title: Cook
 desc: ''
-updated: 1623950890750
+updated: 1624385665063
 created: 1621721485330
 ---
 
@@ -185,6 +185,15 @@ clipboard.writeText(link);
 
 ### Insert Text
 - src/commands/InsertNoteCommand.ts
+
+```ts
+  const editor = VSCodeUtils.getActiveTextEditor()!;
+  const pos = editor.selection.active;
+  await editor.edit((builder) => {
+    const selection = new Selection(pos, pos);
+    builder.replace(selection, txt);
+  });
+```
 
 ### Prompt User for Input using Selection
 
