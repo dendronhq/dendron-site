@@ -2,7 +2,7 @@
 id: f143ca38-dcc6-4cd3-b84b-997aec1160ef
 title: Rfc
 desc: ""
-updated: 1623680232045
+updated: 1624365636743
 created: 1605539111635
 stub: false
 ---
@@ -22,8 +22,8 @@ future state of the system and to discover projects for contribution.
 | ----------------------------------------------------------------------------- | ------------------------------------------------------------------------------ | ---------------------------------------------- | ----------------- |
 | [7](https://wiki.dendron.so/notes/c998c642-a748-4f77-9285-cfec35330251.html)  | [Graph Rework](https://github.com/dendronhq/dendron/discussions/615)           | [@HFellerhoff](https://github.com/hfellerhoff) | 👷 implementing   |
 | [10](https://wiki.dendron.so/notes/95f7193b-9940-42ba-841f-3e2a4d937ba3.html) | [Block References](https://github.com/dendronhq/dendron/discussions/685)       | [@SeriousBug](https://github.com/SeriousBug)   | 👷 implementing   |
-| [11](https://wiki.dendron.so/notes/ba8cf4c5-6254-4eca-8072-8001ca5afda7.html) | [Better Tree View]()                                                           | [@kevin](https://github.com/kevinslin)         | 👷 implementing   |
-| [14](https://wiki.dendron.so/notes/4039fc46-06b2-4f83-b817-fc490bafbcb3.html) | [Seed Registry](https://github.com/dendronhq/dendron/discussions/802)          | [@kevin](https://github.com/kevinslin)         | 👷 implementing   |
+| [11](https://wiki.dendron.so/notes/ba8cf4c5-6254-4eca-8072-8001ca5afda7.html) | [Better Tree View]()                                                           | [@kevin](https://github.com/kevinslin)         | 1️⃣ phase one done   |
+| [14](https://wiki.dendron.so/notes/4039fc46-06b2-4f83-b817-fc490bafbcb3.html) | [Seed Registry](https://github.com/dendronhq/dendron/discussions/802)          | [@kevin](https://github.com/kevinslin)         | 1️⃣ phase one done   |
 | [12](https://wiki.dendron.so/notes/8bc80164-6436-4c77-8077-7842f53a4a23.html) | [Schema Improvements](https://github.com/dendronhq/dendron/discussions/727)    | [@kevin](https://github.com/kevinslin)         | 💡 proposed       |
 | [1](https://wiki.dendron.so/notes/17c61d62-f92e-4002-b8fe-9c05686e4bf9.html)  | [Dendron: Next Edition]()                                                      | [@kevin](https://github.com/kevinslin)         | 💡 proposed       |
 | [3](https://wiki.dendron.so/notes/ceca23ee-6181-4fa6-9724-9943433c6e96.html)  | [Standalone Vaults]()                                                          | [@kevin](https://github.com/kevinslin)         | 💡 proposed       |
@@ -34,7 +34,7 @@ future state of the system and to discover projects for contribution.
 | [9](https://wiki.dendron.so/notes/d2f8fe67-36c7-4600-b745-c22bdcb5b2cf.html)  | [Note Lifecycle Plugins](https://github.com/dendronhq/dendron/discussions/680) | [@kevin](https://github.com/kevinslin)         | 1️⃣ phase one done |
 | [2](https://wiki.dendron.so/notes/ae4a0c98-e2ea-47e0-8a20-016eba3424be.html)  | [Managed Publishing]()                                                         | [@kevin](https://github.com/kevinslin)         | ✅ done           |
 | [13]()                                                                        | [Todo Notes]()                                                                 | [@kevin](https://github.com/kevinslin)         | draft             |
-| [15]()                                                                        | [Browser Based Dendron]()                                                              | [@kpats](https://github.com/kpathakota)         | draft             |
+| [15]()                                                                        | [Browser Based Dendron]()                                                      | [@kpats](https://github.com/kpathakota)        | draft             |
 
 ## What is an RFC?
 
