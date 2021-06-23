@@ -2,7 +2,7 @@
 id: f83c1d87-eac0-48f3-a5cf-8a69989d8ec1
 title: Dendrons Config
 desc: ''
-updated: 1624071454935
+updated: 1624315648216
 created: 1619539817122
 ---
 
@@ -124,6 +124,14 @@ See [[Vault Configuration|dendron.ref.vaults#configuration]]
 ### dailyDomain
 - type: string
 - default: daily
+
+### dailyVault
+- type: string
+- default: none
+
+Name of vault where daily journal should be in. If not set, default to current open vault.
+
+### dailyVault
 
 domain where daily journals are kept
 ### name

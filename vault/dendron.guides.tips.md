@@ -313,14 +313,6 @@ You can see a video of this workflow in the video below.
 <a href="https://www.loom.com/share/dd27df6d556d4ba6b28b2028ca7d1455"> 
 <img style="" src="https://cdn.loom.com/sessions/thumbnails/dd27df6d556d4ba6b28b2028ca7d1455-with-play.gif"> </a>
 
-### Always show preview of md being edited
-
-Set the following option in your workspace settings
-
-```json
-"markdown-preview-enhanced.automaticallyShowPreviewOfMarkdownBeingEdited": true,
-```
-
 
 ## Snippets
 
