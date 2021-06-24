@@ -2,7 +2,7 @@
 id: f2ed8639-a604-4a9d-b76c-41e205fb8713
 title: Configuration
 desc: ''
-updated: 1623003391757
+updated: 1624552124573
 created: 1608528797892
 nav_order: 3
 ---
@@ -372,6 +372,15 @@ vaults:
 ## Note Configuration
 
 You can specify how notes are published via the frontmatter of each note. 
+
+### canonicalUrl
+- default: undefined
+
+If set, adds CANONICAL_URL when publishing
+
+```html
+<link rel="canonical" href="CANONICAL_URL" />
+```
 
 ### published
 

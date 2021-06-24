@@ -1,7 +1,7 @@
 version: 1
 schemas:
-- id: pro
-  desc: projects
+- id: pkg
+  desc: a package
   parent: root
   namespace: true
   children:

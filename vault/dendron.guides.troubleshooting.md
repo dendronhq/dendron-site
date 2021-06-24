@@ -2,7 +2,7 @@
 id: a6c03f9b-8959-4d67-8394-4d204ab69bfe
 title: Troubleshooting
 desc: ''
-updated: 1624214864772
+updated: 1624375901746
 created: 1595952505025
 ---
 ## Diagnosing
@@ -54,7 +54,18 @@ npm info @dendronhq/dendron-11ty
   }
   ```
 
+### Cannot read property 'name' of undefined
 
+This is an issue with upgrading to 0.47.0. If you are encountering this, you'll want to copy the following into `dendron.yml`
+
+```yml
+journal:
+    dailyDomain: daily
+    name: journal
+    dateFormat: y.MM.dd
+    addBehavior: childOfDomainNamespace
+    firstDayOfWeek: 1
+```
 
 ## Common Fixes
 

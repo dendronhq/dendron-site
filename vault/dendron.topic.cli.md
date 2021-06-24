@@ -2,7 +2,7 @@
 id: 23a1b942-99af-45c8-8116-4f4bb7dccd21
 title: Dendron CLI
 desc: ''
-updated: 1623863643337
+updated: 1624553601575
 created: 1600033791071
 ---
 
@@ -25,7 +25,7 @@ npm install -g @dendronhq/dendron-cli@latest
 
 ### wsRoot
 
-This only needs to be set if you are not executing the CLI from within the root of your [[workspace|dendron.concepts#workspace]]
+This only needs to be set if you are not executing the CLI from within the root of your [[workspace|dendron.concepts#workspace]] or in a subdirectory of an existing workspace
 
 ### vault
 
