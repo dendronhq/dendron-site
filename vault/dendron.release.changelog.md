@@ -2,7 +2,7 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1624560307842
+updated: 1624573944988
 created: 1601508213606
 date: "2022-01-01"
 ---
@@ -10,19 +10,16 @@ date: "2022-01-01"
 ## 0.47.2
 
 ### Features
-
 -   [[Markdown Pod|dendron.topic.pod.builtin.markdown.export]] supports exporting to folders
+-   Support filtering graph by regex ([[docs|dendron.topic.graph-view#string-filters]])
+-   Support filtering graph by stubs ([[docs|dendron.topic.graph-view#other-filters]])
 
 ### Enhancements
 
--   support filtering graph by regex ([[docs|dendron.topic.graph-view#string-filters]])
--   support filtering graph by stubs ([[docs|dendron.topic.graph-view#other-filters]])
 -   don't update update time in note if content hasn't changed
 -   bad note frontmatter won't crash workspace
 -   support canonical url option when publishing ([[docs|dendron.topic.publishing.configuration#canonicalurl]])
 -   dendron cli doesn't need `wsRoot` option if executing inside subdirectory of a workspace
-
-### Bug Fixes
 
 ### House Cleaning
 
