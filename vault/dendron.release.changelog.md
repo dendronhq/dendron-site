@@ -1,8 +1,8 @@
 ---
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
-desc: ''
-updated: 1624557872084
+desc: ""
+updated: 1624557976924
 created: 1601508213606
 date: "2022-01-01"
 ---
@@ -11,31 +11,34 @@ date: "2022-01-01"
 
 ### Features
 
-- [[Markdown Pod|dendron.topic.pod.builtin.markdown.export]] supports exporting to folder structure. 
+-   [[Markdown Pod|dendron.topic.pod.builtin.markdown.export]] supports exporting to folder structure.
 
 ### Enhancements
-- support filtering graph by regex #todo [[user.henry]]
-- support filtering graph by stubs #todo [[user.henry]]
-- don't update update time in note if content hasn't changed
-- bad note frontmatter won't crash workspace
-- support canonical url option when publishing ([[docs|dendron.topic.publishing.configuration#canonicalurl]])
-- dendron cli doesn't need `wsRoot` option if executing inside subdirectory of a workspace
+
+-   support filtering graph by regex ([[docs|dendron.topic.graph-view#string-filters]])
+-   support filtering graph by stubs ([[docs|dendron.topic.graph-view#other-filters]])
+-   don't update update time in note if content hasn't changed
+-   bad note frontmatter won't crash workspace
+-   support canonical url option when publishing ([[docs|dendron.topic.publishing.configuration#canonicalurl]])
+-   dendron cli doesn't need `wsRoot` option if executing inside subdirectory of a workspace
 
 ### Bug Fixes
+
 ### House Cleaning
 
 ## 0.47.1
 
 ### Bug Fixes
 
-- issue with upgrade causing lookup to fail
+-   issue with upgrade causing lookup to fail
 
 ## 0.47
 
 ## 0.46.3
 
 ### Enhancements
-- support default daily journal vault ([[docs|dendron.topic.config.dendron#dailyvault]])
+
+-   support default daily journal vault ([[docs|dendron.topic.config.dendron#dailyvault]])
 
 ### Bug Fixes
 
