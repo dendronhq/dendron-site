@@ -2,7 +2,7 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1624553619051
+updated: 1624557872084
 created: 1601508213606
 date: "2022-01-01"
 ---
@@ -11,9 +11,9 @@ date: "2022-01-01"
 
 ### Features
 
+- [[Markdown Pod|dendron.topic.pod.builtin.markdown.export]] supports exporting to folder structure. 
 
 ### Enhancements
-- support for Workspace Trust #todo [[user.jonathan]]
 - support filtering graph by regex #todo [[user.henry]]
 - support filtering graph by stubs #todo [[user.henry]]
 - don't update update time in note if content hasn't changed
