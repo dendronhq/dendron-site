@@ -1,8 +1,8 @@
 ---
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
-desc: ""
-updated: 1624557976924
+desc: ''
+updated: 1624560307842
 created: 1601508213606
 date: "2022-01-01"
 ---
@@ -11,7 +11,7 @@ date: "2022-01-01"
 
 ### Features
 
--   [[Markdown Pod|dendron.topic.pod.builtin.markdown.export]] supports exporting to folder structure.
+-   [[Markdown Pod|dendron.topic.pod.builtin.markdown.export]] supports exporting to folders
 
 ### Enhancements
 

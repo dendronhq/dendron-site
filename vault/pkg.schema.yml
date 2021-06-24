@@ -14,7 +14,9 @@ schemas:
     - lifecycle
     - ops
     - dev
+    - changelog
 - id: lifecycle
+- id: changelog
 - id: qa
   desc: |
     How to run debugger and tests
