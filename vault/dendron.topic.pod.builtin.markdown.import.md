@@ -2,7 +2,7 @@
 id: f23a6290-2dec-45dc-b616-c218ee53db6b
 title: Import
 desc: ''
-updated: 1617328313674
+updated: 1624551815400
 created: 1617327950468
 ---
 
@@ -81,7 +81,7 @@ A naive import into dendron will result in the following files
 └── foo.two.md
 ```
 
-If you set `indexName` to `readme` (matching is case insensitive and doesn't require the extension), the import will result in the following instead
+If you set `indexName` to `index` (matching is case insensitive and doesn't require the extension), the import will result in the following instead
 
 ```
 .

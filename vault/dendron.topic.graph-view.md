@@ -2,7 +2,7 @@
 id: 587e6d62-3c5b-49b0-aedc-02f62f0448e6
 title: Graph View
 desc: ""
-updated: 1624305540263
+updated: 1624558162889
 created: 1595120707814
 stub: false
 ---
@@ -40,6 +40,28 @@ In the top left of both the note and schema graphs lives the graph filter view. 
 
 -   **Hierarchy:** When checked, include hierarchical graph connections
 -   **Links:** When checked, include linked note connections
+
+### Filter
+
+This view contains various options to filter the graph.
+
+#### String Filters
+
+Use these string filters to include/exclude graph nodes by filename or name. These fields support multiple arguments in the form of a comma-separated or space-separated list.
+
+-   **Allowlist**: Graph nodes including any of these string arguments will be **included** in the graph
+-   **Blocklist**: Graph nodes including any of these string arguments will be **excluded** from the graph
+
+Here's a quick example:
+
+-   Allow: `journal.2021, dog`
+    -   Include any notes that include either `journal.2021` or `dog` in their name or filename
+-   Block: `cat`
+    -   Exclude any notes with `cat` in their name or filename
+
+#### Other Filters
+
+-   **Show Stubs**: When checked, show stub notes in the graph
 
 ### Vaults
 

@@ -2,19 +2,27 @@
 id: 60fbcc05-df2a-44a2-aa0e-cdd62c2557b6
 title: Qa
 desc: ''
-updated: 1622933746174
+updated: 1624400634450
 created: 1614812225185
 ---
 
-## Local
+# Local
 
-### Debug
+## Debug
 
 Use `Launch Task` and run `Debug One Test (engine-test-utils)` on a `spec` file that you want to test. This will run the test in `debug` mode which will enable breakpoints. 
 
-### Test:Unit
+## Test:Unit
 
-#### Engine
+### Writing
+
+All engine test need to be able to run both over the [[Engine|dendron.dev.design#engine]] as well as the [[Engine Client|dendron.dev.design#engine-client]]. 
+This is why tests are added to `common-test-utils/src/presets/engine-server`.
+
+
+## Cook
+
+### Running a single test
 Engine tests use the presets in `common-test-utils/src/presets/engine-server/index.ts` to run through a wide range of scenarios.
 
 In order to narrow the test case to a single preset, use `getPreset`.
@@ -27,20 +35,19 @@ test.only("bond", async () => {
 });
 ```
 
+## Test:Integration
 
-### Test:Integration
+# Remote
 
-## Remote
+## Debug
 
-### Debug
+## Test:Unit
 
-### Test:Unit
+## Test:Integration
 
-### Test:Integration
+# Topics
 
-## Topics
-
-### Unified Tests
+## Unified Tests
 These tests cover everything related to `unified` plugins. This refers to anything in packages/engine-server/src/markdown/utils.ts
 
 - plugin tests are located in `packages/engine-test-utils/src/__tests__/engine-server/markdown/`
