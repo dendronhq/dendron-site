@@ -2,7 +2,7 @@
 id: 587e6d62-3c5b-49b0-aedc-02f62f0448e6
 title: Graph View
 desc: ""
-updated: 1624554508709
+updated: 1624558162889
 created: 1595120707814
 stub: false
 ---
@@ -49,14 +49,14 @@ This view contains various options to filter the graph.
 
 Use these string filters to include/exclude graph nodes by filename or name. These fields support multiple arguments in the form of a comma-separated or space-separated list.
 
--   **Whitelist**: Graph nodes including any of these string arguments will be **included** in the graph
--   **Blacklist**: Graph nodes including any of these string arguments will be **excluded** from the graph
+-   **Allowlist**: Graph nodes including any of these string arguments will be **included** in the graph
+-   **Blocklist**: Graph nodes including any of these string arguments will be **excluded** from the graph
 
 Here's a quick example:
 
--   Whitelist: `journal.2021, dog`
+-   Allow: `journal.2021, dog`
     -   Include any notes that include either `journal.2021` or `dog` in their name or filename
--   Blacklist: `cat`
+-   Block: `cat`
     -   Exclude any notes with `cat` in their name or filename
 
 #### Other Filters
