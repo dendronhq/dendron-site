@@ -127,4 +127,6 @@ When you add a new API to the engine, it needs to be added in both the types and
    - [Store](https://github.com/dendronhq/dendron/blob/dev/packages/engine-server/src/drivers/file/storev2.ts#L1:L1): engine methods usually operate on the storage layer (eg. write to disk, read from disk) and so store methods often need to be updated
    - [Engine](https://github.com/dendronhq/dendron/blob/dev/packages/engine-server/src/enginev2.ts#L68:L68): actual engine implementation
    - [DendronApi](https://github.com/dendronhq/dendron/blob/dev/packages/common-all/src/api.ts#L264:L264): used by engine client to call the express server 
+   - [API Server Routes](https://github.com/dendronhq/dendron/tree/master/packages/api-server/src/routes): where the server handles the call from engine client
+   - [DendronEngineClient](https://github.com/dendronhq/dendron/blob/master/packages/engine-server/src/engineClient.ts#L55): Implements the call from engine client to API
    - [DEngineClient](https://github.com/dendronhq/dendron/blob/dev/packages/engine-server/src/engineClient.ts#L55:L55): wrapper around `DendronAPI` that mirrors the `Engine` API
