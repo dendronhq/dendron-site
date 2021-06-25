@@ -2,7 +2,7 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1624574293624
+updated: 1624591485975
 created: 1601508213606
 date: "2022-01-01"
 ---
@@ -20,6 +20,9 @@ date: "2022-01-01"
 -   bad note frontmatter won't crash workspace
 -   support canonical url option when publishing ([[docs|dendron.topic.publishing.configuration#canonicalurl]])
 -   dendron cli doesn't need `wsRoot` option if executing inside subdirectory of a workspace
+-   - VS Code Workspace Trust: Dendron now supports Workspace Trust as 'limited in restricted mode' - all Dendron functionality will work except for hooks. For more information see [VS Code Workspace Trust](https://code.visualstudio.com/docs/editor/workspace-trust)
+
+
 
 ## 0.47.1
 
