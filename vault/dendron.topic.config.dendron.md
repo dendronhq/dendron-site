@@ -2,7 +2,7 @@
 id: f83c1d87-eac0-48f3-a5cf-8a69989d8ec1
 title: Dendrons Config
 desc: ''
-updated: 1624315648216
+updated: 1624601891270
 created: 1619539817122
 ---
 
@@ -107,6 +107,12 @@ If set to false, don't use [[pretty refs|dendron.ref.terms#pretty-ref]]
 See [[workspace sync configuration options|dendron.ref.workspace#configuration-options]] for valid options.
 
 Sets the [[synchronization strategy|dendron.ref.workspace#Workspace: Sync]] for [[workspace vaults|dendron.ref.vaults#workspace-vault]]. For regular vaults, please use the [[per-vault configuration|dendron.ref.vaults#sync]].
+
+### autoFoldFrontmatter
+- default: false
+
+When set to true, Dendron will automatically fold the frontmatter when opening new notes.
+This includes newly created notes, and existing notes that are being opened for the first time in this session of Visual Studio Code.
 
 ### defaultDailyJournalVault
 
