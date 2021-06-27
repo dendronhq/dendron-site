@@ -2,7 +2,7 @@
 id: 7fcebd7d-6411-4c9d-8baf-65629dc018a1
 title: Principles
 desc: ''
-updated: 1619212498244
+updated: 1624755623806
 created: 1600440828180
 stub: false
 nav_order: 1.3
@@ -19,6 +19,10 @@ Dendron should be the fastest way for **people** to access the information they 
 ### Scale
 
 Dendron should become easier to use as you accumulate more notes. 
+
+### Sensible Defaults
+
+Dendron, while being configurable, should have defaults such that work for most people out of the box. 
 
 ### Ownership
 
