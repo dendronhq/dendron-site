@@ -2,7 +2,7 @@
 id: nB_CscjeWXqMfdcHfP7iX
 title: Release Notes (version 0.48)
 excerpt: "Export to folders, better handling of merges, and lots of QoL improvements"
-updated: 1624909289355
+updated: 1624910601530
 created: 1624886454307
 ---
 
@@ -47,9 +47,14 @@ A big **thanks** to the following gardeners that brought up issues, contribution
 - [Kaan Genc](https://github.com/SeriousBug) @SeriousBug#6848
   - `+horticulturalist`
   - [Notes failing to parse no longer crashes Dendron and more](https://github.com/dendronhq/dendron/pull/855)
+  - [Using an invalid note name during Move Note breaks future moves as well](https://github.com/dendronhq/dendron/issues/869)
 - [Jonathan Yeung](https://github.com/jonathanyeung) @mobius#6646
   - `+horticulturalist`
   - [Improved Import pod error recovery](https://github.com/dendronhq/dendron/pull/865)
+- [8Brandon](https://github.com/8brandon) @8brandon#3208
+  - [0.47 issue on initial install, fixed by downgrading and upgrading ](https://github.com/dendronhq/dendron/issues/857)
+- [LoPawlie](https://github.com/LoPawlie)
+  - [Having '.md' anywhere inside new note name will break title generation](https://github.com/dendronhq/dendron/issues/856)
 
 
 You can see an overview of all roles [[here|dendron.community.roles]]
