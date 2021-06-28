@@ -194,13 +194,13 @@ Adding new packages is a rarer event but might require a workspace rebuild
 
 ```sh
 # clean up old files (this might take a few minutes)
-./bootscrap/scripts/cleanup.sh
+./bootstrap/scripts/cleanup.sh
 
 # install all dependencies
 lerna bootstrap
 
 # build all dependencies
-./bootscrap/scripts/build.sh
+./bootstrap/scripts/build.sh
 ```
 
 
