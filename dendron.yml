@@ -37,3 +37,4 @@ journal:
     addBehavior: childOfDomain
     firstDayOfWeek: 1
 dendronVersion: 0.47.1
+autoFoldFrontmatter: true

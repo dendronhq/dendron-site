@@ -2,7 +2,7 @@
 id: a49370b7-fe61-4174-bf85-f67d15fa35ff
 title: Qa
 desc: ''
-updated: 1623965848061
+updated: 1624851705289
 created: 1614837254472
 ---
 
@@ -13,5 +13,5 @@ See the `build-site` inside `tasks.json` for an example.
 
 Alternatively, you can use the following in the CLI
 ```sh
-node --inspect-brk $ROOT/packages/dendron-cli/lib/bin/dendron.js 
+env LOG_LEVEL=debug node --inspect $ROOT/packages/dendron-cli/lib/bin/dendron-cli.js buildSite --stage dev 
 ```

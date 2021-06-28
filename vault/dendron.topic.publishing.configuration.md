@@ -2,7 +2,7 @@
 id: f2ed8639-a604-4a9d-b76c-41e205fb8713
 title: Configuration
 desc: ''
-updated: 1624552124573
+updated: 1624909741188
 created: 1608528797892
 nav_order: 3
 ---
@@ -471,6 +471,15 @@ When you publish, you might only want to show the leaf nodes and skip the interm
 
 Sort items in a collection page. Ascending by default. Specify `reverse` to sort in descending order.
 
+### seo options
+
+#### image
+
+Sets image url for the page. Shows up in twitter card preview
+
+#### excerpt
+
+Sets a custom `og:description` tag for the particular page
 ## Line Configuration
 
 You can control publication on a per line basis.

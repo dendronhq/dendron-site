@@ -36,6 +36,10 @@ The schema graph shows high level connections between a vault's `root` schema an
 
 In the top left of both the note and schema graphs lives the graph filter view. This UI element contains information about the graph and various filtering options.
 
+### Vaults
+
+This view contains a list of each vault in the workspace. The visibility of each vault in the graph can be toggled to better filter the graph.
+
 ### Connections
 
 -   **Hierarchy:** When checked, include hierarchical graph connections
@@ -63,9 +67,18 @@ Here's a quick example:
 
 -   **Show Stubs**: When checked, show stub notes in the graph
 
-### Vaults
+### Options
 
-This view contains a list of each vault in the workspace. The visibility of each vault in the graph can be toggled to better filter the graph.
+-   **Allow Relayout**: When checked, layout the graph again when the graph configuration is updated.
+    -   This is useful in instances you'd like to preserve the current layout but add/remove information, e.g. adding link connections to a hierarchical graph while maintaining readability
+
+### Information
+
+Primarily for debugging, this section has information about graph size. Edge counts are calculated individually from the actual rendered edges, so may not represent the true rendered count if a certain type of edge is hidden.
+
+-   **Linked Edges**: Number of linked connections between nodes
+-   **Hierarchical Edges**: Number of hierarchical connections between nodes
+-   **Nodes**: Number of nodes in the graph
 
 ## RFCs
 
