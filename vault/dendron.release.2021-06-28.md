@@ -1,8 +1,8 @@
 ---
 id: nB_CscjeWXqMfdcHfP7iX
 title: Release Notes (version 0.48)
-desc: ''
-updated: 1624899501948
+excerpt: "Export to folders, better handling of merges, and lots of QoL improvements"
+updated: 1624909289355
 created: 1624886454307
 ---
 

@@ -2,12 +2,22 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1624889696937
+updated: 1624909767813
 created: 1601508213606
 date: "2022-01-01"
 ---
 
 ## 0.48
+
+## 0.47.3
+
+### Features
+
+### Enhancements
+- autofolding frontmatter ([[docs|dendron.topic.config.dendron#autofoldfrontmatter]])
+- position cursor to end of file when new note created
+- new seo frontmatter options when publishing ([[docs|dendron.topic.publishing.configuration#seo-options]])
+
 ## 0.47.2
 
 ### Features

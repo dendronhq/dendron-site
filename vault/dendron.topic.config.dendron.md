@@ -109,7 +109,7 @@ See [[workspace sync configuration options|dendron.ref.workspace#configuration-o
 Sets the [[synchronization strategy|dendron.ref.workspace#Workspace: Sync]] for [[workspace vaults|dendron.ref.vaults#workspace-vault]]. For regular vaults, please use the [[per-vault configuration|dendron.ref.vaults#sync]].
 
 ### autoFoldFrontmatter
-- default: false
+- default: true
 
 When set to true, Dendron will automatically fold the frontmatter when opening new notes.
 This includes newly created notes, and existing notes that are being opened for the first time in this session of Visual Studio Code.
