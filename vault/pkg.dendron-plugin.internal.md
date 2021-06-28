@@ -2,9 +2,56 @@
 id: 4b8f0470-dacb-433b-8d0c-f5a7d8f5245d
 title: Lookup
 desc: ''
-updated: 1618781640046
+updated: 1624833521188
 created: 1608838048476
 ---
+
+
+## Preview
+
+### VSCode LifeCycle
+- WindowWatcher 
+```ts
+onDidChangeActiveTextEditor {
+  ...
+  triggerNotePreviewUpdate {
+    ...
+    ShowPreviewV2Command.updateMarkdown
+  }
+}
+```
+
+- ShowPreview
+```ts
+updateMarkdown {
+  @webview.post {
+    type: onDidChangeActiveTextEditor,
+    data: {
+      note
+    }
+  }
+}
+
+```
+
+### Webview LifeCycle
+- WebView
+```ts
+onDidReceiveMessage(msg) {
+  switch(msg.type) {
+    case onClick {
+    }
+    case onGetActiveEditor {
+
+    }
+  }
+
+}
+```
+
+
+
+## Bucket
 ```ts
 show {
     quickpick := create
