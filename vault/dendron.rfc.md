@@ -2,7 +2,7 @@
 id: f143ca38-dcc6-4cd3-b84b-997aec1160ef
 title: Rfc
 desc: ""
-updated: 1624365636743
+updated: 1624942100540
 created: 1605539111635
 stub: false
 ---
@@ -35,6 +35,7 @@ future state of the system and to discover projects for contribution.
 | [2](https://wiki.dendron.so/notes/ae4a0c98-e2ea-47e0-8a20-016eba3424be.html)  | [Managed Publishing]()                                                         | [@kevin](https://github.com/kevinslin)         | ✅ done           |
 | [13]()                                                                        | [Todo Notes]()                                                                 | [@kevin](https://github.com/kevinslin)         | draft             |
 | [15]()                                                                        | [Browser Based Dendron]()                                                      | [@kpats](https://github.com/kpathakota)        | draft             |
+| [16](https://wiki.dendron.so/notes/NT1cFX6DRkTnzcWwduj2I.html)                | [Better Tags](https://github.com/dendronhq/dendron/discussions/885)            | [@SeriousBug](https://github.com/SeriousBug)   | 💡 proposed |
 
 ## What is an RFC?
 
