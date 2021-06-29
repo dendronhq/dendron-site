@@ -2,7 +2,7 @@
 id: 75dced84-4ebb-42c1-92bc-a5ed601446a2
 title: Lookupv3
 desc: ''
-updated: 1622165071562
+updated: 1624930792555
 created: 1619740761993
 ---
 
@@ -11,16 +11,17 @@ created: 1619740761993
 
 - src/commands/NoteLookupCommand.ts
 
+### Gather Input
 ```ts
 gatherInputs {
     lc = this._controller = LookupControllerV3.create
     this._provider = new NoteLookupProvider("lookup", {
-    lc.prepareQuickPickV
+    lc.prepareQuickPick
 }
 ```
 
 - src/components/lookup/LookupControllerV3.ts
-```
+```ts
 create {
     new LookupControllerV3
 }
@@ -28,9 +29,44 @@ create {
 constructor {
 
 }
+
+prepareQuickPick {
+    quickpick.onTriggerButton = @onDidTriggerButton
+    refreshButtons
+}
+
+showQuickPick {
+    provider.onUpdatePickerItems 
+
+}
+```
+
+## Modifiers
+
+### General
+
+```ts
+onDidTriggerButton(btn) {
+    find(btn, @state.buttons).pressed = btn.pressed
+    refreshPickerBehavior(@state.buttons)
+}
+```
+
+```ts
+refreshPickerBehavior {
+    buttonsEnabled :=
+    buttonsDisabled :=
+
+    buttonsEnabled.map bt => bt.onEnable
+    buttonsDisabled.map bt => bt.onDisable
+}
+
 ```
 
 
+## Accept
+
+### Accept Input
 - src/components/lookup/LookupProviderV3.ts
 ```ts
 onDidAccept {
