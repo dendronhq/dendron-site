@@ -37,7 +37,7 @@ The below is a collection of common fields that are collected
 |         `arch` |  _string_  | Client's operating system architecture (e.g. `amd64`).                                 |
 |           `os` |  _string_  | Client's operating system (e.g. `darwin`).                                             |
 | `nodeVersion` |  _string_  | Client's node version (e.g. `v12.12.0`).                                               |
-|    `anonymousId` |  _string_  | Random, non-identifiable signature UUID (e.g. `91b014df3-9dda-4a27-a8a7-15474fd899f8`) |
+|    `anonymousId` |  _string_  | Random, non-identifiable signature nanoID (e.g. `JC6NXxDa0lDFD1Mu7U2Ga`) |
 |    `timestamp` |  _string_  | When the request was made   |
 
 

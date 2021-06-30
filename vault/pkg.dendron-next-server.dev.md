@@ -3,7 +3,7 @@ id: 6293d9dc-9bd3-4b01-8428-34d8256f0a32
 title: Dev
 desc: |
   Development related
-updated: 1623867913567
+updated: 1624923212836
 created: 1621630111186
 ---
 
@@ -27,6 +27,7 @@ You can test the Dendron Next App by launching a workspace using the CLI and the
    # for example, if you launched the engine at /user/adam/workspace, WORKSPACE should equal /user/adam/workspace
    http://localhost:3000/vscode/sample?ws=$WORKSPACE&port=$PORT
    ```
+1. To test the UI with the plugin, see instructions to [[run the extension|dendron.dev.debug#run-extension]]. When running, make sure use `test-workspace` to access the UI
 
 Next Steps:
 - read the [[architecture|pkg.dendron-next-server.arch]] documents to understand how the next server fits in with other Dendron plugins and how to build on top of it

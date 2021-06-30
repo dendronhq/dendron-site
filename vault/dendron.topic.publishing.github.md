@@ -2,7 +2,7 @@
 id: 877f4347-f013-43ba-aec4-87412b2e1bec
 title: Github
 desc: ""
-updated: 1622899709165
+updated: 1624965063750
 created: 1608770937168
 ---
 
@@ -10,7 +10,7 @@ This guide describes publishing to github using github actions
 
 ## Pre-requisite
 
--   you already have your workspace under version control and a repository on github
+-   you already have your [[workspace under version control|dendron.topic.git]] and a repository on github
 -   you have [[configured|dendron.topic.publishing.quickstart.publishing-your-site#configure-your-notes-for-publication]] your `dendron.yml` for publication
 
 ## Checklist

@@ -30,7 +30,7 @@ The Dendron Calendar View lets you view your daily journal in calendar form.
 
 The Dendron Calendar View has the following capabilities:
 
-- Clicking on a given day date will open the corresponding dayil journal note
+- Clicking on a given day date will open the corresponding daily journal note
 - Clicking on a given day without a daily journal note will create one
 - Days without daily journal note are grayed out and days that contain an entry are displayed in white.
 - Shows indicators in the form of dots (max 5) to reflect the word count of that entry. Each dot repesents 250 words.
