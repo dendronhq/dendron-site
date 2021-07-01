@@ -2,7 +2,7 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1625116017066
+updated: 1625163001436
 created: 1601508213606
 date: "2022-01-01"
 ---
@@ -12,6 +12,8 @@ date: "2022-01-01"
 ### Features
 
 - native dendron preview @kevin
+- updated onboarding experience. 
+    - we'd appreciate feedback, try it out with `Dendron: Launch Tutorial`
 
 ### Enhancements
 - better validation for import pod
