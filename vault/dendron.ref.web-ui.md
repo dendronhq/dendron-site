@@ -2,7 +2,7 @@
 id: 25287595-96bb-410b-ab46-eb9a26b0e259
 title: Web UI
 desc: ''
-updated: 1624296674571
+updated: 1625167081470
 created: 1621552722494
 ---
 
@@ -22,12 +22,11 @@ To get started, set [[enableWebUI|dendron.topic.config.dendron#enablewebui]] to 
 
 This is an implementation of the [[Dendron Tree View|dendron.topic.workbench#dendron-tree-view]] using the Dendron Web UI. 
 
-### Dendron Calendar View
+### Calendar View
 
 The Dendron Calendar View lets you view your daily journal in calendar form.
 
-<a href="https://www.loom.com/share/f506aab0f6eb44fc8cd4dc79a367a309"><img src="https://cdn.loom.com/sessions/thumbnails/f506aab0f6eb44fc8cd4dc79a367a309-with-play.gif"></a>
-
+<!-- TODO: picture -->
 The Dendron Calendar View has the following capabilities:
 
 - Clicking on a given day date will open the corresponding daily journal note
@@ -51,7 +50,18 @@ The Dendron Calendar View has the following capabilities:
 ##### journal.firstDayOfWeek
 - default: 0
 
-Set start of week (eg. `0` for sunday, `1` for monday, `2` for tuesday, etc.)  for the [[Dendron Calendar View|dendron.topic.workbench#dendron-calendar-view]]
+Set start of week (eg. `0` for sunday, `1` for monday, `2` for tuesday, etc.)  for the [[Dendron Calendar View|dendron.topic.workbench#calendar-view]]
+
+### Preview
+- [[Early Seed 🌱|dendron.ref.status#early-seed-]]
+- [[Experimental 🧪|dendron.ref.status#experimental-🧪]]
+
+The Dendron Preview gives you a rich HTML preview for your notes. 
+
+#### Methods
+
+##### Show Preview V2
+Brings up the native Dendron Preview
 
 ## Theming
 

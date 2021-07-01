@@ -84,6 +84,17 @@ Events
 |      `source` |  _string_| What initiated the lookup? ("onValueChange", "updatePickerBehavior:journal", etc ) |
 |      `createNewNote` |  _boolean_| Was a new note created during this phase? |
 
+### Commands
+
+We collect an invocation metric when a [[commands|dendron.topic.commands]] is invoked. This is to measure command latency as well as detect errors in existing and new commands
+
+
+|          Field | Attributes | Description                                                                            |
+| -------------: | :--------: | :------------------------------------------------------------------------------------- |
+|      `error` |  _boolean_| Did an error happen during this phase? |
+|      `duration` |  _number_| How long did it take to execute this command|
+
+
 ### Other
 
 These are groupings of other metrics we collect. We collect them to gather performance impact and improvements across various features.

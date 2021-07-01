@@ -2,7 +2,7 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1625163001436
+updated: 1625167081460
 created: 1601508213606
 date: "2022-01-01"
 ---
@@ -11,12 +11,11 @@ date: "2022-01-01"
 
 ### Features
 
-- native dendron preview @kevin
-- updated onboarding experience. 
-    - we'd appreciate feedback, try it out with `Dendron: Launch Tutorial`
+- native dendron preview ([[docs|dendron.ref.web-ui#preview]])
+- updated onboarding experience ([[docs|dendron.topic.commands#launch-tutorial]])
 
 ### Enhancements
-- better validation for import pod
+- better validation for pods
 - higher contrast for nodes and edges
 - anchors and links are not updated in realtime (vs on file save)
 
@@ -31,7 +30,7 @@ date: "2022-01-01"
 
 ### House Cleaning
 - change blacklist/whitelist filter on graph to allow and deny list
-- add analytics around command invocation 
+- add analytics around command invocation  ([[docs|dendron.ref.telemetry#commands]])
 
 ## 0.48.1
 
@@ -94,7 +93,7 @@ date: "2022-01-01"
 
 #### Calendar View
 
-![[dendron://dendron-site/dendron.ref.web-ui#dendron-calendar-view,1:#*]]
+![[dendron://dendron-site/dendron.ref.web-ui#calendar-view,1:#*]]
 
 #### Airtable Pod
 

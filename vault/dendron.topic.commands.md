@@ -2,7 +2,7 @@
 id: eea2b078-1acc-4071-a14e-18299fc28f47
 title: Commands
 desc: ""
-updated: 1624315741527
+updated: 1625167541799
 created: 1595261816971
 ---
 
@@ -145,6 +145,11 @@ If the title is the same as what Dendron would autogenerate (kebab-case capitali
   - mac: `cmd+ctrl+p`
 
 Show Markdown Preview
+
+
+### Show Preview V2
+
+![[dendron://dendron-site/dendron.ref.web-ui#show-preview-v2,1:#*]]
 
 ---
 
@@ -335,6 +340,10 @@ Enable [[telemetry|dendron.ref.telemetry]] across all workspaces with Dendron
 ### Vault Remove
 
 ![[dendron://dendron-site/dendron.ref.vaults#vault-remove,1:#*]]
+
+### Launch Tutorial
+
+Prompt user to create an initial tutorial workspace and takes user through new tutorial
 
 ### Initialize Workspace
 
