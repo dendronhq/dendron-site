@@ -18,20 +18,20 @@ date: "2022-01-01"
 ### Enhancements
 - better validation for import pod
 - higher contrast for nodes and edges
+- anchors and links are not updated in realtime (vs on file save)
 
 ### Bug Fixes
-- horizontal line folded as frontmatter
-- default config sometimes not applied
+- workbench: horizontal line folded as frontmatter
+- workbench: default config sometimes not applied
+- calendar: pop up on save even when hidden
+- calendar: navigating to new month creates new note
 - graph: toggling stub filter can fail
 - graph: lookup for insert and rename note doesn't return all results
 - pods: graphviz pod can fail if dest is nested directory
 
-### Pruning
-
 ### House Cleaning
-- change blacklist/whitelist filter to allow and deny list
-
-### Docs
+- change blacklist/whitelist filter on graph to allow and deny list
+- add analytics around command invocation 
 
 ## 0.48.1
 
