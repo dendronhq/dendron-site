@@ -2,11 +2,34 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1625092762062
+updated: 1625116017066
 created: 1601508213606
 date: "2022-01-01"
 ---
 
+## 0.48.2
+
+### Features
+
+- native dendron preview @kevin
+
+### Enhancements
+- better validation for import pod
+- higher contrast for nodes and edges
+
+### Bug Fixes
+- horizontal line folded as frontmatter
+- default config sometimes not applied
+- graph: toggling stub filter can fail
+- graph: lookup for insert and rename note doesn't return all results
+- pods: graphviz pod can fail if dest is nested directory
+
+### Pruning
+
+### House Cleaning
+- change blacklist/whitelist filter to allow and deny list
+
+### Docs
 
 ## 0.48.1
 

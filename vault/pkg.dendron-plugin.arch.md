@@ -2,7 +2,7 @@
 id: d1usLHSTfJc-3_JKuYLBr
 title: Arch
 desc: ''
-updated: 1624833163910
+updated: 1625094859078
 created: 1624552964184
 ---
 
@@ -15,6 +15,7 @@ When a command throws an exception that is not caught, it is caught by the paren
 
 
 ## File Watchers
+- [[Summary|pkg.dendron-plugin.internal.workspace-watcher#summary]]
 
 ### File Changes
 
