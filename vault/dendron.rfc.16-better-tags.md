@@ -43,6 +43,25 @@ For example, for backlinks this should have the effect of adding `[[tags.foo]] [
 In preview and HTML, frontmatter tags should be displayed at the end of the note, like blog and news websites where tags will appear in a separate box at the start or end of a page.
 This keeps tags from disrupting the text, while allowing users to discover other content with these tags.
 
+### Tag colors
+
+Setting colors for tags would make it quicker to recognize them at a glance, and would improve organization and aesthetics. Dendron should automatically generate distinct colors for tags, and users should be allowed to customize the tag colors.
+
+Tag colors should be set in the frontmatter of the tag note:
+
+```
+desc: ''
+tagColor: '#ff8524'
+```
+
+The custom colors should allow hexadecimal RGB (`#FFAA88`), RGB (`rgb(24,135,240)`), RGBA (`rgba(255, 255, 255, .5)`), HSL (`hsl(100, 100%, 50%)`), HSLA (`hsla(235, 100%, 50%, .5)`), as well as [[color keywords|https://developer.mozilla.org/en-US/docs/Web/CSS/color_value#color_keywords]].
+These colors are all widely supported in browsers, which means they should work both within publishing and preview without extra effort.
+Optionally, we can warn users for color options that are incorrect or not widely supported.
+
+### Tags in the graph view
+
+* Filter notes in the graph view by the tags they have
+* Tag many notes at once by selecting all of them (using frontmatter tags)
 
 ## Details
 
