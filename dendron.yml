@@ -36,5 +36,5 @@ journal:
     dateFormat: y.MM.dd
     addBehavior: childOfDomain
     firstDayOfWeek: 1
-dendronVersion: 0.47.1
+dendronVersion: 0.48.2
 autoFoldFrontmatter: true
