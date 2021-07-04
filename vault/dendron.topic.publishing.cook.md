@@ -1,13 +1,13 @@
 ---
 id: 1d9c4d11-1536-449b-af6b-a4a1acb203e4
-title: Guides
+title: Cook
 desc: ''
 updated: 1611351277601
 created: 1611351130281
 ---
 
 
-## Vercel
+### Publishing on Vercel
 
 To publish with vercel, you can use [this repo](https://github.com/dendronhq/workspace-vercel-sample) as a template. Output of this template is [here](https://workspace-vercel-sample.vercel.app/)
 
@@ -21,3 +21,12 @@ To publish with vercel, you can use [this repo](https://github.com/dendronhq/wor
 3. After deployment, update the `dendron.yml` `siteUrl` field to the url of your domain
 
     
+### Custom Domain on Github Pages
+
+1. Set the url as well as the `githubCname` property
+    ```yml
+    site:
+        siteUrl: 'https://wiki.dendron.so'
+        githubCname: wiki.dendron.so
+    ```
+1. Make sure to configure this on the provider side to create an Alias record to your cname.

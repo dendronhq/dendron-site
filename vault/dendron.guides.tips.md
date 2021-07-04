@@ -124,61 +124,76 @@ gitignore
 /node_modules/
 ```
 
-Create a `package.json` to install the package:
-
-```json
-{
-  "scripts": {
-    "dendron-cli": "dendron-cli"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/LukeCarrier/brain.git"
-  },
-  "license": "UNLICENSED",
-  "devDependencies": {
-    "@dendronhq/dendron-cli": "*"
+1. Create a `package.json` to install the package:
+  ```json
+  {
+    "scripts": {
+      "dendron": "dendron-cli"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/LukeCarrier/brain.git"
+    },
+    "license": "Creative Commons Attribution 4.0 International",
+    "devDependencies": {
+      "@dendronhq/dendron-cli": "*"
+    }
   }
-}
-```
+  ```
+2.  Create the workflow 
+  ```
+  mkdir -p .github/workflows
+  touch .github/workflows/dendron.yml
+  ```
+  Add the following
+  ```yaml
+  name: Dendron
 
-Create the workflow `.github/workflows/dendron.yml`:
+  on:
+    push:
+      branches:
+      - main
 
-```yaml
-name: Dendron
+  jobs:
+    build:
+      runs-on: ubuntu-latest
+      steps:
+      - name: Checkout source
+        uses: actions/checkout@v2
 
-on:
-  push:
-    branches:
-    - master
+      - name: Install npm dependencies
+        run: npm install
 
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-    - name: Checkout source
-      uses: actions/checkout@v2
+      - name: Build pod
+        run: npm run dendron-cli -- buildSite --wsRoot . --stage prod
 
-    - name: Install npm dependencies
-      run: npm install
-
-    - name: Build pod
-      run: npm run dendron-cli -- buildSite --wsRoot . 
-
-    - name: Deploy site
-      uses: peaceiris/actions-gh-pages@v3
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_branch: pages
-        publish_dir: docs/
-        force_orphan: true
-        enable_jekyll: true
-```
-
-Configure your repository's Pages settings as follows:
-
-* _Branch_: `pages`
-* _Folder_: _/ (root)_
+      - name: Deploy site
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: pages
+          publish_dir: docs/
+          force_orphan: true
+          enable_jekyll: false
+  ```
+  3. Commit all your changes
+  ```
+  git add .
+  git commit -m "add dendron action"
+  ```
+  4. Create the pages branch
+  Configure your repository's Pages settings as follows:
+  ```
+  git checkout -b pages
+  git push -u origin HEAD
+  ```
+  5. Update pages branch on github
+  - go to the pages settings, eg. `https://github.com/dendronhq/seed.services/settings/pages`
+    - choose the following
+    ```
+    * _Branch_: `pages`
+    * _Folder_: _/ (root)_
+    ```
 
 Finally, commit these three files and push them to your `master` branch. Within a few seconds you should see the workflow run, your `pages` branch get updated and your Pages build start.
 
