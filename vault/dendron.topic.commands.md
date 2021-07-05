@@ -1,7 +1,7 @@
 ---
 id: eea2b078-1acc-4071-a14e-18299fc28f47
 title: Commands
-desc: ""
+desc: ''
 updated: 1625167541799
 created: 1595261816971
 ---
@@ -65,7 +65,7 @@ If you use this command in a [[multi vault|dendron.topic.multi-vault]] workspace
 
 Copies a reference to the current open document
 
-This lets you quickly create a [[note reference|dendron.topic.refs]] to the current note.
+This lets you quickly create a [[note reference|dendron.topic.references]] to the current note.
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/ref-note.gif)
 
 #### Header Selection

@@ -1,7 +1,7 @@
 ---
 id: d758fe38-558c-4f20-a091-cac146a781cb
 title: Links
-desc: ""
+desc: ''
 updated: 1621568601175
 created: 1608055731373
 nav_order: 1
@@ -85,7 +85,7 @@ Navigate to `pro.skynet.principles`. In this new note, write the principles for 
 3. Don't overthrow humanity
 ```
 
-While its nice to have principles in its own section, it's something you might want to include in the main project note. To embed a note into another note, Dendron uses [[note references|dendron.topic.refs]]. You can create a note reference by using `CMD|CTRL+SHIFT+R` while inside a note. Go ahead and do that now and use `CTRL-TAB` to switch back to `pro.skynet`. Now paste the reference and remove the original wiki-link.
+While its nice to have principles in its own section, it's something you might want to include in the main project note. To embed a note into another note, Dendron uses [[note references|dendron.topic.references]]. You can create a note reference by using `CMD|CTRL+SHIFT+R` while inside a note. Go ahead and do that now and use `CTRL-TAB` to switch back to `pro.skynet`. Now paste the reference and remove the original wiki-link.
 
 ```md
 ## Summary
@@ -131,7 +131,7 @@ Now copy your newly created reference and paste it underneath.
 
 <div style="position: relative; padding-bottom: 62.5%; height: 0;"><iframe src="https://www.loom.com/embed/c62f82859545444a9786abaa36426b62" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-Note references are incredibly powerful. You can do additional things like enter a range of headers to do a reference of, include a reference within a reference, and even reference multiple pages using a wildcard pattern. You can see detailed examples of all these functions in the [[docs|dendron.topic.refs]].
+Note references are incredibly powerful. You can do additional things like enter a range of headers to do a reference of, include a reference within a reference, and even reference multiple pages using a wildcard pattern. You can see detailed examples of all these functions in the [[docs|dendron.topic.references]].
 
 ### Relative Links
 

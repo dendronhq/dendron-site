@@ -4,7 +4,7 @@ title: Release Notes(version 0.10)
 desc: ''
 updated: 1609990740754
 created: 1596374871110
-date: 2020-09-06
+date: '2020-09-06'
 ---
 Dendron turns 0.10 today 🌲. To mark this milestone, the pre-amble for this release will be a tad longer (and more sentimental) than usual. 
 
@@ -37,7 +37,7 @@ These release notes are summary of the more notable changes, for the full list, 
 
 ## Markdown
 
-### Support offset with note refs ([[docs|dendron.topic.refs]])
+### Support offset with note refs ([[docs|dendron.topic.references]])
 
 A note reference offset is a way to skip a number of lines when using a note reference. The syntax is `,{number}`. Below is an example of using a note reference offset to offset an initial heading, skipping the actual header when doing the embedding.
 
@@ -58,7 +58,7 @@ A note reference offset is a way to skip a number of lines when using a note ref
 
 ### Support note references when Publishing Notes ([[docs|dendron.topic.publishing]])
 
-Dendron has [[note references|dendron.topic.refs]] that let you inline either the whole note or parts of a note into another note. Publishing via Dendron will also publish note references as part of the process.
+Dendron has [[note references|dendron.topic.references]] that let you inline either the whole note or parts of a note into another note. Publishing via Dendron will also publish note references as part of the process.
 
 <a href="https://www.loom.com/share/8eb01f6c3196415c8aadc4992805a176"> <img style="" src="https://cdn.loom.com/sessions/thumbnails/8eb01f6c3196415c8aadc4992805a176-with-play.gif"> </a>
 

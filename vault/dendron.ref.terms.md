@@ -23,7 +23,7 @@ Dendron uses [github-slugger](https://github.com/Flet/github-slugger) to generat
 
 ### Pretty Ref
 
-A pretty ref is a [[note ref|dendron.topic.refs]] rendered with an outline.
+A pretty ref is a [[note ref|dendron.topic.references]] rendered with an outline.
 
 You can see an example below
 

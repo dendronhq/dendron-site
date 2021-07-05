@@ -1,7 +1,7 @@
 ---
 id: 683740e3-70ce-4a47-a1f4-1f140e80b558
 title: FAQ
-desc: ""
+desc: ''
 updated: 1624896413143
 created: 1595952505025
 stub: false
@@ -132,7 +132,7 @@ Also, remember that you will use the note [[lookup-feature|dendron.topic.lookup]
 
 A good guideline is to start with a relatively flat hierarchy (even just a single note in the root!) and add topics as headings into those notes. When notes grow to the point that you have to start scrolling, it’s time to consider if it would be beneficial to split those notes. At that point, you probably already have some idea how the thoughts are placed in your mind - try to mimic that also with the hierarchy.
 
-If you have a hard time deciding which ideas belong closer to root, think which of those ideas are more fundamental in your thinking. As an example, a note related to coding in Excel, should it be named as `code.excel` or `excel.code`? This could be resolved by thinking if you will write more about coding where Excel is just one example, or more about Excel, where coding is only one example. In case you think that both `excel.code` and `code.excel` are equal and both should be created, you could also make one of them a “master note” and [[refer|dendron.topic.refs]] to it from the other note.
+If you have a hard time deciding which ideas belong closer to root, think which of those ideas are more fundamental in your thinking. As an example, a note related to coding in Excel, should it be named as `code.excel` or `excel.code`? This could be resolved by thinking if you will write more about coding where Excel is just one example, or more about Excel, where coding is only one example. In case you think that both `excel.code` and `code.excel` are equal and both should be created, you could also make one of them a “master note” and [[refer|dendron.topic.references]] to it from the other note.
 
 ### Do I have to use hierarchies? What if I want to use another approach?
 
