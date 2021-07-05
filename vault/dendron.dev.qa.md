@@ -171,6 +171,23 @@ Because of the aforementioned issues, we've created the following two classes to
 - NOTE: there are currently multiple versions of this
   - the most current version is `TestPresetEntryV4`
 
+## Profiling
+
+To profile code, we use the following pattern
+
+```ts
+let ctx = "Some Context"
+let duration;
+const start = process.hrtime();
+// ... some event to duration
+duration = getDurationMilliseconds(start);
+Logger.info({ctx, duration})
+AnalyticsUtils.track(VSCodeEvents.Lookup_Show, {
+  duration,
+  flavor: opts.flavor,
+});
+```
+
 ## Cook
 
 ### Stubbing dendron.yml in a test

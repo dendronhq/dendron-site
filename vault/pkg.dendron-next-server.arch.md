@@ -49,6 +49,18 @@ The Dendron Preview should be just one particular view in of `nextjs` that is se
 
 - scroll sync: a user scrolling through the raw markdown of the current preview should have the preview scroll in sync with the text and vice versa
 
+### Details
+Initial note render, render note using passed in `noteId` via `queryParam.
+
+As long as the current webview is not closed, changing the active window will cause a message to the webview to update the display. 
+
+### Images
+To display an image, the [dendronPreview](https://github.com/dendronhq/dendron/blob/dev/packages/engine-server/src/markdown/remark/dendronPreview.ts#L27:L27) plugin will convert image links to links that call `assetGet` API from the [[pkg.dendron-api-server]]
+
+This is necessary because static images are contained within the vault whereas image links by default are relative to where the static file is being served (eg. `~/.code/extensions/...`). In addition, whereas both nextjs and expressjs have capabilities to render static assets, there isn't a straightforward way to add static routes dynamically. 
+
+So instead of using static assets, we are dynamically fetching the assets instead.  The preview displays images by rewriting `/assets/img1.jpg` to `localhost:{port}/api/assetGet?fpath=...ws=...` We pass in the current workspace to make sure that the static file you are retrieving comes from inside a valid active workspace. 
+
 ## Dendron Published Site
 - codename: NEXT Publishing 
 - status: [[Planning 🗺️|dendron.ref.status#planning-️]]

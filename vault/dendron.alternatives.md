@@ -19,6 +19,6 @@ All the tools below are excellent for their own use-cases. This comparison rests
 | Software Name | Comparison w/ Dendron                        | Flexible Hierarchy | Open source | Local-first | Fast and performant | Bi-directional links | Outlining |
 | ------------- | -------------------------------------------- | ------------------ | ----------- | ----------- | ------------------- | -------------------- | --------- |
 | Dendron       | How?                                         | ✅                 | ✅          | ✅          | ✅                  | ✅                   | ❌        |
-| Notion        | [[dendron.alternatives.notion-vs-dendron]]   | ✅                 | ❌          | ❌          | ✅                  | ✅                   | ✅        |
+| Notion        | [[dendron.alternatives.notion-vs-dendron]]   | ✅                 | ❌          | ❌          | ❌                  | ✅                   | ✅        |
 | Obsidian      | [[dendron.alternatives.obsidian-vs-dendron]] | ❌                 | ❌          | ✅          | ✅                  | ✅                   | ❌        |
 | Roam          | [[dendron.alternatives.roam-vs-dendron]]     | ❌                 | ❌          | ❌          | ❌                  | ✅                   | ✅        |
