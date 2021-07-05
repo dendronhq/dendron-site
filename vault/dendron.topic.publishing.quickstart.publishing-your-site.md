@@ -93,7 +93,11 @@ In order to have Dendron generate your website, you open the Command Palette (`C
 
 ### Publish your notes
 
-Github will publish your notes everytime you push. Commit all your changes (`git add .` then `git commit`) and perform a `git push`.
+You open the Command Palette (`Cmd+Shift+P`) and use the [`Dendron: Worksapce: Sync`](https://wiki.dendron.so/notes/c4cf5519-f7c2-4a23-b93b-1c9a02880f6b.html#workspace-sync) command.
+
+Or you can calmly type in your terminal to commit all your changes (`git add .` then `git commit`) and perform a `git push`.
+
+GitHub will synchronize all changes and publish your notes everytime you push.
 
 ```bash
 git add .
