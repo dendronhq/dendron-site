@@ -51,6 +51,9 @@ A big **thanks** to the following gardeners that brought up issues, contribution
   - [fixed schema malformed error](https://github.com/dendronhq/dendron-site/pull/128)
   - `+horticultarlist`
   - [Calendar view for Dendron](https://github.com/dendronhq/dendron/pull/913)
+- [apastuszak](https://github.com/apastuszak)
+  - `+bugcatcher`
+  - [Links don't work in preview](https://github.com/dendronhq/dendron/issues/891)
 
 You can see an overview of all roles [[here|dendron.community.roles]]
 
