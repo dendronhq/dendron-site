@@ -339,7 +339,7 @@ Use the [[Vault Add|dendron.topic.commands#remote-vault]] command via the [[comm
 
 ### Converting a local vault to a remote vault
 
-1. If you're vault is committed along with your workspace, use `git rm --cached` to remove it from the workspace repo and use `git init` to initialze your vault as a standalone repo
+1. If your vault is committed along with your workspace, use `git rm --cached` to remove it from the workspace repo and use `git init` to initialze your vault as a standalone repo
 1. Create a remote repo and push your vault to that repo
 1. Run [[Configure (yaml)|dendron.topic.commands#configure-yaml]] and add the git [[remote|dendron.topic.config.dendron#remote]] urls to the repo. the entries should look like what you see below
 

@@ -276,7 +276,7 @@ delete(idOrFname, mode, opts) {
 
 # Parsing note references
 
-- [[dendron.topic.refs]]
+- [[dendron.topic.references]]
 
 ## Summary
 

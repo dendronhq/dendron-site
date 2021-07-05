@@ -63,35 +63,37 @@ site:
     siteUrl: {SITE_URL}
 ```
 
-- NOTE: you can get your SITE_URL from the settings page in github. you want to take everything up to `.com` (eg. if the url shown is `https://kevinslin.github.io/dendron-publish-sample/`, then the site url would be ` https://kevinslin.github.io`)
+- NOTE: you can get your SITE_URL from the settings page in github. (As in the example screen cap below, the url shown is `https://kevinslin.github.io/dendron-publish-sample/`, then the SITE_URL would be ` https://kevinslin.github.io`)
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/publishv2.github-url.jpg)
-- NOTE: if you've setup your github repository using `{username}.github.io` format, your site url will be the same as the url shown
-    - otherwise (as in the example above), you will have a suffix at the end of your SITE_URL (eg. `dendron-publish-sample`)
-    - in this case, you will need to add the suffix using the `assetsPrefix` property
+- NOTE: 
+    - if you setup your github repository name as `{username}.github.io`, your SITE_URL will be `{username}.github.io`
+    - if you use an arbitrary name for your github repository (as in the example above, the repo name is `dendron-publish-sample`)
+      - your SITE_URL will be `{username}.github.io`
+      - And you will need to add the suffix using the `assetsPrefix` property (eg. `assetsPrefix: dendron-publish-sample`)
 
 #### Examples
-- publishing the repo `kevinslin.github.io`
+- publishing the repo named `kevinslin.github.io`
 
 ```yml
 site:
     siteUrl: https://kevinslin.github.io
 ```
 
-- publishing the repo `dendron-sample`
+- publishing the repo named `dendron-publish-sample`
 
 ```yml
 site:
-    assetsPrefix: dendron-sample
+    assetsPrefix: dendron-publish-sample
     siteUrl: https://kevinslin.github.io
 ```
 
 ### Build your notes for publication
 
-In order to have Dendron generate your website, you use the `> Site: Build` command.
+In order to have Dendron generate your website, you open the Command Palette (`Cmd+Shift+P`) and use the `Dendron: Site Build` command.
 
 ### Publish your notes
 
-Github will publish your notes everytime you push. Commit all your changes and perform a git push
+Github will publish your notes everytime you push. Commit all your changes (`git add .` then `git commit`) and perform a `git push`.
 
 ```bash
 git add .

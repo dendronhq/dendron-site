@@ -7,6 +7,16 @@ created: 1601508213606
 date: "2022-01-01"
 ---
 
+## 0.49
+## 0.48.3
+
+### Enhancements
+- better styling for preview v2
+
+### Bug Fixes
+- schema graph not showing schemas more than one level deep
+- support images, blockquotes, katex for preview v2
+
 ## 0.48.2
 
 ### Features
@@ -222,7 +232,7 @@ date: "2022-01-01"
 
 #### Block Reference Refs Support
 
-![[dendron.topic.links.block-references#block-reference,1:#*]]
+![[dendron.topic.references#block-reference,1:#*]]
 
 #### Workspace Vaults
 
@@ -287,7 +297,7 @@ date: "2022-01-01"
 
 #### Block References
 
-![[dendron://dendron-site/dendron.topic.links.block-references#summary,1:#*]]
+![[dendron.topic.references#block-reference,1:#*]]
 
 #### Paste File Command
 
