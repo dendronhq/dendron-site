@@ -13,9 +13,7 @@ Dendron 0.49 has sprouted 🌱
 
 -   **Native Dendron Preview.** Try out the brand new component with `Dendron: Show Preview v2`. This has been built from the ground up to be a common component between vscode and the upcoming NextJS based publishing. It is also _much_ faster and will reduce the initial download size by over 100MB by removing the dependency on Markdown Preview Enhanced.
 -   **Streamlined Onboarding.** We continue to make first-use a smoother ramp, and this week we're shipping a brand new onboarding experience. Use `Dendron: Launch Tutorial` to see for yourself.
--   **Seed Bank Updates.** We continue to add seeds to the seed bank. See these as examples of Seeds that will continue to grow and develop over time, with the community:
-    - [https://saas.dendron.so](https://saas.dendron.so)
-    - [https://aws.dendron.so](https://aws.dendron.so)
+-   **Seed Bank Updates.** We continue to add seeds to the seed bank. See the announcement blog post [here](https://blog.dendron.so/notes/qTeL51LFD0Y8uC9ect7QV.html)
 -   **Enhancements, Stability and Performance.**
     -   Graph Review readability
     -   Easier pod development
@@ -43,7 +41,7 @@ You can find notes from our latest office hours [[here|dendron.community.office-
 
 A big **thanks** to the following gardeners that brought up issues, contributions, and fixes to this release :man_farmer: :woman_farmer:
 
-- [teauxfu](https://github.com/teauxfu)
+- [teauxfu](https://github.com/teauxfu) @teauxfu#5228 
   - [fix typo](https://github.com/dendronhq/dendron-site/pull/130)
 - [SR](https://github.com/SR--)
   - [grammatical fixes](https://github.com/dendronhq/dendron-site/pull/132) 
@@ -63,4 +61,4 @@ You can see an overview of all roles [[here|dendron.community.roles]]
 
 ### Changelog
 
-![[dendron.release.changelog#044,1:#043]]
+![[dendron.release.changelog#049,1:#048]]

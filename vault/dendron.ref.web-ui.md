@@ -55,8 +55,11 @@ Set start of week (eg. `0` for sunday, `1` for monday, `2` for tuesday, etc.)  f
 ### Preview
 - [[Experimental 🧪|dendron.ref.status#experimental-🧪]]
 
-The Dendron Preview gives you a rich HTML preview for your notes. 
+The Dendron Preview gives you a rich HTML preview for your notes. Currently it is missing the following features compared to the current [[preview|dendron.topic.preview]]:
+- mermaid diagrams
+- scroll sync
 
+If you discover any issues that are not listed above, please submit a bug repo [here](https://github.com/dendronhq/dendron/issues/new?assignees=&labels=&template=bug_report.md&title=) so we can add it to our roadmap!
 #### Methods
 
 ##### Show Preview V2
