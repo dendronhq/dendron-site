@@ -53,7 +53,6 @@ The Dendron Calendar View has the following capabilities:
 Set start of week (eg. `0` for sunday, `1` for monday, `2` for tuesday, etc.)  for the [[Dendron Calendar View|dendron.topic.workbench#calendar-view]]
 
 ### Preview
-- [[Early Seed 🌱|dendron.ref.status#early-seed-]]
 - [[Experimental 🧪|dendron.ref.status#experimental-🧪]]
 
 The Dendron Preview gives you a rich HTML preview for your notes. 

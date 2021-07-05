@@ -2,36 +2,58 @@
 id: KasnPHKjT8aD6RzU0BI3x
 title: Release Notes (version 0.49)
 excerpt: ""
-desc: ''
+desc: ""
 updated: 1625491159023
 created: 1625491159023
 ---
 
-
-
-
-Dendron 0.49 has sprouted  🌱
+Dendron 0.49 has sprouted 🌱
 
 ### Highlights
+
+-   **Native Dendron Preview.** Try out the brand new component with `Dendron: Show Preview v2`. This has been built from the ground up to be a common component between vscode and the upcoming NextJS based publishing. It is also _much_ faster and will reduce the initial download size by over 100MB by removing the dependency on Markdown Preview Enhanced.
+-   **Streamlined Onboarding.** We continue to make first-use a smoother ramp, and this week we're shipping a brand new onboarding experience. Use `Dendron: Launch Tutorial` to see for yourself.
+-   **Seed Bank Updates.** We continue to add seeds to the seed bank. See these as examples of Seeds that will continue to grow and develop over time, with the community:
+    - [https://saas.dendron.so](https://saas.dendron.so)
+    - [https://aws.dendron.so](https://aws.dendron.so)
+-   **Enhancements, Stability and Performance.**
+    -   Graph Review readability
+    -   Easier pod development
+    -   Anchors/headers are now updated in real-time rather than on save.
 
 ### Docs
 
 Our documentation changes a lot week by week. Below is a highlight of some updates from the past week.
 
-### Ongoing 
+### Ongoing
+
 <!-- Discuss ongoing efforts here -->
 
 ### Community
 
 #### Office Hours
 
-<!-- TODO: update the link -->
-You can find notes from our latest office hours [[here|dendron.community.office-hours.2021.05.30]]
+You can find notes from our latest office hours [[here|dendron.community.office-hours.2021.07.04]]
 
 #### Thank You's
 
-A big **thanks** to the following gardeners that brought up issues, contributions, and fixes to this release :man_farmer: :woman_farmer: 
+A big **thanks** to the following gardeners that brought up issues, contributions, and fixes to this release :man_farmer: :woman_farmer:
+
+- [teauxfu](https://github.com/teauxfu)
+  - [fix typo](https://github.com/dendronhq/dendron-site/pull/130)
+- [SR](https://github.com/SR--)
+  - [grammatical fixes](https://github.com/dendronhq/dendron-site/pull/132) 
+- [Andrey Jef](https://github.com/andrey-jef) 
+  - `+taxonomist`
+  - [improved publishing quickstart](https://github.com/dendronhq/dendron-site/pull/134)
+- [Samuel Hobl](https://github.com/namjul) nam#5364
+  - `+taxonomist`
+  - [fixed schema malformed error](https://github.com/dendronhq/dendron-site/pull/128)
+  - `+horticultarlist`
+  - [Calendar view for Dendron](https://github.com/dendronhq/dendron/pull/913)
+
 You can see an overview of all roles [[here|dendron.community.roles]]
 
 ### Changelog
+
 ![[dendron.release.changelog#044,1:#043]]
