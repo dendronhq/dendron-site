@@ -25,9 +25,13 @@ Dendron 0.49 has sprouted 🌱
 
 Our documentation changes a lot week by week. Below is a highlight of some updates from the past week.
 
+- added profiling to [[QA docs|dendron.dev.qa#Profiling]]
+- updated publishing [[instructions|dendron.guides.tips#publish-to-github-pages-with-actions]]
+- published the [[Better Tags RFC|dendron.rfc.16-better-tags]]
+
 ### Ongoing
 
-<!-- Discuss ongoing efforts here -->
+-   We're still working on [adding unlinked references to backlinks tab](https://github.com/dendronhq/dendron/issues/219). Tracking for a July launch! 
 
 ### Community
 
