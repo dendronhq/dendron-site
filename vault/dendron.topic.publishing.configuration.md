@@ -192,10 +192,9 @@ the URL of the project's GitHub repository
 
 #### gh_edit_branch
 
-- default: master
+- default: main
 
 the branch that the docs site is served from
-// Should be changed to `main`
 
 #### gh_edit_view_mode
 
@@ -403,7 +402,7 @@ If set, do not include the current note in the navigation bar.
 - type: number
 
 If set, denote order that item appears in the published nav bar
->NOTE: `root` has `nav_order: 1` so the `nav_order` of your denoted items must be superior to 1
+> NOTE: `root` has `nav_order: 1` so the `nav_order` of your denoted items must be superior to 1
 
 ### noindex
 
@@ -436,7 +435,7 @@ There are a few special variables you can set:
 - default: false
 
 Whether a given page is a collection. A collection doesn't have a table of contents and allows you to set collection specific options. 
->NOTE: Setting this property `has_collection` in the frontmatter of parent note is sufficient.
+> NOTE: Setting this property `has_collection` in the frontmatter of parent note is sufficient.
 
 #### date
 
