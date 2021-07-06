@@ -51,7 +51,7 @@ You can choose to publish your whole vault, a single domain, or multiple domains
 
 ### Note References
 
-Dendron has [[note references|dendron.topic.refs]] that let you inline either the whole note or parts of a note into another note. Publishing via Dendron will also publish note references as part of the process.
+Dendron has [[note references|dendron.topic.references]] that let you inline either the whole note or parts of a note into another note. Publishing via Dendron will also publish note references as part of the process.
 
 <a href="https://www.loom.com/share/8eb01f6c3196415c8aadc4992805a176"> <img style="" src="https://cdn.loom.com/sessions/thumbnails/8eb01f6c3196415c8aadc4992805a176-with-play.gif"> </a>
 

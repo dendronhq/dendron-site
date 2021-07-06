@@ -232,7 +232,7 @@ date: "2022-01-01"
 
 #### Block Reference Refs Support
 
-![[dendron.topic.links.block-references#block-reference,1:#*]]
+![[dendron.topic.references#block-reference,1:#*]]
 
 #### Workspace Vaults
 
@@ -297,7 +297,7 @@ date: "2022-01-01"
 
 #### Block References
 
-![[dendron://dendron-site/dendron.topic.links.block-references#summary,1:#*]]
+![[dendron.topic.references#block-reference,1:#*]]
 
 #### Paste File Command
 

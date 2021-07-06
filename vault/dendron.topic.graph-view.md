@@ -11,6 +11,7 @@ stub: false
 
 -   Visualize the notes and schemas in your workspace in a graph view
 -   Click on a node to open up the corresponding note/schema in your workspace
+-   Filter graph view to show only desired data
 -   Much faster startup times than the legacy note/schema graph
     -   Scales to virtually any size graph
 
@@ -20,15 +21,17 @@ stub: false
 
 Launch the command palette (see [[docs|dendron.guides.cook#launch-the-command-palette]]): `> Dendron: Show Note Graph V2`
 
-Click on a node to open up the corresponding note in your workspace.
+Click on a node to open up the corresponding note in your workspace, or open a note to center the graph on that note.
 
-The note graph currently only supports hierarchical note connections. Future versions of the graph will support linked note connections and the ability to add custom filters and styling to your graph.
+Use the filter view in the top left to filter and modify the data shown by the graph.
 
 ### Show Schema Graph V2
 
 Launch the command palette (see [[docs|dendron.guides.cook#launch-the-command-palette]]): `> Dendron: Show Schema Graph V2`
 
 Click on a node to open up the corresponding schema in your workspace.
+
+Use the filter view in the top left to filter and modify the data shown by the graph.
 
 The schema graph shows high level connections between a vault's `root` schema and other schemas within the vault. These other schemas may have other nodes connected to them representing additional children of that schema.
 
@@ -68,6 +71,8 @@ Here's a quick example:
 -   **Show Stubs**: When checked, show stub notes in the graph
 
 ### Options
+
+-   **Show Local Graph (Note Only)**: When checked, show local graph centered around the current open note. Otherwise, show the full workspace-wide note graph.
 
 -   **Allow Relayout**: When checked, layout the graph again when the graph configuration is updated.
     -   This is useful in instances you'd like to preserve the current layout but add/remove information, e.g. adding link connections to a hierarchical graph while maintaining readability

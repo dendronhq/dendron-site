@@ -65,7 +65,7 @@ A block reference link is a reference to a block link.
 
 #### Block Range References
 
-Block references should also support [[range references|dendron.topic.refs#block-range-reference]]. Any valid block anchor is also a valid target for the start or end of a range.
+Block references should also support [[range references|dendron.topic.references#block-range-reference]]. Any valid block anchor is also a valid target for the start or end of a range.
 
 When referring to block anchors, the range will be inclusive on both ends. For example:
 

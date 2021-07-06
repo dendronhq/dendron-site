@@ -74,7 +74,7 @@ lookupConfirmVaultOnCreate: true
 
 ### Note References
 
-~~[[Note references|dendron.topic.refs]] are vault specific~~ When you make a reference, Dendron will include the note from the same note. You can create a reference to a note in a different vault by using [[cross vault links|dendron.topic.links#cross-vault-links]].
+~~[[Note references|dendron.topic.references]] are vault specific~~ When you make a reference, Dendron will include the note from the same note. You can create a reference to a note in a different vault by using [[cross vault links|dendron.topic.links#cross-vault-links]].
 
 ### Publishing
 

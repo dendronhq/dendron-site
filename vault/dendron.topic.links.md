@@ -1,7 +1,7 @@
 ---
 id: 3472226a-ff3c-432d-bf5d-10926f39f6c2
 title: Links
-desc: ""
+desc: ''
 updated: 1622401187922
 created: 1595003088839
 stub: false
@@ -45,8 +45,7 @@ Dendron has a backlink panel which shows all notes with links to the current not
 
 ## Block References
 
-![[dendron://dendron-site/dendron.topic.links.block-references#summary,1:#*]]
-
+![[dendron.topic.references#block-reference,1:#*]]
 ## Other Links
 
 For links to a file format Dendron does not support, you can use the highlight the link and use `> Dendron: Open Link` to open the file using your operating system default for that file. This also applies to opening paths to folders.
@@ -63,6 +62,6 @@ Some examples:
 - wiki link with alias: `[[Foo Note|dendron://vault/foo]]`
 - relative link: `[[Foo Note|dendron://vault/foo#header1]]`
 
-You can also use cross vault links for [[note references|dendron.topic.refs]].
+You can also use cross vault links for [[note references|dendron.topic.references]].
 
 - note ref: `![[dendron://vault/foo]]`

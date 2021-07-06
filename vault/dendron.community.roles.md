@@ -15,13 +15,15 @@ You can either use the bot in the relevant Github issue OR in the [gratitude iss
 
 You can see the list of contributors [here](https://github.com/dendronhq/dendron#contributors-).
 
-## Dendrologist
+## Roles
+
+### Dendrologist
 
 **Dendrologist** are active members of the Dendron community. They play a vital role in helping new members get started and setting best practices for Dendron and its community.
 
 Dendrologist help shape Dendron's roadmap and community standards. They also gain additional discord super powers like creating channels, pinning messages, and other moderation capabilities.
 
-## Environmentalist
+### Environmentalist
 
 **Environmentalist** are members that show their support by making monthly [financial contributions](https://accounts.dendron.so/account/subscribe) to Dendron.
 
@@ -34,22 +36,22 @@ There are currently four levels of environmentalist plans:
 -   sapling
 -   forest
 
-## Horticulturalist
+### Horticulturalist
 
 **Horticulturalist** are members who have contributed to the Dendron code base.
 
-## Taxonomist
+### Taxonomist
 
 A **Taxonomist** is a member who improved the Dendron documentation.
 
-## Planter
+### Planter
 
 A **Planter** is a member who published their notes using Dendron
 
-## Bug Catcher
+### Bug Catcher
 
 A **Bug Catcher** is a member who found a reproducible bug in Dendron.
 
-## Seeder
+### Seeder
 
 A **Seeder** is a member who referred a fellow gardener to Dendron.
