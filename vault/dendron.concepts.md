@@ -24,7 +24,7 @@ You can read more about the frontmatter used in Dendron [[here|dendron.topic.fro
 
 ### Vaults
 
-![[dendron.ref.vaults#summary,1:#*]]
+![[dendron.topic.vaults#summary,1:#*]]
 
 ### Hierarchies
 

@@ -2,7 +2,7 @@
 id: f2ed8639-a604-4a9d-b76c-41e205fb8713
 title: Configuration
 desc: ''
-updated: 1624909741188
+updated: 1624552124573
 created: 1608528797892
 nav_order: 3
 ---
@@ -188,7 +188,7 @@ Writing stubs is important to guarantee permanent urls as Dendron will randomize
 
 the URL of the project's GitHub repository
 
-- NOTE: if you are using [[remote vaults|dendron.ref.vaults#remote]], this value will be ignored and the [[remote url|dendron.topic.config.dendron#remote]] will be used instead
+- NOTE: if you are using [[remote vaults|dendron.topic.vaults#remote]], this value will be ignored and the [[remote url|dendron.topic.config.dendron#remote]] will be used instead
 
 #### gh_edit_branch
 

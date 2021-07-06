@@ -31,7 +31,7 @@ You can find a description of all roles [[here|dendron.community.roles]]
 
 - finish multi-vault feature parity 
   - we're down to our last few features
-  - list of non-compatible commands can be found [[here|dendron.topic.multi-vault#known-issues]] (we're really almost done)
+  - list of non-compatible commands can be found [[here|dendron.topic.vaults.multi-vault#known-issues]] (we're really almost done)
 - a better publishing experience
 - better note references 
 

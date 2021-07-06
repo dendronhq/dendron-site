@@ -17,7 +17,7 @@ You can access these Configurations through the [VSCode Settings,](https://code.
 - type: folders[]
 
 This entry is a list of folders that are tracked by your workspace.
-The entries here should mirror the vaults from [[dendron.ref.vaults]]
+The entries here should mirror the vaults from [[dendron.topic.vaults]]
 
 Each folder entry has the following structure
 

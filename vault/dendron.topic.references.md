@@ -2,17 +2,19 @@
 id: f1af56bb-db27-47ae-8406-61a98de6c78c
 title: References
 desc: ''
-updated: 1623446290793
+updated: 1625572927109
 created: 1597356582509
 stub: false
 ---
 
 ## Summary
-Dendron allows you to reference content from other notes and embed them in your current note.
+Dendron allows you to reference content from other notes and **embed** them in your current note. This differs from [links]([[Links|dendron.topic.links]]), which do not embed content and just provide navigational context.
 
-Currently, Dendron supports 4 types of references:
+Note references are extremely powerful and help you re-use your notes in a variety of places.
 
-- note references
+Currently, Dendron supports 4 types of references to help you control the amount of content that gets embedded:
+
+- full note references
 - header references
 - block references
 - range references
@@ -44,31 +46,25 @@ Another example with a header range:
 
 ## Reference Types
 
-### Note Reference
+### Full Note References
 
-A note reference will include the entire contents of a note within another note. Below is an example of a note reference.
+The simplest type is a full note reference, which will include the entire contents of a note within another note. Below is an example of a note reference.
 
 ```
 ![[dendron.demo.refs.sample]]
 ```
 
-Note that references also respect the wildcard operator. The following example will include all child pages of sample. 
+### Header References
 
-```
-![[dendron.demo.refs.sample.*]]
-```
-
-### Header Reference
-
-A block reference will include the entire contents of a note starting from a specified heading. 
+A block reference will include the entire contents of a note starting from a specified heading.
 
 ```
 ![[demo.embed.block#head1]]
 ```
 
-### Block Reference
+### Block References
 
-Block references let you link or embed blocks of text into different parts of your notes. This allows you to link and refer to any part of a note, including paragraphs, lists, and tables.
+Block references let you link or embed blocks of text into different parts of your notes. This allows you to link and refer to any part of a note, including paragraphs, lists, and tables. Block references use the `^` caret as the anchor.
 
 ^block-ref-example
 
@@ -107,14 +103,13 @@ You can reference across notes as well. Say you had a note named "other-note" wh
 ![[other-note#^some-anchor]]
 ```
 
-
 When you refer to a block anchor, it will display the block that the block anchor is attached to. This means you can refer to an entire paragraph, table, list, or even a list item.
 
 Below is an example to a block reference to an earlier part of this page.
 
 ![[#^block-ref-example]]
 
-### Block Anchor
+#### Block Anchor
 
 A block anchor is a `^` character, followed by one or more digits, letters, dashes, and underscores. In the future Dendron will automatically generate these, but for now you can add in custom anchors. The following are a few examples of anchors:
 
@@ -135,9 +130,9 @@ Lorem ipsum dolor amet ^1234
 
 `^whole-list`, `^whole-table`, and `^1234` reference the blocks they are attached to. Lists are special though, `^second-item` only references the list item it is next to.
 
-### Block Links
+#### Block Links
 
-A block link has the following format. It is created in a note that is referencing a piece of text. When navigating the link, users should be taken to the block anchor. 
+Block Anchors can also be used as links. A block link has the following format. It is created in a note that is referencing a piece of text. When navigating the link, users should be taken to the block anchor. 
 
 ```
 [[somelink#^1234]]
@@ -154,17 +149,15 @@ Let's look back at that paragraph: [[#^my-paragraph]]
 
 ### Range Reference
 
-A block range reference will include the contents of a note starting from a `start` header or block anchor, and ending at a `end` header or block anchor. You can also mix headers and block anchors.
+A range reference will include the contents of a note starting from a starting header or block anchor, and ending at an ending header or block anchor. The syntax is `![[note#start:#end]]`.
 
-#### With Header
+#### Example With Headers as Range Boundary
 
 ```
 ![[demo.embed.block#head1:#head3]]
 ```
 
-#### With Blocks
-
-You can also refer to block anchors in ranges. This allows you to refer to multiple paragraph, multiple list items etc. using a single reference. Let's look at a few examples of this as well:
+#### Example With Blocks as Range Boundary
 
 ```
 # Section
@@ -195,15 +188,15 @@ From the header, to the second paragraph:
 
 ## Commands
 
-You can create a ref either by hand or using the `Copy Note Ref` command.
+You can create a reference either by hand or using the `Copy Note Ref` command.
 
 ![[dendron.topic.commands#copy-note-ref:#*]]
 
-## Advanced
+## Additional Options
 
-### Reference Offset
+### Line Offset
 
-A note reference offset is a way to skip a number of lines when using a header reference. The syntax is `,{number}`. Below is an example of using a note reference offset to offset an initial heading, skipping the actual header when doing the embeding.
+You can use line offsets to skip a number of lines when using a header reference. The syntax is `,{number}`. Below is an example of using a note reference offset to offset an initial heading, skipping the actual header when doing the embedding.
 
 - NOTE: currently, note reference offsets are limited to the first anchor inside a block reference. They must also be a positive value
 
@@ -211,29 +204,27 @@ A note reference offset is a way to skip a number of lines when using a header r
 ![[demo.embed.block#head1,1]]
 ```
 
-### Wildcard Header Reference
+### Wildcard Headers as a Range Boundary
 
-When you're referencing a header by reference, sometimes you don't care what the next header is, just that the reference covers all text up to the next header. You can now specify this using the `*` symbol in a header reference.
+When you're referencing a header by reference, sometimes you don't care what the next header is, just that the reference covers all text up to the next header. You can specify this using the `*` symbol in a header reference.
 
-For example, the following would reference the content from header1 to the next header. 
+For example, the following would reference the content from header1 to the next header.
 
 ```
 ![[demo.embed.block#head1:#*]]
 ```
 
-### Recursive Reference
+### Recursive References
 
-Note references can refer to notes with references inside. Dendron current supports references two levels deep. This applies to both the **local preview** as well as **publishing**.
+References can refer to notes with references inside. Dendron current supports references two levels deep. This applies to both the **local preview** as well as **publishing**.
 
 ### Wildcard Link Reference
 
-[[Note references|dendron.topic.refs]] accept the `*` operator at the end which lets you grab all notes of a given level of hierarchy. This also works with typical note reference operation like block selection which means you can use it to grab specific blocks from every note in a level.
-
+References accept the `*` operator at the end which lets you grab all notes of a given level of hierarchy. This also works with typical note reference operation like block selection which means you can use it to grab specific blocks from every note in a level.
 
 ```
 ![[demo.journal.2021.*]]
 ```
-
 
 ## Publishing
 
@@ -241,8 +232,7 @@ When you [[publish|dendron.topic.publishing]] a note with a note reference, Dend
 
 ## Configuration
 
-- note references by default come with an outline. They are called [[pretty refs|dendron.ref.terms#pretty-ref]]. 
-
+- note references by default come with an outline. They are called [[pretty refs|dendron.ref.terms#pretty-ref]].
 
 Toggle the following configuration to turn off this setting.
 

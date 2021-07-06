@@ -2,13 +2,14 @@
 id: 6682fca0-65ed-402c-8634-94cd51463cc4
 title: Vaults
 desc: ''
-updated: 1623095542364
+updated: 1625569876697
 created: 1622841137387
+stub: true
 ---
 
 ## Summary
 
-Your workspace is made up of **vaults**. A dendron vault stores a collection of related notes. If you're familiar with git, it's just like a code repo. By default, Dendron creates a _vaults_ folder when you first initialize a **workspace**. All your notes are stored on a per vault basis.
+Your workspace is made up of one or more **vaults**. A dendron vault stores a collection of related notes. If you're familiar with git, it's just like a code repo. By default, Dendron creates a _vaults_ folder when you first initialize a **workspace**. All your notes are stored on a per vault basis.
 
 ```
 .
@@ -41,9 +42,20 @@ A local vault is a folder in your file system.
 
 A remote vault is a git repository. If you choose a remote vault, you can choose from a vault from the registry or enter a custom git url.
 
-We currently have four vaults in the registry: `dendron.so`, `aws.dendron.so`, `tldr.dendron.so and `xkcd.dendron.so`. These correspond to the notes backing https://dendron.so/ and https://aws.dendron.so/ respectively.
+##### Choosing from the registry
 
-Note that when you add a remote vault, the url can also point to a remote workspace. In that case, dendron will inspect the `dendron.yml` to get a list of all vaults within the workspace and add all vaults from inside the workspace.
+Currently, Dendron has four vaults in the registry:
+
+- [Dendron Vault](https://wiki.dendron.so/)
+- [AWS Vault](https://aws.dendron.so/)
+- [TLDR Vault](https://tldr.dendron.so/)
+- [XKCD Vault](https://xkcd.dendron.so/)
+
+The first two correspond to the notes backing https://wiki.dendron.so/ and https://aws.dendron.so/ respectively.
+
+![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/remote-vault.jpg)
+
+When you add a remote vault, the url can also point to a remote workspace. In that case, Dendron will inspect the `dendron.yml` to get a list of all vaults within the workspace and add all vaults from inside the workspace.
 
 <div style="position: relative; padding-bottom: 62.5%; height: 0;"><iframe src="https://www.loom.com/embed/b4171372f9794dd7be609c043f343fa3" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
@@ -80,7 +92,7 @@ vaults:
             url: 'git@github.com:dendronhq/dendron.git'
 ```
 
-When someone pulls down a workspace with a `dendron.yml` that contains a remote vault, Dendron will automatically initialize the vault at the given `fsPath`. If the vault is a [[Workspace Vault|dendron.ref.vaults#workspace-vault]], Dendron will pull downt the workspace to `{workspaceName}/fsPath`. 
+When someone pulls down a workspace with a `dendron.yml` that contains a remote vault, Dendron will automatically initialize the vault at the given `fsPath`. If the vault is a [[Workspace Vault|dendron.ref.vaults#workspace-vault]], Dendron will pull down the workspace to `{workspaceName}/fsPath`. 
 
 ## Vault Types
 
@@ -93,7 +105,7 @@ A workspace vault is a vault that belongs to another [[workspace|dendron.ref.wor
 
 You can see an example of the configuration [[here|dendron.ref.vaults#remote-workspace-vault]].
 
-## Configuration
+## [[Configuration|dendron.topic.config.dendron]]
 
 ### fsPath
 - file path to vault
@@ -101,7 +113,7 @@ You can see an example of the configuration [[here|dendron.ref.vaults#remote-wor
 ### name
 - default: last component of `fsPath`
 
-vault name 
+vault name
 
 ### visibility
 - choices: "private|public"
@@ -128,6 +140,7 @@ See [[workspace sync configuration options|dendron.ref.workspace#configuration-o
 Sets the [[synchronization strategy|dendron.ref.workspace#Workspace: Sync]] for this vault. This overrides the [[workspace vault sync option|dendron.topic.config.dendron#workspaceVaultSync]] if it is set.
 
 ### Configuration Examples
+
 #### Local Vault
 
 ```yml
