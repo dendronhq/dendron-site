@@ -1,8 +1,8 @@
 ---
 id: 28bc72c6-5d4f-4d7a-abb2-6c1d72f3438a
 title: Release Notes (version 0.45)
-desc: ""
-updated: 1625511664730
+desc: ''
+updated: 1623095482213
 created: 1622949548271
 ---
 
@@ -58,5 +58,5 @@ Our documentation changes a lot week by week. Below is a highlight of some updat
     -   [[Updated alternatives list|dendron.alternatives]]
 -   dev
     -   [[Hide Block Anchors config|dendron.topic.publishing.configuration]]
-    -   [[Workspace Sync Config|dendron.ref.vaults]]
+    -   [[Workspace Sync Config|dendron.topic.vaults]]
     -   [[Added Noteless to mobile support|dendron.guides.cook]]

@@ -2,7 +2,7 @@
 id: f83c1d87-eac0-48f3-a5cf-8a69989d8ec1
 title: Dendrons Config
 desc: ''
-updated: 1624601891270
+updated: 1624315648216
 created: 1619539817122
 ---
 
@@ -62,7 +62,7 @@ Disable dendron showing hierarchies on published pages
 ### initializeRemoteVaults
 - default: true
 
-Determines if dendron pulls in un-initialized [[remote vault|dendron.ref.vaults#remote]] at startup
+Determines if dendron pulls in un-initialized [[remote vault|dendron.topic.vaults#remote]] at startup
 
 - default: true
 
@@ -106,7 +106,7 @@ If set to false, don't use [[pretty refs|dendron.ref.terms#pretty-ref]]
 
 See [[workspace sync configuration options|dendron.ref.workspace#configuration-options]] for valid options.
 
-Sets the [[synchronization strategy|dendron.ref.workspace#Workspace: Sync]] for [[workspace vaults|dendron.ref.vaults#workspace-vault]]. For regular vaults, please use the [[per-vault configuration|dendron.ref.vaults#sync]].
+Sets the [[synchronization strategy|dendron.ref.workspace#Workspace: Sync]] for [[workspace vaults|dendron.topic.vaults#workspace-vault]]. For regular vaults, please use the [[per-vault configuration|dendron.topic.vaults#sync]].
 
 ### autoFoldFrontmatter
 - default: true
@@ -124,7 +124,7 @@ Tracks [[vaults|dendron.concepts#vaults]] for the workspace. You shouldn't have 
 
 ### Vault properties:
 
-See [[Vault Configuration|dendron.ref.vaults#configuration]]
+See [[Vault Configuration|dendron.topic.vaults#configuration]]
 
 ## Journal
 ### dailyDomain

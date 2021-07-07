@@ -2,7 +2,7 @@
 id: 678c77d9-ef2c-4537-97b5-64556d6337f1
 title: Getting Started
 desc: ''
-updated: 1620596651093
+updated: 1625578960399
 created: 1608051264282
 nav_order: 1.1
 ---
@@ -10,16 +10,14 @@ nav_order: 1.1
 
 ## Pre-requisites
 
-This walkthrough will help you get started with Dendron. Before you start, make sure you have Dendron installed and **_a workspace initialized_**. 
+This walkthrough will help you get started with Dendron. Before you start, make sure you have Dendron installed and **_a workspace initialized_**. When you first install Dendron, you can click on the green `Initialize Workspace` button on the Welcome screen to initialize your first workspace. Then, pick a location to store your notes, and you'll be brought to the tutorial experience, which will contain notes with the same tutorial content here.
 
-![[dendron.guides.install#initialize-your-workspace,1:#*]]
+![Welcome Screen](https://org-dendron-public-assets.s3.amazonaws.com/images/tutorial-welcome-screen.png)
 
-### Your first workspace
+> 💡 If you don't see this Welcome screen, then you can open it back up by typing `Ctrl+P / Cmd+P` to bring up the command palette, and then running `Dendron: Launch Tutorial` to bring up this Welcome screen again.
+>
+> ![Welcome Screen](https://org-dendron-public-assets.s3.amazonaws.com/images/tutorial-launch-tutorial-cmd.png)
 
-After you've started Dendron, you should see a screen like the one below (depending on your color theme, your colors might look different).
+## Start the Tutorial
 
-![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/quickstart.workspace.jpg)
-
-
-### Next
-- [[Working with Notes|dendron.tutorial.notes]]
+1. [[Learn the basics of the Dendron UI |dendron.tutorial.navigation-basics]]

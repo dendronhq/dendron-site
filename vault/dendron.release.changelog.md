@@ -2,9 +2,9 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1625167081460
+updated: 1624591485975
 created: 1601508213606
-date: "2022-01-01"
+date: '2022-01-01'
 ---
 
 ## 0.49
@@ -236,7 +236,7 @@ date: "2022-01-01"
 
 #### Workspace Vaults
 
-![[dendron.ref.vaults#workspace-vault,1:#configuration]]
+![[dendron.topic.vaults#workspace-vault,1:#configuration]]
 
 ### Enhancements
 
@@ -248,7 +248,7 @@ date: "2022-01-01"
 
 ### Docs
 
--   [[Vaults|dendron.ref.vaults]]
+-   [[Vaults|dendron.topic.vaults]]
 
 ## 0.44
 

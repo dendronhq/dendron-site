@@ -9,7 +9,7 @@ created: 1614636249937
 Dendron 0.31 has sprouted  🌱
 
 This is probably the biggest release we've had in 2021!
-Lots of goodies to make dendron and [[multi vault|dendron.topic.multi-vault]] work better. Enjoy responsibility :)
+Lots of goodies to make dendron and [[multi vault|dendron.topic.vaults.multi-vault]] work better. Enjoy responsibility :)
 
 ### Highlights
 - [[cross vault links|dendron.topic.links#cross-vault-links]] let you specify links to notes in multi-vault workspaces
