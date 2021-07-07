@@ -151,7 +151,7 @@ This comes up a lot especially when your dealing with organizing collections of 
 
 The hierarchy adds friction but the idea is that the friction (eg. hierarchy) is not a bug but the reason why dendron works with thousands of notes.
 
-The analogy to think about is excel: while putting your numbers inside the structure of a spreadsheet might not be the most straightforward way of getting to a numerical solution, its use becomes indispensable once you deal with a significant amount ofnumbers.
+The analogy to think about is excel: while putting your numbers inside the structure of a spreadsheet might not be the most straightforward way of getting to a numerical solution, its use becomes indispensable once you deal with a significant amount of numbers.
 
 The way to think about dendron is that its not like google where you type a question and try to find an answer - until we get true AI, this simply doesn't work for personal knowledge. Rather, Dendron helps you organize your notes so you can reference the information you need to answer your own questions.
 
