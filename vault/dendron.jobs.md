@@ -11,9 +11,9 @@ Help us create a better tool for thought.
 
 # Senior Full Stack Engineer
 
-Dendron is an open source note-taking tool built inside the IDE that gives developers the ability to work with and organize information as they do code. Notes are plaintext markdown and can be compiled to static pages which can then be deployed and shared anywhere.
+Dendron is an open source knowledge management platform built inside the IDE. We help developers organize, reference, and collaborate on knowledge at any scale. 
 
-We're looking for engineers that can help us build out our feature set inside the IDE, on the browser, and in our up and coming cloud offering. Help us translate programming concepts like refactoring and debugging into the realm of knowledge management. 
+We're looking for engineers that can build out our feature set across multiple platforms and form factors. Help us build the IDE for general knowledge.
 
 Know that you'll be coming in at the ground level - Dendron launched last summer, just went through YC, and are looking for our first external hire. We're looking for a partner that is passionate about knowledge management and that can help us shape how it (should be) done moving forward.
 
@@ -33,21 +33,26 @@ Know that you'll be coming in at the ground level - Dendron launched last summer
 - You have deep experience with Git  
 - You are proficient with Javascript/Typescript 
 - You have experience building collaborative real time services
+- You have 5+ years of industry experience with [Infinidash](https://github.com/joenash/awesome-infinidash)
 
 
 ## What we offer
 - real salaries and meaningful equity
-- work that's in the open (dendron is open source so you'll be able to share and talk about what you are building)
+- work in the open (source)
 - a remote first workplace
 - a chance to make a meaningful difference in the world
 
-![[dendron#motivation,1:#*]]
-
 ## What we're built on 
 - our stack is all Typescript
-- our frontend is React, Next.js and Chakra UI
+- our frontend is React and Next.js 
 - our backend is express.js
-- our infrastructure (will) consist about having you code one of a series of micro-services running on top of AWS
+- our infrastructure consists of serverless technologies built on top of AWS
+
+## Our Mission
+
+![[dendron#motivation,1:#*]]
+
+You can see all our values and processes in the [Dendron Handbook](http://handbook.dendron.so/).
 
 ## Apply
 
