@@ -63,8 +63,24 @@ Optionally, we can warn users for color options that are incorrect or not widely
 * Filter notes in the graph view by the tags they have
 * Tag many notes at once by selecting all of them (using frontmatter tags)
 
+### Tags in the tree view
+
+Tags should get a special symbol in the tree view to set them apart, and the treeview should highlight them using the configured colors.
+Tags should also get sorted to the top or the bottom of the tree view to make them easier to find at a glance.
+
+### Hiding tags in publishing
+
+Tags should follow existing Dendron mechanisms for hiding notes, such as setting `published: false` in the frontmatter.
+Once a tag is hidden, this should not only hide the tag note, but also hide this tag from being rendered in the frontmatter tags.
+
 ## Details
 
+### Tag organization
+
+It should be possible to organize tags using the hierarchy, such as `#quis.quidem`, `#quis.temporibus`.
+If a parent tag in the hierarchy has a [[tag color|#tag-colors]] set or is [[hidden|#hiding-tags-in-publishing]], this should propagate to child tags.
+
+Organizing tags makes it possible to set colors for a group of tags, and also allows the use of existing features like rename and refactor to control the tags.
 ## Example
 
 ## Tradeoffs
