@@ -7,11 +7,10 @@ created: 1619807895859
 ---
 
 ## Tasks
-- [ ] store block ids
-- [ ] searching for blocks inside file
-- [ ] insert block id inside target
-- [ ] searching for existing blocks across all files
-- [ ] navigating to block 
+- [x] searching for blocks inside file
+- [x] insert block id inside target
+- [d] searching for existing blocks across all files
+- [x] navigating to block 
 
 
 ## Store Block ids
