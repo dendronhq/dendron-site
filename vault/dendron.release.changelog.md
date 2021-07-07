@@ -7,6 +7,21 @@ created: 1601508213606
 date: '2022-01-01'
 ---
 
+## 0.50
+
+## 0.49.1
+
+### Features
+- autocomplete for markdown preview @kaan
+
+### Enhancements
+- legacy preview will open links in the first window instead of overriding current window
+
+### Bug Fixes
+- issue with opening md links on legacy preview in windows
+
+### House Cleaning
+
 ## 0.49
 ## 0.48.3
 

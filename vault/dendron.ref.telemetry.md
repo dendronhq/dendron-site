@@ -39,8 +39,7 @@ The below is a collection of common fields that are collected
 | `nodeVersion` |  _string_  | Client's node version (e.g. `v12.12.0`).                                               |
 |    `anonymousId` |  _string_  | Random, non-identifiable signature nanoID (e.g. `JC6NXxDa0lDFD1Mu7U2Ga`) |
 |    `timestamp` |  _string_  | When the request was made   |
-
-
+  
 
 ## When is data collected?
 
