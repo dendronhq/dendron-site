@@ -12,15 +12,22 @@ date: '2022-01-01'
 ## 0.49.1
 
 ### Features
-- autocomplete for markdown preview @kaan
+- autocomplete for markdown preview ([[docs|dendron.ref.intellisense]])
 
 ### Enhancements
 - legacy preview will open links in the first window instead of overriding current window
+- better field validation when running [[publish pod|dendron.topic.pod#publish]]
+- ability to toggle labels on the graph
+- block anchors are hidden in published sites
+- filter stubs when using the [[directChildOnly modifier|dendron.topic.lookup.modifiers#directchildonly]] 
 
 ### Bug Fixes
 - issue with opening md links on legacy preview in windows
+- case sensitive windows drives cause preview to not work
 
 ### House Cleaning
+- better analytics for initial tutorial workspace ([[docs|dendron.ref.telemetry#tutorial-progression]])
+- run eslint on commit
 
 ## 0.49
 ## 0.48.3

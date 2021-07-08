@@ -57,6 +57,11 @@ When Dendron initializes, we collect data about on initialization time. This hel
 |      `noCaching` |  _boolean_| Check whether caching is disabled |
 
 
+### Tutorial Progression
+
+When Dendron starts for the first time, it launches users into a tutorial workflow. We track how far along the tutorial you get using the `Tutorial_{num}_Show` event. This helps us figure out how effective our intro documentation is.
+
+
 ### Installation/Upgrade 
 When Dendron is first installed or upgraded, we collect information about both previous and current versions. This helps us plan deprecation policies. 
 
