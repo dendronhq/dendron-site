@@ -12,7 +12,7 @@ date: '2022-01-01'
 ## 0.49.1
 
 ### Features
-- autocomplete for markdown preview ([[docs|dendron.ref.intellisense]])
+- - same file autocomplete headers and anchors ([[docs|dendron.ref.intellisense]])
 
 ### Enhancements
 - legacy preview will open links in the first window instead of overriding current window
