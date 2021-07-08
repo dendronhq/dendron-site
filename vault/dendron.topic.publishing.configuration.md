@@ -159,12 +159,6 @@ If you are publishing with github pages, the format is `https://{username}.githu
 
 Whether to use pretty note refs or plain refs. 
 
-### hideBlockAnchors (optional)
-- default: false
-
-When set to `false`, [[Block Anchor|dendron.topic.references#block-anchor]] will be displayed as small clickable links.
-Setting this option to `true` hides the block anchors so they are not visible, but they will continue to function when linked to.
-
 ### writeStubs 
 - status: optional
 - default: true
