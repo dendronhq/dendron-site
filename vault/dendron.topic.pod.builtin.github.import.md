@@ -9,11 +9,11 @@ created: 1625747404839
 ## Summary
 
 The Github Import Pod imports all the issues of a github repository into your selected vault as notes.
-The import config have additional options to select the owner, repository, and status of the github issues. 
+The import config has additional options to select the owner, repository, and status of the github issues. 
 
 ## Authentication
 
-To communicate with the GraphQL server, you'll need an OAuth token with the right scopes.
+To communicate with the Github server, you'll need an OAuth token with the right scopes.
 Follow the steps in [Creating a personal access token](https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token) to create a token. The scopes you require depends on the type of data you're trying to request, you can even select all and you are good to go.
 
 
@@ -44,8 +44,8 @@ fname: github.issues.dendron-site
 
 ```
   └── vault
-        ├── projects.p1.md
-        ├── projects.p1.one.md
+        ├── projects.one.md
+        ├── projects.two.md
         └── github.issues.dendron-site.86-Extra quotes in links tutorial.md
 
 ```
