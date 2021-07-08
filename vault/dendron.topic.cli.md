@@ -29,7 +29,7 @@ This only needs to be set if you are not executing the CLI from within the root 
 
 ### vault
 
-Path to a [[vaults|dendron.concepts#vaults]]. If not given and not a [[multi vault|dendron.topic.multi-vault]] workspace, Dendron will use the only existing vault. Otherwise, will ask for you to specify a vault
+Path to a [[vaults|dendron.concepts#vaults]]. If not given and not a [[multi vault|dendron.topic.vaults.multi-vault]] workspace, Dendron will use the only existing vault. Otherwise, will ask for you to specify a vault
 
 ## Engine Commands
 

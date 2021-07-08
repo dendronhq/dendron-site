@@ -15,6 +15,6 @@ created: 1619807329233
 - generate content of block for block references
 
 ## Tasks
-- [ ] compiling block links
-- [ ] compiling block anchors
-- [ ] compiling block link references
+- [x] compiling block links
+- [x] compiling block anchors
+- [x] compiling block link references

@@ -24,7 +24,8 @@ Filter notes that show up during lookup
 
 By default, unless you are at the root of your workspace, dendron does a fuzzy search of all notes that match your current hierarchy prefix. This is useful to see your entire sub-tree in one glance but can be overwhelming if you have a lot of notes. 
 
-Dendron's **directChildFilter** is a toggle that limits lookup to just the next level in the tree. This is useful for exploring your hierarchy one level at a time. 
+Dendron's **directChildFilter** is a toggle that limits lookup to just the next level in the tree. It also filters out all [[stub results|dendron.concepts#stubs]]. 
+This is useful for exploring your hierarchy one level at a time. 
 
 - filter all notes that are not the direct children of the current note
        ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/lookup.dchild.jpg)

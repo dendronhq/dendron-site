@@ -39,8 +39,7 @@ The below is a collection of common fields that are collected
 | `nodeVersion` |  _string_  | Client's node version (e.g. `v12.12.0`).                                               |
 |    `anonymousId` |  _string_  | Random, non-identifiable signature nanoID (e.g. `JC6NXxDa0lDFD1Mu7U2Ga`) |
 |    `timestamp` |  _string_  | When the request was made   |
-
-
+  
 
 ## When is data collected?
 
@@ -56,6 +55,11 @@ When Dendron initializes, we collect data about on initialization time. This hel
 |      `numNotes` |  _number_| Number of notes across all vaults (rounded to the nearest 10 notes) |
 |      `numVaults` |  _number_| Number of vaults in workspace |
 |      `noCaching` |  _boolean_| Check whether caching is disabled |
+
+
+### Tutorial Progression
+
+When Dendron starts for the first time, it launches users into a tutorial workflow. We track how far along the tutorial you get using the `Tutorial_{num}_Show` event. This helps us figure out how effective our intro documentation is.
 
 
 ### Installation/Upgrade 

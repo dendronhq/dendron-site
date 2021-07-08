@@ -2,10 +2,32 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1625167081460
+updated: 1624591485975
 created: 1601508213606
-date: "2022-01-01"
+date: '2022-01-01'
 ---
+
+## 0.50
+
+## 0.49.1
+
+### Features
+- - same file autocomplete headers and anchors ([[docs|dendron.ref.intellisense]])
+
+### Enhancements
+- legacy preview will open links in the first window instead of overriding current window
+- better field validation when running [[publish pod|dendron.topic.pod#publish]]
+- ability to toggle labels on the graph
+- block anchors are hidden in published sites
+- filter stubs when using the [[directChildOnly modifier|dendron.topic.lookup.modifiers#directchildonly]] 
+
+### Bug Fixes
+- issue with opening md links on legacy preview in windows
+- case sensitive windows drives cause preview to not work
+
+### House Cleaning
+- better analytics for initial tutorial workspace ([[docs|dendron.ref.telemetry#tutorial-progression]])
+- run eslint on commit
 
 ## 0.49
 ## 0.48.3
@@ -236,7 +258,7 @@ date: "2022-01-01"
 
 #### Workspace Vaults
 
-![[dendron.ref.vaults#workspace-vault,1:#configuration]]
+![[dendron.topic.vaults#workspace-vault,1:#configuration]]
 
 ### Enhancements
 
@@ -248,7 +270,7 @@ date: "2022-01-01"
 
 ### Docs
 
--   [[Vaults|dendron.ref.vaults]]
+-   [[Vaults|dendron.topic.vaults]]
 
 ## 0.44
 
