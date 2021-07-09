@@ -21,3 +21,4 @@ This walkthrough will help you get started with Dendron. Before you start, make 
 ## Start the Tutorial
 
 1. [[Learn the basics of the Dendron UI |dendron.tutorial.navigation-basics]]
+
