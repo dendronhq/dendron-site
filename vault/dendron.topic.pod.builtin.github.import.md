@@ -27,7 +27,7 @@ vaultName: vault
 owner: dendronhq
 repository: dendron-site
 status: open
-to: 2021-06-29
+endDate: 2021-06-29
 token: ***
 fname: github.issues.dendron-site
 ```
@@ -80,13 +80,13 @@ Line 12 of the links page ( https://github.com/dendronhq/dendron-site/edit/maste
 - type: string
 - required: true
 
-## to
+## endDate
 - description: import issues created before this date
 - type: string
 - default: Today's date
 - format: YYYY-MM-DD
 
-## from
+## startDate
 - description: import issues created after this date: YYYY-MM-DD
 - type: string
 - format: YYYY-MM-DD
