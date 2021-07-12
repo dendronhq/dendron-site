@@ -25,8 +25,6 @@ date: '2022-01-01'
 - gracefully handle a bad wiki link
 - only generate alphanumeric ids to be compatible with github pages urls
 
-### House Cleaning
-
 ## 0.49.1
 
 ### Features

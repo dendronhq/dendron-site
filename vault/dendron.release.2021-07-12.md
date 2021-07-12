@@ -12,16 +12,14 @@ Dendron 0.50 has sprouted  🌱
 
 ### Highlights
 
-- **Block reference anchors** are now hidden from published sites. 
-- **Header references autocomplete**. Header autocomplete works for all your notes. Type `[[#` to find all headers in your current note and `[[note.name#` to find a header in a particular note. 
+- **Local Note Graphs**. Don't be a tourist. Navigate like a local with local note graphs!
+- **Header autocomplete**. Header autocomplete works for all your notes. Type `[[#` to find all headers in your current note and `[[note.name#` to find a header in a particular note. 
 - **Block reference autocomplete**. Any block in the current not can be referenced (and the reference is automatically added). Just type `[[^` to find all arbitrary blocks you can reference in your current note. More details [[here|dendron.ref.intellisense]]. 
-- **Show/hide labels** in the graph view so you can enjoy a more minimalist view of the graph if you want. 
+- **Better ux for block anchors**. They are now faded in the text editor and hidden on published sites
+- **Show/hide labels in graph view** and date to be a minimalist.
 - **Github import pod.** Now, you can import issues directly from Github and have them show up as notes! Learn more [[here|dendron.topic.pod.builtin.github]]
 - **Direct child filter ignores stubs.** There's now an easy way to filter notes in the current hierarchy without the clutter of stub notes. Last week's CROP shipped! 
-
-#### Fixes
-- Clicking on links in Preview work on Windows
-
+- **Fix windows preview issue** where links fail top open
 ### Docs
 
 Our documentation changes a lot week by week. Below is a highlight of some updates from the past week.
@@ -33,7 +31,8 @@ Our documentation changes a lot week by week. Below is a highlight of some updat
 
 
 ### [[Pruning ✂️|dendron.ref.status#pruning-️]]
-- [[hide block anchors config|dendron.topic.publishing.configuration]] was deprecated. Hiding published anchors is the expected behavior (no config needed). 
+- [[hide block anchors config|dendron.topic.publishing.configuration]] was removed. Hiding published anchors is the expected behavior (no config needed). 
+- Dendron Markdown Links is now removed. 
 
 ### Ongoing 
 <!-- Discuss ongoing efforts here -->
@@ -51,8 +50,8 @@ You can find notes from our latest office hours [[here|dendron.community.office-
 
 A big **thanks** to the following gardeners that brought up issues, contributions, and fixes to this release :man_farmer: :woman_farmer: 
 - [andrey-jef](https://github.com/andrey-jef) @evanAndiez#9559
-  - [Notes with ids starting with _ breaks publishing](https://github.com/dendronhq/dendron/issues/945)
   - `+taxonomist`
+  - [Notes with ids starting with _ breaks publishing](https://github.com/dendronhq/dendron/issues/945)
   - [update config docs](https://github.com/dendronhq/dendron-site/pull/137)
 - [Felipe Whitaker](https://github.com/felipewhitaker) Leite#5753
   - `+taxonomist`
