@@ -19,30 +19,31 @@ FileStorage {
 
     initNotes {
         @vaults.map {
-            notes = @_initNotes(vault)
+            notes, cacheUpdates = @_initNotes(vault)
             notesWithLinks notes.filter{ n.links }
-            addBacklinks(notesWithLinks)
+            writeNotesToCache(cacheUpdates)
         }
 
+        addBacklinks(notesWithLinks)
     }
 
-    _initNotes {
-        noteFiles = getAllFiles(vault)
-        notes = NoteParser.parse(noteFiles, vault)
-        notes.map n {
-            findLinks(n)
+        _initNotes {
+            noteFiles = getAllFiles(vault)
+            notes = NoteParser.parse(noteFiles, vault)
+            notes.map n {
+                findLinks(n)
+            }
+            return notes
         }
-        return notes
-    }
 
-    addBacklinks(notesWithLinks, allNotes) {
-        notesWithLinks.each note {
-            note.links.each l {
-                n = allNotes[l.to.fname]
-                addBacklinks(n)
+        addBacklinks(notesWithLinks, allNotes) {
+            notesWithLinks.each note {
+                note.links.each l {
+                    n = allNotes[l.to.fname]
+                    addBacklinks(n)
+                }
             }
         }
-    }
 
 }
 ```
