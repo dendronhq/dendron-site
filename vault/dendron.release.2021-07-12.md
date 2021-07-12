@@ -1,13 +1,14 @@
 ---
-id: 1ec8d588-7c8a-47a2-b79e-1dd02d10b600
-title: Release
+id: 16qtgkcY-tgiYZWafX9Sp
+title: Release Notes (version 0.50)
 desc: ''
-updated: 1623700817167
-created: 1622484182130
+updated: 1626100738632
+created: 1626100738632
 ---
 
 
-Dendron 0.5 has sprouted  🌱
+
+Dendron 0.50 has sprouted  🌱
 
 ### Highlights
 
@@ -22,8 +23,7 @@ Our documentation changes a lot week by week. Below is a highlight of some updat
 
 #### Office Hours
 
-<!-- TODO: update the link -->
-You can find notes from our latest office hours [[here|dendron.community.office-hours.2022.07.]]
+You can find notes from our latest office hours [[here|dendron.community.office-hours.2021.07.11]]
 
 #### Thank You's
 
@@ -31,4 +31,4 @@ A big **thanks** to the following gardeners that brought up issues, contribution
 You can see an overview of all roles [[here|dendron.community.roles]]
 
 ### Changelog
-![[dendron.release.changelog#051,1:#050]]
+![[dendron.release.changelog#044,1:#043]]
