@@ -9,6 +9,24 @@ date: '2022-01-01'
 
 ## 0.50
 
+## 0.49.2
+
+### Features
+
+#### Local Graph
+![[dendron://dendron-site/dendron.topic.graph-view#local-note-graph,1:#*]]
+
+### Enhancements
+- block anchors are de-emphasized in text editor
+- doctor command will fix bad frontmatter ids
+
+### Bug Fixes
+- image preview not showing up on hover
+- gracefully handle a bad wiki link
+- only generate alphanumeric ids to be compatible with github pages urls
+
+### House Cleaning
+
 ## 0.49.1
 
 ### Features

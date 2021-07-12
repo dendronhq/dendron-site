@@ -2,7 +2,7 @@
 id: 587e6d62-3c5b-49b0-aedc-02f62f0448e6
 title: Graph View
 desc: ""
-updated: 1624558162889
+updated: 1626108519123
 created: 1595120707814
 stub: false
 ---
@@ -14,6 +14,27 @@ stub: false
 -   Filter graph view to show only desired data
 -   Much faster startup times than the legacy note/schema graph
     -   Scales to virtually any size graph
+
+## Types
+
+### Note Graph
+
+
+#### Full Note Graph
+
+Show graph of all your notes. You can activate this by using the [[Show Note Graph Command|dendron.topic.graph-view#show-note-graph-v2]] command and toggling the [[Show Note Graph|dendron.topic.graph-view#^Ev8p1L5P0IzDGjAs]] option.
+
+<!-- TODO: pic -->
+
+#### Local Note Graph
+
+Shows a graph of your current note and immediate neighbors. This is the default view when you run [[Show Note Graph|dendron.topic.graph-view#show-note-graph-v2]].
+
+<!-- TODO: pic -->
+
+### Schema Graph
+
+Show graph of your schemas. You can activate by running the [[Show Schema Graph|dendron.topic.graph-view#show-schema-graph-v2]] command.
 
 ## Commands
 
@@ -72,7 +93,7 @@ Here's a quick example:
 
 ### Options
 
--   **Show Local Graph (Note Only)**: When checked, show local graph centered around the current open note. Otherwise, show the full workspace-wide note graph.
+-   **Show Local Graph (Note Only)**: When checked, show local graph centered around the current open note. Otherwise, show the full workspace-wide note graph. ^Ev8p1L5P0IzDGjAs
 
 -   **Allow Relayout**: When checked, layout the graph again when the graph configuration is updated.
     -   This is useful in instances you'd like to preserve the current layout but add/remove information, e.g. adding link connections to a hierarchical graph while maintaining readability
