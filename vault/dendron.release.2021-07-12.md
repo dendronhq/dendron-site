@@ -2,7 +2,7 @@
 id: 16qtgkcY-tgiYZWafX9Sp
 title: Release Notes (version 0.50)
 desc: ''
-updated: 1626100738632
+updated: 1626114830492
 created: 1626100738632
 ---
 
@@ -14,9 +14,10 @@ Dendron 0.50 has sprouted  🌱
 
 - **Block reference anchors** are now hidden from published sites. 
 - **Header references autocomplete**. Header autocomplete works for all your notes. Type `[[#` to find all headers in your current note and `[[note.name#` to find a header in a particular note. 
-- **Block reference autocomplete**. Any block in the current not can be referenced (and the reference is automatically added). Just type `[[^` to find all arbitrary blocks you can reference in your current note. 
+- **Block reference autocomplete**. Any block in the current not can be referenced (and the reference is automatically added). Just type `[[^` to find all arbitrary blocks you can reference in your current note. More details [[here|dendron.ref.intellisense]]. 
 - **Show/hide labels** in the graph view so you can enjoy a more minimalist view of the graph if you want. 
 - **Github import pod.** Now, you can import issues directly from Github and have them show up as notes! Learn more [[here|dendron.topic.pod.builtin.github]]
+- **Direct child filter ignores stubs.** There's now an easy way to filter notes in the current hierarchy without the clutter of stub notes. Last week's CROP shipped! 
 
 #### Fixes
 - Clicking on links in Preview work on Windows
@@ -25,8 +26,20 @@ Dendron 0.50 has sprouted  🌱
 
 Our documentation changes a lot week by week. Below is a highlight of some updates from the past week.
 
+- The revamped [[dendron.tutorial]] is on the Dendron site. Go check it out if you're starting out (or would just like a refresher on all things Dendron).  
+- Added [[dendron.guides.best-practices]] around using Dendron across machines and repo synchronization. 
+- Docs for [[dendron.ref.intellisense]]. 
+- Documented the [[Github Pod|dendron.topic.pod.builtin.github.import]]
+
+
+### [[Pruning ✂️|dendron.ref.status#pruning-️]]
+- [[hide block anchors config|dendron.topic.publishing.configuration]] was deprecated. Hiding published anchors is the expected behavior (no config needed). 
+
 ### Ongoing 
 <!-- Discuss ongoing efforts here -->
+
+- We're working on a fairly large CROP from a few cycles ago to add unlinked references ([#219](https://github.com/dendronhq/dendron/issues/219)) and expect to complete this by next week. 
+- We've come up with a new approach to default note creation in a multi-vault context. See the discussion [here](https://github.com/dendronhq/dendron/issues/649)
 
 ### Community
 
