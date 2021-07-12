@@ -2,7 +2,7 @@
 id: 32cdd4aa-d9f6-4582-8d0c-07f64a00299b
 title: Related Projects
 desc: ''
-updated: 1623293415701
+updated: 1625786051413
 created: 1596684856906
 stub: false
 nav_order: 10
@@ -10,6 +10,7 @@ nav_order: 10
 ## Summary
 
 This goes over all projects in the dendron monorepo
+
 
 - [[Dendron Frontend|pkg.dendron-frontend]]
   - [[11ty|pkg.11ty]]
