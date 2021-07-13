@@ -42,7 +42,7 @@ You can open search editor via keyboard shortcut. I use it to start a search wit
       "triggerSearch": false,
       "focusResults": false,
       "includes": "${fileBasenameNoExtension}",
-    }the following line
+    }
   }
 ```
 

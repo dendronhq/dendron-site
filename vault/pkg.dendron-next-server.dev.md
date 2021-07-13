@@ -44,3 +44,10 @@ Follow the same instructions to run Dendron remotely. If you are using VSCode, u
 
 ### Conflicting Views
 - if you have conflicting views warning when debugging, its most likely because you've installed Dendron in the same version of VSCode that you are developing on. We highly recommend you keep two instances of VSCode and not install Dendron on the version you use for development
+
+
+## Cook
+
+### Creating new Async Thunk Method
+- [enhance: Only Sync changed notes for preview by kevinslin · Pull Request #969 · dendronhq/dendron](https://github.com/dendronhq/dendron/pull/969)
+
