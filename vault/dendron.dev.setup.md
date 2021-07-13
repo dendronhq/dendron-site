@@ -31,7 +31,7 @@ cd dendron
 ### 3. Install Dependencies and Build
 ```bash
 # this should install all dependencies
-yarn init
+yarn install
 
 # if the above script errors out, you can diagnose the issue and run the following scripts sequentially dependeing on where the error occured
 yarn # install package root dependencies
