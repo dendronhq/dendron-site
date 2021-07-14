@@ -88,3 +88,13 @@ The Dendron Published Site will be the default path published using nextjs. It h
 ## Copy and Paste
 
 By default, modifier controls like copy and paste are disabled because we are operating an iframe operating inside a webview. The workaround is described [here](https://github.com/jevakallio/vscode-live-frame#command-key-combinations-copy-paste-select-all-are-disabled). We've implemented it [here](https://github.com/dendronhq/dendron/blob/feature-graph-regex-filter/packages/plugin-core/src/views/utils.ts#L10:L10) so that any webview that uses `WebViewUtils` to generate the HTML will come with the workaround. Make sure that keyboard events are allowed to propagate for this workaround to work. 
+
+## Theming
+
+Dendron listens to the [ThemeChange](https://github.com/dendronhq/dendron/blob/feat/preview-mermaid/packages/dendron-next-server/pages/_app.tsx#L107:L107) event from the plugin.
+
+This is currently broadcasted when we load the webview initially [here](https://github.com/dendronhq/dendron/blob/feat/preview-mermaid/packages/plugin-core/src/views/utils.ts#L77:L77). 
+
+- NOTE: currently, in order to broadcast theme changes, a user needs to run `ReloadWindow`. We have an action item to change this dynamcally. 
+
+On the webview side, Dendron uses the [ThemeSwitcherProvider](https://github.com/dendronhq/dendron/blob/feat/preview-mermaid/packages/dendron-next-server/pages/_app.tsx#L131:L131) to pass the current theme to downstream components
