@@ -2,7 +2,7 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1626382525465
+updated: 1626387826163
 created: 1601508213606
 date: '2022-01-01'
 ---
@@ -25,8 +25,7 @@ date: '2022-01-01'
 
 #### Hashtag support 
 
-#todo
-- [[user.kaan]], add docs in [[Tags|dendron.topic.tags]]
+![[dendron://dendron-site/dendron.topic.tags#summary,1:#*]]
 
 #### Preview V2 Enhancements
 
@@ -37,7 +36,7 @@ Almost at feature parity with current preview. You can now toggle it to be the d
 ### Enhancements
 - sort completions by vault names
 - [[Insert Note|dendron.topic.commands#insert-note]] will now resolve snippet variables ([[docs|dendron.topic.snippets#variables]])
-- custom syntax highlighting for wiki links #todo [[user.kaan]], add docs in [[Wiki Links|dendron.topic.links#wiki-links]]
+- custom syntax highlighting for wiki links ([[docs|dendron.topic.links#highlghts]])
 - replace prefix with value of original match when running refactor command
 
 ### Bug Fixes
