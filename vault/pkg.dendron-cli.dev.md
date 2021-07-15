@@ -7,19 +7,15 @@ created: 1609350672493
 ---
 
 
-## Symlink
+## Pre-req
+- [[dendron.dev.setup]] 
+
+
+## Cook
+### Symlink
 Symlinking `dendron-cli` lets you use the current version of dendron from anywhere inside the CLI
 
 ```
 cd packages/dendron-cli
 npm link
 ```
-
-## Issues
-
-### Unexpected Token
-  name: 'EleventyConfigError',
-  originalError:
-   /codebuild/output/src896656404/src/staging/node_modules/@dendronhq/dendron-11ty/libs/utils.js:68
-     static getUrl = (note) => {
-   SyntaxError: Unexpected token =

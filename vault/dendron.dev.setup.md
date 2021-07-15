@@ -1,8 +1,8 @@
 ---
 id: 64f0e2d5-2c83-43df-9144-40f2c68935aa
-title: Setup
+title: Setup Dendron Development Environment
 desc: ''
-updated: 1624030043747
+updated: 1626374163617
 created: 1598651458825
 ---
 

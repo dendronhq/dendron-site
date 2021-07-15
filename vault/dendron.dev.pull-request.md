@@ -48,3 +48,5 @@ refactor!: drop support for Node 6
 - [ ] after you submit your pull request, check the output of our [integration test](https://github.com/dendronhq/dendron/actions) and make sure all tests pass
 - [ ] (optional) ping `@Dendron Team` in the `#dev` channel of our [discord](https://discord.gg/AE3NRw9) - we usually respond to PRs within 24h
 
+### QA Checklist
+- [[Checklist|dendron.dev.qa.sop#checklist]]
