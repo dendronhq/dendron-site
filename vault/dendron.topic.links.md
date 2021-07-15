@@ -2,7 +2,7 @@
 id: 3472226a-ff3c-432d-bf5d-10926f39f6c2
 title: Links
 desc: ''
-updated: 1622401187922
+updated: 1626384420851
 created: 1595003088839
 stub: false
 ---
@@ -30,6 +30,10 @@ Wiki links support **autocomplete**. To initiate:
 - use the vscode [intellisense shortcut](https://code.visualstudio.com/docs/editor/intellisense#_key-bindings) to trigger the autocomplete
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/links-autocomplete.gif)
+
+Wiki links also have support for highlighting in the editor. Existing notes will be highlighted in blue, and missing notes will be highlighted in yellow. The exact shade of color depends on your theme.
+
+![](https://i.imgur.com/aBcgyZX.png)
 
 ## Children Links
 
