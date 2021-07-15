@@ -2,10 +2,38 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1624591485975
+updated: 1626381856094
 created: 1601508213606
 date: '2022-01-01'
 ---
+
+## 0.51
+
+## 0.50.1
+
+### Features
+
+#### Find all link candidates to current note
+
+#### Smart hierarchy selection when creating notes with multiple vaults
+-   [[pr jon multi vault note creation|scratch.2021.07.12.073220.pr-jon-multi-vault-note-creation]] 
+
+#### Hashtag support 
+-  [[pr kaan hashtag |scratch.2021.07.15.095618.pr-kaan-hashtag]]
+
+### Enhancements
+- sort completions by vault names
+- [[Insert Note|dendron.topic.commands#insert-note]] will now resolve snippet variables ([[docs|dendron.topic.snippets#variables]])
+- custom syntax highlighting for wiki links
+- replace prefix with value of original match when running refactor command
+- lots of improvements in [[Preview|dendron.ref.web-ui#preview]]
+
+### Bug Fixes
+- updated timestamp in frontmatter not updating
+- bad link in tutorial workspace
+
+### House Cleaning
+- add analytics on uninstall
 
 ## 0.50
 

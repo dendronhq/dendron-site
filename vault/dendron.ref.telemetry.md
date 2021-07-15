@@ -2,7 +2,7 @@
 id: 84df871b-9442-42fd-b4c3-0024e35b5f3c
 title: Telemetry
 desc: ''
-updated: 1623700308070
+updated: 1626381612883
 created: 1619460500071
 ---
 
@@ -62,7 +62,7 @@ When Dendron initializes, we collect data about on initialization time. This hel
 When Dendron starts for the first time, it launches users into a tutorial workflow. We track how far along the tutorial you get using the `Tutorial_{num}_Show` event. This helps us figure out how effective our intro documentation is.
 
 
-### Installation/Upgrade 
+### Installation/Upgrade/Uninstall
 When Dendron is first installed or upgraded, we collect information about both previous and current versions. This helps us plan deprecation policies. 
 
 

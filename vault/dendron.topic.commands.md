@@ -2,7 +2,7 @@
 id: eea2b078-1acc-4071-a14e-18299fc28f47
 title: Commands
 desc: ''
-updated: 1624315741527
+updated: 1626381058092
 created: 1595261816971
 ---
 
@@ -86,7 +86,7 @@ If you use this command in a [[multi vault|dendron.topic.vaults.multi-vault]] wo
 ### Delete Node
 
 - shortcuts:
-  - key: `ctrl+shift+d`
+  - key: `ctrl+shift+d`e
   - mac: `cmd+shift+d`
 
 Delete a note or schema
@@ -94,6 +94,8 @@ Delete a note or schema
 ### Insert Note
 
 Insert the contents from a note into another note. You can configure a starting hierarchy for this command. Useful if you designated a hierarchy (eg. `templates`) for insertions.
+
+When inserting a note, all snippet [[variables|dendron.topic.snippets#variables]] will also be resolved.
 
 - configuration: [[defaultInsertHierarchy|dendron.topic.config.dendron#defaultinserthierarchy]]
 
