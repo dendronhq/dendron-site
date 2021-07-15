@@ -2,7 +2,7 @@
 id: 25287595-96bb-410b-ab46-eb9a26b0e259
 title: Web UI
 desc: ''
-updated: 1625167081470
+updated: 1626382338591
 created: 1621552722494
 ---
 
@@ -53,13 +53,9 @@ The Dendron Calendar View has the following capabilities:
 Set start of week (eg. `0` for sunday, `1` for monday, `2` for tuesday, etc.)  for the [[Dendron Calendar View|dendron.topic.workbench#calendar-view]]
 
 ### Preview
-- [[Experimental 🧪|dendron.ref.status#experimental-🧪]]
 
-The Dendron Preview gives you a rich HTML preview for your notes. Currently it is missing the following features compared to the current [[preview|dendron.topic.preview]]:
-- mermaid diagrams
-- scroll sync
+![[dendron://dendron-site/dendron.topic.preview-v2#summary,1]]
 
-If you discover any issues that are not listed above, please submit a bug repo [here](https://github.com/dendronhq/dendron/issues/new?assignees=&labels=&template=bug_report.md&title=) so we can add it to our roadmap!
 #### Methods
 
 ##### Show Preview V2

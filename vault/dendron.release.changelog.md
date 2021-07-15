@@ -2,7 +2,7 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1626382005652
+updated: 1626382525465
 created: 1601508213606
 date: '2022-01-01'
 ---
@@ -28,12 +28,17 @@ date: '2022-01-01'
 #todo
 - [[user.kaan]], add docs in [[Tags|dendron.topic.tags]]
 
+#### Preview V2 Enhancements
+
+Almost at feature parity with current preview. You can now toggle it to be the default preview by setting `dev.enablePreviewV2` to true in your `dendron.yml`
+
+![[dendron://dendron-site/dendron.topic.preview-v2#summary,1:#*]]
+
 ### Enhancements
 - sort completions by vault names
 - [[Insert Note|dendron.topic.commands#insert-note]] will now resolve snippet variables ([[docs|dendron.topic.snippets#variables]])
 - custom syntax highlighting for wiki links #todo [[user.kaan]], add docs in [[Wiki Links|dendron.topic.links#wiki-links]]
 - replace prefix with value of original match when running refactor command
-- lots of improvements in [[Preview|dendron.ref.web-ui#preview]]
 
 ### Bug Fixes
 - updated timestamp in frontmatter not updating

@@ -2,12 +2,17 @@
 id: 8de4209d-84d3-45f8-96a4-34282e34507d
 title: Preview
 desc: ''
-updated: 1603383860949
+updated: 1626382192254
 created: 1603383580067
 ---
+
+## Summary
+
 The preview pane renders the Dendron's markdown text into nicely formatted HTML. The preview is a fork of the [markdown-preview-enhanced extension](https://github.com/shd101wyy/vscode-markdown-preview-enhanced). 
 
 All documentation pertaining to the original extension can be found [here](https://shd101wyy.github.io/markdown-preview-enhanced/#/). This page will highlight some key features as well as Dendron specific additions. 
+
+## Topics
 
 ### Table of Contents
 
