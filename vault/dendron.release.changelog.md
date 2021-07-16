@@ -2,7 +2,7 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1626387826163
+updated: 1626402021909
 created: 1601508213606
 date: '2022-01-01'
 ---
@@ -20,8 +20,9 @@ date: '2022-01-01'
 
 #### Smart hierarchy selection when creating notes with multiple vaults
 
-#todo
-- [[user.jonathan]], add docs in [[Summary|dendron.topic.lookup.create#summary]]
+The behavior around selecting which vault to create a note in has been improved for multi-vault workspaces. If the new note matches an existing hierarchy in a different vault, a prompt will come up with vault suggestions for your new note.
+
+![[Vault Location when Creating a Note|dendron.topic.vaults.multi-vault#vault-location-when-creating-a-note:#navigating-links]]
 
 #### Hashtag support 
 

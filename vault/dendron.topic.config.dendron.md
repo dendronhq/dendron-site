@@ -33,7 +33,7 @@ Controls the title for [[children links|dendron.topic.links#children-links]] in 
 
 ### lookupConfirmVaultOnCreate
 
-With this set, you can pick the vault for new notes.  
+With this set, you will be prompted to select the vault location each time you create a note when you have multiple vaults in your workspace.
 
 ### mermaid
 - default: false
