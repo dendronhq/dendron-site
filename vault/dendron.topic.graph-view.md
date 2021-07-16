@@ -109,6 +109,12 @@ Primarily for debugging, this section has information about graph size. Edge cou
 
 Dendron supports custom styling of schema and note graphs. Styling follows the Cytoscape.js format, which is CSS-like with a couple of differences. [Full Cytoscape.js styling documentation can be found here.](https://js.cytoscape.org/#style)
 
+### Adding Styles
+
+Launch the command palette (see [[docs|dendron.guides.cook#launch-the-command-palette]]): `> Dendron: Configure Graph Style (css)`
+
+Once the `styles.css` file is open, add your styles and save. The styles will be visible in the graph the next time it is opened.
+
 ### Selectors
 
 In order to style the graph, there are a variety of selectors to choose from. Currently supported selectors include:
