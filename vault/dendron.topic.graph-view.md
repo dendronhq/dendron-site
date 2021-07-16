@@ -19,7 +19,6 @@ stub: false
 
 ### Note Graph
 
-
 #### Full Note Graph
 
 Show graph of all your notes. You can activate this by using the [[Show Note Graph Command|dendron.topic.graph-view#show-note-graph-v2]] command and toggling the [[Show Note Graph|dendron.topic.graph-view#^Ev8p1L5P0IzDGjAs]] option.
@@ -105,6 +104,69 @@ Primarily for debugging, this section has information about graph size. Edge cou
 -   **Linked Edges**: Number of linked connections between nodes
 -   **Hierarchical Edges**: Number of hierarchical connections between nodes
 -   **Nodes**: Number of nodes in the graph
+
+## Custom Styling
+
+Dendron supports custom styling of schema and note graphs. Styling follows the Cytoscape.js format, which is CSS-like with a couple of differences. [Full Cytoscape.js styling documentation can be found here.](https://js.cytoscape.org/#style)
+
+### Selectors
+
+In order to style the graph, there are a variety of selectors to choose from. Currently supported selectors include:
+
+| Selector     | Description                             |
+| ------------ | --------------------------------------- |
+| `node`       | Any node                                |
+| `edge`       | Any edge                                |
+| `:selected`  | Any selected node                       |
+| `.parent`    | Any parent node (local note graph only) |
+| `.links`     | Any link connection edge                |
+| `.hierarchy` | Any hierarchy connection edge           |
+
+There are also some vault-specific selectors. These include:
+
+| Selector            | Description                                |
+| ------------------- | ------------------------------------------ |
+| `.vault-VAULT_NAME` | Any node or edge in the `VAULT_NAME` vault |
+
+Selectors can be chained together, just like in regular CSS. For example, `node.vault-VAULT_NAME` would target only nodes in the `VAULT_NAME` vault.
+
+### Style Properties
+
+#### Styling Nodes
+
+Some common node style properties are listed below.
+**[Full node style property list →](https://js.cytoscape.org/#style/node-body)**
+
+| Property           | Description                                            |
+| ------------------ | ------------------------------------------------------ |
+| `width`            | The width of the node’s body.                          |
+| `height`           | The height of the node’s body.                         |
+| `shape`            | The shape of the node's body (ellipse, triangle, etc.) |
+| `background-color` | The color of the node's body.                          |
+| `border-width`     | The size of the node’s border.                         |
+| `border-color`     | The color of the node’s border.                        |
+
+#### Styling Node Labels
+
+Some common node label style properties are listed below. Select labels by selecting the node associated with them.
+**[Full node label style property list →](https://js.cytoscape.org/#style/labels)**
+
+| Property      | Description                        |
+| ------------- | ---------------------------------- |
+| `color`       | The color of the label.            |
+| `font-size`   | The size of the label text.        |
+| `font-weight` | The font weight of the label text. |
+
+#### Styling Edges
+
+Some common edge style properties are listed below.
+**[Full edge style property list →](https://js.cytoscape.org/#style/edge-line)**
+
+| Property     | Description                                                  |
+| ------------ | ------------------------------------------------------------ |
+| `width`      | The width of the edge line.                                  |
+| `line-color` | The color of the edge line.                                  |
+| `line-style` | The style of the edge line (`solid`, `dotted`, or `dashed`). |
 
 ## RFCs
 
