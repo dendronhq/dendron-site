@@ -168,6 +168,14 @@ Some common edge style properties are listed below.
 | `line-color` | The color of the edge line.                                  |
 | `line-style` | The style of the edge line (`solid`, `dotted`, or `dashed`). |
 
+### Troubleshooting
+
+If styles are not showing up in the graph, try the following steps:
+
+1. Check that every style property ends in a semi-colon.
+2. Check that you have no unused selectors (e.g. `node {}`). Cytoscape can be a bit particular at times, so just comment out selectors if not in use.
+3. Close and re-open the graph view. Styles only apply on graph open at the moment.
+
 ## RFCs
 
 -   [[7 Graph Rework|dendron.rfc.7-graph-rework]]
