@@ -2,7 +2,7 @@
 id: f7ebd4aa-8ba7-4bc5-bd00-a1efc5315f07
 title: Workbench
 desc: ''
-updated: 1626404689881
+updated: 1626473338211
 created: 1595170237255
 stub: false
 ---
@@ -58,11 +58,11 @@ The Dendron Tree View has the following capabilities:
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/workbench.treeview-active-doc.gif)
 
-## Backlinks
+## Backlinks View
 
-> The link candidate feature of the backlinks panel is currently disabled by default. 'Accessing the Backlinks view' section below goes over how to enable it.
+This view lets you see all [[backlinks|dendron.topic.links#backlinks]] to the current note.
 
-The Backlinks view is a way to look at existing links and possible candidates of links to the currently open note. When you create a link anywhere in Dendron, it becomes a backlink to the destination note and will appear in the backlinks view of the destination note.
+When you create a link anywhere in Dendron, it becomes a backlink to the destination note and will appear in the backlinks view of the destination note.
 
 ![](https://cdn.loom.com/images/originals/25fce495c52a475b9a952e1901b93e4c.jpg?Expires=1626335459&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jZG4ubG9vbS5jb20vaW1hZ2VzL29yaWdpbmFscy8yNWZjZTQ5NWM1MmE0NzViOWE5NTJlMTkwMWI5M2U0Yy5qcGciLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE2MjYzMzU0NTl9fX1dfQ__&Signature=HvqcgNlMGeafss5bfNHzXg1yj6alFAtAuTIOvdunRRUHPUH05AGHr6Cv0uv0rrHVuIRzOXHflqLjKVmrYaF5Xms5NBURrQ8qu0TC6s541TLHr0G3vrkd8hZYkkx7-r08WgjKJeAKP9BxmhazRYggwE4SPLD0pK39PKHQ8SPHmIln9E504NHOUgvfyXlR-YCcjrjgxpyNMIEIkJ~9GsKxZ74qVO8fs5yAnRybXQHIlTEzzE3~eCQh6CxdDEWdD5TPw1gj9Nz-Nb3Qh9bk60vaeqiuvVuHyWTzhEHX95z4aSZT5-n2a9FVS90wDyQwxQfnwzkHP2ittDDX~cY8nKMToA__&Key-Pair-Id=APKAJQIC5BGSW7XXK7FQ)
 > The Backlinks view (fully expanded) is shown above with an example note 'eggs.md' open. You can see one link and 3 link candidates shown in the panel.
@@ -93,12 +93,6 @@ You will be able to see an item labeled `Linked` or `Candidates` depending on wh
 
 If you click on an item anywhere other than the arrow, it will open that note in your editor.
 
-### Types of Backlinks
-There are currently two types of backlinks available in the Backlinks view: `Linked` and `Candidates`. 
-
-`Linked` backlinks are regular [[wiki links|dendron.topic.links#wiki-links]] that are pointing to the current note.
-
-`Candidate` backlinks are plain text words that match the name of the current note, which can potentially be converted into a (linked) backlink.
 
 #### Linked backlinks
 If your current note has a linked backlink to it, you can see them in a subtree labeled `Linked` after expanding each source item.

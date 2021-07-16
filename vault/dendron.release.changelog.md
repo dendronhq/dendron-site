@@ -2,7 +2,7 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1626402021909
+updated: 1626473536926
 created: 1601508213606
 date: '2022-01-01'
 ---
@@ -13,10 +13,9 @@ date: '2022-01-01'
 
 ### Features
 
-#### Find all link candidates to current note
+#### Backlink Candidates
 
-#todo
-- [[user.hikchoi]], add docs in [[Backlinks|dendron.topic.links#backlinks]]
+![[dendron.topic.links#candidate-backlink:#*]]
 
 #### Smart hierarchy selection when creating notes with multiple vaults
 
