@@ -1,0 +1,15 @@
+# Query: workbench
+# Including: dendron-site/**/dendron*
+# ContextLines: 1
+
+3 results - 1 file
+
+dendron-site • dendron.faq.md:
+  115  {
+  116:     "workbench.editor.enablePreview": false,
+  117:     "workbench.editor.showTabs": true
+  118  }
+
+  173  
+  174: If you want the ability to collapse folders, you can use the [[dendron tree view|dendron.topic.workbench#dendron-tree-view]]. For existing folder based notes and assets, you can use the [[markdown pod|dendron.topic.pod.builtin.markdown.import]] to import them into Dendron.
+  175  

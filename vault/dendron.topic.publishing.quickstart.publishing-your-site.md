@@ -2,7 +2,7 @@
 id: 230d0ccf-5758-4a8f-b39b-3b68e1482e2b
 title: Publishing Your Site
 desc: ''
-updated: 1617207501737
+updated: 1626553341209
 created: 1610844337503
 ---
 
@@ -100,7 +100,7 @@ Or you can calmly type in your terminal to commit all your changes (`git add .` 
 GitHub will synchronize all changes and publish your notes everytime you push.
 
 ```bash
-git add .
+opit add .
 git commit -m "first dendron page"
 git push
 ```
