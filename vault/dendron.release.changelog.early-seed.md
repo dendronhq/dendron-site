@@ -8,4 +8,4 @@ published: true
 nav_exclude: true
 ---
 
-![[dendron://dendron-site/dendron.release.changelog#051,1:#050]]
+![[dendron.release.2021-07-19.mddendron://dendron-site/dendron.release.changelog#051,1:#050]]

@@ -2,7 +2,7 @@
 id: 5wXTADsi3MXxFtEX
 title: Build Repo
 desc: ''
-updated: 1626635040545
+updated: 1626704819193
 created: 1626634616032
 ---
 
@@ -29,7 +29,7 @@ Regular build will install plugini in both `vscodium` and `vscode-insider`
 
 ```sh
 cd build/dendron/packages/plugin-core
-./scripts/pullBuild.sh
+./scripts/pullBuild.sh 
 ```
 
 NOTE: if changes include static assets, you will need to run the following commands afterwards
