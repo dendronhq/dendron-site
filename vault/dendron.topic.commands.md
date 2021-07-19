@@ -2,11 +2,9 @@
 id: eea2b078-1acc-4071-a14e-18299fc28f47
 title: Commands
 desc: ''
-updated: 1626673062593
+updated: 1626713008004
 created: 1595261816971
 ---
-
-
 ## Lookup
 
 ### Contribute
@@ -562,3 +560,5 @@ Open Dendron logs for current session
 - shortcuts: none
 
 Copy last 3000 lines of all logs and config to clipboard. Use when submitting an issue to Dendron
+
+

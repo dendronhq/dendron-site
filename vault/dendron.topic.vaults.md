@@ -2,7 +2,7 @@
 id: 6682fca0-65ed-402c-8634-94cd51463cc4
 title: Vaults
 desc: ''
-updated: 1625569876697
+updated: 1626654071969
 created: 1622841137387
 stub: true
 ---
@@ -83,7 +83,7 @@ A local vault is what you start off with. Its a vault that is local to your file
 
 A remote vault is what you get when you run the [[Vault Add|dendron.topic.commands#vault-add]] command and select a remote vault. This is a vault that is cloned from a git repo. It should be a similar format as what you see below
 
-```yml
+```yml 
 vaults:
     -
         fsPath: dendron
@@ -91,6 +91,7 @@ vaults:
             type: git
             url: 'git@github.com:dendronhq/dendron.git'
 ```
+^NiCCqLjTG2nbM6Qi
 
 When someone pulls down a workspace with a `dendron.yml` that contains a remote vault, Dendron will automatically initialize the vault at the given `fsPath`. If the vault is a [[Workspace Vault|dendron.ref.vaults#workspace-vault]], Dendron will pull down the workspace to `{workspaceName}/fsPath`. 
 
