@@ -32,7 +32,7 @@ Follow the steps below to create a token. The scopes you require depends on the 
 vaultName: vault
 owner: dendronhq
 token: ***
-fname: gdoc.topic
+hierarchyDestination: gdoc.topic
 documentId: ***
 importComments: {enable: false}
 ```
@@ -85,7 +85,7 @@ Dendron is an **open-source**, **local-first**, **markdown-based**, **note-takin
 - type: string
 - required: true
 
-## fname
+## hierarchyDestination
 - description: name of hierarchy to import into
 - type: string
 - required: true
@@ -95,6 +95,13 @@ Dendron is an **open-source**, **local-first**, **markdown-based**, **note-takin
 - description: document Id of doc to import
 - type: string
 - required: true
+
+document id can be referenced from the url of the google doc.
+In the below url 14o1AVg10CBbLlqNqBrCz4HkR is the _document id._
+`
+https://docs.google.com/document/d/14o1AVg10CBbLlqNqBrCz4HkR
+`
+
 
 ## importComments
 
