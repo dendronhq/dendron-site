@@ -2,7 +2,7 @@
 id: 7cdd9a74-8b8f-4564-906b-c963bed34273
 title: Dendron Next Server
 desc: ''
-updated: 1621201602514
+updated: 1626724639899
 created: 1604511741960
 ---
 
@@ -17,17 +17,21 @@ If your working with the Dendron Engine (eg. fetching notes, config or schemas),
 First, install the Dendron CLI
 ![[dendron.topic.cli#installation,1:#*]]
 
+For development, you may want to use `npm link` inside `packages/dendron-cli` instead so that the engine has any changes you made.
+
 Next, use the `launchEngineServer` command to start the server to an existing workspace
 
 ```
 LOG_DST=/tmp/server.txt LOG_LEVEL=debug dendron-cli launchEngineServer --port 3005 --wsRoot ~/Dendron/
 ```
 
-Create an `.env.local` file under `dendron-next-server` and add the following 
+Then, inside another terminal, go to `packages/dendron-next-server`.
+
+Create an `.env.local` file under `dendron-next-server` and add the following:
 
 ```
 ENGINE_ENDPOINT_PORT=3005
 ```
 
-Run `yarn dev` to start the next server 
+Run `yarn dev` within the same folder to start the next server.
  -->
