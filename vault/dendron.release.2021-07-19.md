@@ -2,7 +2,7 @@
 id: 9rqhTCE1dAUQJ3fD
 title: 2021 07 19
 desc: ''
-updated: 1626732847994
+updated: 1626733467887
 created: 1626731214821
 ---
 
@@ -21,6 +21,12 @@ Dendron 0.51 has sprouted  🌱
 - custom syntax highlightng of wiki links
 - lots of bug fixes
 - lots of quality of life improvements
+
+### Docs
+Our documentation changes a lot week by week. Below is a highlight of some updates from the past week.
+
+- Added comparison of [[Foam Vs Dendron|dendron.alternatives.foam-vs-dendron]]
+
 
 ### Community
 
