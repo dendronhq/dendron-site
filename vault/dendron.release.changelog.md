@@ -33,6 +33,12 @@ Almost at feature parity with current preview. You can now toggle it to be the d
 
 ![[dendron://dendron-site/dendron.topic.preview-v2#summary,1:#*]]
 
+#### Built-In Note Templates
+
+This experimental feature will allow you to pull down a set of templates for commonly used scenarios. The template selection is currently limited, but we will be expanding on the template set in the future.
+![[dendron://dendron-site/dendron.topic.templates#built-in-templates-,1]]
+
+
 ### Enhancements
 - sort completions by vault names
 - [[Insert Note|dendron.topic.commands#insert-note]] will now resolve snippet variables ([[docs|dendron.topic.snippets#variables]])
