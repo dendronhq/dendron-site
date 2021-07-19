@@ -2,7 +2,7 @@
 id: 401c5889-20ae-4b3a-8468-269def4b4865
 title: Cookbook
 desc: ""
-updated: 1623921352199
+updated: 1626654031233
 created: 1595952505024
 nav_order: 8.9
 toc: true
@@ -342,6 +342,8 @@ Use the [[Vault Add|dendron.topic.commands#remote-vault]] command via the [[comm
 1. If your vault is committed along with your workspace, use `git rm --cached` to remove it from the workspace repo and use `git init` to initialze your vault as a standalone repo
 1. Create a remote repo and push your vault to that repo
 1. Run [[Configure (yaml)|dendron.topic.commands#configure-yaml]] and add the git [[remote|dendron.topic.config.dendron#remote]] urls to the repo. the entries should look like what you see below
+
+![[dendron://dendron-site/dendron.topic.vaults#^NiCCqLjTG2nbM6Qi:#*]]
 
 ### Using Dendron with Code
 

@@ -2,12 +2,39 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1626473536926
+updated: 1626731157398
 created: 1601508213606
 date: '2022-01-01'
 ---
 
 ## 0.51
+
+## 0.50.2
+
+### Features
+
+#### Custom Graph Syliing
+![[dendron.topic.graph-view#custom-styling,1:#*]]
+
+#### Built-In Note Templates
+
+This experimental feature will allow you to pull down a set of templates for commonly used scenarios. The template selection is currently limited, but we will be expanding on the template set in the future.
+
+![[dendron://dendron-site/dendron.topic.templates#built-in-templates-,1]]
+
+
+### Enhancements
+- show preview will no longer ask you to load
+
+### Bug Fixes
+- dendron not updating journal behavior based on journal config in dendron.yml
+
+### Pruning
+
+### House Cleaning
+
+### Docs
+
 
 ## 0.50.1
 
@@ -32,6 +59,8 @@ The behavior around selecting which vault to create a note in has been improved 
 Almost at feature parity with current preview. You can now toggle it to be the default preview by setting `dev.enablePreviewV2` to true in your `dendron.yml`
 
 ![[dendron://dendron-site/dendron.topic.preview-v2#summary,1:#*]]
+
+
 
 ### Enhancements
 - sort completions by vault names

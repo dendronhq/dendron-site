@@ -2,11 +2,9 @@
 id: eea2b078-1acc-4071-a14e-18299fc28f47
 title: Commands
 desc: ''
-updated: 1626381058092
+updated: 1626713008004
 created: 1595261816971
 ---
-
-
 ## Lookup
 
 ### Contribute
@@ -537,10 +535,11 @@ You can pick among various actions for the doctor to perform.
 - Convert legacy note refs to new style note refs
 
 ##### createMissingLinkedNotes
-- **This doctor action is currently only supported in file scope.**
-
 - Create notes that do not exist yet but has a wikilink to it.
 - A preview pane will appear with the notes that will be created before proceeding.
+- In a multi-vault workspace, wikilinks that do not specify a vault prefix will be omitted from the candidates.
+  - In a workspace that has 2 vaults named `foo` and `bar`, the wikilink `[[missing-note]]` will not be a candidate for missing note creation with this command.
+  - However, `[[dendron://foo/missing-note]]` and / or `[[dendron://bar/missing-note]]` will be recognized as a missing note and will be listed as candidates.
 
 ### Dump State
 
@@ -561,3 +560,5 @@ Open Dendron logs for current session
 - shortcuts: none
 
 Copy last 3000 lines of all logs and config to clipboard. Use when submitting an issue to Dendron
+
+

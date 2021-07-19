@@ -2,7 +2,7 @@
 id: 16qtgkcY-tgiYZWafX9Sp
 title: Release Notes (version 0.50)
 desc: ''
-updated: 1626114830492
+updated: 1626731345926
 created: 1626100738632
 ---
 
@@ -20,6 +20,7 @@ Dendron 0.50 has sprouted  🌱
 - **Github import pod.** Now, you can import issues directly from Github and have them show up as notes! Learn more [[here|dendron.topic.pod.builtin.github]]
 - **Direct child filter ignores stubs.** There's now an easy way to filter notes in the current hierarchy without the clutter of stub notes. Last week's CROP shipped! 
 - **Fix windows preview issue** where links fail top open
+
 ### Docs
 
 Our documentation changes a lot week by week. Below is a highlight of some updates from the past week.
@@ -30,7 +31,7 @@ Our documentation changes a lot week by week. Below is a highlight of some updat
 - Documented the [[Github Pod|dendron.topic.pod.builtin.github.import]]
 
 
-### [[Pruning ✂️|dendron.ref.status#pruning-️]]
+### Pruning
 - [[hide block anchors config|dendron.topic.publishing.configuration]] was removed. Hiding published anchors is the expected behavior (no config needed). 
 - Dendron Markdown Links is now removed. 
 
