@@ -22,3 +22,4 @@ All the tools below are excellent for their own use-cases. This comparison rests
 | Notion        | [[dendron.alternatives.notion-vs-dendron]]   | ✅                 | ❌          | ❌          | ❌                  | ✅                   | ✅        |
 | Obsidian      | [[dendron.alternatives.obsidian-vs-dendron]] | ❌                 | ❌          | ✅          | ✅                  | ✅                   | ❌        |
 | Roam          | [[dendron.alternatives.roam-vs-dendron]]     | ❌                 | ❌          | ❌          | ❌                  | ✅                   | ✅        |
+| Foam          | [[dendron.alternatives.foam-vs-dendron]]     | ❌                 | ✅          | ✅          | ✅                  | ✅                   | ❌        |

@@ -2,11 +2,9 @@
 id: eea2b078-1acc-4071-a14e-18299fc28f47
 title: Commands
 desc: ''
-updated: 1624315741527
+updated: 1626713008004
 created: 1595261816971
 ---
-
-
 ## Lookup
 
 ### Contribute
@@ -86,7 +84,7 @@ If you use this command in a [[multi vault|dendron.topic.vaults.multi-vault]] wo
 ### Delete Node
 
 - shortcuts:
-  - key: `ctrl+shift+d`
+  - key: `ctrl+shift+d`e
   - mac: `cmd+shift+d`
 
 Delete a note or schema
@@ -94,6 +92,8 @@ Delete a note or schema
 ### Insert Note
 
 Insert the contents from a note into another note. You can configure a starting hierarchy for this command. Useful if you designated a hierarchy (eg. `templates`) for insertions.
+
+When inserting a note, all snippet [[variables|dendron.topic.snippets#variables]] will also be resolved.
 
 - configuration: [[defaultInsertHierarchy|dendron.topic.config.dendron#defaultinserthierarchy]]
 
@@ -535,10 +535,11 @@ You can pick among various actions for the doctor to perform.
 - Convert legacy note refs to new style note refs
 
 ##### createMissingLinkedNotes
-- **This doctor action is currently only supported in file scope.**
-
 - Create notes that do not exist yet but has a wikilink to it.
 - A preview pane will appear with the notes that will be created before proceeding.
+- In a multi-vault workspace, wikilinks that do not specify a vault prefix will be omitted from the candidates.
+  - In a workspace that has 2 vaults named `foo` and `bar`, the wikilink `[[missing-note]]` will not be a candidate for missing note creation with this command.
+  - However, `[[dendron://foo/missing-note]]` and / or `[[dendron://bar/missing-note]]` will be recognized as a missing note and will be listed as candidates.
 
 ### Dump State
 
@@ -559,3 +560,5 @@ Open Dendron logs for current session
 - shortcuts: none
 
 Copy last 3000 lines of all logs and config to clipboard. Use when submitting an issue to Dendron
+
+

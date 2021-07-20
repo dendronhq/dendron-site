@@ -2,7 +2,7 @@
 id: f83c1d87-eac0-48f3-a5cf-8a69989d8ec1
 title: Dendrons Config
 desc: ''
-updated: 1624315648216
+updated: 1626653983047
 created: 1619539817122
 ---
 
@@ -33,7 +33,7 @@ Controls the title for [[children links|dendron.topic.links#children-links]] in 
 
 ### lookupConfirmVaultOnCreate
 
-With this set, you can pick the vault for new notes.  
+With this set, you will be prompted to select the vault location each time you create a note when you have multiple vaults in your workspace.
 
 ### mermaid
 - default: false
@@ -122,7 +122,7 @@ Execute [[Create Daily Journal Note|dendron.topic.commands#create-daily-journal-
 
 Tracks [[vaults|dendron.concepts#vaults]] for the workspace. You shouldn't have to manually edit this value. This is updated automatically when you first initialize a workspace and when you add or remove vaults to your workspace.
 
-### Vault properties:
+#### Vault properties:
 
 See [[Vault Configuration|dendron.topic.vaults#configuration]]
 

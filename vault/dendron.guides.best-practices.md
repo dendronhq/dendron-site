@@ -63,3 +63,5 @@ In this setup, only your `dendron.yml` and other metadata files are comitted whe
 
 - NOTE: If you have non-public vaults, make sure each computer that you clone Dendron on has the necessary permissions to clone said vault. Instructions for doing this with github can be found [here](https://saas.dendron.so/notes/L80sFsAAcOO_0ztqZrN1J.html)
 
+
+

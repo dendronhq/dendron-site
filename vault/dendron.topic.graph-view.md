@@ -2,7 +2,7 @@
 id: 587e6d62-3c5b-49b0-aedc-02f62f0448e6
 title: Graph View
 desc: ""
-updated: 1624558162889
+updated: 1626108519123
 created: 1595120707814
 stub: false
 ---
@@ -14,6 +14,26 @@ stub: false
 -   Filter graph view to show only desired data
 -   Much faster startup times than the legacy note/schema graph
     -   Scales to virtually any size graph
+
+## Types
+
+### Note Graph
+
+#### Full Note Graph
+
+Show graph of all your notes. You can activate this by using the [[Show Note Graph Command|dendron.topic.graph-view#show-note-graph-v2]] command and toggling the [[Show Note Graph|dendron.topic.graph-view#^Ev8p1L5P0IzDGjAs]] option.
+
+<!-- TODO: pic -->
+
+#### Local Note Graph
+
+Shows a graph of your current note and immediate neighbors. This is the default view when you run [[Show Note Graph|dendron.topic.graph-view#show-note-graph-v2]].
+
+<!-- TODO: pic -->
+
+### Schema Graph
+
+Show graph of your schemas. You can activate by running the [[Show Schema Graph|dendron.topic.graph-view#show-schema-graph-v2]] command.
 
 ## Commands
 
@@ -72,7 +92,7 @@ Here's a quick example:
 
 ### Options
 
--   **Show Local Graph (Note Only)**: When checked, show local graph centered around the current open note. Otherwise, show the full workspace-wide note graph.
+-   **Show Local Graph (Note Only)**: When checked, show local graph centered around the current open note. Otherwise, show the full workspace-wide note graph. ^Ev8p1L5P0IzDGjAs
 
 -   **Allow Relayout**: When checked, layout the graph again when the graph configuration is updated.
     -   This is useful in instances you'd like to preserve the current layout but add/remove information, e.g. adding link connections to a hierarchical graph while maintaining readability
@@ -84,6 +104,83 @@ Primarily for debugging, this section has information about graph size. Edge cou
 -   **Linked Edges**: Number of linked connections between nodes
 -   **Hierarchical Edges**: Number of hierarchical connections between nodes
 -   **Nodes**: Number of nodes in the graph
+
+## Custom Styling
+
+Dendron supports custom styling of schema and note graphs. Styling follows the Cytoscape.js format, which is CSS-like with a couple of differences. [Full Cytoscape.js styling documentation can be found here.](https://js.cytoscape.org/#style)
+
+### Adding Styles
+
+Launch the command palette (see [[docs|dendron.guides.cook#launch-the-command-palette]]): `> Dendron: Configure Graph Style (css)`
+
+Once the `styles.css` file is open, add your styles and save. The styles will be visible in the graph the next time it is opened.
+
+### Selectors
+
+In order to style the graph, there are a variety of selectors to choose from. Currently supported selectors include:
+
+| Selector     | Description                             |
+| ------------ | --------------------------------------- |
+| `node`       | Any node                                |
+| `edge`       | Any edge                                |
+| `:selected`  | Any selected node                       |
+| `.parent`    | Any parent node (local note graph only) |
+| `.links`     | Any link connection edge                |
+| `.hierarchy` | Any hierarchy connection edge           |
+
+There are also some vault-specific selectors. These include:
+
+| Selector            | Description                                |
+| ------------------- | ------------------------------------------ |
+| `.vault-VAULT_NAME` | Any node or edge in the `VAULT_NAME` vault |
+
+Selectors can be chained together, just like in regular CSS. For example, `node.vault-VAULT_NAME` would target only nodes in the `VAULT_NAME` vault.
+
+### Style Properties
+
+#### Styling Nodes
+
+Some common node style properties are listed below.
+**[Full node style property list →](https://js.cytoscape.org/#style/node-body)**
+
+| Property           | Description                                            |
+| ------------------ | ------------------------------------------------------ |
+| `width`            | The width of the node’s body.                          |
+| `height`           | The height of the node’s body.                         |
+| `shape`            | The shape of the node's body (ellipse, triangle, etc.) |
+| `background-color` | The color of the node's body.                          |
+| `border-width`     | The size of the node’s border.                         |
+| `border-color`     | The color of the node’s border.                        |
+
+#### Styling Node Labels
+
+Some common node label style properties are listed below. Select labels by selecting the node associated with them.
+**[Full node label style property list →](https://js.cytoscape.org/#style/labels)**
+
+| Property      | Description                        |
+| ------------- | ---------------------------------- |
+| `color`       | The color of the label.            |
+| `font-size`   | The size of the label text.        |
+| `font-weight` | The font weight of the label text. |
+
+#### Styling Edges
+
+Some common edge style properties are listed below.
+**[Full edge style property list →](https://js.cytoscape.org/#style/edge-line)**
+
+| Property     | Description                                                  |
+| ------------ | ------------------------------------------------------------ |
+| `width`      | The width of the edge line.                                  |
+| `line-color` | The color of the edge line.                                  |
+| `line-style` | The style of the edge line (`solid`, `dotted`, or `dashed`). |
+
+### Troubleshooting
+
+If styles are not showing up in the graph, try the following steps:
+
+1. Check that every style property ends in a semi-colon.
+2. Check that you have no unused selectors (e.g. `node {}`). Cytoscape can be a bit particular at times, so just comment out selectors if not in use.
+3. Close and re-open the graph view. Styles only apply on graph open at the moment.
 
 ## RFCs
 

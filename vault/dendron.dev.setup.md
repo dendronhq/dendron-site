@@ -1,8 +1,8 @@
 ---
 id: 64f0e2d5-2c83-43df-9144-40f2c68935aa
-title: Setup
+title: Setup Dendron Development Environment
 desc: ''
-updated: 1624030043747
+updated: 1626374163617
 created: 1598651458825
 ---
 
@@ -31,7 +31,7 @@ cd dendron
 ### 3. Install Dependencies and Build
 ```bash
 # this should install all dependencies
-yarn init
+yarn install
 
 # if the above script errors out, you can diagnose the issue and run the following scripts sequentially dependeing on where the error occured
 yarn # install package root dependencies

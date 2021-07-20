@@ -7,6 +7,7 @@ created: 1623883762370
 ---
 
 ## Adding a seed to an existing workspace
+_In this example,_ `dendron.dendron-site` _is the name of the seed. Replace this string with your desired seed._
 
 1. Navigate to your current workspace
 ```

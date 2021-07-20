@@ -18,3 +18,12 @@ yarn start:public:local:dev
 ```
 
 ### Start Private Server
+
+## Tips
+- `__dirname` resolves to `packages/api-server/lib/{path/to/dirname}`
+
+
+## Cook
+
+### Adding a new API
+- [feat(preview): better image support by kevinslin · Pull Request #919 · dendronhq/dendron](https://github.com/dendronhq/dendron/pull/919)

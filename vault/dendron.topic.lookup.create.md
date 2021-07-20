@@ -24,10 +24,15 @@ Dendron has builtin notion for certain types of notes with [[pre-defined hierarc
 
 If you have text highlighted while creating a new note with a lookup, the new note will be created using the text selected. How the text will be used depends on  the `dendron.defaultLookupCreateBehavior` setting.
 
-- values: 
+- values:
   - selectionExtract (default): create new note with text from the old note. remove text from the old note
   - selection2link: create new empty note and turn selection into a link referencing the old note
 
 <a href="https://www.loom.com/share/61d754c1dca84b99b2786b2f89473566">
 <img style="" src="https://cdn.loom.com/sessions/thumbnails/61d754c1dca84b99b2786b2f89473566-with-play.gif"> </a>
 
+## Vault Selection for New Notes
+
+If you have multiple vaults in your workspace, you can control the behavior of which vault your new note will be placed in:
+
+![[Vault Location when Creating a Note|dendron.topic.vaults.multi-vault#vault-location-when-creating-a-note:#navigating-links]]

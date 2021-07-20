@@ -25,9 +25,13 @@ Lookup supports multiple vaults. When using lookup to find a note, each search r
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/roots.jpg)
 
-#### Specify Vault Location when Creating a Note
+#### Vault Location when Creating a Note
 
-When creating a note in lookup, by default the currently opened note's vault is used as the vault for the new note.
+When creating a note in lookup, Dendron will try to create your note in the correct vault. By default, it will place the note into the same vault as the currently opened note. But if it detects that the new note matches an existing hierarchy in a different vault, you will get prompted to pick the destination vault:
+
+![](https://org-dendron-public-assets.s3.amazonaws.com/images/create-note-multi-vault-selection.png)
+
+#### Prompt for Vault Selection Each Time
 
 ![[dendron.topic.config.dendron#lookupconfirmvaultoncreate:#*]]
 

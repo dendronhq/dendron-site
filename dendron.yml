@@ -1,7 +1,8 @@
 site:
     siteHierarchies:
         - dendron
-        - pro
+        - pkg
+        - tags
     siteRootDir: docs
     gh_edit_repository: 'https://github.com/dendronhq/dendron-site'
     usePrettyRefs: true

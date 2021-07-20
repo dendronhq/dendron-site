@@ -3,16 +3,15 @@ id: 6293d9dc-9bd3-4b01-8428-34d8256f0a32
 title: Dev
 desc: |
   Development related
-updated: 1624923212836
+updated: 1626746114611
 created: 1621630111186
 ---
 
 ## Development
 
 ### Pre-req
+- [[dendron.dev.setup]]
 - [[Symlink|pkg.dendron-cli.dev#symlink]] `dendron-cli`
-- [[Setup|dendron.dev.setup]] `plugin-core`
-- Read [[Next Server Architecture|pkg.dendron-next-server.arch]]
 
 ### Steps
 
@@ -36,11 +35,21 @@ Next Steps:
 - see [[Pull Request|dendron.dev.pull-request]]
 - [ ] make sure your UI is compatible with light/dark theme 
 
-## Remote Development
-
-Follow the same instructions to run Dendron remotely. If you are using VSCode, use the port forwarding features to forward the ports of both engineServer and the next-server.
 
 ## Issues
 
 ### Conflicting Views
 - if you have conflicting views warning when debugging, its most likely because you've installed Dendron in the same version of VSCode that you are developing on. We highly recommend you keep two instances of VSCode and not install Dendron on the version you use for development
+
+
+## Cook
+
+### Creating new Async Thunk Method
+- [enhance: Only Sync changed notes for preview by kevinslin · Pull Request #969 · dendronhq/dendron](https://github.com/dendronhq/dendron/pull/969)
+
+### Adding a new tree view
+- [feat: calendar panel by namjul · Pull Request #806 · dendronhq/dendron](https://github.com/dendronhq/dendron/pull/806#discussion_r649103042)
+
+
+### Adding a new web view
+- see `ShowPreviewV2`
