@@ -3,7 +3,7 @@ id: 6293d9dc-9bd3-4b01-8428-34d8256f0a32
 title: Dev
 desc: |
   Development related
-updated: 1626374637089
+updated: 1626746114611
 created: 1621630111186
 ---
 
@@ -50,3 +50,6 @@ Next Steps:
 ### Adding a new tree view
 - [feat: calendar panel by namjul · Pull Request #806 · dendronhq/dendron](https://github.com/dendronhq/dendron/pull/806#discussion_r649103042)
 
+
+### Adding a new web view
+- see `ShowPreviewV2`
