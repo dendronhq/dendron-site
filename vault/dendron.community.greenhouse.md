@@ -2,11 +2,11 @@
 id: PqtlCsRPWBjKp3RR
 title: The Greenhouse
 desc: ''
-updated: 1626810003594
+updated: 1626897546483
 created: 1626809567579
 ---
 
-The Greenhouse is Dendron's monthly learning series where new ideas are incubated with the world. 
+The Greenhouse is Dendron's monthly learning series where new ideas are incubated with the world. Subscribe to the [Dendron Community Calendar](https://calendar.google.com/calendar/u/0/r/settings/calendar/MHM4NGhrbWdrYjRwNjk5YWhnaWNxMGoxNm9AZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ?cid=MHM4NGhrbWdrYjRwNjk5YWhnaWNxMGoxNm9AZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ) to get updates on future talks. 
 
 ## Archive
 
