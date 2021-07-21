@@ -2,11 +2,9 @@
 id: PqtlCsRPWBjKp3RR
 title: Greenhouse Talks
 desc: ''
-updated: 1626897546483
+updated: 1626897845641
 created: 1626809567579
 ---
-
-The Greenhouse is Dendron's monthly learning series where new ideas are incubated with the world. 
 
 The **Greenhouse Talks** is a learning series organized by Dendron. These are 30 minute talks that cover topics of interest to the Dendron community.  While the focus is on note taking and personal knowledge management, topics are not limited to these areas and can span anything the speaker has in-depth knowledge of. 
 
