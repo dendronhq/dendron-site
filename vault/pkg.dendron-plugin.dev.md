@@ -1,10 +1,13 @@
 ---
 id: 04dd9ad8-3d81-4098-a661-21b6acc6f443
-title: Cook
+title: Dev
 desc: ''
-updated: 1624385665063
+updated: 1626877321097
 created: 1621721485330
 ---
+
+
+# Cook
 
 ## Features
 
@@ -36,6 +39,8 @@ Conventions:
 3. what you will get from `prepareNotesForExport`: <https://dendron.so/notes/0db94b86-d5c2-4e70-8f61-1a686fa8cc1d.html>
 4. anki pod: take notes and transform them to anki format
 
+## Config
+
 ### Adding a new config
 
 Dendron configuration is managed by [DendronConfig](https://github.com/dendronhq/dendron/blob/dev-kevin/packages/common-all/src/types/workspace.ts#L65:L65).
@@ -43,6 +48,12 @@ Dendron configuration is managed by [DendronConfig](https://github.com/dendronhq
 Whenever you add a new entry with a default, make sure to do the following as well.
 - [ ] update `Extension.test.ts` (we have a test that checks for default config values that will break)
 - [ ] document it under [[dendron config|dendron.topic.config.dendron]]
+
+### Use dendron.yml for config instead of .code-workspace
+- see commit 68556bf2
+- [fix: Use new config when creating special notes by hikchoi · Pull Request #984 · dendronhq/dendron](https://github.com/dendronhq/dendron/pull/984)
+
+## Rest
 
 ### Add a new button
 
