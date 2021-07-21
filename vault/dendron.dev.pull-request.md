@@ -2,7 +2,7 @@
 id: adc39825-77a6-46cf-9c49-2642fcb4248e
 title: Pull Request
 desc: ''
-updated: 1624215239257
+updated: 1626886391139
 created: 1623430616135
 ---
 
@@ -49,4 +49,4 @@ refactor!: drop support for Node 6
 - [ ] (optional) ping `@Dendron Team` in the `#dev` channel of our [discord](https://discord.gg/AE3NRw9) - we usually respond to PRs within 24h
 
 ### QA Checklist
-- [[Checklist|dendron.dev.qa.sop#checklist]]
+![[dendron.dev.qa.sop#checklist,1]]
