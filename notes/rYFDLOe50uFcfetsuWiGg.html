@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+  
+  <title>Release Notes (version 0.46) - Dendron</title>
+  
+
+  <link
+    rel="shortcut icon"
+    href="https://wiki.dendron.so/favicon.ico"
+    type="image/x-icon"
+  />
+  <link
+    rel="stylesheet"
+    href="https://wiki.dendron.so/assets/css/just-the-docs-default.css"
+  />
+  <script
+    type="text/javascript"
+    src="https://wiki.dendron.so/assets/js/just-the-docs.js"
+  ></script>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.22.0/themes/prism.min.css"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css"
+    integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X"
+    crossorigin="anonymous"
+  />
+  <script
+    type="text/javascript"
+    src="https://wiki.dendron.so/assets/js/vendor/lunr.min.js"
+  ></script>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+   
+   
+  
+<meta name="description" content="Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.">
+<meta name="author" content="dendronhq">
+
+<link rel="canonical" href="https://wiki.dendron.so/notes/rYFDLOe50uFcfetsuWiGg.html">
+
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://wiki.dendron.so/notes/rYFDLOe50uFcfetsuWiGg.html">
+<meta property="og:description" content="Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.">
+<meta property="og:image" content="https://wiki.dendron.so/logo.png">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@dendronhq">
+<meta name="twitter:url" content="https://wiki.dendron.so/notes/rYFDLOe50uFcfetsuWiGg.html">
+<meta name="twitter:description" content="Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.">
+<meta name="twitter:image" content="https://wiki.dendron.so/logo.png">
+
+
+  <meta property="og:title" content="Release Notes (version 0.46) - Dendron" />
+  <meta name="twitter:title" content="Release Notes (version 0.46) - Dendron" />
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-B0JN2HHCNY"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-B0JN2HHCNY');
+  </script>
+  
+</head>
+
+
+
+<body>
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+      <symbol id="svg-link" viewBox="0 0 24 24">
+        <title>Link</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-link">
+          <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+        </svg>
+      </symbol>
+      <symbol id="svg-search" viewBox="0 0 24 24">
+        <title>Search</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search">
+          <circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+      </symbol>
+      <symbol id="svg-menu" viewBox="0 0 24 24">
+        <title>Menu</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu">
+          <line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+      </symbol>
+      <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+        <title>Expand</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+          <polyline points="9 18 15 12 9 6"></polyline>
+        </svg>
+      </symbol>
+      <symbol id="svg-doc" viewBox="0 0 24 24">
+        <title>Document</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file">
+          <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path><polyline points="13 2 13 9 20 9"></polyline>
+        </svg>
+      </symbol>
+    </svg>
+
+    <div class="side-bar">
+      <div class="site-header">
+        <a href="https://wiki.dendron.so" class="site-title lh-tight">
+  <div class="site-logo"></div>
+
+ </a>
+        <a href="#" id="menu-button" class="site-button">
+          <svg viewBox="0 0 24 24" class="icon"><use xlink:href="#svg-menu"></use></svg>
+        </a>
+      </div>
+
+      <nav role="navigation" aria-label="Main" id="site-nav" class="site-nav">
+      </nav>
+      <footer class="site-footer">
+        🌱 with 💕 using <a href="https://www.dendron.so/"> Dendron 🌲 </a>
+      </footer>
+    </div>
+    <div class="main" id="top">
+        <div id="main-header" class="main-header">
+          
+            <div class="search">
+              <div class="search-input-wrap">
+                <input type="text" id="search-input" class="search-input" tabindex="0" placeholder="Search Dendron" aria-label="Search Dendron" autocomplete="off">
+                <label for="search-input" class="search-label"><svg viewBox="0 0 24 24" class="search-icon"><use xlink:href="#svg-search"></use></svg></label>
+              </div>
+              <div id="search-results" class="search-results"></div>
+            </div>
+          
+          
+    </div>
+    <div id="main-content-wrap" class="main-content-wrap">
+      
+        
+          <nav aria-label="Breadcrumb" class="breadcrumb-nav">
+            <ol class="breadcrumb-nav-list"><li class="breadcrumb-nav-list-item"><a href="https://wiki.dendron.so">Dendron</a></li><li class="breadcrumb-nav-list-item"><a href="https://wiki.dendron.so/notes/932534e7-e788-4fdb-bc8c-eaf761992a8d.html">Releases</a></li><li class="breadcrumb-nav-list-item">Release Notes (version 0.46)</li></ol>
+          </nav>
+        
+      
+      <div id="main-content" class="main-content" role="main">
+
+        
+        
+        <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+        <script>mermaid.initialize({startOnLoad:true});</script>
+        
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+        
+        
+
+        
+
+        
+
+        
+
+        <script>
+          $(function () {
+            $('[data-toggle="popover"]').popover({html: true})
+          })
+        </script>
+
+        
+
+<div id="main" role="main">
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Release Notes (version 0.46)">
+    
+    <meta itemprop="datePublished" content="2021-06-12T22:19:31+00:00">
+    <meta itemprop="dateModified" content="2021-06-21T23:05:21+00:00">
+
+    <div class="page__inner-wrap">
+
+      
+
+      <section class="page__content" itemprop="text">
+
+        
+
+        <h1 id="release-notes-version-046"><a aria-hidden="true" class="anchor-heading" href="#release-notes-version-046"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Release Notes (version 0.46)</h1>
+<p>Dendron 0.46 has sprouted  🌱</p>
+<h3 id="highlights"><a aria-hidden="true" class="anchor-heading" href="#highlights"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Highlights</h3>
+<ul>
+<li>Graph view now supports schema graph and filtering between a link graph and a hierarchy graph. </li>
+<li>Easier block referencing by supporting block anchors in the existing <code>Copy Note Link</code>, <code>Copy Note Reference</code> and <code>Copy Note URL</code> commands.</li>
+<li>Note identifier switched to NanoID (makes URLs shorter)</li>
+<li>Rename and refactor no longer format notes  </li>
+<li>Random note command - helps review notes you may have lost track of over time.   </li>
+<li>Telemetry respects vscode preferences</li>
+</ul>
+<h3 id="docs"><a aria-hidden="true" class="anchor-heading" href="#docs"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Docs</h3>
+<p>Our documentation changes a lot week by week. Below is a highlight of some updates from the past week.</p>
+<h3 id="pruning-️dendronrefstatuspruning-️"><a aria-hidden="true" class="anchor-heading" href="#pruning-️dendronrefstatuspruning-️"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>[[Pruning ✂️|dendron.ref.status<a data-toggle="popover" title="This page has not yet sprouted" style="cursor: pointer" data-content="<a href=&#x22;https://dendron.so/&#x22;>Dendron</a> (the tool used to generate this site) lets authors selective publish content. You will see this page whenever you click on a link to an unpublished page
+
+<img src=&#x27;https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/not-sprouted.png&#x27;></img>">#pruning-️</a>]]</h3>
+<ul>
+<li><a data-toggle="popover" title="This page has not yet sprouted" style="cursor: pointer" data-content="<a href=&#x22;https://dendron.so/&#x22;>Dendron</a> (the tool used to generate this site) lets authors selective publish content. You will see this page whenever you click on a link to an unpublished page
+
+<img src=&#x27;https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/not-sprouted.png&#x27;></img>">Legacy Graph View</a></li>
+</ul>
+<h3 id="ongoing"><a aria-hidden="true" class="anchor-heading" href="#ongoing"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Ongoing</h3>
+<ul>
+<li>Work on last week's <a href="https://github.com/dendronhq/dendron/issues/219">crop</a> to underway. Will take a few weeks to sprout but should be ready before July!</li>
+</ul>
+<h3 id="community"><a aria-hidden="true" class="anchor-heading" href="#community"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Community</h3>
+<h4 id="office-hours"><a aria-hidden="true" class="anchor-heading" href="#office-hours"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Office Hours</h4>
+<p>You can find notes from our latest office hours <a href="https://wiki.dendron.so/notes/RLnJHszto4wkVbHaSSJpt.html">here</a></p>
+<h4 id="thank-yous"><a aria-hidden="true" class="anchor-heading" href="#thank-yous"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Thank You's</h4>
+<p>A big <strong>thanks</strong> to the following gardeners that brought up issues, contributions, and fixes to this release :man_farmer: :woman_farmer:
+You can see an overview of all roles <a href="https://wiki.dendron.so/notes/7c00d606-7b75-4d28-b563-d75f33f8e0d7.html">here</a></p>
+<ul>
+<li><a href="https://github.com/jonathanyeung">Jonathan Yeung</a> mobius#6646
+<ul>
+<li><code>+horticulturalist</code></li>
+<li><a href="https://github.com/dendronhq/dendron/pull/813">Random note command</a></li>
+</ul>
+</li>
+<li><a href="https://github.com/agichim">Alexandru Ichim</a> ichimga#3577
+<ul>
+<li><code>+bugcatcher</code></li>
+<li><a href="https://github.com/dendronhq/dendron/issues/817">Block links not working properly</a></li>
+</ul>
+</li>
+<li><a href="https://github.com/Bassmann">Bassmann</a> @Bassmann#5300 
+<ul>
+<li><a href="https://github.com/dendronhq/dendron/issues/815">Tables in note refs not rendered in preview properly</a></li>
+</ul>
+</li>
+</ul>
+<h3 id="changelog"><a aria-hidden="true" class="anchor-heading" href="#changelog"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Changelog</h3>
+<p></p><p></p><div class="portal-container">
+<div class="portal-head">
+<div class="portal-backlink">
+<div class="portal-title">From <span class="portal-text-title">dendron.release.changelog</span></div>
+<a href="https://wiki.dendron.so/notes/9bc92432-a24c-492b-b831-4d5378c1692b.html" class="portal-arrow">Go to text <span class="right-arrow">→</span></a>
+</div>
+</div>
+<div id="portal-parent-anchor" class="portal-parent" markdown="1">
+<div class="portal-parent-fader-top"></div>
+<div class="portal-parent-fader-bottom"></div><h2 id="046"><a aria-hidden="true" class="anchor-heading" href="#046"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>0.46</h2>
+<h2 id="0453"><a aria-hidden="true" class="anchor-heading" href="#0453"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>0.45.3</h2>
+<h3 id="enhancements"><a aria-hidden="true" class="anchor-heading" href="#enhancements"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Enhancements</h3>
+<ul>
+<li>Rename and Refactor will now replace links without formatting the file</li>
+<li>Dendron respects VSCode Telemetry settgs (<a href="https://wiki.dendron.so/notes/84df871b-9442-42fd-b4c3-0024e35b5f3c.html#how-to-opt-out-of-data-collection">docs</a>)</li>
+</ul>
+<h3 id="bug-fixes"><a aria-hidden="true" class="anchor-heading" href="#bug-fixes"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Bug Fixes</h3>
+<ul>
+<li>Dendron Preview <code>Go to Text</code> will sometimes not appear for note references</li>
+<li>Dendron Preview links not working in VsCode 1.57</li>
+<li>Dendron Preview renders the first line of note ref as markdown</li>
+<li>Dendron Preview removes <code>#</code> from links</li>
+</ul>
+<h3 id="house-cleaning"><a aria-hidden="true" class="anchor-heading" href="#house-cleaning"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>House Cleaning</h3>
+<ul>
+<li>Shorter UUIDs</li>
+<li>Analytics
+<ul>
+<li>Added a <code>reason</code> field to <code>(Enable|Disable)Telemetry</code> metrics (<a href="https://wiki.dendron.so/notes/84df871b-9442-42fd-b4c3-0024e35b5f3c.html#telemetry-toggle">docs</a>)</li>
+</ul>
+</li>
+</ul>
+<h2 id="452"><a aria-hidden="true" class="anchor-heading" href="#452"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>45.2</h2>
+<h3 id="features"><a aria-hidden="true" class="anchor-heading" href="#features"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Features</h3>
+<h4 id="copy-note-ref-range-selections"><a aria-hidden="true" class="anchor-heading" href="#copy-note-ref-range-selections"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Copy Note Ref Range Selections</h4>
+<p></p><p></p><div class="portal-container">
+<div class="portal-head">
+<div class="portal-backlink">
+<div class="portal-title">From <span class="portal-text-title">dendron.topic.commands</span></div>
+<a href="https://wiki.dendron.so/notes/eea2b078-1acc-4071-a14e-18299fc28f47.html" class="portal-arrow">Go to text <span class="right-arrow">→</span></a>
+</div>
+</div>
+<div id="portal-parent-anchor" class="portal-parent" markdown="1">
+<div class="portal-parent-fader-top"></div>
+<div class="portal-parent-fader-bottom"></div><p>If you highlight multiple blocks, Dendron can create a range selection that spans the blocks selected. Watch the following video starting at the 10s mark for an example. </p>
+<div style="position: relative; padding-bottom: 57.78491171749599%; height: 0;"><iframe src="https://www.loom.com/embed/b72a562626a0483f967e724ef8f2d457" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+</div></div><p></p><p></p>
+<h4 id="random-note-command"><a aria-hidden="true" class="anchor-heading" href="#random-note-command"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Random Note Command</h4>
+<p></p><p></p><div class="portal-container">
+<div class="portal-head">
+<div class="portal-backlink">
+<div class="portal-title">From <span class="portal-text-title">dendron.topic.commands</span></div>
+<a href="https://wiki.dendron.so/notes/eea2b078-1acc-4071-a14e-18299fc28f47.html" class="portal-arrow">Go to text <span class="right-arrow">→</span></a>
+</div>
+</div>
+<div id="portal-parent-anchor" class="portal-parent" markdown="1">
+<div class="portal-parent-fader-top"></div>
+<div class="portal-parent-fader-bottom"></div><p>Navigates to a random note in the workspace. By default, all notes are included in the set that can be navigated to with this command. This can be adjusted with the <code>randomNote</code> setting in the Dendron Config (see [[Configure (yaml)|dendron.topic.commands<a data-toggle="popover" title="This page has not yet sprouted" style="cursor: pointer" data-content="<a href=&#x22;https://dendron.so/&#x22;>Dendron</a> (the tool used to generate this site) lets authors selective publish content. You will see this page whenever you click on a link to an unpublished page
+
+<img src=&#x27;https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/not-sprouted.png&#x27;></img>">#configure-yaml</a>]]).</p>
+<pre class="language-yaml"><code class="language-yaml"><span class="token comment"># Sample configuration in dendron.yml:</span>
+<span class="token key atrule">randomNote</span><span class="token punctuation">:</span>
+    <span class="token key atrule">include</span><span class="token punctuation">:</span>
+        <span class="token punctuation">-</span> alpha
+        <span class="token punctuation">-</span> beta.foo
+    <span class="token key atrule">exclude</span><span class="token punctuation">:</span>
+        <span class="token punctuation">-</span> alpha.bar
+</code></pre>
+<p>This pattern would specify a set including all notes under <code>alpha</code> <em>except</em> for notes in the alpha.bar hierarchy. The set would also include notes under <code>beta.foo*</code>.</p>
+<ul>
+<li>If <code>include</code> is not specified, then the <code>include</code> matching pattern will match all notes.</li>
+<li><code>exclude</code> takes precedence over <code>include</code>, so if the patterns are identical, no notes will match.</li>
+</ul></div></div><p></p><p></p>
+<h3 id="show-schema-graph-v2"><a aria-hidden="true" class="anchor-heading" href="#show-schema-graph-v2"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Show Schema Graph V2</h3>
+<p></p><p></p><div class="portal-container">
+<div class="portal-head">
+<div class="portal-backlink">
+<div class="portal-title">From <span class="portal-text-title">dendron.topic.graph-view</span></div>
+<a href="https://wiki.dendron.so/notes/587e6d62-3c5b-49b0-aedc-02f62f0448e6.html" class="portal-arrow">Go to text <span class="right-arrow">→</span></a>
+</div>
+</div>
+<div id="portal-parent-anchor" class="portal-parent" markdown="1">
+<div class="portal-parent-fader-top"></div>
+<div class="portal-parent-fader-bottom"></div><p>Launch the command palette (see <a href="https://wiki.dendron.so/notes/401c5889-20ae-4b3a-8468-269def4b4865.html#launch-the-command-palette">docs</a>): <code>> Dendron: Show Schema Graph V2</code></p>
+<p>Click on a node to open up the corresponding schema in your workspace.</p>
+<p>Use the filter view in the top left to filter and modify the data shown by the graph.</p>
+<p>The schema graph shows high level connections between a vault's <code>root</code> schema and other schemas within the vault. These other schemas may have other nodes connected to them representing additional children of that schema.</p>
+</div></div><p></p><p></p>
+<h4 id="better-graph-filtering-options"><a aria-hidden="true" class="anchor-heading" href="#better-graph-filtering-options"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Better Graph Filtering Options</h4>
+<p></p><p></p><div class="portal-container">
+<div class="portal-head">
+<div class="portal-backlink">
+<div class="portal-title">From <span class="portal-text-title">dendron.topic.graph-view</span></div>
+<a href="https://wiki.dendron.so/notes/587e6d62-3c5b-49b0-aedc-02f62f0448e6.html" class="portal-arrow">Go to text <span class="right-arrow">→</span></a>
+</div>
+</div>
+<div id="portal-parent-anchor" class="portal-parent" markdown="1">
+<div class="portal-parent-fader-top"></div>
+<div class="portal-parent-fader-bottom"></div><p>In the top left of both the note and schema graphs lives the graph filter view. This UI element contains information about the graph and various filtering options.</p>
+<h3 id="vaults"><a aria-hidden="true" class="anchor-heading" href="#vaults"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Vaults</h3>
+<p>This view contains a list of each vault in the workspace. The visibility of each vault in the graph can be toggled to better filter the graph.</p>
+<h3 id="connections"><a aria-hidden="true" class="anchor-heading" href="#connections"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Connections</h3>
+<ul>
+<li><strong>Hierarchy:</strong> When checked, include hierarchical graph connections</li>
+<li><strong>Links:</strong> When checked, include linked note connections</li>
+</ul>
+<h3 id="filter"><a aria-hidden="true" class="anchor-heading" href="#filter"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Filter</h3>
+<p>This view contains various options to filter the graph.</p>
+<h4 id="string-filters"><a aria-hidden="true" class="anchor-heading" href="#string-filters"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>String Filters</h4>
+<p>Use these string filters to include/exclude graph nodes by filename or name. These fields support multiple arguments in the form of a comma-separated or space-separated list.</p>
+<ul>
+<li><strong>Allowlist</strong>: Graph nodes including any of these string arguments will be <strong>included</strong> in the graph</li>
+<li><strong>Blocklist</strong>: Graph nodes including any of these string arguments will be <strong>excluded</strong> from the graph</li>
+</ul>
+<p>Here's a quick example:</p>
+<ul>
+<li>Allow: <code>journal.2021, dog</code>
+<ul>
+<li>Include any notes that include either <code>journal.2021</code> or <code>dog</code> in their name or filename</li>
+</ul>
+</li>
+<li>Block: <code>cat</code>
+<ul>
+<li>Exclude any notes with <code>cat</code> in their name or filename</li>
+</ul>
+</li>
+</ul>
+<h4 id="other-filters"><a aria-hidden="true" class="anchor-heading" href="#other-filters"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Other Filters</h4>
+<ul>
+<li><strong>Show Stubs</strong>: When checked, show stub notes in the graph</li>
+</ul>
+<h3 id="options"><a aria-hidden="true" class="anchor-heading" href="#options"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Options</h3>
+<ul>
+<li>
+<p><a aria-hidden="true" class="block-anchor anchor-heading" id="^Ev8p1L5P0IzDGjAs" href="#^Ev8p1L5P0IzDGjAs"><svg viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a><strong>Show Local Graph (Note Only)</strong>: When checked, show local graph centered around the current open note. Otherwise, show the full workspace-wide note graph. </p>
+</li>
+<li>
+<p><strong>Allow Relayout</strong>: When checked, layout the graph again when the graph configuration is updated.</p>
+<ul>
+<li>This is useful in instances you'd like to preserve the current layout but add/remove information, e.g. adding link connections to a hierarchical graph while maintaining readability</li>
+</ul>
+</li>
+</ul>
+<h3 id="information"><a aria-hidden="true" class="anchor-heading" href="#information"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Information</h3>
+<p>Primarily for debugging, this section has information about graph size. Edge counts are calculated individually from the actual rendered edges, so may not represent the true rendered count if a certain type of edge is hidden.</p>
+<ul>
+<li><strong>Linked Edges</strong>: Number of linked connections between nodes</li>
+<li><strong>Hierarchical Edges</strong>: Number of hierarchical connections between nodes</li>
+<li><strong>Nodes</strong>: Number of nodes in the graph</li>
+</ul>
+<h2 id="custom-styling"><a aria-hidden="true" class="anchor-heading" href="#custom-styling"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Custom Styling</h2>
+<p>Dendron supports custom styling of schema and note graphs. Styling follows the Cytoscape.js format, which is CSS-like with a couple of differences. <a href="https://js.cytoscape.org/#style">Full Cytoscape.js styling documentation can be found here.</a></p>
+<h3 id="adding-styles"><a aria-hidden="true" class="anchor-heading" href="#adding-styles"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Adding Styles</h3>
+<p>Launch the command palette (see <a href="https://wiki.dendron.so/notes/401c5889-20ae-4b3a-8468-269def4b4865.html#launch-the-command-palette">docs</a>): <code>> Dendron: Configure Graph Style (css)</code></p>
+<p>Once the <code>styles.css</code> file is open, add your styles and save. The styles will be visible in the graph the next time it is opened.</p>
+<h3 id="selectors"><a aria-hidden="true" class="anchor-heading" href="#selectors"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Selectors</h3>
+<p>In order to style the graph, there are a variety of selectors to choose from. Currently supported selectors include:</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Selector</th><th>Description</th></tr></thead><tbody><tr><td><code>node</code></td><td>Any node</td></tr><tr><td><code>edge</code></td><td>Any edge</td></tr><tr><td><code>:selected</code></td><td>Any selected node</td></tr><tr><td><code>.parent</code></td><td>Any parent node (local note graph only)</td></tr><tr><td><code>.links</code></td><td>Any link connection edge</td></tr><tr><td><code>.hierarchy</code></td><td>Any hierarchy connection edge</td></tr></tbody></table>
+<p>There are also some vault-specific selectors. These include:</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Selector</th><th>Description</th></tr></thead><tbody><tr><td><code>.vault-VAULT_NAME</code></td><td>Any node or edge in the <code>VAULT_NAME</code> vault</td></tr></tbody></table>
+<p>Selectors can be chained together, just like in regular CSS. For example, <code>node.vault-VAULT_NAME</code> would target only nodes in the <code>VAULT_NAME</code> vault.</p>
+<h3 id="style-properties"><a aria-hidden="true" class="anchor-heading" href="#style-properties"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Style Properties</h3>
+<h4 id="styling-nodes"><a aria-hidden="true" class="anchor-heading" href="#styling-nodes"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Styling Nodes</h4>
+<p>Some common node style properties are listed below.
+<strong><a href="https://js.cytoscape.org/#style/node-body">Full node style property list →</a></strong></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Property</th><th>Description</th></tr></thead><tbody><tr><td><code>width</code></td><td>The width of the node’s body.</td></tr><tr><td><code>height</code></td><td>The height of the node’s body.</td></tr><tr><td><code>shape</code></td><td>The shape of the node's body (ellipse, triangle, etc.)</td></tr><tr><td><code>background-color</code></td><td>The color of the node's body.</td></tr><tr><td><code>border-width</code></td><td>The size of the node’s border.</td></tr><tr><td><code>border-color</code></td><td>The color of the node’s border.</td></tr></tbody></table>
+<h4 id="styling-node-labels"><a aria-hidden="true" class="anchor-heading" href="#styling-node-labels"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Styling Node Labels</h4>
+<p>Some common node label style properties are listed below. Select labels by selecting the node associated with them.
+<strong><a href="https://js.cytoscape.org/#style/labels">Full node label style property list →</a></strong></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Property</th><th>Description</th></tr></thead><tbody><tr><td><code>color</code></td><td>The color of the label.</td></tr><tr><td><code>font-size</code></td><td>The size of the label text.</td></tr><tr><td><code>font-weight</code></td><td>The font weight of the label text.</td></tr></tbody></table>
+<h4 id="styling-edges"><a aria-hidden="true" class="anchor-heading" href="#styling-edges"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Styling Edges</h4>
+<p>Some common edge style properties are listed below.
+<strong><a href="https://js.cytoscape.org/#style/edge-line">Full edge style property list →</a></strong></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Property</th><th>Description</th></tr></thead><tbody><tr><td><code>width</code></td><td>The width of the edge line.</td></tr><tr><td><code>line-color</code></td><td>The color of the edge line.</td></tr><tr><td><code>line-style</code></td><td>The style of the edge line (<code>solid</code>, <code>dotted</code>, or <code>dashed</code>).</td></tr></tbody></table>
+<h3 id="troubleshooting"><a aria-hidden="true" class="anchor-heading" href="#troubleshooting"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Troubleshooting</h3>
+<p>If styles are not showing up in the graph, try the following steps:</p>
+<ol>
+<li>Check that every style property ends in a semi-colon.</li>
+<li>Check that you have no unused selectors (e.g. <code>node {}</code>). Cytoscape can be a bit particular at times, so just comment out selectors if not in use.</li>
+<li>Close and re-open the graph view. Styles only apply on graph open at the moment.</li>
+</ol>
+</div></div><p></p><p></p>
+<h3 id="enhancements-1"><a aria-hidden="true" class="anchor-heading" href="#enhancements-1"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Enhancements</h3>
+<ul>
+<li>copy note ref will create a block ref and insert block anchors when you have a block element selected (<a href="https://wiki.dendron.so/notes/eea2b078-1acc-4071-a14e-18299fc28f47.html#copy-note-ref">docs</a>)</li>
+<li>copy note link will create a block link and insert block anchors when you have a block element selected (<a href="https://wiki.dendron.so/notes/eea2b078-1acc-4071-a14e-18299fc28f47.html#copy-note-link">docs</a>)</li>
+</ul>
+<h4 id="bug-fixes-1"><a aria-hidden="true" class="anchor-heading" href="#bug-fixes-1"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Bug Fixes</h4>
+<ul>
+<li>published assets now respect vault configuration</li>
+<li>template error when publishing in windows</li>
+</ul>
+<h3 id="house-cleaning-1"><a aria-hidden="true" class="anchor-heading" href="#house-cleaning-1"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>House Cleaning</h3>
+<ul>
+<li>Analytics
+<ul>
+<li>we now measure <code>duration</code> when installing and upgrading Dendron (see <a href="https://wiki.dendron.so/notes/84df871b-9442-42fd-b4c3-0024e35b5f3c.html#installationupgrade">docs</a>)</li>
+</ul>
+</li>
+<li>Deprecation Notices
+<ul>
+<li>Dendron Markdown Links is now deprecated and replaced with Dendron's Native Graph Commands. It will be removed July 12, 2021</li>
+</ul>
+</li>
+</ul>
+<!-- ### Bug Fixes
+- `#` in alias can be used again ([#790](https://github.com/dendronhq/dendron/issues/790)) -->
+<h2 id="0451"><a aria-hidden="true" class="anchor-heading" href="#0451"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>0.45.1</h2>
+<h3 id="bug-fixes-2"><a aria-hidden="true" class="anchor-heading" href="#bug-fixes-2"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Bug Fixes</h3>
+<ul>
+<li>published assets now respect vault configuration</li>
+<li>template error when publishing in windows</li>
+</ul>
+</div></div><p></p><p></p><span id="navId" data="932534e7-e788-4fdb-bc8c-eaf761992a8d"></span>
+
+                
+      </section>
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+        <div class="thumbs feedback_trigger right-bottom"></div>
+
+        
+          <hr>
+          <footer>
+            
+            
+
+            
+              <div class="d-flex mt-2">
+              <p class="text-small text-grey-dk-000 mb-0 mr-2">
+                Page last modified: <span class="d-inline-block">6/21/2021</span>.
+              </p>
+            
+                
+                  <p class="text-small text-grey-dk-000 mb-0">
+                    <a href="https://github.com/dendronhq/dendron-site/edit/master/vault/dendron.release.2021-06-14.md" id="edit-this-page">Edit this page on GitHub</a>
+                  </p>
+                
+              </div>
+          </footer>
+        
+    </div>
+</div>
+
+
+  
+
+  <div class="search-overlay"></div>
+
+</div>
+
+</body>
+</html>

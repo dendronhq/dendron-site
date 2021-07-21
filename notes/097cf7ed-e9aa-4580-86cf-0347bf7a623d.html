@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+  
+  <title>Dendron Onboarding Transcript - Dendron</title>
+  
+
+  <link
+    rel="shortcut icon"
+    href="https://wiki.dendron.so/favicon.ico"
+    type="image/x-icon"
+  />
+  <link
+    rel="stylesheet"
+    href="https://wiki.dendron.so/assets/css/just-the-docs-default.css"
+  />
+  <script
+    type="text/javascript"
+    src="https://wiki.dendron.so/assets/js/just-the-docs.js"
+  ></script>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.22.0/themes/prism.min.css"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css"
+    integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X"
+    crossorigin="anonymous"
+  />
+  <script
+    type="text/javascript"
+    src="https://wiki.dendron.so/assets/js/vendor/lunr.min.js"
+  ></script>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+   
+   
+  
+<meta name="description" content="Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.">
+<meta name="author" content="dendronhq">
+
+<link rel="canonical" href="https://wiki.dendron.so/notes/097cf7ed-e9aa-4580-86cf-0347bf7a623d.html">
+
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://wiki.dendron.so/notes/097cf7ed-e9aa-4580-86cf-0347bf7a623d.html">
+<meta property="og:description" content="Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.">
+<meta property="og:image" content="https://wiki.dendron.so/logo.png">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@dendronhq">
+<meta name="twitter:url" content="https://wiki.dendron.so/notes/097cf7ed-e9aa-4580-86cf-0347bf7a623d.html">
+<meta name="twitter:description" content="Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.">
+<meta name="twitter:image" content="https://wiki.dendron.so/logo.png">
+
+
+  <meta property="og:title" content="Dendron Onboarding Transcript - Dendron" />
+  <meta name="twitter:title" content="Dendron Onboarding Transcript - Dendron" />
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-B0JN2HHCNY"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-B0JN2HHCNY');
+  </script>
+  
+</head>
+
+
+
+<body>
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+      <symbol id="svg-link" viewBox="0 0 24 24">
+        <title>Link</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-link">
+          <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+        </svg>
+      </symbol>
+      <symbol id="svg-search" viewBox="0 0 24 24">
+        <title>Search</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search">
+          <circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+      </symbol>
+      <symbol id="svg-menu" viewBox="0 0 24 24">
+        <title>Menu</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu">
+          <line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+      </symbol>
+      <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+        <title>Expand</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+          <polyline points="9 18 15 12 9 6"></polyline>
+        </svg>
+      </symbol>
+      <symbol id="svg-doc" viewBox="0 0 24 24">
+        <title>Document</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file">
+          <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path><polyline points="13 2 13 9 20 9"></polyline>
+        </svg>
+      </symbol>
+    </svg>
+
+    <div class="side-bar">
+      <div class="site-header">
+        <a href="https://wiki.dendron.so" class="site-title lh-tight">
+  <div class="site-logo"></div>
+
+ </a>
+        <a href="#" id="menu-button" class="site-button">
+          <svg viewBox="0 0 24 24" class="icon"><use xlink:href="#svg-menu"></use></svg>
+        </a>
+      </div>
+
+      <nav role="navigation" aria-label="Main" id="site-nav" class="site-nav">
+      </nav>
+      <footer class="site-footer">
+        🌱 with 💕 using <a href="https://www.dendron.so/"> Dendron 🌲 </a>
+      </footer>
+    </div>
+    <div class="main" id="top">
+        <div id="main-header" class="main-header">
+          
+            <div class="search">
+              <div class="search-input-wrap">
+                <input type="text" id="search-input" class="search-input" tabindex="0" placeholder="Search Dendron" aria-label="Search Dendron" autocomplete="off">
+                <label for="search-input" class="search-label"><svg viewBox="0 0 24 24" class="search-icon"><use xlink:href="#svg-search"></use></svg></label>
+              </div>
+              <div id="search-results" class="search-results"></div>
+            </div>
+          
+          
+    </div>
+    <div id="main-content-wrap" class="main-content-wrap">
+      
+        
+          <nav aria-label="Breadcrumb" class="breadcrumb-nav">
+            <ol class="breadcrumb-nav-list"><li class="breadcrumb-nav-list-item"><a href="https://wiki.dendron.so">Dendron</a></li><li class="breadcrumb-nav-list-item"><a href="https://wiki.dendron.so/notes/f308164e-faff-43a1-8d34-72ed060275b0.html">Reference</a></li><li class="breadcrumb-nav-list-item">Dendron Onboarding Transcript</li></ol>
+          </nav>
+        
+      
+      <div id="main-content" class="main-content" role="main">
+
+        
+        
+        <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+        <script>mermaid.initialize({startOnLoad:true});</script>
+        
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+        
+        
+
+        
+
+        
+
+        
+
+        <script>
+          $(function () {
+            $('[data-toggle="popover"]').popover({html: true})
+          })
+        </script>
+
+        
+
+<div id="main" role="main">
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Dendron Onboarding Transcript">
+    
+    <meta itemprop="datePublished" content="2020-09-04T16:06:27+00:00">
+    <meta itemprop="dateModified" content="2020-09-04T16:06:27+00:00">
+
+    <div class="page__inner-wrap">
+
+      
+
+      <section class="page__content" itemprop="text">
+
+        
+
+        <h1 id="dendron-onboarding-transcript"><a aria-hidden="true" class="anchor-heading" href="#dendron-onboarding-transcript"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Dendron Onboarding Transcript</h1>
+<p>0:00<br>
+So getting started? And have you had a chance to play around with engine at all, or this is the first time.</p>
+<p>0:07<br>
+Um, I've opened it and read a little bit of the doc in it. And that's all I've done.</p>
+<p>0:13<br>
+Okay, cool. That's perfect. And so right now,</p>
+<p>0:17<br>
+when you turned up in the, in the, in the couple of discord threads was really the first point that I looked at it at all, and I haven't spent much time looking. And then you throw this out, like, Okay, this jumpstart.</p>
+<p>0:33<br>
+Cool. Yeah. And that's kind of what this onboarding is for. It's, it's, you know, today's help, even if you haven't even opened it up just to give you the idea of, you know, why you might want to. And so right now, what you're looking at is identity and workspace, and the way so let's back up and tension. We manage your notes and our work states and if you use VS code, it's the equivalent of the VS code workspace. So that's a one to one match in there. And the way that you start off is you can initialize the workspace. And right now, I did me, we can just make a new one, like lead you. And so this is saying the workspace should be at this location. And so when we create a workspace, we can either create one with intention tutorial notes, and that has right or you can do an empty one. So I'm just going to do an empty one in this case. And so when you create an empty workspace, you have one file, which is the root file. And this is just there for this is kind of like your phone. And the way that denture and works is if you want to create a file, you can just type command L. I'm going to toggle screencast mode, command l triggers to look up bar, and most of the things you'll do in engine will involve this one have you used tools like Notational Velocity no So Notational Velocity, it's it was a tool where basically when you are looking for a file, for example, if I type Python, if the file doesn't exist, then it creates it for you. If it does, if that if it does exist, it will fetch it. So it's this idea that you never really have to think about</p>
+<p>2:22<br>
+the accessing your data.</p>
+<p>2:26<br>
+And</p>
+<p>2:27<br>
+so I'm assuming that dendron is putting the is that a YAML? header?</p>
+<p>2:33<br>
+Yes, that is a yamo header.</p>
+<p>2:35<br>
+So it's just automatically doing that when it creates the file.</p>
+<p>2:39<br>
+Exactly.</p>
+<p>2:41<br>
+And for the yamo header, the idea here is we store some metadata. So every node has a unique ID. And the reason we do that is because if you choose to you can publish your notes. That's my local version that this is the engine website is actually a published vault.</p>
+<p>2:59<br>
+Ah, Why. So I created a</p>
+<p>3:03<br>
+workspace with the with the help notes. Yeah. So that's why it looks the same.</p>
+<p>3:10<br>
+Yep, exactly. And it is generated from the notes. And the reason and if you notice the IDs for each note, when you publish the notes are actually published by their ID not by the name. And what's nice about that is even if you've renamed the notes, as long as you keep the frontmatter, it will show publish to the same URL.</p>
+<p>3:29<br>
+Interesting,</p>
+<p>3:30<br>
+okay. And, okay, so, and as I'm battling off, if at any point, you want to just like stop me and say, like, hey, like, what's this? What would you guess? Do you just feel free to I tend to otherwise just keep talking?</p>
+<p>3:42<br>
+Oh, no, that's fine. That's exactly what I was hoping. Okay,</p>
+<p>3:45<br>
+okay. Um, so creating, so as far as creating notes, you can type it. If it exists, it'll fetch it. If it doesn't then it it will create a another way of creating notes as using wiki links, which is double bracket syntax. So for example, if I wanted to go to Ruby, I could type in Ruby. And then if you do the go to definition shortcut, then you can go to default on Mac is something different. I just changed it to Ctrl, enter. So if I do Ctrl, enter, I can go into Ruby, sometimes some markdown preview, well, like, not update right away. But in, for example, in groovy, I can type in Python, and I can go here and I can go back to Python. And making these links, it's kind of the same thing as look up in like JavaScript, for example, JavaScript doesn't exist. But if I navigate to it, then venturing well creatively.</p>
+<p>4:42<br>
+That's kind of the same way obsidian works.</p>
+<p>4:47<br>
+And it's just this idea that you shouldn't be thinking about the order of files. It's, you know, not likely and notetaking should just be the information that you're working with. And as far as bi directional linking On the left hand panel, so we have a backlink section. And the backlinks section shows you all the notes that this note is linked by. And so in Python, it's showing you that hey, Ruby links do Python. Yep. And I think obsidian has a similar panel, but it's, yeah, it's a backlink panel. Now, the thing that Oh, and I guess one more thing before I get into hierarchies, we support let's see, this is header one.</p>
+<p>5:35<br>
+This is header Two,</p>
+<p>5:39<br>
+one.</p>
+<p>5:43<br>
+So denisha. We also support what we call defences, loan costs and block graph. I think loan costs and block references. We call them nodes references. I think obsidian also has a doe I'm not sure what they call it.</p>
+<p>5:58<br>
+I don't actually have this Same. There are references to headers and things, but they don't. It's a little different.</p>
+<p>6:07<br>
+Right? So what I'm going to show you is in dendron, you can embed notes and other notes. So for example, I just hit Command Shift R, which copy the left lens of this note, and the, and then I can paste it, for example in JavaScript. And so I'm seeing the Python notes embedded in the JavaScript note. You can either choose to reference a note, or you can choose to reference a header. So for example, everything starting from heading one, and you can also do games. So you can say everything starting from header one to header two, that you can embed notes into other nodes. And then the other thing that you can do is you if you keep bullets, the markdown preview is mutable in the sense that you can click on the lead and also update the markdown. Yes, that's a little thing that I find people get quite excited about that</p>
+<p>7:08<br>
+over if you're going to use to do if you're going to use those</p>
+<p>7:10<br>
+as to dues it's a big deal. Exactly. Um, okay, and now getting to the part. So right now what I've shown you it's pretty similar to obsidian it's pretty similar to go more like how normal note taking apps work. The things that dungeon the dungeon now starts doing differently is we're focused on having your notes conform to some sort of structure. And so that's not to say like, as you can see, like we support backlinks so you can link any note to any note. But the problem that I found and the reason why I made my own note taking tool is I find that once you get a lot of notes, you need some sort of structure, if you organize it, if it's all backlinks, like it becomes really hard to find something, whether it's a naming convention, whether it's some sort of hierarchy, like there need to be some sort of structure to help you find it. And so in Benjamin, for us that structure is hierarchy. So the way that you create a hierarchy, and Benjamin is whatever. So when you do command L, you the lookup bar gets populated by the current note that you're in. And so if you have not, then you're creating a new level in the hierarchy. So for example, I can do Python data. And so you know, this is a data node. But the hierarchy is, Python is parents data as a child. And under data, for example, I might want to do if I'm learning about Python, data could be you know, all of the various data structures that Okay, my path and setting I can look in billions and things. And the nice thing about this hierarchy is now instead of, you know, you manually having to link all the nodes together, because you are in the Python hierarchy, you can you have a bird's eye view of everything in this hierarchy.</p>
+<p>8:59<br>
+That's just kind of Gaining</p>
+<p>9:02<br>
+interest. Another way you can see the hierarchy is we have to show graph command. And so just like how obsidian has a graph, Python, now Python engine has a graph. But this is a graph with backlinks. It's a graph of your hierarchy. And so, you know, as you note, like there isn't a connection between Ruby and Python, even though there's a backlink, what this is showing you, you can think of it as a top down view of your table of contents of the hierarchies that you have. Right. Now, the nice thing about having this is like right now, for example, Python this in stone thing, that web engine lets you do, so let me back up for a moment. hierarchies, I find are one of the best ways of organizing notes by most people and most tools don't really support it as well. And that's because I think not because hacky some work, but because he had no tooling on our piece. Like if you had your files in a folder Actually, you could put them in a bunch of different folders, but then like finding them is more difficult. And then if you ever wanted to rename anything, that's just a nightmare. And so attention, we're building on this idea that it is actually some of the most effective ways of managing information with people. And we it's built around this idea that as hope you work with hierarchies, and one thing we let you view is we let you be factor. So for example, right now, I'm under a Python. But let's say that I shut off a entering text I want to replace. So I'm saying for Python instead of Python. Oops, let me again, instead of Python, go place Python with Lang Python. And what this is going to do is everywhere where you have python.md, it's going to add the Lang prefix for programming language. And if I hit proceed, proceed. What you'll notice is that not only did all the falaschi name but also If I go, for example, into movie, all the links to the palace, and also then. And so it's just an easier way of managing the hierarchies. And now, like, why might you want to do this? Well, because I have this just crazy thing. So because I have this programming language it, what it lets me do. And this is really what I started doing with my notes is, if I'm learning, for example, a programming language, and I'm working on like two or three at a time, it's really difficult to context switch between them. It's like, how do we do this in Ruby, how you listen to Python? What I found was much more conducive is if I could think like, okay, in a programming, what is my model for programming language. And so for example, a programming language has data structures, and so I could apply that to Ruby as well. So for example, for Ruby, it also has data structures. And then what I could do is when I'm learning about Ruby, you know, I could translate that higher He that I learned from Python, and put it into a movie. And what this lets me do now is, now it's a lot easier to context switch between different programming languages, because I'm thinking more about the concepts than the actual implementation. And for example, now, if I'm like in my hierarchy for So first of all, like, if I'm looking at data structures in Python, I have all of them in one view. But now let's say that I want to look up data structures for all my programming languages, then I also have a similar view for that. And so now, this idea, and this is where it really, for me, like, became like, the way that I did all my notes is having these hierarchies not only are they a great organizational scheme, because now instead of having 100, you know, 1000 notes at the top level, you only have, you know, the very good stuff behind this. So it's programming languages. It's cooking as you know. Few things that you care about at the top level, and you can drill down into them. And when you drill down into them, it's not just organizational. It's something that, for me, at least, it helps me learn about the topic. Because I find the heipiess that I create, for, you know, a programming language or anything, they affect my mental model of it. And I find over time, when I'm learning about things, it's not actually the implementation that matters, but it's the fact that I've been able to develop this hierarchy and then continue refining it over time.</p>
+<p>13:34<br>
+That makes sense. Well, there's nothing that keeps you from just having a bunch of loose notes at some, somewhere even if, even if it's nothing. If for the sake of cleanliness, you you create a hierarchy starting with Miss and stuff under it. You have the same thing you have typically totally get the language thing. I once had a situation where I had the word two computer assembly languages. Yeah. And one of them had right to left operation on the instructions. And the other had left to right, but three quarters and now, three quarters of the names of operations were the same. So you just had to remember whether you were in left, right or right, left. So yeah, I totally get that.</p>
+<p>14:28<br>
+And the other thing that I do for these notes, and let me just going to show you this is my one of my vaults. This is a notes for a meeting today. But for example, I have a CI and this is like all the CI commands that I run into, and it's not just necessary. Oh, okay. So that one. It's like, if I run into a problem instead of, you know, googling it,</p>
+<p>14:55<br>
+yeah.</p>
+<p>14:56<br>
+I don't know how half a cache of it. So if I run into the same problem, they And, you know, I can just go into that COI hierarchy.</p>
+<p>15:04<br>
+And right because it's the one, it's the one. I did that last month. I know I know that, but I don't remember.</p>
+<p>15:12<br>
+Exactly. And if you look at this, I think I have a couple of hundred different commands. And the nice thing about this as like, I did none of this, you know, ahead of time, it was kind of a just in time, I ran into cognitive work. I needed to Stack Overflow, it took me 10 minutes. I never want to spend time on it again. Let me go into, you know, yeah.</p>
+<p>15:36<br>
+Okay, cool.</p>
+<p>15:38<br>
+So, can we look a little bit at, um, kind of your to dues?</p>
+<p>15:44<br>
+Yeah. So, two dues let me actually, okay, I'm going to do two things. I'm first going to show you how you would create it from scratch and then I'll show you my two dues for the day. I like to organize things by projects. And so I usually have like a project hierarchy. Actually. And so for example, one project might be different. And so under dendron, what I actually do is I have a daily journal that I go over everything I need to do for that particular day. And let me think, what is the best way of showcasing, I'm just going to show you my to do actually.</p>
+<p>16:28<br>
+So this is my to do for a dendron.</p>
+<p>16:32<br>
+And let me show you and the video. And what I do is intention, you have this notion of your journal notes. And so journal notes is basically whatever hierarchy you're currently in, and appends journal to it in the current date. And this is configurable. You can change the date format, you can change how it appends it, but I'm going to move on to tomorrow's date. And the way you do that is Ctrl Shift J. But you can use that to create a new Going on it. And then what I do is every day, are you familiar with snippets inside VS code?</p>
+<p>17:07<br>
+Oh, I haven't used them inside VS code. I use external snippet code.</p>
+<p>17:14<br>
+Well, I, anyways, I use a bunch of snippets. And so apprehension journal snippet, and that will fill it out with</p>
+<p>17:21<br>
+Okay, might get the idea even though I haven't used it.</p>
+<p>17:25<br>
+Yeah. And then the way I do two dues that's worked really well. For me, if I'm just working by myself, I have a snippet to make this bullet. And then I'll write you know, task one, task two tasks week.</p>
+<p>17:38<br>
+Something that</p>
+<p>17:40<br>
+dension does fairly well is for example, sometimes like past one, it turns out to be a much bigger task and has a notion of sketch notes. And so let me and so this is all just special cases, it's you can create a sketch note by Command Shift s, and you can choose to add a title or not. If you don't add a title by default. It creates under your current high hierarchy denture and dots batch, and then the current date and timestamp. And you can think of this cache notice as caches, it's just, oh, I'm in a meeting, I need to take a note, I don't want to figure out where I'm gonna move it. So I'm just going to start you know, taking. And so that's kind of the purpose of discussion. And then later on, you can like rename it, and then follow it away somewhere if you want to. The more interesting thing is, if I highlight tasks, for example, and then I do the shortcut for a sketch note, what it does, is it creates a link from this task to the sketch note. And so now, you know, I can use this to create nested tasks. So you know, task 1.1 1.2 and if I find that, you know, task 1.1 is still too big, and I need to break it down even further. I can create another cash flow from that and then you know, create even more tasks. So you can go as deep as you want to that I usually find that to be To TCP level sign up yeah</p>
+<p>19:04<br>
+that deeper probably needs to be broken up</p>
+<p>19:08<br>
+and but what's really cool about this is you can start off with a bullet and you can still keep this nicely bulleted list but then you can you know, expand upon it as much as you need to. Um, but as far as like project management goes the way I manage projects is I have my daily to dues and then I look at my to dues from the previous day. And then like anything I haven't done the previous day, I will copy it over into today. And then I will I use a bullet journal format so like I will add like a lesson sign.</p>
+<p>19:47<br>
+Go No, I don't use it, but I'm familiar with it.</p>
+<p>19:51<br>
+And something else that you can do is this is VS code feature more than attention feature better And then most people don't know about this. If you notice, for example, I have tags to some of my tasks, what I can do VS code has a search editor feature where you can search within your current note. And so if I type in start, it shows me For example, all my lines were have to start counting. And what's cool about this is this search is globbing. And so what I can do is by I have this shortcut set up, that brings me a search of whatever the current notice, but I can, for example, go here to show me Okay, what are all my past titled start within this month? And this shows me all of that materialized in a single view. All right, go What is everything, you know, in this year, or, you know, it's a quote skyjack so you can get as fancy as you like, and what what I will say this like this search, edit I view it's a VS code thing, not an engine thing, but it's Because the engine, if you follow dingemans method of putting stuff in hierarchies, it makes us search things super powerful, because now you can glob and search within. Yeah, the big dates. You can, for example, if you think back to a programming example, in Python, you can search, you know, under Python, everything in Python that has a gotcha tag, or everything in programming languages, that was hard. And that is something that you get for free with the hierarchy. This is nicely structured, being able to just search everything within that.</p>
+<p>21:38<br>
+So what's really fascinating about this for me to watch, is that the name that you get, which is the hierarchy with with dots as separators on the mainframe, that's actually how hierarchical folder structures are achieved. Yeah,</p>
+<p>22:01<br>
+that exact naming convention.</p>
+<p>22:04<br>
+Nice. I haven't had the pleasure of using many mainframes in the days.</p>
+<p>22:09<br>
+Yeah, so that was that one harks back, like decades for me. Okay.</p>
+<p>22:14<br>
+Um, so I have an unrelated question, what is the tool you're using? That's echoing the keystrokes. And that's actually VS code. So VS code has something called screencast mode. I'll go ahead, it will show you all the keystrokes.</p>
+<p>22:29<br>
+Cool. All right.</p>
+<p>22:31<br>
+And that's a nice thing about building engine inside VS code is that, for me, like what was different about attention and what the thing I'm trying to promote is this idea of keeping your notes in a hierarchy and giving you the tools to work with that hierarchy. But then all the other stuff, for example, like being able to work with markdown and supporting multiple panes and having all the other stuff that you need in an editor. It's not really differentiating and you codecademy is a great place for that. And plus you have all the extensions. And VS code has and VS code has like a lot of new features. One of them another one that I really like that I find most people don't know about is you can toggle lines. So if you do option, arrow key, you can move lines up and down. And I find that really nice for prioritizing because I usually like to, you know, keep stuff in this sort of format. And this way, I can easily move stuff down when I'm done. And what's cool is it's not just a single line, you can highlight a whole block and you can move that whole block at a time. But it's just another one little known feature that I find it makes a big quality of life. Yeah.</p>
+<p>23:48<br>
+Let's see.</p>
+<p>23:51<br>
+Um, this. That's the other thing that you can do. indention is you can paste images. I find that's a question I get a lot specially with Mark And so I use a program called sketch, which lets me take a screenshot of the screen. And then if I do Command Shift C, it puts that image into my clipboard. And then inside address, you can kinda paste image command, which will take whatever is in your clipboard, put it in this path in the vault. And then now you have the picture. And I find that useful because I in markdown paste ads at night, adding media is usually like a problem that people have.</p>
+<p>24:32<br>
+Yeah, obsidian handles that pretty well, much the same way. So yeah, that one I haven't had a lot of friction on.</p>
+<p>24:41<br>
+And</p>
+<p>24:42<br>
+that's really interesting.</p>
+<p>24:45<br>
+Yeah, the hierarchy is definitely the thing that I am working upon. And oh, one thing I haven't shown you and this is more of an advanced feature, but you can create schemas for your hierarchies and you can think of femurs is kind of being able to type check. And so I'll show you what I mean by that. So right now I'm creating a lens. And the way I go to schema is I do Command Shift L. And this shows me all the schemas that I have. So it's kind of lookup, but instead of looking for markdown files, I'll explore YAML files. And so your schema, it is just a yamo. And it follows. And what it does, so is it says that, okay, there is a node that is named. And so Lang is the root of your hierarchy. And you can, for example, say that this has children. So for example, Python, it's Ruby. And the only thing you need to specify for the children is that they exist. And now you need to reload the index between schema changes because it hasn't picked up on Live, that's going to change later. But now, if I go into my lookup, if I type in Lang, for example, you'll notice it's actually a little book to it. And the little book over here means that hey, Lang is part of the schema. And if I go down, I can see that Oh, like there's a little book next to Python. That's part of the schema. If you look at JavaScript, because I created</p>
+<p>26:31<br>
+it. It's not in the schema, if you look at Java, this little question mark, because it's not in the schema. And the reason you might want to do this is for example, like as I'm building my hierarchy, oh, one thing is you don't have to like enumerate everything. So this a namespace property where you can say this is a namespace. And so now, this is essentially saying that this is going to match now Not start the globbing pattern. The scheme is just based off this simple globbing pattern</p>
+<p>27:06<br>
+that would pick up if it existed.</p>
+<p>27:08<br>
+Yeah. And so now if I go to Java, this little book to it, because that's in a sec, okay, I recognize it. Now, the interesting part here is now for my children, for example, if I say data,</p>
+<p>27:21<br>
+so data structures,</p>
+<p>27:24<br>
+and you know, and data, let's say that as their children, like, spring, I have a lot of different autocompletes. So that Well, sometimes,</p>
+<p>27:38<br>
+yeah, no, I know how that works. I get that a lot. Yeah.</p>
+<p>27:43<br>
+So let's say that I crave</p>
+<p>27:46<br>
+that. And so this schema of the way that the globbing patterns work is the children will inherit the parents as a prefix. So this will match Lang dot star dot data. And then string will match Lang dot star dot data watchman. But the schema is also hierarchal. And so now, if I reload my index, if I go to lang.db, dot away, for example, there's a book, because it's part of my schema. But if I look into your data, that Boolean does nothing, because it's not part of my schema. And schemas are really lightweight. It's just that yamo and we don't stop you from creating things outside of your schema, we just show you a question mark. But it's nice. For example, if you're building a programming language hierarchy, and just like sometimes use Google, sometimes use Boolean and you want to keep it consistent, you can document it in your schema. And the engine will also tell you when you're going outside of it, and in the future, we'll add options if you want you to actually enforce it. So you can say like, hey, like, actually don't have any great things that go outside of this. Okay? And that's just because like if my this is how likely entropy builds up and up looks like you name one thing for one fee and then another one for another, and then you have a million different things.</p>
+<p>29:07<br>
+Yep, I have, I have several backlinks that I have to go clean up because I did somebody's name or title or something differently in two different places.</p>
+<p>29:20<br>
+l and schema strike now. We are also this going to be more features that you can do with schemas. And right now, it does two things. One is it gives you the little book with a little question mark, if you're in a note that matches it. The other thing is you can assign templates to it. So for example, for this thing, I can say that it has a template. And what that means is when I create a note that matches the schema, automatically apply this template to it. And so the idea of this template is going to be the name of another note. And so for example, if I just do a Lang, template, M and M Then I can say this is something inflige. And it's a note template. And the reason you have this this in the future will have different types of templates, you can make templates from snippets, or other sources. And now if I reload my index, and let's create a screen for something I don't have fishing for so let's say Lang dot java data archwing. And oh, something else that schemas that you do is it autocompletes so like, even though again, string haven't been created, it shows you Hey, this matches the dang schema. According to that schema, you happen assumptions.</p>
+<p>30:40<br>
+Nice. So if I type in train,</p>
+<p>30:46<br>
+it shows you how demos will always break your hearts.</p>
+<p>30:52<br>
+Of course,</p>
+<p>30:54<br>
+that's me.</p>
+<p>30:57<br>
+delete this. So Command Shift D is to do Return note.</p>
+<p>31:03<br>
+And</p>
+<p>31:06<br>
+let's try this again. I might have to reload the window for it to pick it up. So, let me I just reloaded the window. I'm going to delete this and then try to create it one more time. And then hopefully, but</p>
+<p>31:26<br>
+Okay, I'll look into that. But so yeah, yeah, yeah. Okay.</p>
+<p>31:37<br>
+And there are other things, but these are essentially like the core parts of dendron. Something else that you can do is you can take your notes, and you can publish it to GitHub. So that's a build command. Right now, because we're in an empty space, you need to run another command to add in some pals, but basically what that when you do build power On a workspace is that it can, it'll generate, it'll turn it into static files that you can publish to GitHub. And it'll have the same template as an engine website. Um, and it's also hierarchical. So you know you the same hierarchy you happen engine you can have on your website, you can choose to publish either everything in your vault, or you can choose which hierarchies you want to publish. And then the other thing is this search bar here. This is actually also path based. So the same lookup mechanism that you use insight engine, you can also use on an engine website.</p>
+<p>32:42<br>
+Nice. Yeah.</p>
+<p>32:43<br>
+Cool.</p>
+<p>32:44<br>
+Yep. Well, thank you. Yeah, no problem.</p>
+<hr>
+<h2 id="backlinks"><a aria-hidden="true" class="anchor-heading" href="#backlinks"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Backlinks</h2>
+<ul>
+<li><a href="https://wiki.dendron.so">Dendron</a></li>
+</ul><span id="navId" data="097cf7ed-e9aa-4580-86cf-0347bf7a623d"></span>
+
+                
+      </section>
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+        <div class="thumbs feedback_trigger right-bottom"></div>
+
+        
+          <hr>
+          <footer>
+            
+            
+
+            
+              <div class="d-flex mt-2">
+              <p class="text-small text-grey-dk-000 mb-0 mr-2">
+                Page last modified: <span class="d-inline-block">9/4/2020</span>.
+              </p>
+            
+                
+                  <p class="text-small text-grey-dk-000 mb-0">
+                    <a href="https://github.com/dendronhq/dendron-site/edit/master/vault/dendron.ref.transcript.md" id="edit-this-page">Edit this page on GitHub</a>
+                  </p>
+                
+              </div>
+          </footer>
+        
+    </div>
+</div>
+
+
+  
+
+  <div class="search-overlay"></div>
+
+</div>
+
+</body>
+</html>

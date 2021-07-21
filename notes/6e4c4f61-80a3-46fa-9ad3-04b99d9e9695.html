@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+  
+  <title>Dendron Public Roadmap - Dendron</title>
+  
+
+  <link
+    rel="shortcut icon"
+    href="https://wiki.dendron.so/favicon.ico"
+    type="image/x-icon"
+  />
+  <link
+    rel="stylesheet"
+    href="https://wiki.dendron.so/assets/css/just-the-docs-default.css"
+  />
+  <script
+    type="text/javascript"
+    src="https://wiki.dendron.so/assets/js/just-the-docs.js"
+  ></script>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.22.0/themes/prism.min.css"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css"
+    integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X"
+    crossorigin="anonymous"
+  />
+  <script
+    type="text/javascript"
+    src="https://wiki.dendron.so/assets/js/vendor/lunr.min.js"
+  ></script>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+   
+   
+  
+<meta name="description" content="Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.">
+<meta name="author" content="dendronhq">
+
+<link rel="canonical" href="https://wiki.dendron.so/notes/6e4c4f61-80a3-46fa-9ad3-04b99d9e9695.html">
+
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://wiki.dendron.so/notes/6e4c4f61-80a3-46fa-9ad3-04b99d9e9695.html">
+<meta property="og:description" content="Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.">
+<meta property="og:image" content="https://wiki.dendron.so/logo.png">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@dendronhq">
+<meta name="twitter:url" content="https://wiki.dendron.so/notes/6e4c4f61-80a3-46fa-9ad3-04b99d9e9695.html">
+<meta name="twitter:description" content="Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.">
+<meta name="twitter:image" content="https://wiki.dendron.so/logo.png">
+
+
+  <meta property="og:title" content="Dendron Public Roadmap - Dendron" />
+  <meta name="twitter:title" content="Dendron Public Roadmap - Dendron" />
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-B0JN2HHCNY"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-B0JN2HHCNY');
+  </script>
+  
+</head>
+
+
+
+<body>
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+      <symbol id="svg-link" viewBox="0 0 24 24">
+        <title>Link</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-link">
+          <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+        </svg>
+      </symbol>
+      <symbol id="svg-search" viewBox="0 0 24 24">
+        <title>Search</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search">
+          <circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+      </symbol>
+      <symbol id="svg-menu" viewBox="0 0 24 24">
+        <title>Menu</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu">
+          <line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+      </symbol>
+      <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+        <title>Expand</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+          <polyline points="9 18 15 12 9 6"></polyline>
+        </svg>
+      </symbol>
+      <symbol id="svg-doc" viewBox="0 0 24 24">
+        <title>Document</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file">
+          <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path><polyline points="13 2 13 9 20 9"></polyline>
+        </svg>
+      </symbol>
+    </svg>
+
+    <div class="side-bar">
+      <div class="site-header">
+        <a href="https://wiki.dendron.so" class="site-title lh-tight">
+  <div class="site-logo"></div>
+
+ </a>
+        <a href="#" id="menu-button" class="site-button">
+          <svg viewBox="0 0 24 24" class="icon"><use xlink:href="#svg-menu"></use></svg>
+        </a>
+      </div>
+
+      <nav role="navigation" aria-label="Main" id="site-nav" class="site-nav">
+      </nav>
+      <footer class="site-footer">
+        🌱 with 💕 using <a href="https://www.dendron.so/"> Dendron 🌲 </a>
+      </footer>
+    </div>
+    <div class="main" id="top">
+        <div id="main-header" class="main-header">
+          
+            <div class="search">
+              <div class="search-input-wrap">
+                <input type="text" id="search-input" class="search-input" tabindex="0" placeholder="Search Dendron" aria-label="Search Dendron" autocomplete="off">
+                <label for="search-input" class="search-label"><svg viewBox="0 0 24 24" class="search-icon"><use xlink:href="#svg-search"></use></svg></label>
+              </div>
+              <div id="search-results" class="search-results"></div>
+            </div>
+          
+          
+    </div>
+    <div id="main-content-wrap" class="main-content-wrap">
+      
+        
+          <nav aria-label="Breadcrumb" class="breadcrumb-nav">
+            <ol class="breadcrumb-nav-list"><li class="breadcrumb-nav-list-item"><a href="https://wiki.dendron.so">Dendron</a></li><li class="breadcrumb-nav-list-item">Dendron Public Roadmap</li></ol>
+          </nav>
+        
+      
+      <div id="main-content" class="main-content" role="main">
+
+        
+        
+        <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+        <script>mermaid.initialize({startOnLoad:true});</script>
+        
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+        
+        
+
+        
+
+        
+
+        
+
+        <script>
+          $(function () {
+            $('[data-toggle="popover"]').popover({html: true})
+          })
+        </script>
+
+        
+
+<div id="main" role="main">
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Dendron Public Roadmap">
+    
+    <meta itemprop="datePublished" content="2020-09-23T05:48:47+00:00">
+    <meta itemprop="dateModified" content="2021-05-29T17:15:14+00:00">
+
+    <div class="page__inner-wrap">
+
+      
+
+      <section class="page__content" itemprop="text">
+
+        
+
+        <h1 id="dendron-public-roadmap"><a aria-hidden="true" class="anchor-heading" href="#dendron-public-roadmap"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Dendron Public Roadmap</h1>
+<p>Behold! The <a href="https://github.com/orgs/dendronhq/projects/1">Dendron Public Roadmap</a>.</p>
+<p>The public roadmap is designed to give you more information about what features and functionality you can expect from Dendron over the coming months. With more transparency into what we’re building, you can share feedback earlier and have more influence into what we’re building.</p>
+<p><img src="/assets/images/2021-05-29-00-38-50.png"></p>
+<h2 id="context"><a aria-hidden="true" class="anchor-heading" href="#context"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Context</h2>
+<p>Our roadmap is intended to align with Dendron's overall <a href="https://wiki.dendron.so/notes/3bf95ba0-8d6e-4bfc-b46e-c0c66cdab2ee.html">Mission statement</a>. We have only added the top-level "epics" to our roadmap i.e. the large things that will have a lot of impact on the user experience.</p>
+<p>This year, we plan to focus on three things to maximize impact:</p>
+<ol>
+<li>
+<p><strong>Build out Dendron's core functionality</strong>: lookup, schemas, pods, visualization, preview, sharing, plugins, and performance. These are some of the foundational features Dendrologists rely on everyday and we will make sure that they keep getting better. We will continue to add new features, improve existing features, and make sure that the core note-taking functionality is more intuitive and easier to use over time.</p>
+</li>
+<li>
+<p><strong>Create a Federated Knowledge Repository</strong>. The promise of Dendron is to help people manage knowledge at scale. Most knowledge already exists in READMEs, specs, and other places. We want to make it easy to access both existing content as well as for Dendrologists to share their own.</p>
+</li>
+<li>
+<p><strong>Build out Dendron for Teams</strong>. Dendron is great to use as an individual but is even more powerful when used with others. To this end, we are building out authentication, synchronization and sharing features to make Dendron a best in class tool for collaboration.</p>
+</li>
+</ol>
+<p>These goals lead us to the following set of features. These can definitely change (and they're really the highlights amongst all the other enhancements and bug fixes) but hopefully this gives you a birds-eye view of what we're delivering.</p>
+<h3 id="in-q3"><a aria-hidden="true" class="anchor-heading" href="#in-q3"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>In Q3</h3>
+<ul>
+<li><a href="https://github.com/dendronhq/dendron/issues/643">Unified Markdown Preview</a></li>
+<li><a href="https://github.com/dendronhq/dendron/issues/41">Standalone Vaults</a></li>
+<li><a href="https://github.com/dendronhq/dendron/issues/712">Schema Improvements</a></li>
+<li><a href="https://github.com/dendronhq/dendron/issues/758">Private published sites</a></li>
+<li><a href="https://github.com/dendronhq/dendron/issues/541">Markdown export pod</a></li>
+</ul>
+<h3 id="in-q4"><a aria-hidden="true" class="anchor-heading" href="#in-q4"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>In Q4</h3>
+<ul>
+<li><a href="https://github.com/dendronhq/dendron/issues/159">Advanced Queries</a></li>
+<li><a href="https://github.com/dendronhq/dendron/issues/759">Database storage layer</a></li>
+<li><a href="https://github.com/dendronhq/dendron/issues/663">Better autocomplete</a></li>
+<li><a href="https://github.com/dendronhq/dendron/issues/732">Synchronization Pods</a></li>
+<li><a href="https://github.com/dendronhq/dendron/issues/701">Better Pods</a></li>
+</ul>
+<p>We'll be sure to add more issues here, but go over to the <a href="https://github.com/orgs/dendronhq/projects/1">Github project</a> if you want the latest info.</p>
+<h2 id="feedback"><a aria-hidden="true" class="anchor-heading" href="#feedback"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Feedback</h2>
+<p>If you have questions or comments, share them either as <a href="https://github.com/dendronhq/dendron/issues/new/choose">Github issues</a> or in the <code>#feedback</code> channel <a href="https://discord.gg/xrKTUStHNZ">in Discord</a>.</p>
+<p>In addition to the content of the roadmap being updated regularly, we will also iterate on the format of the roadmap itself. We see the potential of reactions, issue comments, and even GitHub Discussions being useful for receiving direct signals back from the community about what we’ve planned. If you have feedback about the roadmap repository itself, such as how the issues are presented, let us know on Discord as well.</p>
+<h2 id="how-can-you-help"><a aria-hidden="true" class="anchor-heading" href="#how-can-you-help"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>How can you help?</h2>
+<p>We're really lucky to have a strong community committed to building open-source knowledge management tools. There are a few ways to get involved:</p>
+<ol>
+<li><strong>Bug Bash:</strong> We're always working on performance and stability improvements, please <a href="https://github.com/dendronhq/dendron/issues/new?assignees=&#x26;labels=&#x26;template=bug_report.md&#x26;title=">file actionable bugs</a> with good details. It'll help us prioritize them and fix them!</li>
+<li><strong>Document and Publish:</strong> We're on a journey to improve documentation in all forms. If you're interested in contributing, please help build out a strong list of preset vaults - <a href="https://pkm.dendron.so/">PKM</a>, <a href="https://tldr.dendron.so/">TLDR</a>, <a href="https://aws.dendron.so/">AWS</a> or <a href="https://wiki.dendron.so/">this wiki</a>.</li>
+<li><strong>Develop:</strong> A super impactful way to get involved is by working on and delivering one of the community-picked features. We have <a href="https://github.com/orgs/dendronhq/projects/1#column-13569288">a separate section</a> in the roadmap just for issues that have been highly requested by the community (and feasible to tackle in isolation).</li>
+</ol>
+<p>Make sure to check out the <a href="https://wiki.dendron.so/notes/7c00d606-7b75-4d28-b563-d75f33f8e0d7.html">roles</a> to get more ideas for ways to help.</p>
+<hr>
+<h2 id="children"><a aria-hidden="true" class="anchor-heading" href="#children"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Children</h2>
+<ol>
+<li><a href="https://wiki.dendron.so/notes/8cf880da-6402-47fb-8e9a-9d5fa38e31d0.html">Project</a></li>
+</ol>
+<hr>
+<h2 id="backlinks"><a aria-hidden="true" class="anchor-heading" href="#backlinks"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Backlinks</h2>
+<ul>
+<li><a href="https://wiki.dendron.so/notes/00e6f3d8-4243-42c7-8e4f-a074a1bd0ffb.html">Release Notes (version 0.44)</a></li>
+<li><a href="https://wiki.dendron.so/notes/4039fc46-06b2-4f83-b817-fc490bafbcb3.html">14 - The Seed Bank</a></li>
+<li><a href="https://wiki.dendron.so/notes/06751374-7982-4df2-b30b-92b10aba733a.html">Process</a></li>
+<li><a href="https://wiki.dendron.so/notes/ed4162aa-5474-4483-9fbc-c0b505310c59.html">0.1.X</a></li>
+</ul><span id="navId" data="6e4c4f61-80a3-46fa-9ad3-04b99d9e9695"></span>
+
+                
+      </section>
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+        <div class="thumbs feedback_trigger right-bottom"></div>
+
+        
+          <hr>
+          <footer>
+            
+            
+
+            
+              <div class="d-flex mt-2">
+              <p class="text-small text-grey-dk-000 mb-0 mr-2">
+                Page last modified: <span class="d-inline-block">5/29/2021</span>.
+              </p>
+            
+                
+                  <p class="text-small text-grey-dk-000 mb-0">
+                    <a href="https://github.com/dendronhq/dendron-site/edit/master/vault/dendron.roadmap.md" id="edit-this-page">Edit this page on GitHub</a>
+                  </p>
+                
+              </div>
+          </footer>
+        
+    </div>
+</div>
+
+
+  
+
+  <div class="search-overlay"></div>
+
+</div>
+
+</body>
+</html>
