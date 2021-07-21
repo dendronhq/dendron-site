@@ -31,6 +31,8 @@ schemas:
 - id: dev
   desc: |
     Development related 
+  children:
+    - cook
 - id: concepts
   desc: basic concepts to do with the project
 - id: tips
@@ -38,3 +40,5 @@ schemas:
 - id: topic
   desc: important areas of a project
   namespace: true
+- id: cook
+  
