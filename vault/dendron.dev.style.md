@@ -2,7 +2,7 @@
 id: 773e0b5a-510f-4c21-acf4-2d1ab3ed741e
 title: Style
 desc: ''
-updated: 1623431388389
+updated: 1626832326273
 created: 1609550314371
 ---
 
@@ -108,4 +108,24 @@ This is more concise and avoids some [unexpected behaviors](https://thecodebarba
 // good
 [1,2,3].forEach(elem => console.log(elem))
 
+```
+
+## Regular Expressions
+
+### Prefer negated sets
+
+`\w` matches ASCII alphanumeric characters only, this means any unicode characters will not match.
+
+```js
+> "oo".match(/[\w]+/)
+[ 'oo', index: 0, input: 'oo', groups: undefined ]
+> "öö".match(/[\w]+/)
+null
+```
+
+As a result, describing the set of characters that should match is practically impossible if you want unicode characters to match as well. Instead, use a negated set to describe which should not match.
+
+```js
+> "öö".match(/[^\s]+/)
+[ 'öö', index: 0, input: 'öö', groups: undefined ]
 ```
