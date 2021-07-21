@@ -3,7 +3,7 @@ id: 6293d9dc-9bd3-4b01-8428-34d8256f0a32
 title: Dev
 desc: |
   Development related
-updated: 1626746114611
+updated: 1626838811252
 created: 1621630111186
 ---
 
@@ -11,7 +11,8 @@ created: 1621630111186
 
 ### Pre-req
 - [[dendron.dev.setup]]
-- [[Symlink|pkg.dendron-cli.dev#symlink]] `dendron-cli`
+- [[Symlink the CLI|pkg.dendron-cli.dev#symlink]] `dendron-cli`
+- [[React Tutorial|eng.ref.react#getting-started]] (optional - do this if you're new to react/redux/nextjs or need a refresher)
 
 ### Steps
 
