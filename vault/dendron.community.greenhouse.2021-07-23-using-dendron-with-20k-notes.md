@@ -2,7 +2,7 @@
 id: fzHazEFWTpUVexmv
 title: A Day in Dendron
 desc: ''
-updated: 1626897477442
+updated: 1626900155074
 created: 1626888422819
 excerpt: "Tips, tricks and workflows to optimize Dendron for daily life"
 ---
@@ -12,7 +12,7 @@ In this talk, Kevin, Dendron founder, will go over how he uses Dendron to manage
 
 - Date: 2021.07.23
 - Time: 7:30AM PST
-- Location: [Zoom](https://zoom.us/j/92645248829?pwd=aVRoQ01PNXdtRDR2QjZ3a0JJeWJoQT09)
+- Location: [Zoom](https://us02web.zoom.us/j/89174320990?pwd=aTRrNzRvK3NhK2VOQThRZC9aaXVEdz09)
 
 ## Agenda
 - daily knowledge accretion using journal notes, scratch notes, and hierarchies
