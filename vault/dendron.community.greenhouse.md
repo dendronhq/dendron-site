@@ -6,7 +6,7 @@ updated: 1626897546483
 created: 1626809567579
 ---
 
-The Greenhouse is Dendron's monthly learning series where new ideas are incubated with the world. Subscribe to the [Dendron Community Calendar](https://calendar.google.com/calendar/u/0/r/settings/calendar/MHM4NGhrbWdrYjRwNjk5YWhnaWNxMGoxNm9AZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ?cid=MHM4NGhrbWdrYjRwNjk5YWhnaWNxMGoxNm9AZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ) to get updates on future talks. 
+The Greenhouse is Dendron's monthly learning series where new ideas are incubated with the world. 
 
 The **Greenhouse Talks** is a learning series organized by Dendron. These are 30 minute talks that cover topics of interest to the Dendron community.  While the focus is on note taking and personal knowledge management, topics are not limited to these areas and can span anything the speaker has in-depth knowledge of. 
 
