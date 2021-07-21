@@ -1,16 +1,18 @@
 ---
 id: PqtlCsRPWBjKp3RR
-title: The Greenhouse
+title: Greenhouse Talks
 desc: ''
-updated: 1626888340818
+updated: 1626890989366
 created: 1626809567579
 ---
 
 ## Summary
 
-The Greenhouse is Dendron's monthly learning series where new ideas are incubated with the world. 
+The Greenhouse Talks are Dendron's monthly learning series where new ideas are incubated with the world. 
 
 ## Upcoming talk
+
+![[dendron.community.greenhouse.2021-07-23-using-dendron-with-20k-notes]]
 
 ## Past Talks
 

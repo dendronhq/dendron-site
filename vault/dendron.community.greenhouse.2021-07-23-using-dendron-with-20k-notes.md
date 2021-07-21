@@ -1,10 +1,10 @@
 ---
 id: fzHazEFWTpUVexmv
-title: Using Dendron with 20k Notes
+title: Effectively Using Dendron at Scale
 desc: ''
 updated: 1626888472602
 created: 1626888422819
-excerpt: "Effectively using Dendron at scale"
+excerpt: "Tips, tricks and workflows for going past 10k notes"
 ---
 
 
