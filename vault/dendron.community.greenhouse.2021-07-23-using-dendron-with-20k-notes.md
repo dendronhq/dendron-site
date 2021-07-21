@@ -2,7 +2,7 @@
 id: fzHazEFWTpUVexmv
 title: Effectively Using Dendron at Scale
 desc: ''
-updated: 1626888472602
+updated: 1626891221319
 created: 1626888422819
 excerpt: "Tips, tricks and workflows for going past 10k notes"
 ---
@@ -10,9 +10,11 @@ excerpt: "Tips, tricks and workflows for going past 10k notes"
 
 ## Summary
 
-In this talk, Kevin, Dendron founder , will go over how he uses Dendron to manage his personal knowledge base of notes. 
+In this talk, Kevin, Dendron founder, will go over how he uses Dendron to manage his personal knowledge base of notes. 
 
-Date: 2021.07.23
+- Date: 2021.07.23
+- Time: 7:30AM PST
+- Location: [Zoom](https://zoom.us/j/92645248829?pwd=aVRoQ01PNXdtRDR2QjZ3a0JJeWJoQT09)
 
 ## Agenda
 - daily knowledge accretion using journal notes, scratch notes, and hierarchies
