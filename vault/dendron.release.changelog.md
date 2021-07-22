@@ -2,7 +2,7 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1626987775024
+updated: 1626993839445
 created: 1601508213606
 date: '2022-01-01'
 ---
@@ -20,10 +20,11 @@ We have offloaded the local server to a separate process so that all engine oper
 What this means in practice is that you can use VSCode immediately when the workspace is open. It also means you'll notice better responsiveness across all engine related features (eg. refactoring, preview, etc)
 
 ### Enhancements
-- find missing links in entire workspace  [[user.hikchoi]] #todo
+- find missing links in entire workspace  ([[docs|dendron.topic.commands#createmissinglinkednotes]])
 - hide the filter view in the note graph 
-- warn against missing frontmatter [[user.kaan]]
-- hashtag autocomplete improvements [[user.kaan]]
+- warn against missing frontmatter ([[docs|dendron.topic.commands#fixfrontmatter]])
+- hashtag autocomplete improvements ([[docs|dendron.topic.tags#autocomplete-intellisense]])
+- doctor command to automatically fix the frontmatter ([[docs|dendron.topic.commands#fixfrontmatter]])
 
 ### Bug Fixes
 - hashtag links duplicate following text
