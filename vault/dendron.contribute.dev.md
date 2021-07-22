@@ -2,7 +2,7 @@
 id: 81da87be-2d4e-47b5-a1d6-c0d647e1ab00
 title: Development
 desc: ''
-updated: 1623814826573
+updated: 1626986736065
 created: 1604236041570
 ---
 ## Summary
@@ -11,11 +11,7 @@ If you would like to contribute to the development of dendron, checkout out the 
 
 You can then follow the [[setup instructions|dendron.dev.setup#getting-started]].
 
-- NOTE: the above setup instructions are for the dendron plugin. See the below links if you are working on a different part of Dendron: 
-  - [[Markdown Preview|pkg.dendron-preview.setup]]
-  - [[Markdown Links|pkg.markdown-links.setup]]
-
-A great place to start is with issues labelled with the [size.small label](https://github.com/dendronhq/dendron/labels/size.small) on github. These are small, self contained tasks that are well suited for first time contributors.
+A great place to start is with issues labelled with the [size.small](https://github.com/dendronhq/dendron/labels/size.small) label on github. These are small, self contained tasks that are well suited for first time contributors.
 
 Leave a comment in the issue if you decide to work on it. Issues that are being worked on will be assigned to a person already. 
 
