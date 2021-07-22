@@ -2,7 +2,7 @@
 id: eea2b078-1acc-4071-a14e-18299fc28f47
 title: Commands
 desc: ''
-updated: 1626903419310
+updated: 1626987589800
 created: 1595261816971
 ---
 ## Lookup
@@ -519,9 +519,10 @@ You can pick among various actions for the doctor to perform.
 
 #### Actions
 
-- `fixFrontmatter`
-  - Add ids and titles to the frontmatter of all notes that are missing it
-  - Setup a `docs` folder if it doesn't exist. Required if you want to [[publish|dendron.topic.publishing]] your notes
+##### fixFrontmatter
+
+- Fixes notes that are missing the frontmatter, or that have broken frontmatter.
+- Setup a `docs` folder if it doesn't exist. Required if you want to [[publish|dendron.topic.publishing]] your notes
 
 <a href="https://www.loom.com/share/bd045f708f8e474193de8e3de0dc820f"> <img style="" src="https://cdn.loom.com/sessions/thumbnails/bd045f708f8e474193de8e3de0dc820f-with-play.gif"> </a>
 

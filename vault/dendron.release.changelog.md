@@ -2,7 +2,7 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1626986192738
+updated: 1626987775024
 created: 1601508213606
 date: '2022-01-01'
 ---
@@ -22,8 +22,8 @@ What this means in practice is that you can use VSCode immediately when the work
 ### Enhancements
 - find missing links in entire workspace  [[user.hikchoi]] #todo
 - hide the filter view in the note graph 
-- warn against missing frontmatter [[user.kaan]] #todo
-- hashtag autocomplete improvements [[user.kaan]] #todo
+- warn against missing frontmatter [[user.kaan]]
+- hashtag autocomplete improvements [[user.kaan]]
 
 ### Bug Fixes
 - hashtag links duplicate following text
