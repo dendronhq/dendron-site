@@ -2,7 +2,7 @@
 id: 683740e3-70ce-4a47-a1f4-1f140e80b558
 title: FAQ
 desc: ''
-updated: 1626531182511
+updated: 1626981954633
 created: 1595952505025
 stub: false
 nav_order: 6
@@ -125,6 +125,12 @@ There are 3 ways to go back to my previous note:
 The root note is a special note that comes with every dendron vault. You can't rename it and we don't advise that you create a hierarchy from it. You can add custom frontmatter variables and change all existing variables except the `id` field. 
 
 You are also free to use the body however you wish. 
+
+### Can I manually move notes?
+
+Yes. You can move notes manually outside of Dendron or between different vaults. Some things to keep in mind:
+- you should keep the `id` of the note since features like publishing depend on it to find the right link
+- if your notes have [[Cross Vault Links|dendron.topic.links#cross-vault-links]] (only applicable for [[Multi Vault|dendron.topic.vaults.multi-vault]]), those links might bring if they are moved to a different workspace that doesn't have reference to the original vault
 
 ## Working with Hierarchies
 
