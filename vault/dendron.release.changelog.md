@@ -2,12 +2,34 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1626830689527
+updated: 1626914470954
 created: 1601508213606
 date: '2022-01-01'
 ---
 
 ## 0.52
+
+### Features
+
+#### Non-Blocking Workspace initialization
+
+When you open a Dendron workspace, you might have noticed that you needed to wait for the workspace to initialize before VSCode itself became usable. This is because even though Dendron uses a local server to index your files, this server ran on the same process as VSCode. 
+
+We have offloaded the local server to a separate process so that all engine operations (eg. indexing) no longer affect the main VSCode process. 
+
+What this means in practice is that you can use VSCode immediately when the workspace is open. It also means you'll notice better responsiveness across all engine related features (eg. refactoring, preview, etc)
+
+### Enhancements
+- find missing links in entire workspace  [[user.hikchoi]] #todo
+- hide the filter view in the note graph 
+- warn against missing frontmatter [[user.kaan]] #todo
+- hashtag autocomplete improvements [[user.kaan]] #todo
+
+### Bug Fixes
+- hashtag links duplicate following text
+- issues with parsing wikilinks with unicode and special symbols
+
+### House Cleaning
 
 ## 0.52.1
 
