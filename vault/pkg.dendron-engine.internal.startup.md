@@ -2,12 +2,12 @@
 id: af17fd9e-d7d7-4e6c-a2c2-a3bd9ee3be18
 title: Startup
 desc: ''
-updated: 1624238960004
+updated: 1626916008876
 created: 1619225744179
 ---
 
 
-## Store
+## Engine Initialize - Store Logic
 - packages/engine-server/src/drivers/file/storev2.ts
 
 ```ts

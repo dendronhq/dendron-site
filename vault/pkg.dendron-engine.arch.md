@@ -1,6 +1,6 @@
 ---
 id: ebf58a4a-18f8-498d-95eb-04d856c0a000
-title: Arch
+title: Dendron Engine Architecture
 desc: ''
 updated: 1624400446517
 created: 1619535999168

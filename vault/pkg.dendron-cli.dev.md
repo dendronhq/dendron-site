@@ -10,7 +10,6 @@ created: 1609350672493
 ## Pre-req
 - [[dendron.dev.setup]] 
 
-
 ## Cook
 ### Symlink
 Symlinking `dendron-cli` lets you use the current version of dendron from anywhere inside the CLI
