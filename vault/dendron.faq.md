@@ -2,7 +2,7 @@
 id: 683740e3-70ce-4a47-a1f4-1f140e80b558
 title: FAQ
 desc: ''
-updated: 1626981954633
+updated: 1627026001869
 created: 1595952505025
 stub: false
 nav_order: 6
@@ -300,3 +300,19 @@ Dendron 11ty used to be published outside of the monorepo and started with 1.x v
 After we synced, we synced 11ty versioning and brought it down to 0.x. every minor release, we also publish the 1.x version of the 11ty package to make it consistent but during patch releases, we just keep the 0.x numbering. 
 
 Its a bit of a hack and something that should go away in July 2021, when we switch to NextJs based publishing. 
+
+### VSCode is telling me I have to authorize Dendron to run some code
+
+VSCode recently introduced a feature called [**_workspace trust_**](https://code.visualstudio.com/docs/editor/workspace-trust), which lets you choose whether or not you trust a project folder in VSCode for automatic code execution.
+
+Since Dendron creates a workspace for your notes, VSCode is asking you if you trust the workspace Dendron just created for you.
+
+You can choose not to trust the workspace and be in **_restricted mode_**.
+
+You can still use all of Dendron's feature in restricted mode except [[hooks|dendron.topic.hooks]].
+
+### My firewall is asking if I wanted to open new ports when I use Dendron. Why is this?
+
+Dendron has a client-server architecture.
+
+The extension talks to a (local) express server for a lot of the features and this is why it's opening new ports.
