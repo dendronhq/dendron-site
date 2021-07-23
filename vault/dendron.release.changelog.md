@@ -2,13 +2,29 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1626993839445
+updated: 1627057892332
 created: 1601508213606
 date: '2022-01-01'
 ---
 
+
 ## 0.52
 
+## 0.51.3
+
+### Features
+
+#### Google Doc Import Pod
+![[dendron.topic.pod.builtin.google-docs.import#summary,1:#*]]
+
+### Enhancements
+- selection modiifier to NoteLookup Command
+- delay frontmatter warning while user is typing
+
+### Bug Fixes
+- autocomplete takes a long time 
+
+## 0.51.2
 ### Features
 
 #### Non-Blocking Workspace initialization
@@ -32,7 +48,7 @@ What this means in practice is that you can use VSCode immediately when the work
 
 ### House Cleaning
 
-## 0.52.1
+## 0.51.1
 
 ### Enhancements
 - reduce size of dendron-cli

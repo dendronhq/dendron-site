@@ -2,7 +2,7 @@
 id: fzHazEFWTpUVexmv
 title: A Day in Dendron
 desc: ''
-updated: 1626900155074
+updated: 1627056496260
 created: 1626888422819
 excerpt: "Tips, tricks and workflows to optimize Dendron for daily life"
 ---
@@ -22,3 +22,6 @@ In this talk, Kevin, Dendron founder, will go over how he uses Dendron to manage
 - process for switching between windows, tabs, and workspaces
 - multi-desktop multi-vault setup
 
+
+## Resources
+- [Kevin's VSCode Keybindings](https://gist.github.com/kevinslin/8f17cbc9ba03c9137c41351e2cec6a7a)
