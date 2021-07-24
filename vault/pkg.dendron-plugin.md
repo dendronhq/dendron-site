@@ -2,9 +2,14 @@
 id: 87d90002-f480-45eb-a8c4-d00df4d61557
 title: Dendron Plugin
 desc: ''
-updated: 1621721504399
+updated: 1627139967177
 created: 1605375348464
 ---
+
+
+## Summary
+This is the dendron extension that is installed in VSCode
+
 ## Utilities
 
 - VSCode specific utilities
