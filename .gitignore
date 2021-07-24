@@ -30,3 +30,5 @@ vault/.dendron.cache.json
 .DS_Store
 
 vault/.vscode/settings.json
+assets
+scripts/sync_assets.sh
