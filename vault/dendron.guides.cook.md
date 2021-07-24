@@ -2,7 +2,7 @@
 id: 401c5889-20ae-4b3a-8468-269def4b4865
 title: Cookbook
 desc: ""
-updated: 1626654031233
+updated: 1627169160429
 created: 1595952505024
 nav_order: 8.9
 toc: true
@@ -234,13 +234,11 @@ Make sure the path to the dendron workspace matches your setup. Then, run `updat
 
 ### Enable Table of Contents
 
-When viewing your notes locally, you can view the toc either from the outline view or by toggling the preview
+When viewing your notes locally, you can view the toc from the outline view.
 
 -   from the outline
     ![[dendron.topic.workbench#outline-view,1:#*]]
 
--   from the preview
-    ![[dendron.topic.preview#table-of-contents,1]]
 
 ## Publishing
 

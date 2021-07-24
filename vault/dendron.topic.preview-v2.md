@@ -2,14 +2,15 @@
 id: Lnp1URddmWEWweyf
 title: Preview V2
 desc: ''
-updated: 1626382408609
+updated: 1627169117776
 created: 1626382220182
 ---
 
 ## Summary
-- [[Experimental 🧪|dendron.ref.status#experimental-🧪]]
 
-The Dendron Preview gives you a rich HTML preview for your notes. Currently it is missing the following features compared to the current [[preview|dendron.topic.preview]]:
+The Dendron Preview gives you a rich HTML preview for your notes. 
+
+- NOTE: Preview V2 is missing the following features compared to the current [[preview|dendron.topic.preview]]:
 - scroll sync
 - export to PDF
 
