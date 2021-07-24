@@ -7,7 +7,6 @@ created: 1622130692877
 ---
 
 
-
 ## Debug
 
 Toggle the developer tools in the launched debugger window to see the console messages
