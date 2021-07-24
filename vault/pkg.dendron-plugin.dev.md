@@ -2,7 +2,7 @@
 id: 04dd9ad8-3d81-4098-a661-21b6acc6f443
 title: Dev
 desc: ''
-updated: 1626877321097
+updated: 1627147083684
 created: 1621721485330
 ---
 
@@ -40,6 +40,22 @@ Conventions:
 4. anki pod: take notes and transform them to anki format
 
 ## Config
+
+### Migrating an existing configuration
+
+Configuration migrations should be done in two phases
+
+#### Phase I - Set new value as default
+1. When migrating to a new configuration, always assume that the new configiuration could be `undefined` sinice migrations can fail 
+  - bug in our script, user cancels, etc
+2. Make sure that we can fall back to the old configuration if no new configuration is found
+  - in case the migration doesn't take
+3. When setting the next version, set it to the next **patch** version of whatever is currently released 
+  - otherwise, users getting the new patch won't get migrated
+4. Report a metric to see how many users are usiing the old version without the new version present (this number should go to zero)
+
+#### Phase 2 - Remove old vaule
+1. Once the metric in 4 has reached a sufficient threshold, remove the old version
 
 ### Adding a new config
 
