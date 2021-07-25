@@ -2,7 +2,7 @@
 id: OL44br0YkIKmhlWk
 title: Head of Content
 desc: ''
-updated: 1627225468026
+updated: 1627226522152
 created: 1627224182894
 nav_exclude: true
 ---
@@ -15,7 +15,7 @@ We're looking for someone with an affinity for both technology and Personal Know
 
 ## What you'll do
 - own all the content across all Dendron properties 
-- write up feature releases, product updates, company announcements, tutorials and case studies
+- write up [feature releases](https://blog.dendron.so/notes/qTeL51LFD0Y8uC9ect7QV.html), [product updates](https://buttondown.email/dendron/archive/whats-new-in-dendron/), [company announcements](https://blog.dendron.so/notes/N9VxT7G5SovmncezBAGO2.html), tutorials and case studies
 - revise and keep existing content up to date
 - post content and answer questions in related pkm communities and platforms
 
