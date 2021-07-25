@@ -2,7 +2,7 @@
 id: OL44br0YkIKmhlWk
 title: Head of Content
 desc: ''
-updated: 1627224695890
+updated: 1627225468026
 created: 1627224182894
 nav_exclude: true
 ---
@@ -16,10 +16,10 @@ We're looking for someone with an affinity for both technology and Personal Know
 ## What you'll do
 - own all the content across all Dendron properties 
 - write up feature releases, product updates, company announcements, tutorials and case studies
-- excellent writing and communication skills
+- revise and keep existing content up to date
+- post content and answer questions in related pkm communities and platforms
 
 ## Who you are
-- 3+ yrs consumer content writing experience (knowledge management and technical background a plus)
 - Excellent writing and communication skills
 
 ## What we offer
