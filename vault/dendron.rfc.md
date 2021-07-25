@@ -42,7 +42,7 @@ future state of the system and to discover projects for contribution.
 An RFC is a document that proposes and details a change or addition to Dendron
 and other related tooling. It is also a process for reviewing and discussing the
 proposal and tracking its implementation. "Request for Comments" means a request
-for discussion and oversight about the future of Dendro from contributors and
+for discussion and oversight about the future of Dendron from contributors and
 users. It is an open forum for suggestions, questions, and feedback.
 
 The process is intended to be as lightweight and reasonable as possible for the
@@ -83,7 +83,7 @@ first.
 Some changes do not require an RFC:
 
 -   Bugfixes for known issues.
--   Additions only likely to be _noticed by_ other developers of Dendro, invisible
+-   Additions only likely to be _noticed by_ other developers of Dendron, invisible
     to end product users.
 
 If you're not sure whether your change requires an RFC, feel free to create an
@@ -113,7 +113,7 @@ point the RFC is 'in review' and may be implemented.
    have broad support are much more likely to make progress than those that
    don't receive any comments.
 6. Eventually, the team will decide whether the RFC is a candidate for inclusion
-   in a future release of Dendron..
+   in a future release of Dendron.
 7. RFCs that are candidates for inclusion will enter a "**final comment
    period**" lasting 3 calendar days. The beginning of this period will be
    signaled by a team member adding a comment and label on the RFCs pull
