@@ -2,7 +2,7 @@
 id: WUy5xtqQt3MwxcPG
 title: Cerebrarium
 desc: ''
-updated: 1627318749859
+updated: 1627319537922
 created: 1627318749859
 ---
 
@@ -12,7 +12,7 @@ In this talk, Mark will walk you through his personal digital garden [Cerebrariu
 
 - Date: 2021.07.30
 - Time: 7:30AM PDT
-- Location: [Zoom](link here)
+- Location: [Zoom](https://us02web.zoom.us/j/89245933363?pwd=UVFhb1ZZZDd3OW1VOHNKODZSTmlwUT09)
 
 ## Agenda
 - How I found Dendron and why I stayed.

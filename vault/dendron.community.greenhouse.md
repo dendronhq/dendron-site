@@ -2,9 +2,11 @@
 id: PqtlCsRPWBjKp3RR
 title: Greenhouse Talks
 desc: ''
-updated: 1626897845641
+updated: 1627319662456
 created: 1626809567579
 ---
+
+## Summary
 
 The **Greenhouse Talks** is a learning series organized by Dendron. These are 30 minute talks that cover topics of interest to the Dendron community.  While the focus is on note taking and personal knowledge management, topics are not limited to these areas and can span anything the speaker has in-depth knowledge of. 
 
@@ -20,11 +22,16 @@ If you would like to propose a topic or speak about a topic, you can submit a pr
 
 ## Upcoming talk
 
-![[dendron.community.greenhouse.2021-07-23-using-dendron-with-20k-notes]]
+![[dendron.community.greenhouse.2021-07-30-cerebrarium-showcase]]
+
 
 ## Past Talks
 
 An archive of all previous talks can be found on [youtube](https://www.youtube.com/playlist?list=PLrXlRqY7c8J-lPtS82muQd4VD8pR7Vn4E).
+
+
+### A Day in Dendron
+![[dendron.community.greenhouse.2021-07-23-using-dendron-with-20k-notes]]
 
 ### Data Races
 - date: 2021.06.29

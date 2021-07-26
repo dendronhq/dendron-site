@@ -2,7 +2,7 @@
 id: oLUblPDevwOoYr06
 title: Release Notes (version 0.52)
 desc: ''
-updated: 1627287196295
+updated: 1627319755643
 created: 1627282161908
 ---
 
@@ -36,6 +36,17 @@ Our documentation changes a lot week by week. Below is a highlight of some updat
 
 #### Office Hours
 You can find notes from our latest office hours [[here|dendron.community.office-hours.2021.07.25]]
+
+#### Greenhouse Series
+
+![[dendron.community.greenhouse#summary,1:#*]]
+
+Video from our last talk, [[dendron.community.greenhouse.2021-07-23-using-dendron-with-20k-notes#summary]], is now available [here](https://www.youtube.com/watch?v=1mXGyG9ikD4)
+
+Details of the upcoming talk this Friday with our very own @hikchoi#8934 posted below
+
+![[dendron.community.greenhouse.2021-07-30-cerebrarium-showcase]]
+
 
 #### Thank You's
 
