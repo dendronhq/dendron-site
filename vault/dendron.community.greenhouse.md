@@ -27,7 +27,7 @@ If you would like to propose a topic or speak about a topic, you can submit a pr
 An archive of all previous talks can be found on [youtube](https://www.youtube.com/playlist?list=PLrXlRqY7c8J-lPtS82muQd4VD8pR7Vn4E).
 
 ### Data Races
-- date: 2021.07.29
+- date: 2021.06.29
 
 Kaan Genc, Dendron's summer intern, goes over the intricacies of data races, why they are bad, why they are so hard to debug and what you can do about them. 
 
