@@ -10,22 +10,13 @@ date: '2022-01-01'
 
 ## 0.52
 
-<!-- ## 0.51.4
+## 0.51.4
 
 ### Features
 - deprecate old graph
 
 ### Enhancements
 - control graph zoom sensiitivity
-
-### Bug Fixes
-
-### Pruning
-
-### House Cleaning
-
-### Docs -->
-
 
 ## 0.51.3
 
