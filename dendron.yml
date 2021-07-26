@@ -30,6 +30,7 @@ mermaid: true
 useTitleForLink: true
 dev:
     enableWebUI: true
+    enablePreviewV2: true
 initializeRemoteVaults: true
 journal:
     dailyDomain: daily
@@ -37,5 +38,9 @@ journal:
     dateFormat: y.MM.dd
     addBehavior: childOfDomain
     firstDayOfWeek: 1
-dendronVersion: 0.48.2
+dendronVersion: 0.52.0
 autoFoldFrontmatter: false
+scratch:
+    name: scratch
+    dateFormat: y.MM.dd.HHmmss
+    addBehavior: asOwnDomain
