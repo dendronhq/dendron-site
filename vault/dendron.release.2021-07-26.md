@@ -22,7 +22,7 @@ Dendron 0.52 has sprouted  🌱
   - Hashtag links duplicate following text
   - Issues with parsing wikilinks with unicode and special symbols
   - Autocomplete takes a long time
-- A lot of interal improvements
+- A lot of internal improvements
 
 ### Docs
 Our documentation changes a lot week by week. Below is a highlight of some updates from the past week.
