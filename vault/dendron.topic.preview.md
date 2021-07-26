@@ -2,11 +2,13 @@
 id: 8de4209d-84d3-45f8-96a4-34282e34507d
 title: Preview
 desc: ''
-updated: 1627169269377
+updated: 1627320748582
 created: 1603383580067
 ---
 
 ## Summary
+
+- NOTE: this preview is now DEPRECATED. We recommend that all users use [[Preview V2|dendron.topic.preview-v2]] instead.
 
 The preview pane renders the Dendron's markdown text into nicely formatted HTML. The preview is a fork of the [markdown-preview-enhanced extension](https://github.com/shd101wyy/vscode-markdown-preview-enhanced). 
 

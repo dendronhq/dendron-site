@@ -2,7 +2,7 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1627228432455
+updated: 1627320660016
 created: 1601508213606
 date: '2022-01-01'
 ---
@@ -13,7 +13,12 @@ date: '2022-01-01'
 ## 0.51.4
 
 ### Features
-- deprecate old graph
+
+#### Deprecate Markdown Preview Enhanced
+
+Dendron Markdown Preview Enhanced is no longer required to use Dendron. 
+
+By default, all new users will get [[Preview V2|dendron.topic.preview-v2]] as the default. Existing users that have not turned on V2 will see no change but can and are encourage to switch to preview v2 by following the instructions [[here|dendron.topic.preview-v2#uninstall-dendron-markdown-preview-enhanced]]. Dendron Markdown Preview Enhanced should now be considered deprecated and subject to removal later this year. 
 
 ### Enhancements
 - control graph zoom sensiitivity

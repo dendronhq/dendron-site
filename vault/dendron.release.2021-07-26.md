@@ -2,7 +2,7 @@
 id: oLUblPDevwOoYr06
 title: Release Notes (version 0.52)
 desc: ''
-updated: 1627319755643
+updated: 1627320695063
 created: 1627282161908
 ---
 
@@ -10,6 +10,7 @@ Dendron 0.52 has sprouted  🌱
 
 ### Highlights
 - Non-blocking workspace initialization ([[docs|dendron.release.changelog#non-blocking-workspace-initialization]])
+- Dendron Markdown Preview Enhanced no longer required ([[docs|dendron.release.changelog#deprecate-markdown-preview-enhanced]])
 - Find missing links in entire workspace  ([[docs|dendron.topic.commands#createmissinglinkednotes]])
 - Hide the filter view in the note graph 
 - Warn against missing frontmatter ([[docs|dendron.topic.commands#fixfrontmatter]])
