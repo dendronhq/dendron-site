@@ -2,7 +2,7 @@
 id: adc39825-77a6-46cf-9c49-2642fcb4248e
 title: Pull Request
 desc: ''
-updated: 1626886391139
+updated: 1627508607636
 created: 1623430616135
 ---
 
@@ -46,6 +46,7 @@ refactor!: drop support for Node 6
 - [ ] do a spot check by running your feature with our [[test Workspace|dendron.dev.qa#test-workspace]]
 - [ ] if your change reflects documentation changes, also submit a PR to [dendron-site](https://github.com/dendronhq/dendron-site) and mention the doc PR link in your current PR
 - [ ] after you submit your pull request, check the output of our [integration test](https://github.com/dendronhq/dendron/actions) and make sure all tests pass
+  - NOTE: if you running mac/linux, check the windows output and vice versa if you are developing on windows
 - [ ] (optional) ping `@Dendron Team` in the `#dev` channel of our [discord](https://discord.gg/AE3NRw9) - we usually respond to PRs within 24h
 
 ### QA Checklist

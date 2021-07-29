@@ -2,10 +2,11 @@
 id: ba97866b-889f-4ac6-86e7-bb2d97f6e376
 title: Markdown
 desc: ''
-updated: 1619550928028
+updated: 1627571705988
 created: 1598673110284
 ---
 - Notice: all references of `MPE` in this guide is in reference to `Dendron Markdown Preview Enhanced`, the default markdown renderer of Dendron
+
 
 ## Markdown Basics
 
@@ -275,6 +276,32 @@ graph TD;
 ```
 
 - NOTE: in order to publish diagrams, you'll need to enable [[mermaid in the config|dendron.topic.config.dendron#mermaid-optional]]
+
+### Folding
+You can create special folded sections with the below syntax.
+
+```
+<details>
+  <summary>Click to expand!</summary>
+  
+  ## Heading
+  1. A numbered
+  2. list
+     * With some
+     * Sub bullets
+</details>
+```
+This is how it looks
+
+<details>
+  <summary>Click to expand!</summary>
+  
+  ## Heading
+  1. A numbered
+  2. list
+     * With some
+     * Sub bullets
+</details>
 
 ## VSCode Specific Commands
 
