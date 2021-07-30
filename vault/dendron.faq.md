@@ -2,7 +2,7 @@
 id: 683740e3-70ce-4a47-a1f4-1f140e80b558
 title: FAQ
 desc: ''
-updated: 1627660930340
+updated: 1627661242045
 created: 1595952505025
 stub: false
 nav_order: 6
@@ -195,11 +195,15 @@ Schemas at the end of the day help you construct consistent hierarchies for your
 
 But even if you don't have a lot of notes, schemas are helpful because they provide extra features [like templating](https://dendron.so/notes/c5e5adde-5459-409b-b34d-a0d75cbb1052.html#schema-templates) and [auto complete](https://dendron.so/notes/c5e5adde-5459-409b-b34d-a0d75cbb1052.html#why-use-schemas).
 
-<!--
-This allows you to quickly reference anything within your hierarchy because they all have the same shape. It also helps with understanding a topic - I (Kevin, Dendron author) find my schema for a domain tends to reflect my mental model for said domain as well.
+### How do schemas work with multi-vault?
 
-For example, I'm using nodejs and need to access a file. I have no idea what the builtin/recommended library for file access is. Instead of having to dig up [fs-extra](https://www.npmjs.com/package/fs-extra), I can navigate to `l.node.file` and see my notes on the best way to work with files. You can replace node with any other programming language. Now I have a general way of referencing file access for all languages without needing to remember the specific implementation detail of any of them.
--->
+The short answer currently is *not very well* 😅
+- if two schemas overlap between different vaults, the last schema wins
+- schema imports don't currently work x-vault
+
+What this will be in the future:
+- schemas should only work on the vault that they are declared in, and you can have an option to specify (in `dendron.yml` if you want a schema to be global)
+- schema imports should work xvault (import syntax will be `{vaultName}.{schemaName}`)
 
 ## Working with Vaults
 

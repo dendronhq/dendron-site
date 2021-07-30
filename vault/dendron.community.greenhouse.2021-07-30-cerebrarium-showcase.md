@@ -2,7 +2,7 @@
 id: WUy5xtqQt3MwxcPG
 title: Cerebrarium
 desc: ''
-updated: 1627319537922
+updated: 1627661957139
 created: 1627318749859
 ---
 
@@ -21,3 +21,12 @@ In this talk, Mark will walk you through his personal digital garden [Cerebrariu
 - Separation of concerns: I still love pen and paper.
 - Concepts from popular systems I borrow and implement in my garden to make it work.
 - Moving forward: Ideas for next session.
+
+## Output
+- [Recording](https://www.youtube.com/watch?v=eOmUqvbUleo)
+- [[Transcript|dendron.community.greenhouse.2021-07-30-cerebrarium-showcase.transcript]]
+
+## Links to things talked about
+- [Cerebrarium - cerebrarium](https://cerebrarium.garden/): Mark's digital garden
+- [The Open PKM Catalogue - PKM](https://pkm.dendron.so/): lists out most of the concepts we talked about
+- [Mark's Rules to classify external information](https://cerebrarium.garden/notes/Y_H6rBwXIinOO1QtrsNLV.html)
