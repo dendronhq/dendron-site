@@ -2,7 +2,7 @@
 id: a80f36d9-01d0-4c5a-a228-867b093a4913
 title: Cookbook
 desc: ''
-updated: 1623950644059
+updated: 1627619656868
 created: 1599151918645
 stub: false
 ---
@@ -269,3 +269,18 @@ You can see an explanation of how it works [here](https://git-scm.com/docs/git-b
 ### Adding a new configuration property
 
 ![[dendron://dendron-site/pkg.dendron-plugin.dev#adding-a-new-config,1:#*]]
+
+### Synchronously loop through async results
+
+- see https://github.com/dendronhq/dendron/blob/integ-publish/packages/plugin-core/src/commands/VaultAddCommand.ts#L171:L179
+```ts
+  await _.reduce(
+    vaults,
+    async (resp: any, vault: DVault) => {
+      await resp;
+      await wsService.createVault({ vault });
+      return this.addVaultToWorkspace(vault);
+    },
+    Promise.resolve()
+  );
+```

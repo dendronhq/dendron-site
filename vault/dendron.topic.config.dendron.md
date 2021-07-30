@@ -2,7 +2,7 @@
 id: f83c1d87-eac0-48f3-a5cf-8a69989d8ec1
 title: Dendrons Config
 desc: ''
-updated: 1627619142128
+updated: 1627619811129
 created: 1619539817122
 ---
 
@@ -166,7 +166,7 @@ strategy for adding new journal notes
 
 ## Graph
 
-![[dendron.topic.graph-view#configuration,1:#*]]
+![[dendron.topic.graph-view#config,1:#*]]
 
 ## Dev
 Development configuration covers option to enable [[experimental 🧪|dendron.ref.status#experimental-🧪]] features and when working on Dendron. 
