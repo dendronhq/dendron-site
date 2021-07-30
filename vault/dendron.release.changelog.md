@@ -2,14 +2,14 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1627678831624
+updated: 1627679133727
 created: 1601508213606
 date: '2022-01-01'
 ---
 
-## 0.52
+## 0.53
 
-### Features
+## 0.52.2
 
 ### Enhancements
 - Lots of graph improvements
@@ -25,6 +25,13 @@ date: '2022-01-01'
 
 ### House Cleaning
 - windows integration tests are now active 
+
+## 0.52.1
+
+### Bug Fixes
+- Issue with publishing from plugin 
+
+## 0.52
 
 ## 0.51.4
 
