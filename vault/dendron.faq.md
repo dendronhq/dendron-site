@@ -253,7 +253,7 @@ TLDR: vscode doesn't expose tab completion via API. There are two alternatives w
 -   replace the lookup component with a webview
 
 ## Publishing
-![[dendron://dendron-site/dendron.topic.publishing.faq]]
+![[dendron://dendron.dendron-site/dendron.topic.publishing.faq]]
 
 ## Other
 

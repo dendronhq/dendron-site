@@ -22,7 +22,7 @@ site:
 vaults:
     -
         fsPath: vault
-        name: dendron-site
+        name: dendron.dendron-site
 usePrettyRefs: true
 version: 1
 useFMTitle: true

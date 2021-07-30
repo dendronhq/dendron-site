@@ -38,4 +38,4 @@ You can see an overview of all roles [[here|dendron.community.roles]]
     - [Can not search Chinese in web site](https://github.com/dendronhq/dendron/issues/499)
 
 
-![[dendron://dendron-site/dendron.release.changelog#0302:#0292]]
+![[dendron://dendron.dendron-site/dendron.release.changelog#0302:#0292]]

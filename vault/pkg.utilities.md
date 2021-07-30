@@ -39,15 +39,15 @@ In order of precedence:
 
 ### Engine
 
-![[dendron://dendron-site/pkg.dendron-engine#utilities,1:#*]]
+![[dendron://dendron.dendron-site/pkg.dendron-engine#utilities,1:#*]]
 
 ### Plugin
 
-![[dendron://dendron-site/pkg.dendron-plugin#utilities,1:#*]]
+![[dendron://dendron.dendron-site/pkg.dendron-plugin#utilities,1:#*]]
 
 ### Engine Test Utils
 
-![[dendron://dendron-site/pkg.engine-test-utils#utilities,1]]
+![[dendron://dendron.dendron-site/pkg.engine-test-utils#utilities,1]]
 
 ## Git Utils
 - NOTE: git support is a wrapper around the native `git` installation. we assume a minimal version of `2.20`. when adding new functionality, make sure that it is available in git 2.20

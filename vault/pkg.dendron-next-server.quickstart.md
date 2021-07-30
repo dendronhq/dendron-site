@@ -26,11 +26,11 @@ created: 1621201571965
 
 ## Development 
 
-![[dendron://dendron-site/pkg.dendron-next-server.dev#development,1:#*]]
+![[dendron://dendron.dendron-site/pkg.dendron-next-server.dev#development,1:#*]]
 
 ## Static Build
 
-![[dendron://dendron-site/pkg.dendron-next-server.dev#static-build,1:#*]]
+![[dendron://dendron.dendron-site/pkg.dendron-next-server.dev#static-build,1:#*]]
 
 ## Tools
 When working with the webapp, download the following extensions

@@ -13,7 +13,7 @@ The Seed Bank is an open database of [[workspaces|dendron.ref.workspace]] (seeds
 You can see all currently available seeds [here](https://github.com/dendronhq/dendron/blob/dev/packages/engine-server/src/seed/registry.ts#L8:L8)
 
 ## Quickstart
-![[dendron://dendron-site/dendron.topic.seed-bank.quickstart]]
+![[dendron://dendron.dendron-site/dendron.topic.seed-bank.quickstart]]
 
 <!-- If you have a vault that you think would make a good addition to the seed bank, you can submit a vault by following the instructions below:
 
@@ -25,16 +25,16 @@ You can see all currently available seeds [here](https://github.com/dendronhq/de
 ## CLI
 
 ### add
-![[dendron://dendron-site/dendron.rfc.14-seed-bank.methods#add,1:#*]]
+![[dendron://dendron.dendron-site/dendron.rfc.14-seed-bank.methods#add,1:#*]]
 
 ### info
-![[dendron://dendron-site/dendron.rfc.14-seed-bank.methods#info,1:#*]]
+![[dendron://dendron.dendron-site/dendron.rfc.14-seed-bank.methods#info,1:#*]]
 
 ### init
-![[dendron://dendron-site/dendron.rfc.14-seed-bank.methods#init,1:#publish]]
+![[dendron://dendron.dendron-site/dendron.rfc.14-seed-bank.methods#init,1:#publish]]
 
 ### remove
-![[dendron://dendron-site/dendron.rfc.14-seed-bank.methods#remove,1:#*]]
+![[dendron://dendron.dendron-site/dendron.rfc.14-seed-bank.methods#remove,1:#*]]
 
 ## Requesting new Seeds
 

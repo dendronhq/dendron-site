@@ -19,6 +19,6 @@ Templates in Dendron are a simple way to lower the effort of creating similar no
 
 You can also pick from a set of built-in templates that contain a set of commonly used note styles to help you get started. These templates can be pulled down with the seeds mechanism. The seed containing templates is called `dendron.templates`, substitute `dendron.dendron-site` for `dendron.templates` in the example below
 
-![[dendron://dendron-site/dendron.topic.seed-bank.quickstart#adding-a-seed-to-an-existing-workspace]]
+![[dendron://dendron.dendron-site/dendron.topic.seed-bank.quickstart#adding-a-seed-to-an-existing-workspace]]
 
 We are continually working to expand the types of templates available in the `dendron.template` seed.

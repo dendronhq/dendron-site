@@ -6,4 +6,4 @@ updated: 1621965500339
 created: 1618848464499
 ---
 
-![[dendron://dendron-site/pkg.dendron-11ty.internal#videos,1:#*]]
+![[dendron://dendron.dendron-site/pkg.dendron-11ty.internal#videos,1:#*]]

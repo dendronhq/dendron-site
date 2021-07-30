@@ -109,7 +109,7 @@ Each `Candidate` backlink will have a label that contains the text that comes be
 Clicking on a link candidate item will open the note that contains the candidate, and convert the link candidate into a wikilink, turning it into `Linked` backlink.)
 
 ## Dendron Calendar View
-![[dendron://dendron-site/dendron.ref.web-ui#calendar-view,1:#*]]
+![[dendron://dendron.dendron-site/dendron.ref.web-ui#calendar-view,1:#*]]
 
 ## Working with Multiple Columns
 

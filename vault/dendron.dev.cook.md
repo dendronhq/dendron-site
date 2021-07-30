@@ -268,7 +268,7 @@ You can see an explanation of how it works [here](https://git-scm.com/docs/git-b
 
 ### Adding a new configuration property
 
-![[dendron://dendron-site/pkg.dendron-plugin.dev#adding-a-new-config,1:#*]]
+![[dendron://dendron.dendron-site/pkg.dendron-plugin.dev#adding-a-new-config,1:#*]]
 
 ### Synchronously loop through async results
 

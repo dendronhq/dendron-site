@@ -47,7 +47,7 @@ You can see the full list of information we collect and why we do it in our [[te
 
 ### Docs
 
--   [[RFC 8 - Multi Publish|dendron://dendron-site/dendron.rfc.8-multi-publish]]
+-   [[RFC 8 - Multi Publish|dendron://dendron.dendron-site/dendron.rfc.8-multi-publish]]
 
 ## 0.37.1
 
@@ -332,11 +332,11 @@ Dendron now supports custom domain names for [[managed publishing|dendron.topic.
 
 #### Cross Vault Links
 
-![[dendron://dendron-site/dendron.topic.links#cross-vault-links,1]]
+![[dendron://dendron.dendron-site/dendron.topic.links#cross-vault-links,1]]
 
 ### Enhancements
 
--   you can now add a workspace when adding a remote vault ([[docs|dendron://dendron-site/dendron.topic.commands#vault-add]])
+-   you can now add a workspace when adding a remote vault ([[docs|dendron://dendron.dendron-site/dendron.topic.commands#vault-add]])
 -   better block quotes ([[docs|dendron.topic.publishing.misc#blockquote]])
 -   better formatted backlinks on published pages
 -   backlinks display using note title instead of file names

@@ -102,7 +102,7 @@ What this means in practice is that you can use VSCode immediately when the work
 
 This experimental feature will allow you to pull down a set of templates for commonly used scenarios. The template selection is currently limited, but we will be expanding on the template set in the future.
 
-![[dendron://dendron-site/dendron.topic.templates#built-in-templates-,1]]
+![[dendron://dendron.dendron-site/dendron.topic.templates#built-in-templates-,1]]
 
 
 ### Enhancements
@@ -134,13 +134,13 @@ The behavior around selecting which vault to create a note in has been improved 
 
 #### Hashtag support 
 
-![[dendron://dendron-site/dendron.topic.tags#summary,1:#*]]
+![[dendron://dendron.dendron-site/dendron.topic.tags#summary,1:#*]]
 
 #### Preview V2 Enhancements
 
 Almost at feature parity with current preview. You can now toggle it to be the default preview by setting `dev.enablePreviewV2` to true in your `dendron.yml`
 
-![[dendron://dendron-site/dendron.topic.preview-v2#summary,1:#*]]
+![[dendron://dendron.dendron-site/dendron.topic.preview-v2#summary,1:#*]]
 
 
 
@@ -164,7 +164,7 @@ Almost at feature parity with current preview. You can now toggle it to be the d
 ### Features
 
 #### Local Graph
-![[dendron://dendron-site/dendron.topic.graph-view#local-note-graph,1:#*]]
+![[dendron://dendron.dendron-site/dendron.topic.graph-view#local-note-graph,1:#*]]
 
 ### Enhancements
 - block anchors are de-emphasized in text editor
@@ -287,19 +287,19 @@ Almost at feature parity with current preview. You can now toggle it to be the d
 
 #### Dendron Seed Bank
 
-![[dendron://dendron-site/dendron.topic.seed-bank#summary,1:#*]]
+![[dendron://dendron.dendron-site/dendron.topic.seed-bank#summary,1:#*]]
 
 #### Calendar View
 
-![[dendron://dendron-site/dendron.ref.web-ui#calendar-view,1:#*]]
+![[dendron://dendron.dendron-site/dendron.ref.web-ui#calendar-view,1:#*]]
 
 #### Airtable Pod
 
-![[dendron://dendron-site/dendron.topic.pod.builtin.airtable.export#summary,1:#*]]
+![[dendron://dendron.dendron-site/dendron.topic.pod.builtin.airtable.export#summary,1:#*]]
 
 #### Find missing links Command
 
-![[dendron://dendron-site/dendron.topic.commands#createmissinglinkednotes,1:#*]]
+![[dendron://dendron.dendron-site/dendron.topic.commands#createmissinglinkednotes,1:#*]]
 
 ### Enhancements
 
@@ -353,7 +353,7 @@ Almost at feature parity with current preview. You can now toggle it to be the d
 
 #### Random Note Command
 
-![[dendron://dendron-site/dendron.topic.commands#random-note,1:#*]]
+![[dendron://dendron.dendron-site/dendron.topic.commands#random-note,1:#*]]
 
 ### Show Schema Graph V2
 
@@ -398,7 +398,7 @@ Almost at feature parity with current preview. You can now toggle it to be the d
 
 #### Native Note Graph
 
-![[dendron://dendron-site/dendron.topic.graph-view#summary,1:#RFCs]]
+![[dendron://dendron.dendron-site/dendron.topic.graph-view#summary,1:#RFCs]]
 
 ### Enhancements
 
@@ -446,7 +446,7 @@ Almost at feature parity with current preview. You can now toggle it to be the d
 
 #### Insert Note Link Command
 
-![[dendron://dendron-site/dendron.topic.commands#insert-note-link,1:#*]]
+![[dendron://dendron.dendron-site/dendron.topic.commands#insert-note-link,1:#*]]
 
 ### Enhancements
 
@@ -481,7 +481,7 @@ Almost at feature parity with current preview. You can now toggle it to be the d
 
 #### Dendron Web UI with a new Tree View
 
-![[dendron://dendron-site/dendron.ref.web-ui#summary,1:#*]]
+![[dendron://dendron.dendron-site/dendron.ref.web-ui#summary,1:#*]]
 
 #### Block References
 
@@ -493,7 +493,7 @@ Almost at feature parity with current preview. You can now toggle it to be the d
 
 #### GraphViz Pod
 
-![[dendron://dendron-site/dendron.topic.pod.builtin.graphviz.export#summary,1:#*]]
+![[dendron://dendron.dendron-site/dendron.topic.pod.builtin.graphviz.export#summary,1:#*]]
 
 ### Enhancements
 

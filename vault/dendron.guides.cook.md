@@ -341,7 +341,7 @@ Use the [[Vault Add|dendron.topic.commands#remote-vault]] command via the [[comm
 1. Create a remote repo and push your vault to that repo
 1. Run [[Configure (yaml)|dendron.topic.commands#configure-yaml]] and add the git [[remote|dendron.topic.config.dendron#remote]] urls to the repo. the entries should look like what you see below
 
-![[dendron://dendron-site/dendron.topic.vaults#^NiCCqLjTG2nbM6Qi:#*]]
+![[dendron://dendron.dendron-site/dendron.topic.vaults#^NiCCqLjTG2nbM6Qi:#*]]
 
 ### Using Dendron with Code
 

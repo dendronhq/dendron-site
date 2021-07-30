@@ -12,12 +12,12 @@ Roam Research is a notetaking tool for network thought. Unlike Roam, Dendron is 
 
 ## Fast and performant
 
-![[dendron://dendron-site/dendron.features#fast-and-performant,1:#*]]
+![[dendron://dendron.dendron-site/dendron.features#fast-and-performant,1:#*]]
 
 ## Local-first
 
-![[dendron://dendron-site/dendron.features#local-first,1:#*]]
+![[dendron://dendron.dendron-site/dendron.features#local-first,1:#*]]
 
 ## Extensible and open-source
 
-![[dendron://dendron-site/dendron.features#extensible-and-open-source,1:#*]]
+![[dendron://dendron.dendron-site/dendron.features#extensible-and-open-source,1:#*]]

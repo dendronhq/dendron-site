@@ -149,7 +149,7 @@ Show Markdown Preview
 
 ### Show Preview V2
 
-![[dendron://dendron-site/dendron.ref.web-ui#show-preview-v2,1:#*]]
+![[dendron://dendron.dendron-site/dendron.ref.web-ui#show-preview-v2,1:#*]]
 
 ---
 
@@ -335,11 +335,11 @@ Enable [[telemetry|dendron.ref.telemetry]] across all workspaces with Dendron
 
 ### Vault Add
 
-![[dendron://dendron-site/dendron.topic.vaults#vault-add,1:#*]]
+![[dendron://dendron.dendron-site/dendron.topic.vaults#vault-add,1:#*]]
 
 ### Vault Remove
 
-![[dendron://dendron-site/dendron.topic.vaults#vault-remove,1:#*]]
+![[dendron://dendron.dendron-site/dendron.topic.vaults#vault-remove,1:#*]]
 
 ### Launch Tutorial
 
@@ -401,11 +401,11 @@ Modify Dendron Config using Dendron UI
 
 ### Workspace: Add and Commit
 
-![[dendron://dendron-site/dendron.ref.workspace#workspace-add-and-commit,1:#*]]
+![[dendron://dendron.dendron-site/dendron.ref.workspace#workspace-add-and-commit,1:#*]]
 
 ### Workspace: Sync
 
-![[dendron://dendron-site/dendron.ref.workspace#workspace-sync,1]]
+![[dendron://dendron.dendron-site/dendron.ref.workspace#workspace-sync,1]]
 
 ---
 

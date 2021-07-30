@@ -12,8 +12,8 @@ Obsidian is a knowledge base that works on your local markdown files. Unlike Obs
 
 ## Extensible and open-source
 
-![[dendron://dendron-site/dendron.features#extensible-and-open-source,1:#*]]
+![[dendron://dendron.dendron-site/dendron.features#extensible-and-open-source,1:#*]]
 
 ## Hierarchically structured
 
-![[dendron://dendron-site/dendron.features#flexible-structure,1:#*]]
+![[dendron://dendron.dendron-site/dendron.features#flexible-structure,1:#*]]
