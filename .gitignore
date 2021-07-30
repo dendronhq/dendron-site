@@ -32,3 +32,4 @@ vault/.dendron.cache.json
 vault/.vscode/settings.json
 assets
 scripts/sync_assets.sh
+seeds
