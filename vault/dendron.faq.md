@@ -2,7 +2,7 @@
 id: 683740e3-70ce-4a47-a1f4-1f140e80b558
 title: FAQ
 desc: ''
-updated: 1627026001869
+updated: 1627660930340
 created: 1595952505025
 stub: false
 nav_order: 6
@@ -201,6 +201,29 @@ This allows you to quickly reference anything within your hierarchy because they
 For example, I'm using nodejs and need to access a file. I have no idea what the builtin/recommended library for file access is. Instead of having to dig up [fs-extra](https://www.npmjs.com/package/fs-extra), I can navigate to `l.node.file` and see my notes on the best way to work with files. You can replace node with any other programming language. Now I have a general way of referencing file access for all languages without needing to remember the specific implementation detail of any of them.
 -->
 
+## Working with Vaults
+
+### Git Doc and other extensions don't recognize my repos for multi-vault
+
+Many VSCode extensions that work across multiple git repositories won't recognize repos nested another repo. The way to fix this is by having your workspace be the last entry inside `folders` in your code workspace file (Dendron does this by default for new workspaces and if you add new vaults using `Vault Add`). You can see an example below. You can see a published example of this setup [here](https://github.com/kevinslin/kevin-garden)
+
+```json
+    "folders": [
+        ...
+        {
+            "path": "kevin-public/vault",
+            "name": "kevin-public"
+        },
+        {
+            "path": "kevin-blog/vault",
+            "name": "kevin-blog"
+        },
+        {
+            "path": "."
+        }
+    ],
+```
+
 ## Finding Notes
 
 ### Can I do filter by the metadata in Dendron?
@@ -316,3 +339,7 @@ You can still use all of Dendron's feature in restricted mode except [[hooks|den
 Dendron has a client-server architecture.
 
 The extension talks to a (local) express server for a lot of the features and this is why it's opening new ports.
+
+### How do I setup Dendron to work between multiple machines?
+
+See [[Using Dendron Across Machines|dendron.guides.best-practices#using-dendron-across-machines]]
