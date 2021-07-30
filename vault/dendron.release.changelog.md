@@ -2,13 +2,29 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1627320660016
+updated: 1627678831624
 created: 1601508213606
 date: '2022-01-01'
 ---
 
-
 ## 0.52
+
+### Features
+
+### Enhancements
+- Lots of graph improvements
+  - Labels are now hidden in large graphs 
+  - Better layout for large graphs
+  - Loading indicators when starting graph
+  - Better error messages
+  - Better configuration toggling
+
+### Bug Fixes
+- Inconsistent cross-vault link behavior has been fixed
+- Better behavior for hashtags with periods at the end
+
+### House Cleaning
+- windows integration tests are now active 
 
 ## 0.51.4
 
