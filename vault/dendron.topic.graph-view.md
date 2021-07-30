@@ -2,7 +2,7 @@
 id: 587e6d62-3c5b-49b0-aedc-02f62f0448e6
 title: Graph View
 desc: ""
-updated: 1627491591401
+updated: 1627619149272
 created: 1595120707814
 stub: false
 ---
@@ -105,14 +105,22 @@ Primarily for debugging, this section has information about graph size. Edge cou
 -   **Hierarchical Edges**: Number of hierarchical connections between nodes
 -   **Nodes**: Number of nodes in the graph
 
-## Graph Settings
+## Config
 
-Certain graph settings can be customized in `dendron.yml`. You can customize them with the properties below:
+Graph configuration is nested under the `graph` object.
+
+See example below
 
 ```yml
 graph:
     zoomSpeed: 1 # The speed at which the graph zooms in and out. Lower is slower, higher is faster.
 ```
+
+### Zoom Speed
+- type: number
+- default: 1
+
+The speed at which the graph zooms in and out. Lower is slower, higher is faster.
 
 ## Custom Styling
 

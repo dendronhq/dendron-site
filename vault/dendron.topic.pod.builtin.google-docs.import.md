@@ -2,7 +2,7 @@
 id: tO6EFCHd2rw350zh
 title: Import
 desc: ''
-updated: 1627289359940
+updated: 1627611958868
 created: 1626365094547
 ---
 
@@ -122,17 +122,13 @@ https://docs.google.com/document/d/14o1AVg10CBbLlqNqBrCz4HkR
 - **enable**
 
       type: boolean
-
       default: false
-
       required: true
 
  - **format**
 
       type: string
-
       default: json
-
       accepted formats: json/text
 
 ## confirmOverwrite
