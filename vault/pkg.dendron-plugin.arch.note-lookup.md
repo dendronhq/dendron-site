@@ -1,17 +1,37 @@
 ---
-id: 75dced84-4ebb-42c1-92bc-a5ed601446a2
-title: Lookupv3
+id: ZbtRI22izXCapbjW
+title: Note Lookup
 desc: ''
-updated: 1624930792555
-created: 1619740761993
+updated: 1627840194338
+created: 1627839920509
 ---
 
 ## Summary
-- status: [[Work In Progress 🚧|dendron.ref.status#work-in-progress-]]
 
-- src/commands/NoteLookupCommand.ts
+This describes the logic for Note Lookup
+
+## Steps
+- [[Gather Input|pkg.dendron-plugin.arch.note-lookup#gather-input]]
+  - [[Prepare Quickpick|pkg.dendron-plugin.arch.note-lookup#prepare-quickpick]]
+    - initialize all buttons
+- enrichInput
+  - show `QuickPick`
+- showQuickPick
+  - updatePickerItems
+  - if `noConfirm`, don't show widget
+    - update selected items to current current items
+    - call `provider.onDidAccept`
+  - else show the widget
+    - wait until user accepts or cancels
+- execute
+  - open `picks`
+  - [[OnAccept|pkg.dendron-plugin.arch.note-lookup#onaccept]]
+
+
+## Code
 
 ### Gather Input
+- src/commands/NoteLookupCommand.ts
 ```ts
 gatherInputs {
     lc = this._controller = LookupControllerV3.create
@@ -20,16 +40,10 @@ gatherInputs {
 }
 ```
 
+### Prepare Quickpick
 - src/components/lookup/LookupControllerV3.ts
+
 ```ts
-create {
-    new LookupControllerV3
-}
-
-constructor {
-
-}
-
 prepareQuickPick {
     quickpick.onTriggerButton = @onDidTriggerButton
     refreshButtons
@@ -41,10 +55,7 @@ showQuickPick {
 }
 ```
 
-## Modifiers
-
-### General
-
+#### OnDidTriggerButton
 ```ts
 onDidTriggerButton(btn) {
     find(btn, @state.buttons).pressed = btn.pressed
@@ -52,6 +63,7 @@ onDidTriggerButton(btn) {
 }
 ```
 
+#### RefreshPickerBehavior
 ```ts
 refreshPickerBehavior {
     buttonsEnabled :=
@@ -60,13 +72,9 @@ refreshPickerBehavior {
     buttonsEnabled.map bt => bt.onEnable
     buttonsDisabled.map bt => bt.onDisable
 }
-
 ```
 
-
-## Accept
-
-### Accept Input
+### OnAccept
 - src/components/lookup/LookupProviderV3.ts
 ```ts
 onDidAccept {
