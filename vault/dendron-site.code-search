@@ -1,15 +1,19 @@
-# Query: workbench
+# Query: children
 # Including: dendron-site/**/dendron*
 # ContextLines: 1
 
-3 results - 1 file
+3 results - 2 files
 
-dendron-site • dendron.faq.md:
-  115  {
-  116:     "workbench.editor.enablePreview": false,
-  117:     "workbench.editor.showTabs": true
-  118  }
+dendron.dendron-site • dendron.rfc.18-index-notes.md:
+  14  
+  15: A common use case is to have an index section that lists all the contents of a particular area of the text. In Dendron, we already show you all children of the current note when publishing but this is not available in the editor.
+  16  
 
-  173  
-  174: If you want the ability to collapse folders, you can use the [[dendron tree view|dendron.topic.workbench#dendron-tree-view]]. For existing folder based notes and assets, you can use the [[markdown pod|dendron.topic.pod.builtin.markdown.import]] to import them into Dendron.
-  175  
+  53  - running `Dendron: Add Index` inside proj when there are already entries
+  54:     - dendron will check if there are new direct children since the last `indexLastUpdated` time and add them to the bottom of the `## Index` block
+  55      - if the block has been deleted, Dendron will re-create it
+
+dendron.dendron-site • dendron.topic.publishing.features.md:
+  17  
+  18: You can see at a glance which notes have children and explore them from the nav without refreshing the page. 
+  19  

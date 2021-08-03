@@ -1,8 +1,8 @@
 ---
 id: XJvKMQfKVMD1Rm4o
-title: 2021 08 02
+title: Release Notes (version 0.53)
 desc: ''
-updated: 1627893470794
+updated: 1627948939327
 created: 1627884266164
 ---
 
@@ -14,9 +14,8 @@ Dendron 0.53 has sprouted  🌱
 - better layouts and indicators for graphs
 - bug fixes for hash tags and navigating xvault links
 - Better performance in block autocomplete
-- Enhance/confirm overwrite in gdoc pod [[docs|dendron.topic.pod.builtin.google-docs.import]]
-- Github Publish Pod implemented [[docs|dendron.topic.pod.builtin.github.publish]]
-- general stability improvements
+- general stability improvements 
+- full test coverage for all operating systems 
 
 ### Docs
 
@@ -27,8 +26,12 @@ Our documentation changes a lot week by week. Below is a highlight of some updat
 ### Ongoing 
 
 We're hiring at Dendron!
+- [[Senior Full Stack Engineer|dendron.jobs.senior-full-stack-engineer]]
 - [[Head of Growth|dendron.jobs.head-of-growth]]
 - [[Head of Content|dendron.jobs.head-of-content]]
+
+Work is going on for last weeks CROP ([Create Index Note](https://github.com/dendronhq/dendron/issues/603)).
+Because this is a more involved feature, we've created an [[RFC|dendron.rfc.18-add-note-indexes]] to discuss the implementation details. Please leave any feedback in [this github discussion](https://github.com/dendronhq/dendron/discussions/1076)
 
 ### Community
 
@@ -47,12 +50,12 @@ Docs:
   - [Fixing misspelled nodejs.org](https://github.com/dendronhq/dendron-site/pull/153)
     
 Issues:
-- [aleksey-rowan](https://github.com/aleksey-rowan)
+- [aleksey-rowan](https://github.com/aleksey-rowan) @aleksey#5276
   - [copy note ref command ignores noXVaultWikiLink setting](https://github.com/dendronhq/dendron/issues/1072)
   - [Note timestamps are not expanded in vaults located outside of the dendron.yml config file's folder](https://github.com/dendronhq/dendron/issues/1050)
   - [Notes created with 'doctor' from # tags, include punctuation chars that follow them in the name area.create type.bug](https://github.com/dendronhq/dendron/issues/1048)
   - [Link hover preview doesn't work following a code block with a backtick (`) in it](https://github.com/dendronhq/dendron/issues/1058)
-- [ScriptAutomate](https://github.com/ScriptAutomate)
+- [ScriptAutomate](https://github.com/ScriptAutomate) @icanteven#0264
   - `+bugcatcher`
   - [cli vault creation is added to dendron.yml but not dendron.code-workspace](https://github.com/dendronhq/dendron/issues/1070)
 - [funnym0nk3y](https://github.com/funnym0nk3y)
@@ -65,4 +68,4 @@ Issues:
   - [Find backlink candidates using basename](https://github.com/dendronhq/dendron/issues/1059)
 
 ### Changelog
-![[dendron.release.changelog#053:#0521]]
+![[dendron.release.changelog#053:#052]]
