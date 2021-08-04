@@ -2,7 +2,7 @@
 id: c5e5adde-5459-409b-b34d-a0d75cbb1052
 title: Schemas
 desc: ''
-updated: 1622841508187
+updated: 1628097126749
 created: 1595952505039
 stub: false
 ---
@@ -77,7 +77,7 @@ Below is another way of representing the above schema
 
 
 
-## Schema Properties
+## Properties
 
 ### version (optional): number
 
@@ -129,7 +129,7 @@ foo.bar.one #match
 
 ### schemas
 
-- list of schema entities
+- list of schema definitions
 
 #### id
 
