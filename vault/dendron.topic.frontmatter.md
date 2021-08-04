@@ -2,7 +2,7 @@
 id: ffec2853-c0e0-4165-a368-339db12c8e4b
 title: Frontmatter
 desc: ""
-updated: 1626987683161
+updated: 1628101059620
 created: 1595352354163
 stub: false
 ---
@@ -58,6 +58,10 @@ Node children
 ### uri
 
 Absolute filepath to the note
+
+### tags
+
+These are used for [[frontmatter tags|dendron.topic.tags#frontmatter-tags]].
 
 ### data
 
