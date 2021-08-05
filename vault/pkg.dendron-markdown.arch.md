@@ -2,12 +2,11 @@
 id: dc72e684-8ff8-4c41-a2f7-93fc14ee0d6a
 title: Arch
 desc: ''
-updated: 1622148140983
+updated: 1628178827477
 created: 1622147759924
 ---
 
-
-## Markdown Parsing
+## Summary
 
 We use `unified` plugins to parse markdown. Every plugin can be composed of the following three components:
 - parser: classify tokens and attach metadata to tokens
@@ -17,6 +16,68 @@ We use `unified` plugins to parse markdown. Every plugin can be composed of the 
 Unified gives a few ways of working with processors:
 - `parse`: calls the `parser` and results in an abstract syntax tree
 - `process`: calls `parser`, `transformer`, and `compiler` and usually results in a string output
+
+
+## Components
+
+### Processor
+Dendron has different processors depending on the desired output (eg. markdown vs HTML). Below is the interface for markdown
+
+- source: [procRemarkFull](https://github.com/dendronhq/dendron/blob/51633edcd0817c9b4aa18ff25f492f7a00e6e088/packages/engine-server/src/markdown/utilsv5.ts#L344-L344)
+```ts
+static procRemarkFull(
+  data: ProcDataFullOptsV5,
+  opts?: { mode?: ProcMode; flavor?: ProcFlavor }
+) 
+```
+
+Each processor takes the following arguments
+- ProcMode
+- ProcFlavor
+- ProcData
+
+- NOTE: disregard the `V5` suffix, this is an artifact of our current migration to the new processor architecture and will be removed in future versions
+
+#### ProcMode
+```ts
+/**
+ * What mode a processor should run in
+ */
+export enum ProcMode {
+  /**
+   * Expect no properties from {@link ProcDataFullV5} when running the processor
+   */
+  NO_DATA = "NO_DATA",
+  /**
+   * Expect all properties from {@link ProcDataFullV5} when running the processor
+   */
+  FULL = "all data",
+  /**
+   * Running processor in import mode. Notes don't exist. Used for import pods like {@link MarkdownPod}
+   * where notes don't exist in the engine prior to import.
+   */
+  IMPORT = "IMPORT",
+}
+```
+
+#### ProcFlavor
+```ts
+export enum ProcFlavor {
+  /**
+   * No special processing
+   */
+  REGULAR = "REGULAR",
+  /**
+   * Apply publishing rules
+   */
+  PUBLISHING = "PUBLISHING",
+  /**
+   * Apply preview rules
+   */
+  PREVIEW = "PREVIEW",
+}
+
+```
 
 ### Compilation
 Depending on what output you plan on converting Dendron into, different plugin combinations get invoked.

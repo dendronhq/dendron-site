@@ -2,10 +2,26 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1627679133727
+updated: 1628177205342
 created: 1601508213606
 date: '2022-01-01'
 ---
+## 0.54
+
+## 0.53.1
+
+### Features
+
+### Enhancements
+
+### Bug Fixes
+
+### Pruning
+
+### House Cleaning
+
+### Docs
+
 
 ## 0.53
 
