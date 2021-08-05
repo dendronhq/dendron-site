@@ -2,34 +2,31 @@
 id: c5e5adde-5459-409b-b34d-a0d75cbb1052
 title: Schemas
 desc: ''
-updated: 1628097126749
+updated: 1628125493102
 created: 1595952505039
 stub: false
 ---
+
+## Summary
 As you end up creating more notes, it can be hard to keep track of it all. This is why Dendron has **schemas** to help you manage your notes at scale. Think of schemas as an **optional type system** for your notes. They describe the hierarchy of your data and are themselves, represented as a hierarchy.
 
 Schemas show up as icons next to lookup results.
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/schema.intro.gif)
 
-## Why Use Schemas
+<!-- ## Why Use Schemas
 
-Schemas help you categorize your notes by making sure your hierarchies are consistent with one another. 
+Schemas help you categorize your notes by making sure your hierarchies are consistent with one another.  -->
 
-For example, lets say you have a bunch of projects and you know you like to keep your projects in the following hierarchy
+## Features
 
-```
-.
-└── project
-    ├── retrospective
-    ├── people
-    ├── todo
-    └── meet
-```
+### Schema Completions
 
 Schemas will autosuggest valid children when you create a new project.
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/schema.suggest.gif)
+
+### Find Non-Compliant Hierarchies
 
 If you accidentally do a typo, your schema will let you know that you have an inconsistency. 
 
