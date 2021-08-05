@@ -2,58 +2,30 @@
 id: 98f6d928-3f61-49fb-9c9e-70c27d25f838
 title: Teams
 desc: ""
-updated: 1620679237155
+updated: 1628125026019
 created: 1617062224981
 ---
 
 ## Summary
 
-This goes over some best practices when using Dendron for teams. To get started, you can use this [[quickstart|dendron.topic.teams.quickstart]].
+This goes over some best practices when using Dendron for teams. 
+
+<!-- To get started, you can use this [[quickstart|dendron.topic.teams.quickstart]]. -->
 
 ## Workspace
 
-We recommend setting up a workspace like the one below to get started. You can clone the following from our [github template](https://github.com/dendronhq/org-workspace-template). 
+We recommend getting started by using the example in our [github template](https://github.com/dendronhq/org-workspace-template). 
 
-Use [[Vault Add|dendron.topic.commands#vault-add]] to create the following vaults. Foollow the instructions of [[converting a local vault to a remote vault|dendron.guides.cook#converting-a-local-vault-to-a-remote-vault]] to end up with the below setup (replace TODO with the url of your remote vaults).
+This will create a workspace with the following structure
 
-```yml
-version: 1
-vaults:
-    -
-        fsPath: repos/org-private
-        remote:
-            type: git
-            url: 'TODO'
-        name: private
-    -
-        fsPath: repos/org-dev
-        name: dev
-        remote:
-            type: git
-            url: 'TODO'
-useFMTitle: true
-useNoteTitleForLink: true
-usePrettyRefs: false
-noXVaultWikiLink: true
-site:
-    copyAssets: true
-    siteHierarchies:
-        - handbook
-    siteRootDir: docs
-    usePrettyRefs: true
-    siteUrl: 'TODO'
-    title: Dendron
-    duplicateNoteBehavior:
-        action: useVault
-        payload:
-            - dendron
-            - handbook
-            - notes
-            - aws
-initializeRemoteVaults: true
-useKatex: false
-defaultInsertHierarchy: templates
 ```
+.
+└── workspace
+    ├── org-private
+    └── org-dev
+```
+
+Follow the instructions of [[converting a local vault to a remote vault|dendron.guides.cook#converting-a-local-vault-to-a-remote-vault]] if you wish to make each individual vault a github repository
 
 ## Vaults
 
@@ -118,21 +90,13 @@ Move note will allow you to move notes quickly from one vault to another (potent
 
 Use the refactor hierarchy command to bulk-move notes from one hierarchy/structure to another.
 
-### [[Workspace: Add and Commit|dendron.topic.commands#workspace-add-and-commit]]
+### Workspace Sync
 
-Easier management of multiple repos
+![[dendron://dendron.dendron-site/dendron.topic.commands#workspace-sync,1:#*]]
 
-## More helpful stuff
+### User Private Vaults
 
-### Sync git repos
-You can use the source code panel to pull all repos and push all repos. Download the [gitlens](https://github.com/eamodio/vscode-gitlens) extension and use the commits panel to push and pull everything at once.
+If you want to set it up so that each of your team members have private vaults in addition to the team vaults, have each of your team mebmers initialize a Dendron workspace locally. They can then add the team workspace as a remote [[workspace vault|dendron.topic.vaults#workspace-vault]] by entering the git endpoint where the workspace is located.
 
-![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/push-and-pull.jpg)
-
-## Team Workflow Recommendations
-- follow the [[quickstart|dendron.topic.teams.quickstart]] to setup your workspace
-- use [[Workspace: Add and Commit|dendron.topic.commands#workspace-add-and-commit]] and pull/push at least once a day
-- have users manage tasks in `user.{name}.journal.{date}` 
-
-## 
+## Related
 - See the [Dendron handbook](https://handbook.dendron.so/notes/fc057be8-80e7-4a08-bca6-5bd6bc398eea.html) to see how we organize our own teams workspace 
