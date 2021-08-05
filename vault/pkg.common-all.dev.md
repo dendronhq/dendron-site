@@ -3,7 +3,7 @@ id: 3c80629b-4048-48f0-bdfd-352645bda2ec
 title: Dev
 desc: |
   Development related
-updated: 1627027635419
+updated: 1628200737311
 created: 1622079130106
 ---
 
@@ -25,4 +25,12 @@ In VSCode, you can use the "Goto symbol in workspace" command and type the funct
 1. In `NoteUtils.serializeMeta` add prop name to `builtinProps`.
 1. In `DNodeUtils.getCustomProps` add prop name to `blacklist`.
 
+### Adding a new property to Dendron Config
 
+Before you submit, make sure to run the following at the root of the dendron repo
+
+```sh
+yarn gen:data
+```
+
+This will update the json schema definitions for `DendronConfig` which is used downstream by other packages
