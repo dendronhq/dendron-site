@@ -2,7 +2,7 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1628253569812
+updated: 1628268716660
 created: 1601508213606
 date: '2022-01-01'
 ---
@@ -22,9 +22,6 @@ Seed Commands now available within the extension. You can add seeds to your work
 
 ![[dendron://dendron.dendron-site/dendron.topic.commands#seed-add:#Misc]]
 
-#### Github Publish Pod
-
-The Github Publish Pod lets you update the status and labels of issues in your github repository that have previously been imported into Dendron. See the [[documentation|dendron.topic.pod.builtin.github.publish]] for how to configure the pod and authenticate with Github.
 
 ### Enhancements
 
