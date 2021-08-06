@@ -2,7 +2,7 @@
 id: eea2b078-1acc-4071-a14e-18299fc28f47
 title: Commands
 desc: ''
-updated: 1626987589800
+updated: 1628215029382
 created: 1595261816971
 ---
 ## Lookup
@@ -460,6 +460,20 @@ The url is taken from the [[siteUrl|dendron.topic.publishing.configuration#siteu
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/notes.copy-url.gif)
 
 ---
+
+## Seeds
+
+### Seed Add
+- [[Early Seed 🌱|dendron.ref.status#early-seed-]]
+
+Add a [[seed|dendron.topic.seeds]] to your current workspace.
+
+### Seed Remove
+- [[Early Seed 🌱|dendron.ref.status#early-seed-]]
+
+Remove a [[seed|dendron.topic.seeds]] from your current workspace.
+
+--- 
 
 ## Misc
 
