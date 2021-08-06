@@ -2,20 +2,8 @@
 id: eea2b078-1acc-4071-a14e-18299fc28f47
 title: Commands
 desc: ''
-updated: 1628215029382
+updated: 1628269406138
 created: 1595261816971
----
-## Lookup
-
-### Contribute
-
-- shortcuts: none
-
-Become an environmentalist and keep Dendron sustainable
-
-This command takes you to Dendron's [Environmentalist](https://accounts.dendron.so/account/subscribe) plans.
-Environmentalists are users that can support Dendron financially through a monthly contribution. Environmentalist get access to insider builds, priority support, and access to exclusive dev channels.
-
 ---
 
 ## Notes
@@ -183,6 +171,11 @@ Initiate note lookup with journal note pre-selected
 
 Initiate note lookup with scratch note pre-selected
 
+### Lookup Note
+- shortcuts: none
+
+Initiate a note lookup. This is the successor to the [[Lookup|dendron.topic.commands#lookup]] command, limited to just notes. It is significantly faster on large workspaces when compared to its predecessor and also comes with addiitional [[modifiers|dendron.topic.lookup.modifiers]]. 
+
 ### Lookup Schema
 
 - shortcuts:
@@ -190,8 +183,6 @@ Initiate note lookup with scratch note pre-selected
   - key: `ctrl+shift+l`
 
 Initiate schema lookup
-
-![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/schema-lookup.gif)
 
 ### Open Link
 
@@ -476,6 +467,16 @@ Remove a [[seed|dendron.topic.seeds]] from your current workspace.
 --- 
 
 ## Misc
+
+
+### Contribute
+
+- shortcuts: none
+
+Become an environmentalist and keep Dendron sustainable
+
+This command takes you to Dendron's [Environmentalist](https://accounts.dendron.so/account/subscribe) plans.
+Environmentalists are users that can support Dendron financially through a monthly contribution. Environmentalist get access to insider builds, priority support, and access to exclusive dev channels.
 
 ### Paste File
 

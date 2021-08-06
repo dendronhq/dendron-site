@@ -2,7 +2,7 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1628268716660
+updated: 1628269460839
 created: 1601508213606
 date: '2022-01-01'
 ---
@@ -22,10 +22,13 @@ Seed Commands now available within the extension. You can add seeds to your work
 
 ![[dendron://dendron.dendron-site/dendron.topic.commands#seed-add:#Misc]]
 
+#### Better Lookup
+
+We are splitting up the `Lookup` command into two separate commands: [[Lookup Note|dendron.topic.commands#lookup-note]] and [[Lookup Schema|dendron.topic.commands#lookup-schema]]. There's been a lot of confusion that has come from overloading the `Lookup` command which is now deprecated and will removed in a future release. 
+
+Besides for the split, [[Lookup Note|dendron.topic.commands#lookup-note]] should be significantly faster for large workspaces. Previously you might have noticed a lag when creating a new note in these cases. It also comes with a the new [[vaultSelection|dendron.topic.lookup.modifiers#vaultselection]] modifier that lets you prompt for a vault when creating a new note.
 
 ### Enhancements
-
-- The new lookup (in preview, accessible via `Dendron: Lookup Note`) now has horizontal split and copy note link [[modifiers|dendron.topic.lookup.modifiers]] for feature parity with existing lookup.
 - Google Docs Pod will now prompt users to confirm overwriting of a document before running with the [[confirmOverwrite configuration.|dendron.topic.pod.builtin.google-docs.import#confirmoverwrite]]
 - When choosing between vaults (for example, picking which vault to put a note in), the vaults will now show by the vault name instead of the vault path.
 
