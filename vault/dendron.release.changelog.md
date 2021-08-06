@@ -2,7 +2,7 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1628215561217
+updated: 1628217637157
 created: 1601508213606
 date: '2022-01-01'
 ---
@@ -14,7 +14,7 @@ date: '2022-01-01'
 
 #### Frontmatter Tags
 
-Tags can now be added to the frontmatter header of a note. **TODO: ADD DETAIL**
+![[Frontmatter tags|dendron.topic.tags#frontmatter-tags:#pretty-tags]]
 
 #### Seed Commands
 
@@ -24,7 +24,7 @@ Seed Commands now available within the extension. You can add seeds to your work
 
 #### Github Publish Pod
 
-Early revision of Github Publish Pod allows updating of Github issues from within Dendron **TODO: ADD DETAIL**
+![[dendron://dendron.dendron-site/dendron.topic.pod.builtin.github.publish#summary,1:#Authentication]]
 
 ### Enhancements
 - Additional modifiers added to lookup
