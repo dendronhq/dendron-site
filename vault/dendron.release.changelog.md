@@ -2,11 +2,18 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1628269460839
+updated: 1628271127188
 created: 1601508213606
 date: '2022-01-01'
 ---
 ## 0.54
+
+
+## 0.53.2
+
+### Bug Fixes
+
+- fix missing dependency in dendron-cli
 
 ## 0.53.1
 
