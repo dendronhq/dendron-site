@@ -2,7 +2,7 @@
 id: 04dd9ad8-3d81-4098-a661-21b6acc6f443
 title: Dev
 desc: ''
-updated: 1627147083684
+updated: 1627770850005
 created: 1621721485330
 ---
 
@@ -236,6 +236,13 @@ let out = await VSCodeUtils.showInputBox({
     placeHolder: localVaultPathPlaceholder,
 });
 if (PickerUtilsV2.isStringInputEmpty(out)) return;
+```
+
+### Get location of the frontmatter
+
+- example [here](https://github.com/dendronhq/dendron/blob/feat/frontmatter-tags/packages/plugin-core/src/services/NoteSyncService.ts#L81:L81)
+```
+
 ```
 
 ## Tests

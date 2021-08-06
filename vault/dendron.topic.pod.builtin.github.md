@@ -2,14 +2,14 @@
 id: PuDUEyUAPmvpBvaFWHDOS
 title: GitHub
 desc: ''
-updated: 1625749935706
+updated: 1627560123176
 created: 1625747224583
 ---
 ## Summary
 - id: `dendron.github`
 - coverage
   - ✅ import
-  - ❌ publish
+  - ✅ publish
   - ❌ export
   
 

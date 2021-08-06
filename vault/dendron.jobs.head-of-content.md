@@ -4,7 +4,6 @@ title: Head of Content
 desc: ''
 updated: 1627226522152
 created: 1627224182894
-nav_exclude: true
 ---
 
 Dendron is looking for a Head of Content to help spread the word of structured note taking. 

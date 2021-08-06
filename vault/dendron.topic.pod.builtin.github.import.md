@@ -2,7 +2,7 @@
 id: 2H9FBzagX9wf4b0V0ADGG
 title: Import
 desc: ''
-updated: 1625747404839
+updated: 1627633776543
 created: 1625747404839
 ---
 
@@ -57,6 +57,10 @@ fname: github.issues.dendron-site
 title: 86-Extra quotes in links tutorial
 url: 'https://github.com/dendronhq/dendron-site/issues/86'
 status: OPEN
+issueID: gkdskrereidnYu
+tags: 
+  - area.misc
+  - question
 ---
 Line 12 of the links page ( https://github.com/dendronhq/dendron-site/edit/master/vault/dendron.tutorial.links.md ) has two consecutive back-quotes before the [[  that do not appear to be necessary. I am not sufficiently confident of this to submit a PR, however.
 ```
