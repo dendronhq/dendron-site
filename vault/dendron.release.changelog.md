@@ -2,7 +2,7 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1628217637157
+updated: 1628252372816
 created: 1601508213606
 date: '2022-01-01'
 ---
@@ -24,14 +24,16 @@ Seed Commands now available within the extension. You can add seeds to your work
 
 #### Github Publish Pod
 
-![[dendron://dendron.dendron-site/dendron.topic.pod.builtin.github.publish#summary,1:#Authentication]]
+The Github Publish Pod lets you update the status and labels of issues in your github repository that have previously been imported into Dendron. See the [[documentation|dendron.topic.pod.builtin.github.publish]] for how to configure the pod and authenticate with Github.
 
 ### Enhancements
+
 - Additional modifiers added to lookup
-- Google Docs Pod will now prompt users to confirm overwriting of a document before running
-- Vaults in picker UI's will now show by the vault name instead of the path
+- Google Docs Pod will now prompt users to confirm overwriting of a document before running with the [[confirmOverwrite configuration.|dendron.topic.pod.builtin.google-docs.import#confirmoverwrite]]
+- When choosing between vaults (for example, picking which vault to put a note in), the vaults will now show by the vault name instead of the vault path.
 
 ### Bug Fixes
+
 - Fixed an issue where wikilinks were not getting highlighted
 - Fixed an issue with the doctor command's regenerate note ID feature
 - Fixed broken links in the extension readme
