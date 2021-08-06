@@ -2,10 +2,28 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1627679133727
+updated: 1628213091437
 created: 1601508213606
 date: '2022-01-01'
 ---
+
+## 0.53.1
+
+### Features
+- Tags can now be added to the frontmatter header of a note. **TODO: ADD DETAIL**
+- Seed Commands now available within the extension. You can add seeds to your workspace with the `Dendron: Seed Add` command, which was previously only available in the CLI. **TODO: ADD DETAIL**
+- Early revision of Github Publish Pod allows updating of Github issues from within Dendron **TODO: ADD DETAIL**
+
+### Enhancements
+- Additional modifiers added to lookup
+- Google Docs Pod will now prompt users to confirm overwriting of a document before running
+- Vaults in picker UI's will now show by the vault name instead of the path
+
+### Fixes
+- Fixed an issue where wikilinks were not getting highlighted
+- Fixed an issue with the doctor command's regenerate note ID feature
+- Fixed broken links in the extension readme
+- Add Vault command in the CLI will now properly modify your workspace file ^sZzM7QHk4i5m
 
 ## 0.53
 
