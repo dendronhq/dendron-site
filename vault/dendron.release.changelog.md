@@ -2,7 +2,7 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1628252372816
+updated: 1628253569812
 created: 1601508213606
 date: '2022-01-01'
 ---
@@ -28,7 +28,7 @@ The Github Publish Pod lets you update the status and labels of issues in your g
 
 ### Enhancements
 
-- Additional modifiers added to lookup
+- The new lookup (in preview, accessible via `Dendron: Lookup Note`) now has horizontal split and copy note link [[modifiers|dendron.topic.lookup.modifiers]] for feature parity with existing lookup.
 - Google Docs Pod will now prompt users to confirm overwriting of a document before running with the [[confirmOverwrite configuration.|dendron.topic.pod.builtin.google-docs.import#confirmoverwrite]]
 - When choosing between vaults (for example, picking which vault to put a note in), the vaults will now show by the vault name instead of the vault path.
 
