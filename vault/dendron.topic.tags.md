@@ -2,7 +2,7 @@
 id: 8bc9b3f1-8508-4d3a-a2de-be9f12ef1821
 title: Tags
 desc: ""
-updated: 1628101021387
+updated: 1628316726909
 created: 1601910058115
 stub: false
 ---
@@ -51,6 +51,13 @@ are just wikilinks.
 Tags support autocomplete (intellisense), but tag notes must be created for
 autocomplete to work. To create a tag note, `Ctrl+click` on a tag, or select the
 tag and use "Dendron: Goto Note" command.
+
+### Custom tag colors
+
+Tags are automatically assigned colors to help you identify them easily. If you
+don't like the automatic colors, you can always override what color the tags
+should be by setting the `color` in the frontmatter of the tag note. For
+example, the following tag is #blue, and you can click on it to see how to customize the color.
 
 ## Frontmatter tags
 
