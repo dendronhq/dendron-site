@@ -126,6 +126,15 @@ If the title is the same as what Dendron would autogenerate (kebab-case capitali
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/command-rename.gif)
 
+### Rename Header
+
+-   shortcuts: none
+
+Rename the selected header.
+
+You must put the caret on the header you want to rename.
+All wikilinks that link to this header (like `[[note#header]]`) will automatically get updated to the new header.
+
 ### Show Preview
 
 - shortcuts:
