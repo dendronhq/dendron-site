@@ -250,6 +250,10 @@ Dendron can sometimes fail to load due to a malformed note. Common issues:
 
 Dendron currently has trouble parsing notes larger than 1MB in size. Check if you have any notes like this and move them out of your workspace.
 
+### Book a one on one
+
+If all else fails, schedule a diagnostic session. 
+
 ## Send a support request
 
 If none of the troubleshooting methods work, you can ping kevin on Discord or submit a github issue.
