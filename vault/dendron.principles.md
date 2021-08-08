@@ -2,7 +2,7 @@
 id: 7fcebd7d-6411-4c9d-8baf-65629dc018a1
 title: Principles
 desc: ''
-updated: 1624755623806
+updated: 1628435541479
 created: 1600440828180
 stub: false
 nav_order: 1.3
@@ -30,7 +30,7 @@ Users should have **full control** of their data and it should be our first prin
 
 ### Interoperability
 
-It should be possible to import/export your data from/to any other source where a user might want to use their information.
+We aim to make it **easy** for you to use your notes in **any tool or platform** that is most useful to you.  It should be possible to import/export your data from/to any other source where a user might want to use their information.
 
 ### Easy to learn, hard to master
 

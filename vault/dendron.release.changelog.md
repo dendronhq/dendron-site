@@ -2,11 +2,37 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1628271145783
+updated: 1628438955000
 created: 1601508213606
 date: '2022-01-01'
 ---
 ## 0.54
+
+
+## 0.53.3
+
+### Features
+
+#### Github Publish Pod
+- [[user.joshi]]
+
+#### Custom Colors for Tags
+- [[user.kaan]]
+
+#### Rename Header Command
+- [[user.kaan]]
+
+### Enhancements
+
+### Bug Fixes
+- lookup was not setting [[splitType|dendron.topic.lookup.modifiers#splittype]] when executed with a custom keybinding
+
+### Pruning
+- we removed `journal.firstDayOfWeek` as a property from the web ui calendar. see details [here](https://github.com/dendronhq/dendron/pull/1065/files)
+
+### House Cleaning
+
+### Docs
 
 ## 0.53.2
 
