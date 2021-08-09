@@ -2,7 +2,7 @@
 id: 1e6c8b49-ef88-4e79-b2df-e9d614c38a53
 title: Triage
 desc: ""
-updated: 1628097363798
+updated: 1628527529980
 created: 1610468038819
 ---
 
@@ -35,7 +35,10 @@ Static site generation, sending note links and anything that has to do with publ
 ## flavor
 
 ### happy
-Will this make it easier to use Dendron in the common case?
+Will this make it easier to use Dendron in the common case
+
+### crop
+This makes a good CROP issue
 
 ## size
 

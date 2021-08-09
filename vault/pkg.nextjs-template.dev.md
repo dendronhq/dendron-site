@@ -3,7 +3,7 @@ id: PgwAXFfotfgpFVqHQRlBl
 title: Dev
 desc: |
   Development related
-updated: 1628450956070
+updated: 1628535582616
 created: 1628376960868
 ---
 
@@ -20,8 +20,9 @@ See build instructions [[|heredendron.dev.setup#build]]
 2. To run nextjs using sample data, you can run the following
   - TODO
   ```
-  curl ..
-  unzip data.zip data
+  cd nextjs-template
+  wget https://artifacts-prod-artifactb7980f61-19orqnnuurvwy.s3.us-west-2.amazonaws.com/artifacts/dendron-site.zip data.zip
+  unzip data.zip
   ```
 3. Run the nextj sapp
   ```sh
