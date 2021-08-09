@@ -3,7 +3,7 @@ id: PgwAXFfotfgpFVqHQRlBl
 title: Dev
 desc: |
   Development related
-updated: 1628535582616
+updated: 1628549376049
 created: 1628376960868
 ---
 
@@ -29,6 +29,7 @@ See build instructions [[|heredendron.dev.setup#build]]
   yarn dev
   ```
 4. Navigate to your browser. For example http://localhost:3000/notes/b0fe6ef7-1553-4280-bc45-a71824c2ce36 to go to a particular note
+- NOTE: you'll need to navigate to a note by going to `/notes/{note-id}`. Naked `localhost:3000` is not supported yet
 
 ## Run with your own data
 1. Navigate to your workspace root
