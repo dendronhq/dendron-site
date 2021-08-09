@@ -2,7 +2,7 @@
 id: 5wXTADsi3MXxFtEX
 title: Build Repo
 desc: ''
-updated: 1626704819193
+updated: 1628544252917
 created: 1626634616032
 ---
 
@@ -18,7 +18,7 @@ cd $DENDRON_ROOT
 mkdir build
 ```
 1. Clone Dendron
-![[dendron.dev.setup#2-clone:#*]]
+![[dendron.dev.setup#^clone]]
 
 
 ## Cook
