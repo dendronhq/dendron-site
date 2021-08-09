@@ -47,6 +47,12 @@ The Dendron Calendar View has the following capabilities:
 
 #### Configuration
 
+##### journal.dateFormat
+
+- default: `y.MM.dd`
+
+Possible tokens can be looked up under https://github.com/moment/luxon/blob/master/docs/formatting.md#table-of-tokens
+
 ##### ~~journal.firstDayOfWeek~~
 
 <details>
