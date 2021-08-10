@@ -2,7 +2,7 @@
 id: 8bc9b3f1-8508-4d3a-a2de-be9f12ef1821
 title: Tags
 desc: ""
-updated: 1628316726909
+updated: 1628570051692
 created: 1601910058115
 stub: false
 ---
@@ -58,6 +58,12 @@ Tags are automatically assigned colors to help you identify them easily. If you
 don't like the automatic colors, you can always override what color the tags
 should be by setting the `color` in the frontmatter of the tag note. For
 example, the following tag is #blue, and you can click on it to see how to customize the color.
+
+Setting a tag color affects the colors of all tags within the hierarchy. For
+example, the tag #example is set to color red, so #example.my-example is also
+red. This allows you to organize your tags with color codes. You can always
+override the color deeper within the hierarchy, we could set
+`#example.my-example` to green while keeping `#example` red.
 
 ## Frontmatter tags
 
