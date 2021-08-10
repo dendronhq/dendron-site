@@ -2,7 +2,7 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1628560042223
+updated: 1628572010700
 created: 1601508213606
 date: '2022-01-01'
 ---
@@ -13,7 +13,7 @@ date: '2022-01-01'
 ### Features
 
 #### Github Publish Pod
-- [[user.joshi]]
+- ![[dendron.topic.pod.builtin.github.publish#summary,1:#*]]
 
 #### Custom Colors for Tags
 - [[user.kaan]]
