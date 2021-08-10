@@ -3,7 +3,7 @@ id: 6293d9dc-9bd3-4b01-8428-34d8256f0a32
 title: Dev
 desc: |
   Development related
-updated: 1627142762129
+updated: 1628157504430
 created: 1621630111186
 ---
 
@@ -16,7 +16,7 @@ created: 1621630111186
 
 ### Steps
 
-You can test the Dendron Next App by launching a workspace using the CLI and then connecting to it. The instructions below cover using `dendron/test-workspace` which is alreayd pre-configured to use a local nextjs setup.
+You can test the Dendron Next App by launching a workspace using the CLI and then connecting to it. The instructions below cover using `dendron/test-workspace` which is already pre-configured to use a local nextjs setup.
 1. Initialize test-workspace
   ```sh
   cd dendron/test-workspace
@@ -27,7 +27,7 @@ You can test the Dendron Next App by launching a workspace using the CLI and the
    # for example, if you launched the engine at /user/adam/workspace, WORKSPACE should equal /user/adam/workspace
    http://localhost:3000/vscode/sample?ws=$WORKSPACE&port=$PORT&browser=1
    ```
-1. To test the UI with the plugin, see instructions to [[run the extension|dendron.dev.debug]]. When running, make sure use `test-workspace` to access the UI
+1. To test the UI with the plugin, see instructions to [[run the extension|dendron.dev.debug]]. When running, make sure to use `test-workspace` to access the UI
 
 Next Steps:
 - read the [[architecture|pkg.dendron-next-server.arch]] documents to understand how the next server fits in with other Dendron plugins and how to build on top of it

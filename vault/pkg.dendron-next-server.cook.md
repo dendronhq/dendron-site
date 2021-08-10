@@ -35,7 +35,7 @@ treeView.tsx
 
 ### Send a message
 
-Passing messags to the webview
+Passing messages to the webview
 
 ```js
 msg = {

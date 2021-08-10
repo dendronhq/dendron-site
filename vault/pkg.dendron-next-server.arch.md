@@ -2,7 +2,7 @@
 id: a0240c63-2000-4542-a0ba-d570f42323b9
 title: Arch
 desc: ''
-updated: 1623865423917
+updated: 1628151345970
 created: 1622130772977
 ---
 
@@ -45,7 +45,7 @@ You can see an example of an UI event propagating back to VSCode [[here|pkg.dend
 - codename: Unified Preview
 - status: [[Planning 🗺️|dendron.ref.status#planning-️]]
 
-The Dendron Preview should be just one particular view in of `nextjs` that is served when using the Dendron Plugin. There are a few special requirements for the preview that aren't there for other views which is why this gets its own section. Specifically, the preview view shoudl support the following features:
+The Dendron Preview should be just one particular view in of `nextjs` that is served when using the Dendron Plugin. There are a few special requirements for the preview that aren't there for other views which is why this gets its own section. Specifically, the preview view should support the following features:
 
 - scroll sync: a user scrolling through the raw markdown of the current preview should have the preview scroll in sync with the text and vice versa
 
