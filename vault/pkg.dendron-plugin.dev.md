@@ -2,12 +2,10 @@
 id: 04dd9ad8-3d81-4098-a661-21b6acc6f443
 title: Dev
 desc: ''
-updated: 1627770850005
+updated: 1628623102185
 created: 1621721485330
 ---
 
-
-# Cook
 
 ## Features
 
@@ -57,17 +55,10 @@ Configuration migrations should be done in two phases
 #### Phase 2 - Remove old vaule
 1. Once the metric in 4 has reached a sufficient threshold, remove the old version
 
-### Adding a new config
 
-Dendron configuration is managed by [DendronConfig](https://github.com/dendronhq/dendron/blob/dev-kevin/packages/common-all/src/types/workspace.ts#L65:L65).
+### Adding new configuration
 
-Whenever you add a new entry with a default, make sure to do the following as well.
-- [ ] update `Extension.test.ts` (we have a test that checks for default config values that will break)
-- [ ] document it under [[dendron config|dendron.topic.config.dendron]]
-
-### Use dendron.yml for config instead of .code-workspace
-- see commit 68556bf2
-- [fix: Use new config when creating special notes by hikchoi · Pull Request #984 · dendronhq/dendron](https://github.com/dendronhq/dendron/pull/984)
+See [[Configuration|pkg.common-all.dev#configuration]]
 
 ## Rest
 
