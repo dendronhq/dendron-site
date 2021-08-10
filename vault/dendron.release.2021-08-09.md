@@ -1,8 +1,8 @@
 ---
 id: mZhQvxLdMJKaqpgyjOTVG
-title: 2021 08 09
+title: Release Notes (version 0.54)
 desc: ''
-updated: 1628593501407
+updated: 1628608728089
 created: 1628588136181
 ---
 
@@ -11,11 +11,17 @@ Dendron 0.54 has sprouted  🌱
 
 ### Highlights
 
+- new lookup commands: lookup has split into "Lookup Note" and "Lookup Schema". these commands are significantly faster 🚀 than the current lookup on large workspaces
+- frontmatter tags: create `tags: [awesome, sprouts]` directly in the frontmatter
+- integrated seeds: seed commands are now available from within the plugin
+- github publish pod: update the status of github issues from inside of Dendron
+
+- lots of fixes
+  - issue with non-highlighting wikilinks
+  - broken links in the extension README
+  - adding a vault via the CLI will also add the vault in the code workspace
+
 - 
-
-### Docs
-
-Our documentation changes a lot week by week. Below is a highlight of some updates from the past week.
 
 ### Ongoing 
 
@@ -37,9 +43,7 @@ You can see an overview of all roles [[here|dendron.community.roles]]
 Docs:
 - [Mandar Vaze](https://github.com/mandarvaze) @mandarvaze#4457
   - fixed docs
-    
 Issues:
-
 - [imalightbulb](https://github.com/imalightbulb)
     - [[RFC] Integrated Space Repetition](https://github.com/dendronhq/dendron/issues/1109)
 - [ConnorSMaynes](https://github.com/ConnorSMaynes)
