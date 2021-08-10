@@ -2,12 +2,11 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1628438955000
+updated: 1628560042223
 created: 1601508213606
 date: '2022-01-01'
 ---
 ## 0.54
-
 
 ## 0.53.3
 
@@ -23,6 +22,8 @@ date: '2022-01-01'
 - [[user.kaan]]
 
 ### Enhancements
+- automatically resolve conflicting keybinding caused by vim extension
+
 
 ### Bug Fixes
 - lookup was not setting [[splitType|dendron.topic.lookup.modifiers#splittype]] when executed with a custom keybinding
