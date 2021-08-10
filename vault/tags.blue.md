@@ -4,7 +4,7 @@ title: An Example of a Blue Tag
 desc: ""
 updated: 1628317474378
 created: 1628316561344
-color: "#1E32E6"
+color: "#1D32E6"
 ---
 
 Any tags leading to this tag note will look blue. Here is what the [[frontmatter|dendron.topic.frontmatter]] of this note looks like:

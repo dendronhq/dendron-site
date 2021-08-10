@@ -2,7 +2,7 @@
 id: f2ed8639-a604-4a9d-b76c-41e205fb8713
 title: Configuration
 desc: ''
-updated: 1624552124573
+updated: 1628572778300
 created: 1608528797892
 nav_order: 3
 ---
@@ -158,6 +158,20 @@ If you are publishing with github pages, the format is `https://{username}.githu
 - default: True
 
 Whether to use pretty note refs or plain refs. 
+
+### noRandomlyColoredTags
+- status: optional
+- default: false
+
+Do not display the automatically generated colors for tags. Only tag colors set
+by the user are used, other tags won't have colors and will look like regular
+links.
+
+### showFrontMatterTags
+- status: optional
+- default: true
+
+Whether [[frontmatter tags|dendron.topic.tags#frontmatter-tags]] should be rendered in published websites.
 
 ### writeStubs 
 - status: optional

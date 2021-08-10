@@ -2,7 +2,7 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1628572010700
+updated: 1628569637539
 created: 1601508213606
 date: '2022-01-01'
 ---
@@ -16,10 +16,10 @@ date: '2022-01-01'
 - ![[dendron.topic.pod.builtin.github.publish#summary,1:#*]]
 
 #### Custom Colors for Tags
-- [[user.kaan]]
+- [[Customizable tag colors|dendron.topic.tags#custom-tag-colors]] to color code your tags
 
 #### Rename Header Command
-- [[user.kaan]]
+- [[Rename Header Command|dendron.topic.commands#rename-header]] which updates links to that header
 
 ### Enhancements
 - automatically resolve conflicting keybinding caused by vim extension
