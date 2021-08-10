@@ -2,7 +2,7 @@
 id: mZhQvxLdMJKaqpgyjOTVG
 title: Release Notes (version 0.54)
 desc: ''
-updated: 1628617883051
+updated: 1628619939706
 created: 1628588136181
 ---
 
@@ -11,12 +11,12 @@ Dendron 0.54 has sprouted  🌱
 
 ### Highlights
 
-- new lookup commands: lookup has split into "Lookup Note" and "Lookup Schema". these commands are significantly faster 🚀 than the current lookup on large workspaces
-- frontmatter tags: create `tags: [awesome, sprouts]` directly in the frontmatter 
-- custom tag colors: create the perfect color palette for each of your tags
-- rename headers: like **Rename Note** but for headers
-- integrated seeds: seed commands are now available from within the plugin
-- github publish pod: update the status of github issues from inside of Dendron
+- new lookup commands: lookup has split into "Lookup Note" and "Lookup Schema". these commands are significantly faster 🚀 than the current lookup on large workspaces ([[docs|dendron.topic.commands#lookup-note]])
+- frontmatter tags: create `tags: [awesome, sprouts]` directly in the frontmatter  ([[docs|dendron.topic.tags#frontmatter-tags]])
+- custom tag colors: create the perfect color palette for each of your tags ([[docs|dendron.release.changelog#custom-colors-for-tags]])
+- rename headers: like **Rename Note** but for headers ([[docs|dendron.release.changelog#rename-header-command]])
+- integrated seeds: seed commands are now available from within the plugin ([[docs|dendron.release.changelog#seed-commands]])
+- github publish pod: update the status of github issues from inside of Dendron ([[docs|dendron.release.changelog#github-publish-pod]])
 - quality of life improvements
     - auto-resolve conflicting keybinding from vim 
 - lots of fixes
