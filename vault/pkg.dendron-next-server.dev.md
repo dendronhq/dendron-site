@@ -3,7 +3,7 @@ id: 6293d9dc-9bd3-4b01-8428-34d8256f0a32
 title: Dev
 desc: |
   Development related
-updated: 1628157504430
+updated: 1628636893122
 created: 1621630111186
 ---
 
@@ -53,4 +53,7 @@ Next Steps:
 
 
 ### Adding a new web view
-- see `ShowPreviewV2`
+
+The following goes over an example of implementing the `ShowPreviewV2` command
+- [plugin command logic](https://github.com/dendronhq/dendron/blob/release/0.54/packages/plugin-core/src/commands/ShowPreviewV2.ts#L81:L81)
+- [react view logic](https://github.com/dendronhq/dendron/blob/release/0.54/packages/dendron-next-server/pages/vscode/note-preview.tsx#L207:L207)

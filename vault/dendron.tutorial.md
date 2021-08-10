@@ -2,7 +2,7 @@
 id: 678c77d9-ef2c-4537-97b5-64556d6337f1
 title: Getting Started
 desc: ''
-updated: 1625578960399
+updated: 1628639345295
 created: 1608051264282
 nav_order: 1.1
 ---
@@ -10,7 +10,12 @@ nav_order: 1.1
 
 ## Pre-requisites
 
-This walkthrough will help you get started with Dendron. Before you start, make sure you have Dendron installed and **_a workspace initialized_**. When you first install Dendron, you can click on the green `Initialize Workspace` button on the Welcome screen to initialize your first workspace. Then, pick a location to store your notes, and you'll be brought to the tutorial experience, which will contain notes with the same tutorial content here.
+This walkthrough will help you get started with Dendron. Before you start, make sure you the following:
+- installed [VSCode](https://code.visualstudio.com/download) or a VSCode compatible editor like [VSCodium](https://vscodium.com/)
+- installed [Dendron](https://marketplace.visualstudio.com/items?itemName=dendron.dendron) from the code marketplace
+- initialize your first Dendron workspace
+
+When you first install Dendron, you can click on the green `Initialize Workspace` button on the Welcome screen to initialize your first workspace. Then, pick a location to store your notes, and you'll be brought to the tutorial experience, which will contain notes with the same tutorial content here.
 
 ![Welcome Screen](https://org-dendron-public-assets.s3.amazonaws.com/images/tutorial-welcome-screen.png)
 
