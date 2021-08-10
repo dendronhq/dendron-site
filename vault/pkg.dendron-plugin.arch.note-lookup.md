@@ -2,7 +2,7 @@
 id: ZbtRI22izXCapbjW
 title: Note Lookup
 desc: ''
-updated: 1627840194338
+updated: 1628546862398
 created: 1627839920509
 ---
 
@@ -138,3 +138,7 @@ acceptNewItem(item, picker) {
 }
 
 ```
+
+## Design Decisions
+
+### Debounce

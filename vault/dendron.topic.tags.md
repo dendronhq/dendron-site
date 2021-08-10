@@ -2,9 +2,10 @@
 id: 8bc9b3f1-8508-4d3a-a2de-be9f12ef1821
 title: Tags
 desc: ""
-updated: 1628101021387
+updated: 1628573272861
 created: 1601910058115
 stub: false
+tags: ["example.from-frontmatter"]
 ---
 
 ## Hashtags
@@ -52,6 +53,29 @@ Tags support autocomplete (intellisense), but tag notes must be created for
 autocomplete to work. To create a tag note, `Ctrl+click` on a tag, or select the
 tag and use "Dendron: Goto Note" command.
 
+### Custom tag colors
+
+Tags are automatically assigned colors to help you identify them easily. If you
+don't like the automatic colors, you can always override what color the tags
+should be by setting the `color` in the frontmatter of the tag note. For
+example, the following tag is #blue, and you can click on it to see how to customize the color.
+
+Setting a tag color affects the colors of all tags within the hierarchy. For
+example, the tag #example is set to color red, so #example.my-example is also
+red. This allows you to organize your tags with color codes. You can always
+override the color deeper within the hierarchy, we could set
+`#example.my-example` to green while keeping `#example` red.
+
+### Tags in publishing
+
+Tags work in publishing like regular links. The only caveat is that if you want
+your viewers to see all notes that use a tag, you must create that tag note.
+Otherwise, Dendron will just tell them that this note did not sprout yet. We're
+working on an improvement to this, so keep an eye out for updates!
+
+Something else worth mentioning is that the automatic tag colors can be disabled
+in publishing. See the [[noRandomlyColoredTags|dendron.topic.publishing.configuration#norandomlycoloredtags]] configuration.
+
 ## Frontmatter tags
 
 You can also put tags in the [[frontmatter|dendron.topic.frontmatter]] of your note. For example, the frontmatter of your note with a tag may look like this:
@@ -80,6 +104,8 @@ Or, within a single line:
 ```
 tags: [my.example, other.one]
 ```
+
+This note actually has a frontmatter tag set. You can see what it looks like published at the bottom of the page.
 
 ## Pretty Tags
 

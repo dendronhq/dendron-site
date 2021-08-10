@@ -2,7 +2,7 @@
 id: cb22bd36-d45a-4ffd-a31e-96c4b39cb7fb
 title: Testing
 desc: ''
-updated: 1626886326596
+updated: 1628441022278
 created: 1598654055046
 stub: false
 ---
@@ -118,6 +118,19 @@ When stubbing test any other code, add an `afterEach` block.
 afterEach(()=> {
   sinon.restore()
 });
+```
+
+### Stubbing Mutating Disk Changes
+
+Dendron has certain features that writes to locations that are global to all Dendron installations (`eg. ~/.dendron`). Because we run integration tests on these features, we also don't want these tests to overwrite our actual dendron setup. The tests for these sort of features should be stubbed.
+
+For example, below is an example of stubbing the home directory for tests:
+
+```ts
+static mockHomeDir(dir?: string): SinonStub {
+  if (_.isUndefined(dir)) dir = tmpDir().name;
+  return sinon.stub(os, "homedir").returns(dir);
+}
 ```
 
 

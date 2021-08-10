@@ -2,7 +2,7 @@
 id: f83c1d87-eac0-48f3-a5cf-8a69989d8ec1
 title: Dendrons Config
 desc: ''
-updated: 1627619811129
+updated: 1628572465048
 created: 1619539817122
 ---
 
@@ -12,7 +12,7 @@ created: 1619539817122
 
 This file can be accessed using these Commands ![[dendron.topic.commands#Configure-yaml,0,:#workspace-add-and-commit]]
 
-![[dendron.topic.config#legend,0:#*]]
+![[dendron.topic.config#legend,0]]
 
 ## General
 

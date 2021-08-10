@@ -2,7 +2,7 @@
 id: 5wXTADsi3MXxFtEX
 title: Build Repo
 desc: ''
-updated: 1626704819193
+updated: 1628544345725
 created: 1626634616032
 ---
 
@@ -16,9 +16,10 @@ In order to build Dendron locally, we need to have a second copy of Dendron chec
 ```sh
 cd $DENDRON_ROOT
 mkdir build
+cd build
 ```
 1. Clone Dendron
-![[dendron.dev.setup#2-clone:#*]]
+![[dendron.dev.setup#^clone]]
 
 
 ## Cook

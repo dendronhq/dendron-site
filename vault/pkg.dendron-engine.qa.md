@@ -2,7 +2,7 @@
 id: 60fbcc05-df2a-44a2-aa0e-cdd62c2557b6
 title: Qa
 desc: ''
-updated: 1624400634450
+updated: 1628464039086
 created: 1614812225185
 ---
 
@@ -28,10 +28,15 @@ Engine tests use the presets in `common-test-utils/src/presets/engine-server/ind
 In order to narrow the test case to a single preset, use `getPreset`.
 
 ```ts
+import {
+  getPreset,
+} from "../../presets";
+
 test.only("bond", async () => {
   const preset = getPreset({key: "BASIC", nodeType: "NOTES", presetName: "render", presets: ENGINE_PRESETS})
   const { testFunc, ...opts } = preset;
   await runEngineTestV5(testFunc, { ...opts, createEngine, expect });
+  
 });
 ```
 

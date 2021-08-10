@@ -2,7 +2,7 @@
 id: c5e5adde-5459-409b-b34d-a0d75cbb1052
 title: Schemas
 desc: ''
-updated: 1628125493102
+updated: 1628281183439
 created: 1595952505039
 stub: false
 ---
@@ -225,6 +225,8 @@ template:
 Schema templates let you designate a note as a **template**. Newly created notes that match a schema with a template will have both the contents and custom frontmatter of the template note applied at creation.
 
 This is extremely useful whenever you want to re-use the outline of a note. Examples include daily journals, weekly shopping lists, and weekly reviews.  
+
+- NOTE: you'll need to run `Reload Workspace` for any new templates to take effect
 
 <a href="https://www.loom.com/share/481b7ab051394c1caa383383bd265755"> 
 <img style="" src="https://cdn.loom.com/sessions/thumbnails/481b7ab051394c1caa383383bd265755-with-play.gif"> 

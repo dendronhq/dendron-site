@@ -2,7 +2,7 @@
 id: 773e0b5a-510f-4c21-acf4-2d1ab3ed741e
 title: Style
 desc: ''
-updated: 1626832326273
+updated: 1628440526261
 created: 1609550314371
 ---
 
@@ -21,6 +21,30 @@ We use [eslint](https://eslint.org/) and [prettier](https://prettier.io/) to aut
 We use [`luxon`](https://moment.github.io/luxon/docs/class/src/datetime.js~DateTime.html) for all time related tasks. This is the successor of [`moment.js`](https://sebastiandedeyne.com/moment-js-thank-you-for-your-service/)
 
 
+## General
+
+### prefer using camelCase for variables
+
+```ts
+// good
+const camelCaseIsPreferred = true
+
+// bad
+const CamelCaseIsPreferred = false
+```
+
+### prefer returning objects instead of tuples
+
+This make it easier to update return signatures and makes it explicit what is being returned
+
+```ts
+// good
+const {fooValue, fooError} = foo()
+
+// bad
+const [fooValue, fooError] = foo()
+```
+
 ## Typescript
 
 ### prefer using `type` over `interface`
@@ -34,7 +58,7 @@ type Foo {
 
 }
 
-// boad
+// bad
 interface Foo {
 }
 

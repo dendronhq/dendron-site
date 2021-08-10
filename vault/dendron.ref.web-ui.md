@@ -47,11 +47,6 @@ The Dendron Calendar View has the following capabilities:
 
 #### Configuration
 
-##### journal.firstDayOfWeek
-- default: 0
-
-Set start of week (eg. `0` for sunday, `1` for monday, `2` for tuesday, etc.)  for the [[Dendron Calendar View|dendron.topic.workbench#calendar-view]]
-
 ### Preview
 
 ![[dendron://dendron.dendron-site/dendron.topic.preview-v2#summary,1]]

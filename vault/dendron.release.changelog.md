@@ -2,11 +2,44 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1628253569812
+updated: 1628569637539
 created: 1601508213606
 date: '2022-01-01'
 ---
 ## 0.54
+
+## 0.53.3
+
+### Features
+
+#### Github Publish Pod
+- ![[dendron.topic.pod.builtin.github.publish#summary,1:#*]]
+
+#### Custom Colors for Tags
+- [[Customizable tag colors|dendron.topic.tags#custom-tag-colors]] to color code your tags
+
+#### Rename Header Command
+- [[Rename Header Command|dendron.topic.commands#rename-header]] which updates links to that header
+
+### Enhancements
+- automatically resolve conflicting keybinding caused by vim extension
+
+
+### Bug Fixes
+- lookup was not setting [[splitType|dendron.topic.lookup.modifiers#splittype]] when executed with a custom keybinding
+
+### Pruning
+- we removed `journal.firstDayOfWeek` as a property from the web ui calendar. see details [here](https://github.com/dendronhq/dendron/pull/1065/files)
+
+### House Cleaning
+
+### Docs
+
+## 0.53.2
+
+### Bug Fixes
+
+- fix missing dependency in dendron-cli
 
 ## 0.53.1
 
@@ -22,13 +55,13 @@ Seed Commands now available within the extension. You can add seeds to your work
 
 ![[dendron://dendron.dendron-site/dendron.topic.commands#seed-add:#Misc]]
 
-#### Github Publish Pod
+#### Better Lookup
 
-The Github Publish Pod lets you update the status and labels of issues in your github repository that have previously been imported into Dendron. See the [[documentation|dendron.topic.pod.builtin.github.publish]] for how to configure the pod and authenticate with Github.
+We are splitting up the `Lookup` command into two separate commands: [[Lookup Note|dendron.topic.commands#lookup-note]] and [[Lookup Schema|dendron.topic.commands#lookup-schema]]. There's been a lot of confusion that has come from overloading the `Lookup` command which is now deprecated and will removed in a future release. 
+
+Besides for the split, [[Lookup Note|dendron.topic.commands#lookup-note]] should be significantly faster for large workspaces. Previously you might have noticed a lag when creating a new note in these cases. It also comes with a the new [[vaultSelection|dendron.topic.lookup.modifiers#vaultselection]] modifier that lets you prompt for a vault when creating a new note.
 
 ### Enhancements
-
-- The new lookup (in preview, accessible via `Dendron: Lookup Note`) now has horizontal split and copy note link [[modifiers|dendron.topic.lookup.modifiers]] for feature parity with existing lookup.
 - Google Docs Pod will now prompt users to confirm overwriting of a document before running with the [[confirmOverwrite configuration.|dendron.topic.pod.builtin.google-docs.import#confirmoverwrite]]
 - When choosing between vaults (for example, picking which vault to put a note in), the vaults will now show by the vault name instead of the vault path.
 
