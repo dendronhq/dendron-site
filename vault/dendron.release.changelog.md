@@ -24,7 +24,6 @@ date: '2022-01-01'
 ### Enhancements
 - automatically resolve conflicting keybinding caused by vim extension
 
-
 ### Bug Fixes
 - lookup was not setting [[splitType|dendron.topic.lookup.modifiers#splittype]] when executed with a custom keybinding
 

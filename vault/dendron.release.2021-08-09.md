@@ -2,7 +2,7 @@
 id: mZhQvxLdMJKaqpgyjOTVG
 title: Release Notes (version 0.54)
 desc: ''
-updated: 1628608728089
+updated: 1628617883051
 created: 1628588136181
 ---
 
@@ -12,16 +12,18 @@ Dendron 0.54 has sprouted  🌱
 ### Highlights
 
 - new lookup commands: lookup has split into "Lookup Note" and "Lookup Schema". these commands are significantly faster 🚀 than the current lookup on large workspaces
-- frontmatter tags: create `tags: [awesome, sprouts]` directly in the frontmatter
+- frontmatter tags: create `tags: [awesome, sprouts]` directly in the frontmatter 
+- custom tag colors: create the perfect color palette for each of your tags
+- rename headers: like **Rename Note** but for headers
 - integrated seeds: seed commands are now available from within the plugin
 - github publish pod: update the status of github issues from inside of Dendron
-
+- quality of life improvements
+    - auto-resolve conflicting keybinding from vim 
 - lots of fixes
   - issue with non-highlighting wikilinks
   - broken links in the extension README
   - adding a vault via the CLI will also add the vault in the code workspace
 
-- 
 
 ### Ongoing 
 
@@ -45,21 +47,21 @@ Docs:
   - fixed docs
 Issues:
 - [imalightbulb](https://github.com/imalightbulb)
-    - [[RFC] Integrated Space Repetition](https://github.com/dendronhq/dendron/issues/1109)
+    - #dendron.taxonomist
+    - [RFC - Integrated Space Repetition](https://github.com/dendronhq/dendron/issues/1109)
 - [ConnorSMaynes](https://github.com/ConnorSMaynes)
     - [Dendron: Paste File from clipboard, just like for image](https://github.com/dendronhq/dendron/issues/1090)
 - [manunamz](https://github.com/manunamz)
     - [Allow User To Set alphabet and size For Nanoid ID in Config](https://github.com/dendronhq/dendron/issues/1091)
-- [micharris42](https://github.com/micharris42)
+- [Micharris42](https://github.com/micharris42) @micharris42#6073
+    - #dendron.bugcatcher
     - [Wikilinks Changing Colors](https://github.com/dendronhq/dendron/issues/1093)
-- [craSH](https://github.com/craSH)
+- [craSH](https://github.com/craSH) craSH#0159
+    - #dendron.bugcatcher
     - [Dendron Paste Image command is not aware of wayland CLI tools for interacting with clipboard](https://github.com/dendronhq/dendron/issues/1095)
 - [bj0](https://github.com/bj0)
     - [Feature Request Adding date with schema autocomplete](https://github.com/dendronhq/dendron/issues/1107)
-- [christiand](https://github.com/christiand)
-    - [Extension doesnt start Code Helper Renderer 99 cpu](https://github.com/dendronhq/dendron/issues/1107)
 
 
 ### Changelog
 ![[dendron.release.changelog#054:#053]]
-
