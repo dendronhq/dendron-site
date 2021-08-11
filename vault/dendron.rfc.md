@@ -4,7 +4,6 @@ title: Rfc
 desc: ""
 updated: 1628720184835
 created: 1605539111635
-stub: false
 ---
 
 This is the place to propose and track major upcoming changes to Dendron and
