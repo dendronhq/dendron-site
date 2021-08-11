@@ -3,13 +3,13 @@ id: PgwAXFfotfgpFVqHQRlBl
 title: Dev
 desc: |
   Development related
-updated: 1628549376049
+updated: 1628693581622
 created: 1628376960868
 ---
 
 ## Build
 
-See build instructions [[|heredendron.dev.setup#build]] 
+See build instructions [[here|dendron.dev.setup#build]] 
 
 ## Run
 <!-- How to run the program from the current source code -->
