@@ -59,7 +59,7 @@ Since we are fully commited to MS Azure at this point, [Azure Static Web Apps](h
         azure_static_web_apps_api_token: '$(web-app-token)'
     ```
     It uses a builder called `Oryx` to automatically detect the project type (via package.json) and calls `npm run build` automatically. I only provided the basic options, if you want, you can override this.
-1. Set up the web-app-token. Edit the pipeline on the DevOps site. Select "Variables" and create a new secret variable called `web-app-token. Paste the token you copied earlier.
+1. Set up the web-app-token. Edit the pipeline on the DevOps site. Select "Variables" and create a new secret variable called `web-app-token`. Paste the token you copied earlier.
 1. Run the pipeline. Your site should now **publically (!)** be available. Let's fix that....
 
 ### Securing Access
