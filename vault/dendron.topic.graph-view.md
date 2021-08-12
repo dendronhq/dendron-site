@@ -2,7 +2,7 @@
 id: 587e6d62-3c5b-49b0-aedc-02f62f0448e6
 title: Graph View
 desc: ""
-updated: 1627619149272
+updated: 1628800410461
 created: 1595120707814
 stub: false
 ---
@@ -117,8 +117,9 @@ graph:
 ```
 
 ### Zoom Speed
-- type: number
-- default: 1
+
+-   type: number
+-   default: 1
 
 The speed at which the graph zooms in and out. Lower is slower, higher is faster.
 
@@ -131,6 +132,8 @@ Dendron supports custom styling of schema and note graphs. Styling follows the C
 Launch the command palette (see [[docs|dendron.guides.cook#launch-the-command-palette]]): `> Dendron: Configure Graph Style (css)`
 
 Once the `styles.css` file is open, add your styles and save. The styles will be visible in the graph the next time it is opened.
+
+> If you're migrating from Obsidian, see [[dendron.topic.pod.builtin.obsidian-style]].
 
 ### Selectors
 
