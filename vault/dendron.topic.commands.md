@@ -2,7 +2,7 @@
 id: eea2b078-1acc-4071-a14e-18299fc28f47
 title: Commands
 desc: ''
-updated: 1628269406138
+updated: 1628720722406
 created: 1595261816971
 ---
 
@@ -464,12 +464,10 @@ The url is taken from the [[siteUrl|dendron.topic.publishing.configuration#siteu
 ## Seeds
 
 ### Seed Add
-- [[Early Seed 🌱|dendron.ref.status#early-seed-]]
 
 Add a [[seed|dendron.topic.seeds]] to your current workspace.
 
 ### Seed Remove
-- [[Early Seed 🌱|dendron.ref.status#early-seed-]]
 
 Remove a [[seed|dendron.topic.seeds]] from your current workspace.
 
