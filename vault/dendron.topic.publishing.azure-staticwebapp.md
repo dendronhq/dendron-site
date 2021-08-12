@@ -10,7 +10,7 @@ This guide describes publishing to Azure StaticWebApp using Azure Devops & Pipel
 
 ## Pre-requisite
 
--   you already have your [[workspace under version control|dendron.topic.git]] and a repository on github
+-   you already have your [[workspace under version control|dendron.topic.git]] and a repository on Azure DevOps
 -   you have [[configured|dendron.topic.publishing.quickstart.publishing-your-site#configure-your-notes-for-publication]] your `dendron.yml` for publication
 
 ## Requirements
