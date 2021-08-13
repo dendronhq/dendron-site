@@ -2,10 +2,38 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1628569637539
+updated: 1628893714701
 created: 1601508213606
 date: '2022-01-01'
 ---
+## 0.55
+
+## 0.54.1
+
+### Features
+
+#### General Release of the Calendar Widget
+The [[Calendar View|dendron.ref.web-ui#calendar-view]] is no longer hidden behind a feature flag and is now ready for general usage.
+
+#### Validation and autocomplete for dendron.yml
+![[dendron.topic.config.dendron#validation-and-autocomplete,1:#*]]
+
+### Enhancements
+- bring [[Lookup Note|dendron.topic.commands#lookup-note]] to feature parity with existing lookup
+    - add schema suggestions
+    - show current Dendron version
+    - apply journal title override
+- Colored tags in the tree view ([[docs|dendron.topic.tags#custom-colors]])
+- Tags inherit color of ancestors ([[docs|dendron.topic.tags#custom-colors]])
+- Add leading slash to markdown links during export 
+
+### Bug Fixes
+- calendar: errors when switching between month/year
+- copy note link copies footnotes as anchors
+- NoteLookup gets old selection in some cases
+- missing tutorial warning when initializing a blank workspace
+- direct child filter can miss results 
+
 ## 0.54
 
 ## 0.53.3

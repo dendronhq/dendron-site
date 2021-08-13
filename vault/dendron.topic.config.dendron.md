@@ -2,17 +2,18 @@
 id: f83c1d87-eac0-48f3-a5cf-8a69989d8ec1
 title: Dendrons Config
 desc: ''
-updated: 1628572465048
+updated: 1628893788428
 created: 1619539817122
 ---
 
-### Summary
+## Summary
 
 `dendron.yml` located at the root of your workspace.
 
 This file can be accessed using these Commands ![[dendron.topic.commands#Configure-yaml,0,:#workspace-add-and-commit]]
 
 ![[dendron.topic.config#legend,0]]
+
 
 ## General
 
@@ -184,3 +185,21 @@ dev:
     enableWebUI: true
 ```
 
+## Validation and AutoComplete
+
+Dendron can provide validation when you edit the raw yaml using the[[Configure (yaml) Command|dendron.topic.commands#configure-yaml]]. In order to do so, you must have the `redhat.vscode-yaml` extension installed (this is a recommended extension for Dendron) The validator provides autocomplete, documentation & warnings when editing dendron.yml. Here's a few examples of what it looks like:
+
+Hover over values to see documentation
+
+![Hover over values to see documentation](https://camo.githubusercontent.com/f6cb94205c5f83dc6f17ecb843cc5fe27fbad12eb992f3ba5858bdafbfcae1cf/68747470733a2f2f692e696d6775722e636f6d2f534b48344b6a5a2e706e67)
+
+Autocomplete existing values
+
+![Autocomplete existing values](https://camo.githubusercontent.com/f934a307ba25613a539e3084e48e2c6e6bfa22df39fc39e326fc2256efa6f6cc/68747470733a2f2f692e696d6775722e636f6d2f65546750465a582e706e67)
+
+Validate existing values
+
+![Validate existing values](https://camo.githubusercontent.com/4e11001d0d14690c3cc37360e3a4ddab9debdca6d553373fac93fc027cbddf33/68747470733a2f2f692e696d6775722e636f6d2f436563554332482e706e67)
+
+
+## 
