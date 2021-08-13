@@ -2,7 +2,7 @@
 id: LAUb8WcM8rmjxJrR
 title: Arch
 desc: ''
-updated: 1627860376787
+updated: 1628732944526
 created: 1627859879590
 ---
 
@@ -54,3 +54,6 @@ filterByHiearchy(domain, notes) {
   }
 }
 ```
+
+### home page
+The `index` page is generated from the [[noteIndex|pkg.nextjs-template.arch.nextjs-pod#noteindex]] of the nextjs pod.

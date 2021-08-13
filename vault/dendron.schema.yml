@@ -4,6 +4,7 @@ schemas:
   parent: root
   children:
     - mission
+    - rfc
     - principles
     - todo
     - features
@@ -12,6 +13,14 @@ schemas:
     - topic
     - demo
     - dev
+- id: rfc
+  children: 
+    - rfcInstance
+- id: rfcInstance
+  pattern: '*'
+  template:
+    id: templates.rfc
+    type: note
 - id: faq
 - id: features
 - id: principles

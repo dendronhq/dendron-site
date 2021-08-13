@@ -2,7 +2,7 @@
 id: ZbtRI22izXCapbjW
 title: Note Lookup
 desc: ''
-updated: 1628546862398
+updated: 1628718862119
 created: 1627839920509
 ---
 
@@ -72,6 +72,18 @@ refreshPickerBehavior {
     buttonsEnabled.map bt => bt.onEnable
     buttonsDisabled.map bt => bt.onDisable
 }
+```
+
+### OnUpdatePickerItems
+
+```ts
+onUpdatePickerItems {
+
+    // modify for just activated behavior
+    if picker.justActivated && !picker.nonInteractive 
+
+}
+
 ```
 
 ### OnAccept

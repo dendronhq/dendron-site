@@ -2,7 +2,7 @@
 id: tgr7PkQAtJNvf5ya
 title: 17 Rich Web Client
 desc: ''
-updated: 1626806236929
+updated: 1628728197277
 created: 1626805862283
 ---
 ## Goals
@@ -29,3 +29,6 @@ Since Dendron currently publishes notes as static HTML, this will continue to be
 ## Tradeoffs
 
 ## Discussion
+
+## Lookup
+- [Strapi - Open source Node.js Headless CMS 🚀](https://strapi.io/)
