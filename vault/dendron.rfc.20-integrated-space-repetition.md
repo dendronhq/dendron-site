@@ -2,7 +2,7 @@
 id: X2Zn2H89eBZrsj7Of8LLm
 title: 20 Integrated Space Repetition
 desc: ''
-updated: 1628865946751
+updated: 1628866021555
 created: 1628735366207
 ---
 
@@ -68,7 +68,3 @@ created: 1628735366207
 - discussions are held on [RFC 20 Discussion Board](https://github.com/dendronhq/dendron/discussions/1133)
 
 
-I've added your rfc to our [RFC dashboard](https://wiki.dendron.so/notes/f143ca38-dcc6-4cd3-b84b-997aec1160ef.html)
-
-You are now in [step 5](https://wiki.dendron.so/notes/f143ca38-dcc6-4cd3-b84b-997aec1160ef.html#^Y6KpVpRVS0S9). Feel free to announce your rfc in the #feed
- of our RFC process
