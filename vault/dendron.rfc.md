@@ -2,7 +2,7 @@
 id: f143ca38-dcc6-4cd3-b84b-997aec1160ef
 title: Rfc
 desc: ""
-updated: 1628865775493
+updated: 1628865891771
 created: 1605539111635
 ---
 
@@ -107,9 +107,7 @@ point the RFC is 'in review' and may be implemented.
    larger community, and the author should be prepared to make revisions in
    response.
 4. Update the tracking issue with a link to the RFC PR.
-5. **Promote** your RFC amongst stakeholders via Discord. Build consensus and integrate feedback. RFCs that
-   have broad support are much more likely to make progress than those that
-   don't receive any comments.
+5. **Promote** your RFC amongst stakeholders via Discord. Build consensus and integrate feedback. RFCs that have broad support are much more likely to make progress than those that don't receive any comments. ^Y6KpVpRVS0S9
 6. Eventually, the team will decide whether the RFC is a candidate for inclusion
    in a future release of Dendron.
 7. RFCs that are candidates for inclusion will enter a "**final comment
