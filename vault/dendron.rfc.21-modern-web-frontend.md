@@ -2,7 +2,7 @@
 id: nB75cmdPhL7CTOATG6wpT
 title: 21 - Modern Web Frontend
 desc: ''
-updated: 1628954053514
+updated: 1628954161886
 created: 1628896161674
 ---
 
@@ -81,3 +81,5 @@ We are aiming to keep compatibility with the current configuration options and f
 ## Discussion
 - [21 - Modern Web Frontend · Discussion #1145 · dendronhq/dendron](https://github.com/dendronhq/dendron/discussions/1145)
 
+## Related
+- [Modern Web Frontend · Issue #1146 · dendronhq/dendron](https://github.com/dendronhq/dendron/issues/1146)
