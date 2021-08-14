@@ -1,6 +1,6 @@
 ---
 id: 17c61d62-f92e-4002-b8fe-9c05686e4bf9
-title: "1 Dendron: Next Edition"
+title: "1 - Native Preview Experience"
 desc: ''
 updated: 1615160650280
 created: 1610911846754
@@ -20,7 +20,7 @@ created: 1610911846754
     - next.js can eventually be used as a scaffold for our own web client or dedicated desktop client 
 
 ## Goals with v1
-- [ ] use next.js to do local preview of dendron notes
+- [x] use next.js to do local preview of dendron notes
 
 ### Stretch Goals
 - [ ] scroll sync
