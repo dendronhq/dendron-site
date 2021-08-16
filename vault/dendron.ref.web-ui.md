@@ -2,7 +2,7 @@
 id: 25287595-96bb-410b-ab46-eb9a26b0e259
 title: Web UI
 desc: ''
-updated: 1626382338591
+updated: 1628075346254
 created: 1621552722494
 ---
 
@@ -46,6 +46,25 @@ The Dendron Calendar View has the following capabilities:
     ```
 
 #### Configuration
+
+##### journal.dateFormat
+
+- default: `y.MM.dd`
+
+Possible tokens can be looked up under https://github.com/moment/luxon/blob/master/docs/formatting.md#table-of-tokens
+
+##### ~~journal.firstDayOfWeek~~
+
+<details>
+  <summary>currently not supported</summary>
+
+  Reason: luxon (the date library we use) currently does not support this (https://github.com/moment/luxon/issues/373).
+
+- default: 0
+
+Set start of week (eg. `0` for sunday, `1` for monday, `2` for tuesday, etc.)  for the [[Dendron Calendar View|dendron.topic.workbench#calendar-view]]
+
+</details>
 
 ### Preview
 
