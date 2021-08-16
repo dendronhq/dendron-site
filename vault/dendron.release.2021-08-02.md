@@ -53,8 +53,9 @@ Issues:
 - [aleksey-rowan](https://github.com/aleksey-rowan) @aleksey#5276
   - [copy note ref command ignores noXVaultWikiLink setting](https://github.com/dendronhq/dendron/issues/1072)
   - [Note timestamps are not expanded in vaults located outside of the dendron.yml config file's folder](https://github.com/dendronhq/dendron/issues/1050)
-  - [Notes created with 'doctor' from # tags, include punctuation chars that follow them in the name area.create type.bug](https://github.com/dendronhq/dendron/issues/1048)
   - [Link hover preview doesn't work following a code block with a backtick (`) in it](https://github.com/dendronhq/dendron/issues/1058)
+- [MaDDmin](https://github.com/MaDDmin)
+  - [Notes created with 'doctor' from # tags, include punctuation chars that follow them in the name area.create type.bug](https://github.com/dendronhq/dendron/issues/1048)
 - [ScriptAutomate](https://github.com/ScriptAutomate) @icanteven#0264
   - `+bugcatcher`
   - [cli vault creation is added to dendron.yml but not dendron.code-workspace](https://github.com/dendronhq/dendron/issues/1070)
