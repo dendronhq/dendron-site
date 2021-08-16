@@ -9,7 +9,7 @@ created: 1627859876918
 ## Summary 
 - [[Experimental 🧪|dendron.ref.status#experimental-🧪]]
 
-The Dendron NextJS Template is the basis for Dendron's new publishing frontend. It is build around NextJS and React. You can read about the motivation and goals behind this project in this [[rfc|dendron.rfc.21-modern-web-frontend]].
+The Dendron NextJS Template is the basis for Dendron's new publishing frontend. It is build around NextJS and React. You can read about the motivation and goals behind this project in this [[rfc|dendron.rfc.21-modern-web-client]].
 
 ## MVP Milestones
 
@@ -24,7 +24,7 @@ The NextJS Template is currently in Developer Preview.
 -   Advanced SEO Options 
 -   Custom Theming Support
 -   Full text search
--   [[Support live local preview for publishing|dendron.rfc.21-modern-web-frontend#3-support-live-local-preview-for-publishing]]
+-   [[Support live local preview for publishing|dendron.rfc.21-modern-web-client#3-support-live-local-preview-for-publishing]]
 
 ### Enhancements
 -   ~~Make Lookup change value when navigating~~

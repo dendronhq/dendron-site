@@ -1,14 +1,14 @@
 ---
 id: nB75cmdPhL7CTOATG6wpT
-title: 21 - Modern Web Frontend
+title: 21 - Modern Web Client
 desc: ''
-updated: 1628954161886
+updated: 1629139538047
 created: 1628896161674
 ---
 
 ## Goals
 
-Provide a modern web frontend for published Dendron notes. 
+Provide a modern web client for published Dendron notes. 
 
 ## Context
 
@@ -24,10 +24,10 @@ Dendron publishing has gone through a bunch of iteration. We started using a for
 
 ## Proposal
 
-- [[1. Replace 11ty with NextJS.|dendron.rfc.21-modern-web-frontend#1-replace-11ty-with-nextjs]]
-- [[2. Release Dendron's Web Frontend as a vanilla NextJS Template|dendron.rfc.21-modern-web-frontend#2-release-dendrons-web-frontend-as-a-vanilla-nextjs-template]]
-- [[3. Support live local preview for publishing|dendron.rfc.21-modern-web-frontend#3-support-live-local-preview-for-publishing]]
-- [[4. First Class Web Experience|dendron.rfc.21-modern-web-frontend#4-first-class-web-experience]]
+- [[1. Replace 11ty with NextJS.|dendron.rfc.21-modern-web-client#1-replace-11ty-with-nextjs]]
+- [[2. Release Dendron's Web Frontend as a vanilla NextJS Template|dendron.rfc.21-modern-web-client#2-release-dendrons-web-frontend-as-a-vanilla-nextjs-template]]
+- [[3. Support live local preview for publishing|dendron.rfc.21-modern-web-client#3-support-live-local-preview-for-publishing]]
+- [[4. First Class Web Experience|dendron.rfc.21-modern-web-client#4-first-class-web-experience]]
 
 ### 1. Replace 11ty with NextJS. 
 
