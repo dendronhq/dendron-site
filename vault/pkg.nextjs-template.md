@@ -2,7 +2,7 @@
 id: eQ5w4eqHrf4m1peq
 title: NextJS Template
 desc: ''
-updated: 1629139234301
+updated: 1629140007530
 created: 1627859876918
 ---
 
@@ -37,6 +37,7 @@ The NextJS Template is currently in Developer Preview.
 
 ### Fixes
 -   Deeply nested tree view items can overflow
+-   Backlinks and Children links go to wrong url
 -   Opening one child of tree view should not close existing children
 -   Opening one child of tree view should not close existing children
 -   CanoncialBaseUrl, remove autoappend .html behavior
