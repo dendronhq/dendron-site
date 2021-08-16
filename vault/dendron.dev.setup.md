@@ -32,7 +32,7 @@ Before you begin, you need to make sure to have the following SDKs and tools:
 1. Install dependencies
   ```bash
   # this should install all dependencies
-  yarn install
+  yarn setup
 
   # if the above script errors out, you can diagnose the issue and run the following scripts sequentially dependeing on where the error occured
   yarn # install package root dependencies

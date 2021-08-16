@@ -3,7 +3,7 @@ id: PgwAXFfotfgpFVqHQRlBl
 title: Dev
 desc: |
   Development related
-updated: 1628693581622
+updated: 1629138822516
 created: 1628376960868
 ---
 
@@ -17,19 +17,26 @@ See build instructions [[here|dendron.dev.setup#build]]
   ```
   cd packages/nextjs-template
   ```
-2. To run nextjs using sample data, you can run the following
-  - TODO
+1. To run nextjs using sample data, you can run the following
   ```
-  cd nextjs-template
-  wget https://artifacts-prod-artifactb7980f61-19orqnnuurvwy.s3.us-west-2.amazonaws.com/artifacts/dendron-site.zip data.zip
-  unzip data.zip
+  curl -LO https://artifacts-prod-artifactb7980f61-19orqnnuurvwy.s3.us-west-2.amazonaws.com/artifacts/dendron-site.zip 
+  unzip dendron-site.zip
   ```
-3. Run the nextj sapp
+1. Run the nextj sapp
   ```sh
   yarn dev
   ```
-4. Navigate to your browser. For example http://localhost:3000/notes/b0fe6ef7-1553-4280-bc45-a71824c2ce36 to go to a particular note
-- NOTE: you'll need to navigate to a note by going to `/notes/{note-id}`. Naked `localhost:3000` is not supported yet
+1. Navigate to your browser. For example http://localhost:3000/notes/b0fe6ef7-1553-4280-bc45-a71824c2ce36 to go to a particular note
+1. Build your notes for static hosting
+  ```sh
+  yarn export
+  ```
+1. Preview your statically hosted notes 
+  ```sh
+  cd out
+  python -m SimpleHTTPServer 8000
+  # open localhost:8000 to see your notes
+  ```
 
 ## Run with your own data
 1. Navigate to your workspace root
@@ -41,9 +48,10 @@ See build instructions [[here|dendron.dev.setup#build]]
   ```sh
   vim pods/dendron.nextjs/config.export.yml
   ```
-  - update the `dest` field to `nextjs-template/data`. you can see an example below
+  - update the `dest` field to the location of `nextjs-template`
   ```yml
-  dest: /Users/bob/code/dendron/packages/nextjs-template/data
+  # example path
+  dest: /Users/bob/code/dendron/packages/nextjs-template
   ```
 1. Run the pod
   ```sh
