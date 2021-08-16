@@ -2,7 +2,7 @@
 id: 4fdf54ac-599e-42e7-90a5-38964913a9a7
 title: "Seeds \U0001F6A7"
 desc: ''
-updated: 1616375506218
+updated: 1628215369814
 created: 1600219243498
 published: false
 ---
@@ -20,15 +20,23 @@ You can see an example of a published seeded vault [here](https://aws.dendron.so
 
 # Using a seed
 
-- NOTE: currently, seeds are only available using the [[dendron-cli|dendron.topic.cli]]
+You can add a seed from either within the extension or with the CLI.
 
-## Pre-requisites
+## Adding through the VS Code Extension
+
+You can add and remove seeds by running the commands below.
+
+![[dendron://dendron.dendron-site/dendron.topic.commands#seed-add:#Misc]]
+
+## Adding through the CLI
+
+### Pre-requisites
 
 Make sure you have the dendron-cli installed.
 
 ![[dendron.topic.cli#installation,1:#*]]
 
-## Instructions
+### Instructions
 
 1. Inside the workspace where you to plant your seeds, initialize a node project.
    ```bash

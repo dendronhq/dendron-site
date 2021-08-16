@@ -2,7 +2,7 @@
 id: 06751374-7982-4df2-b30b-92b10aba733a
 title: Process
 desc: ""
-updated: 1622043427333
+updated: 1628730744458
 created: 1619524509981
 ---
 
@@ -94,14 +94,7 @@ When we refer to "up-voting" a feature request, we specifically mean adding a Gi
 <img width="867" alt="GitHub UI for a issue with a +1 reaction" src="https://user-images.githubusercontent.com/8586769/87996982-b0568c80-caa8-11ea-87b8-a01371e6e338.png">
 
 ## Community Request On Planning (CROP for short)
-
-Every week, we post three issues in the [#feedback](https://discordapp.com/channels/717965437182410783/739186036495876126) channel. These are a combination of issues that are:
-
-1. Requested by the community (with >5 upvotes)
-2. New issues that people have recently expressed interest in.
-3. Feasible to do (or make substantial progress) within a week
-
-We take a quick poll over the weekend (opens Friday and closes on Monday) and we commit to delivering or making substantial progress on the issue by the next release (next Monday). If you're particularly interested in an issue being included as part of next week's CROP, that's good feedback too and we'll do our best to honor your requests. Don't worry if an issue doesn't make it, we have a weekly rotation of issues so it's bound to come back in soon.
+![[dendron.community.crop]]
 
 ## [Lookup](https://handbook.dendron.so/notes/b89ba854-72fb-4ebc-a8a0-55960b89e9dc.html#lookup)
 

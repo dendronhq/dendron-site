@@ -2,10 +2,102 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1627679133727
+updated: 1628893714701
 created: 1601508213606
 date: '2022-01-01'
 ---
+## 0.55
+
+## 0.54.1
+
+### Features
+
+#### General Release of the Calendar Widget
+The [[Calendar View|dendron.ref.web-ui#calendar-view]] is no longer hidden behind a feature flag and is now ready for general usage.
+
+#### Validation and autocomplete for dendron.yml
+![[dendron.topic.config.dendron#validation-and-autocomplete,1:#*]]
+
+### Enhancements
+- bring [[Lookup Note|dendron.topic.commands#lookup-note]] to feature parity with existing lookup
+    - add schema suggestions
+    - show current Dendron version
+    - apply journal title override
+- Colored tags in the tree view ([[docs|dendron.topic.tags#custom-colors]])
+- Tags inherit color of ancestors ([[docs|dendron.topic.tags#custom-colors]])
+- Add leading slash to markdown links during export 
+
+### Bug Fixes
+- calendar: errors when switching between month/year
+- copy note link copies footnotes as anchors
+- NoteLookup gets old selection in some cases
+- missing tutorial warning when initializing a blank workspace
+- direct child filter can miss results 
+
+## 0.54
+
+## 0.53.3
+
+### Features
+
+#### Github Publish Pod
+- ![[dendron.topic.pod.builtin.github.publish#summary,1:#*]]
+
+#### Custom Colors for Tags
+- [[Customizable tag colors|dendron.topic.tags#custom-tag-colors]] to color code your tags
+
+#### Rename Header Command
+- [[Rename Header Command|dendron.topic.commands#rename-header]] which updates links to that header
+
+### Enhancements
+- automatically resolve conflicting keybinding caused by vim extension
+
+### Bug Fixes
+- lookup was not setting [[splitType|dendron.topic.lookup.modifiers#splittype]] when executed with a custom keybinding
+
+### Pruning
+- we removed `journal.firstDayOfWeek` as a property from the web ui calendar. see details [here](https://github.com/dendronhq/dendron/pull/1065/files)
+
+### House Cleaning
+
+### Docs
+
+## 0.53.2
+
+### Bug Fixes
+
+- fix missing dependency in dendron-cli
+
+## 0.53.1
+
+### Features
+
+#### Frontmatter Tags
+
+![[Frontmatter tags|dendron.topic.tags#frontmatter-tags:#pretty-tags]]
+
+#### Seed Commands
+
+Seed Commands now available within the extension. You can add seeds to your workspace with the `Dendron: Seed Add` command, which was previously only available in the CLI.
+
+![[dendron://dendron.dendron-site/dendron.topic.commands#seed-add:#Misc]]
+
+#### Better Lookup
+
+We are splitting up the `Lookup` command into two separate commands: [[Lookup Note|dendron.topic.commands#lookup-note]] and [[Lookup Schema|dendron.topic.commands#lookup-schema]]. There's been a lot of confusion that has come from overloading the `Lookup` command which is now deprecated and will removed in a future release. 
+
+Besides for the split, [[Lookup Note|dendron.topic.commands#lookup-note]] should be significantly faster for large workspaces. Previously you might have noticed a lag when creating a new note in these cases. It also comes with a the new [[vaultSelection|dendron.topic.lookup.modifiers#vaultselection]] modifier that lets you prompt for a vault when creating a new note.
+
+### Enhancements
+- Google Docs Pod will now prompt users to confirm overwriting of a document before running with the [[confirmOverwrite configuration.|dendron.topic.pod.builtin.google-docs.import#confirmoverwrite]]
+- When choosing between vaults (for example, picking which vault to put a note in), the vaults will now show by the vault name instead of the vault path.
+
+### Bug Fixes
+
+- Fixed an issue where wikilinks were not getting highlighted
+- Fixed an issue with the doctor command's regenerate note ID feature
+- Fixed broken links in the extension readme
+- Add Vault command in the CLI will now properly modify your workspace file ^sZzM7QHk4i5m
 
 ## 0.53
 

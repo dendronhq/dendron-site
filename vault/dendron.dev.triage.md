@@ -2,7 +2,7 @@
 id: 1e6c8b49-ef88-4e79-b2df-e9d614c38a53
 title: Triage
 desc: ""
-updated: 1619104151765
+updated: 1628527529980
 created: 1610468038819
 ---
 
@@ -31,6 +31,14 @@ Feature area that helps keep your knowledge base manageable. Includes features t
 ### publish
 
 Static site generation, sending note links and anything that has to do with publishing your notes to a broader community.
+
+## flavor
+
+### happy
+Will this make it easier to use Dendron in the common case
+
+### crop
+This makes a good CROP issue
 
 ## size
 

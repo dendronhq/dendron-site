@@ -24,16 +24,16 @@ cd $DENDRON_ROOT
 source bootstrap/scripts/helpers.sh
 setRegLocal
 ```
+1. Run registry
+```
+verdacco
+```
 1. Create a local npm account
 ```sh
 npm login
 # NOTE: use username of `dendron`
 username: dendron
 passwod: ...
-```
-1. Run registry
-```
-verdacco
 ```
 
 ## Cook

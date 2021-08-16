@@ -2,7 +2,7 @@
 id: tO6EFCHd2rw350zh
 title: Import
 desc: ''
-updated: 1627611958868
+updated: 1628252260713
 created: 1626365094547
 ---
 
@@ -21,8 +21,6 @@ Follow the steps below to create a token. The scopes you require depends on the 
 
 
 -  On Step 2 in Oauth2 Playground, click on exchange authorization code for tokens. Copy the access token and store it in the  dendron gdoc import pod config file. 
-
-
 
 
 ## Example
@@ -85,22 +83,23 @@ Dendron is an **open-source**, **local-first**, **markdown-based**, **note-takin
 	 - Adam Smith: Yes, added.
 ```
 
-### Configuration
+## Configuration
 
 ![[dendron.topic.pod.import#configuration,1]]
 
+### Additional Google Doc Pod Specific Configurations:
 
-## token
+### token
 - description: google doc personal access token
 - type: string
 - required: true
 
-## hierarchyDestination
+### hierarchyDestination
 - description: name of hierarchy to import into
 - type: string
 - required: true
 
-## documentId
+### documentId
 
 - description: document Id of doc to import
 - type: string
@@ -108,12 +107,10 @@ Dendron is an **open-source**, **local-first**, **markdown-based**, **note-takin
 
 document id can be referenced from the url of the google doc.
 In the below url 14o1AVg10CBbLlqNqBrCz4HkR is the _document id._
-`
-https://docs.google.com/document/d/14o1AVg10CBbLlqNqBrCz4HkR
-`
 
+`https://docs.google.com/document/d/14o1AVg10CBbLlqNqBrCz4HkR`
 
-## importComments
+### importComments
 
 - description: import comments from the doc in text or json format
 - required: false
@@ -131,9 +128,9 @@ https://docs.google.com/document/d/14o1AVg10CBbLlqNqBrCz4HkR
       default: json
       accepted formats: json/text
 
-## confirmOverwrite
+### confirmOverwrite
 
-- description: get confirmation before overwriting existing note
+- description: prompt user for confirmation before overwriting existing note
 - type: boolean
 - required: false
 - default: true

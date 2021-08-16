@@ -2,7 +2,7 @@
 id: ad270a7d-2aed-4273-8319-eb6536e38b29
 title: Modifiers
 desc: ''
-updated: 1621279187748
+updated: 1628269349724
 created: 1604883459208
 ---
 Modifiers allow you to update the behavior of lookup. You can trigger a modifier by clicking on the modifier icon or passing custom arguments to `dendron.lookup` when defining a custom keyboard shortcut. 
@@ -99,6 +99,12 @@ You can toggle multi-select within lookup. This lets you work with multiple note
 ### copyWikiLink
 
 Copy the results of a lookup as a wikilink.
+
+### vaultSelection
+
+Prompt for vault when creating a new note. Only available for the [[Lookup Note|dendron.topic.commands#lookup-note]] command.
+
+### vault
 
 ## Other Modifiers
 

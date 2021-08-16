@@ -3,7 +3,7 @@ id: 9aa25182-4f40-45ce-b94c-f9eaf7a9a073
 title: Quickstart
 desc: |
   Getting started with the project
-updated: 1621630231311
+updated: 1628151492105
 created: 1621201571965
 ---
 
@@ -35,7 +35,7 @@ created: 1621201571965
 ## Tools
 When working with the webapp, download the following extensions
 - [Redux DevTools](https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd?hl=en) (Chrome): inspect redux state
-- [React Developer Tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en) (Chrome): inspect reac tstate
+- [React Developer Tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en) (Chrome): inspect react state
 
 ## Lookup
 Its useful to get familiar with the following technologies when working with the webapp:
