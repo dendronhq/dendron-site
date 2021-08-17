@@ -2,7 +2,7 @@
 id: eQ5w4eqHrf4m1peq
 title: NextJS Template
 desc: ''
-updated: 1629206688542
+updated: 1629208735224
 created: 1627859876918
 ---
 
@@ -28,15 +28,14 @@ The NextJS Template is currently in Developer Preview.
 
 ### Enhancements
 -   ~~Make Lookup change value when navigating~~
--   Make Breadcrumb clickable
--   Deeply nested tree view items can overflow 
--   Make breadcrumb clickable 
+-   Make Breadcrumb clickable #assigned
+-   Deeply nested tree view items can overflow  #assigned
 -   Support nav order in Single Hiearchy Workspaces
--   Set max-width constraints for content
--   Navigate to home page using `nextjs/link` instead of `<a>`
+-   Set max-width constraints for content 
+-   Navigate to home page using `nextjs/link` instead of `<a>` #assigned
 
 ### Fixes
--   Deeply nested tree view items can overflow
+-   Deeply nested tree view items can overflow #assigned
 -   Backlinks and Children links go to wrong url
 -   Internal links go to wrong url 
 -   Opening one child of tree view should not close existing children

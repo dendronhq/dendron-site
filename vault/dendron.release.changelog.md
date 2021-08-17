@@ -2,11 +2,27 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1628893714701
+updated: 1629234869430
 created: 1601508213606
 date: '2022-01-01'
 ---
 ## 0.55
+
+## 0.54.2
+
+### Features
+#### Insert Note Index Command
+
+### Enhancements
+
+### Bug Fixes
+
+### Pruning
+
+### House Cleaning
+
+### Docs
+
 
 ## 0.54.1
 
