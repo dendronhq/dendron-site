@@ -2,7 +2,7 @@
 id: ZbtRI22izXCapbjW
 title: Note Lookup
 desc: ''
-updated: 1628718862119
+updated: 1629145879511
 created: 1627839920509
 ---
 
@@ -80,7 +80,15 @@ refreshPickerBehavior {
 onUpdatePickerItems {
 
     // modify for just activated behavior
-    if picker.justActivated && !picker.nonInteractive 
+    if picker.justActivated && !picker.nonInteractive  {
+        pickerValue = getQsForCurrentLevel
+    }
+    querystring := pickerValue
+    ...
+    items = [...picker.items]
+    updatedItems = fetchPickerResults(querystring)
+    ...
+    picker.items = updatedItems
 
 }
 

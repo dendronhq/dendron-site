@@ -2,7 +2,7 @@
 id: 683740e3-70ce-4a47-a1f4-1f140e80b558
 title: FAQ
 desc: ''
-updated: 1627661242045
+updated: 1629205064953
 created: 1595952505025
 stub: false
 nav_order: 6
@@ -251,6 +251,16 @@ TLDR: vscode doesn't expose tab completion via API. There are two alternatives w
 
 -   overload the `enter` command, one press to autocomplete, two presses to select
 -   replace the lookup component with a webview
+
+## Pods
+
+### What are pods?
+
+Pods are a means of data migration. You can import/export notes from other tools in and out of Dendron
+
+Internally for example, we use google docs to take meeting notes collaboratively and then we use the gdoc import pod to turn it into a dendron note
+
+You can read more about them [[here|dendron.topic.pod]].
 
 ## Publishing
 ![[dendron://dendron.dendron-site/dendron.topic.publishing.faq]]

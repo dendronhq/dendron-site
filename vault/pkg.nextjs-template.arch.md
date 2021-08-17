@@ -9,6 +9,8 @@ created: 1627859879590
 
 # Publishing
 
+This describes how notes are filtered for publishing
+
 - src/builtin/NextjsExportPod.ts
 ```ts
 SiteUtils.filterByConfig 

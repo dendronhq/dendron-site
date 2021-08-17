@@ -2,40 +2,44 @@
 id: eQ5w4eqHrf4m1peq
 title: NextJS Template
 desc: ''
-updated: 1628451573963
+updated: 1629206688542
 created: 1627859876918
 ---
 
 ## Summary 
 - [[Experimental 🧪|dendron.ref.status#experimental-🧪]]
 
-The Dendron NextJS Template is the basis for Dendron's new publishing platform. It is build around NextJS and React. 
-
-
-<a href="https://www.loom.com/share/2efa774560954087bf15ae6705ac690e">
-    <p>Google Chrome - localhost:3000/notes/b0fe6ef7-1553-4280-bc45-a71824c2ce36 - Watch Video</p>
-    <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/2efa774560954087bf15ae6705ac690e-with-play.gif">
-</a>
-
+The Dendron NextJS Template is the basis for Dendron's new publishing frontend. It is build around NextJS and React. You can read about the motivation and goals behind this project in this [[rfc|dendron.rfc.21-modern-web-client]].
 
 ## MVP Milestones
 
-The NextJS Template is currently in alpha. 
+The NextJS Template is currently in Developer Preview. 
 
 ### Features
--   Handle navigating to home page
-  -   Tree View
-  -   URL
--   Fixed Header
+-   ~~Handle navigating to home page~~
+-   ~~Fixed Header~~
+-   ~~SEO options~~
+-   ~~Edit on Github Link~~
 -   Responsive side bar
--   SEO options
--   Edit on Github Link
+-   Advanced SEO Options 
+-   Custom Theming Support
+-   Full text search
+-   [[Support live local preview for publishing|dendron.rfc.21-modern-web-client#3-support-live-local-preview-for-publishing]]
 
 ### Enhancements
--   Clicking on item in nav bar shoudl show spinner
--   Make Lookup change value when navigating
+-   ~~Make Lookup change value when navigating~~
 -   Make Breadcrumb clickable
+-   Deeply nested tree view items can overflow 
+-   Make breadcrumb clickable 
+-   Support nav order in Single Hiearchy Workspaces
+-   Set max-width constraints for content
+-   Navigate to home page using `nextjs/link` instead of `<a>`
 
 ### Fixes
 -   Deeply nested tree view items can overflow
+-   Backlinks and Children links go to wrong url
+-   Internal links go to wrong url 
 -   Opening one child of tree view should not close existing children
+-   Opening one child of tree view should not close existing children
+-   CanoncialBaseUrl, remove autoappend .html behavior
+-   Sometimes breadcrumb doesn't load
