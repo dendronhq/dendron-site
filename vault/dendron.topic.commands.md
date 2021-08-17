@@ -2,7 +2,7 @@
 id: eea2b078-1acc-4071-a14e-18299fc28f47
 title: Commands
 desc: ''
-updated: 1628866277451
+updated: 1629187868117
 created: 1595261816971
 ---
 
@@ -100,6 +100,8 @@ The format of the block is as follows:
 ...
 ```
 
+If used in a multi-vault workspace and [[noXVaultWikiLink|dendron.topic.config.dendron#noxvaultwikilink]] is not set, the wikilinks will have a vault prefix added to avoid ambiguity.
+
 Given the following hierarchy:
 ```
 ├── recipe
@@ -132,6 +134,8 @@ Running it in the note `recipe.eggs` will insert the following at cursor positio
 - [[Benedict|recipe.eggs.benedict]]
 - [[Florentine|recipe.eggs.florentine]]
 ```
+
+- configuration : [[insertNoteIndex|dendron.topic.config.dendron#insertnoteindex]]
 
 ### Move Note
 
