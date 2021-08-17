@@ -2,7 +2,7 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1629234869430
+updated: 1629235540996
 created: 1601508213606
 date: '2022-01-01'
 ---
@@ -12,17 +12,13 @@ date: '2022-01-01'
 
 ### Features
 #### Insert Note Index Command
+![[dendron.topic.commands#insert-note-index,1:#*]]
 
 ### Enhancements
+- resolve wikilinks with `siteUrl` when using the Markdown Publish Pod ([[docs|dendron.topic.pod.builtin.markdown.publish#config]])
 
 ### Bug Fixes
-
-### Pruning
-
-### House Cleaning
-
-### Docs
-
+- escaping from lookup can cause next lookup to be run twice
 
 ## 0.54.1
 
