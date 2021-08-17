@@ -2,7 +2,7 @@
 id: eea2b078-1acc-4071-a14e-18299fc28f47
 title: Commands
 desc: ''
-updated: 1628720722406
+updated: 1629187868117
 created: 1595261816971
 ---
 
@@ -88,6 +88,54 @@ When inserting a note, all snippet [[variables|dendron.topic.snippets#variables]
 ### Insert Note Link
 
 Insert the note link into the current document using lookup.
+
+### Insert Note Index
+
+Insert a block that lists the direct children of the current note to cursor position.
+
+The format of the block is as follows:
+```md
+## Index
+- [[{ch1}|{noteName}]]
+...
+```
+
+If used in a multi-vault workspace and [[noXVaultWikiLink|dendron.topic.config.dendron#noxvaultwikilink]] is not set, the wikilinks will have a vault prefix added to avoid ambiguity.
+
+Given the following hierarchy:
+```
+├── recipe
+├── recipe.eggs
+├── recipe.eggs.royale
+├── recipe.eggs.deviled
+├── recipe.eggs.benedict
+├── recipe.eggs.florentine
+├── recipe.bagel 
+├── recipe.bagel.with-gravlax
+├── recipe.chicken
+└── recipe.chicken.curry
+```
+
+Running this command with the note `recipe` open will insert the following at cursor position:
+
+```md
+## Index
+- [[Eggs|recipe.eggs]]
+- [[Bagel|recipe.bagel]]
+- [[Chicken|recipe.chicken]]
+```
+
+Running it in the note `recipe.eggs` will insert the following at cursor position:
+
+```md
+## Index
+- [[Royale|recipe.eggs.royale]]
+- [[Deviled|recipe.eggs.deviled]]
+- [[Benedict|recipe.eggs.benedict]]
+- [[Florentine|recipe.eggs.florentine]]
+```
+
+- configuration : [[insertNoteIndex|dendron.topic.config.dendron#insertnoteindex]]
 
 ### Move Note
 
