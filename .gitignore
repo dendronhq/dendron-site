@@ -34,3 +34,4 @@ assets
 scripts/sync_assets.sh
 seeds
 pods/dendron.nextjs/config.export.yml
+.dendron.cache*
