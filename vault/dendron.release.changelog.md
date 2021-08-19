@@ -2,10 +2,45 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1629235540996
+updated: 1629412014370
 created: 1601508213606
 date: '2022-01-01'
 ---
+## 0.56
+
+## 0.55.2
+
+### Features
+
+#### Better Lookup Commands
+Lookup is now split into two commands, [[Lookup Note|dendron.topic.commands#lookup-note]] and [[Lookup Schema|dendron.topic.commands#lookup-schema]]. These new commands support all the features of the existing lookup and are much faster on large workspaces.
+
+As part of this change, any keyboard shortcuts you have that reference `dendron.lookup` should also have been been auto-migrated to use `dendron.noteLookup` instead. 
+
+### Enhancements
+- notes: wildcard anchors will now work at the end of a note, addresses following [issue]((https://github.com/dendronhq/dendron/pull/1158))
+- notes: avoid parsing notes that are too large
+- workspace: better error message when trying to refactor notes without frontmatter
+- publishing: breadcrumbs are now clicakble
+
+### Bug Fixes
+- notes: note reference inserting title of note in preview
+- preview: horizontal line not rendering in preview
+- publishing: internal links pointing to bad url
+
+### Pruning
+
+### House Cleaning
+- migrate all Lookup tests to NoteLookup and Schema lookup
+
+### Publishing
+
+
+## 0.55.1
+
+### Bug Fixes
+- copy note url command not working
+
 ## 0.55
 
 ## 0.54.2

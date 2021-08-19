@@ -2,7 +2,7 @@
 id: 04dd9ad8-3d81-4098-a661-21b6acc6f443
 title: Dev
 desc: ''
-updated: 1629310785382
+updated: 1629390992437
 created: 1621721485330
 ---
 
@@ -60,6 +60,10 @@ Configuration migrations should be done in two phases
 - [example issue](https://github.com/dendronhq/dendron/issues/613)
 
 See [[Configuration|pkg.common-all.dev#configuration]]
+
+### Working with VSCode Workspace State
+
+Use the [[State Service|pkg.dendron-plugin.arch.state-service]] when working with VSCode workspace related state.
 
 ## Rest
 
