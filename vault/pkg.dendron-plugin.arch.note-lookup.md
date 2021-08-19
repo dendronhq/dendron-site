@@ -2,13 +2,62 @@
 id: ZbtRI22izXCapbjW
 title: Note Lookup
 desc: ''
-updated: 1629145879511
+updated: 1629329750729
 created: 1627839920509
 ---
 
 ## Summary
 
 This describes the logic for Note Lookup
+
+## State Diagram
+
+```mermaid
+
+stateDiagram-v2
+    [*] --> LookupCommand
+
+    state LookupCommand {
+        [*] --> run
+        run --> gatherInput
+        gatherInput --> prepareQuickPick
+        gatherInput --> constructProvider
+        gatherInput --> enrichInput
+        enrichInput --> subscribe
+        enrichInput --> subscribedToListener
+        subscribedToListener --> showQuickPick
+        lookupExecute --> [*]
+
+      state Controller {
+        prepareQuickPick
+        prepareQuickPick --> gatherInput
+        showQuickPick --> show
+      }
+
+      state Provider {
+        constructProvider --> gatherInput
+      }
+
+      state Quickpick {
+        show
+      }
+
+    }
+
+    state HistoryListener {
+      state listen <<choice>>
+      subscribe  --> listening
+      listening --> listen
+      listen --> done : if action = done
+      listen --> done : if action = changeState & data = hide & !picker.pending
+      listen --> done : if action = error
+      listen --> listening: otherwise
+      done --> [*]
+    }
+
+    HistoryListener --> lookupExecute
+```
+
 
 ## Steps
 - [[Gather Input|pkg.dendron-plugin.arch.note-lookup#gather-input]]

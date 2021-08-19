@@ -2,7 +2,7 @@
 id: 683740e3-70ce-4a47-a1f4-1f140e80b558
 title: FAQ
 desc: ''
-updated: 1629205064953
+updated: 1629390159356
 created: 1595952505025
 stub: false
 nav_order: 6
@@ -227,6 +227,14 @@ Many VSCode extensions that work across multiple git repositories won't recogniz
         }
     ],
 ```
+
+## Working with Humans
+
+### How do I share my notes with others?
+1. The *easiest* way to share public documents *for consumers* is to publish it as a site. Instructions [[here|dendron.topic.publishing.quickstart]]
+2. If folks are comfortable with markdown, you can use the markdown pod to export your entire workspace or just a specific page to markdown. Instructions [[here|dendron.topic.pod.builtin.markdown]]
+    - NOTE: this doesn't preserve backlinks or assets
+3. The full experience is committing your workspace as a git repo and having collaborators use Dendron to add it as a [[Remote Vault|dendron.topic.vaults#remote-vault]]
 
 ## Finding Notes
 
