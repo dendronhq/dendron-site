@@ -2,11 +2,21 @@
 id: 1e6c8b49-ef88-4e79-b2df-e9d614c38a53
 title: Triage
 desc: ""
-updated: 1628527529980
+updated: 1629309788382
 created: 1610468038819
 ---
 
 This describes how Dendron [issues](https://github.com/dendronhq/dendron/labels?page=1&sort=name-asc) are laid out in github.
+
+## scope
+
+### frontend
+
+Frontend related tasks
+
+### backend
+
+Backend related tasks
 
 ## area
 
