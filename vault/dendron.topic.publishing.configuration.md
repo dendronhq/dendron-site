@@ -2,7 +2,7 @@
 id: f2ed8639-a604-4a9d-b76c-41e205fb8713
 title: Configuration
 desc: ''
-updated: 1629268828392
+updated: 1629514693398
 created: 1608528797892
 nav_order: 3
 ---
@@ -33,21 +33,20 @@ site:
   siteRootDir: docs
 ```
 
-### assetsPrefix (optional)
-
+### assetsPrefix 
 - default: none
 
 Prefix for assets. 
 
 - NOTE: By default, assets are served from the root. If you are publishing to github pages and followed the instructions [here](https://pages.github.com/) by creating a repo named `{username}.github.io`, then no further action is needed. This is because github will make your site available at `https://{username}.github.io`. If you created a custom repo, you will need to set the prefix to the name of your repo because github will make your site available at `https://username.github.io/{your-repo-name/}`
 
-### copyAssets (optional)
+### copyAssets
 
 - default: true
 
 Copy assets from vault to site.
 
-### customHeaderPath (optional)
+### customHeaderPath 
 
 If set, set path to a custom header file (relative to your workspace root) which will be included in all your published pages
 
@@ -63,7 +62,7 @@ site:
 <script> console.log("hello world"); </script>
 ```
 
-### duplicateNoteBehavior (optional)
+### duplicateNoteBehavior 
 
 When publishing in multi-vault scenario, how to handle duplicate notes
 
@@ -77,24 +76,24 @@ duplicateNoteBehavior:
   payload: [{vault1}, {vault2}, {vault3}]
 ```
 
-### ga_tracking (optional)
-
+### ga_tracking 
 Your ga tracking number if you want to add google analytics. 
 
 - NOTE: won't be included in `dev` preview
 
-### githubCname (optional)
-
+### githubCname
 - default: none
 
 Cname used for github pages
 
-### logo (optional)
+### logo 
 
 - default: none
 - eg: `vault/assets/images/logo.png`
 
-Used to add a logo image for all headers
+Used to add a logo image to site. Logo will appear in:
+- site header
+- as the default image if no `image` property is set for a note
 
 ### previewPort
 
@@ -102,19 +101,21 @@ Used to add a logo image for all headers
 
 Set a different port when using the [[buildSite|dendron.topic.cli#buildsite]] command.
 
-### siteFaviconPath (optional)
+### siteFaviconPath 
 
 - default: "favicon.ico"
 
 Path to favicon. Relative to workspace.
 
-### siteHierarchies (required)
+- NOTE: this is deprecated in nextjs publishing (favicon can be placed directly in the `/public` dir)
+
+### siteHierarchies 
 
 - default: [root]
 
 List of hierarchies to publish. `root` is a special value that means `publish all`.
 
-### siteLastModified (optional)
+### siteLastModified 
 
 - default: false
 
@@ -122,30 +123,24 @@ If set to true, show a last modified at the bottom of your site. This value is s
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/publishv2.last-modified.jpg)
 
-### siteIndex (optional)
+### siteIndex 
 
 - default: first element of `siteHiearchies`
 
 Path of your index (home page)
 
-### siteProtocol (optional)
-
-- default: https
-
-Website protocol
-
-### siteRootDir (required)
+### siteRootDir 
 
 - default: "docs"
 
 Location of the directory where site will be build. Relative to your workspace
 
-### siteRepoDir (optional)
+<!-- ### siteRepoDir 
 
 - default: none
 - status: NOT currently supported 
 
-Location of the github repo where your site notes are located. By default, this is assumed to be your `workspaceRoot` if not set. This is used with the `Publish Notes` command
+Location of the github repo where your site notes are located. By default, this is assumed to be your `workspaceRoot` if not set. This is used with the `Publish Notes` command -->
 
 ### siteUrl 
 - required
