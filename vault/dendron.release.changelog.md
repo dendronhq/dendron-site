@@ -2,7 +2,7 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1629412014370
+updated: 1629505281711
 created: 1601508213606
 date: '2022-01-01'
 ---
@@ -12,10 +12,10 @@ date: '2022-01-01'
 
 ### Features
 
-#### Better Lookup Commands
-Lookup is now split into two commands, [[Lookup Note|dendron.topic.commands#lookup-note]] and [[Lookup Schema|dendron.topic.commands#lookup-schema]]. These new commands support all the features of the existing lookup and are much faster on large workspaces.
+#### Better Lookup by Default
+Last week we announced a [[better lookup|dendron.release.changelog#0531]] command, rebuild from the ground up to be faster, more stable, and easier to embed into new commands. We have now finished migrating all existing lookup features to the new commands and have switched to using it for all lookup related operations. 
 
-As part of this change, any keyboard shortcuts you have that reference `dendron.lookup` should also have been been auto-migrated to use `dendron.noteLookup` instead. 
+You shouldn't notice any difference in your daily workflow. There is **one breaking change** - any keyboard shortcuts that reference `dendron.lookup` should be changed to `dendron.noteLookup` instead.
 
 ### Enhancements
 - notes: wildcard anchors will now work at the end of a note, addresses following [issue]((https://github.com/dendronhq/dendron/pull/1158))
@@ -28,13 +28,8 @@ As part of this change, any keyboard shortcuts you have that reference `dendron.
 - preview: horizontal line not rendering in preview
 - publishing: internal links pointing to bad url
 
-### Pruning
-
 ### House Cleaning
 - migrate all Lookup tests to NoteLookup and Schema lookup
-
-### Publishing
-
 
 ## 0.55.1
 

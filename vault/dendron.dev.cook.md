@@ -2,10 +2,12 @@
 id: a80f36d9-01d0-4c5a-a228-867b093a4913
 title: Cookbook
 desc: ''
-updated: 1627619656868
+updated: 1629500604348
 created: 1599151918645
 stub: false
 ---
+
+## Build
 
 ### Building from clean repo
 
@@ -55,6 +57,30 @@ npm publish --access public
 
 All packages in the repo use a standard base configuration found at [.eslintrc.js](.eslintrc.js). If you're using the VS Code and would like to see eslint violations on it, install the [eslint extension](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint).
 
+### Using a local npm registry
+
+- pre-req:
+  - install verdaccio
+
+```sh
+source bootstrap/scripts/helpers.sh
+setRegLocal
+verdaccio
+```
+
+## Config
+
+### Update JSON Config with comments
+Dendron works with JSON with comments when working the a vscode workspace file, snippets file or the keybindings file. When making a change here, take care to both read and write to the file while preserving comments. 
+
+You'll want to make sure to use the following functions to read, assign and write json with comments
+
+```ts
+async function readJSONWithComments(fpath: string)
+function assignJSONWithComment(jsonObj: any, dataToAdd: any) {
+function writeJSONWithComments(fpath: string, data: any)
+```
+
 ### Add a new site config option
 
 The following is an example of controlling formatting options to the DendronSiteConfig. You can see the [issue](https://github.com/dendronhq/dendron/issues/278) for more details.
@@ -82,24 +108,8 @@ When all this is done, we can add tests that the formatting behavior works
 
 The above changes are for `Rename`. `Refactor` calls rename in a loop so changing rename should update refactor as well.
 
-### Using a local registry
 
-- pre-req:
-  - install verdaccio
-
-```sh
-source bootstrap/scripts/helpers.sh
-setRegLocal
-verdaccio
-```
-
-### Publishing
-
-This will publish a patch release
-
-```
-./bootstrap/scripts/createBuild.sh
-```
+## Other
 
 ### Tuning Lookup
 - create `proto.ts` inside `engine-server`
@@ -248,6 +258,9 @@ export async function main() {
 }
 main2();
 ```
+
+
+## Styling and Version Control
 
 ### Manually Formatting the code
 

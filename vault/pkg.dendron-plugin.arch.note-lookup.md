@@ -2,7 +2,7 @@
 id: ZbtRI22izXCapbjW
 title: Note Lookup
 desc: ''
-updated: 1629329750729
+updated: 1629481073724
 created: 1627839920509
 ---
 
@@ -31,15 +31,21 @@ stateDiagram-v2
       state Controller {
         prepareQuickPick
         prepareQuickPick --> gatherInput
-        showQuickPick --> show
+        showQuickPick --> onUpdatePickerItems
+        showQuickPick --> [*]
       }
 
       state Provider {
         constructProvider --> gatherInput
+        onUpdatePickerItems --> updatePickerItems
       }
 
       state Quickpick {
-        show
+        state updatePickerItems <<choice>>
+        updatePickerItems --> fetchRootResults: if qs = ""
+        updatePickerItems --> [*]: if noChangeValue(picker)
+        updatePickerItems --> fetchPickerResultsp
+        fetchRootResults --> [*]
       }
 
     }
