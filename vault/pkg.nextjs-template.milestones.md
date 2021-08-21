@@ -2,7 +2,7 @@
 id: wnjZiTP1UEW9e0aGz1HT0
 title: Milestones
 desc: ''
-updated: 1629516741630
+updated: 1629516994054
 created: 1629514021198
 ---
 
@@ -40,6 +40,8 @@ See [here](https://handbook.dendron.so/notes/0292b34e-47eb-4499-8f49-d9891accdb3
   - x support [[siteUrl|dendron.topic.publishing.configuration#siteurl]]
   -   support [[usePrettyRefs|dendron.topic.publishing.configuration#useprettyrefs]]
   - x support [[gh_edit_repository|dendron.topic.publishing.configuration#gh_edit_repository]]
+  -   support [[author|dendron.topic.publishing.configuration#author]] seo property
+  -   support [[twitter|dendron.topic.publishing.configuration#twitter]] seo property
 -   Support nav order in Single Hiearchy Workspaces
 -   Set max-width constraints for content 
 -   Navigate to home page using `nextjs/link` instead of `<a>` #assigned
