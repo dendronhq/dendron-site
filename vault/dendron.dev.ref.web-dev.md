@@ -2,7 +2,7 @@
 id: PZhEkONwVTKRcXPepinBy
 title: Web Dev
 desc: ''
-updated: 1629669806731
+updated: 1629670807566
 created: 1629669110041
 ---
 
@@ -36,8 +36,13 @@ After you have gone through the above tutorials, we recommend that you put them 
 
 Feel free to post in the `#dev` channel of our [discord](https://discord.gg/AE3NRw9) if you have any questions or want further context on the tasks. 
 
-To do a deep dive into specific parts of react, we recommend the following resources:
-- [enaqx/awesome-react: A collection of awesome things regarding React ecosystem](https://github.com/enaqx/awesome-react): awesome list of React resources
+
+## Resources
+
+To do a deep dive into specific concepts, we recommend the following resources
+
+### React
 - [Overreacted](https://overreacted.io/): Dan Abramov is one of the creators of React and writes great technical pieces about it
-
-
+- [enaqx/awesome-react: A collection of awesome things regarding React ecosystem](https://github.com/enaqx/awesome-react): awesome list of React resources
+### Next.js
+- [unicodeveloper/awesome-nextjs: A curated list of awesome resources : books, videos, articles about using Next.js ](https://github.com/unicodeveloper/awesome-nextjs)
