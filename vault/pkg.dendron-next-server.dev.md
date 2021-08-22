@@ -12,7 +12,6 @@ created: 1621630111186
 ### Pre-req
 - [[dendron.dev.setup]]
 - [[Symlink the CLI|pkg.dendron-cli.dev#symlink]] `dendron-cli`
-- [[React Tutorial|eng.ref.react#getting-started]] (optional - do this if you're new to react/redux/nextjs or need a refresher)
 
 ### Steps
 

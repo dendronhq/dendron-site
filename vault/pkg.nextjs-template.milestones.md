@@ -2,7 +2,7 @@
 id: wnjZiTP1UEW9e0aGz1HT0
 title: Milestones
 desc: ''
-updated: 1629516994054
+updated: 1629669659566
 created: 1629514021198
 ---
 
@@ -29,9 +29,9 @@ See [here](https://handbook.dendron.so/notes/0292b34e-47eb-4499-8f49-d9891accdb3
 - support mvp config settings
   - x support [[assetsPrefix|dendron.topic.publishing.configuration#assetsprefix]]
   - x support [[copyAssets|dendron.topic.publishing.configuration#copyassets]]
-  -   support [[customHeaderPath|dendron.topic.publishing.configuration#customheaderpath]]
+  -   support [[customHeaderPath|dendron.topic.publishing.configuration#customheaderpath]] #size.small
   - x support [[duplicateNoteBehavior|dendron.topic.publishing.configuration#duplicatenotebehavior]]
-  -   support [[ga_tracking|dendron.topic.publishing.configuration#ga_tracking]]
+  -   support [[ga_tracking|dendron.topic.publishing.configuration#ga_tracking]] #size.small
   -   support [[logo|dendron.topic.publishing.configuration#logo]]
   -   support [[githubCname|dendron.topic.publishing.configuration#githubcname]]
   - d support [[siteFaviconPath|dendron.topic.publishing.configuration#sitefaviconpath]]
@@ -40,8 +40,8 @@ See [here](https://handbook.dendron.so/notes/0292b34e-47eb-4499-8f49-d9891accdb3
   - x support [[siteUrl|dendron.topic.publishing.configuration#siteurl]]
   -   support [[usePrettyRefs|dendron.topic.publishing.configuration#useprettyrefs]]
   - x support [[gh_edit_repository|dendron.topic.publishing.configuration#gh_edit_repository]]
-  -   support [[author|dendron.topic.publishing.configuration#author]] seo property
-  -   support [[twitter|dendron.topic.publishing.configuration#twitter]] seo property
+  -   support [[author|dendron.topic.publishing.configuration#author]] seo property #size.small
+  -   support [[twitter|dendron.topic.publishing.configuration#twitter]] seo property #size.small
 -   Support nav order in Single Hiearchy Workspaces
 -   Set max-width constraints for content 
 -   Navigate to home page using `nextjs/link` instead of `<a>` #assigned

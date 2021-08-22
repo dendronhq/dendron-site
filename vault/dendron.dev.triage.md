@@ -2,7 +2,7 @@
 id: 1e6c8b49-ef88-4e79-b2df-e9d614c38a53
 title: Triage
 desc: ""
-updated: 1629309788382
+updated: 1629669852989
 created: 1610468038819
 ---
 
@@ -54,7 +54,7 @@ This makes a good CROP issue
 
 ### small
 
-good first task
+![[tags.size.small]]
 
 ### medium
 
