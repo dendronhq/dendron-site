@@ -2,7 +2,7 @@
 id: wnjZiTP1UEW9e0aGz1HT0
 title: Milestones
 desc: ''
-updated: 1629669659566
+updated: 1629670557099
 created: 1629514021198
 ---
 
@@ -44,18 +44,25 @@ See [here](https://handbook.dendron.so/notes/0292b34e-47eb-4499-8f49-d9891accdb3
   -   support [[twitter|dendron.topic.publishing.configuration#twitter]] seo property #size.small
 -   Support nav order in Single Hiearchy Workspaces
 -   Set max-width constraints for content 
--   Navigate to home page using `nextjs/link` instead of `<a>` #assigned
+-  a Navigate to home page using `nextjs/link` instead of `<a>` 
 
 ### Fixes
 - w Deeply nested tree view items can overflow 
 - y Backlinks and Children links go to wrong url #assigned
 - y Internal links go to wrong url  
--   Opening one child of tree view should not close existing children
--   CanoncialBaseUrl, remove autoappend .html behavior
--   Sometimes breadcrumb doesn't load
+- a Opening one child of tree view should not close existing children
+<!-- -   CanoncialBaseUrl, remove autoappend .html behavior -->
+<!-- -   Sometimes breadcrumb doesn't load -->
 
-## Phase 1 Milestones
+## Phase I Milestones
+
+### Features
+- support tab completion for lookup
+- support note graph on published site
 
 ### Enhancements
+-   support site map using [iamvishnusankar/next-sitemap](https://github.com/iamvishnusankar/next-sitemap#readme)
 - support all config settings
   -   support [[previewPort|dendron.topic.publishing.configuration#previewport]]
+
+## Future Milestones
