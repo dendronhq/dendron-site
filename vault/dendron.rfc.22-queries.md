@@ -2,7 +2,7 @@
 id: O4f9yfDoO7E7gRRDeBeCh
 title: 22 Queries
 desc: ''
-updated: 1629400874523
+updated: 1629751449657
 created: 1629395624110
 ---
 
@@ -16,9 +16,31 @@ Queries allow you to explore your knowledge base and answer questions efficientl
 
 ## Context
 
+While Dendron lets users store and organize knowledge efficiently, extracting
+knowledge from Dendron is currently not as easy. Users can follow links and
+backlinks to discover related notes, use the graph view to see the interactions
+between notes, and use the built-in VSCode search to look for keywords.
+
+All of these options are limited in their capability, and must be done manually.
+They can be time consuming and prone to mistakes. They also waste work: over
+time the information extracted becomes stale and the user must search through
+their notes again.
+
 ## Proposal
 
+To make extracting information from Dendron streamlined and efficient, we can
+add a query system to Dendron. This will allow users to search for information
+in their knowledge base efficiently, and share this knowledge with others.
+
+By writing a query, the user can find all notes that fit certain criteria,
+answering a question that they had. The query is embedded into a note, and gets
+published along with the note. This allows the user to share the results of the
+query, and the results are always up-to-date as they are generated
+automatically.
+
 ## Details
+
+The following section describes proposes how queries work using some examples.
 
 ### Query References
 
@@ -58,6 +80,12 @@ All notes:
 
 Notes in a specific vault:
 ?[[ dendron://dendron.dendron-site/dendron.rfc.]]
+
+For a tag note (identical to tags.todo)
+?[[ #todo ]]
+
+For a user note (identical to user.Kathryn)
+?[[ @Kathryn ]]
 ```
 
 These allow you to select specific notes or sets of notes based on their hierarchies. These can be useful in many ways, for example `?[[ dendron.rfc. ]]` will find all Dendron RFCs, and `?[[ .config ]]` will find all the configuration options of Dendron.
@@ -66,38 +94,73 @@ These allow you to select specific notes or sets of notes based on their hierarc
 
 ```
 Notes that contain links to `tags.todo`, or notes that are linked from `tags.todo`:
-?[[ (link tags.todo) ]]
+?[[ link tags.todo ]]
 
 Notes that contains links to `tags.todo`:
-?[[ (to tags.todo) ]]
+?[[ to tags.todo ]]
 
 Notes that are linked from `tags.todo`:
-?[[ (from tags.todo) ]]
+?[[ from tags.todo ]]
 
 Notes that are connected to `tags.todo` through one or more links:
-?[[ (connected tags.todo)]]
+?[[ connected tags.todo ]]
+```
+
+#### Parens
+
+Paranthesis are optional at the top level of the queries. The following two queries are identical:
+```
+?[[ to tags.todo ]]
+?[[ (to tags.todo) ]]
 ```
 
 #### Combining & Altering Queries
 
 ```
 Notes that match both subqueries: 
-?[[ (and (link tags.todo) dendron.rfc.) ]]
+?[[ and (link tags.todo) dendron.rfc. ]]
 
 All subqueries:
-?[[ (and (link tags.todo) dendron.rfc. (connected proj.)) ]]
+?[[ and (link tags.todo) dendron.rfc. (connected proj.) ]]
 
 Notes that match either subquery:
-?[[ (or (link tags.todo) dendron.rfc.*) ]]
+?[[ or (link tags.todo) dendron.rfc.* ]]
 
 Any of the subqueries:
-?[[ (or (link tags.todo) dendron.rfc. (connected proj.)) ]]
+?[[ or (link tags.todo) dendron.rfc. (connected proj.) ]]
 
 Doesn't match the subquery:
-?[[ (not (link tags.todo))]]
+?[[ not (link tags.todo) ]]
 
 From a specific vault:
-?[[ (vault dendron.dendron-site dendron.rfc.)]]
+?[[ vault dendron.dendron-site dendron.rfc. ]]
+```
+
+#### Contents
+
+Queries can also look into the contents of notes.
+
+```
+Searching for a specific string
+?[[ contains "blocked task" tasks. ]]
+
+Search for a regular expression
+?[[ contains /^blocked\s*[:.]/m tasks. ]]
+```
+
+#### Frontmatter
+
+Queries can check for specific frontmatter properties.
+
+```
+All tags that have a color set
+?[[ has-property color tags.. ]]
+
+All notes created before a certain time
+?[[ property-less-than created 1629395624110 * ]]
+
+All notes updated after a certain time
+?[[ property-greater-than updated 1629395624110 * ]]
 ```
 
 #### Multiline
