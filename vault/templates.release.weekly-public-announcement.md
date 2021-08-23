@@ -1,8 +1,8 @@
 ---
 id: 1ec8d588-7c8a-47a2-b79e-1dd02d10b600
-title: Release
+title: Weekly Public Announcement
 desc: ''
-updated: 1623700817167
+updated: 1629750774576
 created: 1622484182130
 ---
 
@@ -32,3 +32,5 @@ You can see an overview of all roles [[here|dendron.community.roles]]
 
 ### Changelog
 ![[dendron.release.changelog#051,1:#050]]
+
+

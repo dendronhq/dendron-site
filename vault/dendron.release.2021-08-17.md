@@ -2,7 +2,7 @@
 id: fYU3mSfr096DYui0O2cRp
 title: Release Notes (version 0.55)
 desc: ''
-updated: 1629239141602
+updated: 1629751433966
 created: 1629234795602
 ---
 
@@ -12,8 +12,8 @@ Dendron 0.55 has sprouted  🌱
 - workspace: addition **Insert Note Index** command to quickly create index notes ([[docs|dendron.release.changelog#insert-note-index-command]])
 - workspace: autocomplete and validation for `dendron.yml` ([[docs|dendron.release.changelog#validation-and-autocomplete-for-dendronyml]])
 - views: calendar view is now generally available ([[docs|dendron.ref.web-ui#calendar-view]])
-- tags: set custom colors 
-- tags: colored tags now show up decorated in tree view 
+- markdown: set custom colors 
+- markdown: colored tags now show up decorated in tree view 
 - pods: markdown export will now export notes with leading slash
 - pods: markdown publish pod will can resolve `siteUrl` 
 - lots of bug fixes
