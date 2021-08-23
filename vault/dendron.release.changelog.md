@@ -2,13 +2,22 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1629505281711
+updated: 1629752509210
 created: 1601508213606
 date: '2022-01-01'
 ---
 
 
 ## 0.56
+
+## 0.55.3
+
+### Enhancements
+- support smart vault selection for new lookup
+- copy note link support for new lookup
+
+### Bug Fixes
+- unhandled error when escaping from insert link command
 
 ## 0.55.2
 
