@@ -485,6 +485,7 @@ Sets image url for the page. Shows up in twitter card preview
 #### excerpt
 
 Sets a custom `og:description` tag for the particular page
+
 ## Line Configuration
 
 You can control publication on a per line basis.

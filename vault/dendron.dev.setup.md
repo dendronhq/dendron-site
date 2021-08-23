@@ -2,7 +2,7 @@
 id: 64f0e2d5-2c83-43df-9144-40f2c68935aa
 title: Setup Dendron Development Environment
 desc: ''
-updated: 1628544265551
+updated: 1629729587840
 created: 1598651458825
 ---
 
@@ -39,7 +39,6 @@ Before you begin, you need to make sure to have the following SDKs and tools:
   yarn bootstrap:bootstrap # install package dependencise
   yarn bootstrap:build  # build package dependencies
   ```
-
 ## Run
 
 1. Open the workspace.  At the root of the monorepo, open `dendron-main.code-workspace`. Open this with VSCode to start editing. While its not required to use VSCode, most of the helper scripts in this repository are created with VSCode in mind so using it will make development significantly easier.

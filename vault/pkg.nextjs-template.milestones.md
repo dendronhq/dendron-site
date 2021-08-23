@@ -2,7 +2,7 @@
 id: wnjZiTP1UEW9e0aGz1HT0
 title: Milestones
 desc: ''
-updated: 1629671984562
+updated: 1629672097088
 created: 1629514021198
 ---
 
@@ -41,9 +41,11 @@ See [here](https://handbook.dendron.so/notes/0292b34e-47eb-4499-8f49-d9891accdb3
   - x support [[siteUrl|dendron.topic.publishing.configuration#siteurl]]
   -   support [[usePrettyRefs|dendron.topic.publishing.configuration#useprettyrefs]]
   - x support [[gh_edit_repository|dendron.topic.publishing.configuration#gh_edit_repository]]
-  -   support [[author|dendron.topic.publishing.configuration#author]] seo property #size.small
+  - SEO options
     - see [Introducing next-seo, SEO for Next.js](https://www.garymeehan.ie/blog/seo-in-nextjs-with-next-seo)
-  -   support [[twitter|dendron.topic.publishing.configuration#twitter]] seo property #size.small
+    -   support [[author|dendron.topic.publishing.configuration#author]] seo property #size.small
+    -   support [[twitter|dendron.topic.publishing.configuration#twitter]] seo property #size.small
+    -   support [[image|dendron.topic.publishing.configuration#image]]
   - Note config
     -   support [[canonicalUrl|dendron.topic.publishing.configuration#canonicalurl]] #size.small
     -   support [[published|dendron.topic.publishing.configuration#published]] #size.small
