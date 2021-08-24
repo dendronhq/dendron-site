@@ -2,7 +2,7 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1629794959601
+updated: 1629822864149
 created: 1601508213606
 date: '2022-01-01'
 ---
@@ -16,20 +16,27 @@ date: '2022-01-01'
 - support smart vault selection for new lookup
 - copy note link support for new lookup
 
-#### Breaking changes to vault selection and copy note link modifier behaviors.
+### Bug Fixes
+- unhandled error when escaping from insert link command
+
+### Breaking Changes 
+
+#### Vault Selection
+
 - The new `Select Vault` button introduced with Better Lookup has a changed behavior now.
   - If the button is toggled on, you will always be prompted for vault selection.
   - If the button is toggled off, Dendron will try to determine the vault from the current active editor and other contexts, and prompt when there are still ambiguities.
   - Note that this button is only visible if you have `lookupConfirmVaultOnCreate` set to `true` in `dendron.yml`.
   - More on this topic can be found [[here|dendron.topic.lookup.modifiers#vaultselectionmode]]
+
+#### Copy Note Link
+
 - `copyNoteLink` modifier button will not be trigger immediately after toggle.
   - Before this change, this button will immediately copy the link of the selected note(s) on trigger.
   - This behavior is not congruent to how the other modifiers behave, and fails to work as expected in some cases (e.g. creating new notes, or selecting multiple notes, toggling `copyNoteLink`, then selecting more notes).
   - For this reason, the `copyNoteLink` behavior will now trigger once the lookup has been confirmed.
   - More on this topic can be found [[here|dendron.topic.lookup.modifiers#copynotelink]]
 
-### Bug Fixes
-- unhandled error when escaping from insert link command
 
 ## 0.55.2
 
@@ -40,7 +47,20 @@ Last week we announced a [[better lookup|dendron.release.changelog#0531]] comman
 
 There shouldn't be any noticable difference in your daily workflow, there are some breaking changes that needs to be addressed:
 
-##### Changes to custon keyboard shortcuts.
+### Enhancements
+- notes: wildcard anchors will now work at the end of a note, addresses following [issue]((https://github.com/dendronhq/dendron/pull/1158))
+- notes: avoid parsing notes that are too large
+- workspace: better error message when trying to refactor notes without frontmatter
+- publishing: breadcrumbs are now clicakble
+
+### Bug Fixes
+- notes: note reference inserting title of note in preview
+- preview: horizontal line not rendering in preview
+- publishing: internal links pointing to bad url
+
+### Breaking Changes
+
+#### Changes to custon keyboard shortcuts.
 If you are using custom keyboard shortcuts to provide different arguments to the lookup command, these are the breaking changes that need to be addressed:
 
 1. All keyboard shortcuts referencing `"command": "dendron.lookup"` should be updated to reference `"command": "dendron.lookupNote"` instead.
@@ -56,17 +76,6 @@ If you are using custom keyboard shortcuts to provide different arguments to the
 Please note that providing an incorrect argument to the keyboard shortcut will not prevent you from using that keybinding, but the argument will not be properly passed. This will result in a different behavior than you would expect. Please make sure to update them if you are using them.
 
 You can find a reference to all the available lookup modifiers [[here|dendron.topic.lookup.modifiers]]
-
-### Enhancements
-- notes: wildcard anchors will now work at the end of a note, addresses following [issue]((https://github.com/dendronhq/dendron/pull/1158))
-- notes: avoid parsing notes that are too large
-- workspace: better error message when trying to refactor notes without frontmatter
-- publishing: breadcrumbs are now clicakble
-
-### Bug Fixes
-- notes: note reference inserting title of note in preview
-- preview: horizontal line not rendering in preview
-- publishing: internal links pointing to bad url
 
 ### House Cleaning
 - migrate all Lookup tests to NoteLookup and Schema lookup

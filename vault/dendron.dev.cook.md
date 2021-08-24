@@ -1,6 +1,6 @@
 ---
 id: a80f36d9-01d0-4c5a-a228-867b093a4913
-title: Cookbook
+title: Cook Book
 desc: ''
 updated: 1629820586825
 created: 1599151918645
