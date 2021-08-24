@@ -2,7 +2,7 @@
 id: O4f9yfDoO7E7gRRDeBeCh
 title: 22 Queries
 desc: ''
-updated: 1629751449657
+updated: 1629777497388
 created: 1629395624110
 ---
 
@@ -52,88 +52,69 @@ The syntax for queries will be similar to references, but using a question mark 
 
 ### Queries
 
-Queries operate on sets of notes. Each part of the query either introduces a set of notes, or selects a subset of the set of notes.
+Queries are fragments of javascript code. Helper functions are provided to find and search through notes easily.
+The result of the query must be a list of notes.
 
 #### Hierarchies
 
+The `notes()` function returns a list of notes, even if it selects only a single note.
+
 ```
 Select just one note:
-?[[ dendron.rfc.22-queries ]]
+?[[ notes("dendron.rfc.22-queries") ]]
 
 Select all children of a note (note the trailing dot):
-?[[ dendron.rfc. ]]
+?[[ children(notes("dendron.rfc")) ]]
 
 For all descendants (note 2 trailing dots):
-?[[ dendron.rfc.. ]]
-
-Select all notes that end with `.config`:
-?[[ *.config ]]
-
-Select all notes that have a child `config`:
-?[[ .config ]]
-
-For all ancestors:
-?[[ ..config ]]
+?[[ descendants(notes("dendron.rfc")) ]]
 
 All notes:
-?[[ * ]]
+?[[ notes() ]]
+
+Select all notes that end with `.config`:
+?[[ notes().filter((n) => n.fname.endsWith(".config")) ]]
+
+Select all notes that have a child `config`:
+?[[ notes().filter((n) => _.some(n.child, (child) => child.fname.endsWith(".config"))) ]]
+
+For all ancestors:
+?[[ notes("..config") ]]
 
 Notes in a specific vault:
-?[[ dendron://dendron.dendron-site/dendron.rfc.]]
+?[[ notes("dendron.rfc").filter((n) => n.vault.name === "dendron.dendron-site") ]]
 
-For a tag note (identical to tags.todo)
-?[[ #todo ]]
+For a tag note
+?[[ notes("tags.todo") ]]
 
-For a user note (identical to user.Kathryn)
-?[[ @Kathryn ]]
+For a user note
+?[[ notes("user.Kathryn") ]]
 ```
-
-These allow you to select specific notes or sets of notes based on their hierarchies. These can be useful in many ways, for example `?[[ dendron.rfc. ]]` will find all Dendron RFCs, and `?[[ .config ]]` will find all the configuration options of Dendron.
 
 #### Links
 
 ```
 Notes that contain links to `tags.todo`, or notes that are linked from `tags.todo`:
-?[[ link tags.todo ]]
+?[[ notes().filter((n) => _.some(n.links, (l) => l.fname === "tags.todo")) ]]
 
 Notes that contains links to `tags.todo`:
-?[[ to tags.todo ]]
+?[[ notes().filter((n) => _.some(n.links, (l) => l.type === "wikiLink" && l.fname === "tags.todo")) ]]
 
 Notes that are linked from `tags.todo`:
-?[[ from tags.todo ]]
-
-Notes that are connected to `tags.todo` through one or more links:
-?[[ connected tags.todo ]]
-```
-
-#### Parens
-
-Paranthesis are optional at the top level of the queries. The following two queries are identical:
-```
-?[[ to tags.todo ]]
-?[[ (to tags.todo) ]]
+?[[ notes().filter((n) => _.some(n.links, (l) => l.type === "backLink" && l.fname === "tags.todo")) ]]
 ```
 
 #### Combining & Altering Queries
 
 ```
 Notes that match both subqueries: 
-?[[ and (link tags.todo) dendron.rfc. ]]
-
-All subqueries:
-?[[ and (link tags.todo) dendron.rfc. (connected proj.) ]]
+?[[ children(notes("dendron.rfc")).filter((n) => _.some(n.links, (l) => l.fname === "tags.todo")) ]]
 
 Notes that match either subquery:
-?[[ or (link tags.todo) dendron.rfc.* ]]
-
-Any of the subqueries:
-?[[ or (link tags.todo) dendron.rfc. (connected proj.) ]]
+?[[ notes().filter((n) => _.some(n.links, (l) => l.fname === "tags.todo") || n.fname.startsWith("dendron.rfc.")) ]]
 
 Doesn't match the subquery:
-?[[ not (link tags.todo) ]]
-
-From a specific vault:
-?[[ vault dendron.dendron-site dendron.rfc. ]]
+?[[ _.reject(notes(), (n) => _.some(n.links, (l) => l.fname === "tags.todo")) ]]
 ```
 
 #### Contents
@@ -142,10 +123,10 @@ Queries can also look into the contents of notes.
 
 ```
 Searching for a specific string
-?[[ contains "blocked task" tasks. ]]
+?[[ notes().filter((n) => n.body.includes("blocked task")) ]]
 
 Search for a regular expression
-?[[ contains /^blocked\s*[:.]/m tasks. ]]
+?[[ notes().filter((n) => n.body.match(/task[: ]blocked/)) ]]
 ```
 
 #### Frontmatter
@@ -154,13 +135,10 @@ Queries can check for specific frontmatter properties.
 
 ```
 All tags that have a color set
-?[[ has-property color tags.. ]]
+?[[ descendants(notes("tags")).filter((n) => n.color) ]]
 
 All notes created before a certain time
-?[[ property-less-than created 1629395624110 * ]]
-
-All notes updated after a certain time
-?[[ property-greater-than updated 1629395624110 * ]]
+?[[ notes().filter((n) => n.created < 1629395624110) ]]
 ```
 
 #### Multiline
@@ -168,44 +146,47 @@ All notes updated after a certain time
 Queries may span multiple lines.
 
 ```
-?[[ 
-  (or
-    (link tags.todo)
-    dendron.rfc.
-    (connected proj.))
+?[[
+  notes()
+    .filter(
+      (n) => n.created < 1629395624110
+    ) 
 ]]
-
 ```
 
-#### Escaping
+Queries can also span multiple expressions. In this case, they must be surrounded by brackets and must explicitly return a list of notes.
 
-The character `*` has a special meaning when querying notes. To refer to a note
-that has the character `*` in its name, you must escape it as `\*`.
+<!-- Implementation hint: (new Function("x", "return (() => " + query + ")()"))(argX) -->
+
+```
+?[[ {
+  const foundNotes = [];
+  const allNotes = notes();
+  for (const note of allNotes) {
+    if (note.fname.startsWith("tags.")) {
+      foundNotes.push(note);
+    }
+  }
+  return foundNotes;
+} ]]
+```
 
 ## Examples
 
-Find all notes that are tagged with any tag:
-```
-?[[ (link tags..)]]
-```
-
 Find all notes under `dendron.rfc.` that have unfinished tasks:
 ```
-?[[ (and (link tags.todo) dendron.rfc.*) ]]
+?[[ children(notes("dendron.rfc")).filter((n) => _.some(n.link, (l) => l.fname === "tags.todo")) ]]
 ```
 
 ## Tradeoffs
 
 Pros:
-- Using a custom query language allows us to tailor it to Dendron. Users can write compact, efficient queries, and we can provide more immediate feedback.
-- Lisp-like syntax is similar to Roam queries, and will be familiar to lisp users.
-- The ability to inspect the hierarchy by placing trailing/preceding dots is easy to type.
+- JavaScript is a very popular language, and using it means instant familiarity for many users.
+- Javascript has a lot of powerful features, which we get for free.
+- VSCode has built-in support for nested languages (e.g. javascript in markdown), which we can leverage for better editing support.
 
 Cons:
-- Building a custom query language requires more work, compared to something like allowing users to write queries in javascript.
-- Lisp-like syntax may be confusing for users who are not familiar with lisp languages.
-- Trailing/preceding dots may be prone to typos, and easy to miss at a glance.
+- The queries are complex and difficult to write, especially for non-programmers.
+- Displaying immediate feedback may be difficult since we have to execute the query entirely, which may be expensive.
 
 ## Discussion
-
-> Any sufficiently complicated ... program contains an ad hoc, informally-specified, bug-ridden, slow implementation of half of Common Lisp. ~Philip Greenspun
