@@ -2,7 +2,7 @@
 id: 66d734d2-07bd-4ac6-be0b-a38b55bc1099
 title: Keybindings
 desc: ''
-updated: 1620228849295
+updated: 1629793777065
 created: 1608494646816
 ---
 You can trigger specific lookups using custom key bindings. For example, The following keybinding will trigger lookup set to creating a journal note and turning a selection into a link. 
@@ -11,8 +11,8 @@ You can trigger specific lookups using custom key bindings. For example, The fol
 
 ```json
 {
-"command": "dendron.lookup",
-"key": "cmd+k j",
+    "command": "dendron.lookupNote",
+    "key": "cmd+k j",
     "args": {
         "noteType": "journal",
         "selectionType": "selection2link"

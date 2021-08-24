@@ -2,7 +2,7 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1629753374187
+updated: 1629793693413
 created: 1601508213606
 date: '2022-01-01'
 ---
@@ -26,7 +26,21 @@ date: '2022-01-01'
 #### Better Lookup by Default
 Last week we announced a [[better lookup|dendron.release.changelog#0531]] command, rebuild from the ground up to be faster, more stable, and easier to embed into new commands. We have now finished migrating all existing lookup features to the new commands and have switched to using it for all lookup related operations. 
 
-You shouldn't notice any difference in your daily workflow. There is **one breaking change** - any keyboard shortcuts that reference `dendron.lookup` should be changed to `dendron.noteLookup` instead.
+You shouldn't notice any difference in your daily workflow, but if you are using custom keyboard shortcuts to provide different arguments to the lookup command, these are the breaking changes that need to be addressed:
+
+1. All keyboard shortcuts referencing `"command": "dendron.lookup"` should be updated to reference `"command": "dendron.lookupNote"` instead.
+1. There are some changes to the arguments you can provide to the lookup command:
+    - `flavor` argument is deprecated. Note Lookup and Schema Lookup are two separate commands now.
+    - `noteExistBehavior` argument is deprecated.
+    - `filterType` has been renamed to `filterMiddleware`, and requires an array of strings instead of a string.
+    - `value` has been renamed to `initialValue`.
+    - `effectType` has been broken down to individual arguments:
+      - `multiSelect` and `copyNoteLink`.
+      - `copyNoteRef` keyword has been deprecated.
+
+Please note that providing an incorrect argument to the keyboard shortcut will not prevent you from using that keybinding, but the argument will not be properly passed. This will result in a different behavior than you would expect. Please make sure to update them if you are using them.
+
+You can find a reference to all the available lookup modifiers [[here|dendron.topic.lookup.modifiers]]
 
 ### Enhancements
 - notes: wildcard anchors will now work at the end of a note, addresses following [issue]((https://github.com/dendronhq/dendron/pull/1158))
