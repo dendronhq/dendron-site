@@ -16,6 +16,18 @@ date: '2022-01-01'
 - support smart vault selection for new lookup
 - copy note link support for new lookup
 
+#### Breaking changes to vault selection and copy note link modifier behaviors.
+- The new `Select Vault` button introduced with Better Lookup has a changed behavior now.
+  - If the button is toggled on, you will always be prompted for vault selection.
+  - If the button is toggled off, Dendron will try to determine the vault from the current active editor and other contexts, and prompt when there are still ambiguities.
+  - Note that this button is only visible if you have `lookupConfirmVaultOnCreate` set to `true` in `dendron.yml`.
+  - More on this topic can be found [[here|dendron.topic.lookup.modifiers#vaultselectionmode]]
+- `copyNoteLink` modifier button will not be trigger immediately after toggle.
+  - Before this change, this button will immediately copy the link of the selected note(s) on trigger.
+  - This behavior is not congruent to how the other modifiers behave, and fails to work as expected in some cases (e.g. creating new notes, or selecting multiple notes, toggling `copyNoteLink`, then selecting more notes).
+  - For this reason, the `copyNoteLink` behavior will now trigger once the lookup has been confirmed.
+  - More on this topic can be found [[here|dendron.topic.lookup.modifiers#copynotelink]]
+
 ### Bug Fixes
 - unhandled error when escaping from insert link command
 
@@ -44,19 +56,6 @@ If you are using custom keyboard shortcuts to provide different arguments to the
 Please note that providing an incorrect argument to the keyboard shortcut will not prevent you from using that keybinding, but the argument will not be properly passed. This will result in a different behavior than you would expect. Please make sure to update them if you are using them.
 
 You can find a reference to all the available lookup modifiers [[here|dendron.topic.lookup.modifiers]]
-
-##### Changes to vault selection and copy note link modifiers.
-- The new `Select Vault` button introduced with Better Lookup has a changed behavior now.
-  - If the button is toggled on, you will always be prompted for vault selection.
-  - If the button is toggled off, Dendron will try to determine the vault from the current active editor and other contexts, and prompt when there are still ambiguities.
-  - Note that this button is only visible if you have `lookupConfirmVaultOnCreate` set to `true` in `dendron.yml`.
-  - More on this topic can be found [[here|dendron.topic.lookup.modifiers#vaultselectionmode]]
-- `copyNoteLink` modifier button will not be trigger immediately after toggle.
-  - Before this change, this button will immediately copy the link of the selected note(s) on trigger.
-  - This behavior is not congruent to how the other modifiers behave, and fails to work as expected in some cases (e.g. creating new notes, or selecting multiple notes, toggling `copyNoteLink`, then selecting more notes).
-  - For this reason, the `copyNoteLink` behavior will now trigger once the lookup has been confirmed.
-  - More on this topic can be found [[here|dendron.topic.lookup.modifiers#copynotelink]]
-
 
 ### Enhancements
 - notes: wildcard anchors will now work at the end of a note, addresses following [issue]((https://github.com/dendronhq/dendron/pull/1158))
