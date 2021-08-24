@@ -2,7 +2,7 @@
 id: 1e6c8b49-ef88-4e79-b2df-e9d614c38a53
 title: Triage
 desc: ""
-updated: 1629751413987
+updated: 1629829373618
 created: 1610468038819
 ---
 
@@ -34,6 +34,10 @@ Pod related work
 ### views
 
 Specfic work in frontend components like [[Web UI|dendron.ref.web-ui]]
+
+### preview
+
+Work with preview
 
 
 ## area
@@ -83,6 +87,10 @@ good task after you have done a few `small` tasks
 big undertaking, might take a few days and touches multiple components
 
 ## status
+
+### duplicate
+
+duplicate issue
 
 ### help-wanted
 

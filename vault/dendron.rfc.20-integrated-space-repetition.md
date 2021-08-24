@@ -1,6 +1,6 @@
 ---
 id: X2Zn2H89eBZrsj7Of8LLm
-title: 20 Integrated Space Repetition
+title: 20 - Integrated Space Repetition
 desc: ''
 updated: 1628866021555
 created: 1628735366207
