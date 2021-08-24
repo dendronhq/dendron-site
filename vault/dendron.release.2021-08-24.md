@@ -2,7 +2,7 @@
 id: 6gA7Hm1y6qOeDXda3zlAE
 title: Release Notes (version 0.56)
 desc: ''
-updated: 1629838330139
+updated: 1629838808346
 created: 1629750971989
 ---
 
@@ -10,7 +10,7 @@ Dendron 0.56 has sprouted  🌱
 
 ### Highlights
 
-- (workspace) better lookup commands: new note and schema lookups, that are much faster and more stable, are now default for all workspaces
+- (workspace) better lookup commands: new note and schema lookups, that are much faster and more stable, are now default for all workspaces ([[docs|dendron.release.changelog#better-lookup-by-default]])
 - **(breaking-change)** breaking changes have been made to vault selection and copy note link modifier behaviors [[docs|dendron.release.changelog#breaking-changes]]
   - [[note lookup modifier docs|dendron.topic.lookup.modifiers]]
   - [[note lookup keybinding docs|dendron.topic.lookup.keybindings]]
