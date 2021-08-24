@@ -1,8 +1,8 @@
 ---
 id: a80f36d9-01d0-4c5a-a228-867b093a4913
-title: Cookbook
+title: Cook Book
 desc: ''
-updated: 1629500604348
+updated: 1629820586825
 created: 1599151918645
 stub: false
 ---
@@ -108,6 +108,9 @@ When all this is done, we can add tests that the formatting behavior works
 
 The above changes are for `Rename`. `Refactor` calls rename in a loop so changing rename should update refactor as well.
 
+
+## Plugin
+- See [[Dev|pkg.dendron-plugin.dev]]
 
 ## Other
 

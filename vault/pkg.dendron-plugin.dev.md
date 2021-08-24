@@ -2,12 +2,12 @@
 id: 04dd9ad8-3d81-4098-a661-21b6acc6f443
 title: Dev
 desc: ''
-updated: 1629390992437
+updated: 1629820655294
 created: 1621721485330
 ---
 
 
-## Features
+## Commands
 
 This goes over adding major feature items to the Dendron Plugin
 
@@ -29,6 +29,9 @@ This goes over adding major feature items to the Dendron Plugin
 
 Conventions:
 - if your command involves opening a note, also return it in the `CommandOutput` signature. this makes it easy to compose the command as well as test it
+
+
+## Pods
 
 ### Create a new Pod
 
@@ -65,7 +68,7 @@ See [[Configuration|pkg.common-all.dev#configuration]]
 
 Use the [[State Service|pkg.dendron-plugin.arch.state-service]] when working with VSCode workspace related state.
 
-## Rest
+## Lookup
 
 ### Add a new button
 
@@ -110,32 +113,6 @@ export class InsertNoteLinkButton extends DendronBtn {
 }
 ```
 
-### Adding a Web UI Component
-1. see [[Create a new Command|pro.dendron-plugin.cook#create-a-new-command]] for creating a new command
-1. Add a new entry to [DendronWebViewKey](https://github.com/dendronhq/dendron/blob/dev-kevin/packages/common-all/src/types/typesv2.ts#L486:L486)
-1. in `execute`, create a new webview
-  ```ts
-    const title = //TODO: add panel title
-    const panel = window.createWebviewPanel(
-      "dendronIframe", // Identifies the type of the webview. Used internally
-      title, // Title of the panel displayed to the user
-      ViewColumn.One, // Editor column to show the new webview panel in.
-      {
-        enableScripts: true,
-        enableCommandUris: true,
-        enableFindWidget: true,
-        localResourceRoots: [],
-      }
-    );
-    resp = WebViewUtils.genHTMLForWebView({
-        title: "Dendron Config",
-        view: DendronWebViewKey[TODO]
-    });
-    panel.webview.html = resp;
-  ```
-
-Related:
-- See [[here|pkg.dendron-next-server.dev#development]] for how to preview and test your web ui.
 
 ### Adding Command with Lookup
 
@@ -170,6 +147,35 @@ sequenceDiagram
     - provider controls the data retrieval behavior 
     - on success, will return the following [response type](https://github.com/dendronhq/dendron/blob/dev-kevin/packages/plugin-core/src/components/lookup/LookupProviderV3.ts#L39:L39)
     - NOTE: because we can't simply block on `showQuickInput`, we return a promise that listens to a `lookupProvider` event with the corresponding `id` of the particular command
+
+## UI
+### Adding a Web UI Component
+1. see [[Create a new Command|pro.dendron-plugin.cook#create-a-new-command]] for creating a new command
+1. Add a new entry to [DendronWebViewKey](https://github.com/dendronhq/dendron/blob/dev-kevin/packages/common-all/src/types/typesv2.ts#L486:L486)
+1. in `execute`, create a new webview
+  ```ts
+    const title = //TODO: add panel title
+    const panel = window.createWebviewPanel(
+      "dendronIframe", // Identifies the type of the webview. Used internally
+      title, // Title of the panel displayed to the user
+      ViewColumn.One, // Editor column to show the new webview panel in.
+      {
+        enableScripts: true,
+        enableCommandUris: true,
+        enableFindWidget: true,
+        localResourceRoots: [],
+      }
+    );
+    resp = WebViewUtils.genHTMLForWebView({
+        title: "Dendron Config",
+        view: DendronWebViewKey[TODO]
+    });
+    panel.webview.html = resp;
+  ```
+
+Related:
+- See [[here|pkg.dendron-next-server.dev#development]] for how to preview and test your web ui.
+
 
 ## Utilities
 
