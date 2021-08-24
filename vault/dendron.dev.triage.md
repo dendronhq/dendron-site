@@ -36,7 +36,6 @@ Pod related work
 Specfic work in frontend components like [[Web UI|dendron.ref.web-ui]]
 
 
-
 ## area
 
 Different vertical feature groups of dendron. These are intended to be long-running areas of investment.
