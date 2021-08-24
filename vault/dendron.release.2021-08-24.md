@@ -2,13 +2,22 @@
 id: 6gA7Hm1y6qOeDXda3zlAE
 title: 2021 08 24
 desc: ''
-updated: 1629751073044
+updated: 1629830660364
 created: 1629750971989
 ---
 
 Dendron 0.56 has sprouted  🌱
 
 ### Highlights
+
+- (workspace) better lookup commands: new note and schema lookups, that are much faster and more stable, are now default for all workspaces
+- **(breaking-change)** breaking changes have been made to vault selection and copy note link modifier behaviors [[docs|dendron.release.changelog#breaking-changes]]
+  - [[note lookup modifier docs|dendron.topic.lookup.modifiers]]
+  - [[note lookup keybinding docs|dendron.topic.lookup.keybindings]]
+- (workspace) dendron will not freeze when parsing large files
+- (preview) note reference rendering no longer includes unnecessary insertion of note ref's title/header
+- (markdown) wildcard note references now works on the last element of a note
+- lots of publishing and preview improvements
 
 ### Docs
 
