@@ -2,7 +2,7 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1629822864149
+updated: 1629849927673
 created: 1601508213606
 date: '2022-01-01'
 ---
@@ -45,7 +45,7 @@ date: '2022-01-01'
 #### Better Lookup by Default
 Last week we announced a [[better lookup|dendron.release.changelog#0531]] command, rebuild from the ground up to be faster, more stable, and easier to embed into new commands. We have now finished migrating all existing lookup features to the new commands and have switched to using it for all lookup related operations. 
 
-There shouldn't be any noticable difference in your daily workflow, there are some breaking changes that needs to be addressed:
+There shouldn't be any noticable difference in your daily workflow, but there are some breaking changes that needs to be addressed described below.
 
 ### Enhancements
 - notes: wildcard anchors will now work at the end of a note, addresses following [issue]((https://github.com/dendronhq/dendron/pull/1158))
