@@ -2,7 +2,7 @@
 id: cb22bd36-d45a-4ffd-a31e-96c4b39cb7fb
 title: Testing
 desc: ''
-updated: 1628441022278
+updated: 1629905535827
 created: 1598654055046
 stub: false
 ---
@@ -208,7 +208,7 @@ AnalyticsUtils.track(VSCodeEvents.Lookup_Show, {
 
 ### Creating a mock note
 
-see [this](https://github.com/dendronhq/dendron/blob/dev-kevin/packages/common-test-utils/src/noteUtils.ts#L55:L55)
+see [this](https://github.com/dendronhq/dendron/blob/16b0e5c59e3ee11530199b5c9a11a58f05e14a93/packages/common-test-utils/src/noteUtils.ts#L63-L63)
 
 ### Updating test snapshots
 
