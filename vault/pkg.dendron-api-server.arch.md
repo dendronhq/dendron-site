@@ -2,11 +2,21 @@
 id: fqVcwvX5aNSdr7De
 title: Arch
 desc: ''
-updated: 1628533954104
+updated: 1629949726578
 created: 1626915617598
 ---
 
 ## Static Files
 
+## Note APIs
+
+Note related methods are served by the [note](https://github.com/dendronhq/dendron/blob/260f6ca44425444963e99117fb47c8ed68d02d5e/packages/api-server/src/modules/notes/index.ts#L26-L26) module. 
+
+For the plugin the API client is initialized [here](https://github.com/dendronhq/dendron/blob/1da7714f50acbba312a7e2e7a497f9e53920c96f/packages/plugin-core/src/services/EngineAPIService.ts#L33-L33).
+
+In the [[Dendron Next Server|pkg.dendron-next-server]], it is initialized in the [[Engine redux slice|pkg.dendron-common-frontend.arch#engine-slice]]
+
+
 ## Related
+
 - [[pkg.dendron-engine.arch]]
