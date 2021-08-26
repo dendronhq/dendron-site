@@ -2,7 +2,7 @@
 id: a80f36d9-01d0-4c5a-a228-867b093a4913
 title: Cook Book
 desc: ''
-updated: 1629820586825
+updated: 1629953111584
 created: 1599151918645
 stub: false
 ---
@@ -111,6 +111,10 @@ The above changes are for `Rename`. `Refactor` calls rename in a loop so changin
 
 ## Plugin
 - See [[Dev|pkg.dendron-plugin.dev]]
+
+## Markdown 
+
+Markdown related changes are documented [[here|pkg.dendron-markdown.dev]]
 
 ## Other
 
