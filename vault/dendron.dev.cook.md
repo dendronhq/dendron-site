@@ -2,7 +2,7 @@
 id: a80f36d9-01d0-4c5a-a228-867b093a4913
 title: Cook Book
 desc: ''
-updated: 1629953111584
+updated: 1630075657148
 created: 1599151918645
 stub: false
 ---
@@ -107,6 +107,10 @@ When all this is done, we can add tests that the formatting behavior works
 - [ ] [plugin test](https://github.com/dendronhq/dendron/blob/master/packages/plugin-core/src/test/suite-integ/RenameNoteV2.test.ts#L157:L157)
 
 The above changes are for `Rename`. `Refactor` calls rename in a loop so changing rename should update refactor as well.
+
+### Adding a general configuration
+
+See [[Adding new configuration|pkg.dendron-plugin.dev#adding-new-configuration]]
 
 
 ## Plugin

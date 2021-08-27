@@ -30,6 +30,8 @@ Seed Browser is a new view that let's you view Seeds that are available in the S
 - backlinks properly update on frontmatter tag changes
 - slugify github issue title when importing
 
+
+
 ## 0.56
 
 ## 0.55.3
