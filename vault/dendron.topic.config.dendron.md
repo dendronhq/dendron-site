@@ -2,7 +2,7 @@
 id: f83c1d87-eac0-48f3-a5cf-8a69989d8ec1
 title: Dendrons Config
 desc: ''
-updated: 1629937242096
+updated: 1630078833171
 created: 1619539817122
 ---
 
@@ -232,3 +232,18 @@ If set to `true`, enables multi-select for `Insert Note Link` Command.
 - options: "snippet" | "selection" | "prompt" | "title" | "none"
 
 Overrides default alias mode.
+
+## lookup
+
+Modifies behavior of [[lookup|dendron.topic.lookup]] related commands
+Currently we only have settings for Note Lookup.
+
+### note
+
+Modifies behavior of `Dendron: Lookup Note`.
+
+#### selectionType
+- default: "selectionExtract"
+- options: "selectionExtract" | "selection2link" | "none"
+
+Overrides default selection type modifier to be enabled with note lookup.
