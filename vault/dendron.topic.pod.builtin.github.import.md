@@ -2,7 +2,7 @@
 id: 2H9FBzagX9wf4b0V0ADGG
 title: Import
 desc: ''
-updated: 1627633776543
+updated: 1630053725731
 created: 1625747404839
 ---
 
@@ -46,7 +46,7 @@ fname: github.issues.dendron-site
   └── vault
         ├── projects.one.md
         ├── projects.two.md
-        └── github.issues.dendron-site.86-Extra quotes in links tutorial.md
+        └── github.issues.dendron-site.86-extra-quotes-in-links-tutorial.md
 
 ```
 - Imported Issue
