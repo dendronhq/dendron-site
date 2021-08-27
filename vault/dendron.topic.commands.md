@@ -619,6 +619,10 @@ The url is taken from the [[siteUrl|dendron.topic.publishing.configuration#siteu
 
 ## Seeds
 
+### Seed Browse
+
+Browse the Seeds available in the Seed Registry and view detailed information about each one. You can also add seeds to your workspace through the UI.
+
 ### Seed Add
 
 Add a [[seed|dendron.topic.seeds]] to your current workspace.
