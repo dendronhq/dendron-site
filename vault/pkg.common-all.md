@@ -2,14 +2,14 @@
 id: 5c71637f-d08f-4ce5-8160-c5ab90254dee
 title: Common All
 desc: ''
-updated: 1622079023933
+updated: 1629995654784
 created: 1620335767697
 ---
 
 
 ## Summary
 
-Meant to be used for web and node js environemnts
+Types and utilities used in both web and node environments. 
 
 ## Utilities
 - constants (eg. name of dendron.yml file, etc)
