@@ -2,7 +2,7 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1630080388750
+updated: 1630080961415
 created: 1601508213606
 date: '2022-01-01'
 ---
@@ -13,24 +13,23 @@ date: '2022-01-01'
 
 #### Seed browser
 
-Seed Browser is a new view that let's you view Seeds that are available in the Seed Registry. You can view detailed information about the seeds and download them to your workspace. [[user.jonathan]] <-- Note ref(s)
+Seed Browser is a new view that let's you view Seeds that are available in the Seed Registry. You can view detailed information about the seeds and download them to your workspace. 
+
+![[dendron.topic.commands#seed-browse,1:#*]]
 
 ### Enhancements
 
-- improve hover message for missing notes [[user.kaan]]
+- improve hover message for missing notes 
 - ability to set selection type to `none` ([[docs|dendron.topic.config.dendron#lookup]])
-- use github publish to create new issues [[user.joshi]]
-- nicer refactor preview [[user.joshi]]
-- treeview improvements [[user.sam]]
+- use github publish to create new issues ([[docs|dendron.topic.pod.builtin.github.publish]])
+- nicer refactor preview 
+- treeview improvements when publishing using nextjs
 - added dendron cache to .gitignore on vault add
 - added various alias modes for insert note link command ([[docs|dendron.topic.commands#insert-note-link]])
 
 ### Bug Fixes
-
 - backlinks properly update on frontmatter tag changes
 - slugify github issue title when importing
-
-
 
 ## 0.56
 
