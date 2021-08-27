@@ -2,7 +2,7 @@
 id: f83c1d87-eac0-48f3-a5cf-8a69989d8ec1
 title: Dendrons Config
 desc: ''
-updated: 1629187796348
+updated: 1629937242096
 created: 1619539817122
 ---
 
@@ -218,4 +218,17 @@ Validate existing values
 ![Validate existing values](https://camo.githubusercontent.com/4e11001d0d14690c3cc37360e3a4ddab9debdca6d553373fac93fc027cbddf33/68747470733a2f2f692e696d6775722e636f6d2f436563554332482e706e67)
 
 
-## 
+## insertNoteLink
+
+Modifies behavior of the [[Insert Note Link|dendron.topic.commands#insert-note-link]] command.
+
+### multiSelect
+- default: false
+
+If set to `true`, enables multi-select for `Insert Note Link` Command.
+
+### aliasMode
+- default: "none"
+- options: "snippet" | "selection" | "prompt" | "title" | "none"
+
+Overrides default alias mode.
