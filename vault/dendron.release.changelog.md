@@ -2,11 +2,33 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1629849927673
+updated: 1630078604793
 created: 1601508213606
 date: '2022-01-01'
 ---
 
+## 0.56.1
+
+### Features
+
+#### Seed browser
+
+Seed Browser is a new view that let's you view Seeds that are available in the Seed Registry. You can view detailed information about the seeds and download them to your workspace. [[user.jonathan]] <-- Note ref(s)
+
+### Enhancements
+
+- improve hover message for missing notes [[user.kaan]]
+- ability to set selection type to `none` [[user.hikchoi]]
+- use github publish to create new issues [[user.joshi]]
+- nicer refactor preview [[user.joshi]]
+- treeview improvements [[user.sam]]
+- added dendron cache to .gitignore on vault add
+- added various alias modes for insert note link command [[user.hikchoi]]
+
+### Bug Fixes
+
+- backlinks properly update on frontmatter tag changes
+- slugify github issue title when importing
 
 ## 0.56
 
