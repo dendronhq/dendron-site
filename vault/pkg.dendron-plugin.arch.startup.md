@@ -2,12 +2,14 @@
 id: 8d09cc3f-25e3-42a2-ac86-82806c0c8c65
 title: Startup
 desc: ''
-updated: 1621097087889
+updated: 1630020779058
 created: 1610160007286
 ---
 ## Summary
 
-- check for dendron.code-workspace 
+- check if we are in a dendron workspace
+    - workspace can be a code workspace (a .code-workspace file) or a native workspace (folder with dendron.yml)
+- depending on what sort of workspace we're in, Dendron will instantiate either a Dendron[Native|Code]Workspace
 - start engine (local server that does indexing)
 - reload workspace (connect to the local server)
 - activate file watchers 
