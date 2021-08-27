@@ -2,7 +2,7 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1630078604793
+updated: 1630079619673
 created: 1601508213606
 date: '2022-01-01'
 ---
@@ -18,12 +18,12 @@ Seed Browser is a new view that let's you view Seeds that are available in the S
 ### Enhancements
 
 - improve hover message for missing notes [[user.kaan]]
-- ability to set selection type to `none` [[user.hikchoi]]
+- ability to set selection type to `none` ([[lookup|dendron.topic.config.dendron#lookup]])
 - use github publish to create new issues [[user.joshi]]
 - nicer refactor preview [[user.joshi]]
 - treeview improvements [[user.sam]]
 - added dendron cache to .gitignore on vault add
-- added various alias modes for insert note link command [[user.hikchoi]]
+- added various alias modes for insert note link command ([[Insert Note Link|dendron.topic.commands#insert-note-link]])
 
 ### Bug Fixes
 
