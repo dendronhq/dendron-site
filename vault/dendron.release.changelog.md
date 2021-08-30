@@ -13,14 +13,16 @@ date: '2022-01-01'
 
 #### Seed browser
 
-Seed Browser is a new view that let's you view Seeds that are available in the Seed Registry. You can view detailed information about the seeds and download them to your workspace. [[user.jonathan]] <-- Note ref(s)
+Seed Browser is a new view that let's you view Seeds that are available in the Seed Registry. You can view detailed information about the seeds and download them to your workspace.
+
+![[dendron://dendron.dendron-site/dendron.topic.commands#seed-browse:#seed-add]]
 
 ### Enhancements
 
 - improve hover message for missing notes [[user.kaan]]
 - ability to set selection type to `none` ([[docs|dendron.topic.config.dendron#lookup]])
-- use github publish to create new issues [[user.joshi]]
-- nicer refactor preview [[user.joshi]]
+- use github publish to create new issues [[Github Publish Pod|dendron.topic.pod.builtin.github.publish]]
+- nicer refactor preview - note destinations are now aligned
 - treeview improvements [[user.sam]]
 - added dendron cache to .gitignore on vault add
 - added various alias modes for insert note link command ([[docs|dendron.topic.commands#insert-note-link]])
