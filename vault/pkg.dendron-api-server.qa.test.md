@@ -17,7 +17,7 @@ There's two ways of instantiating an express server for testing.
 1. Pass in the express server engine
   - you want to do this when you want to test methods from the DEngineClient [^1]
   - example [engine.spec](https://github.com/dendronhq/dendron/blob/51633edcd0817c9b4aa18ff25f492f7a00e6e088/packages/engine-test-utils/src/__tests__/api-server/engine.spec.ts#L6-L6)
-2. Standup express server as an API endpoint
+2. Standup express server as an API endpoint ^goOLosrw7a1W
   - do this when you need to test an API that falls outside of the scope of DEngineClient [^1]
   - example: [workspace.spec](https://github.com/dendronhq/dendron/blob/1da7714f50acbba312a7e2e7a497f9e53920c96f/packages/engine-test-utils/src/__tests__/api-server/workspace.spec.ts#L7-L7)
   ```ts
