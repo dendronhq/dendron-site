@@ -2,7 +2,7 @@
 id: 773e0b5a-510f-4c21-acf4-2d1ab3ed741e
 title: Style
 desc: ''
-updated: 1628440526261
+updated: 1630295822311
 created: 1609550314371
 ---
 
@@ -15,13 +15,22 @@ This page covers code styleguidelines and conventions.
 We use [eslint](https://eslint.org/) and [prettier](https://prettier.io/) to autoformat all Dendron code before a commit. You can see our styling options [here](https://github.com/dendronhq/dendron/blob/master/.eslintrc.js#L29:L29)
 
 
-
 ## Time
 
 We use [`luxon`](https://moment.github.io/luxon/docs/class/src/datetime.js~DateTime.html) for all time related tasks. This is the successor of [`moment.js`](https://sebastiandedeyne.com/moment-js-thank-you-for-your-service/)
 
 
 ## General
+
+## High Level
+
+1. Reduce State - code written with minimal state are easier to test and reason about then code with state
+1. Reduce coupling - code that is loosely coupled is better than the opposite
+1. Reduce complexity - code that is simpler is better
+  - reduce library surface area: it is better to have one method to do one thing then multiple methods that do the same thing
+1. Reduce code - code that is not duplicated 
+
+## Conventiions
 
 ### prefer using camelCase for variables
 
