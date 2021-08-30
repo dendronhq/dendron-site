@@ -7,6 +7,23 @@ created: 1601508213606
 date: '2022-01-01'
 ---
 
+
+## 0.562
+
+### Features
+
+### Enhancements
+- much faster workspace initialization for large vaults 
+
+### Bug Fixes
+
+### Pruning
+
+### House Cleaning
+
+### Docs
+
+
 ## 0.56.1
 
 ### Features
