@@ -2,7 +2,7 @@
 id: a80f36d9-01d0-4c5a-a228-867b093a4913
 title: Cook Book
 desc: ''
-updated: 1630075657148
+updated: 1630346538390
 created: 1599151918645
 stub: false
 ---
@@ -66,6 +66,38 @@ All packages in the repo use a standard base configuration found at [.eslintrc.j
 source bootstrap/scripts/helpers.sh
 setRegLocal
 verdaccio
+```
+
+### Adding a new husky hook
+
+The following is an example of adding a hook that checks whether any imports have the form `"../(common-frontend|...)"` and fail to push if so
+
+```diff
++++ b/hooks/pre-push.js
+@@ -2,6 +2,7 @@ const {checkToken} = require("./common");
+ const {exec} = require("./exec");
+
+ function main() {
+   // Where we would push if we ran `git push`
+   let upstream;
+   try {
+@@ -9,15 +10,18 @@ function main() {
+   } catch {
+     // Fallback to first origin if none are set
+     upstream = `${exec("git remote").stdout.trim().split("\n")[0]}/master`;
+   }
+   // The files that would get pushed
+   const filesToPush = exec(`git diff --name-only ${upstream}`).stdout.split('\n');
+
+   return checkToken({
+     filesToCheck: filesToPush,
+     forbiddenTokens: {
+       ".only": { rgx: /(describe|it|test)\.only/, fileRgx: /\.spec\.ts$/ },
+       "debugger;": { rgx: /(^|\s)debugger;/, fileRgx: /\.ts$/ },
++      "rel import of monorepo pkg": { rgx: /(\.\.\/(common-frontend|common-all|common-server|engine-server|dendron-cli|pods-core|api-server|common-test-utils|engine-test-utils|dendron-next-server))/, fileRgx: /\.ts[x]?$/ },
+     }
+   });
+ }
 ```
 
 ## Config
