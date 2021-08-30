@@ -2,7 +2,7 @@
 id: 773e0b5a-510f-4c21-acf4-2d1ab3ed741e
 title: Style
 desc: ''
-updated: 1630295822311
+updated: 1630347307336
 created: 1609550314371
 ---
 
@@ -72,6 +72,11 @@ interface Foo {
 }
 
 ```
+
+### avoid using `@ts-ignore`
+
+Unless there is a special circumstance, avoid using this statement since it skips typechecking. Alternatives to some common use cases:
+- unused variables: prefix the variable with a `_`  (eg. `_foo`) to have typescript ignore it
 
 ### prefer using `async/await` and `Promises` over callbacks
 
