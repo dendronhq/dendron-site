@@ -123,6 +123,7 @@ Dendron does not have a dedicated mobile client at this time. There are numerous
 -   [Epsilon Notes](https://play.google.com/store/apps/details?id=com.ekartoyev.enotes&hl=en_US&gl=US)
 -   [Neutrinote](https://neutrinote.wordpress.com/) (Android only)
 -   [Noteless](https://github.com/redsolver/noteless) (Android only). This _just_ received experimental Dendron support so worth trying out.
+-   [Markor](https://github.com/gsantner/markor) (Android only)
 
 Most mobile apps do not have git support.
 
