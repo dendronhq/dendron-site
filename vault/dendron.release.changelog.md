@@ -2,7 +2,7 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1630360922809
+updated: 1630428588027
 created: 1601508213606
 date: '2022-01-01'
 ---
@@ -12,9 +12,21 @@ date: '2022-01-01'
 
 ### Features
 
+#### User Tags
+![[dendron.topic.users#summary,1:#*]]
+
 ### Enhancements
+- tag colors now show up in graph view
+- significant (+60%) improvements to workspace startup speed
+- tag color display improvements
+- progress indicators for all long running tasks
+- additional styling improvements for nextjs publishing
 
 ### Bug Fixes
+- issue with "Browse Note" command for windows
+
+### House Cleaning
+- remove Dendron Markdown Preview Enhanced as recommended extension
 
 ## 0.56.1
 
