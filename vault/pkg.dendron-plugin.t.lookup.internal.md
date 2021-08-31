@@ -1,9 +1,9 @@
 ---
-id: ZbtRI22izXCapbjW
-title: Note Lookup
+id: PZ3IzgdeZBbFRvalzI9fp
+title: Internal
 desc: ''
-updated: 1629481073724
-created: 1627839920509
+updated: 1630426129273
+created: 1630426129273
 ---
 
 ## Summary
@@ -66,8 +66,8 @@ stateDiagram-v2
 
 
 ## Steps
-- [[Gather Input|pkg.dendron-plugin.arch.note-lookup#gather-input]]
-  - [[Prepare Quickpick|pkg.dendron-plugin.arch.note-lookup#prepare-quickpick]]
+- [[Gather Input|pkg.dendron-plugin.t.lookup.internal#gather-input]]
+  - [[Prepare Quickpick|pkg.dendron-plugin.t.lookup.internal#prepare-quickpick]]
     - initialize all buttons
 - enrichInput
   - show `QuickPick`
@@ -80,7 +80,7 @@ stateDiagram-v2
     - wait until user accepts or cancels
 - execute
   - open `picks`
-  - [[OnAccept|pkg.dendron-plugin.arch.note-lookup#onaccept]]
+  - [[OnAccept|pkg.dendron-plugin.t.lookup.internal#onaccept]]
 
 
 ## Code
@@ -217,3 +217,4 @@ acceptNewItem(item, picker) {
 ## Design Decisions
 
 ### Debounce
+

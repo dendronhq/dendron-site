@@ -1,12 +1,10 @@
 ---
-id: 89281554-099e-4f10-b6e1-2aedd37fd419
+id: yueBtcxggyCeqTFm15fyA
 title: Create New Note
 desc: ''
-updated: 1620440236652
-created: 1610206609498
-published: true
+updated: 1630426372028
+created: 1630426372028
 ---
-
 
 ## Summary
 - onDidAccept
@@ -61,3 +59,4 @@ applyTemplate {
 
 }
 ```
+

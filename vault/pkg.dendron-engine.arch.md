@@ -34,7 +34,7 @@ sequenceDiagram
 ## Indexing
 For indexing, would use [fusejs](https://fusejs.io/) - this is the same indexing mechanism as we do for lookup. 
 
-Some incomplete pseudo code on how lookup indexes here: [[queryNotes|pkg.dendron-engine.internal.lookup#querynotes]]
+Some incomplete pseudo code on how lookup indexes here: [[queryNotes|pkg.dendron-engine.t.lookup#querynotes]]
 
 FuseEngine is initialized here: https://github.com/dendronhq/dendron/blob/dev/packages/engine-server/src/enginev2.ts#L88:L88
 
