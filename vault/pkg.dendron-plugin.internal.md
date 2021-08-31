@@ -70,7 +70,7 @@ refreshButtons(buttons) {
 }
 ```
 
-- [[updatePickerBehavior|pkg.dendron-plugin.internal.lookup-modifiers#updatepickerbehavior]]
+- [[updatePickerBehavior|pkg.dendron-plugin.t.lookup.internal-modifiers#updatepickerbehavior]]
 
 ## Example
 

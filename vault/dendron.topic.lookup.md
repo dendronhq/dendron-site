@@ -18,5 +18,5 @@ Behind the scenes, lookup uses [fusejs](https://fusejs.io/) to do fuzzy string m
 
 Scoring is explained [here](https://fusejs.io/concepts/scoring-theory.html).
 
-You can see the pseudo code for how fusejs integrates with lookup [[here|pkg.dendron-plugin.internal.lookup]].
+You can see the pseudo code for how fusejs integrates with lookup [[here|pkg.dendron-plugin.t.lookup.internal]].
 

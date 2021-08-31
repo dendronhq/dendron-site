@@ -2,11 +2,15 @@
 id: iplO7IwCeT6qN6DxgTmP5
 title: Commands
 desc: ''
-updated: 1630020567549
+updated: 1630425872219
 created: 1630020205246
 ---
 
-# Base Command Lifecycle
+## Summary
+
+VSCode command execution
+
+## Base Command Lifecycle
 
 ### Simplified
 

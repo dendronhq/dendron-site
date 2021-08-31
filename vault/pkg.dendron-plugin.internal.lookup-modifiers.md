@@ -26,7 +26,7 @@ updatePickerBehavior {
 
 ### \_onAcceptNewNote
 
-- see [[_onAcceptNewNote|pkg.dendron-plugin.internal.lookup-createNewNote#_onacceptnewnote]]
+- see [[_onAcceptNewNote|pkg.dendron-plugin.t.lookup.internal-createNewNote#_onacceptnewnote]]
 
 ### picker.onCreate
 
