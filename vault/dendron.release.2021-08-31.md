@@ -1,18 +1,28 @@
 ---
 id: W5mqxShkKlwHarz90flG2
-title: Release Notes (version 0.56.1)
+title: Release Notes (version 0.57)
 desc: ''
-updated: 1630416534090
+updated: 1630429956675
 created: 1630414444200
 ---
 
-Dendron 0.56.1 has sprouted  🌱
+Dendron 0.57 has sprouted  🌱
 
 ### Highlights
 
+- (workspace) Workspace initialization up to 60% faster 🚀🚀🚀
 - (workspace) Seed Browser: Users can now browse the Seed Registry directly from their workspace, and interactily download them into their workspace ([[docs|dendron.topic.commands#seed-browse,1:#*]]
+- (workspace) Insert note has a bunch of new modes  ([[docs|dendron.topic.commands#insert-note-link]])
+- (workspace) Tag colors now show up in graph view
+- (workspace) Progress indicators are now displayed for all long running actions
+- (workspace) The legacy preview has been removed as a recommended extension
+- (workspace): Nicer refactor preview
+- (workspace): Better hover message
+- (markdown) Dendron natively supports `@user` notes ([[docs|dendron.topic.users]])
 - (pods) The GitHub pod can now use publish to create new issues ([[docs|dendron.topic.pod.builtin.github.publish]])
-- (bugfix) Backlinks properly update on frontmatter tag changes
+- (fix:workspace) Backlinks properly update on frontmatter tag changes
+- (fix:workspace) Issue with browse note command on windows
+- (fix:workspace) Unhandled error when escaping from insert note command
 
 ### Docs
 
@@ -29,15 +39,40 @@ Our documentation changes a lot week by week. Below is a highlight of some updat
 
 ### Community
 
-#### Office Hours
-
-You can find notes from our latest office hours [[here|dendron.community.office-hours.2021.08.22]]
-
 #### Thank You's
 
 A big **thanks** to the following gardeners that brought up issues, contributions, and fixes to this release :man_farmer: :woman_farmer: 
 You can see an overview of all roles [[here|dendron.community.roles]]
 
+- [Dave Richardson](https://github.com/djradon) @gunaar#9077 
+  - #dendron.taxonomist
+  - bad config in journal notes
+  - [References to list items include sub-items when rendered in Preview v2 · Issue #1233 · dendronhq/dendron](https://github.com/dendronhq/dendron/issues/1233)
+  - [Preview v2 inconsistent behaviour around block-referenced list items · Issue #1235 · dendronhq/dendron](https://github.com/dendronhq/dendron/issues/1235)
+- [Ding](https://github.com/Ding-Fan) @rainmaker#7370 
+  - #dendron.taxonomist
+  - add Markor to list of mobile apps 
+- [Bassmann](https://github.com/Bassmann) @Bassmann#5300 
+  - issue with browse note
+- NZ-John#0569
+  - #dendron.bugcatcher
+  - [Logo and site name when published, does not apply consistently across pages · Issue #1236 · dendronhq/dendron](https://github.com/dendronhq/dendron/issues/1236)
+- [HopperTech](https://github.com/HopperTech)
+  - #dendron.bugcatcher
+  - [New note stuck in with "stub: true" · Issue #1231 · dendronhq/dendron](https://github.com/dendronhq/dendron/issues/1231)
+- [[people.aleksey-rowan]]
+  - [Cross-vault reference links are not rendered in V2 without `dendron//` prefix · Issue #1213 · dendronhq/dendron](https://github.com/dendronhq/dendron/issues/1213)
+- [Ryan Randall](https://github.com/ryan-p-randall)
+  - #dendron.bugcatcher
+  - [Rename note command doesn't update wikilinks to the renamed note if they are inside the renamed note · Issue #1207 · dendronhq/dendron](https://github.com/dendronhq/dendron/issues/1207)
+- [CyberFoxar](https://github.com/CyberFoxar)
+  - #dendron.bugcatcher
+  - [Preview v2 does not properly follow anchor links · Issue #1203 · dendronhq/dendron](https://github.com/dendronhq/dendron/issues/1203)
+- [[people.tika]]
+  - [Rename Note should apply to the Schema ID in the case of templates · Issue #1245 · dendronhq/dendron](https://github.com/dendronhq/dendron/issues/1245)
+  - ["Note does not exist. Create?" should read "Schema does not exist. Create?" in Schema Lookup · Issue #1246 · dendronhq/dendron](https://github.com/dendronhq/dendron/issues/1246)
+
+
 ### Changelog
 
-![[dendron.release.changelog#0561,1:#056]]
+![[dendron.release.changelog#0571,1:#057]]
