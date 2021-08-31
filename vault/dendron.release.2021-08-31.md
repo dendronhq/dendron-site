@@ -2,7 +2,7 @@
 id: W5mqxShkKlwHarz90flG2
 title: Release Notes (version 0.57)
 desc: ''
-updated: 1630430269085
+updated: 1630430471752
 created: 1630414444200
 ---
 
@@ -57,7 +57,7 @@ You can see an overview of all roles [[here|dendron.community.roles]]
 - [HopperTech](https://github.com/HopperTech)
   - #dendron.bugcatcher
   - [New note stuck in with "stub: true" · Issue #1231 · dendronhq/dendron](https://github.com/dendronhq/dendron/issues/1231)
-- [[people.aleksey-rowan]]
+- [Aleksey Rowan](https://github.com/aleksey-rowan) @aleksey#5276
   - [Cross-vault reference links are not rendered in V2 without `dendron//` prefix · Issue #1213 · dendronhq/dendron](https://github.com/dendronhq/dendron/issues/1213)
 - [Ryan Randall](https://github.com/ryan-p-randall)
   - #dendron.bugcatcher
@@ -65,7 +65,7 @@ You can see an overview of all roles [[here|dendron.community.roles]]
 - [CyberFoxar](https://github.com/CyberFoxar)
   - #dendron.bugcatcher
   - [Preview v2 does not properly follow anchor links · Issue #1203 · dendronhq/dendron](https://github.com/dendronhq/dendron/issues/1203)
-- [[people.tika]]
+- [Tika](https://github.com/SR--) Tika#9526
   - [Rename Note should apply to the Schema ID in the case of templates · Issue #1245 · dendronhq/dendron](https://github.com/dendronhq/dendron/issues/1245)
   - ["Note does not exist. Create?" should read "Schema does not exist. Create?" in Schema Lookup · Issue #1246 · dendronhq/dendron](https://github.com/dendronhq/dendron/issues/1246)
 
