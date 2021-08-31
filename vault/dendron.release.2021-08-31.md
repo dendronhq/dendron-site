@@ -2,7 +2,7 @@
 id: W5mqxShkKlwHarz90flG2
 title: Release Notes (version 0.57)
 desc: ''
-updated: 1630429956675
+updated: 1630430269085
 created: 1630414444200
 ---
 
@@ -11,7 +11,7 @@ Dendron 0.57 has sprouted  🌱
 ### Highlights
 
 - (workspace) Workspace initialization up to 60% faster 🚀🚀🚀
-- (workspace) Seed Browser: Users can now browse the Seed Registry directly from their workspace, and interactily download them into their workspace ([[docs|dendron.topic.commands#seed-browse,1:#*]]
+- (workspace) Seed Browser: Users can now browse the Seed Registry directly from their workspace, and interactily download them into their workspace ([[docs|dendron.topic.commands#seed-browse,1:#*]])
 - (workspace) Insert note has a bunch of new modes  ([[docs|dendron.topic.commands#insert-note-link]])
 - (workspace) Tag colors now show up in graph view
 - (workspace) Progress indicators are now displayed for all long running actions
@@ -33,9 +33,6 @@ Our documentation changes a lot week by week. Below is a highlight of some updat
 - Added docs on inserting note links into the current document using lookup ([GitHub PR](https://github.com/dendronhq/dendron-site/pull/170)):
   - [[Dendron commands: Insert Note Link|dendron.topic.commands#insert-note-link]]
   - [[Dendrong Config: insertNoteLink|dendron.topic.config.dendron#insertnotelink]]
-
-### Ongoing 
-<!-- Discuss ongoing efforts here -->
 
 ### Community
 
@@ -75,4 +72,4 @@ You can see an overview of all roles [[here|dendron.community.roles]]
 
 ### Changelog
 
-![[dendron.release.changelog#0571,1:#057]]
+![[dendron.release.changelog#057,1:#056]]
