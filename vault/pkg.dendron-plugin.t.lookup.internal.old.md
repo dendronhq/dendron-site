@@ -97,7 +97,7 @@ onUpdatePickerItem {
 
 ### createPickerItemsFromEngine
 
-- see [[queryNotes|pkg.dendron-engine.internal.lookup#querynotes]]
+- see [[queryNotes|pkg.dendron-engine.t.lookup#querynotes]]
 
 ```ts
 createPickerItemsFromEngine {
