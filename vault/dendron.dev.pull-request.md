@@ -2,7 +2,7 @@
 id: adc39825-77a6-46cf-9c49-2642fcb4248e
 title: Pull Request
 desc: ''
-updated: 1630424636934
+updated: 1630440209024
 created: 1623430616135
 ---
 
@@ -56,3 +56,4 @@ refactor!: drop support for Node 6
 
 ### QA Checklist
 ![[dendron.dev.qa.sop#checklist,1]]
+
