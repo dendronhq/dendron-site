@@ -2,7 +2,7 @@
 id: f143ca38-dcc6-4cd3-b84b-997aec1160ef
 title: Rfc
 desc: ""
-updated: 1629826509562
+updated: 1630551250553
 created: 1605539111635
 ---
 
@@ -36,6 +36,7 @@ future state of the system and to discover projects for contribution.
 | 💡 proposed           | [6 - Design System](https://wiki.dendron.so/notes/d7597569-e3dd-4e56-b719-0f97f8e93030.html)             | [@kevin](https://github.com/kevinslin)           |
 | 💡 proposed           | [8 - Multi-publish](https://wiki.dendron.so/notes/8b3bfb16-8330-4a78-85cc-45581c319450.html)             | [@kevin](https://github.com/kevinslin)           |
 | 💡 proposed           | [20 - Integrated Space Repetition](https://wiki.dendron.so/notes/X2Zn2H89eBZrsj7Of8LLm.html#why)         | [@imalightbulb](https://github.com/imalightbulb) |
+| 💡 proposed           | [22 - Queries](https://wiki.dendron.so/notes/O4f9yfDoO7E7gRRDeBeCh.html)                                 | [@SeriousBug](https://github.com/SeriousBug)     |
 | draft                 | [Todo Notes]()                                                                                           | [@kevin](https://github.com/kevinslin)           |
 | draft                 | [Browser Based Dendron]()                                                                                | [@kpats](https://github.com/kpathakota)          |
 
