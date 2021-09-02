@@ -2,7 +2,7 @@
 id: O4f9yfDoO7E7gRRDeBeCh
 title: 22 Queries
 desc: ''
-updated: 1629751449657
+updated: 1630550849386
 created: 1629395624110
 ---
 
@@ -50,63 +50,62 @@ The syntax for queries will be similar to references, but using a question mark 
 ?[[ ... ]]
 ```
 
-### Queries
+### Query language definition
 
-Queries operate on sets of notes. Each part of the query either introduces a set of notes, or selects a subset of the set of notes.
-
-#### Hierarchies
+The language is defined as follows.
 
 ```
-Select just one note:
+<Expr> -> ( <Expr> )
+<MultiExpr> -> <Expr> <MultiExpr> | <Expr>
+<Expr> -> or <MultiExpr>
+<Expr> -> and <MultiExpr>
+<Expr> -> <FName>
+<Expr> -> #<TagName>
+<Expr> -> @<TagName>
+<Expr> -> link <Expr>
+<Expr> -> to <Expr>
+<Expr> -> from <Expr>
+<Expr> -> connected <Expr>
+<Expr> -> children <Expr>
+<Expr> -> parent <Expr>
+<Expr> -> descendants <Expr>
+<Expr> -> ancestors <Expr>
+<Expr> -> vault <VaultName>
+<Expr> -> .<Property> <Relation> <Value>
+<Value> -> <Constant> | ?<VariableName> | null
+<Relation> -> == | !== | > | >= | < | <=
+
+<VariableName> -> /* One or more letters or digits. */
+<Constant> -> /* A string or number. */
+<FName> -> /* A valid note name */
+<TagName> -> /* A valid hashtag or user tag name */
+<VaultName> -> /* A valid vault name */
+```
+
+In this definition, tokens surrounded by less than and greater than symbols like
+`<X>` refers to a non-terminal token, and any other tokens refer to terminal
+tokens.
+
+Several terminal tokens are defined loosely in natural language at the end. These definitions are implementation-dependent.
+
+Every expression in the query language represents a set of notes.
+
+## Examples
+
+Select this RFC:
+```
 ?[[ dendron.rfc.22-queries ]]
-
-Select all children of a note (note the trailing dot):
-?[[ dendron.rfc. ]]
-
-For all descendants (note 2 trailing dots):
-?[[ dendron.rfc.. ]]
-
-Select all notes that end with `.config`:
-?[[ *.config ]]
-
-Select all notes that have a child `config`:
-?[[ .config ]]
-
-For all ancestors:
-?[[ ..config ]]
-
-All notes:
-?[[ * ]]
-
-Notes in a specific vault:
-?[[ dendron://dendron.dendron-site/dendron.rfc.]]
-
-For a tag note (identical to tags.todo)
-?[[ #todo ]]
-
-For a user note (identical to user.Kathryn)
-?[[ @Kathryn ]]
 ```
 
-These allow you to select specific notes or sets of notes based on their hierarchies. These can be useful in many ways, for example `?[[ dendron.rfc. ]]` will find all Dendron RFCs, and `?[[ .config ]]` will find all the configuration options of Dendron.
-
-#### Links
-
+Select all RFCs:
 ```
-Notes that contain links to `tags.todo`, or notes that are linked from `tags.todo`:
-?[[ link tags.todo ]]
+?[[ children dendron.rfc ]]
+```
 
-Notes that contains links to `tags.todo`:
+Notes that are tagged with `#todo`:
+```
 ?[[ to tags.todo ]]
-
-Notes that are linked from `tags.todo`:
-?[[ from tags.todo ]]
-
-Notes that are connected to `tags.todo` through one or more links:
-?[[ connected tags.todo ]]
 ```
-
-#### Parens
 
 Paranthesis are optional at the top level of the queries. The following two queries are identical:
 ```
@@ -114,84 +113,37 @@ Paranthesis are optional at the top level of the queries. The following two quer
 ?[[ (to tags.todo) ]]
 ```
 
-#### Combining & Altering Queries
-
+RFCs that are tagged with `#todo`:
 ```
-Notes that match both subqueries: 
-?[[ and (link tags.todo) dendron.rfc. ]]
-
-All subqueries:
-?[[ and (link tags.todo) dendron.rfc. (connected proj.) ]]
-
-Notes that match either subquery:
-?[[ or (link tags.todo) dendron.rfc.* ]]
-
-Any of the subqueries:
-?[[ or (link tags.todo) dendron.rfc. (connected proj.) ]]
-
-Doesn't match the subquery:
-?[[ not (link tags.todo) ]]
-
-From a specific vault:
-?[[ vault dendron.dendron-site dendron.rfc. ]]
+?[[ and (link tags.todo) (children dendron.rfc) ]]
 ```
 
-#### Contents
-
-Queries can also look into the contents of notes.
-
+RFCs that are in the `dendron.dendron-site` vault:
 ```
-Searching for a specific string
-?[[ contains "blocked task" tasks. ]]
-
-Search for a regular expression
-?[[ contains /^blocked\s*[:.]/m tasks. ]]
+?[[ and (vault dendron.dendron-site) (children dendron.rfc) ]]
 ```
 
-#### Frontmatter
-
-Queries can check for specific frontmatter properties.
-
+All notes created before a certain time:
 ```
-All tags that have a color set
-?[[ has-property color tags.. ]]
-
-All notes created before a certain time
-?[[ property-less-than created 1629395624110 * ]]
-
-All notes updated after a certain time
-?[[ property-greater-than updated 1629395624110 * ]]
+?[[ .created < 1629395624110 ]]
 ```
 
-#### Multiline
-
-Queries may span multiple lines.
-
+All tags that have a color set:
 ```
-?[[ 
-  (or
-    (link tags.todo)
-    dendron.rfc.
-    (connected proj.))
+?[[ and (.color != null) (descendants tags) ]]
+```
+
+Queries may span multiple lines. For example, all RFCs that are tagged with `#todo` and are connected to a project:
+```
+?[[ or (to tags.todo)
+       (children dendron.rfc)
+       (connected (children projects))
 ]]
-
 ```
-
-#### Escaping
-
-The character `*` has a special meaning when querying notes. To refer to a note
-that has the character `*` in its name, you must escape it as `\*`.
-
-## Examples
 
 Find all notes that are tagged with any tag:
 ```
-?[[ (link tags..)]]
-```
-
-Find all notes under `dendron.rfc.` that have unfinished tasks:
-```
-?[[ (and (link tags.todo) dendron.rfc.*) ]]
+?[[ to (descendants tags) ]]
 ```
 
 ## Tradeoffs
@@ -208,4 +160,6 @@ Cons:
 
 ## Discussion
 
-> Any sufficiently complicated ... program contains an ad hoc, informally-specified, bug-ridden, slow implementation of half of Common Lisp. ~Philip Greenspun
+The implementation will be internally based on
+[[DataScript|https://github.com/tonsky/datascript]], which will allow us to
+support very powerful queries while also simplifying the implementation.
