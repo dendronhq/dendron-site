@@ -2,7 +2,7 @@
 id: tO6EFCHd2rw350zh
 title: Import
 desc: ''
-updated: 1628252260713
+updated: 1630579300814
 created: 1626365094547
 ---
 
@@ -12,15 +12,38 @@ created: 1626365094547
 The Google Docs Import Pod imports contents of a google document to a specified hierarchy in your selected vault as a note.
 The import config has additional options to import comments in the doc.
 
-## Authentication
+## Workflow
 
-To communicate with the Google Docs, you'll need an OAuth token with the right scopes.
+There are several steps to using the gdoc import pod:
+1. Authentication
+1. Choosing Which Document To Import
+1. Choosing the Destination
+
+### Authentication
+
+There are currently two ways to authenticate - through an OAuth workflow (currently in Beta) and a manual workflow.
+
+#### OAuth Flow (Beta)
+
+_**Note**: This feature is currently in Beta and requires your Google Account to be onboarded to our service. If you're interested in testing out this feature, please contact us at support@dendron.so or on Discord._
+
+After getting your Google Account onboarded with us, simply run the GDoc import pod and you'll be redirected to your browser to sign in with your Google Account. Once signed in, your credentials will be saved and you can run the Import Pod again to import your docs.
+
+#### Manual Workflow
+
+To communicate with the Google Docs, you'll need to manually obtain OAuth token with the right scopes.
 Follow the steps below to create a token. The scopes you require depends on the type of data you're trying to request, you can even select all and you are good to go.
 
-- Go to [Google Oauth2 Playground](https://developers.google.com/oauthplayground/) and select the `Google Docs API v1` with scope as `https://www.googleapis.com/auth/documents` and `https://www.googleapis.com/auth/drive` and click on Authorize APIs button. Authorize yourself by selecting your google account from the oauth popup.
+1. Go to [Google Oauth2 Playground](https://developers.google.com/oauthplayground/) and select the `Google Docs API v1` with scope as `https://www.googleapis.com/auth/documents` and `https://www.googleapis.com/auth/drive` and click on Authorize APIs button. Authorize yourself by selecting your google account from the oauth popup.
+1. On Step 2 in Oauth2 Playground, click on exchange authorization code for tokens. Copy the access token and store it in the  dendron gdoc import pod config file. 
 
+### Choosing which Document to Import
 
--  On Step 2 in Oauth2 Playground, click on exchange authorization code for tokens. Copy the access token and store it in the  dendron gdoc import pod config file. 
+The Pod will automatically query for documents on your Drive and provide you with a drop down list of documents for you to choose to import. Currently, only one file can be imported at a time. If it takes the engine too long to query for your documents (maybe if you have a lot of documents on your drive), then the operation will time out. In this case, you can manually enter the name of the document you want to import.
+
+### Choosing the Destination
+
+The final prompt in the workflow asks for the destination location of the note to put the gdoc contents in.  By default, the name of the document is populated.  If you import this document repeatedly, then the destination will be pre-populated with the path you picked during the previous import.
 
 
 ## Example
@@ -30,9 +53,9 @@ Follow the steps below to create a token. The scopes you require depends on the 
 src: gdoc
 vaultName: vault
 owner: dendronhq
-token: ***
-hierarchyDestination: gdoc.topic
-documentId: ***
+accessToken: ***
+refreshToken: ***
+expirationTime: 1630569771.749
 importComments: {enable: true, format: text}
 confirmOverwrite: true
 ```
@@ -89,26 +112,22 @@ Dendron is an **open-source**, **local-first**, **markdown-based**, **note-takin
 
 ### Additional Google Doc Pod Specific Configurations:
 
-### token
+### accessToken
 - description: google doc personal access token
 - type: string
 - required: true
 
-### hierarchyDestination
-- description: name of hierarchy to import into
+### refreshToken
+
+- description: google doc refresh token. This will be used to automatically refresh the access token once it passes its expiration time.
 - type: string
-- required: true
+- required: false
 
-### documentId
+### expirationTime
 
-- description: document Id of doc to import
-- type: string
-- required: true
-
-document id can be referenced from the url of the google doc.
-In the below url 14o1AVg10CBbLlqNqBrCz4HkR is the _document id._
-
-`https://docs.google.com/document/d/14o1AVg10CBbLlqNqBrCz4HkR`
+- description: Expiration Time of the Access Token. It is not necessary to manually modify this value.
+- type: "number"
+- required: false
 
 ### importComments
 
