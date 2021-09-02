@@ -1,9 +1,9 @@
 ---
-id: 7KnjJxQkw0rPFg6KZcDxl
-title: Lookup Debounce
+id: Y49ti3zvCqmI6dSajW3MT
+title: Debounce
 desc: ''
-updated: 1628585684509
-created: 1628585342381
+updated: 1630426296025
+created: 1630426296025
 ---
 
 `_.debounce()` with { maxWait } causes the debounced version of `onUpdatePickerItem` to actually act like `_.throttle()`, which then ensured that `onUpdatePickerItem` to fire at least every `maxWait` ms.

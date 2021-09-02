@@ -2,7 +2,7 @@
 id: 64f0e2d5-2c83-43df-9144-40f2c68935aa
 title: Setup Dendron Development Environment
 desc: ''
-updated: 1628544265551
+updated: 1629773462118
 created: 1598651458825
 ---
 
@@ -39,18 +39,19 @@ Before you begin, you need to make sure to have the following SDKs and tools:
   yarn bootstrap:bootstrap # install package dependencise
   yarn bootstrap:build  # build package dependencies
   ```
-
 ## Run
 
 1. Open the workspace.  At the root of the monorepo, open `dendron-main.code-workspace`. Open this with VSCode to start editing. While its not required to use VSCode, most of the helper scripts in this repository are created with VSCode in mind so using it will make development significantly easier.
 2. Debug
   - NOTE: you don't need to do this if you are not directly working on the extension (eg. you're working on the [[server|pkg.dendron-next-server]])
 
-To start an instance of the Dendron with the Debugger, Run `Extension (plugin-core)` from the debug panel in vscode
+To start an instance of the Dendron with the Debugger, Run `Extension: Local (plugin-core)` from the debug panel in vscode
 
 ![debugger](/assets/images/start_debugger.gif)
 
-_Note: Running via Run -> Start Debugging will not work unless you've previously targeted `Extension (plugin-core)`_
+_Note: Running via Run -> Start Debugging will not work unless you've previously targeted `Extension: Local (plugin-core)`_
+
+_Note: To have the changes reflected as you edit the code you need to run the `./bootstrap/scripts/watch.sh` and restart the `Extension: Local (plugin-core)`)_
 
 ## Remote Development 
 

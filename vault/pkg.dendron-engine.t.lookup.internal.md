@@ -1,9 +1,9 @@
 ---
-id: d77cc114-5c4b-4185-a353-47888e5a8976
-title: Lookup
+id: 7HUiVD19WLHJMW2sMMO7g
+title: Internal
 desc: ''
-updated: 1621458815737
-created: 1615940090746
+updated: 1630426478059
+created: 1630426478059
 ---
 
 ## queryNotes
@@ -74,3 +74,4 @@ _writeNewNote() {
     includeScore: true,
   };
 ```
+

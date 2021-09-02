@@ -1,18 +1,73 @@
 ---
-id: ZbtRI22izXCapbjW
-title: Note Lookup
+id: PZ3IzgdeZBbFRvalzI9fp
+title: Internal
 desc: ''
-updated: 1629145879511
-created: 1627839920509
+updated: 1630426129273
+created: 1630426129273
 ---
 
 ## Summary
 
 This describes the logic for Note Lookup
 
+## State Diagram
+
+```mermaid
+
+stateDiagram-v2
+    [*] --> LookupCommand
+
+    state LookupCommand {
+        [*] --> run
+        run --> gatherInput
+        gatherInput --> prepareQuickPick
+        gatherInput --> constructProvider
+        gatherInput --> enrichInput
+        enrichInput --> subscribe
+        enrichInput --> subscribedToListener
+        subscribedToListener --> showQuickPick
+        lookupExecute --> [*]
+
+      state Controller {
+        prepareQuickPick
+        prepareQuickPick --> gatherInput
+        showQuickPick --> onUpdatePickerItems
+        showQuickPick --> [*]
+      }
+
+      state Provider {
+        constructProvider --> gatherInput
+        onUpdatePickerItems --> updatePickerItems
+      }
+
+      state Quickpick {
+        state updatePickerItems <<choice>>
+        updatePickerItems --> fetchRootResults: if qs = ""
+        updatePickerItems --> [*]: if noChangeValue(picker)
+        updatePickerItems --> fetchPickerResultsp
+        fetchRootResults --> [*]
+      }
+
+    }
+
+    state HistoryListener {
+      state listen <<choice>>
+      subscribe  --> listening
+      listening --> listen
+      listen --> done : if action = done
+      listen --> done : if action = changeState & data = hide & !picker.pending
+      listen --> done : if action = error
+      listen --> listening: otherwise
+      done --> [*]
+    }
+
+    HistoryListener --> lookupExecute
+```
+
+
 ## Steps
-- [[Gather Input|pkg.dendron-plugin.arch.note-lookup#gather-input]]
-  - [[Prepare Quickpick|pkg.dendron-plugin.arch.note-lookup#prepare-quickpick]]
+- [[Gather Input|pkg.dendron-plugin.t.lookup.internal#gather-input]]
+  - [[Prepare Quickpick|pkg.dendron-plugin.t.lookup.internal#prepare-quickpick]]
     - initialize all buttons
 - enrichInput
   - show `QuickPick`
@@ -25,7 +80,7 @@ This describes the logic for Note Lookup
     - wait until user accepts or cancels
 - execute
   - open `picks`
-  - [[OnAccept|pkg.dendron-plugin.arch.note-lookup#onaccept]]
+  - [[OnAccept|pkg.dendron-plugin.t.lookup.internal#onaccept]]
 
 
 ## Code
@@ -162,3 +217,4 @@ acceptNewItem(item, picker) {
 ## Design Decisions
 
 ### Debounce
+

@@ -2,7 +2,7 @@
 id: veJtAvr1gSMu50Mp
 title: Test
 desc: ''
-updated: 1627140515454
+updated: 1629998794634
 created: 1627140509315
 ---
 
@@ -15,6 +15,19 @@ To write a test, use the `runLegacySingleWorkspaceTest` or `runLegacyMultiWorksp
 You can see an example of both in [plugin-core/src/test/suite-integ/RenameNoteV2.test.ts](https://github.com/dendronhq/dendron/blob/master/packages/plugin-core/src/test/suite-integ/RenameNoteV2.test.ts#L131:L131)
 
 The arguments are explained [here](https://github.com/dendronhq/dendron/blob/master/packages/plugin-core/src/test/testUtilsV3.ts#L70:L70).
+
+## Tips
+
+### Using hooks
+
+Setting up a Dendron test takes a `preSetupHook` and `postSetupHook` argument. If your test requires just using the defaults, you can just use an `ENGINE_HOOK` directly
+```ts
+...
+preSetupHook: ENGINE_HOOKS.setupBasic,
+...
+```
+
+- Example [here](https://github.com/dendronhq/dendron/pull/1208/files#)
 
 ## Details
 

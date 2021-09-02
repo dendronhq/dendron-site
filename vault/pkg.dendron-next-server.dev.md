@@ -3,7 +3,7 @@ id: 6293d9dc-9bd3-4b01-8428-34d8256f0a32
 title: Dev
 desc: |
   Development related
-updated: 1628636893122
+updated: 1629430815710
 created: 1621630111186
 ---
 
@@ -12,7 +12,6 @@ created: 1621630111186
 ### Pre-req
 - [[dendron.dev.setup]]
 - [[Symlink the CLI|pkg.dendron-cli.dev#symlink]] `dendron-cli`
-- [[React Tutorial|eng.ref.react#getting-started]] (optional - do this if you're new to react/redux/nextjs or need a refresher)
 
 ### Steps
 
@@ -21,6 +20,11 @@ You can test the Dendron Next App by launching a workspace using the CLI and the
   ```sh
   cd dendron/test-workspace
   ./scripts/dev.sh
+  ```
+1. In a separate terminal, start the Next Server
+  ```sh
+  cd dendron/packages/dendron-next-server
+  yarn dev
   ```
 1. (optional) To connect to the workspace using chrome, enter the following in your localhost (replace WORKSPACE and PORT with your own values) ^MgEdJdyD
    ```sh

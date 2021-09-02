@@ -2,7 +2,7 @@
 id: 683740e3-70ce-4a47-a1f4-1f140e80b558
 title: FAQ
 desc: ''
-updated: 1629205064953
+updated: 1629506041569
 created: 1595952505025
 stub: false
 nav_order: 6
@@ -79,7 +79,7 @@ I wanted to spend more time building out features that supported Dendron's [hiea
 
 That being said, the core dendron engine is not vscode specific and there are folks that are experimenting with porting it over to other editors (eg. sublime, vim). We also have plans for a standalone editor in the future (most likely, this will be a fork of VSCode optimized for note taking)
 
-## Working with Notes
+## Notes
 
 ### Why markdown?
 
@@ -132,7 +132,7 @@ Yes. You can move notes manually outside of Dendron or between different vaults.
 - you should keep the `id` of the note since features like publishing depend on it to find the right link
 - if your notes have [[Cross Vault Links|dendron.topic.links#cross-vault-links]] (only applicable for [[Multi Vault|dendron.topic.vaults.multi-vault]]), those links might bring if they are moved to a different workspace that doesn't have reference to the original vault
 
-## Working with Hierarchies
+## Hierarchies
 
 ### How should I name a note?
 
@@ -181,7 +181,7 @@ If you want the ability to collapse folders, you can use the [[dendron tree view
 
 At the end of the day, folders are meant to be an implementation detail for dendron. The underlying primitive of a note is an object that has metadata, content, and links. You can think of dendron as a flat file based database and lookup and the tree view as the UI to said database. For use cases involving external tools that require folders, you'll soon be able to use the [[markdown export pod|dendron.topic.pod.builtin.markdown.export]] to do just that.
 
-## Working with Schemas
+## Schemas
 
 ### What is the deal with schemas? Do I need to use them?
 
@@ -205,7 +205,7 @@ What this will be in the future:
 - schemas should only work on the vault that they are declared in, and you can have an option to specify (in `dendron.yml` if you want a schema to be global)
 - schema imports should work xvault (import syntax will be `{vaultName}.{schemaName}`)
 
-## Working with Vaults
+## Vaults
 
 ### Git Doc and other extensions don't recognize my repos for multi-vault
 
@@ -228,29 +228,15 @@ Many VSCode extensions that work across multiple git repositories won't recogniz
     ],
 ```
 
-## Finding Notes
+## Humans
 
-### Can I do filter by the metadata in Dendron?
+### How do I share my notes with others?
+1. The *easiest* way to share public documents *for consumers* is to publish it as a site. Instructions [[here|dendron.topic.publishing.quickstart]]
+2. If folks are comfortable with markdown, you can use the markdown pod to export your entire workspace or just a specific page to markdown. Instructions [[here|dendron.topic.pod.builtin.markdown]]
+    - NOTE: this doesn't preserve backlinks or assets
+3. The full experience is committing your workspace as a git repo and having collaborators use Dendron to add it as a [[Remote Vault|dendron.topic.vaults#remote-vault]]
 
-Metadata is currently under utilized because we don't have a built in way of easily querying by it. We currently have [this issue](https://github.com/dendronhq/dendron/issues/152) tracking the progress of advanced query work.
 
-In the future, we want to support:
-
--   querying by custom frontmatter attributes: <https://github.com/dendronhq/dendron/issues/152>
--   query by attributes with logical operators: <https://github.com/dendronhq/dendron/issues/159>
-
-We also want to support some subset of the queries as note references so that the results can be included in page.
-
-For now, we recommend you use the [[search editor|dendron.guides.tips#search-editor]] capability for liimited querying capabilities.
-
-### Can I autocomplete an hierarchy?
-
-See this [issue](https://github.com/dendronhq/dendron/issues/490).
-
-TLDR: vscode doesn't expose tab completion via API. There are two alternatives we're currently considering:
-
--   overload the `enter` command, one press to autocomplete, two presses to select
--   replace the lookup component with a webview
 
 ## Pods
 
@@ -265,7 +251,33 @@ You can read more about them [[here|dendron.topic.pod]].
 ## Publishing
 ![[dendron://dendron.dendron-site/dendron.topic.publishing.faq]]
 
+## Search and Filtering
+
+### Can I filter by the metadata in Dendron?
+
+Metadata is currently under utilized because we don't have a built in way of easily querying by it. We currently have [this issue](https://github.com/dendronhq/dendron/issues/152) tracking the progress of advanced query work.
+
+In the future, we want to support:
+
+-   querying by custom frontmatter attributes: <https://github.com/dendronhq/dendron/issues/152>
+-   query by attributes with logical operators: <https://github.com/dendronhq/dendron/issues/159>
+
+We also want to support some subset of the queries as note references so that the results can be included in page.
+
+For now, we recommend you use the [[search editor|dendron.guides.tips#search-editor]] capability for liimited querying capabilities.
+
 ## Other
+
+
+### Can I autocomplete an hierarchy?
+
+See this [issue](https://github.com/dendronhq/dendron/issues/490).
+
+TLDR: vscode doesn't expose tab completion via API. There are two alternatives we're currently considering:
+
+-   overload the `enter` command, one press to autocomplete, two presses to select
+-   replace the lookup component with a webview
+
 
 ### How to launch dendron with most recent vault quickly?
 
@@ -287,13 +299,6 @@ Now this isn't required per-say, we could just do away with **root** notes and s
 
 ps. root.schema.yml doesn't work right now as described in the sense that we haven't implemented global schemas yet
 
-### Can I use a dark theme for the markdown preview?
-
-Yes. There's a setting called `markdown-preview-enhanced.previewTheme` that you can set which has a list of default themes, including dark themes.
-
-### Can I customize the markdown preview CSS?
-
-Yes. Read [this](https://shd101wyy.github.io/markdown-preview-enhanced/#/customize-css) for more information.
 
 ### Is there a list of keyboard shortcuts I can see?
 

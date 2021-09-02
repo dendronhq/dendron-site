@@ -2,7 +2,7 @@
 id: f83c1d87-eac0-48f3-a5cf-8a69989d8ec1
 title: Dendrons Config
 desc: ''
-updated: 1629187796348
+updated: 1630346783169
 created: 1619539817122
 ---
 
@@ -131,9 +131,6 @@ Sets the [[synchronization strategy|dendron.ref.workspace#Workspace: Sync]] for 
 When set to true, Dendron will automatically fold the frontmatter when opening new notes.
 This includes newly created notes, and existing notes that are being opened for the first time in this session of Visual Studio Code.
 
-### defaultDailyJournalVault
-
-Execute [[Create Daily Journal Note|dendron.topic.commands#create-daily-journal-note]] with a default vault in place
 
 ### vaults
 
@@ -144,9 +141,12 @@ Tracks [[vaults|dendron.concepts#vaults]] for the workspace. You shouldn't have 
 See [[Vault Configuration|dendron.topic.vaults#configuration]]
 
 ## Journal
+
 ### dailyDomain
 - type: string
 - default: daily
+
+domain where daily journals are kept
 
 ### dailyVault
 - type: string
@@ -154,9 +154,6 @@ See [[Vault Configuration|dendron.topic.vaults#configuration]]
 
 Name of vault where daily journal should be in. If not set, default to current open vault.
 
-### dailyVault
-
-domain where daily journals are kept
 ### name
 - type: string
 - default: journal
@@ -218,4 +215,32 @@ Validate existing values
 ![Validate existing values](https://camo.githubusercontent.com/4e11001d0d14690c3cc37360e3a4ddab9debdca6d553373fac93fc027cbddf33/68747470733a2f2f692e696d6775722e636f6d2f436563554332482e706e67)
 
 
-## 
+## insertNoteLink
+
+Modifies behavior of the [[Insert Note Link|dendron.topic.commands#insert-note-link]] command.
+
+### multiSelect
+- default: false
+
+If set to `true`, enables multi-select for `Insert Note Link` Command.
+
+### aliasMode
+- default: "none"
+- options: "snippet" | "selection" | "prompt" | "title" | "none"
+
+Overrides default alias mode.
+
+## lookup
+
+Modifies behavior of [[lookup|dendron.topic.lookup]] related commands
+Currently we only have settings for Note Lookup.
+
+### note
+
+Modifies behavior of `Dendron: Lookup Note`.
+
+#### selectionType
+- default: "selectionExtract"
+- options: "selectionExtract" | "selection2link" | "none"
+
+Overrides default selection type modifier to be enabled with note lookup.

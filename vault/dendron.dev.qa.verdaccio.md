@@ -26,7 +26,7 @@ setRegLocal
 ```
 1. Run registry
 ```
-verdacco
+verdaccio
 ```
 1. Create a local npm account
 ```sh

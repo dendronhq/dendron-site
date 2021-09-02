@@ -2,7 +2,7 @@
 id: 4039fc46-06b2-4f83-b817-fc490bafbcb3
 title: 14 - The Seed Bank 
 desc: ''
-updated: 1624296294335
+updated: 1629677234653
 created: 1623017672501
 ---
 ## Goals
@@ -31,7 +31,7 @@ The Seed Bank needs to define the following components:
    - standard metadata for declaring a module and its dependencies
    - standard endpoint to retrieve said metadata
    - standard methods to perform registry operations (add/remove/query)
-2. registry
+2. ~~registry~~
    - an endpoint for hosting the registry metadata
    - an endpoint for performing API calls against the registry
    - an endpoint for hosting the module artifacts

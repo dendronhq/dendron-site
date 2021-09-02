@@ -2,14 +2,18 @@
 id: 7c00d606-7b75-4d28-b563-d75f33f8e0d7
 title: Roles
 desc: ""
-updated: 1622954219917
+updated: 1629840695377
 created: 1604237102230
 ---
 
 ## Summary
 Dendron has special roles for members of its community.
 
-If you'd like to credit someone for work, you can simply ask the contribution bot ([contribution-key](https://allcontributors.org/docs/en/emoji-key)): `@all-contributors please add @<username> for <contributions>.`
+If you'd like to credit someone for work, you can simply ask the contribution bot ([contribution-key](https://allcontributors.org/docs/en/emoji-key)): `@all-contributors please add @<username> for <contributions>.` ^NE2TMz6wxONj
+
+Common keys are:
+- bug
+- doc
 
 You can either use the bot in the relevant Github issue OR in the [gratitude issue](https://github.com/dendronhq/dendron/issues/714).
 

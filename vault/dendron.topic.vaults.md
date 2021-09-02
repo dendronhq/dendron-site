@@ -2,9 +2,8 @@
 id: 6682fca0-65ed-402c-8634-94cd51463cc4
 title: Vaults
 desc: ''
-updated: 1628570435352
+updated: 1629926243847
 created: 1622841137387
-stub: true
 ---
 
 ## Summary
@@ -102,9 +101,9 @@ When someone pulls down a workspace with a `dendron.yml` that contains a remote 
 A regular vault is what you get by default when you first initialize your workspace. 
 
 ### Workspace Vault
-A workspace vault is a vault that belongs to another [[workspace|dendron.ref.workspace]]. It is automatically created when you run [[Vault Add|dendron.ref.vaults#vault-add]] on a [[workspace|dendron.ref.workspace]]. Upon adding a workspace, Dendron will add all the vaults of the given workspace inside your `dendron.yml` 
+A workspace vault is a vault that belongs to another [[workspace|dendron.ref.workspace]]. It is automatically created when you run [[Vault Add|dendron.topic.vaults#vault-add]] on a [[workspace|dendron.ref.workspace]]. Upon adding a workspace, Dendron will add all the vaults of the given workspace inside your `dendron.yml` 
 
-You can see an example of the configuration [[here|dendron.ref.vaults#remote-workspace-vault]].
+You can see an example of the configuration [[here|dendron.topic.vaults#remote-workspace-vault]].
 
 ## [[Configuration|dendron.topic.config.dendron]]
 

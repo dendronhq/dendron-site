@@ -2,7 +2,7 @@
 id: a7c3a810-28c8-4b47-96a6-8156b1524af3
 title: Lookup
 desc: ''
-updated: 1628269082913
+updated: 1630418184931
 created: 1595952505038
 stub: false
 ---
@@ -14,9 +14,9 @@ To work with notes, Dendron uses  **lookups**. Lookups help you create, find, an
 
 ## Details
 
-Behind the scenes, lookup uses [fusejs](https://fusejs.io/) to do fuzzy string matching based on the note hierarchy. You can see our parameters [here](https://github.com/dendronhq/dendron/blob/dev-kevin/packages/engine-server/src/fuseEngine.ts#L28:L28).
+Behind the scenes, lookup uses [fusejs](https://fusejs.io/) to do fuzzy string matching based on the note hierarchy. You can see our parameters [here](https://github.com/dendronhq/dendron/blob/master/packages/common-all/src/fuse.ts#L31).
 
 Scoring is explained [here](https://fusejs.io/concepts/scoring-theory.html).
 
-You can see the pseudo code for how fusejs integrates with lookup [[here|pkg.dendron-plugin.internal.lookup]].
+You can see the pseudo code for how fusejs integrates with lookup [[here|pkg.dendron-plugin.t.lookup.internal]].
 

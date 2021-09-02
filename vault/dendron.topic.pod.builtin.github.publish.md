@@ -2,7 +2,7 @@
 id: 8JECQzntY2P5ha3U
 title: Publish
 desc: ''
-updated: 1628252755094
+updated: 1630053681238
 created: 1627560101451
 ---
 
@@ -13,6 +13,9 @@ The Github Publish Pod lets you update the status and labels of issues in your g
 ## Example Workflow
 
 When importing issues through [Github Import](https://wiki.dendron.so/notes/2H9FBzagX9wf4b0V0ADGG.html), a note is created for each issue. The note frontmatter is populated with the title, url, status, existing tags, and an issueID. You can update the status of the issue (OPEN/CLOSED) and modify the tags within Dendron; after publishing with the publish pod, the changes in status and tags will be reflected in Github.
+
+A new github issue can be created by publishing any note with publish pod that does not have issueID and status in note's frontmatter.
+
 
 Upon publishing the note below, for this issue #86, the status will be updated to `CLOSED` and the tags will be updated to `wontfix` and `documentation`
 

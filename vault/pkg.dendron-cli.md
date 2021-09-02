@@ -6,6 +6,7 @@ updated: 1621712107318
 created: 1614837297111
 ---
 
+## Summary
 The Dendron CLI exposes Dendron's functionality via the command line. 
 
 ## Utilities

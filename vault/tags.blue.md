@@ -2,7 +2,7 @@
 id: zDqYUhNE10HXlmStfqwVD
 title: An Example of a Blue Tag
 desc: ""
-updated: 1628317474378
+updated: 1630361025850
 created: 1628316561344
 color: "#1D32E6"
 ---
