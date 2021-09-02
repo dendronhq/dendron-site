@@ -2,7 +2,7 @@
 id: adc39825-77a6-46cf-9c49-2642fcb4248e
 title: Pull Request
 desc: ''
-updated: 1630440209024
+updated: 1630541337926
 created: 1623430616135
 ---
 
@@ -16,14 +16,14 @@ This goes into submitting a pull request
 - if your still iterating on your pull request or if your working on feedback but its not ready yet, put your PR into `draft` mode until it is ready
 
 ### Commit Style
-
 - we follow [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/) with the following tags
+
 - categories:
   - feat: feature - introduce new functionality
   - enhance: enhancement - improve existing functionality
   - fix: make something not broken
   - chore: backend improvements
-  - spike: not complete commit
+  - spike: not complete commit, work for something else
  
 If you are introducing a breaking change, either add an `!` after the category or a footer at the end of your message
 
