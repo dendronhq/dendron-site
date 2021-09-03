@@ -2,7 +2,7 @@
 id: O4f9yfDoO7E7gRRDeBeCh
 title: 22 Queries
 desc: ''
-updated: 1630550849386
+updated: 1630696252514
 created: 1629395624110
 ---
 
@@ -158,8 +158,12 @@ Cons:
 - Lisp-like syntax may be confusing for users who are not familiar with lisp languages.
 - Trailing/preceding dots may be prone to typos, and easy to miss at a glance.
 
-## Discussion
+## Notes
 
 The implementation will be internally based on
 [[DataScript|https://github.com/tonsky/datascript]], which will allow us to
 support very powerful queries while also simplifying the implementation.
+
+## Discussion
+
+Please send any suggestions, thoughts, questions or concerns to the [Discussions](https://wiki.dendron.so/notes/O4f9yfDoO7E7gRRDeBeCh.html) page.
