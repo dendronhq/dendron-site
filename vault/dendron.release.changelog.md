@@ -2,7 +2,7 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1630634622300
+updated: 1630642879869
 created: 1601508213606
 date: '2022-01-01'
 ---
@@ -11,15 +11,9 @@ date: '2022-01-01'
 
 ### Features
 
-#### Google Doc Import Pod improvements
-
-User workflow configuration, for authentication and access token management, has been improved for Google Doc imports. ([[docs|dendron.topic.pod.builtin.google-docs.import]])
-
 #### Cache rendered previews
 
-- enhance: cache rendered previews using LRU cache
-  - https://github.com/dendronhq/dendron/pull/1238
-  - I'm not sure how best to explain this as a feature? Can this be explained here, and is it more an enhancement than a feature? [[user.nickolay]]
+When using preview, navigating back to a page that has already been recently visited should render more quickly with the new addition of a preview caching mechanism.
 
 ### Enhancements
 
