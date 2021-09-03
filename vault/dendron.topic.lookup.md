@@ -2,7 +2,7 @@
 id: a7c3a810-28c8-4b47-96a6-8156b1524af3
 title: Lookup
 desc: ''
-updated: 1630418184931
+updated: 1630665860205
 created: 1595952505038
 stub: false
 ---
@@ -11,6 +11,8 @@ To work with notes, Dendron uses  **lookups**. Lookups help you create, find, an
 
 <a href="https://www.loom.com/share/a409a621763548d395e48c9d4380cbe7"><img style="" src="https://cdn.loom.com/sessions/thumbnails/a409a621763548d395e48c9d4380cbe7-1600813345789-with-play.gif"> </a>
 
+## Lookups
+Dendron supports look ups by keywords separated by spaces/' ' without having to know the order where the keywords occur in the note. As example: `dendron rename` & `rename dendron` will both match note `dendron.dev.design.commands.rename`.
 
 ## Details
 
