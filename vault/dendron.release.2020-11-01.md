@@ -2,7 +2,7 @@
 id: 98ad9b6b-53f3-4883-939e-e14055f2cac7
 title: Release Notes(version 0.14)
 desc: ''
-updated: 1616950002664
+updated: 1630640681189
 created: 1604241475533
 ---
 Dendron 0.14 is here 🌱
@@ -26,8 +26,8 @@ As part of getting out of preview, we are launching on [Product Hunt](https://ww
 - complete [[server migration|dendron.roadmap.project.n.2020.server-migration]] for all users
 - create [[snapshots|dendron.topic.capabilities.snapshot]] of your vault and restore them back to a specific point in time
 - introduce [Environmentalist Plans](https://accounts.dendron.so/account/subscribe) for folks that want to support Dendron financially
-- add [publishing](https://dendron.so/notes/66727a39-d0a7-449b-a10d-f6c438185d7f.html#publish) capability to pods (with ability to publish to json and regular markdown)
-- support creating generated [table of contents](https://dendron.so/notes/ffa6a4ba-5eda-48c7-add5-8e2333ba27b4.html#toc) when publishing
+- add [[publishing|dendron.topic.pod#publish]] capability to pods (with ability to publish to json and regular markdown)
+- support creating generated table of contents when publishing
 - realtime schema validation when saving
 - numerous enhancements 
 - numerous bug fixes 
@@ -60,7 +60,7 @@ As part of getting out of preview, we are launching on [Product Hunt](https://ww
 ### House Keeping
 
 - `dendron.noServerMode` setting has been removed
-- Dendron docs has been re-organized to be less overwhelming (if you have an links bookmarked, they will still all work because of Dendron's [permanent links](https://dendron.so/notes/5fcb8564-7209-4a80-9bb8-025bc8eb489b.html#permanent-ids))
+- Dendron docs has been re-organized to be less overwhelming (if you have any links bookmarked, they will still all work because of Dendron's [[permanent links|dendron.topic.publishing#permanent-ids]]
 
 ### Upcoming
 

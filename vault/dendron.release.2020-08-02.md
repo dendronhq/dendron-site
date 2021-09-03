@@ -2,7 +2,7 @@
 id: e32aa1e2-9780-4183-927e-2f46372050aa
 title: Release Notes(version 0.5)
 desc: ''
-updated: 1623981566779
+updated: 1630642081569
 created: 1596374984386
 date: '2020-08-02'
 ---
@@ -20,7 +20,7 @@ These release notes are summary of the more notable changes, for the full list, 
 
 ## Commands
 
-Dendron has a series of built-in commands. They are all prefixed with `Dendron:` and can be accessed through the [command prompt](https://www.dendron.so/notes/c6fd6bc4-7f75-4cbb-8f34-f7b99bfe2d50.html#command-palette).
+Dendron has a series of built-in commands. They are all prefixed with `Dendron:` and can be accessed through the [[command prompt|dendron.concepts#command-palette]].
 
 ### Add Doctor Command
 
@@ -149,7 +149,7 @@ Bugfixes for this release
 - CI/CD testing ([d6ce68c](https://github.com/dendronhq/dendron/commit/d6ce68c720d7e8c96d7f4bb6ab390c1bd52c5218))
   - Dendron now has continuous integration tests for all pushes. ![](https://travis-ci.com/dendronhq/dendron.svg?branch=master)
   - Tests run on mac, linux and windows which means moving forward, there should be fewer OS (aka Windows) related issues 
-- Update [quickstart docs](http://localhost:4000/notes/e86ac3ab-dbe1-47a1-bcd7-9df0d0490b40.html)  to showcase new features ([aec0fe0](https://github.com/dendronhq/dendron/commit/aec0fe0939239d84f5b7ebd9ebae57a09bcdae43))
+- Update quickstart docs to showcase new features ([aec0fe0](https://github.com/dendronhq/dendron/commit/aec0fe0939239d84f5b7ebd9ebae57a09bcdae43))
 
 ## Next
 
