@@ -2,10 +2,33 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1630428777792
+updated: 1630642879869
 created: 1601508213606
 date: '2022-01-01'
 ---
+
+## 0.57.1
+
+### Features
+
+#### Cache rendered previews
+
+When using preview, navigating back to a page that has already been recently visited should render more quickly with the new addition of a preview caching mechanism.
+
+### Enhancements
+
+- (workspace) add multi-select for `Dendron: Move Note` command
+- (workspace) add `expandAll` functionality to backlink view
+- (publishing) nextjs-template sidebar style improvements in published docs
+- (workspace) frontmatter tag highlighting
+- (workspace) missing tag notes are now highlighted as missing in the same way wikilinks show
+
+### Bug Fixes
+
+- (publishing) block anchor in list with single top level element
+- (publishing) allow a note reference of a list item without its children
+- (publishing) block anchors attached to code blocks in publishing
+- (workspace) reload index is now silent by default, unless run explicitly
 
 ## 0.57
 
