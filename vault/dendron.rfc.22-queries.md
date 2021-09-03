@@ -2,7 +2,7 @@
 id: O4f9yfDoO7E7gRRDeBeCh
 title: 22 Queries
 desc: ''
-updated: 1630696252514
+updated: 1630696401071
 created: 1629395624110
 ---
 
@@ -107,7 +107,7 @@ Notes that are tagged with `#todo`:
 ?[[ to tags.todo ]]
 ```
 
-Paranthesis are optional at the top level of the queries. The following two queries are identical:
+Parenthesis are optional at the top level of the queries. The following two queries are identical:
 ```
 ?[[ to tags.todo ]]
 ?[[ (to tags.todo) ]]
@@ -151,12 +151,10 @@ Find all notes that are tagged with any tag:
 Pros:
 - Using a custom query language allows us to tailor it to Dendron. Users can write compact, efficient queries, and we can provide more immediate feedback.
 - Lisp-like syntax is similar to Roam queries, and will be familiar to lisp users.
-- The ability to inspect the hierarchy by placing trailing/preceding dots is easy to type.
 
 Cons:
 - Building a custom query language requires more work, compared to something like allowing users to write queries in javascript.
 - Lisp-like syntax may be confusing for users who are not familiar with lisp languages.
-- Trailing/preceding dots may be prone to typos, and easy to miss at a glance.
 
 ## Notes
 
