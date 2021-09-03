@@ -2,10 +2,39 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1630428777792
+updated: 1630634622300
 created: 1601508213606
 date: '2022-01-01'
 ---
+
+## 0.57.1
+
+### Features
+
+#### Google Doc Import Pod improvements
+
+User workflow configuration, for authentication and access token management, has been improved for Google Doc imports. ([[docs|dendron.topic.pod.builtin.google-docs.import]])
+
+#### Cache rendered previews
+
+- enhance: cache rendered previews using LRU cache
+  - https://github.com/dendronhq/dendron/pull/1238
+  - I'm not sure how best to explain this as a feature? Can this be explained here, and is it more an enhancement than a feature? [[user.nickolay]]
+
+### Enhancements
+
+- (workspace) add multi-select for `Dendron: Move Note` command
+- (workspace) add `expandAll` functionality to backlink view
+- (publishing) nextjs-template sidebar style improvements in published docs
+- (workspace) frontmatter tag highlighting
+- (workspace) missing tag notes are now highlighted as missing in the same way wikilinks show
+
+### Bug Fixes
+
+- (publishing) block anchor in list with single top level element
+- (publishing) allow a note reference of a list item without its children
+- (publishing) block anchors attached to code blocks in publishing
+- (workspace) reload index is now silent by default, unless run explicitly
 
 ## 0.57
 
