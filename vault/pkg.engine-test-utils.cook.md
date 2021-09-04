@@ -40,3 +40,18 @@ test("backlink to home page", async () => {
   );
 });
 ```
+
+### Running a single test
+While your current working directory is the mono repo you can run a single jest test as follows:
+
+```
+jest /usr/local/workplace/dendron/packages/engine-test-utils/src/__tests__/common-all/nodev2.spec.ts
+```
+
+If you are testing non UI tests you can speed up the test by setting `--testEnvironment=node` such as
+
+```
+jest --testEnvironment=node /usr/local/workplace/dendron/packages/engine-test-utils/src/__tests__/common-all/nodev2.spec.ts
+```
+
+

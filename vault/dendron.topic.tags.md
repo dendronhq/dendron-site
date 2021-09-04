@@ -2,7 +2,7 @@
 id: 8bc9b3f1-8508-4d3a-a2de-be9f12ef1821
 title: Tags
 desc: ""
-updated: 1628893207658
+updated: 1630654480372
 created: 1601910058115
 tags: ["example.from-frontmatter"]
 ---
@@ -39,8 +39,8 @@ sentences.
 ### Autocomplete (intellisense)
 
 Tags support autocomplete (intellisense), but tag notes must be created for
-autocomplete to work. To create a tag note, `Ctrl+click` on a tag, or select the
-tag and use "Dendron: Goto Note" command.
+autocomplete to work. To create a tag note, select the
+tag and use "Dendron: Goto Note" command or hit "Ctrl+enter".
 
 ### Custom colors
 
