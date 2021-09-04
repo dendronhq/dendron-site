@@ -2,7 +2,7 @@
 id: 6aed338c-df05-420d-aa7b-59dfd2214349
 title: Release Notes(version 0.4)
 desc: ''
-updated: 1630729581623
+updated: 1630790746247
 created: 1595984607502
 date: 2020-07-25
 ---
@@ -24,7 +24,7 @@ Dendron has a completely re-done getting started. you can see it by running `> D
 
 ### 🚧 Graph View for Hierarchies ([129bf4e](https://github.com/dendronhq/dendron/commit/129bf4e4e480dfbff66530725c6db8d2321adc28))
 
-- [docs](https://github.com/dendronhq/dendron-template/blob/master/vault/dendron.topic.graph-view.md)
+- [[docs|dendron.topic.graph-view]]
 
 Note that Dendron's graph view lays out your notes according to their hierarchy (vs backlinks).
 

@@ -8,7 +8,7 @@ created: 1611853430165
 
 ## Goal
 
-Make it easy for everyone to publish a [digital garden](https://www.kevinslin.com/notes/30a9ec3e-d58f-44ce-8d7c-535f122f7d0b.html)
+Make it easy for everyone to publish a [digital garden](https://www.kevinslin.com/)
 
 ## Tenants
 - publishing should be accessible to everyone

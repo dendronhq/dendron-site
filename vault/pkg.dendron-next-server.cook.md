@@ -2,7 +2,7 @@
 id: 1698aef0-efd4-4c92-a3b0-5ca702b228a3
 title: Cook
 desc: ''
-updated: 1624320975618
+updated: 1630792959399
 created: 1621376746723
 ---
 
@@ -19,7 +19,7 @@ created: 1621376746723
 - see [here](https://github.com/dendronhq/dendron/blob/master/packages/plugin-core/src/commands/ConfigureWithUI.ts#L22:L22) for integrating a command with the web ui
 
 ### Integrating a tree view with the plugin
-- see [here](https://github.com/dendronhq/dendron/blob/dev-kevin/packages/plugin-core/src/views/DendronTreeViewV2.ts#L134:L134) for an example
+- see [here](https://github.com/dendronhq/dendron/blob/master/packages/plugin-core/src/views/DendronTreeViewV2.ts) for an example
 
 
 ### Adding a VSCode Webview
@@ -110,5 +110,5 @@ See [[instructions|pkg.dendron-next-server.dev#^MgEdJdyD]] for connecting to a w
 
 ### Passing Query Parameters
 
-- [generating query params](https://github.com/dendronhq/dendron/blob/feat-note-view/packages/dendron-next-server/pages/vscode/note-preview.tsx#L31:L31)
-- [Consuming query params in the view](https://github.com/dendronhq/dendron/blob/feat-note-view/packages/dendron-next-server/pages/vscode/note-preview.tsx#L31:L31)
+- [generating query params](https://github.com/dendronhq/dendron/blob/master/packages/dendron-next-server/pages/vscode/note-preview.tsx)
+- [Consuming query params in the view](https://github.com/dendronhq/dendron/blob/master/packages/dendron-next-server/pages/vscode/note-preview.tsx)

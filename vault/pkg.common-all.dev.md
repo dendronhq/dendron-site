@@ -3,7 +3,7 @@ id: 3c80629b-4048-48f0-bdfd-352645bda2ec
 title: Dev
 desc: |
   Development related
-updated: 1628623087376
+updated: 1630794193403
 created: 1622079130106
 ---
 
@@ -29,7 +29,7 @@ In VSCode, you can use the "Goto symbol in workspace" command and type the funct
 
 ### Adding a new property to Dendron Config
 
-Dendron configuration is managed by [DendronConfig](https://github.com/dendronhq/dendron/blob/dev-kevin/packages/common-all/src/types/workspace.ts#L65:L65).
+Dendron configuration is managed by [DendronConfig](https://github.com/dendronhq/dendron/blob/master/packages/common-all/src/types/workspace.ts).
 
 Whenever you add a new entry with a default, make sure to do the following as well.
 - [ ] update `Extension.test.ts` (we have a test that checks for default config values that will break)
