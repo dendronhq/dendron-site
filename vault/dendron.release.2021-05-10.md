@@ -2,7 +2,7 @@
 id: 6d77fa3b-f0f1-4fb5-bac1-14389d6efeb5
 title: Release Notes (version 0.41)
 desc: ''
-updated: 1620669972884
+updated: 1630729820688
 created: 1620668738966
 ---
 
@@ -35,7 +35,7 @@ You can see an overview of all roles [[here|dendron.community.roles]]
 - [kalyan02](https://github.com/kalyan02) @pogo#4810
   - `+horticulturalist`
   - create script to help manage unfinished tasks: https://github.com/kalyan02/dendronutils
-- [shorty](https://github.com/shorty25h0r7) @short2links#2229
+- `shorty` @short2links#2229
   - `+bugcatcher`
   - Some Chars Converted To Hex Representation after refactor
 - [Luke Sernau](https://github.com/lsernau)

@@ -2,7 +2,7 @@
 id: e32aa1e2-9780-4183-927e-2f46372050aa
 title: Release Notes(version 0.5)
 desc: ''
-updated: 1630642081569
+updated: 1630728498576
 created: 1596374984386
 date: '2020-08-02'
 ---
@@ -24,7 +24,7 @@ Dendron has a series of built-in commands. They are all prefixed with `Dendron:`
 
 ### Add Doctor Command
 
-([d4fa71c](https://github.com/dendronhq/dendron/commit/d4fa71cd839782587d47a3ba1b0f7e89742e7ffe)) ([docs](https://www.dendron.so/notes/eea2b078-1acc-4071-a14e-18299fc28f47.html#doctor))
+([d4fa71c](https://github.com/dendronhq/dendron/commit/d4fa71cd839782587d47a3ba1b0f7e89742e7ffe)) ([[docs|dendron.topic.commands#doctor]])
 
 This makes sure your workspace is up to date. It will execute the following actions:
 
@@ -37,7 +37,7 @@ This makes sure your workspace is up to date. It will execute the following acti
 
 ### Add ShowHelp Command
 
-([ecf3c68](https://github.com/dendronhq/dendron/commit/ecf3c6822848834d9a00e373d1c59b6628e7f4df))([docs](https://www.dendron.so/notes/eea2b078-1acc-4071-a14e-18299fc28f47.html#show-help))
+([ecf3c68](https://github.com/dendronhq/dendron/commit/ecf3c6822848834d9a00e373d1c59b6628e7f4df))([[docs|dendron.topic.commands#show-help]])
 
 Dendron will open your current browser to the [[quickstart|dendron.tutorial.recap]] page. 
 
@@ -51,7 +51,7 @@ Pods are the mechanisms Dendron uses to import and export notes. Dendron has a d
 
 ### 🚧 Support Publishing Notes
 
-([e063732](https://github.com/dendronhq/dendron/commit/e063732d1ff082dd8520a479926e7ceb1b0893ab)) ([docs](https://www.dendron.so/notes/73d395c9-5041-4d0d-9db7-080d9586136e.html))
+([e063732](https://github.com/dendronhq/dendron/commit/e063732d1ff082dd8520a479926e7ceb1b0893ab)) ([[docs|pkg.dendron-publishing]])
 
 Dendron lets you publish the contents of your vault, either in its entirety or only a subset. Notes are published under the [dendron-jekyll theme](https://github.com/dendronhq/dendron-jekyll). 
 
