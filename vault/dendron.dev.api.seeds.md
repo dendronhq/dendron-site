@@ -11,7 +11,7 @@ published: false
 
 # DendronSeed
 
-Base class to extend from when creating a new seed. Documentation is still under construction. In the meanwhile, you can use [the code](https://github.com/dendronhq/dendron/blob/master/packages/seeds-core/src/base.ts) as a guide when creating a new seed.
+Base class to extend from when creating a new seed. Documentation is still under construction.
 
 You can see an example of a seed implementation [here](https://github.com/dendronhq/seeds.aws/blob/master/packages/awsgeek-seed/src/index.ts)
 
