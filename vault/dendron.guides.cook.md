@@ -291,7 +291,7 @@ You can access the site with username: `dendron`, password: `hierarchy`.
 
 #### Setup your github repo
 
-1. Create a new github repo using this [template](https://github.com/dendronhq/dendron-amplify-template/generate).
+1. Create a new github repo using this [template](https://github.com/dendronhq/dendron-amplify-template).
 2. In your Dendron workspace, remove the `docs` directory and clone your newly created repository
     ```bash
     cd {your-workspace}
