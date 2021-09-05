@@ -2,7 +2,7 @@
 id: 8d09cc3f-25e3-42a2-ac86-82806c0c8c65
 title: Startup
 desc: ''
-updated: 1630708608862
+updated: 1630866403663
 created: 1610160007286
 ---
 ## Summary
@@ -16,7 +16,17 @@ created: 1610160007286
 
 ## Code
 
-- file: plugin-core/src/\_extension.ts
+### Dendron Workspace
+
+An instance of DendronWorkspace is created near the beginning of activation. This is a singleton god object that exists as long as Dendron is running. The only requirement for initialization is the location of Dendron's workspace root. Example initilization below
+
+```ts
+new DendronCodeWorkspace({
+    wsRoot: path.dirname(DendronExtension.workspaceFile().fsPath),
+    logUri: context.logUri,
+    assetUri,
+});
+```
 
 ### Check for workspace
 
@@ -25,6 +35,8 @@ _activate {
     ws := DendronWorkspace.getOrCreate
 
     if ws.isActive {
+        setupSegmentClient
+        // ---
         port = startServer
         updateEngineAPI(port)
         ws.reloadWorkspace // 312
