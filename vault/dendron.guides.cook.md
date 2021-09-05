@@ -2,7 +2,7 @@
 id: 401c5889-20ae-4b3a-8468-269def4b4865
 title: Cookbook
 desc: ""
-updated: 1628124505607
+updated: 1630796678628
 created: 1595952505024
 nav_order: 8.9
 toc: true
@@ -283,15 +283,13 @@ nodemon --watch {path/to/vault} --ext md dendron-cli buildSite --wsRoot {path/to
 
 ### Publish password protected site using AWS Amplify
 
-You can click [here](https://main.d19svbygngqnpb.amplifyapp.com/) to see a demo of the end result.
-
 You can access the site with username: `dendron`, password: `hierarchy`.
 
 -   NOTE: this requires hosting your site on AWS. For most people, this will end up costing you a few cents a month.
 
 #### Setup your github repo
 
-1. Create a new github repo using this [template](https://github.com/dendronhq/dendron-amplify-template/generate).
+1. Create a new github repo using this [template](https://github.com/dendronhq/dendron-amplify-template).
 2. In your Dendron workspace, remove the `docs` directory and clone your newly created repository
     ```bash
     cd {your-workspace}

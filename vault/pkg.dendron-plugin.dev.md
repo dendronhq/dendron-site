@@ -2,7 +2,7 @@
 id: 04dd9ad8-3d81-4098-a661-21b6acc6f443
 title: Dev
 desc: ''
-updated: 1629820655294
+updated: 1630732977680
 created: 1621721485330
 ---
 
@@ -35,9 +35,9 @@ Conventions:
 
 ### Create a new Pod
 
-1. setting up dev environment and getting started: <https://dendron.so/notes/81da87be-2d4e-47b5-a1d6-c0d647e1ab00.html>
-2. sample code for json export pod: <https://github.com/dendronhq/dendron/blob/master/packages/pods-core/src/builtin/JSONPod.ts#L143:L143>
-3. what you will get from `prepareNotesForExport`: <https://dendron.so/notes/0db94b86-d5c2-4e70-8f61-1a686fa8cc1d.html>
+1. setting up dev environment and getting started: <https://wiki.dendron.so/notes/81da87be-2d4e-47b5-a1d6-c0d647e1ab00.html>
+2. sample code for json export pod: <https://github.com/dendronhq/dendron/blob/master/packages/pods-core/src/builtin/JSONPod.ts>
+3. what you will get from `prepareNotesForExport`: <https://wiki.dendron.so/notes/0db94b86-d5c2-4e70-8f61-1a686fa8cc1d.html>
 4. anki pod: take notes and transform them to anki format
 
 ## Config
@@ -119,7 +119,7 @@ export class InsertNoteLinkButton extends DendronBtn {
 Pre-requisites:
 - [[Create a new Command|pro.dendron-plugin.cook#create-a-new-command]]
 
-This goes over adding a new command with lookup. To see an example, see this [command](https://github.com/dendronhq/dendron/blob/dev-kevin/packages/plugin-core/src/commands/InsertNoteLink.ts#L1:L1) and this commit: cc8a02b4.
+This goes over adding a new command with lookup. To see an example, see this [command](https://github.com/dendronhq/dendron/blob/master/packages/plugin-core/src/commands/InsertNoteLink.ts) and this commit: `cc8a02b4`.
 
 ```mermaid
 sequenceDiagram
@@ -145,13 +145,13 @@ sequenceDiagram
   - this method is responsible for configuring and instantiating the lookup controller and provider
     - controller controls presentation of the quickinput
     - provider controls the data retrieval behavior 
-    - on success, will return the following [response type](https://github.com/dendronhq/dendron/blob/dev-kevin/packages/plugin-core/src/components/lookup/LookupProviderV3.ts#L39:L39)
+    - on success, will return the following [response type](https://github.com/dendronhq/dendron/blob/master/packages/plugin-core/src/components/lookup/LookupProviderV3.ts)
     - NOTE: because we can't simply block on `showQuickInput`, we return a promise that listens to a `lookupProvider` event with the corresponding `id` of the particular command
 
 ## UI
 ### Adding a Web UI Component
 1. see [[Create a new Command|pro.dendron-plugin.cook#create-a-new-command]] for creating a new command
-1. Add a new entry to [DendronWebViewKey](https://github.com/dendronhq/dendron/blob/dev-kevin/packages/common-all/src/types/typesv2.ts#L486:L486)
+1. Add a new entry to [DendronWebViewKey](https://github.com/dendronhq/dendron/blob/master/packages/common-all/src/types/typesv2.ts)
 1. in `execute`, create a new webview
   ```ts
     const title = //TODO: add panel title
@@ -226,11 +226,11 @@ clipboard.writeText(link);
 
 ### Prompt User for Input using Selection
 
-- see [this](https://github.com/dendronhq/dendron/blob/dev-kevin/packages/plugin-core/src/commands/VaultAddCommand.ts#L1:L1)
+- see [this](https://github.com/dendronhq/dendron/blob/master/packages/plugin-core/src/commands/VaultAddCommand.ts)
 
 ### Prompt User for Input using Free Text
 
-- see [this](https://github.com/dendronhq/dendron/blob/dev-kevin/packages/plugin-core/src/commands/VaultAddCommand.ts#L1:L1)
+- see [this](https://github.com/dendronhq/dendron/blob/master/packages/plugin-core/src/commands/VaultAddCommand.ts)
 
 ```ts
 let out = await VSCodeUtils.showInputBox({
@@ -242,7 +242,7 @@ if (PickerUtilsV2.isStringInputEmpty(out)) return;
 
 ### Get location of the frontmatter
 
-- example [here](https://github.com/dendronhq/dendron/blob/feat/frontmatter-tags/packages/plugin-core/src/services/NoteSyncService.ts#L81:L81)
+- example [here](https://github.com/dendronhq/dendron/blob/master/packages/plugin-core/src/services/NoteSyncService.ts)
 ```
 
 ```
@@ -251,4 +251,4 @@ if (PickerUtilsV2.isStringInputEmpty(out)) return;
 
 ### Upating the cursor position
 
-- see [this](https://github.com/dendronhq/dendron/blob/dev-kevin/packages/plugin-core/src/test/suite-integ/LookupCommand.test.ts#L846:L846)
+- see [this](https://github.com/dendronhq/dendron/blob/master/packages/plugin-core/src/test/suite-integ/NoteLookupCommand.test.ts)

@@ -2,7 +2,7 @@
 id: dc72e684-8ff8-4c41-a2f7-93fc14ee0d6a
 title: Arch
 desc: ''
-updated: 1628178827477
+updated: 1630641050455
 created: 1622147759924
 ---
 
@@ -82,10 +82,10 @@ export enum ProcFlavor {
 ### Compilation
 Depending on what output you plan on converting Dendron into, different plugin combinations get invoked.
 
-Dendron has a few different target outputs which are listed [here](https://github.com/dendronhq/dendron/blob/integ-publish/packages/engine-server/src/markdown/types.ts#L45:L45).
+Dendron has a few different target outputs which are listed, under `DendronASTTypes`, [here](https://github.com/dendronhq/dendron/blob/master/packages/engine-server/src/markdown/types.ts).
 
 For everything except HTML, Dendron will call the `compile` of the specific plugin.
 
-For HTML, Dendron will transform `remark` nodes into `rehype`, which means that `compile` methods on `remark` plugins will never be called. If you are writing a custom plugin, use the transformer, `dendronPub` (https://github.com/dendronhq/dendron/blob/dev-kevin/packages/engine-server/src/markdown/remark/dendronPub.ts#L157:L157), which runs after parsing but before compilation to transform the remark nodes into rehype nodes. 
+For HTML, Dendron will transform `remark` nodes into `rehype`, which means that `compile` methods on `remark` plugins will never be called. If you are writing a custom plugin, use the transformer, `dendronPub` (https://github.com/dendronhq/dendron/blob/master/packages/engine-server/src/markdown/remark/dendronPub.ts), which runs after parsing but before compilation to transform the remark nodes into rehype nodes. 
 
 You can see [[Writing a custom Dendron Unified Plugin|pkg.dendron-markdown.cook#writing-a-custom-dendron-unified-plugin]] for more details on this

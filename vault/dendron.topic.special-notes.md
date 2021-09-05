@@ -30,7 +30,7 @@ To create a journal note, trigger a lookup and then click on the calendar icon.
 
 By default, Dendron will create the journal note with the following hierarchy `{domain}.journal.{y.MM.dd}`. `{domain}` is the **domain** of the current active note when you execute `New Journal Note`.
 
-A reference for date formatting tokens can be found [here](https://moment.github.io/luxon/docs/manual/formatting.html)
+A reference for date formatting tokens can be found [here](https://moment.github.io/luxon/#/formatting)
 
 ## Scratch Note
 

@@ -2,7 +2,7 @@
 id: 8e59e25f-808c-42f1-a82a-e9ce4fd8edd8
 title: Release Notes(version 0.12)
 desc: ''
-updated: 1616949957976
+updated: 1630733055585
 created: 1596374871110
 date: '2020-09-20'
 ---
@@ -113,7 +113,7 @@ Last and most of all, a big **thanks** to the following gardeners that brought u
 - [Daria Vasyukova](https://github.com/gereleth)
   - bug with copy note url
 
-- [Jack](https://github.com/JackQAQ-byte)
+- `Jack`
   - issue with images on published sites
 
 - [Tom](https://github.com/peanutputter)

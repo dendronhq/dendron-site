@@ -2,7 +2,7 @@
 id: 692fa114-f798-467f-a0b9-3cccc327aa6f
 title: Tips
 desc: ''
-updated: 1620400139991
+updated: 1630795728576
 created: 1595614204291
 ---
 
@@ -132,7 +132,7 @@ gitignore
     },
     "repository": {
       "type": "git",
-      "url": "git+https://github.com/LukeCarrier/brain.git"
+      "url": "git+https://github.com/{{username}}/{{repo}}.git"
     },
     "license": "Creative Commons Attribution 4.0 International",
     "devDependencies": {

@@ -72,7 +72,7 @@ if (!engine) {
 
 ### Querying notes by ID
 
-- [type definitions](https://github.com/dendronhq/dendron/blob/master/packages/common-all/src/typesv2.ts#L362:L362)
+- [type definitions](https://github.com/dendronhq/dendron/blob/master/packages/common-all/src/types/typesv2.ts)
 
 ```ts
 
@@ -121,7 +121,7 @@ See [[Initialization|pkg.dendron-engine.arch#initialization]] to see the differe
 When you add a new API to the engine, it needs to be added in both the types and the implementations of the engine:
 
 - types:
-   - [DEngine](https://github.com/dendronhq/dendron/blob/dev/packages/common-all/src/types/typesv2.ts#L353:L353)
+   - [DEngine](https://github.com/dendronhq/dendron/blob/master/packages/common-all/src/types/typesv2.ts)
 
 - implementation:
    - [Store](https://github.com/dendronhq/dendron/blob/dev/packages/engine-server/src/drivers/file/storev2.ts#L1:L1): engine methods usually operate on the storage layer (eg. write to disk, read from disk) and so store methods often need to be updated

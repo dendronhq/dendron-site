@@ -20,7 +20,7 @@ This should lead to a page like the following:
 ```js
 /**
  @params wsRoot: string, root of your current workspace
- @params note: Object with following properties https://github.com/dendronhq/dendron/blob/dev-kevin/packages/common-all/src/typesv2.ts#L135:L153
+ @params note: Object with following properties https://github.com/dendronhq/dendron/blob/master/packages/common-all/src/types/typesv2.ts
  @params NoteUtils: utilities for working with notes. [code](https://github.com/dendronhq/dendron/blob/master/packages/common-all/src/dnode.ts#L307:L307)
  @params execa: instance of [execa](https://github.com/sindresorhus/execa#execacommandcommand-options)
  @params _: instance of [lodash](https://lodash.com/docs)

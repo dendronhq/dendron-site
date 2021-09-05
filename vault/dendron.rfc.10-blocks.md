@@ -17,7 +17,7 @@ Block references let you link or embed blocks of text into different parts of yo
 
 This section describes existing work that has been done on this topic. 
 
-- [roam block references](https://www.roamtips.com/home/what-is-block-roam-research)
+- [roam block references](https://roamresearch.com/)
 - [obsidian links to blocks](https://help.obsidian.md/How+to/Link+to+blocks)
 
 ## Proposal

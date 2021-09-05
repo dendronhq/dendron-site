@@ -2,7 +2,7 @@
 id: veJtAvr1gSMu50Mp
 title: Test
 desc: ''
-updated: 1629998794634
+updated: 1630796617345
 created: 1627140509315
 ---
 
@@ -12,9 +12,7 @@ When writing a test for new functionality, make sure to consider both the `singl
 
 To write a test, use the `runLegacySingleWorkspaceTest` or `runLegacyMultiWorkspaceTest` methods to setup a mock Dendron workspace of the respective type.
 
-You can see an example of both in [plugin-core/src/test/suite-integ/RenameNoteV2.test.ts](https://github.com/dendronhq/dendron/blob/master/packages/plugin-core/src/test/suite-integ/RenameNoteV2.test.ts#L131:L131)
-
-The arguments are explained [here](https://github.com/dendronhq/dendron/blob/master/packages/plugin-core/src/test/testUtilsV3.ts#L70:L70).
+The arguments are explained [here](https://github.com/dendronhq/dendron/blob/master/packages/plugin-core/src/test/testUtilsV3.ts).
 
 ## Tips
 

@@ -24,7 +24,7 @@ future state of the system and to discover projects for contribution.
 | ✅ done                | [1 - Native Preview Experience](https://wiki.dendron.so/notes/17c61d62-f92e-4002-b8fe-9c05686e4bf9.html) | [@kevin](https://github.com/kevinslin)           |
 | 1️⃣ phase one done    | [11 - Better Tree View](https://wiki.dendron.so/notes/ba8cf4c5-6254-4eca-8072-8001ca5afda7.html)         | [@kevin](https://github.com/kevinslin)           |
 | 1️⃣ phase one done    | [14 - Seed Registry](https://wiki.dendron.so/notes/4039fc46-06b2-4f83-b817-fc490bafbcb3.html)            | [@kevin](https://github.com/kevinslin)           |
-| 1️⃣ phase one done    | [18 - Add Note Index](https://wiki.dendron.so/notes/6TOh3VApIUfap7c3.html)                               | [@hikchoi](https://github.com/cerebrarium)       |
+| 1️⃣ phase one done    | [18 - Add Note Index](https://wiki.dendron.so/notes/6TOh3VApIUfap7c3.html)                               | [@hikchoi](https://github.com/hikchoi)       |
 | 1️⃣ phase one done    | [9 - Note Lifecycle Plugins](https://wiki.dendron.so/notes/d2f8fe67-36c7-4600-b745-c22bdcb5b2cf.html)    | [@kevin](https://github.com/kevinslin)           |
 | 1️⃣ phase one done    | [2 - Managed Publishing](https://wiki.dendron.so/notes/ae4a0c98-e2ea-47e0-8a20-016eba3424be.html)        | [@kevin](https://github.com/kevinslin)           |
 | 👷 implementing       | [16 - Better Tags](https://wiki.dendron.so/notes/NT1cFX6DRkTnzcWwduj2I.html)                             | [@SeriousBug](https://github.com/SeriousBug)     |

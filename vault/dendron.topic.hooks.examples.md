@@ -2,7 +2,7 @@
 id: 61055b5f-6216-4fd3-b9a1-82f79017b59e
 title: Examples
 desc: ''
-updated: 1620495882937
+updated: 1630729969933
 created: 1620495882937
 ---
 
@@ -25,7 +25,7 @@ hooks:
 ```js
 const path = require("path");
 /**
- @params note: Object with following properties https://github.com/dendronhq/dendron/blob/dev-kevin/packages/common-all/src/typesv2.ts#L135:L153
+ @params note: Object with following properties https://github.com/dendronhq/dendron/blob/master/packages/common-all/src/types/typesv2.ts
  @params execa: instance of [execa](https://github.com/sindresorhus/execa#execacommandcommand-options)
  @params: _: instance of [lodash](https://lodash.com/docs)
  */

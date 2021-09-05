@@ -234,7 +234,7 @@ You can now publish and build your notes without going to the command line ([[do
 
 ### House Cleaning
 
--   update on date format for journal and scratch notes to use [Luxon style formatting](https://moment.github.io/luxon/docs/manual/formatting.html)
+-   update on date format for journal and scratch notes to use [Luxon style formatting](https://moment.github.io/luxon/#/formatting)
 
 ## 0.23.1
 
@@ -438,7 +438,7 @@ There are additional optimizations still on the table that will further drive do
 
 #### Migration
 
-All values that used to be written into `_config.yml` will now be moved into `dendron.yml`. You can see the currently supported configuration values here: `https://github.com/dendronhq/dendron/blob/master/packages/common-all/src/types.ts#L71:L71`
+All values that used to be written into `_config.yml` will now be moved into `dendron.yml`. You can see the currently supported configuration values here: `https://github.com/dendronhq/dendron/blob/master/packages/common-all/src/types/typesv2.ts`
 
 If you currently have a Jekyll based Dendron page, note that the following settings have changed:
 
