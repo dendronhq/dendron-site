@@ -34,7 +34,7 @@ For reference, take a look at a few example PR's below that fix issues similar t
 
 ### Skipping Windows Test (Last Resort)
 
-If a test continues to fail despite trying the methods listed above, the test may be skipped using the following test runner for the plugin: [runTestButSkipForWindows](https://github.com/dendronhq/dendron/blob/chore/windows-ci-hashtags/packages/plugin-core/src/test/testUtilsV3.ts#L405:L405)
+If a test continues to fail despite trying the methods listed above, the test may be skipped using the following test runner for the plugin: [runTestButSkipForWindows](https://github.com/dendronhq/dendron/blob/master/packages/plugin-core/src/test/testUtilsV3.ts)
 
 ## Troubleshooting Windows CI Failures on Github Actions
 

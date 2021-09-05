@@ -30,7 +30,7 @@ blog.thoughts.2021-02-03-bar.md
 ```
 
 ### Using Journal Notes
-You can also designate a journal hierarchy as a collection. The following frontmatter is responsible for the page [here](https://www.kevinslin.com/notes/eda0b03c-270c-4c49-9080-46bd8eb55a1e.html)
+You can also designate a journal hierarchy as a collection. The following frontmatter is responsible for the page [here](https://www.kevinslin.com/notes/b9bc4aa1-4369-446d-91a9-13d4f2a4b8e5.html)
 
 ```yml
 has_collection: true

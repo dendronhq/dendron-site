@@ -2,7 +2,7 @@
 id: yhpcSlIpwsBX2iHjfyutP
 title: Debug
 desc: ''
-updated: 1630441646649
+updated: 1630641796543
 created: 1630441590786
 ---
 
@@ -14,9 +14,9 @@ You can put a breakpoint directly in any code that's part of `plugin-core` and i
 
 ### Git Related Tests
 
-Any tests that involve setting up git should use [GitTestUtils](https://github.com/dendronhq/dendron/blob/dev-kevin/packages/engine-test-utils/src/utils.ts#L22:L22). This will help you create a git workspace with necessary commit history. 
+Any tests that involve setting up git should use [GitTestUtils](https://github.com/dendronhq/dendron/blob/master/packages/engine-test-utils/src/utils/git.ts). This will help you create a git workspace with necessary commit history. 
 
-You can see it being used [here](https://github.com/dendronhq/dendron/blob/dev-kevin/packages/engine-test-utils/src/__tests__/engine-server/workspace.spec.ts#L21:L21).
+You can see it being used [here](https://github.com/dendronhq/dendron/blob/master/packages/engine-test-utils/src/__tests__/engine-server/workspace.spec.ts).
 
 If a tests involve a remote git repository, use `tmpDir` to setup a *local remote*. Use `GitTestUtils` to create a repo and then push an dpull to the local remote.
 

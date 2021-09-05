@@ -59,5 +59,5 @@ Next Steps:
 ### Adding a new web view
 
 The following goes over an example of implementing the `ShowPreviewV2` command
-- [plugin command logic](https://github.com/dendronhq/dendron/blob/release/0.54/packages/plugin-core/src/commands/ShowPreviewV2.ts#L81:L81)
-- [react view logic](https://github.com/dendronhq/dendron/blob/release/0.54/packages/dendron-next-server/pages/vscode/note-preview.tsx#L207:L207)
+- [plugin command logic](https://github.com/dendronhq/dendron/blob/master/packages/plugin-core/src/commands/ShowPreviewV2.ts)
+- [react view logic](https://github.com/dendronhq/dendron/blob/master/packages/dendron-next-server/pages/vscode/note-preview.tsx)

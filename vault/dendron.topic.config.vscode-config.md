@@ -2,7 +2,7 @@
 id: 19a0ea9d-7292-4a68-bc6f-ffd462a54bc5
 title: VSCode Config
 desc: ''
-updated: 1624071484895
+updated: 1630641596187
 created: 1619541378119
 ---
 
@@ -50,7 +50,7 @@ name used for journal notes
 - type: string
 - default: y.MM.dd
 
-Date format used for journal notes. Use [luxon style formatting](https://moment.github.io/luxon/docs/manual/formatting.html)
+Date format used for journal notes. Use [luxon style formatting][luxon-style-formatting].
 
 ## dendron.defaultJournalAddBehavior
 - type: string
@@ -64,7 +64,7 @@ strategy for adding new journal notes
 - type: string
 - default: scratch
 
-Name used for scratch notes. Date format used for scratch notes. Use [luxon style formatting](https://moment.github.io/luxon/docs/manual/formatting.html)
+Name used for scratch notes. Date format used for scratch notes. Use [luxon style formatting][luxon-style-formatting].
 
 ## dendron.defaultScratchDateFormat
 - type: string
@@ -83,7 +83,7 @@ strategy for adding new scratch notes
 ## dendron.defaultTimestampDecorationFormat: 
 - default: DATETIME_MED
 - type: string
-- values (see description of values [here](https://moment.github.io/luxon/docs/manual/formatting.html)) 
+- values (see description of values in [luxon style formatting][luxon-style-formatting]) 
     * DATETIME_FULL
     * DATETIME_FULL_WITH_SECONDS
     * DATETIME_HUGE
@@ -160,3 +160,4 @@ LSP log level
 
 port for server. If not set, will be randomly generated at startup.
 
+[luxon-style-formatting]: https://moment.github.io/luxon/#/formatting
