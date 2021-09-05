@@ -2,7 +2,7 @@
 id: 8d09cc3f-25e3-42a2-ac86-82806c0c8c65
 title: Startup
 desc: ''
-updated: 1630020779058
+updated: 1630708608862
 created: 1610160007286
 ---
 ## Summary
@@ -73,6 +73,36 @@ postReloadWorkspace {
 }
 
 ```
+
+## showWelcome
+
+```ts
+showWelcomeOrWhatsNew {
+    switch(extensionInstallStatus) {
+        case INITIAL_INSTALL {
+            showWelcome
+        }
+        ....
+    }
+}
+
+showWelcome {
+    welcomeContent := 
+    view = createWebviewPanel(welcomeContent)
+
+    view.on(msg => {
+
+        switch(msg {
+            case initializeWorkspace {
+                SetupWorkspaceCommand().run(workspaceInitializer: TutorialInitializer)
+            }
+        })
+
+    })
+}
+```
+
+## SetupWorkspaceCommand
 
 ## Reference
 
