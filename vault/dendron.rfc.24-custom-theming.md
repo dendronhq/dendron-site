@@ -2,7 +2,7 @@
 id: PjXL1NKL7yHV0ExHnROBl
 title: 24 Custom Theming
 desc: ''
-updated: 1630971149188
+updated: 1630971285924
 created: 1630967094916
 ---
 
@@ -98,6 +98,8 @@ By default, we will switch to the default light theme of these respective compon
 
 
 ## Discussion
+
+All discussions for this RFC can be directed to this [github discussion](https://github.com/dendronhq/dendron/discussions/1298)
 
 ## Lookup
 [^1]: [[Preview V2|dendron.topic.preview-v2]]
