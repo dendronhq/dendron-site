@@ -164,7 +164,7 @@ name used for journal notes
 - type: string
 - default: y.MM.dd
 
-Date format used for journal notes. Use [luxon style formatting](https://moment.github.io/luxon/#/formattingl)
+Date format used for journal notes. Use [luxon style formatting](https://moment.github.io/luxon/#/formatting)
 
 ### addBehavior
 - type: string
