@@ -30,7 +30,7 @@ See [here](https://handbook.dendron.so/notes/0292b34e-47eb-4499-8f49-d9891accdb3
 - support mvp config settings
   - x support [[assetsPrefix|dendron.topic.publishing.configuration#assetsprefix]]
   - x support [[copyAssets|dendron.topic.publishing.configuration#copyassets]]
-  - a support [[customHeaderPath|dendron.topic.publishing.configuration#customheaderpath]] #size.small 
+  - y support [[customHeaderPath|dendron.topic.publishing.configuration#customheaderpath]] #size.small 
   - x support [[duplicateNoteBehavior|dendron.topic.publishing.configuration#duplicatenotebehavior]]
   - a support [[ga_tracking|dendron.topic.publishing.configuration#ga_tracking]] #size.small  ^gUoZRr5ALw4Z 
     - see [Using Google Analytics with Next.js](https://malloc.fi/using-google-analytics-with-next-js)
@@ -40,7 +40,7 @@ See [here](https://handbook.dendron.so/notes/0292b34e-47eb-4499-8f49-d9891accdb3
   - x support [[siteHierarchies|dendron.topic.publishing.configuration#sitehierarchies]]
   - x support [[siteIndex|dendron.topic.publishing.configuration#siteindex]]
   - x support [[siteUrl|dendron.topic.publishing.configuration#siteurl]]
-  - b support [[usePrettyRefs|dendron.topic.publishing.configuration#useprettyrefs]] #assigned
+  - x support [[usePrettyRefs|dendron.topic.publishing.configuration#useprettyrefs]] #assigned
   - x support [[gh_edit_repository|dendron.topic.publishing.configuration#gh_edit_repository]]
   - SEO options
     - see [Introducing next-seo, SEO for Next.js](https://www.garymeehan.ie/blog/seo-in-nextjs-with-next-seo)
