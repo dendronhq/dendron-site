@@ -2,7 +2,7 @@
 id: 075e9806-0367-40a2-8154-2e84d5a1110
 title: Release Notes(version 0.8)
 desc: ''
-updated: 1609990753899
+updated: 1630791648807
 created: 1596374871110
 date: 2020-08-23
 ---
@@ -46,13 +46,13 @@ You can create a daily journal using `> Dendron: Create Daily Journal Note` or `
 
 ## Pods
 
-### Support different defaults on a per hierarchy basis when publishing ([docs](http://dendron.so/notes/73d395c9-5041-4d0d-9db7-080d9586136e.html#config))
+### Support different defaults on a per hierarchy basis when publishing ([[docs|dendron.topic.publishing.selective-publication]])
 
 You can now set different publishing defaults for each hierarchy (as well as general defaults for your entire vault.)
 
 As an example, below is the config for [my website](https://kevinslin.com). It publishes everything under the `home` and `blog` hierarchies but will only publish notes under `books` if `published: true` is set on the frontmatter. 
 
-- dendron.yml
+- `dendron.yml`
 
 ```yml
 site:
@@ -63,7 +63,7 @@ config:
     publishByDefault: false
 ```
 
-### Implement new website config syntax ([docs](http://dendron.so/notes/73d395c9-5041-4d0d-9db7-080d9586136e.html#properties))
+### Implement new website config syntax ([[docs|dendron.topic.publishing.selective-publication]])
 
 New config syntax unifies a bunch of different configuration options and renames others to more sensible names.
 
@@ -119,7 +119,7 @@ foo.bar # match
 foo.bar.one #match
 ```
 
-### Support match by pattern ([docs](http://dendron.so/notes/c5e5adde-5459-409b-b34d-a0d75cbb1052.html#pattern))
+### Support match by pattern ([[docs|dendron.topic.schema#pattern]])
 
 You can now explicitly specify a glob pattern for any level of your schema. If not set, defaults to the schema `id`.
 

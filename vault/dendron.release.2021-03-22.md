@@ -2,7 +2,7 @@
 id: 2d59d6d0-5752-4de6-9027-f6bf9ab63aca
 title: Release Notes (version 0.34)
 desc: ''
-updated: 1617044418611
+updated: 1630791725187
 created: 1616447140240
 ---
 
@@ -38,8 +38,7 @@ You can see an overview of all roles [[here|dendron.community.roles]]
   - update dendron action instructions
 - [Ding](https://github.com/Ding-Fan)
   - launch dendron with most recent vault
-- Tristan Williams @Tristan401#5376  `+planter`
-  - [published dendron site](https://tristan401-2000.github.io/tristan-working-notes-dendron/)
+- [Tristan Williams](https://github.com/Tristan401-2000) @Tristan401#5376  `+planter`
 - [Waldir Pimenta](https://github.com/waldyrious)
   - fix typo
 

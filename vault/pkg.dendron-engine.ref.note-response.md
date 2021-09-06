@@ -50,4 +50,4 @@ created: 1611160590954
 ```
 
 ## Links
-- [type definition](https://github.com/dendronhq/dendron/blob/master/packages/common-all/src/typesv2.ts#L166:L166)
+- [type definition](https://github.com/dendronhq/dendron/blob/master/packages/common-all/src/types/typesv2.ts)

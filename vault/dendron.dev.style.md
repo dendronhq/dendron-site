@@ -17,7 +17,7 @@ We use [eslint](https://eslint.org/) and [prettier](https://prettier.io/) to aut
 
 ## Time
 
-We use [`luxon`](https://moment.github.io/luxon/docs/class/src/datetime.js~DateTime.html) for all time related tasks. This is the successor of [`moment.js`](https://sebastiandedeyne.com/moment-js-thank-you-for-your-service/)
+We use [`luxon`](https://moment.github.io/luxon/api-docs/index.html#datetime) for all time related tasks. This is the successor of [`moment.js`](https://sebastiandedeyne.com/moment-js-thank-you-for-your-service/)
 
 
 ## General

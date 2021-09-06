@@ -2,7 +2,7 @@
 id: 075e9806-0367-40a2-8154-2e84d5a020e5
 title: Release Notes(version 0.7)
 desc: ''
-updated: 1609990760541
+updated: 1630793198334
 created: 1596374871110
 date: 2020-08-16
 ---
@@ -85,11 +85,11 @@ Or a range!
 
 ## Pods
 
-### Publish Multiple Hierarchies within a Vault ([docs](https://www.dendron.so/notes/73d395c9-5041-4d0d-9db7-080d9586136e.html#selective-publication))
+### Publish Multiple Hierarchies within a Vault ([[docs|dendron.topic.publishing.selective-publication]])
 
 You can now publish 0, one, or N number of hierarchies within a vault. We're working on negative and complex numbers of hierarchies for future releases.  
 
-### Ability to not Publish Select Lines ([docs](https://www.dendron.so/notes/73d395c9-5041-4d0d-9db7-080d9586136e.html#exclude-line-from-publication))
+### Ability to not Publish Select Lines ([[docs|dendron.topic.publishing.selective-publication]])
 
 Unlike what Mark Zuckerberg might want you to believe, people weren't meant to share EVERYTHING with EVERYONE. Use this to keep private lines private!
 

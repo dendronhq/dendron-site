@@ -21,7 +21,7 @@ Dendron is ideally suited for this knowledge-as-a-cache use case.
 
 ## Example
 
-You can see a public example of what this might look like on [Kevin's project reference hierarchy](https://www.kevinslin.com/notes/f46d3d6c-9704-4ddc-ad7d-69612d214905.html). He keeps public reference notes on projects he's used. 
+You can see a public example of what this might look like on [Kevin's project reference hierarchy](https://www.kevinslin.com/notes/3dd58f62-fee5-4f93-b9f1-b0f0f59a9b64.html). He keeps public reference notes on projects he's used. 
 
 Some things to note: 
 

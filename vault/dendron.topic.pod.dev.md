@@ -2,7 +2,7 @@
 id: 5de219e6-d9b9-4abf-9367-998109cd57cd
 title: Developing a Pod
 desc: ''
-updated: 1622045743569
+updated: 1630795273532
 created: 1614201272488
 ---
 ## Summary
@@ -76,9 +76,6 @@ module.exports = {
    - since I was running this in a new Dendron vault, I got the following output.
    - you can change the value of the fname config to an existing note's file name to run it against that note.
 
-```markdown
-Hello World
-
 ## The Trail 🥾
 
 Here are the basics of Dendron so you can get started growing your knowledge base.
@@ -90,7 +87,7 @@ Here are the basics of Dendron so you can get started growing your knowledge bas
 - [ ] Use a [snippet](https://www.dendron.so/notes/9eca1992-7540-4d9d-97fb-328b27748b2c.html) for quick note templates
 - [ ] Insert an [image](https://www.dendron.so/notes/a91fd8da-6895-49fe-8164-a17acd8d9a17.html)
 - [ ] Create some [links](https://www.dendron.so/notes/3472226a-ff3c-432d-bf5d-10926f39f6c2.html)
-- [ ] [Publish](https://www.dendron.so/notes/73d395c9-5041-4d0d-9db7-080d9586136e.html) your vault
+- [ ] [[Publish|dendron.topic.publishing.selective-publication]] your vault
 - [ ] Join us on [discord](https://discord.com/invite/6j85zNX) and discuss all things knowledge management with your fellow trail blazers.
 - [ ] For more information, see Dendron's basic [concepts](https://www.dendron.so/notes/c6fd6bc4-7f75-4cbb-8f34-f7b99bfe2d50.html)
 ```

@@ -19,6 +19,7 @@ See [here](https://handbook.dendron.so/notes/0292b34e-47eb-4499-8f49-d9891accdb3
 - x Edit on Github Link
 - w Responsive side bar 
 -   Advanced SEO Options 
+
 -   Custom Theming Support
 -   Full text search
 -   [[Support live local preview for publishing|dendron.rfc.21-modern-web-client#3-support-live-local-preview-for-publishing]]
