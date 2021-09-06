@@ -2,11 +2,17 @@
 id: fqVcwvX5aNSdr7De
 title: Arch
 desc: ''
-updated: 1629949726578
+updated: 1630969114497
 created: 1626915617598
 ---
 
 ## Static Files
+
+Dendron can fetch static files at custom locations using the [AssetsController](https://github.com/dendronhq/dendron/blob/fe83a99d11feffb0c588a5ae3b23b73b6283c851/packages/api-server/src/modules/assets.ts#L17-L17).
+
+### Themes
+- API: [assetGetTheme](https://github.com/dendronhq/dendron/blob/16b0e5c59e3ee11530199b5c9a11a58f05e14a93/packages/common-all/src/api.ts#L335-L335)
+- Implementation: [Asset module](https://github.com/dendronhq/dendron/blob/1da7714f50acbba312a7e2e7a497f9e53920c96f/packages/api-server/src/routes/assets.ts#L22-L22)
 
 ## Note APIs
 

@@ -2,7 +2,7 @@
 id: a7c3a810-28c8-4b47-96a6-8156b1524af3
 title: Lookup
 desc: ''
-updated: 1630668295442
+updated: 1630960792670
 created: 1595952505038
 stub: false
 ---
@@ -14,7 +14,9 @@ To work with notes, Dendron uses  **lookups**. Lookups help you create, find, an
 ## Lookups
 Dendron supports look ups by keywords separated by spaces/' ' without having to know the order where the keywords occur in the note. As example: `dendron rename` & `rename dendron` will both match note `dendron.dev.design.commands.rename`.
 
-As mentioned in Details section the look up is accomplished through utilization of [fusejs](https://fusejs.io/). You can use [fusejs extended search](https://fusejs.io/examples.html#extended-search) syntax when looking up notes.  
+As mentioned in [[Details|dendron.topic.lookup#details]], the look up is accomplished through utilization of [fusejs](https://fusejs.io/). You can use [fusejs extended search](https://fusejs.io/examples.html#extended-search) syntax when looking up notes.  
+
+For entries that have the same score, Dendron will sort results by their last updated time.
 
 ## Details
 

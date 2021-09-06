@@ -2,7 +2,7 @@
 id: a0240c63-2000-4542-a0ba-d570f42323b9
 title: Arch
 desc: ''
-updated: 1630793130371
+updated: 1630970714867
 created: 1622130772977
 ---
 
@@ -10,9 +10,7 @@ created: 1622130772977
 
 The next server contains the UI components for the Dendron Plugin, the Dendron Preview, and the Dendron published site.
 
-## Dendron Plugin
-- status: [[Work In Progress 🚧|dendron.ref.status#work-in-progress-]]
-
+## Details
 All plugin related code gets routed to the `/vscode` path which is set in `_app.tsx`. 
 
 When building the plugin, all `/vscode` pages will be exported as static files and bundled with the plugin extension. They will be served at runtime using `expressjs`.
@@ -21,8 +19,14 @@ There are two kind of views in the plugin that get handled by NextJs:
 - webviews
 - treeviews
 
-Treeviews are components in the sidepanel, webviews are views that are revealed using a command (eg. `Dendron: Configure`). The mechanism of rendering both views are similar and described below.
+Treeviews are components in the sidepanel, webviews are views that are revealed using a command (eg. `Dendron: Configure`). The mechanism of rendering both views are similar.
 
+
+## Components
+
+## LifeCycle
+
+### Startup
 1. User initiates the view by opening the tree view or issuing the UI command
 1. This brings up a webview with the following [code](https://github.com/dendronhq/dendron/blob/master/packages/plugin-core/src/views/utils.ts)
     ```html
@@ -36,10 +40,12 @@ Treeviews are components in the sidepanel, webviews are views that are revealed 
 1. During initialization, the view will connect to the `engine` and hydrate its `redux` store with current notes and IDE related properties (eg. current notes)
     - the aforementioned properties are passed down to all child component as [props](https://github.com/dendronhq/dendron/blob/master/packages/dendron-next-server/pages/_app.tsx)
 
-
 When the view needs to interact with VSCode, it does so by passing messages. We wrote a helper utility that takes care of this, you can see an example of it [here](https://github.com/dendronhq/dendron/blob/master/packages/dendron-next-server/pages/vscode/tree-view.tsx)
 
 You can see an example of an UI event propagating back to VSCode [[here|pkg.dendron-next-server.internal#onclick]]
+
+
+# Etc
 
 ## Dendron Preview 
 - codename: Unified Preview
@@ -88,13 +94,3 @@ The Dendron Published Site will be the default path published using nextjs. It h
 ## Copy and Paste
 
 By default, modifier controls like copy and paste are disabled because we are operating an iframe operating inside a webview. The workaround is described [here](https://github.com/jevakallio/vscode-live-frame#command-key-combinations-copy-paste-select-all-are-disabled). We've implemented it [here](https://github.com/dendronhq/dendron/blob/master/packages/plugin-core/src/views/utils.ts) so that any webview that uses `WebViewUtils` to generate the HTML will come with the workaround. Make sure that keyboard events are allowed to propagate for this workaround to work. 
-
-## Theming
-
-Dendron listens to the [ThemeChange](https://github.com/dendronhq/dendron/blob/master/packages/dendron-next-server/pages/_app.tsx) event from the plugin.
-
-This is currently broadcasted when we load the webview initially [here](https://github.com/dendronhq/dendron/blob/master/packages/plugin-core/src/views/utils.ts). 
-
-- NOTE: currently, in order to broadcast theme changes, a user needs to run `ReloadWindow`. We have an action item to change this dynamcally. 
-
-On the webview side, Dendron uses the [ThemeSwitcherProvider](https://github.com/dendronhq/dendron/blob/master/packages/dendron-next-server/pages/_app.tsx) to pass the current theme to downstream components

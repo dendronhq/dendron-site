@@ -2,10 +2,39 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1630642879869
+updated: 1630961907191
 created: 1601508213606
 date: '2022-01-01'
 ---
+
+## 0.57.2
+
+### Features
+
+#### Improved Lookup
+Lookup can match words that are out of order, with better fuzziness, and will sort by last updated in case of ties.
+
+![[dendron.topic.lookup#lookups,1:#*]]
+
+#### CLI for Next Publishing
+@kevin
+
+#### Leaner Extension
+Bundle extension size is reduced by 50%
+
+### Enhancements
+- autocomplete and refactoring for users notes ([[docs|dendron.topic.users]])@kaan
+- frontmatter tags displayed similarly to regular tags when published @kaan
+- support [[customHeaderPath|dendron.topic.publishing.configuration#customheaderpath]] for Next publishing
+- support [[collection options|dendron.topic.publishing.configuration#collection-options]] for Next publishing
+- progress bar for [[refactoring|dendron.topic.commands#refactor-hierarchy]]
+
+### Bug Fixes
+- links at the top and bottom of note references not clickable
+- bad missing note hover message
+- tag decorators persist after text is removed
+- don't show multi-select modifier on rename
+
 
 ## 0.57.1
 

@@ -2,7 +2,7 @@
 id: ENeBSPWAtTlQclXYWNm6c
 title: Architecture
 desc: ''
-updated: 1630901706166
+updated: 1630967517525
 created: 1629988601634
 ---
 
@@ -25,6 +25,7 @@ This goes over the major architectural components of Dendron.
 
 - Specifics
   - Analytics
+  - Themes
 
 ## Other
 - NextJS
