@@ -2,7 +2,7 @@
 id: 5mfPAJFfNFrD16RbGOs9h
 title: "RFC 23: Consolidate Configurations"
 desc: ''
-updated: 1630473582571
+updated: 1630671654596
 created: 1630472367230
 ---
 
@@ -120,6 +120,11 @@ created: 1630472367230
       - When a user uses the configuration UI with the intent to view a certain group, every key in that group should be presented so that they could be identifiable at a glance.
         - Even if the groups are deeply nested, the UI should present them in a flat manner unless it generates clutter
           - Configurations should not be structured to be _too deep_ in the first place in order to avoid this situation, and also promote a simpler/leaner implementation.
+1. The configuration should be presented in a way that is easily understandable.
+    - Configuration keys are defined to be a string without any spaces. The naming is selected to be as clear as possible, but some could use a bit more descriptive labeling.
+    - While the documentation should be sufficient when it comes to fully explaining what every configuration does, it would be better if the way we present the configurations can give a good enough explanation to what it does.
+    - While keeping it backwards compatible, we can add descriptions and labels that are plain English sentences to enable this in the configuration UI.
+    - With the introduction of JSON schema validation, we can also present configurations in a more descriptive way. (i.e. Have the validator display descriptions.)
 
 ### Cleanup
 
