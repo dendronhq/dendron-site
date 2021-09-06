@@ -2,7 +2,7 @@
 id: tO6EFCHd2rw350zh
 title: Import
 desc: ''
-updated: 1630579300814
+updated: 1630921073731
 created: 1626365094547
 ---
 
@@ -35,7 +35,7 @@ To communicate with the Google Docs, you'll need to manually obtain OAuth token 
 Follow the steps below to create a token. The scopes you require depends on the type of data you're trying to request, you can even select all and you are good to go.
 
 1. Go to [Google Oauth2 Playground](https://developers.google.com/oauthplayground/) and select the `Google Docs API v1` with scope as `https://www.googleapis.com/auth/documents` and `https://www.googleapis.com/auth/drive` and click on Authorize APIs button. Authorize yourself by selecting your google account from the oauth popup.
-1. On Step 2 in Oauth2 Playground, click on exchange authorization code for tokens. Copy the access token and store it in the  dendron gdoc import pod config file. 
+1. On Step 2 in Oauth2 Playground, click on exchange authorization code for tokens. Copy the access token, refresh token and store it in the  dendron gdoc import pod config file.
 
 ### Choosing which Document to Import
 
