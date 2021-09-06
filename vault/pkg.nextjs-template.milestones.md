@@ -2,7 +2,7 @@
 id: wnjZiTP1UEW9e0aGz1HT0
 title: Milestones
 desc: ''
-updated: 1630425107629
+updated: 1630901375051
 created: 1629514021198
 ---
 
@@ -21,21 +21,22 @@ See [here](https://handbook.dendron.so/notes/0292b34e-47eb-4499-8f49-d9891accdb3
 -   Advanced SEO Options 
 
 -   Custom Theming Support
--   Full text search
+-   [[Full text search|scratch.2021.09.05.210615.full-text-search]]
 -   [[Support live local preview for publishing|dendron.rfc.21-modern-web-client#3-support-live-local-preview-for-publishing]]
 
 ### Enhancements
 - x Make Lookup change value when navigating
-- y Make Breadcrumb clickable 
+- x Make Breadcrumb clickable 
+-   make naked urls the default for nextjs
 - support mvp config settings
   - x support [[assetsPrefix|dendron.topic.publishing.configuration#assetsprefix]]
   - x support [[copyAssets|dendron.topic.publishing.configuration#copyassets]]
   - y support [[customHeaderPath|dendron.topic.publishing.configuration#customheaderpath]] #size.small 
   - x support [[duplicateNoteBehavior|dendron.topic.publishing.configuration#duplicatenotebehavior]]
-  - a support [[ga_tracking|dendron.topic.publishing.configuration#ga_tracking]] #size.small  ^gUoZRr5ALw4Z 
+  - a @joshi support [[ga_tracking|dendron.topic.publishing.configuration#ga_tracking]] #size.small   ^gUoZRr5ALw4Z 
     - see [Using Google Analytics with Next.js](https://malloc.fi/using-google-analytics-with-next-js)
   - x support [[logo|dendron.topic.publishing.configuration#logo]]
-  - a support [[githubCname|dendron.topic.publishing.configuration#githubcname]] ^MlGtBGkqaWAn
+  - a @joshi support [[githubCname|dendron.topic.publishing.configuration#githubcname]] ^MlGtBGkqaWAn
   - d support [[siteFaviconPath|dendron.topic.publishing.configuration#sitefaviconpath]]
   - x support [[siteHierarchies|dendron.topic.publishing.configuration#sitehierarchies]]
   - x support [[siteIndex|dendron.topic.publishing.configuration#siteindex]]
@@ -48,33 +49,32 @@ See [here](https://handbook.dendron.so/notes/0292b34e-47eb-4499-8f49-d9891accdb3
     -   support [[twitter|dendron.topic.publishing.configuration#twitter]] seo property #size.small
     -   support [[image|dendron.topic.publishing.configuration#image]]
   - Note config
-    -   support [[canonicalUrl|dendron.topic.publishing.configuration#canonicalurl]] #size.small
+    -   x support [[canonicalUrl|dendron.topic.publishing.configuration#canonicalurl]] #size.small
     -   support [[published|dendron.topic.publishing.configuration#published]] #size.small
     -   support [[noindex|dendron.topic.publishing.configuration#noindex]] #size.small
     -   support [[gitNoLink|dendron.topic.publishing.configuration#gitnolink]] #size.small
-    - a support [[collection options|dendron.topic.publishing.configuration#collection-options]] #size.small #scope.publishing ^lQkPH1vG6gzd
+    - y @hikchoi support [[collection options|dendron.topic.publishing.configuration#collection-options]] #size.small #scope.publishing ^lQkPH1vG6gzd
         - Lookup
           - [Building a Blog with Next.js](https://timber.io/blog/building-a-blog-with-next-js/)
           - [GitHub - tscanlin/next-blog: Markdown based blog using next.js, supporting static export](https://github.com/tscanlin/next-blog)
           - [GitHub - wutali/nextjs-netlify-blog-template: Next.js blogging template for Netlify](https://github.com/wutali/nextjs-netlify-blog-template)
 -   Support nav order in Single Hiearchy Workspaces
-- a Set max-width constraints for content 
-- a Navigate to home page using `nextjs/link` instead of `<a>` 
-- a integarte nextjs with [[pkg.dendron-cli]] 
+- y Set max-width constraints for content 
+- x Navigate to home page using `nextjs/link` instead of `<a>` 
+- y integarte nextjs with [[pkg.dendron-cli]] 
 - b integarte nextjs with [[pkg.dendron-plugin]]
 
 ### Fixes
-- w Deeply nested tree view items can overflow 
-- y Backlinks and Children links go to wrong url #assigned
-- y Internal links go to wrong url  
-- a Opening one child of tree view should not close existing children
+- x Deeply nested tree view items can overflow 
+- x Backlinks and Children links go to wrong url 
+- x Internal links go to wrong url  
+- x Opening one child of tree view should not close existing children
 <!-- -   CanoncialBaseUrl, remove autoappend .html behavior -->
 <!-- -   Sometimes breadcrumb doesn't load -->
 
 ## Phase I Milestones
 
 ### Features
-- internationalization capability
 - support tab completion for lookup
 - support note graph on published site
 - support internationalization
