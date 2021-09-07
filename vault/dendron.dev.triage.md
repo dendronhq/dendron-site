@@ -2,7 +2,7 @@
 id: 1e6c8b49-ef88-4e79-b2df-e9d614c38a53
 title: Triage
 desc: ""
-updated: 1629829373618
+updated: 1631033192455
 created: 1610468038819
 ---
 
@@ -38,6 +38,10 @@ Specfic work in frontend components like [[Web UI|dendron.ref.web-ui]]
 ### preview
 
 Work with preview
+
+### publishing
+
+publish related
 
 
 ## area
