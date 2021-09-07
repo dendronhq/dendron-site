@@ -2,21 +2,15 @@
 id: a80f36d9-01d0-4c5a-a228-867b093a4913
 title: Cook Book
 desc: ''
-updated: 1630796536132
+updated: 1631029799524
 created: 1599151918645
 stub: false
 ---
 
 ## Build
+- See [[Build|dendron.dev.build]]
 
-### Building from clean repo
-
-Sometimes you'll need to rebuild the workspace from scratch. Run the following command to do so
-
-```
-./bootstrap/scripts/cleanup.sh
-yarn setup
-```
+## Packages
 
 ### Install a new package
 
