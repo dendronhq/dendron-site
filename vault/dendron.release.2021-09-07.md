@@ -13,9 +13,9 @@ Documentation as well as additional notes for each of the changes can be found i
 
 ### Highlights
 - feat(workspace) lookup now matches words that are out of order and with much improved fuzzyness
-- feat(publishing) nextjs publishing integrated with dendron cli
 - feat(workspace) much faster preview rendering thanks to preview caching 🚀
 - feat(workspace) Dendron bundle size is now 50% smaller which means faster updates and startup 🚀
+- feat(publishing) nextjs publishing integrated with dendron cli #stage.seed
 
 ### Enhancements
 - enhance(workspace) add multi-select for Dendron: Move Note command
@@ -67,6 +67,6 @@ You can see an overview of all roles [[here|dendron.community.roles]]
     - [[Bug/Feature] HTML-images · Issue #1273 · dendronhq/dendron](https://github.com/dendronhq/dendron/issues/1273)
 
 ### Changelog
-![[dendron.release.changelog#051,1:#050]]
+![[dendron.release.changelog#058,1:#057]]
 
 
