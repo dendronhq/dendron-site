@@ -2,7 +2,7 @@
 id: f1af56bb-db27-47ae-8406-61a98de6c78c
 title: References
 desc: ''
-updated: 1625572927109
+updated: 1631052176454
 created: 1597356582509
 stub: false
 ---
@@ -82,6 +82,7 @@ Nemo qui voluptatem dolores. ^my-paragraph
 
 * Culpa autem et voluptatem reiciendis id sint.
 * Qui quos ut a deserunt. ^second-item
+    * Sub-item
 * Minima quos consequatur quo eum quas aut.
 
 ^all-items
@@ -97,6 +98,10 @@ And let's look at that list again:
 I want to re-emphasize that second item:
 
 ![[#^second-item]]
+
+The second item, without the sub-item under it:
+
+![[#^second-item:#^second-item]]
 
 You can reference across notes as well. Say you had a note named "other-note" which had an anchor "some-anchor" in it:
 
