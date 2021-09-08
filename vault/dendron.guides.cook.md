@@ -377,3 +377,9 @@ vaults:
     - fsPath: vault
       visibility: private
 ```
+
+### Create note in a specific vault
+
+There are multiple ways to create a note in a specific vault
+- open a note that is already in the vault (all vaults have a `root` note by default so thats a quick way to select a particular vault)
+- use the [[vaultSelectionMode|dendron.topic.lookup.modifiers#vaultselectionmode]] modifier on lookup to select a new vault on creation
