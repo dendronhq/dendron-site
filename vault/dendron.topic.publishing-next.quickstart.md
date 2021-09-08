@@ -14,6 +14,8 @@ created: 1631033401707
 
 ## Process
 
+### Setup
+
 1. Update `.gitignore`
     ```sh
     echo .next >> .gitignore
@@ -31,6 +33,8 @@ created: 1631033401707
     site:
         usePrettyLinks: true
     ```
+
+### Preview
 1. Build note metadata
     ```sh
     dendron publish build
@@ -44,6 +48,8 @@ created: 1631033401707
 
 Under the hood, Dendron Next Publishing is just NextJs with some defaults. Instead of using `dendron publish init`, you can also manually pull down the repository by running the following command in your workspace.
 
+### Initializing nextjs
 ```
 git clone https://github.com/dendronhq/nextjs-template.git .next
 ```
+
