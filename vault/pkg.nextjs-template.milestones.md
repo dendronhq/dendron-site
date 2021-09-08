@@ -36,7 +36,7 @@ See [here](https://handbook.dendron.so/notes/0292b34e-47eb-4499-8f49-d9891accdb3
   - a @joshi support [[ga_tracking|dendron.topic.publishing.configuration#ga_tracking]] #size.small   ^gUoZRr5ALw4Z 
     - see [Using Google Analytics with Next.js](https://malloc.fi/using-google-analytics-with-next-js)
   - x support [[logo|dendron.topic.publishing.configuration#logo]]
-  - a @joshi support [[githubCname|dendron.topic.publishing.configuration#githubcname]] ^MlGtBGkqaWAn
+  - x support [[githubCname|dendron.topic.publishing.configuration#githubcname]] ^MlGtBGkqaWAn
   - d support [[siteFaviconPath|dendron.topic.publishing.configuration#sitefaviconpath]]
   - x support [[siteHierarchies|dendron.topic.publishing.configuration#sitehierarchies]]
   - x support [[siteIndex|dendron.topic.publishing.configuration#siteindex]]
