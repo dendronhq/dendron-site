@@ -2,7 +2,7 @@
 id: e5st4LFLtIwwbQmC6JBaF
 title: Quickstart
 desc: ''
-updated: 1631035209856
+updated: 1631106715726
 created: 1631033401707
 ---
 
@@ -39,3 +39,11 @@ created: 1631033401707
     ```sh
     cd .next && npm run dev
     ```
+
+## Manual Process
+
+Under the hood, Dendron Next Publishing is just NextJs with some defaults. Instead of using `dendron publish init`, you can also manually pull down the repository by running the following command in your workspace.
+
+```
+git clone https://github.com/dendronhq/nextjs-template.git .next
+```
