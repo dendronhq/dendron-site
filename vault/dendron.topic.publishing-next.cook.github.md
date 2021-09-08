@@ -13,17 +13,17 @@ This goes over how to publish a Dendron site using Github Pages
     - If not, you can create one [here](https://github.com/new) from your existing workspace
 - You have [[Dendron CLI|dendron.topic.cli]] installed
 
-## Process
+## Process - Setup Github
 
-### 1. Create a github repo
+### Create a github repo
 - Follow the instructions [here](https://pages.github.com/) to create a repository named `{username}.github.io` where `{username}` is your username on Github
 
-### 2. Add your notes 
+### Add your notes 
 Follow the instructions to push to an existing [[workspace|dendron.ref.workspace]]
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/publishv2.github.jpg)
 
-### 3. Turn on github pages
+### Turn on github pages
 
 Go to settings
 
@@ -37,7 +37,12 @@ Select the docs folder and click save.
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/publishv2.github-docs.jpg)
 
-### 4. Configure your notes for publication
+## Process - Setup Dendron
+
+### Setup Dendron Next Publishin
+![[dendron.topic.publishing-next.quickstart#setup,1:#*]]
+
+### Configure your notes for publication
 
 In order for to build your notes for publication, you'll have to tweak a few settings first. Open the command prompt and type `>Dendron: Configure (yaml)`
 
@@ -84,7 +89,7 @@ site:
 
 ![[dendron.topic.publishing-next.cook.basics#export-notes,1]]
 
-- commit your changes
+### Deploy your changes
 ```bash
 git add .
 git commit -m "dendron page update"

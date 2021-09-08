@@ -15,24 +15,7 @@ created: 1631033401707
 ## Process
 
 ### Setup
-
-1. Update `.gitignore`
-    ```sh
-    echo .next >> .gitignore
-    ```
-1. Clone the nextjs repository
-    ```sh
-    dendron publish init
-    ```
-1. Install dependencies
-    ```sh
-    cd .next && npm install && cd ..
-    ```
-1. Update your dendron.yml metadata
-    ```yml
-    site:
-        usePrettyLinks: true
-    ```
+![[dendron.topic.publishing-next.cook.basics#setup-notes,1]]
 
 ### Preview
 1. Build note metadata
