@@ -12,6 +12,7 @@ This goes over how to publish a Dendron site using Github Pages
 - This assumes you have a github repository. 
     - If not, you can create one [here](https://github.com/new) from your existing workspace
 - You have [[Dendron CLI|dendron.topic.cli]] installed
+- You have [[yarn|dendron.dev.cook.basics#install-yarn]] installed
 
 ## Process - Setup Github
 

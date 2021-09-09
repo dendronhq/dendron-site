@@ -7,6 +7,20 @@ created: 1631132278348
 ---
 
 
+### Setup Notes
+1. Update `.gitignore`
+    ```sh
+    echo .next >> .gitignore
+    ```
+1. Clone the nextjs repository
+    ```sh
+    dendron publish init
+    ```
+1. Install dependencies
+    ```sh
+    cd .next && yarn && cd ..
+    ```
+
 ### Build Notes
 - NOTE: run this command inside your [[workspace|dendron.ref.workspace]]
 ```sh
@@ -25,25 +39,7 @@ cd .next && yarn dev && cd ..
 
 ```sh
 cd .next && yarn export
+[[ -d ../docs ]] && rm -r ../docs
 mv out ../docs 
 touch ../docs/.nojekyll
 ```
-
-### Setup Notes
-1. Update `.gitignore`
-    ```sh
-    echo .next >> .gitignore
-    ```
-1. Clone the nextjs repository
-    ```sh
-    dendron publish init
-    ```
-1. Install dependencies
-    ```sh
-    cd .next && yarn && cd ..
-    ```
-1. Update your dendron.yml metadata
-    ```yml
-    site:
-        usePrettyLinks: true
-    ```
