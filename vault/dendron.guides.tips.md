@@ -2,7 +2,7 @@
 id: 692fa114-f798-467f-a0b9-3cccc327aa6f
 title: Tips
 desc: ''
-updated: 1630795728576
+updated: 1631027580881
 created: 1595614204291
 ---
 
@@ -98,8 +98,15 @@ You can collapse headers at different levels and bullets at different indentatio
 - [discord thread](https://discordapp.com/channels/717965437182410783/742532267058004098/759130627781558403)
 - Problem:
   - You want an easier way to `git add && git commit && git push`
-- Solution
+- Solution #1:
   - Use [git automator](https://marketplace.visualstudio.com/items?itemName=ivangabriele.vscode-git-add-and-commit).
+- Solution #2:
+  - Add alias to your bashrc/zshrc along the lines of 
+  ```
+  # WARNING: pushes straight to the main/master branch. Do not use on source code. 
+  alias gitaddcommitpushmain='git add . && git commit -m "update"; git fetch origin main && git rebase origin/main; git push origin main'
+  alias gitaddcommitpushmaster='git add . && git commit -m "update"; git fetch origin master && git rebase origin/master; git push origin master'
+  ```
 
 ### Publish to GitHub Pages with Actions
 
