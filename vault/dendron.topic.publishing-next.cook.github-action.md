@@ -2,7 +2,7 @@
 id: FnK2ws6w1uaS1YzBUY3BR
 title: GitHub Action
 desc: ''
-updated: 1631306630307
+updated: 1631314515101
 created: 1631306630307
 ---
 
@@ -10,60 +10,69 @@ created: 1631306630307
 
 Publishing Dendron using a github action
 
+Example: [dendron blog](https://github.com/dendronhq/dendron-blog)
 
-```yml
-name: Dendron
+## Process
+1. Create a workflow
+  ```sh
+  mkdir .github
+  mkdir .github/workflows
+  touch .github/workflows/publish.yml
+  ```
 
-on:
-  push:
-    branches:
-    - master
-    - main
+2. Add the following
+  ```yml
+  name: Dendron
 
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-    - name: Checkout source
-      uses: actions/checkout@v2
-      with:
-        fetch-depth: 0
+  on:
+    push:
+      branches:
+      - main
 
-    # Retain Node modules across builds
-    - name: Restore Node modules cache
-      uses: actions/cache@v2
-      id: node-modules-cache
-      with:
-        path: |
-          node_modules
-          .next/node_modules
-        key: node-modules-${{ hashFiles('yarn.lock')}}
+  jobs:
+    build:
+      runs-on: ubuntu-latest
+      steps:
+      - name: Checkout source
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
 
-    - name: Install npm dependencies
-      run: yarn
+      # Retain Node modules across builds
+      - name: Restore Node modules cache
+        uses: actions/cache@v2
+        id: node-modules-cache
+        with:
+          path: |
+            node_modules
+            .next/node_modules
+          key: node-modules-${{ hashFiles('yarn.lock')}}
 
-    - name: Initialize .next
-      run: yarn dendron publish init
+      - name: Install npm dependencies
+        run: yarn
 
-    - name: Install dependencies
-      run: cd .next && yarn && cd ..
+      - name: Initialize .next
+        run: yarn dendron publish init
 
-    - name: Export notes
-      run: yarn dendron publish build
+      - name: Install dependencies
+        run: cd .next && yarn && cd ..
 
-    - name: Prep notes for publish
-      run: cd .next && yarn export && cd ..
+      - name: Export notes
+        run: yarn dendron publish build
 
-    - name: Update files
-      run: |
-        cd .next && [[ -d ../docs ]] && rm -r ../docs && mv out ../docs && touch ../docs/.nojekyll && cd ..
+      - name: Prep notes for publish
+        run: cd .next && yarn export && cd ..
 
-    - name: Deploy site
-      uses: peaceiris/actions-gh-pages@v3
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_branch: pages
-        publish_dir: docs/
-        force_orphan: true
-        cname: "blog.dendron.so"
-```
+      - name: Update files
+        run: |
+          cd .next && [[ -d ../docs ]] && rm -r ../docs && mv out ../docs && touch ../docs/.nojekyll && cd ..
+
+      - name: Deploy site
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: pages
+          publish_dir: docs/
+          force_orphan: true
+          cname: "{{REPLACE_WITH_YOUR_CNAME}}"
+  ```
