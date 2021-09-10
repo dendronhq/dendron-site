@@ -37,10 +37,15 @@ date: '2022-01-01'
 ### House Cleaning
 - prune(publish): remove generating jekyll folder on new workspace
 
+## 0.58.2
+
+### Fixes
+- issue with initilaize tutorial workspace from non-dendron workspace
+
 ## 0.58.1
 
 ### Fixes
-- issue with initilaize workspace from non-dendron workspace
+- issue with initilaize template workspace from non-dendron workspace
 
 ## 0.58
 

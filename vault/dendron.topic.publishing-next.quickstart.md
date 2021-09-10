@@ -11,6 +11,9 @@ created: 1631033401707
 1. Install yarn (optional)
 ![[dendron.dev.setup.common#install-yarn,1:#*]]
 
+## Gotchas
+- Dendron Next publishing uses pretty urls which means pages will no longer have a `.html` suffix. If you are migrating an existing 11ty based Dendron site to Next, make sure to redirect `.html` pages to preserve existing links
+
 ## Process
 
 ### Setup

@@ -20,6 +20,7 @@ You can publish your notes using Dendron Next Publishing and Github pages
 - [Publish with custom CNAME](https://github.com/dendronhq/dendron-blog)
 - [Publish under github subdomain](https://github.com/kevinslin/dendron-next-test)
 
+
 ## Process - Setup Github
 
 ### Create a github repo
@@ -99,9 +100,7 @@ site:
 
 Publish your notes to the `/docs` folder
 ```
-[[ -d ../docs ]] && rm -r ../docs
-mv out ../docs 
-touch ../docs/.nojekyll
+[[ -d ../docs ]] && rm -r ../docs && mv out ../docs && touch ../docs/.nojekyll
 ```
 
 ### Deploy your changes
