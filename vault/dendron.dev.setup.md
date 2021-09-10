@@ -2,7 +2,7 @@
 id: 64f0e2d5-2c83-43df-9144-40f2c68935aa
 title: Setup Dendron Development Environment
 desc: ''
-updated: 1630794166287
+updated: 1631232697632
 created: 1598651458825
 ---
 
@@ -117,50 +117,9 @@ npm link -g @dendronhq/dendron-cli
 
 ## Advanced
 
-### Working with Verdaccio
+### Verdaccio
 
-[Verdaccio](https://verdaccio.org/) is an open source local NPM registry. We use it to test out publishing and link together projects internally before publishing
-
-```
-npm install -g verdaccio
-```
-
-- switch to local npm
-```sh
-# source helpers 
-. bootstrap/scripts/helpers.sh
-# change registry to local endpoint
-setRegLocal
-# run local endpoint
-verdaccio
-```
-
-- create a user
-```sh
-npm login {user}
-# follow login instructions
-# this allows you to run `npm publish`
-CTRL+C
-```
-
-
-- NOTE: only run verdaccio when you need to test publishing. otherwise, this will pollute the `yarn.lock` file with `localhost` entries which will fail in CI/CD
-
-```sh
-# switch back to remote endpoint
-setRegRemote
-```
-
-
-### Publishing Packages Locally
-
-After you setup a local npm registry, you can run the following commands to publish locally
-
-```sh
-lerna publish from-package --ignore-scripts
-# updates meta.json with latest package versions
-node bootstrap/scripts/genMeta.js
-```
+![[dendron.dev.cook.common#verdaccio,1:#*]]
 
 ### Linking all Packages
 

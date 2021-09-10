@@ -2,7 +2,7 @@
 id: 32cdd4aa-d9f6-4582-8d0c-07f64a00299b
 title: Packages
 desc: ''
-updated: 1629995672646
+updated: 1631284875730
 created: 1596684856906
 nav_order: 10
 ---
@@ -29,9 +29,6 @@ This goes over all packages in the dendron monorepo
 ### Dendron 11ty
 ![[pkg.11ty#summary,1:#*]]
 
-### Dendron Next Server
-![[pkg.dendron-next-server#summary,1:#*]]
-
 ### Dendron Pods
 ![[pkg.pods-core#summary,1]]
 
@@ -41,14 +38,20 @@ This goes over all packages in the dendron monorepo
 ### Dendron Common Server
 ![[pkg.common-server#summary,1:#*]]
 
-## Thematic
+## Web Components
+Dendron web components refer to the collection NextJS + React logic that is used for Dendron's frontend clients in VSCode and when publishing. 
+
+### Dendron Common Frontend
+![[pkg.common-frontend#summary,1]]
+
+### Dendron Nextjs Template
+![[pkg.nextjs-template#summary,1]]
+
+### Dendron Next Server
+![[pkg.dendron-next-server#summary,1:#*]]
+
+<!-- ## Thematic
 Some Logic is split across multiple packages. The following splits out logic by theme instead of physical package
 
 ### Markdown
-![[pkg.dendron-markdown#summary,1:#*]]
-
-<!-- Deprecated Extensions -->
-
-<!-- - [[Dendron Snippet Maker|pkg.dendron-snippet-maker]] -->
-<!-- - [[Dendron Preview|pkg.dendron-preview]] -->
-<!-- - [[Dendron Markdown Links|pkg.dendron-markdown-links]] -->
+![[pkg.dendron-markdown#summary,1:#*]] -->

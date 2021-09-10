@@ -2,7 +2,7 @@
 id: e5st4LFLtIwwbQmC6JBaF
 title: Quickstart
 desc: ''
-updated: 1631106715726
+updated: 1631236211155
 created: 1631033401707
 ---
 
@@ -13,6 +13,8 @@ created: 1631033401707
 1. Install latest version of [[dendron.topic.cli#installation]]
 
 ## Process
+
+### Build and Preview
 
 1. Update `.gitignore`
     ```sh
@@ -39,6 +41,15 @@ created: 1631033401707
     ```sh
     cd .next && npm run dev
     ```
+### Export
+
+```sh
+cd .next
+yarn export
+[[ -d ../docs ]] && rm -r ../docs
+mv out ../docs 
+touch ../docs/.nojekyll
+```
 
 ## Manual Process
 

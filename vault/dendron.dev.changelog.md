@@ -2,13 +2,15 @@
 id: H7CgvT7YUYAiV7mEmGnky
 title: Changelog
 desc: ''
-updated: 1630868531390
+updated: 1631285198703
 created: 1630796807707
 ---
 
 
+
 ## Dendron Standalone Vault Changes
 - date: 2021.09.04
+- status: w
 
 ### Summary
 As part of the work to enable [[3 Standalone Vaults|dendron.rfc.3-standalone-vaults]], we refactored the Dendron startup process. 

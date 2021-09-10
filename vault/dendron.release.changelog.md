@@ -7,6 +7,26 @@ created: 1601508213606
 date: '2022-01-01'
 ---
 
+## 0.58.4
+
+### Features
+
+### Enhancements
+
+### Bug Fixes
+
+### Pruning
+
+### House Cleaning
+
+### Docs
+
+
+## 0.58.1
+
+### Fixes
+- issue with initilaize workspace from non-dendron workspace
+
 ## 0.58
 
 ## 0.57.2
