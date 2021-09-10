@@ -1,8 +1,8 @@
 ---
 id: 2340KhiZJWUy31Nrn37Fd
-title: Basics
+title: Common
 desc: ''
-updated: 1631132278348
+updated: 1631296613877
 created: 1631132278348
 ---
 
@@ -39,7 +39,6 @@ cd .next && yarn dev && cd ..
 
 ```sh
 cd .next && yarn export
-[[ -d ../docs ]] && rm -r ../docs
-mv out ../docs 
-touch ../docs/.nojekyll
 ```
+
+##

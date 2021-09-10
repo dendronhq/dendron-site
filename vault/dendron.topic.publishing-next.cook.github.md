@@ -6,13 +6,19 @@ updated: 1631132196609
 created: 1631132196609
 ---
 
-This goes over how to publish a Dendron site using Github Pages
+## Summary
+
+You can publish your notes using Dendron Next Publishing and Github pages
 
 ### Pre-requisites 
 - This assumes you have a github repository. 
     - If not, you can create one [here](https://github.com/new) from your existing workspace
 - You have [[Dendron CLI|dendron.topic.cli]] installed
 - You have [[yarn|dendron.dev.cook.basics#install-yarn]] installed
+
+### Examples
+- [Publish with custom CNAME](https://github.com/dendronhq/dendron-blog)
+- [Publish under github subdomain](https://github.com/kevinslin/dendron-next-test)
 
 ## Process - Setup Github
 
@@ -45,7 +51,7 @@ Select the docs folder and click save.
 
 ### Configure your notes for publication
 
-In order for to build your notes for publication, you'll have to tweak a few settings first. Open the command prompt and type `>Dendron: Configure (yaml)`
+In order for to build your notes for publication, open the command prompt and type `>Dendron: Configure (yaml)`
 
 Make the following modification under `site`:
 
@@ -77,18 +83,26 @@ site:
 ```yml
 site:
     assetsPrefix: dendron-publish-sample
-    siteUrl: https://kevinslin.github.io/dendron-publish-sample
+    siteUrl: https://kevinslin.github.io
 ```
 
 ### Build your notes for publication
-![[dendron.topic.publishing-next.cook.basics#build-notes,1]]
+![[dendron.topic.publishing-next.cook.common#build-notes,1]]
 
 ### Preview your notes
-![[dendron.topic.publishing-next.cook.basics#preview-notes,1]]
+![[dendron.topic.publishing-next.cook.common#preview-notes,1]]
 
 ### Publish your notes
 
-![[dendron.topic.publishing-next.cook.basics#export-notes,1]]
+![[dendron.topic.publishing-next.cook.common#export-notes,1]]
+
+
+Publish your notes to the `/docs` folder
+```
+[[ -d ../docs ]] && rm -r ../docs
+mv out ../docs 
+touch ../docs/.nojekyll
+```
 
 ### Deploy your changes
 ```bash

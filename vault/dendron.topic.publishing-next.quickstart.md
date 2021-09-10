@@ -2,20 +2,21 @@
 id: e5st4LFLtIwwbQmC6JBaF
 title: Quickstart
 desc: ''
-updated: 1631236211155
+updated: 1631296679286
 created: 1631033401707
 ---
 
-## Limitations
-- cannot be exported as a static site (currently only functions in preview)
-
 ## Prerequisites
 1. Install latest version of [[dendron.topic.cli#installation]]
+1. Install yarn (optional)
+![[dendron.dev.setup.common#install-yarn,1:#*]]
 
 ## Process
 
 ### Setup
-![[dendron.topic.publishing-next.cook.basics#setup-notes,1]]
+Run the following commands at the root of your dendron [[workspace|dendron.ref.workspace]]
+
+![[dendron.topic.publishing-next.cook.common#setup-notes,1]]
 
 ### Preview
 1. Build note metadata
@@ -28,15 +29,9 @@ created: 1631033401707
     ```
 ### Export
 
-```sh
-cd .next
-yarn export
-[[ -d ../docs ]] && rm -r ../docs
-mv out ../docs 
-touch ../docs/.nojekyll
-```
+![[dendron.topic.publishing-next.cook.common#export-notes,1:#*]]
 
-## Manual Process
+<!-- ## Manual Process
 
 Under the hood, Dendron Next Publishing is just NextJs with some defaults. Instead of using `dendron publish init`, you can also manually pull down the repository by running the following command in your workspace.
 
@@ -44,4 +39,4 @@ Under the hood, Dendron Next Publishing is just NextJs with some defaults. Inste
 ```
 git clone https://github.com/dendronhq/nextjs-template.git .next
 ```
-
+ -->
