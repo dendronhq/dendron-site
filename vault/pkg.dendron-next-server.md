@@ -2,13 +2,13 @@
 id: 7cdd9a74-8b8f-4564-906b-c963bed34273
 title: Dendron Next Server
 desc: ''
-updated: 1626724639899
+updated: 1631285161160
 created: 1604511741960
 ---
 
 ## Summary
 
-This is the next generation UI for the Dendron Client, implemented as a NextJS Application
+This is the next generation UI for the Dendron application
 
 <!-- ## Working with the Dendron Engine
 
