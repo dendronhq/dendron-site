@@ -2,7 +2,7 @@
 id: 23a1b942-99af-45c8-8116-4f4bb7dccd21
 title: Dendron CLI
 desc: ''
-updated: 1624553601575
+updated: 1631401974354
 created: 1600033791071
 ---
 
