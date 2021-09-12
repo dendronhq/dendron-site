@@ -187,7 +187,7 @@ Normally, this command will spawn a new Dendron Engine that indexes your notes b
 
 In that case, the CLI can connect to the current engine instead of starting a new one using the following command. 
 
-```bash
+```bash ^Vn7zB1oSBz07
 cd {root/of/workspace}
 # .dendron.port has the port of the current running workspace
 npx dendron buildSite --wsRoot . --stage dev --serve --enginePort `cat .dendron.port`
