@@ -78,17 +78,7 @@ Also, consider enabling "Uncaught Exceptions" under "Breakpoints" when running t
 
 ### Test Workspace
 
-If you want to use a workspace to test changes on the workspace at `{ROOT}/test-workspace`
-
-Note that this workspace is currently configured to be used with launching a engine server from the command line. 
-
-Remove the following lines in `dendron.yml` to launch it without the CLI engine server
-
-```yml
-dev:
-    nextServerUrl: 'http://localhost:3000'
-    engineServerPort: 3005
-```
+![[dendron.dev.ref.test-workspace]]
 
 ### Stubs
 We use [sinonjs](https://sinonjs.org/) to stub test methods. 
