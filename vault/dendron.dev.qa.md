@@ -2,7 +2,7 @@
 id: cb22bd36-d45a-4ffd-a31e-96c4b39cb7fb
 title: Testing
 desc: ''
-updated: 1630794229821
+updated: 1631405703946
 created: 1598654055046
 stub: false
 ---
@@ -132,6 +132,18 @@ static mockHomeDir(dir?: string): SinonStub {
   return sinon.stub(os, "homedir").returns(dir);
 }
 ```
+
+## Reference
+
+### setupBasicMulti
+
+- vault1
+  - foo
+  - foo.ch1
+- vault2
+  - bar
+
+
 
 ## Cook
 
