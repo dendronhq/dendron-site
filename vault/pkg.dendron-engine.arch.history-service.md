@@ -2,7 +2,7 @@
 id: Rp1yFBOH6BletGam
 title: History Service
 desc: ''
-updated: 1628096883156
+updated: 1631098286929
 created: 1628096207257
 ---
 
@@ -11,7 +11,7 @@ The history service keeps track of lifecycle events in Dendron. It is defined [h
 
 ## Details
 
-Lifecycle Vents have the following structure
+Lifecycle events have the following structure
 
 ```ts
 export type HistoryEvent = {
@@ -30,7 +30,7 @@ export type HistoryEvent = {
   uri?: URI;
   /**
    * Arbitrary data that can be passed to the event
-   */
+  */
   data?: any;
 };
 ```
