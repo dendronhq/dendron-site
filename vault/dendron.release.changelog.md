@@ -2,10 +2,50 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1631033007187
+updated: 1631296430892
 created: 1601508213606
 date: '2022-01-01'
 ---
+
+## 0.58.4
+
+### Features
+
+#### Custom CSS for Images
+
+![[dendron.topic.images#extended-images,1:#*]]
+
+#### Publish to Github Pages using Next
+
+![[dendron.topic.publishing-next.cook.github#summary,1:#*]]
+
+### Enhancements
+- enhance(publish) support `assetPrefix` option with nextjs publishing
+- enhance(publish) initialize nextjs template with `https` protocol 
+- enhance(publish) autoset sane defaults for nextjs publishing
+- enhance(pods) markdown import to update asset links
+
+### Bug Fixes
+- fix(workspace) stop calendar from auto expanding when the last note is closed 
+- fix(workspace) direct children query not filterting all results
+- fix(workspace) correctly render cross-vault note references in preview v2 
+- fix(workspace) ignore lookupConfirm if dailyVault is set
+- fix(publish) exclude private vault backlinks when publishing
+- fix(markdown) highlight same file wikilinks, wildcard references, links with anchors 
+- fix(publish) backlinks respect assetPrefix
+
+### House Cleaning
+- prune(publish): remove generating jekyll folder on new workspace
+
+## 0.58.2
+
+### Fixes
+- issue with initilaize tutorial workspace from non-dendron workspace
+
+## 0.58.1
+
+### Fixes
+- issue with initilaize template workspace from non-dendron workspace
 
 ## 0.58
 

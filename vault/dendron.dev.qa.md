@@ -2,7 +2,7 @@
 id: cb22bd36-d45a-4ffd-a31e-96c4b39cb7fb
 title: Testing
 desc: ''
-updated: 1630794229821
+updated: 1631405703946
 created: 1598654055046
 stub: false
 ---
@@ -78,17 +78,7 @@ Also, consider enabling "Uncaught Exceptions" under "Breakpoints" when running t
 
 ### Test Workspace
 
-If you want to use a workspace to test changes on the workspace at `{ROOT}/test-workspace`
-
-Note that this workspace is currently configured to be used with launching a engine server from the command line. 
-
-Remove the following lines in `dendron.yml` to launch it without the CLI engine server
-
-```yml
-dev:
-    nextServerUrl: 'http://localhost:3000'
-    engineServerPort: 3005
-```
+![[dendron.dev.ref.test-workspace]]
 
 ### Stubs
 We use [sinonjs](https://sinonjs.org/) to stub test methods. 
@@ -132,6 +122,18 @@ static mockHomeDir(dir?: string): SinonStub {
   return sinon.stub(os, "homedir").returns(dir);
 }
 ```
+
+## Reference
+
+### setupBasicMulti
+
+- vault1
+  - foo
+  - foo.ch1
+- vault2
+  - bar
+
+
 
 ## Cook
 

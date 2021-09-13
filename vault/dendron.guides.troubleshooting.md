@@ -212,14 +212,6 @@ To check if there is something wrong with Dendron vs your particular workspace s
 ### Uninstall Conflicting Extensions
 Markdown Notes, Markdown Preview Enhanced, and Markdown All in One are known to interfere with Dendron
 
-### Use Dendron Markdown Preview
-
-The VSCode default markdown preview has the same icon as Dendron's Markdown Preview.  It is currently not possible to disable the builtin preview (we are looking into fixing this [here](https://github.com/dendronhq/dendron/issues/42)).
-
-Meanwhile, you can open Dendron's markdown preview by clicking the preview button on the left of the menu bar or by using the `> Markdown Preview Enhanced: Open Preview to the Side` command
-
-![Markdown preview](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/trouble-md.png)
-
 ### Reload Dendron
 
 Sometimes Dendron views can get out of sync with notes. To fix, run `Dendron: Reload Index` to manually sync. If that doesn't work, you can also try `Developer: Reload Window` to restart VSCode.
@@ -231,6 +223,8 @@ We currently don't support creating children of `root.md` This note is special. 
 ### Run Dendron inside a Workspace
 
 Dendron requires a VSCode [workspace file](https://code.visualstudio.com/docs/editor/multi-root-workspaces#_opening-workspace-files) to operate. Make sure to open the **dendron.code-workspace** file by following the instructions [here](https://code.visualstudio.com/docs/editor/multi-root-workspaces#_opening-workspace-files)
+
+You can have Dendron create one if you hold down "Cmd+Shift+P" (CTRL+SHIFT+P on windows) and use the [[Launch Tutorial Command|dendron.topic.commands#launch-tutorial]]
 
 ### Clear the cache
 

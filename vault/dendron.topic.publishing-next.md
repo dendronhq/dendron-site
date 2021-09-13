@@ -12,6 +12,5 @@ Dendron Next Generation Publishing
 
 #stage.seed
 
-
 ## Quickstart
 ![[dendron.topic.publishing-next.quickstart]]

@@ -2,15 +2,22 @@
 id: yhpcSlIpwsBX2iHjfyutP
 title: Debug
 desc: ''
-updated: 1630641796543
+updated: 1631385135929
 created: 1630441590786
 ---
 
-## Summary
+## Components
+
+### Plugin Code
 
 You can put a breakpoint directly in any code that's part of `plugin-core` and it'll break at those points
 
 > Kevin's Aside: If you need to debug a related package, I haven't found a good way to put a break point. Instead, I manually insert a `debugger` statement and vscode will break. Don't forget to remove the `debugger` statement 
+
+### Non Plugin Code
+
+To test non-plugin code, run the `debug one test (engine-test-utils)` task while having the test file open. Note that breakpoints won't break a lot of the times so if the test isn't breaking, manually add a `debugger` statement in the code. 
+
 
 ### Git Related Tests
 
@@ -55,6 +62,7 @@ Because of the aforementioned issues, we've created the following two classes to
 
 - NOTE: there are currently multiple versions of this
   - the most current version is `TestPresetEntryV4`
+
 
 ## Profiling
 

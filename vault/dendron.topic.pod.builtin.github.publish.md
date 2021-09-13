@@ -2,13 +2,13 @@
 id: 8JECQzntY2P5ha3U
 title: Publish
 desc: ''
-updated: 1630053681238
+updated: 1631089971448
 created: 1627560101451
 ---
 
 ## Summary
 
-The Github Publish Pod lets you update the status and labels of issues in your github repository that have previously been imported into Dendron.
+The Github Publish Pod lets you update the status and labels of issues in your github repository that have previously been imported into Dendron. It also supports creating a new issue in github from a note authored in dendron. 
 
 ## Example Workflow
 

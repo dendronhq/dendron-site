@@ -2,7 +2,7 @@
 id: 23a1b942-99af-45c8-8116-4f4bb7dccd21
 title: Dendron CLI
 desc: ''
-updated: 1624553601575
+updated: 1631401974354
 created: 1600033791071
 ---
 
@@ -187,7 +187,7 @@ Normally, this command will spawn a new Dendron Engine that indexes your notes b
 
 In that case, the CLI can connect to the current engine instead of starting a new one using the following command. 
 
-```bash
+```bash ^Vn7zB1oSBz07
 cd {root/of/workspace}
 # .dendron.port has the port of the current running workspace
 npx dendron buildSite --wsRoot . --stage dev --serve --enginePort `cat .dendron.port`

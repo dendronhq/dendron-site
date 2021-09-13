@@ -42,18 +42,5 @@ See build instructions [[here|dendron.dev.setup#build]]
 1. Navigate to your workspace root
 1. Run the following command. 
   ```sh
-  dendron exportPod --podId dendron.nextjs --genConfig
-  ```
-1. Update the generated config
-  ```sh
-  vim pods/dendron.nextjs/config.export.yml
-  ```
-  - update the `dest` field to the location of `nextjs-template`
-  ```yml
-  # example path
-  dest: /Users/bob/code/dendron/packages/nextjs-template
-  ```
-1. Run the pod
-  ```sh
-  dendron exportPod --podId dendron.nextjs
+  dendron exportPod --podId dendron.nextjs --config "dest={path/to/nextjs-template]"
   ```

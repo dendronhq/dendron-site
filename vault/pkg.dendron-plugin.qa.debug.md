@@ -2,33 +2,33 @@
 id: 626zjfxg91OFbDse
 title: Debug
 desc: ''
-updated: 1627140434647
+updated: 1631472110381
 created: 1627140313776
 ---
 
 ## Launch
-This goes over how to launch the extension from your local source. 
 
-1. launch the `Run Extnesion: Local` build task (copied below for reference)
-  ```json
-      {
-        "name": "Run Extension",
-        "type": "extensionHost",
-        "request": "launch",
-        "runtimeExecutable": "${execPath}",
-        "args": [
-          "--disable-extensions",
-          "--extensionDevelopmentPath=${workspaceFolder}"
-        ],
-        "outFiles": [
-          "${workspaceFolder}/out/**/*.js"
-        ],
-        "env": {
-          "STAGE": "dev",
-          "VSCODE_DEBUGGING_EXTENSION": "dendron"
-        }
-      },
-  ```
+In VSCode, select the `Run Extnesion: Local` build task (copied below for reference)
+
+```json
+    {
+      "name": "Run Extension",
+      "type": "extensionHost",
+      "request": "launch",
+      "runtimeExecutable": "${execPath}",
+      "args": [
+        "--disable-extensions",
+        "--extensionDevelopmentPath=${workspaceFolder}"
+      ],
+      "outFiles": [
+        "${workspaceFolder}/out/**/*.js"
+      ],
+      "env": {
+        "STAGE": "dev",
+        "VSCODE_DEBUGGING_EXTENSION": "dendron"
+      }
+    },
+```
 
 ## Debug
 <!-- How to step through tests using debugger -->
