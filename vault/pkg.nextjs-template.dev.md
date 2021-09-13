@@ -3,7 +3,7 @@ id: PgwAXFfotfgpFVqHQRlBl
 title: Dev
 desc: |
   Development related
-updated: 1629138822516
+updated: 1631554070420
 created: 1628376960868
 ---
 
@@ -17,7 +17,7 @@ See build instructions [[here|dendron.dev.setup#build]]
   ```
   cd packages/nextjs-template
   ```
-1. To run nextjs using sample data, you can run the following
+1. To run nextjs using sample data, run the following ^gDKNFAxVBU4u
   ```
   curl -LO https://artifacts-prod-artifactb7980f61-19orqnnuurvwy.s3.us-west-2.amazonaws.com/artifacts/dendron-site.zip 
   unzip dendron-site.zip

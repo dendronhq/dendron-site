@@ -2,7 +2,7 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1631296430892
+updated: 1631475009984
 created: 1601508213606
 date: '2022-01-01'
 ---
@@ -36,6 +36,11 @@ date: '2022-01-01'
 
 ### House Cleaning
 - prune(publish): remove generating jekyll folder on new workspace
+
+## 0.58.3
+
+### Fixes
+- issue with 11ty publishing 
 
 ## 0.58.2
 

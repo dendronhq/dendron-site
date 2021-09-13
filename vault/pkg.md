@@ -2,7 +2,7 @@
 id: 32cdd4aa-d9f6-4582-8d0c-07f64a00299b
 title: Packages
 desc: ''
-updated: 1631284875730
+updated: 1631567781819
 created: 1596684856906
 nav_order: 10
 ---
@@ -49,6 +49,14 @@ Dendron web components refer to the collection NextJS + React logic that is used
 
 ### Dendron Next Server
 ![[pkg.dendron-next-server#summary,1:#*]]
+
+### Ant Design
+
+We use Ant as our main design system in Dendron
+
+- [Docs]([Components Overview - Ant Design](https://ant.design/components/overview/))
+
+
 
 <!-- ## Thematic
 Some Logic is split across multiple packages. The following splits out logic by theme instead of physical package

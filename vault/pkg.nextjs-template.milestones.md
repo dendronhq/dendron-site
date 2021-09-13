@@ -2,7 +2,7 @@
 id: wnjZiTP1UEW9e0aGz1HT0
 title: Milestones
 desc: ''
-updated: 1630901375051
+updated: 1631544660488
 created: 1629514021198
 ---
 
@@ -20,14 +20,14 @@ See [here](https://handbook.dendron.so/notes/0292b34e-47eb-4499-8f49-d9891accdb3
 - w Responsive side bar 
 -   Advanced SEO Options 
 
--   Custom Theming Support
+- [ ] Custom Theming Support
 -   [[Full text search|scratch.2021.09.05.210615.full-text-search]]
 -   [[Support live local preview for publishing|dendron.rfc.21-modern-web-client#3-support-live-local-preview-for-publishing]]
 
 ### Enhancements
 - x Make Lookup change value when navigating
 - x Make Breadcrumb clickable 
--   make naked urls the default for nextjs
+- x make naked urls the default for nextjs
 - support mvp config settings
   - x support [[assetsPrefix|dendron.topic.publishing.configuration#assetsprefix]]
   - x support [[copyAssets|dendron.topic.publishing.configuration#copyassets]]
