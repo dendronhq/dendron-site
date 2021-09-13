@@ -2,7 +2,7 @@
 id: 773e0b5a-510f-4c21-acf4-2d1ab3ed741e
 title: Style
 desc: ''
-updated: 1630347307336
+updated: 1631539951158
 created: 1609550314371
 ---
 
@@ -52,6 +52,25 @@ const {fooValue, fooError} = foo()
 
 // bad
 const [fooValue, fooError] = foo()
+```
+
+### prefer [is, does, has, should] prefixes for boolean usages.
+
+This makes it clear that a given variable is a boolean. And communicates finality of expression.
+
+```ts
+// good
+const isFriendly = isFriendly({person});
+
+// bad
+const friendly = friendly({person});
+
+// could be improved. 
+// 
+// does NOT read as finalized value since maybeFriendly=true logically 
+// still reads as 'maybe' while we want to communicate that it is in 
+// fact friendly.
+const maybeFriendly  = maybeFriendly({person});
 ```
 
 ## Typescript
