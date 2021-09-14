@@ -15,7 +15,7 @@ created: 1631401993170
 Prepare notes for publication. Runs [[Nextjs|dendron.topic.pod.builtin.nextjs]] pod in the background. 
 
 #### options
-- `--attach`: attach to running engine instead of a new engine
+- `--attach`: attach to running engine instead of a new engine ^bfvLB8BY4nLb
 
 #### example
 

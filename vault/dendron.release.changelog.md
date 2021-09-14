@@ -1,11 +1,22 @@
 ---
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
-title: Changelog
+
 desc: ''
-updated: 1631475009984
+updated: 1631660183749
 created: 1601508213606
 date: '2022-01-01'
 ---
+
+## 0.59
+
+## 0.58.5
+
+### Enhancements
+- enhance(workspace) Use sentry to track errors  ([[docs|dendron.dev.errors.reporting]])
+- enhance(lookup) "Create New" will be first result if no exact match
+- enhance(lookup) Disallow toggle of vault selector when using "Move Note" command
+- enhance(publish) unpublished notes replaced with link to [[unpublished pages|dendron.ref.unpublished-pages]]
+- enhance(publish) support attach option for CLI ([[docs|dendron.topic.publishing-next.cli#^bfvLB8BY4nLb]])
 
 ## 0.58.4
 
