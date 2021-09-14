@@ -2,7 +2,7 @@
 id: PjXL1NKL7yHV0ExHnROBl
 title: 24 Custom Theming
 desc: ''
-updated: 1630971285924
+updated: 1631645827073
 created: 1630967094916
 ---
 
@@ -60,7 +60,7 @@ Add an environmental variable in [`.env`](https://nextjs.org/docs/basic-features
 
 
 #### Preview
-The default theme can be set by passing a new property to the 
+TBD
 
 ## Example
 

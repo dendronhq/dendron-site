@@ -2,7 +2,7 @@
 id: 1e6c8b49-ef88-4e79-b2df-e9d614c38a53
 title: Triage
 desc: ""
-updated: 1631033192455
+updated: 1631657255703
 created: 1610468038819
 ---
 
@@ -18,6 +18,10 @@ Frontend related tasks
 ### backend
 
 Backend related tasks -->
+
+### lookup
+
+Improvements to lookup
 
 ### workspace
 
