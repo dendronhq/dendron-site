@@ -2,7 +2,7 @@
 id: 4039fc46-06b2-4f83-b817-fc490bafbcb3
 title: 14 - The Seed Bank 
 desc: ''
-updated: 1623105217406
+updated: 1629677234653
 created: 1623017672501
 ---
 ## Goals
@@ -15,7 +15,7 @@ Dendron's [mission](https://handbook.dendron.so/notes/8989a93d-8dde-4a51-bb8d-2a
 
 When working with code, the concepts of modules and packages are standard in every modern programming language - these abstractions make it possible to package frequently used code into re-usable modules. 
 
-The Dendron Seed Bankis an effort to do the same with knowledge.
+The Dendron Seed Bank is an effort to do the same with knowledge.
 
 ## [Lookup](https://handbook.dendron.so/notes/b89ba854-72fb-4ebc-a8a0-55960b89e9dc.html#lookup)
 
@@ -31,7 +31,7 @@ The Seed Bank needs to define the following components:
    - standard metadata for declaring a module and its dependencies
    - standard endpoint to retrieve said metadata
    - standard methods to perform registry operations (add/remove/query)
-2. registry
+2. ~~registry~~
    - an endpoint for hosting the registry metadata
    - an endpoint for performing API calls against the registry
    - an endpoint for hosting the module artifacts
@@ -63,7 +63,7 @@ You are interestd in developing your own vscode plugin but don't know where to s
 1. Look for any existing seeds to do with vscode using the CLI
 
    ```sh
-   dendron reg search vscode
+   dendron seeds search vscode
 
    name: dendron.vscode
    desc: official vscode docs
@@ -71,14 +71,14 @@ You are interestd in developing your own vscode plugin but don't know where to s
 2. Add the docs to your workspace
 
    ```sh
-   dendron reg add dendron.vscode
+   dendron seeds add dendron.vscode
 
    dendron.vscode has been added to your workspace
    ```
 3. Inspect the schema
 
    ```sh
-   dendron reg schema dendron.vscode
+   dendron seeds schema dendron.vscode
 
    # name of the schema 
    project:
@@ -91,6 +91,41 @@ You are interestd in developing your own vscode plugin but don't know where to s
 4. Query the notes
    ```sh
    dendron note lookup --query code.quickstart
+   ```
+5. Resulting configuration
+   - dendron.yml
+   ```yml
+   vaults:
+      # local vaults in your workspace
+      - ...
+      - fsPath: vault
+        seed: dendron.vscode
+   seeds:
+     # newly added seed
+     dendron.vscode:
+   ```
+   - dendorn.code-workspace
+   ```json
+   folders: [
+      {
+         "path": "seeds/dendron.vscode/vault",
+         "name": "dendron.vscode/vault"
+      },
+   ]
+   ```
+   - files
+   ```
+   .
+   └── workspace
+      ├── vault1
+      ├── ...
+      └── seeds
+         └── dendron.vscode
+               ├── dendron.yml
+               └── vault
+                  ├── dendron.md
+                  └── ...
+   
    ```
 
 ## Topics
@@ -121,9 +156,9 @@ You can disable this behavior by setting [[addAttribution|dendron.rfc.14-seed-ba
 
 ### Phase I
 
-- [ ] add registry [[configuration|dendron.rfc.14-seed-bank.configuration]] to `dendron.yml`
-- [ ] add registry [[methods|dendron.rfc.14-seed-bank.methods]] to dendron cli
-- [ ] add seed resolution logic when dendron initializes workspaces with seeds
+- [x] add registry [[configuration|dendron.rfc.14-seed-bank.configuration]] to `dendron.yml` [2021-06-15 15:55]
+- [x] add registry [[methods|dendron.rfc.14-seed-bank.methods]] to dendron cli [2021-06-15 15:55]
+- [x] add seed resolution logic when dendron initializes workspaces with seeds [2021-06-15 15:55]
 
 ### Phase II
 

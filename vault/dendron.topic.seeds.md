@@ -2,11 +2,11 @@
 id: 4fdf54ac-599e-42e7-90a5-38964913a9a7
 title: "Seeds \U0001F6A7"
 desc: ''
-updated: 1616375506218
+updated: 1628215369814
 created: 1600219243498
 published: false
 ---
-> Note: Seeds are highly experimental and under active development. Content here is subject to change.
+> Note: Seeds are under active development. Content here is subject to change.
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/seeds.png)
 
@@ -18,17 +18,33 @@ Note that seeds differ from [[pods|dendron.topic.pod]] in that they help you ing
 
 You can see an example of a published seeded vault [here](https://aws.dendron.so/).
 
-# Using a seed
+# Using Seeds
 
-- NOTE: currently, seeds are only available using the [[dendron-cli|dendron.topic.cli]]
+## Browsing the Seed Registry
 
-## Pre-requisites
+You can browse the seeds in the registry by running the `Seed Browse` command:
+
+![[dendron://dendron.dendron-site/dendron.topic.commands#seed-browse:#seed-add]]
+
+## Adding Seeds to your Workspace
+
+You can add a seed to your workspace from either within the extension or with the CLI.
+
+### Adding through the VS Code Extension
+
+You can add seeds within the UI of the `Seed Browse` command but also directly by running the commands below.
+
+![[dendron://dendron.dendron-site/dendron.topic.commands#seed-add:#Misc]]
+
+### Adding through the CLI
+
+#### Pre-requisites
 
 Make sure you have the dendron-cli installed.
 
 ![[dendron.topic.cli#installation,1:#*]]
 
-## Instructions
+#### Instructions
 
 1. Inside the workspace where you to plant your seeds, initialize a node project.
    ```bash

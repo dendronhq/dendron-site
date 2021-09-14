@@ -14,3 +14,11 @@ Templates in Dendron are a simple way to lower the effort of creating similar no
 <div style="position: relative; padding-bottom: 59.900166389351085%; height: 0;"><iframe src="https://www.loom.com/embed/7de6f7aa9f474a0c8555e7d66928c3ac" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 2. A more automatic way is by referencing templates in your schema and then having the template automatically applied when a new note of a particular type is created. This is described in more detail in the [[note on schemas|dendron.topic.schema#template]].
+
+### Built-In Templates 🚧
+
+You can also pick from a set of built-in templates that contain a set of commonly used note styles to help you get started. These templates can be pulled down with the seeds mechanism. The seed containing templates is called `dendron.templates`, substitute `dendron.dendron-site` for `dendron.templates` in the example below
+
+![[dendron://dendron.dendron-site/dendron.topic.seed-bank.quickstart#adding-a-seed-to-an-existing-workspace]]
+
+We are continually working to expand the types of templates available in the `dendron.template` seed.

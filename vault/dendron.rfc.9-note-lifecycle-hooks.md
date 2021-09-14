@@ -2,7 +2,7 @@
 id: d2f8fe67-36c7-4600-b745-c22bdcb5b2cf
 title: 9 Note Lifecycle Hooks
 desc: ''
-updated: 1620426190118
+updated: 1630731523440
 created: 1619706504483
 ---
 
@@ -34,7 +34,7 @@ We currently have limited ways of programmatically updating a note while editing
 1. Plugins should have the following format
     ```js
     /**
-     @params note: Object with following propertieshttps://github.com/dendronhq/dendron/blob/dev-kevin/packages/common-all/src/typesv2.ts#L135:L153
+     @params note: Object with following properties https://github.com/dendronhq/dendron/blob/master/packages/common-all/src/types/typesv2.ts
      @params execa: instance of https://github.com/sindresorhus/execa#execacommandcommand-options
      */
     module.exports = async function({note, execa}) {
@@ -51,7 +51,7 @@ Dendron currently supports a node minimum runtime of v12 which means javascript 
 
 We also have an escape hatch for non-javascript executables using [execa](#execacommandcommand-options) to execute an existing binary. Note that you'll have to pass in the note object yourself to the given binary. 
 
-You can see the example of a note object [[here|pro.dendron-engine.ref.note-response]]
+You can see the example of a note object [[here|pkg.dendron-engine.ref.note-response]]
 
 ## Example
 

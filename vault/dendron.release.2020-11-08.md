@@ -2,7 +2,7 @@
 id: 63ea2e72-4eba-406c-9f4c-7300fa0b8935
 title: Release Notes(version 0.15)
 desc: ''
-updated: 1616950012440
+updated: 1630732490664
 created: 1604882865662
 ---
 Dendron 0.15 is here 🌱
@@ -41,4 +41,4 @@ I'm thrilled to announce our latest **Dendrologist**! Meet Luke (@lukecarrier#20
 - [seedublancaster](https://github.com/seedublancaster)
   - [fix typos](https://github.com/dendronhq/dendron/pull/323)
 - [tfer](https://github.com/tfer)
-  - [update docs on stub](https://github.com/dendronhq/dendron-template/pull/33/files)
+  - update docs on stub

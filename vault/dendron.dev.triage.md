@@ -2,11 +2,47 @@
 id: 1e6c8b49-ef88-4e79-b2df-e9d614c38a53
 title: Triage
 desc: ""
-updated: 1619104151765
+updated: 1631033192455
 created: 1610468038819
 ---
 
 This describes how Dendron [issues](https://github.com/dendronhq/dendron/labels?page=1&sort=name-asc) are laid out in github.
+
+## scope
+Scope refers to specific feature verticals
+
+<!-- ### frontend
+
+Frontend related tasks
+
+### backend
+
+Backend related tasks -->
+
+### workspace
+
+Improvements to existing commands 
+
+### markdown
+
+Related to Dendron markdown 
+
+### pods
+
+Pod related work
+
+### views
+
+Specfic work in frontend components like [[Web UI|dendron.ref.web-ui]]
+
+### preview
+
+Work with preview
+
+### publishing
+
+publish related
+
 
 ## area
 
@@ -32,11 +68,19 @@ Feature area that helps keep your knowledge base manageable. Includes features t
 
 Static site generation, sending note links and anything that has to do with publishing your notes to a broader community.
 
+## flavor
+
+### happy
+Will this make it easier to use Dendron in the common case
+
+### crop
+This makes a good CROP issue
+
 ## size
 
 ### small
 
-good first task
+![[tags.size.small]]
 
 ### medium
 
@@ -47,6 +91,10 @@ good task after you have done a few `small` tasks
 big undertaking, might take a few days and touches multiple components
 
 ## status
+
+### duplicate
+
+duplicate issue
 
 ### help-wanted
 

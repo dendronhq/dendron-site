@@ -42,7 +42,7 @@ Last and most of all, a big **thanks** to the following gardeners that brought u
 - [Chris Pickett](https://github.com/bunchesofdonald) 
   - [fix typos in initial vault notes](https://github.com/dendronhq/dendron/pull/335)
 - [Jan Reitz](https://github.com/janreitz) 
-  - [fix yml block in docs](https://github.com/dendronhq/dendron-template/pull/36)
+  - [fix yml block in docs](https://github.com/dendronhq/dendron-site/pull/36)
 - [Konrad Jamrozik](https://github.com/konrad-jamrozik)
   - [bad schema in initial vault notes](https://github.com/dendronhq/dendron/issues/342)
 - [Danny Tran](https://github.com/nabdtran)

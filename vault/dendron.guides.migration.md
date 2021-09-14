@@ -17,7 +17,7 @@ This note covers migrating your notes from other tools
 
 1. Converting OneNote notebooks to markdown is not trivial but there are some options:
    - convert manually using [this guide](https://itectec.com/superuser/how-to-export-all-onenote-pages-to-individual-markdown-files/),
-   - export locally using [OneNote Md Exporter](https://github.com/alxnbl/onenote-md-exporter) console app, or
+   - export locally using [OneNote Md Exporter](https://github.com/alxnbl/onenote-md-exporter) console app (OneNote for Windows 10 is not supported), or
    - export from Microsoft 365 using [OneNote Export](https://github.com/sspeiser/onenote-export) app.
 2. Use the [[markdown pod|dendron.topic.pod.builtin.markdown]] to import your notes into Dendron
 

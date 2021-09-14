@@ -2,7 +2,7 @@
 id: 50071eda-fc46-4aca-ba6c-9d53db00d068
 title: Release Notes(version 0.11)
 desc: ''
-updated: 1616949890224
+updated: 1630731585206
 created: 1596374871110
 date: '2020-09-13'
 ---
@@ -16,7 +16,7 @@ This week's release comes with improved references as well as better tooling aro
 
 **Dendron's pretty refs** help you identify when content is embedded from elsewhere and provide links back to the source. 
 
-![[dendron.topic.refs#summary,1:#*]] 
+![[dendron.topic.references#summary,1:#*]] 
 
 The **Dendron CLI** lets you access a subset of Dendron's functionality inside the terminal, including the ability to import/export your notes. 
 
@@ -87,7 +87,7 @@ Create new note from a selection
 
 ### Support wildcard refs
 
-![[dendron.topic.refs#wildcard-header-reference,1:#*]]
+![[dendron.topic.references#wildcard-header-reference,1:#*]]
 
 ### Enhancements
 
@@ -102,7 +102,7 @@ Create new note from a selection
 
 ### Dendron Snippet Maker
 
-![[pro.dendron-snippet-maker]]
+![[pkg.dendron-snippet-maker]]
 
 ### Enhancements
 
@@ -137,7 +137,7 @@ Last and most of all, a big **thanks** to the following gardeners that brought u
   - suggest [better block refs](https://github.com/dendronhq/dendron/issues/174)
   - suggest block refs autocomplete 
 
-- [Mr. Lightbulb](https://github.com/JackQAQ-byte)
+- `Mr. Lightbulb`
   - [latex doesn't render when publishing](https://github.com/dendronhq/dendron/issues/195)
 
 - [Tom](https://github.com/peanutputter)

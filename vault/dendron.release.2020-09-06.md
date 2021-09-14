@@ -2,13 +2,13 @@
 id: 08b2e6ea-bd3e-4f4b-b2b9-676a7b743a65
 title: Release Notes(version 0.10)
 desc: ''
-updated: 1609990740754
+updated: 1630794040065
 created: 1596374871110
-date: 2020-09-06
+date: '2020-09-06'
 ---
 Dendron turns 0.10 today 🌲. To mark this milestone, the pre-amble for this release will be a tad longer (and more sentimental) than usual. 
 
-This week's release focuses on publication and exports. Dendron sites now come with [one click collaboration support](https://www.dendron.so/notes/73d395c9-5041-4d0d-9db7-080d9586136e.html#edit-on-github), [note references](https://www.dendron.so/notes/73d395c9-5041-4d0d-9db7-080d9586136e.html#note-references), and [hierarchy hints](https://www.dendron.so/notes/73d395c9-5041-4d0d-9db7-080d9586136e.html#nav-based-hierarchy-hints). If publishing online isn't your jam, you'll be happy to know that you can now [export your notes](https://www.dendron.so/notes/66727a39-d0a7-449b-a10d-f6c438185d7f.html#json-pod) to any format you desire (as long as that format is JSON 😅 - more formats coming soon).
+This week's release focuses on publication and exports. Dendron sites now come with [[one click collaboration support|dendron.topic.publishing.features#edit-on-github]], [[note references|dendron.topic.publishing.features#note-references]], and [[hierarchy hints|dendron.topic.publishing.features#nav-based-hierarchy-hints]]. If publishing online isn't your jam, you'll be happy to know that you can now [export your notes](https://www.dendron.so/notes/66727a39-d0a7-449b-a10d-f6c438185d7f.html#json-pod) to any format you desire (as long as that format is JSON 😅 - more formats coming soon).
 
 It's now been almost two months since Dendron first went into preview. Since launch, we've passed over a thousand downloads and closed over [100 issues](https://github.com/dendronhq/dendron/issues?q=is%3Aissue+is%3Aclosed) worth of features, enhancements, and bug fixes. 
 
@@ -37,7 +37,7 @@ These release notes are summary of the more notable changes, for the full list, 
 
 ## Markdown
 
-### Support offset with note refs ([[docs|dendron.topic.refs]])
+### Support offset with note refs ([[docs|dendron.topic.references]])
 
 A note reference offset is a way to skip a number of lines when using a note reference. The syntax is `,{number}`. Below is an example of using a note reference offset to offset an initial heading, skipping the actual header when doing the embedding.
 
@@ -58,7 +58,7 @@ A note reference offset is a way to skip a number of lines when using a note ref
 
 ### Support note references when Publishing Notes ([[docs|dendron.topic.publishing]])
 
-Dendron has [[note references|dendron.topic.refs]] that let you inline either the whole note or parts of a note into another note. Publishing via Dendron will also publish note references as part of the process.
+Dendron has [[note references|dendron.topic.references]] that let you inline either the whole note or parts of a note into another note. Publishing via Dendron will also publish note references as part of the process.
 
 <a href="https://www.loom.com/share/8eb01f6c3196415c8aadc4992805a176"> <img style="" src="https://cdn.loom.com/sessions/thumbnails/8eb01f6c3196415c8aadc4992805a176-with-play.gif"> </a>
 

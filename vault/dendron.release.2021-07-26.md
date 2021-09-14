@@ -1,0 +1,80 @@
+---
+id: oLUblPDevwOoYr06
+title: Release Notes (version 0.52)
+desc: ''
+updated: 1627320695063
+created: 1627282161908
+---
+
+Dendron 0.52 has sprouted  🌱
+
+### Highlights
+- Non-blocking workspace initialization ([[docs|dendron.release.changelog#non-blocking-workspace-initialization]])
+- Dendron Markdown Preview Enhanced no longer required ([[docs|dendron.release.changelog#deprecate-markdown-preview-enhanced]])
+- Find missing links in entire workspace  ([[docs|dendron.topic.commands#createmissinglinkednotes]])
+- Hide the filter view in the note graph 
+- Warn against missing frontmatter ([[docs|dendron.topic.commands#fixfrontmatter]])
+- Hashtag autocomplete improvements ([[docs|dendron.topic.tags#autocomplete-intellisense]])
+- Doctor command to automatically fix the frontmatter ([[docs|dendron.topic.commands#fixfrontmatter]])
+- Google Doc Import Pod ([[docs|dendron.topic.pod.builtin.google-docs.import]])
+- Ability to control graph zoom sensitivity 
+- Bug Fixes
+  - Reduce size of dendron-cli
+  - Hashtag links duplicate following text
+  - Issues with parsing wikilinks with unicode and special symbols
+  - Autocomplete takes a long time
+- A lot of internal improvements
+
+### Docs
+Our documentation changes a lot week by week. Below is a highlight of some updates from the past week.
+
+- A new RFC for [[Rich Web Client|dendron.rfc.17-rich-web-client]].
+- A new page for [[Greenhouse Talks|dendron.community.greenhouse]].
+- A new job posting for [[Head of Growth|dendron.jobs.head-of-growth]] position.
+- A new job posting for [[Head of Content|dendron.jobs.head-of-content]] position.
+
+### Community
+
+#### Office Hours
+You can find notes from our latest office hours [[here|dendron.community.office-hours.2021.07.25]]
+
+#### Greenhouse Series
+
+![[dendron.community.greenhouse#summary,1:#*]]
+
+Video from our last talk, [[dendron.community.greenhouse.2021-07-23-using-dendron-with-20k-notes#summary]], is now available [here](https://www.youtube.com/watch?v=1mXGyG9ikD4)
+
+Details of the upcoming talk this Friday with our very own @hikchoi#8934 posted below
+
+![[dendron.community.greenhouse.2021-07-30-cerebrarium-showcase]]
+
+
+#### Thank You's
+
+A big **thanks** to the following gardeners that brought up issues, contributions, and fixes to this release :man_farmer: :woman_farmer: 
+You can see an overview of all roles [[here|dendron.community.roles]]
+
+- [kimds91](https://github.com/kimds91)
+  - `+bugcatcher`
+  - [Fresh install has issue initializing](https://github.com/dendronhq/dendron/issues/1000)
+- [SR--](https://github.com/SR--)
+  - [Footnotes in host and referenced notes clash counterintuitively](https://github.com/dendronhq/dendron/issues/1001)
+  - [Minor typos](https://github.com/dendronhq/dendron-site/pull/149)
+- [aleksey-rowan](https://github.com/aleksey-rowan) @aleksey#5276
+  - [Ctrl + Click to create a missing note](https://github.com/dendronhq/dendron/issues/1014)
+  - [fix Dendron talk date on dendron.community.greenhouse.md](https://github.com/dendronhq/dendron-site/pull/147)
+- [buxel](https://github.com/buxel) @Buxel#7181
+  - [Improved import/export workflow to work with external wikis](https://github.com/dendronhq/dendron/issues/1020)
+- [BiosElement](https://github.com/BiosElement) @Bios Element#4381
+  - [Sort Collections by Last Updated](https://github.com/dendronhq/dendron/issues/1028)
+- [unamusedmon](https://github.com/unamusedmon) @Unamused Moniker#5298
+  - `+bugcatcher`
+  - [Full note reference breaks previewv2](https://github.com/dendronhq/dendron/issues/1035)
+- [teauxfu](https://github.com/teauxfu) @teauxfu#5228
+  - [fix typo](https://github.com/dendronhq/dendron-site/pull/146)
+- [MaDDmin](https://github.com/MaDDmin)
+  - `+taxonomist`
+  - [Update dendron.topic.links.md](https://github.com/dendronhq/dendron-site/pull/148)
+
+### Changelog
+![[dendron.release.changelog#052,1:#051]]

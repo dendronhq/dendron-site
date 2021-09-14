@@ -2,7 +2,7 @@
 id: b58801fc-43a9-4d42-a58b-eabc3e8538cb
 title: Documentation
 desc: ''
-updated: 1612846119097
+updated: 1629206482226
 created: 1604235766390
 ---
 
@@ -27,4 +27,4 @@ Gifs
 
 ### Making Changes via Pull Request
 
-For more involved changes, you can clone our github [repo](https://github.com/dendronhq/dendron-template) and opening `dendron.code-workspace` using VSCode.  [Dendron.so](https://www.dendron.so) is built from the contents of `vault/dendron.*`. Make a change in the corresponding file and send us a pull request to update the documentation. You can preview your changes using the `Dendron Markdown Enhanced` extension.
+For more involved changes, you can clone our github [repo](https://github.com/dendronhq/dendron-site) and opening `dendron.code-workspace` using VSCode.  [Dendron.so](https://www.dendron.so) is built from the contents of `vault/dendron.*`. Make a change in the corresponding file and send us a pull request to update the documentation. You can preview your changes using the `Dendron Markdown Enhanced` extension.

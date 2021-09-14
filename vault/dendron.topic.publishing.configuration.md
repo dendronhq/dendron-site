@@ -2,7 +2,7 @@
 id: f2ed8639-a604-4a9d-b76c-41e205fb8713
 title: Configuration
 desc: ''
-updated: 1623003391757
+updated: 1629514693398
 created: 1608528797892
 nav_order: 3
 ---
@@ -33,21 +33,20 @@ site:
   siteRootDir: docs
 ```
 
-### assetsPrefix (optional)
-
+### assetsPrefix 
 - default: none
 
 Prefix for assets. 
 
-- NOTE: By default, assets are served from the root. If you are publishing to github pages and followed the instructions [here](https://pages.github.com/) by creating a repo named `{username}.github.io`, then no further action is needed. This is because github will make your site available at `https://{username}.github.io`. If you created a custom repo, you will need to set the prefix to the name of your repo because github will make your site available at `https://username.github.io/{your-repo-name/}`
+- NOTE: By default, assets are served from the root. If you are publishing to github pages and followed the instructions [here](https://pages.github.com/) by creating a repo named `{username}.github.io`, then no further action is needed. This is because github will make your site available at `https://{username}.github.io`. If you created a custom repo, you will need to set the prefix to the name of your repo because github will make your site available at `https://{username}.github.io/{your-repo-name/}`
 
-### copyAssets (optional)
+### copyAssets
 
 - default: true
 
 Copy assets from vault to site.
 
-### customHeaderPath (optional)
+### customHeaderPath 
 
 If set, set path to a custom header file (relative to your workspace root) which will be included in all your published pages
 
@@ -63,11 +62,11 @@ site:
 <script> console.log("hello world"); </script>
 ```
 
-### duplicateNoteBehavior (optional)
+### duplicateNoteBehavior 
 
 When publishing in multi-vault scenario, how to handle duplicate notes
 
-Currently, only the `useVault` option is allowed. It takes a list of [[vault names|dendron.topic.config.dendron#name]]. When a duplicate is found, Dendron will go throw the vaults in your list from left to right and resolve to the first one that matches.
+Currently, only the `useVault` option is allowed. It takes a list of [[vault names|dendron.topic.config.dendron#name]]. When a duplicate is found, Dendron will go through the vaults in your list from left to right and resolve to the first one that matches.
 
 - NOTE: this is done automatically when you run the [[Vault Add|dendron.topic.commands#vault-add]] command 
 
@@ -77,24 +76,24 @@ duplicateNoteBehavior:
   payload: [{vault1}, {vault2}, {vault3}]
 ```
 
-### ga_tracking (optional)
-
+### ga_tracking 
 Your ga tracking number if you want to add google analytics. 
 
 - NOTE: won't be included in `dev` preview
 
-### githubCname (optional)
-
+### githubCname
 - default: none
 
 Cname used for github pages
 
-### logo (optional)
+### logo 
 
 - default: none
 - eg: `vault/assets/images/logo.png`
 
-Used to add a logo image for all headers
+Used to add a logo image to site. Logo will appear in:
+- site header
+- as the default image if no `image` property is set for a note
 
 ### previewPort
 
@@ -102,19 +101,21 @@ Used to add a logo image for all headers
 
 Set a different port when using the [[buildSite|dendron.topic.cli#buildsite]] command.
 
-### siteFaviconPath (optional)
+### siteFaviconPath 
 
 - default: "favicon.ico"
 
 Path to favicon. Relative to workspace.
 
-### siteHierarchies (required)
+- NOTE: this is deprecated in nextjs publishing (favicon can be placed directly in the `/public` dir)
+
+### siteHierarchies 
 
 - default: [root]
 
 List of hierarchies to publish. `root` is a special value that means `publish all`.
 
-### siteLastModified (optional)
+### siteLastModified 
 
 - default: false
 
@@ -122,30 +123,24 @@ If set to true, show a last modified at the bottom of your site. This value is s
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/publishv2.last-modified.jpg)
 
-### siteIndex (optional)
+### siteIndex 
 
 - default: first element of `siteHiearchies`
 
 Path of your index (home page)
 
-### siteProtocol (optional)
-
-- default: https
-
-Website protocol
-
-### siteRootDir (required)
+### siteRootDir 
 
 - default: "docs"
 
 Location of the directory where site will be build. Relative to your workspace
 
-### siteRepoDir (optional)
+<!-- ### siteRepoDir 
 
 - default: none
 - status: NOT currently supported 
 
-Location of the github repo where your site notes are located. By default, this is assumed to be your `workspaceRoot` if not set. This is used with the `Publish Notes` command
+Location of the github repo where your site notes are located. By default, this is assumed to be your `workspaceRoot` if not set. This is used with the `Publish Notes` command -->
 
 ### siteUrl 
 - required
@@ -159,11 +154,19 @@ If you are publishing with github pages, the format is `https://{username}.githu
 
 Whether to use pretty note refs or plain refs. 
 
-### hideBlockAnchors (optional)
+### noRandomlyColoredTags
+- status: optional
 - default: false
 
-When set to `false`, [[dendron.topic.links.block-references#block-anchor]] will be displayed as small clickable links.
-Setting this option to `true` hides the block anchors so they are not visible, but they will continue to function when linked to.
+Do not display the automatically generated colors for tags. Only tag colors set
+by the user are used, other tags won't have colors and will look like regular
+links.
+
+### showFrontMatterTags
+- status: optional
+- default: true
+
+Whether [[frontmatter tags|dendron.topic.tags#frontmatter-tags]] should be rendered in published websites.
 
 ### writeStubs 
 - status: optional
@@ -188,11 +191,11 @@ Writing stubs is important to guarantee permanent urls as Dendron will randomize
 
 the URL of the project's GitHub repository
 
-- NOTE: if you are using [[remote vaults|dendron.ref.vaults#remote]], this value will be ignored and the [[remote url|dendron.topic.config.dendron#remote]] will be used instead
+- NOTE: if you are using [[remote vaults|dendron.topic.vaults#remote]], this value will be ignored and the [[remote url|dendron.topic.config.dendron#remote]] will be used instead
 
 #### gh_edit_branch
 
-- default: master
+- default: main
 
 the branch that the docs site is served from
 
@@ -373,6 +376,15 @@ vaults:
 
 You can specify how notes are published via the frontmatter of each note. 
 
+### canonicalUrl
+- default: undefined
+
+If set, adds CANONICAL_URL when publishing
+
+```html
+<link rel="canonical" href="CANONICAL_URL" />
+```
+
 ### published
 
 - default: true
@@ -393,6 +405,7 @@ If set, do not include the current note in the navigation bar.
 - type: number
 
 If set, denote order that item appears in the published nav bar
+> NOTE: `root` has `nav_order: 1` so the `nav_order` of your denoted items must be superior to 1
 
 ### noindex
 
@@ -424,7 +437,8 @@ There are a few special variables you can set:
 
 - default: false
 
-Whether a given page is a collection. A collection doesn't have a table of contents and allows you to set collection specific options.
+Whether a given page is a collection. A collection doesn't have a table of contents and allows you to set collection specific options. 
+> NOTE: Setting this property `has_collection` in the frontmatter of parent note is sufficient.
 
 #### date
 
@@ -461,6 +475,16 @@ When you publish, you might only want to show the leaf nodes and skip the interm
 - values: `ascending|reverse`
 
 Sort items in a collection page. Ascending by default. Specify `reverse` to sort in descending order.
+
+### seo options
+
+#### image
+
+Sets image url for the page. Shows up in twitter card preview
+
+#### excerpt
+
+Sets a custom `og:description` tag for the particular page
 
 ## Line Configuration
 

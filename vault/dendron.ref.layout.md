@@ -32,7 +32,7 @@ stub: false
 - dendron.yml 
   - dendron specific settings
 - .dendron.port
-  - writes the port that the [[dendron engine|pro.dendron-engine]] is listening to
+  - writes the port that the [[dendron engine|pkg.dendron-engine]] is listening to
 - .dendron.meta
   - writes dendron specific metadata
 - .gitignore
@@ -57,5 +57,5 @@ This is the folder where `dendron.code-workspace` is located
 
 - pods: [[pod|dendron.topic.pod]] related files
 - seeds: [[seeds|dendron.topic.seeds]] related files
-- repos: used by dendron to store [[remote vaults|dendron.ref.vaults#remote]]
+- repos: used by dendron to store [[remote vaults|dendron.topic.vaults#remote]]
 

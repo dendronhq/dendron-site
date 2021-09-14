@@ -2,20 +2,16 @@
 id: 81da87be-2d4e-47b5-a1d6-c0d647e1ab00
 title: Development
 desc: ''
-updated: 1619283126009
+updated: 1626986736065
 created: 1604236041570
 ---
 ## Summary
 
 If you would like to contribute to the development of dendron, checkout out the [repo](https://github.com/dendronhq/dendron) from github.
 
-You can then follow the [[setup instructions|dendron.dev.setup#getting-started]].
+You can then follow the [[setup instructions|dendron.dev.setup#build]].
 
-- NOTE: the above setup instructions are for the dendron plugin. See the below links if you are working on a different part of Dendron: 
-  - [[Markdown Preview|pro.dendron-preview.setup]]
-  - [[Markdown Links|pro.markdown-links.setup]]
-
-A great place to start is with issues labelled with the [size.small label](https://github.com/dendronhq/dendron/labels/size.small) on github. These are small, self contained tasks that are well suited for first time contributors.
+A great place to start is with issues labelled with the [size.small](https://github.com/dendronhq/dendron/labels/size.small) label on github. These are small, self contained tasks that are well suited for first time contributors.
 
 Leave a comment in the issue if you decide to work on it. Issues that are being worked on will be assigned to a person already. 
 
@@ -35,14 +31,4 @@ Afterwards, you can see how specific features are implemented through the [vscod
 - [ ] make sure all the existing [[tests|dendron.dev.qa#running-all-tests]] pass
 - [ ] if its your first pull request to Dendron, watch out for the [CLA](https://en.wikipedia.org/wiki/Contributor_License_Agreement) bot that will ask you to agree to Dendron's CLA
 - [ ] if its your first pull request and you're on our Discord, make sure that Kevin gives you the [[horticulturalist|dendron.community.roles#horticulturalist]] role  👨‍🌾👩‍🌾
-
-## Commit Style
-
-- we follow [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/) with the following tags
-- categories:
-  - feat: feature - introduce new functionality
-  - enhance: enhancement - improve existing functionality
-  - fix: make something not broken
-  - chore: backend improvements
-  - spike: not complete commit
 

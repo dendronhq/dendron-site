@@ -2,12 +2,12 @@
 id: 5f23182f-2936-4790-8d04-00bd502df723
 title: Navigation
 desc: ''
-updated: 1609883540998
+updated: 1627941717046
 created: 1609563320271
 ---
 Dendron has two navigation sections: the nav bar on the left and the table of contents on the bottom of each note. 
 
-![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/publishv2.nav.jpg)
+![publishing](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/publishv2.nav.jpg)
 
 ## Sort Order
 
@@ -28,3 +28,13 @@ The nav order for the table of contents that is generated at the bottom of each 
 
 To exclude an item from navigation, you can set the [[nav_exclude|dendron.topic.publishing.configuration#nav_exclude]] on the note frontmatter. This will exclude it from both the navigation side bar and the table of contents.
 
+## Children
+
+The children section shows all the direct children of the current page
+
+![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/children-comp.png)
+
+
+## Backlinks
+
+A list of [[backlinks|dendron.topic.links#backlinks]] to the current note. 

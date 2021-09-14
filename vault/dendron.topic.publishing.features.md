@@ -2,7 +2,7 @@
 id: 2fe96d3a-dcf9-409b-8a09-fdaa5a664433
 title: Features
 desc: ''
-updated: 1617643671872
+updated: 1623882260851
 created: 1608528227846
 nav_order: 1
 ---
@@ -45,21 +45,13 @@ If you have a free github account, then you can host your Dendron notes for free
 
 <img style="max-width: 720px;" src="https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/site-domain.jpg" />
 
-### Jekyll Liquid Tags and Variables
-
-You can find the docs on this under [[liquid|dendron.topic.liquid]]
-
-- NOTE: this will only be "compiled" in the published site but won't be rendered in the regular markdown 
-
-<img style="max-width: 720px;" src="https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/site-liquid.gif" />
-
 ### Selective Publication
 
 You can choose to publish your whole vault, a single domain, or multiple domains within your vault. If a note links to a note that is not publishable, Dendron will create a custom 404 page.
 
 ### Note References
 
-Dendron has [[note references|dendron.topic.refs]] that let you inline either the whole note or parts of a note into another note. Publishing via Dendron will also publish note references as part of the process.
+Dendron has [[note references|dendron.topic.references]] that let you inline either the whole note or parts of a note into another note. Publishing via Dendron will also publish note references as part of the process.
 
 <a href="https://www.loom.com/share/8eb01f6c3196415c8aadc4992805a176"> <img style="" src="https://cdn.loom.com/sessions/thumbnails/8eb01f6c3196415c8aadc4992805a176-with-play.gif"> </a>
 

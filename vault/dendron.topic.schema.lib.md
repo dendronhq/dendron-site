@@ -2,12 +2,12 @@
 id: a313152d-1664-405b-86eb-6d2ecb98426e
 title: Schema Library
 desc: ''
-updated: 1621288465783
+updated: 1623706776662
 created: 1621288257610
 ---
 
 ## Summary
-- status: [[Work In Progress 🚧|dendron.ref.status#work-in-progress-]]
+- [[Experimental 🧪|dendron.ref.status#experimental-🧪]]
 
 The schema library is a collection of existing schemas contributed by the community. You can find the full library as well as instructions on getting started [here](https://github.com/dendronhq/schema-library).
 

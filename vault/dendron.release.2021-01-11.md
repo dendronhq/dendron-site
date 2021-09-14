@@ -9,7 +9,7 @@ created: 1610403349466
 Dendron 0.24 has sprouted :seedling:
 
 ### Highlights
-- updated note ref syntax ([[docs|dendron.topic.refs]])
+- updated note ref syntax ([[docs|dendron.topic.references]])
   - use `![[foo]]` to create a note ref
 - frontmatter variable substitution ([[docs|dendron.topic.markdown#frontmatter-variable-substitution]])
   - use variables defined in your frontmatter inside your notes!
@@ -17,7 +17,7 @@ Dendron 0.24 has sprouted :seedling:
 - bugs and performance related changes
 
 ### Breaking Changes
-- update date format for journal and scratch notes to use [Luxon style formatting](https://moment.github.io/luxon/docs/manual/formatting.html) ([[docs|dendron.topic.config.vscode-config#dendrondefaultjournaldateformat]])
+- update date format for journal and scratch notes to use [Luxon style formatting](https://moment.github.io/luxon/#/formatting) ([[docs|dendron.topic.config.vscode-config#dendrondefaultjournaldateformat]])
   - this affects you if you updated `dendron.default*DateFormat` to something other than the default 
   - we made this change because [moment.js](https://momentjs.com/docs/#/-project-status/), our original date library, is now a legacy project and won't be receiving any new updates
 

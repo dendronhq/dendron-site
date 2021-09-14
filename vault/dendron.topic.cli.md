@@ -2,7 +2,7 @@
 id: 23a1b942-99af-45c8-8116-4f4bb7dccd21
 title: Dendron CLI
 desc: ''
-updated: 1620181056680
+updated: 1631401974354
 created: 1600033791071
 ---
 
@@ -25,11 +25,11 @@ npm install -g @dendronhq/dendron-cli@latest
 
 ### wsRoot
 
-This only needs to be set if you are not executing the CLI from within the root of your [[workspace|dendron.concepts#workspace]]
+This only needs to be set if you are not executing the CLI from within the root of your [[workspace|dendron.concepts#workspace]] or in a subdirectory of an existing workspace
 
 ### vault
 
-Path to a [[vaults|dendron.concepts#vaults]]. If not given and not a [[multi vault|dendron.topic.multi-vault]] workspace, Dendron will use the only existing vault. Otherwise, will ask for you to specify a vault
+Path to a [[vaults|dendron.concepts#vaults]]. If not given and not a [[multi vault|dendron.topic.vaults.multi-vault]] workspace, Dendron will use the only existing vault. Otherwise, will ask for you to specify a vault
 
 ## Engine Commands
 
@@ -187,10 +187,10 @@ Normally, this command will spawn a new Dendron Engine that indexes your notes b
 
 In that case, the CLI can connect to the current engine instead of starting a new one using the following command. 
 
-```bash
+```bash ^Vn7zB1oSBz07
 cd {root/of/workspace}
 # .dendron.port has the port of the current running workspace
-npx dendron buildSiteV2 --wsRoot . --stage dev --serve --enginePort `cat .dendron.port`
+npx dendron buildSite --wsRoot . --stage dev --serve --enginePort `cat .dendron.port`
 ```
 
 ### Using a custom port
@@ -301,4 +301,4 @@ Run `git add . && git commit` on all vaults inside the workspace
 
 #### sync
 
-Run `addAndCommit`, `pull`, and `push` on all vaults inside the workspace.
+Run `addAndCommit`, `pull`, and `push` on all vaults inside the workspace. This follows the same configuration as the `Workspace: Sync` command in the extension, see [[Workspace Sync|dendron.ref.workspace#Workspace: Sync]] for details.

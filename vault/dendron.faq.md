@@ -1,8 +1,8 @@
 ---
 id: 683740e3-70ce-4a47-a1f4-1f140e80b558
 title: FAQ
-desc: ""
-updated: 1623009751379
+desc: ''
+updated: 1629506041569
 created: 1595952505025
 stub: false
 nav_order: 6
@@ -53,7 +53,7 @@ Some additional features that set Dendron apart:
 2. Dendron helps you manage your hiearchies using [[schemas|dendron.topic.schema]]
 3. Dendron gets out of your way when you're working with your notes during [[lookup|dendron.topic.lookup]]
 
-Dendron's secret sauce is that it provides the necessary tooling for you to work with hierarichal notes. While hierarchies have traditionally (and justifiably) gotten a bad, I would argue that this is because the **tooling** around hierarchies were bad, not because hierarchies themselves are bad.
+Dendron's secret sauce is that it provides the necessary tooling for you to work with hierarichal notes. While hierarchies have traditionally (and justifiably) gotten a bad reputation, I would argue that this is because the **tooling** around hierarchies were bad, not because hierarchies themselves are bad.
 
 Hierarchies are one of the most effective ways that **both humans and computers** process large amount of information (there's a reason why almost every database is built from a variation of the [b-tree](https://en.wikipedia.org/wiki/B-tree)). You can find further details about hierarchies in this [blog post](https://www.kevinslin.com/notes/e1455752-b052-4212-ac6e-cc054659f2bb.html)
 
@@ -79,7 +79,7 @@ I wanted to spend more time building out features that supported Dendron's [hiea
 
 That being said, the core dendron engine is not vscode specific and there are folks that are experimenting with porting it over to other editors (eg. sublime, vim). We also have plans for a standalone editor in the future (most likely, this will be a fork of VSCode optimized for note taking)
 
-## Working with Notes
+## Notes
 
 ### Why markdown?
 
@@ -91,7 +91,7 @@ For more context, you can see the original markdown declaration [here](https://d
 
 You can use Dendron with existing repositories of markdown notes.
 
-Open the `Command Bar` in vscode and use the `Dendron: Change Workspace` command. It will ask you for a folder path as input.
+Open the `Command Palette` in vscode and use the `Dendron: Change Workspace` command. It will ask you for a folder path as input.
 
 Dendron will create a `dendron.code-workspace` file in specified directory and then open the workspace (if a workspace file already exists, it will use that). It will also create a `root.md` file in that directory if it doesn't exist (currently this is part of the internal working of dendron).
 
@@ -120,11 +120,23 @@ There are 3 ways to go back to my previous note:
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/faq.go-back.gif)
 
-## Working with Hierarchies
+### What can I do with the `root` note?
+
+The root note is a special note that comes with every dendron vault. You can't rename it and we don't advise that you create a hierarchy from it. You can add custom frontmatter variables and change all existing variables except the `id` field. 
+
+You are also free to use the body however you wish. 
+
+### Can I manually move notes?
+
+Yes. You can move notes manually outside of Dendron or between different vaults. Some things to keep in mind:
+- you should keep the `id` of the note since features like publishing depend on it to find the right link
+- if your notes have [[Cross Vault Links|dendron.topic.links#cross-vault-links]] (only applicable for [[Multi Vault|dendron.topic.vaults.multi-vault]]), those links might bring if they are moved to a different workspace that doesn't have reference to the original vault
+
+## Hierarchies
 
 ### How should I name a note?
 
-There are no rigid requirements on note naming in Dendron, other than the dots in the file name are used to construct the note [[note hierarchy|dendron.topic.hierarchies]]. However, the recommended way is to use all lowercase letters, replace spaces with `-`-mark and remove any special characters. Thus e.g. `John's amazing garage` becomes `johns-amazing-garage`.
+There are no rigid requirements on note naming in Dendron, other than the dots in the file name are used to construct the [[note hierarchy|dendron.topic.hierarchies]]. However, the recommended way is to use all lowercase letters, replace spaces with `-`-mark and remove any special characters. Thus e.g. `John's amazing garage` becomes `johns-amazing-garage`.
 
 Also, remember that you will use the note [[lookup-feature|dendron.topic.lookup]] to find notes quickly, and the lookup will use the names of the files. Thus try to name the files using the words that you are likely to use to find the note.
 
@@ -132,7 +144,7 @@ Also, remember that you will use the note [[lookup-feature|dendron.topic.lookup]
 
 A good guideline is to start with a relatively flat hierarchy (even just a single note in the root!) and add topics as headings into those notes. When notes grow to the point that you have to start scrolling, it’s time to consider if it would be beneficial to split those notes. At that point, you probably already have some idea how the thoughts are placed in your mind - try to mimic that also with the hierarchy.
 
-If you have a hard time deciding which ideas belong closer to root, think which of those ideas are more fundamental in your thinking. As an example, a note related to coding in Excel, should it be named as `code.excel` or `excel.code`? This could be resolved by thinking if you will write more about coding where Excel is just one example, or more about Excel, where coding is only one example. In case you think that both `excel.code` and `code.excel` are equal and both should be created, you could also make one of them a “master note” and [[refer|dendron.topic.refs]] to it from the other note.
+If you have a hard time deciding which ideas belong closer to root, think which of those ideas are more fundamental in your thinking. As an example, a note related to coding in Excel, should it be named as `code.excel` or `excel.code`? This could be resolved by thinking if you will write more about coding where Excel is just one example, or more about Excel, where coding is only one example. In case you think that both `excel.code` and `code.excel` are equal and both should be created, you could also make one of them a “master note” and [[refer|dendron.topic.references]] to it from the other note.
 
 ### Do I have to use hierarchies? What if I want to use another approach?
 
@@ -151,7 +163,7 @@ This comes up a lot especially when your dealing with organizing collections of 
 
 The hierarchy adds friction but the idea is that the friction (eg. hierarchy) is not a bug but the reason why dendron works with thousands of notes.
 
-The analogy to think about is excel: while putting your numbers inside the structure of a spreadsheet might not be the most straightforward way of getting to a numerical solution, its use becomes indispensable once you deal with a significant amount ofnumbers.
+The analogy to think about is excel: while putting your numbers inside the structure of a spreadsheet might not be the most straightforward way of getting to a numerical solution, its use becomes indispensable once you deal with a significant amount of numbers.
 
 The way to think about dendron is that its not like google where you type a question and try to find an answer - until we get true AI, this simply doesn't work for personal knowledge. Rather, Dendron helps you organize your notes so you can reference the information you need to answer your own questions.
 
@@ -167,9 +179,9 @@ It is possible though most of the approaches we've thought of would take a large
 
 If you want the ability to collapse folders, you can use the [[dendron tree view|dendron.topic.workbench#dendron-tree-view]]. For existing folder based notes and assets, you can use the [[markdown pod|dendron.topic.pod.builtin.markdown.import]] to import them into Dendron.
 
-At the end of the day, folders are meant to be an implementation detail for dendron. the underlying primitive of a note is an object that has metadata, content, and links. You can think of dendron as a flat file based database and lookup and the tree view as the UI to said database. For use cases involving external tools that require folders, you'll soon be able to use the [markdown export pod|dendron.topic.pod.builtin.markdown.export]] to do just that.
+At the end of the day, folders are meant to be an implementation detail for dendron. The underlying primitive of a note is an object that has metadata, content, and links. You can think of dendron as a flat file based database and lookup and the tree view as the UI to said database. For use cases involving external tools that require folders, you'll soon be able to use the [[markdown export pod|dendron.topic.pod.builtin.markdown.export]] to do just that.
 
-## Working with Schemas
+## Schemas
 
 ### What is the deal with schemas? Do I need to use them?
 
@@ -183,24 +195,79 @@ Schemas at the end of the day help you construct consistent hierarchies for your
 
 But even if you don't have a lot of notes, schemas are helpful because they provide extra features [like templating](https://dendron.so/notes/c5e5adde-5459-409b-b34d-a0d75cbb1052.html#schema-templates) and [auto complete](https://dendron.so/notes/c5e5adde-5459-409b-b34d-a0d75cbb1052.html#why-use-schemas).
 
-<!--
-This allows you to quickly reference anything within your hierarchy because they all have the same shape. It also helps with understanding a topic - I (Kevin, Dendron author) find my schema for a domain tends to reflect my mental model for said domain as well.
+### How do schemas work with multi-vault?
 
-For example, I'm using nodejs and need to access a file. I have no idea what the builtin/recommended library for file access is. Instead of having to dig up [fs-extra](https://www.npmjs.com/package/fs-extra), I can navigate to `l.node.file` and see my notes on the best way to work with files. You can replace node with any other programming language. Now I have a general way of referencing file access for all languages without needing to remember the specific implementation detail of any of them.
--->
+The short answer currently is *not very well* 😅
+- if two schemas overlap between different vaults, the last schema wins
+- schema imports don't currently work x-vault
 
-## Finding Notes
+What this will be in the future:
+- schemas should only work on the vault that they are declared in, and you can have an option to specify (in `dendron.yml` if you want a schema to be global)
+- schema imports should work xvault (import syntax will be `{vaultName}.{schemaName}`)
 
-### Can I do filter by the metadata in Dendron?
+## Vaults
+
+### Git Doc and other extensions don't recognize my repos for multi-vault
+
+Many VSCode extensions that work across multiple git repositories won't recognize repos nested another repo. The way to fix this is by having your workspace be the last entry inside `folders` in your code workspace file (Dendron does this by default for new workspaces and if you add new vaults using `Vault Add`). You can see an example below. You can see a published example of this setup [here](https://github.com/kevinslin/kevin-garden)
+
+```json
+    "folders": [
+        ...
+        {
+            "path": "kevin-public/vault",
+            "name": "kevin-public"
+        },
+        {
+            "path": "kevin-blog/vault",
+            "name": "kevin-blog"
+        },
+        {
+            "path": "."
+        }
+    ],
+```
+
+## Humans
+
+### How do I share my notes with others?
+1. The *easiest* way to share public documents *for consumers* is to publish it as a site. Instructions [[here|dendron.topic.publishing.quickstart]]
+2. If folks are comfortable with markdown, you can use the markdown pod to export your entire workspace or just a specific page to markdown. Instructions [[here|dendron.topic.pod.builtin.markdown]]
+    - NOTE: this doesn't preserve backlinks or assets
+3. The full experience is committing your workspace as a git repo and having collaborators use Dendron to add it as a [[Remote Vault|dendron.topic.vaults#remote-vault]]
+
+
+
+## Pods
+
+### What are pods?
+
+Pods are a means of data migration. You can import/export notes from other tools in and out of Dendron
+
+Internally for example, we use google docs to take meeting notes collaboratively and then we use the gdoc import pod to turn it into a dendron note
+
+You can read more about them [[here|dendron.topic.pod]].
+
+## Publishing
+![[dendron://dendron.dendron-site/dendron.topic.publishing.faq]]
+
+## Search and Filtering
+
+### Can I filter by the metadata in Dendron?
 
 Metadata is currently under utilized because we don't have a built in way of easily querying by it. We currently have [this issue](https://github.com/dendronhq/dendron/issues/152) tracking the progress of advanced query work.
-gg
+
 In the future, we want to support:
 
 -   querying by custom frontmatter attributes: <https://github.com/dendronhq/dendron/issues/152>
 -   query by attributes with logical operators: <https://github.com/dendronhq/dendron/issues/159>
 
 We also want to support some subset of the queries as note references so that the results can be included in page.
+
+For now, we recommend you use the [[search editor|dendron.guides.tips#search-editor]] capability for liimited querying capabilities.
+
+## Other
+
 
 ### Can I autocomplete an hierarchy?
 
@@ -211,7 +278,6 @@ TLDR: vscode doesn't expose tab completion via API. There are two alternatives w
 -   overload the `enter` command, one press to autocomplete, two presses to select
 -   replace the lookup component with a webview
 
-## Other
 
 ### How to launch dendron with most recent vault quickly?
 
@@ -233,13 +299,6 @@ Now this isn't required per-say, we could just do away with **root** notes and s
 
 ps. root.schema.yml doesn't work right now as described in the sense that we haven't implemented global schemas yet
 
-### Can I use a dark theme for the markdown preview?
-
-Yes. There's a setting called `markdown-preview-enhanced.previewTheme` that you can set which has a list of default themes, including dark themes.
-
-### Can I customize the markdown preview CSS?
-
-Yes. Read [this](https://shd101wyy.github.io/markdown-preview-enhanced/#/customize-css) for more information.
 
 ### Is there a list of keyboard shortcuts I can see?
 
@@ -274,3 +333,32 @@ This can be done with some extensions that are external to Dendron such as:
 3. [text](https://marketplace.visualstudio.com/items?itemName=ivangabriele.vscode-git-add-and-commit)
 
 It is also described in our [[tip|dendron.guides.tips#automate-git-tasks,1:#*]] note.
+
+
+### Dendron 11ty Package Version is Confusing
+
+Dendron 11ty used to be published outside of the monorepo and started with 1.x version whereas the monorepo started with 0.x .
+
+After we synced, we synced 11ty versioning and brought it down to 0.x. every minor release, we also publish the 1.x version of the 11ty package to make it consistent but during patch releases, we just keep the 0.x numbering. 
+
+Its a bit of a hack and something that should go away in July 2021, when we switch to NextJs based publishing. 
+
+### VSCode is telling me I have to authorize Dendron to run some code
+
+VSCode recently introduced a feature called [**_workspace trust_**](https://code.visualstudio.com/docs/editor/workspace-trust), which lets you choose whether or not you trust a project folder in VSCode for automatic code execution.
+
+Since Dendron creates a workspace for your notes, VSCode is asking you if you trust the workspace Dendron just created for you.
+
+You can choose not to trust the workspace and be in **_restricted mode_**.
+
+You can still use all of Dendron's feature in restricted mode except [[hooks|dendron.topic.hooks]].
+
+### My firewall is asking if I wanted to open new ports when I use Dendron. Why is this?
+
+Dendron has a client-server architecture.
+
+The extension talks to a (local) express server for a lot of the features and this is why it's opening new ports.
+
+### How do I setup Dendron to work between multiple machines?
+
+See [[Using Dendron Across Machines|dendron.guides.best-practices#using-dendron-across-machines]]

@@ -2,11 +2,13 @@
 id: 945a1bf2-2d6c-4792-87d0-bf87b7f94182
 title: Methods
 desc: ''
-updated: 1623037887619
+updated: 1624071086578
 created: 1623022056338
 ---
 
 ### add
+
+Add a seed to the current workspace. Requires the full id of the seed
 
 ```sh
 dendron seeds add dendron.dendron-site
@@ -58,6 +60,15 @@ dist:
   git: https://github.com/dendronhq/dendron-site.git
 ```
 
+
+### init 
+
+Initialize a new seed
+
+Options:
+- create_workspace: create a new dendron workspace as a seed
+- convert_workspace: convert existing workspace as a seed
+
 ### publish
 
 Publish your own seed to the registry
@@ -86,6 +97,8 @@ schemas:
 ```
 
 ### remove
+
+Remove a seed from the current workspace. Also removes the repository
 
 ```sh
 dendron seeds remove dendron.dendron-site

@@ -1,7 +1,39 @@
+version: 1
+vaults:
+    -
+        fsPath: vault
+        name: dendron.dendron-site
+useFMTitle: true
+useNoteTitleForLink: true
+noAutoCreateOnDefinition: true
+noLegacyNoteRef: true
+noXVaultWikiLink: true
+lookupConfirmVaultOnCreate: false
+mermaid: true
+useKatex: true
+autoFoldFrontmatter: false
+dev:
+    enableWebUI: true
+    enablePreviewV2: true
+lookup:
+    note:
+        selectionType: selectionExtract
+journal:
+    dailyDomain: daily
+    name: journal
+    dateFormat: y.MM.dd
+    addBehavior: childOfDomain
+    firstDayOfWeek: 1
+scratch:
+    name: scratch
+    dateFormat: y.MM.dd.HHmmss
+    addBehavior: asOwnDomain
 site:
     siteHierarchies:
         - dendron
-        - pro
+        - pkg
+        - tags
+        - templates
     siteRootDir: docs
     gh_edit_repository: 'https://github.com/dendronhq/dendron-site'
     usePrettyRefs: true
@@ -18,18 +50,7 @@ site:
         It is meant to help you create, organize, and collaborate on knowledge
         bases of any size.
     ga_tracking: G-B0JN2HHCNY
-vaults:
-    -
-        fsPath: vault
-        name: dendron-site
 usePrettyRefs: true
-version: 1
-useFMTitle: true
-mermaid: true
 useTitleForLink: true
-dev:
-  enableWebUI: true
-#   engineServerPort: 3005
-#   nextServerUrl: http://localhost:3000
-
-
+initializeRemoteVaults: true
+dendronVersion: 0.56.0

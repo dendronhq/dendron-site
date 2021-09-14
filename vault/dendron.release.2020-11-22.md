@@ -2,7 +2,7 @@
 id: f09162ec-6b20-4b53-bd5c-68aaa4698ed8
 title: Release Notes(version 0.17)
 desc: ''
-updated: 1616950026025
+updated: 1630794120340
 created: 1606074212157
 ---
 Dendron 0.17 has sprouted 🌱
@@ -57,9 +57,9 @@ Last and most of all, a big **thanks** to the following gardeners that brought u
   - [missing welcome note](https://github.com/dendronhq/dendron/issues/361)
 - [Gabriel Horner](https://github.com/cldwalker)
   - [update multi-vault docs](https://github.com/dendronhq/dendron-site/pull/39)
-- [Oli Crask](https://github.com/OxygenLithium)     
+- Oli Crask (`OxygenLithium`)    
   - [Stale notes in tree view](https://github.com/dendronhq/dendron/issues/367)
 - [John Young](https://github.com/iterating)
   - [Don't override minimap preferences](https://github.com/dendronhq/dendron/issues/366)
-- [Tim Condit](https://github.com/tcondit)
+- Tim Condit (`tcondit`)
   - [Fix typos](https://github.com/dendronhq/dendron-site/pull/40)

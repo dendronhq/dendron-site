@@ -7,7 +7,7 @@ created: 1610681611843
 published: true
 ---
 
-- visit [nodes.org](https://nodejs.org/en/) and download node for windows
+- visit [nodejs.org](https://nodejs.org/en/) and download node for windows
 - verify that node is available in vscode by opening the [integrated terminal](https://code.visualstudio.com/docs/editor/integrated-terminal) and running `node --version`
     - you should see a version number printed out
 - if you see `command not found`, you might need to restart before

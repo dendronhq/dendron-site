@@ -2,52 +2,15 @@
 id: b239c77e-52f2-4cc3-8390-69e0bc776a72
 title: Debugging
 desc: ''
-updated: 1622554487344
+updated: 1627140585393
 created: 1598653859135
 stub: false
 ---
-## Plugin
 
-- run extension
-  - launch the `Run Extnesion: Local` build task (copied below for reference)
+## Summary
 
-```json
-    {
-      "name": "Run Extension",
-      "type": "extensionHost",
-      "request": "launch",
-      "runtimeExecutable": "${execPath}",
-      "args": [
-        "--disable-extensions",
-        "--extensionDevelopmentPath=${workspaceFolder}"
-      ],
-      "outFiles": [
-        "${workspaceFolder}/out/**/*.js"
-      ],
-      "env": {
-        "STAGE": "dev",
-        "VSCODE_DEBUGGING_EXTENSION": "dendron"
-      }
-    },
-```
+When debugging Dendron, note that there is both a client and server component. The client is [[Dendron Plugin|pkg.dendron-plugin]]. The server is [[Dendron API Server|pkg.dendron-api-server]]. 
 
-### Breakpoints
+For client (plugin) debugging, see instructions [[here|pkg.dendron-plugin.qa.debug]].
 
-Note that we currently have trouble setting breakpoints inside non-plugin code. That goes for the packages that Dendron depends on (eg. @dendronhq/common-all). The current workaround is to manually add a `debugger;` statement inside the code. The extension will hit it when restarted under the debugger.
-
-### Verbose Logs
-
-- set in `dendorn.workspace.config`
-
-```json
-"dendron.logLevel": "debug",
-```
-
-## Server
-
-Normally, Dendron will launch an express server at a random port. To debug the server: 
-
-1. Launch the server using the build task `api-server:test launch server`
-2. Update the workspace settings of Dendron to use a running server through the following workspace setting `dendron.serverPort": 3005`
-3. Reload the workspace for the settings to take affect
-
+For server debugging, see instructions [[here|pkg.dendron-api-server.qa.debug]]

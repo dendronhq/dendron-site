@@ -2,7 +2,7 @@
 id: 6aed338c-df05-420d-aa7b-59dfd2214349
 title: Release Notes(version 0.4)
 desc: ''
-updated: 1609990780194
+updated: 1630790746247
 created: 1595984607502
 date: 2020-07-25
 ---
@@ -24,7 +24,7 @@ Dendron has a completely re-done getting started. you can see it by running `> D
 
 ### 🚧 Graph View for Hierarchies ([129bf4e](https://github.com/dendronhq/dendron/commit/129bf4e4e480dfbff66530725c6db8d2321adc28))
 
-- [docs](https://github.com/dendronhq/dendron-template/blob/master/vault/dendron.topic.graph-view.md)
+- [[docs|dendron.topic.graph-view]]
 
 Note that Dendron's graph view lays out your notes according to their hierarchy (vs backlinks).
 
@@ -36,37 +36,35 @@ Dendron is now compatible with windows
 
 ### Upgrade Settings Command ([c043090](https://github.com/dendronhq/dendron/commit/c0430905d314c6ee870f9bdd45434f53e93a7098))
 
-- [docs](https://github.com/dendronhq/dendron-template/blob/master/vault/dendron.topic.commands.md#upgrade-settings)
-
 Dendron will automatically update your workspace settings during version upgrades to make sure they stay up to date with new features and bundled extensions. If you've modified the settings or want to restore your settings back to their default, you can run this command.
 
 ### Reload Index Command ([236b2ac](https://github.com/dendronhq/dendron/commit/236b2ac70812c4df525ff27479802b6e49e0587f))
 
-- [docs](https://github.com/dendronhq/dendron-template/blob/master/vault/dendron.topic.commands.md#reload-index)
+- [[docs|dendron.topic.commands#reload-index]]
 
-Dendron will re-initialize the index. This is currently necessary if you add new entries to a [schema](https://github.com/dendronhq/dendron-template/blob/master/vault/dendron.topic.schema.md). Otherwise, Dendron will re-index schemas the next time you reload/open your workspace.
+Dendron will re-initialize the index. This is currently necessary if you add new entries to a [[schema|dendron.topic.schema]]. Otherwise, Dendron will re-index schemas the next time you reload/open your workspace.
 
 ### Open Logs Command ([4f223fc](https://github.com/dendronhq/dendron/commit/4f223fc318fe033471252611c8f41d505dca1055))
 
-- [docs](https://github.com/dendronhq/dendron-template/blob/master/vault/dendron.topic.commands.md#open-logs)
+- [[docs|dendron.topic.commands#open-logs]]
 
 A bunch of you have been submitting issues to our issue tracker. To make the process easier, we now have a command to automatically fetch get the logs for when you submit your next issue.
 
 ### Open Link Command ([7f630d1](https://github.com/dendronhq/dendron/commit/7f630d1fb95d5c0d28fc5a83f4cee27bc17d452c))
 
-- [docs](https://github.com/dendronhq/dendron-template/blob/master/vault/dendron.topic.links.md)
+- [[docs|dendron.topic.links]]
 
 Be able to open non-markdown files using native apps (eg. use preview to open pdfs on mac).
 
 ### Journal Notes ([5e1236f](https://github.com/dendronhq/dendron/commit/5e1236fddbf1e0fddf4c27d1a40e9841cc99974f))
 
-- [docs](https://github.com/dendronhq/dendron-template/blob/master/vault/dendron.topic.special-notes.md#journal-note)
+- [[docs|dendron.topic.special-notes#journal-note]]
 
 A journal note is a self contained note that is meant to track something over time. Examples of journals include recording workout sessions, making meeting notes, and keeping a mood journal.
 
 ### Scratch Notes scratch ([71d8433](https://github.com/dendronhq/dendron/commit/71d8433fbd10651ec7fcd13a5f7ee41199a43632))
 
-- [docs](https://github.com/dendronhq/dendron-template/blob/master/vault/dendron.topic.special-notes.md#scratch-note)
+- [[docs|dendron.topic.special-notes#scratch-note]]
 
 A scratch note is a self contained note that is meant to be used as scratchpad. Use it for thoughts or when you want to expand on a bullet point. Scratch notes are created in the `scratch` domain and have the following format: `{domain}.journal.{Y-MM-DD-HH-HHmmss}`.
 
@@ -84,7 +82,7 @@ Use webpack to reduce bundle size and reduce startup speed by factor of 10
 
 ### Remove Extra Frontmatter ([e059346](https://github.com/dendronhq/dendron/commit/e0593467fca94a4d29dc9463721a99e67881cfb3))
 
-- [docs](https://github.com/dendronhq/dendron-template/blob/master/vault/dendron.topic.frontmatter.md)
+- [[docs|dendron.topic.frontmatter]]
 
 Dendron keeps track of metadata to your notes using frontmatter. There were many fields that we wrote out that didn't need to be written out because Dendron gathers that information during its index phase. Those fields are now no longer written out!
 

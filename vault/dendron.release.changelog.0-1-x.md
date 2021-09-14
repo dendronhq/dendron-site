@@ -47,7 +47,7 @@ One of our most requested features for multi-vault is now out. Refactor will now
 
 #### Support Specifying Vault Location when Creating a Note
 
-![[dendron.topic.multi-vault#specify-vault-location-when-creating-a-note,1:#*]]
+![[dendron.topic.vaults.multi-vault#specify-vault-location-when-creating-a-note,1:#*]]
 
 ### Enhancements
 
@@ -345,7 +345,7 @@ Remove a vault from your workspace. Note that the underlying files wil **not** b
 
 - **refs:** wildcard note ref links ([98a1177](https://github.com/dendronhq/dendron/commit/98a117715a967492ab9d7b8749d964b07bde4055))
 
-![[dendron.topic.refs#wildcard-note-refs,1]]
+![[dendron.topic.references#wildcard-note-refs,1]]
 
 #### Dendron: Configure Command
 
@@ -623,7 +623,7 @@ Documentation for pods has been re-written to reflect recent changes with pods
 
 #### Recursive Note References
 
-![[dendron.topic.refs#recursive-reference,1]]
+![[dendron.topic.references#recursive-reference,1]]
 
 ### Bug Fixes
 
@@ -796,7 +796,7 @@ Dendron now initializes your workspace with common default snippets
 
 #### Latex Support on Published Site
 
-![[pro.dendron-jekyll.topic.math#math,1:#*]]
+![[pkg.dendron-jekyll.topic.math#math,1:#*]]
 
 #### Introduce siteRepoDir Customization
 

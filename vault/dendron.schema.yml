@@ -1,11 +1,11 @@
 version: 1
-imports:
-  - pro
 schemas:
 - id: dendron
   parent: root
   children:
+    - release
     - mission
+    - rfc
     - principles
     - todo
     - features
@@ -14,8 +14,20 @@ schemas:
     - topic
     - demo
     - dev
-    - pro.pro
+- id: rfc
+  children: 
+    - rfcInstance
+- id: rfcInstance
+  pattern: '*'
+  template:
+    id: templates.rfc
+    type: note
 - id: faq
+- id: release
+  namespace: true
+  template:
+    id: templates.release.weekly-public-announcement
+    type: note
 - id: features
 - id: principles
   desc: what we stand for
@@ -30,7 +42,7 @@ schemas:
   namespace: true
   desc: "Major feature areas"
 - id: template
-  template: 
+  template:
     id: dendron.template.example
     type: note
 - id: dev

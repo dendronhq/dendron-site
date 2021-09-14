@@ -62,7 +62,7 @@ Basic keyboard navigation will be implemented for the new graph view. This will 
 
 ##### Other Notes
 
-Making a graph truly accessible is a difficult task. Most visualization libraries (including those researched) say virtually nothing about accessibility. While a tradeoff of creating a rich graph may be accessibility, some of the [canvas accessibility ideas shared by Mozilla](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Hit_regions_and_accessibility) creating possibilities for creating a more accessible graph display.
+Making a graph truly accessible is a difficult task. Most visualization libraries (including those researched) say virtually nothing about accessibility. While a tradeoff of creating a rich graph may be accessibility, some of the [canvas accessibility ideas shared by Mozilla](https://web.archive.org/web/20210512193630/https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Hit_regions_and_accessibility) creating possibilities for creating a more accessible graph display.
 
 ---
 

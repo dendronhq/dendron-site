@@ -4,21 +4,9 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "watch",
-            "type": "shell",
-            "command": "bundle exec jekyll s --watch",
-            "options": {"cwd": "docs"},
-            "problemMatcher": [],
-            "group": {
-                "kind": "build",
-                "isDefault": true
-            }
-        },
-        {
             "label": "sync:assets",
             "type": "shell",
-            "command": "./scripts/syncAssets.sh",
-            "options": {"cwd": "../"},
+            "command": "./scripts/sync_assets.sh",
             "problemMatcher": []
         },
         {

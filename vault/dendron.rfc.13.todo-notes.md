@@ -4,7 +4,7 @@ title: Todo Notes
 desc: ''
 updated: 1621573686699
 created: 1621568116095
-published: false
+published: true
 ---
 
 ## Goals

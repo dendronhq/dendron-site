@@ -17,7 +17,7 @@ Block references let you link or embed blocks of text into different parts of yo
 
 This section describes existing work that has been done on this topic. 
 
-- [roam block references](https://www.roamtips.com/home/what-is-block-roam-research)
+- [roam block references](https://roamresearch.com/)
 - [obsidian links to blocks](https://help.obsidian.md/How+to/Link+to+blocks)
 
 ## Proposal
@@ -65,7 +65,7 @@ A block reference link is a reference to a block link.
 
 #### Block Range References
 
-Block references should also support [[range references|dendron.topic.refs#block-range-reference]]. Any valid block anchor is also a valid target for the start or end of a range.
+Block references should also support [[range references|dendron.topic.references#block-range-reference]]. Any valid block anchor is also a valid target for the start or end of a range.
 
 When referring to block anchors, the range will be inclusive on both ends. For example:
 

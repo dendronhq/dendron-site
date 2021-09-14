@@ -2,7 +2,7 @@
 id: 401c5889-20ae-4b3a-8468-269def4b4865
 title: Cookbook
 desc: ""
-updated: 1622804242841
+updated: 1630796678628
 created: 1595952505024
 nav_order: 8.9
 toc: true
@@ -36,7 +36,7 @@ You can get logs of the previous session by following instructions [here](https:
 
 Dendron doesn't currently provide native support for this. You can download the [Bookmarks](https://marketplace.visualstudio.com/items?itemName=alefragnani.Bookmarks) extension to achieve the functionality in the interim.
 
-### Launch the command bar
+### Launch the command palette
 
 This lets you execute commands inside vscode
 
@@ -123,6 +123,7 @@ Dendron does not have a dedicated mobile client at this time. There are numerous
 -   [Epsilon Notes](https://play.google.com/store/apps/details?id=com.ekartoyev.enotes&hl=en_US&gl=US)
 -   [Neutrinote](https://neutrinote.wordpress.com/) (Android only)
 -   [Noteless](https://github.com/redsolver/noteless) (Android only). This _just_ received experimental Dendron support so worth trying out.
+-   [Markor](https://github.com/gsantner/markor) (Android only)
 
 Most mobile apps do not have git support.
 
@@ -234,13 +235,11 @@ Make sure the path to the dendron workspace matches your setup. Then, run `updat
 
 ### Enable Table of Contents
 
-When viewing your notes locally, you can view the toc either from the outline view or by toggling the preview
+When viewing your notes locally, you can view the toc from the outline view.
 
 -   from the outline
     ![[dendron.topic.workbench#outline-view,1:#*]]
 
--   from the preview
-    ![[dendron.topic.preview#table-of-contents,1]]
 
 ## Publishing
 
@@ -284,15 +283,13 @@ nodemon --watch {path/to/vault} --ext md dendron-cli buildSite --wsRoot {path/to
 
 ### Publish password protected site using AWS Amplify
 
-You can click [here](https://main.d19svbygngqnpb.amplifyapp.com/) to see a demo of the end result.
-
 You can access the site with username: `dendron`, password: `hierarchy`.
 
 -   NOTE: this requires hosting your site on AWS. For most people, this will end up costing you a few cents a month.
 
 #### Setup your github repo
 
-1. Create a new github repo using this [template](https://github.com/dendronhq/dendron-amplify-template/generate).
+1. Create a new github repo using this [template](https://github.com/dendronhq/dendron-amplify-template).
 2. In your Dendron workspace, remove the `docs` directory and clone your newly created repository
     ```bash
     cd {your-workspace}
@@ -339,9 +336,19 @@ Use the [[Vault Add|dendron.topic.commands#remote-vault]] command via the [[comm
 
 ### Converting a local vault to a remote vault
 
-1. If you're vault is committed along with your workspace, use `git rm --cached` to remove it from the workspace repo and use `git init` to initialze your vault as a standalone repo
-1. Create a remote repo and push your vault to that repo
-1. Run [[Configure (yaml)|dendron.topic.commands#configure-yaml]] and add the git [[remote|dendron.topic.config.dendron#remote]] urls to the repo. the entries should look like what you see below
+1. If your vault is committed along with your workspace, use `git rm --cached` to remove it from the workspace repo and use `git init` to initialze your vault as a standalone repo
+1. Navigate to the root of your vault and initialize a git repository
+    ```sh
+    cd {vaultName}
+    git init
+    git add .
+    git commit -m "initial commit"
+    git add origin {your origin}
+    git push -u origin HEAD
+    ```
+1. Run [[Configure (yaml)|dendron.topic.commands#configure-yaml]] and add the git [[remote|dendron.topic.vaults#remote]] urls to the repo. the entries should look like what you see below
+
+![[dendron://dendron.dendron-site/dendron.topic.vaults#^NiCCqLjTG2nbM6Qi:#*]]
 
 ### Using Dendron with Code
 
@@ -370,3 +377,9 @@ vaults:
     - fsPath: vault
       visibility: private
 ```
+
+### Create note in a specific vault
+
+There are multiple ways to create a note in a specific vault
+- open a note that is already in the vault (all vaults have a `root` note by default so thats a quick way to select a particular vault)
+- use the [[vaultSelectionMode|dendron.topic.lookup.modifiers#vaultselectionmode]] modifier on lookup to select a new vault on creation

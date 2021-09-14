@@ -2,7 +2,7 @@
 id: ffec2853-c0e0-4165-a368-339db12c8e4b
 title: Frontmatter
 desc: ""
-updated: 1621927707863
+updated: 1628101059620
 created: 1595352354163
 stub: false
 ---
@@ -12,12 +12,16 @@ Frontmatter is [YAML](https://yaml.org/) that you can add to the front of your m
 Dendron supports frontmatter. By default, we add the following keys to a new note created with Dendron:
 
 -   id: a globally unique identifier for the note
--   title: your note title. used to label nodes in [[graph view|dendron.topic.graph-view]]
--   desc: optional description about your note. will show up in lookup results
+-   title: your note title. Used to label nodes in [[graph view|dendron.topic.graph-view]]
+-   desc: optional description about your note. Will show up in lookup results
 -   updated: unix timestamp of when note was updated
 -   created: unix timestamp of when note was created
 
-Frontmatter isn't required in Dendron and Dendron will happily index markdown files without frontmatter. Feel free to add your attributes. As long as it doesn't conflict with a Dendron builtin keyword, Dendron will leave it alone. In the future, we plan on adding a lot more functionality to the frontmatter you see in Dendron so stay tuned.
+Frontmatter is required in Dendron, and it will warn you in the editor if you
+have any notes that don't have a frontmatter, or have a frontmatter that's
+broken. You can fix these by clicking on the lightbulb symbol that appears next to them, or using the [[fixFrontmatter Doctor action|dendron.topic.commands#fixfrontmatter]].
+
+Feel free to add your attributes. As long as it doesn't conflict with a Dendron builtin keyword, Dendron will leave it alone. In the future, we plan on adding a lot more functionality to the frontmatter you see in Dendron so stay tuned.
 
 # Reserved Keys
 
@@ -29,7 +33,7 @@ A globally unique identifier for the note. This identifier is used for two thing
 
 ### title
 
-Your note title. used to label nodes in [[graph view|dendron.topic.graph-view]]
+Your note title. Used to label nodes in [[graph view|dendron.topic.graph-view]]
 
 ### desc
 
@@ -55,13 +59,17 @@ Node children
 
 Absolute filepath to the note
 
+### tags
+
+These are used for [[frontmatter tags|dendron.topic.tags#frontmatter-tags]].
+
 ### data
 
-this is reserved for internal use
+This is reserved for internal use
 
 ### custom
 
-this is reserved for internal use
+This is reserved for internal use
 
 # Other keys
 

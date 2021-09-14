@@ -2,19 +2,24 @@
 id: 8de4209d-84d3-45f8-96a4-34282e34507d
 title: Preview
 desc: ''
-updated: 1603383860949
+updated: 1627320748582
 created: 1603383580067
 ---
+
+## Summary
+
+- NOTE: this preview is now DEPRECATED. We recommend that all users use [[Preview V2|dendron.topic.preview-v2]] instead.
+
 The preview pane renders the Dendron's markdown text into nicely formatted HTML. The preview is a fork of the [markdown-preview-enhanced extension](https://github.com/shd101wyy/vscode-markdown-preview-enhanced). 
 
 All documentation pertaining to the original extension can be found [here](https://shd101wyy.github.io/markdown-preview-enhanced/#/). This page will highlight some key features as well as Dendron specific additions. 
 
-### Table of Contents
+## Setup
 
-You can toggle a table of contents from the preview pane using a button toggle.
+If you want to enable the legacy preview, please install it from the extension registry.
 
-<a href="https://www.loom.com/share/516b862bc30b49edbff3239632e35f90"> 
-<img style="" src="https://cdn.loom.com/sessions/thumbnails/516b862bc30b49edbff3239632e35f90-with-play.gif"> </a>
+- [link](https://marketplace.visualstudio.com/items?itemName=dendron.dendron-markdown-preview-enhanced) for VSCode users
+- [link](https://open-vsx.org/extension/dendron/dendron-markdown-preview-enhanced) for VSCodium users
 
 ### Issues
 

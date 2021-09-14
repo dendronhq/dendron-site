@@ -1,8 +1,8 @@
 ---
 id: 3472226a-ff3c-432d-bf5d-10926f39f6c2
 title: Links
-desc: ""
-updated: 1622401187922
+desc: ''
+updated: 1626473393100
 created: 1595003088839
 stub: false
 ---
@@ -31,6 +31,12 @@ Wiki links support **autocomplete**. To initiate:
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/links-autocomplete.gif)
 
+### Highlights
+
+Wiki links also have support for highlighting in the editor. Existing notes will be highlighted in blue, and missing notes will be highlighted in yellow. The exact shade of color depends on your theme.
+
+![](https://i.imgur.com/aBcgyZX.png)
+
 ## Children Links
 
 When you [[publish|dendron.topic.publishing]] your notes, Dendron shows all children of the note at the bottom.
@@ -39,23 +45,36 @@ When you [[publish|dendron.topic.publishing]] your notes, Dendron shows all chil
 
 ## Backlinks
 
-Dendron has a backlink panel which shows all notes with links to the current note. This will also show up underneath [[children Links|dendron.topic.links#children-links]] on published pages.
+Backlinks are links that point to the current note. 
+
+### Types of Backlinks
+There are currently two types of backlinks available in the Backlinks view: `Linked` and `Candidates`. 
+
+#### Linked Backlink
+`Linked` backlinks are regular [[wiki links|dendron.topic.links#wiki-links]] that are pointing to the current note.
+
+- NOTE: The link candidate feature of the backlinks panel is currently disabled by default. 'Accessing the Backlinks view' section below goes over how to enable it.
+
+#### Candidate Backlink
+`Candidate` backlinks are plain text words that match the name of the current note, which can potentially be converted into a (linked) backlink.
+
+### Backlink View
+
+Dendron has a [[backlinks panel|dendron.topic.workbench#backlinks]] which shows all notes with links to the current note. This will also show up underneath [[children Links|dendron.topic.links#children-links]] on published pages.
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/links.backlink.jpg)
 
-## Block References
-
-![[dendron://dendron-site/dendron.topic.links.block-references#summary,1:#*]]
+You can find further documentation about it [[here|dendron.topic.workbench#backlinks-view]]
 
 ## Other Links
 
-For links to a file format Dendron does not support, you can use the highlight the link and use `> Dendron: Open Link` to open the file using your operating system default for that file. This also applies to opening paths to folders.
+For links to a file format Dendron does not support, you can highlight the link and use `> Dendron: Open Link` to open the file using your operating system default for that file. This also applies to opening paths to folders.
 
 <a href="https://www.loom.com/share/01250485e20a4cdca2a053dd6047ac68"><img src="https://cdn.loom.com/sessions/thumbnails/01250485e20a4cdca2a053dd6047ac68-with-play.gif"> </a>
 
 ## Cross Vault Links
 
-Cross vault links are a way of exactly specifying a note in a [[multi vault|dendron.topic.multi-vault]] workspace. You can turn a regular link into a cross vault link by adding `dendron://$vaultName/` prefix where `$vaultName` is the [[name|dendron.topic.config.dendron#name]] of your vault.
+Cross vault links are a way of exactly specifying a note in a [[multi vault|dendron.topic.vaults.multi-vault]] workspace. You can turn a regular link into a cross vault link by adding `dendron://$vaultName/` prefix where `$vaultName` is the [[name|dendron.topic.config.dendron#name]] of your vault.
 
 Some examples:
 
@@ -63,6 +82,6 @@ Some examples:
 - wiki link with alias: `[[Foo Note|dendron://vault/foo]]`
 - relative link: `[[Foo Note|dendron://vault/foo#header1]]`
 
-You can also use cross vault links for [[note references|dendron.topic.refs]].
+You can also use cross vault links for [[note references|dendron.topic.references]].
 
 - note ref: `![[dendron://vault/foo]]`

@@ -2,18 +2,18 @@
 id: 5c213aa6-e4ba-49e8-85c5-1bdcb33ce202
 title: Special Notes
 desc: ""
-updated: 1621568510916
+updated: 1623920590655
 created: 1595004457029
 stub: false
 ---
 
-Dendron has builtin support for a variety of special note formats. These notes can be created using regular lookup - these commands provide convenient shortcuts for frequently used notes.
+Dendron has built-in support for a variety of special note formats. These notes can be created using regular lookup - these commands provide convenient shortcuts for frequently used notes.
 
 ## Daily Journal
 
 One of the most common ways of note taking is the daily journal.  
 
-You can create a daily journal using `> Dendron: Create Daily Journal Note`. You'll also see the corresponding keyboard shortcut for your operating system when you use this command. 
+You can create a daily journal by typing `> Dendron: Create Daily Journal Note` in the Command Palette. You'll also see the corresponding keyboard shortcut for your operating system when you use this command. 
 
 By default, it will create the journal under `daily.{date}` though this is configurable by setting the `dendron.dailyJournalDomain`.
 
@@ -30,7 +30,7 @@ To create a journal note, trigger a lookup and then click on the calendar icon.
 
 By default, Dendron will create the journal note with the following hierarchy `{domain}.journal.{y.MM.dd}`. `{domain}` is the **domain** of the current active note when you execute `New Journal Note`.
 
-A reference for date formatting tokens can be found [here](https://moment.github.io/luxon/docs/manual/formatting.html)
+A reference for date formatting tokens can be found [here](https://moment.github.io/luxon/#/formatting)
 
 ## Scratch Note
 

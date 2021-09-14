@@ -2,34 +2,31 @@
 id: c5e5adde-5459-409b-b34d-a0d75cbb1052
 title: Schemas
 desc: ''
-updated: 1622841508187
+updated: 1628281183439
 created: 1595952505039
 stub: false
 ---
+
+## Summary
 As you end up creating more notes, it can be hard to keep track of it all. This is why Dendron has **schemas** to help you manage your notes at scale. Think of schemas as an **optional type system** for your notes. They describe the hierarchy of your data and are themselves, represented as a hierarchy.
 
 Schemas show up as icons next to lookup results.
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/schema.intro.gif)
 
-## Why Use Schemas
+<!-- ## Why Use Schemas
 
-Schemas help you categorize your notes by making sure your hierarchies are consistent with one another. 
+Schemas help you categorize your notes by making sure your hierarchies are consistent with one another.  -->
 
-For example, lets say you have a bunch of projects and you know you like to keep your projects in the following hierarchy
+## Features
 
-```
-.
-└── project
-    ├── retrospective
-    ├── people
-    ├── todo
-    └── meet
-```
+### Schema Completions
 
 Schemas will autosuggest valid children when you create a new project.
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/schema.suggest.gif)
+
+### Find Non-Compliant Hierarchies
 
 If you accidentally do a typo, your schema will let you know that you have an inconsistency. 
 
@@ -77,7 +74,7 @@ Below is another way of representing the above schema
 
 
 
-## Schema Properties
+## Properties
 
 ### version (optional): number
 
@@ -129,7 +126,7 @@ foo.bar.one #match
 
 ### schemas
 
-- list of schema entities
+- list of schema definitions
 
 #### id
 
@@ -229,6 +226,8 @@ Schema templates let you designate a note as a **template**. Newly created notes
 
 This is extremely useful whenever you want to re-use the outline of a note. Examples include daily journals, weekly shopping lists, and weekly reviews.  
 
+- NOTE: you'll need to run `Reload Workspace` for any new templates to take effect
+
 <a href="https://www.loom.com/share/481b7ab051394c1caa383383bd265755"> 
 <img style="" src="https://cdn.loom.com/sessions/thumbnails/481b7ab051394c1caa383383bd265755-with-play.gif"> 
 </a>
@@ -248,7 +247,7 @@ Schemas can be modified, created and deleted using the same lookup interface tha
 ## Example Schemas
 <!-- - [Project and Journal](https://gist.github.com/kevinslin/5ca7a6f25a239add5ea374f329e6a19e) -->
 - Example schemas can be found [here](https://github.com/kevinslin/schemas.git)
-- You can copy and paste the individual schema files or add it as a [[remote Vault|dendron.ref.vaults#remote]] and keep up to date on changes
+- You can copy and paste the individual schema files or add it as a [[remote Vault|dendron.topic.vaults#remote]] and keep up to date on changes
 - Its pretty bare right now but plan on adding a lot more here over time. contributions most welcome :)
 
 ## Troubleshooting

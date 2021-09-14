@@ -2,9 +2,15 @@
 id: a6c03f9b-8959-4d67-8394-4d204ab69bfe
 title: Troubleshooting
 desc: ''
-updated: 1622990239253
+updated: 1628347844122
 created: 1595952505025
 ---
+
+## Summary
+
+This goes over diagnosing issues in Dendron. Troubleshooting issues are grouped by feature area. 
+
+<!-- 
 ## Diagnosing
 
 You can get a better idea of what went wrong by checking out the [[logs|dendron.guides.cook#checking-logs]]. At that point, you should be able to narrow down the root cause to one of the issues below. If not, please bring it up on the [discord](https://discord.gg/AE3NRw9) or file a [bug report](https://github.com/dendronhq/dendron/issues/new?assignees=&labels=&template=bug_report.md&title=)
@@ -16,9 +22,13 @@ Check the version numbers of your dependencies. You can get version numbers by r
 ```sh
 npm info @dendronhq/dendron-cli
 npm info @dendronhq/dendron-11ty
-```
+``` -->
 
-## Common Errors
+## Plugin 
+
+### Dendron is stuck on loading
+- fixes:
+  - [[Whitelisting localhost|dendron.guides.troubleshooting#whitelisting-localhost]]
 
 ### Engine not Initialized
 - cause: 
@@ -39,45 +49,35 @@ npm info @dendronhq/dendron-11ty
 - causes: Using the built-in preview instead of the Dendron preview
 - fixes: [[Use Dendron Markdown Preview|dendron.guides.troubleshooting#use-dendron-markdown-preview]]
 
+### Lookup Shortcut is not working
+- causes:
+  - you have the vim extension installed and its overriding the default dendron shortcut
+- fix: 
+  1. open command palette and run `Open Keyboard Shortcuts (JSON)`
+  2. add the following shortcut override
+    - NOTE: replace `cmd+l` with `ctrl+l` if you are on windows
+  ```json
+  {
+    "key": "cmd+l",
+    "command": "-expandLineSelection",
+    "when": "textInputFocus"
+  }
+  ```
 
-## Common Fixes
+### Cannot read property 'name' of undefined
 
-### Uninstall Conflicting Extensions
-Markdown Notes, Markdown Preview Enhanced, and Markdown All in One are known to interfere with Dendron
+This is an issue with upgrading to 0.47.0. If you are encountering this, you'll want to copy the following into `dendron.yml`
 
-### Use Dendron Markdown Preview
+```yml
+journal:
+    dailyDomain: daily
+    name: journal
+    dateFormat: y.MM.dd
+    addBehavior: childOfDomainNamespace
+    firstDayOfWeek: 1
+```
 
-The VSCode default markdown preview has the same icon as Dendron's Markdown Preview.  It is currently not possible to disable the builtin preview (we are looking into fixing this [here](https://github.com/dendronhq/dendron/issues/42)).
 
-Meanwhile, you can open Dendron's markdown preview by clicking the preview button on the left of the menu bar or by using the `> Markdown Preview Enhanced: Open Preview to the Side` command
-
-![Markdown preview](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/trouble-md.png)
-
-### Reload Dendron
-
-Sometimes Dendron views can get out of sync with notes. To fix, run `Dendron: Reload Index` to manually sync. If that doesn't work, you can also try `Developer: Reload Window` to restart VSCode.
-
-### Remove notes that extend from root
-
-We currently don't support creating children of `root.md` This note is special. While the contents can be edited, creating a hierarchy off root is not officially supported
-
-### Run Dendron inside a Workspace
-
-Dendron requires a VSCode [workspace file](https://code.visualstudio.com/docs/editor/multi-root-workspaces#_opening-workspace-files) to operate. Make sure to open the **dendron.code-workspace** file by following the instructions [here](https://code.visualstudio.com/docs/editor/multi-root-workspaces#_opening-workspace-files)
-
-### Clear the cache
-
-Delete dendron [[cache|dendron.ref.caching#summary]] files.
-
-### Whitelisting localhost
-
-Dendron starts a [[local server|dendron.dev.design#overview]] in the background and the plugin connects to it to index notes. Check that you don't have anything that is running or blocking localhost.
-
-### Correctly Format the Note
-
-Dendron can sometimes fail to load due to a malformed note. Common issues:
-- [[Frontmatter|dendron.topic.frontmatter]] is missing
-- frontmatter has no id
 
 ## Upgrading
 
@@ -200,6 +200,53 @@ You can see your installed
 
 You will get this if you have multiple [[vaults|dendron.topic.config.dendron#vaults]] that have the same name. This is an error with Dendron since Dendron requires all vault names be unique. You can fix this by removing the duplicate vaults or setting a unique [[name|dendron.topic.config.dendron#name]] property for the vault.  
 
+
+## Common Diagnostics
+
+### Launch a new workspace
+
+To check if there is something wrong with Dendron vs your particular workspace setup, launch Dendron in a new workspace by running [[Initialize Workspace|dendron.topic.commands#initialize-workspace]]. 
+
+## Common Fixes
+
+### Uninstall Conflicting Extensions
+Markdown Notes, Markdown Preview Enhanced, and Markdown All in One are known to interfere with Dendron
+
+### Reload Dendron
+
+Sometimes Dendron views can get out of sync with notes. To fix, run `Dendron: Reload Index` to manually sync. If that doesn't work, you can also try `Developer: Reload Window` to restart VSCode.
+
+### Remove notes that extend from root
+
+We currently don't support creating children of `root.md` This note is special. While the contents can be edited, creating a hierarchy off root is not officially supported
+
+### Run Dendron inside a Workspace
+
+Dendron requires a VSCode [workspace file](https://code.visualstudio.com/docs/editor/multi-root-workspaces#_opening-workspace-files) to operate. Make sure to open the **dendron.code-workspace** file by following the instructions [here](https://code.visualstudio.com/docs/editor/multi-root-workspaces#_opening-workspace-files)
+
+You can have Dendron create one if you hold down "Cmd+Shift+P" (CTRL+SHIFT+P on windows) and use the [[Launch Tutorial Command|dendron.topic.commands#launch-tutorial]]
+
+### Clear the cache
+
+Delete dendron [[cache|dendron.ref.caching#summary]] files.
+
+### Whitelisting localhost
+
+Dendron starts a [[local server|dendron.dev.design#overview]] in the background and the plugin connects to it to index notes. Check that you don't have anything that is running or blocking localhost.
+
+### Correctly Format the Note
+
+Dendron can sometimes fail to load due to a malformed note. Common issues:
+- [[Frontmatter|dendron.topic.frontmatter]] is missing
+- frontmatter has no id
+
+### Look for large files
+
+Dendron currently has trouble parsing notes larger than 1MB in size. Check if you have any notes like this and move them out of your workspace.
+
+### Book a one on one
+
+If all else fails, schedule a diagnostic session. 
 
 ## Send a support request
 

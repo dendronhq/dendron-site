@@ -11,7 +11,7 @@ created: 1622841295415
 
 In Dendron, your **workspace** is the root of where all your files are located. It's set when you first run `Dendron: Initialize Workspace`. The folder that contains your workspace is also known as your **workspace root**.
 
-A workspace has a `dendron.yml` file that specifies its [[vaults|dendron.ref.vaults]].
+A workspace has a `dendron.yml` file that specifies its [[vaults|dendron.topic.vaults]].
 
 ## Commands
 
@@ -25,7 +25,7 @@ Synchronizes all notes across all vaults with git. Any changes you made will be 
 
 In more detail: Dendron will first commit all your changes, then pull changes from the remote, and finally push everything back to the remote. This workflow is good in most cases: private notes, internal shared vaults, or your personal writings. This workflow doesn't work as well in some cases however, so we offer per-vault configuration options which you can use to adjust how your notes are synchronized.
 
-You can set these configuration options in your `dendron.yml`, either for each vault with the `sync` option, or for all [[workspace vaults|dendron.ref.vaults#workspace-vault]] with the `workspaceVaultSync` option. The configuration will look like this:
+You can set these configuration options in your `dendron.yml`, either for each vault with the `sync` option, or for all [[workspace vaults|dendron.topic.vaults#workspace-vault]] with the `workspaceVaultSync` option. The configuration will look like this:
 
 ```yml
 ... rest of your dendron.yml
@@ -52,7 +52,7 @@ Dendron will try to synchronize everything: Dendron will first commit all your c
 
 ##### noCommit
 
-Pull and push updates if the workspace is clean, but don't commit. You manually commit your local changes, but automatically share them once you committed. This is good for vaults where you want to write a meaningful commit message and control what is being committed, for example a shared knowledge base or wiki. This is the default for [[Workspace Vaults|dendron.ref.vaults#workspace-vault]].
+Pull and push updates if the workspace is clean, but don't commit. You manually commit your local changes, but automatically share them once you committed. This is good for vaults where you want to write a meaningful commit message and control what is being committed, for example a shared knowledge base or wiki. This is the default for [[Workspace Vaults|dendron.topic.vaults#workspace-vault]].
 
 ##### noPush
 

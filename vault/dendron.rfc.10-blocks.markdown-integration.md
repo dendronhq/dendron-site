@@ -12,9 +12,9 @@ created: 1619807298632
 - generate a `<a href="#id"></a>` element to given block 
 
 ## Tasks
-- [ ] compiling block links
-- [ ] compiling block anchors
-- [ ] compiling block link references
+- [x] compiling block links
+- [x] compiling block anchors
+- [x] compiling block link references
 
 ## Compiling block links
 - add a compiler for a block link

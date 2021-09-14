@@ -2,7 +2,7 @@
 id: 692fa114-f798-467f-a0b9-3cccc327aa6f
 title: Tips
 desc: ''
-updated: 1620400139991
+updated: 1631027580881
 created: 1595614204291
 ---
 
@@ -42,7 +42,7 @@ You can open search editor via keyboard shortcut. I use it to start a search wit
       "triggerSearch": false,
       "focusResults": false,
       "includes": "${fileBasenameNoExtension}",
-    }the following line
+    }
   }
 ```
 
@@ -98,8 +98,15 @@ You can collapse headers at different levels and bullets at different indentatio
 - [discord thread](https://discordapp.com/channels/717965437182410783/742532267058004098/759130627781558403)
 - Problem:
   - You want an easier way to `git add && git commit && git push`
-- Solution
+- Solution #1:
   - Use [git automator](https://marketplace.visualstudio.com/items?itemName=ivangabriele.vscode-git-add-and-commit).
+- Solution #2:
+  - Add alias to your bashrc/zshrc along the lines of 
+  ```
+  # WARNING: pushes straight to the main/master branch. Do not use on source code. 
+  alias gitaddcommitpushmain='git add . && git commit -m "update"; git fetch origin main && git rebase origin/main; git push origin main'
+  alias gitaddcommitpushmaster='git add . && git commit -m "update"; git fetch origin master && git rebase origin/master; git push origin master'
+  ```
 
 ### Publish to GitHub Pages with Actions
 
@@ -124,61 +131,76 @@ gitignore
 /node_modules/
 ```
 
-Create a `package.json` to install the package:
-
-```json
-{
-  "scripts": {
-    "dendron-cli": "dendron-cli"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/LukeCarrier/brain.git"
-  },
-  "license": "UNLICENSED",
-  "devDependencies": {
-    "@dendronhq/dendron-cli": "*"
+1. Create a `package.json` to install the package:
+  ```json
+  {
+    "scripts": {
+      "dendron": "dendron-cli"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/{{username}}/{{repo}}.git"
+    },
+    "license": "Creative Commons Attribution 4.0 International",
+    "devDependencies": {
+      "@dendronhq/dendron-cli": "*"
+    }
   }
-}
-```
+  ```
+2.  Create the workflow 
+  ```
+  mkdir -p .github/workflows
+  touch .github/workflows/dendron.yml
+  ```
+  Add the following
+  ```yaml
+  name: Dendron
 
-Create the workflow `.github/workflows/dendron.yml`:
+  on:
+    push:
+      branches:
+      - main
 
-```yaml
-name: Dendron
+  jobs:
+    build:
+      runs-on: ubuntu-latest
+      steps:
+      - name: Checkout source
+        uses: actions/checkout@v2
 
-on:
-  push:
-    branches:
-    - master
+      - name: Install npm dependencies
+        run: npm install
 
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-    - name: Checkout source
-      uses: actions/checkout@v2
+      - name: Build pod
+        run: npm run dendron-cli -- buildSite --wsRoot . --stage prod
 
-    - name: Install npm dependencies
-      run: npm install
-
-    - name: Build pod
-      run: npm run dendron-cli -- buildSite --wsRoot . 
-
-    - name: Deploy site
-      uses: peaceiris/actions-gh-pages@v3
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_branch: pages
-        publish_dir: docs/
-        force_orphan: true
-        enable_jekyll: true
-```
-
-Configure your repository's Pages settings as follows:
-
-* _Branch_: `pages`
-* _Folder_: _/ (root)_
+      - name: Deploy site
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: pages
+          publish_dir: docs/
+          force_orphan: true
+          enable_jekyll: false
+  ```
+  3. Commit all your changes
+  ```
+  git add .
+  git commit -m "add dendron action"
+  ```
+  4. Create the pages branch
+  Configure your repository's Pages settings as follows:
+  ```
+  git checkout -b pages
+  git push -u origin HEAD
+  ```
+  5. Update pages branch on github
+  - go to the pages settings, eg. `https://github.com/dendronhq/seed.services/settings/pages`
+    - choose the following
+    ```
+    * _Branch_: `pages`
+    * _Folder_: _/ (root)_
+    ```
 
 Finally, commit these three files and push them to your `master` branch. Within a few seconds you should see the workflow run, your `pages` branch get updated and your Pages build start.
 
@@ -313,14 +335,6 @@ You can see a video of this workflow in the video below.
 <a href="https://www.loom.com/share/dd27df6d556d4ba6b28b2028ca7d1455"> 
 <img style="" src="https://cdn.loom.com/sessions/thumbnails/dd27df6d556d4ba6b28b2028ca7d1455-with-play.gif"> </a>
 
-### Always show preview of md being edited
-
-Set the following option in your workspace settings
-
-```json
-"markdown-preview-enhanced.automaticallyShowPreviewOfMarkdownBeingEdited": true,
-```
-
 
 ## Snippets
 
@@ -429,6 +443,7 @@ This is a list of other tools that work well with Dendron.
 - [Bookmarks](https://marketplace.visualstudio.com/items?itemName=alefragnani.Bookmarks): Bookmark lines within File [Vertical Limit](https://marketplace.visualstudio.com/items?itemName=generik.vertical-limit): Work with multiple cursors and blocks of text
 - [CodeUI](https://marketplace.visualstudio.com/items?itemName=ryanraposo.codeui): Easier customization of every part of the VSCode UI
 - [Open in Typora](https://marketplace.visualstudio.com/items?itemName=cyberbiont.vscode-open-in-typora&utm_source=VSCode.pro&utm_campaign=AhmadAwais): Open note in Typora
+- [Profile Switcher](https://marketplace.visualstudio.com/items?itemName=aaronpowell.vscode-profile-switcher): Create different set of extension profiles
 
 ## Other Browser Extensions
 

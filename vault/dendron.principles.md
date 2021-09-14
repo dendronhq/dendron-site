@@ -2,7 +2,7 @@
 id: 7fcebd7d-6411-4c9d-8baf-65629dc018a1
 title: Principles
 desc: ''
-updated: 1619212498244
+updated: 1628435541479
 created: 1600440828180
 stub: false
 nav_order: 1.3
@@ -20,13 +20,17 @@ Dendron should be the fastest way for **people** to access the information they 
 
 Dendron should become easier to use as you accumulate more notes. 
 
+### Sensible Defaults
+
+Dendron, while being configurable, should have defaults such that work for most people out of the box. 
+
 ### Ownership
 
 Users should have **full control** of their data and it should be our first principle to maximize this as much as possible.
 
 ### Interoperability
 
-It should be possible to import/export your data from/to any other source where a user might want to use their information.
+We aim to make it **easy** for you to use your notes in **any tool or platform** that is most useful to you.  It should be possible to import/export your data from/to any other source where a user might want to use their information.
 
 ### Easy to learn, hard to master
 
@@ -37,7 +41,7 @@ It should be possible to import/export your data from/to any other source where 
 
 ### Open and Inclusive
 
-Dendron is a tool for **all users** that are interested in creating, building, using, and sharing knowledge. full stop. 
+Dendron is a tool for **all users** that are interested in creating, building, using, and sharing knowledge. Full stop. 
 
 ### Have it in writing
 
