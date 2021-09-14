@@ -2,7 +2,7 @@
 id: 0e57f8d1-e501-49db-974c-01eb64c20c22
 title: Creating Notes
 desc: ''
-updated: 1608752992139
+updated: 1631252987241
 created: 1608494562268
 ---
 ## Summary
@@ -10,6 +10,8 @@ created: 1608494562268
 While we call it the `Lookup Bar`, you can also use it to create notes that don't exist. When you lookup for a note that hasn't been created, Dendron will create it for you. 
 
 To try it yourself, bring up the lookup bar. Type `hello` and hit `Enter`.
+
+When looking up a note that does NOT have any special characters [" ","|","*","^","$","!","=","'"] (note: space is deemed as special character), and does NOT yet exist, `Create New` will bubble up to the top of query results to make it convenient to create a new note. 
 
 ## Creating Special Notes
 
