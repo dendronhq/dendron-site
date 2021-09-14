@@ -2,7 +2,7 @@
 id: 84df871b-9442-42fd-b4c3-0024e35b5f3c
 title: Telemetry
 desc: ''
-updated: 1626381612883
+updated: 1631614942381
 created: 1619460500071
 ---
 
@@ -20,6 +20,7 @@ We use telemetry to answer the following questions:
   - how many people are actively using Dendron?
   - how performant is Dendron over time and how do new changes impact performance?
   - what features are most useful for users?
+  - what exceptions and errors are users encountering?
 
 ## What is not collected
 
@@ -29,16 +30,16 @@ Dendron will **never** collect data inside your notes. We believe that your pers
 
 The below is a collection of common fields that are collected
 
-|          Field | Attributes | Description                                                                            |
-| -------------: | :--------: | :------------------------------------------------------------------------------------- |
-|      `app` |  _string_  | Currently installed version of the product (e.g. `1.0.0-rc0`)                          |
-|      `ideVersion` |  _string_  | Currently installed version of the IDE (e.g. `1.0.0-rc0`)                          |
-|      `userAgent` |  _string_  |  The specific IDE in question(e.g. `VSCodium`)                          |
-|         `arch` |  _string_  | Client's operating system architecture (e.g. `amd64`).                                 |
-|           `os` |  _string_  | Client's operating system (e.g. `darwin`).                                             |
-| `nodeVersion` |  _string_  | Client's node version (e.g. `v12.12.0`).                                               |
-|    `anonymousId` |  _string_  | Random, non-identifiable signature nanoID (e.g. `JC6NXxDa0lDFD1Mu7U2Ga`) |
-|    `timestamp` |  _string_  | When the request was made   |
+| Field         | Attributes | Description                                                              |
+| ------------: | :--------: | ------------------------------------------------------------------------ |
+| `app`         | _string_   | Currently installed version of the product (e.g. `1.0.0-rc0`)            |
+| `ideVersion`  | _string_   | Currently installed version of the IDE (e.g. `1.0.0-rc0`)                |
+| `userAgent`   | _string_   | The specific IDE in question(e.g. `VSCodium`)                            |
+| `arch`        | _string_   | Client's operating system architecture (e.g. `amd64`).                   |
+| `os`          | _string_   | Client's operating system (e.g. `darwin`).                               |
+| `nodeVersion` | _string_   | Client's node version (e.g. `v12.12.0`).                                 |
+| `anonymousId` | _string_   | Random, non-identifiable signature nanoID (e.g. `JC6NXxDa0lDFD1Mu7U2Ga`) |
+| `timestamp`   | _string_   | When the request was made                                                |
   
 
 ## When is data collected?
@@ -49,12 +50,12 @@ Data is collected in scenarios that are described below.
 
 When Dendron initializes, we collect data about on initialization time. This helps us measure the performance impact of changes that run before startup as well as improvements to our indexing performance over time. 
 
-|          Field | Attributes | Description                                                                            |
-| -------------: | :--------: | :------------------------------------------------------------------------------------- |
-|      `duration` |  _number_| Number of seconds for startup
-|      `numNotes` |  _number_| Number of notes across all vaults (rounded to the nearest 10 notes) |
-|      `numVaults` |  _number_| Number of vaults in workspace |
-|      `noCaching` |  _boolean_| Check whether caching is disabled |
+| Field       | Attributes | Description                                                         |
+| ----------: | :--------: | ------------------------------------------------------------------- |
+| `duration`  | _number_   | Number of seconds for startup                                       |
+| `numNotes`  | _number_   | Number of notes across all vaults (rounded to the nearest 10 notes) |
+| `numVaults` | _number_   | Number of vaults in workspace                                       |
+| `noCaching` | _boolean_  | Check whether caching is disabled                                   |
 
 
 ### Tutorial Progression
@@ -66,10 +67,10 @@ When Dendron starts for the first time, it launches users into a tutorial workfl
 When Dendron is first installed or upgraded, we collect information about both previous and current versions. This helps us plan deprecation policies. 
 
 
-|          Field | Attributes | Description                                                                            |
-| -------------: | :--------: | :------------------------------------------------------------------------------------- |
-|      `previousVersion` |  _string_| Previous version of Dendron |
-|      `duration` |  _number_| Number of seconds for startup
+| Field             | Attributes | Description                   |
+| ----------------: | :--------: | ----------------------------- |
+| `previousVersion` | _string_   | Previous version of Dendron   |
+| `duration`        | _number_   | Number of seconds for startup |
 
 ### Lookup
 
@@ -81,23 +82,32 @@ Events
 - Lookup Accept: when a result from lookup is accepted
 
 
-|          Field | Attributes | Description                                                                            |
-| -------------: | :--------: | :------------------------------------------------------------------------------------- |
-|      `flavor` |  _string_| What kind of lookup ("schema" or "note") |
-|      `error` |  _boolean_| Did an error happen during this phase? |
-|      `source` |  _string_| What initiated the lookup? ("onValueChange", "updatePickerBehavior:journal", etc ) |
-|      `createNewNote` |  _boolean_| Was a new note created during this phase? |
+| Field           | Attributes | Description                                                                        |
+| --------------: | :--------: | ---------------------------------------------------------------------------------- |
+| `flavor`        | _string_   | What kind of lookup ("schema" or "note")                                           |
+| `error`         | _boolean_  | Did an error happen during this phase?                                             |
+| `source`        | _string_   | What initiated the lookup? ("onValueChange", "updatePickerBehavior:journal", etc ) |
+| `createNewNote` | _boolean_  | Was a new note created during this phase?                                          |
 
 ### Commands
 
 We collect an invocation metric when a [[commands|dendron.topic.commands]] is invoked. This is to measure command latency as well as detect errors in existing and new commands
 
 
-|          Field | Attributes | Description                                                                            |
-| -------------: | :--------: | :------------------------------------------------------------------------------------- |
-|      `error` |  _boolean_| Did an error happen during this phase? |
-|      `duration` |  _number_| How long did it take to execute this command|
+| Field      | Attributes | Description                                  |
+| ---------: | :--------: | -------------------------------------------- |
+| `error`    | _boolean_  | Did an error happen during this phase?       |
+| `duration` | _number_   | How long did it take to execute this command |
 
+### Errors
+
+Whenever a crash happens or an unexpected error, we collect information surrounding the error to help us diagnose the problem and fix it. For more information, see [[Error Reporting|dendron.dev.errors.reporting]].
+
+| Field     | Attributes | Description                                                                                                   |
+| --------: | :--------: | ------------------------------------------------------------------------------------------------------------- |
+| `ctx`     | _number_   | What happened right before the error occurred?                                                                |
+| `message` | _string_   | The error message itself                                                                                      |
+| `payload` | _string_   | Payload with diagnostics information such as exception call stacks, exception severity, and HTTP error codes. |
 
 ### Other
 
@@ -106,9 +116,9 @@ These are groupings of other metrics we collect. We collect them to gather perfo
 Events
 - TreeView Ready: measures when the web ui based [[TreeView|dendron.ref.web-ui#treeview]] is finished loading
 
-|          Field | Attributes | Description                                                                            |
-| -------------: | :--------: | :------------------------------------------------------------------------------------- |
-|      `duration` |  _number_| How long it takes for the tree view to be initialized |
+| Field      | Attributes | Description                                           |
+| ---------: | :--------: | ----------------------------------------------------- |
+| `duration` | _number_   | How long it takes for the tree view to be initialized |
 
 ### Telemetry Toggle
 When telemetry is disabled or enabled, we collect information about the event to let us get an estimate of the number of untracked clients
