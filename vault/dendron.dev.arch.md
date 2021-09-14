@@ -2,7 +2,7 @@
 id: ENeBSPWAtTlQclXYWNm6c
 title: Architecture
 desc: ''
-updated: 1630967517525
+updated: 1631579250880
 created: 1629988601634
 ---
 
@@ -31,6 +31,9 @@ This goes over the major architectural components of Dendron.
 ## Other
 - NextJS
   - Layout: [[Layout|pkg.nextjs-template.t.layout]]
+
+
+## Deployment
 
 ## Related
 - [[Dendron Plugin|pkg.dendron-plugin.arch]]
