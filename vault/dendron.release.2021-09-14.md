@@ -2,7 +2,7 @@
 id: aURuqCucZegsCpJSb5m90
 title: Release Notes (version 0.59)
 desc: ''
-updated: 1631660464340
+updated: 1631662867020
 created: 1631659388102
 ---
 
@@ -50,7 +50,6 @@ We've had quite a number of [[Rfc|dendron.rfc]] in flight. This is a highlight o
 ### Community
 #### Office Hours
 
-<!-- TODO: update the link -->
 You can find notes from our latest office hours [[here|dendron.community.office-hours.2021.09.12]]
 
 #### Thank You's
