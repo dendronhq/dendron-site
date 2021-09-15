@@ -2,7 +2,7 @@
 id: O4f9yfDoO7E7gRRDeBeCh
 title: 22 Queries
 desc: ''
-updated: 1630696401071
+updated: 1631684295665
 created: 1629395624110
 ---
 
@@ -159,9 +159,9 @@ Cons:
 ## Notes
 
 The implementation will be internally based on
-[[DataScript|https://github.com/tonsky/datascript]], which will allow us to
+[DataScript](https://github.com/tonsky/datascript), which will allow us to
 support very powerful queries while also simplifying the implementation.
 
 ## Discussion
 
-Please send any suggestions, thoughts, questions or concerns to the [Discussions](https://wiki.dendron.so/notes/O4f9yfDoO7E7gRRDeBeCh.html) page.
+Please send any suggestions, thoughts, questions or concerns to the [Discussions](https://github.com/dendronhq/dendron/discussions/1284) page.
