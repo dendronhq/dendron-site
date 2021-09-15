@@ -2,7 +2,7 @@
 id: wnjZiTP1UEW9e0aGz1HT0
 title: Milestones
 desc: ''
-updated: 1631544660488
+updated: 1631724779793
 created: 1629514021198
 ---
 
@@ -17,11 +17,11 @@ See [here](https://handbook.dendron.so/notes/0292b34e-47eb-4499-8f49-d9891accdb3
 - x Fixed Header
 - x SEO options
 - x Edit on Github Link
-- w Responsive side bar 
--   Advanced SEO Options 
-
-- [ ] Custom Theming Support
--   [[Full text search|scratch.2021.09.05.210615.full-text-search]]
+- x Responsive side bar 
+- ***
+- w Advanced SEO Options 
+- a Custom Theming Support
+- w [[Full text search|scratch.2021.09.05.210615.full-text-search]]
 -   [[Support live local preview for publishing|dendron.rfc.21-modern-web-client#3-support-live-local-preview-for-publishing]]
 
 ### Enhancements
@@ -43,22 +43,22 @@ See [here](https://handbook.dendron.so/notes/0292b34e-47eb-4499-8f49-d9891accdb3
   - x support [[siteUrl|dendron.topic.publishing.configuration#siteurl]]
   - x support [[usePrettyRefs|dendron.topic.publishing.configuration#useprettyrefs]] #assigned
   - x support [[gh_edit_repository|dendron.topic.publishing.configuration#gh_edit_repository]]
-  - SEO options
-    - see [Introducing next-seo, SEO for Next.js](https://www.garymeehan.ie/blog/seo-in-nextjs-with-next-seo)
-    -   support [[author|dendron.topic.publishing.configuration#author]] seo property #size.small
-    -   support [[twitter|dendron.topic.publishing.configuration#twitter]] seo property #size.small
-    -   support [[image|dendron.topic.publishing.configuration#image]]
-  - Note config
-    -   x support [[canonicalUrl|dendron.topic.publishing.configuration#canonicalurl]] #size.small
-    -   support [[published|dendron.topic.publishing.configuration#published]] #size.small
-    -   support [[noindex|dendron.topic.publishing.configuration#noindex]] #size.small
-    -   support [[gitNoLink|dendron.topic.publishing.configuration#gitnolink]] #size.small
-    - y @hikchoi support [[collection options|dendron.topic.publishing.configuration#collection-options]] #size.small #scope.publishing ^lQkPH1vG6gzd
-        - Lookup
-          - [Building a Blog with Next.js](https://timber.io/blog/building-a-blog-with-next-js/)
-          - [GitHub - tscanlin/next-blog: Markdown based blog using next.js, supporting static export](https://github.com/tscanlin/next-blog)
-          - [GitHub - wutali/nextjs-netlify-blog-template: Next.js blogging template for Netlify](https://github.com/wutali/nextjs-netlify-blog-template)
--   Support nav order in Single Hiearchy Workspaces
+- SEO options
+  - see [Introducing next-seo, SEO for Next.js](https://www.garymeehan.ie/blog/seo-in-nextjs-with-next-seo)
+  -   support [[author|dendron.topic.publishing.configuration#author]] seo property #size.small
+  -   support [[twitter|dendron.topic.publishing.configuration#twitter]] seo property #size.small
+  -   support [[image|dendron.topic.publishing.configuration#image]]
+- Note config
+  -   x support [[canonicalUrl|dendron.topic.publishing.configuration#canonicalurl]] #size.small
+  -   support [[published|dendron.topic.publishing.configuration#published]] #size.small
+  -   support [[noindex|dendron.topic.publishing.configuration#noindex]] #size.small
+  -   support [[gitNoLink|dendron.topic.publishing.configuration#gitnolink]] #size.small
+- x @hikchoi support [[collection options|dendron.topic.publishing.configuration#collection-options]] #size.small #scope.publishing ^lQkPH1vG6gzd
+    - Lookup
+      - [Building a Blog with Next.js](https://timber.io/blog/building-a-blog-with-next-js/)
+      - [GitHub - tscanlin/next-blog: Markdown based blog using next.js, supporting static export](https://github.com/tscanlin/next-blog)
+      - [GitHub - wutali/nextjs-netlify-blog-template: Next.js blogging template for Netlify](https://github.com/wutali/nextjs-netlify-blog-template)
+- x Support nav order in Single Hiearchy Workspaces
 - y Set max-width constraints for content 
 - x Navigate to home page using `nextjs/link` instead of `<a>` 
 - y integarte nextjs with [[pkg.dendron-cli]] 
