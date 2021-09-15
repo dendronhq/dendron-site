@@ -8,6 +8,6 @@
   },
   "dependencies": {
     "@dendronhq/dendron-11ty": "^1.59.0",
-    "@dendronhq/dendron-cli": "^0.59.0"
+    "@dendronhq/dendron-cli": "^0.58.4"
   }
 }
