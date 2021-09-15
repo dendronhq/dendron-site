@@ -2,7 +2,7 @@
 id: aURuqCucZegsCpJSb5m90
 title: Release Notes (version 0.59)
 desc: ''
-updated: 1631662867020
+updated: 1631679038644
 created: 1631659388102
 ---
 
@@ -57,10 +57,10 @@ You can find notes from our latest office hours [[here|dendron.community.office-
 A big **thanks** to the following gardeners that brought up issues, contributions, and fixes to this release :man_farmer: :woman_farmer: 
 You can see an overview of all roles [[here|dendron.community.roles]]
 
-- [kzilla](https://github.com/dendronhq/dendron/issues/1312) kzilla#8818
+- [kzilla](https://github.com/dendronhq/dendron/issues/1312) `@kzilla#8818`
     - #dendron.bugcatcher
     - ['Extension host terminated unexpectedly' - Argdown · Issue #1312 · dendronhq/dendron](https://github.com/dendronhq/dendron/issues/1312)
-- [Aleksey Rowan](https://github.com/aleksey-rowan) @aleksey#5276
+- [Aleksey Rowan](https://github.com/aleksey-rowan) `@aleksey#5276`
     - [Frontmatter Variable Substitution doesn't work in V2 Preview/Publishing · Issue #1322 · dendronhq/dendron](https://github.com/dendronhq/dendron/issues/1322)
 - [Parth Shah](https://github.com/parthmshah1302)
     - [Cannot build site due to dependency error (11ty)  · Issue #1324 · dendronhq/dendron](https://github.com/dendronhq/dendron/issues/1324)
