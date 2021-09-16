@@ -2,7 +2,7 @@
 id: 60fbcc05-df2a-44a2-aa0e-cdd62c2557b6
 title: Qa
 desc: ''
-updated: 1631657391555
+updated: 1631817564476
 created: 1614812225185
 ---
 
@@ -37,6 +37,23 @@ test.only("bond", async () => {
   const { testFunc, ...opts } = preset;
   await runEngineTestV5(testFunc, { ...opts, createEngine, expect });
   
+});
+```
+
+### Running a group of test
+
+```ts
+const presetName = "rename"
+const group = getPresetGroup({nodeType, presetName, presets: ENGINE_PRESETS});
+describe.only(presetName, () => {
+  test.each(
+    _.map(group, (v, k) => {
+      return [k, v];
+    })
+  )("%p", async (_key, TestCase) => {
+    const { testFunc, ...opts } = TestCase;
+    await runEngineTestV5(testFunc, { ...opts, expect });
+  });
 });
 ```
 

@@ -2,7 +2,7 @@
 id: cc302bfb-bf82-4ec7-9956-b989d2d68338
 title: Engine Client
 desc: ''
-updated: 1620440666362
+updated: 1631812380476
 created: 1620440278503
 ---
 
@@ -28,6 +28,8 @@ writeNote props {
 }
 
 ```
+
+- See [[Create|pkg.dendron-engine.t.engine#create]]
 
 
 ## Ref
