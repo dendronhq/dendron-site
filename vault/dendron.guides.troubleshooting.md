@@ -21,7 +21,6 @@ Check the version numbers of your dependencies. You can get version numbers by r
 
 ```sh
 npm info @dendronhq/dendron-cli
-npm info @dendronhq/dendron-11ty
 ``` -->
 
 ## Plugin 
