@@ -2,7 +2,7 @@
 id: f2ed8639-a604-4a9d-b76c-41e205fb8713
 title: Configuration
 desc: ''
-updated: 1629514693398
+updated: 1631770233718
 created: 1608528797892
 nav_order: 3
 ---
@@ -79,7 +79,9 @@ duplicateNoteBehavior:
 ### ga_tracking 
 Your ga tracking number if you want to add google analytics. 
 
-- NOTE: won't be included in `dev` preview
+- NOTE: 
+  - won't be included in `dev` preview.
+  - we (as Dendron organization) are not using this to track analytics on individual user's personal sites.
 
 ### githubCname
 - default: none
