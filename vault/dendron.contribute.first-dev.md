@@ -2,7 +2,7 @@
 id: 70b4a93a-c7e0-4e1c-a873-3a9a291f5248
 title: First Time Developers
 desc: ''
-updated: 1616426423400
+updated: 1631764893711
 created: 1605760540330
 ---
 If you are interested in contributing to Dendron but haven't spent your career doing software, worry not. This is definitely something you can 🌱 into.
@@ -13,6 +13,7 @@ If you are completely new to software development, I would encourage you to look
 
 - primer to typescript (everything in Dendron is based on this): <https://www.typescriptlang.org/docs/handbook/typescript-from-scratch.html>
 - go through the javascript course: <https://www.codecademy.com/learn/introduction-to-javascript>
+- go throught webdev course here: [Web-Dev-For-Beginners: 24 Lessons, 12 Weeks, Get Started as a Web Developer](https://github.com/microsoft/Web-Dev-For-Beginners)
 
 When you are ready to make a contribution, you can follow the instructions in the [[development page|dendron.contribute.dev]]
 

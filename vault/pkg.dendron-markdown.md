@@ -2,7 +2,7 @@
 id: 69746008-2fa0-4036-b443-b15076a3d6bf
 title: Dendron Markdown
 desc: ''
-updated: 1623640787131
+updated: 1631752493564
 created: 1618848143084
 ---
 
@@ -19,6 +19,7 @@ Markdown toolchain for Dendron
 
 ## Details
 - See [walthrough](https://youtu.be/uEOnZiZaiCc) of the code 
+- NOTE: we are using `unified 9.X`. this is incomaptible with `unified 10.X` plugins
 
 ```mermaid
 sequenceDiagram
@@ -27,6 +28,8 @@ sequenceDiagram
 	participant processor3
 
 ```
+
+
 
 ## Unified
 - unified
