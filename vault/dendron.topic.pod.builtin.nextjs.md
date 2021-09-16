@@ -2,7 +2,7 @@
 id: 5fGMHyXmErIV9odz01BBH
 title: Nextjs
 desc: ''
-updated: 1631827002538
+updated: 1631835254223
 created: 1628955339442
 ---
 
@@ -15,6 +15,7 @@ created: 1628955339442
 
 Running this pod will create the following files in `dest`.
 
+```
 - dendron.json
 - fuse.json
 - meta/
@@ -22,24 +23,6 @@ Running this pod will create the following files in `dest`.
 - notes/
   - {id}.html
 - notes.json
-
-
-The notes.json file has the following property.
-```ts
-export type NoteData = {
-  /**
-   * All notes that are published
-   */
-  notes: NotePropsDict;
-  /**
-   * All top level domains that are published
-   */
-  domains: NoteProps[] ;
-  /**
-   * The note for the home page
-   */
-  noteIndex: NoteProps;
-};
 ```
 
 ## References
@@ -54,4 +37,33 @@ This is a compiled version of Dendron's search index. It is used for search
 
 ### meta/{id}.json
 
-This is 
+These files contain metadata for a [[note|pkg.common-all#noteprops]]. It contains everything excet the note body
+
+### notes/{id}.html
+
+These files contain the HTML rentered note bodies.
+
+### notes.json
+
+Used to generate the navbar and other components of the final site
+
+```ts
+export type NoteData = {
+  /**
+   * All notes that are published
+   */
+  notes: NotePropsDict;
+  /**
+   * All top level domains that are published
+   */
+  domains: NoteProps[];
+  /**
+   * The note for the home page
+   */
+  noteIndex: NoteProps;
+  /**
+   * All vaults in the workspace
+   */
+  vaults: DVault[];
+};
+```

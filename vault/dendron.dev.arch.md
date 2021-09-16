@@ -2,7 +2,7 @@
 id: ENeBSPWAtTlQclXYWNm6c
 title: Architecture
 desc: ''
-updated: 1631656722291
+updated: 1631834951977
 created: 1629988601634
 ---
 
@@ -28,6 +28,7 @@ This goes over the major architectural components of Dendron.
   - Themes
   - Publishing: [[Logic to check if a page can be published|pkg.dendron-engine.t.publishing#logic-to-check-if-a-page-can-be-published]]
   - Markdown: [[pkg.dendron-markdown.arch]]
+  - Notes
 
 ## Other
 - NextJS
