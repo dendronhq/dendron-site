@@ -160,7 +160,7 @@ Seed Browser is a new view that let's you view Seeds that are available in the S
 
 - improve hover message for missing notes 
 - ability to set selection type to `none` ([[docs|dendron.topic.config.dendron#lookup]])
-- use github publish to create new issues ([[docs|dendron.topic.pod.builtin.github.publish]])
+- use github publish to create new issues ([[docs|dendron.topic.pod.builtin.github-issue.publish]])
 - nicer refactor preview 
 - treeview improvements when publishing using nextjs
 - added dendron cache to .gitignore on vault add
@@ -294,7 +294,7 @@ The [[Calendar View|dendron.ref.web-ui#calendar-view]] is no longer hidden behin
 ### Features
 
 #### Github Publish Pod
-- ![[dendron.topic.pod.builtin.github.publish#summary,1:#*]]
+- ![[dendron.topic.pod.builtin.github-issue.publish#summary,1:#*]]
 
 #### Custom Colors for Tags
 - [[Customizable tag colors|dendron.topic.tags#custom-tag-colors]] to color code your tags
