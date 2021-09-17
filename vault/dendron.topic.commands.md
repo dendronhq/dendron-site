@@ -2,7 +2,7 @@
 id: eea2b078-1acc-4071-a14e-18299fc28f47
 title: Commands
 desc: ''
-updated: 1629936947863
+updated: 1631868060687
 created: 1595261816971
 ---
 
@@ -290,6 +290,13 @@ Rename the selected header.
 
 You must put the caret on the header you want to rename.
 All wikilinks that link to this header (like `[[note#header]]`) will automatically get updated to the new header.
+
+### Move Header
+
+- shortcuts: none
+
+This command removes the selected header from the note and appends it to the end of the destination note body.
+All wikilinks that link to this header will automatically get updated to the new header.
 
 ### Show Preview
 
