@@ -33,7 +33,7 @@ See [here](https://handbook.dendron.so/notes/0292b34e-47eb-4499-8f49-d9891accdb3
   - x support [[copyAssets|dendron.topic.publishing.configuration#copyassets]]
   - y support [[customHeaderPath|dendron.topic.publishing.configuration#customheaderpath]] #size.small 
   - x support [[duplicateNoteBehavior|dendron.topic.publishing.configuration#duplicatenotebehavior]]
-  - a @joshi support [[ga_tracking|dendron.topic.publishing.configuration#ga_tracking]] #size.small   ^gUoZRr5ALw4Z 
+  - x @joshi support [[ga_tracking|dendron.topic.publishing.configuration#ga_tracking]] #size.small   ^gUoZRr5ALw4Z 
     - see [Using Google Analytics with Next.js](https://malloc.fi/using-google-analytics-with-next-js)
   - x support [[logo|dendron.topic.publishing.configuration#logo]]
   - x support [[githubCname|dendron.topic.publishing.configuration#githubcname]] ^MlGtBGkqaWAn
