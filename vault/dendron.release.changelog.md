@@ -7,6 +7,27 @@ date: '2022-01-01'
 ---
 
 
+## 0.59.2
+
+### Features
+- @kaan feat(publish): nextjs publishing fulltext search (#1334)
+
+
+### Enhancements
+- @joshi enhance(publish): Add Google Analytics to Published Site (#1300)
+- @joshi feat(pods): various github pod improvements ([[docs|dendron.topic.pod.builtin.github-issue]]) (#1345)
+  - imported issues now have `author` field for user who submitted issue
+  - you can now update the `milestone` using pods
+  - you can now create a new github discussion using pods
+  - renamed to github issue pod #breaking
+
+### Bug Fixes
+- @kevin fix(commands): rename note leaves incorrect metadata if parent is a stub (#1348)
+- @kaan fix(workspace): disable certain decorations for long notes to avoid performance hit (#1337)
+
+### Internal
+- @kevin chore(workspace): consolidate http status code in common-all (#1344)
+
 ## 0.59.1
 
 ### Bug Fixes
