@@ -2,7 +2,7 @@
 id: 1399b5d2-28fb-4077-aa5f-c8edbe52bc5d
 title: Preview Your Site
 desc: ''
-updated: 1622954640267
+updated: 1631833327494
 created: 1610844309611
 nav_order: 1
 ---
@@ -28,7 +28,7 @@ In order to to publish, run the following commands inside your workspace.
 ```bash
 npm init -y
 npm install @dendronhq/dendron-cli@latest
-npm install @dendronhq/dendron-11ty@latest
+npm install @dendronhq/dendron-11ty-legacy@latest
 ```
 
 ### Local Preview

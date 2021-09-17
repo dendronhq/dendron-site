@@ -22,7 +22,7 @@ jobs:
       run: yarn dendron-cli -- --version
 
     - name: Build pod
-      run: yarn dendron-cli -- buildSiteV2 --wsRoot .  --stage prod
+      run: LOG_LEVEL=info yarn dendron-cli -- buildSiteV2 --wsRoot .  --stage prod
 
     - name: Deploy site
       uses: peaceiris/actions-gh-pages@v3

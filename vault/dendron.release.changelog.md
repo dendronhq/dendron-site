@@ -1,11 +1,17 @@
 ---
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
-
 desc: ''
-updated: 1631660183749
+updated: 1631830576855
 created: 1601508213606
 date: '2022-01-01'
 ---
+
+
+## 0.59.1
+
+### Bug Fixes
+- fix(workspace): Dendron now sets minimum vscode version to 1.58
+- fix(publish): update 11ty version
 
 ## 0.59
 
