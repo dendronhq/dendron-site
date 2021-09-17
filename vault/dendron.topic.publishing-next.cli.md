@@ -2,7 +2,7 @@
 id: yQVhJtdQ40n3SLHJKAeeU
 title: CLI
 desc: ''
-updated: 1631402388524
+updated: 1631902123478
 created: 1631401993170
 ---
 
@@ -21,3 +21,9 @@ Prepare notes for publication. Runs [[Nextjs|dendron.topic.pod.builtin.nextjs]] 
 
 ![[dendron.topic.publishing-next.cook.common#build-notes,1:#*]]
 
+
+#### with override
+
+```
+dendron publish build --override="siteUrl=foo.com"
+```

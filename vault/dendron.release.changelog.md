@@ -1,21 +1,20 @@
 ---
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 desc: ''
-updated: 1631830576855
+updated: 1631911137363
 created: 1601508213606
 date: '2022-01-01'
 ---
 
-
-## 0.59.2
+## 0.59.3
 
 ### Features
-- @kaan feat(publish): nextjs publishing fulltext search (#1334)
+- @kaan feat(publish): nextjs publishing supports fulltext search (#1334)
 
 
 ### Enhancements
 - @joshi enhance(publish): Add Google Analytics to Published Site (#1300)
-- @joshi feat(pods): various github pod improvements ([[docs|dendron.topic.pod.builtin.github-issue]]) (#1345)
+- @joshi enhance(pods): various github pod improvements ([[docs|dendron.topic.pod.builtin.github-issue]]) (#1345)
   - imported issues now have `author` field for user who submitted issue
   - you can now update the `milestone` using pods
   - you can now create a new github discussion using pods
@@ -27,6 +26,11 @@ date: '2022-01-01'
 
 ### Internal
 - @kevin chore(workspace): consolidate http status code in common-all (#1344)
+
+## 0.59.2
+
+### Bug Fixes
+- fix(workspace): issue with building new vsix with updated 11ty version
 
 ## 0.59.1
 

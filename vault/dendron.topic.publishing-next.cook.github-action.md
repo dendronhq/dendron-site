@@ -2,7 +2,7 @@
 id: FnK2ws6w1uaS1YzBUY3BR
 title: GitHub Action
 desc: ''
-updated: 1631314515101
+updated: 1631901795951
 created: 1631306630307
 ---
 
@@ -15,8 +15,7 @@ Example: [dendron blog](https://github.com/dendronhq/dendron-blog)
 ## Process
 1. Create a workflow
   ```sh
-  mkdir .github
-  mkdir .github/workflows
+  mkdir -p .github/workflows
   touch .github/workflows/publish.yml
   ```
 
