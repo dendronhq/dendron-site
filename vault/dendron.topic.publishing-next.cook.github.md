@@ -2,7 +2,7 @@
 id: yg3EL1x9fEe4NMqxUC3jP
 title: GitHub
 desc: ''
-updated: 1631132196609
+updated: 1631917062472
 created: 1631132196609
 ---
 
@@ -19,7 +19,6 @@ You can publish your notes using Dendron Next Publishing and Github pages
 ### Examples
 - [Publish with custom CNAME](https://github.com/dendronhq/dendron-blog)
 - [Publish under github subdomain](https://github.com/kevinslin/dendron-next-test)
-
 
 ## Process - Setup Github
 
@@ -100,7 +99,8 @@ site:
 
 Publish your notes to the `/docs` folder
 ```
-[[ -d ../docs ]] && rm -r ../docs && mv out ../docs && touch ../docs/.nojekyll
+[[ -d ../docs ]] && rm -r ../docs 
+mv out ../docs && touch ../docs/.nojekyll
 ```
 
 ### Deploy your changes

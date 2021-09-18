@@ -2,7 +2,7 @@
 id: ENeBSPWAtTlQclXYWNm6c
 title: Architecture
 desc: ''
-updated: 1631834951977
+updated: 1631976955296
 created: 1629988601634
 ---
 
@@ -11,7 +11,7 @@ created: 1629988601634
 This goes over the major architectural components of Dendron.
 
 ## Components
-- You can find an index of all Dendron packages [[here|pkg]]
+- You can find an index of all Dendron packages [[here|dendron://dendron.dendron-site/pkg]]
 
 ## Lifecycle
 - Startup
