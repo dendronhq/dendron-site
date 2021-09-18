@@ -2,7 +2,7 @@
 id: yQVhJtdQ40n3SLHJKAeeU
 title: CLI
 desc: ''
-updated: 1631902123478
+updated: 1631987682309
 created: 1631401993170
 ---
 
@@ -16,6 +16,7 @@ Prepare notes for publication. Runs [[Nextjs|dendron.topic.pod.builtin.nextjs]] 
 
 #### options
 - `--attach`: attach to running engine instead of a new engine ^bfvLB8BY4nLb
+- `--overrides`: add additional config overrides 
 
 #### example
 
