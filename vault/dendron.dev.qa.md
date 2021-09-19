@@ -2,7 +2,7 @@
 id: cb22bd36-d45a-4ffd-a31e-96c4b39cb7fb
 title: Testing
 desc: ''
-updated: 1631405703946
+updated: 1632060077134
 created: 1598654055046
 stub: false
 ---
@@ -124,6 +124,13 @@ static mockHomeDir(dir?: string): SinonStub {
 ```
 
 ## Reference
+
+### setupBasic
+- vault1
+  - foo
+  - foo.ch1
+  - bar
+
 
 ### setupBasicMulti
 

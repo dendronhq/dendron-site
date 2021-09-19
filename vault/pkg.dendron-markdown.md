@@ -2,13 +2,16 @@
 id: 69746008-2fa0-4036-b443-b15076a3d6bf
 title: Dendron Markdown
 desc: ''
-updated: 1631752493564
+updated: 1632021700970
 created: 1618848143084
 ---
 
 ## Summary
 
 Markdown toolchain for Dendron
+
+## Limitations
+- we use "unified": "^9.1.0" (this is not the latest version of unified)
 
 
 ## Lookup
@@ -28,8 +31,6 @@ sequenceDiagram
 	participant processor3
 
 ```
-
-
 
 ## Unified
 - unified
