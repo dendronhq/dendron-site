@@ -1,8 +1,8 @@
 ---
 id: 1e6c8b49-ef88-4e79-b2df-e9d614c38a53
 title: Triage
-desc: ""
-updated: 1631751332226
+desc: ''
+updated: 1632170548493
 created: 1610468038819
 ---
 
@@ -115,6 +115,11 @@ waiting for response from submitter
 ### triage-needed
 
 everything that has this label still needs to be looked over by a Contributor or member of [Dendronhq](https://github.com/dendronhq)
+
+### info-needed
+#status.info-needed
+
+Need more information from the requester
 
 ### up-next
 
