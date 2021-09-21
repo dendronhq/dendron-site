@@ -2,7 +2,7 @@
 id: eOhPQV5dc0HkI3bbVJ9jr
 title: Fixing Caching Preview with References
 desc: ''
-updated: 1632140017494
+updated: 1632214565904
 created: 1631677196658
 ---
 
@@ -40,6 +40,91 @@ Anytime faz changes we have to do a loop through all the notes for each note tha
 
 #### Approach 1a: Fix the stale data and lookup links instead of looping for them
 Same solution as above but instead of doing a loop for finding backlinks we do a look up from stored state. Proposal is to use existing stored state in `storev2.FileStorage.notes`. This state `FileStorage.notes` does currently contain backlink data which gets set upon initialization. However, after initialization the backlink data is not updated in `FileStorage.notes`, hence, it gets very stale and cannot be used as is. So we would need to address this issue by keeping `FileStorage.notes` up to date for all operations that can affect the backlink state including [note removal, note update, note rename].
+
+#### Approach 1b: Go one level deep
+
+
+```
+foo -> !baz 
+bar -> !baz
+```
+
+Anytime baz is updated go up to find all of the direct backlinks to `baz` do not go up to levels beyond the first one. 
+
+
+This solution does not account for nested reference previews. Meaning
+```
+foo -> !bar -> !baz
+```
+If `baz` is updated and `foo` had a cached preview, `foo` preview will not be updated when `baz` is updated. 
+
+Note that this will still require looping through all the notes and doing a string comparison for each update. Since we will need to call [getNotesWithLinks](https://github.com/dendronhq/dendron/blob/master/packages/common-all/src/dnode.ts#L783-L802). One (I thought so) might think that Javascript is going to intern the strings since they are immutable and do a reference comparison for equality check. However, benchmark comparison of strings shows that its not guaranteed to be the case and hence we go into O(n * m) time complexity where n-number of notes and m-file size (for file sizes that are the same length). Doing benchmarking also shows that we should be in a happy place for ~100k notes (being able to loop through in 3-7ms) and still work for ~1Mil notes (being able to loop through in 20-70ms). Presumably eventually we will fix the cached state and just use the cached state so we can go ahead for this solution for now.  
+
+<details>
+<summary>
+Benchmark code
+</summary>
+
+```
+import { v4 as uuidv4 } from 'uuid';
+
+export const uuid = () => {
+  return uuidv4();
+};
+
+function createSingleId(howManyUuidsInOneId1: number) {
+  let id = '';
+  for (let j = 0; j < howManyUuidsInOneId1; j++) {
+    id += uuid();
+  }
+  return id;
+}
+
+function generate(howManyIds: number, howManyUuidsInOneId: number) {
+  const ids = [];
+  for (let i = 0; i < howManyIds; i++) {
+    ids.push(createSingleId(howManyUuidsInOneId));
+  }
+  return ids;
+}
+
+const main = (howManyIds: number, howManyUuidsInOneId:number) => {
+
+  const ids = generate(howManyIds, howManyUuidsInOneId);
+
+  const toFind = createSingleId(howManyUuidsInOneId);
+
+  console.log(`Sample id being compared: '${toFind}'`);
+
+  const before = new Date().getTime();
+
+  ids.filter(id => id === toFind);
+
+  console.log(`Took '${new Date().getTime() - before}ms' to loop through and equal compare '${howManyIds}' when stacked '${howManyUuidsInOneId}' in single id`);
+};
+main(100000, 3);
+main(100000, 1);
+main(1000000, 3);
+main(1000000, 1);
+```
+</details>
+
+<details>
+<summary>
+Benchmark code output:
+</summary>
+
+```
+Sample id being compared: '261e8f8c-8e97-40c8-8059-162946183917f5c38160-47fe-4a82-b069-3624000c82c4548b9878-a620-48ad-891a-9f3c1bc149ca'
+Took '7ms' to loop through and equal compare '100000' when stacked '3' in single id
+Sample id being compared: 'dc25aff2-d82b-4b53-be4d-dc8825857bb7'
+Took '3ms' to loop through and equal compare '100000' when stacked '1' in single id
+Sample id being compared: '634f88c1-64ef-4b2d-813a-8b76281697186eb503a4-ef98-43c2-87dc-c437c111a2b94c12c2f6-58b2-431e-a700-cbe8494eb244'
+Took '72ms' to loop through and equal compare '1000000' when stacked '3' in single id
+Sample id being compared: '509283b2-dff0-4c23-a949-369b136a6ff6'
+Took '18ms' to loop through and equal compare '1000000' when stacked '1' in single id
+```
+</details>
 
 ### Approach 2: traverse the links down from rendered note
 When the render is called traverse down through any of the 'ref' links (we only care if the 'ref' linked notes have updated for the preview invalidation). 
