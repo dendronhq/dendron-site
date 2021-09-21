@@ -2,7 +2,7 @@
 id: f143ca38-dcc6-4cd3-b84b-997aec1160ef
 title: Rfc
 desc: ""
-updated: 1623330370988
+updated: 1632201670879
 created: 1605539111635
 ---
 
@@ -38,7 +38,7 @@ future state of the system and to discover projects for contribution.
 | 💡 proposed           | [8 - Multi-publish](https://wiki.dendron.so/notes/8b3bfb16-8330-4a78-85cc-45581c319450.html)             | [@kevin](https://github.com/kevinslin)           |
 | 💡 proposed           | [20 - Integrated Space Repetition](https://wiki.dendron.so/notes/X2Zn2H89eBZrsj7Of8LLm.html#why)         | [@imalightbulb](https://github.com/imalightbulb) |
 | 💡 proposed           | [28 - Notifications](https://wiki.dendron.so/notes/o5AQmw9bsPQspYuTjdmnK.html)                           | [@SeriousBug](https://github.com/SeriousBug)     |
-| draft                 | [Todo Notes]()                                                                                           | [@kevin](https://github.com/kevinslin)           |
+| 💡 proposed           | [13 - Todo Notes](https://wiki.dendron.so/notes/716e2699-42e1-44bd-9b97-124f03173ddc.html)               | [@kevin](https://github.com/kevinslin)           |
 | draft                 | [Browser Based Dendron]()                                                                                | [@kpats](https://github.com/kpathakota)          |
 
 ## What is an RFC?

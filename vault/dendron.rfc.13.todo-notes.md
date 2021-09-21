@@ -2,7 +2,7 @@
 id: 716e2699-42e1-44bd-9b97-124f03173ddc
 title: Todo Notes
 desc: ''
-updated: 1621573686699
+updated: 1632201548562
 created: 1621568116095
 published: true
 ---
@@ -150,3 +150,5 @@ How a text note link is rendered can be configured using [[notes.task.render|den
 ## Tradeoffs
 
 ## Discussion
+
+Please see the [discussions page](https://github.com/dendronhq/dendron/discussions/1358) to add any thoughts or suggestions.
