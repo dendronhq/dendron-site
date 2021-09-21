@@ -59,7 +59,7 @@ foo -> !bar -> !baz
 If `baz` is updated and `foo` had a cached preview, `foo` preview will not be updated when `baz` is updated. 
 
 Note that this will still require looping through all the notes and doing a string comparison for each update. Since we will need to call [getNotesWithLinks](https://github.com/dendronhq/dendron/blob/master/packages/common-all/src/dnode.ts#L783-L802). 
-`getNotesWithLinks` is O(n * m) if the file names are the same length where (n) is the number of notes and (m) is the file length. Doing benchmarking shows that we should be in a happy place for ~100k notes (being able to loop through in 3-7ms) and still work for ~1Mil notes (being able to loop through in 20-70ms). Our current largest note keeper users have ~20k notes in their workspace, hence we got some runway. Presumably eventually we will fix the cached state and just use the cached state. If we are ok with recursive previews not being updated we can go ahead with this solution.
+`getNotesWithLinks` is O(n * m) if the file names are the same length where (n) is the number of notes and (m) is the file length. Doing benchmarking shows that we should be in a happy place for ~100k notes (being able to loop through in 3-7ms) and still work for ~1Mil notes (being able to loop through in 20-70ms). Our current largest note keeper users have ~20k notes in their workspace, hence we got some runway. Presumably eventually we will fix the cached state and just use the cached state. If we are ok with recursive previews not being updated we can go ahead with this solution.m
  
 
 <details>
