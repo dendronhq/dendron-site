@@ -2,7 +2,7 @@
 id: GltYtZ7YCzEyV10uwhUg9
 title: Amplify
 desc: ''
-updated: 1631748264284
+updated: 1632196327060
 created: 1631319273247
 ---
 

@@ -2,7 +2,7 @@
 id: WmBgdjNJqOfiQ4NNnctuG
 title: Deploy
 desc: ''
-updated: 1632062054841
+updated: 1632241704481
 created: 1631029844001
 ---
 
@@ -37,3 +37,18 @@ npm publish
     ./bootstrap/scripts/restorePackageState.sh
     yarn setup
     ```
+### Override plugin version
+
+- NOTE: this only works if you don't have any changes to plugin-core's downstream dependencies
+
+1. Update version number on `plugin-core/package.json`
+1. Run the following inside plugin-core
+    ```sh
+    # tee is optional for capturing log output
+    vsce package --yarn | tee /tmp/out.log
+    ```
+### Publish local package versions remotely
+
+```sh
+dendron dev publish  --publishEndpoint remote
+```
