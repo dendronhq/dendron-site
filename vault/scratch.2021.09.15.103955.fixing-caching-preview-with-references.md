@@ -2,7 +2,7 @@
 id: eOhPQV5dc0HkI3bbVJ9jr
 title: Fixing Caching Preview with References
 desc: ''
-updated: 1632215202227
+updated: 1632216667636
 created: 1631677196658
 ---
 
@@ -58,7 +58,9 @@ foo -> !bar -> !baz
 ```
 If `baz` is updated and `foo` had a cached preview, `foo` preview will not be updated when `baz` is updated. 
 
-Note that this will still require looping through all the notes and doing a string comparison for each update. Since we will need to call [getNotesWithLinks](https://github.com/dendronhq/dendron/blob/master/packages/common-all/src/dnode.ts#L783-L802). One (I thought so) might think that Javascript is going to intern the strings since they are immutable and do a reference comparison for equality check. However, benchmark comparison of strings shows that its not guaranteed to be the case and hence we go into O(n * m) time complexity where n-number of notes and m-file size (for file sizes that are the same length). Doing benchmarking also shows that we should be in a happy place for ~100k notes (being able to loop through in 3-7ms) and still work for ~1Mil notes (being able to loop through in 20-70ms). Presumably eventually we will fix the cached state and just use the cached state so we can go ahead for this solution for now. Our current largest note keeper users have ~20k notes in their workspace, hence we got some runway. 
+Note that this will still require looping through all the notes and doing a string comparison for each update. Since we will need to call [getNotesWithLinks](https://github.com/dendronhq/dendron/blob/master/packages/common-all/src/dnode.ts#L783-L802). 
+`getNotesWithLinks` is O(n * m) if the file names are the same length where (n) is the number of notes and (m) is the file length. Doing benchmarking shows that we should be in a happy place for ~100k notes (being able to loop through in 3-7ms) and still work for ~1Mil notes (being able to loop through in 20-70ms). Our current largest note keeper users have ~20k notes in their workspace, hence we got some runway. Presumably eventually we will fix the cached state and just use the cached state. If we are ok with recursive previews not being updated we can go ahead with this solution.
+ 
 
 <details>
 <summary>
