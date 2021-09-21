@@ -2,7 +2,7 @@
 id: eOhPQV5dc0HkI3bbVJ9jr
 title: Fixing Caching Preview with References
 desc: ''
-updated: 1631701509171
+updated: 1632140017494
 created: 1631677196658
 ---
 
@@ -91,6 +91,8 @@ And the largest piece that doesn't align is that we require a vault when looking
 And as pointed out above the link to does not contain a vault just contains a file name. 
 
 Do we have constraints that a file name is unique within a workspace? To allow us to index by fname without a vault. 
+
+**Giving more thought this approach isn't going to work since we render the backlinks in the preview.**
 
 ## Discussion thread
 https://github.com/dendronhq/dendron/discussions/1342
