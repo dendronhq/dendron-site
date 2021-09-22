@@ -2,7 +2,7 @@
 id: 8d09cc3f-25e3-42a2-ac86-82806c0c8c65
 title: Startup
 desc: ''
-updated: 1630866403663
+updated: 1632333784243
 created: 1610160007286
 ---
 ## Summary
@@ -10,6 +10,7 @@ created: 1610160007286
 - check if we are in a dendron workspace
     - workspace can be a code workspace (a .code-workspace file) or a native workspace (folder with dendron.yml)
 - depending on what sort of workspace we're in, Dendron will instantiate either a Dendron[Native|Code]Workspace
+    - if multiple folders have `dendron.yml`, dendron will resolve to the first one found. logic [here](https://github.com/dendronhq/dendron/blob/6035eed562eb3eb38de50722b1185927eb54a7c8/packages/plugin-core/src/_extension.ts#L264-L264)
 - start engine (local server that does indexing)
 - reload workspace (connect to the local server)
 - activate file watchers 
