@@ -11,7 +11,7 @@ created: 1632347495097
 
 ### Writing
 
-All packages have tests written in `jest` except plugin-core. these tests use `mocha` assertion because vscode has a special test harness built around `mocha`  
+All packages have tests written in `jest` except plugin-core. these tests use `mocha` assertion because vscode has a special test harness built around `mocha`   ^AJqcVczVafLB
 
 #### Plugin
 

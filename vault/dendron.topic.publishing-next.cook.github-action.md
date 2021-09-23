@@ -2,7 +2,7 @@
 id: FnK2ws6w1uaS1YzBUY3BR
 title: GitHub Action
 desc: ''
-updated: 1632352440961
+updated: 1632423993644
 created: 1631306630307
 ---
 
@@ -16,13 +16,14 @@ You can see deployed examples of these instructions in the following repositorie
 [dendronhq/template.publish.github-action](https://github.com/dendronhq/template.publish.github-action)
 
 ## Process
+1. Create package.json with dendron-cli
+![[dendron://dendron.dendron-site/dendron.topic.publishing-next.cook.common#setup-dendron-cli,1:#*]]
 1. Create a workflow
   ```sh
   mkdir -p .github/workflows
   touch .github/workflows/publish.yml
   ```
-
-2. Add the following
+1. Setup workflow
   ```yml
   name: Dendron
 

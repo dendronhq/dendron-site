@@ -2,10 +2,16 @@
 id: 2340KhiZJWUy31Nrn37Fd
 title: Common
 desc: ''
-updated: 1631296613877
+updated: 1632423944201
 created: 1631132278348
 ---
 
+### Setup Dendron CLI
+
+```
+npm init -y 
+npm install --save @dendronhq/dendron-cli
+```
 
 ### Setup Notes
 1. Update `.gitignore`
