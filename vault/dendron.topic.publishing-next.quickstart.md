@@ -2,17 +2,20 @@
 id: e5st4LFLtIwwbQmC6JBaF
 title: Quickstart
 desc: ''
-updated: 1631296679286
+updated: 1632352218096
 created: 1631033401707
 ---
 
+## Summary 
+
+This guide walks you through. 
+
+- NOTE: if you are migrating from 11ty publishing, please read the [[migration guide|dendron://dendron.dendron-site/dendron.topic.publishing-next.migration]] for changes.
+
 ## Prerequisites
-1. Install latest version of [[dendron.topic.cli#installation]]
+1. Install latest version of the [[dendron cli|dendron.topic.cli#installation]]
 1. Install yarn (optional)
 ![[dendron.dev.setup.common#install-yarn,1:#*]]
-
-## Gotchas
-- Dendron Next publishing uses pretty urls which means pages will no longer have a `.html` suffix. If you are migrating an existing 11ty based Dendron site to Next, make sure to redirect `.html` pages to preserve existing links
 
 ## Process
 
@@ -30,16 +33,10 @@ Run the following commands at the root of your dendron [[workspace|dendron.ref.w
     ```sh
     cd .next && npm run dev
     ```
+
 ### Export
 
 ![[dendron.topic.publishing-next.cook.common#export-notes,1:#*]]
 
-<!-- ## Manual Process
+Congrats, you did it! At this point, you have a folder of static HTML which you can host and deploy anywhere. You can checkout our [[cookbook|dendron.topic.publishing-next.cook]] for examples of deploying to popular destinations like Github Pages.
 
-Under the hood, Dendron Next Publishing is just NextJs with some defaults. Instead of using `dendron publish init`, you can also manually pull down the repository by running the following command in your workspace.
-
-### Initializing nextjs
-```
-git clone https://github.com/dendronhq/nextjs-template.git .next
-```
- -->

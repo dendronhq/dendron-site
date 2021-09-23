@@ -2,7 +2,7 @@
 id: FnK2ws6w1uaS1YzBUY3BR
 title: GitHub Action
 desc: ''
-updated: 1631901795951
+updated: 1632352440961
 created: 1631306630307
 ---
 
@@ -10,7 +10,10 @@ created: 1631306630307
 
 Publishing Dendron using a github action
 
-Example: [dendron blog](https://github.com/dendronhq/dendron-blog)
+### Code
+You can see deployed examples of these instructions in the following repositories
+
+[dendronhq/template.publish.github-action](https://github.com/dendronhq/template.publish.github-action)
 
 ## Process
 1. Create a workflow
