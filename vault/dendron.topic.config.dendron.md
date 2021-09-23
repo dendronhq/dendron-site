@@ -2,7 +2,7 @@
 id: f83c1d87-eac0-48f3-a5cf-8a69989d8ec1
 title: Dendrons Config
 desc: ''
-updated: 1630346783169
+updated: 1632432189802
 created: 1619539817122
 ---
 
@@ -117,6 +117,13 @@ If set to true, the inserted note index block will be wrapped between a marker l
 - default: true
 
 If set to false, don't use [[pretty refs|dendron.ref.terms#pretty-ref]]
+
+### noRandomlyColoredTags
+- default: false
+
+Do not display the automatically generated colors for tags in the editor. Only tag colors set
+by the user are used, other tags won't have colors and will look like regular
+links.
 
 ### workspaceVaultSync
 - default: noCommit
