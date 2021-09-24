@@ -2,7 +2,7 @@
 id: GltYtZ7YCzEyV10uwhUg9
 title: Amplify
 desc: ''
-updated: 1632361608454
+updated: 1632441322002
 created: 1631319273247
 ---
 
@@ -38,4 +38,31 @@ frontend:
       - .next/.next/**/*
       - .next/.git/**/*
 
+```
+
+## Cook
+
+### Create redirects when migrating existing site
+
+```json
+[
+    {
+        "source": "https://{YOUR_DOMAIN}.com",
+        "target": "https://www.{{YOUR_DOMAIN}}.com",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/notes/<text>.html",
+        "target": "/notes/<text>/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/<*>",
+        "target": "/index.html",
+        "status": "404-200",
+        "condition": null
+    }
+]
 ```
