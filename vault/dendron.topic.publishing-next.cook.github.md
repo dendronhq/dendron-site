@@ -70,7 +70,7 @@ site:
     - if you setup your github repository name as `{username}.github.io`, your SITE_URL will be `{username}.github.io`
     - if you use an arbitrary name for your github repository (as in the example above, the repo name is `dendron-publish-sample`)
       - your SITE_URL will be `{username}.github.io`
-      - And you will need to add the suffix using the `assetsPrefix` property (eg. `assetsPrefix: dendron-publish-sample`)
+      - And you will need to add the suffix using the `assetsPrefix` property (eg. `assetsPrefix: /dendron-publish-sample`)
 
 #### Examples
 - publishing the repo named `kevinslin.github.io`
