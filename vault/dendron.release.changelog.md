@@ -7,12 +7,44 @@ date: '2022-01-01'
 ---
 
 
+## 0.60.2
+
+### Features
+- feat(cli): initialize workspace from CLI @kevin ([[docs|dendron://dendron.dendron-site/dendron.topic.cli#init]])
+- feat(pods): Notion Export Pod (#1332) @joshi ([[docs|dendron://dendron.dendron-site/dendron.topic.pod.builtin.notion]])
+- feat(publish): add popover for long title in menu (#1408) @viztor
+- feat(publish): better mobile navigation (#1407) @viztor
+- feat(workspace): button for toggle local/global graph (#1386) @viztor
+
+### Enhancements
+- enhance(publish): support [g4a tags](https://support.google.com/analytics/answer/10089681?hl=en) @kevin
+- enhance(publish): support twitter card @kevin ([[docs|dendron://dendron.dendron-site/dendron.topic.publishing.configuration#twitter]])
+- enhance(publish): add border color to table (#1387) @viztor
+- enhance(publish): filter body out of generated notes.json for next (#1380) @viztor
+- enhance(pods): resolve relative links on markdown import @joshi
+- enhance(markdown): Don't throw a fatal exception when missing note is parsed as noteRef @kevin
+- enhance(workspace): option to disable randomly colored tags in editor (#1372) @kaan ([[docs|dendron.topic.tags#disabling-automatic-colors]])
+
+### Fix
+- fix(commands): selection2link doesn't update note with link #1383  @kaan
+- fix(commands): fix single letter not showing results @nickolay
+- fix(commands): cleanup error popup when schema lookup is closed @nickolay
+- fix(publish): mistakes in nextjs start instructions from CLI @viztor
+- fix(publish): hashtags not at the start of line don't autocomplete (#1370) @kaan
+- fix(publish): links in note reference point to wrong url  @kevin
+- fix(publish): footer did not show on first load (#1413) @viztor
+- fix(workspace): notes added outside Dendron are missed (#1406) @kaan
+- fix(workspace): next gen views in remote workspaces (#1401) @kaan
+- fix(workspace): no-op on hover provider if dendron non active (#1398)
+- fix(workspace): fixes in providers when not in dendron workspace (#1405) @jonathan
+- fix(workspace): no completion when dendron isn't active @jonathan
+
 ## 0.60.1
 
 ### Bug Fixes
 - fix(workspace): prevent malformed keybinding.json (#1403) @hikchoi
 
-## 0.60
+# 0.60
 
 ## 0.59.4
 
