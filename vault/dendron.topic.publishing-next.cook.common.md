@@ -2,7 +2,7 @@
 id: 2340KhiZJWUy31Nrn37Fd
 title: Common
 desc: ''
-updated: 1632423944201
+updated: 1632521464960
 created: 1631132278348
 ---
 
@@ -20,7 +20,7 @@ npm install --save @dendronhq/dendron-cli
     ```
 1. Clone the nextjs repository
     ```sh
-    dendron publish init
+    npx dendron publish init
     ```
 1. Install dependencies
     ```sh
