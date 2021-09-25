@@ -1,0 +1,26 @@
+# description: Where to export to
+# type: string
+# required: true
+dest: TODO
+
+# description: should body be included
+# type: boolean
+# includeBody: true
+
+# description: should stubs be included
+# type: boolean
+# includeStubs: TODO
+
+# description: undefined
+# type: array
+# ignore: TODO
+
+# description: Api key for Notion
+# type: string
+# required: true
+apiKey: TODO
+
+# description: vault to export from
+# type: string
+# required: true
+vault: TODO
