@@ -2,7 +2,7 @@
 id: 1EoNIXzgmhgagqcAo9nDn
 title: PR Checklist
 desc: ''
-updated: 1632348158756
+updated: 1632753315102
 created: 1632348050137
 ---
 
@@ -21,7 +21,7 @@ created: 1632348050137
 - [ ] if you are adding a new language feature (graphically visible in vscode/preview/publishing), make sure that it is included in [test-workspace](https://wiki.dendron.so/notes/cb22bd36-d45a-4ffd-a31e-96c4b39cb7fb.html#test-workspace). We use this to manually inspect new changes and for auto regression testiing 
 
 ### Docs
-- [ ] Make sure that the PR title follows our [commit style](https://wiki.dendron.so/notes/adc39825-77a6-46cf-9c49-2642fcb4248e.html#commit-style)
+- [ ] Make sure that the PR title follows our [commit style](https://wiki.dendron.so/notes/adc39825-77a6-46cf-9c49-2642fcb4248e.html#commit-style) ^6zdCscSXs1MM
 - [ ] Please summarize the feature or impact in 1-2 lines in the PR description
 - [ ] If your change reflects documentation changes, also submit a PR to [dendron-site](https://github.com/dendronhq/dendron-site) and mention the doc PR link in your current PR
 
@@ -40,6 +40,10 @@ Docs PR: <URL_TO_DOCS_PR>
 - [ ] sign the [CLA](https://en.wikipedia.org/wiki/Contributor_License_Agreement) which will be prompted by our github bot after you submit the PR
 - [ ] add your [discord](https://discord.gg/AE3NRw9) alias in the review so that we can give you the [horticulturalist](https://wiki.dendron.so/notes/7c00d606-7b75-4d28-b563-d75f33f8e0d7.html#horticulturalist) badge in our community
 
+### Git
+- [ ] make sure your branch names adhere to our commit style [[#^6zdCscSXs1MM]]
+    - all prs should start with `[feat|fix|enhance|]/[{description-of-pr-in-kebab-case}]`
+        - `eg. feat/add-thisthing`
 
 ### Analytics
 - [ ] if you are adding analytics related changes, make sure the [Telemetry](https://wiki.dendron.so/notes/84df871b-9442-42fd-b4c3-0024e35b5f3c.html) docs are updated
