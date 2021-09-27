@@ -236,6 +236,7 @@ Dendron starts a [[local server|dendron.dev.design#overview]] in the background 
 ```zsh
 sudo ifconfig lo0 -alias 192.0.2.2
 ```
+You will unfortunately need to run this after every time you turn *off* the Cloudflare WARP VPN.  It is **not** Dendron's issue that this certain VPN breaks localhost.
 
 ### Correctly Format the Note
 
