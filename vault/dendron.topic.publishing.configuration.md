@@ -2,7 +2,7 @@
 id: f2ed8639-a604-4a9d-b76c-41e205fb8713
 title: Configuration
 desc: ''
-updated: 1631770233718
+updated: 1632719812218
 created: 1608528797892
 nav_order: 3
 ---
@@ -168,7 +168,13 @@ links.
 - status: optional
 - default: true
 
-Whether [[frontmatter tags|dendron.topic.tags#frontmatter-tags]] should be rendered in published websites.
+Whether [[frontmatter tags|dendron.topic.tags#frontmatter-tags]] should be rendered in published websites, and in [[Preview V2|dendron.topic.preview-v2]].
+
+### useHashesForFMTags
+- status: optional
+- default: false
+
+If set to `true`, [[frontmatter tags|dendron.topic.tags#frontmatter-tags]] will be rendered with a `#` symbol before them in published websites, and in [[Preview V2|dendron.topic.preview-v2]].
 
 ### writeStubs 
 - status: optional
