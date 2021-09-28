@@ -11,6 +11,7 @@ noXVaultWikiLink: true
 lookupConfirmVaultOnCreate: false
 mermaid: true
 useKatex: true
+
 autoFoldFrontmatter: false
 dev:
     enableWebUI: true

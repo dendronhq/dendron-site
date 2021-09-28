@@ -2,14 +2,14 @@
 id: zOw3EfQ4czmTYG4mc3wnS
 title: Teatime
 desc: ''
-updated: 1632848015570
+updated: 1632866276711
 created: 1632792566536
 ---
 
 
 ## Summary
 
-Teatime is a channel (both voice and audio) for Dendron contributors.
+Teatime is a channel (both voice and text) for Dendron contributors.
 
 When you join the `#teatime` channel, it means that you are down for having a conversation with a fellow dendrologist. 
 

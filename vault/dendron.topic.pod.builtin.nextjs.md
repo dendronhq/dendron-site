@@ -2,7 +2,7 @@
 id: 5fGMHyXmErIV9odz01BBH
 title: Nextjs
 desc: ''
-updated: 1631835254223
+updated: 1632857981875
 created: 1628955339442
 ---
 
@@ -42,6 +42,10 @@ These files contain metadata for a [[note|pkg.common-all#noteprops]]. It contain
 ### notes/{id}.html
 
 These files contain the HTML rentered note bodies.
+
+### notes/{id}.md
+
+These files contain the markdown note bodies.
 
 ### notes.json
 
