@@ -21,7 +21,7 @@ The following describes how to prepare your notes for publication using [[Dendro
 - pre-requisitie: 
   - node version 12 or higher, see installation guide [[here Node|dendron.guides.install-node]]
 
-### Setup
+### Setu
 
 In order to to publish, run the following commands inside your workspace.
 

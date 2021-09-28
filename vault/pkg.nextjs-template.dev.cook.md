@@ -2,7 +2,7 @@
 id: T6y6QwCzbJQqgyQjSndEu
 title: Cook
 desc: ''
-updated: 1631233270596
+updated: 1632266859693
 created: 1631231560375
 ---
 
@@ -12,12 +12,9 @@ created: 1631231560375
 - in a different shell
 ![[dendron.dev.cook.common#switch-to-local-npm,1:#*]]
 
-
-- in workspace
 ```sh
-$WORKSPACE_PATH=
-cd $WORKSPACE_PATH
-git checkout {/path/to/next-js} .next
+git clone $NEXTJS_REPO .next
+cd .next
 yarn
 ```
 

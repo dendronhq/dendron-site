@@ -2,7 +2,7 @@
 id: 23a1b942-99af-45c8-8116-4f4bb7dccd21
 title: Dendron CLI
 desc: ''
-updated: 1631401974354
+updated: 1632431904155
 created: 1600033791071
 ---
 
@@ -284,6 +284,10 @@ Options:
 ```
 
 ### Actions
+
+#### init
+
+Initialize a [[Workspace|dendron://dendron.dendron-site/dendron.ref.workspace]].
 
 #### pull
 

@@ -8,5 +8,5 @@ published: true
 nav_exclude: true
 ---
 
-![[dendron.release.changelog#0593:#059]]
+![[dendron.release.changelog#0602:#060]]
 

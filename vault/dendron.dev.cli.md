@@ -2,7 +2,7 @@
 id: Y0cZsmfUdytwajRGeylMZ
 title: CLI
 desc: ''
-updated: 1632061759277
+updated: 1632241348526
 created: 1631473249667
 ---
 
@@ -27,7 +27,7 @@ Options:
   --quiet             don't print output to stdout
   --upgradeType       how to do upgrade
                               [choices: "major", "minor", "patch", "prerelease"]
-  --publish endpoint  where to publish              [choices: "local", "remote"]
+  --publishEndpoint  where to publish              [choices: "local", "remote"]
 ```
 
 ## Common Options
@@ -54,8 +54,9 @@ Bump up version number for upgradeType [^upgrade]
 
 Publish packages to npm
 
-```
-dendron dev publish 
+```sh
+# publish to remote endpoint
+dendron dev publish  --publishEndpoint remote
 ```
 
 ### sync_assets
@@ -72,6 +73,7 @@ Format `package.json` of plugin to make it compatible with `vsce package`
 Equivalent to running the following
 
 ```sh
+yarn 
 vsce package --yarn
 ```
 

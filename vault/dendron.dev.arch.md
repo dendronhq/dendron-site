@@ -2,7 +2,7 @@
 id: ENeBSPWAtTlQclXYWNm6c
 title: Architecture
 desc: ''
-updated: 1631979440652
+updated: 1632374520893
 created: 1629988601634
 ---
 
@@ -20,7 +20,9 @@ This goes over the major architectural components of Dendron.
 
 - Regular Execution
   - Running a plugin command: [[Base Command Lifecycle|pkg.dendron-plugin.t.commands#base-command-lifecycle]]
-  - Lookup: [[Internal|pkg.dendron-plugin.t.lookup.internal]]
+  - Lookup: 
+    - plugin: [[Internal|pkg.dendron-plugin.t.lookup.internal]]
+    - engine: [[Lookup|dendron://dendron.dendron-site/pkg.dendron-engine.t.lookup]]
   - Dendron Engine: [[Initialization|pkg.dendron-engine.arch#initialization]]
 
 - Specifics

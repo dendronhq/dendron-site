@@ -2,7 +2,7 @@
 id: yg3EL1x9fEe4NMqxUC3jP
 title: GitHub
 desc: ''
-updated: 1631917062472
+updated: 1632352415157
 created: 1631132196609
 ---
 
@@ -16,9 +16,11 @@ You can publish your notes using Dendron Next Publishing and Github pages
 - You have [[Dendron CLI|dendron.topic.cli]] installed
 - You have [[yarn|dendron.dev.cook.basics#install-yarn]] installed
 
-### Examples
+### Code
+You can see deployed examples of these instructions in the following repositories
+
+- [Publish a regular github page](https://github.com/dendronhq/template.publish.github)
 - [Publish with custom CNAME](https://github.com/dendronhq/dendron-blog)
-- [Publish under github subdomain](https://github.com/kevinslin/dendron-next-test)
 
 ## Process - Setup Github
 
@@ -68,7 +70,7 @@ site:
     - if you setup your github repository name as `{username}.github.io`, your SITE_URL will be `{username}.github.io`
     - if you use an arbitrary name for your github repository (as in the example above, the repo name is `dendron-publish-sample`)
       - your SITE_URL will be `{username}.github.io`
-      - And you will need to add the suffix using the `assetsPrefix` property (eg. `assetsPrefix: dendron-publish-sample`)
+      - And you will need to add the suffix using the `assetsPrefix` property (eg. `assetsPrefix: /dendron-publish-sample`)
 
 #### Examples
 - publishing the repo named `kevinslin.github.io`

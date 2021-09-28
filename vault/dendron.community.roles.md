@@ -2,7 +2,7 @@
 id: 7c00d606-7b75-4d28-b563-d75f33f8e0d7
 title: Roles
 desc: ""
-updated: 1629840695377
+updated: 1632254156767
 created: 1604237102230
 ---
 
@@ -14,6 +14,8 @@ If you'd like to credit someone for work, you can simply ask the contribution bo
 Common keys are:
 - bug
 - doc
+- code
+- financial
 
 You can either use the bot in the relevant Github issue OR in the [gratitude issue](https://github.com/dendronhq/dendron/issues/714).
 
