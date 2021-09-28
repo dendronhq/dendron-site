@@ -2,7 +2,7 @@
 id: f7ebd4aa-8ba7-4bc5-bd00-a1efc5315f07
 title: Workbench
 desc: ''
-updated: 1626473338211
+updated: 1632845671707
 created: 1595170237255
 stub: false
 ---
@@ -110,6 +110,10 @@ Clicking on a link candidate item will open the note that contains the candidate
 
 ## Dendron Calendar View
 ![[dendron://dendron.dendron-site/dendron.ref.web-ui#calendar-view,1:#*]]
+
+## Contextual UI
+
+Dendron has a number of built-in commands to the VSCode workbench environment. Right clicking a file will allow for the option to run Dendron specific commands over it. The details of this feature are discussed in depth [[here|dendron://dendron.dendron-site/dendron.rfc.29-contextual-ui]].
 
 ## Working with Multiple Columns
 

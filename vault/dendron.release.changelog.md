@@ -1,13 +1,28 @@
 ---
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 desc: ''
-updated: 1632802705297
+updated: 1632846267509
 created: 1601508213606
 date: '2022-01-01'
 ---
 
+# 0.60.1
+
 ## 0.60.3
 
+### Features
+- feat(workspace): Add Contextual UI options for Add/Remove Vaults, Rename/Delete/Move Note, and Rename Header @joshi ([[docs|dendron.topic.commands]])
+- feat(workspace): add survey for new users(#1409)
+
+### Enhancements
+- enhance(markdown): option to add `#` symbols for FM tags (#1421) @kaan ([[docs|dendron://dendron.dendron-site/dendron.topic.publishing.configuration#usehashesforfmtags]])
+- enhance(publish): add published, modified, and tags to NextJS SEO (#1412) @nwehner
+- enhance(workspace): mini optimization in looking up notes by filename (#1427) @nickolay
+- enhance(workspace): Leave trace on source note while using selectionExtract @joshi
+
+### Bug Fixes
+- fix(lookup): picked schema matching name was not creating the expected note (#1425) @nickolay
+- fix(workspace): support activation for older vscode version (#1426) @jonathan
 
 ## 0.60.2
 

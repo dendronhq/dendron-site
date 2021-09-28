@@ -2,9 +2,13 @@
 id: lawPd77y3U3PQDEuotWb5
 title: Nextjs Publishing - Getting Started
 desc: ''
-updated: 1632630257636
+updated: 1632845099839
 created: 1632630257636
 ---
+
+## Summary
+
+Video of the talk can be found [here](https://www.youtube.com/watch?v=UfZgSN8w9UM&t=9s) (Apologies, forgot sound on this recording)
 
 ## Agenda
 - Initializing Next Publishing [Quickstart](https://wiki.dendron.so/notes/e5st4LFLtIwwbQmC6JBaF.html)
