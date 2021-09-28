@@ -53,7 +53,7 @@ See [here](https://handbook.dendron.so/notes/0292b34e-47eb-4499-8f49-d9891accdb3
   -   support [[published|dendron.topic.publishing.configuration#published]] #size.small
   -   support [[noindex|dendron.topic.publishing.configuration#noindex]] #size.small
   -   support [[gitNoLink|dendron.topic.publishing.configuration#gitnolink]] #size.small
-- [x] @hikchoi support [[collection options|dendron.topic.publishing.configuration#collection-options]] #size.small #scope.publishing ^lQkPH1vG6gzd
+- [x] @hikchoi support [[collection options|dendron.topic.publishing.configuration#collection-options]] #size.small #scope.publish ^lQkPH1vG6gzd
 - [x] Support nav order in Single Hiearchy Workspaces
 - [x] Set max-width constraints for content 
 - [x] Navigate to home page using `nextjs/link` instead of `<a>` 
