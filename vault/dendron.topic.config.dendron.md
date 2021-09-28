@@ -251,3 +251,9 @@ Modifies behavior of `Dendron: Lookup Note`.
 - options: "selectionExtract" | "selection2link" | "none"
 
 Overrides default selection type modifier to be enabled with note lookup.
+
+#### leaveTrace
+- type: boolean
+- default: none
+
+With this set, it leaves a reference of the destination note in the source note while using `selectionExtract`.
