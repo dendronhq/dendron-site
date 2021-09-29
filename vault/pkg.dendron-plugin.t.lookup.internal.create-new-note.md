@@ -2,61 +2,41 @@
 id: yueBtcxggyCeqTFm15fyA
 title: Create New Note
 desc: ''
-updated: 1630426372028
+updated: 1632929060294
 created: 1630426372028
 ---
 
 ## Summary
-- onDidAccept
-- onDidAcceptForSingle
 
-### onDidAcceptForSingle
-- file: src/components/lookup/LookupProviderV2.ts
 
+- src/commands/NoteLookupCommand.ts
 ```ts
-selectedItem := result from the picker
-if selectedItem {
-    if isCreateNewNotePickForSingle
-        acceptResp = @onAcceptNewNode
+acceptItem(item) {
+    if isCreateNewNotePick(item)
+        result = acceptNewItem
     ...
-    showDocAndHidePicker
 }
-```
 
+acceptNewItem(item) { 
 
-### _onAcceptNewNote
-- file: src/components/lookup/LookupProviderV2.ts
+    if item.stub
+        nodeNew = @engine.notes[item]
+    else
+        vault = getVaultForNewNote(item)
+        ...
+}
 
-```ts
-_onAcceptNewNote {
-    ...
-    nodeNew = NoteUtils.create(fname, vault)
-    match = SchemaUtils.matchPath(fname)
-    if (match) {
-        NoteUtils.addSchema(nodeNew)
+getVaultForNewNote {
+
+    vaultsWithMatchingFile := @engine.notes
+    vault = @picker.vault ??= getVaultForOpenEditor
+    if vault in vaultsWithMatchingFile {
+        availVaults = vaults not in vaultsWithMatchingFile
+        if availVaults.length > 1 
+            return promptVault(availVaults)
+        else if availVaults = 1
+            return availVaults
     }
 
-    maybeTemplate = nodeNew.schema
-    SchemaUtils.applyTemplate
-    ...
-
-    engine.writeNote nodeNew
-}
-
-```
-
-### applyTemplate
-- file: src/dnode.ts
-
-```ts
-applyTemplate {
-    ...
-    tempNoteProps = _.pick(tempNote, ["body", "desc", "custom"]);
-    _.forEach(tempNoteProps, (v, k) => {
-        note[k] = v;
-    });
-
-
 }
 ```
-

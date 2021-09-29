@@ -2,7 +2,7 @@
 id: 401c5889-20ae-4b3a-8468-269def4b4865
 title: Cookbook
 desc: ""
-updated: 1630796678628
+updated: 1632884378231
 created: 1595952505024
 nav_order: 8.9
 toc: true
@@ -142,24 +142,6 @@ To get familiar with regex syntax, try [regexr](https://regexr.com/) is a great 
 
 You can use the [string converter](https://marketplace.visualstudio.com/items?itemName=adamwalzer.string-converter) extension to change `[[normal note with spaces]]` to `[[normal-note-with-spaces]]` as well as a series of other text transformations.
 
-## Markdown Preview
-
-### Prevent newly opened files from replacing the preview pane?
-
-Set the following option in your workspace settings
-
-```json
-"markdown-preview-enhanced.automaticallyShowPreviewOfMarkdownBeingEdited": true,
-```
-
-### Customize Theme
-
-To change the color theme, you can update the `markdown-preview-enhanced.previewTheme` vscode setting
-
-### Customize CSS
-
-You can see instructions for customizing css [here](https://shd101wyy.github.io/markdown-preview-enhanced/#/customize-css)
-
 ## VSCode
 
 ### Use Dendron with a current folder
@@ -240,99 +222,14 @@ When viewing your notes locally, you can view the toc from the outline view.
 -   from the outline
     ![[dendron.topic.workbench#outline-view,1:#*]]
 
-
-## Publishing
-
-### Incremental Builds
-
-You can do incremental builds from Jekyll and Dendron
-
--   when previewing the site locally, add the `incremental` flag
-    ```bash
-    bundle exec jekyll s --watch --incremental
-    ```
--   when building the site, also add an incremental flag
-    -   NOTE: you'll need `rsync` installed to use the incremental flag
-
-```bash
-dendron-cli buildSite --wsRoot {path/to/ws} --vault {path/to/vault} --incremental
-```
-
-### Automatically Update Site while editing
-
-The following instructions cover how to update your local preview everytime you make a change to your notes
-
--   install `dendron-cli`
-    ![[dendron.topic.cli#installation,1:#*]]
-
--   have jekyll watch your site-root
-
-```bash
-cd {your-site-root}
-bundle exec jekyll s --watch
-```
-
--   use `nodemon` to watch your vault
-
-```bash
-npm install -g nodemon
-nodemon --watch {path/to/vault} --ext md dendron-cli buildSite --wsRoot {path/to/ws} --vault {path/to/vault}
-```
-
--   NOTE: you can combine this with incremental builds to have the best editing experience
-
-### Publish password protected site using AWS Amplify
-
-You can access the site with username: `dendron`, password: `hierarchy`.
-
--   NOTE: this requires hosting your site on AWS. For most people, this will end up costing you a few cents a month.
-
-#### Setup your github repo
-
-1. Create a new github repo using this [template](https://github.com/dendronhq/dendron-amplify-template).
-2. In your Dendron workspace, remove the `docs` directory and clone your newly created repository
-    ```bash
-    cd {your-workspace}
-    rm -r docs
-    git clone {your-repo} docs
-    ```
-
-#### Setup aws
-
-1. Create an [aws account](https://aws.amazon.com/)
-2. Login to your AWS account and go select the [Amplify Service](https://us-west-2.console.aws.amazon.com/amplify/home?region=us-west-2#/)
-    - ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/amplify.select.jpg)
-3. Follow the instructions [here](https://docs.aws.amazon.com/amplify/latest/userguide/getting-started.html) to connect your github with your amplify
-4. Follow the instructions [here](https://docs.aws.amazon.com/amplify/latest/userguide/access-control.html) to restrict access to your site.
-5. Verify that your site is now password protected
-
-#### Publish your notes
-
-1. Update `siteRepoDir` in `dendron.yml` with the location of your github directory
-    - Your `dendron.yml` should look similar to the one below
-        ```yml
-        site:
-            copyAssets: true
-            siteHierarchies:
-                - root
-            siteRootDir: docs
-            usePrettyRefs: true
-            siteRepoDir: docs
-        ```
-2. Run `> Dendron: Publish` to build your notes for publication and push your notes
-3. Your notes are now published privately behind a password
-
-## Workspace
-
-### Using Dendron with Github and Git
-
-One of our users published a great beginners guide on this [here](https://mstempl.netlify.app/post/dendron-git/)
+## Vaults
 
 ### Adding a Remote Vault to your Dendron Workspace
 
 If you haven't already done so, install Dendron and initialize a workspace by following the instructions [[here|dendron.guides.install]].
 
 Use the [[Vault Add|dendron.topic.commands#remote-vault]] command via the [[command palette|dendron.ref.terms#command-palette]], select remote vault, and paste the git url of the vault that you like to add
+
 
 ### Converting a local vault to a remote vault
 
@@ -350,11 +247,11 @@ Use the [[Vault Add|dendron.topic.commands#remote-vault]] command via the [[comm
 
 ![[dendron://dendron.dendron-site/dendron.topic.vaults#^NiCCqLjTG2nbM6Qi:#*]]
 
-### Using Dendron with Code
+### Create note in a specific vault
 
-The easiest current way to do this is to have multiple instances of VSCode open and toggle between the two. If you are very adventurous, you might even have [multiple versions of vscode](https://www.kevinslin.com/notes/7f197479-279e-4b1e-9edd-21bf2da423b0.html#dendron-setup) for different contexts.
-
-We are working on being able to run Dendron without the need for a workspace. You can track the progress of this on this [issue](https://github.com/dendronhq/dendron/issues/322)
+There are multiple ways to create a note in a specific vault
+- open a note that is already in the vault (all vaults have a `root` note by default so thats a quick way to select a particular vault)
+- use the [[vaultSelectionMode|dendron.topic.lookup.modifiers#vaultselectionmode]] modifier on lookup to select a new vault on creation
 
 ### Renaming a Vault
 
@@ -378,8 +275,24 @@ vaults:
       visibility: private
 ```
 
-### Create note in a specific vault
+## Workspace
 
-There are multiple ways to create a note in a specific vault
-- open a note that is already in the vault (all vaults have a `root` note by default so thats a quick way to select a particular vault)
-- use the [[vaultSelectionMode|dendron.topic.lookup.modifiers#vaultselectionmode]] modifier on lookup to select a new vault on creation
+### Using Multiple Workspaces
+
+The easiest current way to do this is to have multiple instances of VSCode open and toggle between the two. If you are very adventurous, you might even have [multiple versions of vscode](https://www.kevinslin.com/notes/7f197479-279e-4b1e-9edd-21bf2da423b0.html#dendron-setup) for different contexts.
+
+We are working on being able to run Dendron without the need for a workspace. You can track the progress of this on this [issue](https://github.com/dendronhq/dendron/issues/322)
+
+
+
+## Other
+
+### How can I paste HTML content as Markdown?
+
+If you use VSCode, you can use the [Markdown Kit](https://marketplace.visualstudio.com/items?itemName=svsool.markdown-kit) extension. Unfortunately this is not available in VSCodium at this time.
+
+### Syncing Dendron between devices
+
+#### Using git and github
+
+One of our users published a great guide on this [here](https://mstempl.netlify.app/post/dendron-git/)

@@ -2,7 +2,7 @@
 id: PZ3IzgdeZBbFRvalzI9fp
 title: Internal
 desc: ''
-updated: 1630426129273
+updated: 1632929365302
 created: 1630426129273
 ---
 
@@ -142,6 +142,19 @@ onUpdatePickerItems {
     ...
     items = [...picker.items]
     updatedItems = fetchPickerResults(querystring)
+    ...
+
+    shouldAddCreateNew = @allowNewNote && !queryOrig.endsWith(".") && !picker.canSelectMany && vaultsHaveSpaceForExactMatch
+    if (shouldAddCreateNew) {
+        entryCreateNew = createNoActiveItem
+        if shouldBubbleUpCreateNew {
+            ...
+        } else {
+            ...
+        }
+
+    }
+
     ...
     picker.items = updatedItems
 
