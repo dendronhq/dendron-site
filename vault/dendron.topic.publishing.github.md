@@ -2,7 +2,7 @@
 id: 877f4347-f013-43ba-aec4-87412b2e1bec
 title: Github
 desc: ""
-updated: 1624965063750
+updated: 1632178769581
 created: 1608770937168
 ---
 
@@ -53,7 +53,8 @@ git checkout main
     },
     "license": "CC BY 4.0",
     "devDependencies": {
-        "@dendronhq/dendron-cli": "*"
+        "@dendronhq/dendron-cli": "*",
+        "@dendronhq/dendron-11ty-legacy": "*"
     }
 }
 ```

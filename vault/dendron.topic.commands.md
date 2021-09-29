@@ -2,7 +2,7 @@
 id: eea2b078-1acc-4071-a14e-18299fc28f47
 title: Commands
 desc: ''
-updated: 1631868060687
+updated: 1632738011305
 created: 1595261816971
 ---
 
@@ -76,6 +76,9 @@ If you use this command in a [[multi vault|dendron.topic.vaults.multi-vault]] wo
   - mac: `cmd+shift+d`
 
 Delete a note or schema
+
+You can also delete a note from the explorer by: 
+Right Click on the note > Dendron: Delete Node
 
 ### Insert Note
 
@@ -248,6 +251,7 @@ Running it in the note `recipe.eggs` will insert the following at cursor positio
 ### Move Note
 
 Move a note. Also includes option to move a note between vaults
+You can also move an open note from the explorer by: Right Click on the note > Dendron: Move Note
 
 ### Paste Link
 
@@ -282,6 +286,9 @@ If the title is the same as what Dendron would autogenerate (kebab-case capitali
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/command-rename.gif)
 
+You can also rename an open note from the explorer by: 
+Right Click on the note > Dendron: Rename Note
+
 ### Rename Header
 
 -   shortcuts: none
@@ -291,12 +298,15 @@ Rename the selected header.
 You must put the caret on the header you want to rename.
 All wikilinks that link to this header (like `[[note#header]]`) will automatically get updated to the new header.
 
+
 ### Move Header
 
 - shortcuts: none
 
 This command removes the selected header from the note and appends it to the end of the destination note body.
 All wikilinks that link to this header will automatically get updated to the new header.
+
+You can also rename a header through context menus by selecting the header to be renamed and then Right Click > Dendron: Rename Header.
 
 ### Show Preview
 
@@ -500,9 +510,15 @@ Enable [[telemetry|dendron.ref.telemetry]] across all workspaces with Dendron
 
 ![[dendron://dendron.dendron-site/dendron.topic.vaults#vault-add,1:#*]]
 
+You can also add a vault from the explorer by: 
+Right Click on the explorer > Dendron: Vault Add
+
 ### Vault Remove
 
 ![[dendron://dendron.dendron-site/dendron.topic.vaults#vault-remove,1:#*]]
+
+You can also remove a vault from the explorer by: 
+Right Click on the vault > Dendron: Vault Remove
 
 ### Launch Tutorial
 

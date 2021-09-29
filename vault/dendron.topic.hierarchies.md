@@ -4,7 +4,6 @@ title: Hierarchies
 desc: ''
 updated: 1623765064155
 created: 1595611213607
-stub: false
 ---
 ## Summary
 Within a vault, your notes are stored **hierarchically** as `.` delimited markdown files. 

@@ -19,7 +19,7 @@ Dendron 0.57 has sprouted  🌱
 - (workspace): Nicer refactor preview
 - (workspace): Better hover message
 - (markdown) Dendron natively supports `@user` notes ([[docs|dendron.topic.users]])
-- (pods) The GitHub pod can now use publish to create new issues ([[docs|dendron.topic.pod.builtin.github.publish]])
+- (pods) The GitHub pod can now use publish to create new issues ([[docs|dendron.topic.pod.builtin.github-issue.publish]])
 - (fix:workspace) Backlinks properly update on frontmatter tag changes
 - (fix:workspace) Issue with browse note command on windows
 - (fix:workspace) Unhandled error when escaping from insert note command

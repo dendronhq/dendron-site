@@ -2,12 +2,15 @@
 id: WmBgdjNJqOfiQ4NNnctuG
 title: Deploy
 desc: ''
-updated: 1631029849101
+updated: 1632241704481
 created: 1631029844001
 ---
 
+## Related
+- [[CLI|dendron.dev.cli]]
 
 ## Cook
+
 ### Manually publish a single package
 
 - publish a version
@@ -19,10 +22,33 @@ npm version {bump}
 npm publish
 ```
 
-- restore workspace
-```
-rm -rf node_modules
-cd {workspace}
-git reset --hard
-lerna bootstrap
+### Build a new package version
+
+1. Build new version
+    - this will build a `{version}.vsix` in `plugin-core`
+    ```sh
+    yarn build:[prerelease|patch|minor]:[local|remote]
+    ```
+2. Restore workspace
+    - when building locally, this will make a bunch of modifications to your workspace (eg. remove workspace symlinks for actual dependencies) 
+    - run the following to reset your workspace for development
+    ```sh
+    git reset --hard
+    ./bootstrap/scripts/restorePackageState.sh
+    yarn setup
+    ```
+### Override plugin version
+
+- NOTE: this only works if you don't have any changes to plugin-core's downstream dependencies
+
+1. Update version number on `plugin-core/package.json`
+1. Run the following inside plugin-core
+    ```sh
+    # tee is optional for capturing log output
+    vsce package --yarn | tee /tmp/out.log
+    ```
+### Publish local package versions remotely
+
+```sh
+dendron dev publish  --publishEndpoint remote
 ```

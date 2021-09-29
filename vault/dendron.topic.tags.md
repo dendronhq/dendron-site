@@ -2,7 +2,7 @@
 id: 8bc9b3f1-8508-4d3a-a2de-be9f12ef1821
 title: Tags
 desc: ""
-updated: 1630654480372
+updated: 1632432246814
 created: 1601910058115
 tags: ["example.from-frontmatter"]
 ---
@@ -55,7 +55,13 @@ red. This allows you to organize your tags with color codes. You can always
 override the color deeper within the hierarchy, we could set
 `#example.my-example` to green while keeping `#example` red.
 
-Note that the color you assign your tag will aslo be displayed in the [[Dendron Tree View|dendron.topic.workbench#dendron-tree-view]].
+Note that the color you assign your tag will also be displayed in the [[Dendron Tree View|dendron.topic.workbench#dendron-tree-view]].
+
+#### Disabling automatic colors
+
+The automatically assigned tag colors can be disabled. To disable them in
+publishing, see [[noRandomlyColoredTags site config|dendron.topic.publishing.configuration#norandomlycoloredtags]],
+and to disable them in the editor  see [[noRandomlyColoredTags general config|dendron.topic.config.dendron#norandomlycoloredtags]].
 
 ### Publishing
 
@@ -63,9 +69,6 @@ Tags work in publishing like regular links. The only caveat is that if you want
 your viewers to see all notes that use a tag, you must create that tag note.
 Otherwise, Dendron will just tell them that this note did not sprout yet. We're
 working on an improvement to this, so keep an eye out for updates!
-
-Something else worth mentioning is that the automatic tag colors can be disabled
-in publishing. See the [[noRandomlyColoredTags|dendron.topic.publishing.configuration#norandomlycoloredtags]] configuration.
 
 ### Multi-vault
 

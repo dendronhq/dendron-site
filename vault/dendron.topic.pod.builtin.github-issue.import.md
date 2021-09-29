@@ -2,13 +2,13 @@
 id: 2H9FBzagX9wf4b0V0ADGG
 title: Import
 desc: ''
-updated: 1630053725731
+updated: 1631776098448
 created: 1625747404839
 ---
 
 ## Summary
 
-The Github Import Pod imports all the issues of a github repository into your selected vault as notes.
+The Github Issue Import Pod imports all the issues of a github repository into your selected vault as notes.
 The import config has additional options to select the owner, repository, and status of the github issues. 
 
 ## Authentication
@@ -58,6 +58,7 @@ title: 86-Extra quotes in links tutorial
 url: 'https://github.com/dendronhq/dendron-site/issues/86'
 status: OPEN
 issueID: gkdskrereidnYu
+author: 'https://github.com/jeffbarr'
 tags: 
   - area.misc
   - question

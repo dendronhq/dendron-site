@@ -21,7 +21,6 @@ Check the version numbers of your dependencies. You can get version numbers by r
 
 ```sh
 npm info @dendronhq/dendron-cli
-npm info @dendronhq/dendron-11ty
 ``` -->
 
 ## Plugin 
@@ -40,6 +39,7 @@ npm info @dendronhq/dendron-11ty
 - fix: 
   - 1. [[Run Dendron inside a Workspace|dendron.guides.troubleshooting#run-dendron-inside-a-workspace]]
   - 2. [[Whitelisting localhost|dendron.guides.troubleshooting#whitelisting-localhost]]
+  - 3. [[Fixing a localhost issue with the Cloudflare WARP VPN|dendron.guides.troubleshooting#whitelisting-localhost]]
 
 ### Notes from the graph/tree view show wrong results
 - cause: Views are out of sync
@@ -232,7 +232,11 @@ Delete dendron [[cache|dendron.ref.caching#summary]] files.
 
 ### Whitelisting localhost
 
-Dendron starts a [[local server|dendron.dev.design#overview]] in the background and the plugin connects to it to index notes. Check that you don't have anything that is running or blocking localhost.
+Dendron starts a [[local server|dendron.dev.design#overview]] in the background and the plugin connects to it to index notes. Check that you don't have anything that is running or blocking localhost.  If you happen to have [Cloudflare WARP VPN](https://1.1.1.1) on a Mac, then your localhost might be broken.  To fix that, open your terminal and run this command:
+```zsh
+sudo ifconfig lo0 -alias 192.0.2.2
+```
+You will unfortunately need to run this after every time you turn *off* the Cloudflare WARP VPN.  It is **not** Dendron's issue that this certain VPN breaks localhost.
 
 ### Correctly Format the Note
 

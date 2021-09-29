@@ -82,7 +82,8 @@ Below is another way of representing the above schema
 - default: 0
 - description: schema version number
 
-### imports (optional): str\[]
+### imports 
+- (optional): str\[]
 
 - values: list of schemas to import
 - default: \[]

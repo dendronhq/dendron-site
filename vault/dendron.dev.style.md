@@ -2,7 +2,7 @@
 id: 773e0b5a-510f-4c21-acf4-2d1ab3ed741e
 title: Style
 desc: ''
-updated: 1630347307336
+updated: 1632806581187
 created: 1609550314371
 ---
 
@@ -52,6 +52,25 @@ const {fooValue, fooError} = foo()
 
 // bad
 const [fooValue, fooError] = foo()
+```
+
+### prefer [is, does, has, should] prefixes for boolean usages.
+
+This makes it clear that a given variable is a boolean. And communicates finality of expression.
+
+```ts
+// good
+const isFriendly = isFriendly({person});
+
+// bad
+const friendly = friendly({person});
+
+// could be improved. 
+// 
+// does NOT read as finalized value since maybeFriendly=true logically 
+// still reads as 'maybe' while we want to communicate that it is in 
+// fact friendly.
+const maybeFriendly  = maybeFriendly({person});
 ```
 
 ## Typescript
@@ -167,3 +186,36 @@ As a result, describing the set of characters that should match is practically i
 > "öö".match(/[^\s]+/)
 [ 'öö', index: 0, input: 'öö', groups: undefined ]
 ```
+
+## Logging
+
+### Sentry
+
+We use Sentry to monitor the code for exceptions. You can use Sentry by wrapping
+a function using `sentryReportingCallback`. For example:
+
+```ts
+export const provideCompletionItems = sentryReportingCallback(
+  (document: TextDocument, position: Position) => {
+    // ...
+  }
+);
+```
+
+One issue here: the sentry wrapper cause the callback function to lose its `this` value.
+If you are passing a method to this function, you must bind the `this` value:
+
+```ts
+class Foo {
+  private callback() { /* ... */ }
+
+  public setupCallback() {
+    const wrappedCallback = sentryReportingCallback(
+      this.callback.bind(this)
+    );
+    // ...
+  }
+}
+```
+
+Otherwise, when the callback function is called the `this` value will be undefined.
