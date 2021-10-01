@@ -2,7 +2,7 @@
 id: sRnuoGUdVgwyFyJBWPRo7
 title: Release Notes (version 0.61)
 desc: ''
-updated: 1632846907951
+updated: 1632848045015
 created: 1632844602730
 ---
 
@@ -51,9 +51,9 @@ Dendron 0.61 has sprouted  🌱
 
 ### Community
 
-#### Staff Reading Picks
+#### Dendron Reading Series
 
-![[dendron://dendron.dendron-site/dendron.community.what-are-you-reading#staff-picks,1]]
+![[dendron://dendron.dendron-site/dendron.community.what-are-you-reading#dendron-reading-series,1]]
 
 #### Tea Time
 We are officially launching `#teatime` for all Dendron contributors.
@@ -63,8 +63,6 @@ We are officially launching `#teatime` for all Dendron contributors.
 #### Office Hours
 
 Office hours are now every other week. No regular office hours from this week but we had a speical session of getting started with [[NextJS Publishing|dendron://dendron.dendron-site/dendron.topic.publishing-next]] which you can find [[here|dendron://dendron.dendron-site/dendron.community.office-hours.2021.09.24.nextjs-publishing]]
-
-You can find notes from our latest office hours [[here|dendron.community.office-hours.2021.09.]]
 
 #### Thank You's
 
