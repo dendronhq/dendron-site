@@ -1,12 +1,27 @@
 ---
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 desc: ''
-updated: 1632846267509
+updated: 1633130976115
 created: 1601508213606
 date: '2022-01-01'
 ---
 
-# 0.60.1
+## 0.61.1
+
+### Features
+- feat(command): move header command (#1349) @hikchoi ([[docs|dendron.topic.commands#move-header]])
+
+### Enhancements
+- enhance(commands): OpenLink can open more links and works on partial selection (#1317) `@Stephen#8544`
+- enhance(commands): Improve user messaging on node delete by specifying the vault of the deleted node (#1439) @nickolay
+- enhance(lookup): Allow creation of duplicate file name if there is a vault without such file name (#1441) @nickolay
+
+### Bug Fixes
+- fix(publish): nextjs search not working (#1433) @kaan
+- fix(views): preview caching invalidation when notes with `![[ref]]` links change (#1385) @nickolay
+- fix(view): enable anchor links to work in preview (#1375) @nickolay
+
+## 0.61.0
 
 ## 0.60.3
 

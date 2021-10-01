@@ -2,7 +2,7 @@
 id: sRnuoGUdVgwyFyJBWPRo7
 title: Release Notes (version 0.61)
 desc: ''
-updated: 1632848045015
+updated: 1633130846838
 created: 1632844602730
 ---
 
@@ -83,6 +83,6 @@ You can see an overview of all roles [[here|dendron.community.roles]]
     - [.html remains at end of reference note card links (in NextJS) and breaks links · Issue #1400 · dendronhq/dendron](https://github.com/dendronhq/dendron/issues/1400)
 
 ### Changelog
-![[dendron.release.changelog#0601,1:#060]]
+![[dendron.release.changelog#0610,1:#060]]
 
 
