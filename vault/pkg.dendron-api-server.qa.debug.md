@@ -2,7 +2,7 @@
 id: 9yF0IDLdWksfkmas
 title: Debug
 desc: ''
-updated: 1631385177191
+updated: 1633068132703
 created: 1627140555421
 ---
 
@@ -32,3 +32,20 @@ In order to debug, [[launch the debug server|pkg.dendron-api-server.qa.debug#^vL
 3. Reload the workspace for the settings to take affect
 
 ![debug task](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/api-debug.png)
+
+### Debugging api-server in another IDE
+1. Start the api-server with debug port open:
+  ```
+    cd $DENDRON_REPO_ROOT/packages/api-server
+    npm run start:integ:debug
+  ```
+  This starts api-server with port 9229 open.
+2. Attach to api-server from your IDE. Example settings for InteliJ/WebStorm:
+```
+  Run/Debug Configuration:
+    Attach to Node.js/Chrome:
+      Host: localhost
+      Port: 9229
+      Attach To: Chrome or Node.js > 6.3 started with --inspect 
+```
+
