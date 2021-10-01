@@ -2,7 +2,7 @@
 id: ENeBSPWAtTlQclXYWNm6c
 title: Architecture
 desc: ''
-updated: 1632374520893
+updated: 1633023652348
 created: 1629988601634
 ---
 
@@ -32,6 +32,7 @@ This goes over the major architectural components of Dendron.
   - Markdown: [[pkg.dendron-markdown.arch]]
   - Notes
   - CLI: [[pkg.dendron-cli.arch]]
+  - Web Views: [[pkg.dendron-next-server.dev]]
 
 ## Other
 - NextJS

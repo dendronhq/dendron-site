@@ -2,7 +2,7 @@
 id: zIBErZ8tT7oU6nm0JESFc
 title: Export
 desc: ''
-updated: 1624316548880
+updated: 1632944918808
 created: 1623502889261
 ---
 
@@ -51,10 +51,10 @@ srcFieldMapping: {Note ID : id, Title : title, Summary: body}
 
 - Output
 
-Note ID | Title | Summary
----------|----------|---------
- 04236d97-d45b | Harrypotter | Harry Potter, a boy who lives in the fictional town of Little Whinging, Surrey with his aunt, uncle, and cousin
- 07736d97-d45b | Alchemist | The Alchemist follows the journey of an Andalusian shepherd boy named Santiago. Believing a recurring dream to be prophetic, he asks a Gypsy fortune teller in the nearby town about its meaning. 
+| Note ID       | Title       | Summary                                                                                                                                                                        |                    |
+| ------------- | ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------ |
+| 04236d97-d45b | Harrypotter | Harry Potter, a boy who lives in the fictional town of Little Whinging, Surrey with his aunt, uncle, and cousin                                                                |                    |
+| 07736d97-d45b | Alchemist   | The Alchemist follows the journey of an Andalusian shepherd boy named Santiago. Believing a recurring dream to be prophetic, he asks a Gypsy fortune teller in the nearby town | about its meaning. |
 
 
 

@@ -2,7 +2,7 @@
 id: 99q7A73uGmCwu2KvSHZro
 title: Test
 desc: ''
-updated: 1632725608146
+updated: 1632961010333
 created: 1632347495097
 ---
 
@@ -143,7 +143,11 @@ We make frequent use of jest [snapshots](https://jestjs.io/docs/snapshot-testing
 ### setupBasicMulti
 
 - vault1
+  - root
   - foo
   - foo.ch1
 - vault2
+  - root
   - bar
+- vault3
+  - root
