@@ -18,7 +18,7 @@ Resulting Link: [[dendron.tutorial]]
 
 To navigate to the note in the link, you can just click on the link in the preview pane. In the editor pane, you can move the cursor into the link and hit `Ctrl+Enter / Cmd+Enter`.
 
-You can switch back to the previous note by pressing `Ctrl+Tab / Cmd+Tab`
+You can switch back to the previous note with the tab switching shortcut (`Ctrl+Tab` on most systems).
 
 #### Backlinks
 

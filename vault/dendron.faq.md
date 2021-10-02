@@ -105,7 +105,7 @@ Dendron automatically saves when you change focus (switch tabs or applications).
 
 There are 3 ways to go back to my previous note:
 
-1. `ctrl-tab` (go to previous tab)
+1. `ctrl-tab` (go to previous tab with default VSCode settings)
 2. click on the previous tab
 3. using the open editors pane
 
