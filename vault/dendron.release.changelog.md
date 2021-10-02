@@ -8,9 +8,6 @@ date: '2022-01-01'
 
 ## 0.61.1
 
-### Features
-- feat(command): move header command (#1349) @hikchoi ([[docs|dendron.topic.commands#move-header]])
-
 ### Enhancements
 - enhance(commands): OpenLink can open more links and works on partial selection (#1317) `@Stephen#8544`
 - enhance(commands): Improve user messaging on node delete by specifying the vault of the deleted node (#1439) @nickolay
