@@ -3,7 +3,7 @@ id: 3c80629b-4048-48f0-bdfd-352645bda2ec
 title: Dev
 desc: |
   Development related
-updated: 1633298930735
+updated: 1633299395384
 created: 1622079130106
 ---
 ## Gotchas
@@ -43,6 +43,8 @@ yarn gen:data
 ```
 
 This will update the json schema definitions for `DendronConfig` which is used downstream by other packages
+
+- [example issue](https://github.com/dendronhq/dendron/issues/613)
 
 ### Add New Default
 

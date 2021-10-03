@@ -2,10 +2,9 @@
 id: 04dd9ad8-3d81-4098-a661-21b6acc6f443
 title: Dev
 desc: ''
-updated: 1633299031218
+updated: 1633299401029
 created: 1621721485330
 ---
-
 ## Commands
 
 ### Create a new Command
@@ -26,23 +25,6 @@ created: 1621721485330
 Conventions:
 
 - if your command involves opening a note, also return it in the `CommandOutput` signature. this makes it easy to compose the command as well as test it
-
-## Pods
-
-### Create a new Pod
-
-1. setting up dev environment and getting started: <https://wiki.dendron.so/notes/81da87be-2d4e-47b5-a1d6-c0d647e1ab00.html>
-2. sample code for json export pod: <https://github.com/dendronhq/dendron/blob/master/packages/pods-core/src/builtin/JSONPod.ts>
-3. what you will get from `prepareNotesForExport`: <https://wiki.dendron.so/notes/0db94b86-d5c2-4e70-8f61-1a686fa8cc1d.html>
-4. anki pod: take notes and transform them to anki format
-
-## Config
-
-### Adding new configuration
-
-- [example issue](https://github.com/dendronhq/dendron/issues/613)
-
-See [[Configuration|pkg.common-all.dev#configuration]]
 
 ### Working with VSCode Workspace State
 
