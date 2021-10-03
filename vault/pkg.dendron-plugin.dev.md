@@ -2,14 +2,11 @@
 id: 04dd9ad8-3d81-4098-a661-21b6acc6f443
 title: Dev
 desc: ''
-updated: 1630732977680
+updated: 1633299031218
 created: 1621721485330
 ---
 
-
 ## Commands
-
-This goes over adding major feature items to the Dendron Plugin
 
 ### Create a new Command
 
@@ -26,10 +23,9 @@ This goes over adding major feature items to the Dendron Plugin
 7. Add command to `src/commands/index.ts`
 8. Submit pull request
 
-
 Conventions:
-- if your command involves opening a note, also return it in the `CommandOutput` signature. this makes it easy to compose the command as well as test it
 
+- if your command involves opening a note, also return it in the `CommandOutput` signature. this makes it easy to compose the command as well as test it
 
 ## Pods
 
@@ -42,24 +38,8 @@ Conventions:
 
 ## Config
 
-### Migrating an existing configuration
-
-Configuration migrations should be done in two phases
-
-#### Phase I - Set new value as default
-1. When migrating to a new configuration, always assume that the new configiuration could be `undefined` sinice migrations can fail 
-  - bug in our script, user cancels, etc
-2. Make sure that we can fall back to the old configuration if no new configuration is found
-  - in case the migration doesn't take
-3. When setting the next version, set it to the next **patch** version of whatever is currently released 
-  - otherwise, users getting the new patch won't get migrated
-4. Report a metric to see how many users are usiing the old version without the new version present (this number should go to zero)
-
-#### Phase 2 - Remove old vaule
-1. Once the metric in 4 has reached a sufficient threshold, remove the old version
-
-
 ### Adding new configuration
+
 - [example issue](https://github.com/dendronhq/dendron/issues/613)
 
 See [[Configuration|pkg.common-all.dev#configuration]]
@@ -113,10 +93,10 @@ export class InsertNoteLinkButton extends DendronBtn {
 }
 ```
 
-
 ### Adding Command with Lookup
 
 Pre-requisites:
+
 - [[Create a new Command|pro.dendron-plugin.cook#create-a-new-command]]
 
 This goes over adding a new command with lookup. To see an example, see this [command](https://github.com/dendronhq/dendron/blob/master/packages/plugin-core/src/commands/InsertNoteLink.ts) and this commit: `cc8a02b4`.
@@ -142,40 +122,43 @@ sequenceDiagram
 ```
 
 1 Gather inputs
-  - this method is responsible for configuring and instantiating the lookup controller and provider
-    - controller controls presentation of the quickinput
-    - provider controls the data retrieval behavior 
-    - on success, will return the following [response type](https://github.com/dendronhq/dendron/blob/master/packages/plugin-core/src/components/lookup/LookupProviderV3.ts)
-    - NOTE: because we can't simply block on `showQuickInput`, we return a promise that listens to a `lookupProvider` event with the corresponding `id` of the particular command
+
+- this method is responsible for configuring and instantiating the lookup controller and provider
+  - controller controls presentation of the quickinput
+  - provider controls the data retrieval behavior 
+  - on success, will return the following [response type](https://github.com/dendronhq/dendron/blob/master/packages/plugin-core/src/components/lookup/LookupProviderV3.ts)
+  - NOTE: because we can't simply block on `showQuickInput`, we return a promise that listens to a `lookupProvider` event with the corresponding `id` of the particular command
 
 ## UI
+
 ### Adding a Web UI Component
+
 1. see [[Create a new Command|pro.dendron-plugin.cook#create-a-new-command]] for creating a new command
-1. Add a new entry to [DendronWebViewKey](https://github.com/dendronhq/dendron/blob/master/packages/common-all/src/types/typesv2.ts)
-1. in `execute`, create a new webview
-  ```ts
-    const title = //TODO: add panel title
-    const panel = window.createWebviewPanel(
-      "dendronIframe", // Identifies the type of the webview. Used internally
-      title, // Title of the panel displayed to the user
-      ViewColumn.One, // Editor column to show the new webview panel in.
-      {
-        enableScripts: true,
-        enableCommandUris: true,
-        enableFindWidget: true,
-        localResourceRoots: [],
-      }
-    );
-    resp = WebViewUtils.genHTMLForWebView({
-        title: "Dendron Config",
-        view: DendronWebViewKey[TODO]
-    });
-    panel.webview.html = resp;
-  ```
+2. Add a new entry to [DendronWebViewKey](https://github.com/dendronhq/dendron/blob/master/packages/common-all/src/types/typesv2.ts)
+3. in `execute`, create a new webview
+   ```ts
+     const title = //TODO: add panel title
+     const panel = window.createWebviewPanel(
+       "dendronIframe", // Identifies the type of the webview. Used internally
+       title, // Title of the panel displayed to the user
+       ViewColumn.One, // Editor column to show the new webview panel in.
+       {
+         enableScripts: true,
+         enableCommandUris: true,
+         enableFindWidget: true,
+         localResourceRoots: [],
+       }
+     );
+     resp = WebViewUtils.genHTMLForWebView({
+         title: "Dendron Config",
+         view: DendronWebViewKey[TODO]
+     });
+     panel.webview.html = resp;
+   ```
 
 Related:
-- See [[here|pkg.dendron-next-server.dev#development]] for how to preview and test your web ui.
 
+- See [[here|pkg.dendron-next-server.dev#development]] for how to preview and test your web ui.
 
 ## Utilities
 
@@ -201,6 +184,7 @@ clipboard.writeText(link);
 ```
 
 ### Check if file is in vault
+
 - see src/views/DendronTreeViewV2.ts
 
 ```ts
@@ -213,6 +197,7 @@ clipboard.writeText(link);
 ```
 
 ### Insert Text
+
 - src/commands/InsertNoteCommand.ts
 
 ```ts
@@ -243,6 +228,7 @@ if (PickerUtilsV2.isStringInputEmpty(out)) return;
 ### Get location of the frontmatter
 
 - example [here](https://github.com/dendronhq/dendron/blob/master/packages/plugin-core/src/services/NoteSyncService.ts)
+
 ```
 
 ```
@@ -252,3 +238,4 @@ if (PickerUtilsV2.isStringInputEmpty(out)) return;
 ### Upating the cursor position
 
 - see [this](https://github.com/dendronhq/dendron/blob/master/packages/plugin-core/src/test/suite-integ/NoteLookupCommand.test.ts)
+

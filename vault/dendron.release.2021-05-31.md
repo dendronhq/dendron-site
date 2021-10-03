@@ -5,10 +5,10 @@ desc: ''
 updated: 1622494847233
 created: 1622484155123
 ---
-
 Dendron 0.44 has sprouted  🌱
 
 ### Highlights
+
 - better lookup matching
 - support for block references in preview 
 - support for block references when publishing
@@ -19,21 +19,20 @@ Dendron 0.44 has sprouted  🌱
 Our documentation changes a lot week by week. Below is a highlight of some updates from the past week.
 
 - direction
-    - [[Updates on our Mission Statement|dendron.mission-statement]]
-    - [[Updates on our Triage Process|dendron.dev.triage]]
-    - [[Dendron Roadmap|dendron.roadmap]]
-    - [[12 Schema Improvements|dendron.rfc.12-schema-improvements]]
-    - [[6 Design System|dendron.rfc.6-design-system]]
-    - [[7 Graph Rework Design|dendron.rfc.7-graph-rework.design]]
+  - [[Updates on our Mission Statement|dendron.mission-statement]]
+  - [[Updates on our Triage Process|dendron.dev.triage]]
+  - [[Dendron Roadmap|dendron.roadmap]]
+  - [[12 Schema Improvements|dendron.rfc.12-schema-improvements]]
+  - [[6 Design System|dendron.rfc.6-design-system]]
+  - [[7 Graph Rework Design|dendron.rfc.7-graph-rework.design]]
 - dev
-    - [[Lookup Internals|dendron.topic.lookup#details]]
-    - [[Dendron Initialization|dendron.dev.design]]
-    - [[Developing Dendron on a Remote Machine|dendron.dev.remote]]
-    - [[Markdown Compilation Architecture|pkg.dendron-markdown.arch]]
-    - [[Web UI Architecture|pkg.dendron-next-server.arch]]
-    - [[Developing with Dendron Web UI|pkg.dendron-next-server.dev]]
-    - [[Development Guides for various Dendron Plugin Components|pkg.dendron-plugin.dev]]
-
+  - [[Lookup Internals|dendron.topic.lookup#details]]
+  - [[Dendron Initialization|dendron.dev.design]]
+  - [[Developing Dendron on a Remote Machine|dendron.dev.remote]]
+  - [[Markdown Compilation Architecture|pkg.dendron-markdown.arch]]
+  - [[Web UI Architecture|pkg.dendron-next-server.arch]]
+  - [[Developing with Dendron Web UI|pkg.dendron-next-server.dev]]
+  - [[Development Guides for various Dendron Plugin Components|pkg.dendron-plugin.dev]]
 
 ### Community
 
@@ -66,10 +65,11 @@ You can see an overview of all roles [[here|dendron.community.roles]]
 - [Darren Brierton](https://github.com/ddbrierton)
   - `bugcatcher`
   - [Paste file for non-URI chars](https://github.com/dendronhq/dendron/issues/765)
--  [andrey-jef](https://github.com/andrey-jef) @evanAndiez#9559
-  - `+bugcatcher`
-    - Search box (in a dendron publish page, mobile view) disappeared when starting to type 
-
+- [andrey-jef](https://github.com/andrey-jef) @evanAndiez#9559
+- `+bugcatcher`
+  - Search box (in a dendron publish page, mobile view) disappeared when starting to type 
 
 ### Changelog
+
 ![[dendron.release.changelog#044,1:#043]]
+
