@@ -136,11 +136,10 @@ The above changes are for `Rename`. `Refactor` calls rename in a loop so changin
 
 ### Adding a general configuration
 
-See [[Adding new configuration|pkg.dendron-plugin.dev#adding-new-configuration]]
+See [[Adding new configuration|pkg.plugin-core.dev#adding-new-configuration]]
 
 ## Plugin
-
-- See [[Dev|pkg.dendron-plugin.dev]]
+- See [[Dev|pkg.plugin-core.dev]]
 
 ## Markdown
 
@@ -317,7 +316,7 @@ You can see an explanation of how it works [here](https://git-scm.com/docs/git-b
 
 ### Adding a new configuration property
 
-![[dendron://dendron.dendron-site/pkg.dendron-plugin.dev#adding-a-new-config,1:#*]]
+![[dendron://dendron.dendron-site/pkg.plugin-core.dev#adding-a-new-config,1:#*]]
 
 ### Synchronously loop through async results
 
@@ -334,4 +333,7 @@ You can see an explanation of how it works [here](https://git-scm.com/docs/git-b
     Promise.resolve()
   );
 ```
+<<<<<<< HEAD
 
+=======
+>>>>>>> 447bf4b9da87076b7b3ff0e3ac1f695d3a8c0cbc

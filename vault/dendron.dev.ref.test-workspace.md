@@ -23,7 +23,7 @@ Note that this workspace is currently configured to be used with launching a eng
   yarn dev
   ```
 1. Connect to workspace 
-![[pkg.dendron-plugin.qa.debug#launch,1:#*]]
+![[pkg.plugin-core.qa.debug#launch,1:#*]]
 
 1. Run [[Change Workspace|dendron.topic.commands#change-workspace]] and change into `$DENDRON_REPO_ROOT/test-workspace`
 

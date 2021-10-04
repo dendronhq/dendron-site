@@ -43,7 +43,7 @@ In order of precedence:
 
 ### Plugin
 
-![[dendron://dendron.dendron-site/pkg.dendron-plugin#utilities,1:#*]]
+![[dendron://dendron.dendron-site/pkg.plugin-core#utilities,1:#*]]
 
 ### Engine Test Utils
 

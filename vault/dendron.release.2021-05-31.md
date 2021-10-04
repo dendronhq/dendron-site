@@ -26,13 +26,14 @@ Our documentation changes a lot week by week. Below is a highlight of some updat
   - [[6 Design System|dendron.rfc.6-design-system]]
   - [[7 Graph Rework Design|dendron.rfc.7-graph-rework.design]]
 - dev
-  - [[Lookup Internals|dendron.topic.lookup#details]]
-  - [[Dendron Initialization|dendron.dev.design]]
-  - [[Developing Dendron on a Remote Machine|dendron.dev.remote]]
-  - [[Markdown Compilation Architecture|pkg.dendron-markdown.arch]]
-  - [[Web UI Architecture|pkg.dendron-next-server.arch]]
-  - [[Developing with Dendron Web UI|pkg.dendron-next-server.dev]]
-  - [[Development Guides for various Dendron Plugin Components|pkg.dendron-plugin.dev]]
+    - [[Lookup Internals|dendron.topic.lookup#details]]
+    - [[Dendron Initialization|dendron.dev.design]]
+    - [[Developing Dendron on a Remote Machine|dendron.dev.remote]]
+    - [[Markdown Compilation Architecture|pkg.dendron-markdown.arch]]
+    - [[Web UI Architecture|pkg.dendron-next-server.arch]]
+    - [[Developing with Dendron Web UI|pkg.dendron-next-server.dev]]
+    - [[Development Guides for various Dendron Plugin Components|pkg.plugin-core.dev]]
+
 
 ### Community
 

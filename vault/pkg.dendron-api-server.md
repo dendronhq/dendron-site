@@ -8,7 +8,7 @@ created: 1606628243560
 
 ## Summary
 
-The API server is a local express server that runs on the users machine. It can be initialized by the [[Dendron CLI|pkg.dendron-cli]] or the [[Dendron Plugin|pkg.dendron-plugin]]. 
+The API server is a local express server that runs on the users machine. It can be initialized by the [[Dendron CLI|pkg.dendron-cli]] or the [[Dendron Plugin|pkg.plugin-core]]. 
 
 It is a wrapper around the [[Dendron Engine|pkg.dendron-engine]]. 
 

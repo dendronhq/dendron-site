@@ -35,7 +35,7 @@ In VSCode, select the `Run Extnesion: Local` build task (copied below for refere
 
 ### Breakpoints
 <!-- Setting Breakpoints -->
-For testing [[Dendron Plugin|pkg.dendron-plugin]], you can set a regular breakpoint inside of VSCode.
+For testing [[Dendron Plugin|pkg.plugin-core]], you can set a regular breakpoint inside of VSCode.
 
 For non plugin code, this won't work.  The current workaround is to manually add a `debugger;` statement inside the code. The extension will hit it when restarted under the debugger. 
 
