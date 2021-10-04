@@ -1,6 +1,6 @@
 ---
 id: 87d90002-f480-45eb-a8c4-d00df4d61557
-title: Dendron Plugin
+title: Plugin Core
 desc: ''
 updated: 1627139967177
 created: 1605375348464

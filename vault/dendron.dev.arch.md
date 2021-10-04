@@ -15,13 +15,13 @@ This goes over the major architectural components of Dendron.
 
 ## Lifecycle
 - Startup
-  - Plugin startup: [[Summary|pkg.dendron-plugin.arch.startup#summary]]
+  - Plugin startup: [[Summary|pkg.plugin-core.arch.startup#summary]]
   - Migrations: [[Migration|pkg.dendron-engine.t.migration]]
 
 - Regular Execution
-  - Running a plugin command: [[Base Command Lifecycle|pkg.dendron-plugin.t.commands#base-command-lifecycle]]
+  - Running a plugin command: [[Base Command Lifecycle|pkg.plugin-core.t.commands#base-command-lifecycle]]
   - Lookup: 
-    - plugin: [[Internal|pkg.dendron-plugin.t.lookup.internal]]
+    - plugin: [[Internal|pkg.plugin-core.t.lookup.internal]]
     - engine: [[Lookup|dendron://dendron.dendron-site/pkg.dendron-engine.t.lookup]]
   - Dendron Engine: [[Initialization|pkg.dendron-engine.arch#initialization]]
 
@@ -42,4 +42,4 @@ This goes over the major architectural components of Dendron.
 ## Deployment
 
 ## Related
-- [[Dendron Plugin|pkg.dendron-plugin.arch]]
+- [[Dendron Plugin|pkg.plugin-core.arch]]

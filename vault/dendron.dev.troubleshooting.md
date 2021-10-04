@@ -42,4 +42,4 @@ To fix this, convert instances of the **bad** example to the **good** one.
 
 ### Remove the `lib` folder
 
-After a major refactor, you might need to clean out the `lib` folder. For [[Dendron Plugin|pkg.dendron-plugin]], this would be the `out` folder.
+After a major refactor, you might need to clean out the `lib` folder. For [[Dendron Plugin|pkg.plugin-core]], this would be the `out` folder.

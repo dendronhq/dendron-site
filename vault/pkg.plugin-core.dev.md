@@ -66,7 +66,7 @@ See [[Configuration|pkg.common-all.dev#configuration]]
 
 ### Working with VSCode Workspace State
 
-Use the [[State Service|pkg.dendron-plugin.arch.state-service]] when working with VSCode workspace related state.
+Use the [[State Service|pkg.plugin-core.arch.state-service]] when working with VSCode workspace related state.
 
 ## Lookup
 

@@ -9,7 +9,7 @@ created: 1628345272665
 ## Logs
 This describes the expected logs for certain Dendron operations
 
-### [[Startup|pkg.dendron-plugin.arch.startup#summary]]
+### [[Startup|pkg.plugin-core.arch.startup#summary]]
 
 #### normal
 
