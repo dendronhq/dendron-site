@@ -3,7 +3,7 @@ id: 3c80629b-4048-48f0-bdfd-352645bda2ec
 title: Dev
 desc: |
   Development related
-updated: 1633299395384
+updated: 1633299662588
 created: 1622079130106
 ---
 ## Gotchas
@@ -33,7 +33,7 @@ Dendron configuration is managed by [DendronConfig](https://github.com/dendronhq
 
 Whenever you add a new entry with a default, make sure to do the following as well.
 
-- [ ] update `Extension.test.ts` (we have a test that checks for default config values that will break)
+- [[Tests for Configuration|dendron://dendron.dendron-site/pkg.common-all.dev#tests-for-configuration]]
 - [ ] document it under [[dendron config|dendron.topic.config.dendron]]
 
 Before you submit, make sure to run the following at the root of the dendron repo
@@ -48,7 +48,8 @@ This will update the json schema definitions for `DendronConfig` which is used d
 
 ### Add New Default
 
-TBD
+1. Update the defaults [here](https://github.com/dendronhq/dendron/blob/master/packages/engine-server/src/config.ts#L39:L39)
+1. [[Tests for Configuration|dendron://dendron.dendron-site/pkg.common-all.dev#tests-for-configuration]]
 
 ### Migrating an existing configuration
 
@@ -80,3 +81,8 @@ This uses dendron.yml for config instead of .code-workspace
 
 - see commit 68556bf2
 - [fix: Use new config when creating special notes by hikchoi · Pull Request #984 · dendronhq/dendron](https://github.com/dendronhq/dendron/pull/984)
+
+### Common
+
+#### Tests for Configuration
+- if defaults are changed, `Extension.test.ts` needs to be updated to reflect this
