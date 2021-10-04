@@ -333,7 +333,3 @@ You can see an explanation of how it works [here](https://git-scm.com/docs/git-b
     Promise.resolve()
   );
 ```
-<<<<<<< HEAD
-
-=======
->>>>>>> 447bf4b9da87076b7b3ff0e3ac1f695d3a8c0cbc
