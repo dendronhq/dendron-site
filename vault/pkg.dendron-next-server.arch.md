@@ -2,7 +2,7 @@
 id: a0240c63-2000-4542-a0ba-d570f42323b9
 title: Arch
 desc: ''
-updated: 1630970714867
+updated: 1633385323644
 created: 1622130772977
 ---
 
@@ -11,14 +11,19 @@ created: 1622130772977
 The next server contains the UI components for the Dendron Plugin, the Dendron Preview, and the Dendron published site.
 
 ## Details
-All plugin related code gets routed to the `/vscode` path which is set in `_app.tsx`. 
 
-When building the plugin, all `/vscode` pages will be exported as static files and bundled with the plugin extension. They will be served at runtime using `expressjs`.
+Webviews in Dendron Plugin are statically exported HTML files generated from running `yarn export` in `@dendronhq/dendron-next-server`. 
 
+When a user opens up a webview (eg. by running `Show Preview`), the command opens up an iframe that points to `localhost:{port-of-engine-server}/vscode/note-preview.html`
+
+This route is served by the [[Dendron API Server|dendron://dendron.dendron-site/pkg.dendron-api-server#summary]] which serves up the statically generated HTML. 
+
+- NOTE: the reason we use an `iframe` instead of directly linking to the static HTML is because of VSCode's restriction on running [local content](https://code.visualstudio.com/api/extension-guides/webview#loading-local-content). In a nutshell, all URL's need to be loaded as webview urls by running `panel.webview.asWebviewUri(onDiskPath)` over the url. NextJS generates HTML and chunks the javascript so that the HTML has lots of `<script src="/.../foo.js">` like paths which will not be loaded by an VSCode WebView. 
+
+### View Types
 There are two kind of views in the plugin that get handled by NextJs:
 - webviews
 - treeviews
-
 Treeviews are components in the sidepanel, webviews are views that are revealed using a command (eg. `Dendron: Configure`). The mechanism of rendering both views are similar.
 
 

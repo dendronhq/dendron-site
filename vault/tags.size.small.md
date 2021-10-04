@@ -2,9 +2,10 @@
 id: gfIRc5FRA6jxZfenXBG38
 title: Small
 desc: ''
-updated: 1629669851153
+updated: 1633389464780
 created: 1624294366851
 ---
 
+A task that takes a few hours. 
 
-Good first task. This  represents a task that can be done in a few hours or less. 
+This is a good first task for new contributors.

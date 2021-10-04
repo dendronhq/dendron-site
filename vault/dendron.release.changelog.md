@@ -1,10 +1,16 @@
 ---
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 desc: ''
-updated: 1633130976115
+updated: 1633391090767
 created: 1601508213606
 date: '2022-01-01'
 ---
+
+## 0.61.2
+
+### Enhancements
+ - fix(lookup): vault selection use wrong label #1463  @kevin
+ - fix(markdown): highlighting for wildcard note refs with header offsets #1460  @kaan
 
 ## 0.61.1
 
