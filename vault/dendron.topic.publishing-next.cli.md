@@ -10,6 +10,11 @@ created: 1631401993170
 
 ### init
 
+Initialize the site template.
+
+#### options
+- `--template`: override the template, specify a Git remote URL
+
 ### build
 
 Prepare notes for publication. Runs [[Nextjs|dendron.topic.pod.builtin.nextjs]] pod in the background. 
