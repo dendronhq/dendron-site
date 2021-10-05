@@ -1,16 +1,23 @@
 ---
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
+title: Changelog
 desc: ''
-updated: 1633391090767
+updated: 1633394354942
 created: 1601508213606
 date: '2022-01-01'
 ---
 
 ## 0.61.2
 
+### Feature
+- feat(pods): airtable publish pod ([[docs|dendron://dendron.dendron-site/dendron.topic.pod.builtin.airtable.publish#summary]]) @kevin
+
 ### Enhancements
  - fix(lookup): vault selection use wrong label #1463  @kevin
  - fix(markdown): highlighting for wildcard note refs with header offsets #1460  @kaan
+ - enhance(pods): airtable export pod is now [idempotent](https://en.wikipedia.org/wiki/Idempotence) ([[docs|dendron://dendron.dendron-site/dendron.topic.pod.builtin.airtable.export#idempotency]] @kevin 
+ - enahnce(pods): airtable export pod has better support for mapping [[Tags|dendron://dendron.dendron-site/dendron.topic.tags]] and dates ([[docs|dendron://dendron.dendron-site/dendron.topic.pod.builtin.airtable.export#object-value]]) @kevin
+ - enhance(pods): export pods support `ignore` and `vault` filters ([[docs|dendron://dendron.dendron-site/dendron.topic.pod.export#configuration]]) @kevin
 
 ## 0.61.1
 

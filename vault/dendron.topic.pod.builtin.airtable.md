@@ -2,7 +2,7 @@
 id: c8ljkYY3eVkkmTNumc0C7
 title: Airtable
 desc: ''
-updated: 1623695829922
+updated: 1633392768006
 created: 1623502850163
 ---
 
@@ -10,9 +10,13 @@ created: 1623502850163
 - id: `dendron.airtable`
 - coverage
   - ❌ import
-  - ❌ publish
+  - ✅ publish
   - ✅ export
   
+
+### Publish
+
+![[dendron.topic.pod.builtin.airtable.publish#summary,1:#*]]
 
 ### Export
 
