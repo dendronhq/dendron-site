@@ -149,7 +149,7 @@ startServer {
 
 ### updateEngine
 
-- [[workspace.vaults|pkg.dendron-plugin.internal#workspacevaults]]
+- [[workspace.vaults|pkg.plugin-core.internal#workspacevaults]]
 
 - src/utils.ts
 ```

@@ -2,7 +2,7 @@
 id: 99q7A73uGmCwu2KvSHZro
 title: Test
 desc: ''
-updated: 1632961010333
+updated: 1632725608146
 created: 1632347495097
 ---
 
@@ -13,7 +13,7 @@ created: 1632347495097
 
 All packages have tests written in `jest` except plugin-core. these tests use `mocha` assertion because vscode has a special test harness built around `mocha`   ^AJqcVczVafLB
 
-Going forward for new tests the recommendation is to follow GIVEN-WHEN-THEN style described in [[dendron.dev.style.test]]
+Going forward for new tests the recommendation is to follow GIVEN-WHEN-THEN style described in [[dendron.dev.qa.style]]
 
 #### Plugin
 

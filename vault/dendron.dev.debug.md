@@ -9,8 +9,8 @@ stub: false
 
 ## Summary
 
-When debugging Dendron, note that there is both a client and server component. The client is [[Dendron Plugin|pkg.dendron-plugin]]. The server is [[Dendron API Server|pkg.dendron-api-server]]. 
+When debugging Dendron, note that there is both a client and server component. The client is [[Dendron Plugin|pkg.plugin-core]]. The server is [[Dendron API Server|pkg.dendron-api-server]]. 
 
-For client (plugin) debugging, see instructions [[here|pkg.dendron-plugin.qa.debug]].
+For client (plugin) debugging, see instructions [[here|pkg.plugin-core.qa.debug]].
 
 For server debugging, see instructions [[here|pkg.dendron-api-server.qa.debug]]

@@ -58,7 +58,7 @@ See [here](https://handbook.dendron.so/notes/0292b34e-47eb-4499-8f49-d9891accdb3
 - [x] Set max-width constraints for content 
 - [x] Navigate to home page using `nextjs/link` instead of `<a>` 
 - [x] integarte nextjs with [[pkg.dendron-cli]] 
-- [ ] integarte nextjs with [[pkg.dendron-plugin]]
+- [ ] integarte nextjs with [[pkg.plugin-core]]
 
 ### Fixes
 - [x] Deeply nested tree view items can overflow 

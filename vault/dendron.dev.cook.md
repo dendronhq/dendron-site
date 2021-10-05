@@ -6,8 +6,8 @@ updated: 1631029799524
 created: 1599151918645
 stub: false
 ---
-
 ## Build
+
 - See [[Build|dendron.dev.build]]
 
 ## Packages
@@ -97,6 +97,7 @@ The following is an example of adding a hook that checks whether any imports hav
 ## Config
 
 ### Update JSON Config with comments
+
 Dendron works with JSON with comments when working the a vscode workspace file, snippets file or the keybindings file. When making a change here, take care to both read and write to the file while preserving comments. 
 
 You'll want to make sure to use the following functions to read, assign and write json with comments
@@ -135,19 +136,19 @@ The above changes are for `Rename`. `Refactor` calls rename in a loop so changin
 
 ### Adding a general configuration
 
-See [[Adding new configuration|pkg.dendron-plugin.dev#adding-new-configuration]]
-
+See [[Adding new configuration|pkg.plugin-core.dev#adding-new-configuration]]
 
 ## Plugin
-- See [[Dev|pkg.dendron-plugin.dev]]
+- See [[Dev|pkg.plugin-core.dev]]
 
-## Markdown 
+## Markdown
 
 Markdown related changes are documented [[here|pkg.dendron-markdown.dev]]
 
 ## Other
 
 ### Tuning Lookup
+
 - create `proto.ts` inside `engine-server`
 
 ```ts
@@ -295,13 +296,11 @@ export async function main() {
 main2();
 ```
 
-
 ## Styling and Version Control
 
 ### Manually Formatting the code
 
 From the root workspace, you can run `yarn format` to run `prettier` on all packages. This should be unecessary since we auto format on every commit
-
 
 ### Git Ignore Blame
 
@@ -317,11 +316,12 @@ You can see an explanation of how it works [here](https://git-scm.com/docs/git-b
 
 ### Adding a new configuration property
 
-![[dendron://dendron.dendron-site/pkg.dendron-plugin.dev#adding-a-new-config,1:#*]]
+![[dendron://dendron.dendron-site/pkg.plugin-core.dev#adding-a-new-config,1:#*]]
 
 ### Synchronously loop through async results
 
-- see https://github.com/dendronhq/dendron/blob/integ-publish/packages/plugin-core/src/commands/VaultAddCommand.ts#L171:L179
+- see <https://github.com/dendronhq/dendron/blob/integ-publish/packages/plugin-core/src/commands/VaultAddCommand.ts#L171:L179>
+
 ```ts
   await _.reduce(
     vaults,

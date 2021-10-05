@@ -11,7 +11,7 @@ created: 1624552964184
 Describes how various parts of Dendron Work
 
 ## Index
-- [[Commands|pkg.dendron-plugin.t.commands]]
+- [[Commands|pkg.plugin-core.t.commands]]
 
 ## Other
 ### FileWatcher

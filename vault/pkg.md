@@ -13,7 +13,7 @@ This goes over all packages in the dendron monorepo
 ## User Facing
 
 ### Dendron Plugin
-![[pkg.dendron-plugin#summary,1:#*]]
+![[pkg.plugin-core#summary,1:#*]]
 
 ### Dendron CLI
 ![[pkg.dendron-cli#summary,1:#*]]

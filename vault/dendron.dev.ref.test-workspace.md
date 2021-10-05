@@ -2,7 +2,7 @@
 id: dtMsF12SF2SUhLN10sYe2
 title: Test Workspace
 desc: ''
-updated: 1633064397557
+updated: 1633421116541
 created: 1631471672541
 ---
 
@@ -14,16 +14,14 @@ Note that this workspace is currently configured to be used with launching a eng
 
 1. Launch engine server
     ```sh
-    cd $DENDRON_REPO_ROOT/test-workspace
-    ./scripts/dev.sh
+    cd $DENDRON_REPO_ROOT/test-workspace && ./scripts/dev.sh
     ```
 1. In a separate terminal, start the Next Server
   ```sh
-  cd dendron/packages/dendron-next-server
-  yarn dev
+  cd $DENDRON_REPO_ROOT/packages/dendron-next-server && yarn dev
   ```
 1. Connect to workspace 
-![[pkg.dendron-plugin.qa.debug#launch,1:#*]]
+![[pkg.plugin-core.qa.debug#launch,1:#*]]
 
 1. Run [[Change Workspace|dendron.topic.commands#change-workspace]] and change into `$DENDRON_REPO_ROOT/test-workspace`
 

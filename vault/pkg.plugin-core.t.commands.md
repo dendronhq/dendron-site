@@ -133,7 +133,7 @@ When a command throws an exception that is not caught, it is caught by the paren
 
 
 ## File Watchers
-- [[Summary|pkg.dendron-plugin.internal.workspace-watcher#summary]]
+- [[Summary|pkg.plugin-core.internal.workspace-watcher#summary]]
 
 ### File Changes
 
@@ -149,7 +149,7 @@ Hooks into `onDidChange`, `onDidCreate` and `onDidDelete` should be added here.
 Modify files before saving them
 
 Related:
-- [[Workspace Watcher Internal|pkg.dendron-plugin.internal.workspace-watcher]]
+- [[Workspace Watcher Internal|pkg.plugin-core.internal.workspace-watcher]]
 
 #### onDidChangeTextDocument
 - triggerUpdateDecorations

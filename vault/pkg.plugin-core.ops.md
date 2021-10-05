@@ -22,5 +22,5 @@ git push --set-upstream origin integ-publish --force
 ```
 
 ### Diagnostics?
-- [ ] is the subprocess running? [[logs|pkg.dendron-plugin.ops.logs#start-engine-process]]
-- [ ] did note indexing finish successfully? [[logs|pkg.dendron-plugin.ops.logs#finish-indexing-notes]]
+- [ ] is the subprocess running? [[logs|pkg.plugin-core.ops.logs#start-engine-process]]
+- [ ] did note indexing finish successfully? [[logs|pkg.plugin-core.ops.logs#finish-indexing-notes]]
