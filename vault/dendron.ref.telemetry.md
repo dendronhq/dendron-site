@@ -2,7 +2,7 @@
 id: 84df871b-9442-42fd-b4c3-0024e35b5f3c
 title: Telemetry
 desc: ''
-updated: 1632738509021
+updated: 1632994478805
 created: 1619460500071
 ---
 
@@ -63,7 +63,7 @@ When Dendron initializes, we collect data about on initialization time. This hel
 When Dendron starts for the first time, it launches users into a tutorial workflow. We track how far along the tutorial you get using the `Tutorial_{num}_Show` event. This helps us figure out how effective our intro documentation is.
 
 ### User Survey
-When the tutorial workflow is launched for the first time, we ask users if they want to answer some survey questions that can help us customize the onboarding experience. We track if the user accepted the prompt, and what answer they gave for the survey. For each survey question, the following fields are collected.
+When the tutorial workflow is launched for the first time, or a user hasn't been active within 7 days of initial install (has not initalized workspace) we ask users if they want to answer some survey questions. We use the results to customize the onboarding experience and help users get started. We track if the user accepted the prompt, and what answer they gave for the survey. For each survey question, the following fields are collected.
 
 | Field             | Attributes | Description                   |
 | ----------------: | :--------: | ----------------------------- |
