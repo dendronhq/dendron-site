@@ -2,7 +2,7 @@
 id: 84df871b-9442-42fd-b4c3-0024e35b5f3c
 title: Telemetry
 desc: ''
-updated: 1632994478805
+updated: 1633484119356
 created: 1619460500071
 ---
 
@@ -48,7 +48,7 @@ Data is collected in scenarios that are described below.
 
 ### Startup 
 
-When Dendron initializes, we collect data about on initialization time. This helps us measure the performance impact of changes that run before startup as well as improvements to our indexing performance over time. 
+When Dendron initializes, we collect data about on initialization time. This helps us measure the performance impact of changes that run before startup as well as improvements to our indexing performance over time.
 
 | Field       | Attributes | Description                                                         |
 | ----------: | :--------: | ------------------------------------------------------------------- |
@@ -57,6 +57,13 @@ When Dendron initializes, we collect data about on initialization time. This hel
 | `numVaults` | _number_   | Number of vaults in workspace                                       |
 | `noCaching` | _boolean_  | Check whether caching is disabled                                   |
 
+### Configuration
+
+When Dendron initializes, we collect data about how Dendron is configured. This helps us figure out the number of users who are actively using a legacy (deprecated or scheduled to be deprecated) configuration to better understand the impact of configuration changes.
+
+| Field       | Attributes | Description                                                  |
+| ----------: | :--------: | ------------------------------------------------------------ |
+| `key`       | _string_   | Key of the configuration that has not been migrated yet.     |
 
 ### Tutorial Progression
 
