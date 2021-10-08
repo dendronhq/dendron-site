@@ -2,20 +2,20 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1633730380561
+updated: 1633734100333
 created: 1601508213606
 date: '2022-01-01'
 ---
 
+## 0.62.3
+
+### Bug Fixes
+- fix(schemas): schema templates copy over frontmatter tags  @kaan
 
 ## 0.62.2
 
-### Features
-- feat(command): move header command (#1349) @hikchoi ([[docs|dendron.topic.commands#move-header]])
-
 ### Bug Fixes
 - fix(views): tree view order (#1459) @kaan
-- fix(lookup): move header command shouldn't update note references that don't match the moved header's anchor (#1480) @hikchoi
 
 ## 0.62.1
 

@@ -2,7 +2,7 @@
 id: eea2b078-1acc-4071-a14e-18299fc28f47
 title: Commands
 desc: ''
-updated: 1633132547708
+updated: 1633730611387
 created: 1595261816971
 ---
 
@@ -306,7 +306,8 @@ All wikilinks that link to this header (like `[[note#header]]`) will automatical
 This command removes the selected header from the note and appends it to the end of the destination note body.
 All wikilinks that link to this header will automatically get updated to the new header.
 
-You can also rename a header through context menus by selecting the header to be renamed and then Right Click > Dendron: Rename Header.
+- NOTE: all notes that are reformated using `Move Header` are also fomratted
+- TIP: You can also rename a header through context menus by selecting the header to be renamed and then Right Click > Dendron: Rename Header.
 
 ### Show Preview
 
