@@ -2,7 +2,7 @@
 id: eea2b078-1acc-4071-a14e-18299fc28f47
 title: Commands
 desc: ''
-updated: 1633132547708
+updated: 1633687755215
 created: 1595261816971
 ---
 
@@ -41,6 +41,9 @@ You can also highlight any line of text, and Dendron will create a link to it by
 If you use this command in a [[multi vault|dendron.topic.vaults.multi-vault]] workspace, Dendron will create a [[cross vault link|dendron.topic.links#cross-vault-links]] to the note in question.
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/command.copy-link.gif)
+
+
+You can also copy note link by Right Click on editor and select `Dendron: Copy Note Link` from the context menu.
 
 ### Copy Note Ref
 
@@ -289,6 +292,8 @@ If the title is the same as what Dendron would autogenerate (kebab-case capitali
 You can also rename an open note from the explorer by: 
 Right Click on the note > Dendron: Rename Note
 
+Dendron also recognises vscode rename command and updates all the backlinks
+
 ### Rename Header
 
 -   shortcuts: none
@@ -306,7 +311,6 @@ All wikilinks that link to this header (like `[[note#header]]`) will automatical
 This command removes the selected header from the note and appends it to the end of the destination note body.
 All wikilinks that link to this header will automatically get updated to the new header.
 
-You can also rename a header through context menus by selecting the header to be renamed and then Right Click > Dendron: Rename Header.
 
 ### Show Preview
 
@@ -766,5 +770,31 @@ Open Dendron logs for current session
 - shortcuts: none
 
 Copy last 3000 lines of all logs and config to clipboard. Use when submitting an issue to Dendron
+
+
+### Contextual UI
+
+#### New File
+
+Dendron recognises a new markdown file created from vscode context menu and populate it with the frontmatter.
+
+#### Rename 
+
+Dendron recognises the vscode rename and updates all the backlinks to the old file with new name.
+
+#### Code Actions
+
+#### Rename Header
+
+Dendron autosuggests to rename a header if you tap on a header or highlight it.
+
+#### Refactor Extract
+
+You can extract highlighted text to a new note by clicking on the refactor extract lightbulb next to the selection, and click on Create New Note.
+
+#### Broken links
+
+You can fix a broken wikilink, tags or user mentions, by selecting fix broken link from the code action lightbulb displayed after taping on or next to the broken link.
+
 
 
