@@ -24,6 +24,8 @@ In VSCode, you can use the "Goto symbol in workspace" command and type the funct
 2. In `DNodeUtils.create` add prop name to `optionalProps`.
 3. In `NoteUtils.serializeMeta` add prop name to `builtinProps`.
 4. In `DNodeUtils.getCustomProps` add prop name to `blacklist`.
+5. In `SchemaUtils.TEMPLATE_COPY_PROPS` add prop name if the prop should be copied over when a template note is used.
+6. **If and only if** it's a prop that's required (mandatory) for all notes, in `foundation.ts` add prop name to `REQUIRED_DNODEPROPS`. Again, most props don't have to be mandatory.
 
 ## Configuration
 
