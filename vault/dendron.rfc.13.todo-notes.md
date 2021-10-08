@@ -2,7 +2,7 @@
 id: 716e2699-42e1-44bd-9b97-124f03173ddc
 title: Todo Notes
 desc: ''
-updated: 1632201548562
+updated: 1633711289883
 created: 1621568116095
 published: true
 ---
@@ -79,6 +79,7 @@ due: date
 owner: string
 priority: L|M|H
 tags: [tag1, tag2]
+status: wip
 ```
 
 #### completed
@@ -96,6 +97,10 @@ The individual responsible for the task
 #### priority
 
 The priority of the given task
+
+#### status
+
+The current status of the task. This should be customizable. The default list can be a simplified version of what we have in the [handbook](https://handbook.dendron.so/notes/0292b34e-47eb-4499-8f49-d9891accdb3d.html)
 
 #### tags
 
@@ -123,6 +128,7 @@ Using the same technique, Dendron can show the rest of the task properties using
 
 ```yml
 completed: false
+status: a
 due: friday
 owner: kevin
 priority: H
@@ -146,6 +152,27 @@ How a text note link is rendered can be configured using [[notes.task.render|den
 {% endif %}
 
 ## Example
+
+1. Jonny is in his daily journal,  `user.jonny.journal.2021.10.08`
+    ```markdown
+    ## Tasks
+    - buy milk 
+    ```
+1. Jonny runs `Dendron: Create Task` when highlighting `buy milk`
+    - this runs `lookup` with the new `todo` modifier checked
+    - creates and opens `user.jonny.journal.2021.10.08.todo` while creating a wikilink in the original daily journal
+        ```markdown
+        ---
+        title: buy milk
+        completed: false
+        due: null
+        owner: jonny
+        status: a
+        priority: M
+        tags: []
+        ---
+        ```
+1. TBD
 
 ## Tradeoffs
 

@@ -12,9 +12,9 @@ The next server contains the UI components for the Dendron Plugin, the Dendron P
 
 ## Details
 
-Webviews in Dendron Plugin are statically exported HTML files generated from running `yarn export` in `@dendronhq/dendron-next-server`. 
+Webviews in Dendron Plugin are statically exported HTML files generated from running `yarn export` in `@dendronhq/dendron-next-server`.  ^0LPK39T0MgNf
 
-When a user opens up a webview (eg. by running `Show Preview`), the command opens up an iframe that points to `localhost:{port-of-engine-server}/vscode/note-preview.html`
+When a user opens up a webview (eg. by running `Show Preview`), the command opens up an iframe that points to `localhost:{port-of-engine-server}/vscode/note-preview.html` ^aKJ72kztSNYY
 
 This route is served by the [[Dendron API Server|dendron://dendron.dendron-site/pkg.dendron-api-server#summary]] which serves up the statically generated HTML. 
 

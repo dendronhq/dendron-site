@@ -10,7 +10,7 @@ Dendron 0.62 has sprouted  🌱
 
 ### Highlights
 - enhance(pods): export pods support `ignore` and `vault` filters ([[docs|dendron://dendron.dendron-site/dendron.topic.pod.export#configuration]]) 
-- fix(views): anchor links now work within the preview
+- fix(view): anchor links clicked in preview now scroll to location within the note (not within preview).
 - fix(views): preview will now update when note reference change
 
 ### Everything Else
