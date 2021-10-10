@@ -20,7 +20,7 @@ npm install --save @dendronhq/dendron-cli
     ```
 1. Clone the nextjs repository
     ```sh
-    npx dendron publish init
+    dendron publish init
     ```
 1. Install dependencies
     ```sh

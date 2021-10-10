@@ -36,7 +36,7 @@ npm install @dendronhq/dendron-11ty-legacy@latest
 After you have your dependencies installed, build your site using the following command inside your workspace root.
 
 ```bash
-npx dendron buildSite  --stage dev --serve
+dendron buildSite  --stage dev --serve
 ```
 
 This will both compile your site locally and make it available at `localhost:8080` for instant preview. When building your site locally, the pages will be build to `{wsRoot}/build/site`. 
@@ -82,7 +82,7 @@ When your done, run the pre
 When you are ready to publish to github, make sure to change the stage to `prod`.
 
 ```bash
-npx dendron buildSite --stage prod 
+dendron buildSite --stage prod 
 ```
 
 This will build your site to the path specified by [[siteRootDir|dendron.topic.publishing.configuration#siterootdir-required]] in `dendron.yml`.  By default, this is located at `{wsRoot}/docs`.
