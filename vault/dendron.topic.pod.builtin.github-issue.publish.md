@@ -69,18 +69,20 @@ This is the discussion for [RFC 28 - Notifications](https://wiki.dendron.so/note
 - type: string
 - required: true
 
-### publishDiscussionBody
+### includeNoteBodyInDiscussion
 - description : if set to false, starts a discussion without the contents of note body
 - type: boolean
 - required: false
 - default : true
 
 If set to false, the default body for Discussion would be : Discussion for `<title of the note>`
+
 ### Example Configuration:
 ```yml
 owner: dendronhq
 repository: dendron-site
 token: ***
+includeNoteBodyInDiscussion: true
 ```
 
 ### Authentication (Populating the token field in the configuration)
