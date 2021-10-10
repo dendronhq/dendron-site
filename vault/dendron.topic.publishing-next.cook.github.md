@@ -2,7 +2,7 @@
 id: yg3EL1x9fEe4NMqxUC3jP
 title: GitHub
 desc: ''
-updated: 1633825363801
+updated: 1633902802039
 created: 1631132196609
 ---
 
@@ -93,7 +93,9 @@ site:
 
 ### Build and preview your notes
 
-![[dendron://dendron.dendron-site/dendron.topic.publishing-next.cook.common#build-and-preview-your-notes,1:#*]]
+
+![[dendron.topic.publishing-next.cook.common#preview-notes,1:#*]]
+
 
 ### Publish your notes
 

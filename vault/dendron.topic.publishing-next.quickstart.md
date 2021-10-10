@@ -2,7 +2,7 @@
 id: e5st4LFLtIwwbQmC6JBaF
 title: Quickstart
 desc: ''
-updated: 1632352218096
+updated: 1633902773839
 created: 1631033401707
 ---
 
@@ -22,18 +22,14 @@ This guide walks you through.
 ### Setup
 Run the following commands at the root of your dendron [[workspace|dendron.ref.workspace]]
 
-![[dendron.topic.publishing-next.cook.common#setup-notes,1]]
+![[dendron.topic.publishing-next.cook.common#setup-notes,1:#*]]
 
 ### Preview
-1. Build note metadata
+1. Build and preview
     ```sh
-    dendron publish build
+    dendron publish dev
     ```
-1. Preview changes
-    ```sh
-    cd .next && npm run dev
-    ```
-
+    
 ### Export
 
 ![[dendron.topic.publishing-next.cook.common#export-notes,1:#*]]
