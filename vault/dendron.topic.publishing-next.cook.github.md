@@ -2,7 +2,7 @@
 id: yg3EL1x9fEe4NMqxUC3jP
 title: GitHub
 desc: ''
-updated: 1633795579794
+updated: 1633825363801
 created: 1631132196609
 ---
 
@@ -91,22 +91,16 @@ site:
     siteUrl: https://kevinslin.github.io
 ```
 
-### Build your notes for publication
+### Build and preview your notes
 
-![[dendron.topic.publishing-next.cook.common#build-notes,1:#preview-notes]]
-
-### Preview your notes
-![[dendron.topic.publishing-next.cook.common#preview-notes,1]]
+![[dendron://dendron.dendron-site/dendron.topic.publishing-next.cook.common#build-and-preview-your-notes,1:#*]]
 
 ### Publish your notes
 
-![[dendron.topic.publishing-next.cook.common#export-notes,1]]
+- NOTE: we're running export with the github target. This 
 
-
-Publish your notes to the `/docs` folder
-```
-[[ -d ../docs ]] && rm -r ../docs 
-mv out ../docs && touch ../docs/.nojekyll
+```sh
+dendron publish export --target github
 ```
 
 ### Deploy your changes
