@@ -2,7 +2,7 @@
 id: xSSUw9GWcnsF35y597Vof
 title: 35 Easier Schemas
 desc: ''
-updated: 1633935105486
+updated: 1633937415627
 created: 1633613554664
 ---
 
@@ -344,12 +344,12 @@ schemas:
 A big user pain piont is that if something is wrong with a schema, it can be quite difficult to figure out why. The above commands should help with generating working schemas from the start, but in the case of when a user wants to modify and enhance their schemas, this remains a problem.
 
 One way to improve the experience would be to reduce the turnaround time between modifying a schema and testing if it's working. There are several ways we can improve on this:
-- Remove need to reload workspace after updating schema (TODO: check if this was checked in already)
-- Create a new command called 'Test Schema'. Running this while having `languages.schema.yml` would return back a summary with the notes in the workspace currently matching the schema(s). (This is similar to the feedback we get in lookup with the icons, but would be more direct)
+- Remove need to reload workspace after updating schema (this is already being tracked in our backlog)
 - Improve the "schema malformed" error message - can we at the very least point to which schema file is causing the problem?
 
     ![](https://org-dendron-public-assets.s3.amazonaws.com/images/rfc-35-error-1.png)
 
+- _(lower priority)_ Create a new command called 'Test Schema'. Running this while having `languages.schema.yml` would return back a summary with the notes in the workspace currently matching the schema(s). (This is similar to the feedback we get in lookup with the icons, but would be more direct)
 - _(lower priority)_ When a note is created that has a schema template applied, show an information message informing the user which schema definition caused the application of the template. Often times, I find myself doing code lookup to figure out how a schema template is working (this isn't that difficult, but it would be faster if a user is aware of why a template is getting applied).
 
 ### Tradeoffs
