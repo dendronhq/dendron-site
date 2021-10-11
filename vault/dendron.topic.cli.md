@@ -2,7 +2,7 @@
 id: 23a1b942-99af-45c8-8116-4f4bb7dccd21
 title: Dendron CLI
 desc: ''
-updated: 1632431904155
+updated: 1633964326846
 created: 1600033791071
 ---
 
@@ -306,3 +306,38 @@ Run `git add . && git commit` on all vaults inside the workspace
 #### sync
 
 Run `addAndCommit`, `pull`, and `push` on all vaults inside the workspace. This follows the same configuration as the `Workspace: Sync` command in the extension, see [[Workspace Sync|dendron.ref.workspace#Workspace: Sync]] for details.
+
+## Telemetry Commands
+
+
+```sh
+dendron telemetry <cmd>
+
+enable or disable telemetry
+
+Positionals:
+  cmd  a command to run
+                      [string] [required] [choices: "enable", "disable", "show"]
+
+Options:
+  --version  Show version number                                       [boolean]
+  --help     Show help                                                 [boolean]
+  --wsRoot   location of workspace
+  --vault    name of vault
+  --quiet    don't print output to stdout
+
+```
+
+### Actions
+
+#### enable
+
+Enables telemetry. This also affects telemetry while using Dendron in VSCode.
+
+#### disable
+
+Disables telemetry. This also affects telemetry while using Dendron in VSCode.
+
+#### show
+
+Shows telemetry notice.
