@@ -2,7 +2,7 @@
 id: eea2b078-1acc-4071-a14e-18299fc28f47
 title: Commands
 desc: ''
-updated: 1633687755215
+updated: 1633943603114
 created: 1595261816971
 ---
 
@@ -289,11 +289,8 @@ If the title is the same as what Dendron would autogenerate (kebab-case capitali
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/command-rename.gif)
 
-You can also rename an open note from the explorer by: 
-Right Click on the note > Dendron: Rename Note
 
-Dendron also recognises vscode rename command and updates all the backlinks
-
+You can also simply rename a file in VSCode's explorer panel, and all of the backlinks to that note will be updated automatically. Here is an example loom [video](https://www.loom.com/share/dcc2df8f598a463894278f9b5926a92e) 
 ### Rename Header
 
 -   shortcuts: none
@@ -772,7 +769,9 @@ Open Dendron logs for current session
 Copy last 3000 lines of all logs and config to clipboard. Use when submitting an issue to Dendron
 
 
-### Contextual UI
+## Contextual UI
+
+### File Operations
 
 #### New File
 
@@ -782,19 +781,24 @@ Dendron recognises a new markdown file created from vscode context menu and popu
 
 Dendron recognises the vscode rename and updates all the backlinks to the old file with new name.
 
-#### Code Actions
+### Code Actions
 
 #### Rename Header
 
 Dendron autosuggests to rename a header if you tap on a header or highlight it.
+![Rename Header](/assets/images/2021-10-11-14-27-32.png)
 
 #### Refactor Extract
 
-You can extract highlighted text to a new note by clicking on the refactor extract lightbulb next to the selection, and click on Create New Note.
+You can extract highlighted text to a new note by clicking on the refactor extract lightbulb next to the selection, and click on `Extract text to new note`.
+
+![Refactor Exttract](/assets/images/2021-10-11-14-26-35.png)
 
 #### Broken links
 
-You can fix a broken wikilink, tags or user mentions, by selecting fix broken link from the code action lightbulb displayed after taping on or next to the broken link.
+You can fix a broken wikilink, tags or user mentions, by selecting `Add missing note for wikilink declaration` from the code action lightbulb displayed after taping on or next to the broken link.
+
+![Broken Links Code Action](/assets/images/2021-10-11-14-20-23.png)
 
 
 
