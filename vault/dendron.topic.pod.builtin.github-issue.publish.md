@@ -2,7 +2,7 @@
 id: 8JECQzntY2P5ha3U
 title: Publish
 desc: ''
-updated: 1633695259775
+updated: 1633989428874
 created: 1627560101451
 ---
 
@@ -10,14 +10,12 @@ created: 1627560101451
 
 The Github Issue Publish Pod lets you update the status, milestone and labels of issues in your github repository that have previously been imported into Dendron. It also supports creating a new issue and a discussion in github from a note authored in dendron. 
 
-## Example Workflow
 
-When importing issues through [Github Issue Import](https://wiki.dendron.so/notes/2H9FBzagX9wf4b0V0ADGG.html), a note is created for each issue. The note frontmatter is populated with the title, url, status, existing tags, author and an issueID. You can add the field milestone with the milestone title, update the status of the issue (OPEN/CLOSED) and modify the tags within Dendron; after publishing with the publish pod, the changes in status, milestone and tags will be reflected in Github.
+## Actions
+
+## Creating an Issue
 
 A new github issue can be created by publishing any note with publish pod that does not have issueID and status in note's frontmatter.
-
-A new github discussion can be created by publishing any note with publish pod that has discussion category in note's frontmatter.
-
 
 ### Updating an issue
 
@@ -89,3 +87,9 @@ includeNoteBodyInDiscussion: true
 
 To communicate with the Github server, you'll need an OAuth token with the right scopes.
 Follow the steps in [Creating a personal access token](https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token) to create a token.
+
+## Example Workflow
+
+When importing issues through [Github Issue Import](https://wiki.dendron.so/notes/2H9FBzagX9wf4b0V0ADGG.html), a note is created for each issue. The note frontmatter is populated with the title, url, status, existing tags, author and an issueID. You can add the field milestone with the milestone title, update the status of the issue (OPEN/CLOSED) and modify the tags within Dendron; after publishing with the publish pod, the changes in status, milestone and tags will be reflected in Github.
+
+
