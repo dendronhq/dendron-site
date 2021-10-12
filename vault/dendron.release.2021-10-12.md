@@ -2,11 +2,9 @@
 id: 7Y1f7gPmzhdLaepIfBvcj
 title: Release Notes (version 0.63)
 desc: ''
-updated: 1634064546281
+updated: 1634064910323
 created: 1634061545899
 ---
-
-<!-- Replace frontmatter title-->
 
 Dendron 0.63 has sprouted  🌱
 
@@ -47,6 +45,21 @@ Personally, I find few things as frustrating as trying to get Siri to understand
 
 A big **thanks** to the following gardeners that brought up issues, contributions, and fixes to this release :man_farmer: :woman_farmer: 
 You can see an overview of all roles [[here|dendron.community.roles]]
+
+- Philippe Leveque `@ZorbaCodium#9873`
+    - #dendron.bugcatcher
+    - mermaid not working in preview
+- [Miguel Pereira](https://github.com/doctorboyMP) `doctorboy#9882`
+    - issue with dendron snapshots
+- [Laurentiu Nicola](https://github.com/lnicola)
+    - #dendron.bugcatcher
+    - ["Taking Notes" tutorial link doesn't work in the preview pane · Issue #1476 · dendronhq/dendron](https://github.com/dendronhq/dendron/issues/1476)
+    - [Preview is not updated when editing the front matter · Issue #1477 · dendronhq/dendron](https://github.com/dendronhq/dendron/issues/1477)
+- [Eric Marthinsen](https://github.com/emarthinsen)
+    - #dendron.bugcatcher
+    - [Apostrophes are not allowed in link labels · Issue #1498 · dendronhq/dendron](https://github.com/dendronhq/dendron/issues/1498)
+- [Jack](https://github.com/imalightbulb) `@I'm a lightbulb#6986`
+    - issue with github link on dendron-site
 
 ### Changelog
 ![[dendron.release.changelog#0630,1:#062]]
