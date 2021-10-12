@@ -25,7 +25,7 @@ Our documentation changes a lot week by week. Below is a highlight of some updat
 #### Office Hours
 
 <!-- TODO: update the link -->
-You can find notes from our latest office hours [[here|dendron.community.office-hours.2021.09.]]
+You can find notes from our latest office hours [[here|community.office-hours.2021.09.]]
 
 #### Thank You's
 

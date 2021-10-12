@@ -62,7 +62,7 @@ You can see an overview of all roles [[here|community.roles]]
   - [Minor typos](https://github.com/dendronhq/dendron-site/pull/149)
 - [aleksey-rowan](https://github.com/aleksey-rowan) @aleksey#5276
   - [Ctrl + Click to create a missing note](https://github.com/dendronhq/dendron/issues/1014)
-  - [fix Dendron talk date on dendron.community.greenhouse.md](https://github.com/dendronhq/dendron-site/pull/147)
+  - [fix Dendron talk date on community.greenhouse.md](https://github.com/dendronhq/dendron-site/pull/147)
 - [buxel](https://github.com/buxel) @Buxel#7181
   - [Improved import/export workflow to work with external wikis](https://github.com/dendronhq/dendron/issues/1020)
 - [BiosElement](https://github.com/BiosElement) @Bios Element#4381

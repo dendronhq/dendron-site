@@ -35,15 +35,15 @@ We updated our [website](https://www.dendron.so/) to better showcase Dendron's c
 
 #### Tea Time 
 
-We officially launched the [[Teatime|dendron://dendron.dendron-site/dendron.community.teatime]] channel last week for contributors. 
+We officially launched the [[Teatime|dendron://dendron.dendron-site/community.teatime]] channel last week for contributors. 
 
-![[dendron://dendron.dendron-site/dendron.community.teatime#summary,1]]
+![[dendron://dendron.dendron-site/community.teatime#summary,1]]
 
-Thanks to everyone that stopped by. This week, `@mobius#6646` will be hosting a few sessions in Asia time. You can see his slots in the [[community calendar|dendron://dendron.dendron-site/dendron.community#community-calendar]]
+Thanks to everyone that stopped by. This week, `@mobius#6646` will be hosting a few sessions in Asia time. You can see his slots in the [[community calendar|dendron://dendron.dendron-site/community#community-calendar]]
 
 #### Dendron Reading Series
 
-This week's entry in the [[Dendron Reading Series|dendron://dendron.dendron-site/dendron.community.what-are-you-reading]] is pinned in the `#what-are-you-reading `
+This week's entry in the [[Dendron Reading Series|dendron://dendron.dendron-site/community.what-are-you-reading]] is pinned in the `#what-are-you-reading `
 
 [The surprising downsides to planting trillions of trees](https://www.vox.com/platform/amp/down-to-earth/22679378/tree-planting-forest-restoration-climate-solutions)
 
@@ -52,7 +52,7 @@ Takeaway: be careful about proxy metrics - tree planting to offset and counter c
 #### Thank You's
 
 A big **thanks** to the following gardeners that brought up issues, contributions, and fixes to this release :man_farmer: :woman_farmer: 
-You can see an overview of all roles [[here|dendron.community.roles]]
+You can see an overview of all roles [[here|community.roles]]
 
 - [Stedag](https://github.com/Stedag) `@Stephen#8544`
     - #dendron.horticulturalist

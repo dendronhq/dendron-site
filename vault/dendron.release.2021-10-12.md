@@ -2,7 +2,7 @@
 id: 7Y1f7gPmzhdLaepIfBvcj
 title: Release Notes (version 0.63)
 desc: ''
-updated: 1634067337811
+updated: 1634068566278
 created: 1634061545899
 ---
 
@@ -29,9 +29,9 @@ Dendron configuration can be overwhelming - we are working on making it less so 
 
 #### Greenhouse Series - Typescript Development with Dendron and VSCode
 
-![[dendron://dendron.dendron-site/dendron.community.greenhouse#^Ddu3OTwrJYvI:#*]]
+![[dendron://dendron.dendron-site/community.greenhouse#^Ddu3OTwrJYvI:#*]]
 
-![[dendron://dendron.dendron-site/dendron.community.greenhouse.2021-10-15-ts-dev-vscode]]
+![[dendron://dendron.dendron-site/community.greenhouse.2021-10-15-ts-dev-vscode]]
 
 #### Dendron Reading Series
 
@@ -42,7 +42,7 @@ This week's entry in the [[Dendron Reading Series|community.reading-series]]. Sm
 #### Thank You's
 
 A big **thanks** to the following gardeners that brought up issues, contributions, and fixes to this release :man_farmer: :woman_farmer: 
-You can see an overview of all roles [[here|dendron.community.roles]]
+You can see an overview of all roles [[here|community.roles]]
 
 - Philippe Leveque `@ZorbaCodium#9873`
     - #dendron.bugcatcher
