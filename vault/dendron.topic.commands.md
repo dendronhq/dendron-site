@@ -786,19 +786,19 @@ Dendron recognises the vscode rename and updates all the backlinks to the old fi
 #### Rename Header
 
 Dendron autosuggests to rename a header if you tap on a header or highlight it.
-![Rename Header](/assets/images/2021-10-11-14-27-32.png)
+![Rename Header](https://org-dendron-public-assets.s3.amazonaws.com/images/rename-header.png)
 
 #### Refactor Extract
 
 You can extract highlighted text to a new note by clicking on the refactor extract lightbulb next to the selection, and click on `Extract text to new note`.
 
-![Refactor Exttract](/assets/images/2021-10-11-14-26-35.png)
+![Refactor Exttract](https://org-dendron-public-assets.s3.amazonaws.com/images/refactor-extract-codeaction.png)
 
 #### Broken links
 
 You can fix a broken wikilink, tags or user mentions, by selecting `Add missing note for wikilink declaration` from the code action lightbulb displayed after taping on or next to the broken link.
 
-![Broken Links Code Action](/assets/images/2021-10-11-14-20-23.png)
+![Broken Links Code Action](https://org-dendron-public-assets.s3.amazonaws.com/images/fix-broken-link.png)
 
 
 
