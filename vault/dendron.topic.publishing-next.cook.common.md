@@ -2,7 +2,7 @@
 id: 2340KhiZJWUy31Nrn37Fd
 title: Common
 desc: ''
-updated: 1632521464960
+updated: 1633902652278
 created: 1631132278348
 ---
 
@@ -18,13 +18,9 @@ npm install --save @dendronhq/dendron-cli
     ```sh
     echo .next >> .gitignore
     ```
-1. Clone the nextjs repository
+1. Clone the nextjs repository and install dependencies
     ```sh
-    npx dendron publish init
-    ```
-1. Install dependencies
-    ```sh
-    cd .next && yarn && cd ..
+    dendron publish init
     ```
 
 ### Build Notes
@@ -37,14 +33,14 @@ dendron publish build
 - NOTE: run this command inside your [[workspace|dendron.ref.workspace]]
 - visit [http://localhost:3000](http://localhost:3000) to see your local preview
 ```sh
-cd .next && yarn dev && cd ..
+dendron publish dev
 ```
 
 ### Export Notes
 - NOTE: run this command inside your [[workspace|dendron.ref.workspace]]
 
 ```sh
-cd .next && yarn export
+dendron publish export
 ```
 
 ##

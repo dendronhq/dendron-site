@@ -2,7 +2,7 @@
 id: K6ssYNLMW27BSV6rSZJ5P
 title: Release Notes (version 0.62)
 desc: ''
-updated: 1633583661088
+updated: 1633461690830
 created: 1633454409770
 ---
 
@@ -23,6 +23,13 @@ Dendron 0.62 has sprouted  🌱
 - fix(markdown): highlighting for wildcard note refs with header offsets 
 - fix(publish): nextjs search not working 
 - fix(lookup): vault selection use wrong label in multi-vault
+
+
+### Announcements
+
+#### New Website
+
+We updated our [website](https://www.dendron.so/) to better showcase Dendron's capabilities. Please take a look and leave any `#feedback` you might have in discord or at `support@dendron.so`!
 
 ### Community
 
