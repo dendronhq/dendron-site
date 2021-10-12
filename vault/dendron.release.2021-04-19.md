@@ -15,7 +15,7 @@ Dendron 0.38 is here 🌱
 
 ### Community
 A big **thanks** to the following gardeners that brought up issues, contributions, and fixes to this release :man_farmer: :woman_farmer: 
-You can see an overview of all roles [[here|dendron.community.roles]]
+You can see an overview of all roles [[here|community.roles]]
 
 - [Aleksey Rowan](https://github.com/aleksey-rowan) @aleksey `+horticulturalist`
   - ["Go down" command doesn't work at the root level · Issue #619 · dendronhq/dendron](https://github.com/dendronhq/dendron/issues/619)

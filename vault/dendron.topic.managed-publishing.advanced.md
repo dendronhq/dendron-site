@@ -8,7 +8,7 @@ created: 1615417851956
 
 ## Adding a Custom Domain via CNAME
 
-- this feature is limited to [[environmentalist|dendron.community.roles#environmentalist]] 
+- this feature is limited to [[environmentalist|community.roles#environmentalist]] 
 
 ### Pre-prequisites 
 
@@ -35,7 +35,7 @@ created: 1615417851956
     - if you are interested in using an apex domain, see the guide below
 
 ## Add a Custom Domain via Delegating Name Servers
-- this feature is limited to [[environmentalist|dendron.community.roles#environmentalist]] 
+- this feature is limited to [[environmentalist|community.roles#environmentalist]] 
 
 ### Pre-prequisites 
 
@@ -66,7 +66,7 @@ created: 1615417851956
 ## Add password protection to your site
 
 ### Pre-requisites
-- have a [[sprout or higher level plan|dendron.community.roles#environmentalist]] (note: we manage membership on a separate platform. be sure to register with the same email as you do for dendron)
+- have a [[sprout or higher level plan|community.roles#environmentalist]] (note: we manage membership on a separate platform. be sure to register with the same email as you do for dendron)
 
 ### Steps
 1. [[Create a site|dendron.topic.managed-publishing.quickstart#creating-a-site]] to Dendron

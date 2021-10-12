@@ -28,7 +28,7 @@ Before the talk, make sure that you have zoom installed and that you have given 
 
 ## Upcoming talk
 
-![[dendron.community.greenhouse.2021-07-30-cerebrarium-showcase]]
+![[community.greenhouse.2021-07-30-cerebrarium-showcase]]
 
 
 ## Past Talks
@@ -37,7 +37,7 @@ An archive of all previous talks can be found on [youtube](https://www.youtube.c
 
 
 ### A Day in Dendron
-![[dendron.community.greenhouse.2021-07-23-using-dendron-with-20k-notes]]
+![[community.greenhouse.2021-07-23-using-dendron-with-20k-notes]]
 
 ### Data Races
 - date: 2021.06.29

@@ -40,12 +40,12 @@ Dendron 0.60 has sprouted  🌱
 
 #### Office Hours
 
-You can find notes from our latest office hours [[here|dendron.community.office-hours.2021.09.19]]
+You can find notes from our latest office hours [[here|community.office-hours.2021.09.19]]
 
 #### Thank You's
 
 A big **thanks** to the following gardeners that brought up issues, contributions, and fixes to this release :man_farmer: :woman_farmer: 
-You can see an overview of all roles [[here|dendron.community.roles]]
+You can see an overview of all roles [[here|community.roles]]
 
 - `@doctorboy#9882`
     - #dendron.bugcatcher

@@ -56,7 +56,7 @@ One of our most requested features for multi-vault is now out. Refactor will now
 - add remote vault to gitignore if exist ([1c252db](https://github.com/dendronhq/dendron/commit/1c252db60c0ea69be8dd10c1768c2dd302711e13))
 - initialize all remote vaults on startup ([1919fe4](https://github.com/dendronhq/dendron/commit/1919fe4e6d853d1f6ef63564ebbcc9af1e11a41a))
 - write remote url to dendron config ([2a285ea](https://github.com/dendronhq/dendron/commit/2a285eacaeef8224d2a3530dc991b4977443c039))
-- add github sponsor badge on github repository to recruit more [[environmentalists|dendron.community.roles#environmentalist]] 👨‍🌾 👩‍🌾
+- add github sponsor badge on github repository to recruit more [[environmentalists|community.roles#environmentalist]] 👨‍🌾 👩‍🌾
 
 ### Bug Fixes
 
@@ -832,9 +832,9 @@ Current Seeds:
 - open AWS catalogue
 ```
 
-![[dendron.community.showcase#open-pkm-catalogue,1:#*]]
+![[community.showcase#open-pkm-catalogue,1:#*]]
 
-![[dendron.community.showcase#Open-AWS-Catalogue,1:#*]]
+![[community.showcase#Open-AWS-Catalogue,1:#*]]
 
 #### Alternatives
 
@@ -879,7 +879,7 @@ Dendron will now recognize a header selection if you have any part of the header
 ### Community Highlights
 
 - a new planter has appeared 🌲
-  ![[dendron.community.showcase#lukes-second-brain]]
+  ![[community.showcase#lukes-second-brain]]
 
 ## [0.12.3](https://github.com/dendronhq/dendron/compare/v0.12.3-alpha.16...v0.12.3) (2020-09-26)
 

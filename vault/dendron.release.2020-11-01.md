@@ -55,7 +55,7 @@ As part of getting out of preview, we are launching on [Product Hunt](https://ww
   - introducing the **Horticulturalist** role, created for folks who have contributed to the Dendron code base
     - Britt Selvitelle (@britt#3020)
     - Luke Roslanowski (@lukecarrier#2081)
-- we now have a new [[community|dendron.community]] section on our website that highlights the work and roles of our members
+- we now have a new [[community]] section on our website that highlights the work and roles of our members
 
 ### House Keeping
 

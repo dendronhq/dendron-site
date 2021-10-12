@@ -23,7 +23,7 @@ journal:
     dailyDomain: daily
     name: journal
     dateFormat: y.MM.dd
-    addBehavior: childOfDomain
+    addBehavior: childOfCurrent
     firstDayOfWeek: 1
 scratch:
     name: scratch
@@ -32,6 +32,7 @@ scratch:
 site:
     siteHierarchies:
         - dendron
+        - community
         - pkg
         - tags
         - templates

@@ -27,10 +27,10 @@ You can find notes from our latest office hours [here](https://docs.google.com/d
 
 We have a new contributors page that showcases all the gardeners that help make Dendron what it is. 
 
-![[dendron.community.roles#summary,1:#*]]
+![[community.roles#summary,1:#*]]
 
 #### Thank You's
-A big **thanks** to the following gardeners that brought up issues, contributions, and fixes to this release :man_farmer: :woman_farmer: You can see an overview of all roles [[here|dendron.community.roles]]
+A big **thanks** to the following gardeners that brought up issues, contributions, and fixes to this release :man_farmer: :woman_farmer: You can see an overview of all roles [[here|community.roles]]
 
 - [Flammehawk](https://github.com/flammehawk) @fudo#1010
   - [Schema improvements](https://github.com/dendronhq/dendron-site/pull/89)

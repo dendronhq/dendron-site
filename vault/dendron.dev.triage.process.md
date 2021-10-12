@@ -1,7 +1,7 @@
 ---
 id: 06751374-7982-4df2-b30b-92b10aba733a
 title: Process
-desc: ""
+desc: ''
 updated: 1628730744458
 created: 1619524509981
 ---
@@ -94,7 +94,7 @@ When we refer to "up-voting" a feature request, we specifically mean adding a Gi
 <img width="867" alt="GitHub UI for a issue with a +1 reaction" src="https://user-images.githubusercontent.com/8586769/87996982-b0568c80-caa8-11ea-87b8-a01371e6e338.png">
 
 ## Community Request On Planning (CROP for short)
-![[dendron.community.crop]]
+![[community.crop]]
 
 ## [Lookup](https://handbook.dendron.so/notes/b89ba854-72fb-4ebc-a8a0-55960b89e9dc.html#lookup)
 

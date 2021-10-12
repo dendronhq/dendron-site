@@ -2,7 +2,7 @@
 id: 7Y1f7gPmzhdLaepIfBvcj
 title: Release Notes (version 0.63)
 desc: ''
-updated: 1634064910323
+updated: 1634067337811
 created: 1634061545899
 ---
 
@@ -35,11 +35,9 @@ Dendron configuration can be overwhelming - we are working on making it less so 
 
 #### Dendron Reading Series
 
-This week's entry in the [[Dendron Reading Series|dendron://dendron.dendron-site/dendron.community.teatime#dendron-reading-series]].  Small update to the format - the entry for the reading series will now be pinned in the `#teatime` channel which is now open for everyone!
+This week's entry in the [[Dendron Reading Series|community.reading-series]]. Small update to the format - the entry for the reading series will now be pinned in the `#teatime` channel which is now open for everyone!
 
-[Hey Siri, what happened?](https://www.theverge.com/22704233/siri-apple-digital-assistant-10-years-development-problems-why)
-
-Personally, I find few things as frustrating as trying to get Siri to understand me. Voice recognition is one of those things were the difference between 95% and 99% accuracy matters. 
+![[community.reading-series.journal.2021.10.12]]
 
 #### Thank You's
 

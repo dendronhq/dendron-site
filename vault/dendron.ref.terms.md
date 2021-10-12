@@ -12,7 +12,7 @@ The [command palette](https://code.visualstudio.com/docs/getstarted/userinterfac
 
 ### Early Seed Release
 
-Early builds of Dendron. Only availble to [[Environmentalist|dendron.community.roles#environmentalist]].
+Early builds of Dendron. Only availble to [[Environmentalist|community.roles#environmentalist]].
 
 ### Slug
 

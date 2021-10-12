@@ -39,7 +39,7 @@ Our documentation changes a lot week by week. Below is a highlight of some updat
 
 #### Office Hours
 
-You can find notes from our latest office hours [[here|dendron.community.office-hours.2021.05.30]]
+You can find notes from our latest office hours [[here|community.office-hours.2021.05.30]]
 
 #### Newsletter
 
@@ -50,7 +50,7 @@ The publication frequency should be ~1 per month though we might also offer a we
 #### Thank You's
 
 A big **thanks** to the following gardeners that brought up issues, contributions, and fixes to this release :man_farmer: :woman_farmer: 
-You can see an overview of all roles [[here|dendron.community.roles]]
+You can see an overview of all roles [[here|community.roles]]
 
 - [Preston](https://github.com/LiminalCrab) @Preston#8485 
   - `+taxonomist`

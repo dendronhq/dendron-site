@@ -6,4 +6,4 @@ updated: 1617644707406
 created: 1617644707406
 ---
 
-![[dendron.community.roles#bug-catcher,1:#*]]
+![[community.roles#bug-catcher,1:#*]]

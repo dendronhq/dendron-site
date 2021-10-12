@@ -45,7 +45,7 @@ Our documentation changes a lot week by week. Below is a highlight of some updat
 
 #### Office Hours
 
-You can find notes from our latest office hours [[here|dendron.community.office-hours.2021.07.11]] 
+You can find notes from our latest office hours [[here|community.office-hours.2021.07.11]] 
 
 #### Thank You's
 
@@ -58,7 +58,7 @@ A big **thanks** to the following gardeners that brought up issues, contribution
   - `+taxonomist`
   - [correct spelling](https://github.com/dendronhq/dendron-site/pull/139)
 
-You can see an overview of all roles [[here|dendron.community.roles]]
+You can see an overview of all roles [[here|community.roles]]
 
 ### Changelog
 ![[dendron.release.changelog#050,1:#049]]

@@ -43,7 +43,7 @@ refactor!: drop support for Node 6
 
 ### first time pull request
 - [ ] if its your first pull request to Dendron, watch out for the [CLA](https://en.wikipedia.org/wiki/Contributor_License_Agreement) bot that will ask you to agree to Dendron's CLA
-- [ ] if its your first pull request and you're on our Discord, make sure that Kevin gives you the [[horticulturalist|dendron.community.roles#horticulturalist]] role  👨‍🌾👩‍🌾
+- [ ] if its your first pull request and you're on our Discord, make sure that Kevin gives you the [[horticulturalist|community.roles#horticulturalist]] role  👨‍🌾👩‍🌾
 
 ### general
 - [ ] add a [[test|dendron.dev.qa#writing-tests]] for the new feature

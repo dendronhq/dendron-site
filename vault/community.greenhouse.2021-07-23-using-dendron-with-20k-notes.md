@@ -4,7 +4,7 @@ title: A Day in Dendron
 desc: ''
 updated: 1627319633064
 created: 1626888422819
-excerpt: "Tips, tricks and workflows to optimize Dendron for daily life"
+excerpt: 'Tips, tricks and workflows to optimize Dendron for daily life'
 ---
 ## Summary
 

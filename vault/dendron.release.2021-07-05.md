@@ -1,10 +1,10 @@
 ---
 id: KasnPHKjT8aD6RzU0BI3x
 title: Release Notes (version 0.49)
-excerpt: ""
-desc: ""
+desc: ''
 updated: 1625491159023
 created: 1625491159023
+excerpt: ''
 ---
 
 Dendron 0.49 has sprouted 🌱
@@ -35,7 +35,7 @@ Our documentation changes a lot week by week. Below is a highlight of some updat
 
 #### Office Hours
 
-You can find notes from our latest office hours [[here|dendron.community.office-hours.2021.07.04]]
+You can find notes from our latest office hours [[here|community.office-hours.2021.07.04]]
 
 #### Thank You's
 
@@ -57,7 +57,7 @@ A big **thanks** to the following gardeners that brought up issues, contribution
   - `+bugcatcher`
   - [Links don't work in preview](https://github.com/dendronhq/dendron/issues/891)
 
-You can see an overview of all roles [[here|dendron.community.roles]]
+You can see an overview of all roles [[here|community.roles]]
 
 ### Changelog
 

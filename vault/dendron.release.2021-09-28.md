@@ -53,21 +53,21 @@ Dendron 0.61 has sprouted  🌱
 
 #### Dendron Reading Series
 
-![[dendron://dendron.dendron-site/dendron.community.what-are-you-reading#dendron-reading-series,1]]
+![[dendron://dendron.dendron-site/community.what-are-you-reading#dendron-reading-series,1]]
 
 #### Tea Time
 We are officially launching `#teatime` for all Dendron contributors.
 
-![[dendron://dendron.dendron-site/dendron.community.teatime#summary,1]]
+![[dendron://dendron.dendron-site/community.teatime#summary,1]]
 
 #### Office Hours
 
-Office hours are now every other week. No regular office hours from this week but we had a speical session of getting started with [[NextJS Publishing|dendron://dendron.dendron-site/dendron.topic.publishing-next]] which you can find [[here|dendron://dendron.dendron-site/dendron.community.office-hours.2021.09.24.nextjs-publishing]]
+Office hours are now every other week. No regular office hours from this week but we had a speical session of getting started with [[NextJS Publishing|dendron://dendron.dendron-site/dendron.topic.publishing-next]] which you can find [[here|dendron://dendron.dendron-site/community.office-hours.2021.09.24.nextjs-publishing]]
 
 #### Thank You's
 
 A big **thanks** to the following gardeners that brought up issues, contributions, and fixes to this release :man_farmer: :woman_farmer: 
-You can see an overview of all roles [[here|dendron.community.roles]]
+You can see an overview of all roles [[here|community.roles]]
 
 - `@Jminding#0001`
     - #dendron.taxonomist

@@ -21,7 +21,7 @@ I'm thrilled to announce our latest **Dendrologist**! Meet Luke (@lukecarrier#20
 
 > Hey 👋 I’m Luke and I’m going to be picking up some development work. Ask me about the markdown editing experience, publishing and integrating external tools.
 
-![[dendron.community.roles#dendrologist,1:#*]]
+![[community.roles#dendrologist,1:#*]]
 
 ### In the Works
 

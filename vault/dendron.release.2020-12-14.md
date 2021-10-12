@@ -25,7 +25,7 @@ Dendron 0.20 is here 🌱
 - new horticulturalist: @dolearning (Kevin)#3551, @ianjones#3696, @bublucious#1002 
 - new taxonomist: @dolearning (Kevin)#3551, @fudo#1010 
 
-You can find a description of all roles [[here|dendron.community.roles]]
+You can find a description of all roles [[here|community.roles]]
 
 ### In the Works
 

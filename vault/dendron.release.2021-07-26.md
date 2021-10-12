@@ -29,30 +29,30 @@ Dendron 0.52 has sprouted  🌱
 Our documentation changes a lot week by week. Below is a highlight of some updates from the past week.
 
 - A new RFC for [[Rich Web Client|dendron.rfc.17-rich-web-client]].
-- A new page for [[Greenhouse Talks|dendron.community.greenhouse]].
+- A new page for [[Greenhouse Talks|community.greenhouse]].
 - A new job posting for [[Head of Growth|dendron.jobs.head-of-growth]] position.
 - A new job posting for [[Head of Content|dendron.jobs.head-of-content]] position.
 
 ### Community
 
 #### Office Hours
-You can find notes from our latest office hours [[here|dendron.community.office-hours.2021.07.25]]
+You can find notes from our latest office hours [[here|community.office-hours.2021.07.25]]
 
 #### Greenhouse Series
 
-![[dendron.community.greenhouse#summary,1:#*]]
+![[community.greenhouse#summary,1:#*]]
 
-Video from our last talk, [[dendron.community.greenhouse.2021-07-23-using-dendron-with-20k-notes#summary]], is now available [here](https://www.youtube.com/watch?v=1mXGyG9ikD4)
+Video from our last talk, [[community.greenhouse.2021-07-23-using-dendron-with-20k-notes#summary]], is now available [here](https://www.youtube.com/watch?v=1mXGyG9ikD4)
 
 Details of the upcoming talk this Friday with our very own @hikchoi#8934 posted below
 
-![[dendron.community.greenhouse.2021-07-30-cerebrarium-showcase]]
+![[community.greenhouse.2021-07-30-cerebrarium-showcase]]
 
 
 #### Thank You's
 
 A big **thanks** to the following gardeners that brought up issues, contributions, and fixes to this release :man_farmer: :woman_farmer: 
-You can see an overview of all roles [[here|dendron.community.roles]]
+You can see an overview of all roles [[here|community.roles]]
 
 - [kimds91](https://github.com/kimds91)
   - `+bugcatcher`

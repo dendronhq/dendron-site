@@ -22,7 +22,7 @@ Dendron 0.37 has sprouted  🌱
 ### Community
 
 A big **thanks** to the following gardeners that brought up issues, contributions, and fixes to this release :man_farmer: :woman_farmer: 
-You can see an overview of all roles [[here|dendron.community.roles]]
+You can see an overview of all roles [[here|community.roles]]
 
 - [Bassmann](https://github.com/Bassmann) @Bassmann#5300 
   - issue with goto command

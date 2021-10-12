@@ -18,7 +18,7 @@ Dendron 0.41 has sprouted  🌱
 ### Community
 
 A big **thanks** to the following gardeners that brought up issues, contributions, and fixes to this release :man_farmer: :woman_farmer: 
-You can see an overview of all roles [[here|dendron.community.roles]]
+You can see an overview of all roles [[here|community.roles]]
 
 - [Kaan Genc](https://github.com/SeriousBug) @SeriousBug#6848
   - `+bugcatcher`

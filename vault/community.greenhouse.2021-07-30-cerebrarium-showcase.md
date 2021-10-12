@@ -24,7 +24,7 @@ In this talk, Mark will walk you through his personal digital garden [Cerebrariu
 
 ## Output
 - [Recording](https://www.youtube.com/watch?v=eOmUqvbUleo)
-- [[Transcript|dendron.community.greenhouse.2021-07-30-cerebrarium-showcase.transcript]]
+- [[Transcript|community.greenhouse.2021-07-30-cerebrarium-showcase.transcript]]
 
 ## Links to things talked about
 - [Cerebrarium - cerebrarium](https://cerebrarium.garden/): Mark's digital garden

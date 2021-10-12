@@ -7,5 +7,5 @@ created: 1609179545966
 ---
 
 
-![[dendron.community.roles#taxonomist,1:#*]]
+![[community.roles#taxonomist,1:#*]]
 

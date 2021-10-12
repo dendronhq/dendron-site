@@ -12,4 +12,4 @@ Dendron will auto-generate 403 pages during publication when a published note li
 
 ### Is Publishing Free?
 
-Yep, publishing is completely free!  Dendron generates a bunch of html files which you can use github pages or any static site host to publish. you can see some examples [[here|dendron.community.showcase]]
+Yep, publishing is completely free!  Dendron generates a bunch of html files which you can use github pages or any static site host to publish. you can see some examples [[here|community.showcase]]

@@ -40,8 +40,8 @@ It's been a few weeks since the last minor release. This iteration was mostly sp
 
 Aside from features, we've also launched two [[seeds|dendron.topic.seeds]]. Seeds are **open source dendron sites** that **consolidate reference material** about a **particular vertical**. Content from the catalogues is derived from existing open source content as well as manual user input. Your 🙏 is welcomed and encouraged. 
 
-![[dendron.community.showcase#open-pkm-catalogue,1:#*]]
-![[dendron.community.showcase#open-aws-catalogue,1:#*]]
+![[community.showcase#open-pkm-catalogue,1:#*]]
+![[community.showcase#open-aws-catalogue,1:#*]]
 
 ## Sustainability
 

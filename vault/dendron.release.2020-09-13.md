@@ -112,7 +112,7 @@ Create new note from a selection
 
 ### Planters
 
-A bunch of our fellow Dendronites have published notes using Dendron. You can check it at the [[showcase|dendron.community.showcase]].
+A bunch of our fellow Dendronites have published notes using Dendron. You can check it at the [[showcase|community.showcase]].
 
 We've also created a new role -> @Planter :man_farmer::woman_farmer: , to recognize folks who have published using Dendron.
 
