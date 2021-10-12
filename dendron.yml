@@ -1,4 +1,4 @@
-version: 1
+maxPreviewsCached: 10
 vaults:
     -
         fsPath: vault
@@ -8,17 +8,13 @@ useNoteTitleForLink: true
 noAutoCreateOnDefinition: true
 noLegacyNoteRef: true
 noXVaultWikiLink: true
-lookupConfirmVaultOnCreate: false
 mermaid: true
 useKatex: true
-
 autoFoldFrontmatter: false
+usePrettyRefs: true
 dev:
     enableWebUI: true
     enablePreviewV2: true
-lookup:
-    note:
-        selectionType: selectionExtract
 journal:
     dailyDomain: daily
     name: journal
@@ -38,10 +34,10 @@ site:
         - templates
     siteRootDir: docs
     gh_edit_repository: 'https://github.com/dendronhq/dendron-site'
-    gh_edit_branch: "master"
+    gh_edit_branch: master
     usePrettyRefs: true
     copyAssets: true
-    logo: vault/assets/images/logo.png
+    logo: vault/assets/images/logo.pnggg
     siteUrl: 'https://wiki.dendron.so'
     siteLastModified: true
     githubCname: wiki.dendron.so
@@ -53,7 +49,21 @@ site:
         It is meant to help you create, organize, and collaborate on knowledge
         bases of any size.
     ga_tracking: G-B0JN2HHCNY
-usePrettyRefs: true
+version: 2
 useTitleForLink: true
 initializeRemoteVaults: true
-dendronVersion: 0.56.0
+dendronVersion: 0.63.0
+commands:
+    lookup:
+        note:
+            selectionMode: extract
+            confirmVaultOnCreate: false
+            leaveTrace: false
+    randomNote: {}
+    insertNote:
+        initialValue: templates
+    insertNoteLink:
+        aliasMode: none
+        enableMultiSelect: false
+    insertNoteIndex:
+        enableMarker: false
