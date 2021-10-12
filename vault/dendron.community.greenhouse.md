@@ -8,7 +8,7 @@ created: 1626809567579
 
 ## Summary
 
-The **Greenhouse Talks** is a learning series organized by Dendron. These are 30 minute talks that cover topics of interest to the Dendron community.  While the focus is on note taking and personal knowledge management, topics are not limited to these areas and can span anything the speaker has in-depth knowledge of. 
+The **Greenhouse Talks** is a learning series organized by Dendron. These are 30 minute talks that cover topics of interest to the Dendron community.  While the focus is on note taking and personal knowledge management, topics are not limited to these areas and can span anything the speaker has in-depth knowledge of.  ^Ddu3OTwrJYvI
 
 All talks are recorded and made available on youtube after the fact.
 

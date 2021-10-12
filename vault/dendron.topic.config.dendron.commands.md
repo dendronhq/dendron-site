@@ -1,6 +1,6 @@
 ---
 id: F9LWJEjscrGkxnYi2JNby
-title: Commands 
+title: Commands
 desc: ''
 updated: 1633496761632
 created: 1633485423674

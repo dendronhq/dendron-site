@@ -2,7 +2,7 @@
 id: zOw3EfQ4czmTYG4mc3wnS
 title: Teatime
 desc: ''
-updated: 1632866276711
+updated: 1634062386664
 created: 1632792566536
 ---
 
@@ -17,3 +17,6 @@ The teatime channel is available to anyone that has a [[role|dendron://dendron.d
 
 You're free to discuss anything at all in the `#teatime` channel. To help, we encourage using the pinned read in the [[Dendron Reading Series|dendron://dendron.dendron-site/dendron.community.what-are-you-reading#dendron-reading-series]] as a starting point.
 
+
+## Dendron Reading Series
+Every week, we'll pin a staff favorite in the `#teatime` channel to help seed discussion and share something that has caught our eye.

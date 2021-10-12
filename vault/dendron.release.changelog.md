@@ -2,10 +2,24 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1633734100333
+updated: 1634064555184
 created: 1601508213606
 date: '2022-01-01'
 ---
+
+## 0.63.0
+
+## 0.62.4
+
+### Features
+- feat(workspace): native workspace support @kaan
+- feat(workspace): contextual UI @joshi
+
+### Bug Fixes
+- fix(preview): some links not resolving on preview @nickolay
+
+### Other
+- chore(workspace): config migration(#1497) @hikchoi
 
 ## 0.62.3
 
