@@ -2,7 +2,7 @@
 id: 84df871b-9442-42fd-b4c3-0024e35b5f3c
 title: Telemetry
 desc: ''
-updated: 1634011275013
+updated: 1633939212757
 created: 1619460500071
 ---
 
@@ -49,7 +49,7 @@ Data is collected in scenarios that are described below.
 
 ### Startup 
 
-When Dendron initializes, we collect data about on initialization time. This helps us measure the performance impact of changes that run before startup as well as improvements to our indexing performance over time. 
+When Dendron initializes, we collect data about on initialization time. This helps us measure the performance impact of changes that run before startup as well as improvements to our indexing performance over time.
 
 | Field       | Attributes | Description                                                         |
 | ----------: | :--------: | ------------------------------------------------------------------- |
@@ -58,6 +58,25 @@ When Dendron initializes, we collect data about on initialization time. This hel
 | `numVaults` | _number_   | Number of vaults in workspace                                       |
 | `noCaching` | _boolean_  | Check whether caching is disabled                                   |
 
+### Configuration
+
+When Dendron initializes, we collect data about how Dendron is configured. This helps us figure out the number of users who are actively using a legacy (deprecated or scheduled to be deprecated) configuration to better understand the impact of configuration changes.
+
+| Field       | Attributes | Description                                                  |
+| ----------: | :--------: | ------------------------------------------------------------ |
+| `key`       | _string_   | Key of the configuration that has not been migrated yet.     |
+
+#### Migration
+
+In addition to the above field, we track the result of configuration migrations. This helps us make sure deprecating old configurations and introducing new configurations work seamlessly.
+
+| Field           | Attributes     | Description                                        |
+| --------------: | :------------: | -------------------------------------------------- |
+| `version`       | _string_       | Migration version (e.g. "0.63.0")                  |
+| `changeName`    | _string_       | Migration name (e.g. "v63-command-migration")      |
+| `status`        | "ok" | "error" | Migration status                                   |
+| `dendronConfig` | _string_       | Snapshot of dendron.yml after migration            |
+| `wsConfig`      | _string_       | Snapshot of dendron.code-workspace after migration |
 
 ### Tutorial Progression
 
