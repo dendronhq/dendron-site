@@ -7,6 +7,10 @@ created: 1597356582509
 stub: false
 ---
 
+1. Install dependencies
+    ```sh
+    cd .next && yarn && cd ..
+    ```
 ## Summary
 Dendron allows you to reference content from other notes and **embed** them in your current note. This differs from [links]([[Links|dendron.topic.links]]), which do not embed content and just provide navigational context.
 

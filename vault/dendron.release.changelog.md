@@ -2,10 +2,27 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1633394354942
+updated: 1633734100333
 created: 1601508213606
 date: '2022-01-01'
 ---
+
+## 0.62.3
+
+### Bug Fixes
+- fix(schemas): schema templates copy over frontmatter tags  @kaan
+
+## 0.62.2
+
+### Bug Fixes
+- fix(views): tree view order (#1459) @kaan
+
+## 0.62.1
+
+### Bug Fixes
+- fix(lookup): bad journal note name  #1465  @nickolay
+
+## 0.62
 
 ## 0.61.2
 
@@ -86,7 +103,7 @@ date: '2022-01-01'
 ### Bug Fixes
 - fix(workspace): prevent malformed keybinding.json (#1403) @hikchoi
 
-# 0.60
+## 0.60
 
 ## 0.59.4
 

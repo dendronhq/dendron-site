@@ -40,7 +40,8 @@ The below is a collection of common fields that are collected
 | `nodeVersion` | _string_   | Client's node version (e.g. `v12.12.0`).                                 |
 | `anonymousId` | _string_   | Random, non-identifiable signature nanoID (e.g. `JC6NXxDa0lDFD1Mu7U2Ga`) |
 | `timestamp`   | _string_   | When the request was made                                                |
-  
+| `appVersion`  | _string_   | Version of currently installed Dendron plugin                            |  
+| `cliVersion`  | _string_   | Version of currently installed `dendron-cli`                             |  
 
 ## When is data collected?
 
@@ -158,6 +159,7 @@ When telemetry is disabled or enabled, we collect information about the event to
 If you've disabled telemetry from the [Visual Studio Code Telemetry setting](https://code.visualstudio.com/docs/getstarted/telemetry), no further action is needed. You can set this option in your workspace settings, or user settings.
 
 To disable telemetry in Dendron specifically, run the [[Disable Telemetry|dendron.topic.commands#disable-telemetry]] command.
+You can also disable telemetry using the cli by using the [[disable_telemetry|dendron.dev.cli#disable_telemetry]] command. 
 
 ## Why not have opt-in telemetry?
 
