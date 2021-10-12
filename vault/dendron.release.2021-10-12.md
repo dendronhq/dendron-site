@@ -63,5 +63,3 @@ You can see an overview of all roles [[here|dendron.community.roles]]
 
 ### Changelog
 ![[dendron.release.changelog#0630,1:#062]]
-
-
