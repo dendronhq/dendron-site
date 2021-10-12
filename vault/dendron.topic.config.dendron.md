@@ -2,9 +2,11 @@
 id: f83c1d87-eac0-48f3-a5cf-8a69989d8ec1
 title: Dendrons Config
 desc: ''
-updated: 1632432189802
+updated: 1633497101102
 created: 1619539817122
 ---
+
+> We are currently in the middle of a major overhaul of configuration namespaces, and is subject to change in a weekly basis. All configurations described in this document will gradually be marked as "deprecated" as we move them to a better place. 
 
 ## Summary
 
@@ -18,8 +20,12 @@ This file can be accessed using these Commands ![[dendron.topic.commands#Configu
 ## General
 
 ### defaultInsertHierarchy
+> This setting is scheduled for deprecation 📆
+>
+> Use [[initialValue|dendron.topic.config.dendron.commands#initialvalue]] instead.
 
-Execute [[Insert Note|dendron.topic.commands#insert-note]] with a hierarchy in place
+Execute [[Insert Note|dendron.topic.commands#insert-note]] with the hierarchy prefilled.
+
 
 ### generateChangelog
 - default: false
@@ -33,6 +39,9 @@ Turn on to enable [[changelogs|dendron.topic.publishing.changelogs]]
 Controls the title for [[children links|dendron.topic.links#children-links]] in published sites
 
 ### lookupConfirmVaultOnCreate
+> This setting is scheduled for deprecation 📆 
+>
+> Use [[confirmVaultOnCreate|dendron.topic.config.dendron.commands#confirmvaultoncreate]] instead.
 
 With this set, you will be prompted to select the vault location each time you create a note when you have multiple vaults in your workspace.
 
@@ -74,6 +83,9 @@ If a note doesn't exist, don't create it via the `GoToDefinition`
 If set, disable [[Cross Vault Links|dendron.topic.links#cross-vault-links]] when using [[Copy Note Link|dendron.topic.commands#copy-note-link]] and [[Insert Note Index|dendron.topic.commands#insert-note-index]].
 
 ### randomNote
+> This setting is scheduled for deprecation 📆 
+>
+> Use [[randomNote|dendron.topic.config.dendron.commands#randomnote]] instead.
 
 Configures the set of notes to include and exclude when using the [[Random Note|dendron.topic.commands#random-note]] command.
 
@@ -98,10 +110,17 @@ If true, use the note title when displaying naked links. This also applies to no
 - NOTE: this is not yet fully supported for multi-vault. specifically, cross vault links are not yet supported
 
 ### insertNoteIndex
+> This setting is scheduled for deprecation 📆
+>
+> Use [[insertNoteIndex|dendron.topic.config.dendron.commands#insertnoteindex]] instead.
 
 Configures how [[Insert Note Index|dendron.topic.commands#insert-note-index]] works.
 
 #### marker
+> This setting is scheduled for deprecation 📆
+>
+> Use [[enableMarker|dendron.topic.config.dendron.commands#enablemarker]] instead.
+
 - default: false
 
 If set to true, the inserted note index block will be wrapped between a marker like so:
@@ -223,36 +242,58 @@ Validate existing values
 
 
 ## insertNoteLink
+> This setting is scheduled for deprecation 📆
+>
+> Use [[insertNoteLink|dendron.topic.config.dendron.commands#insertnotelink]] instead.
 
 Modifies behavior of the [[Insert Note Link|dendron.topic.commands#insert-note-link]] command.
 
 ### multiSelect
+> This setting is scheduled for deprecation 📆
+>
+> Use [[enableMultiSelect|dendron.topic.config.dendron.commands#enablemultiselect]] instead.
 - default: false
 
 If set to `true`, enables multi-select for `Insert Note Link` Command.
 
 ### aliasMode
+> This setting is scheduled for deprecation 📆
+>
+> Use [[aliasMode|dendron.topic.config.dendron.commands#aliasmode]] instead.
 - default: "none"
 - options: "snippet" | "selection" | "prompt" | "title" | "none"
 
 Overrides default alias mode.
 
 ## lookup
+> This setting is scheduled for deprecation 📆
+>
+> Use [[lookup|dendron.topic.config.dendron.commands#lookup]] instead.
 
 Modifies behavior of [[lookup|dendron.topic.lookup]] related commands
 Currently we only have settings for Note Lookup.
 
 ### note
+> This setting is scheduled for deprecation 📆
+>
+> Use [[note|dendron.topic.config.dendron.commands#note]] instead.
 
 Modifies behavior of `Dendron: Lookup Note`.
 
 #### selectionType
+> This setting is scheduled for deprecation 📆
+>
+> Use [[selectionMode|dendron.topic.config.dendron.commands#selectionmode]] instead.
+
 - default: "selectionExtract"
 - options: "selectionExtract" | "selection2link" | "none"
 
 Overrides default selection type modifier to be enabled with note lookup.
 
 #### leaveTrace
+> This setting is scheduled for deprecation 📆
+>
+> Use [[leaveTrace|dendron.topic.config.dendron.commands#leavetrace]] instead.
 - type: boolean
 - default: none
 

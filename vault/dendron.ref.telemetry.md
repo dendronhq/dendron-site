@@ -2,7 +2,7 @@
 id: 84df871b-9442-42fd-b4c3-0024e35b5f3c
 title: Telemetry
 desc: ''
-updated: 1632994478805
+updated: 1633939212757
 created: 1619460500071
 ---
 
@@ -40,7 +40,8 @@ The below is a collection of common fields that are collected
 | `nodeVersion` | _string_   | Client's node version (e.g. `v12.12.0`).                                 |
 | `anonymousId` | _string_   | Random, non-identifiable signature nanoID (e.g. `JC6NXxDa0lDFD1Mu7U2Ga`) |
 | `timestamp`   | _string_   | When the request was made                                                |
-  
+| `appVersion`  | _string_   | Version of currently installed Dendron plugin                            |  
+| `cliVersion`  | _string_   | Version of currently installed `dendron-cli`                             |  
 
 ## When is data collected?
 
@@ -48,7 +49,7 @@ Data is collected in scenarios that are described below.
 
 ### Startup 
 
-When Dendron initializes, we collect data about on initialization time. This helps us measure the performance impact of changes that run before startup as well as improvements to our indexing performance over time. 
+When Dendron initializes, we collect data about on initialization time. This helps us measure the performance impact of changes that run before startup as well as improvements to our indexing performance over time.
 
 | Field       | Attributes | Description                                                         |
 | ----------: | :--------: | ------------------------------------------------------------------- |
@@ -57,6 +58,25 @@ When Dendron initializes, we collect data about on initialization time. This hel
 | `numVaults` | _number_   | Number of vaults in workspace                                       |
 | `noCaching` | _boolean_  | Check whether caching is disabled                                   |
 
+### Configuration
+
+When Dendron initializes, we collect data about how Dendron is configured. This helps us figure out the number of users who are actively using a legacy (deprecated or scheduled to be deprecated) configuration to better understand the impact of configuration changes.
+
+| Field       | Attributes | Description                                                  |
+| ----------: | :--------: | ------------------------------------------------------------ |
+| `key`       | _string_   | Key of the configuration that has not been migrated yet.     |
+
+#### Migration
+
+In addition to the above field, we track the result of configuration migrations. This helps us make sure deprecating old configurations and introducing new configurations work seamlessly.
+
+| Field           | Attributes     | Description                                        |
+| --------------: | :------------: | -------------------------------------------------- |
+| `version`       | _string_       | Migration version (e.g. "0.63.0")                  |
+| `changeName`    | _string_       | Migration name (e.g. "v63-command-migration")      |
+| `status`        | "ok" | "error" | Migration status                                   |
+| `dendronConfig` | _string_       | Snapshot of dendron.yml after migration            |
+| `wsConfig`      | _string_       | Snapshot of dendron.code-workspace after migration |
 
 ### Tutorial Progression
 
@@ -139,6 +159,7 @@ When telemetry is disabled or enabled, we collect information about the event to
 If you've disabled telemetry from the [Visual Studio Code Telemetry setting](https://code.visualstudio.com/docs/getstarted/telemetry), no further action is needed. You can set this option in your workspace settings, or user settings.
 
 To disable telemetry in Dendron specifically, run the [[Disable Telemetry|dendron.topic.commands#disable-telemetry]] command.
+You can also disable telemetry using the cli by using the [[disable_telemetry|dendron.dev.cli#disable_telemetry]] command. 
 
 ## Why not have opt-in telemetry?
 

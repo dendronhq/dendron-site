@@ -37,7 +37,6 @@ site:
         - templates
     siteRootDir: docs
     gh_edit_repository: 'https://github.com/dendronhq/dendron-site'
-    gh_edit_branch: "master"
     usePrettyRefs: true
     copyAssets: true
     logo: vault/assets/images/logo.png
