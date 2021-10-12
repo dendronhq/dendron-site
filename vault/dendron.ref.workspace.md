@@ -2,7 +2,7 @@
 id: c4cf5519-f7c2-4a23-b93b-1c9a02880f6b
 title: Workspace
 desc: ''
-updated: 1623008236045
+updated: 1634022650082
 created: 1622841295415
 ---
 
@@ -61,3 +61,18 @@ Commit any changes and pull updates, but don't push. You can watch the repositor
 ##### skip
 
 Don't do any synchronization. This may be useful if you use some other tool to synchronize this vault.
+
+## Workspace Types
+
+Dendron recognized 2 types of workspaces, Code and Native. When you initialize your workspace with 
+the [[Initialize Workspace|dendron.topic.commands#initialize-workspace]] command, you get a Code 
+workspace. Code workspaces include a `dendron.code-workspace` file which sets up vaults and 
+recommends installing some useful extensions. Code workspaces are great when you are setting up a 
+knowledge base.
+
+Native workspaces on the other hand don't have a `dendron.code-workspace` file.
+They are useful when you are writing notes or documentation, and you want to
+keep your notes as part of a project rather than a separate knowledge base.
+
+We don't *yet* have an automated way to initialize a native workspace, but
+we have instructions on [[Setting up a Native Workspace|dendron.ref.workspace.native]] yourself if you would like to try out this feature.
