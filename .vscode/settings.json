@@ -1,0 +1,6 @@
+{
+  "dendron.rootDir": ".",
+  "pasteImage.prefix": "/",
+  "editor.suggest.snippetsPreventQuickSuggestions": false,
+  "editor.suggest.showSnippets": true
+}

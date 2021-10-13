@@ -2,7 +2,7 @@
 id: adc39825-77a6-46cf-9c49-2642fcb4248e
 title: Pull Request
 desc: ''
-updated: 1634081741707
+updated: 1634138066874
 created: 1623430616135
 ---
 
@@ -40,7 +40,8 @@ We follow [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/)
 
 An example commit:
 
-```
+^pjL1YxpWRgtT
+``` 
 enhance(publish): speed up publishing by 500%
 ```
 

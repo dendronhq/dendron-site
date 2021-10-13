@@ -2,11 +2,37 @@
 id: 2976e5df-c8b4-4176-9d3f-fe4220dfa9b6
 title: Deploy
 desc: ''
-updated: 1624315861456
+updated: 1634143327128
 created: 1613863275374
 ---
 
+## Details
 
+- prepPublish[Local|remote]
+- runTypeCheck
+- bumpVersion
+- publishVersion
+- syncAssets
+    - buildNextServer
+    - syncStaticAssets
+        ```sh
+        cp dendron-next-server/out plugin-core/assets/static
+        cp dendron-next-server/assets/js plugin-core/assets/static
+        cp api-server/assets/js plugin-core/assets/static
+        ```
+- prepPluginPkg
+- installPluginDependencies
+    ```sh
+    rm package.json
+    cd packages/plugin-core && yarn --no-lockfile
+    ```
+- packagePluginDependencies
+- setRegRemote
+- restorePluginPkgJson
+
+
+
+## Steps
 
 ## pre-req
 - install [[Verdaccio|dendron.dev.setup#working-with-verdaccio]]
