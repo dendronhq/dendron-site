@@ -2,15 +2,26 @@
 id: H7CgvT7YUYAiV7mEmGnky
 title: Changelog
 desc: ''
-updated: 1631285198703
+updated: 1634084725871
 created: 1630796807707
 ---
 
 
+## Dendron CLI Migration
+- start: 2021.10.12
+- status: WIP
+
+### Summary
+The Dendron CLI has logic that needs to be required in `plugin-core` (eg. [Doctor Command](https://github.com/dendronhq/dendron/blob/94d05c8f1b6856c769d0cd2964d1dece9decb37c/packages/plugin-core/src/commands/Doctor.ts#L12-L12)). This is unfortunate because certain command modules like `dendron dev *` are not used by the plugin and take a significant amount of disk space. 
+
+### Changes
+Ensure that the core logic for all new functionality in `dendron-cli` is written in an external module (eg. `engine-server`) so that `plugin-core` does not need to depend on Dendron CLI
+
 
 ## Dendron Standalone Vault Changes
-- date: 2021.09.04
-- status: w
+- start: 2021.09.04
+- complted: 2021.10.12
+- status: complete
 
 ### Summary
 As part of the work to enable [[3 Standalone Vaults|dendron.rfc.3-standalone-vaults]], we refactored the Dendron startup process. 
