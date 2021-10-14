@@ -2,17 +2,16 @@
 id: f1af56bb-db27-47ae-8406-61a98de6c78c
 title: References
 desc: ''
-updated: 1631052176454
+updated: 1634173184901
 created: 1597356582509
 stub: false
 ---
 
-1. Install dependencies
-    ```sh
-    cd .next && yarn && cd ..
-    ```
 ## Summary
-Dendron allows you to reference content from other notes and **embed** them in your current note. This differs from [links]([[Links|dendron.topic.links]]), which do not embed content and just provide navigational context.
+
+Dendron allows you to reference content from other notes and **embed** them in your current note.  This is also known as [transclusion](https://en.wikipedia.org/wiki/Transclusion).  
+
+Note references are different from regular [[links|dendron://dendron.dendron-site/dendron.topic.links]] in that they actually include the content of the destination in the current note.
 
 Note references are extremely powerful and help you re-use your notes in a variety of places.
 
