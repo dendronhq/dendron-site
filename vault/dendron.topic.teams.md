@@ -1,7 +1,7 @@
 ---
 id: 98f6d928-3f61-49fb-9c9e-70c27d25f838
 title: Teams
-desc: ""
+desc: ''
 updated: 1628125026019
 created: 1617062224981
 ---

@@ -271,7 +271,7 @@ created: 1629505311218
 
 #### Workspace Vaults
 
-![[dendron.topic.vaults#workspace-vault,1:#configuration]]
+![[dendron.topic.vaults#workspace-vault,1:#configuration-1]]
 
 ### Enhancements
 
