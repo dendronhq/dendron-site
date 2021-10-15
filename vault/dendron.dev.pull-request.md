@@ -26,7 +26,7 @@ We follow [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/)
   - chore: backend improvements
   - spike: not complete commit, work for something else
 
-- scopes
+- scopes ^nb2ZVt8fPCo1
   * [[Workspace|tags.scope.workspace]]
   * [[Commands|tags.scope.commands]]
   * [[Dev|tags.scope.dev]]
