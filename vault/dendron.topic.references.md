@@ -59,7 +59,7 @@ The simplest type is a full note reference, which will include the entire conten
 
 ### Header References
 
-A block reference will include the entire contents of a note starting from a specified heading.
+A header reference will include the entire contents of a note starting from a specified heading.
 
 ```
 ![[demo.embed.block#head1]]
@@ -119,14 +119,21 @@ Below is an example to a block reference to an earlier part of this page.
 
 #### Block Anchor
 
-A block anchor is a `^` character, followed by one or more digits, letters, dashes, and underscores. In the future Dendron will automatically generate these, but for now you can add in custom anchors. The following are a few examples of anchors:
+A block anchor is a `^` character, followed by one or more digits, letters, dashes, and underscores. Dendron can automatically generate these, or you can add in custom anchors. 
+
+To have Dendron automatically generate random block anchors, select the target line or lines (or parts thereof) and run the `Copy Note Link` or `Copy Note Ref` commands. If multiple lines are selected, `Copy Note Ref` will generate two block anchors: one for the initial line, and one for the final line.
+
+The following are a few examples of block anchors:
 
 ```
 Lorem ipsum dolor amet ^1234
 
 * Item 1
 * Item 2 ^second-item
-* Item 3
+  * Item 2a
+  * Item 2b
+* Item 3 ^third-item
+* Item 4
 
 ^whole-list
 
@@ -136,7 +143,9 @@ Lorem ipsum dolor amet ^1234
 | Ullam    | optio     | ^whole-table
 ```
 
-`^whole-list`, `^whole-table`, and `^1234` reference the blocks they are attached to. Lists are special though, `^second-item` only references the list item it is next to.
+`^whole-list`, `^whole-table`, and `^1234` reference the blocks they are attached to. List item block anchors reference the item they are attached to and any sub-items, e.g.
+* `^second-item` references "Item 2", "Item 2a", and "Item 2b"
+* `^third-item` references "Item 3"
 
 #### Block Links
 
