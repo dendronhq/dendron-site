@@ -105,7 +105,7 @@ A workspace vault is a vault that belongs to another [[workspace|dendron.ref.wor
 
 You can see an example of the configuration [[here|dendron.topic.vaults#remote-workspace-vault]].
 
-## [[Configuration|dendron.topic.config.dendron]]
+## Configuration
 
 ### fsPath
 - file path to vault

@@ -2,11 +2,11 @@
 id: 2976e5df-c8b4-4176-9d3f-fe4220dfa9b6
 title: Deploy
 desc: ''
-updated: 1624315861456
+updated: 1634320645042
 created: 1613863275374
 ---
 
-
+## Steps
 
 ## pre-req
 - install [[Verdaccio|dendron.dev.setup#working-with-verdaccio]]
@@ -201,3 +201,6 @@ gbD integ-publish
 version=0.42
 ./scripts/install.sh
 ```
+
+## Related
+- [[Build|dendron://dendron.dendron-site/pkg.dendron-cli.t.dev#build]]

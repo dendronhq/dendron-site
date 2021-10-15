@@ -2,10 +2,30 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1634064555184
+updated: 1634248692153
 created: 1601508213606
 date: '2022-01-01'
 ---
+
+## 0.63.1
+
+### Features
+- feat(publish): add `dendron publish dev` command  ([[docs|dendron://dendron.dendron-site/dendron.topic.publishing-next.cli#dev]]) @kevin
+- feat(publish): add `dendron publish export` command ([[docs|dendron://dendron.dendron-site/dendron.topic.publishing-next.cli#export]]) @kevin
+
+### Enhancements
+- enhance(publish): support publishing to github as a export template @kevin
+- enhance(publish): support `--yes` flag when exporting to skip prompts @kevin
+- enhance(publish): initialize template will also install dependencies @kevin
+- enhance(publish): warn when `assetsPrefix` isn't set @kevin
+
+### Fix
+- fix(workspace): possible error if open note is changed quickly after edit (#1486) @kaan
+- fix(publish): optimize nextjs publishing search (#1519) @kaan
+
+### Internal
+- chore: add test for apostrophe in alias (#1501)  @kaan
+- chore: skip failing WS init test on Windows (#1517) @kaan
 
 ## 0.63.0
 

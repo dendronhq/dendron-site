@@ -2,7 +2,7 @@
 id: tO6EFCHd2rw350zh
 title: Import
 desc: ''
-updated: 1630921073731
+updated: 1634174837231
 created: 1626365094547
 ---
 
@@ -130,19 +130,16 @@ Dendron is an **open-source**, **local-first**, **markdown-based**, **note-takin
 - required: false
 
 ### importComments
-
 - description: import comments from the doc in text or json format
 - required: false
 - type: object
 - example: : {enable: true, format: text} 
 - **enable**
-
       type: boolean
       default: false
       required: true
 
  - **format**
-
       type: string
       default: json
       accepted formats: json/text

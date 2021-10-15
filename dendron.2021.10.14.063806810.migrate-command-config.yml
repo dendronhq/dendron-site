@@ -52,7 +52,7 @@ site:
 version: 2
 useTitleForLink: true
 initializeRemoteVaults: true
-dendronVersion: 0.63.1
+dendronVersion: 0.63.0
 commands:
     lookup:
         note:

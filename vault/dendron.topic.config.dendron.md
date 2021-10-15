@@ -164,7 +164,7 @@ Tracks [[vaults|dendron.concepts#vaults]] for the workspace. You shouldn't have 
 
 #### Vault properties:
 
-See [[Vault Configuration|dendron.topic.vaults#configuration]]
+See [[Vault Configuration|dendron.topic.vaults#workspace-vault,1:#configuration-1]]
 
 ## Journal
 
