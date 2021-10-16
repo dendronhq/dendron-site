@@ -2,9 +2,22 @@
 id: 04dd9ad8-3d81-4098-a661-21b6acc6f443
 title: Dev
 desc: ''
-updated: 1633299401029
+updated: 1634338052331
 created: 1621721485330
 ---
+
+## Gotchas
+
+### Cleaning up artifacts
+
+Compiled javascript doesn't get deleted from `plugin-core/out` which means that deleting a typescript file won't remove it from the compiled javascript. If you are seeing an error that you can't explain, try deleting the `out` folder by running the following command
+
+```sh
+cd packages/plugin-core
+rm -rf out
+yarn compile
+```
+
 ## Commands
 
 ### Create a new Command
