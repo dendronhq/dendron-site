@@ -2,7 +2,7 @@
 id: PZ3IzgdeZBbFRvalzI9fp
 title: Internal
 desc: ''
-updated: 1634399455876
+updated: 1634511904800
 created: 1630426129273
 ---
 
@@ -13,7 +13,6 @@ This describes the logic for Note Lookup
 ## State Diagram
 
 ```mermaid
-
 stateDiagram-v2
     [*] --> LookupCommand
 
