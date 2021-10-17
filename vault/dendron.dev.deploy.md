@@ -2,12 +2,10 @@
 id: WmBgdjNJqOfiQ4NNnctuG
 title: Deploy
 desc: ''
-updated: 1632241704481
+updated: 1634506366961
 created: 1631029844001
 ---
 
-## Related
-- [[CLI|dendron.dev.cli]]
 
 ## Cook
 
@@ -47,8 +45,19 @@ npm publish
     # tee is optional for capturing log output
     vsce package --yarn | tee /tmp/out.log
     ```
+
 ### Publish local package versions remotely
 
 ```sh
 dendron dev publish  --publishEndpoint remote
 ```
+
+### Build in fast mode
+- fast mode skips typechecking
+```sh
+env FAST=1 yarn build:$VERSION_UPGRADE:$ENDPOINT
+```
+
+## Related
+- [[CLI|dendron.dev.cli]]
+- [[Dev|dendron://dendron.dendron-site/pkg.dendron-cli.t.dev]]
