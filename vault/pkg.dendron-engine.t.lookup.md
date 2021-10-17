@@ -2,7 +2,7 @@
 id: 9Nms3px87t1OvqIch8qpp
 title: Lookup
 desc: ''
-updated: 1631209190737
+updated: 1634400041757
 created: 1630426588705
 ---
 
@@ -13,6 +13,38 @@ created: 1630426588705
 - https://fusejs.io
 - powers dendron fuzzy search
 
+
+## Query
+
+
+- src/fuse.ts
+```ts
+queryNote(qs) {
+
+    if qs == "" {
+        ...
+    } else if qs == "*" {
+        ...
+    } else {
+        formatQueryForFuse
+    }
+
+}
+
+sortResults(results, originalQS) {
+    groupedByScore = groupBy(results)
+    ...
+    
+
+    sorted := groupedByScore
+
+    if originalQS {
+        sorted = moveOriginalQSFirst(sorted, originalQS)
+    }
+    return sorted
+}
+
+```
 
 ## Lifecycle
 ### Initialize the Index
