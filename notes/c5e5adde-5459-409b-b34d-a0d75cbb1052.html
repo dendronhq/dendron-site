@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+  
+  <title>Schemas - Dendron</title>
+  
+
+  <link
+    rel="shortcut icon"
+    href="https://wiki.dendron.so/favicon.ico"
+    type="image/x-icon"
+  />
+  <link
+    rel="stylesheet"
+    href="https://wiki.dendron.so/assets/css/just-the-docs-default.css"
+  />
+  <script
+    type="text/javascript"
+    src="https://wiki.dendron.so/assets/js/just-the-docs.js"
+  ></script>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.22.0/themes/prism.min.css"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css"
+    integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X"
+    crossorigin="anonymous"
+  />
+  <script
+    type="text/javascript"
+    src="https://wiki.dendron.so/assets/js/vendor/lunr.min.js"
+  ></script>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+   
+   
+  
+<meta name="description" content="Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.">
+<meta name="author" content="dendronhq">
+
+<link rel="canonical" href="https://wiki.dendron.so/notes/c5e5adde-5459-409b-b34d-a0d75cbb1052.html">
+
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://wiki.dendron.so/notes/c5e5adde-5459-409b-b34d-a0d75cbb1052.html">
+<meta property="og:description" content="Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.">
+<meta property="og:image" content="https://wiki.dendron.so/logo.png">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@dendronhq">
+<meta name="twitter:url" content="https://wiki.dendron.so/notes/c5e5adde-5459-409b-b34d-a0d75cbb1052.html">
+<meta name="twitter:description" content="Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.">
+<meta name="twitter:image" content="https://wiki.dendron.so/logo.png">
+
+
+  <meta property="og:title" content="Schemas - Dendron" />
+  <meta name="twitter:title" content="Schemas - Dendron" />
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-B0JN2HHCNY"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-B0JN2HHCNY');
+  </script>
+  
+</head>
+
+
+
+<body>
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+      <symbol id="svg-link" viewBox="0 0 24 24">
+        <title>Link</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-link">
+          <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+        </svg>
+      </symbol>
+      <symbol id="svg-search" viewBox="0 0 24 24">
+        <title>Search</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search">
+          <circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+      </symbol>
+      <symbol id="svg-menu" viewBox="0 0 24 24">
+        <title>Menu</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu">
+          <line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+      </symbol>
+      <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+        <title>Expand</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+          <polyline points="9 18 15 12 9 6"></polyline>
+        </svg>
+      </symbol>
+      <symbol id="svg-doc" viewBox="0 0 24 24">
+        <title>Document</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file">
+          <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path><polyline points="13 2 13 9 20 9"></polyline>
+        </svg>
+      </symbol>
+    </svg>
+
+    <div class="side-bar">
+      <div class="site-header">
+        <a href="https://wiki.dendron.so" class="site-title lh-tight">
+  <div class="site-logo"></div>
+
+ </a>
+        <a href="#" id="menu-button" class="site-button">
+          <svg viewBox="0 0 24 24" class="icon"><use xlink:href="#svg-menu"></use></svg>
+        </a>
+      </div>
+
+      <nav role="navigation" aria-label="Main" id="site-nav" class="site-nav">
+      </nav>
+      <footer class="site-footer">
+        🌱 with 💕 using <a href="https://www.dendron.so/"> Dendron 🌲 </a>
+      </footer>
+    </div>
+    <div class="main" id="top">
+        <div id="main-header" class="main-header">
+          
+            <div class="search">
+              <div class="search-input-wrap">
+                <input type="text" id="search-input" class="search-input" tabindex="0" placeholder="Search Dendron" aria-label="Search Dendron" autocomplete="off">
+                <label for="search-input" class="search-label"><svg viewBox="0 0 24 24" class="search-icon"><use xlink:href="#svg-search"></use></svg></label>
+              </div>
+              <div id="search-results" class="search-results"></div>
+            </div>
+          
+          
+    </div>
+    <div id="main-content-wrap" class="main-content-wrap">
+      
+        
+          <nav aria-label="Breadcrumb" class="breadcrumb-nav">
+            <ol class="breadcrumb-nav-list"><li class="breadcrumb-nav-list-item"><a href="https://wiki.dendron.so">Dendron</a></li><li class="breadcrumb-nav-list-item"><a href="https://wiki.dendron.so/notes/7a7af2fa-b9d0-4adc-81e6-f03186123539.html">Topics</a></li><li class="breadcrumb-nav-list-item">Schemas</li></ol>
+          </nav>
+        
+      
+      <div id="main-content" class="main-content" role="main">
+
+        
+        
+        <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+        <script>mermaid.initialize({startOnLoad:true});</script>
+        
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+        
+        
+
+        
+
+        
+
+        
+
+        <script>
+          $(function () {
+            $('[data-toggle="popover"]').popover({html: true})
+          })
+        </script>
+
+        
+
+<div id="main" role="main">
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Schemas">
+    
+    <meta itemprop="datePublished" content="2020-07-28T16:08:25+00:00">
+    <meta itemprop="dateModified" content="2021-08-06T20:19:43+00:00">
+
+    <div class="page__inner-wrap">
+
+      
+
+      <section class="page__content" itemprop="text">
+
+        
+
+        <h1 id="schemas"><a aria-hidden="true" class="anchor-heading" href="#schemas"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Schemas</h1>
+<h2 id="summary"><a aria-hidden="true" class="anchor-heading" href="#summary"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Summary</h2>
+<p>As you end up creating more notes, it can be hard to keep track of it all. This is why Dendron has <strong>schemas</strong> to help you manage your notes at scale. Think of schemas as an <strong>optional type system</strong> for your notes. They describe the hierarchy of your data and are themselves, represented as a hierarchy.</p>
+<p>Schemas show up as icons next to lookup results.</p>
+<p><img src="https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/schema.intro.gif"></p>
+<!-- ## Why Use Schemas
+
+Schemas help you categorize your notes by making sure your hierarchies are consistent with one another.  -->
+<h2 id="features"><a aria-hidden="true" class="anchor-heading" href="#features"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Features</h2>
+<h3 id="schema-completions"><a aria-hidden="true" class="anchor-heading" href="#schema-completions"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Schema Completions</h3>
+<p>Schemas will autosuggest valid children when you create a new project.</p>
+<p><img src="https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/schema.suggest.gif"></p>
+<h3 id="find-non-compliant-hierarchies"><a aria-hidden="true" class="anchor-heading" href="#find-non-compliant-hierarchies"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Find Non-Compliant Hierarchies</h3>
+<p>If you accidentally do a typo, your schema will let you know that you have an inconsistency. </p>
+<p><img src="https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/schema.unknown.gif"></p>
+<h2 id="schema-anatomy"><a aria-hidden="true" class="anchor-heading" href="#schema-anatomy"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Schema Anatomy</h2>
+<p>A schema is a YAML file with the following naming scheme <code>{name}.schema.yml</code></p>
+<p>Below is an example of a four-level hierarchy describing cli commands. The <code>id</code> field of the schema is used to build a <a href="https://facelessuser.github.io/wcmatch/glob/">glob pattern</a> which will be used to match notes matching the schema.</p>
+<pre class="language-yml"><code class="language-yml"><span class="token key atrule">version</span><span class="token punctuation">:</span> <span class="token number">1</span>
+<span class="token key atrule">schemas</span><span class="token punctuation">:</span>
+<span class="token comment"># this will match "cli.*" notes</span>
+<span class="token punctuation">-</span> <span class="token key atrule">id</span><span class="token punctuation">:</span> cli 
+  <span class="token comment"># human readable description of hierarchy</span>
+  <span class="token key atrule">desc</span><span class="token punctuation">:</span> command line interface reference
+  <span class="token comment"># add this to the domain of your schema hierarchy</span>
+  <span class="token key atrule">parent</span><span class="token punctuation">:</span> root
+  <span class="token comment"># when a schema is a namespace, it can have arbitrary children. equivalent to cli.* glob pattern</span>
+  <span class="token key atrule">namespace</span><span class="token punctuation">:</span> <span class="token boolean important">true</span> 
+  <span class="token key atrule">children</span><span class="token punctuation">:</span>
+    <span class="token punctuation">-</span> cmd
+    <span class="token punctuation">-</span> env
+<span class="token comment"># will match cli.*.env</span>
+<span class="token punctuation">-</span> <span class="token key atrule">id</span><span class="token punctuation">:</span> env
+  <span class="token key atrule">desc</span><span class="token punctuation">:</span> cli specific env variables
+<span class="token comment"># will match cli.*.cmd.*</span>
+<span class="token punctuation">-</span> <span class="token key atrule">id</span><span class="token punctuation">:</span> cmd
+  <span class="token key atrule">desc</span><span class="token punctuation">:</span> subcommands 
+  <span class="token key atrule">namespace</span><span class="token punctuation">:</span> <span class="token boolean important">true</span>
+</code></pre>
+<p>Below is another way of representing the above schema</p>
+<pre><code>.
+└── cli # matches cli
+    └── {cli child} # matches cli.*
+        ├── env # matches cli.*.env
+        └── cmd # matches cli.*.cmd
+            └── {cmd child} # matches cli.*.cmd.*
+</code></pre>
+<h2 id="properties"><a aria-hidden="true" class="anchor-heading" href="#properties"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Properties</h2>
+<h3 id="version-optional-number"><a aria-hidden="true" class="anchor-heading" href="#version-optional-number"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>version (optional): number</h3>
+<ul>
+<li>values: <code>0|1</code></li>
+<li>default: 0</li>
+<li>description: schema version number</li>
+</ul>
+<h3 id="imports"><a aria-hidden="true" class="anchor-heading" href="#imports"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>imports</h3>
+<ul>
+<li>
+<p>(optional): str[]</p>
+</li>
+<li>
+<p>values: list of schemas to import</p>
+</li>
+<li>
+<p>default: []</p>
+</li>
+<li>
+<p>description: import schemas from another schema into the current schema</p>
+<ul>
+<li>when using schemas from an external schema file, you will need to prefix the schema with the file name without the <code>schema.yml</code> suffix</li>
+</ul>
+</li>
+<li>
+<p>NOTE: <code>import</code> is only available in schema version <code>1</code></p>
+</li>
+</ul>
+<p>Example:</p>
+<ul>
+<li>foo.schema. yml</li>
+</ul>
+<pre class="language-yml"><code class="language-yml"><span class="token key atrule">version</span><span class="token punctuation">:</span> <span class="token number">1</span>
+<span class="token key atrule">imports</span><span class="token punctuation">:</span>
+<span class="token punctuation">-</span> bar
+<span class="token key atrule">schemas</span><span class="token punctuation">:</span>
+<span class="token punctuation">-</span> <span class="token key atrule">id</span><span class="token punctuation">:</span> foo
+  <span class="token key atrule">parent</span><span class="token punctuation">:</span> root
+  <span class="token key atrule">children</span><span class="token punctuation">:</span>
+    <span class="token punctuation">-</span> bar.bar <span class="token comment"># notice that we prefix the id bar with the filename</span>
+</code></pre>
+<ul>
+<li>bar.schema.yml</li>
+</ul>
+<pre class="language-yml"><code class="language-yml"><span class="token key atrule">version</span><span class="token punctuation">:</span> <span class="token number">1</span>
+<span class="token key atrule">schemas</span><span class="token punctuation">:</span>
+<span class="token punctuation">-</span> <span class="token key atrule">id</span><span class="token punctuation">:</span> bar
+  <span class="token key atrule">parent</span><span class="token punctuation">:</span> root
+  <span class="token key atrule">children</span><span class="token punctuation">:</span> 
+    <span class="token punctuation">-</span> one
+<span class="token punctuation">-</span> <span class="token key atrule">id</span><span class="token punctuation">:</span> one
+</code></pre>
+<p>The above would match the following files</p>
+<pre><code>foo.bar # match
+foo.bar.one #match
+</code></pre>
+<h3 id="schemas-1"><a aria-hidden="true" class="anchor-heading" href="#schemas-1"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>schemas</h3>
+<ul>
+<li>list of schema definitions</li>
+</ul>
+<h4 id="id"><a aria-hidden="true" class="anchor-heading" href="#id"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>id</h4>
+<p>the identifier of the schema. also designates the glob pattern match. this is the <strong>only</strong> required part of a schema. all other fields are optional</p>
+<h4 id="desc"><a aria-hidden="true" class="anchor-heading" href="#desc"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>desc</h4>
+<p>human readable description of the schema node. these will automatically when creating notes that match the schema.</p>
+<p><img src="https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/schema-desc.gif"></p>
+<h4 id="parent"><a aria-hidden="true" class="anchor-heading" href="#parent"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>parent</h4>
+<ul>
+<li>only required for schema <a href="https://www.dendron.so/notes/c6fd6bc4-7f75-4cbb-8f34-f7b99bfe2d50.html#domain">domain</a></li>
+<li>NOTE: at least one schema MUST have <code>parent: root</code> set </li>
+</ul>
+<h4 id="namespace"><a aria-hidden="true" class="anchor-heading" href="#namespace"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>namespace</h4>
+<p>making a schema node a namespace automatically brings its immediate children as part of the schema, even if they are not explicitly defined in the schema definition. it will also automatically set the pattern to <code>{namespace}.*</code></p>
+<ul>
+<li>example:</li>
+</ul>
+<pre class="language-yml"><code class="language-yml"><span class="token key atrule">schemas</span><span class="token punctuation">:</span>
+<span class="token punctuation">-</span> <span class="token key atrule">id</span><span class="token punctuation">:</span> project
+  <span class="token key atrule">parent</span><span class="token punctuation">:</span> root
+  <span class="token key atrule">namespace</span><span class="token punctuation">:</span> <span class="token boolean important">true</span>
+</code></pre>
+<ul>
+<li>this will match: 
+<ul>
+<li><code>project</code></li>
+<li><code>project.foo</code></li>
+<li><code>project.bar</code></li>
+</ul>
+</li>
+<li>it will not match
+<ul>
+<li><code>project.foo.bar</code></li>
+</ul>
+</li>
+</ul>
+<h4 id="pattern"><a aria-hidden="true" class="anchor-heading" href="#pattern"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>pattern</h4>
+<p>glob pattern that schema matches. by default, this is the <code>id</code> of the schema. you can override this. </p>
+<p>For example, take a look at the journal schema below</p>
+<pre class="language-yml"><code class="language-yml"><span class="token key atrule">schemas</span><span class="token punctuation">:</span>
+<span class="token punctuation">-</span> <span class="token key atrule">id</span><span class="token punctuation">:</span> journal
+  <span class="token key atrule">title</span><span class="token punctuation">:</span> journal
+  <span class="token key atrule">desc</span><span class="token punctuation">:</span> <span class="token string">""</span>
+  <span class="token key atrule">parent</span><span class="token punctuation">:</span> root
+  <span class="token key atrule">children</span><span class="token punctuation">:</span>
+    <span class="token punctuation">-</span> year
+<span class="token punctuation">-</span> <span class="token key atrule">id</span><span class="token punctuation">:</span> year
+  <span class="token key atrule">title</span><span class="token punctuation">:</span> year
+  <span class="token key atrule">pattern</span><span class="token punctuation">:</span> <span class="token string">"[0-2][0-9][0-9][0-9]"</span>
+  <span class="token key atrule">children</span><span class="token punctuation">:</span> 
+    <span class="token punctuation">-</span> month
+<span class="token punctuation">-</span> <span class="token key atrule">id</span><span class="token punctuation">:</span> month
+  <span class="token key atrule">title</span><span class="token punctuation">:</span> month
+  <span class="token key atrule">pattern</span><span class="token punctuation">:</span> <span class="token string">"[0-9][0-9]"</span>
+  <span class="token key atrule">children</span><span class="token punctuation">:</span> 
+    <span class="token punctuation">-</span> day
+<span class="token punctuation">-</span> <span class="token key atrule">id</span><span class="token punctuation">:</span> day
+  <span class="token key atrule">title</span><span class="token punctuation">:</span> day
+  <span class="token key atrule">pattern</span><span class="token punctuation">:</span> <span class="token string">"[0-9][0-9]"</span>
+  <span class="token key atrule">namespace</span><span class="token punctuation">:</span> <span class="token boolean important">true</span>
+</code></pre>
+<p>This will match the following queries</p>
+<pre><code># journal
+# journal.2020
+# journal.2020.09
+# journal.2020.09.12
+# journal.2020.09.12.foo.md
+</code></pre>
+<h4 id="children"><a aria-hidden="true" class="anchor-heading" href="#children"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>children</h4>
+<p>list of ids of schemas that are the child of the current schema</p>
+<h4 id="template"><a aria-hidden="true" class="anchor-heading" href="#template"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>template</h4>
+<p>a template you can apply to all notes that match this schema. See <strong>Schema Templates</strong> for more details.</p>
+<pre class="language-yml"><code class="language-yml"><span class="token key atrule">template</span><span class="token punctuation">:</span>
+  <span class="token comment"># identifier for the template (for a note based template, it would be the name of the note)</span>
+  <span class="token key atrule">id</span><span class="token punctuation">:</span> journal.template.daily
+  <span class="token comment"># what sort of template we are creating. currently, only 'note' is supported</span>
+  <span class="token key atrule">type</span><span class="token punctuation">:</span> note
+
+</code></pre>
+<h2 id="schema-templates"><a aria-hidden="true" class="anchor-heading" href="#schema-templates"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Schema Templates</h2>
+<p>Schema templates let you designate a note as a <strong>template</strong>. Newly created notes that match a schema with a template will have both the contents and custom frontmatter of the template note applied at creation.</p>
+<p>This is extremely useful whenever you want to re-use the outline of a note. Examples include daily journals, weekly shopping lists, and weekly reviews.  </p>
+<ul>
+<li>NOTE: you'll need to run <code>Reload Workspace</code> for any new templates to take effect</li>
+</ul>
+<a href="https://www.loom.com/share/481b7ab051394c1caa383383bd265755"> 
+<img style="" src="https://cdn.loom.com/sessions/thumbnails/481b7ab051394c1caa383383bd265755-with-play.gif"> 
+</a>
+<h2 id="unknown-schema"><a aria-hidden="true" class="anchor-heading" href="#unknown-schema"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Unknown Schema</h2>
+<p>Dendron doesn't force you to use schemas if you don't want to. This is why you can create notes that don't match any schema. Dendron will show you a <code>?</code> next to these results.</p>
+<p><img src="https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/schema-question.jpg"></p>
+<blockquote>
+<p>Sometimes <del>rules</del> schemas are meant to be broken</p>
+</blockquote>
+<h2 id="working-with-schemas"><a aria-hidden="true" class="anchor-heading" href="#working-with-schemas"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Working with Schemas</h2>
+<p>Schemas can be modified, created and deleted using the same lookup interface that you use for regular notes. See <a href="https://wiki.dendron.so/notes/a7c3a810-28c8-4b47-96a6-8156b1524af3.html">lookup</a> for further details about working with schemas.</p>
+<h2 id="example-schemas"><a aria-hidden="true" class="anchor-heading" href="#example-schemas"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Example Schemas</h2>
+<!-- - [Project and Journal](https://gist.github.com/kevinslin/5ca7a6f25a239add5ea374f329e6a19e) -->
+<ul>
+<li>Example schemas can be found <a href="https://github.com/kevinslin/schemas.git">here</a></li>
+<li>You can copy and paste the individual schema files or add it as a <a href="https://wiki.dendron.so/notes/6682fca0-65ed-402c-8634-94cd51463cc4.html#remote">remote Vault</a> and keep up to date on changes</li>
+<li>Its pretty bare right now but plan on adding a lot more here over time. contributions most welcome :)</li>
+</ul>
+<h2 id="troubleshooting"><a aria-hidden="true" class="anchor-heading" href="#troubleshooting"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Troubleshooting</h2>
+<h3 id="error-with-parsing-some-schemas-during-initialization"><a aria-hidden="true" class="anchor-heading" href="#error-with-parsing-some-schemas-during-initialization"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Error with parsing some schemas during initialization</h3>
+<p>If you get this error, it means that Dendron encountered some malformed schemas during initialization. You can open the error message to see what schemas are affected.</p>
+<p>Common errors:</p>
+<ul>
+<li>the YAML isn't valid (use <a href="http://www.yamllint.com/">http://www.yamllint.com/</a> to validate)</li>
+<li>there is no schema with <code>parent: root</code> property </li>
+</ul>
+<p></p><p></p><div class="portal-container">
+<div class="portal-head">
+<div class="portal-backlink">
+<div class="portal-title">From <span class="portal-text-title">Schemas</span></div>
+<a href="https://wiki.dendron.so/notes/c5e5adde-5459-409b-b34d-a0d75cbb1052.html" class="portal-arrow">Go to text <span class="right-arrow">→</span></a>
+</div>
+</div>
+<div id="portal-parent-anchor" class="portal-parent" markdown="1">
+<div class="portal-parent-fader-top"></div>
+<div class="portal-parent-fader-bottom"></div><h4 id="parent-1"><a aria-hidden="true" class="anchor-heading" href="#parent-1"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>parent</h4>
+<ul>
+<li>only required for schema <a href="https://www.dendron.so/notes/c6fd6bc4-7f75-4cbb-8f34-f7b99bfe2d50.html#domain">domain</a></li>
+<li>NOTE: at least one schema MUST have <code>parent: root</code> set </li>
+</ul>
+</div></div><p></p><p></p>
+<h2 id="cookbook"><a aria-hidden="true" class="anchor-heading" href="#cookbook"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Cookbook</h2>
+<h3 id="testing-schemas"><a aria-hidden="true" class="anchor-heading" href="#testing-schemas"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Testing schemas</h3>
+<p>If you want to test what your schemas will match, you can use a glob tester like <a href="https://globster.xyz/">Glob tester</a> to do so</p>
+<hr>
+<h2 id="children-1"><a aria-hidden="true" class="anchor-heading" href="#children-1"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Children</h2>
+<ol>
+<li><a href="https://wiki.dendron.so/notes/a313152d-1664-405b-86eb-6d2ecb98426e.html">Schema Library</a></li>
+</ol>
+<hr>
+<h2 id="backlinks"><a aria-hidden="true" class="anchor-heading" href="#backlinks"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Backlinks</h2>
+<ul>
+<li><a href="https://wiki.dendron.so">Dendron</a></li>
+<li><a href="https://wiki.dendron.so/notes/683740e3-70ce-4a47-a1f4-1f140e80b558.html">FAQ</a></li>
+<li><a href="https://wiki.dendron.so/notes/4bb85c39-d8ac-48ad-a765-3f2a071f7bc9.html">Features</a></li>
+<li><a href="https://wiki.dendron.so/notes/p5fMTi-6zOyX1TwhL6dM0.html">Foam Vs Dendron</a></li>
+<li><a href="https://wiki.dendron.so/notes/692fa114-f798-467f-a0b9-3cccc327aa6f.html">Tips</a></li>
+<li><a href="https://wiki.dendron.so/notes/6aed338c-df05-420d-aa7b-59dfd2214349.html">Release Notes(version 0.4)</a></li>
+<li><a href="https://wiki.dendron.so/notes/075e9806-0367-40a2-8154-2e84d5a1110.html">Release Notes(version 0.8)</a></li>
+<li><a href="https://wiki.dendron.so/notes/21b2e152-95f7-4904-8a8e-8d4d0b8c950c.html">5 Publishing Registry</a></li>
+<li><a href="https://wiki.dendron.so/notes/f3a41725-c5e5-4851-a6ed-5f541054d409.html">Hierarchies</a></li>
+<li><a href="https://wiki.dendron.so/notes/c5e5adde-5459-409b-b34d-a0d75cbb1052.html">Schemas</a></li>
+<li><a href="https://wiki.dendron.so/notes/861cbdf8-102e-4633-9933-1f3d74df53d2.html">Templates</a></li>
+<li><a href="https://wiki.dendron.so/notes/e65dfe53-41f7-4b16-b870-dadec1775497.html">Bullet Journaling</a></li>
+<li><a href="https://wiki.dendron.so/notes/3e7baac6-f120-4378-a667-92e7a0869dca.html">Caching</a></li>
+<li><a href="https://wiki.dendron.so/notes/ed4162aa-5474-4483-9fbc-c0b505310c59.html">0.1.X</a></li>
+<li><a href="https://wiki.dendron.so/notes/icBBwbAFLyjsRLheSJkAp.html">0 3 X</a></li>
+<li><a href="https://wiki.dendron.so/notes/60c03500-98e4-4a02-a31e-2702b4068a88.html">Schemas</a></li>
+<li><a href="https://wiki.dendron.so/notes/3YXYkWdt5ZHNSjYD.html">Schemas</a></li>
+</ul><span id="navId" data="c5e5adde-5459-409b-b34d-a0d75cbb1052"></span>
+
+                
+      </section>
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+        <div class="thumbs feedback_trigger right-bottom"></div>
+
+        
+          <hr>
+          <footer>
+            
+            
+
+            
+              <div class="d-flex mt-2">
+              <p class="text-small text-grey-dk-000 mb-0 mr-2">
+                Page last modified: <span class="d-inline-block">8/6/2021</span>.
+              </p>
+            
+                
+                  <p class="text-small text-grey-dk-000 mb-0">
+                    <a href="https://github.com/dendronhq/dendron-site/edit/master/vault/dendron.topic.schema.md" id="edit-this-page">Edit this page on GitHub</a>
+                  </p>
+                
+              </div>
+          </footer>
+        
+    </div>
+</div>
+
+
+  
+
+  <div class="search-overlay"></div>
+
+</div>
+
+</body>
+</html>

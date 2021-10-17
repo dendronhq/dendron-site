@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+  
+  <title>Summary - Dendron</title>
+  
+
+  <link
+    rel="shortcut icon"
+    href="https://wiki.dendron.so/favicon.ico"
+    type="image/x-icon"
+  />
+  <link
+    rel="stylesheet"
+    href="https://wiki.dendron.so/assets/css/just-the-docs-default.css"
+  />
+  <script
+    type="text/javascript"
+    src="https://wiki.dendron.so/assets/js/just-the-docs.js"
+  ></script>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.22.0/themes/prism.min.css"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css"
+    integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X"
+    crossorigin="anonymous"
+  />
+  <script
+    type="text/javascript"
+    src="https://wiki.dendron.so/assets/js/vendor/lunr.min.js"
+  ></script>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+   
+   
+  
+<meta name="description" content="Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.">
+<meta name="author" content="dendronhq">
+
+<link rel="canonical" href="https://wiki.dendron.so/notes/849ee8ee-05a5-47bf-b44d-d7c257117bc4.html">
+
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://wiki.dendron.so/notes/849ee8ee-05a5-47bf-b44d-d7c257117bc4.html">
+<meta property="og:description" content="Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.">
+<meta property="og:image" content="https://wiki.dendron.so/logo.png">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@dendronhq">
+<meta name="twitter:url" content="https://wiki.dendron.so/notes/849ee8ee-05a5-47bf-b44d-d7c257117bc4.html">
+<meta name="twitter:description" content="Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.">
+<meta name="twitter:image" content="https://wiki.dendron.so/logo.png">
+
+
+  <meta property="og:title" content="Summary - Dendron" />
+  <meta name="twitter:title" content="Summary - Dendron" />
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-B0JN2HHCNY"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-B0JN2HHCNY');
+  </script>
+  
+</head>
+
+
+
+<body>
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+      <symbol id="svg-link" viewBox="0 0 24 24">
+        <title>Link</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-link">
+          <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+        </svg>
+      </symbol>
+      <symbol id="svg-search" viewBox="0 0 24 24">
+        <title>Search</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search">
+          <circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+      </symbol>
+      <symbol id="svg-menu" viewBox="0 0 24 24">
+        <title>Menu</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu">
+          <line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+      </symbol>
+      <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+        <title>Expand</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+          <polyline points="9 18 15 12 9 6"></polyline>
+        </svg>
+      </symbol>
+      <symbol id="svg-doc" viewBox="0 0 24 24">
+        <title>Document</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file">
+          <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path><polyline points="13 2 13 9 20 9"></polyline>
+        </svg>
+      </symbol>
+    </svg>
+
+    <div class="side-bar">
+      <div class="site-header">
+        <a href="https://wiki.dendron.so" class="site-title lh-tight">
+  <div class="site-logo"></div>
+
+ </a>
+        <a href="#" id="menu-button" class="site-button">
+          <svg viewBox="0 0 24 24" class="icon"><use xlink:href="#svg-menu"></use></svg>
+        </a>
+      </div>
+
+      <nav role="navigation" aria-label="Main" id="site-nav" class="site-nav">
+      </nav>
+      <footer class="site-footer">
+        🌱 with 💕 using <a href="https://www.dendron.so/"> Dendron 🌲 </a>
+      </footer>
+    </div>
+    <div class="main" id="top">
+        <div id="main-header" class="main-header">
+          
+            <div class="search">
+              <div class="search-input-wrap">
+                <input type="text" id="search-input" class="search-input" tabindex="0" placeholder="Search Dendron" aria-label="Search Dendron" autocomplete="off">
+                <label for="search-input" class="search-label"><svg viewBox="0 0 24 24" class="search-icon"><use xlink:href="#svg-search"></use></svg></label>
+              </div>
+              <div id="search-results" class="search-results"></div>
+            </div>
+          
+          
+    </div>
+    <div id="main-content-wrap" class="main-content-wrap">
+      
+        
+          <nav aria-label="Breadcrumb" class="breadcrumb-nav">
+            <ol class="breadcrumb-nav-list"><li class="breadcrumb-nav-list-item"><a href="https://wiki.dendron.so">Dendron</a></li><li class="breadcrumb-nav-list-item"><a href="https://wiki.dendron.so/notes/3489b652-cd0e-4ac8-a734-08094dc043eb.html">Development</a></li><li class="breadcrumb-nav-list-item"><a href="https://wiki.dendron.so/notes/c160ddce-edec-4f6e-841b-418d6030fa37.html">Design</a></li><li class="breadcrumb-nav-list-item">Summary</li></ol>
+          </nav>
+        
+      
+      <div id="main-content" class="main-content" role="main">
+
+        
+        
+        <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+        <script>mermaid.initialize({startOnLoad:true});</script>
+        
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+        
+        
+
+        
+
+        
+
+        
+
+        <script>
+          $(function () {
+            $('[data-toggle="popover"]').popover({html: true})
+          })
+        </script>
+
+        
+
+<div id="main" role="main">
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Summary">
+    
+    <meta itemprop="datePublished" content="2020-08-28T22:06:39+00:00">
+    <meta itemprop="dateModified" content="2021-03-28T16:39:44+00:00">
+
+    <div class="page__inner-wrap">
+
+      
+
+      <section class="page__content" itemprop="text">
+
+        
+
+        <h1 id="summary"><a aria-hidden="true" class="anchor-heading" href="#summary"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Summary</h1>
+<p>These documents are a high level overview of the code inside Dendron. They are written in a type script like pseudo code. The code blocks are broken down into the following structure:</p>
+<pre><code># {Function}  --> what is happening
+## Summary    --> high level function call of what is happening
+## Flows      --> pseudo code describing high level functions
+
+### {Flow Entry}
+
+- loc: ... --> where code is located. {package}/{basename}
+- desc: ... --> description 
+</code></pre>
+<h2 id="pseudo-code"><a aria-hidden="true" class="anchor-heading" href="#pseudo-code"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Pseudo Code</h2>
+<p>The code description is typescript-ish. The goal isn't to write valid typescript but be a <strong>summarized</strong> version of the code. The syntax is evolving but here is a loosely documented starting point:</p>
+<ul>
+<li>@: equivalent of <code>this.</code></li>
+<li>$: referencing a global variable</li>
+<li><code>...</code>: code that is omitted because it would clutter the summary</li>
+<li><code>=:</code> magic equality, </li>
+</ul>
+<p>The places where you see this convention being broken (eg. actual valid typescript) are areas where the author got lazy and just copied code into the summary. Try to not do this because that defeats the point of a <em>summarized</em> view. That being said, Dendron is all about being pragmatic and taking an iterative approach to things. </p>
+<h1 id="initializing-the-engine"><a aria-hidden="true" class="anchor-heading" href="#initializing-the-engine"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Initializing the Engine</h1>
+<h2 id="summary-1"><a aria-hidden="true" class="anchor-heading" href="#summary-1"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Summary</h2>
+<ul>
+<li>engine.query
+<ul>
+<li>store.query
+<ul>
+<li>FileParser.parse
+<pre class="language-ts"><code class="language-ts">allFiles <span class="token punctuation">{</span>
+  getFileMeta
+  toNode
+<span class="token punctuation">}</span>
+</code></pre>
+</li>
+<li>NodeBuilder.buildNoteFromProps
+<pre class="language-ts"><code class="language-ts"><span class="token punctuation">{</span>
+  root<span class="token punctuation">,</span> childrenIds <span class="token operator">=</span> getRoot
+  nodes <span class="token operator">=</span> <span class="token punctuation">[</span>root<span class="token punctuation">]</span>
+  <span class="token keyword control-flow">while</span> nodes <span class="token punctuation">{</span>
+    toNote it
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="flow"><a aria-hidden="true" class="anchor-heading" href="#flow"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Flow</h2>
+<h3 id="initialize-the-engine"><a aria-hidden="true" class="anchor-heading" href="#initialize-the-engine"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Initialize the engine</h3>
+<ul>
+<li>loc: engine-server/engine.ts</li>
+<li>desc: initial query to index all notes </li>
+</ul>
+<pre class="language-ts"><code class="language-ts">init <span class="token punctuation">{</span>
+  <span class="token decorator"><span class="token at operator">@</span><span class="token function">query</span></span><span class="token punctuation">(</span><span class="token string">"**/*"</span><span class="token punctuation">,</span> <span class="token string">"schema"</span><span class="token punctuation">,</span> <span class="token punctuation">{</span>
+    fullNode<span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+    initialQuery<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+  <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+  <span class="token decorator"><span class="token at operator">@</span><span class="token function">query</span></span><span class="token punctuation">(</span><span class="token string">"**/*"</span><span class="token punctuation">,</span> <span class="token string">"note"</span><span class="token punctuation">,</span> <span class="token punctuation">{</span>
+    fullNode<span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+    initialQuery<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+  <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+</code></pre>
+<h3 id="query---engine"><a aria-hidden="true" class="anchor-heading" href="#query---engine"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Query - Engine</h3>
+<ul>
+<li>loc: engine-server/engine.ts</li>
+<li>desc: engine will query the store</li>
+</ul>
+<pre class="language-ts"><code class="language-ts"><span class="token keyword">async</span> <span class="token function">query</span><span class="token punctuation">(</span>scope<span class="token operator">:</span> <span class="token maybe-class-name">Scope</span><span class="token punctuation">,</span> queryString<span class="token operator">:</span> <span class="token builtin">string</span><span class="token punctuation">,</span> opts<span class="token operator">?</span><span class="token operator">:</span> <span class="token maybe-class-name">QueryOpts</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  opts <span class="token operator">=</span> _<span class="token punctuation">.</span><span class="token method function property-access">defaults</span><span class="token punctuation">(</span>opts <span class="token operator">||</span> <span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">,</span> <span class="token punctuation">{</span>
+    fullNode<span class="token operator">:</span> <span class="token boolean">false</span>
+  <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token keyword control-flow">if</span> <span class="token punctuation">(</span>queryString <span class="token operator">===</span> <span class="token string">'**/*'</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">const</span> data <span class="token operator">=</span> <span class="token keyword control-flow">await</span> <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token property-access">store</span><span class="token punctuation">.</span><span class="token method function property-access">query</span><span class="token punctuation">(</span>scope<span class="token punctuation">,</span> <span class="token string">'**/*'</span><span class="token punctuation">,</span> opts<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token method function property-access">refreshNodes</span><span class="token punctuation">(</span>data<span class="token punctuation">.</span><span class="token property-access">data</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre>
+<h3 id="query---store"><a aria-hidden="true" class="anchor-heading" href="#query---store"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Query - Store</h3>
+<ul>
+<li>loc: engine-server/store.ts
+<ul>
+<li>FileStore.query</li>
+</ul>
+</li>
+<li>desc: store is swappable. currently, we only support <code>FileStore</code></li>
+</ul>
+<pre class="language-ts"><code class="language-ts">  <span class="token keyword control-flow">if</span> <span class="token punctuation">(</span><span class="token decorator"><span class="token at operator">@</span><span class="token function">isQueryAll</span></span><span class="token punctuation">(</span>queryString<span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      noteProps <span class="token operator">=</span> <span class="token decorator"><span class="token at operator">@</span><span class="token function">_getNoteAll</span></span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+          allFiles <span class="token operator">=</span> <span class="token function">getAllFiles</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+              root<span class="token operator">:</span> <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token property-access">opts</span><span class="token punctuation">.</span><span class="token property-access">root</span><span class="token punctuation">,</span>
+              include<span class="token operator">:</span> <span class="token punctuation">[</span><span class="token string">"*.md"</span><span class="token punctuation">]</span>
+          <span class="token punctuation">}</span><span class="token punctuation">)</span>
+          <span class="token keyword control-flow">return</span> <span class="token decorator"><span class="token at operator">@</span><span class="token function">files2Notes</span></span><span class="token punctuation">(</span>allfiles<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+              fp <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name"><span class="token maybe-class-name">FileParser</span></span><span class="token punctuation">(</span><span class="token punctuation">{</span> errorOnEmpty<span class="token operator">:</span> <span class="token boolean">false</span> <span class="token punctuation">}</span><span class="token punctuation">)</span>
+              data <span class="token operator">=</span> fp<span class="token punctuation">.</span><span class="token method function property-access">parse</span><span class="token punctuation">(</span>allFiles<span class="token punctuation">)</span><span class="token punctuation">;</span>
+              <span class="token keyword control-flow">return</span> data<span class="token punctuation">.</span><span class="token method function property-access">map</span><span class="token punctuation">(</span>n <span class="token arrow operator">=></span> n<span class="token punctuation">.</span><span class="token method function property-access">toRawProps</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+          <span class="token punctuation">}</span>
+      <span class="token punctuation">}</span>
+      <span class="token keyword">const</span> data <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name"><span class="token maybe-class-name">NodeBuilder</span></span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token method function property-access">buildNoteFromProps</span><span class="token punctuation">(</span>noteProps<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+</code></pre>
+<h4 id="parse-files"><a aria-hidden="true" class="anchor-heading" href="#parse-files"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Parse Files</h4>
+<ul>
+<li>loc: engine-server/parser.ts</li>
+<li>details: read files</li>
+</ul>
+<pre class="language-ts"><code class="language-ts"><span class="token function">parse</span><span class="token punctuation">(</span>data<span class="token operator">:</span> <span class="token builtin">string</span><span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token operator">:</span> <span class="token maybe-class-name">Note</span><span class="token punctuation">[</span><span class="token punctuation">]</span> <span class="token punctuation">{</span>
+    fileMetaDict<span class="token operator">:</span> <span class="token maybe-class-name">FileMetaDict</span> <span class="token operator">=</span> <span class="token function">getFileMeta</span><span class="token punctuation">(</span>data<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      metaDict<span class="token operator">:</span> <span class="token maybe-class-name">FileMetaDict</span> <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">;</span>
+      _<span class="token punctuation">.</span><span class="token method function property-access">forEach</span><span class="token punctuation">(</span>fpaths<span class="token punctuation">,</span> fpath <span class="token arrow operator">=></span> <span class="token punctuation">{</span>
+        <span class="token punctuation">{</span> name <span class="token punctuation">}</span> <span class="token operator">=</span> path<span class="token punctuation">.</span><span class="token method function property-access">parse</span><span class="token punctuation">(</span>fpath<span class="token punctuation">)</span><span class="token punctuation">;</span>
+        lvl <span class="token operator">=</span> name<span class="token punctuation">.</span><span class="token method function property-access">split</span><span class="token punctuation">(</span><span class="token string">"."</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token property-access">length</span><span class="token punctuation">;</span>
+        <span class="token keyword control-flow">if</span> <span class="token punctuation">(</span><span class="token operator">!</span>_<span class="token punctuation">.</span><span class="token method function property-access">has</span><span class="token punctuation">(</span>metaDict<span class="token punctuation">,</span> lvl<span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+          metaDict<span class="token punctuation">[</span>lvl<span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+        metaDict<span class="token punctuation">[</span>lvl<span class="token punctuation">]</span><span class="token punctuation">.</span><span class="token method function property-access">push</span><span class="token punctuation">(</span><span class="token punctuation">{</span> prefix<span class="token operator">:</span> name<span class="token punctuation">,</span> fpath <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+      <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+      <span class="token keyword control-flow">return</span> metaDict<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+    <span class="token spread operator">...</span>
+    root <span class="token operator">=</span> fileMetaDict<span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">.</span><span class="token method function property-access">find</span><span class="token punctuation">(</span>n <span class="token arrow operator">=></span> n<span class="token punctuation">.</span><span class="token property-access">fpath</span> <span class="token operator">===</span> <span class="token string">"root.md"</span><span class="token punctuation">)</span> <span class="token keyword module">as</span> <span class="token maybe-class-name">FileMeta</span><span class="token punctuation">;</span>
+    <span class="token keyword">const</span> <span class="token punctuation">{</span> node<span class="token operator">:</span> rootNode <span class="token punctuation">}</span> <span class="token operator">=</span> <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token method function property-access">toNode</span><span class="token punctuation">(</span>root<span class="token punctuation">,</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">,</span> store<span class="token punctuation">,</span> <span class="token punctuation">{</span>
+      isRoot<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+      errorOnBadParse<span class="token operator">:</span> <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token property-access">opts</span><span class="token punctuation">.</span><span class="token property-access">errorOnBadParse</span>
+    <span class="token punctuation">}</span><span class="token punctuation">)</span> <span class="token keyword module">as</span> <span class="token punctuation">{</span> node<span class="token operator">:</span> <span class="token maybe-class-name">Note</span> <span class="token punctuation">}</span><span class="token punctuation">;</span>
+    <span class="token spread operator">...</span>
+    <span class="token keyword control-flow">while</span> <span class="token punctuation">(</span>_<span class="token punctuation">.</span><span class="token method function property-access">has</span><span class="token punctuation">(</span>fileMetaDict<span class="token punctuation">,</span> lvl<span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token spread operator">...</span>
+        <span class="token keyword">const</span> <span class="token punctuation">{</span> node<span class="token punctuation">,</span> missing <span class="token punctuation">}</span> <span class="token operator">=</span> <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token method function property-access">toNode</span><span class="token punctuation">(</span>ent<span class="token punctuation">,</span> prevNodes<span class="token punctuation">,</span> store<span class="token punctuation">,</span> <span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">)</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+toNode <span class="token punctuation">{</span>
+    noteProps <span class="token operator">=</span> <span class="token function">mdFile2NodeProps</span><span class="token punctuation">(</span>path<span class="token punctuation">.</span><span class="token method function property-access">join</span><span class="token punctuation">(</span>store<span class="token punctuation">.</span><span class="token property-access">opts</span><span class="token punctuation">.</span><span class="token property-access">root</span><span class="token punctuation">,</span> ent<span class="token punctuation">.</span><span class="token property-access">fpath</span><span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">const</span> <span class="token punctuation">{</span> data<span class="token punctuation">,</span> content<span class="token operator">:</span> body <span class="token punctuation">}</span> <span class="token operator">=</span> <span class="token punctuation">(</span>matter<span class="token punctuation">.</span><span class="token method function property-access">read</span><span class="token punctuation">(</span>fpath<span class="token punctuation">,</span> <span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">)</span> <span class="token keyword module">as</span> <span class="token builtin">unknown</span><span class="token punctuation">)</span> <span class="token keyword module">as</span> <span class="token punctuation">{</span>
+        <span class="token keyword">const</span> <span class="token punctuation">{</span> name<span class="token operator">:</span> fname <span class="token punctuation">}</span> <span class="token operator">=</span> path<span class="token punctuation">.</span><span class="token method function property-access">parse</span><span class="token punctuation">(</span>fpath<span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token keyword">const</span> dataProps <span class="token operator">=</span> <span class="token maybe-class-name">DNodeRaw</span><span class="token punctuation">.</span><span class="token method function property-access">createProps</span><span class="token punctuation">(</span><span class="token punctuation">{</span> <span class="token spread operator">...</span>data<span class="token punctuation">,</span> fname<span class="token punctuation">,</span> body <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+    <span class="token comment">// missing</span>
+    <span class="token keyword control-flow">if</span> <span class="token punctuation">(</span><span class="token operator">!</span>parent <span class="token operator">&#x26;&#x26;</span> <span class="token operator">!</span>opts<span class="token punctuation">.</span><span class="token property-access">isRoot</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      missing <span class="token operator">=</span> parentPath<span class="token punctuation">;</span>
+      <span class="token keyword control-flow">if</span> <span class="token punctuation">(</span>opts<span class="token punctuation">.</span><span class="token property-access">errorOnEmpty</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword control-flow">throw</span> <span class="token keyword">new</span> <span class="token class-name"><span class="token known-class-name class-name">Error</span></span><span class="token punctuation">(</span><span class="token known-class-name class-name">JSON</span><span class="token punctuation">.</span><span class="token method function property-access">stringify</span><span class="token punctuation">(</span>errorMsg<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+      <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+    <span class="token keyword">const</span> note <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name"><span class="token maybe-class-name">Note</span></span><span class="token punctuation">(</span><span class="token punctuation">{</span> <span class="token spread operator">...</span>noteProps<span class="token punctuation">,</span> parent<span class="token punctuation">,</span> children<span class="token operator">:</span> <span class="token punctuation">[</span><span class="token punctuation">]</span> <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre>
+<h4 id="build-nodes"><a aria-hidden="true" class="anchor-heading" href="#build-nodes"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Build Nodes</h4>
+<ul>
+<li>loc: src/node.ts</li>
+</ul>
+<pre class="language-ts"><code class="language-ts"><span class="token function">buildNoteFromProps</span><span class="token punctuation">(</span>nodes<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token comment">// initialize root</span>
+    out <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">]</span>
+    root<span class="token punctuation">,</span> childrenIds <span class="token operator">=</span> getRoot nodes <span class="token punctuation">{</span>
+        <span class="token keyword control-flow">if</span> root not <span class="token keyword">in</span> nodes
+            <span class="token keyword control-flow">throw</span> <span class="token known-class-name class-name">DendronError</span> <span class="token comment">// this gets caught in the engine</span>
+        <span class="token keyword control-flow">return</span> root
+    <span class="token punctuation">}</span>
+    out<span class="token punctuation">.</span><span class="token property-access">push</span> root
+    parentNodes <span class="token operator">=</span> <span class="token punctuation">[</span>root<span class="token punctuation">]</span>
+    nodeIds <span class="token operator">=</span> childrenIds
+
+    <span class="token keyword control-flow">while</span> nodeIds <span class="token punctuation">{</span>
+      nodeIds<span class="token punctuation">.</span><span class="token property-access">map</span> <span class="token punctuation">{</span>
+        nodeProps <span class="token operator">=</span> nodes<span class="token punctuation">.</span><span class="token property-access">find</span> it<span class="token punctuation">.</span><span class="token property-access">id</span>
+        <span class="token decorator"><span class="token at operator">@</span><span class="token function">toNote</span></span> nodeProps<span class="token punctuation">,</span> parentNodes
+      <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+toNote <span class="token punctuation">{</span>
+  note <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name"><span class="token maybe-class-name">Note</span></span><span class="token punctuation">(</span><span class="token spread operator">...</span><span class="token punctuation">,</span> children<span class="token operator">:</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">,</span> parent<span class="token operator">:</span> <span class="token keyword null nil">null</span><span class="token punctuation">)</span>
+  parent <span class="token operator">=</span> <span class="token function">find</span><span class="token punctuation">(</span>parents<span class="token punctuation">)</span>
+  parent<span class="token punctuation">.</span><span class="token property-access">addChild</span> note
+  ret
+<span class="token punctuation">}</span>
+</code></pre>
+<h1 id="new-node"><a aria-hidden="true" class="anchor-heading" href="#new-node"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>New Node</h1>
+<h2 id="flow-1"><a aria-hidden="true" class="anchor-heading" href="#flow-1"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Flow</h2>
+<ul>
+<li>loc: engine-server/engine.ts</li>
+</ul>
+<pre class="language-ts"><code class="language-ts"><span class="token function">write</span><span class="token punctuation">(</span>node<span class="token punctuation">)</span><span class="token punctuation">{</span>
+  <span class="token decorator"><span class="token at operator">@</span><span class="token function">store</span></span><span class="token punctuation">.</span><span class="token property-access">write</span>
+  <span class="token decorator"><span class="token at operator">@</span><span class="token function">updateNodes</span></span> node
+<span class="token punctuation">}</span>
+</code></pre>
+<h1 id="updating-a-node"><a aria-hidden="true" class="anchor-heading" href="#updating-a-node"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Updating a Node</h1>
+<h2 id="summary-2"><a aria-hidden="true" class="anchor-heading" href="#summary-2"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Summary</h2>
+<h2 id="flow-2"><a aria-hidden="true" class="anchor-heading" href="#flow-2"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Flow</h2>
+<ul>
+<li>loc: engine-server/engine.ts</li>
+</ul>
+<pre class="language-ts"><code class="language-ts"><span class="token function">updateNodes</span><span class="token punctuation">(</span>nodes<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword control-flow">if</span> node<span class="token punctuation">.</span><span class="token property-access">type</span> <span class="token operator">==</span> <span class="token string">'schema'</span> <span class="token punctuation">{</span>
+    <span class="token spread operator">...</span>
+  <span class="token punctuation">}</span> <span class="token keyword control-flow">else</span> <span class="token punctuation">{</span>
+    <span class="token decorator"><span class="token at operator">@</span><span class="token function">_updateNote</span></span><span class="token punctuation">(</span>nodes<span class="token punctuation">)</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+<span class="token function">_updateNote</span><span class="token punctuation">(</span>nodes<span class="token punctuation">,</span> opts<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token function">addParent</span><span class="token punctuation">(</span>nodes<span class="token punctuation">)</span> <span class="token keyword control-flow">if</span> <span class="token operator">!</span>opts<span class="token punctuation">.</span><span class="token property-access">noAddParent</span>
+  <span class="token decorator"><span class="token at operator">@</span><span class="token function">refreshNodes</span></span>
+<span class="token punctuation">}</span>
+
+</code></pre>
+<h1 id="deleting-a-node"><a aria-hidden="true" class="anchor-heading" href="#deleting-a-node"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Deleting a Node</h1>
+<h2 id="summary-3"><a aria-hidden="true" class="anchor-heading" href="#summary-3"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Summary</h2>
+<h2 id="flow-3"><a aria-hidden="true" class="anchor-heading" href="#flow-3"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Flow</h2>
+<ul>
+<li>loc: engine-server/engine.ts</li>
+</ul>
+<pre class="language-ts"><code class="language-ts"><span class="token keyword">delete</span><span class="token punctuation">(</span>idOrFname<span class="token punctuation">,</span> mode<span class="token punctuation">,</span> opts<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword control-flow">if</span> <span class="token punctuation">(</span>mode <span class="token operator">==</span> <span class="token string">'note'</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    noteToDelete <span class="token operator">:</span><span class="token operator">=</span> <span class="token decorator"><span class="token at operator">@</span><span class="token function">notes</span></span>
+  <span class="token punctuation">}</span> <span class="token keyword control-flow">else</span> <span class="token punctuation">{</span>
+    <span class="token comment">// schemas</span>
+    <span class="token spread operator">...</span>
+  <span class="token punctuation">}</span>
+
+  <span class="token comment">// delete from store</span>
+  <span class="token keyword control-flow">if</span> <span class="token operator">!</span>opts<span class="token punctuation">.</span><span class="token property-access">metaOnly</span> <span class="token punctuation">{</span>
+    <span class="token decorator"><span class="token at operator">@</span><span class="token function">store</span></span><span class="token punctuation">.</span><span class="token method function property-access">delete</span><span class="token punctuation">(</span>noteToDelete<span class="token punctuation">)</span>
+  <span class="token punctuation">}</span>
+
+  <span class="token comment">// remove from index</span>
+  <span class="token decorator"><span class="token at operator">@</span><span class="token function">deleteFromNodes</span></span> noteToDelete
+
+  <span class="token comment">// if node has children , keep it in index as a stub</span>
+  <span class="token keyword control-flow">if</span> noteToDelete<span class="token punctuation">.</span><span class="token property-access">children</span> <span class="token punctuation">{</span>
+    noteToDelete<span class="token punctuation">.</span><span class="token property-access">stub</span> <span class="token operator">=</span> <span class="token boolean">true</span>
+    <span class="token decorator"><span class="token at operator">@</span><span class="token function">refreshNotes</span></span> noteToDelete
+  <span class="token punctuation">}</span> <span class="token keyword control-flow">else</span> <span class="token punctuation">{</span>
+    <span class="token comment">// remove node from parent </span>
+    noteToDelete<span class="token punctuation">.</span><span class="token property-access">parent</span><span class="token punctuation">.</span><span class="token property-access">children</span><span class="token punctuation">.</span><span class="token property-access">reject</span> <span class="token punctuation">{</span> noteToDelete <span class="token punctuation">}</span> <span class="token keyword control-flow">if</span> noteToDelete<span class="token punctuation">.</span><span class="token property-access">parent</span>
+  <span class="token punctuation">}</span>
+
+
+
+<span class="token punctuation">}</span>
+</code></pre>
+<h1 id="parsing-note-references"><a aria-hidden="true" class="anchor-heading" href="#parsing-note-references"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Parsing note references</h1>
+<ul>
+<li><a href="https://wiki.dendron.so/notes/f1af56bb-db27-47ae-8406-61a98de6c78c.html">References</a></li>
+</ul>
+<h2 id="summary-4"><a aria-hidden="true" class="anchor-heading" href="#summary-4"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Summary</h2>
+<h2 id="flow-4"><a aria-hidden="true" class="anchor-heading" href="#flow-4"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Flow</h2>
+<ul>
+<li>engine-server/src/topics/markdown/plugins/dendronRefsPlugin.ts</li>
+<li>data:
+<ul>
+<li><a href="https://wiki.dendron.so/notes/65745697-0f30-43d8-9085-a213e8227e8b.html">replaceRefs</a></li>
+</ul>
+</li>
+</ul>
+<pre class="language-ts"><code class="language-ts"><span class="token function">dendronRefsPlugin</span><span class="token punctuation">(</span><span class="token punctuation">{</span><span class="token spread operator">...</span><span class="token punctuation">,</span> replaceRefs<span class="token punctuation">}</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token comment">// match note ref</span>
+    match <span class="token operator">:</span><span class="token operator">=</span> <span class="token regex"><span class="token regex-delimiter">/</span><span class="token regex-source language-regex">^\(\((?&#x3C;ref>[^)]+)\)\)</span><span class="token regex-delimiter">/</span></span><span class="token punctuation">.</span><span class="token method function property-access">match</span><span class="token punctuation">(</span>text<span class="token punctuation">)</span>
+
+    <span class="token function">stringify</span><span class="token punctuation">(</span>link<span class="token punctuation">)</span> <span class="token operator">:</span><span class="token operator">=</span> <span class="token punctuation">{</span>
+      body <span class="token operator">=</span> <span class="token function">read</span><span class="token punctuation">(</span><span class="token function">join</span><span class="token punctuation">(</span>root<span class="token punctuation">,</span> link<span class="token punctuation">.</span><span class="token property-access">name</span> <span class="token operator">+</span> "<span class="token punctuation">.</span><span class="token property-access">md</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+      bodyAST <span class="token operator">=</span> getProcessor<span class="token punctuation">.</span><span class="token method function property-access">parse</span><span class="token punctuation">(</span>body<span class="token punctuation">)</span>
+
+      refRange <span class="token operator">=</span> <span class="token function">calculateRefRange</span><span class="token punctuation">(</span>body<span class="token punctuation">,</span> link<span class="token punctuation">)</span>
+      bodyAST<span class="token punctuation">.</span><span class="token property-access">children</span> <span class="token operator">=</span> bodyAST<span class="token punctuation">.</span><span class="token property-access">children</span><span class="token punctuation">.</span><span class="token method function property-access">slice</span><span class="token punctuation">(</span>refRange<span class="token punctuation">)</span>
+      out <span class="token operator">=</span> <span class="token function">getProcessor</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token method function property-access">stringify</span><span class="token punctuation">(</span>bodyAST<span class="token punctuation">)</span><span class="token punctuation">;</span>
+      <span class="token spread operator">...</span>
+      <span class="token keyword control-flow">if</span> <span class="token punctuation">(</span>renderWithOutline<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        link <span class="token operator">=</span> <span class="token function">getProcessor</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+          <span class="token punctuation">.</span><span class="token method function property-access">use</span><span class="token punctuation">(</span>replaceRef<span class="token punctuation">,</span> <span class="token punctuation">{</span>
+            wikiLink2Html<span class="token operator">:</span> <span class="token boolean">true</span>
+          <span class="token punctuation">}</span><span class="token punctuation">)</span>
+          <span class="token punctuation">.</span><span class="token method function property-access">process</span><span class="token punctuation">(</span>link<span class="token punctuation">)</span>
+        <span class="token keyword control-flow">return</span> <span class="token function">doRenderWithOutline</span><span class="token punctuation">(</span>link<span class="token punctuation">,</span> <span class="token spread operator">...</span><span class="token punctuation">)</span>
+      <span class="token punctuation">}</span> 
+      <span class="token keyword control-flow">return</span> out
+    <span class="token punctuation">}</span>
+
+<span class="token punctuation">}</span>
+</code></pre>
+<ul>
+<li>engine-server/src/topics/markdown/plugins/replaceRefs.ts</li>
+</ul>
+<pre><code>replaceRefs(node) {
+  if node.type == 'wikilink' {
+
+  }
+}
+
+</code></pre>
+<h2 id="related"><a aria-hidden="true" class="anchor-heading" href="#related"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Related</h2>
+<ul>
+<li>engine-server/src/utils.ts</li>
+</ul>
+<pre class="language-ts"><code class="language-ts">parseDendronRef <span class="token punctuation">{</span>
+  <span class="token spread operator">...</span>
+<span class="token punctuation">}</span>
+</code></pre>
+<h1 id="reference"><a aria-hidden="true" class="anchor-heading" href="#reference"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Reference</h1>
+<h2 id="refresh-node"><a aria-hidden="true" class="anchor-heading" href="#refresh-node"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Refresh Node</h2>
+<ul>
+<li>loc: engine-server/src/engine.ts</li>
+</ul>
+<pre class="language-ts"><code class="language-ts"><span class="token function">refreshNodes</span><span class="token punctuation">(</span>nodes<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token spread operator">...</span>
+  type <span class="token operator">=</span> nodes<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">.</span><span class="token keyword">type</span>
+  <span class="token class-name"><span class="token keyword control-flow">if</span></span> type <span class="token operator">==</span> schema <span class="token punctuation">{</span>
+
+  <span class="token punctuation">}</span> <span class="token keyword control-flow">else</span> <span class="token punctuation">{</span>
+    <span class="token spread operator">...</span>
+  <span class="token punctuation">}</span>
+  <span class="token decorator"><span class="token at operator">@</span><span class="token function">updateLocalCollection</span></span> nodes <span class="token punctuation">{</span>
+    <span class="token decorator"><span class="token at operator">@</span><span class="token function">schemaFuse</span></span><span class="token punctuation">.</span><span class="token property-access">setCollection</span> nodes
+  <span class="token punctuation">}</span>
+  <span class="token decorator"><span class="token at operator">@</span><span class="token function">store</span></span><span class="token punctuation">.</span><span class="token property-access">updateNodes</span> nodes
+<span class="token punctuation">}</span>
+
+</code></pre>
+<hr>
+<h2 id="backlinks"><a aria-hidden="true" class="anchor-heading" href="#backlinks"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Backlinks</h2>
+<ul>
+<li><a href="https://wiki.dendron.so/notes/ed4162aa-5474-4483-9fbc-c0b505310c59.html">0.1.X</a></li>
+</ul><span id="navId" data="849ee8ee-05a5-47bf-b44d-d7c257117bc4"></span>
+
+                
+      </section>
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+        <div class="thumbs feedback_trigger right-bottom"></div>
+
+        
+          <hr>
+          <footer>
+            
+            
+
+            
+              <div class="d-flex mt-2">
+              <p class="text-small text-grey-dk-000 mb-0 mr-2">
+                Page last modified: <span class="d-inline-block">3/28/2021</span>.
+              </p>
+            
+                
+                  <p class="text-small text-grey-dk-000 mb-0">
+                    <a href="https://github.com/dendronhq/dendron-site/edit/master/vault/dendron.dev.design.engine.md" id="edit-this-page">Edit this page on GitHub</a>
+                  </p>
+                
+              </div>
+          </footer>
+        
+    </div>
+</div>
+
+
+  
+
+  <div class="search-overlay"></div>
+
+</div>
+
+</body>
+</html>

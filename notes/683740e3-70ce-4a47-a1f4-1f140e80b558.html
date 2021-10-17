@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+  
+  <title>FAQ - Dendron</title>
+  
+
+  <link
+    rel="shortcut icon"
+    href="https://wiki.dendron.so/favicon.ico"
+    type="image/x-icon"
+  />
+  <link
+    rel="stylesheet"
+    href="https://wiki.dendron.so/assets/css/just-the-docs-default.css"
+  />
+  <script
+    type="text/javascript"
+    src="https://wiki.dendron.so/assets/js/just-the-docs.js"
+  ></script>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.22.0/themes/prism.min.css"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css"
+    integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X"
+    crossorigin="anonymous"
+  />
+  <script
+    type="text/javascript"
+    src="https://wiki.dendron.so/assets/js/vendor/lunr.min.js"
+  ></script>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+   
+   
+  
+<meta name="description" content="Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.">
+<meta name="author" content="dendronhq">
+
+<link rel="canonical" href="https://wiki.dendron.so/notes/683740e3-70ce-4a47-a1f4-1f140e80b558.html">
+
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://wiki.dendron.so/notes/683740e3-70ce-4a47-a1f4-1f140e80b558.html">
+<meta property="og:description" content="Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.">
+<meta property="og:image" content="https://wiki.dendron.so/logo.png">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@dendronhq">
+<meta name="twitter:url" content="https://wiki.dendron.so/notes/683740e3-70ce-4a47-a1f4-1f140e80b558.html">
+<meta name="twitter:description" content="Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.">
+<meta name="twitter:image" content="https://wiki.dendron.so/logo.png">
+
+
+  <meta property="og:title" content="FAQ - Dendron" />
+  <meta name="twitter:title" content="FAQ - Dendron" />
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-B0JN2HHCNY"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-B0JN2HHCNY');
+  </script>
+  
+</head>
+
+
+
+<body>
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+      <symbol id="svg-link" viewBox="0 0 24 24">
+        <title>Link</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-link">
+          <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+        </svg>
+      </symbol>
+      <symbol id="svg-search" viewBox="0 0 24 24">
+        <title>Search</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search">
+          <circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+      </symbol>
+      <symbol id="svg-menu" viewBox="0 0 24 24">
+        <title>Menu</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu">
+          <line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+      </symbol>
+      <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+        <title>Expand</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+          <polyline points="9 18 15 12 9 6"></polyline>
+        </svg>
+      </symbol>
+      <symbol id="svg-doc" viewBox="0 0 24 24">
+        <title>Document</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file">
+          <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path><polyline points="13 2 13 9 20 9"></polyline>
+        </svg>
+      </symbol>
+    </svg>
+
+    <div class="side-bar">
+      <div class="site-header">
+        <a href="https://wiki.dendron.so" class="site-title lh-tight">
+  <div class="site-logo"></div>
+
+ </a>
+        <a href="#" id="menu-button" class="site-button">
+          <svg viewBox="0 0 24 24" class="icon"><use xlink:href="#svg-menu"></use></svg>
+        </a>
+      </div>
+
+      <nav role="navigation" aria-label="Main" id="site-nav" class="site-nav">
+      </nav>
+      <footer class="site-footer">
+        🌱 with 💕 using <a href="https://www.dendron.so/"> Dendron 🌲 </a>
+      </footer>
+    </div>
+    <div class="main" id="top">
+        <div id="main-header" class="main-header">
+          
+            <div class="search">
+              <div class="search-input-wrap">
+                <input type="text" id="search-input" class="search-input" tabindex="0" placeholder="Search Dendron" aria-label="Search Dendron" autocomplete="off">
+                <label for="search-input" class="search-label"><svg viewBox="0 0 24 24" class="search-icon"><use xlink:href="#svg-search"></use></svg></label>
+              </div>
+              <div id="search-results" class="search-results"></div>
+            </div>
+          
+          
+    </div>
+    <div id="main-content-wrap" class="main-content-wrap">
+      
+        
+          <nav aria-label="Breadcrumb" class="breadcrumb-nav">
+            <ol class="breadcrumb-nav-list"><li class="breadcrumb-nav-list-item"><a href="https://wiki.dendron.so">Dendron</a></li><li class="breadcrumb-nav-list-item">FAQ</li></ol>
+          </nav>
+        
+      
+      <div id="main-content" class="main-content" role="main">
+
+        
+        
+        <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+        <script>mermaid.initialize({startOnLoad:true});</script>
+        
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+        
+        
+
+        
+
+        
+
+        
+
+        <script>
+          $(function () {
+            $('[data-toggle="popover"]').popover({html: true})
+          })
+        </script>
+
+        
+
+<div id="main" role="main">
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="FAQ">
+    
+    <meta itemprop="datePublished" content="2020-07-28T16:08:25+00:00">
+    <meta itemprop="dateModified" content="2021-08-21T00:34:01+00:00">
+
+    <div class="page__inner-wrap">
+
+      
+
+      <section class="page__content" itemprop="text">
+
+        
+
+        <h1 id="faq"><a aria-hidden="true" class="anchor-heading" href="#faq"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>FAQ</h1>
+<p>All the questions we thought you might ask.</p>
+<h2 id="general"><a aria-hidden="true" class="anchor-heading" href="#general"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>General</h2>
+<h3 id="what-is-a-dendron"><a aria-hidden="true" class="anchor-heading" href="#what-is-a-dendron"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>What is a Dendron?</h3>
+<p>A Dendron is many things.</p>
+<ol>
+<li>Dendron is the greek word for tree. It's a reference to the hierarchal note taking that Dendron(3) enables.</li>
+<li>Dendron is another word for <a href="https://en.wikipedia.org/wiki/Dendrite">dendrite</a> which is an extension of the nerve cell that sends and receives signals in the brain. Think of Dendron(3) as a digital nervous system that helps you consolidate all the information that you care about in the fastest and most efficient way possible.
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Neuron_Hand-tuned.svg/2880px-Neuron_Hand-tuned.svg.png">
+<ul>
+<li>Image by Quasar Jarosz at English Wikipedia</li>
+</ul>
+</li>
+<li>Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you organize, manage, publish, and collaborate on knowledge bases of any size.</li>
+</ol>
+<h3 id="how-is-dendron-different-from-x-note-taking-tool"><a aria-hidden="true" class="anchor-heading" href="#how-is-dendron-different-from-x-note-taking-tool"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>How is Dendron different from X note taking tool?</h3>
+<p>Substitute X with <code>roam|obsidian|foam|one note|evernote|...</code></p>
+<p>All note taking tools (try to) make it easy to get notes in. It's getting it back out again that's hard, and it <strong>becomes harder</strong> as you get more notes.</p>
+<p>Whether you are using notebooks tags, or backlinks, once you have more than a few hundred notes, you'll need to have some sort of structure in place (eg. naming convention, hierarchy, etc.) to keep track of them.</p>
+<p>Dendron is a highly opinionated note taking tool that focuses on <strong>hierarchal note taking</strong>. It provides the freedom of Roam's <em>every note exists everywhere philosophy</em>, while layering on top <strong>flexible hierarchies</strong> to keep track of it all.</p>
+<p>While Dendron works with knowledge bases of any size, it really shines once you've accumulated a few hundred notes. I created it to handle my personal knowledge base of 20k+ markdown notes — Dendron lets me track and find any specific note in it in seconds. You can read more about Dendron's hierarchal approach to note taking <a href="https://www.kevinslin.com/notes/3dd58f62-fee5-4f93-b9f1-b0f0f59a9b64.html">here</a>.</p>
+<h3 id="how-is-dendron-different-from-roam"><a aria-hidden="true" class="anchor-heading" href="#how-is-dendron-different-from-roam"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>How is Dendron different from Roam?</h3>
+<p>Whereas Roam is built around the idea of <strong>bi-directional links</strong> (and daily journals) which help you create notes without having to explicitly organize your notes, Dendron is built to help you organize notes without friction using <strong>flexible hierarchies</strong>.</p>
+<p>We provide the tooling to create, enforce, and change these hierarchies at will. If you think of Roam as a graph database for notes, you can think of Dendron as Redis. To give you a sense of scale, Dendron is used to manage knowledge bases of +30K notes.</p>
+<p>Some additional features that set Dendron apart:</p>
+<ul>
+<li>Dendron allows you to compose your workspace with vaults (a vault is a collection of notes that can come from anywhere) from any number of sources</li>
+<li>Dendron is based on plain text (Dendron-flavored) markdown (exportable to regular markdown or any other format)</li>
+<li>Dendron is integrated into VSCode</li>
+<li>Dendron allows for easy publishing public/private content to any platform that can host a static site (and we're rolling out our own publishing platform to help people publish with additional access controls)</li>
+</ul>
+<h3 id="how-does-dendron-help-me-track-my-notes"><a aria-hidden="true" class="anchor-heading" href="#how-does-dendron-help-me-track-my-notes"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>How does Dendron help me track my notes?</h3>
+<ol>
+<li>Dendron organizes and collapse all your notes into managable chunks using <a href="https://wiki.dendron.so/notes/f3a41725-c5e5-4851-a6ed-5f541054d409.html">hierarchies</a>.</li>
+<li>Dendron helps you manage your hiearchies using <a href="https://wiki.dendron.so/notes/c5e5adde-5459-409b-b34d-a0d75cbb1052.html">schemas</a></li>
+<li>Dendron gets out of your way when you're working with your notes during <a href="https://wiki.dendron.so/notes/a7c3a810-28c8-4b47-96a6-8156b1524af3.html">lookup</a></li>
+</ol>
+<p>Dendron's secret sauce is that it provides the necessary tooling for you to work with hierarichal notes. While hierarchies have traditionally (and justifiably) gotten a bad reputation, I would argue that this is because the <strong>tooling</strong> around hierarchies were bad, not because hierarchies themselves are bad.</p>
+<p>Hierarchies are one of the most effective ways that <strong>both humans and computers</strong> process large amount of information (there's a reason why almost every database is built from a variation of the <a href="https://en.wikipedia.org/wiki/B-tree">b-tree</a>). You can find further details about hierarchies in this <a href="https://www.kevinslin.com/notes/e1455752-b052-4212-ac6e-cc054659f2bb.html">blog post</a></p>
+<h3 id="is-dendron-free-will-it-stay-free"><a aria-hidden="true" class="anchor-heading" href="#is-dendron-free-will-it-stay-free"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Is Dendron free? Will it stay free?</h3>
+<p>Dendron, the client, is free and will always remain free. It is also open source so anyone is free to make their own fork of Dendron.</p>
+<p>That being said, I'm all in on Dendron and this is my full time gig. I want to make sure that developing Dendron remains sustainable. To that end, I plan on introducing value add server side functionality that folks may pay for. Examples of paid for features include:</p>
+<ul>
+<li>private hosting (for folks who want to publish but not use github pages or want to add authentication)</li>
+<li>enterprisy things
+<ul>
+<li>eg. on premise installations of Dendron with single sign on, active directory, and fine grained permissions</li>
+</ul>
+</li>
+<li>offering private subscription based vaults (eg. think <a href="https://substack.com">substack</a> but having people subscribe to vaults instead of newsletters )</li>
+<li>server side IFTTT like functionality (eg. everytime I add an entry to airtable, add a note to Dendron)</li>
+</ul>
+<p>Paid for features will be 100% optional and will not be necessary for any client side functionality in Dendron.</p>
+<h3 id="why-is-dendron-built-on-top-of-vscode"><a aria-hidden="true" class="anchor-heading" href="#why-is-dendron-built-on-top-of-vscode"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Why is Dendron built on top of VSCode?</h3>
+<p>As with all things, its a matter of tradeoffs. Dendron started its life as a standalone app (eg. think Obsidian) but I quickly realized I was spending most of my time building undifferentiated editor scaffolding instead of focusing on the hierarchies and schemas that made Dendron unique.</p>
+<p>I wanted to spend more time building out features that supported Dendron's <a href="https://www.kevinslin.com/notes/3dd58f62-fee5-4f93-b9f1-b0f0f59a9b64.html">hiearchy first approach</a> to note taking which is what led me to re-write it for VSCode.</p>
+<p>That being said, the core dendron engine is not vscode specific and there are folks that are experimenting with porting it over to other editors (eg. sublime, vim). We also have plans for a standalone editor in the future (most likely, this will be a fork of VSCode optimized for note taking)</p>
+<h2 id="notes"><a aria-hidden="true" class="anchor-heading" href="#notes"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Notes</h2>
+<h3 id="why-markdown"><a aria-hidden="true" class="anchor-heading" href="#why-markdown"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Why markdown?</h3>
+<p>Markdown lets you write text in a simple human readable notation that is platform independent. You don't need to have microsoft word to read a markdown file and now a days, all new note taking tools support importing and displaying markdown.</p>
+<p>For more context, you can see the original markdown declaration <a href="https://daringfireball.net/projects/markdown/">here</a></p>
+<h3 id="can-i-use-dendron-with-existing-notes"><a aria-hidden="true" class="anchor-heading" href="#can-i-use-dendron-with-existing-notes"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Can I use Dendron with existing notes?</h3>
+<p>You can use Dendron with existing repositories of markdown notes.</p>
+<p>Open the <code>Command Palette</code> in vscode and use the <code>Dendron: Change Workspace</code> command. It will ask you for a folder path as input.</p>
+<p>Dendron will create a <code>dendron.code-workspace</code> file in specified directory and then open the workspace (if a workspace file already exists, it will use that). It will also create a <code>root.md</code> file in that directory if it doesn't exist (currently this is part of the internal working of dendron).</p>
+<p>Dendron <strong>does not</strong> delete or overwrite any files during the <strong>Change Workspace</strong> operation.</p>
+<h3 id="how-do-i-save"><a aria-hidden="true" class="anchor-heading" href="#how-do-i-save"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>How do I save?</h3>
+<p>Dendron automatically saves when you change focus (switch tabs or applications). You can also manually save using <code>Cmd+S</code> or <code>Ctrl+S</code> depending on your operating system</p>
+<h3 id="how-do-i-go-back-to-the-previous-note"><a aria-hidden="true" class="anchor-heading" href="#how-do-i-go-back-to-the-previous-note"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>How do I go back to the previous note?</h3>
+<p>There are 3 ways to go back to my previous note:</p>
+<ol>
+<li><code>ctrl-tab</code> (go to previous tab with default VSCode settings)</li>
+<li>click on the previous tab</li>
+<li>using the open editors pane</li>
+</ol>
+<ul>
+<li>NOTE: to have more than a single tab show, you need to have the following settings</li>
+</ul>
+<pre class="language-json"><code class="language-json"><span class="token punctuation">{</span>
+    <span class="token property">"workbench.editor.enablePreview"</span><span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+    <span class="token property">"workbench.editor.showTabs"</span><span class="token operator">:</span> <span class="token boolean">true</span>
+<span class="token punctuation">}</span>
+</code></pre>
+<p><img src="https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/faq.go-back.gif"></p>
+<h3 id="what-can-i-do-with-the-root-note"><a aria-hidden="true" class="anchor-heading" href="#what-can-i-do-with-the-root-note"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>What can I do with the <code>root</code> note?</h3>
+<p>The root note is a special note that comes with every dendron vault. You can't rename it and we don't advise that you create a hierarchy from it. You can add custom frontmatter variables and change all existing variables except the <code>id</code> field. </p>
+<p>You are also free to use the body however you wish. </p>
+<h3 id="can-i-manually-move-notes"><a aria-hidden="true" class="anchor-heading" href="#can-i-manually-move-notes"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Can I manually move notes?</h3>
+<p>Yes. You can move notes manually outside of Dendron or between different vaults. Some things to keep in mind:</p>
+<ul>
+<li>you should keep the <code>id</code> of the note since features like publishing depend on it to find the right link</li>
+<li>if your notes have <a href="https://wiki.dendron.so/notes/3472226a-ff3c-432d-bf5d-10926f39f6c2.html#cross-vault-links">Cross Vault Links</a> (only applicable for <a href="https://wiki.dendron.so/notes/24b176f1-685d-44e1-a1b0-1704b1a92ca0.html">Multi Vault</a>), those links might bring if they are moved to a different workspace that doesn't have reference to the original vault</li>
+</ul>
+<h2 id="hierarchies"><a aria-hidden="true" class="anchor-heading" href="#hierarchies"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Hierarchies</h2>
+<h3 id="how-should-i-name-a-note"><a aria-hidden="true" class="anchor-heading" href="#how-should-i-name-a-note"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>How should I name a note?</h3>
+<p>There are no rigid requirements on note naming in Dendron, other than the dots in the file name are used to construct the <a href="https://wiki.dendron.so/notes/f3a41725-c5e5-4851-a6ed-5f541054d409.html">note hierarchy</a>. However, the recommended way is to use all lowercase letters, replace spaces with <code>-</code>-mark and remove any special characters. Thus e.g. <code>John's amazing garage</code> becomes <code>johns-amazing-garage</code>.</p>
+<p>Also, remember that you will use the note <a href="https://wiki.dendron.so/notes/a7c3a810-28c8-4b47-96a6-8156b1524af3.html">lookup-feature</a> to find notes quickly, and the lookup will use the names of the files. Thus try to name the files using the words that you are likely to use to find the note.</p>
+<h3 id="what-kind-of-note-hierarchy-should-i-create"><a aria-hidden="true" class="anchor-heading" href="#what-kind-of-note-hierarchy-should-i-create"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>What kind of note hierarchy should I create?</h3>
+<p>A good guideline is to start with a relatively flat hierarchy (even just a single note in the root!) and add topics as headings into those notes. When notes grow to the point that you have to start scrolling, it’s time to consider if it would be beneficial to split those notes. At that point, you probably already have some idea how the thoughts are placed in your mind - try to mimic that also with the hierarchy.</p>
+<p>If you have a hard time deciding which ideas belong closer to root, think which of those ideas are more fundamental in your thinking. As an example, a note related to coding in Excel, should it be named as <code>code.excel</code> or <code>excel.code</code>? This could be resolved by thinking if you will write more about coding where Excel is just one example, or more about Excel, where coding is only one example. In case you think that both <code>excel.code</code> and <code>code.excel</code> are equal and both should be created, you could also make one of them a “master note” and <a href="https://wiki.dendron.so/notes/f1af56bb-db27-47ae-8406-61a98de6c78c.html">refer</a> to it from the other note.</p>
+<h3 id="do-i-have-to-use-hierarchies-what-if-i-want-to-use-another-approach"><a aria-hidden="true" class="anchor-heading" href="#do-i-have-to-use-hierarchies-what-if-i-want-to-use-another-approach"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Do I have to use hierarchies? What if I want to use another approach?</h3>
+<p>Despite our emphasis on hierarchies, Dendron also supports non-hierarchal ways of organizing notes (eg. backlinks, zettelkasten, etc).</p>
+<p>You can, and are encouraged to, combine these other workflows with Dendron hierarchies in order to create your own workflow that takes the best parts of each system!</p>
+<h3 id="what-if-i-have-a-note-that-belongs-in-multiple-hierarchies"><a aria-hidden="true" class="anchor-heading" href="#what-if-i-have-a-note-that-belongs-in-multiple-hierarchies"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>What if I have a note that belongs in multiple hierarchies?</h3>
+<p>This comes up a lot especially when your dealing with organizing collections of things, like music or books. There are a few approaches we recommend here.</p>
+<ol>
+<li>Use <a href="https://wiki.dendron.so/notes/8bc9b3f1-8508-4d3a-a2de-be9f12ef1821.html">tags</a>. Tags work best with categorical data. If you use <strong>Dendron Tags</strong> (aka they're really hierarchies), then you have the added advantage of being able to refactor and track your tags using Dendron's existing hierarchal tooling.</li>
+<li>Use alias nodes. This is an <a href="https://github.com/dendronhq/dendron/issues/128">upcoming feature</a> that will allow you to put a node under multiple hierarchies.</li>
+</ol>
+<h3 id="hierarchies-add-too-much-friction"><a aria-hidden="true" class="anchor-heading" href="#hierarchies-add-too-much-friction"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Hierarchies add too much friction</h3>
+<p>The hierarchy adds friction but the idea is that the friction (eg. hierarchy) is not a bug but the reason why dendron works with thousands of notes.</p>
+<p>The analogy to think about is excel: while putting your numbers inside the structure of a spreadsheet might not be the most straightforward way of getting to a numerical solution, its use becomes indispensable once you deal with a significant amount of numbers.</p>
+<p>The way to think about dendron is that its not like google where you type a question and try to find an answer - until we get true AI, this simply doesn't work for personal knowledge. Rather, Dendron helps you organize your notes so you can reference the information you need to answer your own questions.</p>
+<h3 id="hierarchies-are-too-rigid"><a aria-hidden="true" class="anchor-heading" href="#hierarchies-are-too-rigid"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Hierarchies are too rigid</h3>
+<p>Traditional hierarchies are like straight jackets - they are confining and force you down a certain path once set. The hierarchies in Dendron are more like support beams - they help enforce the foundation of your knowledge base. Dendron encourages you to be flexible with your mental models (represented as hierarchies in Dendron) and change them over time. </p>
+<p>Current tools for Zettelkasten or Notes you can think of as a <em>one level hierarchy</em> that is strung together by links. Dendron provides that but also lets you go deeper by building out multi-level hierarchies when it is useful to do so. </p>
+<h3 id="will-dendron-ever-support-folders"><a aria-hidden="true" class="anchor-heading" href="#will-dendron-ever-support-folders"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Will Dendron ever support folders?</h3>
+<p>It is possible though most of the approaches we've thought of would take a large amount of effort and deliver questionable benefit on top of what's already planned (for more info, see the discussion <a href="https://github.com/dendronhq/dendron/issues/210">here</a>). </p>
+<p>If you want the ability to collapse folders, you can use the <a href="https://wiki.dendron.so/notes/f7ebd4aa-8ba7-4bc5-bd00-a1efc5315f07.html#dendron-tree-view">dendron tree view</a>. For existing folder based notes and assets, you can use the <a href="https://wiki.dendron.so/notes/f23a6290-2dec-45dc-b616-c218ee53db6b.html">markdown pod</a> to import them into Dendron.</p>
+<p>At the end of the day, folders are meant to be an implementation detail for dendron. The underlying primitive of a note is an object that has metadata, content, and links. You can think of dendron as a flat file based database and lookup and the tree view as the UI to said database. For use cases involving external tools that require folders, you'll soon be able to use the <a href="https://wiki.dendron.so/notes/ccab31c4-e9ca-4ee8-b754-f786a3f3be6e.html">markdown export pod</a> to do just that.</p>
+<h2 id="schemas"><a aria-hidden="true" class="anchor-heading" href="#schemas"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Schemas</h2>
+<h3 id="what-is-the-deal-with-schemas-do-i-need-to-use-them"><a aria-hidden="true" class="anchor-heading" href="#what-is-the-deal-with-schemas-do-i-need-to-use-them"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>What is the deal with schemas? Do I need to use them?</h3>
+<p>The short answer is no, you don't <strong>need</strong> to use schemas. That being said, schemas can help you manage your notes, especially as you collect more of them.</p>
+<p>If you're familiar with typescript - Dendron schemas are similar to the types offered by typescript. You can compile your typescript code into javascript even if the types don't match (subject to your tsconfig). Types help make your projects maintainable, especially as they grow.</p>
+<p>Currently, Dendron will do is show you an indicator if your schema doesn't match. In the future, we'll have a strict mode where we will actually prevent you from creating notes that don't match your schema.</p>
+<p>Schemas at the end of the day help you construct consistent hierarchies for your notes. Consistent hierarchies alleviate the cognitive overhead of needing to understand and track N things where N can be very big. Instead, you can construct a single schema that encompasses the common areas of all N things.</p>
+<p>But even if you don't have a lot of notes, schemas are helpful because they provide extra features <a href="https://dendron.so/notes/c5e5adde-5459-409b-b34d-a0d75cbb1052.html#schema-templates">like templating</a> and <a href="https://dendron.so/notes/c5e5adde-5459-409b-b34d-a0d75cbb1052.html#why-use-schemas">auto complete</a>.</p>
+<h3 id="how-do-schemas-work-with-multi-vault"><a aria-hidden="true" class="anchor-heading" href="#how-do-schemas-work-with-multi-vault"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>How do schemas work with multi-vault?</h3>
+<p>The short answer currently is <em>not very well</em> 😅</p>
+<ul>
+<li>if two schemas overlap between different vaults, the last schema wins</li>
+<li>schema imports don't currently work x-vault</li>
+</ul>
+<p>What this will be in the future:</p>
+<ul>
+<li>schemas should only work on the vault that they are declared in, and you can have an option to specify (in <code>dendron.yml</code> if you want a schema to be global)</li>
+<li>schema imports should work xvault (import syntax will be <code>{vaultName}.{schemaName}</code>)</li>
+</ul>
+<h2 id="vaults"><a aria-hidden="true" class="anchor-heading" href="#vaults"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Vaults</h2>
+<h3 id="git-doc-and-other-extensions-dont-recognize-my-repos-for-multi-vault"><a aria-hidden="true" class="anchor-heading" href="#git-doc-and-other-extensions-dont-recognize-my-repos-for-multi-vault"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Git Doc and other extensions don't recognize my repos for multi-vault</h3>
+<p>Many VSCode extensions that work across multiple git repositories won't recognize repos nested another repo. The way to fix this is by having your workspace be the last entry inside <code>folders</code> in your code workspace file (Dendron does this by default for new workspaces and if you add new vaults using <code>Vault Add</code>). You can see an example below. You can see a published example of this setup <a href="https://github.com/kevinslin/kevin-garden">here</a></p>
+<pre class="language-json"><code class="language-json">    <span class="token property">"folders"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+        ...
+        <span class="token punctuation">{</span>
+            <span class="token property">"path"</span><span class="token operator">:</span> <span class="token string">"kevin-public/vault"</span><span class="token punctuation">,</span>
+            <span class="token property">"name"</span><span class="token operator">:</span> <span class="token string">"kevin-public"</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token punctuation">{</span>
+            <span class="token property">"path"</span><span class="token operator">:</span> <span class="token string">"kevin-blog/vault"</span><span class="token punctuation">,</span>
+            <span class="token property">"name"</span><span class="token operator">:</span> <span class="token string">"kevin-blog"</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token punctuation">{</span>
+            <span class="token property">"path"</span><span class="token operator">:</span> <span class="token string">"."</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">]</span><span class="token punctuation">,</span>
+</code></pre>
+<h2 id="humans"><a aria-hidden="true" class="anchor-heading" href="#humans"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Humans</h2>
+<h3 id="how-do-i-share-my-notes-with-others"><a aria-hidden="true" class="anchor-heading" href="#how-do-i-share-my-notes-with-others"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>How do I share my notes with others?</h3>
+<ol>
+<li>The <em>easiest</em> way to share public documents <em>for consumers</em> is to publish it as a site. Instructions <a href="https://wiki.dendron.so/notes/861e4e48-dcc5-4813-a695-8940ba6e64d3.html">here</a></li>
+<li>If folks are comfortable with markdown, you can use the markdown pod to export your entire workspace or just a specific page to markdown. Instructions <a href="https://wiki.dendron.so/notes/13c4a608-0a32-4c62-9c7e-2b7f9f2d18bf.html">here</a>
+<ul>
+<li>NOTE: this doesn't preserve backlinks or assets</li>
+</ul>
+</li>
+<li>The full experience is committing your workspace as a git repo and having collaborators use Dendron to add it as a <a href="https://wiki.dendron.so/notes/6682fca0-65ed-402c-8634-94cd51463cc4.html#remote-vault">Remote Vault</a></li>
+</ol>
+<h2 id="pods"><a aria-hidden="true" class="anchor-heading" href="#pods"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Pods</h2>
+<h3 id="what-are-pods"><a aria-hidden="true" class="anchor-heading" href="#what-are-pods"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>What are pods?</h3>
+<p>Pods are a means of data migration. You can import/export notes from other tools in and out of Dendron</p>
+<p>Internally for example, we use google docs to take meeting notes collaboratively and then we use the gdoc import pod to turn it into a dendron note</p>
+<p>You can read more about them <a href="https://wiki.dendron.so/notes/66727a39-d0a7-449b-a10d-f6c438185d7f.html">here</a>.</p>
+<h2 id="publishing"><a aria-hidden="true" class="anchor-heading" href="#publishing"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Publishing</h2>
+<p></p><p></p><div class="portal-container">
+<div class="portal-head">
+<div class="portal-backlink">
+<div class="portal-title">From <span class="portal-text-title">FAQ</span></div>
+<a href="https://wiki.dendron.so/notes/5a529992-0c62-4291-81df-550638f06a46.html" class="portal-arrow">Go to text <span class="right-arrow">→</span></a>
+</div>
+</div>
+<div id="portal-parent-anchor" class="portal-parent" markdown="1">
+<div class="portal-parent-fader-top"></div>
+<div class="portal-parent-fader-bottom"></div><h3 id="why-am-i-taken-to-a-403-page"><a aria-hidden="true" class="anchor-heading" href="#why-am-i-taken-to-a-403-page"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Why am I taken to a 403 page?</h3>
+<p>Dendron will auto-generate 403 pages during publication when a published note links to notes that are not published. You can see <a href="https://wiki.dendron.so/notes/c93938a4-0938-49d0-aca2-00e624793650.html">here</a> for configuration behind selective publication.</p>
+<h3 id="is-publishing-free"><a aria-hidden="true" class="anchor-heading" href="#is-publishing-free"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Is Publishing Free?</h3>
+<p>Yep, publishing is completely free!  Dendron generates a bunch of html files which you can use github pages or any static site host to publish. you can see some examples <a href="https://wiki.dendron.so/notes/3a82c5ff-7945-46ae-8bf9-3b2275fc6642.html">here</a></p>
+</div></div><p></p><p></p>
+<h2 id="search-and-filtering"><a aria-hidden="true" class="anchor-heading" href="#search-and-filtering"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Search and Filtering</h2>
+<h3 id="can-i-filter-by-the-metadata-in-dendron"><a aria-hidden="true" class="anchor-heading" href="#can-i-filter-by-the-metadata-in-dendron"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Can I filter by the metadata in Dendron?</h3>
+<p>Metadata is currently under utilized because we don't have a built in way of easily querying by it. We currently have <a href="https://github.com/dendronhq/dendron/issues/152">this issue</a> tracking the progress of advanced query work.</p>
+<p>In the future, we want to support:</p>
+<ul>
+<li>querying by custom frontmatter attributes: <a href="https://github.com/dendronhq/dendron/issues/152">https://github.com/dendronhq/dendron/issues/152</a></li>
+<li>query by attributes with logical operators: <a href="https://github.com/dendronhq/dendron/issues/159">https://github.com/dendronhq/dendron/issues/159</a></li>
+</ul>
+<p>We also want to support some subset of the queries as note references so that the results can be included in page.</p>
+<p>For now, we recommend you use the <a href="https://wiki.dendron.so/notes/692fa114-f798-467f-a0b9-3cccc327aa6f.html#search-editor">search editor</a> capability for liimited querying capabilities.</p>
+<h2 id="other"><a aria-hidden="true" class="anchor-heading" href="#other"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Other</h2>
+<h3 id="can-i-autocomplete-an-hierarchy"><a aria-hidden="true" class="anchor-heading" href="#can-i-autocomplete-an-hierarchy"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Can I autocomplete an hierarchy?</h3>
+<p>See this <a href="https://github.com/dendronhq/dendron/issues/490">issue</a>.</p>
+<p>TLDR: vscode doesn't expose tab completion via API. There are two alternatives we're currently considering:</p>
+<ul>
+<li>overload the <code>enter</code> command, one press to autocomplete, two presses to select</li>
+<li>replace the lookup component with a webview</li>
+</ul>
+<h3 id="how-to-launch-dendron-with-most-recent-vault-quickly"><a aria-hidden="true" class="anchor-heading" href="#how-to-launch-dendron-with-most-recent-vault-quickly"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>How to launch dendron with most recent vault quickly?</h3>
+<p>In menu bar of VSCode, select <code>File</code> -> <code>New Window</code> and click the Dendron workspace in Recent section of the Welcome tab.</p>
+<h3 id="why-are-there-root-files-in-my-notes"><a aria-hidden="true" class="anchor-heading" href="#why-are-there-root-files-in-my-notes"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Why are there <code>root</code> files in my notes?</h3>
+<p>When you initialize a vault, <code>root.md</code> and <code>root.schema.yml</code> get created inside each vault.</p>
+<p>They serve as the "roots" of your vault for your notes and schema respectively.</p>
+<p>root.md is used as the parent of all hierarchies, root.schema as the parent of all schemas</p>
+<p>root.md is what shows up when you do a lookup with an empty line ""</p>
+<p>root.schema.yml is a schema that is global for all hierarchies (normally, a schema is scoped to a particular hierarchy)</p>
+<p>Now this isn't required per-say, we could just do away with <strong>root</strong> notes and stick strictly to hierarchies and this might be an option in the future but this is the reasoning at the current time</p>
+<p>ps. root.schema.yml doesn't work right now as described in the sense that we haven't implemented global schemas yet</p>
+<h3 id="is-there-a-list-of-keyboard-shortcuts-i-can-see"><a aria-hidden="true" class="anchor-heading" href="#is-there-a-list-of-keyboard-shortcuts-i-can-see"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Is there a list of keyboard shortcuts I can see?</h3>
+<p>Dendron has a list of keyboard shortcuts that you can access using <code>Dendron: Show Help</code> command. Note that these only show the commands that come with the Dendron Plugin but not its bundled extensions. We currently have an open <a href="https://github.com/dendronhq/dendron/issues/148">issue</a> to list all shortcuts on one page.</p>
+<h3 id="why-are-there--signs-next-to-the-notes-in-the-tree-view"><a aria-hidden="true" class="anchor-heading" href="#why-are-there--signs-next-to-the-notes-in-the-tree-view"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Why are there '+' signs next to the notes in the Tree View?</h3>
+<p><img src="https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/faq.plus-sign.jpg"></p>
+<p>The reason you see this is because Dendron will create <a href="https://wiki.dendron.so/notes/c6fd6bc4-7f75-4cbb-8f34-f7b99bfe2d50.html#stubs">stub</a> notes when creating notes that have parents that don't exist. These notes are placeholders and will only be visible in the Dendron Tree View with a <code>+</code> sign next to the name. The reason we do stubs is because we don't want to litter your file system with empty files. Stubs are a compromise - they let you see the hierarchy of your newly created notes without forcing you to create intermediary files.</p>
+<h3 id="why-custom-markdown-preview-instead-of-the-vsc-one"><a aria-hidden="true" class="anchor-heading" href="#why-custom-markdown-preview-instead-of-the-vsc-one"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Why custom markdown preview instead of the VSC one?</h3>
+<p>Our custom markdown preview gives us much more functionality then the vscode one -> eg. note references, checkboxes, etc.</p>
+<p>In addition, the markdown preview that Dendron uses is platform agnostic (eg. it's also available on atom). This means that other editors could potentially adopt it as well.</p>
+<h3 id="vscode-snippets-are-not-working-in-frontmatter"><a aria-hidden="true" class="anchor-heading" href="#vscode-snippets-are-not-working-in-frontmatter"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>VSCode Snippets are not working in Frontmatter</h3>
+<p>The default snippets are scoped to markdown. You can create <a href="https://code.visualstudio.com/docs/editor/userdefinedsnippets#_create-your-own-snippets">global snippets</a> file to have snippets that work across all languages.</p>
+<h3 id="the-extension-dendron-markdown-preview-enhanced-took-a-very-long-time-to-complete-its-last-operation"><a aria-hidden="true" class="anchor-heading" href="#the-extension-dendron-markdown-preview-enhanced-took-a-very-long-time-to-complete-its-last-operation"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>The extension 'Dendron Markdown Preview Enhanced' took a very long time to complete its last operation</h3>
+<p>This is a known issue whenever we release a new version of the preview (mostly because its uncompressed javascript). Moving forward, we'll be removing the dependency on an external plugin and integrating Dendron's markdown features into vscode's native markdown preview in the near future.</p>
+<h3 id="i-want-to-push-all-my-note-to-my-git-repository-periodically"><a aria-hidden="true" class="anchor-heading" href="#i-want-to-push-all-my-note-to-my-git-repository-periodically"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>I want to push all my note to my git repository periodically</h3>
+<p>This can be done with some extensions that are external to Dendron such as:</p>
+<ol>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=zeitnergmbh.auto-git">autogit</a></li>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=vsls-contrib.gitdoc">gitdoc</a></li>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=ivangabriele.vscode-git-add-and-commit">text</a></li>
+</ol>
+<p>It is also described in our <a href="https://wiki.dendron.so/notes/692fa114-f798-467f-a0b9-3cccc327aa6f.html#automate-git-tasks,1:">tip</a> note.</p>
+<h3 id="dendron-11ty-package-version-is-confusing"><a aria-hidden="true" class="anchor-heading" href="#dendron-11ty-package-version-is-confusing"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Dendron 11ty Package Version is Confusing</h3>
+<p>Dendron 11ty used to be published outside of the monorepo and started with 1.x version whereas the monorepo started with 0.x .</p>
+<p>After we synced, we synced 11ty versioning and brought it down to 0.x. every minor release, we also publish the 1.x version of the 11ty package to make it consistent but during patch releases, we just keep the 0.x numbering. </p>
+<p>Its a bit of a hack and something that should go away in July 2021, when we switch to NextJs based publishing. </p>
+<h3 id="vscode-is-telling-me-i-have-to-authorize-dendron-to-run-some-code"><a aria-hidden="true" class="anchor-heading" href="#vscode-is-telling-me-i-have-to-authorize-dendron-to-run-some-code"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>VSCode is telling me I have to authorize Dendron to run some code</h3>
+<p>VSCode recently introduced a feature called <a href="https://code.visualstudio.com/docs/editor/workspace-trust"><strong><em>workspace trust</em></strong></a>, which lets you choose whether or not you trust a project folder in VSCode for automatic code execution.</p>
+<p>Since Dendron creates a workspace for your notes, VSCode is asking you if you trust the workspace Dendron just created for you.</p>
+<p>You can choose not to trust the workspace and be in <strong><em>restricted mode</em></strong>.</p>
+<p>You can still use all of Dendron's feature in restricted mode except <a href="https://wiki.dendron.so/notes/12551d19-04c2-4d26-ac1e-d23ff3181a9c.html">hooks</a>.</p>
+<h3 id="my-firewall-is-asking-if-i-wanted-to-open-new-ports-when-i-use-dendron-why-is-this"><a aria-hidden="true" class="anchor-heading" href="#my-firewall-is-asking-if-i-wanted-to-open-new-ports-when-i-use-dendron-why-is-this"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>My firewall is asking if I wanted to open new ports when I use Dendron. Why is this?</h3>
+<p>Dendron has a client-server architecture.</p>
+<p>The extension talks to a (local) express server for a lot of the features and this is why it's opening new ports.</p>
+<h3 id="how-do-i-setup-dendron-to-work-between-multiple-machines"><a aria-hidden="true" class="anchor-heading" href="#how-do-i-setup-dendron-to-work-between-multiple-machines"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>How do I setup Dendron to work between multiple machines?</h3>
+<p>See <a href="https://wiki.dendron.so/notes/8d3c8142-7481-40da-9a5c-69a3d4bab697.html#using-dendron-across-machines">Using Dendron Across Machines</a></p>
+<hr>
+<h2 id="children"><a aria-hidden="true" class="anchor-heading" href="#children"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Children</h2>
+<ol>
+<li><a href="https://wiki.dendron.so/notes/Pm2Cd7C03ECY9mbjFH9SA.html">Archive</a></li>
+</ol>
+<hr>
+<h2 id="backlinks"><a aria-hidden="true" class="anchor-heading" href="#backlinks"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Backlinks</h2>
+<ul>
+<li><a href="https://wiki.dendron.so">Dendron</a></li>
+<li><a href="https://wiki.dendron.so/notes/b33d1803-6e4e-418f-a269-c4d4bde967cf.html">Dendron Alternatives</a></li>
+</ul><span id="navId" data="683740e3-70ce-4a47-a1f4-1f140e80b558"></span>
+
+                
+      </section>
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+        <div class="thumbs feedback_trigger right-bottom"></div>
+
+        
+          <hr>
+          <footer>
+            
+            
+
+            
+              <div class="d-flex mt-2">
+              <p class="text-small text-grey-dk-000 mb-0 mr-2">
+                Page last modified: <span class="d-inline-block">8/21/2021</span>.
+              </p>
+            
+                
+                  <p class="text-small text-grey-dk-000 mb-0">
+                    <a href="https://github.com/dendronhq/dendron-site/edit/master/vault/dendron.faq.md" id="edit-this-page">Edit this page on GitHub</a>
+                  </p>
+                
+              </div>
+          </footer>
+        
+    </div>
+</div>
+
+
+  
+
+  <div class="search-overlay"></div>
+
+</div>
+
+</body>
+</html>

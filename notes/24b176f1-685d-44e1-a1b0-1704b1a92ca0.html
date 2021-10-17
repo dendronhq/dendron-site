@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+  
+  <title>Multi Vault - Dendron</title>
+  
+
+  <link
+    rel="shortcut icon"
+    href="https://wiki.dendron.so/favicon.ico"
+    type="image/x-icon"
+  />
+  <link
+    rel="stylesheet"
+    href="https://wiki.dendron.so/assets/css/just-the-docs-default.css"
+  />
+  <script
+    type="text/javascript"
+    src="https://wiki.dendron.so/assets/js/just-the-docs.js"
+  ></script>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.22.0/themes/prism.min.css"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css"
+    integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X"
+    crossorigin="anonymous"
+  />
+  <script
+    type="text/javascript"
+    src="https://wiki.dendron.so/assets/js/vendor/lunr.min.js"
+  ></script>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+   
+   
+  
+<meta name="description" content="Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.">
+<meta name="author" content="dendronhq">
+
+<link rel="canonical" href="https://wiki.dendron.so/notes/24b176f1-685d-44e1-a1b0-1704b1a92ca0.html">
+
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://wiki.dendron.so/notes/24b176f1-685d-44e1-a1b0-1704b1a92ca0.html">
+<meta property="og:description" content="Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.">
+<meta property="og:image" content="https://wiki.dendron.so/logo.png">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@dendronhq">
+<meta name="twitter:url" content="https://wiki.dendron.so/notes/24b176f1-685d-44e1-a1b0-1704b1a92ca0.html">
+<meta name="twitter:description" content="Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.">
+<meta name="twitter:image" content="https://wiki.dendron.so/logo.png">
+
+
+  <meta property="og:title" content="Multi Vault - Dendron" />
+  <meta name="twitter:title" content="Multi Vault - Dendron" />
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-B0JN2HHCNY"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-B0JN2HHCNY');
+  </script>
+  
+</head>
+
+
+
+<body>
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+      <symbol id="svg-link" viewBox="0 0 24 24">
+        <title>Link</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-link">
+          <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+        </svg>
+      </symbol>
+      <symbol id="svg-search" viewBox="0 0 24 24">
+        <title>Search</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search">
+          <circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+      </symbol>
+      <symbol id="svg-menu" viewBox="0 0 24 24">
+        <title>Menu</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu">
+          <line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+      </symbol>
+      <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+        <title>Expand</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+          <polyline points="9 18 15 12 9 6"></polyline>
+        </svg>
+      </symbol>
+      <symbol id="svg-doc" viewBox="0 0 24 24">
+        <title>Document</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file">
+          <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path><polyline points="13 2 13 9 20 9"></polyline>
+        </svg>
+      </symbol>
+    </svg>
+
+    <div class="side-bar">
+      <div class="site-header">
+        <a href="https://wiki.dendron.so" class="site-title lh-tight">
+  <div class="site-logo"></div>
+
+ </a>
+        <a href="#" id="menu-button" class="site-button">
+          <svg viewBox="0 0 24 24" class="icon"><use xlink:href="#svg-menu"></use></svg>
+        </a>
+      </div>
+
+      <nav role="navigation" aria-label="Main" id="site-nav" class="site-nav">
+      </nav>
+      <footer class="site-footer">
+        🌱 with 💕 using <a href="https://www.dendron.so/"> Dendron 🌲 </a>
+      </footer>
+    </div>
+    <div class="main" id="top">
+        <div id="main-header" class="main-header">
+          
+            <div class="search">
+              <div class="search-input-wrap">
+                <input type="text" id="search-input" class="search-input" tabindex="0" placeholder="Search Dendron" aria-label="Search Dendron" autocomplete="off">
+                <label for="search-input" class="search-label"><svg viewBox="0 0 24 24" class="search-icon"><use xlink:href="#svg-search"></use></svg></label>
+              </div>
+              <div id="search-results" class="search-results"></div>
+            </div>
+          
+          
+    </div>
+    <div id="main-content-wrap" class="main-content-wrap">
+      
+        
+          <nav aria-label="Breadcrumb" class="breadcrumb-nav">
+            <ol class="breadcrumb-nav-list"><li class="breadcrumb-nav-list-item"><a href="https://wiki.dendron.so">Dendron</a></li><li class="breadcrumb-nav-list-item"><a href="https://wiki.dendron.so/notes/7a7af2fa-b9d0-4adc-81e6-f03186123539.html">Topics</a></li><li class="breadcrumb-nav-list-item"><a href="https://wiki.dendron.so/notes/6682fca0-65ed-402c-8634-94cd51463cc4.html">Vaults</a></li><li class="breadcrumb-nav-list-item">Multi Vault</li></ol>
+          </nav>
+        
+      
+      <div id="main-content" class="main-content" role="main">
+
+        
+        
+        <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+        <script>mermaid.initialize({startOnLoad:true});</script>
+        
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+        
+        
+
+        
+
+        
+
+        
+
+        <script>
+          $(function () {
+            $('[data-toggle="popover"]').popover({html: true})
+          })
+        </script>
+
+        
+
+<div id="main" role="main">
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Multi Vault">
+    
+    <meta itemprop="datePublished" content="2020-11-17T16:26:23+00:00">
+    <meta itemprop="dateModified" content="2021-07-30T15:54:25+00:00">
+
+    <div class="page__inner-wrap">
+
+      
+
+      <section class="page__content" itemprop="text">
+
+        
+
+        <h1 id="multi-vault"><a aria-hidden="true" class="anchor-heading" href="#multi-vault"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Multi Vault</h1>
+<h2 id="summary"><a aria-hidden="true" class="anchor-heading" href="#summary"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Summary</h2>
+<p>Multi vault refers to managing multiple <a href="https://wiki.dendron.so/notes/c6fd6bc4-7f75-4cbb-8f34-f7b99bfe2d50.html#vaults">vaults</a> within your workspace.</p>
+<h2 id="use-cases"><a aria-hidden="true" class="anchor-heading" href="#use-cases"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Use Cases</h2>
+<ul>
+<li>for <strong>sensitive notes</strong>, multi-vault enables local only vaults vs vaults that can be synced on file sharing services like Dropbox</li>
+<li>for <strong>modularizing knowledge</strong>, multi-vault enables users to mix and match existing vaults depending on context</li>
+<li>for <strong>federating and curating knowledge</strong>, multi-vault enables users to publish/subscribe to public vaults using protocols like <code>git</code></li>
+<li>for <strong>access control</strong>, multi-vault lets users configure specific vaults to be <strong>private</strong> which turns off publication and sharing of any notes inside said vault</li>
+</ul>
+<h2 id="topics"><a aria-hidden="true" class="anchor-heading" href="#topics"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Topics</h2>
+<h3 id="lookup"><a aria-hidden="true" class="anchor-heading" href="#lookup"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Lookup</h3>
+<p>Lookup supports multiple vaults. When using lookup to find a note, each search result is labeled with which vault it belongs to.</p>
+<p><img src="https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/roots.jpg"></p>
+<h4 id="vault-location-when-creating-a-note"><a aria-hidden="true" class="anchor-heading" href="#vault-location-when-creating-a-note"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Vault Location when Creating a Note</h4>
+<p>When creating a note in lookup, Dendron will try to create your note in the correct vault. By default, it will place the note into the same vault as the currently opened note. But if it detects that the new note matches an existing hierarchy in a different vault, you will get prompted to pick the destination vault:</p>
+<p><img src="https://org-dendron-public-assets.s3.amazonaws.com/images/create-note-multi-vault-selection.png"></p>
+<h4 id="prompt-for-vault-selection-each-time"><a aria-hidden="true" class="anchor-heading" href="#prompt-for-vault-selection-each-time"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Prompt for Vault Selection Each Time</h4>
+<p></p><p></p><div class="portal-container">
+<div class="portal-head">
+<div class="portal-backlink">
+<div class="portal-title">From <span class="portal-text-title">Dendrons Config</span></div>
+<a href="https://wiki.dendron.so/notes/f83c1d87-eac0-48f3-a5cf-8a69989d8ec1.html" class="portal-arrow">Go to text <span class="right-arrow">→</span></a>
+</div>
+</div>
+<div id="portal-parent-anchor" class="portal-parent" markdown="1">
+<div class="portal-parent-fader-top"></div>
+<div class="portal-parent-fader-bottom"></div><h3 id="lookupconfirmvaultoncreate"><a aria-hidden="true" class="anchor-heading" href="#lookupconfirmvaultoncreate"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>lookupConfirmVaultOnCreate</h3>
+<blockquote>
+<p>This setting is scheduled for deprecation 📆 </p>
+<p>Use <a href="https://wiki.dendron.so/notes/F9LWJEjscrGkxnYi2JNby.html#confirmvaultoncreate">confirmVaultOnCreate</a> instead.</p>
+</blockquote>
+<p>With this set, you will be prompted to select the vault location each time you create a note when you have multiple vaults in your workspace.</p>
+</div></div><p></p><p></p>
+<p>To enable,  add <code>lookupConfirmVaultOnCreate: true</code> in the dendron configuration. Instructions to do so below.</p>
+<ol>
+<li>
+<blockquote>
+<p>Dendron: Configure (yaml)</p>
+</blockquote>
+</li>
+<li>add <code>lookupConfirmVaultOnCreate: true</code> so your configuration looks like the following:</li>
+</ol>
+<pre class="language-yml"><code class="language-yml"><span class="token key atrule">version</span><span class="token punctuation">:</span> <span class="token number">0</span>
+<span class="token punctuation">...</span>
+<span class="token key atrule">lookupConfirmVaultOnCreate</span><span class="token punctuation">:</span> <span class="token boolean important">true</span>
+</code></pre>
+<h3 id="navigating-links"><a aria-hidden="true" class="anchor-heading" href="#navigating-links"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Navigating Links</h3>
+<ul>
+<li>Sample workspace</li>
+</ul>
+<p></p><p></p><div class="portal-container">
+<div class="portal-head">
+<div class="portal-backlink">
+<div class="portal-title">From <span class="portal-text-title">Multi Vault Support</span></div>
+<a href="https://wiki.dendron.so/notes/45cfb9f2-46cf-4f67-a41e-834818fbd06e.html" class="portal-arrow">Go to text <span class="right-arrow">→</span></a>
+</div>
+</div>
+<div id="portal-parent-anchor" class="portal-parent" markdown="1">
+<div class="portal-parent-fader-top"></div>
+<div class="portal-parent-fader-bottom"></div><pre><code>.
+└── Dendron
+    |── .git
+    |── dendron.code-workspace
+    |── dendron.yml
+    |── pods
+    |── docs
+    ├── vault1
+    │   |── .git
+    │   ├── foo.md
+    │   └── foo.two.md
+    └── vault2
+        |── .git
+        ├── foo.md
+        └── foo.one.md
+</code></pre>
+<!-- ```
+.
+└── Dendron
+    ├── config
+    │   |── .git
+    │   |── dendron.code-workspace
+    │   └── dendron.yml
+    │   └── pods
+    │   └── docs
+    ├── vault1
+    │   |── .git
+    │   ├── foo.md
+    │   └── foo.two.md
+    └── vault2
+        |── .git
+        ├── foo.md
+        └── foo.one.md
+``` -->
+</div></div><p></p><p></p>
+<ul>
+<li>navigating  to <code>[[foo]]</code> will result in a display prompting the user to select the vault to navigate to </li>
+<li>navigating to <code>[[foo.two]]</code> will directly navigate to the note since it is unique across all vaults</li>
+<li>navigating to <code>[[vault1/foo]]</code> will open <code>foo</code> in vault1 </li>
+<li>navigating to <code>[[dendron://vault2/foo]]</code> will open <code>foo</code> in vault1</li>
+</ul>
+<h3 id="note-references"><a aria-hidden="true" class="anchor-heading" href="#note-references"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Note References</h3>
+<p>When you make a reference, Dendron will include the note from the same note. You can create a reference to a note in a different vault by using <a href="https://wiki.dendron.so/notes/3472226a-ff3c-432d-bf5d-10926f39f6c2.html#cross-vault-links">cross vault links</a>.</p>
+<h3 id="publishing"><a aria-hidden="true" class="anchor-heading" href="#publishing"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Publishing</h3>
+<p>You can publish from a multi-vault enabled workspace if you are using <a href="https://wiki.dendron.so/notes/53dd4b9b-d3a7-4398-9511-b7a281039f9d.html">dendron-11ty</a> to publish. </p>
+<p>We have added a new configuration, <code>duplicateNoteBehavior</code>, which <a href="https://wiki.dendron.so/notes/f2ed8639-a604-4a9d-b76c-41e205fb8713.html#duplicatenotebehavior-optional">controls</a> how Dendron handles duplicate notes across multiple vaults.</p>
+<h3 id="version-control"><a aria-hidden="true" class="anchor-heading" href="#version-control"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Version Control</h3>
+<p>For multi-vault, there are several approaches to version control. If you are using Git, you can either commit everything as one repo or version control your workspace and each vault separately as distinct repos.</p>
+<p>If you use <code>Vault: Add</code> with a remote vault, Dendron will automatically add the remote properties to your <code>dendron.yml</code> file. See example below.</p>
+<p></p><p></p><div class="portal-container">
+<div class="portal-head">
+<div class="portal-backlink">
+<div class="portal-title">From <span class="portal-text-title">Vaults</span></div>
+<a href="https://wiki.dendron.so/notes/6682fca0-65ed-402c-8634-94cd51463cc4.html" class="portal-arrow">Go to text <span class="right-arrow">→</span></a>
+</div>
+</div>
+<div id="portal-parent-anchor" class="portal-parent" markdown="1">
+<div class="portal-parent-fader-top"></div>
+<div class="portal-parent-fader-bottom"></div><pre class="language-yml"><code class="language-yml"><span class="token key atrule">vaults</span><span class="token punctuation">:</span>
+    <span class="token punctuation">-</span>
+        <span class="token key atrule">fsPath</span><span class="token punctuation">:</span> handbook<span class="token punctuation">-</span>vault
+        <span class="token key atrule">workspace</span><span class="token punctuation">:</span> handbook<span class="token punctuation">-</span>workspace
+        <span class="token key atrule">name</span><span class="token punctuation">:</span> handbook
+<span class="token key atrule">workspaces</span><span class="token punctuation">:</span>
+    <span class="token key atrule">handbook</span><span class="token punctuation">:</span>
+        <span class="token key atrule">remote</span><span class="token punctuation">:</span>
+            <span class="token key atrule">type</span><span class="token punctuation">:</span> git
+            <span class="token key atrule">url</span><span class="token punctuation">:</span> <span class="token string">'git@github.com:dendronhq/handbook.git'</span>
+
+</code></pre>
+<p>This will have the following file layout</p>
+<pre><code>.
+└── workspace
+    └── handbook-workspace
+        └── handbook-vault
+
+</code></pre></div></div><p></p><p></p>
+<p>Versioned controlled vaults will be auto-initialized when someone pulls in the workspace. </p>
+<p>If you want to convert a local vault to a remote vault, you can follow the instructions <a href="https://wiki.dendron.so/notes/401c5889-20ae-4b3a-8468-269def4b4865.html#convert-local-vault-to-a-remote-vault">here</a>.</p>
+<h4 id="file-layout-for-multi-vault-workspace"><a aria-hidden="true" class="anchor-heading" href="#file-layout-for-multi-vault-workspace"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>File Layout for Multi-Vault Workspace</h4>
+<pre><code>.
+└── Dendron
+    ├── .git
+    ├── dendron.code-workspace
+    ├── dendron.yml
+    ├── ...
+    ├── vault1
+    │   ├── .git
+    │   ├── root.md
+    │   └── ...
+    └── vault2
+        ├── .git
+        ├── root.md
+        └── ...
+</code></pre>
+<h2 id="examples"><a aria-hidden="true" class="anchor-heading" href="#examples"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Examples</h2>
+<ul>
+<li>Sample Multi-Vault workspace</li>
+</ul>
+<h2 id="related"><a aria-hidden="true" class="anchor-heading" href="#related"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Related</h2>
+<ul>
+<li><a href="https://wiki.dendron.so/notes/3472226a-ff3c-432d-bf5d-10926f39f6c2.html#cross-vault-links">Cross Vault Links</a></li>
+<li><a href="https://wiki.dendron.so/notes/8d3c8142-7481-40da-9a5c-69a3d4bab697.html#using-dendron-across-machines">Using Dendron Across Machines</a></li>
+</ul>
+<hr>
+<h2 id="backlinks"><a aria-hidden="true" class="anchor-heading" href="#backlinks"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Backlinks</h2>
+<ul>
+<li><a href="https://wiki.dendron.so/notes/683740e3-70ce-4a47-a1f4-1f140e80b558.html">FAQ</a></li>
+<li><a href="https://wiki.dendron.so/notes/8d3c8142-7481-40da-9a5c-69a3d4bab697.html">Best Practices</a></li>
+<li><a href="https://wiki.dendron.so/notes/032e4abc-f292-465f-9b6a-5a1360c2c974.html">Intellisense</a></li>
+<li><a href="https://wiki.dendron.so/notes/42e90950-38c4-4869-9f3c-ddd84f7ac7eb.html">Release Notes(version 0.19)</a></li>
+<li><a href="https://wiki.dendron.so/notes/44fd6c57-b7f4-47f5-a632-d352d4f4fa7b.html">Release Notes(version 0.20)</a></li>
+<li><a href="https://wiki.dendron.so/notes/e543ad13-1108-448c-b3a6-9976fd7a65ce.html">Release Notes(version 0.21)</a></li>
+<li><a href="https://wiki.dendron.so/notes/1dad9378-8fcf-4859-bede-cc44279ba12d.html">Release Notes (version 0.31)</a></li>
+<li><a href="https://wiki.dendron.so/notes/23a1b942-99af-45c8-8116-4f4bb7dccd21.html">Dendron CLI</a></li>
+<li><a href="https://wiki.dendron.so/notes/eea2b078-1acc-4071-a14e-18299fc28f47.html">Commands</a></li>
+<li><a href="https://wiki.dendron.so/notes/3472226a-ff3c-432d-bf5d-10926f39f6c2.html">Links</a></li>
+<li><a href="https://wiki.dendron.so/notes/ed4162aa-5474-4483-9fbc-c0b505310c59.html">0.1.X</a></li>
+<li><a href="https://wiki.dendron.so/notes/0eq1mz_b-gpdSZVJqruOg.html">0 2 X</a></li>
+<li><a href="https://wiki.dendron.so/notes/icBBwbAFLyjsRLheSJkAp.html">0 3 X</a></li>
+<li><a href="https://wiki.dendron.so/notes/Tf4vuVLV3rSdpzD8la9FP.html">0 5 X</a></li>
+<li><a href="https://wiki.dendron.so/notes/0e57f8d1-e501-49db-974c-01eb64c20c22.html">Creating Notes</a></li>
+</ul><span id="navId" data="24b176f1-685d-44e1-a1b0-1704b1a92ca0"></span>
+
+                
+      </section>
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+        <div class="thumbs feedback_trigger right-bottom"></div>
+
+        
+          <hr>
+          <footer>
+            
+            
+
+            
+              <div class="d-flex mt-2">
+              <p class="text-small text-grey-dk-000 mb-0 mr-2">
+                Page last modified: <span class="d-inline-block">7/30/2021</span>.
+              </p>
+            
+                
+                  <p class="text-small text-grey-dk-000 mb-0">
+                    <a href="https://github.com/dendronhq/dendron-site/edit/master/vault/dendron.topic.vaults.multi-vault.md" id="edit-this-page">Edit this page on GitHub</a>
+                  </p>
+                
+              </div>
+          </footer>
+        
+    </div>
+</div>
+
+
+  
+
+  <div class="search-overlay"></div>
+
+</div>
+
+</body>
+</html>

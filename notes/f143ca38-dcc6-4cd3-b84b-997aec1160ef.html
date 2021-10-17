@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+  
+  <title>Rfc - Dendron</title>
+  
+
+  <link
+    rel="shortcut icon"
+    href="https://wiki.dendron.so/favicon.ico"
+    type="image/x-icon"
+  />
+  <link
+    rel="stylesheet"
+    href="https://wiki.dendron.so/assets/css/just-the-docs-default.css"
+  />
+  <script
+    type="text/javascript"
+    src="https://wiki.dendron.so/assets/js/just-the-docs.js"
+  ></script>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.22.0/themes/prism.min.css"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css"
+    integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X"
+    crossorigin="anonymous"
+  />
+  <script
+    type="text/javascript"
+    src="https://wiki.dendron.so/assets/js/vendor/lunr.min.js"
+  ></script>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+   
+   
+  
+<meta name="description" content="Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.">
+<meta name="author" content="dendronhq">
+
+<link rel="canonical" href="https://wiki.dendron.so/notes/f143ca38-dcc6-4cd3-b84b-997aec1160ef.html">
+
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://wiki.dendron.so/notes/f143ca38-dcc6-4cd3-b84b-997aec1160ef.html">
+<meta property="og:description" content="Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.">
+<meta property="og:image" content="https://wiki.dendron.so/logo.png">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@dendronhq">
+<meta name="twitter:url" content="https://wiki.dendron.so/notes/f143ca38-dcc6-4cd3-b84b-997aec1160ef.html">
+<meta name="twitter:description" content="Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.">
+<meta name="twitter:image" content="https://wiki.dendron.so/logo.png">
+
+
+  <meta property="og:title" content="Rfc - Dendron" />
+  <meta name="twitter:title" content="Rfc - Dendron" />
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-B0JN2HHCNY"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-B0JN2HHCNY');
+  </script>
+  
+</head>
+
+
+
+<body>
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+      <symbol id="svg-link" viewBox="0 0 24 24">
+        <title>Link</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-link">
+          <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+        </svg>
+      </symbol>
+      <symbol id="svg-search" viewBox="0 0 24 24">
+        <title>Search</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search">
+          <circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+      </symbol>
+      <symbol id="svg-menu" viewBox="0 0 24 24">
+        <title>Menu</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu">
+          <line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+      </symbol>
+      <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+        <title>Expand</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+          <polyline points="9 18 15 12 9 6"></polyline>
+        </svg>
+      </symbol>
+      <symbol id="svg-doc" viewBox="0 0 24 24">
+        <title>Document</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file">
+          <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path><polyline points="13 2 13 9 20 9"></polyline>
+        </svg>
+      </symbol>
+    </svg>
+
+    <div class="side-bar">
+      <div class="site-header">
+        <a href="https://wiki.dendron.so" class="site-title lh-tight">
+  <div class="site-logo"></div>
+
+ </a>
+        <a href="#" id="menu-button" class="site-button">
+          <svg viewBox="0 0 24 24" class="icon"><use xlink:href="#svg-menu"></use></svg>
+        </a>
+      </div>
+
+      <nav role="navigation" aria-label="Main" id="site-nav" class="site-nav">
+      </nav>
+      <footer class="site-footer">
+        🌱 with 💕 using <a href="https://www.dendron.so/"> Dendron 🌲 </a>
+      </footer>
+    </div>
+    <div class="main" id="top">
+        <div id="main-header" class="main-header">
+          
+            <div class="search">
+              <div class="search-input-wrap">
+                <input type="text" id="search-input" class="search-input" tabindex="0" placeholder="Search Dendron" aria-label="Search Dendron" autocomplete="off">
+                <label for="search-input" class="search-label"><svg viewBox="0 0 24 24" class="search-icon"><use xlink:href="#svg-search"></use></svg></label>
+              </div>
+              <div id="search-results" class="search-results"></div>
+            </div>
+          
+          
+    </div>
+    <div id="main-content-wrap" class="main-content-wrap">
+      
+        
+          <nav aria-label="Breadcrumb" class="breadcrumb-nav">
+            <ol class="breadcrumb-nav-list"><li class="breadcrumb-nav-list-item"><a href="https://wiki.dendron.so">Dendron</a></li><li class="breadcrumb-nav-list-item">Rfc</li></ol>
+          </nav>
+        
+      
+      <div id="main-content" class="main-content" role="main">
+
+        
+        
+        <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+        <script>mermaid.initialize({startOnLoad:true});</script>
+        
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+        
+        
+
+        
+
+        
+
+        
+
+        <script>
+          $(function () {
+            $('[data-toggle="popover"]').popover({html: true})
+          })
+        </script>
+
+        
+
+<div id="main" role="main">
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Rfc">
+    
+    <meta itemprop="datePublished" content="2020-11-16T15:05:11+00:00">
+    <meta itemprop="dateModified" content="2021-09-21T05:21:10+00:00">
+
+    <div class="page__inner-wrap">
+
+      
+
+      <section class="page__content" itemprop="text">
+
+        
+
+        <h1 id="rfc"><a aria-hidden="true" class="anchor-heading" href="#rfc"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Rfc</h1>
+<p>This is the place to propose and track major upcoming changes to Dendron and
+other related projects. It also is a great place to learn about the current and
+future state of the system and to discover projects for contribution.</p>
+<p><strong>Jump to</strong>: <a href="#what-is-an-rfc">What is an RFC?</a> |
+<a href="#when-to-submit-an-rfc">When to submit?</a> | <a href="#rfc-states">RFC States</a> |</p>
+<!--BEGIN_TABLE-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Status</th><th>Title</th><th>Owner</th></tr></thead><tbody><tr><td>✅ done</td><td><a href="https://wiki.dendron.so/notes/c998c642-a748-4f77-9285-cfec35330251.html">7 - Graph Rework</a></td><td><a href="https://github.com/hfellerhoff"></a><a title="Private" style="color: brown" href="https://wiki.dendron.so/notes/hfyvYGJZQiUwQaaxQO27q.html" target="_blank">@HFellerhoff (Private)</a></td></tr><tr><td>✅ done</td><td><a href="https://wiki.dendron.so/notes/95f7193b-9940-42ba-841f-3e2a4d937ba3.html">10 - Block References</a></td><td><a href="https://github.com/SeriousBug"></a><a title="Private" style="color: brown" href="https://wiki.dendron.so/notes/hfyvYGJZQiUwQaaxQO27q.html" target="_blank">@SeriousBug (Private)</a></td></tr><tr><td>✅ done</td><td><a href="https://wiki.dendron.so/notes/17c61d62-f92e-4002-b8fe-9c05686e4bf9.html">1 - Native Preview Experience</a></td><td><a href="https://github.com/kevinslin"></a><a title="Private" style="color: brown" href="https://wiki.dendron.so/notes/hfyvYGJZQiUwQaaxQO27q.html" target="_blank">@kevin (Private)</a></td></tr><tr><td>✅ done</td><td><a href="https://wiki.dendron.so/notes/NT1cFX6DRkTnzcWwduj2I.html">16 - Better Tags</a></td><td><a href="https://github.com/SeriousBug"></a><a title="Private" style="color: brown" href="https://wiki.dendron.so/notes/hfyvYGJZQiUwQaaxQO27q.html" target="_blank">@SeriousBug (Private)</a></td></tr><tr><td>1️⃣ phase one done</td><td><a href="https://wiki.dendron.so/notes/ba8cf4c5-6254-4eca-8072-8001ca5afda7.html">11 - Better Tree View</a></td><td><a href="https://github.com/kevinslin"></a><a title="Private" style="color: brown" href="https://wiki.dendron.so/notes/hfyvYGJZQiUwQaaxQO27q.html" target="_blank">@kevin (Private)</a></td></tr><tr><td>1️⃣ phase one done</td><td><a href="https://wiki.dendron.so/notes/4039fc46-06b2-4f83-b817-fc490bafbcb3.html">14 - Seed Registry</a></td><td><a href="https://github.com/kevinslin"></a><a title="Private" style="color: brown" href="https://wiki.dendron.so/notes/hfyvYGJZQiUwQaaxQO27q.html" target="_blank">@kevin (Private)</a></td></tr><tr><td>1️⃣ phase one done</td><td><a href="https://wiki.dendron.so/notes/6TOh3VApIUfap7c3.html">18 - Add Note Index</a></td><td><a href="https://github.com/cerebrarium"></a><a title="Private" style="color: brown" href="https://wiki.dendron.so/notes/hfyvYGJZQiUwQaaxQO27q.html" target="_blank">@hikchoi (Private)</a></td></tr><tr><td>1️⃣ phase one done</td><td><a href="https://wiki.dendron.so/notes/d2f8fe67-36c7-4600-b745-c22bdcb5b2cf.html">9 - Note Lifecycle Plugins</a></td><td><a href="https://github.com/kevinslin"></a><a title="Private" style="color: brown" href="https://wiki.dendron.so/notes/hfyvYGJZQiUwQaaxQO27q.html" target="_blank">@kevin (Private)</a></td></tr><tr><td>1️⃣ phase one done</td><td><a href="https://wiki.dendron.so/notes/ae4a0c98-e2ea-47e0-8a20-016eba3424be.html">2 - Managed Publishing</a></td><td><a href="https://github.com/kevinslin"></a><a title="Private" style="color: brown" href="https://wiki.dendron.so/notes/hfyvYGJZQiUwQaaxQO27q.html" target="_blank">@kevin (Private)</a></td></tr><tr><td>👷 implementing</td><td><a href="https://wiki.dendron.so/notes/O4f9yfDoO7E7gRRDeBeCh.html">22 - Queries</a></td><td><a href="https://github.com/SeriousBug"></a><a title="Private" style="color: brown" href="https://wiki.dendron.so/notes/hfyvYGJZQiUwQaaxQO27q.html" target="_blank">@SeriousBug (Private)</a></td></tr><tr><td>👩‍🌾 community issue</td><td><a href="https://wiki.dendron.so/notes/X2Zn2H89eBZrsj7Of8LLm.html">20 - Integrated Space Repetition</a></td><td><a href="https://github.com/kevinslin"></a><a title="Private" style="color: brown" href="https://wiki.dendron.so/notes/hfyvYGJZQiUwQaaxQO27q.html" target="_blank">@kevin (Private)</a></td></tr><tr><td>💡 proposed</td><td><a href="https://wiki.dendron.so/notes/8bc80164-6436-4c77-8077-7842f53a4a23.html">12 - Schema Improvements</a></td><td><a href="https://github.com/kevinslin"></a><a title="Private" style="color: brown" href="https://wiki.dendron.so/notes/hfyvYGJZQiUwQaaxQO27q.html" target="_blank">@kevin (Private)</a></td></tr><tr><td>💡 proposed</td><td><a href="https://wiki.dendron.so/notes/ceca23ee-6181-4fa6-9724-9943433c6e96.html">3 - Standalone Vaults</a></td><td><a href="https://github.com/kevinslin"></a><a title="Private" style="color: brown" href="https://wiki.dendron.so/notes/hfyvYGJZQiUwQaaxQO27q.html" target="_blank">@kevin (Private)</a></td></tr><tr><td>💡 proposed</td><td><a href="https://wiki.dendron.so/notes/7117a023-f090-47f5-a104-5968fc256c23.html">4 - Richer Templating</a></td><td><a href="https://github.com/kevinslin"></a><a title="Private" style="color: brown" href="https://wiki.dendron.so/notes/hfyvYGJZQiUwQaaxQO27q.html" target="_blank">@kevin (Private)</a></td></tr><tr><td>💡 proposed</td><td><a href="https://wiki.dendron.so/notes/21b2e152-95f7-4904-8a8e-8d4d0b8c950c.html">5 - Publishing Registry</a></td><td><a href="https://github.com/kevinslin"></a><a title="Private" style="color: brown" href="https://wiki.dendron.so/notes/hfyvYGJZQiUwQaaxQO27q.html" target="_blank">@kevin (Private)</a></td></tr><tr><td>💡 proposed</td><td><a href="https://wiki.dendron.so/notes/d7597569-e3dd-4e56-b719-0f97f8e93030.html">6 - Design System</a></td><td><a href="https://github.com/kevinslin"></a><a title="Private" style="color: brown" href="https://wiki.dendron.so/notes/hfyvYGJZQiUwQaaxQO27q.html" target="_blank">@kevin (Private)</a></td></tr><tr><td>💡 proposed</td><td><a href="https://wiki.dendron.so/notes/8b3bfb16-8330-4a78-85cc-45581c319450.html">8 - Multi-publish</a></td><td><a href="https://github.com/kevinslin"></a><a title="Private" style="color: brown" href="https://wiki.dendron.so/notes/hfyvYGJZQiUwQaaxQO27q.html" target="_blank">@kevin (Private)</a></td></tr><tr><td>💡 proposed</td><td><a href="https://wiki.dendron.so/notes/X2Zn2H89eBZrsj7Of8LLm.html#why">20 - Integrated Space Repetition</a></td><td><a href="https://github.com/imalightbulb"></a><a title="Private" style="color: brown" href="https://wiki.dendron.so/notes/hfyvYGJZQiUwQaaxQO27q.html" target="_blank">@imalightbulb (Private)</a></td></tr><tr><td>💡 proposed</td><td><a href="https://wiki.dendron.so/notes/o5AQmw9bsPQspYuTjdmnK.html">28 - Notifications</a></td><td><a href="https://github.com/SeriousBug"></a><a title="Private" style="color: brown" href="https://wiki.dendron.so/notes/hfyvYGJZQiUwQaaxQO27q.html" target="_blank">@SeriousBug (Private)</a></td></tr><tr><td>💡 proposed</td><td><a href="https://wiki.dendron.so/notes/716e2699-42e1-44bd-9b97-124f03173ddc.html">13 - Todo Notes</a></td><td><a href="https://github.com/kevinslin"></a><a title="Private" style="color: brown" href="https://wiki.dendron.so/notes/hfyvYGJZQiUwQaaxQO27q.html" target="_blank">@kevin (Private)</a></td></tr><tr><td>draft</td><td><a href="">Browser Based Dendron</a></td><td><a href="https://github.com/kpathakota"></a><a title="Private" style="color: brown" href="https://wiki.dendron.so/notes/hfyvYGJZQiUwQaaxQO27q.html" target="_blank">@kpats (Private)</a></td></tr></tbody></table>
+<h2 id="what-is-an-rfc"><a aria-hidden="true" class="anchor-heading" href="#what-is-an-rfc"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>What is an RFC?</h2>
+<p>An RFC is a document that proposes and details a change or addition to Dendron
+and other related tooling. It is also a process for reviewing and discussing the
+proposal and tracking its implementation. "Request for Comments" means a request
+for discussion and oversight about the future of Dendron from contributors and
+users. It is an open forum for suggestions, questions, and feedback.</p>
+<p>The process is intended to be as lightweight and reasonable as possible for the
+present circumstances. As usual, we are trying to let the process be driven by
+consensus and community norms, not impose more structure than necessary.</p>
+<p>The RFC process itself is subject to changes as dictated by the core team and
+the community. Proposals can include proposed changes to the RFC process itself
+to better serve contributors.</p>
+<h2 id="when-to-submit-an-rfc"><a aria-hidden="true" class="anchor-heading" href="#when-to-submit-an-rfc"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>When to submit an RFC?</h2>
+<p>You should consider using this process if you intend to make "substantial"
+changes to <a href="https://github.com/dendronhq/dendron">Dendron</a> or related tools.
+Some examples that would benefit from an RFC are:</p>
+<ul>
+<li>Major new features where the desired exprience is ambiguous.</li>
+<li>Any change to existing APIs that could break existing code.</li>
+<li>The removal of existing features or public APIs.</li>
+<li>Changes to the documented contribution workflow.</li>
+<li>Features that cross multiple construct libraries.</li>
+<li>Additions or changes to framework capabilities.</li>
+</ul>
+<p>The RFC process is a great opportunity to get more eyeballs on your proposal
+before it becomes a part of a released version of Dendron. Quite often, even
+proposals that seem "obvious" can be significantly improved once a wider group
+of interested people have a chance to weigh in.</p>
+<p>The RFC process can also be helpful to encourage discussions about a proposed
+feature as it is being designed, and incorporate important constraints into the
+design while it's easier to change, before the design has been fully
+implemented.</p>
+<p>If you submit a pull request to implement a new major feature without going
+through the RFC process, it may be closed with a polite request to submit an RFC
+first.</p>
+<p>Some changes do not require an RFC:</p>
+<ul>
+<li>Bugfixes for known issues.</li>
+<li>Additions only likely to be <em>noticed by</em> other developers of Dendron, invisible
+to end product users.</li>
+</ul>
+<p>If you're not sure whether your change requires an RFC, feel free to create an
+issue and ask.</p>
+<h2 id="rfc-process"><a aria-hidden="true" class="anchor-heading" href="#rfc-process"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>RFC Process</h2>
+<p>In short, to get a major feature added to Dendron, one usually writes an RFC as
+a markdown file and gets it approved and mergd into the Dendron-site. At that
+point the RFC is 'in review' and may be implemented.</p>
+<ol>
+<li><a href="https://github.com/dendronhq/dendron/issues/new?assignees=&#x26;labels=&#x26;template=work-item.md&#x26;title=">Create a <strong>tracking issue</strong></a>
+for the proposed feature if one doesn't already exist. If a tracking issue
+already exists, make sure to update it and assign it to let others know
+you're working on a proposal. tracking issue number and <code>&#x3C;my-feature></code> is the
+rfc title.</li>
+<li>Fill in an RFC under the rfc.* hierarchy on dendron-site.  Use the <a href="https://wiki.dendron.so/notes/eb60689e-66e2-490c-9f40-6c9c42a783a2.html">Rfc template</a> when creating a RFC. We recommend that you add this repository to your workspace by following the instructions <a href="https://wiki.dendron.so/notes/7XlJ3dRf_3z2GMP9_MC7q.html#adding-a-seed-to-an-existing-workspace">here</a>.</li>
+<li>Submit a <strong>pull request</strong> with the title <code>RFC: ### &#x3C;title></code> where ### is the
+tracking issue number and title is the name of the proposal. As a pull
+request the RFC will receive design feedback from the core team and the
+larger community, and the author should be prepared to make revisions in
+response.</li>
+<li>Update the tracking issue with a link to the RFC PR.</li>
+<li><a aria-hidden="true" class="block-anchor anchor-heading" id="^Y6KpVpRVS0S9" href="#^Y6KpVpRVS0S9"><svg viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a><strong>Promote</strong> your RFC amongst stakeholders via Discord. Build consensus and integrate feedback. RFCs that have broad support are much more likely to make progress than those that don't receive any comments. </li>
+<li>Eventually, the team will decide whether the RFC is a candidate for inclusion
+in a future release of Dendron.</li>
+<li>RFCs that are candidates for inclusion will enter a "<strong>final comment
+period</strong>" lasting 3 calendar days. The beginning of this period will be
+signaled by a team member adding a comment and label on the RFCs pull
+request.</li>
+<li>An RFC can be modified based upon feedback from the team and community.
+Significant modifications may trigger a new final comment period. An RFC can
+also be modified after it has been merged and approved, in which case a new
+PR will be submitted with the modification, like any other code.</li>
+<li>An RFC may be <strong>rejected</strong> by the team after public discussion has settled
+and comments have been made summarizing the rationale for rejection. A member
+of the team will then close the PR and issue.</li>
+<li>An RFC may be <strong>accepted</strong> at the close of its final comment period. A team
+member will merge the RFCs associated pull request, at which point the RFC
+will become 'approved'.</li>
+<li>At some point, someone will pick up the RFC for implementation. For major
+features this usually requires devising a detailed implementation plan. To
+that end, submit an <strong>additional PR</strong> on the RFC doc that either fills in
+the "Implementation Plan" section or references a separate document or
+GitHub Project Board which includes the plan.</li>
+<li>Once this PR is approved, the RFC will move to the 'implementing' state.
+Usually we track implementation using GitHub projects.</li>
+<li>Once implementation is complete, the RFC moves to 'done', and it's issue is
+closed.</li>
+</ol>
+<blockquote>
+<p>If the submitter is someone from our community (i.e., not core team member), a
+core team member will be assigned to 'shepherd' each proposal. They will
+generally be the ones updating the RFCs state in the tracking issue as it
+moves through the process. They can decide when a final comment period is
+triggered.</p>
+</blockquote>
+<h2 id="rfc-states"><a aria-hidden="true" class="anchor-heading" href="#rfc-states"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>RFC States</h2>
+<ol>
+<li><strong>💡 proposed</strong> - A tracking issue has been created with a basic outline of the proposal.</li>
+<li><strong>✍️ review</strong> - An RFC document has been written with a detailed design and a PR is under review. At this point the PR will be assigned a <strong>shepherd</strong> from the core team.
+<!-- 3. **⏰ final comments** - The shepherd has approved the RFC PR, and announces
+   that the RFC enters a period for final comments before it will be approved
+   (~1wk). At this stage, if major issues are raised, the RFC may return to
+   **Review**. -->
+</li>
+<li><strong>👍 approved</strong> - The RFC PR is approved and merged to <code>master</code>, and the RFC
+is now ready to be implemented.</li>
+<li><strong>🗺️ planning</strong> - A PR is created with the <strong>Implementation Plan</strong> section of
+the RFC.</li>
+<li><strong>👷 implementing</strong> - Implemetation plan is approved and merged and the RFC
+is actively being implemented.</li>
+<li><strong>1️⃣ phase one done</strong> - Implementation for phase 1/2/3 is complete. These phases will be determined in the RFC and a single RFC can have at maximum 3 phases.</li>
+<li><strong>✅ done</strong> - Implementation is complete and merged across appropriate
+repositories.</li>
+<li><strong>👎 rejected</strong> - During the review period, the RFC may be rejected and then
+it will be marked as such.</li>
+<li><strong>👩‍🌾 community issue</strong> - This RFC is accepted but is not currently part of our roadmap. We will leave this as a community project for gardeners that are interested in taking this on. </li>
+</ol>
+<hr>
+<p>Dendron's RFC process
+<a href="https://handbook.dendron.so/notes/b89ba854-72fb-4ebc-a8a0-55960b89e9dc.html#lookup">looks up</a>
+to <a href="https://github.com/aws/aws-cdk-rfcs">AWS CDK RFC process</a>, <a href="https://github.com/yarnpkg/rfcs">Yarn RFC process</a>, <a href="https://github.com/rust-lang/rfcs">Rust RFC process</a>, <a href="https://github.com/reactjs/rfcs">React RFC
+process</a>, and <a href="https://github.com/emberjs/rfcs">Ember RFC process</a></p>
+<hr>
+<h2 id="children"><a aria-hidden="true" class="anchor-heading" href="#children"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Children</h2>
+<ol>
+<li><a href="https://wiki.dendron.so/notes/17c61d62-f92e-4002-b8fe-9c05686e4bf9.html">1 - Native Preview Experience</a></li>
+<li><a href="https://wiki.dendron.so/notes/95f7193b-9940-42ba-841f-3e2a4d937ba3.html">10 Blocks</a></li>
+<li><a href="https://wiki.dendron.so/notes/ba8cf4c5-6254-4eca-8072-8001ca5afda7.html">11 Better Tree View</a></li>
+<li><a href="https://wiki.dendron.so/notes/8bc80164-6436-4c77-8077-7842f53a4a23.html">12 Schema Improvements</a></li>
+<li><a href="https://wiki.dendron.so/notes/8e818b3b-f9d3-4233-bbe0-ab809e4d2356.html">13</a></li>
+<li><a href="https://wiki.dendron.so/notes/4039fc46-06b2-4f83-b817-fc490bafbcb3.html">14 - The Seed Bank</a></li>
+<li><a href="https://wiki.dendron.so/notes/65697e1b-ca70-4e6c-be0b-5e977afc9c7d.html">15 Browser Based Dendron</a></li>
+<li><a href="https://wiki.dendron.so/notes/NT1cFX6DRkTnzcWwduj2I.html">16 Better Tags</a></li>
+<li><a href="https://wiki.dendron.so/notes/tgr7PkQAtJNvf5ya.html">17 Rich Web Client</a></li>
+<li><a href="https://wiki.dendron.so/notes/6TOh3VApIUfap7c3.html">18 Add Note Indexes</a></li>
+<li><a href="https://wiki.dendron.so/notes/fAVA1Vv5ihg4Nt9unsAMv.html">19 Error Reporting</a></li>
+<li><a href="https://wiki.dendron.so/notes/ae4a0c98-e2ea-47e0-8a20-016eba3424be.html">2 Managed Publishing</a></li>
+<li><a href="https://wiki.dendron.so/notes/X2Zn2H89eBZrsj7Of8LLm.html">20 - Integrated Space Repetition</a></li>
+<li><a href="https://wiki.dendron.so/notes/nB75cmdPhL7CTOATG6wpT.html">21 - Modern Web Client</a></li>
+<li><a href="https://wiki.dendron.so/notes/O4f9yfDoO7E7gRRDeBeCh.html">22 Queries</a></li>
+<li><a href="https://wiki.dendron.so/notes/PjXL1NKL7yHV0ExHnROBl.html">24 Custom Theming</a></li>
+<li><a href="https://wiki.dendron.so/notes/m7iWYQRtPIYsIEd3zVPqg.html">25 Bdd Light</a></li>
+<li><a href="https://wiki.dendron.so/notes/VaCraUDApW60xi0EDfBK9.html">26 - Full Text Search for Publishing</a></li>
+<li><a href="https://wiki.dendron.so/notes/MalAg4S7TIJU4gYCn7ZFR.html">27 Move Header Cmd</a></li>
+<li><a href="https://wiki.dendron.so/notes/o5AQmw9bsPQspYuTjdmnK.html">28 Notifications</a></li>
+<li><a href="https://wiki.dendron.so/notes/VellOqHuzrUyzrWc0ajvg.html">29 Contextual UI</a></li>
+<li><a href="https://wiki.dendron.so/notes/ceca23ee-6181-4fa6-9724-9943433c6e96.html">3 Standalone Vaults</a></li>
+<li><a href="https://wiki.dendron.so/notes/duBTaQ58NeFFsSDF4yoSs.html">30 Notion Pod</a></li>
+<li><a href="https://wiki.dendron.so/notes/og3Mj0T3BH9SevPHurAau.html">31 Native Workspace</a></li>
+<li><a href="https://wiki.dendron.so/notes/fbhfflrwXeb0NabVToJYk.html">32 Better Workspace Testing</a></li>
+<li><a href="https://wiki.dendron.so/notes/O1YNCbAStuS8OUCoVR7s0.html">33 Custom Publishing Templates</a></li>
+<li><a href="https://wiki.dendron.so/notes/E8ZUvTzJ7cVOyZtqHiIKX.html">34 Note Type System</a></li>
+<li><a href="https://wiki.dendron.so/notes/xSSUw9GWcnsF35y597Vof.html">35 Easier Schemas</a></li>
+<li><a href="https://wiki.dendron.so/notes/7117a023-f090-47f5-a104-5968fc256c23.html">4 Richer Templating</a></li>
+<li><a href="https://wiki.dendron.so/notes/21b2e152-95f7-4904-8a8e-8d4d0b8c950c.html">5 Publishing Registry</a></li>
+<li><a href="https://wiki.dendron.so/notes/37df43ee-1c74-4def-af2c-72fe80c728f4.html">6 Dendron Design System</a></li>
+<li><a href="https://wiki.dendron.so/notes/1bb018db-8f8e-46c8-ac4a-4baf4813b0c8.html">6 Design System</a></li>
+<li><a href="https://wiki.dendron.so/notes/c998c642-a748-4f77-9285-cfec35330251.html">7 Graph Rework</a></li>
+<li><a href="https://wiki.dendron.so/notes/8b3bfb16-8330-4a78-85cc-45581c319450.html">8 Multi Publish</a></li>
+<li><a href="https://wiki.dendron.so/notes/d2f8fe67-36c7-4600-b745-c22bdcb5b2cf.html">9 Note Lifecycle Hooks</a></li>
+<li><a href="https://wiki.dendron.so/notes/5mfPAJFfNFrD16RbGOs9h.html">RFC 23: Consolidate Configurations</a></li>
+</ol>
+<hr>
+<h2 id="backlinks"><a aria-hidden="true" class="anchor-heading" href="#backlinks"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Backlinks</h2>
+<ul>
+<li><a href="https://wiki.dendron.so/notes/aURuqCucZegsCpJSb5m90.html">Release Notes (version 0.59)</a></li>
+</ul><span id="navId" data="f143ca38-dcc6-4cd3-b84b-997aec1160ef"></span>
+
+                
+      </section>
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+        <div class="thumbs feedback_trigger right-bottom"></div>
+
+        
+          <hr>
+          <footer>
+            
+            
+
+            
+              <div class="d-flex mt-2">
+              <p class="text-small text-grey-dk-000 mb-0 mr-2">
+                Page last modified: <span class="d-inline-block">9/21/2021</span>.
+              </p>
+            
+                
+                  <p class="text-small text-grey-dk-000 mb-0">
+                    <a href="https://github.com/dendronhq/dendron-site/edit/master/vault/dendron.rfc.md" id="edit-this-page">Edit this page on GitHub</a>
+                  </p>
+                
+              </div>
+          </footer>
+        
+    </div>
+</div>
+
+
+  
+
+  <div class="search-overlay"></div>
+
+</div>
+
+</body>
+</html>

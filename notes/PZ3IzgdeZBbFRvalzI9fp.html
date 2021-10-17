@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+  
+  <title>Internal - Dendron</title>
+  
+
+  <link
+    rel="shortcut icon"
+    href="https://wiki.dendron.so/favicon.ico"
+    type="image/x-icon"
+  />
+  <link
+    rel="stylesheet"
+    href="https://wiki.dendron.so/assets/css/just-the-docs-default.css"
+  />
+  <script
+    type="text/javascript"
+    src="https://wiki.dendron.so/assets/js/just-the-docs.js"
+  ></script>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.22.0/themes/prism.min.css"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css"
+    integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X"
+    crossorigin="anonymous"
+  />
+  <script
+    type="text/javascript"
+    src="https://wiki.dendron.so/assets/js/vendor/lunr.min.js"
+  ></script>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+   
+   
+  
+<meta name="description" content="Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.">
+<meta name="author" content="dendronhq">
+
+<link rel="canonical" href="https://wiki.dendron.so/notes/PZ3IzgdeZBbFRvalzI9fp.html">
+
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://wiki.dendron.so/notes/PZ3IzgdeZBbFRvalzI9fp.html">
+<meta property="og:description" content="Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.">
+<meta property="og:image" content="https://wiki.dendron.so/logo.png">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@dendronhq">
+<meta name="twitter:url" content="https://wiki.dendron.so/notes/PZ3IzgdeZBbFRvalzI9fp.html">
+<meta name="twitter:description" content="Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.">
+<meta name="twitter:image" content="https://wiki.dendron.so/logo.png">
+
+
+  <meta property="og:title" content="Internal - Dendron" />
+  <meta name="twitter:title" content="Internal - Dendron" />
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-B0JN2HHCNY"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-B0JN2HHCNY');
+  </script>
+  
+</head>
+
+
+
+<body>
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+      <symbol id="svg-link" viewBox="0 0 24 24">
+        <title>Link</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-link">
+          <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+        </svg>
+      </symbol>
+      <symbol id="svg-search" viewBox="0 0 24 24">
+        <title>Search</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search">
+          <circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+      </symbol>
+      <symbol id="svg-menu" viewBox="0 0 24 24">
+        <title>Menu</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu">
+          <line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+      </symbol>
+      <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+        <title>Expand</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+          <polyline points="9 18 15 12 9 6"></polyline>
+        </svg>
+      </symbol>
+      <symbol id="svg-doc" viewBox="0 0 24 24">
+        <title>Document</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file">
+          <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path><polyline points="13 2 13 9 20 9"></polyline>
+        </svg>
+      </symbol>
+    </svg>
+
+    <div class="side-bar">
+      <div class="site-header">
+        <a href="https://wiki.dendron.so" class="site-title lh-tight">
+  <div class="site-logo"></div>
+
+ </a>
+        <a href="#" id="menu-button" class="site-button">
+          <svg viewBox="0 0 24 24" class="icon"><use xlink:href="#svg-menu"></use></svg>
+        </a>
+      </div>
+
+      <nav role="navigation" aria-label="Main" id="site-nav" class="site-nav">
+      </nav>
+      <footer class="site-footer">
+        🌱 with 💕 using <a href="https://www.dendron.so/"> Dendron 🌲 </a>
+      </footer>
+    </div>
+    <div class="main" id="top">
+        <div id="main-header" class="main-header">
+          
+            <div class="search">
+              <div class="search-input-wrap">
+                <input type="text" id="search-input" class="search-input" tabindex="0" placeholder="Search Dendron" aria-label="Search Dendron" autocomplete="off">
+                <label for="search-input" class="search-label"><svg viewBox="0 0 24 24" class="search-icon"><use xlink:href="#svg-search"></use></svg></label>
+              </div>
+              <div id="search-results" class="search-results"></div>
+            </div>
+          
+          
+    </div>
+    <div id="main-content-wrap" class="main-content-wrap">
+      
+        
+          <nav aria-label="Breadcrumb" class="breadcrumb-nav">
+            <ol class="breadcrumb-nav-list"><li class="breadcrumb-nav-list-item"><a href="https://wiki.dendron.so/notes/32cdd4aa-d9f6-4582-8d0c-07f64a00299b.html">Packages</a></li><li class="breadcrumb-nav-list-item"><a href="https://wiki.dendron.so/notes/87d90002-f480-45eb-a8c4-d00df4d61557.html">Plugin Core</a></li><li class="breadcrumb-nav-list-item"><a href="https://wiki.dendron.so/notes/Ppl6jfoARcJq2ilJx9dgO.html">T</a></li><li class="breadcrumb-nav-list-item"><a href="https://wiki.dendron.so/notes/BliBakrlm2ij4fY4Kq0AA.html">Lookup</a></li><li class="breadcrumb-nav-list-item">Internal</li></ol>
+          </nav>
+        
+      
+      <div id="main-content" class="main-content" role="main">
+
+        
+        
+        <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+        <script>mermaid.initialize({startOnLoad:true});</script>
+        
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+        
+        
+
+        
+
+        
+
+        
+
+        <script>
+          $(function () {
+            $('[data-toggle="popover"]').popover({html: true})
+          })
+        </script>
+
+        
+
+<div id="main" role="main">
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Internal">
+    
+    <meta itemprop="datePublished" content="2021-08-31T16:08:49+00:00">
+    <meta itemprop="dateModified" content="2021-10-16T15:50:55+00:00">
+
+    <div class="page__inner-wrap">
+
+      
+
+      <section class="page__content" itemprop="text">
+
+        
+
+        <h1 id="internal"><a aria-hidden="true" class="anchor-heading" href="#internal"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Internal</h1>
+<h2 id="summary"><a aria-hidden="true" class="anchor-heading" href="#summary"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Summary</h2>
+<p>This describes the logic for Note Lookup</p>
+<h2 id="state-diagram"><a aria-hidden="true" class="anchor-heading" href="#state-diagram"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>State Diagram</h2>
+<div class="mermaid">
+  
+stateDiagram-v2
+    [*] --> LookupCommand
+
+    state LookupCommand {
+        [*] --> run
+        run --> gatherInput
+        gatherInput --> prepareQuickPick
+        gatherInput --> constructProvider
+        gatherInput --> enrichInput
+        enrichInput --> subscribe
+        enrichInput --> subscribedToListener
+        subscribedToListener --> showQuickPick
+        lookupExecute --> [*]
+
+      state Controller {
+        prepareQuickPick
+        prepareQuickPick --> gatherInput
+        showQuickPick --> onUpdatePickerItems
+        showQuickPick --> [*]
+      }
+
+      state Provider {
+        constructProvider --> gatherInput
+        onUpdatePickerItems --> updatePickerItems
+      }
+
+      state Quickpick {
+        state updatePickerItems &#x3C;<choice>>
+        updatePickerItems --> fetchRootResults: if qs = ""
+        updatePickerItems --> [*]: if noChangeValue(picker)
+        updatePickerItems --> fetchPickerResultsp
+        fetchRootResults --> [*]
+      }
+
+    }
+
+    state HistoryListener {
+      state listen &#x3C;<choice>>
+      subscribe  --> listening
+      listening --> listen
+      listen --> done : if action = done
+      listen --> done : if action = changeState &#x26; data = hide &#x26; !picker.pending
+      listen --> done : if action = error
+      listen --> listening: otherwise
+      done --> [*]
+    }
+
+    HistoryListener --> lookupExecute
+</choice></choice></div>
+<h2 id="steps"><a aria-hidden="true" class="anchor-heading" href="#steps"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Steps</h2>
+<ul>
+<li><a title="Private" style="color: brown" href="https://wiki.dendron.so/notes/hfyvYGJZQiUwQaaxQO27q.html" target="_blank">Gather Input (Private)</a>
+<ul>
+<li><a title="Private" style="color: brown" href="https://wiki.dendron.so/notes/hfyvYGJZQiUwQaaxQO27q.html" target="_blank">Prepare Quickpick (Private)</a>
+<ul>
+<li>initialize all buttons</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>enrichInput
+<ul>
+<li>show <code>QuickPick</code></li>
+</ul>
+</li>
+<li>showQuickPick
+<ul>
+<li>updatePickerItems</li>
+<li>if <code>noConfirm</code>, don't show widget
+<ul>
+<li>update selected items to current current items</li>
+<li>call <code>provider.onDidAccept</code></li>
+</ul>
+</li>
+<li>else show the widget
+<ul>
+<li>wait until user accepts or cancels</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>execute
+<ul>
+<li>open <code>picks</code></li>
+<li><a title="Private" style="color: brown" href="https://wiki.dendron.so/notes/hfyvYGJZQiUwQaaxQO27q.html" target="_blank">OnAccept (Private)</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="code"><a aria-hidden="true" class="anchor-heading" href="#code"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Code</h2>
+<h3 id="gather-input"><a aria-hidden="true" class="anchor-heading" href="#gather-input"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Gather Input</h3>
+<ul>
+<li>src/commands/NoteLookupCommand.ts</li>
+</ul>
+<pre class="language-ts"><code class="language-ts">gatherInputs <span class="token punctuation">{</span>
+    lc <span class="token operator">=</span> <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token property-access">_controller</span> <span class="token operator">=</span> <span class="token maybe-class-name">LookupControllerV3</span><span class="token punctuation">.</span><span class="token property-access">create</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token property-access">_provider</span> <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name"><span class="token maybe-class-name">NoteLookupProvider</span></span><span class="token punctuation">(</span><span class="token string">"lookup"</span><span class="token punctuation">,</span> <span class="token punctuation">{</span>
+    lc<span class="token punctuation">.</span><span class="token property-access">prepareQuickPick</span>
+<span class="token punctuation">}</span>
+</code></pre>
+<h3 id="prepare-quickpick"><a aria-hidden="true" class="anchor-heading" href="#prepare-quickpick"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Prepare Quickpick</h3>
+<ul>
+<li>src/components/lookup/LookupControllerV3.ts</li>
+</ul>
+<pre class="language-ts"><code class="language-ts">prepareQuickPick <span class="token punctuation">{</span>
+    quickpick<span class="token punctuation">.</span><span class="token property-access">onTriggerButton</span> <span class="token operator">=</span> <span class="token decorator"><span class="token at operator">@</span><span class="token function">onDidTriggerButton</span></span>
+    refreshButtons
+<span class="token punctuation">}</span>
+
+showQuickPick <span class="token punctuation">{</span>
+    provider<span class="token punctuation">.</span><span class="token property-access">onUpdatePickerItems</span> 
+
+<span class="token punctuation">}</span>
+</code></pre>
+<h4 id="ondidtriggerbutton"><a aria-hidden="true" class="anchor-heading" href="#ondidtriggerbutton"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>OnDidTriggerButton</h4>
+<pre class="language-ts"><code class="language-ts"><span class="token function">onDidTriggerButton</span><span class="token punctuation">(</span>btn<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token function">find</span><span class="token punctuation">(</span>btn<span class="token punctuation">,</span> <span class="token decorator"><span class="token at operator">@</span><span class="token function">state</span></span><span class="token punctuation">.</span><span class="token property-access">buttons</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token property-access">pressed</span> <span class="token operator">=</span> btn<span class="token punctuation">.</span><span class="token property-access">pressed</span>
+    <span class="token function">refreshPickerBehavior</span><span class="token punctuation">(</span><span class="token decorator"><span class="token at operator">@</span><span class="token function">state</span></span><span class="token punctuation">.</span><span class="token property-access">buttons</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span>
+</code></pre>
+<h4 id="refreshpickerbehavior"><a aria-hidden="true" class="anchor-heading" href="#refreshpickerbehavior"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>RefreshPickerBehavior</h4>
+<pre class="language-ts"><code class="language-ts">refreshPickerBehavior <span class="token punctuation">{</span>
+    buttonsEnabled <span class="token operator">:</span><span class="token operator">=</span>
+    buttonsDisabled <span class="token operator">:</span><span class="token operator">=</span>
+
+    buttonsEnabled<span class="token punctuation">.</span><span class="token property-access">map</span> bt <span class="token arrow operator">=></span> bt<span class="token punctuation">.</span><span class="token property-access">onEnable</span>
+    buttonsDisabled<span class="token punctuation">.</span><span class="token property-access">map</span> bt <span class="token arrow operator">=></span> bt<span class="token punctuation">.</span><span class="token property-access">onDisable</span>
+<span class="token punctuation">}</span>
+</code></pre>
+<h3 id="onupdatepickeritems"><a aria-hidden="true" class="anchor-heading" href="#onupdatepickeritems"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>OnUpdatePickerItems</h3>
+<pre class="language-ts"><code class="language-ts">onUpdatePickerItems <span class="token punctuation">{</span>
+
+    <span class="token comment">// modify for just activated behavior</span>
+    <span class="token keyword control-flow">if</span> picker<span class="token punctuation">.</span><span class="token property-access">justActivated</span> <span class="token operator">&#x26;&#x26;</span> <span class="token operator">!</span>picker<span class="token punctuation">.</span><span class="token property-access">nonInteractive</span>  <span class="token punctuation">{</span>
+        pickerValue <span class="token operator">=</span> getQsForCurrentLevel
+    <span class="token punctuation">}</span>
+    querystring <span class="token operator">:</span><span class="token operator">=</span> pickerValue
+    <span class="token spread operator">...</span>
+    items <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token spread operator">...</span>picker<span class="token punctuation">.</span><span class="token property-access">items</span><span class="token punctuation">]</span>
+    updatedItems <span class="token operator">=</span> <span class="token function">fetchPickerResults</span><span class="token punctuation">(</span>querystring<span class="token punctuation">)</span>
+    <span class="token spread operator">...</span>
+
+    shouldAddCreateNew <span class="token operator">=</span> <span class="token decorator"><span class="token at operator">@</span><span class="token function">allowNewNote</span></span> <span class="token operator">&#x26;&#x26;</span> <span class="token operator">!</span>queryOrig<span class="token punctuation">.</span><span class="token method function property-access">endsWith</span><span class="token punctuation">(</span><span class="token string">"."</span><span class="token punctuation">)</span> <span class="token operator">&#x26;&#x26;</span> <span class="token operator">!</span>picker<span class="token punctuation">.</span><span class="token property-access">canSelectMany</span> <span class="token operator">&#x26;&#x26;</span> vaultsHaveSpaceForExactMatch
+    <span class="token keyword control-flow">if</span> <span class="token punctuation">(</span>shouldAddCreateNew<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        entryCreateNew <span class="token operator">=</span> createNoActiveItem
+        <span class="token keyword control-flow">if</span> shouldBubbleUpCreateNew <span class="token punctuation">{</span>
+            <span class="token spread operator">...</span>
+        <span class="token punctuation">}</span> <span class="token keyword control-flow">else</span> <span class="token punctuation">{</span>
+            <span class="token spread operator">...</span>
+        <span class="token punctuation">}</span>
+
+    <span class="token punctuation">}</span>
+
+    <span class="token spread operator">...</span>
+    picker<span class="token punctuation">.</span><span class="token property-access">items</span> <span class="token operator">=</span> updatedItems
+
+<span class="token punctuation">}</span>
+
+</code></pre>
+<h3 id="onaccept"><a aria-hidden="true" class="anchor-heading" href="#onaccept"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>OnAccept</h3>
+<ul>
+<li>src/components/lookup/LookupProviderV3.ts</li>
+</ul>
+<pre class="language-ts"><code class="language-ts">onDidAccept <span class="token punctuation">{</span>
+    selectedItems <span class="token operator">:</span><span class="token operator">=</span> picker
+    resp <span class="token operator">=</span> <span class="token decorator"><span class="token at operator">@</span><span class="token function">_onAcceptHooks</span></span><span class="token punctuation">.</span><span class="token property-access">map</span> <span class="token punctuation">{</span>
+        <span class="token function">it</span><span class="token punctuation">(</span>picker<span class="token punctuation">,</span> selectedItems<span class="token punctuation">)</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token maybe-class-name">HistoryInstance</span><span class="token punctuation">.</span><span class="token property-access">add</span> <span class="token punctuation">{</span>
+        source<span class="token operator">:</span> lookupProvider<span class="token punctuation">,</span>
+        action<span class="token operator">:</span> done<span class="token punctuation">,</span>
+        id<span class="token operator">:</span> <span class="token decorator"><span class="token at operator">@</span><span class="token function">id</span></span><span class="token punctuation">,</span>
+        data<span class="token operator">:</span> <span class="token punctuation">{</span>
+            selectedItems<span class="token punctuation">,</span>
+            onAcceptHookResp<span class="token operator">:</span> resp
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+
+<span class="token punctuation">}</span>
+</code></pre>
+<pre class="language-ts"><code class="language-ts">execute <span class="token punctuation">{</span>
+    <span class="token decorator"><span class="token at operator">@</span><span class="token function">acceptItem</span></span>
+<span class="token punctuation">}</span>
+
+<span class="token function">acceptItem</span><span class="token punctuation">(</span>item<span class="token punctuation">,</span> picker<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+
+    <span class="token keyword control-flow">throw</span> <span class="token keyword control-flow">if</span> not picker<span class="token punctuation">.</span><span class="token method function property-access">validate</span><span class="token punctuation">(</span>item<span class="token punctuation">)</span>
+
+    <span class="token keyword control-flow">if</span> <span class="token function">isNew</span><span class="token punctuation">(</span>item<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token decorator"><span class="token at operator">@</span><span class="token function">acceptNewItem</span></span>
+    <span class="token punctuation">}</span> <span class="token keyword control-flow">else</span> <span class="token punctuation">{</span>
+        <span class="token decorator"><span class="token at operator">@</span><span class="token function">acceptExistingItem</span></span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+acceptExistingItem <span class="token punctuation">{</span>
+    uri <span class="token operator">:</span><span class="token operator">=</span> item
+    show uri
+<span class="token punctuation">}</span>
+
+<span class="token function">acceptNewItem</span><span class="token punctuation">(</span>item<span class="token punctuation">,</span> picker<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    fname <span class="token operator">:</span><span class="token operator">=</span> picker
+    <span class="token keyword control-flow">if</span> <span class="token function">isStub</span><span class="token punctuation">(</span>item<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        note <span class="token operator">=</span> notes<span class="token punctuation">[</span>item<span class="token punctuation">.</span><span class="token property-access">stub</span><span class="token punctuation">]</span>
+        <span class="token keyword">delete</span> note<span class="token punctuation">.</span><span class="token property-access">stub</span>
+    <span class="token punctuation">}</span> <span class="token keyword control-flow">else</span> <span class="token punctuation">{</span>
+        note <span class="token operator">=</span> <span class="token maybe-class-name">Note</span><span class="token punctuation">.</span><span class="token property-access">create</span> item
+        <span class="token keyword control-flow">if</span> <span class="token function">matchSchema</span><span class="token punctuation">(</span>note<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+            <span class="token function">addSchema</span><span class="token punctuation">(</span>note<span class="token punctuation">)</span>
+        <span class="token punctuation">}</span>
+        <span class="token keyword control-flow">if</span> note<span class="token punctuation">.</span><span class="token property-access">schema</span><span class="token punctuation">.</span><span class="token property-access">template</span> <span class="token punctuation">{</span>
+            <span class="token function">applyTemplate</span><span class="token punctuation">(</span>note<span class="token punctuation">)</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+    note <span class="token operator">=</span> picker<span class="token punctuation">.</span><span class="token method function property-access">transformTitle</span><span class="token punctuation">(</span>note<span class="token punctuation">)</span>
+    picker<span class="token punctuation">.</span><span class="token method function property-access">onCreate</span><span class="token punctuation">(</span>note<span class="token punctuation">)</span>
+    writeNote note
+<span class="token punctuation">}</span>
+
+</code></pre>
+<h2 id="design-decisions"><a aria-hidden="true" class="anchor-heading" href="#design-decisions"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Design Decisions</h2>
+<h3 id="debounce"><a aria-hidden="true" class="anchor-heading" href="#debounce"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Debounce</h3>
+<h2 id="related"><a aria-hidden="true" class="anchor-heading" href="#related"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Related</h2>
+<ul>
+<li><a href="https://wiki.dendron.so/notes/9Nms3px87t1OvqIch8qpp.html">Lookup</a></li>
+</ul>
+<hr>
+<h2 id="children"><a aria-hidden="true" class="anchor-heading" href="#children"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Children</h2>
+<ol>
+<li><a href="https://wiki.dendron.so/notes/yueBtcxggyCeqTFm15fyA.html">Create New Note</a></li>
+<li><a href="https://wiki.dendron.so/notes/VCuwxbJicSSRRVWQUFhON.html">Old</a></li>
+</ol>
+<hr>
+<h2 id="backlinks"><a aria-hidden="true" class="anchor-heading" href="#backlinks"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Backlinks</h2>
+<ul>
+<li><a href="https://wiki.dendron.so/notes/ENeBSPWAtTlQclXYWNm6c.html">Architecture</a></li>
+<li><a href="https://wiki.dendron.so/notes/a7c3a810-28c8-4b47-96a6-8156b1524af3.html">Lookup</a></li>
+</ul><span id="navId" data="PZ3IzgdeZBbFRvalzI9fp"></span>
+
+                
+      </section>
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+        <div class="thumbs feedback_trigger right-bottom"></div>
+
+        
+          <hr>
+          <footer>
+            
+            
+
+            
+              <div class="d-flex mt-2">
+              <p class="text-small text-grey-dk-000 mb-0 mr-2">
+                Page last modified: <span class="d-inline-block">10/16/2021</span>.
+              </p>
+            
+                
+                  <p class="text-small text-grey-dk-000 mb-0">
+                    <a href="https://github.com/dendronhq/dendron-site/edit/master/vault/pkg.plugin-core.t.lookup.internal.md" id="edit-this-page">Edit this page on GitHub</a>
+                  </p>
+                
+              </div>
+          </footer>
+        
+    </div>
+</div>
+
+
+  
+
+  <div class="search-overlay"></div>
+
+</div>
+
+</body>
+</html>

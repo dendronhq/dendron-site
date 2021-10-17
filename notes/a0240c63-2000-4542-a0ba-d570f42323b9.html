@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+  
+  <title>Arch - Dendron</title>
+  
+
+  <link
+    rel="shortcut icon"
+    href="https://wiki.dendron.so/favicon.ico"
+    type="image/x-icon"
+  />
+  <link
+    rel="stylesheet"
+    href="https://wiki.dendron.so/assets/css/just-the-docs-default.css"
+  />
+  <script
+    type="text/javascript"
+    src="https://wiki.dendron.so/assets/js/just-the-docs.js"
+  ></script>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.22.0/themes/prism.min.css"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css"
+    integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X"
+    crossorigin="anonymous"
+  />
+  <script
+    type="text/javascript"
+    src="https://wiki.dendron.so/assets/js/vendor/lunr.min.js"
+  ></script>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+   
+   
+  
+<meta name="description" content="Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.">
+<meta name="author" content="dendronhq">
+
+<link rel="canonical" href="https://wiki.dendron.so/notes/a0240c63-2000-4542-a0ba-d570f42323b9.html">
+
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://wiki.dendron.so/notes/a0240c63-2000-4542-a0ba-d570f42323b9.html">
+<meta property="og:description" content="Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.">
+<meta property="og:image" content="https://wiki.dendron.so/logo.png">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@dendronhq">
+<meta name="twitter:url" content="https://wiki.dendron.so/notes/a0240c63-2000-4542-a0ba-d570f42323b9.html">
+<meta name="twitter:description" content="Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.">
+<meta name="twitter:image" content="https://wiki.dendron.so/logo.png">
+
+
+  <meta property="og:title" content="Arch - Dendron" />
+  <meta name="twitter:title" content="Arch - Dendron" />
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-B0JN2HHCNY"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-B0JN2HHCNY');
+  </script>
+  
+</head>
+
+
+
+<body>
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+      <symbol id="svg-link" viewBox="0 0 24 24">
+        <title>Link</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-link">
+          <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+        </svg>
+      </symbol>
+      <symbol id="svg-search" viewBox="0 0 24 24">
+        <title>Search</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search">
+          <circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+      </symbol>
+      <symbol id="svg-menu" viewBox="0 0 24 24">
+        <title>Menu</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu">
+          <line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+      </symbol>
+      <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+        <title>Expand</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+          <polyline points="9 18 15 12 9 6"></polyline>
+        </svg>
+      </symbol>
+      <symbol id="svg-doc" viewBox="0 0 24 24">
+        <title>Document</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file">
+          <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path><polyline points="13 2 13 9 20 9"></polyline>
+        </svg>
+      </symbol>
+    </svg>
+
+    <div class="side-bar">
+      <div class="site-header">
+        <a href="https://wiki.dendron.so" class="site-title lh-tight">
+  <div class="site-logo"></div>
+
+ </a>
+        <a href="#" id="menu-button" class="site-button">
+          <svg viewBox="0 0 24 24" class="icon"><use xlink:href="#svg-menu"></use></svg>
+        </a>
+      </div>
+
+      <nav role="navigation" aria-label="Main" id="site-nav" class="site-nav">
+      </nav>
+      <footer class="site-footer">
+        🌱 with 💕 using <a href="https://www.dendron.so/"> Dendron 🌲 </a>
+      </footer>
+    </div>
+    <div class="main" id="top">
+        <div id="main-header" class="main-header">
+          
+            <div class="search">
+              <div class="search-input-wrap">
+                <input type="text" id="search-input" class="search-input" tabindex="0" placeholder="Search Dendron" aria-label="Search Dendron" autocomplete="off">
+                <label for="search-input" class="search-label"><svg viewBox="0 0 24 24" class="search-icon"><use xlink:href="#svg-search"></use></svg></label>
+              </div>
+              <div id="search-results" class="search-results"></div>
+            </div>
+          
+          
+    </div>
+    <div id="main-content-wrap" class="main-content-wrap">
+      
+        
+          <nav aria-label="Breadcrumb" class="breadcrumb-nav">
+            <ol class="breadcrumb-nav-list"><li class="breadcrumb-nav-list-item"><a href="https://wiki.dendron.so/notes/32cdd4aa-d9f6-4582-8d0c-07f64a00299b.html">Packages</a></li><li class="breadcrumb-nav-list-item"><a href="https://wiki.dendron.so/notes/7cdd9a74-8b8f-4564-906b-c963bed34273.html">Dendron Next Server</a></li><li class="breadcrumb-nav-list-item">Arch</li></ol>
+          </nav>
+        
+      
+      <div id="main-content" class="main-content" role="main">
+
+        
+        
+        <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+        <script>mermaid.initialize({startOnLoad:true});</script>
+        
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+        
+        
+
+        
+
+        
+
+        
+
+        <script>
+          $(function () {
+            $('[data-toggle="popover"]').popover({html: true})
+          })
+        </script>
+
+        
+
+<div id="main" role="main">
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Arch">
+    
+    <meta itemprop="datePublished" content="2021-05-27T15:52:52+00:00">
+    <meta itemprop="dateModified" content="2021-10-04T22:08:43+00:00">
+
+    <div class="page__inner-wrap">
+
+      
+
+      <section class="page__content" itemprop="text">
+
+        
+
+        <h1 id="arch"><a aria-hidden="true" class="anchor-heading" href="#arch"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Arch</h1>
+<h2 id="summary"><a aria-hidden="true" class="anchor-heading" href="#summary"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Summary</h2>
+<p>The next server contains the UI components for the Dendron Plugin, the Dendron Preview, and the Dendron published site.</p>
+<h2 id="details"><a aria-hidden="true" class="anchor-heading" href="#details"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Details</h2>
+<p><a aria-hidden="true" class="block-anchor anchor-heading" id="^0LPK39T0MgNf" href="#^0LPK39T0MgNf"><svg viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Webviews in Dendron Plugin are statically exported HTML files generated from running <code>yarn export</code> in <code>@dendronhq/dendron-next-server</code>.  </p>
+<p><a aria-hidden="true" class="block-anchor anchor-heading" id="^aKJ72kztSNYY" href="#^aKJ72kztSNYY"><svg viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>When a user opens up a webview (eg. by running <code>Show Preview</code>), the command opens up an iframe that points to <code>localhost:{port-of-engine-server}/vscode/note-preview.html</code> </p>
+<p>This route is served by the <a href="https://wiki.dendron.so/notes/554d3c62-29da-4c86-9d16-f910e36ad7b1.html#summary">Dendron API Server</a> which serves up the statically generated HTML. </p>
+<ul>
+<li>NOTE: the reason we use an <code>iframe</code> instead of directly linking to the static HTML is because of VSCode's restriction on running <a href="https://code.visualstudio.com/api/extension-guides/webview#loading-local-content">local content</a>. In a nutshell, all URL's need to be loaded as webview urls by running <code>panel.webview.asWebviewUri(onDiskPath)</code> over the url. NextJS generates HTML and chunks the javascript so that the HTML has lots of <code>&#x3C;script src="/.../foo.js"></code> like paths which will not be loaded by an VSCode WebView. </li>
+</ul>
+<h3 id="view-types"><a aria-hidden="true" class="anchor-heading" href="#view-types"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>View Types</h3>
+<p>There are two kind of views in the plugin that get handled by NextJs:</p>
+<ul>
+<li>webviews</li>
+<li>treeviews
+Treeviews are components in the sidepanel, webviews are views that are revealed using a command (eg. <code>Dendron: Configure</code>). The mechanism of rendering both views are similar.</li>
+</ul>
+<h2 id="components"><a aria-hidden="true" class="anchor-heading" href="#components"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Components</h2>
+<h2 id="lifecycle"><a aria-hidden="true" class="anchor-heading" href="#lifecycle"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>LifeCycle</h2>
+<h3 id="startup"><a aria-hidden="true" class="anchor-heading" href="#startup"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Startup</h3>
+<ol>
+<li>User initiates the view by opening the tree view or issuing the UI command</li>
+<li>This brings up a webview with the following <a href="https://github.com/dendronhq/dendron/blob/master/packages/plugin-core/src/views/utils.ts">code</a>
+<pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>html</span><span class="token punctuation">></span></span> 
+...
+<span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>iframe</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>iframeView<span class="token punctuation">"</span></span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>${src}<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>iframe</span><span class="token punctuation">></span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>html</span><span class="token punctuation">></span></span>
+</code></pre>
+</li>
+<li>The <code>src</code> is set to be a corresponding page in <code>/vscode</code>. We also pass along <a href="https://wiki.dendron.so/notes/5a7103be-eb92-4380-8207-598e9f10724c.html">Dendron Engine</a> parameters as querystrings.</li>
+<li>Express will load up the nextjs view as a static asset and it will be rendered inside VSCode using the iframe.</li>
+<li>During initialization, the view will connect to the <code>engine</code> and hydrate its <code>redux</code> store with current notes and IDE related properties (eg. current notes)
+<ul>
+<li>the aforementioned properties are passed down to all child component as <a href="https://github.com/dendronhq/dendron/blob/master/packages/dendron-next-server/pages/_app.tsx">props</a></li>
+</ul>
+</li>
+</ol>
+<p>When the view needs to interact with VSCode, it does so by passing messages. We wrote a helper utility that takes care of this, you can see an example of it <a href="https://github.com/dendronhq/dendron/blob/master/packages/dendron-next-server/pages/vscode/tree-view.tsx">here</a></p>
+<p>You can see an example of an UI event propagating back to VSCode <a href="https://wiki.dendron.so/notes/e4162af6-36e3-483e-b44f-1df1f3659556.html#onclick">here</a></p>
+<h1 id="etc"><a aria-hidden="true" class="anchor-heading" href="#etc"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Etc</h1>
+<h2 id="dendron-preview"><a aria-hidden="true" class="anchor-heading" href="#dendron-preview"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Dendron Preview</h2>
+<ul>
+<li>codename: Unified Preview</li>
+<li>status: <a href="https://wiki.dendron.so/notes/3be48b69-76e1-495e-9314-cae2fe22813d.html#planning-️">Planning 🗺️</a></li>
+</ul>
+<p>The Dendron Preview should be just one particular view in of <code>nextjs</code> that is served when using the Dendron Plugin. There are a few special requirements for the preview that aren't there for other views which is why this gets its own section. Specifically, the preview view should support the following features:</p>
+<ul>
+<li>scroll sync: a user scrolling through the raw markdown of the current preview should have the preview scroll in sync with the text and vice versa</li>
+</ul>
+<h3 id="details-1"><a aria-hidden="true" class="anchor-heading" href="#details-1"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Details</h3>
+<p>Initial note render, render note using passed in <code>noteId</code> via `queryParam.</p>
+<p>As long as the current webview is not closed, changing the active window will cause a message to the webview to update the display. </p>
+<h3 id="images"><a aria-hidden="true" class="anchor-heading" href="#images"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Images</h3>
+<p>To display an image, the <a href="https://github.com/dendronhq/dendron/blob/dev/packages/engine-server/src/markdown/remark/dendronPreview.ts">dendronPreview</a> plugin will convert image links to links that call <code>assetGet</code> API from the <a href="https://wiki.dendron.so/notes/554d3c62-29da-4c86-9d16-f910e36ad7b1.html">Dendron Agent</a></p>
+<p>This is necessary because static images are contained within the vault whereas image links by default are relative to where the static file is being served (eg. <code>~/.code/extensions/...</code>). In addition, whereas both nextjs and expressjs have capabilities to render static assets, there isn't a straightforward way to add static routes dynamically. </p>
+<p>So instead of using static assets, we are dynamically fetching the assets instead.  The preview displays images by rewriting <code>/assets/img1.jpg</code> to <code>localhost:{port}/api/assetGet?fpath=...ws=...</code> We pass in the current workspace to make sure that the static file you are retrieving comes from inside a valid active workspace. </p>
+<h2 id="dendron-published-site"><a aria-hidden="true" class="anchor-heading" href="#dendron-published-site"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Dendron Published Site</h2>
+<ul>
+<li>codename: NEXT Publishing </li>
+<li>status: <a href="https://wiki.dendron.so/notes/3be48b69-76e1-495e-9314-cae2fe22813d.html#planning-️">Planning 🗺️</a></li>
+</ul>
+<p>The Dendron Published Site will be the default path published using nextjs. It has the following requirements:</p>
+<ul>
+<li>support building and publishing using both SSR and simple static deployments
+<ul>
+<li>main consideration is the table of contents on the left hand side
+<ul>
+<li>it becomes prohibitively big past a few thousand notes to generate this statically for every page</li>
+<li>our current process
+<ul>
+<li>generate it once during compile time</li>
+<li>load it asynchronously using javascript when rending a page</li>
+<li>use javascript to open it to the correct location</li>
+</ul>
+</li>
+<li>process for nextjs
+<ul>
+<li>we could do the same thing, only issue is that there's a slight pop as we fetch the nav asynchronously</li>
+<li>don't want to block on it - for SEO, we want a fully formed HTML document with all content </li>
+<li>we can do SSR for folks that opt it to managed hosting to avoid the pop in</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>rendering a note should share code with <a title="Private" style="color: brown" href="https://wiki.dendron.so/notes/hfyvYGJZQiUwQaaxQO27q.html" target="_blank">Dendron Preview (Private)</a> for as much as possible
+<ul>
+<li>currently there are some considerations that only apply to published istes
+<ul>
+<li>links and references to unpublished pages (we currently generate a custom splash page when a published note links to an unpublished note)</li>
+</ul>
+</li>
+<li>table of contents 
+<ul>
+<li>the preview relies on vscode tree view components for this, the site needs to generate its own</li>
+</ul>
+</li>
+<li>etc</li>
+</ul>
+</li>
+</ul>
+<h2 id="copy-and-paste"><a aria-hidden="true" class="anchor-heading" href="#copy-and-paste"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Copy and Paste</h2>
+<p>By default, modifier controls like copy and paste are disabled because we are operating an iframe operating inside a webview. The workaround is described <a href="https://github.com/jevakallio/vscode-live-frame#command-key-combinations-copy-paste-select-all-are-disabled">here</a>. We've implemented it <a href="https://github.com/dendronhq/dendron/blob/master/packages/plugin-core/src/views/utils.ts">here</a> so that any webview that uses <code>WebViewUtils</code> to generate the HTML will come with the workaround. Make sure that keyboard events are allowed to propagate for this workaround to work. </p>
+<hr>
+<h2 id="children"><a aria-hidden="true" class="anchor-heading" href="#children"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Children</h2>
+<ol>
+<li><a href="https://wiki.dendron.so/notes/AoaqCwCQfZyPWW4e.html">Calendar</a></li>
+</ol>
+<hr>
+<h2 id="backlinks"><a aria-hidden="true" class="anchor-heading" href="#backlinks"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Backlinks</h2>
+<ul>
+<li><a href="https://wiki.dendron.so/notes/00e6f3d8-4243-42c7-8e4f-a074a1bd0ffb.html">Release Notes (version 0.44)</a></li>
+<li><a href="https://wiki.dendron.so/notes/PjXL1NKL7yHV0ExHnROBl.html">24 Custom Theming</a></li>
+<li><a href="https://wiki.dendron.so/notes/6293d9dc-9bd3-4b01-8428-34d8256f0a32.html">Dev</a></li>
+</ul><span id="navId" data="a0240c63-2000-4542-a0ba-d570f42323b9"></span>
+
+                
+      </section>
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+        <div class="thumbs feedback_trigger right-bottom"></div>
+
+        
+          <hr>
+          <footer>
+            
+            
+
+            
+              <div class="d-flex mt-2">
+              <p class="text-small text-grey-dk-000 mb-0 mr-2">
+                Page last modified: <span class="d-inline-block">10/4/2021</span>.
+              </p>
+            
+                
+                  <p class="text-small text-grey-dk-000 mb-0">
+                    <a href="https://github.com/dendronhq/dendron-site/edit/master/vault/pkg.dendron-next-server.arch.md" id="edit-this-page">Edit this page on GitHub</a>
+                  </p>
+                
+              </div>
+          </footer>
+        
+    </div>
+</div>
+
+
+  
+
+  <div class="search-overlay"></div>
+
+</div>
+
+</body>
+</html>

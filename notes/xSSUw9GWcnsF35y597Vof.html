@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+  
+  <title>35 Easier Schemas - Dendron</title>
+  
+
+  <link
+    rel="shortcut icon"
+    href="https://wiki.dendron.so/favicon.ico"
+    type="image/x-icon"
+  />
+  <link
+    rel="stylesheet"
+    href="https://wiki.dendron.so/assets/css/just-the-docs-default.css"
+  />
+  <script
+    type="text/javascript"
+    src="https://wiki.dendron.so/assets/js/just-the-docs.js"
+  ></script>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.22.0/themes/prism.min.css"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css"
+    integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X"
+    crossorigin="anonymous"
+  />
+  <script
+    type="text/javascript"
+    src="https://wiki.dendron.so/assets/js/vendor/lunr.min.js"
+  ></script>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+   
+   
+  
+<meta name="description" content="Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.">
+<meta name="author" content="dendronhq">
+
+<link rel="canonical" href="https://wiki.dendron.so/notes/xSSUw9GWcnsF35y597Vof.html">
+
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://wiki.dendron.so/notes/xSSUw9GWcnsF35y597Vof.html">
+<meta property="og:description" content="Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.">
+<meta property="og:image" content="https://wiki.dendron.so/logo.png">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@dendronhq">
+<meta name="twitter:url" content="https://wiki.dendron.so/notes/xSSUw9GWcnsF35y597Vof.html">
+<meta name="twitter:description" content="Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.">
+<meta name="twitter:image" content="https://wiki.dendron.so/logo.png">
+
+
+  <meta property="og:title" content="35 Easier Schemas - Dendron" />
+  <meta name="twitter:title" content="35 Easier Schemas - Dendron" />
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-B0JN2HHCNY"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-B0JN2HHCNY');
+  </script>
+  
+</head>
+
+
+
+<body>
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+      <symbol id="svg-link" viewBox="0 0 24 24">
+        <title>Link</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-link">
+          <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+        </svg>
+      </symbol>
+      <symbol id="svg-search" viewBox="0 0 24 24">
+        <title>Search</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search">
+          <circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+      </symbol>
+      <symbol id="svg-menu" viewBox="0 0 24 24">
+        <title>Menu</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu">
+          <line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+      </symbol>
+      <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+        <title>Expand</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+          <polyline points="9 18 15 12 9 6"></polyline>
+        </svg>
+      </symbol>
+      <symbol id="svg-doc" viewBox="0 0 24 24">
+        <title>Document</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file">
+          <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path><polyline points="13 2 13 9 20 9"></polyline>
+        </svg>
+      </symbol>
+    </svg>
+
+    <div class="side-bar">
+      <div class="site-header">
+        <a href="https://wiki.dendron.so" class="site-title lh-tight">
+  <div class="site-logo"></div>
+
+ </a>
+        <a href="#" id="menu-button" class="site-button">
+          <svg viewBox="0 0 24 24" class="icon"><use xlink:href="#svg-menu"></use></svg>
+        </a>
+      </div>
+
+      <nav role="navigation" aria-label="Main" id="site-nav" class="site-nav">
+      </nav>
+      <footer class="site-footer">
+        🌱 with 💕 using <a href="https://www.dendron.so/"> Dendron 🌲 </a>
+      </footer>
+    </div>
+    <div class="main" id="top">
+        <div id="main-header" class="main-header">
+          
+            <div class="search">
+              <div class="search-input-wrap">
+                <input type="text" id="search-input" class="search-input" tabindex="0" placeholder="Search Dendron" aria-label="Search Dendron" autocomplete="off">
+                <label for="search-input" class="search-label"><svg viewBox="0 0 24 24" class="search-icon"><use xlink:href="#svg-search"></use></svg></label>
+              </div>
+              <div id="search-results" class="search-results"></div>
+            </div>
+          
+          
+    </div>
+    <div id="main-content-wrap" class="main-content-wrap">
+      
+        
+          <nav aria-label="Breadcrumb" class="breadcrumb-nav">
+            <ol class="breadcrumb-nav-list"><li class="breadcrumb-nav-list-item"><a href="https://wiki.dendron.so">Dendron</a></li><li class="breadcrumb-nav-list-item"><a href="https://wiki.dendron.so/notes/f143ca38-dcc6-4cd3-b84b-997aec1160ef.html">Rfc</a></li><li class="breadcrumb-nav-list-item">35 Easier Schemas</li></ol>
+          </nav>
+        
+      
+      <div id="main-content" class="main-content" role="main">
+
+        
+        
+        <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+        <script>mermaid.initialize({startOnLoad:true});</script>
+        
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+        
+        
+
+        
+
+        
+
+        
+
+        <script>
+          $(function () {
+            $('[data-toggle="popover"]').popover({html: true})
+          })
+        </script>
+
+        
+
+<div id="main" role="main">
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="35 Easier Schemas">
+    
+    <meta itemprop="datePublished" content="2021-10-07T13:32:34+00:00">
+    <meta itemprop="dateModified" content="2021-10-17T14:00:36+00:00">
+
+    <div class="page__inner-wrap">
+
+      
+
+      <section class="page__content" itemprop="text">
+
+        
+
+        <h1 id="35-easier-schemas"><a aria-hidden="true" class="anchor-heading" href="#35-easier-schemas"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>35 Easier Schemas</h1>
+<h2 id="goals"><a aria-hidden="true" class="anchor-heading" href="#goals"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Goals</h2>
+<h3 id="goals-of-this-spec"><a aria-hidden="true" class="anchor-heading" href="#goals-of-this-spec"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Goals of this Spec</h3>
+<p>Working with schemas is difficult. It can take users many hours to debug why a template is not being applied to a note. The goal of this spec is to make it easier for users to create, apply, modify, and understand schemas.</p>
+<h2 id="context"><a aria-hidden="true" class="anchor-heading" href="#context"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Context</h2>
+<h3 id="whats-difficult-about-schemas"><a aria-hidden="true" class="anchor-heading" href="#whats-difficult-about-schemas"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>What's difficult about schemas</h3>
+<p>Some common user scenarios that pose usability problems:</p>
+<ol>
+<li>I created a new note. I can't figure out why my schema template is not being applied.</li>
+<li>Looking at a schema definition file, it's hard to view parent to child relationships, or view unintentional breakages in a lineage (perhaps due to spelling errors) while authoring them.</li>
+<li>I see a "schema malformed" error message when I start Dendron, but I don't know where or even which .yaml file is causing it.</li>
+<li>I can't apply a template to all descendants in a particular hierarchy.</li>
+</ol>
+<h3 id="schema-functionality-and-syntax"><a aria-hidden="true" class="anchor-heading" href="#schema-functionality-and-syntax"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Schema Functionality and Syntax</h3>
+<p>There are two primary functionalities that we get out of schemas and schema templates:</p>
+<ol>
+<li>Getting suggestions for new child note names based off of their relative position in a hierarchy</li>
+<li>Having templates auto-applied to a note based on the note fname <strong>and</strong> its relative position in a hierarchy</li>
+</ol>
+<p>Here are some examples of common use cases of schemas:</p>
+<p>For reference, and to highlight some of the difficulties around authoring schemas, here is the schema syntax for several common use cases for schemas:</p>
+<h4 id="apply-templates-to-all-direct-children-of-a-note-foo"><a aria-hidden="true" class="anchor-heading" href="#apply-templates-to-all-direct-children-of-a-note-foo"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Apply templates to all direct children of a note 'foo'</h4>
+<p>Syntax (for reference):</p>
+<pre class="language-yml"><code class="language-yml"><span class="token key atrule">schemas</span><span class="token punctuation">:</span>
+<span class="token punctuation">-</span> <span class="token key atrule">id</span><span class="token punctuation">:</span> dendron
+  <span class="token key atrule">parent</span><span class="token punctuation">:</span> root
+  <span class="token key atrule">children</span><span class="token punctuation">:</span>
+    <span class="token punctuation">-</span> rfc
+<span class="token punctuation">-</span> <span class="token key atrule">id</span><span class="token punctuation">:</span> rfc
+  <span class="token key atrule">children</span><span class="token punctuation">:</span> 
+    <span class="token punctuation">-</span> rfcInstance
+<span class="token punctuation">-</span> <span class="token key atrule">id</span><span class="token punctuation">:</span> rfcInstance
+  <span class="token key atrule">pattern</span><span class="token punctuation">:</span> <span class="token string">'*'</span>
+  <span class="token key atrule">template</span><span class="token punctuation">:</span>
+    <span class="token key atrule">id</span><span class="token punctuation">:</span> templates.rfc
+    <span class="token key atrule">type</span><span class="token punctuation">:</span> note
+</code></pre>
+<h4 id="apply-templates-to-descendants-of-a-note-foo-at-a-particular-hierarchy"><a aria-hidden="true" class="anchor-heading" href="#apply-templates-to-descendants-of-a-note-foo-at-a-particular-hierarchy"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Apply templates to descendants of a note 'foo' at a particular hierarchy</h4>
+<p>Syntax:</p>
+<pre class="language-yml"><code class="language-yml"><span class="token key atrule">schemas</span><span class="token punctuation">:</span>
+  <span class="token punctuation">-</span> <span class="token key atrule">id</span><span class="token punctuation">:</span> user
+    <span class="token key atrule">title</span><span class="token punctuation">:</span> user
+    <span class="token key atrule">parent</span><span class="token punctuation">:</span> root
+    <span class="token key atrule">children</span><span class="token punctuation">:</span>
+      <span class="token punctuation">-</span> jonathan
+  <span class="token punctuation">-</span> <span class="token key atrule">id</span><span class="token punctuation">:</span> jonathan
+    <span class="token key atrule">children</span><span class="token punctuation">:</span>
+      <span class="token punctuation">-</span> journal
+  <span class="token punctuation">-</span> <span class="token key atrule">id</span><span class="token punctuation">:</span> journal
+    <span class="token key atrule">title</span><span class="token punctuation">:</span> journal
+    <span class="token key atrule">desc</span><span class="token punctuation">:</span> Jonathan's Daily Journal
+    <span class="token key atrule">parent</span><span class="token punctuation">:</span> jonathan
+    <span class="token key atrule">children</span><span class="token punctuation">:</span>
+      <span class="token punctuation">-</span> year
+  <span class="token punctuation">-</span> <span class="token key atrule">id</span><span class="token punctuation">:</span> year
+    <span class="token key atrule">title</span><span class="token punctuation">:</span> year
+    <span class="token key atrule">pattern</span><span class="token punctuation">:</span> <span class="token string">"[0-2][0-9][0-9][0-9]"</span>
+    <span class="token key atrule">children</span><span class="token punctuation">:</span> 
+      <span class="token punctuation">-</span> month
+  <span class="token punctuation">-</span> <span class="token key atrule">id</span><span class="token punctuation">:</span> month
+    <span class="token key atrule">title</span><span class="token punctuation">:</span> month
+    <span class="token key atrule">pattern</span><span class="token punctuation">:</span> <span class="token string">"[0-9][0-9]"</span>
+    <span class="token key atrule">children</span><span class="token punctuation">:</span>
+      <span class="token punctuation">-</span> day
+  <span class="token punctuation">-</span> <span class="token key atrule">id</span><span class="token punctuation">:</span> day
+    <span class="token key atrule">title</span><span class="token punctuation">:</span> day
+    <span class="token key atrule">pattern</span><span class="token punctuation">:</span> <span class="token string">"[0-9][0-9]"</span>
+    <span class="token key atrule">template</span><span class="token punctuation">:</span>
+      <span class="token key atrule">id</span><span class="token punctuation">:</span> user.jonathan.templates.journal
+      <span class="token key atrule">type</span><span class="token punctuation">:</span> note
+</code></pre>
+<h4 id="create-schemas-for-note-auto-suggestions"><a aria-hidden="true" class="anchor-heading" href="#create-schemas-for-note-auto-suggestions"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Create Schemas for Note Auto-Suggestions</h4>
+<p>Syntax:</p>
+<pre class="language-yml"><code class="language-yml"><span class="token key atrule">version</span><span class="token punctuation">:</span> <span class="token number">1</span>
+<span class="token key atrule">schemas</span><span class="token punctuation">:</span>
+<span class="token comment"># this will match "cli.*" notes</span>
+<span class="token punctuation">-</span> <span class="token key atrule">id</span><span class="token punctuation">:</span> cli 
+  <span class="token comment"># human readable description of hierarchy</span>
+  <span class="token key atrule">desc</span><span class="token punctuation">:</span> command line interface reference
+  <span class="token comment"># add this to the domain of your schema hierarchy</span>
+  <span class="token key atrule">parent</span><span class="token punctuation">:</span> root
+  <span class="token comment"># when a schema is a namespace, it can have arbitrary children. equivalent to cli.* glob pattern</span>
+  <span class="token key atrule">namespace</span><span class="token punctuation">:</span> <span class="token boolean important">true</span> 
+  <span class="token key atrule">children</span><span class="token punctuation">:</span>
+    <span class="token punctuation">-</span> cmd
+    <span class="token punctuation">-</span> env
+<span class="token comment"># will match cli.*.env</span>
+<span class="token punctuation">-</span> <span class="token key atrule">id</span><span class="token punctuation">:</span> env
+  <span class="token key atrule">desc</span><span class="token punctuation">:</span> cli specific env variables
+<span class="token comment"># will match cli.*.cmd.*</span>
+<span class="token punctuation">-</span> <span class="token key atrule">id</span><span class="token punctuation">:</span> cmd
+  <span class="token key atrule">desc</span><span class="token punctuation">:</span> subcommands 
+  <span class="token key atrule">namespace</span><span class="token punctuation">:</span> <span class="token boolean important">true</span>
+</code></pre>
+<blockquote>
+<p>Author's Note: I find it confusing that <code>env</code> is specified as a child of <code>cli</code>, but in the hierarchy it appears as a grandchild - <code>cli.*.env</code>. In general, I'm unsure when to use <code>namespace:true</code> or not. Is there a way to make this more intuitive?</p>
+</blockquote>
+<h2 id="proposal"><a aria-hidden="true" class="anchor-heading" href="#proposal"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Proposal</h2>
+<p>We can help users by </p>
+<ol>
+<li>Creating more intuitive ways for users to create schemas </li>
+<li>Improve ways to diagnose bugs with schemas</li>
+<li>Expanding the schema syntax to make them easier to both write and read, while also allowing for schemas to apply to descendants and not just direct children.</li>
+</ol>
+<h2 id="alternative-ways-to-author-schemas"><a aria-hidden="true" class="anchor-heading" href="#alternative-ways-to-author-schemas"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Alternative Ways to Author Schemas</h2>
+<p>Currently, the only way to author schemas is to manually create a *.schema.yml file by hand. However, a more natural user workflow is that they have first authored some notes and then wish to generate a schema based off their new note structure so that they can apply templates or name suggestions when creating more notes.</p>
+<h3 id="new-command---apply-template-to-hierarchy"><a aria-hidden="true" class="anchor-heading" href="#new-command---apply-template-to-hierarchy"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>New Command - <code>Apply Template to Hierarchy</code></h3>
+<p>This command would allow users to apply a schema template to their current note hierarchy. </p>
+<p>Say a user has a note opened at <code>daily.journal.2021.01.01</code>.  The user wants to apply a template to this note and all other notes matching the note pattern <code>daily.journal.[0-2][0-9][0-9][0-9].[0-9][0-9].[0-9][0-9]</code></p>
+<p>Instead of having to try to manually create the schema.yml definition by hand, they run a command <code>Apply Template to Hierarchy</code>.</p>
+<p><strong>UI Progression:</strong></p>
+<ol>
+<li>
+<p>Quick Input Box - Select Hierarchy Level to Apply Template. By default, we will start at one hierarchy up from the current note. In our example, the quick input box will show </p>
+<p><code>daily.journal.2021.01.*</code> </p>
+<p>Furthermore, there will be a non-selectable quickpick (or some other UI control) that will display in real time the notes that match the current glob pattern. This provides instant feedback on whether their pattern is matching any existing notes or not and can help them with the pattern creation.</p>
+<p>The user can then adjust the pattern and hierarchy matching to the level that they want. In this case, they modify the quick input box to </p>
+<p><code>daily.journal.*.*.*</code></p>
+<p>or perhaps alternatively,</p>
+<p><code>daily.journal.[0-2][0-9][0-9][0-9].[0-9][0-9]</code></p>
+<p><em>Perhaps we can be smart and recognize a year-month-date pattern and auto-suggest daily.journal.[0-2][0-9][0-9][0-9].[0-9][0-9] from the start in this case, since the year-month-date or other date patterns are the most common example of pattern matching</em></p>
+<p>They see in the drop down feedback that this matches several notes in their hierarchy so they can be confident this is working. They click confirm. This value will be used to set the schema definition.</p>
+<p><strong>Example</strong></p>
+<p>Given the follow notes in the workspace:</p>
+<pre><code>daily
+└── journal
+    ├── 2021
+    │   ├── 01
+    │   │   └── 01
+    │   └── 05
+    │       └── 01
+    └── 2999
+        └── 01
+            └── 01│
+</code></pre>
+<p><em>matches</em> <code>daily.journal.2021.01.01</code>:
+<img src="https://org-dendron-public-assets.s3.amazonaws.com/images/rfc-35-template-1.png"></p>
+<p><em>matches</em> <code>daily.journal.2021.01.01</code> <em>and</em> <code>daily.journal.2021.05.01</code>
+<img src="https://org-dendron-public-assets.s3.amazonaws.com/images/rfc-35-template-2.png"></p>
+<p><em>maybe we can auto-detect year-month-date pattern and provide a more precise glob pattern</em>
+<img src="https://org-dendron-public-assets.s3.amazonaws.com/images/rfc-35-template-3.png"></p>
+<p><em>user forgot the last set of </em> <code>[0-9].[0-9].</code> <em>Warning showed to user, but they can continue if this is really the pattern they want.</em>
+<img src="https://org-dendron-public-assets.s3.amazonaws.com/images/rfc-35-template-4.png"></p>
+</li>
+<li>
+<p>We ask the user to pick a name for this schema. By default, the value will be filled in to the last non-wildcard/regex hierarchy, so here it would be prefilled as <code>daily.journal</code>. The user can change the name in the input box.</p>
+</li>
+<li>
+<p>We ask them if they would like to apply a template to this schema. We provide a lookup control to allow them to either specify no template, pick an existing note to create a template, or create a new note to be the template. </p>
+</li>
+<li>
+<p>Depending on whether or not a new template was specified</p>
+<ol>
+<li>If either no template was specified, or an existing template was specified, we will then auto-generate a schema.yml definition file for the user.  We will then open the schema.yml file in their editor.</li>
+<li>If a new template name is specified, we will create a new note for them. The new note will have some placeholder text along the lines of "You can enter your template content here". We will also open the schema.yml file that has been created, but the new template file should be the one that's in focus.</li>
+</ol>
+</li>
+<li>
+<p>To confirm what we've done for the user, we'll show an information message box with the following message:</p>
+<blockquote>
+<p>A schema definition has been created at <code>daily.journal.schema.yml</code>. All new notes you create matching the schema pattern will have the template applied.</p>
+</blockquote>
+<p>We can adjust the message based on whether they chose to use a template or not. A key part of the message is "all <strong>new</strong> notes" - we don't want users to be confused why a template was not applied to their pre-existing note, <code>daily.journal.2021.01.01</code>.</p>
+</li>
+</ol>
+<h3 id="new-command---create-schema-from-existing-hierarchy"><a aria-hidden="true" class="anchor-heading" href="#new-command---create-schema-from-existing-hierarchy"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>New Command - <code>Create Schema From Existing Hierarchy</code></h3>
+<p>A user has created a set of notes in a hierarchy and wants to re-use the pattern elsewhere in their vault. For example, let's say they've created some notes for python in a pattern they like and want this schema when authoring notes for other languages:</p>
+<pre><code>languages
+└── python
+    └── data
+        ├── bool
+        ├── integer
+        └── string
+</code></pre>
+<p>They wish to extend this schema to other languages for future notes:</p>
+<pre><code>languages
+└── python
+    └── data
+        ├── bool
+        ├── integer
+        └── string
+└── java
+    └── data
+        ├── bool
+        ├── integer
+        └── string
+└── c#
+    └── data
+        ├── bool
+        ├── integer
+        └── string
+</code></pre>
+<p>The user's desired schema for this pattern is:</p>
+<pre class="language-yml"><code class="language-yml"><span class="token key atrule">version</span><span class="token punctuation">:</span> <span class="token number">1</span>
+<span class="token key atrule">imports</span><span class="token punctuation">:</span> <span class="token punctuation">[</span><span class="token punctuation">]</span>
+<span class="token key atrule">schemas</span><span class="token punctuation">:</span>
+  <span class="token punctuation">-</span> <span class="token key atrule">id</span><span class="token punctuation">:</span> languages
+    <span class="token key atrule">children</span><span class="token punctuation">:</span>
+      <span class="token punctuation">-</span> data
+    <span class="token key atrule">title</span><span class="token punctuation">:</span> languages
+    <span class="token key atrule">parent</span><span class="token punctuation">:</span> root
+    <span class="token key atrule">namespace</span><span class="token punctuation">:</span> <span class="token boolean important">true</span>
+  <span class="token punctuation">-</span> <span class="token key atrule">id</span><span class="token punctuation">:</span> data
+    <span class="token key atrule">children</span><span class="token punctuation">:</span>
+      <span class="token punctuation">-</span> bool
+      <span class="token punctuation">-</span> integer
+      <span class="token punctuation">-</span> string
+  <span class="token punctuation">-</span> <span class="token key atrule">id</span><span class="token punctuation">:</span> bool
+  <span class="token punctuation">-</span> <span class="token key atrule">id</span><span class="token punctuation">:</span> integer
+  <span class="token punctuation">-</span> <span class="token key atrule">id</span><span class="token punctuation">:</span> string
+</code></pre>
+<p><strong>UI Progression:</strong></p>
+<p><em>Assertion: If the user wants to create a schema for the purpose of having pattern suggestion benefits, then some part of the hierarchy needs to be a namespace for it to be useful.</em></p>
+<ol>
+<li>
+<p>User currently has <code>languages.python.data.bool</code> opened in the editor. They run the <code>Create Schema From Existing Hierarchy</code> command.</p>
+</li>
+<li>
+<p>We bring up a quick pick for the purpose of figuring out where the user wants to specify the namespace. The desired glob pattern here is <code>languages.*.data.bool</code>.</p>
+<p>The options of the quickpick are the levels of the hierarchy, in this case it would be</p>
+<ul>
+<li>languages </li>
+<li>python</li>
+<li>data</li>
+<li>bool</li>
+</ul>
+<p>The prompt would be</p>
+<blockquote>
+<p>Select hierarchy level whose children will be added to the schema definition.</p>
+</blockquote>
+<p><em><strong>Open Question</strong>: Can we improve the wording for this quick pick?</em></p>
+<p>User selects 'python'</p>
+<p><img src="https://org-dendron-public-assets.s3.amazonaws.com/images/rfc-35-schema-1.png"></p>
+</li>
+</ol>
+<ol start="3">
+<li>
+<p>We progress to another quickpick for the user to specify which parts of their hierarchy they would like to add to the schema. </p>
+<p>Prompt:</p>
+<blockquote>
+<p>Select components to include in the schema definition</p>
+</blockquote>
+<p>Here, the quick pick items would be everything under <code>languages.python</code>:</p>
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" checked disabled> <code>languages.python.data</code></li>
+<li class="task-list-item"><input type="checkbox" checked disabled> <code>languages.python.data.bool</code></li>
+<li class="task-list-item"><input type="checkbox" checked disabled> <code>languages.python.data.integer</code></li>
+<li class="task-list-item"><input type="checkbox" checked disabled> <code>languages.python.data.string</code></li>
+</ul>
+<p>By default, everything is selected.  If there's anything that the user does not want to include, they can uncheck it.  If a user unchecks a hierarchy node that isn't a leaf, we'll uncheck all children as well.  For example, say the user also has some notes under <code>languages.python.machine-learning</code> that they don't want to include:</p>
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" checked disabled> <code>languages.python.data</code></li>
+<li class="task-list-item"><input type="checkbox" checked disabled> <code>languages.python.data.bool</code></li>
+<li class="task-list-item"><input type="checkbox" checked disabled> <code>languages.python.data.integer</code></li>
+<li class="task-list-item"><input type="checkbox" checked disabled> <code>languages.python.data.string</code></li>
+<li class="task-list-item"><input type="checkbox" disabled> <code>languages.python.machine-learning</code></li>
+<li class="task-list-item"><input type="checkbox" disabled> <code>languages.python.machine-learning.pandas</code></li>
+<li class="task-list-item"><input type="checkbox" disabled> <code>languages.python.machine-learning.scipy</code></li>
+</ul>
+<p>Unchecking <code>languages.python.machine-learning</code> will also uncheck <code>languages.python.machine-learning.pandas</code> and <code>languages.python.machine-learning.scipy</code> as well.</p>
+<p>Furthermore, in the detail property of each quick pick line, we will provide some helpful text with the following:</p>
+<blockquote>
+<p>will match patterns like <code>languages.foo.data.bool</code></p>
+</blockquote>
+<p>After completing the selection, the user confirms to continue.</p>
+<p><img src="https://org-dendron-public-assets.s3.amazonaws.com/images/rfc-35-schema-2.png"></p>
+</li>
+<li>
+<p>Final input box asks the user to enter a name for this schema. By default, <code>languages</code> will be in the input box. For this example, let's say user sticks with the default</p>
+</li>
+<li>
+<p>User confirms and a file is created from the input from the previous step <code>languages.schema.yml</code>. The schema has the following contents and is auto-applied to the workspace:</p>
+</li>
+</ol>
+<pre class="language-yml"><code class="language-yml"><span class="token key atrule">version</span><span class="token punctuation">:</span> <span class="token number">1</span>
+<span class="token key atrule">imports</span><span class="token punctuation">:</span> <span class="token punctuation">[</span><span class="token punctuation">]</span>
+<span class="token key atrule">schemas</span><span class="token punctuation">:</span>
+  <span class="token punctuation">-</span> <span class="token key atrule">id</span><span class="token punctuation">:</span> languages
+    <span class="token key atrule">children</span><span class="token punctuation">:</span>
+      <span class="token punctuation">-</span> data
+    <span class="token key atrule">title</span><span class="token punctuation">:</span> languages
+    <span class="token key atrule">parent</span><span class="token punctuation">:</span> root
+    <span class="token key atrule">namespace</span><span class="token punctuation">:</span> <span class="token boolean important">true</span>
+  <span class="token punctuation">-</span> <span class="token key atrule">id</span><span class="token punctuation">:</span> data
+    <span class="token key atrule">children</span><span class="token punctuation">:</span>
+      <span class="token punctuation">-</span> bool
+      <span class="token punctuation">-</span> integer
+      <span class="token punctuation">-</span> string
+  <span class="token punctuation">-</span> <span class="token key atrule">id</span><span class="token punctuation">:</span> bool
+  <span class="token punctuation">-</span> <span class="token key atrule">id</span><span class="token punctuation">:</span> integer
+  <span class="token punctuation">-</span> <span class="token key atrule">id</span><span class="token punctuation">:</span> string
+</code></pre>
+<ol start="6">
+<li>
+<p>We provide an information message box that says </p>
+<blockquote>
+<p><code>languages.schema.yml</code> has been created. If you would like to modify the schema, you can make edits to this file.</p>
+</blockquote>
+</li>
+</ol>
+<h3 id="improve-diagnosability-of-errors"><a aria-hidden="true" class="anchor-heading" href="#improve-diagnosability-of-errors"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Improve Diagnosability of Errors</h3>
+<p>A big user pain piont is that if something is wrong with a schema, it can be quite difficult to figure out why. The above commands should help with generating working schemas from the start, but in the case of when a user wants to modify and enhance their schemas, this remains a problem.</p>
+<p>One way to improve the experience would be to reduce the turnaround time between modifying a schema and testing if it's working. There are several ways we can improve on this:</p>
+<ul>
+<li>
+<p>Remove need to reload workspace after updating schema (this is already being tracked in our backlog)</p>
+</li>
+<li>
+<p>Improve the "schema malformed" error message - can we at the very least point to which schema file is causing the problem?</p>
+<p>  <img src="https://org-dendron-public-assets.s3.amazonaws.com/images/rfc-35-error-1.png"></p>
+</li>
+<li>
+<p><em>(lower priority)</em> Create a new command called 'Test Schema'. Running this while having <code>languages.schema.yml</code> would return back a summary with the notes in the workspace currently matching the schema(s). (This is similar to the feedback we get in lookup with the icons, but would be more direct)</p>
+</li>
+<li>
+<p><em>(lower priority)</em> When a note is created that has a schema template applied, show an information message informing the user which schema definition caused the application of the template. Often times, I find myself doing code lookup to figure out how a schema template is working (this isn't that difficult, but it would be faster if a user is aware of why a template is getting applied).</p>
+</li>
+</ul>
+<h2 id="expanded-schema-definition-syntax"><a aria-hidden="true" class="anchor-heading" href="#expanded-schema-definition-syntax"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Expanded Schema Definition Syntax</h2>
+<h3 id="inline-schemas"><a aria-hidden="true" class="anchor-heading" href="#inline-schemas"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Inline Schemas</h3>
+<p>Allow inline schemas such as the following layout. This allows for child schemas to collapse, adds clarity to the relationship between parent and child nodes, and removes the need to come up with ids when patterns are used.</p>
+<pre class="language-yml"><code class="language-yml">    <span class="token punctuation">-</span> <span class="token key atrule">id</span><span class="token punctuation">:</span> daily
+      <span class="token key atrule">children</span><span class="token punctuation">:</span>
+        <span class="token punctuation">-</span> <span class="token key atrule">pattern</span><span class="token punctuation">:</span> journal
+        <span class="token key atrule">children</span><span class="token punctuation">:</span> 
+            <span class="token punctuation">-</span> <span class="token key atrule">pattern</span><span class="token punctuation">:</span> <span class="token string">"[0-2][0-9][0-9][0-9]"</span>
+            <span class="token key atrule">title</span><span class="token punctuation">:</span> year
+            <span class="token key atrule">children</span><span class="token punctuation">:</span> 
+                <span class="token punctuation">-</span> <span class="token key atrule">pattern</span><span class="token punctuation">:</span> <span class="token string">"[0-1][0-9]"</span>
+                <span class="token key atrule">title</span><span class="token punctuation">:</span> month
+                <span class="token key atrule">children</span><span class="token punctuation">:</span> 
+                    <span class="token punctuation">-</span> <span class="token key atrule">pattern</span><span class="token punctuation">:</span> <span class="token string">"[0-3][0-9]"</span>
+                    <span class="token key atrule">title</span><span class="token punctuation">:</span> day
+                    <span class="token key atrule">template</span><span class="token punctuation">:</span>
+                        <span class="token key atrule">id</span><span class="token punctuation">:</span> templates.foo
+                        <span class="token key atrule">type</span><span class="token punctuation">:</span> note
+</code></pre>
+<p>Currently, the configuration in the example above would be implemented with the syntax below:</p>
+<pre class="language-yml"><code class="language-yml">  <span class="token punctuation">-</span> <span class="token key atrule">id</span><span class="token punctuation">:</span> daily
+    <span class="token key atrule">children</span><span class="token punctuation">:</span> 
+      <span class="token punctuation">-</span> journal
+  <span class="token punctuation">-</span> <span class="token key atrule">id</span><span class="token punctuation">:</span> journal
+    <span class="token key atrule">pattern</span><span class="token punctuation">:</span> journal
+    <span class="token key atrule">children</span><span class="token punctuation">:</span> 
+      <span class="token punctuation">-</span> year
+  <span class="token punctuation">-</span> <span class="token key atrule">id</span><span class="token punctuation">:</span> year
+    <span class="token key atrule">pattern</span><span class="token punctuation">:</span> <span class="token string">"[0-2][0-9][0-9][0-9]"</span>
+    <span class="token key atrule">children</span><span class="token punctuation">:</span>
+      <span class="token punctuation">-</span> month
+  <span class="token punctuation">-</span> <span class="token key atrule">id</span><span class="token punctuation">:</span> month
+    <span class="token key atrule">pattern</span><span class="token punctuation">:</span> <span class="token string">"[0-1][0-9]"</span>
+    <span class="token key atrule">children</span><span class="token punctuation">:</span> 
+      <span class="token punctuation">-</span> day
+  <span class="token punctuation">-</span> <span class="token key atrule">id</span><span class="token punctuation">:</span> day
+    <span class="token key atrule">pattern</span><span class="token punctuation">:</span> <span class="token string">"[0-3][0-9]"</span>
+    <span class="token key atrule">template</span><span class="token punctuation">:</span>
+      <span class="token key atrule">id</span><span class="token punctuation">:</span> templates.foo
+      <span class="token key atrule">type</span><span class="token punctuation">:</span> note
+</code></pre>
+<p>Manually matching up the ID's in the <code>children</code> field is error prone - any typos cause the schema to no longer be applied.</p>
+<h3 id="support-globstar--to-apply-a-schema-to-all-descendants"><a aria-hidden="true" class="anchor-heading" href="#support-globstar--to-apply-a-schema-to-all-descendants"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Support globstar ** to apply a schema to all descendants</h3>
+<p>Currently, there isn't a way to make a note match a schema at a level lower than a direct child. We should expand the schema syntax to allow for the globstar pattern (**). For example, suppose we have the following note hierarchy:</p>
+<pre><code>parent_a
+└── child_a
+    ├── grandchild_a1
+    └── grandchild_a2
+└── child_b
+    ├── grandchild_b1
+    └── grandchild_b2
+</code></pre>
+<p>The user wants to apply a template to all descendants of <code>parent</code> - so all <code>child_*</code> and <code>grandchild_*</code>. </p>
+<p>Proposal: We expand the child pattern syntax to support globstar **:</p>
+<pre class="language-yml"><code class="language-yml"><span class="token key atrule">schemas</span><span class="token punctuation">:</span>
+<span class="token punctuation">-</span> <span class="token key atrule">id</span><span class="token punctuation">:</span> parent_a
+  <span class="token key atrule">parent</span><span class="token punctuation">:</span> root
+  <span class="token key atrule">children</span><span class="token punctuation">:</span>
+    <span class="token punctuation">-</span> descendant
+<span class="token punctuation">-</span> <span class="token key atrule">id</span><span class="token punctuation">:</span> descendant
+  <span class="token key atrule">parent</span><span class="token punctuation">:</span> parent_a
+  <span class="token key atrule">pattern</span><span class="token punctuation">:</span> <span class="token string">'**/*'</span>
+  <span class="token key atrule">template</span><span class="token punctuation">:</span>
+    <span class="token key atrule">id</span><span class="token punctuation">:</span> templates.foo
+    <span class="token key atrule">type</span><span class="token punctuation">:</span> note
+</code></pre>
+<p>This would apply the <code>templates.foo</code> template to <code>child_a</code>, <code>child_b</code>, <code>grandchild_a1</code>, <code>grandchild_a2</code>, <code>grandchild_b1</code>, <code>grandchild_b2</code> in the example above. The <code>parent</code> field must be present when a globstar is used in the pattern.</p>
+<h2 id="tradeoffs"><a aria-hidden="true" class="anchor-heading" href="#tradeoffs"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Tradeoffs</h2>
+<p>These commands will generate new schema files on each invocation. This may lead to several usability problems:</p>
+<ul>
+<li>if a user repeatedly runs the generate schema command (for example, they take several iterations before they land on what they want), this can generate many schema files.  Furthermore, these schema files may interfere with each other, as the current Dendron behavior is that the last schema overrides others, but which schema is the 'last' one is not clear. This may lead to user confusion. Perhaps to mitigate this, we can have some notification if we detect multiple schemas being matched on the same note.</li>
+<li>Running these commands will always generate a new schema file - this may make it more difficult for a user to integrate their new schema into their existing schema(s). They may need to manually move segments out of their newly generated schema into their existing one, which may be an error prone process.</li>
+</ul>
+<h2 id="discussion"><a aria-hidden="true" class="anchor-heading" href="#discussion"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Discussion</h2>
+<p><a href="https://github.com/dendronhq/dendron/discussions/1499">https://github.com/dendronhq/dendron/discussions/1499</a></p><span id="navId" data="xSSUw9GWcnsF35y597Vof"></span>
+
+                
+      </section>
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+        <div class="thumbs feedback_trigger right-bottom"></div>
+
+        
+          <hr>
+          <footer>
+            
+            
+
+            
+              <div class="d-flex mt-2">
+              <p class="text-small text-grey-dk-000 mb-0 mr-2">
+                Page last modified: <span class="d-inline-block">10/17/2021</span>.
+              </p>
+            
+                
+                  <p class="text-small text-grey-dk-000 mb-0">
+                    <a href="https://github.com/dendronhq/dendron-site/edit/master/vault/dendron.rfc.35-easier-schemas.md" id="edit-this-page">Edit this page on GitHub</a>
+                  </p>
+                
+              </div>
+          </footer>
+        
+    </div>
+</div>
+
+
+  
+
+  <div class="search-overlay"></div>
+
+</div>
+
+</body>
+</html>

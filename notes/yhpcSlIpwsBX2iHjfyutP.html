@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+  
+  <title>Debug - Dendron</title>
+  
+
+  <link
+    rel="shortcut icon"
+    href="https://wiki.dendron.so/favicon.ico"
+    type="image/x-icon"
+  />
+  <link
+    rel="stylesheet"
+    href="https://wiki.dendron.so/assets/css/just-the-docs-default.css"
+  />
+  <script
+    type="text/javascript"
+    src="https://wiki.dendron.so/assets/js/just-the-docs.js"
+  ></script>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.22.0/themes/prism.min.css"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css"
+    integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X"
+    crossorigin="anonymous"
+  />
+  <script
+    type="text/javascript"
+    src="https://wiki.dendron.so/assets/js/vendor/lunr.min.js"
+  ></script>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+   
+   
+  
+<meta name="description" content="Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.">
+<meta name="author" content="dendronhq">
+
+<link rel="canonical" href="https://wiki.dendron.so/notes/yhpcSlIpwsBX2iHjfyutP.html">
+
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://wiki.dendron.so/notes/yhpcSlIpwsBX2iHjfyutP.html">
+<meta property="og:description" content="Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.">
+<meta property="og:image" content="https://wiki.dendron.so/logo.png">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@dendronhq">
+<meta name="twitter:url" content="https://wiki.dendron.so/notes/yhpcSlIpwsBX2iHjfyutP.html">
+<meta name="twitter:description" content="Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.">
+<meta name="twitter:image" content="https://wiki.dendron.so/logo.png">
+
+
+  <meta property="og:title" content="Debug - Dendron" />
+  <meta name="twitter:title" content="Debug - Dendron" />
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-B0JN2HHCNY"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-B0JN2HHCNY');
+  </script>
+  
+</head>
+
+
+
+<body>
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+      <symbol id="svg-link" viewBox="0 0 24 24">
+        <title>Link</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-link">
+          <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+        </svg>
+      </symbol>
+      <symbol id="svg-search" viewBox="0 0 24 24">
+        <title>Search</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search">
+          <circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+      </symbol>
+      <symbol id="svg-menu" viewBox="0 0 24 24">
+        <title>Menu</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu">
+          <line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+      </symbol>
+      <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+        <title>Expand</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+          <polyline points="9 18 15 12 9 6"></polyline>
+        </svg>
+      </symbol>
+      <symbol id="svg-doc" viewBox="0 0 24 24">
+        <title>Document</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file">
+          <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path><polyline points="13 2 13 9 20 9"></polyline>
+        </svg>
+      </symbol>
+    </svg>
+
+    <div class="side-bar">
+      <div class="site-header">
+        <a href="https://wiki.dendron.so" class="site-title lh-tight">
+  <div class="site-logo"></div>
+
+ </a>
+        <a href="#" id="menu-button" class="site-button">
+          <svg viewBox="0 0 24 24" class="icon"><use xlink:href="#svg-menu"></use></svg>
+        </a>
+      </div>
+
+      <nav role="navigation" aria-label="Main" id="site-nav" class="site-nav">
+      </nav>
+      <footer class="site-footer">
+        🌱 with 💕 using <a href="https://www.dendron.so/"> Dendron 🌲 </a>
+      </footer>
+    </div>
+    <div class="main" id="top">
+        <div id="main-header" class="main-header">
+          
+            <div class="search">
+              <div class="search-input-wrap">
+                <input type="text" id="search-input" class="search-input" tabindex="0" placeholder="Search Dendron" aria-label="Search Dendron" autocomplete="off">
+                <label for="search-input" class="search-label"><svg viewBox="0 0 24 24" class="search-icon"><use xlink:href="#svg-search"></use></svg></label>
+              </div>
+              <div id="search-results" class="search-results"></div>
+            </div>
+          
+          
+    </div>
+    <div id="main-content-wrap" class="main-content-wrap">
+      
+        
+          <nav aria-label="Breadcrumb" class="breadcrumb-nav">
+            <ol class="breadcrumb-nav-list"><li class="breadcrumb-nav-list-item"><a href="https://wiki.dendron.so">Dendron</a></li><li class="breadcrumb-nav-list-item"><a href="https://wiki.dendron.so/notes/3489b652-cd0e-4ac8-a734-08094dc043eb.html">Development</a></li><li class="breadcrumb-nav-list-item"><a href="https://wiki.dendron.so/notes/cb22bd36-d45a-4ffd-a31e-96c4b39cb7fb.html">Testing</a></li><li class="breadcrumb-nav-list-item">Debug</li></ol>
+          </nav>
+        
+      
+      <div id="main-content" class="main-content" role="main">
+
+        
+        
+        <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+        <script>mermaid.initialize({startOnLoad:true});</script>
+        
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+        
+        
+
+        
+
+        
+
+        
+
+        <script>
+          $(function () {
+            $('[data-toggle="popover"]').popover({html: true})
+          })
+        </script>
+
+        
+
+<div id="main" role="main">
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Debug">
+    
+    <meta itemprop="datePublished" content="2021-08-31T20:26:30+00:00">
+    <meta itemprop="dateModified" content="2021-09-11T18:32:15+00:00">
+
+    <div class="page__inner-wrap">
+
+      
+
+      <section class="page__content" itemprop="text">
+
+        
+
+        <h1 id="debug"><a aria-hidden="true" class="anchor-heading" href="#debug"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Debug</h1>
+<h2 id="components"><a aria-hidden="true" class="anchor-heading" href="#components"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Components</h2>
+<h3 id="plugin-code"><a aria-hidden="true" class="anchor-heading" href="#plugin-code"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Plugin Code</h3>
+<p>You can put a breakpoint directly in any code that's part of <code>plugin-core</code> and it'll break at those points</p>
+<blockquote>
+<p>Kevin's Aside: If you need to debug a related package, I haven't found a good way to put a break point. Instead, I manually insert a <code>debugger</code> statement and vscode will break. Don't forget to remove the <code>debugger</code> statement </p>
+</blockquote>
+<h3 id="non-plugin-code"><a aria-hidden="true" class="anchor-heading" href="#non-plugin-code"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Non Plugin Code</h3>
+<p>To test non-plugin code, run the <code>debug one test (engine-test-utils)</code> task while having the test file open. Note that breakpoints won't break a lot of the times so if the test isn't breaking, manually add a <code>debugger</code> statement in the code. </p>
+<h3 id="git-related-tests"><a aria-hidden="true" class="anchor-heading" href="#git-related-tests"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Git Related Tests</h3>
+<p>Any tests that involve setting up git should use <a href="https://github.com/dendronhq/dendron/blob/master/packages/engine-test-utils/src/utils/git.ts">GitTestUtils</a>. This will help you create a git workspace with necessary commit history. </p>
+<p>You can see it being used <a href="https://github.com/dendronhq/dendron/blob/master/packages/engine-test-utils/src/__tests__/engine-server/workspace.spec.ts">here</a>.</p>
+<p>If a tests involve a remote git repository, use <code>tmpDir</code> to setup a <em>local remote</em>. Use <code>GitTestUtils</code> to create a repo and then push an dpull to the local remote.</p>
+<h3 id="engine-test"><a aria-hidden="true" class="anchor-heading" href="#engine-test"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Engine Test</h3>
+<ul>
+<li>pre-req:
+<ul>
+<li>read over the overall <a href="https://wiki.dendron.so/notes/c160ddce-edec-4f6e-841b-418d6030fa37.html#overview">design</a> for Dendron </li>
+</ul>
+</li>
+</ul>
+<p>Testing the engine in Dendron involves a little bit of setup because:</p>
+<ul>
+<li>it requires initializing the engine and seeding it with the right fixture for the test</li>
+<li>it might require the same functionality be tested in multiple environments (plugin, CLI, server, engine, etc)</li>
+<li>it might require using multiple test runners (dendron uses <code>jest</code> for all tests except for the <a href="https://wiki.dendron.so/notes/c160ddce-edec-4f6e-841b-418d6030fa37.html#dendron-plugin">dendron plugin</a> which uses <a href="https://wiki.dendron.so/notes/c84aa95c-83b9-4d52-90a1-eeec8f0ca84f.html#test-runner">mocha</a>)</li>
+</ul>
+<p>Because of the aforementioned issues, we've created the following two classes to make testing easier and re-usable across environments.</p>
+<h4 id="runenginetest"><a aria-hidden="true" class="anchor-heading" href="#runenginetest"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>runEngineTest</h4>
+<ul>
+<li>
+<p>setup a mock dendron environment</p>
+</li>
+<li>
+<p>initialize the dendron engine</p>
+</li>
+<li>
+<p>optionally seed engine with a preset</p>
+</li>
+<li>
+<p>NOTE: there are currently multiple versions of this which track multiple generations of engine design</p>
+<ul>
+<li>the most current version is <code>runEngineTestV5</code></li>
+<li>see example of usage <a href="https://github.com/dendronhq/dendron/blob/master/packages/engine-test-utils/src/__tests__/site.spec.ts#L84:L84">here</a></li>
+</ul>
+</li>
+</ul>
+<h4 id="testpresetentry"><a aria-hidden="true" class="anchor-heading" href="#testpresetentry"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>TestPresetEntry</h4>
+<ul>
+<li>
+<p><a href="https://github.com/dendronhq/dendron/blob/master/packages/common-test-utils/src/utilsv2.ts#L48:L48">code</a></p>
+</li>
+<li>
+<p>this helps us create a <code>TestPreset</code> which is to be used with <code>runEngineTest</code></p>
+</li>
+<li>
+<p>lets you add different lifecycle hooks as the engine is beign initialized</p>
+</li>
+<li>
+<p>NOTE: there are currently multiple versions of this</p>
+<ul>
+<li>the most current version is <code>TestPresetEntryV4</code></li>
+</ul>
+</li>
+</ul>
+<h2 id="profiling"><a aria-hidden="true" class="anchor-heading" href="#profiling"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Profiling</h2>
+<p>To profile code, we use the following pattern</p>
+<pre class="language-ts"><code class="language-ts"><span class="token keyword">let</span> ctx <span class="token operator">=</span> <span class="token string">"Some Context"</span>
+<span class="token keyword">let</span> duration<span class="token punctuation">;</span>
+<span class="token keyword">const</span> start <span class="token operator">=</span> process<span class="token punctuation">.</span><span class="token method function property-access">hrtime</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token comment">// ... some event to duration</span>
+duration <span class="token operator">=</span> <span class="token function">getDurationMilliseconds</span><span class="token punctuation">(</span>start<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token maybe-class-name">Logger</span><span class="token punctuation">.</span><span class="token method function property-access">info</span><span class="token punctuation">(</span><span class="token punctuation">{</span>ctx<span class="token punctuation">,</span> duration<span class="token punctuation">}</span><span class="token punctuation">)</span>
+<span class="token maybe-class-name">AnalyticsUtils</span><span class="token punctuation">.</span><span class="token method function property-access">track</span><span class="token punctuation">(</span><span class="token maybe-class-name">VSCodeEvents</span><span class="token punctuation">.</span><span class="token property-access"><span class="token maybe-class-name">Lookup_Show</span></span><span class="token punctuation">,</span> <span class="token punctuation">{</span>
+  duration<span class="token punctuation">,</span>
+  flavor<span class="token operator">:</span> opts<span class="token punctuation">.</span><span class="token property-access">flavor</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre>
+<hr>
+<h2 id="backlinks"><a aria-hidden="true" class="anchor-heading" href="#backlinks"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Backlinks</h2>
+<ul>
+<li><a href="https://wiki.dendron.so/notes/9yF0IDLdWksfkmas.html">Debug</a></li>
+</ul><span id="navId" data="yhpcSlIpwsBX2iHjfyutP"></span>
+
+                
+      </section>
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+        <div class="thumbs feedback_trigger right-bottom"></div>
+
+        
+          <hr>
+          <footer>
+            
+            
+
+            
+              <div class="d-flex mt-2">
+              <p class="text-small text-grey-dk-000 mb-0 mr-2">
+                Page last modified: <span class="d-inline-block">9/11/2021</span>.
+              </p>
+            
+                
+                  <p class="text-small text-grey-dk-000 mb-0">
+                    <a href="https://github.com/dendronhq/dendron-site/edit/master/vault/dendron.dev.qa.debug.md" id="edit-this-page">Edit this page on GitHub</a>
+                  </p>
+                
+              </div>
+          </footer>
+        
+    </div>
+</div>
+
+
+  
+
+  <div class="search-overlay"></div>
+
+</div>
+
+</body>
+</html>

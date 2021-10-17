@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+  
+  <title>Cook Book - Dendron</title>
+  
+
+  <link
+    rel="shortcut icon"
+    href="https://wiki.dendron.so/favicon.ico"
+    type="image/x-icon"
+  />
+  <link
+    rel="stylesheet"
+    href="https://wiki.dendron.so/assets/css/just-the-docs-default.css"
+  />
+  <script
+    type="text/javascript"
+    src="https://wiki.dendron.so/assets/js/just-the-docs.js"
+  ></script>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.22.0/themes/prism.min.css"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css"
+    integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X"
+    crossorigin="anonymous"
+  />
+  <script
+    type="text/javascript"
+    src="https://wiki.dendron.so/assets/js/vendor/lunr.min.js"
+  ></script>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+   
+   
+  
+<meta name="description" content="Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.">
+<meta name="author" content="dendronhq">
+
+<link rel="canonical" href="https://wiki.dendron.so/notes/a80f36d9-01d0-4c5a-a228-867b093a4913.html">
+
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://wiki.dendron.so/notes/a80f36d9-01d0-4c5a-a228-867b093a4913.html">
+<meta property="og:description" content="Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.">
+<meta property="og:image" content="https://wiki.dendron.so/logo.png">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@dendronhq">
+<meta name="twitter:url" content="https://wiki.dendron.so/notes/a80f36d9-01d0-4c5a-a228-867b093a4913.html">
+<meta name="twitter:description" content="Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.">
+<meta name="twitter:image" content="https://wiki.dendron.so/logo.png">
+
+
+  <meta property="og:title" content="Cook Book - Dendron" />
+  <meta name="twitter:title" content="Cook Book - Dendron" />
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-B0JN2HHCNY"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-B0JN2HHCNY');
+  </script>
+  
+</head>
+
+
+
+<body>
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+      <symbol id="svg-link" viewBox="0 0 24 24">
+        <title>Link</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-link">
+          <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+        </svg>
+      </symbol>
+      <symbol id="svg-search" viewBox="0 0 24 24">
+        <title>Search</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search">
+          <circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+      </symbol>
+      <symbol id="svg-menu" viewBox="0 0 24 24">
+        <title>Menu</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu">
+          <line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+      </symbol>
+      <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+        <title>Expand</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+          <polyline points="9 18 15 12 9 6"></polyline>
+        </svg>
+      </symbol>
+      <symbol id="svg-doc" viewBox="0 0 24 24">
+        <title>Document</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file">
+          <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path><polyline points="13 2 13 9 20 9"></polyline>
+        </svg>
+      </symbol>
+    </svg>
+
+    <div class="side-bar">
+      <div class="site-header">
+        <a href="https://wiki.dendron.so" class="site-title lh-tight">
+  <div class="site-logo"></div>
+
+ </a>
+        <a href="#" id="menu-button" class="site-button">
+          <svg viewBox="0 0 24 24" class="icon"><use xlink:href="#svg-menu"></use></svg>
+        </a>
+      </div>
+
+      <nav role="navigation" aria-label="Main" id="site-nav" class="site-nav">
+      </nav>
+      <footer class="site-footer">
+        🌱 with 💕 using <a href="https://www.dendron.so/"> Dendron 🌲 </a>
+      </footer>
+    </div>
+    <div class="main" id="top">
+        <div id="main-header" class="main-header">
+          
+            <div class="search">
+              <div class="search-input-wrap">
+                <input type="text" id="search-input" class="search-input" tabindex="0" placeholder="Search Dendron" aria-label="Search Dendron" autocomplete="off">
+                <label for="search-input" class="search-label"><svg viewBox="0 0 24 24" class="search-icon"><use xlink:href="#svg-search"></use></svg></label>
+              </div>
+              <div id="search-results" class="search-results"></div>
+            </div>
+          
+          
+    </div>
+    <div id="main-content-wrap" class="main-content-wrap">
+      
+        
+          <nav aria-label="Breadcrumb" class="breadcrumb-nav">
+            <ol class="breadcrumb-nav-list"><li class="breadcrumb-nav-list-item"><a href="https://wiki.dendron.so">Dendron</a></li><li class="breadcrumb-nav-list-item"><a href="https://wiki.dendron.so/notes/3489b652-cd0e-4ac8-a734-08094dc043eb.html">Development</a></li><li class="breadcrumb-nav-list-item">Cook Book</li></ol>
+          </nav>
+        
+      
+      <div id="main-content" class="main-content" role="main">
+
+        
+        
+        <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+        <script>mermaid.initialize({startOnLoad:true});</script>
+        
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+        
+        
+
+        
+
+        
+
+        
+
+        <script>
+          $(function () {
+            $('[data-toggle="popover"]').popover({html: true})
+          })
+        </script>
+
+        
+
+<div id="main" role="main">
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Cook Book">
+    
+    <meta itemprop="datePublished" content="2020-09-03T16:51:58+00:00">
+    <meta itemprop="dateModified" content="2021-09-07T15:49:59+00:00">
+
+    <div class="page__inner-wrap">
+
+      
+
+      <section class="page__content" itemprop="text">
+
+        
+
+        <h1 id="cook-book"><a aria-hidden="true" class="anchor-heading" href="#cook-book"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Cook Book</h1>
+<h2 id="build"><a aria-hidden="true" class="anchor-heading" href="#build"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Build</h2>
+<ul>
+<li>See <a href="https://wiki.dendron.so/notes/12Fdg5uE6nZdukrdLNRdm.html">Build</a></li>
+</ul>
+<h2 id="packages"><a aria-hidden="true" class="anchor-heading" href="#packages"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Packages</h2>
+<h3 id="install-a-new-package"><a aria-hidden="true" class="anchor-heading" href="#install-a-new-package"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Install a new package</h3>
+<p>Because Dendron is packaged as a mono repo managed using <a href="https://github.com/lerna/lerna">lerna</a>, you can't just do a regular <code>yarn add</code> to install new packages. This is because lerna symlinks mono-repo dependencies together and a <code>yarn add</code> would override that. Instead, use the following command:</p>
+<pre><code>lerna add {package-to-install} --scope @dendronhq/{package-to-install-into}
+</code></pre>
+<p>Because this is typescript, don't forget to also install the <code>@types</code> package if it exists</p>
+<pre class="language-bash"><code class="language-bash">lerna <span class="token function">add</span> @types/<span class="token punctuation">{</span>package-to-install<span class="token punctuation">}</span> --scope @dendronhq/<span class="token punctuation">{</span>package-to-install-into<span class="token punctuation">}</span>
+</code></pre>
+<ul>
+<li>NOTE: watch out that you are installing dependencies in the right package. Missing dependencies will appear to work in development if that dependency is present in any of the other packages. The reason things work is because of the way the nodejs module resolution works and that we're in a monorepo. Dependencies are installed at the root of the monorepo and will be found there when the package doesn't have them. When we publish them as npm packages, these dependencies will show up as missing in their respective packages if its not included in the dependencies</li>
+</ul>
+<h3 id="add-a-new-node-package"><a aria-hidden="true" class="anchor-heading" href="#add-a-new-node-package"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Add a new node package</h3>
+<ul>
+<li>initialize repo</li>
+</ul>
+<pre class="language-bash"><code class="language-bash"><span class="token builtin class-name">cd</span> <span class="token punctuation">{</span>workspace_dir<span class="token punctuation">}</span>
+<span class="token function">cp</span> -R /path/to/dendron-yeoman/node-ts packages/<span class="token punctuation">{</span>new-package<span class="token punctuation">}</span>
+</code></pre>
+<ul>
+<li>
+<p>update <code>package.json</code></p>
+<ul>
+<li>change project name</li>
+</ul>
+</li>
+<li>
+<p>publish the repo (needs to be done initially before running lerna publish)</p>
+</li>
+</ul>
+<pre><code>npm publish --access public
+</code></pre>
+<h3 id="using-eslint"><a aria-hidden="true" class="anchor-heading" href="#using-eslint"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Using eslint</h3>
+<p>All packages in the repo use a standard base configuration found at <a href=".eslintrc.js">.eslintrc.js</a>. If you're using the VS Code and would like to see eslint violations on it, install the <a href="https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint">eslint extension</a>.</p>
+<h3 id="using-a-local-npm-registry"><a aria-hidden="true" class="anchor-heading" href="#using-a-local-npm-registry"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Using a local npm registry</h3>
+<ul>
+<li>pre-req:
+<ul>
+<li>install verdaccio</li>
+</ul>
+</li>
+</ul>
+<pre class="language-sh"><code class="language-sh">source bootstrap/scripts/helpers.sh
+setRegLocal
+verdaccio
+</code></pre>
+<h3 id="adding-a-new-husky-hook"><a aria-hidden="true" class="anchor-heading" href="#adding-a-new-husky-hook"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Adding a new husky hook</h3>
+<p>The following is an example of adding a hook that checks whether any imports have the form <code>"../(common-frontend|...)"</code> and fail to push if so</p>
+<pre class="language-diff"><code class="language-diff"><span class="token coord">+++ b/hooks/pre-push.js</span>
+@@ -2,6 +2,7 @@ const {checkToken} = require("./common");
+<span class="token unchanged"><span class="token prefix unchanged"> </span><span class="token line">const {exec} = require("./exec");
+</span></span>
+<span class="token unchanged"><span class="token prefix unchanged"> </span><span class="token line">function main() {
+</span><span class="token prefix unchanged"> </span><span class="token line">  // Where we would push if we ran `git push`
+</span><span class="token prefix unchanged"> </span><span class="token line">  let upstream;
+</span><span class="token prefix unchanged"> </span><span class="token line">  try {
+</span></span>@@ -9,15 +10,18 @@ function main() {
+<span class="token unchanged"><span class="token prefix unchanged"> </span><span class="token line">  } catch {
+</span><span class="token prefix unchanged"> </span><span class="token line">    // Fallback to first origin if none are set
+</span><span class="token prefix unchanged"> </span><span class="token line">    upstream = `${exec("git remote").stdout.trim().split("\n")[0]}/master`;
+</span><span class="token prefix unchanged"> </span><span class="token line">  }
+</span><span class="token prefix unchanged"> </span><span class="token line">  // The files that would get pushed
+</span><span class="token prefix unchanged"> </span><span class="token line">  const filesToPush = exec(`git diff --name-only ${upstream}`).stdout.split('\n');
+</span></span>
+<span class="token unchanged"><span class="token prefix unchanged"> </span><span class="token line">  return checkToken({
+</span><span class="token prefix unchanged"> </span><span class="token line">    filesToCheck: filesToPush,
+</span><span class="token prefix unchanged"> </span><span class="token line">    forbiddenTokens: {
+</span><span class="token prefix unchanged"> </span><span class="token line">      ".only": { rgx: /(describe|it|test)\.only/, fileRgx: /\.spec\.ts$/ },
+</span><span class="token prefix unchanged"> </span><span class="token line">      "debugger;": { rgx: /(^|\s)debugger;/, fileRgx: /\.ts$/ },
+</span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">      "rel import of monorepo pkg": { rgx: /(\.\.\/(common-frontend|common-all|common-server|engine-server|dendron-cli|pods-core|api-server|common-test-utils|engine-test-utils|dendron-next-server))/, fileRgx: /\.ts[x]?$/ },
+</span></span><span class="token unchanged"><span class="token prefix unchanged"> </span><span class="token line">    }
+</span><span class="token prefix unchanged"> </span><span class="token line">  });
+</span><span class="token prefix unchanged"> </span><span class="token line">}
+</span></span></code></pre>
+<h2 id="config"><a aria-hidden="true" class="anchor-heading" href="#config"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Config</h2>
+<h3 id="update-json-config-with-comments"><a aria-hidden="true" class="anchor-heading" href="#update-json-config-with-comments"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Update JSON Config with comments</h3>
+<p>Dendron works with JSON with comments when working the a vscode workspace file, snippets file or the keybindings file. When making a change here, take care to both read and write to the file while preserving comments. </p>
+<p>You'll want to make sure to use the following functions to read, assign and write json with comments</p>
+<pre class="language-ts"><code class="language-ts"><span class="token keyword">async</span> <span class="token keyword">function</span> <span class="token function">readJSONWithComments</span><span class="token punctuation">(</span>fpath<span class="token operator">:</span> <span class="token builtin">string</span><span class="token punctuation">)</span>
+<span class="token keyword">function</span> <span class="token function">assignJSONWithComment</span><span class="token punctuation">(</span>jsonObj<span class="token operator">:</span> <span class="token builtin">any</span><span class="token punctuation">,</span> dataToAdd<span class="token operator">:</span> <span class="token builtin">any</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+<span class="token keyword">function</span> <span class="token function">writeJSONWithComments</span><span class="token punctuation">(</span>fpath<span class="token operator">:</span> <span class="token builtin">string</span><span class="token punctuation">,</span> data<span class="token operator">:</span> <span class="token builtin">any</span><span class="token punctuation">)</span>
+</code></pre>
+<h3 id="add-a-new-site-config-option"><a aria-hidden="true" class="anchor-heading" href="#add-a-new-site-config-option"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Add a new site config option</h3>
+<p>The following is an example of controlling formatting options to the DendronSiteConfig. You can see the <a href="https://github.com/dendronhq/dendron/issues/278">issue</a> for more details.</p>
+<p>Dendron currently will auto-format notes during <code>Rename</code> and <code>Refactor</code> operations when links inside a note need to be replaced.</p>
+<p>The formatting options are defined <a href="https://dendron.so/notes/849ee8ee-05a5-47bf-b44d-d7c257117bc4.html#renaming-a-note">here</a>.</p>
+<p>These are <a href="https://dendron.so/notes/849ee8ee-05a5-47bf-b44d-d7c257117bc4.html#flow">rough notes</a> of how formatting gets called during rename</p>
+<p>To make this customizable, the following changes need to be made:</p>
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" disabled> update the <a href="https://github.com/dendronhq/dendron/blob/master/packages/common-all/src/types/typesv2.ts">DendronConfig type definition</a></li>
+<li class="task-list-item"><input type="checkbox" disabled> update <a href="https://github.com/dendronhq/dendron/blob/master/packages/engine-server/src/config.ts#L42:L42">config defaults</a></li>
+<li class="task-list-item"><input type="checkbox" disabled> pass in formatting options from the <a href="https://github.com/dendronhq/dendron/blob/master/packages/plugin-core/src/commands/RenameNoteV2a.ts#L137:L137">plugin</a></li>
+<li class="task-list-item"><input type="checkbox" disabled> accept formatting args in the <a href="https://github.com/dendronhq/dendron/blob/master/packages/api-server/src/routes/note.ts#L38:L38">server</a></li>
+<li class="task-list-item"><input type="checkbox" disabled> accept formatting args in the <a href="https://github.com/dendronhq/dendron/blob/master/packages/engine-server/src/enginev2.ts#L249:L249">engine</a></li>
+<li class="task-list-item"><input type="checkbox" disabled> accept it when <a href="https://github.com/dendronhq/dendron/blob/master/packages/engine-server/src/markdown/utilsv5.ts">replacing links</a></li>
+<li class="task-list-item"><input type="checkbox" disabled> accept it in <a href="https://github.com/dendronhq/dendron/blob/master/packages/engine-server/src/markdown/remark/utils.ts">remark pipeline</a></li>
+</ul>
+<p>When all this is done, we can add tests that the formatting behavior works</p>
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" disabled> <a href="https://github.com/dendronhq/dendron/blob/master/packages/engine-test-utils/src/__tests__/engine-server/enginev2.spec.ts">engine tests</a></li>
+</ul>
+<p>The above changes are for <code>Rename</code>. <code>Refactor</code> calls rename in a loop so changing rename should update refactor as well.</p>
+<h3 id="adding-a-general-configuration"><a aria-hidden="true" class="anchor-heading" href="#adding-a-general-configuration"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Adding a general configuration</h3>
+<p>See <a href="https://wiki.dendron.so/notes/04dd9ad8-3d81-4098-a661-21b6acc6f443.html#adding-new-configuration">Adding new configuration</a></p>
+<h2 id="plugin"><a aria-hidden="true" class="anchor-heading" href="#plugin"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Plugin</h2>
+<ul>
+<li>See <a href="https://wiki.dendron.so/notes/04dd9ad8-3d81-4098-a661-21b6acc6f443.html">Dev</a></li>
+</ul>
+<h2 id="markdown"><a aria-hidden="true" class="anchor-heading" href="#markdown"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Markdown</h2>
+<p>Markdown related changes are documented <a href="https://wiki.dendron.so/notes/YdrjLvj2kSmWYsuL.html">here</a></p>
+<h2 id="other"><a aria-hidden="true" class="anchor-heading" href="#other"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Other</h2>
+<h3 id="tuning-lookup"><a aria-hidden="true" class="anchor-heading" href="#tuning-lookup"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Tuning Lookup</h3>
+<ul>
+<li>create <code>proto.ts</code> inside <code>engine-server</code></li>
+</ul>
+<pre class="language-ts"><code class="language-ts"><span class="token keyword module">import</span> <span class="token imports"><span class="token punctuation">{</span> <span class="token maybe-class-name">DNodeUtils</span><span class="token punctuation">,</span> <span class="token maybe-class-name">NoteProps</span><span class="token punctuation">,</span> <span class="token maybe-class-name">NoteUtils</span> <span class="token punctuation">}</span></span> <span class="token keyword module">from</span> <span class="token string">"@dendronhq/common-all"</span><span class="token punctuation">;</span>
+<span class="token keyword module">import</span> <span class="token imports"><span class="token punctuation">{</span> getDurationMilliseconds <span class="token punctuation">}</span></span> <span class="token keyword module">from</span> <span class="token string">"@dendronhq/common-server"</span><span class="token punctuation">;</span>
+<span class="token keyword module">import</span> <span class="token imports">fs</span> <span class="token keyword module">from</span> <span class="token string">"fs-extra"</span><span class="token punctuation">;</span>
+<span class="token keyword module">import</span> <span class="token imports"><span class="token maybe-class-name">Fuse</span></span> <span class="token keyword module">from</span> <span class="token string">"fuse.js"</span><span class="token punctuation">;</span>
+<span class="token keyword module">import</span> <span class="token imports">_</span> <span class="token keyword module">from</span> <span class="token string">"lodash"</span><span class="token punctuation">;</span>
+<span class="token keyword module">import</span> <span class="token imports"><span class="token punctuation">{</span> <span class="token maybe-class-name">DendronEngineClient</span> <span class="token punctuation">}</span></span> <span class="token keyword module">from</span> <span class="token string">"engineClient"</span><span class="token punctuation">;</span>
+
+<span class="token keyword module">export</span> <span class="token keyword">async</span> <span class="token keyword">function</span> <span class="token function">main2</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">const</span> engine <span class="token operator">=</span> <span class="token maybe-class-name">DendronEngineClient</span><span class="token punctuation">.</span><span class="token method function property-access">create</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+        port<span class="token operator">:</span> <span class="token string">"3005"</span><span class="token punctuation">,</span>
+        ws<span class="token operator">:</span> <span class="token string">"/Users/kevinlin/code/dendron/test-workspace"</span><span class="token punctuation">,</span>
+        vaults<span class="token operator">:</span> <span class="token punctuation">[</span><span class="token punctuation">]</span>
+      <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+       <span class="token keyword control-flow">await</span> engine<span class="token punctuation">.</span><span class="token method function property-access">init</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token comment">//   const notes = data?.notes!</span>
+      <span class="token keyword">const</span> notes<span class="token operator">:</span> <span class="token maybe-class-name">NoteProps</span><span class="token punctuation">[</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token maybe-class-name">NoteUtils</span><span class="token punctuation">.</span><span class="token method function property-access">create</span><span class="token punctuation">(</span><span class="token punctuation">{</span>fname<span class="token operator">:</span> <span class="token string">"notes.dendron-improvements"</span><span class="token punctuation">,</span> vault<span class="token operator">:</span> engine<span class="token punctuation">.</span><span class="token property-access">vaults</span><span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">]</span>
+
+    <span class="token keyword">const</span> initList<span class="token operator">:</span> <span class="token builtin">any</span><span class="token punctuation">[</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+    <span class="token keyword">const</span> options <span class="token operator">=</span> <span class="token punctuation">{</span>
+        shouldSort<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+        threshold<span class="token operator">:</span> <span class="token number">0.6</span><span class="token punctuation">,</span>
+        <span class="token dom variable">location</span><span class="token operator">:</span> <span class="token number">0</span><span class="token punctuation">,</span>
+        distance<span class="token operator">:</span> <span class="token number">50</span><span class="token punctuation">,</span>
+        maxPatternLength<span class="token operator">:</span> <span class="token number">32</span><span class="token punctuation">,</span>
+        minMatchCharLength<span class="token operator">:</span> <span class="token number">2</span><span class="token punctuation">,</span>
+        keys<span class="token operator">:</span> <span class="token punctuation">[</span><span class="token string">"fname"</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+        useExtendedSearch<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+        includeScore<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+      <span class="token punctuation">}</span><span class="token punctuation">;</span>
+      <span class="token keyword">const</span> fuse <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name"><span class="token maybe-class-name">Fuse</span></span><span class="token punctuation">(</span>initList<span class="token punctuation">,</span> options<span class="token punctuation">)</span><span class="token punctuation">;</span>
+      fuse<span class="token punctuation">.</span><span class="token method function property-access">setCollection</span><span class="token punctuation">(</span>
+        _<span class="token punctuation">.</span><span class="token method function property-access">map</span><span class="token punctuation">(</span>notes<span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token punctuation">{</span> fname<span class="token punctuation">,</span> title<span class="token punctuation">,</span> id<span class="token punctuation">,</span> vault <span class="token punctuation">}</span><span class="token punctuation">,</span> _key<span class="token punctuation">)</span> <span class="token arrow operator">=></span> <span class="token punctuation">(</span><span class="token punctuation">{</span>
+          fname<span class="token punctuation">,</span>
+          id<span class="token punctuation">,</span>
+          title<span class="token punctuation">,</span>
+          vault<span class="token punctuation">,</span>
+        <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+      <span class="token punctuation">)</span><span class="token punctuation">;</span>
+      <span class="token keyword">const</span> qs <span class="token operator">=</span> <span class="token string">"dendron.notes"</span>
+      <span class="token keyword">const</span> resp <span class="token operator">=</span> fuse<span class="token punctuation">.</span><span class="token method function property-access">search</span><span class="token punctuation">(</span>qs<span class="token punctuation">)</span>
+      <span class="token keyword">const</span> numResults <span class="token operator">=</span> _<span class="token punctuation">.</span><span class="token method function property-access">size</span><span class="token punctuation">(</span>notes<span class="token punctuation">)</span><span class="token punctuation">;</span>
+      <span class="token keyword">const</span> numHits <span class="token operator">=</span> _<span class="token punctuation">.</span><span class="token method function property-access">size</span><span class="token punctuation">(</span>resp<span class="token punctuation">)</span><span class="token punctuation">;</span>
+      <span class="token keyword">const</span> stats <span class="token operator">=</span> <span class="token punctuation">{</span>numResults<span class="token punctuation">,</span> numHits<span class="token punctuation">}</span><span class="token punctuation">;</span>
+      <span class="token console class-name">console</span><span class="token punctuation">.</span><span class="token method function property-access">log</span><span class="token punctuation">(</span>stats<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword module">export</span> <span class="token keyword">async</span> <span class="token keyword">function</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">let</span> start <span class="token operator">=</span> process<span class="token punctuation">.</span><span class="token method function property-access">hrtime</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token keyword">const</span> engine <span class="token operator">=</span> <span class="token maybe-class-name">DendronEngineClient</span><span class="token punctuation">.</span><span class="token method function property-access">create</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+    port<span class="token operator">:</span> <span class="token string">"3005"</span><span class="token punctuation">,</span>
+    ws<span class="token operator">:</span> <span class="token string">"/Users/kevinlin/Dropbox/Apps/Noah"</span><span class="token punctuation">,</span>
+    vaults<span class="token operator">:</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+  <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token keyword">let</span> engineCreate <span class="token operator">=</span> <span class="token function">getDurationMilliseconds</span><span class="token punctuation">(</span>start<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token keyword">const</span> wsRoot <span class="token operator">=</span> engine<span class="token punctuation">.</span><span class="token property-access">wsRoot</span><span class="token punctuation">;</span>
+
+  start <span class="token operator">=</span> process<span class="token punctuation">.</span><span class="token method function property-access">hrtime</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token keyword control-flow">await</span> engine<span class="token punctuation">.</span><span class="token method function property-access">init</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token keyword">let</span> engineInit <span class="token operator">=</span> <span class="token function">getDurationMilliseconds</span><span class="token punctuation">(</span>start<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+  start <span class="token operator">=</span> process<span class="token punctuation">.</span><span class="token method function property-access">hrtime</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token keyword control-flow">await</span> engine<span class="token punctuation">.</span><span class="token method function property-access">queryNotes</span><span class="token punctuation">(</span><span class="token punctuation">{</span> qs<span class="token operator">:</span> <span class="token string">"*"</span> <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token keyword">let</span> engineStarQuery <span class="token operator">=</span> <span class="token function">getDurationMilliseconds</span><span class="token punctuation">(</span>start<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+  start <span class="token operator">=</span> process<span class="token punctuation">.</span><span class="token method function property-access">hrtime</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token keyword">let</span> resp <span class="token operator">=</span> <span class="token keyword control-flow">await</span> engine<span class="token punctuation">.</span><span class="token method function property-access">queryNotes</span><span class="token punctuation">(</span><span class="token punctuation">{</span> qs<span class="token operator">:</span> <span class="token string">"pr"</span> <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token keyword">let</span> engineDomainQuery <span class="token operator">=</span> <span class="token function">getDurationMilliseconds</span><span class="token punctuation">(</span>start<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token keyword">let</span> nodes <span class="token operator">=</span> resp<span class="token punctuation">.</span><span class="token property-access">data</span><span class="token punctuation">;</span>
+
+  start <span class="token operator">=</span> process<span class="token punctuation">.</span><span class="token method function property-access">hrtime</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  resp <span class="token operator">=</span> <span class="token keyword control-flow">await</span> engine<span class="token punctuation">.</span><span class="token method function property-access">queryNotes</span><span class="token punctuation">(</span><span class="token punctuation">{</span> qs<span class="token operator">:</span> <span class="token string">"cli.git"</span> <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token keyword">let</span> engineDomainWithChildQuery <span class="token operator">=</span> <span class="token function">getDurationMilliseconds</span><span class="token punctuation">(</span>start<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  nodes <span class="token operator">=</span> resp<span class="token punctuation">.</span><span class="token property-access">data</span><span class="token punctuation">;</span>
+  <span class="token keyword">const</span> numProps <span class="token operator">=</span> nodes<span class="token punctuation">.</span><span class="token property-access">length</span><span class="token punctuation">;</span>
+
+  start <span class="token operator">=</span> process<span class="token punctuation">.</span><span class="token method function property-access">hrtime</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token keyword control-flow">await</span> <span class="token known-class-name class-name">Promise</span><span class="token punctuation">.</span><span class="token method function property-access">all</span><span class="token punctuation">(</span>
+    nodes<span class="token punctuation">.</span><span class="token method function property-access">map</span><span class="token punctuation">(</span><span class="token keyword">async</span> <span class="token punctuation">(</span>ent<span class="token punctuation">)</span> <span class="token arrow operator">=></span>
+      <span class="token maybe-class-name">DNodeUtils</span><span class="token punctuation">.</span><span class="token method function property-access">enhancePropForQuickInput</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+        wsRoot<span class="token punctuation">,</span>
+        props<span class="token operator">:</span> ent<span class="token punctuation">,</span>
+        schemas<span class="token operator">:</span> engine<span class="token punctuation">.</span><span class="token property-access">schemas</span><span class="token punctuation">,</span>
+        vaults<span class="token operator">:</span> engine<span class="token punctuation">.</span><span class="token property-access">vaults</span><span class="token punctuation">,</span>
+      <span class="token punctuation">}</span><span class="token punctuation">)</span>
+    <span class="token punctuation">)</span>
+  <span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token keyword">let</span> enhancePropsWithPromise <span class="token operator">=</span> <span class="token function">getDurationMilliseconds</span><span class="token punctuation">(</span>start<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+  start <span class="token operator">=</span> process<span class="token punctuation">.</span><span class="token method function property-access">hrtime</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token keyword control-flow">await</span> <span class="token known-class-name class-name">Promise</span><span class="token punctuation">.</span><span class="token method function property-access">all</span><span class="token punctuation">(</span>
+    nodes<span class="token punctuation">.</span><span class="token method function property-access">slice</span><span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">,</span> <span class="token number">100</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token method function property-access">map</span><span class="token punctuation">(</span><span class="token keyword">async</span> <span class="token punctuation">(</span>ent<span class="token punctuation">)</span> <span class="token arrow operator">=></span>
+      <span class="token maybe-class-name">DNodeUtils</span><span class="token punctuation">.</span><span class="token method function property-access">enhancePropForQuickInput</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+        wsRoot<span class="token punctuation">,</span>
+        props<span class="token operator">:</span> ent<span class="token punctuation">,</span>
+        schemas<span class="token operator">:</span> engine<span class="token punctuation">.</span><span class="token property-access">schemas</span><span class="token punctuation">,</span>
+        vaults<span class="token operator">:</span> engine<span class="token punctuation">.</span><span class="token property-access">vaults</span><span class="token punctuation">,</span>
+      <span class="token punctuation">}</span><span class="token punctuation">)</span>
+    <span class="token punctuation">)</span>
+  <span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token keyword">let</span> enhancePropsWithPromise100 <span class="token operator">=</span> <span class="token function">getDurationMilliseconds</span><span class="token punctuation">(</span>start<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+  start <span class="token operator">=</span> process<span class="token punctuation">.</span><span class="token method function property-access">hrtime</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token keyword control-flow">await</span> <span class="token known-class-name class-name">Promise</span><span class="token punctuation">.</span><span class="token method function property-access">all</span><span class="token punctuation">(</span>
+    nodes<span class="token punctuation">.</span><span class="token method function property-access">slice</span><span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">,</span> <span class="token number">50</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token method function property-access">map</span><span class="token punctuation">(</span><span class="token keyword">async</span> <span class="token punctuation">(</span>ent<span class="token punctuation">)</span> <span class="token arrow operator">=></span>
+      <span class="token maybe-class-name">DNodeUtils</span><span class="token punctuation">.</span><span class="token method function property-access">enhancePropForQuickInput</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+        wsRoot<span class="token punctuation">,</span>
+        props<span class="token operator">:</span> ent<span class="token punctuation">,</span>
+        schemas<span class="token operator">:</span> engine<span class="token punctuation">.</span><span class="token property-access">schemas</span><span class="token punctuation">,</span>
+        vaults<span class="token operator">:</span> engine<span class="token punctuation">.</span><span class="token property-access">vaults</span><span class="token punctuation">,</span>
+      <span class="token punctuation">}</span><span class="token punctuation">)</span>
+    <span class="token punctuation">)</span>
+  <span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token keyword">let</span> enhancePropsWithPromise50 <span class="token operator">=</span> <span class="token function">getDurationMilliseconds</span><span class="token punctuation">(</span>start<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+  start <span class="token operator">=</span> process<span class="token punctuation">.</span><span class="token method function property-access">hrtime</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  nodes<span class="token punctuation">.</span><span class="token method function property-access">slice</span><span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">,</span> <span class="token number">50</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token method function property-access">map</span><span class="token punctuation">(</span><span class="token punctuation">(</span>ent<span class="token punctuation">)</span> <span class="token arrow operator">=></span>
+    <span class="token maybe-class-name">DNodeUtils</span><span class="token punctuation">.</span><span class="token method function property-access">enhancePropForQuickInput</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+      wsRoot<span class="token punctuation">,</span>
+      props<span class="token operator">:</span> ent<span class="token punctuation">,</span>
+      schemas<span class="token operator">:</span> engine<span class="token punctuation">.</span><span class="token property-access">schemas</span><span class="token punctuation">,</span>
+      vaults<span class="token operator">:</span> engine<span class="token punctuation">.</span><span class="token property-access">vaults</span><span class="token punctuation">,</span>
+    <span class="token punctuation">}</span><span class="token punctuation">)</span>
+  <span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token keyword">let</span> enhancePropsNoPromise50 <span class="token operator">=</span> <span class="token function">getDurationMilliseconds</span><span class="token punctuation">(</span>start<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+  <span class="token keyword">const</span> out <span class="token operator">=</span> <span class="token punctuation">{</span>
+    engineCreate<span class="token punctuation">,</span>
+    engineInit<span class="token punctuation">,</span>
+    engineStarQuery<span class="token punctuation">,</span>
+    engineDomainQuery<span class="token punctuation">,</span>
+    engineDomainWithChildQuery<span class="token punctuation">,</span>
+    numProps<span class="token punctuation">,</span>
+    enhancePropsWithPromise<span class="token punctuation">,</span>
+    enhancePropsWithPromise100<span class="token punctuation">,</span>
+    enhancePropsWithPromise50<span class="token punctuation">,</span>
+    enhancePropsNoPromise50<span class="token punctuation">,</span>
+  <span class="token punctuation">}</span><span class="token punctuation">;</span>
+  <span class="token console class-name">console</span><span class="token punctuation">.</span><span class="token method function property-access">log</span><span class="token punctuation">(</span>out<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  fs<span class="token punctuation">.</span><span class="token method function property-access">writeJSONSync</span><span class="token punctuation">(</span><span class="token string">"/tmp/data.json"</span><span class="token punctuation">,</span> out<span class="token punctuation">,</span> <span class="token punctuation">{</span> spaces<span class="token operator">:</span> <span class="token number">4</span> <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token keyword control-flow">return</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token function">main2</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre>
+<h2 id="styling-and-version-control"><a aria-hidden="true" class="anchor-heading" href="#styling-and-version-control"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Styling and Version Control</h2>
+<h3 id="manually-formatting-the-code"><a aria-hidden="true" class="anchor-heading" href="#manually-formatting-the-code"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Manually Formatting the code</h3>
+<p>From the root workspace, you can run <code>yarn format</code> to run <code>prettier</code> on all packages. This should be unecessary since we auto format on every commit</p>
+<h3 id="git-ignore-blame"><a aria-hidden="true" class="anchor-heading" href="#git-ignore-blame"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Git Ignore Blame</h3>
+<p>In case of large refactorign changes, we want to not overwrite authorship and commit history. </p>
+<p>In the project root, run the following after you have commited your styling changes to preserve the history.</p>
+<pre class="language-sh"><code class="language-sh">echo $HASH_OF_COMMIT >> .git-blame-ignore-revs
+</code></pre>
+<p>You can see an explanation of how it works <a href="https://git-scm.com/docs/git-blame#Documentation/git-blame.txt---ignore-revs-fileltfilegt">here</a></p>
+<h3 id="adding-a-new-configuration-property"><a aria-hidden="true" class="anchor-heading" href="#adding-a-new-configuration-property"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Adding a new configuration property</h3>
+<p></p><p></p><div class="portal-container">
+<div class="portal-head">
+<div class="portal-backlink">
+<div class="portal-title">From <span class="portal-text-title">Dev</span></div>
+<a href="https://wiki.dendron.so/notes/04dd9ad8-3d81-4098-a661-21b6acc6f443.html" class="portal-arrow">Go to text <span class="right-arrow">→</span></a>
+</div>
+</div>
+<div id="portal-parent-anchor" class="portal-parent" markdown="1">
+<div class="portal-parent-fader-top"></div>
+<div class="portal-parent-fader-bottom"></div><p>Start anchor adding-a-new-config not found</p>
+</div></div><p></p><p></p>
+<h3 id="synchronously-loop-through-async-results"><a aria-hidden="true" class="anchor-heading" href="#synchronously-loop-through-async-results"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Synchronously loop through async results</h3>
+<ul>
+<li>see <a href="https://github.com/dendronhq/dendron/blob/integ-publish/packages/plugin-core/src/commands/VaultAddCommand.ts#L171:L179">https://github.com/dendronhq/dendron/blob/integ-publish/packages/plugin-core/src/commands/VaultAddCommand.ts#L171:L179</a></li>
+</ul>
+<pre class="language-ts"><code class="language-ts">  <span class="token keyword control-flow">await</span> _<span class="token punctuation">.</span><span class="token method function property-access">reduce</span><span class="token punctuation">(</span>
+    vaults<span class="token punctuation">,</span>
+    <span class="token keyword">async</span> <span class="token punctuation">(</span>resp<span class="token operator">:</span> <span class="token builtin">any</span><span class="token punctuation">,</span> vault<span class="token operator">:</span> <span class="token maybe-class-name">DVault</span><span class="token punctuation">)</span> <span class="token arrow operator">=></span> <span class="token punctuation">{</span>
+      <span class="token keyword control-flow">await</span> resp<span class="token punctuation">;</span>
+      <span class="token keyword control-flow">await</span> wsService<span class="token punctuation">.</span><span class="token method function property-access">createVault</span><span class="token punctuation">(</span><span class="token punctuation">{</span> vault <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+      <span class="token keyword control-flow">return</span> <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token method function property-access">addVaultToWorkspace</span><span class="token punctuation">(</span>vault<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token known-class-name class-name">Promise</span><span class="token punctuation">.</span><span class="token method function property-access">resolve</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+  <span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre>
+<hr>
+<h2 id="children"><a aria-hidden="true" class="anchor-heading" href="#children"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Children</h2>
+<ol>
+<li><a href="https://wiki.dendron.so/notes/QKuz655rbbrU68UhLGfF9.html">Basics</a></li>
+<li><a href="https://wiki.dendron.so/notes/qdfa7PG6X0kbXJuMX86h3.html">Common</a></li>
+</ol>
+<hr>
+<h2 id="backlinks"><a aria-hidden="true" class="anchor-heading" href="#backlinks"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Backlinks</h2>
+<ul>
+<li><a href="https://wiki.dendron.so/notes/1bce1c33-c14b-4e5e-b493-45683c8cf54f.html">Cook</a></li>
+</ul><span id="navId" data="a80f36d9-01d0-4c5a-a228-867b093a4913"></span>
+
+                
+      </section>
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+        <div class="thumbs feedback_trigger right-bottom"></div>
+
+        
+          <hr>
+          <footer>
+            
+            
+
+            
+              <div class="d-flex mt-2">
+              <p class="text-small text-grey-dk-000 mb-0 mr-2">
+                Page last modified: <span class="d-inline-block">9/7/2021</span>.
+              </p>
+            
+                
+                  <p class="text-small text-grey-dk-000 mb-0">
+                    <a href="https://github.com/dendronhq/dendron-site/edit/master/vault/dendron.dev.cook.md" id="edit-this-page">Edit this page on GitHub</a>
+                  </p>
+                
+              </div>
+          </footer>
+        
+    </div>
+</div>
+
+
+  
+
+  <div class="search-overlay"></div>
+
+</div>
+
+</body>
+</html>

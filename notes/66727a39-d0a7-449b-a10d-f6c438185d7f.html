@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+  
+  <title>Pods - Dendron</title>
+  
+
+  <link
+    rel="shortcut icon"
+    href="https://wiki.dendron.so/favicon.ico"
+    type="image/x-icon"
+  />
+  <link
+    rel="stylesheet"
+    href="https://wiki.dendron.so/assets/css/just-the-docs-default.css"
+  />
+  <script
+    type="text/javascript"
+    src="https://wiki.dendron.so/assets/js/just-the-docs.js"
+  ></script>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.22.0/themes/prism.min.css"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css"
+    integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X"
+    crossorigin="anonymous"
+  />
+  <script
+    type="text/javascript"
+    src="https://wiki.dendron.so/assets/js/vendor/lunr.min.js"
+  ></script>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+   
+   
+  
+<meta name="description" content="Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.">
+<meta name="author" content="dendronhq">
+
+<link rel="canonical" href="https://wiki.dendron.so/notes/66727a39-d0a7-449b-a10d-f6c438185d7f.html">
+
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://wiki.dendron.so/notes/66727a39-d0a7-449b-a10d-f6c438185d7f.html">
+<meta property="og:description" content="Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.">
+<meta property="og:image" content="https://wiki.dendron.so/logo.png">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@dendronhq">
+<meta name="twitter:url" content="https://wiki.dendron.so/notes/66727a39-d0a7-449b-a10d-f6c438185d7f.html">
+<meta name="twitter:description" content="Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.">
+<meta name="twitter:image" content="https://wiki.dendron.so/logo.png">
+
+
+  <meta property="og:title" content="Pods - Dendron" />
+  <meta name="twitter:title" content="Pods - Dendron" />
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-B0JN2HHCNY"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-B0JN2HHCNY');
+  </script>
+  
+</head>
+
+
+
+<body>
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+      <symbol id="svg-link" viewBox="0 0 24 24">
+        <title>Link</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-link">
+          <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+        </svg>
+      </symbol>
+      <symbol id="svg-search" viewBox="0 0 24 24">
+        <title>Search</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search">
+          <circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+      </symbol>
+      <symbol id="svg-menu" viewBox="0 0 24 24">
+        <title>Menu</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu">
+          <line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+      </symbol>
+      <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+        <title>Expand</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+          <polyline points="9 18 15 12 9 6"></polyline>
+        </svg>
+      </symbol>
+      <symbol id="svg-doc" viewBox="0 0 24 24">
+        <title>Document</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file">
+          <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path><polyline points="13 2 13 9 20 9"></polyline>
+        </svg>
+      </symbol>
+    </svg>
+
+    <div class="side-bar">
+      <div class="site-header">
+        <a href="https://wiki.dendron.so" class="site-title lh-tight">
+  <div class="site-logo"></div>
+
+ </a>
+        <a href="#" id="menu-button" class="site-button">
+          <svg viewBox="0 0 24 24" class="icon"><use xlink:href="#svg-menu"></use></svg>
+        </a>
+      </div>
+
+      <nav role="navigation" aria-label="Main" id="site-nav" class="site-nav">
+      </nav>
+      <footer class="site-footer">
+        🌱 with 💕 using <a href="https://www.dendron.so/"> Dendron 🌲 </a>
+      </footer>
+    </div>
+    <div class="main" id="top">
+        <div id="main-header" class="main-header">
+          
+            <div class="search">
+              <div class="search-input-wrap">
+                <input type="text" id="search-input" class="search-input" tabindex="0" placeholder="Search Dendron" aria-label="Search Dendron" autocomplete="off">
+                <label for="search-input" class="search-label"><svg viewBox="0 0 24 24" class="search-icon"><use xlink:href="#svg-search"></use></svg></label>
+              </div>
+              <div id="search-results" class="search-results"></div>
+            </div>
+          
+          
+    </div>
+    <div id="main-content-wrap" class="main-content-wrap">
+      
+        
+          <nav aria-label="Breadcrumb" class="breadcrumb-nav">
+            <ol class="breadcrumb-nav-list"><li class="breadcrumb-nav-list-item"><a href="https://wiki.dendron.so">Dendron</a></li><li class="breadcrumb-nav-list-item"><a href="https://wiki.dendron.so/notes/7a7af2fa-b9d0-4adc-81e6-f03186123539.html">Topics</a></li><li class="breadcrumb-nav-list-item">Pods</li></ol>
+          </nav>
+        
+      
+      <div id="main-content" class="main-content" role="main">
+
+        
+        
+        <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+        <script>mermaid.initialize({startOnLoad:true});</script>
+        
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+        
+        
+
+        
+
+        
+
+        
+
+        <script>
+          $(function () {
+            $('[data-toggle="popover"]').popover({html: true})
+          })
+        </script>
+
+        
+
+<div id="main" role="main">
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Pods">
+    
+    <meta itemprop="datePublished" content="2020-10-17T18:17:43+00:00">
+    <meta itemprop="dateModified" content="2021-02-24T18:22:40+00:00">
+
+    <div class="page__inner-wrap">
+
+      
+
+      <section class="page__content" itemprop="text">
+
+        
+
+        <h1 id="pods"><a aria-hidden="true" class="anchor-heading" href="#pods"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Pods</h1>
+<img src="https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/pods.png" height="300px">
+<blockquote>
+<p>Pod image courtesy of <a href="https://www.instagram.com/ilana_lin/">Ilana Lin</a></p>
+</blockquote>
+<p>Dendron refers to pods as any tool or location that is used to hold information. Tools like Evernote and Roam are pods. Social media services like Twitter and Facebook are pods. Publication destinations like static sites and Medium are pods. Everything is a pod.</p>
+<p>Pods let you do the following:</p>
+<ul>
+<li><strong>import</strong> your notes from any existing location into Dendron</li>
+<li><strong>export</strong> your notes from Dendron to any existing location</li>
+<li><strong>publish</strong> your notes from Dendron to any existing location</li>
+</ul>
+<p>To access pods, Dendron exposes three commands:</p>
+<ul>
+<li><code>Dendron: Import Pod</code>: imports notes </li>
+<li><code>Dendron: Export Pod</code>: export notes </li>
+<li><code>Dendron: Publish Pod</code>: publish notes </li>
+</ul>
+<p><strong>NOTE</strong>: not all pods will expose all three commands. Each pod implementation can choose to implement any subset of the three commands. </p>
+<h2 id="pod-methods"><a aria-hidden="true" class="anchor-heading" href="#pod-methods"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Pod Methods</h2>
+<h3 id="import"><a aria-hidden="true" class="anchor-heading" href="#import"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Import</h3>
+<p>Importing lets you bulk import notes from a given source and into Dendron. The notes are formatted and converted to Dendron's hierarchal structure.</p>
+<h3 id="export"><a aria-hidden="true" class="anchor-heading" href="#export"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Export</h3>
+<p>Exporting lets you bulk export notes from Dendron into another destinations. The notes will be formatted and converted to the native format of the destination. </p>
+<h3 id="publish"><a aria-hidden="true" class="anchor-heading" href="#publish"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Publish</h3>
+<p>Publishing lets you take one note and output it into a different format/destination. </p>
+<p>For example, you might want to use our <a href="https://wiki.dendron.so/notes/13c4a608-0a32-4c62-9c7e-2b7f9f2d18bf.html">markdown pod</a> to take a note with <a href="https://wiki.dendron.so/notes/f1af56bb-db27-47ae-8406-61a98de6c78c.html">note references</a> and publish it as a regular markdown note to use in a github issue or another tool.</p>
+<p>Future uses of the <strong>publish</strong> method will be taking a note and publishing it to social media (eg. twitter, facebook, linkedin), publishing it to Gmail, and publishing to destinations like Medium and dev.to.</p>
+<h2 id="types-of-pods"><a aria-hidden="true" class="anchor-heading" href="#types-of-pods"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Types of Pods</h2>
+<p>There are two types of pods:</p>
+<ul>
+<li>builtin: created by dendron </li>
+<li>remote: created by third parties</li>
+</ul>
+<p></p><p></p><div class="portal-container">
+<div class="portal-head">
+<div class="portal-backlink">
+<div class="portal-title">From <span class="portal-text-title">Builtin Pods</span></div>
+<a href="https://wiki.dendron.so/notes/3e519113-5820-4a84-bef8-85103a7b296b.html" class="portal-arrow">Go to text <span class="right-arrow">→</span></a>
+</div>
+</div>
+<div id="portal-parent-anchor" class="portal-parent" markdown="1">
+<div class="portal-parent-fader-top"></div>
+<div class="portal-parent-fader-bottom"></div><p>Builtin pods are managed by Dendron and are available when you install Dendron. They can be used with either the <code>dendron-cli</code> or from within the Dendron extension to import/export/publish your notes from/to anywhere</p>
+<h2 id="json-pod"><a aria-hidden="true" class="anchor-heading" href="#json-pod"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>JSON Pod</h2>
+<p></p><p></p><div class="portal-container">
+<div class="portal-head">
+<div class="portal-backlink">
+<div class="portal-title">From <span class="portal-text-title">JSON Pod</span></div>
+<a href="https://wiki.dendron.so/notes/28dfaaf8-4944-447c-be30-39c514a80bb0.html" class="portal-arrow">Go to text <span class="right-arrow">→</span></a>
+</div>
+</div>
+<div id="portal-parent-anchor" class="portal-parent" markdown="1">
+<div class="portal-parent-fader-top"></div>
+<div class="portal-parent-fader-bottom"></div><h2 id="summary"><a aria-hidden="true" class="anchor-heading" href="#summary"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Summary</h2>
+<ul>
+<li>id: <code>dendron.json</code></li>
+<li>coverage
+<ul>
+<li>✅ import</li>
+<li>✅ export </li>
+<li>✅ publish</li>
+</ul>
+</li>
+</ul>
+</div></div><p></p><p></p>
+<h2 id="markdown-pod"><a aria-hidden="true" class="anchor-heading" href="#markdown-pod"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Markdown Pod</h2>
+<p></p><p></p><div class="portal-container">
+<div class="portal-head">
+<div class="portal-backlink">
+<div class="portal-title">From <span class="portal-text-title">Markdown Pod</span></div>
+<a href="https://wiki.dendron.so/notes/13c4a608-0a32-4c62-9c7e-2b7f9f2d18bf.html" class="portal-arrow">Go to text <span class="right-arrow">→</span></a>
+</div>
+</div>
+<div id="portal-parent-anchor" class="portal-parent" markdown="1">
+<div class="portal-parent-fader-top"></div>
+<div class="portal-parent-fader-bottom"></div><ul>
+<li>id: <code>dendron.markdown</code></li>
+<li>coverage
+<ul>
+<li>export </li>
+<li>✅ import</li>
+<li>✅ publish</li>
+<li>✅ export</li>
+</ul>
+</li>
+</ul>
+</div></div><p></p><p></p>
+<h2 id="experimental-pods"><a aria-hidden="true" class="anchor-heading" href="#experimental-pods"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Experimental Pods</h2>
+<p>These pods are subject to change at any time</p>
+<h3 id="gitpod"><a aria-hidden="true" class="anchor-heading" href="#gitpod"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>GitPod</h3>
+<h3 id="dendrongitpunchard"><a aria-hidden="true" class="anchor-heading" href="#dendrongitpunchard"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>dendron.gitpunchard</h3>
+<ul>
+<li>type: export</li>
+</ul>
+<p>Create a vega punchard visualization of your commits. This will output two files at the destination:</p>
+<ul>
+<li>commits.csv</li>
+<li>index.html</li>
+</ul>
+<p>You can then see this using a HTML server.</p>
+<p><img src="https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/Vega-Lite_Bar_Chart-2.jpg"></p>
+<ul>
+<li>Instructions:</li>
+</ul>
+<pre class="language-sh"><code class="language-sh">dendron exportPod  --wsRoot . --podId dendron.gitpunchard --config "dest=/tmp/vega" 
+cd /tmp/vega
+python -m http.server
+</code></pre></div></div><p></p>
+<p></p>
+<hr>
+<h2 id="children"><a aria-hidden="true" class="anchor-heading" href="#children"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Children</h2>
+<ol>
+<li><a href="https://wiki.dendron.so/notes/3e519113-5820-4a84-bef8-85103a7b296b.html">Builtin Pods</a></li>
+<li><a href="https://wiki.dendron.so/notes/6322a2de-34fd-4c93-bcbe-d71c30e5f2b6.html">Custom Pods</a></li>
+<li><a href="https://wiki.dendron.so/notes/5de219e6-d9b9-4abf-9367-998109cd57cd.html">Developing a Pod</a></li>
+<li><a href="https://wiki.dendron.so/notes/jjyGWsD12e8rabPZ5R5uE.html">Export</a></li>
+<li><a href="https://wiki.dendron.so/notes/34893663-b1cc-4c4f-aea7-6f1728365b89.html">Import</a></li>
+<li><a href="https://wiki.dendron.so/notes/6301a5b4-d88f-4ecd-ad72-0880b1bf14b0.html">Sdk Reference</a></li>
+</ol>
+<hr>
+<h2 id="backlinks"><a aria-hidden="true" class="anchor-heading" href="#backlinks"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Backlinks</h2>
+<ul>
+<li><a href="https://wiki.dendron.so/notes/c6fd6bc4-7f75-4cbb-8f34-f7b99bfe2d50.html">Concepts</a></li>
+<li><a href="https://wiki.dendron.so/notes/683740e3-70ce-4a47-a1f4-1f140e80b558.html">FAQ</a></li>
+<li><a href="https://wiki.dendron.so/notes/c116cc0b-2c65-48d8-ac77-53502228d398.html">Pods Core</a></li>
+<li><a href="https://wiki.dendron.so/notes/401c5889-20ae-4b3a-8468-269def4b4865.html">Cookbook</a></li>
+<li><a href="https://wiki.dendron.so/notes/3bff1195-1d13-4e7a-bc2f-7e4cc617109c.html">Layout</a></li>
+<li><a href="https://wiki.dendron.so/notes/08b2e6ea-bd3e-4f4b-b2b9-676a7b743a65.html">Release Notes(version 0.10)</a></li>
+<li><a href="https://wiki.dendron.so/notes/98ad9b6b-53f3-4883-939e-e14055f2cac7.html">Release Notes(version 0.14)</a></li>
+<li><a href="https://wiki.dendron.so/notes/23a1b942-99af-45c8-8116-4f4bb7dccd21.html">Dendron CLI</a></li>
+<li><a href="https://wiki.dendron.so/notes/1c1a3eac-9937-4e76-b086-bbb1d911517b.html">Exports</a></li>
+<li><a href="https://wiki.dendron.so/notes/ed4162aa-5474-4483-9fbc-c0b505310c59.html">0.1.X</a></li>
+<li><a href="https://wiki.dendron.so/notes/C0HMems1EODnxGsNDVD7Z.html">0 4 X</a></li>
+<li><a href="https://wiki.dendron.so/notes/6301a5b4-d88f-4ecd-ad72-0880b1bf14b0.html">Sdk Reference</a></li>
+<li><a href="https://wiki.dendron.so/notes/b1dbd32d-ca87-4489-9ba0-01bf7928cba5.html">Pods v0</a></li>
+<li><a href="https://wiki.dendron.so/notes/725d99be-fadd-4464-88c3-0a5fcc7292c7.html">Server Migration</a></li>
+</ul><span id="navId" data="66727a39-d0a7-449b-a10d-f6c438185d7f"></span>
+
+                
+      </section>
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+        <div class="thumbs feedback_trigger right-bottom"></div>
+
+        
+          <hr>
+          <footer>
+            
+            
+
+            
+              <div class="d-flex mt-2">
+              <p class="text-small text-grey-dk-000 mb-0 mr-2">
+                Page last modified: <span class="d-inline-block">2/24/2021</span>.
+              </p>
+            
+                
+                  <p class="text-small text-grey-dk-000 mb-0">
+                    <a href="https://github.com/dendronhq/dendron-site/edit/master/vault/dendron.topic.pod.md" id="edit-this-page">Edit this page on GitHub</a>
+                  </p>
+                
+              </div>
+          </footer>
+        
+    </div>
+</div>
+
+
+  
+
+  <div class="search-overlay"></div>
+
+</div>
+
+</body>
+</html>

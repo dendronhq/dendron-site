@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+  
+  <title>Publishing Your Site - Dendron</title>
+  
+
+  <link
+    rel="shortcut icon"
+    href="https://wiki.dendron.so/favicon.ico"
+    type="image/x-icon"
+  />
+  <link
+    rel="stylesheet"
+    href="https://wiki.dendron.so/assets/css/just-the-docs-default.css"
+  />
+  <script
+    type="text/javascript"
+    src="https://wiki.dendron.so/assets/js/just-the-docs.js"
+  ></script>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.22.0/themes/prism.min.css"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css"
+    integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X"
+    crossorigin="anonymous"
+  />
+  <script
+    type="text/javascript"
+    src="https://wiki.dendron.so/assets/js/vendor/lunr.min.js"
+  ></script>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+   
+   
+  
+<meta name="description" content="Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.">
+<meta name="author" content="dendronhq">
+
+<link rel="canonical" href="https://wiki.dendron.so/notes/230d0ccf-5758-4a8f-b39b-3b68e1482e2b.html">
+
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://wiki.dendron.so/notes/230d0ccf-5758-4a8f-b39b-3b68e1482e2b.html">
+<meta property="og:description" content="Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.">
+<meta property="og:image" content="https://wiki.dendron.so/logo.png">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@dendronhq">
+<meta name="twitter:url" content="https://wiki.dendron.so/notes/230d0ccf-5758-4a8f-b39b-3b68e1482e2b.html">
+<meta name="twitter:description" content="Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.">
+<meta name="twitter:image" content="https://wiki.dendron.so/logo.png">
+
+
+  <meta property="og:title" content="Publishing Your Site - Dendron" />
+  <meta name="twitter:title" content="Publishing Your Site - Dendron" />
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-B0JN2HHCNY"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-B0JN2HHCNY');
+  </script>
+  
+</head>
+
+
+
+<body>
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+      <symbol id="svg-link" viewBox="0 0 24 24">
+        <title>Link</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-link">
+          <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+        </svg>
+      </symbol>
+      <symbol id="svg-search" viewBox="0 0 24 24">
+        <title>Search</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search">
+          <circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+      </symbol>
+      <symbol id="svg-menu" viewBox="0 0 24 24">
+        <title>Menu</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu">
+          <line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+      </symbol>
+      <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+        <title>Expand</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+          <polyline points="9 18 15 12 9 6"></polyline>
+        </svg>
+      </symbol>
+      <symbol id="svg-doc" viewBox="0 0 24 24">
+        <title>Document</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file">
+          <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path><polyline points="13 2 13 9 20 9"></polyline>
+        </svg>
+      </symbol>
+    </svg>
+
+    <div class="side-bar">
+      <div class="site-header">
+        <a href="https://wiki.dendron.so" class="site-title lh-tight">
+  <div class="site-logo"></div>
+
+ </a>
+        <a href="#" id="menu-button" class="site-button">
+          <svg viewBox="0 0 24 24" class="icon"><use xlink:href="#svg-menu"></use></svg>
+        </a>
+      </div>
+
+      <nav role="navigation" aria-label="Main" id="site-nav" class="site-nav">
+      </nav>
+      <footer class="site-footer">
+        🌱 with 💕 using <a href="https://www.dendron.so/"> Dendron 🌲 </a>
+      </footer>
+    </div>
+    <div class="main" id="top">
+        <div id="main-header" class="main-header">
+          
+            <div class="search">
+              <div class="search-input-wrap">
+                <input type="text" id="search-input" class="search-input" tabindex="0" placeholder="Search Dendron" aria-label="Search Dendron" autocomplete="off">
+                <label for="search-input" class="search-label"><svg viewBox="0 0 24 24" class="search-icon"><use xlink:href="#svg-search"></use></svg></label>
+              </div>
+              <div id="search-results" class="search-results"></div>
+            </div>
+          
+          
+    </div>
+    <div id="main-content-wrap" class="main-content-wrap">
+      
+        
+          <nav aria-label="Breadcrumb" class="breadcrumb-nav">
+            <ol class="breadcrumb-nav-list"><li class="breadcrumb-nav-list-item"><a href="https://wiki.dendron.so">Dendron</a></li><li class="breadcrumb-nav-list-item"><a href="https://wiki.dendron.so/notes/7a7af2fa-b9d0-4adc-81e6-f03186123539.html">Topics</a></li><li class="breadcrumb-nav-list-item"><a href="https://wiki.dendron.so/notes/579e379b-3eca-4676-b51c-c66eb26a11b8.html">Publishing</a></li><li class="breadcrumb-nav-list-item"><a href="https://wiki.dendron.so/notes/861e4e48-dcc5-4813-a695-8940ba6e64d3.html">Quickstart</a></li><li class="breadcrumb-nav-list-item">Publishing Your Site</li></ol>
+          </nav>
+        
+      
+      <div id="main-content" class="main-content" role="main">
+
+        
+        
+        <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+        <script>mermaid.initialize({startOnLoad:true});</script>
+        
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+        
+        
+
+        
+
+        
+
+        
+
+        <script>
+          $(function () {
+            $('[data-toggle="popover"]').popover({html: true})
+          })
+        </script>
+
+        
+
+<div id="main" role="main">
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Publishing Your Site">
+    
+    <meta itemprop="datePublished" content="2021-01-17T00:45:37+00:00">
+    <meta itemprop="dateModified" content="2021-07-17T20:22:21+00:00">
+
+    <div class="page__inner-wrap">
+
+      
+
+      <section class="page__content" itemprop="text">
+
+        
+
+        <h1 id="publishing-your-site"><a aria-hidden="true" class="anchor-heading" href="#publishing-your-site"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Publishing Your Site</h1>
+<h2 id="vscode"><a aria-hidden="true" class="anchor-heading" href="#vscode"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>VSCode</h2>
+<h3 id="pre-requisites"><a aria-hidden="true" class="anchor-heading" href="#pre-requisites"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Pre-requisites</h3>
+<ul>
+<li>This assumes you have a github repository. 
+<ul>
+<li>If not, you can create one <a href="https://github.com/new">here</a> from your existing workspace</li>
+</ul>
+</li>
+</ul>
+<h3 id="create-a-github-repo"><a aria-hidden="true" class="anchor-heading" href="#create-a-github-repo"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Create a github repo</h3>
+<ul>
+<li>Follow the instructions <a href="https://pages.github.com/">here</a> to create a repository named <code>{username}.github.io</code> where <code>{username}</code> is your username on Github</li>
+</ul>
+<h3 id="add-your-notes"><a aria-hidden="true" class="anchor-heading" href="#add-your-notes"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Add your notes</h3>
+<p>Follow the instructions to push to an existing repository</p>
+<p><img src="https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/publishv2.github.jpg"></p>
+<h3 id="turn-on-github-pages"><a aria-hidden="true" class="anchor-heading" href="#turn-on-github-pages"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Turn on github pages</h3>
+<p>Go to settings</p>
+<p><img src="https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/publishv2.github-settings.jpg"></p>
+<p>Go down to github pages and select the main branch</p>
+<p><img src="https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/publishv2.github-pages.jpg"></p>
+<p>Select the docs folder and click save.</p>
+<p><img src="https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/publishv2.github-docs.jpg"></p>
+<h3 id="configure-your-notes-for-publication"><a aria-hidden="true" class="anchor-heading" href="#configure-your-notes-for-publication"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Configure your notes for publication</h3>
+<p>In order for to build your notes for publication, you'll have to tweak a few settings first. Open the command prompt and type <code>>Dendron: Configure (yaml)</code></p>
+<p>You should see something like the following</p>
+<pre class="language-yml"><code class="language-yml"><span class="token key atrule">version</span><span class="token punctuation">:</span> <span class="token number">1</span>
+<span class="token key atrule">vaults</span><span class="token punctuation">:</span>
+    <span class="token punctuation">-</span>
+        <span class="token key atrule">fsPath</span><span class="token punctuation">:</span> vault
+<span class="token key atrule">site</span><span class="token punctuation">:</span>
+    <span class="token key atrule">copyAssets</span><span class="token punctuation">:</span> <span class="token boolean important">true</span>
+    <span class="token key atrule">siteHierarchies</span><span class="token punctuation">:</span>
+        <span class="token punctuation">-</span> root
+    <span class="token key atrule">siteRootDir</span><span class="token punctuation">:</span> docs
+    <span class="token key atrule">usePrettyRefs</span><span class="token punctuation">:</span> <span class="token boolean important">true</span>
+    <span class="token key atrule">title</span><span class="token punctuation">:</span> Dendron
+</code></pre>
+<p>Make the following modification under <code>site</code>:</p>
+<pre class="language-yml"><code class="language-yml"><span class="token punctuation">...</span>
+<span class="token key atrule">site</span><span class="token punctuation">:</span>
+    <span class="token punctuation">...</span>
+    <span class="token key atrule">siteUrl</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>SITE_URL<span class="token punctuation">}</span>
+</code></pre>
+<ul>
+<li>NOTE: you can get your SITE_URL from the settings page in github. (As in the example screen cap below, the url shown is <code>https://kevinslin.github.io/dendron-publish-sample/</code>, then the SITE_URL would be <code> https://kevinslin.github.io</code>)
+<img src="https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/publishv2.github-url.jpg"></li>
+<li>NOTE: 
+<ul>
+<li>if you setup your github repository name as <code>{username}.github.io</code>, your SITE_URL will be <code>{username}.github.io</code></li>
+<li>if you use an arbitrary name for your github repository (as in the example above, the repo name is <code>dendron-publish-sample</code>)
+<ul>
+<li>your SITE_URL will be <code>{username}.github.io</code></li>
+<li>And you will need to add the suffix using the <code>assetsPrefix</code> property (eg. <code>assetsPrefix: dendron-publish-sample</code>)</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h4 id="examples"><a aria-hidden="true" class="anchor-heading" href="#examples"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Examples</h4>
+<ul>
+<li>publishing the repo named <code>kevinslin.github.io</code></li>
+</ul>
+<pre class="language-yml"><code class="language-yml"><span class="token key atrule">site</span><span class="token punctuation">:</span>
+    <span class="token key atrule">siteUrl</span><span class="token punctuation">:</span> https<span class="token punctuation">:</span>//kevinslin.github.io
+</code></pre>
+<ul>
+<li>publishing the repo named <code>dendron-publish-sample</code></li>
+</ul>
+<pre class="language-yml"><code class="language-yml"><span class="token key atrule">site</span><span class="token punctuation">:</span>
+    <span class="token key atrule">assetsPrefix</span><span class="token punctuation">:</span> dendron<span class="token punctuation">-</span>publish<span class="token punctuation">-</span>sample
+    <span class="token key atrule">siteUrl</span><span class="token punctuation">:</span> https<span class="token punctuation">:</span>//kevinslin.github.io
+</code></pre>
+<h3 id="build-your-notes-for-publication"><a aria-hidden="true" class="anchor-heading" href="#build-your-notes-for-publication"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Build your notes for publication</h3>
+<p>In order to have Dendron generate your website, you open the Command Palette (<code>Cmd+Shift+P</code>) and use the <code>Dendron: Site Build</code> command.</p>
+<h3 id="publish-your-notes"><a aria-hidden="true" class="anchor-heading" href="#publish-your-notes"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Publish your notes</h3>
+<p>You open the Command Palette (<code>Cmd+Shift+P</code>) and use the <a href="https://wiki.dendron.so/notes/eea2b078-1acc-4071-a14e-18299fc28f47.html#workspace-sync">Workspace: Sync</a> command.</p>
+<p>Or you can calmly type in your terminal to commit all your changes (<code>git add .</code> then <code>git commit</code>) and perform a <code>git push</code>.</p>
+<p>GitHub will synchronize all changes and publish your notes everytime you push.</p>
+<pre class="language-bash"><code class="language-bash">opit <span class="token function">add</span> <span class="token builtin class-name">.</span>
+<span class="token function">git</span> commit -m <span class="token string">"first dendron page"</span>
+<span class="token function">git</span> push
+</code></pre>
+<p>When you are done, you should see a page like the one <a href="https://kevinslin.github.io/dendron-publish-sample/">here</a>
+<img src="https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/publishv2.den-wel.jpg"></p>
+<h3 id="congratulations-you-just-published-your-first-note-"><a aria-hidden="true" class="anchor-heading" href="#congratulations-you-just-published-your-first-note-"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Congratulations, you just published your first note 🌱</h3>
+<hr>
+<h2 id="backlinks"><a aria-hidden="true" class="anchor-heading" href="#backlinks"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Backlinks</h2>
+<ul>
+<li><a href="https://wiki.dendron.so/notes/7lVybQm4oETkTUyHRZB0a.html">Publishing as Azure StaticWebApp</a></li>
+<li><a href="https://wiki.dendron.so/notes/877f4347-f013-43ba-aec4-87412b2e1bec.html">Github</a></li>
+<li><a href="https://wiki.dendron.so/notes/1399b5d2-28fb-4077-aa5f-c8edbe52bc5d.html">Preview Your Site</a></li>
+</ul><span id="navId" data="230d0ccf-5758-4a8f-b39b-3b68e1482e2b"></span>
+
+                
+      </section>
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+        <div class="thumbs feedback_trigger right-bottom"></div>
+
+        
+          <hr>
+          <footer>
+            
+            
+
+            
+              <div class="d-flex mt-2">
+              <p class="text-small text-grey-dk-000 mb-0 mr-2">
+                Page last modified: <span class="d-inline-block">7/17/2021</span>.
+              </p>
+            
+                
+                  <p class="text-small text-grey-dk-000 mb-0">
+                    <a href="https://github.com/dendronhq/dendron-site/edit/master/vault/dendron.topic.publishing.quickstart.publishing-your-site.md" id="edit-this-page">Edit this page on GitHub</a>
+                  </p>
+                
+              </div>
+          </footer>
+        
+    </div>
+</div>
+
+
+  
+
+  <div class="search-overlay"></div>
+
+</div>
+
+</body>
+</html>

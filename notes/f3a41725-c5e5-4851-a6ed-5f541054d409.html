@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+  
+  <title>Hierarchies - Dendron</title>
+  
+
+  <link
+    rel="shortcut icon"
+    href="https://wiki.dendron.so/favicon.ico"
+    type="image/x-icon"
+  />
+  <link
+    rel="stylesheet"
+    href="https://wiki.dendron.so/assets/css/just-the-docs-default.css"
+  />
+  <script
+    type="text/javascript"
+    src="https://wiki.dendron.so/assets/js/just-the-docs.js"
+  ></script>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.22.0/themes/prism.min.css"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css"
+    integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X"
+    crossorigin="anonymous"
+  />
+  <script
+    type="text/javascript"
+    src="https://wiki.dendron.so/assets/js/vendor/lunr.min.js"
+  ></script>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+   
+   
+  
+<meta name="description" content="Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.">
+<meta name="author" content="dendronhq">
+
+<link rel="canonical" href="https://wiki.dendron.so/notes/f3a41725-c5e5-4851-a6ed-5f541054d409.html">
+
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://wiki.dendron.so/notes/f3a41725-c5e5-4851-a6ed-5f541054d409.html">
+<meta property="og:description" content="Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.">
+<meta property="og:image" content="https://wiki.dendron.so/logo.png">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@dendronhq">
+<meta name="twitter:url" content="https://wiki.dendron.so/notes/f3a41725-c5e5-4851-a6ed-5f541054d409.html">
+<meta name="twitter:description" content="Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.">
+<meta name="twitter:image" content="https://wiki.dendron.so/logo.png">
+
+
+  <meta property="og:title" content="Hierarchies - Dendron" />
+  <meta name="twitter:title" content="Hierarchies - Dendron" />
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-B0JN2HHCNY"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-B0JN2HHCNY');
+  </script>
+  
+</head>
+
+
+
+<body>
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+      <symbol id="svg-link" viewBox="0 0 24 24">
+        <title>Link</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-link">
+          <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+        </svg>
+      </symbol>
+      <symbol id="svg-search" viewBox="0 0 24 24">
+        <title>Search</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search">
+          <circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+      </symbol>
+      <symbol id="svg-menu" viewBox="0 0 24 24">
+        <title>Menu</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu">
+          <line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+      </symbol>
+      <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+        <title>Expand</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+          <polyline points="9 18 15 12 9 6"></polyline>
+        </svg>
+      </symbol>
+      <symbol id="svg-doc" viewBox="0 0 24 24">
+        <title>Document</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file">
+          <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path><polyline points="13 2 13 9 20 9"></polyline>
+        </svg>
+      </symbol>
+    </svg>
+
+    <div class="side-bar">
+      <div class="site-header">
+        <a href="https://wiki.dendron.so" class="site-title lh-tight">
+  <div class="site-logo"></div>
+
+ </a>
+        <a href="#" id="menu-button" class="site-button">
+          <svg viewBox="0 0 24 24" class="icon"><use xlink:href="#svg-menu"></use></svg>
+        </a>
+      </div>
+
+      <nav role="navigation" aria-label="Main" id="site-nav" class="site-nav">
+      </nav>
+      <footer class="site-footer">
+        🌱 with 💕 using <a href="https://www.dendron.so/"> Dendron 🌲 </a>
+      </footer>
+    </div>
+    <div class="main" id="top">
+        <div id="main-header" class="main-header">
+          
+            <div class="search">
+              <div class="search-input-wrap">
+                <input type="text" id="search-input" class="search-input" tabindex="0" placeholder="Search Dendron" aria-label="Search Dendron" autocomplete="off">
+                <label for="search-input" class="search-label"><svg viewBox="0 0 24 24" class="search-icon"><use xlink:href="#svg-search"></use></svg></label>
+              </div>
+              <div id="search-results" class="search-results"></div>
+            </div>
+          
+          
+    </div>
+    <div id="main-content-wrap" class="main-content-wrap">
+      
+        
+          <nav aria-label="Breadcrumb" class="breadcrumb-nav">
+            <ol class="breadcrumb-nav-list"><li class="breadcrumb-nav-list-item"><a href="https://wiki.dendron.so">Dendron</a></li><li class="breadcrumb-nav-list-item"><a href="https://wiki.dendron.so/notes/7a7af2fa-b9d0-4adc-81e6-f03186123539.html">Topics</a></li><li class="breadcrumb-nav-list-item">Hierarchies</li></ol>
+          </nav>
+        
+      
+      <div id="main-content" class="main-content" role="main">
+
+        
+        
+        <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+        <script>mermaid.initialize({startOnLoad:true});</script>
+        
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+        
+        
+
+        
+
+        
+
+        
+
+        <script>
+          $(function () {
+            $('[data-toggle="popover"]').popover({html: true})
+          })
+        </script>
+
+        
+
+<div id="main" role="main">
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Hierarchies">
+    
+    <meta itemprop="datePublished" content="2020-07-24T17:20:13+00:00">
+    <meta itemprop="dateModified" content="2021-06-15T13:51:04+00:00">
+
+    <div class="page__inner-wrap">
+
+      
+
+      <section class="page__content" itemprop="text">
+
+        
+
+        <h1 id="hierarchies"><a aria-hidden="true" class="anchor-heading" href="#hierarchies"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Hierarchies</h1>
+<h2 id="summary"><a aria-hidden="true" class="anchor-heading" href="#summary"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Summary</h2>
+<p>Within a vault, your notes are stored <strong>hierarchically</strong> as <code>.</code> delimited markdown files. </p>
+<p>Below is a hypothetical hierarchy for a file tree:</p>
+<pre><code>.
+└── project1/
+    ├── project1/designs/
+    │   └── project1/designs/promotion.png
+    ├── project1/paperwork/
+    │   └── project1/paperwork/legal.md
+    └── project1/tasks/
+        ├── project1/tasks/task1.md
+        └── project1/tasks/task2.md
+</code></pre>
+<p>The same hierarchy in Dendron would look like the following:</p>
+<pre><code>.
+├── project1.md
+├── project1.designs.md
+├── project1.designs.promotion.md
+├── project1.paperwork.md
+├── project1.paperwork.legal.md
+├── project1.tasks.md
+├── project1.tasks.task1.md
+└── project1.tasks.task2.md
+</code></pre>
+<h2 id="concepts"><a aria-hidden="true" class="anchor-heading" href="#concepts"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Concepts</h2>
+<p>In the following concepts, we will be using the following file tree</p>
+<p></p><p></p><div class="portal-container">
+<div class="portal-head">
+<div class="portal-backlink">
+<div class="portal-title">From <span class="portal-text-title">Layout</span></div>
+<a href="https://wiki.dendron.so/notes/3bff1195-1d13-4e7a-bc2f-7e4cc617109c.html" class="portal-arrow">Go to text <span class="right-arrow">→</span></a>
+</div>
+</div>
+<div id="portal-parent-anchor" class="portal-parent" markdown="1">
+<div class="portal-parent-fader-top"></div>
+<div class="portal-parent-fader-bottom"></div><h3 id="basic"><a aria-hidden="true" class="anchor-heading" href="#basic"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Basic</h3>
+<pre><code>.
+├── dendron.code-workspace
+├── dendron.yml
+├── .dendron.port
+├── .dendron.meta
+├── docs/
+├── .gitignore
+└── vault/
+    ├── root.md
+    ├── root.schema.md
+    ├── dendron.md
+    ├── dendron.faq.md
+    ├── ...
+    └── assets/images
+</code></pre>
+<ul>
+<li>dendron.code-workspace
+<ul>
+<li>vscode and dendron configuration</li>
+</ul>
+</li>
+<li>dendron.yml 
+<ul>
+<li>dendron specific settings</li>
+</ul>
+</li>
+<li>.dendron.port
+<ul>
+<li>writes the port that the <a href="https://wiki.dendron.so/notes/5a7103be-eb92-4380-8207-598e9f10724c.html">dendron engine</a> is listening to</li>
+</ul>
+</li>
+<li>.dendron.meta
+<ul>
+<li>writes dendron specific metadata</li>
+</ul>
+</li>
+<li>.gitignore
+<ul>
+<li>add special notes </li>
+</ul>
+</li>
+<li>docs/ 
+<ul>
+<li>used to generate a static site from your vault</li>
+</ul>
+</li>
+<li>vault/ 
+<ul>
+<li><code>root.md </code>
+<ul>
+<li>generated by dendron, root of all your hierarchies</li>
+</ul>
+</li>
+<li><code>root.schema.yml</code>
+<ul>
+<li>generated by dendron, root of all of your schemas</li>
+</ul>
+</li>
+<li>assets/images 
+<ul>
+<li>default for <code>Dendron Paste Image</code> extension to put images in</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="terms"><a aria-hidden="true" class="anchor-heading" href="#terms"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Terms</h2>
+<h3 id="workspace-root"><a aria-hidden="true" class="anchor-heading" href="#workspace-root"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>workspace root</h3>
+<p>This is the folder where <code>dendron.code-workspace</code> is located</p></div></div><p></p><p></p>
+<h3 id="root"><a aria-hidden="true" class="anchor-heading" href="#root"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Root</h3>
+<p>Every vault has a root. This is the <code>root.md</code>. </p>
+<h3 id="domain"><a aria-hidden="true" class="anchor-heading" href="#domain"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Domain</h3>
+<p>The domain is the root of a specific hierarchy. In our example vault, we have one domain - <code>dendron</code>.</p>
+<h2 id="why-hierarchies"><a aria-hidden="true" class="anchor-heading" href="#why-hierarchies"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Why Hierarchies?</h2>
+<p>Dendron is built around hierarchies and the axiom that a canonical hierarichal representation of notes is one of the most effective ways of managing large numbers of notes. You can read more about the thoughts behind this <a href="https://www.kevinslin.com/notes/127a3230-4484-433a-b97f-178679564207.html">here</a>.</p>
+<h2 id="whats-with-the-s"><a aria-hidden="true" class="anchor-heading" href="#whats-with-the-s"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>What's with the <code>.</code>'s?</h2>
+<ol>
+<li>It allows each <strong>file</strong> to also be a <strong>folder</strong>. This means your notes can have data but also contain other notes. </li>
+<li>It makes it much easier to perform certain refactoring operations. For example, say you had the following <a href="https://wiki.dendron.so/notes/c5e5adde-5459-409b-b34d-a0d75cbb1052.html">schema</a>
+<pre class="language-yml"><code class="language-yml"><span class="token punctuation">-</span> <span class="token key atrule">id</span><span class="token punctuation">:</span> a<span class="token punctuation">-</span>parent
+<span class="token key atrule">children</span><span class="token punctuation">:</span>
+    <span class="token punctuation">-</span> child<span class="token punctuation">-</span>a
+    <span class="token punctuation">-</span> child<span class="token punctuation">-</span>b
+<span class="token punctuation">-</span> <span class="token key atrule">id</span><span class="token punctuation">:</span> child<span class="token punctuation">-</span>a
+<span class="token punctuation">-</span> <span class="token key atrule">id</span><span class="token punctuation">:</span> child<span class="token punctuation">-</span>b
+</code></pre>
+Lets say you wanted to make <code>child-b</code> a child of <code>child-a</code>
+<pre class="language-yml"><code class="language-yml"><span class="token punctuation">-</span> <span class="token key atrule">id</span><span class="token punctuation">:</span> a<span class="token punctuation">-</span>parent
+<span class="token key atrule">children</span><span class="token punctuation">:</span>
+    <span class="token punctuation">-</span> child<span class="token punctuation">-</span>a
+<span class="token punctuation">-</span> <span class="token key atrule">id</span><span class="token punctuation">:</span> child<span class="token punctuation">-</span>a
+<span class="token key atrule">children</span><span class="token punctuation">:</span>
+    <span class="token punctuation">-</span> child<span class="token punctuation">-</span>b
+<span class="token punctuation">-</span> <span class="token key atrule">id</span><span class="token punctuation">:</span> child<span class="token punctuation">-</span>b
+</code></pre>
+ With the classical folder hierarchy, you would need to turn <code>child-a</code> into a folder and then create a custom file to hold the content from the original <code>child-a</code>
+<pre><code>.
+└── a-parent
+    └── child-a
+        ├── child-a-note
+        └── child-b
+</code></pre>
+ With the <code>.</code> delimited hierarchy, this becomes a simple rename operation
+<pre><code>.
+├── a-parent.child-a
+└── a-parent.child-a.child-b
+</code></pre>
+</li>
+<li>It allows us to create <a href="https://wiki.dendron.so/notes/c5e5adde-5459-409b-b34d-a0d75cbb1052.html">stubs</a> for parts of the hierarchy that don't exist and not clutter our file system with empty folders. With the classical folder hierarchy
+<pre><code>.
+└── a-parent
+    └── child-a
+        └── grandchild-a
+            └── great-grandchild-a.md
+</code></pre>
+With the <code>.</code> delimited hierarchy
+<pre><code>.
+└── a-parent.child-a.grandchild-a.great-grandchild-a.md
+</code></pre>
+</li>
+</ol>
+<hr>
+<h2 id="backlinks"><a aria-hidden="true" class="anchor-heading" href="#backlinks"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Backlinks</h2>
+<ul>
+<li><a href="https://wiki.dendron.so">Dendron</a></li>
+<li><a href="https://wiki.dendron.so/notes/c6fd6bc4-7f75-4cbb-8f34-f7b99bfe2d50.html">Concepts</a></li>
+<li><a href="https://wiki.dendron.so/notes/683740e3-70ce-4a47-a1f4-1f140e80b558.html">FAQ</a></li>
+<li><a href="https://wiki.dendron.so/notes/4bb85c39-d8ac-48ad-a765-3f2a071f7bc9.html">Features</a></li>
+</ul><span id="navId" data="f3a41725-c5e5-4851-a6ed-5f541054d409"></span>
+
+                
+      </section>
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+        <div class="thumbs feedback_trigger right-bottom"></div>
+
+        
+          <hr>
+          <footer>
+            
+            
+
+            
+              <div class="d-flex mt-2">
+              <p class="text-small text-grey-dk-000 mb-0 mr-2">
+                Page last modified: <span class="d-inline-block">6/15/2021</span>.
+              </p>
+            
+                
+                  <p class="text-small text-grey-dk-000 mb-0">
+                    <a href="https://github.com/dendronhq/dendron-site/edit/master/vault/dendron.topic.hierarchies.md" id="edit-this-page">Edit this page on GitHub</a>
+                  </p>
+                
+              </div>
+          </footer>
+        
+    </div>
+</div>
+
+
+  
+
+  <div class="search-overlay"></div>
+
+</div>
+
+</body>
+</html>

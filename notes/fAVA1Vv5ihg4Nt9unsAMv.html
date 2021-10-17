@@ -1,0 +1,994 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+  
+  <title>19 Error Reporting - Dendron</title>
+  
+
+  <link
+    rel="shortcut icon"
+    href="https://wiki.dendron.so/favicon.ico"
+    type="image/x-icon"
+  />
+  <link
+    rel="stylesheet"
+    href="https://wiki.dendron.so/assets/css/just-the-docs-default.css"
+  />
+  <script
+    type="text/javascript"
+    src="https://wiki.dendron.so/assets/js/just-the-docs.js"
+  ></script>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.22.0/themes/prism.min.css"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css"
+    integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X"
+    crossorigin="anonymous"
+  />
+  <script
+    type="text/javascript"
+    src="https://wiki.dendron.so/assets/js/vendor/lunr.min.js"
+  ></script>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+   
+   
+  
+<meta name="description" content="Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.">
+<meta name="author" content="dendronhq">
+
+<link rel="canonical" href="https://wiki.dendron.so/notes/fAVA1Vv5ihg4Nt9unsAMv.html">
+
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://wiki.dendron.so/notes/fAVA1Vv5ihg4Nt9unsAMv.html">
+<meta property="og:description" content="Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.">
+<meta property="og:image" content="https://wiki.dendron.so/logo.png">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@dendronhq">
+<meta name="twitter:url" content="https://wiki.dendron.so/notes/fAVA1Vv5ihg4Nt9unsAMv.html">
+<meta name="twitter:description" content="Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.">
+<meta name="twitter:image" content="https://wiki.dendron.so/logo.png">
+
+
+  <meta property="og:title" content="19 Error Reporting - Dendron" />
+  <meta name="twitter:title" content="19 Error Reporting - Dendron" />
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-B0JN2HHCNY"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-B0JN2HHCNY');
+  </script>
+  
+</head>
+
+
+
+<body>
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+      <symbol id="svg-link" viewBox="0 0 24 24">
+        <title>Link</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-link">
+          <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+        </svg>
+      </symbol>
+      <symbol id="svg-search" viewBox="0 0 24 24">
+        <title>Search</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search">
+          <circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+      </symbol>
+      <symbol id="svg-menu" viewBox="0 0 24 24">
+        <title>Menu</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu">
+          <line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+      </symbol>
+      <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+        <title>Expand</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+          <polyline points="9 18 15 12 9 6"></polyline>
+        </svg>
+      </symbol>
+      <symbol id="svg-doc" viewBox="0 0 24 24">
+        <title>Document</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file">
+          <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path><polyline points="13 2 13 9 20 9"></polyline>
+        </svg>
+      </symbol>
+    </svg>
+
+    <div class="side-bar">
+      <div class="site-header">
+        <a href="https://wiki.dendron.so" class="site-title lh-tight">
+  <div class="site-logo"></div>
+
+ </a>
+        <a href="#" id="menu-button" class="site-button">
+          <svg viewBox="0 0 24 24" class="icon"><use xlink:href="#svg-menu"></use></svg>
+        </a>
+      </div>
+
+      <nav role="navigation" aria-label="Main" id="site-nav" class="site-nav">
+      </nav>
+      <footer class="site-footer">
+        🌱 with 💕 using <a href="https://www.dendron.so/"> Dendron 🌲 </a>
+      </footer>
+    </div>
+    <div class="main" id="top">
+        <div id="main-header" class="main-header">
+          
+            <div class="search">
+              <div class="search-input-wrap">
+                <input type="text" id="search-input" class="search-input" tabindex="0" placeholder="Search Dendron" aria-label="Search Dendron" autocomplete="off">
+                <label for="search-input" class="search-label"><svg viewBox="0 0 24 24" class="search-icon"><use xlink:href="#svg-search"></use></svg></label>
+              </div>
+              <div id="search-results" class="search-results"></div>
+            </div>
+          
+          
+    </div>
+    <div id="main-content-wrap" class="main-content-wrap">
+      
+        
+          <nav aria-label="Breadcrumb" class="breadcrumb-nav">
+            <ol class="breadcrumb-nav-list"><li class="breadcrumb-nav-list-item"><a href="https://wiki.dendron.so">Dendron</a></li><li class="breadcrumb-nav-list-item"><a href="https://wiki.dendron.so/notes/f143ca38-dcc6-4cd3-b84b-997aec1160ef.html">Rfc</a></li><li class="breadcrumb-nav-list-item">19 Error Reporting</li></ol>
+          </nav>
+        
+      
+      <div id="main-content" class="main-content" role="main">
+
+        
+        
+        <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+        <script>mermaid.initialize({startOnLoad:true});</script>
+        
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+        
+        
+
+        
+
+        
+
+        
+
+        <script>
+          $(function () {
+            $('[data-toggle="popover"]').popover({html: true})
+          })
+        </script>
+
+        
+
+<div id="main" role="main">
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="19 Error Reporting">
+    
+    <meta itemprop="datePublished" content="2021-08-10T07:51:07+00:00">
+    <meta itemprop="dateModified" content="2021-08-10T08:30:27+00:00">
+
+    <div class="page__inner-wrap">
+
+      
+
+      <section class="page__content" itemprop="text">
+
+        
+
+        <h1 id="19-error-reporting"><a aria-hidden="true" class="anchor-heading" href="#19-error-reporting"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>19 Error Reporting</h1>
+<h2 id="goals"><a aria-hidden="true" class="anchor-heading" href="#goals"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Goals</h2>
+<p>To improve the stability of Dendron and to create a better end-user experience, we would like to start monitoring errors that Dendron is encountering.</p>
+<h2 id="context"><a aria-hidden="true" class="anchor-heading" href="#context"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Context</h2>
+<p>Error reporting is a critical component for every large scale software project. It allows engineers to identify which problems users are encountering, to understand the criticality and impact of those problems, and to diagnose the root cause of the issue for quick resolution.</p>
+<h2 id="proposal"><a aria-hidden="true" class="anchor-heading" href="#proposal"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Proposal</h2>
+<p>We plan on using the <a href="https://sentry.io/welcome/">sentry.io</a> platform as a our tool of choice for error data management. The way it works is that the Dendron client will contain a Sentry error watcher; upon hitting an exception, data around that exception will get uploaded to a Sentry hosted secure database. We can then use Sentry's tooling to analyze our user crashes and errors.</p>
+<h2 id="details"><a aria-hidden="true" class="anchor-heading" href="#details"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Details</h2>
+<p>The types of errors we plan on capturing data for are exceptions and some non-exception induced errors.</p>
+<h3 id="privacy"><a aria-hidden="true" class="anchor-heading" href="#privacy"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Privacy</h3>
+<p>We take user privacy very seriously at Dendron and will not use the collected error data for any purposes other than driving bug fixes in the Dendron product. All data uploaded will be <a href="https://en.wikipedia.org/wiki/General_Data_Protection_Regulation">GDPR</a> compliant.</p>
+<ul>
+<li>The data will not contain any Personally-Identifiable Information (PII) and will be completely anonymous.</li>
+<li>We will observe telemetry opt-out settings</li>
+<li>We have a data retention policy of at most 180 days.</li>
+</ul>
+<p>An example error event payload can be found at the bottom of this document.</p>
+<h2 id="discussion"><a aria-hidden="true" class="anchor-heading" href="#discussion"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Discussion</h2>
+<p>Please leave feedback in <a href="https://github.com/dendronhq/dendron/discussions/1121">this Github discussion</a></p>
+<h2 id="example-error-upload"><a aria-hidden="true" class="anchor-heading" href="#example-error-upload"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Example Error Upload</h2>
+<p>Below is an example error event that has been uploaded. Note: the local file paths in the stack trace for source maps will not appear in production; they are there in this example because I ran the test upload scenario using locally built code.</p>
+<pre class="language-json"><code class="language-json"><span class="token punctuation">{</span>
+    <span class="token property">"event_id"</span><span class="token operator">:</span> <span class="token string">"4e97f1adbc2c411cb750214c4dbc67f1"</span><span class="token punctuation">,</span>
+    <span class="token property">"project"</span><span class="token operator">:</span> <span class="token number">5898219</span><span class="token punctuation">,</span>
+    <span class="token property">"release"</span><span class="token operator">:</span> <span class="token null keyword">null</span><span class="token punctuation">,</span>
+    <span class="token property">"dist"</span><span class="token operator">:</span> <span class="token null keyword">null</span><span class="token punctuation">,</span>
+    <span class="token property">"platform"</span><span class="token operator">:</span> <span class="token string">"node"</span><span class="token punctuation">,</span>
+    <span class="token property">"message"</span><span class="token operator">:</span> <span class="token string">""</span><span class="token punctuation">,</span>
+    <span class="token property">"datetime"</span><span class="token operator">:</span> <span class="token string">"2021-08-09T06:03:17.178000Z"</span><span class="token punctuation">,</span>
+    <span class="token property">"tags"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+        <span class="token punctuation">[</span>
+            <span class="token string">"browser"</span><span class="token punctuation">,</span>
+            <span class="token string">"Edge 92.0.902"</span>
+        <span class="token punctuation">]</span><span class="token punctuation">,</span>
+        <span class="token punctuation">[</span>
+            <span class="token string">"browser.name"</span><span class="token punctuation">,</span>
+            <span class="token string">"Edge"</span>
+        <span class="token punctuation">]</span><span class="token punctuation">,</span>
+        <span class="token punctuation">[</span>
+            <span class="token string">"client_os"</span><span class="token punctuation">,</span>
+            <span class="token string">"Mac OS X 10.15.7"</span>
+        <span class="token punctuation">]</span><span class="token punctuation">,</span>
+        <span class="token punctuation">[</span>
+            <span class="token string">"client_os.name"</span><span class="token punctuation">,</span>
+            <span class="token string">"Mac OS X"</span>
+        <span class="token punctuation">]</span><span class="token punctuation">,</span>
+        <span class="token punctuation">[</span>
+            <span class="token string">"device"</span><span class="token punctuation">,</span>
+            <span class="token string">"Mac"</span>
+        <span class="token punctuation">]</span><span class="token punctuation">,</span>
+        <span class="token punctuation">[</span>
+            <span class="token string">"device.family"</span><span class="token punctuation">,</span>
+            <span class="token string">"Mac"</span>
+        <span class="token punctuation">]</span><span class="token punctuation">,</span>
+        <span class="token punctuation">[</span>
+            <span class="token string">"environment"</span><span class="token punctuation">,</span>
+            <span class="token string">"production"</span>
+        <span class="token punctuation">]</span><span class="token punctuation">,</span>
+        <span class="token punctuation">[</span>
+            <span class="token string">"handled"</span><span class="token punctuation">,</span>
+            <span class="token string">"yes"</span>
+        <span class="token punctuation">]</span><span class="token punctuation">,</span>
+        <span class="token punctuation">[</span>
+            <span class="token string">"level"</span><span class="token punctuation">,</span>
+            <span class="token string">"error"</span>
+        <span class="token punctuation">]</span><span class="token punctuation">,</span>
+        <span class="token punctuation">[</span>
+            <span class="token string">"mechanism"</span><span class="token punctuation">,</span>
+            <span class="token string">"generic"</span>
+        <span class="token punctuation">]</span><span class="token punctuation">,</span>
+        <span class="token punctuation">[</span>
+            <span class="token string">"runtime"</span><span class="token punctuation">,</span>
+            <span class="token string">"node v14.16.0"</span>
+        <span class="token punctuation">]</span><span class="token punctuation">,</span>
+        <span class="token punctuation">[</span>
+            <span class="token string">"runtime.name"</span><span class="token punctuation">,</span>
+            <span class="token string">"node"</span>
+        <span class="token punctuation">]</span><span class="token punctuation">,</span>
+        <span class="token punctuation">[</span>
+            <span class="token string">"transaction"</span><span class="token punctuation">,</span>
+            <span class="token string">"GET /debug-sentry"</span>
+        <span class="token punctuation">]</span><span class="token punctuation">,</span>
+        <span class="token punctuation">[</span>
+            <span class="token string">"url"</span><span class="token punctuation">,</span>
+            <span class="token string">"http://localhost/debug-sentry"</span>
+        <span class="token punctuation">]</span>
+    <span class="token punctuation">]</span><span class="token punctuation">,</span>
+    <span class="token property">"_metrics"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+        <span class="token property">"bytes.ingested.event"</span><span class="token operator">:</span> <span class="token number">13575</span><span class="token punctuation">,</span>
+        <span class="token property">"bytes.stored.event"</span><span class="token operator">:</span> <span class="token number">20540</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token property">"breadcrumbs"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+        <span class="token property">"values"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+            <span class="token punctuation">{</span>
+                <span class="token property">"timestamp"</span><span class="token operator">:</span> <span class="token number">1628488836.456</span><span class="token punctuation">,</span>
+                <span class="token property">"type"</span><span class="token operator">:</span> <span class="token string">"http"</span><span class="token punctuation">,</span>
+                <span class="token property">"category"</span><span class="token operator">:</span> <span class="token string">"http"</span><span class="token punctuation">,</span>
+                <span class="token property">"level"</span><span class="token operator">:</span> <span class="token string">"info"</span><span class="token punctuation">,</span>
+                <span class="token property">"data"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+                    <span class="token property">"method"</span><span class="token operator">:</span> <span class="token string">"POST"</span><span class="token punctuation">,</span>
+                    <span class="token property">"status_code"</span><span class="token operator">:</span> <span class="token number">200</span><span class="token punctuation">,</span>
+                    <span class="token property">"url"</span><span class="token operator">:</span> <span class="token string">"http://localhost:60285/api/workspace/initialize?"</span>
+                <span class="token punctuation">}</span>
+            <span class="token punctuation">}</span><span class="token punctuation">,</span>
+            <span class="token punctuation">{</span>
+                <span class="token property">"timestamp"</span><span class="token operator">:</span> <span class="token number">1628488838.64</span><span class="token punctuation">,</span>
+                <span class="token property">"type"</span><span class="token operator">:</span> <span class="token string">"http"</span><span class="token punctuation">,</span>
+                <span class="token property">"category"</span><span class="token operator">:</span> <span class="token string">"http"</span><span class="token punctuation">,</span>
+                <span class="token property">"level"</span><span class="token operator">:</span> <span class="token string">"info"</span><span class="token punctuation">,</span>
+                <span class="token property">"data"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+                    <span class="token property">"method"</span><span class="token operator">:</span> <span class="token string">"POST"</span><span class="token punctuation">,</span>
+                    <span class="token property">"status_code"</span><span class="token operator">:</span> <span class="token number">200</span><span class="token punctuation">,</span>
+                    <span class="token property">"url"</span><span class="token operator">:</span> <span class="token string">"https://api.segment.io/v1/batch"</span>
+                <span class="token punctuation">}</span>
+            <span class="token punctuation">}</span><span class="token punctuation">,</span>
+            <span class="token punctuation">{</span>
+                <span class="token property">"timestamp"</span><span class="token operator">:</span> <span class="token number">1628488838.644</span><span class="token punctuation">,</span>
+                <span class="token property">"type"</span><span class="token operator">:</span> <span class="token string">"http"</span><span class="token punctuation">,</span>
+                <span class="token property">"category"</span><span class="token operator">:</span> <span class="token string">"http"</span><span class="token punctuation">,</span>
+                <span class="token property">"level"</span><span class="token operator">:</span> <span class="token string">"info"</span><span class="token punctuation">,</span>
+                <span class="token property">"data"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+                    <span class="token property">"method"</span><span class="token operator">:</span> <span class="token string">"POST"</span><span class="token punctuation">,</span>
+                    <span class="token property">"status_code"</span><span class="token operator">:</span> <span class="token number">200</span><span class="token punctuation">,</span>
+                    <span class="token property">"url"</span><span class="token operator">:</span> <span class="token string">"https://api.segment.io/v1/batch"</span>
+                <span class="token punctuation">}</span>
+            <span class="token punctuation">}</span><span class="token punctuation">,</span>
+            <span class="token punctuation">{</span>
+                <span class="token property">"timestamp"</span><span class="token operator">:</span> <span class="token number">1628488849.764</span><span class="token punctuation">,</span>
+                <span class="token property">"type"</span><span class="token operator">:</span> <span class="token string">"http"</span><span class="token punctuation">,</span>
+                <span class="token property">"category"</span><span class="token operator">:</span> <span class="token string">"http"</span><span class="token punctuation">,</span>
+                <span class="token property">"level"</span><span class="token operator">:</span> <span class="token string">"info"</span><span class="token punctuation">,</span>
+                <span class="token property">"data"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+                    <span class="token property">"method"</span><span class="token operator">:</span> <span class="token string">"POST"</span><span class="token punctuation">,</span>
+                    <span class="token property">"status_code"</span><span class="token operator">:</span> <span class="token number">200</span><span class="token punctuation">,</span>
+                    <span class="token property">"url"</span><span class="token operator">:</span> <span class="token string">"https://api.segment.io/v1/batch"</span>
+                <span class="token punctuation">}</span>
+            <span class="token punctuation">}</span><span class="token punctuation">,</span>
+            <span class="token punctuation">{</span>
+                <span class="token property">"timestamp"</span><span class="token operator">:</span> <span class="token number">1628488865.322</span><span class="token punctuation">,</span>
+                <span class="token property">"type"</span><span class="token operator">:</span> <span class="token string">"http"</span><span class="token punctuation">,</span>
+                <span class="token property">"category"</span><span class="token operator">:</span> <span class="token string">"http"</span><span class="token punctuation">,</span>
+                <span class="token property">"level"</span><span class="token operator">:</span> <span class="token string">"info"</span><span class="token punctuation">,</span>
+                <span class="token property">"data"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+                    <span class="token property">"method"</span><span class="token operator">:</span> <span class="token string">"POST"</span><span class="token punctuation">,</span>
+                    <span class="token property">"status_code"</span><span class="token operator">:</span> <span class="token number">200</span><span class="token punctuation">,</span>
+                    <span class="token property">"url"</span><span class="token operator">:</span> <span class="token string">"https://api.segment.io/v1/batch"</span>
+                <span class="token punctuation">}</span>
+            <span class="token punctuation">}</span><span class="token punctuation">,</span>
+            <span class="token punctuation">{</span>
+                <span class="token property">"timestamp"</span><span class="token operator">:</span> <span class="token number">1628488997.154</span><span class="token punctuation">,</span>
+                <span class="token property">"type"</span><span class="token operator">:</span> <span class="token string">"default"</span><span class="token punctuation">,</span>
+                <span class="token property">"category"</span><span class="token operator">:</span> <span class="token string">"console"</span><span class="token punctuation">,</span>
+                <span class="token property">"level"</span><span class="token operator">:</span> <span class="token string">"error"</span><span class="token punctuation">,</span>
+                <span class="token property">"message"</span><span class="token operator">:</span> <span class="token string">"My first Sentry error! [Error: My first Sentry error!\n\tat /Users/jyeung/code/dendron/dendron/packages/api-server/lib/Server.js:110:15\n\tat Layer.handle [as handle_request] (/Users/jyeung/code/dendron/dendron/node_modules/express/lib/router/layer.js:95:5)\n\tat next (/Users/jyeung/code/dendron/dendron/node_modules/express/lib/router/route.js:137:13)\n\tat Route.dispatch (/Users/jyeung/code/dendron/dendron/node_modules/express/lib/router/route.js:112:3)\n\tat Layer.handle [as handle_request] (/Users/jyeung/code/dendron/dendron/node_modules/express/lib/router/layer.js:95:5)\n\tat /Users/jyeung/code/dendron/dendron/node_modules/express/lib/router/index.js:281:22\n\tat Function.process_params (/Users/jyeung/code/dendron/dendron/node_modules/express/lib/router/index.js:335:12)\n\tat next (/Users/jyeung/code/dendron/dendron/node_modules/express/lib/router/index.js:275:10)\n\tat /Users/jyeung/code/dendron/dendron/node_modules/@sentry/tracing/dist/integrations/express.js:87:31\n\tat SendStream.error (/Users/jyeung/code/dendron/dendron/node_modules/serve-static/index.js:121:7)\n\tat SendStream.emit (events.js:315:20)\n\tat SendStream.emit (domain.js:467:12)\n\tat SendStream.error (/Users/jyeung/code/dendron/dendron/node_modules/serve-static/node_modules/send/index.js:270:17)\n\tat SendStream.onStatError (/Users/jyeung/code/dendron/dendron/node_modules/serve-static/node_modules/send/index.js:421:12)\n\tat next (/Users/jyeung/code/dendron/dendron/node_modules/serve-static/node_modules/send/index.js:735:16)\n\tat onstat (/Users/jyeung/code/dendron/dendron/node_modules/serve-static/node_modules/send/index.js:724:14)\n\tat FSReqCallback.oncomplete (fs.js:183:21)\n\tat FSReqCallback.callbackTrampoline (internal/async_hooks.js:131:14)]"</span>
+            <span class="token punctuation">}</span>
+        <span class="token punctuation">]</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token property">"contexts"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+        <span class="token property">"browser"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+            <span class="token property">"name"</span><span class="token operator">:</span> <span class="token string">"Edge"</span><span class="token punctuation">,</span>
+            <span class="token property">"version"</span><span class="token operator">:</span> <span class="token string">"92.0.902"</span><span class="token punctuation">,</span>
+            <span class="token property">"type"</span><span class="token operator">:</span> <span class="token string">"browser"</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token property">"client_os"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+            <span class="token property">"name"</span><span class="token operator">:</span> <span class="token string">"Mac OS X"</span><span class="token punctuation">,</span>
+            <span class="token property">"version"</span><span class="token operator">:</span> <span class="token string">"10.15.7"</span><span class="token punctuation">,</span>
+            <span class="token property">"type"</span><span class="token operator">:</span> <span class="token string">"os"</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token property">"device"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+            <span class="token property">"family"</span><span class="token operator">:</span> <span class="token string">"Mac"</span><span class="token punctuation">,</span>
+            <span class="token property">"model"</span><span class="token operator">:</span> <span class="token string">"Mac"</span><span class="token punctuation">,</span>
+            <span class="token property">"brand"</span><span class="token operator">:</span> <span class="token string">"Apple"</span><span class="token punctuation">,</span>
+            <span class="token property">"type"</span><span class="token operator">:</span> <span class="token string">"device"</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token property">"runtime"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+            <span class="token property">"name"</span><span class="token operator">:</span> <span class="token string">"node"</span><span class="token punctuation">,</span>
+            <span class="token property">"version"</span><span class="token operator">:</span> <span class="token string">"v14.16.0"</span><span class="token punctuation">,</span>
+            <span class="token property">"type"</span><span class="token operator">:</span> <span class="token string">"runtime"</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token property">"trace"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+            <span class="token property">"trace_id"</span><span class="token operator">:</span> <span class="token string">"668ca236b57948d687eacf61d31dc48c"</span><span class="token punctuation">,</span>
+            <span class="token property">"span_id"</span><span class="token operator">:</span> <span class="token string">"b404eb7d213b7ba1"</span><span class="token punctuation">,</span>
+            <span class="token property">"op"</span><span class="token operator">:</span> <span class="token string">"http.server"</span><span class="token punctuation">,</span>
+            <span class="token property">"status"</span><span class="token operator">:</span> <span class="token string">"invalid_argument"</span><span class="token punctuation">,</span>
+            <span class="token property">"data"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+                <span class="token property">"baseUrl"</span><span class="token operator">:</span> <span class="token string">""</span><span class="token punctuation">,</span>
+                <span class="token property">"query"</span><span class="token operator">:</span> <span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">,</span>
+                <span class="token property">"url"</span><span class="token operator">:</span> <span class="token string">"/debug-sentry"</span>
+            <span class="token punctuation">}</span><span class="token punctuation">,</span>
+            <span class="token property">"tags"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+                <span class="token property">"http.status_code"</span><span class="token operator">:</span> <span class="token string">"400"</span>
+            <span class="token punctuation">}</span><span class="token punctuation">,</span>
+            <span class="token property">"type"</span><span class="token operator">:</span> <span class="token string">"trace"</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token property">"culprit"</span><span class="token operator">:</span> <span class="token string">"GET /debug-sentry"</span><span class="token punctuation">,</span>
+    <span class="token property">"environment"</span><span class="token operator">:</span> <span class="token string">"production"</span><span class="token punctuation">,</span>
+    <span class="token property">"exception"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+        <span class="token property">"values"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+            <span class="token punctuation">{</span>
+                <span class="token property">"type"</span><span class="token operator">:</span> <span class="token string">"Error"</span><span class="token punctuation">,</span>
+                <span class="token property">"value"</span><span class="token operator">:</span> <span class="token string">"My first Sentry error!"</span><span class="token punctuation">,</span>
+                <span class="token property">"stacktrace"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+                    <span class="token property">"frames"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+                        <span class="token punctuation">{</span>
+                            <span class="token property">"function"</span><span class="token operator">:</span> <span class="token string">"FSReqCallback.callbackTrampoline"</span><span class="token punctuation">,</span>
+                            <span class="token property">"module"</span><span class="token operator">:</span> <span class="token string">"async_hooks"</span><span class="token punctuation">,</span>
+                            <span class="token property">"filename"</span><span class="token operator">:</span> <span class="token string">"internal/async_hooks.js"</span><span class="token punctuation">,</span>
+                            <span class="token property">"abs_path"</span><span class="token operator">:</span> <span class="token string">"internal/async_hooks.js"</span><span class="token punctuation">,</span>
+                            <span class="token property">"lineno"</span><span class="token operator">:</span> <span class="token number">131</span><span class="token punctuation">,</span>
+                            <span class="token property">"colno"</span><span class="token operator">:</span> <span class="token number">14</span><span class="token punctuation">,</span>
+                            <span class="token property">"in_app"</span><span class="token operator">:</span> <span class="token boolean">false</span>
+                        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+                        <span class="token punctuation">{</span>
+                            <span class="token property">"function"</span><span class="token operator">:</span> <span class="token string">"FSReqCallback.oncomplete"</span><span class="token punctuation">,</span>
+                            <span class="token property">"module"</span><span class="token operator">:</span> <span class="token string">"fs"</span><span class="token punctuation">,</span>
+                            <span class="token property">"filename"</span><span class="token operator">:</span> <span class="token string">"fs.js"</span><span class="token punctuation">,</span>
+                            <span class="token property">"abs_path"</span><span class="token operator">:</span> <span class="token string">"fs.js"</span><span class="token punctuation">,</span>
+                            <span class="token property">"lineno"</span><span class="token operator">:</span> <span class="token number">183</span><span class="token punctuation">,</span>
+                            <span class="token property">"colno"</span><span class="token operator">:</span> <span class="token number">21</span><span class="token punctuation">,</span>
+                            <span class="token property">"in_app"</span><span class="token operator">:</span> <span class="token boolean">false</span>
+                        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+                        <span class="token punctuation">{</span>
+                            <span class="token property">"function"</span><span class="token operator">:</span> <span class="token string">"onstat"</span><span class="token punctuation">,</span>
+                            <span class="token property">"module"</span><span class="token operator">:</span> <span class="token string">"send:index"</span><span class="token punctuation">,</span>
+                            <span class="token property">"filename"</span><span class="token operator">:</span> <span class="token string">"/Users/jyeung/code/dendron/dendron/node_modules/serve-static/node_modules/send/index.js"</span><span class="token punctuation">,</span>
+                            <span class="token property">"abs_path"</span><span class="token operator">:</span> <span class="token string">"/Users/jyeung/code/dendron/dendron/node_modules/serve-static/node_modules/send/index.js"</span><span class="token punctuation">,</span>
+                            <span class="token property">"lineno"</span><span class="token operator">:</span> <span class="token number">724</span><span class="token punctuation">,</span>
+                            <span class="token property">"colno"</span><span class="token operator">:</span> <span class="token number">14</span><span class="token punctuation">,</span>
+                            <span class="token property">"pre_context"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+                                <span class="token string">"  var i = 0"</span><span class="token punctuation">,</span>
+                                <span class="token string">"  var self = this"</span><span class="token punctuation">,</span>
+                                <span class="token string">""</span><span class="token punctuation">,</span>
+                                <span class="token string">"  debug('stat \"%s\"', path)"</span><span class="token punctuation">,</span>
+                                <span class="token string">"  fs.stat(path, function onstat (err, stat) {"</span><span class="token punctuation">,</span>
+                                <span class="token string">"    if (err &#x26;&#x26; err.code === 'ENOENT' &#x26;&#x26; !extname(path) &#x26;&#x26; path[path.length - 1] !== sep) {"</span><span class="token punctuation">,</span>
+                                <span class="token string">"      // not found, check extensions"</span>
+                            <span class="token punctuation">]</span><span class="token punctuation">,</span>
+                            <span class="token property">"context_line"</span><span class="token operator">:</span> <span class="token string">"      return next(err)"</span><span class="token punctuation">,</span>
+                            <span class="token property">"post_context"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+                                <span class="token string">"    }"</span><span class="token punctuation">,</span>
+                                <span class="token string">"    if (err) return self.onStatError(err)"</span><span class="token punctuation">,</span>
+                                <span class="token string">"    if (stat.isDirectory()) return self.redirect(path)"</span><span class="token punctuation">,</span>
+                                <span class="token string">"    self.emit('file', path, stat)"</span><span class="token punctuation">,</span>
+                                <span class="token string">"    self.send(path, stat)"</span><span class="token punctuation">,</span>
+                                <span class="token string">"  })"</span><span class="token punctuation">,</span>
+                                <span class="token string">""</span>
+                            <span class="token punctuation">]</span><span class="token punctuation">,</span>
+                            <span class="token property">"in_app"</span><span class="token operator">:</span> <span class="token boolean">false</span>
+                        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+                        <span class="token punctuation">{</span>
+                            <span class="token property">"function"</span><span class="token operator">:</span> <span class="token string">"next"</span><span class="token punctuation">,</span>
+                            <span class="token property">"module"</span><span class="token operator">:</span> <span class="token string">"send:index"</span><span class="token punctuation">,</span>
+                            <span class="token property">"filename"</span><span class="token operator">:</span> <span class="token string">"/Users/jyeung/code/dendron/dendron/node_modules/serve-static/node_modules/send/index.js"</span><span class="token punctuation">,</span>
+                            <span class="token property">"abs_path"</span><span class="token operator">:</span> <span class="token string">"/Users/jyeung/code/dendron/dendron/node_modules/serve-static/node_modules/send/index.js"</span><span class="token punctuation">,</span>
+                            <span class="token property">"lineno"</span><span class="token operator">:</span> <span class="token number">735</span><span class="token punctuation">,</span>
+                            <span class="token property">"colno"</span><span class="token operator">:</span> <span class="token number">16</span><span class="token punctuation">,</span>
+                            <span class="token property">"pre_context"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+                                <span class="token string">"    self.emit('file', path, stat)"</span><span class="token punctuation">,</span>
+                                <span class="token string">"    self.send(path, stat)"</span><span class="token punctuation">,</span>
+                                <span class="token string">"  })"</span><span class="token punctuation">,</span>
+                                <span class="token string">""</span><span class="token punctuation">,</span>
+                                <span class="token string">"  function next (err) {"</span><span class="token punctuation">,</span>
+                                <span class="token string">"    if (self._extensions.length &#x3C;= i) {"</span><span class="token punctuation">,</span>
+                                <span class="token string">"      return err"</span>
+                            <span class="token punctuation">]</span><span class="token punctuation">,</span>
+                            <span class="token property">"context_line"</span><span class="token operator">:</span> <span class="token string">"        ? self.onStatError(err)"</span><span class="token punctuation">,</span>
+                            <span class="token property">"post_context"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+                                <span class="token string">"        : self.error(404)"</span><span class="token punctuation">,</span>
+                                <span class="token string">"    }"</span><span class="token punctuation">,</span>
+                                <span class="token string">""</span><span class="token punctuation">,</span>
+                                <span class="token string">"    var p = path + '.' + self._extensions[i++]"</span><span class="token punctuation">,</span>
+                                <span class="token string">""</span><span class="token punctuation">,</span>
+                                <span class="token string">"    debug('stat \"%s\"', p)"</span><span class="token punctuation">,</span>
+                                <span class="token string">"    fs.stat(p, function (err, stat) {"</span>
+                            <span class="token punctuation">]</span><span class="token punctuation">,</span>
+                            <span class="token property">"in_app"</span><span class="token operator">:</span> <span class="token boolean">false</span>
+                        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+                        <span class="token punctuation">{</span>
+                            <span class="token property">"function"</span><span class="token operator">:</span> <span class="token string">"SendStream.onStatError"</span><span class="token punctuation">,</span>
+                            <span class="token property">"module"</span><span class="token operator">:</span> <span class="token string">"send:index"</span><span class="token punctuation">,</span>
+                            <span class="token property">"filename"</span><span class="token operator">:</span> <span class="token string">"/Users/jyeung/code/dendron/dendron/node_modules/serve-static/node_modules/send/index.js"</span><span class="token punctuation">,</span>
+                            <span class="token property">"abs_path"</span><span class="token operator">:</span> <span class="token string">"/Users/jyeung/code/dendron/dendron/node_modules/serve-static/node_modules/send/index.js"</span><span class="token punctuation">,</span>
+                            <span class="token property">"lineno"</span><span class="token operator">:</span> <span class="token number">421</span><span class="token punctuation">,</span>
+                            <span class="token property">"colno"</span><span class="token operator">:</span> <span class="token number">12</span><span class="token punctuation">,</span>
+                            <span class="token property">"pre_context"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+                                <span class="token string">" */"</span><span class="token punctuation">,</span>
+                                <span class="token string">""</span><span class="token punctuation">,</span>
+                                <span class="token string">"SendStream.prototype.onStatError = function onStatError (error) {"</span><span class="token punctuation">,</span>
+                                <span class="token string">"  switch (error.code) {"</span><span class="token punctuation">,</span>
+                                <span class="token string">"    case 'ENAMETOOLONG':"</span><span class="token punctuation">,</span>
+                                <span class="token string">"    case 'ENOENT':"</span><span class="token punctuation">,</span>
+                                <span class="token string">"    case 'ENOTDIR':"</span>
+                            <span class="token punctuation">]</span><span class="token punctuation">,</span>
+                            <span class="token property">"context_line"</span><span class="token operator">:</span> <span class="token string">"      this.error(404, error)"</span><span class="token punctuation">,</span>
+                            <span class="token property">"post_context"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+                                <span class="token string">"      break"</span><span class="token punctuation">,</span>
+                                <span class="token string">"    default:"</span><span class="token punctuation">,</span>
+                                <span class="token string">"      this.error(500, error)"</span><span class="token punctuation">,</span>
+                                <span class="token string">"      break"</span><span class="token punctuation">,</span>
+                                <span class="token string">"  }"</span><span class="token punctuation">,</span>
+                                <span class="token string">"}"</span><span class="token punctuation">,</span>
+                                <span class="token string">""</span>
+                            <span class="token punctuation">]</span><span class="token punctuation">,</span>
+                            <span class="token property">"in_app"</span><span class="token operator">:</span> <span class="token boolean">false</span>
+                        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+                        <span class="token punctuation">{</span>
+                            <span class="token property">"function"</span><span class="token operator">:</span> <span class="token string">"SendStream.error"</span><span class="token punctuation">,</span>
+                            <span class="token property">"module"</span><span class="token operator">:</span> <span class="token string">"send:index"</span><span class="token punctuation">,</span>
+                            <span class="token property">"filename"</span><span class="token operator">:</span> <span class="token string">"/Users/jyeung/code/dendron/dendron/node_modules/serve-static/node_modules/send/index.js"</span><span class="token punctuation">,</span>
+                            <span class="token property">"abs_path"</span><span class="token operator">:</span> <span class="token string">"/Users/jyeung/code/dendron/dendron/node_modules/serve-static/node_modules/send/index.js"</span><span class="token punctuation">,</span>
+                            <span class="token property">"lineno"</span><span class="token operator">:</span> <span class="token number">270</span><span class="token punctuation">,</span>
+                            <span class="token property">"colno"</span><span class="token operator">:</span> <span class="token number">17</span><span class="token punctuation">,</span>
+                            <span class="token property">"pre_context"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+                                <span class="token string">" * @param {Error} [err]"</span><span class="token punctuation">,</span>
+                                <span class="token string">" * @private"</span><span class="token punctuation">,</span>
+                                <span class="token string">" */"</span><span class="token punctuation">,</span>
+                                <span class="token string">""</span><span class="token punctuation">,</span>
+                                <span class="token string">"SendStream.prototype.error = function error (status, err) {"</span><span class="token punctuation">,</span>
+                                <span class="token string">"  // emit if listeners instead of responding"</span><span class="token punctuation">,</span>
+                                <span class="token string">"  if (hasListeners(this, 'error')) {"</span>
+                            <span class="token punctuation">]</span><span class="token punctuation">,</span>
+                            <span class="token property">"context_line"</span><span class="token operator">:</span> <span class="token string">"    return this.emit('error', createError(status, err, {"</span><span class="token punctuation">,</span>
+                            <span class="token property">"post_context"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+                                <span class="token string">"      expose: false"</span><span class="token punctuation">,</span>
+                                <span class="token string">"    }))"</span><span class="token punctuation">,</span>
+                                <span class="token string">"  }"</span><span class="token punctuation">,</span>
+                                <span class="token string">""</span><span class="token punctuation">,</span>
+                                <span class="token string">"  var res = this.res"</span><span class="token punctuation">,</span>
+                                <span class="token string">"  var msg = statuses[status] || String(status)"</span><span class="token punctuation">,</span>
+                                <span class="token string">"  var doc = createHtmlDocument('Error', escapeHtml(msg))"</span>
+                            <span class="token punctuation">]</span><span class="token punctuation">,</span>
+                            <span class="token property">"in_app"</span><span class="token operator">:</span> <span class="token boolean">false</span>
+                        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+                        <span class="token punctuation">{</span>
+                            <span class="token property">"function"</span><span class="token operator">:</span> <span class="token string">"SendStream.emit"</span><span class="token punctuation">,</span>
+                            <span class="token property">"module"</span><span class="token operator">:</span> <span class="token string">"domain"</span><span class="token punctuation">,</span>
+                            <span class="token property">"filename"</span><span class="token operator">:</span> <span class="token string">"domain.js"</span><span class="token punctuation">,</span>
+                            <span class="token property">"abs_path"</span><span class="token operator">:</span> <span class="token string">"domain.js"</span><span class="token punctuation">,</span>
+                            <span class="token property">"lineno"</span><span class="token operator">:</span> <span class="token number">467</span><span class="token punctuation">,</span>
+                            <span class="token property">"colno"</span><span class="token operator">:</span> <span class="token number">12</span><span class="token punctuation">,</span>
+                            <span class="token property">"in_app"</span><span class="token operator">:</span> <span class="token boolean">false</span>
+                        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+                        <span class="token punctuation">{</span>
+                            <span class="token property">"function"</span><span class="token operator">:</span> <span class="token string">"SendStream.emit"</span><span class="token punctuation">,</span>
+                            <span class="token property">"module"</span><span class="token operator">:</span> <span class="token string">"events"</span><span class="token punctuation">,</span>
+                            <span class="token property">"filename"</span><span class="token operator">:</span> <span class="token string">"events.js"</span><span class="token punctuation">,</span>
+                            <span class="token property">"abs_path"</span><span class="token operator">:</span> <span class="token string">"events.js"</span><span class="token punctuation">,</span>
+                            <span class="token property">"lineno"</span><span class="token operator">:</span> <span class="token number">315</span><span class="token punctuation">,</span>
+                            <span class="token property">"colno"</span><span class="token operator">:</span> <span class="token number">20</span><span class="token punctuation">,</span>
+                            <span class="token property">"in_app"</span><span class="token operator">:</span> <span class="token boolean">false</span>
+                        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+                        <span class="token punctuation">{</span>
+                            <span class="token property">"function"</span><span class="token operator">:</span> <span class="token string">"SendStream.error"</span><span class="token punctuation">,</span>
+                            <span class="token property">"module"</span><span class="token operator">:</span> <span class="token string">"serve-static:index"</span><span class="token punctuation">,</span>
+                            <span class="token property">"filename"</span><span class="token operator">:</span> <span class="token string">"/Users/jyeung/code/dendron/dendron/node_modules/serve-static/index.js"</span><span class="token punctuation">,</span>
+                            <span class="token property">"abs_path"</span><span class="token operator">:</span> <span class="token string">"/Users/jyeung/code/dendron/dendron/node_modules/serve-static/index.js"</span><span class="token punctuation">,</span>
+                            <span class="token property">"lineno"</span><span class="token operator">:</span> <span class="token number">121</span><span class="token punctuation">,</span>
+                            <span class="token property">"colno"</span><span class="token operator">:</span> <span class="token number">7</span><span class="token punctuation">,</span>
+                            <span class="token property">"pre_context"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+                                <span class="token string">"    // forward errors"</span><span class="token punctuation">,</span>
+                                <span class="token string">"    stream.on('error', function error (err) {"</span><span class="token punctuation">,</span>
+                                <span class="token string">"      if (forwardError || !(err.statusCode &#x3C; 500)) {"</span><span class="token punctuation">,</span>
+                                <span class="token string">"        next(err)"</span><span class="token punctuation">,</span>
+                                <span class="token string">"        return"</span><span class="token punctuation">,</span>
+                                <span class="token string">"      }"</span><span class="token punctuation">,</span>
+                                <span class="token string">""</span>
+                            <span class="token punctuation">]</span><span class="token punctuation">,</span>
+                            <span class="token property">"context_line"</span><span class="token operator">:</span> <span class="token string">"      next()"</span><span class="token punctuation">,</span>
+                            <span class="token property">"post_context"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+                                <span class="token string">"    })"</span><span class="token punctuation">,</span>
+                                <span class="token string">""</span><span class="token punctuation">,</span>
+                                <span class="token string">"    // pipe"</span><span class="token punctuation">,</span>
+                                <span class="token string">"    stream.pipe(res)"</span><span class="token punctuation">,</span>
+                                <span class="token string">"  }"</span><span class="token punctuation">,</span>
+                                <span class="token string">"}"</span><span class="token punctuation">,</span>
+                                <span class="token string">""</span>
+                            <span class="token punctuation">]</span><span class="token punctuation">,</span>
+                            <span class="token property">"in_app"</span><span class="token operator">:</span> <span class="token boolean">false</span>
+                        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+                        <span class="token punctuation">{</span>
+                            <span class="token property">"function"</span><span class="token operator">:</span> <span class="token string">"null.&#x3C;anonymous>"</span><span class="token punctuation">,</span>
+                            <span class="token property">"module"</span><span class="token operator">:</span> <span class="token string">"@sentry.tracing.dist.integrations:express"</span><span class="token punctuation">,</span>
+                            <span class="token property">"filename"</span><span class="token operator">:</span> <span class="token string">"/Users/jyeung/code/dendron/dendron/node_modules/@sentry/tracing/dist/integrations/express.js"</span><span class="token punctuation">,</span>
+                            <span class="token property">"abs_path"</span><span class="token operator">:</span> <span class="token string">"/Users/jyeung/code/dendron/dendron/node_modules/@sentry/tracing/dist/integrations/express.js"</span><span class="token punctuation">,</span>
+                            <span class="token property">"lineno"</span><span class="token operator">:</span> <span class="token number">87</span><span class="token punctuation">,</span>
+                            <span class="token property">"colno"</span><span class="token operator">:</span> <span class="token number">31</span><span class="token punctuation">,</span>
+                            <span class="token property">"pre_context"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+                                <span class="token string">"                fn.call(this, req, res, function () {"</span><span class="token punctuation">,</span>
+                                <span class="token string">"                    var args = [];"</span><span class="token punctuation">,</span>
+                                <span class="token string">"                    for (var _i = 0; _i &#x3C; arguments.length; _i++) {"</span><span class="token punctuation">,</span>
+                                <span class="token string">"                        args[_i] = arguments[_i];"</span><span class="token punctuation">,</span>
+                                <span class="token string">"                    }"</span><span class="token punctuation">,</span>
+                                <span class="token string">"                    var _a;"</span><span class="token punctuation">,</span>
+                                <span class="token string">"                    (_a = span) === null || _a === void 0 ? void 0 : _a.finish();"</span>
+                            <span class="token punctuation">]</span><span class="token punctuation">,</span>
+                            <span class="token property">"context_line"</span><span class="token operator">:</span> <span class="token string">"                    next.call.apply(next, tslib_1.__spread([this], args));"</span><span class="token punctuation">,</span>
+                            <span class="token property">"post_context"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+                                <span class="token string">"                });"</span><span class="token punctuation">,</span>
+                                <span class="token string">"            };"</span><span class="token punctuation">,</span>
+                                <span class="token string">"        }"</span><span class="token punctuation">,</span>
+                                <span class="token string">"        case 4: {"</span><span class="token punctuation">,</span>
+                                <span class="token string">"            return function (err, req, res, next) {"</span><span class="token punctuation">,</span>
+                                <span class="token string">"                var _a;"</span><span class="token punctuation">,</span>
+                                <span class="token string">"                var transaction = res.__sentry_transaction;"</span>
+                            <span class="token punctuation">]</span><span class="token punctuation">,</span>
+                            <span class="token property">"in_app"</span><span class="token operator">:</span> <span class="token boolean">false</span>
+                        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+                        <span class="token punctuation">{</span>
+                            <span class="token property">"function"</span><span class="token operator">:</span> <span class="token string">"next"</span><span class="token punctuation">,</span>
+                            <span class="token property">"module"</span><span class="token operator">:</span> <span class="token string">"express.lib.router:index"</span><span class="token punctuation">,</span>
+                            <span class="token property">"filename"</span><span class="token operator">:</span> <span class="token string">"/Users/jyeung/code/dendron/dendron/node_modules/express/lib/router/index.js"</span><span class="token punctuation">,</span>
+                            <span class="token property">"abs_path"</span><span class="token operator">:</span> <span class="token string">"/Users/jyeung/code/dendron/dendron/node_modules/express/lib/router/index.js"</span><span class="token punctuation">,</span>
+                            <span class="token property">"lineno"</span><span class="token operator">:</span> <span class="token number">275</span><span class="token punctuation">,</span>
+                            <span class="token property">"colno"</span><span class="token operator">:</span> <span class="token number">10</span><span class="token punctuation">,</span>
+                            <span class="token property">"pre_context"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+                                <span class="token string">"    // Capture one-time layer values"</span><span class="token punctuation">,</span>
+                                <span class="token string">"    req.params = self.mergeParams"</span><span class="token punctuation">,</span>
+                                <span class="token string">"      ? mergeParams(layer.params, parentParams)"</span><span class="token punctuation">,</span>
+                                <span class="token string">"      : layer.params;"</span><span class="token punctuation">,</span>
+                                <span class="token string">"    var layerPath = layer.path;"</span><span class="token punctuation">,</span>
+                                <span class="token string">""</span><span class="token punctuation">,</span>
+                                <span class="token string">"    // this should be done for the layer"</span>
+                            <span class="token punctuation">]</span><span class="token punctuation">,</span>
+                            <span class="token property">"context_line"</span><span class="token operator">:</span> <span class="token string">"    self.process_params(layer, paramcalled, req, res, function (err) {"</span><span class="token punctuation">,</span>
+                            <span class="token property">"post_context"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+                                <span class="token string">"      if (err) {"</span><span class="token punctuation">,</span>
+                                <span class="token string">"        return next(layerError || err);"</span><span class="token punctuation">,</span>
+                                <span class="token string">"      }"</span><span class="token punctuation">,</span>
+                                <span class="token string">""</span><span class="token punctuation">,</span>
+                                <span class="token string">"      if (route) {"</span><span class="token punctuation">,</span>
+                                <span class="token string">"        return layer.handle_request(req, res, next);"</span><span class="token punctuation">,</span>
+                                <span class="token string">"      }"</span>
+                            <span class="token punctuation">]</span><span class="token punctuation">,</span>
+                            <span class="token property">"in_app"</span><span class="token operator">:</span> <span class="token boolean">false</span>
+                        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+                        <span class="token punctuation">{</span>
+                            <span class="token property">"function"</span><span class="token operator">:</span> <span class="token string">"Function.process_params"</span><span class="token punctuation">,</span>
+                            <span class="token property">"module"</span><span class="token operator">:</span> <span class="token string">"express.lib.router:index"</span><span class="token punctuation">,</span>
+                            <span class="token property">"filename"</span><span class="token operator">:</span> <span class="token string">"/Users/jyeung/code/dendron/dendron/node_modules/express/lib/router/index.js"</span><span class="token punctuation">,</span>
+                            <span class="token property">"abs_path"</span><span class="token operator">:</span> <span class="token string">"/Users/jyeung/code/dendron/dendron/node_modules/express/lib/router/index.js"</span><span class="token punctuation">,</span>
+                            <span class="token property">"lineno"</span><span class="token operator">:</span> <span class="token number">335</span><span class="token punctuation">,</span>
+                            <span class="token property">"colno"</span><span class="token operator">:</span> <span class="token number">12</span><span class="token punctuation">,</span>
+                            <span class="token property">"pre_context"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+                                <span class="token string">"  var params = this.params;"</span><span class="token punctuation">,</span>
+                                <span class="token string">""</span><span class="token punctuation">,</span>
+                                <span class="token string">"  // captured parameters from the layer, keys and values"</span><span class="token punctuation">,</span>
+                                <span class="token string">"  var keys = layer.keys;"</span><span class="token punctuation">,</span>
+                                <span class="token string">""</span><span class="token punctuation">,</span>
+                                <span class="token string">"  // fast track"</span><span class="token punctuation">,</span>
+                                <span class="token string">"  if (!keys || keys.length === 0) {"</span>
+                            <span class="token punctuation">]</span><span class="token punctuation">,</span>
+                            <span class="token property">"context_line"</span><span class="token operator">:</span> <span class="token string">"    return done();"</span><span class="token punctuation">,</span>
+                            <span class="token property">"post_context"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+                                <span class="token string">"  }"</span><span class="token punctuation">,</span>
+                                <span class="token string">""</span><span class="token punctuation">,</span>
+                                <span class="token string">"  var i = 0;"</span><span class="token punctuation">,</span>
+                                <span class="token string">"  var name;"</span><span class="token punctuation">,</span>
+                                <span class="token string">"  var paramIndex = 0;"</span><span class="token punctuation">,</span>
+                                <span class="token string">"  var key;"</span><span class="token punctuation">,</span>
+                                <span class="token string">"  var paramVal;"</span>
+                            <span class="token punctuation">]</span><span class="token punctuation">,</span>
+                            <span class="token property">"in_app"</span><span class="token operator">:</span> <span class="token boolean">false</span>
+                        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+                        <span class="token punctuation">{</span>
+                            <span class="token property">"function"</span><span class="token operator">:</span> <span class="token string">"null.&#x3C;anonymous>"</span><span class="token punctuation">,</span>
+                            <span class="token property">"module"</span><span class="token operator">:</span> <span class="token string">"express.lib.router:index"</span><span class="token punctuation">,</span>
+                            <span class="token property">"filename"</span><span class="token operator">:</span> <span class="token string">"/Users/jyeung/code/dendron/dendron/node_modules/express/lib/router/index.js"</span><span class="token punctuation">,</span>
+                            <span class="token property">"abs_path"</span><span class="token operator">:</span> <span class="token string">"/Users/jyeung/code/dendron/dendron/node_modules/express/lib/router/index.js"</span><span class="token punctuation">,</span>
+                            <span class="token property">"lineno"</span><span class="token operator">:</span> <span class="token number">281</span><span class="token punctuation">,</span>
+                            <span class="token property">"colno"</span><span class="token operator">:</span> <span class="token number">22</span><span class="token punctuation">,</span>
+                            <span class="token property">"pre_context"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+                                <span class="token string">"    // this should be done for the layer"</span><span class="token punctuation">,</span>
+                                <span class="token string">"    self.process_params(layer, paramcalled, req, res, function (err) {"</span><span class="token punctuation">,</span>
+                                <span class="token string">"      if (err) {"</span><span class="token punctuation">,</span>
+                                <span class="token string">"        return next(layerError || err);"</span><span class="token punctuation">,</span>
+                                <span class="token string">"      }"</span><span class="token punctuation">,</span>
+                                <span class="token string">""</span><span class="token punctuation">,</span>
+                                <span class="token string">"      if (route) {"</span>
+                            <span class="token punctuation">]</span><span class="token punctuation">,</span>
+                            <span class="token property">"context_line"</span><span class="token operator">:</span> <span class="token string">"        return layer.handle_request(req, res, next);"</span><span class="token punctuation">,</span>
+                            <span class="token property">"post_context"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+                                <span class="token string">"      }"</span><span class="token punctuation">,</span>
+                                <span class="token string">""</span><span class="token punctuation">,</span>
+                                <span class="token string">"      trim_prefix(layer, layerError, layerPath, path);"</span><span class="token punctuation">,</span>
+                                <span class="token string">"    });"</span><span class="token punctuation">,</span>
+                                <span class="token string">"  }"</span><span class="token punctuation">,</span>
+                                <span class="token string">""</span><span class="token punctuation">,</span>
+                                <span class="token string">"  function trim_prefix(layer, layerError, layerPath, path) {"</span>
+                            <span class="token punctuation">]</span><span class="token punctuation">,</span>
+                            <span class="token property">"in_app"</span><span class="token operator">:</span> <span class="token boolean">false</span>
+                        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+                        <span class="token punctuation">{</span>
+                            <span class="token property">"function"</span><span class="token operator">:</span> <span class="token string">"Layer.handle [as handle_request]"</span><span class="token punctuation">,</span>
+                            <span class="token property">"module"</span><span class="token operator">:</span> <span class="token string">"express.lib.router:layer"</span><span class="token punctuation">,</span>
+                            <span class="token property">"filename"</span><span class="token operator">:</span> <span class="token string">"/Users/jyeung/code/dendron/dendron/node_modules/express/lib/router/layer.js"</span><span class="token punctuation">,</span>
+                            <span class="token property">"abs_path"</span><span class="token operator">:</span> <span class="token string">"/Users/jyeung/code/dendron/dendron/node_modules/express/lib/router/layer.js"</span><span class="token punctuation">,</span>
+                            <span class="token property">"lineno"</span><span class="token operator">:</span> <span class="token number">95</span><span class="token punctuation">,</span>
+                            <span class="token property">"colno"</span><span class="token operator">:</span> <span class="token number">5</span><span class="token punctuation">,</span>
+                            <span class="token property">"pre_context"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+                                <span class="token string">""</span><span class="token punctuation">,</span>
+                                <span class="token string">"  if (fn.length > 3) {"</span><span class="token punctuation">,</span>
+                                <span class="token string">"    // not a standard request handler"</span><span class="token punctuation">,</span>
+                                <span class="token string">"    return next();"</span><span class="token punctuation">,</span>
+                                <span class="token string">"  }"</span><span class="token punctuation">,</span>
+                                <span class="token string">""</span><span class="token punctuation">,</span>
+                                <span class="token string">"  try {"</span>
+                            <span class="token punctuation">]</span><span class="token punctuation">,</span>
+                            <span class="token property">"context_line"</span><span class="token operator">:</span> <span class="token string">"    fn(req, res, next);"</span><span class="token punctuation">,</span>
+                            <span class="token property">"post_context"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+                                <span class="token string">"  } catch (err) {"</span><span class="token punctuation">,</span>
+                                <span class="token string">"    next(err);"</span><span class="token punctuation">,</span>
+                                <span class="token string">"  }"</span><span class="token punctuation">,</span>
+                                <span class="token string">"};"</span><span class="token punctuation">,</span>
+                                <span class="token string">""</span><span class="token punctuation">,</span>
+                                <span class="token string">"/**"</span><span class="token punctuation">,</span>
+                                <span class="token string">" * Check if this route matches `path`, if so"</span>
+                            <span class="token punctuation">]</span><span class="token punctuation">,</span>
+                            <span class="token property">"in_app"</span><span class="token operator">:</span> <span class="token boolean">false</span>
+                        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+                        <span class="token punctuation">{</span>
+                            <span class="token property">"function"</span><span class="token operator">:</span> <span class="token string">"Route.dispatch"</span><span class="token punctuation">,</span>
+                            <span class="token property">"module"</span><span class="token operator">:</span> <span class="token string">"express.lib.router:route"</span><span class="token punctuation">,</span>
+                            <span class="token property">"filename"</span><span class="token operator">:</span> <span class="token string">"/Users/jyeung/code/dendron/dendron/node_modules/express/lib/router/route.js"</span><span class="token punctuation">,</span>
+                            <span class="token property">"abs_path"</span><span class="token operator">:</span> <span class="token string">"/Users/jyeung/code/dendron/dendron/node_modules/express/lib/router/route.js"</span><span class="token punctuation">,</span>
+                            <span class="token property">"lineno"</span><span class="token operator">:</span> <span class="token number">112</span><span class="token punctuation">,</span>
+                            <span class="token property">"colno"</span><span class="token operator">:</span> <span class="token number">3</span><span class="token punctuation">,</span>
+                            <span class="token property">"pre_context"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+                                <span class="token string">"  var method = req.method.toLowerCase();"</span><span class="token punctuation">,</span>
+                                <span class="token string">"  if (method === 'head' &#x26;&#x26; !this.methods['head']) {"</span><span class="token punctuation">,</span>
+                                <span class="token string">"    method = 'get';"</span><span class="token punctuation">,</span>
+                                <span class="token string">"  }"</span><span class="token punctuation">,</span>
+                                <span class="token string">""</span><span class="token punctuation">,</span>
+                                <span class="token string">"  req.route = this;"</span><span class="token punctuation">,</span>
+                                <span class="token string">""</span>
+                            <span class="token punctuation">]</span><span class="token punctuation">,</span>
+                            <span class="token property">"context_line"</span><span class="token operator">:</span> <span class="token string">"  next();"</span><span class="token punctuation">,</span>
+                            <span class="token property">"post_context"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+                                <span class="token string">""</span><span class="token punctuation">,</span>
+                                <span class="token string">"  function next(err) {"</span><span class="token punctuation">,</span>
+                                <span class="token string">"    // signal to exit route"</span><span class="token punctuation">,</span>
+                                <span class="token string">"    if (err &#x26;&#x26; err === 'route') {"</span><span class="token punctuation">,</span>
+                                <span class="token string">"      return done();"</span><span class="token punctuation">,</span>
+                                <span class="token string">"    }"</span><span class="token punctuation">,</span>
+                                <span class="token string">""</span>
+                            <span class="token punctuation">]</span><span class="token punctuation">,</span>
+                            <span class="token property">"in_app"</span><span class="token operator">:</span> <span class="token boolean">false</span>
+                        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+                        <span class="token punctuation">{</span>
+                            <span class="token property">"function"</span><span class="token operator">:</span> <span class="token string">"next"</span><span class="token punctuation">,</span>
+                            <span class="token property">"module"</span><span class="token operator">:</span> <span class="token string">"express.lib.router:route"</span><span class="token punctuation">,</span>
+                            <span class="token property">"filename"</span><span class="token operator">:</span> <span class="token string">"/Users/jyeung/code/dendron/dendron/node_modules/express/lib/router/route.js"</span><span class="token punctuation">,</span>
+                            <span class="token property">"abs_path"</span><span class="token operator">:</span> <span class="token string">"/Users/jyeung/code/dendron/dendron/node_modules/express/lib/router/route.js"</span><span class="token punctuation">,</span>
+                            <span class="token property">"lineno"</span><span class="token operator">:</span> <span class="token number">137</span><span class="token punctuation">,</span>
+                            <span class="token property">"colno"</span><span class="token operator">:</span> <span class="token number">13</span><span class="token punctuation">,</span>
+                            <span class="token property">"pre_context"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+                                <span class="token string">"    if (layer.method &#x26;&#x26; layer.method !== method) {"</span><span class="token punctuation">,</span>
+                                <span class="token string">"      return next(err);"</span><span class="token punctuation">,</span>
+                                <span class="token string">"    }"</span><span class="token punctuation">,</span>
+                                <span class="token string">""</span><span class="token punctuation">,</span>
+                                <span class="token string">"    if (err) {"</span><span class="token punctuation">,</span>
+                                <span class="token string">"      layer.handle_error(err, req, res, next);"</span><span class="token punctuation">,</span>
+                                <span class="token string">"    } else {"</span>
+                            <span class="token punctuation">]</span><span class="token punctuation">,</span>
+                            <span class="token property">"context_line"</span><span class="token operator">:</span> <span class="token string">"      layer.handle_request(req, res, next);"</span><span class="token punctuation">,</span>
+                            <span class="token property">"post_context"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+                                <span class="token string">"    }"</span><span class="token punctuation">,</span>
+                                <span class="token string">"  }"</span><span class="token punctuation">,</span>
+                                <span class="token string">"};"</span><span class="token punctuation">,</span>
+                                <span class="token string">""</span><span class="token punctuation">,</span>
+                                <span class="token string">"/**"</span><span class="token punctuation">,</span>
+                                <span class="token string">" * Add a handler for all HTTP verbs to this route."</span><span class="token punctuation">,</span>
+                                <span class="token string">" *"</span>
+                            <span class="token punctuation">]</span><span class="token punctuation">,</span>
+                            <span class="token property">"in_app"</span><span class="token operator">:</span> <span class="token boolean">false</span>
+                        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+                        <span class="token punctuation">{</span>
+                            <span class="token property">"function"</span><span class="token operator">:</span> <span class="token string">"Layer.handle [as handle_request]"</span><span class="token punctuation">,</span>
+                            <span class="token property">"module"</span><span class="token operator">:</span> <span class="token string">"express.lib.router:layer"</span><span class="token punctuation">,</span>
+                            <span class="token property">"filename"</span><span class="token operator">:</span> <span class="token string">"/Users/jyeung/code/dendron/dendron/node_modules/express/lib/router/layer.js"</span><span class="token punctuation">,</span>
+                            <span class="token property">"abs_path"</span><span class="token operator">:</span> <span class="token string">"/Users/jyeung/code/dendron/dendron/node_modules/express/lib/router/layer.js"</span><span class="token punctuation">,</span>
+                            <span class="token property">"lineno"</span><span class="token operator">:</span> <span class="token number">95</span><span class="token punctuation">,</span>
+                            <span class="token property">"colno"</span><span class="token operator">:</span> <span class="token number">5</span><span class="token punctuation">,</span>
+                            <span class="token property">"pre_context"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+                                <span class="token string">""</span><span class="token punctuation">,</span>
+                                <span class="token string">"  if (fn.length > 3) {"</span><span class="token punctuation">,</span>
+                                <span class="token string">"    // not a standard request handler"</span><span class="token punctuation">,</span>
+                                <span class="token string">"    return next();"</span><span class="token punctuation">,</span>
+                                <span class="token string">"  }"</span><span class="token punctuation">,</span>
+                                <span class="token string">""</span><span class="token punctuation">,</span>
+                                <span class="token string">"  try {"</span>
+                            <span class="token punctuation">]</span><span class="token punctuation">,</span>
+                            <span class="token property">"context_line"</span><span class="token operator">:</span> <span class="token string">"    fn(req, res, next);"</span><span class="token punctuation">,</span>
+                            <span class="token property">"post_context"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+                                <span class="token string">"  } catch (err) {"</span><span class="token punctuation">,</span>
+                                <span class="token string">"    next(err);"</span><span class="token punctuation">,</span>
+                                <span class="token string">"  }"</span><span class="token punctuation">,</span>
+                                <span class="token string">"};"</span><span class="token punctuation">,</span>
+                                <span class="token string">""</span><span class="token punctuation">,</span>
+                                <span class="token string">"/**"</span><span class="token punctuation">,</span>
+                                <span class="token string">" * Check if this route matches `path`, if so"</span>
+                            <span class="token punctuation">]</span><span class="token punctuation">,</span>
+                            <span class="token property">"in_app"</span><span class="token operator">:</span> <span class="token boolean">false</span>
+                        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+                        <span class="token punctuation">{</span>
+                            <span class="token property">"function"</span><span class="token operator">:</span> <span class="token string">"null.&#x3C;anonymous>"</span><span class="token punctuation">,</span>
+                            <span class="token property">"module"</span><span class="token operator">:</span> <span class="token string">"Server"</span><span class="token punctuation">,</span>
+                            <span class="token property">"filename"</span><span class="token operator">:</span> <span class="token string">"/Users/jyeung/code/dendron/dendron/packages/api-server/lib/Server.js"</span><span class="token punctuation">,</span>
+                            <span class="token property">"abs_path"</span><span class="token operator">:</span> <span class="token string">"/Users/jyeung/code/dendron/dendron/packages/api-server/lib/Server.js"</span><span class="token punctuation">,</span>
+                            <span class="token property">"lineno"</span><span class="token operator">:</span> <span class="token number">110</span><span class="token punctuation">,</span>
+                            <span class="token property">"colno"</span><span class="token operator">:</span> <span class="token number">15</span><span class="token punctuation">,</span>
+                            <span class="token property">"pre_context"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+                                <span class="token string">"            throw Error(\"no pkg found\");"</span><span class="token punctuation">,</span>
+                                <span class="token string">"        }"</span><span class="token punctuation">,</span>
+                                <span class="token string">"        const version = fs_extra_1.default.readJSONSync(path_1.default.join(pkg, \"package.json\")).version;"</span><span class="token punctuation">,</span>
+                                <span class="token string">"        return res.json({ version });"</span><span class="token punctuation">,</span>
+                                <span class="token string">"    });"</span><span class="token punctuation">,</span>
+                                <span class="token string">"    app.use(\"/api\", routes_1.baseRouter);"</span><span class="token punctuation">,</span>
+                                <span class="token string">"    app.get(\"/debug-sentry\", (req, res) => {"</span>
+                            <span class="token punctuation">]</span><span class="token punctuation">,</span>
+                            <span class="token property">"context_line"</span><span class="token operator">:</span> <span class="token string">"        throw new Error(\"My first Sentry error!\");"</span><span class="token punctuation">,</span>
+                            <span class="token property">"post_context"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+                                <span class="token string">"    });"</span><span class="token punctuation">,</span>
+                                <span class="token string">"    // The error handler must be before any other error middleware and after all controllers"</span><span class="token punctuation">,</span>
+                                <span class="token string">"    app.use(Sentry.Handlers.errorHandler());"</span><span class="token punctuation">,</span>
+                                <span class="token string">"    app.use((err, _req, res, _next) => {"</span><span class="token punctuation">,</span>
+                                <span class="token string">"        console.error(err.message, err);"</span><span class="token punctuation">,</span>
+                                <span class="token string">"        return res.status(http_status_codes_1.BAD_REQUEST).json({"</span><span class="token punctuation">,</span>
+                                <span class="token string">"            error: err.message,"</span>
+                            <span class="token punctuation">]</span><span class="token punctuation">,</span>
+                            <span class="token property">"in_app"</span><span class="token operator">:</span> <span class="token boolean">true</span>
+                        <span class="token punctuation">}</span>
+                    <span class="token punctuation">]</span>
+                <span class="token punctuation">}</span><span class="token punctuation">,</span>
+                <span class="token property">"mechanism"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+                    <span class="token property">"type"</span><span class="token operator">:</span> <span class="token string">"generic"</span><span class="token punctuation">,</span>
+                    <span class="token property">"handled"</span><span class="token operator">:</span> <span class="token boolean">true</span>
+                <span class="token punctuation">}</span>
+            <span class="token punctuation">}</span>
+        <span class="token punctuation">]</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token property">"fingerprint"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+        <span class="token string">"{{ default }}"</span>
+    <span class="token punctuation">]</span><span class="token punctuation">,</span>
+    <span class="token property">"grouping_config"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+        <span class="token property">"enhancements"</span><span class="token operator">:</span> <span class="token string">"eJybzDRxY3J-bm5-npWRgaGlroGxrpHxBABcYgcZ"</span><span class="token punctuation">,</span>
+        <span class="token property">"id"</span><span class="token operator">:</span> <span class="token string">"newstyle:2019-10-29"</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token property">"hashes"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+        <span class="token string">"599bbfc2e3e5993211e50d0162ba5202"</span><span class="token punctuation">,</span>
+        <span class="token string">"90d44251ca81b43e268c822ec5dfee44"</span>
+    <span class="token punctuation">]</span><span class="token punctuation">,</span>
+    <span class="token property">"key_id"</span><span class="token operator">:</span> <span class="token string">"1744173"</span><span class="token punctuation">,</span>
+    <span class="token property">"level"</span><span class="token operator">:</span> <span class="token string">"error"</span><span class="token punctuation">,</span>
+    <span class="token property">"location"</span><span class="token operator">:</span> <span class="token string">"/Users/jyeung/code/dendron/dendron/packages/api-server/lib/Server.js"</span><span class="token punctuation">,</span>
+    <span class="token property">"logger"</span><span class="token operator">:</span> <span class="token string">""</span><span class="token punctuation">,</span>
+    <span class="token property">"metadata"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+        <span class="token property">"filename"</span><span class="token operator">:</span> <span class="token string">"/Users/jyeung/code/dendron/dendron/packages/api-server/lib/Server.js"</span><span class="token punctuation">,</span>
+        <span class="token property">"function"</span><span class="token operator">:</span> <span class="token string">"null.&#x3C;anonymous>"</span><span class="token punctuation">,</span>
+        <span class="token property">"type"</span><span class="token operator">:</span> <span class="token string">"Error"</span><span class="token punctuation">,</span>
+        <span class="token property">"value"</span><span class="token operator">:</span> <span class="token string">"My first Sentry error!"</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token property">"received"</span><span class="token operator">:</span> <span class="token number">1628488998.703633</span><span class="token punctuation">,</span>
+    <span class="token property">"request"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+        <span class="token property">"url"</span><span class="token operator">:</span> <span class="token string">"http://localhost/debug-sentry"</span><span class="token punctuation">,</span>
+        <span class="token property">"method"</span><span class="token operator">:</span> <span class="token string">"GET"</span><span class="token punctuation">,</span>
+        <span class="token property">"headers"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+            <span class="token punctuation">[</span>
+                <span class="token string">"Accept"</span><span class="token punctuation">,</span>
+                <span class="token string">"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"</span>
+            <span class="token punctuation">]</span><span class="token punctuation">,</span>
+            <span class="token punctuation">[</span>
+                <span class="token string">"Accept-Encoding"</span><span class="token punctuation">,</span>
+                <span class="token string">"gzip, deflate, br"</span>
+            <span class="token punctuation">]</span><span class="token punctuation">,</span>
+            <span class="token punctuation">[</span>
+                <span class="token string">"Accept-Language"</span><span class="token punctuation">,</span>
+                <span class="token string">"en-US,en;q=0.9"</span>
+            <span class="token punctuation">]</span><span class="token punctuation">,</span>
+            <span class="token punctuation">[</span>
+                <span class="token string">"Connection"</span><span class="token punctuation">,</span>
+                <span class="token string">"keep-alive"</span>
+            <span class="token punctuation">]</span><span class="token punctuation">,</span>
+            <span class="token punctuation">[</span>
+                <span class="token string">"Host"</span><span class="token punctuation">,</span>
+                <span class="token string">"localhost:60285"</span>
+            <span class="token punctuation">]</span><span class="token punctuation">,</span>
+            <span class="token punctuation">[</span>
+                <span class="token string">"Sec-Ch-Ua"</span><span class="token punctuation">,</span>
+                <span class="token string">"\"Chromium\";v=\"92\", \" Not A;Brand\";v=\"99\", \"Microsoft Edge\";v=\"92\""</span>
+            <span class="token punctuation">]</span><span class="token punctuation">,</span>
+            <span class="token punctuation">[</span>
+                <span class="token string">"Sec-Ch-Ua-Mobile"</span><span class="token punctuation">,</span>
+                <span class="token string">"?0"</span>
+            <span class="token punctuation">]</span><span class="token punctuation">,</span>
+            <span class="token punctuation">[</span>
+                <span class="token string">"Sec-Fetch-Dest"</span><span class="token punctuation">,</span>
+                <span class="token string">"document"</span>
+            <span class="token punctuation">]</span><span class="token punctuation">,</span>
+            <span class="token punctuation">[</span>
+                <span class="token string">"Sec-Fetch-Mode"</span><span class="token punctuation">,</span>
+                <span class="token string">"navigate"</span>
+            <span class="token punctuation">]</span><span class="token punctuation">,</span>
+            <span class="token punctuation">[</span>
+                <span class="token string">"Sec-Fetch-Site"</span><span class="token punctuation">,</span>
+                <span class="token string">"none"</span>
+            <span class="token punctuation">]</span><span class="token punctuation">,</span>
+            <span class="token punctuation">[</span>
+                <span class="token string">"Sec-Fetch-User"</span><span class="token punctuation">,</span>
+                <span class="token string">"?1"</span>
+            <span class="token punctuation">]</span><span class="token punctuation">,</span>
+            <span class="token punctuation">[</span>
+                <span class="token string">"Upgrade-Insecure-Requests"</span><span class="token punctuation">,</span>
+                <span class="token string">"1"</span>
+            <span class="token punctuation">]</span><span class="token punctuation">,</span>
+            <span class="token punctuation">[</span>
+                <span class="token string">"User-Agent"</span><span class="token punctuation">,</span>
+                <span class="token string">"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36 Edg/92.0.902.67"</span>
+            <span class="token punctuation">]</span>
+        <span class="token punctuation">]</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token property">"sdk"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+        <span class="token property">"name"</span><span class="token operator">:</span> <span class="token string">"sentry.javascript.node"</span><span class="token punctuation">,</span>
+        <span class="token property">"version"</span><span class="token operator">:</span> <span class="token string">"6.11.0"</span><span class="token punctuation">,</span>
+        <span class="token property">"integrations"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+            <span class="token string">"InboundFilters"</span><span class="token punctuation">,</span>
+            <span class="token string">"FunctionToString"</span><span class="token punctuation">,</span>
+            <span class="token string">"Console"</span><span class="token punctuation">,</span>
+            <span class="token string">"OnUncaughtException"</span><span class="token punctuation">,</span>
+            <span class="token string">"OnUnhandledRejection"</span><span class="token punctuation">,</span>
+            <span class="token string">"LinkedErrors"</span><span class="token punctuation">,</span>
+            <span class="token string">"Http"</span><span class="token punctuation">,</span>
+            <span class="token string">"Express"</span>
+        <span class="token punctuation">]</span><span class="token punctuation">,</span>
+        <span class="token property">"packages"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+            <span class="token punctuation">{</span>
+                <span class="token property">"name"</span><span class="token operator">:</span> <span class="token string">"npm:@sentry/node"</span><span class="token punctuation">,</span>
+                <span class="token property">"version"</span><span class="token operator">:</span> <span class="token string">"6.11.0"</span>
+            <span class="token punctuation">}</span>
+        <span class="token punctuation">]</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token property">"timestamp"</span><span class="token operator">:</span> <span class="token number">1628488997.178</span><span class="token punctuation">,</span>
+    <span class="token property">"title"</span><span class="token operator">:</span> <span class="token string">"Error: My first Sentry error!"</span><span class="token punctuation">,</span>
+    <span class="token property">"transaction"</span><span class="token operator">:</span> <span class="token string">"GET /debug-sentry"</span><span class="token punctuation">,</span>
+    <span class="token property">"type"</span><span class="token operator">:</span> <span class="token string">"error"</span><span class="token punctuation">,</span>
+    <span class="token property">"version"</span><span class="token operator">:</span> <span class="token string">"7"</span>
+<span class="token punctuation">}</span>
+</code></pre>
+<hr>
+<h2 id="backlinks"><a aria-hidden="true" class="anchor-heading" href="#backlinks"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Backlinks</h2>
+<ul>
+<li><a href="https://wiki.dendron.so/notes/0dHPoULBsEJLRO6iMnMZA.html">Error Reporting</a></li>
+</ul><span id="navId" data="fAVA1Vv5ihg4Nt9unsAMv"></span>
+
+                
+      </section>
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+        <div class="thumbs feedback_trigger right-bottom"></div>
+
+        
+          <hr>
+          <footer>
+            
+            
+
+            
+              <div class="d-flex mt-2">
+              <p class="text-small text-grey-dk-000 mb-0 mr-2">
+                Page last modified: <span class="d-inline-block">8/10/2021</span>.
+              </p>
+            
+                
+                  <p class="text-small text-grey-dk-000 mb-0">
+                    <a href="https://github.com/dendronhq/dendron-site/edit/master/vault/dendron.rfc.19-error-reporting.md" id="edit-this-page">Edit this page on GitHub</a>
+                  </p>
+                
+              </div>
+          </footer>
+        
+    </div>
+</div>
+
+
+  
+
+  <div class="search-overlay"></div>
+
+</div>
+
+</body>
+</html>

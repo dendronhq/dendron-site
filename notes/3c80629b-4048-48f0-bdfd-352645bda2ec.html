@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+  
+  <title>Dev - Dendron</title>
+  
+
+  <link
+    rel="shortcut icon"
+    href="https://wiki.dendron.so/favicon.ico"
+    type="image/x-icon"
+  />
+  <link
+    rel="stylesheet"
+    href="https://wiki.dendron.so/assets/css/just-the-docs-default.css"
+  />
+  <script
+    type="text/javascript"
+    src="https://wiki.dendron.so/assets/js/just-the-docs.js"
+  ></script>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.22.0/themes/prism.min.css"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css"
+    integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X"
+    crossorigin="anonymous"
+  />
+  <script
+    type="text/javascript"
+    src="https://wiki.dendron.so/assets/js/vendor/lunr.min.js"
+  ></script>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+   
+   
+  
+<meta name="description" content="Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.">
+<meta name="author" content="dendronhq">
+
+<link rel="canonical" href="https://wiki.dendron.so/notes/3c80629b-4048-48f0-bdfd-352645bda2ec.html">
+
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://wiki.dendron.so/notes/3c80629b-4048-48f0-bdfd-352645bda2ec.html">
+<meta property="og:description" content="Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.">
+<meta property="og:image" content="https://wiki.dendron.so/logo.png">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@dendronhq">
+<meta name="twitter:url" content="https://wiki.dendron.so/notes/3c80629b-4048-48f0-bdfd-352645bda2ec.html">
+<meta name="twitter:description" content="Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.">
+<meta name="twitter:image" content="https://wiki.dendron.so/logo.png">
+
+
+  <meta property="og:title" content="Dev - Dendron" />
+  <meta name="twitter:title" content="Dev - Dendron" />
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-B0JN2HHCNY"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-B0JN2HHCNY');
+  </script>
+  
+</head>
+
+
+
+<body>
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+      <symbol id="svg-link" viewBox="0 0 24 24">
+        <title>Link</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-link">
+          <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+        </svg>
+      </symbol>
+      <symbol id="svg-search" viewBox="0 0 24 24">
+        <title>Search</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search">
+          <circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+      </symbol>
+      <symbol id="svg-menu" viewBox="0 0 24 24">
+        <title>Menu</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu">
+          <line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+      </symbol>
+      <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+        <title>Expand</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+          <polyline points="9 18 15 12 9 6"></polyline>
+        </svg>
+      </symbol>
+      <symbol id="svg-doc" viewBox="0 0 24 24">
+        <title>Document</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file">
+          <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path><polyline points="13 2 13 9 20 9"></polyline>
+        </svg>
+      </symbol>
+    </svg>
+
+    <div class="side-bar">
+      <div class="site-header">
+        <a href="https://wiki.dendron.so" class="site-title lh-tight">
+  <div class="site-logo"></div>
+
+ </a>
+        <a href="#" id="menu-button" class="site-button">
+          <svg viewBox="0 0 24 24" class="icon"><use xlink:href="#svg-menu"></use></svg>
+        </a>
+      </div>
+
+      <nav role="navigation" aria-label="Main" id="site-nav" class="site-nav">
+      </nav>
+      <footer class="site-footer">
+        🌱 with 💕 using <a href="https://www.dendron.so/"> Dendron 🌲 </a>
+      </footer>
+    </div>
+    <div class="main" id="top">
+        <div id="main-header" class="main-header">
+          
+            <div class="search">
+              <div class="search-input-wrap">
+                <input type="text" id="search-input" class="search-input" tabindex="0" placeholder="Search Dendron" aria-label="Search Dendron" autocomplete="off">
+                <label for="search-input" class="search-label"><svg viewBox="0 0 24 24" class="search-icon"><use xlink:href="#svg-search"></use></svg></label>
+              </div>
+              <div id="search-results" class="search-results"></div>
+            </div>
+          
+          
+    </div>
+    <div id="main-content-wrap" class="main-content-wrap">
+      
+        
+          <nav aria-label="Breadcrumb" class="breadcrumb-nav">
+            <ol class="breadcrumb-nav-list"><li class="breadcrumb-nav-list-item"><a href="https://wiki.dendron.so/notes/32cdd4aa-d9f6-4582-8d0c-07f64a00299b.html">Packages</a></li><li class="breadcrumb-nav-list-item"><a href="https://wiki.dendron.so/notes/5c71637f-d08f-4ce5-8160-c5ab90254dee.html">Common All</a></li><li class="breadcrumb-nav-list-item">Dev</li></ol>
+          </nav>
+        
+      
+      <div id="main-content" class="main-content" role="main">
+
+        
+        
+        <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+        <script>mermaid.initialize({startOnLoad:true});</script>
+        
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+        
+        
+
+        
+
+        
+
+        
+
+        <script>
+          $(function () {
+            $('[data-toggle="popover"]').popover({html: true})
+          })
+        </script>
+
+        
+
+<div id="main" role="main">
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Dev">
+    
+    <meta itemprop="datePublished" content="2021-05-27T01:32:10+00:00">
+    <meta itemprop="dateModified" content="2021-10-03T22:21:02+00:00">
+
+    <div class="page__inner-wrap">
+
+      
+
+      <section class="page__content" itemprop="text">
+
+        
+
+        <h1 id="dev"><a aria-hidden="true" class="anchor-heading" href="#dev"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Dev</h1>
+<h2 id="gotchas"><a aria-hidden="true" class="anchor-heading" href="#gotchas"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Gotchas</h2>
+<p>Do not use any libraries in <code>common-all</code> that cannot run in the browser. It is used as a dependency for both browser based and server based versions of Dendron. This means modules like <code>fs</code> cannot be used in common-all. </p>
+<p>For server based modules, put them into <a href="https://wiki.dendron.so/notes/4ee3b7ab-a633-44bb-a797-60dbd046cd30.html">Common Server</a> instead</p>
+<h2 id="noteprops"><a aria-hidden="true" class="anchor-heading" href="#noteprops"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>NoteProps</h2>
+<ul>
+<li>try having plain objects on the note props</li>
+</ul>
+<h3 id="adding-a-new-frontmatter-property"><a aria-hidden="true" class="anchor-heading" href="#adding-a-new-frontmatter-property"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Adding a new frontmatter property</h3>
+<p>In VSCode, you can use the "Goto symbol in workspace" command and type the function name or class name to find the following locations.</p>
+<ol>
+<li>In <code>DNodeProps</code>, add the prop to the type. Unless the prop has to be mandatory for all notes, it should be optional (<code>prop?: type</code>). Most props don't have to be mandatory!</li>
+<li>In <code>DNodeUtils.create</code> add prop name to <code>optionalProps</code>.</li>
+<li>In <code>NoteUtils.serializeMeta</code> add prop name to <code>builtinProps</code>.</li>
+<li>In <code>DNodeUtils.getCustomProps</code> add prop name to <code>blacklist</code>.</li>
+<li>In <code>SchemaUtils.TEMPLATE_COPY_PROPS</code> add prop name if the prop should be copied over when a template note is used.</li>
+<li><strong>If and only if</strong> it's a prop that's required (mandatory) for all notes, in <code>foundation.ts</code> add prop name to <code>REQUIRED_DNODEPROPS</code>. Again, most props don't have to be mandatory.</li>
+</ol>
+<h2 id="configuration"><a aria-hidden="true" class="anchor-heading" href="#configuration"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Configuration</h2>
+<h3 id="add-new-property"><a aria-hidden="true" class="anchor-heading" href="#add-new-property"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Add New Property</h3>
+<p>Dendron configuration is managed by <a href="https://github.com/dendronhq/dendron/blob/master/packages/common-all/src/types/workspace.ts">DendronConfig</a>.</p>
+<p>Whenever you add a new entry with a default, make sure to do the following as well.</p>
+<ul class="contains-task-list">
+<li><a href="https://wiki.dendron.so/notes/3c80629b-4048-48f0-bdfd-352645bda2ec.html#tests-for-configuration">Tests for Configuration</a></li>
+<li class="task-list-item"><input type="checkbox" disabled> document it under <a href="https://wiki.dendron.so/notes/f83c1d87-eac0-48f3-a5cf-8a69989d8ec1.html">dendron config</a></li>
+</ul>
+<p>Before you submit, make sure to run the following at the root of the dendron repo</p>
+<pre class="language-sh"><code class="language-sh">yarn gen:data
+</code></pre>
+<p>This will update the json schema definitions for <code>DendronConfig</code> which is used downstream by other packages</p>
+<ul>
+<li><a href="https://github.com/dendronhq/dendron/issues/613">example issue</a></li>
+</ul>
+<h3 id="add-new-default"><a aria-hidden="true" class="anchor-heading" href="#add-new-default"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Add New Default</h3>
+<ol>
+<li>Update the defaults <a href="https://github.com/dendronhq/dendron/blob/master/packages/engine-server/src/config.ts#L39:L39">here</a></li>
+<li><a href="https://wiki.dendron.so/notes/3c80629b-4048-48f0-bdfd-352645bda2ec.html#tests-for-configuration">Tests for Configuration</a></li>
+</ol>
+<h3 id="migrating-an-existing-configuration"><a aria-hidden="true" class="anchor-heading" href="#migrating-an-existing-configuration"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Migrating an existing configuration</h3>
+<p>Configuration migrations should be done in two phases</p>
+<h4 id="phase-i---set-new-value-as-default"><a aria-hidden="true" class="anchor-heading" href="#phase-i---set-new-value-as-default"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Phase I - Set new value as default</h4>
+<ol>
+<li>When migrating to a new configuration, always assume that the new configiuration could be <code>undefined</code> sinice migrations can fail </li>
+</ol>
+<ul>
+<li>bug in our script, user cancels, etc</li>
+</ul>
+<ol start="2">
+<li>Make sure that we can fall back to the old configuration if no new configuration is found</li>
+</ol>
+<ul>
+<li>in case the migration doesn't take</li>
+</ul>
+<ol start="3">
+<li>When setting the next version, set it to the next <strong>patch</strong> version of whatever is currently released </li>
+</ol>
+<ul>
+<li>otherwise, users getting the new patch won't get migrated</li>
+</ul>
+<ol start="4">
+<li>Report a metric to see how many users are usiing the old version without the new version present (this number should go to zero)</li>
+</ol>
+<h4 id="phase-2---remove-old-vaule"><a aria-hidden="true" class="anchor-heading" href="#phase-2---remove-old-vaule"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Phase 2 - Remove old vaule</h4>
+<ol>
+<li>Once the metric in 4 has reached a sufficient threshold, remove the old version</li>
+</ol>
+<h3 id="converting-code-config-to-native-config"><a aria-hidden="true" class="anchor-heading" href="#converting-code-config-to-native-config"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Converting Code Config to Native Config</h3>
+<p>This uses dendron.yml for config instead of .code-workspace</p>
+<ul>
+<li>see commit 68556bf2</li>
+<li><a href="https://github.com/dendronhq/dendron/pull/984">fix: Use new config when creating special notes by hikchoi · Pull Request #984 · dendronhq/dendron</a></li>
+</ul>
+<h3 id="common"><a aria-hidden="true" class="anchor-heading" href="#common"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Common</h3>
+<h4 id="tests-for-configuration"><a aria-hidden="true" class="anchor-heading" href="#tests-for-configuration"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Tests for Configuration</h4>
+<ul>
+<li>if defaults are changed, <code>Extension.test.ts</code> needs to be updated to reflect this</li>
+</ul>
+<hr>
+<h2 id="backlinks"><a aria-hidden="true" class="anchor-heading" href="#backlinks"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Backlinks</h2>
+<ul>
+<li><a href="https://wiki.dendron.so/notes/3c80629b-4048-48f0-bdfd-352645bda2ec.html">Dev</a></li>
+</ul><span id="navId" data="3c80629b-4048-48f0-bdfd-352645bda2ec"></span>
+
+                
+      </section>
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+        <div class="thumbs feedback_trigger right-bottom"></div>
+
+        
+          <hr>
+          <footer>
+            
+            
+
+            
+              <div class="d-flex mt-2">
+              <p class="text-small text-grey-dk-000 mb-0 mr-2">
+                Page last modified: <span class="d-inline-block">10/3/2021</span>.
+              </p>
+            
+                
+                  <p class="text-small text-grey-dk-000 mb-0">
+                    <a href="https://github.com/dendronhq/dendron-site/edit/master/vault/pkg.common-all.dev.md" id="edit-this-page">Edit this page on GitHub</a>
+                  </p>
+                
+              </div>
+          </footer>
+        
+    </div>
+</div>
+
+
+  
+
+  <div class="search-overlay"></div>
+
+</div>
+
+</body>
+</html>

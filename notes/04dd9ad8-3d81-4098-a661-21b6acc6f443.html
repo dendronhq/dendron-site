@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+  
+  <title>Dev - Dendron</title>
+  
+
+  <link
+    rel="shortcut icon"
+    href="https://wiki.dendron.so/favicon.ico"
+    type="image/x-icon"
+  />
+  <link
+    rel="stylesheet"
+    href="https://wiki.dendron.so/assets/css/just-the-docs-default.css"
+  />
+  <script
+    type="text/javascript"
+    src="https://wiki.dendron.so/assets/js/just-the-docs.js"
+  ></script>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.22.0/themes/prism.min.css"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css"
+    integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X"
+    crossorigin="anonymous"
+  />
+  <script
+    type="text/javascript"
+    src="https://wiki.dendron.so/assets/js/vendor/lunr.min.js"
+  ></script>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+   
+   
+  
+<meta name="description" content="Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.">
+<meta name="author" content="dendronhq">
+
+<link rel="canonical" href="https://wiki.dendron.so/notes/04dd9ad8-3d81-4098-a661-21b6acc6f443.html">
+
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://wiki.dendron.so/notes/04dd9ad8-3d81-4098-a661-21b6acc6f443.html">
+<meta property="og:description" content="Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.">
+<meta property="og:image" content="https://wiki.dendron.so/logo.png">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@dendronhq">
+<meta name="twitter:url" content="https://wiki.dendron.so/notes/04dd9ad8-3d81-4098-a661-21b6acc6f443.html">
+<meta name="twitter:description" content="Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.">
+<meta name="twitter:image" content="https://wiki.dendron.so/logo.png">
+
+
+  <meta property="og:title" content="Dev - Dendron" />
+  <meta name="twitter:title" content="Dev - Dendron" />
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-B0JN2HHCNY"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-B0JN2HHCNY');
+  </script>
+  
+</head>
+
+
+
+<body>
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+      <symbol id="svg-link" viewBox="0 0 24 24">
+        <title>Link</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-link">
+          <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+        </svg>
+      </symbol>
+      <symbol id="svg-search" viewBox="0 0 24 24">
+        <title>Search</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search">
+          <circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+      </symbol>
+      <symbol id="svg-menu" viewBox="0 0 24 24">
+        <title>Menu</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu">
+          <line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+      </symbol>
+      <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+        <title>Expand</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+          <polyline points="9 18 15 12 9 6"></polyline>
+        </svg>
+      </symbol>
+      <symbol id="svg-doc" viewBox="0 0 24 24">
+        <title>Document</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file">
+          <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path><polyline points="13 2 13 9 20 9"></polyline>
+        </svg>
+      </symbol>
+    </svg>
+
+    <div class="side-bar">
+      <div class="site-header">
+        <a href="https://wiki.dendron.so" class="site-title lh-tight">
+  <div class="site-logo"></div>
+
+ </a>
+        <a href="#" id="menu-button" class="site-button">
+          <svg viewBox="0 0 24 24" class="icon"><use xlink:href="#svg-menu"></use></svg>
+        </a>
+      </div>
+
+      <nav role="navigation" aria-label="Main" id="site-nav" class="site-nav">
+      </nav>
+      <footer class="site-footer">
+        🌱 with 💕 using <a href="https://www.dendron.so/"> Dendron 🌲 </a>
+      </footer>
+    </div>
+    <div class="main" id="top">
+        <div id="main-header" class="main-header">
+          
+            <div class="search">
+              <div class="search-input-wrap">
+                <input type="text" id="search-input" class="search-input" tabindex="0" placeholder="Search Dendron" aria-label="Search Dendron" autocomplete="off">
+                <label for="search-input" class="search-label"><svg viewBox="0 0 24 24" class="search-icon"><use xlink:href="#svg-search"></use></svg></label>
+              </div>
+              <div id="search-results" class="search-results"></div>
+            </div>
+          
+          
+    </div>
+    <div id="main-content-wrap" class="main-content-wrap">
+      
+        
+          <nav aria-label="Breadcrumb" class="breadcrumb-nav">
+            <ol class="breadcrumb-nav-list"><li class="breadcrumb-nav-list-item"><a href="https://wiki.dendron.so/notes/32cdd4aa-d9f6-4582-8d0c-07f64a00299b.html">Packages</a></li><li class="breadcrumb-nav-list-item"><a href="https://wiki.dendron.so/notes/87d90002-f480-45eb-a8c4-d00df4d61557.html">Plugin Core</a></li><li class="breadcrumb-nav-list-item">Dev</li></ol>
+          </nav>
+        
+      
+      <div id="main-content" class="main-content" role="main">
+
+        
+        
+        <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+        <script>mermaid.initialize({startOnLoad:true});</script>
+        
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+        
+        
+
+        
+
+        
+
+        
+
+        <script>
+          $(function () {
+            $('[data-toggle="popover"]').popover({html: true})
+          })
+        </script>
+
+        
+
+<div id="main" role="main">
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Dev">
+    
+    <meta itemprop="datePublished" content="2021-05-22T22:11:25+00:00">
+    <meta itemprop="dateModified" content="2021-10-15T22:47:32+00:00">
+
+    <div class="page__inner-wrap">
+
+      
+
+      <section class="page__content" itemprop="text">
+
+        
+
+        <h1 id="dev"><a aria-hidden="true" class="anchor-heading" href="#dev"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Dev</h1>
+<h2 id="gotchas"><a aria-hidden="true" class="anchor-heading" href="#gotchas"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Gotchas</h2>
+<h3 id="cleaning-up-artifacts"><a aria-hidden="true" class="anchor-heading" href="#cleaning-up-artifacts"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Cleaning up artifacts</h3>
+<p>Compiled javascript doesn't get deleted from <code>plugin-core/out</code> which means that deleting a typescript file won't remove it from the compiled javascript. If you are seeing an error that you can't explain, try deleting the <code>out</code> folder by running the following command</p>
+<pre class="language-sh"><code class="language-sh">cd packages/plugin-core
+rm -rf out
+yarn compile
+</code></pre>
+<h2 id="commands"><a aria-hidden="true" class="anchor-heading" href="#commands"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Commands</h2>
+<h3 id="create-a-new-command"><a aria-hidden="true" class="anchor-heading" href="#create-a-new-command"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Create a new Command</h3>
+<ol>
+<li>Add command to <code>DENDRON_COMMANDS</code> under <code>plugin-core/src/constants.ts</code></li>
+<li>Open the command prompt, enter <code>Run Task</code>, and run <code>gen:config</code>
+<ul>
+<li>this will add the command to <code>package.json</code></li>
+</ul>
+</li>
+<li>Create the new command in <code>plugin-core/src/commands/{COMMAND_NAME}.ts</code>
+<ul>
+<li>you can copy the contents of an existing command (eg. <code>src/commands/ShowHelp.ts</code>) to help you get started</li>
+</ul>
+</li>
+<li>Write tests
+<ul>
+<li>tests are in <code>plugin-core/src/test/suite-integ/{COMMAND}</code></li>
+<li>testing instructions are <a href="https://wiki.dendron.so/notes/cb22bd36-d45a-4ffd-a31e-96c4b39cb7fb.html">here</a></li>
+</ul>
+</li>
+<li>Write command logic</li>
+<li>If it makes sense, add a keyboard shortcut for the command. Make sure it doesn't conflict with an generic VSCode command or existing Dendron commands. You can detect existing keybindings by using the guide <a href="https://code.visualstudio.com/docs/getstarted/keybindings#_detecting-keybinding-conflicts">here</a></li>
+<li>Add command to <code>src/commands/index.ts</code></li>
+<li>Submit pull request</li>
+</ol>
+<p>Conventions:</p>
+<ul>
+<li>if your command involves opening a note, also return it in the <code>CommandOutput</code> signature. this makes it easy to compose the command as well as test it</li>
+</ul>
+<h3 id="working-with-vscode-workspace-state"><a aria-hidden="true" class="anchor-heading" href="#working-with-vscode-workspace-state"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Working with VSCode Workspace State</h3>
+<p>Use the <a href="https://wiki.dendron.so/notes/3VvuxP7T9en9EzChUCY9D.html">State Service</a> when working with VSCode workspace related state.</p>
+<h2 id="lookup"><a aria-hidden="true" class="anchor-heading" href="#lookup"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Lookup</h2>
+<h3 id="add-a-new-button"><a aria-hidden="true" class="anchor-heading" href="#add-a-new-button"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Add a new button</h3>
+<ol>
+<li>add type
+<ul>
+<li>src/commands/LookupCommand.ts</li>
+</ul>
+<pre class="language-ts"><code class="language-ts"><span class="token keyword module">export</span> <span class="token keyword">type</span> <span class="token class-name"><span class="token maybe-class-name">LookupEffectType</span></span> <span class="token operator">=</span> <span class="token string">"copyNoteLink"</span> <span class="token operator">|</span> <span class="token string">"copyNoteRef"</span> <span class="token operator">|</span> <span class="token string">"multiSelect"</span> <span class="token operator">|</span> <span class="token string">"insertNote"</span><span class="token punctuation">;</span>
+</code></pre>
+</li>
+<li>add button</li>
+</ol>
+<pre class="language-ts"><code class="language-ts"><span class="token keyword module">export</span> <span class="token keyword">class</span> <span class="token class-name"><span class="token maybe-class-name">InsertNoteLinkButton</span></span> <span class="token keyword">extends</span> <span class="token class-name"><span class="token maybe-class-name">DendronBtn</span></span> <span class="token punctuation">{</span>
+  <span class="token keyword">static</span> <span class="token function">create</span><span class="token punctuation">(</span>pressed<span class="token operator">?</span><span class="token operator">:</span> <span class="token builtin">boolean</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword control-flow">return</span> <span class="token keyword">new</span> <span class="token class-name"><span class="token maybe-class-name">CopyNoteLinkButton</span></span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+      title<span class="token operator">:</span> <span class="token string">"Insert Note"</span><span class="token punctuation">,</span>
+      iconOff<span class="token operator">:</span> <span class="token string">"diff-added"</span><span class="token punctuation">,</span>
+      iconOn<span class="token operator">:</span> <span class="token string">"menu-selection"</span><span class="token punctuation">,</span>
+      type<span class="token operator">:</span> <span class="token string">"insertNote"</span> <span class="token keyword module">as</span> <span class="token maybe-class-name">LookupEffectType</span><span class="token punctuation">,</span>
+      pressed<span class="token punctuation">,</span>
+    <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+
+  <span class="token keyword">async</span> <span class="token function">handle</span><span class="token punctuation">(</span><span class="token punctuation">{</span> quickPick <span class="token punctuation">}</span><span class="token operator">:</span> <span class="token maybe-class-name">ButtonHandleOpts</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword control-flow">if</span> <span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">.</span><span class="token property-access">pressed</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token keyword">let</span> items<span class="token operator">:</span> <span class="token keyword">readonly</span> <span class="token maybe-class-name">DNodePropsQuickInputV2</span><span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+      <span class="token keyword control-flow">if</span> <span class="token punctuation">(</span>quickPick<span class="token punctuation">.</span><span class="token property-access">canSelectMany</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        items <span class="token operator">=</span> quickPick<span class="token punctuation">.</span><span class="token property-access">selectedItems</span><span class="token punctuation">;</span>
+      <span class="token punctuation">}</span> <span class="token keyword control-flow">else</span> <span class="token punctuation">{</span>
+        items <span class="token operator">=</span> quickPick<span class="token punctuation">.</span><span class="token property-access">activeItems</span><span class="token punctuation">;</span>
+      <span class="token punctuation">}</span>
+      <span class="token keyword">let</span> links <span class="token operator">=</span> items
+        <span class="token punctuation">.</span><span class="token method function property-access">filter</span><span class="token punctuation">(</span><span class="token punctuation">(</span>ent<span class="token punctuation">)</span> <span class="token arrow operator">=></span> <span class="token operator">!</span><span class="token maybe-class-name">PickerUtilsV2</span><span class="token punctuation">.</span><span class="token method function property-access">isCreateNewNotePick</span><span class="token punctuation">(</span>ent<span class="token punctuation">)</span><span class="token punctuation">)</span>
+        <span class="token punctuation">.</span><span class="token method function property-access">map</span><span class="token punctuation">(</span><span class="token punctuation">(</span>note<span class="token punctuation">)</span> <span class="token arrow operator">=></span> <span class="token maybe-class-name">NoteUtils</span><span class="token punctuation">.</span><span class="token method function property-access">createWikiLink</span><span class="token punctuation">(</span><span class="token punctuation">{</span> note <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+      <span class="token keyword control-flow">if</span> <span class="token punctuation">(</span>_<span class="token punctuation">.</span><span class="token method function property-access">isEmpty</span><span class="token punctuation">(</span>links<span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        vscode<span class="token punctuation">.</span><span class="token property-access">window</span><span class="token punctuation">.</span><span class="token method function property-access">showInformationMessage</span><span class="token punctuation">(</span><span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">no items selected</span><span class="token template-punctuation string">`</span></span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+      <span class="token punctuation">}</span> <span class="token keyword control-flow">else</span> <span class="token punctuation">{</span>
+        <span class="token keyword control-flow">await</span> clipboard<span class="token punctuation">.</span><span class="token method function property-access">writeText</span><span class="token punctuation">(</span>links<span class="token punctuation">.</span><span class="token method function property-access">join</span><span class="token punctuation">(</span><span class="token string">"\n"</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        vscode<span class="token punctuation">.</span><span class="token property-access">window</span><span class="token punctuation">.</span><span class="token method function property-access">showInformationMessage</span><span class="token punctuation">(</span><span class="token template-string"><span class="token template-punctuation string">`</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>links<span class="token punctuation">.</span><span class="token property-access">length</span><span class="token interpolation-punctuation punctuation">}</span></span><span class="token string"> links copied</span><span class="token template-punctuation string">`</span></span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+      <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre>
+<h3 id="adding-command-with-lookup"><a aria-hidden="true" class="anchor-heading" href="#adding-command-with-lookup"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Adding Command with Lookup</h3>
+<p>Pre-requisites:</p>
+<ul>
+<li><a title="Private" style="color: brown" href="https://wiki.dendron.so/notes/hfyvYGJZQiUwQaaxQO27q.html" target="_blank">Create a new Command (Private)</a></li>
+</ul>
+<p>This goes over adding a new command with lookup. To see an example, see this <a href="https://github.com/dendronhq/dendron/blob/master/packages/plugin-core/src/commands/InsertNoteLink.ts">command</a> and this commit: <code>cc8a02b4</code>.</p>
+<div class="mermaid">
+  sequenceDiagram
+    participant user
+    participant lookupCommand
+    participant lookupController
+    participant lookupProvider
+    user ->> lookupCommand: user issues command
+    Note left of user: 1. cmd.gatherInput()
+    rect rgb(0, 255, 0)
+      lookupCommand ->> lookupController: creates controller 
+      lookupCommand ->> lookupProvider: creates provider
+      lookupCommand ->> lookupController: call show(provider)
+      lookupCommand ->> lookupProvider: subscribe to provider
+      lookupController ->> user: shows quickinput 
+    end
+    user ->> user: chooses a selection
+    lookupProvider ->> lookupCommand: notify(selection)
+    lookupCommand ->> lookupCommand: calls command.execute()
+</div>
+<p>1 Gather inputs</p>
+<ul>
+<li>this method is responsible for configuring and instantiating the lookup controller and provider
+<ul>
+<li>controller controls presentation of the quickinput</li>
+<li>provider controls the data retrieval behavior </li>
+<li>on success, will return the following <a href="https://github.com/dendronhq/dendron/blob/master/packages/plugin-core/src/components/lookup/LookupProviderV3.ts">response type</a></li>
+<li>NOTE: because we can't simply block on <code>showQuickInput</code>, we return a promise that listens to a <code>lookupProvider</code> event with the corresponding <code>id</code> of the particular command</li>
+</ul>
+</li>
+</ul>
+<h2 id="ui"><a aria-hidden="true" class="anchor-heading" href="#ui"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>UI</h2>
+<h3 id="adding-a-web-ui-component"><a aria-hidden="true" class="anchor-heading" href="#adding-a-web-ui-component"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Adding a Web UI Component</h3>
+<ol>
+<li>see <a title="Private" style="color: brown" href="https://wiki.dendron.so/notes/hfyvYGJZQiUwQaaxQO27q.html" target="_blank">Create a new Command (Private)</a> for creating a new command</li>
+<li>Add a new entry to <a href="https://github.com/dendronhq/dendron/blob/master/packages/common-all/src/types/typesv2.ts">DendronWebViewKey</a></li>
+<li>in <code>execute</code>, create a new webview
+<pre class="language-ts"><code class="language-ts">  <span class="token keyword">const</span> title <span class="token operator">=</span> <span class="token comment">//TODO: add panel title</span>
+  <span class="token keyword">const</span> panel <span class="token operator">=</span> <span class="token dom variable">window</span><span class="token punctuation">.</span><span class="token method function property-access">createWebviewPanel</span><span class="token punctuation">(</span>
+    <span class="token string">"dendronIframe"</span><span class="token punctuation">,</span> <span class="token comment">// Identifies the type of the webview. Used internally</span>
+    title<span class="token punctuation">,</span> <span class="token comment">// Title of the panel displayed to the user</span>
+    <span class="token maybe-class-name">ViewColumn</span><span class="token punctuation">.</span><span class="token property-access"><span class="token maybe-class-name">One</span></span><span class="token punctuation">,</span> <span class="token comment">// Editor column to show the new webview panel in.</span>
+    <span class="token punctuation">{</span>
+      enableScripts<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+      enableCommandUris<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+      enableFindWidget<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+      localResourceRoots<span class="token operator">:</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">)</span><span class="token punctuation">;</span>
+  resp <span class="token operator">=</span> <span class="token maybe-class-name">WebViewUtils</span><span class="token punctuation">.</span><span class="token method function property-access">genHTMLForWebView</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+      title<span class="token operator">:</span> <span class="token string">"Dendron Config"</span><span class="token punctuation">,</span>
+      view<span class="token operator">:</span> <span class="token maybe-class-name">DendronWebViewKey</span><span class="token punctuation">[</span><span class="token constant">TODO</span><span class="token punctuation">]</span>
+  <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  panel<span class="token punctuation">.</span><span class="token property-access">webview</span><span class="token punctuation">.</span><span class="token property-access">html</span> <span class="token operator">=</span> resp<span class="token punctuation">;</span>
+</code></pre>
+</li>
+</ol>
+<p>Related:</p>
+<ul>
+<li>See <a href="https://wiki.dendron.so/notes/6293d9dc-9bd3-4b01-8428-34d8256f0a32.html#development">here</a> for how to preview and test your web ui.</li>
+</ul>
+<h2 id="utilities"><a aria-hidden="true" class="anchor-heading" href="#utilities"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Utilities</h2>
+<h3 id="getting-dendronengine"><a aria-hidden="true" class="anchor-heading" href="#getting-dendronengine"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Getting DendronEngine</h3>
+<pre class="language-ts"><code class="language-ts"><span class="token function">getWS</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token property-access">engine</span>
+</code></pre>
+<h3 id="accessing-dendronconfig"><a aria-hidden="true" class="anchor-heading" href="#accessing-dendronconfig"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Accessing DendronConfig</h3>
+<p>There are multiple ways to do this. You should get the config from the workspace instance. </p>
+<pre class="language-ts"><code class="language-ts"><span class="token function">getWs</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token property-access">config</span>
+</code></pre>
+<h3 id="clipboard"><a aria-hidden="true" class="anchor-heading" href="#clipboard"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Clipboard</h3>
+<pre class="language-ts"><code class="language-ts"><span class="token keyword module">import</span> <span class="token imports"><span class="token punctuation">{</span> clipboard <span class="token punctuation">}</span></span> <span class="token keyword module">from</span> <span class="token string">"../utils"</span><span class="token punctuation">;</span>
+clipboard<span class="token punctuation">.</span><span class="token method function property-access">writeText</span><span class="token punctuation">(</span>link<span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre>
+<h3 id="check-if-file-is-in-vault"><a aria-hidden="true" class="anchor-heading" href="#check-if-file-is-in-vault"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Check if file is in vault</h3>
+<ul>
+<li>see src/views/DendronTreeViewV2.ts</li>
+</ul>
+<pre class="language-ts"><code class="language-ts">  <span class="token keyword">const</span> uri <span class="token operator">=</span> editor<span class="token punctuation">.</span><span class="token property-access">document</span><span class="token punctuation">.</span><span class="token property-access">uri</span><span class="token punctuation">;</span>
+  <span class="token keyword">const</span> basename <span class="token operator">=</span> path<span class="token punctuation">.</span><span class="token method function property-access">basename</span><span class="token punctuation">(</span>uri<span class="token punctuation">.</span><span class="token property-access">fsPath</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token keyword">const</span> ws <span class="token operator">=</span> <span class="token function">getWS</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token keyword control-flow">if</span> <span class="token punctuation">(</span><span class="token operator">!</span>ws<span class="token punctuation">.</span><span class="token property-access">workspaceService</span><span class="token operator">?.</span><span class="token method function property-access">isPathInWorkspace</span><span class="token punctuation">(</span>uri<span class="token punctuation">.</span><span class="token property-access">fsPath</span><span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword control-flow">return</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+</code></pre>
+<h3 id="insert-text"><a aria-hidden="true" class="anchor-heading" href="#insert-text"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Insert Text</h3>
+<ul>
+<li>src/commands/InsertNoteCommand.ts</li>
+</ul>
+<pre class="language-ts"><code class="language-ts">  <span class="token keyword">const</span> editor <span class="token operator">=</span> <span class="token maybe-class-name">VSCodeUtils</span><span class="token punctuation">.</span><span class="token method function property-access">getActiveTextEditor</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">!</span><span class="token punctuation">;</span>
+  <span class="token keyword">const</span> pos <span class="token operator">=</span> editor<span class="token punctuation">.</span><span class="token property-access">selection</span><span class="token punctuation">.</span><span class="token property-access">active</span><span class="token punctuation">;</span>
+  <span class="token keyword control-flow">await</span> editor<span class="token punctuation">.</span><span class="token method function property-access">edit</span><span class="token punctuation">(</span><span class="token punctuation">(</span>builder<span class="token punctuation">)</span> <span class="token arrow operator">=></span> <span class="token punctuation">{</span>
+    <span class="token keyword">const</span> selection <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name"><span class="token maybe-class-name">Selection</span></span><span class="token punctuation">(</span>pos<span class="token punctuation">,</span> pos<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    builder<span class="token punctuation">.</span><span class="token method function property-access">replace</span><span class="token punctuation">(</span>selection<span class="token punctuation">,</span> txt<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre>
+<h3 id="prompt-user-for-input-using-selection"><a aria-hidden="true" class="anchor-heading" href="#prompt-user-for-input-using-selection"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Prompt User for Input using Selection</h3>
+<ul>
+<li>see <a href="https://github.com/dendronhq/dendron/blob/master/packages/plugin-core/src/commands/VaultAddCommand.ts">this</a></li>
+</ul>
+<h3 id="prompt-user-for-input-using-free-text"><a aria-hidden="true" class="anchor-heading" href="#prompt-user-for-input-using-free-text"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Prompt User for Input using Free Text</h3>
+<ul>
+<li>see <a href="https://github.com/dendronhq/dendron/blob/master/packages/plugin-core/src/commands/VaultAddCommand.ts">this</a></li>
+</ul>
+<pre class="language-ts"><code class="language-ts"><span class="token keyword">let</span> out <span class="token operator">=</span> <span class="token keyword control-flow">await</span> <span class="token maybe-class-name">VSCodeUtils</span><span class="token punctuation">.</span><span class="token method function property-access">showInputBox</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+    prompt<span class="token operator">:</span> <span class="token string">"Path to your new vault (relative to your workspace root)"</span><span class="token punctuation">,</span>
+    placeHolder<span class="token operator">:</span> localVaultPathPlaceholder<span class="token punctuation">,</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword control-flow">if</span> <span class="token punctuation">(</span><span class="token maybe-class-name">PickerUtilsV2</span><span class="token punctuation">.</span><span class="token method function property-access">isStringInputEmpty</span><span class="token punctuation">(</span>out<span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token keyword control-flow">return</span><span class="token punctuation">;</span>
+</code></pre>
+<h3 id="get-location-of-the-frontmatter"><a aria-hidden="true" class="anchor-heading" href="#get-location-of-the-frontmatter"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Get location of the frontmatter</h3>
+<ul>
+<li>example <a href="https://github.com/dendronhq/dendron/blob/master/packages/plugin-core/src/services/NoteSyncService.ts">here</a></li>
+</ul>
+<pre><code></code></pre>
+<h2 id="tests"><a aria-hidden="true" class="anchor-heading" href="#tests"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Tests</h2>
+<h3 id="upating-the-cursor-position"><a aria-hidden="true" class="anchor-heading" href="#upating-the-cursor-position"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Upating the cursor position</h3>
+<ul>
+<li>see <a href="https://github.com/dendronhq/dendron/blob/master/packages/plugin-core/src/test/suite-integ/NoteLookupCommand.test.ts">this</a></li>
+</ul>
+<hr>
+<h2 id="backlinks"><a aria-hidden="true" class="anchor-heading" href="#backlinks"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Backlinks</h2>
+<ul>
+<li><a href="https://wiki.dendron.so/notes/a80f36d9-01d0-4c5a-a228-867b093a4913.html">Cook Book</a></li>
+<li><a href="https://wiki.dendron.so/notes/00e6f3d8-4243-42c7-8e4f-a074a1bd0ffb.html">Release Notes (version 0.44)</a></li>
+</ul><span id="navId" data="04dd9ad8-3d81-4098-a661-21b6acc6f443"></span>
+
+                
+      </section>
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+        <div class="thumbs feedback_trigger right-bottom"></div>
+
+        
+          <hr>
+          <footer>
+            
+            
+
+            
+              <div class="d-flex mt-2">
+              <p class="text-small text-grey-dk-000 mb-0 mr-2">
+                Page last modified: <span class="d-inline-block">10/15/2021</span>.
+              </p>
+            
+                
+                  <p class="text-small text-grey-dk-000 mb-0">
+                    <a href="https://github.com/dendronhq/dendron-site/edit/master/vault/pkg.plugin-core.dev.md" id="edit-this-page">Edit this page on GitHub</a>
+                  </p>
+                
+              </div>
+          </footer>
+        
+    </div>
+</div>
+
+
+  
+
+  <div class="search-overlay"></div>
+
+</div>
+
+</body>
+</html>

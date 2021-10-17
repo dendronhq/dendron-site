@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+  
+  <title>Config - Dendron</title>
+  
+
+  <link
+    rel="shortcut icon"
+    href="https://wiki.dendron.so/favicon.ico"
+    type="image/x-icon"
+  />
+  <link
+    rel="stylesheet"
+    href="https://wiki.dendron.so/assets/css/just-the-docs-default.css"
+  />
+  <script
+    type="text/javascript"
+    src="https://wiki.dendron.so/assets/js/just-the-docs.js"
+  ></script>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.22.0/themes/prism.min.css"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css"
+    integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X"
+    crossorigin="anonymous"
+  />
+  <script
+    type="text/javascript"
+    src="https://wiki.dendron.so/assets/js/vendor/lunr.min.js"
+  ></script>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+   
+   
+  
+<meta name="description" content="Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.">
+<meta name="author" content="dendronhq">
+
+<link rel="canonical" href="https://wiki.dendron.so/notes/7XSSCIpMNX2SFbKc6S0RB.html">
+
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://wiki.dendron.so/notes/7XSSCIpMNX2SFbKc6S0RB.html">
+<meta property="og:description" content="Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.">
+<meta property="og:image" content="https://wiki.dendron.so/logo.png">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@dendronhq">
+<meta name="twitter:url" content="https://wiki.dendron.so/notes/7XSSCIpMNX2SFbKc6S0RB.html">
+<meta name="twitter:description" content="Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.">
+<meta name="twitter:image" content="https://wiki.dendron.so/logo.png">
+
+
+  <meta property="og:title" content="Config - Dendron" />
+  <meta name="twitter:title" content="Config - Dendron" />
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-B0JN2HHCNY"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-B0JN2HHCNY');
+  </script>
+  
+</head>
+
+
+
+<body>
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+      <symbol id="svg-link" viewBox="0 0 24 24">
+        <title>Link</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-link">
+          <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+        </svg>
+      </symbol>
+      <symbol id="svg-search" viewBox="0 0 24 24">
+        <title>Search</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search">
+          <circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+      </symbol>
+      <symbol id="svg-menu" viewBox="0 0 24 24">
+        <title>Menu</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu">
+          <line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+      </symbol>
+      <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+        <title>Expand</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+          <polyline points="9 18 15 12 9 6"></polyline>
+        </svg>
+      </symbol>
+      <symbol id="svg-doc" viewBox="0 0 24 24">
+        <title>Document</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file">
+          <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path><polyline points="13 2 13 9 20 9"></polyline>
+        </svg>
+      </symbol>
+    </svg>
+
+    <div class="side-bar">
+      <div class="site-header">
+        <a href="https://wiki.dendron.so" class="site-title lh-tight">
+  <div class="site-logo"></div>
+
+ </a>
+        <a href="#" id="menu-button" class="site-button">
+          <svg viewBox="0 0 24 24" class="icon"><use xlink:href="#svg-menu"></use></svg>
+        </a>
+      </div>
+
+      <nav role="navigation" aria-label="Main" id="site-nav" class="site-nav">
+      </nav>
+      <footer class="site-footer">
+        🌱 with 💕 using <a href="https://www.dendron.so/"> Dendron 🌲 </a>
+      </footer>
+    </div>
+    <div class="main" id="top">
+        <div id="main-header" class="main-header">
+          
+            <div class="search">
+              <div class="search-input-wrap">
+                <input type="text" id="search-input" class="search-input" tabindex="0" placeholder="Search Dendron" aria-label="Search Dendron" autocomplete="off">
+                <label for="search-input" class="search-label"><svg viewBox="0 0 24 24" class="search-icon"><use xlink:href="#svg-search"></use></svg></label>
+              </div>
+              <div id="search-results" class="search-results"></div>
+            </div>
+          
+          
+    </div>
+    <div id="main-content-wrap" class="main-content-wrap">
+      
+        
+          <nav aria-label="Breadcrumb" class="breadcrumb-nav">
+            <ol class="breadcrumb-nav-list"><li class="breadcrumb-nav-list-item"><a href="https://wiki.dendron.so">Dendron</a></li><li class="breadcrumb-nav-list-item"><a href="https://wiki.dendron.so/notes/3489b652-cd0e-4ac8-a734-08094dc043eb.html">Development</a></li><li class="breadcrumb-nav-list-item"><a href="https://wiki.dendron.so/notes/773e0b5a-510f-4c21-acf4-2d1ab3ed741e.html">Style</a></li><li class="breadcrumb-nav-list-item">Config</li></ol>
+          </nav>
+        
+      
+      <div id="main-content" class="main-content" role="main">
+
+        
+        
+        <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+        <script>mermaid.initialize({startOnLoad:true});</script>
+        
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+        
+        
+
+        
+
+        
+
+        
+
+        <script>
+          $(function () {
+            $('[data-toggle="popover"]').popover({html: true})
+          })
+        </script>
+
+        
+
+<div id="main" role="main">
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Config">
+    
+    <meta itemprop="datePublished" content="2021-09-13T14:06:12+00:00">
+    <meta itemprop="dateModified" content="2021-09-13T14:08:33+00:00">
+
+    <div class="page__inner-wrap">
+
+      
+
+      <section class="page__content" itemprop="text">
+
+        
+
+        <h1 id="config"><a aria-hidden="true" class="anchor-heading" href="#config"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Config</h1>
+<h2 id="summary"><a aria-hidden="true" class="anchor-heading" href="#summary"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Summary</h2>
+<p>This page covers conventions and rules for organizing the configuration space.  </p>
+<h2 id="conventions"><a aria-hidden="true" class="anchor-heading" href="#conventions"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Conventions</h2>
+<ol>
+<li>Name configurations that change something to behave in a certain way in a <em>transitive verb</em> form.
+<ul>
+<li>(verb) + (noun)</li>
+<li>e.g.)
+<ul>
+<li>good: 
+<pre class="language-js"><code class="language-js">enableMermaid<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+</code></pre>
+</li>
+<li>bad:
+<pre class="language-js"><code class="language-js">mermaid<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+</code></pre>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Be conservative and consistent about the choice of verb in the configuration names that are in the transitive verb form.
+<ul>
+<li><code>enable</code> and <code>use</code> (or anything else) are both fine, but keep it consistent. Try to follow other namespace's choice as much as possible.</li>
+<li>e.g.)
+<ul>
+<li>good:
+<pre class="language-js"><code class="language-js"><span class="token spread operator">...</span>
+enableMermaid<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+enableKatex<span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+enableNunjucks<span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+<span class="token spread operator">...</span>
+</code></pre>
+</li>
+<li>bad:
+<pre class="language-js"><code class="language-js">enableMermaid<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+useKatex<span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+activateNunjucks<span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+</code></pre>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Use bare nouns only for configuration keys with values that are direct objects / literals.
+<ul>
+<li>list of vaults, for example.</li>
+</ul>
+</li>
+<li>Use only positive forms for boolean configuration names.
+<ul>
+<li>good: 
+<pre class="language-js"><code class="language-js">enableTelemetry<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+</code></pre>
+</li>
+<li>bad: 
+<pre class="language-js"><code class="language-js">noTelemetry<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+</code></pre>
+</li>
+</ul>
+</li>
+<li>Boolean configuration values should be required in the type definition.
+<ul>
+<li>This is to explicitly and clearly state in the configuration what the default value is.
+<ul>
+<li>It is either true or false. Even when optional, a default value is set down the line where the value is actually used. This makes it confusing to figure out what's happening unless you are familiar with the codebase.</li>
+</ul>
+</li>
+<li>Prefer this over making it an optional property and assuming a default value in the place this config is being used.</li>
+</ul>
+</li>
+<li>Configurations with values that are literals can be optional, but it is preferrable to explicitly set a sensible default value unless it is absolutely necessary to omit it to enable some kind of behavior.
+<ul>
+<li>Similar to boolean config values, if you are setting an assumed default value where the config is used, it is better to set it explicitly required in the config definition itself.</li>
+</ul>
+</li>
+</ol>
+<h2 id="heuristics-on-when-to-create-a-new-namespace"><a aria-hidden="true" class="anchor-heading" href="#heuristics-on-when-to-create-a-new-namespace"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Heuristics on when to create a new namespace</h2>
+<ul>
+<li>It is unclear what is the best way to group logically similar configurations. Use the rule of thumbs below with your best judgement when creating new namespaces.</li>
+<li>If you anticipate that a lot of enhancement will be made to a particular area of the codebase, consider pre-emptively giving it a general namespace.</li>
+<li>If some area of the codebase is considerably stable and you do not anticipate it changing any time sooner, consider giving it a suitable namespace.</li>
+<li>If there are a handful (4-5) of singles that can be grouped into a namespace, consider grouping them into a namespace.</li>
+<li>Regardless of the above points, create a separate namespace if you are adding a new configuration for a <em>command</em>.</li>
+</ul><span id="navId" data="7XSSCIpMNX2SFbKc6S0RB"></span>
+
+                
+      </section>
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+        <div class="thumbs feedback_trigger right-bottom"></div>
+
+        
+          <hr>
+          <footer>
+            
+            
+
+            
+              <div class="d-flex mt-2">
+              <p class="text-small text-grey-dk-000 mb-0 mr-2">
+                Page last modified: <span class="d-inline-block">9/13/2021</span>.
+              </p>
+            
+                
+                  <p class="text-small text-grey-dk-000 mb-0">
+                    <a href="https://github.com/dendronhq/dendron-site/edit/master/vault/dendron.dev.style.config.md" id="edit-this-page">Edit this page on GitHub</a>
+                  </p>
+                
+              </div>
+          </footer>
+        
+    </div>
+</div>
+
+
+  
+
+  <div class="search-overlay"></div>
+
+</div>
+
+</body>
+</html>

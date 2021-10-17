@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+  
+  <title>Types - Dendron</title>
+  
+
+  <link
+    rel="shortcut icon"
+    href="https://wiki.dendron.so/favicon.ico"
+    type="image/x-icon"
+  />
+  <link
+    rel="stylesheet"
+    href="https://wiki.dendron.so/assets/css/just-the-docs-default.css"
+  />
+  <script
+    type="text/javascript"
+    src="https://wiki.dendron.so/assets/js/just-the-docs.js"
+  ></script>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.22.0/themes/prism.min.css"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css"
+    integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X"
+    crossorigin="anonymous"
+  />
+  <script
+    type="text/javascript"
+    src="https://wiki.dendron.so/assets/js/vendor/lunr.min.js"
+  ></script>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+   
+   
+  
+<meta name="description" content="Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.">
+<meta name="author" content="dendronhq">
+
+<link rel="canonical" href="https://wiki.dendron.so/notes/ffe67303-57be-452c-aa73-f7d7e9c4f00f.html">
+
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://wiki.dendron.so/notes/ffe67303-57be-452c-aa73-f7d7e9c4f00f.html">
+<meta property="og:description" content="Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.">
+<meta property="og:image" content="https://wiki.dendron.so/logo.png">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@dendronhq">
+<meta name="twitter:url" content="https://wiki.dendron.so/notes/ffe67303-57be-452c-aa73-f7d7e9c4f00f.html">
+<meta name="twitter:description" content="Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.">
+<meta name="twitter:image" content="https://wiki.dendron.so/logo.png">
+
+
+  <meta property="og:title" content="Types - Dendron" />
+  <meta name="twitter:title" content="Types - Dendron" />
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-B0JN2HHCNY"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-B0JN2HHCNY');
+  </script>
+  
+</head>
+
+
+
+<body>
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+      <symbol id="svg-link" viewBox="0 0 24 24">
+        <title>Link</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-link">
+          <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+        </svg>
+      </symbol>
+      <symbol id="svg-search" viewBox="0 0 24 24">
+        <title>Search</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search">
+          <circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+      </symbol>
+      <symbol id="svg-menu" viewBox="0 0 24 24">
+        <title>Menu</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu">
+          <line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+      </symbol>
+      <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+        <title>Expand</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+          <polyline points="9 18 15 12 9 6"></polyline>
+        </svg>
+      </symbol>
+      <symbol id="svg-doc" viewBox="0 0 24 24">
+        <title>Document</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file">
+          <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path><polyline points="13 2 13 9 20 9"></polyline>
+        </svg>
+      </symbol>
+    </svg>
+
+    <div class="side-bar">
+      <div class="site-header">
+        <a href="https://wiki.dendron.so" class="site-title lh-tight">
+  <div class="site-logo"></div>
+
+ </a>
+        <a href="#" id="menu-button" class="site-button">
+          <svg viewBox="0 0 24 24" class="icon"><use xlink:href="#svg-menu"></use></svg>
+        </a>
+      </div>
+
+      <nav role="navigation" aria-label="Main" id="site-nav" class="site-nav">
+      </nav>
+      <footer class="site-footer">
+        🌱 with 💕 using <a href="https://www.dendron.so/"> Dendron 🌲 </a>
+      </footer>
+    </div>
+    <div class="main" id="top">
+        <div id="main-header" class="main-header">
+          
+            <div class="search">
+              <div class="search-input-wrap">
+                <input type="text" id="search-input" class="search-input" tabindex="0" placeholder="Search Dendron" aria-label="Search Dendron" autocomplete="off">
+                <label for="search-input" class="search-label"><svg viewBox="0 0 24 24" class="search-icon"><use xlink:href="#svg-search"></use></svg></label>
+              </div>
+              <div id="search-results" class="search-results"></div>
+            </div>
+          
+          
+    </div>
+    <div id="main-content-wrap" class="main-content-wrap">
+      
+        
+          <nav aria-label="Breadcrumb" class="breadcrumb-nav">
+            <ol class="breadcrumb-nav-list"><li class="breadcrumb-nav-list-item"><a href="https://wiki.dendron.so">Dendron</a></li><li class="breadcrumb-nav-list-item"><a href="https://wiki.dendron.so/notes/f143ca38-dcc6-4cd3-b84b-997aec1160ef.html">Rfc</a></li><li class="breadcrumb-nav-list-item"><a href="https://wiki.dendron.so/notes/8bc80164-6436-4c77-8077-7842f53a4a23.html">12 Schema Improvements</a></li><li class="breadcrumb-nav-list-item">Types</li></ol>
+          </nav>
+        
+      
+      <div id="main-content" class="main-content" role="main">
+
+        
+        
+        <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+        <script>mermaid.initialize({startOnLoad:true});</script>
+        
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+        
+        
+
+        
+
+        
+
+        
+
+        <script>
+          $(function () {
+            $('[data-toggle="popover"]').popover({html: true})
+          })
+        </script>
+
+        
+
+<div id="main" role="main">
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Types">
+    
+    <meta itemprop="datePublished" content="2021-05-09T17:43:58+00:00">
+    <meta itemprop="dateModified" content="2021-05-13T15:34:06+00:00">
+
+    <div class="page__inner-wrap">
+
+      
+
+      <section class="page__content" itemprop="text">
+
+        
+
+        <h1 id="types"><a aria-hidden="true" class="anchor-heading" href="#types"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Types</h1>
+<h2 id="goals"><a aria-hidden="true" class="anchor-heading" href="#goals"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Goals</h2>
+<p>Creating the possibility to extend the functionality of schemas by introducing a type value on them.</p>
+<h2 id="proposal"><a aria-hidden="true" class="anchor-heading" href="#proposal"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Proposal</h2>
+<p>Adding a type value to schemas, this value would be optional and default to the current functionality.
+The current functionality should be named <code>pattern</code> in my eyes and be the default value for this key in the yaml. </p>
+<p>These Types should implement a common Interface to be used by dendron, specifying the Keys of the schema Object they handle and Specify a Json Schema to validate against.
+Dendron should provide ways for the diffrent types of extensions it recognizes to contribute their own types, that implement the common Interface.
+A type registered this way would be used by <code>{extensionName}:{typeName}</code> inside the <code>*.schema.yaml</code> files. This allows for flexibility with extending the functionality of Dendron.</p>
+<h3 id="proposed-types"><a aria-hidden="true" class="anchor-heading" href="#proposed-types"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Proposed Types</h3>
+<p>The following are Types that I would Propose to create as part of dendrons core functionality.</p>
+<h4 id="pattern"><a aria-hidden="true" class="anchor-heading" href="#pattern"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Pattern</h4>
+<p>This would be the current functionality. The examples show that they are Equal </p>
+<h5 id="example"><a aria-hidden="true" class="anchor-heading" href="#example"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Example</h5>
+<pre class="language-yml"><code class="language-yml"><span class="token key atrule">schemas</span><span class="token punctuation">:</span>
+  <span class="token punctuation">-</span> <span class="token key atrule">id</span><span class="token punctuation">:</span> example
+    <span class="token key atrule">title</span><span class="token punctuation">:</span> Example <span class="token comment">#defaults to the id</span>
+    <span class="token key atrule">pattern</span><span class="token punctuation">:</span> e <span class="token comment">#defaults to the id if not set</span>
+</code></pre>
+<pre class="language-yml"><code class="language-yml"><span class="token key atrule">schemas</span><span class="token punctuation">:</span>
+  <span class="token punctuation">-</span> <span class="token key atrule">id</span><span class="token punctuation">:</span> example
+    <span class="token key atrule">title</span><span class="token punctuation">:</span> Example <span class="token comment">#defaults to the id</span>
+    <span class="token key atrule">pattern</span><span class="token punctuation">:</span> e <span class="token comment">#defaults to the id if not set</span>
+    <span class="token key atrule">type</span><span class="token punctuation">:</span> pattern
+</code></pre>
+<h4 id="segments"><a aria-hidden="true" class="anchor-heading" href="#segments"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Segments</h4>
+<p>The purpose of segments could be twofold one would be to merge multiple hierarchy levels into one overall hierachy level. </p>
+<p>Or splitting one Hierachy level into multiple levels. </p>
+<h5 id="example-1"><a aria-hidden="true" class="anchor-heading" href="#example-1"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Example</h5>
+<pre class="language-yml"><code class="language-yml"><span class="token key atrule">schemas</span><span class="token punctuation">:</span>
+  <span class="token punctuation">-</span> <span class="token key atrule">id</span><span class="token punctuation">:</span> date
+    <span class="token key atrule">title</span><span class="token punctuation">:</span> Example <span class="token comment">#defaults to the id</span>
+    <span class="token key atrule">type</span><span class="token punctuation">:</span> segments 
+    <span class="token key atrule">pattern</span><span class="token punctuation">:</span> $0.$1.$2 <span class="token comment"># this Key would be optional and default would be to concate the Patterns of the schemas in the elements array, the ${digit} part describes the hierachy lvl in this scheme, but could use named identifiers as well or static pattern parts. A dot represents a Dot in the filename. </span>
+    <span class="token key atrule">elements</span><span class="token punctuation">:</span> <span class="token comment"># required for segments, order matters here if number references are used.    </span>
+      <span class="token punctuation">-</span> <span class="token key atrule">id</span><span class="token punctuation">:</span> year <span class="token comment"># this would match the reference $0 or $year</span>
+      <span class="token punctuation">-</span> <span class="token key atrule">id</span><span class="token punctuation">:</span> month <span class="token comment"># this would match the reference $1 or $month</span>
+      <span class="token punctuation">-</span> <span class="token key atrule">id</span><span class="token punctuation">:</span> day <span class="token comment"># this would match the reference $2 or $day        </span>
+</code></pre>
+<h4 id="enum"><a aria-hidden="true" class="anchor-heading" href="#enum"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Enum</h4>
+<p>This type extends the Pattern type with the option to map the matched values of the Pattern to a title that should be used in the UI.</p>
+<p>Additionaly we Could extend it to provide a way to conditionaly change the Children depending on what gets matched.
+Exampel being here the pattern for the day to reflect the actual days of the month.</p>
+<h5 id="example-2"><a aria-hidden="true" class="anchor-heading" href="#example-2"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Example</h5>
+<pre class="language-yml"><code class="language-yml"><span class="token key atrule">schemas</span><span class="token punctuation">:</span>
+   <span class="token punctuation">-</span> <span class="token key atrule">id</span><span class="token punctuation">:</span> numericMonth
+     <span class="token key atrule">type</span><span class="token punctuation">:</span> enum
+     <span class="token key atrule">pattern</span><span class="token punctuation">:</span> (0<span class="token punctuation">[</span>1<span class="token punctuation">-</span><span class="token number">9</span><span class="token punctuation">]</span>)<span class="token punctuation">|</span>(1<span class="token punctuation">[</span>0<span class="token punctuation">-</span><span class="token number">2</span><span class="token punctuation">]</span>) <span class="token comment"># A valid pattern is required that can match multiple things.</span>
+     <span class="token key atrule">matches</span><span class="token punctuation">:</span> <span class="token comment"># each matchs entry is required to be a valid option for the pattern</span>
+        <span class="token punctuation">-</span> <span class="token key atrule">01</span><span class="token punctuation">:</span> Januar <span class="token comment"># the first part is the matched value and the second part becomes the title</span>
+        <span class="token punctuation">-</span> <span class="token key atrule">02</span><span class="token punctuation">:</span> Februar
+        <span class="token punctuation">-</span> <span class="token key atrule">03</span><span class="token punctuation">:</span> March  <span class="token comment"># not every possible match needs to be provided if no match is provided the matched value becomes the title.</span>
+</code></pre>
+<h4 id="group"><a aria-hidden="true" class="anchor-heading" href="#group"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Group</h4>
+<p>This type would allow someone to define multiple Schemas for one hierachy level That get grouped under a commen Key.</p>
+<h5 id="example-3"><a aria-hidden="true" class="anchor-heading" href="#example-3"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Example</h5>
+<pre class="language-yml"><code class="language-yml"><span class="token key atrule">schemas</span><span class="token punctuation">:</span>
+   <span class="token punctuation">-</span> <span class="token key atrule">id</span><span class="token punctuation">:</span> Month
+     <span class="token key atrule">type</span><span class="token punctuation">:</span> group
+     <span class="token key atrule">schemas</span><span class="token punctuation">:</span> <span class="token comment"># Requires a non empty list of either schema definitions or references. </span>
+        <span class="token punctuation">-</span> numericMonth <span class="token comment"># reference of a defined schema would be valid.</span>
+        <span class="token punctuation">-</span> <span class="token key atrule">id</span><span class="token punctuation">:</span> shortLetterMonth <span class="token comment"># can contain the specification of a new schema</span>
+
+</code></pre>
+<h4 id="heading"><a aria-hidden="true" class="anchor-heading" href="#heading"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Heading</h4>
+<p>This type is meant to specify the headings of a Note and would apply to Schemas that it is a child of. This should be seen like an interface for the developers. Multiple heading type schemas can exist on one schema. The Order of the Headings in the note is not Relevant. </p>
+<h5 id="example-4"><a aria-hidden="true" class="anchor-heading" href="#example-4"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Example</h5>
+<pre class="language-yml"><code class="language-yml"><span class="token key atrule">schemas</span><span class="token punctuation">:</span>
+   <span class="token punctuation">-</span> <span class="token key atrule">id</span><span class="token punctuation">:</span> tasklist
+     <span class="token key atrule">type</span><span class="token punctuation">:</span> headings
+     <span class="token key atrule">children</span><span class="token punctuation">:</span> <span class="token comment"># each children is either a direct match or a RegEx that must match</span>
+        <span class="token punctuation">-</span> open 
+        <span class="token punctuation">-</span> planned
+        <span class="token punctuation">-</span> done
+</code></pre>
+<h4 id="extensiontype"><a aria-hidden="true" class="anchor-heading" href="#extensiontype"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Extension:Type</h4>
+<p>This would be how an Extension provided Type could be used.</p>
+<h5 id="example-5"><a aria-hidden="true" class="anchor-heading" href="#example-5"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Example</h5>
+<pre class="language-yaml"><code class="language-yaml"><span class="token key atrule">schemas</span><span class="token punctuation">:</span>
+    <span class="token punctuation">-</span> <span class="token key atrule">id</span><span class="token punctuation">:</span> jiraIssue
+      <span class="token key atrule">type</span><span class="token punctuation">:</span> <span class="token string">'jiraPod:issue'</span>
+      <span class="token comment"># here would then be a list of settings for this type </span>
+      <span class="token comment"># example could be</span>
+      <span class="token key atrule">projectSlug</span><span class="token punctuation">:</span> /<span class="token punctuation">[</span>A<span class="token punctuation">-</span>Z<span class="token punctuation">]</span><span class="token punctuation">{</span><span class="token number">3</span><span class="token punctuation">}</span>/ <span class="token comment">#The pattern to match the Project slug</span>
+      <span class="token key atrule">issueId</span><span class="token punctuation">:</span> /<span class="token punctuation">[</span>1<span class="token punctuation">-</span><span class="token number">9</span><span class="token punctuation">]</span><span class="token punctuation">[</span>0<span class="token punctuation">-</span><span class="token number">9</span><span class="token punctuation">]</span><span class="token important">*/</span> <span class="token comment">#The Pattern to macht the Id</span>
+      <span class="token key atrule">issueState</span><span class="token punctuation">:</span> <span class="token comment"># The States of the issue </span>
+        <span class="token punctuation">-</span> opened
+        <span class="token punctuation">-</span> in work
+        <span class="token punctuation">-</span> to review
+        <span class="token punctuation">-</span> done
+</code></pre>
+<h3 id="common-interface"><a aria-hidden="true" class="anchor-heading" href="#common-interface"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Common Interface</h3>
+<p>Each Type needs to implement a certain interface providing dendron with functionality to handle the nodes acordingly.</p>
+<h4 id="example-6"><a aria-hidden="true" class="anchor-heading" href="#example-6"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Example</h4>
+<p>Just an example how it could look, feel free to provide other implementation examples.</p>
+<pre class="language-ts"><code class="language-ts"><span class="token keyword">enum</span> <span class="token maybe-class-name">SortingDirections</span><span class="token punctuation">{</span>
+    ascending<span class="token punctuation">,</span>
+    decending
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+<span class="token keyword">enum</span> <span class="token maybe-class-name">DNavigationType</span><span class="token punctuation">{</span>
+    sibling<span class="token punctuation">,</span>
+    level
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+<span class="token keyword">enum</span> <span class="token maybe-class-name">SiblingNavigationDirection</span><span class="token punctuation">{</span>
+    previous<span class="token punctuation">,</span>
+    next
+<span class="token punctuation">}</span>
+<span class="token keyword">enum</span> <span class="token maybe-class-name">LevelNavigationDirection</span><span class="token punctuation">{</span>
+    up<span class="token punctuation">,</span>
+    down
+<span class="token punctuation">}</span>
+<span class="token keyword">type</span> <span class="token class-name"><span class="token maybe-class-name">NavigationDirection</span></span> <span class="token operator">=</span> <span class="token maybe-class-name">SiblingNavigationDirection</span><span class="token operator">|</span><span class="token maybe-class-name">LevelNavigationDirection</span><span class="token punctuation">;</span> 
+<span class="token keyword">type</span> <span class="token class-name"><span class="token maybe-class-name">NavigationFunction</span><span class="token operator">&#x3C;</span><span class="token constant">T</span><span class="token operator">></span></span> <span class="token operator">=</span> <span class="token punctuation">(</span>node<span class="token operator">:</span><span class="token constant">T</span><span class="token punctuation">,</span> direction<span class="token operator">:</span><span class="token maybe-class-name">NavigationDirection</span><span class="token punctuation">)</span><span class="token arrow operator">=></span><span class="token constant">T</span><span class="token punctuation">;</span>
+
+<span class="token keyword">type</span> <span class="token class-name"><span class="token maybe-class-name">SortingFunction</span><span class="token operator">&#x3C;</span><span class="token constant">T</span><span class="token operator">></span></span> <span class="token operator">=</span> <span class="token punctuation">(</span>left<span class="token operator">:</span><span class="token constant">T</span><span class="token punctuation">,</span>right<span class="token operator">:</span><span class="token constant">T</span><span class="token punctuation">)</span><span class="token arrow operator">=></span> <span class="token builtin">number</span><span class="token punctuation">;</span>
+<span class="token keyword">type</span> <span class="token class-name"><span class="token maybe-class-name">MatchFunction</span><span class="token operator">&#x3C;</span><span class="token constant">T</span><span class="token operator">></span></span> <span class="token operator">=</span> <span class="token punctuation">(</span>hierachy<span class="token operator">:</span><span class="token builtin">string</span><span class="token punctuation">,</span> args<span class="token operator">:</span><span class="token constant">T</span><span class="token punctuation">)</span><span class="token arrow operator">=></span><span class="token builtin">boolean</span><span class="token punctuation">;</span>
+<span class="token keyword">interface</span> <span class="token class-name"><span class="token maybe-class-name">Node</span></span> <span class="token punctuation">{</span><span class="token punctuation">}</span> <span class="token comment">// Placeholder </span>
+
+<span class="token keyword">interface</span> <span class="token class-name"><span class="token maybe-class-name">ISchemaType</span></span> <span class="token punctuation">{</span>
+        
+    <span class="token function">getTypeName</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">:</span> <span class="token builtin">string</span><span class="token punctuation">;</span> <span class="token comment">// The Name of the Type</span>
+    
+    <span class="token function">getSchemaKeys</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">:</span> <span class="token builtin">string</span><span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">;</span> <span class="token comment">// The Schema Keys that this Type requires for</span>
+    
+    <span class="token function">getSortingDirections</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">:</span><span class="token maybe-class-name">SortingDirections</span><span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">;</span> <span class="token comment">// The Sort Directions this Type provides. Null for default behaviour</span>
+    <span class="token generic-function"><span class="token function">getSortingFunctionForDirection</span><span class="token generic class-name"><span class="token operator">&#x3C;</span><span class="token constant">T</span><span class="token operator">></span></span></span><span class="token punctuation">(</span>direction<span class="token operator">:</span><span class="token maybe-class-name">SortingDirections</span><span class="token punctuation">)</span><span class="token operator">:</span><span class="token maybe-class-name">SortingFunction</span><span class="token operator">&#x3C;</span><span class="token constant">T</span><span class="token operator">></span><span class="token punctuation">;</span> <span class="token comment">// The function that would sort The Nodes acording to the direction</span>
+    <span class="token generic-function"><span class="token function">getNavigateFunction</span><span class="token generic class-name"><span class="token operator">&#x3C;</span><span class="token constant">T</span><span class="token operator">></span></span></span><span class="token punctuation">(</span>navigationType<span class="token operator">:</span><span class="token maybe-class-name">NavigationType</span><span class="token punctuation">)</span><span class="token operator">:</span><span class="token maybe-class-name">NavigationFunction</span><span class="token operator">&#x3C;</span><span class="token constant">T</span><span class="token operator">></span><span class="token punctuation">;</span> <span class="token comment">// Returns a function to navigate the Notes, null for default behavior;    </span>
+    <span class="token generic-function"><span class="token function">getMatcheFunction</span><span class="token generic class-name"><span class="token operator">&#x3C;</span><span class="token constant">T</span><span class="token operator">></span></span></span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">:</span><span class="token maybe-class-name">MatchFunction</span><span class="token operator">&#x3C;</span><span class="token constant">T</span><span class="token operator">></span><span class="token punctuation">;</span> <span class="token comment">//Returns a function to check if the schema applies to the Hierachy.  </span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">abstract</span> <span class="token keyword">class</span> <span class="token class-name"><span class="token maybe-class-name">SchemaType</span></span> <span class="token keyword">implements</span> <span class="token class-name"><span class="token maybe-class-name">ISchemaType</span></span> <span class="token punctuation">{</span>
+    
+    <span class="token keyword">abstract</span> <span class="token function">getTypeName</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">:</span> <span class="token builtin">string</span><span class="token punctuation">;</span>
+
+    <span class="token keyword">abstract</span> <span class="token function">getSchemaKeys</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">:</span> <span class="token builtin">string</span><span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+
+    <span class="token function">getSortingDirections</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">:</span> <span class="token maybe-class-name">SortingDirections</span><span class="token punctuation">[</span><span class="token punctuation">]</span> <span class="token punctuation">{</span>
+        <span class="token keyword control-flow">return</span> <span class="token punctuation">[</span><span class="token maybe-class-name">SortingDirections</span><span class="token punctuation">.</span><span class="token property-access">ascending</span><span class="token punctuation">,</span> <span class="token maybe-class-name">SortingDirections</span><span class="token punctuation">.</span><span class="token property-access">decending</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token generic-function"><span class="token function">getSortingFunctionForDirection</span><span class="token generic class-name"><span class="token operator">&#x3C;</span><span class="token constant">T</span><span class="token operator">></span></span></span><span class="token punctuation">(</span>direction<span class="token operator">:</span> <span class="token maybe-class-name">SortingDirections</span><span class="token punctuation">)</span><span class="token operator">:</span> <span class="token maybe-class-name">SortingFunction</span><span class="token operator">&#x3C;</span><span class="token constant">T</span><span class="token operator">></span> <span class="token punctuation">{</span>
+        <span class="token keyword control-flow">throw</span> <span class="token keyword">new</span> <span class="token class-name"><span class="token known-class-name class-name">Error</span></span><span class="token punctuation">(</span><span class="token string">"Method not implemented."</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">//Default</span>
+    <span class="token punctuation">}</span>
+    <span class="token generic-function"><span class="token function">getNavigateFunction</span><span class="token generic class-name"><span class="token operator">&#x3C;</span><span class="token constant">T</span><span class="token operator">></span></span></span><span class="token punctuation">(</span>navigationType<span class="token operator">:</span> <span class="token maybe-class-name">NavigationType</span><span class="token punctuation">)</span><span class="token operator">:</span> <span class="token maybe-class-name">NavigationFunction</span><span class="token operator">&#x3C;</span><span class="token constant">T</span><span class="token operator">></span> <span class="token punctuation">{</span>
+        <span class="token keyword control-flow">throw</span> <span class="token keyword">new</span> <span class="token class-name"><span class="token known-class-name class-name">Error</span></span><span class="token punctuation">(</span><span class="token string">"Method not implemented."</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// Default</span>
+    <span class="token punctuation">}</span>
+    <span class="token generic-function"><span class="token function">getMatcheFunction</span><span class="token generic class-name"><span class="token operator">&#x3C;</span><span class="token constant">T</span><span class="token operator">></span></span></span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">:</span> <span class="token maybe-class-name">MatchFunction</span><span class="token operator">&#x3C;</span><span class="token constant">T</span><span class="token operator">></span> <span class="token punctuation">{</span>
+        <span class="token keyword control-flow">throw</span> <span class="token keyword">new</span> <span class="token class-name"><span class="token known-class-name class-name">Error</span></span><span class="token punctuation">(</span><span class="token string">"Method not implemented."</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// Default </span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre>
+<hr>
+<h2 id="backlinks"><a aria-hidden="true" class="anchor-heading" href="#backlinks"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Backlinks</h2>
+<ul>
+<li><a href="https://wiki.dendron.so/notes/8bc80164-6436-4c77-8077-7842f53a4a23.html">12 Schema Improvements</a></li>
+</ul><span id="navId" data="ffe67303-57be-452c-aa73-f7d7e9c4f00f"></span>
+
+                
+      </section>
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+        <div class="thumbs feedback_trigger right-bottom"></div>
+
+        
+          <hr>
+          <footer>
+            
+            
+
+            
+              <div class="d-flex mt-2">
+              <p class="text-small text-grey-dk-000 mb-0 mr-2">
+                Page last modified: <span class="d-inline-block">5/13/2021</span>.
+              </p>
+            
+                
+                  <p class="text-small text-grey-dk-000 mb-0">
+                    <a href="https://github.com/dendronhq/dendron-site/edit/master/vault/dendron.rfc.12-schema-improvements.types.md" id="edit-this-page">Edit this page on GitHub</a>
+                  </p>
+                
+              </div>
+          </footer>
+        
+    </div>
+</div>
+
+
+  
+
+  <div class="search-overlay"></div>
+
+</div>
+
+</body>
+</html>

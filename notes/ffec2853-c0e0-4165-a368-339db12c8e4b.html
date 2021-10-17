@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+  
+  <title>Frontmatter - Dendron</title>
+  
+
+  <link
+    rel="shortcut icon"
+    href="https://wiki.dendron.so/favicon.ico"
+    type="image/x-icon"
+  />
+  <link
+    rel="stylesheet"
+    href="https://wiki.dendron.so/assets/css/just-the-docs-default.css"
+  />
+  <script
+    type="text/javascript"
+    src="https://wiki.dendron.so/assets/js/just-the-docs.js"
+  ></script>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.22.0/themes/prism.min.css"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css"
+    integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X"
+    crossorigin="anonymous"
+  />
+  <script
+    type="text/javascript"
+    src="https://wiki.dendron.so/assets/js/vendor/lunr.min.js"
+  ></script>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+   
+   
+  
+<meta name="description" content="Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.">
+<meta name="author" content="dendronhq">
+
+<link rel="canonical" href="https://wiki.dendron.so/notes/ffec2853-c0e0-4165-a368-339db12c8e4b.html">
+
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://wiki.dendron.so/notes/ffec2853-c0e0-4165-a368-339db12c8e4b.html">
+<meta property="og:description" content="Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.">
+<meta property="og:image" content="https://wiki.dendron.so/logo.png">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@dendronhq">
+<meta name="twitter:url" content="https://wiki.dendron.so/notes/ffec2853-c0e0-4165-a368-339db12c8e4b.html">
+<meta name="twitter:description" content="Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.">
+<meta name="twitter:image" content="https://wiki.dendron.so/logo.png">
+
+
+  <meta property="og:title" content="Frontmatter - Dendron" />
+  <meta name="twitter:title" content="Frontmatter - Dendron" />
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-B0JN2HHCNY"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-B0JN2HHCNY');
+  </script>
+  
+</head>
+
+
+
+<body>
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+      <symbol id="svg-link" viewBox="0 0 24 24">
+        <title>Link</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-link">
+          <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+        </svg>
+      </symbol>
+      <symbol id="svg-search" viewBox="0 0 24 24">
+        <title>Search</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search">
+          <circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+      </symbol>
+      <symbol id="svg-menu" viewBox="0 0 24 24">
+        <title>Menu</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu">
+          <line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+      </symbol>
+      <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+        <title>Expand</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+          <polyline points="9 18 15 12 9 6"></polyline>
+        </svg>
+      </symbol>
+      <symbol id="svg-doc" viewBox="0 0 24 24">
+        <title>Document</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file">
+          <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path><polyline points="13 2 13 9 20 9"></polyline>
+        </svg>
+      </symbol>
+    </svg>
+
+    <div class="side-bar">
+      <div class="site-header">
+        <a href="https://wiki.dendron.so" class="site-title lh-tight">
+  <div class="site-logo"></div>
+
+ </a>
+        <a href="#" id="menu-button" class="site-button">
+          <svg viewBox="0 0 24 24" class="icon"><use xlink:href="#svg-menu"></use></svg>
+        </a>
+      </div>
+
+      <nav role="navigation" aria-label="Main" id="site-nav" class="site-nav">
+      </nav>
+      <footer class="site-footer">
+        🌱 with 💕 using <a href="https://www.dendron.so/"> Dendron 🌲 </a>
+      </footer>
+    </div>
+    <div class="main" id="top">
+        <div id="main-header" class="main-header">
+          
+            <div class="search">
+              <div class="search-input-wrap">
+                <input type="text" id="search-input" class="search-input" tabindex="0" placeholder="Search Dendron" aria-label="Search Dendron" autocomplete="off">
+                <label for="search-input" class="search-label"><svg viewBox="0 0 24 24" class="search-icon"><use xlink:href="#svg-search"></use></svg></label>
+              </div>
+              <div id="search-results" class="search-results"></div>
+            </div>
+          
+          
+    </div>
+    <div id="main-content-wrap" class="main-content-wrap">
+      
+        
+          <nav aria-label="Breadcrumb" class="breadcrumb-nav">
+            <ol class="breadcrumb-nav-list"><li class="breadcrumb-nav-list-item"><a href="https://wiki.dendron.so">Dendron</a></li><li class="breadcrumb-nav-list-item"><a href="https://wiki.dendron.so/notes/7a7af2fa-b9d0-4adc-81e6-f03186123539.html">Topics</a></li><li class="breadcrumb-nav-list-item">Frontmatter</li></ol>
+          </nav>
+        
+      
+      <div id="main-content" class="main-content" role="main">
+
+        
+        
+        <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+        <script>mermaid.initialize({startOnLoad:true});</script>
+        
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+        
+        
+
+        
+
+        
+
+        
+
+        <script>
+          $(function () {
+            $('[data-toggle="popover"]').popover({html: true})
+          })
+        </script>
+
+        
+
+<div id="main" role="main">
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Frontmatter">
+    
+    <meta itemprop="datePublished" content="2020-07-21T17:25:54+00:00">
+    <meta itemprop="dateModified" content="2021-08-04T18:17:39+00:00">
+
+    <div class="page__inner-wrap">
+
+      
+
+      <section class="page__content" itemprop="text">
+
+        
+
+        <h1 id="frontmatter"><a aria-hidden="true" class="anchor-heading" href="#frontmatter"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Frontmatter</h1>
+<p>Frontmatter is <a href="https://yaml.org/">YAML</a> that you can add to the front of your markdown file. It was first introduced by <a href="https://jekyllrb.com/docs/front-matter/">jekyll</a> and is a convenient way of adding metadata to your plaintext documents.</p>
+<p>Dendron supports frontmatter. By default, we add the following keys to a new note created with Dendron:</p>
+<ul>
+<li>id: a globally unique identifier for the note</li>
+<li>title: your note title. Used to label nodes in <a href="https://wiki.dendron.so/notes/587e6d62-3c5b-49b0-aedc-02f62f0448e6.html">graph view</a></li>
+<li>desc: optional description about your note. Will show up in lookup results</li>
+<li>updated: unix timestamp of when note was updated</li>
+<li>created: unix timestamp of when note was created</li>
+</ul>
+<p>Frontmatter is required in Dendron, and it will warn you in the editor if you
+have any notes that don't have a frontmatter, or have a frontmatter that's
+broken. You can fix these by clicking on the lightbulb symbol that appears next to them, or using the <a href="https://wiki.dendron.so/notes/eea2b078-1acc-4071-a14e-18299fc28f47.html#fixfrontmatter">fixFrontmatter Doctor action</a>.</p>
+<p>Feel free to add your attributes. As long as it doesn't conflict with a Dendron builtin keyword, Dendron will leave it alone. In the future, we plan on adding a lot more functionality to the frontmatter you see in Dendron so stay tuned.</p>
+<h1 id="reserved-keys"><a aria-hidden="true" class="anchor-heading" href="#reserved-keys"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Reserved Keys</h1>
+<p>Note that not all the keys are written out to the markdown file. Dendron merges the attributes from the markdown frontmatter to its own internal set of attributes.</p>
+<h3 id="id"><a aria-hidden="true" class="anchor-heading" href="#id"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>id</h3>
+<p>A globally unique identifier for the note. This identifier is used for two things: (1) generating unique URLs when notes are published and (2) ensuring each note in the index is unique.</p>
+<h3 id="title"><a aria-hidden="true" class="anchor-heading" href="#title"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>title</h3>
+<p>Your note title. Used to label nodes in <a href="https://wiki.dendron.so/notes/587e6d62-3c5b-49b0-aedc-02f62f0448e6.html">graph view</a></p>
+<h3 id="desc"><a aria-hidden="true" class="anchor-heading" href="#desc"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>desc</h3>
+<p>Optional description about your note. Will show up in lookup results.</p>
+<h3 id="updated"><a aria-hidden="true" class="anchor-heading" href="#updated"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>updated</h3>
+<p>Unix timestamp of when note was updated</p>
+<h3 id="created"><a aria-hidden="true" class="anchor-heading" href="#created"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>created</h3>
+<p>Unix timestamp of when note was created</p>
+<h3 id="parent"><a aria-hidden="true" class="anchor-heading" href="#parent"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>parent</h3>
+<p>Node parent</p>
+<h3 id="children"><a aria-hidden="true" class="anchor-heading" href="#children"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>children</h3>
+<p>Node children</p>
+<h3 id="uri"><a aria-hidden="true" class="anchor-heading" href="#uri"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>uri</h3>
+<p>Absolute filepath to the note</p>
+<h3 id="tags"><a aria-hidden="true" class="anchor-heading" href="#tags"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>tags</h3>
+<p>These are used for <a href="https://wiki.dendron.so/notes/8bc9b3f1-8508-4d3a-a2de-be9f12ef1821.html#frontmatter-tags">frontmatter tags</a>.</p>
+<h3 id="data"><a aria-hidden="true" class="anchor-heading" href="#data"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>data</h3>
+<p>This is reserved for internal use</p>
+<h3 id="custom"><a aria-hidden="true" class="anchor-heading" href="#custom"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>custom</h3>
+<p>This is reserved for internal use</p>
+<h1 id="other-keys"><a aria-hidden="true" class="anchor-heading" href="#other-keys"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Other keys</h1>
+<p></p><p></p><div class="portal-container">
+<div class="portal-head">
+<div class="portal-backlink">
+<div class="portal-title">From <span class="portal-text-title">Configuration</span></div>
+<a href="https://wiki.dendron.so/notes/f2ed8639-a604-4a9d-b76c-41e205fb8713.html" class="portal-arrow">Go to text <span class="right-arrow">→</span></a>
+</div>
+</div>
+<div id="portal-parent-anchor" class="portal-parent" markdown="1">
+<div class="portal-parent-fader-top"></div>
+<div class="portal-parent-fader-bottom"></div><h2 id="note-configuration"><a aria-hidden="true" class="anchor-heading" href="#note-configuration"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Note Configuration</h2>
+<p>You can specify how notes are published via the frontmatter of each note. </p>
+<h3 id="canonicalurl"><a aria-hidden="true" class="anchor-heading" href="#canonicalurl"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>canonicalUrl</h3>
+<ul>
+<li>default: undefined</li>
+</ul>
+<p>If set, adds CANONICAL_URL when publishing</p>
+<pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>link</span> <span class="token attr-name">rel</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>canonical<span class="token punctuation">"</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>CANONICAL_URL<span class="token punctuation">"</span></span> <span class="token punctuation">/></span></span>
+</code></pre>
+<h3 id="published"><a aria-hidden="true" class="anchor-heading" href="#published"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>published</h3>
+<ul>
+<li>default: true</li>
+</ul>
+<p>To exclude a page from publication, you can add the following to the frontmatter. If you set <code>publishByDefault: false</code> for a hierarchy, this needs to be set to <code>true</code> to publish</p>
+<pre class="language-yml"><code class="language-yml"><span class="token punctuation">...</span>
+<span class="token key atrule">published</span><span class="token punctuation">:</span> <span class="token boolean important">false</span>
+</code></pre>
+<h3 id="nav_exclude"><a aria-hidden="true" class="anchor-heading" href="#nav_exclude"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>nav_exclude</h3>
+<p>If set, do not include the current note in the navigation bar. </p>
+<h3 id="nav_order"><a aria-hidden="true" class="anchor-heading" href="#nav_order"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>nav_order</h3>
+<ul>
+<li>type: number</li>
+</ul>
+<p>If set, denote order that item appears in the published nav bar</p>
+<blockquote>
+<p>NOTE: <code>root</code> has <code>nav_order: 1</code> so the <code>nav_order</code> of your denoted items must be superior to 1</p>
+</blockquote>
+<h3 id="noindex"><a aria-hidden="true" class="anchor-heading" href="#noindex"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>noindex</h3>
+<ul>
+<li>default: false</li>
+</ul>
+<p>To tell google to not index a page, you can add the following tag to the frontmatter. You can also have this as a default for a given hierarchy by setting <code>noIndexByDefault: true</code> in the site config.</p>
+<pre class="language-yml"><code class="language-yml"><span class="token punctuation">...</span>
+<span class="token key atrule">noindex</span><span class="token punctuation">:</span> <span class="token boolean important">true</span>
+</code></pre>
+<h3 id="gitnolink"><a aria-hidden="true" class="anchor-heading" href="#gitnolink"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>gitNoLink</h3>
+<p>Disable git linking for this page</p>
+<h3 id="gitnotepath"><a aria-hidden="true" class="anchor-heading" href="#gitnotepath"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>gitNotePath</h3>
+<p>When set, override how we generate the URL for the <a href="https://wiki.dendron.so/notes/2fe96d3a-dcf9-409b-8a09-fdaa5a664433.html#edit-on-github">edit on github</a> link.</p>
+<p>There are a few special variables you can set:</p>
+<ul>
+<li><code>${noteHierarchy}</code>: this specifies the full hiearchy to the note in posix format
+<ul>
+<li>eg. <code>foo.bar</code> will translate to <code>foot/bar</code></li>
+</ul>
+</li>
+</ul>
+<h3 id="collection-options"><a aria-hidden="true" class="anchor-heading" href="#collection-options"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>collection options</h3>
+<h4 id="has_collection"><a aria-hidden="true" class="anchor-heading" href="#has_collection"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>has_collection</h4>
+<ul>
+<li>default: false</li>
+</ul>
+<p>Whether a given page is a collection. A collection doesn't have a table of contents and allows you to set collection specific options. </p>
+<blockquote>
+<p>NOTE: Setting this property <code>has_collection</code> in the frontmatter of parent note is sufficient.</p>
+</blockquote>
+<h4 id="date"><a aria-hidden="true" class="anchor-heading" href="#date"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>date</h4>
+<p>If set, used to designate a custom publication date. By default, use timestamp of <code>created</code> field. </p>
+<h4 id="skiplevels"><a aria-hidden="true" class="anchor-heading" href="#skiplevels"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>skipLevels</h4>
+<p>If set, determines how many levels of children to skip when making the collection. For example, you might have the following hierarchy. </p>
+<pre><code>- blog.md
+- blog.reading.md
+- blog.reading.journal.md
+- blog.reading.journal.2020.md
+- blog.reading.journal.2020.12.md
+- blog.reading.journal.2020.12.20.one.md
+- blog.reading.journal.2020.12.31.two.md
+</code></pre>
+<p>When you publish, you might only want to show the leaf nodes and skip the intermediary levels. In the above example, setting <code>skipLevels: 3</code> on <code>blog.reading.md</code> will result in the following hierarchy being published.</p>
+<pre><code>- blog.md
+- blog.reading.md
+- blog.reading.journal.2020.12.20.one.md
+- blog.reading.journal.2020.12.31.two.md
+</code></pre>
+<ul>
+<li>NOTE: when you set <code>skipLevels</code>, this also affects <a href="https://wiki.dendron.so/notes/3472226a-ff3c-432d-bf5d-10926f39f6c2.html#children-links">children links</a></li>
+</ul>
+<h4 id="sort_order"><a aria-hidden="true" class="anchor-heading" href="#sort_order"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>sort_order</h4>
+<ul>
+<li>default: <code>ascending</code></li>
+<li>values: <code>ascending|reverse</code></li>
+</ul>
+<p>Sort items in a collection page. Ascending by default. Specify <code>reverse</code> to sort in descending order.</p>
+<h3 id="seo-options"><a aria-hidden="true" class="anchor-heading" href="#seo-options"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>seo options</h3>
+<h4 id="image"><a aria-hidden="true" class="anchor-heading" href="#image"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>image</h4>
+<p>Sets image url for the page. Shows up in twitter card preview</p>
+<h4 id="excerpt"><a aria-hidden="true" class="anchor-heading" href="#excerpt"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>excerpt</h4>
+<p>Sets a custom <code>og:description</code> tag for the particular page</p>
+<h2 id="line-configuration"><a aria-hidden="true" class="anchor-heading" href="#line-configuration"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Line Configuration</h2>
+<p>You can control publication on a per line basis.</p>
+<h3 id="local_only_line"><a aria-hidden="true" class="anchor-heading" href="#local_only_line"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>LOCAL_ONLY_LINE</h3>
+<p>Sometimes, you just want to keep a few lines private while publishing the rest of your vault. You can do that with <code>Local only</code>. In order to mark a line as <code>Local Only</code>, add the following markdown comment at the end of the line: </p>
+<pre class="language-markdown"><code class="language-markdown">Hello World!  <span class="token comment">&#x3C;!-- Will be published --></span>
+
+This is a secret <span class="token comment">&#x3C;!--LOCAL_ONLY_LINE--></span> <span class="token comment">&#x3C;!-- won't be published --></span>
+</code></pre>
+<p><img src="https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/pod-local.gif"></p></div></div><p></p><p></p>
+<hr>
+<h2 id="backlinks"><a aria-hidden="true" class="anchor-heading" href="#backlinks"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Backlinks</h2>
+<ul>
+<li><a href="https://wiki.dendron.so/notes/c6fd6bc4-7f75-4cbb-8f34-f7b99bfe2d50.html">Concepts</a></li>
+<li><a class="color-tag" style="--tag-color: #1D32E6;" href="https://wiki.dendron.so/notes/zDqYUhNE10HXlmStfqwVD.html">An Example of a Blue Tag</a></li>
+<li><a class="color-tag" style="--tag-color: #FF0000;" href="https://wiki.dendron.so/notes/UNwXuILpBbI1imrH.html">Example</a></li>
+<li><a href="https://wiki.dendron.so/notes/a6c03f9b-8959-4d67-8394-4d204ab69bfe.html">Troubleshooting</a></li>
+<li><a href="https://wiki.dendron.so/notes/6aed338c-df05-420d-aa7b-59dfd2214349.html">Release Notes(version 0.4)</a></li>
+<li><a href="https://wiki.dendron.so/notes/8bc9b3f1-8508-4d3a-a2de-be9f12ef1821.html">Tags</a></li>
+<li><a href="https://wiki.dendron.so/notes/34893663-b1cc-4c4f-aea7-6f1728365b89.html">Import</a></li>
+</ul><span id="navId" data="ffec2853-c0e0-4165-a368-339db12c8e4b"></span>
+
+                
+      </section>
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+        <div class="thumbs feedback_trigger right-bottom"></div>
+
+        
+          <hr>
+          <footer>
+            
+            
+
+            
+              <div class="d-flex mt-2">
+              <p class="text-small text-grey-dk-000 mb-0 mr-2">
+                Page last modified: <span class="d-inline-block">8/4/2021</span>.
+              </p>
+            
+                
+                  <p class="text-small text-grey-dk-000 mb-0">
+                    <a href="https://github.com/dendronhq/dendron-site/edit/master/vault/dendron.topic.frontmatter.md" id="edit-this-page">Edit this page on GitHub</a>
+                  </p>
+                
+              </div>
+          </footer>
+        
+    </div>
+</div>
+
+
+  
+
+  <div class="search-overlay"></div>
+
+</div>
+
+</body>
+</html>

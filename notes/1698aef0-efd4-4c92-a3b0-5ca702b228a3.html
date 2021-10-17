@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+  
+  <title>Cook - Dendron</title>
+  
+
+  <link
+    rel="shortcut icon"
+    href="https://wiki.dendron.so/favicon.ico"
+    type="image/x-icon"
+  />
+  <link
+    rel="stylesheet"
+    href="https://wiki.dendron.so/assets/css/just-the-docs-default.css"
+  />
+  <script
+    type="text/javascript"
+    src="https://wiki.dendron.so/assets/js/just-the-docs.js"
+  ></script>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.22.0/themes/prism.min.css"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css"
+    integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X"
+    crossorigin="anonymous"
+  />
+  <script
+    type="text/javascript"
+    src="https://wiki.dendron.so/assets/js/vendor/lunr.min.js"
+  ></script>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+   
+   
+  
+<meta name="description" content="Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.">
+<meta name="author" content="dendronhq">
+
+<link rel="canonical" href="https://wiki.dendron.so/notes/1698aef0-efd4-4c92-a3b0-5ca702b228a3.html">
+
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://wiki.dendron.so/notes/1698aef0-efd4-4c92-a3b0-5ca702b228a3.html">
+<meta property="og:description" content="Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.">
+<meta property="og:image" content="https://wiki.dendron.so/logo.png">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@dendronhq">
+<meta name="twitter:url" content="https://wiki.dendron.so/notes/1698aef0-efd4-4c92-a3b0-5ca702b228a3.html">
+<meta name="twitter:description" content="Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.">
+<meta name="twitter:image" content="https://wiki.dendron.so/logo.png">
+
+
+  <meta property="og:title" content="Cook - Dendron" />
+  <meta name="twitter:title" content="Cook - Dendron" />
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-B0JN2HHCNY"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-B0JN2HHCNY');
+  </script>
+  
+</head>
+
+
+
+<body>
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+      <symbol id="svg-link" viewBox="0 0 24 24">
+        <title>Link</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-link">
+          <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+        </svg>
+      </symbol>
+      <symbol id="svg-search" viewBox="0 0 24 24">
+        <title>Search</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search">
+          <circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+      </symbol>
+      <symbol id="svg-menu" viewBox="0 0 24 24">
+        <title>Menu</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu">
+          <line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+      </symbol>
+      <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+        <title>Expand</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+          <polyline points="9 18 15 12 9 6"></polyline>
+        </svg>
+      </symbol>
+      <symbol id="svg-doc" viewBox="0 0 24 24">
+        <title>Document</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file">
+          <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path><polyline points="13 2 13 9 20 9"></polyline>
+        </svg>
+      </symbol>
+    </svg>
+
+    <div class="side-bar">
+      <div class="site-header">
+        <a href="https://wiki.dendron.so" class="site-title lh-tight">
+  <div class="site-logo"></div>
+
+ </a>
+        <a href="#" id="menu-button" class="site-button">
+          <svg viewBox="0 0 24 24" class="icon"><use xlink:href="#svg-menu"></use></svg>
+        </a>
+      </div>
+
+      <nav role="navigation" aria-label="Main" id="site-nav" class="site-nav">
+      </nav>
+      <footer class="site-footer">
+        🌱 with 💕 using <a href="https://www.dendron.so/"> Dendron 🌲 </a>
+      </footer>
+    </div>
+    <div class="main" id="top">
+        <div id="main-header" class="main-header">
+          
+            <div class="search">
+              <div class="search-input-wrap">
+                <input type="text" id="search-input" class="search-input" tabindex="0" placeholder="Search Dendron" aria-label="Search Dendron" autocomplete="off">
+                <label for="search-input" class="search-label"><svg viewBox="0 0 24 24" class="search-icon"><use xlink:href="#svg-search"></use></svg></label>
+              </div>
+              <div id="search-results" class="search-results"></div>
+            </div>
+          
+          
+    </div>
+    <div id="main-content-wrap" class="main-content-wrap">
+      
+        
+          <nav aria-label="Breadcrumb" class="breadcrumb-nav">
+            <ol class="breadcrumb-nav-list"><li class="breadcrumb-nav-list-item"><a href="https://wiki.dendron.so/notes/32cdd4aa-d9f6-4582-8d0c-07f64a00299b.html">Packages</a></li><li class="breadcrumb-nav-list-item"><a href="https://wiki.dendron.so/notes/7cdd9a74-8b8f-4564-906b-c963bed34273.html">Dendron Next Server</a></li><li class="breadcrumb-nav-list-item">Cook</li></ol>
+          </nav>
+        
+      
+      <div id="main-content" class="main-content" role="main">
+
+        
+        
+        <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+        <script>mermaid.initialize({startOnLoad:true});</script>
+        
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+        
+        
+
+        
+
+        
+
+        
+
+        <script>
+          $(function () {
+            $('[data-toggle="popover"]').popover({html: true})
+          })
+        </script>
+
+        
+
+<div id="main" role="main">
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Cook">
+    
+    <meta itemprop="datePublished" content="2021-05-18T22:25:46+00:00">
+    <meta itemprop="dateModified" content="2021-09-04T22:02:39+00:00">
+
+    <div class="page__inner-wrap">
+
+      
+
+      <section class="page__content" itemprop="text">
+
+        
+
+        <h1 id="cook"><a aria-hidden="true" class="anchor-heading" href="#cook"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Cook</h1>
+<h3 id="updating-the-theme"><a aria-hidden="true" class="anchor-heading" href="#updating-the-theme"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Updating the theme</h3>
+<ol>
+<li>Modify the theme values in <code>dendron-next-server/assets/themes/*</code></li>
+<li>Run <code>yarn gen:theme</code></li>
+<li>To preview you theme, start the server and navigate to <code>/vscode/sample</code> </li>
+</ol>
+<ul>
+<li>Instructions for updating the theme were originally obtained from <a href="https://dev.to/joserfelix/dynamic-theme-switching-in-ant-design-how-to-change-between-light-and-dark-themes-5b8p">this guide</a></li>
+</ul>
+<h3 id="integrating-a-view-with-the-plugin"><a aria-hidden="true" class="anchor-heading" href="#integrating-a-view-with-the-plugin"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Integrating a view with the plugin</h3>
+<ul>
+<li>see <a href="https://github.com/dendronhq/dendron/blob/master/packages/plugin-core/src/commands/ConfigureWithUI.ts#L22:L22">here</a> for integrating a command with the web ui</li>
+</ul>
+<h3 id="integrating-a-tree-view-with-the-plugin"><a aria-hidden="true" class="anchor-heading" href="#integrating-a-tree-view-with-the-plugin"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Integrating a tree view with the plugin</h3>
+<ul>
+<li>see <a href="https://github.com/dendronhq/dendron/blob/master/packages/plugin-core/src/views/DendronTreeViewV2.ts">here</a> for an example</li>
+</ul>
+<h3 id="adding-a-vscode-webview"><a aria-hidden="true" class="anchor-heading" href="#adding-a-vscode-webview"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Adding a VSCode Webview</h3>
+<ul>
+<li>webview naming should follow kebab case</li>
+</ul>
+<pre class="language-ts"><code class="language-ts"><span class="token comment">// good</span>
+tree<span class="token operator">-</span>view<span class="token punctuation">.</span><span class="token property-access">tsx</span>
+
+<span class="token comment">//bad</span>
+treeView<span class="token punctuation">.</span><span class="token property-access">tsx</span>
+</code></pre>
+<h3 id="send-a-message"><a aria-hidden="true" class="anchor-heading" href="#send-a-message"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Send a message</h3>
+<p>Passing messages to the webview</p>
+<pre class="language-js"><code class="language-js">msg <span class="token operator">=</span> <span class="token punctuation">{</span>
+    <span class="token string">"type"</span><span class="token operator">:</span> <span class="token string">"onDidChangeActiveTextEditor"</span><span class="token punctuation">,</span>
+    <span class="token string">"data"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+        <span class="token string">"note"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+            <span class="token string">"id"</span><span class="token operator">:</span> <span class="token string">"70486100-ab5e-434e-bbb7-af8543c66241"</span><span class="token punctuation">,</span>
+            <span class="token string">"title"</span><span class="token operator">:</span> <span class="token string">"One"</span><span class="token punctuation">,</span>
+            <span class="token string">"vault"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+                <span class="token string">"fsPath"</span><span class="token operator">:</span> <span class="token string">"vault"</span>
+            <span class="token punctuation">}</span><span class="token punctuation">,</span>
+            <span class="token string">"type"</span><span class="token operator">:</span> <span class="token string">"note"</span><span class="token punctuation">,</span>
+            <span class="token string">"desc"</span><span class="token operator">:</span> <span class="token string">""</span><span class="token punctuation">,</span>
+            <span class="token string">"links"</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+            <span class="token string">"fname"</span><span class="token operator">:</span> <span class="token string">"bond.one"</span><span class="token punctuation">,</span>
+            <span class="token string">"updated"</span><span class="token operator">:</span> <span class="token number">1621464283051</span><span class="token punctuation">,</span>
+            <span class="token string">"created"</span><span class="token operator">:</span> <span class="token number">1621464283051</span><span class="token punctuation">,</span>
+            <span class="token string">"parent"</span><span class="token operator">:</span> <span class="token string">"b458d57f-dd08-4d2e-bda1-cdb883f40bf3"</span><span class="token punctuation">,</span>
+            <span class="token string">"children"</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+            <span class="token string">"data"</span><span class="token operator">:</span> <span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">,</span>
+            <span class="token string">"custom"</span><span class="token operator">:</span> <span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">,</span>
+            <span class="token string">"body"</span><span class="token operator">:</span> <span class="token string">"\n"</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token string">"sync"</span><span class="token operator">:</span> <span class="token boolean">true</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token string">"source"</span><span class="token operator">:</span> <span class="token string">"vscode"</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+<span class="token dom variable">window</span><span class="token punctuation">.</span><span class="token method function property-access">postMessage</span><span class="token punctuation">(</span>msg<span class="token punctuation">,</span> <span class="token string">"*"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre>
+<h3 id="find-a-specific-view"><a aria-hidden="true" class="anchor-heading" href="#find-a-specific-view"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Find a specific view</h3>
+<ul>
+<li>see <a title="Private" style="color: brown" href="https://wiki.dendron.so/notes/hfyvYGJZQiUwQaaxQO27q.html" target="_blank">Overflow (Private)</a></li>
+</ul>
+<p>Look for the following html in the webview debugger.</p>
+<pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>div</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>webview-webviewview-dendron-tree-view<span class="token punctuation">"</span></span> <span class="token attr-name">data-keybinding-context</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>30<span class="token punctuation">"</span></span> <span class="token special-attr"><span class="token attr-name">style</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span><span class="token value css language-css"><span class="token property">visibility</span><span class="token punctuation">:</span> visible<span class="token punctuation">;</span> <span class="token property">position</span><span class="token punctuation">:</span> absolute<span class="token punctuation">;</span> <span class="token property">overflow</span><span class="token punctuation">:</span> hidden<span class="token punctuation">;</span> <span class="token property">top</span><span class="token punctuation">:</span> <span class="token number">405</span><span class="token unit">px</span><span class="token punctuation">;</span> <span class="token property">left</span><span class="token punctuation">:</span> <span class="token number">48</span><span class="token unit">px</span><span class="token punctuation">;</span> <span class="token property">width</span><span class="token punctuation">:</span> <span class="token number">305</span><span class="token unit">px</span><span class="token punctuation">;</span> <span class="token property">height</span><span class="token punctuation">:</span> <span class="token number">353</span><span class="token unit">px</span><span class="token punctuation">;</span></span><span class="token punctuation">"</span></span></span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>iframe</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>webview ready<span class="token punctuation">"</span></span> <span class="token attr-name">sandbox</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>allow-scripts allow-same-origin allow-forms allow-pointer-lock allow-downloads<span class="token punctuation">"</span></span> <span class="token attr-name">allow</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>clipboard-read; clipboard-write;<span class="token punctuation">"</span></span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>vscode-webview://webviewview-dendron-tree-view/index.html?id=webviewview-dendron-tree-view<span class="token entity named-entity" title="&#x26;">&#x26;amp;</span>extensionId=<span class="token entity named-entity" title="&#x26;">&#x26;amp;</span>purpose=undefined<span class="token entity named-entity" title="&#x26;">&#x26;amp;</span>serviceWorkerFetchIgnoreSubdomain=undefined<span class="token entity named-entity" title="&#x26;">&#x26;amp;</span>platform=electron<span class="token entity named-entity" title="&#x26;">&#x26;amp;</span>vscode-resource-origin=https%3A%2F%2Fwebviewview-dendron-tree-view.vscode-webview-test.com<span class="token punctuation">"</span></span> <span class="token special-attr"><span class="token attr-name">style</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span><span class="token value css language-css"><span class="token property">border</span><span class="token punctuation">:</span> none<span class="token punctuation">;</span> <span class="token property">width</span><span class="token punctuation">:</span> <span class="token number">100</span><span class="token unit">%</span><span class="token punctuation">;</span> <span class="token property">height</span><span class="token punctuation">:</span> <span class="token number">100</span><span class="token unit">%</span><span class="token punctuation">;</span></span><span class="token punctuation">"</span></span></span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>iframe</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>div</span><span class="token punctuation">></span></span>
+</code></pre>
+<h3 id="using-a-custom-workspace"><a aria-hidden="true" class="anchor-heading" href="#using-a-custom-workspace"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Using a custom workspace</h3>
+<ol>
+<li>Modify the <code>dendron.yml</code> of the workspace you want to use
+<pre class="language-yml"><code class="language-yml"><span class="token key atrule">dev</span><span class="token punctuation">:</span>
+  <span class="token comment"># use CLI based engine instead of creating a new one</span>
+  <span class="token key atrule">engineServerPort</span><span class="token punctuation">:</span> <span class="token number">3005</span>
+  <span class="token comment"># for UI components, proxy to next server instead of creating our own</span>
+  <span class="token key atrule">nextServerUrl</span><span class="token punctuation">:</span> http<span class="token punctuation">:</span>//localhost<span class="token punctuation">:</span><span class="token number">3000</span>
+</code></pre>
+</li>
+<li>Launch the workspace
+<pre class="language-sh"><code class="language-sh"># engine port
+PORT=3005
+# absolute path to your workspace root
+WORKSPACE={path/to/workspace}
+cd $WORKSPACE
+env LOG_LEVEL=info dendron launchEngineServer --init --port $PORT
+</code></pre>
+</li>
+<li>Connect to the workspace (replace WORKSPACE and PORT with your own values)
+<pre><code># for example, if you launched the engine at /user/adam/workspace, WORKSPACE should equal /user/adam/workspace
+http://localhost:3000/vscode/sample?ws=$WORKSPACE&#x26;port=$PORT
+</code></pre>
+</li>
+</ol>
+<h3 id="use-redux-dev-tools"><a aria-hidden="true" class="anchor-heading" href="#use-redux-dev-tools"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Use Redux Dev Tools</h3>
+<p>The developer tools inside VSCode is limited. If you want to use all the power of chrome when debugging, you'll want to visit the webview using chrome.</p>
+<p>See <a href="https://wiki.dendron.so/notes/6293d9dc-9bd3-4b01-8428-34d8256f0a32.html#^MgEdJdyD">instructions</a> for connecting to a workspace using the browser</p>
+<h3 id="passing-query-parameters"><a aria-hidden="true" class="anchor-heading" href="#passing-query-parameters"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Passing Query Parameters</h3>
+<ul>
+<li><a href="https://github.com/dendronhq/dendron/blob/master/packages/dendron-next-server/pages/vscode/note-preview.tsx">generating query params</a></li>
+<li><a href="https://github.com/dendronhq/dendron/blob/master/packages/dendron-next-server/pages/vscode/note-preview.tsx">Consuming query params in the view</a></li>
+</ul>
+<hr>
+<h2 id="backlinks"><a aria-hidden="true" class="anchor-heading" href="#backlinks"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Backlinks</h2>
+<ul>
+<li><a href="https://wiki.dendron.so/notes/htCPMU8cgPGFa8oYKMuvZ.html">Dev</a></li>
+</ul><span id="navId" data="1698aef0-efd4-4c92-a3b0-5ca702b228a3"></span>
+
+                
+      </section>
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+        <div class="thumbs feedback_trigger right-bottom"></div>
+
+        
+          <hr>
+          <footer>
+            
+            
+
+            
+              <div class="d-flex mt-2">
+              <p class="text-small text-grey-dk-000 mb-0 mr-2">
+                Page last modified: <span class="d-inline-block">9/4/2021</span>.
+              </p>
+            
+                
+                  <p class="text-small text-grey-dk-000 mb-0">
+                    <a href="https://github.com/dendronhq/dendron-site/edit/master/vault/pkg.dendron-next-server.cook.md" id="edit-this-page">Edit this page on GitHub</a>
+                  </p>
+                
+              </div>
+          </footer>
+        
+    </div>
+</div>
+
+
+  
+
+  <div class="search-overlay"></div>
+
+</div>
+
+</body>
+</html>

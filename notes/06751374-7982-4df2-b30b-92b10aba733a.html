@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+  
+  <title>Process - Dendron</title>
+  
+
+  <link
+    rel="shortcut icon"
+    href="https://wiki.dendron.so/favicon.ico"
+    type="image/x-icon"
+  />
+  <link
+    rel="stylesheet"
+    href="https://wiki.dendron.so/assets/css/just-the-docs-default.css"
+  />
+  <script
+    type="text/javascript"
+    src="https://wiki.dendron.so/assets/js/just-the-docs.js"
+  ></script>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.22.0/themes/prism.min.css"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css"
+    integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X"
+    crossorigin="anonymous"
+  />
+  <script
+    type="text/javascript"
+    src="https://wiki.dendron.so/assets/js/vendor/lunr.min.js"
+  ></script>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+   
+   
+  
+<meta name="description" content="Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.">
+<meta name="author" content="dendronhq">
+
+<link rel="canonical" href="https://wiki.dendron.so/notes/06751374-7982-4df2-b30b-92b10aba733a.html">
+
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://wiki.dendron.so/notes/06751374-7982-4df2-b30b-92b10aba733a.html">
+<meta property="og:description" content="Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.">
+<meta property="og:image" content="https://wiki.dendron.so/logo.png">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@dendronhq">
+<meta name="twitter:url" content="https://wiki.dendron.so/notes/06751374-7982-4df2-b30b-92b10aba733a.html">
+<meta name="twitter:description" content="Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.">
+<meta name="twitter:image" content="https://wiki.dendron.so/logo.png">
+
+
+  <meta property="og:title" content="Process - Dendron" />
+  <meta name="twitter:title" content="Process - Dendron" />
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-B0JN2HHCNY"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-B0JN2HHCNY');
+  </script>
+  
+</head>
+
+
+
+<body>
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+      <symbol id="svg-link" viewBox="0 0 24 24">
+        <title>Link</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-link">
+          <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+        </svg>
+      </symbol>
+      <symbol id="svg-search" viewBox="0 0 24 24">
+        <title>Search</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search">
+          <circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+      </symbol>
+      <symbol id="svg-menu" viewBox="0 0 24 24">
+        <title>Menu</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu">
+          <line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+      </symbol>
+      <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+        <title>Expand</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+          <polyline points="9 18 15 12 9 6"></polyline>
+        </svg>
+      </symbol>
+      <symbol id="svg-doc" viewBox="0 0 24 24">
+        <title>Document</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file">
+          <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path><polyline points="13 2 13 9 20 9"></polyline>
+        </svg>
+      </symbol>
+    </svg>
+
+    <div class="side-bar">
+      <div class="site-header">
+        <a href="https://wiki.dendron.so" class="site-title lh-tight">
+  <div class="site-logo"></div>
+
+ </a>
+        <a href="#" id="menu-button" class="site-button">
+          <svg viewBox="0 0 24 24" class="icon"><use xlink:href="#svg-menu"></use></svg>
+        </a>
+      </div>
+
+      <nav role="navigation" aria-label="Main" id="site-nav" class="site-nav">
+      </nav>
+      <footer class="site-footer">
+        🌱 with 💕 using <a href="https://www.dendron.so/"> Dendron 🌲 </a>
+      </footer>
+    </div>
+    <div class="main" id="top">
+        <div id="main-header" class="main-header">
+          
+            <div class="search">
+              <div class="search-input-wrap">
+                <input type="text" id="search-input" class="search-input" tabindex="0" placeholder="Search Dendron" aria-label="Search Dendron" autocomplete="off">
+                <label for="search-input" class="search-label"><svg viewBox="0 0 24 24" class="search-icon"><use xlink:href="#svg-search"></use></svg></label>
+              </div>
+              <div id="search-results" class="search-results"></div>
+            </div>
+          
+          
+    </div>
+    <div id="main-content-wrap" class="main-content-wrap">
+      
+        
+          <nav aria-label="Breadcrumb" class="breadcrumb-nav">
+            <ol class="breadcrumb-nav-list"><li class="breadcrumb-nav-list-item"><a href="https://wiki.dendron.so">Dendron</a></li><li class="breadcrumb-nav-list-item"><a href="https://wiki.dendron.so/notes/3489b652-cd0e-4ac8-a734-08094dc043eb.html">Development</a></li><li class="breadcrumb-nav-list-item"><a href="https://wiki.dendron.so/notes/1e6c8b49-ef88-4e79-b2df-e9d614c38a53.html">Triage</a></li><li class="breadcrumb-nav-list-item">Process</li></ol>
+          </nav>
+        
+      
+      <div id="main-content" class="main-content" role="main">
+
+        
+        
+        <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+        <script>mermaid.initialize({startOnLoad:true});</script>
+        
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+        
+        
+
+        
+
+        
+
+        
+
+        <script>
+          $(function () {
+            $('[data-toggle="popover"]').popover({html: true})
+          })
+        </script>
+
+        
+
+<div id="main" role="main">
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Process">
+    
+    <meta itemprop="datePublished" content="2021-04-27T11:55:09+00:00">
+    <meta itemprop="dateModified" content="2021-08-12T01:12:24+00:00">
+
+    <div class="page__inner-wrap">
+
+      
+
+      <section class="page__content" itemprop="text">
+
+        
+
+        <h1 id="process"><a aria-hidden="true" class="anchor-heading" href="#process"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Process</h1>
+<p>Triaging an issue is collaboratively performed by the issue bot, the Dendron maintainers and the larger Dendron community. Triaging an issue usually takes around one business day but may take longer, for example, when there's a large incoming rate or the area owners are not available. The goal of triaging is to provide you with a clear understanding of what will happen to your issue. For example, after your feature request was triaged you know whether we plan to tackle the issue or whether we'll wait to hear what the broader community thinks about this request.</p>
+<p>From your perspective it's straightforward to understand whether or not your issue is triaged:</p>
+<ol>
+<li>If the issue is labeled <code>status.triage-needed</code> (<a href="https://github.com/dendronhq/dendron/labels/status.triage-needed">query</a>) it still needs to be triaged.</li>
+<li>If not, the issue is considered triaged.</li>
+</ol>
+<p>If you feel like there's ambiguity on a particular issue in our backlog, please mark it with status.triage-needed and leave a comment with details to help the maintainers out.</p>
+<h2 id="our-triaging-flow"><a aria-hidden="true" class="anchor-heading" href="#our-triaging-flow"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Our Triaging Flow</h2>
+<p>An issue has three major states. They are easily identifiable:</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>State</th><th>What your GitHub issue looks like</th></tr></thead><tbody><tr><td>Closed</td><td>matches the query <code>is:closed</code></td></tr><tr><td>Pending Community Input</td><td>Has a <code>status.help-wanted</code> or <code>status.info-needed</code> label</td></tr><tr><td>Accepted</td><td>Has a milestone assigned (that's not <code>Backlog</code>)</td></tr></tbody></table>
+<h2 id="closing-issues"><a aria-hidden="true" class="anchor-heading" href="#closing-issues"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Closing Issues</h2>
+<p>We close issues for the following reasons:</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Reason</th><th>Label</th></tr></thead><tbody><tr><td>The issue is obsolete or already fixed.</td><td></td></tr><tr><td>We didn't get the information we need within 7 days.</td><td><code>status.info-needed</code></td></tr><tr><td>It's a duplicate of another issue.</td><td><code>status.duplicate</code></td></tr><tr><td>What is described is the designed behavior.</td><td><code>status.by-design</code></td></tr><tr><td>The issue is tracked in a repository we rely on.</td><td><code>status.upstream</code></td></tr></tbody></table>
+<p>We close issues by assigning a label, adding a comment and closing the issue.</p>
+<h2 id="requesting-information"><a aria-hidden="true" class="anchor-heading" href="#requesting-information"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Requesting Information</h2>
+<p>If an issue misses information that we need to understand the issue, we assign the <code>status.info-needed</code> label.</p>
+<p><a href="https://github.com/dendronhq/dendron/blob/master/.github/no-response.yml">This bot</a> is monitoring all issues labeled <code>status.info-needed</code>. If we don't receive the needed information within 7 days the bot closes the issue.</p>
+<h2 id="categorizing-issues"><a aria-hidden="true" class="anchor-heading" href="#categorizing-issues"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Categorizing Issues</h2>
+<p>Each issue must have a <strong>type</strong> label.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td><a href="https://github.com/dendronhq/dendron/labels/type.bug"><code>bug</code></a></td><td>the implementation of a feature is not correct</td></tr><tr><td><a href="https://github.com/dendronhq/dendron/labels/type.enhancement"><code>enhancement</code></a></td><td>Extension to a previously shipped feature. Minor functionality update.</td></tr><tr><td><a href="https://github.com/dendronhq/dendron/labels/type.feature"><code>feature</code></a></td><td>New functionality</td></tr><tr><td><a href="https://github.com/dendronhq/dendron/labels/type.epic"><code>epic</code></a></td><td>Umbrella issues representing significant customer impact</td></tr><tr><td></td><td></td></tr></tbody></table>
+<h2 id="assigning-feature-areas"><a aria-hidden="true" class="anchor-heading" href="#assigning-feature-areas"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Assigning Feature Areas</h2>
+<p>Each issue will also have an <strong>area</strong> label, each representing a stage in the customer journey. This is also loosely how we choose to work on backlog issues.</p>
+<ul>
+<li>area.onboard</li>
+<li>area.create</li>
+<li>area.retrieve</li>
+<li>area.structure</li>
+<li>area.publish</li>
+</ul>
+<h2 id="assigning-a-milestone"><a aria-hidden="true" class="anchor-heading" href="#assigning-a-milestone"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Assigning a Milestone</h2>
+<p>In addition to <a href="https://github.com/dendronhq/dendron/milestones">milestones</a> representing our weekly iterations and releases such as <strong><code>v42</code></strong> (representing the release of Dendron version 0.42.0 ), we have two milestones with special meaning:</p>
+<ul>
+<li>Issues assigned to <strong><code>Backlog</code></strong>: Our team is in favor of implementing the feature request/fix the issue. The issue is not yet assigned to a concrete iteration. If and when a Backlog item is scheduled for a concrete iteration depends on how well the issue aligns with our <strong><a href="https://wiki.dendron.so/notes/6e4c4f61-80a3-46fa-9ad3-04b99d9e9695.html">roadmap</a></strong>. We review and update our roadmap at least every quarter. The Backlog helps us shaping our Roadmap but it is not the only source of input. Therefore, some Backlog items will be closed once it becomes clear that they do not align with our Roadmap.</li>
+<li>Issues assigned to <strong><code>Up Next</code></strong>: Our team wants to implement the feature/fix the issue. The issue is on the short list to be assigned to a concrete iteration. Note: <strong><code>Up Next</code></strong> is used sparsely. More commonly, issues go from <strong><code>Backlog</code></strong> or Triage directly to concrete iterations.</li>
+</ul>
+<h2 id="asking-for-help"><a aria-hidden="true" class="anchor-heading" href="#asking-for-help"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Asking for Help</h2>
+<p>We label <strong><code>Backlog</code></strong>issues, particularly feature requests, that we encourage the community to take up with <code>status.help-wanted</code>. If issues are suitable for beginners we may add the <code>size.small</code> label and add code pointers that help beginners to get started with a PR.</p>
+<p>Please note, we will primarily accept PRs for issues that are accepted, i.e. have a milestone assigned (including <code>Backlog</code>).</p>
+<h2 id="type-specific-characteristics--triaging"><a aria-hidden="true" class="anchor-heading" href="#type-specific-characteristics--triaging"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Type-specific Characteristics / Triaging</h2>
+<h3 id="managing-feature-requests"><a aria-hidden="true" class="anchor-heading" href="#managing-feature-requests"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Managing Feature Requests</h3>
+<p>Feature requests like all issues are a means of communication between all of us as members of the Dendron community. Thus, in principle, we could keep all feature requests open no matter what will happen to the feature they describe. Unfortunately, this makes it hard to understand what has a realistic chance to ever make it into the repository. We therefore close feature requests we cannot address while we assign feature requests we don't plan to address in the near-future to the <strong><code>Backlog</code></strong> milestone.</p>
+<p>If you are the author of a feature request you might not like that we close or don't plan to address your request asap. But, be assured, we love all of your input. Please don't take personal offense when we close or assign the <strong><code>Backlog</code>/<code>status.help-wanted</code></strong> milestone to your issue :peace_symbol:. If you feel your feature request deserves to stay open, improve your use case and ping us or gather more up-votes (our community <a href="https://discord.gg/xrKTUStHNZ">in Discord</a> is a good source of our prioritization).</p>
+<h3 id="up-voting-a-feature-request"><a aria-hidden="true" class="anchor-heading" href="#up-voting-a-feature-request"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Up-voting a Feature Request</h3>
+<p>When we refer to "up-voting" a feature request, we specifically mean adding a GitHub <code>+1</code>/"👍" reaction to the issue description. In the GitHub UI this looks like so:
+<img width="867" alt="GitHub UI for a issue with a +1 reaction" src="https://user-images.githubusercontent.com/8586769/87996982-b0568c80-caa8-11ea-87b8-a01371e6e338.png"></p>
+<h2 id="community-request-on-planning-crop-for-short"><a aria-hidden="true" class="anchor-heading" href="#community-request-on-planning-crop-for-short"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Community Request On Planning (CROP for short)</h2>
+<p></p><p></p><div class="portal-container">
+<div class="portal-head">
+<div class="portal-backlink">
+<div class="portal-title">From <span class="portal-text-title">Crop</span></div>
+<a href="https://wiki.dendron.so/notes/tayowNP4tMvcqH7AraoQ4.html" class="portal-arrow">Go to text <span class="right-arrow">→</span></a>
+</div>
+</div>
+<div id="portal-parent-anchor" class="portal-parent" markdown="1">
+<div class="portal-parent-fader-top"></div>
+<div class="portal-parent-fader-bottom"></div><p>Every week, we post three issues in the <a href="https://discordapp.com/channels/717965437182410783/739186036495876126"></a><a title="Private" style="color: brown" href="https://wiki.dendron.so/notes/hfyvYGJZQiUwQaaxQO27q.html" target="_blank">#feedback (Private)</a> channel. These are a combination of issues that are:</p>
+<ol>
+<li>Requested by the community (with >5 upvotes)</li>
+<li>New issues that people have recently expressed interest in.</li>
+<li>Feasible to do (or make substantial progress) within a week</li>
+</ol>
+<p>We take a quick poll over the weekend (opens Friday and closes on Monday) and we commit to delivering or making substantial progress on the issue by the next release (next Monday). If you're particularly interested in an issue being included as part of next week's CROP, that's good feedback too and we'll do our best to honor your requests. Don't worry if an issue doesn't make it, we have a weekly rotation of issues so it's bound to come back in soon.</p>
+</div></div><p></p><p></p>
+<h2 id="lookup"><a aria-hidden="true" class="anchor-heading" href="#lookup"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a><a href="https://handbook.dendron.so/notes/b89ba854-72fb-4ebc-a8a0-55960b89e9dc.html#lookup">Lookup</a></h2>
+<p>This section is both inspired by and borrows heavily from the following project:</p>
+<ul>
+<li><a href="https://github.com/microsoft/vscode/wiki/Issues-Triaging">vscode triage process</a></li>
+</ul><span id="navId" data="06751374-7982-4df2-b30b-92b10aba733a"></span>
+
+                
+      </section>
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+        <div class="thumbs feedback_trigger right-bottom"></div>
+
+        
+          <hr>
+          <footer>
+            
+            
+
+            
+              <div class="d-flex mt-2">
+              <p class="text-small text-grey-dk-000 mb-0 mr-2">
+                Page last modified: <span class="d-inline-block">8/12/2021</span>.
+              </p>
+            
+                
+                  <p class="text-small text-grey-dk-000 mb-0">
+                    <a href="https://github.com/dendronhq/dendron-site/edit/master/vault/dendron.dev.triage.process.md" id="edit-this-page">Edit this page on GitHub</a>
+                  </p>
+                
+              </div>
+          </footer>
+        
+    </div>
+</div>
+
+
+  
+
+  <div class="search-overlay"></div>
+
+</div>
+
+</body>
+</html>

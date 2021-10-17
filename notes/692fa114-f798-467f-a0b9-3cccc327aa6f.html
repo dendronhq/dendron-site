@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+  
+  <title>Tips - Dendron</title>
+  
+
+  <link
+    rel="shortcut icon"
+    href="https://wiki.dendron.so/favicon.ico"
+    type="image/x-icon"
+  />
+  <link
+    rel="stylesheet"
+    href="https://wiki.dendron.so/assets/css/just-the-docs-default.css"
+  />
+  <script
+    type="text/javascript"
+    src="https://wiki.dendron.so/assets/js/just-the-docs.js"
+  ></script>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.22.0/themes/prism.min.css"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css"
+    integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X"
+    crossorigin="anonymous"
+  />
+  <script
+    type="text/javascript"
+    src="https://wiki.dendron.so/assets/js/vendor/lunr.min.js"
+  ></script>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+   
+   
+  
+<meta name="description" content="Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.">
+<meta name="author" content="dendronhq">
+
+<link rel="canonical" href="https://wiki.dendron.so/notes/692fa114-f798-467f-a0b9-3cccc327aa6f.html">
+
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://wiki.dendron.so/notes/692fa114-f798-467f-a0b9-3cccc327aa6f.html">
+<meta property="og:description" content="Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.">
+<meta property="og:image" content="https://wiki.dendron.so/logo.png">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@dendronhq">
+<meta name="twitter:url" content="https://wiki.dendron.so/notes/692fa114-f798-467f-a0b9-3cccc327aa6f.html">
+<meta name="twitter:description" content="Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.">
+<meta name="twitter:image" content="https://wiki.dendron.so/logo.png">
+
+
+  <meta property="og:title" content="Tips - Dendron" />
+  <meta name="twitter:title" content="Tips - Dendron" />
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-B0JN2HHCNY"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-B0JN2HHCNY');
+  </script>
+  
+</head>
+
+
+
+<body>
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+      <symbol id="svg-link" viewBox="0 0 24 24">
+        <title>Link</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-link">
+          <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+        </svg>
+      </symbol>
+      <symbol id="svg-search" viewBox="0 0 24 24">
+        <title>Search</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search">
+          <circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+      </symbol>
+      <symbol id="svg-menu" viewBox="0 0 24 24">
+        <title>Menu</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu">
+          <line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+      </symbol>
+      <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+        <title>Expand</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+          <polyline points="9 18 15 12 9 6"></polyline>
+        </svg>
+      </symbol>
+      <symbol id="svg-doc" viewBox="0 0 24 24">
+        <title>Document</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file">
+          <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path><polyline points="13 2 13 9 20 9"></polyline>
+        </svg>
+      </symbol>
+    </svg>
+
+    <div class="side-bar">
+      <div class="site-header">
+        <a href="https://wiki.dendron.so" class="site-title lh-tight">
+  <div class="site-logo"></div>
+
+ </a>
+        <a href="#" id="menu-button" class="site-button">
+          <svg viewBox="0 0 24 24" class="icon"><use xlink:href="#svg-menu"></use></svg>
+        </a>
+      </div>
+
+      <nav role="navigation" aria-label="Main" id="site-nav" class="site-nav">
+      </nav>
+      <footer class="site-footer">
+        🌱 with 💕 using <a href="https://www.dendron.so/"> Dendron 🌲 </a>
+      </footer>
+    </div>
+    <div class="main" id="top">
+        <div id="main-header" class="main-header">
+          
+            <div class="search">
+              <div class="search-input-wrap">
+                <input type="text" id="search-input" class="search-input" tabindex="0" placeholder="Search Dendron" aria-label="Search Dendron" autocomplete="off">
+                <label for="search-input" class="search-label"><svg viewBox="0 0 24 24" class="search-icon"><use xlink:href="#svg-search"></use></svg></label>
+              </div>
+              <div id="search-results" class="search-results"></div>
+            </div>
+          
+          
+    </div>
+    <div id="main-content-wrap" class="main-content-wrap">
+      
+        
+          <nav aria-label="Breadcrumb" class="breadcrumb-nav">
+            <ol class="breadcrumb-nav-list"><li class="breadcrumb-nav-list-item"><a href="https://wiki.dendron.so">Dendron</a></li><li class="breadcrumb-nav-list-item"><a href="https://wiki.dendron.so/notes/02c2d7b6-2ea2-4e15-9894-9dead50d5ca2.html">Guides</a></li><li class="breadcrumb-nav-list-item">Tips</li></ol>
+          </nav>
+        
+      
+      <div id="main-content" class="main-content" role="main">
+
+        
+        
+        <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+        <script>mermaid.initialize({startOnLoad:true});</script>
+        
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+        
+        
+
+        
+
+        
+
+        
+
+        <script>
+          $(function () {
+            $('[data-toggle="popover"]').popover({html: true})
+          })
+        </script>
+
+        
+
+<div id="main" role="main">
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Tips">
+    
+    <meta itemprop="datePublished" content="2020-07-24T18:10:04+00:00">
+    <meta itemprop="dateModified" content="2021-09-07T15:13:00+00:00">
+
+    <div class="page__inner-wrap">
+
+      
+
+      <section class="page__content" itemprop="text">
+
+        
+
+        <h1 id="tips"><a aria-hidden="true" class="anchor-heading" href="#tips"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Tips</h1>
+<h2 id="bucket"><a aria-hidden="true" class="anchor-heading" href="#bucket"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Bucket</h2>
+<h3 id="peeking"><a aria-hidden="true" class="anchor-heading" href="#peeking"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Peeking</h3>
+<p>It is possible to <a href="https://code.visualstudio.com/docs/editor/editingevolved#_peek">peek</a> at wiki-links in Dendron. This lets you see content without actually navigating to the page.</p>
+<a href="https://www.loom.com/share/2289613674ac4a4183ed5db8630120dc">
+<img style="" src="https://cdn.loom.com/sessions/thumbnails/2289613674ac4a4183ed5db8630120dc-with-play.gif"> 
+</a>
+<h3 id="moving-lines"><a aria-hidden="true" class="anchor-heading" href="#moving-lines"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Moving Lines</h3>
+<p>When working with lines, you can move entire lines at a time using <code>option-up|down</code> shortcut on mac. This is really helpful for prioritizing todos among other things ✅</p>
+<p><img src="https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/tips-move-lines.gif"></p>
+<h3 id="search-editor"><a aria-hidden="true" class="anchor-heading" href="#search-editor"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Search Editor</h3>
+<ul>
+<li><a href="https://code.visualstudio.com/updates/v1_43#_search-editors">docs</a></li>
+</ul>
+<p>Also known as the coolest feature in vscode that most people have never heard of. This lets you view and save your search results in a full blown text editor. You can combine it with Dendron's hierarchies to do some amazing things, like aggregating all your todos and scoping your search to a specific hierarchy. </p>
+<p><img src="https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/tips.search-editor.gif"></p>
+<p>You can open search editor via keyboard shortcut. I use it to start a search with the current filename. works really well with Dendron hierarchies.</p>
+<pre class="language-json"><code class="language-json">  <span class="token punctuation">{</span>
+    <span class="token property">"key"</span><span class="token operator">:</span> <span class="token string">"ctrl+s f"</span><span class="token punctuation">,</span>
+    <span class="token property">"command"</span><span class="token operator">:</span> <span class="token string">"search.action.openNewEditor"</span><span class="token punctuation">,</span>
+    <span class="token property">"args"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+      <span class="token property">"query"</span><span class="token operator">:</span> <span class="token string">""</span><span class="token punctuation">,</span>
+      <span class="token property">"triggerSearch"</span><span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+      <span class="token property">"focusResults"</span><span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+      <span class="token property">"includes"</span><span class="token operator">:</span> <span class="token string">"${fileBasenameNoExtension}"</span><span class="token punctuation">,</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span>
+</code></pre>
+<h3 id="stylized-tags-using-custom-css"><a aria-hidden="true" class="anchor-heading" href="#stylized-tags-using-custom-css"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Stylized Tags Using Custom CSS</h3>
+<p>To customize the look and feel of your tags, you can do so by using the following convention and <a href="https://www.dendron.so/notes/683740e3-70ce-4a47-a1f4-1f140e80b558.html#can-i-customize-the-markdown-preview-css">CSS edits</a>.</p>
+<p>Let's say you have a <code>books</code> hierarchy and you have a <code>books.high-growth-handbook</code> note. You have all the tags you use for books under a <code>books.tags.</code> namespace.</p>
+<p>If you use links for tags: <code>[[#business|books.tags.business]]</code>, you can use this CSS to customize their look:</p>
+<pre class="language-css"><code class="language-css"><span class="token comment">/* General tag styling */</span>
+<span class="token selector">a<span class="token attribute"><span class="token punctuation">[</span><span class="token attr-name">href</span><span class="token operator">*=</span><span class="token attr-value">"tag."</span><span class="token punctuation">]</span></span></span> <span class="token punctuation">{</span>
+    <span class="token property">color</span><span class="token punctuation">:</span> <span class="token hexcode color">#000</span><span class="token punctuation">;</span>
+    <span class="token property">background</span><span class="token punctuation">:</span> <span class="token hexcode color">#fff</span><span class="token punctuation">;</span>
+    <span class="token property">display</span><span class="token punctuation">:</span> inline-block<span class="token punctuation">;</span>
+    <span class="token property">padding</span><span class="token punctuation">:</span> <span class="token number">0</span> <span class="token number">10</span><span class="token unit">px</span><span class="token punctuation">;</span>
+    <span class="token property">border-radius</span><span class="token punctuation">:</span> <span class="token number">4</span><span class="token unit">px</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token comment">/* Customizing the look of specific tags */</span>
+<span class="token selector">a<span class="token attribute"><span class="token punctuation">[</span><span class="token attr-name">href</span><span class="token operator">*=</span><span class="token attr-value">".tags.business"</span><span class="token punctuation">]</span></span></span> <span class="token punctuation">{</span>
+    <span class="token property">color</span><span class="token punctuation">:</span> <span class="token hexcode color">#fff</span><span class="token punctuation">;</span>
+    <span class="token property">background</span><span class="token punctuation">:</span> <span class="token color"><span class="token function">rgb</span><span class="token punctuation">(</span><span class="token number">36</span><span class="token punctuation">,</span> <span class="token number">89</span><span class="token punctuation">,</span> <span class="token number">233</span><span class="token punctuation">)</span></span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre>
+<p>The result looks like this:
+<img src="https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/tips.tags.png"></p>
+<h3 id="collapsing-headers-and-bullets"><a aria-hidden="true" class="anchor-heading" href="#collapsing-headers-and-bullets"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Collapsing Headers and Bullets</h3>
+<p>You can collapse headers at different levels and bullets at different indentation levels inside VSCode. </p>
+<p><img src="https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/tips.toggle-bullets.gif"></p>
+<h3 id="create-a-new-note-in-a-deeply-nested-hierarchy"><a aria-hidden="true" class="anchor-heading" href="#create-a-new-note-in-a-deeply-nested-hierarchy"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Create a new note in a deeply nested hierarchy</h3>
+<ul>
+<li>
+<p><a href="https://discordapp.com/channels/717965437182410783/735365126227493004/758235198403117087">discord thread</a></p>
+</li>
+<li>
+<p>Problem: </p>
+<ul>
+<li>You are currently in <code>foo</code> and you want to create the note <code>foo.child1.child2.my-note</code>. You don't want to type out the full path. Is there an easier way to create <code>my-note</code> than typing out the full path?</li>
+</ul>
+</li>
+<li>
+<p>Solution: </p>
+<ul>
+<li>VSCode doesn't support autocomplete inside the quick input widget which Dendron uses for lookups. We are experimenting with different ways of getting around this. </li>
+<li>Today, the workaround is to create a wiki-link inside another note and navigate via link to create it. </li>
+<li>Another method, if you know you will be creating multiple children under a single deeply nested parent, is to pin the parent and create the child from the parent </li>
+</ul>
+</li>
+</ul>
+<a href="https://www.loom.com/share/f0bbfc9cae0a474a99f8a1169b7b96c7">
+<img style="" src="https://cdn.loom.com/sessions/thumbnails/f0bbfc9cae0a474a99f8a1169b7b96c7-with-play.gif"> </a>
+<h3 id="automate-git-tasks"><a aria-hidden="true" class="anchor-heading" href="#automate-git-tasks"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Automate Git Tasks</h3>
+<ul>
+<li><a href="https://discordapp.com/channels/717965437182410783/742532267058004098/759130627781558403">discord thread</a></li>
+<li>Problem:
+<ul>
+<li>You want an easier way to <code>git add &#x26;&#x26; git commit &#x26;&#x26; git push</code></li>
+</ul>
+</li>
+<li>Solution #1:
+<ul>
+<li>Use <a href="https://marketplace.visualstudio.com/items?itemName=ivangabriele.vscode-git-add-and-commit">git automator</a>.</li>
+</ul>
+</li>
+<li>Solution #2:
+<ul>
+<li>Add alias to your bashrc/zshrc along the lines of </li>
+</ul>
+<pre><code># WARNING: pushes straight to the main/master branch. Do not use on source code. 
+alias gitaddcommitpushmain='git add . &#x26;&#x26; git commit -m "update"; git fetch origin main &#x26;&#x26; git rebase origin/main; git push origin main'
+alias gitaddcommitpushmaster='git add . &#x26;&#x26; git commit -m "update"; git fetch origin master &#x26;&#x26; git rebase origin/master; git push origin master'
+</code></pre>
+</li>
+</ul>
+<h3 id="publish-to-github-pages-with-actions"><a aria-hidden="true" class="anchor-heading" href="#publish-to-github-pages-with-actions"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Publish to GitHub Pages with Actions</h3>
+<ul>
+<li><a href="https://discordapp.com/channels/717965437182410783/749641193322971238/759190468671438848">discord thread</a></li>
+</ul>
+<p>It's possible to publish your Dendron site to GitHub Pages without the shadow copy of your notes in the <code>docs</code> directory.</p>
+<p>You can create a GitHub Actions workflow to perform the export process using the Dendron CLI and push the result to your <code>pages</code> branch, triggering a Pages build.</p>
+<p>Note that this configuration won't retain any history on the <code>paths</code> branch. Paths below are relative to your workspace root.</p>
+<p>Ignore the shadow directories in <code>.gitignore</code>:</p>
+<pre><code>gitignore
+# Dendron
+/docs/assets/
+/docs/notes/
+/docs/_site/
+
+# npm
+/node_modules/
+</code></pre>
+<ol>
+<li>
+<p>Create a <code>package.json</code> to install the package:</p>
+<pre class="language-json"><code class="language-json"><span class="token punctuation">{</span>
+  <span class="token property">"scripts"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token property">"dendron"</span><span class="token operator">:</span> <span class="token string">"dendron-cli"</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token property">"repository"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token property">"type"</span><span class="token operator">:</span> <span class="token string">"git"</span><span class="token punctuation">,</span>
+    <span class="token property">"url"</span><span class="token operator">:</span> <span class="token string">"git+https://github.com/{{username}}/{{repo}}.git"</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token property">"license"</span><span class="token operator">:</span> <span class="token string">"Creative Commons Attribution 4.0 International"</span><span class="token punctuation">,</span>
+  <span class="token property">"devDependencies"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token property">"@dendronhq/dendron-cli"</span><span class="token operator">:</span> <span class="token string">"*"</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre>
+</li>
+<li>
+<p>Create the workflow </p>
+<pre><code>mkdir -p .github/workflows
+touch .github/workflows/dendron.yml
+</code></pre>
+<p>Add the following</p>
+<pre class="language-yaml"><code class="language-yaml"><span class="token key atrule">name</span><span class="token punctuation">:</span> Dendron
+
+<span class="token key atrule">on</span><span class="token punctuation">:</span>
+  <span class="token key atrule">push</span><span class="token punctuation">:</span>
+    <span class="token key atrule">branches</span><span class="token punctuation">:</span>
+    <span class="token punctuation">-</span> main
+
+<span class="token key atrule">jobs</span><span class="token punctuation">:</span>
+  <span class="token key atrule">build</span><span class="token punctuation">:</span>
+    <span class="token key atrule">runs-on</span><span class="token punctuation">:</span> ubuntu<span class="token punctuation">-</span>latest
+    <span class="token key atrule">steps</span><span class="token punctuation">:</span>
+    <span class="token punctuation">-</span> <span class="token key atrule">name</span><span class="token punctuation">:</span> Checkout source
+      <span class="token key atrule">uses</span><span class="token punctuation">:</span> actions/checkout@v2
+
+    <span class="token punctuation">-</span> <span class="token key atrule">name</span><span class="token punctuation">:</span> Install npm dependencies
+      <span class="token key atrule">run</span><span class="token punctuation">:</span> npm install
+
+    <span class="token punctuation">-</span> <span class="token key atrule">name</span><span class="token punctuation">:</span> Build pod
+      <span class="token key atrule">run</span><span class="token punctuation">:</span> npm run dendron<span class="token punctuation">-</span>cli <span class="token punctuation">-</span><span class="token punctuation">-</span> buildSite <span class="token punctuation">-</span><span class="token punctuation">-</span>wsRoot . <span class="token punctuation">-</span><span class="token punctuation">-</span>stage prod
+
+    <span class="token punctuation">-</span> <span class="token key atrule">name</span><span class="token punctuation">:</span> Deploy site
+      <span class="token key atrule">uses</span><span class="token punctuation">:</span> peaceiris/actions<span class="token punctuation">-</span>gh<span class="token punctuation">-</span>pages@v3
+      <span class="token key atrule">with</span><span class="token punctuation">:</span>
+        <span class="token key atrule">github_token</span><span class="token punctuation">:</span> $<span class="token punctuation">{</span><span class="token punctuation">{</span> secrets.GITHUB_TOKEN <span class="token punctuation">}</span><span class="token punctuation">}</span>
+        <span class="token key atrule">publish_branch</span><span class="token punctuation">:</span> pages
+        <span class="token key atrule">publish_dir</span><span class="token punctuation">:</span> docs/
+        <span class="token key atrule">force_orphan</span><span class="token punctuation">:</span> <span class="token boolean important">true</span>
+        <span class="token key atrule">enable_jekyll</span><span class="token punctuation">:</span> <span class="token boolean important">false</span>
+</code></pre>
+</li>
+<li>
+<p>Commit all your changes</p>
+<pre><code>git add .
+git commit -m "add dendron action"
+</code></pre>
+</li>
+<li>
+<p>Create the pages branch
+Configure your repository's Pages settings as follows:</p>
+<pre><code>git checkout -b pages
+git push -u origin HEAD
+</code></pre>
+</li>
+<li>
+<p>Update pages branch on github</p>
+</li>
+</ol>
+<ul>
+<li>go to the pages settings, eg. <code>https://github.com/dendronhq/seed.services/settings/pages</code>
+<ul>
+<li>choose the following</li>
+</ul>
+<pre><code>* _Branch_: `pages`
+* _Folder_: _/ (root)_
+</code></pre>
+</li>
+</ul>
+<p>Finally, commit these three files and push them to your <code>master</code> branch. Within a few seconds you should see the workflow run, your <code>pages</code> branch get updated and your Pages build start.</p>
+<h3 id="go-back-to-previous-note"><a aria-hidden="true" class="anchor-heading" href="#go-back-to-previous-note"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Go back to previous Note</h3>
+<p>Use "> Quick Open Previous Recently Used...` to navigate through recently opened notes</p>
+<ul>
+<li>default shortcut: <code>CTRL-TAB</code></li>
+</ul>
+<p><img src="https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/tips.tabs.most-recent.gif"></p>
+<h3 id="keep-track-of-tabs"><a aria-hidden="true" class="anchor-heading" href="#keep-track-of-tabs"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Keep Track of Tabs</h3>
+<p>It's really easy to lose sight of your tabs, especially with menu items occluding the little horizontal space you have for tabs. </p>
+<p><img src="https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/tips.tabs.nav.jpg"></p>
+<p>Instead of relying on the menu, you can use <code>Show All Editors</code> to see all tabs via a dropdown. You can also narrow down tabs after selection.</p>
+<p><img src="https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/tips.tabs.editors.gif"></p>
+<p>You can streamline this process by assigning a keyboard shortcut to the command. Below is an example.</p>
+<pre class="language-json"><code class="language-json"><span class="token punctuation">{</span>
+  <span class="token property">"key"</span><span class="token operator">:</span> <span class="token string">"ctrl+t"</span><span class="token punctuation">,</span>
+  <span class="token property">"command"</span><span class="token operator">:</span> <span class="token string">"workbench.action.showAllEditors"</span>
+<span class="token punctuation">}</span>
+</code></pre>
+<h3 id="copy-and-paste-web-content-into-dendron"><a aria-hidden="true" class="anchor-heading" href="#copy-and-paste-web-content-into-dendron"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Copy and Paste Web Content into Dendron</h3>
+<p>First copy it into Notion or use the notion web clipper to clip it. This will format it nicely in markdown. You can then paste it into Dendron with markdown and everything :)</p>
+<!-- 
+
+### Custom Outlines
+
+TODO: need to add more details
+
+Outlines are super helpful but there are not always feasible depending on the file format
+
+![](/assets/images/2020-09-21-19-33-21.png)
+
+In those situations, I like to leave markers inside a note and use the search editor to surface those markers 
+
+<a href="https://www.loom.com/share/eabf90dbc74e4a1facd5e82bd76a6134"> 
+<p>Tips - Breadcrumbs - Watch Video</p> 
+<img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/eabf90dbc74e4a1facd5e82bd76a6134-with-play.gif"> </a>
+
+https://www.loom.com/share/eabf90dbc74e4a1facd5e82bd76a6134
+
+You can use the same technique 
+
+# Generating all journal notes ahead of time
+
+https://stackoverflow.com/questions/25701265/how-to-generate-a-list-of-all-dates-in-a-range-using-the-tools-available-in-bash
+-->
+<h2 id="workbench"><a aria-hidden="true" class="anchor-heading" href="#workbench"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Workbench</h2>
+<h3 id="navigating-a-hierarchy"><a aria-hidden="true" class="anchor-heading" href="#navigating-a-hierarchy"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Navigating a hierarchy</h3>
+<p>One easy way of navigating hierarchies it to click on the file name. This will reveal a dropdown that shows you all siblings of the current note. </p>
+<p><img src="https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/guide.siblings.jpg"></p>
+<h3 id="remove-markdown-buttons-in-menu-bar"><a aria-hidden="true" class="anchor-heading" href="#remove-markdown-buttons-in-menu-bar"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Remove Markdown Buttons in Menu Bar</h3>
+<ul>
+<li><a href="https://discordapp.com/channels/717965437182410783/739186036495876126/758408534848831558">discord thread</a></li>
+</ul>
+<pre class="language-json"><code class="language-json"><span class="token property">"markdownShortcuts.icons.bold"</span><span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+<span class="token property">"markdownShortcuts.icons.italic"</span><span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+<span class="token property">"markdownShortcuts.icons.strikethrough"</span><span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+<span class="token property">"markdownShortcuts.icons.bullets"</span><span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+</code></pre>
+<h3 id="moving-panes"><a aria-hidden="true" class="anchor-heading" href="#moving-panes"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Moving Panes</h3>
+<p>You can move vscode tabs using the following builtin commands:</p>
+<ul>
+<li><code>View: Move Editor Into Next Group</code></li>
+<li><code>View: Move Editor Into Previous Group</code></li>
+</ul>
+<p>They are mapped on to the following keyboard shortcuts:</p>
+<ul>
+<li>mac: <code>cmd+ctrl+left|right</code></li>
+</ul>
+<p>This is helpful for looking at your notes side by side. </p>
+<a href="https://www.loom.com/share/d99ec9cce8ff4d869cf8c36955152808"> 
+<img style="" src="https://cdn.loom.com/sessions/thumbnails/d99ec9cce8ff4d869cf8c36955152808-with-play.gif"> </a>
+<h3 id="pinning-tabs"><a aria-hidden="true" class="anchor-heading" href="#pinning-tabs"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Pinning Tabs</h3>
+<p>You can pin tabs in VSCode by right clicking on a tab and selecting <code>Pin Tab</code>. </p>
+<p>The latest VSCode lets you control pin behavior for tabs. It's not currently documented as of 2020.09.28 but as of the latest insider build, it has a few different options to control the pinned behavior. </p>
+<ul>
+<li>options:
+<ul>
+<li>normal (default), normal tab size with a pin icon</li>
+<li>shrink: reduced tab size with some text visible</li>
+<li>compact: only icon visible</li>
+</ul>
+</li>
+</ul>
+<pre class="language-json"><code class="language-json"><span class="token property">"workbench.editor.pinnedTabSizing"</span><span class="token operator">:</span> <span class="token string">"shrink"</span>
+</code></pre>
+<h3 id="zen-mode"><a aria-hidden="true" class="anchor-heading" href="#zen-mode"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Zen Mode</h3>
+<p>VSCode can be visually noisy. You can hide most of the UI by toggling <code>Zen Mode</code> with a three panel layout. </p>
+<p><img src="https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/tips.zen.jpg"></p>
+<p>The following setting overrides are useful: </p>
+<pre class="language-json"><code class="language-json"><span class="token comment">// by default, zen mode will open a new "workspace" which I don't like</span>
+<span class="token property">"zenMode.fullScreen"</span><span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+<span class="token comment">// I'm a vim user so I like my line numbers</span>
+<span class="token property">"zenMode.hideLineNumbers"</span><span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+</code></pre>
+<p>To navigate tabs and look at the breadcrumb outline, You can use the following commands</p>
+<pre class="language-json"><code class="language-json">workbench.action.showAllEditors -> (no shortcut by default<span class="token punctuation">,</span> consider mapping to ctrl + t)
+breadcrumbs.focusAndSelect -> cmd + t
+</code></pre>
+<p>You can see a video of this workflow in the video below.</p>
+<a href="https://www.loom.com/share/dd27df6d556d4ba6b28b2028ca7d1455"> 
+<img style="" src="https://cdn.loom.com/sessions/thumbnails/dd27df6d556d4ba6b28b2028ca7d1455-with-play.gif"> </a>
+<h2 id="snippets"><a aria-hidden="true" class="anchor-heading" href="#snippets"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Snippets</h2>
+<h3 id="have-links-auto-complete-without-additional-key-presses"><a aria-hidden="true" class="anchor-heading" href="#have-links-auto-complete-without-additional-key-presses"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Have links auto-complete without additional key presses</h3>
+<ul>
+<li>Update your settings to the following</li>
+</ul>
+<pre class="language-json"><code class="language-json"><span class="token comment">// The following settings will only apply to markdown files:</span>
+  <span class="token property">"[markdown]"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token comment">// quickSuggestions true will provide suggestions as you type.</span>
+    <span class="token comment">// If you turn this on and DO NOT want suggestions</span>
+    <span class="token comment">// for non-wiki-link, non-tag words,</span>
+    <span class="token property">"editor.quickSuggestions"</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+    <span class="token comment">// This is poorly documented, but seems to offer suggestions</span>
+    <span class="token comment">// from any word in open document when turned on, which</span>
+    <span class="token comment">// can be a little distracting in markdown docs:</span>
+    <span class="token property">"editor.wordBasedSuggestions"</span><span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+    <span class="token property">"editor.tabSize"</span><span class="token operator">:</span> <span class="token number">2</span><span class="token punctuation">,</span>
+    <span class="token comment">// Set this to false if you turn on quickSuggestions</span>
+    <span class="token comment">// but don't want suggestions for markdown related snippets</span>
+    <span class="token comment">// as you type:</span>
+    <span class="token property">"editor.suggest.showSnippets"</span><span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+</code></pre>
+<h2 id="markdown"><a aria-hidden="true" class="anchor-heading" href="#markdown"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Markdown</h2>
+<h3 id="always-have-the-preview-open"><a aria-hidden="true" class="anchor-heading" href="#always-have-the-preview-open"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Always have the preview open</h3>
+<p>You can add the following setting to your workspace to always have a markdown editor show up with your content. </p>
+<pre class="language-json"><code class="language-json"><span class="token property">"markdown-preview-enhanced.automaticallyShowPreviewOfMarkdownBeingEdited"</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+</code></pre>
+<h3 id="symbol-search"><a aria-hidden="true" class="anchor-heading" href="#symbol-search"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Symbol search</h3>
+<p>When using the standard file-search in vscode (<code>ctrl-P</code>), you can search for all titles in your workspace if you use the starting keyword <code>#</code></p>
+<p>Example: if i know i had a header with the title "cheatsheet", i can type in <code># cheatsheet</code></p>
+<h3 id="auto-bullet-list"><a aria-hidden="true" class="anchor-heading" href="#auto-bullet-list"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Auto bullet list</h3>
+<p>VSCode doesn't support auto-formatting by default. You can use the following workaround to mimic the behavior.</p>
+<ul>
+<li>Add list-item below current position. Using <code>-</code></li>
+</ul>
+<pre class="language-json"><code class="language-json"><span class="token punctuation">{</span>
+        <span class="token property">"key"</span><span class="token operator">:</span> <span class="token string">"shift+enter"</span><span class="token punctuation">,</span>
+        <span class="token property">"command"</span><span class="token operator">:</span> <span class="token string">"type"</span><span class="token punctuation">,</span>
+        <span class="token property">"args"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+            <span class="token property">"text"</span><span class="token operator">:</span> <span class="token string">"\r\n- "</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token property">"when"</span><span class="token operator">:</span> <span class="token string">"editorTextFocus &#x26;&#x26; !editorReadOnly &#x26;&#x26; editorLangId == 'markdown'"</span>
+<span class="token punctuation">}</span>
+</code></pre>
+<ul>
+<li>Add list-item below current position. Using <code>*</code></li>
+</ul>
+<pre class="language-json"><code class="language-json"><span class="token punctuation">{</span>
+        <span class="token property">"key"</span><span class="token operator">:</span> <span class="token string">"shift+enter"</span><span class="token punctuation">,</span>
+        <span class="token property">"command"</span><span class="token operator">:</span> <span class="token string">"type"</span><span class="token punctuation">,</span>
+        <span class="token property">"args"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+            <span class="token property">"text"</span><span class="token operator">:</span> <span class="token string">"\r\n* "</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token property">"when"</span><span class="token operator">:</span> <span class="token string">"editorTextFocus &#x26;&#x26; !editorReadOnly &#x26;&#x26; editorLangId == 'markdown'"</span>
+<span class="token punctuation">}</span>
+</code></pre>
+<blockquote>
+<p>Credit for this recipe goes to <a title="Private" style="color: brown" href="https://wiki.dendron.so/notes/hfyvYGJZQiUwQaaxQO27q.html" target="_blank">@Stigs (Private)</a>#0135 </p>
+</blockquote>
+<h3 id="academic-notes-with-templates"><a aria-hidden="true" class="anchor-heading" href="#academic-notes-with-templates"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Academic Notes with Templates</h3>
+<p>With Dendron's <a href="https://wiki.dendron.so/notes/c5e5adde-5459-409b-b34d-a0d75cbb1052.html#template">schema templates</a> you can make templates that are applied automatically whenever you create reading notes. You can even make different templates for different types of sources. For instance, you can have one template for articles and another for books.</p>
+<ul>
+<li>Add an <code>article.schema.yml</code> schema file that applies an <code>article.template.notes.md</code> template file</li>
+<li>Add a <code>book.schema.yml</code> schema file that applies a <code>book.template.notes.md</code> template file</li>
+<li>Add other schema and template files with relevant patterns for conference presentations, TED talks, edited collections, etc.</li>
+</ul>
+<p>You can adopt or adapt these schema template files for <a href="https://github.com/ryan-p-randall/some-dendron-starter-files">books and articles</a>.</p>
+<p>Once you've made similar schema and template files, when you make a new file using the <a href="https://wiki.dendron.so/notes/0e57f8d1-e501-49db-974c-01eb64c20c22.html">lookup bar</a>, the template will be applied to your new note in the corresponding schema's domain. A new note with a name like <code>article.hall-stuart-encoding-decoding.notes</code> will apply the article template, and a new note with a name like <code>book.hooks-bell-feminism-is-for-everybody.notes</code> will apply the book template.</p>
+<h2 id="other-tools"><a aria-hidden="true" class="anchor-heading" href="#other-tools"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Other Tools</h2>
+<p>This is a list of other tools that work well with Dendron.</p>
+<ul>
+<li><a href="https://brettterpstra.com/projects/nvalt/">nvAlt</a>: local markdown editor that works well with Dendron notes (mac only)</li>
+</ul>
+<h2 id="other-vscode-extensions"><a aria-hidden="true" class="anchor-heading" href="#other-vscode-extensions"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Other VSCode Extensions</h2>
+<h3 id="git"><a aria-hidden="true" class="anchor-heading" href="#git"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Git</h3>
+<ul>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=ivangabriele.vscode-git-add-and-commit">Git Automator</a>: one command to commit and push all changes</li>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=vsls-contrib.gitdoc">Git Doc</a>: auto-commit and (optionally) auto push your notes at fixed intervals</li>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens">Gitlens</a>: Repository/File/Line history and annotations of all your files</li>
+<li><a href="https://github.com/ionutvmi/path-autocomplete">Path AutoComplete</a>: Path autocomplete for VSCode</li>
+</ul>
+<h3 id="coding"><a aria-hidden="true" class="anchor-heading" href="#coding"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Coding</h3>
+<ul>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner">Code Runner</a></li>
+</ul>
+<h3 id="other"><a aria-hidden="true" class="anchor-heading" href="#other"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Other</h3>
+<ul>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=geddski.macros">Macros</a>: Define custom macros </li>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=vscodevim.vim">Vim</a>: VIM key bindings 😍</li>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=alefragnani.Bookmarks">Bookmarks</a>: Bookmark lines within File <a href="https://marketplace.visualstudio.com/items?itemName=generik.vertical-limit">Vertical Limit</a>: Work with multiple cursors and blocks of text</li>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=ryanraposo.codeui">CodeUI</a>: Easier customization of every part of the VSCode UI</li>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=cyberbiont.vscode-open-in-typora&#x26;utm_source=VSCode.pro&#x26;utm_campaign=AhmadAwais">Open in Typora</a>: Open note in Typora</li>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=aaronpowell.vscode-profile-switcher">Profile Switcher</a>: Create different set of extension profiles</li>
+</ul>
+<h2 id="other-browser-extensions"><a aria-hidden="true" class="anchor-heading" href="#other-browser-extensions"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Other Browser Extensions</h2>
+<h3 id="web-clipper"><a aria-hidden="true" class="anchor-heading" href="#web-clipper"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Web Clipper</h3>
+<ul>
+<li><a href="https://chrome.google.com/webstore/detail/markdownload-markdown-web/pcmpcfapbekmbjjkdalcgopdkipoggdi?hl=en-GB">Markdown Web</a>: markdown based web clipper</li>
+<li><a href="https://chrome.google.com/webstore/detail/mcoimieglmhdjdoplhpcmifgplkbfibp">Roam Highlighter</a></li>
+</ul>
+<hr>
+<h2 id="backlinks"><a aria-hidden="true" class="anchor-heading" href="#backlinks"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Backlinks</h2>
+<ul>
+<li><a href="https://wiki.dendron.so/notes/683740e3-70ce-4a47-a1f4-1f140e80b558.html">FAQ</a></li>
+<li><a href="https://wiki.dendron.so/notes/KasnPHKjT8aD6RzU0BI3x.html">Release Notes (version 0.49)</a></li>
+<li><a href="https://wiki.dendron.so/notes/301e4129-6933-4be7-a4bd-8125171360d8.html">Extensions</a></li>
+<li><a href="https://wiki.dendron.so/notes/8de4209d-84d3-45f8-96a4-34282e34507d.html">Preview</a></li>
+<li><a href="https://wiki.dendron.so/notes/8bc9b3f1-8508-4d3a-a2de-be9f12ef1821.html">Tags</a></li>
+<li><a href="https://wiki.dendron.so/notes/e65dfe53-41f7-4b16-b870-dadec1775497.html">Bullet Journaling</a></li>
+<li><a href="https://wiki.dendron.so/notes/593206ea-5658-4874-bafd-18a138870f91.html">Todos</a></li>
+<li><a href="https://wiki.dendron.so/notes/ed4162aa-5474-4483-9fbc-c0b505310c59.html">0.1.X</a></li>
+<li><a href="https://wiki.dendron.so/notes/877f4347-f013-43ba-aec4-87412b2e1bec.html">Github</a></li>
+</ul><span id="navId" data="692fa114-f798-467f-a0b9-3cccc327aa6f"></span>
+
+                
+      </section>
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+        <div class="thumbs feedback_trigger right-bottom"></div>
+
+        
+          <hr>
+          <footer>
+            
+            
+
+            
+              <div class="d-flex mt-2">
+              <p class="text-small text-grey-dk-000 mb-0 mr-2">
+                Page last modified: <span class="d-inline-block">9/7/2021</span>.
+              </p>
+            
+                
+                  <p class="text-small text-grey-dk-000 mb-0">
+                    <a href="https://github.com/dendronhq/dendron-site/edit/master/vault/dendron.guides.tips.md" id="edit-this-page">Edit this page on GitHub</a>
+                  </p>
+                
+              </div>
+          </footer>
+        
+    </div>
+</div>
+
+
+  
+
+  <div class="search-overlay"></div>
+
+</div>
+
+</body>
+</html>

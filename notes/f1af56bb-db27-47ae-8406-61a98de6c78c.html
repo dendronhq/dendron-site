@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+  
+  <title>References - Dendron</title>
+  
+
+  <link
+    rel="shortcut icon"
+    href="https://wiki.dendron.so/favicon.ico"
+    type="image/x-icon"
+  />
+  <link
+    rel="stylesheet"
+    href="https://wiki.dendron.so/assets/css/just-the-docs-default.css"
+  />
+  <script
+    type="text/javascript"
+    src="https://wiki.dendron.so/assets/js/just-the-docs.js"
+  ></script>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.22.0/themes/prism.min.css"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css"
+    integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X"
+    crossorigin="anonymous"
+  />
+  <script
+    type="text/javascript"
+    src="https://wiki.dendron.so/assets/js/vendor/lunr.min.js"
+  ></script>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+   
+   
+  
+<meta name="description" content="Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.">
+<meta name="author" content="dendronhq">
+
+<link rel="canonical" href="https://wiki.dendron.so/notes/f1af56bb-db27-47ae-8406-61a98de6c78c.html">
+
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://wiki.dendron.so/notes/f1af56bb-db27-47ae-8406-61a98de6c78c.html">
+<meta property="og:description" content="Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.">
+<meta property="og:image" content="https://wiki.dendron.so/logo.png">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@dendronhq">
+<meta name="twitter:url" content="https://wiki.dendron.so/notes/f1af56bb-db27-47ae-8406-61a98de6c78c.html">
+<meta name="twitter:description" content="Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.">
+<meta name="twitter:image" content="https://wiki.dendron.so/logo.png">
+
+
+  <meta property="og:title" content="References - Dendron" />
+  <meta name="twitter:title" content="References - Dendron" />
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-B0JN2HHCNY"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-B0JN2HHCNY');
+  </script>
+  
+</head>
+
+
+
+<body>
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+      <symbol id="svg-link" viewBox="0 0 24 24">
+        <title>Link</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-link">
+          <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+        </svg>
+      </symbol>
+      <symbol id="svg-search" viewBox="0 0 24 24">
+        <title>Search</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search">
+          <circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+      </symbol>
+      <symbol id="svg-menu" viewBox="0 0 24 24">
+        <title>Menu</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu">
+          <line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+      </symbol>
+      <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+        <title>Expand</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+          <polyline points="9 18 15 12 9 6"></polyline>
+        </svg>
+      </symbol>
+      <symbol id="svg-doc" viewBox="0 0 24 24">
+        <title>Document</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file">
+          <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path><polyline points="13 2 13 9 20 9"></polyline>
+        </svg>
+      </symbol>
+    </svg>
+
+    <div class="side-bar">
+      <div class="site-header">
+        <a href="https://wiki.dendron.so" class="site-title lh-tight">
+  <div class="site-logo"></div>
+
+ </a>
+        <a href="#" id="menu-button" class="site-button">
+          <svg viewBox="0 0 24 24" class="icon"><use xlink:href="#svg-menu"></use></svg>
+        </a>
+      </div>
+
+      <nav role="navigation" aria-label="Main" id="site-nav" class="site-nav">
+      </nav>
+      <footer class="site-footer">
+        🌱 with 💕 using <a href="https://www.dendron.so/"> Dendron 🌲 </a>
+      </footer>
+    </div>
+    <div class="main" id="top">
+        <div id="main-header" class="main-header">
+          
+            <div class="search">
+              <div class="search-input-wrap">
+                <input type="text" id="search-input" class="search-input" tabindex="0" placeholder="Search Dendron" aria-label="Search Dendron" autocomplete="off">
+                <label for="search-input" class="search-label"><svg viewBox="0 0 24 24" class="search-icon"><use xlink:href="#svg-search"></use></svg></label>
+              </div>
+              <div id="search-results" class="search-results"></div>
+            </div>
+          
+          
+    </div>
+    <div id="main-content-wrap" class="main-content-wrap">
+      
+        
+          <nav aria-label="Breadcrumb" class="breadcrumb-nav">
+            <ol class="breadcrumb-nav-list"><li class="breadcrumb-nav-list-item"><a href="https://wiki.dendron.so">Dendron</a></li><li class="breadcrumb-nav-list-item"><a href="https://wiki.dendron.so/notes/7a7af2fa-b9d0-4adc-81e6-f03186123539.html">Topics</a></li><li class="breadcrumb-nav-list-item">References</li></ol>
+          </nav>
+        
+      
+      <div id="main-content" class="main-content" role="main">
+
+        
+        
+        <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+        <script>mermaid.initialize({startOnLoad:true});</script>
+        
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+        
+        
+
+        
+
+        
+
+        
+
+        <script>
+          $(function () {
+            $('[data-toggle="popover"]').popover({html: true})
+          })
+        </script>
+
+        
+
+<div id="main" role="main">
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="References">
+    
+    <meta itemprop="datePublished" content="2020-08-13T22:09:42+00:00">
+    <meta itemprop="dateModified" content="2021-10-14T00:59:44+00:00">
+
+    <div class="page__inner-wrap">
+
+      
+
+      <section class="page__content" itemprop="text">
+
+        
+
+        <h1 id="references"><a aria-hidden="true" class="anchor-heading" href="#references"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>References</h1>
+<h2 id="summary"><a aria-hidden="true" class="anchor-heading" href="#summary"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Summary</h2>
+<p>Dendron allows you to reference content from other notes and <strong>embed</strong> them in your current note.  This is also known as <a href="https://en.wikipedia.org/wiki/Transclusion">transclusion</a>.  </p>
+<p>Note references are different from regular <a href="https://wiki.dendron.so/notes/3472226a-ff3c-432d-bf5d-10926f39f6c2.html">links</a> in that they actually include the content of the destination in the current note.</p>
+<p>Note references are extremely powerful and help you re-use your notes in a variety of places.</p>
+<p>Currently, Dendron supports 4 types of references to help you control the amount of content that gets embedded:</p>
+<ul>
+<li>full note references</li>
+<li>header references</li>
+<li>block references</li>
+<li>range references</li>
+</ul>
+<p>References have the following syntax:</p>
+<pre><code>![[name.of.note]]
+</code></pre>
+<p>Here's an example with a block anchor:</p>
+<pre><code>![[name.of.note#^important-paragraph]]
+</code></pre>
+<p>Another example with a header range:</p>
+<pre><code>![[name.of.note#starting-header:#ending-header]]
+</code></pre>
+<blockquote>
+<p>NOTE: When referencing headers with spaces in them, the note ref needs to use <code>-</code> instead of spaces within the name. This is a limitation of adopting GitHub-style slugger references. This is also useful for when multiple subheaders on a page may have the same name, which would expect something else <code>#foo</code> vs. <code>#foo-1</code> vs. <code>#foo-2</code>. This can be automatically taken care of by highlighting a header, and using <code>cmd+shift+r</code> / <code>ctrl+shift+r</code> to add a properly-formatted note ref to the clipboard.</p>
+<p>For more information:</p>
+<ul>
+<li><a href="https://stackoverflow.com/a/48760076/5340149">StackOverflow: How to escape symbols in GitHub-flavored markdown internal links / heading anchors?</a></li>
+<li><a href="https://gist.github.com/asabaylus/3071099">Anchors in Markdown gist</a></li>
+</ul>
+</blockquote>
+<h2 id="reference-types"><a aria-hidden="true" class="anchor-heading" href="#reference-types"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Reference Types</h2>
+<h3 id="full-note-references"><a aria-hidden="true" class="anchor-heading" href="#full-note-references"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Full Note References</h3>
+<p>The simplest type is a full note reference, which will include the entire contents of a note within another note. Below is an example of a note reference.</p>
+<pre><code>![[dendron.demo.refs.sample]]
+</code></pre>
+<h3 id="header-references"><a aria-hidden="true" class="anchor-heading" href="#header-references"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Header References</h3>
+<p>A header reference will include the entire contents of a note starting from a specified heading.</p>
+<pre><code>![[demo.embed.block#head1]]
+</code></pre>
+<h3 id="block-references"><a aria-hidden="true" class="anchor-heading" href="#block-references"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Block References</h3>
+<p><a aria-hidden="true" class="block-anchor anchor-heading" id="^block-ref-example" href="#^block-ref-example"><svg viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Block references let you link or embed blocks of text into different parts of your notes. This allows you to link and refer to any part of a note, including paragraphs, lists, and tables. Block references use the <code>^</code> caret as the anchor.</p>
+<p></p>
+<pre><code>![[example.my-note#^my-list]]
+</code></pre>
+<p>Block References allow you to embed a block marked by an anchor in another note. </p>
+<p>Here are a few examples:</p>
+<pre><code>Ab voluptatem commodi maiores.
+Nemo qui voluptatem dolores. ^my-paragraph
+
+* Culpa autem et voluptatem reiciendis id sint.
+* Qui quos ut a deserunt. ^second-item
+    * Sub-item
+* Minima quos consequatur quo eum quas aut.
+
+^all-items
+
+I want to refer to that paragraph again:
+
+![[#^my-paragraph]]
+
+And let's look at that list again:
+
+![[#^all-items]]
+
+I want to re-emphasize that second item:
+
+![[#^second-item]]
+
+The second item, without the sub-item under it:
+
+![[#^second-item:#^second-item]]
+
+You can reference across notes as well. Say you had a note named "other-note" which had an anchor "some-anchor" in it:
+
+![[other-note#^some-anchor]]
+</code></pre>
+<p>When you refer to a block anchor, it will display the block that the block anchor is attached to. This means you can refer to an entire paragraph, table, list, or even a list item.</p>
+<p>Below is an example to a block reference to an earlier part of this page.</p>
+<p></p><p></p><div class="portal-container">
+<div class="portal-head">
+<div class="portal-backlink">
+<div class="portal-title">From <span class="portal-text-title">References</span></div>
+<a href="https://wiki.dendron.so/notes/f1af56bb-db27-47ae-8406-61a98de6c78c.html" class="portal-arrow">Go to text <span class="right-arrow">→</span></a>
+</div>
+</div>
+<div id="portal-parent-anchor" class="portal-parent" markdown="1">
+<div class="portal-parent-fader-top"></div>
+<div class="portal-parent-fader-bottom"></div><p>Block references let you link or embed blocks of text into different parts of your notes. This allows you to link and refer to any part of a note, including paragraphs, lists, and tables. Block references use the <code>^</code> caret as the anchor.</p>
+</div></div><p></p><p></p>
+<h4 id="block-anchor"><a aria-hidden="true" class="anchor-heading" href="#block-anchor"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Block Anchor</h4>
+<p>A block anchor is a <code>^</code> character, followed by one or more digits, letters, dashes, and underscores. Dendron can automatically generate these, or you can add in custom anchors. </p>
+<p>To have Dendron automatically generate random block anchors, select the target line or lines (or parts thereof) and run the <code>Copy Note Link</code> or <code>Copy Note Ref</code> commands. If multiple lines are selected, <code>Copy Note Ref</code> will generate two block anchors: one for the initial line, and one for the final line.</p>
+<p>The following are a few examples of block anchors:</p>
+<pre><code>Lorem ipsum dolor amet ^1234
+
+* Item 1
+* Item 2 ^second-item
+  * Item 2a
+  * Item 2b
+* Item 3 ^third-item
+* Item 4
+
+^whole-list
+
+| Sapiente | accusamus |
+|----------|-----------|
+| Laborum  | libero    |
+| Ullam    | optio     | ^whole-table
+</code></pre>
+<p><code>^whole-list</code>, <code>^whole-table</code>, and <code>^1234</code> reference the blocks they are attached to. List item block anchors reference the item they are attached to and any sub-items, e.g.</p>
+<ul>
+<li><code>^second-item</code> references "Item 2", "Item 2a", and "Item 2b"</li>
+<li><code>^third-item</code> references "Item 3"</li>
+</ul>
+<h4 id="block-links"><a aria-hidden="true" class="anchor-heading" href="#block-links"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Block Links</h4>
+<p>Block Anchors can also be used as links. A block link has the following format. It is created in a note that is referencing a piece of text. When navigating the link, users should be taken to the block anchor. </p>
+<pre><code>[[somelink#^1234]]
+</code></pre>
+<p>Block links can link to anchors within the same note without writing the name of the note. For example:</p>
+<pre><code>Ab voluptatem commodi maiores.
+Nemo qui voluptatem dolores. ^my-paragraph
+
+Let's look back at that paragraph: [[#^my-paragraph]]
+</code></pre>
+<h3 id="range-reference"><a aria-hidden="true" class="anchor-heading" href="#range-reference"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Range Reference</h3>
+<p>A range reference will include the contents of a note starting from a starting header or block anchor, and ending at an ending header or block anchor. The syntax is <code>![[note#start:#end]]</code>.</p>
+<h4 id="example-with-headers-as-range-boundary"><a aria-hidden="true" class="anchor-heading" href="#example-with-headers-as-range-boundary"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Example With Headers as Range Boundary</h4>
+<pre><code>![[demo.embed.block#head1:#head3]]
+</code></pre>
+<h4 id="example-with-blocks-as-range-boundary"><a aria-hidden="true" class="anchor-heading" href="#example-with-blocks-as-range-boundary"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Example With Blocks as Range Boundary</h4>
+<pre><code># Section
+
+Sunt animi inventore atque quia ex aut minus.
+Voluptate ipsa et esse. ^paragraph-1
+
+Porro ad nesciunt sed eius ut enim est eveniet.
+Omnis sint necessitatibus aut. ^paragraph-2
+
+* Aliquam et sit autem. ^first
+* Est sapiente quis ut est.
+* Est incidunt et debitis vel ab. ^third
+* Maxime harum aut mollitia debitis ipsa.
+
+Both paragraphs:
+
+![[#^paragraph-1:#^paragraph-2]]
+
+First 3 items in my list:
+
+![[#^first:#^third]]
+
+From the header, to the second paragraph:
+
+![[#section:#^paragraph-2]]
+</code></pre>
+<h2 id="commands"><a aria-hidden="true" class="anchor-heading" href="#commands"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Commands</h2>
+<p>You can create a reference either by hand or using the <code>Copy Note Ref</code> command.</p>
+<p></p><p></p><div class="portal-container">
+<div class="portal-head">
+<div class="portal-backlink">
+<div class="portal-title">From <span class="portal-text-title">Commands</span></div>
+<a href="https://wiki.dendron.so/notes/eea2b078-1acc-4071-a14e-18299fc28f47.html" class="portal-arrow">Go to text <span class="right-arrow">→</span></a>
+</div>
+</div>
+<div id="portal-parent-anchor" class="portal-parent" markdown="1">
+<div class="portal-parent-fader-top"></div>
+<div class="portal-parent-fader-bottom"></div><h3 id="copy-note-ref"><a aria-hidden="true" class="anchor-heading" href="#copy-note-ref"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Copy Note Ref</h3>
+<ul>
+<li>shortcuts:
+<ul>
+<li>key: <code>ctrl+shift+r</code></li>
+<li>mac: <code>cmd+shift+r</code></li>
+<li>when: <code>editorFocus</code></li>
+</ul>
+</li>
+</ul>
+<p>Copies a reference to the current open document</p>
+<p>This lets you quickly create a <a href="https://wiki.dendron.so/notes/f1af56bb-db27-47ae-8406-61a98de6c78c.html">note reference</a> to the current note.
+<img src="https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/ref-note.gif"></p>
+</div></div><p></p><p></p>
+<h2 id="additional-options"><a aria-hidden="true" class="anchor-heading" href="#additional-options"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Additional Options</h2>
+<h3 id="line-offset"><a aria-hidden="true" class="anchor-heading" href="#line-offset"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Line Offset</h3>
+<p>You can use line offsets to skip a number of lines when using a header reference. The syntax is <code>,{number}</code>. Below is an example of using a note reference offset to offset an initial heading, skipping the actual header when doing the embedding.</p>
+<ul>
+<li>NOTE: currently, note reference offsets are limited to the first anchor inside a block reference. They must also be a positive value</li>
+</ul>
+<pre><code>![[demo.embed.block#head1,1]]
+</code></pre>
+<h3 id="wildcard-headers-as-a-range-boundary"><a aria-hidden="true" class="anchor-heading" href="#wildcard-headers-as-a-range-boundary"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Wildcard Headers as a Range Boundary</h3>
+<p>When you're referencing a header by reference, sometimes you don't care what the next header is, just that the reference covers all text up to the next header. You can specify this using the <code>*</code> symbol in a header reference.</p>
+<p>For example, the following would reference the content from header1 to the next header.</p>
+<pre><code>![[demo.embed.block#head1:#*]]
+</code></pre>
+<h3 id="recursive-references"><a aria-hidden="true" class="anchor-heading" href="#recursive-references"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Recursive References</h3>
+<p>References can refer to notes with references inside. Dendron current supports references two levels deep. This applies to both the <strong>local preview</strong> as well as <strong>publishing</strong>.</p>
+<h3 id="wildcard-link-reference"><a aria-hidden="true" class="anchor-heading" href="#wildcard-link-reference"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Wildcard Link Reference</h3>
+<p>References accept the <code>*</code> operator at the end which lets you grab all notes of a given level of hierarchy. This also works with typical note reference operation like block selection which means you can use it to grab specific blocks from every note in a level.</p>
+<pre><code>![[demo.journal.2021.*]]
+</code></pre>
+<h2 id="publishing"><a aria-hidden="true" class="anchor-heading" href="#publishing"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Publishing</h2>
+<p>When you <a href="https://wiki.dendron.so/notes/579e379b-3eca-4676-b51c-c66eb26a11b8.html">publish</a> a note with a note reference, Dendron will embed the content of the reference in the page. If the content is part of a published page as specified by the publishing <a href="https://wiki.dendron.so/notes/f2ed8639-a604-4a9d-b76c-41e205fb8713.html">configuration</a>, dendron will include a link to the page. If not, Dendron will embed the content without a link. If the referenced content is not publishable (eg. <code>published: false</code> set on frontmatter), dendron will generate a custom <a href="https://wiki.dendron.so/notes/2fe96d3a-dcf9-409b-8a09-fdaa5a664433.html#selective-publication">404 link</a>.</p>
+<h2 id="configuration"><a aria-hidden="true" class="anchor-heading" href="#configuration"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Configuration</h2>
+<ul>
+<li>note references by default come with an outline. They are called <a href="https://wiki.dendron.so/notes/20b23165-d803-4eb2-98aa-0f0934dd3bd9.html#pretty-ref">pretty refs</a>.</li>
+</ul>
+<p>Toggle the following configuration to turn off this setting.</p>
+<p></p><p></p><div class="portal-container">
+<div class="portal-head">
+<div class="portal-backlink">
+<div class="portal-title">From <span class="portal-text-title">Dendrons Config</span></div>
+<a href="https://wiki.dendron.so/notes/f83c1d87-eac0-48f3-a5cf-8a69989d8ec1.html" class="portal-arrow">Go to text <span class="right-arrow">→</span></a>
+</div>
+</div>
+<div id="portal-parent-anchor" class="portal-parent" markdown="1">
+<div class="portal-parent-fader-top"></div>
+<div class="portal-parent-fader-bottom"></div><h3 id="useprettyrefs"><a aria-hidden="true" class="anchor-heading" href="#useprettyrefs"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>usePrettyRefs</h3>
+<ul>
+<li>default: true</li>
+</ul>
+<p>If set to false, don't use <a href="https://wiki.dendron.so/notes/20b23165-d803-4eb2-98aa-0f0934dd3bd9.html#pretty-ref">pretty refs</a></p>
+</div></div><p></p><p></p>
+<hr>
+<h2 id="backlinks"><a aria-hidden="true" class="anchor-heading" href="#backlinks"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Backlinks</h2>
+<ul>
+<li><a href="https://wiki.dendron.so/notes/683740e3-70ce-4a47-a1f4-1f140e80b558.html">FAQ</a></li>
+<li><a href="https://wiki.dendron.so/notes/032e4abc-f292-465f-9b6a-5a1360c2c974.html">Intellisense</a></li>
+<li><a href="https://wiki.dendron.so/notes/20b23165-d803-4eb2-98aa-0f0934dd3bd9.html">Terms</a></li>
+<li><a href="https://wiki.dendron.so/notes/08b2e6ea-bd3e-4f4b-b2b9-676a7b743a65.html">Release Notes(version 0.10)</a></li>
+<li><a href="https://wiki.dendron.so/notes/50071eda-fc46-4aca-ba6c-9d53db00d068.html">Release Notes(version 0.11)</a></li>
+<li><a href="https://wiki.dendron.so/notes/d508e0f9-8bbe-43b4-83c1-0ff022b1d4fb.html">Release Notes (version 0.24)</a></li>
+<li><a href="https://wiki.dendron.so/notes/95f7193b-9940-42ba-841f-3e2a4d937ba3.html">10 Blocks</a></li>
+<li><a href="https://wiki.dendron.so/notes/eea2b078-1acc-4071-a14e-18299fc28f47.html">Commands</a></li>
+<li><a href="https://wiki.dendron.so/notes/3472226a-ff3c-432d-bf5d-10926f39f6c2.html">Links</a></li>
+<li><a href="https://wiki.dendron.so/notes/66727a39-d0a7-449b-a10d-f6c438185d7f.html">Pods</a></li>
+<li><a href="https://wiki.dendron.so/notes/f1af56bb-db27-47ae-8406-61a98de6c78c.html">References</a></li>
+<li><a href="https://wiki.dendron.so/notes/9MZBqhrijEM4QpZRa5t08.html">Linking Notes</a></li>
+<li><a href="https://wiki.dendron.so/notes/8DCgctK-RMD4EeHjC5_hI.html">Rich Formatting</a></li>
+<li><a href="https://wiki.dendron.so/notes/849ee8ee-05a5-47bf-b44d-d7c257117bc4.html">Summary</a></li>
+<li><a href="https://wiki.dendron.so/notes/ed4162aa-5474-4483-9fbc-c0b505310c59.html">0.1.X</a></li>
+<li><a href="https://wiki.dendron.so/notes/icBBwbAFLyjsRLheSJkAp.html">0 3 X</a></li>
+<li><a href="https://wiki.dendron.so/notes/C0HMems1EODnxGsNDVD7Z.html">0 4 X</a></li>
+<li><a href="https://wiki.dendron.so/notes/b33d1ad0-e50e-4af0-9c7c-758baad38e79.html">Faq</a></li>
+<li><a href="https://wiki.dendron.so/notes/2fe96d3a-dcf9-409b-8a09-fdaa5a664433.html">Features</a></li>
+</ul><span id="navId" data="f1af56bb-db27-47ae-8406-61a98de6c78c"></span>
+
+                
+      </section>
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+        <div class="thumbs feedback_trigger right-bottom"></div>
+
+        
+          <hr>
+          <footer>
+            
+            
+
+            
+              <div class="d-flex mt-2">
+              <p class="text-small text-grey-dk-000 mb-0 mr-2">
+                Page last modified: <span class="d-inline-block">10/14/2021</span>.
+              </p>
+            
+                
+                  <p class="text-small text-grey-dk-000 mb-0">
+                    <a href="https://github.com/dendronhq/dendron-site/edit/master/vault/dendron.topic.references.md" id="edit-this-page">Edit this page on GitHub</a>
+                  </p>
+                
+              </div>
+          </footer>
+        
+    </div>
+</div>
+
+
+  
+
+  <div class="search-overlay"></div>
+
+</div>
+
+</body>
+</html>

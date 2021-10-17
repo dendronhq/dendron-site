@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+  
+  <title>Better Graph View – Design - Dendron</title>
+  
+
+  <link
+    rel="shortcut icon"
+    href="https://wiki.dendron.so/favicon.ico"
+    type="image/x-icon"
+  />
+  <link
+    rel="stylesheet"
+    href="https://wiki.dendron.so/assets/css/just-the-docs-default.css"
+  />
+  <script
+    type="text/javascript"
+    src="https://wiki.dendron.so/assets/js/just-the-docs.js"
+  ></script>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.22.0/themes/prism.min.css"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css"
+    integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X"
+    crossorigin="anonymous"
+  />
+  <script
+    type="text/javascript"
+    src="https://wiki.dendron.so/assets/js/vendor/lunr.min.js"
+  ></script>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+   
+   
+  
+<meta name="description" content="Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.">
+<meta name="author" content="dendronhq">
+
+<link rel="canonical" href="https://wiki.dendron.so/notes/6e87249b-358f-4f4b-8049-dff6e6a8463b.html">
+
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://wiki.dendron.so/notes/6e87249b-358f-4f4b-8049-dff6e6a8463b.html">
+<meta property="og:description" content="Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.">
+<meta property="og:image" content="https://wiki.dendron.so/logo.png">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@dendronhq">
+<meta name="twitter:url" content="https://wiki.dendron.so/notes/6e87249b-358f-4f4b-8049-dff6e6a8463b.html">
+<meta name="twitter:description" content="Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.">
+<meta name="twitter:image" content="https://wiki.dendron.so/logo.png">
+
+
+  <meta property="og:title" content="Better Graph View – Design - Dendron" />
+  <meta name="twitter:title" content="Better Graph View – Design - Dendron" />
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-B0JN2HHCNY"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-B0JN2HHCNY');
+  </script>
+  
+</head>
+
+
+
+<body>
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+      <symbol id="svg-link" viewBox="0 0 24 24">
+        <title>Link</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-link">
+          <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+        </svg>
+      </symbol>
+      <symbol id="svg-search" viewBox="0 0 24 24">
+        <title>Search</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search">
+          <circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+      </symbol>
+      <symbol id="svg-menu" viewBox="0 0 24 24">
+        <title>Menu</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu">
+          <line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+      </symbol>
+      <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+        <title>Expand</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+          <polyline points="9 18 15 12 9 6"></polyline>
+        </svg>
+      </symbol>
+      <symbol id="svg-doc" viewBox="0 0 24 24">
+        <title>Document</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file">
+          <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path><polyline points="13 2 13 9 20 9"></polyline>
+        </svg>
+      </symbol>
+    </svg>
+
+    <div class="side-bar">
+      <div class="site-header">
+        <a href="https://wiki.dendron.so" class="site-title lh-tight">
+  <div class="site-logo"></div>
+
+ </a>
+        <a href="#" id="menu-button" class="site-button">
+          <svg viewBox="0 0 24 24" class="icon"><use xlink:href="#svg-menu"></use></svg>
+        </a>
+      </div>
+
+      <nav role="navigation" aria-label="Main" id="site-nav" class="site-nav">
+      </nav>
+      <footer class="site-footer">
+        🌱 with 💕 using <a href="https://www.dendron.so/"> Dendron 🌲 </a>
+      </footer>
+    </div>
+    <div class="main" id="top">
+        <div id="main-header" class="main-header">
+          
+            <div class="search">
+              <div class="search-input-wrap">
+                <input type="text" id="search-input" class="search-input" tabindex="0" placeholder="Search Dendron" aria-label="Search Dendron" autocomplete="off">
+                <label for="search-input" class="search-label"><svg viewBox="0 0 24 24" class="search-icon"><use xlink:href="#svg-search"></use></svg></label>
+              </div>
+              <div id="search-results" class="search-results"></div>
+            </div>
+          
+          
+    </div>
+    <div id="main-content-wrap" class="main-content-wrap">
+      
+        
+          <nav aria-label="Breadcrumb" class="breadcrumb-nav">
+            <ol class="breadcrumb-nav-list"><li class="breadcrumb-nav-list-item"><a href="https://wiki.dendron.so">Dendron</a></li><li class="breadcrumb-nav-list-item"><a href="https://wiki.dendron.so/notes/f143ca38-dcc6-4cd3-b84b-997aec1160ef.html">Rfc</a></li><li class="breadcrumb-nav-list-item"><a href="https://wiki.dendron.so/notes/c998c642-a748-4f77-9285-cfec35330251.html">7 Graph Rework</a></li><li class="breadcrumb-nav-list-item">Better Graph View – Design</li></ol>
+          </nav>
+        
+      
+      <div id="main-content" class="main-content" role="main">
+
+        
+        
+        <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+        <script>mermaid.initialize({startOnLoad:true});</script>
+        
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+        
+        
+
+        
+
+        
+
+        
+
+        <script>
+          $(function () {
+            $('[data-toggle="popover"]').popover({html: true})
+          })
+        </script>
+
+        
+
+<div id="main" role="main">
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Better Graph View – Design">
+    
+    <meta itemprop="datePublished" content="2021-05-17T18:47:14+00:00">
+    <meta itemprop="dateModified" content="2021-05-26T15:25:26+00:00">
+
+    <div class="page__inner-wrap">
+
+      
+
+      <section class="page__content" itemprop="text">
+
+        
+
+        <h1 id="better-graph-view--design"><a aria-hidden="true" class="anchor-heading" href="#better-graph-view--design"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Better Graph View – Design</h1>
+<blockquote>
+<p>This design document pertains to the Next.js/VSCode graph implementation. If you're looking for the GraphViz export pod, <a href="https://wiki.dendron.so/notes/7e1693a0-ada4-4250-962c-c1fdf46a3a0f.html">you can find its documentation here.</a></p>
+</blockquote>
+<h2 id="summary"><a aria-hidden="true" class="anchor-heading" href="#summary"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Summary</h2>
+<!-- High level overview of solution -->
+<p>The goal of this graph redesign is to create a better-performing, filterable graph view useable by both a published Next.js site and within VSCode.</p>
+<h2 id="lookup"><a aria-hidden="true" class="anchor-heading" href="#lookup"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Lookup</h2>
+<!-- Research and similar projects -->
+<ul>
+<li><a href="https://help.obsidian.md/Plugins/Graph+view">Obsidian's Graph View</a></li>
+<li><a href="https://github.com/foambubble/markdown-links">Foam's Graph View</a>
+<ul>
+<li>Also forked from <code>markdown-links</code>, so maybe not super useful</li>
+</ul>
+</li>
+</ul>
+<h2 id="proposal"><a aria-hidden="true" class="anchor-heading" href="#proposal"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Proposal</h2>
+<h3 id="libraries"><a aria-hidden="true" class="anchor-heading" href="#libraries"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Libraries</h3>
+<p>In the interest of balancing development speed and flexibility, the current recommendation is to use <a href="https://js.cytoscape.org/">Cytoscape.js</a> for rendering and graph structuring. This is for a couple of reasons:</p>
+<ul>
+<li>Fully-featured network/graph structuring and rendering</li>
+<li>Robust graph manipulation and filtering</li>
+<li>Functions as both rendering and graph structuring library</li>
+<li>Straightforward documentation</li>
+<li>Battle-tested: used in production by both companies and researchers</li>
+<li>Future-proof: option to run in headless mode
+<ul>
+<li>Option to use custom rendering logic if needed while still maintaining graph structure and filtering already implemented</li>
+</ul>
+</li>
+</ul>
+<p>Here is the <a href="https://wiki.dendron.so/notes/7cd5b849-7ccb-4189-9f02-2f13db16298b.html">list of all libraries researched.</a></p>
+<h3 id="implementation"><a aria-hidden="true" class="anchor-heading" href="#implementation"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Implementation</h3>
+<h4 id="graph-structure"><a aria-hidden="true" class="anchor-heading" href="#graph-structure"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Graph Structure</h4>
+<p>One of the benefits of going with a Next.js-centered approach is we get all the benefits of React and global state. Since notes will be loaded into the global Redux store already, querying them and creating the graph structure should be fairly straightforward.</p>
+<h4 id="styling"><a aria-hidden="true" class="anchor-heading" href="#styling"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Styling</h4>
+<p>Styling in Cytoscape is done through a style object, which is a CSS-like style array. There are two clear options for styling: either a dedicated CSS stylesheet or a config file with various options. Since the Cytoscape styling method is slightly abstracted from direct CSS, it may be easier to use a config file and lightly parse it into a useable form.</p>
+<h4 id="performance"><a aria-hidden="true" class="anchor-heading" href="#performance"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Performance</h4>
+<p>One of the biggest issues with visualization libraries is performance. While adding many nodes and edges to a graph can degrad`e performance, Cytoscape contains <a href="https://js.cytoscape.org/#performance/optimisations">a number of optimization options</a> to scale large, complex graphs.</p>
+<p>Performance is determined primarily by the layout algorithm used. The current implementation will use the <a href="https://github.com/cytoscape/cytoscape.js-euler">cytoscape.js-euler</a> layout, as it is able to display a graph with thousands of nodes and edges in an understandable format.</p>
+<h4 id="accessibility"><a aria-hidden="true" class="anchor-heading" href="#accessibility"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Accessibility</h4>
+<h5 id="keyboard-navigation"><a aria-hidden="true" class="anchor-heading" href="#keyboard-navigation"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Keyboard Navigation</h5>
+<p>Basic keyboard navigation will be implemented for the new graph view. This will include navigating up and down between hierarchies, cycling between child nodes, and opening notes. Cytoscape offers <a href="https://js.cytoscape.org/#events">a number of events</a> that can be listened to, making it fairly straightforward to create robust keyboard-driven navigation.</p>
+<h5 id="other-notes"><a aria-hidden="true" class="anchor-heading" href="#other-notes"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Other Notes</h5>
+<p>Making a graph truly accessible is a difficult task. Most visualization libraries (including those researched) say virtually nothing about accessibility. While a tradeoff of creating a rich graph may be accessibility, some of the <a href="https://web.archive.org/web/20210512193630/https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Hit_regions_and_accessibility">canvas accessibility ideas shared by Mozilla</a> creating possibilities for creating a more accessible graph display.</p>
+<hr>
+<h2 id="tasks"><a aria-hidden="true" class="anchor-heading" href="#tasks"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Tasks</h2>
+<!-- Tasks that need to be done -->
+<h3 id="stage-1-replacing-markdown-links"><a aria-hidden="true" class="anchor-heading" href="#stage-1-replacing-markdown-links"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Stage 1: Replacing Markdown Links</h3>
+<p>Create a more or less 1 to 1 drop in replacement for <code>markdown-links</code>, accessible at <code>/graph</code> in the Next.js app</p>
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" disabled> Create graph structure in Cytoscape out of Redux-stored notes</li>
+<li class="task-list-item"><input type="checkbox" disabled> Initialize graph, layout nodes</li>
+<li class="task-list-item"><input type="checkbox" disabled> Display graph</li>
+<li class="task-list-item"><input type="checkbox" disabled> Embedding capability in VSCode</li>
+</ul>
+<p>After this initial integration, work will be done on:</p>
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" disabled> Keyboard navigation/accessibility</li>
+</ul>
+<h3 id="stage-2-core-features"><a aria-hidden="true" class="anchor-heading" href="#stage-2-core-features"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Stage 2: Core Features</h3>
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" disabled> Filtering</li>
+<li class="task-list-item"><input type="checkbox" disabled> Styling
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" disabled> Coloring based on schema/hierarchy/etc?</li>
+</ul>
+</li>
+</ul>
+<h3 id="stage-3-secondary-features"><a aria-hidden="true" class="anchor-heading" href="#stage-3-secondary-features"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Stage 3: Secondary Features</h3>
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" disabled> Local graph view
+<ul>
+<li>Display on individual note pages, much like Obsidian</li>
+</ul>
+</li>
+<li class="task-list-item"><input type="checkbox" disabled> Multi-vault graph view
+<ul>
+<li>Likely most useful for VSCode</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="backlinks"><a aria-hidden="true" class="anchor-heading" href="#backlinks"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Backlinks</h2>
+<ul>
+<li><a href="https://wiki.dendron.so/notes/00e6f3d8-4243-42c7-8e4f-a074a1bd0ffb.html">Release Notes (version 0.44)</a></li>
+<li><a href="https://wiki.dendron.so/notes/55577c37-0943-44e7-9c85-c0327bdc9212.html">Plan</a></li>
+</ul><span id="navId" data="6e87249b-358f-4f4b-8049-dff6e6a8463b"></span>
+
+                
+      </section>
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+        <div class="thumbs feedback_trigger right-bottom"></div>
+
+        
+          <hr>
+          <footer>
+            
+            
+
+            
+              <div class="d-flex mt-2">
+              <p class="text-small text-grey-dk-000 mb-0 mr-2">
+                Page last modified: <span class="d-inline-block">5/26/2021</span>.
+              </p>
+            
+                
+                  <p class="text-small text-grey-dk-000 mb-0">
+                    <a href="https://github.com/dendronhq/dendron-site/edit/master/vault/dendron.rfc.7-graph-rework.design.md" id="edit-this-page">Edit this page on GitHub</a>
+                  </p>
+                
+              </div>
+          </footer>
+        
+    </div>
+</div>
+
+
+  
+
+  <div class="search-overlay"></div>
+
+</div>
+
+</body>
+</html>

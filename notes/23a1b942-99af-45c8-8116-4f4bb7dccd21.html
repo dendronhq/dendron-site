@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+  
+  <title>Dendron CLI - Dendron</title>
+  
+
+  <link
+    rel="shortcut icon"
+    href="https://wiki.dendron.so/favicon.ico"
+    type="image/x-icon"
+  />
+  <link
+    rel="stylesheet"
+    href="https://wiki.dendron.so/assets/css/just-the-docs-default.css"
+  />
+  <script
+    type="text/javascript"
+    src="https://wiki.dendron.so/assets/js/just-the-docs.js"
+  ></script>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.22.0/themes/prism.min.css"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css"
+    integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X"
+    crossorigin="anonymous"
+  />
+  <script
+    type="text/javascript"
+    src="https://wiki.dendron.so/assets/js/vendor/lunr.min.js"
+  ></script>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+   
+   
+  
+<meta name="description" content="Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.">
+<meta name="author" content="dendronhq">
+
+<link rel="canonical" href="https://wiki.dendron.so/notes/23a1b942-99af-45c8-8116-4f4bb7dccd21.html">
+
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://wiki.dendron.so/notes/23a1b942-99af-45c8-8116-4f4bb7dccd21.html">
+<meta property="og:description" content="Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.">
+<meta property="og:image" content="https://wiki.dendron.so/logo.png">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@dendronhq">
+<meta name="twitter:url" content="https://wiki.dendron.so/notes/23a1b942-99af-45c8-8116-4f4bb7dccd21.html">
+<meta name="twitter:description" content="Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.">
+<meta name="twitter:image" content="https://wiki.dendron.so/logo.png">
+
+
+  <meta property="og:title" content="Dendron CLI - Dendron" />
+  <meta name="twitter:title" content="Dendron CLI - Dendron" />
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-B0JN2HHCNY"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-B0JN2HHCNY');
+  </script>
+  
+</head>
+
+
+
+<body>
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+      <symbol id="svg-link" viewBox="0 0 24 24">
+        <title>Link</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-link">
+          <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+        </svg>
+      </symbol>
+      <symbol id="svg-search" viewBox="0 0 24 24">
+        <title>Search</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search">
+          <circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+      </symbol>
+      <symbol id="svg-menu" viewBox="0 0 24 24">
+        <title>Menu</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu">
+          <line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+      </symbol>
+      <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+        <title>Expand</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+          <polyline points="9 18 15 12 9 6"></polyline>
+        </svg>
+      </symbol>
+      <symbol id="svg-doc" viewBox="0 0 24 24">
+        <title>Document</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file">
+          <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path><polyline points="13 2 13 9 20 9"></polyline>
+        </svg>
+      </symbol>
+    </svg>
+
+    <div class="side-bar">
+      <div class="site-header">
+        <a href="https://wiki.dendron.so" class="site-title lh-tight">
+  <div class="site-logo"></div>
+
+ </a>
+        <a href="#" id="menu-button" class="site-button">
+          <svg viewBox="0 0 24 24" class="icon"><use xlink:href="#svg-menu"></use></svg>
+        </a>
+      </div>
+
+      <nav role="navigation" aria-label="Main" id="site-nav" class="site-nav">
+      </nav>
+      <footer class="site-footer">
+        🌱 with 💕 using <a href="https://www.dendron.so/"> Dendron 🌲 </a>
+      </footer>
+    </div>
+    <div class="main" id="top">
+        <div id="main-header" class="main-header">
+          
+            <div class="search">
+              <div class="search-input-wrap">
+                <input type="text" id="search-input" class="search-input" tabindex="0" placeholder="Search Dendron" aria-label="Search Dendron" autocomplete="off">
+                <label for="search-input" class="search-label"><svg viewBox="0 0 24 24" class="search-icon"><use xlink:href="#svg-search"></use></svg></label>
+              </div>
+              <div id="search-results" class="search-results"></div>
+            </div>
+          
+          
+    </div>
+    <div id="main-content-wrap" class="main-content-wrap">
+      
+        
+          <nav aria-label="Breadcrumb" class="breadcrumb-nav">
+            <ol class="breadcrumb-nav-list"><li class="breadcrumb-nav-list-item"><a href="https://wiki.dendron.so">Dendron</a></li><li class="breadcrumb-nav-list-item"><a href="https://wiki.dendron.so/notes/7a7af2fa-b9d0-4adc-81e6-f03186123539.html">Topics</a></li><li class="breadcrumb-nav-list-item">Dendron CLI</li></ol>
+          </nav>
+        
+      
+      <div id="main-content" class="main-content" role="main">
+
+        
+        
+        <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+        <script>mermaid.initialize({startOnLoad:true});</script>
+        
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+        
+        
+
+        
+
+        
+
+        
+
+        <script>
+          $(function () {
+            $('[data-toggle="popover"]').popover({html: true})
+          })
+        </script>
+
+        
+
+<div id="main" role="main">
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Dendron CLI">
+    
+    <meta itemprop="datePublished" content="2020-09-13T21:49:51+00:00">
+    <meta itemprop="dateModified" content="2021-10-11T14:58:46+00:00">
+
+    <div class="page__inner-wrap">
+
+      
+
+      <section class="page__content" itemprop="text">
+
+        
+
+        <h1 id="dendron-cli"><a aria-hidden="true" class="anchor-heading" href="#dendron-cli"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Dendron CLI</h1>
+<h2 id="summary"><a aria-hidden="true" class="anchor-heading" href="#summary"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Summary</h2>
+<p>The Dendron CLI exposes Dendron's functionality via the command line. </p>
+<h2 id="installation"><a aria-hidden="true" class="anchor-heading" href="#installation"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Installation</h2>
+<pre class="language-sh"><code class="language-sh">npm install -g @dendronhq/dendron-cli
+</code></pre>
+<h2 id="upgrade"><a aria-hidden="true" class="anchor-heading" href="#upgrade"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Upgrade</h2>
+<pre class="language-sh"><code class="language-sh">npm install -g @dendronhq/dendron-cli@latest
+</code></pre>
+<h2 id="common-options"><a aria-hidden="true" class="anchor-heading" href="#common-options"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Common Options</h2>
+<h3 id="wsroot"><a aria-hidden="true" class="anchor-heading" href="#wsroot"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>wsRoot</h3>
+<p>This only needs to be set if you are not executing the CLI from within the root of your <a href="https://wiki.dendron.so/notes/c6fd6bc4-7f75-4cbb-8f34-f7b99bfe2d50.html#workspace">workspace</a> or in a subdirectory of an existing workspace</p>
+<h3 id="vault"><a aria-hidden="true" class="anchor-heading" href="#vault"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>vault</h3>
+<p>Path to a <a href="https://wiki.dendron.so/notes/c6fd6bc4-7f75-4cbb-8f34-f7b99bfe2d50.html#vaults">vaults</a>. If not given and not a <a href="https://wiki.dendron.so/notes/24b176f1-685d-44e1-a1b0-1704b1a92ca0.html">multi vault</a> workspace, Dendron will use the only existing vault. Otherwise, will ask for you to specify a vault</p>
+<h2 id="engine-commands"><a aria-hidden="true" class="anchor-heading" href="#engine-commands"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Engine Commands</h2>
+<h3 id="doctor"><a aria-hidden="true" class="anchor-heading" href="#doctor"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>doctor</h3>
+<p>Use doctor to perform specific fixes over your notes. </p>
+<ul>
+<li>NOTE: the <code>fixFrontmatter</code> option is only available via the plugin at this time</li>
+</ul>
+<pre class="language-bash"><code class="language-bash">doctor helps you fix your notes
+
+Options:
+  --version     Show version number                                    <span class="token punctuation">[</span>boolean<span class="token punctuation">]</span>
+  --help        Show <span class="token builtin class-name">help</span>                                              <span class="token punctuation">[</span>boolean<span class="token punctuation">]</span>
+  --wsRoot      location of workspace                                 <span class="token punctuation">[</span>required<span class="token punctuation">]</span>
+  --enginePort  If set, connecto to running engine. If not set, create new
+                instance of Dendron Engine
+  --action      what action the doctor should take
+                            <span class="token punctuation">[</span>array<span class="token punctuation">]</span> <span class="token punctuation">[</span>choices: <span class="token string">"h1ToTitle"</span>, <span class="token string">"h1ToH2"</span><span class="token punctuation">]</span>
+  --query       run doctor over a query                                 <span class="token punctuation">[</span>string<span class="token punctuation">]</span>
+  --limit       limit num changes                                       <span class="token punctuation">[</span>number<span class="token punctuation">]</span>
+  --dryRun      dry run                                                <span class="token punctuation">[</span>boolean<span class="token punctuation">]</span>
+</code></pre>
+<h4 id="available-actions"><a aria-hidden="true" class="anchor-heading" href="#available-actions"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>available actions</h4>
+<p></p><p></p><div class="portal-container">
+<div class="portal-head">
+<div class="portal-backlink">
+<div class="portal-title">From <span class="portal-text-title">Commands</span></div>
+<a href="https://wiki.dendron.so/notes/eea2b078-1acc-4071-a14e-18299fc28f47.html" class="portal-arrow">Go to text <span class="right-arrow">→</span></a>
+</div>
+</div>
+<div id="portal-parent-anchor" class="portal-parent" markdown="1">
+<div class="portal-parent-fader-top"></div>
+<div class="portal-parent-fader-bottom"></div>
+</div></div><p></p><p></p>
+<h4 id="examples"><a aria-hidden="true" class="anchor-heading" href="#examples"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>examples</h4>
+<ul>
+<li>convert all <code>h1</code> tags to frontmatter <code>title</code> values for the <code>readings</code> hiearchy</li>
+</ul>
+<pre class="language-bash"><code class="language-bash">dendron doctor --wsRoot <span class="token builtin class-name">.</span> --action h1ToTitle --limit <span class="token number">10</span> --query <span class="token string">"readings.*"</span> 
+</code></pre>
+<ul>
+<li>see log</li>
+</ul>
+<pre class="language-bash"><code class="language-bash"><span class="token assign-left variable">LOG_LEVEL</span><span class="token operator">=</span>info <span class="token assign-left variable">LOG_DST</span><span class="token operator">=</span>stdout dendron doctor --wsRoot <span class="token builtin class-name">.</span> --action h1ToTitle --limit <span class="token number">10</span> 
+</code></pre>
+<h3 id="launchengineserver"><a aria-hidden="true" class="anchor-heading" href="#launchengineserver"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>launchEngineServer</h3>
+<p>Launch the <a href="https://wiki.dendron.so/notes/725d99be-fadd-4464-88c3-0a5fcc7292c7.html">dendron server</a>. Useful for development purposes or to launch the server in a specified port</p>
+<p>The CLI will also write out <code>.dendron.*</code> <a href="https://wiki.dendron.so/notes/3bff1195-1d13-4e7a-bc2f-7e4cc617109c.html#file-tree">metadata files</a> in the workspace root just the same as the Dendron plugin. </p>
+<pre class="language-sh"><code class="language-sh">launch instance of dendron engine
+
+Options:
+  --version  Show version number                                       [boolean]
+  --help     Show help                                                 [boolean]
+  --wsRoot   location of workspace
+  --vault    name of vault
+  --quiet    don't print output to stdout
+  --port     port to launch server                                      [number]
+  --init     initialize server                                         [boolean]
+</code></pre>
+<h4 id="example"><a aria-hidden="true" class="anchor-heading" href="#example"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Example</h4>
+<pre><code>dendron launchEngineServer --wsRoot ~/Dendron/ --port 3005
+</code></pre>
+<h2 id="note-commands"><a aria-hidden="true" class="anchor-heading" href="#note-commands"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Note Commands</h2>
+<pre class="language-bash"><code class="language-bash">dendron note <span class="token operator">&#x3C;</span>cmd<span class="token operator">></span>
+
+note related commands
+
+Positionals:
+  cmd  a <span class="token builtin class-name">command</span> to run        <span class="token punctuation">[</span>string<span class="token punctuation">]</span> <span class="token punctuation">[</span>required<span class="token punctuation">]</span> <span class="token punctuation">[</span>choices: <span class="token string">"lookup"</span>, <span class="token string">"delete"</span><span class="token punctuation">]</span>
+
+Options:
+  --version         Show version number                                <span class="token punctuation">[</span>boolean<span class="token punctuation">]</span>
+  --help            Show <span class="token builtin class-name">help</span>                                          <span class="token punctuation">[</span>boolean<span class="token punctuation">]</span>
+  --wsRoot          location of workspace
+  --vault           name of vault
+  --quiet           don't print output to stdout
+  --enginePort      If set, connect to to running engine. If not set, create new
+                    instance of Dendron Engine
+  --useLocalEngine  If set, use <span class="token keyword">in</span> memory engine instead of connecting to a
+                    server                                             <span class="token punctuation">[</span>boolean<span class="token punctuation">]</span>
+  --query           the query to run                                    <span class="token punctuation">[</span>string<span class="token punctuation">]</span>
+
+</code></pre>
+<h3 id="common-parameters"><a aria-hidden="true" class="anchor-heading" href="#common-parameters"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Common Parameters</h3>
+<p></p><p></p><div class="portal-container">
+<div class="portal-head">
+<div class="portal-backlink">
+<div class="portal-title">From <span class="portal-text-title">Dendron CLI</span></div>
+<a href="https://wiki.dendron.so/notes/23a1b942-99af-45c8-8116-4f4bb7dccd21.html" class="portal-arrow">Go to text <span class="right-arrow">→</span></a>
+</div>
+</div>
+<div id="portal-parent-anchor" class="portal-parent" markdown="1">
+<div class="portal-parent-fader-top"></div>
+<div class="portal-parent-fader-bottom"></div><h3 id="wsroot-1"><a aria-hidden="true" class="anchor-heading" href="#wsroot-1"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>wsRoot</h3>
+<p>This only needs to be set if you are not executing the CLI from within the root of your <a href="https://wiki.dendron.so/notes/c6fd6bc4-7f75-4cbb-8f34-f7b99bfe2d50.html#workspace">workspace</a> or in a subdirectory of an existing workspace</p>
+<h3 id="vault-1"><a aria-hidden="true" class="anchor-heading" href="#vault-1"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>vault</h3>
+<p>Path to a <a href="https://wiki.dendron.so/notes/c6fd6bc4-7f75-4cbb-8f34-f7b99bfe2d50.html#vaults">vaults</a>. If not given and not a <a href="https://wiki.dendron.so/notes/24b176f1-685d-44e1-a1b0-1704b1a92ca0.html">multi vault</a> workspace, Dendron will use the only existing vault. Otherwise, will ask for you to specify a vault</p>
+</div></div><p></p><p></p>
+<h3 id="examples-1"><a aria-hidden="true" class="anchor-heading" href="#examples-1"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Examples</h3>
+<h4 id="creating-a-note"><a aria-hidden="true" class="anchor-heading" href="#creating-a-note"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Creating a note</h4>
+<pre class="language-bash"><code class="language-bash"><span class="token comment"># creates hello if it does not exist</span>
+dendron note lookup --query <span class="token string">"hello"</span> 
+</code></pre>
+<h4 id="querying-a-note"><a aria-hidden="true" class="anchor-heading" href="#querying-a-note"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Querying a note</h4>
+<pre class="language-bash"><code class="language-bash"><span class="token comment"># retrieves hello.md if it does exist</span>
+dendron note lookup --query <span class="token string">"hello"</span> 
+</code></pre>
+<h4 id="deleting-a-note"><a aria-hidden="true" class="anchor-heading" href="#deleting-a-note"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Deleting a note</h4>
+<pre class="language-bash"><code class="language-bash">dendron note delete --query <span class="token string">"foo"</span> 
+</code></pre>
+<h4 id="deleting-a-note-within-a-multi-vault-workspace"><a aria-hidden="true" class="anchor-heading" href="#deleting-a-note-within-a-multi-vault-workspace"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Deleting a note within a multi-vault workspace</h4>
+<pre class="language-bash"><code class="language-bash">dendron note delete --vault vault2 --query <span class="token string">"foo"</span> 
+</code></pre>
+<h2 id="publishing-commands"><a aria-hidden="true" class="anchor-heading" href="#publishing-commands"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Publishing Commands</h2>
+<h3 id="buildsite"><a aria-hidden="true" class="anchor-heading" href="#buildsite"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>buildSite</h3>
+<pre class="language-bash"><code class="language-bash">dendron buildSite
+
+build notes <span class="token keyword">for</span> publication using 11ty
+
+Options:
+  --version         Show version number                                <span class="token punctuation">[</span>boolean<span class="token punctuation">]</span>
+  --help            Show <span class="token builtin class-name">help</span>                                          <span class="token punctuation">[</span>boolean<span class="token punctuation">]</span>
+  --wsRoot          location of workspace                             
+  --enginePort      If set, connecto to running engine. If not set, create new
+                    instance of Dendron Engine
+  --serve           serve over <span class="token builtin class-name">local</span> http server      <span class="token punctuation">[</span>boolean<span class="token punctuation">]</span> <span class="token punctuation">[</span>default: false<span class="token punctuation">]</span>
+  --stage           serve over <span class="token builtin class-name">local</span> http server
+                                       <span class="token punctuation">[</span>choices: <span class="token string">"dev"</span>, <span class="token string">"prod"</span><span class="token punctuation">]</span> <span class="token punctuation">[</span>default: <span class="token string">"dev"</span><span class="token punctuation">]</span>
+  --output          <span class="token keyword">if</span> set, override output from config.yml             <span class="token punctuation">[</span>string<span class="token punctuation">]</span>
+  --custom11tyPath  <span class="token keyword">if</span> set, path to custom 11ty installation            <span class="token punctuation">[</span>string<span class="token punctuation">]</span>
+</code></pre>
+<h4 id="using-a-different-port"><a aria-hidden="true" class="anchor-heading" href="#using-a-different-port"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Using a different port</h4>
+<p></p><p></p><div class="portal-container">
+<div class="portal-head">
+<div class="portal-backlink">
+<div class="portal-title">From <span class="portal-text-title">Configuration</span></div>
+<a href="https://wiki.dendron.so/notes/f2ed8639-a604-4a9d-b76c-41e205fb8713.html" class="portal-arrow">Go to text <span class="right-arrow">→</span></a>
+</div>
+</div>
+<div id="portal-parent-anchor" class="portal-parent" markdown="1">
+<div class="portal-parent-fader-top"></div>
+<div class="portal-parent-fader-bottom"></div><ul>
+<li>default: 8080</li>
+</ul>
+<p>Set a different port when using the <a href="https://wiki.dendron.so/notes/23a1b942-99af-45c8-8116-4f4bb7dccd21.html#buildsite">buildSite</a> command.</p>
+</div></div><p></p><p></p>
+<h4 id="connect-to-open-workspace"><a aria-hidden="true" class="anchor-heading" href="#connect-to-open-workspace"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Connect to Open Workspace</h4>
+<p>Normally, this command will spawn a new Dendron Engine that indexes your notes before building them for publication. You can skip this initial indexing if you have a current Dendron workspace running. </p>
+<p>In that case, the CLI can connect to the current engine instead of starting a new one using the following command. </p>
+<pre class="language-bash"><code class="language-bash"><span class="token builtin class-name">cd</span> <span class="token punctuation">{</span>root/of/workspace<span class="token punctuation">}</span>
+<span class="token comment"># .dendron.port has the port of the current running workspace</span>
+npx dendron buildSite --wsRoot <span class="token builtin class-name">.</span> --stage dev --serve --enginePort <span class="token variable"><span class="token variable">`</span><span class="token function">cat</span> .dendron.port<span class="token variable">`</span></span>
+</code></pre>
+<h3 id="using-a-custom-port"><a aria-hidden="true" class="anchor-heading" href="#using-a-custom-port"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Using a custom port</h3>
+<h2 id="pod-commands"><a aria-hidden="true" class="anchor-heading" href="#pod-commands"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Pod Commands</h2>
+<ul>
+<li>NOTE: you can find pod ids in the <a href="https://wiki.dendron.so/notes/66727a39-d0a7-449b-a10d-f6c438185d7f.html">pods</a> page. Just add a <code>.import|.export</code> to the end of the id (eg. <code>dendron.pod.json.import</code>)</li>
+</ul>
+<h3 id="export-pod"><a aria-hidden="true" class="anchor-heading" href="#export-pod"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Export Pod</h3>
+<ul>
+<li>
+<p>export a pod</p>
+</li>
+<li>
+<p>eg: Export notes to JSONPod</p>
+</li>
+</ul>
+<pre><code>dendron exportPod --podId dendron.json --wsRoot . 
+</code></pre>
+<h3 id="import-pod"><a aria-hidden="true" class="anchor-heading" href="#import-pod"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Import Pod</h3>
+<ul>
+<li>eg: Import notes from FilePod</li>
+</ul>
+<pre><code>dendron importPod --podId dendron.markdown --wsRoot . 
+</code></pre>
+<h3 id="publish-pod"><a aria-hidden="true" class="anchor-heading" href="#publish-pod"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Publish Pod</h3>
+<ul>
+<li>eg: Publish a note as regular markdown</li>
+</ul>
+<pre class="language-bash"><code class="language-bash">dendron publishPod --wsRoot <span class="token builtin class-name">.</span> --podId dendron.markdown --noteByName dendron
+</code></pre>
+<h2 id="vault-commands"><a aria-hidden="true" class="anchor-heading" href="#vault-commands"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Vault Commands</h2>
+<pre class="language-sh"><code class="language-sh">dendron vault &#x3C;cmd>
+
+vault related commands
+
+Positionals:
+  cmd  a command to run                  [string] [required] [choices: "create"]
+
+Options:
+  --version         Show version number                                [boolean]
+  --help            Show help                                          [boolean]
+  --wsRoot          location of workspace
+  --vault           name of vault
+  --quiet           don't print output to stdout
+  --enginePort      If set, connect to to running engine. If not set, create new
+                    instance of Dendron Engine
+  --useLocalEngine  If set, use in memory engine instead of connecting to a
+                    server                                             [boolean]
+  --vaultPath       path to vault                            [string] [required]
+  --noAddToConfig   if set, don't add vault to dendron.yml             [boolean]
+</code></pre>
+<h3 id="actions"><a aria-hidden="true" class="anchor-heading" href="#actions"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Actions</h3>
+<h4 id="create"><a aria-hidden="true" class="anchor-heading" href="#create"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Create</h4>
+<p>Create a vault. By default, also add entry to <code>dendron.yml</code>. If no <code>dendorn.yml</code> is present, will create one. </p>
+<pre class="language-sh"><code class="language-sh">dendron vault create --vaultPath kevin-test --wsRoot .
+</code></pre>
+<h2 id="workspace-command"><a aria-hidden="true" class="anchor-heading" href="#workspace-command"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Workspace Command</h2>
+<pre class="language-sh"><code class="language-sh">dendron workspace &#x3C;cmd>
+
+workspace related commands
+
+Positionals:
+  cmd  a command to run            [string] [required] [choices: "pull", "push"]
+
+Options:
+  --version         Show version number                                [boolean]
+  --help            Show help                                          [boolean]
+  --wsRoot          location of workspace
+  --vault           name of vault
+  --quiet           don't print output to stdout
+  --enginePort      If set, connect to to running engine. If not set, create new
+                    instance of Dendron Engine
+  --useLocalEngine  If set, use in memory engine instead of connecting to a
+                    server                                             [boolean]
+</code></pre>
+<h3 id="actions-1"><a aria-hidden="true" class="anchor-heading" href="#actions-1"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Actions</h3>
+<h4 id="init"><a aria-hidden="true" class="anchor-heading" href="#init"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>init</h4>
+<p>Initialize a <a href="https://wiki.dendron.so/notes/c4cf5519-f7c2-4a23-b93b-1c9a02880f6b.html">Workspace</a>.</p>
+<h4 id="pull"><a aria-hidden="true" class="anchor-heading" href="#pull"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>pull</h4>
+<p>Run <code>git pull --rebase</code> on all vaults inside workspace</p>
+<h4 id="push"><a aria-hidden="true" class="anchor-heading" href="#push"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>push</h4>
+<p>Run <code>git push</code> on all vaults inside workspace</p>
+<ul>
+<li>NOTE: push currently skips <a href="https://wiki.dendron.so/notes/c6fd6bc4-7f75-4cbb-8f34-f7b99bfe2d50.html#workspace-vault">workspace vaults</a></li>
+</ul>
+<h4 id="addandcommit"><a aria-hidden="true" class="anchor-heading" href="#addandcommit"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>addAndCommit</h4>
+<p>Run <code>git add . &#x26;&#x26; git commit</code> on all vaults inside the workspace</p>
+<h4 id="sync"><a aria-hidden="true" class="anchor-heading" href="#sync"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>sync</h4>
+<p>Run <code>addAndCommit</code>, <code>pull</code>, and <code>push</code> on all vaults inside the workspace. This follows the same configuration as the <code>Workspace: Sync</code> command in the extension, see <a href="https://wiki.dendron.so/notes/c4cf5519-f7c2-4a23-b93b-1c9a02880f6b.html#Workspace: Sync">Workspace Sync</a> for details.</p>
+<hr>
+<h2 id="backlinks"><a aria-hidden="true" class="anchor-heading" href="#backlinks"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Backlinks</h2>
+<ul>
+<li><a href="https://wiki.dendron.so/notes/Y0cZsmfUdytwajRGeylMZ.html">CLI</a></li>
+<li><a href="https://wiki.dendron.so/notes/c160ddce-edec-4f6e-841b-418d6030fa37.html">Design</a></li>
+<li><a href="https://wiki.dendron.so/notes/50071eda-fc46-4aca-ba6c-9d53db00d068.html">Release Notes(version 0.11)</a></li>
+<li><a href="https://wiki.dendron.so/notes/9293d889-e07f-4a01-b67f-e8aca7c1c7f7.html">Release Notes (version 0.25)</a></li>
+<li><a href="https://wiki.dendron.so/notes/sRnuoGUdVgwyFyJBWPRo7.html">Release Notes (version 0.61)</a></li>
+<li><a href="https://wiki.dendron.so/notes/9bc92432-a24c-492b-b831-4d5378c1692b.html">Changelog</a></li>
+<li><a href="https://wiki.dendron.so/notes/4039fc46-06b2-4f83-b817-fc490bafbcb3.html">14 - The Seed Bank</a></li>
+<li><a href="https://wiki.dendron.so/notes/23a1b942-99af-45c8-8116-4f4bb7dccd21.html">Dendron CLI</a></li>
+<li><a href="https://wiki.dendron.so/notes/85dace70-c2ef-46e9-b467-8d297c420421.html">Setup</a></li>
+<li><a href="https://wiki.dendron.so/notes/ed4162aa-5474-4483-9fbc-c0b505310c59.html">0.1.X</a></li>
+<li><a href="https://wiki.dendron.so/notes/0eq1mz_b-gpdSZVJqruOg.html">0 2 X</a></li>
+<li><a href="https://wiki.dendron.so/notes/icBBwbAFLyjsRLheSJkAp.html">0 3 X</a></li>
+<li><a href="https://wiki.dendron.so/notes/C0HMems1EODnxGsNDVD7Z.html">0 4 X</a></li>
+<li><a href="https://wiki.dendron.so/notes/5de219e6-d9b9-4abf-9367-998109cd57cd.html">Developing a Pod</a></li>
+<li><a href="https://wiki.dendron.so/notes/e5st4LFLtIwwbQmC6JBaF.html">Quickstart</a></li>
+<li><a href="https://wiki.dendron.so/notes/f2ed8639-a604-4a9d-b76c-41e205fb8713.html">Configuration</a></li>
+<li><a href="https://wiki.dendron.so/notes/yg3EL1x9fEe4NMqxUC3jP.html">GitHub</a></li>
+<li><a href="https://wiki.dendron.so/notes/1399b5d2-28fb-4077-aa5f-c8edbe52bc5d.html">Preview Your Site</a></li>
+</ul><span id="navId" data="23a1b942-99af-45c8-8116-4f4bb7dccd21"></span>
+
+                
+      </section>
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+        <div class="thumbs feedback_trigger right-bottom"></div>
+
+        
+          <hr>
+          <footer>
+            
+            
+
+            
+              <div class="d-flex mt-2">
+              <p class="text-small text-grey-dk-000 mb-0 mr-2">
+                Page last modified: <span class="d-inline-block">10/11/2021</span>.
+              </p>
+            
+                
+                  <p class="text-small text-grey-dk-000 mb-0">
+                    <a href="https://github.com/dendronhq/dendron-site/edit/master/vault/dendron.topic.cli.md" id="edit-this-page">Edit this page on GitHub</a>
+                  </p>
+                
+              </div>
+          </footer>
+        
+    </div>
+</div>
+
+
+  
+
+  <div class="search-overlay"></div>
+
+</div>
+
+</body>
+</html>

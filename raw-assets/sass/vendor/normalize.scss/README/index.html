@@ -1,0 +1,59 @@
+<h1 id="normalizescss-v010"><a aria-hidden="true" class="anchor-heading" href="#normalizescss-v010"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>normalize.scss v0.1.0</h1>
+<p>Normalize.scss is the SCSS version of <a href="http://necolas.github.io/normalize.css">normalize.css</a>, a customisable CSS file that makes browsers render all elements more consistently and in line with modern standards.</p>
+<p><a href="http://necolas.github.io/normalize.css/latest/test.html">View the normalize.css test file</a></p>
+<h2 id="install"><a aria-hidden="true" class="anchor-heading" href="#install"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Install</h2>
+<ul>
+<li><a href="http://npmjs.org/">npm</a>: <code>npm install --save normalize.scss</code></li>
+<li><a href="https://github.com/component/component/">Component(1)</a>: <code>component install guerrero/normalize.scss</code></li>
+<li><a href="http://bower.io/">Bower</a>: <code>bower install --save normalize.scss</code></li>
+<li>Download: Go to <a href="https://raw.githubusercontent.com/guerrero/normalize.scss/master/normalize.scss">this link</a>, press right-click on the page and choose "Save as..."</li>
+</ul>
+<p>No other styles should come before Normalize.scss.</p>
+<p>It's recommendable to modify <code>normalize.scss</code> to suit it to your project</p>
+<h2 id="what-does-it-do"><a aria-hidden="true" class="anchor-heading" href="#what-does-it-do"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>What does it do?</h2>
+<ul>
+<li>Preserves useful defaults, unlike many CSS resets.</li>
+<li>Normalizes styles for a wide range of elements.</li>
+<li>Corrects bugs and common browser inconsistencies.</li>
+<li>Improves usability with subtle improvements.</li>
+<li>Explains what code does using detailed comments.</li>
+</ul>
+<h2 id="browser-support"><a aria-hidden="true" class="anchor-heading" href="#browser-support"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Browser support</h2>
+<ul>
+<li>Google Chrome (latest)</li>
+<li>Mozilla Firefox (latest)</li>
+<li>Mozilla Firefox 4</li>
+<li>Opera (latest)</li>
+<li>Apple Safari 6+</li>
+<li>Internet Explorer 8+</li>
+</ul>
+<p><a href="https://github.com/necolas/normalize.css/tree/v1">Normalize.css v1 provides legacy browser
+support</a> (IE 6+, Safari 4+),
+but is no longer actively developed.</p>
+<h2 id="extended-details"><a aria-hidden="true" class="anchor-heading" href="#extended-details"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Extended details</h2>
+<p>Additional detail and explanation of the esoteric parts of normalize.css.</p>
+<h4 id="pre-code-kbd-samp"><a aria-hidden="true" class="anchor-heading" href="#pre-code-kbd-samp"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a><code>pre, code, kbd, samp</code></h4>
+<p>The <code>font-family: monospace, monospace</code> hack fixes the inheritance and scaling
+of font-size for preformated text. The duplication of <code>monospace</code> is
+intentional.  <a href="http://en.wikipedia.org/wiki/User:Davidgothberg/Test59">Source</a>.</p>
+<h4 id="sub-sup"><a aria-hidden="true" class="anchor-heading" href="#sub-sup"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a><code>sub, sup</code></h4>
+<p>Normally, using <code>sub</code> or <code>sup</code> affects the line-box height of text in all
+browsers. <a href="http://gist.github.com/413930">Source</a>.</p>
+<h4 id="svgnotroot"><a aria-hidden="true" class="anchor-heading" href="#svgnotroot"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a><code>svg:not(:root)</code></h4>
+<p>Adding <code>overflow: hidden</code> fixes IE9's SVG rendering. Earlier versions of IE
+don't support SVG, so we can safely use the <code>:not()</code> and <code>:root</code> selectors that
+modern browsers use in the default UA stylesheets to apply this style. <a href="http://lists.w3.org/Archives/Public/public-svg-wg/2008JulSep/0339.html">SVG
+Mailing List discussion</a></p>
+<h4 id="inputtypesearch"><a aria-hidden="true" class="anchor-heading" href="#inputtypesearch"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a><code>input[type="search"]</code></h4>
+<p>The search input is not fully stylable by default. In Chrome and Safari on
+OSX/iOS you can't control <code>font</code>, <code>padding</code>, <code>border</code>, or <code>background</code>. In
+Chrome and Safari on Windows you can't control <code>border</code> properly. It will apply
+<code>border-width</code> but will only show a border color (which cannot be controlled)
+for the outer 1px of that border. Applying <code>-webkit-appearance: textfield</code>
+addresses these issues without removing the benefits of search inputs (e.g.
+showing past searches).</p>
+<h4 id="legend"><a aria-hidden="true" class="anchor-heading" href="#legend"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a><code>legend</code></h4>
+<p>Adding <code>border: 0</code> corrects an IE 8–11 bug where <code>color</code> (yes, <code>color</code>) is not
+inherited by <code>legend</code>.</p>
+<h2 id="acknowledgements"><a aria-hidden="true" class="anchor-heading" href="#acknowledgements"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Acknowledgements</h2>
+<p>Normalize.scss is a project by <a href="https://github.com/guerrero">Alex Guerrero</a> based on <a href="http://necolas.github.io/normalize.css">normalize.css</a> from <a href="https://github.com/necolas">Nicolas Gallagher</a>, co-created with <a href="https://github.com/jonathantneal">Jonathan Neal</a>.</p>

@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+  
+  <title>Import - Dendron</title>
+  
+
+  <link
+    rel="shortcut icon"
+    href="https://wiki.dendron.so/favicon.ico"
+    type="image/x-icon"
+  />
+  <link
+    rel="stylesheet"
+    href="https://wiki.dendron.so/assets/css/just-the-docs-default.css"
+  />
+  <script
+    type="text/javascript"
+    src="https://wiki.dendron.so/assets/js/just-the-docs.js"
+  ></script>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.22.0/themes/prism.min.css"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css"
+    integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X"
+    crossorigin="anonymous"
+  />
+  <script
+    type="text/javascript"
+    src="https://wiki.dendron.so/assets/js/vendor/lunr.min.js"
+  ></script>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+   
+   
+  
+<meta name="description" content="Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.">
+<meta name="author" content="dendronhq">
+
+<link rel="canonical" href="https://wiki.dendron.so/notes/tO6EFCHd2rw350zh.html">
+
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://wiki.dendron.so/notes/tO6EFCHd2rw350zh.html">
+<meta property="og:description" content="Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.">
+<meta property="og:image" content="https://wiki.dendron.so/logo.png">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@dendronhq">
+<meta name="twitter:url" content="https://wiki.dendron.so/notes/tO6EFCHd2rw350zh.html">
+<meta name="twitter:description" content="Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.">
+<meta name="twitter:image" content="https://wiki.dendron.so/logo.png">
+
+
+  <meta property="og:title" content="Import - Dendron" />
+  <meta name="twitter:title" content="Import - Dendron" />
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-B0JN2HHCNY"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-B0JN2HHCNY');
+  </script>
+  
+</head>
+
+
+
+<body>
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+      <symbol id="svg-link" viewBox="0 0 24 24">
+        <title>Link</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-link">
+          <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+        </svg>
+      </symbol>
+      <symbol id="svg-search" viewBox="0 0 24 24">
+        <title>Search</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search">
+          <circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+      </symbol>
+      <symbol id="svg-menu" viewBox="0 0 24 24">
+        <title>Menu</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu">
+          <line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+      </symbol>
+      <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+        <title>Expand</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+          <polyline points="9 18 15 12 9 6"></polyline>
+        </svg>
+      </symbol>
+      <symbol id="svg-doc" viewBox="0 0 24 24">
+        <title>Document</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file">
+          <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path><polyline points="13 2 13 9 20 9"></polyline>
+        </svg>
+      </symbol>
+    </svg>
+
+    <div class="side-bar">
+      <div class="site-header">
+        <a href="https://wiki.dendron.so" class="site-title lh-tight">
+  <div class="site-logo"></div>
+
+ </a>
+        <a href="#" id="menu-button" class="site-button">
+          <svg viewBox="0 0 24 24" class="icon"><use xlink:href="#svg-menu"></use></svg>
+        </a>
+      </div>
+
+      <nav role="navigation" aria-label="Main" id="site-nav" class="site-nav">
+      </nav>
+      <footer class="site-footer">
+        🌱 with 💕 using <a href="https://www.dendron.so/"> Dendron 🌲 </a>
+      </footer>
+    </div>
+    <div class="main" id="top">
+        <div id="main-header" class="main-header">
+          
+            <div class="search">
+              <div class="search-input-wrap">
+                <input type="text" id="search-input" class="search-input" tabindex="0" placeholder="Search Dendron" aria-label="Search Dendron" autocomplete="off">
+                <label for="search-input" class="search-label"><svg viewBox="0 0 24 24" class="search-icon"><use xlink:href="#svg-search"></use></svg></label>
+              </div>
+              <div id="search-results" class="search-results"></div>
+            </div>
+          
+          
+    </div>
+    <div id="main-content-wrap" class="main-content-wrap">
+      
+        
+          <nav aria-label="Breadcrumb" class="breadcrumb-nav">
+            <ol class="breadcrumb-nav-list"><li class="breadcrumb-nav-list-item"><a href="https://wiki.dendron.so">Dendron</a></li><li class="breadcrumb-nav-list-item"><a href="https://wiki.dendron.so/notes/7a7af2fa-b9d0-4adc-81e6-f03186123539.html">Topics</a></li><li class="breadcrumb-nav-list-item"><a href="https://wiki.dendron.so/notes/66727a39-d0a7-449b-a10d-f6c438185d7f.html">Pods</a></li><li class="breadcrumb-nav-list-item"><a href="https://wiki.dendron.so/notes/3e519113-5820-4a84-bef8-85103a7b296b.html">Builtin Pods</a></li><li class="breadcrumb-nav-list-item"><a href="https://wiki.dendron.so/notes/Mx7yEsdtZRcs1rHi.html">Google Docs</a></li><li class="breadcrumb-nav-list-item">Import</li></ol>
+          </nav>
+        
+      
+      <div id="main-content" class="main-content" role="main">
+
+        
+        
+        <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+        <script>mermaid.initialize({startOnLoad:true});</script>
+        
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+        
+        
+
+        
+
+        
+
+        
+
+        <script>
+          $(function () {
+            $('[data-toggle="popover"]').popover({html: true})
+          })
+        </script>
+
+        
+
+<div id="main" role="main">
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Import">
+    
+    <meta itemprop="datePublished" content="2021-07-15T16:04:54+00:00">
+    <meta itemprop="dateModified" content="2021-10-14T01:27:17+00:00">
+
+    <div class="page__inner-wrap">
+
+      
+
+      <section class="page__content" itemprop="text">
+
+        
+
+        <h1 id="import"><a aria-hidden="true" class="anchor-heading" href="#import"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Import</h1>
+<h2 id="summary"><a aria-hidden="true" class="anchor-heading" href="#summary"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Summary</h2>
+<p>The Google Docs Import Pod imports contents of a google document to a specified hierarchy in your selected vault as a note.
+The import config has additional options to import comments in the doc.</p>
+<h2 id="workflow"><a aria-hidden="true" class="anchor-heading" href="#workflow"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Workflow</h2>
+<p>There are several steps to using the gdoc import pod:</p>
+<ol>
+<li>Authentication</li>
+<li>Choosing Which Document To Import</li>
+<li>Choosing the Destination</li>
+</ol>
+<h3 id="authentication"><a aria-hidden="true" class="anchor-heading" href="#authentication"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Authentication</h3>
+<p>There are currently two ways to authenticate - through an OAuth workflow (currently in Beta) and a manual workflow.</p>
+<h4 id="oauth-flow-beta"><a aria-hidden="true" class="anchor-heading" href="#oauth-flow-beta"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>OAuth Flow (Beta)</h4>
+<p><em><strong>Note</strong>: This feature is currently in Beta and requires your Google Account to be onboarded to our service. If you're interested in testing out this feature, please contact us at <a href="mailto:support@dendron.so">support@dendron.so</a> or on Discord.</em></p>
+<p>After getting your Google Account onboarded with us, simply run the GDoc import pod and you'll be redirected to your browser to sign in with your Google Account. Once signed in, your credentials will be saved and you can run the Import Pod again to import your docs.</p>
+<h4 id="manual-workflow"><a aria-hidden="true" class="anchor-heading" href="#manual-workflow"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Manual Workflow</h4>
+<p>To communicate with the Google Docs, you'll need to manually obtain OAuth token with the right scopes.
+Follow the steps below to create a token. The scopes you require depends on the type of data you're trying to request, you can even select all and you are good to go.</p>
+<ol>
+<li>Go to <a href="https://developers.google.com/oauthplayground/">Google Oauth2 Playground</a> and select the <code>Google Docs API v1</code> with scope as <code>https://www.googleapis.com/auth/documents</code> and <code>https://www.googleapis.com/auth/drive</code> and click on Authorize APIs button. Authorize yourself by selecting your google account from the oauth popup.</li>
+<li>On Step 2 in Oauth2 Playground, click on exchange authorization code for tokens. Copy the access token, refresh token and store it in the  dendron gdoc import pod config file.</li>
+</ol>
+<h3 id="choosing-which-document-to-import"><a aria-hidden="true" class="anchor-heading" href="#choosing-which-document-to-import"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Choosing which Document to Import</h3>
+<p>The Pod will automatically query for documents on your Drive and provide you with a drop down list of documents for you to choose to import. Currently, only one file can be imported at a time. If it takes the engine too long to query for your documents (maybe if you have a lot of documents on your drive), then the operation will time out. In this case, you can manually enter the name of the document you want to import.</p>
+<h3 id="choosing-the-destination"><a aria-hidden="true" class="anchor-heading" href="#choosing-the-destination"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Choosing the Destination</h3>
+<p>The final prompt in the workflow asks for the destination location of the note to put the gdoc contents in.  By default, the name of the document is populated.  If you import this document repeatedly, then the destination will be pre-populated with the path you picked during the previous import.</p>
+<h2 id="example"><a aria-hidden="true" class="anchor-heading" href="#example"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Example</h2>
+<ul>
+<li>config</li>
+</ul>
+<pre class="language-yml"><code class="language-yml"><span class="token key atrule">src</span><span class="token punctuation">:</span> gdoc
+<span class="token key atrule">vaultName</span><span class="token punctuation">:</span> vault
+<span class="token key atrule">owner</span><span class="token punctuation">:</span> dendronhq
+<span class="token key atrule">accessToken</span><span class="token punctuation">:</span> <span class="token important">***</span>
+<span class="token key atrule">refreshToken</span><span class="token punctuation">:</span> <span class="token important">***</span>
+<span class="token key atrule">expirationTime</span><span class="token punctuation">:</span> <span class="token number">1630569771.749</span>
+<span class="token key atrule">importComments</span><span class="token punctuation">:</span> <span class="token punctuation">{</span><span class="token key atrule">enable</span><span class="token punctuation">:</span> <span class="token boolean important">true</span><span class="token punctuation">,</span> <span class="token key atrule">format</span><span class="token punctuation">:</span> text<span class="token punctuation">}</span>
+<span class="token key atrule">confirmOverwrite</span><span class="token punctuation">:</span> <span class="token boolean important">true</span>
+</code></pre>
+<ul>
+<li>Original </li>
+</ul>
+<pre><code>└── vault
+    └── projects
+          ├─one.md
+          ├─two.md
+  
+</code></pre>
+<ul>
+<li>After</li>
+</ul>
+<pre><code>  └── vault
+        ├── projects.one.md
+        ├── projects.two.md
+        └── gdoc.topic.dendron
+
+</code></pre>
+<ul>
+<li>Imported Doc</li>
+</ul>
+<pre class="language-md"><code class="language-md"><span class="token front-matter-block"><span class="token punctuation">---</span>
+<span class="token font-matter yaml language-yaml">title: Dendron
+documentId: ***
+revisionId: ***</span>
+<span class="token punctuation">---</span></span>
+<span class="token title important"><span class="token punctuation">##</span> Dendron</span>
+
+Dendron is an <span class="token bold"><span class="token punctuation">**</span><span class="token content">open-source</span><span class="token punctuation">**</span></span>, <span class="token bold"><span class="token punctuation">**</span><span class="token content">local-first</span><span class="token punctuation">**</span></span>, <span class="token bold"><span class="token punctuation">**</span><span class="token content">markdown-based</span><span class="token punctuation">**</span></span>, <span class="token bold"><span class="token punctuation">**</span><span class="token content">note-taking</span><span class="token punctuation">**</span></span> tool built on top of <span class="token url">[<span class="token content">VSCode</span>](<span class="token url">https://code.visualstudio.com/</span>)</span>. Like most such tools, Dendron supports all the usual features you would expect like :
+
+<span class="token list punctuation">-</span> Tagging
+<span class="token list punctuation">-</span> Backlink
+<span class="token list punctuation">-</span> graph view
+<span class="token list punctuation">-</span> split panes.
+
+ Dendron helps you get notes back out and works better the more notes you have.
+
+ <span class="token title important"><span class="token punctuation">###</span> Comments</span>
+
+ <span class="token list punctuation">-</span> John Doe: @adam can we add use cases in the note 
+
+<span class="token code keyword">	 replies to this comment: </span>
+
+<span class="token code keyword">	 - Adam Smith: Yes, added.</span>
+</code></pre>
+<h2 id="configuration"><a aria-hidden="true" class="anchor-heading" href="#configuration"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Configuration</h2>
+<p></p><p></p><div class="portal-container">
+<div class="portal-head">
+<div class="portal-backlink">
+<div class="portal-title">From <span class="portal-text-title">Import</span></div>
+<a href="https://wiki.dendron.so/notes/34893663-b1cc-4c4f-aea7-6f1728365b89.html" class="portal-arrow">Go to text <span class="right-arrow">→</span></a>
+</div>
+</div>
+<div id="portal-parent-anchor" class="portal-parent" markdown="1">
+<div class="portal-parent-fader-top"></div>
+<div class="portal-parent-fader-bottom"></div><h3 id="src"><a aria-hidden="true" class="anchor-heading" href="#src"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>src</h3>
+<ul>
+<li>description: "Where to import from"</li>
+<li>type: "string" as const</li>
+<li>required: true</li>
+</ul>
+<h3 id="vaultname"><a aria-hidden="true" class="anchor-heading" href="#vaultname"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>vaultName</h3>
+<ul>
+<li>description: "name of vault to import into"</li>
+<li>type: "string" as const</li>
+<li>required: true</li>
+</ul>
+<h3 id="concatenate"><a aria-hidden="true" class="anchor-heading" href="#concatenate"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>concatenate</h3>
+<ul>
+<li>description: "whether to concatenate everything into one note"</li>
+<li>type: "boolean"</li>
+<li>default: false</li>
+</ul>
+<p>When importing, you can either import everything from source as multiple files or concatenate it all together as one file</p>
+<h3 id="frontmatter"><a aria-hidden="true" class="anchor-heading" href="#frontmatter"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>frontmatter</h3>
+<ul>
+<li>description: "frontmatter to add to each note"</li>
+<li>type: "object"</li>
+</ul>
+<p>You can add custom <a href="https://wiki.dendron.so/notes/ffec2853-c0e0-4165-a368-339db12c8e4b.html">frontmatter</a> to notes as you import them. This is useful for example, when you want to set custom <a href="https://wiki.dendron.so/notes/f2ed8639-a604-4a9d-b76c-41e205fb8713.html#note-configuration">publishing options</a> for imported notes</p>
+<h3 id="fnameasid"><a aria-hidden="true" class="anchor-heading" href="#fnameasid"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>fnameAsId</h3>
+<ul>
+<li>description: "use the file name as the id"</li>
+<li>type: "boolean"</li>
+</ul>
+<p>By default, random uuids are generated as the id for each imported note. This makes the id equivalent to that of the filename</p>
+<h3 id="destname"><a aria-hidden="true" class="anchor-heading" href="#destname"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>destName</h3>
+<ul>
+<li>description: "If <code>concatenate</code> option is set, this is the name of the destination path</li>
+<li>type: "string" as const</li>
+</ul>
+</div></div><p></p><p></p>
+<h3 id="additional-google-doc-pod-specific-configurations"><a aria-hidden="true" class="anchor-heading" href="#additional-google-doc-pod-specific-configurations"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Additional Google Doc Pod Specific Configurations:</h3>
+<h3 id="accesstoken"><a aria-hidden="true" class="anchor-heading" href="#accesstoken"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>accessToken</h3>
+<ul>
+<li>description: google doc personal access token</li>
+<li>type: string</li>
+<li>required: true</li>
+</ul>
+<h3 id="refreshtoken"><a aria-hidden="true" class="anchor-heading" href="#refreshtoken"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>refreshToken</h3>
+<ul>
+<li>description: google doc refresh token. This will be used to automatically refresh the access token once it passes its expiration time.</li>
+<li>type: string</li>
+<li>required: false</li>
+</ul>
+<h3 id="expirationtime"><a aria-hidden="true" class="anchor-heading" href="#expirationtime"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>expirationTime</h3>
+<ul>
+<li>description: Expiration Time of the Access Token. It is not necessary to manually modify this value.</li>
+<li>type: "number"</li>
+<li>required: false</li>
+</ul>
+<h3 id="importcomments"><a aria-hidden="true" class="anchor-heading" href="#importcomments"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>importComments</h3>
+<ul>
+<li>
+<p>description: import comments from the doc in text or json format</p>
+</li>
+<li>
+<p>required: false</p>
+</li>
+<li>
+<p>type: object</p>
+</li>
+<li>
+<p>example: : {enable: true, format: text} </p>
+</li>
+<li>
+<p><strong>enable</strong>
+type: boolean
+default: false
+required: true</p>
+</li>
+<li>
+<p><strong>format</strong>
+type: string
+default: json
+accepted formats: json/text</p>
+</li>
+</ul>
+<h3 id="confirmoverwrite"><a aria-hidden="true" class="anchor-heading" href="#confirmoverwrite"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>confirmOverwrite</h3>
+<ul>
+<li>description: prompt user for confirmation before overwriting existing note</li>
+<li>type: boolean</li>
+<li>required: false</li>
+<li>default: true</li>
+</ul>
+<hr>
+<h2 id="backlinks"><a aria-hidden="true" class="anchor-heading" href="#backlinks"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Backlinks</h2>
+<ul>
+<li><a href="https://wiki.dendron.so/notes/oLUblPDevwOoYr06.html">Release Notes (version 0.52)</a></li>
+<li><a href="https://wiki.dendron.so/notes/Tf4vuVLV3rSdpzD8la9FP.html">0 5 X</a></li>
+<li><a href="https://wiki.dendron.so/notes/Mx7yEsdtZRcs1rHi.html">Google Docs</a></li>
+</ul><span id="navId" data="tO6EFCHd2rw350zh"></span>
+
+                
+      </section>
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+        <div class="thumbs feedback_trigger right-bottom"></div>
+
+        
+          <hr>
+          <footer>
+            
+            
+
+            
+              <div class="d-flex mt-2">
+              <p class="text-small text-grey-dk-000 mb-0 mr-2">
+                Page last modified: <span class="d-inline-block">10/14/2021</span>.
+              </p>
+            
+                
+                  <p class="text-small text-grey-dk-000 mb-0">
+                    <a href="https://github.com/dendronhq/dendron-site/edit/master/vault/dendron.topic.pod.builtin.google-docs.import.md" id="edit-this-page">Edit this page on GitHub</a>
+                  </p>
+                
+              </div>
+          </footer>
+        
+    </div>
+</div>
+
+
+  
+
+  <div class="search-overlay"></div>
+
+</div>
+
+</body>
+</html>

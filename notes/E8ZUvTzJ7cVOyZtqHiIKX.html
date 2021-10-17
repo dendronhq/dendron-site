@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+  
+  <title>34 Note Type System - Dendron</title>
+  
+
+  <link
+    rel="shortcut icon"
+    href="https://wiki.dendron.so/favicon.ico"
+    type="image/x-icon"
+  />
+  <link
+    rel="stylesheet"
+    href="https://wiki.dendron.so/assets/css/just-the-docs-default.css"
+  />
+  <script
+    type="text/javascript"
+    src="https://wiki.dendron.so/assets/js/just-the-docs.js"
+  ></script>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.22.0/themes/prism.min.css"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css"
+    integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X"
+    crossorigin="anonymous"
+  />
+  <script
+    type="text/javascript"
+    src="https://wiki.dendron.so/assets/js/vendor/lunr.min.js"
+  ></script>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+   
+   
+  
+<meta name="description" content="Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.">
+<meta name="author" content="dendronhq">
+
+<link rel="canonical" href="https://wiki.dendron.so/notes/E8ZUvTzJ7cVOyZtqHiIKX.html">
+
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://wiki.dendron.so/notes/E8ZUvTzJ7cVOyZtqHiIKX.html">
+<meta property="og:description" content="Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.">
+<meta property="og:image" content="https://wiki.dendron.so/logo.png">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@dendronhq">
+<meta name="twitter:url" content="https://wiki.dendron.so/notes/E8ZUvTzJ7cVOyZtqHiIKX.html">
+<meta name="twitter:description" content="Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.">
+<meta name="twitter:image" content="https://wiki.dendron.so/logo.png">
+
+
+  <meta property="og:title" content="34 Note Type System - Dendron" />
+  <meta name="twitter:title" content="34 Note Type System - Dendron" />
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-B0JN2HHCNY"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-B0JN2HHCNY');
+  </script>
+  
+</head>
+
+
+
+<body>
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+      <symbol id="svg-link" viewBox="0 0 24 24">
+        <title>Link</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-link">
+          <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+        </svg>
+      </symbol>
+      <symbol id="svg-search" viewBox="0 0 24 24">
+        <title>Search</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search">
+          <circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+      </symbol>
+      <symbol id="svg-menu" viewBox="0 0 24 24">
+        <title>Menu</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu">
+          <line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+      </symbol>
+      <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+        <title>Expand</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+          <polyline points="9 18 15 12 9 6"></polyline>
+        </svg>
+      </symbol>
+      <symbol id="svg-doc" viewBox="0 0 24 24">
+        <title>Document</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file">
+          <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path><polyline points="13 2 13 9 20 9"></polyline>
+        </svg>
+      </symbol>
+    </svg>
+
+    <div class="side-bar">
+      <div class="site-header">
+        <a href="https://wiki.dendron.so" class="site-title lh-tight">
+  <div class="site-logo"></div>
+
+ </a>
+        <a href="#" id="menu-button" class="site-button">
+          <svg viewBox="0 0 24 24" class="icon"><use xlink:href="#svg-menu"></use></svg>
+        </a>
+      </div>
+
+      <nav role="navigation" aria-label="Main" id="site-nav" class="site-nav">
+      </nav>
+      <footer class="site-footer">
+        🌱 with 💕 using <a href="https://www.dendron.so/"> Dendron 🌲 </a>
+      </footer>
+    </div>
+    <div class="main" id="top">
+        <div id="main-header" class="main-header">
+          
+            <div class="search">
+              <div class="search-input-wrap">
+                <input type="text" id="search-input" class="search-input" tabindex="0" placeholder="Search Dendron" aria-label="Search Dendron" autocomplete="off">
+                <label for="search-input" class="search-label"><svg viewBox="0 0 24 24" class="search-icon"><use xlink:href="#svg-search"></use></svg></label>
+              </div>
+              <div id="search-results" class="search-results"></div>
+            </div>
+          
+          
+    </div>
+    <div id="main-content-wrap" class="main-content-wrap">
+      
+        
+          <nav aria-label="Breadcrumb" class="breadcrumb-nav">
+            <ol class="breadcrumb-nav-list"><li class="breadcrumb-nav-list-item"><a href="https://wiki.dendron.so">Dendron</a></li><li class="breadcrumb-nav-list-item"><a href="https://wiki.dendron.so/notes/f143ca38-dcc6-4cd3-b84b-997aec1160ef.html">Rfc</a></li><li class="breadcrumb-nav-list-item">34 Note Type System</li></ol>
+          </nav>
+        
+      
+      <div id="main-content" class="main-content" role="main">
+
+        
+        
+        <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+        <script>mermaid.initialize({startOnLoad:true});</script>
+        
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+        
+        
+
+        
+
+        
+
+        
+
+        <script>
+          $(function () {
+            $('[data-toggle="popover"]').popover({html: true})
+          })
+        </script>
+
+        
+
+<div id="main" role="main">
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="34 Note Type System">
+    
+    <meta itemprop="datePublished" content="2021-10-06T08:18:20+00:00">
+    <meta itemprop="dateModified" content="2021-10-11T07:26:26+00:00">
+
+    <div class="page__inner-wrap">
+
+      
+
+      <section class="page__content" itemprop="text">
+
+        
+
+        <h1 id="34-note-type-system"><a aria-hidden="true" class="anchor-heading" href="#34-note-type-system"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>34 Note Type System</h1>
+<h2 id="goals"><a aria-hidden="true" class="anchor-heading" href="#goals"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Goals</h2>
+<p>To introduce an extensible note typing system that enables specialized and configurable note behavior.</p>
+<h3 id="detailed-goals"><a aria-hidden="true" class="anchor-heading" href="#detailed-goals"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Detailed Goals</h3>
+<ul>
+<li>
+<p>To provide more custom functionality to notes in Dendron</p>
+</li>
+<li>
+<p>To integrate the concept of types with the existing schema paradigm</p>
+</li>
+<li>
+<p>Extensibility - it should be possible to add new note types with relatively low friction. Varying levels of friction, with the top level being the level for MVP (minimal viable product)</p>
+<ol>
+<li>
+<p>Devs can define and add a new note type without altering core engine code</p>
+</li>
+<li>
+<p>Devs can define and add a new note type without altering the Dendron extension (via supplementary extensions)</p>
+</li>
+<li>
+<p>Users can define and add a new note type locally within Dendron itself (no touching of .vsix's necessary)</p>
+<p>To which extent (1-3) we want for authoring and implementing note types is an open question.</p>
+</li>
+</ol>
+</li>
+<li>
+<p>To simplify bespoke special note logic that currently exists in Dendron code</p>
+</li>
+</ul>
+<h3 id="non-goals"><a aria-hidden="true" class="anchor-heading" href="#non-goals"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Non Goals</h3>
+<ul>
+<li>It may not be a requirement to have 100% compatibility with schemas as they exist today - that is, if we need to adjust how schemas work then we should do so when sensible.</li>
+</ul>
+<h2 id="context"><a aria-hidden="true" class="anchor-heading" href="#context"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Context</h2>
+<p>Having a type system for notes would unlock a lot of functionality that currently is unavailable.</p>
+<h3 id="existing-and-proposed-special-note-behavior"><a aria-hidden="true" class="anchor-heading" href="#existing-and-proposed-special-note-behavior"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Existing and Proposed Special Note Behavior</h3>
+<p>Over time, both our end users and as internal users at the Dendron team have come up with various types of special notes where certain nuanced behavior is desired. Some implemented and proposed examples include:</p>
+<h4 id="implemented-behaviors"><a aria-hidden="true" class="anchor-heading" href="#implemented-behaviors"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Implemented Behaviors</h4>
+<ul>
+<li><strong>Daily Journal and Scratch Notes</strong>: These notes have special behavior around naming and have some special configurations around their behavior.</li>
+<li><strong>Index Notes</strong>: See <a href="https://wiki.dendron.so/notes/6TOh3VApIUfap7c3.html">18 Add Note Indexes</a>. This is an implemented feature.</li>
+</ul>
+<h4 id="proposed-behaviors"><a aria-hidden="true" class="anchor-heading" href="#proposed-behaviors"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Proposed Behaviors</h4>
+<ul>
+<li><strong>To-Do Notes</strong>: See <a href="https://github.com/dendronhq/dendron/discussions/1358">https://github.com/dendronhq/dendron/discussions/1358</a>. Currently in proposal stage.</li>
+<li><strong>Flashcard Notes</strong>: For example for Spaced Repetition. See <a href="https://wiki.dendron.so/notes/X2Zn2H89eBZrsj7Of8LLm.html">https://wiki.dendron.so/notes/X2Zn2H89eBZrsj7Of8LLm.html</a></li>
+<li><strong>Images as Notes</strong>: See <a href="https://github.com/dendronhq/dendron/issues/1450">https://github.com/dendronhq/dendron/issues/1450</a></li>
+</ul>
+<h2 id="proposal"><a aria-hidden="true" class="anchor-heading" href="#proposal"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Proposal</h2>
+<h3 id="concepts"><a aria-hidden="true" class="anchor-heading" href="#concepts"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Concepts</h3>
+<p>Some functionality described here with Types can also be achieved with Dendron's Schema system. The main conceptual difference is that schemas apply behavior <strong>based on a note's hierarchy position</strong>, whereas a type system would apply behavior <strong>based on a frontmatter designation on a note level</strong>. For types to really be powerful, they must work within the concept of schemas. It should be possible to apply a type to a note in the same manner that templates can be applied through a schema definition, i.e. <em>for all notes falling within this hierarchy, designate all of their types to be <code>foo</code></em>.</p>
+<p>To Recap:</p>
+<ul>
+<li>A <strong>Schema</strong> applies behavior to a note or notes based on their position within a hierarchy.</li>
+<li>A <strong>Type</strong> applies behavior to a single note. A note's type is designated by a field in its frontmatter.</li>
+</ul>
+<h3 id="schema-and-type-relationship"><a aria-hidden="true" class="anchor-heading" href="#schema-and-type-relationship"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Schema and Type Relationship</h3>
+<p>Instead of having schema templates specify a template, we have 'schema templates' specify a type. The only semantic difference is that when the note is generated, the template will be applied <strong>and</strong> the type will be set in the frontmatter. This will unlock functionality that we can see later on.</p>
+<p>Possible Syntax in *.schema.yml:</p>
+<pre class="language-yml"><code class="language-yml"><span class="token key atrule">schemas</span><span class="token punctuation">:</span>
+<span class="token punctuation">-</span> <span class="token key atrule">id</span><span class="token punctuation">:</span> dendron
+  <span class="token key atrule">parent</span><span class="token punctuation">:</span> root
+  <span class="token key atrule">children</span><span class="token punctuation">:</span>
+    <span class="token punctuation">-</span> rfc
+<span class="token punctuation">-</span> <span class="token key atrule">id</span><span class="token punctuation">:</span> rfc
+  <span class="token key atrule">children</span><span class="token punctuation">:</span> 
+    <span class="token punctuation">-</span> rfcInstance
+<span class="token punctuation">-</span> <span class="token key atrule">id</span><span class="token punctuation">:</span> rfcInstance
+  <span class="token key atrule">pattern</span><span class="token punctuation">:</span> <span class="token string">'*'</span>
+  <span class="token key atrule">type</span><span class="token punctuation">:</span>
+    <span class="token key atrule">id</span><span class="token punctuation">:</span> rfc.type <span class="token comment"># Here, we can extend the type field to specify </span>
+</code></pre>
+<h3 id="type-functionality"><a aria-hidden="true" class="anchor-heading" href="#type-functionality"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Type Functionality</h3>
+<h4 id="apply-template-to-note"><a aria-hidden="true" class="anchor-heading" href="#apply-template-to-note"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Apply Template to Note</h4>
+<p>This is the most straightforward example of Type functionality. This can be more flexible than the current schema templating functionality, as you can arbitrarily apply the note type to notes at various positions in the hierarchy without needing to modify schema definitions.</p>
+<p>The further added benefit of having templates applied via types, is that we can have (non-strict) guarantees that a note with a particular type has a template applied. See <a title="Private" style="color: brown" href="https://wiki.dendron.so/notes/hfyvYGJZQiUwQaaxQO27q.html" target="_blank">Guarantees on Note Contents / Front matter Field Presence (Private)</a> below.</p>
+<h4 id="auto-generation-of-content-within-a-note"><a aria-hidden="true" class="anchor-heading" href="#auto-generation-of-content-within-a-note"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Auto Generation of Content within a Note</h4>
+<p>A typed note can run arbitrary execution to update its contents whenever it is opened or whenever one of its children is updated.</p>
+<p>The generated content does not need to be restricted to just be based off other notes within Dendron - the execution can be arbitrary, similar to our current hooks implementation. But with a type system, we can have hook execution be scoped to a particular type as opposed to being applied to the whole workspace.</p>
+<h4 id="special-rendering-of-note-in-preview"><a aria-hidden="true" class="anchor-heading" href="#special-rendering-of-note-in-preview"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Special Rendering of Note in Preview</h4>
+<p>We can alter the rendering behavior of a note based on its type, for both the preview and for published sites.</p>
+<p><em>An open question is how to properly implement custom rendering.</em></p>
+<h4 id="special-rendering-and-editing-experience-of-note-in-editor-pane"><a aria-hidden="true" class="anchor-heading" href="#special-rendering-and-editing-experience-of-note-in-editor-pane"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Special Rendering and Editing Experience of Note in Editor Pane</h4>
+<p>We can also have certain VS Code API hooks that get enabled when a particular note type is in focus in the editor pane. For example, we can toggle <a href="https://code.visualstudio.com/api/references/vscode-api#TextEditorDecorationType">Text Decorators</a> that are specific to note types.</p>
+<p>We can further extend this concept to allow type-specific behavior for VS Code's API in the following areas:</p>
+<ul>
+<li><a href="https://code.visualstudio.com/api/references/vscode-api#TextEditor">Text Editor</a></li>
+<li><a href="https://code.visualstudio.com/api/references/vscode-api#workspace">Workspace APIs</a></li>
+<li>Potentially More</li>
+</ul>
+<h4 id="decoration-of-note-name-during-creation"><a aria-hidden="true" class="anchor-heading" href="#decoration-of-note-name-during-creation"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Decoration of Note Name During Creation</h4>
+<p>A type could specify certain decorations to occur on the note name during creation. This covers the functionality that journal notes and scratch notes currently provide. With a customizable type system, users can have finer control on how their notes are named.</p>
+<h3 id="things-you-can-do-when-a-type-system-exists"><a aria-hidden="true" class="anchor-heading" href="#things-you-can-do-when-a-type-system-exists"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Things you can do when a type system exists</h3>
+<h4 id="guarantees-on-note-contents--front-matter-field-presence-when-querying"><a aria-hidden="true" class="anchor-heading" href="#guarantees-on-note-contents--front-matter-field-presence-when-querying"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Guarantees on Note Contents / Front matter Field Presence when Querying</h4>
+<p>Because all notes of a particular type can have a guarantee on a template being applied, we can parse the markdown for a particular section of content.</p>
+<p>For example, let's assume you have a project type with an H2 section that contains 'latest status'. Say you want to get a summarized view of the latest status for all projects.</p>
+<p>You can perform an action as follows:</p>
+<ol>
+<li>Dendron Note Engine - give me all notes of type <code>project</code> under the hierarchy <code>2021.Q1.projects</code></li>
+<li>For each returned note, generate text that creates note syntax for a note reference for the status field</li>
+<li>Render all those references in my current 'overview' note.</li>
+</ol>
+<p>In fact, the <code>overview</code> note itself can be its own type - it can define behavior that whenever its children are modified, then it can update its contents to reflect the latest status.</p>
+<p>In addition to note contents, we can also have guarantees on frontmatter fields. For example, say each project note has a frontmatter flag for <code>status</code>, which can be of values <code>In Design</code>, <code>Implementing</code>, <code>Complete</code>. The overview note can also organize projects based on their status.</p>
+<h4 id="refactor-operations-based-on-types"><a aria-hidden="true" class="anchor-heading" href="#refactor-operations-based-on-types"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Refactor Operations based on Types</h4>
+<p>Currently, we have certain capabilities of refactoring your notes - moving hierarchies based on glob pattern matches, and various doctor commands can also be viewed as a form of refactoring.</p>
+<p>Types can introduce refactoring operations specific to those types. Some possible ways to refactor:</p>
+<ul>
+<li>Modify Template (or more generally, modification of the type itself). Say you wanted to add an additional header to your template and apply it across all notes for that type</li>
+<li>Apply certain operations to all notes of a certain type.  For example, update status of all <code>project</code> notes under the 2020.Q4 hierarchy as <code>late</code>. We can expose functionality that allows types to register additional commands.</li>
+</ul>
+<h4 id="miscellaneous"><a aria-hidden="true" class="anchor-heading" href="#miscellaneous"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Miscellaneous</h4>
+<ul>
+<li>We can have code warnings when a typed note doesn't conform to its definition.</li>
+</ul>
+<h4 id="other-possibilities"><a aria-hidden="true" class="anchor-heading" href="#other-possibilities"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Other Possibilities</h4>
+<p>As the scope of Dendron expands, so too can the API surface for note types. The API can be extended to meet the needs of our users and as the domain of Dendron changes and grows.</p>
+<h3 id="type-applicability"><a aria-hidden="true" class="anchor-heading" href="#type-applicability"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Type Applicability</h3>
+<p>As with interfaces in object-oriented programming languages, a note can have multiple types. If there are multiple types applied that have conflicting functionality, we will have to develop rules governing which type gets precedence. A possible method is to respect the ordering of the types in the frontmatter of the note.</p>
+<h2 id="examples"><a aria-hidden="true" class="anchor-heading" href="#examples"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Examples</h2>
+<p>In this section, let's examine a few concrete examples of how having a note-type system can be beneficial:</p>
+<h3 id="a-project-type"><a aria-hidden="true" class="anchor-heading" href="#a-project-type"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>A Project Type</h3>
+<p>Possible Functionality Added with a Type System:</p>
+<ul>
+<li>Project Template</li>
+<li>Status Section, which can be extracted via provideContent into a single overview page</li>
+<li>Guarantees on frontmatter flags for status (like 'in spec', 'implementing', 'done') - these can be integrated in the note template using <a href="https://wiki.dendron.so/notes/ba97866b-889f-4ac6-86e7-bb2d97f6e376.html#frontmatter-variable-substitution">Frontmatter variable substitution</a> to create a glanceable status section at the top of the note. </li>
+</ul>
+<h3 id="an-index-note-type"><a aria-hidden="true" class="anchor-heading" href="#an-index-note-type"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>An Index Note Type</h3>
+<p>See <a href="https://wiki.dendron.so/notes/6TOh3VApIUfap7c3.html">18 Add Note Indexes</a></p>
+<p>Index notes could utilize <a title="Private" style="color: brown" href="https://wiki.dendron.so/notes/hfyvYGJZQiUwQaaxQO27q.html" target="_blank">auto generation of content within a note (Private)</a> to automatically update its index- we can apply an index note type to a note in a non-leaf node and have it automatically update to reflect the state of its children.</p>
+<h3 id="a-to-do-note-type"><a aria-hidden="true" class="anchor-heading" href="#a-to-do-note-type"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>A To-Do Note Type</h3>
+<p>See <a href="https://github.com/dendronhq/dendron/discussions/1358">https://github.com/dendronhq/dendron/discussions/1358</a></p>
+<p>To-Do notes could take advantage of <a title="Private" style="color: brown" href="https://wiki.dendron.so/notes/hfyvYGJZQiUwQaaxQO27q.html" target="_blank">Special Rendering and Editing Experience of Note in Editor Pane (Private)</a>. With To-Do notes, we can have certain embellishing text decorators that would perform transformations in the editor, such as converting markdown checkboxes into unicode (- [x] becomes ✅). However, it may not be desireable to have such embellishments be present on all notes, so with a type system we could restrict it to occur only when to-do notes are being edited.</p>
+<h3 id="a-flashcard-type"><a aria-hidden="true" class="anchor-heading" href="#a-flashcard-type"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>A FlashCard Type</h3>
+<p>See <a href="https://wiki.dendron.so/notes/X2Zn2H89eBZrsj7Of8LLm.html">https://wiki.dendron.so/notes/X2Zn2H89eBZrsj7Of8LLm.html</a></p>
+<p>A flash card system could be implemented with a typed note system:</p>
+<ul>
+<li>Simple template with front / back sections</li>
+<li>Additional frontmatter metadata can store information like when was the last time the card was seen, was it answered correctly / incorrectly last time.</li>
+<li>An Engine API allows one to query a hierarchy for note types. A supplemental flash card Dendron extension could utilize this API to get notes that are flash cards, and then it can update the frontmatter metadata as the cards get reviewed/retrieved by the user. This extension can register additional commands for working with flash cards.</li>
+<li>We can have a special rendering behavior in the preview to create a flash card experience, or have the extension register a different UI experience for this.</li>
+</ul>
+<h3 id="an-image-note-type"><a aria-hidden="true" class="anchor-heading" href="#an-image-note-type"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>An Image Note Type</h3>
+<p>See <a href="https://github.com/dendronhq/dendron/issues/1450">https://github.com/dendronhq/dendron/issues/1450</a></p>
+<p>In that issue, user wants the following functionality</p>
+<ul>
+<li>Images to basically work as notes
+<ul>
+<li>have a hierarchy</li>
+<li>be refactorable</li>
+<li>be taggable</li>
+</ul>
+</li>
+</ul>
+<p>We can have an 'image' note type that basically wraps an image inside assets (note is a barebones .md file with a simple <code>![](\assets\my_image.png)</code>). We can then take advantage of <a title="Private" style="color: brown" href="https://wiki.dendron.so/notes/hfyvYGJZQiUwQaaxQO27q.html" target="_blank">Special Rendering (Private)</a> to adjust how the image appears in the preview. In the frontmatter of this type, we can have defined properties such as max-width, max-height, etc. that can allow users to systematically control how their images render in the preview.</p>
+<h2 id="tradeoffs"><a aria-hidden="true" class="anchor-heading" href="#tradeoffs"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Tradeoffs</h2>
+<ul>
+<li>While adding a type system can make our current bespoke note logic more systematic and extensible, it will certianly take some effort to do the initial refactoring work.</li>
+<li>Having <em>too</em> much programmatic logic can lead to note behavior that may be confusing to users - it may take us farther from a what-you-see-is-what-you-get model. It may be hard to diagnose what's going wrong if there's a bug in the implementation of a typed note.</li>
+</ul>
+<h2 id="open-questions"><a aria-hidden="true" class="anchor-heading" href="#open-questions"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Open Questions</h2>
+<ul>
+<li>In the type API, how much of the workspace should a note be aware of? For example, while it may make sense for a note to be notified when its children are updated, should it also be aware when its siblings are updated? What about its parents? On any note update in the workspace?</li>
+<li>To which extent (1-3) we want for authoring and implementing note types is an open question. See <a title="Private" style="color: brown" href="https://wiki.dendron.so/notes/hfyvYGJZQiUwQaaxQO27q.html" target="_blank">Detailed Goals (Private)</a></li>
+<li>To what extent can a typed note affect the rendering behavior of preview? That API surface needs further definition.</li>
+<li>What if a user creates a schema that applies a type to already existing notes? To align with existing behavior, we should probably only apply templates to newly created notes.</li>
+<li>UI around types; that will be left to another RFC.</li>
+<li>Type namespacing - i.e. what if two note types with the same name are registered?</li>
+</ul>
+<h2 id="discussion"><a aria-hidden="true" class="anchor-heading" href="#discussion"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Discussion</h2>
+<p><a href="https://github.com/dendronhq/dendron/discussions/1494">https://github.com/dendronhq/dendron/discussions/1494</a></p>
+<hr>
+<h1 id="development-design"><a aria-hidden="true" class="anchor-heading" href="#development-design"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Development Design</h1>
+<h2 id="things-a-note-type-can-define"><a aria-hidden="true" class="anchor-heading" href="#things-a-note-type-can-define"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Things a Note Type can define</h2>
+<ul>
+<li>a template</li>
+<li>frontmatter metadata</li>
+<li>TBD</li>
+</ul>
+<pre class="language-typescript"><code class="language-typescript"><span class="token keyword">interface</span> <span class="token class-name"><span class="token maybe-class-name">NoteType</span></span> <span class="token punctuation">{</span>
+
+    <span class="token comment">// Set a template for the note. The headers are accessible as fields - in a way we are defining the 'type' via the template.</span>
+    <span class="token function">getTemplate</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">:</span> <span class="token maybe-class-name">Note</span><span class="token punctuation">;</span>
+
+    <span class="token function">getFrontmatterFields</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">:</span> <span class="token builtin">string</span><span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+
+    <span class="token comment">// Example Use Cases: extract status from project note</span>
+    <span class="token comment">// provideContent(someKey: string): Markdown;</span>
+
+    <span class="token comment">// Things you can do:</span>
+    <span class="token comment">// apply template to current note</span>
+    <span class="token comment">// create children notes - todo: how to detect infinite loop? Don't want to create a million notes</span>
+    <span class="token comment">// can we somehow let the user affect the title here? i.e. the behavior of daily journal notes and scratch notes.</span>
+    <span class="token function">onCreate</span><span class="token punctuation">(</span>siblings<span class="token operator">:</span> <span class="token maybe-class-name">Iterator</span><span class="token operator">&#x3C;</span><span class="token maybe-class-name">Note</span><span class="token operator">></span><span class="token punctuation">,</span> children<span class="token operator">:</span> <span class="token maybe-class-name">Iterator</span><span class="token operator">&#x3C;</span><span class="token maybe-class-name">Note</span><span class="token operator">></span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+    <span class="token comment">// Things you can do:</span>
+    <span class="token comment">//</span>
+    <span class="token function">onUpdate</span><span class="token punctuation">(</span>siblings<span class="token operator">:</span> <span class="token maybe-class-name">Iterator</span><span class="token operator">&#x3C;</span><span class="token maybe-class-name">Note</span><span class="token operator">></span><span class="token punctuation">,</span> children<span class="token operator">:</span> <span class="token maybe-class-name">Iterator</span><span class="token operator">&#x3C;</span><span class="token maybe-class-name">Note</span><span class="token operator">></span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token punctuation">}</span>
+</code></pre>
+<h3 id="what-the-engine-can-do-with-a-typed-note"><a aria-hidden="true" class="anchor-heading" href="#what-the-engine-can-do-with-a-typed-note"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>What the engine can do with a Typed Note</h3>
+<pre class="language-typescript"><code class="language-typescript">    <span class="token keyword">const</span> template <span class="token operator">=</span> my_note<span class="token punctuation">.</span><span class="token method function property-access">getTemplate</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+</code></pre>
+<h2 id="open-questions-1"><a aria-hidden="true" class="anchor-heading" href="#open-questions-1"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Open Questions</h2>
+<ul>
+<li>Should a note be aware of its parent note(s)? Leaning towards no</li>
+<li>Should a note be aware of its siblings? Probably</li>
+<li>How does someone (an end user) actually implement a type?</li>
+<li>What if a user creates a schema that applies to pre-existing notes? As aligned with existing behavior, we will only apply templates to newly created notes.</li>
+</ul>
+<h2 id="extensibility"><a aria-hidden="true" class="anchor-heading" href="#extensibility"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Extensibility</h2>
+<p>Idea is that note types can be extensible, with the Dendron Engine or core dendron code being agnostic to the functionality of specific note types. As people come up with additional note types for the functionality they want to achieve, they can add them to their workspace by installing complementary note-type packaged extensions (for example dendron.flash-cards, or dendron.productivity, etc.). Perhaps taking it a step further, a user can create a type definition within Dendron itself, without the need to publish code (how this would work exactly is unclear, perhaps too ambitious for now).</p>
+<h2 id="related-reading"><a aria-hidden="true" class="anchor-heading" href="#related-reading"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Related Reading</h2>
+<ul>
+<li><a href="https://github.com/dendronhq/dendron/discussions/1418">Schema Next Steps · Discussion #1418 · dendronhq/dendron</a></li>
+<li><a title="Private" style="color: brown" href="https://wiki.dendron.so/notes/hfyvYGJZQiUwQaaxQO27q.html" target="_blank">Schema Simplification Inline Children (Private)</a></li>
+</ul><span id="navId" data="E8ZUvTzJ7cVOyZtqHiIKX"></span>
+
+                
+      </section>
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+        <div class="thumbs feedback_trigger right-bottom"></div>
+
+        
+          <hr>
+          <footer>
+            
+            
+
+            
+              <div class="d-flex mt-2">
+              <p class="text-small text-grey-dk-000 mb-0 mr-2">
+                Page last modified: <span class="d-inline-block">10/11/2021</span>.
+              </p>
+            
+                
+                  <p class="text-small text-grey-dk-000 mb-0">
+                    <a href="https://github.com/dendronhq/dendron-site/edit/master/vault/dendron.rfc.34-note-type-system.md" id="edit-this-page">Edit this page on GitHub</a>
+                  </p>
+                
+              </div>
+          </footer>
+        
+    </div>
+</div>
+
+
+  
+
+  <div class="search-overlay"></div>
+
+</div>
+
+</body>
+</html>

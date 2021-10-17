@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+  
+  <title>Release Notes(version 0.8) - Dendron</title>
+  
+
+  <link
+    rel="shortcut icon"
+    href="https://wiki.dendron.so/favicon.ico"
+    type="image/x-icon"
+  />
+  <link
+    rel="stylesheet"
+    href="https://wiki.dendron.so/assets/css/just-the-docs-default.css"
+  />
+  <script
+    type="text/javascript"
+    src="https://wiki.dendron.so/assets/js/just-the-docs.js"
+  ></script>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.22.0/themes/prism.min.css"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css"
+    integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X"
+    crossorigin="anonymous"
+  />
+  <script
+    type="text/javascript"
+    src="https://wiki.dendron.so/assets/js/vendor/lunr.min.js"
+  ></script>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+   
+   
+  
+<meta name="description" content="Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.">
+<meta name="author" content="dendronhq">
+
+<link rel="canonical" href="https://wiki.dendron.so/notes/075e9806-0367-40a2-8154-2e84d5a1110.html">
+
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://wiki.dendron.so/notes/075e9806-0367-40a2-8154-2e84d5a1110.html">
+<meta property="og:description" content="Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.">
+<meta property="og:image" content="https://wiki.dendron.so/logo.png">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@dendronhq">
+<meta name="twitter:url" content="https://wiki.dendron.so/notes/075e9806-0367-40a2-8154-2e84d5a1110.html">
+<meta name="twitter:description" content="Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.">
+<meta name="twitter:image" content="https://wiki.dendron.so/logo.png">
+
+
+  <meta property="og:title" content="Release Notes(version 0.8) - Dendron" />
+  <meta name="twitter:title" content="Release Notes(version 0.8) - Dendron" />
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-B0JN2HHCNY"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-B0JN2HHCNY');
+  </script>
+  
+</head>
+
+
+
+<body>
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+      <symbol id="svg-link" viewBox="0 0 24 24">
+        <title>Link</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-link">
+          <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+        </svg>
+      </symbol>
+      <symbol id="svg-search" viewBox="0 0 24 24">
+        <title>Search</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search">
+          <circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+      </symbol>
+      <symbol id="svg-menu" viewBox="0 0 24 24">
+        <title>Menu</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu">
+          <line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+      </symbol>
+      <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+        <title>Expand</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+          <polyline points="9 18 15 12 9 6"></polyline>
+        </svg>
+      </symbol>
+      <symbol id="svg-doc" viewBox="0 0 24 24">
+        <title>Document</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file">
+          <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path><polyline points="13 2 13 9 20 9"></polyline>
+        </svg>
+      </symbol>
+    </svg>
+
+    <div class="side-bar">
+      <div class="site-header">
+        <a href="https://wiki.dendron.so" class="site-title lh-tight">
+  <div class="site-logo"></div>
+
+ </a>
+        <a href="#" id="menu-button" class="site-button">
+          <svg viewBox="0 0 24 24" class="icon"><use xlink:href="#svg-menu"></use></svg>
+        </a>
+      </div>
+
+      <nav role="navigation" aria-label="Main" id="site-nav" class="site-nav">
+      </nav>
+      <footer class="site-footer">
+        🌱 with 💕 using <a href="https://www.dendron.so/"> Dendron 🌲 </a>
+      </footer>
+    </div>
+    <div class="main" id="top">
+        <div id="main-header" class="main-header">
+          
+            <div class="search">
+              <div class="search-input-wrap">
+                <input type="text" id="search-input" class="search-input" tabindex="0" placeholder="Search Dendron" aria-label="Search Dendron" autocomplete="off">
+                <label for="search-input" class="search-label"><svg viewBox="0 0 24 24" class="search-icon"><use xlink:href="#svg-search"></use></svg></label>
+              </div>
+              <div id="search-results" class="search-results"></div>
+            </div>
+          
+          
+    </div>
+    <div id="main-content-wrap" class="main-content-wrap">
+      
+        
+          <nav aria-label="Breadcrumb" class="breadcrumb-nav">
+            <ol class="breadcrumb-nav-list"><li class="breadcrumb-nav-list-item"><a href="https://wiki.dendron.so">Dendron</a></li><li class="breadcrumb-nav-list-item"><a href="https://wiki.dendron.so/notes/932534e7-e788-4fdb-bc8c-eaf761992a8d.html">Releases</a></li><li class="breadcrumb-nav-list-item">Release Notes(version 0.8)</li></ol>
+          </nav>
+        
+      
+      <div id="main-content" class="main-content" role="main">
+
+        
+        
+        <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+        <script>mermaid.initialize({startOnLoad:true});</script>
+        
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+        
+        
+
+        
+
+        
+
+        
+
+        <script>
+          $(function () {
+            $('[data-toggle="popover"]').popover({html: true})
+          })
+        </script>
+
+        
+
+<div id="main" role="main">
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Release Notes(version 0.8)">
+    
+    <meta itemprop="datePublished" content="2020-08-02T13:27:51+00:00">
+    <meta itemprop="dateModified" content="2021-09-04T21:40:48+00:00">
+
+    <div class="page__inner-wrap">
+
+      
+
+      <section class="page__content" itemprop="text">
+
+        
+
+        <h1 id="release-notesversion-08"><a aria-hidden="true" class="anchor-heading" href="#release-notesversion-08"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Release Notes(version 0.8)</h1>
+<p>Schemas and pods were the focus of this week's efforts. </p>
+<p>Schemas are now both more powerful and re-usable with a custom <code>pattern</code> attribute as well as the ability to <code>import</code> existing schemas. As a bonus, you can also visualize your schemas using the <code>Show Schema Graph</code> command!</p>
+<p>On the Pod site, we've made the process of publishing a pod more flexible with per hierarchical configuration options, a unified config syntax and automatic reloading of your config on every publish. </p>
+<p>These release notes are summary of the more notable changes, for the full list, please look at our <a href="https://github.com/dendronhq/dendron/blob/master/CHANGELOG.md">CHANGELOG</a></p>
+<h2 id="bundled-extensions"><a aria-hidden="true" class="anchor-heading" href="#bundled-extensions"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Bundled extensions</h2>
+<h3 id="add-showschema-command-docs"><a aria-hidden="true" class="anchor-heading" href="#add-showschema-command-docs"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Add ShowSchema Command (<a href="http://dendron.so/notes/587e6d62-3c5b-49b0-aedc-02f62f0448e6.html#dendron-show-schema-graph">docs</a>)</h3>
+<p>You can now view your schemas using the same graph visualization as you do your notes!</p>
+<p><img src="https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/graphs.show-schema.gif"></p>
+<h3 id="enhancements"><a aria-hidden="true" class="anchor-heading" href="#enhancements"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Enhancements</h3>
+<ul>
+<li>Dendron: reload graphs will reload both schema and note graphs </li>
+<li>Dendron: reload graphs will reload both schema and note graphs </li>
+<li>Dendron schema graph will show schemas by their title. if not set, revert to id. </li>
+</ul>
+<h2 id="markdown"><a aria-hidden="true" class="anchor-heading" href="#markdown"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Markdown</h2>
+<h3 id="enhancements-1"><a aria-hidden="true" class="anchor-heading" href="#enhancements-1"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Enhancements</h3>
+<ul>
+<li>Markdown parsing can now be up to 300% faster publishing a site </li>
+</ul>
+<h2 id="notes"><a aria-hidden="true" class="anchor-heading" href="#notes"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Notes</h2>
+<h3 id="create-daily-journal-note-command-docs"><a aria-hidden="true" class="anchor-heading" href="#create-daily-journal-note-command-docs"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Create Daily Journal Note Command (<a href="http://dendron.so/notes/5c213aa6-e4ba-49e8-85c5-1bdcb33ce202.html#daily-journal">docs</a>)</h3>
+<p>The daily journal helps you keep a journal for each day of the year. By default, it will create the journal under <code>daily.{date}</code> though this is configurable by setting the <code>dendron.dailyJournalDomain</code>.</p>
+<p>You can create a daily journal using <code>> Dendron: Create Daily Journal Note</code> or <code>CMD+SHIFT+I</code> shortcut.</p>
+<p><img src="https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/notes.daily.gif"></p>
+<h2 id="pods"><a aria-hidden="true" class="anchor-heading" href="#pods"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Pods</h2>
+<h3 id="support-different-defaults-on-a-per-hierarchy-basis-when-publishing-docs"><a aria-hidden="true" class="anchor-heading" href="#support-different-defaults-on-a-per-hierarchy-basis-when-publishing-docs"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Support different defaults on a per hierarchy basis when publishing (<a href="https://wiki.dendron.so/notes/c93938a4-0938-49d0-aca2-00e624793650.html">docs</a>)</h3>
+<p>You can now set different publishing defaults for each hierarchy (as well as general defaults for your entire vault.)</p>
+<p>As an example, below is the config for <a href="https://kevinslin.com">my website</a>. It publishes everything under the <code>home</code> and <code>blog</code> hierarchies but will only publish notes under <code>books</code> if <code>published: true</code> is set on the frontmatter. </p>
+<ul>
+<li><code>dendron.yml</code></li>
+</ul>
+<pre class="language-yml"><code class="language-yml"><span class="token key atrule">site</span><span class="token punctuation">:</span>
+<span class="token key atrule">siteHierarchies</span><span class="token punctuation">:</span> <span class="token punctuation">[</span>home<span class="token punctuation">,</span> blog<span class="token punctuation">,</span> books<span class="token punctuation">]</span>
+<span class="token key atrule">siteRootDir</span><span class="token punctuation">:</span> docs
+<span class="token key atrule">config</span><span class="token punctuation">:</span>
+    <span class="token key atrule">books</span><span class="token punctuation">:</span>
+    <span class="token key atrule">publishByDefault</span><span class="token punctuation">:</span> <span class="token boolean important">false</span>
+</code></pre>
+<h3 id="implement-new-website-config-syntax-docs"><a aria-hidden="true" class="anchor-heading" href="#implement-new-website-config-syntax-docs"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Implement new website config syntax (<a href="https://wiki.dendron.so/notes/c93938a4-0938-49d0-aca2-00e624793650.html">docs</a>)</h3>
+<p>New config syntax unifies a bunch of different configuration options and renames others to more sensible names.</p>
+<h3 id="enhancements-2"><a aria-hidden="true" class="anchor-heading" href="#enhancements-2"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Enhancements</h3>
+<ul>
+<li>Auto migrate old-style site config to new style site config </li>
+<li>Always read config before publishing. no more reloading the workspace after updating dendron.yml! </li>
+<li>Update site config on dendron starter template </li>
+<li>Use rsync to copy assets when building pods </li>
+</ul>
+<h3 id="fixes"><a aria-hidden="true" class="anchor-heading" href="#fixes"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Fixes</h3>
+<ul>
+<li>Use regular copy command if rsync not installed </li>
+<li>Links not being converted to ids when publishing </li>
+</ul>
+<h2 id="schemas"><a aria-hidden="true" class="anchor-heading" href="#schemas"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Schemas</h2>
+<h3 id="support-schema-import-docs"><a aria-hidden="true" class="anchor-heading" href="#support-schema-import-docs"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Support schema import (<a href="http://dendron.so/notes/c5e5adde-5459-409b-b34d-a0d75cbb1052.html#imports-optional-str">docs</a>)</h3>
+<p>It's now possible to import schemas! This means you can now create composable schemas from re-usable pieces.</p>
+<p>Example:</p>
+<ul>
+<li>foo.schema. yml</li>
+</ul>
+<pre class="language-yml"><code class="language-yml"><span class="token key atrule">version</span><span class="token punctuation">:</span> <span class="token number">1</span>
+<span class="token key atrule">imports</span><span class="token punctuation">:</span>
+<span class="token punctuation">-</span> bar
+<span class="token key atrule">schemas</span><span class="token punctuation">:</span>
+<span class="token punctuation">-</span> <span class="token key atrule">id</span><span class="token punctuation">:</span> foo
+<span class="token key atrule">parent</span><span class="token punctuation">:</span> root
+<span class="token key atrule">children</span><span class="token punctuation">:</span>
+    <span class="token punctuation">-</span> bar.bar <span class="token comment"># notice that we prefix the id bar with the filename</span>
+</code></pre>
+<ul>
+<li>bar.schema.yml</li>
+</ul>
+<pre class="language-yml"><code class="language-yml"><span class="token key atrule">version</span><span class="token punctuation">:</span> <span class="token number">1</span>
+<span class="token key atrule">schemas</span><span class="token punctuation">:</span>
+<span class="token punctuation">-</span> <span class="token key atrule">id</span><span class="token punctuation">:</span> bar
+<span class="token key atrule">parent</span><span class="token punctuation">:</span> root
+<span class="token key atrule">children</span><span class="token punctuation">:</span> 
+    <span class="token punctuation">-</span> one
+<span class="token punctuation">-</span> <span class="token key atrule">id</span><span class="token punctuation">:</span> one
+</code></pre>
+<p>The above would match the following files</p>
+<pre><code>foo.bar # match
+foo.bar.one #match
+</code></pre>
+<h3 id="support-match-by-pattern-docs"><a aria-hidden="true" class="anchor-heading" href="#support-match-by-pattern-docs"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Support match by pattern (<a href="https://wiki.dendron.so/notes/c5e5adde-5459-409b-b34d-a0d75cbb1052.html#pattern">docs</a>)</h3>
+<p>You can now explicitly specify a glob pattern for any level of your schema. If not set, defaults to the schema <code>id</code>.</p>
+<p>The following is an example of a schema for <code>journal</code> hierarchy. </p>
+<pre class="language-yml"><code class="language-yml"><span class="token key atrule">schemas</span><span class="token punctuation">:</span>
+<span class="token punctuation">-</span> <span class="token key atrule">id</span><span class="token punctuation">:</span> journal
+<span class="token key atrule">title</span><span class="token punctuation">:</span> journal
+<span class="token key atrule">desc</span><span class="token punctuation">:</span> <span class="token string">""</span>
+<span class="token key atrule">parent</span><span class="token punctuation">:</span> root
+<span class="token key atrule">children</span><span class="token punctuation">:</span>
+    <span class="token punctuation">-</span> year
+<span class="token punctuation">-</span> <span class="token key atrule">id</span><span class="token punctuation">:</span> year
+<span class="token key atrule">title</span><span class="token punctuation">:</span> year
+<span class="token key atrule">pattern</span><span class="token punctuation">:</span> <span class="token string">"[0-2][0-9][0-9][0-9]"</span>
+<span class="token key atrule">children</span><span class="token punctuation">:</span> 
+    <span class="token punctuation">-</span> month
+<span class="token punctuation">-</span> <span class="token key atrule">id</span><span class="token punctuation">:</span> month
+<span class="token key atrule">title</span><span class="token punctuation">:</span> month
+<span class="token key atrule">pattern</span><span class="token punctuation">:</span> <span class="token string">"[0-9][0-9]"</span>
+<span class="token key atrule">children</span><span class="token punctuation">:</span> 
+    <span class="token punctuation">-</span> day
+<span class="token punctuation">-</span> <span class="token key atrule">id</span><span class="token punctuation">:</span> day
+<span class="token key atrule">title</span><span class="token punctuation">:</span> day
+<span class="token key atrule">pattern</span><span class="token punctuation">:</span> <span class="token string">"[0-9][0-9]"</span>
+<span class="token key atrule">namespace</span><span class="token punctuation">:</span> <span class="token boolean important">true</span>
+</code></pre>
+<p>This will match the following queries</p>
+<pre><code># journal
+# journal.2020
+# journal.2020.09
+# journal.2020.09.12
+# journal.2020.09.12.foo.md
+</code></pre>
+<h3 id="enhancements-3"><a aria-hidden="true" class="anchor-heading" href="#enhancements-3"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Enhancements</h3>
+<ul>
+<li>Set schema title to id if not set </li>
+<li>Better error message on bad schema </li>
+</ul>
+<h3 id="fixes-1"><a aria-hidden="true" class="anchor-heading" href="#fixes-1"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Fixes</h3>
+<ul>
+<li>Autocomplete correctly on imported schema </li>
+</ul>
+<h2 id="workspace"><a aria-hidden="true" class="anchor-heading" href="#workspace"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Workspace</h2>
+<h3 id="fixes-2"><a aria-hidden="true" class="anchor-heading" href="#fixes-2"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Fixes</h3>
+<ul>
+<li>A misconfigured POSIX path causes dendron to not load on windows </li>
+</ul>
+<h2 id="thank-you"><a aria-hidden="true" class="anchor-heading" href="#thank-you"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Thank You</h2>
+<p>Last and most of all, a big <strong>thanks</strong> to the following gardeners that brought up issues and contributed fixes to this release.</p>
+<ul>
+<li><a href="https://github.com/ric03uec">Devashish</a></li>
+<li><a href="https://github.com/runlevelrobot">Howard</a></li>
+<li><a href="https://github.com/komoda102">komoda102</a></li>
+</ul><span id="navId" data="932534e7-e788-4fdb-bc8c-eaf761992a8d"></span>
+
+                
+      </section>
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+        <div class="thumbs feedback_trigger right-bottom"></div>
+
+        
+          <hr>
+          <footer>
+            
+            
+
+            
+              <div class="d-flex mt-2">
+              <p class="text-small text-grey-dk-000 mb-0 mr-2">
+                Page last modified: <span class="d-inline-block">9/4/2021</span>.
+              </p>
+            
+                
+                  <p class="text-small text-grey-dk-000 mb-0">
+                    <a href="https://github.com/dendronhq/dendron-site/edit/master/vault/dendron.release.2020-08-23.md" id="edit-this-page">Edit this page on GitHub</a>
+                  </p>
+                
+              </div>
+          </footer>
+        
+    </div>
+</div>
+
+
+  
+
+  <div class="search-overlay"></div>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+  
+  <title>14 - The Seed Bank - Dendron</title>
+  
+
+  <link
+    rel="shortcut icon"
+    href="https://wiki.dendron.so/favicon.ico"
+    type="image/x-icon"
+  />
+  <link
+    rel="stylesheet"
+    href="https://wiki.dendron.so/assets/css/just-the-docs-default.css"
+  />
+  <script
+    type="text/javascript"
+    src="https://wiki.dendron.so/assets/js/just-the-docs.js"
+  ></script>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.22.0/themes/prism.min.css"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css"
+    integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X"
+    crossorigin="anonymous"
+  />
+  <script
+    type="text/javascript"
+    src="https://wiki.dendron.so/assets/js/vendor/lunr.min.js"
+  ></script>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+   
+   
+  
+<meta name="description" content="Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.">
+<meta name="author" content="dendronhq">
+
+<link rel="canonical" href="https://wiki.dendron.so/notes/4039fc46-06b2-4f83-b817-fc490bafbcb3.html">
+
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://wiki.dendron.so/notes/4039fc46-06b2-4f83-b817-fc490bafbcb3.html">
+<meta property="og:description" content="Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.">
+<meta property="og:image" content="https://wiki.dendron.so/logo.png">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@dendronhq">
+<meta name="twitter:url" content="https://wiki.dendron.so/notes/4039fc46-06b2-4f83-b817-fc490bafbcb3.html">
+<meta name="twitter:description" content="Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.">
+<meta name="twitter:image" content="https://wiki.dendron.so/logo.png">
+
+
+  <meta property="og:title" content="14 - The Seed Bank - Dendron" />
+  <meta name="twitter:title" content="14 - The Seed Bank - Dendron" />
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-B0JN2HHCNY"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-B0JN2HHCNY');
+  </script>
+  
+</head>
+
+
+
+<body>
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+      <symbol id="svg-link" viewBox="0 0 24 24">
+        <title>Link</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-link">
+          <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+        </svg>
+      </symbol>
+      <symbol id="svg-search" viewBox="0 0 24 24">
+        <title>Search</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search">
+          <circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+      </symbol>
+      <symbol id="svg-menu" viewBox="0 0 24 24">
+        <title>Menu</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu">
+          <line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+      </symbol>
+      <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+        <title>Expand</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+          <polyline points="9 18 15 12 9 6"></polyline>
+        </svg>
+      </symbol>
+      <symbol id="svg-doc" viewBox="0 0 24 24">
+        <title>Document</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file">
+          <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path><polyline points="13 2 13 9 20 9"></polyline>
+        </svg>
+      </symbol>
+    </svg>
+
+    <div class="side-bar">
+      <div class="site-header">
+        <a href="https://wiki.dendron.so" class="site-title lh-tight">
+  <div class="site-logo"></div>
+
+ </a>
+        <a href="#" id="menu-button" class="site-button">
+          <svg viewBox="0 0 24 24" class="icon"><use xlink:href="#svg-menu"></use></svg>
+        </a>
+      </div>
+
+      <nav role="navigation" aria-label="Main" id="site-nav" class="site-nav">
+      </nav>
+      <footer class="site-footer">
+        🌱 with 💕 using <a href="https://www.dendron.so/"> Dendron 🌲 </a>
+      </footer>
+    </div>
+    <div class="main" id="top">
+        <div id="main-header" class="main-header">
+          
+            <div class="search">
+              <div class="search-input-wrap">
+                <input type="text" id="search-input" class="search-input" tabindex="0" placeholder="Search Dendron" aria-label="Search Dendron" autocomplete="off">
+                <label for="search-input" class="search-label"><svg viewBox="0 0 24 24" class="search-icon"><use xlink:href="#svg-search"></use></svg></label>
+              </div>
+              <div id="search-results" class="search-results"></div>
+            </div>
+          
+          
+    </div>
+    <div id="main-content-wrap" class="main-content-wrap">
+      
+        
+          <nav aria-label="Breadcrumb" class="breadcrumb-nav">
+            <ol class="breadcrumb-nav-list"><li class="breadcrumb-nav-list-item"><a href="https://wiki.dendron.so">Dendron</a></li><li class="breadcrumb-nav-list-item"><a href="https://wiki.dendron.so/notes/f143ca38-dcc6-4cd3-b84b-997aec1160ef.html">Rfc</a></li><li class="breadcrumb-nav-list-item">14 - The Seed Bank</li></ol>
+          </nav>
+        
+      
+      <div id="main-content" class="main-content" role="main">
+
+        
+        
+        <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+        <script>mermaid.initialize({startOnLoad:true});</script>
+        
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+        
+        
+
+        
+
+        
+
+        
+
+        <script>
+          $(function () {
+            $('[data-toggle="popover"]').popover({html: true})
+          })
+        </script>
+
+        
+
+<div id="main" role="main">
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="14 - The Seed Bank">
+    
+    <meta itemprop="datePublished" content="2021-06-06T22:14:32+00:00">
+    <meta itemprop="dateModified" content="2021-08-23T00:07:14+00:00">
+
+    <div class="page__inner-wrap">
+
+      
+
+      <section class="page__content" itemprop="text">
+
+        
+
+        <h1 id="14---the-seed-bank"><a aria-hidden="true" class="anchor-heading" href="#14---the-seed-bank"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>14 - The Seed Bank</h1>
+<h2 id="goals"><a aria-hidden="true" class="anchor-heading" href="#goals"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Goals</h2>
+<p>The Seed Bank is an open database of <a href="https://wiki.dendron.so/notes/c4cf5519-f7c2-4a23-b93b-1c9a02880f6b.html">workspaces</a> (seeds) that anyone can access and contribute to. </p>
+<h2 id="context"><a aria-hidden="true" class="anchor-heading" href="#context"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Context</h2>
+<p>Dendron's <a href="https://handbook.dendron.so/notes/8989a93d-8dde-4a51-bb8d-2aad761c93a1.html">mission</a> is to help <strong>people</strong> organize and make sense of information. To that end, we want to make sure that both existing knowledge and newly created knowledge is not just easily accessible but comes with a degree of modularity that it becomes possible to compose existing information and build upon it. </p>
+<p>When working with code, the concepts of modules and packages are standard in every modern programming language - these abstractions make it possible to package frequently used code into re-usable modules. </p>
+<p>The Dendron Seed Bank is an effort to do the same with knowledge.</p>
+<h2 id="lookup"><a aria-hidden="true" class="anchor-heading" href="#lookup"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a><a href="https://handbook.dendron.so/notes/b89ba854-72fb-4ebc-a8a0-55960b89e9dc.html#lookup">Lookup</a></h2>
+<p>Prior work that inspred this RFC</p>
+<ul>
+<li><a href="https://docs.npmjs.com/about-npm">npm</a></li>
+</ul>
+<h2 id="proposal"><a aria-hidden="true" class="anchor-heading" href="#proposal"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Proposal</h2>
+<p>The Seed Bank needs to define the following components:</p>
+<ol>
+<li>specs
+<ul>
+<li>standard metadata for declaring a module and its dependencies</li>
+<li>standard endpoint to retrieve said metadata</li>
+<li>standard methods to perform registry operations (add/remove/query)</li>
+</ul>
+</li>
+<li><del>registry</del>
+<ul>
+<li>an endpoint for hosting the registry metadata</li>
+<li>an endpoint for performing API calls against the registry</li>
+<li>an endpoint for hosting the module artifacts</li>
+</ul>
+</li>
+<li>client
+<ul>
+<li>a client that can talk to the registry endpoint</li>
+</ul>
+</li>
+</ol>
+<h2 id="details"><a aria-hidden="true" class="anchor-heading" href="#details"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Details</h2>
+<h3 id="specs"><a aria-hidden="true" class="anchor-heading" href="#specs"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Specs</h3>
+<p>See <a href="https://wiki.dendron.so/notes/3b39c820-5250-48f4-935a-284f74a8930e.html">configuration</a> for how metadata is stored in seeds</p>
+<h3 id="registry"><a aria-hidden="true" class="anchor-heading" href="#registry"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Registry</h3>
+<p>See <a href="https://wiki.dendron.so/notes/34eeba99-da18-4024-941a-cb7628840e90.html">Registry</a> for more information</p>
+<h3 id="client"><a aria-hidden="true" class="anchor-heading" href="#client"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Client</h3>
+<p>Registry client methods will be added to the <a href="https://wiki.dendron.so/notes/23a1b942-99af-45c8-8116-4f4bb7dccd21.html">dendron CLI</a> under the <code>registry</code> namespace, or <code>reg</code> for short. </p>
+<p>We will also add additional methods to the <a href="https://wiki.dendron.so/notes/23a1b942-99af-45c8-8116-4f4bb7dccd21.html#workspace-command">workspace command</a> to be able to intiialize a workspace from an existing seed.</p>
+<p>See <a href="https://wiki.dendron.so/notes/945a1bf2-2d6c-4792-87d0-bf87b7f94182.html">methods</a> for the list of supported methods</p>
+<h2 id="motivating-example"><a aria-hidden="true" class="anchor-heading" href="#motivating-example"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Motivating Example</h2>
+<p>You are interestd in developing your own vscode plugin but don't know where to start. You have a workspace setup already. The following shows how to go about adding a hypothetical <code>vscode</code> seed using the CLI (a similar workflow will be availble when using the plugin )</p>
+<ol>
+<li>
+<p>Look for any existing seeds to do with vscode using the CLI</p>
+<pre class="language-sh"><code class="language-sh">dendron seeds search vscode
+
+name: dendron.vscode
+desc: official vscode docs
+</code></pre>
+</li>
+<li>
+<p>Add the docs to your workspace</p>
+<pre class="language-sh"><code class="language-sh">dendron seeds add dendron.vscode
+
+dendron.vscode has been added to your workspace
+</code></pre>
+</li>
+<li>
+<p>Inspect the schema</p>
+<pre class="language-sh"><code class="language-sh">dendron seeds schema dendron.vscode
+
+# name of the schema 
+project:
+    nodes:
+        code: 
+          quickstart: getting started
+          api: namespace(true)
+          ...
+</code></pre>
+</li>
+<li>
+<p>Query the notes</p>
+<pre class="language-sh"><code class="language-sh">dendron note lookup --query code.quickstart
+</code></pre>
+</li>
+<li>
+<p>Resulting configuration</p>
+<ul>
+<li>dendron.yml</li>
+</ul>
+<pre class="language-yml"><code class="language-yml"><span class="token key atrule">vaults</span><span class="token punctuation">:</span>
+   <span class="token comment"># local vaults in your workspace</span>
+   <span class="token punctuation">-</span> <span class="token punctuation">...</span>
+   <span class="token punctuation">-</span> <span class="token key atrule">fsPath</span><span class="token punctuation">:</span> vault
+     <span class="token key atrule">seed</span><span class="token punctuation">:</span> dendron.vscode
+<span class="token key atrule">seeds</span><span class="token punctuation">:</span>
+  <span class="token comment"># newly added seed</span>
+  <span class="token key atrule">dendron.vscode</span><span class="token punctuation">:</span>
+</code></pre>
+<ul>
+<li>dendorn.code-workspace</li>
+</ul>
+<pre class="language-json"><code class="language-json">folders<span class="token operator">:</span> <span class="token punctuation">[</span>
+   <span class="token punctuation">{</span>
+      <span class="token property">"path"</span><span class="token operator">:</span> <span class="token string">"seeds/dendron.vscode/vault"</span><span class="token punctuation">,</span>
+      <span class="token property">"name"</span><span class="token operator">:</span> <span class="token string">"dendron.vscode/vault"</span>
+   <span class="token punctuation">}</span><span class="token punctuation">,</span>
+<span class="token punctuation">]</span>
+</code></pre>
+<ul>
+<li>files</li>
+</ul>
+<pre><code>.
+└── workspace
+   ├── vault1
+   ├── ...
+   └── seeds
+      └── dendron.vscode
+            ├── dendron.yml
+            └── vault
+               ├── dendron.md
+               └── ...
+
+</code></pre>
+</li>
+</ol>
+<h2 id="topics"><a aria-hidden="true" class="anchor-heading" href="#topics"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Topics</h2>
+<h3 id="transitive-dependencies"><a aria-hidden="true" class="anchor-heading" href="#transitive-dependencies"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Transitive Dependencies</h3>
+<ul>
+<li><a href="https://wiki.dendron.so/notes/3be48b69-76e1-495e-9314-cae2fe22813d.html#next-phase-">Next Phase ⏩</a></li>
+</ul>
+<p>Lets say seed A depends on seed B and you install seed A</p>
+<p>Dendron will pull in all dependencies of seed B as well as seed A</p>
+<h3 id="publishing-website"><a aria-hidden="true" class="anchor-heading" href="#publishing-website"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Publishing (website)</h3>
+<ul>
+<li><a href="https://wiki.dendron.so/notes/3be48b69-76e1-495e-9314-cae2fe22813d.html#next-phase-">Next Phase ⏩</a></li>
+</ul>
+<p>By default, publishing is disabled for seeds. If you want to publish a seed, you can set its <a href="https://wiki.dendron.so/notes/3b39c820-5250-48f4-935a-284f74a8930e.html#visibility">visibility</a> to <code>public</code>. At this point, the standard publishing <a href="https://wiki.dendron.so/notes/f2ed8639-a604-4a9d-b76c-41e205fb8713.html">configuration</a> rules appyl.</p>
+<p>When you publish a seed, we will automatically add a banner at the top of any page that comes from a seed.</p>
+<pre><code>This page is originally published by {author} and licensed under {license}
+</code></pre>
+<p>You can disable this behavior by setting <a href="https://wiki.dendron.so/notes/3b39c820-5250-48f4-935a-284f74a8930e.html#addattribution">addAttribution</a> to <code>false</code>.</p>
+<h2 id="phases"><a aria-hidden="true" class="anchor-heading" href="#phases"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Phases</h2>
+<h3 id="phase-i"><a aria-hidden="true" class="anchor-heading" href="#phase-i"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Phase I</h3>
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" checked disabled> add registry <a href="https://wiki.dendron.so/notes/3b39c820-5250-48f4-935a-284f74a8930e.html">configuration</a> to <code>dendron.yml</code> [2021-06-15 15:55]</li>
+<li class="task-list-item"><input type="checkbox" checked disabled> add registry <a href="https://wiki.dendron.so/notes/945a1bf2-2d6c-4792-87d0-bf87b7f94182.html">methods</a> to dendron cli [2021-06-15 15:55]</li>
+<li class="task-list-item"><input type="checkbox" checked disabled> add seed resolution logic when dendron initializes workspaces with seeds [2021-06-15 15:55]</li>
+</ul>
+<h3 id="phase-ii"><a aria-hidden="true" class="anchor-heading" href="#phase-ii"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Phase II</h3>
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" disabled> be able to publish seed vaults when publishing a website</li>
+<li class="task-list-item"><input type="checkbox" disabled> convert seed bank from static file to API endpoint</li>
+<li class="task-list-item"><input type="checkbox" disabled> support a self serve method of publishing to the registery</li>
+</ul>
+<h3 id="future"><a aria-hidden="true" class="anchor-heading" href="#future"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Future</h3>
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" disabled> versioning</li>
+<li class="task-list-item"><input type="checkbox" disabled> support hosting a web version of seeds in the registry</li>
+<li class="task-list-item"><input type="checkbox" disabled> dedup shared dependencies</li>
+</ul>
+<h2 id="discussion"><a aria-hidden="true" class="anchor-heading" href="#discussion"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Discussion</h2>
+<p>All discussions and feedback should be left in this <a href="https://wiki.dendron.so/notes/4039fc46-06b2-4f83-b817-fc490bafbcb3.html">discussion thread</a></p>
+<h2 id="tradeoffs"><a aria-hidden="true" class="anchor-heading" href="#tradeoffs"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>TradeOffs</h2>
+<ul>
+<li>Dendron dependency management is modelled after npm <code>node_modules</code>. The benefit is the relatively simple implementation but you can run into latency <a href="https://next.yarnpkg.com/features/pnp">issues</a> with this approach</li>
+</ul>
+<h2 id="next"><a aria-hidden="true" class="anchor-heading" href="#next"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Next</h2>
+<ul>
+<li>Automatically add correct attribution when publishing work containing third party seeds</li>
+</ul>
+<h2 id="related"><a aria-hidden="true" class="anchor-heading" href="#related"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Related</h2>
+<ul>
+<li><a href="https://wiki.dendron.so/notes/6e4c4f61-80a3-46fa-9ad3-04b99d9e9695.html#context">Dendron 2021 Roadmap</a></li>
+</ul>
+<hr>
+<h2 id="children"><a aria-hidden="true" class="anchor-heading" href="#children"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Children</h2>
+<ol>
+<li><a href="https://wiki.dendron.so/notes/95ab0095-a5be-4e54-a205-70da8d6dd671.html">Concepts</a></li>
+<li><a href="https://wiki.dendron.so/notes/3b39c820-5250-48f4-935a-284f74a8930e.html">Configuration</a></li>
+<li><a href="https://wiki.dendron.so/notes/8683c711-b566-4877-b928-2163ca7897e2.html">Examples</a></li>
+<li><a href="https://wiki.dendron.so/notes/b33d1ad0-e50e-4af0-9c7c-758baad38e79.html">Faq</a></li>
+<li><a href="https://wiki.dendron.so/notes/6fb5ae82-dec6-41c5-813f-33639b73c447.html">Layout</a></li>
+<li><a href="https://wiki.dendron.so/notes/945a1bf2-2d6c-4792-87d0-bf87b7f94182.html">Methods</a></li>
+<li><a href="https://wiki.dendron.so/notes/34eeba99-da18-4024-941a-cb7628840e90.html">Registry</a></li>
+</ol>
+<hr>
+<h2 id="backlinks"><a aria-hidden="true" class="anchor-heading" href="#backlinks"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Backlinks</h2>
+<ul>
+<li><a href="https://wiki.dendron.so/notes/28bc72c6-5d4f-4d7a-abb2-6c1d72f3438a.html">Release Notes (version 0.45)</a></li>
+<li><a href="https://wiki.dendron.so/notes/6ff8cbb6-e4b8-449b-a967-277b76e4ecef.html">Seed Bank</a></li>
+</ul><span id="navId" data="4039fc46-06b2-4f83-b817-fc490bafbcb3"></span>
+
+                
+      </section>
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+        <div class="thumbs feedback_trigger right-bottom"></div>
+
+        
+          <hr>
+          <footer>
+            
+            
+
+            
+              <div class="d-flex mt-2">
+              <p class="text-small text-grey-dk-000 mb-0 mr-2">
+                Page last modified: <span class="d-inline-block">8/23/2021</span>.
+              </p>
+            
+                
+                  <p class="text-small text-grey-dk-000 mb-0">
+                    <a href="https://github.com/dendronhq/dendron-site/edit/master/vault/dendron.rfc.14-seed-bank.md" id="edit-this-page">Edit this page on GitHub</a>
+                  </p>
+                
+              </div>
+          </footer>
+        
+    </div>
+</div>
+
+
+  
+
+  <div class="search-overlay"></div>
+
+</div>
+
+</body>
+</html>

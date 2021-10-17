@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+  
+  <title>6 Design System - Dendron</title>
+  
+
+  <link
+    rel="shortcut icon"
+    href="https://wiki.dendron.so/favicon.ico"
+    type="image/x-icon"
+  />
+  <link
+    rel="stylesheet"
+    href="https://wiki.dendron.so/assets/css/just-the-docs-default.css"
+  />
+  <script
+    type="text/javascript"
+    src="https://wiki.dendron.so/assets/js/just-the-docs.js"
+  ></script>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.22.0/themes/prism.min.css"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css"
+    integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X"
+    crossorigin="anonymous"
+  />
+  <script
+    type="text/javascript"
+    src="https://wiki.dendron.so/assets/js/vendor/lunr.min.js"
+  ></script>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+   
+   
+  
+<meta name="description" content="Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.">
+<meta name="author" content="dendronhq">
+
+<link rel="canonical" href="https://wiki.dendron.so/notes/1bb018db-8f8e-46c8-ac4a-4baf4813b0c8.html">
+
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://wiki.dendron.so/notes/1bb018db-8f8e-46c8-ac4a-4baf4813b0c8.html">
+<meta property="og:description" content="Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.">
+<meta property="og:image" content="https://wiki.dendron.so/logo.png">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@dendronhq">
+<meta name="twitter:url" content="https://wiki.dendron.so/notes/1bb018db-8f8e-46c8-ac4a-4baf4813b0c8.html">
+<meta name="twitter:description" content="Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.">
+<meta name="twitter:image" content="https://wiki.dendron.so/logo.png">
+
+
+  <meta property="og:title" content="6 Design System - Dendron" />
+  <meta name="twitter:title" content="6 Design System - Dendron" />
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-B0JN2HHCNY"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-B0JN2HHCNY');
+  </script>
+  
+</head>
+
+
+
+<body>
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+      <symbol id="svg-link" viewBox="0 0 24 24">
+        <title>Link</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-link">
+          <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+        </svg>
+      </symbol>
+      <symbol id="svg-search" viewBox="0 0 24 24">
+        <title>Search</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search">
+          <circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+      </symbol>
+      <symbol id="svg-menu" viewBox="0 0 24 24">
+        <title>Menu</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu">
+          <line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+      </symbol>
+      <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+        <title>Expand</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+          <polyline points="9 18 15 12 9 6"></polyline>
+        </svg>
+      </symbol>
+      <symbol id="svg-doc" viewBox="0 0 24 24">
+        <title>Document</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file">
+          <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path><polyline points="13 2 13 9 20 9"></polyline>
+        </svg>
+      </symbol>
+    </svg>
+
+    <div class="side-bar">
+      <div class="site-header">
+        <a href="https://wiki.dendron.so" class="site-title lh-tight">
+  <div class="site-logo"></div>
+
+ </a>
+        <a href="#" id="menu-button" class="site-button">
+          <svg viewBox="0 0 24 24" class="icon"><use xlink:href="#svg-menu"></use></svg>
+        </a>
+      </div>
+
+      <nav role="navigation" aria-label="Main" id="site-nav" class="site-nav">
+      </nav>
+      <footer class="site-footer">
+        🌱 with 💕 using <a href="https://www.dendron.so/"> Dendron 🌲 </a>
+      </footer>
+    </div>
+    <div class="main" id="top">
+        <div id="main-header" class="main-header">
+          
+            <div class="search">
+              <div class="search-input-wrap">
+                <input type="text" id="search-input" class="search-input" tabindex="0" placeholder="Search Dendron" aria-label="Search Dendron" autocomplete="off">
+                <label for="search-input" class="search-label"><svg viewBox="0 0 24 24" class="search-icon"><use xlink:href="#svg-search"></use></svg></label>
+              </div>
+              <div id="search-results" class="search-results"></div>
+            </div>
+          
+          
+    </div>
+    <div id="main-content-wrap" class="main-content-wrap">
+      
+        
+          <nav aria-label="Breadcrumb" class="breadcrumb-nav">
+            <ol class="breadcrumb-nav-list"><li class="breadcrumb-nav-list-item"><a href="https://wiki.dendron.so">Dendron</a></li><li class="breadcrumb-nav-list-item"><a href="https://wiki.dendron.so/notes/f143ca38-dcc6-4cd3-b84b-997aec1160ef.html">Rfc</a></li><li class="breadcrumb-nav-list-item">6 Design System</li></ol>
+          </nav>
+        
+      
+      <div id="main-content" class="main-content" role="main">
+
+        
+        
+        <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+        <script>mermaid.initialize({startOnLoad:true});</script>
+        
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+        
+        
+
+        
+
+        
+
+        
+
+        <script>
+          $(function () {
+            $('[data-toggle="popover"]').popover({html: true})
+          })
+        </script>
+
+        
+
+<div id="main" role="main">
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="6 Design System">
+    
+    <meta itemprop="datePublished" content="2021-04-02T17:15:58+00:00">
+    <meta itemprop="dateModified" content="2021-04-02T17:48:07+00:00">
+
+    <div class="page__inner-wrap">
+
+      
+
+      <section class="page__content" itemprop="text">
+
+        
+
+        <h1 id="6-design-system"><a aria-hidden="true" class="anchor-heading" href="#6-design-system"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>6 Design System</h1>
+<h2 id="goals"><a aria-hidden="true" class="anchor-heading" href="#goals"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Goals</h2>
+<p>In order to keep a consistent UI across Dendron apps:
+Create a design-system of UI components and theme objects, hosted on npm that can be installed and used across all Dendron applications.</p>
+<h2 id="use-cases"><a aria-hidden="true" class="anchor-heading" href="#use-cases"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Use Cases</h2>
+<ul>
+<li>
+<p>When building out a new React based Dendron project, instead of needing to create a components folder and create all your own local components per project, you can instead install ie. <code>yarn add dendron-design-system</code> and start building the app using these components like lego blocks.</p>
+</li>
+<li>
+<p>Creating a consistent UI across apps. Inevitably when there are local component folders in each app with the same components (ie. Button) there will be inconsistencies in styles / functionality which can be confusing for users. A good design system creates a consistent UI across apps.</p>
+</li>
+<li>
+<p>Updates also apply across apps. When a component is updated, simply publish a new version on npm and upgrade all apps to the <code>latest</code> version.</p>
+</li>
+<li>
+<p>Speed up development.</p>
+<blockquote>
+<p>Research-backed studies suggest reusing code can yield 42–81% time savings and boost productivity by 40%.
+<a href="https://storybook.js.org/tutorials/design-systems-for-developers/react/en/conclusion/">Storybook</a></p>
+</blockquote>
+</li>
+</ul>
+<h2 id="proposal"><a aria-hidden="true" class="anchor-heading" href="#proposal"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Proposal</h2>
+<ul>
+<li>
+<p>Tech Stack for Design System.</p>
+<ul>
+<li>TypeScript</li>
+<li>React (compatible with all current and upcoming Next.js apps)</li>
+<li>Storybook</li>
+<li><del>Chakra-UI (already is use within Dendron and a very popular and well made UI library)</del></li>
+<li>Ant Design <a href="https://ant.design/components/overview/">Ant Design</a></li>
+<li>npm</li>
+</ul>
+</li>
+<li>
+<p>Start by converting the small style guide Dendron has on this website to a design system hosted on npm.</p>
+</li>
+<li>
+<p>Create theme with colors, typography etc.</p>
+</li>
+<li>
+<p>Create UI component variants (ie, button, input, dropdown etc.)</p>
+</li>
+</ul>
+<h2 id="ant-design"><a aria-hidden="true" class="anchor-heading" href="#ant-design"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Ant Design</h2>
+<p>Ant Design is a mature library that has a lot of sub-projects and related projects. Navigating through the eco-system Ant Design newcomer can be overwhelming to decide what the best way to plan your app is.</p>
+<p>For example you have here the <a href="https://ant.design/docs/react/introduce">core React Library</a>.</p>
+<ul>
+<li>But when reading their <a href="https://ant.design/docs/react/customize-theme">theming docs</a>, the first references to sub libraries are already creating the need to make some important decisions.</li>
+</ul>
+<p>ie Either create all of your theme using the default.</p>
+<h3 id="theming"><a aria-hidden="true" class="anchor-heading" href="#theming"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Theming</h3>
+<p>Ant Design gives 4 options to <a href="https://ant.design/docs/react/customize-theme">customize-theme</a> .</p>
+<ol>
+<li><a href="https://ant.design/docs/react/customize-theme#Customize-in-webpack">Customize-in-webpack</a></li>
+<li><a href="https://ant.design/docs/react/customize-theme#Customize-in-Umi">Customize-in-Umi</a></li>
+<li><a href="https://ant.design/docs/react/customize-theme#Customize-in-create-react-app">Customize-in-create-react-app</a></li>
+<li><a href="https://ant.design/docs/react/customize-theme#Customize-in-less-file">Customize-in-less-file</a></li>
+</ol>
+<h4 id="customize-in-webpack"><a aria-hidden="true" class="anchor-heading" href="#customize-in-webpack"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Customize-in-webpack</h4>
+<p>This could actually be the best option as loading directly into webpack is said in the docs to have potential performance improvements.
+<a href="https://medium.com/@GeoffMiller/how-to-customize-ant-design-with-react-webpack-the-missing-guide-c6430f2db10f">https://medium.com/@GeoffMiller/how-to-customize-ant-design-with-react-webpack-the-missing-guide-c6430f2db10f</a></p>
+<p>And considering that Next.js uses Webpack 5 &#x26; <a href="https://nextjs.org/docs/api-reference/next.config.js/custom-webpack-config">allows for a custom-webpack-config</a></p>
+<h4 id="customize-in-umi"><a aria-hidden="true" class="anchor-heading" href="#customize-in-umi"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Customize-in-Umi</h4>
+<p>This only seems to be an option if you are using Ant Design Pro, which is their out of the box solution including Routing etc.</p>
+<h4 id="customize-in-create-react-app"><a aria-hidden="true" class="anchor-heading" href="#customize-in-create-react-app"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Customize-in-create-react-app</h4>
+<p>Not an option as Dendron uses Next.js across the board.</p>
+<h4 id="customize-in-less-file"><a aria-hidden="true" class="anchor-heading" href="#customize-in-less-file"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Customize-in-less-file</h4>
+<p>Also a viable option, but IMO less attractive than loading directly into webpack because
+A) Need to use css less syntax which is not well known among developers today.
+B) Can't use JavaScript Objects for theming which is quite convenient.
+C) Potentially less performant</p>
+<h2 id="dendron-design-system-usage"><a aria-hidden="true" class="anchor-heading" href="#dendron-design-system-usage"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a><code>dendron-design-system</code> Usage</h2>
+<ol>
+<li>Add all theme files with <a href="https://spectrum.adobe.com/page/design-tokens/">design tokens</a> to <code>dendron-design-system</code>.</li>
+<li>Allow package to be consumeable, either on <code>npm</code> or within the Dendron monorepo.</li>
+<li>In each dendron Next.js application, import the theme from <code>dendron-design-system</code>.</li>
+<li>Load The theme into webpack via <code>next.config.js</code></li>
+</ol>
+<p>Example:
+Psuedocode (not yet tested)</p>
+<pre class="language-javascript"><code class="language-javascript"><span class="token comment">// https://github.com/vercel/next.js/tree/canary/packages/next-mdx</span>
+
+<span class="token keyword module">import</span> <span class="token imports"><span class="token punctuation">{</span>theme<span class="token punctuation">}</span></span> <span class="token keyword module">from</span> <span class="token string">'dendron-design-system'</span>
+
+module<span class="token punctuation">.</span><span class="token property-access">exports</span> <span class="token operator">=</span> <span class="token punctuation">{</span>
+  <span class="token function-variable function">webpack</span><span class="token operator">:</span> <span class="token punctuation">(</span><span class="token parameter">config<span class="token punctuation">,</span> options</span><span class="token punctuation">)</span> <span class="token arrow operator">=></span> <span class="token punctuation">{</span>
+    config<span class="token punctuation">.</span><span class="token property-access">module</span><span class="token punctuation">.</span><span class="token property-access">rules</span><span class="token punctuation">.</span><span class="token method function property-access">push</span><span class="token punctuation">(</span>rules<span class="token operator">:</span> <span class="token punctuation">[</span><span class="token punctuation">{</span>
+    test<span class="token operator">:</span> <span class="token regex"><span class="token regex-delimiter">/</span><span class="token regex-source language-regex">\.less$</span><span class="token regex-delimiter">/</span></span><span class="token punctuation">,</span>
+    use<span class="token operator">:</span> <span class="token punctuation">[</span><span class="token punctuation">{</span>
+      loader<span class="token operator">:</span> <span class="token string">'style-loader'</span><span class="token punctuation">,</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span> <span class="token punctuation">{</span>
+      loader<span class="token operator">:</span> <span class="token string">'css-loader'</span><span class="token punctuation">,</span> <span class="token comment">// translates CSS into CommonJS</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span> <span class="token punctuation">{</span>
+      loader<span class="token operator">:</span> <span class="token string">'less-loader'</span><span class="token punctuation">,</span> <span class="token comment">// compiles Less to CSS</span>
+<span class="token operator">+</span>     options<span class="token operator">:</span> <span class="token punctuation">{</span>
+<span class="token operator">+</span>       lessOptions<span class="token operator">:</span> <span class="token punctuation">{</span> <span class="token comment">// If you are using less-loader@5 please spread the lessOptions to options directly</span>
+<span class="token operator">+</span>         modifyVars<span class="token operator">:</span> theme<span class="token punctuation">,</span>
+<span class="token operator">+</span>         javascriptEnabled<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+<span class="token operator">+</span>       <span class="token punctuation">}</span><span class="token punctuation">,</span>
+<span class="token operator">+</span>     <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token punctuation">}</span><span class="token punctuation">]</span><span class="token punctuation">)</span>
+
+    <span class="token keyword control-flow">return</span> config
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span>
+</code></pre>
+<h2 id="example"><a aria-hidden="true" class="anchor-heading" href="#example"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Example</h2>
+<p>Currently W/ Chakra-UI, update to Ant-Design upcoming.</p>
+<p><a href="https://github.com/dendronhq/dendron/tree/master/packages/dendron-design-system">https://github.com/dendronhq/dendron/tree/master/packages/dendron-design-system</a></p>
+<hr>
+<h2 id="backlinks"><a aria-hidden="true" class="anchor-heading" href="#backlinks"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Backlinks</h2>
+<ul>
+<li><a href="https://wiki.dendron.so/notes/00e6f3d8-4243-42c7-8e4f-a074a1bd0ffb.html">Release Notes (version 0.44)</a></li>
+</ul><span id="navId" data="1bb018db-8f8e-46c8-ac4a-4baf4813b0c8"></span>
+
+                
+      </section>
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+        <div class="thumbs feedback_trigger right-bottom"></div>
+
+        
+          <hr>
+          <footer>
+            
+            
+
+            
+              <div class="d-flex mt-2">
+              <p class="text-small text-grey-dk-000 mb-0 mr-2">
+                Page last modified: <span class="d-inline-block">4/2/2021</span>.
+              </p>
+            
+                
+                  <p class="text-small text-grey-dk-000 mb-0">
+                    <a href="https://github.com/dendronhq/dendron-site/edit/master/vault/dendron.rfc.6-design-system.md" id="edit-this-page">Edit this page on GitHub</a>
+                  </p>
+                
+              </div>
+          </footer>
+        
+    </div>
+</div>
+
+
+  
+
+  <div class="search-overlay"></div>
+
+</div>
+
+</body>
+</html>

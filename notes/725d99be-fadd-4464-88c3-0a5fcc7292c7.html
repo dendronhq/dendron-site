@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+  
+  <title>Server Migration - Dendron</title>
+  
+
+  <link
+    rel="shortcut icon"
+    href="https://wiki.dendron.so/favicon.ico"
+    type="image/x-icon"
+  />
+  <link
+    rel="stylesheet"
+    href="https://wiki.dendron.so/assets/css/just-the-docs-default.css"
+  />
+  <script
+    type="text/javascript"
+    src="https://wiki.dendron.so/assets/js/just-the-docs.js"
+  ></script>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.22.0/themes/prism.min.css"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css"
+    integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X"
+    crossorigin="anonymous"
+  />
+  <script
+    type="text/javascript"
+    src="https://wiki.dendron.so/assets/js/vendor/lunr.min.js"
+  ></script>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+   
+   
+  
+<meta name="description" content="Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.">
+<meta name="author" content="dendronhq">
+
+<link rel="canonical" href="https://wiki.dendron.so/notes/725d99be-fadd-4464-88c3-0a5fcc7292c7.html">
+
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://wiki.dendron.so/notes/725d99be-fadd-4464-88c3-0a5fcc7292c7.html">
+<meta property="og:description" content="Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.">
+<meta property="og:image" content="https://wiki.dendron.so/logo.png">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@dendronhq">
+<meta name="twitter:url" content="https://wiki.dendron.so/notes/725d99be-fadd-4464-88c3-0a5fcc7292c7.html">
+<meta name="twitter:description" content="Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.">
+<meta name="twitter:image" content="https://wiki.dendron.so/logo.png">
+
+
+  <meta property="og:title" content="Server Migration - Dendron" />
+  <meta name="twitter:title" content="Server Migration - Dendron" />
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-B0JN2HHCNY"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-B0JN2HHCNY');
+  </script>
+  
+</head>
+
+
+
+<body>
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+      <symbol id="svg-link" viewBox="0 0 24 24">
+        <title>Link</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-link">
+          <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+        </svg>
+      </symbol>
+      <symbol id="svg-search" viewBox="0 0 24 24">
+        <title>Search</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search">
+          <circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+      </symbol>
+      <symbol id="svg-menu" viewBox="0 0 24 24">
+        <title>Menu</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu">
+          <line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+      </symbol>
+      <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+        <title>Expand</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+          <polyline points="9 18 15 12 9 6"></polyline>
+        </svg>
+      </symbol>
+      <symbol id="svg-doc" viewBox="0 0 24 24">
+        <title>Document</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file">
+          <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path><polyline points="13 2 13 9 20 9"></polyline>
+        </svg>
+      </symbol>
+    </svg>
+
+    <div class="side-bar">
+      <div class="site-header">
+        <a href="https://wiki.dendron.so" class="site-title lh-tight">
+  <div class="site-logo"></div>
+
+ </a>
+        <a href="#" id="menu-button" class="site-button">
+          <svg viewBox="0 0 24 24" class="icon"><use xlink:href="#svg-menu"></use></svg>
+        </a>
+      </div>
+
+      <nav role="navigation" aria-label="Main" id="site-nav" class="site-nav">
+      </nav>
+      <footer class="site-footer">
+        🌱 with 💕 using <a href="https://www.dendron.so/"> Dendron 🌲 </a>
+      </footer>
+    </div>
+    <div class="main" id="top">
+        <div id="main-header" class="main-header">
+          
+            <div class="search">
+              <div class="search-input-wrap">
+                <input type="text" id="search-input" class="search-input" tabindex="0" placeholder="Search Dendron" aria-label="Search Dendron" autocomplete="off">
+                <label for="search-input" class="search-label"><svg viewBox="0 0 24 24" class="search-icon"><use xlink:href="#svg-search"></use></svg></label>
+              </div>
+              <div id="search-results" class="search-results"></div>
+            </div>
+          
+          
+    </div>
+    <div id="main-content-wrap" class="main-content-wrap">
+      
+        
+          <nav aria-label="Breadcrumb" class="breadcrumb-nav">
+            <ol class="breadcrumb-nav-list"><li class="breadcrumb-nav-list-item"><a href="https://wiki.dendron.so">Dendron</a></li><li class="breadcrumb-nav-list-item"><a href="https://wiki.dendron.so/notes/6e4c4f61-80a3-46fa-9ad3-04b99d9e9695.html">Dendron Public Roadmap</a></li><li class="breadcrumb-nav-list-item"><a href="https://wiki.dendron.so/notes/8cf880da-6402-47fb-8e9a-9d5fa38e31d0.html">Project</a></li><li class="breadcrumb-nav-list-item"><a href="https://wiki.dendron.so/notes/167bd57c-fb54-4a71-85b2-c26ba6df29fc.html">Entries</a></li><li class="breadcrumb-nav-list-item"><a href="https://wiki.dendron.so/notes/58247dfb-55b4-4269-9b37-42a90a0045ef.html">2020</a></li><li class="breadcrumb-nav-list-item">Server Migration</li></ol>
+          </nav>
+        
+      
+      <div id="main-content" class="main-content" role="main">
+
+        
+        
+        <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+        <script>mermaid.initialize({startOnLoad:true});</script>
+        
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+        
+        
+
+        
+
+        
+
+        
+
+        <script>
+          $(function () {
+            $('[data-toggle="popover"]').popover({html: true})
+          })
+        </script>
+
+        
+
+<div id="main" role="main">
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Server Migration">
+    
+    <meta itemprop="datePublished" content="2020-09-07T18:00:16+00:00">
+    <meta itemprop="dateModified" content="2020-10-29T14:36:10+00:00">
+
+    <div class="page__inner-wrap">
+
+      
+
+      <section class="page__content" itemprop="text">
+
+        
+
+        <h1 id="server-migration"><a aria-hidden="true" class="anchor-heading" href="#server-migration"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Server Migration</h1>
+<h2 id="goals"><a aria-hidden="true" class="anchor-heading" href="#goals"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Goals</h2>
+<p>Migrate the Dendron to (local) client &#x3C;-> server architecture</p>
+<h2 id="details"><a aria-hidden="true" class="anchor-heading" href="#details"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Details</h2>
+<p>Dendron's current architecture can be found <a href="https://dendron.so/notes/c160ddce-edec-4f6e-841b-418d6030fa37.html">here</a>. Currently, all of Dendron's indexing capabilities is provided by the <code>dendron engine</code> as a library which is included in every extension that uses it. This has many drawbacks - every extension re-indexes all notes and also blocks the client (vscode) during this process.</p>
+<p>The Dendron server migration is to move Dendron to a client server architecture. Note that the migration will involve standing up <strong>two servers</strong>: one for language server functionality (the lsp server), and another for dendron's <a href="https://dendron.so/notes/a7c3a810-28c8-4b47-96a6-8156b1524af3.html">lookup</a> capabilities (the express server). </p>
+<p>The rationale for having two servers is discussed <a href="https://discordapp.com/channels/717965437182410783/748936364283920495/759153642644701285">here</a>.</p>
+<p>They are also elaborated upon <a href="https://discordapp.com/channels/717965437182410783/735365126227493004/765435624878505985">here</a></p>
+<p>Instead of calling the engine directly, the Dendron extension, as well as related plugins, will communicate to Dendron's server using IPC and on local ports. </p>
+<h2 id="tasks"><a aria-hidden="true" class="anchor-heading" href="#tasks"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Tasks</h2>
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" checked disabled> add LSP server to Dendron (0.12)</li>
+<li class="task-list-item"><input type="checkbox" checked disabled> add api server to Dendron (0.12)</li>
+<li class="task-list-item"><input type="checkbox" checked disabled> hook server into dendron startup (0.12.4)</li>
+<li class="task-list-item"><input type="checkbox" checked disabled> migrate lookup to server model 
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" checked disabled> support query notes (0.12.6)</li>
+<li class="task-list-item"><input type="checkbox" checked disabled> support query notes with schema (0.12.6)</li>
+<li class="task-list-item"><input type="checkbox" checked disabled> support write notes (0.12.6)</li>
+<li class="task-list-item"><input type="checkbox" checked disabled> support write note with schema (0.12.6)</li>
+<li class="task-list-item"><input type="checkbox" checked disabled> support delete note (0.12.7)</li>
+<li class="task-list-item"><input type="checkbox" checked disabled> support query schema (0.12.7)</li>
+<li class="task-list-item"><input type="checkbox" checked disabled> support write schema (0.12.7)</li>
+<li class="task-list-item"><input type="checkbox" checked disabled> support delete schema  (0.12.7)</li>
+</ul>
+</li>
+<li class="task-list-item"><input type="checkbox" checked disabled> optimize server lookup performance (0.12.7)</li>
+<li class="task-list-item"><input type="checkbox" checked disabled> enable file watcher (0.12.7)</li>
+<li class="task-list-item"><input type="checkbox" checked disabled> dendron tree view (0.12.7)</li>
+<li class="task-list-item"><input type="checkbox" checked disabled> migrate commands
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" checked disabled> scratch note (0.12.7)</li>
+<li class="task-list-item"><input type="checkbox" checked disabled> journal note (0.12.7)</li>
+<li class="task-list-item"><input type="checkbox" checked disabled> copy note command (0.12.7)</li>
+<li class="task-list-item"><input type="checkbox" checked disabled> copy note url (0.12.7)</li>
+<li class="task-list-item"><input type="checkbox" checked disabled> lookup scratch note (0.12.7)</li>
+<li class="task-list-item"><input type="checkbox" checked disabled> lookup journal note (0.12.7)</li>
+<li class="task-list-item"><input type="checkbox" checked disabled> global journal note (0.12.7)</li>
+<li class="task-list-item"><input type="checkbox" checked disabled> build pod (0.12.8)</li>
+<li class="task-list-item"><input type="checkbox" checked disabled> rename note</li>
+<li class="task-list-item"><input type="checkbox" checked disabled> archive hierarchy</li>
+<li class="task-list-item"><input type="checkbox" checked disabled> refactor hiearchy</li>
+<li class="task-list-item"><input type="checkbox" checked disabled> doctor</li>
+</ul>
+</li>
+<li class="task-list-item"><input type="checkbox" checked disabled> integration tests for all server functionality</li>
+</ul>
+<h2 id="next"><a aria-hidden="true" class="anchor-heading" href="#next"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Next</h2>
+<ul>
+<li>migrate bundled extensions to server model</li>
+<li>use custom goto definition provider </li>
+<li>use custom backlink definition provider</li>
+<li>use schema based completions</li>
+</ul>
+<h2 id="configuration"><a aria-hidden="true" class="anchor-heading" href="#configuration"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Configuration</h2>
+<p>To enable server mode, update the following setting in your workspace settings <code>"dendron.useExperimentalLSPSupport": true</code>. Run <code>> Developer: Reload Window</code> afterwards for the changes to take effect.</p>
+<h2 id="links"><a aria-hidden="true" class="anchor-heading" href="#links"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Links</h2>
+<ul>
+<li><a href="https://dendron.so/notes/725d99be-fadd-4464-88c3-0a5fcc7292c7.html">project docs</a></li>
+<li><a href="https://github.com/dendronhq/dendron/labels/pro.server-migration">issues</a></li>
+</ul>
+<h2 id="related"><a aria-hidden="true" class="anchor-heading" href="#related"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Related</h2>
+<ul>
+<li><a href="https://wiki.dendron.so/notes/66727a39-d0a7-449b-a10d-f6c438185d7f.html">Pods</a></li>
+<li><a href="https://wiki.dendron.so/notes/700b02fc-1e6c-46b1-8d68-5d8e17a55d33.html">pod proposal issue</a>	</li>
+</ul>
+<!-- 
+### Breakdown
+
+- create `@dendronhq/lsp-server` package
+- create interface btw lsp -> engine
+- implement a basic **new** feature using lsp (eg. hover preview of link) and delegate to lsp
+- route basic **old** feature to lsp (eg. go to definition from markdown-notes)
+- everything else
+
+### Design
+- components
+    - [[p.dendron-extension]]: vscode extension
+    - [[p.engine-v0]]: current dendron engine
+    - [[p.engine-server]]: dendron lsp engine
+    - [[p.engine-client]]: dendron lsp client
+- concepts
+    - all links: note refs, wiki links, md links
+- architecture today:
+    - [[p.dendron-extension]] -> [[p.engine-v0]]
+- architecture after migration
+    - user commands: [[p.dendron-extension]] -> [[p.engine-client]] -> [[p.engine-server]]
+    - lsp specific actions: vscode -> [[p.engine-server]]
+
+### Challenges
+
+#### Non-lsp functionality
+LSP provides language specific features but doesn't provide us with the equivalent of [[dendron.topic.lookup]]. If we want to consolidate the indexing inside [[p.engine-server]], we need a way to query the index via [[p.engine-client]]. Below are a few proposals to do this:
+
+1. Write all metadata to JSON file. Use filewatcher for engine-client to watch the JSON file
+2. Add a custom listener to [[p.engine-server]] that listens for special [[p.engine-client]] requests on a standalone port
+
+### Flows
+
+#### initialization
+- user activates dendron workspace
+- activates [[p.engine-server]] and [[p.engine-client]]
+- [[p.engine-server]] indexes all files in workspace and sets file watcher to watch for changes
+- [[p.engine-client]] gets notified when indexing is complete
+
+#### sync
+- [[p.engine-server]] will track the following changes
+    - frontmatter updates
+    - note updates
+    - schema updates
+    - dendron specifc config
+
+#### commands
+
+This describes what will be the main provider of the functionality that is currently done via the engine.
+
+- Create Daily Journal Note
+    - provider: [[p.engine-client]]
+- Create Journal Note
+    - provider: [[p.engine-client]]
+- Create Scratch Note
+    - provider: [[p.engine-client]]
+- Copy Note Link
+    - provider: [[p.engine-client]]
+- Copy Note Ref
+    - provider: [[p.engine-client]]
+- Delete Node
+    - provider: [[p.engine-client]]
+- New Note From Selection
+    - provider: [[p.engine-client]]
+- Rename Note
+    - provider: [[lsp.rename-and-prepare-rename]]
+- Show Preview
+    - provider: [[p.dendron-mpe]]
+- Lookup
+    - provider: [[p.engine-client]]
+- Lookup Schema
+    - provider: [[p.engine-client]]
+- Open Link
+    - provider: [[p.engine-client]]
+- Reload Index
+    - provider: [[p.engine-server]]
+- Archive Hierarchy
+    - provider: [[lsp.rename-and-prepare-rename]]
+- Refactor Hierarchy
+    - provider: [[lsp.rename-and-prepare-rename]]
+- Go Up
+    - provider: [[p.engine-client]]
+- Go Next Sibling
+    - provider: [[p.engine-client]]
+- Go Previous Sibling
+    - provider: [[p.engine-client]]
+- Go Down
+    - provider: [[p.engine-client]]
+- Initialize Workspace
+    - provider: [[p.dendron-extension]]
+- Change Workspace
+    - provider: [[p.dendron-extension]]
+- Show Help
+    - provider: [[p.dendron-extension]]
+- Build Pod
+    - provider: [[p.engine-client]]
+- Configure Pod
+    - provider: [[p.engine-client]]
+- Import Pod
+    - provider: [[p.engine-client]]
+- Export Pod
+    - provider: [[p.engine-client]]
+- Doctor
+    - provider: [[p.engine-client]]
+- Dendron:Dev: Open Logs
+    - provider: [[p.engine-client]]
+
+### Additional Functionality Via LSP
+- [[lsp.publish-diagnostics]]
+- [[lsp.completion-and-completion-resolve]]
+    - all links
+    - frontmatter fields 
+    - document headers
+- [[lsp.hover]]
+    - show preview of all links (exclude note refs)
+- [[lsp.signature-help]]
+- [[lsp.definition]]
+    - all links
+- [[lsp.type-definition]]
+    - goto definition for all links
+    - go to definition for schema elements
+- [[lsp.implementation]]
+    - inside schema, trigger this to look at all notes that implement said schema
+- [[lsp.references]]
+    - backlinks
+- [[lsp.document-highlight]]
+    - TBD
+- [[lsp.document-symbol]]
+- [[lsp.code-action]]
+    - fix frontmatter according to schema
+- [[lsp.codelens-and-codelens-resolve]]
+- [[lsp.documentlink-and-documentlink-resolve]]
+- [[lsp.documentcolor-and-color-presentation]]
+- [[lsp.formatting]]
+    - format according to markdown-lint and schema
+- [[lsp.range-formatting]]
+- [[lsp.ontype-formatting]]
+- [[lsp.rename-and-prepare-rename]]
+- [[lsp.folding-range]]
+-->
+<hr>
+<h2 id="backlinks"><a aria-hidden="true" class="anchor-heading" href="#backlinks"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Backlinks</h2>
+<ul>
+<li><a href="https://wiki.dendron.so/notes/5a7103be-eb92-4380-8207-598e9f10724c.html">Dendron Engine</a></li>
+<li><a href="https://wiki.dendron.so/notes/1b1aef8e-c9d5-42de-b850-d1b1467cf88b.html">Release Notes(version 0.13)</a></li>
+<li><a href="https://wiki.dendron.so/notes/98ad9b6b-53f3-4883-939e-e14055f2cac7.html">Release Notes(version 0.14)</a></li>
+<li><a href="https://wiki.dendron.so/notes/8cf880da-6402-47fb-8e9a-9d5fa38e31d0.html">Project</a></li>
+<li><a href="https://wiki.dendron.so/notes/23a1b942-99af-45c8-8116-4f4bb7dccd21.html">Dendron CLI</a></li>
+<li><a href="https://wiki.dendron.so/notes/ed4162aa-5474-4483-9fbc-c0b505310c59.html">0.1.X</a></li>
+</ul><span id="navId" data="725d99be-fadd-4464-88c3-0a5fcc7292c7"></span>
+
+                
+      </section>
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+        <div class="thumbs feedback_trigger right-bottom"></div>
+
+        
+          <hr>
+          <footer>
+            
+            
+
+            
+              <div class="d-flex mt-2">
+              <p class="text-small text-grey-dk-000 mb-0 mr-2">
+                Page last modified: <span class="d-inline-block">10/29/2020</span>.
+              </p>
+            
+                
+                  <p class="text-small text-grey-dk-000 mb-0">
+                    <a href="https://github.com/dendronhq/dendron-site/edit/master/vault/dendron.roadmap.project.n.2020.server-migration.md" id="edit-this-page">Edit this page on GitHub</a>
+                  </p>
+                
+              </div>
+          </footer>
+        
+    </div>
+</div>
+
+
+  
+
+  <div class="search-overlay"></div>
+
+</div>
+
+</body>
+</html>

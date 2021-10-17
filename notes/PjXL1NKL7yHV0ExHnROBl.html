@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+  
+  <title>24 Custom Theming - Dendron</title>
+  
+
+  <link
+    rel="shortcut icon"
+    href="https://wiki.dendron.so/favicon.ico"
+    type="image/x-icon"
+  />
+  <link
+    rel="stylesheet"
+    href="https://wiki.dendron.so/assets/css/just-the-docs-default.css"
+  />
+  <script
+    type="text/javascript"
+    src="https://wiki.dendron.so/assets/js/just-the-docs.js"
+  ></script>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.22.0/themes/prism.min.css"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css"
+    integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X"
+    crossorigin="anonymous"
+  />
+  <script
+    type="text/javascript"
+    src="https://wiki.dendron.so/assets/js/vendor/lunr.min.js"
+  ></script>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+   
+   
+  
+<meta name="description" content="Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.">
+<meta name="author" content="dendronhq">
+
+<link rel="canonical" href="https://wiki.dendron.so/notes/PjXL1NKL7yHV0ExHnROBl.html">
+
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://wiki.dendron.so/notes/PjXL1NKL7yHV0ExHnROBl.html">
+<meta property="og:description" content="Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.">
+<meta property="og:image" content="https://wiki.dendron.so/logo.png">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@dendronhq">
+<meta name="twitter:url" content="https://wiki.dendron.so/notes/PjXL1NKL7yHV0ExHnROBl.html">
+<meta name="twitter:description" content="Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.">
+<meta name="twitter:image" content="https://wiki.dendron.so/logo.png">
+
+
+  <meta property="og:title" content="24 Custom Theming - Dendron" />
+  <meta name="twitter:title" content="24 Custom Theming - Dendron" />
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-B0JN2HHCNY"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-B0JN2HHCNY');
+  </script>
+  
+</head>
+
+
+
+<body>
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+      <symbol id="svg-link" viewBox="0 0 24 24">
+        <title>Link</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-link">
+          <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+        </svg>
+      </symbol>
+      <symbol id="svg-search" viewBox="0 0 24 24">
+        <title>Search</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search">
+          <circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+      </symbol>
+      <symbol id="svg-menu" viewBox="0 0 24 24">
+        <title>Menu</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu">
+          <line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+      </symbol>
+      <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+        <title>Expand</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+          <polyline points="9 18 15 12 9 6"></polyline>
+        </svg>
+      </symbol>
+      <symbol id="svg-doc" viewBox="0 0 24 24">
+        <title>Document</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file">
+          <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path><polyline points="13 2 13 9 20 9"></polyline>
+        </svg>
+      </symbol>
+    </svg>
+
+    <div class="side-bar">
+      <div class="site-header">
+        <a href="https://wiki.dendron.so" class="site-title lh-tight">
+  <div class="site-logo"></div>
+
+ </a>
+        <a href="#" id="menu-button" class="site-button">
+          <svg viewBox="0 0 24 24" class="icon"><use xlink:href="#svg-menu"></use></svg>
+        </a>
+      </div>
+
+      <nav role="navigation" aria-label="Main" id="site-nav" class="site-nav">
+      </nav>
+      <footer class="site-footer">
+        🌱 with 💕 using <a href="https://www.dendron.so/"> Dendron 🌲 </a>
+      </footer>
+    </div>
+    <div class="main" id="top">
+        <div id="main-header" class="main-header">
+          
+            <div class="search">
+              <div class="search-input-wrap">
+                <input type="text" id="search-input" class="search-input" tabindex="0" placeholder="Search Dendron" aria-label="Search Dendron" autocomplete="off">
+                <label for="search-input" class="search-label"><svg viewBox="0 0 24 24" class="search-icon"><use xlink:href="#svg-search"></use></svg></label>
+              </div>
+              <div id="search-results" class="search-results"></div>
+            </div>
+          
+          
+    </div>
+    <div id="main-content-wrap" class="main-content-wrap">
+      
+        
+          <nav aria-label="Breadcrumb" class="breadcrumb-nav">
+            <ol class="breadcrumb-nav-list"><li class="breadcrumb-nav-list-item"><a href="https://wiki.dendron.so">Dendron</a></li><li class="breadcrumb-nav-list-item"><a href="https://wiki.dendron.so/notes/f143ca38-dcc6-4cd3-b84b-997aec1160ef.html">Rfc</a></li><li class="breadcrumb-nav-list-item">24 Custom Theming</li></ol>
+          </nav>
+        
+      
+      <div id="main-content" class="main-content" role="main">
+
+        
+        
+        <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+        <script>mermaid.initialize({startOnLoad:true});</script>
+        
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+        
+        
+
+        
+
+        
+
+        
+
+        <script>
+          $(function () {
+            $('[data-toggle="popover"]').popover({html: true})
+          })
+        </script>
+
+        
+
+<div id="main" role="main">
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="24 Custom Theming">
+    
+    <meta itemprop="datePublished" content="2021-09-06T22:24:54+00:00">
+    <meta itemprop="dateModified" content="2021-09-14T18:57:07+00:00">
+
+    <div class="page__inner-wrap">
+
+      
+
+      <section class="page__content" itemprop="text">
+
+        
+
+        <h1 id="24-custom-theming"><a aria-hidden="true" class="anchor-heading" href="#24-custom-theming"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>24 Custom Theming</h1>
+<h2 id="goals"><a aria-hidden="true" class="anchor-heading" href="#goals"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Goals</h2>
+<p>Provide custom theming for Dendron Preview<sup id="fnref-1"><a href="#fn-1" class="footnote-ref">1</a></sup> and the Dendron NextJS Template <sup id="fnref-2"><a href="#fn-2" class="footnote-ref">2</a></sup></p>
+<h2 id="context"><a aria-hidden="true" class="anchor-heading" href="#context"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Context</h2>
+<p>Dendron currently does not allow for custom theming of either the preview or the published site. This is one of our highest request features in regards to preview and publishing. </p>
+<h2 id="proposal"><a aria-hidden="true" class="anchor-heading" href="#proposal"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Proposal</h2>
+<ol>
+<li>Introduce new command, <code>Customize Theme</code>, which will do the following:
+<ul>
+<li>this command has two options: <code>preview</code> and <code>publishing</code></li>
+<li>if the user selects <code>preview</code>, create a file called <code>style.less</code> at <code>{workspace}/style.less</code></li>
+<li>if the user selects <code>publishing</code>, create a file called <code>style.less</code> at <code>{workspace}/.next/style.less</code></li>
+</ul>
+</li>
+<li>Introduce new command, <code>Apply Theme</code>, which will do the following:
+<ul>
+<li>this command has two options: <code>preview</code> and <code>publishing</code></li>
+<li>on <code>preview</code>, when Dendron runs in a workspace with a <code>style.less</code> file, it will style Dendron using the given stylesheet</li>
+<li>on <code>publishing</code>, when Dendron publishes notes in a next project with a <code>style.less</code> file, it will publish using the given stylesheet</li>
+</ul>
+</li>
+</ol>
+<h2 id="out-of-scope"><a aria-hidden="true" class="anchor-heading" href="#out-of-scope"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Out of Scope</h2>
+<ul>
+<li>customizing mermaid theme</li>
+<li>customizing prismjs theme</li>
+<li>having light and dark versions of themes</li>
+</ul>
+<h2 id="implementation"><a aria-hidden="true" class="anchor-heading" href="#implementation"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Implementation</h2>
+<h3 id="less-to-css-conversion"><a aria-hidden="true" class="anchor-heading" href="#less-to-css-conversion"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Less to CSS Conversion</h3>
+<p>We need to transform less to css before we can consume it in React. Currently we use the following gulp script <sup id="fnref-3"><a href="#fn-3" class="footnote-ref">3</a></sup> to make this happen with the default theme.</p>
+<p>For custom theme, we'll need to run the gulp script when <code>Apply Theme</code> has been called.  Instead of generating the css in <code>public</code>, the css should be generated in <code>{workspace}/build/style.css</code> if generating for <code>preview</code> and in <code>{workspace}/.next/public/style.css</code> for <code>publishing</code></p>
+<ul>
+<li>NOTE: we can't directly generate the stylesheet in the Dendron extension directory because VSCode checks the checksum of the extension dir after installation</li>
+</ul>
+<h3 id="fetching-css"><a aria-hidden="true" class="anchor-heading" href="#fetching-css"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Fetching CSS</h3>
+<h4 id="preview"><a aria-hidden="true" class="anchor-heading" href="#preview"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Preview</h4>
+<p>Preview theme logic is described here <sup id="fnref-preview-theme"><a href="#fn-preview-theme" class="footnote-ref">preview-theme</a></sup>. A new theme needs to be added to the themeMap called <code>custom</code>.  </p>
+<p>The theme path needs will be a request to the  <code>getTheme</code> <sup id="fnref-api-theme"><a href="#fn-api-theme" class="footnote-ref">api-theme</a></sup> method which will need to be adjusted to accomadate the preview theme.</p>
+<h4 id="publishing"><a aria-hidden="true" class="anchor-heading" href="#publishing"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Publishing</h4>
+<p>Preview theme logic is described here <sup id="fnref-publish-theme"><a href="#fn-publish-theme" class="footnote-ref">publish-theme</a></sup>.  A new theme needs to be added to the themeMap called <code>custom</code>. </p>
+<p>The theme path can be set to <code>/style.css</code> since the css can be directly put into the <code>public/</code> folder.</p>
+<h3 id="setting-the-new-theme"><a aria-hidden="true" class="anchor-heading" href="#setting-the-new-theme"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Setting the new theme</h3>
+<h4 id="preview-1"><a aria-hidden="true" class="anchor-heading" href="#preview-1"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Preview</h4>
+<p>When loading the nextjs template, add a new query parameter that will indicate to Dendron that we are using a custom theme. See the dendron-next architecture <sup id="fnref-next-server-arch"><a href="#fn-next-server-arch" class="footnote-ref">next-server-arch</a></sup> to see how this is done today. Modify the <code>_app.tsx</code> to recognize this parameter and apply the custom theme. </p>
+<h4 id="publishing-1"><a aria-hidden="true" class="anchor-heading" href="#publishing-1"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Publishing</h4>
+<p>Add an environmental variable in <a href="https://nextjs.org/docs/basic-features/environment-variables"><code>.env</code></a> to indicate we are using a custom theme. Modify the <code>_app.tsx</code> to recognize this parameter and apply the custom theme. </p>
+<h4 id="preview-2"><a aria-hidden="true" class="anchor-heading" href="#preview-2"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Preview</h4>
+<p>TBD</p>
+<h2 id="example"><a aria-hidden="true" class="anchor-heading" href="#example"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Example</h2>
+<h3 id="adding-a-new-theme-to-the-preview"><a aria-hidden="true" class="anchor-heading" href="#adding-a-new-theme-to-the-preview"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Adding a new theme to the preview</h3>
+<ol>
+<li>User run command: <code>Dendron: Customize Theme</code></li>
+<li>User Select:  <code>preview</code></li>
+<li>Dendron Creates <code>{workspace}/style.less</code> and open the editor to given page</li>
+<li>User makes edits</li>
+<li>User run command: <code>Dendron: Apply Theme</code> </li>
+<li>User Select:  <code>preview</code></li>
+<li>Dendron compiles <code>{workspace}/style.less</code> to <code>{workspace}/build/style.css</code></li>
+<li>User run command: <code>Dendron: Show Preview</code></li>
+<li>Dendron shows preview with new theme</li>
+</ol>
+<h3 id="deleting-a-theme"><a aria-hidden="true" class="anchor-heading" href="#deleting-a-theme"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Deleting a theme</h3>
+<ol>
+<li>User deletes <code>{workspace}/style.less</code></li>
+<li>User run command: <code>Dendron: Apply Theme</code> </li>
+</ol>
+<h2 id="tradeoffs"><a aria-hidden="true" class="anchor-heading" href="#tradeoffs"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Tradeoffs</h2>
+<ul>
+<li>Pros
+<ul>
+<li>Keeps compatibility with existing <a href="https://ant.design/">AntD</a> design framework</li>
+</ul>
+</li>
+<li>Cons
+<ul>
+<li>Adding <code>gulp</code> to the plugin along with less -> css processing files will increase the extension size</li>
+<li><code>less</code> is no longer mainstream <code>scss</code> is much more popular</li>
+</ul>
+</li>
+</ul>
+<h2 id="related"><a aria-hidden="true" class="anchor-heading" href="#related"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Related</h2>
+<ul>
+<li>Working on Dendron Next Server <sup id="fnref-next-server-dev"><a href="#fn-next-server-dev" class="footnote-ref">next-server-dev</a></sup></li>
+<li>Working on Dendron Next Template <sup id="fnref-next-template-dev"><a href="#fn-next-template-dev" class="footnote-ref">next-template-dev</a></sup></li>
+</ul>
+<h2 id="faq"><a aria-hidden="true" class="anchor-heading" href="#faq"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>FAQ</h2>
+<h3 id="what-is-the-behavior-for-mermaid-and-prism-when-using-a-custom-theme"><a aria-hidden="true" class="anchor-heading" href="#what-is-the-behavior-for-mermaid-and-prism-when-using-a-custom-theme"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>What is the behavior for mermaid and prism when using a custom theme?</h3>
+<p>By default, we will switch to the default light theme of these respective components. In the future, these will also be customizable. </p>
+<h2 id="discussion"><a aria-hidden="true" class="anchor-heading" href="#discussion"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Discussion</h2>
+<p>All discussions for this RFC can be directed to this <a href="https://github.com/dendronhq/dendron/discussions/1298">github discussion</a></p>
+<h2 id="lookup"><a aria-hidden="true" class="anchor-heading" href="#lookup"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Lookup</h2>
+<hr>
+<h2 id="backlinks"><a aria-hidden="true" class="anchor-heading" href="#backlinks"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Backlinks</h2>
+<ul>
+<li><a href="https://wiki.dendron.so/notes/aURuqCucZegsCpJSb5m90.html">Release Notes (version 0.59)</a></li>
+</ul>
+<div class="footnotes">
+<hr>
+<ol>
+<li id="fn-1"><a href="https://wiki.dendron.so/notes/Lnp1URddmWEWweyf.html">Preview V2</a><a href="#fnref-1" class="footnote-backref">↩</a></li>
+<li id="fn-2"><a href="https://wiki.dendron.so/notes/eQ5w4eqHrf4m1peq.html">NextJS Template</a><a href="#fnref-2" class="footnote-backref">↩</a></li>
+<li id="fn-3"><a title="Private" style="color: brown" href="https://wiki.dendron.so/notes/hfyvYGJZQiUwQaaxQO27q.html" target="_blank">Add Ability to Generate Themes (Private)</a><a href="#fnref-3" class="footnote-backref">↩</a></li>
+<li id="fn-preview-theme"><a href="https://wiki.dendron.so/notes/T6R8YCyPmx4MXHt5J2Aza.html#theming">Theming</a><a href="#fnref-preview-theme" class="footnote-backref">↩</a></li>
+<li id="fn-api-theme"><a href="https://wiki.dendron.so/notes/fqVcwvX5aNSdr7De.html#themes">Themes</a><a href="#fnref-api-theme" class="footnote-backref">↩</a></li>
+<li id="fn-publish-theme"><a href="https://wiki.dendron.so/notes/yuCgZwrczJVta7NNsBBec.html">Theme</a><a href="#fnref-publish-theme" class="footnote-backref">↩</a></li>
+<li id="fn-next-server-arch"><a href="https://wiki.dendron.so/notes/a0240c63-2000-4542-a0ba-d570f42323b9.html#startup">Startup</a><a href="#fnref-next-server-arch" class="footnote-backref">↩</a></li>
+<li id="fn-next-server-dev"><a href="https://wiki.dendron.so/notes/6293d9dc-9bd3-4b01-8428-34d8256f0a32.html">Dev</a><a href="#fnref-next-server-dev" class="footnote-backref">↩</a></li>
+<li id="fn-next-template-dev"><a href="https://wiki.dendron.so/notes/PgwAXFfotfgpFVqHQRlBl.html">Dev</a><a href="#fnref-next-template-dev" class="footnote-backref">↩</a></li>
+</ol>
+</div><span id="navId" data="PjXL1NKL7yHV0ExHnROBl"></span>
+
+                
+      </section>
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+        <div class="thumbs feedback_trigger right-bottom"></div>
+
+        
+          <hr>
+          <footer>
+            
+            
+
+            
+              <div class="d-flex mt-2">
+              <p class="text-small text-grey-dk-000 mb-0 mr-2">
+                Page last modified: <span class="d-inline-block">9/14/2021</span>.
+              </p>
+            
+                
+                  <p class="text-small text-grey-dk-000 mb-0">
+                    <a href="https://github.com/dendronhq/dendron-site/edit/master/vault/dendron.rfc.24-custom-theming.md" id="edit-this-page">Edit this page on GitHub</a>
+                  </p>
+                
+              </div>
+          </footer>
+        
+    </div>
+</div>
+
+
+  
+
+  <div class="search-overlay"></div>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+  
+  <title>Releases - Dendron</title>
+  
+
+  <link
+    rel="shortcut icon"
+    href="https://wiki.dendron.so/favicon.ico"
+    type="image/x-icon"
+  />
+  <link
+    rel="stylesheet"
+    href="https://wiki.dendron.so/assets/css/just-the-docs-default.css"
+  />
+  <script
+    type="text/javascript"
+    src="https://wiki.dendron.so/assets/js/just-the-docs.js"
+  ></script>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.22.0/themes/prism.min.css"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css"
+    integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X"
+    crossorigin="anonymous"
+  />
+  <script
+    type="text/javascript"
+    src="https://wiki.dendron.so/assets/js/vendor/lunr.min.js"
+  ></script>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+   
+   
+  
+<meta name="description" content="Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.">
+<meta name="author" content="dendronhq">
+
+<link rel="canonical" href="https://wiki.dendron.so/notes/932534e7-e788-4fdb-bc8c-eaf761992a8d.html">
+
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://wiki.dendron.so/notes/932534e7-e788-4fdb-bc8c-eaf761992a8d.html">
+<meta property="og:description" content="Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.">
+<meta property="og:image" content="https://wiki.dendron.so/logo.png">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@dendronhq">
+<meta name="twitter:url" content="https://wiki.dendron.so/notes/932534e7-e788-4fdb-bc8c-eaf761992a8d.html">
+<meta name="twitter:description" content="Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.">
+<meta name="twitter:image" content="https://wiki.dendron.so/logo.png">
+
+
+  <meta property="og:title" content="Releases - Dendron" />
+  <meta name="twitter:title" content="Releases - Dendron" />
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-B0JN2HHCNY"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-B0JN2HHCNY');
+  </script>
+  
+</head>
+
+
+
+<body>
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+      <symbol id="svg-link" viewBox="0 0 24 24">
+        <title>Link</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-link">
+          <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+        </svg>
+      </symbol>
+      <symbol id="svg-search" viewBox="0 0 24 24">
+        <title>Search</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search">
+          <circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+      </symbol>
+      <symbol id="svg-menu" viewBox="0 0 24 24">
+        <title>Menu</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu">
+          <line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+      </symbol>
+      <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+        <title>Expand</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+          <polyline points="9 18 15 12 9 6"></polyline>
+        </svg>
+      </symbol>
+      <symbol id="svg-doc" viewBox="0 0 24 24">
+        <title>Document</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file">
+          <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path><polyline points="13 2 13 9 20 9"></polyline>
+        </svg>
+      </symbol>
+    </svg>
+
+    <div class="side-bar">
+      <div class="site-header">
+        <a href="https://wiki.dendron.so" class="site-title lh-tight">
+  <div class="site-logo"></div>
+
+ </a>
+        <a href="#" id="menu-button" class="site-button">
+          <svg viewBox="0 0 24 24" class="icon"><use xlink:href="#svg-menu"></use></svg>
+        </a>
+      </div>
+
+      <nav role="navigation" aria-label="Main" id="site-nav" class="site-nav">
+      </nav>
+      <footer class="site-footer">
+        🌱 with 💕 using <a href="https://www.dendron.so/"> Dendron 🌲 </a>
+      </footer>
+    </div>
+    <div class="main" id="top">
+        <div id="main-header" class="main-header">
+          
+            <div class="search">
+              <div class="search-input-wrap">
+                <input type="text" id="search-input" class="search-input" tabindex="0" placeholder="Search Dendron" aria-label="Search Dendron" autocomplete="off">
+                <label for="search-input" class="search-label"><svg viewBox="0 0 24 24" class="search-icon"><use xlink:href="#svg-search"></use></svg></label>
+              </div>
+              <div id="search-results" class="search-results"></div>
+            </div>
+          
+          
+    </div>
+    <div id="main-content-wrap" class="main-content-wrap">
+      
+        
+          <nav aria-label="Breadcrumb" class="breadcrumb-nav">
+            <ol class="breadcrumb-nav-list"><li class="breadcrumb-nav-list-item"><a href="https://wiki.dendron.so">Dendron</a></li><li class="breadcrumb-nav-list-item">Releases</li></ol>
+          </nav>
+        
+      
+      <div id="main-content" class="main-content" role="main">
+
+        
+        
+        <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+        <script>mermaid.initialize({startOnLoad:true});</script>
+        
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+        
+        
+
+        
+
+        
+
+        
+
+        <script>
+          $(function () {
+            $('[data-toggle="popover"]').popover({html: true})
+          })
+        </script>
+
+        
+
+<div id="main" role="main">
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Releases">
+    
+    <meta itemprop="datePublished" content="2020-07-29T01:03:27+00:00">
+    <meta itemprop="dateModified" content="2021-01-07T23:31:06+00:00">
+
+    <div class="page__inner-wrap">
+
+      
+
+      <section class="page__content" itemprop="text">
+
+        
+
+        <h1 id="releases"><a aria-hidden="true" class="anchor-heading" href="#releases"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Releases</h1><span id="navId" data="932534e7-e788-4fdb-bc8c-eaf761992a8d"></span>
+<div class="list__item">
+<article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+<h2 class="archive__item-title no_toc" itemprop="headline">
+<a href="https://wiki.dendron.so/notes/9bc92432-a24c-492b-b831-4d5378c1692b.html" rel="permalink">Changelog</a>
+</h2>
+<p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 1/1/2022 </p>
+</article></div>
+<div class="list__item">
+<article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+<h2 class="archive__item-title no_toc" itemprop="headline">
+<a href="https://wiki.dendron.so/notes/7Y1f7gPmzhdLaepIfBvcj.html" rel="permalink">Release Notes (version 0.63)</a>
+</h2>
+<p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 10/12/2021 </p>
+</article></div>
+<div class="list__item">
+<article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+<h2 class="archive__item-title no_toc" itemprop="headline">
+<a href="https://wiki.dendron.so/notes/K6ssYNLMW27BSV6rSZJ5P.html" rel="permalink">Release Notes (version 0.62)</a>
+</h2>
+<p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 10/5/2021 </p>
+</article></div>
+<div class="list__item">
+<article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+<h2 class="archive__item-title no_toc" itemprop="headline">
+<a href="https://wiki.dendron.so/notes/sRnuoGUdVgwyFyJBWPRo7.html" rel="permalink">Release Notes (version 0.61)</a>
+</h2>
+<p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 9/28/2021 </p>
+</article></div>
+<div class="list__item">
+<article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+<h2 class="archive__item-title no_toc" itemprop="headline">
+<a href="https://wiki.dendron.so/notes/N9X7MArddruHw3FXxZv8X.html" rel="permalink">Release Notes (version 0.60)</a>
+</h2>
+<p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 9/20/2021 </p>
+</article></div>
+<div class="list__item">
+<article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+<h2 class="archive__item-title no_toc" itemprop="headline">
+<a href="https://wiki.dendron.so/notes/aURuqCucZegsCpJSb5m90.html" rel="permalink">Release Notes (version 0.59)</a>
+</h2>
+<p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 9/14/2021 </p>
+</article></div>
+<div class="list__item">
+<article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+<h2 class="archive__item-title no_toc" itemprop="headline">
+<a href="https://wiki.dendron.so/notes/Badrtj2lOp7AgANdgYfBv.html" rel="permalink">Release Notes (version 0.58)</a>
+</h2>
+<p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 9/7/2021 </p>
+</article></div>
+<div class="list__item">
+<article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+<h2 class="archive__item-title no_toc" itemprop="headline">
+<a href="https://wiki.dendron.so/notes/W5mqxShkKlwHarz90flG2.html" rel="permalink">Release Notes (version 0.57)</a>
+</h2>
+<p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 8/31/2021 </p>
+</article></div>
+<div class="list__item">
+<article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+<h2 class="archive__item-title no_toc" itemprop="headline">
+<a href="https://wiki.dendron.so/notes/6gA7Hm1y6qOeDXda3zlAE.html" rel="permalink">Release Notes (version 0.56)</a>
+</h2>
+<p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 8/23/2021 </p>
+</article></div>
+<div class="list__item">
+<article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+<h2 class="archive__item-title no_toc" itemprop="headline">
+<a href="https://wiki.dendron.so/notes/fYU3mSfr096DYui0O2cRp.html" rel="permalink">Release Notes (version 0.55)</a>
+</h2>
+<p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 8/17/2021 </p>
+</article></div>
+<div class="list__item">
+<article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+<h2 class="archive__item-title no_toc" itemprop="headline">
+<a href="https://wiki.dendron.so/notes/mZhQvxLdMJKaqpgyjOTVG.html" rel="permalink">Release Notes (version 0.54)</a>
+</h2>
+<p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 8/10/2021 </p>
+</article></div>
+<div class="list__item">
+<article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+<h2 class="archive__item-title no_toc" itemprop="headline">
+<a href="https://wiki.dendron.so/notes/XJvKMQfKVMD1Rm4o.html" rel="permalink">Release Notes (version 0.53)</a>
+</h2>
+<p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 8/2/2021 </p>
+</article></div>
+<div class="list__item">
+<article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+<h2 class="archive__item-title no_toc" itemprop="headline">
+<a href="https://wiki.dendron.so/notes/oLUblPDevwOoYr06.html" rel="permalink">Release Notes (version 0.52)</a>
+</h2>
+<p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 7/26/2021 </p>
+</article></div>
+<div class="list__item">
+<article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+<h2 class="archive__item-title no_toc" itemprop="headline">
+<a href="https://wiki.dendron.so/notes/9rqhTCE1dAUQJ3fD.html" rel="permalink">Release Notes (version 0.51)</a>
+</h2>
+<p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 7/19/2021 </p>
+</article></div>
+<div class="list__item">
+<article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+<h2 class="archive__item-title no_toc" itemprop="headline">
+<a href="https://wiki.dendron.so/notes/16qtgkcY-tgiYZWafX9Sp.html" rel="permalink">Release Notes (version 0.50)</a>
+</h2>
+<p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 7/12/2021 </p>
+</article></div>
+<div class="list__item">
+<article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+<h2 class="archive__item-title no_toc" itemprop="headline">
+<a href="https://wiki.dendron.so/notes/KasnPHKjT8aD6RzU0BI3x.html" rel="permalink">Release Notes (version 0.49)</a>
+</h2>
+<p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 7/5/2021 </p>
+<p class="archive__item-excerpt" itemprop="description"></p>
+</article></div>
+<div class="list__item">
+<article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+<h2 class="archive__item-title no_toc" itemprop="headline">
+<a href="https://wiki.dendron.so/notes/nB_CscjeWXqMfdcHfP7iX.html" rel="permalink">Release Notes (version 0.48)</a>
+</h2>
+<p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 6/28/2021 </p>
+<p class="archive__item-excerpt" itemprop="description">Export to folders, better handling of merges, and lots of QoL improvements</p>
+</article></div>
+<div class="list__item">
+<article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+<h2 class="archive__item-title no_toc" itemprop="headline">
+<a href="https://wiki.dendron.so/notes/SRqCvd66cO4L5OZ-B0PKG.html" rel="permalink">Release Notes (version 0.47)</a>
+</h2>
+<p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 6/21/2021 </p>
+</article></div>
+<div class="list__item">
+<article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+<h2 class="archive__item-title no_toc" itemprop="headline">
+<a href="https://wiki.dendron.so/notes/rYFDLOe50uFcfetsuWiGg.html" rel="permalink">Release Notes (version 0.46)</a>
+</h2>
+<p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 6/12/2021 </p>
+</article></div>
+<div class="list__item">
+<article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+<h2 class="archive__item-title no_toc" itemprop="headline">
+<a href="https://wiki.dendron.so/notes/28bc72c6-5d4f-4d7a-abb2-6c1d72f3438a.html" rel="permalink">Release Notes (version 0.45)</a>
+</h2>
+<p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 6/6/2021 </p>
+</article></div>
+<div class="list__item">
+<article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+<h2 class="archive__item-title no_toc" itemprop="headline">
+<a href="https://wiki.dendron.so/notes/00e6f3d8-4243-42c7-8e4f-a074a1bd0ffb.html" rel="permalink">Release Notes (version 0.44)</a>
+</h2>
+<p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 5/31/2021 </p>
+</article></div>
+<div class="list__item">
+<article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+<h2 class="archive__item-title no_toc" itemprop="headline">
+<a href="https://wiki.dendron.so/notes/1572fad1-a971-4802-81d9-ac678cee84a6.html" rel="permalink">Release Notes (version 0.43)</a>
+</h2>
+<p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 5/24/2021 </p>
+</article></div>
+<div class="list__item">
+<article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+<h2 class="archive__item-title no_toc" itemprop="headline">
+<a href="https://wiki.dendron.so/notes/fb9263aa-8cc6-423f-ab79-57921c90fb97.html" rel="permalink">Release Notes (version 0.42)</a>
+</h2>
+<p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 5/17/2021 </p>
+</article></div>
+<div class="list__item">
+<article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+<h2 class="archive__item-title no_toc" itemprop="headline">
+<a href="https://wiki.dendron.so/notes/6d77fa3b-f0f1-4fb5-bac1-14389d6efeb5.html" rel="permalink">Release Notes (version 0.41)</a>
+</h2>
+<p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 5/10/2021 </p>
+</article></div>
+<div class="list__item">
+<article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+<h2 class="archive__item-title no_toc" itemprop="headline">
+<a href="https://wiki.dendron.so/notes/2979e42c-a945-4483-912a-ad4f9560fdb7.html" rel="permalink">Release Notes (version 0.40)</a>
+</h2>
+<p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 5/3/2021 </p>
+</article></div>
+<div class="list__item">
+<article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+<h2 class="archive__item-title no_toc" itemprop="headline">
+<a href="https://wiki.dendron.so/notes/82130f1f-521d-42ec-a7da-b76a82f0d39d.html" rel="permalink">Release Notes (version 0.39)</a>
+</h2>
+<p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 4/26/2021 </p>
+</article></div>
+<div class="list__item">
+<article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+<h2 class="archive__item-title no_toc" itemprop="headline">
+<a href="https://wiki.dendron.so/notes/d84d5b33-76d3-4190-9a32-a728dc0eb97e.html" rel="permalink">Release Notes (version 0.38)</a>
+</h2>
+<p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 4/19/2021 </p>
+</article></div>
+<div class="list__item">
+<article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+<h2 class="archive__item-title no_toc" itemprop="headline">
+<a href="https://wiki.dendron.so/notes/8be5a0d4-4bd1-4da8-ad4b-3146aef432b7.html" rel="permalink">Release Notes (version 0.37)</a>
+</h2>
+<p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 4/12/2021 </p>
+</article></div>
+<div class="list__item">
+<article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+<h2 class="archive__item-title no_toc" itemprop="headline">
+<a href="https://wiki.dendron.so/notes/f240676a-a003-46e2-ac79-784bd142c7f0.html" rel="permalink">Release Notes (version 0.36)</a>
+</h2>
+<p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 4/5/2021 </p>
+</article></div>
+<div class="list__item">
+<article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+<h2 class="archive__item-title no_toc" itemprop="headline">
+<a href="https://wiki.dendron.so/notes/e71bcee0-2e97-49bd-ab5b-634df8903132.html" rel="permalink">Release Notes (version 0.35)</a>
+</h2>
+<p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 3/29/2021 </p>
+</article></div>
+<div class="list__item">
+<article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+<h2 class="archive__item-title no_toc" itemprop="headline">
+<a href="https://wiki.dendron.so/notes/2d59d6d0-5752-4de6-9027-f6bf9ab63aca.html" rel="permalink">Release Notes (version 0.34)</a>
+</h2>
+<p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 3/22/2021 </p>
+</article></div>
+<div class="list__item">
+<article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+<h2 class="archive__item-title no_toc" itemprop="headline">
+<a href="https://wiki.dendron.so/notes/ab2b8bac-db9a-4af8-9a2b-d8a219334841.html" rel="permalink">Release Notes (version 0.33)</a>
+</h2>
+<p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 3/15/2021 </p>
+</article></div>
+<div class="list__item">
+<article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+<h2 class="archive__item-title no_toc" itemprop="headline">
+<a href="https://wiki.dendron.so/notes/e4be70f5-e035-4e11-b915-3a3508cd9d6b.html" rel="permalink">Release Notes (version 0.32)</a>
+</h2>
+<p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 3/8/2021 </p>
+</article></div>
+<div class="list__item">
+<article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+<h2 class="archive__item-title no_toc" itemprop="headline">
+<a href="https://wiki.dendron.so/notes/1dad9378-8fcf-4859-bede-cc44279ba12d.html" rel="permalink">Release Notes (version 0.31)</a>
+</h2>
+<p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 3/1/2021 </p>
+</article></div>
+<div class="list__item">
+<article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+<h2 class="archive__item-title no_toc" itemprop="headline">
+<a href="https://wiki.dendron.so/notes/8d76cb22-f14c-438c-821e-37c91d1b857a.html" rel="permalink">Release Notes (version 0.30)</a>
+</h2>
+<p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 2/23/2021 </p>
+</article></div>
+<div class="list__item">
+<article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+<h2 class="archive__item-title no_toc" itemprop="headline">
+<a href="https://wiki.dendron.so/notes/7aab0296-c1be-4f27-af22-1d97293da7d6.html" rel="permalink">Release Notes (version 0.29)</a>
+</h2>
+<p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 2/16/2021 </p>
+</article></div>
+<div class="list__item">
+<article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+<h2 class="archive__item-title no_toc" itemprop="headline">
+<a href="https://wiki.dendron.so/notes/c99c55b0-a709-41fe-a59e-1f1c932346dc.html" rel="permalink">Release Notes (version 0.28)</a>
+</h2>
+<p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 2/9/2021 </p>
+</article></div>
+<div class="list__item">
+<article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+<h2 class="archive__item-title no_toc" itemprop="headline">
+<a href="https://wiki.dendron.so/notes/b5db61c8-9d48-449a-b6b4-2750d3be1a6f.html" rel="permalink">Release Notes (version 0.27)</a>
+</h2>
+<p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 2/1/2021 </p>
+</article></div>
+<div class="list__item">
+<article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+<h2 class="archive__item-title no_toc" itemprop="headline">
+<a href="https://wiki.dendron.so/notes/f5d459b0-01ea-4bd2-bb8b-ed7f7f7a8e0c.html" rel="permalink">Release Notes (version 0.26)</a>
+</h2>
+<p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 1/25/2021 </p>
+</article></div>
+<div class="list__item">
+<article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+<h2 class="archive__item-title no_toc" itemprop="headline">
+<a href="https://wiki.dendron.so/notes/9293d889-e07f-4a01-b67f-e8aca7c1c7f7.html" rel="permalink">Release Notes (version 0.25)</a>
+</h2>
+<p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 1/18/2021 </p>
+</article></div>
+<div class="list__item">
+<article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+<h2 class="archive__item-title no_toc" itemprop="headline">
+<a href="https://wiki.dendron.so/notes/d508e0f9-8bbe-43b4-83c1-0ff022b1d4fb.html" rel="permalink">Release Notes (version 0.24)</a>
+</h2>
+<p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 1/11/2021 </p>
+</article></div>
+<div class="list__item">
+<article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+<h2 class="archive__item-title no_toc" itemprop="headline">
+<a href="https://wiki.dendron.so/notes/e81d2800-83c0-4ba6-8f00-34c3557da43d.html" rel="permalink">Release Notes (version 0.23)</a>
+</h2>
+<p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 1/4/2021 </p>
+</article></div>
+<div class="list__item">
+<article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+<h2 class="archive__item-title no_toc" itemprop="headline">
+<a href="https://wiki.dendron.so/notes/e05c751f-7d5c-4fcf-8868-01092813d1dd.html" rel="permalink">Release Notes(version 0.22)</a>
+</h2>
+<p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 12/28/2020 </p>
+</article></div>
+<div class="list__item">
+<article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+<h2 class="archive__item-title no_toc" itemprop="headline">
+<a href="https://wiki.dendron.so/notes/e543ad13-1108-448c-b3a6-9976fd7a65ce.html" rel="permalink">Release Notes(version 0.21)</a>
+</h2>
+<p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 12/21/2020 </p>
+</article></div>
+<div class="list__item">
+<article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+<h2 class="archive__item-title no_toc" itemprop="headline">
+<a href="https://wiki.dendron.so/notes/44fd6c57-b7f4-47f5-a632-d352d4f4fa7b.html" rel="permalink">Release Notes(version 0.20)</a>
+</h2>
+<p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 12/13/2020 </p>
+</article></div>
+<div class="list__item">
+<article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+<h2 class="archive__item-title no_toc" itemprop="headline">
+<a href="https://wiki.dendron.so/notes/42e90950-38c4-4869-9f3c-ddd84f7ac7eb.html" rel="permalink">Release Notes(version 0.19)</a>
+</h2>
+<p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 12/7/2020 </p>
+</article></div>
+<div class="list__item">
+<article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+<h2 class="archive__item-title no_toc" itemprop="headline">
+<a href="https://wiki.dendron.so/notes/a929ff5a-b6c0-417b-a3af-d70af3626aa5.html" rel="permalink">Release Notes (version 0.18)</a>
+</h2>
+<p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 11/29/2020 </p>
+</article></div>
+<div class="list__item">
+<article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+<h2 class="archive__item-title no_toc" itemprop="headline">
+<a href="https://wiki.dendron.so/notes/f09162ec-6b20-4b53-bd5c-68aaa4698ed8.html" rel="permalink">Release Notes(version 0.17)</a>
+</h2>
+<p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 11/22/2020 </p>
+</article></div>
+<div class="list__item">
+<article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+<h2 class="archive__item-title no_toc" itemprop="headline">
+<a href="https://wiki.dendron.so/notes/11c9f170-3864-4406-9631-053241553b35.html" rel="permalink">Release Notes(version 0.16)</a>
+</h2>
+<p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 11/15/2020 </p>
+</article></div>
+<div class="list__item">
+<article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+<h2 class="archive__item-title no_toc" itemprop="headline">
+<a href="https://wiki.dendron.so/notes/63ea2e72-4eba-406c-9f4c-7300fa0b8935.html" rel="permalink">Release Notes(version 0.15)</a>
+</h2>
+<p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 11/9/2020 </p>
+</article></div>
+<div class="list__item">
+<article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+<h2 class="archive__item-title no_toc" itemprop="headline">
+<a href="https://wiki.dendron.so/notes/98ad9b6b-53f3-4883-939e-e14055f2cac7.html" rel="permalink">Release Notes(version 0.14)</a>
+</h2>
+<p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 11/1/2020 </p>
+</article></div>
+<div class="list__item">
+<article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+<h2 class="archive__item-title no_toc" itemprop="headline">
+<a href="https://wiki.dendron.so/notes/1b1aef8e-c9d5-42de-b850-d1b1467cf88b.html" rel="permalink">Release Notes(version 0.13)</a>
+</h2>
+<p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 10/19/2020 </p>
+</article></div>
+<div class="list__item">
+<article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+<h2 class="archive__item-title no_toc" itemprop="headline">
+<a href="https://wiki.dendron.so/notes/8e59e25f-808c-42f1-a82a-e9ce4fd8edd8.html" rel="permalink">Release Notes(version 0.12)</a>
+</h2>
+<p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 9/20/2020 </p>
+</article></div>
+<div class="list__item">
+<article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+<h2 class="archive__item-title no_toc" itemprop="headline">
+<a href="https://wiki.dendron.so/notes/50071eda-fc46-4aca-ba6c-9d53db00d068.html" rel="permalink">Release Notes(version 0.11)</a>
+</h2>
+<p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 9/13/2020 </p>
+</article></div>
+<div class="list__item">
+<article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+<h2 class="archive__item-title no_toc" itemprop="headline">
+<a href="https://wiki.dendron.so/notes/08b2e6ea-bd3e-4f4b-b2b9-676a7b743a65.html" rel="permalink">Release Notes(version 0.10)</a>
+</h2>
+<p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 9/6/2020 </p>
+</article></div>
+<div class="list__item">
+<article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+<h2 class="archive__item-title no_toc" itemprop="headline">
+<a href="https://wiki.dendron.so/notes/1a79e2a1-c906-4ed4-a528-15bd34c4e649.html" rel="permalink">Release Notes(version 0.9)</a>
+</h2>
+<p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 8/30/2020 </p>
+</article></div>
+<div class="list__item">
+<article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+<h2 class="archive__item-title no_toc" itemprop="headline">
+<a href="https://wiki.dendron.so/notes/075e9806-0367-40a2-8154-2e84d5a1110.html" rel="permalink">Release Notes(version 0.8)</a>
+</h2>
+<p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 8/23/2020 </p>
+</article></div>
+<div class="list__item">
+<article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+<h2 class="archive__item-title no_toc" itemprop="headline">
+<a href="https://wiki.dendron.so/notes/075e9806-0367-40a2-8154-2e84d5a020e5.html" rel="permalink">Release Notes(version 0.7)</a>
+</h2>
+<p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 8/16/2020 </p>
+</article></div>
+<div class="list__item">
+<article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+<h2 class="archive__item-title no_toc" itemprop="headline">
+<a href="https://wiki.dendron.so/notes/075e9806-0367-40a2-8154-2e84d5a020e2.html" rel="permalink">Release Notes(version 0.6)</a>
+</h2>
+<p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 8/9/2020 </p>
+</article></div>
+<div class="list__item">
+<article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+<h2 class="archive__item-title no_toc" itemprop="headline">
+<a href="https://wiki.dendron.so/notes/e32aa1e2-9780-4183-927e-2f46372050aa.html" rel="permalink">Release Notes(version 0.5)</a>
+</h2>
+<p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 8/2/2020 </p>
+</article></div>
+<div class="list__item">
+<article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+<h2 class="archive__item-title no_toc" itemprop="headline">
+<a href="https://wiki.dendron.so/notes/6aed338c-df05-420d-aa7b-59dfd2214349.html" rel="permalink">Release Notes(version 0.4)</a>
+</h2>
+<p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 7/25/2020 </p>
+</article></div>
+
+
+                
+      </section>
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+        <div class="thumbs feedback_trigger right-bottom"></div>
+
+        
+          <hr>
+          <footer>
+            
+            
+
+            
+              <div class="d-flex mt-2">
+              <p class="text-small text-grey-dk-000 mb-0 mr-2">
+                Page last modified: <span class="d-inline-block">1/7/2021</span>.
+              </p>
+            
+                
+                  <p class="text-small text-grey-dk-000 mb-0">
+                    <a href="https://github.com/dendronhq/dendron-site/edit/master/vault/dendron.release.md" id="edit-this-page">Edit this page on GitHub</a>
+                  </p>
+                
+              </div>
+          </footer>
+        
+    </div>
+</div>
+
+
+  
+
+  <div class="search-overlay"></div>
+
+</div>
+
+</body>
+</html>

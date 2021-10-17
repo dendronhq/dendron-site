@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+  
+  <title>Error Reporting - Dendron</title>
+  
+
+  <link
+    rel="shortcut icon"
+    href="https://wiki.dendron.so/favicon.ico"
+    type="image/x-icon"
+  />
+  <link
+    rel="stylesheet"
+    href="https://wiki.dendron.so/assets/css/just-the-docs-default.css"
+  />
+  <script
+    type="text/javascript"
+    src="https://wiki.dendron.so/assets/js/just-the-docs.js"
+  ></script>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.22.0/themes/prism.min.css"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css"
+    integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X"
+    crossorigin="anonymous"
+  />
+  <script
+    type="text/javascript"
+    src="https://wiki.dendron.so/assets/js/vendor/lunr.min.js"
+  ></script>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+   
+   
+  
+<meta name="description" content="Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.">
+<meta name="author" content="dendronhq">
+
+<link rel="canonical" href="https://wiki.dendron.so/notes/0dHPoULBsEJLRO6iMnMZA.html">
+
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://wiki.dendron.so/notes/0dHPoULBsEJLRO6iMnMZA.html">
+<meta property="og:description" content="Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.">
+<meta property="og:image" content="https://wiki.dendron.so/logo.png">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@dendronhq">
+<meta name="twitter:url" content="https://wiki.dendron.so/notes/0dHPoULBsEJLRO6iMnMZA.html">
+<meta name="twitter:description" content="Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.">
+<meta name="twitter:image" content="https://wiki.dendron.so/logo.png">
+
+
+  <meta property="og:title" content="Error Reporting - Dendron" />
+  <meta name="twitter:title" content="Error Reporting - Dendron" />
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-B0JN2HHCNY"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-B0JN2HHCNY');
+  </script>
+  
+</head>
+
+
+
+<body>
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+      <symbol id="svg-link" viewBox="0 0 24 24">
+        <title>Link</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-link">
+          <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+        </svg>
+      </symbol>
+      <symbol id="svg-search" viewBox="0 0 24 24">
+        <title>Search</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search">
+          <circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+      </symbol>
+      <symbol id="svg-menu" viewBox="0 0 24 24">
+        <title>Menu</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu">
+          <line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+      </symbol>
+      <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+        <title>Expand</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+          <polyline points="9 18 15 12 9 6"></polyline>
+        </svg>
+      </symbol>
+      <symbol id="svg-doc" viewBox="0 0 24 24">
+        <title>Document</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file">
+          <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path><polyline points="13 2 13 9 20 9"></polyline>
+        </svg>
+      </symbol>
+    </svg>
+
+    <div class="side-bar">
+      <div class="site-header">
+        <a href="https://wiki.dendron.so" class="site-title lh-tight">
+  <div class="site-logo"></div>
+
+ </a>
+        <a href="#" id="menu-button" class="site-button">
+          <svg viewBox="0 0 24 24" class="icon"><use xlink:href="#svg-menu"></use></svg>
+        </a>
+      </div>
+
+      <nav role="navigation" aria-label="Main" id="site-nav" class="site-nav">
+      </nav>
+      <footer class="site-footer">
+        🌱 with 💕 using <a href="https://www.dendron.so/"> Dendron 🌲 </a>
+      </footer>
+    </div>
+    <div class="main" id="top">
+        <div id="main-header" class="main-header">
+          
+            <div class="search">
+              <div class="search-input-wrap">
+                <input type="text" id="search-input" class="search-input" tabindex="0" placeholder="Search Dendron" aria-label="Search Dendron" autocomplete="off">
+                <label for="search-input" class="search-label"><svg viewBox="0 0 24 24" class="search-icon"><use xlink:href="#svg-search"></use></svg></label>
+              </div>
+              <div id="search-results" class="search-results"></div>
+            </div>
+          
+          
+    </div>
+    <div id="main-content-wrap" class="main-content-wrap">
+      
+        
+          <nav aria-label="Breadcrumb" class="breadcrumb-nav">
+            <ol class="breadcrumb-nav-list"><li class="breadcrumb-nav-list-item"><a href="https://wiki.dendron.so">Dendron</a></li><li class="breadcrumb-nav-list-item"><a href="https://wiki.dendron.so/notes/3489b652-cd0e-4ac8-a734-08094dc043eb.html">Development</a></li><li class="breadcrumb-nav-list-item"><a href="https://wiki.dendron.so/notes/2b87ceb3-2a90-4dee-ab8e-980172ecaef1.html">Errors</a></li><li class="breadcrumb-nav-list-item">Error Reporting</li></ol>
+          </nav>
+        
+      
+      <div id="main-content" class="main-content" role="main">
+
+        
+        
+        <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+        <script>mermaid.initialize({startOnLoad:true});</script>
+        
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+        
+        
+
+        
+
+        
+
+        
+
+        <script>
+          $(function () {
+            $('[data-toggle="popover"]').popover({html: true})
+          })
+        </script>
+
+        
+
+<div id="main" role="main">
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Error Reporting">
+    
+    <meta itemprop="datePublished" content="2021-09-13T08:03:42+00:00">
+    <meta itemprop="dateModified" content="2021-09-13T13:54:59+00:00">
+
+    <div class="page__inner-wrap">
+
+      
+
+      <section class="page__content" itemprop="text">
+
+        
+
+        <h1 id="error-reporting"><a aria-hidden="true" class="anchor-heading" href="#error-reporting"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Error Reporting</h1>
+<h2 id="summary"><a aria-hidden="true" class="anchor-heading" href="#summary"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Summary</h2>
+<p>To understand Dendron application behavior, certain error analytics are uploaded to a <a href="https://sentry.io/welcome/">sentry.io</a> backend service. All executing code paths should report error data in the event of crashes or any error event that is not a direct result of invalid input. For example in the context of HTTP, all <code>500 Internal Error</code> code errors should be reported, whereas generally client 400's errors do not need to reported.</p>
+<h2 id="implementation-considerations"><a aria-hidden="true" class="anchor-heading" href="#implementation-considerations"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Implementation Considerations</h2>
+<p>There are several stand alone processes involved with Dendron. Each one must have an active Sentry client in order for data to be reported.</p>
+<h3 id="plugin"><a aria-hidden="true" class="anchor-heading" href="#plugin"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Plugin</h3>
+<p>Getting full reporting coverage in the Plugin is tricky. VS Code extensions run in a Node.JS environment within an Extension Host sandbox. There is no way to intercept all exceptions thrown by plugin code in one callback (see <a href="https://github.com/Microsoft/vscode/issues/45264">this issue</a>). Therefore, all extension invocation points must be wrapped in a <code>try</code> block with the error reported in the <code>catch</code> block. There are many different invocation points in the VSCode API for an extension; all must be wrapped in order to have complete coverage. Currently, Dendron has the following entry points:</p>
+<ul>
+<li><a href="https://code.visualstudio.com/api/references/activation-events"><code>activate()</code></a></li>
+<li><a href="https://code.visualstudio.com/api/extension-guides/command">Commands</a></li>
+<li>Window Events
+<ul>
+<li><code>window.onDidChangeActiveTextEditor()</code></li>
+<li><code>window.onDidChangeVisibleTextEditors()</code></li>
+</ul>
+</li>
+<li>Workspace Events
+<ul>
+<li><code>workspace.onWillSaveTextDocument()</code></li>
+<li><code>workspace.onDidChangeTextDocument()</code></li>
+<li><code>workspace.onDidOpenTextDocument()</code></li>
+</ul>
+</li>
+<li>File System Watchers
+<ul>
+<li><code>onDidChange()</code></li>
+</ul>
+</li>
+<li>Language Features
+<ul>
+<li>CodeActionProvider</li>
+<li>HoverProvider</li>
+<li>CompletionProvider</li>
+<li>DefinitionProvider</li>
+<li>FoldingRangeProvider</li>
+</ul>
+</li>
+</ul>
+<p>All callback invocation points in the plugin extension should be wrapped with a <code>sentryReportingCallback</code>:</p>
+<pre class="language-typescript"><code class="language-typescript">    <span class="token dom variable">window</span><span class="token punctuation">.</span><span class="token method function property-access">onDidChangeVisibleTextEditors</span><span class="token punctuation">(</span>
+      <span class="token function">sentryReportingCallback</span><span class="token punctuation">(</span><span class="token punctuation">(</span>editors<span class="token operator">:</span> <span class="token maybe-class-name">TextEditor</span><span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">)</span> <span class="token arrow operator">=></span> <span class="token punctuation">{</span>
+        <span class="token keyword">const</span> ctx <span class="token operator">=</span> <span class="token string">"WindowWatcher:onDidChangeVisibleTextEditors"</span><span class="token punctuation">;</span>
+        <span class="token spread operator">...</span>
+      <span class="token punctuation">}</span><span class="token punctuation">)</span>
+    <span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre>
+<p>There are two kinds of errors being reported in the plugin:</p>
+<ol>
+<li>Unhandled Exceptions - any exception thrown in a block wrapped by <code>sentryReportingCallback</code></li>
+<li><code>Logger.error()</code> - logging a message at the error level will also upload an event.</li>
+</ol>
+<h3 id="dendron-engine"><a aria-hidden="true" class="anchor-heading" href="#dendron-engine"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Dendron Engine</h3>
+<p>The Dendron express server is configured to forward all errors to a special error handler that will upload error data to Sentry. However, special consideration is required for all <code>async</code> handlers. By default, if an asynchronous handler throws an exception resulting in a rejected promise, express will not handle this automatically (see <a href="https://expressjs.com/en/guide/error-handling.html">here</a>). Therefore, all asynchronous handlers need to be wrapped with an <code>asyncHandler</code> that will forward exceptions to the error handler:</p>
+<pre class="language-typescript"><code class="language-typescript">router<span class="token punctuation">.</span><span class="token method function property-access">post</span><span class="token punctuation">(</span><span class="token string">"/render"</span><span class="token punctuation">,</span> <span class="token function">asyncHandler</span><span class="token punctuation">(</span><span class="token keyword">async</span> <span class="token punctuation">(</span>req<span class="token operator">:</span> <span class="token maybe-class-name">Request</span><span class="token punctuation">,</span> res<span class="token operator">:</span> <span class="token maybe-class-name">Response</span><span class="token punctuation">)</span> <span class="token arrow operator">=></span> <span class="token punctuation">{</span>
+  <span class="token keyword">const</span> resp <span class="token operator">=</span> <span class="token keyword control-flow">await</span> <span class="token maybe-class-name">NoteController</span><span class="token punctuation">.</span><span class="token method function property-access">instance</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token method function property-access">render</span><span class="token punctuation">(</span>
+    req<span class="token punctuation">.</span><span class="token property-access">body</span> <span class="token keyword module">as</span> <span class="token maybe-class-name">RenderNoteOpts</span> <span class="token operator">&#x26;</span> <span class="token punctuation">{</span> ws<span class="token operator">:</span> <span class="token builtin">string</span> <span class="token punctuation">}</span>
+  <span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token maybe-class-name">ExpressUtils</span><span class="token punctuation">.</span><span class="token method function property-access">setResponse</span><span class="token punctuation">(</span>res<span class="token punctuation">,</span> resp<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre>
+<h3 id="cli"><a aria-hidden="true" class="anchor-heading" href="#cli"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>CLI</h3>
+<p>Error Reporting has not yet been implemented in the Dendron command line interface. See <a href="https://wiki.dendron.so/notes/0dHPoULBsEJLRO6iMnMZA.html#plugging-existing-gaps">Plugging Existing Gaps</a> below.</p>
+<h2 id="user-privacy"><a aria-hidden="true" class="anchor-heading" href="#user-privacy"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>User Privacy</h2>
+<p>Dendron takes user privacy very seriously. Dendron will observe user's telemetry settings - if telemetry is disabled for the client, error data will not be uploaded.</p>
+<p>Furthermore, special care must be taken to ensure that error messages do not include any <a href="https://en.wikipedia.org/wiki/Personal_data">Personal Identifiable Information</a> or otherwise data that may be sensitive to a user.</p>
+<h2 id="future-enhancements"><a aria-hidden="true" class="anchor-heading" href="#future-enhancements"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Future Enhancements</h2>
+<h3 id="plugging-existing-gaps"><a aria-hidden="true" class="anchor-heading" href="#plugging-existing-gaps"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Plugging Existing Gaps</h3>
+<p>There are some areas in the code that do not currently upload error reporting. These gaps are intended to be filled with future iterations:</p>
+<ul>
+<li>Dendron CLI</li>
+<li>Webviews (TreeView V2, Preview V2, Calendar View, Seed Browser)</li>
+<li><code>logger.error()</code> occurrences on the Server side.</li>
+</ul>
+<h3 id="additional-data"><a aria-hidden="true" class="anchor-heading" href="#additional-data"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Additional Data</h3>
+<p>There are also additional data points we can add to improve diagnostics and insights:</p>
+<ul>
+<li>Add Typescript Source Mapping for better callstack information.</li>
+<li>Give each thrown <code>DendronError</code> a unique ID for deterministic error bucketing and traceability</li>
+<li>Add Performance Metrics</li>
+</ul>
+<h2 id="related"><a aria-hidden="true" class="anchor-heading" href="#related"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Related</h2>
+<p><a href="https://wiki.dendron.so/notes/fAVA1Vv5ihg4Nt9unsAMv.html">RFC 19: Error Reporting</a></p>
+<hr>
+<h2 id="backlinks"><a aria-hidden="true" class="anchor-heading" href="#backlinks"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Backlinks</h2>
+<ul>
+<li><a href="https://wiki.dendron.so/notes/84df871b-9442-42fd-b4c3-0024e35b5f3c.html">Telemetry</a></li>
+<li><a href="https://wiki.dendron.so/notes/aURuqCucZegsCpJSb5m90.html">Release Notes (version 0.59)</a></li>
+<li><a href="https://wiki.dendron.so/notes/0dHPoULBsEJLRO6iMnMZA.html">Error Reporting</a></li>
+<li><a href="https://wiki.dendron.so/notes/Tf4vuVLV3rSdpzD8la9FP.html">0 5 X</a></li>
+</ul><span id="navId" data="0dHPoULBsEJLRO6iMnMZA"></span>
+
+                
+      </section>
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+        <div class="thumbs feedback_trigger right-bottom"></div>
+
+        
+          <hr>
+          <footer>
+            
+            
+
+            
+              <div class="d-flex mt-2">
+              <p class="text-small text-grey-dk-000 mb-0 mr-2">
+                Page last modified: <span class="d-inline-block">9/13/2021</span>.
+              </p>
+            
+                
+                  <p class="text-small text-grey-dk-000 mb-0">
+                    <a href="https://github.com/dendronhq/dendron-site/edit/master/vault/dendron.dev.errors.reporting.md" id="edit-this-page">Edit this page on GitHub</a>
+                  </p>
+                
+              </div>
+          </footer>
+        
+    </div>
+</div>
+
+
+  
+
+  <div class="search-overlay"></div>
+
+</div>
+
+</body>
+</html>

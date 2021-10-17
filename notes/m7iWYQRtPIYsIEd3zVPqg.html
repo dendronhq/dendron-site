@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+  
+  <title>25 Bdd Light - Dendron</title>
+  
+
+  <link
+    rel="shortcut icon"
+    href="https://wiki.dendron.so/favicon.ico"
+    type="image/x-icon"
+  />
+  <link
+    rel="stylesheet"
+    href="https://wiki.dendron.so/assets/css/just-the-docs-default.css"
+  />
+  <script
+    type="text/javascript"
+    src="https://wiki.dendron.so/assets/js/just-the-docs.js"
+  ></script>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.22.0/themes/prism.min.css"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css"
+    integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X"
+    crossorigin="anonymous"
+  />
+  <script
+    type="text/javascript"
+    src="https://wiki.dendron.so/assets/js/vendor/lunr.min.js"
+  ></script>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+   
+   
+  
+<meta name="description" content="Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.">
+<meta name="author" content="dendronhq">
+
+<link rel="canonical" href="https://wiki.dendron.so/notes/m7iWYQRtPIYsIEd3zVPqg.html">
+
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://wiki.dendron.so/notes/m7iWYQRtPIYsIEd3zVPqg.html">
+<meta property="og:description" content="Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.">
+<meta property="og:image" content="https://wiki.dendron.so/logo.png">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@dendronhq">
+<meta name="twitter:url" content="https://wiki.dendron.so/notes/m7iWYQRtPIYsIEd3zVPqg.html">
+<meta name="twitter:description" content="Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.">
+<meta name="twitter:image" content="https://wiki.dendron.so/logo.png">
+
+
+  <meta property="og:title" content="25 Bdd Light - Dendron" />
+  <meta name="twitter:title" content="25 Bdd Light - Dendron" />
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-B0JN2HHCNY"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-B0JN2HHCNY');
+  </script>
+  
+</head>
+
+
+
+<body>
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+      <symbol id="svg-link" viewBox="0 0 24 24">
+        <title>Link</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-link">
+          <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+        </svg>
+      </symbol>
+      <symbol id="svg-search" viewBox="0 0 24 24">
+        <title>Search</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search">
+          <circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+      </symbol>
+      <symbol id="svg-menu" viewBox="0 0 24 24">
+        <title>Menu</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu">
+          <line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+      </symbol>
+      <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+        <title>Expand</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+          <polyline points="9 18 15 12 9 6"></polyline>
+        </svg>
+      </symbol>
+      <symbol id="svg-doc" viewBox="0 0 24 24">
+        <title>Document</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file">
+          <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path><polyline points="13 2 13 9 20 9"></polyline>
+        </svg>
+      </symbol>
+    </svg>
+
+    <div class="side-bar">
+      <div class="site-header">
+        <a href="https://wiki.dendron.so" class="site-title lh-tight">
+  <div class="site-logo"></div>
+
+ </a>
+        <a href="#" id="menu-button" class="site-button">
+          <svg viewBox="0 0 24 24" class="icon"><use xlink:href="#svg-menu"></use></svg>
+        </a>
+      </div>
+
+      <nav role="navigation" aria-label="Main" id="site-nav" class="site-nav">
+      </nav>
+      <footer class="site-footer">
+        🌱 with 💕 using <a href="https://www.dendron.so/"> Dendron 🌲 </a>
+      </footer>
+    </div>
+    <div class="main" id="top">
+        <div id="main-header" class="main-header">
+          
+            <div class="search">
+              <div class="search-input-wrap">
+                <input type="text" id="search-input" class="search-input" tabindex="0" placeholder="Search Dendron" aria-label="Search Dendron" autocomplete="off">
+                <label for="search-input" class="search-label"><svg viewBox="0 0 24 24" class="search-icon"><use xlink:href="#svg-search"></use></svg></label>
+              </div>
+              <div id="search-results" class="search-results"></div>
+            </div>
+          
+          
+    </div>
+    <div id="main-content-wrap" class="main-content-wrap">
+      
+        
+          <nav aria-label="Breadcrumb" class="breadcrumb-nav">
+            <ol class="breadcrumb-nav-list"><li class="breadcrumb-nav-list-item"><a href="https://wiki.dendron.so">Dendron</a></li><li class="breadcrumb-nav-list-item"><a href="https://wiki.dendron.so/notes/f143ca38-dcc6-4cd3-b84b-997aec1160ef.html">Rfc</a></li><li class="breadcrumb-nav-list-item">25 Bdd Light</li></ol>
+          </nav>
+        
+      
+      <div id="main-content" class="main-content" role="main">
+
+        
+        
+        <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+        <script>mermaid.initialize({startOnLoad:true});</script>
+        
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+        
+        
+
+        
+
+        
+
+        
+
+        <script>
+          $(function () {
+            $('[data-toggle="popover"]').popover({html: true})
+          })
+        </script>
+
+        
+
+<div id="main" role="main">
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="25 Bdd Light">
+    
+    <meta itemprop="datePublished" content="2021-09-08T11:19:49+00:00">
+    <meta itemprop="dateModified" content="2021-09-08T11:33:37+00:00">
+
+    <div class="page__inner-wrap">
+
+      
+
+      <section class="page__content" itemprop="text">
+
+        
+
+        <h1 id="25-bdd-light"><a aria-hidden="true" class="anchor-heading" href="#25-bdd-light"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>25 Bdd Light</h1>
+<h2 id="goals"><a aria-hidden="true" class="anchor-heading" href="#goals"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Goals</h2>
+<p>Improve our overall testing through improving organization of test code, lowering duplication and improving the clarity of test output.</p>
+<h2 id="summary"><a aria-hidden="true" class="anchor-heading" href="#summary"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Summary</h2>
+<p>BDD (Behavior Driven Development) Light is a style of testing of using BDD verbage to hierarchically organize tests and test setup. </p>
+<h2 id="context"><a aria-hidden="true" class="anchor-heading" href="#context"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Context</h2>
+<p>Typical <a href="https://en.wikipedia.org/wiki/Behavior-driven_development">BDD</a> allows writing tests in English (Eg. cucumber is a popular BDD tool) and then having separate code regexes match parts of the written English and make it executable. Important benefit is that it allows non tech people to contribute/see test cases that are happening. The big big downside of Vanilla BDD is its overhead, its not at all cheap to do BDD. And this isn't a suggestion that we start doing BDD.</p>
+<p>Now when it comes to regular testing typical unit test names tend to fall short in describing the scenarios in question. Even if developer tries to write out a descriptive name of the test the length of the screen often falls too short to actually give the <strong>context</strong> of the test in a single name. Plus its quite an overhead if we try to add context into each test name. So that's where BDD Light style comes in to add additional clarity to test structure. </p>
+<h2 id="proposal"><a aria-hidden="true" class="anchor-heading" href="#proposal"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Proposal</h2>
+<p>BDD Light attempts to organize tests in such a way that we get the benefit from BDD verbage showing clearly what we are testing (and what we are potentially missing) while keeping the agility of regular tests. </p>
+<p>In short to use BDD-Light we start off by using BDD verbs: GIVEN, WHEN, THEN, AND</p>
+<ul>
+<li>GIVEN: Where setup action goes.</li>
+<li>WHEN: When something happens such as calling something.</li>
+<li>THEN: Thats when our expected cases go.</li>
+<li>AND: Allows to stack additional conditions. </li>
+</ul>
+<p>Next step is to add the setup correlated with each block into a <a href="https://github.com/dendronhq/dendron/blob/master/packages/engine-test-utils/src/__tests__/engine-server/util/lruCache.spec.ts#L4-L9">beforeEach</a> if the tests are readonly and the setup takes a long time (such as some integration tests) than consider using beforeAll (However, for unit tests always start out with beforeEach). This way we don't duplicate the setup between the tests and everything within the describe block will get the appropriate context.</p>
+<p>If there is a single THEN (assert) for a WHEN scenario then we can combine the WHEN and THEN into a single statement as in <a href="https://github.com/dendronhq/dendron/blob/master/packages/engine-test-utils/src/__tests__/engine-server/util/lruCache.spec.ts#L68-L70">example</a>. If there are multiple THEN assertions for a WHEN scenario then have the WHEN be a describe and multiple THENs nested under it as in <a href="https://github.com/dendronhq/dendron/blob/master/packages/engine-test-utils/src/__tests__/engine-server/util/lruCache.spec.ts#L11-L16">example</a>. If we have an extra condition/branch under an existing WHEN then use and AND as in <a href="https://github.com/dendronhq/dendron/blob/master/packages/engine-test-utils/src/__tests__/engine-server/util/lruCache.spec.ts#L24-L27">example</a>. </p>
+<h2 id="example"><a aria-hidden="true" class="anchor-heading" href="#example"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Example</h2>
+<p>Here is an example of using BDD-Light setup <a href="https://github.com/dendronhq/dendron/blob/master/packages/engine-test-utils/src/__tests__/engine-server/util/lruCache.spec.ts">lruCache.spec.ts</a> </p>
+<p>Which produces the output:</p>
+<pre><code> PASS  packages/engine-test-utils/src/__tests__/engine-server/util/lruCache.spec.ts (13.51s)
+  lruCache.spec.ts
+    GIVEN lruCache configured for 5 elements
+      WHEN added 5 elements
+        ✓ THEN all 5 elements are present in the cache (3ms)
+        AND added 6th element
+          ✓ THEN last 5 elements are present in the cache (1ms)
+          ✓ THEN first element added is NOT in the cache
+        AND asked for element #1
+          AND added 6th element
+            ✓ THEN element #1 is IN the cache (1ms)
+            ✓ THEN element #2 is NOT in the cache
+            ✓ THEN elements 3-6 are in the cache (1ms)
+</code></pre>
+<p>The test cases that are being tested can be seen from the output. </p>
+<h2 id="tradeoffs"><a aria-hidden="true" class="anchor-heading" href="#tradeoffs"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Tradeoffs</h2>
+<h3 id="pros"><a aria-hidden="true" class="anchor-heading" href="#pros"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>PROs</h3>
+<ul>
+<li>Makes the output of tests readable (to understand what is happening from output).
+<ul>
+<li>Quite often looking at the clearly defined output makes one see another test case to add to particular branch.
+<ul>
+<li>And since the setup is re-used adding such test is cheap.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Makes the failures much more clear since context is given from test naming.</li>
+<li>Allows for writing one assert per test, without it being a headache.</li>
+<li>Avoids duplicating setup.  </li>
+<li>Compliments 'jest' well. Since jest doesn't allow messages in their 'expect' asserts having descriptive focused test names fills this gap. </li>
+</ul>
+<h3 id="cons"><a aria-hidden="true" class="anchor-heading" href="#cons"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>CONs</h3>
+<ul>
+<li>Takes a little bit of time to get used to, since its a bit cludgy to add things into beforeEach especially for 'WHEN' action cases. But after a little bit of time it becomes pretty natural. </li>
+<li>If beforeEach used with slow initialization tests can run slower since setup is triggered per test.</li>
+<li>If beforeAll is not used carefully, can cause confusing test failures due to tests modifying shared state (same CON with any common initialization though).</li>
+</ul>
+<h2 id="discussion"><a aria-hidden="true" class="anchor-heading" href="#discussion"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Discussion</h2>
+<p><a href="https://github.com/dendronhq/dendron/issues/1309">Github discussion thread</a></p>
+<hr>
+<h2 id="backlinks"><a aria-hidden="true" class="anchor-heading" href="#backlinks"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Backlinks</h2>
+<ul>
+<li><a href="https://wiki.dendron.so/notes/aURuqCucZegsCpJSb5m90.html">Release Notes (version 0.59)</a></li>
+<li><a href="https://wiki.dendron.so/notes/42iCXsVuFhAGs3IS83KFp.html">Style</a></li>
+<li><a href="https://wiki.dendron.so/notes/veJtAvr1gSMu50Mp.html">Test</a></li>
+</ul><span id="navId" data="m7iWYQRtPIYsIEd3zVPqg"></span>
+
+                
+      </section>
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+        <div class="thumbs feedback_trigger right-bottom"></div>
+
+        
+          <hr>
+          <footer>
+            
+            
+
+            
+              <div class="d-flex mt-2">
+              <p class="text-small text-grey-dk-000 mb-0 mr-2">
+                Page last modified: <span class="d-inline-block">9/8/2021</span>.
+              </p>
+            
+                
+                  <p class="text-small text-grey-dk-000 mb-0">
+                    <a href="https://github.com/dendronhq/dendron-site/edit/master/vault/dendron.rfc.25-bdd-light.md" id="edit-this-page">Edit this page on GitHub</a>
+                  </p>
+                
+              </div>
+          </footer>
+        
+    </div>
+</div>
+
+
+  
+
+  <div class="search-overlay"></div>
+
+</div>
+
+</body>
+</html>

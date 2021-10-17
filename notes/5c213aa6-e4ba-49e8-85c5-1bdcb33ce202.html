@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+  
+  <title>Special Notes - Dendron</title>
+  
+
+  <link
+    rel="shortcut icon"
+    href="https://wiki.dendron.so/favicon.ico"
+    type="image/x-icon"
+  />
+  <link
+    rel="stylesheet"
+    href="https://wiki.dendron.so/assets/css/just-the-docs-default.css"
+  />
+  <script
+    type="text/javascript"
+    src="https://wiki.dendron.so/assets/js/just-the-docs.js"
+  ></script>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.22.0/themes/prism.min.css"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css"
+    integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X"
+    crossorigin="anonymous"
+  />
+  <script
+    type="text/javascript"
+    src="https://wiki.dendron.so/assets/js/vendor/lunr.min.js"
+  ></script>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+   
+   
+  
+<meta name="description" content="Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.">
+<meta name="author" content="dendronhq">
+
+<link rel="canonical" href="https://wiki.dendron.so/notes/5c213aa6-e4ba-49e8-85c5-1bdcb33ce202.html">
+
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://wiki.dendron.so/notes/5c213aa6-e4ba-49e8-85c5-1bdcb33ce202.html">
+<meta property="og:description" content="Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.">
+<meta property="og:image" content="https://wiki.dendron.so/logo.png">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@dendronhq">
+<meta name="twitter:url" content="https://wiki.dendron.so/notes/5c213aa6-e4ba-49e8-85c5-1bdcb33ce202.html">
+<meta name="twitter:description" content="Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.">
+<meta name="twitter:image" content="https://wiki.dendron.so/logo.png">
+
+
+  <meta property="og:title" content="Special Notes - Dendron" />
+  <meta name="twitter:title" content="Special Notes - Dendron" />
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-B0JN2HHCNY"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-B0JN2HHCNY');
+  </script>
+  
+</head>
+
+
+
+<body>
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+      <symbol id="svg-link" viewBox="0 0 24 24">
+        <title>Link</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-link">
+          <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+        </svg>
+      </symbol>
+      <symbol id="svg-search" viewBox="0 0 24 24">
+        <title>Search</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search">
+          <circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+      </symbol>
+      <symbol id="svg-menu" viewBox="0 0 24 24">
+        <title>Menu</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu">
+          <line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+      </symbol>
+      <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+        <title>Expand</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+          <polyline points="9 18 15 12 9 6"></polyline>
+        </svg>
+      </symbol>
+      <symbol id="svg-doc" viewBox="0 0 24 24">
+        <title>Document</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file">
+          <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path><polyline points="13 2 13 9 20 9"></polyline>
+        </svg>
+      </symbol>
+    </svg>
+
+    <div class="side-bar">
+      <div class="site-header">
+        <a href="https://wiki.dendron.so" class="site-title lh-tight">
+  <div class="site-logo"></div>
+
+ </a>
+        <a href="#" id="menu-button" class="site-button">
+          <svg viewBox="0 0 24 24" class="icon"><use xlink:href="#svg-menu"></use></svg>
+        </a>
+      </div>
+
+      <nav role="navigation" aria-label="Main" id="site-nav" class="site-nav">
+      </nav>
+      <footer class="site-footer">
+        🌱 with 💕 using <a href="https://www.dendron.so/"> Dendron 🌲 </a>
+      </footer>
+    </div>
+    <div class="main" id="top">
+        <div id="main-header" class="main-header">
+          
+            <div class="search">
+              <div class="search-input-wrap">
+                <input type="text" id="search-input" class="search-input" tabindex="0" placeholder="Search Dendron" aria-label="Search Dendron" autocomplete="off">
+                <label for="search-input" class="search-label"><svg viewBox="0 0 24 24" class="search-icon"><use xlink:href="#svg-search"></use></svg></label>
+              </div>
+              <div id="search-results" class="search-results"></div>
+            </div>
+          
+          
+    </div>
+    <div id="main-content-wrap" class="main-content-wrap">
+      
+        
+          <nav aria-label="Breadcrumb" class="breadcrumb-nav">
+            <ol class="breadcrumb-nav-list"><li class="breadcrumb-nav-list-item"><a href="https://wiki.dendron.so">Dendron</a></li><li class="breadcrumb-nav-list-item"><a href="https://wiki.dendron.so/notes/7a7af2fa-b9d0-4adc-81e6-f03186123539.html">Topics</a></li><li class="breadcrumb-nav-list-item">Special Notes</li></ol>
+          </nav>
+        
+      
+      <div id="main-content" class="main-content" role="main">
+
+        
+        
+        <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+        <script>mermaid.initialize({startOnLoad:true});</script>
+        
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+        
+        
+
+        
+
+        
+
+        
+
+        <script>
+          $(function () {
+            $('[data-toggle="popover"]').popover({html: true})
+          })
+        </script>
+
+        
+
+<div id="main" role="main">
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Special Notes">
+    
+    <meta itemprop="datePublished" content="2020-07-17T16:47:37+00:00">
+    <meta itemprop="dateModified" content="2021-06-17T09:03:10+00:00">
+
+    <div class="page__inner-wrap">
+
+      
+
+      <section class="page__content" itemprop="text">
+
+        
+
+        <h1 id="special-notes"><a aria-hidden="true" class="anchor-heading" href="#special-notes"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Special Notes</h1>
+<p>Dendron has built-in support for a variety of special note formats. These notes can be created using regular lookup - these commands provide convenient shortcuts for frequently used notes.</p>
+<h2 id="daily-journal"><a aria-hidden="true" class="anchor-heading" href="#daily-journal"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Daily Journal</h2>
+<p>One of the most common ways of note taking is the daily journal.  </p>
+<p>You can create a daily journal by typing <code>> Dendron: Create Daily Journal Note</code> in the Command Palette. You'll also see the corresponding keyboard shortcut for your operating system when you use this command. </p>
+<p>By default, it will create the journal under <code>daily.{date}</code> though this is configurable by setting the <code>dendron.dailyJournalDomain</code>.</p>
+<p><img src="https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/notes.daily.gif"></p>
+<h2 id="journal-note"><a aria-hidden="true" class="anchor-heading" href="#journal-note"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Journal Note</h2>
+<p>A journal note is a self contained note that is meant to track something over time. Examples of journals include recording <strong>workout sessions</strong>, making <strong>meeting notes</strong>, and keeping a <strong>mood journal</strong>.</p>
+<p>To create a journal note, trigger a lookup and then click on the calendar icon.</p>
+<a href="https://www.loom.com/share/3c3ddc1dc63547cea8bf186bec31f71b"> 
+<img style="" src="https://cdn.loom.com/sessions/thumbnails/3c3ddc1dc63547cea8bf186bec31f71b-with-play.gif"> </a>
+<p>By default, Dendron will create the journal note with the following hierarchy <code>{domain}.journal.{y.MM.dd}</code>. <code>{domain}</code> is the <strong>domain</strong> of the current active note when you execute <code>New Journal Note</code>.</p>
+<p>A reference for date formatting tokens can be found <a href="https://moment.github.io/luxon/#/formatting">here</a></p>
+<h2 id="scratch-note"><a aria-hidden="true" class="anchor-heading" href="#scratch-note"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Scratch Note</h2>
+<p>A scratch note is a self contained note that is meant to be used as scratchpad. Use it for thoughts or when you want to expand on a bullet point. Scratch notes are created in the <code>scratch</code> domain and have the following format: <code>scratch.{y.MM.dd.HHmmss}</code>.</p>
+<a href="https://www.loom.com/share/2fd3042119124df8bb4592d8ffe6d708"> 
+<img style="" src="https://cdn.loom.com/sessions/thumbnails/2fd3042119124df8bb4592d8ffe6d708-with-play.gif"> </a>
+<h2 id="configuration"><a aria-hidden="true" class="anchor-heading" href="#configuration"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Configuration</h2>
+<p>All special notes support the following configuration options</p>
+<ul>
+<li>NodeType has the value of <code>Journal</code> or <code>Scratch</code></li>
+</ul>
+<h3 id="defaultnodetypename"><a aria-hidden="true" class="anchor-heading" href="#defaultnodetypename"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>default{NodeType}Name</h3>
+<p>Determines the node name.</p>
+<p>Defaults:</p>
+<ul>
+<li>Journal: <code>journal</code></li>
+<li>Scratch: <code>scratch</code></li>
+</ul>
+<h3 id="defaultnodetypedateformat"><a aria-hidden="true" class="anchor-heading" href="#defaultnodetypedateformat"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>default{NodeType}DateFormat</h3>
+<p>Determines the date format.</p>
+<p>Defaults:</p>
+<ul>
+<li>Journal: <code>Y-MM-DD</code></li>
+<li>Scratch: <code>Y-MM-DD-HHmmss</code></li>
+</ul>
+<h3 id="defaultnodetypeaddbehavior"><a aria-hidden="true" class="anchor-heading" href="#defaultnodetypeaddbehavior"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>default{NodeType}AddBehavior</h3>
+<p>Determines how note is added in relation to current hierarchy. Say you have the following schema:</p>
+<pre class="language-yml"><code class="language-yml"><span class="token key atrule">schema</span><span class="token punctuation">:</span>
+    <span class="token punctuation">-</span> <span class="token key atrule">id</span><span class="token punctuation">:</span> pro
+      <span class="token key atrule">parent</span><span class="token punctuation">:</span> root
+      <span class="token key atrule">namespace</span><span class="token punctuation">:</span> <span class="token boolean important">true</span>
+</code></pre>
+<p>Possible values:</p>
+<ul>
+<li>childOfDomain
+<ul>
+<li>note is added as child of the <a href="https://dendron.so/notes/c6fd6bc4-7f75-4cbb-8f34-f7b99bfe2d50.html#domain">domain</a> of the current hierarchy</li>
+<li>eg:
+<ul>
+<li>current open note: <code>pro.dendron.demo.md</code></li>
+<li>path of new journal note: <code>pro.journal.2020-08-03.md</code></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>childOfDomainNamespace
+<ul>
+<li>note is added as child of the namespace of the current domain if it has a namespace. otherwise behaves the same as <code>childOfDomain</code></li>
+<li>eg:
+<ul>
+<li>current open note: <code>pro.dendron.demo.md</code></li>
+<li>path of new journal note: <code>pro.dendron.journal.2020-08-03.md</code></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>childOfCurrent
+<ul>
+<li>note is added as a child of the current open note
+<ul>
+<li>current open note: <code>pro.dendron.demo.md</code></li>
+<li>path of new journal note: <code>pro.dendron.demo.journal.2020-08-03.md</code></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>asOwnDomain
+<ul>
+<li>note is created under the domain specified by the <code>dendron.default{NodeType}Name</code> config value</li>
+<li>eg:
+<ul>
+<li>current open note: <code>pro.dendron.demo.md</code></li>
+<li>config: <code>dendron.defaultJournalNoteName: "journal"</code></li>
+<li>path of new journal note: <code>journal.2020-08-03.md</code></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p>Defaults:</p>
+<ul>
+<li>Journal: <code>childOfDomain</code></li>
+<li>Scratch: <code>asOwnDomain</code></li>
+</ul>
+<hr>
+<h2 id="backlinks"><a aria-hidden="true" class="anchor-heading" href="#backlinks"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Backlinks</h2>
+<ul>
+<li><a href="https://wiki.dendron.so/notes/6aed338c-df05-420d-aa7b-59dfd2214349.html">Release Notes(version 0.4)</a></li>
+<li><a href="https://wiki.dendron.so/notes/e65dfe53-41f7-4b16-b870-dadec1775497.html">Bullet Journaling</a></li>
+<li><a href="https://wiki.dendron.so/notes/593206ea-5658-4874-bafd-18a138870f91.html">Todos</a></li>
+<li><a href="https://wiki.dendron.so/notes/716e2699-42e1-44bd-9b97-124f03173ddc.html">Todo Notes</a></li>
+<li><a href="https://wiki.dendron.so/notes/f83c1d87-eac0-48f3-a5cf-8a69989d8ec1.html">Dendrons Config</a></li>
+<li><a href="https://wiki.dendron.so/notes/19a0ea9d-7292-4a68-bc6f-ffd462a54bc5.html">VSCode Config</a></li>
+<li><a href="https://wiki.dendron.so/notes/0e57f8d1-e501-49db-974c-01eb64c20c22.html">Creating Notes</a></li>
+<li><a href="https://wiki.dendron.so/notes/ad270a7d-2aed-4273-8319-eb6536e38b29.html">Modifiers</a></li>
+</ul><span id="navId" data="5c213aa6-e4ba-49e8-85c5-1bdcb33ce202"></span>
+
+                
+      </section>
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+        <div class="thumbs feedback_trigger right-bottom"></div>
+
+        
+          <hr>
+          <footer>
+            
+            
+
+            
+              <div class="d-flex mt-2">
+              <p class="text-small text-grey-dk-000 mb-0 mr-2">
+                Page last modified: <span class="d-inline-block">6/17/2021</span>.
+              </p>
+            
+                
+                  <p class="text-small text-grey-dk-000 mb-0">
+                    <a href="https://github.com/dendronhq/dendron-site/edit/master/vault/dendron.topic.special-notes.md" id="edit-this-page">Edit this page on GitHub</a>
+                  </p>
+                
+              </div>
+          </footer>
+        
+    </div>
+</div>
+
+
+  
+
+  <div class="search-overlay"></div>
+
+</div>
+
+</body>
+</html>

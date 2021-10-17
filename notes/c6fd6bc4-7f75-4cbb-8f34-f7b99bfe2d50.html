@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+  
+  <title>Concepts - Dendron</title>
+  
+
+  <link
+    rel="shortcut icon"
+    href="https://wiki.dendron.so/favicon.ico"
+    type="image/x-icon"
+  />
+  <link
+    rel="stylesheet"
+    href="https://wiki.dendron.so/assets/css/just-the-docs-default.css"
+  />
+  <script
+    type="text/javascript"
+    src="https://wiki.dendron.so/assets/js/just-the-docs.js"
+  ></script>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.22.0/themes/prism.min.css"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css"
+    integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X"
+    crossorigin="anonymous"
+  />
+  <script
+    type="text/javascript"
+    src="https://wiki.dendron.so/assets/js/vendor/lunr.min.js"
+  ></script>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+   
+   
+  
+<meta name="description" content="Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.">
+<meta name="author" content="dendronhq">
+
+<link rel="canonical" href="https://wiki.dendron.so/notes/c6fd6bc4-7f75-4cbb-8f34-f7b99bfe2d50.html">
+
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://wiki.dendron.so/notes/c6fd6bc4-7f75-4cbb-8f34-f7b99bfe2d50.html">
+<meta property="og:description" content="Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.">
+<meta property="og:image" content="https://wiki.dendron.so/logo.png">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@dendronhq">
+<meta name="twitter:url" content="https://wiki.dendron.so/notes/c6fd6bc4-7f75-4cbb-8f34-f7b99bfe2d50.html">
+<meta name="twitter:description" content="Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.">
+<meta name="twitter:image" content="https://wiki.dendron.so/logo.png">
+
+
+  <meta property="og:title" content="Concepts - Dendron" />
+  <meta name="twitter:title" content="Concepts - Dendron" />
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-B0JN2HHCNY"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-B0JN2HHCNY');
+  </script>
+  
+</head>
+
+
+
+<body>
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+      <symbol id="svg-link" viewBox="0 0 24 24">
+        <title>Link</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-link">
+          <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+        </svg>
+      </symbol>
+      <symbol id="svg-search" viewBox="0 0 24 24">
+        <title>Search</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search">
+          <circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+      </symbol>
+      <symbol id="svg-menu" viewBox="0 0 24 24">
+        <title>Menu</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu">
+          <line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+      </symbol>
+      <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+        <title>Expand</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+          <polyline points="9 18 15 12 9 6"></polyline>
+        </svg>
+      </symbol>
+      <symbol id="svg-doc" viewBox="0 0 24 24">
+        <title>Document</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file">
+          <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path><polyline points="13 2 13 9 20 9"></polyline>
+        </svg>
+      </symbol>
+    </svg>
+
+    <div class="side-bar">
+      <div class="site-header">
+        <a href="https://wiki.dendron.so" class="site-title lh-tight">
+  <div class="site-logo"></div>
+
+ </a>
+        <a href="#" id="menu-button" class="site-button">
+          <svg viewBox="0 0 24 24" class="icon"><use xlink:href="#svg-menu"></use></svg>
+        </a>
+      </div>
+
+      <nav role="navigation" aria-label="Main" id="site-nav" class="site-nav">
+      </nav>
+      <footer class="site-footer">
+        🌱 with 💕 using <a href="https://www.dendron.so/"> Dendron 🌲 </a>
+      </footer>
+    </div>
+    <div class="main" id="top">
+        <div id="main-header" class="main-header">
+          
+            <div class="search">
+              <div class="search-input-wrap">
+                <input type="text" id="search-input" class="search-input" tabindex="0" placeholder="Search Dendron" aria-label="Search Dendron" autocomplete="off">
+                <label for="search-input" class="search-label"><svg viewBox="0 0 24 24" class="search-icon"><use xlink:href="#svg-search"></use></svg></label>
+              </div>
+              <div id="search-results" class="search-results"></div>
+            </div>
+          
+          
+    </div>
+    <div id="main-content-wrap" class="main-content-wrap">
+      
+        
+          <nav aria-label="Breadcrumb" class="breadcrumb-nav">
+            <ol class="breadcrumb-nav-list"><li class="breadcrumb-nav-list-item"><a href="https://wiki.dendron.so">Dendron</a></li><li class="breadcrumb-nav-list-item">Concepts</li></ol>
+          </nav>
+        
+      
+      <div id="main-content" class="main-content" role="main">
+
+        
+        
+        <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+        <script>mermaid.initialize({startOnLoad:true});</script>
+        
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+        
+        
+
+        
+
+        
+
+        
+
+        <script>
+          $(function () {
+            $('[data-toggle="popover"]').popover({html: true})
+          })
+        </script>
+
+        
+
+<div id="main" role="main">
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Concepts">
+    
+    <meta itemprop="datePublished" content="2020-07-19T14:38:32+00:00">
+    <meta itemprop="dateModified" content="2021-06-17T09:16:26+00:00">
+
+    <div class="page__inner-wrap">
+
+      
+
+      <section class="page__content" itemprop="text">
+
+        
+
+        <h1 id="concepts"><a aria-hidden="true" class="anchor-heading" href="#concepts"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Concepts</h1>
+<p>Below are some concepts that are helpful to know when using Dendron. Note that features with 🚧 are still under active development and might not be fully implemented.</p>
+<h3 id="markdown"><a aria-hidden="true" class="anchor-heading" href="#markdown"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Markdown</h3>
+<p>Dendron supports markdown, a popular markup syntax that is like HTML but 1000x simpler. If you are new to markdown, you can read about the syntax <a href="https://docs.gitbook.com/editing-content/markdown">here</a>.</p>
+<h3 id="frontmatter"><a aria-hidden="true" class="anchor-heading" href="#frontmatter"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Frontmatter</h3>
+<p>Frontmatter is a convenient way of adding extra information to your documents like a shorthand title or longer description (think any extra information you can use to describe a note). This type of information is generally called metadata and the structure used is called <a href="https://yaml.org/">YAML</a>. You can add it to the front of your markdown file and it won't show up in the preview. It was first introduced by <a href="https://jekyllrb.com/docs/front-matter/">jekyll</a>. </p>
+<p>You can read more about the frontmatter used in Dendron <a href="https://wiki.dendron.so/notes/ffec2853-c0e0-4165-a368-339db12c8e4b.html">here</a></p>
+<h3 id="workspace"><a aria-hidden="true" class="anchor-heading" href="#workspace"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Workspace</h3>
+<p></p><p></p><div class="portal-container">
+<div class="portal-head">
+<div class="portal-backlink">
+<div class="portal-title">From <span class="portal-text-title">Workspace</span></div>
+<a href="https://wiki.dendron.so/notes/c4cf5519-f7c2-4a23-b93b-1c9a02880f6b.html" class="portal-arrow">Go to text <span class="right-arrow">→</span></a>
+</div>
+</div>
+<div id="portal-parent-anchor" class="portal-parent" markdown="1">
+<div class="portal-parent-fader-top"></div>
+<div class="portal-parent-fader-bottom"></div><p>In Dendron, your <strong>workspace</strong> is the root of where all your files are located. It's set when you first run <code>Dendron: Initialize Workspace</code>. The folder that contains your workspace is also known as your <strong>workspace root</strong>.</p>
+<p>A workspace has a <code>dendron.yml</code> file that specifies its <a href="https://wiki.dendron.so/notes/6682fca0-65ed-402c-8634-94cd51463cc4.html">vaults</a>.</p>
+<h2 id="commands"><a aria-hidden="true" class="anchor-heading" href="#commands"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Commands</h2>
+<h3 id="workspace-add-and-commit"><a aria-hidden="true" class="anchor-heading" href="#workspace-add-and-commit"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Workspace: Add and Commit</h3>
+<p>Add and commit all notes across all vaults to git.</p>
+<h3 id="workspace-sync"><a aria-hidden="true" class="anchor-heading" href="#workspace-sync"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Workspace: Sync</h3>
+<p>Synchronizes all notes across all vaults with git. Any changes you made will be pushed back to remote, and any changes in the remote will be pulled.</p>
+<p>In more detail: Dendron will first commit all your changes, then pull changes from the remote, and finally push everything back to the remote. This workflow is good in most cases: private notes, internal shared vaults, or your personal writings. This workflow doesn't work as well in some cases however, so we offer per-vault configuration options which you can use to adjust how your notes are synchronized.</p>
+<p>You can set these configuration options in your <code>dendron.yml</code>, either for each vault with the <code>sync</code> option, or for all <a href="https://wiki.dendron.so/notes/6682fca0-65ed-402c-8634-94cd51463cc4.html#workspace-vault">workspace vaults</a> with the <code>workspaceVaultSync</code> option. The configuration will look like this:</p>
+<pre class="language-yml"><code class="language-yml"><span class="token punctuation">...</span> rest of your dendron.yml
+<span class="token key atrule">workspaceVaultSync</span><span class="token punctuation">:</span> noPush
+<span class="token key atrule">vaults</span><span class="token punctuation">:</span>
+    <span class="token punctuation">-</span>
+        <span class="token key atrule">fsPath</span><span class="token punctuation">:</span> my<span class="token punctuation">-</span>website
+        <span class="token key atrule">sync</span><span class="token punctuation">:</span> noCommit
+        <span class="token key atrule">remote</span><span class="token punctuation">:</span>
+            <span class="token key atrule">type</span><span class="token punctuation">:</span> git
+            <span class="token key atrule">url</span><span class="token punctuation">:</span> <span class="token string">'git@github.com:my-username/my-website.git'</span>
+    <span class="token punctuation">-</span>
+        <span class="token key atrule">fsPath</span><span class="token punctuation">:</span> my<span class="token punctuation">-</span>notes
+        <span class="token key atrule">sync</span><span class="token punctuation">:</span> sync
+        <span class="token key atrule">type</span><span class="token punctuation">:</span> git
+            <span class="token key atrule">url</span><span class="token punctuation">:</span> <span class="token string">'git@github.com:my-username/my-notes.git'</span>
+</code></pre>
+<h4 id="configuration-options"><a aria-hidden="true" class="anchor-heading" href="#configuration-options"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>configuration options</h4>
+<h5 id="sync"><a aria-hidden="true" class="anchor-heading" href="#sync"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>sync</h5>
+<p>Dendron will try to synchronize everything: Dendron will first commit all your changes, then pull changes from the remote, and finally push everything back to the remote. This is the default for regular vaults.</p>
+<h5 id="nocommit"><a aria-hidden="true" class="anchor-heading" href="#nocommit"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>noCommit</h5>
+<p>Pull and push updates if the workspace is clean, but don't commit. You manually commit your local changes, but automatically share them once you committed. This is good for vaults where you want to write a meaningful commit message and control what is being committed, for example a shared knowledge base or wiki. This is the default for <a href="https://wiki.dendron.so/notes/6682fca0-65ed-402c-8634-94cd51463cc4.html#workspace-vault">Workspace Vaults</a>.</p>
+<h5 id="nopush"><a aria-hidden="true" class="anchor-heading" href="#nopush"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>noPush</h5>
+<p>Commit any changes and pull updates, but don't push. You can watch the repository and make local changes without sharing them back. This is good if you want to watch the updates in a vault and maybe even note your own thoughts in the vault without sharing them, for example an organization handbook that you don't want to edit yourself.</p>
+<h5 id="skip"><a aria-hidden="true" class="anchor-heading" href="#skip"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>skip</h5>
+<p>Don't do any synchronization. This may be useful if you use some other tool to synchronize this vault.</p>
+<h2 id="workspace-types"><a aria-hidden="true" class="anchor-heading" href="#workspace-types"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Workspace Types</h2>
+<p>Dendron recognized 2 types of workspaces, Code and Native. When you initialize your workspace with
+the <a href="https://wiki.dendron.so/notes/eea2b078-1acc-4071-a14e-18299fc28f47.html#initialize-workspace">Initialize Workspace</a> command, you get a Code
+workspace. Code workspaces include a <code>dendron.code-workspace</code> file which sets up vaults and
+recommends installing some useful extensions. Code workspaces are great when you are setting up a
+knowledge base.</p>
+<p>Native workspaces on the other hand don't have a <code>dendron.code-workspace</code> file.
+They are useful when you are writing notes or documentation, and you want to
+keep your notes as part of a project rather than a separate knowledge base.</p>
+<p>We don't <em>yet</em> have an automated way to initialize a native workspace, but
+we have instructions on <a href="https://wiki.dendron.so/notes/lamzybrD6SgQlJ9BpwkQk.html">Setting up a Native Workspace</a> yourself if you would like to try out this feature.</p></div></div><p></p><p></p>
+<h3 id="vaults"><a aria-hidden="true" class="anchor-heading" href="#vaults"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Vaults</h3>
+<p></p><p></p><div class="portal-container">
+<div class="portal-head">
+<div class="portal-backlink">
+<div class="portal-title">From <span class="portal-text-title">Vaults</span></div>
+<a href="https://wiki.dendron.so/notes/6682fca0-65ed-402c-8634-94cd51463cc4.html" class="portal-arrow">Go to text <span class="right-arrow">→</span></a>
+</div>
+</div>
+<div id="portal-parent-anchor" class="portal-parent" markdown="1">
+<div class="portal-parent-fader-top"></div>
+<div class="portal-parent-fader-bottom"></div><p>Your workspace is made up of one or more <strong>vaults</strong>. A dendron vault stores a collection of related notes. If you're familiar with git, it's just like a code repo. By default, Dendron creates a <em>vaults</em> folder when you first initialize a <strong>workspace</strong>. All your notes are stored on a per vault basis.</p>
+<pre><code>.
+└── workspace
+    ├── vault.main
+    │   ├── foo.md
+    │   ├── foo.one.md
+    │   └── foo.two.md
+    └── vault.secret (hypothetical)
+        ├── secret.one.md
+        └── secret.two.md
+</code></pre>
+<p>By default, when you look for notes in Dendron, it will search over all vaults.</p></div></div><p></p><p></p>
+<h3 id="hierarchies"><a aria-hidden="true" class="anchor-heading" href="#hierarchies"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Hierarchies</h3>
+<p></p><p></p><div class="portal-container">
+<div class="portal-head">
+<div class="portal-backlink">
+<div class="portal-title">From <span class="portal-text-title">Hierarchies</span></div>
+<a href="https://wiki.dendron.so/notes/f3a41725-c5e5-4851-a6ed-5f541054d409.html" class="portal-arrow">Go to text <span class="right-arrow">→</span></a>
+</div>
+</div>
+<div id="portal-parent-anchor" class="portal-parent" markdown="1">
+<div class="portal-parent-fader-top"></div>
+<div class="portal-parent-fader-bottom"></div><p>Within a vault, your notes are stored <strong>hierarchically</strong> as <code>.</code> delimited markdown files. </p>
+<p>Below is a hypothetical hierarchy for a file tree:</p>
+<pre><code>.
+└── project1/
+    ├── project1/designs/
+    │   └── project1/designs/promotion.png
+    ├── project1/paperwork/
+    │   └── project1/paperwork/legal.md
+    └── project1/tasks/
+        ├── project1/tasks/task1.md
+        └── project1/tasks/task2.md
+</code></pre>
+<p>The same hierarchy in Dendron would look like the following:</p>
+<pre><code>.
+├── project1.md
+├── project1.designs.md
+├── project1.designs.promotion.md
+├── project1.paperwork.md
+├── project1.paperwork.legal.md
+├── project1.tasks.md
+├── project1.tasks.task1.md
+└── project1.tasks.task2.md
+</code></pre></div></div><p></p><p></p>
+<p>You can read more about hierarchies <a href="https://wiki.dendron.so/notes/f3a41725-c5e5-4851-a6ed-5f541054d409.html">here</a></p>
+<h3 id="domain"><a aria-hidden="true" class="anchor-heading" href="#domain"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Domain</h3>
+<p>A domain is the root of a hierarchy. In the example below, <code>project1</code> would be the domain.</p>
+<pre><code>.
+├── project1.md
+├── project1.designs.md
+├── project1.designs.promotion.md
+├── project1.paperwork.md
+├── project1.paperwork.legal.md
+├── project1.tasks.md
+├── project1.tasks.task1.md
+└── project1.tasks.task2.md
+</code></pre>
+<h3 id="schema"><a aria-hidden="true" class="anchor-heading" href="#schema"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Schema</h3>
+<p>As you end up creating more notes, it can be hard to keep track of it all. This is why Dendron has <strong>schemas</strong> to help you manage your notes. Think of schemas as an <strong>optional type system</strong> for your information. They describe the hierarchy of your notes and are themselves, represented as a hierarchy. </p>
+<p>You can create a schema by adding a YAML file with the following naming scheme <code>{name}.schema.yml</code> to your workspace. </p>
+<p>Below is an example of a three-level hierarchy describing cli commands. You don't need to concern yourself with the details of the schema syntax just yet, just know that this schema will match the following <a href="https://facelessuser.github.io/wcmatch/glob/">glob patterns</a>: <code>cli.*</code>, <code>cli.*.cmd</code>, <code>cli.*.cmd.*</code>, <code>cli.*.env</code></p>
+<pre class="language-yml"><code class="language-yml"><span class="token punctuation">-</span> <span class="token key atrule">id</span><span class="token punctuation">:</span> cli
+  <span class="token key atrule">desc</span><span class="token punctuation">:</span> command line interface reference
+  <span class="token key atrule">parent</span><span class="token punctuation">:</span> root
+  <span class="token key atrule">namespace</span><span class="token punctuation">:</span> <span class="token boolean important">true</span>
+  <span class="token key atrule">children</span><span class="token punctuation">:</span>
+    <span class="token punctuation">-</span> cmd
+    <span class="token punctuation">-</span> env
+<span class="token punctuation">-</span> <span class="token key atrule">id</span><span class="token punctuation">:</span> env
+  <span class="token key atrule">desc</span><span class="token punctuation">:</span> variables relevant for command
+<span class="token punctuation">-</span> <span class="token key atrule">id</span><span class="token punctuation">:</span> cmd
+  <span class="token key atrule">desc</span><span class="token punctuation">:</span> subcommands 
+  <span class="token key atrule">namespace</span><span class="token punctuation">:</span> <span class="token boolean important">true</span>
+</code></pre>
+<h3 id="stubs"><a aria-hidden="true" class="anchor-heading" href="#stubs"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Stubs</h3>
+<p>Stubs are notes that don't exist but that you might want to create. They will show up as suggestions in lookup results.
+There are two reasons why these suggested notes might show up: </p>
+<ul>
+<li>they are the uncreated parent of a note deeper in the hierarchy (eg. <code>foo.bar</code> might be a stub for <code>foo.bar.foobar</code>)</li>
+<li>they are possible notes according to the schema</li>
+</ul>
+<p><img src="https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/schema-plus.jpg"></p>
+<blockquote>
+<p>The <code>+</code> sign next to the suggestion indicates that the note is a stub and does not exist </p>
+</blockquote>
+<h3 id="pods"><a aria-hidden="true" class="anchor-heading" href="#pods"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Pods</h3>
+<p><a href="https://wiki.dendron.so/notes/66727a39-d0a7-449b-a10d-f6c438185d7f.html">Pods</a> are the mechanisms Dendron uses to import and export notes. Dendron has a different pod depending on where you are getting and publishing your data to. </p>
+<h3 id="command-palette"><a aria-hidden="true" class="anchor-heading" href="#command-palette"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Command Palette</h3>
+<p>The command palette is native to <code>vscode</code>. You can use it to run dendron commands, which will all be prefixed with <code>Dendron:</code>. You can use the following shortcut to open the command palette.</p>
+<ul>
+<li><img src="https://www.kernel.org/theme/images/logos/favicon.png" width="16" height="16/"> <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf">Linux</a> <code>Ctrl+Shift+P</code></li>
+<li><img src="https://developer.apple.com/favicon.ico" width="16" height="16/"> <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf">macOS</a> <code>Cmd+Shift+P</code></li>
+<li><img src="https://www.microsoft.com/favicon.ico" width="16" height="16/"> <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf">Windows</a> <code>Ctrl+Shift+P</code></li>
+</ul>
+<h3 id="lookup-bar"><a aria-hidden="true" class="anchor-heading" href="#lookup-bar"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Lookup Bar</h3>
+<p>The lookup bar is how you interact with notes inside of Dendron. Use it to create, find, and delete notes. You can type <code>> Dendron: Lookup</code> in the <code>Command Palette</code> or use the <code>Ctrl+L</code> shortcut. </p>
+<ul>
+<li><img src="https://www.kernel.org/theme/images/logos/favicon.png" width="16" height="16/"> <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf">Linux</a> <code>Ctrl+L</code></li>
+<li><img src="https://developer.apple.com/favicon.ico" width="16" height="16/"> <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf">macOS</a> <code>Cmd+L</code></li>
+<li><img src="https://www.microsoft.com/favicon.ico" width="16" height="16/"> <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf">Windows</a> <code>Ctrl+L</code></li>
+</ul>
+<p><img src="assets/2020-07-07-20-14-57.png"></p>
+<h2 id="misc"><a aria-hidden="true" class="anchor-heading" href="#misc"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Misc</h2>
+<h3 id="glob-pattern"><a aria-hidden="true" class="anchor-heading" href="#glob-pattern"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Glob Pattern</h3>
+<p>Glob patterns are a way of pattern matching characters. You can test and see more example of glob patterns <a href="https://facelessuser.github.io/wcmatch/glob/">here</a>.</p>
+<h3 id="kebab-case"><a aria-hidden="true" class="anchor-heading" href="#kebab-case"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Kebab Case</h3>
+<p>Kebab case is when you replace spaces with dashes and upper case with lower case.</p>
+<ul>
+<li>Example
+<ul>
+<li><code>Hello World</code> -> <code>hello-world</code></li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="backlinks"><a aria-hidden="true" class="anchor-heading" href="#backlinks"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Backlinks</h2>
+<ul>
+<li><a href="https://wiki.dendron.so/notes/683740e3-70ce-4a47-a1f4-1f140e80b558.html">FAQ</a></li>
+<li><a href="https://wiki.dendron.so/notes/8d3c8142-7481-40da-9a5c-69a3d4bab697.html">Best Practices</a></li>
+<li><a href="https://wiki.dendron.so/notes/e32aa1e2-9780-4183-927e-2f46372050aa.html">Release Notes(version 0.5)</a></li>
+<li><a href="https://wiki.dendron.so/notes/6TOh3VApIUfap7c3.html">18 Add Note Indexes</a></li>
+<li><a href="https://wiki.dendron.so/notes/23a1b942-99af-45c8-8116-4f4bb7dccd21.html">Dendron CLI</a></li>
+<li><a href="https://wiki.dendron.so/notes/eea2b078-1acc-4071-a14e-18299fc28f48.html">Config</a></li>
+<li><a href="https://wiki.dendron.so/notes/132698b3-cfe0-457f-b7d6-7ddba5cfe096.html">Quickstart</a></li>
+<li><a href="https://wiki.dendron.so/notes/f83c1d87-eac0-48f3-a5cf-8a69989d8ec1.html">Dendrons Config</a></li>
+<li><a href="https://wiki.dendron.so/notes/fcadb1e1-57eb-49fa-a5f8-df11c2a8c685.html">Config</a></li>
+<li><a href="https://wiki.dendron.so/notes/ad270a7d-2aed-4273-8319-eb6536e38b29.html">Modifiers</a></li>
+<li><a href="https://wiki.dendron.so/notes/f2ed8639-a604-4a9d-b76c-41e205fb8713.html">Configuration</a></li>
+<li><a href="https://wiki.dendron.so/notes/24b176f1-685d-44e1-a1b0-1704b1a92ca0.html">Multi Vault</a></li>
+<li><a href="https://wiki.dendron.so/notes/45cfb9f2-46cf-4f67-a41e-834818fbd06e.html">Multi Vault Support</a></li>
+</ul><span id="navId" data="c6fd6bc4-7f75-4cbb-8f34-f7b99bfe2d50"></span>
+
+                
+      </section>
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+        <div class="thumbs feedback_trigger right-bottom"></div>
+
+        
+          <hr>
+          <footer>
+            
+            
+
+            
+              <div class="d-flex mt-2">
+              <p class="text-small text-grey-dk-000 mb-0 mr-2">
+                Page last modified: <span class="d-inline-block">6/17/2021</span>.
+              </p>
+            
+                
+                  <p class="text-small text-grey-dk-000 mb-0">
+                    <a href="https://github.com/dendronhq/dendron-site/edit/master/vault/dendron.concepts.md" id="edit-this-page">Edit this page on GitHub</a>
+                  </p>
+                
+              </div>
+          </footer>
+        
+    </div>
+</div>
+
+
+  
+
+  <div class="search-overlay"></div>
+
+</div>
+
+</body>
+</html>

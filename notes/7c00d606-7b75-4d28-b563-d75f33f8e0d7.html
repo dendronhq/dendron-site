@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+  
+  <title>Roles - Dendron</title>
+  
+
+  <link
+    rel="shortcut icon"
+    href="https://wiki.dendron.so/favicon.ico"
+    type="image/x-icon"
+  />
+  <link
+    rel="stylesheet"
+    href="https://wiki.dendron.so/assets/css/just-the-docs-default.css"
+  />
+  <script
+    type="text/javascript"
+    src="https://wiki.dendron.so/assets/js/just-the-docs.js"
+  ></script>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.22.0/themes/prism.min.css"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css"
+    integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X"
+    crossorigin="anonymous"
+  />
+  <script
+    type="text/javascript"
+    src="https://wiki.dendron.so/assets/js/vendor/lunr.min.js"
+  ></script>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+   
+   
+  
+<meta name="description" content="Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.">
+<meta name="author" content="dendronhq">
+
+<link rel="canonical" href="https://wiki.dendron.so/notes/7c00d606-7b75-4d28-b563-d75f33f8e0d7.html">
+
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://wiki.dendron.so/notes/7c00d606-7b75-4d28-b563-d75f33f8e0d7.html">
+<meta property="og:description" content="Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.">
+<meta property="og:image" content="https://wiki.dendron.so/logo.png">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@dendronhq">
+<meta name="twitter:url" content="https://wiki.dendron.so/notes/7c00d606-7b75-4d28-b563-d75f33f8e0d7.html">
+<meta name="twitter:description" content="Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.">
+<meta name="twitter:image" content="https://wiki.dendron.so/logo.png">
+
+
+  <meta property="og:title" content="Roles - Dendron" />
+  <meta name="twitter:title" content="Roles - Dendron" />
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-B0JN2HHCNY"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-B0JN2HHCNY');
+  </script>
+  
+</head>
+
+
+
+<body>
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+      <symbol id="svg-link" viewBox="0 0 24 24">
+        <title>Link</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-link">
+          <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+        </svg>
+      </symbol>
+      <symbol id="svg-search" viewBox="0 0 24 24">
+        <title>Search</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search">
+          <circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+      </symbol>
+      <symbol id="svg-menu" viewBox="0 0 24 24">
+        <title>Menu</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu">
+          <line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+      </symbol>
+      <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+        <title>Expand</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+          <polyline points="9 18 15 12 9 6"></polyline>
+        </svg>
+      </symbol>
+      <symbol id="svg-doc" viewBox="0 0 24 24">
+        <title>Document</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file">
+          <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path><polyline points="13 2 13 9 20 9"></polyline>
+        </svg>
+      </symbol>
+    </svg>
+
+    <div class="side-bar">
+      <div class="site-header">
+        <a href="https://wiki.dendron.so" class="site-title lh-tight">
+  <div class="site-logo"></div>
+
+ </a>
+        <a href="#" id="menu-button" class="site-button">
+          <svg viewBox="0 0 24 24" class="icon"><use xlink:href="#svg-menu"></use></svg>
+        </a>
+      </div>
+
+      <nav role="navigation" aria-label="Main" id="site-nav" class="site-nav">
+      </nav>
+      <footer class="site-footer">
+        🌱 with 💕 using <a href="https://www.dendron.so/"> Dendron 🌲 </a>
+      </footer>
+    </div>
+    <div class="main" id="top">
+        <div id="main-header" class="main-header">
+          
+            <div class="search">
+              <div class="search-input-wrap">
+                <input type="text" id="search-input" class="search-input" tabindex="0" placeholder="Search Dendron" aria-label="Search Dendron" autocomplete="off">
+                <label for="search-input" class="search-label"><svg viewBox="0 0 24 24" class="search-icon"><use xlink:href="#svg-search"></use></svg></label>
+              </div>
+              <div id="search-results" class="search-results"></div>
+            </div>
+          
+          
+    </div>
+    <div id="main-content-wrap" class="main-content-wrap">
+      
+        
+          <nav aria-label="Breadcrumb" class="breadcrumb-nav">
+            <ol class="breadcrumb-nav-list"><li class="breadcrumb-nav-list-item"><a href="https://wiki.dendron.so/notes/6f4cd441-f883-4e75-871b-b7f93895c91b.html">Community</a></li><li class="breadcrumb-nav-list-item">Roles</li></ol>
+          </nav>
+        
+      
+      <div id="main-content" class="main-content" role="main">
+
+        
+        
+        <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+        <script>mermaid.initialize({startOnLoad:true});</script>
+        
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+        
+        
+
+        
+
+        
+
+        
+
+        <script>
+          $(function () {
+            $('[data-toggle="popover"]').popover({html: true})
+          })
+        </script>
+
+        
+
+<div id="main" role="main">
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Roles">
+    
+    <meta itemprop="datePublished" content="2020-11-01T13:25:02+00:00">
+    <meta itemprop="dateModified" content="2021-10-12T20:24:55+00:00">
+
+    <div class="page__inner-wrap">
+
+      
+
+      <section class="page__content" itemprop="text">
+
+        
+
+        <h1 id="roles"><a aria-hidden="true" class="anchor-heading" href="#roles"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Roles</h1>
+<h2 id="summary"><a aria-hidden="true" class="anchor-heading" href="#summary"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Summary</h2>
+<p>Dendron has special roles for members of its community.</p>
+<h2 id="adding-a-role"><a aria-hidden="true" class="anchor-heading" href="#adding-a-role"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Adding a role</h2>
+<p><a aria-hidden="true" class="block-anchor anchor-heading" id="^NE2TMz6wxONj" href="#^NE2TMz6wxONj"><svg viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>If you'd like to credit someone for work, you can simply ask the contribution bot (<a href="https://allcontributors.org/docs/en/emoji-key">contribution-key</a>): <code>@all-contributors please add @&#x3C;username> for &#x3C;contributions>.</code> </p>
+<p>Common keys are:</p>
+<ul>
+<li>bug</li>
+<li>doc</li>
+<li>code</li>
+<li>financial</li>
+</ul>
+<p>You can either use the bot in the relevant Github issue OR in the <a href="https://github.com/dendronhq/dendron/issues/714">gratitude issue</a>.</p>
+<p>You can see the list of contributors <a href="https://github.com/dendronhq/dendron#contributors-">here</a>.</p>
+<h2 id="roles-1"><a aria-hidden="true" class="anchor-heading" href="#roles-1"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Roles</h2>
+<h3 id="dendrologist"><a aria-hidden="true" class="anchor-heading" href="#dendrologist"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Dendrologist</h3>
+<p><strong>Dendrologist</strong> are active members of the Dendron community. They play a vital role in helping new members get started and setting best practices for Dendron and its community.</p>
+<p>Dendrologist help shape Dendron's roadmap and community standards. They also gain additional discord super powers like creating channels, pinning messages, and other moderation capabilities.</p>
+<h3 id="environmentalist"><a aria-hidden="true" class="anchor-heading" href="#environmentalist"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Environmentalist</h3>
+<p><strong>Environmentalist</strong> are members that show their support by making monthly <a href="https://accounts.dendron.so/account/subscribe">financial contributions</a> to Dendron.</p>
+<p>Environmentalist get a special discord role, early access to new features, special channels, and other goodies.</p>
+<p>There are currently four levels of environmentalist plans:</p>
+<ul>
+<li>seed</li>
+<li>sprout</li>
+<li>sapling</li>
+<li>forest</li>
+</ul>
+<h3 id="horticulturalist"><a aria-hidden="true" class="anchor-heading" href="#horticulturalist"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Horticulturalist</h3>
+<p><strong>Horticulturalist</strong> are members who have contributed to the Dendron code base.</p>
+<h3 id="taxonomist"><a aria-hidden="true" class="anchor-heading" href="#taxonomist"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Taxonomist</h3>
+<p>A <strong>Taxonomist</strong> is a member who improved the Dendron documentation.</p>
+<h3 id="planter"><a aria-hidden="true" class="anchor-heading" href="#planter"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Planter</h3>
+<p>A <strong>Planter</strong> is a member who published their notes using Dendron</p>
+<h3 id="bug-catcher"><a aria-hidden="true" class="anchor-heading" href="#bug-catcher"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Bug Catcher</h3>
+<p>A <strong>Bug Catcher</strong> is a member who found a reproducible bug in Dendron.</p>
+<h3 id="seeder"><a aria-hidden="true" class="anchor-heading" href="#seeder"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Seeder</h3>
+<p>A <strong>Seeder</strong> is a member who referred a fellow gardener to Dendron.</p>
+<hr>
+<h2 id="backlinks"><a aria-hidden="true" class="anchor-heading" href="#backlinks"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Backlinks</h2>
+<ul>
+<li><a href="https://wiki.dendron.so/notes/zOw3EfQ4czmTYG4mc3wnS.html">Teatime</a></li>
+<li><a href="https://wiki.dendron.so/notes/6e4c4f61-80a3-46fa-9ad3-04b99d9e9695.html">Dendron Public Roadmap</a></li>
+<li><a href="https://wiki.dendron.so/notes/81da87be-2d4e-47b5-a1d6-c0d647e1ab00.html">Development</a></li>
+<li><a href="https://wiki.dendron.so/notes/adc39825-77a6-46cf-9c49-2642fcb4248e.html">Pull Request</a></li>
+<li><a href="https://wiki.dendron.so/notes/20b23165-d803-4eb2-98aa-0f0934dd3bd9.html">Terms</a></li>
+<li><a href="https://wiki.dendron.so/notes/63ea2e72-4eba-406c-9f4c-7300fa0b8935.html">Release Notes(version 0.15)</a></li>
+<li><a href="https://wiki.dendron.so/notes/44fd6c57-b7f4-47f5-a632-d352d4f4fa7b.html">Release Notes(version 0.20)</a></li>
+<li><a href="https://wiki.dendron.so/notes/e543ad13-1108-448c-b3a6-9976fd7a65ce.html">Release Notes(version 0.21)</a></li>
+<li><a href="https://wiki.dendron.so/notes/e05c751f-7d5c-4fcf-8868-01092813d1dd.html">Release Notes(version 0.22)</a></li>
+<li><a href="https://wiki.dendron.so/notes/9293d889-e07f-4a01-b67f-e8aca7c1c7f7.html">Release Notes (version 0.25)</a></li>
+<li><a href="https://wiki.dendron.so/notes/b5db61c8-9d48-449a-b6b4-2750d3be1a6f.html">Release Notes (version 0.27)</a></li>
+<li><a href="https://wiki.dendron.so/notes/c99c55b0-a709-41fe-a59e-1f1c932346dc.html">Release Notes (version 0.28)</a></li>
+<li><a href="https://wiki.dendron.so/notes/7aab0296-c1be-4f27-af22-1d97293da7d6.html">Release Notes (version 0.29)</a></li>
+<li><a href="https://wiki.dendron.so/notes/8d76cb22-f14c-438c-821e-37c91d1b857a.html">Release Notes (version 0.30)</a></li>
+<li><a href="https://wiki.dendron.so/notes/1dad9378-8fcf-4859-bede-cc44279ba12d.html">Release Notes (version 0.31)</a></li>
+<li><a href="https://wiki.dendron.so/notes/e4be70f5-e035-4e11-b915-3a3508cd9d6b.html">Release Notes (version 0.32)</a></li>
+<li><a href="https://wiki.dendron.so/notes/ab2b8bac-db9a-4af8-9a2b-d8a219334841.html">Release Notes (version 0.33)</a></li>
+<li><a href="https://wiki.dendron.so/notes/2d59d6d0-5752-4de6-9027-f6bf9ab63aca.html">Release Notes (version 0.34)</a></li>
+<li><a href="https://wiki.dendron.so/notes/e71bcee0-2e97-49bd-ab5b-634df8903132.html">Release Notes (version 0.35)</a></li>
+<li><a href="https://wiki.dendron.so/notes/f240676a-a003-46e2-ac79-784bd142c7f0.html">Release Notes (version 0.36)</a></li>
+<li><a href="https://wiki.dendron.so/notes/8be5a0d4-4bd1-4da8-ad4b-3146aef432b7.html">Release Notes (version 0.37)</a></li>
+<li><a href="https://wiki.dendron.so/notes/d84d5b33-76d3-4190-9a32-a728dc0eb97e.html">Release Notes (version 0.38)</a></li>
+<li><a href="https://wiki.dendron.so/notes/82130f1f-521d-42ec-a7da-b76a82f0d39d.html">Release Notes (version 0.39)</a></li>
+<li><a href="https://wiki.dendron.so/notes/2979e42c-a945-4483-912a-ad4f9560fdb7.html">Release Notes (version 0.40)</a></li>
+<li><a href="https://wiki.dendron.so/notes/6d77fa3b-f0f1-4fb5-bac1-14389d6efeb5.html">Release Notes (version 0.41)</a></li>
+<li><a href="https://wiki.dendron.so/notes/fb9263aa-8cc6-423f-ab79-57921c90fb97.html">Release Notes (version 0.42)</a></li>
+<li><a href="https://wiki.dendron.so/notes/1572fad1-a971-4802-81d9-ac678cee84a6.html">Release Notes (version 0.43)</a></li>
+<li><a href="https://wiki.dendron.so/notes/00e6f3d8-4243-42c7-8e4f-a074a1bd0ffb.html">Release Notes (version 0.44)</a></li>
+<li><a href="https://wiki.dendron.so/notes/28bc72c6-5d4f-4d7a-abb2-6c1d72f3438a.html">Release Notes (version 0.45)</a></li>
+<li><a href="https://wiki.dendron.so/notes/rYFDLOe50uFcfetsuWiGg.html">Release Notes (version 0.46)</a></li>
+<li><a href="https://wiki.dendron.so/notes/SRqCvd66cO4L5OZ-B0PKG.html">Release Notes (version 0.47)</a></li>
+<li><a href="https://wiki.dendron.so/notes/nB_CscjeWXqMfdcHfP7iX.html">Release Notes (version 0.48)</a></li>
+<li><a href="https://wiki.dendron.so/notes/KasnPHKjT8aD6RzU0BI3x.html">Release Notes (version 0.49)</a></li>
+<li><a href="https://wiki.dendron.so/notes/16qtgkcY-tgiYZWafX9Sp.html">Release Notes (version 0.50)</a></li>
+<li><a href="https://wiki.dendron.so/notes/9rqhTCE1dAUQJ3fD.html">Release Notes (version 0.51)</a></li>
+<li><a href="https://wiki.dendron.so/notes/oLUblPDevwOoYr06.html">Release Notes (version 0.52)</a></li>
+<li><a href="https://wiki.dendron.so/notes/XJvKMQfKVMD1Rm4o.html">Release Notes (version 0.53)</a></li>
+<li><a href="https://wiki.dendron.so/notes/mZhQvxLdMJKaqpgyjOTVG.html">Release Notes (version 0.54)</a></li>
+<li><a href="https://wiki.dendron.so/notes/fYU3mSfr096DYui0O2cRp.html">Release Notes (version 0.55)</a></li>
+<li><a href="https://wiki.dendron.so/notes/6gA7Hm1y6qOeDXda3zlAE.html">Release Notes (version 0.56)</a></li>
+<li><a href="https://wiki.dendron.so/notes/W5mqxShkKlwHarz90flG2.html">Release Notes (version 0.57)</a></li>
+<li><a href="https://wiki.dendron.so/notes/Badrtj2lOp7AgANdgYfBv.html">Release Notes (version 0.58)</a></li>
+<li><a href="https://wiki.dendron.so/notes/aURuqCucZegsCpJSb5m90.html">Release Notes (version 0.59)</a></li>
+<li><a href="https://wiki.dendron.so/notes/N9X7MArddruHw3FXxZv8X.html">Release Notes (version 0.60)</a></li>
+<li><a href="https://wiki.dendron.so/notes/sRnuoGUdVgwyFyJBWPRo7.html">Release Notes (version 0.61)</a></li>
+<li><a href="https://wiki.dendron.so/notes/K6ssYNLMW27BSV6rSZJ5P.html">Release Notes (version 0.62)</a></li>
+<li><a href="https://wiki.dendron.so/notes/7Y1f7gPmzhdLaepIfBvcj.html">Release Notes (version 0.63)</a></li>
+<li><a class="color-tag" style="--tag-color: #ff9a8a;" href="https://wiki.dendron.so/notes/a3df7b38-bb18-4c3b-acf7-03f81e5a277a.html">Bugcatcher</a></li>
+<li><a class="color-tag" style="--tag-color: #ffe5ad;" href="https://wiki.dendron.so/notes/42917c62-a456-44b8-af22-d0360abcc489.html">Taxonomist</a></li>
+<li><a href="https://wiki.dendron.so/notes/1ec8d588-7c8a-47a2-b79e-1dd02d10b600.html">Weekly Public Announcement</a></li>
+<li><a href="https://wiki.dendron.so/notes/ed4162aa-5474-4483-9fbc-c0b505310c59.html">0.1.X</a></li>
+<li><a href="https://wiki.dendron.so/notes/icBBwbAFLyjsRLheSJkAp.html">0 3 X</a></li>
+<li><a href="https://wiki.dendron.so/notes/8b08d91b-3da8-4b8a-90c5-799d3026ad9b.html">Advanced</a></li>
+</ul><span id="navId" data="7c00d606-7b75-4d28-b563-d75f33f8e0d7"></span>
+
+                
+      </section>
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+        <div class="thumbs feedback_trigger right-bottom"></div>
+
+        
+          <hr>
+          <footer>
+            
+            
+
+            
+              <div class="d-flex mt-2">
+              <p class="text-small text-grey-dk-000 mb-0 mr-2">
+                Page last modified: <span class="d-inline-block">10/12/2021</span>.
+              </p>
+            
+                
+                  <p class="text-small text-grey-dk-000 mb-0">
+                    <a href="https://github.com/dendronhq/dendron-site/edit/master/vault/community.roles.md" id="edit-this-page">Edit this page on GitHub</a>
+                  </p>
+                
+              </div>
+          </footer>
+        
+    </div>
+</div>
+
+
+  
+
+  <div class="search-overlay"></div>
+
+</div>
+
+</body>
+</html>

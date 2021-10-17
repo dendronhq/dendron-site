@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+  
+  <title>Workbench - Dendron</title>
+  
+
+  <link
+    rel="shortcut icon"
+    href="https://wiki.dendron.so/favicon.ico"
+    type="image/x-icon"
+  />
+  <link
+    rel="stylesheet"
+    href="https://wiki.dendron.so/assets/css/just-the-docs-default.css"
+  />
+  <script
+    type="text/javascript"
+    src="https://wiki.dendron.so/assets/js/just-the-docs.js"
+  ></script>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.22.0/themes/prism.min.css"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css"
+    integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X"
+    crossorigin="anonymous"
+  />
+  <script
+    type="text/javascript"
+    src="https://wiki.dendron.so/assets/js/vendor/lunr.min.js"
+  ></script>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+   
+   
+  
+<meta name="description" content="Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.">
+<meta name="author" content="dendronhq">
+
+<link rel="canonical" href="https://wiki.dendron.so/notes/f7ebd4aa-8ba7-4bc5-bd00-a1efc5315f07.html">
+
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://wiki.dendron.so/notes/f7ebd4aa-8ba7-4bc5-bd00-a1efc5315f07.html">
+<meta property="og:description" content="Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.">
+<meta property="og:image" content="https://wiki.dendron.so/logo.png">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@dendronhq">
+<meta name="twitter:url" content="https://wiki.dendron.so/notes/f7ebd4aa-8ba7-4bc5-bd00-a1efc5315f07.html">
+<meta name="twitter:description" content="Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.">
+<meta name="twitter:image" content="https://wiki.dendron.so/logo.png">
+
+
+  <meta property="og:title" content="Workbench - Dendron" />
+  <meta name="twitter:title" content="Workbench - Dendron" />
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-B0JN2HHCNY"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-B0JN2HHCNY');
+  </script>
+  
+</head>
+
+
+
+<body>
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+      <symbol id="svg-link" viewBox="0 0 24 24">
+        <title>Link</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-link">
+          <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+        </svg>
+      </symbol>
+      <symbol id="svg-search" viewBox="0 0 24 24">
+        <title>Search</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search">
+          <circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+      </symbol>
+      <symbol id="svg-menu" viewBox="0 0 24 24">
+        <title>Menu</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu">
+          <line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+      </symbol>
+      <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+        <title>Expand</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+          <polyline points="9 18 15 12 9 6"></polyline>
+        </svg>
+      </symbol>
+      <symbol id="svg-doc" viewBox="0 0 24 24">
+        <title>Document</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file">
+          <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path><polyline points="13 2 13 9 20 9"></polyline>
+        </svg>
+      </symbol>
+    </svg>
+
+    <div class="side-bar">
+      <div class="site-header">
+        <a href="https://wiki.dendron.so" class="site-title lh-tight">
+  <div class="site-logo"></div>
+
+ </a>
+        <a href="#" id="menu-button" class="site-button">
+          <svg viewBox="0 0 24 24" class="icon"><use xlink:href="#svg-menu"></use></svg>
+        </a>
+      </div>
+
+      <nav role="navigation" aria-label="Main" id="site-nav" class="site-nav">
+      </nav>
+      <footer class="site-footer">
+        🌱 with 💕 using <a href="https://www.dendron.so/"> Dendron 🌲 </a>
+      </footer>
+    </div>
+    <div class="main" id="top">
+        <div id="main-header" class="main-header">
+          
+            <div class="search">
+              <div class="search-input-wrap">
+                <input type="text" id="search-input" class="search-input" tabindex="0" placeholder="Search Dendron" aria-label="Search Dendron" autocomplete="off">
+                <label for="search-input" class="search-label"><svg viewBox="0 0 24 24" class="search-icon"><use xlink:href="#svg-search"></use></svg></label>
+              </div>
+              <div id="search-results" class="search-results"></div>
+            </div>
+          
+          
+    </div>
+    <div id="main-content-wrap" class="main-content-wrap">
+      
+        
+          <nav aria-label="Breadcrumb" class="breadcrumb-nav">
+            <ol class="breadcrumb-nav-list"><li class="breadcrumb-nav-list-item"><a href="https://wiki.dendron.so">Dendron</a></li><li class="breadcrumb-nav-list-item"><a href="https://wiki.dendron.so/notes/7a7af2fa-b9d0-4adc-81e6-f03186123539.html">Topics</a></li><li class="breadcrumb-nav-list-item">Workbench</li></ol>
+          </nav>
+        
+      
+      <div id="main-content" class="main-content" role="main">
+
+        
+        
+        <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+        <script>mermaid.initialize({startOnLoad:true});</script>
+        
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+        
+        
+
+        
+
+        
+
+        
+
+        <script>
+          $(function () {
+            $('[data-toggle="popover"]').popover({html: true})
+          })
+        </script>
+
+        
+
+<div id="main" role="main">
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Workbench">
+    
+    <meta itemprop="datePublished" content="2020-07-19T14:50:37+00:00">
+    <meta itemprop="dateModified" content="2021-09-28T16:14:31+00:00">
+
+    <div class="page__inner-wrap">
+
+      
+
+      <section class="page__content" itemprop="text">
+
+        
+
+        <h1 id="workbench"><a aria-hidden="true" class="anchor-heading" href="#workbench"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Workbench</h1>
+<p>The Dendron workbench is the overall UI that surrounds the editor. It is equivalent to the <a href="https://code.visualstudio.com/api/extension-capabilities/extending-workbench">VSCode workbench</a>.</p>
+<p><img src="https://code.visualstudio.com/assets/api/extension-capabilities/extending-workbench/workbench-contribution.png" alt="workbench"></p>
+<blockquote>
+<p>Image from <a href="https://code.visualstudio.com/api/extension-capabilities/extending-workbench">Visual Studio Docs</a></p>
+</blockquote>
+<p>Dendron has a few custom workbench components to deal with hierarchal notes.</p>
+<h2 id="output-view"><a aria-hidden="true" class="anchor-heading" href="#output-view"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Output View</h2>
+<p>Open the command palette and type <code>>View: Toggle Output</code> to toggle the output view.</p>
+<p>You can filter the output by application by using the dropdown menu.</p>
+<p><img src="https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/output.jpg"></p>
+<h2 id="outline-view"><a aria-hidden="true" class="anchor-heading" href="#outline-view"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Outline View</h2>
+<a href="https://www.loom.com/share/41d1bd75be8e4fa0b0666b6e8f22174b">
+<img style="" src="https://cdn.loom.com/sessions/thumbnails/41d1bd75be8e4fa0b0666b6e8f22174b-with-play.gif"> </a>
+<h3 id="updating-outline"><a aria-hidden="true" class="anchor-heading" href="#updating-outline"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Updating Outline</h3>
+<p>The outline can be sorted a variety of ways. You can control this by clicking the three dots on the side.</p>
+<p><img src="https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/Fullscreen_2_25_21__1_24_PM.jpg"></p>
+<h2 id="dendron-tree-view"><a aria-hidden="true" class="anchor-heading" href="#dendron-tree-view"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Dendron Tree View</h2>
+<p>The Dendron Tree View lets you view your hierarchal notes as a traditional folder hierarchy.</p>
+<p><img src="https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/workbench.treeview.gif"></p>
+<p>The Dendron Tree View has the following capabilities:</p>
+<ul>
+<li>
+<p>click to open note</p>
+</li>
+<li>
+<p>show indicators for <code>stub</code> and <code>schema</code> notes</p>
+</li>
+<li>
+<p>show title using tooltip</p>
+</li>
+<li>
+<p>realtime update when you create/delete notes</p>
+</li>
+<li>
+<p>toggle all functionality</p>
+</li>
+<li>
+<p>click to create from stub
+<img src="https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/workbench.treeview.stub.gif"></p>
+</li>
+<li>
+<p>reveal currently open text document</p>
+</li>
+</ul>
+<p><img src="https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/workbench.treeview-active-doc.gif"></p>
+<h2 id="backlinks-view"><a aria-hidden="true" class="anchor-heading" href="#backlinks-view"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Backlinks View</h2>
+<p>This view lets you see all <a href="https://wiki.dendron.so/notes/3472226a-ff3c-432d-bf5d-10926f39f6c2.html#backlinks">backlinks</a> to the current note.</p>
+<p>When you create a link anywhere in Dendron, it becomes a backlink to the destination note and will appear in the backlinks view of the destination note.</p>
+<p><img src="https://cdn.loom.com/images/originals/25fce495c52a475b9a952e1901b93e4c.jpg?Expires=1626335459&#x26;Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jZG4ubG9vbS5jb20vaW1hZ2VzL29yaWdpbmFscy8yNWZjZTQ5NWM1MmE0NzViOWE5NTJlMTkwMWI5M2U0Yy5qcGciLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE2MjYzMzU0NTl9fX1dfQ__&#x26;Signature=HvqcgNlMGeafss5bfNHzXg1yj6alFAtAuTIOvdunRRUHPUH05AGHr6Cv0uv0rrHVuIRzOXHflqLjKVmrYaF5Xms5NBURrQ8qu0TC6s541TLHr0G3vrkd8hZYkkx7-r08WgjKJeAKP9BxmhazRYggwE4SPLD0pK39PKHQ8SPHmIln9E504NHOUgvfyXlR-YCcjrjgxpyNMIEIkJ~9GsKxZ74qVO8fs5yAnRybXQHIlTEzzE3~eCQh6CxdDEWdD5TPw1gj9Nz-Nb3Qh9bk60vaeqiuvVuHyWTzhEHX95z4aSZT5-n2a9FVS90wDyQwxQfnwzkHP2ittDDX~cY8nKMToA__&#x26;Key-Pair-Id=APKAJQIC5BGSW7XXK7FQ"></p>
+<blockquote>
+<p>The Backlinks view (fully expanded) is shown above with an example note 'eggs.md' open. You can see one link and 3 link candidates shown in the panel.</p>
+</blockquote>
+<h3 id="accessing-the-backlinks-view"><a aria-hidden="true" class="anchor-heading" href="#accessing-the-backlinks-view"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Accessing the Backlinks view</h3>
+<p>The Backlinks view is located in the Explorer side bar.</p>
+<p>You can focus on the Backlinks view by:</p>
+<ul>
+<li>using the <code>Explorer: Focus on Backlinks View</code> command, or</li>
+<li>clicking on the Explorer icon in the VSCode Activity Bar and navigating to the Backlinks view at the bottom.</li>
+</ul>
+<p><code>Candidates</code> feature is currently disabled by default. In order to enable link candidates, add the following configuration in <code>dendron.yml</code>:</p>
+<pre class="language-yaml"><code class="language-yaml"><span class="token key atrule">dev</span><span class="token punctuation">:</span>
+  <span class="token key atrule">enableLinkCandidates</span><span class="token punctuation">:</span> <span class="token boolean important">true</span>
+</code></pre>
+<h3 id="common-components"><a aria-hidden="true" class="anchor-heading" href="#common-components"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Common components</h3>
+<p>The view is structured to display information about backlinks as a tree.</p>
+<p>When you first open the Backlinks view, you will be able to see a list of different notes. These are notes that have at least one backlink to the current note.</p>
+<p>Each of the item in the list will have an arrow on the left. If you click on the arrow, the item will expand to display what type of backlinks are in that note.</p>
+<p>You will be able to see an item labeled <code>Linked</code> or <code>Candidates</code> depending on what type of backlinks that note has to the current note. See the sections below for more information on each item.</p>
+<p>If you click on an item anywhere other than the arrow, it will open that note in your editor.</p>
+<h4 id="linked-backlinks"><a aria-hidden="true" class="anchor-heading" href="#linked-backlinks"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Linked backlinks</h4>
+<p>If your current note has a linked backlink to it, you can see them in a subtree labeled <code>Linked</code> after expanding each source item.</p>
+<p>Each <code>Linked</code> backlink will have a label that contains the text that comes before the link to give you a rough context of how the link was used in that location.</p>
+<p>Clicking on a linked item will open the note that contains the link.</p>
+<h4 id="candidate-backlinks"><a aria-hidden="true" class="anchor-heading" href="#candidate-backlinks"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Candidate backlinks</h4>
+<p>If your current note has link candidates, you can see them in a subtree labeled <code>Candidates</code> after expanding each source item.</p>
+<p>Each <code>Candidate</code> backlink will have a label that contains the text that comes before the link candidate to give you a rough context of how it was used in that location.</p>
+<p>Clicking on a link candidate item will open the note that contains the candidate, and convert the link candidate into a wikilink, turning it into <code>Linked</code> backlink.)</p>
+<h2 id="dendron-calendar-view"><a aria-hidden="true" class="anchor-heading" href="#dendron-calendar-view"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Dendron Calendar View</h2>
+<p></p><p></p><div class="portal-container">
+<div class="portal-head">
+<div class="portal-backlink">
+<div class="portal-title">From <span class="portal-text-title">Web UI</span></div>
+<a href="https://wiki.dendron.so/notes/25287595-96bb-410b-ab46-eb9a26b0e259.html" class="portal-arrow">Go to text <span class="right-arrow">→</span></a>
+</div>
+</div>
+<div id="portal-parent-anchor" class="portal-parent" markdown="1">
+<div class="portal-parent-fader-top"></div>
+<div class="portal-parent-fader-bottom"></div><p>The Dendron Calendar View lets you view your daily journal in calendar form.</p>
+<!-- TODO: picture -->
+<p>The Dendron Calendar View has the following capabilities:</p>
+<ul>
+<li>
+<p>Clicking on a given day date will open the corresponding daily journal note</p>
+</li>
+<li>
+<p>Clicking on a given day without a daily journal note will create one</p>
+</li>
+<li>
+<p>Days without daily journal note are grayed out and days that contain an entry are displayed in white.</p>
+</li>
+<li>
+<p>Shows indicators in the form of dots (max 5) to reflect the word count of that entry. Each dot repesents 250 words.</p>
+</li>
+<li>
+<p>Switching between month/year view</p>
+</li>
+<li>
+<p>In a multi-vault workspace it shows the daily journal from the vault associated with the active note</p>
+</li>
+<li>
+<p>NOTE: the calendar view will only work if you have default <code>journal</code> settings in your <code>dendron.yml</code></p>
+<pre class="language-yml"><code class="language-yml"><span class="token key atrule">journal</span><span class="token punctuation">:</span>
+    <span class="token key atrule">dailyDomain</span><span class="token punctuation">:</span> daily
+    <span class="token key atrule">name</span><span class="token punctuation">:</span> journal
+    <span class="token key atrule">dateFormat</span><span class="token punctuation">:</span> y.MM.dd
+    <span class="token key atrule">addBehavior</span><span class="token punctuation">:</span> childOfDomain
+</code></pre>
+</li>
+</ul></div></div><p></p><p></p>
+<h2 id="contextual-ui"><a aria-hidden="true" class="anchor-heading" href="#contextual-ui"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Contextual UI</h2>
+<p>Dendron has a number of built-in commands to the VSCode workbench environment. Right clicking a file will allow for the option to run Dendron specific commands over it. The details of this feature are discussed in depth <a href="https://wiki.dendron.so/notes/VellOqHuzrUyzrWc0ajvg.html">here</a>.</p>
+<h2 id="working-with-multiple-columns"><a aria-hidden="true" class="anchor-heading" href="#working-with-multiple-columns"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Working with Multiple Columns</h2>
+<p>VSCode lets you create multiple columns of your editor and arrange them any way you want them.</p>
+<p><img src="https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/workbench.windows.gif"></p>
+<h3 id="expanding-the-current-editor"><a aria-hidden="true" class="anchor-heading" href="#expanding-the-current-editor"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Expanding the Current Editor</h3>
+<p>You can use the <code>toggleEditorWidth</code> command with a hotkey to quickly expand the current editor.</p>
+<pre class="language-json"><code class="language-json"><span class="token punctuation">{</span>
+    <span class="token property">"command"</span><span class="token operator">:</span> <span class="token string">"workbench.action.toggleEditorWidths"</span><span class="token punctuation">,</span>
+    <span class="token property">"key"</span><span class="token operator">:</span> <span class="token string">"ctrl+cmd+m"</span>
+<span class="token punctuation">}</span>
+</code></pre>
+<p><img src="https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/workbench.toggle-editor.gif"></p>
+<!-- TODO
+
+### Zen Mode
+
+### Useful Shortcuts
+-->
+<hr>
+<h2 id="backlinks"><a aria-hidden="true" class="anchor-heading" href="#backlinks"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Backlinks</h2>
+<ul>
+<li><a href="https://wiki.dendron.so/notes/683740e3-70ce-4a47-a1f4-1f140e80b558.html">FAQ</a></li>
+<li><a href="https://wiki.dendron.so/notes/a6c03f9b-8959-4d67-8394-4d204ab69bfe.html">Troubleshooting</a></li>
+<li><a href="https://wiki.dendron.so/notes/25287595-96bb-410b-ab46-eb9a26b0e259.html">Web UI</a></li>
+<li><a href="https://wiki.dendron.so/notes/sRnuoGUdVgwyFyJBWPRo7.html">Release Notes (version 0.61)</a></li>
+<li><a href="https://wiki.dendron.so/notes/3472226a-ff3c-432d-bf5d-10926f39f6c2.html">Links</a></li>
+<li><a href="https://wiki.dendron.so/notes/8bc9b3f1-8508-4d3a-a2de-be9f12ef1821.html">Tags</a></li>
+<li><a href="https://wiki.dendron.so/notes/2fe96d3a-dcf9-409b-8a09-fdaa5a664433.html">Features</a></li>
+</ul><span id="navId" data="f7ebd4aa-8ba7-4bc5-bd00-a1efc5315f07"></span>
+
+                
+      </section>
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+        <div class="thumbs feedback_trigger right-bottom"></div>
+
+        
+          <hr>
+          <footer>
+            
+            
+
+            
+              <div class="d-flex mt-2">
+              <p class="text-small text-grey-dk-000 mb-0 mr-2">
+                Page last modified: <span class="d-inline-block">9/28/2021</span>.
+              </p>
+            
+                
+                  <p class="text-small text-grey-dk-000 mb-0">
+                    <a href="https://github.com/dendronhq/dendron-site/edit/master/vault/dendron.topic.workbench.md" id="edit-this-page">Edit this page on GitHub</a>
+                  </p>
+                
+              </div>
+          </footer>
+        
+    </div>
+</div>
+
+
+  
+
+  <div class="search-overlay"></div>
+
+</div>
+
+</body>
+</html>

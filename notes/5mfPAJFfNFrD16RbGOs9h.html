@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+  
+  <title>RFC 23: Consolidate Configurations - Dendron</title>
+  
+
+  <link
+    rel="shortcut icon"
+    href="https://wiki.dendron.so/favicon.ico"
+    type="image/x-icon"
+  />
+  <link
+    rel="stylesheet"
+    href="https://wiki.dendron.so/assets/css/just-the-docs-default.css"
+  />
+  <script
+    type="text/javascript"
+    src="https://wiki.dendron.so/assets/js/just-the-docs.js"
+  ></script>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.22.0/themes/prism.min.css"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css"
+    integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X"
+    crossorigin="anonymous"
+  />
+  <script
+    type="text/javascript"
+    src="https://wiki.dendron.so/assets/js/vendor/lunr.min.js"
+  ></script>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+   
+   
+  
+<meta name="description" content="Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.">
+<meta name="author" content="dendronhq">
+
+<link rel="canonical" href="https://wiki.dendron.so/notes/5mfPAJFfNFrD16RbGOs9h.html">
+
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://wiki.dendron.so/notes/5mfPAJFfNFrD16RbGOs9h.html">
+<meta property="og:description" content="Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.">
+<meta property="og:image" content="https://wiki.dendron.so/logo.png">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@dendronhq">
+<meta name="twitter:url" content="https://wiki.dendron.so/notes/5mfPAJFfNFrD16RbGOs9h.html">
+<meta name="twitter:description" content="Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.">
+<meta name="twitter:image" content="https://wiki.dendron.so/logo.png">
+
+
+  <meta property="og:title" content="RFC 23: Consolidate Configurations - Dendron" />
+  <meta name="twitter:title" content="RFC 23: Consolidate Configurations - Dendron" />
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-B0JN2HHCNY"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-B0JN2HHCNY');
+  </script>
+  
+</head>
+
+
+
+<body>
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+      <symbol id="svg-link" viewBox="0 0 24 24">
+        <title>Link</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-link">
+          <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+        </svg>
+      </symbol>
+      <symbol id="svg-search" viewBox="0 0 24 24">
+        <title>Search</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search">
+          <circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+      </symbol>
+      <symbol id="svg-menu" viewBox="0 0 24 24">
+        <title>Menu</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu">
+          <line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+      </symbol>
+      <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+        <title>Expand</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+          <polyline points="9 18 15 12 9 6"></polyline>
+        </svg>
+      </symbol>
+      <symbol id="svg-doc" viewBox="0 0 24 24">
+        <title>Document</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file">
+          <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path><polyline points="13 2 13 9 20 9"></polyline>
+        </svg>
+      </symbol>
+    </svg>
+
+    <div class="side-bar">
+      <div class="site-header">
+        <a href="https://wiki.dendron.so" class="site-title lh-tight">
+  <div class="site-logo"></div>
+
+ </a>
+        <a href="#" id="menu-button" class="site-button">
+          <svg viewBox="0 0 24 24" class="icon"><use xlink:href="#svg-menu"></use></svg>
+        </a>
+      </div>
+
+      <nav role="navigation" aria-label="Main" id="site-nav" class="site-nav">
+      </nav>
+      <footer class="site-footer">
+        🌱 with 💕 using <a href="https://www.dendron.so/"> Dendron 🌲 </a>
+      </footer>
+    </div>
+    <div class="main" id="top">
+        <div id="main-header" class="main-header">
+          
+            <div class="search">
+              <div class="search-input-wrap">
+                <input type="text" id="search-input" class="search-input" tabindex="0" placeholder="Search Dendron" aria-label="Search Dendron" autocomplete="off">
+                <label for="search-input" class="search-label"><svg viewBox="0 0 24 24" class="search-icon"><use xlink:href="#svg-search"></use></svg></label>
+              </div>
+              <div id="search-results" class="search-results"></div>
+            </div>
+          
+          
+    </div>
+    <div id="main-content-wrap" class="main-content-wrap">
+      
+        
+          <nav aria-label="Breadcrumb" class="breadcrumb-nav">
+            <ol class="breadcrumb-nav-list"><li class="breadcrumb-nav-list-item"><a href="https://wiki.dendron.so">Dendron</a></li><li class="breadcrumb-nav-list-item"><a href="https://wiki.dendron.so/notes/f143ca38-dcc6-4cd3-b84b-997aec1160ef.html">Rfc</a></li><li class="breadcrumb-nav-list-item">RFC 23: Consolidate Configurations</li></ol>
+          </nav>
+        
+      
+      <div id="main-content" class="main-content" role="main">
+
+        
+        
+        <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+        <script>mermaid.initialize({startOnLoad:true});</script>
+        
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+        
+        
+
+        
+
+        
+
+        
+
+        <script>
+          $(function () {
+            $('[data-toggle="popover"]').popover({html: true})
+          })
+        </script>
+
+        
+
+<div id="main" role="main">
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="RFC 23: Consolidate Configurations">
+    
+    <meta itemprop="datePublished" content="2021-09-01T04:59:27+00:00">
+    <meta itemprop="dateModified" content="2021-09-03T12:20:54+00:00">
+
+    <div class="page__inner-wrap">
+
+      
+
+      <section class="page__content" itemprop="text">
+
+        
+
+        <h1 id="rfc-23-consolidate-configurations"><a aria-hidden="true" class="anchor-heading" href="#rfc-23-consolidate-configurations"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>RFC 23: Consolidate Configurations</h1>
+<h2 id="goals"><a aria-hidden="true" class="anchor-heading" href="#goals"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Goals</h2>
+<ul>
+<li>Organize and consolidate Dendron configurations into one place.</li>
+<li>Define sensible structure of configuration and create logical namespaces.</li>
+<li>Provide an easy way to view and edit configurations.</li>
+<li>Migrate old configuration to newly proposed structure.</li>
+<li>Update all relevant documentations for configuration.</li>
+</ul>
+<h2 id="context"><a aria-hidden="true" class="anchor-heading" href="#context"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Context</h2>
+<ul>
+<li>Dendron has amassed a lot of new features recently, and it is becoming harder to keep track of configurable behaviors of these features.</li>
+<li>This complicates both the end user's experience and the process of introducing new configurations and modifying existing configurations.</li>
+</ul>
+<h2 id="proposal"><a aria-hidden="true" class="anchor-heading" href="#proposal"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Proposal</h2>
+<ul>
+<li>Consolidate configurations divided in <code>dendron.yml</code> and <code>dendron.code-workspace</code> so that it only exists in one place.</li>
+<li>Organize the structure of these configurations so that they are logically grouped.</li>
+<li>Set a guideline for contributing new configurable behavior to Dendron so that the implementation and user experience is consistent in the future.</li>
+</ul>
+<h2 id="execution-plans"><a aria-hidden="true" class="anchor-heading" href="#execution-plans"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Execution plans</h2>
+<ul>
+<li>This shall be done in multiple phases:</li>
+</ul>
+<h3 id="phase-i"><a aria-hidden="true" class="anchor-heading" href="#phase-i"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Phase I</h3>
+<ul>
+<li>Introduce new configuration structure while keeping backwards compatibility
+<ul>
+<li>In this phase, the existing configuration shall remain untouched, while a newly proposed structure is being implemented.</li>
+<li>Configurations that are planned to be deprecated will be notified during this phase.</li>
+<li>Configurations that are planned to be mapped to the new structure will be notified during this phase.</li>
+</ul>
+</li>
+</ul>
+<h3 id="phase-ii"><a aria-hidden="true" class="anchor-heading" href="#phase-ii"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Phase II</h3>
+<ul>
+<li>Migrate to the new configuration.
+<ul>
+<li>Old configurations will be automatically migrated to the new structure.</li>
+<li>All relevant documentations will be updated and announced.</li>
+</ul>
+</li>
+</ul>
+<h2 id="details"><a aria-hidden="true" class="anchor-heading" href="#details"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Details</h2>
+<h3 id="structure"><a aria-hidden="true" class="anchor-heading" href="#structure"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Structure</h3>
+<ol>
+<li>
+<p>Top level consists of only the groupings. It should not have single configurations.</p>
+</li>
+<li>
+<p>Top level is grouped by <em>areas certain features affect</em>.</p>
+<ul>
+<li>rationale:
+<ol>
+<li>Top level group should divide settings as roughly as possible in order to keep the top level namespace simple</li>
+<li><a href="https://wiki.dendron.so/notes/5mfPAJFfNFrD16RbGOs9h.html#^sULM0sgtghNt">This also makes it easily navigatable</a></li>
+</ol>
+<ul>
+<li>Alternative to this is grouping <em>features that affect certain areas</em>.
+<ul>
+<li>This makes the top level grouping very crowded and hard to navigate</li>
+<li>Some features do not affect multiple groups, leaving a lot of singles on the top level.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><a aria-hidden="true" class="block-anchor anchor-heading" id="^D9T8BEFdId1t" href="#^D9T8BEFdId1t"><svg viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Each configuration key should affect one behavior </p>
+<ul>
+<li>rationale:
+<ol>
+<li>Decoupling of configuration</li>
+<li>Clear cut expectation</li>
+</ol>
+</li>
+</ul>
+</li>
+<li>
+<p>If a setting affects multiple top level groups, they should be in each group rather than that setting being an object and having multiple keys to different groups.</p>
+<ul>
+<li>
+<p>rationale:</p>
+<ol>
+<li>We are grouping by <em>areas certain features affect</em>.</li>
+<li>Turning <em>certain features</em> into an object and giving them the <em>areas</em> as key is going against the initial grouping decision.</li>
+<li>This also forces us to pull out features that affect more than one area out of their namespaces, separating them from the group, adding complexity to the organization of the configuration.</li>
+</ol>
+</li>
+<li>
+<p>example:</p>
+<ul>
+<li>prefer:</li>
+</ul>
+<pre class="language-json"><code class="language-json">  publishing<span class="token operator">:</span> <span class="token punctuation">{</span>
+    ...
+    mermaid<span class="token operator">:</span> <span class="token boolean">true</span>
+    ...
+  <span class="token punctuation">}</span>
+
+  workspace<span class="token operator">:</span> <span class="token punctuation">{</span>
+    ...
+    mermaid<span class="token operator">:</span> <span class="token boolean">true</span>
+    ...
+  <span class="token punctuation">}</span>
+</code></pre>
+<ul>
+<li>avoid:</li>
+</ul>
+<pre class="language-json"><code class="language-json">    mermaid<span class="token operator">:</span> <span class="token punctuation">{</span>
+      publishing<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+      workspace<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+    <span class="token punctuation">}</span>
+</code></pre>
+</li>
+</ul>
+</li>
+<li>
+<p>Allow duplicates as long as they are in different groups. prefer this over pulling keys out of their namespaces and giving them the ability to affect multiple behavior</p>
+<ul>
+<li>
+<p>rationale:</p>
+<ol>
+<li><a href="https://wiki.dendron.so/notes/5mfPAJFfNFrD16RbGOs9h.html#^D9T8BEFdId1t">Each configuration key should affect one behavior</a></li>
+<li>Duplication is better than confusion</li>
+<li><a href="https://wiki.dendron.so/notes/5mfPAJFfNFrD16RbGOs9h.html#^qoJ9AQAmc7It">If we want to offer the ability to affect multiple behavior, this should be done agnostic to how the configuration is structured</a></li>
+</ol>
+</li>
+<li>
+<p>example:</p>
+<ul>
+<li>prefer</li>
+</ul>
+<pre class="language-json"><code class="language-json">  publishing<span class="token operator">:</span> <span class="token punctuation">{</span>
+    mermaid<span class="token operator">:</span> <span class="token boolean">true</span>
+  <span class="token punctuation">}</span>
+
+  workspace<span class="token operator">:</span> <span class="token punctuation">{</span>
+    mermaid<span class="token operator">:</span> <span class="token boolean">true</span>
+  <span class="token punctuation">}</span>
+</code></pre>
+<ul>
+<li>avoid</li>
+</ul>
+<pre class="language-json"><code class="language-json">  <span class="token comment">// enable mermaid diagram rendering for both workspace and publishing</span>
+  mermaid<span class="token operator">:</span> <span class="token boolean">true</span>
+</code></pre>
+</li>
+</ul>
+</li>
+</ol>
+<h3 id="presentation"><a aria-hidden="true" class="anchor-heading" href="#presentation"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Presentation</h3>
+<ol>
+<li><a aria-hidden="true" class="block-anchor anchor-heading" id="^sULM0sgtghNt" href="#^sULM0sgtghNt"><svg viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Selecting the top level group exposes all possible settings under this group 
+<ul>
+<li>Individual configurations should be reachable with the smallest clicks possible</li>
+<li>Also promotes avoiding implementation of features that does too much.</li>
+</ul>
+</li>
+<li>If there are duplicates in different groups, this should properly signalled to the user
+<ul>
+<li>by documentation, or</li>
+<li>by way of presenting them a clearly visible message that this behavior is also configurable in another area.</li>
+<li><a aria-hidden="true" class="block-anchor anchor-heading" id="^qoJ9AQAmc7It" href="#^qoJ9AQAmc7It"><svg viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>If a config that affects behavior in all possible groups is necessary, this should be done in a way that is agnostic to how the namespace is structure 
+<ul>
+<li>e.g.) as a convenience feature that is exposed to the end user</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>The configuration UI is a place where a user both <em>edits</em> and <em>views</em> configurations.
+<ul>
+<li>It is important that the experience is smooth for both scenarios</li>
+<li>editing:
+<ul>
+<li>Possible choices for configuration needs to be apparent at the time of editing</li>
+<li>Editing a configuration that can affect multiple areas should be intuitive
+<ul>
+<li>Idea: Filtering of configurations
+<ul>
+<li>e.g. Typing <code>mermaid</code> in the search bar displays <code>config.publishing.mermaid</code> and <code>config.workspace.mermaid</code></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>viewing:
+<ul>
+<li>When a user uses the configuration UI with the intent to view a certain group, every key in that group should be presented so that they could be identifiable at a glance.
+<ul>
+<li>Even if the groups are deeply nested, the UI should present them in a flat manner unless it generates clutter
+<ul>
+<li>Configurations should not be structured to be <em>too deep</em> in the first place in order to avoid this situation, and also promote a simpler/leaner implementation.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>The configuration should be presented in a way that is easily understandable.
+<ul>
+<li>Configuration keys are defined to be a string without any spaces. The naming is selected to be as clear as possible, but some could use a bit more descriptive labeling.</li>
+<li>While the documentation should be sufficient when it comes to fully explaining what every configuration does, it would be better if the way we present the configurations can give a good enough explanation to what it does.</li>
+<li>While keeping it backwards compatible, we can add descriptions and labels that are plain English sentences to enable this in the configuration UI.</li>
+<li>With the introduction of JSON schema validation, we can also present configurations in a more descriptive way. (i.e. Have the validator display descriptions.)</li>
+</ul>
+</li>
+</ol>
+<h3 id="cleanup"><a aria-hidden="true" class="anchor-heading" href="#cleanup"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Cleanup</h3>
+<h4 id="1-define-configurable-behaviors-in-the-most-common-package"><a aria-hidden="true" class="anchor-heading" href="#1-define-configurable-behaviors-in-the-most-common-package"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>1. Define configurable behaviors in the most common package.</h4>
+<ul>
+<li>Type / enum definitions of configurable behaviors should be defined where the configuration is defined, which is <code>common-all</code></li>
+<li>This is to reduce duplicate type / enum definitions at the place it is actually used (e.g. plugin-core).</li>
+</ul>
+<h5 id="example"><a aria-hidden="true" class="anchor-heading" href="#example"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>example</h5>
+<ul>
+<li><code>LookupSelectionType</code> should be defined in <code>common-all</code> and imported to <code>plugin-core</code>.</li>
+<li>As is, this is defined in both <code>common-all</code> and <code>plugin-core</code> as a duplicate.</li>
+</ul>
+<p>prefer:</p>
+<pre class="language-js"><code class="language-js">  <span class="token comment">// in common-all</span>
+  <span class="token keyword module">export</span> <span class="token keyword">enum</span> <span class="token maybe-class-name">LookupSelectionTypeEnum</span> <span class="token punctuation">{</span>
+    <span class="token string">"selectionExtract"</span> <span class="token operator">=</span> <span class="token string">"selectionExtract"</span><span class="token punctuation">,</span>
+    <span class="token string">"selection2link"</span> <span class="token operator">=</span> <span class="token string">"selection2link"</span><span class="token punctuation">,</span>
+    <span class="token string">"none"</span> <span class="token operator">=</span> <span class="token string">"none"</span>
+  <span class="token punctuation">}</span>
+</code></pre>
+<pre class="language-js"><code class="language-js">  <span class="token comment">// in plugin-core</span>
+  <span class="token keyword module">import</span> <span class="token imports"><span class="token punctuation">{</span> <span class="token maybe-class-name">LookupSelectionTypeEnum</span> <span class="token punctuation">}</span></span> <span class="token keyword module">from</span> <span class="token string">"@dendronhq/common-all"</span>
+
+  <span class="token comment">// this is equivalent to "selectionExtract" | "selection2link" | "none"</span>
+  type <span class="token maybe-class-name">LookupSelectionType</span> <span class="token operator">=</span> keyof <span class="token keyword">typeof</span> <span class="token maybe-class-name">LookupSelectionTypeEnum</span>
+</code></pre>
+<p>avoid:</p>
+<pre class="language-js"><code class="language-js">  <span class="token comment">// in common-all</span>
+  <span class="token keyword">enum</span> <span class="token maybe-class-name">LookupSelectionTypeEnum</span> <span class="token punctuation">{</span>
+    <span class="token string">"selectionExtract"</span> <span class="token operator">=</span> <span class="token string">"SelectionExtract"</span><span class="token punctuation">,</span>
+    <span class="token string">"selection2link"</span> <span class="token operator">=</span> <span class="token string">"selection2link"</span><span class="token punctuation">,</span>
+    <span class="token string">"none"</span> <span class="token operator">=</span> <span class="token string">"none"</span>
+  <span class="token punctuation">}</span> 
+</code></pre>
+<pre class="language-js"><code class="language-js">  <span class="token comment">// in plugin-core</span>
+
+  <span class="token comment">// duplicate definitions</span>
+  <span class="token keyword module">export</span> type <span class="token maybe-class-name">LookupSelectionType</span> <span class="token operator">=</span>
+    <span class="token string">"selection2link"</span> <span class="token operator">|</span> <span class="token string">"selectionExtract"</span> <span class="token operator">|</span> <span class="token string">"none"</span><span class="token punctuation">;</span>
+
+  <span class="token keyword module">export</span> <span class="token keyword">enum</span> <span class="token maybe-class-name">LookupSelectionTypeEnum</span> <span class="token punctuation">{</span>
+    <span class="token string">"selection2link"</span> <span class="token operator">=</span> <span class="token string">"selection2link"</span><span class="token punctuation">,</span>
+    <span class="token string">"selectionExtract"</span> <span class="token operator">=</span> <span class="token string">"selectionExtract"</span><span class="token punctuation">,</span>
+    <span class="token string">"none"</span> <span class="token operator">=</span> <span class="token string">"none"</span>
+  <span class="token punctuation">}</span>
+
+</code></pre>
+<h4 id="2-constant-initializing-string-literals-for-enums"><a aria-hidden="true" class="anchor-heading" href="#2-constant-initializing-string-literals-for-enums"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>2. Constant-initializing string literals for enums</h4>
+<ul>
+<li>Prefer initializing enums of possible choices to constant-initialized string literals over letting it implicitly initialize to a numeric enum and auto-increment.</li>
+<li>They will be used in <code>dendron.yml</code> and other places where users can pass it in as an argument (e.g. keybindings.json).</li>
+<li>Passing in <code>someConfig: "someChoice"</code> is more intuitive than <code>someConfig: 0</code></li>
+</ul>
+<h5 id="example-1"><a aria-hidden="true" class="anchor-heading" href="#example-1"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Example</h5>
+<p>prefer:</p>
+<pre class="language-js"><code class="language-js">  <span class="token keyword module">export</span> <span class="token keyword">enum</span> someModeForAMagicCommand <span class="token punctuation">{</span>
+    foo <span class="token operator">=</span> <span class="token string">"foo"</span><span class="token punctuation">,</span>
+    bar <span class="token operator">=</span> <span class="token string">"bar"</span><span class="token punctuation">,</span>
+    baz <span class="token operator">=</span> <span class="token string">"baz"</span><span class="token punctuation">,</span>
+  <span class="token punctuation">}</span>
+</code></pre>
+<pre class="language-json"><code class="language-json">  <span class="token comment">// in keybindings.json</span>
+  <span class="token punctuation">{</span>
+    <span class="token property">"command"</span><span class="token operator">:</span> <span class="token string">"dendron.magicCommand"</span><span class="token punctuation">,</span>
+    <span class="token property">"key"</span><span class="token operator">:</span> <span class="token string">"cmd+m"</span><span class="token punctuation">,</span>
+    <span class="token property">"args"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+      <span class="token property">"someModeForAMagicCommand"</span><span class="token operator">:</span> <span class="token string">"foo"</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span>
+</code></pre>
+<p>avoid:</p>
+<pre class="language-js"><code class="language-js">  <span class="token keyword module">export</span> <span class="token keyword">enum</span> someModeForAMagicCommand <span class="token punctuation">{</span>
+    foo<span class="token punctuation">,</span> <span class="token comment">// this will initialize to 0 and autoincrement</span>
+    bar<span class="token punctuation">,</span>
+    baz<span class="token punctuation">,</span>
+  <span class="token punctuation">}</span>
+</code></pre>
+<pre class="language-json"><code class="language-json">  <span class="token comment">// in keybindings.json</span>
+  <span class="token punctuation">{</span>
+    <span class="token property">"command"</span><span class="token operator">:</span> <span class="token string">"dendron.magicCommand"</span><span class="token punctuation">,</span>
+    <span class="token property">"key"</span><span class="token operator">:</span> <span class="token string">"cmd+m"</span><span class="token punctuation">,</span>
+    <span class="token property">"args"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+      <span class="token property">"someModeForAMagicCommand"</span><span class="token operator">:</span> <span class="token number">0</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span>
+</code></pre>
+<hr>
+<h2 id="backlinks"><a aria-hidden="true" class="anchor-heading" href="#backlinks"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Backlinks</h2>
+<ul>
+<li><a href="https://wiki.dendron.so/notes/aURuqCucZegsCpJSb5m90.html">Release Notes (version 0.59)</a></li>
+<li><a href="https://wiki.dendron.so/notes/7Y1f7gPmzhdLaepIfBvcj.html">Release Notes (version 0.63)</a></li>
+<li><a href="https://wiki.dendron.so/notes/5mfPAJFfNFrD16RbGOs9h.html">RFC 23: Consolidate Configurations</a></li>
+</ul><span id="navId" data="5mfPAJFfNFrD16RbGOs9h"></span>
+
+                
+      </section>
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+        <div class="thumbs feedback_trigger right-bottom"></div>
+
+        
+          <hr>
+          <footer>
+            
+            
+
+            
+              <div class="d-flex mt-2">
+              <p class="text-small text-grey-dk-000 mb-0 mr-2">
+                Page last modified: <span class="d-inline-block">9/3/2021</span>.
+              </p>
+            
+                
+                  <p class="text-small text-grey-dk-000 mb-0">
+                    <a href="https://github.com/dendronhq/dendron-site/edit/master/vault/dendron.rfc.23-config-consolidation.md" id="edit-this-page">Edit this page on GitHub</a>
+                  </p>
+                
+              </div>
+          </footer>
+        
+    </div>
+</div>
+
+
+  
+
+  <div class="search-overlay"></div>
+
+</div>
+
+</body>
+</html>

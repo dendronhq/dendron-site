@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+  
+  <title>Troubleshooting - Dendron</title>
+  
+
+  <link
+    rel="shortcut icon"
+    href="https://wiki.dendron.so/favicon.ico"
+    type="image/x-icon"
+  />
+  <link
+    rel="stylesheet"
+    href="https://wiki.dendron.so/assets/css/just-the-docs-default.css"
+  />
+  <script
+    type="text/javascript"
+    src="https://wiki.dendron.so/assets/js/just-the-docs.js"
+  ></script>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.22.0/themes/prism.min.css"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css"
+    integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X"
+    crossorigin="anonymous"
+  />
+  <script
+    type="text/javascript"
+    src="https://wiki.dendron.so/assets/js/vendor/lunr.min.js"
+  ></script>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+   
+   
+  
+<meta name="description" content="Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.">
+<meta name="author" content="dendronhq">
+
+<link rel="canonical" href="https://wiki.dendron.so/notes/a6c03f9b-8959-4d67-8394-4d204ab69bfe.html">
+
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://wiki.dendron.so/notes/a6c03f9b-8959-4d67-8394-4d204ab69bfe.html">
+<meta property="og:description" content="Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.">
+<meta property="og:image" content="https://wiki.dendron.so/logo.png">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@dendronhq">
+<meta name="twitter:url" content="https://wiki.dendron.so/notes/a6c03f9b-8959-4d67-8394-4d204ab69bfe.html">
+<meta name="twitter:description" content="Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.">
+<meta name="twitter:image" content="https://wiki.dendron.so/logo.png">
+
+
+  <meta property="og:title" content="Troubleshooting - Dendron" />
+  <meta name="twitter:title" content="Troubleshooting - Dendron" />
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-B0JN2HHCNY"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-B0JN2HHCNY');
+  </script>
+  
+</head>
+
+
+
+<body>
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+      <symbol id="svg-link" viewBox="0 0 24 24">
+        <title>Link</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-link">
+          <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+        </svg>
+      </symbol>
+      <symbol id="svg-search" viewBox="0 0 24 24">
+        <title>Search</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search">
+          <circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+      </symbol>
+      <symbol id="svg-menu" viewBox="0 0 24 24">
+        <title>Menu</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu">
+          <line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+      </symbol>
+      <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+        <title>Expand</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+          <polyline points="9 18 15 12 9 6"></polyline>
+        </svg>
+      </symbol>
+      <symbol id="svg-doc" viewBox="0 0 24 24">
+        <title>Document</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file">
+          <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path><polyline points="13 2 13 9 20 9"></polyline>
+        </svg>
+      </symbol>
+    </svg>
+
+    <div class="side-bar">
+      <div class="site-header">
+        <a href="https://wiki.dendron.so" class="site-title lh-tight">
+  <div class="site-logo"></div>
+
+ </a>
+        <a href="#" id="menu-button" class="site-button">
+          <svg viewBox="0 0 24 24" class="icon"><use xlink:href="#svg-menu"></use></svg>
+        </a>
+      </div>
+
+      <nav role="navigation" aria-label="Main" id="site-nav" class="site-nav">
+      </nav>
+      <footer class="site-footer">
+        🌱 with 💕 using <a href="https://www.dendron.so/"> Dendron 🌲 </a>
+      </footer>
+    </div>
+    <div class="main" id="top">
+        <div id="main-header" class="main-header">
+          
+            <div class="search">
+              <div class="search-input-wrap">
+                <input type="text" id="search-input" class="search-input" tabindex="0" placeholder="Search Dendron" aria-label="Search Dendron" autocomplete="off">
+                <label for="search-input" class="search-label"><svg viewBox="0 0 24 24" class="search-icon"><use xlink:href="#svg-search"></use></svg></label>
+              </div>
+              <div id="search-results" class="search-results"></div>
+            </div>
+          
+          
+    </div>
+    <div id="main-content-wrap" class="main-content-wrap">
+      
+        
+          <nav aria-label="Breadcrumb" class="breadcrumb-nav">
+            <ol class="breadcrumb-nav-list"><li class="breadcrumb-nav-list-item"><a href="https://wiki.dendron.so">Dendron</a></li><li class="breadcrumb-nav-list-item"><a href="https://wiki.dendron.so/notes/02c2d7b6-2ea2-4e15-9894-9dead50d5ca2.html">Guides</a></li><li class="breadcrumb-nav-list-item">Troubleshooting</li></ol>
+          </nav>
+        
+      
+      <div id="main-content" class="main-content" role="main">
+
+        
+        
+        <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+        <script>mermaid.initialize({startOnLoad:true});</script>
+        
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+        
+        
+
+        
+
+        
+
+        
+
+        <script>
+          $(function () {
+            $('[data-toggle="popover"]').popover({html: true})
+          })
+        </script>
+
+        
+
+<div id="main" role="main">
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Troubleshooting">
+    
+    <meta itemprop="datePublished" content="2020-07-28T16:08:25+00:00">
+    <meta itemprop="dateModified" content="2021-08-07T14:50:44+00:00">
+
+    <div class="page__inner-wrap">
+
+      
+
+      <section class="page__content" itemprop="text">
+
+        
+
+        <h1 id="troubleshooting"><a aria-hidden="true" class="anchor-heading" href="#troubleshooting"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Troubleshooting</h1>
+<h2 id="summary"><a aria-hidden="true" class="anchor-heading" href="#summary"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Summary</h2>
+<p>This goes over diagnosing issues in Dendron. Troubleshooting issues are grouped by feature area. </p>
+<!-- 
+## Diagnosing
+
+You can get a better idea of what went wrong by checking out the [[logs|dendron.guides.cook#checking-logs]]. At that point, you should be able to narrow down the root cause to one of the issues below. If not, please bring it up on the [discord](https://discord.gg/AE3NRw9) or file a [bug report](https://github.com/dendronhq/dendron/issues/new?assignees=&labels=&template=bug_report.md&title=)
+
+### Dendron-CLI
+
+Check the version numbers of your dependencies. You can get version numbers by running the following commands
+
+```sh
+npm info @dendronhq/dendron-cli
+``` -->
+<h2 id="plugin"><a aria-hidden="true" class="anchor-heading" href="#plugin"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Plugin</h2>
+<h3 id="dendron-is-stuck-on-loading"><a aria-hidden="true" class="anchor-heading" href="#dendron-is-stuck-on-loading"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Dendron is stuck on loading</h3>
+<ul>
+<li>fixes:
+<ul>
+<li><a href="https://wiki.dendron.so/notes/a6c03f9b-8959-4d67-8394-4d204ab69bfe.html#whitelisting-localhost">Whitelisting localhost</a></li>
+</ul>
+</li>
+</ul>
+<h3 id="engine-not-initialized"><a aria-hidden="true" class="anchor-heading" href="#engine-not-initialized"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Engine not Initialized</h3>
+<ul>
+<li>cause: 
+<ul>
+<li>
+<ol>
+<li>You are not running inside a workspace</li>
+</ol>
+</li>
+<li>
+<ol start="2">
+<li>Localhost is blocked</li>
+</ol>
+</li>
+</ul>
+</li>
+<li>diagnose
+<ul>
+<li>
+<ol>
+<li>See fix</li>
+</ol>
+</li>
+<li>
+<ol start="2">
+<li>Look for <code>ECONNREFUSED</code> in the <a href="https://wiki.dendron.so/notes/eea2b078-1acc-4071-a14e-18299fc28f47.html#dendrondev-open-logs">logs</a></li>
+</ol>
+</li>
+</ul>
+</li>
+<li>fix: 
+<ul>
+<li>
+<ol>
+<li><a href="https://wiki.dendron.so/notes/a6c03f9b-8959-4d67-8394-4d204ab69bfe.html#run-dendron-inside-a-workspace">Run Dendron inside a Workspace</a></li>
+</ol>
+</li>
+<li>
+<ol start="2">
+<li><a href="https://wiki.dendron.so/notes/a6c03f9b-8959-4d67-8394-4d204ab69bfe.html#whitelisting-localhost">Whitelisting localhost</a></li>
+</ol>
+</li>
+<li>
+<ol start="3">
+<li><a href="https://wiki.dendron.so/notes/a6c03f9b-8959-4d67-8394-4d204ab69bfe.html#whitelisting-localhost">Fixing a localhost issue with the Cloudflare WARP VPN</a></li>
+</ol>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="notes-from-the-graphtree-view-show-wrong-results"><a aria-hidden="true" class="anchor-heading" href="#notes-from-the-graphtree-view-show-wrong-results"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Notes from the graph/tree view show wrong results</h3>
+<ul>
+<li>cause: Views are out of sync</li>
+<li>fix: <a href="https://wiki.dendron.so/notes/a6c03f9b-8959-4d67-8394-4d204ab69bfe.html#reload-dendron">Reload Dendron</a></li>
+</ul>
+<h3 id="preview-not-rendering-correctly"><a aria-hidden="true" class="anchor-heading" href="#preview-not-rendering-correctly"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Preview not Rendering Correctly</h3>
+<ul>
+<li>causes: Using the built-in preview instead of the Dendron preview</li>
+<li>fixes: <a href="https://wiki.dendron.so/notes/a6c03f9b-8959-4d67-8394-4d204ab69bfe.html#use-dendron-markdown-preview">Use Dendron Markdown Preview</a></li>
+</ul>
+<h3 id="lookup-shortcut-is-not-working"><a aria-hidden="true" class="anchor-heading" href="#lookup-shortcut-is-not-working"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Lookup Shortcut is not working</h3>
+<ul>
+<li>causes:
+<ul>
+<li>you have the vim extension installed and its overriding the default dendron shortcut</li>
+</ul>
+</li>
+<li>fix: 
+<ol>
+<li>open command palette and run <code>Open Keyboard Shortcuts (JSON)</code></li>
+<li>add the following shortcut override</li>
+</ol>
+<ul>
+<li>NOTE: replace <code>cmd+l</code> with <code>ctrl+l</code> if you are on windows</li>
+</ul>
+<pre class="language-json"><code class="language-json"><span class="token punctuation">{</span>
+  <span class="token property">"key"</span><span class="token operator">:</span> <span class="token string">"cmd+l"</span><span class="token punctuation">,</span>
+  <span class="token property">"command"</span><span class="token operator">:</span> <span class="token string">"-expandLineSelection"</span><span class="token punctuation">,</span>
+  <span class="token property">"when"</span><span class="token operator">:</span> <span class="token string">"textInputFocus"</span>
+<span class="token punctuation">}</span>
+</code></pre>
+</li>
+</ul>
+<h3 id="cannot-read-property-name-of-undefined"><a aria-hidden="true" class="anchor-heading" href="#cannot-read-property-name-of-undefined"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Cannot read property 'name' of undefined</h3>
+<p>This is an issue with upgrading to 0.47.0. If you are encountering this, you'll want to copy the following into <code>dendron.yml</code></p>
+<pre class="language-yml"><code class="language-yml"><span class="token key atrule">journal</span><span class="token punctuation">:</span>
+    <span class="token key atrule">dailyDomain</span><span class="token punctuation">:</span> daily
+    <span class="token key atrule">name</span><span class="token punctuation">:</span> journal
+    <span class="token key atrule">dateFormat</span><span class="token punctuation">:</span> y.MM.dd
+    <span class="token key atrule">addBehavior</span><span class="token punctuation">:</span> childOfDomainNamespace
+    <span class="token key atrule">firstDayOfWeek</span><span class="token punctuation">:</span> <span class="token number">1</span>
+</code></pre>
+<h2 id="upgrading"><a aria-hidden="true" class="anchor-heading" href="#upgrading"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Upgrading</h2>
+<h3 id="error-upgrading"><a aria-hidden="true" class="anchor-heading" href="#error-upgrading"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Error upgrading</h3>
+<p><img src="https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/trouble.upgrade.png"></p>
+<p>Dendron will update keybindings/settings/etc to the latest defaults if not currently set on upgrade. If you see the above error, it means that Dendron had trouble parsing one of your settings files. This doesn't stop dendron from starting but it does mean that the latest settings aren't being applied.</p>
+<p>The most likely culprit of this error is a bad snippets file. To fix, bring up the command prompt, type <code>>Configure User Snippets</code>, open <code>dendron.code-snippets</code> and see if there's anything funky with the json on the line mentioned by the error. You can also use tools like <a href="https://jsonlint.com/">jsonlint</a> to validate your JSON.</p>
+<h2 id="schemas"><a aria-hidden="true" class="anchor-heading" href="#schemas"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Schemas</h2>
+<h3 id="im-getting-a-you-cannot-define-a-mapping-item-when-in-a-sequence-when-trying-to-define-a-schema"><a aria-hidden="true" class="anchor-heading" href="#im-getting-a-you-cannot-define-a-mapping-item-when-in-a-sequence-when-trying-to-define-a-schema"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>I'm getting a <code>you cannot define a mapping item when in a sequence</code> when trying to define a schema</h3>
+<p>That means there's an issue with your yaml. You can paste it in <a href="http://www.yamllint.com/">yaml lint</a> to check that you are using the correct yaml syntax. </p>
+<h3 id="schema-templates-arent-working"><a aria-hidden="true" class="anchor-heading" href="#schema-templates-arent-working"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Schema Templates aren't working</h3>
+<p>Schema templates are defined as YAML objects. The most common mistake is putting them down as a list</p>
+<p>For example, this is a valid schema.</p>
+<pre class="language-yml"><code class="language-yml"><span class="token punctuation">-</span> <span class="token key atrule">id</span><span class="token punctuation">:</span> journal
+  <span class="token key atrule">title</span><span class="token punctuation">:</span> journal
+  <span class="token key atrule">desc</span><span class="token punctuation">:</span> <span class="token string">""</span>
+  <span class="token key atrule">parent</span><span class="token punctuation">:</span> root
+  <span class="token key atrule">children</span><span class="token punctuation">:</span> 
+    <span class="token punctuation">-</span> daily
+<span class="token punctuation">-</span> <span class="token key atrule">id</span> <span class="token punctuation">:</span> daily
+  <span class="token key atrule">namespace</span><span class="token punctuation">:</span> <span class="token boolean important">true</span>
+  <span class="token key atrule">template</span><span class="token punctuation">:</span>
+    <span class="token key atrule">id</span><span class="token punctuation">:</span> journal.template.daily
+    <span class="token key atrule">type</span><span class="token punctuation">:</span> note
+</code></pre>
+<p>This is not a valid schema.</p>
+<pre class="language-yml"><code class="language-yml"><span class="token punctuation">-</span> <span class="token key atrule">id</span><span class="token punctuation">:</span> journal
+  <span class="token key atrule">title</span><span class="token punctuation">:</span> journal
+  <span class="token key atrule">desc</span><span class="token punctuation">:</span> <span class="token string">""</span>
+  <span class="token key atrule">parent</span><span class="token punctuation">:</span> root
+  <span class="token key atrule">children</span><span class="token punctuation">:</span> 
+    <span class="token punctuation">-</span> daily
+<span class="token punctuation">-</span> <span class="token key atrule">id</span> <span class="token punctuation">:</span> daily
+  <span class="token key atrule">namespace</span><span class="token punctuation">:</span> <span class="token boolean important">true</span>
+  <span class="token key atrule">template</span><span class="token punctuation">:</span>
+    <span class="token punctuation">-</span> <span class="token key atrule">id</span><span class="token punctuation">:</span> journal.template.daily
+      <span class="token key atrule">type</span><span class="token punctuation">:</span> note
+</code></pre>
+<h2 id="markdown-preview"><a aria-hidden="true" class="anchor-heading" href="#markdown-preview"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Markdown Preview</h2>
+<h3 id="why-cant-i-click-the-checkbox"><a aria-hidden="true" class="anchor-heading" href="#why-cant-i-click-the-checkbox"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Why can't I click the checkbox?</h3>
+<p>It could be that you are using the VSCode default markdown instead of Dendron's Markdown Preview. </p>
+<p></p><p></p><div class="portal-container">
+<div class="portal-head">
+<div class="portal-backlink">
+<div class="portal-title">From <span class="portal-text-title">Troubleshooting</span></div>
+<a href="https://wiki.dendron.so/notes/a6c03f9b-8959-4d67-8394-4d204ab69bfe.html" class="portal-arrow">Go to text <span class="right-arrow">→</span></a>
+</div>
+</div>
+<div id="portal-parent-anchor" class="portal-parent" markdown="1">
+<div class="portal-parent-fader-top"></div>
+<div class="portal-parent-fader-bottom"></div><p>Start anchor using-the-wrong-preview not found</p>
+</div></div><p></p><p></p>
+<h3 id="still-initializing--please-close-this-window-and-try-again-after-dendron-has-been-initialized"><a aria-hidden="true" class="anchor-heading" href="#still-initializing--please-close-this-window-and-try-again-after-dendron-has-been-initialized"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Still initializing.  Please close this window and try again after Dendron has been initialized.</h3>
+<p>When Dendron starts up, it initializes a local server which is responsible for indexing notes and fetching note metadata. Plugins like the preview depend on the server being initialized before activating. You'll know the server is initialized after you see a <code>Dendron is activated</code> notification.</p>
+<h3 id="get-the-logs"><a aria-hidden="true" class="anchor-heading" href="#get-the-logs"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Get the logs</h3>
+<p>Open the <a href="https://wiki.dendron.so/notes/f7ebd4aa-8ba7-4bc5-bd00-a1efc5315f07.html#output-view">output view</a> and use the dropdown menu to find the log titled <code>DENDRON</code>. </p>
+<h2 id="linux"><a aria-hidden="true" class="anchor-heading" href="#linux"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Linux</h2>
+<h3 id="reference-to-another-note-on-ubuntu"><a aria-hidden="true" class="anchor-heading" href="#reference-to-another-note-on-ubuntu"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Reference to Another Note on Ubuntu</h3>
+<p>If Ctrl+Shift+R (reference to another note) doesn't work on Ubuntu, do <code>sudo apt install xsel</code>.</p>
+<h2 id="publishing"><a aria-hidden="true" class="anchor-heading" href="#publishing"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Publishing</h2>
+<h3 id="cant-open-local-preview"><a aria-hidden="true" class="anchor-heading" href="#cant-open-local-preview"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Can't open local preview</h3>
+<p>Dendron runs the preview on port 8080. Make sure you don't have something already running there.</p>
+<ul>
+<li>windows</li>
+</ul>
+<pre class="language-powershell"><code class="language-powershell"><span class="token comment"># get ids of processes</span>
+<span class="token function">Get-Process</span> <span class="token operator">-</span>Id <span class="token punctuation">(</span><span class="token function">Get-NetTCPConnection</span> <span class="token operator">-</span>LocalPort 8080<span class="token punctuation">)</span><span class="token punctuation">.</span>OwningProcess
+
+<span class="token comment"># if you see any result, you can stop them using the following command</span>
+<span class="token function">Stop-process</span> <span class="token operator">-</span>Id <span class="token punctuation">{</span>IDS_FROM_ABOVE<span class="token punctuation">}</span>
+</code></pre>
+<ul>
+<li>linux</li>
+</ul>
+<pre class="language-bash"><code class="language-bash"><span class="token comment"># get ids</span>
+<span class="token function">lsof</span> -l -n -P -i tcp:8080 
+
+<span class="token comment"># kill</span>
+<span class="token function">kill</span> -9 <span class="token punctuation">{</span>IDS<span class="token punctuation">}</span>
+</code></pre>
+<h2 id="etc"><a aria-hidden="true" class="anchor-heading" href="#etc"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Etc</h2>
+<h3 id="error-spawn-git-enoent"><a aria-hidden="true" class="anchor-heading" href="#error-spawn-git-enoent"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Error: spawn git ENOENT</h3>
+<p>Check if you have git installed. You can find more details <a href="https://stackoverflow.com/questions/42545885/vs-code-error-spawn-git-enoent">here</a></p>
+<h3 id="clicking-on-the-link-creates-multiple-files"><a aria-hidden="true" class="anchor-heading" href="#clicking-on-the-link-creates-multiple-files"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Clicking on the link creates multiple files</h3>
+<p>This is likely due to other extensions that you have installed that provide conflicting definitions for <a href="https://wiki.dendron.so/notes/3472226a-ff3c-432d-bf5d-10926f39f6c2.html#wiki-links">wiki links</a>.</p>
+<p>The most likely culprits are <code>foam</code> or <code>markdown-notes</code>. Uninstalling them will fix this issue. </p>
+<p>You can see your installed </p>
+<h3 id="dendron-fails-to-initialize"><a aria-hidden="true" class="anchor-heading" href="#dendron-fails-to-initialize"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Dendron fails to initialize</h3>
+<ul>
+<li>check if you have a file with two consecutive dots: <code>eg. pro..foo.bar</code></li>
+</ul>
+<h3 id="multiple-vaults-with-the-same-name"><a aria-hidden="true" class="anchor-heading" href="#multiple-vaults-with-the-same-name"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Multiple Vaults with the same name</h3>
+<p>You will get this if you have multiple <a href="https://wiki.dendron.so/notes/f83c1d87-eac0-48f3-a5cf-8a69989d8ec1.html#vaults">vaults</a> that have the same name. This is an error with Dendron since Dendron requires all vault names be unique. You can fix this by removing the duplicate vaults or setting a unique <a href="https://wiki.dendron.so/notes/f83c1d87-eac0-48f3-a5cf-8a69989d8ec1.html#name">name</a> property for the vault.  </p>
+<h2 id="common-diagnostics"><a aria-hidden="true" class="anchor-heading" href="#common-diagnostics"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Common Diagnostics</h2>
+<h3 id="launch-a-new-workspace"><a aria-hidden="true" class="anchor-heading" href="#launch-a-new-workspace"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Launch a new workspace</h3>
+<p>To check if there is something wrong with Dendron vs your particular workspace setup, launch Dendron in a new workspace by running <a href="https://wiki.dendron.so/notes/eea2b078-1acc-4071-a14e-18299fc28f47.html#initialize-workspace">Initialize Workspace</a>. </p>
+<h2 id="common-fixes"><a aria-hidden="true" class="anchor-heading" href="#common-fixes"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Common Fixes</h2>
+<h3 id="uninstall-conflicting-extensions"><a aria-hidden="true" class="anchor-heading" href="#uninstall-conflicting-extensions"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Uninstall Conflicting Extensions</h3>
+<p>Markdown Notes, Markdown Preview Enhanced, and Markdown All in One are known to interfere with Dendron</p>
+<h3 id="reload-dendron"><a aria-hidden="true" class="anchor-heading" href="#reload-dendron"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Reload Dendron</h3>
+<p>Sometimes Dendron views can get out of sync with notes. To fix, run <code>Dendron: Reload Index</code> to manually sync. If that doesn't work, you can also try <code>Developer: Reload Window</code> to restart VSCode.</p>
+<h3 id="remove-notes-that-extend-from-root"><a aria-hidden="true" class="anchor-heading" href="#remove-notes-that-extend-from-root"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Remove notes that extend from root</h3>
+<p>We currently don't support creating children of <code>root.md</code> This note is special. While the contents can be edited, creating a hierarchy off root is not officially supported</p>
+<h3 id="run-dendron-inside-a-workspace"><a aria-hidden="true" class="anchor-heading" href="#run-dendron-inside-a-workspace"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Run Dendron inside a Workspace</h3>
+<p>Dendron requires a VSCode <a href="https://code.visualstudio.com/docs/editor/multi-root-workspaces#_opening-workspace-files">workspace file</a> to operate. Make sure to open the <strong>dendron.code-workspace</strong> file by following the instructions <a href="https://code.visualstudio.com/docs/editor/multi-root-workspaces#_opening-workspace-files">here</a></p>
+<p>You can have Dendron create one if you hold down "Cmd+Shift+P" (CTRL+SHIFT+P on windows) and use the <a href="https://wiki.dendron.so/notes/eea2b078-1acc-4071-a14e-18299fc28f47.html#launch-tutorial">Launch Tutorial Command</a></p>
+<h3 id="clear-the-cache"><a aria-hidden="true" class="anchor-heading" href="#clear-the-cache"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Clear the cache</h3>
+<p>Delete dendron <a href="https://wiki.dendron.so/notes/93022442-b49b-4510-b695-e10d8651ecfe.html#summary">cache</a> files.</p>
+<h3 id="whitelisting-localhost"><a aria-hidden="true" class="anchor-heading" href="#whitelisting-localhost"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Whitelisting localhost</h3>
+<p>Dendron starts a <a href="https://wiki.dendron.so/notes/c160ddce-edec-4f6e-841b-418d6030fa37.html#overview">local server</a> in the background and the plugin connects to it to index notes. Check that you don't have anything that is running or blocking localhost.  If you happen to have <a href="https://1.1.1.1">Cloudflare WARP VPN</a> on a Mac, then your localhost might be broken.  To fix that, open your terminal and run this command:</p>
+<pre class="language-zsh"><code class="language-zsh">sudo ifconfig lo0 -alias 192.0.2.2
+</code></pre>
+<p>You will unfortunately need to run this after every time you turn <em>off</em> the Cloudflare WARP VPN.  It is <strong>not</strong> Dendron's issue that this certain VPN breaks localhost.</p>
+<h3 id="correctly-format-the-note"><a aria-hidden="true" class="anchor-heading" href="#correctly-format-the-note"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Correctly Format the Note</h3>
+<p>Dendron can sometimes fail to load due to a malformed note. Common issues:</p>
+<ul>
+<li><a href="https://wiki.dendron.so/notes/ffec2853-c0e0-4165-a368-339db12c8e4b.html">Frontmatter</a> is missing</li>
+<li>frontmatter has no id</li>
+</ul>
+<h3 id="look-for-large-files"><a aria-hidden="true" class="anchor-heading" href="#look-for-large-files"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Look for large files</h3>
+<p>Dendron currently has trouble parsing notes larger than 1MB in size. Check if you have any notes like this and move them out of your workspace.</p>
+<h3 id="book-a-one-on-one"><a aria-hidden="true" class="anchor-heading" href="#book-a-one-on-one"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Book a one on one</h3>
+<p>If all else fails, schedule a diagnostic session. </p>
+<h2 id="send-a-support-request"><a aria-hidden="true" class="anchor-heading" href="#send-a-support-request"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Send a support request</h2>
+<p>If none of the troubleshooting methods work, you can ping kevin on Discord or submit a github issue.</p>
+<p>When doing either of these things, please include the following information:</p>
+<ul>
+<li><a href="https://wiki.dendron.so/notes/401c5889-20ae-4b3a-8468-269def4b4865.html#checking-logs">Plugin Logs</a></li>
+<li><a href="https://wiki.dendron.so/notes/401c5889-20ae-4b3a-8468-269def4b4865.html#server-logs">Server Logs</a></li>
+<li>Contents of your <a href="https://wiki.dendron.so/notes/26d66e84-6e4f-4688-bf6e-af070def7c38.html">workspace settings</a></li>
+<li>Contents of <a href="https://wiki.dendron.so/notes/eea2b078-1acc-4071-a14e-18299fc28f47.html#configure-yaml">dendron.yml</a></li>
+</ul>
+<hr>
+<h2 id="children"><a aria-hidden="true" class="anchor-heading" href="#children"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Children</h2>
+<ol>
+<li><a href="https://wiki.dendron.so/notes/o6fK2r9YLNTqd8w76hRrv.html">Archive</a></li>
+</ol>
+<hr>
+<h2 id="backlinks"><a aria-hidden="true" class="anchor-heading" href="#backlinks"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Backlinks</h2>
+<ul>
+<li><a href="https://wiki.dendron.so/notes/a6c03f9b-8959-4d67-8394-4d204ab69bfe.html">Troubleshooting</a></li>
+<li><a href="https://wiki.dendron.so/notes/ed4162aa-5474-4483-9fbc-c0b505310c59.html">0.1.X</a></li>
+</ul><span id="navId" data="a6c03f9b-8959-4d67-8394-4d204ab69bfe"></span>
+
+                
+      </section>
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+        <div class="thumbs feedback_trigger right-bottom"></div>
+
+        
+          <hr>
+          <footer>
+            
+            
+
+            
+              <div class="d-flex mt-2">
+              <p class="text-small text-grey-dk-000 mb-0 mr-2">
+                Page last modified: <span class="d-inline-block">8/7/2021</span>.
+              </p>
+            
+                
+                  <p class="text-small text-grey-dk-000 mb-0">
+                    <a href="https://github.com/dendronhq/dendron-site/edit/master/vault/dendron.guides.troubleshooting.md" id="edit-this-page">Edit this page on GitHub</a>
+                  </p>
+                
+              </div>
+          </footer>
+        
+    </div>
+</div>
+
+
+  
+
+  <div class="search-overlay"></div>
+
+</div>
+
+</body>
+</html>

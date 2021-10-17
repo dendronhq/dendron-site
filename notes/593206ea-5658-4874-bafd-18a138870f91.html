@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+  
+  <title>Todos - Dendron</title>
+  
+
+  <link
+    rel="shortcut icon"
+    href="https://wiki.dendron.so/favicon.ico"
+    type="image/x-icon"
+  />
+  <link
+    rel="stylesheet"
+    href="https://wiki.dendron.so/assets/css/just-the-docs-default.css"
+  />
+  <script
+    type="text/javascript"
+    src="https://wiki.dendron.so/assets/js/just-the-docs.js"
+  ></script>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.22.0/themes/prism.min.css"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css"
+    integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X"
+    crossorigin="anonymous"
+  />
+  <script
+    type="text/javascript"
+    src="https://wiki.dendron.so/assets/js/vendor/lunr.min.js"
+  ></script>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+   
+   
+  
+<meta name="description" content="Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.">
+<meta name="author" content="dendronhq">
+
+<link rel="canonical" href="https://wiki.dendron.so/notes/593206ea-5658-4874-bafd-18a138870f91.html">
+
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://wiki.dendron.so/notes/593206ea-5658-4874-bafd-18a138870f91.html">
+<meta property="og:description" content="Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.">
+<meta property="og:image" content="https://wiki.dendron.so/logo.png">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@dendronhq">
+<meta name="twitter:url" content="https://wiki.dendron.so/notes/593206ea-5658-4874-bafd-18a138870f91.html">
+<meta name="twitter:description" content="Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.">
+<meta name="twitter:image" content="https://wiki.dendron.so/logo.png">
+
+
+  <meta property="og:title" content="Todos - Dendron" />
+  <meta name="twitter:title" content="Todos - Dendron" />
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-B0JN2HHCNY"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-B0JN2HHCNY');
+  </script>
+  
+</head>
+
+
+
+<body>
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+      <symbol id="svg-link" viewBox="0 0 24 24">
+        <title>Link</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-link">
+          <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+        </svg>
+      </symbol>
+      <symbol id="svg-search" viewBox="0 0 24 24">
+        <title>Search</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search">
+          <circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+      </symbol>
+      <symbol id="svg-menu" viewBox="0 0 24 24">
+        <title>Menu</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu">
+          <line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+      </symbol>
+      <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+        <title>Expand</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+          <polyline points="9 18 15 12 9 6"></polyline>
+        </svg>
+      </symbol>
+      <symbol id="svg-doc" viewBox="0 0 24 24">
+        <title>Document</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file">
+          <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path><polyline points="13 2 13 9 20 9"></polyline>
+        </svg>
+      </symbol>
+    </svg>
+
+    <div class="side-bar">
+      <div class="site-header">
+        <a href="https://wiki.dendron.so" class="site-title lh-tight">
+  <div class="site-logo"></div>
+
+ </a>
+        <a href="#" id="menu-button" class="site-button">
+          <svg viewBox="0 0 24 24" class="icon"><use xlink:href="#svg-menu"></use></svg>
+        </a>
+      </div>
+
+      <nav role="navigation" aria-label="Main" id="site-nav" class="site-nav">
+      </nav>
+      <footer class="site-footer">
+        🌱 with 💕 using <a href="https://www.dendron.so/"> Dendron 🌲 </a>
+      </footer>
+    </div>
+    <div class="main" id="top">
+        <div id="main-header" class="main-header">
+          
+            <div class="search">
+              <div class="search-input-wrap">
+                <input type="text" id="search-input" class="search-input" tabindex="0" placeholder="Search Dendron" aria-label="Search Dendron" autocomplete="off">
+                <label for="search-input" class="search-label"><svg viewBox="0 0 24 24" class="search-icon"><use xlink:href="#svg-search"></use></svg></label>
+              </div>
+              <div id="search-results" class="search-results"></div>
+            </div>
+          
+          
+    </div>
+    <div id="main-content-wrap" class="main-content-wrap">
+      
+        
+          <nav aria-label="Breadcrumb" class="breadcrumb-nav">
+            <ol class="breadcrumb-nav-list"><li class="breadcrumb-nav-list-item"><a href="https://wiki.dendron.so">Dendron</a></li><li class="breadcrumb-nav-list-item"><a href="https://wiki.dendron.so/notes/9313b845-d9bf-42c9-aad1-0da34794ce26.html">Workflows</a></li><li class="breadcrumb-nav-list-item">Todos</li></ol>
+          </nav>
+        
+      
+      <div id="main-content" class="main-content" role="main">
+
+        
+        
+        <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+        <script>mermaid.initialize({startOnLoad:true});</script>
+        
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+        
+        
+
+        
+
+        
+
+        
+
+        <script>
+          $(function () {
+            $('[data-toggle="popover"]').popover({html: true})
+          })
+        </script>
+
+        
+
+<div id="main" role="main">
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Todos">
+    
+    <meta itemprop="datePublished" content="2020-08-04T18:42:13+00:00">
+    <meta itemprop="dateModified" content="2021-03-25T17:17:43+00:00">
+
+    <div class="page__inner-wrap">
+
+      
+
+      <section class="page__content" itemprop="text">
+
+        
+
+        <h1 id="todos"><a aria-hidden="true" class="anchor-heading" href="#todos"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Todos</h1>
+<h2 id="snippets"><a aria-hidden="true" class="anchor-heading" href="#snippets"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Snippets</h2>
+<p>The default dendron workspace comes with the <code>to</code> snippet that expands to <code>- [ ]</code>. You can use this to quickly create bulleted checkboxes. </p>
+<h2 id="interactive-checkboxes"><a aria-hidden="true" class="anchor-heading" href="#interactive-checkboxes"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Interactive Checkboxes</h2>
+<p>Markdown preview renders an empty checkbox for any line that starts with <code>- [ ]</code>. A checked checkbox is rendered for lines starting with <code>- [x]</code>. Clicking a checkbox changes its state in the markdown file.</p>
+<h2 id="general-workflows"><a aria-hidden="true" class="anchor-heading" href="#general-workflows"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>General Workflows</h2>
+<p>When working with todos sometimes you need more states than <code>unfinished|finished</code>. Below are three different workflows to delineate todo state. </p>
+<h3 id="inside-the-checkbox"><a aria-hidden="true" class="anchor-heading" href="#inside-the-checkbox"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Inside the Checkbox</h3>
+<ul>
+<li>put state in checkbox</li>
+<li>note that custom checkbox states such as <code>[w]</code> are displayed as plain text in markdown previews. Todo lists of this type look best in the editor.</li>
+</ul>
+<pre><code>- [ ] : not started
+- [w] : work in progress
+- [x] : done
+- [?] : feedback
+- [>] : postponed
+</code></pre>
+<h3 id="kanban-based"><a aria-hidden="true" class="anchor-heading" href="#kanban-based"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Kanban Based</h3>
+<ul>
+<li>put state in a header</li>
+</ul>
+<pre><code># wip
+- [ ] foo
+
+# pending
+- [ ] bar
+
+# done
+- [ ] baz
+</code></pre>
+<h3 id="tag-based"><a aria-hidden="true" class="anchor-heading" href="#tag-based"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Tag Based</h3>
+<ul>
+<li>put tags in todo items</li>
+</ul>
+<pre><code>- [ ] foo #wip
+- [ ] bar #feedback
+- [ ] baz
+</code></pre>
+<h2 id="reordering-tasks"><a aria-hidden="true" class="anchor-heading" href="#reordering-tasks"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Reordering tasks</h2>
+<p></p><p></p><div class="portal-container">
+<div class="portal-head">
+<div class="portal-backlink">
+<div class="portal-title">From <span class="portal-text-title">Tips</span></div>
+<a href="https://wiki.dendron.so/notes/692fa114-f798-467f-a0b9-3cccc327aa6f.html" class="portal-arrow">Go to text <span class="right-arrow">→</span></a>
+</div>
+</div>
+<div id="portal-parent-anchor" class="portal-parent" markdown="1">
+<div class="portal-parent-fader-top"></div>
+<div class="portal-parent-fader-bottom"></div><p>When working with lines, you can move entire lines at a time using <code>option-up|down</code> shortcut on mac. This is really helpful for prioritizing todos among other things ✅</p>
+<p><img src="https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/tips-move-lines.gif"></p>
+</div></div><p></p><p></p>
+<h2 id="kevins-workflow"><a aria-hidden="true" class="anchor-heading" href="#kevins-workflow"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Kevin's Workflow</h2>
+<p>This is a video of how Kevin manages todos in Dendron. It goes over the following:</p>
+<ul>
+<li>using <a href="https://wiki.dendron.so/notes/5c213aa6-e4ba-49e8-85c5-1bdcb33ce202.html">journal notes</a> to keep a daily todo list</li>
+<li>using <a href="https://wiki.dendron.so/notes/9eca1992-7540-4d9d-97fb-328b27748b2c.html">snippets</a> to create check boxes</li>
+<li>using <a href="https://wiki.dendron.so/notes/5c213aa6-e4ba-49e8-85c5-1bdcb33ce202.html">scratch notes</a> to create nested todos in new notes</li>
+<li>using <a href="https://code.visualstudio.com/updates/v1_47#_new-search-editor-command-arguments">search editor commands</a> to get an aggregration of all tasks in a given day</li>
+</ul>
+<a href="https://www.loom.com/share/88cfdc3e900a4f4eadf7b14429e01d65"> 
+<img style="" src="https://cdn.loom.com/sessions/thumbnails/88cfdc3e900a4f4eadf7b14429e01d65-with-play.gif"> 
+</a>
+<h4 id="example-of-a-daily-journal-note"><a aria-hidden="true" class="anchor-heading" href="#example-of-a-daily-journal-note"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Example of a daily journal note</h4>
+<ul>
+<li>fname: <code>daily.journal.2021.03.5</code></li>
+</ul>
+<pre class="language-md"><code class="language-md"><span class="token front-matter-block"><span class="token punctuation">---</span>
+<span class="token font-matter yaml language-yaml">id: f06dcdd8-9880-46c5-8e02-ca4d515f59b9
+title: '2021-03-25'
+desc: ''
+updated: 1616682579084
+created: 1616647136455</span>
+<span class="token punctuation">---</span></span>
+
+<span class="token title important"><span class="token punctuation">##</span> Tasks</span>
+<span class="token list punctuation">-</span> [ ] respond to missed discussions
+<span class="token list punctuation">-</span> [ ] file tasks from yesterday
+<span class="token list punctuation">-</span> [ ] file discussions
+<span class="token list punctuation">-</span> [ ] github issues
+<span class="token list punctuation">-</span> [ ] github pull request
+<span class="token list punctuation">-</span> [ ] update weekly release
+<span class="token list punctuation">-</span> [ ] commit all notes for the day
+
+<span class="token title important"><span class="token punctuation">###</span> New</span>
+<span class="token comment">&#x3C;!-- Any new tasks that come up during the day go here --></span>
+
+<span class="token title important"><span class="token punctuation">###</span> Current</span>
+<span class="token comment">&#x3C;!-- Long running tasks I'm focused on --></span>
+
+<span class="token title important"><span class="token punctuation">###</span> Today</span>
+<span class="token comment">&#x3C;!-- This is usually created the day before --></span>
+
+<span class="token comment">&#x3C;!-- A lot of bullets are scratch notes that have additional context inside the note --></span>
+<span class="token list punctuation">-</span> [[bob issue|scratch.2021.03.24.073330.tristan-issue]]
+<span class="token list punctuation">-</span> [[weekly bug bash|scratch.2021.03.24.072120.bugs]]
+<span class="token list punctuation">-</span> [[weekly performance improvements|scratch.2021.03.24.074210.perf]]
+<span class="token list punctuation">-</span> Performance improvements
+<span class="token list punctuation">-</span> Better Onboarding UX
+<span class="token list punctuation">-</span> Custom Markdown Preview
+
+<span class="token title important"><span class="token punctuation">###</span> Blocked</span>
+<span class="token comment">&#x3C;!-- Things that I run into blockers with--></span>
+
+<span class="token title important"><span class="token punctuation">###</span> Pending </span>
+<span class="token comment">&#x3C;!-- Features that are completed and pending deployment --></span>
+
+<span class="token title important"><span class="token punctuation">###</span> Done for Today</span>
+<span class="token comment">&#x3C;!-- Features that are not completed but will take multiple days to complete --></span>
+
+<span class="token title important"><span class="token punctuation">###</span> Done</span>
+<span class="token comment">&#x3C;!-- Stuff that I can leave here --></span>
+</code></pre>
+<h3 id="resources"><a aria-hidden="true" class="anchor-heading" href="#resources"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Resources</h3>
+<p>Below are some of the settings used in the above video</p>
+<ul>
+<li>non-default settings</li>
+</ul>
+<pre class="language-json"><code class="language-json"><span class="token property">"settings"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token property">"dendron.defaultJournalDateFormat"</span><span class="token operator">:</span> <span class="token string">"Y.MM.DD"</span><span class="token punctuation">,</span>
+    <span class="token property">"dendron.defaultScratchDateFormat"</span><span class="token operator">:</span> <span class="token string">"Y.MM.DD-HHmmss"</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span>
+</code></pre>
+<ul>
+<li>snippets used</li>
+</ul>
+<pre class="language-json"><code class="language-json">  <span class="token property">"todo"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token property">"prefix"</span><span class="token operator">:</span> <span class="token string">"to"</span><span class="token punctuation">,</span>
+    <span class="token property">"scope"</span><span class="token operator">:</span> <span class="token string">"markdown"</span><span class="token punctuation">,</span>
+    <span class="token property">"body"</span><span class="token operator">:</span> <span class="token string">"- [ ] "</span><span class="token punctuation">,</span>
+    <span class="token property">"description"</span><span class="token operator">:</span> <span class="token string">"todo box"</span>
+  <span class="token punctuation">}</span>
+</code></pre>
+<ul>
+<li>search editor command used</li>
+</ul>
+<pre class="language-json"><code class="language-json">  <span class="token punctuation">{</span>
+    <span class="token property">"key"</span><span class="token operator">:</span> <span class="token string">"ctrl+s t"</span><span class="token punctuation">,</span>
+    <span class="token property">"command"</span><span class="token operator">:</span> <span class="token string">"search.action.openNewEditor"</span><span class="token punctuation">,</span>
+    <span class="token property">"args"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+      <span class="token property">"query"</span><span class="token operator">:</span> <span class="token string">"## Tasks"</span><span class="token punctuation">,</span>
+      <span class="token property">"triggerSearch"</span><span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+      <span class="token property">"focusResults"</span><span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+      <span class="token property">"includes"</span><span class="token operator">:</span> <span class="token string">"*.journal.*"</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span>
+</code></pre>
+<h2 id="other-resources"><a aria-hidden="true" class="anchor-heading" href="#other-resources"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Other Resources</h2>
+<ul>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=PKief.markdown-checkbox">Markdown Checkbox Extension</a>: automatically check todos</li>
+</ul><span id="navId" data="593206ea-5658-4874-bafd-18a138870f91"></span>
+
+                
+      </section>
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+        <div class="thumbs feedback_trigger right-bottom"></div>
+
+        
+          <hr>
+          <footer>
+            
+            
+
+            
+              <div class="d-flex mt-2">
+              <p class="text-small text-grey-dk-000 mb-0 mr-2">
+                Page last modified: <span class="d-inline-block">3/25/2021</span>.
+              </p>
+            
+                
+                  <p class="text-small text-grey-dk-000 mb-0">
+                    <a href="https://github.com/dendronhq/dendron-site/edit/master/vault/dendron.workflows.todos.md" id="edit-this-page">Edit this page on GitHub</a>
+                  </p>
+                
+              </div>
+          </footer>
+        
+    </div>
+</div>
+
+
+  
+
+  <div class="search-overlay"></div>
+
+</div>
+
+</body>
+</html>

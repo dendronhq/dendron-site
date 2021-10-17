@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+  
+  <title>Utilities - Dendron</title>
+  
+
+  <link
+    rel="shortcut icon"
+    href="https://wiki.dendron.so/favicon.ico"
+    type="image/x-icon"
+  />
+  <link
+    rel="stylesheet"
+    href="https://wiki.dendron.so/assets/css/just-the-docs-default.css"
+  />
+  <script
+    type="text/javascript"
+    src="https://wiki.dendron.so/assets/js/just-the-docs.js"
+  ></script>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.22.0/themes/prism.min.css"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css"
+    integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X"
+    crossorigin="anonymous"
+  />
+  <script
+    type="text/javascript"
+    src="https://wiki.dendron.so/assets/js/vendor/lunr.min.js"
+  ></script>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+   
+   
+  
+<meta name="description" content="Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.">
+<meta name="author" content="dendronhq">
+
+<link rel="canonical" href="https://wiki.dendron.so/notes/33f8e460-99dc-49b3-baf3-cadb54e4853b.html">
+
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://wiki.dendron.so/notes/33f8e460-99dc-49b3-baf3-cadb54e4853b.html">
+<meta property="og:description" content="Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.">
+<meta property="og:image" content="https://wiki.dendron.so/logo.png">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@dendronhq">
+<meta name="twitter:url" content="https://wiki.dendron.so/notes/33f8e460-99dc-49b3-baf3-cadb54e4853b.html">
+<meta name="twitter:description" content="Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.">
+<meta name="twitter:image" content="https://wiki.dendron.so/logo.png">
+
+
+  <meta property="og:title" content="Utilities - Dendron" />
+  <meta name="twitter:title" content="Utilities - Dendron" />
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-B0JN2HHCNY"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-B0JN2HHCNY');
+  </script>
+  
+</head>
+
+
+
+<body>
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+      <symbol id="svg-link" viewBox="0 0 24 24">
+        <title>Link</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-link">
+          <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+        </svg>
+      </symbol>
+      <symbol id="svg-search" viewBox="0 0 24 24">
+        <title>Search</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search">
+          <circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+      </symbol>
+      <symbol id="svg-menu" viewBox="0 0 24 24">
+        <title>Menu</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu">
+          <line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+      </symbol>
+      <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+        <title>Expand</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+          <polyline points="9 18 15 12 9 6"></polyline>
+        </svg>
+      </symbol>
+      <symbol id="svg-doc" viewBox="0 0 24 24">
+        <title>Document</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file">
+          <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path><polyline points="13 2 13 9 20 9"></polyline>
+        </svg>
+      </symbol>
+    </svg>
+
+    <div class="side-bar">
+      <div class="site-header">
+        <a href="https://wiki.dendron.so" class="site-title lh-tight">
+  <div class="site-logo"></div>
+
+ </a>
+        <a href="#" id="menu-button" class="site-button">
+          <svg viewBox="0 0 24 24" class="icon"><use xlink:href="#svg-menu"></use></svg>
+        </a>
+      </div>
+
+      <nav role="navigation" aria-label="Main" id="site-nav" class="site-nav">
+      </nav>
+      <footer class="site-footer">
+        🌱 with 💕 using <a href="https://www.dendron.so/"> Dendron 🌲 </a>
+      </footer>
+    </div>
+    <div class="main" id="top">
+        <div id="main-header" class="main-header">
+          
+            <div class="search">
+              <div class="search-input-wrap">
+                <input type="text" id="search-input" class="search-input" tabindex="0" placeholder="Search Dendron" aria-label="Search Dendron" autocomplete="off">
+                <label for="search-input" class="search-label"><svg viewBox="0 0 24 24" class="search-icon"><use xlink:href="#svg-search"></use></svg></label>
+              </div>
+              <div id="search-results" class="search-results"></div>
+            </div>
+          
+          
+    </div>
+    <div id="main-content-wrap" class="main-content-wrap">
+      
+        
+          <nav aria-label="Breadcrumb" class="breadcrumb-nav">
+            <ol class="breadcrumb-nav-list"><li class="breadcrumb-nav-list-item"><a href="https://wiki.dendron.so/notes/32cdd4aa-d9f6-4582-8d0c-07f64a00299b.html">Packages</a></li><li class="breadcrumb-nav-list-item">Utilities</li></ol>
+          </nav>
+        
+      
+      <div id="main-content" class="main-content" role="main">
+
+        
+        
+        <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+        <script>mermaid.initialize({startOnLoad:true});</script>
+        
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+        
+        
+
+        
+
+        
+
+        
+
+        <script>
+          $(function () {
+            $('[data-toggle="popover"]').popover({html: true})
+          })
+        </script>
+
+        
+
+<div id="main" role="main">
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Utilities">
+    
+    <meta itemprop="datePublished" content="2021-04-22T21:59:16+00:00">
+    <meta itemprop="dateModified" content="2021-05-24T16:58:16+00:00">
+
+    <div class="page__inner-wrap">
+
+      
+
+      <section class="page__content" itemprop="text">
+
+        
+
+        <h1 id="utilities"><a aria-hidden="true" class="anchor-heading" href="#utilities"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Utilities</h1>
+<h2 id="summary"><a aria-hidden="true" class="anchor-heading" href="#summary"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Summary</h2>
+<p>This describes utilities modules. </p>
+<p>In general, the way to think about utilities is to add them to points where they can be most readily re-used. </p>
+<p>In order of precedence:</p>
+<pre><code>- [[pro.common-all]]
+- [[Common Server|pro.]]
+- [[Dendron Engine|pro.dendron-engine]]
+- [[Dendron Plugin|pro.dendron-plugin]]
+</code></pre>
+<ul>
+<li>Testing 
+<ul>
+<li><a href="https://wiki.dendron.so/notes/f041ed84-a842-4aed-93aa-cdf9e953826a.html">Engine Test Utils</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="by-library"><a aria-hidden="true" class="anchor-heading" href="#by-library"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>By Library</h2>
+<h3 id="common-all"><a aria-hidden="true" class="anchor-heading" href="#common-all"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Common-All</h3>
+<p></p><p></p><div class="portal-container">
+<div class="portal-head">
+<div class="portal-backlink">
+<div class="portal-title">From <span class="portal-text-title">Common All</span></div>
+<a href="https://wiki.dendron.so/notes/5c71637f-d08f-4ce5-8160-c5ab90254dee.html" class="portal-arrow">Go to text <span class="right-arrow">→</span></a>
+</div>
+</div>
+<div id="portal-parent-anchor" class="portal-parent" markdown="1">
+<div class="portal-parent-fader-top"></div>
+<div class="portal-parent-fader-bottom"></div><ul>
+<li>constants (eg. name of dendron.yml file, etc)</li>
+<li>time utilities</li>
+<li>helpers to work with vaults and notes</li>
+<li><a href="https://github.com/dendronhq/dendron/blob/master/packages/common-all/src/dnode.ts#L775:L775">note utilities</a></li>
+</ul>
+<h2 id="types"><a aria-hidden="true" class="anchor-heading" href="#types"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Types</h2>
+<ul>
+<li>Note Related Types
+<ul>
+<li>loc: <a href="https://github.com/dendronhq/dendron/blob/master/packages/common-all/src/types/foundation.ts#L63:L63">src/types/foundation.ts</a></li>
+</ul>
+</li>
+</ul>
+<h3 id="noteprops"><a aria-hidden="true" class="anchor-heading" href="#noteprops"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>NoteProps</h3>
+<p>This goes over all properties common to notes</p>
+<pre class="language-ts"><code class="language-ts"><span class="token keyword module">export</span> <span class="token keyword">type</span> <span class="token class-name"><span class="token maybe-class-name">DNodeProps</span><span class="token operator">&#x3C;</span><span class="token constant">T</span> <span class="token operator">=</span> <span class="token builtin">any</span><span class="token punctuation">,</span> <span class="token maybe-class-name">TCustom</span> <span class="token operator">=</span> <span class="token builtin">any</span><span class="token operator">></span></span> <span class="token operator">=</span> <span class="token punctuation">{</span>
+  <span class="token doc-comment comment">/**
+   * Unique id of a note
+   */</span>
+  id<span class="token operator">:</span> <span class="token builtin">string</span><span class="token punctuation">;</span>
+  <span class="token doc-comment comment">/**
+   * Node title
+   */</span>
+  title<span class="token operator">:</span> <span class="token builtin">string</span><span class="token punctuation">;</span>
+  <span class="token doc-comment comment">/**
+   * Node description
+   */</span>
+  desc<span class="token operator">:</span> <span class="token builtin">string</span><span class="token punctuation">;</span>
+  <span class="token doc-comment comment">/**
+   * Node links (eg. backlinks, wikilinks, etc)
+   */</span>
+  links<span class="token operator">:</span> <span class="token maybe-class-name">DLink</span><span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+  <span class="token doc-comment comment">/**
+   * Name of the node. This corresponds to the name of the file minus the extension
+   */</span>
+  fname<span class="token operator">:</span> <span class="token builtin">string</span><span class="token punctuation">;</span>
+  <span class="token doc-comment comment">/**
+   * Whether this node is a note or a schema
+   */</span>
+  type<span class="token operator">:</span> <span class="token maybe-class-name">DNodeType</span><span class="token punctuation">;</span>
+  <span class="token doc-comment comment">/**
+   * Last updated
+   */</span>
+  updated<span class="token operator">:</span> <span class="token builtin">number</span><span class="token punctuation">;</span>
+  <span class="token doc-comment comment">/**
+   * Created
+   */</span>
+  created<span class="token operator">:</span> <span class="token builtin">number</span><span class="token punctuation">;</span>
+  <span class="token doc-comment comment">/**
+   * Determines whether this node is a <span class="token punctuation">{</span><span class="token keyword">@link</span> stub https://wiki.dendron.so/notes/c6fd6bc4-7f75-4cbb-8f34-f7b99bfe2d50.html#stubs<span class="token punctuation">}</span>
+   */</span>
+  stub<span class="token operator">?</span><span class="token operator">:</span> <span class="token builtin">boolean</span><span class="token punctuation">;</span>
+  <span class="token doc-comment comment">/**
+   <span class="token keyword">@deprecated</span>
+   */</span>
+  schemaStub<span class="token operator">?</span><span class="token operator">:</span> <span class="token builtin">boolean</span><span class="token punctuation">;</span>
+  <span class="token doc-comment comment">/**
+   * Immediate parent
+   */</span>
+  parent<span class="token operator">:</span> <span class="token maybe-class-name">DNodePointer</span> <span class="token operator">|</span> <span class="token keyword null nil">null</span><span class="token punctuation">;</span>
+  <span class="token doc-comment comment">/**
+   * Immediate children
+   */</span>
+  children<span class="token operator">:</span> <span class="token maybe-class-name">DNodePointer</span><span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+  data<span class="token operator">:</span> <span class="token constant">T</span><span class="token punctuation">;</span>
+  <span class="token doc-comment comment">/**
+   * Body of the note
+   */</span>
+  body<span class="token operator">:</span> <span class="token builtin">string</span><span class="token punctuation">;</span>
+  <span class="token doc-comment comment">/**
+   * Custom frontmatter. Add additional fields here and they will show up in the note frontmatter
+   */</span>
+  custom<span class="token operator">?</span><span class="token operator">:</span> <span class="token maybe-class-name">TCustom</span><span class="token punctuation">;</span>
+  <span class="token doc-comment comment">/**
+   * Schemas that apply to the note
+   */</span>
+  schema<span class="token operator">?</span><span class="token operator">:</span> <span class="token punctuation">{</span> <span class="token keyword">module</span><span class="token maybe-class-name">Id</span><span class="token operator">:</span> <span class="token builtin">string</span><span class="token punctuation">;</span> schemaId<span class="token operator">:</span> <span class="token builtin">string</span> <span class="token punctuation">}</span><span class="token punctuation">;</span>
+  <span class="token doc-comment comment">/**
+   * The vault that a note belongs to
+   */</span>
+  vault<span class="token operator">:</span> <span class="token maybe-class-name">DVault</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+</code></pre></div></div><p></p><p></p>
+<h3 id="common-server"><a aria-hidden="true" class="anchor-heading" href="#common-server"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Common-Server</h3>
+<p></p><p></p><div class="portal-container">
+<div class="portal-head">
+<div class="portal-backlink">
+<div class="portal-title">From <span class="portal-text-title">Common Server</span></div>
+<a href="https://wiki.dendron.so/notes/4ee3b7ab-a633-44bb-a797-60dbd046cd30.html" class="portal-arrow">Go to text <span class="right-arrow">→</span></a>
+</div>
+</div>
+<div id="portal-parent-anchor" class="portal-parent" markdown="1">
+<div class="portal-parent-fader-top"></div>
+<div class="portal-parent-fader-bottom"></div><ul>
+<li>express.js related utilties
+<ul>
+<li>loc: <code>server</code></li>
+</ul>
+</li>
+<li>files
+<ul>
+<li>loc: <code>filesv2</code></li>
+</ul>
+</li>
+<li>logging
+<ul>
+<li>loc: <code>logger</code></li>
+</ul>
+</li>
+<li>os related stats
+<ul>
+<li>loc: <code>system</code></li>
+</ul>
+</li>
+<li>exports <a href="https://github.com/sindresorhus/execa">execa</a></li>
+</ul>
+</div></div><p></p><p></p>
+<h3 id="dendron-cli"><a aria-hidden="true" class="anchor-heading" href="#dendron-cli"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Dendron CLI</h3>
+<p></p><p></p><div class="portal-container">
+<div class="portal-head">
+<div class="portal-backlink">
+<div class="portal-title">From <span class="portal-text-title">Dendron CLI</span></div>
+<a href="https://wiki.dendron.so/notes/c968377f-56e5-470f-801e-c730a1c071d4.html" class="portal-arrow">Go to text <span class="right-arrow">→</span></a>
+</div>
+</div>
+<div id="portal-parent-anchor" class="portal-parent" markdown="1">
+<div class="portal-parent-fader-top"></div>
+<div class="portal-parent-fader-bottom"></div><h2 id="utilities-1"><a aria-hidden="true" class="anchor-heading" href="#utilities-1"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Utilities</h2>
+<ul>
+<li>exports <a href="https://www.npmjs.com/package/yargs">yargs</a></li>
+<li>exports <a href="https://github.com/sindresorhus/execa">execa</a></li>
+</ul>
+</div></div><p></p><p></p>
+<h3 id="engine"><a aria-hidden="true" class="anchor-heading" href="#engine"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Engine</h3>
+<p></p><p></p><div class="portal-container">
+<div class="portal-head">
+<div class="portal-backlink">
+<div class="portal-title">From <span class="portal-text-title">Dendron Engine</span></div>
+<a href="https://wiki.dendron.so/notes/5a7103be-eb92-4380-8207-598e9f10724c.html" class="portal-arrow">Go to text <span class="right-arrow">→</span></a>
+</div>
+</div>
+<div id="portal-parent-anchor" class="portal-parent" markdown="1">
+<div class="portal-parent-fader-top"></div>
+<div class="portal-parent-fader-bottom"></div><ul>
+<li>markdown parsing and remark related utilities
+<ul>
+<li>loc: <code>src/markdown*</code></li>
+</ul>
+</li>
+</ul>
+</div></div><p></p><p></p>
+<h3 id="plugin"><a aria-hidden="true" class="anchor-heading" href="#plugin"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Plugin</h3>
+<p></p><p></p><div class="portal-container">
+<div class="portal-head">
+<div class="portal-backlink">
+<div class="portal-title">From <span class="portal-text-title">Plugin Core</span></div>
+<a href="https://wiki.dendron.so/notes/87d90002-f480-45eb-a8c4-d00df4d61557.html" class="portal-arrow">Go to text <span class="right-arrow">→</span></a>
+</div>
+</div>
+<div id="portal-parent-anchor" class="portal-parent" markdown="1">
+<div class="portal-parent-fader-top"></div>
+<div class="portal-parent-fader-bottom"></div><ul>
+<li>VSCode specific utilities
+<ul>
+<li>loc: <code>src/utils.ts</code></li>
+</ul>
+</li>
+<li>VSCode Editor
+<ul>
+<li>loc: <code>src/utils/editor.ts</code></li>
+</ul>
+</li>
+</ul>
+</div></div><p></p><p></p>
+<h3 id="engine-test-utils"><a aria-hidden="true" class="anchor-heading" href="#engine-test-utils"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Engine Test Utils</h3>
+<p></p><p></p><div class="portal-container">
+<div class="portal-head">
+<div class="portal-backlink">
+<div class="portal-title">From <span class="portal-text-title">Engine Test Utils</span></div>
+<a href="https://wiki.dendron.so/notes/f041ed84-a842-4aed-93aa-cdf9e953826a.html" class="portal-arrow">Go to text <span class="right-arrow">→</span></a>
+</div>
+</div>
+<div id="portal-parent-anchor" class="portal-parent" markdown="1">
+<div class="portal-parent-fader-top"></div>
+<div class="portal-parent-fader-bottom"></div><ul>
+<li>helpers for mocking <code>dendron.yml</code>
+<ul>
+<li>loc: src/config.ts</li>
+</ul>
+</li>
+</ul>
+</div></div><p></p><p></p>
+<h2 id="git-utils"><a aria-hidden="true" class="anchor-heading" href="#git-utils"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Git Utils</h2>
+<ul>
+<li>
+<p>NOTE: git support is a wrapper around the native <code>git</code> installation. we assume a minimal version of <code>2.20</code>. when adding new functionality, make sure that it is available in git 2.20</p>
+</li>
+<li>
+<p>engine-server:src/topics/git.ts</p>
+</li>
+<li>
+<p>common-server:src/git.ts</p>
+</li>
+</ul><span id="navId" data="33f8e460-99dc-49b3-baf3-cadb54e4853b"></span>
+
+                
+      </section>
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+        <div class="thumbs feedback_trigger right-bottom"></div>
+
+        
+          <hr>
+          <footer>
+            
+            
+
+            
+              <div class="d-flex mt-2">
+              <p class="text-small text-grey-dk-000 mb-0 mr-2">
+                Page last modified: <span class="d-inline-block">5/24/2021</span>.
+              </p>
+            
+                
+                  <p class="text-small text-grey-dk-000 mb-0">
+                    <a href="https://github.com/dendronhq/dendron-site/edit/master/vault/pkg.utilities.md" id="edit-this-page">Edit this page on GitHub</a>
+                  </p>
+                
+              </div>
+          </footer>
+        
+    </div>
+</div>
+
+
+  
+
+  <div class="search-overlay"></div>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+  
+  <title>Markdown - Dendron</title>
+  
+
+  <link
+    rel="shortcut icon"
+    href="https://wiki.dendron.so/favicon.ico"
+    type="image/x-icon"
+  />
+  <link
+    rel="stylesheet"
+    href="https://wiki.dendron.so/assets/css/just-the-docs-default.css"
+  />
+  <script
+    type="text/javascript"
+    src="https://wiki.dendron.so/assets/js/just-the-docs.js"
+  ></script>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.22.0/themes/prism.min.css"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css"
+    integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X"
+    crossorigin="anonymous"
+  />
+  <script
+    type="text/javascript"
+    src="https://wiki.dendron.so/assets/js/vendor/lunr.min.js"
+  ></script>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+   
+   
+  
+<meta name="description" content="Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.">
+<meta name="author" content="dendronhq">
+
+<link rel="canonical" href="https://wiki.dendron.so/notes/ba97866b-889f-4ac6-86e7-bb2d97f6e376.html">
+
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://wiki.dendron.so/notes/ba97866b-889f-4ac6-86e7-bb2d97f6e376.html">
+<meta property="og:description" content="Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.">
+<meta property="og:image" content="https://wiki.dendron.so/logo.png">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@dendronhq">
+<meta name="twitter:url" content="https://wiki.dendron.so/notes/ba97866b-889f-4ac6-86e7-bb2d97f6e376.html">
+<meta name="twitter:description" content="Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.">
+<meta name="twitter:image" content="https://wiki.dendron.so/logo.png">
+
+
+  <meta property="og:title" content="Markdown - Dendron" />
+  <meta name="twitter:title" content="Markdown - Dendron" />
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-B0JN2HHCNY"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-B0JN2HHCNY');
+  </script>
+  
+</head>
+
+
+
+<body>
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+      <symbol id="svg-link" viewBox="0 0 24 24">
+        <title>Link</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-link">
+          <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+        </svg>
+      </symbol>
+      <symbol id="svg-search" viewBox="0 0 24 24">
+        <title>Search</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search">
+          <circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+      </symbol>
+      <symbol id="svg-menu" viewBox="0 0 24 24">
+        <title>Menu</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu">
+          <line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+      </symbol>
+      <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+        <title>Expand</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+          <polyline points="9 18 15 12 9 6"></polyline>
+        </svg>
+      </symbol>
+      <symbol id="svg-doc" viewBox="0 0 24 24">
+        <title>Document</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file">
+          <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path><polyline points="13 2 13 9 20 9"></polyline>
+        </svg>
+      </symbol>
+    </svg>
+
+    <div class="side-bar">
+      <div class="site-header">
+        <a href="https://wiki.dendron.so" class="site-title lh-tight">
+  <div class="site-logo"></div>
+
+ </a>
+        <a href="#" id="menu-button" class="site-button">
+          <svg viewBox="0 0 24 24" class="icon"><use xlink:href="#svg-menu"></use></svg>
+        </a>
+      </div>
+
+      <nav role="navigation" aria-label="Main" id="site-nav" class="site-nav">
+      </nav>
+      <footer class="site-footer">
+        🌱 with 💕 using <a href="https://www.dendron.so/"> Dendron 🌲 </a>
+      </footer>
+    </div>
+    <div class="main" id="top">
+        <div id="main-header" class="main-header">
+          
+            <div class="search">
+              <div class="search-input-wrap">
+                <input type="text" id="search-input" class="search-input" tabindex="0" placeholder="Search Dendron" aria-label="Search Dendron" autocomplete="off">
+                <label for="search-input" class="search-label"><svg viewBox="0 0 24 24" class="search-icon"><use xlink:href="#svg-search"></use></svg></label>
+              </div>
+              <div id="search-results" class="search-results"></div>
+            </div>
+          
+          
+    </div>
+    <div id="main-content-wrap" class="main-content-wrap">
+      
+        
+          <nav aria-label="Breadcrumb" class="breadcrumb-nav">
+            <ol class="breadcrumb-nav-list"><li class="breadcrumb-nav-list-item"><a href="https://wiki.dendron.so">Dendron</a></li><li class="breadcrumb-nav-list-item"><a href="https://wiki.dendron.so/notes/7a7af2fa-b9d0-4adc-81e6-f03186123539.html">Topics</a></li><li class="breadcrumb-nav-list-item">Markdown</li></ol>
+          </nav>
+        
+      
+      <div id="main-content" class="main-content" role="main">
+
+        
+        
+        <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+        <script>mermaid.initialize({startOnLoad:true});</script>
+        
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+        
+        
+
+        
+
+        
+
+        
+
+        <script>
+          $(function () {
+            $('[data-toggle="popover"]').popover({html: true})
+          })
+        </script>
+
+        
+
+<div id="main" role="main">
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Markdown">
+    
+    <meta itemprop="datePublished" content="2020-08-29T03:51:50+00:00">
+    <meta itemprop="dateModified" content="2021-07-29T15:15:05+00:00">
+
+    <div class="page__inner-wrap">
+
+      
+
+      <section class="page__content" itemprop="text">
+
+        
+
+        <h1 id="markdown"><a aria-hidden="true" class="anchor-heading" href="#markdown"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Markdown</h1>
+<ul>
+<li>Notice: all references of <code>MPE</code> in this guide is in reference to <code>Dendron Markdown Preview Enhanced</code>, the default markdown renderer of Dendron</li>
+</ul>
+<h2 id="markdown-basics"><a aria-hidden="true" class="anchor-heading" href="#markdown-basics"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Markdown Basics</h2>
+<p>This article is a brief introduction to <a href="https://guides.github.com/features/mastering-markdown/">GitHub Flavored Markdown writing</a>.</p>
+<h2 id="what-is-markdown"><a aria-hidden="true" class="anchor-heading" href="#what-is-markdown"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>What is Markdown?</h2>
+<p><code>Markdown</code> is a way to style text on the web. You control the display of the document; formatting words as bold or italic, adding images, and creating lists are just a few of the things we can do with Markdown. Mostly, Markdown is just regular text with a few non-alphabetic characters thrown in, like <code>#</code> or <code>*</code>.</p>
+<h2 id="syntax-guide"><a aria-hidden="true" class="anchor-heading" href="#syntax-guide"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Syntax guide</h2>
+<h3 id="headers"><a aria-hidden="true" class="anchor-heading" href="#headers"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Headers</h3>
+<pre class="language-markdown"><code class="language-markdown"><span class="token title important"><span class="token punctuation">#</span> This is an &#x3C;h1> tag</span>
+
+<span class="token title important"><span class="token punctuation">##</span> This is an &#x3C;h2> tag</span>
+
+<span class="token title important"><span class="token punctuation">###</span> This is an &#x3C;h3> tag</span>
+
+<span class="token title important"><span class="token punctuation">####</span> This is an &#x3C;h4> tag</span>
+
+<span class="token title important"><span class="token punctuation">#####</span> This is an &#x3C;h5> tag</span>
+
+<span class="token title important"><span class="token punctuation">######</span> This is an &#x3C;h6> tag</span>
+</code></pre>
+<h3 id="emphasis"><a aria-hidden="true" class="anchor-heading" href="#emphasis"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Emphasis</h3>
+<!-- prettier-ignore -->
+<pre class="language-markdown"><code class="language-markdown"><span class="token italic"><span class="token punctuation">*</span><span class="token content">This text will be italic</span><span class="token punctuation">*</span></span>
+<span class="token italic"><span class="token punctuation">_</span><span class="token content">This will also be italic</span><span class="token punctuation">_</span></span>
+
+<span class="token bold"><span class="token punctuation">**</span><span class="token content">This text will be bold</span><span class="token punctuation">**</span></span>
+<span class="token bold"><span class="token punctuation">__</span><span class="token content">This will also be bold</span><span class="token punctuation">__</span></span>
+
+<span class="token italic"><span class="token punctuation">_</span><span class="token content">You <span class="token bold"><span class="token punctuation">**</span><span class="token content">can</span><span class="token punctuation">**</span></span> combine them</span><span class="token punctuation">_</span></span>
+
+<span class="token strike"><span class="token punctuation">~~</span><span class="token content">This text will be strikethrough</span><span class="token punctuation">~~</span></span>
+</code></pre>
+<h3 id="lists"><a aria-hidden="true" class="anchor-heading" href="#lists"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Lists</h3>
+<h4 id="unordered-list"><a aria-hidden="true" class="anchor-heading" href="#unordered-list"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Unordered List</h4>
+<pre class="language-markdown"><code class="language-markdown"><span class="token list punctuation">-</span> Item 1
+<span class="token list punctuation">-</span> Item 2
+  <span class="token list punctuation">-</span> Item 2a
+  <span class="token list punctuation">-</span> Item 2b
+</code></pre>
+<h4 id="ordered-list"><a aria-hidden="true" class="anchor-heading" href="#ordered-list"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Ordered List</h4>
+<pre class="language-markdown"><code class="language-markdown"><span class="token list punctuation">1.</span> Item 1
+<span class="token list punctuation">1.</span> Item 2
+<span class="token list punctuation">1.</span> Item 3
+   <span class="token list punctuation">1.</span> Item 3a
+   <span class="token list punctuation">1.</span> Item 3b
+</code></pre>
+<h4 id="definition-list"><a aria-hidden="true" class="anchor-heading" href="#definition-list"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Definition List</h4>
+<pre class="language-markdown"><code class="language-markdown">Item 1
+: Definition for Item 1
+
+Item 2
+<span class="token strike"><span class="token punctuation">~</span><span class="token content"> Definition for Item 2
+</span><span class="token punctuation">~</span></span> Another definition for Item 2, with a <span class="token url">[<span class="token content">link</span>](<span class="token url">http://www.example.com</span>)</span>
+</code></pre>
+<h3 id="images"><a aria-hidden="true" class="anchor-heading" href="#images"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Images</h3>
+<pre class="language-markdown"><code class="language-markdown"><span class="token url"><span class="token operator">!</span>[<span class="token content">GitHub Logo</span>](<span class="token url">/images/logo.png</span>)</span>
+Format: <span class="token url"><span class="token operator">!</span>[<span class="token content">Alt Text</span>](<span class="token url">url</span>)</span>
+</code></pre>
+<h3 id="links"><a aria-hidden="true" class="anchor-heading" href="#links"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Links</h3>
+<pre class="language-markdown"><code class="language-markdown">https://github.com - automatic!
+<span class="token url">[<span class="token content">GitHub</span>](<span class="token url">https://github.com</span>)</span>
+</code></pre>
+<h3 id="blockquote"><a aria-hidden="true" class="anchor-heading" href="#blockquote"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Blockquote</h3>
+<pre class="language-markdown"><code class="language-markdown">As Kanye West said:
+
+<span class="token blockquote punctuation">></span> We're living the future so
+<span class="token blockquote punctuation">></span> the present is our past.
+</code></pre>
+<h3 id="horizontal-rule"><a aria-hidden="true" class="anchor-heading" href="#horizontal-rule"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Horizontal Rule</h3>
+<pre class="language-markdown"><code class="language-markdown">Three or more...
+
+<span class="token hr punctuation">---</span>
+
+Hyphens
+
+<span class="token hr punctuation">---</span>
+
+Asterisks
+
+<span class="token hr punctuation">---</span>
+
+Underscores
+</code></pre>
+<h3 id="inline-code"><a aria-hidden="true" class="anchor-heading" href="#inline-code"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Inline code</h3>
+<pre class="language-markdown"><code class="language-markdown">I think you should use an
+<span class="token code-snippet code keyword">`&#x3C;addr>`</span> element here instead.
+</code></pre>
+<h3 id="fenced-code-block"><a aria-hidden="true" class="anchor-heading" href="#fenced-code-block"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Fenced code block</h3>
+<p>You can create fenced code blocks by placing triple backticks <code>```</code> before and after the code block.</p>
+<h4 id="syntax-highlighting"><a aria-hidden="true" class="anchor-heading" href="#syntax-highlighting"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Syntax Highlighting</h4>
+<p>You can add an optional language identifier to enable syntax highlighting in your fenced code block.</p>
+<p>For example, to syntax highlight Ruby code:</p>
+<pre><code>```ruby
+require 'redcarpet'
+markdown = Redcarpet.new("Hello World!")
+puts markdown.to_html
+```
+</code></pre>
+<pre class="language-ruby"><code class="language-ruby"><span class="token keyword">require</span> <span class="token string">'redcarpet'</span>
+markdown <span class="token operator">=</span> <span class="token constant">Redcarpet</span><span class="token punctuation">.</span><span class="token keyword">new</span><span class="token punctuation">(</span><span class="token string">"Hello World!"</span><span class="token punctuation">)</span>
+puts markdown<span class="token punctuation">.</span>to_html
+</code></pre>
+<h3 id="task-lists"><a aria-hidden="true" class="anchor-heading" href="#task-lists"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Task lists</h3>
+<pre class="language-markdown"><code class="language-markdown"><span class="token list punctuation">-</span> [x] list syntax required (any unordered or ordered list supported)
+<span class="token list punctuation">-</span> [x] this is a complete item
+<span class="token list punctuation">-</span> [ ] this is an incomplete item
+</code></pre>
+<h2 id="extended-syntax"><a aria-hidden="true" class="anchor-heading" href="#extended-syntax"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Extended Syntax</h2>
+<p>These are non-standard markdown syntax used in Dendron. Everything here is both available in Dendron's preview as well as when publishing.</p>
+<h3 id="tables"><a aria-hidden="true" class="anchor-heading" href="#tables"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Tables</h3>
+<p>You can create tables by assembling a list of words and dividing them with hyphens <code>-</code> (for the first row), and then separating each column with a pipe <code>|</code>:</p>
+<!-- prettier-ignore -->
+<pre class="language-markdown"><code class="language-markdown"><span class="token table"><span class="token table-header-row"><span class="token table-header important">First Header </span><span class="token punctuation">|</span><span class="token table-header important"> Second Header</span>
+</span><span class="token table-line"><span class="token punctuation">------------</span> <span class="token punctuation">|</span> <span class="token punctuation">-------------</span>
+</span><span class="token table-data-rows"><span class="token table-data">Content from cell 1 </span><span class="token punctuation">|</span><span class="token table-data"> Content from cell 2</span>
+<span class="token table-data">Content in the first column </span><span class="token punctuation">|</span><span class="token table-data"> Content in the second column</span>
+</span></span></code></pre>
+<p>You can create a table from existing content using <code>> Markdown Shortcuts: Add Table</code> command.</p>
+<p><img src="https://raw.githubusercontent.com/mdickin/vscode-markdown-shortcuts/master/media/demo/table_with_header.gif"></p>
+<h3 id="abbreviation"><a aria-hidden="true" class="anchor-heading" href="#abbreviation"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Abbreviation</h3>
+<p>The HTML specification</p>
+<pre class="language-markdown"><code class="language-markdown"><span class="token italic"><span class="token punctuation">_</span><span class="token content">[HTML]: Hyper Text Markup Language
+</span><span class="token punctuation">_</span></span><span class="token url-reference url"><span class="token punctuation">[</span><span class="token variable">W3C</span><span class="token punctuation">]</span><span class="token punctuation">:</span> World</span> Wide Web Consortium
+The HTML specification
+is maintained by the W3C.
+</code></pre>
+<h3 id="footnotes"><a aria-hidden="true" class="anchor-heading" href="#footnotes"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Footnotes</h3>
+<pre class="language-markdown"><code class="language-markdown">Content [^1]
+
+<span class="token url-reference url"><span class="token punctuation">[</span><span class="token variable">^1</span><span class="token punctuation">]</span><span class="token punctuation">:</span> Hi!</span> This is a footnote
+</code></pre>
+<h3 id="frontmatter-variable-substitution"><a aria-hidden="true" class="anchor-heading" href="#frontmatter-variable-substitution"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Frontmatter Variable Substitution</h3>
+<p>You can use variables defined in your note frontmatter inside your note. The syntax is <code>{{fm.VAR_NAME}}</code> where <code>VAR_NAME</code> is the name of your variable. The <code>fm</code> designates that you want to use a frontmatter variable. </p>
+<h3 id="nunjuck-templates"><a aria-hidden="true" class="anchor-heading" href="#nunjuck-templates"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Nunjuck Templates</h3>
+<ul>
+<li>status: EXPERIMENTAL</li>
+</ul>
+<p>You can use a limited set of <a href="https://mozilla.github.io/nunjucks/">nunjucks</a> to customize your notes. </p>
+<p>To enable, you can set the following to true inside your <code>dendron.yml</code>.</p>
+<pre class="language-yml"><code class="language-yml"><span class="token key atrule">useNunjucks</span><span class="token punctuation">:</span> <span class="token boolean important">true</span>
+</code></pre>
+<p>Once enabled, you'll have access to nunjucks specific constructs. You'll have the same variables available as during <a href="https://wiki.dendron.so/notes/ba97866b-889f-4ac6-86e7-bb2d97f6e376.html#frontmatter-variable-substitution">frontmatter variable substitution</a>. Nunjucks templates also get access to the <code>fname</code> builtin variable which will be substituted with the filename of the current note. </p>
+<p>Below is an example of what you can do with nunjucks.</p>
+<ul>
+<li>Raw Markdown</li>
+</ul>
+<pre class="language-md"><code class="language-md"><span class="token title important"><span class="token punctuation">##</span> Variables</span>
+
+<span class="token list punctuation">-</span> special variables: {{fname}}
+<span class="token list punctuation">-</span> special variable as link: [[{{fname}}]]
+<span class="token list punctuation">-</span> special variable as note ref: ![[{{fname}}#footer]]
+
+<span class="token title important"><span class="token punctuation">##</span> Loops</span>
+
+{% for item in fm.alist %}
+
+<span class="token list punctuation">-</span> Item: {{item}}
+  {% endfor %}
+
+<span class="token title important"><span class="token punctuation">##</span> Footer</span>
+
+This is some footer content
+</code></pre>
+<ul>
+<li>Compiled
+<img src="https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/topic.nunjucks.jpg" alt="nunjucks example"></li>
+</ul>
+<p>Nunjucks will work for both the preview and for publishing. It is still an experimental feature which means it might change in backwards in-compatible ways at any point.</p>
+<p>It currently also has the following limitations:</p>
+<ul>
+<li>disables live preview of markdown (you'll need to refresh the markdown to see changes)</li>
+<li>will throw an error if you currently have nunjucks like strings inside your notes <code>eg. {% %}</code></li>
+<li>will throw errors if you refer to an undefined variable <code>{{ foo }}</code> </li>
+</ul>
+<h3 id="diagrams"><a aria-hidden="true" class="anchor-heading" href="#diagrams"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Diagrams</h3>
+<p>Dendron lets you create Diagrams using <a href="https://mermaid-js.github.io/mermaid/#/">mermaid</a>
+Create a code block with mermaid support to use mermaid. The following block turns into the diagram below.</p>
+<pre>```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
+</pre>
+<div class="mermaid">
+  graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+</div>
+<ul>
+<li>NOTE: in order to publish diagrams, you'll need to enable <a href="https://wiki.dendron.so/notes/f83c1d87-eac0-48f3-a5cf-8a69989d8ec1.html#mermaid-optional">mermaid in the config</a></li>
+</ul>
+<h3 id="folding"><a aria-hidden="true" class="anchor-heading" href="#folding"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Folding</h3>
+<p>You can create special folded sections with the below syntax.</p>
+<pre><code>&#x3C;details>
+  &#x3C;summary>Click to expand!&#x3C;/summary>
+  
+  ## Heading
+  1. A numbered
+  2. list
+     * With some
+     * Sub bullets
+&#x3C;/details>
+</code></pre>
+<p>This is how it looks</p>
+<details>
+  <summary>Click to expand!</summary>
+  
+  ## Heading
+  1. A numbered
+  2. list
+     * With some
+     * Sub bullets
+</details>
+<h2 id="vscode-specific-commands"><a aria-hidden="true" class="anchor-heading" href="#vscode-specific-commands"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>VSCode Specific Commands</h2>
+<h3 id="markdown-smart-select"><a aria-hidden="true" class="anchor-heading" href="#markdown-smart-select"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Markdown Smart Select</h3>
+<p>This allows you to expand and shrink selections of markdown using a keyboard shortcut.</p>
+<ul>
+<li>Expand: ⌃⇧⌘→</li>
+<li>Shrink: ⌃⇧⌘←</li>
+</ul>
+<p>Selection applies to the following, and follows a traditional hierarchical pattern:</p>
+<ul>
+<li>Headers</li>
+<li>Lists</li>
+<li>Block quotes</li>
+<li>Fenced code blocks</li>
+<li>Html code blocks</li>
+<li>Paragraphs</li>
+</ul>
+<p><img src="https://code.visualstudio.com/assets/updates/1_51/markdown-smart-select-demo.gif" alt="preview"></p>
+<blockquote>
+<p>Image by Microsoft</p>
+</blockquote>
+<h2 id="compatibility-with-commonmark"><a aria-hidden="true" class="anchor-heading" href="#compatibility-with-commonmark"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Compatibility with CommonMark</h2>
+<p><a href="https://commonmark.org/">CommonMark</a> is <em>a strongly defined, highly compatible specification of Markdown</em></p>
+<p>When possible, Dendron will try to stay to <code>CommonMark</code> spec for syntax. That being said, many of the features we have (eg. block based note references) have no common mark equivalent which is why we've had to invent new syntax.</p>
+<p>You can use the <a href="https://wiki.dendron.so/notes/13c4a608-0a32-4c62-9c7e-2b7f9f2d18bf.html">markdown pod</a> to migrate both individual notes and your entire vault to a CommonMark compatible format.</p>
+<h2 id="other-resources"><a aria-hidden="true" class="anchor-heading" href="#other-resources"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Other Resources</h2>
+<ul>
+<li><a href="https://guides.github.com/features/mastering-markdown/">Mastering Markdown</a></li>
+<li><a href="https://daringfireball.net/projects/markdown/basics">Daring Fireball: Markdown Basics</a></li>
+<li><a href="https://www.markdownguide.org/">Markdown Guide</a></li>
+</ul>
+<h2 id="references"><a aria-hidden="true" class="anchor-heading" href="#references"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>References</h2>
+<p>The content of this page is derived from the following sources:</p>
+<ol>
+<li><a href="https://shd101wyy.github.io/markdown-preview-enhanced/#/markdown-basics">markdown preview enhanced docs</a> published under the <a href="https://github.com/shd101wyy/markdown-preview-enhanced/blob/master/LICENSE.md">University of Illinois/NCSA Open Source License</a></li>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=mdickin.markdown-shortcuts">markdown shortcuts docs</a> published under the <a href="https://marketplace.visualstudio.com/items/mdickin.markdown-shortcuts/license">MIT License</a></li>
+</ol>
+<hr>
+<h2 id="backlinks"><a aria-hidden="true" class="anchor-heading" href="#backlinks"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Backlinks</h2>
+<ul>
+<li><a href="https://wiki.dendron.so/notes/d508e0f9-8bbe-43b4-83c1-0ff022b1d4fb.html">Release Notes (version 0.24)</a></li>
+<li><a href="https://wiki.dendron.so/notes/f5d459b0-01ea-4bd2-bb8b-ed7f7f7a8e0c.html">Release Notes (version 0.26)</a></li>
+<li><a href="https://wiki.dendron.so/notes/ba97866b-889f-4ac6-86e7-bb2d97f6e376.html">Markdown</a></li>
+<li><a href="https://wiki.dendron.so/notes/77c8f69c-32b8-4331-b1b2-c4211dcb9fb7.html">Academics</a></li>
+<li><a href="https://wiki.dendron.so/notes/0eq1mz_b-gpdSZVJqruOg.html">0 2 X</a></li>
+<li><a href="https://wiki.dendron.so/notes/f83c1d87-eac0-48f3-a5cf-8a69989d8ec1.html">Dendrons Config</a></li>
+</ul><span id="navId" data="ba97866b-889f-4ac6-86e7-bb2d97f6e376"></span>
+
+                
+      </section>
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+        <div class="thumbs feedback_trigger right-bottom"></div>
+
+        
+          <hr>
+          <footer>
+            
+            
+
+            
+              <div class="d-flex mt-2">
+              <p class="text-small text-grey-dk-000 mb-0 mr-2">
+                Page last modified: <span class="d-inline-block">7/29/2021</span>.
+              </p>
+            
+                
+                  <p class="text-small text-grey-dk-000 mb-0">
+                    <a href="https://github.com/dendronhq/dendron-site/edit/master/vault/dendron.topic.markdown.md" id="edit-this-page">Edit this page on GitHub</a>
+                  </p>
+                
+              </div>
+          </footer>
+        
+    </div>
+</div>
+
+
+  
+
+  <div class="search-overlay"></div>
+
+</div>
+
+</body>
+</html>

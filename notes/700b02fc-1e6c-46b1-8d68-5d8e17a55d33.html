@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+  
+  <title>Evernote Pod Proposal - Dendron</title>
+  
+
+  <link
+    rel="shortcut icon"
+    href="https://wiki.dendron.so/favicon.ico"
+    type="image/x-icon"
+  />
+  <link
+    rel="stylesheet"
+    href="https://wiki.dendron.so/assets/css/just-the-docs-default.css"
+  />
+  <script
+    type="text/javascript"
+    src="https://wiki.dendron.so/assets/js/just-the-docs.js"
+  ></script>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.22.0/themes/prism.min.css"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css"
+    integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X"
+    crossorigin="anonymous"
+  />
+  <script
+    type="text/javascript"
+    src="https://wiki.dendron.so/assets/js/vendor/lunr.min.js"
+  ></script>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+   
+   
+  
+<meta name="description" content="Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.">
+<meta name="author" content="dendronhq">
+
+<link rel="canonical" href="https://wiki.dendron.so/notes/700b02fc-1e6c-46b1-8d68-5d8e17a55d33.html">
+
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://wiki.dendron.so/notes/700b02fc-1e6c-46b1-8d68-5d8e17a55d33.html">
+<meta property="og:description" content="Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.">
+<meta property="og:image" content="https://wiki.dendron.so/logo.png">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@dendronhq">
+<meta name="twitter:url" content="https://wiki.dendron.so/notes/700b02fc-1e6c-46b1-8d68-5d8e17a55d33.html">
+<meta name="twitter:description" content="Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.">
+<meta name="twitter:image" content="https://wiki.dendron.so/logo.png">
+
+
+  <meta property="og:title" content="Evernote Pod Proposal - Dendron" />
+  <meta name="twitter:title" content="Evernote Pod Proposal - Dendron" />
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-B0JN2HHCNY"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-B0JN2HHCNY');
+  </script>
+  
+</head>
+
+
+
+<body>
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+      <symbol id="svg-link" viewBox="0 0 24 24">
+        <title>Link</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-link">
+          <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+        </svg>
+      </symbol>
+      <symbol id="svg-search" viewBox="0 0 24 24">
+        <title>Search</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search">
+          <circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+      </symbol>
+      <symbol id="svg-menu" viewBox="0 0 24 24">
+        <title>Menu</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu">
+          <line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+      </symbol>
+      <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+        <title>Expand</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+          <polyline points="9 18 15 12 9 6"></polyline>
+        </svg>
+      </symbol>
+      <symbol id="svg-doc" viewBox="0 0 24 24">
+        <title>Document</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file">
+          <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path><polyline points="13 2 13 9 20 9"></polyline>
+        </svg>
+      </symbol>
+    </svg>
+
+    <div class="side-bar">
+      <div class="site-header">
+        <a href="https://wiki.dendron.so" class="site-title lh-tight">
+  <div class="site-logo"></div>
+
+ </a>
+        <a href="#" id="menu-button" class="site-button">
+          <svg viewBox="0 0 24 24" class="icon"><use xlink:href="#svg-menu"></use></svg>
+        </a>
+      </div>
+
+      <nav role="navigation" aria-label="Main" id="site-nav" class="site-nav">
+      </nav>
+      <footer class="site-footer">
+        🌱 with 💕 using <a href="https://www.dendron.so/"> Dendron 🌲 </a>
+      </footer>
+    </div>
+    <div class="main" id="top">
+        <div id="main-header" class="main-header">
+          
+            <div class="search">
+              <div class="search-input-wrap">
+                <input type="text" id="search-input" class="search-input" tabindex="0" placeholder="Search Dendron" aria-label="Search Dendron" autocomplete="off">
+                <label for="search-input" class="search-label"><svg viewBox="0 0 24 24" class="search-icon"><use xlink:href="#svg-search"></use></svg></label>
+              </div>
+              <div id="search-results" class="search-results"></div>
+            </div>
+          
+          
+    </div>
+    <div id="main-content-wrap" class="main-content-wrap">
+      
+        
+          <nav aria-label="Breadcrumb" class="breadcrumb-nav">
+            <ol class="breadcrumb-nav-list"><li class="breadcrumb-nav-list-item"><a href="https://wiki.dendron.so">Dendron</a></li><li class="breadcrumb-nav-list-item"><a href="https://wiki.dendron.so/notes/6e4c4f61-80a3-46fa-9ad3-04b99d9e9695.html">Dendron Public Roadmap</a></li><li class="breadcrumb-nav-list-item"><a href="https://wiki.dendron.so/notes/8cf880da-6402-47fb-8e9a-9d5fa38e31d0.html">Project</a></li><li class="breadcrumb-nav-list-item"><a href="https://wiki.dendron.so/notes/c17fa26b-702b-47b7-a9a2-4a8218fc26e4.html">Scratch</a></li><li class="breadcrumb-nav-list-item"><a href="https://wiki.dendron.so/notes/dba0543d-dd60-4d8a-904e-d347f9f862ee.html">2020</a></li><li class="breadcrumb-nav-list-item"><a href="https://wiki.dendron.so/notes/f81bd621-b918-4003-b6d8-6efd99a42a5b.html">09</a></li><li class="breadcrumb-nav-list-item">Evernote Pod Proposal</li></ol>
+          </nav>
+        
+      
+      <div id="main-content" class="main-content" role="main">
+
+        
+        
+        <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+        <script>mermaid.initialize({startOnLoad:true});</script>
+        
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+        
+        
+
+        
+
+        
+
+        
+
+        <script>
+          $(function () {
+            $('[data-toggle="popover"]').popover({html: true})
+          })
+        </script>
+
+        
+
+<div id="main" role="main">
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Evernote Pod Proposal">
+    
+    <meta itemprop="datePublished" content="2020-09-07T23:40:09+00:00">
+    <meta itemprop="dateModified" content="2020-09-07T23:40:09+00:00">
+
+    <div class="page__inner-wrap">
+
+      
+
+      <section class="page__content" itemprop="text">
+
+        
+
+        <h1 id="evernote-pod-proposal"><a aria-hidden="true" class="anchor-heading" href="#evernote-pod-proposal"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Evernote Pod Proposal</h1>
+<ul>
+<li>
+<p>link to tool: <a href="https://evernote.com">https://evernote.com</a></p>
+</li>
+<li>
+<p>one line description: online note taking tool that organizes notes using notebooks and tags</p>
+</li>
+<li>
+<p>is there a public api available (if so, please provide link)? yes</p>
+<ul>
+<li><a href="https://dev.evernote.com/doc/">https://dev.evernote.com/doc/</a></li>
+</ul>
+</li>
+<li>
+<p>are there existing (preferably javascript compatible) libraries that can import and/or export to this pod? (if so, please list them. if there aren't libraries, an example of importing is also good): yes</p>
+<ul>
+<li>import:
+<ul>
+<li>import del.icio.us bookmarks into evernote: <a href="https://github.com/jorgemanrubia/evernicious">https://github.com/jorgemanrubia/evernicious</a> <a title="Private" style="color: brown" href="https://wiki.dendron.so/notes/hfyvYGJZQiUwQaaxQO27q.html" target="_blank">#ruby (Private)</a> <a class="color-tag" style="--tag-color: #FF0000;" href="https://wiki.dendron.so/notes/UNwXuILpBbI1imrH.html">#example</a></li>
+</ul>
+</li>
+<li>export:
+<ul>
+<li>export evernote notes: <a href="https://github.com/akosbalasko/yarle">https://github.com/akosbalasko/yarle</a> <a title="Private" style="color: brown" href="https://wiki.dendron.so/notes/hfyvYGJZQiUwQaaxQO27q.html" target="_blank">#typescript (Private)</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>are there existing (preferably javascript compatible) libraries that can convert from/to the data format used in this pod? (if so, please list them): yes</p>
+<ul>
+<li>convert from
+<ul>
+<li><a href="https://github.com/akosbalasko/yarle">https://github.com/akosbalasko/yarle</a> <a title="Private" style="color: brown" href="https://wiki.dendron.so/notes/hfyvYGJZQiUwQaaxQO27q.html" target="_blank">#typescript (Private)</a></li>
+</ul>
+</li>
+<li>convert to</li>
+</ul>
+</li>
+</ul>
+<h2 id="import"><a aria-hidden="true" class="anchor-heading" href="#import"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Import</h2>
+<p>&#x3C;What does import look like? How will the organization of the source pod be mapped onto Dendron's Hierarchy?></p>
+<h3 id="mappings"><a aria-hidden="true" class="anchor-heading" href="#mappings"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>mappings</h3>
+<ul>
+<li>notebook stack &#x26; notebooks: hierarchy</li>
+<li>tags -> tags</li>
+</ul>
+<h3 id="example"><a aria-hidden="true" class="anchor-heading" href="#example"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>example</h3>
+<ul>
+<li>evernote</li>
+</ul>
+<pre><code>- Cookbook (notebook stack)
+    - Meat (notebook)
+        - meat note 1
+        - meat note 2
+        - ...
+    - Vegetables (notebook)
+        - ...
+</code></pre>
+<ul>
+<li>dendron</li>
+</ul>
+<pre><code>- cookbook
+- cookbook.meat
+- cookbook.meat.meat-note-1
+- cookbook.meat.meat-note-2
+- cookbook.vegetables
+</code></pre>
+<h2 id="build"><a aria-hidden="true" class="anchor-heading" href="#build"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Build</h2>
+<p>&#x3C;What does build look like? What steps need to occur prior to exporting your Dendron notes></p>
+<h2 id="export"><a aria-hidden="true" class="anchor-heading" href="#export"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Export</h2>
+<p>&#x3C;What does export look like? How will we map Dendron's hierarchies to the destination pod's organization?></p>
+<h3 id="mappings-1"><a aria-hidden="true" class="anchor-heading" href="#mappings-1"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>mappings</h3>
+<ul>
+<li>
+<p>hierarchy -> notebook stack or notebook (user can configure on a per hierarchy basis)</p>
+</li>
+<li></li>
+<li>
+<p>dendron</p>
+</li>
+</ul>
+<pre><code>- cookbook.meat
+- cookbook.meat.meat-note-1
+- cookbook.meat.meat-note-2
+- cookbook.vegetables
+</code></pre>
+<!-- ## Configuration
+<What might a configuration file look like to help make sure your data is formatted correctly ?>
+
+e.g.
+destinations:
+  - destination:
+      base: People
+      table: Interactions
+    src:
+      meet.{today}.*
+    mapping:
+      fm.created: DateV2
+      fm.type: Type
+      section.noes: Notes
+      section.people: People
+ -->
+<h2 id="example-use-cases"><a aria-hidden="true" class="anchor-heading" href="#example-use-cases"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Example Use Cases</h2>
+<p>&#x3C;e.g. Sync notes from meetings with an airtable tracking meetings across days and people> </p>
+<hr>
+<h2 id="backlinks"><a aria-hidden="true" class="anchor-heading" href="#backlinks"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Backlinks</h2>
+<ul>
+<li><a href="https://wiki.dendron.so/notes/b1dbd32d-ca87-4489-9ba0-01bf7928cba5.html">Pods v0</a></li>
+<li><a href="https://wiki.dendron.so/notes/725d99be-fadd-4464-88c3-0a5fcc7292c7.html">Server Migration</a></li>
+</ul><span id="navId" data="700b02fc-1e6c-46b1-8d68-5d8e17a55d33"></span>
+
+                
+      </section>
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+        <div class="thumbs feedback_trigger right-bottom"></div>
+
+        
+          <hr>
+          <footer>
+            
+            
+
+            
+              <div class="d-flex mt-2">
+              <p class="text-small text-grey-dk-000 mb-0 mr-2">
+                Page last modified: <span class="d-inline-block">9/7/2020</span>.
+              </p>
+            
+                
+                  <p class="text-small text-grey-dk-000 mb-0">
+                    <a href="https://github.com/dendronhq/dendron-site/edit/master/vault/dendron.roadmap.project.scratch.2020.09.07-164009.md" id="edit-this-page">Edit this page on GitHub</a>
+                  </p>
+                
+              </div>
+          </footer>
+        
+    </div>
+</div>
+
+
+  
+
+  <div class="search-overlay"></div>
+
+</div>
+
+</body>
+</html>
