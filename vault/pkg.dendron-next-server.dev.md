@@ -10,7 +10,7 @@ created: 1621630111186
 ## Development
 
 ### Pre-req
-- [[dendron.dev.setup]]
+- [[pkg.plugin-core.quickstart]]
 - [[Symlink the CLI|pkg.dendron-cli.dev#symlink]] `dendron-cli`
 
 ### Steps

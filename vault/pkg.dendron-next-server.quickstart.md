@@ -9,8 +9,8 @@ created: 1621201571965
 
 
 ## Instructions
-1. Follow instructions [[here|dendron.dev.setup]] to clone the repository and install dependencies
-1. NOTE: we made some significant changes to this project. If you have a local copy of the repo checked out before 2021.05.16, please follow the instructions about pulling after a [[new packages|dendron.dev.setup#new-packages]] has been updated.
+1. Follow instructions [[here|pkg.plugin-core.quickstart]] to clone the repository and install dependencies
+1. NOTE: we made some significant changes to this project. If you have a local copy of the repo checked out before 2021.05.16, please follow the instructions about pulling after a [[new packages|pkg.plugin-core.quickstart#new-packages]] has been updated.
 1. navigate to server package
    ```bash
    cd {repo-root}/packages/dendron-next-server
