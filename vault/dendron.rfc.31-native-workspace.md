@@ -29,7 +29,7 @@ Instead of relying on `dendron.code.workspace`, have the presence of a `dendron.
 
 ## Details
 
-The startup process is described [[here|dendron://dendron.dendron-site/pkg.plugin-core.arch.startup#summary]].
+The startup process is described [[here|dendron://dendron.dendron-site/pkg.plugin-core.arch.lifecycle.startup#summary]].
 
 On startup, Dendron will look at all workspace folders and look for the presence of `dendron.yml`
 

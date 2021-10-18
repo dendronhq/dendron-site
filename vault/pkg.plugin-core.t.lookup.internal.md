@@ -2,7 +2,7 @@
 id: PZ3IzgdeZBbFRvalzI9fp
 title: Internal
 desc: ''
-updated: 1634511904800
+updated: 1634591404069
 created: 1630426129273
 ---
 
@@ -85,6 +85,13 @@ stateDiagram-v2
 ## Code
 
 ### Gather Input
+
+- this method is responsible for configuring and instantiating the lookup controller and provider
+  - controller controls presentation of the quickinput
+  - provider controls the data retrieval behavior 
+  - on success, will return the following [response type](https://github.com/dendronhq/dendron/blob/master/packages/plugin-core/src/components/lookup/LookupProviderV3.ts)
+  - NOTE: because we can't simply block on `showQuickInput`, we return a promise that listens to a `lookupProvider` event with the corresponding `id` of the particular command
+
 - src/commands/NoteLookupCommand.ts
 ```ts
 gatherInputs {

@@ -28,4 +28,4 @@ Work remaining:
 <!-- ## Markdown Parsing -->
 
 
-[^1]: [[Summary|pkg.plugin-core.arch.startup#summary]]
+[^1]: [[Summary|pkg.plugin-core.arch.lifecycle.startup#summary]]
