@@ -2,7 +2,7 @@
 id: f83c1d87-eac0-48f3-a5cf-8a69989d8ec1
 title: Dendrons Config
 desc: ''
-updated: 1633497101102
+updated: 1634663356384
 created: 1619539817122
 ---
 
@@ -188,7 +188,7 @@ name used for journal notes
 
 ### dateFormat
 - type: string
-- default: y.MM.dd
+- default: y.MM.dd ^dNGnhlJY93Kk
 
 Date format used for journal notes. Use [luxon style formatting](https://moment.github.io/luxon/#/formatting)
 

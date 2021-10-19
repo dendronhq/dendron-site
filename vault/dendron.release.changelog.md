@@ -2,10 +2,28 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1634489209476
+updated: 1634666045175
 created: 1601508213606
 date: '2022-01-01'
 ---
+
+## 0.64
+
+## 0.63.2
+
+### Features
+
+### Enhancements
+- enhance(lookup): lookup wikilinks @nickolay
+- fix(lookup): better hierarchy look up when inside parts of the hierarchy are omitted (#1522) @nickolay
+- enhance(lookup): allow configuration of workspace to make 'Create New' not bubble up in note lookup. (#1528) @nickolay
+- enhance(pods): asignees in github issue publish pod ([[docs|dendron://dendron.dendron-site/dendron.topic.pod.builtin.github-issue.publish#updating-an-issue]])@joshi 
+
+### Bug Fixes
+- fix(markdown): better footnote rendering in note references (#1520) @kaan
+- fix(markdown): user tags & hashtags inside links should be parsed as regular text #1524 @kaan #pending
+- fix(publish): wikilinks inside note references don't have right link @kevin
+- fix(workspace): making changes to fontmatter title also update the preview (#1513) @nickolay
 
 ## 0.63.1
 
@@ -29,7 +47,7 @@ date: '2022-01-01'
 - chore: add test for apostrophe in alias (#1501)  @kaan
 - chore: skip failing WS init test on Windows (#1517) @kaan
 
-## 0.63.0
+## 0.63
 
 ## 0.62.4
 
