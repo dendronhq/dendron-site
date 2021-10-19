@@ -15,7 +15,7 @@ This goes over the major architectural components of Dendron.
 
 ## Lifecycle
 - Startup
-  - Plugin startup: [[Summary|pkg.plugin-core.arch.startup#summary]]
+  - Plugin startup: [[Summary|pkg.plugin-core.arch.lifecycle.startup#summary]]
   - Migrations: [[Migration|pkg.dendron-engine.t.migration]]
 
 - Regular Execution

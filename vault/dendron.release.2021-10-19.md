@@ -1,15 +1,14 @@
 ---
-id: 1ec8d588-7c8a-47a2-b79e-1dd02d10b600
-title: Weekly Public Announcement
+id: FVOrdEJKn5SdJ3dxREkJL
+title: Release Notes (version 0.64)
 desc: ''
-updated: 1634660787092
-created: 1622484182130
+updated: 1634660803197
+created: 1634660763551
 ---
 
 <!-- Replace frontmatter title-->
-title: Release Notes (version 0.6)
 
-Dendron 0.6 has sprouted  🌱
+Dendron 0.64 has sprouted  🌱
 
 ### Highlights
 

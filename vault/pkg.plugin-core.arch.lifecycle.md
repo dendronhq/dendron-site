@@ -2,9 +2,12 @@
 id: d410c0d6-9ede-42ef-9c96-662902e4f488
 title: Lifecycle
 desc: ''
-updated: 1611428138285
+updated: 1634592301994
 created: 1609714449234
 ---
+
+## Startup
+![[dendron://dendron.dendron-site/pkg.plugin-core.arch.lifecycle.startup]]
 
 ## Workspace Creation
 

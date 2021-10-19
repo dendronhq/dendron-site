@@ -9,7 +9,7 @@ created: 1628376960868
 
 ## Build
 
-See build instructions [[here|dendron.dev.setup#build]] 
+See build instructions [[here|pkg.plugin-core.quickstart#build]] 
 
 ## Run
 <!-- How to run the program from the current source code -->

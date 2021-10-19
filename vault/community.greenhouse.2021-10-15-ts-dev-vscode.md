@@ -42,7 +42,7 @@ The following were my personal notes for the talk
 - note: [[Support Format Option for Dendron Note CLI|dendron://private/scratch.2021.10.14.195007.support-format-for-dendron-note-cli]]
 
 ### VSCode
-- @installed
+- installed
     - gitlens
     - prettier
     - vim

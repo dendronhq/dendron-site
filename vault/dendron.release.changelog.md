@@ -2,10 +2,12 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1634248692153
+updated: 1634489209476
 created: 1601508213606
 date: '2022-01-01'
 ---
+
+
 
 ## 0.63.1
 
@@ -22,6 +24,8 @@ date: '2022-01-01'
 ### Fix
 - fix(workspace): possible error if open note is changed quickly after edit (#1486) @kaan
 - fix(publish): optimize nextjs publishing search (#1519) @kaan
+
+[[pkg.nextjs-template]] 
 
 ### Internal
 - chore: add test for apostrophe in alias (#1501)  @kaan

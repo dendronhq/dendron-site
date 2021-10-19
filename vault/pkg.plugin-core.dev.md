@@ -2,222 +2,65 @@
 id: 04dd9ad8-3d81-4098-a661-21b6acc6f443
 title: Dev
 desc: ''
-updated: 1633299401029
+updated: 1634591524567
 created: 1621721485330
 ---
-## Commands
 
-### Create a new Command
+## Gotchas
 
-1. Add command to `DENDRON_COMMANDS` under `plugin-core/src/constants.ts`
-2. Open the command prompt, enter `Run Task`, and run `gen:config`
-   - this will add the command to `package.json`
-3. Create the new command in `plugin-core/src/commands/{COMMAND_NAME}.ts`
-   - you can copy the contents of an existing command (eg. `src/commands/ShowHelp.ts`) to help you get started
-4. Write tests
-   - tests are in `plugin-core/src/test/suite-integ/{COMMAND}`
-   - testing instructions are [[here|dendron.dev.qa]]
-5. Write command logic
-6. If it makes sense, add a keyboard shortcut for the command. Make sure it doesn't conflict with an generic VSCode command or existing Dendron commands. You can detect existing keybindings by using the guide [here](https://code.visualstudio.com/docs/getstarted/keybindings#_detecting-keybinding-conflicts)
-7. Add command to `src/commands/index.ts`
-8. Submit pull request
+### Cleaning up artifacts
 
-Conventions:
+Compiled javascript doesn't get deleted from `plugin-core/out` which means that deleting a typescript file won't remove it from the compiled javascript. If you are seeing an error that you can't explain, try deleting the `out` folder by running the following command
 
-- if your command involves opening a note, also return it in the `CommandOutput` signature. this makes it easy to compose the command as well as test it
-
-### Working with VSCode Workspace State
-
-Use the [[State Service|pkg.plugin-core.arch.state-service]] when working with VSCode workspace related state.
-
-## Lookup
-
-### Add a new button
-
-1. add type
-   - src/commands/LookupCommand.ts
-   ```ts
-   export type LookupEffectType = "copyNoteLink" | "copyNoteRef" | "multiSelect" | "insertNote";
-   ```
-2. add button
-
-```ts
-export class InsertNoteLinkButton extends DendronBtn {
-  static create(pressed?: boolean) {
-    return new CopyNoteLinkButton({
-      title: "Insert Note",
-      iconOff: "diff-added",
-      iconOn: "menu-selection",
-      type: "insertNote" as LookupEffectType,
-      pressed,
-    });
-  }
-
-  async handle({ quickPick }: ButtonHandleOpts) {
-    if (this.pressed) {
-      let items: readonly DNodePropsQuickInputV2[];
-      if (quickPick.canSelectMany) {
-        items = quickPick.selectedItems;
-      } else {
-        items = quickPick.activeItems;
-      }
-      let links = items
-        .filter((ent) => !PickerUtilsV2.isCreateNewNotePick(ent))
-        .map((note) => NoteUtils.createWikiLink({ note }));
-      if (_.isEmpty(links)) {
-        vscode.window.showInformationMessage(`no items selected`);
-      } else {
-        await clipboard.writeText(links.join("\n"));
-        vscode.window.showInformationMessage(`${links.length} links copied`);
-      }
-    }
-  }
-}
+```sh
+cd packages/plugin-core
+rm -rf out
+yarn compile
 ```
 
-### Adding Command with Lookup
+## Tips
 
-Pre-requisites:
+## Regular Workflow
 
-- [[Create a new Command|pro.dendron-plugin.cook#create-a-new-command]]
+1. Checkout a feature branch for your task
+2. Work on code
+3. Submit a [[pull Request|dendron.dev.pull-request]] 
 
-This goes over adding a new command with lookup. To see an example, see this [command](https://github.com/dendronhq/dendron/blob/master/packages/plugin-core/src/commands/InsertNoteLink.ts) and this commit: `cc8a02b4`.
+### Getting Help
 
-```mermaid
-sequenceDiagram
-    participant user
-    participant lookupCommand
-    participant lookupController
-    participant lookupProvider
-    user ->> lookupCommand: user issues command
-    Note left of user: 1. cmd.gatherInput()
-    rect rgb(0, 255, 0)
-      lookupCommand ->> lookupController: creates controller 
-      lookupCommand ->> lookupProvider: creates provider
-      lookupCommand ->> lookupController: call show(provider)
-      lookupCommand ->> lookupProvider: subscribe to provider
-      lookupController ->> user: shows quickinput 
-    end
-    user ->> user: chooses a selection
-    lookupProvider ->> lookupCommand: notify(selection)
-    lookupCommand ->> lookupCommand: calls command.execute()
+Dendron is actively being developed and it could be quite confusing to start developing for the first time. In this case, we recommend asking for help with whatever blockers you might have with setting up or understanding part of the codebase.
+
+Generally, a member of the Dendron team or the community will chime in for help if you post a specific question in the `#dev` channel in our Discord server.
+
+For more information, check out our handbook entry on `Getting help for development` described [here](https://handbook.dendron.so/notes/bHWjVTtdOCMMRd2_QD0tb.html)
+
+
+## Advanced
+
+### Working with the API Server
+
+Dendron connects to a local express server which is responsible for indexing your notes. This express server also serves up static files generated by [[Dendron Next Server|pkg.dendron-next-server]]. 
+
+Dendron compiles the static assets from the next server to the express server during publication so that everything is bundled when published. When you are developing, you can launch the next server independently for faster development. You can follow the instructions [[here|pkg.dendron-next-server.quickstart]] to start the next-server.
+
+To start Dendron with the next server active, you can set the following value in `dendron.yml`
+
+```yml
+dev:
+  nextServerUrl: "http://localhost:3000"
 ```
 
-1 Gather inputs
+### Working with the CLI
 
-- this method is responsible for configuring and instantiating the lookup controller and provider
-  - controller controls presentation of the quickinput
-  - provider controls the data retrieval behavior 
-  - on success, will return the following [response type](https://github.com/dendronhq/dendron/blob/master/packages/plugin-core/src/components/lookup/LookupProviderV3.ts)
-  - NOTE: because we can't simply block on `showQuickInput`, we return a promise that listens to a `lookupProvider` event with the corresponding `id` of the particular command
+Symlink `dendron` 
 
-## UI
+```sh
+cd packages/dendorn-cli
+npm link
 
-### Adding a Web UI Component
-
-1. see [[Create a new Command|pro.dendron-plugin.cook#create-a-new-command]] for creating a new command
-2. Add a new entry to [DendronWebViewKey](https://github.com/dendronhq/dendron/blob/master/packages/common-all/src/types/typesv2.ts)
-3. in `execute`, create a new webview
-   ```ts
-     const title = //TODO: add panel title
-     const panel = window.createWebviewPanel(
-       "dendronIframe", // Identifies the type of the webview. Used internally
-       title, // Title of the panel displayed to the user
-       ViewColumn.One, // Editor column to show the new webview panel in.
-       {
-         enableScripts: true,
-         enableCommandUris: true,
-         enableFindWidget: true,
-         localResourceRoots: [],
-       }
-     );
-     resp = WebViewUtils.genHTMLForWebView({
-         title: "Dendron Config",
-         view: DendronWebViewKey[TODO]
-     });
-     panel.webview.html = resp;
-   ```
-
-Related:
-
-- See [[here|pkg.dendron-next-server.dev#development]] for how to preview and test your web ui.
-
-## Utilities
-
-### Getting DendronEngine
-
-```ts
-getWS().engine
+npm link -g @dendronhq/dendron-cli
 ```
 
-### Accessing DendronConfig
+### Working with Verdaccio 
 
-There are multiple ways to do this. You should get the config from the workspace instance. 
-
-```ts
-getWs().config
-```
-
-### Clipboard
-
-```ts
-import { clipboard } from "../utils";
-clipboard.writeText(link);
-```
-
-### Check if file is in vault
-
-- see src/views/DendronTreeViewV2.ts
-
-```ts
-  const uri = editor.document.uri;
-  const basename = path.basename(uri.fsPath);
-  const ws = getWS();
-  if (!ws.workspaceService?.isPathInWorkspace(uri.fsPath)) {
-    return;
-  }
-```
-
-### Insert Text
-
-- src/commands/InsertNoteCommand.ts
-
-```ts
-  const editor = VSCodeUtils.getActiveTextEditor()!;
-  const pos = editor.selection.active;
-  await editor.edit((builder) => {
-    const selection = new Selection(pos, pos);
-    builder.replace(selection, txt);
-  });
-```
-
-### Prompt User for Input using Selection
-
-- see [this](https://github.com/dendronhq/dendron/blob/master/packages/plugin-core/src/commands/VaultAddCommand.ts)
-
-### Prompt User for Input using Free Text
-
-- see [this](https://github.com/dendronhq/dendron/blob/master/packages/plugin-core/src/commands/VaultAddCommand.ts)
-
-```ts
-let out = await VSCodeUtils.showInputBox({
-    prompt: "Path to your new vault (relative to your workspace root)",
-    placeHolder: localVaultPathPlaceholder,
-});
-if (PickerUtilsV2.isStringInputEmpty(out)) return;
-```
-
-### Get location of the frontmatter
-
-- example [here](https://github.com/dendronhq/dendron/blob/master/packages/plugin-core/src/services/NoteSyncService.ts)
-
-```
-
-```
-
-## Tests
-
-### Upating the cursor position
-
-- see [this](https://github.com/dendronhq/dendron/blob/master/packages/plugin-core/src/test/suite-integ/NoteLookupCommand.test.ts)
-
+![[dendron.dev.cook.common#verdaccio,1:#*]]

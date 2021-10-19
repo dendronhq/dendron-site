@@ -6,7 +6,6 @@ updated: 1627139967177
 created: 1605375348464
 ---
 
-
 ## Summary
 This is the dendron extension that is installed in VSCode
 

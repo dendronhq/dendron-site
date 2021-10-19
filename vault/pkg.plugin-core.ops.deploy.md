@@ -9,7 +9,7 @@ created: 1613863275374
 ## Steps
 
 ## pre-req
-- install [[Verdaccio|dendron.dev.setup#working-with-verdaccio]]
+- install [[Verdaccio|pkg.plugin-core.quickstart#working-with-verdaccio]]
 
 ### Install locally
 - install jq

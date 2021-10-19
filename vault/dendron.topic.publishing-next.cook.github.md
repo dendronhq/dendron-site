@@ -2,7 +2,7 @@
 id: yg3EL1x9fEe4NMqxUC3jP
 title: GitHub
 desc: ''
-updated: 1633969949892
+updated: 1634527142874
 created: 1631132196609
 ---
 
@@ -99,7 +99,7 @@ site:
 
 ### Publish your notes
 
-- NOTE: we're running export with the github target. This 
+- NOTE: we're running export with the github target
 
 ```sh
 dendron publish export --target github

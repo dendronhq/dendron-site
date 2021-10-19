@@ -19,7 +19,7 @@ mkdir build
 cd build
 ```
 1. Clone Dendron
-![[dendron.dev.setup#^clone]]
+![[pkg.plugin-core.quickstart#^clone]]
 
 
 ## Cook
