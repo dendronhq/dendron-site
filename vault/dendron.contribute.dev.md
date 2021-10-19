@@ -9,7 +9,7 @@ created: 1604236041570
 
 If you would like to contribute to the development of dendron, checkout out the [repo](https://github.com/dendronhq/dendron) from github.
 
-You can then follow the [[setup instructions|dendron.dev.setup#build]].
+You can then follow the [[setup instructions|pkg.plugin-core.quickstart#build]].
 
 A great place to start is with issues labelled with the [size.small](https://github.com/dendronhq/dendron/labels/size.small) label on github. These are small, self contained tasks that are well suited for first time contributors.
 

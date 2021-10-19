@@ -2,7 +2,7 @@
 id: xSSUw9GWcnsF35y597Vof
 title: 35 Easier Schemas
 desc: ''
-updated: 1634479236773
+updated: 1634590989379
 created: 1633613554664
 ---
 
@@ -360,10 +360,10 @@ Allow inline schemas such as the following layout. This allows for child schemas
     - id: daily
       children:
         - pattern: journal
-        children: 
+          children: 
             - pattern: "[0-2][0-9][0-9][0-9]"
-            title: year
-            children: 
+              title: year
+              children: 
                 - pattern: "[0-1][0-9]"
                 title: month
                 children: 

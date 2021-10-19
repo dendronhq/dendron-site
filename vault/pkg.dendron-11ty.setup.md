@@ -9,7 +9,7 @@ created: 1611515613711
 
 ### 1. Requirements
 
-![[dendron.dev.setup#1-requirements,1:#*]]
+![[pkg.plugin-core.quickstart#1-requirements,1:#*]]
 
 ### 2. Clone and Install
 
@@ -29,7 +29,7 @@ Dendron depends on a bunch of packages from the dendron monorepo. If you already
 
 ### 1. Setup Monorepo
 
-- see instructions [[here|dendron.dev.setup]]
+- see instructions [[here|pkg.plugin-core.quickstart]]
 
 ### 2. Create links to the monorepo packages
 
@@ -45,7 +45,7 @@ Inside dendron-11ty, execute `./scripts/link.sh` file
 
 - NOTE: don't forget to watch the monorepo to compile changes
 
-![[dendron.dev.setup#watch-monorepo,1:#*]]
+![[pkg.plugin-core.quickstart#watch-monorepo,1:#*]]
 
 ### 4. Run Dendron Cli
 

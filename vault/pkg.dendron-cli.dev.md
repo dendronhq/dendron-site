@@ -8,7 +8,7 @@ created: 1609350672493
 
 
 ## Pre-req
-- [[dendron.dev.setup]] 
+- [[pkg.plugin-core.quickstart]] 
 
 ## Cook
 
