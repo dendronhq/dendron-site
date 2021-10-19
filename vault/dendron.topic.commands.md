@@ -2,7 +2,7 @@
 id: eea2b078-1acc-4071-a14e-18299fc28f47
 title: Commands
 desc: ''
-updated: 1633943603114
+updated: 1634630575949
 created: 1595261816971
 ---
 
@@ -519,6 +519,10 @@ Right Click on the explorer > Dendron: Vault Add
 
 You can also remove a vault from the explorer by: 
 Right Click on the vault > Dendron: Vault Remove
+
+### Vault Convert
+
+![[dendron://dendron.dendron-site/dendron.topic.vaults#vault-convert,1:#*]]
 
 ### Launch Tutorial
 

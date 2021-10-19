@@ -2,7 +2,7 @@
 id: 6682fca0-65ed-402c-8634-94cd51463cc4
 title: Vaults
 desc: ''
-updated: 1629926243847
+updated: 1634630492005
 created: 1622841137387
 ---
 
@@ -31,7 +31,7 @@ By default, when you look for notes in Dendron, it will search over all vaults.
 
 Add a new vault to your workspace.
 
-When you add a vault, you can choose between adding a local vault or a remote vault.
+When you add a vault, you can choose between adding a local vault or a remote vault. You can change this later with the [[Vault Convert|dendron.topic.vaults#vault-convert]] command.
 
 #### Local Vault
 
@@ -67,6 +67,13 @@ Remove a vault
 Remove a vault from your workspace. Note that the underlying files will **not** be deleted - the vault will lose its association with your workspace.
 
 <div style="position: relative; padding-bottom: 62.5%; height: 0;"><iframe src="https://www.loom.com/embed/307effc22b8d4c59a32933529a8393e1" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
+### Vault Convert
+
+You can convert a local vault to a remote vault, or a remote vault to a local
+vault using this command. Simply run the command and follow the prompts.
+
+<div style="position: relative; padding-bottom: 62.5%; height: 0;"><iframe src="https://www.loom.com/embed/48fe047324c14949b0917861c79fd985" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 ## Vault Sources
 
