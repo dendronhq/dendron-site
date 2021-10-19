@@ -1,6 +1,6 @@
 ---
 id: gl3cpcZmuVNZOy1lD8vgw
-title: '3 - GitLab from YC to IPO'
+title: 3 - GitLab from YC to IPO
 desc: ''
 updated: 1634667082147
 created: 1634666586828
