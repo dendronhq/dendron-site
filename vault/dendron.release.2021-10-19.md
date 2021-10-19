@@ -2,7 +2,7 @@
 id: FVOrdEJKn5SdJ3dxREkJL
 title: Release Notes (version 0.64)
 desc: ''
-updated: 1634667087452
+updated: 1634667181188
 created: 1634660763551
 ---
 
@@ -44,10 +44,6 @@ This week's entry in the [[Dendron Reading Series|community.reading-series]].
 
 ![[dendron://dendron.dendron-site/community.reading-series.journal.2021.10.19]]
 
-#### Office Hours
-
-<!-- TODO: update the link -->
-You can find notes from our latest office hours [[here|community.office-hours.2021.09.]]
 
 #### Thank You's
 
