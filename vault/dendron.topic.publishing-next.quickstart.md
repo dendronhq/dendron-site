@@ -2,7 +2,7 @@
 id: e5st4LFLtIwwbQmC6JBaF
 title: Quickstart
 desc: ''
-updated: 1633902773839
+updated: 1634664264384
 created: 1631033401707
 ---
 
@@ -29,7 +29,6 @@ Run the following commands at the root of your dendron [[workspace|dendron.ref.w
     ```sh
     dendron publish dev
     ```
-    
 ### Export
 
 ![[dendron.topic.publishing-next.cook.common#export-notes,1:#*]]

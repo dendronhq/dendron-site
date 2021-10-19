@@ -1,0 +1,31 @@
+# Query: editor.suggest.showSnippets
+# Flags: RegExp
+# Including: dendron.*
+# ContextLines: 1
+
+5 results - 5 files
+
+dendron.dendron-site • dendron.guides.tips.md:
+  358      // as you type:
+  359:     "editor.suggest.showSnippets": false,
+  360    },
+
+dendron.dendron-site • dendron.topic.snippets.md:
+  119  ```
+  120: "editor.suggest.showSnippets": false,
+  121  ```
+
+workspace.handbook • dendron.code-workspace:
+  19          "editor.suggest.snippetsPreventQuickSuggestions": false,
+  20:         "editor.suggest.showSnippets": true,
+  21          "editor.tabCompletion": "on"
+
+workspace • dendron.code-workspace:
+  89          "editor.suggest.snippetsPreventQuickSuggestions": false,
+  90:         "editor.suggest.showSnippets": true,
+  91          "editor.tabCompletion": "on",
+
+workspace • dendron.blog/dendron.code-workspace:
+  18          "editor.suggest.snippetsPreventQuickSuggestions": false,
+  19:         "editor.suggest.showSnippets": true,
+  20          "editor.tabCompletion": "on"

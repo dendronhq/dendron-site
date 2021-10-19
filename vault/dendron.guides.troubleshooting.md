@@ -2,7 +2,7 @@
 id: a6c03f9b-8959-4d67-8394-4d204ab69bfe
 title: Troubleshooting
 desc: ''
-updated: 1628347844122
+updated: 1634664649648
 created: 1595952505025
 ---
 
@@ -23,7 +23,7 @@ Check the version numbers of your dependencies. You can get version numbers by r
 npm info @dendronhq/dendron-cli
 ``` -->
 
-## Plugin 
+## Workspace
 
 ### Dendron is stuck on loading
 - fixes:
@@ -77,7 +77,18 @@ journal:
     firstDayOfWeek: 1
 ```
 
+### Can't autocomplete snippets inline
 
+To get snippets to autocomplete, make sure you don't have snippets disabled
+
+1. go to > workspace: open user settings (json)
+2. change the following line to `true`
+
+```json
+"editor.suggest.snippetsPreventQuickSuggestions": false,
+"editor.suggest.showSnippets": true,
+"editor.tabCompletion": "on",
+```
 
 ## Upgrading
 
