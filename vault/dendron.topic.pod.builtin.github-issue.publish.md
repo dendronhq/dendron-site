@@ -2,13 +2,13 @@
 id: 8JECQzntY2P5ha3U
 title: Publish
 desc: ''
-updated: 1633989428874
+updated: 1634292422749
 created: 1627560101451
 ---
 
 ## Summary
 
-The Github Issue Publish Pod lets you update the status, milestone and labels of issues in your github repository that have previously been imported into Dendron. It also supports creating a new issue and a discussion in github from a note authored in dendron. 
+The Github Issue Publish Pod lets you update the status, milestone, assignees and labels of issues in your github repository that have previously been imported into Dendron. It also supports creating a new issue and a discussion in github from a note authored in dendron. 
 
 
 ## Actions
@@ -19,7 +19,9 @@ A new github issue can be created by publishing any note with publish pod that d
 
 ### Updating an issue
 
-Upon publishing the note below, for this issue #86, the status will be updated to `CLOSED`, milestone will be updated as v57 and the tags will be updated to `wontfix` and `documentation`
+Upon publishing the note below, for this issue #86, the status will be updated to `CLOSED`, milestone will be updated as v57, the tags will be updated to `wontfix` and `documentation` as issue labels and will be assigned to username `john-doe`(github username). The issue URL is copied to the clipboard.
+
+To add multiple assignee, add assignees in frontmatter as yaml array. 
 
 
 ```markdown
@@ -30,6 +32,7 @@ url: 'https://github.com/dendronhq/dendron-site/issues/86'
 status: CLOSED
 issueID: gkdskrereidnYu
 milestone: v57
+assignees: john-doe
 tags: 
   - wontfix
   - documentation
@@ -38,7 +41,7 @@ Line 12 of the links page ( https://github.com/dendronhq/dendron-site/edit/maste
 ```
 ### Creating a discussion
 
-Upon publishing the note below, a discussion titled `28 Notifications` will be created 
+Upon publishing the note below, a discussion titled `28 Notifications` will be created and the discussion url is copied to the clipboard.
 
 ```markdown
 ...
