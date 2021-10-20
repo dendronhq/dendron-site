@@ -2,7 +2,7 @@
 id: a6c03f9b-8959-4d67-8394-4d204ab69bfe
 title: Troubleshooting
 desc: ''
-updated: 1634664649648
+updated: 1634741116108
 created: 1595952505025
 ---
 
@@ -214,6 +214,12 @@ You will get this if you have multiple [[vaults|dendron.topic.config.dendron#vau
 
 ## Common Diagnostics
 
+### Check Dendron CLI Version
+
+```sh
+dendron --version
+```
+
 ### Launch a new workspace
 
 To check if there is something wrong with Dendron vs your particular workspace setup, launch Dendron in a new workspace by running [[Initialize Workspace|dendron.topic.commands#initialize-workspace]]. 
@@ -254,6 +260,25 @@ Dendron can sometimes fail to load due to a malformed note. Common issues:
 ### Look for large files
 
 Dendron currently has trouble parsing notes larger than 1MB in size. Check if you have any notes like this and move them out of your workspace.
+
+### Upgrade your CLI
+
+- upgrading local version
+  - run inside the root of your workspace
+```sh
+npm install --save @dendronhq/dendron-cli@latest
+```
+
+- upgrading global 
+```sh
+npm -g install @dendronhq/dendron-cli@latest
+```
+
+If upgrading doesn't work, run the following first
+
+```sh
+npm uninstall -g @dendronhq/dendron-cli
+```
 
 ### Book a one on one
 
