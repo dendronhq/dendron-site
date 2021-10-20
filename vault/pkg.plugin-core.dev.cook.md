@@ -2,7 +2,7 @@
 id: jtHIVXVpyHwRiq3tJBbfq
 title: Cook
 desc: ''
-updated: 1634591492256
+updated: 1634737200066
 created: 1634590309804
 ---
 
@@ -52,6 +52,10 @@ Conventions:
 ### Add new Workspace State
 
 Use the [[State Service|pkg.plugin-core.arch.state]] when working with VSCode workspace related state.
+
+### Add a new Config
+
+See [[Add New Config|dendron://dendron.dendron-site/pkg.common-all.dev.cook#add-new-config]]
 
 ## Lookup
 
