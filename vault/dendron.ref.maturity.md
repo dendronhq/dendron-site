@@ -2,11 +2,15 @@
 id: 8uJ7IsjD8hrQydMZoOSso
 title: Dendron Maturity Levels
 desc: ''
-updated: 1631033272521
+updated: 1634752448774
 created: 1630620220761
 ---
 
-Dendron has four stages of maturity when describing existing processes or features.
+Dendron has variousstages of maturity when describing existing processes or features.
+
+## Germ
+#stage.germ
+![[tags.stage.germ]]
 
 ## Seed
 #stage.seed
