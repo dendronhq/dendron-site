@@ -2,7 +2,7 @@
 id: xSSUw9GWcnsF35y597Vof
 title: 35 Easier Schemas
 desc: ''
-updated: 1634723197068
+updated: 1634730923889
 created: 1633613554664
 ---
 
@@ -358,6 +358,7 @@ Allow inline schemas such as the following layout. This allows for child schemas
 
 ```yml
     - id: daily
+      parent: root
       children:
         - pattern: journal
           children: 

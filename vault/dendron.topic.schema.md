@@ -2,7 +2,7 @@
 id: c5e5adde-5459-409b-b34d-a0d75cbb1052
 title: Schemas
 desc: ''
-updated: 1628281183439
+updated: 1634733697262
 created: 1595952505039
 stub: false
 ---
@@ -72,6 +72,39 @@ Below is another way of representing the above schema
             └── {cmd child} # matches cli.*.cmd.*
 ```
 
+## Inline Schema Anatomy
+
+Another way to specify schemas is to use inline schemas. Which can be simpler to create and maintain. 
+
+When we are creating inline schemas only the topmost schema must have an identifier `id` (this identifier will be used when looking up schemas). Child schemas are inlined under `children` and just require to contain `pattern`. 
+
+While using inline schemas you can take advantage of collapsibility of YAML config. 
+
+Here is an example of inline daily journal schema it will match notes such as 'daily.journal.2021.11.12'
+
+```yml
+version: 1
+schemas:
+  # Daily is the top most schema since its parent is 'root' it must have an identifier
+  # this identifier 'daily' will be used when using 'Lookup (schema)' command.
+  - id: daily
+    parent: root
+    # Children of the top most schema do not need to contain identifier and just 
+    # require a 'pattern' to be set to match the hierarchy of notes.
+    children:
+      - pattern: journal
+        children:
+          - pattern: "[0-2][0-9][0-9][0-9]"
+            children:
+              - pattern: "[0-1][0-9]"
+                children:
+                  - pattern: "[0-3][0-9]"
+                    # As with regular schema we can set the template to be used with
+                    # the match of our notes. 
+                    template:
+                      id: templates.daily
+                      type: note
+```
 
 
 ## Properties
