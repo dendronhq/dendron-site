@@ -2,7 +2,7 @@
 id: 401c5889-20ae-4b3a-8468-269def4b4865
 title: Cookbook
 desc: ''
-updated: 1632944545212
+updated: 1634739897751
 created: 1595952505024
 nav_order: 8.9
 toc: true
@@ -107,6 +107,10 @@ vaults:
     - fsPath: vault
       visibility: private
 ```
+
+## Publishing
+
+### How do I exclude certain vaults from being published?
 
 ## Workspace
 

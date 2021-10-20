@@ -2,13 +2,13 @@
 id: e5st4LFLtIwwbQmC6JBaF
 title: Quickstart
 desc: ''
-updated: 1634664264384
+updated: 1634740239950
 created: 1631033401707
 ---
 
 ## Summary 
 
-This guide walks you through. 
+This guide walks you through publishing with NextJS. 
 
 - NOTE: if you are migrating from 11ty publishing, please read the [[migration guide|dendron://dendron.dendron-site/dendron.topic.publishing-next.migration]] for changes.
 
@@ -34,4 +34,3 @@ Run the following commands at the root of your dendron [[workspace|dendron.ref.w
 ![[dendron.topic.publishing-next.cook.common#export-notes,1:#*]]
 
 Congrats, you did it! At this point, you have a folder of static HTML which you can host and deploy anywhere. You can checkout our [[cookbook|dendron.topic.publishing-next.cook]] for examples of deploying to popular destinations like Github Pages.
-

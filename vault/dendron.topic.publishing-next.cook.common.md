@@ -2,12 +2,11 @@
 id: 2340KhiZJWUy31Nrn37Fd
 title: Common
 desc: ''
-updated: 1634664328486
+updated: 1634740500912
 created: 1631132278348
 ---
 
 ### Setup Dendron CLI
-
 ```
 npm init -y 
 npm install --save @dendronhq/dendron-cli
@@ -31,13 +30,15 @@ dendron publish build
 
 ### Preview Notes
 - NOTE: run this command inside your [[workspace|dendron.ref.workspace]]
-- visit [http://localhost:3000](http://localhost:3000) to see your local preview
+- This command launches a development server which previews how your published website will look like.  Visit [http://localhost:3000](http://localhost:3000) to accesss your site. 
+- Enter `CTRL-C` on the terminal to exit the preview
 ```sh
 dendron publish dev
 ```
 
 ### Export Notes
 - NOTE: run this command inside your [[workspace|dendron.ref.workspace]]
+- This command builds the static HTML which you'll upload to actually publish your site
 
 ```sh
 dendron publish export

@@ -2,7 +2,7 @@
 id: yg3EL1x9fEe4NMqxUC3jP
 title: GitHub
 desc: ''
-updated: 1634527142874
+updated: 1634740385875
 created: 1631132196609
 ---
 
@@ -49,7 +49,13 @@ Select the docs folder and click save.
 ## Process - Setup Dendron
 
 ### Setup Dendron Next Publishing
-![[dendron.topic.publishing-next.quickstart#setup,1:#*]]
+
+1. Navigate to the root of your workspace (directory with `dendron.yml`) 
+1. Initialize dendron-cli
+![[dendron://dendron.dendron-site/dendron.topic.publishing-next.cook.common#setup-dendron-cli,1:#*]]
+1. Initialize dendron next publishing
+![[dendron://dendron.dendron-site/dendron.topic.publishing-next.cook.common#setup-notes,1:#*]]
+
 
 ### Configure your notes for publication
 
@@ -87,7 +93,7 @@ site:
 
 ```yml
 site:
-    assetsPrefix: dendron-publish-sample
+    assetsPrefix: /dendron-publish-sample
     siteUrl: https://kevinslin.github.io
 ```
 
