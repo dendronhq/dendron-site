@@ -45,6 +45,11 @@ Controls the title for [[children links|dendron.topic.links#children-links]] in 
 
 With this set, you will be prompted to select the vault location each time you create a note when you have multiple vaults in your workspace.
 
+### lookupDontBubbleUpCreateNew
+- default: false
+
+With this set to `true`: `Create new` will NOT bubble up to the top when using [[Note Lookup|dendron.topic.lookup]]. Use this setting when your workflow largely consists of lookups and you want to keep `Create new` as the last entry in the look up results. 
+
 ### mermaid
 - default: false
 
