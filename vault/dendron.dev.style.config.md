@@ -2,7 +2,7 @@
 id: 7XSSCIpMNX2SFbKc6S0RB
 title: Config
 desc: ''
-updated: 1631542113529
+updated: 1634822124215
 created: 1631541972997
 ---
 
@@ -40,7 +40,7 @@ This page covers conventions and rules for organizing the configuration space.
         activateNunjucks: false,
         ```
 1. Use bare nouns only for configuration keys with values that are direct objects / literals.
-    - list of vaults, for example.
+    - A list of vaults, for example, should be in a key simply called `vaults`.
 1. Use only positive forms for boolean configuration names.
     - good: 
       ```js
