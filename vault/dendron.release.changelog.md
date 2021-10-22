@@ -2,17 +2,42 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1634924809923
+updated: 1634933973090
 created: 1601508213606
 date: '2022-01-01'
 ---
 
 ## 0.64.1
 
+### Breaking changes
+
+As part of the [[config consolidation|dendron.rfc.23-config-consolidation]], workspace options like `vault` are now under the `workspace` namespace in `dendron.yml`.
+
+Before:
+```yaml
+vaults:
+    - fsPath: vault1
+```
+
+After:
+```yaml
+workspace:
+    vaults:
+        - fsPath: vault1
+```
+
+Initializing your workspace to `0.64.1` will do this upgrade automatically.  If you are using the latest version of the CLI (`0.64.1`) , make sure to initialize your workspace beforehand which will upgrade your config to the latest version.
+
+Migration can also be done via the latest CLI release:
+
+```bash
+dendron dev run_migration --migrationVersion 0.64.1
+```
+
 ### Enhancements
 - enhance(cli): support output option when using `dendron note lookup` ([[docs|dendron.topic.cli#note-commands]]) (#1526) @kevin
 - enhance(commands): update default aliases when note is updated (#1557) @kaan
-- enhance(cli): add run migration command in cli ([[docs|dendron.dev.cli]]) (#1560) @hikchoi
+- enhance(cli): add run migration command in cli ([[docs|dendron.dev.cli#run_migration]]) (#1560) @hikchoi
 
 ### Fix
 - fix(workspace): update yml validation to latest config version (#1554) @hikchoi
