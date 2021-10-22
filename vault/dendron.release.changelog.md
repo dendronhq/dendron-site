@@ -2,7 +2,7 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1634933587990
+updated: 1634933973090
 created: 1601508213606
 date: '2022-01-01'
 ---
@@ -11,7 +11,7 @@ date: '2022-01-01'
 
 ### Breaking changes
 
-As part of the [[config consolidation|dendron.rfc.23-config-consolidation]], workspace options like `vault` are now under the `workspace` namespace in `dendorn.yml`.
+As part of the [[config consolidation|dendron.rfc.23-config-consolidation]], workspace options like `vault` are now under the `workspace` namespace in `dendron.yml`.
 
 Before:
 ```yaml
