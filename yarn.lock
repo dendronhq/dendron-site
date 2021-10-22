@@ -204,7 +204,7 @@
     "request" "^2.88.2"
     "sass" "^1.32.7"
 
-"@dendronhq/dendron-cli@^0.64.1":
+"@dendronhq/dendron-cli@*":
   "integrity" "sha512-S0kLwsA2UyseFK04vGM25mxBcKTB80fkOevincXc7JuKAKmRuyAnRy0VlxK/b0IJ641AZ77V53/Cjdbh85dyLQ=="
   "resolved" "https://registry.npmjs.org/@dendronhq/dendron-cli/-/dendron-cli-0.64.1.tgz"
   "version" "0.64.1"
