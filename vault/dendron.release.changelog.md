@@ -2,7 +2,7 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1634921306138
+updated: 1634921450107
 created: 1601508213606
 date: '2022-01-01'
 ---
@@ -10,25 +10,21 @@ date: '2022-01-01'
 ## 0.64.1
 
 ### Enhancements
-
 - enhance(cli): support output option when using `dendron note lookup` (#1526) @kevin
 - enhance(commands): update default aliases when note is updated (#1557) @kaan
 - enhance(cli): add run migration command in cli (#1560) @hikchoi
 
 ### Fix
-
 - fix(workspace): update yml validation to latest config version (#1554) @hikchoi
 - fix(publish):make assetPrefix apply to all link elements (#1555) @kevin
 - fix(publish): make 11ty publishing compatible with config version 3 (#1556) @kevin
 
 ### Internal
-
 - chore(build): stop running webpack bundle twice on publish @kevin
 - chore(workspace): config migration of workspace namespace (#1536) @hikchoi
 - chore(build): clearing verdaccio cache on nightly (#1549) @jonathan
 
 ### Other
-
 - chore: config migration workspace namespace cleanup (#1554) @hikchoi
 
 ## 0.64.0
