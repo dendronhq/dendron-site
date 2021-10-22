@@ -2,7 +2,7 @@
 id: 84df871b-9442-42fd-b4c3-0024e35b5f3c
 title: Telemetry
 desc: ''
-updated: 1633939212757
+updated: 1634745897217
 created: 1619460500071
 ---
 
@@ -125,6 +125,11 @@ We collect an invocation metric when a [[commands|dendron.topic.commands]] is in
 | ---------: | :--------: | -------------------------------------------- |
 | `error`    | _boolean_  | Did an error happen during this phase?       |
 | `duration` | _number_   | How long did it take to execute this command |
+
+
+### Contextual UI
+
+We collect an invocation metric when a [[commands|dendron.topic.commands]] is invoked through Contextual UI. This helps us to measure the visibility and effectiveness of Contextual UI.
 
 ### Errors
 
