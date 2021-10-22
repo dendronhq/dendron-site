@@ -1,4 +1,4 @@
-name: Dendron
+name: Dendron site build
 
 on:
   push:
