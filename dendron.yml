@@ -1,29 +1,12 @@
-maxPreviewsCached: 10
-vaults:
-    -
-        fsPath: vault
 useFMTitle: true
 useNoteTitleForLink: true
-noAutoCreateOnDefinition: true
 noLegacyNoteRef: true
-noXVaultWikiLink: true
 mermaid: true
 useKatex: true
-autoFoldFrontmatter: true
 usePrettyRefs: true
 dev:
     enableWebUI: true
     enablePreviewV2: true
-journal:
-    dailyDomain: daily
-    name: journal
-    dateFormat: y.MM.dd
-    addBehavior: childOfDomain
-    firstDayOfWeek: 1
-scratch:
-    name: scratch
-    dateFormat: y.MM.dd.HHmmss
-    addBehavior: asOwnDomain
 site:
     siteHierarchies:
         - dendron
@@ -49,11 +32,6 @@ site:
         bases of any size.
     ga_tracking: G-B0JN2HHCNY
 version: 3
-lookupConfirmVaultOnCreate: false
-lookup:
-    note:
-        selectionType: selectionExtract
-        leaveTrace: false
 useTitleForLink: true
 commands:
     lookup:
@@ -93,4 +71,3 @@ workspace:
     enableAutoFoldFrontmatter: false
     maxPreviewsCached: 10
     maxNoteLength: 204800
-initializeRemoteVaults: true
