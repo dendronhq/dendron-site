@@ -1,6 +1,8 @@
 # Dendron
 
-![](https://travis-ci.com/dendronhq/dendron.svg?branch=master)
+![SiteBuild](https://github.com/dendronhq/dendron-site/actions/workflows/dendron-action.yml/badge.svg)
+
+![URLValidator](https://github.com/dendronhq/dendron-site/actions/workflows/url-auditor.yml/badge.svg)
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/logo-256.png)
 
