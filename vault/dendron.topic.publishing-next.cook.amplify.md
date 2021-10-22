@@ -2,7 +2,7 @@
 id: GltYtZ7YCzEyV10uwhUg9
 title: Amplify
 desc: ''
-updated: 1632717983180
+updated: 1634923283398
 created: 1631319273247
 published: false
 ---
@@ -49,8 +49,8 @@ How to publish Dendron pages to AWS amplitude.
 ```json
 [
     {
-        "source": "https://{YOUR_DOMAIN}.com",
-        "target": "https://www.{{YOUR_DOMAIN}}.com",
+        "source": "https://example.com",
+        "target": "https://www.example.com",
         "status": "301",
         "condition": null
     },
