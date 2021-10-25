@@ -2,7 +2,7 @@
 id: c5e5adde-5459-409b-b34d-a0d75cbb1052
 title: Schemas
 desc: ''
-updated: 1634733697262
+updated: 1635140465298
 created: 1595952505039
 stub: false
 ---
@@ -251,9 +251,14 @@ template:
   id: journal.template.daily
   # what sort of template we are creating. currently, only 'note' is supported
   type: note
-
 ```
-
+##### Shortened template syntax
+```yml
+# identifier for the template (the name of the note)
+# The type will be set to 'note' 
+template: journal.template.daily
+```
+Shortened template syntax will always uses `type: note` 
 ## Schema Templates
 
 Schema templates let you designate a note as a **template**. Newly created notes that match a schema with a template will have both the contents and custom frontmatter of the template note applied at creation.
