@@ -24,4 +24,3 @@ Outside of events, you can connect with Dendron devs, contributors, and other me
 - Join the [Dendron Discord](https://discord.gg/6j85zNX)
 - Contribute to [Dendron open source code and docs on GitHub](https://github.com/dendronhq/)
 - Follow [Dendron on Twitter (@dendronhq)](https://twitter.com/dendronhq)
-- [Twitter @dendronhq](https://twitter.com/dendronhq)
