@@ -7,7 +7,7 @@ created: 1628730733281
 ---
 
 
-Every week, we post three issues in the [#feedback](https://discordapp.com/channels/717965437182410783/739186036495876126) ([Discord invite](https://discord.gg/6j85zNX)) channel. These are a combination of issues that are:
+Every week, we post three issues in the [#feedback](https://discordapp.com/channels/717965437182410783/739186036495876126) ([Discord invite](https://discord.com/invite/xrKTUStHNZ)) channel. These are a combination of issues that are:
 
 1. Requested by the community (with >5 upvotes)
 2. New issues that people have recently expressed interest in.

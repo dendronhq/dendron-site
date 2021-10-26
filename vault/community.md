@@ -21,6 +21,6 @@ We have a bunch of community events that we host throughout the week. You can st
 
 Outside of events, you can connect with Dendron devs, contributors, and other members of the Dendron community in a few ways:
 
-- Join the [Dendron Discord](https://discord.gg/6j85zNX)
+- Join the [Dendron Discord](https://discord.com/invite/xrKTUStHNZ)
 - Contribute to [Dendron open source code and docs on GitHub](https://github.com/dendronhq/)
 - Follow [Dendron on Twitter (@dendronhq)](https://twitter.com/dendronhq)
