@@ -2,12 +2,13 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1635269826945
+updated: 1635282507303
 created: 1601508213606
 date: '2022-01-01'
 ---
 
 
+## 0.65
 
 ## 0.64.2
 
@@ -16,7 +17,8 @@ date: '2022-01-01'
 
 ### Enhancements
 - enhance(schemas): expand schema format to allow for inlined children ([[docs|dendron://dendron.dendron-site/dendron.topic.schema#inline-schema-anatomy]]) (#1552) @nickolay
-- enhance(pods): enhance gdoc import formatting (#1538) @joshi
+- enhance(pods): enhance gdoc import formatting (#1538) ([[docs|dendron.topic.pod.builtin.google-docs.import#summary,1:#*]]
+) @joshi
 
 ### Bug Fixes
 - fix(workspace): notes getting whitespace changes after workspace sync (#1559) @joshi
