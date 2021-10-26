@@ -2,7 +2,7 @@
 id: 401c5889-20ae-4b3a-8468-269def4b4865
 title: Cookbook
 desc: ''
-updated: 1634739897751
+updated: 1635207551928
 created: 1595952505024
 nav_order: 8.9
 toc: true
@@ -40,20 +40,30 @@ You can get logs of the previous session by following instructions [here](https:
 
 ## Mobile Support
 
-Dendron does not have a dedicated mobile client at this time. There are numerous mobile markdown editors that can be used to view and edit Dendron notes. Some popular options are listed below:
+> A comparison of mobile apps for Markdown can be found on the [Dendron blog: Best Mobile Note-Taking Apps for Markdown](https://blog.dendron.so/notes/fDCVPEo3guCFWPdxokXHU/).
 
--   [Git Journal](https://github.com/GitJournal/GitJournal)
--   [iA Writer](https://ia.net/writer)
--   [Epsilon Notes](https://play.google.com/store/apps/details?id=com.ekartoyev.enotes&hl=en_US&gl=US)
--   [Neutrinote](https://neutrinote.wordpress.com/) (Android only)
--   [Noteless](https://github.com/redsolver/noteless) (Android only). This _just_ received experimental Dendron support so worth trying out.
--   [Markor](https://github.com/gsantner/markor) (Android only)
+Dendron does not have a dedicated mobile client at this time. There are numerous mobile markdown editors that can be used to view and edit Dendron notes. Some popular options are listed below, based on feedback in the Dendron community:
+
+- [GitJournal](https://github.com/GitJournal/GitJournal)
+- [iA Writer](https://ia.net/writer)
+- [Obsidian](https://obsidian.md/mobile)
+- [Notebooks App](https://www.notebooksapp.com/) (iOS, MacOS, and PC)
+- [Epsilon Notes](https://play.google.com/store/apps/details?id=com.ekartoyev.enotes&hl=en_US&gl=US) (Android only)
+- [Neutrinote](https://neutrinote.wordpress.com/) (Android only)
+- [Noteless](https://github.com/redsolver/noteless) (Android only). This _just_ received experimental Dendron support so worth trying out.
+- [Markor](https://github.com/gsantner/markor) (Android only)
+- [Scarlet Notes](https://github.com/BijoySingh/Scarlet-Notes) (Android only)
+- [Working Copy](https://workingcopyapp.com/) (iOS only)
+- [Editorial](https://omz-software.com/editorial/) (iOS only)
+- [Taio](https://taio.app/) (iOS only)
+- [Textastic](https://www.textasticapp.com/) (iOS only)
 
 Most mobile apps do not have git support.
 
 -   If you are on iOS, you can follow the instructions [here](https://victoria.dev/blog/a-remote-sync-solution-for-ios-and-linux-git-and-working-copy/) to sync your git backed Dendron with any note taking tool on iOS.
 -   If you are on Android, you can read [this writeup](https://mstempl.netlify.app/post/working-with-git-on-android/) by one of users on having Git Sync on Android devices
 
+If using GitHub with SSH keys or access tokens, here is an alternative: SSH keys that have project/repo-limited permissions as [Deploy Keys on GitHub](https://docs.github.com/en/developers/overview/managing-deploy-keys#deploy-keys) (with `Allow write access` enabled). This prevents users from setting up SSH keys with user-wide permissions across GitHub, making it more secure and limited.
 
 ## Vaults
 
