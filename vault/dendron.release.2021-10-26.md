@@ -2,7 +2,7 @@
 id: dmymhrncBTSn2q4ZgKy5B
 title: Release Notes (version 0.65)
 desc: ''
-updated: 1635270584199
+updated: 1635277012507
 created: 1635269443644
 ---
 
@@ -41,29 +41,7 @@ dendron dev run_migration --migrationVersion 0.64.1
 - fix(commands): move header command modifying unrelated note content 
 
 ### Community
-- [[people.eltociear]]
-    - #dendron.taxonomist
-    - fix typo in test-workspace
-- [[people.kimsia]]
-    - #dendron.bugcatcher
-    - #dendron.environmentalist
-    - [[dendron.github.issues.1582-helpful-edit-in-github-link-missing-in-tutorial-when-vscode]]
-    - [[dendron.github.issues.1580-dendron-command-palette--sign-in--sign-up--leads-to-broken-auth-link]]
-- [[people.demorganslaw]]
-    - #dendron.bugcatcher
-    - [[dendron.github.issues.1579-cli-getting-dendronerror-no-root-found-for-filestem]]
-- [[people.guilhermesfc]]
-    - #dendron.bugcatcher
-    - [[dendron.github.issues.1570-lookupconfirmvaultoncreate-true-does-not-prompt-which-vault-to-create-notes]]
-- [[people.idan]]
-    - #dendron.bugcatcher
-    - [[dendron.github.issues.1576-gitignore-should-include-seeds-by-default]]
-- [[people.tychronos]]
-    - [[dendron.github.issues.1563-refactor-hierarchy-does-not-obey-stubs-with-content]]
-    - [[dendron.github.issues.1558-lookup-tool-shows--sign-on-already-existing-notes]]
-- [[people.laurentiu-nicola]]
-    - #dendron.taxonomist
-    - fix typo in issue templates
+
 
 #### General Updates
 
@@ -81,5 +59,28 @@ You can find notes from our latest office hours [[here|community.office-hours.20
 A big **thanks** to the following gardeners that brought up issues, contributions, and fixes to this release :man_farmer: :woman_farmer: 
 You can see an overview of all roles [[here|community.roles]]
 
+- [Ikko Ashimine](https://github.com/eltociear)
+    - #dendron.taxonomist
+    - fix typo in test-workspace
+- [Kim Sia Sim](https://github.com/simkimsia) `@kimsia#3035` 
+    - #dendron.bugcatcher
+    - #dendron.environmentalist
+    - [Helpful "Edit in GitHub" link missing in tutorial when vscode](https://github.com/dendronhq/dendron/issues/1582)
+    - [Dendron COmmand palette > sign in / Sign up > leads to broken auth link](https://github.com/dendronhq/dendron/issues/1580)
+- [demorganslaw](https://github.com/demorganslaw) `@demorganslaw#3718` 
+    - #dendron.bugcatcher
+    - [CLI getting "DendronError: no root found for <file_stem>](https://github.com/dendronhq/dendron/issues/1579)
+- [Guilherme Costa](https://github.com/guilhermesfc) `@Guilherme Costa#9124`
+    - #dendron.bugcatcher
+    - [lookupConfirmVaultOnCreate: true does not prompt which vault to create notes](https://github.com/dendronhq/dendron/issues/1570)
+- [Idan Gazit](https://github.com/idan) `@idan#8549`
+    - #dendron.bugcatcher
+    - [.gitignore should include seeds by default ](https://github.com/dendronhq/dendron/issues/1576)
+- [Tycholiz](https://github.com/Tycholiz) `Tychronos#6624`
+    - [Refactor Hierarchy does not obey stubs with content](https://github.com/dendronhq/dendron/issues/1563)
+    - [Lookup tool shows + sign on already existing notes](https://github.com/dendronhq/dendron/issues/1558)
+- [Laurentiu Nicola](https://github.com/lnicola) `@lnicola#6853`
+    - #dendron.taxonomist
+    - fix typo in issue templates
 ### Changelog
 ![[dendron.release.changelog#064,1:#063]]
