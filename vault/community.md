@@ -17,7 +17,9 @@ We have a bunch of community events that we host throughout the week. You can st
 
 - [Google Calendar Link](https://calendar.google.com/calendar/embed?src=0s84hkmgkb4p699ahgicq0j16o%40group.calendar.google.com&ctz=America%2FLos_Angeles)
 
-### Social Media
+### Join other Dendrologists
+
+Outside of events, you can connect with Dendron devs, contributors, and other members of the Dendron community in a few ways:
 
 - [Discord](https://discord.gg/6j85zNX)
 - [Twitter @dendronhq](https://twitter.com/dendronhq)
