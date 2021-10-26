@@ -16,3 +16,8 @@ Dendron wouldn't be what it is today without our wonderful set of members and su
 We have a bunch of community events that we host throughout the week. You can stay up to date on whats happening by subscribing to our community calendar!
 
 - [Google Calendar Link](https://calendar.google.com/calendar/embed?src=0s84hkmgkb4p699ahgicq0j16o%40group.calendar.google.com&ctz=America%2FLos_Angeles)
+
+### Social Media
+
+- [Discord](https://discord.gg/6j85zNX)
+- [Twitter @dendronhq](https://twitter.com/dendronhq)
