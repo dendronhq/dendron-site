@@ -2,10 +2,30 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1634933973090
+updated: 1635269826945
 created: 1601508213606
 date: '2022-01-01'
 ---
+
+
+
+## 0.64.2
+
+### Features
+- feat(command): move header command ([[docs|dendron.topic.commands#move-header]]) (#1349)  @hikchoi 
+
+### Enhancements
+- enhance(schemas): expand schema format to allow for inlined children ([[docs|dendron://dendron.dendron-site/dendron.topic.schema#inline-schema-anatomy]]) (#1552) @nickolay
+- enhance(pods): enhance gdoc import formatting (#1538) @joshi
+
+### Bug Fixes
+- fix(workspace): notes getting whitespace changes after workspace sync (#1559) @joshi
+- fix(workspace): frontmatter variable substitution not rendering in preview V2 (#1567) @hikchoi
+- fix(markdown): email parsed as user tag & option to disable user tags and hashtags (#1562) @kaan
+- fix(markdown): footnote links move view in publishing & preview (#1568) @kaan
+- fix(publish): remove .next dir if it exists in publish init (#1548) @jonathan
+- fix(publish): title parts duplicated in Next publishing search (#1573)
+- fix(commands): move header command modifying unrelated note content (#1574) @hikchoi
 
 ## 0.64.1
 
@@ -35,7 +55,7 @@ dendron dev run_migration --migrationVersion 0.64.1
 ```
 
 ### Enhancements
-- enhance(cli): support output option when using `dendron note lookup` ([[docs|dendron.topic.cli#note-commands]]) (#1526) @kevin
+- enhance(cli): support output option when using `dendron note lookup` ([[docs|dendron://dendron.dendron-site/dendron.topic.cli.notes#lookup]]) (#1526) @kevin
 - enhance(commands): update default aliases when note is updated (#1557) @kaan
 - enhance(cli): add run migration command in cli ([[docs|dendron.dev.cli#run_migration]]) (#1560) @hikchoi
 
