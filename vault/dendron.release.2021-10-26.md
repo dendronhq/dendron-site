@@ -2,7 +2,7 @@
 id: dmymhrncBTSn2q4ZgKy5B
 title: Release Notes (version 0.65)
 desc: ''
-updated: 1635270099452
+updated: 1635270584199
 created: 1635269443644
 ---
 
@@ -41,6 +41,29 @@ dendron dev run_migration --migrationVersion 0.64.1
 - fix(commands): move header command modifying unrelated note content 
 
 ### Community
+- [[people.eltociear]]
+    - #dendron.taxonomist
+    - fix typo in test-workspace
+- [[people.kimsia]]
+    - #dendron.bugcatcher
+    - #dendron.environmentalist
+    - [[dendron.github.issues.1582-helpful-edit-in-github-link-missing-in-tutorial-when-vscode]]
+    - [[dendron.github.issues.1580-dendron-command-palette--sign-in--sign-up--leads-to-broken-auth-link]]
+- [[people.demorganslaw]]
+    - #dendron.bugcatcher
+    - [[dendron.github.issues.1579-cli-getting-dendronerror-no-root-found-for-filestem]]
+- [[people.guilhermesfc]]
+    - #dendron.bugcatcher
+    - [[dendron.github.issues.1570-lookupconfirmvaultoncreate-true-does-not-prompt-which-vault-to-create-notes]]
+- [[people.idan]]
+    - #dendron.bugcatcher
+    - [[dendron.github.issues.1576-gitignore-should-include-seeds-by-default]]
+- [[people.tychronos]]
+    - [[dendron.github.issues.1563-refactor-hierarchy-does-not-obey-stubs-with-content]]
+    - [[dendron.github.issues.1558-lookup-tool-shows--sign-on-already-existing-notes]]
+- [[people.laurentiu-nicola]]
+    - #dendron.taxonomist
+    - fix typo in issue templates
 
 #### General Updates
 
