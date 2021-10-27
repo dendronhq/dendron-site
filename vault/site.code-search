@@ -1,31 +1,72 @@
-# Query: editor.suggest.showSnippets
-# Flags: RegExp
+# Query: alt
+# Flags: CaseSensitive WordMatch RegExp
 # Including: dendron.*
+# Excluding: blog.*,dendron.journal.*,.dendron.*,dendron.release.*
 # ContextLines: 1
 
-5 results - 5 files
+15 results - 8 files
 
-dendron.dendron-site • dendron.guides.tips.md:
-  358      // as you type:
-  359:     "editor.suggest.showSnippets": false,
-  360    },
+dendron.dendron-site • dendron.dev.triage.process.md:
+  93  When we refer to "up-voting" a feature request, we specifically mean adding a GitHub `+1`/"👍" reaction to the issue description. In the GitHub UI this looks like so:
+  94: <img width="867" alt="GitHub UI for a issue with a +1 reaction" src="https://user-images.githubusercontent.com/8586769/87996982-b0568c80-caa8-11ea-87b8-a01371e6e338.png">
+  95  
 
-dendron.dendron-site • dendron.topic.snippets.md:
-  119  ```
-  120: "editor.suggest.showSnippets": false,
-  121  ```
+dendron.dendron-site • dendron.topic.images.md:
+  36  ```
+  37: ![alt text (on mouse over)](/assets/image.png){width: 400px}
+  38  ```
 
-workspace.handbook • dendron.code-workspace:
-  19          "editor.suggest.snippetsPreventQuickSuggestions": false,
-  20:         "editor.suggest.showSnippets": true,
-  21          "editor.tabCompletion": "on"
+dendron.dendron-site • dendron.topic.lookup.modifiers.md:
+  481    { // lookup `recipe.` hierarchy
+  482:     "key": "alt+l r",
+  483      "command": "dendron.lookupNote",
 
-workspace • dendron.code-workspace:
-  89          "editor.suggest.snippetsPreventQuickSuggestions": false,
-  90:         "editor.suggest.showSnippets": true,
-  91          "editor.tabCompletion": "on",
+  488    { // lookup `meeting.{journal-format}.` hierarchy
+  489:     "key": "alt+l m",
+  490      "command": "dendron.lookupNote",
 
-workspace • dendron.blog/dendron.code-workspace:
-  18          "editor.suggest.snippetsPreventQuickSuggestions": false,
-  19:         "editor.suggest.showSnippets": true,
-  20          "editor.tabCompletion": "on"
+  513    { // open the note `todo` to the side, without confirmation.
+  514:     "key": "alt+l 0",
+  515      "command": "dendron.lookupNote",
+
+  540    { // look up note, then open it to the side. also copy selected note's link.
+  541:     "key": "alt+l .",
+  542      "command": "dendron.lookupNote",
+
+  548    { // same as above, but with multi select.
+  549:     "key": "alt+l >",
+  550      "command": "dendron.lookupNote",
+
+private • dendron.github.issues.953-Link to a stub note opens empty file.md:
+  40  
+  41: <img width="482" alt="Screenshot 2021-07-12 at 15 21 56" src="https://user-images.githubusercontent.com/25076171/125268137-09a47500-e325-11eb-98fa-dbf09f1b1d5e.png">
+  42  
+
+private • dendron.github.issues.987-Getting Error no template found for object Object while creating a new note.md:
+  51  
+  52: <img width="1174" alt="image" src="https://user-images.githubusercontent.com/120051/125760239-d9a4ecce-2bdf-4e7b-b9df-d6e9efad84cb.png">
+  53  
+  54: <img width="1165" alt="image" src="https://user-images.githubusercontent.com/120051/125760291-7f02e0c8-cc0f-4b79-9c3f-671627718df7.png">
+  55  
+
+private • dendron.github.issues.1207-rename-note-command-doesnt-update-wikilinks-to-the-renamed-note-if-they-are-inside-the-renamed-note.md:
+  61  Wikilink `[[note1]]` does not update when using `rename note` command to rename `note1` to `note01`:
+  62: <img width="491" alt="shows error" src="https://user-images.githubusercontent.com/850915/130738183-0e9a432e-a3de-4759-89ac-ed2320c41088.png">
+  63  
+  64  Wikilink successfully updates in `note2`:
+  65: <img width="491" alt="shows error" src="https://user-images.githubusercontent.com/850915/130738561-ed3177b3-2961-424d-a37b-101ffc841af5.png">
+  66  
+
+private • dendron.github.issues.1257-make-dendroncodeworkspace-renamable-pls.md:
+  45  
+  46: It is frustrating when working with multiple workspaces and when I "alt + tab", all of them say "- dendron (Workspace)".
+  47  
+
+  49  
+  50: Make `dendron.code-workspace` renamable so that I can differentiate between them when "alt +tab"
+  51  
+
+private • dendron.github.issues.1273-bugfeature-htmlimages.md:
+  43  ```html
+  44: <img src="/assets/images/2021-07-04-14-35-50.png" alt="" width="450" />
+  45  ```

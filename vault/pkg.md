@@ -2,7 +2,7 @@
 id: 32cdd4aa-d9f6-4582-8d0c-07f64a00299b
 title: Packages
 desc: ''
-updated: 1634749790411
+updated: 1635350996482
 created: 1596684856906
 nav_order: 10
 ---
@@ -11,6 +11,7 @@ nav_order: 10
 This goes over all packages in the dendron monorepo
 
 To understand how to navigate these packages, see [[here|dendron://dendron.dendron-site/pkg.map]]
+
 
 ## User Facing
 

@@ -15,10 +15,10 @@ Dendron has two navigation sections: the nav bar on the left and the table of co
 
 Nav order is controlled, in order of precedence, by the following: 
 
-- custom [[nav_order|dendron.topic.publishing.configuration#nav_order]] property in the frontmatter
+- custom [[nav_order|dendron.topic.publishing-legacy.configuration#nav_order]] property in the frontmatter
 - alphabetically by title
 
-The navbar will first show all notes with the `nav_order` property before showing notes alphabetically. Notes with the [[nav_exclude|dendron.topic.publishing.configuration#nav_exclude]] attribute will not be shown in the navbar
+The navbar will first show all notes with the `nav_order` property before showing notes alphabetically. Notes with the [[nav_exclude|dendron.topic.publishing-legacy.configuration#nav_exclude]] attribute will not be shown in the navbar
 
 ## Table of Contents
 
@@ -26,7 +26,7 @@ The nav order for the table of contents that is generated at the bottom of each 
 
 ## Nav Exclude
 
-To exclude an item from navigation, you can set the [[nav_exclude|dendron.topic.publishing.configuration#nav_exclude]] on the note frontmatter. This will exclude it from both the navigation side bar and the table of contents.
+To exclude an item from navigation, you can set the [[nav_exclude|dendron.topic.publishing-legacy.configuration#nav_exclude]] on the note frontmatter. This will exclude it from both the navigation side bar and the table of contents.
 
 ## Children
 

@@ -432,7 +432,7 @@ Disable git linking for this page
 
 ### gitNotePath
 
-When set, override how we generate the URL for the [[edit on github|dendron.topic.publishing.features#edit-on-github]] link.
+When set, override how we generate the URL for the [[edit on github|dendron.topic.publishing-legacy.features#edit-on-github]] link.
 
 There are a few special variables you can set:
 

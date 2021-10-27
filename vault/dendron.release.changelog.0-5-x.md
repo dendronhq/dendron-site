@@ -84,8 +84,8 @@ Bundle extension size is reduced by 50%
 ### Enhancements
 - autocomplete and refactoring for users notes ([[docs|dendron.topic.users]])
 - frontmatter tags displayed similarly to regular tags when published 
-- support [[customHeaderPath|dendron.topic.publishing.configuration#customheaderpath]] for Next publishing
-- support [[collection options|dendron.topic.publishing.configuration#collection-options]] for Next publishing
+- support [[customHeaderPath|dendron.topic.publishing-legacy.configuration#customheaderpath]] for Next publishing
+- support [[collection options|dendron.topic.publishing-legacy.configuration#collection-options]] for Next publishing
 - progress bar for [[refactoring|dendron.topic.commands#refactor-hierarchy]]
 
 ### Bug Fixes

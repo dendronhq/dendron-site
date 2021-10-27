@@ -4,7 +4,7 @@ title: Release Notes(version 0.7)
 desc: ''
 updated: 1630793198334
 created: 1596374871110
-date: 2020-08-16
+date: '2020-08-16'
 ---
 This is one of our biggest releases yet! Support for r**efactoring hierarchies** and **note references** (think Roam's block references) are the highlight of this week's work. Enjoy responsibly 🌱
 
@@ -85,11 +85,11 @@ Or a range!
 
 ## Pods
 
-### Publish Multiple Hierarchies within a Vault ([[docs|dendron.topic.publishing.selective-publication]])
+### Publish Multiple Hierarchies within a Vault ([[docs|dendron.topic.publishing-legacy.selective-publication]])
 
 You can now publish 0, one, or N number of hierarchies within a vault. We're working on negative and complex numbers of hierarchies for future releases.  
 
-### Ability to not Publish Select Lines ([[docs|dendron.topic.publishing.selective-publication]])
+### Ability to not Publish Select Lines ([[docs|dendron.topic.publishing-legacy.selective-publication]])
 
 Unlike what Mark Zuckerberg might want you to believe, people weren't meant to share EVERYTHING with EVERYONE. Use this to keep private lines private!
 

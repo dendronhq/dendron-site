@@ -7,7 +7,7 @@ created: 1614547017272
 ---
 
 
-You can use Dendron for blogging. To do so, add [[collection specific options |dendron.topic.publishing.configuration#collection-options]] to your frontmatter. 
+You can use Dendron for blogging. To do so, add [[collection specific options|dendron.topic.publishing-legacy.configuration#collection-options]] to your frontmatter. 
 
 
 ### Using Collections

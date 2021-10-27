@@ -65,7 +65,7 @@ When you make a reference, Dendron will include the note from the same note. You
 
 You can publish from a multi-vault enabled workspace if you are using [[dendron-11ty|pkg.dendron-publishing]] to publish. 
 
-We have added a new configuration, `duplicateNoteBehavior`, which [[controls|dendron.topic.publishing.configuration#duplicatenotebehavior-optional]] how Dendron handles duplicate notes across multiple vaults.
+We have added a new configuration, `duplicateNoteBehavior`, which [[controls|dendron.topic.publishing-legacy.configuration#duplicatenotebehavior-optional]] how Dendron handles duplicate notes across multiple vaults.
 
 ### Version Control
 

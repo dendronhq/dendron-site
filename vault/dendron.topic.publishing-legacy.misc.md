@@ -16,4 +16,4 @@ There are a few differences between a published Dendron site and what you see us
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/Markdown_-_Dendron.jpg)
 
 ## Related
-- [[Preview Your Site|dendron.topic.publishing.quickstart.preview-your-site]]
+- [[Preview Your Site|dendron.topic.publishing-legacy.quickstart.preview-your-site]]

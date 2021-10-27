@@ -68,11 +68,11 @@ Create new note from a selection
 
 ### Published sites use pretty refs
 
-![[dendron.topic.publishing.configuration#useprettyrefs,1:#*]]
+![[dendron.topic.publishing-legacy.configuration#useprettyrefs,1:#*]]
 
 ### Support noindex option
 
-![[dendron.topic.publishing.configuration#noindex,1:#*]]
+![[dendron.topic.publishing-legacy.configuration#noindex,1:#*]]
 
 ### Enhancements
 

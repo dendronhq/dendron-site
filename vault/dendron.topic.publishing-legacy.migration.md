@@ -14,7 +14,7 @@ If you currently have a Jekyll based Dendron page, note that the following setti
 - `CNAME` is now controlled by `githubCname` property in `dendron.yml`
 - we are using [prismjs](https://prismjs.com/) to do syntax highlighting which means code block highlighting languages might appear under a different identifier. 11ty will throw an error if compiling a language without the right identifier 
   - you can see the list of all supported languages [here](https://prismjs.com/#supported-languages)
-- dendron [[writeStubs|dendron.topic.publishing.configuration#writestubs-optional]] will be set to true by default
+- dendron [[writeStubs|dendron.topic.publishing-legacy.configuration#writestubs-optional]] will be set to true by default
 
 ### Sample dendron.yml config
 

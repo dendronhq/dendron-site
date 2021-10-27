@@ -7,19 +7,19 @@ created: 1609883716869
 ---
 In Dendron, you control what gets published. 
 
-![[dendron.topic.publishing.configuration#summary,1:#*]]
+![[dendron.topic.publishing-legacy.configuration#summary,1:#*]]
 
 ## Globally
 
-![[dendron.topic.publishing.configuration#sitehierarchies-required:#*]]
+![[dendron.topic.publishing-legacy.configuration#sitehierarchies-required:#*]]
 
 ## Per Hierarchy
 
-![[dendron.topic.publishing.configuration#hierarchy-configuration:#noindexByDefault]]
+![[dendron.topic.publishing-legacy.configuration#hierarchy-configuration:#noindexByDefault]]
 
 ## Per Note
 
-![[dendron.topic.publishing.configuration#note-configuration:#nav_exclude]]
+![[dendron.topic.publishing-legacy.configuration#note-configuration:#nav_exclude]]
 
 ## 403 Page
 

@@ -57,6 +57,6 @@ Our documentation changes a lot week by week. Below is a highlight of some updat
     -   [[Seed bank RFC|dendron.rfc.14-seed-bank]]
     -   [[Updated alternatives list|dendron.alternatives]]
 -   dev
-    -   [[Hide Block Anchors config|dendron.topic.publishing.configuration]]
+    -   [[Hide Block Anchors config|dendron.topic.publishing-legacy.configuration]]
     -   [[Workspace Sync Config|dendron.topic.vaults]]
     -   [[Added Noteless to mobile support|dendron.guides.cook]]

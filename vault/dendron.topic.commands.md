@@ -634,7 +634,7 @@ Get URL of current note from published site
 
 If you highlight a header, will copy the url with the header set as the anchor
 
-The url is taken from the [[siteUrl|dendron.topic.publishing.configuration#siteurl]] property.
+The url is taken from the [[siteUrl|dendron.topic.publishing-legacy.configuration#siteurl]] property.
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/notes.copy-url.gif)
 

@@ -31,7 +31,7 @@ Some things to note:
 
 ## Exclude page from index
 
-- [[Exclude from indexing|dendron.topic.publishing.advanced#exclude-from-indexing]]
+- [[Exclude from indexing|dendron.topic.publishing-legacy.advanced#exclude-from-indexing]]
 
 ## Exclude hierarchy from index
 

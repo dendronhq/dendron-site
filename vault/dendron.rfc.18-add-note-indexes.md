@@ -12,7 +12,7 @@ Support adding index sections to notes.
 
 ## Context
 
-A common use case is to have an index section that lists all the contents of a particular area of the text. In Dendron, we already show you all [[children|dendron.topic.publishing.navigation#children]] of the current note when publishing but this is not available in the editor.
+A common use case is to have an index section that lists all the contents of a particular area of the text. In Dendron, we already show you all [[children|dendron.topic.publishing-legacy.navigation#children]] of the current note when publishing but this is not available in the editor.
 
 ## Proposal
 

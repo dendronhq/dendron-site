@@ -8,7 +8,7 @@ date: '2020-09-06'
 ---
 Dendron turns 0.10 today 🌲. To mark this milestone, the pre-amble for this release will be a tad longer (and more sentimental) than usual. 
 
-This week's release focuses on publication and exports. Dendron sites now come with [[one click collaboration support|dendron.topic.publishing.features#edit-on-github]], [[note references|dendron.topic.publishing.features#note-references]], and [[hierarchy hints|dendron.topic.publishing.features#nav-based-hierarchy-hints]]. If publishing online isn't your jam, you'll be happy to know that you can now [export your notes](https://www.dendron.so/notes/66727a39-d0a7-449b-a10d-f6c438185d7f.html#json-pod) to any format you desire (as long as that format is JSON 😅 - more formats coming soon).
+This week's release focuses on publication and exports. Dendron sites now come with [[one click collaboration support|dendron.topic.publishing-legacy.features#edit-on-github]], [[note references|dendron.topic.publishing-legacy.features#note-references]], and [[hierarchy hints|dendron.topic.publishing-legacy.features#nav-based-hierarchy-hints]]. If publishing online isn't your jam, you'll be happy to know that you can now [export your notes](https://www.dendron.so/notes/66727a39-d0a7-449b-a10d-f6c438185d7f.html#json-pod) to any format you desire (as long as that format is JSON 😅 - more formats coming soon).
 
 It's now been almost two months since Dendron first went into preview. Since launch, we've passed over a thousand downloads and closed over [100 issues](https://github.com/dendronhq/dendron/issues?q=is%3Aissue+is%3Aclosed) worth of features, enhancements, and bug fixes. 
 

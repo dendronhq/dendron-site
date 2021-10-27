@@ -22,7 +22,7 @@ Similarly, if a user wants to reference urls from multiple published sites, they
 
 ## Proposal
 
-Introduce a `sites` parameter that is made from multiple [[site objects|dendron://dendron.dendron-site/dendron.topic.publishing.configuration#global-configuration]].
+Introduce a `sites` parameter that is made from multiple [[site objects|dendron://dendron.dendron-site/dendron.topic.publishing-legacy.configuration#global-configuration]].
 
 When a user uses [[Copy Note URL|dendron://dendron.dendron-site/dendron.topic.commands#copy-note-url]], Dendron can output one of the following:
 - if the note is part of **one** published site (as determined by `siteHierarchies` and `duplicateNoteBehavior`), we return the url

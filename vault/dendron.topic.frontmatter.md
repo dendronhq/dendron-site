@@ -1,7 +1,7 @@
 ---
 id: ffec2853-c0e0-4165-a368-339db12c8e4b
 title: Frontmatter
-desc: ""
+desc: ''
 updated: 1628101059620
 created: 1595352354163
 stub: false
@@ -73,4 +73,4 @@ This is reserved for internal use
 
 # Other keys
 
-![[dendron.topic.publishing.configuration#note-configuration]]
+![[dendron.topic.publishing-legacy.configuration#note-configuration]]
