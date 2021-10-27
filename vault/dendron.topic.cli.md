@@ -124,7 +124,7 @@ Options:
 
 #### Using a different port
 
-![[dendron.topic.publishing-legacy.configuration#previewport,1:#*]]
+![[dendron.topic.publish-legacy.configuration#previewport,1:#*]]
 
 #### Connect to Open Workspace
 

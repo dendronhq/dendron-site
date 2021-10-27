@@ -73,4 +73,4 @@ This is reserved for internal use
 
 # Other keys
 
-![[dendron.topic.publishing-legacy.configuration#note-configuration]]
+![[dendron.topic.publish-legacy.configuration#note-configuration]]

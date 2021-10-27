@@ -46,7 +46,7 @@ You can create a daily journal using `> Dendron: Create Daily Journal Note` or `
 
 ## Pods
 
-### Support different defaults on a per hierarchy basis when publishing ([[docs|dendron.topic.publishing-legacy.selective-publication]])
+### Support different defaults on a per hierarchy basis when publishing ([[docs|dendron.topic.publish-legacy.selective-publication]])
 
 You can now set different publishing defaults for each hierarchy (as well as general defaults for your entire vault.)
 
@@ -63,7 +63,7 @@ config:
     publishByDefault: false
 ```
 
-### Implement new website config syntax ([[docs|dendron.topic.publishing-legacy.selective-publication]])
+### Implement new website config syntax ([[docs|dendron.topic.publish-legacy.selective-publication]])
 
 New config syntax unifies a bunch of different configuration options and renames others to more sensible names.
 

@@ -11,7 +11,7 @@ This guide describes publishing to github using github actions
 ## Pre-requisite
 
 -   you already have your [[workspace under version control|dendron.topic.git]] and a repository on github
--   you have [[configured|dendron.topic.publishing-legacy.quickstart.publishing-your-site#configure-your-notes-for-publication]] your `dendron.yml` for publication
+-   you have [[configured|dendron.topic.publish-legacy.quickstart.publishing-your-site#configure-your-notes-for-publication]] your `dendron.yml` for publication
 
 ## Checklist
 

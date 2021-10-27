@@ -634,7 +634,7 @@ Get URL of current note from published site
 
 If you highlight a header, will copy the url with the header set as the anchor
 
-The url is taken from the [[siteUrl|dendron.topic.publishing-legacy.configuration#siteurl]] property.
+The url is taken from the [[siteUrl|dendron.topic.publish-legacy.configuration#siteurl]] property.
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/notes.copy-url.gif)
 
@@ -727,7 +727,7 @@ You can pick among various actions for the doctor to perform.
 ##### fixFrontmatter
 
 - Fixes notes that are missing the frontmatter, or that have broken frontmatter.
-- Setup a `docs` folder if it doesn't exist. Required if you want to [[publish|dendron.topic.publishing]] your notes
+- Setup a `docs` folder if it doesn't exist. Required if you want to [[publish|dendron.topic.publish]] your notes
 
 <a href="https://www.loom.com/share/bd045f708f8e474193de8e3de0dc820f"> <img style="" src="https://cdn.loom.com/sessions/thumbnails/bd045f708f8e474193de8e3de0dc820f-with-play.gif"> </a>
 

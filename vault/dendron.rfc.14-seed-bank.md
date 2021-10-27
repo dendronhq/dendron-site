@@ -142,7 +142,7 @@ Dendron will pull in all dependencies of seed B as well as seed A
 
 - [[Next Phase ⏩|dendron.ref.status#next-phase-]]
 
-By default, publishing is disabled for seeds. If you want to publish a seed, you can set its [[visibility|dendron.rfc.14-seed-bank.configuration#visibility]] to `public`. At this point, the standard publishing [[configuration|dendron.topic.publishing-legacy.configuration]] rules appyl.
+By default, publishing is disabled for seeds. If you want to publish a seed, you can set its [[visibility|dendron.rfc.14-seed-bank.configuration#visibility]] to `public`. At this point, the standard publishing [[configuration|dendron.topic.publish-legacy.configuration]] rules appyl.
 
 When you publish a seed, we will automatically add a banner at the top of any page that comes from a seed.
 

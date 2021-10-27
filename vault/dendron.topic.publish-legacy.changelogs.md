@@ -22,7 +22,7 @@ Update `dendron.yml`
 
 The current version of changelogs is deliberately limited as we are iterating on the feature. Currently it will only generate a diff based off the latest local git commit. It also assumes that your entire workspace is versioned using one git repo. 
 
-- NOTE: this currently **won't** work with the documented way of [[publishing with github actions|dendron.topic.publishing-legacy.github]]
+- NOTE: this currently **won't** work with the documented way of [[publishing with github actions|dendron.topic.publish-legacy.github]]
 
 ## FAQ
 

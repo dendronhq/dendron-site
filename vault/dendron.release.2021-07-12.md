@@ -32,7 +32,7 @@ Our documentation changes a lot week by week. Below is a highlight of some updat
 
 
 ### Pruning
-- [[hide block anchors config|dendron.topic.publishing-legacy.configuration]] was removed. Hiding published anchors is the expected behavior (no config needed). 
+- [[hide block anchors config|dendron.topic.publish-legacy.configuration]] was removed. Hiding published anchors is the expected behavior (no config needed). 
 - Dendron Markdown Links is now removed. 
 
 ### Ongoing 

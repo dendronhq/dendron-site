@@ -85,11 +85,11 @@ Or a range!
 
 ## Pods
 
-### Publish Multiple Hierarchies within a Vault ([[docs|dendron.topic.publishing-legacy.selective-publication]])
+### Publish Multiple Hierarchies within a Vault ([[docs|dendron.topic.publish-legacy.selective-publication]])
 
 You can now publish 0, one, or N number of hierarchies within a vault. We're working on negative and complex numbers of hierarchies for future releases.  
 
-### Ability to not Publish Select Lines ([[docs|dendron.topic.publishing-legacy.selective-publication]])
+### Ability to not Publish Select Lines ([[docs|dendron.topic.publish-legacy.selective-publication]])
 
 Unlike what Mark Zuckerberg might want you to believe, people weren't meant to share EVERYTHING with EVERYONE. Use this to keep private lines private!
 

@@ -17,7 +17,7 @@ You can see deployed examples of these instructions in the following repositorie
 
 ## Process
 1. Create package.json with dendron-cli
-![[dendron://dendron.dendron-site/dendron.topic.publishing.cook.common#setup-dendron-cli,1:#*]]
+![[dendron://dendron.dendron-site/dendron.topic.publish.cook.common#setup-dendron-cli,1:#*]]
 1. Create a pages branch
   ```sh
   git checkout -b pages

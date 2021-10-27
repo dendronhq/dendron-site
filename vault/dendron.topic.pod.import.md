@@ -31,7 +31,7 @@ When importing, you can either import everything from source as multiple files o
 * description: "frontmatter to add to each note"
 * type: "object"
 
-You can add custom [[frontmatter|dendron.topic.frontmatter]] to notes as you import them. This is useful for example, when you want to set custom [[publishing options|dendron.topic.publishing-legacy.configuration#note-configuration]] for imported notes
+You can add custom [[frontmatter|dendron.topic.frontmatter]] to notes as you import them. This is useful for example, when you want to set custom [[publishing options|dendron.topic.publish-legacy.configuration#note-configuration]] for imported notes
 
 ### fnameAsId
 * description: "use the file name as the id"

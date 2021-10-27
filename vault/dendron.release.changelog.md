@@ -168,7 +168,7 @@ dendron dev run_migration --migrationVersion 0.64.1
 - feat(workspace): add survey for new users(#1409)
 
 ### Enhancements
-- enhance(markdown): option to add `#` symbols for FM tags (#1421) @kaan ([[docs|dendron://dendron.dendron-site/dendron.topic.publishing-legacy.configuration#usehashesforfmtags]])
+- enhance(markdown): option to add `#` symbols for FM tags (#1421) @kaan ([[docs|dendron://dendron.dendron-site/dendron.topic.publish-legacy.configuration#usehashesforfmtags]])
 - enhance(publish): add published, modified, and tags to NextJS SEO (#1412) @nwehner
 - enhance(workspace): mini optimization in looking up notes by filename (#1427) @nickolay
 - enhance(workspace): Leave trace on source note while using selectionExtract @joshi
@@ -188,7 +188,7 @@ dendron dev run_migration --migrationVersion 0.64.1
 
 ### Enhancements
 - enhance(publish): support [g4a tags](https://support.google.com/analytics/answer/10089681?hl=en) @kevin
-- enhance(publish): support twitter card @kevin ([[docs|dendron://dendron.dendron-site/dendron.topic.publishing-legacy.configuration#twitter]])
+- enhance(publish): support twitter card @kevin ([[docs|dendron://dendron.dendron-site/dendron.topic.publish-legacy.configuration#twitter]])
 - enhance(publish): add border color to table (#1387) @viztor
 - enhance(publish): filter body out of generated notes.json for next (#1380) @viztor
 - enhance(pods): resolve relative links on markdown import @joshi

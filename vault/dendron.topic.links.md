@@ -39,7 +39,7 @@ Wiki links also have support for highlighting in the editor. Existing notes will
 
 ## Children Links
 
-When you [[publish|dendron.topic.publishing]] your notes, Dendron shows all children of the note at the bottom.
+When you [[publish|dendron.topic.publish]] your notes, Dendron shows all children of the note at the bottom.
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/Quickstart_-_Dendron.jpg)
 

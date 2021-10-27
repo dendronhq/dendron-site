@@ -31,7 +31,7 @@ Execute [[Insert Note|dendron.topic.commands#insert-note]] with the hierarchy pr
 - default: false
 - status: experimental 🚧
 
-Turn on to enable [[changelogs|dendron.topic.publishing-legacy.changelogs]]
+Turn on to enable [[changelogs|dendron.topic.publish-legacy.changelogs]]
 
 ### hierarchyDisplayTitle
 - default: Children

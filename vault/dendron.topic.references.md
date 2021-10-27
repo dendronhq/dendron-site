@@ -245,7 +245,7 @@ References accept the `*` operator at the end which lets you grab all notes of a
 
 ## Publishing
 
-When you [[publish|dendron.topic.publishing]] a note with a note reference, Dendron will embed the content of the reference in the page. If the content is part of a published page as specified by the publishing [[configuration|dendron.topic.publishing-legacy.configuration]], dendron will include a link to the page. If not, Dendron will embed the content without a link. If the referenced content is not publishable (eg. `published: false` set on frontmatter), dendron will generate a custom [[404 link|dendron.topic.publishing-legacy.features#selective-publication]].
+When you [[publish|dendron.topic.publish]] a note with a note reference, Dendron will embed the content of the reference in the page. If the content is part of a published page as specified by the publishing [[configuration|dendron.topic.publish-legacy.configuration]], dendron will include a link to the page. If not, Dendron will embed the content without a link. If the referenced content is not publishable (eg. `published: false` set on frontmatter), dendron will generate a custom [[404 link|dendron.topic.publish-legacy.features#selective-publication]].
 
 ## Configuration
 

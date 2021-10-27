@@ -91,7 +91,7 @@ created: 1629505311218
 ### Enhancements
 - autofolding frontmatter ([[docs|dendron.topic.config.dendron#autofoldfrontmatter]])
 - position cursor to end of file when new note created
-- new seo frontmatter options when publishing ([[docs|dendron.topic.publishing-legacy.configuration#seo-options]])
+- new seo frontmatter options when publishing ([[docs|dendron.topic.publish-legacy.configuration#seo-options]])
 
 ## 0.47.2
 
@@ -104,7 +104,7 @@ created: 1629505311218
 
 -   don't update update time in note if content hasn't changed
 -   bad note frontmatter won't crash workspace
--   support canonical url option when publishing ([[docs|dendron.topic.publishing-legacy.configuration#canonicalurl]])
+-   support canonical url option when publishing ([[docs|dendron.topic.publish-legacy.configuration#canonicalurl]])
 -   dendron cli doesn't need `wsRoot` option if executing inside subdirectory of a workspace
 -   - VS Code Workspace Trust: Dendron now supports Workspace Trust as 'limited in restricted mode' - all Dendron functionality will work except for hooks. For more information see [VS Code Workspace Trust](https://code.visualstudio.com/docs/editor/workspace-trust)
 
