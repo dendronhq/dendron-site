@@ -2,7 +2,7 @@
 id: f83c1d87-eac0-48f3-a5cf-8a69989d8ec1
 title: Dendrons Config
 desc: ''
-updated: 1634663356384
+updated: 1634799984314
 created: 1619539817122
 ---
 
@@ -107,6 +107,16 @@ When set to true, use frontmatter as title when publishing and in the preview.
 - default: true
 
 Turn on [Katex](https://katex.org/) support
+
+### enableUserTags
+- default: true
+
+Enables [[user tags|dendron.topic.users#user-tags]] support.
+
+### enableHashTags
+- default: true
+
+Enables [[hashtags|dendron.topic.tags#hashtags]] support.
 
 ### useNoteTitleForLink
 

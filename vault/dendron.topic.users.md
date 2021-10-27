@@ -2,7 +2,7 @@
 id: ESqOqSOEo54lqvGLlQXM6
 title: Users
 desc: ''
-updated: 1630389974807
+updated: 1634799968265
 created: 1630388973002
 ---
 
@@ -50,3 +50,7 @@ just notes under the `user.` hierarchy. This has a lot of benefits:
 <!-- -   You can use commands like [[Rename Note|dendron.topic.commands#rename-note]] or [[Refactor Hierarchy|dendron.topic.commands#refactor-hierarchy]] to rename or reorganize your tags, and it will update all notes where these tags were used. -->
 - You can add content to the user note and it will show up when you hover over the user tag in the editor, or when you publish it. Try clicking on the example tag above!
 - You can organize users into hierarchies (like `@scientist.Margaret-Hamilton` and `@historical.Ada-Lovelace`).
+
+#### Configuration
+
+Don't like user tags? You can disable them by setting the [[enableUserTags|dendron.topic.config.dendron#enableusertags]] configuration to false.
