@@ -1,13 +1,8 @@
 ---
 id: 8bc9b3f1-8508-4d3a-a2de-be9f12ef1821
 title: Tags
-<<<<<<< HEAD
-desc: ""
-updated: 1634800012490
-=======
 desc: ''
 updated: 1632432246814
->>>>>>> b566c32d (refactor 11ty to legacy publishing)
 created: 1601910058115
 tags:
   - example.from-frontmatter
