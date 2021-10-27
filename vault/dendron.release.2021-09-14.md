@@ -9,8 +9,8 @@ created: 1631659388102
 Dendron 0.59 has sprouted  🌱
 
 ### Highlights
-- feat(publish): publish using next and github pages ([[docs|dendron.topic.images#extended-images]])
-- feat(markdown): custom css for images ([[docs|dendron.topic.publishing-next.cook.github#summary]])
+- feat(publish): publish using next and github pages ([[docs|dendron.topic.publishing-next.cook.github#summary]])
+- feat(markdown): custom css for images ([[docs|dendron.topic.images#extended-images]])
 - enhance(pods) markdown import to update asset links
 
 ### Everything Else
