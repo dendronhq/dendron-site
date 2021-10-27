@@ -52,9 +52,9 @@ Select the docs folder and click save.
 
 1. Navigate to the root of your workspace (directory with `dendron.yml`) 
 1. Initialize dendron-cli
-![[dendron://dendron.dendron-site/dendron.topic.publishing-next.cook.common#setup-dendron-cli,1:#*]]
+![[dendron://dendron.dendron-site/dendron.topic.publishing.cook.common#setup-dendron-cli,1:#*]]
 1. Initialize dendron next publishing
-![[dendron://dendron.dendron-site/dendron.topic.publishing-next.cook.common#setup-notes,1:#*]]
+![[dendron://dendron.dendron-site/dendron.topic.publishing.cook.common#setup-notes,1:#*]]
 
 
 ### Configure your notes for publication
@@ -100,7 +100,7 @@ site:
 ### Build and preview your notes
 
 
-![[dendron.topic.publishing-next.cook.common#preview-notes,1:#*]]
+![[dendron.topic.publishing.cook.common#preview-notes,1:#*]]
 
 
 ### Publish your notes

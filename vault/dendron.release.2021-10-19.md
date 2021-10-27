@@ -11,8 +11,8 @@ Dendron 0.64 has sprouted  🌱
 More streamlined publishing as well as lots of fixes and enhancements to existing features 
 
 ### Highlights
-- feat(publish): add dendron publish dev command ([[docs|dendron://dendron.dendron-site/dendron.topic.publishing-next.cli#dev]])
-- feat(publish): add dendron publish export command ([[docs|dendron://dendron.dendron-site/dendron.topic.publishing-next.cli#export]])
+- feat(publish): add dendron publish dev command ([[docs|dendron://dendron.dendron-site/dendron.topic.publishing.cli#dev]])
+- feat(publish): add dendron publish export command ([[docs|dendron://dendron.dendron-site/dendron.topic.publishing.cli#export]])
 - fix(publish): optimize nextjs publishing search
 
 ### Everything Else
@@ -36,7 +36,7 @@ More streamlined publishing as well as lots of fixes and enhancements to existin
 
 #### General Updates
 - Recording and notes from last week's greenhouse talk posted [[here|dendron://dendron.dendron-site/community.greenhouse.2021-10-15-ts-dev-vscode#outputs]]
-- Dendron wiki is now moved to the [[NextJS Publishing|dendron://dendron.dendron-site/dendron.topic.publishing-next]]
+- Dendron wiki is now moved to the [[NextJS Publishing|dendron://dendron.dendron-site/dendron.topic.publishing]]
 
 #### Dendron Reading Series
 
