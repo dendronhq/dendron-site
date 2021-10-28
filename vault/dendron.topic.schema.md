@@ -2,7 +2,7 @@
 id: c5e5adde-5459-409b-b34d-a0d75cbb1052
 title: Schemas
 desc: ''
-updated: 1635327180799
+updated: 1635393161369
 created: 1595952505039
 stub: false
 ---
@@ -284,8 +284,6 @@ Dendron doesn't force you to use schemas if you don't want to. This is why you c
 Schemas can be modified, created and deleted using the same lookup interface that you use for regular notes. See [[lookup|dendron.topic.lookup]] for further details about working with schemas.
 
 ## Example Schemas
-<!-- - [Project and Journal](https://gist.github.com/kevinslin/5ca7a6f25a239add5ea374f329e6a19e) -->
-- Example schemas can be found [here](https://github.com/kevinslin/schemas.git)
 - You can copy and paste the individual schema files or add it as a [[remote Vault|dendron.topic.vaults#remote]] and keep up to date on changes
 - Its pretty bare right now but plan on adding a lot more here over time. contributions most welcome :)
 

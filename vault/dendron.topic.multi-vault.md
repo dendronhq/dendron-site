@@ -2,7 +2,7 @@
 id: 24b176f1-685d-44e1-a1b0-1704b1a92ca0
 title: Multi Vault
 desc: ''
-updated: 1627660465584
+updated: 1635389762102
 created: 1605630383515
 ---
 
@@ -106,3 +106,4 @@ If you want to convert a local vault to a remote vault, you can follow the instr
 
 - [[Cross Vault Links|dendron.topic.links#cross-vault-links]]
 - [[Using Dendron Across Machines|dendron.guides.best-practices#using-dendron-across-machines]]
+
