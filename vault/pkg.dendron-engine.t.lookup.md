@@ -2,22 +2,30 @@
 id: 9Nms3px87t1OvqIch8qpp
 title: Lookup
 desc: ''
-updated: 1634400041757
+updated: 1635379964185
 created: 1630426588705
 ---
 
 ## Components
 
 ### Fuse.js
-
 - https://fusejs.io
 - powers dendron fuzzy search
 
 
-## Query
+## Logic
+
+### Query
+
+The query logic for engine lookup has a bunch of special cases.
+- if nothing is selected, show all the top level children
+- special handling of wikilinks (will strip away wikilinks when searching)
+- custom sorting logic depending on schemas
+- etc.
 
 
-- src/fuse.ts
+#### Code
+- common-all/src/fuse.ts
 ```ts
 queryNote(qs) {
 
@@ -43,10 +51,10 @@ sortResults(results, originalQS) {
     }
     return sorted
 }
-
 ```
 
 ## Lifecycle
+
 ### Initialize the Index
 For indexing, would use [fusejs](https://fusejs.io/) - this is the same indexing mechanism as we do for lookup. 
 
