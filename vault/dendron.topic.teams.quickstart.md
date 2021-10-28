@@ -23,4 +23,4 @@ This guide will cover setting up the layout describe above.
   ```
 1. Create a repo for your workspace and push this as well (eg. `workspace-{company}`)
 1. For each user in your team, have them clone the workspace repo. They can run [[Change Workspace|dendron.topic.commands#change-workspace]] with the path to the workspace to initialize it. Dendron will initiate all remote vaults during the process.
-1. (Optional): Add the [schema vault](https://github.com/kevinslin/schemas) as a [[remote vault|dendron.topic.vaults#remote]] to get access to some useful schemas
+1. (Optional): Add the [schema vault](https://github.com/dendronhq/schema-library/tree/main/vault) as a [[remote vault|dendron.topic.vaults#remote]] to get access to some useful schemas
