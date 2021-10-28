@@ -2,7 +2,7 @@
 id: a6c03f9b-8959-4d67-8394-4d204ab69bfe
 title: Troubleshooting
 desc: ''
-updated: 1634741116108
+updated: 1635438538518
 created: 1595952505025
 ---
 
@@ -223,6 +223,10 @@ dendron --version
 ### Launch a new workspace
 
 To check if there is something wrong with Dendron vs your particular workspace setup, launch Dendron in a new workspace by running [[Initialize Workspace|dendron.topic.commands#initialize-workspace]]. 
+
+### Check the logs
+
+Run `Dendron: Open Logs` and search for `"level":50` (these are lines with errors in them). The logs provide a more detailed description of what went wrong and can point what is happening. 
 
 ## Common Fixes
 
