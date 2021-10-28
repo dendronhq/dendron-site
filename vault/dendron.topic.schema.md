@@ -285,7 +285,7 @@ Schemas can be modified, created and deleted using the same lookup interface tha
 
 ## Example Schemas
 <!-- - [Project and Journal](https://gist.github.com/kevinslin/5ca7a6f25a239add5ea374f329e6a19e) -->
-- Example schemas can be found [here](https://github.com/kevinslin/schemas.git)
+- Example schemas can be found [here](https://github.com/dendronhq/schema-library/tree/main/vault)
 - You can copy and paste the individual schema files or add it as a [[remote Vault|dendron.topic.vaults#remote]] and keep up to date on changes
 - Its pretty bare right now but plan on adding a lot more here over time. contributions most welcome :)
 
