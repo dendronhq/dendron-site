@@ -468,7 +468,7 @@ This experimental feature will allow you to pull down a set of templates for com
 
 The behavior around selecting which vault to create a note in has been improved for multi-vault workspaces. If the new note matches an existing hierarchy in a different vault, a prompt will come up with vault suggestions for your new note.
 
-![[Vault Location when Creating a Note|dendron.topic.vaults.multi-vault#vault-location-when-creating-a-note:#navigating-links]]
+![[dendron.topic.multi-vault#vault-location-when-creating-a-note:#navigating-links]]
 
 #### Hashtag support 
 

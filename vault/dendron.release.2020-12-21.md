@@ -7,7 +7,7 @@ created: 1608580995965
 ---
 Dendron 0.21 is here 🌱
 
-With 0.21, multi-vault should now be at feature parity with single vault workspaces. Multi-vault specific behavior is documented [[here|dendron.topic.vaults.multi-vault]].
+With 0.21, multi-vault should now be at feature parity with single vault workspaces. Multi-vault specific behavior is documented [[here|dendron.topic.multi-vault]].
 
 0.21 also brings about Dendron's 2nd Generation publishing feature. This is a faster, leaner, and more powerful way to publish your notes using Dendron. 
 

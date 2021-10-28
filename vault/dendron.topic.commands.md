@@ -12,7 +12,7 @@ created: 1595261816971
 
 - shortcuts: None
 
-Open the github repository (if it exists) of the current note. If you have a [[multi vault|dendron.topic.vaults.multi-vault]] workspace with different git repositories, this command will
+Open the github repository (if it exists) of the current note. If you have a [[multi vault|dendron.topic.multi-vault]] workspace with different git repositories, this command will
 
 ### Create Daily Journal Note
 
@@ -38,7 +38,7 @@ You can also highlight any line of text, and Dendron will create a link to it by
 
 <a href="https://www.loom.com/share/06d0689d548941219db9708f5b1b70d2"> <img src="https://cdn.loom.com/sessions/thumbnails/06d0689d548941219db9708f5b1b70d2-with-play.gif"> </a>
 
-If you use this command in a [[multi vault|dendron.topic.vaults.multi-vault]] workspace, Dendron will create a [[cross vault link|dendron.topic.links#cross-vault-links]] to the note in question.
+If you use this command in a [[multi vault|dendron.topic.multi-vault]] workspace, Dendron will create a [[cross vault link|dendron.topic.links#cross-vault-links]] to the note in question.
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/command.copy-link.gif)
 
@@ -71,7 +71,7 @@ If you highlight multiple blocks, Dendron can create a range selection that span
 <div style="position: relative; padding-bottom: 57.78491171749599%; height: 0;"><iframe src="https://www.loom.com/embed/b72a562626a0483f967e724ef8f2d457" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 #### MultiVault
-If you use this command in a [[multi vault|dendron.topic.vaults.multi-vault]] workspace, Dendron will create a [[cross vault link|dendron.topic.links#cross-vault-links]] to the note in question.
+If you use this command in a [[multi vault|dendron.topic.multi-vault]] workspace, Dendron will create a [[cross vault link|dendron.topic.links#cross-vault-links]] to the note in question.
 ### Delete Node
 
 - shortcuts:

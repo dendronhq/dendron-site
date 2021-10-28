@@ -261,7 +261,7 @@ Dendron doctor has been updated with a bunch of new options including the abilit
 
 -   wikilinks to missing vaults will display an error instead of throwing one
 -   ability to disable legacy refs ([[docs|dendron.topic.config.dendron#nolegacynoteref]])
--   add xkcd to vault presets ([[docs|dendron.topic.vaults.multi-vault#preset-remote-vaults]])
+-   add xkcd to vault presets ([[docs|dendron.topic.multi-vault#preset-remote-vaults]])
 -   5x faster markdown pod import using plugin 🚀 🚀 🚀
 -   toggle katex settings from config ([[docs|dendron.topic.config.dendron#usekatex]])
 
@@ -292,7 +292,7 @@ Dendron doctor has been updated with a bunch of new options including the abilit
 -   set a custom path for git url ([[docs|dendron.topic.publish-legacy.configuration#gitnotepath]])
 -   `dendron-cli` is now named `dendron` (`dendron-cli` will continue to work)
 -   `buildSiteV2` has been renamed to `buildSite` (`buildSiteV2` will continue to work but is now considered `deprecated`)
--   add [tldr](https://github.com/tldr-pages/tldr) to remote vault presets ([[docs|dendron.topic.vaults.multi-vault#preset-remote-vaults]])
+-   add [tldr](https://github.com/tldr-pages/tldr) to remote vault presets ([[docs|dendron.topic.multi-vault#preset-remote-vaults]])
 -   support `useFMTitle` when publishing to markdown
 -   fix link textwrap issue when publishing for mobile
 

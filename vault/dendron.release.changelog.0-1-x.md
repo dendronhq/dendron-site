@@ -47,7 +47,7 @@ One of our most requested features for multi-vault is now out. Refactor will now
 
 #### Support Specifying Vault Location when Creating a Note
 
-![[dendron.topic.vaults.multi-vault#specify-vault-location-when-creating-a-note,1:#*]]
+![[dendron.topic.multi-vault#specify-vault-location-when-creating-a-note,1:#*]]
 
 ### Enhancements
 

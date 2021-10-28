@@ -362,13 +362,13 @@ You can now both build your notes for publication and preview it from inside vsc
 
 #### Publishing For Multi Vault
 
-![[dendron.topic.vaults.multi-vault#publishing:#*]]
+![[dendron.topic.multi-vault#publishing:#*]]
 
 ### Enhancements
 
 -   creating engine via cli also initializes meta files ([d72f097](https://github.com/dendronhq/dendron/commit/d72f097e63d1fda065ac7ad50f85bebe99d6da66))([[docs|dendron.topic.cli#launchengineserver]])
 -   remove github light theme from dendron bundle ([33d5708](https://github.com/dendronhq/dendron/commit/33d57086510cdaefbb8af8f72c945d6f5e02be5c))
--   support [[note refs for multi-vault|dendron.topic.vaults.multi-vault#note-references]]
+-   support [[note refs for multi-vault|dendron.topic.multi-vault#note-references]]
 -   support relative links in dendron preview ([[docs|dendron.topic.links#wiki-links]])
 -   further speed enhancements to publishing using 11ty resulting in another 5x improvement
 -   configure [[writeStubs|dendron.topic.publish-legacy.configuration#writestubs-optional]] from `dendron.yml`
