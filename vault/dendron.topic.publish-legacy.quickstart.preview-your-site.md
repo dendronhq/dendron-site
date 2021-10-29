@@ -85,9 +85,9 @@ When you are ready to publish to github, make sure to change the stage to `prod`
 dendron buildSite --stage prod 
 ```
 
-This will build your site to the path specified by [[siteRootDir|dendron.topic.publishing.configuration#siterootdir-required]] in `dendron.yml`.  By default, this is located at `{wsRoot}/docs`.
+This will build your site to the path specified by [[siteRootDir|dendron.topic.publish-legacy.configuration#siterootdir-required]] in `dendron.yml`.  By default, this is located at `{wsRoot}/docs`.
 
 ### Get ready to publish
 
-When you are ready, you can go to [[publishing your site|dendron.topic.publishing.quickstart.publishing-your-site]] for instructions on announcing your site to the world. 
+When you are ready, you can go to [[publishing your site|dendron.topic.publish-legacy.quickstart.publishing-your-site]] for instructions on announcing your site to the world. 
 

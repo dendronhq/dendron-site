@@ -7,7 +7,7 @@ created: 1609883599513
 ---
 ### Why am I taken to a 403 page?
 
-Dendron will auto-generate 403 pages during publication when a published note links to notes that are not published. You can see [[here|dendron.topic.publishing.selective-publication]] for configuration behind selective publication.
+Dendron will auto-generate 403 pages during publication when a published note links to notes that are not published. You can see [[here|dendron.topic.publish-legacy.selective-publication]] for configuration behind selective publication.
 
 
 ### Is Publishing Free?

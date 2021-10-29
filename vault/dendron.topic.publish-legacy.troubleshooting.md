@@ -60,7 +60,7 @@ cname: foo.com
 ### My image isn't showing up
 
 - Make sure your images have a leading `/`. So `/assets/images/foo.jpg` instead of `assets/images/foo.jpg`.
-- If you are publishing to github, check if [[assetsPrefix|dendron.topic.publishing.configuration#assetsprefix-optional]] is set
+- If you are publishing to github, check if [[assetsPrefix|dendron.topic.publish-legacy.configuration#assetsprefix-optional]] is set
 
 ### Command failed when installing or upgrading dependencies
 

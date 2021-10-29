@@ -2,13 +2,22 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1635282507303
+updated: 1635530926822
 created: 1601508213606
 date: '2022-01-01'
 ---
 
+## 0.65.1
 
-## 0.65
+### Features
+- feat(workspace): users can convert a local vault to a remote vault, or a remote vault to a local
+vault with new convert vault command ([[docs|dendron.topic.vaults#vault-convert]]) (#1542) @kaan
+- feat(notes): task notes (create modifier & editor highlighting) ([[docs|dendron.topic.tasks]]) (#1583) @kaan
+
+### Enhancements
+- enhance(schema): allow untyped templates in schemas ([[docs|dendron.topic.schema#shortened-template-syntax]]) (#1575) @nickolay
+
+## 0.65.0
 
 ## 0.64.2
 
@@ -168,7 +177,7 @@ dendron dev run_migration --migrationVersion 0.64.1
 - feat(workspace): add survey for new users(#1409)
 
 ### Enhancements
-- enhance(markdown): option to add `#` symbols for FM tags (#1421) @kaan ([[docs|dendron://dendron.dendron-site/dendron.topic.publishing.configuration#usehashesforfmtags]])
+- enhance(markdown): option to add `#` symbols for FM tags (#1421) @kaan ([[docs|dendron://dendron.dendron-site/dendron.topic.publish-legacy.configuration#usehashesforfmtags]])
 - enhance(publish): add published, modified, and tags to NextJS SEO (#1412) @nwehner
 - enhance(workspace): mini optimization in looking up notes by filename (#1427) @nickolay
 - enhance(workspace): Leave trace on source note while using selectionExtract @joshi
@@ -188,7 +197,7 @@ dendron dev run_migration --migrationVersion 0.64.1
 
 ### Enhancements
 - enhance(publish): support [g4a tags](https://support.google.com/analytics/answer/10089681?hl=en) @kevin
-- enhance(publish): support twitter card @kevin ([[docs|dendron://dendron.dendron-site/dendron.topic.publishing.configuration#twitter]])
+- enhance(publish): support twitter card @kevin ([[docs|dendron://dendron.dendron-site/dendron.topic.publish-legacy.configuration#twitter]])
 - enhance(publish): add border color to table (#1387) @viztor
 - enhance(publish): filter body out of generated notes.json for next (#1380) @viztor
 - enhance(pods): resolve relative links on markdown import @joshi

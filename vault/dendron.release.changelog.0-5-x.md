@@ -84,8 +84,8 @@ Bundle extension size is reduced by 50%
 ### Enhancements
 - autocomplete and refactoring for users notes ([[docs|dendron.topic.users]])
 - frontmatter tags displayed similarly to regular tags when published 
-- support [[customHeaderPath|dendron.topic.publishing.configuration#customheaderpath]] for Next publishing
-- support [[collection options|dendron.topic.publishing.configuration#collection-options]] for Next publishing
+- support [[customHeaderPath|dendron.topic.publish-legacy.configuration#customheaderpath]] for Next publishing
+- support [[collection options|dendron.topic.publish-legacy.configuration#collection-options]] for Next publishing
 - progress bar for [[refactoring|dendron.topic.commands#refactor-hierarchy]]
 
 ### Bug Fixes
@@ -468,7 +468,7 @@ This experimental feature will allow you to pull down a set of templates for com
 
 The behavior around selecting which vault to create a note in has been improved for multi-vault workspaces. If the new note matches an existing hierarchy in a different vault, a prompt will come up with vault suggestions for your new note.
 
-![[Vault Location when Creating a Note|dendron.topic.vaults.multi-vault#vault-location-when-creating-a-note:#navigating-links]]
+![[dendron.topic.multi-vault#vault-location-when-creating-a-note:#navigating-links]]
 
 #### Hashtag support 
 

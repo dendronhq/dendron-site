@@ -26,7 +26,7 @@ Dendron 0.61 has sprouted  🌱
 - enhance(publish): add published, modified, and tags to NextJS SEO (#1412) 
 - enhance(pods): resolve relative links on markdown import 
 - enhance(markdown): Don't throw a fatal exception when missing note is parsed as noteRef 
-- enhance(markdown): option to add `#` symbols for FM tags (#1421) ([[docs|dendron://dendron.dendron-site/dendron.topic.publishing.configuration#usehashesforfmtags]])
+- enhance(markdown): option to add `#` symbols for FM tags (#1421) ([[docs|dendron://dendron.dendron-site/dendron.topic.publish-legacy.configuration#usehashesforfmtags]])
 - enhance(workspace): option to disable randomly colored tags in editor ([[docs|dendron.topic.tags#disabling-automatic-colors]])
 - enhance(workspace): mini optimization in looking up notes by filename (#1427) 
 - enhance(workspace): Leave trace on source note while using selectionExtract 

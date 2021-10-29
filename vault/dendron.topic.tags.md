@@ -1,10 +1,11 @@
 ---
 id: 8bc9b3f1-8508-4d3a-a2de-be9f12ef1821
 title: Tags
-desc: ""
+desc: ''
 updated: 1632432246814
 created: 1601910058115
-tags: ["example.from-frontmatter"]
+tags:
+  - example.from-frontmatter
 ---
 
 ## Summary
@@ -60,7 +61,7 @@ Note that the color you assign your tag will also be displayed in the [[Dendron 
 #### Disabling automatic colors
 
 The automatically assigned tag colors can be disabled. To disable them in
-publishing, see [[noRandomlyColoredTags site config|dendron.topic.publishing.configuration#norandomlycoloredtags]],
+publishing, see [[noRandomlyColoredTags site config|dendron.topic.publishing-legacy.configuration#norandomlycoloredtags]],
 and to disable them in the editor  see [[noRandomlyColoredTags general config|dendron.topic.config.dendron#norandomlycoloredtags]].
 
 ### Publishing
@@ -86,6 +87,10 @@ You might have already noticed this when you opened the tag, but tags are just n
 -   You can add content to your tag and it will show up when you hover over the tag in the editor, or when you publish it. Try clicking on the example tag above!
 -   You can organize your tags into hierarchies (like `#cuisine.ethiopian` and `#cuisine.swedish`).
 -   You can link tags together by adding links in their content.
+
+#### Configuration
+
+Don't like hashtags? You can disable them by setting the [[enableUserTags|dendron.topic.config.dendron#enablehashtags]] configuration to false.
 
 ## Frontmatter tags
 

@@ -2,7 +2,7 @@
 id: eea2b078-1acc-4071-a14e-18299fc28f47
 title: Commands
 desc: ''
-updated: 1633943603114
+updated: 1634630575949
 created: 1595261816971
 ---
 
@@ -12,7 +12,7 @@ created: 1595261816971
 
 - shortcuts: None
 
-Open the github repository (if it exists) of the current note. If you have a [[multi vault|dendron.topic.vaults.multi-vault]] workspace with different git repositories, this command will
+Open the github repository (if it exists) of the current note. If you have a [[multi vault|dendron.topic.multi-vault]] workspace with different git repositories, this command will
 
 ### Create Daily Journal Note
 
@@ -38,7 +38,7 @@ You can also highlight any line of text, and Dendron will create a link to it by
 
 <a href="https://www.loom.com/share/06d0689d548941219db9708f5b1b70d2"> <img src="https://cdn.loom.com/sessions/thumbnails/06d0689d548941219db9708f5b1b70d2-with-play.gif"> </a>
 
-If you use this command in a [[multi vault|dendron.topic.vaults.multi-vault]] workspace, Dendron will create a [[cross vault link|dendron.topic.links#cross-vault-links]] to the note in question.
+If you use this command in a [[multi vault|dendron.topic.multi-vault]] workspace, Dendron will create a [[cross vault link|dendron.topic.links#cross-vault-links]] to the note in question.
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/command.copy-link.gif)
 
@@ -71,7 +71,7 @@ If you highlight multiple blocks, Dendron can create a range selection that span
 <div style="position: relative; padding-bottom: 57.78491171749599%; height: 0;"><iframe src="https://www.loom.com/embed/b72a562626a0483f967e724ef8f2d457" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 #### MultiVault
-If you use this command in a [[multi vault|dendron.topic.vaults.multi-vault]] workspace, Dendron will create a [[cross vault link|dendron.topic.links#cross-vault-links]] to the note in question.
+If you use this command in a [[multi vault|dendron.topic.multi-vault]] workspace, Dendron will create a [[cross vault link|dendron.topic.links#cross-vault-links]] to the note in question.
 ### Delete Node
 
 - shortcuts:
@@ -358,6 +358,12 @@ Initiate note lookup with scratch note pre-selected
 
 Initiate a note lookup. This is the successor to the [[Lookup|dendron.topic.commands#lookup]] command, limited to just notes. It is significantly faster on large workspaces when compared to its predecessor and also comes with addiitional [[modifiers|dendron.topic.lookup.modifiers]]. 
 
+### Task Create
+- shortcuts: none
+
+Creates a [[task note|dendron.topic.tasks#task-notes]], which comes with some
+extra features to keep track of work items.
+
 ### Lookup Schema
 
 - shortcuts:
@@ -520,6 +526,10 @@ Right Click on the explorer > Dendron: Vault Add
 You can also remove a vault from the explorer by: 
 Right Click on the vault > Dendron: Vault Remove
 
+### Vault Convert
+
+![[dendron://dendron.dendron-site/dendron.topic.vaults#vault-convert,1:#*]]
+
 ### Launch Tutorial
 
 Prompt user to create an initial tutorial workspace and takes user through new tutorial
@@ -634,7 +644,7 @@ Get URL of current note from published site
 
 If you highlight a header, will copy the url with the header set as the anchor
 
-The url is taken from the [[siteUrl|dendron.topic.publishing.configuration#siteurl]] property.
+The url is taken from the [[siteUrl|dendron.topic.publish-legacy.configuration#siteurl]] property.
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/notes.copy-url.gif)
 
@@ -727,7 +737,7 @@ You can pick among various actions for the doctor to perform.
 ##### fixFrontmatter
 
 - Fixes notes that are missing the frontmatter, or that have broken frontmatter.
-- Setup a `docs` folder if it doesn't exist. Required if you want to [[publish|dendron.topic.publishing]] your notes
+- Setup a `docs` folder if it doesn't exist. Required if you want to [[publish|dendron.topic.publish]] your notes
 
 <a href="https://www.loom.com/share/bd045f708f8e474193de8e3de0dc820f"> <img style="" src="https://cdn.loom.com/sessions/thumbnails/bd045f708f8e474193de8e3de0dc820f-with-play.gif"> </a>
 

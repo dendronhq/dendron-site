@@ -22,7 +22,7 @@ Prepare notes for publication. Runs [[Nextjs|dendron.topic.pod.builtin.nextjs]] 
 
 #### example
 
-![[dendron.topic.publishing-next.cook.common#build-notes,1:#*]]
+![[dendron.topic.publish.cook.common#build-notes,1:#*]]
 
 #### with override
 

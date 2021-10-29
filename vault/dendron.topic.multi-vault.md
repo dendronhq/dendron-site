@@ -2,7 +2,7 @@
 id: 24b176f1-685d-44e1-a1b0-1704b1a92ca0
 title: Multi Vault
 desc: ''
-updated: 1627660465584
+updated: 1635389762102
 created: 1605630383515
 ---
 
@@ -65,7 +65,7 @@ When you make a reference, Dendron will include the note from the same note. You
 
 You can publish from a multi-vault enabled workspace if you are using [[dendron-11ty|pkg.dendron-publishing]] to publish. 
 
-We have added a new configuration, `duplicateNoteBehavior`, which [[controls|dendron.topic.publishing.configuration#duplicatenotebehavior-optional]] how Dendron handles duplicate notes across multiple vaults.
+We have added a new configuration, `duplicateNoteBehavior`, which [[controls|dendron.topic.publish-legacy.configuration#duplicatenotebehavior-optional]] how Dendron handles duplicate notes across multiple vaults.
 
 ### Version Control
 
@@ -106,3 +106,4 @@ If you want to convert a local vault to a remote vault, you can follow the instr
 
 - [[Cross Vault Links|dendron.topic.links#cross-vault-links]]
 - [[Using Dendron Across Machines|dendron.guides.best-practices#using-dendron-across-machines]]
+
