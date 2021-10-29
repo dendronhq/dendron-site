@@ -358,6 +358,12 @@ Initiate note lookup with scratch note pre-selected
 
 Initiate a note lookup. This is the successor to the [[Lookup|dendron.topic.commands#lookup]] command, limited to just notes. It is significantly faster on large workspaces when compared to its predecessor and also comes with addiitional [[modifiers|dendron.topic.lookup.modifiers]]. 
 
+### Task Create
+- shortcuts: none
+
+Creates a [[task note|dendron.topic.tasks#task-notes]], which comes with some
+extra features to keep track of work items.
+
 ### Lookup Schema
 
 - shortcuts:
