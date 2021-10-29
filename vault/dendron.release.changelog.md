@@ -2,7 +2,7 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1635513035906
+updated: 1635530699407
 created: 1601508213606
 date: '2022-01-01'
 ---
@@ -12,6 +12,7 @@ date: '2022-01-01'
 ### Features
 - feat(workspace): users can convert a local vault to a remote vault, or a remote vault to a local
 vault with new convert vault command ([[docs|dendron.topic.vaults#vault-convert]]) (#1542) @kaan
+- feat(notes): task notes (create modifier & editor highlighting) ([[docs|dendron.topic.tasks]]) (#1583) @kaan
 
 ### Enhancements
 - enhance(schema): allow untyped templates in schemas ([[docs|dendron.topic.schema#shortened-template-syntax]]) (#1575) @nickolay
