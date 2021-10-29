@@ -2,7 +2,7 @@
 id: SEASewZSteDK7ry1AshNG
 title: Tasks
 desc: ''
-updated: 1635476007745
+updated: 1635494320717
 created: 1635451738215
 ---
 
@@ -52,7 +52,7 @@ regular lookup bar, or you can use the [[Task Create|dendron.topic.commands#task
 They both achieve the same result, although the task create command comes with some default 
 settings.
 
-![A screenshot displaying an open note that lists 3 tasks, each showing off different features of task notes. On the top right of the image is a lookup bar with the task toggle selected.](https://i.imgur.com/4qsrgjc.png)
+![A screenshot displaying an open note that lists 3 tasks, each showing off different features of task notes. On the top right of the image is a lookup bar with the task toggle selected.](https://org-dendron-public-assets.s3.amazonaws.com/images/task-note-create-example.png)
 
 Task notes are same as regular notes, except that they contain some special keys
 in their [[frontmatter|dendron.topic.frontmatter]]. These keys are inserted by
@@ -88,9 +88,12 @@ You can see how the task note displays the keys like due and owner. Some like th
 
 ```
 workspace:
+    ...
     task:
         statusSymbols:
             "": " "
+            "done": "x"
+            ...
         prioritySymbols:
             H: "high"
             M: "medium"
