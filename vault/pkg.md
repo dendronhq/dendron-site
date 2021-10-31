@@ -2,7 +2,7 @@
 id: 32cdd4aa-d9f6-4582-8d0c-07f64a00299b
 title: Packages
 desc: ''
-updated: 1635350996482
+updated: 1635701384437
 created: 1596684856906
 nav_order: 10
 ---
@@ -52,6 +52,9 @@ Dendron web components refer to the collection NextJS + React logic that is used
 
 ### Dendron Next Server
 ![[pkg.dendron-next-server#summary,1:#*]]
+
+### dendron-plugin-views
+![[pkg.dendron-plugin-views#summary,1:#*]]
 
 ### Ant Design
 
