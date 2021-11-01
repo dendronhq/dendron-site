@@ -1,28 +1,31 @@
 ---
-id: 8de4209d-84d3-45f8-96a4-34282e34507d
+id: Lnp1URddmWEWweyf
 title: Preview
 desc: ''
-updated: 1627320748582
-created: 1603383580067
+updated: 1627320371754
+created: 1626382220182
 ---
 
 ## Summary
 
-- NOTE: this preview is now DEPRECATED. We recommend that all users use [[Preview V2|dendron.topic.preview-v2]] instead.
+The Dendron Preview gives you a rich HTML preview for your notes. 
 
-The preview pane renders the Dendron's markdown text into nicely formatted HTML. The preview is a fork of the [markdown-preview-enhanced extension](https://github.com/shd101wyy/vscode-markdown-preview-enhanced). 
+- NOTE: Preview V2 is missing the following features compared to the current [[Preview Legacy|dendron.topic.preview-legacy]]:
+  - scroll sync
+  - export to PDF
 
-All documentation pertaining to the original extension can be found [here](https://shd101wyy.github.io/markdown-preview-enhanced/#/). This page will highlight some key features as well as Dendron specific additions. 
+If you discover any issues that are not listed above, please submit a bug repo [here](https://github.com/dendronhq/dendron/issues/new?assignees=&labels=&template=bug_report.md&title=) so we can add it to our roadmap!
 
-## Setup
+## Config
 
-If you want to enable the legacy preview, please install it from the extension registry.
+### dev.enablePreviewV2
+- type: boolean
+- default: false
 
-- [link](https://marketplace.visualstudio.com/items?itemName=dendron.dendron-markdown-preview-enhanced) for VSCode users
-- [link](https://open-vsx.org/extension/dendron/dendron-markdown-preview-enhanced) for VSCodium users
+When turned on, `Show Preview` will display the v2 preview 
 
-### Issues
+## Cook
 
-- Preview does not persist between reloads/restarts
-  - Workaround: [[Always show preview of md being edited|dendron.guides.tips#always-show-preview-of-md-being-edited]]
-
+### Uninstall Dendron Markdown Preview Enhanced
+1. Enable Preview V2 in your dendron.yml 
+2. Uninstall Dendron Markdown Preview Enhanced

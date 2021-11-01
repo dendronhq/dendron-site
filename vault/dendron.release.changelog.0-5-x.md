@@ -379,7 +379,7 @@ Besides for the split, [[Lookup Note|dendron.topic.commands#lookup-note]] should
 
 Dendron Markdown Preview Enhanced is no longer required to use Dendron. 
 
-By default, all new users will get [[Preview V2|dendron.topic.preview-v2]] as the default. Existing users that have not turned on V2 will see no change but can and are encourage to switch to preview v2 by following the instructions [[here|dendron.topic.preview-v2#uninstall-dendron-markdown-preview-enhanced]]. Dendron Markdown Preview Enhanced should now be considered deprecated and subject to removal later this year. 
+By default, all new users will get [[Preview|dendron.topic.preview]] as the default. Existing users that have not turned on V2 will see no change but can and are encourage to switch to preview v2 by following the instructions [[here|dendron.topic.preview#uninstall-dendron-markdown-preview-enhanced]]. Dendron Markdown Preview Enhanced should now be considered deprecated and subject to removal later this year. 
 
 ### Enhancements
 - control graph zoom sensiitivity
@@ -478,7 +478,7 @@ The behavior around selecting which vault to create a note in has been improved 
 
 Almost at feature parity with current preview. You can now toggle it to be the default preview by setting `dev.enablePreviewV2` to true in your `dendron.yml`
 
-![[dendron://dendron.dendron-site/dendron.topic.preview-v2#summary,1:#*]]
+![[dendron://dendron.dendron-site/dendron.topic.preview#summary,1:#*]]
 
 
 
