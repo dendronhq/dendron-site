@@ -2,7 +2,7 @@
 id: pD2gKvrDU2PjvrcGlKnU8
 title: 36 Pods V2
 desc: ''
-updated: 1635788590507
+updated: 1635803962507
 created: 1635730038760
 ---
 
@@ -57,6 +57,7 @@ created: 1635730038760
 1. Support pod profiles
     - users have different targets for the same pods (eg. publish a task note to airtable task table but publish a user note to airtable user table)
     - pod configuration should support custom profiles
+1. support custom pod plugins
 
 
 ## Details
