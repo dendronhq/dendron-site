@@ -2,7 +2,7 @@
 id: pD2gKvrDU2PjvrcGlKnU8
 title: 36 Pods V2
 desc: ''
-updated: 1635730661357
+updated: 1635730734874
 created: 1635730038760
 ---
 
@@ -53,6 +53,7 @@ created: 1635730038760
     - should be a toggle on the quickpick
     - if interactive, instead of reading `src/dest` from config, prompt user for this
     - eg. orbit import pod, when importing interactively, user enters a username
+1. Introduce a webview to configure pods
 
 
 ## Details
