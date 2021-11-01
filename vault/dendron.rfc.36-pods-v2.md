@@ -2,7 +2,7 @@
 id: pD2gKvrDU2PjvrcGlKnU8
 title: 36 Pods V2
 desc: ''
-updated: 1635730734874
+updated: 1635788590507
 created: 1635730038760
 ---
 
@@ -54,6 +54,9 @@ created: 1635730038760
     - if interactive, instead of reading `src/dest` from config, prompt user for this
     - eg. orbit import pod, when importing interactively, user enters a username
 1. Introduce a webview to configure pods
+1. Support pod profiles
+    - users have different targets for the same pods (eg. publish a task note to airtable task table but publish a user note to airtable user table)
+    - pod configuration should support custom profiles
 
 
 ## Details
