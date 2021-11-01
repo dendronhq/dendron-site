@@ -15,7 +15,7 @@ created: 1632543447542
 - enhance(lookup) "Create New" will be first result if no exact match
 - enhance(lookup) Disallow toggle of vault selector when using "Move Note" command
 - enhance(publish) unpublished notes replaced with link to [[unpublished pages|dendron.ref.unpublished-pages]]
-- enhance(publish) support attach option for CLI ([[docs|dendron.topic.publishing-next.cli#^bfvLB8BY4nLb]])
+- enhance(publish) support attach option for CLI ([[docs|dendron.topic.publish.cli#^bfvLB8BY4nLb]])
 
 ## 0.58.4
 
@@ -27,7 +27,7 @@ created: 1632543447542
 
 #### Publish to Github Pages using Next
 
-![[dendron.topic.publishing-next.cook.github#summary,1:#*]]
+![[dendron.topic.publish.cook.github#summary,1:#*]]
 
 ### Enhancements
 - enhance(publish) support `assetPrefix` option with nextjs publishing
@@ -76,7 +76,7 @@ Lookup can match words that are out of order, with better fuzziness, and will so
 
 #### CLI for Next Publishing
 
-Dendron now has limited CLI support for NextJS Publishing. You can read about how to get started [[here|dendron.topic.publishing-next]]
+Dendron now has limited CLI support for NextJS Publishing. You can read about how to get started [[here|dendron.topic.publish]]
 
 #### Leaner Extension
 Bundle extension size is reduced by 50%

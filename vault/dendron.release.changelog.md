@@ -94,8 +94,8 @@ dendron dev run_migration --migrationVersion 0.64.1
 ## 0.63.1
 
 ### Features
-- feat(publish): add `dendron publish dev` command  ([[docs|dendron://dendron.dendron-site/dendron.topic.publishing-next.cli#dev]]) @kevin
-- feat(publish): add `dendron publish export` command ([[docs|dendron://dendron.dendron-site/dendron.topic.publishing-next.cli#export]]) @kevin
+- feat(publish): add `dendron publish dev` command  ([[docs|dendron://dendron.dendron-site/dendron.topic.publish.cli#dev]]) @kevin
+- feat(publish): add `dendron publish export` command ([[docs|dendron://dendron.dendron-site/dendron.topic.publish.cli#export]]) @kevin
 
 ### Enhancements
 - enhance(publish): support publishing to github as a export template @kevin
