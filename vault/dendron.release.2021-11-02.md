@@ -2,7 +2,7 @@
 id: 4q0nOxVnDvAMD18zyNebk
 title: 'Release Notes (version 0.66)'
 desc: ''
-updated: 1635871414557
+updated: 1635872354186
 created: 1635870362508
 ---
 
@@ -32,7 +32,14 @@ This release also includes some breaking changes due to some renaming of command
 
 #### General Updates
 
+* If you haven't yet, subscribe to the [Dendron Newsletter](https://buttondown.email/dendron)! Emails are soon to begin as regular, weekly roundups.
 * [Dendron Blog: Highlights from VSCode 1.61](https://blog.dendron.so/notes/83fIARBsKRnUlBL433RND/)
+
+#### Dendron Reading Series
+
+This week's entry in the [[Dendron Reading Series|community.reading-series]]. 
+
+![[dendron://dendron.dendron-site/community.reading-series.journal.2021.11.02]]
 
 #### Thank You's
 
