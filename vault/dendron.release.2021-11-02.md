@@ -2,7 +2,7 @@
 id: 4q0nOxVnDvAMD18zyNebk
 title: 'Release Notes (version 0.66)'
 desc: ''
-updated: 1635870404070
+updated: 1635871036696
 created: 1635870362508
 ---
 
@@ -30,6 +30,15 @@ This release also includes some breaking changes due to some renaming of command
 
 ### Community
 
+#### General Updates
+
+
+
+#### Thank You's
+
+A big **thanks** to the following gardeners that brought up issues, contributions, and fixes to this release :man_farmer: :woman_farmer: 
+You can see an overview of all roles [[here|community.roles]]
+
 - [[Kimsia|dendron://users/people.kimsia]]
   - #dendron.taxonomist
   - [Replace with canonical url for schema example at by simkimsia · Pull Request #255 · dendronhq/dendron-site](https://github.com/dendronhq/dendron-site/pull/255)
@@ -53,17 +62,6 @@ This release also includes some breaking changes due to some renaming of command
   - [Note references sometimes do not work in Preview V2](https://github.com/dendronhq/dendron/issues/1601)
 - [[people.aleksey-rowan]]
   - [Don't read/write dendron.code-workspace when no changes are made to it](https://github.com/dendronhq/dendron/issues/1595)
-
-#### General Updates
-
-#### Dendron Reading Series
-
-This week's entry in the [[Dendron Reading Series|community.reading-series]]. 
-
-#### Thank You's
-
-A big **thanks** to the following gardeners that brought up issues, contributions, and fixes to this release :man_farmer: :woman_farmer: 
-You can see an overview of all roles [[here|community.roles]]
 
 ### Changelog
 ![[dendron.release.changelog#0660,1:#0650]]
