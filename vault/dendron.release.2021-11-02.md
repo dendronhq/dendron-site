@@ -2,7 +2,7 @@
 id: 4q0nOxVnDvAMD18zyNebk
 title: 'Release Notes (version 0.66)'
 desc: ''
-updated: 1635873919133
+updated: 1635874699489
 created: 1635870362508
 ---
 
@@ -62,9 +62,9 @@ I'm Derek, and I go by `@ScriptAutomate` in most places.
 A big **thanks** to the following gardeners that brought up issues, contributions, and fixes to this release :man_farmer: :woman_farmer: 
 You can see an overview of all roles [[here|community.roles]]
 
-- [[Kimsia|dendron://users/people.kimsia]]
+- [Kimsia Sim](https://github.com/simkimsia) `@kimsia#3035`
   - #dendron.taxonomist
-  - [Replace with canonical url for schema example at by simkimsia · Pull Request #255 · dendronhq/dendron-site](https://github.com/dendronhq/dendron-site/pull/255)
+  - [Replace with canonical url for schema example at](https://github.com/dendronhq/dendron-site/pull/255)
 - [[people.hoppertech]]
   - #dendron.bugcatcher
   - [Fuzzy search in Lookup (note) has stopped working](https://github.com/dendronhq/dendron/issues/1634)
