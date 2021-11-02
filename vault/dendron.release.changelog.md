@@ -2,7 +2,7 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1635873488531
+updated: 1635877121235
 created: 1601508213606
 date: '2022-01-01'
 ---
@@ -12,15 +12,12 @@ date: '2022-01-01'
 ### Breaking changes
 
 1. Deprecation notice for `Site Preview` and `Site Build`. These currently build using our legacy 11ty publishing method. Starting next week, these will be upgraded to publish using NextJS. In addition, the notes will be renamed:
-
-* `Site Preview` will be renamed to `Publish Dev`
-* `Site Build` will be renamed to `Publish Export`
-
+    * `Site Preview` will be renamed to `Publish Dev`
+    * `Site Build` will be renamed to `Publish Export`
 2. We have updated the enablement of our preview features to reduce clutter in the command palette and prevent confusion.
-
-* `Dendron: Show Preview` is now called `Dendron: Show Preview (legacy)`
-* `Dendron: Show Preview V2` is now called `Dendron: Show Preview`
-* Both preview commands and their keybindings are now disabled if you are in a non-Dendron workspace or if your active open document is not a markdown file. This means they will not be accessible in the command palette or triggered with a keybinding.
+    * `Dendron: Show Preview` is now called `Dendron: Show Preview (legacy)`
+    * `Dendron: Show Preview V2` is now called `Dendron: Show Preview`
+    * Both preview commands and their keybindings are now disabled if you are in a non-Dendron workspace or if your active open document is not a markdown file. This means they will not be accessible in the command palette or triggered with a keybinding.
 
 ### Enhancements
 - enhance(workspace): add seeds directory to gitignore on workspace creation (#1629) @hikchoi

@@ -2,7 +2,7 @@
 id: 4q0nOxVnDvAMD18zyNebk
 title: 'Release Notes (version 0.66)'
 desc: ''
-updated: 1635874699489
+updated: 1635877087416
 created: 1635870362508
 ---
 
@@ -87,4 +87,4 @@ You can see an overview of all roles [[here|community.roles]]
   - [Don't read/write dendron.code-workspace when no changes are made to it](https://github.com/dendronhq/dendron/issues/1595)
 
 ### Changelog
-![[dendron.release.changelog#0660,1:#0650]]
+![[dendron.release.changelog#0660:#0650]]
