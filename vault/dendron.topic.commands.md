@@ -803,6 +803,12 @@ Dendron recognises the vscode rename and updates all the backlinks to the old fi
 Dendron autosuggests to rename a header if you tap on a header or highlight it.
 ![Rename Header](https://org-dendron-public-assets.s3.amazonaws.com/images/rename-header.png)
 
+#### Copy Header Reference
+Dendron autosuggests to copy the note ref with the selected header if you tap on a header or highlight it.
+
+![Copy Header Reference](https://org-dendron-public-assets.s3.amazonaws.com/images/copy_header_ref.png)
+
+
 #### Refactor Extract
 
 You can extract highlighted text to a new note by clicking on the refactor extract lightbulb next to the selection, and click on `Extract text to new note`.
