@@ -2,31 +2,34 @@
 id: 4q0nOxVnDvAMD18zyNebk
 title: 'Release Notes (version 0.66)'
 desc: ''
-updated: 1635872354186
+updated: 1635873863721
 created: 1635870362508
 ---
 
 Dendron 0.66 has sprouted  🌱
 
-An early version of task notes is now available to test out! Take a look and feel free to provide feedback on [RFC 13 - Todo Notes in the GitHub Discussion](https://github.com/dendronhq/dendron/discussions/1358).
+This release brings native support to managing tasks in Dendron. Task management is one of the most asked for features in Dendron. Please try it out and provide any feedback in the [Task Notes GitHub Discussion](https://github.com/dendronhq/dendron/discussions/1358).
+
+* Task notes are considered a [[seed feature|dendron://dendron.dendron-site/tags.stage.seed]] which means its still experimental and the interface is subject to change.
+* We're working on slowly introducing the [[Dendron Maturity Levels|dendron://dendron.dendron-site/dendron.ref.maturity]] in existing features and when describing release features.
 
 This release also includes some breaking changes due to some renaming of commands, which can be referrenced in the changelog.
 
 ### Highlights
-- feat(notes): task notes (create modifier & editor highlighting) ([[docs|dendron.topic.tasks]]) (#1583) @kaan
-- feat(workspace): users can convert a local vault to a remote vault, or a remote vault to a local vault with new convert vault command ([[docs|dendron.topic.vaults#vault-convert]]) (#1542) @kaan
+- feat(notes): task notes (create modifier & editor highlighting) ([[docs|dendron.topic.tasks]])
+- feat(workspace): users can convert a local vault to a remote vault, or a remote vault to a local vault with new convert vault command ([[docs|dendron.topic.vaults#vault-convert]])
 
 ### Everything Else
-- enhance(schema): allow untyped templates in schemas ([[docs|dendron.topic.schema#shortened-template-syntax]]) (#1575) @nickolay
-- enhance: add seeds directory to gitignore on workspace creation (#1629) @hikchoi
-- enhance: preview command enablement (#1619) @hikchoi
-- enhance(workspace): add custom icons to dendron tree view (#1635)  @kevin
-- enhance(workspace): Copy Header Reference code action (#1598) @joshi
-- fix: markdown publish to hide block reference anchors (#1577)  @joshi
-- fix: file watcher updates backlinks (#1618) @kaan
-- fix: hover & goto note should respect enableUser/HashTags (#1620) @kaan
-- fix(pods): resolve same level dir wikilinks in markdown import (#1615) @joshi
-- fix(schemas): replace auto generated ids with readable descriptions (#1632) @nickolay
+- enhance(schema): allow untyped templates in schemas ([[docs|dendron.topic.schema#shortened-template-syntax]])
+- enhance(workspace): add seeds directory to gitignore on workspace creation
+- enhance(workspace): preview command enablement
+- enhance(workspace): add custom icons to dendron tree view
+- enhance(workspace): Copy Header Reference code action
+- fix(publishing): markdown publish to hide block reference anchors
+- fix(workspace): file watcher updates backlinks
+- fix(workspace): hover & goto note should respect enableUser/HashTags
+- fix(pods): resolve same level dir wikilinks in markdown import
+- fix(schemas): replace auto generated ids with readable descriptions
 
 ### Community
 
@@ -40,6 +43,19 @@ This release also includes some breaking changes due to some renaming of command
 This week's entry in the [[Dendron Reading Series|community.reading-series]]. 
 
 ![[dendron://dendron.dendron-site/community.reading-series.journal.2021.11.02]]
+
+### New Team Member: Derek Ardolf - Dendron Evagelist
+
+I'm Derek, and I go by `@ScriptAutomate` in most places.
+- I'm from Minnesota, USA
+- I just started at **Dendron** as a **Dendron Evangelist**! I previously worked at VMware, working on [Salt Project](https://github.com/saltstack/salt), and am also an ex-Amazon/AWS engineer. I'll be doing blog posts, reviewing and contributing to documentation, and more.
+* Fun facts about me: I love to read/write fiction, and create digital art. I've started a small publishing imprint, experimenting with the publishing of my own content where I eventually want to help others publish, too. When learning something new, I usually come up with a humorous or absurd project to help encourage the learning process.
+* How I found Dendron: @kevin chatted with me once, at a [WriteTheDocs](https://www.writethedocs.org/) meetup in Seattle, when he was tinkering with an early version of it. I had just finished complaining about knowledge management in general, so after he showed me it I said I'd want to hear when it came about for all of us to play with. Now, here I am!
+* Where I am on the interwebs
+  * Twitter: https://twitter.com/scriptautomate
+  * Website: https://icanteven.io
+  * GitHub: https://github.com/scriptautomate
+  * Instagram (for art/fiction): https://www.instagram.com/cspenzichwrite/
 
 #### Thank You's
 
