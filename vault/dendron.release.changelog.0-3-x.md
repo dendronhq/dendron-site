@@ -114,7 +114,7 @@ You can see the full list of information we collect and why we do it in our [[te
 
 ### Enhancements
 
--   support custom port for preview ([[docs|dendron.topic.publishing.configuration#previewport]])
+-   support custom port for preview ([[docs|dendron.topic.publish-legacy.configuration#previewport]])
 
 ## 0.37.0
 
@@ -261,7 +261,7 @@ Dendron doctor has been updated with a bunch of new options including the abilit
 
 -   wikilinks to missing vaults will display an error instead of throwing one
 -   ability to disable legacy refs ([[docs|dendron.topic.config.dendron#nolegacynoteref]])
--   add xkcd to vault presets ([[docs|dendron.topic.vaults.multi-vault#preset-remote-vaults]])
+-   add xkcd to vault presets ([[docs|dendron.topic.multi-vault#preset-remote-vaults]])
 -   5x faster markdown pod import using plugin 🚀 🚀 🚀
 -   toggle katex settings from config ([[docs|dendron.topic.config.dendron#usekatex]])
 
@@ -288,11 +288,11 @@ Dendron doctor has been updated with a bunch of new options including the abilit
 
 ### Enhancements
 
--   disable git linking on a per note basis ([[docs|dendron.topic.publishing.configuration#gitnolink]])
--   set a custom path for git url ([[docs|dendron.topic.publishing.configuration#gitnotepath]])
+-   disable git linking on a per note basis ([[docs|dendron.topic.publish-legacy.configuration#gitnolink]])
+-   set a custom path for git url ([[docs|dendron.topic.publish-legacy.configuration#gitnotepath]])
 -   `dendron-cli` is now named `dendron` (`dendron-cli` will continue to work)
 -   `buildSiteV2` has been renamed to `buildSite` (`buildSiteV2` will continue to work but is now considered `deprecated`)
--   add [tldr](https://github.com/tldr-pages/tldr) to remote vault presets ([[docs|dendron.topic.vaults.multi-vault#preset-remote-vaults]])
+-   add [tldr](https://github.com/tldr-pages/tldr) to remote vault presets ([[docs|dendron.topic.multi-vault#preset-remote-vaults]])
 -   support `useFMTitle` when publishing to markdown
 -   fix link textwrap issue when publishing for mobile
 
@@ -313,7 +313,7 @@ You can now use managed publishing with a password. Note that you'll need [sprou
 ### Enhancements
 
 -   control display for children links ([[docs|dendron.topic.config.dendron#hiearchydisplaytitle]])
--   [[skipLevels|dendron.topic.publishing.configuration#skiplevels]] also applies to children lins
+-   [[skipLevels|dendron.topic.publish-legacy.configuration#skiplevels]] also applies to children lins
 -   [[useNoteTitleForLink|dendron.topic.config.dendron#usenotetitleforlink]] also applies to note references
 -   importing from markdown is now 5x faster 🚀🚀🚀
     -   NOTE: this is only for the CLI
@@ -341,7 +341,7 @@ You can now use managed publishing with a password. Note that you'll need [sprou
 
 #### Changelogs
 
-![[dendron.topic.publishing.changelogs#summary,1:#*]]
+![[dendron.topic.publish-legacy.changelogs#summary,1:#*]]
 
 ### House Cleaning
 
@@ -388,7 +388,7 @@ Dendron now supports custom domain names for [[managed publishing|dendron.topic.
 ### Enhancements
 
 -   you can now add a workspace when adding a remote vault ([[docs|dendron://dendron.dendron-site/dendron.topic.commands#vault-add]])
--   better block quotes ([[docs|dendron.topic.publishing.misc#blockquote]])
+-   better block quotes ([[docs|dendron.topic.publish-legacy.misc#blockquote]])
 -   better formatted backlinks on published pages
 -   backlinks display using note title instead of file names
 -   copy note commands will create a cross vault link when in multi-vault environment
@@ -401,7 +401,7 @@ Dendron now supports custom domain names for [[managed publishing|dendron.topic.
 
 ### Documentation
 
--   new docs on using dendron for [[blogging|dendron.topic.publishing.blogging]]
+-   new docs on using dendron for [[blogging|dendron.topic.publish-legacy.blogging]]
 
 ### House Cleaning
 
@@ -428,7 +428,7 @@ As an example of what you can do with a custom pod, we created the [[Dev.to Pod|
 
 -   backlinks in published sites
 
-![[dendron.topic.publishing.features#backlinks,1]]
+![[dendron.topic.publish-legacy.features#backlinks,1]]
 
 ### Bug Fixes
 

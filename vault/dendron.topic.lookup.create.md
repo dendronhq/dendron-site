@@ -37,4 +37,4 @@ If you have text highlighted while creating a new note with a lookup, the new no
 
 If you have multiple vaults in your workspace, you can control the behavior of which vault your new note will be placed in:
 
-![[Vault Location when Creating a Note|dendron.topic.vaults.multi-vault#vault-location-when-creating-a-note:#navigating-links]]
+![[dendron.topic.multi-vault#vault-location-when-creating-a-note:#navigating-links]]

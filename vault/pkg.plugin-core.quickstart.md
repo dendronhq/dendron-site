@@ -2,7 +2,7 @@
 id: 64f0e2d5-2c83-43df-9144-40f2c68935aa
 title: Dendron Plugin Quickstart
 desc: ''
-updated: 1634591133390
+updated: 1635709111886
 created: 1598651458825
 ---
 
@@ -36,10 +36,14 @@ Before you begin, you need to make sure to have the following SDKs and tools:
    # if the above script errors out, you can diagnose the issue and run the following scripts sequentially dependeing on where the error occured
    yarn bootstrap:bootstrap # install package dependencise
    yarn bootstrap:build  # build package dependencies
-
+   ```
+3. Watch all dependencies ^QWJj9cTIcwuX
+  - NOTE: typescript is a compiled language which means that the executablew on't be updated unless you compile. The watch script will auto-compile all code on change
+  ```sh
    # watch all dependencies
    ./bootstrap/scripts/watch.sh
-   ```
+
+  ```
 3. Open the workspace by opening `dendron-main.code-workspace` with VSode. While its not required to use VSCode, most of the helper scripts in this repository are created with VSCode in mind so using it will make development significantly easier.
 
 4. Run the plugin.  To start an instance of the Dendron with debugging capabilities, Run `Extension: Local (plugin-core)` from the debug panel in vscode

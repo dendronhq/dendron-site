@@ -26,7 +26,7 @@ Dendron 0.61 has sprouted  🌱
 - enhance(publish): add published, modified, and tags to NextJS SEO (#1412) 
 - enhance(pods): resolve relative links on markdown import 
 - enhance(markdown): Don't throw a fatal exception when missing note is parsed as noteRef 
-- enhance(markdown): option to add `#` symbols for FM tags (#1421) ([[docs|dendron://dendron.dendron-site/dendron.topic.publishing.configuration#usehashesforfmtags]])
+- enhance(markdown): option to add `#` symbols for FM tags (#1421) ([[docs|dendron://dendron.dendron-site/dendron.topic.publish-legacy.configuration#usehashesforfmtags]])
 - enhance(workspace): option to disable randomly colored tags in editor ([[docs|dendron.topic.tags#disabling-automatic-colors]])
 - enhance(workspace): mini optimization in looking up notes by filename (#1427) 
 - enhance(workspace): Leave trace on source note while using selectionExtract 
@@ -62,7 +62,7 @@ We are officially launching `#teatime` for all Dendron contributors.
 
 #### Office Hours
 
-Office hours are now every other week. No regular office hours from this week but we had a speical session of getting started with [[NextJS Publishing|dendron://dendron.dendron-site/dendron.topic.publishing-next]] which you can find [[here|dendron://dendron.dendron-site/community.office-hours.2021.09.24.nextjs-publishing]]
+Office hours are now every other week. No regular office hours from this week but we had a speical session of getting started with [[NextJS Publishing|dendron://dendron.dendron-site/dendron.topic.publish]] which you can find [[here|dendron://dendron.dendron-site/community.office-hours.2021.09.24.nextjs-publishing]]
 
 #### Thank You's
 

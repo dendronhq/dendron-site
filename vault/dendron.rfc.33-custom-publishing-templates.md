@@ -16,7 +16,7 @@ Provide ways of extending the built-in publishing template
 
 ## Context
 
-[[NextJS Publishing|dendron://dendron.dendron-site/dendron.topic.publishing-next]] doesn't provide a 
+[[NextJS Publishing|dendron://dev/dendron.topic.publish]] doesn't provide a 
 
 ## Proposal
 

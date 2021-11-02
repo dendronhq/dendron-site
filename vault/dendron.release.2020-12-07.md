@@ -28,7 +28,7 @@ Dendron 0.19 is here 🌱
 ### In the Works
 
 - finish multi-vault feature parity 
-  - list of non-compatible commands can be found [[here|dendron.topic.vaults.multi-vault#known-issues]] (we're almost done)!
+  - list of non-compatible commands can be found [[here|dendron.topic.multi-vault#known-issues]] (we're almost done)!
 - a better publishing experience
 - better note references 
 

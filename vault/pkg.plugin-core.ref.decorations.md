@@ -2,7 +2,7 @@
 id: 74UyCLyLvCxFTQNgGgSRW
 title: Decorations
 desc: ''
-updated: 1630915685807
+updated: 1635786390960
 created: 1630915066783
 ---
 
@@ -38,3 +38,6 @@ expect(
   isTextDecorated("^anchor-1", blockAnchorDecorations!, document)
 ).toBeTruthy();
 ```
+
+## Changelog
+- [fix: hover & goto note should respect enableUser/HashTags by SeriousBug · Pull Request #1620 · dendronhq/dendron](https://github.com/dendronhq/dendron/pull/1620)

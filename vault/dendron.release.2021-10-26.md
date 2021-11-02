@@ -2,7 +2,7 @@
 id: dmymhrncBTSn2q4ZgKy5B
 title: Release Notes (version 0.65)
 desc: ''
-updated: 1635277012507
+updated: 1635282552202
 created: 1635269443644
 ---
 
@@ -10,7 +10,7 @@ Dendron 0.65 has sprouted  🌱
 
 This week features tons of bug fixes, an easier to use schema format, and a new command to move headers within notes to different notes! 
 
-Note that there are some automatic configuration changes that we are making as part of our config consolidation. This should happen transparently but if for some reason your `dendron.yml` is not migrated, you can follow instructions in [[#breaking]] to manually upgrade your config. 
+Note that there are some automatic configuration changes that we are making as part of our config consolidation. This should happen transparently but if for some reason your `dendron.yml` is not migrated, you can follow instructions [[here|#breaking]] to manually upgrade your config. 
 
 ### Highlights
 - enhance(schemas): expand schema format to allow for inlined children ([[docs|dendron://dendron.dendron-site/dendron.topic.schema#inline-schema-anatomy]]) 
@@ -42,17 +42,11 @@ dendron dev run_migration --migrationVersion 0.64.1
 
 ### Community
 
-
-#### General Updates
-
 #### Dendron Reading Series
 
 This week's entry in the [[Dendron Reading Series|community.reading-series]]. 
 
-#### Office Hours
-
-<!-- TODO: update the link -->
-You can find notes from our latest office hours [[here|community.office-hours.2021.09.]]
+![[dendron://dendron.dendron-site/community.reading-series.journal.2021.10.26]]
 
 #### Thank You's
 
@@ -83,4 +77,4 @@ You can see an overview of all roles [[here|community.roles]]
     - #dendron.taxonomist
     - fix typo in issue templates
 ### Changelog
-![[dendron.release.changelog#064,1:#063]]
+![[dendron.release.changelog#065,1:#0640]]
