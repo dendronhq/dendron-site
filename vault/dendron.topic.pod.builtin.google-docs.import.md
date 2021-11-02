@@ -2,14 +2,15 @@
 id: tO6EFCHd2rw350zh
 title: Import
 desc: ''
-updated: 1634174837231
+updated: 1635272725238
 created: 1626365094547
 ---
 
 
 ## Summary
 
-The Google Docs Import Pod imports contents of a google document to a specified hierarchy in your selected vault as a note.
+The Google Docs Import Pod imports contents of a google document to a specified hierarchy in your selected vault as a note. It can parse all the _headings_, _links_, _lists_, _tables_, _user-mentions_ and _images_ present in the document.
+The images are downloaded in the assets folder and are referenced from the note. User mentions are interpreted as a user tag and parsed as `@firstname-lastname`
 The import config has additional options to import comments in the doc.
 
 ## Workflow
@@ -85,6 +86,7 @@ confirmOverwrite: true
 title: Dendron
 documentId: ***
 revisionId: ***
+CommentsUpdated: true
 ---
 ## Dendron
 

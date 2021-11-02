@@ -45,7 +45,7 @@ In this setup, all your notes are synchronized in a single git repository.
 
 ### Synchronizing Everything across Multiple Repos
 
-This setup is most useful if you are using [[Multi Vault|dendron.topic.vaults.multi-vault]] or are planning on publishing to the [[Seed Bank|dendron.topic.seed-bank]].
+This setup is most useful if you are using [[Multi Vault|dendron.topic.multi-vault]] or are planning on publishing to the [[Seed Bank|dendron.topic.seed-bank]].
 
 In this setup, only your `dendron.yml` and other metadata files are comitted when you commit your workspace. Each [[vaults|dendron.topic.vaults]] will be hosted at its own github endpoint. 
 

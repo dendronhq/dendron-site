@@ -8,8 +8,8 @@ frontend:
       commands: 
         - "(test -d .next) && (echo 'updating dendron next...' && cd .next && git reset --hard && git clean -f && git pull) || (echo 'init dendron next' && npx dendron publish init)"
         - "echo 'install deps...' && cd .next && yarn && cd .."
-        - "echo 'build notes...' && npx dendron publish build"
-        - "echo 'export...' && cd .next && yarn export"
+        - "echo 'version check...' && npx dendron --version"
+        - "echo 'build and export...' && npx dendron publish export"
   artifacts:
     baseDirectory: .next/out
     files:

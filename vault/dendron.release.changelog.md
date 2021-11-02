@@ -2,16 +2,100 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1634248692153
+updated: 1635530699407
 created: 1601508213606
 date: '2022-01-01'
 ---
 
+## 0.65.1
+
+### Features
+- feat(workspace): users can convert a local vault to a remote vault, or a remote vault to a local
+vault with new convert vault command ([[docs|dendron.topic.vaults#vault-convert]]) (#1542) @kaan
+- feat(notes): task notes (create modifier & editor highlighting) ([[docs|dendron.topic.tasks]]) (#1583) @kaan
+
+### Enhancements
+- enhance(schema): allow untyped templates in schemas ([[docs|dendron.topic.schema#shortened-template-syntax]]) (#1575) @nickolay
+
+## 0.65.0
+
+## 0.64.2
+
+### Features
+- feat(command): move header command ([[docs|dendron.topic.commands#move-header]]) (#1349)  @hikchoi 
+
+### Enhancements
+- enhance(schemas): expand schema format to allow for inlined children ([[docs|dendron://dendron.dendron-site/dendron.topic.schema#inline-schema-anatomy]]) (#1552) @nickolay
+- enhance(pods): enhance gdoc import formatting (#1538) ([[docs|dendron.topic.pod.builtin.google-docs.import#summary,1:#*]]
+) @joshi
+
+### Bug Fixes
+- fix(workspace): notes getting whitespace changes after workspace sync (#1559) @joshi
+- fix(workspace): frontmatter variable substitution not rendering in preview V2 (#1567) @hikchoi
+- fix(markdown): email parsed as user tag & option to disable user tags and hashtags (#1562) @kaan
+- fix(markdown): footnote links move view in publishing & preview (#1568) @kaan
+- fix(publish): remove .next dir if it exists in publish init (#1548) @jonathan
+- fix(publish): title parts duplicated in Next publishing search (#1573)
+- fix(commands): move header command modifying unrelated note content (#1574) @hikchoi
+
+## 0.64.1
+
+### Breaking changes
+
+As part of the [[config consolidation|dendron.rfc.23-config-consolidation]], workspace options like `vault` are now under the `workspace` namespace in `dendron.yml`.
+
+Before:
+```yaml
+vaults:
+    - fsPath: vault1
+```
+
+After:
+```yaml
+workspace:
+    vaults:
+        - fsPath: vault1
+```
+
+Initializing your workspace to `0.64.1` will do this upgrade automatically.  If you are using the latest version of the CLI (`0.64.1`) , make sure to initialize your workspace beforehand which will upgrade your config to the latest version.
+
+Migration can also be done via the latest CLI release:
+
+```bash
+dendron dev run_migration --migrationVersion 0.64.1
+```
+
+### Enhancements
+- enhance(cli): support output option when using `dendron note lookup` ([[docs|dendron://dendron.dendron-site/dendron.topic.cli.notes#lookup]]) (#1526) @kevin
+- enhance(commands): update default aliases when note is updated (#1557) @kaan
+- enhance(cli): add run migration command in cli ([[docs|dendron.dev.cli#run_migration]]) (#1560) @hikchoi
+
+### Fix
+- fix(workspace): update yml validation to latest config version (#1554) @hikchoi
+- fix(publish):make assetPrefix apply to all link elements (#1555) @kevin
+- fix(publish): make 11ty publishing compatible with config version 3 (#1556) @kevin
+
+## 0.64.0
+
+## 0.63.2
+
+### Enhancements
+- enhance(lookup): lookup wikilinks @nickolay
+- fix(lookup): better hierarchy look up when inside parts of the hierarchy are omitted (#1522) @nickolay
+- enhance(lookup): allow configuration of workspace to make 'Create New' not bubble up in note lookup. (#1528) @nickolay
+- enhance(pods): asignees in github issue publish pod ([[docs|dendron://dendron.dendron-site/dendron.topic.pod.builtin.github-issue.publish#updating-an-issue]])@joshi 
+
+### Bug Fixes
+- fix(markdown): better footnote rendering in note references (#1520) @kaan
+- fix(markdown): user tags & hashtags inside links should be parsed as regular text #1524 @kaan #pending
+- fix(publish): wikilinks inside note references don't have right link @kevin
+- fix(workspace): making changes to fontmatter title also update the preview (#1513) @nickolay
+
 ## 0.63.1
 
 ### Features
-- feat(publish): add `dendron publish dev` command  ([[docs|dendron://dendron.dendron-site/dendron.topic.publishing-next.cli#dev]]) @kevin
-- feat(publish): add `dendron publish export` command ([[docs|dendron://dendron.dendron-site/dendron.topic.publishing-next.cli#export]]) @kevin
+- feat(publish): add `dendron publish dev` command  ([[docs|dendron://dendron.dendron-site/dendron.topic.publish.cli#dev]]) @kevin
+- feat(publish): add `dendron publish export` command ([[docs|dendron://dendron.dendron-site/dendron.topic.publish.cli#export]]) @kevin
 
 ### Enhancements
 - enhance(publish): support publishing to github as a export template @kevin
@@ -23,11 +107,13 @@ date: '2022-01-01'
 - fix(workspace): possible error if open note is changed quickly after edit (#1486) @kaan
 - fix(publish): optimize nextjs publishing search (#1519) @kaan
 
+[[pkg.nextjs-template]] 
+
 ### Internal
 - chore: add test for apostrophe in alias (#1501)  @kaan
 - chore: skip failing WS init test on Windows (#1517) @kaan
 
-## 0.63.0
+## 0.63
 
 ## 0.62.4
 
@@ -91,7 +177,7 @@ date: '2022-01-01'
 - feat(workspace): add survey for new users(#1409)
 
 ### Enhancements
-- enhance(markdown): option to add `#` symbols for FM tags (#1421) @kaan ([[docs|dendron://dendron.dendron-site/dendron.topic.publishing.configuration#usehashesforfmtags]])
+- enhance(markdown): option to add `#` symbols for FM tags (#1421) @kaan ([[docs|dendron://dendron.dendron-site/dendron.topic.publish-legacy.configuration#usehashesforfmtags]])
 - enhance(publish): add published, modified, and tags to NextJS SEO (#1412) @nwehner
 - enhance(workspace): mini optimization in looking up notes by filename (#1427) @nickolay
 - enhance(workspace): Leave trace on source note while using selectionExtract @joshi
@@ -111,7 +197,7 @@ date: '2022-01-01'
 
 ### Enhancements
 - enhance(publish): support [g4a tags](https://support.google.com/analytics/answer/10089681?hl=en) @kevin
-- enhance(publish): support twitter card @kevin ([[docs|dendron://dendron.dendron-site/dendron.topic.publishing.configuration#twitter]])
+- enhance(publish): support twitter card @kevin ([[docs|dendron://dendron.dendron-site/dendron.topic.publish-legacy.configuration#twitter]])
 - enhance(publish): add border color to table (#1387) @viztor
 - enhance(publish): filter body out of generated notes.json for next (#1380) @viztor
 - enhance(pods): resolve relative links on markdown import @joshi

@@ -2,7 +2,7 @@
 id: 23a1b942-99af-45c8-8116-4f4bb7dccd21
 title: Dendron CLI
 desc: ''
-updated: 1633964326846
+updated: 1635119294043
 created: 1600033791071
 ---
 
@@ -29,7 +29,7 @@ This only needs to be set if you are not executing the CLI from within the root 
 
 ### vault
 
-Path to a [[vaults|dendron.concepts#vaults]]. If not given and not a [[multi vault|dendron.topic.vaults.multi-vault]] workspace, Dendron will use the only existing vault. Otherwise, will ask for you to specify a vault
+Path to a [[vaults|dendron.concepts#vaults]]. If not given and not a [[multi vault|dendron.topic.multi-vault]] workspace, Dendron will use the only existing vault. Otherwise, will ask for you to specify a vault
 
 ## Engine Commands
 
@@ -100,61 +100,6 @@ Options:
 dendron launchEngineServer --wsRoot ~/Dendron/ --port 3005
 ```
 
-## Note Commands
-
-```bash
-dendron note <cmd>
-
-note related commands
-
-Positionals:
-  cmd  a command to run        [string] [required] [choices: "lookup", "delete"]
-
-Options:
-  --version         Show version number                                [boolean]
-  --help            Show help                                          [boolean]
-  --wsRoot          location of workspace
-  --vault           name of vault
-  --quiet           don't print output to stdout
-  --enginePort      If set, connect to to running engine. If not set, create new
-                    instance of Dendron Engine
-  --useLocalEngine  If set, use in memory engine instead of connecting to a
-                    server                                             [boolean]
-  --query           the query to run                                    [string]
-
-```
-
-### Common Parameters
-
-![[dendron.topic.cli#common-options,1:#engine-commands]]
-
-### Examples
-
-#### Creating a note
-
-
-```bash
-# creates hello if it does not exist
-dendron note lookup --query "hello" 
-```
-
-#### Querying a note
-
-```bash
-# retrieves hello.md if it does exist
-dendron note lookup --query "hello" 
-```
-
-#### Deleting a note
-```bash
-dendron note delete --query "foo" 
-```
-
-#### Deleting a note within a multi-vault workspace
-```bash
-dendron note delete --vault vault2 --query "foo" 
-```
-
 ## Publishing Commands
 
 ### buildSite
@@ -179,7 +124,7 @@ Options:
 
 #### Using a different port
 
-![[dendron.topic.publishing.configuration#previewport,1:#*]]
+![[dendron.topic.publish-legacy.configuration#previewport,1:#*]]
 
 #### Connect to Open Workspace
 
@@ -306,3 +251,7 @@ Run `git add . && git commit` on all vaults inside the workspace
 #### sync
 
 Run `addAndCommit`, `pull`, and `push` on all vaults inside the workspace. This follows the same configuration as the `Workspace: Sync` command in the extension, see [[Workspace Sync|dendron.ref.workspace#Workspace: Sync]] for details.
+
+## Dev Command
+
+![[dendron.dev.cli]]

@@ -39,7 +39,7 @@ Wiki links also have support for highlighting in the editor. Existing notes will
 
 ## Children Links
 
-When you [[publish|dendron.topic.publishing]] your notes, Dendron shows all children of the note at the bottom.
+When you [[publish|dendron.topic.publish]] your notes, Dendron shows all children of the note at the bottom.
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/Quickstart_-_Dendron.jpg)
 
@@ -74,7 +74,7 @@ For links to a file format Dendron does not support, you can highlight the link 
 
 ## Cross Vault Links
 
-Cross vault links are a way of exactly specifying a note in a [[multi vault|dendron.topic.vaults.multi-vault]] workspace. You can turn a regular link into a cross vault link by adding `dendron://$vaultName/` prefix where `$vaultName` is the [[name|dendron.topic.config.dendron#name]] of your vault.
+Cross vault links are a way of exactly specifying a note in a [[multi vault|dendron.topic.multi-vault]] workspace. You can turn a regular link into a cross vault link by adding `dendron://$vaultName/` prefix where `$vaultName` is the [[name|dendron.topic.config.dendron#name]] of your vault.
 
 Some examples:
 

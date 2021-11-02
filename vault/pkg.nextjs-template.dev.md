@@ -3,13 +3,13 @@ id: PgwAXFfotfgpFVqHQRlBl
 title: Dev
 desc: |
   Development related
-updated: 1631554070420
+updated: 1635267721781
 created: 1628376960868
 ---
 
 ## Build
 
-See build instructions [[here|dendron.dev.setup#build]] 
+See build instructions [[here|pkg.plugin-core.quickstart#build]] 
 
 ## Run
 <!-- How to run the program from the current source code -->
@@ -42,5 +42,5 @@ See build instructions [[here|dendron.dev.setup#build]]
 1. Navigate to your workspace root
 1. Run the following command. 
   ```sh
-  dendron exportPod --podId dendron.nextjs --config "dest={path/to/nextjs-template]"
+  dendron exportPod --podId dendron.nextjs --config "dest={path/to/nextjs-template}"
   ```

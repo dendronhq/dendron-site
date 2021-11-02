@@ -2,7 +2,7 @@
 id: 99q7A73uGmCwu2KvSHZro
 title: Test
 desc: ''
-updated: 1632725608146
+updated: 1634591743159
 created: 1632347495097
 ---
 
@@ -16,25 +16,7 @@ All packages have tests written in `jest` except plugin-core. these tests use `m
 Going forward for new tests the recommendation is to follow GIVEN-WHEN-THEN style described in [[dendron.dev.qa.style]]
 
 #### Plugin
-
-- NOTE: mocha will mark a test as a success if you return a promise. This is why we use callback style version of the tests
-
-```ts
-// good
-describe("foo", function() {
-  test("does foo", function(done) {
-    ...
-    done();
-  });
-});
-
-// bad
-describe("foo", function() {
-  test("does foo", async function( ) {
-    ...
-  });
-});
-```
+- see [[Test|dendron://dendron.dendron-site/pkg.plugin-core.qa.test]]
 
 You can see an example of a test [here](https://github.com/dendronhq/dendron/blob/master/packages/plugin-core/src/commands/CopyNoteURL.ts)
 

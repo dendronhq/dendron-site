@@ -47,7 +47,7 @@ One of our most requested features for multi-vault is now out. Refactor will now
 
 #### Support Specifying Vault Location when Creating a Note
 
-![[dendron.topic.vaults.multi-vault#specify-vault-location-when-creating-a-note,1:#*]]
+![[dendron.topic.multi-vault#specify-vault-location-when-creating-a-note,1:#*]]
 
 ### Enhancements
 
@@ -529,7 +529,7 @@ As a reminder, dendrologist are active members of the community who are recogniz
 ### Enhancements
 
 - **publish:** be able to set config for all hierarchies ([a27d94a](https://github.com/dendronhq/dendron/commit/a27d94a3c469a4efaf2ee8c2bca40a8a471773f2))
-  ![[dendron.topic.publishing.configuration#config:#*]]
+  ![[dendron.topic.publish-legacy.configuration#config:#*]]
 
 - **schema:** add custom props from schema template ([5264544](https://github.com/dendronhq/dendron/commit/52645449b8e155e168baaac0fa4e99903efafcf0))
 
@@ -599,7 +599,7 @@ Documentation for pods has been re-written to reflect recent changes with pods
 
 - **publishing:** generate toc when publishing ([53ee270](https://github.com/dendronhq/dendron/commit/53ee270c89f530b9224f33a28dc811de7e5cb2ad))
 
-![[dendron.topic.publishing.configuration#toc:#*]]
+![[dendron.topic.publish-legacy.configuration#toc:#*]]
 
 - **publishing:** set frontmatter overrides globally when publishing ([782d637](https://github.com/dendronhq/dendron/commit/782d6374c55b00bcda36da9149fb2cedeac0c3d9))
 
@@ -800,7 +800,7 @@ Dendron now initializes your workspace with common default snippets
 
 #### Introduce siteRepoDir Customization
 
-![[dendron.topic.publishing.configuration#siterepodir,1:#*]]
+![[dendron.topic.publish-legacy.configuration#siterepodir,1:#*]]
 
 ### Bug Fixes
 

@@ -2,7 +2,7 @@
 id: c5e5adde-5459-409b-b34d-a0d75cbb1052
 title: Schemas
 desc: ''
-updated: 1628281183439
+updated: 1635393161369
 created: 1595952505039
 stub: false
 ---
@@ -72,6 +72,39 @@ Below is another way of representing the above schema
             └── {cmd child} # matches cli.*.cmd.*
 ```
 
+## Inline Schema Anatomy
+
+Another way to specify schemas is to use inline schemas. Which can be simpler to create and maintain. 
+
+When we are creating inline schemas only the topmost schema must have an identifier `id` (this identifier will be used when looking up schemas). Child schemas are inlined under `children` and just require to contain `pattern`. 
+
+While using inline schemas you can take advantage of collapsibility of YAML config. 
+
+Here is an example of inline daily journal schema it will match notes such as 'daily.journal.2021.11.12'
+
+```yml
+version: 1
+schemas:
+  # Daily is the top most schema since its parent is 'root' it must have an identifier
+  # this identifier 'daily' will be used when using 'Lookup (schema)' command.
+  - id: daily
+    parent: root
+    # Children of the top most schema do not need to contain identifier and just 
+    # require a 'pattern' to be set to match the hierarchy of notes.
+    children:
+      - pattern: journal
+        children:
+          - pattern: "[0-2][0-9][0-9][0-9]"
+            children:
+              - pattern: "[0-1][0-9]"
+                children:
+                  - pattern: "[0-3][0-9]"
+                    # As with regular schema we can set the template to be used with
+                    # the match of our notes. 
+                    template:
+                      id: templates.daily
+                      type: note
+```
 
 
 ## Properties
@@ -218,16 +251,21 @@ template:
   id: journal.template.daily
   # what sort of template we are creating. currently, only 'note' is supported
   type: note
-
 ```
-
+##### Shortened template syntax
+```yml
+# identifier for the template (the name of the note)
+# The type will be set to 'note' 
+template: journal.template.daily
+```
+Shortened template syntax will always uses `type: note` 
 ## Schema Templates
 
 Schema templates let you designate a note as a **template**. Newly created notes that match a schema with a template will have both the contents and custom frontmatter of the template note applied at creation.
 
 This is extremely useful whenever you want to re-use the outline of a note. Examples include daily journals, weekly shopping lists, and weekly reviews.  
 
-- NOTE: you'll need to run `Reload Workspace` for any new templates to take effect
+- NOTE: you'll need to run `Reload Workspace` for any schemas that were deleted within a schema.yml file (without deleting the schema file itself).
 
 <a href="https://www.loom.com/share/481b7ab051394c1caa383383bd265755"> 
 <img style="" src="https://cdn.loom.com/sessions/thumbnails/481b7ab051394c1caa383383bd265755-with-play.gif"> 
@@ -246,8 +284,6 @@ Dendron doesn't force you to use schemas if you don't want to. This is why you c
 Schemas can be modified, created and deleted using the same lookup interface that you use for regular notes. See [[lookup|dendron.topic.lookup]] for further details about working with schemas.
 
 ## Example Schemas
-<!-- - [Project and Journal](https://gist.github.com/kevinslin/5ca7a6f25a239add5ea374f329e6a19e) -->
-- Example schemas can be found [here](https://github.com/kevinslin/schemas.git)
 - You can copy and paste the individual schema files or add it as a [[remote Vault|dendron.topic.vaults#remote]] and keep up to date on changes
 - Its pretty bare right now but plan on adding a lot more here over time. contributions most welcome :)
 

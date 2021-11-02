@@ -2,7 +2,7 @@
 id: f83c1d87-eac0-48f3-a5cf-8a69989d8ec1
 title: Dendrons Config
 desc: ''
-updated: 1634649170397
+updated: 1634799984314
 created: 1619539817122
 ---
 
@@ -31,7 +31,7 @@ Execute [[Insert Note|dendron.topic.commands#insert-note]] with the hierarchy pr
 - default: false
 - status: experimental 🚧
 
-Turn on to enable [[changelogs|dendron.topic.publishing.changelogs]]
+Turn on to enable [[changelogs|dendron.topic.publish-legacy.changelogs]]
 
 ### hierarchyDisplayTitle
 - default: Children
@@ -44,6 +44,11 @@ Controls the title for [[children links|dendron.topic.links#children-links]] in 
 > Use [[confirmVaultOnCreate|dendron.topic.config.dendron.commands#confirmvaultoncreate]] instead.
 
 With this set, you will be prompted to select the vault location each time you create a note when you have multiple vaults in your workspace.
+
+### lookupDontBubbleUpCreateNew
+- default: false
+
+With this set to `true`: `Create new` will NOT bubble up to the top when using [[Note Lookup|dendron.topic.lookup]]. Use this setting when your workflow largely consists of lookups and you want to keep `Create new` as the last entry in the look up results. 
 
 ### mermaid
 - default: false
@@ -117,6 +122,16 @@ When set to true, use frontmatter as title when publishing and in the preview.
 - default: true
 
 Turn on [Katex](https://katex.org/) support
+
+### enableUserTags
+- default: true
+
+Enables [[user tags|dendron.topic.users#user-tags]] support.
+
+### enableHashTags
+- default: true
+
+Enables [[hashtags|dendron.topic.tags#hashtags]] support.
 
 ### useNoteTitleForLink
 
@@ -233,7 +248,7 @@ name used for journal notes
 > Use [[dateFormat|dendron.topic.config.dendron.workspace#dateformat]] instead.
 
 - type: string
-- default: y.MM.dd
+- default: y.MM.dd ^dNGnhlJY93Kk
 
 Date format used for journal notes. Use [luxon style formatting](https://moment.github.io/luxon/#/formatting)
 

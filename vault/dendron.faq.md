@@ -130,7 +130,7 @@ You are also free to use the body however you wish.
 
 Yes. You can move notes manually outside of Dendron or between different vaults. Some things to keep in mind:
 - you should keep the `id` of the note since features like publishing depend on it to find the right link
-- if your notes have [[Cross Vault Links|dendron.topic.links#cross-vault-links]] (only applicable for [[Multi Vault|dendron.topic.vaults.multi-vault]]), those links might bring if they are moved to a different workspace that doesn't have reference to the original vault
+- if your notes have [[Cross Vault Links|dendron.topic.links#cross-vault-links]] (only applicable for [[Multi Vault|dendron.topic.multi-vault]]), those links might bring if they are moved to a different workspace that doesn't have reference to the original vault
 
 ## Hierarchies
 
@@ -231,7 +231,7 @@ Many VSCode extensions that work across multiple git repositories won't recogniz
 ## Humans
 
 ### How do I share my notes with others?
-1. The *easiest* way to share public documents *for consumers* is to publish it as a site. Instructions [[here|dendron.topic.publishing.quickstart]]
+1. The *easiest* way to share public documents *for consumers* is to publish it as a site. Instructions [[here|dendron.topic.publish-legacy.quickstart]]
 2. If folks are comfortable with markdown, you can use the markdown pod to export your entire workspace or just a specific page to markdown. Instructions [[here|dendron.topic.pod.builtin.markdown]]
     - NOTE: this doesn't preserve backlinks or assets
 3. The full experience is committing your workspace as a git repo and having collaborators use Dendron to add it as a [[Remote Vault|dendron.topic.vaults#remote-vault]]
@@ -249,7 +249,7 @@ Internally for example, we use google docs to take meeting notes collaboratively
 You can read more about them [[here|dendron.topic.pod]].
 
 ## Publishing
-![[dendron://dendron.dendron-site/dendron.topic.publishing.faq]]
+![[dendron://dendron.dendron-site/dendron.topic.publish-legacy.faq]]
 
 ## Search and Filtering
 

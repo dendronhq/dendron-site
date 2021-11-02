@@ -2,7 +2,7 @@
 id: 9eca1992-7540-4d9d-97fb-328b27748b2c
 title: Snippets
 desc: ''
-updated: 1626380955802
+updated: 1634664629269
 created: 1596561207607
 ---
 
@@ -106,17 +106,3 @@ time: {
 }
 }
 ```
-
-## Issues
-
-### Can't autocomplete snippets inline
-
-To get snippets to autocomplete, make sure you don't have snippets disabled
-
-1. go to > workspace: open user settings (json)
-2. change the following line to `true`
-
-```
-"editor.suggest.showSnippets": false,
-```
-

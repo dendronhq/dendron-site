@@ -12,5 +12,5 @@ If you would like to contribute to the development of dendron, you can do so by 
 
 You can then follow the setup instructions below to prepare your first commit!
 
-![[dendron.dev.setup]]
+![[pkg.plugin-core.quickstart]]
 

@@ -2,7 +2,7 @@
 id: xSSUw9GWcnsF35y597Vof
 title: 35 Easier Schemas
 desc: ''
-updated: 1634479236773
+updated: 1634730923889
 created: 1633613554664
 ---
 
@@ -358,20 +358,21 @@ Allow inline schemas such as the following layout. This allows for child schemas
 
 ```yml
     - id: daily
+      parent: root
       children:
         - pattern: journal
-        children: 
+          children: 
             - pattern: "[0-2][0-9][0-9][0-9]"
-            title: year
-            children: 
+              title: year
+              children: 
                 - pattern: "[0-1][0-9]"
-                title: month
-                children: 
-                    - pattern: "[0-3][0-9]"
-                    title: day
-                    template:
-                        id: templates.foo
-                        type: note
+                  title: month
+                  children: 
+                      - pattern: "[0-3][0-9]"
+                        title: day
+                        template:
+                            id: templates.foo
+                            type: note
 ```
 
 Currently, the configuration in the example above would be implemented with the syntax below:

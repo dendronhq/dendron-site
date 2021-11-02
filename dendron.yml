@@ -1,30 +1,12 @@
-maxPreviewsCached: 10
-vaults:
-    -
-        fsPath: vault
-        name: dendron.dendron-site
 useFMTitle: true
 useNoteTitleForLink: true
-noAutoCreateOnDefinition: true
 noLegacyNoteRef: true
-noXVaultWikiLink: true
 mermaid: true
 useKatex: true
-autoFoldFrontmatter: false
 usePrettyRefs: true
 dev:
     enableWebUI: true
     enablePreviewV2: true
-journal:
-    dailyDomain: daily
-    name: journal
-    dateFormat: y.MM.dd
-    addBehavior: childOfCurrent
-    firstDayOfWeek: 1
-scratch:
-    name: scratch
-    dateFormat: y.MM.dd.HHmmss
-    addBehavior: asOwnDomain
 site:
     siteHierarchies:
         - dendron
@@ -49,10 +31,8 @@ site:
         It is meant to help you create, organize, and collaborate on knowledge
         bases of any size.
     ga_tracking: G-B0JN2HHCNY
-version: 2
+version: 3
 useTitleForLink: true
-initializeRemoteVaults: true
-dendronVersion: 0.63.2
 commands:
     lookup:
         note:
@@ -67,3 +47,27 @@ commands:
         enableMultiSelect: false
     insertNoteIndex:
         enableMarker: false
+workspace:
+    dendronVersion: 0.64.7
+    vaults:
+        -
+            fsPath: vault
+            name: dendron.dendron-site
+    journal:
+        dailyDomain: daily
+        name: journal
+        dateFormat: y.MM.dd
+        addBehavior: childOfCurrent
+    scratch:
+        name: scratch
+        dateFormat: y.MM.dd.HHmmss
+        addBehavior: asOwnDomain
+    graph:
+        zoomSpeed: 1
+    enableAutoCreateOnDefinition: false
+    enableXVaultWikiLink: false
+    enableRemoteVaultInit: true
+    workspaceVaultSyncMode: noCommit
+    enableAutoFoldFrontmatter: false
+    maxPreviewsCached: 10
+    maxNoteLength: 204800

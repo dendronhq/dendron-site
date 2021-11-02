@@ -2,7 +2,7 @@
 id: veJtAvr1gSMu50Mp
 title: Test
 desc: ''
-updated: 1633593852849
+updated: 1634591614427
 created: 1627140509315
 ---
 
@@ -116,3 +116,8 @@ Note that VSCode uses [mocha](https://mochajs.org/) as its default test runner w
 We shim the [jest methods](https://github.com/dendronhq/dendron/blob/master/packages/plugin-core/src/test/testUtilsv2.ts#L418:L418) when testing the plugin though so that we can re-use the same logic between our non-vscode packages and the Dendron VSCode Plugin. 
 
 
+## Cook
+
+### Upating the cursor position
+
+- see [this](https://github.com/dendronhq/dendron/blob/master/packages/plugin-core/src/test/suite-integ/NoteLookupCommand.test.ts)

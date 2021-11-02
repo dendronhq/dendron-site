@@ -31,9 +31,9 @@ Some things to note:
 
 ## Exclude page from index
 
-- [[Exclude from indexing|dendron.topic.publishing.advanced#exclude-from-indexing]]
+- [[Exclude from indexing|dendron.topic.publish-legacy.advanced#exclude-from-indexing]]
 
 ## Exclude hierarchy from index
 
-- set [[noindexByDefault|dendron.topic.publishing]] to true in your site hierarchy specific config
+- set [[noindexByDefault|dendron.topic.publish]] to true in your site hierarchy specific config
 

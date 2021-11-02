@@ -11,7 +11,7 @@ Dendron 0.26 has sprouted 🌱
 
 - use note titles for link names ([[docs|dendron.topic.config.dendron#usenotetitleforlink]])
 - mermaid diagram support when publishing ([[docs|dendron.topic.markdown#diagrams]])
-- better dup note handling when publishing from multi-vault ([[docs|dendron.topic.publishing.configuration#passing-multiple-vaults]])
+- better dup note handling when publishing from multi-vault ([[docs|dendron.topic.publish-legacy.configuration#passing-multiple-vaults]])
 
 ### Community
 

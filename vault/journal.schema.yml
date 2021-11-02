@@ -1,15 +1,18 @@
-- id: journal
-  parent: root
-  children:
-    - daily
-    - weekly
-    - yearly
-- id: daily
-  namespace: true
-  template: 
-    id: journal.template.daily
-    type: note
-- id: weekly
-  namespace: true
-- id: yearly
-  namespace: true
+version: 1
+imports: [ ]
+schemas:
+  - id: journal
+    parent: root
+    children:
+      - daily
+      - weekly
+      - yearly
+  - id: daily
+    namespace: true
+    template:
+      id: journal.template.daily
+      type: note
+  - id: weekly
+    namespace: true
+  - id: yearly
+    namespace: true

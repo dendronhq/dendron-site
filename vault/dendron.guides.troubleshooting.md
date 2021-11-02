@@ -2,7 +2,7 @@
 id: a6c03f9b-8959-4d67-8394-4d204ab69bfe
 title: Troubleshooting
 desc: ''
-updated: 1628347844122
+updated: 1635722702072
 created: 1595952505025
 ---
 
@@ -23,7 +23,7 @@ Check the version numbers of your dependencies. You can get version numbers by r
 npm info @dendronhq/dendron-cli
 ``` -->
 
-## Plugin 
+## Workspace
 
 ### Dendron is stuck on loading
 - fixes:
@@ -77,7 +77,18 @@ journal:
     firstDayOfWeek: 1
 ```
 
+### Can't autocomplete snippets inline
 
+To get snippets to autocomplete, make sure you don't have snippets disabled
+
+1. go to > workspace: open user settings (json)
+2. change the following line to `true`
+
+```json
+"editor.suggest.snippetsPreventQuickSuggestions": false,
+"editor.suggest.showSnippets": true,
+"editor.tabCompletion": "on",
+```
 
 ## Upgrading
 
@@ -203,9 +214,26 @@ You will get this if you have multiple [[vaults|dendron.topic.config.dendron#vau
 
 ## Common Diagnostics
 
+### Check Dendron CLI Version
+
+```sh
+dendron --version
+```
+
 ### Launch a new workspace
 
 To check if there is something wrong with Dendron vs your particular workspace setup, launch Dendron in a new workspace by running [[Initialize Workspace|dendron.topic.commands#initialize-workspace]]. 
+
+### Check the logs
+
+Run `Dendron: Open Logs` and search for `"level":50` (these are lines with errors in them). The logs provide a more detailed description of what went wrong and can point what is happening. 
+
+### Check if its a conflicting extension
+
+Sometimes existing extensions will not play nicely with Dendron. To see if a problem is a Dendron specific issue and not another extension, you can do the following:
+- do a clean install of a VSCode flavor you do not currently have (eg. VSCodium if you have VSCode or vice versa, see instructions [[here|dendron://dendron.dendron-site/dendron.tutorial#pre-requisites]])
+- install only the Dendron extension 
+- see if your issue reproduces
 
 ## Common Fixes
 
@@ -232,11 +260,7 @@ Delete dendron [[cache|dendron.ref.caching#summary]] files.
 
 ### Whitelisting localhost
 
-Dendron starts a [[local server|dendron.dev.design#overview]] in the background and the plugin connects to it to index notes. Check that you don't have anything that is running or blocking localhost.  If you happen to have [Cloudflare WARP VPN](https://1.1.1.1) on a Mac, then your localhost might be broken.  To fix that, open your terminal and run this command:
-```zsh
-sudo ifconfig lo0 -alias 192.0.2.2
-```
-You will unfortunately need to run this after every time you turn *off* the Cloudflare WARP VPN.  It is **not** Dendron's issue that this certain VPN breaks localhost.
+Dendron starts a [[local server|dendron.dev.design#overview]] in the background and the plugin connects to it to index notes. Check that you don't have anything that is running or blocking localhost.  If you happen to have [Cloudflare WARP VPN](https://1.1.1.1) on a Mac, then your localhost might be broken.  To fix that, update your version of the VPN (a recent update fixed it).
 
 ### Correctly Format the Note
 
@@ -247,6 +271,25 @@ Dendron can sometimes fail to load due to a malformed note. Common issues:
 ### Look for large files
 
 Dendron currently has trouble parsing notes larger than 1MB in size. Check if you have any notes like this and move them out of your workspace.
+
+### Upgrade your CLI
+
+- upgrading local version
+  - run inside the root of your workspace
+```sh
+npm install --save @dendronhq/dendron-cli@latest
+```
+
+- upgrading global 
+```sh
+npm -g install @dendronhq/dendron-cli@latest
+```
+
+If upgrading doesn't work, run the following first
+
+```sh
+npm uninstall -g @dendronhq/dendron-cli
+```
 
 ### Book a one on one
 

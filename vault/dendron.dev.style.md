@@ -2,7 +2,7 @@
 id: 773e0b5a-510f-4c21-acf4-2d1ab3ed741e
 title: Style
 desc: ''
-updated: 1632806581187
+updated: 1635222674359
 created: 1609550314371
 ---
 
@@ -27,8 +27,13 @@ We use [`luxon`](https://moment.github.io/luxon/api-docs/index.html#datetime) fo
 1. Reduce State - code written with minimal state are easier to test and reason about then code with state
 1. Reduce coupling - code that is loosely coupled is better than the opposite
 1. Reduce complexity - code that is simpler is better
-  - reduce library surface area: it is better to have one method to do one thing then multiple methods that do the same thing
 1. Reduce code - code that is not duplicated 
+
+### Reduce coupling
+
+When introducing abstractions, beware of coupling. In general, we'd rather have two separate implementations of a thing than forcing two unrelated functions to use, for example, a common base class, to safe on lines of code. 
+
+Unless you're relatively certain that something will be re-used, we default to implementing a thing two or three times. If at that point we notice that it does indeed share a lot in common, we will create a common abstraction for it.
 
 ## Conventiions
 
