@@ -2,10 +2,35 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1635530926822
+updated: 1635877121235
 created: 1601508213606
 date: '2022-01-01'
 ---
+
+## 0.66.0
+
+### Breaking changes
+
+1. Deprecation notice for `Site Preview` and `Site Build`. These currently build using our legacy 11ty publishing method. Starting next week, these will be upgraded to publish using NextJS. In addition, the notes will be renamed:
+    * `Site Preview` will be renamed to `Publish Dev`
+    * `Site Build` will be renamed to `Publish Export`
+2. We have updated the enablement of our preview features to reduce clutter in the command palette and prevent confusion.
+    * `Dendron: Show Preview` is now called `Dendron: Show Preview (legacy)`
+    * `Dendron: Show Preview V2` is now called `Dendron: Show Preview`
+    * Both preview commands and their keybindings are now disabled if you are in a non-Dendron workspace or if your active open document is not a markdown file. This means they will not be accessible in the command palette or triggered with a keybinding.
+
+### Enhancements
+- enhance(workspace): add seeds directory to gitignore on workspace creation (#1629) @hikchoi
+- enhance(workspace): preview command enablement (#1619) @hikchoi
+- enhance(workspace): add custom icons to dendron tree view (#1635)  @kevin
+- enhance(workspace): Copy Header Reference code action (#1598) @joshi
+
+### Fix
+- fix(publishing): markdown publish to hide block reference anchors (#1577)  @joshi
+- fix(workspace): file watcher updates backlinks (#1618) @kaan
+- fix(workspace): hover & goto note should respect enableUser/HashTags (#1620) @kaan
+- fix(pods): resolve same level dir wikilinks in markdown import (#1615) @joshi
+- fix(schemas): replace auto generated ids with readable descriptions (#1632) @nickolay
 
 ## 0.65.1
 
@@ -94,8 +119,8 @@ dendron dev run_migration --migrationVersion 0.64.1
 ## 0.63.1
 
 ### Features
-- feat(publish): add `dendron publish dev` command  ([[docs|dendron://dendron.dendron-site/dendron.topic.publishing-next.cli#dev]]) @kevin
-- feat(publish): add `dendron publish export` command ([[docs|dendron://dendron.dendron-site/dendron.topic.publishing-next.cli#export]]) @kevin
+- feat(publish): add `dendron publish dev` command  ([[docs|dendron://dendron.dendron-site/dendron.topic.publish.cli#dev]]) @kevin
+- feat(publish): add `dendron publish export` command ([[docs|dendron://dendron.dendron-site/dendron.topic.publish.cli#export]]) @kevin
 
 ### Enhancements
 - enhance(publish): support publishing to github as a export template @kevin

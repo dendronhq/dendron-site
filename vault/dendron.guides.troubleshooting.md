@@ -2,7 +2,7 @@
 id: a6c03f9b-8959-4d67-8394-4d204ab69bfe
 title: Troubleshooting
 desc: ''
-updated: 1635438538518
+updated: 1635722702072
 created: 1595952505025
 ---
 
@@ -227,6 +227,13 @@ To check if there is something wrong with Dendron vs your particular workspace s
 ### Check the logs
 
 Run `Dendron: Open Logs` and search for `"level":50` (these are lines with errors in them). The logs provide a more detailed description of what went wrong and can point what is happening. 
+
+### Check if its a conflicting extension
+
+Sometimes existing extensions will not play nicely with Dendron. To see if a problem is a Dendron specific issue and not another extension, you can do the following:
+- do a clean install of a VSCode flavor you do not currently have (eg. VSCodium if you have VSCode or vice versa, see instructions [[here|dendron://dendron.dendron-site/dendron.tutorial#pre-requisites]])
+- install only the Dendron extension 
+- see if your issue reproduces
 
 ## Common Fixes
 

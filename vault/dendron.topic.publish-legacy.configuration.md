@@ -168,13 +168,13 @@ links.
 - status: optional
 - default: true
 
-Whether [[frontmatter tags|dendron.topic.tags#frontmatter-tags]] should be rendered in published websites, and in [[Preview V2|dendron.topic.preview-v2]].
+Whether [[frontmatter tags|dendron.topic.tags#frontmatter-tags]] should be rendered in published websites, and in [[Preview|dendron.topic.preview]].
 
 ### useHashesForFMTags
 - status: optional
 - default: false
 
-If set to `true`, [[frontmatter tags|dendron.topic.tags#frontmatter-tags]] will be rendered with a `#` symbol before them in published websites, and in [[Preview V2|dendron.topic.preview-v2]].
+If set to `true`, [[frontmatter tags|dendron.topic.tags#frontmatter-tags]] will be rendered with a `#` symbol before them in published websites, and in [[Preview|dendron.topic.preview]].
 
 ### writeStubs 
 - status: optional

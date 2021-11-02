@@ -61,7 +61,7 @@ Note that the color you assign your tag will also be displayed in the [[Dendron 
 #### Disabling automatic colors
 
 The automatically assigned tag colors can be disabled. To disable them in
-publishing, see [[noRandomlyColoredTags site config|dendron.topic.publishing-legacy.configuration#norandomlycoloredtags]],
+publishing, see [[noRandomlyColoredTags site config|dendron.topic.publish-legacy.configuration#norandomlycoloredtags]],
 and to disable them in the editor  see [[noRandomlyColoredTags general config|dendron.topic.config.dendron#norandomlycoloredtags]].
 
 ### Publishing

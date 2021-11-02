@@ -2,7 +2,7 @@
 id: F9LWJEjscrGkxnYi2JNby
 title: Commands
 desc: ''
-updated: 1633496761632
+updated: 1634646756227
 created: 1633485423674
 ---
 
@@ -12,7 +12,7 @@ This is the configuration namespace that holds all Dendron command related setti
 
 Below is an overview of what the command namespace looks like.
 
-```json
+```yml
 commands:
   lookup:
     note:

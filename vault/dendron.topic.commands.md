@@ -2,7 +2,7 @@
 id: eea2b078-1acc-4071-a14e-18299fc28f47
 title: Commands
 desc: ''
-updated: 1634630575949
+updated: 1635563684690
 created: 1595261816971
 ---
 
@@ -314,12 +314,18 @@ All wikilinks that link to this header will automatically get updated to the new
   - windows: `windows+ctrl+p`
   - mac: `cmd+ctrl+p`
 
-Show Markdown Preview
+Shows Markdown Preview.
+See [[Preview V2|dendron.topic.preview-v2]] for more details.
 
+### Show Preview (legacy)
+> ⚠️ This is a deprecated command. Please consider using [[Show Preview|dendron.topic.commands#show-preview]] instead.
 
-### Show Preview V2
+- shortcuts:
+  - windows: `windows+ctrl+p`
+  - mac: `cmd+ctrl+p`
 
-![[dendron://dendron.dendron-site/dendron.ref.web-ui#show-preview-v2,1:#*]]
+Show Markdown Preview.
+See [[Preview|dendron.topic.preview]] for more details.
 
 ---
 
@@ -796,6 +802,12 @@ Dendron recognises the vscode rename and updates all the backlinks to the old fi
 
 Dendron autosuggests to rename a header if you tap on a header or highlight it.
 ![Rename Header](https://org-dendron-public-assets.s3.amazonaws.com/images/rename-header.png)
+
+#### Copy Header Reference
+Dendron autosuggests to copy the note ref with the selected header if you tap on a header or highlight it.
+
+![Copy Header Reference](https://org-dendron-public-assets.s3.amazonaws.com/images/copy_header_ref.png)
+
 
 #### Refactor Extract
 

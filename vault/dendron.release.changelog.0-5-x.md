@@ -15,7 +15,7 @@ created: 1632543447542
 - enhance(lookup) "Create New" will be first result if no exact match
 - enhance(lookup) Disallow toggle of vault selector when using "Move Note" command
 - enhance(publish) unpublished notes replaced with link to [[unpublished pages|dendron.ref.unpublished-pages]]
-- enhance(publish) support attach option for CLI ([[docs|dendron.topic.publishing-next.cli#^bfvLB8BY4nLb]])
+- enhance(publish) support attach option for CLI ([[docs|dendron.topic.publish.cli#^bfvLB8BY4nLb]])
 
 ## 0.58.4
 
@@ -27,7 +27,7 @@ created: 1632543447542
 
 #### Publish to Github Pages using Next
 
-![[dendron.topic.publishing-next.cook.github#summary,1:#*]]
+![[dendron.topic.publish.cook.github#summary,1:#*]]
 
 ### Enhancements
 - enhance(publish) support `assetPrefix` option with nextjs publishing
@@ -76,7 +76,7 @@ Lookup can match words that are out of order, with better fuzziness, and will so
 
 #### CLI for Next Publishing
 
-Dendron now has limited CLI support for NextJS Publishing. You can read about how to get started [[here|dendron.topic.publishing-next]]
+Dendron now has limited CLI support for NextJS Publishing. You can read about how to get started [[here|dendron.topic.publish]]
 
 #### Leaner Extension
 Bundle extension size is reduced by 50%
@@ -379,7 +379,7 @@ Besides for the split, [[Lookup Note|dendron.topic.commands#lookup-note]] should
 
 Dendron Markdown Preview Enhanced is no longer required to use Dendron. 
 
-By default, all new users will get [[Preview V2|dendron.topic.preview-v2]] as the default. Existing users that have not turned on V2 will see no change but can and are encourage to switch to preview v2 by following the instructions [[here|dendron.topic.preview-v2#uninstall-dendron-markdown-preview-enhanced]]. Dendron Markdown Preview Enhanced should now be considered deprecated and subject to removal later this year. 
+By default, all new users will get [[Preview|dendron.topic.preview]] as the default. Existing users that have not turned on V2 will see no change but can and are encourage to switch to preview v2 by following the instructions [[here|dendron.topic.preview#uninstall-dendron-markdown-preview-enhanced]]. Dendron Markdown Preview Enhanced should now be considered deprecated and subject to removal later this year. 
 
 ### Enhancements
 - control graph zoom sensiitivity
@@ -478,7 +478,7 @@ The behavior around selecting which vault to create a note in has been improved 
 
 Almost at feature parity with current preview. You can now toggle it to be the default preview by setting `dev.enablePreviewV2` to true in your `dendron.yml`
 
-![[dendron://dendron.dendron-site/dendron.topic.preview-v2#summary,1:#*]]
+![[dendron://dendron.dendron-site/dendron.topic.preview#summary,1:#*]]
 
 
 

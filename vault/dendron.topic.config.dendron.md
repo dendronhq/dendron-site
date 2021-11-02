@@ -65,6 +65,9 @@ Disable dendron [[caching|dendron.ref.caching]]
 Disable dendron legacy note refs
 
 ### noTelemetry
+> This setting is scheduled for deprecation 📆
+>
+> Use [[disableTelemetry|dendron.topic.config.dendron.workspace#disabletelemetry]] instead.
 
 Disable [[telemetry|dendron.ref.telemetry]]
 
@@ -75,15 +78,27 @@ Disable [[telemetry|dendron.ref.telemetry]]
 Disable dendron showing hierarchies on published pages
 
 ### initializeRemoteVaults
+> This setting is scheduled for deprecation 📆
+>
+> Use [[enableRemoteVaultInit|dendron.topic.config.dendron.workspace#enableremotevaultinit]] instead.
+
 - default: true
 
 Determines if dendron pulls in un-initialized [[remote vault|dendron.topic.vaults#remote]] at startup
+
+### noAutoCreateOnDefinition 
+> This setting is scheduled for deprecation 📆
+>
+> Use [[enableAutoCreateOnDefinition|dendron.topic.config.dendron.workspace#enableautocreateondefinition]] instead.
 
 - default: true
 
 If a note doesn't exist, don't create it via the `GoToDefinition` 
 
 ### noXVaultWikiLink
+> This setting is scheduled for deprecation 📆
+>
+> Use [[enableXVaultWikiLink|dendron.topic.config.dendron.workspace#enablexvaultwikilink]] instead.
 
 If set, disable [[Cross Vault Links|dendron.topic.links#cross-vault-links]] when using [[Copy Note Link|dendron.topic.commands#copy-note-link]] and [[Insert Note Index|dendron.topic.commands#insert-note-index]].
 
@@ -160,6 +175,10 @@ by the user are used, other tags won't have colors and will look like regular
 links.
 
 ### workspaceVaultSync
+> This setting is scheduled for deprecation 📆
+>
+> Use [[workspaceVaultSyncMode|dendron.topic.config.dendron.workspace#workspacevaultsyncmode]] instead.
+
 - default: noCommit
 
 See [[workspace sync configuration options|dendron.ref.workspace#configuration-options]] for valid options.
@@ -167,6 +186,10 @@ See [[workspace sync configuration options|dendron.ref.workspace#configuration-o
 Sets the [[synchronization strategy|dendron.ref.workspace#Workspace: Sync]] for [[workspace vaults|dendron.topic.vaults#workspace-vault]]. For regular vaults, please use the [[per-vault configuration|dendron.topic.vaults#sync]].
 
 ### autoFoldFrontmatter
+> This setting is scheduled for deprecation 📆
+>
+> Use [[enableAutoFoldFrontmatter|dendron.topic.config.dendron.workspace#enableautofoldfrontmatter]] instead.
+
 - default: true
 
 When set to true, Dendron will automatically fold the frontmatter when opening new notes.
@@ -174,6 +197,9 @@ This includes newly created notes, and existing notes that are being opened for 
 
 
 ### vaults
+> This setting is scheduled for deprecation 📆 ^iDyNPId9bFGz
+>
+> Use [[vaults|dendron.topic.config.dendron.workspace#vaults]] instead.
 
 Tracks [[vaults|dendron.concepts#vaults]] for the workspace. You shouldn't have to manually edit this value. This is updated automatically when you first initialize a workspace and when you add or remove vaults to your workspace.
 
@@ -182,32 +208,55 @@ Tracks [[vaults|dendron.concepts#vaults]] for the workspace. You shouldn't have 
 See [[Vault Configuration|dendron.topic.vaults#workspace-vault,1:#configuration-1]]
 
 ## Journal
+> This setting is scheduled for deprecation 📆 ^iDyNPId9bFGz
+>
+> Use [[journal|dendron.topic.config.dendron.workspace#journal]] instead.
 
 ### dailyDomain
+> This setting is scheduled for deprecation 📆 ^iDyNPId9bFGz
+>
+> Use [[dailyDomain|dendron.topic.config.dendron.workspace#dailydomain]] instead.
+
 - type: string
 - default: daily
 
 domain where daily journals are kept
 
 ### dailyVault
+> This setting is scheduled for deprecation 📆 ^iDyNPId9bFGz
+>
+> Use [[dailyVault|dendron.topic.config.dendron.workspace#dailyvault]] instead.
+
 - type: string
 - default: none
 
 Name of vault where daily journal should be in. If not set, default to current open vault.
 
 ### name
+> This setting is scheduled for deprecation 📆 ^iDyNPId9bFGz
+>
+> Use [[name|dendron.topic.config.dendron.workspace#name]] instead.
+
 - type: string
 - default: journal
 
 name used for journal notes
 
 ### dateFormat
+> This setting is scheduled for deprecation 📆 ^iDyNPId9bFGz
+>
+> Use [[dateFormat|dendron.topic.config.dendron.workspace#dateformat]] instead.
+
 - type: string
 - default: y.MM.dd ^dNGnhlJY93Kk
 
 Date format used for journal notes. Use [luxon style formatting](https://moment.github.io/luxon/#/formatting)
 
 ### addBehavior
+> This setting is scheduled for deprecation 📆 ^iDyNPId9bFGz
+>
+> Use [[addBehavior|dendron.topic.config.dendron.workspace#addbehavior]] instead.
+
 - type: string
 - default: childOfDomain
 - options:  ['childOfDomain', 'childOfDomainNamespace', 'childOfCurrent', 'asOwnDomain']
@@ -216,10 +265,16 @@ strategy for adding new journal notes
 - NOTE: this only applies to regular journal notes but not to  [[daily journal|dendron.topic.special-notes#daily-journal]] notes.
 
 ## Hooks
+> This setting is scheduled for deprecation 📆 ^iDyNPId9bFGz
+>
+> Use [[hooks|dendron.topic.config.dendron.workspace#hooks]] instead.
 
 ![[dendron.topic.hooks.config]]
 
 ## Graph
+> This setting is scheduled for deprecation 📆 ^iDyNPId9bFGz
+>
+> Use [[graph|dendron.topic.config.dendron.workspace#graph]] instead.
 
 ![[dendron.topic.graph-view#config,1:#*]]
 
