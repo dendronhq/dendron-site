@@ -2,7 +2,7 @@
 id: 4q0nOxVnDvAMD18zyNebk
 title: 'Release Notes (version 0.66)'
 desc: ''
-updated: 1635873863721
+updated: 1635873919133
 created: 1635870362508
 ---
 
@@ -44,7 +44,7 @@ This week's entry in the [[Dendron Reading Series|community.reading-series]].
 
 ![[dendron://dendron.dendron-site/community.reading-series.journal.2021.11.02]]
 
-### New Team Member: Derek Ardolf - Dendron Evagelist
+### New Team Member: Derek Ardolf - Dendron Evangelist
 
 I'm Derek, and I go by `@ScriptAutomate` in most places.
 - I'm from Minnesota, USA
