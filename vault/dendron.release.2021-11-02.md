@@ -2,7 +2,7 @@
 id: 4q0nOxVnDvAMD18zyNebk
 title: 'Release Notes (version 0.66)'
 desc: ''
-updated: 1635871036696
+updated: 1635871414557
 created: 1635870362508
 ---
 
@@ -32,7 +32,7 @@ This release also includes some breaking changes due to some renaming of command
 
 #### General Updates
 
-
+* [Dendron Blog: Highlights from VSCode 1.61](https://blog.dendron.so/notes/83fIARBsKRnUlBL433RND/)
 
 #### Thank You's
 
