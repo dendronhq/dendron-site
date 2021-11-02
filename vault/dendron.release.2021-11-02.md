@@ -2,7 +2,7 @@
 id: 4q0nOxVnDvAMD18zyNebk
 title: 'Release Notes (version 0.66)'
 desc: ''
-updated: 1635877087416
+updated: 1635881718467
 created: 1635870362508
 ---
 
@@ -64,26 +64,26 @@ You can see an overview of all roles [[here|community.roles]]
 
 - [Kimsia Sim](https://github.com/simkimsia) `@kimsia#3035`
   - #dendron.taxonomist
-  - [Replace with canonical url for schema example at](https://github.com/dendronhq/dendron-site/pull/255)
-- [[people.hoppertech]]
+  - [Replace with canonical url for schema example at by simkimsia · Pull Request #255 · dendronhq/dendron-site](https://github.com/dendronhq/dendron-site/pull/255)
+- [Hoppertech](https://github.com/HopperTech)
   - #dendron.bugcatcher
   - [Fuzzy search in Lookup (note) has stopped working](https://github.com/dendronhq/dendron/issues/1634)
-- [[people.ragamroll]]
+- [Ragamroll](https://github.com/ragamroll)
   - #dendron.bugcatcher
   - [Links in published nextjs site exported for github display a spinner](https://github.com/dendronhq/dendron/issues/1588)
-- [[people.tika]]
+- [Tika](https://github.com/SR--) `Tika#9526`
   - [Logo and flavicon do not work on published sites](https://github.com/dendronhq/dendron/issues/1616)
   - [GH_EDIT_LINK setting does not work](https://github.com/dendronhq/dendron/issues/1612)
-- [[people.voothi]]
+- [Denis Novikov](https://github.com/voothi) `@voothi#3159`
   - #dendron.bugcatcher
   - [Import Pod Markdown is modified my own notes body content](https://github.com/dendronhq/dendron/issues/1608)
   - [Backlinks lists not contain wikilinks after import pod markdown](https://github.com/dendronhq/dendron/issues/1607)
-- [[people.mhijazi1]]
+- [Mhijazi1](https://github.com/mhijazi1)
   - #dendron.bugcatcher
   - [Move Header does not create a note if it does not already exists](https://github.com/dendronhq/dendron/issues/1606)
-- [[people.guilhermesfc]]
+- [Guilherme Costa](https://github.com/guilhermesfc) `@Guilherme Costa#9124`
   - [Note references sometimes do not work in Preview V2](https://github.com/dendronhq/dendron/issues/1601)
-- [[people.aleksey-rowan]]
+- [Aleksey Rowan](https://github.com/aleksey-rowan) `@aleksey#5276`
   - [Don't read/write dendron.code-workspace when no changes are made to it](https://github.com/dendronhq/dendron/issues/1595)
 
 ### Changelog
