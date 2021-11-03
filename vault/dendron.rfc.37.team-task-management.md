@@ -2,7 +2,7 @@
 id: BgsDOw0SLLBAmMS0vpyah
 title: Team Task Management
 desc: ''
-updated: 1635982435425
+updated: 1635982613181
 created: 1635907417724
 published: false
 ---
@@ -22,7 +22,8 @@ This RFC looks into improvements in pods as well as task notes to evolve Dendron
 1. All items we're tracking should be available as a github issue
 2. We should use task notes for all tasks internally 
 3. We should use the github pod to update and sync tasks to github
-4. We should use github projects to provide higher level organization to our tasks
+4. We should use github projects [^github-project] to provide higher level organization to our tasks
+    - [sample board](https://github.com/orgs/dendronhq/projects/5/views/1?visibleFields=%5B%22Title%22%2C%22Assignees%22%2C%22Status%22%2C%22Milestone%22%5D)
 
 ## Details
 
