@@ -2,7 +2,7 @@
 id: pD2gKvrDU2PjvrcGlKnU8
 title: 36 Pods V2
 desc: ''
-updated: 1635803962507
+updated: 1635979997182
 created: 1635730038760
 ---
 
@@ -19,13 +19,13 @@ created: 1635730038760
 1. Instead of having both a "Export Pod" and a "Publish Pod", only have an Export Pod
     - refactor existing commands
         - `Export Pod` -> `Export`
-        - `Publish Pod` -> `Export One`
+        - `Publish Pod` -> `Export One` ^NWDbwthvJ0xm
 1. Introduce the equivalent of a `Export One` to `Import`
     - refactor existing command:
         - `Import Pod` -> `Import`
     - introduce new command:
         - `Import One`
-1. Introduce a new pod command: `From Clipboard`
+1. Introduce a new pod command: `From Clipboard` ^k2tGQOBXQrOK
     - `Export From Clipboard`  
     - `Import From Clipboard` 
     - options to support:

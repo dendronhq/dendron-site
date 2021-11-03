@@ -2,7 +2,7 @@
 id: PZ3IzgdeZBbFRvalzI9fp
 title: Internal
 desc: ''
-updated: 1634591404069
+updated: 1635975332924
 created: 1630426129273
 ---
 
@@ -95,9 +95,42 @@ stateDiagram-v2
 - src/commands/NoteLookupCommand.ts
 ```ts
 gatherInputs {
-    lc = this._controller = LookupControllerV3.create
-    this._provider = new NoteLookupProvider("lookup", {
+
+    lc = this._controller = LookupControllerV3.create(buttons:[...], ...)
+    @provider = new NoteLookupProvider("lookup", {
+        allowNewNote: true,
+        ...
+    })
     lc.prepareQuickPick
+}
+```
+
+#### NoteLookup Provider
+
+- src/components/lookup/LookupProviderV3.ts
+```tsx
+
+create {
+    @_onAcceptHooks = [];
+}
+
+provide {
+}
+
+onDidAccept {
+
+    selectedItems := picker
+
+    ...
+    resp = @_onAcceptHooks.map hooks {
+        hook(picker, selectedItems)
+    }
+
+    HistoryService.add(
+        source: lookupProvider,
+        action: done,
+        data: resp
+    )
 }
 ```
 
@@ -169,12 +202,20 @@ onUpdatePickerItems {
 ```
 
 ### OnAccept
+
+This gets triggered when the user clicks enter on an option. By default, gets the following
+
+```ts
+quickpick: DendronQuickPick
+selectedItems: NoteItemSelection[]
+```
+
 - src/components/lookup/LookupProviderV3.ts
 ```ts
 onDidAccept {
     selectedItems := picker
-    resp = @_onAcceptHooks.map {
-        it(picker, selectedItems)
+    resp = @_onAcceptHooks.map { hooks
+        hook(picker, selectedItems)
     }
 
     HistoryInstance.add {
