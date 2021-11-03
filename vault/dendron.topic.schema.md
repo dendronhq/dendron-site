@@ -2,7 +2,7 @@
 id: c5e5adde-5459-409b-b34d-a0d75cbb1052
 title: Schemas
 desc: ''
-updated: 1635531195248
+updated: 1635916714034
 created: 1595952505039
 stub: false
 ---
@@ -100,10 +100,9 @@ schemas:
                 children:
                   - pattern: "[0-3][0-9]"
                     # As with regular schema we can set the template to be used with
-                    # the match of our notes. 
-                    template:
-                      id: templates.daily
-                      type: note
+                    # the match of our notes. Below is an example usage of shorthand template
+                    # definition (which defaults to type: note). 
+                    template: templates.daily
 ```
 
 
