@@ -2,7 +2,7 @@
 id: eea2b078-1acc-4071-a14e-18299fc28f47
 title: Commands
 desc: ''
-updated: 1635563684690
+updated: 1635942603199
 created: 1595261816971
 ---
 
@@ -306,7 +306,10 @@ All wikilinks that link to this header (like `[[note#header]]`) will automatical
 - shortcuts: none
 
 This command removes the selected header from the note and appends it to the end of the destination note body.
+
 All wikilinks that link to this header will automatically get updated to the new header.
+
+If the destination note does not exist yet, it will be created before moving the selected header.
 
 ### Show Preview
 
