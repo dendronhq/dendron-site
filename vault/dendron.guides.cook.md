@@ -2,7 +2,7 @@
 id: 401c5889-20ae-4b3a-8468-269def4b4865
 title: Cookbook
 desc: ''
-updated: 1635207551928
+updated: 1635991935341
 created: 1595952505024
 nav_order: 8.9
 toc: true
@@ -194,6 +194,10 @@ To drag files into Dendron, open the workspace pane on the side to drag and drop
 The easiest current way to do this is to have multiple instances of VSCode open and toggle between the two. If you are very adventurous, you might even have [multiple versions of vscode](https://www.kevinslin.com/notes/7f197479-279e-4b1e-9edd-21bf2da423b0.html#dendron-setup) for different contexts.
 
 We are working on being able to run Dendron without the need for a workspace. You can track the progress of this on this [issue](https://github.com/dendronhq/dendron/issues/322)
+
+### Updating a workspace
+
+
 
 ## Other
 

@@ -181,9 +181,9 @@ links.
 
 - default: noCommit
 
-See [[workspace sync configuration options|dendron.ref.workspace#configuration-options]] for valid options.
+See [[workspace sync configuration options|dendron.topic.workspace#configuration-options]] for valid options.
 
-Sets the [[synchronization strategy|dendron.ref.workspace#Workspace: Sync]] for [[workspace vaults|dendron.topic.vaults#workspace-vault]]. For regular vaults, please use the [[per-vault configuration|dendron.topic.vaults#sync]].
+Sets the [[synchronization strategy|dendron.topic.workspace#Workspace: Sync]] for [[workspace vaults|dendron.topic.vaults#workspace-vault]]. For regular vaults, please use the [[per-vault configuration|dendron.topic.vaults#sync]].
 
 ### autoFoldFrontmatter
 > This setting is scheduled for deprecation 📆

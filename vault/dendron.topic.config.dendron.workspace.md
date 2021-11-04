@@ -160,8 +160,8 @@ Determines if Dendron should pull in un-initialized [[remote vaults|dendron.topi
 
 ## workspaceVaultSyncMode
 
-Sets the [[synchronization strategy|dendron.ref.workspace#Workspace: Sync]] for [[workspace vaults|dendron.topic.vaults#workspace-vault]]. For regular vaults, please use the [[per-vault configuration|dendron.topic.vaults#sync]]
-See [[workspace sync configuration options|dendron.ref.workspace#configuration-options]] for valid options.
+Sets the [[synchronization strategy|dendron.topic.workspace#Workspace: Sync]] for [[workspace vaults|dendron.topic.vaults#workspace-vault]]. For regular vaults, please use the [[per-vault configuration|dendron.topic.vaults#sync]]
+See [[workspace sync configuration options|dendron.topic.workspace#configuration-options]] for valid options.
 
 - default: "noCommit"
 - options: ["sync", "noCommit", "noPush", "skip"]

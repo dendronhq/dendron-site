@@ -28,7 +28,7 @@ You can see deployed examples of these instructions in the following repositorie
 - Follow the instructions [here](https://pages.github.com/) to create a repository named `{username}.github.io` where `{username}` is your username on Github
 
 ### Add your notes 
-Navigate to your existing [[Dendron workspace|dendron.ref.workspace]].  Follow instructions provided by github to push your workspace to github. 
+Navigate to your existing [[Dendron workspace|dendron.topic.workspace]].  Follow instructions provided by github to push your workspace to github. 
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/publishv2.github.jpg)
 

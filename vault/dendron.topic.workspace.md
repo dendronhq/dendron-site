@@ -75,4 +75,4 @@ They are useful when you are writing notes or documentation, and you want to
 keep your notes as part of a project rather than a separate knowledge base.
 
 We don't *yet* have an automated way to initialize a native workspace, but
-we have instructions on [[Setting up a Native Workspace|dendron.ref.workspace.native]] yourself if you would like to try out this feature.
+we have instructions on [[Setting up a Native Workspace|dendron.topic.workspace.native]] yourself if you would like to try out this feature.

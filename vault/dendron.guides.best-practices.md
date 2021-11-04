@@ -40,7 +40,7 @@ In this setup, all your notes are synchronized in a single git repository.
 1. Create a remote git host (github is the most popular and probably easiest to setup) and push your changes there
 1. Clone the workspace on any machine you want to use Dendron in
 
-- NOTE: Dendron provides the [[Workspace: Sync|dendron.ref.workspace#workspace-sync]] command to make using a git based workflow easier to manage
+- NOTE: Dendron provides the [[Workspace: Sync|dendron.topic.workspace#workspace-sync]] command to make using a git based workflow easier to manage
 
 
 ### Synchronizing Everything across Multiple Repos

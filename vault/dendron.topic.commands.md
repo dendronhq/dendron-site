@@ -596,11 +596,11 @@ Modify Dendron Config using Dendron UI
 
 ### Workspace: Add and Commit
 
-![[dendron://dendron.dendron-site/dendron.ref.workspace#workspace-add-and-commit,1:#*]]
+![[dendron://dendron.dendron-site/dendron.topic.workspace#workspace-add-and-commit,1:#*]]
 
 ### Workspace: Sync
 
-![[dendron://dendron.dendron-site/dendron.ref.workspace#workspace-sync,1]]
+![[dendron://dendron.dendron-site/dendron.topic.workspace#workspace-sync,1]]
 
 ---
 
