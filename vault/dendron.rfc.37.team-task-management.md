@@ -2,9 +2,13 @@
 id: BgsDOw0SLLBAmMS0vpyah
 title: Team Task Management
 desc: ''
-updated: 1635982613181
+updated: 1635993686664
 created: 1635907417724
 published: false
+category: RFCs/Ideas
+discussionID: D_kwDOEF_3Vs4AN--0
+url: 'https://github.com/dendronhq/dendron/discussions/1655'
+author: 'https://github.com/dendron-bot'
 ---
 
 ## Goals
@@ -87,7 +91,7 @@ This RFC looks into improvements in pods as well as task notes to evolve Dendron
 
 ### Executing Queries
 
-In the future, we will support this using [[22 Queries|dendron://dendron.dendron-site/dendron.rfc.22-queries]]. The nice thing about having tasks syncwed with github projects [^github-project] is that it supports filters and queries on tasks.
+The nice thing about having tasks syncwith github projects [^github-project] is that it supports filters and queries on tasks.
 It can answer questions like:
 
 - all tasks that are assigned to me that are due this week/month/year
@@ -130,7 +134,7 @@ Create a project label and create a custom github project that filters on the pr
 
 ## Discussion
 <!-- Click the link and create new discussion -->
-https://github.com/dendronhq/dendron/discussions/new
+https://github.com/dendronhq/dendron/discussions/1655
 
 [^export-clipboard]: [[36 Pods V2|dendron://dendron.dendron-site/dendron.rfc.36-pods-v2#^k2tGQOBXQrOK]]
 [^export-one]: [[36 Pods V2|dendron://dendron.dendron-site/dendron.rfc.36-pods-v2#^NWDbwthvJ0xm]]

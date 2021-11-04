@@ -2,8 +2,12 @@
 id: pD2gKvrDU2PjvrcGlKnU8
 title: 36 Pods V2
 desc: ''
-updated: 1635979997182
+updated: 1635993844971
 created: 1635730038760
+category: RFCs/Ideas
+discussionID: D_kwDOEF_3Vs4AN--1
+url: 'https://github.com/dendronhq/dendron/discussions/1656'
+author: 'https://github.com/dendron-bot'
 ---
 
 ## Goals
@@ -14,6 +18,7 @@ created: 1635730038760
 
 ## Context
 
+The proposal here covers a lot of ground. We should break it down into phases. 
 
 ## Proposal
 1. Instead of having both a "Export Pod" and a "Publish Pod", only have an Export Pod
@@ -54,18 +59,21 @@ created: 1635730038760
     - if interactive, instead of reading `src/dest` from config, prompt user for this
     - eg. orbit import pod, when importing interactively, user enters a username
 1. Introduce a webview to configure pods
+    - users can use a form widget with live validation instead of YAML
 1. Support pod profiles
     - users have different targets for the same pods (eg. publish a task note to airtable task table but publish a user note to airtable user table)
     - pod configuration should support custom profiles
+    - should be supported in webview
 1. support custom pod plugins
+    - a user should be able to contribute their own pods
 
+## Alternatives
+- instead of having a unique Export/Import command for different use cases, just have a single command wiith different flags and modifiers 
 
 ## Details
 
 ## Example
 
-## Tradeoffs
-
 ## Discussion
 <!-- Click the link and create new discussion -->
-https://github.com/dendronhq/dendron/discussions/new
+https://github.com/dendronhq/dendron/discussions/1656
