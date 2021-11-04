@@ -2,7 +2,7 @@
 id: c4cf5519-f7c2-4a23-b93b-1c9a02880f6b
 title: Workspace
 desc: ''
-updated: 1634022650082
+updated: 1635992678079
 created: 1622841295415
 ---
 
@@ -12,6 +12,16 @@ created: 1622841295415
 In Dendron, your **workspace** is the root of where all your files are located. It's set when you first run `Dendron: Initialize Workspace`. The folder that contains your workspace is also known as your **workspace root**.
 
 A workspace has a `dendron.yml` file that specifies its [[vaults|dendron.topic.vaults]].
+
+## Concepts
+
+### Code Workspace
+
+A workspace that is created using `dendron.code-workspace` file. 
+
+### Native Workspace
+
+A workspace that is created with a `dendron.yml` file and lacking a `dendron.code-workspace` file.
 
 ## Commands
 
@@ -76,3 +86,13 @@ keep your notes as part of a project rather than a separate knowledge base.
 
 We don't *yet* have an automated way to initialize a native workspace, but
 we have instructions on [[Setting up a Native Workspace|dendron.topic.workspace.native]] yourself if you would like to try out this feature.
+
+
+## Cookbook
+
+### Syncing your workspace with Git
+
+`Workspace Sync` does not sync the workspace if all your vaults all separate git repos. In order to synchronize your workspace, you need to explicitly do a `git pull` from the workspace folder.
+
+If you are inside VSCode, you should be able to run `> Create Integrated Terminal...`, choose the folder containing your workspace, and launch the terminal. After launching, run a `git pull` inside of it. 
+
