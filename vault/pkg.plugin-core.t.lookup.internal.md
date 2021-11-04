@@ -2,7 +2,7 @@
 id: PZ3IzgdeZBbFRvalzI9fp
 title: Internal
 desc: ''
-updated: 1635975332924
+updated: 1636033931152
 created: 1630426129273
 ---
 
@@ -214,6 +214,11 @@ selectedItems: NoteItemSelection[]
 ```ts
 onDidAccept {
     selectedItems := picker
+
+    selectedItems ??= fetchPickerResultsNoInput
+    
+    if hasNextPicker(picker)
+
     resp = @_onAcceptHooks.map { hooks
         hook(picker, selectedItems)
     }
