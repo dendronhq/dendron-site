@@ -2,12 +2,38 @@
 id: LAUb8WcM8rmjxJrR
 title: Arch
 desc: ''
-updated: 1628732944526
+updated: 1636063180047
 created: 1627859879590
 ---
 
 
-# Publishing
+## Startup
+
+- pages/_app.tsx
+
+- see generated asset files in [[References|dendron://dendron.dendron-site/dendron.topic.pod.builtin.nextjs#references]]
+```tsx
+DendronApp {
+
+  useEffect {
+    data = fetchNotes { fetch("/data/notes.json") }
+    setNoteData data
+    fetchConfig { fetch("/data/dendron.json") }
+  }
+}
+```
+
+- components/DendronNotePage.tsx
+
+```tsx
+Note {
+  id = getActiveNoteId
+
+  ...
+}
+```
+
+## Publishing
 
 This describes how notes are filtered for publishing
 
