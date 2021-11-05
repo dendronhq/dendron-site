@@ -1,72 +1,902 @@
-# Query: alt
+# Query: publishing
 # Flags: CaseSensitive WordMatch RegExp
 # Including: dendron.*
 # Excluding: blog.*,dendron.journal.*,.dendron.*,dendron.release.*
 # ContextLines: 1
 
-15 results - 8 files
+223 results - 105 files
 
-dendron.dendron-site • dendron.dev.triage.process.md:
-  93  When we refer to "up-voting" a feature request, we specifically mean adding a GitHub `+1`/"👍" reaction to the issue description. In the GitHub UI this looks like so:
-  94: <img width="867" alt="GitHub UI for a issue with a +1 reaction" src="https://user-images.githubusercontent.com/8586769/87996982-b0568c80-caa8-11ea-87b8-a01371e6e338.png">
-  95  
+admin • dendron.hiring.roles.executive-assisstant.md:
+  18      - followup with people on Dsicord and ask to take survey
+  19:   - publishing content for Kevin
+  20      - kevin has a bunch of notes, clean up and post
 
-dendron.dendron-site • dendron.topic.images.md:
-  36  ```
-  37: ![alt text (on mouse over)](/assets/image.png){width: 400px}
-  38  ```
+admin • dendron.project.02-managed-publishing.md:
+  39  - [[Seo|meet.journal.2021.01.11.seo]]
+  40: - [[Michael Publishing Idea|scratch.2021.02.03.112246.michael-publishing-idea]]
+  41: - [[2 - Managed Publishing|dendron.rfc.2-managed-publishing]]
+  42  - [[kpats-onboard|scratch.2021.02.14.001146.kpats-onboard]]
 
-dendron.dendron-site • dendron.topic.lookup.modifiers.md:
-  481    { // lookup `recipe.` hierarchy
-  482:     "key": "alt+l r",
-  483      "command": "dendron.lookupNote",
+admin • dendron.project.02-managed-publishing.tasks.md:
+  41    - [x] [[environmentalist launch|scratch.2021.02.11.091852.environmentalist-launch]]
+  42:   - [x] [[launch managed publishing|scratch.2021.01.31.214337.launch-managed-publishing]] #milestone
+  43  
 
-  488    { // lookup `meeting.{journal-format}.` hierarchy
-  489:     "key": "alt+l m",
-  490      "command": "dendron.lookupNote",
+admin • dendron.project.03-changelog.md:
+  28  
+  29: ## Workflow (managed publishing)
+  30  
 
-  513    { // open the note `todo` to the side, without confirmation.
-  514:     "key": "alt+l 0",
-  515      "command": "dendron.lookupNote",
+admin • dendron.project.md:
+  16  
+  17: 1. [[Managed Publishing|dendron.project.02-managed-publishing]]
+  18  2. Publish Update Feed
 
-  540    { // look up note, then open it to the side. also copy selected note's link.
-  541:     "key": "alt+l .",
-  542      "command": "dendron.lookupNote",
+  21     - adding backlinks/graphs/visualization/stats to a published page
+  22: 4. [[Make publishing more engaging|scratch.2021.01.25.222942.make-publishing-more-engaging]]
+  23     - add interactivity to published pages (eg. comments, kudos, etc)
 
-  548    { // same as above, but with multi select.
-  549:     "key": "alt+l >",
-  550      "command": "dendron.lookupNote",
+admin • dendron.ref.2020-10-yc-app.md:
+  134  
+  135: We plan on publishing vertical specific notes on particular domains to drive adoption from people within that domain. The "Open AWS Catalogue" (http://aws.dendron.so/) is an example of a domain specific publication to attract people from AWS into Dendron.
+  136  
 
-private • dendron.github.issues.953-Link to a stub note opens empty file.md:
-  40  
-  41: <img width="482" alt="Screenshot 2021-07-12 at 15 21 56" src="https://user-images.githubusercontent.com/25076171/125268137-09a47500-e325-11eb-98fa-dbf09f1b1d5e.png">
-  42  
+admin • dendron.ref.bookface-launch.md:
+  24  
+  25: ⟪ 325 characters skipped ⟫10926f39f6c2.html#backlinks) and [note references](https://dendron.so/notes/f1af56bb-db27-47ae-8406-61a98de6c78c.html) let you build on top of the notes you already have. When you're ready to share, [publishing](https://dendron.so/notes/579e379b-3eca-4676-b51c-c66eb26a11b8.html) and [pods](https://dendron.so/notes/66727a39-d0a7-449b-a10d-f6c438185d7f.html) let you publish your notes, both on your own domain or anywhere else you want your work to appear.
+  26  
 
-private • dendron.github.issues.987-Getting Error no template found for object Object while creating a new note.md:
-  51  
-  52: <img width="1174" alt="image" src="https://user-images.githubusercontent.com/120051/125760239-d9a4ecce-2bdf-4e7b-b9df-d6e9efad84cb.png">
-  53  
-  54: <img width="1165" alt="image" src="https://user-images.githubusercontent.com/120051/125760291-7f02e0c8-cc0f-4b79-9c3f-671627718df7.png">
-  55  
-
-private • dendron.github.issues.1207-rename-note-command-doesnt-update-wikilinks-to-the-renamed-note-if-they-are-inside-the-renamed-note.md:
-  61  Wikilink `[[note1]]` does not update when using `rename note` command to rename `note1` to `note01`:
-  62: <img width="491" alt="shows error" src="https://user-images.githubusercontent.com/850915/130738183-0e9a432e-a3de-4759-89ac-ed2320c41088.png">
-  63  
-  64  Wikilink successfully updates in `note2`:
-  65: <img width="491" alt="shows error" src="https://user-images.githubusercontent.com/850915/130738561-ed3177b3-2961-424d-a37b-101ffc841af5.png">
-  66  
-
-private • dendron.github.issues.1257-make-dendroncodeworkspace-renamable-pls.md:
+admin • dendron.ref.bookface-launch.v0.md:
+  43  
+  44: Dendron is launching managed publishing this week which will let anyone publish public-private notes and share them with the world. This will be free for public notes.
   45  
-  46: It is frustrating when working with multiple workspaces and when I "alt + tab", all of them say "- dendron (Workspace)".
-  47  
+
+admin • dendron.ref.demo.md:
+  36  
+  37: - publishing
+  38    - share internally or externally
+
+  42  - documentation
+  43:   - mermaid, [[pro.managed-publishing]]
+  44    - share links, eg. dendron.so
+
+admin • dendron.ref.hiring-faq.md:
+  51  - we're working on managed sync 
+  52: - might have a hosted version if it makes sense since we already do managed publishing
+  53  
+
+admin • dendron.ref.product_faq.md:
+   42  
+   43: trillium is a really cool project with awesome power features. dendron's main difference is our plaintext approach to notes, the ability to manage hierarchies using schemas and selective publishing capabilities
+   44  
+
+   71  
+   72:   - managed publishing
+   73    - sync
+
+  125  - we've ran surveys over our user base
+  126: - we're currently rolling out managed publishing
+  127  
+
+  299  - documentation for companies
+  300: - publishing platform for individuals
+  301  
+
+admin • dendron.sop.potential-partners.template.md:
+  26  - Intros to the following people
+  27:     - Someone involved with [Next.js](https://nextjs.org/) - we're building our next publishing client and would like to talk to talk about deeper integrations as well as becoming a partner
+  28  
+
+dendron.dendron-site • dendron.blog.2021-04-09-dendron-inc.md:
+  25  
+  26: As part of our growth from a project to a company, we are also publishing the [Dendron Handbook](https://handbook.dendron.so/). This is **heavily inspired** from the [Gitlab Handbook](https://about.gitlab.com/handbook/) and will document our mission, values, and roadmap as a company.
+  27  
+
+dendron.dendron-site • dendron.cheatsheet.md:
+  280  ### Dendron: Site Build
+  281: - description: Build your notes using publishing v2
+  282  - shortcuts: none
+
+  286  ### Dendron: Site Preview
+  287: - description: Preview your notes on localhost using publishing v2
+  288  - shortcuts: none
+
+dendron.dendron-site • dendron.concepts.md:
+  87  
+  88: [[Pods|dendron.topic.pod]] are the mechanisms Dendron uses to import and export notes. Dendron has a different pod depending on where you are getting and publishing your data to. 
+  89  
+
+dendron.dendron-site • dendron.dev.arch.md:
+  30    - Themes
+  31:   - Publishing: [[Logic to check if a page can be published|pkg.dendron-engine.t.publishing#logic-to-check-if-a-page-can-be-published]]
+  32    - Markdown: [[pkg.dendron-markdown.arch]]
+
+dendron.dendron-site • dendron.dev.build.automation.md:
+  26  | Monday 19:00   | Target time for release image completion - all testing and fixes complete          |
+  27: | Tuesday 21:00  | Target time for publishing general release + Discord Announcement.                 |
+  28  | Thursday 12:00 | **Prerelease Branch snaps off master. Prerelease Candidate image is generated.**   |
 
   49  
-  50: Make `dendron.code-workspace` renamable so that I can differentiate between them when "alt +tab"
+  50: Early Seed is performed similarly to the General Release, but without any external publishing.
+  51  1. A `prerelease/*` branch is snapped off of master at 12:00 PST Thursday.
+
+  66  
+  67: Certain actions within the pipelines requires permissions and logins - for example: publishing the extension to a marketplace, publishing packages to NPM, and accessing certain service secrets such as oauth and Sentry uploads.  There are two [environments](https://docs.github.com/en/actions/deployment/environments) that our Github Actions are deployed to:
+  68  
+
+  70  
+  71: This environment has access to all secrets as well as publishing tokens for NPM, VS Code Marketplace, and Open VSX Marketplace. This environment is for **production** only and can possibly create production issues if used incorrectly. This environment is restricted to the `master` and `release/*` branches only.
+  72  
+
+dendron.dendron-site • dendron.dev.cook.common.md:
+  10  
+  11: [Verdaccio](https://verdaccio.org/) is an open source local NPM registry. We use it to test out publishing and link together projects internally before publishing
+  12  
+  13: - NOTE: only run verdaccio when you need to test publishing. otherwise, this will pollute the `yarn.lock` file with `localhost` entries which will fail in CI/CD
+  14  
+
+dendron.dendron-site • dendron.dev.faq.md:
+  11  
+  12: Nextjs Template is used for publishing, Nextjs-Server is used to generate plugin views
+  13  
+
+dendron.dendron-site • dendron.dev.pull-request.checklist.md:
+  20  - [ ] if your tests changes an existing snaphot, make sure that snapshots are [updated](https://wiki.dendron.so/notes/cb22bd36-d45a-4ffd-a31e-96c4b39cb7fb.html#updating-test-snapshots)
+  21: - [ ] if you are adding a new language feature (graphically visible in vscode/preview/publishing), make sure that it is included in [test-workspace](https://wiki.dendron.so/notes/cb22bd36-d45a-4ffd-a31e-96c4b39cb7fb.html#test-workspace). We use this to manually inspect new changes and for auto regression testiing 
+  22  
+
+dendron.dendron-site • dendron.dev.pull-request.md:
+  44  ``` 
+  45: enhance(publish): speed up publishing by 500%
+  46  ```
+
+dendron.dendron-site • dendron.dev.qa.verdaccio.md:
+  10  
+  11: We use [verdaccio](https://verdaccio.org/), a "A lightweight open source private npm proxy registry", to test publishing locally. 
+  12  
+
+dendron.dendron-site • dendron.dev.ref.web-dev.md:
+  34  
+  35: After you have gone through the above tutorials, we recommend that you put them to practice by taking a task labelled `#size.small` from [[publishing milestones|pkg.nextjs-template.milestones]]. 
+  36  
+
+dendron.dendron-site • dendron.dev.triage.md:
+  49  
+  50: ### publishing
   51  
 
-private • dendron.github.issues.1273-bugfeature-htmlimages.md:
-  43  ```html
-  44: <img src="/assets/images/2021-07-04-14-35-50.png" alt="" width="450" />
-  45  ```
+  76  
+  77: Static site generation, sending note links and anything that has to do with publishing your notes to a broader community.
+  78  
+
+dendron.dendron-site • dendron.dev.troubleshooting.md:
+  25  
+  26: This is to de-duplicate packages during development. When publishing to `npm`, every package will have its own `node_modules` folder. The consequence of this setup is that it is possible for package `A` to have a relative dependency on package `B`. While valid during development, this would fail when published. 
+  27  
+
+dendron.dendron-site • dendron.faq.md:
+   47  -   Dendron is integrated into VSCode
+   48: -   Dendron allows for easy publishing public/private content to any platform that can host a static site (and we're rolling out our own publishing platform to help people publish with additional access controls)
+   49  
+
+  131  Yes. You can move notes manually outside of Dendron or between different vaults. Some things to keep in mind:
+  132: - you should keep the `id` of the note since features like publishing depend on it to find the right link
+  133  - if your notes have [[Cross Vault Links|dendron.topic.links#cross-vault-links]] (only applicable for [[Multi Vault|dendron.topic.multi-vault]]), those links might bring if they are moved to a different workspace that doesn't have reference to the original vault
+
+  339  
+  340: Its a bit of a hack and something that should go away in July 2021, when we switch to NextJs based publishing. 
+  341  
+
+dendron.dendron-site • dendron.guides.best-practices.md:
+  47  
+  48: This setup is most useful if you are using [[Multi Vault|dendron.topic.multi-vault]] or are planning on publishing to the [[Seed Bank|dendron.topic.seed-bank]].
+  49  
+
+dendron.dendron-site • dendron.jobs.head-of-growth.md:
+  20  - work with engineering to shape the product roadmap
+  21: - optimize [publishing features](https://wiki.dendron.so/notes/579e379b-3eca-4676-b51c-c66eb26a11b8.html) and [knowledge registry](https://blog.dendron.so/notes/qTeL51LFD0Y8uC9ect7QV.html) for SEO and organic growth
+  22  - create partnerships with relevant projects and companies
+
+dendron.dendron-site • dendron.rfc.2-managed-publishing.md:
+  13  ## Tenants
+  14: - publishing should be accessible to everyone
+  15  
+
+  28  - [x] global deployments using [worldwide CDN](https://en.wikipedia.org/wiki/Content_delivery_network)
+  29: - [x] github based publishing
+  30  
+
+  47  
+  48: Dendron generates static assets and you'll always be able to publish using any host that can serve static content (aka all of them). Dendron managed publishing is about giving users a simplified one click solution to selectively publish notes that is maintained to be always up to date with the latest Dendron release. 
+  49  
+
+dendron.dendron-site • dendron.rfc.7-graph-rework.md:
+  22      -   Multi-Vault
+  23:     -   Other published Gardens and their Graph's see [[RFC 5|dendron.rfc.5-publishing-registry]]
+  24  -   Clarify what is part of the Graph.
+
+dendron.dendron-site • dendron.rfc.7-graph-rework.plan.md:
+  37      -   Kanban board
+  38: -   Connect between other published Gardens and their Graphs: see [[RFC 5|dendron.rfc.5-publishing-registry]]
+  39  
+
+dendron.dendron-site • dendron.rfc.8-multi-publish.md:
+  73  
+  74: We're introducing more complexity in the configuration for an easier publishing experience. 
+
+dendron.dendron-site • dendron.rfc.14-seed-bank.configuration.md:
+  92  
+  93: When publishing this seed, should add attribution to the top of the page
+  94  
+
+dendron.dendron-site • dendron.rfc.14-seed-bank.md:
+  144  
+  145: By default, publishing is disabled for seeds. If you want to publish a seed, you can set its [[visibility|dendron.rfc.14-seed-bank.configuration#visibility]] to `public`. At this point, the standard publishing [[configuration|dendron.topic.publish-legacy.configuration]] rules appyl.
+  146  
+
+  164  
+  165: - [ ] be able to publish seed vaults when publishing a website
+  166  - [ ] convert seed bank from static file to API endpoint
+  167: - [ ] support a self serve method of publishing to the registery
+  168  
+
+  184  
+  185: - Automatically add correct attribution when publishing work containing third party seeds
+  186  
+
+dendron.dendron-site • dendron.rfc.14-seed-bank.methods.md:
+  79  
+  80: - NOTE: phase I publishing might involve submitting a pull request
+  81  
+
+dendron.dendron-site • dendron.rfc.16-better-tags.md:
+  57  The custom colors should allow hexadecimal RGB (`#FFAA88`), RGB (`rgb(24,135,240)`), RGBA (`rgba(255, 255, 255, .5)`), HSL (`hsl(100, 100%, 50%)`), HSLA (`hsla(235, 100%, 50%, .5)`), as well as [[color keywords|https://developer.mozilla.org/en-US/docs/Web/CSS/color_value#color_keywords]].
+  58: These colors are all widely supported in browsers, which means they should work both within publishing and preview without extra effort.
+  59  Optionally, we can warn users for color options that are incorrect or not widely supported.
+
+  70  
+  71: ### Hiding tags in publishing
+  72  
+
+  80  It should be possible to organize tags using the hierarchy, such as `#quis.quidem`, `#quis.temporibus`.
+  81: If a parent tag in the hierarchy has a [[tag color|#tag-colors]] set or is [[hidden|#hiding-tags-in-publishing]], this should propagate to child tags.
+  82  
+
+dendron.dendron-site • dendron.rfc.17-rich-web-client.md:
+  19  
+  20: Since Dendron currently publishes notes as static HTML, this will continue to be the case when we release our rich web client. We will provide users with an option of enhanced publishing which will bundle them as a NextJs WebApp that can be self hosted or hosted by Dendron.
+  21  
+
+dendron.dendron-site • dendron.rfc.18-add-note-indexes.md:
+  14  
+  15: A common use case is to have an index section that lists all the contents of a particular area of the text. In Dendron, we already show you all [[children|dendron.topic.publish-legacy.navigation#children]] of the current note when publishing but this is not available in the editor.
+  16  
+
+dendron.dendron-site • dendron.rfc.21-modern-web-client.md:
+  14  
+  15: Dendron publishing has gone through a bunch of iteration. We started using a forked jekyll template. When that became too slow for large workspaces (+1k notes), we converted that template to 11ty which improved the build time by over 100x. Half a year and over a hundred features later, we are hitting limits again with 11ty. These limits come from the following: 
+  16  
+
+  19  - hard to develop for: the pool of users that are familiar with 11ty, Dendron, and the integration between the two is tiny whereas the pool of web developers familiar with React and NextJS is many orders of magnitude greater
+  20: - scaling issues: 11ty starts to slow down when publishing +10k notes
+  21  - poor local preview support: due to how 11ty + Dendron is integrated, we need to re-compile when you change the workspace
+
+  28  - [[2. Release Dendron's Web Frontend as a vanilla NextJS Template|dendron.rfc.21-modern-web-client#2-release-dendrons-web-frontend-as-a-vanilla-nextjs-template]]
+  29: - [[3. Support live local preview for publishing|dendron.rfc.21-modern-web-client#3-support-live-local-preview-for-publishing]]
+  30  - [[4. First Class Web Experience|dendron.rfc.21-modern-web-client#4-first-class-web-experience]]
+
+  41  
+  42: ### 3. Support live local preview for publishing
+  43  
+
+dendron.dendron-site • dendron.rfc.23-config-consolidation.md:
+   61        ```json
+   62:         publishing: {
+   63            ...
+
+   76            mermaid: {
+   77:             publishing: true,
+   78              workspace: true,
+
+   88        ```json
+   89:         publishing: {
+   90            mermaid: true
+
+   98        ```json
+   99:         // enable mermaid diagram rendering for both workspace and publishing
+  100          mermaid: true
+
+  117          - Idea: Filtering of configurations
+  118:           - e.g. Typing `mermaid` in the search bar displays `config.publishing.mermaid` and `config.workspace.mermaid`
+  119      - viewing:
+
+dendron.dendron-site • dendron.rfc.24-custom-theming.md:
+  14  
+  15: Dendron currently does not allow for custom theming of either the preview or the published site. This is one of our highest request features in regards to preview and publishing. 
+  16  
+
+  18  1. Introduce new command, `Customize Theme`, which will do the following:
+  19:     - this command has two options: `preview` and `publishing`
+  20      - if the user selects `preview`, create a file called `style.less` at `{workspace}/style.less`
+  21:     - if the user selects `publishing`, create a file called `style.less` at `{workspace}/.next/style.less`
+  22  1. Introduce new command, `Apply Theme`, which will do the following:
+  23:     - this command has two options: `preview` and `publishing`
+  24      - on `preview`, when Dendron runs in a workspace with a `style.less` file, it will style Dendron using the given stylesheet
+  25:     - on `publishing`, when Dendron publishes notes in a next project with a `style.less` file, it will publish using the given stylesheet
+  26  
+
+  36  
+  37: For custom theme, we'll need to run the gulp script when `Apply Theme` has been called.  Instead of generating the css in `public`, the css should be generated in `{workspace}/build/style.css` if generating for `preview` and in `{workspace}/.next/public/style.css` for `publishing`
+  38  
+
+dendron.dendron-site • dendron.rfc.33-custom-publishing-templates.md:
+  14  
+  15: Provide ways of extending the built-in publishing template
+  16  
+
+dendron.dendron-site • dendron.scratch.2020.11.13-123350.md:
+  10  
+  11: - publishing 2.0
+  12    - multiplayer mode
+
+dendron.dendron-site • dendron.testimonials.jack.md:
+  20  > 
+  21: > Publishing notes is a pleasure as well (finally) by [managed publishing](https://wiki.dendron.so/notes/ae4a0c98-e2ea-47e0-8a20-016eba3424be.html) and you can directly publish your notes after hosting them on github (of course you can make it private too I think) instead of rewriting them and publish them as a website. **Everyone can build their second brain or wiki.**
+  22  > 
+
+dendron.dendron-site • dendron.topic.commands.md:
+  707  
+  708: - NOTE: this is meant for v1 publishing. V2 publishing currently does not have a publish command.
+  709  
+
+  715  
+  716: Build and export your notes using publishing v2
+  717  
+
+  721  
+  722: Preview your notes on localhost using publishing v2.
+  723  
+
+dendron.dendron-site • dendron.topic.managed-publishing.advanced.md:
+  15  - have a domain that you own and control the CNAME records for
+  16: - have your github repo hooked up to dendron (see [[Creating a site|dendron.topic.managed-publishing.quickstart#creating-a-site]])
+  17  
+
+  28  1. You'll get a response from support@dendron.so that your account is now ready for custom domains
+  29: 1. Push to the repository that you have configured with managed publishing. Dendron will now connect your repository with your CNAME
+  30      - NOTE: the link to view the site will still be pointed to `$username.dendron.wiki`. You'll need to manually add your CNAME to see the changes
+
+  42  - have a domain that you own and control the name server records for
+  43: - have your github repo hooked up to dendron (see [[Creating a site|dendron.topic.managed-publishing.quickstart#creating-a-site]])
+  44  
+
+  61  1. You'll get a response from support@dendron.so that your account is now ready for custom domains
+  62: 1. Push to the repository that you have configured with managed publishing. Dendron will now connect your repository with your CNAME
+  63      - NOTE: the link to view the site will still be pointed to `$username.dendron.wiki`. You'll need to manually add your CNAME to see the changes
+
+  71  ### Steps
+  72: 1. [[Create a site|dendron.topic.managed-publishing.quickstart#creating-a-site]] to Dendron
+  73: 1. Before publishing, set the password you would like to use
+  74  
+
+dendron.dendron-site • dendron.topic.managed-publishing.md:
+   8  
+   9: This documentation goes over Dendron's managed hosting for publishing your notes
+  10  
+  11  ## Related
+  12: - [[2 - Managed Publishing RFC|dendron.rfc.2-managed-publishing]]
+
+dendron.dendron-site • dendron.topic.managed-publishing.quickstart.md:
+  17  1. Enter the url of the repo that you want to publish
+  18: 1. Enter a [[personal access token|dendron.rfc.2-managed-publishing.ref.github-token]]
+  19  
+
+  27  ### Limitations 
+  28: - NOTE: because managed publishing is in early access, the following restrictions currently apply
+  29  <!-- -->
+
+dendron.dendron-site • dendron.topic.markdown.md:
+  166  
+  167: These are non-standard markdown syntax used in Dendron. Everything here is both available in Dendron's preview as well as when publishing.
+  168  
+
+  246  
+  247: Nunjucks will work for both the preview and for publishing. It is still an experimental feature which means it might change in backwards in-compatible ways at any point.
+  248  
+
+dendron.dendron-site • dendron.topic.multi-vault.md:
+  65  
+  66: You can publish from a multi-vault enabled workspace if you are using [[dendron-11ty|pkg.dendron-publishing]] to publish. 
+  67  
+
+dendron.dendron-site • dendron.topic.pod.builtin.github-issue.publish.md:
+  17  
+  18: A new github issue can be created by publishing any note with publish pod that does not have issueID and status in note's frontmatter.
+  19  
+
+  21  
+  22: Upon publishing the note below, for this issue #86, the status will be updated to `CLOSED`, milestone will be updated as v57, the tags will be updated to `wontfix` and `documentation` as issue labels and will be assigned to username `john-doe`(github username). The issue URL is copied to the clipboard.
+  23  
+
+  43  
+  44: Upon publishing the note below, a discussion titled `28 Notifications` will be created and the discussion url is copied to the clipboard.
+  45  
+
+  95  
+  96: When importing issues through [Github Issue Import](https://wiki.dendron.so/notes/2H9FBzagX9wf4b0V0ADGG.html), a note is created for each issue. The note frontmatter is populated with the title, url, status, existing tags, author and an issueID. You can add the field milestone with the milestone title, update the status of the issue (OPEN/CLOSED) and modify the tags within Dendron; after publishing with the publish pod, the changes in status, milestone and tags will be reflected in Github.
+  97  
+
+dendron.dendron-site • dendron.topic.pod.custom.md:
+  15  - NOTE: at the current time, custom pods can only be run using `dendron-cli`. We're working on building them into the plugin within the next couple of weeks
+  16: - NOTE: currently, only custom pods for **publishing** is supported. We're working on adding support for `import` and `export` pods
+  17  
+
+dendron.dendron-site • dendron.topic.pod.dev.md:
+  96  
+  97: We're going to make our publishing a little more dynamoc by using custom configuration. 
+  98  
+
+dendron.dendron-site • dendron.topic.pod.import.md:
+  33  
+  34: You can add custom [[frontmatter|dendron.topic.frontmatter]] to notes as you import them. This is useful for example, when you want to set custom [[publishing options|dendron.topic.publish-legacy.configuration#note-configuration]] for imported notes
+  35  
+
+dendron.dendron-site • dendron.topic.pod.markdown.md:
+   71  
+   72: - note after publishing 
+   73  
+
+   93  
+   94: - note after publishing with following options
+   95  
+
+  124  
+  125: 1. Better way of dealing with links. When publishing a single note, any wiki-links will presumably not work after publication. Do we want a `recursive` publish option to also resolve any wiki links and publish a whole bunch of files at once?
+  126  
+  127: 2. Nicer ways of rendering a note reference. Currently, Dendron's note references come with the **title** and **link** of the original text. We use custom css to style the outline. When publishing, we can't assume the presence of that css. How would a **renderOutline** option look like?
+  128  
+
+dendron.dendron-site • dendron.topic.pod.md:
+  43  
+  44: Future uses of the **publish** method will be taking a note and publishing it to social media (eg. twitter, facebook, linkedin), publishing it to Gmail, and publishing to destinations like Medium and dev.to.
+  45  
+
+dendron.dendron-site • dendron.topic.pod.sdk.md:
+  11  
+  12: Base class to be extended when creating a pod for [[publishing|dendron.topic.pod#publish]]
+  13  
+
+dendron.dendron-site • dendron.topic.publish-legacy.advanced.md:
+  27  
+  28: Sometimes, you just want to keep a few lines private while publishing the rest of your vault. You can do that with `Local only`. In order to mark a line as `Local Only`, add the following markdown comment at the end of the line: `<!--LOCAL_ONLY_LINE-->`
+  29  
+
+  39  
+  40: It's useful to check if all your links work before publishing your notes. You can use the [awesome-bot](https://github.com/dkhamsing/awesome_bot) gem to validate your links.
+  41  
+
+dendron.dendron-site • dendron.topic.publish-legacy.azure-staticwebapp.md:
+   8  
+   9: This guide describes publishing to Azure StaticWebApp using Azure Devops & Pipelines
+  10  
+
+  13  -   you already have your [[workspace under version control|dendron.topic.git]] and a repository on Azure DevOps
+  14: -   you have [[configured|dendron.topic.publish-legacy.quickstart.publishing-your-site#configure-your-notes-for-publication]] your `dendron.yml` for publication
+  15  
+
+dendron.dendron-site • dendron.topic.publish-legacy.changelogs.md:
+  24  
+  25: - NOTE: this currently **won't** work with the documented way of [[publishing with github actions|dendron.topic.publish-legacy.github]]
+  26  
+
+dendron.dendron-site • dendron.topic.publish-legacy.configuration.md:
+   40  
+   41: - NOTE: By default, assets are served from the root. If you are publishing to github pages and followed the instructions [here](https://pages.github.com/) by creating a repo named `{username}.github.io`, then no further action is needed. This is because github will make your site available at `https://{username}.github.io`. If you created a custom repo, you will need to set the prefix to the name of your repo because github will make your site available at `https://{username}.github.io/{your-repo-name/}`
+   42  
+
+   66  
+   67: When publishing in multi-vault scenario, how to handle duplicate notes
+   68  
+
+  111  
+  112: - NOTE: this is deprecated in nextjs publishing (favicon can be placed directly in the `/public` dir)
+  113  
+
+  149  
+  150: Set to the URL that you plan on publishing to. All links will be prefixed with this. 
+  151: If you are publishing with github pages, the format is `https://{username}.github.io/{repo}/`
+  152  
+
+  182  
+  183: Whether to write [[stubs|dendron.concepts#stubs]] when publishing. 
+  184  
+
+  228  
+  229: Name of person or organization doing the publishing
+  230  
+
+  285  
+  286: If set, dendron will add the specified frontmatter to each published note in the hierarchy. note that this will override existing keys with the same name when publishing
+  287  
+
+  302  
+  303: ### Example publishing entire vault
+  304  
+
+  335  
+  336: ### Example publishing just one domain
+  337  
+
+  389  
+  390: If set, adds CANONICAL_URL when publishing
+  391  
+
+  502  
+  503: Sometimes, you just want to keep a few lines private while publishing the rest of your vault. You can do that with `Local only`. In order to mark a line as `Local Only`, add the following markdown comment at the end of the line: 
+  504  
+
+dendron.dendron-site • dendron.topic.publish-legacy.faq.md:
+  14  
+  15: Yep, publishing is completely free!  Dendron generates a bunch of html files which you can use github pages or any static site host to publish. you can see some examples [[here|community.showcase]]
+
+dendron.dendron-site • dendron.topic.publish-legacy.github.md:
+    8  
+    9: This guide describes publishing to github using github actions
+   10  
+
+   13  -   you already have your [[workspace under version control|dendron.topic.git]] and a repository on github
+   14: -   you have [[configured|dendron.topic.publish-legacy.quickstart.publishing-your-site#configure-your-notes-for-publication]] your `dendron.yml` for publication
+   15  
+
+  115  git add .
+  116: git commit -m "add publishing via gh-action"
+  117  git push
+
+dendron.dendron-site • dendron.topic.publish-legacy.migration.md:
+  20  
+  21: - publishing without a cname
+  22  
+
+  58  
+  59: 11ty publishing is currently not at full feature parity with Jekyll publishing. Notably, the following features are missing:
+  60  
+
+dendron.dendron-site • dendron.topic.publish-legacy.navigation.md:
+   9  
+  10: ![publishing](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/publishv2.nav.jpg)
+  11  
+
+dendron.dendron-site • dendron.topic.publish-legacy.quickstart.md:
+   9  
+  10: NOTE: it's possible to publish Dendron on any platform that can host static sites. This guide covers publishing to [Github Pages](https://pages.github.com/)
+  11  
+
+dendron.dendron-site • dendron.topic.publish-legacy.quickstart.preview-your-site.md:
+  91  
+  92: When you are ready, you can go to [[publishing your site|dendron.topic.publish-legacy.quickstart.publishing-your-site]] for instructions on announcing your site to the world. 
+  93  
+
+dendron.dendron-site • dendron.topic.publish-legacy.quickstart.publishing-your-site.md:
+  74  #### Examples
+  75: - publishing the repo named `kevinslin.github.io`
+  76  
+
+  81  
+  82: - publishing the repo named `dendron-publish-sample`
+  83  
+
+dendron.dendron-site • dendron.topic.publish-legacy.troubleshooting.md:
+  24     - [windows](https://windowsreport.com/is-windows-firewall-blocking-port-program/)
+  25: 3. See [[Inspect and Kill Existing Process|dendron.topic.publishing.troubleshooting#inspect-and-kill-existing-process]] for more details
+  26  
+
+  28  
+  29: If you're only publishing a sub-set of your notes (i.e. not everything under root), all the hierarchies you want to appear on the site must be listed in dendron.yml under siteHierarchies. E.g.
+  30  ```
+
+  62  - Make sure your images have a leading `/`. So `/assets/images/foo.jpg` instead of `assets/images/foo.jpg`.
+  63: - If you are publishing to github, check if [[assetsPrefix|dendron.topic.publish-legacy.configuration#assetsprefix-optional]] is set
+  64  
+
+dendron.dendron-site • dendron.topic.publish.cook.github.md:
+   55  ![[dendron://dendron.dendron-site/dendron.topic.publish.cook.common#setup-dendron-cli,1:#*]]
+   56: 1. Initialize dendron next publishing
+   57  ![[dendron://dendron.dendron-site/dendron.topic.publish.cook.common#setup-notes,1:#*]]
+
+   84  #### Examples
+   85: - publishing the repo named `kevinslin.github.io`
+   86  
+
+   91  
+   92: - publishing the repo named `dendron-publish-sample`
+   93  
+
+  120  
+  121: The first push will take a bit because nextjs generates a bunch of assets on initial publishing. Subsequent pushes will only commit changes and will be much faster. 
+  122  
+
+dendron.dendron-site • dendron.topic.publish.cook.remote-vaults.md:
+   9  ## Summary
+  10: This goes over publishing a Dendron workspace with remote vaults present
+
+dendron.dendron-site • dendron.topic.publish.migration.md:
+  12  ### Pretty Links
+  13: Dendron Next publishing uses pretty urls which means pages will no longer have a `.html` suffix.  If you are migrating an existing 11ty based Dendron site to Next, make sure to redirect `.html` pages to preserve existing links
+
+dendron.dendron-site • dendron.topic.publish.quickstart.md:
+  10  
+  11: This guide walks you through publishing with NextJS. 
+  12  
+  13: - NOTE: if you are migrating from 11ty publishing, please read the [[migration guide|dendron://dendron.dendron-site/dendron.topic.publish.migration]] for changes.
+  14  
+
+dendron.dendron-site • dendron.topic.references.md:
+  235  
+  236: References can refer to notes with references inside. Dendron current supports references two levels deep. This applies to both the **local preview** as well as **publishing**.
+  237  
+
+  247  
+  248: When you [[publish|dendron.topic.publish]] a note with a note reference, Dendron will embed the content of the reference in the page. If the content is part of a published page as specified by the publishing [[configuration|dendron.topic.publish-legacy.configuration]], dendron will include a link to the page. If not, Dendron will embed the content without a link. If the referenced content is not publishable (eg. `published: false` set on frontmatter), dendron will generate a custom [[404 link|dendron.topic.publish-legacy.features#selective-publication]].
+  249  
+
+dendron.dendron-site • dendron.topic.tags.md:
+  63  The automatically assigned tag colors can be disabled. To disable them in
+  64: publishing, see [[noRandomlyColoredTags site config|dendron.topic.publish-legacy.configuration#norandomlycoloredtags]],
+  65  and to disable them in the editor  see [[noRandomlyColoredTags general config|dendron.topic.config.dendron#norandomlycoloredtags]].
+
+  68  
+  69: Tags work in publishing like regular links. The only caveat is that if you want
+  70  your viewers to see all notes that use a tag, you must create that tag note.
+
+dendron.dendron-site • dendron.topic.tasks.md:
+  24  
+  25: And here's how it looks like in the preview or publishing:
+  26  
+
+  61  of that task. This currently only works in the editor, but keep an eye out for
+  62: updates as we enable it for preview and publishing as well!
+  63  
+
+dendron.dendron-site • dendron.topic.teams.md:
+  41  - org-public
+  42:   - for company material that you plan on publishing publically
+  43  
+
+dendron.dendron-site • dendron.tutorial.taking-notes.md:
+  19  
+  20: The --- section at the top of each note is frontmatter. Frontmatter are custom attributes at the top of each markdown file. Dendron uses it to store metadata about each note for features like publishing. Don't modify the id attribute on the front matter.
+  21  
+
+dendron.dendron-site • dendron.tutorial.vaults.md:
+  68  ### Next
+  69: -   [[Publishing your notes|dendron.tutorial.publishing]]
+
+dendron.dendron-site • dendron.workflows.cache.md:
+  28  - when using your notes as a cache, you might have duplicate content from other sites. be aware of copyright laws and check that you can re-publish said content
+  29: - when re-publishing content, google will penalize your site if you have duplicate content from other sites. you can tell google to not index specific pages or hierarchies
+  30      
+
+dendron.dendron-site • dendron.workflows.collab.md:
+  24  - use issues to request changes
+  25: - use github projects to share publishing roadmap
+  26  
+
+private • dendron.docs.2021-03-company-blurb.md:
+  115  - active discord community
+  116: - we also have launched a publishing platform to let developers share their knowledge
+  117  
+
+  193  ### Other2
+  194: - Our users are using Dendron for both their personal and work related notes as well as publishing and sharing them with others
+  195  - We are currently doing pilots with a few companies to work on knowledge management for groups
+
+  311  
+  312: - we are currently piloting publishing which is going to put this into the mainstream news
+  313  
+
+private • dendron.docs.2021-03-launch-hn-coordination.md:
+  34  
+  35: 3. The reason why knowledge isn't shared more is that there's too much friction in the process. It takes time to do a put together blog post but most of the time, what we have are collections of thoughts and half-formed ideas. Dendron comes with built-in publishing that lets you compile your notes to static HTML to publish anywhere. You have fine-grained control of what gets published and Dendron takes care of the details - any links to private notes from public notes are automatically overwritten with a custom 403 page during the built stage.
+  36  
+
+private • dendron.github.issues.928-Visualize a namespaced hierarchy as a table.md:
+  71        - packaging
+  72:       - publishing
+  73    - id: linting
+
+  75    - id: packaging
+  76:   - id: publishing
+  77  ```
+
+  83  - `language.X.process.packaging`
+  84: - `language.X.process.publishing`
+  85  
+
+  92  | packaging        | ...    | ...  | ... |
+  93: | publishing       | ...    | ...  | ... |
+  94  
+
+private • dendron.github.issues.1178-Add an option to strip comments before publishing.md:
+   2  id: QlwmsDHYpx2pVM4PrXKpV
+   3: title: 1178-Add an option to strip comments before publishing
+   4  desc: ''
+
+  54  
+  55: Add an option to remove comments before publishing.
+  56  
+
+private • dendron.github.issues.1365-confluence-supportintegration.md:
+  27  
+  28:  -->publishing
+  29  
+
+private • dendron.github.issues.1588-links-in-published-nextjs-site-exported-for-github-display-a-spinner.md:
+  76  $ yes | npx dendron publish --wsRoot . export --target github && npx serve -s docs
+  77: generating metadata for publishing...
+  78  removing existing assets
+
+private • dendron.github.issues.1622-enhance-blog-rendering-in-published-blog-posts-general-feedback-suggestions.md:
+  52  
+  53: When it comes to blog guidance, I have looked at the Dendron wiki at [Blogging (dendron.topic.publish-legacy.blogging)](https://wiki.dendron.so/notes/6d21fd60-e564-4a55-b4c0-d2586293b908/). Though, because it is within a `*.publish-legacy.*` hierarchy, I do not know whether this has been deprecated and replaced with something else in the newer NextJS publishing approach.
+  54  
+
+private • dendron.github.issues.1638-publishing-should-correct-links-to-properly-point-to-documents-under-the-assets-folder.md:
+  53  
+  54: When publishing, it would be nice if my links are updated to be able to access the docs they are pointed to correctly. An easy way to do this in my mind would be to have links prepend the `siteUrl` and `assetsPrefix` to published links.
+  55  
+
+private • dendron.incubator.writing.2021-06-year-in-review.md:
+  60  - schemas not realized
+  61: - publishing can be easier
+  62  - 80/20 but make sure the 80 doesn't lead to 80% saupport
+
+private • dendron.incubator.writing.md:
+  66  
+  67: When support and documentation for publishing only specific note references, note files themselves, or note hierarchies from a vault is available in Dendron, a good blog post could be to make use of the features, and have the blog post itself make use of them.
+  68  
+
+  81  - Iteration at Dendron
+  82: 	- eg. publishing: from jekyll to 11ty to next
+  83  	- eg. lookup (in memory, client server, multi-processor, and beyond)
+
+private • dendron.metrics.ref.dashboard.md:
+   85  
+   86: How many unique users are publishing to Dendron
+   87  
+
+  101  
+  102: Shows how many users are using publishing to preview site locally
+  103  
+
+  110  - Break down by:
+  111:     - publishing normally 
+  112:     - publishing with github target
+  113  
+
+  117  
+  118: Like [[#publish-dev-calls]] but for 11ty publishing
+  119  
+
+  123  
+  124: Like [[#publish-export-calls]] but for 11ty publishing
+
+private • dendron.scratch.2020.09.12.104934.md:
+  2  id: 5fddf229-bfe9-4400-808d-51e3d4e303b3
+  3: title: Iframe based note references when publishing
+  4  desc: ''
+
+private • dendron.scratch.2020.11.02.seo-friendly-urls.md:
+  20  
+  21: we're looking into offering **hosted publishing** around december/january which can offer this functionality as well as the ability to publish privately or share with select people by email
+
+private • dendron.sop.changelog-update.md:
+  30      - *** shipped
+  31:     - enahnce(publish): support publishing to github as a export template @kevin
+  32      - enahnce(publish): support `--yes` flag when exporting to skip prompts @kevin
+
+  39      ### Enhancements
+  40:     - enahnce(publish): support publishing to github as a export template @kevin
+  41      - enahnce(publish): support `--yes` flag when exporting to skip prompts @kevin
+
+private • dendron.sop.customer-checkup.md:
+  29              - if they respond, update their response and LastUpdate time
+  30:                 - recommend for them to try out publishing
+  31              - if they don't respond, followup in 2 days, and then 5 days
+
+private • dendron.sop.incrementing-vscode-api-version.md:
+  44  
+  45: [VS Code Manifest Documentation](https://code.visualstudio.com/api/working-with-extensions/publishing-extension#visual-studio-code-compatibility)
+  46  
+
+private • dendron.sop.merge-pr.md:
+  19      - when merging PR, make sure the commit message corresponds to our [[commit style|dendron://dendron.dendron-site/dendron.dev.pull-request#commit-style]]
+  20:     - eg. `enhance(publish): speed up publishing by 500%`
+  21  1. Go to [[Ready to Ship|dendron://private/weekly.temp.team-journal#ready-to-ship]] section of this week's weekly journal
+
+  24      ```md
+  25:     enhance(publish): make publishing faster @john
+  26      ```
+
+private • dendron.sop.onboarding-customer.template.onboarding.md:
+  25      - daily journals
+  26:     - publishing
+  27  - questions
+
+private • dendron.sop.release.community-highlights.md:
+  33      - [[people.jonny-appleseed]]
+  34:         - fix typo in publishing docs
+  35      ```markdown
+
+  40              - #dendron.taxonomist
+  41:             - fix typo in publishing docs
+  42          ```
+
+private • dendron.sop.weekly-release.build.v2.md:
+   18  - Install [vsce](https://www.npmjs.com/package/vsce)
+   19: - Get access to Dendron NPM account  (only needed when publishing to production)
+   20: - Get access to Dendron Publishing tokens (only needed when publishing to production)
+   21  
+
+  166  1. Make sure new features work in `dendron-site` vault
+  167: 1. Run [[Site Preview|dendron.topic.commands#site-preview]] and make sure new features work when publishing
+  168  
+
+  220  
+  221: ### Make a change to plugin-core without re-publishing
+  222  
+
+private • dendron.sop.weekly-release.md:
+  27  - [[Community Highlights|dendron://private/dendron.sop.release.community-highlights]]
+  28: - [[Community Highlights for Publishing|dendron://private/dendron.sop.release.community-highlights-for-publishing]] (this part will be handled by @john )
+  29  
+
+private • dendron.tasks.backlog.md:
+   61  - [[end of day sync cmd|scratch.2021.04.19.102208.end-of-day-sync-cmd]] #ambiguous
+   62: - [[Proper Attribution for Note References |scratch.2021.06.19.214438.proper-attribution-for-references-when-publishing]] [[tags.size.big]] 
+   63  - ***
+
+   71  - [[Chrome Plugin for Dendron|scratch.2021.01.31.215617.britt-plugin]] #growth
+   72: - [[make a clone to dendron button|scratch.2021.03.31.213432.make-a-clone-to-dendron-button]] #task.scope.publishing #growth
+   73  - drag files into tree view [[people.brimwats]] #happy
+
+  102  - [[copy a tag note should result in hashtags|scratch.2021.09.13.151728.copy-a-tag-note-should-result-in-hashtags]] #easy 
+  103: - [[don't require private vaults to be pulled down when publishing site|scratch.2021.09.13.152023.dont-require-private-vaults-to-be-pulled-down-when-publishing-site]] #happy #scope.publish
+  104  - [[dendron.github.issues.1545-show-preview-should-not-be-available-outside-of-a-dendron-workspace]]
+
+  143  - create link checker (internal and external) #scope.publish
+  144: - [[Iframe based note references when publishing|dendron.scratch.2020.09.12.104934]] #scope.publish
+  145  - generate schema coverage report based on notes that are in compliance #schema
+
+  156  * [[1153-Various lookup v3 enhancement items|dendron.github.issues.1153-Various lookup v3 enhancement items]] 
+  157: * [[1178-Add an option to strip comments before publishing|dendron.github.issues.1178-Add an option to strip comments before publishing]]
+  158  - [[backlinks should show vaults when in multi-vault|scratch.2021.09.13.152005.backlinks-should-show-vaults-when-in-multi-vault]] #easy
+
+  219  - [[dendron.github.issues.1204-support-pdf-export-in-preview-v2]]
+  220: - [[numeric title breaks publishing|scratch.2021.06.28.150147.numeric-title-breaks-publishing]]  #size.medium #star #happy
+  221  - [[Journal Namespace Issue|scratch.2021.04.15.203916.journal-namespace-issue]] #schema #assigned
+
+  223  - [Having '.md' anywhere inside new note name will break title generation]([https://github.com/dendronhq/dendron/issues/856](https://github.com/dendronhq/dendron/issues/856)) #size.medium #happy
+  224: - [[ian managed publishing issue|scratch.2021.05.13.080145.ian-managed-publishing-issue]] 
+  225  - [[Kzilla Numbering Issue in preview|scratch.2021.04.03.213315.kzilla-numbering-issue]] #happy
+
+  242  - tag completion doesn't show all results (eg. `dendron.lv`)
+  243: - [[Backlinks from Private Vaults Should Not Be Shown when publishing|scratch.2021.08.02.182844.backlinks-from-private-vaults-should-not-be-shown]]
+  244  - [[copy note link should not generate block anchor in frontmatter|scratch.2021.09.12.075910.copy-note-link-should-not-generate-block-anchor-in-frontmatter]]
+
+  296  - [[Replace Goupto with Findupto|scratch.2021.06.23.171326.replace-goupto-with-findupto]] #refactor #small
+  297: - end2end test for publishing
+  298  - research way to lint cross package imports
+
+  321  - > KL: kaan will be working on this
+  322: - [[Dendron Managed Publishing|scratch.2021.03.14.115617.dendron-publishing-page]]
+  323  - cursor will go back to the top of note after navigating from note
+
+private • dendron.tasks.icebox.md:
+  84  - [[1257 Make Dendroncodeworkspace Renamable Pls|dendron.github.issues.1257-make-dendroncodeworkspace-renamable-pls]]
+  85: - [[1613 Provide Andor Explain Functionality to Modify the Acknowledgements in the Footer When Publishing|dendron.github.issues.1613-provide-andor-explain-functionality-to-modify-the-acknowledgements-in-the-footer-when-publishing]] @kevin
+  86  - [[1617 Enable Wikilink Previews in Preview Mode|dendron.github.issues.1617-enable-wikilink-previews-in-preview-mode]]
+
+private • dendron.todo.2020.11.06.seo-url.md:
+  48  
+  49: we're looking into offering hosted publishing around december/january which can offer this functionality as well as the ability to publish privately or share with select people by email
+  50  

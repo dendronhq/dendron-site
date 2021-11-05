@@ -3,7 +3,7 @@ id: PgwAXFfotfgpFVqHQRlBl
 title: Dev
 desc: |
   Development related
-updated: 1635267721781
+updated: 1636132985460
 created: 1628376960868
 ---
 
@@ -15,7 +15,12 @@ See build instructions [[here|pkg.plugin-core.quickstart#build]]
 <!-- How to run the program from the current source code -->
 1. Navigate to the nextjs-template
   ```
-  cd packages/nextjs-template
+  cd {path-to-template}/nextjs-template
+  ```
+1. Install all packages
+  - NOTE: if you are building nextjs-template inside dendron monorepo, then you can skip this step 
+  ```
+  yarn
   ```
 1. To run nextjs using sample data, run the following ^gDKNFAxVBU4u
   ```

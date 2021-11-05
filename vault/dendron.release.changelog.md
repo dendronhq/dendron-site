@@ -2,7 +2,7 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1635877121235
+updated: 1636130881986
 created: 1601508213606
 date: '2022-01-01'
 ---
@@ -11,7 +11,7 @@ date: '2022-01-01'
 
 ### Breaking changes
 
-1. Deprecation notice for `Site Preview` and `Site Build`. These currently build using our legacy 11ty publishing method. Starting next week, these will be upgraded to publish using NextJS. In addition, the notes will be renamed:
+1. Deprecation notice for `Site Preview` and `Site Build`. These currently build using our legacy 11ty publishing method. Starting next week, these will be upgraded to publish using NextJS. In addition, the notes will be renamed: ^kSChN1jT6OMc
     * `Site Preview` will be renamed to `Publish Dev`
     * `Site Build` will be renamed to `Publish Export`
 2. We have updated the enablement of our preview features to reduce clutter in the command palette and prevent confusion.

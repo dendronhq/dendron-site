@@ -2,7 +2,7 @@
 id: FfyL5dSzFwX1iseI56oYy
 title: Test
 desc: ''
-updated: 1636128945263
+updated: 1636132323321
 created: 1636128639000
 ---
 
@@ -36,7 +36,7 @@ When writing a test for a package, put the test underneath the `{pkgName}` folde
 
 - Using CLI
 ```bash
-./bootstrap/scripts/testAll.sh
+dendron/bootstrap/scripts/testAll.sh
 ```
 
 #### Run a Single Test
