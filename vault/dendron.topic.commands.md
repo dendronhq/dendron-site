@@ -705,25 +705,21 @@ If you are on macOs, you can find instructions for getting the path to the curre
 
 Build, commit and publish your notes with a single command
 
-- NOTE: this is mean for v1 publishing. V2 publishing currently does not have a publish command.
+- NOTE: this is meant for v1 publishing. V2 publishing currently does not have a publish command.
 
 <a href="https://www.loom.com/share/c58edf543e234a8fa164095237579ccc"> <img style="" src="https://cdn.loom.com/sessions/thumbnails/c58edf543e234a8fa164095237579ccc-with-play.gif"> </a>
 
-### Site Build
+### Publish Export
 
 - shortcuts: none
 
-Build your notes using publishing v2
+Build and export your notes using publishing v2
 
-This command works by running `dendron-cli` in the background.
-
-### Site Preview
+### Publish Dev
 
 - shortcuts: none
 
 Preview your notes on localhost using publishing v2.
-
-This command works by running `dendron-cli` in the background.
 
 ---
 
