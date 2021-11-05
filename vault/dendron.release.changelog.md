@@ -2,10 +2,40 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1636130881986
+updated: 1636140849625
 created: 1601508213606
 date: '2022-01-01'
 ---
+
+## 0.67.2
+
+### Breaking changes
+
+An enhancement in this release delivers breaking changes announced last week: [[Changelog|dendron://dendron.dendron-site/dendron.release.changelog#^kSChN1jT6OMc]]
+
+### Features
+* feat(publish): add local table of contents, of current note, in right-hand nav ([[docs|dendron.topic.publish.features#table-of-contents]]) (#1428)  @viztor
+* feat(publish): merge lookup and search fields ([[docs|dendron.topic.publish.features#lookup-and-search]]) (#1603) @felipe
+
+### Enhancements
+* enhance(schema): update schemas on save instead of having to reload workspace. (#1597) @nickolay
+* enhance(publish): migrate publish related commands to nextjs @hikchoi
+  * _**Note:** This is the breaking change mentioned above._
+* enhance(commands): move header supports multi vault (#1646) @hikchoi
+* enhance(commands): allow creation of new notes when move header destination doesn't exist yet (#1646) @hikchoi
+
+### Fix
+* fix(publish): table of contents layout (#1649) @felipe
+* fix(server): improving error response on api server (#1645) @jonathan
+* fix(workspace): Change Workspace command recognizes native workspaces (#1621) @kaan
+
+## 0.67.1
+
+> This was a quickfix release fixing the broken `0.66.1` build of the Visual Studio Code extension.
+
+## 0.66.1
+
+> This was an accidental, breaking release. This only impacted the the Visual Studio Code extension. Users need to upgrade to at least `0.67.1`.
 
 ## 0.66.0
 
