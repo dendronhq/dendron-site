@@ -2,7 +2,7 @@
 id: 84df871b-9442-42fd-b4c3-0024e35b5f3c
 title: Telemetry
 desc: ''
-updated: 1634745897217
+updated: 1635149585241
 created: 1619460500071
 ---
 
@@ -125,6 +125,35 @@ We collect an invocation metric when a [[commands|dendron.topic.commands]] is in
 | ---------: | :--------: | -------------------------------------------- |
 | `error`    | _boolean_  | Did an error happen during this phase?       |
 | `duration` | _number_   | How long did it take to execute this command |
+
+### CLI commands
+
+We collect an invocation metric when a [[CLI|dendron.topic.cli]] command is invoked. This is to measure command latency. We also collect command arguments that do not contain user-identifying information to analyze usage frequency of a particular command argument
+
+| Field      | Attributes | Description                                                                     |
+| ---------: | :--------: | ------------------------------------------------------------------------------- |
+| `duration` | _number_   | How long did it take to execute this command                                    |
+| `args`     | _object_   | What arguments were passed to the command (user-identifying properties omitted) |
+
+#### CLI command arguments
+
+This is an exhaustive list of CLI command arguments collected on invocation.
+
+|  Command   |    Field | Attributes |                              Description                               |
+|:----------:|---------:|:----------:|:----------------------------------------------------------------------:|
+|    dev     |    `cmd` |  _string_  |       What dev command was used (e.g. `run_migration`, `build`)        |
+|   doctor   | `action` |  _string_  |     What doctor action was used (e.g. `fixFrontmatter`, `h1ToH2`)      |
+| importPod  |  `podId` |  _string_  |          What pod was used (e.g. `dendron.json`, `markdown`)           |
+| exportPod  |  `podId` |  _string_  |          What pod was used (e.g. `dendron.json`, `markdown`)           |
+| publishPod |  `podId` |  _string_  |          What pod was used (e.g. `dendron.json`, `markdown`)           |
+|    note    |    `cmd` |  _string_  |          What note command was used (e.g. `lookup`, `delete`)          |
+|    note    | `output` |  _string_  |   What output format was used (e.g. `json`, `md_gfm`, `md_dendron`)    |
+|  publish   |    `cmd` |  _string_  |          What publish command was used (e.g. `init`, `build`)          |
+|    seed    |    `cmd` |  _string_  |            What seed command was used (e.g. `init`, `add`)             |
+|    seed    |     `id` |  _string_  |                         What seed id was used                          |
+|    seed    |   `mode` |  _string_  | What seed mode was used (e.g. `create_workspace`, `convert_workspace`) |
+|   vault    |    `cmd` |  _string_  |              What vault command was used (e.g. `create`)               |
+| workspace  | `action` |  _string_  |      What workspace action was used (e.g. `init`, `push`, `pull`)      |
 
 
 ### Contextual UI

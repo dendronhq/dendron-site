@@ -2,7 +2,7 @@
 id: f1af56bb-db27-47ae-8406-61a98de6c78c
 title: References
 desc: ''
-updated: 1634173184901
+updated: 1635868523826
 created: 1597356582509
 stub: false
 ---
@@ -17,7 +17,7 @@ Note references are extremely powerful and help you re-use your notes in a varie
 
 Currently, Dendron supports 4 types of references to help you control the amount of content that gets embedded:
 
-- full note references
+ note references
 - header references
 - block references
 - range references

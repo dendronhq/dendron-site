@@ -2,7 +2,7 @@
 id: 683740e3-70ce-4a47-a1f4-1f140e80b558
 title: FAQ
 desc: ''
-updated: 1629506041569
+updated: 1636036017736
 created: 1595952505025
 stub: false
 nav_order: 6
@@ -319,10 +319,6 @@ In addition, the markdown preview that Dendron uses is platform agnostic (eg. it
 ### VSCode Snippets are not working in Frontmatter
 
 The default snippets are scoped to markdown. You can create [global snippets](https://code.visualstudio.com/docs/editor/userdefinedsnippets#_create-your-own-snippets) file to have snippets that work across all languages.
-
-### The extension 'Dendron Markdown Preview Enhanced' took a very long time to complete its last operation
-
-This is a known issue whenever we release a new version of the preview (mostly because its uncompressed javascript). Moving forward, we'll be removing the dependency on an external plugin and integrating Dendron's markdown features into vscode's native markdown preview in the near future.
 
 ### I want to push all my note to my git repository periodically
 

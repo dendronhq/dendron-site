@@ -2,7 +2,7 @@
 id: 773e0b5a-510f-4c21-acf4-2d1ab3ed741e
 title: Style
 desc: ''
-updated: 1635222674359
+updated: 1635960612394
 created: 1609550314371
 ---
 
@@ -76,6 +76,27 @@ const friendly = friendly({person});
 // still reads as 'maybe' while we want to communicate that it is in 
 // fact friendly.
 const maybeFriendly  = maybeFriendly({person});
+```
+
+### prefer enum over strings
+
+When we have a small set of constants, prefer using enums
+
+```ts
+// good
+enum ReturnStatus {
+  ok = "ok",
+  fail = "fail",
+}
+
+function foo(): ReturnStatus {
+  ...
+}
+
+// bad
+function foo(): "ok"|"fail"{
+  ...
+}
 ```
 
 ## Typescript

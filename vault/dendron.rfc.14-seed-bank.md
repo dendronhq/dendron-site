@@ -7,7 +7,7 @@ created: 1623017672501
 ---
 ## Goals
 
-The Seed Bank is an open database of [[workspaces|dendron.ref.workspace]] (seeds) that anyone can access and contribute to. 
+The Seed Bank is an open database of [[workspaces|dendron.topic.workspace]] (seeds) that anyone can access and contribute to. 
 
 ## Context
 

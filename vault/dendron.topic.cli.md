@@ -232,7 +232,7 @@ Options:
 
 #### init
 
-Initialize a [[Workspace|dendron://dendron.dendron-site/dendron.ref.workspace]].
+Initialize a [[Workspace|dendron://dendron.dendron-site/dendron.topic.workspace]].
 
 #### pull
 
@@ -250,7 +250,7 @@ Run `git add . && git commit` on all vaults inside the workspace
 
 #### sync
 
-Run `addAndCommit`, `pull`, and `push` on all vaults inside the workspace. This follows the same configuration as the `Workspace: Sync` command in the extension, see [[Workspace Sync|dendron.ref.workspace#Workspace: Sync]] for details.
+Run `addAndCommit`, `pull`, and `push` on all vaults inside the workspace. This follows the same configuration as the `Workspace: Sync` command in the extension, see [[Workspace Sync|dendron.topic.workspace#Workspace: Sync]] for details.
 
 ## Dev Command
 

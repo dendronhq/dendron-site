@@ -23,13 +23,13 @@ npm install --save @dendronhq/dendron-cli
     ```
 
 ### Build Notes
-- NOTE: run this command inside your [[workspace|dendron.ref.workspace]]
+- NOTE: run this command inside your [[workspace|dendron.topic.workspace]]
 ```sh
 dendron publish build
 ```
 
 ### Preview Notes
-- NOTE: run this command inside your [[workspace|dendron.ref.workspace]]
+- NOTE: run this command inside your [[workspace|dendron.topic.workspace]]
 - This command launches a development server which previews how your published website will look like.  Visit [http://localhost:3000](http://localhost:3000) to accesss your site. 
 - Enter `CTRL-C` on the terminal to exit the preview
 ```sh
@@ -37,7 +37,7 @@ dendron publish dev
 ```
 
 ### Export Notes
-- NOTE: run this command inside your [[workspace|dendron.ref.workspace]]
+- NOTE: run this command inside your [[workspace|dendron.topic.workspace]]
 - This command builds the static HTML which you'll upload to actually publish your site
 
 ```sh

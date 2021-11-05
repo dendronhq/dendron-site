@@ -22,7 +22,7 @@ Users should be able to create multiple vaults for a given workspace. Each vault
 
 ## Concepts
 
-![[dendron.ref.workspace#summary,1:#*]]
+![[dendron.topic.workspace#summary,1:#*]]
 ![[dendron.topic.vaults#summary,1:#*]]
 ![[dendron.concepts#hierarchies:#*]]
 ![[dendron.concepts#domain:#*]]

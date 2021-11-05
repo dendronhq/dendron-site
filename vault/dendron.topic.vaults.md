@@ -108,7 +108,7 @@ When someone pulls down a workspace with a `dendron.yml` that contains a remote 
 A regular vault is what you get by default when you first initialize your workspace. 
 
 ### Workspace Vault
-A workspace vault is a vault that belongs to another [[workspace|dendron.ref.workspace]]. It is automatically created when you run [[Vault Add|dendron.topic.vaults#vault-add]] on a [[workspace|dendron.ref.workspace]]. Upon adding a workspace, Dendron will add all the vaults of the given workspace inside your `dendron.yml` 
+A workspace vault is a vault that belongs to another [[workspace|dendron.topic.workspace]]. It is automatically created when you run [[Vault Add|dendron.topic.vaults#vault-add]] on a [[workspace|dendron.topic.workspace]]. Upon adding a workspace, Dendron will add all the vaults of the given workspace inside your `dendron.yml` 
 
 You can see an example of the configuration [[here|dendron.topic.vaults#remote-workspace-vault]].
 
@@ -142,9 +142,9 @@ If set, specifies the workspace that this vault belongs
 ### sync
 - default: `sync`
 
-See [[workspace sync configuration options|dendron.ref.workspace#configuration-options]] for valid options.
+See [[workspace sync configuration options|dendron.topic.workspace#configuration-options]] for valid options.
 
-Sets the [[synchronization strategy|dendron.ref.workspace#Workspace: Sync]] for this vault. This overrides the [[workspace vault sync option|dendron.topic.config.dendron#workspaceVaultSync]] if it is set.
+Sets the [[synchronization strategy|dendron.topic.workspace#Workspace: Sync]] for this vault. This overrides the [[workspace vault sync option|dendron.topic.config.dendron#workspaceVaultSync]] if it is set.
 
 ### Configuration Examples
 

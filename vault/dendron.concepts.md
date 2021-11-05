@@ -20,7 +20,7 @@ You can read more about the frontmatter used in Dendron [[here|dendron.topic.fro
 
 ### Workspace
 
-![[dendron.ref.workspace#summary,1]]
+![[dendron.topic.workspace#summary,1]]
 
 ### Vaults
 

@@ -8,7 +8,7 @@ created: 1607621369889
 
 ## Summary
 
-The Seed Bank is an open database of [[workspaces|dendron.ref.workspace]] (seeds) that anyone can access and contribute to. 
+The Seed Bank is an open database of [[workspaces|dendron.topic.workspace]] (seeds) that anyone can access and contribute to. 
 
 You can see all currently available seeds [here](https://github.com/dendronhq/dendron/blob/dev/packages/engine-server/src/seed/registry.ts#L8:L8)
 

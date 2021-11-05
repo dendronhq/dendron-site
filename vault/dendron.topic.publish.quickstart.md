@@ -20,7 +20,7 @@ This guide walks you through publishing with NextJS.
 ## Process
 
 ### Setup
-Run the following commands at the root of your dendron [[workspace|dendron.ref.workspace]]
+Run the following commands at the root of your dendron [[workspace|dendron.topic.workspace]]
 
 ![[dendron.topic.publish.cook.common#setup-notes,1:#*]]
 

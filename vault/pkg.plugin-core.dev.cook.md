@@ -2,7 +2,7 @@
 id: jtHIVXVpyHwRiq3tJBbfq
 title: Cook
 desc: ''
-updated: 1634737200066
+updated: 1635918396233
 created: 1634590309804
 ---
 
@@ -20,7 +20,7 @@ sequenceDiagram
     participant lookupProvider
     user ->> lookupCommand: user issues command
     Note left of user: 1. cmd.gatherInput()
-    rect rgb(0, 255, 0)
+    rect rgb(0, 50, 0)
       lookupCommand ->> lookupController: creates controller 
       lookupCommand ->> lookupProvider: creates provider
       lookupCommand ->> lookupController: call show(provider)

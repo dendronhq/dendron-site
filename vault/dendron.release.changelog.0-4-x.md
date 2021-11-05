@@ -249,7 +249,7 @@ created: 1629505311218
 
 ### Enhancements
 
--   fine grained control for workspace sync ([[docs|dendron.ref.workspace#workspace-sync]])
+-   fine grained control for workspace sync ([[docs|dendron.topic.workspace#workspace-sync]])
 -   improved startup speed
 -   block references fully supported in publishing and preview
     @hikchoi

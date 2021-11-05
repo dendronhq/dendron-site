@@ -2,7 +2,7 @@
 id: 1ec8d588-7c8a-47a2-b79e-1dd02d10b600
 title: Weekly Public Announcement
 desc: ''
-updated: 1634667297104
+updated: 1635870596360
 created: 1622484182130
 ---
 
@@ -18,14 +18,14 @@ Dendron 0.6 has sprouted  🌱
 ### Community
 
 #### General Updates
+<!-- TODO: update the link. Office hours are bi-weekly, delete this section if not appliacble -->
 
 #### Dendron Reading Series
 
 This week's entry in the [[Dendron Reading Series|community.reading-series]]. 
 
 #### Office Hours
-
-<!-- TODO: update the link -->
+<!-- TODO: update the link. Office hours are bi-weekly, delete this section if not appliacble -->
 You can find notes from our latest office hours [[here|community.office-hours.2021.09.]]
 
 #### Thank You's
