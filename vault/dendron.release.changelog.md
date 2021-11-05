@@ -18,7 +18,7 @@ An enhancement in this release delivers breaking changes announced last week: [[
 * feat(publish): merge lookup and search fields ([[docs|dendron.topic.publish.features#lookup-and-search]]) (#1603) @felipe
 
 ### Enhancements
-* enhance(schema): update @schemas on save instead of having to reload workspace. (#1597) @nickolay
+* enhance(schema): update schemas on save instead of having to reload workspace. (#1597) @nickolay
 * enhance(publish): migrate publish related commands to nextjs @hikchoi
   * _**Note:** This is the breaking change mentioned above._
 * enhance(commands): move header supports multi vault (#1646) @hikchoi
