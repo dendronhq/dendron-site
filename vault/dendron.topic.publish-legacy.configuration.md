@@ -2,7 +2,7 @@
 id: f2ed8639-a604-4a9d-b76c-41e205fb8713
 title: Configuration
 desc: ''
-updated: 1632719812218
+updated: 1636153271258
 created: 1608528797892
 nav_order: 3
 ---
@@ -414,6 +414,25 @@ If set, do not include the current note in the navigation bar.
 
 If set, denote order that item appears in the published nav bar
 > NOTE: `root` has `nav_order: 1` so the `nav_order` of your denoted items must be superior to 1
+
+By default, all notes at a given level are organized alphabetically
+
+```
+- Dendron
+  - Alpha
+  - Bravo
+  - Charlie
+```
+
+Same example where `Bravo` has `nav_order: 2` and `Charlie` has `nav_order: 1`
+
+```
+- Dendron
+  - Charlie <-- appears first because it has the smallest nav order
+  - Bravo 
+  - Alpha <-- appears last because notes with `nav_order` are sorted ahead of notes without `nav_order` 
+```
+
 
 ### noindex
 
