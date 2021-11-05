@@ -35,7 +35,7 @@ This works less well once the task becomes a scratch note that is present in mul
 ...
 ```
 
-As a user, I know have to remember to check this task off in multiple places. 
+As a user, I now have to remember to check this task off in multiple places. 
 
 ## Proposal
 
