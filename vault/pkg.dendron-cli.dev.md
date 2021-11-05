@@ -2,24 +2,32 @@
 id: 832a6e4d-4ed9-414f-baa8-d2f20432c934
 title: Dev
 desc: ''
-updated: 1631987539040
+updated: 1636128346988
 created: 1609350672493
 ---
 
 
-## Pre-req
-- [[pkg.plugin-core.quickstart]] 
+## Build
+- Build dendron monorepo by following steps here: [[Dendron Plugin Quickstart|dendron://dendron.dendron-site/pkg.plugin-core.quickstart]]
 
-## Cook
+## Run
+1. [[Symlink|#symlink]] the dendron-cli from the monorepo 
 
-### Creating a new CLI Command
+That's it. Now any changes you make will be immediately accessible when running the `dendron` cli
 
-See [[Arch|pkg.dendron-cli.arch]]
+
+## Reference
 
 ### Symlink
 Symlinking `dendron-cli` lets you use the current version of dendron from anywhere inside the CLI
 
-```
-cd packages/dendron-cli
-npm link
-```
+1. Run npm link
+    ```sh
+    cd packages/dendron-cli
+    npm link
+    ```
+1. Verify
+    ```sh
+    # output should match the current version inside `dendron/lerna.json`
+    dendron --version
+    ```

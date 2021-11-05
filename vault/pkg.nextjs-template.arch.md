@@ -2,12 +2,24 @@
 id: LAUb8WcM8rmjxJrR
 title: Arch
 desc: ''
-updated: 1636063180047
+updated: 1636063850368
 created: 1627859879590
 ---
 
+## Components
+<!-- Major components -->
 
-## Startup
+## Lifecycle
+- building metadata
+  - `dendron publish build`
+  - dendron will look at your `dendron.yml`
+  - generate metadata into json files
+  - [NextJsExportPod](https://github.com/dendronhq/dendron/blob/68fea3bbad13961b7754e61dd63dfb2d47d73c56/packages/pods-core/src/builtin/NextjsExportPod.ts#L30)
+- building the site
+
+### Startup
+
+What happens when you visit a statically generated Dendron site. 
 
 - pages/_app.tsx
 
