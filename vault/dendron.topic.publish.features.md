@@ -2,21 +2,21 @@
 id: SsMGHoFVgyBdydzI5mn78
 title: Features
 desc: ''
-updated: 1631914884053
+updated: 1636140701348
 created: 1631895790486
 ---
 
-## Lookup
+## Lookup and Search
 
-Next Generation Publishing includes a lookup bar, which works the same way that
-the "Lookup Note" command does in your editor. The bar will display the name of
-the current note, and you can use the bar to look up other notes.
+Next Generation Publishing includes a combined lookup and search bar:
 
-<a href="https://www.loom.com/share/ce2224a5d8a5401dbbbe3e57cef9429b"><img src="https://cdn.loom.com/sessions/thumbnails/ce2224a5d8a5401dbbbe3e57cef9429b-with-play.gif"> </a>
+* This can work the same way that the "Lookup Note" command does in your editor. The bar will display the name of the current note, and you can use the bar to look up other notes.
+* You can search through the titles and contents of your notes, if not using it like "Lookup Note", by using `?` as a prefix. Example: `? Onboarding`
 
-## Search
+![Lookup and search in combined search bar demo](https://org-dendron-public-assets.s3.amazonaws.com/images/publishing-combined-search-bar.gif)
 
-Next Generation Publishing comes with a text search bar. This will allow you to
-search through the titles and contents of your notes.
+## Table of Contents
 
-<a href="https://www.loom.com/share/14945f33dc87494da4c0f4065dc53f7f"><img src="https://cdn.loom.com/sessions/thumbnails/14945f33dc87494da4c0f4065dc53f7f-with-play.gif"> </a>
+Next Generation Publishing includes a _table of contents_ (TOC) in the left-hand nav, as a tree of the site. On the right-hand side, a TOC is generated for the current page.
+
+![Right-hanv navigation table of contents demo](https://org-dendron-public-assets.s3.amazonaws.com/images/publishing-local-toc-right-nav.gif)
