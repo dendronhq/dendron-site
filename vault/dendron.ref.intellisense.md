@@ -40,4 +40,4 @@ You can also get all blocks within the current file by typing `[[^`. This includ
 
 ## Details
 
-- in [[dendron.topic.vaults.multi-vault]] workspaces, completions will be sorted by vault names
+- in [[dendron.topic.multi-vault]] workspaces, completions will be sorted by vault names

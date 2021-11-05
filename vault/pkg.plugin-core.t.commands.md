@@ -2,7 +2,7 @@
 id: iplO7IwCeT6qN6DxgTmP5
 title: Commands
 desc: ''
-updated: 1630425872219
+updated: 1635785770854
 created: 1630020205246
 ---
 
@@ -155,3 +155,5 @@ Related:
 - triggerUpdateDecorations
 
 
+## Changelog 
+- [chore: preview command enablement by hikchoi · Pull Request #1619 · dendronhq/dendron](https://github.com/dendronhq/dendron/pull/1619)

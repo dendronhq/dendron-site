@@ -2,7 +2,7 @@
 id: DxucQoYEzu9VnBoYuFiqN
 title: Map
 desc: ''
-updated: 1634749708487
+updated: 1635705931991
 created: 1634749668693
 ---
 
@@ -24,6 +24,8 @@ The following is the module schema which we use to organize code at Dendron.
       desc: regular development process
         - title: troubleshooting
           pattern: trouble
+        - pattern: build
+          desc: "special instructions for building"
     - title: qa
       desc: quality assurance
       children:

@@ -2,7 +2,7 @@
 id: 8d09cc3f-25e3-42a2-ac86-82806c0c8c65
 title: Startup
 desc: ''
-updated: 1632333784243
+updated: 1635430454511
 created: 1610160007286
 ---
 
@@ -12,7 +12,9 @@ created: 1610160007286
     - workspace can be a code workspace (a .code-workspace file) or a native workspace (folder with dendron.yml)
 - depending on what sort of workspace we're in, Dendron will instantiate either a Dendron[Native|Code]Workspace
     - if multiple folders have `dendron.yml`, dendron will resolve to the first one found. logic [here](https://github.com/dendronhq/dendron/blob/6035eed562eb3eb38de50722b1185927eb54a7c8/packages/plugin-core/src/_extension.ts#L264-L264)
-- start engine (local server that does indexing)
+- start engine server (local server that does indexing)
+    - the engine server is spawned in a separate process
+    - NOTE: if in DEV mode (when launching plugin using vscode build task), we do not spawn a separate process
 - reload workspace (connect to the local server)
 - activate file watchers 
 

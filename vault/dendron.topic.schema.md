@@ -2,7 +2,7 @@
 id: c5e5adde-5459-409b-b34d-a0d75cbb1052
 title: Schemas
 desc: ''
-updated: 1635140465298
+updated: 1635531195248
 created: 1595952505039
 stub: false
 ---
@@ -265,7 +265,7 @@ Schema templates let you designate a note as a **template**. Newly created notes
 
 This is extremely useful whenever you want to re-use the outline of a note. Examples include daily journals, weekly shopping lists, and weekly reviews.  
 
-- NOTE: you'll need to run `Reload Workspace` for any new templates to take effect
+- NOTE: you'll need to run `Reload Workspace` for any schemas that were deleted within a schema.yml file (without deleting the schema file itself).
 
 <a href="https://www.loom.com/share/481b7ab051394c1caa383383bd265755"> 
 <img style="" src="https://cdn.loom.com/sessions/thumbnails/481b7ab051394c1caa383383bd265755-with-play.gif"> 
@@ -285,7 +285,7 @@ Schemas can be modified, created and deleted using the same lookup interface tha
 
 ## Example Schemas
 <!-- - [Project and Journal](https://gist.github.com/kevinslin/5ca7a6f25a239add5ea374f329e6a19e) -->
-- Example schemas can be found [here](https://github.com/kevinslin/schemas.git)
+- Example schemas can be found [here](https://github.com/dendronhq/schema-library/tree/main/vault)
 - You can copy and paste the individual schema files or add it as a [[remote Vault|dendron.topic.vaults#remote]] and keep up to date on changes
 - Its pretty bare right now but plan on adding a lot more here over time. contributions most welcome :)
 

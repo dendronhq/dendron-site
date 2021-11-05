@@ -29,7 +29,7 @@ Dendron has a series of built-in commands. They are all prefixed with `Dendron:`
 This makes sure your workspace is up to date. It will execute the following actions:
 
 - add ids and titles to the frontmatter of all notes that are missing it
-- setup a `docs` folder if it doesn't exist. Required if you want to [[publish|dendron.topic.publishing]] your notes
+- setup a `docs` folder if it doesn't exist. Required if you want to [[publish|dendron.topic.publish]] your notes
 
 <a href="https://www.loom.com/share/bd045f708f8e474193de8e3de0dc820f"> 
 <img style="" src="https://cdn.loom.com/sessions/thumbnails/bd045f708f8e474193de8e3de0dc820f-with-play.gif"> 

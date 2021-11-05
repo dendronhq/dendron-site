@@ -72,7 +72,7 @@ Set start of week (eg. `0` for sunday, `1` for monday, `2` for tuesday, etc.)  f
 
 ### Preview
 
-![[dendron://dendron.dendron-site/dendron.topic.preview-v2#summary,1]]
+![[dendron://dendron.dendron-site/dendron.topic.preview#summary,1]]
 
 #### Methods
 

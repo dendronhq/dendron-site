@@ -60,7 +60,7 @@ As part of getting out of preview, we are launching on [Product Hunt](https://ww
 ### House Keeping
 
 - `dendron.noServerMode` setting has been removed
-- Dendron docs has been re-organized to be less overwhelming (if you have any links bookmarked, they will still all work because of Dendron's [[permanent links|dendron.topic.publishing#permanent-ids]]
+- Dendron docs has been re-organized to be less overwhelming (if you have any links bookmarked, they will still all work because of Dendron's [[permanent links|dendron.topic.publish#permanent-ids]]
 
 ### Upcoming
 

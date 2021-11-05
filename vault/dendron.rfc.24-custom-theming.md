@@ -102,7 +102,7 @@ By default, we will switch to the default light theme of these respective compon
 All discussions for this RFC can be directed to this [github discussion](https://github.com/dendronhq/dendron/discussions/1298)
 
 ## Lookup
-[^1]: [[Preview V2|dendron.topic.preview-v2]]
+[^1]: [[Preview|dendron.topic.preview]]
 [^2]: [[NextJS Template|pkg.nextjs-template]]
 [^3]: [[Add Ability to Generate Themes|scratch.2021.05.18.145329.add-ability-to-generate-themes]]
 [^preview-theme]: [[Theming|pkg.dendron-next-server.t.theme#theming]]

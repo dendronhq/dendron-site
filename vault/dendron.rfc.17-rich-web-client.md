@@ -15,7 +15,7 @@ Dendron is mainly used inside VSCode or a VSCode compatible editor today. A lot 
 
 ## Proposal
 
-Encapsulate the core Dendron experience in a react/nextjs web application. This is currently what we're doing for building out [[Preview V2|dendron.topic.preview-v2]]. We will continue to build on this base and add the ability to both read and write notes using the web client.
+Encapsulate the core Dendron experience in a react/nextjs web application. This is currently what we're doing for building out [[Preview|dendron.topic.preview]]. We will continue to build on this base and add the ability to both read and write notes using the web client.
 
 Since Dendron currently publishes notes as static HTML, this will continue to be the case when we release our rich web client. We will provide users with an option of enhanced publishing which will bundle them as a NextJs WebApp that can be self hosted or hosted by Dendron.
 

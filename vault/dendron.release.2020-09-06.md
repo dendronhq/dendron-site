@@ -8,7 +8,7 @@ date: '2020-09-06'
 ---
 Dendron turns 0.10 today 🌲. To mark this milestone, the pre-amble for this release will be a tad longer (and more sentimental) than usual. 
 
-This week's release focuses on publication and exports. Dendron sites now come with [[one click collaboration support|dendron.topic.publishing.features#edit-on-github]], [[note references|dendron.topic.publishing.features#note-references]], and [[hierarchy hints|dendron.topic.publishing.features#nav-based-hierarchy-hints]]. If publishing online isn't your jam, you'll be happy to know that you can now [export your notes](https://www.dendron.so/notes/66727a39-d0a7-449b-a10d-f6c438185d7f.html#json-pod) to any format you desire (as long as that format is JSON 😅 - more formats coming soon).
+This week's release focuses on publication and exports. Dendron sites now come with [[one click collaboration support|dendron.topic.publish-legacy.features#edit-on-github]], [[note references|dendron.topic.publish-legacy.features#note-references]], and [[hierarchy hints|dendron.topic.publish-legacy.features#nav-based-hierarchy-hints]]. If publishing online isn't your jam, you'll be happy to know that you can now [export your notes](https://www.dendron.so/notes/66727a39-d0a7-449b-a10d-f6c438185d7f.html#json-pod) to any format you desire (as long as that format is JSON 😅 - more formats coming soon).
 
 It's now been almost two months since Dendron first went into preview. Since launch, we've passed over a thousand downloads and closed over [100 issues](https://github.com/dendronhq/dendron/issues?q=is%3Aissue+is%3Aclosed) worth of features, enhancements, and bug fixes. 
 
@@ -56,7 +56,7 @@ A note reference offset is a way to skip a number of lines when using a note ref
 
 ## Pods
 
-### Support note references when Publishing Notes ([[docs|dendron.topic.publishing]])
+### Support note references when Publishing Notes ([[docs|dendron.topic.publish]])
 
 Dendron has [[note references|dendron.topic.references]] that let you inline either the whole note or parts of a note into another note. Publishing via Dendron will also publish note references as part of the process.
 
@@ -78,13 +78,13 @@ Export your Dendron notes to a JSON file
 
 ## Publishing
 
-### Nav Based Hierarchy Hints ([[docs|dendron.topic.publishing]])
+### Nav Based Hierarchy Hints ([[docs|dendron.topic.publish]])
 
 You can see at a glance which notes have children and explore them from the nav without refreshing the page.
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/dendron.jekyll.gif)
 
-### Edit on Github ([[docs|dendron.topic.publishing]])
+### Edit on Github ([[docs|dendron.topic.publish]])
 
 Every page can accept one-click contributions as long as the contributor has a GitHub account.
 

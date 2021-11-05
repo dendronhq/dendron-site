@@ -42,7 +42,7 @@ Follow the instructions of [[converting a local vault to a remote vault|dendron.
   - for company material that you plan on publishing publically
 
 ## Schemas
-- NOTE: you can get a copy of these schemas by adding this [vault](https://github.com/kevinslin/schemas)
+- NOTE: you can get a copy of these schemas by adding this [vault](https://github.com/dendronhq/schema-library/tree/main/vault)
 <!-- -->
 - company.yml
   - this reflects your company hierarchy
