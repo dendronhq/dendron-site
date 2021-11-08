@@ -2,7 +2,7 @@
 id: Y0cZsmfUdytwajRGeylMZ
 title: CLI
 desc: ''
-updated: 1634854280027
+updated: 1636323460571
 created: 1631473249667
 ---
 
@@ -50,6 +50,12 @@ Update json schema for `dendron.yml`
 ### build
 
 Build vsix for a given upgradeType [^upgrade]
+
+Options:
+- --fast: when building fast mode, the following is skipped:
+  - initial type checking
+  - restoring `package.json` and `plugin-core` to original state
+  - do not upload source map to sentry
 
 ### bump_version
 

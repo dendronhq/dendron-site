@@ -2,13 +2,20 @@
 id: fqVcwvX5aNSdr7De
 title: Arch
 desc: ''
-updated: 1630969114497
+updated: 1636311822114
 created: 1626915617598
 ---
 
 ## Static Files
 
 Dendron can fetch static files at custom locations using the [AssetsController](https://github.com/dendronhq/dendron/blob/fe83a99d11feffb0c588a5ae3b23b73b6283c851/packages/api-server/src/modules/assets.ts#L17-L17).
+
+Development: 
+- loc: src/Server.ts
+- static files:
+    - `__dirname/"static"`
+    - `dendron-next-server/out/` (if in `dev`) #deprecated - moving views to [[pkg.dendron-plugin-views]]
+    - `nextStaticRoot` (if `nextStaticRoot` is set)
 
 ### Themes
 - API: [assetGetTheme](https://github.com/dendronhq/dendron/blob/16b0e5c59e3ee11530199b5c9a11a58f05e14a93/packages/common-all/src/api.ts#L335-L335)

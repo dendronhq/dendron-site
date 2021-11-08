@@ -37,3 +37,4 @@ pods/dendron.nextjs/config.export.yml
 .dendron.cache*
 .next
 pods
+.history

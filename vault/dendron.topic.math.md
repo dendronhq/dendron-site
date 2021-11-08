@@ -13,7 +13,6 @@ Dendron uses [Katex](https://katex.org/) to render math.
 ## Examples
 
 ### Inline
-
 ```
 $f(x) = sin(x)$
 ```

@@ -2,7 +2,7 @@
 id: 64f0e2d5-2c83-43df-9144-40f2c68935aa
 title: Dendron Plugin Quickstart
 desc: ''
-updated: 1635709111886
+updated: 1636216016627
 created: 1598651458825
 ---
 
@@ -54,8 +54,16 @@ _Note: Running via Run -> Start Debugging will not work unless you've previously
 
 _Note: To have the changes reflected as you edit the code you need to run the `./bootstrap/scripts/watch.sh` and restart the `Extension: Local (plugin-core)`)_
 
+## Troubleshooting
+
+### Changes aren't showing up
+1. Typescript is a compiled language. Make sure that your code is being compiled. Make sure the following is on:
+```sh
+  # watch all dependencies
+  ./bootstrap/scripts/watch.sh
+
+```
+
 ## Related
 - [[List of other Dendron Packages|dendron://dendron.dendron-site/pkg]]
 - [[Detailed Developer Docs|dendron://dendron.dendron-site/pkg.plugin-core.dev]]
-
-
