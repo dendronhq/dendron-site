@@ -1,8 +1,8 @@
 ---
 id: 587e6d62-3c5b-49b0-aedc-02f62f0448e6
 title: Graph View
-desc: ""
-updated: 1628800410461
+desc: ''
+updated: 1636354995456
 created: 1595120707814
 stub: false
 ---
@@ -21,31 +21,31 @@ stub: false
 
 #### Full Note Graph
 
-Show graph of all your notes. You can activate this by using the [[Show Note Graph Command|dendron.topic.graph-view#show-note-graph-v2]] command and toggling the [[Show Note Graph|dendron.topic.graph-view#^Ev8p1L5P0IzDGjAs]] option.
+Show graph of all your notes. You can activate this by using the [[Show Note Graph Command|dendron.topic.graph-view#show-note-graph]] command and toggling the [[Show Note Graph|dendron.topic.graph-view#^Ev8p1L5P0IzDGjAs]] option.
 
 <!-- TODO: pic -->
 
 #### Local Note Graph
 
-Shows a graph of your current note and immediate neighbors. This is the default view when you run [[Show Note Graph|dendron.topic.graph-view#show-note-graph-v2]].
+Shows a graph of your current note and immediate neighbors. This is the default view when you run [[Show Note Graph|dendron.topic.graph-view#show-note-graph]].
 
 <!-- TODO: pic -->
 
 ### Schema Graph
 
-Show graph of your schemas. You can activate by running the [[Show Schema Graph|dendron.topic.graph-view#show-schema-graph-v2]] command.
+Show graph of your schemas. You can activate by running the [[Show Schema Graph|dendron.topic.graph-view#show-schema-graph]] command.
 
 ## Commands
 
-### Show Note Graph V2
+### Show Note Graph
 
-Launch the command palette (see [[docs|dendron.guides.cook#launch-the-command-palette]]): `> Dendron: Show Note Graph V2`
+Launch the command palette (see [[docs|dendron.guides.cook#launch-the-command-palette]]): `> Dendron: Show Note Graph`
 
 Click on a node to open up the corresponding note in your workspace, or open a note to center the graph on that note.
 
 Use the filter view in the top left to filter and modify the data shown by the graph.
 
-### Show Schema Graph V2
+### Show Schema Graph
 
 Launch the command palette (see [[docs|dendron.guides.cook#launch-the-command-palette]]): `> Dendron: Show Schema Graph V2`
 
