@@ -50,9 +50,9 @@ See [[Registry|dendron.rfc.14-seed-bank.registry]] for more information
 
 ### Client
 
-Registry client methods will be added to the [[dendron CLI|dendron.topic.cli]] under the `registry` namespace, or `reg` for short. 
+Registry client methods will be added to the [[dendron CLI|dendron.ref.cli]] under the `registry` namespace, or `reg` for short. 
 
-We will also add additional methods to the [[workspace command|dendron.topic.cli#workspace-command]] to be able to intiialize a workspace from an existing seed.
+We will also add additional methods to the [[workspace command|dendron.ref.cli#workspace-command]] to be able to intiialize a workspace from an existing seed.
 
 See [[methods|dendron.rfc.14-seed-bank.methods]] for the list of supported methods
 

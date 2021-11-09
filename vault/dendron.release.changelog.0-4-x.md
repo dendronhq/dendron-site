@@ -56,7 +56,7 @@ created: 1629505311218
 
 ### Features
 
-- native dendron preview ([[docs|dendron.ref.web-ui#preview]])
+- native dendron preview ([[docs|dendron._ref.web-ui#preview]])
 - updated onboarding experience ([[docs|dendron.topic.commands#launch-tutorial]])
 
 ### Enhancements
@@ -138,7 +138,7 @@ created: 1629505311218
 
 #### Calendar View
 
-![[dendron://dendron.dendron-site/dendron.ref.web-ui#calendar-view,1:#*]]
+![[dendron://dendron.dendron-site/dendron._ref.web-ui#calendar-view,1:#*]]
 
 #### Airtable Pod
 
@@ -253,7 +253,7 @@ created: 1629505311218
 -   improved startup speed
 -   block references fully supported in publishing and preview
     @hikchoi
--   toggle scope when running the doctor command ([[plugin docs|dendron.topic.commands#doctor]]) ([[cli docs|dendron.topic.cli#doctor]])
+-   toggle scope when running the doctor command ([[plugin docs|dendron.topic.commands#doctor]]) ([[cli docs|dendron.ref.cli#doctor]])
 
 ### Bug Fixes
 
@@ -328,7 +328,7 @@ created: 1629505311218
 
 #### Dendron Web UI with a new Tree View
 
-![[dendron://dendron.dendron-site/dendron.ref.web-ui#summary,1:#*]]
+![[dendron://dendron.dendron-site/dendron._ref.web-ui#summary,1:#*]]
 
 #### Block References
 

@@ -14,7 +14,7 @@ In this module, we'll go over how to create a custom pod. You can clone the end 
 ## Pre-requisites
 
 - Install dendron-cli
-  ![[dendron.topic.cli#installation,1:#*]]
+  ![[dendron.ref.cli#installation,1:#*]]
 - [[Install Dendron|dendron._ref.install]]
 
 ## Tutorial

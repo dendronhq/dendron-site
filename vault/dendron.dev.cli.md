@@ -6,7 +6,7 @@ updated: 1636323460571
 created: 1631473249667
 ---
 
-Dendron has a [[CLI|dendron.topic.cli]] command to help with development.
+Dendron has a [[CLI|dendron.ref.cli]] command to help with development.
 
 ```sh
 dendron dev <cmd>

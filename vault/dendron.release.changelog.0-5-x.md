@@ -259,7 +259,7 @@ You can find a reference to all the available lookup modifiers [[here|dendron.to
 ### Features
 
 #### General Release of the Calendar Widget
-The [[Calendar View|dendron.ref.web-ui#calendar-view]] is no longer hidden behind a feature flag and is now ready for general usage.
+The [[Calendar View|dendron._ref.web-ui#calendar-view]] is no longer hidden behind a feature flag and is now ready for general usage.
 
 #### Validation and autocomplete for dendron.yml
 ![[dendron.topic.config.dendron#validation-and-autocomplete,1:#*]]

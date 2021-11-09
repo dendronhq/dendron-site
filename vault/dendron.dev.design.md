@@ -14,9 +14,9 @@ Below is an example of the initialization process
 
 ![[dendron://dendron.dendron-site/pkg.dendron-engine.arch#initialization,1:#*]]
 
-Dendron has a [[CLI|dendron.topic.cli]] that executes the above workflow as well, except replace `plugin` with `cli`. The difference is that the CLI will tear down the server and engine after the command has completed whereas for the plugin, the server and engine run as long as the workspace is active.
+Dendron has a [[CLI|dendron.ref.cli]] that executes the above workflow as well, except replace `plugin` with `cli`. The difference is that the CLI will tear down the server and engine after the command has completed whereas for the plugin, the server and engine run as long as the workspace is active.
 
-Note that you can run just the server by itself using the [[launchEngineServer|dendron.topic.cli#launchengineserver]] command.
+Note that you can run just the server by itself using the [[launchEngineServer|dendron.ref.cli#launchengineserver]] command.
 
 ## Concepts
 

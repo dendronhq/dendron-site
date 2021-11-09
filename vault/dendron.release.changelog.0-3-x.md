@@ -32,7 +32,7 @@ Even if your workspace is +10k notes, initialization of said workspace should ha
 ### Enhancements
 
 -   progress indicator when adding a remote vault
--   init engine from cli ([[docs|dendron.topic.cli#launchengineserver]])
+-   init engine from cli ([[docs|dendron.ref.cli#launchengineserver]])
 -   add html pod ([[docs|dendron.topic.pod.builtin.html#publish]])
 -   [[move note|dendron.topic.commands#move-note]] now shows completions via lookup
 -   [[rename note|dendron.topic.commands#rename-note]] now shows completions via lookup
@@ -106,7 +106,7 @@ You can see the full list of information we collect and why we do it in our [[te
 
 #### CLI for Workspace Commands
 
-![[dendron.topic.cli#workspace-command,1:#*]]
+![[dendron.ref.cli#workspace-command,1:#*]]
 
 #### Insert Note Command
 
@@ -126,7 +126,7 @@ You can see the full list of information we collect and why we do it in our [[te
 
 #### CLI for Working with Vaults
 
-![[dendron.topic.cli#vault-commands,1:#*]]
+![[dendron.ref.cli#vault-commands,1:#*]]
 
 ### Enhancements
 
@@ -138,7 +138,7 @@ You can see the full list of information we collect and why we do it in our [[te
 
 #### CLI for Working with Notes
 
-![[dendron.topic.cli#note-commands,1:#*]]
+![[dendron.ref.cli#note-commands,1:#*]]
 
 ### Enhancements
 

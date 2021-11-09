@@ -134,7 +134,7 @@ For commands that utilze the core lookup module, we additionally collect the sta
 
 ### CLI commands
 
-We collect an invocation metric when a [[CLI|dendron.topic.cli]] command is invoked. This is to measure command latency. We also collect command arguments that do not contain user-identifying information to analyze usage frequency of a particular command argument
+We collect an invocation metric when a [[CLI|dendron.ref.cli]] command is invoked. This is to measure command latency. We also collect command arguments that do not contain user-identifying information to analyze usage frequency of a particular command argument
 
 | Field      | Attributes | Description                                                                     |
 | ---------: | :--------: | ------------------------------------------------------------------------------- |
@@ -180,7 +180,7 @@ Whenever a crash happens or an unexpected error, we collect information surround
 These are groupings of other metrics we collect. We collect them to gather performance impact and improvements across various features.
 
 Events
-- TreeView Ready: measures when the web ui based [[TreeView|dendron.ref.web-ui#treeview]] is finished loading
+- TreeView Ready: measures when the web ui based [[TreeView|dendron._ref.web-ui#treeview]] is finished loading
 
 | Field      | Attributes | Description                                           |
 | ---------: | :--------: | ----------------------------------------------------- |

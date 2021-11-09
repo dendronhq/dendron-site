@@ -101,7 +101,7 @@ Used to add a logo image to site. Logo will appear in:
 
 - default: 8080
 
-Set a different port when using the [[buildSite|dendron.topic.cli#buildsite]] command.
+Set a different port when using the [[buildSite|dendron.ref.cli#buildsite]] command.
 
 ### siteFaviconPath 
 

@@ -31,7 +31,7 @@ Dendron publishing has gone through a bunch of iteration. We started using a for
 
 ### 1. Replace 11ty with NextJS. 
 
-This will make it significantly easier for us to ship new features and maintain our existing feature set. We can re-use the code behind Dendron's [[web ui|dendron.ref.web-ui]] and have a common code base for Dendron across multiple clients. NextJS comes with excellent typescript support and their focus on performance and developer UX are aligned with our own goals as well. 
+This will make it significantly easier for us to ship new features and maintain our existing feature set. We can re-use the code behind Dendron's [[web ui|dendron._ref.web-ui]] and have a common code base for Dendron across multiple clients. NextJS comes with excellent typescript support and their focus on performance and developer UX are aligned with our own goals as well. 
 
 ### 2. Release Dendron's Web Frontend as a vanilla NextJS Template 
 

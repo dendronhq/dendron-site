@@ -9,7 +9,7 @@ created: 1632844602730
 Dendron 0.61 has sprouted  🌱
 
 ### Highlights
-- feat(cli): initialize workspace from CLI ([[docs|dendron://dendron.dendron-site/dendron.topic.cli#init]])
+- feat(cli): initialize workspace from CLI ([[docs|dendron://dendron.dendron-site/dendron.ref.cli#init]])
 - feat(pods): Notion Export Pod ([[docs|dendron://dendron.dendron-site/dendron.topic.pod.builtin.notion]])
 - feat(workspace): Add Contextual UI options for Add/Remove Vaults, Rename/Delete/Move Note, and Rename Header ([[docs|dendron://dendron.dendron-site/dendron.topic.workbench#contextual-ui]])
 - feat(publish): better mobile navigation for nextjs template 

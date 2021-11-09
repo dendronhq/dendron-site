@@ -13,7 +13,7 @@ You can publish your notes using Dendron Next Publishing and Github pages
 ### Pre-requisites 
 - This assumes you have a github repository. 
     - If not, you can create one [here](https://github.com/new) from your existing workspace
-- You have [[Dendron CLI|dendron.topic.cli]] installed (version 0.62.3 or greater)
+- You have [[Dendron CLI|dendron.ref.cli]] installed (version 0.62.3 or greater)
 - You have [[yarn|dendron.dev.cook.basics#install-yarn]] installed
 
 ### Example Deployments

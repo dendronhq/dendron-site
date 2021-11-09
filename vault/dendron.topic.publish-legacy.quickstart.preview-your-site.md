@@ -10,7 +10,7 @@ nav_order: 1
 
 ## CLI
 
-The following describes how to prepare your notes for publication using [[Dendron CLI|dendron.topic.cli]].
+The following describes how to prepare your notes for publication using [[Dendron CLI|dendron.ref.cli]].
 
 ### Pre-requisites
 

@@ -42,7 +42,7 @@ You can add seeds within the UI of the `Seed Browse` command but also directly b
 
 Make sure you have the dendron-cli installed.
 
-![[dendron.topic.cli#installation,1:#*]]
+![[dendron.ref.cli#installation,1:#*]]
 
 #### Instructions
 

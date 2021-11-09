@@ -13,7 +13,7 @@ This guide walks you through publishing with NextJS.
 - NOTE: if you are migrating from 11ty publishing, please read the [[migration guide|dendron://dendron.dendron-site/dendron.topic.publish.migration]] for changes.
 
 ## Prerequisites
-1. Install latest version of the [[dendron cli|dendron.topic.cli#installation]]
+1. Install latest version of the [[dendron cli|dendron.ref.cli#installation]]
 1. Install yarn (optional)
 ![[dendron.dev.setup.common#install-yarn,1:#*]]
 

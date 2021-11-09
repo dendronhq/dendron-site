@@ -30,7 +30,7 @@ These release notes are summary of the more notable changes, for the full list, 
 
 Dendron now has a its own CLI that you can run standalone from the Dendron plugin.
 
-![[dendron.topic.cli#Summary:#*]]
+![[dendron.ref.cli#Summary:#*]]
 
 ### Enhancements
 

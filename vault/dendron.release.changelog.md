@@ -142,7 +142,7 @@ dendron dev run_migration --migrationVersion 0.64.1
 ```
 
 ### Enhancements
-- enhance(cli): support output option when using `dendron note lookup` ([[docs|dendron://dendron.dendron-site/dendron.topic.cli.notes#lookup]]) (#1526) @kevin
+- enhance(cli): support output option when using `dendron note lookup` ([[docs|dendron://dendron.dendron-site/dendron.ref.cli.notes#lookup]]) (#1526) @kevin
 - enhance(commands): update default aliases when note is updated (#1557) @kaan
 - enhance(cli): add run migration command in cli ([[docs|dendron.dev.cli#run_migration]]) (#1560) @hikchoi
 
@@ -265,7 +265,7 @@ dendron dev run_migration --migrationVersion 0.64.1
 ## 0.60.2
 
 ### Features
-- feat(cli): initialize workspace from CLI @kevin ([[docs|dendron://dendron.dendron-site/dendron.topic.cli#init]])
+- feat(cli): initialize workspace from CLI @kevin ([[docs|dendron://dendron.dendron-site/dendron.ref.cli#init]])
 - feat(pods): Notion Export Pod (#1332) @joshi ([[docs|dendron://dendron.dendron-site/dendron.topic.pod.builtin.notion]])
 - feat(publish): add popover for long title in menu (#1408) @viztor
 - feat(publish): better mobile navigation (#1407) @viztor

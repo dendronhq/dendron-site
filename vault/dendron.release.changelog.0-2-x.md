@@ -101,7 +101,7 @@ yarn bootstrap:build
 
 ### Enhancements
 
--   add path customization to build-site ([[docs|dendron.topic.cli#buildsitev2]])
+-   add path customization to build-site ([[docs|dendron.ref.cli#buildsitev2]])
 -   Add default description option to dendron config ([[docs|dendron.topic.publish-legacy.configuration#description]])
 -   add config to publish multi-vault when adding vault ([[docs|dendron.topic.publish-legacy.configuration#duplicatenotebehavior-optional]])
 
@@ -299,7 +299,7 @@ You can now both build your notes for publication and preview it from inside vsc
 
 -   [[Collections|dendron.topic.publish-legacy.collections]] support for 11ty
     -   publish blog like archives using Dendron
--   CLI Based Doctor ([[docs|dendron.topic.cli#doctor]])
+-   CLI Based Doctor ([[docs|dendron.ref.cli#doctor]])
     -   run various tests to make your notes are healthy for the new year
 -   use frontmatter as title when publishing and in the preview ([[docs|dendron.topic.config.dendron#usefmtitle]])
 
@@ -310,7 +310,7 @@ You can now both build your notes for publication and preview it from inside vsc
 -   add anchor links to headers
 -   use note title for page title
 -   support [[nav_exclude|dendron.topic.publish-legacy.configuration#nav_exclude]] option
--   support overriding [[output|dendron.topic.cli#buildsitev2]] in `buildSiteV2` command
+-   support overriding [[output|dendron.ref.cli#buildsitev2]] in `buildSiteV2` command
 -   don't throw error if no syntax highlighter available for code block
 
 ### Bug Fixes
@@ -322,7 +322,7 @@ You can now both build your notes for publication and preview it from inside vsc
 
 ### Enhancements
 
--   build-site command can connect to current running workspace ([[docs|dendron.topic.cli#connect-to-open-workspace]])
+-   build-site command can connect to current running workspace ([[docs|dendron.ref.cli#connect-to-open-workspace]])
 -   support inline math when publishing
 -   support block math when publishing
 -   support rendering gfm inside note reference when publishing
@@ -366,7 +366,7 @@ You can now both build your notes for publication and preview it from inside vsc
 
 ### Enhancements
 
--   creating engine via cli also initializes meta files ([d72f097](https://github.com/dendronhq/dendron/commit/d72f097e63d1fda065ac7ad50f85bebe99d6da66))([[docs|dendron.topic.cli#launchengineserver]])
+-   creating engine via cli also initializes meta files ([d72f097](https://github.com/dendronhq/dendron/commit/d72f097e63d1fda065ac7ad50f85bebe99d6da66))([[docs|dendron.ref.cli#launchengineserver]])
 -   remove github light theme from dendron bundle ([33d5708](https://github.com/dendronhq/dendron/commit/33d57086510cdaefbb8af8f72c945d6f5e02be5c))
 -   support [[note refs for multi-vault|dendron.topic.multi-vault#note-references]]
 -   support relative links in dendron preview ([[docs|dendron.topic.links#wiki-links]])
@@ -392,7 +392,7 @@ Besides for schemas, publishing has consistently been one of the hardest to use 
 
 To address this, we've migrated our publishing stack to [11ty](https://www.11ty.dev/), a super fast javascript based static generator. This means much faster, and perhaps more importantly, easier publishing.
 
-There's still some work left to integrate publishing into the Dendron plugin - meanwhile, you can take the new publishing workflow for a spin using the [[dendron cli|dendron.topic.cli]]
+There's still some work left to integrate publishing into the Dendron plugin - meanwhile, you can take the new publishing workflow for a spin using the [[dendron cli|dendron.ref.cli]]
 
 In order to to use the 11ty based publishing, initialize your workspace with the following commands.
 

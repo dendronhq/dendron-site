@@ -15,7 +15,7 @@ This is the next generation UI for the Dendron application
 If your working with the Dendron Engine (eg. fetching notes, config or schemas), you'll need to start an instance of the engine.
 
 First, install the Dendron CLI
-![[dendron.topic.cli#installation,1:#*]]
+![[dendron.ref.cli#installation,1:#*]]
 
 For development, you may want to use `npm link` inside `packages/dendron-cli` instead so that the engine has any changes you made.
 

@@ -28,5 +28,5 @@ Dendron markdown links depends on the dendron extension to be active. You can st
    ```
 2. Follow step 2 in the setup instructions above.
 3. Instead of using the plugin to initialize a Dendron workspace, initialize the workspace using the `dendron-cli`
-   ![[dendron.topic.cli#launchengineserver,1:#*]]
+   ![[dendron.ref.cli#launchengineserver,1:#*]]
 

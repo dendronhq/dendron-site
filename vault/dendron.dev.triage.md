@@ -41,7 +41,7 @@ Pod related work
 
 ### views
 
-Specfic work in frontend components like [[Web UI|dendron.ref.web-ui]]
+Specfic work in frontend components like [[Web UI|dendron._ref.web-ui]]
 
 ### preview
 
