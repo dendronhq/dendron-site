@@ -41,7 +41,7 @@ Some popular use cases include:
 - {Your Use Case Here}
 
 ## Getting Started
-![[dendron.guides.install]]
+![[dendron._ref.install]]
 
 ## Onboarding
 
