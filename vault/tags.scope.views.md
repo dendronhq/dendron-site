@@ -6,3 +6,4 @@ updated: 1629779306913
 created: 1629779306913
 ---
 
+Adding a new view

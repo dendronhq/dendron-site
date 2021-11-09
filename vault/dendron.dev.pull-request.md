@@ -28,13 +28,13 @@ We follow [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/)
 
 - scopes ^nb2ZVt8fPCo1
   * [[Workspace|tags.scope.workspace]]
-  * [[Commands|tags.scope.commands]]
+  * #scope.commands
   * [[Dev|tags.scope.dev]]
   * [[Pod|tags.scope.pod]]
   * [[Lookup|tags.scope.lookup]]
   * [[Markdown|tags.scope.markdown]]
-  * [[Publish|tags.scope.publish]]
-  * [[Unique|tags.scope.unique]]
+  * #scope.publish
+  * #scope.unsorted
   * [[Views|tags.scope.views]]
   * [[Doctor|tags.scope.doctor]]
 
