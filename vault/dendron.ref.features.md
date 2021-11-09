@@ -4,6 +4,7 @@ title: Features
 desc: ''
 updated: 1636499311092
 created: 1636499205863
+nav_order: 4.1
 ---
 
 - [[Dendron CLI|dendron://dendron.dendron-site/dendron.ref.cli]]

@@ -4,6 +4,7 @@ title: Telemetry
 desc: ''
 updated: 1636442612590
 created: 1619460500071
+nav_order: 6.1
 ---
 
 ## Overview
