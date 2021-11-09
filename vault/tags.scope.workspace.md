@@ -6,3 +6,6 @@ updated: 1632764333519
 created: 1632764333519
 ---
 
+## Examples
+
+- validating settings on startup

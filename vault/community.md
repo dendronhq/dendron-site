@@ -4,12 +4,10 @@ title: Community
 desc: ''
 updated: 1633455269654
 created: 1604236612582
-stub: true
 nav_order: 1
 ---
 
 Dendron wouldn't be what it is today without our wonderful set of members and supporters.
-
 
 ### Community Calendar
 

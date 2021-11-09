@@ -6,4 +6,4 @@ updated: 1632764264455
 created: 1632764259348
 ---
 
-Improve development process
+Improve development process. Usually used for `chore` like tasks

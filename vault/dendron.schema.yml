@@ -53,6 +53,6 @@ schemas:
     - debug
 - id: setup
 - id: design
-  namepspace: true
+  namespace: true
 - id: testing
 - id: debug
