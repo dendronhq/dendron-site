@@ -2,7 +2,7 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1636480201973
+updated: 1636484334479
 created: 1601508213606
 date: '2022-01-01'
 ---
@@ -11,7 +11,7 @@ date: '2022-01-01'
 
 ### Features
 - feat(schemas): adding new command - create schema from hierarchy ([[docs|dendron.topic.schema.create-from-hierarchy]]) (#1673) @nickolay
-- feat(views): native dendron preview ([[docs|]]) @kevin
+- feat(views): native dendron preview ([[read release notes for info|dendron.release.2021-11-09.md]]) @kevin
 
 ### Enhancements
 * enhance(schemas): adding error messaging and additional validation for when schemas are malformed (#1631) @nickolay
@@ -25,7 +25,7 @@ date: '2022-01-01'
 
 ### Breaking changes
 
-An enhancement in this release delivers breaking changes announced last week: [[Changelog|dendron://dendron.dendron-site/dendron.release.changelog#^kSChN1jT6OMc]]
+An enhancement in this release delivers breaking changes announced last week: [[Changelog|dendron.release.changelog#^kSChN1jT6OMc]]
 
 ### Features
 * feat(publish): add local table of contents, of current note, in right-hand nav ([[docs|dendron.topic.publish.features#table-of-contents]]) (#1428)  @viztor

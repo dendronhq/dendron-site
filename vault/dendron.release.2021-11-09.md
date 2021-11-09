@@ -2,7 +2,7 @@
 id: EjPEcAkZIDgzHaVMk4teA
 title: Release Notes (version 0.68)
 desc: ''
-updated: 1636480628276
+updated: 1636483755615
 created: 1636478484110
 ---
 
@@ -13,14 +13,20 @@ Take a look at the latest [Dendron wiki](https://wiki.dendron.so), and you'll se
 * Local TOC in the right-hand nav for each page in the published docs
 * Newly combined search bar that can go directly to a note, or search note contents using the `?` prefix
 
-Also: an enhancement in this release delivers breaking changes announced last week, due to some renaming of commands, which can be referenced in the changelog.
+`Dendron: Show Preview` used to be rendered over an iframe. This added some extra latency when rendering the preview and also made features like copy/paste unstable. This change migrates the iframe based preview to be a native webview. It brings the following changes:
+
+* Faster webview performance
+* Clipboard support (copy and paste works)!
+* Live color theme updates (vs reloading your window for changes to take effect)
+* Bundle native preview with webpack
+* Build native preview on `yarn setup`
+* Cleanup of assets 
 
 ### Highlights
-* feat(schemas): adding new command - create schema from hierarchy
+* feat(schemas): adding new command - create schema from hierarchy ([[docs|dendron.topic.schema.create-from-hierarchy]])
 * feat(views): native dendron preview
-* feat(publish): add local table of contents, of current note, in right-hand nav
-* feat(publish): merge lookup and search fields
-* enhance(publish): migrate publish related commands to nextjs
+* feat(publish): add local table of contents, of current note, in right-hand nav ([[docs|dendron.topic.publish.features#table-of-contents]])
+* feat(publish): merge lookup and search fields ([[docs|dendron.topic.publish.features#lookup-and-search]])
 
 ### Everything Else
 * enhance(schemas): adding error messaging and additional validation for when schemas are malformed
@@ -34,20 +40,30 @@ Also: an enhancement in this release delivers breaking changes announced last we
 * fix(server): improving error response on api server
 * fix(workspace): Change Workspace command recognizes native workspaces
 
+#### Breaking Changes
+* enhance(publish): migrate publish related commands to nextjs @hikchoi
+
+Transitioning site build and previewing commands to use nextjs (instead of 11ty), along with the renaming of commands to be more inline with CLI:
+* `Dendron: Site Preview` is renamed to `Dendron: Publish Dev`
+* `Dendron: Site Build` is renamed to `Dendron: Publish Export`
+
 ### Community
 
 #### General Updates
 
-- New Discord channel, `#today-i-learned`, is a great place to share discoveries about Dendron and anything else!
-- Make sure to subscribe to the [weekly newsletter](https://buttondown.email/dendron), which kicked off last week
+- Join the discussion around the [Dendron Site Reorganization](https://github.com/dendronhq/dendron/discussions/1665), where we're refactoring the hierarchies for a better user experience
+- We are making some changes to our [newsletter](https://buttondown.email/dendron) (heads up, we have a newsletter). We are changing it from a monthly (lets be honest, once every few months) newsletter to a weekly one. The newsletter will feature release highlights, community highlights, and more! For more details, see [[community.email-newsletter]].
+- New Discord channel, `#today-i-learned`, is a great place to share discoveries about Dendron and anything else
 
 #### Google Docs Import Pod: Sign up for the beta!
 
-Ongoing development of the [[Google Docs Import Pod|dendron.topic.pod.builtin.google-docs.import]] allows you to import google docs directly into Dendron with a managed OAuth flow. If you would like to beta test this feature, please send us your gmail account (either message us on Discord or mail to support@dendron.so) and we will add it to our beta testing group.
+We're rolling out [[direct integration with google docs|dendron.topic.pod.builtin.google-docs.import]] from inside of dendron. we have used this extensively, internally, and are now looking for external beta testers before rolling it out generally. If interested, please [fill out the survey](https://airtable.com/shrP1yKjIDPFU4wHN) to get access to the beta!
 
 #### Dendron Reading Series
 
-This week's entry in the [[Dendron Reading Series|community.reading-series]]. 
+This week's entry in the [[Dendron Reading Series|community.reading-series]].
+
+![[community.reading-series.journal.2021.11.09]]
 
 #### Thank You's
 
@@ -73,4 +89,4 @@ You can see an overview of all roles [[here|community.roles]]
 	- [Show Preview does not show contents of all children under a scope](https://github.com/dendronhq/dendron/issues/1663)
 
 ### Changelog
-![[dendron.release.changelog#0680,1:#0661]]
+![[dendron.release.changelog#0680,1:#0660]]
