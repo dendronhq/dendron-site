@@ -214,7 +214,7 @@ Here is the list of all available default variables:
 - `{{ fm.VAR_NAME }}`any custom frontmatter variable set by the user.
 
 Note that `fm.created` and `fm.updated` are pre-formatted with the default format option set in your workspace setting.
-(See [[dendron.defaultTimestampDecorationFormat|dendron.topic.config.vscode-config#dendrondefaulttimestampdecorationformat]])
+(See [[dendron.defaultTimestampDecorationFormat|dendron.ref.config.vscode-config#dendrondefaulttimestampdecorationformat]])
 
 Here is an some examples of how you can use variable substitution
 
@@ -282,7 +282,7 @@ graph TD;
     C-->D;
 ```
 
-- NOTE: in order to publish diagrams, you'll need to enable [[mermaid in the config|dendron.topic.config.dendron#mermaid-optional]]
+- NOTE: in order to publish diagrams, you'll need to enable [[mermaid in the config|dendron.ref.config.dendron#mermaid-optional]]
 
 ### Folding
 You can create special folded sections with the below syntax.

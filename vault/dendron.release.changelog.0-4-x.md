@@ -89,7 +89,7 @@ created: 1629505311218
 ### Features
 
 ### Enhancements
-- autofolding frontmatter ([[docs|dendron.topic.config.dendron#autofoldfrontmatter]])
+- autofolding frontmatter ([[docs|dendron.ref.config.dendron#autofoldfrontmatter]])
 - position cursor to end of file when new note created
 - new seo frontmatter options when publishing ([[docs|dendron.topic.publish-legacy.configuration#seo-options]])
 
@@ -122,7 +122,7 @@ created: 1629505311218
 
 ### Enhancements
 
--   support default daily journal vault ([[docs|dendron.topic.config.dendron#dailyvault]])
+-   support default daily journal vault ([[docs|dendron.ref.config.dendron#dailyvault]])
 
 ### Bug Fixes
 
@@ -160,7 +160,7 @@ created: 1629505311218
 ### House Cleaning
 
 -   remove `dendorn markdonw links` and `github theme` as recommended extensions at startup
--   defaultJournal\* commands have been moved to `journal` property in `dendron.yml` ([[docs|dendron.topic.config.dendron#journal]])
+-   defaultJournal\* commands have been moved to `journal` property in `dendron.yml` ([[docs|dendron.ref.config.dendron#journal]])
 
 ## 0.46.1
 

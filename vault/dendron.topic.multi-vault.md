@@ -33,7 +33,7 @@ When creating a note in lookup, Dendron will try to create your note in the corr
 
 #### Prompt for Vault Selection Each Time
 
-![[dendron.topic.config.dendron#lookupconfirmvaultoncreate:#*]]
+![[dendron.ref.config.dendron#lookupconfirmvaultoncreate:#*]]
 
 To enable,  add `lookupConfirmVaultOnCreate: true` in the dendron configuration. Instructions to do so below.
 

@@ -253,4 +253,4 @@ When you [[publish|dendron.topic.publish]] a note with a note reference, Dendron
 
 Toggle the following configuration to turn off this setting.
 
-![[dendron.topic.config.dendron#useprettyrefs:#*]]
+![[dendron.ref.config.dendron#useprettyrefs:#*]]

@@ -142,7 +142,7 @@ You can see the full list of information we collect and why we do it in our [[te
 
 ### Enhancements
 
--   toggle xvault wiki links ([[docs|dendron.topic.config.dendron#noxvaultwikilink]])
+-   toggle xvault wiki links ([[docs|dendron.ref.config.dendron#noxvaultwikilink]])
 -   auto detect workspace root if `--wsRoot` not passed to CLI
 -   add `--quiet` flag to cli
 
@@ -174,7 +174,7 @@ You can see the full list of information we collect and why we do it in our [[te
 
 ![[dendron.topic.commands#goto-note,1:#*]]
 
--   NOTE: this fixes [issue 564](https://github.com/dendronhq/dendron/issues/564) which causes a new note to be created on hover when combined with `noAutoCreateOnDefinition` set to `true`. We introduced [[noAutoCreateOnDefinition|dendron.topic.config.dendron#noautocreateondefinition]] configuration to help folks transition to the new behavior. Auto creating on definition will be deprecated in a future release
+-   NOTE: this fixes [issue 564](https://github.com/dendronhq/dendron/issues/564) which causes a new note to be created on hover when combined with `noAutoCreateOnDefinition` set to `true`. We introduced [[noAutoCreateOnDefinition|dendron.ref.config.dendron#noautocreateondefinition]] configuration to help folks transition to the new behavior. Auto creating on definition will be deprecated in a future release
 
 ### Enhancements
 
@@ -187,7 +187,7 @@ You can see the full list of information we collect and why we do it in our [[te
 
 ### Bug Fixes
 
--   disable auto-creation notes on definition ([[docs|dendron.topic.config.dendron#noautocreateondefinition]])
+-   disable auto-creation notes on definition ([[docs|dendron.ref.config.dendron#noautocreateondefinition]])
 
 ## 0.35.1
 
@@ -199,8 +199,8 @@ You can see the full list of information we collect and why we do it in our [[te
 
 ### Enhancements
 
--   [[useNoteTitleForLink|dendron.topic.config.dendron#usenotetitleforlink]] now true by default
--   control hierarchy display using note frontmatter ([[docs|dendron.topic.config.dendron#hierarchydisplay]])
+-   [[useNoteTitleForLink|dendron.ref.config.dendron#usenotetitleforlink]] now true by default
+-   control hierarchy display using note frontmatter ([[docs|dendron.ref.config.dendron#hierarchydisplay]])
 -   ability to disable appending uuid's to assets when importing markdown ([[docs|dendron.topic.pod.builtin.markdown.import#noadduuid]])
 -   ability to set an index file when importing markdown ([[docs|dendron.topic.pod.builtin.markdown.import#indexname]])
 
@@ -230,9 +230,9 @@ Dendron doctor has been updated with a bunch of new options including the abilit
 
 ### Enhancements
 
--   support hiding hierarchy view on published page ([[docs|dendron.topic.config.dendron#hierarchydisplay]])
+-   support hiding hierarchy view on published page ([[docs|dendron.ref.config.dendron#hierarchydisplay]])
 -   GitPunchcard support multi-vault ([[docs|dendron.topic.pod.builtin#gitpod]])
--   support toggling vault initialization behavior at startup ([[docs|dendron.topic.config.dendron#initializeremotevaults]])
+-   support toggling vault initialization behavior at startup ([[docs|dendron.ref.config.dendron#initializeremotevaults]])
 -   support migrating old note refs to new note refs ([[docs|dendron.topic.commands#actions]])
 
 ### Bug Fixes
@@ -260,10 +260,10 @@ Dendron doctor has been updated with a bunch of new options including the abilit
 ### Enhancements
 
 -   wikilinks to missing vaults will display an error instead of throwing one
--   ability to disable legacy refs ([[docs|dendron.topic.config.dendron#nolegacynoteref]])
+-   ability to disable legacy refs ([[docs|dendron.ref.config.dendron#nolegacynoteref]])
 -   add xkcd to vault presets ([[docs|dendron.topic.multi-vault#preset-remote-vaults]])
 -   5x faster markdown pod import using plugin 🚀 🚀 🚀
--   toggle katex settings from config ([[docs|dendron.topic.config.dendron#usekatex]])
+-   toggle katex settings from config ([[docs|dendron.ref.config.dendron#usekatex]])
 
 ### Bug Fixes
 
@@ -312,9 +312,9 @@ You can now use managed publishing with a password. Note that you'll need [sprou
 
 ### Enhancements
 
--   control display for children links ([[docs|dendron.topic.config.dendron#hiearchydisplaytitle]])
+-   control display for children links ([[docs|dendron.ref.config.dendron#hiearchydisplaytitle]])
 -   [[skipLevels|dendron.topic.publish-legacy.configuration#skiplevels]] also applies to children lins
--   [[useNoteTitleForLink|dendron.topic.config.dendron#usenotetitleforlink]] also applies to note references
+-   [[useNoteTitleForLink|dendron.ref.config.dendron#usenotetitleforlink]] also applies to note references
 -   importing from markdown is now 5x faster 🚀🚀🚀
     -   NOTE: this is only for the CLI
 -   a bunch of new options when importing a pod ([[docs|dendron.topic.pod.import]])
@@ -360,7 +360,7 @@ Dendron now supports custom domain names for [[managed publishing|dendron.topic.
 -   Add paste link command ([[docs|dendron.topic.commands#paste-link]])
 -   don't throw fatal error on bad wikilink
 -   don't throw fatal error if `siteUrl` not set while in `dev`
--   add remark-containers plugin [[docs|dendron.topic.config.dendron#usecontainers]]
+-   add remark-containers plugin [[docs|dendron.ref.config.dendron#usecontainers]]
 
 ### Bug Fixes
 

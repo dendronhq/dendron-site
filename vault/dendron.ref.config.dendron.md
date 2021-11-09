@@ -14,7 +14,7 @@ created: 1619539817122
 
 This file can be accessed using these Commands ![[dendron.topic.commands#Configure-yaml,0,:#workspace-add-and-commit]]
 
-![[dendron.topic.config#legend,0]]
+![[dendron.ref.config#legend]]
 
 
 ## General
@@ -22,7 +22,7 @@ This file can be accessed using these Commands ![[dendron.topic.commands#Configu
 ### defaultInsertHierarchy
 > This setting is scheduled for deprecation 📆
 >
-> Use [[initialValue|dendron.topic.config.dendron.commands#initialvalue]] instead.
+> Use [[initialValue|dendron.ref.config.dendron.commands#initialvalue]] instead.
 
 Execute [[Insert Note|dendron.topic.commands#insert-note]] with the hierarchy prefilled.
 
@@ -41,7 +41,7 @@ Controls the title for [[children links|dendron.topic.links#children-links]] in 
 ### lookupConfirmVaultOnCreate
 > This setting is scheduled for deprecation 📆 
 >
-> Use [[confirmVaultOnCreate|dendron.topic.config.dendron.commands#confirmvaultoncreate]] instead.
+> Use [[confirmVaultOnCreate|dendron.ref.config.dendron.commands#confirmvaultoncreate]] instead.
 
 With this set, you will be prompted to select the vault location each time you create a note when you have multiple vaults in your workspace.
 
@@ -67,7 +67,7 @@ Disable dendron legacy note refs
 ### noTelemetry
 > This setting is scheduled for deprecation 📆
 >
-> Use [[disableTelemetry|dendron.topic.config.dendron.workspace#disabletelemetry]] instead.
+> Use [[disableTelemetry|dendron.ref.config.dendron.workspace#disabletelemetry]] instead.
 
 Disable [[telemetry|dendron.ref.telemetry]]
 
@@ -80,7 +80,7 @@ Disable dendron showing hierarchies on published pages
 ### initializeRemoteVaults
 > This setting is scheduled for deprecation 📆
 >
-> Use [[enableRemoteVaultInit|dendron.topic.config.dendron.workspace#enableremotevaultinit]] instead.
+> Use [[enableRemoteVaultInit|dendron.ref.config.dendron.workspace#enableremotevaultinit]] instead.
 
 - default: true
 
@@ -89,7 +89,7 @@ Determines if dendron pulls in un-initialized [[remote vault|dendron.topic.vault
 ### noAutoCreateOnDefinition 
 > This setting is scheduled for deprecation 📆
 >
-> Use [[enableAutoCreateOnDefinition|dendron.topic.config.dendron.workspace#enableautocreateondefinition]] instead.
+> Use [[enableAutoCreateOnDefinition|dendron.ref.config.dendron.workspace#enableautocreateondefinition]] instead.
 
 - default: true
 
@@ -98,14 +98,14 @@ If a note doesn't exist, don't create it via the `GoToDefinition`
 ### noXVaultWikiLink
 > This setting is scheduled for deprecation 📆
 >
-> Use [[enableXVaultWikiLink|dendron.topic.config.dendron.workspace#enablexvaultwikilink]] instead.
+> Use [[enableXVaultWikiLink|dendron.ref.config.dendron.workspace#enablexvaultwikilink]] instead.
 
 If set, disable [[Cross Vault Links|dendron.topic.links#cross-vault-links]] when using [[Copy Note Link|dendron.topic.commands#copy-note-link]] and [[Insert Note Index|dendron.topic.commands#insert-note-index]].
 
 ### randomNote
 > This setting is scheduled for deprecation 📆 
 >
-> Use [[randomNote|dendron.topic.config.dendron.commands#randomnote]] instead.
+> Use [[randomNote|dendron.ref.config.dendron.commands#randomnote]] instead.
 
 Configures the set of notes to include and exclude when using the [[Random Note|dendron.topic.commands#random-note]] command.
 
@@ -142,14 +142,14 @@ If true, use the note title when displaying naked links. This also applies to no
 ### insertNoteIndex
 > This setting is scheduled for deprecation 📆
 >
-> Use [[insertNoteIndex|dendron.topic.config.dendron.commands#insertnoteindex]] instead.
+> Use [[insertNoteIndex|dendron.ref.config.dendron.commands#insertnoteindex]] instead.
 
 Configures how [[Insert Note Index|dendron.topic.commands#insert-note-index]] works.
 
 #### marker
 > This setting is scheduled for deprecation 📆
 >
-> Use [[enableMarker|dendron.topic.config.dendron.commands#enablemarker]] instead.
+> Use [[enableMarker|dendron.ref.config.dendron.commands#enablemarker]] instead.
 
 - default: false
 
@@ -177,7 +177,7 @@ links.
 ### workspaceVaultSync
 > This setting is scheduled for deprecation 📆
 >
-> Use [[workspaceVaultSyncMode|dendron.topic.config.dendron.workspace#workspacevaultsyncmode]] instead.
+> Use [[workspaceVaultSyncMode|dendron.ref.config.dendron.workspace#workspacevaultsyncmode]] instead.
 
 - default: noCommit
 
@@ -188,7 +188,7 @@ Sets the [[synchronization strategy|dendron.topic.workspace#Workspace: Sync]] fo
 ### autoFoldFrontmatter
 > This setting is scheduled for deprecation 📆
 >
-> Use [[enableAutoFoldFrontmatter|dendron.topic.config.dendron.workspace#enableautofoldfrontmatter]] instead.
+> Use [[enableAutoFoldFrontmatter|dendron.ref.config.dendron.workspace#enableautofoldfrontmatter]] instead.
 
 - default: true
 
@@ -199,7 +199,7 @@ This includes newly created notes, and existing notes that are being opened for 
 ### vaults
 > This setting is scheduled for deprecation 📆 ^iDyNPId9bFGz
 >
-> Use [[vaults|dendron.topic.config.dendron.workspace#vaults]] instead.
+> Use [[vaults|dendron.ref.config.dendron.workspace#vaults]] instead.
 
 Tracks [[vaults|dendron.concepts#vaults]] for the workspace. You shouldn't have to manually edit this value. This is updated automatically when you first initialize a workspace and when you add or remove vaults to your workspace.
 
@@ -210,12 +210,12 @@ See [[Vault Configuration|dendron.topic.vaults#workspace-vault,1:#configuration-
 ## Journal
 > This setting is scheduled for deprecation 📆 ^iDyNPId9bFGz
 >
-> Use [[journal|dendron.topic.config.dendron.workspace#journal]] instead.
+> Use [[journal|dendron.ref.config.dendron.workspace#journal]] instead.
 
 ### dailyDomain
 > This setting is scheduled for deprecation 📆 ^iDyNPId9bFGz
 >
-> Use [[dailyDomain|dendron.topic.config.dendron.workspace#dailydomain]] instead.
+> Use [[dailyDomain|dendron.ref.config.dendron.workspace#dailydomain]] instead.
 
 - type: string
 - default: daily
@@ -225,7 +225,7 @@ domain where daily journals are kept
 ### dailyVault
 > This setting is scheduled for deprecation 📆 ^iDyNPId9bFGz
 >
-> Use [[dailyVault|dendron.topic.config.dendron.workspace#dailyvault]] instead.
+> Use [[dailyVault|dendron.ref.config.dendron.workspace#dailyvault]] instead.
 
 - type: string
 - default: none
@@ -235,7 +235,7 @@ Name of vault where daily journal should be in. If not set, default to current o
 ### name
 > This setting is scheduled for deprecation 📆 ^iDyNPId9bFGz
 >
-> Use [[name|dendron.topic.config.dendron.workspace#name]] instead.
+> Use [[name|dendron.ref.config.dendron.workspace#name]] instead.
 
 - type: string
 - default: journal
@@ -245,7 +245,7 @@ name used for journal notes
 ### dateFormat
 > This setting is scheduled for deprecation 📆 ^iDyNPId9bFGz
 >
-> Use [[dateFormat|dendron.topic.config.dendron.workspace#dateformat]] instead.
+> Use [[dateFormat|dendron.ref.config.dendron.workspace#dateformat]] instead.
 
 - type: string
 - default: y.MM.dd ^dNGnhlJY93Kk
@@ -255,7 +255,7 @@ Date format used for journal notes. Use [luxon style formatting](https://moment.
 ### addBehavior
 > This setting is scheduled for deprecation 📆 ^iDyNPId9bFGz
 >
-> Use [[addBehavior|dendron.topic.config.dendron.workspace#addbehavior]] instead.
+> Use [[addBehavior|dendron.ref.config.dendron.workspace#addbehavior]] instead.
 
 - type: string
 - default: childOfDomain
@@ -267,14 +267,14 @@ strategy for adding new journal notes
 ## Hooks
 > This setting is scheduled for deprecation 📆 ^iDyNPId9bFGz
 >
-> Use [[hooks|dendron.topic.config.dendron.workspace#hooks]] instead.
+> Use [[hooks|dendron.ref.config.dendron.workspace#hooks]] instead.
 
 ![[dendron.topic.hooks.config]]
 
 ## Graph
 > This setting is scheduled for deprecation 📆 ^iDyNPId9bFGz
 >
-> Use [[graph|dendron.topic.config.dendron.workspace#graph]] instead.
+> Use [[graph|dendron.ref.config.dendron.workspace#graph]] instead.
 
 ![[dendron.topic.graph-view#config,1:#*]]
 
@@ -314,14 +314,14 @@ Validate existing values
 ## insertNoteLink
 > This setting is scheduled for deprecation 📆
 >
-> Use [[insertNoteLink|dendron.topic.config.dendron.commands#insertnotelink]] instead.
+> Use [[insertNoteLink|dendron.ref.config.dendron.commands#insertnotelink]] instead.
 
 Modifies behavior of the [[Insert Note Link|dendron.topic.commands#insert-note-link]] command.
 
 ### multiSelect
 > This setting is scheduled for deprecation 📆
 >
-> Use [[enableMultiSelect|dendron.topic.config.dendron.commands#enablemultiselect]] instead.
+> Use [[enableMultiSelect|dendron.ref.config.dendron.commands#enablemultiselect]] instead.
 - default: false
 
 If set to `true`, enables multi-select for `Insert Note Link` Command.
@@ -329,7 +329,7 @@ If set to `true`, enables multi-select for `Insert Note Link` Command.
 ### aliasMode
 > This setting is scheduled for deprecation 📆
 >
-> Use [[aliasMode|dendron.topic.config.dendron.commands#aliasmode]] instead.
+> Use [[aliasMode|dendron.ref.config.dendron.commands#aliasmode]] instead.
 - default: "none"
 - options: "snippet" | "selection" | "prompt" | "title" | "none"
 
@@ -338,7 +338,7 @@ Overrides default alias mode.
 ## lookup
 > This setting is scheduled for deprecation 📆
 >
-> Use [[lookup|dendron.topic.config.dendron.commands#lookup]] instead.
+> Use [[lookup|dendron.ref.config.dendron.commands#lookup]] instead.
 
 Modifies behavior of [[lookup|dendron.topic.lookup]] related commands
 Currently we only have settings for Note Lookup.
@@ -346,14 +346,14 @@ Currently we only have settings for Note Lookup.
 ### note
 > This setting is scheduled for deprecation 📆
 >
-> Use [[note|dendron.topic.config.dendron.commands#note]] instead.
+> Use [[note|dendron.ref.config.dendron.commands#note]] instead.
 
 Modifies behavior of `Dendron: Lookup Note`.
 
 #### selectionType
 > This setting is scheduled for deprecation 📆
 >
-> Use [[selectionMode|dendron.topic.config.dendron.commands#selectionmode]] instead.
+> Use [[selectionMode|dendron.ref.config.dendron.commands#selectionmode]] instead.
 
 - default: "selectionExtract"
 - options: "selectionExtract" | "selection2link" | "none"
@@ -363,7 +363,7 @@ Overrides default selection type modifier to be enabled with note lookup.
 #### leaveTrace
 > This setting is scheduled for deprecation 📆
 >
-> Use [[leaveTrace|dendron.topic.config.dendron.commands#leavetrace]] instead.
+> Use [[leaveTrace|dendron.ref.config.dendron.commands#leavetrace]] instead.
 - type: boolean
 - default: none
 

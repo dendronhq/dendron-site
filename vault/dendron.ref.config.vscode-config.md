@@ -10,7 +10,7 @@ created: 1619541378119
 
 You can access these Configurations through the [VSCode Settings,](https://code.visualstudio.com/docs/getstarted/settings) you will find them if you search for dendron.
 
-![[dendron.topic.config#legend,0:#*]]
+![[dendron.ref.config#legend:#*]]
 
 ## folders
 

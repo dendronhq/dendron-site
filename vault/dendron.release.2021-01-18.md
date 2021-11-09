@@ -25,7 +25,7 @@ Dendron 0.25 has sprouted 🌱
     - [[Publish Command|dendron.topic.commands#publish]]
     - [[buildSite CLI|dendron.ref.cli#buildsite]]
     - [[publishnotes CLI|dendron.ref.cli#publishnotes]]
-- [[dendron.copyNoteUrlRoot|dendron.topic.config.vscode-config#dendroncopynoteurlroot]] deprecated for `siteUrl`
+- [[dendron.copyNoteUrlRoot|dendron.ref.config.vscode-config#dendroncopynoteurlroot]] deprecated for `siteUrl`
 
 ### Community
 

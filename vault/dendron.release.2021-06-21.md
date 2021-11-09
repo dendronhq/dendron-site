@@ -20,7 +20,7 @@ Dendron 0.47 has sprouted  🌱
 
 Our documentation changes a lot week by week. Below is a highlight of some updates from the past week.
 
-- Updated config with details on [[default daily journal|dendron.topic.config.dendron#defaultdailyjournalvault,1:#*]]
+- Updated config with details on [[default daily journal|dendron.ref.config.dendron#defaultdailyjournalvault,1:]]
 - Updated docs for the [[dendron.topic.seed-bank]]
 - For developers: Added more information on how to [[get help|pkg.plugin-core.quickstart#getting-help]] when getting started with Dendron development. 
 

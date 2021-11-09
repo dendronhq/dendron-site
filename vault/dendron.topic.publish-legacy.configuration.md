@@ -66,7 +66,7 @@ site:
 
 When publishing in multi-vault scenario, how to handle duplicate notes
 
-Currently, only the `useVault` option is allowed. It takes a list of [[vault names|dendron.topic.config.dendron#name]]. When a duplicate is found, Dendron will go through the vaults in your list from left to right and resolve to the first one that matches.
+Currently, only the `useVault` option is allowed. It takes a list of [[vault names|dendron.ref.config.dendron#name]]. When a duplicate is found, Dendron will go through the vaults in your list from left to right and resolve to the first one that matches.
 
 - NOTE: this is done automatically when you run the [[Vault Add|dendron.topic.commands#vault-add]] command 
 
@@ -199,7 +199,7 @@ Writing stubs is important to guarantee permanent urls as Dendron will randomize
 
 the URL of the project's GitHub repository
 
-- NOTE: if you are using [[remote vaults|dendron.topic.vaults#remote]], this value will be ignored and the [[remote url|dendron.topic.config.dendron#remote]] will be used instead
+- NOTE: if you are using [[remote vaults|dendron.topic.vaults#remote]], this value will be ignored and the [[remote url|dendron.ref.config.dendron#remote]] will be used instead
 
 #### gh_edit_branch
 

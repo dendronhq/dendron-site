@@ -781,7 +781,7 @@ These past two weeks have been spent on server migration work. We are almost at 
 
 ### Other
 
-- Add overview of [[configuration|dendron.topic.config]]
+- Add overview of [[configuration|dendron.ref.config]]
 - Add proposal for [[custom color tabs|dendron.roadmap.project.n.backlog.color-tabs]]
 
 ## [0.12.6](https://github.com/dendronhq/dendron/compare/v0.12.5...v0.12.6) (2020-10-07)

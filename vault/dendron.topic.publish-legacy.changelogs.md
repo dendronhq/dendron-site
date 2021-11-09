@@ -16,7 +16,7 @@ Dendron can now generate a changelog for your published site. Note that this fea
 ## Enable Changelogs
 
 Update `dendron.yml`
-![[dendron.topic.config.dendron#generatechangelog:#*]]
+![[dendron.ref.config.dendron#generatechangelog:#*]]
 
 ## Limitations
 

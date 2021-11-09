@@ -14,7 +14,7 @@ This lets us create dynamic interfaces with dynamic dropdowns, drag and drop and
 
 ## Quickstart
 
-To get started, set [[enableWebUI|dendron.topic.config.dendron#enablewebui]] to true and then reload your workspace to enable.
+To get started, set [[enableWebUI|dendron.ref.config.dendron#enablewebui]] to true and then reload your workspace to enable.
 
 ## Components
 

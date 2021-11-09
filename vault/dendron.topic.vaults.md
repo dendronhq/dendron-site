@@ -144,7 +144,7 @@ If set, specifies the workspace that this vault belongs
 
 See [[workspace sync configuration options|dendron.topic.workspace#configuration-options]] for valid options.
 
-Sets the [[synchronization strategy|dendron.topic.workspace#Workspace: Sync]] for this vault. This overrides the [[workspace vault sync option|dendron.topic.config.dendron#workspaceVaultSync]] if it is set.
+Sets the [[synchronization strategy|dendron.topic.workspace#Workspace: Sync]] for this vault. This overrides the [[workspace vault sync option|dendron.ref.config.dendron#workspaceVaultSync]] if it is set.
 
 ### Configuration Examples
 

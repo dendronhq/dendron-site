@@ -1,7 +1,7 @@
 ---
 id: ceca23ee-6181-4fa6-9724-9943433c6e96
 title: 3 Standalone Vaults
-desc: ""
+desc: ''
 updated: 1620049097047
 created: 1612908742957
 ---
@@ -30,14 +30,14 @@ Vaults will be initialized with their own config file like the one below
     - dendron.vault.yml
 ```
 
-This file will be similar to [[dendron.yml|dendron.topic.config.dendron]] but with vault specific properties which are listed below
+This file will be similar to [[dendron.yml|dendron.ref.config.dendron]] but with vault specific properties which are listed below
 
 -   notes: string
     -   specify where to look for notes
     -   by default, this will be `.` which stands for all files in this directory
     -   you can add multiple rules and standard globbing rules will apply
 -   vault:
-    -   this is similar to the [[vault property |dendron.topic.config.dendron#vault-properties]] of `dendron.yml`
+    -   this is similar to the [[vault property|dendron.ref.config.dendron#vault-properties]] of `dendron.yml`
     -   when a standalone vault is included in a dendron workspace, the vault properties in `dendron.vault.yml` will be merged and take precedence
     -   no `fsPath` property
 

@@ -210,7 +210,7 @@ You can see your installed
 
 ### Multiple Vaults with the same name
 
-You will get this if you have multiple [[vaults|dendron.topic.config.dendron#vaults]] that have the same name. This is an error with Dendron since Dendron requires all vault names be unique. You can fix this by removing the duplicate vaults or setting a unique [[name|dendron.topic.config.dendron#name]] property for the vault.  
+You will get this if you have multiple [[vaults|dendron.ref.config.dendron#vaults]] that have the same name. This is an error with Dendron since Dendron requires all vault names be unique. You can fix this by removing the duplicate vaults or setting a unique [[name|dendron.ref.config.dendron#name]] property for the vault.  
 
 
 ## Common Diagnostics
