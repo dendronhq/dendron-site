@@ -95,9 +95,9 @@ yarn bootstrap:build
 
 ### Features
 
--   diagnostics report ([[docs|dendron.topic.commands#dendrondev-diagnostics-report]])
+-   diagnostics report ([[docs|dendron.ref.commands#dendrondev-diagnostics-report]])
 
-![[dendron.topic.commands#dendrondev-diagnostics-report,1]]
+![[dendron.ref.commands#dendrondev-diagnostics-report,1]]
 
 ### Enhancements
 
@@ -121,7 +121,7 @@ yarn bootstrap:build
 
 ### Features
 
--   move notes between vaults using the move note command ([[docs|dendron.topic.commands#move-note]])
+-   move notes between vaults using the move note command ([[docs|dendron.ref.commands#move-note]])
 
 ### Enhancements
 
@@ -144,7 +144,7 @@ yarn bootstrap:build
 
 -   use list of vaults when resolving duplicate notes ([[docs|dendron.topic.publish-legacy.configuration#passing-multiple-vaults]])
 -   go to definition now works for `![[refs]]`
--   [[Copy Note Link|dendron.topic.commands#copy-note-link]] now updates alias to header value when copying header
+-   [[Copy Note Link|dendron.ref.commands#copy-note-link]] now updates alias to header value when copying header
 
 ### Bug Fix
 
@@ -172,7 +172,7 @@ yarn bootstrap:build
 
 #### Site Build and Preview built-in to extension
 
-You can now publish and build your notes without going to the command line ([[docs|dendron.topic.commands#site-build]])
+You can now publish and build your notes without going to the command line ([[docs|dendron.ref.commands#site-build]])
 
 ### Enhancements
 
@@ -180,7 +180,7 @@ You can now publish and build your notes without going to the command line ([[do
 -   show progress bar when installing node modules
 -   [[useFMTitle|dendron.ref.config#usefmtitle]] set to true by default
 -   add `.gitignore` to newly created workspace
--   [[Copy Note Url|dendron.topic.commands#copy-note-url]] uses `siteUrl` as value for noteRef
+-   [[Copy Note Url|dendron.ref.commands#copy-note-url]] uses `siteUrl` as value for noteRef
 
 ### Bug Fixes
 
@@ -247,7 +247,7 @@ You can now publish and build your notes without going to the command line ([[do
 
 You can now do references to notes using `![[note]]` instead of `((ref: [[note]]))` syntax. To reference a header, use `![[note#foo]]`. This changes makes our note ref syntax more consistent with our wiki link syntax.
 
-Note that the new ref syntax expects a [[sluggified|dendron._ref.terms#slug]] header. This is done automatically when you use the updated [[copy note ref|dendron.topic.commands#copy-note-ref]] command.
+Note that the new ref syntax expects a [[sluggified|dendron._ref.terms#slug]] header. This is done automatically when you use the updated [[copy note ref|dendron.ref.commands#copy-note-ref]] command.
 
 This change makes it possible to create a ref to a header with special characters.
 
@@ -262,13 +262,13 @@ It is now possible to use variables defined in your note frontmatter inside your
 
 You can now both build your notes for publication and preview it from inside vscode.
 
-![[dendron.topic.commands#site-build:#dev]]
+![[dendron.ref.commands#site-build:#dev]]
 -->
 
 ### Enhancements
 
 -   `nav_exclude` property excludes from nav sider and table of contents ([[docs|dendron.topic.publish-legacy.navigation#nav-exclude]])
--   [[copy note ref|dendron.topic.commands#copy-note-ref]] command will use the new note ref syntax
+-   [[copy note ref|dendron.ref.commands#copy-note-ref]] command will use the new note ref syntax
 -   footnote support in preview and when publishing ([[docs|dendron.topic.markdown#footnotes]])
 
 ### Bug Fixes

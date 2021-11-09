@@ -17,7 +17,7 @@ The process for finding schemas using Dendron is the same as that for finding no
 
 Just like with notes, if you enter the name of a schema that does not exist, Dendron will create it for you.
 
-Specifically, Dendron will create `{value}.schema.yml` in your vault. At this point, you are free to edit the schema. After you're satisfied with the result, you'll need to run [[Dendron: Reload Index|dendron.topic.commands]] for it to take affect. 
+Specifically, Dendron will create `{value}.schema.yml` in your vault. At this point, you are free to edit the schema. After you're satisfied with the result, you'll need to run [[Dendron: Reload Index|dendron.ref.commands]] for it to take affect. 
 
 - NOTE: if you get an error after running `Reload Index`, it is most likely because your YAML is malformed. You can paste it in [yaml lint](http://www.yamllint.com/) to check that you are using the correct yaml syntax. 
 

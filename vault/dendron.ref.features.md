@@ -7,7 +7,7 @@ created: 1636499205863
 ---
 
 - [[Dendron CLI|dendron://dendron.dendron-site/dendron.ref.cli]]
-- [[Commands|dendron://dendron.dendron-site/dendron.topic.commands]]
+- [[Commands|dendron://dendron.dendron-site/dendron.ref.commands]]
 - [[Config|dendron://dendron.dendron-site/dendron.ref.config]]
 - [[Extensions|dendron://dendron.dendron-site/dendron.topic.extensions]]
 - [[Frontmatter|dendron://dendron.dendron-site/dendron.topic.frontmatter]]

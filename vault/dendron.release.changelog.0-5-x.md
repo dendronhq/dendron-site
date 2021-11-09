@@ -86,7 +86,7 @@ Bundle extension size is reduced by 50%
 - frontmatter tags displayed similarly to regular tags when published 
 - support [[customHeaderPath|dendron.topic.publish-legacy.configuration#customheaderpath]] for Next publishing
 - support [[collection options|dendron.topic.publish-legacy.configuration#collection-options]] for Next publishing
-- progress bar for [[refactoring|dendron.topic.commands#refactor-hierarchy]]
+- progress bar for [[refactoring|dendron.ref.commands#refactor-hierarchy]]
 
 ### Bug Fixes
 - links at the top and bottom of note references not clickable
@@ -147,7 +147,7 @@ When using preview, navigating back to a page that has already been recently vis
 
 Seed Browser is a new view that let's you view Seeds that are available in the Seed Registry. You can view detailed information about the seeds and download them to your workspace. 
 
-![[dendron.topic.commands#seed-browse,1:#*]]
+![[dendron.ref.commands#seed-browse,1:#*]]
 
 ### Enhancements
 
@@ -157,7 +157,7 @@ Seed Browser is a new view that let's you view Seeds that are available in the S
 - nicer refactor preview 
 - treeview improvements when publishing using nextjs
 - added dendron cache to .gitignore on vault add
-- added various alias modes for insert note link command ([[docs|dendron.topic.commands#insert-note-link]])
+- added various alias modes for insert note link command ([[docs|dendron.ref.commands#insert-note-link]])
 
 ### Bug Fixes
 - backlinks properly update on frontmatter tag changes
@@ -246,7 +246,7 @@ You can find a reference to all the available lookup modifiers [[here|dendron.to
 
 ### Features
 #### Insert Note Index Command
-![[dendron.topic.commands#insert-note-index,1:#*]]
+![[dendron.ref.commands#insert-note-index,1:#*]]
 
 ### Enhancements
 - resolve wikilinks with `siteUrl` when using the Markdown Publish Pod ([[docs|dendron.topic.pod.builtin.markdown.publish#config]])
@@ -265,7 +265,7 @@ The [[Calendar View|dendron._ref.web-ui#calendar-view]] is no longer hidden behi
 ![[dendron.ref.config#validation-and-autocomplete,1:#*]]
 
 ### Enhancements
-- bring [[Lookup Note|dendron.topic.commands#lookup-note]] to feature parity with existing lookup
+- bring [[Lookup Note|dendron.ref.commands#lookup-note]] to feature parity with existing lookup
     - add schema suggestions
     - show current Dendron version
     - apply journal title override
@@ -293,7 +293,7 @@ The [[Calendar View|dendron._ref.web-ui#calendar-view]] is no longer hidden behi
 - [[Customizable tag colors|dendron.topic.tags#custom-tag-colors]] to color code your tags
 
 #### Rename Header Command
-- [[Rename Header Command|dendron.topic.commands#rename-header]] which updates links to that header
+- [[Rename Header Command|dendron.ref.commands#rename-header]] which updates links to that header
 
 ### Enhancements
 - automatically resolve conflicting keybinding caused by vim extension
@@ -326,13 +326,13 @@ The [[Calendar View|dendron._ref.web-ui#calendar-view]] is no longer hidden behi
 
 Seed Commands now available within the extension. You can add seeds to your workspace with the `Dendron: Seed Add` command, which was previously only available in the CLI.
 
-![[dendron://dendron.dendron-site/dendron.topic.commands#seed-add:#Misc]]
+![[dendron://dendron.dendron-site/dendron.ref.commands#seed-add:#Misc]]
 
 #### Better Lookup
 
-We are splitting up the `Lookup` command into two separate commands: [[Lookup Note|dendron.topic.commands#lookup-note]] and [[Lookup Schema|dendron.topic.commands#lookup-schema]]. There's been a lot of confusion that has come from overloading the `Lookup` command which is now deprecated and will removed in a future release. 
+We are splitting up the `Lookup` command into two separate commands: [[Lookup Note|dendron.ref.commands#lookup-note]] and [[Lookup Schema|dendron.ref.commands#lookup-schema]]. There's been a lot of confusion that has come from overloading the `Lookup` command which is now deprecated and will removed in a future release. 
 
-Besides for the split, [[Lookup Note|dendron.topic.commands#lookup-note]] should be significantly faster for large workspaces. Previously you might have noticed a lag when creating a new note in these cases. It also comes with a the new [[vaultSelection|dendron.topic.lookup.modifiers#vaultselection]] modifier that lets you prompt for a vault when creating a new note.
+Besides for the split, [[Lookup Note|dendron.ref.commands#lookup-note]] should be significantly faster for large workspaces. Previously you might have noticed a lag when creating a new note in these cases. It also comes with a the new [[vaultSelection|dendron.topic.lookup.modifiers#vaultselection]] modifier that lets you prompt for a vault when creating a new note.
 
 ### Enhancements
 - Google Docs Pod will now prompt users to confirm overwriting of a document before running with the [[confirmOverwrite configuration.|dendron.topic.pod.builtin.google-docs.import#confirmoverwrite]]
@@ -410,11 +410,11 @@ We have offloaded the local server to a separate process so that all engine oper
 What this means in practice is that you can use VSCode immediately when the workspace is open. It also means you'll notice better responsiveness across all engine related features (eg. refactoring, preview, etc)
 
 ### Enhancements
-- find missing links in entire workspace  ([[docs|dendron.topic.commands#createmissinglinkednotes]])
+- find missing links in entire workspace  ([[docs|dendron.ref.commands#createmissinglinkednotes]])
 - hide the filter view in the note graph 
-- warn against missing frontmatter ([[docs|dendron.topic.commands#fixfrontmatter]])
+- warn against missing frontmatter ([[docs|dendron.ref.commands#fixfrontmatter]])
 - hashtag autocomplete improvements ([[docs|dendron.topic.tags#autocomplete-intellisense]])
-- doctor command to automatically fix the frontmatter ([[docs|dendron.topic.commands#fixfrontmatter]])
+- doctor command to automatically fix the frontmatter ([[docs|dendron.ref.commands#fixfrontmatter]])
 
 ### Bug Fixes
 - hashtag links duplicate following text
@@ -484,7 +484,7 @@ Almost at feature parity with current preview. You can now toggle it to be the d
 
 ### Enhancements
 - sort completions by vault names
-- [[Insert Note|dendron.topic.commands#insert-note]] will now resolve snippet variables ([[docs|dendron.topic.snippets#variables]])
+- [[Insert Note|dendron.ref.commands#insert-note]] will now resolve snippet variables ([[docs|dendron.topic.snippets#variables]])
 - custom syntax highlighting for wiki links ([[docs|dendron.topic.links#highlghts]])
 - replace prefix with value of original match when running refactor command
 

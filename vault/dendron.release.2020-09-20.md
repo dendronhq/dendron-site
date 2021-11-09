@@ -82,11 +82,11 @@ These release notes are summary of the more notable changes, for the full list, 
 
 ### Publish command
 
-![[dendron.topic.commands#publish,1:#*]]
+![[dendron.ref.commands#publish,1:#*]]
 
 ### Copy note url command
 
-![[dendron.topic.commands#copy-note-url,1:#*]]
+![[dendron.ref.commands#copy-note-url,1:#*]]
 
 ### Enhancements
 

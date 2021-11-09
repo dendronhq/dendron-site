@@ -117,7 +117,7 @@ Events
 
 ### Commands
 
-We collect an invocation metric when a [[commands|dendron.topic.commands]] is invoked. This is to measure command latency as well as detect errors in existing and new commands
+We collect an invocation metric when a [[commands|dendron.ref.commands]] is invoked. This is to measure command latency as well as detect errors in existing and new commands
 
 
 | Field      | Attributes | Description                                  |
@@ -163,7 +163,7 @@ This is an exhaustive list of CLI command arguments collected on invocation.
 
 ### Contextual UI
 
-We collect an invocation metric when a [[commands|dendron.topic.commands]] is invoked through Contextual UI. This helps us to measure the visibility and effectiveness of Contextual UI.
+We collect an invocation metric when a [[commands|dendron.ref.commands]] is invoked through Contextual UI. This helps us to measure the visibility and effectiveness of Contextual UI.
 
 ### Errors
 
@@ -197,7 +197,7 @@ When telemetry is disabled or enabled, we collect information about the event to
 
 If you've disabled telemetry from the [Visual Studio Code Telemetry setting](https://code.visualstudio.com/docs/getstarted/telemetry), no further action is needed. You can set this option in your workspace settings, or user settings.
 
-To disable telemetry in Dendron specifically, run the [[Disable Telemetry|dendron.topic.commands#disable-telemetry]] command.
+To disable telemetry in Dendron specifically, run the [[Disable Telemetry|dendron.ref.commands#disable-telemetry]] command.
 You can also disable telemetry using the cli by using the [[disable_telemetry|dendron.dev.cli#disable_telemetry]] command. 
 
 ## Why not have opt-in telemetry?

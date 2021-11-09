@@ -98,7 +98,7 @@ vault with new convert vault command ([[docs|dendron.topic.vaults#vault-convert]
 ## 0.64.2
 
 ### Features
-- feat(command): move header command ([[docs|dendron.topic.commands#move-header]]) (#1349)  @hikchoi 
+- feat(command): move header command ([[docs|dendron.ref.commands#move-header]]) (#1349)  @hikchoi 
 
 ### Enhancements
 - enhance(schemas): expand schema format to allow for inlined children ([[docs|dendron://dendron.dendron-site/dendron.topic.schema#inline-schema-anatomy]]) (#1552) @nickolay
@@ -249,7 +249,7 @@ dendron dev run_migration --migrationVersion 0.64.1
 ## 0.60.3
 
 ### Features
-- feat(workspace): Add Contextual UI options for Add/Remove Vaults, Rename/Delete/Move Note, and Rename Header @joshi ([[docs|dendron.topic.commands]])
+- feat(workspace): Add Contextual UI options for Add/Remove Vaults, Rename/Delete/Move Note, and Rename Header @joshi ([[docs|dendron.ref.commands]])
 - feat(workspace): add survey for new users(#1409)
 
 ### Enhancements

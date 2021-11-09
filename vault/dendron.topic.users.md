@@ -47,7 +47,7 @@ are just wikilinks.
 You might have already noticed this when you opened the user tag, but user notes are
 just notes under the `user.` hierarchy. This has a lot of benefits:
 
-<!-- -   You can use commands like [[Rename Note|dendron.topic.commands#rename-note]] or [[Refactor Hierarchy|dendron.topic.commands#refactor-hierarchy]] to rename or reorganize your tags, and it will update all notes where these tags were used. -->
+<!-- -   You can use commands like [[Rename Note|dendron.ref.commands#rename-note]] or [[Refactor Hierarchy|dendron.ref.commands#refactor-hierarchy]] to rename or reorganize your tags, and it will update all notes where these tags were used. -->
 - You can add content to the user note and it will show up when you hover over the user tag in the editor, or when you publish it. Try clicking on the example tag above!
 - You can organize users into hierarchies (like `@scientist.Margaret-Hamilton` and `@historical.Ada-Lovelace`).
 

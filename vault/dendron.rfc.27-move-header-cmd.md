@@ -41,4 +41,4 @@ Introduce `Dendron: Move Header` command. This will be able to move a header fro
 <!-- https://github.com/dendronhq/dendron/discussions/new -->
 
 ## Lookup
-[^rename]: [[Rename Header|dendron.topic.commands#rename-header]]. 
+[^rename]: [[Rename Header|dendron.ref.commands#rename-header]]. 

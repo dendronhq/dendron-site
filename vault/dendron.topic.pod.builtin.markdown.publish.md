@@ -17,9 +17,9 @@ If set to true and `siteUrl` is set, convert wiki links to markdown links that u
 
 ## Quickstart
 
-1. Run [[Configure Pod|dendron.topic.commands#configure-pod]] and select `publish markdown`
+1. Run [[Configure Pod|dendron.ref.commands#configure-pod]] and select `publish markdown`
 1. Add the following
   ```Yml
   wikiLinkToURL: true
   ```
-1. Run [[Publish Pod|dendron.topic.commands#publish-pod]] and select `publish markdown`
+1. Run [[Publish Pod|dendron.ref.commands#publish-pod]] and select `publish markdown`

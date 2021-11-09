@@ -68,7 +68,7 @@ When publishing in multi-vault scenario, how to handle duplicate notes
 
 Currently, only the `useVault` option is allowed. It takes a list of [[vault names|dendron.ref.config#name]]. When a duplicate is found, Dendron will go through the vaults in your list from left to right and resolve to the first one that matches.
 
-- NOTE: this is done automatically when you run the [[Vault Add|dendron.topic.commands#vault-add]] command 
+- NOTE: this is done automatically when you run the [[Vault Add|dendron.ref.commands#vault-add]] command 
 
 ```yml
 duplicateNoteBehavior: 

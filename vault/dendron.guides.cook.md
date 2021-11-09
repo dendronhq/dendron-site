@@ -26,7 +26,7 @@ To manually install a custom version of Dendron, first obtain the Dendron vsix f
 
 ### Checking Logs
 
-You can diagnose most problems by checking the logs. You can view the logs using the [[Open Logs Command|dendron.topic.commands#dendrondev-open-logs]]
+You can diagnose most problems by checking the logs. You can view the logs using the [[Open Logs Command|dendron.ref.commands#dendrondev-open-logs]]
 
 #### Server Logs
 
@@ -71,7 +71,7 @@ If using GitHub with SSH keys or access tokens, here is an alternative: SSH keys
 
 If you haven't already done so, install Dendron and initialize a workspace by following the instructions [[here|dendron._ref.install]].
 
-Use the [[Vault Add|dendron.topic.commands#remote-vault]] command via the [[command palette|dendron._ref.terms#command-palette]], select remote vault, and paste the git url of the vault that you like to add
+Use the [[Vault Add|dendron.ref.commands#remote-vault]] command via the [[command palette|dendron._ref.terms#command-palette]], select remote vault, and paste the git url of the vault that you like to add
 
 
 ### Converting a local vault to a remote vault
@@ -86,7 +86,7 @@ Use the [[Vault Add|dendron.topic.commands#remote-vault]] command via the [[comm
     git add origin {your origin}
     git push -u origin HEAD
     ```
-1. Run [[Configure (yaml)|dendron.topic.commands#configure-yaml]] and add the git [[remote|dendron.topic.vaults#remote]] urls to the repo. the entries should look like what you see below
+1. Run [[Configure (yaml)|dendron.ref.commands#configure-yaml]] and add the git [[remote|dendron.topic.vaults#remote]] urls to the repo. the entries should look like what you see below
 
 ![[dendron://dendron.dendron-site/dendron.topic.vaults#^NiCCqLjTG2nbM6Qi:#*]]
 
@@ -110,7 +110,7 @@ We currently haven't implemented a command to do but you can use the current man
 
 ### Private Vaults
 
-You can create private vaults that won't be published or initialized when others clone the workspace. To do this, run [[Vault Add|dendron.topic.commands#vault-add]] and add your private vault as a local vault. After it's been added, run [[Configure (yaml)|dendron.topic.commands#configure-yaml]] and set the [[visibility|dendron.ref.config#visibility]] of the vault to "private" in `dendron.yml`.
+You can create private vaults that won't be published or initialized when others clone the workspace. To do this, run [[Vault Add|dendron.ref.commands#vault-add]] and add your private vault as a local vault. After it's been added, run [[Configure (yaml)|dendron.ref.commands#configure-yaml]] and set the [[visibility|dendron.ref.config#visibility]] of the vault to "private" in `dendron.yml`.
 
 ```yml
 vaults:
@@ -174,7 +174,7 @@ To drag files into Dendron, open the workspace pane on the side to drag and drop
 
 1. start by initializing a workspace
 
-![[dendron.topic.commands#initialize-workspace:#*]]
+![[dendron.ref.commands#initialize-workspace:#*]]
 
 2. by default, dendron uses a `vaults` folder underneath your workspace to store you vaults. Update your [[settings|dendron._ref.settings]] and change `vault` to the path of your current notes (alternatively, you can also copy your current notes into `vault`)
 

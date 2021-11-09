@@ -10,7 +10,7 @@ Dendron 0.25 has sprouted 🌱
 ### Highlights
 
 - native publication 
-  - preview and build your notes for publication from within VSCode ([[docs|dendron.topic.commands#site-build]])
+  - preview and build your notes for publication from within VSCode ([[docs|dendron.ref.commands#site-build]])
 - custom header support
   - include your own headers when publishing ([[docs|dendron.topic.publish-legacy.configuration#customheaderpath-optional]])
 - bunch of bug fixes and enhancements
@@ -21,8 +21,8 @@ Dendron 0.25 has sprouted 🌱
   - all users are encouraged to switch to [[Publishing V2|dendron.topic.publish]]
   - support until end of January at which point we will be removing v1 related functionality 
   - this includes
-    - [[Build Pod Command|dendron.topic.commands#build-pod]]
-    - [[Publish Command|dendron.topic.commands#publish]]
+    - [[Build Pod Command|dendron.ref.commands#build-pod]]
+    - [[Publish Command|dendron.ref.commands#publish]]
     - [[buildSite CLI|dendron.ref.cli#buildsite]]
     - [[publishnotes CLI|dendron.ref.cli#publishnotes]]
 - [[dendron.copyNoteUrlRoot|dendron.ref.config.vscode-config#dendroncopynoteurlroot]] deprecated for `siteUrl`

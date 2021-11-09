@@ -52,7 +52,7 @@ Create new note from a selection
 
 ### Add configure pod command
 
-![[dendron.topic.commands#configure-pod,1:#*]]
+![[dendron.ref.commands#configure-pod,1:#*]]
 
 ### Enhancements
 

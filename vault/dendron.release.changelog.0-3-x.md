@@ -34,8 +34,8 @@ Even if your workspace is +10k notes, initialization of said workspace should ha
 -   progress indicator when adding a remote vault
 -   init engine from cli ([[docs|dendron.ref.cli#launchengineserver]])
 -   add html pod ([[docs|dendron.topic.pod.builtin.html#publish]])
--   [[move note|dendron.topic.commands#move-note]] now shows completions via lookup
--   [[rename note|dendron.topic.commands#rename-note]] now shows completions via lookup
+-   [[move note|dendron.ref.commands#move-note]] now shows completions via lookup
+-   [[rename note|dendron.ref.commands#rename-note]] now shows completions via lookup
 
 ### Bug Fixes
 
@@ -110,7 +110,7 @@ You can see the full list of information we collect and why we do it in our [[te
 
 #### Insert Note Command
 
-![[dendron.topic.commands#insert-note,1:#*]]
+![[dendron.ref.commands#insert-note,1:#*]]
 
 ### Enhancements
 
@@ -148,7 +148,7 @@ You can see the full list of information we collect and why we do it in our [[te
 
 ### House Cleaning
 
--   remove legacy note references, use [[doctor|dendron.topic.commands#actions]] with `oldNoteRefToNew` to convert your old note references
+-   remove legacy note references, use [[doctor|dendron.ref.commands#actions]] with `oldNoteRefToNew` to convert your old note references
 
 ## 0.36.2
 
@@ -172,7 +172,7 @@ You can see the full list of information we collect and why we do it in our [[te
 
 #### Goto Note command
 
-![[dendron.topic.commands#goto-note,1:#*]]
+![[dendron.ref.commands#goto-note,1:#*]]
 
 -   NOTE: this fixes [issue 564](https://github.com/dendronhq/dendron/issues/564) which causes a new note to be created on hover when combined with `noAutoCreateOnDefinition` set to `true`. We introduced [[noAutoCreateOnDefinition|dendron.ref.config#noautocreateondefinition]] configuration to help folks transition to the new behavior. Auto creating on definition will be deprecated in a future release
 
@@ -195,7 +195,7 @@ You can see the full list of information we collect and why we do it in our [[te
 
 #### Add and Commit
 
-![[dendron.topic.commands#workspace-add-and-commit,1:#*]]
+![[dendron.ref.commands#workspace-add-and-commit,1:#*]]
 
 ### Enhancements
 
@@ -226,14 +226,14 @@ You can see the full list of information we collect and why we do it in our [[te
 
 Dendron doctor has been updated with a bunch of new options including the ability to migrate old style refs to new style refs
 
-![[dendron.topic.commands#doctor,1:#dump-state]]
+![[dendron.ref.commands#doctor,1:#dump-state]]
 
 ### Enhancements
 
 -   support hiding hierarchy view on published page ([[docs|dendron.ref.config#hierarchydisplay]])
 -   GitPunchcard support multi-vault ([[docs|dendron.topic.pod.builtin#gitpod]])
 -   support toggling vault initialization behavior at startup ([[docs|dendron.ref.config#initializeremotevaults]])
--   support migrating old note refs to new note refs ([[docs|dendron.topic.commands#actions]])
+-   support migrating old note refs to new note refs ([[docs|dendron.ref.commands#actions]])
 
 ### Bug Fixes
 
@@ -255,7 +255,7 @@ Dendron doctor has been updated with a bunch of new options including the abilit
 
 #### Browse Current File
 
-![[dendron.topic.commands#browse-note,1:#*]]
+![[dendron.ref.commands#browse-note,1:#*]]
 
 ### Enhancements
 
@@ -357,7 +357,7 @@ Dendron now supports custom domain names for [[managed publishing|dendron.topic.
 
 ### Enhancements
 
--   Add paste link command ([[docs|dendron.topic.commands#paste-link]])
+-   Add paste link command ([[docs|dendron.ref.commands#paste-link]])
 -   don't throw fatal error on bad wikilink
 -   don't throw fatal error if `siteUrl` not set while in `dev`
 -   add remark-containers plugin [[docs|dendron.ref.config#usecontainers]]
@@ -387,7 +387,7 @@ Dendron now supports custom domain names for [[managed publishing|dendron.topic.
 
 ### Enhancements
 
--   you can now add a workspace when adding a remote vault ([[docs|dendron://dendron.dendron-site/dendron.topic.commands#vault-add]])
+-   you can now add a workspace when adding a remote vault ([[docs|dendron://dendron.dendron-site/dendron.ref.commands#vault-add]])
 -   better block quotes ([[docs|dendron.topic.publish-legacy.misc#blockquote]])
 -   better formatted backlinks on published pages
 -   backlinks display using note title instead of file names

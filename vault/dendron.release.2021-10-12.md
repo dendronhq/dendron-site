@@ -11,7 +11,7 @@ Dendron 0.63 has sprouted  🌱
 ### Highlights
 - feat(workspace): native workspace support - use Dendron in your own workspace ([[docs|dendron://dendron.dendron-site/dendron.topic.workspace.native]])
     - status: [[Seed|dendron://dendron.dendron-site/tags.stage.seed]]
-- feat(workspace): contextual UI - native code actions and right click support for common operations ([[docs|dendron://dendron.dendron-site/dendron.topic.commands#contextual-ui]])
+- feat(workspace): contextual UI - native code actions and right click support for common operations ([[docs|dendron://dendron.dendron-site/dendron.ref.commands#contextual-ui]])
 
 ### Everything Else
 - fix(preview): some links not resolving on preview 

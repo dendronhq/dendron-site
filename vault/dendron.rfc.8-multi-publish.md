@@ -24,7 +24,7 @@ Similarly, if a user wants to reference urls from multiple published sites, they
 
 Introduce a `sites` parameter that is made from multiple [[site objects|dendron://dendron.dendron-site/dendron.topic.publish-legacy.configuration#global-configuration]].
 
-When a user uses [[Copy Note URL|dendron://dendron.dendron-site/dendron.topic.commands#copy-note-url]], Dendron can output one of the following:
+When a user uses [[Copy Note URL|dendron://dendron.dendron-site/dendron.ref.commands#copy-note-url]], Dendron can output one of the following:
 - if the note is part of **one** published site (as determined by `siteHierarchies` and `duplicateNoteBehavior`), we return the url
 - if the note is part of **multiple** published sites, we return a dropdown asking the user to pick a url
 - if the note is part of **zero** published sites, we return an error message 

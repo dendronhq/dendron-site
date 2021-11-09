@@ -36,7 +36,7 @@ npm info @dendronhq/dendron-cli
   - 2. Localhost is blocked
 - diagnose
   - 1. See fix
-  - 2. Look for `ECONNREFUSED` in the [[logs|dendron.topic.commands#dendrondev-open-logs]]
+  - 2. Look for `ECONNREFUSED` in the [[logs|dendron.ref.commands#dendrondev-open-logs]]
 - fix: 
   - 1. [[Run Dendron inside a Workspace|dendron.guides.troubleshooting#run-dendron-inside-a-workspace]]
   - 2. [[Whitelisting localhost|dendron.guides.troubleshooting#whitelisting-localhost]]
@@ -223,7 +223,7 @@ dendron --version
 
 ### Launch a new workspace
 
-To check if there is something wrong with Dendron vs your particular workspace setup, launch Dendron in a new workspace by running [[Initialize Workspace|dendron.topic.commands#initialize-workspace]]. 
+To check if there is something wrong with Dendron vs your particular workspace setup, launch Dendron in a new workspace by running [[Initialize Workspace|dendron.ref.commands#initialize-workspace]]. 
 
 ### Check the logs
 
@@ -253,7 +253,7 @@ We currently don't support creating children of `root.md` This note is special. 
 
 Dendron requires a VSCode [workspace file](https://code.visualstudio.com/docs/editor/multi-root-workspaces#_opening-workspace-files) to operate. Make sure to open the **dendron.code-workspace** file by following the instructions [here](https://code.visualstudio.com/docs/editor/multi-root-workspaces#_opening-workspace-files)
 
-You can have Dendron create one if you hold down "Cmd+Shift+P" (CTRL+SHIFT+P on windows) and use the [[Launch Tutorial Command|dendron.topic.commands#launch-tutorial]]
+You can have Dendron create one if you hold down "Cmd+Shift+P" (CTRL+SHIFT+P on windows) and use the [[Launch Tutorial Command|dendron.ref.commands#launch-tutorial]]
 
 ### Clear the cache
 
@@ -305,4 +305,4 @@ When doing either of these things, please include the following information:
 - [[Plugin Logs|dendron.guides.cook#checking-logs]]
 - [[Server Logs|dendron.guides.cook#server-logs]]
 - Contents of your [[workspace settings|dendron._ref.settings]]
-- Contents of [[dendron.yml|dendron.topic.commands#configure-yaml]]
+- Contents of [[dendron.yml|dendron.ref.commands#configure-yaml]]

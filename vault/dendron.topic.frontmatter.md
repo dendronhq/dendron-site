@@ -19,7 +19,7 @@ Dendron supports frontmatter. By default, we add the following keys to a new not
 
 Frontmatter is required in Dendron, and it will warn you in the editor if you
 have any notes that don't have a frontmatter, or have a frontmatter that's
-broken. You can fix these by clicking on the lightbulb symbol that appears next to them, or using the [[fixFrontmatter Doctor action|dendron.topic.commands#fixfrontmatter]].
+broken. You can fix these by clicking on the lightbulb symbol that appears next to them, or using the [[fixFrontmatter Doctor action|dendron.ref.commands#fixfrontmatter]].
 
 Feel free to add your attributes. As long as it doesn't conflict with a Dendron builtin keyword, Dendron will leave it alone. In the future, we plan on adding a lot more functionality to the frontmatter you see in Dendron so stay tuned.
 

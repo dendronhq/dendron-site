@@ -1,7 +1,7 @@
 ---
 id: 4bb85c39-d8ac-48ad-a765-3f2a071f7bc9
 title: Features
-desc: ""
+desc: ''
 updated: 1622573830579
 created: 1596320368075
 nav_exclude: true
@@ -26,7 +26,7 @@ The following are a few notes that have this hierarchical naming format.
 
 ### Flexible structure
 
-Whereas notes can end up in a tangled mess when you only have backlinks and folders, Dendron has a flexible and emergent series of tools to help you structure your data. [[dendron.topic.hierarchies]] function as support beams, they help enforce the foundations of your knowledge base. Dendron encourages you to be flexible with your mental models by allowing you to [[refactor|dendron.topic.commands#refactor-hierarchy]] them. And once you've got a handle on a particular topic, [[schemas|dendron.topic.schema]] can help you scale out to other domains and see patterns that you otherwise wouldn't.
+Whereas notes can end up in a tangled mess when you only have backlinks and folders, Dendron has a flexible and emergent series of tools to help you structure your data. [[dendron.topic.hierarchies]] function as support beams, they help enforce the foundations of your knowledge base. Dendron encourages you to be flexible with your mental models by allowing you to [[refactor|dendron.ref.commands#refactor-hierarchy]] them. And once you've got a handle on a particular topic, [[schemas|dendron.topic.schema]] can help you scale out to other domains and see patterns that you otherwise wouldn't.
 
 ## Lookup
 

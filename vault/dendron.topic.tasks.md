@@ -48,7 +48,7 @@ the [[Todo Notes RFC|dendron.rfc.13.todo-notes]] and look out for updates!
 ### Creating a task note
 
 There are 2 ways to create a task note, you can either use the toggle in your
-regular lookup bar, or you can use the [[Task Create|dendron.topic.commands#task-create]] command.
+regular lookup bar, or you can use the [[Task Create|dendron.ref.commands#task-create]] command.
 They both achieve the same result, although the task create command comes with some default 
 settings.
 

@@ -4,7 +4,7 @@ title: Release Notes(version 0.4)
 desc: ''
 updated: 1630790746247
 created: 1595984607502
-date: 2020-07-25
+date: '2020-07-25'
 ---
 Its been an active week of Dendron development. These weekly release notes are to keep you up to date on some of the things we're working on.
 
@@ -40,13 +40,13 @@ Dendron will automatically update your workspace settings during version upgrade
 
 ### Reload Index Command ([236b2ac](https://github.com/dendronhq/dendron/commit/236b2ac70812c4df525ff27479802b6e49e0587f))
 
-- [[docs|dendron.topic.commands#reload-index]]
+- [[docs|dendron.ref.commands#reload-index]]
 
 Dendron will re-initialize the index. This is currently necessary if you add new entries to a [[schema|dendron.topic.schema]]. Otherwise, Dendron will re-index schemas the next time you reload/open your workspace.
 
 ### Open Logs Command ([4f223fc](https://github.com/dendronhq/dendron/commit/4f223fc318fe033471252611c8f41d505dca1055))
 
-- [[docs|dendron.topic.commands#open-logs]]
+- [[docs|dendron.ref.commands#open-logs]]
 
 A bunch of you have been submitting issues to our issue tracker. To make the process easier, we now have a command to automatically fetch get the logs for when you submit your next issue.
 

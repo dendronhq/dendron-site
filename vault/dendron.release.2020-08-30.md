@@ -4,7 +4,7 @@ title: Release Notes(version 0.9)
 desc: ''
 updated: 1630640295583
 created: 1596374871110
-date: 2020-08-30
+date: '2020-08-30'
 ---
 This week's focus was on improving the initial Dendron startup experience as well as the overall usability. To that end, we introduced our own tree view, overhauled the getting started experience and created a cheatsheet of all commands (with GIFs of course). 
 
@@ -28,7 +28,7 @@ These release notes are summary of the more notable changes, for the full list, 
 
 ### Add Go Up Hierarchy command
 
-Go up to the closest non-stub parent of the currently open note. ([[docs|dendron.topic.commands#go-up]])
+Go up to the closest non-stub parent of the currently open note. ([[docs|dendron.ref.commands#go-up]])
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/hierarchy.go-up.gif)
 

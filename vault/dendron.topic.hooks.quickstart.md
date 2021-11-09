@@ -9,7 +9,7 @@ nav_order: 1
 
 ## Setup
 
-To create a hook, run [[Hook Create|dendron.topic.commands#hook-create]]. You can set the `hookName` to `hello` and change the `hookFilter` to `hello.*`.
+To create a hook, run [[Hook Create|dendron.ref.commands#hook-create]]. You can set the `hookName` to `hello` and change the `hookFilter` to `hello.*`.
 
 When you run this command, Dendron will do two things:
 1. Create an entry in `dendron.yml` about the hook
@@ -40,7 +40,7 @@ module.exports = async function({wsRoot, note, NoteUtils, execa, _}) {
 };
 ```
 
-After you are done, run [[Reload Index|dendron.topic.commands#reload-index]]. Now use lookup to create `hello.one`
+After you are done, run [[Reload Index|dendron.ref.commands#reload-index]]. Now use lookup to create `hello.one`
 
 You should get something like the following:
 
@@ -49,4 +49,4 @@ You should get something like the following:
 
 ## Cleaning Up
 
-To delete your hook, run [[Hook Delete|dendron.topic.commands#hook-delete]]. This will remove the hook entry in `dendron.yml` and also delete the hook script (script deletion is optional).
+To delete your hook, run [[Hook Delete|dendron.ref.commands#hook-delete]]. This will remove the hook entry in `dendron.yml` and also delete the hook script (script deletion is optional).

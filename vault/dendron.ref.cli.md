@@ -57,7 +57,7 @@ Options:
 
 #### available actions
 
-![[dendron.topic.commands#actions,1:#*]]
+![[dendron.ref.commands#actions,1:#*]]
 
 #### examples
 

@@ -9,7 +9,7 @@ Dendron 0.27 has sprouted 🌱
 
 ### Highlights
 
-- move notes between vaults using the move note command ([[docs|dendron.topic.commands#move-note]])
+- move notes between vaults using the move note command ([[docs|dendron.ref.commands#move-note]])
 - pretty 403 pages on unpublished pages ([[docs|dendron.topic.publish-legacy.selective-publication#403-page]])
 - lots of bug fixes
 

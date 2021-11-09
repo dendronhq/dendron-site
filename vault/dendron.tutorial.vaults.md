@@ -16,7 +16,7 @@ In this module, you'll learn how to add additional vaults to your workspace.
 
 ### Adding a Local vault
 
-Use the [[Vault Add|dendron.topic.commands#vault-add]] command and select a `local vault`. For the name, you can call it `vault2`. You will be prompted for a path to the vault. If you leave it blank, Dendron will create the vault under `{workspace}/{vaultName}`. After you make a selection, Dendron will reload the workspace with your new vault.
+Use the [[Vault Add|dendron.ref.commands#vault-add]] command and select a `local vault`. For the name, you can call it `vault2`. You will be prompted for a path to the vault. If you leave it blank, Dendron will create the vault under `{workspace}/{vaultName}`. After you make a selection, Dendron will reload the workspace with your new vault.
 
 ### Adding files to your second vault
 
@@ -40,7 +40,7 @@ Afterwards, Dendron will clone the vault and reload your workspace. Congratulati
 
 ### Cleaning Up (optional)
 
-In order to remove a vault, you can use [[Vault Remove|dendron.topic.commands#vault-remove]]. Note that this command removes the vault from Dendron but not from your filesystem. You'll need to manually delete the folder to do that. 
+In order to remove a vault, you can use [[Vault Remove|dendron.ref.commands#vault-remove]]. Note that this command removes the vault from Dendron but not from your filesystem. You'll need to manually delete the folder to do that. 
 
 ### Files
 

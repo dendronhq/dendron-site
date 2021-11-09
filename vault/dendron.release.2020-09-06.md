@@ -62,7 +62,7 @@ Dendron has [[note references|dendron.topic.note-reference]] that let you inline
 
 <a href="https://www.loom.com/share/8eb01f6c3196415c8aadc4992805a176"> <img style="" src="https://cdn.loom.com/sessions/thumbnails/8eb01f6c3196415c8aadc4992805a176-with-play.gif"> </a>
 
-### Add Export Pod Command ([[docs|dendron.topic.commands]])
+### Add Export Pod Command ([[docs|dendron.ref.commands]])
 
 Export notes to an external data source. Currently, only JSON is supported.
 
@@ -96,7 +96,7 @@ Example of making a contribution to Dendron.
 
 ## Workbench
 
-### Add Goto Next/Prev Sibling command ([[docs|dendron.topic.commands]])
+### Add Goto Next/Prev Sibling command ([[docs|dendron.ref.commands]])
 
 - shortcuts: 
 - mac: `cmd+shift+right`
@@ -107,7 +107,7 @@ Go to the next/previous sibling
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/hierarchy.go-sibling.gif)
 
-### Add Go Down command ([[docs|dendron.topic.commands]])
+### Add Go Down command ([[docs|dendron.ref.commands]])
 
 - shortcuts: 
 - mac: `cmd+shift+down`

@@ -24,7 +24,7 @@ You can see an example of a published seeded vault [here](https://aws.dendron.so
 
 You can browse the seeds in the registry by running the `Seed Browse` command:
 
-![[dendron://dendron.dendron-site/dendron.topic.commands#seed-browse:#seed-add]]
+![[dendron://dendron.dendron-site/dendron.ref.commands#seed-browse:#seed-add]]
 
 ## Adding Seeds to your Workspace
 
@@ -34,7 +34,7 @@ You can add a seed to your workspace from either within the extension or with th
 
 You can add seeds within the UI of the `Seed Browse` command but also directly by running the commands below.
 
-![[dendron://dendron.dendron-site/dendron.topic.commands#seed-add:#Misc]]
+![[dendron://dendron.dendron-site/dendron.ref.commands#seed-add:#Misc]]
 
 ### Adding through the CLI
 

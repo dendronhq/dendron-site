@@ -78,21 +78,21 @@ Follow the instructions of [[converting a local vault to a remote vault|dendron.
 
 When you're working with multiple repositories, here are a few useful commands to use:
 
-### Vault Add ([[docs|dendron.topic.commands#vault-add]])
+### Vault Add ([[docs|dendron.ref.commands#vault-add]])
 
 Adding vaults to your team's workspace is as easy as running this command and pointing to either a local or remote vault.
 
-### Move note ([[docs|dendron.topic.commands#move-note]])
+### Move note ([[docs|dendron.ref.commands#move-note]])
 
 Move note will allow you to move notes quickly from one vault to another (potentially to make it public or provide more strict access control).
 
-### Refactor Hierarchy ([[dendron.topic.commands#refactor-hierarchy]])
+### Refactor Hierarchy ([[dendron.ref.commands#refactor-hierarchy]])
 
 Use the refactor hierarchy command to bulk-move notes from one hierarchy/structure to another.
 
 ### Workspace Sync
 
-![[dendron://dendron.dendron-site/dendron.topic.commands#workspace-sync,1:#*]]
+![[dendron://dendron.dendron-site/dendron.ref.commands#workspace-sync,1:#*]]
 
 ### User Private Vaults
 

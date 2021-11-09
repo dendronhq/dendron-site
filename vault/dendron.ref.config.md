@@ -13,7 +13,7 @@ stub: true
 
 `dendron.yml` located at the root of your workspace.
 
-This file can be accessed using these Commands ![[dendron.topic.commands#Configure-yaml,0,:#workspace-add-and-commit]]
+This file can be accessed using these Commands ![[dendron.ref.commands#Configure-yaml,0,:#workspace-add-and-commit]]
 
 ![[dendron.ref.config#legend]]
 
@@ -25,7 +25,7 @@ This file can be accessed using these Commands ![[dendron.topic.commands#Configu
 >
 > Use [[initialValue|dendron.ref.config.commands#initialvalue]] instead.
 
-Execute [[Insert Note|dendron.topic.commands#insert-note]] with the hierarchy prefilled.
+Execute [[Insert Note|dendron.ref.commands#insert-note]] with the hierarchy prefilled.
 
 
 ### generateChangelog
@@ -101,14 +101,14 @@ If a note doesn't exist, don't create it via the `GoToDefinition`
 >
 > Use [[enableXVaultWikiLink|dendron.ref.config.workspace#enablexvaultwikilink]] instead.
 
-If set, disable [[Cross Vault Links|dendron.topic.links#cross-vault-links]] when using [[Copy Note Link|dendron.topic.commands#copy-note-link]] and [[Insert Note Index|dendron.topic.commands#insert-note-index]].
+If set, disable [[Cross Vault Links|dendron.topic.links#cross-vault-links]] when using [[Copy Note Link|dendron.ref.commands#copy-note-link]] and [[Insert Note Index|dendron.ref.commands#insert-note-index]].
 
 ### randomNote
 > This setting is scheduled for deprecation 📆 
 >
 > Use [[randomNote|dendron.ref.config.commands#randomnote]] instead.
 
-Configures the set of notes to include and exclude when using the [[Random Note|dendron.topic.commands#random-note]] command.
+Configures the set of notes to include and exclude when using the [[Random Note|dendron.ref.commands#random-note]] command.
 
 ### useContainers
 - default: false
@@ -145,7 +145,7 @@ If true, use the note title when displaying naked links. This also applies to no
 >
 > Use [[insertNoteIndex|dendron.ref.config.commands#insertnoteindex]] instead.
 
-Configures how [[Insert Note Index|dendron.topic.commands#insert-note-index]] works.
+Configures how [[Insert Note Index|dendron.ref.commands#insert-note-index]] works.
 
 #### marker
 > This setting is scheduled for deprecation 📆
@@ -297,7 +297,7 @@ dev:
 
 ## Validation and AutoComplete
 
-Dendron can provide validation when you edit the raw yaml using the[[Configure (yaml) Command|dendron.topic.commands#configure-yaml]]. In order to do so, you must have the `redhat.vscode-yaml` extension installed (this is a recommended extension for Dendron) The validator provides autocomplete, documentation & warnings when editing dendron.yml. Here's a few examples of what it looks like:
+Dendron can provide validation when you edit the raw yaml using the[[Configure (yaml) Command|dendron.ref.commands#configure-yaml]]. In order to do so, you must have the `redhat.vscode-yaml` extension installed (this is a recommended extension for Dendron) The validator provides autocomplete, documentation & warnings when editing dendron.yml. Here's a few examples of what it looks like:
 
 Hover over values to see documentation
 
@@ -317,7 +317,7 @@ Validate existing values
 >
 > Use [[insertNoteLink|dendron.ref.config.commands#insertnotelink]] instead.
 
-Modifies behavior of the [[Insert Note Link|dendron.topic.commands#insert-note-link]] command.
+Modifies behavior of the [[Insert Note Link|dendron.ref.commands#insert-note-link]] command.
 
 ### multiSelect
 > This setting is scheduled for deprecation 📆

@@ -262,7 +262,7 @@ Transform URL in clipboard to nicely formatted markdown link
 
 ### Random Note
 
-Navigates to a random note in the workspace. By default, all notes are included in the set that can be navigated to with this command. This can be adjusted with the `randomNote` setting in the Dendron Config (see [[Configure (yaml)|dendron.topic.commands#configure-yaml]]).
+Navigates to a random note in the workspace. By default, all notes are included in the set that can be navigated to with this command. This can be adjusted with the `randomNote` setting in the Dendron Config (see [[Configure (yaml)|dendron.ref.commands#configure-yaml]]).
 
 ```yaml
 # Sample configuration in dendron.yml:
@@ -321,7 +321,7 @@ Shows Markdown Preview.
 See [[Preview V2|dendron.topic.preview-v2]] for more details.
 
 ### Show Preview (legacy)
-> ⚠️ This is a deprecated command. Please consider using [[Show Preview|dendron.topic.commands#show-preview]] instead.
+> ⚠️ This is a deprecated command. Please consider using [[Show Preview|dendron.ref.commands#show-preview]] instead.
 
 - shortcuts:
   - windows: `windows+ctrl+p`
@@ -365,7 +365,7 @@ Initiate note lookup with scratch note pre-selected
 ### Lookup Note
 - shortcuts: none
 
-Initiate a note lookup. This is the successor to the [[Lookup|dendron.topic.commands#lookup]] command, limited to just notes. It is significantly faster on large workspaces when compared to its predecessor and also comes with addiitional [[modifiers|dendron.topic.lookup.modifiers]]. 
+Initiate a note lookup. This is the successor to the [[Lookup|dendron.ref.commands#lookup]] command, limited to just notes. It is significantly faster on large workspaces when compared to its predecessor and also comes with addiitional [[modifiers|dendron.topic.lookup.modifiers]]. 
 
 ### Task Create
 - shortcuts: none

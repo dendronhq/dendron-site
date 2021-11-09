@@ -110,7 +110,7 @@ You can now natively add published Dendron git repos as a _remote vault_ inside 
 
 - support pods for multi-vault ([661fe21](https://github.com/dendronhq/dendron/commit/661fe218d448e6f32f86bf60dabe635b71d67251))
 - much faster lookup performance for large vaults 🚀🚀🚀  ([3ddeba8](https://github.com/dendronhq/dendron/commit/3ddeba8a596be4bc9316e0cc5e63025d7bf4460f))
-- support [[sibling nav|dendron.topic.commands#go-next-sibling]] for multi-vault ([235bfc7](https://github.com/dendronhq/dendron/commit/235bfc77505b403bf32c78ce3df6b7005c37dfba))
+- support [[sibling nav|dendron.ref.commands#go-next-sibling]] for multi-vault ([235bfc7](https://github.com/dendronhq/dendron/commit/235bfc77505b403bf32c78ce3df6b7005c37dfba))
 
 ### Bug Fixes
 
@@ -120,7 +120,7 @@ You can now natively add published Dendron git repos as a _remote vault_ inside 
 
 ### House Cleaning
 
-- breaking: the [[go to sibling|dendron.topic.commands#go-next-sibling]] commands have a new keyboard shortcut since the old one was conflicting with the vscode default. the new shortcuts are `ctrl+shift+]` and `ctrl+shift+[`
+- breaking: the [[go to sibling|dendron.ref.commands#go-next-sibling]] commands have a new keyboard shortcut since the old one was conflicting with the vscode default. the new shortcuts are `ctrl+shift+]` and `ctrl+shift+[`
 
 ## 0.17.2
 
@@ -140,7 +140,7 @@ Note that the Web UI is still deemed experimental and functionality like keyboar
 
 Special thanks to [Tyler Nieman](https://github.com/tsnieman) for the UI work!
 
-![[dendron.topic.commands#configure,1:#*]]
+![[dendron.ref.commands#configure,1:#*]]
 
 ### Enhancements
 
@@ -223,7 +223,7 @@ Note that the header is expected in [github slug](https://github.com/gosimple/sl
 
 Similarly to copying a note ref, if you select any part of a header while running `Copy Note Link`, a relative wiki-link will be automatically generated.
 
-![[dendron.topic.commands#copy-note-link:#*]]
+![[dendron.ref.commands#copy-note-link:#*]]
 
 #### All link features are now multi-vault aware
 
@@ -454,7 +454,7 @@ SUM:                           381           7349           1930         104777
 
 - **workbench:** ([130a58a](https://github.com/dendronhq/dendron/commit/130a58a62cc40eb4178afac554f8f4ff30c93055))
 
-![[dendron.topic.commands#contribute:#*]]
+![[dendron.ref.commands#contribute:#*]]
 
 #### Add Snapshot Capability to Dendron
 
@@ -864,7 +864,7 @@ this announcement also comes with an ask. Dendron is now in [AlternativesTo](htt
 
 Dendron will now recognize a header selection if you have any part of the header highlighted (vs needing to highlight the entire line)
 
-![[dendron.topic.commands#copy-note-ref:#*]]
+![[dendron.ref.commands#copy-note-ref:#*]]
 
 ### Documentation
 

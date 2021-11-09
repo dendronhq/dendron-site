@@ -11,8 +11,8 @@ Dendron 0.57 has sprouted  🌱
 ### Highlights
 
 - (workspace) Workspace initialization up to 60% faster 🚀🚀🚀
-- (workspace) Seed Browser: Users can now browse the Seed Registry directly from their workspace, and interactively download them into their workspace ([[docs|dendron.topic.commands#seed-browse,1:#*]])
-- (workspace) Insert note has a bunch of new modes  ([[docs|dendron.topic.commands#insert-note-link]])
+- (workspace) Seed Browser: Users can now browse the Seed Registry directly from their workspace, and interactively download them into their workspace ([[docs|dendron.ref.commands#seed-browse,1:]])
+- (workspace) Insert note has a bunch of new modes  ([[docs|dendron.ref.commands#insert-note-link]])
 - (workspace) Tag colors now show up in graph view
 - (workspace) Progress indicators are now displayed for all long running actions
 - (workspace) The legacy preview has been removed as a recommended extension
@@ -31,7 +31,7 @@ Our documentation changes a lot week by week. Below is a highlight of some updat
 - A new resource link was added for the mobile markdown editor, [Markor](https://github.com/gsantner/markor) (Android only), in the [[mobile support section of the cookbook|dendron.guides.cook#mobile-support]] ([GitHub PR](https://github.com/dendronhq/dendron-site/pull/173))
 - Added [[lookup section|dendron.ref.config#lookup]] to the Dendrons Config docs, detailing some custom configuration around lookup behavior ([GitHub PR](https://github.com/dendronhq/dendron-site/pull/172/))
 - Added docs on inserting note links into the current document using lookup ([GitHub PR](https://github.com/dendronhq/dendron-site/pull/170)):
-  - [[Dendron commands: Insert Note Link|dendron.topic.commands#insert-note-link]]
+  - [[Dendron commands: Insert Note Link|dendron.ref.commands#insert-note-link]]
   - [[Dendrong Config: insertNoteLink|dendron.ref.config#insertnotelink]]
 
 ### Community

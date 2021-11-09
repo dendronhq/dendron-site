@@ -207,7 +207,7 @@ From the header, to the second paragraph:
 
 You can create a reference either by hand or using the `Copy Note Ref` command.
 
-![[dendron.topic.commands#copy-note-ref:#*]]
+![[dendron.ref.commands#copy-note-ref:#*]]
 
 ## Additional Options
 

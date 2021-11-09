@@ -57,7 +57,7 @@ created: 1629505311218
 ### Features
 
 - native dendron preview ([[docs|dendron._ref.web-ui#preview]])
-- updated onboarding experience ([[docs|dendron.topic.commands#launch-tutorial]])
+- updated onboarding experience ([[docs|dendron.ref.commands#launch-tutorial]])
 
 ### Enhancements
 - better validation for pods
@@ -146,7 +146,7 @@ created: 1629505311218
 
 #### Find missing links Command
 
-![[dendron://dendron.dendron-site/dendron.topic.commands#createmissinglinkednotes,1:#*]]
+![[dendron://dendron.dendron-site/dendron.ref.commands#createmissinglinkednotes,1:#*]]
 
 ### Enhancements
 
@@ -196,11 +196,11 @@ created: 1629505311218
 
 #### Copy Note Ref Range Selections
 
-![[dendron.topic.commands#range-selection,1:#*]]
+![[dendron.ref.commands#range-selection,1:#*]]
 
 #### Random Note Command
 
-![[dendron://dendron.dendron-site/dendron.topic.commands#random-note,1:#*]]
+![[dendron://dendron.dendron-site/dendron.ref.commands#random-note,1:#*]]
 
 ### Show Schema Graph V2
 
@@ -212,8 +212,8 @@ created: 1629505311218
 
 ### Enhancements
 
--   copy note ref will create a block ref and insert block anchors when you have a block element selected ([[docs|dendron.topic.commands#copy-note-ref]])
--   copy note link will create a block link and insert block anchors when you have a block element selected ([[docs|dendron.topic.commands#copy-note-link]])
+-   copy note ref will create a block ref and insert block anchors when you have a block element selected ([[docs|dendron.ref.commands#copy-note-ref]])
+-   copy note link will create a block link and insert block anchors when you have a block element selected ([[docs|dendron.ref.commands#copy-note-link]])
 
 #### Bug Fixes
 
@@ -253,7 +253,7 @@ created: 1629505311218
 -   improved startup speed
 -   block references fully supported in publishing and preview
     @hikchoi
--   toggle scope when running the doctor command ([[plugin docs|dendron.topic.commands#doctor]]) ([[cli docs|dendron.ref.cli#doctor]])
+-   toggle scope when running the doctor command ([[plugin docs|dendron.ref.commands#doctor]]) ([[cli docs|dendron.ref.cli#doctor]])
 
 ### Bug Fixes
 
@@ -293,7 +293,7 @@ created: 1629505311218
 
 #### Insert Note Link Command
 
-![[dendron://dendron.dendron-site/dendron.topic.commands#insert-note-link,1:#*]]
+![[dendron://dendron.dendron-site/dendron.ref.commands#insert-note-link,1:#*]]
 
 ### Enhancements
 
@@ -308,7 +308,7 @@ created: 1629505311218
 ### Enhancements
 
 -   Block Reference Support in Published Site
--   Open Link is Vault Aware ([[docs|dendron.topic.commands#open-link]])
+-   Open Link is Vault Aware ([[docs|dendron.ref.commands#open-link]])
 
 ### Docs
 
@@ -336,7 +336,7 @@ created: 1629505311218
 
 #### Paste File Command
 
-![[dendron.topic.commands#paste-file,1:#*]]
+![[dendron.ref.commands#paste-file,1:#*]]
 
 #### GraphViz Pod
 
@@ -344,7 +344,7 @@ created: 1629505311218
 
 ### Enhancements
 
--   Workspace Sync Command is now available as a native Dendron command ([[docs|dendron.topic.commands#workspace-sync]])
+-   Workspace Sync Command is now available as a native Dendron command ([[docs|dendron.ref.commands#workspace-sync]])
 
 ### Bug Fixes
 

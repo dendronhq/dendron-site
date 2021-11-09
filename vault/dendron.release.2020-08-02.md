@@ -24,7 +24,7 @@ Dendron has a series of built-in commands. They are all prefixed with `Dendron:`
 
 ### Add Doctor Command
 
-([d4fa71c](https://github.com/dendronhq/dendron/commit/d4fa71cd839782587d47a3ba1b0f7e89742e7ffe)) ([[docs|dendron.topic.commands#doctor]])
+([d4fa71c](https://github.com/dendronhq/dendron/commit/d4fa71cd839782587d47a3ba1b0f7e89742e7ffe)) ([[docs|dendron.ref.commands#doctor]])
 
 This makes sure your workspace is up to date. It will execute the following actions:
 
@@ -37,7 +37,7 @@ This makes sure your workspace is up to date. It will execute the following acti
 
 ### Add ShowHelp Command
 
-([ecf3c68](https://github.com/dendronhq/dendron/commit/ecf3c6822848834d9a00e373d1c59b6628e7f4df))([[docs|dendron.topic.commands#show-help]])
+([ecf3c68](https://github.com/dendronhq/dendron/commit/ecf3c6822848834d9a00e373d1c59b6628e7f4df))([[docs|dendron.ref.commands#show-help]])
 
 Dendron will open your current browser to the [[quickstart|dendron.tutorial.recap]] page. 
 

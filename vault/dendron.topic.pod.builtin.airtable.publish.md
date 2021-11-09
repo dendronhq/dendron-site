@@ -32,7 +32,7 @@ created: 1633392768530
     | DendronId | Title | Summary |
     | --------- | ----- | ------- |
 
-2. Run [[Configure Pod|dendron://dendron.dendron-site/dendron.topic.commands#configure-pod]], select `airtable.publish`, and add the following configuration
+2. Run [[Configure Pod|dendron://dendron.dendron-site/dendron.ref.commands#configure-pod]], select `airtable.publish`, and add the following configuration
     ```yml
     dest: workspace # eg. appGB8ES***
     tableName: Novels
@@ -45,7 +45,7 @@ created: 1633392768530
     └── vault
         └── books.alchemist.md
     ```
-4. Run [[Publish Pod|dendron://dendron.dendron-site/dendron.topic.commands#publish-pod]] and select `airtable.publish`. You should get the following results on airtable
+4. Run [[Publish Pod|dendron://dendron.dendron-site/dendron.ref.commands#publish-pod]] and select `airtable.publish`. You should get the following results on airtable
 
     | DendronId     | Title       | Summary                                                                                                                                                                                          |
     | ------------- | ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |

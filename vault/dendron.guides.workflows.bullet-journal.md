@@ -21,7 +21,7 @@ Bullet journalling is a way of quickly getting your thoughts down for the day. I
 
 ### Sibling Navigation Command
 
-![[dendron.topic.commands#go-next-sibling,1:#*]]
+![[dendron.ref.commands#go-next-sibling,1:#*]]
 
 ### Schema Templates
 

@@ -45,7 +45,7 @@ hen enabled, disables [[#checkpointing]]
     | DendronId | Title | Summary |
     | --------- | ----- | ------- |
 
-2. Run [[Configure Pod|dendron://dendron.dendron-site/dendron.topic.commands#configure-pod]], select `airtable.export`, and add the following configuration
+2. Run [[Configure Pod|dendron://dendron.dendron-site/dendron.ref.commands#configure-pod]], select `airtable.export`, and add the following configuration
     ```yml
     dest: workspace # eg. appGB8ES***
     tableName: Novels
@@ -60,7 +60,7 @@ hen enabled, disables [[#checkpointing]]
         ├── books.harrypotter.md
         └── books.alchemist.md
     ```
-4. Run [[Export Pod|dendron://dendron.dendron-site/dendron.topic.commands#export-pod]] and select `airtable.export`. You should get the following results on airtable
+4. Run [[Export Pod|dendron://dendron.dendron-site/dendron.ref.commands#export-pod]] and select `airtable.export`. You should get the following results on airtable
 
     | DendronId     | Title       | Summary                                                                                                                                                                                          |
     | ------------- | ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
