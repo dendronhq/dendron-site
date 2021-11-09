@@ -2,7 +2,7 @@
 id: gHERCRoEXzASfXorBgZN0
 title: Create Schema From Note Hierarchy
 desc: ''
-updated: 1636388742845
+updated: 1636463285385
 created: 1636386619301
 ---
 
@@ -43,7 +43,7 @@ You can use `Dendron: Create Schema From Note Hierarchy` command to swiftly acco
 
 ## Steps
 ### 1: Activate command
- While having the editor open in the note that is within the hierarchy that you want to create (Eg. `languages.python.data.bool` Activate `Dendron: Create Schema From Note Hierarchy` command
+ While having the editor open in the note that is within the hierarchy that you want to create (Eg. `languages.python.data.bool` Activate `Dendron: Create Schema From Note Hierarchy` command).
 
 ### 2: Choose variable part of hierarchy
 Choose which part of the hierarchy will be globed/pattern replaced. For example you would see options along the lines of:
@@ -83,7 +83,7 @@ schemas:
               - pattern: string
 ```
 
-You can edit this schema to your liking. 
+You can edit this schema to your liking. For example, you can add a [[template|dendron.topic.schema#shortened-template-syntax]] to this schema to have notes new notes at that hierarchy level to automatically have a template applied.
 
 If you want to remake the schema for hierarchy, delete the schema and start from step 1. 
 
