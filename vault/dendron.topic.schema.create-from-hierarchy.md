@@ -2,7 +2,7 @@
 id: gHERCRoEXzASfXorBgZN0
 title: Create Schema From Note Hierarchy
 desc: ''
-updated: 1636463285385
+updated: 1636463417133
 created: 1636386619301
 ---
 
@@ -85,7 +85,6 @@ schemas:
 
 You can edit this schema to your liking. For example, you can add a [[template|dendron.topic.schema#shortened-template-syntax]] to this schema to have notes new notes at that hierarchy level to automatically have a template applied.
 
-If you want to remake the schema for hierarchy, delete the schema and start from step 1. 
-
+If you want to remake the schema for this hierarchy, delete the schema file and start from step 1. 
 ## Related
 * [[dendron.rfc.35-easier-schemas]]
