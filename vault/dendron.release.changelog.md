@@ -2,10 +2,24 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1636140849625
+updated: 1636480201973
 created: 1601508213606
 date: '2022-01-01'
 ---
+
+## 0.68.0
+
+### Features
+- feat(schemas): adding new command - create schema from hierarchy ([[docs|dendron.topic.schema.create-from-hierarchy]]) (#1673) @nickolay
+- feat(views): native dendron preview ([[docs|]]) @kevin
+
+### Enhancements
+* enhance(schemas): adding error messaging and additional validation for when schemas are malformed (#1631) @nickolay
+* enhance(schemas): cmd create-schema-from-hierarchy allow schema to end with '*' (#1680) @nickolay
+
+### Fix
+- fix(pods): github import pod handle deleted authors (#1621) @kevin
+- fix(workspace): warning to remove stub property if the note has content (#1662) @joshi
 
 ## 0.67.2
 
