@@ -2,9 +2,13 @@
 id: LAUb8WcM8rmjxJrR
 title: Arch
 desc: ''
-updated: 1636063850368
+updated: 1636389281294
 created: 1627859879590
 ---
+
+## Summary
+
+You can see a video walkthrough of how we generate notes for publishing and the static export [here](https://youtu.be/Uyyb_s74lzM)
 
 ## Components
 <!-- Major components -->

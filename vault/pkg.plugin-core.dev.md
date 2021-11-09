@@ -2,7 +2,7 @@
 id: 04dd9ad8-3d81-4098-a661-21b6acc6f443
 title: Dev
 desc: ''
-updated: 1634591524567
+updated: 1636430533967
 created: 1621721485330
 ---
 
@@ -17,6 +17,10 @@ cd packages/plugin-core
 rm -rf out
 yarn compile
 ```
+
+## Run
+1. Follow steps from [[Dendron Plugin Quickstart|dendron://dendron.dendron-site/pkg.plugin-core.quickstart]] to get started
+1. Run the `Extension: Local (plugin-core)` [[Launch Task|dendron://dendron.dendron-site/concepts#launch-task]]. 
 
 ## Tips
 

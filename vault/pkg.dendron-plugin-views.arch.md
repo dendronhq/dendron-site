@@ -2,7 +2,7 @@
 id: 30Z8lwy9T7yq6LaU1QtYy
 title: Arch
 desc: ''
-updated: 1636323983730
+updated: 1636431461825
 created: 1635705190399
 ---
 
@@ -12,13 +12,17 @@ Dendron views are served using [Webviews](https://code.visualstudio.com/api/exte
 
 We use [CRA](https://create-react-app.dev/) to generate a client side React App and customize the `webpack` file to generate one javascript bundle and one css bundle for each webview.
 
+
 ## Development Modes
 
-TODO
+When developing new views, there are two ways of doing development
+
+- IDE Mode
+- Browser Mode
 
 ### Browser Mode
 
-In browser mode, we start a webpack dev server in order to see changes in real time. 
+![[dendron://dendron.dendron-site/pkg.dendron-plugin-views.concepts#^FIQf5ZoJXIBP:#*]]
 
 Pros:
 - realtime changes without running `webpack export`
@@ -26,82 +30,39 @@ Pros:
 Cons:
 - not natively integrated into vscode, need to shim methods to access the running workspace
 
-When running in browser mode, the expectation is to use it with the [[Test Workspace|dendron://dendron.dendron-site/dendron.dev.ref.test-workspace]] that comes within the monorepo.
+Browser mode is great for development speed but it means we're not acutally testing the view integration with VSCode. Instead, we need to manually call `postMessage` to simulate VSCode events. 
 
-The following components have different behavior when run in browser mode:
+### IDE Mode
 
-- src/hooks/index.tsx
-```tsx
-useWorkspaceProps {
-    return [
-      {
-        port: 3005,
-        // TODO: pass in from env
-        ws: "/Users/kevinlin/code/dendron/test-workspace",
-        browser: true,
-        theme: "light",
-      },
-    ];
-}
-```
+![[dendron://dendron.dendron-site/pkg.dendron-plugin-views.concepts#^OBOH23affA2J]]
 
-## Components
-<!-- Major components -->
+Pros:
+- full fidelity webview testing 
 
-## Lifecycle
-<!-- Major lifecycles -->
+Cons:
+- slow iteration time, exporting takes time
+- takes longer to debug (need to launch vscode, launch a web view developer tools, and then inspect the view inside of there)
 
-### Stylesheets
 
-The stylesheets used come from multiple different sources.
+## Lifecycle 
 
-They are build from 
+### Browser Mode
 
-```sh
-yarn build:styles
-```
+1. User runs `yarn:start` 
+    This runs the following tasks:
+    ```json
+    "yarn build:index && node scripts/start.js"
+    ```
+    - NOTE: `build:index` generates the `index.html` file that is used to load the plugin. More details in [[Build Index|dendron://dendron.dendron-site/pkg.dendron-plugin-views.ref.build-index]]
+1. Remaining steps are described in [[view startup|#view-startup]]
 
-This runs the following
 
-- loc: scripts/buildStyles.js
+## IDE Mode
 
-Styles are written in:
-* path.join("public", "static", "css", "themes")
-* path.join("build", "static", "css", "themes")
+TODO
 
-The order that styles are applied:
-- bundle (core styles)
-- theme (theme styles)
-
-### Webpack Build
-
-#### Generate entry points
-
-VSCode requires that all webviews be self contained. This is why we generate one entry point per view. 
-
-Below is the webpack configuration that makes this happens.
-
-- config/webpack.config.js
-```js
-entry {
-    ...paths.appPages
-}
-
-```
-
-- config/paths.js
-```js
-export {
-    appPages: {
-        notePreview: resolveApp("src/views/DendronNotePageView"),
-        ...
-    }
-}
-```
 
 ### View Startup
-
-How does the view start
 
 1. Import a component and wrap it with its own DOM renderer
     - src/views/DendronNotePageView.tsx
