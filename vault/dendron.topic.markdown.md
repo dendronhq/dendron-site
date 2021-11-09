@@ -2,7 +2,7 @@
 id: ba97866b-889f-4ac6-86e7-bb2d97f6e376
 title: Markdown
 desc: ''
-updated: 1627571705988
+updated: 1636094383201
 created: 1598673110284
 ---
 - Notice: all references of `MPE` in this guide is in reference to `Dendron Markdown Preview Enhanced`, the default markdown renderer of Dendron
@@ -204,52 +204,59 @@ Content [^1]
 
 ### Frontmatter Variable Substitution
 
-You can use variables defined in your note frontmatter inside your note. The syntax is `{{fm.VAR_NAME}}` where `VAR_NAME` is the name of your variable. The `fm` designates that you want to use a frontmatter variable. 
+You can use variables defined in your note frontmatter inside your note. The syntax is `{{ fm.VAR_NAME }}` where `VAR_NAME` is the name of your variable. The `fm` designates that you want to use a frontmatter variable.
 
-### Nunjuck Templates
-- status: EXPERIMENTAL
+Here is the list of all available default variables:
+- `fm.id`: id of the current note
+- `fm.title`: title of the current note
+- `fm.created`: when the current note has been created.
+- `fm.updated`: when the current note has been last updated.
+- `{{ fm.VAR_NAME }}`any custom frontmatter variable set by the user.
 
-You can use a limited set of [nunjucks](https://mozilla.github.io/nunjucks/) to customize your notes. 
+Note that `fm.created` and `fm.updated` are pre-formatted with the default format option set in your workspace setting.
+(See [[dendron.defaultTimestampDecorationFormat|dendron.topic.config.vscode-config#dendrondefaulttimestampdecorationformat]])
 
-To enable, you can set the following to true inside your `dendron.yml`.
-```yml
-useNunjucks: true
+Here is an some examples of how you can use variable substitution
+
+Given a Dendron note and format option set to `DATETIME_MED`,
+```
+---
+id: M9rOflmkDfdDRoyyt9KHa
+title: Variables
+desc: ''
+updated: 1636093082718
+created: 1636078412308
+alist: ["one", "two", "three"]
+stage: "🌱"
+---
+
+> this note is in it's {{ fm.stage }} stage
+>
+> Created: {{ fm.created }}
+>
+> Updated: {{ fm.updated }}
+
+## {{ fm.title }}
+
+- {{ fm.alist[0] }}
+- {{ fm.alist[1] }}
+- {{ fm.alist[2] }}
 ```
 
-Once enabled, you'll have access to nunjucks specific constructs. You'll have the same variables available as during [[frontmatter variable substitution|dendron.topic.markdown#frontmatter-variable-substitution]]. Nunjucks templates also get access to the `fname` builtin variable which will be substituted with the filename of the current note. 
+The rendered result will be:
+```
+> this note is in it's 🌱 stage
+>
+> Created: 11/5/2021 
+>
+> Updated: 11/5/2021
 
-Below is an example of what you can do with nunjucks.
-
-- Raw Markdown
-```md
 ## Variables
 
-- special variables: {{fname}}
-- special variable as link: [[{{fname}}]]
-- special variable as note ref: ![[{{fname}}#footer]]
-
-## Loops
-
-{% for item in fm.alist %}
-
-- Item: {{item}}
-  {% endfor %}
-
-## Footer
-
-This is some footer content
+- one
+- two
+- three
 ```
-
-- Compiled 
-![nunjucks example](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/topic.nunjucks.jpg)
-
-
-Nunjucks will work for both the preview and for publishing. It is still an experimental feature which means it might change in backwards in-compatible ways at any point.
-
-It currently also has the following limitations:
-- disables live preview of markdown (you'll need to refresh the markdown to see changes)
-- will throw an error if you currently have nunjucks like strings inside your notes `eg. {% %}`
-- will throw errors if you refer to an undefined variable `{{ foo }}` 
 
 ### Diagrams 
 

@@ -2,7 +2,7 @@
 id: 19a0ea9d-7292-4a68-bc6f-ffd462a54bc5
 title: VSCode Config
 desc: ''
-updated: 1630641596187
+updated: 1636094066627
 created: 1619541378119
 ---
 
@@ -80,7 +80,7 @@ date format used for scratch notes
 strategy for adding new scratch notes
 
 
-## dendron.defaultTimestampDecorationFormat: 
+## dendron.defaultTimestampDecorationFormat 
 - default: DATETIME_MED
 - type: string
 - values (see description of values in [luxon style formatting][luxon-style-formatting]) 
