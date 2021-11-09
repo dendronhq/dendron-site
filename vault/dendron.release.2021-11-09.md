@@ -2,7 +2,7 @@
 id: EjPEcAkZIDgzHaVMk4teA
 title: Release Notes (version 0.68)
 desc: ''
-updated: 1636483755615
+updated: 1636484550090
 created: 1636478484110
 ---
 
@@ -52,10 +52,10 @@ Transitioning site build and previewing commands to use nextjs (instead of 11ty)
 #### General Updates
 
 - Join the discussion around the [Dendron Site Reorganization](https://github.com/dendronhq/dendron/discussions/1665), where we're refactoring the hierarchies for a better user experience
-- We are making some changes to our [newsletter](https://buttondown.email/dendron) (heads up, we have a newsletter). We are changing it from a monthly (lets be honest, once every few months) newsletter to a weekly one. The newsletter will feature release highlights, community highlights, and more! For more details, see [[community.email-newsletter]].
+- We are making some changes to our [newsletter](https://buttondown.email/dendron) (heads up, we have a newsletter). We are changing it from a monthly (lets be honest, once every few months) newsletter to a weekly one. The newsletter will feature release highlights, community highlights, and more! For more details, see the [[community.email-newsletter]].
 - New Discord channel, `#today-i-learned`, is a great place to share discoveries about Dendron and anything else
 
-#### Google Docs Import Pod: Sign up for the beta!
+#### Google Docs Import Pod: Sign up for the beta
 
 We're rolling out [[direct integration with google docs|dendron.topic.pod.builtin.google-docs.import]] from inside of dendron. we have used this extensively, internally, and are now looking for external beta testers before rolling it out generally. If interested, please [fill out the survey](https://airtable.com/shrP1yKjIDPFU4wHN) to get access to the beta!
 
