@@ -2,7 +2,7 @@
 id: EjPEcAkZIDgzHaVMk4teA
 title: Release Notes (version 0.68)
 desc: ''
-updated: 1636490112587
+updated: 1636490838478
 created: 1636478484110
 ---
 
@@ -15,7 +15,7 @@ Take a look at the latest [Dendron wiki](https://wiki.dendron.so), and you'll se
 
 ### Highlights
 * feat(schemas): adding new command - create schema from hierarchy ([[docs|dendron.topic.schema.create-from-hierarchy]])
-* feat(views): native dendron preview
+* feat(views): better webviews - faster loading and more stable performance
 * feat(publish): add local table of contents, of current note, in right-hand nav ([[docs|dendron.topic.publish.features#table-of-contents]])
 * feat(publish): merge lookup and search fields ([[docs|dendron.topic.publish.features#lookup-and-search]])
 
