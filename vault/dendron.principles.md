@@ -4,8 +4,7 @@ title: Principles
 desc: ''
 updated: 1628435541479
 created: 1600440828180
-stub: false
-nav_order: 1.3
+nav_exclude: true
 ---
 ## Product
 

@@ -11,9 +11,7 @@ site:
     siteHierarchies:
         - dendron
         - community
-        - pkg
         - tags
-        - templates
     siteRootDir: docs
     gh_edit_repository: 'https://github.com/dendronhq/dendron-site'
     gh_edit_branch: master

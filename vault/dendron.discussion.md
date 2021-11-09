@@ -4,6 +4,8 @@ title: Discussion
 desc: ''
 updated: 1632677939354
 created: 1632677939354
-stub: true
+nav_exclude: true
 ---
+
+#repot
 

@@ -4,8 +4,10 @@ title: Workflows
 desc: ''
 updated: 1599059343888
 created: 1599059343888
-stub: false
-nav_order: 4.6
+nav_exclude: true
 ---
+
+#repot
+
 Different ways of using Dendron to accomplish specific goals
 

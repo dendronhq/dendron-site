@@ -4,8 +4,10 @@ title: 'Cheatsheet'
 desc: ''
 updated: 1596374871110
 created: 1596374871110
-nav_order: 8.5
+nav_exclude: true
 ---
+
+#prune
 
 This is a cheatsheet for Dendron.
 

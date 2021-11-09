@@ -4,7 +4,7 @@ title: Blog
 desc: ''
 updated: 1618003092460
 created: 1618002418773
-nav_order: 2.01
+nav_exclude: true
 has_collection: true
 sort_by: date
 sort_order: reverse

@@ -4,7 +4,7 @@ title: Guides
 desc: ''
 updated: 1604237878745
 created: 1604237852460
-nav_order: 7
+nav_order: 4.01
 ---
 Resources to help you with using Dendron.
 

@@ -4,7 +4,7 @@ title: Concepts
 desc: ''
 updated: 1623921386025
 created: 1595169512265
-nav_order: 3
+nav_order: 5.01
 ---
 Below are some concepts that are helpful to know when using Dendron. Note that features with 🚧 are still under active development and might not be fully implemented.
 

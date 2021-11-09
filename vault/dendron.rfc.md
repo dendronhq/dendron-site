@@ -4,7 +4,10 @@ title: Rfc
 desc: ""
 updated: 1632201670879
 created: 1605539111635
+nav_exclude: true
 ---
+
+#repot
 
 This is the place to propose and track major upcoming changes to Dendron and
 other related projects. It also is a great place to learn about the current and

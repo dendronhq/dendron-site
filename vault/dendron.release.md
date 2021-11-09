@@ -4,12 +4,12 @@ title: Releases
 desc: ''
 updated: 1610062266206
 created: 1595984607503
-stub: false
-nav_order: 8
+nav_exclude: true
 has_collection: true
 sort_by: date
 sort_order: reverse
 expand_exclude: true
 ---
 
+#repot
 

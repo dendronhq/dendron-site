@@ -109,5 +109,5 @@ All discussions for this RFC can be directed to this [github discussion](https:/
 [^publish-theme]: [[Theme|pkg.nextjs-template.t.theme]]
 [^api-theme]: [[Themes|pkg.dendron-api-server.arch#themes]]
 [^next-server-dev]: [[Dev|pkg.dendron-next-server.dev]]
-[^next-template-dev]: [[Dev|pkg.nextjs-template.dev]]
+[^next-template-dev]: [[Quickstart|pkg.nextjs-template.quickstart]]
 [^next-server-arch]: [[Startup|pkg.dendron-next-server.arch#startup]]

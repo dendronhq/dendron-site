@@ -4,9 +4,10 @@ title: Dendron Alternatives
 desc: ""
 updated: 1622997336593
 created: 1615999699967
-nav_order: 5
-published: true
+nav_exclude: true
 ---
+
+#repot
 
 The main difference between Dendron and almost every other note taking tool can be summed up below. This page is created to dive into additional details of specific tools and for SEO purposes 😅
 

@@ -4,8 +4,9 @@ title: Case Studies
 desc: ''
 updated: 1596566527331
 created: 1596566527331
-stub: false
-nav_order: 4.5
+nav_exclude: true
 ---
+
+#repot
 
 
