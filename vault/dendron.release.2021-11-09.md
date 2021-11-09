@@ -2,7 +2,7 @@
 id: EjPEcAkZIDgzHaVMk4teA
 title: Release Notes (version 0.68)
 desc: ''
-updated: 1636484550090
+updated: 1636484692932
 created: 1636478484110
 ---
 
@@ -13,7 +13,7 @@ Take a look at the latest [Dendron wiki](https://wiki.dendron.so), and you'll se
 * Local TOC in the right-hand nav for each page in the published docs
 * Newly combined search bar that can go directly to a note, or search note contents using the `?` prefix
 
-`Dendron: Show Preview` used to be rendered over an iframe. This added some extra latency when rendering the preview and also made features like copy/paste unstable. This change migrates the iframe based preview to be a native webview. It brings the following changes:
+`Dendron: Show Preview` used to add some extra latency when rendering the preview and also made features like copy/paste unstable. This change migrates the old iframe-based preview to be a native webview. It brings the following changes:
 
 * Faster webview performance
 * Clipboard support (copy and paste works)!
