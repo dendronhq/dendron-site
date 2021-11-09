@@ -48,7 +48,7 @@ commands:
     insertNoteIndex:
         enableMarker: false
 workspace:
-    dendronVersion: 0.64.7
+    dendronVersion: 0.67.1
     vaults:
         -
             fsPath: vault
@@ -71,3 +71,25 @@ workspace:
     enableAutoFoldFrontmatter: false
     maxPreviewsCached: 10
     maxNoteLength: 204800
+    task:
+        name: ''
+        dateFormat: ''
+        addBehavior: childOfCurrent
+        statusSymbols:
+            '': ' '
+            wip: w
+            done: x
+            assigned: a
+            moved: m
+            blocked: b
+            delegated: l
+            dropped: d
+            pending: 'y'
+        prioritySymbols:
+            H: high
+            M: medium
+            L: low
+        todoIntegration: false
+        createTaskSelectionType: selection2link
+    enableUserTags: true
+    enableHashTags: true

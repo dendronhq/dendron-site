@@ -8,6 +8,10 @@ created: 1634590309804
 
 ## Workspace
 
+### Modifying contributes in package.json 
+
+The `contributes` in `package.json` is all generated. If you are planning on modifying it - don't add it directly in the json file but follow one of the following instructions instead.
+
 ### Add a new Command
 
 This goes over adding a new command with lookup. To see an example, see this [command](https://github.com/dendronhq/dendron/blob/master/packages/plugin-core/src/commands/InsertNoteLink.ts) and this commit: `cc8a02b4`.
