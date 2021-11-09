@@ -4,7 +4,7 @@ title: Changelog
 desc: ''
 updated: 1636490139264
 created: 1601508213606
-date: '2022-01-01'
+nav_order: 2
 ---
 
 ## 0.68.0

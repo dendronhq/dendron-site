@@ -4,7 +4,7 @@ title: Release Notes(version 0.6)
 desc: ''
 updated: 1609990768070
 created: 1596374871110
-date: 2020-08-09
+date: '2020-08-09'
 ---
 Another week, another minor release. The much asked for `Rename Note` command is here, as well as a bunch of enhancements to notes and schemas. Enjoy 🌱
 
