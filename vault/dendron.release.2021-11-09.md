@@ -2,13 +2,11 @@
 id: EjPEcAkZIDgzHaVMk4teA
 title: Release Notes (version 0.68)
 desc: ''
-updated: 1636480278927
+updated: 1636480628276
 created: 1636478484110
 ---
 
 Dendron 0.68 has sprouted  🌱
-
-### Highlights
 
 Take a look at the latest [Dendron wiki](https://wiki.dendron.so), and you'll see some new features directly from these highlights:
 
@@ -17,15 +15,17 @@ Take a look at the latest [Dendron wiki](https://wiki.dendron.so), and you'll se
 
 Also: an enhancement in this release delivers breaking changes announced last week, due to some renaming of commands, which can be referenced in the changelog.
 
-### Everything Else
+### Highlights
 * feat(schemas): adding new command - create schema from hierarchy
 * feat(views): native dendron preview
 * feat(publish): add local table of contents, of current note, in right-hand nav
 * feat(publish): merge lookup and search fields
+* enhance(publish): migrate publish related commands to nextjs
+
+### Everything Else
 * enhance(schemas): adding error messaging and additional validation for when schemas are malformed
 * enhance(schemas): cmd create-schema-from-hierarchy allow schema to end with `*`
 * enhance(schema): update schemas on save instead of having to reload workspace
-* enhance(publish): migrate publish related commands to nextjs
 * enhance(commands): move header supports multi vault
 * enhance(commands): allow creation of new notes when move header destination doesn't exist yet
 * fix(pods): github import pod handle deleted authors
