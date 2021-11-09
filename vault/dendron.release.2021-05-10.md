@@ -46,4 +46,4 @@ You can see an overview of all roles [[here|community.roles]]
   - LaTeX not rendering properly
 
 ### Changelog
-![[dendron.release.changelog#0404:#040]]
+![[changelog#0404:#040]]

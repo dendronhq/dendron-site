@@ -198,7 +198,7 @@ Seed Browser is a new view that let's you view Seeds that are available in the S
 ### Features
 
 #### Better Lookup by Default
-Last week we announced a [[better lookup|dendron.release.changelog#0531]] command, rebuild from the ground up to be faster, more stable, and easier to embed into new commands. We have now finished migrating all existing lookup features to the new commands and have switched to using it for all lookup related operations. 
+Last week we announced a [[better lookup|changelog#0531]] command, rebuild from the ground up to be faster, more stable, and easier to embed into new commands. We have now finished migrating all existing lookup features to the new commands and have switched to using it for all lookup related operations. 
 
 There shouldn't be any noticable difference in your daily workflow, but there are some breaking changes that needs to be addressed described below.
 

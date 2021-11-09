@@ -9,8 +9,8 @@ created: 1629234795602
 Dendron 0.55 has sprouted  🌱
 
 ### Highlights
-- workspace: addition **Insert Note Index** command to quickly create index notes ([[docs|dendron.release.changelog#insert-note-index-command]])
-- workspace: autocomplete and validation for `dendron.yml` ([[docs|dendron.release.changelog#validation-and-autocomplete-for-dendronyml]])
+- workspace: addition **Insert Note Index** command to quickly create index notes ([[docs|changelog#insert-note-index-command]])
+- workspace: autocomplete and validation for `dendron.yml` ([[docs|changelog#validation-and-autocomplete-for-dendronyml]])
 - views: calendar view is now generally available ([[docs|dendron._ref.web-ui#calendar-view]])
 - markdown: set custom colors 
 - markdown: colored tags now show up decorated in tree view 
@@ -74,5 +74,5 @@ You can see an overview of all roles [[here|community.roles]]
   - [Faulty CSS Classes Disabling Reference Links · Issue #1148 · dendronhq/dendron](https://github.com/dendronhq/dendron/issues/1148)
 
 ### Changelog
-![[dendron.release.changelog#055,1:#054]]
+![[changelog#055,1:#054]]
 

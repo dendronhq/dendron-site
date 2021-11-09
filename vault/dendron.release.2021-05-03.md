@@ -37,5 +37,5 @@ You can see an overview of all roles [[here|community.roles]]
 - [Flammehawk](https://github.com/flammehawk) @fudo#1010
   - [Improved docs for Dendron Configuration Options](https://github.com/dendronhq/dendron-site/pull/85)
 
-![[dendron.release.changelog#040:#039]]
+![[changelog#040:#039]]
 

@@ -80,4 +80,4 @@ You can see an overview of all roles [[here|community.roles]]
 	- [Show Preview does not show contents of all children under a scope](https://github.com/dendronhq/dendron/issues/1663)
 
 ### Changelog
-![[dendron.release.changelog#0680,1:#0660]]
+![[changelog#0680,1:#0660]]

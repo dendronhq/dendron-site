@@ -12,10 +12,10 @@ Dendron 0.54 has sprouted  🌱
 
 - new lookup commands: lookup has split into "Lookup Note" and "Lookup Schema". these commands are significantly faster 🚀 than the current lookup on large workspaces ([[docs|dendron.ref.commands#lookup-note]])
 - frontmatter tags: create `tags: [awesome, sprouts]` directly in the frontmatter  ([[docs|dendron.topic.tags#frontmatter-tags]])
-- custom tag colors: create the perfect color palette for each of your tags ([[docs|dendron.release.changelog#custom-colors-for-tags]])
-- rename headers: like **Rename Note** but for headers ([[docs|dendron.release.changelog#rename-header-command]])
-- integrated seeds: seed commands are now available from within the plugin ([[docs|dendron.release.changelog#seed-commands]])
-- github publish pod: update the status of github issues from inside of Dendron ([[docs|dendron.release.changelog#github-publish-pod]])
+- custom tag colors: create the perfect color palette for each of your tags ([[docs|changelog#custom-colors-for-tags]])
+- rename headers: like **Rename Note** but for headers ([[docs|changelog#rename-header-command]])
+- integrated seeds: seed commands are now available from within the plugin ([[docs|changelog#seed-commands]])
+- github publish pod: update the status of github issues from inside of Dendron ([[docs|changelog#github-publish-pod]])
 - quality of life improvements
     - auto-resolve conflicting keybinding from vim 
 - lots of fixes
@@ -63,4 +63,4 @@ Issues:
 
 
 ### Changelog
-![[dendron.release.changelog#054:#053]]
+![[changelog#054:#053]]

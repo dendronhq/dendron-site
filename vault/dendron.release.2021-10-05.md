@@ -70,6 +70,6 @@ You can see an overview of all roles [[here|community.roles]]
     - [Select vault smart status/always prompt config option](https://github.com/dendronhq/dendron/issues/1462)
 
 ### Changelog
-![[dendron.release.changelog#062,1:#0601]]
+![[changelog#062,1:#0601]]
 
 

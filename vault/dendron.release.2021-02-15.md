@@ -28,4 +28,4 @@ You can see an overview of all roles [[here|community.roles]]
 - [Daniel Chapman](https://github.com/dschapman)
     - [Manually Triggering Intellisense doesn't work if an alias is more than one word](https://github.com/dendronhq/dendron/issues/473)
 
-![[dendron.release.changelog#0281:#0272]]
+![[changelog#0281:#0272]]

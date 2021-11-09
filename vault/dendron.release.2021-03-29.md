@@ -38,4 +38,4 @@ You can see an overview of all roles [[here|community.roles]]
 - [John Young](https://github.com/iterating) @JohnYoung626#5967 
   - issue with refactoring
 
-![[dendron.release.changelog#0341:#0340]]
+![[changelog#0341:#0340]]

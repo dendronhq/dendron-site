@@ -58,5 +58,5 @@ Version numbers for this week's release
 
 ### Changelog
 
-![[dendron.release.changelog#0222:#0212]]
+![[changelog#0222:#0212]]
 

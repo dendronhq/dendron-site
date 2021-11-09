@@ -49,4 +49,4 @@ You can see an overview of all roles [[here|community.roles]]
   - readme correction
 
 ### Changelog
-![[dendron.release.changelog#043:#042]]
+![[changelog#043:#042]]

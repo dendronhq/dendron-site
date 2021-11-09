@@ -33,4 +33,4 @@ You can see an overview of all roles [[here|community.roles]]
 - [Boxian](https://github.com/b0xian) @boxian#6506 `+@bugcatcher`
     - [True Portability for Dendron · Issue #522 · dendronhq/dendron](https://github.com/dendronhq/dendron/issues/522)
 
-![[dendron.release.changelog#0313:#0310]]
+![[changelog#0313:#0310]]

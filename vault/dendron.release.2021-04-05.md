@@ -15,7 +15,7 @@ Dendron 0.36 has sprouted  🌱
 - general performance and stability improvements
 
 ### Spring Cleaning
-- Dendron's default behavior is to create a new note via wiki links when [go to definition](https://tomassetti.me/go-to-definition-in-the-language-server-protocol/) is invoked. this has some annoying [side effects](https://github.com/dendronhq/dendron/issues/564) which we're fixing by creating a [[dedicated command|dendron.release.changelog#goto-note-command]] for wiki link navigation. If you're currently relying on `GoToDefinition` to handle creating new notes, know this functionality will go away in future releases. Instead, use the new `Goto Note` command
+- Dendron's default behavior is to create a new note via wiki links when [go to definition](https://tomassetti.me/go-to-definition-in-the-language-server-protocol/) is invoked. this has some annoying [side effects](https://github.com/dendronhq/dendron/issues/564) which we're fixing by creating a [[dedicated command|changelog#goto-note-command]] for wiki link navigation. If you're currently relying on `GoToDefinition` to handle creating new notes, know this functionality will go away in future releases. Instead, use the new `Goto Note` command
 
 ### Community
 
@@ -35,4 +35,4 @@ You can see an overview of all roles [[here|community.roles]]
 - [Aleksey Rowan](https://github.com/aleksey-rowan) @aleksey#5276 `+taxonomist`
 Add a note about yarn failing with npm v7 on Windows
 
-![[dendron.release.changelog#0352:#0350]]
+![[changelog#0352:#0350]]

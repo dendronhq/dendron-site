@@ -42,4 +42,4 @@ You can see an overview of all roles [[here|community.roles]]
 - [Waldir Pimenta](https://github.com/waldyrious)
   - fix typo
 
-![[dendron.release.changelog#0331:#0330]]
+![[changelog#0331:#0330]]

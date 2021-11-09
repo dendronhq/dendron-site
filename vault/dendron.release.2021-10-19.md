@@ -65,4 +65,4 @@ You can see an overview of all roles [[here|community.roles]]
     - update dendron troubleshooting guide
 
 ### Changelog
-![[dendron.release.changelog#064,1:#063]]
+![[changelog#064,1:#063]]

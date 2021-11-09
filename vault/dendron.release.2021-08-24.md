@@ -10,8 +10,8 @@ Dendron 0.56 has sprouted  🌱
 
 ### Highlights
 
-- (workspace) better lookup commands: new note and schema lookups, that are much faster and more stable, are now default for all workspaces ([[docs|dendron.release.changelog#better-lookup-by-default]])
-- **(breaking-change)** breaking changes have been made to vault selection and copy note link modifier behaviors [[docs|dendron.release.changelog#breaking-changes]]
+- (workspace) better lookup commands: new note and schema lookups, that are much faster and more stable, are now default for all workspaces ([[docs|changelog#better-lookup-by-default]])
+- **(breaking-change)** breaking changes have been made to vault selection and copy note link modifier behaviors [[docs|changelog#breaking-changes]]
   - [[note lookup modifier docs|dendron.topic.lookup.modifiers]]
   - [[note lookup keybinding docs|dendron.topic.lookup.keybindings]]
 - (workspace) dendron will not freeze when parsing large files
@@ -42,5 +42,5 @@ You can see an overview of all roles [[here|community.roles]]
   - [The calendar panel expands automatically when the last editor is closed · Issue #1185 · dendronhq/dendron](https://github.com/dendronhq/dendron/issues/1185)
 
 ### Changelog
-![[dendron.release.changelog#056,1:#055]]
+![[changelog#056,1:#055]]
 

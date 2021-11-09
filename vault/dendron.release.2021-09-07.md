@@ -67,6 +67,6 @@ You can see an overview of all roles [[here|community.roles]]
     - [[Bug/Feature] HTML-images · Issue #1273 · dendronhq/dendron](https://github.com/dendronhq/dendron/issues/1273)
 
 ### Changelog
-![[dendron.release.changelog#058,1:#057]]
+![[changelog#058,1:#057]]
 
 

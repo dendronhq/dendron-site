@@ -41,4 +41,4 @@ A big **thanks** to the following gardeners that brought up issues, contribution
   - [Lookup not showing certain schema completions](https://github.com/dendronhq/dendron/issues/736)
 
 ### Changelog
-![[dendron.release.changelog#042:#041]]
+![[changelog#042:#041]]

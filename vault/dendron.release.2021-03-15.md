@@ -41,4 +41,4 @@ You can see an overview of all roles [[here|community.roles]]
   - [a textwrap issue](https://github.com/dendronhq/dendron/issues/535)
 
 
-![[dendron.release.changelog#0322:#0320]]
+![[changelog#0322:#0320]]

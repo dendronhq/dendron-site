@@ -69,4 +69,4 @@ Issues:
   - [Find backlink candidates using basename](https://github.com/dendronhq/dendron/issues/1059)
 
 ### Changelog
-![[dendron.release.changelog#053:#052]]
+![[changelog#053:#052]]

@@ -67,6 +67,6 @@ You can see an overview of all roles [[here|community.roles]]
 
 
 ### Changelog
-![[dendron.release.changelog#059,1:#058]]
+![[changelog#059,1:#058]]
 
 

@@ -34,4 +34,4 @@ A big **thanks** to the following gardeners that brought up issues, contribution
 You can see an overview of all roles [[here|community.roles]]
 
 ### Changelog
-![[dendron.release.changelog#064,1:#063]]
+![[changelog#064,1:#063]]

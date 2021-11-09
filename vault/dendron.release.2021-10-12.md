@@ -60,4 +60,4 @@ You can see an overview of all roles [[here|community.roles]]
     - issue with github link on dendron-site
 
 ### Changelog
-![[dendron.release.changelog#0630,1:#062]]
+![[changelog#0630,1:#062]]

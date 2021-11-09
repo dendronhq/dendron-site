@@ -36,4 +36,4 @@ You can see an overview of all roles [[here|community.roles]]
 - [Stedag](https://github.com/Stedag)
     - fix typo
 
-![[dendron.release.changelog#0292:#0281]]
+![[changelog#0292:#0281]]

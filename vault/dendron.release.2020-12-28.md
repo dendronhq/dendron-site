@@ -52,5 +52,5 @@ Last and most of all, a big **thanks** to the following gardeners that brought u
 
 ### Changelog
 
-![[dendron.release.changelog#0212:#0202]]
+![[changelog#0212:#0202]]
 

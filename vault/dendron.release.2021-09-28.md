@@ -83,6 +83,6 @@ You can see an overview of all roles [[here|community.roles]]
     - [.html remains at end of reference note card links (in NextJS) and breaks links · Issue #1400 · dendronhq/dendron](https://github.com/dendronhq/dendron/issues/1400)
 
 ### Changelog
-![[dendron.release.changelog#0610,1:#060]]
+![[changelog#0610,1:#060]]
 
 

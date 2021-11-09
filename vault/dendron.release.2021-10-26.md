@@ -77,4 +77,4 @@ You can see an overview of all roles [[here|community.roles]]
     - #dendron.taxonomist
     - fix typo in issue templates
 ### Changelog
-![[dendron.release.changelog#065,1:#0640]]
+![[changelog#065,1:#0640]]

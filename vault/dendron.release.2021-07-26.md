@@ -9,8 +9,8 @@ created: 1627282161908
 Dendron 0.52 has sprouted  🌱
 
 ### Highlights
-- Non-blocking workspace initialization ([[docs|dendron.release.changelog#non-blocking-workspace-initialization]])
-- Dendron Markdown Preview Enhanced no longer required ([[docs|dendron.release.changelog#deprecate-markdown-preview-enhanced]])
+- Non-blocking workspace initialization ([[docs|changelog#non-blocking-workspace-initialization]])
+- Dendron Markdown Preview Enhanced no longer required ([[docs|changelog#deprecate-markdown-preview-enhanced]])
 - Find missing links in entire workspace  ([[docs|dendron.ref.commands#createmissinglinkednotes]])
 - Hide the filter view in the note graph 
 - Warn against missing frontmatter ([[docs|dendron.ref.commands#fixfrontmatter]])
@@ -77,4 +77,4 @@ You can see an overview of all roles [[here|community.roles]]
   - [Update dendron.topic.links.md](https://github.com/dendronhq/dendron-site/pull/148)
 
 ### Changelog
-![[dendron.release.changelog#052,1:#051]]
+![[changelog#052,1:#051]]

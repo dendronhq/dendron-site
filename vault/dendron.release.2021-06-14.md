@@ -46,4 +46,4 @@ You can see an overview of all roles [[here|community.roles]]
   - [Tables in note refs not rendered in preview properly](https://github.com/dendronhq/dendron/issues/815)
 
 ### Changelog
-![[dendron.release.changelog#046:#045]]
+![[changelog#046:#045]]

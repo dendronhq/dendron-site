@@ -6,7 +6,7 @@ updated: 1619488308792
 created: 1619460958432
 ---
 
-[[Dendron 0.39|dendron.release.changelog#039]] has sprouted  🌱
+[[Dendron 0.39|changelog#039]] has sprouted  🌱
 
 ### Highlights
 - much faster startup performance for large workspaces 🚀🚀🚀

@@ -45,4 +45,4 @@ This release comes with the following versions:
 - dendron plugin and dendron markdown preview will be auto-installed by VSCode
 - See the upgrade instructions [[here for dendron-11ty and dendron cli|dendron.guides.upgrading#dendron-cli-and-dendron-11ty]]
 
-![[dendron.release.changelog#0232:#0222]]
+![[changelog#0232:#0222]]
