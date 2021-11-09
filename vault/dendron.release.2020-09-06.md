@@ -37,7 +37,7 @@ These release notes are summary of the more notable changes, for the full list, 
 
 ## Markdown
 
-### Support offset with note refs ([[docs|dendron.topic.references]])
+### Support offset with note refs ([[docs|dendron.topic.note-reference]])
 
 A note reference offset is a way to skip a number of lines when using a note reference. The syntax is `,{number}`. Below is an example of using a note reference offset to offset an initial heading, skipping the actual header when doing the embedding.
 
@@ -58,7 +58,7 @@ A note reference offset is a way to skip a number of lines when using a note ref
 
 ### Support note references when Publishing Notes ([[docs|dendron.topic.publish]])
 
-Dendron has [[note references|dendron.topic.references]] that let you inline either the whole note or parts of a note into another note. Publishing via Dendron will also publish note references as part of the process.
+Dendron has [[note references|dendron.topic.note-reference]] that let you inline either the whole note or parts of a note into another note. Publishing via Dendron will also publish note references as part of the process.
 
 <a href="https://www.loom.com/share/8eb01f6c3196415c8aadc4992805a176"> <img style="" src="https://cdn.loom.com/sessions/thumbnails/8eb01f6c3196415c8aadc4992805a176-with-play.gif"> </a>
 

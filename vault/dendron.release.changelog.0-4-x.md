@@ -267,7 +267,7 @@ created: 1629505311218
 
 #### Block Reference Refs Support
 
-![[dendron.topic.references#block-reference,1:#*]]
+![[dendron.topic.note-reference#block-reference,1:#*]]
 
 #### Workspace Vaults
 
@@ -332,7 +332,7 @@ created: 1629505311218
 
 #### Block References
 
-![[dendron.topic.references#block-reference,1:#*]]
+![[dendron.topic.note-reference#block-reference,1:#*]]
 
 #### Paste File Command
 

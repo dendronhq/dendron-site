@@ -16,7 +16,7 @@ This week's release comes with improved references as well as better tooling aro
 
 **Dendron's pretty refs** help you identify when content is embedded from elsewhere and provide links back to the source. 
 
-![[dendron.topic.references#summary,1:#*]] 
+![[dendron.topic.note-reference#summary,1:#*]] 
 
 The **Dendron CLI** lets you access a subset of Dendron's functionality inside the terminal, including the ability to import/export your notes. 
 
@@ -87,7 +87,7 @@ Create new note from a selection
 
 ### Support wildcard refs
 
-![[dendron.topic.references#wildcard-header-reference,1:#*]]
+![[dendron.topic.note-reference#wildcard-header-reference,1:#*]]
 
 ### Enhancements
 

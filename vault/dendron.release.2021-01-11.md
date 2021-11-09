@@ -9,7 +9,7 @@ created: 1610403349466
 Dendron 0.24 has sprouted :seedling:
 
 ### Highlights
-- updated note ref syntax ([[docs|dendron.topic.references]])
+- updated note ref syntax ([[docs|dendron.topic.note-reference]])
   - use `![[foo]]` to create a note ref
 - frontmatter variable substitution ([[docs|dendron.topic.markdown#frontmatter-variable-substitution]])
   - use variables defined in your frontmatter inside your notes!

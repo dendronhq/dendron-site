@@ -41,4 +41,4 @@ You can explore the hierarchical organization of your notes and how your notes a
   - Create a note directly from a link - place your cursor inside this link `[[recipes.new-recipes-to-try]]`, hit `Ctrl+Enter/Cmd+Enter`.
   - Add an alias to a link to change how it shows in the preview. Example: [[My Alias|tutorial]]
   - Relative Links - Link to a specific section of a page with a `#` suffix. Example: [[Additional Link Features|tutorial.3-links-and-graphs#additional-link-features]]
-  - [[Note References|dendron.topic.references]] - Add a section from another note with its content embedded into the current note.
+  - [[Note References|dendron.topic.note-reference]] - Add a section from another note with its content embedded into the current note.

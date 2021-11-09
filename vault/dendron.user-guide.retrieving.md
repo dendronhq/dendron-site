@@ -8,6 +8,7 @@ nav_order: 3.1
 ---
 
 
+- [[Lookup|dendron://dendron.dendron-site/dendron.topic.lookup]] 
 - [[Lookup Modifiers|dendron://dendron.dendron-site/dendron.topic.lookup.modifiers]]
 - [[Lookup Keybindings|dendron://dendron.dendron-site/dendron.topic.lookup.keybindings]]
 - Search #todo

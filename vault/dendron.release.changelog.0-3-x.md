@@ -181,7 +181,7 @@ You can see the full list of information we collect and why we do it in our [[te
 -   better details in diagnostics report
 -   support xvault [[backlinks|dendron.topic.links#backlinks]]
 -   faster backlink generation
--   include content from unpublished notes ([[docs|dendron.topic.references#publishing]])
+-   include content from unpublished notes ([[docs|dendron.topic.note-reference#publishing]])
     -   this allows you to use note references to hierarchies that aren't explicitly published
 -   better [Theia](https://theia-ide.org/) compatibility
 

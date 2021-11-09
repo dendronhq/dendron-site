@@ -54,7 +54,7 @@ You can also copy note link by Right Click on editor and select `Dendron: Copy N
 
 Copies a reference to the current open document
 
-This lets you quickly create a [[note reference|dendron.topic.references]] to the current note.
+This lets you quickly create a [[note reference|dendron.topic.note-reference]] to the current note.
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/ref-note.gif)
 
 #### Header Selection

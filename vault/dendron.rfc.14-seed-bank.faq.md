@@ -40,5 +40,5 @@ As a publisher:
 
 As a consumer:
 - you have online and offline access access to notes that you need
-- you can [[reference|dendron.topic.references#block-reference]] third material within your own docs
+- you can [[reference|dendron.topic.note-reference#block-reference]] third material within your own docs
 

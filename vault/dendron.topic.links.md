@@ -82,6 +82,6 @@ Some examples:
 - wiki link with alias: `[[Foo Note|dendron://vault/foo]]`
 - relative link: `[[Foo Note|dendron://vault/foo#header1]]`
 
-You can also use cross vault links for [[note references|dendron.topic.references]].
+You can also use cross vault links for [[note references|dendron.topic.note-reference]].
 
 - note ref: `![[dendron://vault/foo]]`

@@ -65,7 +65,7 @@ You can link to a specific section of a different note and have the content in-l
 
 ![[Join the community of Dendrologists|dendron.tutorial.conclusion#join-the-community-of-dendrologists:#^discord-block-ref]]
 
-[[References Docs|dendron.topic.references]]
+[[References Docs|dendron.topic.note-reference]]
 
 ### Next Steps
 

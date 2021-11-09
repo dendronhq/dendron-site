@@ -29,7 +29,7 @@ Dendron can also suggest completions for headers. You can type `[[#` to get the 
 
 ## Anchor Completion
 
-Similarly, if you have any [[block anchors|dendron.topic.references#block-anchor]], you can get them by typing `[[#^` for the current file, and ``[[some.note#^` to get the anchors from `some.note`.
+Similarly, if you have any [[block anchors|dendron.topic.note-reference#block-anchor]], you can get them by typing `[[#^` for the current file, and ``[[some.note#^` to get the anchors from `some.note`.
 
 ![](https://i.imgur.com/SU20pQr.png)
 

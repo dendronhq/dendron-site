@@ -39,7 +39,7 @@ Exporting lets you bulk export notes from Dendron into another destinations. The
 
 Publishing lets you take one note and output it into a different format/destination. 
 
-For example, you might want to use our [[markdown pod|dendron.topic.pod.builtin.markdown]] to take a note with [[note references|dendron.topic.references]] and publish it as a regular markdown note to use in a github issue or another tool.
+For example, you might want to use our [[markdown pod|dendron.topic.pod.builtin.markdown]] to take a note with [[note references|dendron.topic.note-reference]] and publish it as a regular markdown note to use in a github issue or another tool.
 
 Future uses of the **publish** method will be taking a note and publishing it to social media (eg. twitter, facebook, linkedin), publishing it to Gmail, and publishing to destinations like Medium and dev.to.
 
