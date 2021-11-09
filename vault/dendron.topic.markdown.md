@@ -282,7 +282,7 @@ graph TD;
     C-->D;
 ```
 
-- NOTE: in order to publish diagrams, you'll need to enable [[mermaid in the config|dendron.ref.config.dendron#mermaid-optional]]
+- NOTE: in order to publish diagrams, you'll need to enable [[mermaid in the config|dendron.ref.config#mermaid-optional]]
 
 ### Folding
 You can create special folded sections with the below syntax.

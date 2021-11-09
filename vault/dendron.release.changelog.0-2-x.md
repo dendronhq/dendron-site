@@ -22,13 +22,13 @@ Extremely powerful templating capabilities with [[nunjuck templates|dendron.topi
 
 ### Bug Fixes
 
--   support turning off pretty refs for dendron preview ([[docs|dendron.ref.config.dendron#useprettyrefs]])
+-   support turning off pretty refs for dendron preview ([[docs|dendron.ref.config#useprettyrefs]])
 
 ## 0.29.1
 
 ### Enhancements
 
--   private vaults ([[docs|dendron.ref.config.dendron#visibility]])
+-   private vaults ([[docs|dendron.ref.config#visibility]])
 -   popover 403 links ([[docs|dendron.topic.publish-legacy.selective-publication#403-page]])
 -   standardize pod cli interface
 
@@ -138,7 +138,7 @@ yarn bootstrap:build
 ### Features
 
 -   mermaid diagram support when publishing ([[docs|dendron.topic.markdown#diagrams]])
--   display note title as link ([[docs|dendron.ref.config.dendron#usenotetitleforlink]])
+-   display note title as link ([[docs|dendron.ref.config#usenotetitleforlink]])
 
 ### Enhancements
 
@@ -178,7 +178,7 @@ You can now publish and build your notes without going to the command line ([[do
 
 -   show progress bar when syncing graph
 -   show progress bar when installing node modules
--   [[useFMTitle|dendron.ref.config.dendron#usefmtitle]] set to true by default
+-   [[useFMTitle|dendron.ref.config#usefmtitle]] set to true by default
 -   add `.gitignore` to newly created workspace
 -   [[Copy Note Url|dendron.topic.commands#copy-note-url]] uses `siteUrl` as value for noteRef
 
@@ -301,7 +301,7 @@ You can now both build your notes for publication and preview it from inside vsc
     -   publish blog like archives using Dendron
 -   CLI Based Doctor ([[docs|dendron.ref.cli#doctor]])
     -   run various tests to make your notes are healthy for the new year
--   use frontmatter as title when publishing and in the preview ([[docs|dendron.ref.config.dendron#usefmtitle]])
+-   use frontmatter as title when publishing and in the preview ([[docs|dendron.ref.config#usefmtitle]])
 
 ### Enhancements
 

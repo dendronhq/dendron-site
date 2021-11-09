@@ -14,7 +14,7 @@ This results in over 5x improvements of initialization times for workspaces with
 
 This cache file is read by Dendron at startup to speed up initial indexing - if the file has not changed, Dendron will load metadata from the cache instead of re-indexing the file. 
 
-To disable this behavior, you can set [[noCaching|dendron.ref.config.dendron#nocaching]] to `true` inside `dendron.yml`
+To disable this behavior, you can set [[noCaching|dendron.ref.config#nocaching]] to `true` inside `dendron.yml`
 
 
 ## Details

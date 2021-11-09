@@ -26,7 +26,7 @@ To create a note, bring up lookup and type `root`. You should see two results wi
 
 Now create a new note using lookup. Bring it up and type `goodbye`. This will create the note `goodbye` in the new vault. By default, Dendron will create notes in the same vault of the current open file. You can change the behavior to have Dendron prompt you each time you want to create a new note. 
 
-To do so, update the [[lookupConfirmVaultOnCreate|dendron.ref.config.dendron#lookupconfirmvaultoncreate]] configuration to true. 
+To do so, update the [[lookupConfirmVaultOnCreate|dendron.ref.config#lookupconfirmvaultoncreate]] configuration to true. 
 
 ### Adding a Remote Vault
 

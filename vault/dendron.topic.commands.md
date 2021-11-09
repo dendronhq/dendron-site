@@ -89,7 +89,7 @@ Insert the contents from a note into another note. You can configure a starting 
 
 When inserting a note, all snippet [[variables|dendron.topic.snippets#variables]] will also be resolved.
 
-- configuration: [[defaultInsertHierarchy|dendron.ref.config.dendron#defaultinserthierarchy]]
+- configuration: [[defaultInsertHierarchy|dendron.ref.config#defaultinserthierarchy]]
 
 ### Insert Note Link
 
@@ -214,7 +214,7 @@ The format of the block is as follows:
 ...
 ```
 
-If used in a multi-vault workspace and [[noXVaultWikiLink|dendron.ref.config.dendron#noxvaultwikilink]] is not set, the wikilinks will have a vault prefix added to avoid ambiguity.
+If used in a multi-vault workspace and [[noXVaultWikiLink|dendron.ref.config#noxvaultwikilink]] is not set, the wikilinks will have a vault prefix added to avoid ambiguity.
 
 Given the following hierarchy:
 ```
@@ -249,7 +249,7 @@ Running it in the note `recipe.eggs` will insert the following at cursor positio
 - [[Florentine|recipe.eggs.florentine]]
 ```
 
-- configuration : [[insertNoteIndex|dendron.ref.config.dendron#insertnoteindex]]
+- configuration : [[insertNoteIndex|dendron.ref.config#insertnoteindex]]
 
 ### Move Note
 

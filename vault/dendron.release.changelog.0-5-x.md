@@ -152,7 +152,7 @@ Seed Browser is a new view that let's you view Seeds that are available in the S
 ### Enhancements
 
 - improve hover message for missing notes 
-- ability to set selection type to `none` ([[docs|dendron.ref.config.dendron#lookup]])
+- ability to set selection type to `none` ([[docs|dendron.ref.config#lookup]])
 - use github publish to create new issues ([[docs|dendron.topic.pod.builtin.github-issue.publish]])
 - nicer refactor preview 
 - treeview improvements when publishing using nextjs
@@ -262,7 +262,7 @@ You can find a reference to all the available lookup modifiers [[here|dendron.to
 The [[Calendar View|dendron._ref.web-ui#calendar-view]] is no longer hidden behind a feature flag and is now ready for general usage.
 
 #### Validation and autocomplete for dendron.yml
-![[dendron.ref.config.dendron#validation-and-autocomplete,1:#*]]
+![[dendron.ref.config#validation-and-autocomplete,1:#*]]
 
 ### Enhancements
 - bring [[Lookup Note|dendron.topic.commands#lookup-note]] to feature parity with existing lookup

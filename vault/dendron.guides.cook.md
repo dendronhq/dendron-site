@@ -100,7 +100,7 @@ There are multiple ways to create a note in a specific vault
 
 We currently haven't implemented a command to do but you can use the current manual steps to implement.
 
-1. Update the [[name|dendron.ref.config.dendron#name]] property in `dendron.yml`
+1. Update the [[name|dendron.ref.config#name]] property in `dendron.yml`
 1. Update the name property on the corresponding [[workspace folders|dendron.ref.config.vscode-config#folders]]
 1. Replace any [[cross Vault Links|dendron.topic.links#cross-vault-links]] with the name of the new workspace
 
@@ -110,7 +110,7 @@ We currently haven't implemented a command to do but you can use the current man
 
 ### Private Vaults
 
-You can create private vaults that won't be published or initialized when others clone the workspace. To do this, run [[Vault Add|dendron.topic.commands#vault-add]] and add your private vault as a local vault. After it's been added, run [[Configure (yaml)|dendron.topic.commands#configure-yaml]] and set the [[visibility|dendron.ref.config.dendron#visibility]] of the vault to "private" in `dendron.yml`.
+You can create private vaults that won't be published or initialized when others clone the workspace. To do this, run [[Vault Add|dendron.topic.commands#vault-add]] and add your private vault as a local vault. After it's been added, run [[Configure (yaml)|dendron.topic.commands#configure-yaml]] and set the [[visibility|dendron.ref.config#visibility]] of the vault to "private" in `dendron.yml`.
 
 ```yml
 vaults:

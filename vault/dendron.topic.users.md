@@ -53,4 +53,4 @@ just notes under the `user.` hierarchy. This has a lot of benefits:
 
 #### Configuration
 
-Don't like user tags? You can disable them by setting the [[enableUserTags|dendron.ref.config.dendron#enableusertags]] configuration to false.
+Don't like user tags? You can disable them by setting the [[enableUserTags|dendron.ref.config#enableusertags]] configuration to false.

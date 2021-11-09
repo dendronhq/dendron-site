@@ -62,7 +62,7 @@ Note that the color you assign your tag will also be displayed in the [[Dendron 
 
 The automatically assigned tag colors can be disabled. To disable them in
 publishing, see [[noRandomlyColoredTags site config|dendron.topic.publish-legacy.configuration#norandomlycoloredtags]],
-and to disable them in the editor  see [[noRandomlyColoredTags general config|dendron.ref.config.dendron#norandomlycoloredtags]].
+and to disable them in the editor  see [[noRandomlyColoredTags general config|dendron.ref.config#norandomlycoloredtags]].
 
 ### Publishing
 
@@ -90,7 +90,7 @@ You might have already noticed this when you opened the tag, but tags are just n
 
 #### Configuration
 
-Don't like hashtags? You can disable them by setting the [[enableUserTags|dendron.ref.config.dendron#enablehashtags]] configuration to false.
+Don't like hashtags? You can disable them by setting the [[enableUserTags|dendron.ref.config#enablehashtags]] configuration to false.
 
 ## Frontmatter tags
 
