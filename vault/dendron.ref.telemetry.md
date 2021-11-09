@@ -2,7 +2,7 @@
 id: 84df871b-9442-42fd-b4c3-0024e35b5f3c
 title: Telemetry
 desc: ''
-updated: 1635149585241
+updated: 1636442612590
 created: 1619460500071
 ---
 
@@ -108,7 +108,6 @@ Events
 - Lookup Update: when lookup items are updated
 - Lookup Accept: when a result from lookup is accepted
 
-
 | Field           | Attributes | Description                                                                        |
 | --------------: | :--------: | ---------------------------------------------------------------------------------- |
 | `flavor`        | _string_   | What kind of lookup ("schema" or "note")                                           |
@@ -125,6 +124,13 @@ We collect an invocation metric when a [[commands|dendron.topic.commands]] is in
 | ---------: | :--------: | -------------------------------------------- |
 | `error`    | _boolean_  | Did an error happen during this phase?       |
 | `duration` | _number_   | How long did it take to execute this command |
+
+For commands that utilze the core lookup module, we additionally collect the state of the lookup modifiers at initial invocations as well as on manual button triggers.
+
+| Field      | Attributes | Description                                  |
+| ---------: | :--------: | -------------------------------------------- |
+| `command`  | _string_   | What is the invoked command?                 |
+| `button`   | _object_   | What is the button's state?                  |
 
 ### CLI commands
 
@@ -154,7 +160,6 @@ This is an exhaustive list of CLI command arguments collected on invocation.
 |    seed    |   `mode` |  _string_  | What seed mode was used (e.g. `create_workspace`, `convert_workspace`) |
 |   vault    |    `cmd` |  _string_  |              What vault command was used (e.g. `create`)               |
 | workspace  | `action` |  _string_  |      What workspace action was used (e.g. `init`, `push`, `pull`)      |
-
 
 ### Contextual UI
 
