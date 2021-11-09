@@ -2,7 +2,7 @@
 id: eea2b078-1acc-4071-a14e-18299fc28f47
 title: Commands
 desc: ''
-updated: 1635942603199
+updated: 1636452505385
 created: 1595261816971
 ---
 
@@ -820,5 +820,9 @@ You can fix a broken wikilink, tags or user mentions, by selecting `Add missing 
 
 ![Broken Links Code Action](https://org-dendron-public-assets.s3.amazonaws.com/images/fix-broken-link.png)
 
+#### Wrap as Markdown Link
 
+Dendron autosuggests to wrap a link as markdown when a http link is selected in editor.
+You can choose `Wrap as Markdown Link` from the code action lightbulb and tt will convert the http link to a markdown link `[](link)`.
 
+![Markdown Link](https://org-dendron-public-assets.s3.amazonaws.com/images/markdownlink.png)
