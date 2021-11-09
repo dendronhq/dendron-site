@@ -4,7 +4,7 @@ title: Cookbook
 desc: ''
 updated: 1635991935341
 created: 1595952505024
-nav_order: 8.9
+nav_order: 6.1
 toc: true
 ---
 
@@ -176,7 +176,7 @@ To drag files into Dendron, open the workspace pane on the side to drag and drop
 
 ![[dendron.topic.commands#initialize-workspace:#*]]
 
-2. by default, dendron uses a `vaults` folder underneath your workspace to store you vaults. Update your [[settings|dendron.guides.settings]] and change `vault` to the path of your current notes (alternatively, you can also copy your current notes into `vault`)
+2. by default, dendron uses a `vaults` folder underneath your workspace to store you vaults. Update your [[settings|dendron._ref.settings]] and change `vault` to the path of your current notes (alternatively, you can also copy your current notes into `vault`)
 
 ```
 "folders": [

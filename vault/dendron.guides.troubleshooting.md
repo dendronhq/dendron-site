@@ -4,6 +4,7 @@ title: Troubleshooting
 desc: ''
 updated: 1635722702072
 created: 1595952505025
+nav_order: 7.1
 ---
 
 ## Summary
@@ -303,5 +304,5 @@ When doing either of these things, please include the following information:
 
 - [[Plugin Logs|dendron.guides.cook#checking-logs]]
 - [[Server Logs|dendron.guides.cook#server-logs]]
-- Contents of your [[workspace settings|dendron.guides.settings]]
+- Contents of your [[workspace settings|dendron._ref.settings]]
 - Contents of [[dendron.yml|dendron.topic.commands#configure-yaml]]

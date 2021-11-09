@@ -5,7 +5,7 @@ desc: ''
 updated: 1631833309340
 created: 1595010631247
 stub: false
-nav_order: 1.2
+nav_order: 1.1
 ---
 VSCode auto updates outdated extensions periodically but if you want to trigger it manually, you can click the extensions tab and look for dendron. If there's an update available, it will be done at this point.
 

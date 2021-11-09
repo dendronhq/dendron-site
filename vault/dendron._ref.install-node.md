@@ -4,7 +4,6 @@ title: Install Node
 desc: ''
 updated: 1615652093120
 created: 1610681611843
-published: true
 ---
 
 - visit [nodejs.org](https://nodejs.org/en/) and download node for windows

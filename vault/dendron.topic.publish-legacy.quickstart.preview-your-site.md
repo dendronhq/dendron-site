@@ -14,12 +14,12 @@ The following describes how to prepare your notes for publication using [[Dendro
 
 ### Pre-requisites
 
-- node version 12 or higher, see installation guide [[here|dendron.guides.install-node]]
+- node version 12 or higher, see installation guide [[here|dendron._ref.install-node]]
 
 ### Requirements
 
 - pre-requisite: 
-  - node version 12 or higher, see installation guide [[here Node|dendron.guides.install-node]]
+  - node version 12 or higher, see installation guide [[here Node|dendron._ref.install-node]]
 
 ### Setup
 

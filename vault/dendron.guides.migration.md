@@ -1,9 +1,10 @@
 ---
 id: f9b4fc21-7613-4c8a-9257-cec4c06b67f9
-title: Migration
+title: Migrating from Other Tools
 desc: ''
 updated: 1618154129829
 created: 1603982164242
+nav_order: 2.1
 ---
 This note covers migrating your notes from other tools
 
