@@ -1,6 +1,6 @@
 ---
 id: 4ldfGgtJ10frfLFTyaeXH
-title: "6 - Learn In Public: The fastest way to learn"
+title: '6 - Learn In Public: The fastest way to learn'
 desc: ''
 updated: 1636479994159
 created: 1636479994159

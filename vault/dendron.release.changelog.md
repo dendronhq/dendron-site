@@ -2,16 +2,37 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1636140849625
+updated: 1636490139264
 created: 1601508213606
 date: '2022-01-01'
 ---
+
+## 0.68.0
+
+### Features
+- feat(schemas): adding new command - create schema from hierarchy ([[docs|dendron.topic.schema.create-from-hierarchy]]) (#1673) @nickolay
+- feat(views): better webviews - faster loading and more stable performance @kevin
+  - `Dendron: Show Preview` used to add some extra latency when rendering the preview and also made features like copy/paste unstable. This change migrates the old iframe-based preview to be a native webview. It brings the following changes:
+    * Faster webview performance
+    * Clipboard support (copy and paste works)!
+    * Live color theme updates (vs reloading your window for changes to take effect)
+    * Bundle native preview with webpack
+    * Build native preview on `yarn setup`
+    * Cleanup of assets
+
+### Enhancements
+* enhance(schemas): adding error messaging and additional validation for when schemas are malformed (#1631) @nickolay
+* enhance(schemas): cmd create-schema-from-hierarchy allow schema to end with '*' (#1680) @nickolay
+
+### Fix
+- fix(pods): github import pod handle deleted authors (#1621) @kevin
+- fix(workspace): warning to remove stub property if the note has content (#1662) @joshi
 
 ## 0.67.2
 
 ### Breaking changes
 
-An enhancement in this release delivers breaking changes announced last week: [[Changelog|dendron://dendron.dendron-site/dendron.release.changelog#^kSChN1jT6OMc]]
+An enhancement in this release delivers breaking changes announced last week: [[Changelog|dendron.release.changelog#^kSChN1jT6OMc]]
 
 ### Features
 * feat(publish): add local table of contents, of current note, in right-hand nav ([[docs|dendron.topic.publish.features#table-of-contents]]) (#1428)  @viztor
