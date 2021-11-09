@@ -49,7 +49,7 @@ Some popular use cases include:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/3io2fHRmZsE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-You can find a rough transcript of this onboarding [[here|dendron.ref.transcript]] for reference (thank you Tom Diaz for providing the transcript).
+You can find a rough transcript of this onboarding [[here|dendron._ref.transcript]] for reference (thank you Tom Diaz for providing the transcript).
 
 ## Join Us
 

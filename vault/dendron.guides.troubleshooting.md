@@ -257,7 +257,7 @@ You can have Dendron create one if you hold down "Cmd+Shift+P" (CTRL+SHIFT+P on 
 
 ### Clear the cache
 
-Delete dendron [[cache|dendron.ref.caching#summary]] files.
+Delete dendron [[cache|dendron._ref.caching#summary]] files.
 
 ### Whitelisting localhost
 

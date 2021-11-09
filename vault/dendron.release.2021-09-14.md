@@ -17,7 +17,7 @@ Dendron 0.59 has sprouted  🌱
 - enhance(publish) support `assetPrefix` option with nextjs publishing
 - enhance(publish) initialize nextjs template with `https` protocol 
 - enhance(publish) autoset sane defaults for nextjs publishing
-- enhance(publish) unpublished notes replaced with link to [[unpublished pages|dendron.ref.unpublished-pages]]
+- enhance(publish) unpublished notes replaced with link to [[unpublished pages|dendron._ref.unpublished-pages]]
 - enhance(publish) support attach option for CLI ([[docs|dendron.topic.publish.cli#^bfvLB8BY4nLb]])
 - enhance(lookup) "Create New" will be first result if no exact match
 - enhance(lookup) Disallow toggle of vault selector when using "Move Note" command

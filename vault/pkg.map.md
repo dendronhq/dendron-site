@@ -90,7 +90,7 @@ Wildcards are nodes that can be put as the children of anything. They can also l
 
 ### Choosing betwen Child vs Section
 
-Following the [[Amoeba pattern|dendron://dendron.dendron-site/dendron.workflows.amoeba]], wildcards should start of as sections of existing notes. If the content needs to be used in multiple places or exceeds 800 lines of text, it should be refactored into a child
+Following the [[Amoeba pattern|dendron://dendron.dendron-site/dendron.guides.workflows.amoeba]], wildcards should start of as sections of existing notes. If the content needs to be used in multiple places or exceeds 800 lines of text, it should be refactored into a child
 
 ## Ref vs Topic
 

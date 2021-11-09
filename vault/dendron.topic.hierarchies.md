@@ -40,7 +40,7 @@ The same hierarchy in Dendron would look like the following:
 
 In the following concepts, we will be using the following file tree
 
-![[dendron.ref.layout#file-tree,1:#additional-folders]]
+![[dendron._ref.layout#file-tree,1:#additional-folders]]
 
 ### Root
 

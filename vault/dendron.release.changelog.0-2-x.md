@@ -247,7 +247,7 @@ You can now publish and build your notes without going to the command line ([[do
 
 You can now do references to notes using `![[note]]` instead of `((ref: [[note]]))` syntax. To reference a header, use `![[note#foo]]`. This changes makes our note ref syntax more consistent with our wiki link syntax.
 
-Note that the new ref syntax expects a [[sluggified|dendron.ref.terms#slug]] header. This is done automatically when you use the updated [[copy note ref|dendron.topic.commands#copy-note-ref]] command.
+Note that the new ref syntax expects a [[sluggified|dendron._ref.terms#slug]] header. This is done automatically when you use the updated [[copy note ref|dendron.topic.commands#copy-note-ref]] command.
 
 This change makes it possible to create a ref to a header with special characters.
 

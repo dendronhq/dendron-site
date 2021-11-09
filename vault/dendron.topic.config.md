@@ -16,5 +16,5 @@ Dendron configuration currently lives in two places:
 ## Legend
 
 - default: the default value of a config
-- status: see [[status|dendron.ref.status]] docs
+- status: see [[status|dendron._ref.status]] docs
 - frontmatter: this option can be set using the note [[frontmatter|dendron.concepts#frontmatter]]

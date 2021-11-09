@@ -30,7 +30,7 @@ The name of the publisher
 Path to the vault. 
 
 ### version
-- [[Next Phase ⏩|dendron.ref.status#next-phase-]]
+- [[Next Phase ⏩|dendron._ref.status#next-phase-]]
 
 The version of this vault. For the initial phase, all seeds will just pull from latest
 

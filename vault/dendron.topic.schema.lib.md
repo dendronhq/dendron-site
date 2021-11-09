@@ -7,7 +7,7 @@ created: 1621288257610
 ---
 
 ## Summary
-- [[Experimental 🧪|dendron.ref.status#experimental-🧪]]
+- [[Experimental 🧪|dendron._ref.status#experimental-🧪]]
 
 The schema library is a collection of existing schemas contributed by the community. You can find the full library as well as instructions on getting started [here](https://github.com/dendronhq/schema-library).
 

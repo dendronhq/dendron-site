@@ -11,19 +11,19 @@ Sometimes, you'll see a `status` underneath certain features or options. This pa
 
 ## LifeCycle
 - new features
-	- [[Planning 🗺️|dendron.ref.status#planning-️]]
-	- [[Work In Progress 🚧|dendron.ref.status#work-in-progress-]]
-	- [[Early Seed 🌱|dendron.ref.status#early-seed-]]
+	- [[Planning 🗺️|dendron._ref.status#planning-️]]
+	- [[Work In Progress 🚧|dendron._ref.status#work-in-progress-]]
+	- [[Early Seed 🌱|dendron._ref.status#early-seed-]]
 - existing features
-	- [[Experimental 🧪|dendron.ref.status#experimental-🧪]]
-	- [[Next Phase ⏩|dendron.ref.status#next-phase-]]
-	- [[Pruning ✂️|dendron.ref.status#pruning-️]]
+	- [[Experimental 🧪|dendron._ref.status#experimental-🧪]]
+	- [[Next Phase ⏩|dendron._ref.status#next-phase-]]
+	- [[Pruning ✂️|dendron._ref.status#pruning-️]]
 
 ## Status
 
 ### Early Seed 🌱
 
-The feature or option was recently added and might only be available in Dendron's [[early seed release|dendron.ref.terms#early-seed-release]]. Early seed features are considured beta and may change at any time.
+The feature or option was recently added and might only be available in Dendron's [[early seed release|dendron._ref.terms#early-seed-release]]. Early seed features are considured beta and may change at any time.
 
 ### Experimental 🧪 
 

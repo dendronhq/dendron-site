@@ -8,7 +8,7 @@ created: 1620426131596
 
 ## Summary
 - [[API|dendron.topic.hooks.api#^bPnv52_x]]
-- [[Experimental 🧪|dendron.ref.status#experimental-🧪]]
+- [[Experimental 🧪|dendron._ref.status#experimental-🧪]]
 
 Hooks allow users to attach custom scripts to various parts of Dendron's lifecycle.
 

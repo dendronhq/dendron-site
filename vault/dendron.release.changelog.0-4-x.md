@@ -25,7 +25,7 @@ created: 1629505311218
 ## 0.49.1
 
 ### Features
-- same file autocomplete headers and anchors ([[docs|dendron.ref.intellisense]])
+- same file autocomplete headers and anchors ([[docs|dendron._ref.intellisense]])
 
 ### Enhancements
 - legacy preview will open links in the first window instead of overriding current window

@@ -14,7 +14,7 @@ created: 1632543447542
 - enhance(workspace) Use sentry to track errors  ([[docs|dendron.dev.errors.reporting]])
 - enhance(lookup) "Create New" will be first result if no exact match
 - enhance(lookup) Disallow toggle of vault selector when using "Move Note" command
-- enhance(publish) unpublished notes replaced with link to [[unpublished pages|dendron.ref.unpublished-pages]]
+- enhance(publish) unpublished notes replaced with link to [[unpublished pages|dendron._ref.unpublished-pages]]
 - enhance(publish) support attach option for CLI ([[docs|dendron.topic.publish.cli#^bfvLB8BY4nLb]])
 
 ## 0.58.4

@@ -14,7 +14,7 @@ Dendron 0.50 has sprouted  🌱
 
 - **Local Note Graphs**. Don't be a tourist. Navigate like a local with local note graphs!
 - **Header autocomplete**. Header autocomplete works for all your notes. Type `[[#` to find all headers in your current note and `[[note.name#` to find a header in a particular note. 
-- **Block reference autocomplete**. Any block in the current not can be referenced (and the reference is automatically added). Just type `[[^` to find all arbitrary blocks you can reference in your current note. More details [[here|dendron.ref.intellisense]]. 
+- **Block reference autocomplete**. Any block in the current not can be referenced (and the reference is automatically added). Just type `[[^` to find all arbitrary blocks you can reference in your current note. More details [[here|dendron._ref.intellisense]]. 
 - **Better ux for block anchors**. They are now faded in the text editor and hidden on published sites
 - **Show/hide labels in graph view** and date to be a minimalist.
 - **Github import pod.** Now, you can import issues directly from Github and have them show up as notes! Learn more [[here|dendron.topic.pod.builtin.github-issue]]
@@ -27,7 +27,7 @@ Our documentation changes a lot week by week. Below is a highlight of some updat
 
 - The revamped [[dendron.tutorial]] is on the Dendron site. Go check it out if you're starting out (or would just like a refresher on all things Dendron).  
 - Added [[dendron.guides.best-practices]] around using Dendron across machines and repo synchronization. 
-- Docs for [[dendron.ref.intellisense]]. 
+- Docs for [[dendron._ref.intellisense]]. 
 - Documented the [[Github Pod|dendron.topic.pod.builtin.github-issue.import]]
 
 

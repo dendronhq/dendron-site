@@ -71,7 +71,7 @@ If using GitHub with SSH keys or access tokens, here is an alternative: SSH keys
 
 If you haven't already done so, install Dendron and initialize a workspace by following the instructions [[here|dendron._ref.install]].
 
-Use the [[Vault Add|dendron.topic.commands#remote-vault]] command via the [[command palette|dendron.ref.terms#command-palette]], select remote vault, and paste the git url of the vault that you like to add
+Use the [[Vault Add|dendron.topic.commands#remote-vault]] command via the [[command palette|dendron._ref.terms#command-palette]], select remote vault, and paste the git url of the vault that you like to add
 
 
 ### Converting a local vault to a remote vault

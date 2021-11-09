@@ -7,7 +7,7 @@ created: 1620495861222
 ---
 
 ## Summary
-- [[Experimental 🧪|dendron.ref.status#experimental-🧪]] ^bPnv52_x
+- [[Experimental 🧪|dendron._ref.status#experimental-🧪]] ^bPnv52_x
 
 ### note
 - This is a plain javascript object that has all properties of a note. See [[NoteProps|pro.common-all#noteprops]]

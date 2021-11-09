@@ -20,7 +20,7 @@ Dendron 0.46 has sprouted  🌱
 ### Docs
 
 Our documentation changes a lot week by week. Below is a highlight of some updates from the past week.
-### [[Pruning ✂️|dendron.ref.status#pruning-️]]
+### [[Pruning ✂️|dendron._ref.status#pruning-️]]
 - [[Legacy Graph View|dendron.topic.graph-view.prune]]
 
 

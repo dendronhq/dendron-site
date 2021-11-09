@@ -29,7 +29,7 @@ And here's how it looks like in the preview or publishing:
 >     - [ ] Order food
 > - [x] Rent payment #important
 
-You can put these in a [[Journal|dendron.workflows.bullet-journal]] to keep
+You can put these in a [[Journal|dendron.guides.workflows.bullet-journal]] to keep
 track of when you completed them, and add [[Tags|dendron.topic.tags]] like in
 the example above to organize them. Using list nesting, you can even describe a
 hierarchy of a big task and the parts of that task that need to be completed. If

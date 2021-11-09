@@ -57,7 +57,7 @@ Turn on to enable [[mermaid support|dendron.topic.markdown#diagrams]]
 
 ### noCaching
 
-Disable dendron [[caching|dendron.ref.caching]]
+Disable dendron [[caching|dendron._ref.caching]]
 
 ### noLegacyNoteRef
 - default: true
@@ -165,7 +165,7 @@ If set to true, the inserted note index block will be wrapped between a marker l
 ### usePrettyRefs
 - default: true
 
-If set to false, don't use [[pretty refs|dendron.ref.terms#pretty-ref]]
+If set to false, don't use [[pretty refs|dendron._ref.terms#pretty-ref]]
 
 ### noRandomlyColoredTags
 - default: false
@@ -279,7 +279,7 @@ strategy for adding new journal notes
 ![[dendron.topic.graph-view#config,1:#*]]
 
 ## Dev
-Development configuration covers option to enable [[experimental 🧪|dendron.ref.status#experimental-🧪]] features and when working on Dendron. 
+Development configuration covers option to enable [[experimental 🧪|dendron._ref.status#experimental-🧪]] features and when working on Dendron. 
 
 
 ### enableWebUI

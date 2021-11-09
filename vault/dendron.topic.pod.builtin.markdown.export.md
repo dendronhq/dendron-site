@@ -7,7 +7,7 @@ created: 1617327868887
 ---
 
 ## Summary
-- status: [[Experimental 🚧|dendron.ref.status#experimental-]]
+- status: [[Experimental 🚧|dendron._ref.status#experimental-]]
 Export notes from Dendron
 
 The export markdown pod will take Dendron markdown and convert it to regular markdown. Dendron specific markup like wikilinks will be converted to their markdown equivalent.

@@ -18,7 +18,7 @@ You can modify snippets by using `> Preferences: Configure User Snippets` and se
 
 ## Quickstart
 
-You can use [[intellisense|dendron.ref.intellisense]] to preview snippets and use `tab` key to complete them.
+You can use [[intellisense|dendron._ref.intellisense]] to preview snippets and use `tab` key to complete them.
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/tab-autocomplete.gif)
 

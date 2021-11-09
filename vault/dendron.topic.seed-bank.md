@@ -42,7 +42,7 @@ We are planning on adding many more content to this registry over time. To help 
 created the [Seed Request Template](https://github.com/dendronhq/dendron/issues/new?assignees=&labels=&template=seed-request.md&title=) on GitHub so you can request new subjects you want to see in the seed bank.
 
 ## Contributing a Seed
-- [[Work In Progress 🚧|dendron.ref.status#work-in-progress-]]
+- [[Work In Progress 🚧|dendron._ref.status#work-in-progress-]]
 
 ## Lookup
 - [[RFC|dendron.rfc.14-seed-bank]]

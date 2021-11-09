@@ -27,7 +27,7 @@ created: 1623536565649
 
 #### More Caching Improvements
 
-Even if your workspace is +10k notes, initialization of said workspace should happen in the matter of seconds. You can read about the details [[here|dendron.ref.caching]]
+Even if your workspace is +10k notes, initialization of said workspace should happen in the matter of seconds. You can read about the details [[here|dendron._ref.caching]]
 
 ### Enhancements
 
@@ -64,7 +64,7 @@ Even if your workspace is +10k notes, initialization of said workspace should ha
 #### Faster startup performance
 
 Dendron startup is now up to 5x faster for large workspaces 🚀🚀🚀
-Prior to this release, Dendron re-indexes all files at startup. We're now smarter about this and will read data from our cache instead if the note contents have not changed. You can read about the details [[here|dendron.ref.caching]].
+Prior to this release, Dendron re-indexes all files at startup. We're now smarter about this and will read data from our cache instead if the note contents have not changed. You can read about the details [[here|dendron._ref.caching]].
 
 ### Enhancements
 

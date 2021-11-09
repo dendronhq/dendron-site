@@ -54,7 +54,7 @@ You can see an example of an UI event propagating back to VSCode [[here|pkg.dend
 
 ## Dendron Preview 
 - codename: Unified Preview
-- status: [[Planning 🗺️|dendron.ref.status#planning-️]]
+- status: [[Planning 🗺️|dendron._ref.status#planning-️]]
 
 The Dendron Preview should be just one particular view in of `nextjs` that is served when using the Dendron Plugin. There are a few special requirements for the preview that aren't there for other views which is why this gets its own section. Specifically, the preview view should support the following features:
 
@@ -74,7 +74,7 @@ So instead of using static assets, we are dynamically fetching the assets instea
 
 ## Dendron Published Site
 - codename: NEXT Publishing 
-- status: [[Planning 🗺️|dendron.ref.status#planning-️]]
+- status: [[Planning 🗺️|dendron._ref.status#planning-️]]
 
 The Dendron Published Site will be the default path published using nextjs. It has the following requirements:
 

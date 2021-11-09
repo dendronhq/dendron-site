@@ -57,7 +57,7 @@ module.exports = {
    ```sh
    npm link
    ```
-2. Go to your [[workspace root|dendron.ref.layout#workspace-root]].
+2. Go to your [[workspace root|dendron._ref.layout#workspace-root]].
    ```sh
    cd $WORKSPACE_ROOT
    ```

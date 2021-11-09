@@ -13,7 +13,7 @@ created: 1623021892393
 By default, all schemas of a given seed are local to the given seed. This means they won't apply outside of the seed vault
 
 ### Hosting Private Registries
-- [[Next Phase ⏩|dendron.ref.status#next-phase-]]
+- [[Next Phase ⏩|dendron._ref.status#next-phase-]]
 
 You will be able to specify on a per package level the registry you want to use. 
 
