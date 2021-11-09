@@ -2,7 +2,7 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1636484334479
+updated: 1636490139264
 created: 1601508213606
 date: '2022-01-01'
 ---
@@ -11,7 +11,14 @@ date: '2022-01-01'
 
 ### Features
 - feat(schemas): adding new command - create schema from hierarchy ([[docs|dendron.topic.schema.create-from-hierarchy]]) (#1673) @nickolay
-- feat(views): native dendron preview ([[read release notes for info|dendron.release.2021-11-09.md]]) @kevin
+- feat(views): better webviews - faster loading and more stable performance @kevin
+  - `Dendron: Show Preview` used to add some extra latency when rendering the preview and also made features like copy/paste unstable. This change migrates the old iframe-based preview to be a native webview. It brings the following changes:
+    * Faster webview performance
+    * Clipboard support (copy and paste works)!
+    * Live color theme updates (vs reloading your window for changes to take effect)
+    * Bundle native preview with webpack
+    * Build native preview on `yarn setup`
+    * Cleanup of assets
 
 ### Enhancements
 * enhance(schemas): adding error messaging and additional validation for when schemas are malformed (#1631) @nickolay

@@ -2,7 +2,7 @@
 id: EjPEcAkZIDgzHaVMk4teA
 title: Release Notes (version 0.68)
 desc: ''
-updated: 1636484692932
+updated: 1636490112587
 created: 1636478484110
 ---
 
@@ -12,15 +12,6 @@ Take a look at the latest [Dendron wiki](https://wiki.dendron.so), and you'll se
 
 * Local TOC in the right-hand nav for each page in the published docs
 * Newly combined search bar that can go directly to a note, or search note contents using the `?` prefix
-
-`Dendron: Show Preview` used to add some extra latency when rendering the preview and also made features like copy/paste unstable. This change migrates the old iframe-based preview to be a native webview. It brings the following changes:
-
-* Faster webview performance
-* Clipboard support (copy and paste works)!
-* Live color theme updates (vs reloading your window for changes to take effect)
-* Bundle native preview with webpack
-* Build native preview on `yarn setup`
-* Cleanup of assets 
 
 ### Highlights
 * feat(schemas): adding new command - create schema from hierarchy ([[docs|dendron.topic.schema.create-from-hierarchy]])
@@ -51,13 +42,13 @@ Transitioning site build and previewing commands to use nextjs (instead of 11ty)
 
 #### General Updates
 
-- Join the discussion around the [Dendron Site Reorganization](https://github.com/dendronhq/dendron/discussions/1665), where we're refactoring the hierarchies for a better user experience
+- We'll be refactoring the hierarchies within the Dendron wiki this week, optimizing for a better user experience. We're open to feedback!
 - We are making some changes to our [newsletter](https://buttondown.email/dendron) (heads up, we have a newsletter). We are changing it from a monthly (lets be honest, once every few months) newsletter to a weekly one. The newsletter will feature release highlights, community highlights, and more! For more details, see the [[community.email-newsletter]].
 - New Discord channel, `#today-i-learned`, is a great place to share discoveries about Dendron and anything else
 
 #### Google Docs Import Pod: Sign up for the beta
 
-We're rolling out [[direct integration with google docs|dendron.topic.pod.builtin.google-docs.import]] from inside of dendron. we have used this extensively, internally, and are now looking for external beta testers before rolling it out generally. If interested, please [fill out the survey](https://airtable.com/shrP1yKjIDPFU4wHN) to get access to the beta!
+We're rolling out [[direct integration with google docs|dendron.topic.pod.builtin.google-docs.import]] from inside of Dendron. we have used this extensively, internally, and are now looking for external beta testers before rolling it out generally. If interested, please [fill out the survey](https://airtable.com/shrP1yKjIDPFU4wHN) to get access to the beta, as we'll need to whitelist your gmail account with our Google App API.
 
 #### Dendron Reading Series
 
