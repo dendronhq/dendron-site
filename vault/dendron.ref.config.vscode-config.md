@@ -2,7 +2,7 @@
 id: 19a0ea9d-7292-4a68-bc6f-ffd462a54bc5
 title: VSCode Config
 desc: ''
-updated: 1636094066627
+updated: 1636539674755
 created: 1619541378119
 ---
 
@@ -161,3 +161,10 @@ LSP log level
 port for server. If not set, will be randomly generated at startup.
 
 [luxon-style-formatting]: https://moment.github.io/luxon/#/formatting
+
+## dendron.watchForNativeWorkspace
+- type: boolean
+- default: true
+
+When true, Dendron will watch workspaces to detect when a native workspace is
+created to simplify initialization. See [[Native Workspaces|dendron.topic.workspace.native]] for details.
