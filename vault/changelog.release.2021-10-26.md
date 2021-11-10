@@ -1,6 +1,6 @@
 ---
 id: dmymhrncBTSn2q4ZgKy5B
-title: Release Notes (version 0.65)
+title: "0.65"
 desc: ''
 updated: 1635282552202
 created: 1635269443644

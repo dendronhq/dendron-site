@@ -1,9 +1,9 @@
 ---
 id: FPXeGgv44ZlJHVoXmU8Ku
-title: Release
+title: Releases
 desc: ''
-updated: 1636500326451
+updated: 1636505621723
 created: 1636500326451
-stub: true
+nav_order: 2.1
 ---
 

@@ -1,6 +1,6 @@
 ---
 id: K6ssYNLMW27BSV6rSZJ5P
-title: Release Notes (version 0.62)
+title: "0.62"
 desc: ''
 updated: 1634062968647
 created: 1633454409770

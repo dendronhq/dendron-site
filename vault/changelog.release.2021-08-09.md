@@ -1,6 +1,6 @@
 ---
 id: mZhQvxLdMJKaqpgyjOTVG
-title: Release Notes (version 0.54)
+title: "0.54"
 desc: ''
 updated: 1628619939706
 created: 1628588136181

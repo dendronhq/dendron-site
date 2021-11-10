@@ -1,6 +1,6 @@
 ---
 id: aURuqCucZegsCpJSb5m90
-title: Release Notes (version 0.59)
+title: "0.59"
 desc: ''
 updated: 1631679038644
 created: 1631659388102

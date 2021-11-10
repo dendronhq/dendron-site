@@ -1,6 +1,6 @@
 ---
 id: nB_CscjeWXqMfdcHfP7iX
-title: Release Notes (version 0.48)
+title: "0.48"
 desc: ''
 updated: 1624910601530
 created: 1624886454307

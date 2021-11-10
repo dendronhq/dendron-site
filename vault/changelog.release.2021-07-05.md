@@ -1,6 +1,6 @@
 ---
 id: KasnPHKjT8aD6RzU0BI3x
-title: Release Notes (version 0.49)
+title: "0.49"
 desc: ''
 updated: 1625491159023
 created: 1625491159023

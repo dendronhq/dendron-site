@@ -1,6 +1,6 @@
 ---
 id: 6aed338c-df05-420d-aa7b-59dfd2214349
-title: Release Notes(version 0.4)
+title: "0.4"
 desc: ''
 updated: 1630790746247
 created: 1595984607502
