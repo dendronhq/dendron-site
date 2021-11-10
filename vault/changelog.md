@@ -2,10 +2,16 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1636490139264
+updated: 1636557142362
 created: 1601508213606
 nav_order: 2
 ---
+
+## 0.68.1
+
+### Breaking changes
+
+Note graph commands lose their `V2` suffix and are now simply `Show Note Graph` and `Show Schema Graph`
 
 ## 0.68.0
 

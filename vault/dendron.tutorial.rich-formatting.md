@@ -2,7 +2,7 @@
 id: 8DCgctK-RMD4EeHjC5_hI
 title: Rich Formatting
 desc: ''
-updated: 1625578804366
+updated: 1636524684640
 created: 1625573403967
 nav_order: 3
 ---
@@ -30,6 +30,7 @@ Result:
 #### Equations
 
 Math typesetting can be written through [Katex](https://wiki.dendron.so/notes/b1919663-cc48-4054-b0cf-4b26fe444907.html)
+
 
 $$
 \int_{-\infty}^\infty f(x)dx
