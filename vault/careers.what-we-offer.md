@@ -2,8 +2,9 @@
 id: eCPft8k7n6TPW69POlUdh
 title: What We Offer
 desc: ''
-updated: 1630626831109
+updated: 1636510050807
 created: 1630626567289
+nav_exclude: true
 ---
 
 - real salaries, founding level equity (with a 7 year exercise window), flexible titles

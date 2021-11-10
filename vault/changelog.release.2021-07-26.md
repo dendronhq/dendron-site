@@ -2,7 +2,7 @@
 id: oLUblPDevwOoYr06
 title: "0.52"
 desc: ''
-updated: 1627320695063
+updated: 1636510296064
 created: 1627282161908
 ---
 
@@ -30,8 +30,8 @@ Our documentation changes a lot week by week. Below is a highlight of some updat
 
 - A new RFC for [[Rich Web Client|dendron.rfc.17-rich-web-client]].
 - A new page for [[Greenhouse Talks|community.greenhouse]].
-- A new job posting for [[Head of Growth|dendron.jobs.head-of-growth]] position.
-- A new job posting for [[Head of Content|dendron.jobs.head-of-content]] position.
+- A new job posting for [[Head of Growth|careers.head-of-growth]] position.
+- A new job posting for [[Head of Content|careers.head-of-content]] position.
 
 ### Community
 

@@ -2,8 +2,9 @@
 id: lQONqUOX3bFd7L4TMekQ5
 title: How We Work
 desc: ''
-updated: 1630626392902
+updated: 1636510062341
 created: 1630626288000
+nav_exclude: true
 ---
 
 - Github and Dendron for issue tracking

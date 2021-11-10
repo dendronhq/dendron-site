@@ -2,7 +2,7 @@
 id: XJvKMQfKVMD1Rm4o
 title: "0.53"
 desc: ''
-updated: 1629238899935
+updated: 1636510302715
 created: 1627884266164
 ---
 
@@ -26,9 +26,9 @@ Our documentation changes a lot week by week. Below is a highlight of some updat
 ### Ongoing 
 
 We're hiring at Dendron!
-- [[Senior Full Stack Engineer|dendron.jobs.senior-full-stack-engineer]]
-- [[Head of Growth|dendron.jobs.head-of-growth]]
-- [[Head of Content|dendron.jobs.head-of-content]]
+- [[Senior Full Stack Engineer|careers.senior-full-stack-engineer]]
+- [[Head of Growth|careers.head-of-growth]]
+- [[Head of Content|careers.head-of-content]]
 
 Work is going on for last weeks CROP ([Create Index Note](https://github.com/dendronhq/dendron/issues/603)).
 Because this is a more involved feature, we've created an [[RFC|dendron.rfc.18-add-note-indexes]] to discuss the implementation details. Please leave any feedback in [this github discussion](https://github.com/dendronhq/dendron/discussions/1076)

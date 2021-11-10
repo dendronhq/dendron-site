@@ -1,8 +1,8 @@
 ---
 id: f83c1d87-eac0-48f3-a5cf-8a69989d8ec1
-title: Dendrons Config
+title: Configuration
 desc: ''
-updated: 1636499639456
+updated: 1636510103165
 created: 1619539817122
 nav_order: 2.1
 ---
