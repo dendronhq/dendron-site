@@ -2,7 +2,7 @@
 id: 1EoNIXzgmhgagqcAo9nDn
 title: PR Checklist
 desc: ''
-updated: 1634081539676
+updated: 1636380009719
 created: 1632348050137
 ---
 
@@ -17,7 +17,7 @@ created: 1632348050137
   - NOTE: if you running mac/linux, check the windows output and vice versa if you are developing on windows
 
 #### Special Cases
-- [ ] if your tests changes an existing snaphot, make sure that snapshots are [updated](https://wiki.dendron.so/notes/cb22bd36-d45a-4ffd-a31e-96c4b39cb7fb.html#updating-test-snapshots)
+- [ ] if your tests changes an existing snapshot, make sure that snapshots are [updated](https://wiki.dendron.so/notes/cb22bd36-d45a-4ffd-a31e-96c4b39cb7fb.html#updating-test-snapshots)
 - [ ] if you are adding a new language feature (graphically visible in vscode/preview/publishing), make sure that it is included in [test-workspace](https://wiki.dendron.so/notes/cb22bd36-d45a-4ffd-a31e-96c4b39cb7fb.html#test-workspace). We use this to manually inspect new changes and for auto regression testiing 
 
 ### Docs
@@ -47,3 +47,7 @@ Docs PR: <URL_TO_DOCS_PR>
 
 ### Analytics
 - [ ] if you are adding analytics related changes, make sure the [Telemetry](https://wiki.dendron.so/notes/84df871b-9442-42fd-b4c3-0024e35b5f3c.html) docs are updated
+
+### Github Issue
+- [ ] If this pull request is addressing an existing issue, make sure to link this PR to the issue that it is resolving.
+- [ ] If the resolution comes with a document update, link the docs PR to the issue as well.
