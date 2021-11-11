@@ -2,7 +2,7 @@
 id: BgsDOw0SLLBAmMS0vpyah
 title: Team Task Management
 desc: ''
-updated: 1635993686664
+updated: 1636673182863
 created: 1635907417724
 published: false
 category: RFCs/Ideas
@@ -64,7 +64,7 @@ This RFC looks into improvements in pods as well as task notes to evolve Dendron
     # team member that is responsible
     owner:
     ```
-1. During sprint planning, the team lead will copy all tasks and run `Pod Export: Github`  [^export-clipboard] to create github issues for the weekly tasks
+1. During sprint planning, the team lead will copy all tasks and run `Pod Export: Github`  [^export-clipboard] to create github issues for the weekly tasks ^TrXlwNFyZn1w
 
 #### Execution
 1. As tasks get completed, individual team members can update the status of the issue
@@ -76,7 +76,7 @@ This RFC looks into improvements in pods as well as task notes to evolve Dendron
 
 #### Wrap Up - Phase I
 1. After we have released the weekly build, all task notes should be marked done
-1. When task notes are marked done, [[task note automation|#^MSZbKVmb0c6S]] should do the following
+1. When task notes are marked done, [[task note automation|#^MSZbKVmb0c6S]] should do the following ^MLcPWZerfWHO
     - add the following comment using the [[github pod|#^IhpPQX5pKLON]]:
         - NOTE: the milestone is available in the task note metadata
         ```md
