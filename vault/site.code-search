@@ -1,50 +1,12 @@
-# Query: command prompt
+# Query: peacock
 # Flags: CaseSensitive WordMatch RegExp
 # Including: dendron.*
 # Excluding: blog.*,dendron.journal.*,.dendron.*,dendron.release.*
 # ContextLines: 1
 
-9 results - 8 files
+1 result - 1 file
 
-dendron.dendron-site • dendron.dev.qa.test.md:
-   58  1. Go to file
-   59: 2. Use command prompt and run `> Tasks: Run tasks`
-   60  3. Find the appropriate package and run `> npm:test:watch engine-test-utils`
-
-  113  
-  114: 1. Use command prompt and run `> Tasks: Run tasks`
-  115  2. Select `test:updateSnapshots`
-
-dendron.dendron-site • dendron.guides.settings.md:
-  7  ---
-  8: You can update Dendron settings by using the VSCode workspace settings by using the command prompt to `Preferences: Open Workspace Settings`
-  9  
-
-dendron.dendron-site • dendron.guides.troubleshooting.md:
-  100  
-  101: The most likely culprit of this error is a bad snippets file. To fix, bring up the command prompt, type `>Configure User Snippets`, open `dendron.code-snippets` and see if there's anything funky with the json on the line mentioned by the error. You can also use tools like [jsonlint](https://jsonlint.com/) to validate your JSON.
-  102  
-
-dendron.dendron-site • dendron.ref.command-prompt.md:
-  8  
-  9: The command prompt is used to execute commands in VSCode. You can bring it up by using `CMD+SHIFT+P` on Mac or `CTRL+SHIFT+P` on Linux and windows.
-
-dendron.dendron-site • dendron.topic.keybindings.md:
-  12  
-  13: To update your keybindings, open the command prompt and type `Open Keyboard Shortcuts`.
-  14  
-
-dendron.dendron-site • dendron.topic.publish-legacy.quickstart.publishing-your-site.md:
-  38  
-  39: In order for to build your notes for publication, you'll have to tweak a few settings first. Open the command prompt and type `>Dendron: Configure (yaml)`
-  40  
-
-dendron.dendron-site • dendron.topic.publish.cook.github.md:
-  61  
-  62: In order for to build your notes for publication, open the command prompt and type `>Dendron: Configure (yaml)`
-  63  
-
-dendron.handbook • handbook.people.onboarding.md:
-  20  1. Get permission to join the github workspace (you should get a notification on Github when this is ready)
-  21: 1. Go throught the Dendron Tutorial. When you install Dendron for the first time, you will be taken through a tutorial that walks you over the basics. If you missed it, you can bring it up again by bringing up the command prompt
-  22      - IMPORTANT: do this before proceeding. 
+workspace • dendron.code-workspace:
+  127          },
+  128:         "peacock.color": "#42b883",
+  129          "[markdown]": {

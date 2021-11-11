@@ -2,7 +2,7 @@
 id: jtHIVXVpyHwRiq3tJBbfq
 title: Cook
 desc: ''
-updated: 1636636481863
+updated: 1636655685514
 created: 1634590309804
 ---
 
@@ -10,7 +10,7 @@ created: 1634590309804
 
 ### Modifying contributes in package.json 
 
-The `contributes` in `package.json` is all generated. If you are planning on modifying it - don't add it directly in the json file but follow one of the following instructions instead.
+The `contributes` in `package.json` is all generated. If you are planning on modifying it - don't add it directly in the json file but use `yarn gen:config` to do it instead
 
 ### Add a new Command
 

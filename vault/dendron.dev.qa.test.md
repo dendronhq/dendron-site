@@ -2,7 +2,7 @@
 id: 99q7A73uGmCwu2KvSHZro
 title: Test
 desc: ''
-updated: 1634591743159
+updated: 1636584907714
 created: 1632347495097
 ---
 
@@ -105,7 +105,7 @@ static mockHomeDir(dir?: string): SinonStub {
 
 ### Creating a mock note
 
-see [this](https://github.com/dendronhq/dendron/blob/16b0e5c59e3ee11530199b5c9a11a58f05e14a93/packages/common-test-utils/src/noteUtils.ts#L63-L63)
+Use [NoteTestUtils](https://github.com/dendronhq/dendron/blob/16b0e5c59e3ee11530199b5c9a11a58f05e14a93/packages/common-test-utils/src/noteUtils.ts#L63-L63)
 
 ### Updating test snapshots
 

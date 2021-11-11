@@ -2,7 +2,7 @@
 id: LAUb8WcM8rmjxJrR
 title: Arch
 desc: ''
-updated: 1636389281294
+updated: 1636642664528
 created: 1627859879590
 ---
 
@@ -14,12 +14,6 @@ You can see a video walkthrough of how we generate notes for publishing and the 
 <!-- Major components -->
 
 ## Lifecycle
-- building metadata
-  - `dendron publish build`
-  - dendron will look at your `dendron.yml`
-  - generate metadata into json files
-  - [NextJsExportPod](https://github.com/dendronhq/dendron/blob/68fea3bbad13961b7754e61dd63dfb2d47d73c56/packages/pods-core/src/builtin/NextjsExportPod.ts#L30)
-- building the site
 
 ### Startup
 

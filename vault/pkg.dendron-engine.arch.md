@@ -2,7 +2,7 @@
 id: ebf58a4a-18f8-498d-95eb-04d856c0a000
 title: Dendron Engine Architecture
 desc: ''
-updated: 1631209065252
+updated: 1636583048065
 created: 1619535999168
 ---
 
@@ -30,6 +30,21 @@ sequenceDiagram
 
 - [Video walkthrough](https://youtu.be/nWJCP1DR5Io)
 
+## Modules
+
+The Dendron Engine is organized into modules that are a top level folder
+
+```
+- src/  
+    - metadata/
+        - service.ts
+        - index.ts
+        - ...
+    - migration/
+        - service.ts
+        - index.ts
+        - ...
+```
 
 ## Related
 - [[Dendron Startup|pkg.dendron-engine.internal.startup]]

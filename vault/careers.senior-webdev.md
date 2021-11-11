@@ -4,6 +4,7 @@ title: Senior Webdev
 desc: ''
 updated: 1630627698338
 created: 1630463515362
+title: Senior Frontend Engineer
 ---
 
 Dendron is an open source knowledge management platform built inside the IDE. We help developers organize general knowledge at scale. 
