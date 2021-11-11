@@ -2,7 +2,7 @@
 id: jtHIVXVpyHwRiq3tJBbfq
 title: Cook
 desc: ''
-updated: 1635918396233
+updated: 1636636481863
 created: 1634590309804
 ---
 
@@ -52,6 +52,48 @@ sequenceDiagram
 Conventions:
 
 - if your command involves opening a note, also return it in the `CommandOutput` signature. this makes it easy to compose the command as well as test it
+
+### Add a new command that uses lookup
+
+When creating a new command that utilizes the core lookup components, you will have to implement a subscriber that will listen to the events that the lookup provider publishes. The lookup provider will publish events in various stages of its lifecycle, which the consuming command will have to listen to and act upon.
+
+Under the hood, this is all managed by the [[HistoryService|pkg.dendron-engine.arch.history-service#lookupprovider]]. Take a look at how `HistoryService` is used between the lookup derivative commands and the lookup provider.
+
+A utility method called `NoteLookupProvierUtils.subscribe` is used to easily subscribe to the events `lookupProvider` publishes, and add custom callbacks to the events.
+
+optional callbacks `onDone`, `onError`, `onChangeState`, and `onHide` can be provided to the utility method to further customize the behavior. If any of the callbacks are not provided, the events will simply be logged and resolved (if applicable) as default.
+
+Below is part of a fictional command that uses this utiliy method:
+
+```js
+export class SomeCommand extends BasicCommand<...> {
+  ...
+  async gatherInputs(...) {
+    // set up controller
+    ...
+    // set up provider
+    ...
+    
+    this.promptUserForNoteSelection();
+    return NoteLookupProviderUtils.subscribe({
+      ...
+      onDone: (event: HistoryEvent) => {
+        return this.processSelectedNote();
+      },
+      onError: (event: HistoryEvent) => {
+        window.showErrorMessage(event.error.message);
+        return;
+      },
+      ...
+    });
+  }
+  ...
+
+  async execute(...) {
+    ...
+  }
+}
+```
 
 ### Add new Workspace State
 
