@@ -2,7 +2,7 @@
 id: 84df871b-9442-42fd-b4c3-0024e35b5f3c
 title: Telemetry
 desc: ''
-updated: 1636442612590
+updated: 1636540723367
 created: 1619460500071
 nav_order: 6.1
 ---
@@ -58,6 +58,7 @@ When Dendron initializes, we collect data about on initialization time. This hel
 | `numNotes`  | _number_   | Number of notes across all vaults (rounded to the nearest 10 notes) |
 | `numVaults` | _number_   | Number of vaults in workspace                                       |
 | `noCaching` | _boolean_  | Check whether caching is disabled                                   |
+| `workspaceType`|_string_ | The type of Dendron workspace.                                      |
 
 ### Configuration
 
