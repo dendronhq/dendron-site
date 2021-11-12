@@ -2,32 +2,20 @@
 id: lamzybrD6SgQlJ9BpwkQk
 title: Native Workspaces
 desc: ''
-updated: 1636540012593
+updated: 1636711898725
 created: 1634020995541
 ---
 
+Native workspaces allow you to use Dendron inside an existing workspace. For
+example if you use Visual Studio Code to develop a program, you can use Dendron
+to write documentation inside the same workspace.
+
 ## Setup
 
-As a reminder, these instructions are temporary until we add support for
-initializing native workspaces. We're sorry if they look confusing, we'll be
-improving native workspaces soon to make this simpler.
+To initialize a Native Dendron workspace, use the [[Initialize Workspace|dendron.ref.commands#initialize-workspace]] command while the workspace you want to use is open.
+Select the option to create a native workspace and follow the prompts.
 
-These instructions assume that you have an existing project, and you are trying
-to set up a Native workspace to take notes with Dendron.
-
-- Create a folder in your project for the notes. For example, a folder named `notes`.
-- Use the command "Dendron: Initialize Workspace", and type the path to the notes folder.
-- Initialize a blank workspace at this folder.
-- Use the "Open Recent" command to go back to your project.
-- Move the `dendron.yml` file from the notes folder to the root of the project.
-- Open `dendron.yml`, and edit the `vaults` section so it looks like the following:
-  ```yml
-  vaults:
-      -
-          fsPath: notes/vault
-  ```
-  Save the file.
-- Use the command "Reload Window". Dendron should now start up, and you should be able to use all Dendron features.
+<div style="position: relative; padding-bottom: 67.41573033707866%; height: 0;"><iframe src="https://www.loom.com/embed/4091f78a15cc426690f55fa723f543e5" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 ## Automatic Initialization
 
@@ -36,3 +24,6 @@ start everything if a native Dendron workspace is created. This typically should
 not affect your experience with VSCode, but you can disable it if you experience
 any issues using the [[dendron.watchForNativeWorkspace|dendron://dendron.dendron-site/dendron.ref.config.vscode-config#dendronwatchfornativeworkspace]]
 option in the extension settings.
+
+If you disable this setting, you'll need to reload your window with `Developer: Reload Windows`
+or otherwise restart VSCode to load the Dendron workspace when you [[create a Dendron Native workspace|#setup]].

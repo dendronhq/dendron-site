@@ -2,7 +2,7 @@
 id: c4cf5519-f7c2-4a23-b93b-1c9a02880f6b
 title: Workspace
 desc: ''
-updated: 1636540030353
+updated: 1636711969298
 created: 1622841295415
 ---
 
@@ -84,8 +84,7 @@ Native workspaces on the other hand don't have a `dendron.code-workspace` file.
 They are useful when you are writing notes or documentation, and you want to
 keep your notes as part of a project rather than a separate knowledge base.
 
-We don't *yet* have an automated way to initialize a native workspace, but
-we have instructions on [[setting up a native workspace|dendron.topic.workspace.native#setup]] yourself if you would like to try out this feature.
+See [[Native Workspace Setup|dendron.topic.workspace.native#setup]] to see how you can start using a native workspace!
 
 
 ## Cookbook
