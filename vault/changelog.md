@@ -2,7 +2,7 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1636743862931
+updated: 1636757479183
 created: 1601508213606
 nav_order: 2
 ---
@@ -21,7 +21,7 @@ nav_order: 2
 
 ### Fix
 - fix(views): `nav_order` property not respected in tree view (#1684) @kevin
-- fix(workspace): `Dendron: Vault add` avoids adding duplicate lines and `Dendron: Vault Remove` cleans up `.gitignore` lines (#1689) @kaan
+- fix(workspace): `Dendron: Vault add` avoids adding duplicate line (#1689) @kaan
 
 ## 0.68.1
 
