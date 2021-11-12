@@ -2,7 +2,7 @@
 id: 1EoNIXzgmhgagqcAo9nDn
 title: PR Checklist
 desc: ''
-updated: 1636380009719
+updated: 1636730967665
 created: 1632348050137
 ---
 
@@ -23,7 +23,7 @@ created: 1632348050137
 ### Docs
 - [ ] Make sure that the PR title follows our [[commit style|dendron://dendron.dendron-site/dendron.dev.pull-request#commit-style]]
 - [ ] Please summarize the feature or impact in 1-2 lines in the PR description
-- [ ] If your change reflects documentation changes, also submit a PR to [dendron-site](https://github.com/dendronhq/dendron-site) and mention the doc PR link in your current PR
+- [ ] If your change reflects documentation changes, also submit a PR to the **dev branch** of [dendron-site](https://github.com/dendronhq/dendron-site) and mention the doc PR link in your current PR
 
 Example PR Description
 ```markdown
