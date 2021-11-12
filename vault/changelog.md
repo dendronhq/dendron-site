@@ -2,16 +2,12 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1636742712875
+updated: 1636743862931
 created: 1601508213606
 nav_order: 2
 ---
 
-## 0.68.1
-
-### Breaking changes
-
-Note graph commands lose their `V2` suffix and are now simply `Dendron: Show Note Graph` and `Dendron: Show Schema Graph`. This only impacts functionality with the command palette.
+## 0.68.2
 
 ### Features
 - feat(workspace): native workspace enhancements ([[docs|dendron.topic.workspace.native]]) (#1670) @kaan
@@ -21,11 +17,17 @@ Note graph commands lose their `V2` suffix and are now simply `Dendron: Show Not
 - enhance(lookup): lookups with a dot at the end now look up hierarchies without having exact postfix (#1692) @nickolay
   - Having a dot at the end of a lookup will now look up child and descendant notes (bubbling up the child notes to the top) that match the query, but without requiring the full match of the prefix note.
 - enhance(views): support setting `sort_order` in tree view ([[docs|dendron.topic.publish-legacy.configuration#sort_order]]) (#1685) @kevin
-- enhance(schema): Add `Go to File` navigation prompt when schema malformation errors appears (#1679) @nickolay
+- enhance(schema): Add `Go to File` navigation prompt when schema malformation errors appear (#1679) @nickolay
 
 ### Fix
 - fix(views): `nav_order` property not respected in tree view (#1684) @kevin
 - fix(workspace): `Dendron: Vault add` avoids adding duplicate lines and `Dendron: Vault Remove` cleans up `.gitignore` lines (#1689) @kaan
+
+## 0.68.1
+
+### Breaking changes
+
+Note graph commands lose their `V2` suffix and are now simply `Dendron: Show Note Graph` and `Dendron: Show Schema Graph`. This only impacts functionality with the command palette.
 
 ## 0.68.0
 
