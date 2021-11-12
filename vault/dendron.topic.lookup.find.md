@@ -2,7 +2,7 @@
 id: 84a0366a-eab5-4862-9bef-360f92a196dc
 title: Finding Notes
 desc: ''
-updated: 1634281588990
+updated: 1636541864881
 created: 1608494616703
 ---
 
@@ -25,10 +25,27 @@ Entering tokens separated by space will query without caring about the order of 
 - `h2 h3`
 
 ### Hierarchy ordered querying
-The above [[#non-ordered-querying]] is great to discover everything that matches our tokens. However, when we know the order of the hierarchy that we are querying it would be great to filter out matches that do not follow our order. Hence the ordered query is possible with separating query string by dots. So to match note `h1.h2.h3.h4` ordered query queries could look like:
+The above [[Non ordered querying#non-ordered-querying]] is great to discover everything that matches our tokens. However, when we know the order of the hierarchy that we are querying it would be great to filter out matches that do not follow our order. Hence the ordered query is possible with separating query string by dots. So to match note `h1.h2.h3.h4` ordered query queries could look like:
 - `h1.h4` (`h1` token must come before `h4`)
 - `h2.h4` (`h2` token must come before `h4`)
 - `h1.h2` (`h1` token must come before `h2`)
 Where the elements in the matched files should match the order of the dot delimited tokens. 
 
+## Extended Search Syntax
+We use FuseJS for our note lookup and support the [extended search syntax](https://fusejs.io/examples.html#extended-search). 
+ 
+| Token     | Match type                 | Description                          |
+|-----------|----------------------------|--------------------------------------|
+| `jscript`   | fuzzy-match                | Items that fuzzy match `jscript`     |
+| `=scheme`   | exact-match                | Items that are `scheme`              |
+| `python`    | include-match              | Items that include python            |
+| `!ruby`     | inverse-exact-match        | Items that do NOT include `ruby`     |
+| `^java`     | prefix-exact-match         | Items that start with `java`         |
+| `!^earlang` | inverse-prefix-exact-match | Items that do not start with `earlang`|
+| `js$`     | suffix-exact-match         | Items that end with `js`              |
+| `!go$`     | inverse-suffix-exact-match | Items that do NOT end with `go`       |
 
+ White space acts as an AND operator, while a single pipe (|) character acts as an OR operator. Hence multiple items can be used in a single query such as:
+ * `^java awesome !verbose nice$` means query for items that start with `java`, do include `awesome` anywhere in the file name, do NOT include `verbose`, and end with `nice`.
+
+ Note: `.` have special behavior in Dendron (Example [[#hierarchy-ordered-querying]]) Hence when using complex extended syntax searches in general its advised to avoid dots `.` if possible.  

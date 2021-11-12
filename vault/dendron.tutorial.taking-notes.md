@@ -2,7 +2,7 @@
 id: 4RFQMNA91cRW12VJl_PFd
 title: Taking Notes
 desc: Taking Notes
-updated: 1625573462190
+updated: 1636527192313
 created: 1625563944736
 nav_order: 1
 ---
@@ -43,7 +43,7 @@ To find notes, we use the same lookup interface that we used to create them.
 
 > 🌱 Open Lookup, and type `vege`. This will find your `recipes.vegetarian` note. Hit `Enter` to open that note.
 
-The lookup uses fuzzy search which means you can type out partial results and still see the results. Searching with * wildcards is also supported.
+The lookup uses fuzzy search which means you can type out partial results and still see the results. Searching with * wildcards is supported. Also entering multiple keywords delimited by space will look up matching notes regardless of order of the keywords. Example: `vege rec`/`rec vege` will both match `recipes.vegetarian` note. Further info on looking up notes can be found in [[dendron.topic.lookup.find]]
 
 When combined with hierarchies, this fast lookup system enables you to find your notes very quickly, even if you have thousands of notes in your vaults.
 
