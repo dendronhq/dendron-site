@@ -19,6 +19,54 @@ Any error that is throw by Dendron should extend from [`DendronError`](https://g
 - When logging errors, use `stringifyError` (regular `stringify` will [omit fields](https://stackoverflow.com/questions/18391212/is-it-not-possible-to-stringify-an-error-using-json-stringify))
 - If applicable, use 
 
+## ResponseOrError
+
+Use this when working with functions that return data or an error
+
+```ts
+type RespOrError = {
+      error: IDendronError;
+      data?: never;
+    }
+  | {
+      error?: never;
+      data: T;
+    };
+```
+
+This type signature says that that the result can either contain an `error` property or a `data` property but never both at the same time.
+
+This is useful when an error shortcircuits the calling function. 
+
+### Example
+
+```ts
+
+// doFoo returns either an error or the data
+function doFoo(): RespV3 {
+  ...
+  if (error) {
+    return {error: new DendronError(...)}
+  }
+
+  return {
+    data: ....
+  }
+}
+
+
+function main() {
+
+  const resp = doFoo();
+  if (resp.error) {
+    // handle error...
+  }
+
+  // if error hasn't happened, we know `data` exists and is valid
+  doBar(resp.data)
+}
+
+```
 
 ## API 
 
@@ -43,3 +91,6 @@ export enum ERROR_SEVERITY {
   FATAL = "fatal",
 }
 ```
+
+## Changelog
+- https://github.com/dendronhq/dendron/pull/1708/files
