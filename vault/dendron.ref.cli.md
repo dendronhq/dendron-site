@@ -146,31 +146,7 @@ npx dendron buildSite --wsRoot . --stage dev --serve --enginePort `cat .dendron.
 
 - NOTE: you can find pod ids in the [[pods|dendron.topic.pod]] page. Just add a `.import|.export` to the end of the id (eg. `dendron.pod.json.import`)
 
-### Export Pod
-
-- export a pod
-
-- eg: Export notes to JSONPod
-
-```
-dendron exportPod --podId dendron.json --wsRoot . 
-```
-
-### Import Pod
-
-- eg: Import notes from FilePod
-
-```
-dendron importPod --podId dendron.markdown --wsRoot . 
-```
-
-### Publish Pod
-
-- eg: Publish a note as regular markdown
-
-```bash
-dendron publishPod --wsRoot . --podId dendron.markdown --noteByName dendron
-```
+![[dendron://dendron.dendron-site/dendron.topic.pod.cli]]
 
 ## Vault Commands
 
