@@ -1,6 +1,6 @@
 ---
 id: Badrtj2lOp7AgANdgYfBv
-title: Release Notes (version 0.58)
+title: '0.58'
 desc: ''
 updated: 1631034061733
 created: 1631032666683
@@ -44,7 +44,7 @@ Documentation as well as additional notes for each of the changes can be found i
 
 Our documentation changes a lot week by week. Below is a highlight of some updates from the past week.
 
-- Introduce [[Dendron Maturity Levels|dendron.ref.maturity]] which we'll slowly apply to existing and new features
+- Introduce [[Dendron Maturity Levels|dendron.ref.stages]] which we'll slowly apply to existing and new features
 
 ### Community
 

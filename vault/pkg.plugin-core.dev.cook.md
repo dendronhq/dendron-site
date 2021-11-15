@@ -2,7 +2,7 @@
 id: jtHIVXVpyHwRiq3tJBbfq
 title: Cook
 desc: ''
-updated: 1635918396233
+updated: 1636754799651
 created: 1634590309804
 ---
 
@@ -10,7 +10,7 @@ created: 1634590309804
 
 ### Modifying contributes in package.json 
 
-The `contributes` in `package.json` is all generated. If you are planning on modifying it - don't add it directly in the json file but follow one of the following instructions instead.
+The `contributes` in `package.json` is all generated. If you are planning on modifying it - don't add it directly in the json file but use `yarn gen:config` to do it instead
 
 ### Add a new Command
 
@@ -53,6 +53,7 @@ Conventions:
 
 - if your command involves opening a note, also return it in the `CommandOutput` signature. this makes it easy to compose the command as well as test it
 
+
 ### Add new Workspace State
 
 Use the [[State Service|pkg.plugin-core.arch.state]] when working with VSCode workspace related state.
@@ -62,49 +63,7 @@ Use the [[State Service|pkg.plugin-core.arch.state]] when working with VSCode wo
 See [[Add New Config|dendron://dendron.dendron-site/pkg.common-all.dev.cook#add-new-config]]
 
 ## Lookup
-
-### Add a new lookup button
-
-1. add type
-   - src/commands/LookupCommand.ts
-   ```ts
-   export type LookupEffectType = "copyNoteLink" | "copyNoteRef" | "multiSelect" | "insertNote";
-   ```
-2. add button
-
-```ts
-export class InsertNoteLinkButton extends DendronBtn {
-  static create(pressed?: boolean) {
-    return new CopyNoteLinkButton({
-      title: "Insert Note",
-      iconOff: "diff-added",
-      iconOn: "menu-selection",
-      type: "insertNote" as LookupEffectType,
-      pressed,
-    });
-  }
-
-  async handle({ quickPick }: ButtonHandleOpts) {
-    if (this.pressed) {
-      let items: readonly DNodePropsQuickInputV2[];
-      if (quickPick.canSelectMany) {
-        items = quickPick.selectedItems;
-      } else {
-        items = quickPick.activeItems;
-      }
-      let links = items
-        .filter((ent) => !PickerUtilsV2.isCreateNewNotePick(ent))
-        .map((note) => NoteUtils.createWikiLink({ note }));
-      if (_.isEmpty(links)) {
-        vscode.window.showInformationMessage(`no items selected`);
-      } else {
-        await clipboard.writeText(links.join("\n"));
-        vscode.window.showInformationMessage(`${links.length} links copied`);
-      }
-    }
-  }
-}
-```
+- ![[dendron://dendron.dendron-site/pkg.plugin-core.t.lookup.cook]]
 
 ## Views
 ### Adding a Web UI Component

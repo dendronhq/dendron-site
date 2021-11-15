@@ -1,6 +1,6 @@
 ---
 id: c99c55b0-a709-41fe-a59e-1f1c932346dc
-title: Release Notes (version 0.28)
+title: "0.28"
 desc: ''
 updated: 1612845956396
 created: 1612844876830

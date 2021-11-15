@@ -4,7 +4,7 @@ title: Dendron Inc
 desc: ''
 updated: 1619908073931
 created: 1618003135690
-canonicalUrl: "https://blog.dendron.so/notes/N9VxT7G5SovmncezBAGO2.html"
+canonicalUrl: 'https://blog.dendron.so/notes/N9VxT7G5SovmncezBAGO2.html'
 ---
 
 I read the following anecdote in an Albert Einstein biography back in the day. A reporter asked Einstein about the value of some physical constant and Einstein replied that he didn't know. The reporter was flabbergasted but Einstein replied that he didn't want to bother memorizing something that he could easily look up.
@@ -31,4 +31,4 @@ From day one, the words of Vannevar Bush, originator of the [memex](https://en.w
 
 Our goal is to help humans take **command over the inherited knowledge of the ages**. We welcome you to be part of our journey :)
 
-(and we are [[hiring|dendron.jobs]])
+(and we are [[hiring|careers]])

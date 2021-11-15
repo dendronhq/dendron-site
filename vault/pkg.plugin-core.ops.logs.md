@@ -2,7 +2,7 @@
 id: dpCnjhyzVVjYZqKQ3wPA4
 title: Logs
 desc: ''
-updated: 1634590478036
+updated: 1636744383640
 created: 1628345272665
 ---
 
@@ -70,6 +70,7 @@ This describes the expected logs for certain Dendron operations
 ```
 
 ##### setup workspace
+- at this point, the workspace is ready
 ```yml
 #setup workspace
 - {"level":30,"time":1628346170255,"pid":10096,"name":"dendron","ctx":"TreeView:getChildren","msg":"reconstructing tree"}

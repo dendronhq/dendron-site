@@ -12,6 +12,7 @@ site:
         - dendron
         - community
         - changelog
+        - careers
         - tags
     siteRootDir: docs
     gh_edit_repository: 'https://github.com/dendronhq/dendron-site'

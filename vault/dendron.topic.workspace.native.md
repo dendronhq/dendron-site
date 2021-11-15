@@ -1,10 +1,12 @@
 ---
 id: lamzybrD6SgQlJ9BpwkQk
-title: Setting up a Native Workspace
+title: Native Workspaces
 desc: ''
-updated: 1634022609628
+updated: 1636540012593
 created: 1634020995541
 ---
+
+## Setup
 
 As a reminder, these instructions are temporary until we add support for
 initializing native workspaces. We're sorry if they look confusing, we'll be
@@ -26,3 +28,11 @@ to set up a Native workspace to take notes with Dendron.
   ```
   Save the file.
 - Use the command "Reload Window". Dendron should now start up, and you should be able to use all Dendron features.
+
+## Automatic Initialization
+
+Dendron looks at files that are added to non-Dendron workspaces to automatically
+start everything if a native Dendron workspace is created. This typically should
+not affect your experience with VSCode, but you can disable it if you experience
+any issues using the [[dendron.watchForNativeWorkspace|dendron://dendron.dendron-site/dendron.ref.config.vscode-config#dendronwatchfornativeworkspace]]
+option in the extension settings.

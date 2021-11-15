@@ -1,9 +1,10 @@
 ---
 id: FPXeGgv44ZlJHVoXmU8Ku
-title: Release
+title: Release Notes
 desc: ''
-updated: 1636500326451
+updated: 1636507317595
 created: 1636500326451
-stub: true
+nav_order: 2.1
+sort_order: "reverse"
 ---
 

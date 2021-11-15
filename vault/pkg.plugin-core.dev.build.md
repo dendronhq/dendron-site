@@ -30,9 +30,9 @@ The fast rebuild will only remove `node_modules` from packages where it needs to
     ```
 1. Re-build assets
     ```
-    # build packages
+    echo "link packages..."
     lerna bootstrap
-    # re-build packages
+    echo "re-building packages..."
     # NOTE: order matters, must run serially
     npx lerna run build --scope @dendronhq/dendron-next-server
     npx lerna run build --scope @dendronhq/dendron-plugin-views

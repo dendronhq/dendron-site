@@ -2,7 +2,7 @@
 id: 8d09cc3f-25e3-42a2-ac86-82806c0c8c65
 title: Startup
 desc: ''
-updated: 1635430454511
+updated: 1636352942268
 created: 1610160007286
 ---
 
@@ -31,6 +31,12 @@ new DendronCodeWorkspace({
     assetUri,
 });
 ```
+
+Keep in mind that with [[Native Workspaces|dendron.rfc.31-native-workspace]],
+the root of the VSCode workspace may not be the root of the Dendron workspace.
+If the `dendron.yml` file is located in a subdirectory of the root, then that
+directory is the root for Dendron. Use `findWSRootInWorkspaceFolders` to find
+the actual root.
 
 ### Check for workspace
 

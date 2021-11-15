@@ -2,7 +2,7 @@
 id: 773e0b5a-510f-4c21-acf4-2d1ab3ed741e
 title: Style
 desc: ''
-updated: 1635960612394
+updated: 1636712784948
 created: 1609550314371
 ---
 
@@ -245,3 +245,25 @@ class Foo {
 ```
 
 Otherwise, when the callback function is called the `this` value will be undefined.
+
+## Async operations
+
+If you have many async operations to perform, decide if they need to be done in parallel or in serial.
+
+### In parallel
+
+```ts
+const outputs = await Promise.all(
+  vaults.map(async () => {
+    // Do async thing here
+  })
+);
+```
+
+### In series
+
+```ts
+for (const vault of vaults) {
+  await // async thing here
+}
+```

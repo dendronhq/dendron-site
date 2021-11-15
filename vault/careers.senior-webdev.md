@@ -1,6 +1,6 @@
 ---
 id: BtTEc9Kp7IbB1zKNh35pI
-title: Senior Webdev
+title: Senior Frontend Engineer
 desc: ''
 updated: 1630627698338
 created: 1630463515362
@@ -23,13 +23,13 @@ We're looking for engineers that can build out our feature set across multiple p
 - You want to work in a fast paced product-driven environment
 
 ## What we offer
-![[dendron.jobs.what-we-offer]]
+![[careers.what-we-offer]]
 
 ## What we're built on 
-![[dendron.jobs.what-we-run-on]]
+![[careers.what-we-run-on]]
 
 ## How we work
-![[dendron.jobs.how-we-work]]
+![[careers.how-we-work]]
 
 ## Our Mission
 

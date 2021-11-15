@@ -2,7 +2,7 @@
 id: DxucQoYEzu9VnBoYuFiqN
 title: Map
 desc: ''
-updated: 1635705931991
+updated: 1636746382200
 created: 1634749668693
 ---
 
@@ -18,9 +18,9 @@ The following is the module schema which we use to organize code at Dendron.
   id: modulue
   namespace: true
   children:
-    - title: quickstart
+    - pattern: quickstart
       desc: how to start development
-    - title: dev 
+    - pattern: dev 
       desc: regular development process
         - title: troubleshooting
           pattern: trouble

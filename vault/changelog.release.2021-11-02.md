@@ -1,6 +1,6 @@
 ---
 id: 4q0nOxVnDvAMD18zyNebk
-title: Release Notes (version 0.66)
+title: '0.66'
 desc: ''
 updated: 1635881718467
 created: 1635870362508
@@ -11,7 +11,7 @@ Dendron 0.66 has sprouted  🌱
 This release brings native support to managing tasks in Dendron. Task management is one of the most asked for features in Dendron. Please try it out and provide any feedback in the [Task Notes GitHub Discussion](https://github.com/dendronhq/dendron/discussions/1358).
 
 * Task notes are considered a [[seed feature|dendron://dendron.dendron-site/tags.stage.seed]] which means its still experimental and the interface is subject to change.
-* We're working on slowly introducing the [[Dendron Maturity Levels|dendron://dendron.dendron-site/dendron.ref.maturity]] in existing features and when describing release features.
+* We're working on slowly introducing the [[Dendron Maturity Levels|dendron://dendron.dendron-site/dendron.ref.stages]] in existing features and when describing release features.
 
 This release also includes some breaking changes due to some renaming of commands, which can be referrenced in the changelog.
 

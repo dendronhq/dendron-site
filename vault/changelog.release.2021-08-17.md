@@ -1,6 +1,6 @@
 ---
 id: fYU3mSfr096DYui0O2cRp
-title: Release Notes (version 0.55)
+title: "0.55"
 desc: ''
 updated: 1629751433966
 created: 1629234795602

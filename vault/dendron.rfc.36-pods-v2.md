@@ -2,7 +2,7 @@
 id: pD2gKvrDU2PjvrcGlKnU8
 title: 36 Pods V2
 desc: ''
-updated: 1635993844971
+updated: 1636673506085
 created: 1635730038760
 category: RFCs/Ideas
 discussionID: D_kwDOEF_3Vs4AN--1
@@ -60,7 +60,7 @@ The proposal here covers a lot of ground. We should break it down into phases.
     - eg. orbit import pod, when importing interactively, user enters a username
 1. Introduce a webview to configure pods
     - users can use a form widget with live validation instead of YAML
-1. Support pod profiles
+1. Support pod profiles ^XE6ArsJsqgyG
     - users have different targets for the same pods (eg. publish a task note to airtable task table but publish a user note to airtable user table)
     - pod configuration should support custom profiles
     - should be supported in webview

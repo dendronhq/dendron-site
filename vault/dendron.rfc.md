@@ -2,7 +2,7 @@
 id: f143ca38-dcc6-4cd3-b84b-997aec1160ef
 title: Rfc
 desc: ""
-updated: 1632201670879
+updated: 1636961583297
 created: 1605539111635
 nav_exclude: true
 ---
@@ -32,6 +32,7 @@ future state of the system and to discover projects for contribution.
 | 1️⃣ phase one done     | [9 - Note Lifecycle Plugins](https://wiki.dendron.so/notes/d2f8fe67-36c7-4600-b745-c22bdcb5b2cf.html)    | [@kevin](https://github.com/kevinslin)           |
 | 1️⃣ phase one done     | [2 - Managed Publishing](https://wiki.dendron.so/notes/ae4a0c98-e2ea-47e0-8a20-016eba3424be.html)        | [@kevin](https://github.com/kevinslin)           |
 | 👷 implementing       | [22 - Queries](https://wiki.dendron.so/notes/O4f9yfDoO7E7gRRDeBeCh.html)                                 | [@SeriousBug](https://github.com/SeriousBug)     |
+| 👷 implementing       | [13 - Todo Notes](https://wiki.dendron.so/notes/716e2699-42e1-44bd-9b97-124f03173ddc.html)               | [@kevin](https://github.com/kevinslin)           |
 | 👩‍🌾 community issue    | [20 - Integrated Space Repetition](https://wiki.dendron.so/notes/X2Zn2H89eBZrsj7Of8LLm.html)             | [@kevin](https://github.com/kevinslin)           |
 | 💡 proposed           | [12 - Schema Improvements](https://wiki.dendron.so/notes/8bc80164-6436-4c77-8077-7842f53a4a23.html)      | [@kevin](https://github.com/kevinslin)           |
 | 💡 proposed           | [3 - Standalone Vaults](https://wiki.dendron.so/notes/ceca23ee-6181-4fa6-9724-9943433c6e96.html)         | [@kevin](https://github.com/kevinslin)           |
@@ -41,7 +42,6 @@ future state of the system and to discover projects for contribution.
 | 💡 proposed           | [8 - Multi-publish](https://wiki.dendron.so/notes/8b3bfb16-8330-4a78-85cc-45581c319450.html)             | [@kevin](https://github.com/kevinslin)           |
 | 💡 proposed           | [20 - Integrated Space Repetition](https://wiki.dendron.so/notes/X2Zn2H89eBZrsj7Of8LLm.html#why)         | [@imalightbulb](https://github.com/imalightbulb) |
 | 💡 proposed           | [28 - Notifications](https://wiki.dendron.so/notes/o5AQmw9bsPQspYuTjdmnK.html)                           | [@SeriousBug](https://github.com/SeriousBug)     |
-| 💡 proposed           | [13 - Todo Notes](https://wiki.dendron.so/notes/716e2699-42e1-44bd-9b97-124f03173ddc.html)               | [@kevin](https://github.com/kevinslin)           |
 | draft                 | [Browser Based Dendron]()                                                                                | [@kpats](https://github.com/kpathakota)          |
 
 ## What is an RFC?
