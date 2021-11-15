@@ -2,7 +2,7 @@
 id: 84a0366a-eab5-4862-9bef-360f92a196dc
 title: Finding Notes
 desc: ''
-updated: 1636541864881
+updated: 1636955563015
 created: 1608494616703
 ---
 
@@ -25,11 +25,55 @@ Entering tokens separated by space will query without caring about the order of 
 - `h2 h3`
 
 ### Hierarchy ordered querying
-The above [[Non ordered querying#non-ordered-querying]] is great to discover everything that matches our tokens. However, when we know the order of the hierarchy that we are querying it would be great to filter out matches that do not follow our order. Hence the ordered query is possible with separating query string by dots. So to match note `h1.h2.h3.h4` ordered query queries could look like:
+The above [[Non ordered querying|#non-ordered-querying]] is great to discover everything that matches our tokens. However, when we know the order of the hierarchy that we are querying it would be great to filter out matches that do not follow our order. Hence the ordered query is possible with separating query string by dots. So to match note `h1.h2.h3.h4` ordered query queries could look like:
 - `h1.h4` (`h1` token must come before `h4`)
 - `h2.h4` (`h2` token must come before `h4`)
 - `h1.h2` (`h1` token must come before `h2`)
 Where the elements in the matched files should match the order of the dot delimited tokens. 
+
+### Dot at the end == Descendent query
+The above [[Hierarchy ordered querying|#hierarchy-ordered-querying]] is great when you know the ancestor and descendent (Eg. parent/child) of the hierarchy that you want to query. However, what if you only know the ancestor/parent of the note that you want to look up? Well in that case placing a dot/'.' at the end of the query is what you want. It will look up the notes that have children/descendents coming from your query. Ordering the most exact top level matches first. 
+
+For example if you query for `data.` And you had the following notes:
+```ts
+"level1.level2.data.integer.has-grandchild"
+"l1.l2.with-data.and-child.has-grandchild"
+"l1.l2.with-data.and-child"
+"l1.l2.l3.data.bool"
+"level1.level2.data.integer"
+"data.driven"
+// This one will get filtered out completely since it does not have any mention of `data.`
+"i.completely.do-not.belong"
+// This one will get filtered out since it has no children/descendents coming from `data.`
+"i.have.no-data-children.hence-filter-me-out.data."
+```
+
+The order that you would get will be as follows:
+```ts
+// 'data.driven' is at the highest level of hierarchy, 
+// cleanly matches our query `data.` 
+// and only has child level note, hence it comes to the top
+"data.driven"
+
+// Absolute index of 'data.' match is closer to beginning in "l1.l2.l3.data.bool".
+// However, from hierarchy perspective 'data.' is higher in "level1.level2.data.integer" 
+// hence it comes before "l1.l2.l3.data.bool"
+"level1.level2.data.integer",
+"l1.l2.l3.data.bool",
+
+// When there are "non clean match" of data we still keep it but lower it below
+// all the "clean matches" regardless of hierarchy depth. Non clean match 
+// is when our query has a prefix within the same level of hierarchy such as `with-data.`
+// while querying for 'data.'
+"l1.with-data.and-child",
+"l1.l2.with-data.and-child",
+
+// Now lastly come the nodes with grandchildren/descendents. 
+// (Notice that all previous elements only had a child after our query)
+// First with clean match, then with non clean match.
+"level1.level2.data.integer.has-grandchild",
+"l1.l2.with-data.and-child.has-grandchild",
+```
 
 ## Extended Search Syntax
 We use FuseJS for our note lookup and support the [extended search syntax](https://fusejs.io/examples.html#extended-search). 
