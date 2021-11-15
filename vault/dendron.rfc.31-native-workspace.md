@@ -2,7 +2,7 @@
 id: og3Mj0T3BH9SevPHurAau
 title: 31 Native Workspace
 desc: ''
-updated: 1633321655022
+updated: 1636961526337
 created: 1630021134896
 category: RFCs/Ideas
 discussionID: D_kwDOEF_3Vs4ANr44
@@ -41,9 +41,9 @@ Remaining work:
 - [x] currently an error on initialization with where `workspaceFile` is undefined 
 - [x] we have watcher functions (eg. [fileWatcher](https://github.com/dendronhq/dendron/blob/b103d9744bd0cbf5e45b31b5a8307f7bb5fa5513/packages/plugin-core/src/fileWatcher.ts#L1-L1)) that rely on the VSCode implementation of a filewatcher in order to update files
     - these watchers generally don't work outside of a Code Workspace which means we'll need to add our own watcher (eg. [GitHub - paulmillr/chokidar: Minimal and efficient cross-platform file watching library](https://github.com/paulmillr/chokidar))
-- [ ] remove flag that currently gates [[Native Workspace|dendron://site/dendron.rfc.31-native-workspace#native-workspace]] to only activate in `dev` mode
-- [ ] achieve feature parity between code workspace and native workspace
-- [ ] update plugin tests to be able to test in code workspace
+- [x] remove flag that currently gates [[Native Workspace|dendron://site/dendron.rfc.31-native-workspace#native-workspace]] to only activate in `dev` mode
+- [x] achieve feature parity between code workspace and native workspace
+- [x] update plugin tests to be able to test in code workspace
     - NOTE: this will be a big undertaking, recommend doing this incrementally
         - initially, create a test harness that can easily run native workspace test
         - slowly migrate existing tests to new test harness on a week by week/just in time basis
