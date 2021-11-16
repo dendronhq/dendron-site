@@ -2,10 +2,20 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1636757479183
+updated: 1637082216908
 created: 1601508213606
 nav_order: 2
 ---
+
+## 0.69.0
+
+### Enhancements
+- enhance(pods): add `configPath` and `query` parameters to pods ([[docs|dendron.topic.pod.cli]]) @kevin
+- enhance(pods): include name of note with error when airtable pod encounters error @kevin
+
+### Fix
+- fix(markdown): footnote definitions including links are rendered incorrectly (#1704) @kaan
+- fix(workspace): apply enableUser/HashTags to broken wikilinks code action (#1712) @kaan
 
 ## 0.68.2
 
