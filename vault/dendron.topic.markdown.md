@@ -2,7 +2,7 @@
 id: ba97866b-889f-4ac6-86e7-bb2d97f6e376
 title: Markdown
 desc: ''
-updated: 1636094383201
+updated: 1637053122012
 created: 1598673110284
 ---
 - Notice: all references of `MPE` in this guide is in reference to `Dendron Markdown Preview Enhanced`, the default markdown renderer of Dendron
@@ -207,8 +207,9 @@ Content [^1]
 You can use variables defined in your note frontmatter inside your note. The syntax is `{{ fm.VAR_NAME }}` where `VAR_NAME` is the name of your variable. The `fm` designates that you want to use a frontmatter variable.
 
 Here is the list of all available default variables:
-- `fm.id`: id of the current note
-- `fm.title`: title of the current note
+- `fm.id`: id of the current note.
+- `fm.title`: title of the current note.
+- `fm.desc`: description of the current note.
 - `fm.created`: when the current note has been created.
 - `fm.updated`: when the current note has been last updated.
 - `{{ fm.VAR_NAME }}`any custom frontmatter variable set by the user.
@@ -223,7 +224,7 @@ Given a Dendron note and format option set to `DATETIME_MED`,
 ---
 id: M9rOflmkDfdDRoyyt9KHa
 title: Variables
-desc: ''
+desc: 'This is a demo note on variable substitution'
 updated: 1636093082718
 created: 1636078412308
 alist: ["one", "two", "three"]
@@ -236,6 +237,7 @@ stage: "🌱"
 >
 > Updated: {{ fm.updated }}
 
+**{{ fm.desc }}**
 ## {{ fm.title }}
 
 - {{ fm.alist[0] }}
@@ -243,7 +245,7 @@ stage: "🌱"
 - {{ fm.alist[2] }}
 ```
 
-The rendered result will be:
+When this note is rendered in preview / publishing, it would be equivalent to rendering the markdown below:
 ```
 > this note is in it's 🌱 stage
 >
@@ -251,6 +253,7 @@ The rendered result will be:
 >
 > Updated: 11/5/2021
 
+**This is a demo note on variable substitution**
 ## Variables
 
 - one
