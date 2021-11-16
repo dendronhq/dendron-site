@@ -2,7 +2,7 @@
 id: NWuXh9ZreX3XKI6NhRIBJ
 title: "0.69"
 desc: ''
-updated: 1637082185375
+updated: 1637083059797
 created: 1637081497904
 ---
 
@@ -15,7 +15,7 @@ If you haven't taken a look at what Native Workspaces entail, they are a way to 
 ### Highlights
 - feat(workspace): native workspace enhancements ([[docs|dendron.topic.workspace.native]])
   - Dendron will now search for `dendron.yml` in native workspaces even if `dendron.yml` is not in the root of the workspace.
-- enhance(lookup): lookups with a dot at the end now look up hierarchies without having exact postfix
+- enhance(lookup): lookups with a dot at the end now look up hierarchies without having exact postfix ([[docs|dendron.topic.lookup.find#dot-at-the-end--descendent-query]])
   - Having a dot at the end of a lookup will now look up child and descendant notes (bubbling up the child notes to the top) that match the query, but without requiring the full match of the prefix note.
 - fix(markdown): footnote definitions including links are rendered incorrectly
 
