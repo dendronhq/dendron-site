@@ -2,7 +2,7 @@
 id: NWuXh9ZreX3XKI6NhRIBJ
 title: "0.69"
 desc: ''
-updated: 1637086927806
+updated: 1637087347388
 created: 1637081497904
 ---
 
@@ -39,18 +39,18 @@ Note graph commands lose their `V2` suffix and are now simply `Dendron: Show Not
 
 #### Wiki site reorg
 
-The changes are described in [this github discussion](https://github.com/dendronhq/dendron/discussions/1665) and represent a major rehaul of how our website is organized.
+You may have noticed changes in the Dendron wiki docs with our recent site reorg. The changes are described in [this github discussion](https://github.com/dendronhq/dendron/discussions/1665) and represent a major rehaul of how our website is organized.
 
-I'm happy to announce that those changes are now live and you can see them by visiting https://wiki.dendron.so/
+We are happy to announce that those changes are now live and you can see them by visiting the [Dendron wiki](https://wiki.dendron.so/).
 
-In terms of changes, running git stat yields the following after the refactor:
+In terms of changes, running `git stat` yields the following after the refactor:
 
 - dendron-site
   - 227 files changed, 1131 insertions(+), 950 deletions(-)
 - org-private (internal vault used by the dendron team)
   - 132 files changed, 541 insertions(+), 198 deletions(-)
 
-In total, Dendron refactored over 300 files and made over 2k line changes as part of this reorg.
+In total, Dendron refactored **over 300 files and made over 2k line changes as part of this reorg!**
 
 In any other tool, something like this might have taken weeks or months (or in all likelihood, not happened at all) and left-behind lots of 404s.
 
