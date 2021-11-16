@@ -2,7 +2,7 @@
 id: FnK2ws6w1uaS1YzBUY3BR
 title: GitHub Action
 desc: ''
-updated: 1634319040123
+updated: 1637026165234
 created: 1631306630307
 ---
 
@@ -66,31 +66,30 @@ You can see deployed examples of these instructions in the following repositorie
         with:
           path: |
             node_modules
-            .next/node_modules
+            .next
           key: node-modules-${{ hashFiles('yarn.lock')}}
 
       - name: Install npm dependencies
         run: yarn
 
-      # if you need to fetch remote vaults, uncomment the below
-      # - name: Initialze workspace
-      #   run: dendron workspace init
-
-      - name: Initialize .next
-        run: yarn dendron publish init
+      - name: Initialize or pull nextjs template
+        run: "(test -d .next) && (echo 'updating dendron next...' && cd .next && git reset --hard && git clean -f && git pull) || (echo 'init dendron next' && npx dendron publish init)"
 
       - name: Install dependencies
         run: cd .next && yarn && cd ..
 
       - name: Export notes
-        run: yarn dendron publish build
+        run: npx dendron publish build
 
       - name: Prep notes for publish
         run: cd .next && yarn export && cd ..
 
-      - name: Update files
+      - name: Remove docs if exist
+        run: '(test -d docs && rm -rf docs) || echo skipping'
+
+      - name: Update Notes
         run: |
-          cd .next && [[ -d ../docs ]] && rm -r ../docs && mv out ../docs && touch ../docs/.nojekyll && cd ..
+          cd .next && mv out ../docs && touch ../docs/.nojekyll && cd ..
 
       - name: Deploy site
         uses: peaceiris/actions-gh-pages@v3
@@ -99,8 +98,6 @@ You can see deployed examples of these instructions in the following repositorie
           publish_branch: pages
           publish_dir: docs/
           force_orphan: true
-          # if you have a custom domain, you can uncomment the below and add it here
-          # cname: "{{REPLACE_WITH_YOUR_CNAME}}"
   ```
 1. Commit your changes
   ```sh
