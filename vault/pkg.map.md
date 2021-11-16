@@ -26,6 +26,10 @@ The following is the module schema which we use to organize code at Dendron.
           pattern: trouble
         - pattern: build
           desc: "special instructions for building"
+        - pattern: errors
+          desc: "how to handle exceptions"
+        - pattern: logs
+          desc: "how to handle logs"
     - title: qa
       desc: quality assurance
       children:

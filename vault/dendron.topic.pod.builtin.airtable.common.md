@@ -36,8 +36,6 @@ type SrcFieldMapping =
       type: "string" | "date" | "singleTag";
       filter?: string;
     }
-  | string;
-
 ```
 
 In all cases, the key represents the name of the column in airtable.

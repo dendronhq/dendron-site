@@ -2,14 +2,14 @@
 id: bjzpa6oDr0dvBv6W4ZFNW
 title: Airtable
 desc: ''
-updated: 1635700904226
+updated: 1636920702570
 created: 1635700484374
 ---
 
 ## Lifecycle
 - location: src/builtin/AirtablePod.ts
 
-```tsx
+```ts
 plant {
 
     verifyDir(dest)
