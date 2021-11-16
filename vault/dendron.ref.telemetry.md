@@ -2,7 +2,7 @@
 id: 84df871b-9442-42fd-b4c3-0024e35b5f3c
 title: Telemetry
 desc: ''
-updated: 1636540723367
+updated: 1636979716683
 created: 1619460500071
 nav_order: 6.1
 ---
@@ -129,10 +129,11 @@ We collect an invocation metric when a [[commands|dendron.ref.commands]] is invo
 
 For commands that utilze the core lookup module, we additionally collect the state of the lookup modifiers at initial invocations as well as on manual button triggers.
 
-| Field      | Attributes | Description                                  |
-| ---------: | :--------: | -------------------------------------------- |
-| `command`  | _string_   | What is the invoked command?                 |
-| `button`   | _object_   | What is the button's state?                  |
+| Field      | Attributes | Description                                   |
+| ---------: | :--------: | --------------------------------------------- |
+| `command`  | _string_   | What is the invoked command?                  |
+| `type`     | _string_   | What button was toggled?                      |
+| `pressed`  | _boolean_  | What is the state of the button after toggle? |
 
 ### CLI commands
 
