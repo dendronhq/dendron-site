@@ -2,7 +2,7 @@
 id: NWuXh9ZreX3XKI6NhRIBJ
 title: "0.69"
 desc: ''
-updated: 1637087347388
+updated: 1637087804071
 created: 1637081497904
 ---
 
@@ -60,17 +60,13 @@ Our goal with Dendron is to build a tool to help humans organize, reference, and
 
 Thanks, everyone for your continued support and please leave feedback about the new organization in the github discussion or in the `#feedback` channel on Discord!
 
-#### Office hours
-
-[14|dendron://dendron.dendron-site/community.office-hours.2021.11.14]]
-
 #### Dendron Reading Series
 
 This week's entry in the [[Dendron Reading Series|community.reading-series]].
 
 ![[community.reading-series.journal.2021.11.16]]
 
-#### Office Hours
+#### Office hours
 
 You can find notes from our latest office hours [[here|community.office-hours.2021.11.14]].
 
