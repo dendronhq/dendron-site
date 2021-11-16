@@ -2,7 +2,7 @@
 id: NbTdpnZopduw78tDAkh5R
 title: '7 - The Internet is Rotting'
 desc: ''
-updated: 1637043260617
+updated: 1637043426637
 created: 1637042419992
 ---
 
@@ -13,7 +13,7 @@ created: 1637042419992
 
 We've all run into broken links before, and maybe scoured the internet archives for the lost bad takes of the past. Annoyed at "link rot." Confused by content drift. I have blog posts, published over the years, that are lost to the internet.
 
-I like Amber's approach: whenever linking to a site, archiving it, in order to maintain the longterm health (link "freshness" instead of rot?) of a page. In side projects, where I'm referrencing content in my creation of new content, I have dumped the content into a private Dendron vault for safe keeping. This has helped me lookup something I've took note of in the past. I haven't made an Internet Archive account, though, and really should consider it.
+I like Amber's approach: whenever linking to a site, archiving it in order to maintain the longterm health (link "freshness" instead of rot?) of a page. In side projects, where I'm referrencing content, I have dumped the content into a private Dendron vault for safe keeping. This has helped me lookup something I've taken note of in the past. I haven't made an Internet Archive account, though, and now I'm really wondering why I haven't.
 
 If I was an academic, I would be backing up absolutely everything I could: citations, notes, videos, screenshots, etc.
 
