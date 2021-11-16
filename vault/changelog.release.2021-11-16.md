@@ -2,15 +2,15 @@
 id: NWuXh9ZreX3XKI6NhRIBJ
 title: "0.69"
 desc: ''
-updated: 1637083059797
+updated: 1637086927806
 created: 1637081497904
 ---
 
 Dendron 0.69 has sprouted  🌱
 
-Updates include enhancements to using Lookup, troubleshooting schema errors, and tweaks to [[Native Workspaces|dendron.topic.workspace.native]].
+Updates include enhancements to lookup, troubleshooting schema errors, and better support for [[native workspaces|dendron.topic.workspace.native]].
 
-If you haven't taken a look at what Native Workspaces entail, they are a way to have Dendron docs within an existing project (such as a docs directory of a Python project).
+Native workspaces are a new addition to Dendron. They let you use Dendron inside your existing projects by turning a subdirectory (eg. docs) into a Dendron (Native) workspace. Note that Dendron Native workspace is a [[seed|dendron://dendron.dendron-site/tags.stage.seed]] stage feature and that the interface is still being actively worked on between weekly releases.
 
 ### Highlights
 - feat(workspace): native workspace enhancements ([[docs|dendron.topic.workspace.native]])
@@ -35,8 +35,34 @@ Note graph commands lose their `V2` suffix and are now simply `Dendron: Show Not
 
 #### General Updates
 
-- Refactoring of the Dendron wiki hierarchies took place last week. Links should still work, due to Dendron magic.
 - Beta testing of the Google Docs Import Pod is ongoing. [Fill out the survey](https://airtable.com/shrP1yKjIDPFU4wHN) if interested!
+
+#### Wiki site reorg
+
+The changes are described in [this github discussion](https://github.com/dendronhq/dendron/discussions/1665) and represent a major rehaul of how our website is organized.
+
+I'm happy to announce that those changes are now live and you can see them by visiting https://wiki.dendron.so/
+
+In terms of changes, running git stat yields the following after the refactor:
+
+- dendron-site
+  - 227 files changed, 1131 insertions(+), 950 deletions(-)
+- org-private (internal vault used by the dendron team)
+  - 132 files changed, 541 insertions(+), 198 deletions(-)
+
+In total, Dendron refactored over 300 files and made over 2k line changes as part of this reorg.
+
+In any other tool, something like this might have taken weeks or months (or in all likelihood, not happened at all) and left-behind lots of 404s.
+
+In Dendron, it took a few hours (most of the time was spent making additional content changes), and no active links were broken in this process (we did prune some unused pages).
+
+Our goal with Dendron is to build a tool to help humans organize, reference, and work with any amount of knowledge. This exercise was a small demonstration of that.
+
+Thanks, everyone for your continued support and please leave feedback about the new organization in the github discussion or in the `#feedback` channel on Discord!
+
+#### Office hours
+
+[14|dendron://dendron.dendron-site/community.office-hours.2021.11.14]]
 
 #### Dendron Reading Series
 
@@ -44,12 +70,35 @@ This week's entry in the [[Dendron Reading Series|community.reading-series]].
 
 ![[community.reading-series.journal.2021.11.16]]
 
+#### Office Hours
+
+You can find notes from our latest office hours [[here|community.office-hours.2021.11.14]].
+
 #### Thank You's
 
 A big **thanks** to the following gardeners that brought up issues, contributions, and fixes to this release :man_farmer: :woman_farmer: 
-You can see an overview of all roles [[here|community.roles]]
+You can see an overview of all roles [[here|community.roles]].
 
-TODO
+- `@orang2tang#7760`
+  - #dendron.bugcatcher
+  - issue with dendron site on edge browser
+- [Aaron Meese](https://github.com/ajmeese7)
+  - #dendron.taxonomist
+  - [Update dendron.faq.md by ajmeese7 · Pull Request #273 · dendronhq/dendron-site](https://github.com/dendronhq/dendron-site/pull/273)
+- `@Jack of some quantity of trades#3247`
+  - CLI issue when `enginePort` is passed
+- [sidwellr](https://github.com/sidwellr)
+  - #dendron.bugcatcher
+  - [Clicking links to pasted files in Dendron Preview doesn't work](https://github.com/dendronhq/dendron/issues/1695)
+- [Jeff Teter](https://github.com/JeffTeter)
+  - #dendron.bugcatcher
+  - [Preview copied and pasted should not include background colors](https://github.com/dendronhq/dendron/issues/1703)
+- [Kimsia Sim](https://github.com/simkimsia) `@kimsia#3035`
+  - #dendron.bugcatcher
+  - [forEach of undefined bug when using native workspace](https://github.com/dendronhq/dendron/issues/1705)
+- [Mari Rajaram](https://github.com/mrajaram)
+  - #dendron.taxonomist
+  - [space character not visible in docs by mrajaram · Pull Request #275 · dendronhq/dendron-site](https://github.com/dendronhq/dendron-site/pull/275)
 
 ### Changelog
 ![[changelog#0690,1:#0680]]
