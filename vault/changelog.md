@@ -2,10 +2,20 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1636757479183
+updated: 1637083041974
 created: 1601508213606
 nav_order: 2
 ---
+
+## 0.69.0
+
+### Enhancements
+- enhance(pods): add `configPath` and `query` parameters to pods ([[docs|dendron.topic.pod.cli]]) @kevin
+- enhance(pods): include name of note with error when airtable pod encounters error @kevin
+
+### Fix
+- fix(markdown): footnote definitions including links are rendered incorrectly (#1704) @kaan
+- fix(workspace): apply enableUser/HashTags to broken wikilinks code action (#1712) @kaan
 
 ## 0.68.2
 
@@ -14,7 +24,7 @@ nav_order: 2
   - Dendron will now search for `dendron.yml` in native workspaces even if `dendron.yml` is not in the root of the workspace.
 
 ### Enhancements
-- enhance(lookup): lookups with a dot at the end now look up hierarchies without having exact postfix (#1692) @nickolay
+- enhance(lookup): lookups with a dot at the end now look up hierarchies without having exact postfix ([[docs|dendron.topic.lookup.find#dot-at-the-end--descendent-query]]) (#1692) @nickolay
   - Having a dot at the end of a lookup will now look up child and descendant notes (bubbling up the child notes to the top) that match the query, but without requiring the full match of the prefix note.
 - enhance(views): support setting `sort_order` in tree view ([[docs|dendron.topic.publish-legacy.configuration#sort_order]]) (#1685) @kevin
 - enhance(schema): Add `Go to File` navigation prompt when schema malformation errors appear (#1679) @nickolay
