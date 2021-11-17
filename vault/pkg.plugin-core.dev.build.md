@@ -2,7 +2,7 @@
 id: mwDT040wz5nBKtctjvNrQ
 title: Build
 desc: ''
-updated: 1636429245772
+updated: 1637094970317
 created: 1635705939396
 ---
 
@@ -17,6 +17,12 @@ yarn setup
 ```
 
 ## Build
+
+### Building without uploading to sentry
+
+```sh
+export SKIP_SENTRY=1 yarn build:patch:local
+```
 
 ### Fast Re-build
 

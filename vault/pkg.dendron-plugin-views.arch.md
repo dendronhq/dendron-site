@@ -1,8 +1,8 @@
 ---
 id: 30Z8lwy9T7yq6LaU1QtYy
-title: Arch
+title: Architecture
 desc: ''
-updated: 1636433022582
+updated: 1637109232221
 created: 1635705190399
 ---
 

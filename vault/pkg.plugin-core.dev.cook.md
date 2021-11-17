@@ -2,7 +2,7 @@
 id: jtHIVXVpyHwRiq3tJBbfq
 title: Cook
 desc: ''
-updated: 1636754799651
+updated: 1637161337425
 created: 1634590309804
 ---
 
@@ -95,6 +95,8 @@ Related:
 
 - See [[here|pkg.dendron-next-server.dev#development]] for how to preview and test your web ui.
 
+### Listening for copy event in webview
+- See [Webview: Copy to clipboard within internal IFRAME does not work on macOS  · Issue #135017 · microsoft/vscode](https://github.com/microsoft/vscode/issues/135017)
 
 ## Other
 
