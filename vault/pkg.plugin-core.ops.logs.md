@@ -2,7 +2,7 @@
 id: dpCnjhyzVVjYZqKQ3wPA4
 title: Logs
 desc: ''
-updated: 1636744383640
+updated: 1637182497681
 created: 1628345272665
 ---
 
@@ -27,6 +27,8 @@ Some things to keep in mind:
 
 ## Reading Logs
 This describes the expected logs for certain Dendron operations
+
+- TIP: it's recommended that you install the [Timestamp Converter](https://marketplace.visualstudio.com/items?itemName=Stalinbalraj.timestamp-converter) extension to convert timestamps into your local date
 
 ### [[Startup|pkg.plugin-core.arch.lifecycle.startup#summary]]
 
