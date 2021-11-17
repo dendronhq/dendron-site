@@ -2,7 +2,7 @@
 id: 64f0e2d5-2c83-43df-9144-40f2c68935aa
 title: Dendron Plugin Quickstart
 desc: ''
-updated: 1636216016627
+updated: 1637177759808
 created: 1598651458825
 ---
 
@@ -26,7 +26,7 @@ Before you begin, you need to make sure to have the following SDKs and tools:
    git clone https://github.com/dendronhq/dendron.git
    cd dendron
    ```
-2. Install dependencies
+2. Install dependencies ^OI7k28ZBdX9W
    ```bash
    # install package root dependencies
    yarn 
