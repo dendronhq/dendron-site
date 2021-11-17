@@ -2,8 +2,9 @@
 id: MMrQN7haAkDZIJJs
 title: Senior Full Stack Engineer
 desc: ''
-updated: 1627948258702
+updated: 1637175604792
 created: 1627948250733
+published: false
 ---
 
 Dendron is an open source knowledge management platform built inside the IDE. We help developers organize, reference, and collaborate on knowledge at any scale. 

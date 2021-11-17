@@ -2,7 +2,7 @@
 id: ba97866b-889f-4ac6-86e7-bb2d97f6e376
 title: Markdown
 desc: ''
-updated: 1637053122012
+updated: 1637177465481
 created: 1598673110284
 ---
 - Notice: all references of `MPE` in this guide is in reference to `Dendron Markdown Preview Enhanced`, the default markdown renderer of Dendron
@@ -172,12 +172,23 @@ You can create tables by assembling a list of words and dividing them with hyphe
 
 <!-- prettier-ignore -->
 
+The following markup
+
 ```markdown
 First Header | Second Header
 ------------ | -------------
 Content from cell 1 | Content from cell 2
 Content in the first column | Content in the second column
 ```
+
+Will look like the below table when rendered
+
+First Header | Second Header
+------------ | -------------
+Content from cell 1 | Content from cell 2
+Content in the first column | Content in the second column
+
+<br/>
 
 You can create a table from existing content using `> Markdown Shortcuts: Add Table` command.
 
