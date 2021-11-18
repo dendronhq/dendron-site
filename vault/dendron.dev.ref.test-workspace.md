@@ -2,13 +2,16 @@
 id: dtMsF12SF2SUhLN10sYe2
 title: Test Workspace
 desc: ''
-updated: 1633421116541
+updated: 1637194974228
 created: 1631471672541
 ---
 
 If you want to use a workspace to test changes on the workspace at `$DENDRON_REPO_ROOT/test-workspace`
 
 Note that this workspace is currently configured to be used with launching a engine server from the command line. 
+
+## Pre-requisites
+- [[Symlink the dendron cli|dendron://dendron.dendron-site/pkg.dendron-cli.dev#symlink]]
 
 ## Setup
 
