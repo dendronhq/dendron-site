@@ -2,7 +2,7 @@
 id: 99q7A73uGmCwu2KvSHZro
 title: Test
 desc: ''
-updated: 1636584907714
+updated: 1637194708778
 created: 1632347495097
 ---
 
@@ -45,6 +45,16 @@ To manually test new changes, launch an instance of the test workspace.
 
 ![[dendron.dev.ref.test-workspace]]
 
+
+## Troubleshooting
+
+### One of the tests failed 
+
+See if its timeout related. We have a few tests that are unfortunately flaky. Examples include:
+- timeout due to pulling down antd
+- timeout with `DefinitionProvider`
+
+If a single test failed, its usually fine to ignore it. If you want to be certain, you can follow the instructions [here](https://www.loom.com/share/50f5c7c2ac2143b18ea45fea8f3c4cb9?from_recorder=1&focus_title=1).
 
 ## Cook
 
