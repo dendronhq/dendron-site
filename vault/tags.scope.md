@@ -2,7 +2,7 @@
 id: OuLI06rJAJurTZ2WYTCtT
 title: Scope
 desc: ''
-updated: 1636157707630
+updated: 1637187804658
 created: 1629753418643
 color: green
 ---
@@ -24,6 +24,9 @@ A scope is the area of the product a feature belongs in
 
 ## Pod
 ![[Pod|dendron://dendron.dendron-site/tags.scope.pod]]
+
+## Publish
+![[Publish|dendron://dendron.dendron-site/tags.scope.publish]]
 
 ## Schema
 ![[Schema|dendron://dendron.dendron-site/tags.scope.schema]]

@@ -2,7 +2,7 @@
 id: 1jIkH5R6W3pM8IYR2gOji
 title: Cookbook
 desc: ''
-updated: 1634824237095
+updated: 1637185314831
 created: 1634737110155
 ---
 
@@ -10,12 +10,11 @@ created: 1634737110155
 
 ### Add New Config 
 > Configuration is currently under active migration and the information here will be revised once the configs have been fully migrated.
-
 > As of this writing, we are on v3, where _commands_ and _workspace_ related configurations are migrated.
 
-Dendron configuration that we see in `dendron.yml` is defined [here](https://github.com/dendronhq/dendron/blob/master/packages/common-all/src/types/configs/dendronConfig.ts) and [here](https://github.com/dendronhq/dendron/blob/master/packages/common-all/src/types/workspace.ts).
-  - The former links to the consolidated (v2 and above) configuration.
-  - The latter links to the original (v1) configuration.
+Dendron configuration in `dendron.yml` is defined in the following places:
+  - new style configuration defined [here](https://github.com/dendronhq/dendron/blob/master/packages/common-all/src/types/configs/dendronConfig.ts) 
+  - legacy style configuration defined [here](https://github.com/dendronhq/dendron/blob/master/packages/common-all/src/types/workspace.ts).
 
 During config migration, these two types are used to compose an [IntermediateDendronConfig](https://github.com/dendronhq/dendron/blob/6a7be61db3ec7e6fab61871b30ec215c47f1cb59/packages/common-all/src/types/intermediateConfigs.ts#L28), which has both old and new config keys.
 
