@@ -19,24 +19,11 @@ This goes into submitting a pull request
 
 We follow [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/).
 
-- categories:
-  - feat: feature - introduce new functionality
-  - enhance: enhancement - improve existing functionality
-  - fix: make something not broken
-  - chore: backend improvements
-  - spike: not complete commit, work for something else
+This means commits follow the following format
 
-- scopes ^nb2ZVt8fPCo1
-  * [[Workspace|tags.scope.workspace]]
-  * #scope.commands
-  * [[Dev|tags.scope.dev]]
-  * [[Pod|tags.scope.pod]]
-  * [[Lookup|tags.scope.lookup]]
-  * [[Markdown|tags.scope.markdown]]
-  * #scope.publish
-  * #scope.unsorted
-  * [[Views|tags.scope.views]]
-  * [[Doctor|tags.scope.doctor]]
+```
+{category}({scope}): {description}
+```
 
 An example commit:
 
@@ -45,14 +32,8 @@ An example commit:
 enhance(publish): speed up publishing by 500%
 ```
 
-#### Breaking changes
- 
-If you are introducing a breaking change, either add an `!` after the category or a footer at the end of your message
-
-```
-chore!(workspace): drop support for Node 6
-```
-> Example from [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) licensed under [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/)
+* To figure out the category for a commit, see [[Assign Category to Task|dendron://dendron.dendron-site/area.product.sop.assign-category-to-task]]
+* To figure out the scope, see [[Assign Scope to Feature|dendron://dendron.dendron-site/area.product.sop.assign-scope-to-feature]]
 
 ## Checklist
 
