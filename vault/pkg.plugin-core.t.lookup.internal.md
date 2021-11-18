@@ -2,7 +2,7 @@
 id: PZ3IzgdeZBbFRvalzI9fp
 title: Internal
 desc: ''
-updated: 1636033931152
+updated: 1637203158354
 created: 1630426129273
 ---
 
@@ -203,12 +203,15 @@ onUpdatePickerItems {
 
 ### OnAccept
 
-This gets triggered when the user clicks enter on an option. By default, gets the following
+This gets triggered when the user selects a result form the quickpick.
 
+Type Signature
 ```ts
 quickpick: DendronQuickPick
 selectedItems: NoteItemSelection[]
 ```
+
+#### Pseudocode
 
 - src/components/lookup/LookupProviderV3.ts
 ```ts
@@ -265,6 +268,11 @@ acceptNewItem(item, picker) {
         delete note.stub
     } else {
         note = Note.create item
+
+        if picker.hasSelectionProcessFunc {
+            picker.hasSelectionProcessFunc(note)
+        }
+
         if matchSchema(note) {
             addSchema(note)
         }
@@ -278,10 +286,6 @@ acceptNewItem(item, picker) {
 }
 
 ```
-
-## Design Decisions
-
-### Debounce
 
 ## Related
 - [[Lookup|dendron://dendron.dendron-site/pkg.dendron-engine.t.lookup]]

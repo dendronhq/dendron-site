@@ -2,9 +2,13 @@
 id: d721a2f2-51e0-4039-a33b-b884bb570049
 title: Engine
 desc: ''
-updated: 1636924150740
+updated: 1637209868078
 created: 1620671402392
 ---
+
+## Summary 
+
+This describes the API for interacting with the [[pkg.dendron-engine.t.engine]]
 
 ## Interface
 
@@ -48,10 +52,3 @@ export type DEngine = DCommonProps &
     getConfig: () => Promise<RespV2<ConfigGetPayload>>;
   };
 ```
-
-
-## Dendron Engine
-
-### refreshNotes
-
-### updateNote

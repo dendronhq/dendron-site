@@ -2,106 +2,20 @@
 id: T1p8qUHJyooO1aKlBNa1X
 title: Engine
 desc: ''
-updated: 1631813542721
+updated: 1637209814983
 created: 1631658445346
 ---
 
+## Summary
 
-## Connector
-
-How external applications connect to the dendron engine
-
-
-- file: src/topics/connector.ts
-```ts
-EngineConnector.init(opts) {
-    portOverride := opts
-
-    if portOverride {
-        @tryToConnect
-        @initEngine
-    } else {
-        @createServerWatcher
-    }
-}
-
-createServerWatcher {
-    wsRoot := this
-
-    port = getPortFilePath(wsRoot)
-
-    while !@initialized {
-        @connectAndInit
-    }
-}
+The engine is the main interface into the core dendron functions (lookup, rename, delete, etc). 
 
 
-connectAndInit {
-    ...
-    maybeEngine = @_connect
-    if (maybeEngine)
-        @initEngine
-}
+## Methods
 
-initEngine(opts) {
-    port, engine := opts
+- [[Create|dendron://dendron.dendron-site/pkg.dendron-engine.t.engine.ref.create]]
+- [[Delete|dendron://dendron.dendron-site/pkg.dendron-engine.t.engine.ref.delete]]
+- [[Rename|dendron://dendron.dendron-site/pkg.dendron-engine.t.engine.ref.rename]]
 
-    engine.sync
-    @port = port
-    @initialized = true
-}
-```
-
-## Create 
-- file: src/engineClient.ts
-
-
-```ts
-writeNote(note, updateExisting) {
-
-    maybeNote := note
-    if (!maybeNote.stub || !updateExisting) _writeNewNote 
-}
-
-_writeNewNote(maybeNote) {
-    if (maybeNote) {
-        parentNote := maybeNote
-
-    }
-}
-```
-
-## Delete
-```ts
-deleteNote(id, metaOnly) {
-    noteToDelete := id
-    if (!metaOnly) fs.unlink(noteToDelete)
-    if (noteToDelete.children {
-        noteToDelete.stub = true
-        @updateNote(noteToDelete)
-    } else {
-        parentNote := noteToDelete
-        parentNote.children.reject! noteToDelete
-        @notes.delete! noteToDelete
-        while parentNote.stub {
-            @deleteNote parentNote
-        }
-    }
-
-}
-
-```
-
-## Rename
-
-```ts
-renameNote(oldLoc, newLoc) {
-    oldNote := oldLoc
-    newNote := newLoc
-
-    ...
-    deleteNote(oldNote)
-    writeNote(newNote)
-}
-
-```
+## Related
+- [[Engine|dendron://dendron.dendron-site/pkg.dendron-engine.api.engine]]
