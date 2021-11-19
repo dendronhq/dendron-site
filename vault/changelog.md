@@ -2,10 +2,38 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1637083041974
+updated: 1637354798833
 created: 1601508213606
 nav_order: 2
 ---
+
+## 0.69.2
+
+### Features
+- feat(workspace): Initialize Workspace command can create native workspaces ([[docs|dendron.topic.workspace.native]]) (#1701) @kaan
+
+### Enhancements
+- enhance(markdown): expose `desc` frontmatter property for variable substitution (([[docs|dendron.topic.markdown#frontmatter-variable-substitution]]) (#1721) @hikchoi
+  - View the [difference](https://github.com/dendronhq/dendron-site/pull/284/files)
+- enhance(workspace): improved task note decorations @kaan
+  * Task note decorations are colored with the same color as the link to make them easier to distinguish from regular text. ([[docs|dendron.topic.tasks#task-note-links]])
+  * Task notes say `priority:` instead of `prio:` for priorities in task note frontmatter. ([[docs|dendron.topic.tasks#task-note-internals]])
+- enhance(publish): better position sidebar, main content and footer (#1696) @felipe
+- enhance(commands): copy a tag note link results in hashtags (#1687) @joshi
+- enhance(lookup) Add description field to lookup buttons (#1735) @tuling
+
+### Fix
+- fix(lookup): have schema exact match suggestion in lookup show up at the top of the list (#1720) @nickolay
+- fix(lookup): disappearing vaults in vault selection quickpick (#1717) @hikchoi
+- fix(publish): remove duplicate CSS (#1707) [`@l2dy`](https://github.com/l2dy)
+- fix(workspace): remove trailing whitespace in note (#1736) [`@l2dy`](https://github.com/l2dy)
+- fix(workspace): decorations working for long notes (#1725) @kaan
+- fix(cli): [ajv](https://github.com/ajv-validator/ajv) (a JSON schema validator) now prints warning messages to console (#1722) @nickolay
+
+## 0.69.1
+
+### Fix
+- fix(pods): invalid configuration error @kevin
 
 ## 0.69.0
 
