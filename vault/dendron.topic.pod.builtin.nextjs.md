@@ -1,8 +1,8 @@
 ---
 id: 5fGMHyXmErIV9odz01BBH
-title: Nextjs
+title: Nextjs Pod
 desc: ''
-updated: 1632857981875
+updated: 1637355140896
 created: 1628955339442
 ---
 
