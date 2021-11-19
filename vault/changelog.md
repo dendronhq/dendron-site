@@ -2,7 +2,7 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1637353940539
+updated: 1637353993062
 created: 1601508213606
 nav_order: 2
 ---
@@ -29,7 +29,7 @@ nav_order: 2
 - fix(publish): remove duplicate CSS (#1707) [`@l2dy`](https://github.com/l2dy)
 - fix(workspace): remove trailing whitespace in note (#1736) [`@l2dy`](https://github.com/l2dy)
 - fix(workspace): decorations working for long notes (#1725) @kaan
-- fix: [ajv](https://github.com/ajv-validator/ajv) (a JSON schema validator) now prints warning messages to console (#1722) @nickolay
+- fix(cli): [ajv](https://github.com/ajv-validator/ajv) (a JSON schema validator) now prints warning messages to console (#1722) @nickolay
 
 ## 0.69.0
 
