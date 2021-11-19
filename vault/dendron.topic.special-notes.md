@@ -23,7 +23,7 @@ By default, it will create the journal under `daily.{date}` though this is confi
 
 A journal note is a self contained note that is meant to track something over time. Examples of journals include recording **workout sessions**, making **meeting notes**, and keeping a **mood journal**.
 
-To create a journal note, trigger a lookup and then click on the calendar icon, or use the keybind "ctrl+shift+j"/"cmd+shift+j" (depending on operating system).
+To create a journal note, trigger a lookup and then click on the calendar icon, or use the `Ctrl+Shift+J`/`Cmd+Shift+J` shortcut (depending on operating system).
 
 <a href="https://www.loom.com/share/3c3ddc1dc63547cea8bf186bec31f71b"> 
 <img style="" src="https://cdn.loom.com/sessions/thumbnails/3c3ddc1dc63547cea8bf186bec31f71b-with-play.gif"> </a>
