@@ -23,7 +23,7 @@ By default, it will create the journal under `daily.{date}` though this is confi
 
 A journal note is a self contained note that is meant to track something over time. Examples of journals include recording **workout sessions**, making **meeting notes**, and keeping a **mood journal**.
 
-To create a journal note, trigger a lookup and then click on the calendar icon.
+To create a journal note, trigger a lookup and then click on the calendar icon, or use the `Ctrl+Shift+J`/`Cmd+Shift+J` shortcut (depending on operating system).
 
 <a href="https://www.loom.com/share/3c3ddc1dc63547cea8bf186bec31f71b"> 
 <img style="" src="https://cdn.loom.com/sessions/thumbnails/3c3ddc1dc63547cea8bf186bec31f71b-with-play.gif"> </a>
@@ -34,12 +34,14 @@ A reference for date formatting tokens can be found [here](https://moment.github
 
 ## Scratch Note
 
-A scratch note is a self contained note that is meant to be used as scratchpad. Use it for thoughts or when you want to expand on a bullet point. Scratch notes are created in the `scratch` domain and have the following format: `scratch.{y.MM.dd.HHmmss}`.
+A scratch note is a self contained note that is meant to be used as scratchpad. Use it for thoughts or when you want to expand on a bullet point. Scratch notes are created in the `scratch` domain and have the following format: `scratch.{y.MM.dd.HHmmss}`. To create a scratch note, trigger a lookup and then click the "create scratch note" icon, or use the keybind `Ctrl+Shift+S`/`Cmd+Shift+S` (depending on operating system).
 
 <a href="https://www.loom.com/share/2fd3042119124df8bb4592d8ffe6d708"> 
 <img style="" src="https://cdn.loom.com/sessions/thumbnails/2fd3042119124df8bb4592d8ffe6d708-with-play.gif"> </a>
 
 ## Configuration
+
+To change the keybindings used to create special notes, you can [[define custom shortcuts|dendron.topic.lookup.keybindings]] in `keybindings.json` that will [[modify the behavior of the `Lookup` command|dendron.topic.lookup.modifiers]].
 
 All special notes support the following configuration options
 
