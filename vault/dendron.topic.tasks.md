@@ -2,7 +2,7 @@
 id: SEASewZSteDK7ry1AshNG
 title: Tasks
 desc: ''
-updated: 1635494320717
+updated: 1637353918133
 created: 1635451738215
 ---
 
@@ -68,25 +68,41 @@ edit the task note and change the status to `x` to display a completed checkmark
 
 ### Task note internals
 
-Here's how the first task in the screenshot above looks like in the frontmatter:
-
-```
+```yaml
 ---
 id: sEnzNEw04L4BZ2lN00zuI
-title: Prepare Report
-desc: ''
+title: Task Example
+desc: 'This is an example of task note frontmatter'
 updated: 1635228981637
 created: 1635228506689
-status: ''
+status: 'x'
 due: '2021.10.29'
 priority: 'H'
 owner: 'kaan'
+tags:
+  - size.small
 ---
 ```
 
+#### Task note links
+
+When referencing a task note, rendering works differently when compared to other checkboxes in Markdown. Using the above example as a referenced note at `task.example`:
+
+```markdown
+- [x] This is a task without note links
+- [ ] This is a task with a [[referenced wikilink|dendron.topic.tasks]]
+- [x] [[task note|task.example]] due:wed @kaan prio:high
+  - The checkbox is automatically rendered from the `task.example` frontmatter values for task notes. `due:2021.10.29 @kaan prio:high`, along with the `[x]` prefix, is automatically rendered in the workspace editor.
+    - `@kaan`: Comes from `owner: 'alice'` in the `task.example` frontmatter
+    - `prio:high`: Comes from `priority: 'H'` in the `task.example` frontmatter
+    - `due:2021.10.29`: Comes from `due: 'wed'` in the `task.example` frontmatter
+```
+
+#### Custom configuration
+
 You can see how the task note displays the keys like due and owner. Some like the status and priority are a little more complicated, but you can figure them out once you take a look at the default configuration.
 
-```
+```yaml
 workspace:
     ...
     task:
