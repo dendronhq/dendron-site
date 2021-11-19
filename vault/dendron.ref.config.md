@@ -2,7 +2,7 @@
 id: f83c1d87-eac0-48f3-a5cf-8a69989d8ec1
 title: Configuration
 desc: ''
-updated: 1636510103165
+updated: 1637309071220
 created: 1619539817122
 nav_order: 2.1
 ---
@@ -47,23 +47,21 @@ Controls the title for [[children links|dendron.topic.links#children-links]] in 
 With this set, you will be prompted to select the vault location each time you create a note when you have multiple vaults in your workspace.
 
 ### lookupDontBubbleUpCreateNew
+> This setting is scheduled for deprecation 📆
+>
+> Use [[bubbleUpCreateNew|dendron.ref.config.command#bubbleupCreateNew]] instead.
 - default: false
 
 With this set to `true`: `Create new` will NOT bubble up to the top when using [[Note Lookup|dendron.topic.lookup]]. Use this setting when your workflow largely consists of lookups and you want to keep `Create new` as the last entry in the look up results. 
 
 ### mermaid
-- default: false
+- default: true
 
-Turn on to enable [[mermaid support|dendron.topic.markdown#diagrams]]
+Turn on to enable [[mermaid support|dendron.topic.markdown#diagrams]] for publishing.
 
 ### noCaching
 
 Disable dendron [[caching|dendron._ref.caching]]
-
-### noLegacyNoteRef
-- default: true
-
-Disable dendron legacy note refs
 
 ### noTelemetry
 > This setting is scheduled for deprecation 📆
@@ -117,12 +115,12 @@ Turn on to enable [remark-container support](https://github.com/Nevenall/remark-
 
 ### useFMTitle
 
-When set to true, use frontmatter as title when publishing and in the preview.
+When set to true, use frontmatter as title when publishing.
 
 ### useKatex
 - default: true
 
-Turn on [Katex](https://katex.org/) support
+Turn on [Katex](https://katex.org/) support for publishing.
 
 ### enableUserTags
 - default: true
@@ -136,7 +134,7 @@ Enables [[hashtags|dendron.topic.tags#hashtags]] support.
 
 ### useNoteTitleForLink
 
-If true, use the note title when displaying naked links. This also applies to note references. 
+If true, use the note title when displaying naked links when published. This also applies to note references. 
 
 - NOTE: this is not yet fully supported for multi-vault. specifically, cross vault links are not yet supported
 
@@ -166,7 +164,7 @@ If set to true, the inserted note index block will be wrapped between a marker l
 ### usePrettyRefs
 - default: true
 
-If set to false, don't use [[pretty refs|dendron._ref.terms#pretty-ref]]
+If set to false, don't use [[pretty refs|dendron._ref.terms#pretty-ref]] when publishing.
 
 ### noRandomlyColoredTags
 - default: false

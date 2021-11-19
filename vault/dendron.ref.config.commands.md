@@ -2,7 +2,7 @@
 id: F9LWJEjscrGkxnYi2JNby
 title: Commands
 desc: ''
-updated: 1634646756227
+updated: 1637309014435
 created: 1633485423674
 ---
 
@@ -19,6 +19,7 @@ commands:
       selectionMode:
       confirmVaultOnCreate:
       leaveTrace:
+      bubbleUpCreateNew:
   randomNote:
     include:
     exclude:
@@ -52,6 +53,11 @@ Prompt for vault selection when creating new note.
 Leaves a reference of the destination note in the source note while using selection `extract` mode. 
 
 - default: false
+
+#### bubbleUpCreateNew
+Put `Create New` at the top of the lookup result.
+
+- default: true 
 
 ## randomNote
 Namespace for Random Note command related configurations.
