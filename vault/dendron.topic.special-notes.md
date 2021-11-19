@@ -41,7 +41,7 @@ A scratch note is a self contained note that is meant to be used as scratchpad. 
 
 ## Configuration
 
-To change the keybindings used to create special notes, you can [define custom shortcuts](https://wiki.dendron.so/notes/66d734d2-07bd-4ac6-be0b-a38b55bc1099/) in `keybindings.json` that will [modify the behaviour of the lookup command](https://wiki.dendron.so/notes/ad270a7d-2aed-4273-8319-eb6536e38b29/).
+To change the keybindings used to create special notes, you can [[define custom shortcuts|dendron.topic.lookup.keybindings]] in `keybindings.json` that will [[modify the behavior of the `Lookup` command|dendron.topic.lookup.modifiers]].
 
 All special notes support the following configuration options
 
