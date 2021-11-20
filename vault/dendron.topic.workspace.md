@@ -23,6 +23,11 @@ A workspace that is created using `dendron.code-workspace` file.
 
 A workspace that is created with a `dendron.yml` file and lacking a `dendron.code-workspace` file.
 
+### Bare Workspace
+
+A bare workspace is a workspace where all vaults inside are [[remote vaults|dendron://dendron.dendron-site/dendron.topic.vaults#remote]] (separate git repos). 
+You can have a **bare code workspace** or a **bare native workspace**.
+
 ## Commands
 
 ### Workspace: Add and Commit
