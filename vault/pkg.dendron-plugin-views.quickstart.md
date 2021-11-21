@@ -46,6 +46,8 @@ When working on plugin views, there are two modes of development: browser and ID
     ```
     You can change the id to any id inside of [[dendron.dev.ref.test-workspace]] to see how different views function
 
+- TIP: to set the theme in browser mode, you can run `env THEME={dark|light} yarn start`
+
 ### Developing in IDE Mode
 
 ![[dendron://dendron.dendron-site/pkg.dendron-plugin-views.arch#^FIQf5ZoJXIBP:#*]]
