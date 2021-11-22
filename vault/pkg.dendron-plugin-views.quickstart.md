@@ -35,7 +35,7 @@ When working on plugin views, there are two modes of development: browser and ID
     ```
     This will open up the browser at localhost:3000. When developing on the browser, Dendron will have some defaults loaded depending on what view you are using. 
 1. When developing against the browser, you don't have direct access to the workspace. Instead, you'll need to use `window.postMessage` api to simulate vscode actions.
-    To do this, open up the developer console and simulate events by pasting the following event:
+    To do this, open up the developer console (inside browser) and simulate events by pasting the following event:
     ```js
     id = "9eae08fb-5e3f-4a7e-a989-3f206825d490";
     window.postMessage({
