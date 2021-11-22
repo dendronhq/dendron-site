@@ -2,7 +2,7 @@
 id: SuyIgH44sJD5P3dRVBaVZ
 title: Quickstart
 desc: ''
-updated: 1636431133885
+updated: 1637558458474
 created: 1635701411866
 ---
 
@@ -25,7 +25,7 @@ When working on plugin views, there are two modes of development: browser and ID
 1. Make sure that [[dendron.dev.ref.test-workspace]] is running on port `3005`
 1. Navigate to package
     ```sh
-    cd packages/dendron-plugin-views
+    cd $DENDRON_REPO_ROOT/packages/dendron-plugin-views
     ```
 1. Run 
     ```sh
