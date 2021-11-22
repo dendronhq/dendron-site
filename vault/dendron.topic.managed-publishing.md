@@ -9,4 +9,4 @@ created: 1615160515751
 This documentation goes over Dendron's managed hosting for publishing your notes
 
 ## Related
-- [[2 - Managed Publishing RFC|dendron.rfc.2-managed-publishing]]
+- [[2 - Managed Publishing RFC|rfc.2-managed-publishing]]

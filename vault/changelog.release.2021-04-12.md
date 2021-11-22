@@ -1,6 +1,6 @@
 ---
 id: 8be5a0d4-4bd1-4da8-ad4b-3146aef432b7
-title: "0.37"
+title: '0.37'
 desc: ''
 updated: 1618263681090
 created: 1618263202600
@@ -17,7 +17,7 @@ Dendron 0.37 has sprouted  🌱
 - legacy note references are now removed - use [[doctor|dendron.ref.commands#actions]] with `oldNoteRefToNew` to convert your old note references
 
 ### Docs
-- @fudo created [[a rfc|dendron.rfc.7-graph-rework]] for better Dendron Graphs. Take a look and please leave comments in #feedback
+- @fudo created [[a rfc|rfc.7-graph-rework]] for better Dendron Graphs. Take a look and please leave comments in #feedback
 
 ### Community
 

@@ -1,6 +1,6 @@
 ---
 id: 00e6f3d8-4243-42c7-8e4f-a074a1bd0ffb
-title: "0.44"
+title: '0.44'
 desc: ''
 updated: 1622494847233
 created: 1622484155123
@@ -22,8 +22,8 @@ Our documentation changes a lot week by week. Below is a highlight of some updat
   - [[Updates on our Mission Statement|dendron.mission-statement]]
   - [[Updates on our Triage Process|dendron.dev.triage]]
   - [[Dendron Roadmap|dendron.roadmap]]
-  - [[12 Schema Improvements|dendron.rfc.12-schema-improvements]]
-  - [[6 Design System|dendron.rfc.6-design-system]]
+  - [[12 Schema Improvements|rfc.12-schema-improvements]]
+  - [[6 Design System|rfc.6-design-system]]
   - [[7 Graph Rework Design|dendron.rfc.7-graph-rework.design]]
 - dev
     - [[Lookup Internals|dendron.topic.lookup#details]]

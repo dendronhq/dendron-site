@@ -87,4 +87,4 @@ You can edit this schema to your liking. For example, you can add a [[template|d
 
 If you want to remake the schema for this hierarchy, delete the schema file and start from step 1. 
 ## Related
-* [[dendron.rfc.35-easier-schemas]]
+* [[rfc.35-easier-schemas]]

@@ -16,7 +16,7 @@ Create better testing harness for Dendron workspalce inside `plugin-core`
 
 ## Context
 
-We are currently making a few changes in both how our workspaces are initialized (eg. [[31 Native Workspace|dendron://dendron.dendron-site/dendron.rfc.31-native-workspace]]) as well as testing (eg. BDD light).
+We are currently making a few changes in both how our workspaces are initialized (eg. [[31 Native Workspace|dendron://dendron.docs/rfc.31-native-workspace]]) as well as testing (eg. BDD light).
 This means it's a good tiem to re-visit how we setup workspaces for testing so that it is performant and functional going forward
 
 ## Proposal

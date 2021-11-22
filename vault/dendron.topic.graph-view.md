@@ -204,6 +204,6 @@ If styles are not showing up in the graph, try the following steps:
 
 ## RFCs
 
--   [[7 Graph Rework|dendron.rfc.7-graph-rework]]
+-   [[7 Graph Rework|rfc.7-graph-rework]]
 
 ---

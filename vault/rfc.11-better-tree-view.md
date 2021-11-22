@@ -1,6 +1,6 @@
 ---
 id: ba8cf4c5-6254-4eca-8072-8001ca5afda7
-title: 11 Better Tree View 
+title: 11 Better Tree View
 desc: ''
 updated: 1620311053256
 created: 1620263936049

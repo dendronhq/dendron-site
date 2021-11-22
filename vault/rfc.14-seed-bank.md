@@ -42,11 +42,11 @@ The Seed Bank needs to define the following components:
 
 ### Specs
 
-See [[configuration|dendron.rfc.14-seed-bank.configuration]] for how metadata is stored in seeds
+See [[configuration|rfc.14-seed-bank.configuration]] for how metadata is stored in seeds
 
 ### Registry
 
-See [[Registry|dendron.rfc.14-seed-bank.registry]] for more information
+See [[Registry|rfc.14-seed-bank.registry]] for more information
 
 ### Client
 
@@ -54,7 +54,7 @@ Registry client methods will be added to the [[dendron CLI|dendron.ref.cli]] und
 
 We will also add additional methods to the [[workspace command|dendron.ref.cli#workspace-command]] to be able to intiialize a workspace from an existing seed.
 
-See [[methods|dendron.rfc.14-seed-bank.methods]] for the list of supported methods
+See [[methods|rfc.14-seed-bank.methods]] for the list of supported methods
 
 ## Motivating Example
 
@@ -142,7 +142,7 @@ Dendron will pull in all dependencies of seed B as well as seed A
 
 - [[Next Phase ⏩|dendron._ref.status#next-phase-]]
 
-By default, publishing is disabled for seeds. If you want to publish a seed, you can set its [[visibility|dendron.rfc.14-seed-bank.configuration#visibility]] to `public`. At this point, the standard publishing [[configuration|dendron.topic.publish-legacy.configuration]] rules appyl.
+By default, publishing is disabled for seeds. If you want to publish a seed, you can set its [[visibility|rfc.14-seed-bank.configuration#visibility]] to `public`. At this point, the standard publishing [[configuration|dendron.topic.publish-legacy.configuration]] rules appyl.
 
 When you publish a seed, we will automatically add a banner at the top of any page that comes from a seed.
 
@@ -150,14 +150,14 @@ When you publish a seed, we will automatically add a banner at the top of any pa
 This page is originally published by {author} and licensed under {license}
 ```
 
-You can disable this behavior by setting [[addAttribution|dendron.rfc.14-seed-bank.configuration#addattribution]] to `false`.
+You can disable this behavior by setting [[addAttribution|rfc.14-seed-bank.configuration#addattribution]] to `false`.
 
 ## Phases
 
 ### Phase I
 
-- [x] add registry [[configuration|dendron.rfc.14-seed-bank.configuration]] to `dendron.yml` [2021-06-15 15:55]
-- [x] add registry [[methods|dendron.rfc.14-seed-bank.methods]] to dendron cli [2021-06-15 15:55]
+- [x] add registry [[configuration|rfc.14-seed-bank.configuration]] to `dendron.yml` [2021-06-15 15:55]
+- [x] add registry [[methods|rfc.14-seed-bank.methods]] to dendron cli [2021-06-15 15:55]
 - [x] add seed resolution logic when dendron initializes workspaces with seeds [2021-06-15 15:55]
 
 ### Phase II

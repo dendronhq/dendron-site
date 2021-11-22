@@ -35,7 +35,7 @@ Over time, both our end users and as internal users at the Dendron team have com
 
 #### Implemented Behaviors
 - **Daily Journal and Scratch Notes**: These notes have special behavior around naming and have some special configurations around their behavior.
-- **Index Notes**: See [[dendron.rfc.18-add-note-indexes]]. This is an implemented feature.
+- **Index Notes**: See [[rfc.18-add-note-indexes]]. This is an implemented feature.
 
 #### Proposed Behaviors
 - **To-Do Notes**: See https://github.com/dendronhq/dendron/discussions/1358. Currently in proposal stage.
@@ -157,7 +157,7 @@ Possible Functionality Added with a Type System:
 
 ### An Index Note Type
 
-See [[dendron.rfc.18-add-note-indexes]]
+See [[rfc.18-add-note-indexes]]
 
 Index notes could utilize [[auto generation of content within a note|dendron.rfc.999-note-type-system#auto-generation-of-content-within-a-note]] to automatically update its index- we can apply an index note type to a note in a non-leaf node and have it automatically update to reflect the state of its children.
 

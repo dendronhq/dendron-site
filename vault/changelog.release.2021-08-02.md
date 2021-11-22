@@ -1,6 +1,6 @@
 ---
 id: XJvKMQfKVMD1Rm4o
-title: "0.53"
+title: '0.53'
 desc: ''
 updated: 1636510302715
 created: 1627884266164
@@ -31,7 +31,7 @@ We're hiring at Dendron!
 - [[Head of Content|careers.head-of-content]]
 
 Work is going on for last weeks CROP ([Create Index Note](https://github.com/dendronhq/dendron/issues/603)).
-Because this is a more involved feature, we've created an [[RFC|dendron.rfc.18-add-note-indexes]] to discuss the implementation details. Please leave any feedback in [this github discussion](https://github.com/dendronhq/dendron/discussions/1076)
+Because this is a more involved feature, we've created an [[RFC|rfc.18-add-note-indexes]] to discuss the implementation details. Please leave any feedback in [this github discussion](https://github.com/dendronhq/dendron/discussions/1076)
 
 ### Community
 

@@ -15,7 +15,7 @@ created: 1613009015603
 1. Go to https://app.dendron.so Create an account if you don't already have one. 
 1. After you login, use "publish a site from Github"
 1. Enter the url of the repo that you want to publish
-1. Enter a [[personal access token|dendron.rfc.2-managed-publishing.ref.github-token]]
+1. Enter a [[personal access token|rfc.2-managed-publishing.ref.github-token]]
 
 When your site is ready, you should see the following screen 
 

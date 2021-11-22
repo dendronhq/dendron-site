@@ -1,6 +1,6 @@
 ---
 id: 28bc72c6-5d4f-4d7a-abb2-6c1d72f3438a
-title: "0.45"
+title: '0.45'
 desc: ''
 updated: 1623095482213
 created: 1622949548271
@@ -54,7 +54,7 @@ You can see an overview of all roles [[here|community.roles]]
 Our documentation changes a lot week by week. Below is a highlight of some updates from the past week.
 
 -   direction
-    -   [[Seed bank RFC|dendron.rfc.14-seed-bank]]
+    -   [[Seed bank RFC|rfc.14-seed-bank]]
     -   [[Updated alternatives list|dendron.alternatives]]
 -   dev
     -   [[Hide Block Anchors config|dendron.topic.publish-legacy.configuration]]

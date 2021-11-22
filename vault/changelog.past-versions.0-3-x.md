@@ -98,7 +98,7 @@ You can see the full list of information we collect and why we do it in our [[te
 
 ### Docs
 
--   [[RFC 8 - Multi Publish|dendron://dendron.dendron-site/dendron.rfc.8-multi-publish]]
+-   [[RFC 8 - Multi Publish|dendron://dendron.docs/rfc.8-multi-publish]]
 
 ## 0.37.1
 

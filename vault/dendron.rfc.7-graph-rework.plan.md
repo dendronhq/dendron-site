@@ -9,7 +9,7 @@ issue: 692
 
 ## Goals
 
-![[dendron.rfc.7-graph-rework.design#Summary:#Lookup]]
+![[rfc.7-graph-rework.design#Summary:#Lookup]]
 
 ### Core Functionality
 

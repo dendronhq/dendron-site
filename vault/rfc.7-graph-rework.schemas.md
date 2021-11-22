@@ -45,7 +45,7 @@ schemas:
   namespace: true
 ```
 
-This Schema would validate a particular Hierarchy pattern lets take the example from the [[Graph Rework - Hierarchy|dendron.rfc.7-graph-rework.hierarchy]] file to explain it.
+This Schema would validate a particular Hierarchy pattern lets take the example from the [[Graph Rework - Hierarchy|rfc.7-graph-rework.hierarchy]] file to explain it.
 
 We have the Hierarchy `journal.daily.2020.04.10` that would turn through this Schema into the following structure:
 

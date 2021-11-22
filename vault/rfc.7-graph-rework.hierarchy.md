@@ -36,9 +36,9 @@ But now we have Notes and Schemas that interact with the Hierarchy.
 - A note sits in the Graph at the Hierarchy level.
   Could a note contain its Hierarchy through its headings?
   Extending the Hierarchy, it sits inside with the headings it contains.
-  [[read more|dendron.rfc.7-graph-rework.notes]]
+  [[read more|rfc.7-graph-rework.notes]]
 - A schema describes a hierarchy to validate it.
-  [[read more|dendron.rfc.7-graph-rework.schemas]]
+  [[read more|rfc.7-graph-rework.schemas]]
 
 ## Author
 

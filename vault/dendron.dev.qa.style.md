@@ -8,7 +8,7 @@ created: 1632724441671
 
 ## Summary
 
-Test-specific style guide and best practices. Largely derived from [[dendron.rfc.25-bdd-light]]
+Test-specific style guide and best practices. Largely derived from [[rfc.25-bdd-light]]
 
 ## Structure tests with BDD vocabulary
 Utilize hierarchial test structure utilizing the BDD vocabulary of GWT (Given When Then).

@@ -1,7 +1,7 @@
 ---
 id: 1bb018db-8f8e-46c8-ac4a-4baf4813b0c8
 title: 6 Design System
-desc: ""
+desc: ''
 updated: 1617385687519
 created: 1617383758295
 ---

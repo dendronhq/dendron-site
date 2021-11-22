@@ -18,4 +18,4 @@ Hooks allow users to attach custom scripts to various parts of Dendron's lifecyc
 - automatically add citations to all images in a note on save
 
 ## Related
-- [[9 Note Lifecycle Hooks|dendron.rfc.9-note-lifecycle-hooks]]
+- [[9 Note Lifecycle Hooks|rfc.9-note-lifecycle-hooks]]

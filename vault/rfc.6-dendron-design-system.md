@@ -1,7 +1,7 @@
 ---
 id: 37df43ee-1c74-4def-af2c-72fe80c728f4
 title: 6 Dendron Design System
-desc: ""
+desc: ''
 updated: 1621865610083
 created: 1605539111635
 ---

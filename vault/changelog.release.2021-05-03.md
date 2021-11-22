@@ -1,6 +1,6 @@
 ---
 id: 2979e42c-a945-4483-912a-ad4f9560fdb7
-title: "0.40"
+title: '0.40'
 desc: ''
 updated: 1620073760783
 created: 1620073147992
@@ -22,9 +22,9 @@ Dendron 0.40 has sprouted  🌱
 
 The following are specifications for new features we will be working on this month. If you have input, please leave them in the corresponding github discussion that is linked to the bottom of each respective RFC.
 
-- [[7 Graph Rework|dendron.rfc.7-graph-rework]]
-- [[9 Note Lifecycle Plugins|dendron.rfc.9-note-lifecycle-hooks]]
-- [[10 Blocks|dendron.rfc.10-blocks]]
+- [[7 Graph Rework|rfc.7-graph-rework]]
+- [[9 Note Lifecycle Plugins|rfc.9-note-lifecycle-hooks]]
+- [[10 Blocks|rfc.10-blocks]]
 
 ### Community
 

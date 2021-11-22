@@ -1,6 +1,6 @@
 ---
 id: 7Y1f7gPmzhdLaepIfBvcj
-title: "0.63"
+title: '0.63'
 desc: ''
 updated: 1634068566278
 created: 1634061545899
@@ -21,7 +21,7 @@ Dendron 0.63 has sprouted  🌱
 
 ### House Cleaning
 
-1. [[RFC 23: Consolidate Configurations|dendron://dendron.dendron-site/dendron.rfc.23-config-consolidation]]
+1. [[RFC 23: Consolidate Configurations|dendron://dendron.docs/rfc.23-config-consolidation]]
 
 Dendron configuration can be overwhelming - we are working on making it less so by consolidating configuration by function via a gradual rollout. This week, we are migrating all command related options to their own [[namespace|dendron://dendron.dendron-site/dendron.ref.config.commands#summary]]. We will migrate the remaining configuration over the new few weeks. This should be transparent to you as an end user - a backup of your current configuration will be created before migrating .
 

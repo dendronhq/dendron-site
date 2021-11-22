@@ -1,6 +1,6 @@
 ---
 id: KasnPHKjT8aD6RzU0BI3x
-title: "0.49"
+title: '0.49'
 desc: ''
 updated: 1625491159023
 created: 1625491159023
@@ -25,7 +25,7 @@ Our documentation changes a lot week by week. Below is a highlight of some updat
 
 - added profiling to [[QA docs|dendron.dev.qa#Profiling]]
 - updated publishing [[instructions|dendron.guides.tips#publish-to-github-pages-with-actions]]
-- published the [[Better Tags RFC|dendron.rfc.16-better-tags]]
+- published the [[Better Tags RFC|rfc.16-better-tags]]
 
 ### Ongoing
 

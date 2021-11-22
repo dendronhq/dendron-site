@@ -1,6 +1,6 @@
 ---
 id: fb9263aa-8cc6-423f-ab79-57921c90fb97
-title: "0.42"
+title: '0.42'
 desc: ''
 updated: 1621288959052
 created: 1621273957566
@@ -21,7 +21,7 @@ You can find notes from our latest office hours [here](https://docs.google.com/d
 
 #### New RFCS
 
-- [[Schema Improvements|dendron.rfc.12-schema-improvements]] is now ready for review and discussion - thank you [flammehawk](https://github.com/flammehawk) for drafting this!
+- [[Schema Improvements|rfc.12-schema-improvements]] is now ready for review and discussion - thank you [flammehawk](https://github.com/flammehawk) for drafting this!
 
 #### Contributors Page
 

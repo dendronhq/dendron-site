@@ -1,6 +1,6 @@
 ---
 id: 5mfPAJFfNFrD16RbGOs9h
-title: "RFC 23: Consolidate Configurations"
+title: 'RFC 23: Consolidate Configurations'
 desc: ''
 updated: 1630671654596
 created: 1630472367230

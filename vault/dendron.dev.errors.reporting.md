@@ -92,5 +92,5 @@ There are also additional data points we can add to improve diagnostics and insi
 
 ## Related
 
-[[RFC 19: Error Reporting|dendron.rfc.19-error-reporting]]
+[[RFC 19: Error Reporting|rfc.19-error-reporting]]
 

@@ -178,7 +178,7 @@ vault with new convert vault command ([[docs|dendron.topic.vaults#vault-convert]
 
 ### Breaking changes
 
-As part of the [[config consolidation|dendron.rfc.23-config-consolidation]], workspace options like `vault` are now under the `workspace` namespace in `dendron.yml`.
+As part of the [[config consolidation|rfc.23-config-consolidation]], workspace options like `vault` are now under the `workspace` namespace in `dendron.yml`.
 
 Before:
 ```yaml

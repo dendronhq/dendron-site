@@ -109,10 +109,10 @@ This references the items 2 and 3.
 
 ## Tasks
 
-- [x] [[Parsing block syntax|dendron.rfc.10-blocks.parsing-block-syntax]]
-- [ ] [[Markdown integration|dendron.rfc.10-blocks.markdown-integration]]
-- [ ] [[Html integration|dendron.rfc.10-blocks.html-integration]]
-- [ ] [[Integration with Vscode|dendron.rfc.10-blocks.vscode-integration]]
+- [x] [[Parsing block syntax|rfc.10-blocks.parsing-block-syntax]]
+- [ ] [[Markdown integration|rfc.10-blocks.markdown-integration]]
+- [ ] [[Html integration|rfc.10-blocks.html-integration]]
+- [ ] [[Integration with Vscode|rfc.10-blocks.vscode-integration]]
 
 ## Example
 

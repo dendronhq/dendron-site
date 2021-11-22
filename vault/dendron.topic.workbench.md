@@ -113,7 +113,7 @@ Clicking on a link candidate item will open the note that contains the candidate
 
 ## Contextual UI
 
-Dendron has a number of built-in commands to the VSCode workbench environment. Right clicking a file will allow for the option to run Dendron specific commands over it. The details of this feature are discussed in depth [[here|dendron://dendron.dendron-site/dendron.rfc.29-contextual-ui]].
+Dendron has a number of built-in commands to the VSCode workbench environment. Right clicking a file will allow for the option to run Dendron specific commands over it. The details of this feature are discussed in depth [[here|dendron://dendron.docs/rfc.29-contextual-ui]].
 
 ## Working with Multiple Columns
 

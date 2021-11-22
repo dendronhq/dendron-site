@@ -25,16 +25,16 @@ You can see all currently available seeds [here](https://github.com/dendronhq/de
 ## CLI
 
 ### add
-![[dendron://dendron.dendron-site/dendron.rfc.14-seed-bank.methods#add,1:#*]]
+![[dendron://dendron.docs/rfc.14-seed-bank.methods#add,1:#*]]
 
 ### info
-![[dendron://dendron.dendron-site/dendron.rfc.14-seed-bank.methods#info,1:#*]]
+![[dendron://dendron.docs/rfc.14-seed-bank.methods#info,1:#*]]
 
 ### init
-![[dendron://dendron.dendron-site/dendron.rfc.14-seed-bank.methods#init,1:#publish]]
+![[dendron://dendron.docs/rfc.14-seed-bank.methods#init,1:#publish]]
 
 ### remove
-![[dendron://dendron.dendron-site/dendron.rfc.14-seed-bank.methods#remove,1:#*]]
+![[dendron://dendron.docs/rfc.14-seed-bank.methods#remove,1:#*]]
 
 ## Requesting new Seeds
 
@@ -45,4 +45,4 @@ created the [Seed Request Template](https://github.com/dendronhq/dendron/issues/
 - [[Work In Progress 🚧|dendron._ref.status#work-in-progress-]]
 
 ## Lookup
-- [[RFC|dendron.rfc.14-seed-bank]]
+- [[RFC|rfc.14-seed-bank]]

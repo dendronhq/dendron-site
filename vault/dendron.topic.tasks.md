@@ -43,7 +43,7 @@ Writing down your tasks in plain markdown is easy and most easily compatible
 with other tools, but it doesn't work for everyone. If you ever find yourself
 looking for more comprehensive features, you should go for task notes. This is
 an upcoming feature that's currently in development, so send your feedback to
-the [[Todo Notes RFC|dendron.rfc.13.todo-notes]] and look out for updates!
+the [[Todo Notes RFC|rfc.13.todo-notes]] and look out for updates!
 
 ### Creating a task note
 

@@ -181,4 +181,4 @@ How a text note link is rendered can be configured using [[notes.task.render|den
 Please see the [discussions page](https://github.com/dendronhq/dendron/discussions/1358) to add any thoughts or suggestions.
 
 ## PRs
-- ![[Kevin Pr Comments|dendron://dendron.dendron-site/dendron.rfc.13.todo-notes.kevin-pr-comments]]
+- ![[dendron://dendron.docs/rfc.13.todo-notes.kevin-pr-comments]]

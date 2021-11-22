@@ -31,7 +31,7 @@ The next Problem could be that each Team would want to extend the Work Project s
 
 The goal should be in a first step to make it possible to specify if a schema in a vault should have Priority for this vault, making it Possible to have a Schema Vault that contains shared schemas and having schemas inside in each vault that can override the schared Schemas.
 
-The next Step in this could be to make it possible to extend schemas. Making schemas more useable in general. See [[Reusability|dendron.rfc.12-schema-improvements.reusability]] for this.  
+The next Step in this could be to make it possible to extend schemas. Making schemas more useable in general. See [[Reusability|rfc.12-schema-improvements.reusability]] for this.  
 
 ## Proposal
 

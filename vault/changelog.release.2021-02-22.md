@@ -1,6 +1,6 @@
 ---
 id: 8d76cb22-f14c-438c-821e-37c91d1b857a
-title: "0.30"
+title: '0.30'
 desc: ''
 updated: 1614139494099
 created: 1614059104275
@@ -15,7 +15,7 @@ Dendron 0.30 has sprouted  🌱
 - lots of enhancements and bug fixes
 
 ### In the Works
-- custom domains for [[managed publishing|dendron.rfc.2-managed-publishing]]
+- custom domains for [[managed publishing|rfc.2-managed-publishing]]
 
 ### Community
 

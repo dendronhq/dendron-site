@@ -1,7 +1,7 @@
 ---
 id: 8bc80164-6436-4c77-8077-7842f53a4a23
 title: 12 Schema Improvements
-desc: ""
+desc: ''
 updated: 1621954345365
 created: 1620580916541
 ---
@@ -18,14 +18,14 @@ Improve the abilitys of schemas.
 
 This is a proposal of multiple features, each indivitual feature will have its own page. The order has no meaning.
 
-1. [[Types|dendron.rfc.12-schema-improvements.types]]
+1. [[Types|rfc.12-schema-improvements.types]]
    The ability to specify types for a schema.
-1. [[Pattern|dendron.rfc.12-schema-improvements.pattern]] match result usage
-1. [[Reusability|dendron.rfc.12-schema-improvements.reusability]]
-1. [[Vault Specific|dendron.rfc.12-schema-improvements.vault-specific]]
-1. [[UI Options|dendron.rfc.12-schema-improvements.ui-options]]
-1. [[Json Schema|dendron.rfc.12-schema-improvements.json-schema]]
-1. [[Custom Editor|dendron.rfc.12-schema-improvements.custom-editor]]
+1. [[Pattern|rfc.12-schema-improvements.pattern]] match result usage
+1. [[Reusability|rfc.12-schema-improvements.reusability]]
+1. [[Vault Specific|rfc.12-schema-improvements.vault-specific]]
+1. [[UI Options|rfc.12-schema-improvements.ui-options]]
+1. [[Json Schema|rfc.12-schema-improvements.json-schema]]
+1. [[Custom Editor|rfc.12-schema-improvements.custom-editor]]
 
 ## Details
 
