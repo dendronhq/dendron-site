@@ -2,12 +2,11 @@
 id: OJwaDZjuGYaBSShHmDaSf
 title: Deploy
 desc: ''
-updated: 1637094968516
+updated: 1637598103717
 created: 1635532194153
 ---
 
 ## Cook
-
 
 
 ### Manual bump and publish package versions

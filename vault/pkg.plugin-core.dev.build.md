@@ -2,7 +2,7 @@
 id: mwDT040wz5nBKtctjvNrQ
 title: Build
 desc: ''
-updated: 1637094970317
+updated: 1637529455222
 created: 1635705939396
 ---
 
@@ -33,6 +33,10 @@ The fast rebuild will only remove `node_modules` from packages where it needs to
 1. Remove generated assets
     ```sh
     npx lerna run clean --parallel --scope "@dendronhq/{dendron-plugin-views,dendron-next-server,plugin-core}"
+    ```
+1. Restore package.json
+    ```sh
+    git reset --hard
     ```
 1. Re-build assets
     ```
@@ -95,3 +99,4 @@ cp ../dendron-yml.validator.json dendron-yml.validator.json
 
 ## Related
 - [[Changelog|dendron://dendron.dendron-site/pkg.plugin-core.ref.build#changelog]]
+- [[Dev CLI|dendron://dendron.dendron-site/dendron.dev.cli]]

@@ -2,7 +2,7 @@
 id: 9MZBqhrijEM4QpZRa5t08
 title: Linking Notes
 desc: Linking Notes
-updated: 1625573468621
+updated: 1637551418396
 created: 1625563999532
 nav_order: 2
 ---
@@ -16,7 +16,7 @@ Dendron supports links between your notes, which can help you organically connec
 Example Text: `[[dendron.tutorial]]`
 Resulting Link: [[dendron.tutorial]]
 
-To navigate to the note in the link, you can just click on the link in the preview pane. In the editor pane, you can move the cursor into the link and hit `Ctrl+Enter / Cmd+Enter`.
+To navigate to the note in the link, you can just click on the link in the preview pane. In the editor pane, you can move the cursor into the link and hit `Ctrl+Enter`.
 
 You can switch back to the previous note with the tab switching shortcut (`Ctrl+Tab` on most systems).
 
@@ -38,7 +38,7 @@ You can explore the hierarchical organization of your notes and how your notes a
 
 - Tutorial Step 4: [[Rich Formatting|dendron.tutorial.rich-formatting]]
 - Try out some additional features of links:
-  - Create a note directly from a link - place your cursor inside this link `[[recipes.new-recipes-to-try]]`, hit `Ctrl+Enter/Cmd+Enter`.
+  - Create a note directly from a link - place your cursor inside this link `[[recipes.new-recipes-to-try]]`, hit `Ctrl+Enter`.
   - Add an alias to a link to change how it shows in the preview. Example: [[My Alias|tutorial]]
   - Relative Links - Link to a specific section of a page with a `#` suffix. Example: [[Additional Link Features|tutorial.3-links-and-graphs#additional-link-features]]
   - [[Note References|dendron.topic.note-reference]] - Add a section from another note with its content embedded into the current note.

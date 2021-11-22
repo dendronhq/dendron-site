@@ -39,3 +39,4 @@ pods/dendron.nextjs/config.export.yml
 pods
 .history
 dendron-site.zip
+vault/site.code-search

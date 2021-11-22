@@ -2,7 +2,7 @@
 id: Y0cZsmfUdytwajRGeylMZ
 title: CLI
 desc: ''
-updated: 1636323460571
+updated: 1637524450987
 created: 1631473249667
 ---
 
@@ -82,6 +82,12 @@ Format `package.json` of plugin to make it compatible with `vsce package`
 ### package_plugin
 
 Equivalent to running the following
+
+Options:
+- --fast: when set, skip installing packages, skip uploading to sentry
+
+Env:
+- ANALYZE_BUNDLE: if set, create a treemap of dependencies using [webpack-bundle-analyzer](https://www.npmjs.com/package/webpack-bundle-analyzer)
 
 ```sh
 yarn 
