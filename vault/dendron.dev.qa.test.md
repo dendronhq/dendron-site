@@ -16,7 +16,7 @@ All packages have tests written in `jest` except plugin-core. these tests use `m
 Going forward for new tests the recommendation is to follow GIVEN-WHEN-THEN style described in [[dendron.dev.qa.style]]
 
 #### Plugin
-- see [[Test|dendron://dendron.dendron-site/pkg.plugin-core.qa.test]]
+- see [[Test|dendron://dendron.docs/pkg.plugin-core.qa.test]]
 
 You can see an example of a test [here](https://github.com/dendronhq/dendron/blob/master/packages/plugin-core/src/commands/CopyNoteURL.ts)
 

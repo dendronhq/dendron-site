@@ -11,7 +11,7 @@ If you want to use a workspace to test changes on the workspace at `$DENDRON_REP
 Note that this workspace is currently configured to be used with launching a engine server from the command line. 
 
 ## Pre-requisites
-- [[Symlink the dendron cli|dendron://dendron.dendron-site/pkg.dendron-cli.dev#symlink]]
+- [[Symlink the dendron cli|dendron://dendron.docs/pkg.dendron-cli.dev#symlink]]
 
 ## Setup
 

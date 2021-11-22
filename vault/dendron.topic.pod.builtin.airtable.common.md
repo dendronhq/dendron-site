@@ -44,7 +44,7 @@ In all cases, the key represents the name of the column in airtable.
 
 #### string value
 
-String value is the name of the field in Dendron. You can use any valid [[NoteProps|dendron://dendron.dendron-site/pkg.common-all#noteprops]] as the value
+String value is the name of the field in Dendron. You can use any valid [[NoteProps|dendron://dendron.docs/pkg.common-all#noteprops]] as the value
 
 ```yml
 srcFieldMapping: {Note ID : id, Title : title, Summary: body}

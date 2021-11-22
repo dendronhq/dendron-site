@@ -7,4 +7,4 @@ created: 1631029707711
 ---
 
 
-See [[Build|dendron://dendron.dendron-site/pkg.plugin-core.dev.build]]
+See [[Build|dendron://dendron.docs/pkg.plugin-core.dev.build]]

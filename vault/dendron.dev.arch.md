@@ -22,7 +22,7 @@ This goes over the major architectural components of Dendron.
   - Running a plugin command: [[Base Command Lifecycle|pkg.plugin-core.t.commands#base-command-lifecycle]]
   - Lookup: 
     - plugin: [[Internal|pkg.plugin-core.t.lookup.internal]]
-    - engine: [[Lookup|dendron://dendron.dendron-site/pkg.dendron-engine.t.lookup]]
+    - engine: [[Lookup|dendron://dendron.docs/pkg.dendron-engine.t.lookup]]
   - Dendron Engine: [[Initialization|pkg.dendron-engine.arch#initialization]]
 
 - Specifics
