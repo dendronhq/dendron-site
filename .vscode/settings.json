@@ -2,5 +2,9 @@
   "dendron.rootDir": ".",
   "pasteImage.prefix": "/",
   "editor.suggest.snippetsPreventQuickSuggestions": false,
-  "editor.suggest.showSnippets": true
+  "editor.suggest.showSnippets": true,
+  "files.autoSave": "onFocusChange",
+  "pasteImage.path": "${currentFileDir}/assets/images",
+  "editor.snippetSuggestions": "inline",
+  "editor.tabCompletion": "on"
 }
