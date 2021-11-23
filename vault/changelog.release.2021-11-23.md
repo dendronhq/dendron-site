@@ -2,7 +2,7 @@
 id: Ku1qjbDYlsxk4rfMoFEza
 title: "0.70"
 desc: ''
-updated: 1637697976278
+updated: 1637698801802
 created: 1637687416614
 ---
 
@@ -53,7 +53,7 @@ This week's entry in the [[Dendron Reading Series|community.reading-series]].
 
 #### Office hours
 
-We will be hosting Office Hours every other Wednesday, with these events being created on our [Luma Calendar](https://lu.ma/community/com-lTfMsAZEWSwLJJL/calendar). The next Office Hours will be:
+We are updating our office hour schedules! We will be hosting Office Hours every other Wednesday, with these events being created on our [Luma Calendar](https://lu.ma/community/com-lTfMsAZEWSwLJJL/calendar). The next Office Hours will be:
 
 - [Wed, Nov 24, 09:00 AM PST](https://lu.ma/1qawev0b)
 
