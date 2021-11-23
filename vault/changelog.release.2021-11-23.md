@@ -2,13 +2,13 @@
 id: Ku1qjbDYlsxk4rfMoFEza
 title: "0.70"
 desc: ''
-updated: 1637695774398
+updated: 1637697853678
 created: 1637687416614
 ---
 
 Dendron 0.70 has sprouted  🌱
 
-Dendronites can now use `Dendron: Initialize Workspace` to create [[native workspaces|dendron.topic.workspace.native]]: this means you can get Dendron working in your code repos, following a [Docs-as-Code](https://www.writethedocs.org/guide/docs-as-code/) approach. Jump in and take a look!
+Dendronites can now use `Dendron: Initialize Workspace` to create [[native workspaces|dendron.topic.workspace.native]]. This means that you can now use Dendron inside an existing project by turning one of its folders into your Dendron workspace. For developers, this takes [Docs-as-Code](https://www.writethedocs.org/guide/docs-as-code/) to a whole new level!
 
 This release also includes a variety of fixes and enhancements to publishing, among other improvements.
 
@@ -51,7 +51,13 @@ This week's entry in the [[Dendron Reading Series|community.reading-series]].
 
 ![[community.reading-series.journal.2021.11.23]]
 
-#### "Hello World" from the Newest Dendron Team Member: Tuling
+#### Office hours
+
+We will be hosting Office Hours every other Wednesday, with these events being created on our [Luma Calendar](https://lu.ma/community/com-lTfMsAZEWSwLJJL/calendar). The next Office Hours will be:
+
+- [Wed, Nov 24, 09:00 AM PST](https://lu.ma/1qawev0b)
+
+#### A new team member has sprouted: Tuling
 
 I'm Tuling and I'm another software engineer working at Dendron.
 
