@@ -2,10 +2,21 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1637354798833
+updated: 1637687395538
 created: 1601508213606
 nav_order: 2
 ---
+
+## 0.70.0
+
+### Enhancements
+- enhance(publish): Better formatting of tables on published site (#1737) @kevin
+
+### Fix
+- fix(publish): syntax highlighting for code blocks (#1732) @kevin
+- fix(publish): make mermaid work consistently on published sites (#1759) @kevin
+- fix(publish): enable katex on published site
+- fix(cli): workspace info prints message to CLI
 
 ## 0.69.2
 
