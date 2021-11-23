@@ -2,13 +2,13 @@
 id: Ku1qjbDYlsxk4rfMoFEza
 title: "0.70"
 desc: ''
-updated: 1637691256859
+updated: 1637695774398
 created: 1637687416614
 ---
 
 Dendron 0.70 has sprouted  🌱
 
-Dendronites can now use `Dendron: Initialize Workspace` to create [[native workspaces|dendron.topic.workspace.native]], variable substitution is possible in the desc note frontmatter, and improvements have been made to task note decorators (the task info that magically renders whenever a note link is pointing to a task note). Jump in and take a look!
+Dendronites can now use `Dendron: Initialize Workspace` to create [[native workspaces|dendron.topic.workspace.native]]: this means you can get Dendron working in your code repos, following a [Docs-as-Code](https://www.writethedocs.org/guide/docs-as-code/) approach. Jump in and take a look!
 
 This release also includes a variety of fixes and enhancements to publishing, among other improvements.
 
@@ -20,11 +20,7 @@ This release also includes a variety of fixes and enhancements to publishing, am
 - fix(publish): enable katex on published site 
 
 ### Everything Else
-- enhance(markdown): expose `desc` frontmatter property for variable substitution ([[docs|dendron.topic.markdown#frontmatter-variable-substitution]])
-  - View the [difference](https://github.com/dendronhq/dendron-site/pull/284/files)
-- enhance(workspace): improved task note decorations
-  * Task note decorations are colored with the same color as the link to make them easier to distinguish from regular text. ([[docs|dendron.topic.tasks#task-note-links]])
-  * Task notes say `priority:` instead of `prio:` for priorities in task note frontmatter. ([[docs|dendron.topic.tasks#task-note-internals]])
+- enhance(markdown): expose `desc` frontmatter property for variable substitution ([[docs|dendron.topic.markdown#frontmatter-variable-substitution]]) ([diff](https://github.com/dendronhq/dendron-site/pull/284/files))
 - enhance(publish): better position sidebar, main content and footer
 - enhance(commands): copy a tag note link results in hashtags
 - enhance(lookup) Add description field to lookup buttons
@@ -33,11 +29,12 @@ This release also includes a variety of fixes and enhancements to publishing, am
 - fix(lookup): disappearing vaults in vault selection quickpick
 - fix(publish): remove duplicate CSS
 - fix(workspace): remove trailing whitespace in note
-- fix(workspace): decorations working for long notes
-- fix(cli): [ajv](https://github.com/ajv-validator/ajv) (a JSON schema validator) now prints warning messages to console
+- fix(cli): [ajv](https://github.com/ajv-validator/ajv) (a JSON schema validator) no longer prints warning messages to console
 - fix(pods): invalid configuration error
 
 ### Community
+
+As part of the [Dendron Site Reorganization](https://github.com/dendronhq/dendron/discussions/1665), our developer documentation has been migrated over to [docs.dendron.so](https://docs.dendron.so/). With this, Dendronites should notice some slimming of the docs on [wiki.dendron.so](https://wiki.dendron.so/).
 
 #### General Updates
 
@@ -54,16 +51,50 @@ This week's entry in the [[Dendron Reading Series|community.reading-series]].
 
 ![[community.reading-series.journal.2021.11.23]]
 
-#### Office hours
+#### "Hello World" from the Newest Dendron Team Member: Tuling
 
-You can find notes from our latest office hours [[here|community.office-hours.2021.11.14]].
+I'm Tuling and I'm another software engineer working at Dendron.
+
+Kevin and I first met back in 2012 when we were both interns at Amazon. I'll never forget our first conversation as it seemed almost impossible to believe. Like Kevin, I also grew up in Germany (born there) before moving to Toronto and then ending up in the states (NJ/WA/CA); I like to say that he's been following my literal footsteps.
+
+When Kevin shared his journey about founding Dendron, I was in awe, but not necessarily surprised given his work ethic. Thanks to him and Dendron, it's given me the motivation to also write/journal more often instead of trusting my memory (not getting any younger...).
+
+During my life hours, I like to dabble in all kinds of hobbies (volleyball, ice skating, rhythm games, bowling, board games). Currently I'm focusing on guitar, learning languages (japanese) and other cultures, and pottery, and I'm excited for what my future self will pick up.
 
 #### Thank You's
 
 A big **thanks** to the following gardeners that brought up issues, contributions, and fixes to this release.
 You can see an overview of all roles [[here|community.roles]].
 
-TODO
+- [Zero King](https://github.com/l2dy) `@l2dy#9201`
+  - #dendron.horticulturalist
+  - [fix: remove duplicate CSS](https://github.com/dendronhq/dendron/pull/1707)
+  - [fix(workspace): remove trailing whitespace in note](https://github.com/dendronhq/dendron/pull/1736)
+  - [chore(publish): remove unused API routes](https://github.com/dendronhq/dendron/pull/1765)
+- [benhsm] `@Jack of some quantity of trades#3247`
+  - #dendron.taxonomist
+  - [docs: Make special note lookup keybinds more obvious](https://github.com/dendronhq/dendron-site/pull/286)
+- [icedwater](https://github.com/icedwater) `@icedwater#8514`
+  - #dendron.bugcatcher
+  - `dendron workspace info` has invalid output
+- [Bassmann](https://github.com/Bassmann) `@Bassmann#5300`
+  - [Calendar view doesn't honor the journal config](https://github.com/dendronhq/dendron/issues/1733)
+  - [Tree view doesn't get updated after rename Note](https://github.com/dendronhq/dendron/issues/1734)
+- [Im](https://github.com/immartian)
+  - #dendron.bugcatcher
+  - [Macro name in [xxxx] can't be seen in editor under VSC "Highly Contrast" color scheme](https://github.com/dendronhq/dendron/issues/1738)
+- [David Paquet Pitts](https://github.com/davidpp) `@davidpp#5603`
+  - #dendron.bugcatcher
+  [Wiki - Search bar is on top of navigation and hidden a portion of it (Safari 15+)](https://github.com/dendronhq/dendron/issues/1740)
+- [Aleksey Rowan](https://github.com/aleksey-rowan) `@aleksey#5276`
+  - [Strip whitespace when using Paste Link command](https://github.com/dendronhq/dendron/issues/1741)
+- [Funnym0nk3y](https://github.com/funnym0nk3y)
+  - [Math rendering broken](https://github.com/dendronhq/dendron/issues/1747)
+- [John Wells](https://github.com/d1rewolf) `@d1rewolf#0381`
+  - #dendron.taxonomist
+  - [Cmd + Enter doesn't navigate to links from editor on macOS](https://github.com/dendronhq/dendron/issues/1750)
+- [Kimsia Sim](https://github.com/simkimsia) `@kimsia#3035`
+  - [Move Header Works Differently When the Header Is the First Section](https://github.com/dendronhq/dendron/issues/1762)
 
 ### Changelog
 ![[changelog#0700,1:#0690]]

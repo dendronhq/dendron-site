@@ -2,7 +2,7 @@
 id: SEASewZSteDK7ry1AshNG
 title: Tasks
 desc: ''
-updated: 1637353918133
+updated: 1637695024745
 created: 1635451738215
 ---
 
@@ -84,6 +84,7 @@ tags:
 ---
 ```
 
+<!--
 #### Task note links
 
 When referencing a task note, rendering works differently when compared to other checkboxes in Markdown. Using the above example as a referenced note at `task.example`:
@@ -97,6 +98,7 @@ When referencing a task note, rendering works differently when compared to other
     - `prio:high`: Comes from `priority: 'H'` in the `task.example` frontmatter
     - `due:2021.10.29`: Comes from `due: 'wed'` in the `task.example` frontmatter
 ```
+-->
 
 #### Custom configuration
 
