@@ -2,7 +2,7 @@
 id: Ku1qjbDYlsxk4rfMoFEza
 title: "0.70"
 desc: ''
-updated: 1637697853678
+updated: 1637697976278
 created: 1637687416614
 ---
 
@@ -34,9 +34,9 @@ This release also includes a variety of fixes and enhancements to publishing, am
 
 ### Community
 
-As part of the [Dendron Site Reorganization](https://github.com/dendronhq/dendron/discussions/1665), our developer documentation has been migrated over to [docs.dendron.so](https://docs.dendron.so/). With this, Dendronites should notice some slimming of the docs on [wiki.dendron.so](https://wiki.dendron.so/).
-
 #### General Updates
+
+As part of the [Dendron Site Reorganization](https://github.com/dendronhq/dendron/discussions/1665), our developer documentation has been migrated over to [docs.dendron.so](https://docs.dendron.so/). With this, Dendronites should notice some slimming of the docs on [wiki.dendron.so](https://wiki.dendron.so/).
 
 New GitHub discussions to get involved in:
 - [Getting Started Guide: Review, community feedback, and refresh](https://github.com/dendronhq/dendron/discussions/1756)
