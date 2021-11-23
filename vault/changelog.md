@@ -2,10 +2,21 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1637354798833
+updated: 1637698965785
 created: 1601508213606
 nav_order: 2
 ---
+
+## 0.70.0
+
+### Enhancements
+- enhance(publish): Better formatting of tables on published site (#1737) @kevin
+
+### Fix
+- fix(publish): syntax highlighting for code blocks (#1732) @kevin
+- fix(publish): make mermaid work consistently on published sites (#1759) @kevin
+- fix(publish): enable katex on published site
+- fix(cli): workspace info prints message to CLI
 
 ## 0.69.2
 
@@ -13,11 +24,12 @@ nav_order: 2
 - feat(workspace): Initialize Workspace command can create native workspaces ([[docs|dendron.topic.workspace.native]]) (#1701) @kaan
 
 ### Enhancements
-- enhance(markdown): expose `desc` frontmatter property for variable substitution (([[docs|dendron.topic.markdown#frontmatter-variable-substitution]]) (#1721) @hikchoi
-  - View the [difference](https://github.com/dendronhq/dendron-site/pull/284/files)
+<!-- Reverted, commenting out
 - enhance(workspace): improved task note decorations @kaan
   * Task note decorations are colored with the same color as the link to make them easier to distinguish from regular text. ([[docs|dendron.topic.tasks#task-note-links]])
   * Task notes say `priority:` instead of `prio:` for priorities in task note frontmatter. ([[docs|dendron.topic.tasks#task-note-internals]])
+-->
+- enhance(markdown): expose `desc` frontmatter property for variable substitution ([[docs|dendron.topic.markdown#frontmatter-variable-substitution]]) ([diff](https://github.com/dendronhq/dendron-site/pull/284/files)) (#1721) @hikchoi
 - enhance(publish): better position sidebar, main content and footer (#1696) @felipe
 - enhance(commands): copy a tag note link results in hashtags (#1687) @joshi
 - enhance(lookup) Add description field to lookup buttons (#1735) @tuling
@@ -27,8 +39,7 @@ nav_order: 2
 - fix(lookup): disappearing vaults in vault selection quickpick (#1717) @hikchoi
 - fix(publish): remove duplicate CSS (#1707) [`@l2dy`](https://github.com/l2dy)
 - fix(workspace): remove trailing whitespace in note (#1736) [`@l2dy`](https://github.com/l2dy)
-- fix(workspace): decorations working for long notes (#1725) @kaan
-- fix(cli): [ajv](https://github.com/ajv-validator/ajv) (a JSON schema validator) now prints warning messages to console (#1722) @nickolay
+- fix(cli): [ajv](https://github.com/ajv-validator/ajv) (a JSON schema validator) no longer prints warning messages to console (#1722) @nickolay
 
 ## 0.69.1
 
