@@ -1,9 +1,7 @@
 useFMTitle: true
 useNoteTitleForLink: true
-noLegacyNoteRef: true
 mermaid: true
 useKatex: true
-usePrettyRefs: true
 dev:
     enableWebUI: true
     enablePreviewV2: true
@@ -31,7 +29,7 @@ site:
         It is meant to help you create, organize, and collaborate on knowledge
         bases of any size.
     ga_tracking: G-B0JN2HHCNY
-version: 3
+version: 4
 useTitleForLink: true
 commands:
     lookup:
@@ -39,6 +37,7 @@ commands:
             selectionMode: extract
             confirmVaultOnCreate: false
             leaveTrace: false
+            bubbleUpCreateNew: true
     randomNote: {}
     insertNote:
         initialValue: templates
@@ -48,7 +47,7 @@ commands:
     insertNoteIndex:
         enableMarker: false
 workspace:
-    dendronVersion: 0.67.1
+    dendronVersion: 0.70.0
     vaults:
         -
             fsPath: vault
@@ -93,3 +92,9 @@ workspace:
         createTaskSelectionType: selection2link
     enableUserTags: true
     enableHashTags: true
+preview:
+    enableFMTitle: true
+    enableNoteTitleForLink: true
+    enableMermaid: true
+    enablePrettyRefs: true
+    enableKatex: true
