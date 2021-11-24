@@ -41,6 +41,9 @@ schemas:
 - id: topic
   namespace: true
   desc: "Major feature areas"
+  children:
+    - pattern: quickstart
+    - pattern: upgrade 
 - id: template
   template:
     id: dendron.template.example
