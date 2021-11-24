@@ -1,27 +1,44 @@
 ---
 id: 6iPfPKI8nOwQLVF6KgfJU
-title: 'Office Hours'
+title: Office Hours
 desc: ''
-updated: 1637714232714
+updated: 1637769476317
 created: 1637714132832
 published: false
+commentsUpdated: true
+revisionId: >-
+  ALm37BU6EHDiJUYeC0tKXT30tjeEQB-ZcsoNjvXH8QOx8kSxseUpwQO8NhG0KC265fQlCaANOD_ByvkPZMhR8Q
 ---
+##  Office hours
 
-### Feature highlights
+November 24 - Office Hours
+## SOPS
+
+- [[Upload Video|dendron://private/dendron.sop.upload-video]]
+
+- [[Office Hours|dendron://private/area.community.sop.office-hours]]
+
+## Format
+
+- highlights of features
+
+- answer questions
+
+- if time, talk about what we're working on
+
+- going deeper into specific features
+
+## Feature highlights
+
 - native workspaces
+
 - publishing improvements
+
 - schemas, inline schemas
 
-### Notes
-<!-- Copy gdoc contents into here -->
+## Tasks
 
+- [ ] look at sop
 
-### Checklist
-- *** before
-- [X] update title to `Office Hours` [2021-11-23 16:36]
+November 24 - Office Hours
 
-- *** after office hours
-- [ ] upload stream to youtube
-- [ ] import office hours gdoc ino this note
-- [ ] comment out the checklist when done
-- [ ] set `published` to `true` in the frontmatter
