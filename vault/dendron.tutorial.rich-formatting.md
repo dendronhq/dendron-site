@@ -59,6 +59,11 @@ sequenceDiagram
     John->>Bob: How about you?
     Bob-->>John: Jolly good!
 ```
+#### Mermaid Markdown Preview Configuration
+For mermaid diagrams to be properly visible when using a dark VSCode color theme, add the following line to `settings.json`:
+```json
+"markdown-preview-enhanced.mermaidTheme": "dark",
+```
 
 ### Note References
 
