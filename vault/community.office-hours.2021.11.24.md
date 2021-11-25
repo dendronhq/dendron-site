@@ -7,34 +7,64 @@ created: 1637714132832
 published: false
 commentsUpdated: true
 revisionId: >-
-  ALm37BU6EHDiJUYeC0tKXT30tjeEQB-ZcsoNjvXH8QOx8kSxseUpwQO8NhG0KC265fQlCaANOD_ByvkPZMhR8Q
+  ALm37BWKJetTadTvc09KsYeTigCOm32hyx8mWv0bZBGvDxd1feByVZjXG9Zpzd6nguh0QphPHHXASk8wOaSjCg
 ---
+##  Office hours
 
-## SOPS
-- [[Upload Video|dendron://private/dendron.sop.upload-video]]
-- [[Office Hours|dendron://private/area.community.sop.office-hours]]
+### November 24 - Office Hours
 
-## Format
+- Highlights
+  - **Native Workspaces**
+			-bunch of improvements made for the last week
 
-- highlights of features
+			-use Dendron inside of subfolders or anywhere else
 
-- answer questions
+			-have existing VS code project, add dendron vault or dendron workspace                    
 
-- if time, talk about what we're working on
+ into that project
 
-- going deeper into specific features
+-can publish/export
 
-## Feature highlights
+Future improvements:
 
-- native workspaces
+- Leave inline code by wiki link, do goto note and navigate to the part of the code
 
-- publishing improvements
+- Integration of dendron workspace into existing user projects 
 
-- schemas, inline schemas
+- Integration within IDE
 
-## Tasks
+  - **publishing improvements**
+    - Mermaid 
+    - Katex
+    - Inline Code
+    - Better table formatting
 
-- [ ] look at sop
+  - **schemas, inline schemas**
+    - Easier to use 
+    - Schemas will now auto update
+    - More practical, easy to experiment and try out different patterns
+    - Templates repo available upon workspace initialization (3 diff defaults) 
+    - More features coming along the way to make schemas more flexible and more expressive.
+- Questions
+  - CLI + Dendron Native Workspace
+  - Dendron only indexes the vaults that are in the workspace
+  - Dendron VIM Integration
+    - CLI
+    - API
+    - Language Server Protocol (future project)
+	      -    Unix Philosophy vs Dendron Philosophy
 
-November 24 - Office Hours
+                 -     
+
+- Notes
+  - GitHub PR drafts
+    - [Creating a pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request)
+    - [Change the state (of a PR)](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/changing-the-stage-of-a-pull-request)
+  - Dendron recommended workflow is Amoeba 
+- Blog posts
+- Meta
+  - Put in otter (you should have invite in RPass)
+  - For highlights, lets prep some scenarios ahead of time 
+  - Onboarding doc: [https://github.com/dendronhq/seed.dendron.onboarding](https://github.com/dendronhq/seed.dendron.onboarding)
+
 
