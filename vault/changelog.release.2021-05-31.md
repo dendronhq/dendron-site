@@ -20,7 +20,7 @@ Our documentation changes a lot week by week. Below is a highlight of some updat
 
 - direction
   - [[Updates on our Mission Statement|dendron.mission-statement]]
-  - [[Updates on our Triage Process|dev.triage]]
+  - [[Updates on our Triage Process|dev.process.issues.ref.labels]]
   - [[Dendron Roadmap|dendron.roadmap]]
   - [[12 Schema Improvements|rfc.12-schema-improvements]]
   - [[6 Design System|rfc.6-design-system]]
