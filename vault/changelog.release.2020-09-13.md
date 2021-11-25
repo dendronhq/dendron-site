@@ -1,6 +1,6 @@
 ---
 id: 50071eda-fc46-4aca-ba6c-9d53db00d068
-title: "0.11"
+title: '0.11'
 desc: ''
 updated: 1630731585206
 created: 1596374871110
@@ -102,7 +102,7 @@ Create new note from a selection
 
 ### Dendron Snippet Maker
 
-![[pkg.dendron-snippet-maker]]
+![[archive.pkg.dendron-snippet-maker]]
 
 ### Enhancements
 

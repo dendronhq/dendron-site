@@ -796,7 +796,7 @@ Dendron now initializes your workspace with common default snippets
 
 #### Latex Support on Published Site
 
-![[pkg.dendron-jekyll.topic.math#math,1:#*]]
+![[archive.pkg.dendron-jekyll.topic.math#math,1:#*]]
 
 #### Introduce siteRepoDir Customization
 

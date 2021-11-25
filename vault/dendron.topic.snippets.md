@@ -22,7 +22,7 @@ You can use [[intellisense|dendron._ref.intellisense]] to preview snippets and u
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/tab-autocomplete.gif)
 
-![[pkg.dendron-snippet-maker]]
+![[archive.pkg.dendron-snippet-maker]]
 
 
 ## Topics
