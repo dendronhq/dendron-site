@@ -2,7 +2,7 @@
 id: 6iPfPKI8nOwQLVF6KgfJU
 title: Office Hours
 desc: ''
-updated: 1637772820150
+updated: 1637861602950
 created: 1637714132832
 published: false
 commentsUpdated: true
@@ -60,7 +60,7 @@ Future improvements:
   - GitHub PR drafts
     - [Creating a pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request)
     - [Change the state (of a PR)](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/changing-the-stage-of-a-pull-request)
-  - Dendron recommended workflow is Amoeba 
+  - Dendron recommended workflow is Amoeba workflow
 - Blog posts
 - Meta
   - Put in otter (you should have invite in RPass)
