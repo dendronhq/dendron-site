@@ -23,7 +23,7 @@ Dendron 0.49 has sprouted 🌱
 
 Our documentation changes a lot week by week. Below is a highlight of some updates from the past week.
 
-- added profiling to [[QA docs|dev.qa#Profiling]]
+- added profiling to [[QA docs|dev.process.qa#Profiling]]
 - updated publishing [[instructions|dendron.guides.tips#publish-to-github-pages-with-actions]]
 - published the [[Better Tags RFC|rfc.16-better-tags]]
 

@@ -21,7 +21,7 @@ Dendron 0.53 has sprouted  🌱
 
 Our documentation changes a lot week by week. Below is a highlight of some updates from the past week.
 
-- For Dendron Developers: Considerations when writing tests that will work on Windows: [[dev.qa.windows]]
+- For Dendron Developers: Considerations when writing tests that will work on Windows: [[dev.process.qa.windows]]
 
 ### Ongoing 
 

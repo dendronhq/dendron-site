@@ -26,7 +26,7 @@ dendron dev run_migration --migrationVersion 0.64.1
 ```
 
 ### Everything Else
-- enhance(cli): add run migration command in cli ([[docs|dev.cli#run_migration]])
+- enhance(cli): add run migration command in cli ([[docs|etc.cli#run_migration]])
 - enhance(commands): update default aliases when note is updated
 - enhance(pods): enhance gdoc import formatting 
 - fix(publish): make assetPrefix apply to all link elements

@@ -2,7 +2,7 @@
 id: e5st4LFLtIwwbQmC6JBaF
 title: Quickstart
 desc: ''
-updated: 1634740239950
+updated: 1637877066494
 created: 1631033401707
 ---
 
@@ -15,7 +15,10 @@ This guide walks you through publishing with NextJS.
 ## Prerequisites
 1. Install latest version of the [[dendron cli|dendron.ref.cli#installation]]
 1. Install yarn (optional)
-![[dev.setup.common#install-yarn,1:#*]]
+- NOTE: we use yarn to manage all our js commands. npm works as well if you'd rather use it instead. All code examples will use `yarn`
+```sh
+`npm install -g yarn`
+```
 
 ## Process
 

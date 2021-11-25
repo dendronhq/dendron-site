@@ -27,8 +27,8 @@ Afterwards, you can see how specific features are implemented through the [vscod
 
 ## Pull Request Checklist
 
-- [ ] add a [[test|dev.qa#writing-tests]] for the new feature
-- [ ] make sure all the existing [[tests|dev.qa#running-all-tests]] pass
+- [ ] add a [[test|dev.process.qa#writing-tests]] for the new feature
+- [ ] make sure all the existing [[tests|dev.process.qa#running-all-tests]] pass
 - [ ] if its your first pull request to Dendron, watch out for the [CLA](https://en.wikipedia.org/wiki/Contributor_License_Agreement) bot that will ask you to agree to Dendron's CLA
 - [ ] if its your first pull request and you're on our Discord, make sure that Kevin gives you the [[horticulturalist|community.roles#horticulturalist]] role  👨‍🌾👩‍🌾
 
