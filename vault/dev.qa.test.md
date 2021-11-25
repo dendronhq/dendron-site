@@ -13,7 +13,7 @@ created: 1632347495097
 
 All packages have tests written in `jest` except plugin-core. these tests use `mocha` assertion because vscode has a special test harness built around `mocha`   ^AJqcVczVafLB
 
-Going forward for new tests the recommendation is to follow GIVEN-WHEN-THEN style described in [[dendron.dev.qa.style]]
+Going forward for new tests the recommendation is to follow GIVEN-WHEN-THEN style described in [[dev.qa.style]]
 
 #### Plugin
 - see [[Test|dendron://dendron.docs/pkg.plugin-core.qa.test]]
@@ -43,7 +43,7 @@ Also, consider enabling "Uncaught Exceptions" under "Breakpoints" when running t
 
 To manually test new changes, launch an instance of the test workspace.
 
-![[dendron.dev.ref.test-workspace]]
+![[dev.ref.test-workspace]]
 
 
 ## Troubleshooting

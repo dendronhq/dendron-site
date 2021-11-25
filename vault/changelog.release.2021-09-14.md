@@ -21,7 +21,7 @@ Dendron 0.59 has sprouted  🌱
 - enhance(publish) support attach option for CLI ([[docs|dendron.topic.publish.cli#^bfvLB8BY4nLb]])
 - enhance(lookup) "Create New" will be first result if no exact match
 - enhance(lookup) Disallow toggle of vault selector when using "Move Note" command
-- enhance(workspace) Use sentry to track errors  ([[docs|dendron.dev.errors.reporting]])
+- enhance(workspace) Use sentry to track errors  ([[docs|dev.errors.reporting]])
 - fix(lookup) direct children query not filterting all results
 - fix(lookup) ignore lookupConfirm if dailyVault is set
 - fix(lookup) running move note highlights non-current note

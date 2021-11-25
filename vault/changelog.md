@@ -215,7 +215,7 @@ dendron dev run_migration --migrationVersion 0.64.1
 ### Enhancements
 - enhance(cli): support output option when using `dendron note lookup` ([[docs|dendron://dendron.dendron-site/dendron.ref.cli.notes#lookup]]) (#1526) @kevin
 - enhance(commands): update default aliases when note is updated (#1557) @kaan
-- enhance(cli): add run migration command in cli ([[docs|dendron.dev.cli#run_migration]]) (#1560) @hikchoi
+- enhance(cli): add run migration command in cli ([[docs|dev.cli#run_migration]]) (#1560) @hikchoi
 
 ### Fix
 - fix(workspace): update yml validation to latest config version (#1554) @hikchoi

@@ -15,7 +15,7 @@ This guide walks you through publishing with NextJS.
 ## Prerequisites
 1. Install latest version of the [[dendron cli|dendron.ref.cli#installation]]
 1. Install yarn (optional)
-![[dendron.dev.setup.common#install-yarn,1:#*]]
+![[dev.setup.common#install-yarn,1:#*]]
 
 ## Process
 

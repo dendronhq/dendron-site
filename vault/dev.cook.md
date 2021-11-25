@@ -8,7 +8,7 @@ stub: false
 ---
 ## Build
 
-- See [[Build|dendron.dev.build]]
+- See [[Build|dev.build]]
 
 ## Packages
 

@@ -261,7 +261,7 @@ Delete dendron [[cache|dendron._ref.caching#summary]] files.
 
 ### Whitelisting localhost
 
-Dendron starts a [[local server|dendron.dev.design#overview]] in the background and the plugin connects to it to index notes. Check that you don't have anything that is running or blocking localhost.  If you happen to have [Cloudflare WARP VPN](https://1.1.1.1) on a Mac, then your localhost might be broken.  To fix that, update your version of the VPN (a recent update fixed it).
+Dendron starts a [[local server|dev.design#overview]] in the background and the plugin connects to it to index notes. Check that you don't have anything that is running or blocking localhost.  If you happen to have [Cloudflare WARP VPN](https://1.1.1.1) on a Mac, then your localhost might be broken.  To fix that, update your version of the VPN (a recent update fixed it).
 
 ### Correctly Format the Note
 

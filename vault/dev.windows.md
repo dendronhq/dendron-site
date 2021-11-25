@@ -1,7 +1,7 @@
 ---
 id: d0f34b08-0725-4ec5-a600-a4d6309bb2ae
 title: Windows
-desc: 'Windows gotchas'
+desc: Windows gotchas
 updated: 1615168192996
 created: 1615165852271
 ---

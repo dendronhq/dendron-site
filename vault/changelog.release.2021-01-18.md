@@ -1,6 +1,6 @@
 ---
 id: 9293d889-e07f-4a01-b67f-e8aca7c1c7f7
-title: "0.25"
+title: '0.25'
 desc: ''
 updated: 1619549858849
 created: 1610992021546
@@ -36,7 +36,7 @@ Last and most of all, a big **thanks** to the following gardeners that brought u
   - Ryan Randall `#environmentalist`
     - contributing to dendron
 - [Mark H. Choi](https://github.com/hikchoi/cerebrarium) @hikchoi#8934 `#taxonomist` `#bug-catcher`
-  - [[Dendron QA Notes|dendron.dev.qa.notes]]
+  - [[Dendron QA Notes|dev.qa.notes]]
   - [issue with breadcrumbs](https://github.com/dendronhq/dendron-11ty/issues/9)
 - [Simon Claudius](https://github.com/Simon-Claudius) @Simon-Claudius#7577 `#bug-catcher`
   - [graph view broken](https://github.com/dendronhq/dendron/issues/452)

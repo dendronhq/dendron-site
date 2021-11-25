@@ -231,4 +231,4 @@ Run `addAndCommit`, `pull`, and `push` on all vaults inside the workspace. This 
 
 ## Dev Command
 
-![[dendron.dev.cli]]
+![[dev.cli]]

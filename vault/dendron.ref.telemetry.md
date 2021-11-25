@@ -170,7 +170,7 @@ We collect an invocation metric when a [[commands|dendron.ref.commands]] is invo
 
 ### Errors
 
-Whenever a crash happens or an unexpected error, we collect information surrounding the error to help us diagnose the problem and fix it. For more information, see [[Error Reporting|dendron.dev.errors.reporting]].
+Whenever a crash happens or an unexpected error, we collect information surrounding the error to help us diagnose the problem and fix it. For more information, see [[Error Reporting|dev.errors.reporting]].
 
 | Field     | Attributes | Description                                                                                                   |
 | --------: | :--------: | ------------------------------------------------------------------------------------------------------------- |
@@ -201,7 +201,7 @@ When telemetry is disabled or enabled, we collect information about the event to
 If you've disabled telemetry from the [Visual Studio Code Telemetry setting](https://code.visualstudio.com/docs/getstarted/telemetry), no further action is needed. You can set this option in your workspace settings, or user settings.
 
 To disable telemetry in Dendron specifically, run the [[Disable Telemetry|dendron.ref.commands#disable-telemetry]] command.
-You can also disable telemetry using the cli by using the [[disable_telemetry|dendron.dev.cli#disable_telemetry]] command. 
+You can also disable telemetry using the cli by using the [[disable_telemetry|dev.cli#disable_telemetry]] command. 
 
 ## Why not have opt-in telemetry?
 

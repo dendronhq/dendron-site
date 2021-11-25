@@ -1,7 +1,7 @@
 ---
 id: lqASeWbRXobLtsuCcYsXX
 title: React
-desc: ""
+desc: ''
 updated: 1632107476274
 created: 1632107173649
 ---

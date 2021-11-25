@@ -726,7 +726,7 @@ Dendron can now index and manage your notes as a standalone **local** server ind
 
 This is part of the [[server migration milestone|dendron.roadmap.project.n.2020.server-migration]] which we took on for October. 
 
-Dendron's server side indexing is a **complete rewrite** of the [[Dendron engine|dendron.dev.design.engine]] which powers Dendron's lookup capabilities. The new engine is **leaner, meaner, and significantly faster** (especially when initializing your workspace with a large amount of notes).
+Dendron's server side indexing is a **complete rewrite** of the [[Dendron engine|dev.design.engine]] which powers Dendron's lookup capabilities. The new engine is **leaner, meaner, and significantly faster** (especially when initializing your workspace with a large amount of notes).
 
 Server site indexing is a pre-cursor enables our upcoming roadmap items which include:
 

@@ -12,7 +12,7 @@ created: 1632348050137
 - [ ] add a [test](https://wiki.dendron.so/notes/cb22bd36-d45a-4ffd-a31e-96c4b39cb7fb.html#writing-tests) for the new feature
 - [ ] make sure all the existing [tests](https://wiki.dendron.so/notes/cb22bd36-d45a-4ffd-a31e-96c4b39cb7fb.html#running-all-tests) pass
 - [ ] do a spot check by running your feature with our [test workspace](https://wiki.dendron.so/notes/cb22bd36-d45a-4ffd-a31e-96c4b39cb7fb.html#test-workspace)
-- [ ] if your tests involve running [[manual Testing|dendron://dendron.dendron-site/dendron.dev.qa.test#manual-testing]], make sure to update [[Test Workspace|dendron://dendron.dendron-site/dendron.dev.ref.test-workspace]] with any necessary notes/additions to perform manual test ^9jtWc6ov340p
+- [ ] if your tests involve running [[manual Testing|dendron://dendron.dendron-site/dev.qa.test#manual-testing]], make sure to update [[Test Workspace|dendron://dendron.dendron-site/dev.ref.test-workspace]] with any necessary notes/additions to perform manual test ^9jtWc6ov340p
 - [ ] after you submit your pull request, check the output of our [integration test](https://github.com/dendronhq/dendron/actions) and make sure all tests pass
   - NOTE: if you running mac/linux, check the windows output and vice versa if you are developing on windows
 

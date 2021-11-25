@@ -1,6 +1,6 @@
 ---
 id: dmymhrncBTSn2q4ZgKy5B
-title: "0.65"
+title: '0.65'
 desc: ''
 updated: 1635282552202
 created: 1635269443644
@@ -26,7 +26,7 @@ dendron dev run_migration --migrationVersion 0.64.1
 ```
 
 ### Everything Else
-- enhance(cli): add run migration command in cli ([[docs|dendron.dev.cli#run_migration]])
+- enhance(cli): add run migration command in cli ([[docs|dev.cli#run_migration]])
 - enhance(commands): update default aliases when note is updated
 - enhance(pods): enhance gdoc import formatting 
 - fix(publish): make assetPrefix apply to all link elements

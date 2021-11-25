@@ -2,20 +2,16 @@
 id: 6iPfPKI8nOwQLVF6KgfJU
 title: Office Hours
 desc: ''
-updated: 1637769476317
+updated: 1637772820150
 created: 1637714132832
 published: false
 commentsUpdated: true
 revisionId: >-
   ALm37BU6EHDiJUYeC0tKXT30tjeEQB-ZcsoNjvXH8QOx8kSxseUpwQO8NhG0KC265fQlCaANOD_ByvkPZMhR8Q
 ---
-##  Office hours
 
-November 24 - Office Hours
 ## SOPS
-
 - [[Upload Video|dendron://private/dendron.sop.upload-video]]
-
 - [[Office Hours|dendron://private/area.community.sop.office-hours]]
 
 ## Format
