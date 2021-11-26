@@ -2,7 +2,7 @@
 id: yQVhJtdQ40n3SLHJKAeeU
 title: CLI
 desc: ''
-updated: 1633845719262
+updated: 1637886602285
 created: 1631401993170
 ---
 
@@ -19,6 +19,7 @@ Prepare notes for publication. Runs [[Nextjs|dendron.topic.pod.builtin.nextjs]] 
 #### options
 - `--attach`: attach to running engine instead of a new engine ^bfvLB8BY4nLb
 - `--overrides`: add additional config overrides 
+- `--sitemap`: generates a sitemap 
 
 #### example
 
@@ -39,7 +40,8 @@ Builds notes and starts a local dev server. Behind the scenes, runs `dendron pub
 Export notes as static HTML
 
 #### options
-- --target {target}: export to specific destination
+- `--target {target}`: export to specific destination
     - syntax.target: 
         - github: creates a `/docs` directory and export notes there. If a `docs` folder exists, will issue prompt before deleting contents
-- --yes: automatically say `yes` to all prompts
+- `--yes`: automatically say `yes` to all prompts ^9OS4zCAPioij
+- `--sitemap`: generates a sitemap 
