@@ -2,7 +2,7 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1637950345767
+updated: 1637951391917
 created: 1601508213606
 nav_order: 2
 ---
@@ -17,7 +17,7 @@ nav_order: 2
 
 ### Enhancements
 - enhance(workspace): add Dendron preview button (#1744) @kann
-- enhance: show stubs at the end of dot ended lookup (#1780) @nickolay
+- enhance(workspace): show stubs at the end of a dot-ended lookup (#1780) @nickolay
   - ![preview](https://user-images.githubusercontent.com/4050134/143182938-182ff0cf-0080-49da-8121-21ab9fb7b675.png)
 - enhance(cli): cli uses separate port file (#1766) @kevin
 
