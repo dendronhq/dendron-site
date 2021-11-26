@@ -2,10 +2,28 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1637698965785
+updated: 1637951391917
 created: 1601508213606
 nav_order: 2
 ---
+
+## 0.70.1
+
+### Features
+- feat(workspace): hide default markdown preview button (#1636) @kaan
+  - We merged an upstream change with VSCode to enable toggling of the default preview. This was one of the most confusing UX parts of Dendron.
+  - If wanted, the VSCode Markdown preview can still be opened via the command palette (`Ctrl+Shift P`) with: `Markdown: Open Preview` or `Markdown: Open Preview to The Side`
+  - NOTE: requires VSCode 1.63
+
+### Enhancements
+- enhance(workspace): add Dendron preview button (#1744) @kann
+- enhance(workspace): show stubs at the end of a dot-ended lookup (#1780) @nickolay
+  - ![preview](https://user-images.githubusercontent.com/4050134/143182938-182ff0cf-0080-49da-8121-21ab9fb7b675.png)
+- enhance(cli): cli uses separate port file (#1766) @kevin
+
+### Fix
+- fix(views): allow assets to open from preview view (#1771) @nickolay
+- fix(publish): issue with cypress dependency @kevin
 
 ## 0.70.0
 
