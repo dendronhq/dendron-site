@@ -3,9 +3,9 @@ frontend:
   phases:
     preBuild:
       commands:
-        - yarn
         - nvm install 14
         - nvm use 14
+        - yarn
     build:
       commands: 
         - "(test -d .next) && (echo 'updating dendron next...' && cd .next && git reset --hard && git clean -f && git pull) || (echo 'init dendron next' && npx dendron publish init)"
