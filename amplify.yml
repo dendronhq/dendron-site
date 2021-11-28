@@ -4,7 +4,7 @@ frontend:
     preBuild:
       commands:
         - yarn
-        - nvm install 10
+        - nvm install 14
         - nvm use 14
     build:
       commands: 
