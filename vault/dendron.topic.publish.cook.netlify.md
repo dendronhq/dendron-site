@@ -2,7 +2,7 @@
 id: yetuum6o9wZi6eVJQBbQb
 title: Netlify
 desc: ''
-updated: 1637993669028
+updated: 1638217062059
 created: 1637987493080
 ---
 
@@ -135,10 +135,6 @@ This configuration expects the `dendron-publish-site.sh` script to exist in the 
 - Under **Connect to git provider**, click the **GitHub** button
 - You will be prompted to install the **Netlify** app on GitHub
   - For more information on app permissions, refer to [Netlify Docs: Authentication with the Netlify GitHub App](https://docs.netlify.com/configure-builds/repo-permissions-linking/#authentication-with-the-netlify-github-app)
-
-### Website name and status
-
-#todo
 
 ### Remote vaults and submodules
 
