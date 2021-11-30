@@ -2,7 +2,7 @@
 id: yetuum6o9wZi6eVJQBbQb
 title: Netlify
 desc: ''
-updated: 1638217062059
+updated: 1638239333770
 created: 1637987493080
 ---
 
@@ -21,12 +21,15 @@ You can publish your notes using Dendron publishing and [Netlify](https://www.ne
 ### Example Deployment
 You can see a deployed example of these instructions in the following repository, which can be used as a template:
 
-- [Publish a regular github page](https://github.com/dendronhq/template.publish.netlify)
+- [Dendron on Netlify Template: `template.publish.netlify`](https://github.com/dendronhq/template.publish.netlify)
   - The template, with every update, publishes to [this example website](https://dendron-example.netlify.app)
+  - Optional: [**Generate new repo from Dendron/Netlify Template**](https://github.com/dendronhq/template.publish.netlify/generate)
 
 ## Create a github repo
 
 Follow the instructions [here](https://pages.github.com/) to create a repository. Netlify can publish both private and public repositories, leaving it up to you for the source code to be publicly available for viewing or contributions.
+
+Optional: [**Generate new repo from Dendron/Netlify Template**](https://github.com/dendronhq/template.publish.netlify/generate)
 
 ![[dendron.topic.publish.cook.github#add-your-notes:#turn-on-github-pages]]
 
