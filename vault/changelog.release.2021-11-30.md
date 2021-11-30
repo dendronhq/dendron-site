@@ -2,7 +2,7 @@
 id: Ihy02jENwD3m6LBOzakeS
 title: "0.71"
 desc: ''
-updated: 1638292554523
+updated: 1638292696753
 created: 1638290092689
 ---
 
@@ -36,7 +36,6 @@ The nice thing is that ALL VSCode extension authors can now use this feature to 
 ### Everything Else
 - enhance(publish): support adding sitemaps ([[docs|dendron://dendron.dendron-site/dendron.topic.publish.cli#options]])
 - enhance(workspace): show stubs at the end of a dot-ended lookup
-  - ![preview](https://user-images.githubusercontent.com/4050134/143182938-182ff0cf-0080-49da-8121-21ab9fb7b675.png)
 - enhance(cli): cli uses separate port file
 - fix(note): correctly handle note titles containing international characters
 - fix(views): allow assets to open from preview view
