@@ -96,7 +96,7 @@ See [[Native Workspace Setup|dendron.topic.workspace.native#setup]] to see how y
 
 ### Syncing your workspace with Git
 
-`Workspace Sync` does not sync the workspace if all your vaults all separate git repos. In order to synchronize your workspace, you need to explicitly do a `git pull` from the workspace folder.
+`Workspace Sync` does not sync the workspace if all your vaults are separate git repos. In order to synchronize your workspace, you need to explicitly do a `git pull` from the workspace folder.
 
 If you are inside VSCode, you should be able to run `> Create Integrated Terminal...`, choose the folder containing your workspace, and launch the terminal. After launching, run a `git pull` inside of it. 
 
