@@ -5,6 +5,7 @@ frontend:
       commands:
         - nvm install 14
         - nvm use 14
+        - npm install -g yarn
         - yarn
         - yarn add @dendronhq/dendron-cli@latest
     build:
@@ -12,7 +13,10 @@ frontend:
         - nvm use 14
         - "(test -d .next) && (echo 'updating dendron next...' && cd .next && git reset --hard && git clean -f && git pull) || (echo 'init dendron next' && npx dendron publish init)"
         - '[ $AWS_BRANCH = "dev" ] && cd .next && git fetch && git checkout dev'
+        # diagnostics
         - "echo 'install deps...' && cd .next && yarn --production && cd .."
+        - "node --version"
+        - "npm ls | grep dendron"
         - "echo 'version check...' && yarn dendron --version"
         - "echo 'build and export...' && yarn dendron publish export"
   artifacts:
