@@ -14,7 +14,13 @@ nav_order: 2.1
 
 It can be modified using the [[Configure (yaml)|dendron://dendron.dendron-site/dendron.ref.commands#configure-yaml]] command.
 
-All commands are grouped by [[scope|tags.scope]] except those mentioned underneath `Legacy Configuration` - the full list can be found in the children of this note. 
+All commands are grouped by [[scope|tags.scope]] except those mentioned underneath `Legacy Configuration` 
+
+## Scopes
+
+- [[Commands|dendron://dendron.dendron-site/dendron.ref.config.commands]]
+- [[Preview|dendron://dendron.dendron-site/dendron.ref.config.preview]]
+- [[Workspace|dendron://dendron.dendron-site/dendron.ref.config.workspace]]
 
 ## Validation and AutoComplete
 
