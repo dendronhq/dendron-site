@@ -8,7 +8,20 @@ color: green
 ---
 
 A scope is the area of the product a feature belongs in
-
+## Index
+- #scope.cli
+- #scope.commands
+- #scope.dev
+- #scope.lookup
+- #scope.markdown
+- #scope.notes
+- #scope.pod
+- #scope.publish
+- #scope.schema
+- #scope.server
+- #scope.unsorted
+- #scope.views
+- #scope.workspace
 
 ## Dev
 ![[Dev|dendron://dendron.dendron-site/tags.scope.dev]]

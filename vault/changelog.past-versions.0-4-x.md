@@ -122,11 +122,11 @@ created: 1629505311218
 
 ### Enhancements
 
--   support default daily journal vault ([[docs|dendron.ref.config#dailyvault]])
+- support default daily journal vault ([[docs|dendron.ref.config]])
 
 ### Bug Fixes
 
--   `lookupConfirmVaultOnCreate` is respected when creating a daily journal
+- `lookupConfirmVaultOnCreate` is respected when creating a daily journal
 
 ## 0.46.2
 
