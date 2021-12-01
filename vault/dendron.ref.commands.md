@@ -2,7 +2,7 @@
 id: eea2b078-1acc-4071-a14e-18299fc28f47
 title: Commands
 desc: ''
-updated: 1638200251244
+updated: 1638371248200
 created: 1595261816971
 nav_order: 3.1
 ---
@@ -428,10 +428,10 @@ This command works like `Rename Note` but on multiple notes. When using this com
 #### Scope
 The command will first prompt you to decide the scope of the operation. 
 
-- If you have a selection in your active editor that contains wikilinks, you can use the `selection2Items` modifier to limit the scope to only the wikilinks contained in the selection. Toggling `selection2Items` will also toggle `multiSelect`, at which point you can select the notes you want to include in the scope.
+- If you have a selection in your active editor that contains wikilinks, you can use the `selection2Items` modifier to limit the scope to only the wikilinks contained in the selection. Toggling `selection2Items` will also toggle `multiSelect`, at which point you can select the notes you want to include in the scope. This will be the default behavior if you have a selection that has at least one wikilink.
 - If you do not wish to limit the scope with selection, you can lookup the hierarchy to narrow down the scope and use `multiSelect` to select the notes.
 
-If you press <kbd>Esc</kbd> at this stage, the scope will default to all notes existing in your workspace.
+If you select `Entire Workspace` at this stage, the scope will default to all notes existing in your workspace.
 
 - NOTE: At this point, limiting the scope to a specific vault is not supported.
 
