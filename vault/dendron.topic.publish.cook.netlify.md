@@ -2,7 +2,7 @@
 id: yetuum6o9wZi6eVJQBbQb
 title: Netlify
 desc: ''
-updated: 1638239333770
+updated: 1638396461168
 created: 1637987493080
 ---
 
@@ -19,6 +19,9 @@ You can publish your notes using Dendron publishing and [Netlify](https://www.ne
 - You have [[Dendron CLI|dendron.ref.cli]] installed (version `0.70.0` or greater)
 
 ### Example Deployment
+
+> Looking for a quickstart? Read the Dendron blog post: [Share Your Notes Online: Publish Dendron with Netlify and GitHub](https://blog.dendron.so/notes/7h7zZkjF4Yqz8XSrHS1je)
+
 You can see a deployed example of these instructions in the following repository, which can be used as a template:
 
 - [Dendron on Netlify Template: `template.publish.netlify`](https://github.com/dendronhq/template.publish.netlify)
@@ -27,7 +30,7 @@ You can see a deployed example of these instructions in the following repository
 
 ## Create a github repo
 
-Follow the instructions [here](https://pages.github.com/) to create a repository. Netlify can publish both private and public repositories, leaving it up to you for the source code to be publicly available for viewing or contributions.
+Follow the instructions [here](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-new-repository) to create a repository. Netlify can publish both private and public repositories, leaving it up to you for the source code to be publicly available for viewing or contributions.
 
 Optional: [**Generate new repo from Dendron/Netlify Template**](https://github.com/dendronhq/template.publish.netlify/generate)
 
@@ -152,4 +155,4 @@ The Netlify documentation covers this in [Repository Permissions and Linking: Ac
 - [Netlify Docs: Manage build dependencies - Node.js and JavaScript](https://docs.netlify.com/configure-builds/manage-dependencies/#node-js-and-javascript)
 - [Netlify Docs: Get started with the Netlify API](https://docs.netlify.com/api/get-started/)
 
-### Congratulations, you just published your first note 🌱
+### Congratulations, you just published your Dendron notes 🌱
