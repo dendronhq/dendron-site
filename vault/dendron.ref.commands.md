@@ -2,7 +2,7 @@
 id: eea2b078-1acc-4071-a14e-18299fc28f47
 title: Commands
 desc: ''
-updated: 1638371248200
+updated: 1638433071367
 created: 1595261816971
 nav_order: 3.1
 ---
@@ -428,12 +428,9 @@ This command works like `Rename Note` but on multiple notes. When using this com
 #### Scope
 The command will first prompt you to decide the scope of the operation. 
 
-- If you have a selection in your active editor that contains wikilinks, you can use the `selection2Items` modifier to limit the scope to only the wikilinks contained in the selection. Toggling `selection2Items` will also toggle `multiSelect`, at which point you can select the notes you want to include in the scope. This will be the default behavior if you have a selection that has at least one wikilink.
-- If you do not wish to limit the scope with selection, you can lookup the hierarchy to narrow down the scope and use `multiSelect` to select the notes.
 
-If you select `Entire Workspace` at this stage, the scope will default to all notes existing in your workspace.
-
-- NOTE: At this point, limiting the scope to a specific vault is not supported.
+- If you have a selection in your active editor that contains at least one wikilink, the command will prompt you if you want to use the notes in the selection as the scope of refactor.
+- If you do not wish to limit the scope with selection, don't select anything in your active note. The behavior will default to the entire workspace and you will not be asked to determine the scope of refactor.
 
 #### Match text
 This text will be used to match and capture the parts of each note's hierarchy within the scope. If you leave this blank, the command will match and capture the entire hierarchy.
