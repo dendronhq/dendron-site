@@ -9,7 +9,7 @@ created: 1631132278348
 ### Setup Dendron CLI
 ```
 npm init -y 
-npm i @dendronhq/dendron-cli
+npm install @dendronhq/dendron-cli
 ```
 
 ### Setup Notes
