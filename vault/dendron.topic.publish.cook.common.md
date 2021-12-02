@@ -9,7 +9,7 @@ created: 1631132278348
 ### Setup Dendron CLI
 ```
 npm init -y 
-npm install --save @dendronhq/dendron-cli
+npm i @dendronhq/dendron-cli
 ```
 
 ### Setup Notes
@@ -19,13 +19,13 @@ npm install --save @dendronhq/dendron-cli
     ```
 1. Clone the nextjs repository and install dependencies
     ```sh
-    dendron publish init
+    npx dendron publish init
     ```
 
 ### Build Notes
 - NOTE: run this command inside your [[workspace|dendron.topic.workspace]]
 ```sh
-dendron publish build
+npx dendron publish build
 ```
 
 ### Preview Notes
@@ -33,7 +33,7 @@ dendron publish build
 - This command launches a development server which previews how your published website will look like.  Visit [http://localhost:3000](http://localhost:3000) to accesss your site. 
 - Enter `CTRL-C` on the terminal to exit the preview
 ```sh
-dendron publish dev
+npx dendron publish dev
 ```
 
 ### Export Notes
@@ -41,7 +41,7 @@ dendron publish dev
 - This command builds the static HTML which you'll upload to actually publish your site
 
 ```sh
-dendron publish export
+npx dendron publish export
 ```
 
 ### Manual Install
@@ -57,7 +57,7 @@ cd .next && git reset --hard && git clean -f && git pull && npm install
 ### Reinstall Dendron Nextjs Template
 
 ```sh
-rm -rf .next && dendron publish init
+rm -rf .next && npx dendron publish init
 ```
 
 ##
