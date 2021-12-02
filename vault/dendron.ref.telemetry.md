@@ -59,6 +59,7 @@ When Dendron initializes, we collect data about on initialization time. This hel
 | `numVaults` | _number_   | Number of vaults in workspace                                       |
 | `noCaching` | _boolean_  | Check whether caching is disabled                                   |
 | `workspaceType`|_string_ | The type of Dendron workspace.                                      |
+| `codeWorkspacePresent`|_boolean_| Whether a `dendron.code-workspace` file was present          |
 
 ### Configuration
 
