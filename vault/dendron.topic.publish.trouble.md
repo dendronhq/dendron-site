@@ -22,5 +22,5 @@ dendron --version
 ### Upgrade to the latest version of Dendron
 
 ```
-npm install -g @dendron/dendron-cli
+npm install -g @dendronhq/dendron-cli
 ```

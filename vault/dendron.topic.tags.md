@@ -2,7 +2,7 @@
 id: 8bc9b3f1-8508-4d3a-a2de-be9f12ef1821
 title: Tags
 desc: ''
-updated: 1632432246814
+updated: 1638384548702
 created: 1601910058115
 tags:
   - example.from-frontmatter
@@ -49,6 +49,8 @@ Tags are automatically assigned colors to help you identify them easily. If you
 don't like the automatic colors, you can always override what color the tags
 should be by setting the `color` in the frontmatter of the tag note. For
 example, the following tag is #blue, and you can click on it to see how to customize the color.
+
+The colors themselves are just CSS, so you can use any #RRGGBB or similar [color](https://developer.mozilla.org/en-US/docs/Web/CSS/color).  You can also use any color named [here](https://developer.mozilla.org/en-US/docs/Web/CSS/color_value)
 
 Setting a tag color affects the colors of all tags within the hierarchy. For
 example, the tag #example is set to color red, so #example.my-example is also

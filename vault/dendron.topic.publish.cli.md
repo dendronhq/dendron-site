@@ -19,7 +19,7 @@ Prepare notes for publication. Runs [[Nextjs|dendron.topic.pod.builtin.nextjs]] 
 #### options
 - `--attach`: attach to running engine instead of a new engine ^bfvLB8BY4nLb
 - `--overrides`: add additional config overrides 
-- `--sitemap`: generates a sitemap 
+- `--sitemap`: generates a [sitemap](https://en.wikipedia.org/wiki/Site_map)
 
 #### example
 

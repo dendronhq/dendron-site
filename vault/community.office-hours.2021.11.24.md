@@ -1,15 +1,18 @@
 ---
 id: 6iPfPKI8nOwQLVF6KgfJU
-title: Office Hours
+title: '24'
 desc: ''
 updated: 1637861602950
 created: 1637714132832
-published: false
+published: true
 commentsUpdated: true
 revisionId: >-
   ALm37BWKJetTadTvc09KsYeTigCOm32hyx8mWv0bZBGvDxd1feByVZjXG9Zpzd6nguh0QphPHHXASk8wOaSjCg
 ---
+
 ##  Office hours
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/LuoD8ibOazE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### November 24 - Office Hours
 

@@ -2,10 +2,20 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1637951391917
+updated: 1638292360377
 created: 1601508213606
 nav_order: 2
 ---
+
+## 0.71.0
+
+### Enhancements
+- enhance(publish): support adding sitemaps ([[docs|dendron.topic.publish.cli#options]]) @kevin
+- enahnce(publish): upgrade to [nextjs 12](https://nextjs.org/blog/next-12) @kevin
+- enhance(lookup): add auto complete to note lookup (#1781) @nickolay
+
+### Fix
+- fix(note): correctly handle note titles containing international characters (#1801) @kaan
 
 ## 0.70.1
 

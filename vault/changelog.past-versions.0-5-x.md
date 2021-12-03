@@ -152,7 +152,7 @@ Seed Browser is a new view that let's you view Seeds that are available in the S
 ### Enhancements
 
 - improve hover message for missing notes 
-- ability to set selection type to `none` ([[docs|dendron.ref.config#lookup]])
+- ability to set selection type to `none` ([[docs|dendron.ref.config]])
 - use github publish to create new issues ([[docs|dendron.topic.pod.builtin.github-issue.publish]])
 - nicer refactor preview 
 - treeview improvements when publishing using nextjs

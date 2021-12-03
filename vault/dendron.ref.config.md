@@ -2,23 +2,45 @@
 id: f83c1d87-eac0-48f3-a5cf-8a69989d8ec1
 title: Configuration
 desc: ''
-updated: 1637309071220
+updated: 1638231042325
 created: 1619539817122
 nav_order: 2.1
 ---
 
-> We are currently in the middle of a major overhaul of configuration namespaces, and is subject to change in a weekly basis. All configurations described in this document will gradually be marked as "deprecated" as we move them to a better place. 
 
 ## Summary
 
 `dendron.yml` located at the root of your workspace.
 
-This file can be accessed using these Commands ![[dendron.topic.commands#Configure-yaml,0,:#workspace-add-and-commit]]
+It can be modified using the [[Configure (yaml)|dendron://dendron.dendron-site/dendron.ref.commands#configure-yaml]] command.
 
-![[dendron.ref.config#legend]]
+All commands are grouped by [[scope|tags.scope]] except those mentioned underneath `Legacy Configuration` 
 
+## Scopes
 
-## General
+- [[Commands|dendron://dendron.dendron-site/dendron.ref.config.commands]]
+- [[Preview|dendron://dendron.dendron-site/dendron.ref.config.preview]]
+- [[Workspace|dendron://dendron.dendron-site/dendron.ref.config.workspace]]
+
+## Validation and AutoComplete
+
+Dendron can provide validation when you edit the raw yaml using the[[Configure (yaml) Command|dendron.topic.commands#configure-yaml]]. In order to do so, you must have the `redhat.vscode-yaml` extension installed (this is a recommended extension for Dendron) The validator provides autocomplete, documentation & warnings when editing dendron.yml. Here's a few examples of what it looks like:
+
+Hover over values to see documentation
+
+![Hover over values to see documentation](https://camo.githubusercontent.com/f6cb94205c5f83dc6f17ecb843cc5fe27fbad12eb992f3ba5858bdafbfcae1cf/68747470733a2f2f692e696d6775722e636f6d2f534b48344b6a5a2e706e67)
+
+Autocomplete existing values
+
+![Autocomplete existing values](https://camo.githubusercontent.com/f934a307ba25613a539e3084e48e2c6e6bfa22df39fc39e326fc2256efa6f6cc/68747470733a2f2f692e696d6775722e636f6d2f65546750465a582e706e67)
+
+Validate existing values
+
+![Validate existing values](https://camo.githubusercontent.com/4e11001d0d14690c3cc37360e3a4ddab9debdca6d553373fac93fc027cbddf33/68747470733a2f2f692e696d6775722e636f6d2f436563554332482e706e67)
+
+## Legacy Configuration
+
+> We are currently in the middle of a major overhaul of configuration namespaces, and is subject to change in a weekly basis. All configurations described in this section will gradually be marked as "deprecated" as we move them to a better place. 
 
 ### defaultInsertHierarchy
 > This setting is scheduled for deprecation 📆
@@ -206,80 +228,8 @@ Tracks [[vaults|dendron.concepts#vaults]] for the workspace. You shouldn't have 
 
 See [[Vault Configuration|dendron.topic.vaults#workspace-vault,1:#configuration-1]]
 
-## Journal
-> This setting is scheduled for deprecation 📆 ^iDyNPId9bFGz
->
-> Use [[journal|dendron.ref.config.workspace#journal]] instead.
-
-### dailyDomain
-> This setting is scheduled for deprecation 📆 ^iDyNPId9bFGz
->
-> Use [[dailyDomain|dendron.ref.config.workspace#dailydomain]] instead.
-
-- type: string
-- default: daily
-
-domain where daily journals are kept
-
-### dailyVault
-> This setting is scheduled for deprecation 📆 ^iDyNPId9bFGz
->
-> Use [[dailyVault|dendron.ref.config.workspace#dailyvault]] instead.
-
-- type: string
-- default: none
-
-Name of vault where daily journal should be in. If not set, default to current open vault.
-
-### name
-> This setting is scheduled for deprecation 📆 ^iDyNPId9bFGz
->
-> Use [[name|dendron.ref.config.workspace#name]] instead.
-
-- type: string
-- default: journal
-
-name used for journal notes
-
-### dateFormat
-> This setting is scheduled for deprecation 📆 ^iDyNPId9bFGz
->
-> Use [[dateFormat|dendron.ref.config.workspace#dateformat]] instead.
-
-- type: string
-- default: y.MM.dd ^dNGnhlJY93Kk
-
-Date format used for journal notes. Use [luxon style formatting](https://moment.github.io/luxon/#/formatting)
-
-### addBehavior
-> This setting is scheduled for deprecation 📆 ^iDyNPId9bFGz
->
-> Use [[addBehavior|dendron.ref.config.workspace#addbehavior]] instead.
-
-- type: string
-- default: childOfDomain
-- options:  ['childOfDomain', 'childOfDomainNamespace', 'childOfCurrent', 'asOwnDomain']
-
-strategy for adding new journal notes
-- NOTE: this only applies to regular journal notes but not to  [[daily journal|dendron.topic.special-notes#daily-journal]] notes.
-
-## Hooks
-> This setting is scheduled for deprecation 📆 ^iDyNPId9bFGz
->
-> Use [[hooks|dendron.ref.config.workspace#hooks]] instead.
-
-![[dendron.topic.hooks.config]]
-
-## Graph
-> This setting is scheduled for deprecation 📆 ^iDyNPId9bFGz
->
-> Use [[graph|dendron.ref.config.workspace#graph]] instead.
-
-![[dendron.topic.graph-view#config,1:#*]]
-
 ## Dev
 Development configuration covers option to enable [[experimental 🧪|dendron._ref.status#experimental-🧪]] features and when working on Dendron. 
-
 
 ### enableWebUI
 - default: false
@@ -292,78 +242,3 @@ It will work by adding it under the `dev` section (which is not created in defau
 dev:
     enableWebUI: true
 ```
-
-## Validation and AutoComplete
-
-Dendron can provide validation when you edit the raw yaml using the[[Configure (yaml) Command|dendron.topic.commands#configure-yaml]]. In order to do so, you must have the `redhat.vscode-yaml` extension installed (this is a recommended extension for Dendron) The validator provides autocomplete, documentation & warnings when editing dendron.yml. Here's a few examples of what it looks like:
-
-Hover over values to see documentation
-
-![Hover over values to see documentation](https://camo.githubusercontent.com/f6cb94205c5f83dc6f17ecb843cc5fe27fbad12eb992f3ba5858bdafbfcae1cf/68747470733a2f2f692e696d6775722e636f6d2f534b48344b6a5a2e706e67)
-
-Autocomplete existing values
-
-![Autocomplete existing values](https://camo.githubusercontent.com/f934a307ba25613a539e3084e48e2c6e6bfa22df39fc39e326fc2256efa6f6cc/68747470733a2f2f692e696d6775722e636f6d2f65546750465a582e706e67)
-
-Validate existing values
-
-![Validate existing values](https://camo.githubusercontent.com/4e11001d0d14690c3cc37360e3a4ddab9debdca6d553373fac93fc027cbddf33/68747470733a2f2f692e696d6775722e636f6d2f436563554332482e706e67)
-
-
-## insertNoteLink
-> This setting is scheduled for deprecation 📆
->
-> Use [[insertNoteLink|dendron.ref.config.commands#insertnotelink]] instead.
-
-Modifies behavior of the [[Insert Note Link|dendron.topic.commands#insert-note-link]] command.
-
-### multiSelect
-> This setting is scheduled for deprecation 📆
->
-> Use [[enableMultiSelect|dendron.ref.config.commands#enablemultiselect]] instead.
-- default: false
-
-If set to `true`, enables multi-select for `Insert Note Link` Command.
-
-### aliasMode
-> This setting is scheduled for deprecation 📆
->
-> Use [[aliasMode|dendron.ref.config.commands#aliasmode]] instead.
-- default: "none"
-- options: "snippet" | "selection" | "prompt" | "title" | "none"
-
-Overrides default alias mode.
-
-## lookup
-> This setting is scheduled for deprecation 📆
->
-> Use [[lookup|dendron.ref.config.commands#lookup]] instead.
-
-Modifies behavior of [[lookup|dendron.topic.lookup]] related commands
-Currently we only have settings for Note Lookup.
-
-### note
-> This setting is scheduled for deprecation 📆
->
-> Use [[note|dendron.ref.config.commands#note]] instead.
-
-Modifies behavior of `Dendron: Lookup Note`.
-
-#### selectionType
-> This setting is scheduled for deprecation 📆
->
-> Use [[selectionMode|dendron.ref.config.commands#selectionmode]] instead.
-
-- default: "selectionExtract"
-- options: "selectionExtract" | "selection2link" | "none"
-
-Overrides default selection type modifier to be enabled with note lookup.
-
-#### leaveTrace
-> This setting is scheduled for deprecation 📆
->
-> Use [[leaveTrace|dendron.ref.config.commands#leavetrace]] instead.
-- type: boolean
-- default: none
-
-With this set, it leaves a reference of the destination note in the source note while using `selectionExtract`.
