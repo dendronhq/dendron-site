@@ -1,12 +1,12 @@
 ---
 id: CUEwuYsbutHeJJf6aKM3g
 title: Workspace
-desc: ''
-updated: 1636754630570
+desc: 'VSCode workspace, vaults, intellisense/autocomplete, Dendron settings'
+updated: 1638341038879
 created: 1632764333519
 ---
 
-Workspace related functionality
+VSCode workspace, vaults, intellisense/autocomplete, Dendron settings
 
 ## Examples
 - validating settings on startup

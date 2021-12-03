@@ -1,11 +1,12 @@
 ---
 id: wfPw90UTO10fuFtEG4dP6
 title: Pod
-desc: ''
-updated: 1632764111407
+desc: 'Data import from / export to Dendron'
+updated: 1638341280316
 created: 1632764111407
 ---
 
+Data import from / export to Dendron
 
 ## Examples
 - adding a new pod
