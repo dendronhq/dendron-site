@@ -2,10 +2,22 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1638292360377
+updated: 1638555021477
 created: 1601508213606
 nav_order: 2
 ---
+
+## 0.71.4
+
+### Enhancements
+- enhance(lookup): enable scoping and full regex support for refactor hierarchy command ([[docs|dendron.ref.commands#refactor-hierarchy]]) (#1796) @hikchoi
+- enhance(lookup): have auto complete respect value that has been scrolled down to by arrows (#1818) @nickolay
+- enhance(views): allow navigation to preview links that do not have vault specified (#1805) @nickolay
+
+### Fix
+- fix(publish): UI shifting issues with nextjs layout @kevin
+- fix(cli): cli migration now handles JSONC for wsConfig (#1825) @hikchoi
+- fix(schema): When applying a schema template, do not override the body but append to the end to it (#1812) [tma66](https://github.com/tma66)
 
 ## 0.71.0
 
