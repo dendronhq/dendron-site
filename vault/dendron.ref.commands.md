@@ -2,7 +2,7 @@
 id: eea2b078-1acc-4071-a14e-18299fc28f47
 title: Commands
 desc: ''
-updated: 1638433071367
+updated: 1638555304112
 created: 1595261816971
 nav_order: 3.1
 ---
@@ -424,6 +424,7 @@ This command works like `Rename Note` but on multiple notes. When using this com
 - Scope: The set of notes you want to apply the operations to.
 - Match text: Regular expression that matches text you want to capture for replacement.
 - Replace text: Given what has been captured with the match text, what the replaced hierarchy should look like.
+  - This will provide a preview of renames, allowing you to confirm that the change is as expected.
 
 #### Scope
 The command will first prompt you to decide the scope of the operation. 
