@@ -2,7 +2,7 @@
 id: yetuum6o9wZi6eVJQBbQb
 title: Netlify
 desc: ''
-updated: 1638832147810
+updated: 1638832254617
 created: 1637987493080
 ---
 
@@ -26,7 +26,6 @@ You can see a deployed example of these instructions in the following repository
 
 - [Dendron on Netlify Template: `template.publish.netlify`](https://link.dendron.so/6WuI)
   - The template, with every update, publishes to [this example website](https://link.dendron.so/netlify-demo)
-  - Optional: [**Generate new repo from Dendron/Netlify Template**](https://link.dendron.so/6WuJ)
 
 ## Create a github repo
 
