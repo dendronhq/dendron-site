@@ -2,7 +2,7 @@
 id: yetuum6o9wZi6eVJQBbQb
 title: Netlify
 desc: ''
-updated: 1638755714846
+updated: 1638832147810
 created: 1637987493080
 ---
 
@@ -20,7 +20,7 @@ You can publish your notes using Dendron publishing and [Netlify](https://www.ne
 
 ### Example Deployment
 
-> Looking for a quickstart? Read the Dendron blog post: [Share Your Notes Online: Publish Dendron with Netlify and GitHub](https://link.dendron.so/blog-netlify-publish)
+> Looking for a quickstart? Read the Dendron blog post: [Share Your Notes Online: Publish Dendron with Netlify and GitHub](https://blog.dendron.so/notes/7h7zZkjF4Yqz8XSrHS1je)
 
 You can see a deployed example of these instructions in the following repository, which can be used as a template:
 
