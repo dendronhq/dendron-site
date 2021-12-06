@@ -2,7 +2,7 @@
 id: yetuum6o9wZi6eVJQBbQb
 title: Netlify
 desc: ''
-updated: 1638396461168
+updated: 1638755714846
 created: 1637987493080
 ---
 
@@ -20,19 +20,19 @@ You can publish your notes using Dendron publishing and [Netlify](https://www.ne
 
 ### Example Deployment
 
-> Looking for a quickstart? Read the Dendron blog post: [Share Your Notes Online: Publish Dendron with Netlify and GitHub](https://blog.dendron.so/notes/7h7zZkjF4Yqz8XSrHS1je)
+> Looking for a quickstart? Read the Dendron blog post: [Share Your Notes Online: Publish Dendron with Netlify and GitHub](https://link.dendron.so/blog-netlify-publish)
 
 You can see a deployed example of these instructions in the following repository, which can be used as a template:
 
-- [Dendron on Netlify Template: `template.publish.netlify`](https://github.com/dendronhq/template.publish.netlify)
-  - The template, with every update, publishes to [this example website](https://dendron-example.netlify.app)
-  - Optional: [**Generate new repo from Dendron/Netlify Template**](https://github.com/dendronhq/template.publish.netlify/generate)
+- [Dendron on Netlify Template: `template.publish.netlify`](https://link.dendron.so/6WuI)
+  - The template, with every update, publishes to [this example website](https://link.dendron.so/netlify-demo)
+  - Optional: [**Generate new repo from Dendron/Netlify Template**](https://link.dendron.so/6WuJ)
 
 ## Create a github repo
 
 Follow the instructions [here](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-new-repository) to create a repository. Netlify can publish both private and public repositories, leaving it up to you for the source code to be publicly available for viewing or contributions.
 
-Optional: [**Generate new repo from Dendron/Netlify Template**](https://github.com/dendronhq/template.publish.netlify/generate)
+Optional: [**Generate new repo from Dendron/Netlify Template**](https://link.dendron.so/6WuJ)
 
 ![[dendron.topic.publish.cook.github#add-your-notes:#turn-on-github-pages]]
 
@@ -110,7 +110,7 @@ mv .next/out docs
 
 For this guide, we are using the [file-based configuration](https://docs.netlify.com/configure-builds/file-based-configuration/) that references a `netlify.toml` file in the root of our repo.
 
-- Example [`netlify.toml` from `dendron/template.publish.netlify`](https://github.com/dendronhq/template.publish.netlify/blob/main/netlify.toml)
+- Example [`netlify.toml` from `dendron/template.publish.netlify`](https://link.dendron.so/6WuS)
   - Config file includes comments explaining the options used
 
 This configuration expects the `dendron-publish-site.sh` script to exist in the root of your Dendron workspace.
