@@ -2,7 +2,7 @@
 id: yg3EL1x9fEe4NMqxUC3jP
 title: GitHub
 desc: ''
-updated: 1634740385875
+updated: 1637988427495
 created: 1631132196609
 ---
 
@@ -13,8 +13,7 @@ You can publish your notes using Dendron Next Publishing and Github pages
 ### Pre-requisites 
 - This assumes you have a github repository. 
     - If not, you can create one [here](https://github.com/new) from your existing workspace
-- You have [[Dendron CLI|dendron.ref.cli]] installed (version 0.62.3 or greater)
-- You have [[yarn|dev.cook.basics#install-yarn]] installed
+- You have [[Dendron CLI|dendron.ref.cli]] installed (version `0.70.0` or greater)
 
 ### Example Deployments
 You can see deployed examples of these instructions in the following repositories
@@ -69,6 +68,8 @@ site:
     ...
     siteUrl: {SITE_URL}
 ```
+
+#### GitHub Pages URLs
 
 Your `SITE_URL` for github pages will be in the following format: `https://{GITHUB_USERNAME}.github.io/{REPO_NAME}/`.
 
