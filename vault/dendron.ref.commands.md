@@ -2,7 +2,11 @@
 id: eea2b078-1acc-4071-a14e-18299fc28f47
 title: Commands
 desc: ''
+<<<<<<< Updated upstream
 updated: 1638555304112
+=======
+updated: 1638804428904
+>>>>>>> Stashed changes
 created: 1595261816971
 nav_order: 3.1
 ---
@@ -803,6 +807,10 @@ You can pick among various actions for the doctor to perform.
 - In a multi-vault workspace, wikilinks that do not specify a vault prefix will be omitted from the candidates.
   - In a workspace that has 2 vaults named `foo` and `bar`, the wikilink `[[missing-note]]` will not be a candidate for missing note creation with this command.
   - However, `[[dendron://foo/missing-note]]` and / or `[[dendron://bar/missing-note]]` will be recognized as a missing note and will be listed as candidates.
+
+##### findBrokenLinks
+- Similar to [[createMissingLinkedNotes|dendron://dendron.dendron-site/dendron.ref.commands#createmissinglinkednotes]], find all broken links (that has a vault prefix), but do not create notes.
+- This simply lists all broken links in the scope.
 
 ### Dump State
 
