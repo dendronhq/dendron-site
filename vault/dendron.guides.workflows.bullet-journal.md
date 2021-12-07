@@ -2,7 +2,7 @@
 id: e65dfe53-41f7-4b16-b870-dadec1775497
 title: Bullet Journaling
 desc: ''
-updated: 1604764944798
+updated: 1638899415198
 created: 1601684760121
 stub: false
 ---
@@ -18,10 +18,6 @@ Bullet journalling is a way of quickly getting your thoughts down for the day. I
 ### Create Daily Journal Notes Command
 
 ![[dendron.topic.special-notes#daily-journal,1:#*]]
-
-### Sibling Navigation Command
-
-![[dendron.ref.commands#go-next-sibling,1:#*]]
 
 ### Schema Templates
 

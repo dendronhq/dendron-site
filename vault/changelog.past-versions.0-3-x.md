@@ -2,7 +2,7 @@
 id: icBBwbAFLyjsRLheSJkAp
 title: 0.3.X
 desc: ''
-updated: 1636507357316
+updated: 1638899263785
 created: 1623536565649
 ---
 
@@ -35,7 +35,7 @@ Even if your workspace is +10k notes, initialization of said workspace should ha
 -   init engine from cli ([[docs|dendron.ref.cli#launchengineserver]])
 -   add html pod ([[docs|dendron.topic.pod.builtin.html#publish]])
 -   [[move note|dendron.ref.commands#move-note]] now shows completions via lookup
--   [[rename note|dendron.ref.commands#rename-note]] now shows completions via lookup
+-   [[rename note|dendron.topic.refactoring#rename-note]] now shows completions via lookup
 
 ### Bug Fixes
 
@@ -171,8 +171,6 @@ You can see the full list of information we collect and why we do it in our [[te
 ### Features
 
 #### Goto Note command
-
-![[dendron.ref.commands#goto-note,1:#*]]
 
 -   NOTE: this fixes [issue 564](https://github.com/dendronhq/dendron/issues/564) which causes a new note to be created on hover when combined with `noAutoCreateOnDefinition` set to `true`. We introduced [[noAutoCreateOnDefinition|dendron.ref.config#noautocreateondefinition]] configuration to help folks transition to the new behavior. Auto creating on definition will be deprecated in a future release
 

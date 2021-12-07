@@ -14,7 +14,7 @@ Note that there are some automatic configuration changes that we are making as p
 
 ### Highlights
 - enhance(schemas): expand schema format to allow for inlined children ([[docs|dendron://dendron.dendron-site/dendron.topic.schema#inline-schema-anatomy]]) 
-- feat(command): move header command ([[docs|dendron.ref.commands#move-header]])
+- feat(command): move header command ([[docs|dendron.topic.refactoring#move-header]])
 - enhance(cli): support output option when using `dendron note lookup` ([[docs|dendron://dendron.dendron-site/dendron.ref.cli.notes#lookup]])
 
 ### Breaking

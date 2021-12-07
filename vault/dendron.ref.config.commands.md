@@ -2,7 +2,7 @@
 id: F9LWJEjscrGkxnYi2JNby
 title: Commands
 desc: ''
-updated: 1637309014435
+updated: 1638272876590
 created: 1633485423674
 ---
 
@@ -55,9 +55,16 @@ Leaves a reference of the destination note in the source note while using select
 - default: false
 
 #### bubbleUpCreateNew
-Put `Create New` at the top of the lookup result.
+Allows putting `Create New` at the top of the lookup results.
 
 - default: true 
+
+#### fuzzThreshold
+`fuzzThreshold` Optionally set fuzziness threshold for note lookups. The larger the value the more fuzzy the lookup will be.
+
+Valid range is from 0 (exact matches only) to 1 (maximum fuzziness).
+
+- default: 0.2
 
 ## randomNote
 Namespace for Random Note command related configurations.
