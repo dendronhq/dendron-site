@@ -7,4 +7,4 @@ created: 1638898367663
 nav_order: 3.2
 ---
 
-![[dendron://dendron.handbook/dendron.topic.navigation]]
+![[dendron://dendron.dendron-site/dendron.topic.navigation]]

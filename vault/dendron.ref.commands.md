@@ -2,7 +2,7 @@
 id: eea2b078-1acc-4071-a14e-18299fc28f47
 title: Commands
 desc: ''
-updated: 1638899782688
+updated: 1638900102139
 created: 1595261816971
 nav_order: 3.1
 ---
@@ -475,7 +475,7 @@ After running the command, you will be taken to a preview that shows all files t
 - NOTE: Dendron will warn you if refactoring will overwrite existing files. You will need to either change your `replace text` or move the affected files before Dendron will perform a refactor.
 
 ## Go To Commands
-- See [[Go to|dendron://dendron.handbook/dendron.topic.navigation#go-to]]
+- See [[Go to|dendron://dendron.dendron-site/dendron.topic.navigation#go-to]]
 ---
 
 ## Hooks

@@ -1,6 +1,6 @@
 ---
 id: 3j8izKo111vt1y8MNhjge
-title: "0.72"
+title: '0.72'
 desc: ''
 updated: 1638899998071
 created: 1638893557883
@@ -9,7 +9,7 @@ created: 1638893557883
 Dendron 0.72 has sprouted  🌱
 
 ### Highlights
-- enhance: "find all references" for markdown headers  ([[docs|dendron://dendron.handbook/dendron.topic.navigation#find-all-references]])
+- enhance: "find all references" for markdown headers  ([[docs|dendron://dendron.dendron-site/dendron.topic.navigation#find-all-references]])
 - enhance(lookup): enable scoping and full regex support for refactor hierarchy command ([[docs|dendron.ref.commands#refactor-hierarchy]]) 
 
 ### Everything Else
@@ -29,7 +29,7 @@ Dendron 0.72 has sprouted  🌱
 #### General Updates
 <!-- TODO: update the link. Office hours are bi-weekly, delete this section if not appliacble -->
 - doc updates
-    - add section on [[navigating notes|dendron://dendron.handbook/dendron.topic.navigation]]
+    - add section on [[navigating notes|dendron://dendron.dendron-site/dendron.topic.navigation]]
 
 #### Dendron Reading Series
 
