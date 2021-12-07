@@ -2,7 +2,7 @@
 id: srajljj10V2dl19nCSFiC
 title: Refactoring
 desc: ''
-updated: 1638900574013
+updated: 1638900646164
 created: 1638900089932
 ---
 
@@ -10,6 +10,7 @@ created: 1638900089932
 
 Features that help update the structure of Dendron
 
+## Notes and Hierarchies
 
 ### Rename Note
 
@@ -22,8 +23,6 @@ If the title is the same as what Dendron would autogenerate (kebab-case capitali
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/command-rename.gif)
 
 You can also simply rename a file in VSCode's explorer panel, and all of the backlinks to that note will be updated automatically. Here is an example loom [video](https://www.loom.com/share/dcc2df8f598a463894278f9b5926a92e) 
-
-
 
 ### Refactor Hierarchy
 
@@ -90,16 +89,7 @@ After running the command, you will be taken to a preview that shows all files t
 
 - NOTE: Dendron will warn you if refactoring will overwrite existing files. You will need to either change your `replace text` or move the affected files before Dendron will perform a refactor.
 
-
-### Rename Header
-
-- shortcuts: none
-
-Rename the selected header.
-
-You must put the caret on the header you want to rename.
-All wikilinks that link to this header (like `[[note#header]]`) will automatically get updated to the new header.
-
+## Headers
 
 ### Move Header
 
@@ -111,3 +101,11 @@ All wikilinks that link to this header will automatically get updated to the new
 
 If the destination note does not exist yet, it will be created before moving the selected header.
 
+### Rename Header
+
+- shortcuts: none
+
+Rename the selected header.
+
+You must put the caret on the header you want to rename.
+All wikilinks that link to this header (like `[[note#header]]`) will automatically get updated to the new header.

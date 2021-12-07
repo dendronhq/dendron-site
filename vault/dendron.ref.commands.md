@@ -2,7 +2,7 @@
 id: eea2b078-1acc-4071-a14e-18299fc28f47
 title: Commands
 desc: ''
-updated: 1638900393260
+updated: 1638900716679
 created: 1595261816971
 nav_order: 3.1
 ---
@@ -280,12 +280,6 @@ This pattern would specify a set including all notes under `alpha` _except_ for 
 - If `include` is not specified, then the `include` matching pattern will match all notes.
 - `exclude` takes precedence over `include`, so if the patterns are identical, no notes will match.
 
-
-
-
-
-
-
 ### Show Preview
 
 - shortcuts:
@@ -364,6 +358,15 @@ Open link to external file (eg. pdf, .mov, etc) use system default. Relative fil
 
 <a href="https://www.loom.com/share/01250485e20a4cdca2a053dd6047ac68"><img src="https://cdn.loom.com/sessions/thumbnails/01250485e20a4cdca2a053dd6047ac68-with-play.gif"> </a>
 
+### Go to Commands
+- See [[Go to|dendron://dendron.dendron-site/dendron.topic.navigation#go-to]]
+
+### Find all References
+- See [[Find All References|dendron://dendron.dendron-site/dendron.topic.navigation#find-all-references]]
+
+-- 
+## Organizing
+- [[Refactoring Commands|dendron://dendron.dendron-site/dendron.topic.refactoring]]
 ---
 
 ## Hierarchies
@@ -388,8 +391,7 @@ This is a convenience method around `Refactor Hierarchy` for the case of archivi
 <a href="https://www.loom.com/share/9698d5a4451b49d8b107f3ff67d97877"> <img style="" src="https://cdn.loom.com/sessions/thumbnails/9698d5a4451b49d8b107f3ff67d97877-with-play.gif"> </a>
 
 
-## Go To Commands
-- See [[Go to|dendron://dendron.dendron-site/dendron.topic.navigation#go-to]]
+
 ---
 
 ## Hooks
