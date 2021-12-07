@@ -293,7 +293,7 @@ The [[Calendar View|dendron._ref.web-ui#calendar-view]] is no longer hidden behi
 - [[Customizable tag colors|dendron.topic.tags#custom-tag-colors]] to color code your tags
 
 #### Rename Header Command
-- [[Rename Header Command|dendron.ref.commands#rename-header]] which updates links to that header
+- [[Rename Header Command|dendron.topic.refactoring#rename-header]] which updates links to that header
 
 ### Enhancements
 - automatically resolve conflicting keybinding caused by vim extension

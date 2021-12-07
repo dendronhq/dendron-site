@@ -281,14 +281,7 @@ This pattern would specify a set including all notes under `alpha` _except_ for 
 - `exclude` takes precedence over `include`, so if the patterns are identical, no notes will match.
 
 
-### Rename Header
 
--   shortcuts: none
-
-Rename the selected header.
-
-You must put the caret on the header you want to rename.
-All wikilinks that link to this header (like `[[note#header]]`) will automatically get updated to the new header.
 
 
 ### Move Header
