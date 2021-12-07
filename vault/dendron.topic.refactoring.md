@@ -2,7 +2,7 @@
 id: srajljj10V2dl19nCSFiC
 title: Refactoring
 desc: ''
-updated: 1638900527396
+updated: 1638900574013
 created: 1638900089932
 ---
 
@@ -91,9 +91,6 @@ After running the command, you will be taken to a preview that shows all files t
 - NOTE: Dendron will warn you if refactoring will overwrite existing files. You will need to either change your `replace text` or move the affected files before Dendron will perform a refactor.
 
 
-
-
-[[Rename Header|dendron://dendron.dendron-site/dendron.topic.refactoring#rename-header]]
 ### Rename Header
 
 - shortcuts: none
@@ -102,4 +99,15 @@ Rename the selected header.
 
 You must put the caret on the header you want to rename.
 All wikilinks that link to this header (like `[[note#header]]`) will automatically get updated to the new header.
+
+
+### Move Header
+
+- shortcuts: none
+
+This command removes the selected header from the note and appends it to the end of the destination note body.
+
+All wikilinks that link to this header will automatically get updated to the new header.
+
+If the destination note does not exist yet, it will be created before moving the selected header.
 

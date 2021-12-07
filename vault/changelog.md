@@ -222,7 +222,7 @@ vault with new convert vault command ([[docs|dendron.topic.vaults#vault-convert]
 ## 0.64.2
 
 ### Features
-- feat(command): move header command ([[docs|dendron.ref.commands#move-header]]) (#1349)  @hikchoi 
+- feat(command): move header command ([[docs|dendron.topic.refactoring#move-header]]) (#1349)  @hikchoi 
 
 ### Enhancements
 - enhance(schemas): expand schema format to allow for inlined children ([[docs|dendron://dendron.dendron-site/dendron.topic.schema#inline-schema-anatomy]]) (#1552) @nickolay
