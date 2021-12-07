@@ -10,7 +10,7 @@ Dendron 0.72 has sprouted  🌱
 
 ### Highlights
 - enhance: "find all references" for markdown headers  ([[docs|dendron://dendron.dendron-site/dendron.topic.navigation#find-all-references]])
-- enhance(lookup): enable scoping and full regex support for refactor hierarchy command ([[docs|dendron.ref.commands#refactor-hierarchy]]) 
+- enhance(lookup): enable scoping and full regex support for refactor hierarchy command ([[docs|dendron.topic.refactoring#refactor-hierarchy]]) 
 
 ### Everything Else
 - enhance(lookup): have auto complete respect value that has been scrolled down to by arrows 

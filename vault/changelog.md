@@ -23,7 +23,7 @@ nav_order: 2
 ## 0.71.4
 
 ### Enhancements
-- enhance(lookup): enable scoping and full regex support for refactor hierarchy command ([[docs|dendron.ref.commands#refactor-hierarchy]]) (#1796) @hikchoi
+- enhance(lookup): enable scoping and full regex support for refactor hierarchy command ([[docs|dendron.topic.refactoring#refactor-hierarchy]]) (#1796) @hikchoi
 - enhance(lookup): have auto complete respect value that has been scrolled down to by arrows (#1818) @nickolay
 - enhance(views): allow navigation to preview links that do not have vault specified (#1805) @nickolay
 
