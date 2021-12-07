@@ -2,7 +2,7 @@
 id: eea2b078-1acc-4071-a14e-18299fc28f47
 title: Commands
 desc: ''
-updated: 1638555304112
+updated: 1638899782688
 created: 1595261816971
 nav_order: 3.1
 ---
@@ -474,59 +474,8 @@ After running the command, you will be taken to a preview that shows all files t
 
 - NOTE: Dendron will warn you if refactoring will overwrite existing files. You will need to either change your `replace text` or move the affected files before Dendron will perform a refactor.
 
-### Goto Note
-- shortcuts:
-  - key: `ctrl+enter`
-  - when: `editorFocus`
-
-Goto to the note under the cursor, creating it if it doesn't exist.
-
-### Go Up
-
-- shortcuts:
-  - mac: `cmd+shift+up`
-  - key: `ctrl+shift+up`
-  - when: `editorFocus`
-
-Go to closet non-stub parent of the currently open note
-
-![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/hierarchy.go-up.gif)
-
-### Go Next Sibling
-
-- shortcuts:
-  - key: `ctrl+shift+]`
-  - when: `editorFocus`
-
-Go to the next sibling
-
-Siblings with numeric names will be sorted numerically, whereas siblings with alphabetical names will be sorted alphabetically when determining the next sibling.
-
-![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/hierarchy.go-sibling.gif)
-
-### Go Previous Sibling
-
-- shortcuts:
-  - key: `ctrl+shift+[`
-  - when: `editorFocus`
-
-Go to the previous sibling
-
-Siblings with numeric names will be sorted numerically, whereas siblings with alphabetical names will be sorted alphabetically when determining the previous sibling.
-
-![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/hierarchy.go-sibling.gif)
-
-### Go Down
-
-- shortcuts:
-  - mac: `cmd+shift+down`
-  - key: `ctrl+shift+down`
-  - when: `editorFocus`
-
-Go down the hierarchy
-
-![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/hierarchy.go-down.gif)
-
+## Go To Commands
+- See [[Go to|dendron://dendron.handbook/dendron.topic.navigation#go-to]]
 ---
 
 ## Hooks

@@ -2,10 +2,23 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1638555021477
+updated: 1638893699750
 created: 1601508213606
 nav_order: 2
 ---
+
+## 0.72.0
+
+### Enhancements
+- enhance: "find all references" for markdown headers (#1833) @hikchoi
+- enhance: add fuzzy threshold configuration (#1811) @nickolay ([[docs|dendron://dendron.dendron-site/dendron.ref.config.commands#fuzzthreshold]])
+
+### Fix
+- fix(workspace): decorator lag problems (#1822) @kaan ([[docs|dendron.ref.config.workspace]]) ([diff](https://github.com/dendronhq/dendron-site/pull/311/files))
+- fix(pods): minor error in airtable v2 export pod (#1846) @jonathan
+- fix(views): re-introduce preview command enablement (#1806) @hikchoi
+- fix(views): update tree view when new note is created
+- fix(lookup): corner cases for auto complete @nickolay
 
 ## 0.71.4
 
