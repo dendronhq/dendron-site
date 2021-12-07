@@ -85,7 +85,7 @@ are just wikilinks.
 ### Details
 You might have already noticed this when you opened the tag, but tags are just notes under the `tags.` hierarchy. This has a lot of benefits:
 
--   You can use commands like [[Rename Note|dendron.ref.commands#rename-note]] or [[Refactor Hierarchy|dendron.ref.commands#refactor-hierarchy]] to rename or reorganize your tags, and it will update all notes where these tags were used.
+-   You can use commands like [[Rename Note|dendron.topic.refactoring#rename-note]] or [[Refactor Hierarchy|dendron.ref.commands#refactor-hierarchy]] to rename or reorganize your tags, and it will update all notes where these tags were used.
 -   You can add content to your tag and it will show up when you hover over the tag in the editor, or when you publish it. Try clicking on the example tag above!
 -   You can organize your tags into hierarchies (like `#cuisine.ethiopian` and `#cuisine.swedish`).
 -   You can link tags together by adding links in their content.

@@ -2,11 +2,25 @@
 id: srajljj10V2dl19nCSFiC
 title: Refactoring
 desc: ''
-updated: 1638900326417
+updated: 1638900482357
 created: 1638900089932
 ---
 
 ## Summary
+
+Features that help update the structure of Dendron
+
+### Rename Note
+
+- shortcuts: none
+
+Rename a note and all backlinks.
+
+If the title is the same as what Dendron would autogenerate (kebab-case capitalized), then refactor will change the title as well. Otherwise, it will preserve the existing title.
+
+![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/command-rename.gif)
+
+You can also simply rename a file in VSCode's explorer panel, and all of the backlinks to that note will be updated automatically. Here is an example loom [video](https://www.loom.com/share/dcc2df8f598a463894278f9b5926a92e) 
 
 
 
@@ -74,4 +88,5 @@ Continuing with the above example, if the replace text is `awesome.$2.$1`, the r
 After running the command, you will be taken to a preview that shows all files that will be affected. You will be given an option in a dropdown to either proceed with the refactor or cancel the operation.
 
 - NOTE: Dendron will warn you if refactoring will overwrite existing files. You will need to either change your `replace text` or move the affected files before Dendron will perform a refactor.
+
 

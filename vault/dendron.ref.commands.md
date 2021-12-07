@@ -2,7 +2,7 @@
 id: eea2b078-1acc-4071-a14e-18299fc28f47
 title: Commands
 desc: ''
-updated: 1638900332646
+updated: 1638900393260
 created: 1595261816971
 nav_order: 3.1
 ---
@@ -280,18 +280,7 @@ This pattern would specify a set including all notes under `alpha` _except_ for 
 - If `include` is not specified, then the `include` matching pattern will match all notes.
 - `exclude` takes precedence over `include`, so if the patterns are identical, no notes will match.
 
-### Rename Note
 
-- shortcuts: none
-
-Rename a note and all backlinks.
-
-If the title is the same as what Dendron would autogenerate (kebab-case capitalized), then refactor will change the title as well. Otherwise, it will preserve the existing title.
-
-![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/command-rename.gif)
-
-
-You can also simply rename a file in VSCode's explorer panel, and all of the backlinks to that note will be updated automatically. Here is an example loom [video](https://www.loom.com/share/dcc2df8f598a463894278f9b5926a92e) 
 ### Rename Header
 
 -   shortcuts: none

@@ -35,7 +35,7 @@ Even if your workspace is +10k notes, initialization of said workspace should ha
 -   init engine from cli ([[docs|dendron.ref.cli#launchengineserver]])
 -   add html pod ([[docs|dendron.topic.pod.builtin.html#publish]])
 -   [[move note|dendron.ref.commands#move-note]] now shows completions via lookup
--   [[rename note|dendron.ref.commands#rename-note]] now shows completions via lookup
+-   [[rename note|dendron.topic.refactoring#rename-note]] now shows completions via lookup
 
 ### Bug Fixes
 
