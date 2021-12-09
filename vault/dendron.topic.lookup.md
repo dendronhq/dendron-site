@@ -2,7 +2,7 @@
 id: a7c3a810-28c8-4b47-96a6-8156b1524af3
 title: Lookup
 desc: ''
-updated: 1636526061447
+updated: 1637755055227
 created: 1595952505038
 stub: false
 ---
@@ -17,6 +17,9 @@ Dendron supports look ups by keywords separated by spaces/' ' without having to 
 As mentioned in [[Details|dendron.topic.lookup#details]], the look up is accomplished through utilization of [fusejs](https://fusejs.io/). You can use [fusejs extended search](https://fusejs.io/examples.html#extended-search) syntax when looking up notes.  
 
 For entries that have the same score, Dendron will sort results by their last updated time. Further info on lookup syntax can be found in [[dendron.topic.lookup.find]]
+
+## Look up Auto Complete
+Pressing `Tab` while having lookup view open will attempt to auto complete results. This is especially useful when dealing with hierarchies which adds on one level of hierarchy (from the highest matched result) at a time.
 
 ## Details
 

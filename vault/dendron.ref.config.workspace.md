@@ -2,7 +2,7 @@
 id: 3i4ABJutl7NGeXRHTnUEC
 title: Workspace
 desc: ''
-updated: 1634649027876
+updated: 1638518870049
 created: 1634646633536
 ---
 
@@ -185,3 +185,12 @@ Sets the maximum number of rendered previews to be cached
 Maximum number of characters in a note. Notes with characters exceeding this number will have some Dendron features disabled.
 
 - default: 204800
+
+## enableEditorDecorations
+
+Enables rich highlighting, decoration, and diagnostics when writing notes in
+Dendron. For example if disabled: wikilinks, hashtags, and user tags will not be
+highlighted, task note information will not be displayed, and Dendron will not
+warn for broken note frontmatter.
+
+- default: true

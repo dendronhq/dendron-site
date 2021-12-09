@@ -50,7 +50,7 @@ A domain is the root of a hierarchy. In the example below, `project1` would be t
 
 ### Schema
 
-As you end up creating more notes, it can be hard to keep track of it all. This is why Dendron has **schemas** to help you manage your notes. Think of schemas as an **optional type system** for your information. They describe the hierarchy of your notes and are themselves, represented as a hierarchy. 
+![[dendron.topic.schema#summary,1:#*]]
 
 You can create a schema by adding a YAML file with the following naming scheme `{name}.schema.yml` to your workspace. 
 
@@ -114,7 +114,4 @@ Glob patterns are a way of pattern matching characters. You can test and see mor
 
 ### Kebab Case
 
-Kebab case is when you replace spaces with dashes and upper case with lower case.
-
-- Example
-    - `Hello World` -> `hello-world`
+![[dendron.guides.best-practices#naming,1:#*]]

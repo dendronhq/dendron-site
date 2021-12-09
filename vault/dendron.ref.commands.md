@@ -2,7 +2,7 @@
 id: eea2b078-1acc-4071-a14e-18299fc28f47
 title: Commands
 desc: ''
-updated: 1635942603199
+updated: 1638900716679
 created: 1595261816971
 nav_order: 3.1
 ---
@@ -280,38 +280,6 @@ This pattern would specify a set including all notes under `alpha` _except_ for 
 - If `include` is not specified, then the `include` matching pattern will match all notes.
 - `exclude` takes precedence over `include`, so if the patterns are identical, no notes will match.
 
-### Rename Note
-
-- shortcuts: none
-
-Rename a note and all backlinks.
-
-If the title is the same as what Dendron would autogenerate (kebab-case capitalized), then refactor will change the title as well. Otherwise, it will preserve the existing title.
-
-![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/command-rename.gif)
-
-
-You can also simply rename a file in VSCode's explorer panel, and all of the backlinks to that note will be updated automatically. Here is an example loom [video](https://www.loom.com/share/dcc2df8f598a463894278f9b5926a92e) 
-### Rename Header
-
--   shortcuts: none
-
-Rename the selected header.
-
-You must put the caret on the header you want to rename.
-All wikilinks that link to this header (like `[[note#header]]`) will automatically get updated to the new header.
-
-
-### Move Header
-
-- shortcuts: none
-
-This command removes the selected header from the note and appends it to the end of the destination note body.
-
-All wikilinks that link to this header will automatically get updated to the new header.
-
-If the destination note does not exist yet, it will be created before moving the selected header.
-
 ### Show Preview
 
 - shortcuts:
@@ -390,6 +358,15 @@ Open link to external file (eg. pdf, .mov, etc) use system default. Relative fil
 
 <a href="https://www.loom.com/share/01250485e20a4cdca2a053dd6047ac68"><img src="https://cdn.loom.com/sessions/thumbnails/01250485e20a4cdca2a053dd6047ac68-with-play.gif"> </a>
 
+### Go to Commands
+- See [[Go to|dendron://dendron.dendron-site/dendron.topic.navigation#go-to]]
+
+### Find all References
+- See [[Find All References|dendron://dendron.dendron-site/dendron.topic.navigation#find-all-references]]
+
+-- 
+## Organizing
+- [[Refactoring Commands|dendron://dendron.dendron-site/dendron.topic.refactoring]]
 ---
 
 ## Hierarchies
@@ -413,78 +390,7 @@ This is a convenience method around `Refactor Hierarchy` for the case of archivi
 
 <a href="https://www.loom.com/share/9698d5a4451b49d8b107f3ff67d97877"> <img style="" src="https://cdn.loom.com/sessions/thumbnails/9698d5a4451b49d8b107f3ff67d97877-with-play.gif"> </a>
 
-### Refactor Hierarchy
 
-- shortcuts: none
-
-Update hierarchy using regex
-
-Like `Rename Note` but works on an entire hierarchy of notes. This command takes two arguments:
-
-- matcher: regex that matches text you want to capture for replacement
-- replacer: regex that represents text you want to use as replacement
-
-After running the command, you will be taken to a preview that shows all files that will be affected. You will be given an option in a dropdown to either proceed with the refactor or cancel the operation.
-
-- NOTE: Dendron will warn you if refactoring will overwrite existing files. You will need to either change your `replacer` or move the affected files before Dendron will perform a refactor
-
-Refactor Hierarchy is a huge time-saver:
-<https://discordapp.com/channels/717965437182410783/743194856788328497/743195382795993291>
-
-<a href="https://www.loom.com/share/11d90a86fd1348a5a504406b52d79f85"> <img style="" src="https://cdn.loom.com/sessions/thumbnails/11d90a86fd1348a5a504406b52d79f85-with-play.gif"> </a>
-
-### Goto Note
-- shortcuts:
-  - key: `ctrl+enter`
-  - when: `editorFocus`
-
-Goto to the note under the cursor, creating it if it doesn't exist.
-
-### Go Up
-
-- shortcuts:
-  - mac: `cmd+shift+up`
-  - key: `ctrl+shift+up`
-  - when: `editorFocus`
-
-Go to closet non-stub parent of the currently open note
-
-![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/hierarchy.go-up.gif)
-
-### Go Next Sibling
-
-- shortcuts:
-  - key: `ctrl+shift+]`
-  - when: `editorFocus`
-
-Go to the next sibling
-
-Siblings with numeric names will be sorted numerically, whereas siblings with alphabetical names will be sorted alphabetically when determining the next sibling.
-
-![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/hierarchy.go-sibling.gif)
-
-### Go Previous Sibling
-
-- shortcuts:
-  - key: `ctrl+shift+[`
-  - when: `editorFocus`
-
-Go to the previous sibling
-
-Siblings with numeric names will be sorted numerically, whereas siblings with alphabetical names will be sorted alphabetically when determining the previous sibling.
-
-![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/hierarchy.go-sibling.gif)
-
-### Go Down
-
-- shortcuts:
-  - mac: `cmd+shift+down`
-  - key: `ctrl+shift+down`
-  - when: `editorFocus`
-
-Go down the hierarchy
-
-![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/hierarchy.go-down.gif)
 
 ---
 

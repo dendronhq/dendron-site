@@ -2,7 +2,7 @@
 id: 8bc9b3f1-8508-4d3a-a2de-be9f12ef1821
 title: Tags
 desc: ''
-updated: 1632432246814
+updated: 1638384548702
 created: 1601910058115
 tags:
   - example.from-frontmatter
@@ -50,6 +50,8 @@ don't like the automatic colors, you can always override what color the tags
 should be by setting the `color` in the frontmatter of the tag note. For
 example, the following tag is #blue, and you can click on it to see how to customize the color.
 
+The colors themselves are just CSS, so you can use any #RRGGBB or similar [color](https://developer.mozilla.org/en-US/docs/Web/CSS/color).  You can also use any color named [here](https://developer.mozilla.org/en-US/docs/Web/CSS/color_value)
+
 Setting a tag color affects the colors of all tags within the hierarchy. For
 example, the tag #example is set to color red, so #example.my-example is also
 red. This allows you to organize your tags with color codes. You can always
@@ -83,7 +85,7 @@ are just wikilinks.
 ### Details
 You might have already noticed this when you opened the tag, but tags are just notes under the `tags.` hierarchy. This has a lot of benefits:
 
--   You can use commands like [[Rename Note|dendron.ref.commands#rename-note]] or [[Refactor Hierarchy|dendron.ref.commands#refactor-hierarchy]] to rename or reorganize your tags, and it will update all notes where these tags were used.
+-   You can use commands like [[Rename Note|dendron.topic.refactoring#rename-note]] or [[Refactor Hierarchy|dendron.ref.commands#refactor-hierarchy]] to rename or reorganize your tags, and it will update all notes where these tags were used.
 -   You can add content to your tag and it will show up when you hover over the tag in the editor, or when you publish it. Try clicking on the example tag above!
 -   You can organize your tags into hierarchies (like `#cuisine.ethiopian` and `#cuisine.swedish`).
 -   You can link tags together by adding links in their content.

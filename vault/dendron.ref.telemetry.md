@@ -2,7 +2,7 @@
 id: 84df871b-9442-42fd-b4c3-0024e35b5f3c
 title: Telemetry
 desc: ''
-updated: 1636979716683
+updated: 1637883969136
 created: 1619460500071
 nav_order: 6.1
 ---
@@ -59,6 +59,7 @@ When Dendron initializes, we collect data about on initialization time. This hel
 | `numVaults` | _number_   | Number of vaults in workspace                                       |
 | `noCaching` | _boolean_  | Check whether caching is disabled                                   |
 | `workspaceType`|_string_ | The type of Dendron workspace.                                      |
+| `codeWorkspacePresent`|_boolean_| Whether a `dendron.code-workspace` file was present          |
 
 ### Configuration
 
@@ -85,7 +86,9 @@ In addition to the above field, we track the result of configuration migrations.
 When Dendron starts for the first time, it launches users into a tutorial workflow. We track how far along the tutorial you get using the `Tutorial_{num}_Show` event. This helps us figure out how effective our intro documentation is.
 
 ### User Survey
-When the tutorial workflow is launched for the first time, or a user hasn't been active within 7 days of initial install (has not initalized workspace) we ask users if they want to answer some survey questions. We use the results to customize the onboarding experience and help users get started. We track if the user accepted the prompt, and what answer they gave for the survey. For each survey question, the following fields are collected.
+We ask users if they want to answer survey questions that would help use improve Dendron. These surveys are prompted when the user first initializes the tutorial, or has been inactive for a month after actively using Dendron on their first week, or has never initialized a workspace after install. 
+
+We use the results to customize the onboarding experience and help users get started. We track if the user accepted the prompt, and what answer they gave for the survey. For each survey question, the following fields are collected.
 
 | Field             | Attributes | Description                   |
 | ----------------: | :--------: | ----------------------------- |
@@ -127,7 +130,7 @@ We collect an invocation metric when a [[commands|dendron.ref.commands]] is invo
 | `error`    | _boolean_  | Did an error happen during this phase?       |
 | `duration` | _number_   | How long did it take to execute this command |
 
-For commands that utilze the core lookup module, we additionally collect the state of the lookup modifiers at initial invocations as well as on manual button triggers.
+For commands that utilze the core lookup module, we additionally collect the state of the lookup modifiers when the user accepts as well as on manual button triggers.
 
 | Field      | Attributes | Description                                   |
 | ---------: | :--------: | --------------------------------------------- |

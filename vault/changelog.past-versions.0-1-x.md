@@ -2,7 +2,7 @@
 id: ed4162aa-5474-4483-9fbc-c0b505310c59
 title: 0.1.X
 desc: ''
-updated: 1616126156916
+updated: 1638899331848
 created: 1610397097347
 ---
 ## 0.19.3
@@ -110,7 +110,7 @@ You can now natively add published Dendron git repos as a _remote vault_ inside 
 
 - support pods for multi-vault ([661fe21](https://github.com/dendronhq/dendron/commit/661fe218d448e6f32f86bf60dabe635b71d67251))
 - much faster lookup performance for large vaults 🚀🚀🚀  ([3ddeba8](https://github.com/dendronhq/dendron/commit/3ddeba8a596be4bc9316e0cc5e63025d7bf4460f))
-- support [[sibling nav|dendron.ref.commands#go-next-sibling]] for multi-vault ([235bfc7](https://github.com/dendronhq/dendron/commit/235bfc77505b403bf32c78ce3df6b7005c37dfba))
+- support sibling nav for multi-vault ([235bfc7](https://github.com/dendronhq/dendron/commit/235bfc77505b403bf32c78ce3df6b7005c37dfba))
 
 ### Bug Fixes
 
@@ -120,7 +120,7 @@ You can now natively add published Dendron git repos as a _remote vault_ inside 
 
 ### House Cleaning
 
-- breaking: the [[go to sibling|dendron.ref.commands#go-next-sibling]] commands have a new keyboard shortcut since the old one was conflicting with the vscode default. the new shortcuts are `ctrl+shift+]` and `ctrl+shift+[`
+- breaking: the go to sibling commands have a new keyboard shortcut since the old one was conflicting with the vscode default. the new shortcuts are `ctrl+shift+]` and `ctrl+shift+[`
 
 ## 0.17.2
 

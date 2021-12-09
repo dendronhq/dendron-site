@@ -2,7 +2,7 @@
 id: 31d1e024-fe37-477b-b525-d94b0c136aeb
 title: Publish
 desc: ''
-updated: 1629325541841
+updated: 1639015704375
 created: 1617328001523
 ---
 
@@ -10,6 +10,7 @@ created: 1617328001523
 Publish Dendron Markdown to regular markdown. Convert note references and dendron specific syntax to regular markdown.
 
 ## Config
+### wikiLinkToUrl
 - default: false
 
 If set to true and `siteUrl` is set, convert wiki links to markdown links that use `siteUrl` as root. 

@@ -11,8 +11,9 @@ frontend:
       commands: 
         - nvm use 14
         - "(test -d .next) && (echo 'updating dendron next...' && cd .next && git reset --hard && git clean -f && git pull) || (echo 'init dendron next' && npx dendron publish init)"
-        - '[ $AWS_BRANCH = "dev" ] && cd .next && git fetch && git checkout dev'
-        - "echo 'install deps...' && cd .next && yarn --production && cd .."
+        - '[ $AWS_BRANCH = "dev" ] && cd .next && git fetch && git checkout dev && cd .. || echo 0' 
+        # diagnostics
+        - "echo `pwd`"
         - "echo 'version check...' && yarn dendron --version"
         - "echo 'build and export...' && yarn dendron publish export"
   artifacts:

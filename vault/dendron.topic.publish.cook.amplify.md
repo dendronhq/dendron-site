@@ -2,7 +2,7 @@
 id: GltYtZ7YCzEyV10uwhUg9
 title: Amplify
 desc: ''
-updated: 1634923283398
+updated: 1638750372607
 created: 1631319273247
 published: false
 ---
@@ -47,13 +47,6 @@ How to publish Dendron pages to AWS amplitude.
 ### Create redirects when migrating existing site
 
 ```json
-[
-    {
-        "source": "https://example.com",
-        "target": "https://www.example.com",
-        "status": "301",
-        "condition": null
-    },
     {
         "source": "/notes/<text>.html",
         "target": "/notes/<text>/",
@@ -63,8 +56,13 @@ How to publish Dendron pages to AWS amplitude.
     {
         "source": "/<*>",
         "target": "/index.html",
-        "status": "404-200",
+        "status": "404",
+        "condition": null
+    },
+    {
+        "source": "/sitemap.xml",
+        "target": "/sitemap.xml",
+        "status": "200",
         "condition": null
     }
-]
 ```

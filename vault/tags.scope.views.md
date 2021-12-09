@@ -1,9 +1,8 @@
 ---
 id: rm216XKA8tcOpNFPyur7H
 title: Views
-desc: ''
-updated: 1629779306913
+desc: 'Dendron Preview, Tree View, Side Panels in the UI'
+updated: 1638341107998
 created: 1629779306913
 ---
-
-Adding a new view
+Dendron Preview, Tree View, Side Panels in the UI
