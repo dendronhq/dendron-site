@@ -114,7 +114,4 @@ Glob patterns are a way of pattern matching characters. You can test and see mor
 
 ### Kebab Case
 
-Kebab case is when you replace spaces with dashes and upper case with lower case.
-
-- Example
-    - `Hello World` -> `hello-world`
+![[dendron.guides.best-practices#naming,1:#*]]
