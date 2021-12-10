@@ -2,7 +2,7 @@
 id: gHdxXlNMr1w4xqee0n-Mb
 title: Navigation Basics
 desc: 1. Navigation Basics
-updated: 1625573454967
+updated: 1639114511406
 created: 1625563862198
 nav_order: 0
 ---
@@ -11,9 +11,9 @@ Let's do a brief overview on how to navigate the Dendron UI.
 
 _Quick note on running commands in VS Code:_
 
->If you're unfamiliar with VS Code, the command palette is used to quickly run commands, including the commands for Dendron. To bring up the command palette, use `Ctrl+Shift+P` / `Cmd+Shift+P` and start typing the command. Throughout the tutorial, if you see instructions telling you to run a command, remember to bring up the command palette and then type the command name to run it.
+>If you're unfamiliar with VS Code, the [command palette](https://code.visualstudio.com/docs/getstarted/userinterface#_command-palette) is used to quickly run commands, including the commands for Dendron. To bring up the command palette, use `Ctrl+Shift+P` / `Cmd+Shift+P` and start typing the command. Throughout the tutorial, if you see instructions telling you to run a command, remember to bring up the command palette and then type the command name to run it.
 
-![Basic UI](https://org-dendron-public-assets.s3.amazonaws.com/images/tutorial-layout.png)
+![[asset.preview#tutorial-dendron-layout,1:#*]]
 
 #### 1. Editor Pane
 
@@ -33,11 +33,20 @@ This shows the files in your vault. A vault is where Dendron stores your markdow
 
 Shows an outline of the currently opened note. This observes the header levels in the Markdown of the note.
 
-#### 5. Tree View
+#### 5. Calendar View
+
+![[dendron._ref.web-ui#^calendar-view-definition]]
+
+Learn more:
+
+- [[Special Notes: Daily Journal|dendron.topic.special-notes]]
+- [[Calendar View|dendron._ref.web-ui#calendar-view]]
+
+#### 6. Tree View
 
 This shows a hierarchical view of your notes, similar to how a folder structure would appear in your filesystem. You can also click in the tree view to navigate around your notes.
 
-#### 6. Backlinks
+#### 7. Backlinks
 
 This shows a list of other notes that have links to the current note. More on links in Section 3 of the tutorial.
 
