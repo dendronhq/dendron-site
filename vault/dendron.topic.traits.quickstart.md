@@ -2,13 +2,13 @@
 id: EQoaBI8A0ZcswKQC3UMpO
 title: Quickstart
 desc: ''
-updated: 1638860823247
+updated: 1639157723576
 created: 1638843110902
 ---
 
 This example will show you how you can create your own note traits and apply them to your new notes.  In this example, we'll create a trait that will modify the name and title of the note automatically when you create a new note.
 
-> ❗️ Note: This is an experimental feature that may have breaking changes in future iterations.
+![[dendron://dendron.dendron-site/tags.stage.germ]]
 
 ### Create a new Note Trait
 
