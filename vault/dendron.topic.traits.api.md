@@ -2,13 +2,13 @@
 id: oOIEFJc6DTgS71mmh89WQ
 title: API
 desc: ''
-updated: 1638860903879
+updated: 1639157690633
 created: 1638844803983
 ---
 
 This contains API documentation for trait behavior. 
 
-> ❗️ Note: This is an experimental API that may have breaking changes in future iterations. An increased API surface exposing more types of functionality for traits are planned in future iterations.
+![[dendron://dendron.dendron-site/tags.stage.germ]]
 
 With note traits, you can optionally override behavior for notes during their creation or modification by implementing callback functionality as detailed below. All behavior is optional - if you do not want to override a certain behavior, you can simply delete that function property from the Javascript trait definition file.
 
