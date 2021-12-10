@@ -2,7 +2,7 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1639157099154
+updated: 1639157815655
 created: 1601508213606
 nav_order: 2
 ---
@@ -11,7 +11,7 @@ nav_order: 2
 
 ### Features
 - feat(commands): find broken links ([[dendron://dendron.dendron-site/dendron.ref.commands#findbrokenlinks]]) (#1847) @hikchoi
-- feat(notes): Note Trait System Prototype (Phase 1) (#1658) @jonathan
+- feat(notes): Note Trait System Prototype (Phase 1) ([[dendron://dendron.dendron-site/dendron.topic.traits.quickstart]]) (#1658) @jonathan
 
 ### Enhancements
 - enhance(pods): small tweaks to pod v2 UI (#1857) @jonathan
