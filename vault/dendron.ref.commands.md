@@ -669,6 +669,10 @@ You can pick among various actions for the doctor to perform.
   - In a workspace that has 2 vaults named `foo` and `bar`, the wikilink `[[missing-note]]` will not be a candidate for missing note creation with this command.
   - However, `[[dendron://foo/missing-note]]` and / or `[[dendron://bar/missing-note]]` will be recognized as a missing note and will be listed as candidates.
 
+##### findBrokenLinks
+- Similar to [[createMissingLinkedNotes|dendron://dendron.dendron-site/dendron.ref.commands#createmissinglinkednotes]], find all broken links (that has a vault prefix), but do not create notes.
+- This simply lists all broken links in the scope.
+
 ### Dump State
 
 - shortcuts: none
