@@ -2,15 +2,28 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1638555021477
+updated: 1638893699750
 created: 1601508213606
 nav_order: 2
 ---
 
+## 0.72.0
+
+### Enhancements
+- enhance: "find all references" for markdown headers (#1833) @hikchoi
+- enhance: add fuzzy threshold configuration (#1811) @nickolay ([[docs|dendron://dendron.dendron-site/dendron.ref.config.commands#fuzzthreshold]])
+
+### Fix
+- fix(workspace): decorator lag problems (#1822) @kaan ([[docs|dendron.ref.config.workspace]]) ([diff](https://github.com/dendronhq/dendron-site/pull/311/files))
+- fix(pods): minor error in airtable v2 export pod (#1846) @jonathan
+- fix(views): re-introduce preview command enablement (#1806) @hikchoi
+- fix(views): update tree view when new note is created
+- fix(lookup): corner cases for auto complete @nickolay
+
 ## 0.71.4
 
 ### Enhancements
-- enhance(lookup): enable scoping and full regex support for refactor hierarchy command ([[docs|dendron.ref.commands#refactor-hierarchy]]) (#1796) @hikchoi
+- enhance(lookup): enable scoping and full regex support for refactor hierarchy command ([[docs|dendron.topic.refactoring#refactor-hierarchy]]) (#1796) @hikchoi
 - enhance(lookup): have auto complete respect value that has been scrolled down to by arrows (#1818) @nickolay
 - enhance(views): allow navigation to preview links that do not have vault specified (#1805) @nickolay
 
@@ -209,7 +222,7 @@ vault with new convert vault command ([[docs|dendron.topic.vaults#vault-convert]
 ## 0.64.2
 
 ### Features
-- feat(command): move header command ([[docs|dendron.ref.commands#move-header]]) (#1349)  @hikchoi 
+- feat(command): move header command ([[docs|dendron.topic.refactoring#move-header]]) (#1349)  @hikchoi 
 
 ### Enhancements
 - enhance(schemas): expand schema format to allow for inlined children ([[docs|dendron://dendron.dendron-site/dendron.topic.schema#inline-schema-anatomy]]) (#1552) @nickolay
