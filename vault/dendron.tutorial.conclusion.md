@@ -21,13 +21,13 @@ Don't forget - join us on [Discord](https://link.dendron.so/discord) to ask ques
 
 There is much more that Dendron offers. When you're ready, learn more about additional features that Dendron offers:
 
-- [ ] Import your existing notes from other sources like Obsidian, etc. with [Pods](https://wiki.dendron.so/notes/66727a39-d0a7-449b-a10d-f6c438185d7f.html)
-- [ ] [Publish](https://wiki.dendron.so/notes/861e4e48-dcc5-4813-a695-8940ba6e64d3.html) your notes to a website with just a few clicks. Our [Dendron Wiki Site](https://wiki.dendron.so/) is created in this way!
-- [ ] Check out our [Case Studies](https://wiki.dendron.so/notes/34ee4bcf-60e9-4031-a4c0-26113b5acb80.html) and [Workflows](https://wiki.dendron.so/notes/9313b845-d9bf-42c9-aad1-0da34794ce26.html) to see various ways Dendron is being used to organize knowledge.
-- [ ] Learn about more [Commands](https://wiki.dendron.so/notes/eea2b078-1acc-4071-a14e-18299fc28f47.html)
-
-- [ ] Check out our [Seed Bank](https://wiki.dendron.so/notes/6ff8cbb6-e4b8-449b-a967-277b76e4ecef.html) to pull down documentation for public topics.
+- [ ] Import your existing notes from other sources like Obsidian, etc. with [[Pods|dendron://dendron.dendron-site/dendron.topic.pod]]
+- [ ] [[Publish|dendron://dendron.dendron-site/dendron.topic.publish]] your notes to a website with just a few clicks. Our [Dendron Wiki Site](https://wiki.dendron.so/) is created in this way!
+- [ ] Check out our [[Case Studies|dendron://dendron.dendron-site/dendron.case-studies]] and [[Workflows|dendron://dendron.dendron-site/dendron.guides.workflows]] to see various ways Dendron is being used to organize knowledge.
+- [ ] Learn about more [[Commands|dendron://dendron.dendron-site/dendron.ref.commands]]
+- [ ] Check out our [[Seed Bank|dendron://dendron.dendron-site/dendron.topic.seed-bank]] to pull down documentation for public topics.
 
 
 ### Other Resources
+
 - Fellow dendrologist [Ian Jones](https://github.com/theianjones) made a fantastic video series about getting started with Dendron [here](https://egghead.io/courses/build-a-personal-knowledge-management-system-with-dendron-b24b)

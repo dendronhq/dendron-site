@@ -2,7 +2,7 @@
 id: 8DCgctK-RMD4EeHjC5_hI
 title: Rich Formatting
 desc: ''
-updated: 1636524684640
+updated: 1639200856987
 created: 1625573403967
 nav_order: 3
 ---
@@ -16,7 +16,6 @@ Dendron supports an extended Markdown syntax, which provides a lot of options fo
 |Bold|**Hello World**|
 |Italics|_Hello World_|
 |Strikethrough|~~Hello World~~|
-|Highlight|==Hello World==|
 
 #### Images
 
@@ -25,6 +24,7 @@ Dendron supports an extended Markdown syntax, which provides a lot of options fo
 Sample Image Link: `![Dendron Logo](assets/images/logo_small.png)`
 
 Result:
+
 ![Dendron Logo](https://org-dendron-public-assets.s3.amazonaws.com/images/tutorial-logo_small.png)
 
 #### Equations
@@ -64,10 +64,10 @@ sequenceDiagram
 
 You can link to a specific section of a different note and have the content in-lined into the current note.
 
-![[Join the community of Dendrologists|dendron.tutorial.conclusion#join-the-community-of-dendrologists:#^discord-block-ref]]
+![[Join the community of Dendrologists|dendron://dendron.dendron-site/dendron.tutorial.conclusion#join-the-community-of-dendrologists:#^discord-block-ref]]
 
-[[References Docs|dendron.topic.note-reference]]
+[[References Docs|dendron://dendron.dendron-site/dendron.topic.note-reference]]
 
 ### Next Steps
 
-- [[Conclude the Tutorial|dendron.tutorial.conclusion]]
+- [[Conclude the Tutorial|dendron://dendron.dendron-site/dendron.tutorial.conclusion]]
