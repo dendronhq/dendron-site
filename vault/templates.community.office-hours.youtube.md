@@ -2,7 +2,7 @@
 id: y1Ho6wlkXqdHRwl9G6S1Z
 title: Youtube
 desc: ''
-updated: 1637799933643
+updated: 1639201169112
 created: 1637799923920
 ---
 
@@ -19,7 +19,7 @@ xx:xx Highlight: Name of Highlight
 xx:xx Q&A: Name of Subject/Question
 
 Links to All Things Dendron:
-- Discord: https://discord.com/invite/xrKTUStHNZ
+- Discord: https://link.dendron.so/discord
 - Website: https://dendron.so/
 - Blog: https://blog.dendron.so/
 - Newsletter: https://buttondown.email/dendron

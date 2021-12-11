@@ -2,7 +2,7 @@
 id: 81da87be-2d4e-47b5-a1d6-c0d647e1ab00
 title: Development
 desc: ''
-updated: 1626986736065
+updated: 1639201216677
 created: 1604236041570
 ---
 ## Summary
@@ -15,7 +15,7 @@ A great place to start is with issues labelled with the [size.small](https://git
 
 Leave a comment in the issue if you decide to work on it. Issues that are being worked on will be assigned to a person already. 
 
-Remember that you are always welcome to ask for help inside the [#dev discord channel](https://discord.gg/AE3NRw9).
+Remember that you are always welcome to ask for help inside the [#dev discord channel](https://link.dendron.so/discord).
 
 ## VSCode Extension Development
 

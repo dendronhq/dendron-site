@@ -2,7 +2,7 @@
 id: TflY5kn29HOLpp1pWT9tP
 title: Conclusion
 desc: ''
-updated: 1625578888420
+updated: 1639201634740
 created: 1625564254964
 nav_order: 4
 ---
@@ -13,7 +13,7 @@ From here, you can start adding your notes to your current workspace, or if you'
 
 #### Join the community of Dendrologists
 
-Don't forget - join us on [Discord](https://discord.com/invite/AE3NRw9) to ask questions, suggest new features, or to discuss note-taking methodologies with fellow Dendrologists.
+Don't forget - join us on [Discord](https://link.dendron.so/discord) to ask questions, suggest new features, or to discuss note-taking methodologies with fellow Dendrologists.
 
 ^discord-block-ref
 

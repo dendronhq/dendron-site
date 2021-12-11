@@ -2,7 +2,7 @@
 id: 82130f1f-521d-42ec-a7da-b76a82f0d39d
 title: "0.39"
 desc: ''
-updated: 1619488308792
+updated: 1639201311622
 created: 1619460958432
 ---
 
@@ -26,7 +26,7 @@ If you have questions or concerns, please tell us in our #feedback channel or br
 
 ### Office Hours
 
-We are re-starting Dendron office hours! Office hours are a chance for the community to directly engage with the dendron team, ask questions, and give us feedback about how we're doing. We're still playing around with times and format but the first one will be this Sunday at 9:30AM Pacific time. It will be held in our [discord](https://discord.gg/AE3NRw9) channel. 
+We are re-starting Dendron office hours! Office hours are a chance for the community to directly engage with the dendron team, ask questions, and give us feedback about how we're doing. We're still playing around with times and format but the first one will be this Sunday at 9:30AM Pacific time. It will be held in our [discord](https://link.dendron.so/discord) channel. 
 
 ### Community
 

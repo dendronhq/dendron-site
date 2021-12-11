@@ -2,7 +2,7 @@
 id: b1dbd32d-ca87-4489-9ba0-01bf7928cba5
 title: Pods v0
 desc: ''
-updated: 1603139155412
+updated: 1639201111111
 created: 1599499136050
 stub: false
 start: 2020.09.07
@@ -23,7 +23,7 @@ Unlike what the [notion](https://www.notion.so/) marketing folks might tell you,
 
 While Dendron will make it possible for you to do these things, it will also help you move your information to tools that do it better for a given use case. Imagine being able to collaborate on a note using [google docs](https://docs.google.com/), use the spreadsheet functionality in [airtable](https://airtable.com/) to organize and all the while keep a canonical copy of that note inside Dendron where it is just a lookup away. 	
 
-If you have ideas about pods and pod related workflows that you would like to see us build, please come discuss them with us in our newly created [#pods](https://discord.gg/8vjasHj) channel. 	
+If you have ideas about pods and pod related workflows that you would like to see us build, please come discuss them with us in our newly created [#pods](https://link.dendron.so/discord) channel. 	
 
 ## Tasks
 

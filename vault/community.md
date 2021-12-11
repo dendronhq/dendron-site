@@ -2,7 +2,7 @@
 id: 6f4cd441-f883-4e75-871b-b7f93895c91b
 title: Community
 desc: ''
-updated: 1633455269654
+updated: 1639201250725
 created: 1604236612582
 nav_order: 1
 ---
@@ -19,6 +19,6 @@ We have a bunch of community events that we host throughout the week. You can st
 
 Outside of events, you can connect with Dendron devs, contributors, and other members of the Dendron community in a few ways:
 
-- Join the [Dendron Discord](https://discord.com/invite/xrKTUStHNZ)
+- Join the [Dendron Discord](https://link.dendron.so/discord)
 - Contribute to [Dendron open source code and docs on GitHub](https://github.com/dendronhq/)
 - Follow [Dendron on Twitter (@dendronhq)](https://twitter.com/dendronhq)

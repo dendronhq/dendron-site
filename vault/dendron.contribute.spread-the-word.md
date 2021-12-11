@@ -2,7 +2,7 @@
 id: QbSG6cxvmNoqHWt4_76Q8
 title: Spread the Word!
 desc: ''
-updated: 1627483749138
+updated: 1639201205321
 created: 1624382361347
 ---
 
@@ -23,7 +23,7 @@ Hey <>,
 
 I've been using Dendron (https://www.dendron.so/) for a while now to manage my notes and I've been really impressed with how flexibly it scales with the number of notes I have. I think you would benefit from trying it out too. 
 
-They've got a vibrant community in Discord (https://discord.gg/xrKTUStHNZ), a really responsive team, and their feature velocity has been top notch so the feedback we give them is impactful. 
+They've got a vibrant community in Discord (https://link.dendron.so/discord), a really responsive team, and their feature velocity has been top notch so the feedback we give them is impactful. 
 
 Hope you can give it a try! 
 
@@ -32,7 +32,7 @@ Hey <>,
 
 I've been using Dendron (https://www.dendron.so/) for a while now to manage my notes and I've been really impressed with how flexibly it scales with the number of notes I have. They just launched a feature to help knowledge scale called the Seed Bank. Essentially it's NPM but for general knowledge. I think your specific knowledge of X would be a great fit if you're willing publish it.  
 
-They've got a vibrant community in Discord (https://discord.gg/xrKTUStHNZ), a really responsive team, and I'm sure they'd love to assist you if you do choose to publish. 
+They've got a vibrant community in Discord (https://link.dendron.so/discord), a really responsive team, and I'm sure they'd love to assist you if you do choose to publish. 
 
 Hope you can give it a try! 
 
