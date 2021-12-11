@@ -2,7 +2,7 @@
 id: 6DZiBObwhZNYRjnokQ422
 title: Private and shared vaults
 desc: Using Dendron for private and shared use
-updated: 1639240128274
+updated: 1639246566164
 created: 1638820992694
 ---
 
@@ -19,6 +19,8 @@ Some specific use cases in which following a [[dendron.topic.multi-vault]] strat
 Create a blank worspace that will have [[multiple vaults|dendron.topic.multi-vault]], each of them serving different purposes and audiences. Some of them, or even all of them can be independent git repositories that can be shared with others as you would with a regular git repo. The workspace, in turn, can also be a git repo itself.
 
 ## Step by step
+
+### Start from scratch
 
 1. **Create a [[bare workspace|dendron.topic.workspace#concepts]]**. This workspace will be blank and contain all the needeed [[vaults|dendron.topic.vaults]] as well as the templates and configurations.
    ![[dendron.topic.workspace#bare-workspace:#*]]
@@ -47,6 +49,13 @@ Create a blank worspace that will have [[multiple vaults|dendron.topic.multi-vau
    ![[dendron.topic.multi-vault#lookup:#prompt-for-vault-selection-each-time]]
 4. Synchronize notes by running `Dendron: Worskpace sync`
    ![[dendron.topic.workspace#syncing-your-workspace-with-git]]
+
+### Use template
+
+Alternatively, you can use this template from the [[Teams page|dendron.topic.teams]]:
+
+![[dendron.topic.teams#workspace:#*]]
+
 
 ## Acknowledgement
 
