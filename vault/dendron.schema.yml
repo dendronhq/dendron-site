@@ -1,9 +1,13 @@
 version: 1
 schemas:
+- id: changelog
+  children:
+  - pattern: release
+    namespace: true
+    template: templates.release.weekly-public-announcement
 - id: dendron
   parent: root
   children:
-    - release
     - mission
     - rfc
     - principles
@@ -23,11 +27,6 @@ schemas:
     id: templates.rfc
     type: note
 - id: faq
-- id: release
-  namespace: true
-  template:
-    id: templates.release.weekly-public-announcement
-    type: note
 - id: features
 - id: principles
   desc: what we stand for

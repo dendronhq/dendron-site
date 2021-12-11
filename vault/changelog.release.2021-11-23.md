@@ -2,7 +2,7 @@
 id: Ku1qjbDYlsxk4rfMoFEza
 title: "0.70"
 desc: ''
-updated: 1637698801802
+updated: 1638901033257
 created: 1637687416614
 ---
 
@@ -14,7 +14,7 @@ This release also includes a variety of fixes and enhancements to publishing, am
 
 ### Highlights
 - feat(workspace): Initialize Workspace command can create native workspaces ([[docs|dendron.topic.workspace.native]])
-- enhance(publish): Better formatting of tables on published site
+- enhance(publish): Better formatting of tables on published site 
 - fix(publish): syntax highlighting for code blocks
 - fix(publish): make mermaid work consistently on published sites
 - fix(publish): enable katex on published site 

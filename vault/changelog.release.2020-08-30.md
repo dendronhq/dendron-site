@@ -2,7 +2,7 @@
 id: 1a79e2a1-c906-4ed4-a528-15bd34c4e649
 title: "0.09"
 desc: ''
-updated: 1630640295583
+updated: 1638899295502
 created: 1596374871110
 date: '2020-08-30'
 ---
@@ -28,7 +28,7 @@ These release notes are summary of the more notable changes, for the full list, 
 
 ### Add Go Up Hierarchy command
 
-Go up to the closest non-stub parent of the currently open note. ([[docs|dendron.ref.commands#go-up]])
+Go up to the closest non-stub parent of the currently open note. 
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/hierarchy.go-up.gif)
 

@@ -86,7 +86,7 @@ Bundle extension size is reduced by 50%
 - frontmatter tags displayed similarly to regular tags when published 
 - support [[customHeaderPath|dendron.topic.publish-legacy.configuration#customheaderpath]] for Next publishing
 - support [[collection options|dendron.topic.publish-legacy.configuration#collection-options]] for Next publishing
-- progress bar for [[refactoring|dendron.ref.commands#refactor-hierarchy]]
+- progress bar for [[refactoring|dendron.topic.refactoring#refactor-hierarchy]]
 
 ### Bug Fixes
 - links at the top and bottom of note references not clickable
@@ -293,7 +293,7 @@ The [[Calendar View|dendron._ref.web-ui#calendar-view]] is no longer hidden behi
 - [[Customizable tag colors|dendron.topic.tags#custom-tag-colors]] to color code your tags
 
 #### Rename Header Command
-- [[Rename Header Command|dendron.ref.commands#rename-header]] which updates links to that header
+- [[Rename Header Command|dendron.topic.refactoring#rename-header]] which updates links to that header
 
 ### Enhancements
 - automatically resolve conflicting keybinding caused by vim extension

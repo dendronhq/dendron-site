@@ -1,8 +1,9 @@
 ---
-id: YRsmBlShfdHEuQstRscEc
+id: x0geoUlKJzmIs4vlmwLn3
 title: Cook
 desc: ''
-updated: 1632352326351
-created: 1631124107564
+updated: 1638900831039
+created: 1638900831039
+stub: true
 ---
 

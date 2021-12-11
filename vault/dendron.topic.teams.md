@@ -86,7 +86,7 @@ Adding vaults to your team's workspace is as easy as running this command and po
 
 Move note will allow you to move notes quickly from one vault to another (potentially to make it public or provide more strict access control).
 
-### Refactor Hierarchy ([[dendron.ref.commands#refactor-hierarchy]])
+### Refactor Hierarchy ([[dendron.ref.commands|dendron.topic.refactoring#refactor-hierarchy]])
 
 Use the refactor hierarchy command to bulk-move notes from one hierarchy/structure to another.
 

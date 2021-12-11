@@ -2,14 +2,14 @@
 id: 1ec8d588-7c8a-47a2-b79e-1dd02d10b600
 title: Weekly Public Announcement
 desc: ''
-updated: 1635870596360
+updated: 1638897759403
 created: 1622484182130
 ---
 
 <!-- Replace frontmatter title-->
-title: Release Notes (version 0.6)
+title: 0.7
 
-Dendron 0.6 has sprouted  🌱
+Dendron 0.7 has sprouted  🌱
 
 ### Highlights
 
