@@ -2,7 +2,7 @@
 id: F5ly88oU0ecUiACLxET5E
 title: Basics
 desc: ''
-updated: 1636497015774
+updated: 1639065504887
 created: 1636495993010
 nav_order: 1.1
 ---
@@ -18,4 +18,3 @@ This goes over fundamental Dendron features
 - [[Templates|dendron://dendron.dendron-site/dendron.topic.templates]]
 - Journals #todo
 - [[Workbench|dendron://dendron.dendron-site/dendron.topic.workbench]]
-- [[Graph View|dendron://dendron.dendron-site/dendron.topic.graph-view]]

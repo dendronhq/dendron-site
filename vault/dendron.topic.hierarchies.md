@@ -2,12 +2,14 @@
 id: f3a41725-c5e5-4851-a6ed-5f541054d409
 title: Hierarchies
 desc: ''
-updated: 1623765064155
+updated: 1639083508156
 created: 1595611213607
 ---
 ## Summary
-Within a vault, your notes are stored **hierarchically** as `.` delimited markdown files. 
 
+Dendron organizes your notes into hierarchies. These are `.` delimited markdown files. 
+
+## Example
 Below is a hypothetical hierarchy for a file tree:
 
 ```

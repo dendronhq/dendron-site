@@ -2,7 +2,7 @@
 id: cphUwSPk12j4lS0tKjBdC
 title: Navigation
 desc: ''
-updated: 1638899935523
+updated: 1639065553357
 created: 1638899506405
 ---
 
@@ -78,6 +78,9 @@ Siblings with numeric names will be sorted numerically, whereas siblings with al
 Go down the hierarchy
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/hierarchy.go-down.gif)
+
+## Graph View
+Dendron lets you explore your notes via a graph. Read about the [[Graph View|dendron://dendron.dendron-site/dendron.topic.graph-view]] here.
 
 ## Related
 
