@@ -2,7 +2,7 @@
 id: 6DZiBObwhZNYRjnokQ422
 title: Private and shared vaults
 desc: Using Dendron for private and shared use
-updated: 1639239658911
+updated: 1639240128274
 created: 1638820992694
 ---
 
@@ -48,7 +48,9 @@ Create a blank worspace that will have [[multiple vaults|dendron.topic.multi-vau
 4. Synchronize notes by running `Dendron: Worskpace sync`
    ![[dendron.topic.workspace#syncing-your-workspace-with-git]]
 
+## Acknowledgement
 
+This guide is based on [this gist](https://gist.github.com/kevinslin/0e0f13fedb43732e86938ab1033b7efd)
 
 
 
