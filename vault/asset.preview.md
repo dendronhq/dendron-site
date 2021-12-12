@@ -2,11 +2,13 @@
 id: ChcCM1Q2qrDTy7YnLUHiL
 title: Preview
 desc: ''
-updated: 1639199963864
+updated: 1639271655097
 created: 1639113925844
 ---
 
 > This is a collection of assets used to insert into documentation via note refs.
+
+![[asset.sop.images]]
 
 ## Tutorial
 
