@@ -2,7 +2,7 @@
 id: 8DCgctK-RMD4EeHjC5_hI
 title: Rich Formatting
 desc: ''
-updated: 1639200856987
+updated: 1639266302903
 created: 1625573403967
 nav_order: 3
 ---
@@ -19,7 +19,7 @@ Dendron supports an extended Markdown syntax, which provides a lot of options fo
 
 #### Images
 
-> 🌱 Copy any image onto your clipboard, and then use the `Paste Image` command while focused in your editor pane. This will automatically create a link for you and copy the file contents into the assets directory in your workspace.
+> 🌱 **ACTION:** Copy any image onto your clipboard, and then use the `Paste Image` command while focused in your editor pane. This will automatically create a link for you and copy the file contents into the assets directory in your workspace.
 
 Sample Image Link: `![Dendron Logo](assets/images/logo_small.png)`
 
@@ -30,7 +30,6 @@ Result:
 #### Equations
 
 Math typesetting can be written through [Katex](https://wiki.dendron.so/notes/b1919663-cc48-4054-b0cf-4b26fe444907.html)
-
 
 $$
 \int_{-\infty}^\infty f(x)dx
@@ -64,7 +63,7 @@ sequenceDiagram
 
 You can link to a specific section of a different note and have the content in-lined into the current note.
 
-![[Join the community of Dendrologists|dendron://dendron.dendron-site/dendron.tutorial.conclusion#join-the-community-of-dendrologists:#^discord-block-ref]]
+![[Join the community of Dendrologists|dendron://dendron.dendron-site/dendron.tutorial.conclusion#join-the-dendron-community]]
 
 [[References Docs|dendron://dendron.dendron-site/dendron.topic.note-reference]]
 

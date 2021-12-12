@@ -2,7 +2,7 @@
 id: 9MZBqhrijEM4QpZRa5t08
 title: Linking Notes
 desc: Linking Notes
-updated: 1639200383161
+updated: 1639266012044
 created: 1625563999532
 nav_order: 2
 ---
@@ -11,7 +11,7 @@ nav_order: 2
 
 Dendron supports links between your notes, which can help you organically connect your thoughts and build up a powerful and **personal** knowledge graph.
 
-> 🌱 To create a link, just start typing `[[` and Dendron will show you a list of notes in your workspace that you can link to. Try it in the editor pane now.
+> 🌱 **ACTION:** To create a link, just start typing `[[` and Dendron will show you a list of notes in your workspace that you can link to. Try it in the editor pane now.
 
 - Example Text: `[[dendron.tutorial]]`
 - Resulting Link: [[dendron.tutorial]]
@@ -28,7 +28,7 @@ Take a look at the Backlinks panel on the bottom left section of your sidebar. T
 
 ### Explore Your Knowledge Graph
 
-> 🌱 To get a visual representation of your notes, use the `Dendron: Show Note Graph` command.
+> 🌱 **ACTION:** To get a visual representation of your notes, use the `Dendron: Show Note Graph` command.
 
 You can explore the hierarchical organization of your notes and how your notes are linked together. We're continually working to improve this feature so keep on the lookout for new capabilities in the graph view in the future!
 

@@ -2,7 +2,7 @@
 id: c6fd6bc4-7f75-4cbb-8f34-f7b99bfe2d50
 title: Concepts
 desc: ''
-updated: 1623921386025
+updated: 1639269597841
 created: 1595169512265
 nav_order: 5.01
 ---
@@ -28,9 +28,11 @@ You can read more about the frontmatter used in Dendron [[here|dendron.topic.fro
 
 ### Hierarchies
 
-![[dendron.topic.hierarchies#Summary,1:#concepts]]
+![[dendron.topic.hierarchies#the-why,1:#*]]
 
-You can read more about hierarchies [[here|dendron.topic.hierarchies]]
+![[dendron.topic.hierarchies#summary,1:#concepts]]
+
+You can read more about hierarchies [[here|dendron.topic.hierarchies]].
 
 ### Domain
 

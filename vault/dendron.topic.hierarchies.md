@@ -2,11 +2,21 @@
 id: f3a41725-c5e5-4851-a6ed-5f541054d409
 title: Hierarchies
 desc: ''
-updated: 1623765064155
+updated: 1639270475927
 created: 1595611213607
 ---
+
+## The why
+
+Dendron has flexible **hierarchies**. Hierarchy provides a structure for your notes but these structures can be easily changed.
+
+In programming, developers can refactor code and change its structure — the IDE will make sure that all references pointing to the original code are updated.
+
+In Dendron, you can [[refactor notes and hierarchies|dendron://dendron.dendron-site/dendron.topic.refactoring]] without breaking [[links|dendron.topic.links]] or [[note references|dendron://dendron.dendron-site/dendron.topic.note-reference]]. Dendron makes sure your notes are consistent throughout. This means that you have the best of both worlds: a basic structure for the organization but the flexibility to change it.
+
 ## Summary
-Within a vault, your notes are stored **hierarchically** as `.` delimited markdown files. 
+
+Within a vault, your notes are stored hierarchically as `.` delimited markdown files. 
 
 Below is a hypothetical hierarchy for a file tree:
 
