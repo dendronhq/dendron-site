@@ -2,7 +2,7 @@
 id: TflY5kn29HOLpp1pWT9tP
 title: Conclusion
 desc: ''
-updated: 1639259026358
+updated: 1639425525728
 created: 1625564254964
 nav_order: 4
 ---
@@ -22,8 +22,6 @@ There is much more that Dendron offers. When you're ready, learn more about addi
 - [ ] Import your existing notes from other sources like Obsidian, etc. with [[Pods|dendron://dendron.dendron-site/dendron.topic.pod]]
 - [ ] [[Publish|dendron://dendron.dendron-site/dendron.topic.publish]] your notes to a website with just a few clicks. Our [Dendron Wiki Site](https://wiki.dendron.so/) is created in this way!
 - [ ] Check out our [[Case Studies|dendron://dendron.dendron-site/dendron.case-studies]] and [[Workflows|dendron://dendron.dendron-site/dendron.guides.workflows]] to see various ways Dendron is being used to organize knowledge.
-- [ ] Learn about more [[Commands|dendron://dendron.dendron-site/dendron.ref.commands]]
-- [ ] Check out our [[Seed Bank|dendron://dendron.dendron-site/dendron.topic.seed-bank]] to pull down documentation for public topics.
 
 ## Other Resources
 

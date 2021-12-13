@@ -2,7 +2,7 @@
 id: gHdxXlNMr1w4xqee0n-Mb
 title: User Interface
 desc: 1. User Interface
-updated: 1639268841555
+updated: 1639427631131
 created: 1625563862198
 nav_order: 0
 ---
@@ -15,15 +15,15 @@ _Quick note on running commands in VSCode:_
 
 ![[dendron://dendron.dendron-site/asset.preview#tutorial-dendron-layout,1:#*]]
 
-> 💡 TIP: VSCode lets you re-position any of these windows as you'd like, so feel free to rearrange the windows into the view that works best for you! Refer to the [VSCode documentation for more information on the VSCode UI](https://code.visualstudio.com/docs/getstarted/userinterface).
+> 💡 TIP: VSCode lets you re-position any of these windows, so feel free to rearrange the windows to work best for you! Refer to [VSCode documentation for more information on the VSCode UI](https://code.visualstudio.com/docs/getstarted/userinterface).
 
 #### 1. Editor View
 
-This is where you can write and edit your notes. **Notes** in Dendron are markdown files (ex. `my.note.md`).
+Where you can write and edit your notes. **Notes** in Dendron are [[markdown|dendron://dendron.dendron-site/dendron.topic.markdown]] files (ex. `my.note.md`).
 
 #### 2. Preview View
 
-This shows the rendered Markdown of your currently opened note. If you close this pane, you can bring it back with the `Dendron: Show Preview` command.
+Shows the rendered Markdown of your currently opened note. If you close this pane, you can bring it back with the `Dendron: Show Preview` command.
 
 >💡 TIP: The preview pane is **read-only** and cannot be used to edit notes. All editing must be done in the editor view.
 
@@ -31,30 +31,33 @@ This shows the rendered Markdown of your currently opened note. If you close thi
 
 This shows the files and folders in your vault. A **[[vault|dendron.topic.vaults]]** stores your notes and assets (ex. images, pdfs, etc.).
 
-**We discourage folks from using the file explorer for manual navigation.** Use the [[tree view|dendron.tutorial.navigation-basics#6-tree-view-pane]] to navigate notes, instead.
+![[dendron://dendron.dendron-site/dendron.tutorial.user-interface#^tree-view-vs-file-explorer]]
 
 #### 4. Outline Pane
 
-Shows an outline of the currently opened note by listing the headers.
+Shows an outline of the currently opened note by listing the headers for navigation. Jump around areas of larger notes by clicking on the headers in this pane.
 
 #### 5. Calendar View Pane
 
 ![[dendron://dendron.dendron-site/dendron._ref.web-ui#^calendar-view-definition]]
 
+![[dendron://dendron.dendron-site/dendron.topic.special-notes#daily-journal:#*]]
+
 Learn more:
 
-- [[Special Notes: Daily Journal|dendron://dendron.dendron-site/dendron.topic.special-notes]]
 - [[Calendar View|dendron://dendron.dendron-site/dendron._ref.web-ui#calendar-view]]
 
 #### 6. Tree View Pane
 
 This shows a hierarchical view of your notes, similar to how a folder structure would appear in your filesystem. You can click here to navigate around your notes.
 
-We encourage using the tree view, as opposed to the workspace panel, for navigating your notes. This is because the workspace panel can become rather unruly, since it lists _all_ of your notes while the tree view panel lists collapsible hierarchies.
+> 💡 TIP: We encourage using the tree view, as opposed to the file explorer pane, for navigating your notes. ^tree-view-vs-file-explorer
 
 #### 7. Backlinks Pane
 
-This shows a list of other notes that have links to the current note. More on links in the [[linking notes section|dendron://dendron.dendron-site/dendron.tutorial.linking-notes]] of the tutorial.
+This shows a list of other notes that have links to the current note opened in the editor view. This is useful for helping to establish context.
+
+![[dendron://dendron.dendron-site/asset.preview#backlinks,1:#*]]
 
 ### Next Steps
 
