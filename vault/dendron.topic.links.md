@@ -2,7 +2,7 @@
 id: 3472226a-ff3c-432d-bf5d-10926f39f6c2
 title: Links
 desc: ''
-updated: 1638785384812
+updated: 1639511677131
 created: 1595003088839
 stub: false
 ---
@@ -14,6 +14,12 @@ Dendron supports multiple types of links and formats.
 - `[[labelled|wiki links]]`
 - `![image links](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/logo-256.png)`
 - links to `[local files](assets/think.pdf)` (eg. pdfs, psds, etc)
+
+## Concepts
+
+### Non Note Files
+
+Non-note files are any assets that are not Dendron markdown notes.
 
 ## Markdown links
 

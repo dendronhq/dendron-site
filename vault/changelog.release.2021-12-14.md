@@ -2,11 +2,13 @@
 id: fRAyMtRmwkCwdRBj24eb0
 title: '0.73'
 desc: ''
-updated: 1639507560034
+updated: 1639514138573
 created: 1639501218244
 ---
 
 Dendron 0.73 has sprouted  🌱
+
+Dendron notes can co-exist among other files in a project, such as code files. Now you can easily **navigate to Non-Note Files** in your workspace! `Goto Note` supports the ability to jump to **non-note files** referenced from wikilinks! This includes wikilinks inside of code blocks.
 
 **Discover Internal Broken Links:** Want to hunt down broken, internal links in your notes? Try out the new `findBrokenLinks` action for **Dendron Doctor** and you can diagnose your problems!
 
@@ -14,18 +16,16 @@ Dendron 0.73 has sprouted  🌱
 
 **Note Traits:** Dendron's new trait system allows you to create custom behavior and apply it to certain notes. This means you can have special actions take place at note creation, like automated updates to the name and `title`. Jump into the [[note traits quickstart|dendron://dendron.dendron-site/dendron.topic.traits.quickstart]] to take it for a test drive.
 
-**Navigate to Non-Note Files:** `Goto Note` now supports the ability to jump to non-note files, such as code files in your project, from wikilinks! This includes wikilinks inside of code blocks.
-
-**Rename Notes from Wikilinks:** Dendron now makes it easy for you to rename a note by placing your cursor inside a wikilink, and pressing `F2` (the `Rename Symbol` command).
+**Wikilinks is now F2 Compatible:** Dendron now makes it easy for you to rename a note by placing your cursor inside a wikilink, and pressing `F2` (the [VS Code `Rename Symbol` command](https://code.visualstudio.com/docs/editor/refactoring#_rename-symbol)).
 
 ### Highlights
 
 - feat(commands): find broken links ([[docs|dendron://dendron.dendron-site/dendron.ref.commands#findbrokenlinks]])
 - feat(notes): Note Trait System Prototype (Phase 1) ([[docs|dendron://dendron.dendron-site/dendron.topic.traits.quickstart]])
-- feat(navigation): implement goto definition for non-note files
-- feat(navigation): `Goto Note` can open links to non-note files
-- enhance(navigation): allow `Goto Note` to work inside code blocks
+- feat(navigation): implement `Go to Definition` for non-note files ([[docs|dendron://dendron.dendron-site/dendron.topic.navigation#go-to-definition]])
+- feat(navigation): `Goto Note` can open links to non-note files ([[docs|dendron://dendron.dendron-site/dendron.topic.links#links-to-non-note-files]])
 - feat(refactor): add rename provider
+- enhance(navigation): allow `Goto Note` to work inside code blocks
 
 ### Everything Else
 
@@ -49,7 +49,7 @@ Dendron was recently featured in the _Tools for Thought_ series by Ness Labs. Ke
 
 - [Ness Labs: Redefining knowledge management with Kevin Lin, founder of Dendron](https://link.dendron.so/6cqa)
 
-Dendron is soon to be featured in the next VS Code livestream!
+Dendron will also be featured in the next VS Code livestream!
 
 > In our talk, we'll go over the basics of how Dendron works and do a walkthrough of the core features that let individuals and teams manage tens of thousands of notes inside of VS Code.
 
@@ -64,13 +64,16 @@ This week's entry in the [[Dendron Reading Series|community.reading-series]].
 
 #### Office Hours
 
-- We will be hosting Office Hours next week! Event details [here](https://link.dendron.so/6cqo).
+- We will be hosting Office Hours on **[Wed, Dec 22, 9:00 AM - 10:00 AM PST](https://link.dendron.so/6cqo)**
 - Notes, and the recording, of the previous Office Hours can be found [[here|dendron://dendron.dendron-site/community.office-hours.2021.12.08]]
 
 #### Thank You's
 
 A big **thanks** to the following gardeners that brought up issues, contributions, and fixes to this release! You can see an overview of all roles [[here|dendron://dendron.dendron-site/community.roles]]
 
+- [Carlos Cámara](https://github.com/ccamara) `@ccamara#5131`
+  - #dendron.taxonomist
+  - [Workflow for workspaces with private and shared notes](https://github.com/dendronhq/dendron-site/pull/318)
 - [Tika](https://github.com/SR--) `@Tika#9526`
   - #dendron.bugcatcher
   - [Preview does not display images](https://github.com/dendronhq/dendron/issues/1856)

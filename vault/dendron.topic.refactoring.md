@@ -2,7 +2,7 @@
 id: srajljj10V2dl19nCSFiC
 title: Refactoring
 desc: ''
-updated: 1639506940994
+updated: 1639513953946
 created: 1638900089932
 ---
 
@@ -26,7 +26,16 @@ You can also simply rename a file in VSCode's explorer panel, and all of the bac
 
 #### Rename Symbol
 
-![[dendron://dendron.dendron-site/dendron.ref.commands#rename-symbol,1:#*]]
+Dendron makes use of the [VS Code `Rename Symbol` command](https://code.visualstudio.com/docs/editor/refactoring#_rename-symbol) (`F2`) to do the equivelant of `Rename Note` on a wikilink.
+
+- Place the cursor in a wikilink
+- Press `F2` (or the command `Rename Symbol`) 
+
+`Rename Symbol` will rename the note that the wikilink is referencing, and updates all the backlinks.
+
+Dendron currently supports the following symbols:
+
+- `[[wikilinks|my.note]]`
 
 ### Refactor Hierarchy
 
