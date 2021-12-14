@@ -2,7 +2,7 @@
 id: cphUwSPk12j4lS0tKjBdC
 title: Navigation
 desc: ''
-updated: 1639065553357
+updated: 1639515637280
 created: 1638899506405
 ---
 
@@ -24,6 +24,15 @@ When you highlight a header, you can run `> References: Find All References` to 
     <img style="" src="https://cdn.loom.com/sessions/thumbnails/c4fdd88be98d4fc58b4a4f9765eb9e89-with-play.gif">
 </a>
 
+#### findBrokenLinks
+
+Similar to [[createMissingLinkedNotes|dendron://dendron.dendron-site/dendron.ref.commands#createmissinglinkednotes]]: find all broken links (that have a vault prefix). This does note create new notes.
+
+- Command: `Dendron: Doctor`
+- Option: `findBrokenLinks`
+
+This simply lists all broken links in the scope.
+
 ## Go to
 
 ### Goto Note
@@ -31,7 +40,16 @@ When you highlight a header, you can run `> References: Find All References` to 
   - key: `ctrl+enter`
   - when: `editorFocus`
 
-Goto to the note under the cursor, creating it if it doesn't exist.
+Goto to the note in the [[wikilinks|dendron://dendron.dendron-site/dendron.topic.links#wiki-links]] or the [[links to non-note files|dendron://dendron.dendron-site/dendron.topic.links#links-to-non-note-files]] under the cursor, creating them if they doesn't exist.
+
+### Go to Definition
+
+Dendron lets you rename symbols using the IDE's native `Go to Definition` command.
+
+Dendron currently supports the following symbols:
+
+- [[Wiki Links|dendron://dendron.dendron-site/dendron.topic.links#wiki-links]]
+- [[Links to non-note files|dendron://dendron.dendron-site/dendron.topic.links#links-to-non-note-files]]
 
 ### Go Up
 

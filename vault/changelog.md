@@ -2,10 +2,30 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1639160357509
+updated: 1639515107203
 created: 1601508213606
 nav_order: 2
 ---
+
+## 0.73.0
+
+### Features
+- feat(navigation): `Goto Note` can open links to non-note files ([[docs|dendron://dendron.dendron-site/dendron.topic.links#links-to-non-note-files]]) (#1844) @kaan
+- feat(refactor): support `Rename Symbol` with Dendron wikilinks ([[docs|dendron://dendron.dendron-site/dendron.topic.refactoring#rename-symbol]]) (#1879) @hikchoi
+- feat(navigation): implement `Go to Definition` for non-note files ([[docs|dendron://dendron.dendron-site/dendron.topic.navigation#go-to-definition]]) (#1888) @kaan
+- feat(pods): early version of Orbit import pod ([[docs|dendron://dendron.dendron-site/dendron.topic.pod.builtin.orbit]]) (#1637) @joshi
+
+### Enhancements
+- enhance(navigation): allow `Goto Note` to work inside code blocks (#1878) @kaan
+- enhance(markdown): add `depth` metadata to header anchors (#1877) @kevin
+- enahnce(workspace): simplify `InitializeWorkspace` command (#1886) @jonathan
+- enhance(publish): better layout for Table of Contents / TOC (#1882) @kevin
+
+### Fix
+- fix(workspace): tutorial initializer with existing workspace in default paths (#1873) @jonathan
+- fix(refactor): revert match text default value to active note name (#1892) @hikchoi
+- fix(extension): note traits not working after webpack (#1889) @jonathan
+- fix(schema): use patterns when ids are auto generated and there is no manually set title for a schema (#1896)  @nickolay
 
 ## 0.72.1
 

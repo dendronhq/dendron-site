@@ -2,7 +2,7 @@
 id: srajljj10V2dl19nCSFiC
 title: Refactoring
 desc: ''
-updated: 1638900646164
+updated: 1639515355222
 created: 1638900089932
 ---
 
@@ -22,7 +22,21 @@ If the title is the same as what Dendron would autogenerate (kebab-case capitali
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/command-rename.gif)
 
-You can also simply rename a file in VSCode's explorer panel, and all of the backlinks to that note will be updated automatically. Here is an example loom [video](https://www.loom.com/share/dcc2df8f598a463894278f9b5926a92e) 
+You can also simply rename a file in VSCode's explorer panel, and all of the backlinks to that note will be updated automatically. Here is an example loom [video](https://www.loom.com/share/dcc2df8f598a463894278f9b5926a92e)
+
+#### Rename Symbol
+
+Dendron makes use of the [VS Code `Rename Symbol` command](https://code.visualstudio.com/docs/editor/refactoring#_rename-symbol) (`F2`) to do the equivelant of `Rename Note` on a wikilink.
+
+- Place the cursor in a wikilink
+- Press `F2` (or the command `Rename Symbol`) 
+
+`Rename Symbol` will rename the note that the wikilink is referencing, and updates all the backlinks.
+
+Dendron currently supports the following symbols:
+
+- [[Wiki Links|dendron://dendron.dendron-site/dendron.topic.links#wiki-links]]
+- [[Links to non-note files|dendron://dendron.dendron-site/dendron.topic.links#links-to-non-note-files]]
 
 ### Refactor Hierarchy
 
