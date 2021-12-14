@@ -2,7 +2,7 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1639502083684
+updated: 1639502622187
 created: 1601508213606
 nav_order: 2
 ---
@@ -13,6 +13,7 @@ nav_order: 2
 - feat(navigation): `Goto Note` can open links to non-note files (#1844) @kaan
 - feat(refactor): add rename provider (#1879) @hikchoi
 - feat(navigation): implement goto definition for non-note files (#1888) @kaan
+- feat(pods): early version of Orbit import pod ([[docs|dendron.topic.pod.builtin.orbit]]) (#1637) @joshi
 
 ### Enhancements
 - enhance(navigation): allow `Goto Note` to work inside code blocks (#1878) @kaan
