@@ -2,7 +2,7 @@
 id: cphUwSPk12j4lS0tKjBdC
 title: Navigation
 desc: ''
-updated: 1639512183562
+updated: 1639515637280
 created: 1638899506405
 ---
 
@@ -40,7 +40,7 @@ This simply lists all broken links in the scope.
   - key: `ctrl+enter`
   - when: `editorFocus`
 
-Goto to the note under the cursor, creating it if it doesn't exist. `Goto Note` supports wikilinks that point to non-note files, such as code files, within your project.
+Goto to the note in the [[wikilinks|dendron://dendron.dendron-site/dendron.topic.links#wiki-links]] or the [[links to non-note files|dendron://dendron.dendron-site/dendron.topic.links#links-to-non-note-files]] under the cursor, creating them if they doesn't exist.
 
 ### Go to Definition
 
@@ -48,8 +48,8 @@ Dendron lets you rename symbols using the IDE's native `Go to Definition` comman
 
 Dendron currently supports the following symbols:
 
-- `[[wikilinks|this.is.my.note]]`
-- `[[NonNote Links|...]]`
+- [[Wiki Links|dendron://dendron.dendron-site/dendron.topic.links#wiki-links]]
+- [[Links to non-note files|dendron://dendron.dendron-site/dendron.topic.links#links-to-non-note-files]]
 
 ### Go Up
 

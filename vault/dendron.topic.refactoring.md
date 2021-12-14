@@ -2,7 +2,7 @@
 id: srajljj10V2dl19nCSFiC
 title: Refactoring
 desc: ''
-updated: 1639513953946
+updated: 1639515355222
 created: 1638900089932
 ---
 
@@ -35,7 +35,8 @@ Dendron makes use of the [VS Code `Rename Symbol` command](https://code.visualst
 
 Dendron currently supports the following symbols:
 
-- `[[wikilinks|my.note]]`
+- [[Wiki Links|dendron://dendron.dendron-site/dendron.topic.links#wiki-links]]
+- [[Links to non-note files|dendron://dendron.dendron-site/dendron.topic.links#links-to-non-note-files]]
 
 ### Refactor Hierarchy
 
