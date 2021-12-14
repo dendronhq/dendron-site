@@ -18,4 +18,3 @@ This goes over fundamental Dendron features
 - [[Templates|dendron://dendron.dendron-site/dendron.topic.templates]]
 - Journals #todo
 - [[Workbench|dendron://dendron.dendron-site/dendron.topic.workbench]]
-- [[Graph View|dendron://dendron.dendron-site/dendron.topic.graph-view]]
