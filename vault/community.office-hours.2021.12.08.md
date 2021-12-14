@@ -1,8 +1,8 @@
 ---
 id: Wv6A5QNiuo7vnwoWj4uSp
-title: 08
+title: 2021-12-08 Office Hours
 desc: ''
-updated: 1639081717775
+updated: 1639505118853
 created: 1639081717775
 documentId: 1FEEo_0aNiNfnW_tzo58m_HAM8wI_YMujHmKUaNBSzBk
 revisionId: >-
@@ -11,7 +11,11 @@ commentsUpdated: true
 ---
 ##  Office hours
 
-### December 08 - Office Hours
+<a href="https://www.loom.com/share/7a68d79dc4b440a4bd51173aa9645f2b">
+    <img style="" src="https://cdn.loom.com/sessions/thumbnails/7a68d79dc4b440a4bd51173aa9645f2b-with-play.gif">
+</a>
+
+### Notes
 
 - Highlights
   - find all references
@@ -21,21 +25,12 @@ commentsUpdated: true
     - Gives full flexibility into  managing hierarchies
     - take any component of your hierarchy and move it anywhere else
     - Refactoring using the full power of regex
-  - refactor with line
-- Questions
-1. What specific flavor of regex are we working with?
-                 -     Regex: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions
-
-- Notes (What’s new?)
   - Refactoring has its own section in the user guide
-  - New additions to the documentation
   - Add section navigation on the website
   - Ability to rename headers
-
-- We're currently leaning into: learning curve, making Dendron more approachable, continue to work well and integrate with other tools.
-
-- Meta
-
-  - 
-
-
+- Next
+  - We're currently leaning into: learning curve, making Dendron more approachable, continue to work well and integrate with other tools.
+- Questions
+  1. What specific flavor of regex are we working with?
+      - answer: javascript regex 
+      - Regex: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions
