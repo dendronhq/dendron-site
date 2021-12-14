@@ -2,7 +2,7 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1639512264828
+updated: 1639515107203
 created: 1601508213606
 nav_order: 2
 ---
@@ -11,7 +11,7 @@ nav_order: 2
 
 ### Features
 - feat(navigation): `Goto Note` can open links to non-note files ([[docs|dendron://dendron.dendron-site/dendron.topic.links#links-to-non-note-files]]) (#1844) @kaan
-- feat(refactor): support `Rename Symbol` with Dendron wikilinks ([[docs|]]) (#1879) @hikchoi
+- feat(refactor): support `Rename Symbol` with Dendron wikilinks ([[docs|dendron://dendron.dendron-site/dendron.topic.refactoring#rename-symbol]]) (#1879) @hikchoi
 - feat(navigation): implement `Go to Definition` for non-note files ([[docs|dendron://dendron.dendron-site/dendron.topic.navigation#go-to-definition]]) (#1888) @kaan
 - feat(pods): early version of Orbit import pod ([[docs|dendron://dendron.dendron-site/dendron.topic.pod.builtin.orbit]]) (#1637) @joshi
 
