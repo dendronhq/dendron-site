@@ -35,7 +35,7 @@ Create a blank worspace that will have [[multiple vaults|dendron.topic.multi-vau
       3. Type the location where you want it to be stored
       4. Type the name of the vault (can be different from the folder's name)
    2. Add a **remote vault** for notes that will be shared (either with yourself or with others) you can either clone a remote note or create a local vault and then convert it into a remote one:
-      1. Adding a remote vault: 
+      1. If adding remote vault(s) that already exist: 
          1. Run `Dendron: Vault Add`
          2. Select `remote`
          3. Write the git location of the remote vault you want to clone
