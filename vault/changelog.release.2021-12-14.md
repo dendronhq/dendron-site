@@ -2,7 +2,7 @@
 id: fRAyMtRmwkCwdRBj24eb0
 title: '0.73'
 desc: ''
-updated: 1639507012850
+updated: 1639507560034
 created: 1639501218244
 ---
 
@@ -14,7 +14,7 @@ Dendron 0.73 has sprouted  🌱
 
 **Note Traits:** Dendron's new trait system allows you to create custom behavior and apply it to certain notes. This means you can have special actions take place at note creation, like automated updates to the name and `title`. Jump into the [[note traits quickstart|dendron://dendron.dendron-site/dendron.topic.traits.quickstart]] to take it for a test drive.
 
-**Navigate to Non-Note Files:**
+**Navigate to Non-Note Files:** `Goto Note` now supports the ability to jump to non-note files, such as code files in your project, from wikilinks! This includes wikilinks inside of code blocks.
 
 **Rename Notes from Wikilinks:** Dendron now makes it easy for you to rename a note by placing your cursor inside a wikilink, and pressing `F2` (the `Rename Symbol` command).
 
