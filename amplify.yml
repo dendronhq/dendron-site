@@ -10,7 +10,7 @@ frontend:
     build:
       commands: 
         - nvm use 14
-        - "(test -d .next) && (echo 'updating dendron next...' && cd .next && git reset --hard && git clean -f && git pull) || (echo 'init dendron next' && npx dendron publish init)"
+        - "(test -d .next) && (echo 'updating dendron next...' && cd .next && git reset --hard && git clean -f && git pull && yarn) || (echo 'init dendron next' && npx dendron publish init)"
         - '[ $AWS_BRANCH = "dev" ] && cd .next && git fetch && git checkout dev && cd .. || echo 0' 
         # diagnostics
         - "echo `pwd`"
