@@ -16,7 +16,7 @@ Some specific use cases in which following a [[dendron.topic.multi-vault]] strat
 
 ## Overview
 
-Create a blank worspace that will have [[multiple vaults|dendron.topic.multi-vault]], each of them serving different purposes and audiences. Some of them, or even all of them can be independent git repositories that can be shared with others as you would with a regular git repo. The workspace, in turn, can also be a git repo itself.
+Create a blank worspace that will have [[multiple vaults|dendron.topic.multi-vault]], each serving different purposes and audiences. Each vault can be independent git repositories that can be shared with others as you would with a regular git repository. The workspace, itself, can also be a git repository.
 
 ## Step by step
 
