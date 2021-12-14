@@ -40,7 +40,7 @@ Create a blank worspace that will have [[multiple vaults|dendron.topic.multi-vau
          2. Select `remote`
          3. Write the git location of the remote vault you want to clone
          4. The vault will be cloned inside your workspace
-      2. Converting a local vault into a remote vault:
+      2. If converting local vault(s) into remote vault(s):
          1. Run `Dendron: Convert Vault`
          2. Select the name of your local vault that you want to convert
          3. Select `Convert to remote vault`
