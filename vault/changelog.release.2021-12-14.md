@@ -2,19 +2,21 @@
 id: fRAyMtRmwkCwdRBj24eb0
 title: '0.73'
 desc: ''
-updated: 1639502619092
+updated: 1639507012850
 created: 1639501218244
 ---
 
 Dendron 0.73 has sprouted  🌱
 
-Want to hunt down broken, internal links in your notes? Try out the new `findBrokenLinks` action for **Dendron Doctor** and you can diagnose your problems!
+**Discover Internal Broken Links:** Want to hunt down broken, internal links in your notes? Try out the new `findBrokenLinks` action for **Dendron Doctor** and you can diagnose your problems!
 
 - `Ctrl+Shift+P` / `Cmd+Shift+P` -> `Dendron: Doctor` -> `findBrokenLinks`
 
-- note traits
-- goto note for non-note
-- rename
+**Note Traits:** Dendron's new trait system allows you to create custom behavior and apply it to certain notes. This means you can have special actions take place at note creation, like automated updates to the name and `title`. Jump into the [[note traits quickstart|dendron://dendron.dendron-site/dendron.topic.traits.quickstart]] to take it for a test drive.
+
+**Navigate to Non-Note Files:**
+
+**Rename Notes from Wikilinks:** Dendron now makes it easy for you to rename a note by placing your cursor inside a wikilink, and pressing `F2` (the `Rename Symbol` command).
 
 ### Highlights
 
@@ -43,23 +45,31 @@ Want to hunt down broken, internal links in your notes? Try out the new `findBro
 
 #### General Updates
 
-- mention ness lab
-- vscode talk
+Dendron was recently featured in the _Tools for Thought_ series by Ness Labs. Kevin Lin gave the rundown on Dendron features, suggestions for new users, and what the future looks like.
+
+- [Ness Labs: Redefining knowledge management with Kevin Lin, founder of Dendron](https://link.dendron.so/6cqa)
+
+Dendron is soon to be featured in the next VS Code livestream!
+
+> In our talk, we'll go over the basics of how Dendron works and do a walkthrough of the core features that let individuals and teams manage tens of thousands of notes inside of VS Code.
+
+- [VSCode Livestreams](https://code.visualstudio.com/livestream): Note taking inside of VS Code (with Dendron)
+  - **Thursday, December 16, 8:00 AM PST**
 
 #### Dendron Reading Series
 
 This week's entry in the [[Dendron Reading Series|community.reading-series]]. 
 
-![[10 - The values of Emacs, the Neovim revolution, and the VSCode gorilla|dendron://dendron.dendron-site/community.reading-series.journal.2021.12.07]]
+![[11 - Cal Newport's Study Hacks Blog: In Defense of Thinking|dendron://dendron.dendron-site/community.reading-series.journal.2021.12.14]]
 
 #### Office Hours
 
-We will be hosting Office Hours next week! Event details [here](https://lu.ma/s6r2cq39)
+- We will be hosting Office Hours next week! Event details [here](https://link.dendron.so/6cqo).
+- Notes, and the recording, of the previous Office Hours can be found [[here|dendron://dendron.dendron-site/community.office-hours.2021.12.08]]
 
 #### Thank You's
 
-A big **thanks** to the following gardeners that brought up issues, contributions, and fixes to this release :man_farmer: :woman_farmer: 
-You can see an overview of all roles [[here|community.roles]]
+A big **thanks** to the following gardeners that brought up issues, contributions, and fixes to this release! You can see an overview of all roles [[here|dendron://dendron.dendron-site/community.roles]]
 
 - [Tika](https://github.com/SR--) `@Tika#9526`
   - #dendron.bugcatcher
@@ -72,4 +82,4 @@ You can see an overview of all roles [[here|community.roles]]
   - #dendron.bugcatcher
 
 ### Changelog
-![[changelog#0730:#0720]]
+![[dendron://dendron.dendron-site/changelog#0730:#0720]]

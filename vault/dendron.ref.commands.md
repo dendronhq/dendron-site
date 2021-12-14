@@ -2,7 +2,7 @@
 id: eea2b078-1acc-4071-a14e-18299fc28f47
 title: Commands
 desc: ''
-updated: 1638900716679
+updated: 1639507138731
 created: 1595261816971
 nav_order: 3.1
 ---
@@ -702,11 +702,17 @@ Copy last 3000 lines of all logs and config to clipboard. Use when submitting an
 
 Dendron recognises a new markdown file created from vscode context menu and populate it with the frontmatter.
 
-#### Rename 
+#### Rename Note 
 
 Dendron recognises the vscode rename and updates all the backlinks to the old file with new name.
 
 ### Code Actions
+
+#### Rename Symbol
+
+Dendron makes use of the VS Code command `Rename Symbol` to do the equivelant of `Rename Note` on a wikilink.
+
+Place the cursor in a wikilink and press `F2` (or the command `Rename Symbol`). `Rename Symbol` will rename the note that the wikilink is referencing, and updates all the backlinks.
 
 #### Rename Header
 

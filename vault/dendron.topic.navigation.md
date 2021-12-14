@@ -2,7 +2,7 @@
 id: cphUwSPk12j4lS0tKjBdC
 title: Navigation
 desc: ''
-updated: 1639065553357
+updated: 1639507227839
 created: 1638899506405
 ---
 
@@ -31,7 +31,7 @@ When you highlight a header, you can run `> References: Find All References` to 
   - key: `ctrl+enter`
   - when: `editorFocus`
 
-Goto to the note under the cursor, creating it if it doesn't exist.
+Goto to the note under the cursor, creating it if it doesn't exist. `Goto Note` supports wikilinks that point to non-note files, such as code files, within your project.
 
 ### Go Up
 
