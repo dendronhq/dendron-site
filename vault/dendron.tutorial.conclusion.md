@@ -2,7 +2,7 @@
 id: TflY5kn29HOLpp1pWT9tP
 title: Conclusion
 desc: ''
-updated: 1639610882541
+updated: 1639611357508
 created: 1625564254964
 nav_order: 4
 ---
@@ -60,6 +60,7 @@ There is much more that Dendron offers. When you're ready, learn more about addi
     - Learn how to work with [[Multiple Vaults in the same workspace|dendron://dendron.dendron-site/dendron.topic.multi-vault]]. This allows you to access private personal notes from a vault, while working with notes from other vaults (like team notes, or software documentation in a project repository).
 - Sharing
     - Learn how to [[publish your notes online|dendron://dendron.dendron-site/dendron.topic.publish.quickstart]], and follow guides for hosting with [[Netlify|dendron.topic.publish.cook.netlify]] or [[GitHub Pages|dendron.topic.publish.cook.github]].
+    - Learn how to [[access your Dendron notes on mobile devices with third-party software|dendron.guides.cook#mobile-support]].
 - Transfer
     - Learn how to use Dendron interoperably with other formats, by [[exporting/importing your notes with Pods|dendron://dendron.dendron-site/dendron.topic.pod]].
 
