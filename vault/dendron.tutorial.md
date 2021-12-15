@@ -2,7 +2,7 @@
 id: 678c77d9-ef2c-4537-97b5-64556d6337f1
 title: Getting Started
 desc: ''
-updated: 1639525896932
+updated: 1639530819501
 created: 1608051264282
 nav_order: 1.1
 ---
@@ -27,9 +27,9 @@ When you install Dendron, click the `Get Started` button to begin. You'll start 
 
 You may see two additional sections in the preview view, **Children** and **Backlinks**, which will be covered later in the tutorial.
 
-- [[Backlinks (in Linking Notes)|dendron://dendron.dendron-site/dendron.tutorial.linking-notes#backlinks]]
-- [[Children (in Taking Notes)|dendron://dendron.dendron-site/dendron.tutorial.taking-notes#children]]
+- [[Backlinks (in Linking Notes)|dendron.tutorial.linking-notes#backlinks]]
+- [[Children (in Taking Notes)|dendron.tutorial.taking-notes#children]]
 
 ## Start the Tutorial
 
-1. [[Learn the basics of the Dendron UI|dendron://dendron.dendron-site/dendron.tutorial.user-interface]]
+1. [[Learn the basics of the Dendron UI|dendron.tutorial.user-interface]]
