@@ -2,12 +2,12 @@
 id: 81da87be-2d4e-47b5-a1d6-c0d647e1ab00
 title: Development
 desc: ''
-updated: 1639201216677
+updated: 1639537707863
 created: 1604236041570
 ---
 ## Summary
 
-If you would like to contribute to the development of dendron, checkout out the [repo](https://github.com/dendronhq/dendron) from github.
+If you would like to contribute to the development of dendron, checkout out the [repo](https://link.dendron.so/github) from github.
 
 You can then follow the [[setup instructions|pkg.plugin-core.quickstart#build]].
 

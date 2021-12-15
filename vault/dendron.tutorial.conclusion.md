@@ -2,7 +2,7 @@
 id: TflY5kn29HOLpp1pWT9tP
 title: Conclusion
 desc: ''
-updated: 1639425525728
+updated: 1639547218539
 created: 1625564254964
 nav_order: 4
 ---
@@ -15,14 +15,48 @@ From here, you can start adding your notes to your current workspace, or if you'
 
 ![[dendron://dendron.dendron-site/community]]
 
+Check out our [[Case Studies|dendron://dendron.dendron-site/dendron.case-studies]] and [[Workflows|dendron://dendron.dendron-site/dendron.guides.workflows]] to see more ways Dendron is being used to organize knowledge.
+
 ## Explore the full potential of Dendron
 
-There is much more that Dendron offers. When you're ready, learn more about additional features that Dendron offers:
+There is much more that Dendron offers. When you're ready, learn more about additional features that Dendron offers!
 
-- [ ] Import your existing notes from other sources like Obsidian, etc. with [[Pods|dendron://dendron.dendron-site/dendron.topic.pod]]
-- [ ] [[Publish|dendron://dendron.dendron-site/dendron.topic.publish]] your notes to a website with just a few clicks. Our [Dendron Wiki Site](https://wiki.dendron.so/) is created in this way!
-- [ ] Check out our [[Case Studies|dendron://dendron.dendron-site/dendron.case-studies]] and [[Workflows|dendron://dendron.dendron-site/dendron.guides.workflows]] to see various ways Dendron is being used to organize knowledge.
+### Trail
 
-## Other Resources
+- Basics
+    - [x] Finish the basics tutorial
+- Navigation
+    - [[Find All References|dendron://dendron.dendron-site/dendron.topic.navigation#find-all-references]]
+    - [[Go to Commands|dendron://dendron.dendron-site/dendron.topic.navigation#go-to]]
+- Organizing
+    - [[Tags|dendron://dendron.dendron-site/dendron.topic.tags]] 
+    - [[Users|dendron://dendron.dendron-site/dendron.topic.users]]
+    - [[Tasks|dendron://dendron.dendron-site/dendron.topic.tasks]]
+    - [[Scratch Notes|dendron://dendron.dendron-site/dendron.topic.special-notes#scratch-note]]
+    - [[Daily Journal Notes|dendron://dendron.dendron-site/dendron.topic.special-notes#daily-journal]] and other generic [[Journal Notes|dendron://dendron.dendron-site/dendron.topic.special-notes#journal-note]]
+    - [[Hierarchies|dendron://dendron.dendron-site/dendron.topic.hierarchies]]
+    - [[Schemas|dendron://dendron.dendron-site/dendron.topic.schema]]
+- Sharing
+    - [[Git|dendron://dendron.dendron-site/dendron.topic.git]]
 
-- Fellow dendrologist [Ian Jones](https://github.com/theianjones) made a fantastic video series about getting started with Dendron [here](https://egghead.io/courses/build-a-personal-knowledge-management-system-with-dendron-b24b)
+### Forest
+
+- Retrieval
+    - [[Lookup Modifiers|dendron://dendron.dendron-site/dendron.topic.lookup.modifiers]]
+- Editing
+    - [[Frontmatter|dendron://dendron.dendron-site/dendron.topic.frontmatter]]
+- Organizing
+    - [[Vaults|dendron://dendron.dendron-site/dendron.topic.vaults]]
+    - [[Workspace|dendron://dendron.dendron-site/dendron.topic.workspace]]
+    - [[Multi Vault|dendron://dendron.dendron-site/dendron.topic.multi-vault]]
+- Sharing
+    - [[Publish your notes online|dendron://dendron.dendron-site/dendron.topic.publish.quickstart]] with [[Netlify|dendron.topic.publish.cook.netlify]] or [[GitHub Pages|dendron.topic.publish.cook.github]]
+- Transfer
+    - [[Pods|dendron://dendron.dendron-site/dendron.topic.pod]]
+
+### Wilderness
+
+- Sharing
+    - [[Teams|dendron://dendron.dendron-site/dendron.topic.teams]]
+- Extending
+    - [[Hooks|dendron://dendron.dendron-site/dendron.topic.hooks]]

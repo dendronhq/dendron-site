@@ -2,7 +2,7 @@
 id: 25a3a1cc-d8bf-4bee-8d89-cd0c2b5dc25b
 title: '06'
 desc: ''
-updated: 1623006806684
+updated: 1639537567785
 created: 1623006800621
 ---
 
@@ -64,4 +64,4 @@ created: 1623006800621
 #### Minutes
 
 -   Does anyone know someone who’s worked on dependency managers? Ping us on Discord (kpats@ or kevins8@)
--   Newsletter - subscribe **[here](https://buttondown.email/dendron)**!
+-   Newsletter - subscribe **[here](https://link.dendron.so/newsletter)**!

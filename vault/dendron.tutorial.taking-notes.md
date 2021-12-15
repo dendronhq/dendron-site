@@ -2,7 +2,7 @@
 id: 4RFQMNA91cRW12VJl_PFd
 title: Taking Notes
 desc: Creating notes, understanding hierarchy, and using Lookup to quickly find your notes
-updated: 1639532372170
+updated: 1639547353436
 created: 1625563944736
 nav_order: 1
 ---
