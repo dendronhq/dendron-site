@@ -2,12 +2,12 @@
 id: gHdxXlNMr1w4xqee0n-Mb
 title: User Interface
 desc: 1. User Interface
-updated: 1639530909277
+updated: 1639532271917
 created: 1625563862198
 nav_order: 0
 ---
 
-Let's do a brief overview on how to navigate the Dendron User Interace (UI), which is called the **[[Workbench|dendron.topic.workbench]]**.
+Let's do a brief overview on how to navigate the Dendron User Interace (UI), which is called the **[[Workbench|dendron://dendron.dendron-site/dendron.topic.workbench]]**.
 
 > 💡 **TIP:** If you're unfamiliar with VSCode, the [command palette](https://code.visualstudio.com/docs/getstarted/userinterface#_command-palette) is used to quickly run commands, including Dendron commands. To bring up the command palette, use `Ctrl+Shift+P` / `Cmd+Shift+P` and start typing the command. If you see instructions telling you to run a command, remember to bring up the command palette and type the command name to run it.
 
@@ -27,7 +27,7 @@ Shows the rendered Markdown of your currently opened note. If you close this pan
 
 #### 3. File Explorer Pane
 
-This shows the files and folders in your vault. A **[[vault|dendron.topic.vaults]]** stores your notes and assets (ex. images, pdfs, etc.).
+This shows the files and folders in your vault. A **[[vault|dendron://dendron.dendron-site/dendron.topic.vaults]]** stores your notes and assets (ex. images, pdfs, etc.).
 
 ![[dendron.tutorial.user-interface#^tree-view-vs-file-explorer]]
 
@@ -57,4 +57,4 @@ This shows a list of other notes that have links to the current note opened in t
 
 ### Next Steps
 
-- Next is Tutorial Step 2: [[Taking Notes|dendron://dendron.dendron-site/dendron.tutorial.taking-notes]]
+- Next is Tutorial Step 2: [[Taking Notes|dendron.tutorial.taking-notes]]

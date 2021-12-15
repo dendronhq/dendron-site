@@ -2,7 +2,7 @@
 id: 8DCgctK-RMD4EeHjC5_hI
 title: Rich Formatting
 desc: ''
-updated: 1639529325335
+updated: 1639532762689
 created: 1625573403967
 nav_order: 3
 ---
@@ -87,7 +87,6 @@ echo "This is a bash example!"
 ps -ef | grep codium
 ```
 
-
 ### Note References
 
 You can link to a specific section of a different note and have the content in-lined into the current note.
@@ -119,4 +118,4 @@ Note references can get more fine-grained, targeting headers, sections, or block
 
 ### Next Steps
 
-- [[Conclude the Tutorial|dendron://dendron.dendron-site/dendron.tutorial.conclusion]]
+- [[Conclude the Tutorial|dendron.tutorial.conclusion]]

@@ -2,7 +2,7 @@
 id: 4RFQMNA91cRW12VJl_PFd
 title: Taking Notes
 desc: Creating notes, understanding hierarchy, and using Lookup to quickly find your notes
-updated: 1639529157032
+updated: 1639532372170
 created: 1625563944736
 nav_order: 1
 ---
@@ -34,7 +34,7 @@ You can try to add some content to the body of your `recipes` note now.
 
 ### Creating a hierarchy
 
-![[dendron.topic.hierarchies#summary,1:#concepts]]
+![[dendron://dendron.dendron-site/dendron.topic.hierarchies#summary,1:#concepts]]
 
 > 🌱 **ACTION:** To create a hierarchy, bring up lookup again (`Ctrl+L` / `Cmd+L`). Type `recipes.vegetarian` and then press enter.
 
@@ -71,7 +71,7 @@ recipes.ingredients.shopping-list
 
 You may wonder why Dendron uses hierarchies.
 
-![[Why hierarchies?|dendron.faq#why-hierarchies,1:#*]]
+![[Why hierarchies?|dendron://dendron.dendron-site/dendron.faq#why-hierarchies,1:#*]]
 
 ### Finding Notes
 
@@ -89,4 +89,4 @@ Further info on using lookup to find notes can be found in [[dendron://dendron.d
 
 ### Next Steps
 
-- Tutorial Step 3: [[Linking Notes|dendron://dendron.dendron-site/dendron.tutorial.linking-notes]]
+- Tutorial Step 3: [[Linking Notes|dendron.tutorial.linking-notes]]
