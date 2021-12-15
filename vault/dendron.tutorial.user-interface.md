@@ -2,16 +2,14 @@
 id: gHdxXlNMr1w4xqee0n-Mb
 title: User Interface
 desc: 1. User Interface
-updated: 1639427631131
+updated: 1639526043633
 created: 1625563862198
 nav_order: 0
 ---
 
-Let's do a brief overview on how to navigate the Dendron user interace (UI), which is called the **[[Workbench|dendron.topic.workbench]]**.
+Let's do a brief overview on how to navigate the Dendron User Interace (UI), which is called the **[[Workbench|dendron.topic.workbench]]**.
 
-_Quick note on running commands in VSCode:_
-
-> If you're unfamiliar with VSCode, the [command palette](https://code.visualstudio.com/docs/getstarted/userinterface#_command-palette) is used to quickly run commands, including Dendron commands. To bring up the command palette, use `Ctrl+Shift+P` / `Cmd+Shift+P` and start typing the command. If you see instructions telling you to run a command, remember to bring up the command palette and type the command name to run it.
+> 💡 **TIP:** If you're unfamiliar with VSCode, the [command palette](https://code.visualstudio.com/docs/getstarted/userinterface#_command-palette) is used to quickly run commands, including Dendron commands. To bring up the command palette, use `Ctrl+Shift+P` / `Cmd+Shift+P` and start typing the command. If you see instructions telling you to run a command, remember to bring up the command palette and type the command name to run it.
 
 ![[dendron://dendron.dendron-site/asset.preview#tutorial-dendron-layout,1:#*]]
 
@@ -25,7 +23,7 @@ Where you can write and edit your notes. **Notes** in Dendron are [[markdown|den
 
 Shows the rendered Markdown of your currently opened note. If you close this pane, you can bring it back with the `Dendron: Show Preview` command.
 
->💡 TIP: The preview pane is **read-only** and cannot be used to edit notes. All editing must be done in the editor view.
+>💡 TIP: The preview view is **read-only** and cannot be used to edit notes. All editing must be done in the editor view.
 
 #### 3. File Explorer Pane
 
@@ -42,8 +40,6 @@ Shows an outline of the currently opened note by listing the headers for navigat
 ![[dendron://dendron.dendron-site/dendron._ref.web-ui#^calendar-view-definition]]
 
 ![[dendron://dendron.dendron-site/dendron.topic.special-notes#daily-journal:#*]]
-
-Learn more:
 
 - [[Calendar View|dendron://dendron.dendron-site/dendron._ref.web-ui#calendar-view]]
 

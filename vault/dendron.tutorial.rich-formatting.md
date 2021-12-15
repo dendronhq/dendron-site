@@ -2,12 +2,12 @@
 id: 8DCgctK-RMD4EeHjC5_hI
 title: Rich Formatting
 desc: ''
-updated: 1639266302903
+updated: 1639529325335
 created: 1625573403967
 nav_order: 3
 ---
 
-Dendron supports an extended Markdown syntax, which provides a lot of options for rich formatting. Take a look at some examples in this note to see what's possible.  Have the preview pane opened (`Dendron: Show Preview`) to see how these will get rendered.
+Dendron supports an extended Markdown syntax, which provides a lot of options for rich formatting. Take a look at some examples in this note to see what's possible.  Have the preview view opened (`Dendron: Show Preview`) to see how these will get rendered.
 
 #### Markdown Formatting Options
 
@@ -19,7 +19,7 @@ Dendron supports an extended Markdown syntax, which provides a lot of options fo
 
 #### Images
 
-> 🌱 **ACTION:** Copy any image onto your clipboard, and then use the `Paste Image` command while focused in your editor pane. This will automatically create a link for you and copy the file contents into the assets directory in your workspace.
+> 🌱 **ACTION:** Copy any image onto your clipboard, and then use the `Paste Image` command while focused in your editor pane. This will automatically create a link for you and copy the file contents into the assets directory in your workspace. For this to work, make sure the **Dendron Paste Image** extension is installed.
 
 Sample Image Link: `![Dendron Logo](assets/images/logo_small.png)`
 
@@ -59,13 +59,63 @@ sequenceDiagram
     Bob-->>John: Jolly good!
 ```
 
+#### Code Blocks
+
+Markdown provides a way to render syntax highlighting and formatting of code.
+
+```python
+# Whoa, I'm doing math in Python
+result = 2 + 2
+print(result)
+```
+
+The above code is in python. Both the editor view and preview view should show some syntactical flavor to the code block. You can also have code blocks with or without designated language markers.
+
+```bash
+# Whoa, this is a code block explicitly
+## stating it is in bash!
+echo "This is a bash example!"
+ps -ef | grep codium
+```
+
+Notice how `bash` is used on the first line of the code block, and `python` on the previous code block. If missing a language marker, code blocks look like this:
+
+```
+# Whoa, this is still bash, but without
+## it explicitly stated on the first line!
+echo "This is a bash example!"
+ps -ef | grep codium
+```
+
+
 ### Note References
 
 You can link to a specific section of a different note and have the content in-lined into the current note.
 
-![[Join the community of Dendrologists|dendron://dendron.dendron-site/dendron.tutorial.conclusion#join-the-dendron-community]]
+> 🌱 **ACTION:** Create [[recipes.favorites]], if you haven't yet. We're going to add some content in here to reuse as a note reference!
 
-[[References Docs|dendron://dendron.dendron-site/dendron.topic.note-reference]]
+Add the following contents to [[recipes.favorites]]:
+
+```markdown
+My favorite recipes, by far. I must avoid.
+
+- [[recipes.italian.desserts.tiramisu]]
+- [[Chinese Wontons|recipes.chinese.appetizers.wontons]]
+```
+
+In [[recipes]], add the following contents:
+
+```markdown
+## Favorites
+
+![[recipes.favorites]]
+```
+
+Take a look in the preview view to see how this renders:
+
+![[recipes.favorites]]
+
+Note references can get more fine-grained, targeting headers, sections, or blocks of text. You can learn more from the docs in [[Note References|dendron://dendron.dendron-site/dendron.topic.note-reference]].
 
 ### Next Steps
 

@@ -2,7 +2,7 @@
 id: 3472226a-ff3c-432d-bf5d-10926f39f6c2
 title: Links
 desc: ''
-updated: 1639427824461
+updated: 1639520720842
 created: 1595003088839
 stub: false
 ---
@@ -14,6 +14,12 @@ Dendron supports multiple types of links and formats.
 - `[[labelled|wiki links]]`
 - `![image links](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/logo-256.png)`
 - links to `[local files](assets/think.pdf)` (eg. pdfs, psds, etc)
+
+## Concepts
+
+### Non Note Files
+
+Non-note files are any assets that are not Dendron markdown notes.
 
 ## Markdown links
 
@@ -36,6 +42,18 @@ Wiki links support **autocomplete**. To initiate:
 Wiki links also have support for highlighting in the editor. Existing notes will be highlighted in blue, and missing notes will be highlighted in yellow. The exact shade of color depends on your theme.
 
 ![](https://i.imgur.com/aBcgyZX.png)
+
+### Links to non-note files
+
+> This feature is experimental. Some things like hovering over them, autocomplete, or highlights may not work yet.
+
+You can link to files in your workspace that are not notes using wikilinks. If
+the file is in an `assets` folder inside a vault, you can write
+`[[/assets/file.txt]]`.
+
+Otherwise, you can write the full path to the file from where your `dendron.yml`
+file is located. For example, if the root of your workspace contains
+`dendron.yml` and a `src` folder, you can write `[[/src/index.js]]`.
 
 ## Children Links
 

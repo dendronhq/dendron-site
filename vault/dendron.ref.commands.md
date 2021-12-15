@@ -2,7 +2,7 @@
 id: eea2b078-1acc-4071-a14e-18299fc28f47
 title: Commands
 desc: ''
-updated: 1638900716679
+updated: 1639512322430
 created: 1595261816971
 nav_order: 3.1
 ---
@@ -670,8 +670,8 @@ You can pick among various actions for the doctor to perform.
   - However, `[[dendron://foo/missing-note]]` and / or `[[dendron://bar/missing-note]]` will be recognized as a missing note and will be listed as candidates.
 
 ##### findBrokenLinks
-- Similar to [[createMissingLinkedNotes|dendron://dendron.dendron-site/dendron.ref.commands#createmissinglinkednotes]], find all broken links (that has a vault prefix), but do not create notes.
-- This simply lists all broken links in the scope.
+
+![[findBrokenLinks|dendron://dendron.dendron-site/dendron.topic.navigation#findbrokenlinks,1:#*]]
 
 ### Dump State
 
@@ -702,11 +702,15 @@ Copy last 3000 lines of all logs and config to clipboard. Use when submitting an
 
 Dendron recognises a new markdown file created from vscode context menu and populate it with the frontmatter.
 
-#### Rename 
+#### Rename Note 
 
 Dendron recognises the vscode rename and updates all the backlinks to the old file with new name.
 
 ### Code Actions
+
+#### Rename Symbol
+
+![[Rename Symbol|dendron://dendron.dendron-site/dendron.topic.refactoring#rename-symbol,1:#*]]
 
 #### Rename Header
 

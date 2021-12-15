@@ -2,7 +2,7 @@
 id: 678c77d9-ef2c-4537-97b5-64556d6337f1
 title: Getting Started
 desc: ''
-updated: 1639425805599
+updated: 1639525896932
 created: 1608051264282
 nav_order: 1.1
 ---
@@ -25,7 +25,10 @@ When you install Dendron, click the `Get Started` button to begin. You'll start 
 >
 > ![[dendron://dendron.dendron-site/asset.preview#tutorial-launch-command,1:#*]]
 
-You may notice `Children` links listed in the preview pane, even though they aren't linked in the markdown of this file. These are [[backlinks|dendron://dendron.dendron-site/dendron.topic.links#backlinks]], which we'll cover later in the tutorial!
+You may see two additional sections in the preview view, **Children** and **Backlinks**, which will be covered later in the tutorial.
+
+- [[Backlinks (in Linking Notes)|dendron://dendron.dendron-site/dendron.tutorial.linking-notes#backlinks]]
+- [[Children (in Taking Notes)|dendron://dendron.dendron-site/dendron.tutorial.taking-notes#children]]
 
 ## Start the Tutorial
 

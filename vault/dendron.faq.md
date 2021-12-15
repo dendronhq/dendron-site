@@ -2,7 +2,7 @@
 id: 683740e3-70ce-4a47-a1f4-1f140e80b558
 title: FAQ
 desc: ''
-updated: 1639332841003
+updated: 1639526928689
 created: 1595952505025
 stub: false
 nav_order: 3.01
@@ -136,7 +136,7 @@ Yes. You can move notes manually outside of Dendron or between different vaults.
 
 ### Why hierarchies?
 
-Users of other note-taking tools often balk at Dendron's focus on hierarchies. The common counterpoint is that the real world is not constrained by hierarchy and that this approach isn’t flexible enough for what they want to do. These users argue for graphs and backlinks as a better primary model for managing knowledge.
+Users of other note-taking tools often balk at Dendron's focus on hierarchies. The common counterpoint is that the real world is not constrained by hierarchy and that this approach isn’t flexible enough for what they want to do. These users argue for [[graphs|dendron://dendron.dendron-site/dendron.topic.graph-view]] and [[backlinks|dendron://dendron.dendron-site/dendron.topic.links#backlinks]] as a better primary model for managing knowledge.
 
 A graph is indeed more flexible. If we were building a digital brain for computers to perfectly model the world, we would probably go with this approach. But we’re not building a tool for computers to capture every facet of the world, we’re building a tool to help humans make sense of it. The challenge we face as humans is information overload. There is too much of it and we need ways of constraining that complexity. Filtering large amounts of information into exponentially smaller subsets is what hierarchies are built for (and why there are used as the core primitive in every database ever created). 
 
@@ -144,7 +144,7 @@ With a hierarchy, you have one source of truth where a note can be filed and a f
 
 The traditional failings of past hierarchies are that they were too rigid. Most people’s experience with hierarchies are folder hierarchies that ossify from the moment that they are created. These hierarchies are hard to change and so people don’t change them, even as their underlying understanding of the domain has changed. It is because of this friction that most new tools focus on note creation without any predefined structure. This approach makes creating notes easy but finding notes hard.
 
-Dendron has flexible hierarchies. They provide a structure for your notes but these structures can be easily changed. In programming, developers can refactor code and change its structure — the IDE will make sure that all references pointing to the original code are updated. In Dendron, you can refactor notes and hierarchies and Dendron will make sure that your PKM is consistent throughout. This means that you have the best of both worlds: a basic structure for the organization but the flexibility to change it.
+Dendron has flexible hierarchies. They provide a structure for your notes but these structures can be easily changed. In programming, developers can refactor code and change its structure — the IDE will make sure that all references pointing to the original code are updated. In Dendron, [[you can refactor notes and hierarchies|dendron://dendron.dendron-site/dendron.topic.refactoring]] and Dendron will make sure that your PKM is consistent throughout. This means that you have the best of both worlds: a basic structure for the organization but the flexibility to change it.
 
 ### How should I name a note?
 

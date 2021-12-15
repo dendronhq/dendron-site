@@ -1,8 +1,8 @@
 ---
 id: 6iPfPKI8nOwQLVF6KgfJU
-title: '24'
+title: 2021-11-24 Office Hours
 desc: ''
-updated: 1637861602950
+updated: 1639505125426
 created: 1637714132832
 published: true
 commentsUpdated: true
@@ -56,18 +56,3 @@ Future improvements:
     - API
     - Language Server Protocol (future project)
 	      -    Unix Philosophy vs Dendron Philosophy
-
-                 -     
-
-- Notes
-  - GitHub PR drafts
-    - [Creating a pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request)
-    - [Change the state (of a PR)](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/changing-the-stage-of-a-pull-request)
-  - Dendron recommended workflow is Amoeba workflow
-- Blog posts
-- Meta
-  - Put in otter (you should have invite in RPass)
-  - For highlights, lets prep some scenarios ahead of time 
-  - Onboarding doc: [https://github.com/dendronhq/seed.dendron.onboarding](https://github.com/dendronhq/seed.dendron.onboarding)
-
-

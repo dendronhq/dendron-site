@@ -2,7 +2,7 @@
 id: 3bff1195-1d13-4e7a-bc2f-7e4cc617109c
 title: Layout
 desc: ''
-updated: 1622841508189
+updated: 1639524707145
 created: 1596740451789
 stub: false
 ---
@@ -51,7 +51,7 @@ stub: false
 
 ### workspace root
 
-This is the folder where `dendron.code-workspace` is located
+![[Workspace Root|dendron.topic.workspace#workspace-root,1:#*]]
 
 ## Additional Folders
 
