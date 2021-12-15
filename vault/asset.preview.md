@@ -2,7 +2,7 @@
 id: ChcCM1Q2qrDTy7YnLUHiL
 title: Preview
 desc: ''
-updated: 1639531989709
+updated: 1639601494136
 created: 1639113925844
 ---
 
@@ -91,3 +91,7 @@ created: 1639113925844
 ### Create Daily Journal from Calendar
 
 ![Create Daily Journal from Calendar](https://org-dendron-public-assets.s3.amazonaws.com/images/create-daily-journal-calendar.gif)
+
+## Lookup
+
+![Using Lookup to Navigate the Tutorial](https://org-dendron-public-assets.s3.amazonaws.com/images/tutorial-lookup.gif)

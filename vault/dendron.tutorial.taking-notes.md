@@ -2,7 +2,7 @@
 id: 4RFQMNA91cRW12VJl_PFd
 title: Taking Notes
 desc: Creating notes, understanding hierarchy, and using Lookup to quickly find your notes
-updated: 1639547353436
+updated: 1639602105376
 created: 1625563944736
 nav_order: 1
 ---
@@ -10,6 +10,8 @@ nav_order: 1
 ### Create a Note
 
 To create a note, run `Dendron: Lookup` (`Ctrl+L` / `Cmd+L`) to bring up the [[Lookup Bar|dendron://dendron.dendron-site/dendron.topic.lookup]].
+
+![[dendron://dendron.dendron-site/asset.preview#lookup,1:#*]]
 
 > 💡 **TIP:** The lookup command is the main way to interact with Dendron. It's used for looking up and creating notes. When you do a lookup on a note that hasn't been created, Dendron will create it for you.
 
@@ -23,7 +25,7 @@ This creates a note named `recipes.md`. Notes in Dendron are just plaintext [[ma
 
 You can try to add some content to the body of your `recipes` note now.
 
-#### Frontmatter
+### Frontmatter
 
 ![[Summary|dendron://dendron.dendron-site/dendron.topic.frontmatter#summary,1:#*]]
 
@@ -38,7 +40,7 @@ You can try to add some content to the body of your `recipes` note now.
 
 > 🌱 **ACTION:** To create a hierarchy, bring up lookup again (`Ctrl+L` / `Cmd+L`). Type `recipes.vegetarian` and then press enter.
 
-You've created your first hierarchy! **[[Hierarchies|dendron://dendron.dendron-site/dendron.topic.hierarchies]]** in Dendron are created by having a `.` (a "period" or "dot") delimiter in the file name. For more information on how this works: [[What's with the .'s?|dendron://dendron.dendron-site/dendron.topic.hierarchies#whats-with-the-s]]
+You've created your first hierarchy! **[[Hierarchies|dendron://dendron.dendron-site/dendron.topic.hierarchies]]** in Dendron are created by having a `.` (a "period" or "dot") delimiter in the file name. For more information on how this works, see [[What's with the .'s?|dendron://dendron.dendron-site/dendron.topic.hierarchies#whats-with-the-s]]
 
 Take a look at the Tree View to see the `vegetarian` note under the `recipes` hierarchy. You can also see the the note stored as `recipes.vegetarian.md` in the File Explorer Pane.
 
@@ -69,9 +71,7 @@ recipes.ingredients.favorites
 recipes.ingredients.shopping-list
 ```
 
-You may wonder why Dendron uses hierarchies.
-
-![[Why hierarchies?|dendron://dendron.dendron-site/dendron.faq#why-hierarchies,1:#*]]
+You may be wondering why Dendron uses hierarchies. You can [[read here|dendron://dendron.dendron-site/dendron.faq#why-hierarchies]] for our thoughts about structure.
 
 ### Finding Notes
 
