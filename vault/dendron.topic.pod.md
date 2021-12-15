@@ -2,7 +2,7 @@
 id: 66727a39-d0a7-449b-a10d-f6c438185d7f
 title: Pods
 desc: ''
-updated: 1638852173807
+updated: 1639599759485
 created: 1602958663144
 ---
 <img src="https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/pods.png" height="300px"/>
@@ -43,13 +43,7 @@ For example, you might want to use our [[markdown pod|dendron.topic.pod.builtin.
 
 Future uses of the **publish** method will be taking a note and publishing it to social media (eg. twitter, facebook, linkedin), publishing it to Gmail, and publishing to destinations like Medium and dev.to.
 
-## Types of Pods
-
-There are two types of pods:
-
-- builtin: created by dendron 
-- remote: created by third parties
+## Builtin Pods
 
 ![[dendron.topic.pod.builtin#summary,1:]]
-![[dendron.topic.pod.custom#summary,1:]]
 
