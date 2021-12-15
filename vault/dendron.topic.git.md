@@ -2,13 +2,20 @@
 id: vsAxYld4zsbD2XjKoh7OP
 title: Git
 desc: ''
-updated: 1624965063661
+updated: 1639609234517
 created: 1624965063661
 ---
 
+## Summary
+
 Git is the preferred version control system because it integrates with VSCode and GitHub. 
 
-The most likely case is you have a local repository that you need to now add to Git. Follow these steps to add your local vault to Git and push up to Github: 
+The most likely case is you have a local repository that you need to now add to Git. Follow these steps to add your local vault to Git and push up to Github. 
+
+- [Join GitHub](https://github.com/join)
+- Further reading, to better understand these tools: [Learn Git and GitHub](https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/GitHub)
+
+## Using git with Dendron
 
 1. VSCode ships with an extension that manages [Git source control support](https://code.visualstudio.com/docs/editor/versioncontrol). 
 > Note: VSCode uses your computer's Git installation, so you need to [install Git](https://git-scm.com/download) first before you get these features. Make sure you install at least version 2.0.0.

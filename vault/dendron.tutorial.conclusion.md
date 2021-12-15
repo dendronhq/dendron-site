@@ -2,7 +2,7 @@
 id: TflY5kn29HOLpp1pWT9tP
 title: Conclusion
 desc: ''
-updated: 1639602938604
+updated: 1639610882541
 created: 1625564254964
 nav_order: 4
 ---
@@ -17,54 +17,55 @@ From here, you can start adding your notes to your current workspace, or if you'
 
 Check out our [[Case Studies|dendron://dendron.dendron-site/dendron.case-studies]] and [[Workflows|dendron://dendron.dendron-site/dendron.guides.workflows]] to see more ways Dendron is being used to organize knowledge.
 
-## Explore the full potential of Dendron
-
-There is much more that Dendron offers. When you're ready, learn more about additional features that Dendron offers!
-
-### Publishing
+## Publishing
 
 Dendron isn't just for taking notes. It can be used to share your thoughts and documentation with others. One of those ways is with **publishing**. The [Dendron Documentation](https://wiki.dendron.so) and [Dendron Blog](https://blog.dendron.so) are both published this way.
 
-If you want to learn more about [[publishing your notes online|dendron://dendron.dendron-site/dendron.topic.publish.quickstart]], you can take a look at how to publish with [[Netlify|dendron.topic.publish.cook.netlify]] or [[GitHub Pages|dendron.topic.publish.cook.github]].
+If you want to learn more about [[publishing your notes online|dendron://dendron.dendron-site/dendron.topic.publish.quickstart]], you can take a look at how to publish with example guides for [[Netlify|dendron.topic.publish.cook.netlify]] or [[GitHub Pages|dendron.topic.publish.cook.github]].
 
 ![[dendron://dendron.dendron-site/asset.preview#publishing-nextjs-site-preview,1:#*]]
+
+## Explore the full potential of Dendron
+
+There is much more that Dendron offers. When you're ready, learn more about additional features with this _Choose Your Own Adventure_ list of learnings. Each section represents and area of a map that goes deeper into the world of Dendron.
 
 ### Trail
 
 - Basics
-    - [x] Finish the basics tutorial
+    - [x] Learn the basics of Dendron with the [[Getting Started tutorial|dendron.tutorial]].
 - Navigation
-    - [[Find All References|dendron://dendron.dendron-site/dendron.topic.navigation#find-all-references]]
-    - [[Go to Commands|dendron://dendron.dendron-site/dendron.topic.navigation#go-to]]
+    - Learn how to [[find all note references to a header|dendron://dendron.dendron-site/dendron.topic.navigation#find-all-references]].
+    - Learn how to [[find all broken, internal reference links|dendron://dendron.dendron-site/dendron.topic.navigation#findbrokenlinks]].
+    - Learn how to navigate quickly to related notes using [[Go to Commands|dendron://dendron.dendron-site/dendron.topic.navigation#go-to]].
 - Organizing
-    - [[Tags|dendron://dendron.dendron-site/dendron.topic.tags]] 
-    - [[Users|dendron://dendron.dendron-site/dendron.topic.users]]
-    - [[Tasks|dendron://dendron.dendron-site/dendron.topic.tasks]]
-    - [[Scratch Notes|dendron://dendron.dendron-site/dendron.topic.special-notes#scratch-note]]
-    - [[Daily Journal Notes|dendron://dendron.dendron-site/dendron.topic.special-notes#daily-journal]] and other generic [[Journal Notes|dendron://dendron.dendron-site/dendron.topic.special-notes#journal-note]]
-    - [[Hierarchies|dendron://dendron.dendron-site/dendron.topic.hierarchies]]
-    - [[Schemas|dendron://dendron.dendron-site/dendron.topic.schema]]
+    - Learn to expand your organization beyond hierarchies by [[using tags|dendron://dendron.dendron-site/dendron.topic.tags]].
+    - Learn how to [[tag other Users|dendron://dendron.dendron-site/dendron.topic.users]] in your notes.
+    - Learn how to [[manage and track tasks with special Task Notes|dendron://dendron.dendron-site/dendron.topic.tasks]].
+    - Learn how to quickly take notes that may note have a home quite yet, like a scratchpad, using [[Scratch Notes|dendron://dendron.dendron-site/dendron.topic.special-notes#scratch-note]].
+    - Learn how to log your activities with [[Daily Journal Notes|dendron://dendron.dendron-site/dendron.topic.special-notes#daily-journal]] and other generic [[Journal Notes|dendron://dendron.dendron-site/dendron.topic.special-notes#journal-note]].
+    - Learn the _how_ and the _why_ behind [[Hierarchies in Dendron|dendron://dendron.dendron-site/dendron.topic.hierarchies]].
+    - Learn how to automatically make use of [[Templates|dendron.topic.templates]] in new notes, in specific hierarchies, with [[Schemas|dendron://dendron.dendron-site/dendron.topic.schema]].
 - Sharing
-    - [[Git|dendron://dendron.dendron-site/dendron.topic.git]]
+    - Learn how to backup your vaults online, privately or accessible to the public, with [[git and GitHub|dendron://dendron.dendron-site/dendron.topic.git]].
 
 ### Forest
 
 - Retrieval
-    - [[Lookup Modifiers|dendron://dendron.dendron-site/dendron.topic.lookup.modifiers]]
+    - Learn how to customize the power and functionality of your lookups with [[Lookup Modifiers|dendron://dendron.dendron-site/dendron.topic.lookup.modifiers]].
 - Editing
-    - [[Frontmatter|dendron://dendron.dendron-site/dendron.topic.frontmatter]]
+    - Learn how to understand and extend the metadata of your notes with [[Frontmatter Attributes|dendron://dendron.dendron-site/dendron.topic.frontmatter]].
 - Organizing
-    - [[Vaults|dendron://dendron.dendron-site/dendron.topic.vaults]]
-    - [[Workspace|dendron://dendron.dendron-site/dendron.topic.workspace]]
-    - [[Multi Vault|dendron://dendron.dendron-site/dendron.topic.multi-vault]]
+    - Learn how to [[manage and understand different kinds of Vaults|dendron://dendron.dendron-site/dendron.topic.vaults]].
+    - Learn how to [[manage and understand different kinds of Workspaces|dendron://dendron.dendron-site/dendron.topic.workspace]].
+    - Learn how to work with [[Multiple Vaults in the same workspace|dendron://dendron.dendron-site/dendron.topic.multi-vault]]. This allows you to access private personal notes from a vault, while working with notes from other vaults (like team notes, or software documentation in a project repository).
 - Sharing
-    - [[Publish your notes online|dendron://dendron.dendron-site/dendron.topic.publish.quickstart]] with [[Netlify|dendron.topic.publish.cook.netlify]] or [[GitHub Pages|dendron.topic.publish.cook.github]]
+    - Learn how to [[publish your notes online|dendron://dendron.dendron-site/dendron.topic.publish.quickstart]], and follow guides for hosting with [[Netlify|dendron.topic.publish.cook.netlify]] or [[GitHub Pages|dendron.topic.publish.cook.github]].
 - Transfer
-    - [[Pods|dendron://dendron.dendron-site/dendron.topic.pod]]
+    - Learn how to use Dendron interoperably with other formats, by [[exporting/importing your notes with Pods|dendron://dendron.dendron-site/dendron.topic.pod]].
 
 ### Wilderness
 
 - Sharing
-    - [[Teams|dendron://dendron.dendron-site/dendron.topic.teams]]
+    - Learn the [[best practices and guidance on using Dendron collaboratively with Teams|dendron://dendron.dendron-site/dendron.topic.teams]].
 - Extending
-    - [[Hooks|dendron://dendron.dendron-site/dendron.topic.hooks]]
+    - Learn how to [[access the API and the extend the power of Dendron's capabilities, with Hooks|dendron://dendron.dendron-site/dendron.topic.hooks]].
