@@ -2,7 +2,7 @@
 id: TflY5kn29HOLpp1pWT9tP
 title: Conclusion
 desc: ''
-updated: 1639547218539
+updated: 1639602938604
 created: 1625564254964
 nav_order: 4
 ---
@@ -20,6 +20,14 @@ Check out our [[Case Studies|dendron://dendron.dendron-site/dendron.case-studies
 ## Explore the full potential of Dendron
 
 There is much more that Dendron offers. When you're ready, learn more about additional features that Dendron offers!
+
+### Publishing
+
+Dendron isn't just for taking notes. It can be used to share your thoughts and documentation with others. One of those ways is with **publishing**. The [Dendron Documentation](https://wiki.dendron.so) and [Dendron Blog](https://blog.dendron.so) are both published this way.
+
+If you want to learn more about [[publishing your notes online|dendron://dendron.dendron-site/dendron.topic.publish.quickstart]], you can take a look at how to publish with [[Netlify|dendron.topic.publish.cook.netlify]] or [[GitHub Pages|dendron.topic.publish.cook.github]].
+
+![[dendron://dendron.dendron-site/asset.preview#publishing-nextjs-site-preview,1:#*]]
 
 ### Trail
 

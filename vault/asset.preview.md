@@ -2,7 +2,7 @@
 id: ChcCM1Q2qrDTy7YnLUHiL
 title: Preview
 desc: ''
-updated: 1639601494136
+updated: 1639602777730
 created: 1639113925844
 ---
 
@@ -95,3 +95,9 @@ created: 1639113925844
 ## Lookup
 
 ![Using Lookup to Navigate the Tutorial](https://org-dendron-public-assets.s3.amazonaws.com/images/tutorial-lookup.gif)
+
+## Publishing
+
+### Publishing Nextjs Site Preview
+
+![A Preview of NextJS Publishing](https://org-dendron-public-assets.s3.amazonaws.com/images/dendron-nextjs-published.gif)
