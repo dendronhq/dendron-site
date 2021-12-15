@@ -65,7 +65,7 @@ workspace:
     graph:
         zoomSpeed: 1
     enableAutoCreateOnDefinition: false
-    enableXVaultWikiLink: false
+    enableXVaultWikiLink: true
     enableRemoteVaultInit: true
     workspaceVaultSyncMode: noCommit
     enableAutoFoldFrontmatter: false
