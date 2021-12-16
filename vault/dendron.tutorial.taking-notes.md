@@ -4,7 +4,7 @@ title: Taking Notes
 desc: >-
   Creating notes, understanding hierarchy, and using Lookup to quickly find your
   notes
-updated: 1639621320330
+updated: 1639625078683
 created: 1625563944736
 nav_order: 1
 ---

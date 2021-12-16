@@ -2,7 +2,7 @@
 id: 8DCgctK-RMD4EeHjC5_hI
 title: Rich Formatting
 desc: ''
-updated: 1639621657331
+updated: 1639622361236
 created: 1625573403967
 nav_order: 3
 ---
@@ -126,7 +126,7 @@ After completing the above, remove the surrounding backticks from the following 
 
 `![[recipes.favorites]]`
 
-Note references can get more fine-grained, targeting headers, sections, or blocks of text. You can learn more from the docs in [[Note References|dendron://dendron.dendron-site/dendron.topic.note-reference]].
+> 💡 **TIP:** Note references can get more fine-grained, targeting headers, sections, or blocks of text. You can learn more from the docs in [[Note References|dendron://dendron.dendron-site/dendron.topic.note-reference]].
 
 ## Next Steps
 
