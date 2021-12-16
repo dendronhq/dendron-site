@@ -2,7 +2,7 @@
 id: 2340KhiZJWUy31Nrn37Fd
 title: Common
 desc: ''
-updated: 1639543803214
+updated: 1639680358256
 created: 1631132278348
 ---
 
@@ -62,3 +62,5 @@ cd .next && git reset --hard && git clean -f && git pull && npm install
 ```sh
 rm -rf .next && npx dendron publish init
 ```
+
+##

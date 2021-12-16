@@ -2,7 +2,7 @@
 id: f3a41725-c5e5-4851-a6ed-5f541054d409
 title: Hierarchies
 desc: ''
-updated: 1639526648556
+updated: 1639680133398
 created: 1595611213607
 ---
 
@@ -52,6 +52,10 @@ Every vault has a root. This is the `root.md`.
 ### Domain
 
 The domain is the root of a specific hierarchy. In our example vault, we have one domain - `dendron`.
+
+## Why Hierarchies?
+
+![[Why hierarchies?|dendron.faq#why-hierarchies,1:#*]]
 
 ## What's with the `.`'s?
 
@@ -103,6 +107,4 @@ The domain is the root of a specific hierarchy. In our example vault, we have on
    └── a-parent.child-a.grandchild-a.great-grandchild-a.md
    ```
 
-## Why Hierarchies?
-
-![[Why hierarchies?|dendron.faq#why-hierarchies,1:#*]]
+##
