@@ -2,7 +2,7 @@
 id: 6682fca0-65ed-402c-8634-94cd51463cc4
 title: Vaults
 desc: ''
-updated: 1634630492005
+updated: 1639543094987
 created: 1622841137387
 ---
 
@@ -27,6 +27,7 @@ By default, when you look for notes in Dendron, it will search over all vaults.
 ## Commands
 
 ### Vault Add
+
 - shortcuts: none
 
 Add a new vault to your workspace.

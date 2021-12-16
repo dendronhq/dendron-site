@@ -2,7 +2,7 @@
 id: 6e4c4f61-80a3-46fa-9ad3-04b99d9e9695
 title: Dendron Public Roadmap
 desc: ''
-updated: 1622308514937
+updated: 1639201086306
 created: 1600840127160
 stub: false
 nav_order: 2.1
@@ -49,7 +49,7 @@ We'll be sure to add more issues here, but go over to the [Github project](https
 
 ## Feedback
 
-If you have questions or comments, share them either as [Github issues](https://github.com/dendronhq/dendron/issues/new/choose) or in the `#feedback` channel [in Discord](https://discord.gg/xrKTUStHNZ).
+If you have questions or comments, share them either as [Github issues](https://github.com/dendronhq/dendron/issues/new/choose) or in the `#feedback` channel [in Discord](https://link.dendron.so/discord).
 
 In addition to the content of the roadmap being updated regularly, we will also iterate on the format of the roadmap itself. We see the potential of reactions, issue comments, and even GitHub Discussions being useful for receiving direct signals back from the community about what we’ve planned. If you have feedback about the roadmap repository itself, such as how the issues are presented, let us know on Discord as well.
 

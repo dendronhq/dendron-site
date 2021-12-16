@@ -2,7 +2,7 @@
 id: 00e6f3d8-4243-42c7-8e4f-a074a1bd0ffb
 title: '0.44'
 desc: ''
-updated: 1622494847233
+updated: 1639537529961
 created: 1622484155123
 ---
 Dendron 0.44 has sprouted  🌱
@@ -44,7 +44,7 @@ You can find notes from our latest office hours [[here|community.office-hours.20
 #### Newsletter
 
 A bunch of you have asked for a way of staying up to date with changes by email. To that end, we are launching an email newsletter.  
-You can subscribe [here](https://buttondown.email/dendron). The Dendron Newsletter will feature a recap of major features announced the past month. 
+You can subscribe [here](https://link.dendron.so/newsletter). The Dendron Newsletter will feature a recap of major features announced the past month. 
 The publication frequency should be ~1 per month though we might also offer a weekly subscription in the future if there's demand for that. The first issue will be sent out later this week!
 
 #### Thank You's

@@ -2,10 +2,11 @@
 id: f2ed8639-a604-4a9d-b76c-41e205fb8713
 title: Configuration
 desc: ''
-updated: 1636153271258
+updated: 1639542456600
 created: 1608528797892
 nav_order: 3
 ---
+
 ## Summary
 
 Dendron lets you control publication behavior at multiple levels:
@@ -29,16 +30,18 @@ Below is the config that is used to publish `dendron.so` from the contents of th
 
 ```yml
 site:
-  siteHierarchies: [dendron]
+  siteHierarchies:
+      - dendron
   siteRootDir: docs
 ```
 
-### assetsPrefix 
+### assetsPrefix
+ 
 - default: none
 
 Prefix for assets. 
 
-- NOTE: By default, assets are served from the root. If you are publishing to github pages and followed the instructions [here](https://pages.github.com/) by creating a repo named `{username}.github.io`, then no further action is needed. This is because github will make your site available at `https://{username}.github.io`. If you created a custom repo, you will need to set the prefix to the name of your repo because github will make your site available at `https://{username}.github.io/{your-repo-name/}`
+By default, assets are served from the root. If you are publishing to github pages and followed the instructions [here](https://pages.github.com/) by creating a repo named `{username}.github.io`, then no further action is needed. This is because github will make your site available at `https://{username}.github.io`. If you created a custom repo, you will need to set the prefix to the name of your repo because github will make your site available at `https://{username}.github.io/{your-repo-name/}`
 
 ### copyAssets
 

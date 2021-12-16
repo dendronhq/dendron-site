@@ -2,7 +2,7 @@
 id: fYU3mSfr096DYui0O2cRp
 title: "0.55"
 desc: ''
-updated: 1629751433966
+updated: 1639201293579
 created: 1629234795602
 ---
 
@@ -34,7 +34,7 @@ Details and rationale behind this change is [here](https://wiki.dendron.so/notes
 
 We've created a github discussion thread for comments about the new web client [here](https://github.com/dendronhq/dendron/discussions/1145)
 
-If you'd like to help us work on this, you can find an (incomplete) list of mvp milestone items [here](https://wiki.dendron.so/notes/eQ5w4eqHrf4m1peq.html#mvp-milestones). Ping me on [discord](https://discord.gg/AE3NRw9) `@kevins8#0590 ` if you do and I'll make sure to create a corresponding github issue as well as provide more context.
+If you'd like to help us work on this, you can find an (incomplete) list of mvp milestone items [here](https://wiki.dendron.so/notes/eQ5w4eqHrf4m1peq.html#mvp-milestones). Ping me on [discord](https://link.dendron.so/discord) `@kevins8#0590 ` if you do and I'll make sure to create a corresponding github issue as well as provide more context.
 
 ### Community
 

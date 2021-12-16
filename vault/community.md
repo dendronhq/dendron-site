@@ -2,7 +2,7 @@
 id: 6f4cd441-f883-4e75-871b-b7f93895c91b
 title: Community
 desc: ''
-updated: 1633455269654
+updated: 1639265248128
 created: 1604236612582
 nav_order: 1
 ---
@@ -11,14 +11,16 @@ Dendron wouldn't be what it is today without our wonderful set of members and su
 
 ### Community Calendar
 
-We have a bunch of community events that we host throughout the week. You can stay up to date on whats happening by subscribing to our community calendar!
+We have a bunch of community events that we host throughout the week. You can stay up to date on whats happening by taking a look at our community calendar!
 
-- [Google Calendar Link](https://calendar.google.com/calendar/embed?src=0s84hkmgkb4p699ahgicq0j16o%40group.calendar.google.com&ctz=America%2FLos_Angeles)
+* View and register for upcoming [Dendron Community Events on Luma](https://link.dendron.so/luma)
 
 ### Join other Dendrologists
 
-Outside of events, you can connect with Dendron devs, contributors, and other members of the Dendron community in a few ways:
+There are a variety of ways to connect with Dendron devs, contributors, and other members of the Dendron community:
 
-- Join the [Dendron Discord](https://discord.com/invite/xrKTUStHNZ)
-- Contribute to [Dendron open source code and docs on GitHub](https://github.com/dendronhq/)
-- Follow [Dendron on Twitter (@dendronhq)](https://twitter.com/dendronhq)
+* Join [Dendron on Discord](https://link.dendron.so/discord)
+* Follow [Dendron on Twitter (`@dendronhq`)](https://link.dendron.so/twitter)
+* Checkout [Dendron on GitHub](https://link.dendron.so/github)
+* Read the [Dendron Blog](https://blog.dendron.so/)
+* Subscribe to the [Dendron Newsletter](https://link.dendron.so/newsletter)

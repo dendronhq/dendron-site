@@ -2,7 +2,7 @@
 id: 84a0366a-eab5-4862-9bef-360f92a196dc
 title: Finding Notes
 desc: ''
-updated: 1636955563015
+updated: 1639195903619
 created: 1608494616703
 ---
 
@@ -93,3 +93,7 @@ We use FuseJS for our note lookup and support the [extended search syntax](https
  * `^java awesome !verbose nice$` means query for items that start with `java`, do include `awesome` anywhere in the file name, do NOT include `verbose`, and end with `nice`.
 
  Note: `.` have special behavior in Dendron (Example [[#hierarchy-ordered-querying]]) Hence when using complex extended syntax searches in general its advised to avoid dots `.` if possible.  
+
+## VSCode Search
+
+![[dendron://dendron.dendron-site/dendron.topic.search]]
