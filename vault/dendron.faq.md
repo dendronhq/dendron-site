@@ -2,7 +2,7 @@
 id: 683740e3-70ce-4a47-a1f4-1f140e80b558
 title: FAQ
 desc: ''
-updated: 1639526928689
+updated: 1639681839883
 created: 1595952505025
 stub: false
 nav_order: 3.01
@@ -264,18 +264,36 @@ We also want to support some subset of the queries as note references so that th
 
 For now, we recommend you use the [[search editor|dendron.guides.tips#search-editor]] capability for liimited querying capabilities.
 
+## Other Features
+
+### Does Dendron support a data view similar to Obsidian and Notion?
+
+We support having a data view but not in the same way. For data views, we have an [[Airtable Pod|dendron://dendron.dendron-site/dendron.topic.pod.builtin.airtable]] which lets you map frontmatter from your notes and export it to airtable. This way, you can use the full power of airtable for a fully featured data view (This is how we manage tasks in Dendron)
+
+### Can Dendron auto format markdown tables?
+
+We don't natively support this but we recommend you do this today using the [Text Tables Extension](https://marketplace.visualstudio.com/items?itemName=RomanPeshkov.vscode-text-tables)
+
+### Does Dendron support web clipping?
+
+We recommend using one of the following tools to clip articles:
+
+- [Markdown Web](https://chrome.google.com/webstore/detail/markdownload-markdown-web/pcmpcfapbekmbjjkdalcgopdkipoggdi?hl=en-GB)
+- [Roam Highlighter](https://chrome.google.com/webstore/detail/mcoimieglmhdjdoplhpcmifgplkbfibp)
+
+### Does Dendron support flashcards?
+
+We recommend using one of the following extensions to do flashcards:
+- [Recall - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=frenya.vscode-recall)
+- [Anki for VSCode - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=jasew.anki)
+
+### Does Dendron support video?
+
+We currently don't support video playback from within iframes inside of VSCode. This works when publishing but not inside the VSCode preview. 
+This is a limitation in the VSCode webview, see more details [here](https://github.com/microsoft/vscode/issues/54097).
+
+Currently, the recommendation is to link to your video (using a regular markdown link if its online or a wikilink if its local). See [[links to non-note files|dendron://dendron.dendron-site/dendron.topic.links#links-to-non-note-files]].
 ## Other
-
-
-### Can I autocomplete an hierarchy?
-
-See this [issue](https://github.com/dendronhq/dendron/issues/490).
-
-TLDR: vscode doesn't expose tab completion via API. There are two alternatives we're currently considering:
-
--   overload the `enter` command, one press to autocomplete, two presses to select
--   replace the lookup component with a webview
-
 
 ### How to launch dendron with most recent vault quickly?
 
