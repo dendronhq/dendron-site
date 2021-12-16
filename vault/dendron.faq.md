@@ -34,29 +34,6 @@ Our main differentiator is our focus on structure - we provide [[gradual structu
 
 This means you can start with [[daily journals|dendron://dendron.dendron-site/dendron.topic.special-notes#daily-journal]], capture thoughts in [[zettel's|dendron://dendron.dendron-site/dendron.topic.special-notes#scratch-note]] and create consistent hierarchies over time which you can enforce using [[schemas|dendron://dendron.dendron-site/dendron.topic.schema]] and change through [[refactoring|dendron://dendron.dendron-site/dendron.topic.refactoring]].
 
-### How is Dendron different from Roam?
-
-Whereas Roam is built around the idea of **bi-directional links** (and daily journals) which help you create notes without having to explicitly organize your notes, Dendron is built to help you organize notes without friction using **flexible hierarchies**.
-
-We provide the tooling to create, enforce, and change these hierarchies at will. If you think of Roam as a graph database for notes, you can think of Dendron as Redis. To give you a sense of scale, Dendron is used to manage knowledge bases of +30K notes.
-
-Some additional features that set Dendron apart:
-
--   Dendron allows you to compose your workspace with vaults (a vault is a collection of notes that can come from anywhere) from any number of sources
--   Dendron is based on plain text (Dendron-flavored) markdown (exportable to regular markdown or any other format)
--   Dendron is integrated into VSCode
--   Dendron allows for easy publishing public/private content to any platform that can host a static site (and we're rolling out our own publishing platform to help people publish with additional access controls)
-
-### How does Dendron help me track my notes?
-
-1. Dendron organizes and collapse all your notes into managable chunks using [[hierarchies|dendron.topic.hierarchies]].
-2. Dendron helps you manage your hiearchies using [[schemas|dendron.topic.schema]]
-3. Dendron gets out of your way when you're working with your notes during [[lookup|dendron.topic.lookup]]
-
-Dendron's secret sauce is that it provides the necessary tooling for you to work with hierarichal notes. While hierarchies have traditionally (and justifiably) gotten a bad reputation, I would argue that this is because the **tooling** around hierarchies were bad, not because hierarchies themselves are bad.
-
-Hierarchies are one of the most effective ways that **both humans and computers** process large amount of information (there's a reason why almost every database is built from a variation of the [b-tree](https://en.wikipedia.org/wiki/B-tree)). You can find further details about hierarchies in this [blog post](https://www.kevinslin.com/notes/e1455752-b052-4212-ac6e-cc054659f2bb.html)
-
 ### Is Dendron free? Will it stay free?
 
 Dendron, the client, is free and will always remain free. It is also open source so anyone is free to make their own fork of Dendron.
