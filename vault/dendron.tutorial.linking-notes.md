@@ -2,7 +2,7 @@
 id: 9MZBqhrijEM4QpZRa5t08
 title: Linking Notes
 desc: Linking Notes
-updated: 1639628766280
+updated: 1639628799588
 created: 1625563999532
 nav_order: 2
 ---

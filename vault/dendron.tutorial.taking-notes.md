@@ -4,7 +4,7 @@ title: Taking Notes
 desc: >-
   Creating notes, understanding hierarchy, and using Lookup to quickly find your
   notes
-updated: 1639625078683
+updated: 1639629505702
 created: 1625563944736
 nav_order: 1
 ---
@@ -73,7 +73,7 @@ recipes.ingredients.favorites
 recipes.ingredients.shopping-list
 ```
 
-You may be wondering why Dendron uses hierarchies. You can [[read here|dendron://dendron.dendron-site/dendron.faq#why-hierarchies]] for our thoughts about structure.
+You may be wondering why Dendron uses hierarchies. You can [[read here|dendron://dendron.dendron-site/dendron.faq#why-hierarchies]] for our thoughts about structure. Dendron also allows you to easily change the hierarchies later if you change your mind on how to organize your notes. This is covered later in [[Refactoring in Dendron|dendron.tutorial.linking-notes#refactoring-in-dendron]].
 
 ## Finding Notes
 
