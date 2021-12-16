@@ -2,7 +2,7 @@
 id: 9MZBqhrijEM4QpZRa5t08
 title: Linking Notes
 desc: Linking Notes
-updated: 1639628799588
+updated: 1639633762728
 created: 1625563999532
 nav_order: 2
 ---
@@ -65,6 +65,38 @@ The [[Rename Header|dendron.topic.refactoring#rename-header]] command is used to
 > - Use the lookup to navigate to `[[recipes.ingredients.shopping-list]]`. You should see the wikilink there has updated from `[[recipes.italian.desserts.gelato#ingredients]]` to `[[recipes.italian.desserts.gelato#best-ingredients]]`, ensuring links are updated!
 
 If wanting to migrate a section beneath a certain header, to a different note entirely, [[Move Header|dendron.topic.refactoring#move-header]] will do the job and ensure links are updated.
+
+### Refactor Hierarchy
+
+The [[Refactor Hierarchy|dendron.topic.refactoring#refactor-hierarchy]] command is used to change the name of, and all links to, a collection of notes.
+
+> 🌱 **ACTION:** This section will be all about creating and refactoring notes, in order to get an idea for how it all works.
+
+- Create the following notes by placing the cursor inside each, and pressing `Ctrl+Enter`:
+  - `[[recipes.vegetarian.tikka-masala]]`
+  - `[[recipes.vegetarian.aloo-paratha]]`
+  - `[[recipes.vegetarian.dosa]]`
+- Each of these are indian food! Let's move them into the `indian` hierarchy.
+  - Run the command `Dendron: Refactor Hierarchy`
+  - At the first prompt, enter `recipes.vegetarian` (note hierarchy you are targeting)
+  - At the second prompt, enter `recipes.indian` (renaming the targeted hierarchy)
+
+A refactor preview should be provided, before making the change, to confirm the changes you are about to make.
+
+![[dendron://dendron.dendron-site/asset.preview#refactor-hierarchy-preview,1:#*]]
+
+This will change all of the targeted notes:
+
+```
+recipes.vegetarian.md               -->	recipes.indian.md
+recipes.vegetarian.tikka-masala.md  -->	recipes.indian.tikka-masala.md
+recipes.vegetarian.aloo-paratha.md  -->	recipes.indian.aloo-paratha.md
+recipes.vegetarian.dosa.md          -->	recipes.indian.dosa.md
+```
+
+Selecting `Proceed` renames all the notes! No need to worry about any broken links throughout your notes, as those are updated by `Refactor Hierarchy`, too.
+
+> 💡 **TIP:** We could have chosen to move them all to `[[recipes.indian.vegetarian]]`, too, if wanted to add `vegetarian` to recipe hierarchies. Doing this would make it easy to do a lookup against all vegetarian recipes with `recipes. vegetarian`. Another alternative is to take a look at using [[Tags|dendron.topic.tags]].
 
 ## Next Steps
 

@@ -2,7 +2,7 @@
 id: ChcCM1Q2qrDTy7YnLUHiL
 title: Preview
 desc: ''
-updated: 1639602777730
+updated: 1639632828160
 created: 1639113925844
 ---
 
@@ -101,3 +101,9 @@ created: 1639113925844
 ### Publishing Nextjs Site Preview
 
 ![A Preview of NextJS Publishing](https://org-dendron-public-assets.s3.amazonaws.com/images/dendron-nextjs-published.gif)
+
+## Refactoring
+
+### Refactor Hierarchy Preview
+
+![Refactor Hierarchy Preview prompt](https://org-dendron-public-assets.s3.amazonaws.com/images/refactor-hierarchy-preview-prompt.png)
