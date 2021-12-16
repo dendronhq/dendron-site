@@ -2,7 +2,7 @@
 id: gxnwBlVKDivSDH1daqejk
 title: Typescript Development with Dendron and VSCode
 desc: ''
-updated: 1634320125524
+updated: 1639201287844
 created: 1634063154566
 ---
 
@@ -13,7 +13,7 @@ In this talk, Kevin, Dendron founder, will go over his workflow for Dendron deve
 
 - Date: 2021.10.15
 - Time: 7:30AM PST
-- Location: `#teatime` channel in [Discord](https://discord.gg/AE3NRw9)
+- Location: `#teatime` channel in [Discord](https://link.dendron.so/discord)
 - Calendar link: https://lu.ma/373tr1ap
 
 ## Agenda

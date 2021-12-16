@@ -2,7 +2,7 @@
 id: 401c5889-20ae-4b3a-8468-269def4b4865
 title: Cookbook
 desc: ''
-updated: 1635991935341
+updated: 1639617173832
 created: 1595952505024
 nav_order: 6.1
 toc: true
@@ -40,7 +40,7 @@ You can get logs of the previous session by following instructions [here](https:
 
 ## Mobile Support
 
-> A comparison of mobile apps for Markdown can be found on the [Dendron blog: Best Mobile Note-Taking Apps for Markdown](https://blog.dendron.so/notes/fDCVPEo3guCFWPdxokXHU/).
+> A comparison of mobile apps for Markdown can be found on the [Dendron blog: Best Mobile Note-Taking Apps for Markdown](https://blog.dendron.so/notes/fDCVPEo3guCFWPdxokXHU/). For a more in-depth comparison of text editors focusing on iOS devices, also take a look at [this iOS Text Editor roundup by Brett Terpstra](https://brettterpstra.com/ios-text-editors/).
 
 Dendron does not have a dedicated mobile client at this time. There are numerous mobile markdown editors that can be used to view and edit Dendron notes. Some popular options are listed below, based on feedback in the Dendron community:
 
@@ -58,10 +58,10 @@ Dendron does not have a dedicated mobile client at this time. There are numerous
 - [Taio](https://taio.app/) (iOS only)
 - [Textastic](https://www.textasticapp.com/) (iOS only)
 
-Most mobile apps do not have git support.
+Most mobile apps do not have git support. Here are some third-party guides that have been written up to assist:
 
 -   If you are on iOS, you can follow the instructions [here](https://victoria.dev/blog/a-remote-sync-solution-for-ios-and-linux-git-and-working-copy/) to sync your git backed Dendron with any note taking tool on iOS.
--   If you are on Android, you can read [this writeup](https://mstempl.netlify.app/post/working-with-git-on-android/) by one of users on having Git Sync on Android devices
+-   If you are on Android, you can read [this writeup](https://mstempl.netlify.app/post/working-with-git-on-android/) by a user on having Git Sync on Android devices. [MGit](https://manichord.com/projects/mgit.html) is also recommended for Android users when it comes to syncing your git backed Dendron with any note taking tool on Android.
 
 If using GitHub with SSH keys or access tokens, here is an alternative: SSH keys that have project/repo-limited permissions as [Deploy Keys on GitHub](https://docs.github.com/en/developers/overview/managing-deploy-keys#deploy-keys) (with `Allow write access` enabled). This prevents users from setting up SSH keys with user-wide permissions across GitHub, making it more secure and limited.
 

@@ -2,7 +2,7 @@
 id: 0f9967bc-d657-496f-9b4b-d1c7ebfd496c
 title: Recruitment Pitch
 desc: ''
-updated: 1599936705684
+updated: 1639201127087
 created: 1599936705684
 stub: false
 nav_exclude: true
@@ -21,5 +21,5 @@ Dendron's goal is to give society **access to and command over the inherited kno
 
 To keep up with the growth of Dendronites while continuing to work towards our roadmap, we need help. We are looking for developers to help take Dendron to the next level.
 
-Dendron is built in typescript on top of VSCode. Knowledge of either is not required (though definitely preferred). You would be working alongside [myself](https://www.kevinslin.com) as well as our [global community of Dendronites](https://discord.gg/6j85zNX) to build a better way for people to **create, find, and collaborate** on knowledge that matters to them. 
+Dendron is built in typescript on top of VSCode. Knowledge of either is not required (though definitely preferred). You would be working alongside [myself](https://www.kevinslin.com) as well as our [global community of Dendronites](https://link.dendron.so/discord) to build a better way for people to **create, find, and collaborate** on knowledge that matters to them. 
 

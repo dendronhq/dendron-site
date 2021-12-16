@@ -153,7 +153,7 @@ Bugfixes for this release
 
 ## Next
 
-A teaser of some items we are working on for the next release. You can see the full roadmap [here](https://github.com/orgs/dendronhq/projects/1). To join the discussion on upcoming roadmap items, check out the  [#roadmap](https://discord.gg/HzkFcs) channel on Discord. 
+A teaser of some items we are working on for the next release. You can see the full roadmap [here](https://github.com/orgs/dendronhq/projects/1). To join the discussion on upcoming roadmap items, check out the  [#roadmap](https://link.dendron.so/discord) channel on Discord. 
 
 ### Refactor Hierarchies
 

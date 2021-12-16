@@ -2,7 +2,7 @@
 id: 25287595-96bb-410b-ab46-eb9a26b0e259
 title: Web UI
 desc: ''
-updated: 1629936033974
+updated: 1639200460320
 created: 1621552722494
 ---
 
@@ -28,9 +28,10 @@ The nav order should be implemented in the following precedent:
 
 ### Calendar View
 
-The Dendron Calendar View lets you view your daily journal in calendar form.
+The Dendron Calendar View lets you view your daily journal in calendar form. ^calendar-view-definition
 
-<!-- TODO: picture -->
+![[dendron://dendron.dendron-site/asset.preview#calendar-view,1:#*]]
+
 The Dendron Calendar View has the following capabilities:
 
 - Clicking on a given day date will open the corresponding daily journal note

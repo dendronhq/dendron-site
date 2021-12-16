@@ -2,13 +2,13 @@
 id: a91fd8da-6895-49fe-8164-a17acd8d9a17
 title: Images
 desc: ''
-updated: 1631164740135
+updated: 1639537832456
 created: 1595562035825
 stub: false
 ---
 ## Copy & Paste
 
-Dendron automatically inserts images in your clipboard using the `> Paste Image` command. The image is saved to `${currentFileDir}/assets` by default. This feature requires the [Paste Image](https://marketplace.visualstudio.com/items?itemName=dendron.dendron-paste-image) VSCode extension.
+Dendron automatically inserts images in your clipboard using the `> Paste Image` command. The image is saved to `${currentFileDir}/assets` by default. This feature requires the [Paste Image](https://link.dendron.so/vscode-paste-image) VSCode extension.
 
 <a href="https://www.loom.com/share/e1f6d207a1134f42b7a1a7750658acec">
 <img style="" src="https://cdn.loom.com/sessions/thumbnails/e1f6d207a1134f42b7a1a7750658acec-with-play.gif"> </a>

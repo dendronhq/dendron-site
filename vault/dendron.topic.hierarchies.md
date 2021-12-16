@@ -2,12 +2,13 @@
 id: f3a41725-c5e5-4851-a6ed-5f541054d409
 title: Hierarchies
 desc: ''
-updated: 1639083508156
+updated: 1639680133398
 created: 1595611213607
 ---
+
 ## Summary
 
-Dendron organizes your notes into hierarchies. These are `.` delimited markdown files. 
+Dendron organizes your notes into hierarchies. These are `.` ("dot" or "period") delimited markdown files. 
 
 ## Example
 Below is a hypothetical hierarchy for a file tree:
@@ -54,7 +55,7 @@ The domain is the root of a specific hierarchy. In our example vault, we have on
 
 ## Why Hierarchies?
 
-Dendron is built around hierarchies and the axiom that a canonical hierarichal representation of notes is one of the most effective ways of managing large numbers of notes. You can read more about the thoughts behind this [here](https://www.kevinslin.com/notes/127a3230-4484-433a-b97f-178679564207.html).
+![[Why hierarchies?|dendron.faq#why-hierarchies,1:#*]]
 
 ## What's with the `.`'s?
 
@@ -106,3 +107,4 @@ Dendron is built around hierarchies and the axiom that a canonical hierarichal r
    └── a-parent.child-a.grandchild-a.great-grandchild-a.md
    ```
 
+##

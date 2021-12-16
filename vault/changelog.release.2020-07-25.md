@@ -105,7 +105,7 @@ Dendron now has an example video. You can watch it [here](https://youtu.be/6rwWU
 
 ## Next
 
-Some notable items we are working on for the next release. You can see the full roadmap [here](https://github.com/orgs/dendronhq/projects/1). You can join the discussion on upcoming roadmap items in our [#roadmap discord channel](https://discord.gg/HzkFcs).
+Some notable items we are working on for the next release. You can see the full roadmap [here](https://github.com/orgs/dendronhq/projects/1). You can join the discussion on upcoming roadmap items in our [#roadmap discord channel](https://link.dendron.so/discord).
 
 ### Refactor Hierarchies
 

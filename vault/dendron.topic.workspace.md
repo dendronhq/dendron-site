@@ -2,18 +2,25 @@
 id: c4cf5519-f7c2-4a23-b93b-1c9a02880f6b
 title: Workspace
 desc: ''
-updated: 1638725372092
+updated: 1639524550927
 created: 1622841295415
 ---
 
-
 ## Summary
 
-In Dendron, your **workspace** is the root of where all your files are located. It's set when you first run `Dendron: Initialize Workspace`. The folder that contains your workspace is also known as your **workspace root**.
+A Dendron workspace is a collection of one or more [[vaults|dendron://dendron.dendron-site/dendron.topic.vaults]] (folders with notes). 
 
-A workspace has a `dendron.yml` file that specifies its [[vaults|dendron.topic.vaults]].
+## Details
+
+Every workspace has a [[dendron.yml|dendron://dendron.dendron-site/dendron.ref.config]] which specifies all vaults and configurations for a particular workspace.
+
+Most workspaces only have a single vault. See [[Multi Vault|dendron://dendron.dendron-site/dendron.topic.multi-vault]] for scenarios of adding additional vaults.
 
 ## Concepts
+
+### Workspace Root
+
+The folder that contains files like `dendron.yml` and `dendron.code-workspace` is the top-level directory of a workspace, known as the **workspace root.**
 
 ### Code Workspace
 

@@ -35,7 +35,7 @@ This release also includes some breaking changes due to some renaming of command
 
 #### General Updates
 
-* If you haven't yet, subscribe to the [Dendron Newsletter](https://buttondown.email/dendron)! Emails are soon to begin as regular, weekly roundups.
+* If you haven't yet, subscribe to the [Dendron Newsletter](https://link.dendron.so/newsletter)! Emails are soon to begin as regular, weekly roundups.
 * [Dendron Blog: Highlights from VSCode 1.61](https://blog.dendron.so/notes/83fIARBsKRnUlBL433RND/)
 
 #### Dendron Reading Series

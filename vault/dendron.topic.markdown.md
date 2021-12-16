@@ -2,7 +2,7 @@
 id: ba97866b-889f-4ac6-86e7-bb2d97f6e376
 title: Markdown
 desc: ''
-updated: 1637177465481
+updated: 1639620141514
 created: 1598673110284
 ---
 - Notice: all references of `MPE` in this guide is in reference to `Dendron Markdown Preview Enhanced`, the default markdown renderer of Dendron
@@ -356,6 +356,7 @@ You can use the [[markdown pod|dendron.topic.pod.builtin.markdown]] to migrate b
 
 ## Other Resources
 
+- [GitHub Flavored Markdown (GFM)](https://github.github.com/gfm/)
 - [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
 - [Daring Fireball: Markdown Basics](https://daringfireball.net/projects/markdown/basics)
 - [Markdown Guide](https://www.markdownguide.org/)
