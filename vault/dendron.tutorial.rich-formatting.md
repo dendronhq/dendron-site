@@ -2,7 +2,7 @@
 id: 8DCgctK-RMD4EeHjC5_hI
 title: Rich Formatting
 desc: ''
-updated: 1639622361236
+updated: 1639681635630
 created: 1625573403967
 nav_order: 3
 ---
@@ -101,7 +101,7 @@ ps -ef | grep codium
 
 ## Note References
 
-You can link to a specific section of a different note and have the content in-lined into the current note.
+**[[Note References|dendron.topic.note-reference]]** are unique to Dendron. You can embed a section of a different note, and have the content in-lined into the current note.
 
 > 🌱 **ACTION:** Create `[[recipes.favorites]]`, if you haven't yet. We're going to add some content in here to reuse as a note reference!
 

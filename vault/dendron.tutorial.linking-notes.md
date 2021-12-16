@@ -2,7 +2,7 @@
 id: 9MZBqhrijEM4QpZRa5t08
 title: Linking Notes
 desc: Linking Notes
-updated: 1639634152265
+updated: 1639681504515
 created: 1625563999532
 nav_order: 2
 ---
@@ -25,7 +25,7 @@ You can switch back to the previous note with the tab switching shortcut: `Ctrl+
 
 ### Link to headers
 
-> 🌱 **ACTION:** You need headers to link to for this, so add an `## Ingredients` section to `[[recipes.italian.desserts.tiramisu]]`. Try it in the editor view, now. Then:
+> 🌱 **ACTION:** You need headers to link to for this, so add an `## Ingredients` section to `[[recipes.italian.desserts.tiramisu]]`. Try it in the editor view. Then:
 > - Create `[[recipes.ingredients.shopping-list]]` if it doesn't already exist
 > - Add `[[Tiramisu Ingredients|recipes.italian.desserts.tiramisu#ingredients]]` to `[[recipes.ingredients.shopping-list]]`
 
@@ -96,7 +96,7 @@ recipes.vegetarian.dosa.md          -->	recipes.indian.dosa.md
 
 Selecting `Proceed` renames all the notes! No need to worry about any broken links throughout your notes, as those are updated by `Refactor Hierarchy`, too.
 
-> 💡 **TIP:** We could have chosen to move them all to `[[recipes.indian.vegetarian]]`, too, if wanted to add `vegetarian` to recipe hierarchies. Doing this would make it easy to do a lookup against all vegetarian recipes with `recipes. vegetarian`. Another alternative is to take a look at using [[Tags|dendron://dendron.dendron-site/dendron.topic.tags]].
+> 💡 **TIP:** We could have chosen to move them all to `[[recipes.indian.vegetarian]]`, too, if wanting to add `vegetarian` to recipe hierarchies. Doing this would make it easy to do a lookup against all vegetarian recipes with `recipes. vegetarian`. Another alternative is to take a look at using [[Tags|dendron://dendron.dendron-site/dendron.topic.tags]].
 
 ## Next Steps
 

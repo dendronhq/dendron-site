@@ -2,7 +2,7 @@
 id: gHdxXlNMr1w4xqee0n-Mb
 title: User Interface
 desc: 1. User Interface
-updated: 1639621591891
+updated: 1639681079946
 created: 1625563862198
 nav_order: 0
 ---
@@ -22,6 +22,8 @@ Where you can write and edit your notes. **Notes** in Dendron are [[markdown|den
 ## 2. Preview View
 
 Shows the rendered Markdown of your currently opened note. If you close this pane, you can bring it back with the `Dendron: Show Preview` command.
+
+You may see two additional sections a the bottom of the preview view, **Children** and **Backlinks**, which will be covered later in the tutorial.
 
 >💡 TIP: The preview view is **read-only** and cannot be used to edit notes. All editing must be done in the editor view.
 
