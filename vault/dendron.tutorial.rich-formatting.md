@@ -2,14 +2,26 @@
 id: 8DCgctK-RMD4EeHjC5_hI
 title: Rich Formatting
 desc: ''
-updated: 1639532762689
+updated: 1639621657331
 created: 1625573403967
 nav_order: 3
 ---
 
-Dendron supports an extended Markdown syntax, which provides a lot of options for rich formatting. Take a look at some examples in this note to see what's possible.  Have the preview view opened (`Dendron: Show Preview`) to see how these will get rendered.
+Dendron extends regular markdown with additional syntax. This covers everything in [GitHub Flavored Markdown (GFM)](https://github.github.com/gfm/) with additional features that are unique to Dendron. Take a look at some examples in this note to see what's possible. Have the preview view opened (`Dendron: Show Preview`) to see how these will get rendered.
 
-#### Markdown Formatting Options
+## Markdown Formatting Options
+
+Markdown tables and basic formatting are made with the following syntax:
+
+```markdown
+|Formatting|Example|
+|:---|:---:|
+|Bold|**Hello World**|
+|Italics|_Hello World_|
+|Strikethrough|~~Hello World~~|
+```
+
+The above table becomes rendered as the following, in the preview pane:
 
 |Formatting|Example|
 |:---|:---:|
@@ -17,9 +29,9 @@ Dendron supports an extended Markdown syntax, which provides a lot of options fo
 |Italics|_Hello World_|
 |Strikethrough|~~Hello World~~|
 
-#### Images
+## Images
 
-> 🌱 **ACTION:** Copy any image onto your clipboard, and then use the `Paste Image` command while focused in your editor pane. This will automatically create a link for you and copy the file contents into the assets directory in your workspace. For this to work, make sure the **Dendron Paste Image** extension is installed.
+> 🌱 **ACTION:** Copy any image onto your clipboard, and then use the `Paste Image` command while focused in your editor pane. This will automatically create a link for you and copy the file contents into the assets directory in your workspace. This relies on the **Dendron Paste Image** extension which is installed by default alongside Dendron.
 
 Sample Image Link: `![Dendron Logo](assets/images/logo_small.png)`
 
@@ -27,7 +39,7 @@ Result:
 
 ![Dendron Logo](https://org-dendron-public-assets.s3.amazonaws.com/images/tutorial-logo_small.png)
 
-#### Equations
+## Equations
 
 Math typesetting can be written through [Katex](https://wiki.dendron.so/notes/b1919663-cc48-4054-b0cf-4b26fe444907.html)
 
@@ -35,11 +47,11 @@ $$
 \int_{-\infty}^\infty f(x)dx
 $$
 
-#### Diagrams
+## Diagrams
 
 Various types of diagrams are supported with the [mermaid](https://mermaid-js.github.io/mermaid/#/) visualization syntax.
 
-##### Flow Charts
+### Flow Charts
 
 ```mermaid
 graph TD;
@@ -47,7 +59,7 @@ graph TD;
     A-->C;
 ```
 
-##### Sequence Diagrams
+### Sequence Diagrams
 
 ```mermaid
 sequenceDiagram
@@ -59,7 +71,7 @@ sequenceDiagram
     Bob-->>John: Jolly good!
 ```
 
-#### Code Blocks
+## Code Blocks
 
 Markdown provides a way to render syntax highlighting and formatting of code.
 
@@ -87,13 +99,13 @@ echo "This is a bash example!"
 ps -ef | grep codium
 ```
 
-### Note References
+## Note References
 
 You can link to a specific section of a different note and have the content in-lined into the current note.
 
-> 🌱 **ACTION:** Create [[recipes.favorites]], if you haven't yet. We're going to add some content in here to reuse as a note reference!
+> 🌱 **ACTION:** Create `[[recipes.favorites]]`, if you haven't yet. We're going to add some content in here to reuse as a note reference!
 
-Add the following contents to [[recipes.favorites]]:
+Add the following contents to `[[recipes.favorites]]`:
 
 ```markdown
 My favorite recipes, by far. I must avoid.
@@ -102,7 +114,7 @@ My favorite recipes, by far. I must avoid.
 - [[Chinese Wontons|recipes.chinese.appetizers.wontons]]
 ```
 
-In [[recipes]], add the following contents:
+In `[[recipes]]`, add the following contents:
 
 ```markdown
 ## Favorites
@@ -110,12 +122,12 @@ In [[recipes]], add the following contents:
 ![[recipes.favorites]]
 ```
 
-Take a look in the preview view to see how this renders:
+After completing the above, remove the surrounding backticks from the following and look in the preview view to see how this renders:
 
-![[recipes.favorites]]
+`![[recipes.favorites]]`
 
 Note references can get more fine-grained, targeting headers, sections, or blocks of text. You can learn more from the docs in [[Note References|dendron://dendron.dendron-site/dendron.topic.note-reference]].
 
-### Next Steps
+## Next Steps
 
 - [[Conclude the Tutorial|dendron.tutorial.conclusion]]

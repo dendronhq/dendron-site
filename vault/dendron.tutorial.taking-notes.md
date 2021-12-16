@@ -1,21 +1,23 @@
 ---
 id: 4RFQMNA91cRW12VJl_PFd
 title: Taking Notes
-desc: Creating notes, understanding hierarchy, and using Lookup to quickly find your notes
-updated: 1639602105376
+desc: >-
+  Creating notes, understanding hierarchy, and using Lookup to quickly find your
+  notes
+updated: 1639621320330
 created: 1625563944736
 nav_order: 1
 ---
 
-### Create a Note
+## Lookup
 
-To create a note, run `Dendron: Lookup` (`Ctrl+L` / `Cmd+L`) to bring up the [[Lookup Bar|dendron://dendron.dendron-site/dendron.topic.lookup]].
+The **Lookup Bar** is the main way to interact with Dendron. You can use it for both finding notes and creating new notes. To find a note, run `Dendron: Lookup` (`Ctrl+L` / `Cmd+L`) to bring up the [[Lookup Bar|dendron://dendron.dendron-site/dendron.topic.lookup]].
 
 ![[dendron://dendron.dendron-site/asset.preview#lookup,1:#*]]
 
-> 💡 **TIP:** The lookup command is the main way to interact with Dendron. It's used for looking up and creating notes. When you do a lookup on a note that hasn't been created, Dendron will create it for you.
+## Creating a Note
 
-> 🌱 **ACTION:** Try it yourself! Open the lookup bar with `Ctrl+L` / `Cmd+L`. Type `recipes` and hit `Enter`. Afterward, you can use the `Ctrl+Tab` / `Cmd+Tab` shortcut to get back to the previous note you were viewing.
+> 🌱 **ACTION:** Let's use the lookup to create a note! Open the lookup bar with `Ctrl+L` / `Cmd+L`. Type `recipes` and hit `Enter`. Afterward, you can use the `Ctrl+Tab` / `Cmd+Tab` shortcut to get back to the previous note you were viewing.
 
 This creates a note named `recipes.md`. Notes in Dendron are just plaintext [[markdown|dendron://dendron.dendron-site/dendron.topic.markdown]]. Notes:
 
@@ -25,7 +27,7 @@ This creates a note named `recipes.md`. Notes in Dendron are just plaintext [[ma
 
 You can try to add some content to the body of your `recipes` note now.
 
-### Frontmatter
+## Frontmatter
 
 ![[Summary|dendron://dendron.dendron-site/dendron.topic.frontmatter#summary,1:#*]]
 
@@ -34,23 +36,23 @@ You can try to add some content to the body of your `recipes` note now.
 > - The `updated` attribute automatically _updates_ whenever you make a new modificaiton to a file.
 > - See **[[reserved keys in frontmatter|dendron://dendron.dendron-site/dendron.topic.frontmatter#reserved-keys]]** for more information.
 
-### Creating a hierarchy
+## Creating a hierarchy
 
 ![[dendron://dendron.dendron-site/dendron.topic.hierarchies#summary,1:#concepts]]
 
 > 🌱 **ACTION:** To create a hierarchy, bring up lookup again (`Ctrl+L` / `Cmd+L`). Type `recipes.vegetarian` and then press enter.
 
-You've created your first hierarchy! **[[Hierarchies|dendron://dendron.dendron-site/dendron.topic.hierarchies]]** in Dendron are created by having a `.` (a "period" or "dot") delimiter in the file name. For more information on how this works, see [[What's with the .'s?|dendron://dendron.dendron-site/dendron.topic.hierarchies#whats-with-the-s]]
+You've created your first hierarchy! **[[Hierarchies|dendron://dendron.dendron-site/dendron.topic.hierarchies]]** in Dendron are created by having a `.` ("dot") delimiter in the file name. For more information on how this works, see [[What's with the .'s?|dendron://dendron.dendron-site/dendron.topic.hierarchies#whats-with-the-s]]
 
 Take a look at the Tree View to see the `vegetarian` note under the `recipes` hierarchy. You can also see the the note stored as `recipes.vegetarian.md` in the File Explorer Pane.
 
-#### Children
+### Children
 
 In this case, **vegetarian** is considered a child note of **recipes**. When looking at the `recipes` note, the preview view will list `vegetarian` (and any other `recipes.*` notes) at the bottom as **Children.** Children can also be seen and navigated via the tree view.
 
 ![[dendron://dendron.dendron-site/asset.preview#children,1:#*]]
 
-#### Hierarchy at any level
+### Hierarchy at any level
 
 You can create a hierarchy at any level.
 
@@ -73,7 +75,7 @@ recipes.ingredients.shopping-list
 
 You may be wondering why Dendron uses hierarchies. You can [[read here|dendron://dendron.dendron-site/dendron.faq#why-hierarchies]] for our thoughts about structure.
 
-### Finding Notes
+## Finding Notes
 
 To find notes, we use the same lookup interface that we used to create them.
 
@@ -83,10 +85,9 @@ Lookup uses _fuzzy search_, which means you can type out partial queries and sti
 
 - Example: `vege rec` or `rec vege` will match the `recipes.vegetarian` note.
 
-Further info on using lookup to find notes can be found in [[dendron://dendron.dendron-site/dendron.topic.lookup.find]].
+> 💡 **TIP:** More approaches to using lookup can be found in [[dendron://dendron.dendron-site/dendron.topic.lookup.find]].
+> ![[dendron://dendron.dendron-site/dendron.topic.search]]
 
-![[dendron://dendron.dendron-site/dendron.topic.search]]
-
-### Next Steps
+## Next Steps
 
 - Tutorial Step 3: [[Linking Notes|dendron.tutorial.linking-notes]]

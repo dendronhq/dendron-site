@@ -2,14 +2,14 @@
 id: 9MZBqhrijEM4QpZRa5t08
 title: Linking Notes
 desc: Linking Notes
-updated: 1639532701850
+updated: 1639620593242
 created: 1625563999532
 nav_order: 2
 ---
 
-### Links
+## Links
 
-Dendron supports links between your notes, which can help you organically connect your thoughts and build up a powerful and personal knowledge graph.
+Dendron helps you create links between notes. These links help you organically discover relationships and build out your knowledge graph.
 
 > 🌱 **ACTION:** To create a link, start typing `[[` and Dendron will show you a list of notes in your workspace that you can link to. Let's go with `[[recipes.vegetarian]]`. Try it in the editor view, now.
 
@@ -24,7 +24,7 @@ You can switch back to the previous note with the tab switching shortcut: `Ctrl+
 > - [[Links: Backlinks|dendron://dendron.dendron-site/dendron.topic.links#backlinks]]
 > - [[Workbench: Backlinks Panel|dendron://dendron.dendron-site/dendron.topic.workbench#backlinks-view]]
 
-#### Link to headers
+### Link to headers
 
 > 🌱 **ACTION:** You need headers to link to for this, so add an `## Ingredients` section to [[recipes.italian.desserts.tiramisu]]. Try it in the editor view, now.
 
@@ -33,28 +33,20 @@ If wanting to link to a specific header within a note, add the header name to th
 - Example: `[[Tiramisu Ingredients|recipes.italian.desserts.tiramisu#ingredients]]`
 - Resulting Link: [[Tiramisu Ingredients|recipes.italian.desserts.tiramisu#ingredients]]
 
-The `#ingredients` at the end will link directly to the header `## Ingredients`. A shortcut to grabbin the link is to place the cursor in the `## Ingredients` header, then run the command `Dendron: Copy Note Link` (`Ctrl+Shift+C` / `Cmd+Shift+C`). That will copy the link to the clipboard, allowing you to paste in other notes.
+The `#ingredients` at the end will link directly to the header `## Ingredients`. A shortcut to grabbing the link is to place the cursor in the `## Ingredients` header, then run the command `Dendron: Copy Note Link` (`Ctrl+Shift+C` / `Cmd+Shift+C`). That will copy the link to the clipboard, allowing you to paste in other notes.
 
 > 💡 **TIP:** Notice how these links use custom link titles, like **Tiramisu Ingredients**. This is called a **labelled wikilink**: `[[label|your.note.to.link]]`. If a label isn't used, either the `title` attribute from the frontmatter, or the title of the header you are linking to, is used.
 
-### Explore Your Knowledge Graph
+## Explore Your Knowledge Graph
 
 > 🌱 **ACTION:** To get a visual representation of your notes, use the `Dendron: Show Note Graph` command.
 
 This is the **[[graph view|dendron://dendron.dendron-site/dendron.topic.graph-view]]**. You can explore the hierarchical organization of your notes and how they are linked together. We're continually working to improve this feature so keep on the lookout for new capabilities in the note graph view in the future!
 
-When opened, the note graph defaults to the _local graph view_. This can be toggled with the top-right button.
+![[Local Note Graph|dendron.topic.graph-view#local-note-graph:#*]]
 
-- `Show Local Graph`: The _local graph_ provides a look at where you are at in the current hierarchy:
+![[Local Note Graph|dendron.topic.graph-view#full-note-graph:#*]]
 
-![[dendron://dendron.dendron-site/asset.preview#local-note-graph,1:#*]]
-
-- `Show Full Graph`: The _full graph_ provides a look at all of your notes in the workspace.
-
-![[dendron://dendron.dendron-site/asset.preview#full-note-graph,1:#*]]
-
-- Learn more: [[dendron://dendron.dendron-site/dendron.topic.graph-view]]
-
-### Next Steps
+## Next Steps
 
 - Tutorial Step 4: [[Rich Formatting|dendron.tutorial.rich-formatting]]

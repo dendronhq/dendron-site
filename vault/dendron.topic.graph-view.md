@@ -2,7 +2,7 @@
 id: 587e6d62-3c5b-49b0-aedc-02f62f0448e6
 title: Graph View
 desc: ''
-updated: 1639199941139
+updated: 1639620391705
 created: 1595120707814
 stub: false
 ---
@@ -23,13 +23,13 @@ stub: false
 
 Show graph of all your notes. You can activate this by using the [[Show Note Graph Command|dendron.topic.graph-view#show-note-graph]] command and toggling the [[Show Note Graph|dendron.topic.graph-view#^Ev8p1L5P0IzDGjAs]] option.
 
-![[dendron://dendron.dendron-site/asset.preview#full-note-graph,1:#*]]
+![[dendron://dendron.dendron-site/asset.preview#full-note-graph-dark,1:#*]]
 
 #### Local Note Graph
 
 Shows a graph of your current note and immediate neighbors. This is the default view when you run [[Show Note Graph|dendron.topic.graph-view#show-note-graph]].
 
-![[dendron://dendron.dendron-site/asset.preview#local-note-graph,1:#*]]
+![[dendron://dendron.dendron-site/asset.preview#local-note-graph-dark,1:#*]]
 
 ### Schema Graph
 

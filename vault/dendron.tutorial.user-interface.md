@@ -2,7 +2,7 @@
 id: gHdxXlNMr1w4xqee0n-Mb
 title: User Interface
 desc: 1. User Interface
-updated: 1639601856070
+updated: 1639621591891
 created: 1625563862198
 nav_order: 0
 ---
@@ -15,46 +15,44 @@ Let's do a brief overview on how to navigate the Dendron User Interace (UI), whi
 
 > 💡 TIP: VSCode lets you re-position any of these windows, so feel free to rearrange the windows to work best for you! Refer to [VSCode documentation for more information on the VSCode UI](https://code.visualstudio.com/docs/getstarted/userinterface).
 
-#### 1. Editor View
+## 1. Editor View
 
 Where you can write and edit your notes. **Notes** in Dendron are [[markdown|dendron://dendron.dendron-site/dendron.topic.markdown]] files (ex. `my.note.md`).
 
-#### 2. Preview View
+## 2. Preview View
 
 Shows the rendered Markdown of your currently opened note. If you close this pane, you can bring it back with the `Dendron: Show Preview` command.
 
 >💡 TIP: The preview view is **read-only** and cannot be used to edit notes. All editing must be done in the editor view.
 
-#### 3. File Explorer Pane
+## 3. File Explorer Pane
 
 This shows the files and folders in your vault. A **[[vault|dendron://dendron.dendron-site/dendron.topic.vaults]]** stores your notes and assets (ex. images, pdfs, etc.).
 
-![[dendron.tutorial.user-interface#^tree-view-vs-file-explorer]]
+> 💡 **TIP:** We encourage using the **[tree view](#6-tree-view-pane)**, as opposed to the file explorer pane, for navigating your notes.
 
-#### 4. Outline Pane
+## 4. Outline Pane
 
 Shows an outline of the currently opened note by listing the headers for navigation. Jump around areas of larger notes by clicking on the headers in this pane.
 
-#### 5. Calendar View Pane
+## 5. Calendar View Pane
 
-A **[[daily journal|dendron://dendron.dendron-site/dendron.topic.special-notes#daily-journal]]** note is the most common form of note-taking, and the **[[calendar view pane|dendron://dendron.dendron-site/dendron._ref.web-ui#calendar-view]]** makes it easy to jump to or create new journal entries.
+Shows days where you've created a **[[Daily Journal|dendron://dendron.dendron-site/dendron.topic.special-notes#daily-journal]]** entry. If no journal entry exists for a given day, clicking on the date in the calendar will automatically create it.
 
 ![[dendron://dendron.dendron-site/asset.preview#create-daily-journal-from-calendar,1:#*]]
 
-#### 6. Tree View Pane
+## 6. Tree View Pane
 
 This shows a hierarchical view of your notes, similar to how a folder structure would appear in your filesystem. You can click here to navigate around your notes.
 
 ![[dendron://dendron.dendron-site/asset.preview#tree-view-dark,1:#*]]
 
-> 💡 TIP: We encourage using the tree view, as opposed to the file explorer pane, for navigating your notes. ^tree-view-vs-file-explorer
+## 7. Backlinks Pane
 
-#### 7. Backlinks Pane
-
-This shows a list of other notes that have links to the current note opened in the editor view. This is useful for helping to establish context.
+This shows a list of other notes that have links to the current note opened in the editor view.
 
 ![[dendron://dendron.dendron-site/asset.preview#backlinks-dark,1:#*]]
 
-### Next Steps
+## Next Steps
 
 - Next is Tutorial Step 2: [[Taking Notes|dendron.tutorial.taking-notes]]

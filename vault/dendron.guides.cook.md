@@ -2,7 +2,7 @@
 id: 401c5889-20ae-4b3a-8468-269def4b4865
 title: Cookbook
 desc: ''
-updated: 1639611556713
+updated: 1639617173832
 created: 1595952505024
 nav_order: 6.1
 toc: true
@@ -40,7 +40,7 @@ You can get logs of the previous session by following instructions [here](https:
 
 ## Mobile Support
 
-> A comparison of mobile apps for Markdown can be found on the [Dendron blog: Best Mobile Note-Taking Apps for Markdown](https://blog.dendron.so/notes/fDCVPEo3guCFWPdxokXHU/). For a more in-depth comparison of text editors for iOS devices, also take a look at [this iOS Text Editor roundup by Brett Terpstra](https://brettterpstra.com/ios-text-editors/).
+> A comparison of mobile apps for Markdown can be found on the [Dendron blog: Best Mobile Note-Taking Apps for Markdown](https://blog.dendron.so/notes/fDCVPEo3guCFWPdxokXHU/). For a more in-depth comparison of text editors focusing on iOS devices, also take a look at [this iOS Text Editor roundup by Brett Terpstra](https://brettterpstra.com/ios-text-editors/).
 
 Dendron does not have a dedicated mobile client at this time. There are numerous mobile markdown editors that can be used to view and edit Dendron notes. Some popular options are listed below, based on feedback in the Dendron community:
 
