@@ -2,7 +2,7 @@
 id: 683740e3-70ce-4a47-a1f4-1f140e80b558
 title: FAQ
 desc: ''
-updated: 1639681839883
+updated: 1639682490947
 created: 1595952505025
 stub: false
 nav_order: 3.01
@@ -24,15 +24,15 @@ A Dendron is many things.
 
 ### How is Dendron different from X note taking tool?
 
-Substitute X with `roam|obsidian|foam|one note|evernote|...`
+Most PKM tools help you create notes but slam into a wall retrieving them once your knowledge base reaches a certain size threshold. That threshold varies with the tool, but virtually everything stops working past 10k notes unless the user was extremely diligent about organizing their knowledge. Past this threshold, entropy wins and every query becomes a keyword search and scrolling through pages of results.
 
-All note taking tools (try to) make it easy to get notes in. It's getting it back out again that's hard, and it **becomes harder** as you get more notes.
+> Dendron's mission is to help **humans organize, find, and work with any amount of knowledge**.
 
-Whether you are using notebooks tags, or backlinks, once you have more than a few hundred notes, you'll need to have some sort of structure in place (eg. naming convention, hierarchy, etc.) to keep track of them.
+It not only helps you create notes but also retrieve them - retrieval works as well with ten notes as it does with ten thousand.
 
-Dendron is a highly opinionated note taking tool that focuses on **hierarchal note taking**. It provides the freedom of Roam's _every note exists everywhere philosophy_, while layering on top **flexible hierarchies** to keep track of it all.
+Our main differentiator is our focus on structure - we provide [[gradual structure|dendron://dendron.dendron-site/dendron.principles#gradual-structure]] for your PKM that is both [[flexible and consistent|dendron://dendron.dendron-site/dendron.principles#flexible-and-consistent]].
 
-While Dendron works with knowledge bases of any size, it really shines once you've accumulated a few hundred notes. I created it to handle my personal knowledge base of 20k+ markdown notes — Dendron lets me track and find any specific note in it in seconds. You can read more about Dendron's hierarchal approach to note taking [here](https://www.kevinslin.com/notes/3dd58f62-fee5-4f93-b9f1-b0f0f59a9b64.html).
+This means you can start with [[daily journals|dendron://dendron.dendron-site/dendron.topic.special-notes#daily-journal]], capture thoughts in [[zettel's|dendron://dendron.dendron-site/dendron.topic.special-notes#scratch-note]] and create consistent hierarchies over time which you can enforce using [[schemas|dendron://dendron.dendron-site/dendron.topic.schema]] and change through [[refactoring|dendron://dendron.dendron-site/dendron.topic.refactoring]].
 
 ### How is Dendron different from Roam?
 

@@ -2,70 +2,42 @@
 id: 7fcebd7d-6411-4c9d-8baf-65629dc018a1
 title: Principles
 desc: ''
-updated: 1628435541479
+updated: 1639682138814
 created: 1600440828180
-nav_exclude: true
+nav_order: 2.02
 ---
-## Product
 
-### Speed
+## Summary
 
-Dendron should be the fastest way for **people** to access the information they care about.
+Design principles are used to guide product decisions and feature work. 
 
-- lookup should finish in under a second
-- all parts of our toolchain should optimize for speed
+## Principles
 
-### Scale
+### Developer Centric
 
-Dendron should become easier to use as you accumulate more notes. 
+Dendron aims to create a world class developer experience for managing knowledge.
 
-### Sensible Defaults
+Our goal is to provide a tool with the efficiency of vim, the extensibility of emacs, and the approachability of VSCode.
 
-Dendron, while being configurable, should have defaults such that work for most people out of the box. 
+What this means:
 
-### Ownership
+- dendron features are text centric and composables
+- dendron provides the lowest friction interface for working with your knowledge base
+- dendron optimizes for efficiency, speed, and keyboard focused ux
+- dendron comes with sane defaults and the ability to customize to your liking
+- dendron can be extended along any dimension
 
-Users should have **full control** of their data and it should be our first principle to maximize this as much as possible.
+### Gradual Structure
 
-### Interoperability
+Dendron extends markdown with structural primitives to make it easier to manage at scale and tooling on top to work with this structure.
 
-We aim to make it **easy** for you to use your notes in **any tool or platform** that is most useful to you.  It should be possible to import/export your data from/to any other source where a user might want to use their information.
+Different knowledge bases require different levels of structure - a PKM used for keeping daily journals is different than a company wide knowledge base used by thousands of developers.
 
-### Easy to learn, hard to master
+Dendron works with any level of structure, meaning you can take free form notes when starting out and gradually layer on more structure as your knowledge base grows more.
 
-- see [Bushnell's Law
-  ](https://en.wikipedia.org/wiki/Bushnell%27s_Law#:~:text=Bushnell's%20Law%20or%20Nolan's%20Law,first%20quarter%20and%20the%20hundredth.)
+### Flexible and Consistent
 
-## Community
+Dendron is both flexible and consistent. It provides a consistent structure for all your notes and gives you the flexibility to change that structure.
 
-### Open and Inclusive
-
-Dendron is a tool for **all users** that are interested in creating, building, using, and sharing knowledge. Full stop. 
-
-### Have it in writing
-
-We don't just share what we learn in a chat at a moment in time. We make sure that the information remains accessible longer after we are gone. 
-
-# Tradeoffs
-
-You can't have something that is everything for everyone. There are tradeoffs we are making in Dendron.
-
-### Function over Form
-
-- in Dendron, it's more important for something to be useful than it is to be beautiful 
-- the focus in Dendron should be about your content and the hierarchies that connect them
-
-### Focus on Hierarchies
-
-- while Dendron supports backlinks and other forms of organizing notes, Dendron's foundation is tooling to help you manage hierarchies
-
-### Focus on Speed
-
-- we can't predict the future but it's likely that no one will ever say that they wish their note taking experience to be slower
-- when thinking about features and tool chain, bias for speed
-
-### Retrieval over Insertion
-
-- all note taking tools focus on putting notes in but they struggle with helping users get notes back out, especially as users accumulate a lot of notes
-- Dendron takes the long view that you will read your notes far more than you write and optimize for getting notes back out
+In Dendron, you can refactor notes and Dendron will make sure that your PKM is consistent throughout. This means that you have the best of both worlds: a basic structure for the organization but the flexibility to change it.
 
