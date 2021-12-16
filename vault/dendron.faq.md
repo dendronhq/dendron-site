@@ -2,7 +2,7 @@
 id: 683740e3-70ce-4a47-a1f4-1f140e80b558
 title: FAQ
 desc: ''
-updated: 1639332841003
+updated: 1639682490947
 created: 1595952505025
 stub: false
 nav_order: 3.01
@@ -24,15 +24,15 @@ A Dendron is many things.
 
 ### How is Dendron different from X note taking tool?
 
-Substitute X with `roam|obsidian|foam|one note|evernote|...`
+Most PKM tools help you create notes but slam into a wall retrieving them once your knowledge base reaches a certain size threshold. That threshold varies with the tool, but virtually everything stops working past 10k notes unless the user was extremely diligent about organizing their knowledge. Past this threshold, entropy wins and every query becomes a keyword search and scrolling through pages of results.
 
-All note taking tools (try to) make it easy to get notes in. It's getting it back out again that's hard, and it **becomes harder** as you get more notes.
+> Dendron's mission is to help **humans organize, find, and work with any amount of knowledge**.
 
-Whether you are using notebooks tags, or backlinks, once you have more than a few hundred notes, you'll need to have some sort of structure in place (eg. naming convention, hierarchy, etc.) to keep track of them.
+It not only helps you create notes but also retrieve them - retrieval works as well with ten notes as it does with ten thousand.
 
-Dendron is a highly opinionated note taking tool that focuses on **hierarchal note taking**. It provides the freedom of Roam's _every note exists everywhere philosophy_, while layering on top **flexible hierarchies** to keep track of it all.
+Our main differentiator is our focus on structure - we provide [[gradual structure|dendron://dendron.dendron-site/dendron.principles#gradual-structure]] for your PKM that is both [[flexible and consistent|dendron://dendron.dendron-site/dendron.principles#flexible-and-consistent]].
 
-While Dendron works with knowledge bases of any size, it really shines once you've accumulated a few hundred notes. I created it to handle my personal knowledge base of 20k+ markdown notes — Dendron lets me track and find any specific note in it in seconds. You can read more about Dendron's hierarchal approach to note taking [here](https://www.kevinslin.com/notes/3dd58f62-fee5-4f93-b9f1-b0f0f59a9b64.html).
+This means you can start with [[daily journals|dendron://dendron.dendron-site/dendron.topic.special-notes#daily-journal]], capture thoughts in [[zettel's|dendron://dendron.dendron-site/dendron.topic.special-notes#scratch-note]] and create consistent hierarchies over time which you can enforce using [[schemas|dendron://dendron.dendron-site/dendron.topic.schema]] and change through [[refactoring|dendron://dendron.dendron-site/dendron.topic.refactoring]].
 
 ### How is Dendron different from Roam?
 
@@ -136,7 +136,7 @@ Yes. You can move notes manually outside of Dendron or between different vaults.
 
 ### Why hierarchies?
 
-Users of other note-taking tools often balk at Dendron's focus on hierarchies. The common counterpoint is that the real world is not constrained by hierarchy and that this approach isn’t flexible enough for what they want to do. These users argue for graphs and backlinks as a better primary model for managing knowledge.
+Users of other note-taking tools often balk at Dendron's focus on hierarchies. The common counterpoint is that the real world is not constrained by hierarchy and that this approach isn’t flexible enough for what they want to do. These users argue for [[graphs|dendron://dendron.dendron-site/dendron.topic.graph-view]] and [[backlinks|dendron://dendron.dendron-site/dendron.topic.links#backlinks]] as a better primary model for managing knowledge.
 
 A graph is indeed more flexible. If we were building a digital brain for computers to perfectly model the world, we would probably go with this approach. But we’re not building a tool for computers to capture every facet of the world, we’re building a tool to help humans make sense of it. The challenge we face as humans is information overload. There is too much of it and we need ways of constraining that complexity. Filtering large amounts of information into exponentially smaller subsets is what hierarchies are built for (and why there are used as the core primitive in every database ever created). 
 
@@ -144,7 +144,7 @@ With a hierarchy, you have one source of truth where a note can be filed and a f
 
 The traditional failings of past hierarchies are that they were too rigid. Most people’s experience with hierarchies are folder hierarchies that ossify from the moment that they are created. These hierarchies are hard to change and so people don’t change them, even as their underlying understanding of the domain has changed. It is because of this friction that most new tools focus on note creation without any predefined structure. This approach makes creating notes easy but finding notes hard.
 
-Dendron has flexible hierarchies. They provide a structure for your notes but these structures can be easily changed. In programming, developers can refactor code and change its structure — the IDE will make sure that all references pointing to the original code are updated. In Dendron, you can refactor notes and hierarchies and Dendron will make sure that your PKM is consistent throughout. This means that you have the best of both worlds: a basic structure for the organization but the flexibility to change it.
+Dendron has flexible hierarchies. They provide a structure for your notes but these structures can be easily changed. In programming, developers can refactor code and change its structure — the IDE will make sure that all references pointing to the original code are updated. In Dendron, [[you can refactor notes and hierarchies|dendron://dendron.dendron-site/dendron.topic.refactoring]] and Dendron will make sure that your PKM is consistent throughout. This means that you have the best of both worlds: a basic structure for the organization but the flexibility to change it.
 
 ### How should I name a note?
 
@@ -264,18 +264,36 @@ We also want to support some subset of the queries as note references so that th
 
 For now, we recommend you use the [[search editor|dendron.guides.tips#search-editor]] capability for liimited querying capabilities.
 
+## Other Features
+
+### Does Dendron support a data view similar to Obsidian and Notion?
+
+We support having a data view but not in the same way. For data views, we have an [[Airtable Pod|dendron://dendron.dendron-site/dendron.topic.pod.builtin.airtable]] which lets you map frontmatter from your notes and export it to airtable. This way, you can use the full power of airtable for a fully featured data view (This is how we manage tasks in Dendron)
+
+### Can Dendron auto format markdown tables?
+
+We don't natively support this but we recommend you do this today using the [Text Tables Extension](https://marketplace.visualstudio.com/items?itemName=RomanPeshkov.vscode-text-tables)
+
+### Does Dendron support web clipping?
+
+We recommend using one of the following tools to clip articles:
+
+- [Markdown Web](https://chrome.google.com/webstore/detail/markdownload-markdown-web/pcmpcfapbekmbjjkdalcgopdkipoggdi?hl=en-GB)
+- [Roam Highlighter](https://chrome.google.com/webstore/detail/mcoimieglmhdjdoplhpcmifgplkbfibp)
+
+### Does Dendron support flashcards?
+
+We recommend using one of the following extensions to do flashcards:
+- [Recall - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=frenya.vscode-recall)
+- [Anki for VSCode - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=jasew.anki)
+
+### Does Dendron support video?
+
+We currently don't support video playback from within iframes inside of VSCode. This works when publishing but not inside the VSCode preview. 
+This is a limitation in the VSCode webview, see more details [here](https://github.com/microsoft/vscode/issues/54097).
+
+Currently, the recommendation is to link to your video (using a regular markdown link if its online or a wikilink if its local). See [[links to non-note files|dendron://dendron.dendron-site/dendron.topic.links#links-to-non-note-files]].
 ## Other
-
-
-### Can I autocomplete an hierarchy?
-
-See this [issue](https://github.com/dendronhq/dendron/issues/490).
-
-TLDR: vscode doesn't expose tab completion via API. There are two alternatives we're currently considering:
-
--   overload the `enter` command, one press to autocomplete, two presses to select
--   replace the lookup component with a webview
-
 
 ### How to launch dendron with most recent vault quickly?
 

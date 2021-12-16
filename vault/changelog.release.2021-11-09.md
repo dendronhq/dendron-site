@@ -2,7 +2,7 @@
 id: EjPEcAkZIDgzHaVMk4teA
 title: "0.68"
 desc: ''
-updated: 1636490838478
+updated: 1639537554017
 created: 1636478484110
 ---
 
@@ -43,7 +43,7 @@ Transitioning site build and previewing commands to use nextjs (instead of 11ty)
 #### General Updates
 
 - We'll be refactoring the hierarchies within the Dendron wiki this week, optimizing for a better user experience. We're open to feedback!
-- We are making some changes to our [newsletter](https://buttondown.email/dendron) (heads up, we have a newsletter). We are changing it from a monthly (lets be honest, once every few months) newsletter to a weekly one. The newsletter will feature release highlights, community highlights, and more! For more details, see the [[community.email-newsletter]].
+- We are making some changes to our [newsletter](https://link.dendron.so/newsletter) (heads up, we have a newsletter). We are changing it from a monthly (lets be honest, once every few months) newsletter to a weekly one. The newsletter will feature release highlights, community highlights, and more! For more details, see the [[community.email-newsletter]].
 - New Discord channel, `#today-i-learned`, is a great place to share discoveries about Dendron and anything else
 
 #### Google Docs Import Pod: Sign up for the beta

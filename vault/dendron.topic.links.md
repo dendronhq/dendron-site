@@ -2,7 +2,7 @@
 id: 3472226a-ff3c-432d-bf5d-10926f39f6c2
 title: Links
 desc: ''
-updated: 1639511677131
+updated: 1639520720842
 created: 1595003088839
 stub: false
 ---
@@ -78,11 +78,11 @@ There are currently two types of backlinks available in the Backlinks view: `Lin
 
 ### Backlink View
 
-Dendron has a [[backlinks panel|dendron.topic.workbench#backlinks]] which shows all notes with links to the current note. This will also show up underneath [[children Links|dendron.topic.links#children-links]] on published pages.
+Dendron has a [[backlinks panel|dendron.topic.workbench#backlinks]] which shows all notes with links to the current note. This will also show up underneath [[children links|dendron.topic.links#children-links]] on published pages.
 
-![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/links.backlink.jpg)
+![[dendron://dendron.dendron-site/asset.preview#backlinks,1:#*]]
 
-You can find further documentation about it [[here|dendron.topic.workbench#backlinks-view]]
+You can find further documentation about it [[here|dendron.topic.workbench#backlinks-view]].
 
 ## Other Links
 
