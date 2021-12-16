@@ -2,7 +2,7 @@
 id: 9MZBqhrijEM4QpZRa5t08
 title: Linking Notes
 desc: Linking Notes
-updated: 1639633762728
+updated: 1639634152265
 created: 1625563999532
 nav_order: 2
 ---
@@ -39,9 +39,9 @@ The `#ingredients` at the end will link directly to the header `## Ingredients`.
 
 This is the **[[graph view|dendron://dendron.dendron-site/dendron.topic.graph-view]]**. You can explore the hierarchical organization of your notes and how they are linked together. We're continually working to improve this feature so keep on the lookout for new capabilities in the note graph view in the future!
 
-![[Local Note Graph|dendron.topic.graph-view#local-note-graph:#*]]
+![[Local Note Graph|dendron://dendron.dendron-site/dendron.topic.graph-view#local-note-graph:#*]]
 
-![[Local Note Graph|dendron.topic.graph-view#full-note-graph:#*]]
+![[Local Note Graph|dendron://dendron.dendron-site/dendron.topic.graph-view#full-note-graph:#*]]
 
 ## Refactoring in Dendron
 
@@ -49,7 +49,7 @@ You may wonder what happens to your links if you want to change the name of a no
 
 ### Rename Note
 
-The [[Rename Note|dendron.topic.refactoring#rename-note]] command is used to change the name of, and all links to, a single note.
+The [[Rename Note|dendron://dendron.dendron-site/dendron.topic.refactoring#rename-note]] command is used to change the name of, and all links to, a single note.
 
 > 🌱 **ACTION:** Use the lookup to navigate to `[[recipes.italian.desserts.tiramisu]]`. Then:
 > - Run the command `Dendron: Rename Note` to change the title to `[[recipes.italian.desserts.gelato]]`.
@@ -57,14 +57,14 @@ The [[Rename Note|dendron.topic.refactoring#rename-note]] command is used to cha
 
 ### Rename Header
 
-The [[Rename Header|dendron.topic.refactoring#rename-header]] command is used to change the name of, and all links to, a single header.
+The [[Rename Header|dendron://dendron.dendron-site/dendron.topic.refactoring#rename-header]] command is used to change the name of, and all links to, a single header.
 
 > 🌱 **ACTION:** Use the lookup to navigate to `[[recipes.italian.desserts.gelato]]`. Then:
 > - Place the cursor in `## Ingredients`, and run the command `Dendron: Rename Note`
 > - Rename the note to `## Best Ingredients`
 > - Use the lookup to navigate to `[[recipes.ingredients.shopping-list]]`. You should see the wikilink there has updated from `[[recipes.italian.desserts.gelato#ingredients]]` to `[[recipes.italian.desserts.gelato#best-ingredients]]`, ensuring links are updated!
 
-If wanting to migrate a section beneath a certain header, to a different note entirely, [[Move Header|dendron.topic.refactoring#move-header]] will do the job and ensure links are updated.
+If wanting to migrate a section beneath a certain header, to a different note entirely, [[Move Header|dendron://dendron.dendron-site/dendron.topic.refactoring#move-header]] will do the job and ensure links are updated.
 
 ### Refactor Hierarchy
 
@@ -96,7 +96,7 @@ recipes.vegetarian.dosa.md          -->	recipes.indian.dosa.md
 
 Selecting `Proceed` renames all the notes! No need to worry about any broken links throughout your notes, as those are updated by `Refactor Hierarchy`, too.
 
-> 💡 **TIP:** We could have chosen to move them all to `[[recipes.indian.vegetarian]]`, too, if wanted to add `vegetarian` to recipe hierarchies. Doing this would make it easy to do a lookup against all vegetarian recipes with `recipes. vegetarian`. Another alternative is to take a look at using [[Tags|dendron.topic.tags]].
+> 💡 **TIP:** We could have chosen to move them all to `[[recipes.indian.vegetarian]]`, too, if wanted to add `vegetarian` to recipe hierarchies. Doing this would make it easy to do a lookup against all vegetarian recipes with `recipes. vegetarian`. Another alternative is to take a look at using [[Tags|dendron://dendron.dendron-site/dendron.topic.tags]].
 
 ## Next Steps
 

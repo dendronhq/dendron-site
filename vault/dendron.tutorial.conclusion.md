@@ -2,14 +2,16 @@
 id: TflY5kn29HOLpp1pWT9tP
 title: Conclusion
 desc: ''
-updated: 1639611357508
+updated: 1639678353333
 created: 1625564254964
 nav_order: 4
 ---
 
-**Congratulations!** You've completed the Dendron Tutorial 🙌. With its fast lookup, flexible hierarchies, note linking, and rich formatting, Dendron provides you a way to manage knowledge for individuals and organizations alike.
+**Congratulations!** You've completed the Dendron Tutorial 🙌.
 
-From here, you can start adding your notes to your current workspace, or if you'd like to start fresh you can create a new workspace for your notes with the `Dendron: Initialize Workspace` Command.
+With fast lookup, flexible hierarchies, note linking, and rich formatting, you're now ready to organize, reference, and work with any amount of knowledge.
+
+From here, you can start adding your notes to this workspace or, if you'd like to start fresh, you can create a new workspace for your notes with the `Dendron: Initialize Workspace` Command.
 
 ## Join the Dendron Community
 
@@ -27,9 +29,11 @@ If you want to learn more about [[publishing your notes online|dendron://dendron
 
 ## Explore the full potential of Dendron
 
-There is much more that Dendron offers. When you're ready, learn more about additional features with this _Choose Your Own Adventure_ list of learnings. Each section represents and area of a map that goes deeper into the world of Dendron.
+There is much more that Dendron offers. When you're ready, learn more about our additional features.
 
 ### Trail
+
+_This is your immediate jumping off point after finishing the tutorial. It covers useful concepts that we didn't have time to cover in the basic tutorial._
 
 - Basics
     - [x] Learn the basics of Dendron with the [[Getting Started tutorial|dendron.tutorial]].
@@ -50,6 +54,8 @@ There is much more that Dendron offers. When you're ready, learn more about addi
 
 ### Forest
 
+_Here we go a level deeper by going over intermediate topics. Wander through here to learn how to customize Dendron for your workflow._
+
 - Retrieval
     - Learn how to customize the power and functionality of your lookups with [[Lookup Modifiers|dendron://dendron.dendron-site/dendron.topic.lookup.modifiers]].
 - Editing
@@ -65,6 +71,8 @@ There is much more that Dendron offers. When you're ready, learn more about addi
     - Learn how to use Dendron interoperably with other formats, by [[exporting/importing your notes with Pods|dendron://dendron.dendron-site/dendron.topic.pod]].
 
 ### Wilderness
+
+_This is for people that want to explore the cutting edge. Explore here to master advanced functionality in Dendron._
 
 - Sharing
     - Learn the [[best practices and guidance on using Dendron collaboratively with Teams|dendron://dendron.dendron-site/dendron.topic.teams]].
