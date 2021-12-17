@@ -269,7 +269,7 @@ We recommend using one of the following extensions to do flashcards:
 We currently don't support video playback from within iframes inside of VSCode. This works when publishing but not inside the VSCode preview. 
 This is a limitation in the VSCode webview, see more details [here](https://github.com/microsoft/vscode/issues/54097).
 
-Currently, the recommendation is to link to your video (using a regular markdown link if its online or a wikilink if its local). See [[links to non-note files|dendron://dendron.dendron-site/dendron.topic.links#links-to-non-note-files]].
+Currently, the recommendation is to link to your video (using a regular markdown link if its online or a wikilink if its local). See [[File Links|dendron://dendron.dendron-site/dendron.topic.links#file-links]].
 ## Other
 
 ### How to launch dendron with most recent vault quickly?

@@ -36,7 +36,7 @@ Dendron makes use of the [VS Code `Rename Symbol` command](https://code.visualst
 Dendron currently supports the following symbols:
 
 - [[Wiki Links|dendron://dendron.dendron-site/dendron.topic.links#wiki-links]]
-- [[Links to non-note files|dendron://dendron.dendron-site/dendron.topic.links#links-to-non-note-files]]
+- [[File Links|dendron://dendron.dendron-site/dendron.topic.links#file-links]]
 
 ### Refactor Hierarchy
 
