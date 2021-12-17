@@ -23,7 +23,7 @@ Dendron notes can co-exist among other files in a project, such as code files. N
 - feat(commands): find broken links ([[docs|dendron://dendron.dendron-site/dendron.ref.commands#findbrokenlinks]])
 - feat(notes): Note Trait System Prototype (Phase 1) ([[docs|dendron://dendron.dendron-site/dendron.topic.traits.quickstart]])
 - feat(navigation): implement `Go to Definition` for non-note files ([[docs|dendron://dendron.dendron-site/dendron.topic.navigation#go-to-definition]])
-- feat(navigation): `Goto Note` can open links to non-note files ([[docs|dendron://dendron.dendron-site/dendron.topic.links#links-to-non-note-files]])
+- feat(navigation): `Goto Note` can open links to non-note files ([[docs|dendron://dendron.dendron-site/dendron.topic.links#file-links]])
 - feat(refactor): support `Rename Symbol` with Dendron wikilinks ([[docs|dendron://dendron.dendron-site/dendron.topic.refactoring#rename-symbol]])
 - enhance(navigation): allow `Goto Note` to work inside code blocks
 
