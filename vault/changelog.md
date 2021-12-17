@@ -2,10 +2,25 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1639515107203
+updated: 1639763240605
 created: 1601508213606
 nav_order: 2
 ---
+
+## 0.73.2
+
+### Features
+- feat(pod): Progress on gdoc exportv2 pod (#1808) @joshi
+
+### Enhancements
+- enhance(docs): Getting Started guide refresh, with several other docs updates ([diff](https://github.com/dendronhq/dendron-site/pull/316/files)) ([[docs|dendron://dendron.dendron-site/dendron.tutorial]]) @derek
+- enhance(views): Support new config to automatically show preview (#1897) @tuling
+- enhance(docs): update some links in tutorial docs @kevin
+
+### Fix
+- fix(dev): delete npmrc (#1898) @jonathan
+- fix(refactor): refactor crashes when captured note is a stub (#1910) @hikchoi
+- fix(views): error with schema graph @kevin
 
 ## 0.73.0
 
