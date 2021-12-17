@@ -2,7 +2,7 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1639768166125
+updated: 1639768371046
 created: 1601508213606
 nav_order: 2
 ---
@@ -16,7 +16,7 @@ nav_order: 2
 - enhance(docs): Getting Started guide refresh, with several other docs updates ([[docs|dendron://dendron.dendron-site/dendron.tutorial]]) ([diff](https://github.com/dendronhq/dendron-site/pull/316/files)) @derek
 - enhance(docs): update some links in tutorial docs @kevin
 - enhance(navigation): copy note link now works inside files ([[docs|dendron://dendron.dendron-site/dendron.ref.commands#copy-note-link]]) (#1895) @kaan
-- enhance(navigation): links to files can now link to specific lines ([[docs|dendron.topic.links#file-links]]) (#1895) @kaan
+- enhance(navigation): links to files can now link to specific lines ([[docs|dendron://dendron.dendron-site/dendron.topic.links#file-links]]) (#1895) @kaan
 - enhance(views): Support new config to automatically show preview (#1897) @tuling
 - enhance(navigation): links to files are now highlighted as existing if the linked file exists (#1895) @kaan
 
