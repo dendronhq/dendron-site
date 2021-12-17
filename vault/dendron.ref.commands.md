@@ -2,7 +2,7 @@
 id: eea2b078-1acc-4071-a14e-18299fc28f47
 title: Commands
 desc: ''
-updated: 1639512322430
+updated: 1639767090181
 created: 1595261816971
 nav_order: 3.1
 ---
@@ -43,6 +43,7 @@ If you use this command in a [[multi vault|dendron.topic.multi-vault]] workspace
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/command.copy-link.gif)
 
+You can use this command in any file inside your workspace, including files that aren't notes, to get [[links to those files|dendron://dendron.dendron-site/dendron.topic.links#links-to-files]].
 
 You can also copy note link by Right Click on editor and select `Dendron: Copy Note Link` from the context menu.
 

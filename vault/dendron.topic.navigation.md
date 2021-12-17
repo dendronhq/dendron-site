@@ -40,7 +40,7 @@ This simply lists all broken links in the scope.
   - key: `ctrl+enter`
   - when: `editorFocus`
 
-Goto to the note in the [[wikilinks|dendron://dendron.dendron-site/dendron.topic.links#wiki-links]] or the [[links to non-note files|dendron://dendron.dendron-site/dendron.topic.links#links-to-non-note-files]] under the cursor, creating them if they doesn't exist.
+Goto to the note in the [[wikilinks|dendron://dendron.dendron-site/dendron.topic.links#wiki-links]] or the [[File Links|dendron://dendron.dendron-site/dendron.topic.links#file-links]] under the cursor, creating them if they doesn't exist.
 
 ### Go to Definition
 
@@ -49,7 +49,7 @@ Dendron lets you rename symbols using the IDE's native `Go to Definition` comman
 Dendron currently supports the following symbols:
 
 - [[Wiki Links|dendron://dendron.dendron-site/dendron.topic.links#wiki-links]]
-- [[Links to non-note files|dendron://dendron.dendron-site/dendron.topic.links#links-to-non-note-files]]
+- [[File Links|dendron://dendron.dendron-site/dendron.topic.links#file-links]]
 
 ### Go Up
 

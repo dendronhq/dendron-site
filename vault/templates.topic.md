@@ -2,7 +2,7 @@
 id: ZljuAhFuNWEOUlFtPlC0h
 title: Topic
 desc: ''
-updated: 1635992240691
+updated: 1639763773136
 created: 1635992238170
 ---
 
@@ -15,8 +15,8 @@ created: 1635992238170
 ## Concepts
 <!-- Concepts that relate particular topic-->
 
-## Examples
-<!-- showcase sample use cases -->
+## Features
+<!-- Specific features-->
 
 ## Commands
 <!-- VSCode specific commands if applicable -->
@@ -29,6 +29,9 @@ created: 1635992238170
 
 ## FAQ
 <!-- Commonly asked questions -->
+
+## Examples
+<!-- showcase sample use cases -->
 
 ## Cookbook
 <!-- Commonly used commands -->
