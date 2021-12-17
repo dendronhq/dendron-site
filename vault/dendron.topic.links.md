@@ -2,7 +2,7 @@
 id: 3472226a-ff3c-432d-bf5d-10926f39f6c2
 title: Links
 desc: ''
-updated: 1639764116094
+updated: 1639767365055
 created: 1595003088839
 ---
 
@@ -46,15 +46,17 @@ Wiki links also have support for highlighting in the editor. Existing notes will
 
 ### File Links
 
-> This feature is experimental. Some things like hovering over them, autocomplete, or highlights may not work yet.
+> This feature is experimental. Some things like autocomplete may not work yet.
 
-You can link to files in your workspace that are not notes using wikilinks. If
-the file is in an `assets` folder inside a vault, you can write
-`[[/assets/file.txt]]`.
+You can link to files in your workspace that are not notes using wikilinks. The
+easiest way to link to a file is using the [[Copy Note Link|dendron.ref.commands#copy-note-link]]
+command, which will automatically create a link for you.
 
-Otherwise, you can write the full path to the file from where your `dendron.yml`
-file is located. For example, if the root of your workspace contains
-`dendron.yml` and a `src` folder, you can write `[[/src/index.js]]`.
+Otherwise, you need to write inside a wikilink the relative path to the file
+from where your `dendron.yml` file is located. For example, if the root of your
+workspace contains `dendron.yml` and a `src` folder, you can write
+`[[src/index.js]]`. Alternatively, if you are linking to a file inside the
+`assets` folder of a vault, you can simply type `[[assets/example.py]]` to link to it.
 
 ### Children Links
 
