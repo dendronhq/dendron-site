@@ -2,7 +2,7 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1639763240605
+updated: 1639765721263
 created: 1601508213606
 nav_order: 2
 ---
@@ -13,14 +13,18 @@ nav_order: 2
 - feat(pod): Progress on gdoc exportv2 pod (#1808) @joshi
 
 ### Enhancements
-- enhance(docs): Getting Started guide refresh, with several other docs updates ([diff](https://github.com/dendronhq/dendron-site/pull/316/files)) ([[docs|dendron://dendron.dendron-site/dendron.tutorial]]) @derek
-- enhance(views): Support new config to automatically show preview (#1897) @tuling
+- enhance(docs): Getting Started guide refresh, with several other docs updates ([diff](https://github.com/dendronhq/dendron-site/pull/316/files)) ([[docs|dendron.tutorial]]) @derek
 - enhance(docs): update some links in tutorial docs @kevin
+- enhance(views): Support new config to automatically show preview (#1897) @tuling
+- enhance(navigation): links to files can now link to specific lines @kaan 
+- enhance(navigation): copy note link now works inside files @kaan
+- enhance(navigation): links to files are now highlighted as existing if the linked file exists @kaan
 
 ### Fix
-- fix(dev): delete npmrc (#1898) @jonathan
 - fix(refactor): refactor crashes when captured note is a stub (#1910) @hikchoi
-- fix(views): error with schema graph @kevin
+- fix(views): error when opening schema graph @kevin
+- fix(docs): Replaced instances of `spwan` with `spawn` [icedwater](https://github.com/icedwater)
+- fix(navigation): hovering over links to files will display a `Click here to open this` message, and not the incorrect `This note is missing` message @kaan
 
 ## 0.73.0
 
