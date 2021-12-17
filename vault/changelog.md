@@ -2,7 +2,7 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1639765721263
+updated: 1639768166125
 created: 1601508213606
 nav_order: 2
 ---
@@ -13,18 +13,18 @@ nav_order: 2
 - feat(pod): Progress on gdoc exportv2 pod (#1808) @joshi
 
 ### Enhancements
-- enhance(docs): Getting Started guide refresh, with several other docs updates ([diff](https://github.com/dendronhq/dendron-site/pull/316/files)) ([[docs|dendron.tutorial]]) @derek
+- enhance(docs): Getting Started guide refresh, with several other docs updates ([[docs|dendron://dendron.dendron-site/dendron.tutorial]]) ([diff](https://github.com/dendronhq/dendron-site/pull/316/files)) @derek
 - enhance(docs): update some links in tutorial docs @kevin
+- enhance(navigation): copy note link now works inside files ([[docs|dendron://dendron.dendron-site/dendron.ref.commands#copy-note-link]]) (#1895) @kaan
+- enhance(navigation): links to files can now link to specific lines ([[docs|dendron.topic.links#file-links]]) (#1895) @kaan
 - enhance(views): Support new config to automatically show preview (#1897) @tuling
-- enhance(navigation): links to files can now link to specific lines @kaan 
-- enhance(navigation): copy note link now works inside files @kaan
-- enhance(navigation): links to files are now highlighted as existing if the linked file exists @kaan
+- enhance(navigation): links to files are now highlighted as existing if the linked file exists (#1895) @kaan
 
 ### Fix
+- fix(navigation): hovering over links to files will display a `Click here to open this` message, and not the incorrect `This note is missing` message (#1895) @kaan
 - fix(refactor): refactor crashes when captured note is a stub (#1910) @hikchoi
 - fix(views): error when opening schema graph @kevin
 - fix(docs): Replaced instances of `spwan` with `spawn` [icedwater](https://github.com/icedwater)
-- fix(navigation): hovering over links to files will display a `Click here to open this` message, and not the incorrect `This note is missing` message @kaan
 
 ## 0.73.0
 
