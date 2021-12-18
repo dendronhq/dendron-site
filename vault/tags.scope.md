@@ -2,12 +2,15 @@
 id: OuLI06rJAJurTZ2WYTCtT
 title: Scope
 desc: ''
-updated: 1637187804658
+updated: 1639779822694
 created: 1629753418643
 color: green
 ---
 
+## Summary
+
 A scope is the area of the product a feature belongs in
+
 ## Index
 - #scope.cli
 - #scope.commands
