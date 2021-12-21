@@ -1,10 +1,5 @@
 version: 1
 schemas:
-- id: changelog
-  children:
-  - pattern: release
-    namespace: true
-    template: templates.release.weekly-public-announcement
 - id: dendron
   parent: root
   children:

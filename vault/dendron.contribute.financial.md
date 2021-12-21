@@ -2,10 +2,10 @@
 id: abda4d2a-d8a2-4dd6-8ea0-4a5661fa13c1
 title: Financial
 desc: ''
-updated: 1604236474623
+updated: 1640025173712
 created: 1604236189356
 ---
-![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/grow-covid-2.png)
+![dendron logo](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/grow-covid-2.png)
 
 If you would like to make a financial contribution to Dendron, you can do so by getting a Dendron **environmentalist** subscription.
 

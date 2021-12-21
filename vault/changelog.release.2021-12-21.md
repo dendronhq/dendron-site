@@ -1,0 +1,92 @@
+---
+id: NWLX4IYsgJ6tjM93ZjVnt
+title: 0.74
+desc: ''
+updated: 1640109351997
+created: 1640103385628
+---
+
+<!-- Replace frontmatter title-->
+
+Dendron 0.74 has sprouted  🌱
+
+### Highlights
+- enhance(workspace): go to definition & hover works for wikilinks inside regular files
+- enhance(navigation): copy note link now works inside files ([[docs|dendron://dendron.dendron-site/dendron.ref.commands#copy-note-link]])
+
+### Everything Else
+- enhance(navigation): links to files can now link to specific lines ([[docs|dendron://dendron.dendron-site/dendron.topic.links#file-links]])
+- enhance(views): Support new config to automatically show preview  ([[docs|dendron://dendron.dendron-site/dendron.ref.config.preview#automaticallyshowpreview]])
+- enhance(navigation): links to files are now highlighted as existing if the linked file exists
+- enhance(docs): update some links in tutorial docs
+- fix(workspace): autocomplete deletes text following wikilink with no closing brackets
+- fix(workspace): extension crash in non-Dendron workspaces when there's a large number of files
+- fix(workspace): xkcd seed vault description
+- fix(views): error when opening schema graph
+
+### Doc Updates
+- non note files have been renamed to files. this doesn't change code or behavior but references to "non-note" have been replaced with "file"
+    - eg.  [[File Links|dendron://dendron.dendron-site/dendron.topic.links#file-links]]
+- getting started guide refresh has been overhauled, with many more examples and a new jumping off point at the very end ([[docs|dendron://dendron.dendron-site/dendron.tutorial]]) ([diff](https://github.com/dendronhq/dendron-site/pull/316/files))
+
+### Community
+
+#### General Updates
+
+Dendron was featured in the latest VS Code livestream!
+- [Video](https://youtu.be/dW6m4_O0qvQ)
+- [Our answers to in stream questions](https://twitter.com/dendronhq/status/1471580139771334664)
+
+#### Dendron Reading Series
+
+This week's entry in the [[Dendron Reading Series|community.reading-series]]. 
+
+![[dendron://dendron.dendron-site/community.reading-series.journal.2021.12.21]]
+
+#### Office Hours
+We will be hosting the last Office Hours of 2021 on **[Wed, Dec 22, 9:00 AM - 10:00 AM PST](https://link.dendron.so/6cqo)**
+
+Notes, and the recording, of the previous Office Hours can be found [[here|dendron://dendron.dendron-site/community.office-hours.2021.12.08]]
+
+#### Thank You's
+
+A big **thanks** to the following gardeners that brought up issues, contributions, and fixes to this release :man_farmer: :woman_farmer: 
+You can see an overview of all roles [[here|community.roles]]
+
+- [icedwater](https://github.com/icedwater) `@icedwater#8514`
+  - #dendron.horticulturalist
+  - [feat: replaced instances of 'spwan' with 'spawn'](https://github.com/dendronhq/dendron/pull/1792)
+- [Aleksey Rowan](https://github.com/aleksey-rowan) `@aleksey#5276`
+  - new config options not being filled in on upgrade
+- [Zero King](https://github.com/l2dy) `@l2dy#9201`
+  - #dendron.bugcatcher
+  - horizontal lines on published site have 0px height
+- [Ding Fan](https://github.com/Ding-Fan) `@rainmaker#7370`
+  - #dendron.bugcatcher
+  - [cannot search case insensitive with full length word](https://github.com/dendronhq/dendron/issues/1899)
+- [Nicklas Gummesson](https://github.com/viddo) `@viddo#9229`
+  - #dendron.bugcatcher
+  - [GoToSiblingCommand: You found a bug! We didn't think this could happen but you proved us wrong](https://github.com/dendronhq/dendron/issues/1907)
+- [Michael Harrison](https://github.com/micharris42) `@micharris42#6073`
+  - [Note Traits - Missing JS file for Journal Notes](https://github.com/dendronhq/dendron/issues/1911)
+- [jquesada2016](https://github.com/jquesada2016)
+  - #dendron.bugcatcher
+  - [Broken developer doc links](https://github.com/dendronhq/dendron/issues/1912)
+- [Aleksey Rowan](https://github.com/aleksey-rowan) `@aleksey#5276`
+  - [`Doctor: fixFrontmatter` command adds empty line under frontmatter block](https://github.com/dendronhq/dendron/issues/1919)
+- [Phani Rithvij](https://github.com/phanirithvij)
+  - #dendron.bugcatcher
+  - [show links in graph view when stubs are hidden](https://github.com/dendronhq/dendron/issues/1921)
+- [Kumudan](https://github.com/kzilla-git) `@kzilla#8818`
+  - #dendron.bugcatcher
+  - [Broken Links Preview: Line number starts after frontmatter](https://github.com/dendronhq/dendron/issues/1936)
+- [Florian Beijers](https://github.com/zersiax) `@zersiax#2665`
+  - #dendron.bugcatcher
+  - [Accessibility: Screen readers no longer accurately report current ctrl+l result](https://github.com/dendronhq/dendron/issues/1940)
+- [Ryan Hill](https://github.com/rlh1994) `@rlh1994#9754`
+  - #dendron.taxonomist
+  - [Add npx command to Preview Your Site page](https://github.com/dendronhq/dendron-site/pull/320)
+
+
+### Changelog
+![[dendron://dendron.dendron-site/changelog#074:#0730]]
