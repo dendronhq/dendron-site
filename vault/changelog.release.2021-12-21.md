@@ -2,7 +2,7 @@
 id: NWLX4IYsgJ6tjM93ZjVnt
 title: 0.74
 desc: ''
-updated: 1640109351997
+updated: 1640111954811
 created: 1640103385628
 ---
 
@@ -36,6 +36,20 @@ Dendron 0.74 has sprouted  🌱
 Dendron was featured in the latest VS Code livestream!
 - [Video](https://youtu.be/dW6m4_O0qvQ)
 - [Our answers to in stream questions](https://twitter.com/dendronhq/status/1471580139771334664)
+
+#### Updates to our Contribution Tiers
+
+A lot of you have asked us for more flexibility when it comes to supporting Dendron financially. 
+For individuals, we now offer one time contributions. 
+For teams, we now offer dedicated business support as well as the ability to pay annually. 
+
+The diff of changes:
+- The **Seed** tier is now a one time contribution tier (pay what you want with a minimum):
+- The **Sprout** tier is unchanged
+- The **Tree** tier has new benefits (hand made dendron illustrations and ability to give away seed memberships)
+- The **Forest** tier has been overhauled to focus on teams and businesses
+
+Full details can be found [[here|dendron://dendron.dendron-site/dendron.contribute.financial]]!
 
 #### Dendron Reading Series
 
