@@ -2,14 +2,14 @@
 id: 81da87be-2d4e-47b5-a1d6-c0d647e1ab00
 title: Development
 desc: ''
-updated: 1639537707863
+updated: 1640113871094
 created: 1604236041570
 ---
 ## Summary
 
 If you would like to contribute to the development of dendron, checkout out the [repo](https://link.dendron.so/github) from github.
 
-You can then follow the [[setup instructions|pkg.plugin-core.quickstart#build]].
+You can then follow the [setup instructions](https://docs.dendron.so/notes/64f0e2d5-2c83-43df-9144-40f2c68935aa.html)
 
 A great place to start is with issues labelled with the [size.small](https://github.com/dendronhq/dendron/labels/size.small) label on github. These are small, self contained tasks that are well suited for first time contributors.
 
