@@ -1,0 +1,10 @@
+version: 1
+imports: []
+schemas:
+  - id: changelog
+    title: changelog
+    parent: root
+    children:
+    - pattern: release
+      namespace: true
+      template: templates.release.weekly-public-announcement

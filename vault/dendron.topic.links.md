@@ -2,7 +2,7 @@
 id: 3472226a-ff3c-432d-bf5d-10926f39f6c2
 title: Links
 desc: ''
-updated: 1639767365055
+updated: 1640102109898
 created: 1595003088839
 ---
 
@@ -46,7 +46,7 @@ Wiki links also have support for highlighting in the editor. Existing notes will
 
 ### File Links
 
-> This feature is experimental. Some things like autocomplete may not work yet.
+![[dendron://dendron.dendron-site/tags.stage.seed]]
 
 You can link to files in your workspace that are not notes using wikilinks. The
 easiest way to link to a file is using the [[Copy Note Link|dendron.ref.commands#copy-note-link]]

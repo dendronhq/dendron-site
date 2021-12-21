@@ -2,7 +2,7 @@
 id: j5wgTcRHQZomzSHsg41O8
 title: Quickstart
 desc: ''
-updated: 1638946044382
+updated: 1639981332601
 created: 1638871404471
 published: false
 ---
@@ -67,3 +67,17 @@ For example, say that you want to save a configuration to export to your persona
 ## Running a Saved Pod Configuration
 
 To run a saved pod configuration, use the `Dendron: Export Pod V2`.  In the QuickPick, select the id of your configuration to run it.
+
+## Adding a VSCode Shortcut
+
+You can also add a command shortcut to ru your particular pod configuration.  Bring up your VSCode `keybindings.json` file by running `Preferences: Open Keyboard Shortcuts (JSON)`.  Then add the following shortcut definition: 
+
+For "args", replace with your pod-ID.
+
+```json
+{
+    "key": "cmd+k t",
+    "command": "dendron.exportPodv2",
+    "args": "my-pod-id"
+}
+```
