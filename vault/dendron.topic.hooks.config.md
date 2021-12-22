@@ -12,7 +12,7 @@ This configuration covers all [[hooks|dendron.topic.hooks]] related sections
 
 #### id
 
-Unique id for the note. This also corresponds to the javascript file that will be created under `{workspace}/hooks/{id}.js`
+Unique id for the hook. This also corresponds to the javascript file that will be created under `{workspace}/hooks/{id}.js`
 
 #### pattern
 - default: `*`
