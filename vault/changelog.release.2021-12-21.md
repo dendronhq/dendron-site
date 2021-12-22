@@ -1,14 +1,20 @@
 ---
 id: NWLX4IYsgJ6tjM93ZjVnt
-title: 0.74
+title: "0.74"
 desc: ''
-updated: 1640111954811
+updated: 1640189368036
 created: 1640103385628
 ---
 
-<!-- Replace frontmatter title-->
-
 Dendron 0.74 has sprouted  🌱
+
+The `Copy Note Link` command has been enhanced to easily create links to other files in your workspace, even if they aren't Dendron notes! This means being able to copy links to scripts, config files, etc. and add those links into your notes.
+
+- [More info on `Copy Note Link`](https://wiki.dendron.so/notes/eea2b078-1acc-4071-a14e-18299fc28f47/#copy-note-link)
+
+The Getting Started tutorials have been refreshed, which included a variety of updates across different docs that are mentioned and referenced throughout! The updates address feedback provided by the community, and GitHub discussions.
+
+- [Visit the Getting Started Docs](https://wiki.dendron.so/notes/678c77d9-ef2c-4537-97b5-64556d6337f1/)
 
 ### Highlights
 - enhance(workspace): go to definition & hover works for wikilinks inside regular files
@@ -68,37 +74,28 @@ A big **thanks** to the following gardeners that brought up issues, contribution
 You can see an overview of all roles [[here|community.roles]]
 
 - [icedwater](https://github.com/icedwater) `@icedwater#8514`
-  - #dendron.horticulturalist
   - [feat: replaced instances of 'spwan' with 'spawn'](https://github.com/dendronhq/dendron/pull/1792)
 - [Aleksey Rowan](https://github.com/aleksey-rowan) `@aleksey#5276`
   - new config options not being filled in on upgrade
 - [Zero King](https://github.com/l2dy) `@l2dy#9201`
-  - #dendron.bugcatcher
   - horizontal lines on published site have 0px height
 - [Ding Fan](https://github.com/Ding-Fan) `@rainmaker#7370`
-  - #dendron.bugcatcher
   - [cannot search case insensitive with full length word](https://github.com/dendronhq/dendron/issues/1899)
 - [Nicklas Gummesson](https://github.com/viddo) `@viddo#9229`
-  - #dendron.bugcatcher
   - [GoToSiblingCommand: You found a bug! We didn't think this could happen but you proved us wrong](https://github.com/dendronhq/dendron/issues/1907)
 - [Michael Harrison](https://github.com/micharris42) `@micharris42#6073`
   - [Note Traits - Missing JS file for Journal Notes](https://github.com/dendronhq/dendron/issues/1911)
 - [jquesada2016](https://github.com/jquesada2016)
-  - #dendron.bugcatcher
   - [Broken developer doc links](https://github.com/dendronhq/dendron/issues/1912)
 - [Aleksey Rowan](https://github.com/aleksey-rowan) `@aleksey#5276`
   - [`Doctor: fixFrontmatter` command adds empty line under frontmatter block](https://github.com/dendronhq/dendron/issues/1919)
 - [Phani Rithvij](https://github.com/phanirithvij)
-  - #dendron.bugcatcher
   - [show links in graph view when stubs are hidden](https://github.com/dendronhq/dendron/issues/1921)
 - [Kumudan](https://github.com/kzilla-git) `@kzilla#8818`
-  - #dendron.bugcatcher
   - [Broken Links Preview: Line number starts after frontmatter](https://github.com/dendronhq/dendron/issues/1936)
 - [Florian Beijers](https://github.com/zersiax) `@zersiax#2665`
-  - #dendron.bugcatcher
   - [Accessibility: Screen readers no longer accurately report current ctrl+l result](https://github.com/dendronhq/dendron/issues/1940)
 - [Ryan Hill](https://github.com/rlh1994) `@rlh1994#9754`
-  - #dendron.taxonomist
   - [Add npx command to Preview Your Site page](https://github.com/dendronhq/dendron-site/pull/320)
 
 
