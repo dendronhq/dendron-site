@@ -2,11 +2,19 @@
 id: NWLX4IYsgJ6tjM93ZjVnt
 title: "0.74"
 desc: ''
-updated: 1640120078729
+updated: 1640189368036
 created: 1640103385628
 ---
 
 Dendron 0.74 has sprouted  🌱
+
+The `Copy Note Link` command has been enhanced to easily create links to other files in your workspace, even if they aren't Dendron notes! This means being able to copy links to scripts, config files, etc. and add those links into your notes.
+
+- [More info on `Copy Note Link`](https://wiki.dendron.so/notes/eea2b078-1acc-4071-a14e-18299fc28f47/#copy-note-link)
+
+The Getting Started tutorials have been refreshed, which included a variety of updates across different docs that are mentioned and referenced throughout! The updates address feedback provided by the community, and GitHub discussions.
+
+- [Visit the Getting Started Docs](https://wiki.dendron.so/notes/678c77d9-ef2c-4537-97b5-64556d6337f1/)
 
 ### Highlights
 - enhance(workspace): go to definition & hover works for wikilinks inside regular files
