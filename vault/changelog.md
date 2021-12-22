@@ -2,21 +2,32 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1639768502339
+updated: 1640103338684
 created: 1601508213606
 nav_order: 2
 ---
 
+## 0.74
+
+### Enhancements
+- enhance(workspace): go to definition & hover works for wikilinks inside regular files (#1917) @kaan
+
+### Bug Fixes
+- fix(navigation): hovering over links to files will display a "click here to open this" message, and not the incorrect "this note is missing" message @kaan
+- fix(workspace): autocomplete deletes text following wikilink with no closing brackets (#1909) @kaan
+- fix(workspace): extension crash in non-Dendron workspaces when there's a large number of files (#1913) @kaan
+- fix(workspace): xkcd seed vault description (#1923) [Zero King](https://github.com/l2dy) `@l2dy#9201`
+
 ## 0.73.2
 
 ### Features
-- feat(pod): Progress on gdoc exportv2 pod (#1808) @joshi
+- feat(pod): Gdoc exportv2 pod (#1808) @joshi
 
 ### Enhancements
 - enhance(docs): Getting Started guide refresh, with several other docs updates ([[docs|dendron://dendron.dendron-site/dendron.tutorial]]) ([diff](https://github.com/dendronhq/dendron-site/pull/316/files)) @derek
 - enhance(navigation): copy note link now works inside files ([[docs|dendron://dendron.dendron-site/dendron.ref.commands#copy-note-link]]) (#1895) @kaan
 - enhance(navigation): links to files can now link to specific lines ([[docs|dendron://dendron.dendron-site/dendron.topic.links#file-links]]) (#1895) @kaan
-- enhance(views): Support new config to automatically show preview (#1897) @tuling
+- enhance(views): Support new config to automatically show preview (#1897) @tuling ([[docs|dendron://dendron.dendron-site/dendron.ref.config.preview#automaticallyshowpreview]])
 - enhance(navigation): links to files are now highlighted as existing if the linked file exists (#1895) @kaan
 
 ### Fix

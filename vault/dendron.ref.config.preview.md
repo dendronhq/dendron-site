@@ -2,7 +2,7 @@
 id: l4MoqPhFvcca6Vf5T84e0
 title: Preview
 desc: ''
-updated: 1637309426465
+updated: 1640103185746
 created: 1637309100103
 ---
 
@@ -14,12 +14,19 @@ Below is an overview of what the preview namespace looks like.
 
 ```yml
 preview:
+  automaticallyShowPreview:
   enableFMTitle:
   enableNoteTitleForLink:
   enablePrettyRefs:
   enableMermaid:
   enableKatex:
 ```
+
+## automaticallyShowPreview
+If enabled, preview panel will be shown upon startup and when switching between notes (if not already shown)
+
+- type: boolean
+- default: false
 
 ## enableFMTitle
 Render frontmatter title property as title of the note.

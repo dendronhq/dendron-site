@@ -1,10 +1,9 @@
 ---
 id: YGPB74N6VkRQ8tBJrby3I
 title: Analytics
-desc: ''
-updated: 1638843138196
+desc: 'Related to analytics'
+updated: 1639773845837
 created: 1638843134642
 ---
 
-
-Analytics related
+Related to analytics
