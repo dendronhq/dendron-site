@@ -13,7 +13,7 @@ frontend:
         - "(test -d .next) && (echo 'updating dendron next...' && cd .next && git reset --hard && git clean -f && git pull && yarn) || (echo 'init dendron next' && npx dendron publish init)"
         - '[ $AWS_BRANCH = "dev" ] && cd .next && git fetch && git checkout dev && cd .. || echo 0' 
         # diagnostics
-        - "echo `pwd`"
+        - "(test -d .next/.next) && (rm -rf .next/.next && echo 'delete next cache' && cd ..) || echo 'no next cache found'"
         - "echo 'version check...' && yarn dendron --version"
         - "echo 'build and export...' && yarn dendron publish export"
   artifacts:
