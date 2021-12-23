@@ -132,7 +132,7 @@ Dendron is an **open-source**, **local-first**, **Markdown-based**, **note-takin
 - required: false
 
 ### importComments
-- description: import comments from the doc in text or json format
+- description: import comments from the doc in text or JSON format
 - required: false
 - type: object
 - example: : {enable: true, format: text} 

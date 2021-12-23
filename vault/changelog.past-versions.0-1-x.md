@@ -494,7 +494,7 @@ Finally, we do have an escape valve in things something goes terribly wrong. You
 
 ### Bug Fixes
 
-- **workbench:** read json config with comments ([1741553](https://github.com/dendronhq/dendron/commit/1741553695b1c7cced54bf04b26700076a38a19c))
+- **workbench:** read JSON config with comments ([1741553](https://github.com/dendronhq/dendron/commit/1741553695b1c7cced54bf04b26700076a38a19c))
   - Dendron gets sad if your workspace has comments
 
 ### Community

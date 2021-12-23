@@ -29,7 +29,7 @@ Running this pod will create the following files in `dest`.
 
 ### dendron.json
 
-This is a json version of [[dendron.yml|dendron.ref.config]]. It's used to enable/disable various language features
+This is a JSON version of [[dendron.yml|dendron.ref.config]]. It's used to enable/disable various language features
 
 ### fuse.json
 

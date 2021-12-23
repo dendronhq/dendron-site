@@ -82,7 +82,7 @@ journal:
 
 To get snippets to autocomplete, make sure you don't have snippets disabled
 
-1. go to > workspace: open user settings (json)
+1. go to > workspace: open user settings (JSON)
 2. change the following line to `true`
 
 ```json
@@ -99,7 +99,7 @@ To get snippets to autocomplete, make sure you don't have snippets disabled
 
 Dendron will update keybindings/settings/etc to the latest defaults if not currently set on upgrade. If you see the above error, it means that Dendron had trouble parsing one of your settings files. This doesn't stop Dendron from starting but it does mean that the latest settings aren't being applied.
 
-The most likely culprit of this error is a bad snippets file. To fix, bring up the command prompt, type `>Configure User Snippets`, open `dendron.code-snippets` and see if there's anything funky with the json on the line mentioned by the error. You can also use tools like [jsonlint](https://jsonlint.com/) to validate your JSON.
+The most likely culprit of this error is a bad snippets file. To fix, bring up the command prompt, type `>Configure User Snippets`, open `dendron.code-snippets` and see if there's anything funky with the JSON on the line mentioned by the error. You can also use tools like [jsonlint](https://jsonlint.com/) to validate your JSON.
 
 ## Schemas
 

@@ -39,7 +39,7 @@ Options
 - for common options, see [[common options|dendron.ref.cli#common-options]]
 - `--output`: controls how note is formatted
     - values: `json|markdown_gfm|markdown_dendron`
-        - json: json output
+        - json: JSON output
         - markdown_dendron: Dendron Markdown
         - markdown_gfm: GitHub Flavored Markdown 
 

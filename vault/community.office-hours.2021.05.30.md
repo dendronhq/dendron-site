@@ -39,7 +39,7 @@ created: 1622398067339
 -   Windows + integration support.
     -   Luke actually fixed a lot of UNIX/Windows file path difference issues a while ago.
 -   JSON schemas
-    -   End goal is to have json schemas to validate a schema.
+    -   End goal is to have JSON schemas to validate a schema.
         -   JSON &lt;-> TS. Which direction to go?
         -   Looking at the current codebase - non-obvious which types are for schemas.
         -   Going from JSON Schema to interfaces should be the preferred way to go.
