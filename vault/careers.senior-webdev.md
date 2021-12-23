@@ -17,7 +17,7 @@ We're looking for engineers that can build out our feature set across multiple p
 
 ## Who you are
 - You have deep experience with frontend JS (ideally React + Typescript)
-- You understand the nuances of modern CSS in its various permutations (vanialla, scss, css-in-js)
+- You understand the nuances of modern CSS in its various permutations (vanilla, SCSS, CSS-in-JS)
 - You care deeply about knowledge management and user-centric product development
 - You take a thoughtful approach to decision making and know when to make the right tradeoffs
 - You want to work in a fast paced product-driven environment

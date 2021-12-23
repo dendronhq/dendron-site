@@ -10,7 +10,7 @@ Dendron 0.59 has sprouted  🌱
 
 ### Highlights
 - feat(publish): publish using Next.js and GitHub pages ([[docs|dendron.topic.publishing-next.cook.github#summary]])
-- feat(markdown): custom css for images ([[docs|dendron.topic.images#extended-images]])
+- feat(markdown): custom CSS for images ([[docs|dendron.topic.images#extended-images]])
 - enhance(pods) Markdown import to update asset links
 
 ### Everything Else

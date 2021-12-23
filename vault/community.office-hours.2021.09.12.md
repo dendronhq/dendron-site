@@ -10,7 +10,7 @@ created: 1631637704455
 
 ## Company Updates
 
-* custom css support for images
+* custom CSS support for images
 
 -** Next.js publishing is now live** ([https://wiki.dendron.so/notes/LHsoPfTqvaJcfFA4WfEtv.html](https://wiki.dendron.so/notes/LHsoPfTqvaJcfFA4WfEtv.html))
 

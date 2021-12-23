@@ -13,7 +13,7 @@ created: 1623673321337
     -   Schema graph
     -   Filter between links + hierarchy
     -   What’s next?
-        -   Graph styling (css from Obsidian may be used for Dendron)
+        -   Graph styling (CSS from Obsidian may be used for Dendron)
 -   Block references
     -   Compiling/embedding etc. work now.
     -   What’s next?

@@ -19,7 +19,7 @@ created: 1626731383626
     * Plan is to remove existing preview at the beginning of August. 
 * Graph styling 
     * Right now, we only have light/dark. 
-    * In the next release, you can apply custom css to the graph. 
+    * In the next release, you can apply custom CSS to the graph. 
 * Workspace templates
     * Initialize with a blank workspace OR use templates
         * Daily journal

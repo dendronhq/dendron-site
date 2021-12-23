@@ -124,7 +124,7 @@ wikiLinkHierarchyBehavior: useBasename
 
 1. Better way of dealing with links. When publishing a single note, any wiki-links will presumably not work after publication. Do we want a `recursive` publish option to also resolve any wiki links and publish a whole bunch of files at once?
 
-2. Nicer ways of rendering a note reference. Currently, Dendron's note references come with the **title** and **link** of the original text. We use custom css to style the outline. When publishing, we can't assume the presence of that css. How would a **renderOutline** option look like?
+2. Nicer ways of rendering a note reference. Currently, Dendron's note references come with the **title** and **link** of the original text. We use custom CSS to style the outline. When publishing, we can't assume the presence of that CSS. How would a **renderOutline** option look like?
 
 ![[dendron.topic.note-reference#Summary,1:#*]]
 
