@@ -15,9 +15,9 @@ stub: false
 
 - are there existing (preferably javascript compatible) libraries that can import and/or export to this pod? (if so, please list them. if there aren't libraries, an example of importing is also good): yes
   - import:
-    - import del.icio.us bookmarks into evernote: <https://github.com/jorgemanrubia/evernicious> #ruby #example
+    - import del.icio.us bookmarks into Evernote: <https://github.com/jorgemanrubia/evernicious> #ruby #example
   - export:
-    - export evernote notes: <https://github.com/akosbalasko/yarle> #typescript
+    - export Evernote notes: <https://github.com/akosbalasko/yarle> #typescript
 
 - are there existing (preferably javascript compatible) libraries that can convert from/to the data format used in this pod? (if so, please list them): yes
   - convert from
@@ -35,7 +35,7 @@ stub: false
 
 ### example
 
-- evernote
+- Evernote
 
 ```
 - Cookbook (notebook stack)
