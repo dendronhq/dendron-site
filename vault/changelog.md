@@ -79,7 +79,7 @@ nav_order: 2
 ## 0.72.0
 
 ### Enhancements
-- enhance: "find all references" for markdown headers (#1833) @hikchoi
+- enhance: "find all references" for Markdown headers (#1833) @hikchoi
 - enhance: add fuzzy threshold configuration (#1811) @nickolay ([[docs|dendron://dendron.dendron-site/dendron.ref.config.commands#fuzzthreshold]])
 
 ### Fix
@@ -114,7 +114,7 @@ nav_order: 2
 ## 0.70.1
 
 ### Features
-- feat(workspace): hide default markdown preview button (#1636) @kaan
+- feat(workspace): hide default Markdown preview button (#1636) @kaan
   - We merged an upstream change with VS Code to enable toggling of the default preview. This was one of the most confusing UX parts of Dendron.
   - If wanted, the VS Code Markdown preview can still be opened via the command palette (`Ctrl+Shift P`) with: `Markdown: Open Preview` or `Markdown: Open Preview to The Side`
   - NOTE: requires VS Code 1.63
@@ -261,7 +261,7 @@ An enhancement in this release delivers breaking changes announced last week: [[
 2. We have updated the enablement of our preview features to reduce clutter in the command palette and prevent confusion.
     * `Dendron: Show Preview` is now called `Dendron: Show Preview (legacy)`
     * `Dendron: Show Preview V2` is now called `Dendron: Show Preview`
-    * Both preview commands and their keybindings are now disabled if you are in a non-Dendron workspace or if your active open document is not a markdown file. This means they will not be accessible in the command palette or triggered with a keybinding.
+    * Both preview commands and their keybindings are now disabled if you are in a non-Dendron workspace or if your active open document is not a Markdown file. This means they will not be accessible in the command palette or triggered with a keybinding.
 
 ### Enhancements
 - enhance(workspace): add seeds directory to gitignore on workspace creation (#1629) @hikchoi
@@ -270,10 +270,10 @@ An enhancement in this release delivers breaking changes announced last week: [[
 - enhance(workspace): Copy Header Reference code action (#1598) @joshi
 
 ### Fix
-- fix(publishing): markdown publish to hide block reference anchors (#1577)  @joshi
+- fix(publishing): Markdown publish to hide block reference anchors (#1577)  @joshi
 - fix(workspace): file watcher updates backlinks (#1618) @kaan
 - fix(workspace): hover & goto note should respect enableUser/HashTags (#1620) @kaan
-- fix(pods): resolve same level dir wikilinks in markdown import (#1615) @joshi
+- fix(pods): resolve same level dir wikilinks in Markdown import (#1615) @joshi
 - fix(schemas): replace auto generated ids with readable descriptions (#1632) @nickolay
 
 ## 0.65.1
@@ -469,7 +469,7 @@ dendron dev run_migration --migrationVersion 0.64.1
 - enhance(publish): support twitter card @kevin ([[docs|dendron://dendron.dendron-site/dendron.topic.publish-legacy.configuration#twitter]])
 - enhance(publish): add border color to table (#1387) @viztor
 - enhance(publish): filter body out of generated notes.json for next (#1380) @viztor
-- enhance(pods): resolve relative links on markdown import @joshi
+- enhance(pods): resolve relative links on Markdown import @joshi
 - enhance(markdown): Don't throw a fatal exception when missing note is parsed as noteRef @kevin
 - enhance(workspace): option to disable randomly colored tags in editor (#1372) @kaan ([[docs|dendron.topic.tags#disabling-automatic-colors]])
 

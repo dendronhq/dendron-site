@@ -35,14 +35,14 @@ This project discusses how to best incorporate org-mode functionality into Dendr
 - implement org-mode as a fenced block
 
 - pros:
-  - compatible with existing markdown tool chain
+  - compatible with existing Markdown tool chain
 
 - cons:
   - might not be compatible with emacs and existing org-mode toolchain
 
 ## Thoughts
 
-Currently i'm leaning towards 1). folks that want org-mode support in Dendron can create markdown files and manually set the filetype to org mode. it's not ideal since you lose the preview but other functions like lookup still work. 
+Currently i'm leaning towards 1). folks that want org-mode support in Dendron can create Markdown files and manually set the filetype to org mode. it's not ideal since you lose the preview but other functions like lookup still work. 
 
 Changing filetype has a custom command. VS Code has a default shortcut (`cmd+k m` on mac) that can be re-mapped. 
 

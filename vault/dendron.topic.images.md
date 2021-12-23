@@ -16,7 +16,7 @@ Dendron automatically inserts images in your clipboard using the `> Paste Image`
 
 ## Inserting Saved Images
 
-An easy way to insert an image which is saved locally to your markdown note is to do the following:
+An easy way to insert an image which is saved locally to your Markdown note is to do the following:
 
 - Copy / save the image in your `assets/images` folder located in your vault,
 - In Dendron navigate to the note where you wish to input the image(s), and type:

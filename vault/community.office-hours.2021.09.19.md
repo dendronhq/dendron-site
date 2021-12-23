@@ -53,7 +53,7 @@ Conversion notes:
 * Block level previews
     - Note reference + preview
 * Confluence support
-    - Confluence server, no support markdown
+    - Confluence server, no support Markdown
 * Pods for Citations
     - [https://github.com/timwoelfle/Local-Citation-Network](https://github.com/timwoelfle/Local-Citation-Network)
     - [Dendron Rfc](https://wiki.dendron.so/notes/f143ca38-dcc6-4cd3-b84b-997aec1160ef.html)

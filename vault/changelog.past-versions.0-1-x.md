@@ -75,7 +75,7 @@ One of our most requested features for multi-vault is now out. Refactor will now
 - support image hover ([8fee313](https://github.com/dendronhq/dendron/commit/8fee313785dfc4ac2564f74911a4b51879be0673))
 
   ```
-  - you can now hover over markdown image links and get the image preview
+  - you can now hover over Markdown image links and get the image preview
   ```
 
   <div style="position: relative; padding-bottom: 62.5%; height: 0;"><iframe src="https://www.loom.com/embed/82119bc9ee184e3ca8e619c3d7e48209" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
@@ -166,7 +166,7 @@ Special thanks to [Tyler Nieman](https://github.com/tsnieman) for the UI work!
 
 - add hover provider ([8d19a1b](https://github.com/dendronhq/dendron/commit/8d19a1b47f114ae738f7483fd751b62f68b46d24))
 
-You can now preview notes and references inside the editor as a hover without ever opening the link. Previews are compatible with note references and will show references as inlined markdown.
+You can now preview notes and references inside the editor as a hover without ever opening the link. Previews are compatible with note references and will show references as inlined Markdown.
 
 <div style="position: relative; padding-bottom: 62.5%; height: 0;"><iframe src="https://www.loom.com/embed/aee387226d5c4bb0a4e38cee76a1aa3e" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
@@ -215,7 +215,7 @@ You can now navigate to a specific section within a note using relative wiki lin
 
 Note that the header is expected in [github slug](https://github.com/gosimple/slug) format. This means that spaces and special characters should be replaced with `-`. 
 
-- **NOTE**: Relative wiki links currently don't work in the markdown-preview
+- **NOTE**: Relative wiki links currently don't work in the Markdown preview
 
 <div style="position: relative; padding-bottom: 62.5%; height: 0;"><iframe src="https://www.loom.com/embed/b21501b47e64449882a369590a630d7f" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
@@ -367,7 +367,7 @@ This is a quick way to update the `dendron.yml` file. You can run it by using `D
 
 ### Enhancements
 
-- **pods:** better markdown import pod  (d1eaa264)
+- **pods:** better Markdown import pod  (d1eaa264)
   - address multiple edge cases that would cause import pod to fail
   - auto-convert wiki-links from folder-based systems like obsidian into Dendron
 - **cli:** launch engine server using cli ([25eae3f](https://github.com/dendronhq/dendron/commit/25eae3fddd6a2d26dcf9e2f3e664b377c2cca978))
@@ -574,7 +574,7 @@ You will now get a warning if you are trying to save a badly formatted schema.
 
 - **publishing:** preserve abbreviations ([06d9191](https://github.com/dendronhq/dendron/commit/06d91912b34bc5f81b20fce77652366c501865ec)) --> thank you [Luke Carrier](https://github.com/LukeCarrier) for the pull request
 - **pods:** add json publish pod ([127dd7c](https://github.com/dendronhq/dendron/commit/127dd7c02a0081b027e06c40d6189904c5da0694))
-- **pods:** add markdown publish pod ([127dd7c](https://github.com/dendronhq/dendron/commit/127dd7c02a0081b027e06c40d6189904c5da0694))
+- **pods:** add Markdown publish pod ([127dd7c](https://github.com/dendronhq/dendron/commit/127dd7c02a0081b027e06c40d6189904c5da0694))
 - **pods:** update placeholder text ([57a4af8](https://github.com/dendronhq/dendron/commit/57a4af8887404c21d07b45a3a565516bf73cc944))
 - **refs:** render error when ref doesn't exist ([ba1be1a](https://github.com/dendronhq/dendron/commit/ba1be1a12c4a1742e93ab4058d0f132b320be539))
 
@@ -641,7 +641,7 @@ Documentation for pods has been re-written to reflect recent changes with pods
 
 #### Rename and Refactor Commands an Order of Magnitude Faster Now (server mode) 🚀🚀🚀
 
-These commands have been completely re-written and use a proper markdown parser to find links (vs many fragile regex statements). 
+These commands have been completely re-written and use a proper Markdown parser to find links (vs many fragile regex statements). 
 The re-write results in both much faster performance as well as a more correct implementation. 
 
 ### Enhancements

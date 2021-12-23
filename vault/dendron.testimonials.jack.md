@@ -20,7 +20,7 @@ created: 1616037990594
 > 
 > Publishing notes is a pleasure as well (finally) by [managed publishing](https://wiki.dendron.so/notes/ae4a0c98-e2ea-47e0-8a20-016eba3424be.html) and you can directly publish your notes after hosting them on github (of course you can make it private too I think) instead of rewriting them and publish them as a website. **Everyone can build their second brain or wiki.**
 > 
-> I store everything in Dendron now and I know it's secure and they're simply plain text markdown files so no one knows (and cares) if I store anything personal or not. Although Dendron is not perfect (yet) and have some room of improvement, it suits my needs personally and these issues will eventually be solved by cool guys in the team or in the open source community. 
+> I store everything in Dendron now and I know it's secure and they're simply plain text Markdown files so no one knows (and cares) if I store anything personal or not. Although Dendron is not perfect (yet) and have some room of improvement, it suits my needs personally and these issues will eventually be solved by cool guys in the team or in the open source community. 
 > 
 > If you think Dendron is interesting, just give it a try and start building your second brain.
 >  

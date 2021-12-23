@@ -42,7 +42,7 @@ You can get logs of the previous session by following instructions [here](https:
 
 > A comparison of mobile apps for Markdown can be found on the [Dendron blog: Best Mobile Note-Taking Apps for Markdown](https://blog.dendron.so/notes/fDCVPEo3guCFWPdxokXHU/). For a more in-depth comparison of text editors focusing on iOS devices, also take a look at [this iOS Text Editor roundup by Brett Terpstra](https://brettterpstra.com/ios-text-editors/).
 
-Dendron does not have a dedicated mobile client at this time. There are numerous mobile markdown editors that can be used to view and edit Dendron notes. Some popular options are listed below, based on feedback in the Dendron community:
+Dendron does not have a dedicated mobile client at this time. There are numerous mobile Markdown editors that can be used to view and edit Dendron notes. Some popular options are listed below, based on feedback in the Dendron community:
 
 - [GitJournal](https://github.com/GitJournal/GitJournal)
 - [iA Writer](https://ia.net/writer)
@@ -163,7 +163,7 @@ Click the three little dots next to outline to change the sorting order. You can
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/cook.drag.jpg)
 
-To drag files into Dendron, open the workspace pane on the side to drag and drop. We currently recommend you only do this for non-markdown files that you want to link to inside your vaults.
+To drag files into Dendron, open the workspace pane on the side to drag and drop. We currently recommend you only do this for non-Markdown files that you want to link to inside your vaults.
 
 ### Find Installed Extensions
 
@@ -288,7 +288,7 @@ Currently, Dendron notes show timestamps in epoch time which is not the most par
 
 ### WebClipper
 
-You can use the [markdownload-markdown-web](https://chrome.google.com/webstore/detail/markdownload-markdown-web/pcmpcfapbekmbjjkdalcgopdkipoggdi) extension to clip content as markdown from Chrome.
+You can use the [markdownload-markdown-web](https://chrome.google.com/webstore/detail/markdownload-markdown-web/pcmpcfapbekmbjjkdalcgopdkipoggdi) extension to clip content as Markdown from Chrome.
 
 ### Regex
 

@@ -17,7 +17,7 @@ Let's do a brief overview on how to navigate the Dendron User Interace (UI), whi
 
 ## 1. Editor View
 
-Where you can write and edit your notes. **Notes** in Dendron are [[markdown|dendron://dendron.dendron-site/dendron.topic.markdown]] files (ex. `my.note.md`).
+Where you can write and edit your notes. **Notes** in Dendron are [[Markdown|dendron://dendron.dendron-site/dendron.topic.markdown]] files (ex. `my.note.md`).
 
 ## 2. Preview View
 

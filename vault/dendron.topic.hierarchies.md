@@ -8,7 +8,7 @@ created: 1595611213607
 
 ## Summary
 
-Dendron organizes your notes into hierarchies. These are `.` ("dot" or "period") delimited markdown files. 
+Dendron organizes your notes into hierarchies. These are `.` ("dot" or "period") delimited Markdown files. 
 
 ## Example
 Below is a hypothetical hierarchy for a file tree:

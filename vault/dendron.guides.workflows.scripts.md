@@ -12,7 +12,7 @@ You have scripts that you want to organize and whose outputs you might want to r
 
 ## Solution
 
-Currently (2020.09.24), Dendron's convention for any file that is not markdown is to keep it under an assets folder in your vault.
+Currently (2020.09.24), Dendron's convention for any file that is not Markdown is to keep it under an assets folder in your vault.
 
 ```
 .
@@ -29,7 +29,7 @@ For example, images are saved under `assets/images/` and referenced as `/assets/
 
 You can do the same with scripts by keeping them under a `scripts` directory. 
 
-You can navigate to them via regular VS Code `(cmd|ctrl+p)`, and then include them as code chunks in your markdown. 
+You can navigate to them via regular VS Code `(cmd|ctrl+p)`, and then include them as code chunks in your Markdown. 
 
 The Dendron preview accepts running code chunks. You can see the instructions [here](https://shd101wyy.github.io/markdown-preview-enhanced/#/code-chunk)
 

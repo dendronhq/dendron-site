@@ -7,7 +7,7 @@ created: 1617327950468
 ---
 
 ## Summary
-Import markdown files stored locally. 
+Import Markdown files stored locally. 
 
 The pod finds all files from the `root`, and copies over the files into your vault, cleaning the file names to fit Dendron's naming hierarchy. You can see an example below. 
 
@@ -42,7 +42,7 @@ The pod finds all files from the `root`, and copies over the files into your vau
     └── projects.p2.four.md
 ```
 
-Non-markdown files within a directory will be moved into the `assets` folder of your `vault`. A [uuid](https://en.wikipedia.org/wiki/Universally_unique_identifier) will be added to non-markdown file names to ensure it does not overwrite any existing files. A link of the original filenames will be made in the note that corresponds to the imported directory
+Non-Markdown files within a directory will be moved into the `assets` folder of your `vault`. A [uuid](https://en.wikipedia.org/wiki/Universally_unique_identifier) will be added to non-Markdown file names to ensure it does not overwrite any existing files. A link of the original filename will be made in the note that corresponds to the imported directory
 
 ```md
 ...

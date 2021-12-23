@@ -43,7 +43,7 @@ Another example with a header range:
 > NOTE: When referencing headers with spaces in them, the note ref needs to use `-` instead of spaces within the name. This is a limitation of adopting GitHub-style slugger references. This is also useful for when multiple subheaders on a page may have the same name, which would expect something else `#foo` vs. `#foo-1` vs. `#foo-2`. This can be automatically taken care of by highlighting a header, and using `cmd+shift+r` / `ctrl+shift+r` to add a properly-formatted note ref to the clipboard.
 >
 > For more information:
-> - [StackOverflow: How to escape symbols in GitHub-flavored markdown internal links / heading anchors?](https://stackoverflow.com/a/48760076/5340149)
+> - [StackOverflow: How to escape symbols in GitHub-flavored Markdown internal links / heading anchors?](https://stackoverflow.com/a/48760076/5340149)
 > - [Anchors in Markdown gist](https://gist.github.com/asabaylus/3071099)
 
 

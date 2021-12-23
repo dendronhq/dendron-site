@@ -13,7 +13,7 @@ Dendron 0.24 has sprouted :seedling:
   - use `![[foo]]` to create a note ref
 - frontmatter variable substitution ([[docs|dendron.topic.markdown#frontmatter-variable-substitution]])
   - use variables defined in your frontmatter inside your notes!
-- markdown improvements for preview and publishing ([[docs|dendron.topic.markdown#extended-syntax]])
+- Markdown improvements for preview and publishing ([[docs|dendron.topic.markdown#extended-syntax]])
 - bugs and performance related changes
 
 ### Breaking Changes

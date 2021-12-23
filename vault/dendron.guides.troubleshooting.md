@@ -147,7 +147,7 @@ This is not a valid schema.
 
 ### Why can't I click the checkbox?
 
-It could be that you are using the VS Code default markdown instead of Dendron's Markdown Preview. 
+It could be that you are using the VS Code default Markdown instead of Dendron's Markdown Preview. 
 
 ![[dendron.guides.troubleshooting#using-the-wrong-preview,1:#*]]
 

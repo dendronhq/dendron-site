@@ -11,7 +11,7 @@ Dendron 0.36 has sprouted  🌱
 ### Highlights
 - add and commit all vaults in a multi-vault workspace
 - use note references on un-published notes
-- more options when importing markdown notes
+- more options when importing Markdown notes
 - general performance and stability improvements
 
 ### Spring Cleaning

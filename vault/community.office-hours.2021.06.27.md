@@ -13,7 +13,7 @@ created: 1624886952891
         -   Timestamp no longer updates if you don’t update the note. Way less merge conflicts in a shared workspace!
         -   Bad frontmatter no longer crashes Dendron. We now differentiate between major and minor errors that don’t affect the whole system.
     -   Markdown export will be significant:
-        -   We can now interface with Github teams/Gitlab teams where they export a folder structure of markdown files.
+        -   We can now interface with Github teams/Gitlab teams where they export a folder structure of Markdown files.
     -   When you create a note, you can just start typing. Frontmatter _should_ now fold by default and then cursor moves till the end.
 -   Trends
     -   Focusing on polishing existing features and improving user experience

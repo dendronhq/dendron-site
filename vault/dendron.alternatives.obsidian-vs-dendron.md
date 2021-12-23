@@ -8,7 +8,7 @@ created: 1622558883449
 
 > Dendron is your IDE for General Knowledge, see how it stacks up vs. Obsidian.
 
-Obsidian is a knowledge base that works on your local markdown files. Unlike Obsidian, Dendron is open source, hierarchically structured and scales with you so can organize (and find) any amount of information.
+Obsidian is a knowledge base that works on your local Markdown files. Unlike Obsidian, Dendron is open source, hierarchically structured and scales with you so can organize (and find) any amount of information.
 
 ## A Knowledge Base that Scales
 ![[dendron://dendron.dendron-site/dendron.faq#how-is-dendron-different-from-x-note-taking-tool,1:#*]]

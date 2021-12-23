@@ -14,8 +14,8 @@ Dendron 0.55 has sprouted  🌱
 - views: calendar view is now generally available ([[docs|dendron._ref.web-ui#calendar-view]])
 - markdown: set custom colors 
 - markdown: colored tags now show up decorated in tree view 
-- pods: markdown export will now export notes with leading slash
-- pods: markdown publish pod will can resolve `siteUrl` 
+- pods: Markdown export will now export notes with leading slash
+- pods: Markdown publish pod will can resolve `siteUrl` 
 - lots of bug fixes
 
 ### Next(js) Publishing (preview)

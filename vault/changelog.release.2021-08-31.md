@@ -28,7 +28,7 @@ Dendron 0.57 has sprouted  🌱
 
 Our documentation changes a lot week by week. Below is a highlight of some updates from the past week.
 
-- A new resource link was added for the mobile markdown editor, [Markor](https://github.com/gsantner/markor) (Android only), in the [[mobile support section of the cookbook|dendron.guides.cook#mobile-support]] ([GitHub PR](https://github.com/dendronhq/dendron-site/pull/173))
+- A new resource link was added for the mobile Markdown editor, [Markor](https://github.com/gsantner/markor) (Android only), in the [[mobile support section of the cookbook|dendron.guides.cook#mobile-support]] ([GitHub PR](https://github.com/dendronhq/dendron-site/pull/173))
 - Added [[lookup section|dendron.ref.config]] to the Dendrons Config docs, detailing some custom configuration around lookup behavior ([GitHub PR](https://github.com/dendronhq/dendron-site/pull/172/))
 - Added docs on inserting note links into the current document using lookup ([GitHub PR](https://github.com/dendronhq/dendron-site/pull/170)):
   - [[Dendron commands: Insert Note Link|dendron.ref.commands#insert-note-link]]

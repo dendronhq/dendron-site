@@ -260,7 +260,7 @@ You can also move an open note from the explorer by: Right Click on the note > D
 
 ### Paste Link
 
-Transform URL in clipboard to nicely formatted markdown link
+Transform URL in clipboard to nicely formatted Markdown link
 
 ### Random Note
 
@@ -597,7 +597,7 @@ Environmentalists are users that can support Dendron financially through a month
 
 ### Paste File
 
-Takes the path currently in the clipboard, copies the file into `{vault}/assets`, and inserts markdown link in the current note. This is the file equivalent of Dendron's [[Paste Image|dendron.topic.images]] command
+Takes the path currently in the clipboard, copies the file into `{vault}/assets`, and inserts Markdown link in the current note. This is the file equivalent of Dendron's [[Paste Image|dendron.topic.images]] command
 
 Note that most file types won't be natively supported in the preview. You'll need to use the VS Code built-in `> Open Link` command to open the file. 
 
@@ -701,7 +701,7 @@ Copy last 3000 lines of all logs and config to clipboard. Use when submitting an
 
 #### New File
 
-Dendron recognises a new markdown file created from VS Code context menu and populate it with the frontmatter.
+Dendron recognises a new Markdown file created from VS Code context menu and populate it with the frontmatter.
 
 #### Rename Note 
 

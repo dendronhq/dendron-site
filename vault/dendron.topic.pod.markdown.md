@@ -12,7 +12,7 @@ published: false
 
 ## Publish
 
-The markdown pod lets you convert Dendron's custom markdown into regular markdown. 
+The Markdown pod lets you convert Dendron's custom Markdown into regular Markdown. 
 
 Custom Dendron directives like note references will be converted and embedded as regular Markdown.
 
@@ -33,7 +33,7 @@ Custom Dendron directives like note references will be converted and embedded as
     - useBasename
   - default: copy
 - addAutogenWarning:
-  - desc: leave markdown comments about auto-generated content
+  - desc: leave Markdown comments about auto-generated content
   - required: no
   - default: false
 - dest:

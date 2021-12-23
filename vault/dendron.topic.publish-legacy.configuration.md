@@ -225,7 +225,7 @@ switch to "edit" to bring the user directly into editing mode
 
 #### description
 
-- eg: `Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.`
+- eg: `Dendron is a local-first, Markdown-based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.`
 
 #### author
 
@@ -378,7 +378,7 @@ site:
     title: Dendron
     author: "dendronhq"
     twitter: "dendronhq"
-    description: "Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size."
+    description: "Dendron is a local-first, Markdown-based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size."
 vaults:
     - fsPath: vault
 ```
@@ -522,7 +522,7 @@ You can control publication on a per line basis.
 
 ### LOCAL_ONLY_LINE
 
-Sometimes, you just want to keep a few lines private while publishing the rest of your vault. You can do that with `Local only`. In order to mark a line as `Local Only`, add the following markdown comment at the end of the line: 
+Sometimes, you just want to keep a few lines private while publishing the rest of your vault. You can do that with `Local only`. In order to mark a line as `Local Only`, add the following Markdown comment at the end of the line: 
 
 ```markdown
 Hello World!  <!-- Will be published -->

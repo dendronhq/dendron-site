@@ -25,10 +25,10 @@ This release also includes some breaking changes due to some renaming of command
 - enhance(workspace): preview command enablement
 - enhance(workspace): add custom icons to Dendron tree view
 - enhance(workspace): Copy Header Reference code action
-- fix(publishing): markdown publish to hide block reference anchors
+- fix(publishing): Markdown publish to hide block reference anchors
 - fix(workspace): file watcher updates backlinks
 - fix(workspace): hover & goto note should respect enableUser/HashTags
-- fix(pods): resolve same level dir wikilinks in markdown import
+- fix(pods): resolve same level dir wikilinks in Markdown import
 - fix(schemas): replace auto generated ids with readable descriptions
 
 ### Community
@@ -77,7 +77,7 @@ You can see an overview of all roles [[here|community.roles]]
 - [Denis Novikov](https://github.com/voothi) `@voothi#3159`
   - #dendron.bugcatcher
   - [Import Pod Markdown is modified my own notes body content](https://github.com/dendronhq/dendron/issues/1608)
-  - [Backlinks lists not contain wikilinks after import pod markdown](https://github.com/dendronhq/dendron/issues/1607)
+  - [Backlinks lists not contain wikilinks after import pod Markdown](https://github.com/dendronhq/dendron/issues/1607)
 - [Mhijazi1](https://github.com/mhijazi1)
   - #dendron.bugcatcher
   - [Move Header does not create a note if it does not already exists](https://github.com/dendronhq/dendron/issues/1606)

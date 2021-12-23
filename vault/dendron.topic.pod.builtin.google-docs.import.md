@@ -90,7 +90,7 @@ CommentsUpdated: true
 ---
 ## Dendron
 
-Dendron is an **open-source**, **local-first**, **markdown-based**, **note-taking** tool built on top of [VS Code](https://code.visualstudio.com/). Like most such tools, Dendron supports all the usual features you would expect like :
+Dendron is an **open-source**, **local-first**, **Markdown-based**, **note-taking** tool built on top of [VS Code](https://code.visualstudio.com/). Like most such tools, Dendron supports all the usual features you would expect like :
 
 - Tagging
 - Backlink

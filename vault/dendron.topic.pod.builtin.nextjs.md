@@ -45,7 +45,7 @@ These files contain the HTML rentered note bodies.
 
 ### notes/{id}.md
 
-These files contain the markdown note bodies.
+These files contain the Markdown note bodies.
 
 ### notes.json
 

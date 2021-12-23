@@ -54,7 +54,7 @@ A bunch of you have been submitting issues to our issue tracker. To make the pro
 
 - [[docs|dendron.topic.links]]
 
-Be able to open non-markdown files using native apps (eg. use preview to open pdfs on mac).
+Be able to open non-Markdown files using native apps (eg. use preview to open pdfs on mac).
 
 ### Journal Notes ([5e1236f](https://github.com/dendronhq/dendron/commit/5e1236fddbf1e0fddf4c27d1a40e9841cc99974f))
 

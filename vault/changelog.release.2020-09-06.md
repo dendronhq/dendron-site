@@ -51,8 +51,8 @@ A note reference offset is a way to skip a number of lines when using a note ref
 
 ### Fixes
 
-- Fix issue with preview checkbox not updating markdown 
-- Fix issue with backslash causing in certain markdown blocks 
+- Fix issue with preview checkbox not updating Markdown 
+- Fix issue with backslash causing in certain Markdown blocks 
 
 ## Pods
 
@@ -162,7 +162,7 @@ Last and most of all, a big **thanks** to the following gardeners that brought u
   - [Providing a transcript of Dendron's onboarding video](https://www.dendron.so/#onboarding)
 
 - [Rhaynes](https://github.com/rhaynes74)
-  - [Issue with markdown preview not rendering math elements correctly](https://github.com/dendronhq/dendron/issues/156)
+  - [Issue with Markdown preview not rendering math elements correctly](https://github.com/dendronhq/dendron/issues/156)
 
 - [Howard](https://github.com/runlevelrobot)
   - [Issue with tree view making sidebar visible when not wanted](https://github.com/dendronhq/dendron/issues/150)

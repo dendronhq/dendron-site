@@ -24,7 +24,7 @@ Dendron 0.61 has sprouted  🌱
 - enhance(publish): add border color to table 
 - enhance(publish): filter body out of generated notes.json for next 
 - enhance(publish): add published, modified, and tags to NextJS SEO (#1412) 
-- enhance(pods): resolve relative links on markdown import 
+- enhance(pods): resolve relative links on Markdown import 
 - enhance(markdown): Don't throw a fatal exception when missing note is parsed as noteRef 
 - enhance(markdown): option to add `#` symbols for FM tags (#1421) ([[docs|dendron://dendron.dendron-site/dendron.topic.publish-legacy.configuration#usehashesforfmtags]])
 - enhance(workspace): option to disable randomly colored tags in editor ([[docs|dendron.topic.tags#disabling-automatic-colors]])

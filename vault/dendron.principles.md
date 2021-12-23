@@ -29,7 +29,7 @@ What this means:
 
 ### Gradual Structure
 
-Dendron extends markdown with structural primitives to make it easier to manage at scale and tooling on top to work with this structure.
+Dendron extends Markdown with structural primitives to make it easier to manage at scale and tooling on top to work with this structure.
 
 Different knowledge bases require different levels of structure - a PKM used for keeping daily journals is different than a company wide knowledge base used by thousands of developers.
 

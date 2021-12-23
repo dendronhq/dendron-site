@@ -13,7 +13,7 @@ created: 1627282431859
     * everything should be faster
     * you can use VS Code while Dendron is initializing
   * deprecate old preview
-    * If you enable the old markdown, you'll have to install Dendron markdown specifically. 
+    * If you enable the old Markdown, you'll have to install Dendron Markdown specifically. 
     * won't remove the old preview till end of August.
     * A few smaller features aren't completely there yet: 
       * Contrast/references

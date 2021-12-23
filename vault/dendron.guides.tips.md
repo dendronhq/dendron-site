@@ -234,7 +234,7 @@ You can streamline this process by assigning a keyboard shortcut to the command.
 
 ### Copy and Paste Web Content into Dendron
 
-First copy it into Notion or use the notion web clipper to clip it. This will format it nicely in markdown. You can then paste it into Dendron with markdown and everything :)
+First copy it into Notion or use the notion web clipper to clip it. This will format it nicely in Markdown. You can then paste it into Dendron with Markdown and everything :)
 
 <!-- 
 
@@ -343,7 +343,7 @@ You can see a video of this workflow in the video below.
 
 - Update your settings to the following
 ```json
-// The following settings will only apply to markdown files:
+// The following settings will only apply to Markdown files:
   "[markdown]": {
     // quickSuggestions true will provide suggestions as you type.
     // If you turn this on and DO NOT want suggestions
@@ -351,11 +351,11 @@ You can see a video of this workflow in the video below.
     "editor.quickSuggestions": true,
     // This is poorly documented, but seems to offer suggestions
     // from any word in open document when turned on, which
-    // can be a little distracting in markdown docs:
+    // can be a little distracting in Markdown docs:
     "editor.wordBasedSuggestions": false,
     "editor.tabSize": 2,
     // Set this to false if you turn on quickSuggestions
-    // but don't want suggestions for markdown related snippets
+    // but don't want suggestions for Markdown related snippets
     // as you type:
     "editor.suggest.showSnippets": false,
   },
@@ -366,7 +366,7 @@ You can see a video of this workflow in the video below.
 ### Always have the preview open
 
 
-You can add the following setting to your workspace to always have a markdown editor show up with your content. 
+You can add the following setting to your workspace to always have a Markdown editor show up with your content. 
 
 ```json
 "markdown-preview-enhanced.automaticallyShowPreviewOfMarkdownBeingEdited": true,
@@ -425,7 +425,7 @@ Once you've made similar schema and template files, when you make a new file usi
 ## Other Tools
 
 This is a list of other tools that work well with Dendron.
-- [nvAlt](https://brettterpstra.com/projects/nvalt/): local markdown editor that works well with Dendron notes (mac only)
+- [nvAlt](https://brettterpstra.com/projects/nvalt/): local Markdown editor that works well with Dendron notes (mac only)
 
 ## Other VS Code Extensions
 
@@ -449,5 +449,5 @@ This is a list of other tools that work well with Dendron.
 ## Other Browser Extensions
 
 ### Web Clipper
-- [Markdown Web](https://chrome.google.com/webstore/detail/markdownload-markdown-web/pcmpcfapbekmbjjkdalcgopdkipoggdi?hl=en-GB): markdown based web clipper
+- [Markdown Web](https://chrome.google.com/webstore/detail/markdownload-markdown-web/pcmpcfapbekmbjjkdalcgopdkipoggdi?hl=en-GB): Markdown based web clipper
 - [Roam Highlighter](https://chrome.google.com/webstore/detail/mcoimieglmhdjdoplhpcmifgplkbfibp)

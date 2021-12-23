@@ -181,7 +181,7 @@ created: 1629505311218
 
 -   Dendron Preview `Go to Text` will sometimes not appear for note references
 -   Dendron Preview links not working in VS Code 1.57
--   Dendron Preview renders the first line of note ref as markdown
+-   Dendron Preview renders the first line of note ref as Markdown
 -   Dendron Preview removes `#` from links
 
 ### House Cleaning
@@ -320,7 +320,7 @@ created: 1629505311218
 
 -   welcome page not showing up unless workspace is initialized
 -   paste file command should handle names with spaces and special characters
--   markdown import pod not working
+-   Markdown import pod not working
 
 ## 0.43
 

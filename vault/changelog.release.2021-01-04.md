@@ -37,7 +37,7 @@ Last and most of all, a big **thanks** to the following gardeners that brought u
   - [Micharris42](https://github.com/micharris42)
     - [Document Display Order in the Dendron Tree View](https://github.com/dendronhq/dendron/issues/440)
   - [Oli Crask](https://github.com/olivercrask) @Oli916#5867
-    - [Published extended syntax markdown not rendering](https://github.com/dendronhq/dendron/issues/437)
+    - [Published extended syntax Markdown not rendering](https://github.com/dendronhq/dendron/issues/437)
     - [Dendron publish not authenticating](https://github.com/dendronhq/dendron/issues/436)
   - [Devashish](https://github.com/ric03uec) @ric03uec#5826
     - [publish V2 throws error locally](https://github.com/dendronhq/dendron/issues/434)

@@ -16,7 +16,7 @@ created: 1631637704455
 
   + [https://blog.dendron.so/](https://blog.dendron.so/)
 
-* import markdown using pod also updates links
+* import Markdown using pod also updates links
 
 ## Discussions
 

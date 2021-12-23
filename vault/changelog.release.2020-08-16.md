@@ -73,7 +73,7 @@ Or a range!
 
 ### Enhancements
 
-- Update markdown css 
+- Update Markdown css 
 
 ## Notes
 

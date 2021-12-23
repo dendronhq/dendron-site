@@ -199,8 +199,8 @@ You can see the full list of information we collect and why we do it in our [[te
 
 -   [[useNoteTitleForLink|dendron.ref.config#usenotetitleforlink]] now true by default
 -   control hierarchy display using note frontmatter ([[docs|dendron.ref.config#hierarchydisplay]])
--   ability to disable appending uuid's to assets when importing markdown ([[docs|dendron.topic.pod.builtin.markdown.import#noadduuid]])
--   ability to set an index file when importing markdown ([[docs|dendron.topic.pod.builtin.markdown.import#indexname]])
+-   ability to disable appending uuid's to assets when importing Markdown ([[docs|dendron.topic.pod.builtin.markdown.import#noadduuid]])
+-   ability to set an index file when importing Markdown ([[docs|dendron.topic.pod.builtin.markdown.import#indexname]])
 
 ### Bug Fixes
 
@@ -260,7 +260,7 @@ Dendron doctor has been updated with a bunch of new options including the abilit
 -   wikilinks to missing vaults will display an error instead of throwing one
 -   ability to disable legacy refs ([[docs|dendron.ref.config#nolegacynoteref]])
 -   add xkcd to vault presets ([[docs|dendron.topic.multi-vault#preset-remote-vaults]])
--   5x faster markdown pod import using plugin 🚀 🚀 🚀
+-   5x faster Markdown pod import using plugin 🚀 🚀 🚀
 -   toggle katex settings from config ([[docs|dendron.ref.config#usekatex]])
 
 ### Bug Fixes
@@ -291,7 +291,7 @@ Dendron doctor has been updated with a bunch of new options including the abilit
 -   `dendron-cli` is now named `dendron` (`dendron-cli` will continue to work)
 -   `buildSiteV2` has been renamed to `buildSite` (`buildSiteV2` will continue to work but is now considered `deprecated`)
 -   add [tldr](https://github.com/tldr-pages/tldr) to remote vault presets ([[docs|dendron.topic.multi-vault#preset-remote-vaults]])
--   support `useFMTitle` when publishing to markdown
+-   support `useFMTitle` when publishing to Markdown
 -   fix link textwrap issue when publishing for mobile
 
 ### House Cleaning
@@ -313,7 +313,7 @@ You can now use managed publishing with a password. Note that you'll need [sprou
 -   control display for children links ([[docs|dendron.ref.config#hiearchydisplaytitle]])
 -   [[skipLevels|dendron.topic.publish-legacy.configuration#skiplevels]] also applies to children lins
 -   [[useNoteTitleForLink|dendron.ref.config#usenotetitleforlink]] also applies to note references
--   importing from markdown is now 5x faster 🚀🚀🚀
+-   importing from Markdown is now 5x faster 🚀🚀🚀
     -   NOTE: this is only for the CLI
 -   a bunch of new options when importing a pod ([[docs|dendron.topic.pod.import]])
     -   NOTE: these options currently only apply for the [[Markdown Import Pod|dendron.topic.pod.builtin.markdown#import]]
@@ -323,7 +323,7 @@ You can now use managed publishing with a password. Note that you'll need [sprou
 
 -   Dendron will check if dependencies are actually installed before trying to preview your site
 -   remove un-used extensions
--   failure when importing large amounts of markdown files using import pod
+-   failure when importing large amounts of Markdown files using import pod
 
 ### House Cleaning
 

@@ -12,7 +12,7 @@ The default Dendron workspace comes with the `to` snippet that expands to `- [ ]
 
 ## Interactive Checkboxes
 
-Markdown preview renders an empty checkbox for any line that starts with `- [ ]`. A checked checkbox is rendered for lines starting with `- [x]`. Clicking a checkbox changes its state in the markdown file.
+Markdown preview renders an empty checkbox for any line that starts with `- [ ]`. A checked checkbox is rendered for lines starting with `- [x]`. Clicking a checkbox changes its state in the Markdown file.
 
 ## General Workflows
 
@@ -21,7 +21,7 @@ When working with todos sometimes you need more states than `unfinished|finished
 ### Inside the Checkbox
 
 - put state in checkbox
-- note that custom checkbox states such as `[w]` are displayed as plain text in markdown previews. Todo lists of this type look best in the editor.
+- note that custom checkbox states such as `[w]` are displayed as plain text in Markdown previews. Todo lists of this type look best in the editor.
 
 ```
 - [ ] : not started

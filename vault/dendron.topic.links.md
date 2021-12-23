@@ -8,7 +8,7 @@ created: 1595003088839
 
 Dendron supports multiple types of links and formats.
 
-- `[markdown links](./dendron.md)`
+- `[Markdown links](./dendron.md)`
 - `[[wiki links]]`
 - `[[labelled|wiki links]]`
 - `![image links](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/logo-256.png)`
@@ -18,11 +18,11 @@ Dendron supports multiple types of links and formats.
 
 ### Note Files
 
-A note file is a Dendron markdown note.
+A note file is a Dendron Markdown note.
 
 ### Regular Files
 
-Regular files are any assets that are not Dendron markdown notes. 
+Regular files are any assets that are not Dendron Markdown notes. 
 
 ## Features
 

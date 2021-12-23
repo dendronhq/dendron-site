@@ -21,14 +21,14 @@ rm -rf .next
 dendron publish init
 ```
 
-**Dendron Preview:** A common pain point for all new users is opening the markdown preview. The default VS Code Markdown Preview displays a menu item that cannot be disabled, even if an extension had its own markdown preview.
+**Dendron Preview:** A common pain point for all new users is opening the Markdown preview. The default VS Code Markdown Preview displays a menu item that cannot be disabled, even if an extension had its own Markdown preview.
 
-We submitted an upstream contribution to VS Code, which is currently active in the Insiders Build. It will be included in the 1.63 release next month. This will mean that Dendron Workspaces can, by default, display a menu item for `Dendron: Show Preview` as the markdown preview! Note that `Markdown: Open Preview...` options will continue to exist within the command palette as an optional preview method.
+We submitted an upstream contribution to VS Code, which is currently active in the Insiders Build. It will be included in the 1.63 release next month. This will mean that Dendron Workspaces can, by default, display a menu item for `Dendron: Show Preview` as the Markdown preview! Note that `Markdown: Open Preview...` options will continue to exist within the command palette as an optional preview method.
 
 The nice thing is that ALL VS Code extension authors can now use this feature to provide a better experience for their users!
 
 ### Highlights
-- feat(workspace): hide default markdown preview button
+- feat(workspace): hide default Markdown preview button
 - enhance(workspace): add Dendron preview button
 - enahnce(publish): upgrade to nextjs 12
 - enhance(lookup): add auto complete to note lookup

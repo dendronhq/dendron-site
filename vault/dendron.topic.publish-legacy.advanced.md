@@ -25,7 +25,7 @@ noindex: true
 
 <!-- ### Exclude line from publication
 
-Sometimes, you just want to keep a few lines private while publishing the rest of your vault. You can do that with `Local only`. In order to mark a line as `Local Only`, add the following markdown comment at the end of the line: `<!--LOCAL_ONLY_LINE-->`
+Sometimes, you just want to keep a few lines private while publishing the rest of your vault. You can do that with `Local only`. In order to mark a line as `Local Only`, add the following Markdown comment at the end of the line: `<!--LOCAL_ONLY_LINE-->`
 
 ```markdown
 Hello World!  <!-- Will be published -->

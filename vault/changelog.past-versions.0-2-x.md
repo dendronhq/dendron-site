@@ -290,7 +290,7 @@ You can now both build your notes for publication and preview it from inside VS 
 
 ### Bug Fixes
 
--   markdown preview delay in showing newly created notes
+-   Markdown preview delay in showing newly created notes
 -   `buildSiteV2` not connect to running workspace
 
 ## 0.22.1

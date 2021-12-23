@@ -83,7 +83,7 @@ If you have a free GitHub account, then you can host your Dendron notes for free
 
 #### Jekyll Liquid Tags and Variables
 
-- NOTE: this will only be "compiled" in the published site but won't be rendered in the regular markdown 
+- NOTE: this will only be "compiled" in the published site but won't be rendered in the regular Markdown 
 
 <img style="max-width: 720px;" src="https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/site-liquid.gif" />
 

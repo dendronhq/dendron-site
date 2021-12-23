@@ -33,7 +33,7 @@ created: 1632543447542
 - enhance(publish) support `assetPrefix` option with nextjs publishing
 - enhance(publish) initialize nextjs template with `https` protocol 
 - enhance(publish) autoset sane defaults for nextjs publishing
-- enhance(pods) markdown import to update asset links
+- enhance(pods) Markdown import to update asset links
 
 ### Bug Fixes
 - fix(workspace) stop calendar from auto expanding when the last note is closed 
@@ -271,7 +271,7 @@ The [[Calendar View|dendron._ref.web-ui#calendar-view]] is no longer hidden behi
     - apply journal title override
 - Colored tags in the tree view ([[docs|dendron.topic.tags#custom-colors]])
 - Tags inherit color of ancestors ([[docs|dendron.topic.tags#custom-colors]])
-- Add leading slash to markdown links during export 
+- Add leading slash to Markdown links during export 
 
 ### Bug Fixes
 - calendar: errors when switching between month/year

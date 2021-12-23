@@ -16,7 +16,7 @@ Make it possible for people to import/export their data between Dendron and **an
 ## Details
 
 Dendron wants to be your **central digital nervous system** - our end goal is to be the **best possible way** to create, build, use, and share the knowledge that matters to you. 	
-To do that effectively, we believe its important that you have **full control of your information**. This means having your data available in plaintext markdown and having an note-taking tool that is local and open source. But we want to go further than that which is where [pods](TODO) come in. 	
+To do that effectively, we believe its important that you have **full control of your information**. This means having your data available in plaintext Markdown and having an note-taking tool that is local and open source. But we want to go further than that which is where [pods](TODO) come in. 	
 Dendron refers to a pod as anything you could conceivably use to store/publish notes. Evernote, Roam, static websites, twitter - any and all of these things are potential pods. The vision with pods is that you should be able to seamlessly move **your information** in and out a pod and in and out of Dendron. 	
 
 Unlike what the [notion](https://www.notion.so/) marketing folks might tell you, we don't believe there is a one size fits all approach when it comes to knowledge management, a concept that includes collecting articles, project management, journaling, collaboration, and basically any workflows that involve working with information.	
