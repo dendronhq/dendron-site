@@ -29,7 +29,7 @@ You may see two additional sections a the bottom of the preview view, **Children
 
 ## 3. File Explorer Pane
 
-This shows the files and folders in your vault. A **[[vault|dendron://dendron.dendron-site/dendron.topic.vaults]]** stores your notes and assets (ex. images, pdfs, etc.).
+This shows the files and folders in your vault. A **[[vault|dendron://dendron.dendron-site/dendron.topic.vaults]]** stores your notes and assets (ex. images, PDFs, etc.).
 
 > 💡 **TIP:** We encourage using the **[tree view](#6-tree-view-pane)**, as opposed to the file explorer pane, for navigating your notes.
 

@@ -115,7 +115,7 @@ This is a cheatsheet for Dendron.
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/schema-lookup.gif)
 
 ### Dendron: Open Link
-- description: Open link to external file (eg. pdf, .mov, etc) use system default
+- description: Open link to external file (eg. PDF, .mov, etc.) use system default
 - shortcuts: none
 
 <a href="https://www.loom.com/share/01250485e20a4cdca2a053dd6047ac68"><img src="https://cdn.loom.com/sessions/thumbnails/01250485e20a4cdca2a053dd6047ac68-with-play.gif"> </a>
