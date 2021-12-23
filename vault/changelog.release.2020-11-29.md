@@ -34,7 +34,7 @@ Dendron 0.18 has sprouted 🌱
 Last and most of all, a big **thanks** to the following gardeners that brought up issues, contributions, and fixes to this release 👨‍🌾 👩‍🌾
 
 - [Gabriel Horner](https://github.com/cldwalker) 
-  - [fix out of date jekyll config](https://github.com/dendronhq/dendron/pull/372)
+  - [fix out of date Jekyll config](https://github.com/dendronhq/dendron/pull/372)
 - [Kiran Pathakoda](https://github.com/kpathakota)
   - [fix build issues](https://github.com/dendronhq/dendron/pull/379)
 - [Ilia Auerbach-Ziogas](https://github.com/iliaaz)

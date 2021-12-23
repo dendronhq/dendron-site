@@ -14,7 +14,7 @@ Dendron supports Markdown, a popular markup syntax that is like HTML but 1000x s
 
 ### Frontmatter
 
-Frontmatter is a convenient way of adding extra information to your documents like a shorthand title or longer description (think any extra information you can use to describe a note). This type of information is generally called metadata and the structure used is called [YAML](https://yaml.org/). You can add it to the front of your Markdown file and it won't show up in the preview. It was first introduced by [jekyll](https://jekyllrb.com/docs/front-matter/). 
+Frontmatter is a convenient way of adding extra information to your documents like a shorthand title or longer description (think any extra information you can use to describe a note). This type of information is generally called metadata and the structure used is called [YAML](https://yaml.org/). You can add it to the front of your Markdown file and it won't show up in the preview. It was first introduced by [Jekyll](https://jekyllrb.com/docs/front-matter/). 
 
 You can read more about the frontmatter used in Dendron [[here|dendron.topic.frontmatter]]
 

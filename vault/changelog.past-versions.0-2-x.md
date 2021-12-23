@@ -195,7 +195,7 @@ You can now publish and build your notes without going to the command line ([[do
 
 ### House Cleaning
 
--   jekyll based publishing is now deprecated
+-   Jekyll based publishing is now deprecated
 -   [[dendron.copyNoteUrlRoot|dendron.ref.config.vscode-config#dendroncopynoteurlroot]] deprecated for `siteUrl`
 
 ## 0.24.1
@@ -343,7 +343,7 @@ You can now both build your notes for publication and preview it from inside VS 
 
 -   add seo tags ([[docs|dendron.topic.publish-legacy.configuration#seo-options]])
 -   enable edit on github link ([[docs|dendron.topic.publish-legacy.configuration#github-options]])
--   migrate all jekyll `_config.yml` settings to `dendron.yml`
+-   migrate all Jekyll `_config.yml` settings to `dendron.yml`
 
 ### Bug Fixes
 
@@ -388,7 +388,7 @@ You can now both build your notes for publication and preview it from inside VS 
 
 We've re-build publishing for Dendron from the ground up to be faster, better, and easier to use.
 
-Besides for schemas, publishing has consistently been one of the hardest to use features in Dendron. Dendron currently publishes using [jekyll](https://jekyllrb.com/) using our own [template](https://github.com/dendronhq/dendron-jekyll). While this has served as well initially, slow compile times for large sites and difficulty of getting started has made it a growing pain point.
+Besides for schemas, publishing has consistently been one of the hardest to use features in Dendron. Dendron currently publishes using [Jekyll](https://jekyllrb.com/) using our own [template](https://github.com/dendronhq/dendron-jekyll). While this has served us well initially, slow compile times for large sites and difficulty of getting started has made it a growing pain point.
 
 To address this, we've migrated our publishing stack to [11ty](https://www.11ty.dev/), a super fast javascript based static generator. This means much faster, and perhaps more importantly, easier publishing.
 
@@ -420,10 +420,10 @@ This will build your site to the path specified by [[siteRootDir|dendron.topic.p
 
 #### Benchmarks
 
-Publishing V2 is ~10x faster than jekyll based publishing for sites with +100 pages. For comparison, below is the compilation difference between building the Dendron site using 11ty vs jekyll.
+Publishing V2 is ~10x faster than Jekyll based publishing for sites with +100 pages. For comparison, below is the compilation difference between building the Dendron site using 11ty vs Jekyll.
 
 -   11ty: 24.45s
--   jekyll: 220.33s
+-   Jekyll: 220.33s
 
 There are additional optimizations still on the table that will further drive down he compilation time by another order of magnitude for future releases.
 

@@ -404,7 +404,7 @@ Dendron now supports custom domain names for [[managed publishing|dendron.topic.
 ### House Cleaning
 
 -   table of contents on published sites is now a remark extension, header changed to `children`
--   jekyll publishing has been renamed to `legacy publishing`
+-   Jekyll publishing has been renamed to `legacy publishing`
 -   lots of internal refactoring of code
 
 ## 0.30.1

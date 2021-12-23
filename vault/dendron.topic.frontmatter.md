@@ -26,7 +26,7 @@ nav_order: 1
 
 ## Details
 
-Frontmatter is [YAML](https://yaml.org/) that you can add to the front of your Markdown file. It was first introduced by [jekyll](https://jekyllrb.com/docs/front-matter/) and is a convenient way of adding metadata to your plaintext documents.
+Frontmatter is [YAML](https://yaml.org/) that you can add to the front of your Markdown file. It was first introduced by [Jekyll](https://jekyllrb.com/docs/front-matter/) and is a convenient way of adding metadata to your plaintext documents.
 
 Dendron supports frontmatter. By default, we add the following keys to a new note created with Dendron:
 
