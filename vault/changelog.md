@@ -466,7 +466,7 @@ dendron dev run_migration --migrationVersion 0.64.1
 
 ### Enhancements
 - enhance(publish): support [g4a tags](https://support.google.com/analytics/answer/10089681?hl=en) @kevin
-- enhance(publish): support twitter card @kevin ([[docs|dendron://dendron.dendron-site/dendron.topic.publish-legacy.configuration#twitter]])
+- enhance(publish): support Twitter card @kevin ([[docs|dendron://dendron.dendron-site/dendron.topic.publish-legacy.configuration#twitter]])
 - enhance(publish): add border color to table (#1387) @viztor
 - enhance(publish): filter body out of generated notes.json for Next.js (#1380) @viztor
 - enhance(pods): resolve relative links on Markdown import @joshi

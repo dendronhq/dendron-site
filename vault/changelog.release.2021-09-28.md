@@ -20,7 +20,7 @@ Dendron 0.61 has sprouted  🌱
 - feat(publish): better mobile navigation
 - feat(workspace): button for toggle local/global graph 
 - enhance(publish): support [g4a tags](https://support.google.com/analytics/answer/10089681?hl=en)
-- enhance(publish): support twitter card
+- enhance(publish): support Twitter card
 - enhance(publish): add border color to table 
 - enhance(publish): filter body out of generated notes.json for Next.js 
 - enhance(publish): add published, modified, and tags to Next.js SEO (#1412) 
