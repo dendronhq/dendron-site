@@ -8,7 +8,7 @@ created: 1638901251059
 
 - Link: [The values of Emacs, the Neovim revolution, and the VSCode gorilla](https://www.murilopereira.com/the-values-of-emacs-the-neovim-revolution-and-the-vscode-gorilla/)
 
-This article lays out a comprehensive framework for evaluating different developer tools and highlights the values of massively popular tools like emacs, Vim, and VS Code. 
+This article lays out a comprehensive framework for evaluating different developer tools and highlights the values of massively popular tools like Emacs, Vim, and VS Code. 
 
 Value | Commentary
 ------|-----------

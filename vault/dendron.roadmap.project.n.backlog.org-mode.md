@@ -25,7 +25,7 @@ This project discusses how to best incorporate org-mode functionality into Dendr
 
 - pros:
   - works with existing VS Code extensions (eg. [VS Code Org Mode](https://marketplace.visualstudio.com/items?itemName=tootone.org-mode)
-  - can be edited in emacs
+  - can be edited in Emacs
 
 - cons:
   - uncertain how to implement Dendron specific syntax and features (eg. note references, schemas, etc)
@@ -38,7 +38,7 @@ This project discusses how to best incorporate org-mode functionality into Dendr
   - compatible with existing Markdown tool chain
 
 - cons:
-  - might not be compatible with emacs and existing org-mode toolchain
+  - might not be compatible with Emacs and existing org-mode toolchain
 
 ## Thoughts
 
