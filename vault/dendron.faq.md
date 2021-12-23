@@ -54,7 +54,7 @@ As with all things, its a matter of tradeoffs. Dendron started its life as a sta
 
 I wanted to spend more time building out features that supported Dendron's [hiearchy first approach](https://www.kevinslin.com/notes/3dd58f62-fee5-4f93-b9f1-b0f0f59a9b64.html) to note taking which is what led me to re-write it for VS Code.
 
-That being said, the core Dendron engine is not VS Code specific and there are folks that are experimenting with porting it over to other editors (eg. sublime, Vim). We also have plans for a standalone editor in the future (most likely, this will be a fork of VS Code optimized for note taking)
+That being said, the core Dendron engine is not VS Code specific and there are folks that are experimenting with porting it over to other editors (eg. Sublime Text, Vim). We also have plans for a standalone editor in the future (most likely, this will be a fork of VS Code optimized for note taking)
 
 ## Notes
 
