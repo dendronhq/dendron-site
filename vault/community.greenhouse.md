@@ -10,7 +10,7 @@ created: 1626809567579
 
 The **Greenhouse Talks** is a learning series organized by Dendron. These are 30 minute talks that cover topics of interest to the Dendron community.  While the focus is on note taking and personal knowledge management, topics are not limited to these areas and can span anything the speaker has in-depth knowledge of.  ^Ddu3OTwrJYvI
 
-All talks are recorded and made available on youtube after the fact.
+All talks are recorded and made available on YouTube after the fact.
 
 ## Talk Schedule
 
@@ -33,7 +33,7 @@ Before the talk, make sure that you have zoom installed and that you have given 
 
 ## Past Talks
 
-An archive of all previous talks can be found on [youtube](https://www.youtube.com/playlist?list=PLrXlRqY7c8J-lPtS82muQd4VD8pR7Vn4E).
+An archive of all previous talks can be found on [YouTube](https://www.youtube.com/playlist?list=PLrXlRqY7c8J-lPtS82muQd4VD8pR7Vn4E).
 
 
 ### A Day in Dendron

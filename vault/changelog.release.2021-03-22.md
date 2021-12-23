@@ -21,7 +21,7 @@ A big **thanks** to the following gardeners that brought up issues, contribution
 You can see an overview of all roles [[here|community.roles]]
 
 - [Spartanatreyu](https://github.com/spartanatreyu)
-  - update youtube settings on Dendron videos
+  - update YouTube settings on Dendron videos
 - [Chris Wright](https://github.com/caw) @chrisw#3138 
   - update note ref docs
 - [Ian Jones](https://github.com/theianjones) @ianjones#3696 
