@@ -369,7 +369,7 @@ This is a quick way to update the `dendron.yml` file. You can run it by using `D
 
 - **pods:** better Markdown import pod  (d1eaa264)
   - address multiple edge cases that would cause import pod to fail
-  - auto-convert wiki-links from folder-based systems like obsidian into Dendron
+  - auto-convert wiki-links from folder-based systems like Obsidian into Dendron
 - **cli:** launch engine server using cli ([25eae3f](https://github.com/dendronhq/dendron/commit/25eae3fddd6a2d26dcf9e2f3e664b377c2cca978))
 
 ![[dendron.ref.cli#launchengineserver:#*]]

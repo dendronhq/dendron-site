@@ -45,7 +45,7 @@ How do tags fit in with the hierarchies idea, I am trying to understand how they
   - [[...]]()
   - [https://wiki.dendron.so/notes/587e6d62-3c5b-49b0-aedc-02f62f0448e6.html](https://wiki.dendron.so/notes/587e6d62-3c5b-49b0-aedc-02f62f0448e6.html)
   - Tag colors: https://wiki.dendron.so/notes/8bc9b3f1-8508-4d3a-a2de-be9f12ef1821.html
-  - Coming from a obsidian background:-)
+  - Coming from a Obsidian background:-)
   - What about ordering the leaves? `nav_order` property
 
 - Where can we find documentation on what is and how to modify the config.export.yml ?
