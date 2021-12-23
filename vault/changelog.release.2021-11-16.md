@@ -47,7 +47,7 @@ In terms of changes, running `git stat` yields the following after the refactor:
 
 - dendron-site
   - 227 files changed, 1131 insertions(+), 950 deletions(-)
-- org-private (internal vault used by the dendron team)
+- org-private (internal vault used by the Dendron team)
   - 132 files changed, 541 insertions(+), 198 deletions(-)
 
 In total, Dendron refactored **over 300 files and made over 2k line changes as part of this reorg!**
@@ -77,7 +77,7 @@ You can see an overview of all roles [[here|community.roles]].
 
 - `@orang2tang#7760`
   - #dendron.bugcatcher
-  - issue with dendron site on edge browser
+  - issue with Dendron site on Edge browser
 - [Aaron Meese](https://github.com/ajmeese7)
   - #dendron.taxonomist
   - [Update dendron.faq.md by ajmeese7 · Pull Request #273 · dendronhq/dendron-site](https://github.com/dendronhq/dendron-site/pull/273)

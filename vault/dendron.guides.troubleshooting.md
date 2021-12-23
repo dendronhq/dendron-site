@@ -52,7 +52,7 @@ npm info @dendronhq/dendron-cli
 
 ### Lookup Shortcut is not working
 - causes:
-  - you have the vim extension installed and its overriding the default dendron shortcut
+  - you have the vim extension installed and its overriding the default Dendron shortcut
 - fix: 
   1. open command palette and run `Open Keyboard Shortcuts (JSON)`
   2. add the following shortcut override
@@ -97,7 +97,7 @@ To get snippets to autocomplete, make sure you don't have snippets disabled
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/trouble.upgrade.png)
 
-Dendron will update keybindings/settings/etc to the latest defaults if not currently set on upgrade. If you see the above error, it means that Dendron had trouble parsing one of your settings files. This doesn't stop dendron from starting but it does mean that the latest settings aren't being applied.
+Dendron will update keybindings/settings/etc to the latest defaults if not currently set on upgrade. If you see the above error, it means that Dendron had trouble parsing one of your settings files. This doesn't stop Dendron from starting but it does mean that the latest settings aren't being applied.
 
 The most likely culprit of this error is a bad snippets file. To fix, bring up the command prompt, type `>Configure User Snippets`, open `dendron.code-snippets` and see if there's anything funky with the json on the line mentioned by the error. You can also use tools like [jsonlint](https://jsonlint.com/) to validate your JSON.
 
@@ -257,7 +257,7 @@ You can have Dendron create one if you hold down "Cmd+Shift+P" (CTRL+SHIFT+P on 
 
 ### Clear the cache
 
-Delete dendron [[cache|dendron._ref.caching#summary]] files.
+Delete Dendron [[cache|dendron._ref.caching#summary]] files.
 
 ### Whitelisting localhost
 

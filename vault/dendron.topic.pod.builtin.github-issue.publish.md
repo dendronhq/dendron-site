@@ -8,7 +8,7 @@ created: 1627560101451
 
 ## Summary
 
-The Github Issue Publish Pod lets you update the status, milestone, assignees and labels of issues in your github repository that have previously been imported into Dendron. It also supports creating a new issue and a discussion in github from a note authored in dendron. 
+The Github Issue Publish Pod lets you update the status, milestone, assignees and labels of issues in your github repository that have previously been imported into Dendron. It also supports creating a new issue and a discussion in github from a note authored in Dendron. 
 
 
 ## Actions

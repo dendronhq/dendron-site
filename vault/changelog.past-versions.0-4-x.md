@@ -56,7 +56,7 @@ created: 1629505311218
 
 ### Features
 
-- native dendron preview ([[docs|dendron._ref.web-ui#preview]])
+- native Dendron preview ([[docs|dendron._ref.web-ui#preview]])
 - updated onboarding experience ([[docs|dendron.ref.commands#launch-tutorial]])
 
 ### Enhancements
@@ -105,7 +105,7 @@ created: 1629505311218
 -   don't update update time in note if content hasn't changed
 -   bad note frontmatter won't crash workspace
 -   support canonical url option when publishing ([[docs|dendron.topic.publish-legacy.configuration#canonicalurl]])
--   dendron cli doesn't need `wsRoot` option if executing inside subdirectory of a workspace
+-   Dendron CLI doesn't need `wsRoot` option if executing inside subdirectory of a workspace
 -   - VS Code Workspace Trust: Dendron now supports Workspace Trust as 'limited in restricted mode' - all Dendron functionality will work except for hooks. For more information see [VS Code Workspace Trust](https://code.visualstudio.com/docs/editor/workspace-trust)
 
 
@@ -166,7 +166,7 @@ created: 1629505311218
 
 ### Bug Fixes
 
--   issue with publishing using dendron cli
+-   issue with publishing using Dendron CLI
 
 ## 0.46
 

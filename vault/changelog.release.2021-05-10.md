@@ -9,7 +9,7 @@ created: 1620668738966
 Dendron 0.41 has sprouted  🌱
 
 ### Highlights
-- 🪝 hooks are here - you can now augment dendron with you own custom scripts
+- 🪝 hooks are here - you can now augment Dendron with you own custom scripts
 - site preview/build commands will now load with the latest changes
 - don't crash on minor errors and show nicer error messages 
 - a new getting started guide 
@@ -31,7 +31,7 @@ You can see an overview of all roles [[here|community.roles]]
   - issue with changelog numbering
 - [Bruno Paz](https://github.com/brpaz) @brpaz#1914 
   - `+horticulturalist`
-  - create ulauncher plugin for dendron: https://discord.com/channels/717965437182410783/757779937833779361/840610917338841138
+  - create ulauncher plugin for Dendron: https://discord.com/channels/717965437182410783/757779937833779361/840610917338841138
 - [kalyan02](https://github.com/kalyan02) @pogo#4810
   - `+horticulturalist`
   - create script to help manage unfinished tasks: https://github.com/kalyan02/dendronutils

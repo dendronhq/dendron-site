@@ -27,8 +27,8 @@ It's been a few weeks since the last minor release. This iteration was mostly sp
   - the `updated` timestamp on notes now updates on every save
   - timestamp will now print a human friendly label 
 - improved publishing
-  - dendron sites now support latex
-  - dendron will generate a bad link report for all links that do not resolve when publishing
+  - Dendron sites now support latex
+  - Dendron will generate a bad link report for all links that do not resolve when publishing
   - bad links will now resolve to a custom 404 link
   - you can define a custom site repository that will be used by publishing commands
 - consolidated lookup
@@ -38,7 +38,7 @@ It's been a few weeks since the last minor release. This iteration was mostly sp
 
 ## Seeds
 
-Aside from features, we've also launched two [[seeds|dendron.topic.seeds]]. Seeds are **open source dendron sites** that **consolidate reference material** about a **particular vertical**. Content from the catalogues is derived from existing open source content as well as manual user input. Your 🙏 is welcomed and encouraged. 
+Aside from features, we've also launched two [[seeds|dendron.topic.seeds]]. Seeds are **open source Dendron sites** that **consolidate reference material** about a **particular vertical**. Content from the catalogues is derived from existing open source content as well as manual user input. Your 🙏 is welcomed and encouraged. 
 
 ![[community.showcase#open-pkm-catalogue,1:#*]]
 ![[community.showcase#open-aws-catalogue,1:#*]]

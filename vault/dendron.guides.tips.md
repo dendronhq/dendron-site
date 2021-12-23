@@ -187,7 +187,7 @@ gitignore
   3. Commit all your changes
   ```
   git add .
-  git commit -m "add dendron action"
+  git commit -m "add Dendron action"
   ```
   4. Create the pages branch
   Configure your repository's Pages settings as follows:

@@ -65,5 +65,5 @@ site:
 - setting a custom color theme
 - support for bad links report
 - support for automatically generated toc
-- integration with dendron plugin
+- integration with Dendron plugin
 

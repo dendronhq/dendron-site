@@ -26,7 +26,7 @@ These release notes are summary of the more notable changes, for the full list, 
 
 ### Fixes
 
-- Bad import causes dendron to not compile in case-sensitive file systems 
+- Bad import causes Dendron to not compile in case-sensitive file systems 
 
 ## Engine
 
@@ -128,7 +128,7 @@ Go down the hierarchy
 - Don't update color theme on upgrade 
 - Upgrade settings sometimes override existing settings 
 - Issues with note refs not displaying in some cases 
-- Rename note will not update dendron tree view 
+- Rename note will not update Dendron tree view 
 
 ## Thank You
 
@@ -153,7 +153,7 @@ Last and most of all, a big **thanks** to the following gardeners that brought u
   - [Issue with blof refs not resolving](https://github.com/dendronhq/dendron/issues/146)
 
 - [eflinfoki](https://github.com/eflinfoki)
-  - [Update dendron troubleshooting guide](https://github.com/dendronhq/dendron-template/pull/6)
+  - [Update Dendron troubleshooting guide](https://github.com/dendronhq/dendron-template/pull/6)
 
 - [Janne Ojanaho](https://github.com/jojanaho)
   - [Updating Dendron FAQ](https://github.com/dendronhq/dendron-template/commit/9252d12f21dc21fca0a2e2bf36da9edc84202227)

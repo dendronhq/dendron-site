@@ -83,7 +83,7 @@ Lookup will complete &lt;100ms even as you scale to thousands of notes.
 - Always initialize first workspace with walkthrough 
 - Show create new option in schema lookup 
 - Better first workspace experience 
-- Bundle dendron markdown preview with dendron on installation 
+- Bundle Dendron Markdown Preview with Dendron on installation 
 - New welcome screen on first initialization 
 - Better lookup results when at root of vault 
 

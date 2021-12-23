@@ -35,7 +35,7 @@ When creating a note in lookup, Dendron will try to create your note in the corr
 
 ![[dendron://dendron.dendron-site/dendron.ref.config#lookupconfirmvaultoncreate:#*]]
 
-To enable,  add `lookupConfirmVaultOnCreate: true` in the dendron configuration. Instructions to do so below.
+To enable,  add `lookupConfirmVaultOnCreate: true` in the Dendron configuration. Instructions to do so below.
 
 1. > `Dendron: Configure (yaml)`
 2. add `lookupConfirmVaultOnCreate: true` so your configuration looks like the following:

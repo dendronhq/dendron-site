@@ -7,7 +7,7 @@ created: 1604236041570
 ---
 ## Summary
 
-If you would like to contribute to the development of dendron, checkout out the [repo](https://link.dendron.so/github) from github.
+If you would like to contribute to the development of Dendron, checkout out the [repo](https://link.dendron.so/github) from github.
 
 You can then follow the [setup instructions](https://docs.dendron.so/notes/64f0e2d5-2c83-43df-9144-40f2c68935aa.html)
 

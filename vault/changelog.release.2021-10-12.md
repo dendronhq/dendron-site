@@ -48,7 +48,7 @@ You can see an overview of all roles [[here|community.roles]]
     - #dendron.bugcatcher
     - mermaid not working in preview
 - [Miguel Pereira](https://github.com/doctorboyMP) `doctorboy#9882`
-    - issue with dendron snapshots
+    - issue with Dendron snapshots
 - [Laurentiu Nicola](https://github.com/lnicola)
     - #dendron.bugcatcher
     - ["Taking Notes" tutorial link doesn't work in the preview pane · Issue #1476 · dendronhq/dendron](https://github.com/dendronhq/dendron/issues/1476)

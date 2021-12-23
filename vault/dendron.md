@@ -6,7 +6,7 @@ updated: 1639201138981
 created: 1595952505017
 ---
 
-![dendron logo](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/logo-256.png)
+![Dendron logo](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/logo-256.png)
 
 The **hierarchical** note taking tool that **grows** as you do!
 
@@ -20,7 +20,7 @@ Dendron finds the **usable center** between the two extremes by supporting backl
 
 With Dendron, you can **create, find, and collaborate** on information that **matters to you**.
 
-![dendron screenshot](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/graph-intro.gif)
+![Dendron screenshot](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/graph-intro.gif)
 
 ## Use Cases
 

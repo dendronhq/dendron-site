@@ -17,7 +17,7 @@ Dendron 0.25 has sprouted 🌱
 
 ### Spring Cleaning
 
-- [[dendron v1|dendron.topic.publish]] publishing is now being deprecated
+- [[Dendron v1|dendron.topic.publish]] publishing is now being deprecated
   - all users are encouraged to switch to [[Publishing V2|dendron.topic.publish]]
   - support until end of January at which point we will be removing v1 related functionality 
   - this includes
@@ -34,7 +34,7 @@ Last and most of all, a big **thanks** to the following gardeners that brought u
 - [Luke Carrier](https://github.com/LukeCarrier) @lukecarrier#2081
   - [CI/CD on push](https://github.com/dendronhq/dendron/pull/449)
   - Ryan Randall `#environmentalist`
-    - contributing to dendron
+    - contributing to Dendron
 - [Mark H. Choi](https://github.com/hikchoi/cerebrarium) @hikchoi#8934 `#taxonomist` `#bug-catcher`
   - [[Dendron QA Notes|dev.process.qa.notes]]
   - [issue with breadcrumbs](https://github.com/dendronhq/dendron-11ty/issues/9)
@@ -49,17 +49,17 @@ You can see an overview of all roles [[here|community.roles]]
 
 This release comes with the following versions:
 
-- dendron plugin: 0.25
+- Dendron plugin: 0.25
 
-- dendron markdown preview: 0.10.19
+- Dendron Markdown Preview: 0.10.19
 
-- dendron cli: 0.25
+- Dendron CLI: 0.25
 
-- dendron 11ty: 1.25
+- Dendron 11ty: 1.25
 
-- dendron plugin and dendron markdown preview will be auto-installed by VS Code
+- Dendron plugin and Dendron Markdown Preview will be auto-installed by VS Code
 
-- See the upgrade instructions [[here for dendron-11ty and dendron cli|dendron.guides.upgrading#dendron-cli-and-dendron-11ty]]
+- See the upgrade instructions [[here for dendron-11ty and Dendron CLI|dendron.guides.upgrading#dendron-cli-and-dendron-11ty]]
 
 ![[changelog#0242:#0232]]
 

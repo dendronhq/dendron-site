@@ -26,7 +26,7 @@ Some features of note:
 - even though this is now a React app, all pages are still statically generated which means you still get full SEO benefits 
 - after the first load, all links are pre-fetched and loaded client side which which results in instant page transitions :rocket:
 - the lookup for the web client uses the same lookup that exists in the desktop application
-- the web client is a vanilla nextjs app with some dendron defaults - this means you will be able to customize it like you would a regular nextjs/react app
+- the web client is a vanilla nextjs app with some Dendron defaults - this means you will be able to customize it like you would a regular nextjs/react app
 - the frontend for the web client re-uses the same code that we use internally for the web ui which means published pages will look near identical online and inside your workspace
 
 You can find setup instructions [here](https://wiki.dendron.so/notes/PgwAXFfotfgpFVqHQRlBl.html)

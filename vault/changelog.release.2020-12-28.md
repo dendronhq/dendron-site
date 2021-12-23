@@ -18,7 +18,7 @@ npm install @dendronhq/dendron-11ty@latest
 
 ### Highlights
 
-- dendron v2 publishing functionally at feature parity with legacy publishing
+- Dendron v2 publishing functionally at feature parity with legacy publishing
   - we're using it to host [dendron.so](https://dendron.so/) now :)
 - [[github actions based publishing workflow|dendron.topic.publish-legacy.github]] 
   - keep a clean git history by having github manage building your website 

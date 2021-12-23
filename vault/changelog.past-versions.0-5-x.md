@@ -55,12 +55,12 @@ created: 1632543447542
 ## 0.58.2
 
 ### Fixes
-- issue with initilaize tutorial workspace from non-dendron workspace
+- issue with initilaize tutorial workspace from non-Dendron workspace
 
 ## 0.58.1
 
 ### Fixes
-- issue with initilaize template workspace from non-dendron workspace
+- issue with initilaize template workspace from non-Dendron workspace
 
 ## 0.58
 
@@ -156,7 +156,7 @@ Seed Browser is a new view that let's you view Seeds that are available in the S
 - use github publish to create new issues ([[docs|dendron.topic.pod.builtin.github-issue.publish]])
 - nicer refactor preview 
 - treeview improvements when publishing using nextjs
-- added dendron cache to .gitignore on vault add
+- added Dendron cache to .gitignore on vault add
 - added various alias modes for insert note link command ([[docs|dendron.ref.commands#insert-note-link]])
 
 ### Bug Fixes
@@ -447,7 +447,7 @@ This experimental feature will allow you to pull down a set of templates for com
 - show preview will no longer ask you to load
 
 ### Bug Fixes
-- dendron not updating journal behavior based on journal config in dendron.yml
+- Dendron not updating journal behavior based on journal config in dendron.yml
 
 ### Pruning
 

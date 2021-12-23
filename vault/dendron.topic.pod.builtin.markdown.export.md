@@ -14,8 +14,8 @@ The export markdown pod will take Dendron markdown and convert it to regular mar
 
 #### Supported Features
 
- - Converting dendron hierarchy into regular folder hierarchy
- - Converting dendron wikilinks into regular links `(foo.bar -> foo/bar.md)`
+ - Converting Dendron hierarchy into regular folder hierarchy
+ - Converting Dendron wikilinks into regular links `(foo.bar -> foo/bar.md)`
  - Migrating assets
 
 #### Limitations

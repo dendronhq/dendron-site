@@ -46,23 +46,23 @@ Kevin wants to work on Dendron full time for the forseeable future and would lik
 ### Revenue Ideas
 
 - pro status
-  - support dendron development using one time or recurring fee
-  - get a dendron sticker and special discord badge
+  - support Dendron development using one time or recurring fee
+  - get a Dendron sticker and special discord badge
   - get discount when we launch sever feature rates
 - workshops
 - server features
-  - use **code-server** or something equivalent to run dendron inside a browser
+  - use **code-server** or something equivalent to run Dendron inside a browser
   - dedicated end2end sync
   - hosted pods 
     - do daily import/export of notes from/to diff places
-- dendron private catalogues
+- Dendron private catalogues
   - give people the option to build a paying subscription base for their published notes (eg. substack)
 - enterprise features
   - active directory and support
   - support remote mount point
 - mobile app 
 - standalone client
-  - standalone dendron app  
+  - standalone Dendron app  
     - maybe modified VS Code (without coding)
     - theia 
     - VSCodium

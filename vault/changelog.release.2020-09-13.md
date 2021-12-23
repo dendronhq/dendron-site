@@ -123,11 +123,11 @@ If you have a site you would like to showcase, please ping Kevin ([kevin@dendron
 Last and most of all, a big **thanks** to the following gardeners that brought up issues, contributions, and fixes to this release.
 
 - [Fayçal](https://github.com/d3vr)
-  - giving us the dendron emoji
+  - giving us the Dendron emoji
 
 - [Ed](https://github.com/ens100)
   - updating various Dendron docs
-  - raise copy issue when publishing a dendron vault
+  - raise copy issue when publishing a Dendron vault
   - contribute new default completion settings for Dendron
 
 - [Daria Vasyukova](https://github.com/gereleth)

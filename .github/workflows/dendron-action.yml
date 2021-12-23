@@ -29,7 +29,7 @@ jobs:
 
     - name: Build NextJS site
       run: |
-        echo 'init dendron next' && npx dendron publish init
+        echo 'init Dendron next' && npx dendron publish init
         echo 'install deps...' && cd .next && yarn && cd ..
         echo 'version check...' && npx dendron --version
         echo 'build and export...' && npx dendron publish export

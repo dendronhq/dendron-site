@@ -20,7 +20,7 @@ See the upgrade instructions [[here|dendron.guides.upgrading#dendron-cli-and-den
 
 ### In the Works
 
-- integrating 11ty publishing with dendron workspace
+- integrating 11ty publishing with Dendron workspace
 - managed publishing
 - better ergonomics around multi-workspace
 

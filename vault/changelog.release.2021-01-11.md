@@ -37,12 +37,12 @@ Last and most of all, a big **thanks** to the following gardeners that brought u
 
 ### Versions Numbers
 This release comes with the following versions:
-- dendron plugin: 0.24.0
-- dendron markdown preview: 0.10.19
-- dendron cli: 0.24.0
-- dendron 11ty: 1.24.0
+- Dendron plugin: 0.24.0
+- Dendron Markdown Preview: 0.10.19
+- Dendron CLI: 0.24.0
+- Dendron 11ty: 1.24.0
 
-- dendron plugin and dendron markdown preview will be auto-installed by VS Code
-- See the upgrade instructions [[here for dendron-11ty and dendron cli|dendron.guides.upgrading#dendron-cli-and-dendron-11ty]]
+- Dendron plugin and Dendron Markdown Preview will be auto-installed by VS Code
+- See the upgrade instructions [[here for dendron-11ty and Dendron CLI|dendron.guides.upgrading#dendron-cli-and-dendron-11ty]]
 
 ![[changelog#0232:#0222]]

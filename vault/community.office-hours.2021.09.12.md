@@ -34,7 +34,7 @@ created: 1631637704455
 * Agent A
 * Workspace just for Dendron
     - [Tools - Kevin's Garden](https://www.kevinslin.com/notes/7f197479-279e-4b1e-9edd-21bf2da423b0.html#dendron-setup)
-* Something special about dendron workspace
+* Something special about Dendron workspace
     - Currently requires `dendron.code-workspace` file
-    - In the future, anything with dendron.yml will be a dendron workspace
+    - In the future, anything with dendron.yml will be a Dendron workspace
         * Standalone Vaults: [https://github.com/dendronhq/dendron/issues/41](https://github.com/dendronhq/dendron/issues/41)

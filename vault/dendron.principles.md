@@ -21,11 +21,11 @@ Our goal is to provide a tool with the efficiency of vim, the extensibility of e
 
 What this means:
 
-- dendron features are text centric and composables
-- dendron provides the lowest friction interface for working with your knowledge base
-- dendron optimizes for efficiency, speed, and keyboard focused ux
-- dendron comes with sane defaults and the ability to customize to your liking
-- dendron can be extended along any dimension
+- Dendron features are text centric and composables
+- Dendron provides the lowest friction interface for working with your knowledge base
+- Dendron optimizes for efficiency, speed, and keyboard focused ux
+- Dendron comes with sane defaults and the ability to customize to your liking
+- Dendron can be extended along any dimension
 
 ### Gradual Structure
 

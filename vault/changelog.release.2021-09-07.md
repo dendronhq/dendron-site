@@ -15,7 +15,7 @@ Documentation as well as additional notes for each of the changes can be found i
 - feat(workspace) lookup now matches words that are out of order and with much improved fuzzyness
 - feat(workspace) much faster preview rendering thanks to preview caching 🚀
 - feat(workspace) Dendron bundle size is now 50% smaller which means faster updates and startup 🚀
-- feat(publishing) nextjs publishing integrated with dendron cli #stage.seed
+- feat(publishing) nextjs publishing integrated with Dendron CLI #stage.seed
 
 ### Enhancements
 - enhance(workspace) add multi-select for Dendron: Move Note command

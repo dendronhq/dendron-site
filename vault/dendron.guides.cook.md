@@ -151,7 +151,7 @@ Keywords=dendron;notes;pkm;
 Categories=Utility;TextEditor;
 ```
 
-Make sure the path to the dendron workspace matches your setup. Then, run `update-desktop-database ~/.local/share/applications/` in a terminal or restart your system. You should now see Dendron in the launcher under the Utilities section, or if you search for Dendron in your launcher. Launching Dendron from here will launch VS Code with your Dendron workspace open.
+Make sure the path to the Dendron workspace matches your setup. Then, run `update-desktop-database ~/.local/share/applications/` in a terminal or restart your system. You should now see Dendron in the launcher under the Utilities section, or if you search for Dendron in your launcher. Launching Dendron from here will launch VS Code with your Dendron workspace open.
 
 ### Change the sorting order in the Outline Panel
 
@@ -176,7 +176,7 @@ To drag files into Dendron, open the workspace pane on the side to drag and drop
 
 ![[dendron.ref.commands#initialize-workspace:#*]]
 
-2. by default, dendron uses a `vaults` folder underneath your workspace to store you vaults. Update your [[settings|dendron._ref.settings]] and change `vault` to the path of your current notes (alternatively, you can also copy your current notes into `vault`)
+2. by default, Dendron uses a `vaults` folder underneath your workspace to store you vaults. Update your [[settings|dendron._ref.settings]] and change `vault` to the path of your current notes (alternatively, you can also copy your current notes into `vault`)
 
 ```
 "folders": [

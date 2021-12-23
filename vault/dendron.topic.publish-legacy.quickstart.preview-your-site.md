@@ -41,7 +41,7 @@ npx dendron buildSite  --stage dev --serve
 
 This will both compile your site locally and make it available at `localhost:8080` for instant preview. When building your site locally, the pages will be build to `{wsRoot}/build/site`. 
 
-- NOTE: dendron currently doesn't support live reload so you'll need to `CTRL-C` and re-run `buildSite` in order to see the latest changes
+- NOTE: Dendron currently doesn't support live reload so you'll need to `CTRL-C` and re-run `buildSite` in order to see the latest changes
 
 <!--
 ### Adding metadata

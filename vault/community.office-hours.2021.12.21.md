@@ -41,7 +41,7 @@ How do tags fit in with the hierarchies idea, I am trying to understand how they
   - Might need to submit an issue [https://github.com/dendronhq/dendron/issues/1946](https://github.com/dendronhq/dendron/issues/1946)
 
 - 
-- Is it possible to have semantic links in dendron?(notes might be linked with different ways)
+- Is it possible to have semantic links in Dendron?(notes might be linked with different ways)
   - [[...]]()
   - [https://wiki.dendron.so/notes/587e6d62-3c5b-49b0-aedc-02f62f0448e6.html](https://wiki.dendron.so/notes/587e6d62-3c5b-49b0-aedc-02f62f0448e6.html)
   - Tag colors: https://wiki.dendron.so/notes/8bc9b3f1-8508-4d3a-a2de-be9f12ef1821.html

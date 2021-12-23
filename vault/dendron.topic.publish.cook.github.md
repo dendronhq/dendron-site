@@ -50,9 +50,9 @@ Select the docs folder and click save.
 ### Setup Dendron Next Publishing
 
 1. Navigate to the root of your workspace (directory with `dendron.yml`) 
-1. Initialize dendron-cli
+1. Initialize Dendron CLI
 ![[dendron://dendron.dendron-site/dendron.topic.publish.cook.common#setup-dendron-cli,1:#*]]
-1. Initialize dendron next publishing
+1. Initialize Dendron next publishing
 ![[dendron://dendron.dendron-site/dendron.topic.publish.cook.common#setup-notes,1:#*]]
 
 
@@ -115,7 +115,7 @@ dendron publish export --target github
 ### Deploy your changes
 ```bash
 git add .
-git commit -m "dendron page update"
+git commit -m "Dendron page update"
 git push
 ```
 

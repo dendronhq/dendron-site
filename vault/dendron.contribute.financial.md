@@ -6,7 +6,7 @@ updated: 1640117751855
 created: 1604236189356
 ---
 
-![dendron logo](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/grow-covid-2.png)
+![Dendron logo](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/grow-covid-2.png)
 
 If you would like to make a financial contribution to Dendron, you can do so by getting a Dendron **environmentalist** subscription.
 

@@ -21,8 +21,8 @@ How to publish Dendron pages to AWS amplitude.
           - yarn
       build:
         commands: 
-          - "(test -d .next) && (echo 'updating dendron next...' && cd .next && git reset --hard && git clean -f && git pull) || (echo 'init dendron next' && npx dendron publish init)"
-          - "(echo 'init dendron next' && npx dendron publish init)"
+          - "(test -d .next) && (echo 'updating Dendron next...' && cd .next && git reset --hard && git clean -f && git pull) || (echo 'init Dendron next' && npx dendron publish init)"
+          - "(echo 'init Dendron next' && npx dendron publish init)"
           - "echo 'install deps...' && cd .next && yarn && cd .."
           - "echo 'build notes...' && npx dendron publish build"
           - "echo 'export...' && cd .next && yarn export"

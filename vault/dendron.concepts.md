@@ -91,7 +91,7 @@ There are two reasons why these suggested notes might show up:
 
 ### Command Palette
 
-The command palette is native to `VS Code`. You can use it to run dendron commands, which will all be prefixed with `Dendron:`. You can use the following shortcut to open the command palette.
+The command palette is native to `VS Code`. You can use it to run Dendron commands, which will all be prefixed with `Dendron:`. You can use the following shortcut to open the command palette.
 
 - <img src="https://www.kernel.org/theme/images/logos/favicon.png" width=16 height=16/> <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf">Linux</a> `Ctrl+Shift+P`
 - <img src="https://developer.apple.com/favicon.ico" width=16 height=16/> <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf">macOS</a> `Cmd+Shift+P`

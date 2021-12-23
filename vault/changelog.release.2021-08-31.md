@@ -58,7 +58,7 @@ You can see an overview of all roles [[here|community.roles]]
   - #dendron.bugcatcher
   - [New note stuck in with "stub: true" · Issue #1231 · dendronhq/dendron](https://github.com/dendronhq/dendron/issues/1231)
 - [Aleksey Rowan](https://github.com/aleksey-rowan) @aleksey#5276
-  - [Cross-vault reference links are not rendered in V2 without `dendron//` prefix · Issue #1213 · dendronhq/dendron](https://github.com/dendronhq/dendron/issues/1213)
+  - [Cross-vault reference links are not rendered in V2 without `dendron://` prefix · Issue #1213 · dendronhq/dendron](https://github.com/dendronhq/dendron/issues/1213)
 - [Ryan Randall](https://github.com/ryan-p-randall)
   - #dendron.bugcatcher
   - [Rename note command doesn't update wikilinks to the renamed note if they are inside the renamed note · Issue #1207 · dendronhq/dendron](https://github.com/dendronhq/dendron/issues/1207)

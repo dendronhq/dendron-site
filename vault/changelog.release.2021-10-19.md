@@ -11,8 +11,8 @@ Dendron 0.64 has sprouted  🌱
 More streamlined publishing as well as lots of fixes and enhancements to existing features 
 
 ### Highlights
-- feat(publish): add dendron publish dev command ([[docs|dendron://dendron.dendron-site/dendron.topic.publish.cli#dev]])
-- feat(publish): add dendron publish export command ([[docs|dendron://dendron.dendron-site/dendron.topic.publish.cli#export]])
+- feat(publish): add `dendron publish dev` command ([[docs|dendron://dendron.dendron-site/dendron.topic.publish.cli#dev]])
+- feat(publish): add `dendron publish export` command ([[docs|dendron://dendron.dendron-site/dendron.topic.publish.cli#export]])
 - fix(publish): optimize nextjs publishing search
 
 ### Everything Else
@@ -62,7 +62,7 @@ You can see an overview of all roles [[here|community.roles]]
     #dendron.taxonomist
     - fix typo on job post
 - [Jminding](https://github.com/Jminding) `@Jminding#0001`
-    - update dendron troubleshooting guide
+    - update Dendron troubleshooting guide
 
 ### Changelog
 ![[changelog#064,1:#063]]

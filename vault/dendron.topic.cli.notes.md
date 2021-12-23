@@ -40,7 +40,7 @@ Options
 - `--output`: controls how note is formatted
     - values: `json|markdown_gfm|markdown_dendron`
         - json: json output
-        - markdown_dendron: dendron markdown
+        - markdown_dendron: Dendron markdown
         - markdown_gfm: github flavored markdown 
 
 

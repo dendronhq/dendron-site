@@ -210,7 +210,7 @@ You can see the full list of information we collect and why we do it in our [[te
 ### Docs
 
 -   update [[example schemas|dendron.topic.schema#example-schemas]] as an importable remote vault
--   create dendron for [[teams|dendron.topic.teams]] docs
+-   create Dendron for [[teams|dendron.topic.teams]] docs
 
 ## 0.35.0
 
@@ -321,7 +321,7 @@ You can now use managed publishing with a password. Note that you'll need [sprou
 
 ### Bug Fixes
 
--   dendron will check if dependencies are actually installed before trying to preview your site
+-   Dendron will check if dependencies are actually installed before trying to preview your site
 -   remove un-used extensions
 -   failure when importing large amounts of markdown files using import pod
 
@@ -393,13 +393,13 @@ Dendron now supports custom domain names for [[managed publishing|dendron.topic.
 
 ### Bug Fixes
 
--   selecting non-primary root note in dendron tree
+-   selecting non-primary root note in Dendron tree
 -   bad backlinks created for home page
 -   issue with hierarchies for mixed case parents
 
 ### Documentation
 
--   new docs on using dendron for [[blogging|dendron.topic.publish-legacy.blogging]]
+-   new docs on using Dendron for [[blogging|dendron.topic.publish-legacy.blogging]]
 
 ### House Cleaning
 
@@ -437,5 +437,5 @@ As an example of what you can do with a custom pod, we created the [[Dev.to Pod|
 ### House Cleaning
 
 -   if you're working on the codebase, `dendron.code-workspace` has been renamed to `dendron-main.code-workspace`
-    -   this helps if you're working on dendron while having dendron installed since Dendron, prior to this change, would also activate when you were editing the code
+    -   this helps if you're working on Dendron while having Dendron installed since Dendron, prior to this change, would also activate when you were editing the code
 

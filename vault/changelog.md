@@ -266,7 +266,7 @@ An enhancement in this release delivers breaking changes announced last week: [[
 ### Enhancements
 - enhance(workspace): add seeds directory to gitignore on workspace creation (#1629) @hikchoi
 - enhance(workspace): preview command enablement (#1619) @hikchoi
-- enhance(workspace): add custom icons to dendron tree view (#1635)  @kevin
+- enhance(workspace): add custom icons to Dendron tree view (#1635)  @kevin
 - enhance(workspace): Copy Header Reference code action (#1598) @joshi
 
 ### Fix
@@ -483,9 +483,9 @@ dendron dev run_migration --migrationVersion 0.64.1
 - fix(publish): footer did not show on first load (#1413) @viztor
 - fix(workspace): notes added outside Dendron are missed (#1406) @kaan
 - fix(workspace): next gen views in remote workspaces (#1401) @kaan
-- fix(workspace): no-op on hover provider if dendron non active (#1398)
-- fix(workspace): fixes in providers when not in dendron workspace (#1405) @jonathan
-- fix(workspace): no completion when dendron isn't active @jonathan
+- fix(workspace): no-op on hover provider if Dendron non active (#1398)
+- fix(workspace): fixes in providers when not in Dendron workspace (#1405) @jonathan
+- fix(workspace): no completion when Dendron isn't active @jonathan
 
 ## 0.60.1
 

@@ -12,7 +12,7 @@ Support org-mode sytnax within Dendron
 
 ## Details
 
-This project discusses how to best incorporate org-mode functionality into dendron
+This project discusses how to best incorporate org-mode functionality into Dendron
 
 ## Proposals
 
@@ -21,14 +21,14 @@ This project discusses how to best incorporate org-mode functionality into dendr
 
 ### 1. Support {file}.org files
 
-- have dendron support .org files
+- have Dendron support .org files
 
 - pros:
   - works with existing VS Code extensions (eg. [VS Code Org Mode](https://marketplace.visualstudio.com/items?itemName=tootone.org-mode)
   - can be edited in emacs
 
 - cons:
-  - uncertain how to implement dendron specific syntax and features (eg. note references, schemas, etc)
+  - uncertain how to implement Dendron specific syntax and features (eg. note references, schemas, etc)
 
 ## 2. support `org` syntax within `md` files
 
@@ -42,7 +42,7 @@ This project discusses how to best incorporate org-mode functionality into dendr
 
 ## Thoughts
 
-Currently i'm leaning towards 1). folks that want org-mode support in dendron can create markdown files and manually set the filetype to org mode. it's not ideal since you lose the preview but other functions like lookup still work. 
+Currently i'm leaning towards 1). folks that want org-mode support in Dendron can create markdown files and manually set the filetype to org mode. it's not ideal since you lose the preview but other functions like lookup still work. 
 
 Changing filetype has a custom command. VS Code has a default shortcut (`cmd+k m` on mac) that can be re-mapped. 
 

@@ -8,7 +8,7 @@ created: 1619541378119
 
 ## Access
 
-You can access these Configurations through the [VS Code Settings](https://code.visualstudio.com/docs/getstarted/settings), you will find them if you search for dendron.
+You can access these Configurations through the [VS Code Settings](https://code.visualstudio.com/docs/getstarted/settings), you will find them if you search for "Dendron".
 
 ![[dendron.ref.config#legend:#*]]
 
@@ -132,20 +132,20 @@ when creating a new note with selected text, define behavior for selected text
 - type: string
 - default: 
 
-location of dendron workspace
+location of Dendron workspace
 
 ## dendron.dendronDir
 - type: string
 - default: 
 
-location of dendron configuration
+location of Dendron configuration
 
 ## dendron.logLevel
 - type: string
 - default: info
 - options:  ['debug', 'info', 'error']
 
-control verbosity of dendron logs
+control verbosity of Dendron logs
 
 ## dendron.trace.server
 - type: string

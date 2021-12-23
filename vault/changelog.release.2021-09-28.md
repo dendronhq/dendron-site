@@ -40,9 +40,9 @@ Dendron 0.61 has sprouted  🌱
 - fix(publish): footer did not show on first load 
 - fix(workspace): notes added outside Dendron are missed 
 - fix(workspace): next gen views in remote workspaces 
-- fix(workspace): no-op on hover provider if dendron non active 
-- fix(workspace): fixes in providers when not in dendron workspace 
-- fix(workspace): no completion when dendron isn't active 
+- fix(workspace): no-op on hover provider if Dendron non active 
+- fix(workspace): fixes in providers when not in Dendron workspace 
+- fix(workspace): no completion when Dendron isn't active 
 - fix(workspace): support activation for older VS Code version (#1426)
 
 
@@ -77,7 +77,7 @@ You can see an overview of all roles [[here|community.roles]]
     - [Dendron Tree widget not updating on new note creation (regression) · Issue #1430 · dendronhq/dendron](https://github.com/dendronhq/dendron/issues/1430)
 - [Aleksey Rowan](https://github.com/aleksey-rowan) `@aleksey#5276`
     - [Probable vault name collision breaks V2 preview · Issue #1411 · dendronhq/dendron](https://github.com/dendronhq/dendron/issues/1411)
-    - [Automatic title extraction doesn't work in cross-vault links without `dendron//` prefix · Issue #1429 · dendronhq/dendron](https://github.com/dendronhq/dendron/issues/1429)
+    - [Automatic title extraction doesn't work in cross-vault links without `dendron://` prefix · Issue #1429 · dendronhq/dendron](https://github.com/dendronhq/dendron/issues/1429)
 - [NZ John](https://github.com/nz-john) `@NZ-John#0569`
     - #dendron.bugcatcher
     - [.html remains at end of reference note card links (in NextJS) and breaks links · Issue #1400 · dendronhq/dendron](https://github.com/dendronhq/dendron/issues/1400)

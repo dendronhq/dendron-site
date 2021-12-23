@@ -14,7 +14,7 @@ Dendron lets you control publication behavior at multiple levels:
 - **globally** using `dendronConfig.site` 
 - **per hiearchy** through `dendronConfig.site.config` 
 - **per note** through the publication related frontmatter
-- **per line** through custom dendron directives inside the note
+- **per line** through custom Dendron directives inside the note
 
 ## Global Configuration
 
@@ -258,7 +258,7 @@ To set options for **all** hierarchies, set `{hiearchy name}` to **root**.
 - default: true 
 - values: true|false|hashByVault
 
-If set to false, dendron will only publish notes within the hierarchy that have `published: true` set in the frontmatter
+If set to false, Dendron will only publish notes within the hierarchy that have `published: true` set in the frontmatter
 
 If set as a hash, you can further specify `publishByDefault` settings on a per vault basis. The key is the name of the vault and the value is a boolean. 
 
@@ -278,7 +278,7 @@ site:
 - default: false
 - status: NOT currently supported
 
-If set to true, dendron will add the following meta tag `<meta name="robots" content="noindex, nofollow”>` which will tell google to not index your page
+If set to true, Dendron will add the following meta tag `<meta name="robots" content="noindex, nofollow”>` which will tell google to not index your page
 
 When google indexes a page, it will penalize sites that have duplicate content from other sites. this is useful if you are using your hiearchy as a [[cache|dendron.guides.workflows.cache]]
 
@@ -286,7 +286,7 @@ When google indexes a page, it will penalize sites that have duplicate content f
 
 - default: \[]
 
-If set, dendron will add the specified frontmatter to each published note in the hierarchy. note that this will override existing keys with the same name when publishing
+If set, Dendron will add the specified frontmatter to each published note in the hierarchy. note that this will override existing keys with the same name when publishing
 
 - eg. add `toc: true` to all notes published under the `iam.*` hierarchy
 

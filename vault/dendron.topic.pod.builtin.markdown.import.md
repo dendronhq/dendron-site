@@ -9,7 +9,7 @@ created: 1617327950468
 ## Summary
 Import markdown files stored locally. 
 
-The pod finds all files from the `root`, and copies over the files into your vault, cleaning the file names to fit dendron's naming hierarchy. You can see an example below. 
+The pod finds all files from the `root`, and copies over the files into your vault, cleaning the file names to fit Dendron's naming hierarchy. You can see an example below. 
 
 ## Example
 - Original
@@ -73,7 +73,7 @@ If set, match the given indexName and combine it with the imported directory. Fo
     └── two.md
 ```
 
-A naive import into dendron will result in the following files
+A naive import into Dendron will result in the following files
 ```
 .
 ├── foo.index.md

@@ -19,7 +19,7 @@ In this talk, Kevin, Dendron founder, will go over how he uses Dendron to manage
 - daily knowledge accretion using journal notes, scratch notes, and hierarchies
 - finding anything in seconds using lookup and search
 - VS Code specific shortcuts and settings 
-- various dendron optimizations 
+- various Dendron optimizations 
 - process for switching between windows, tabs, and workspaces
 - multi-desktop multi-vault setup
 

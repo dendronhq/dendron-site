@@ -23,7 +23,7 @@ This release also includes some breaking changes due to some renaming of command
 - enhance(schema): allow untyped templates in schemas ([[docs|dendron.topic.schema#shortened-template-syntax]])
 - enhance(workspace): add seeds directory to gitignore on workspace creation
 - enhance(workspace): preview command enablement
-- enhance(workspace): add custom icons to dendron tree view
+- enhance(workspace): add custom icons to Dendron tree view
 - enhance(workspace): Copy Header Reference code action
 - fix(publishing): markdown publish to hide block reference anchors
 - fix(workspace): file watcher updates backlinks

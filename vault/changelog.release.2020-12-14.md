@@ -9,7 +9,7 @@ Dendron 0.20 is here 🌱
 
 ### Highlights
 
-- dendron seed bank
+- Dendron seed bank
   - a registry of open source vaults that you can add to your workspace
 - refactor for multi-vault
   - one of the last items for multi-vault feature parity is now here

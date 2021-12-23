@@ -28,7 +28,7 @@ the accessing your data.
 And
 
 2:27  
-so I'm assuming that dendron is putting the is that a YAML? header?
+so I'm assuming that Dendron is putting the is that a YAML? header?
 
 2:33  
 Yes, that is a yamo header.
@@ -82,7 +82,7 @@ So denisha. We also support what we call defences, loan costs and block graph. I
 I don't actually have this Same. There are references to headers and things, but they don't. It's a little different.
 
 6:07  
-Right? So what I'm going to show you is in dendron, you can embed notes and other notes. So for example, I just hit Command Shift R, which copy the left lens of this note, and the, and then I can paste it, for example in JavaScript. And so I'm seeing the Python notes embedded in the JavaScript note. You can either choose to reference a note, or you can choose to reference a header. So for example, everything starting from heading one, and you can also do games. So you can say everything starting from header one to header two, that you can embed notes into other nodes. And then the other thing that you can do is you if you keep bullets, the markdown preview is mutable in the sense that you can click on the lead and also update the markdown. Yes, that's a little thing that I find people get quite excited about that
+Right? So what I'm going to show you is in Dendron, you can embed notes and other notes. So for example, I just hit Command Shift R, which copy the left lens of this note, and the, and then I can paste it, for example in JavaScript. And so I'm seeing the Python notes embedded in the JavaScript note. You can either choose to reference a note, or you can choose to reference a header. So for example, everything starting from heading one, and you can also do games. So you can say everything starting from header one to header two, that you can embed notes into other nodes. And then the other thing that you can do is you if you keep bullets, the markdown preview is mutable in the sense that you can click on the lead and also update the markdown. Yes, that's a little thing that I find people get quite excited about that
 
 7:08  
 over if you're going to use to do if you're going to use those
@@ -121,10 +121,10 @@ Okay, cool.
 So, can we look a little bit at, um, kind of your to dues?
 
 15:44  
-Yeah. So, two dues let me actually, okay, I'm going to do two things. I'm first going to show you how you would create it from scratch and then I'll show you my two dues for the day. I like to organize things by projects. And so I usually have like a project hierarchy. Actually. And so for example, one project might be different. And so under dendron, what I actually do is I have a daily journal that I go over everything I need to do for that particular day. And let me think, what is the best way of showcasing, I'm just going to show you my to do actually.
+Yeah. So, two dues let me actually, okay, I'm going to do two things. I'm first going to show you how you would create it from scratch and then I'll show you my two dues for the day. I like to organize things by projects. And so I usually have like a project hierarchy. Actually. And so for example, one project might be different. And so under Dendron, what I actually do is I have a daily journal that I go over everything I need to do for that particular day. And let me think, what is the best way of showcasing, I'm just going to show you my to do actually.
 
 16:28  
-So this is my to do for a dendron.
+So this is my to do for a Dendron.
 
 16:32  
 And let me show you and the video. And what I do is intention, you have this notion of your journal notes. And so journal notes is basically whatever hierarchy you're currently in, and appends journal to it in the current date. And this is configurable. You can change the date format, you can change how it appends it, but I'm going to move on to tomorrow's date. And the way you do that is Ctrl Shift J. But you can use that to create a new Going on it. And then what I do is every day, are you familiar with snippets inside VS code?
@@ -253,7 +253,7 @@ let's try this again. I might have to reload the window for it to pick it up. So
 Okay, I'll look into that. But so yeah, yeah, yeah. Okay.
 
 31:37  
-And there are other things, but these are essentially like the core parts of dendron. Something else that you can do is you can take your notes, and you can publish it to GitHub. So that's a build command. Right now, because we're in an empty space, you need to run another command to add in some pals, but basically what that when you do build power On a workspace is that it can, it'll generate, it'll turn it into static files that you can publish to GitHub. And it'll have the same template as an engine website. Um, and it's also hierarchical. So you know you the same hierarchy you happen engine you can have on your website, you can choose to publish either everything in your vault, or you can choose which hierarchies you want to publish. And then the other thing is this search bar here. This is actually also path based. So the same lookup mechanism that you use insight engine, you can also use on an engine website.
+And there are other things, but these are essentially like the core parts of Dendron. Something else that you can do is you can take your notes, and you can publish it to GitHub. So that's a build command. Right now, because we're in an empty space, you need to run another command to add in some pals, but basically what that when you do build power On a workspace is that it can, it'll generate, it'll turn it into static files that you can publish to GitHub. And it'll have the same template as an engine website. Um, and it's also hierarchical. So you know you the same hierarchy you happen engine you can have on your website, you can choose to publish either everything in your vault, or you can choose which hierarchies you want to publish. And then the other thing is this search bar here. This is actually also path based. So the same lookup mechanism that you use insight engine, you can also use on an engine website.
 
 32:42  
 Nice. Yeah.

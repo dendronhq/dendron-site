@@ -9,7 +9,7 @@ created: 1625498459946
 #### Company updates
 
 -   Native Dendron Preview
-    -   Built using dendron web ui
+    -   Built using Dendron web ui
     -   Will be common between VS Code and upcoming nextjs based publishing so everything is consistent
     -   Easier to ship new features
     -   Much faster

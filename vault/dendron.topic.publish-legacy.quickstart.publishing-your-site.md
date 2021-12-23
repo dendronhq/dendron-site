@@ -101,7 +101,7 @@ GitHub will synchronize all changes and publish your notes everytime you push.
 
 ```bash
 opit add .
-git commit -m "first dendron page"
+git commit -m "first Dendron page"
 git push
 ```
 

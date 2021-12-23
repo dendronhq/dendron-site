@@ -31,7 +31,7 @@ Example of making a contribution to Dendron.
 
 ### Lookup
 
-If you'd rather not click, dendron-jekyll also supports path based lookup.
+If you'd rather not click, Dendron-Jekyll also supports path based lookup.
 
 <img style="max-width: 720px;" src="https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/site-lookup.gif" />
 

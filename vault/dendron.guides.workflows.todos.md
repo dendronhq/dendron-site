@@ -8,7 +8,7 @@ stub: false
 ---
 ## Snippets
 
-The default dendron workspace comes with the `to` snippet that expands to `- [ ]`. You can use this to quickly create bulleted checkboxes. 
+The default Dendron workspace comes with the `to` snippet that expands to `- [ ]`. You can use this to quickly create bulleted checkboxes. 
 
 ## Interactive Checkboxes
 

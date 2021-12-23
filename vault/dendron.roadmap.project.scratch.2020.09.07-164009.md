@@ -47,7 +47,7 @@ stub: false
         - ...
 ```
 
-- dendron
+- Dendron
 
 ```
 - cookbook
@@ -71,7 +71,7 @@ stub: false
 
 -
 
-- dendron
+- Dendron
 
 ```
 - cookbook.meat

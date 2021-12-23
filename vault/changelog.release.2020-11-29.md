@@ -11,8 +11,8 @@ Dendron 0.18 has sprouted 🌱
 
 - instant link previews
   - peek into links without opening them
-- dendron web ui (for configuration updates)
-  - configure dendron using shiny new graphics
+- Dendron web ui (for configuration updates)
+  - configure Dendron using shiny new graphics
 - more multi-vault enhancements
   - support more commands 
 - lots of bug fixes

@@ -26,7 +26,7 @@ npm install -g yarn
 ## Process
 
 ### Setup
-Run the following commands at the root of your dendron [[workspace|dendron.topic.workspace]]
+Run the following commands at the root of your Dendron [[workspace|dendron.topic.workspace]]
 
 ![[dendron.topic.publish.cook.common#setup-notes,1:#*]]
 

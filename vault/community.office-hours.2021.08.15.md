@@ -20,5 +20,5 @@ Company Updates
     * Make Dendron work everywhere 
     * Starting to spec this out 
     * Goal is to have Dendron work without starting a new workspace
-    * You can turn /docs folder in your projec tinto a dendron workspace
+    * You can turn /docs folder in your project into a Dendron workspace
     * Integrate seeds 

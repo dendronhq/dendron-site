@@ -33,7 +33,7 @@ Create a global journal note
   - mac: `cmd+shift+c`
   - when: `editorFocus`
 
-Copy wiki link to note. The title of the note will be applied as the note alias. If you highlight a header, dendron will create a relative link to the header with the alias set to the header value.
+Copy wiki link to note. The title of the note will be applied as the note alias. If you highlight a header, Dendron will create a relative link to the header with the alias set to the header value.
 
 You can also highlight any line of text, and Dendron will create a link to it by inserting a block anchor, or copy an existing anchor.
 

@@ -54,7 +54,7 @@ As with all things, its a matter of tradeoffs. Dendron started its life as a sta
 
 I wanted to spend more time building out features that supported Dendron's [hiearchy first approach](https://www.kevinslin.com/notes/3dd58f62-fee5-4f93-b9f1-b0f0f59a9b64.html) to note taking which is what led me to re-write it for VS Code.
 
-That being said, the core dendron engine is not VS Code specific and there are folks that are experimenting with porting it over to other editors (eg. sublime, vim). We also have plans for a standalone editor in the future (most likely, this will be a fork of VS Code optimized for note taking)
+That being said, the core Dendron engine is not VS Code specific and there are folks that are experimenting with porting it over to other editors (eg. sublime, vim). We also have plans for a standalone editor in the future (most likely, this will be a fork of VS Code optimized for note taking)
 
 ## Notes
 
@@ -70,7 +70,7 @@ You can use Dendron with existing repositories of markdown notes.
 
 Open the `Command Palette` in VS Code and use the `Dendron: Change Workspace` command. It will ask you for a folder path as input.
 
-Dendron will create a `dendron.code-workspace` file in specified directory and then open the workspace (if a workspace file already exists, it will use that). It will also create a `root.md` file in that directory if it doesn't exist (currently this is part of the internal working of dendron).
+Dendron will create a `dendron.code-workspace` file in specified directory and then open the workspace (if a workspace file already exists, it will use that). It will also create a `root.md` file in that directory if it doesn't exist (currently this is part of the internal working of Dendron).
 
 Dendron **does not** delete or overwrite any files during the **Change Workspace** operation.
 
@@ -99,7 +99,7 @@ There are 3 ways to go back to my previous note:
 
 ### What can I do with the `root` note?
 
-The root note is a special note that comes with every dendron vault. You can't rename it and we don't advise that you create a hierarchy from it. You can add custom frontmatter variables and change all existing variables except the `id` field. 
+The root note is a special note that comes with every Dendron vault. You can't rename it and we don't advise that you create a hierarchy from it. You can add custom frontmatter variables and change all existing variables except the `id` field. 
 
 You are also free to use the body however you wish. 
 
@@ -152,9 +152,9 @@ This comes up a lot especially when your dealing with organizing collections of 
 
 It is possible though most of the approaches we've thought of would take a large amount of effort and deliver questionable benefit on top of what's already planned (for more info, see the discussion [here](https://github.com/dendronhq/dendron/issues/210)). 
 
-If you want the ability to collapse folders, you can use the [[dendron tree view|dendron.topic.workbench#dendron-tree-view]]. For existing folder based notes and assets, you can use the [[markdown pod|dendron.topic.pod.builtin.markdown.import]] to import them into Dendron.
+If you want the ability to collapse folders, you can use the [[Dendron tree view|dendron.topic.workbench#dendron-tree-view]]. For existing folder based notes and assets, you can use the [[markdown pod|dendron.topic.pod.builtin.markdown.import]] to import them into Dendron.
 
-At the end of the day, folders are meant to be an implementation detail for dendron. The underlying primitive of a note is an object that has metadata, content, and links. You can think of dendron as a flat file based database and lookup and the tree view as the UI to said database. For use cases involving external tools that require folders, you'll soon be able to use the [[markdown export pod|dendron.topic.pod.builtin.markdown.export]] to do just that.
+At the end of the day, folders are meant to be an implementation detail for Dendron. The underlying primitive of a note is an object that has metadata, content, and links. You can think of Dendron as a flat file based database and lookup and the tree view as the UI to said database. For use cases involving external tools that require folders, you'll soon be able to use the [[markdown export pod|dendron.topic.pod.builtin.markdown.export]] to do just that.
 
 ## Schemas
 
@@ -219,7 +219,7 @@ Many VS Code extensions that work across multiple git repositories won't recogni
 
 Pods are a means of data migration. You can import/export notes from other tools in and out of Dendron
 
-Internally for example, we use google docs to take meeting notes collaboratively and then we use the gdoc import pod to turn it into a dendron note
+Internally for example, we use google docs to take meeting notes collaboratively and then we use the gdoc import pod to turn it into a Dendron note
 
 You can read more about them [[here|dendron.topic.pod]].
 
@@ -272,7 +272,7 @@ This is a limitation in the VS Code webview, see more details [here](https://git
 Currently, the recommendation is to link to your video (using a regular markdown link if its online or a wikilink if its local). See [[File Links|dendron://dendron.dendron-site/dendron.topic.links#file-links]].
 ## Other
 
-### How to launch dendron with most recent vault quickly?
+### How to launch Dendron with most recent vault quickly?
 
 In menu bar of VS Code, select `File` -> `New Window` and click the Dendron workspace in Recent section of the Welcome tab.
 

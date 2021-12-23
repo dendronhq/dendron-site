@@ -7,7 +7,7 @@ created: 1617328001523
 ---
 
 ## Summary
-Publish Dendron Markdown to regular markdown. Convert note references and dendron specific syntax to regular markdown.
+Publish Dendron Markdown to regular markdown. Convert note references and Dendron specific syntax to regular markdown.
 
 ## Config
 ### wikiLinkToUrl

@@ -8,7 +8,7 @@ created: 1631686439555
 
 ## Summary
 
-The [Notion](https://www.notion.so/) export pod can transfer contents of a dendron vault to a Notion workspace. The export config has additional options to export a specific vault.
+The [Notion](https://www.notion.so/) export pod can transfer contents of a Dendron vault to a Notion workspace. The export config has additional options to export a specific vault.
 
 ## Workflow
 
@@ -26,7 +26,7 @@ Step 1: Create an integration:
 1. Give your integration a name - I chose "Novels".
 1. Select the workspace where you want to install this integration.
 1. Click "Submit" to create the integration.
-1. Copy the "Internal Integration Token" on the next page and save it to the dendron notion export pod config file.
+1. Copy the "Internal Integration Token" on the next page and save it to the Dendron notion export pod config file.
 
 Step 2: Share a database with your integration
 Integrations don't have access to any pages (or databases) in the workspace at first. A user must share specific pages with an integration in order for those pages to be accessed using the API.

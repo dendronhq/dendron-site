@@ -8,7 +8,7 @@ created: 1622841137387
 
 ## Summary
 
-Your workspace is made up of one or more **vaults**. A dendron vault stores a collection of related notes. If you're familiar with git, it's just like a code repo. By default, Dendron creates a _vaults_ folder when you first initialize a **workspace**. All your notes are stored on a per vault basis.
+Your workspace is made up of one or more **vaults**. A Dendron vault stores a collection of related notes. If you're familiar with git, it's just like a code repo. By default, Dendron creates a _vaults_ folder when you first initialize a **workspace**. All your notes are stored on a per vault basis.
 
 ```
 .

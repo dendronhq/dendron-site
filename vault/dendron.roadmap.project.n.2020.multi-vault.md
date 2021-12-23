@@ -103,7 +103,7 @@ Cloning is the act of checking out a workspace on another machine. To clone, Den
     foo (vault1)
     ```
 - lookup: `foo.`
-  - dendron will merge all results from all vaults when you do a lookup
+  - Dendron will merge all results from all vaults when you do a lookup
   - results
     ```
     foo.one (vault2)

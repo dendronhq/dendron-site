@@ -20,7 +20,7 @@ We're looking for someone with an affinity for both technology and Personal Know
 - work with engineering to shape the product roadmap
 - optimize [publishing features](https://wiki.dendron.so/notes/579e379b-3eca-4676-b51c-c66eb26a11b8.html) and [knowledge registry](https://blog.dendron.so/notes/qTeL51LFD0Y8uC9ect7QV.html) for SEO and organic growth
 - create partnerships with relevant projects and companies
-- write/find/promote content from the [dendron blog](https://blog.dendron.so)
+- write/find/promote content from the [Dendron blog](https://blog.dendron.so)
 
 ## Who you are
 - 3+ yrs consumer growth/marketing experience (knowledge management a plus)

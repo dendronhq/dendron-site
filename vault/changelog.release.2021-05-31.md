@@ -54,7 +54,7 @@ You can see an overview of all roles [[here|community.roles]]
 
 - [Preston](https://github.com/LiminalCrab) @Preston#8485 
   - `+taxonomist`
-  - fix link in dendron schema registry
+  - fix link in Dendron schema registry
 - [Tim](https://github.com/timDeHof) @timDehof#6235
   - `+bugcatcher`
   - [Cant install Dendron CLI - deployment](https://github.com/dendronhq/dendron/issues/776)
@@ -68,7 +68,7 @@ You can see an overview of all roles [[here|community.roles]]
   - [Paste file for non-URI chars](https://github.com/dendronhq/dendron/issues/765)
 - [andrey-jef](https://github.com/andrey-jef) @evanAndiez#9559
 - `+bugcatcher`
-  - Search box (in a dendron publish page, mobile view) disappeared when starting to type 
+  - Search box (in a Dendron publish page, mobile view) disappeared when starting to type 
 
 ### Changelog
 

@@ -10,7 +10,7 @@ Dendron 0.38 is here 🌱
 
 ### Highlights
 - insert note command
-- cli for managing dendron workspace
+- CLI for managing Dendron workspace
 - bug fixes and stability improvements
 
 ### Community

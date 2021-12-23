@@ -14,7 +14,7 @@ Dendron 0.56 has sprouted  🌱
 - **(breaking-change)** breaking changes have been made to vault selection and copy note link modifier behaviors [[docs|changelog#breaking-changes]]
   - [[note lookup modifier docs|dendron.topic.lookup.modifiers]]
   - [[note lookup keybinding docs|dendron.topic.lookup.keybindings]]
-- (workspace) dendron will not freeze when parsing large files
+- (workspace) Dendron will not freeze when parsing large files
 - (preview) note reference rendering no longer includes unnecessary insertion of note ref's title/header
 - (markdown) wildcard note references now works on the last element of a note
 - lots of publishing and preview improvements

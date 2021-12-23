@@ -81,7 +81,7 @@ Schemas now automatically apply their description to newly created notes that ma
 
 ### Enhancements
 
-- Update index when notes are deleted outside of dendron: We know that sometimes, it can't be helped and you'll need to work with your notes outside of Dendron. If that work is deleting notes, Dendron will now keep track of it and remove it from its lookup index as well!
+- Update index when notes are deleted outside of Dendron: We know that sometimes, it can't be helped and you'll need to work with your notes outside of Dendron. If that work is deleting notes, Dendron will now keep track of it and remove it from its lookup index as well!
 
 ## Other
 

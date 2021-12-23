@@ -55,7 +55,7 @@ One of our most requested features for multi-vault is now out. Refactor will now
 - nicer refactor formatting ([0e7749a](https://github.com/dendronhq/dendron/commit/0e7749a175a0ce80903cde5c9773649779100a9c))
 - add remote vault to gitignore if exist ([1c252db](https://github.com/dendronhq/dendron/commit/1c252db60c0ea69be8dd10c1768c2dd302711e13))
 - initialize all remote vaults on startup ([1919fe4](https://github.com/dendronhq/dendron/commit/1919fe4e6d853d1f6ef63564ebbcc9af1e11a41a))
-- write remote url to dendron config ([2a285ea](https://github.com/dendronhq/dendron/commit/2a285eacaeef8224d2a3530dc991b4977443c039))
+- write remote url to Dendron config ([2a285ea](https://github.com/dendronhq/dendron/commit/2a285eacaeef8224d2a3530dc991b4977443c039))
 - add github sponsor badge on github repository to recruit more [[environmentalists|community.roles#environmentalist]] 👨‍🌾 👩‍🌾
 
 ### Bug Fixes
@@ -196,7 +196,7 @@ You can now preview notes and references inside the editor as a hover without ev
 
 - **language**: re-enable preview functionality when peeking at a definition ([afe71c4](https://github.com/dendronhq/dendron/commit/afe71c41daff3acc935cb5bed7b51d20ef8e6267))
 - **language**: creating a note by going to its definition now respects schema templates
-- **workbench**: initialize dendron in the absence of a workspace file ([c1aabb4](https://github.com/dendronhq/dendron/commit/c1aabb4a6b2084990269ea169c1a90d800b430c3))
+- **workbench**: initialize Dendron in the absence of a workspace file ([c1aabb4](https://github.com/dendronhq/dendron/commit/c1aabb4a6b2084990269ea169c1a90d800b430c3))
 - **workbench**: cancel adding a vault if input is blank ([86baed6](https://github.com/dendronhq/dendron/commit/86baed6e0938132709e4cfbd2008f1f8fadc77cb))
 - **pods:** publish issue when multi-vault is enabled ([cc50327](https://github.com/dendronhq/dendron/commit/cc503276a0ca0545e2793449f7382bc810216377))
 - **ui:** note will show up in wrong place in treeview when multi-vault is enabled ([6daeebc](https://github.com/dendronhq/dendron/commit/6daeebc7bd2bbc68fc105766d30bc10444bcaf61))
@@ -249,7 +249,7 @@ You can now auto complete notes that have aliases. This was a common issue for f
 
 ### Bug Fixes
 
-- new dendron installation missing welcome note
+- new Dendron installation missing welcome note
 
 ## 0.15.3
 
@@ -276,7 +276,7 @@ Changelog:
   - we'll let you know if you need to submit an issue instead of giving you the silent treatment
 
 - keep old log files ([3f1362c](https://github.com/dendronhq/dendron/commit/3f1362c224ff7dae5de721dd2f2c8cba22db4d84))
-  - dendron currently wipes all logs on startup. this change makes it keep around the last log for debugging purposes
+  - Dendron currently wipes all logs on startup. this change makes it keep around the last log for debugging purposes
 
 ### Bug Fixes
 
@@ -369,15 +369,15 @@ This is a quick way to update the `dendron.yml` file. You can run it by using `D
 
 - **pods:** better markdown import pod  (d1eaa264)
   - address multiple edge cases that would cause import pod to fail
-  - auto-convert wiki-links from folder-based systems like obsidian into dendron
+  - auto-convert wiki-links from folder-based systems like obsidian into Dendron
 - **cli:** launch engine server using cli ([25eae3f](https://github.com/dendronhq/dendron/commit/25eae3fddd6a2d26dcf9e2f3e664b377c2cca978))
 
 ![[dendron.ref.cli#launchengineserver:#*]]
 
 - **workspace:** write server port in workspace ([6a0ff84](https://github.com/dendronhq/dendron/commit/6a0ff845ebbf010073b271123779fc3f56ac2821))
-  - used by bundled extensions to talk to dendron server
+  - used by bundled extensions to talk to Dendron server
 - **engine:** add sync method ([ec58d39](https://github.com/dendronhq/dendron/commit/ec58d395003640384b7764f4f8b483429cc1ece3))
-  - used by bundled extensions to talk to dendron server
+  - used by bundled extensions to talk to Dendron server
 
 ### Bug Fixes
 
@@ -509,7 +509,7 @@ Kudos to **@britt#3020** and **@lukecarrier#2081** for being the first to earn t
 
 Excited to welcome a new dendrologist --> @I'm a lightbulb#6986 
 
-@I'm a lightbulb#6986 was one of our earliest users and one of the first to [publish](https://dendron.so/notes/3a82c5ff-7945-46ae-8bf9-3b2275fc6642.html#jacks-page) using dendron. 
+@I'm a lightbulb#6986 was one of our earliest users and one of the first to [publish](https://dendron.so/notes/3a82c5ff-7945-46ae-8bf9-3b2275fc6642.html#jacks-page) using Dendron. 
 
 As a reminder, dendrologist are active members of the community who are recognized with said title and a few additional discord super powers. 
 
@@ -536,7 +536,7 @@ As a reminder, dendrologist are active members of the community who are recogniz
 ![[dendron.topic.schema#schema-templates,1:#*]]
 
 - **workbench:** reload index re-create root if not exist ([c66e242](https://github.com/dendronhq/dendron/commit/c66e242bac91c73404a5dd21ed3813c0dc2f022b))
-  - dendron requires `root.md` and `root.schema.yml` to start indexing and would previously throw an error if these files were deleted
+  - Dendron requires `root.md` and `root.schema.yml` to start indexing and would previously throw an error if these files were deleted
   - this change will create these files within the vault instead of throwing said error
 
 ### Bug Fixes
@@ -670,7 +670,7 @@ Timestamps now have human friendly decorators on the side.
 ### Enhancements
 
 - **copyAssets configuration**: when publishing, you can now toggle whether you want to copy assets or not
-- **dump state**: dendron now has a `Dump State` command which will dump the internal state into the logs (useful for debugging)
+- **dump state**: Dendron now has a `Dump State` command which will dump the internal state into the logs (useful for debugging)
 
 ### Bug Fixes
 
@@ -732,9 +732,9 @@ Server site indexing is a pre-cursor enables our upcoming roadmap items which in
 
 - [[multi-vault support|dendron.roadmap.project.n.2020.multi-vault]]
 - rich graphical interfaces for schemas, pods, and publishing
-- unified index for all dendron extensions (currently each extension makes a separate index of your notes and requires manual reloading)
+- unified index for all Dendron extensions (currently each extension makes a separate index of your notes and requires manual reloading)
 - realtime updates for graph extensions
-- custom dendron extensions written in any language 
+- custom Dendron extensions written in any language 
 
 Server side indexing is currently off by default since it's still a beta feature. You can turn it on by adding the following in your settings.
 
@@ -756,7 +756,7 @@ You can switch back to regular indexing at anytime by changing the above setting
 
 - **Additional Arguments for lookup**: You can now use `noConfirm` and `value` arguments when creating custom lookup shortcuts ([docs](https://dendron.so/notes/a7c3a810-28c8-4b47-96a6-8156b1524af3.html#passing-arguments-to-lookup))
 - **Update Default Snippets**: default todo snippet now leaves a space after insertion
-- **Set custom log levels**: you can now define the verbosity of dendron logs using the `dendron.logLevel` configuration
+- **Set custom log levels**: you can now define the verbosity of Dendron logs using the `dendron.logLevel` configuration
 - **Upgraded Schema defaults** (server only): new schemas will be created using version one defaults
 - **Cleaner note frontmatter** (server only): new notes won't have the optional attributes in frontmatter
 
@@ -823,7 +823,7 @@ This section tracks our progress against the milestones in our [[public roadmap|
 
 #### Seeds
 
-- We launched two [[seeds|dendron.topic.seeds]]. A seed is a dendron site that tries to be be a all encompassing reference for a particular vertical. Dendron provides specific libraries and CLIs that make it easy for users to create seeds from existing open source content as well as personal notes.
+- We launched two [[seeds|dendron.topic.seeds]]. A seed is a Dendron site that tries to be be a all encompassing reference for a particular vertical. Dendron provides specific libraries and CLIs that make it easy for users to create seeds from existing open source content as well as personal notes.
 
 Current Seeds:
 
