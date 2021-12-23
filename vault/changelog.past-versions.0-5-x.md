@@ -25,14 +25,14 @@ created: 1632543447542
 
 ![[dendron.topic.images#extended-images,1:#*]]
 
-#### Publish to Github Pages using Next
+#### Publish to Github Pages using Next.js
 
 ![[dendron.topic.publish.cook.github#summary,1:#*]]
 
 ### Enhancements
-- enhance(publish) support `assetPrefix` option with nextjs publishing
-- enhance(publish) initialize nextjs template with `https` protocol 
-- enhance(publish) autoset sane defaults for nextjs publishing
+- enhance(publish) support `assetPrefix` option with Next.js publishing
+- enhance(publish) initialize Next.js template with `https` protocol 
+- enhance(publish) autoset sane defaults for Next.js publishing
 - enhance(pods) Markdown import to update asset links
 
 ### Bug Fixes
@@ -74,9 +74,9 @@ Lookup can match words that are out of order, with better fuzziness, and will so
 
 ![[dendron.topic.lookup#lookups,1:#*]]
 
-#### CLI for Next Publishing
+#### CLI for Next.js Publishing
 
-Dendron now has limited CLI support for NextJS Publishing. You can read about how to get started [[here|dendron.topic.publish]]
+Dendron now has limited CLI support for Next.js Publishing. You can read about how to get started [[here|dendron.topic.publish]]
 
 #### Leaner Extension
 Bundle extension size is reduced by 50%
@@ -84,8 +84,8 @@ Bundle extension size is reduced by 50%
 ### Enhancements
 - autocomplete and refactoring for users notes ([[docs|dendron.topic.users]])
 - frontmatter tags displayed similarly to regular tags when published 
-- support [[customHeaderPath|dendron.topic.publish-legacy.configuration#customheaderpath]] for Next publishing
-- support [[collection options|dendron.topic.publish-legacy.configuration#collection-options]] for Next publishing
+- support [[customHeaderPath|dendron.topic.publish-legacy.configuration#customheaderpath]] for Next.js publishing
+- support [[collection options|dendron.topic.publish-legacy.configuration#collection-options]] for Next.js publishing
 - progress bar for [[refactoring|dendron.topic.refactoring#refactor-hierarchy]]
 
 ### Bug Fixes
@@ -131,7 +131,7 @@ When using preview, navigating back to a page that has already been recently vis
 - significant (+60%) improvements to workspace startup speed
 - tag color display improvements
 - progress indicators for all long running tasks
-- additional styling improvements for nextjs publishing
+- additional styling improvements for Next.js publishing
 
 ### Bug Fixes
 - issue with "Browse Note" command for windows
@@ -155,7 +155,7 @@ Seed Browser is a new view that let's you view Seeds that are available in the S
 - ability to set selection type to `none` ([[docs|dendron.ref.config]])
 - use github publish to create new issues ([[docs|dendron.topic.pod.builtin.github-issue.publish]])
 - nicer refactor preview 
-- treeview improvements when publishing using nextjs
+- treeview improvements when publishing using Next.js
 - added Dendron cache to .gitignore on vault add
 - added various alias modes for insert note link command ([[docs|dendron.ref.commands#insert-note-link]])
 

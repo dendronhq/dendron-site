@@ -13,7 +13,7 @@ ChitChat
 
 Company Updates
 * Dendron.yml Validation & Completion Enabled
-* NextJS Publishing RFC -> [https://wiki.dendron.so/notes/nB75cmdPhL7CTOATG6wpT.html](https://wiki.dendron.so/notes/nB75cmdPhL7CTOATG6wpT.html)
+* Next.js Publishing RFC -> [https://wiki.dendron.so/notes/nB75cmdPhL7CTOATG6wpT.html](https://wiki.dendron.so/notes/nB75cmdPhL7CTOATG6wpT.html)
     * Alpha should be ready this week
     * Aiming for general release later this month
 * Standalone Vaults 

@@ -37,7 +37,7 @@ dendron dev run_migration --migrationVersion 0.64.1
 - fix(markdown): email parsed as user tag & option to disable user tags and hashtags 
 - fix(markdown): footnote links move view in publishing & preview 
 - fix(publish): remove .next dir if it exists in publish init 
-- fix(publish): title parts duplicated in Next publishing search 
+- fix(publish): title parts duplicated in Next.js publishing search 
 - fix(commands): move header command modifying unrelated note content 
 
 ### Community

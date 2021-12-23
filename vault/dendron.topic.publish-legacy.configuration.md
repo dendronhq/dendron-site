@@ -112,7 +112,7 @@ Set a different port when using the [[buildSite|dendron.ref.cli#buildsite]] comm
 
 Path to favicon. Relative to workspace.
 
-- NOTE: this is deprecated in nextjs publishing (favicon can be placed directly in the `/public` dir)
+- NOTE: this is deprecated in Next.js publishing (favicon can be placed directly in the `/public` dir)
 
 ### siteHierarchies 
 

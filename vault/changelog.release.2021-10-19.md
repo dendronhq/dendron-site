@@ -13,7 +13,7 @@ More streamlined publishing as well as lots of fixes and enhancements to existin
 ### Highlights
 - feat(publish): add `dendron publish dev` command ([[docs|dendron://dendron.dendron-site/dendron.topic.publish.cli#dev]])
 - feat(publish): add `dendron publish export` command ([[docs|dendron://dendron.dendron-site/dendron.topic.publish.cli#export]])
-- fix(publish): optimize nextjs publishing search
+- fix(publish): optimize Next.js publishing search
 
 ### Everything Else
 - enhance(publish): support publishing to github as a export template
@@ -36,7 +36,7 @@ More streamlined publishing as well as lots of fixes and enhancements to existin
 
 #### General Updates
 - Recording and notes from last week's greenhouse talk posted [[here|dendron://dendron.dendron-site/community.greenhouse.2021-10-15-ts-dev-vscode#outputs]]
-- Dendron wiki is now moved to the [[NextJS Publishing|dendron://dev/dendron.topic.publish]]
+- Dendron wiki is now moved to the [[Next.js Publishing|dendron://dev/dendron.topic.publish]]
 
 #### Dendron Reading Series
 

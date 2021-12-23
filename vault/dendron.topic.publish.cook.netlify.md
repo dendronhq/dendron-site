@@ -97,7 +97,7 @@ npm install @dendronhq/dendron-cli@latest
 # Uncomment the next line, and comment out the other `npm install ...` line
 # npm install
 
-# Generate static site with nextjs
+# Generate static site with Next.js
 npx dendron publish init
 npx dendron publish export
 

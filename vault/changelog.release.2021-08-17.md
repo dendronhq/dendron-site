@@ -18,15 +18,15 @@ Dendron 0.55 has sprouted  🌱
 - pods: Markdown publish pod will can resolve `siteUrl` 
 - lots of bug fixes
 
-### Next(js) Publishing (preview)
+### Next.js Publishing (preview)
 
-Excited to announce that Dendron's new publishing experience using NextJS and React is now available in developer preview. You can get a feel for the new web client at https://wiki-next.dendron.so. 
+Excited to announce that Dendron's new publishing experience using Next.js and React is now available in developer preview. You can get a feel for the new web client at https://wiki-next.dendron.so. 
 
 Some features of note:
 - even though this is now a React app, all pages are still statically generated which means you still get full SEO benefits 
 - after the first load, all links are pre-fetched and loaded client side which which results in instant page transitions :rocket:
 - the lookup for the web client uses the same lookup that exists in the desktop application
-- the web client is a vanilla nextjs app with some Dendron defaults - this means you will be able to customize it like you would a regular nextjs/react app
+- the web client is a vanilla Next.js app with some Dendron defaults - this means you will be able to customize it like you would a regular Next.js/React app
 - the frontend for the web client re-uses the same code that we use internally for the web ui which means published pages will look near identical online and inside your workspace
 
 You can find setup instructions [here](https://wiki.dendron.so/notes/PgwAXFfotfgpFVqHQRlBl.html)

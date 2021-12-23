@@ -97,7 +97,7 @@ nav_order: 2
 - enhance(views): allow navigation to preview links that do not have vault specified (#1805) @nickolay
 
 ### Fix
-- fix(publish): UI shifting issues with nextjs layout @kevin
+- fix(publish): UI shifting issues with Next.js layout @kevin
 - fix(cli): cli migration now handles JSONC for wsConfig (#1825) @hikchoi
 - fix(schema): When applying a schema template, do not override the body but append to the end to it (#1812) [tma66](https://github.com/tma66)
 
@@ -105,7 +105,7 @@ nav_order: 2
 
 ### Enhancements
 - enhance(publish): support adding sitemaps ([[docs|dendron.topic.publish.cli#options]]) @kevin
-- enahnce(publish): upgrade to [nextjs 12](https://nextjs.org/blog/next-12) @kevin
+- enahnce(publish): upgrade to [Next.js 12](https://nextjs.org/blog/next-12) @kevin
 - enhance(lookup): add auto complete to note lookup (#1781) @nickolay
 
 ### Fix
@@ -233,7 +233,7 @@ An enhancement in this release delivers breaking changes announced last week: [[
 
 ### Enhancements
 * enhance(schema): update schemas on save instead of having to reload workspace. (#1597) @nickolay
-* enhance(publish): migrate publish related commands to nextjs @hikchoi
+* enhance(publish): migrate publish related commands to Next.js @hikchoi
   * _**Note:** This is the breaking change mentioned above._
 * enhance(commands): move header supports multi vault (#1646) @hikchoi
 * enhance(commands): allow creation of new notes when move header destination doesn't exist yet (#1646) @hikchoi
@@ -255,7 +255,7 @@ An enhancement in this release delivers breaking changes announced last week: [[
 
 ### Breaking changes
 
-1. Deprecation notice for `Site Preview` and `Site Build`. These currently build using our legacy 11ty publishing method. Starting next week, these will be upgraded to publish using NextJS. In addition, the notes will be renamed: ^kSChN1jT6OMc
+1. Deprecation notice for `Site Preview` and `Site Build`. These currently build using our legacy 11ty publishing method. Starting next week, these will be upgraded to publish using Next.js. In addition, the notes will be renamed: ^kSChN1jT6OMc
     * `Site Preview` will be renamed to `Publish Dev`
     * `Site Build` will be renamed to `Publish Export`
 2. We have updated the enablement of our preview features to reduce clutter in the command palette and prevent confusion.
@@ -304,7 +304,7 @@ vault with new convert vault command ([[docs|dendron.topic.vaults#vault-convert]
 - fix(markdown): email parsed as user tag & option to disable user tags and hashtags (#1562) @kaan
 - fix(markdown): footnote links move view in publishing & preview (#1568) @kaan
 - fix(publish): remove .next dir if it exists in publish init (#1548) @jonathan
-- fix(publish): title parts duplicated in Next publishing search (#1573)
+- fix(publish): title parts duplicated in Next.js publishing search (#1573)
 - fix(commands): move header command modifying unrelated note content (#1574) @hikchoi
 
 ## 0.64.1
@@ -374,7 +374,7 @@ dendron dev run_migration --migrationVersion 0.64.1
 
 ### Fix
 - fix(workspace): possible error if open note is changed quickly after edit (#1486) @kaan
-- fix(publish): optimize nextjs publishing search (#1519) @kaan
+- fix(publish): optimize Next.js publishing search (#1519) @kaan
 
 [[pkg.nextjs-template]] 
 
@@ -433,7 +433,7 @@ dendron dev run_migration --migrationVersion 0.64.1
 - enhance(lookup): Allow creation of duplicate file name if there is a vault without such file name (#1441) @nickolay
 
 ### Bug Fixes
-- fix(publish): nextjs search not working (#1433) @kaan
+- fix(publish): Next.js search not working (#1433) @kaan
 - fix(views): preview caching invalidation when notes with `![[ref]]` links change (#1385) @nickolay
 - fix(view): enable anchor links to work in preview (#1375) @nickolay
 
@@ -447,7 +447,7 @@ dendron dev run_migration --migrationVersion 0.64.1
 
 ### Enhancements
 - enhance(markdown): option to add `#` symbols for FM tags (#1421) @kaan ([[docs|dendron://dendron.dendron-site/dendron.topic.publish-legacy.configuration#usehashesforfmtags]])
-- enhance(publish): add published, modified, and tags to NextJS SEO (#1412) @nwehner
+- enhance(publish): add published, modified, and tags to Next.js SEO (#1412) @nwehner
 - enhance(workspace): mini optimization in looking up notes by filename (#1427) @nickolay
 - enhance(workspace): Leave trace on source note while using selectionExtract @joshi
 
@@ -468,7 +468,7 @@ dendron dev run_migration --migrationVersion 0.64.1
 - enhance(publish): support [g4a tags](https://support.google.com/analytics/answer/10089681?hl=en) @kevin
 - enhance(publish): support twitter card @kevin ([[docs|dendron://dendron.dendron-site/dendron.topic.publish-legacy.configuration#twitter]])
 - enhance(publish): add border color to table (#1387) @viztor
-- enhance(publish): filter body out of generated notes.json for next (#1380) @viztor
+- enhance(publish): filter body out of generated notes.json for Next.js (#1380) @viztor
 - enhance(pods): resolve relative links on Markdown import @joshi
 - enhance(markdown): Don't throw a fatal exception when missing note is parsed as noteRef @kevin
 - enhance(workspace): option to disable randomly colored tags in editor (#1372) @kaan ([[docs|dendron.topic.tags#disabling-automatic-colors]])
@@ -477,7 +477,7 @@ dendron dev run_migration --migrationVersion 0.64.1
 - fix(commands): selection2link doesn't update note with link #1383  @kaan
 - fix(commands): fix single letter not showing results @nickolay
 - fix(commands): cleanup error popup when schema lookup is closed @nickolay
-- fix(publish): mistakes in nextjs start instructions from CLI @viztor
+- fix(publish): mistakes in Next.js start instructions from CLI @viztor
 - fix(publish): hashtags not at the start of line don't autocomplete (#1370) @kaan
 - fix(publish): links in note reference point to wrong url  @kevin
 - fix(publish): footer did not show on first load (#1413) @viztor
@@ -518,7 +518,7 @@ dendron dev run_migration --migrationVersion 0.64.1
 ## 0.59.3
 
 ### Features
-- @kaan feat(publish): nextjs publishing supports fulltext search (#1334)
+- @kaan feat(publish): Next.js publishing supports fulltext search (#1334)
 
 ### Enhancements
 - @joshi enhance(publish): Add Google Analytics to Published Site (#1300)

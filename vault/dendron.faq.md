@@ -330,7 +330,7 @@ Dendron 11ty used to be published outside of the monorepo and started with 1.x v
 
 After we synced, we synced 11ty versioning and brought it down to 0.x. every minor release, we also publish the 1.x version of the 11ty package to make it consistent but during patch releases, we just keep the 0.x numbering. 
 
-Its a bit of a hack and something that should go away in July 2021, when we switch to NextJs based publishing. 
+Its a bit of a hack and something that should go away in July 2021, when we switch to Next.js based publishing. 
 
 ### VS Code is telling me I have to authorize Dendron to run some code
 

@@ -27,10 +27,10 @@ created: 1627282431859
 * next
   * Iterating on the preview v2
   * More integration of seed bank into plugin 
-  * Work on new nextjs publishing 
+  * Work on new Next.js publishing 
 	* Same code as internal preview so you'll know how your website looks 
-	* Regular nextjs app - Dendron publishing is just building out a nextjs blog 
-		* Full power of nextjs, react, webapp, take it wherever you want to
+	* Regular Next.js app - Dendron publishing is just building out a Next.js blog 
+		* Full power of Next.js, React, webapp, take it wherever you want to
 	* Features like i8n, theming, seo built in 
 	* We don't have to reinvent anything here: Lookup 
 

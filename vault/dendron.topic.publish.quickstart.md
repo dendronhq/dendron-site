@@ -8,7 +8,7 @@ created: 1631033401707
 
 ## Summary 
 
-This guide walks you through publishing with NextJS. 
+This guide walks you through publishing with Next.js. 
 
 - NOTE: if you are migrating from 11ty publishing, please read the [[migration guide|dendron://dendron.dendron-site/dendron.topic.publish.migration]] for changes.
 

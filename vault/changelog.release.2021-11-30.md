@@ -12,10 +12,10 @@ Who wouldn't love some autocomplete when using VS Code? Now you can! **Tab autoc
 
 <div style="position: relative; padding-bottom: 50.847457627118644%; height: 0;"><iframe src="https://www.loom.com/embed/e2e6cd06c05d45fb9ed60542b96a069e" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-**Upgrading nextjs:** Dendron publishing has upgraded to the latest major version of nextjs, so make sure you aren't using a cached version. To go with the latest and greatest:
+**Upgrading Next.js:** Dendron publishing has upgraded to the latest major version of Next.js, so make sure you aren't using a cached version. To go with the latest and greatest:
 
 ```bash
-# Delete old nextjs dir
+# Delete old Next.js dir
 rm -rf .next
 # Reinitialize with latest version
 dendron publish init
@@ -30,7 +30,7 @@ The nice thing is that ALL VS Code extension authors can now use this feature to
 ### Highlights
 - feat(workspace): hide default Markdown preview button
 - enhance(workspace): add Dendron preview button
-- enahnce(publish): upgrade to nextjs 12
+- enahnce(publish): upgrade to Next.js 12
 - enhance(lookup): add auto complete to note lookup
 
 ### Everything Else

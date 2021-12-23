@@ -8,7 +8,7 @@ created: 1631132196609
 
 ## Summary
 
-You can publish your notes using Dendron Next Publishing and Github pages
+You can publish your notes using Dendron Next.js Publishing and Github pages
 
 ### Pre-requisites 
 - This assumes you have a github repository. 
@@ -47,12 +47,12 @@ Select the docs folder and click save.
 
 ## Process - Setup Dendron
 
-### Setup Dendron Next Publishing
+### Setup Dendron Next.js Publishing
 
 1. Navigate to the root of your workspace (directory with `dendron.yml`) 
 1. Initialize Dendron CLI
 ![[dendron://dendron.dendron-site/dendron.topic.publish.cook.common#setup-dendron-cli,1:#*]]
-1. Initialize Dendron next publishing
+1. Initialize Dendron Next.js publishing
 ![[dendron://dendron.dendron-site/dendron.topic.publish.cook.common#setup-notes,1:#*]]
 
 
@@ -119,7 +119,7 @@ git commit -m "Dendron page update"
 git push
 ```
 
-The first push will take a bit because nextjs generates a bunch of assets on initial publishing. Subsequent pushes will only commit changes and will be much faster. 
+The first push will take a bit because Next.js generates a bunch of assets on initial publishing. Subsequent pushes will only commit changes and will be much faster. 
 
 You can see the status of your page by going clicking github pages in your github repo.
 

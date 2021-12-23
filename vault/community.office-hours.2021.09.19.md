@@ -32,9 +32,9 @@ Conversion notes:
 
 ## Company Updates
 
-* full text search for nextjs template
+* full text search for Next.js template
 
-* lots of fixes and enhancements across nextjs
+* lots of fixes and enhancements across Next.js
 
 * update minimum VS Code version to 1.58
 

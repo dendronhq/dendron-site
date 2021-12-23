@@ -9,4 +9,4 @@ created: 1631989493092
 
 ### Navigating pages is slow for local preview
 
-This is because NextJS will do just in time compilation of pages as they are being fetched in this mode. 
+This is because Next.JS will do just in time compilation of pages as they are being fetched in this mode. 

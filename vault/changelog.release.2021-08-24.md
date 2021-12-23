@@ -35,7 +35,7 @@ A big **thanks** to the following gardeners that brought up issues, contribution
 You can see an overview of all roles [[here|community.roles]]
 
 - [Daria Vasyukova](https://github.com/gereleth) @gereleth#5113 
-  - issues with nextjs preview
+  - issues with Next.js preview
 - [fdaguin](https://github.com/fdaguin)
   - [Insert Note Link throws an unhandled error · Issue #1172 · dendronhq/dendron](https://github.com/dendronhq/dendron/issues/1172)
 - [Aleksey Rowan](https://github.com/aleksey-rowan) @aleksey#5276

@@ -9,14 +9,14 @@ created: 1631659388102
 Dendron 0.59 has sprouted  🌱
 
 ### Highlights
-- feat(publish): publish using next and github pages ([[docs|dendron.topic.publishing-next.cook.github#summary]])
+- feat(publish): publish using Next.js and github pages ([[docs|dendron.topic.publishing-next.cook.github#summary]])
 - feat(markdown): custom css for images ([[docs|dendron.topic.images#extended-images]])
 - enhance(pods) Markdown import to update asset links
 
 ### Everything Else
-- enhance(publish) support `assetPrefix` option with nextjs publishing
-- enhance(publish) initialize nextjs template with `https` protocol 
-- enhance(publish) autoset sane defaults for nextjs publishing
+- enhance(publish) support `assetPrefix` option with Next.js publishing
+- enhance(publish) initialize Next.js template with `https` protocol 
+- enhance(publish) autoset sane defaults for Next.js publishing
 - enhance(publish) unpublished notes replaced with link to [[unpublished pages|dendron._ref.unpublished-pages]]
 - enhance(publish) support attach option for CLI ([[docs|dendron.topic.publish.cli#^bfvLB8BY4nLb]])
 - enhance(lookup) "Create New" will be first result if no exact match

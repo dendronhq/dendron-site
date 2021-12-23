@@ -21,7 +21,7 @@ Dendron 0.62 has sprouted  🌱
 - enhance(commands): Improve user messaging on node delete by specifying the vault of the deleted node 
 - enhance(lookup): Allow creation of duplicate file name if there is a vault without such file name 
 - fix(markdown): highlighting for wildcard note refs with header offsets 
-- fix(publish): nextjs search not working 
+- fix(publish): Next.js search not working 
 - fix(lookup): vault selection use wrong label in multi-vault
 
 

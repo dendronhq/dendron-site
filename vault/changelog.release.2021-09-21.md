@@ -9,13 +9,13 @@ created: 1632174465899
 Dendron 0.60 has sprouted  🌱
 
 ### Highlights
-- nextjs publishing supports fulltext search 
-- nextjs publishing upgraded to next 11 - 50% faster local development experience 🚀
+- Next.js publishing supports fulltext search 
+- Next.js publishing upgraded to Next.js 11 - 50% faster local development experience 🚀
 - better performance for notes with lots of highlights
 
 ### Everything Else
-- add Google Analytics to nextjs template
-- add optional image and imageAlt props to nextjs template
+- add Google Analytics to Next.js template
+- add optional image and imageAlt props to Next.js template
 - notice for running in dev mode 
 - various github pod improvements ([[docs|dendron.topic.pod.builtin.github-issue]])
   - imported issues now have `author` field for user who submitted issue
@@ -23,7 +23,7 @@ Dendron 0.60 has sprouted  🌱
   - you can now create a new github discussion using pods
   - renamed to github issue pod #breaking
 - rename note can leave incorrect metadata if parent is a stub 
-- lots of fixes for nextjs publishing
+- lots of fixes for Next.js publishing
     - fix `siteUrl` resolution with `assetPrefix`
     - fix `seoProps` not being set on static page
     - do not publish extra page for siteIndex under /notes

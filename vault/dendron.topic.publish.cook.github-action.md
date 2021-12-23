@@ -72,7 +72,7 @@ You can see deployed examples of these instructions in the following repositorie
       - name: Install npm dependencies
         run: yarn
 
-      - name: Initialize or pull nextjs template
+      - name: Initialize or pull Next.js template
         run: "(test -d .next) && (echo 'updating Dendron next...' && cd .next && git reset --hard && git clean -f && git pull) || (echo 'init Dendron next' && npx dendron publish init)"
 
       - name: Install dependencies

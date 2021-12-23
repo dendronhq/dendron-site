@@ -12,7 +12,7 @@ Dendron 0.61 has sprouted  🌱
 - feat(cli): initialize workspace from CLI ([[docs|dendron://dendron.dendron-site/dendron.ref.cli#init]])
 - feat(pods): Notion Export Pod ([[docs|dendron://dendron.dendron-site/dendron.topic.pod.builtin.notion]])
 - feat(workspace): Add Contextual UI options for Add/Remove Vaults, Rename/Delete/Move Note, and Rename Header ([[docs|dendron://dendron.dendron-site/dendron.topic.workbench#contextual-ui]])
-- feat(publish): better mobile navigation for nextjs template 
+- feat(publish): better mobile navigation for Next.js template 
 
 
 ### Everything Else
@@ -22,8 +22,8 @@ Dendron 0.61 has sprouted  🌱
 - enhance(publish): support [g4a tags](https://support.google.com/analytics/answer/10089681?hl=en)
 - enhance(publish): support twitter card
 - enhance(publish): add border color to table 
-- enhance(publish): filter body out of generated notes.json for next 
-- enhance(publish): add published, modified, and tags to NextJS SEO (#1412) 
+- enhance(publish): filter body out of generated notes.json for Next.js 
+- enhance(publish): add published, modified, and tags to Next.js SEO (#1412) 
 - enhance(pods): resolve relative links on Markdown import 
 - enhance(markdown): Don't throw a fatal exception when missing note is parsed as noteRef 
 - enhance(markdown): option to add `#` symbols for FM tags (#1421) ([[docs|dendron://dendron.dendron-site/dendron.topic.publish-legacy.configuration#usehashesforfmtags]])
@@ -34,7 +34,7 @@ Dendron 0.61 has sprouted  🌱
 - fix(commands): fix single letter not showing results 
 - fix(commands): cleanup error popup when schema lookup is closed 
 - fix(commands): picked schema matching name was not creating the expected note (#1425)
-- fix(publish): mistakes in nextjs start instructions from CLI 
+- fix(publish): mistakes in Next.js start instructions from CLI 
 - fix(publish): hashtags not at the start of line don't autocomplete 
 - fix(publish): links in note reference point to wrong url 
 - fix(publish): footer did not show on first load 
@@ -62,7 +62,7 @@ We are officially launching `#teatime` for all Dendron contributors.
 
 #### Office Hours
 
-Office hours are now every other week. No regular office hours from this week but we had a speical session of getting started with [[NextJS Publishing|dendron://dendron.dendron-site/dendron.topic.publish]] which you can find [[here|dendron://dendron.dendron-site/community.office-hours.2021.09.24.nextjs-publishing]]
+Office hours are now every other week. No regular office hours from this week but we had a speical session of getting started with [[Next.js Publishing|dendron://dendron.dendron-site/dendron.topic.publish]] which you can find [[here|dendron://dendron.dendron-site/community.office-hours.2021.09.24.nextjs-publishing]]
 
 #### Thank You's
 
@@ -80,7 +80,7 @@ You can see an overview of all roles [[here|community.roles]]
     - [Automatic title extraction doesn't work in cross-vault links without `dendron://` prefix · Issue #1429 · dendronhq/dendron](https://github.com/dendronhq/dendron/issues/1429)
 - [NZ John](https://github.com/nz-john) `@NZ-John#0569`
     - #dendron.bugcatcher
-    - [.html remains at end of reference note card links (in NextJS) and breaks links · Issue #1400 · dendronhq/dendron](https://github.com/dendronhq/dendron/issues/1400)
+    - [.html remains at end of reference note card links (in Next.js) and breaks links · Issue #1400 · dendronhq/dendron](https://github.com/dendronhq/dendron/issues/1400)
 
 ### Changelog
 ![[changelog#0610,1:#060]]
