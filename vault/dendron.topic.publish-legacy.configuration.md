@@ -459,7 +459,7 @@ When set, override how we generate the URL for the [[edit on github|dendron.topi
 There are a few special variables you can set:
 
 - `${noteHierarchy}`: this specifies the full hiearchy to the note in posix format
-  - eg. `foo.bar` will translate to `foot/bar`
+  - eg. `foo.bar` will translate to `foo/bar`
 
 ### collection options
 

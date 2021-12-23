@@ -44,7 +44,7 @@ Environmentalists are special members of our community that help to keep Dendron
 ### Tree
 
 - Everything in **Sprout**
-- Ability to gift branch membership to other members (1x per month)
+- Ability to gift seed membership to other members (1x per month)
 - Hand made Dendron themed illustrations (every few months)
 
 #### $25/month
