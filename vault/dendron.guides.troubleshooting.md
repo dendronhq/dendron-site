@@ -52,7 +52,7 @@ npm info @dendronhq/dendron-cli
 
 ### Lookup Shortcut is not working
 - causes:
-  - you have the vim extension installed and its overriding the default Dendron shortcut
+  - you have the Vim extension installed and it is overriding the default Dendron shortcut
 - fix: 
   1. open command palette and run `Open Keyboard Shortcuts (JSON)`
   2. add the following shortcut override

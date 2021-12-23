@@ -17,7 +17,7 @@ Dendron 0.54 has sprouted  🌱
 - integrated seeds: seed commands are now available from within the plugin ([[docs|changelog#seed-commands]])
 - github publish pod: update the status of github issues from inside of Dendron ([[docs|changelog#github-publish-pod]])
 - quality of life improvements
-    - auto-resolve conflicting keybinding from vim 
+    - auto-resolve conflicting keybinding from Vim 
 - lots of fixes
   - issue with non-highlighting wikilinks
   - broken links in the extension README

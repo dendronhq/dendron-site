@@ -145,7 +145,7 @@ Did we mention we're local first? We'll never send your notes off your system un
 
 ## Extensible and open-source
 
-Dendron is built into VS Code and can take advantage of all the extensions you've come to love. Whether you want vim keybindings, mermaid diagram support or snippet support, the extension ecosystem has you covered. And if you can't find something that you need, we also offer [[dendron.topic.hooks]] so you can build advanced workflows, right into Dendron.
+Dendron is built into VS Code and can take advantage of all the extensions you've come to love. Whether you want Vim keybindings, mermaid diagram support or snippet support, the extension ecosystem has you covered. And if you can't find something that you need, we also offer [[dendron.topic.hooks]] so you can build advanced workflows, right into Dendron.
 
 ## Additional Features
 

@@ -296,7 +296,7 @@ The [[Calendar View|dendron._ref.web-ui#calendar-view]] is no longer hidden behi
 - [[Rename Header Command|dendron.topic.refactoring#rename-header]] which updates links to that header
 
 ### Enhancements
-- automatically resolve conflicting keybinding caused by vim extension
+- automatically resolve conflicting keybinding caused by Vim extension
 
 ### Bug Fixes
 - lookup was not setting [[splitType|dendron.topic.lookup.modifiers#splittype]] when executed with a custom keybinding

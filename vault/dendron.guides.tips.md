@@ -320,7 +320,7 @@ The following setting overrides are useful:
 ```json
 // by default, zen mode will open a new "workspace" which I don't like
 "zenMode.fullScreen": false,
-// I'm a vim user so I like my line numbers
+// I'm a Vim user so I like my line numbers
 "zenMode.hideLineNumbers": false,
 ```
 
@@ -440,7 +440,7 @@ This is a list of other tools that work well with Dendron.
 
 ### Other
 - [Macros](https://marketplace.visualstudio.com/items?itemName=geddski.macros): Define custom macros 
-- [Vim](https://marketplace.visualstudio.com/items?itemName=vscodevim.vim): VIM key bindings 😍
+- [Vim](https://marketplace.visualstudio.com/items?itemName=vscodevim.vim): Vim key bindings 😍
 - [Bookmarks](https://marketplace.visualstudio.com/items?itemName=alefragnani.Bookmarks): Bookmark lines within File [Vertical Limit](https://marketplace.visualstudio.com/items?itemName=generik.vertical-limit): Work with multiple cursors and blocks of text
 - [CodeUI](https://marketplace.visualstudio.com/items?itemName=ryanraposo.codeui): Easier customization of every part of the VSCode UI
 - [Open in Typora](https://marketplace.visualstudio.com/items?itemName=cyberbiont.vscode-open-in-typora&utm_source=VSCode.pro&utm_campaign=AhmadAwais): Open note in Typora
