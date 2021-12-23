@@ -16,7 +16,7 @@ You can see deployed examples of these instructions in the following repositorie
 [dendronhq/template.publish.github-action](https://github.com/dendronhq/template.publish.github-action)
 
 ## Process
-1. Create package.json with dendron-cli
+1. Create package.json with Dendron CLI
 ![[dendron://dendron.dendron-site/dendron.topic.publish.cook.common#setup-dendron-cli,1:#*]]
 1. Create a pages branch
   ```sh

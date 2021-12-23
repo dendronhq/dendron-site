@@ -42,7 +42,7 @@ The below is a collection of common fields that are collected
 | `anonymousId` | _string_   | Random, non-identifiable signature nanoID (e.g. `JC6NXxDa0lDFD1Mu7U2Ga`) |
 | `timestamp`   | _string_   | When the request was made                                                |
 | `appVersion`  | _string_   | Version of currently installed Dendron plugin                            |  
-| `cliVersion`  | _string_   | Version of currently installed `dendron-cli`                             |  
+| `cliVersion`  | _string_   | Version of currently installed Dendron CLI                             |  
 
 ## When is data collected?
 

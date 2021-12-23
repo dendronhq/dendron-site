@@ -312,7 +312,7 @@ The [[Calendar View|dendron._ref.web-ui#calendar-view]] is no longer hidden behi
 
 ### Bug Fixes
 
-- fix missing dependency in dendron-cli
+- fix missing dependency in Dendron CLI
 
 ## 0.53.1
 
@@ -425,7 +425,7 @@ What this means in practice is that you can use VS Code immediately when the wor
 ## 0.51.1
 
 ### Enhancements
-- reduce size of dendron-cli
+- reduce size of Dendron CLI
 
 ## 0.51
 

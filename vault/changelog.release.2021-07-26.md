@@ -19,7 +19,7 @@ Dendron 0.52 has sprouted  🌱
 - Google Doc Import Pod ([[docs|dendron.topic.pod.builtin.google-docs.import]])
 - Ability to control graph zoom sensitivity 
 - Bug Fixes
-  - Reduce size of dendron-cli
+  - Reduce size of Dendron CLI
   - Hashtag links duplicate following text
   - Issues with parsing wikilinks with unicode and special symbols
   - Autocomplete takes a long time
