@@ -25,7 +25,7 @@ Know that you'll be coming in at the ground level - Dendron launched last summer
 - You have deep knowledge of modern web technologies (eg. React, Next.js) 
 - You take a thoughtful approach to decision making and know when to make the right tradeoffs
 - You want to work in a fast paced product-driven environment
-- You have a good understanding of VSCode and IDE plug-in architecture
+- You have a good understanding of VS Code and IDE plug-in architecture
 - You have deep experience with Git  
 - You are proficient with Javascript/Typescript 
 - You have experience building collaborative real time services

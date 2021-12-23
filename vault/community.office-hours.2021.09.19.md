@@ -36,7 +36,7 @@ Conversion notes:
 
 * lots of fixes and enhancements across nextjs
 
-* update minimum vscode version to 1.58
+* update minimum VS Code version to 1.58
 
 ## Discussions
 
@@ -60,4 +60,4 @@ Conversion notes:
 
 Next
 
-* upcoming greenhouse talk on working with vscode + typescript
+* upcoming greenhouse talk on working with VS Code + typescript

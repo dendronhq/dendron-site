@@ -403,11 +403,11 @@ By default, all new users will get [[Preview|dendron.topic.preview]] as the defa
 
 #### Non-Blocking Workspace initialization
 
-When you open a Dendron workspace, you might have noticed that you needed to wait for the workspace to initialize before VSCode itself became usable. This is because even though Dendron uses a local server to index your files, this server ran on the same process as VSCode. 
+When you open a Dendron workspace, you might have noticed that you needed to wait for the workspace to initialize before VS Code itself became usable. This is because even though Dendron uses a local server to index your files, this server ran on the same process as VS Code. 
 
-We have offloaded the local server to a separate process so that all engine operations (eg. indexing) no longer affect the main VSCode process. 
+We have offloaded the local server to a separate process so that all engine operations (eg. indexing) no longer affect the main VS Code process. 
 
-What this means in practice is that you can use VSCode immediately when the workspace is open. It also means you'll notice better responsiveness across all engine related features (eg. refactoring, preview, etc)
+What this means in practice is that you can use VS Code immediately when the workspace is open. It also means you'll notice better responsiveness across all engine related features (eg. refactoring, preview, etc)
 
 ### Enhancements
 - find missing links in entire workspace  ([[docs|dendron.ref.commands#createmissinglinkednotes]])

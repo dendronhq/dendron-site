@@ -23,7 +23,7 @@ Bullet journalling is a way of quickly getting your thoughts down for the day. I
 
 ![[dendron.topic.schema#template,1:#*]]
 
-## VSCode Commands
+## VS Code Commands
 
 ### Move Editor Command
 

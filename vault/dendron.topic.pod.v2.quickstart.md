@@ -68,9 +68,9 @@ For example, say that you want to save a configuration to export to your persona
 
 To run a saved pod configuration, use the `Dendron: Export Pod V2`.  In the QuickPick, select the id of your configuration to run it.
 
-## Adding a VSCode Shortcut
+## Adding a VS Code Shortcut
 
-You can also add a command shortcut to ru your particular pod configuration.  Bring up your VSCode `keybindings.json` file by running `Preferences: Open Keyboard Shortcuts (JSON)`.  Then add the following shortcut definition: 
+You can also add a command shortcut to ru your particular pod configuration.  Bring up your VS Code `keybindings.json` file by running `Preferences: Open Keyboard Shortcuts (JSON)`.  Then add the following shortcut definition: 
 
 For "args", replace with your pod-ID.
 

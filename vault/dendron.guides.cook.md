@@ -12,7 +12,7 @@ toc: true
 
 ### Launch the command palette
 
-This lets you execute commands inside vscode
+This lets you execute commands inside VS Code
 
 -   Linux: `Ctrl+Shift+P`
 -   macOS: `Cmd+Shift+P`
@@ -134,7 +134,7 @@ There are usually two scenarios:
 -   for 1, create a new window and initialize a new workspace in some directory that is different from your first workspace
 -   for 2, you have a few options
     -   a. initialize a new workspace in a different directory. open the settings using `> Open User Workspace settings (JSON)`. change the folder to the path of your vault in the initial workspace. run `> Reload Window` for the changes to take affect
-    -   b. use a different version of vscode to open the same workspace (eg. vscode insider, vscodium, vscode regular). you need to do this because vscode will re-use the same window when opening the same workspace
+    -   b. use a different version of VS Code to open the same workspace (eg. VS Code Insider, VSCodium, VS Code regular). you need to do this because VS Code will re-use the same window when opening the same workspace
 
 ### Add Dendron to application launchers on Linux desktops
 
@@ -151,7 +151,7 @@ Keywords=dendron;notes;pkm;
 Categories=Utility;TextEditor;
 ```
 
-Make sure the path to the dendron workspace matches your setup. Then, run `update-desktop-database ~/.local/share/applications/` in a terminal or restart your system. You should now see Dendron in the launcher under the Utilities section, or if you search for Dendron in your launcher. Launching Dendron from here will launch VSCode with your Dendron workspace open.
+Make sure the path to the dendron workspace matches your setup. Then, run `update-desktop-database ~/.local/share/applications/` in a terminal or restart your system. You should now see Dendron in the launcher under the Utilities section, or if you search for Dendron in your launcher. Launching Dendron from here will launch VS Code with your Dendron workspace open.
 
 ### Change the sorting order in the Outline Panel
 
@@ -191,7 +191,7 @@ To drag files into Dendron, open the workspace pane on the side to drag and drop
 
 ### Using Multiple Workspaces
 
-The easiest current way to do this is to have multiple instances of VSCode open and toggle between the two. If you are very adventurous, you might even have [multiple versions of vscode](https://www.kevinslin.com/notes/7f197479-279e-4b1e-9edd-21bf2da423b0.html#dendron-setup) for different contexts.
+The easiest current way to do this is to have multiple instances of VS Code open and toggle between the two. If you are very adventurous, you might even have [multiple versions of VS Code](https://www.kevinslin.com/notes/7f197479-279e-4b1e-9edd-21bf2da423b0.html#dendron-setup) for different contexts.
 
 We are working on being able to run Dendron without the need for a workspace. You can track the progress of this on this [issue](https://github.com/dendronhq/dendron/issues/322)
 
@@ -203,7 +203,7 @@ We are working on being able to run Dendron without the need for a workspace. Yo
 
 ### How can I paste HTML content as Markdown?
 
-If you use VSCode, you can use the [Markdown Kit](https://marketplace.visualstudio.com/items?itemName=svsool.markdown-kit) extension. Unfortunately this is not available in VSCodium at this time.
+If you use VS Code, you can use the [Markdown Kit](https://marketplace.visualstudio.com/items?itemName=svsool.markdown-kit) extension. Unfortunately this is not available in VSCodium at this time.
 
 ### Syncing Dendron between devices
 
@@ -276,7 +276,7 @@ Some potential use cases you can do using elasticsearch and Dendron:
 Some useful additional links:
 
 -   [elasticsearch docs](https://www.elastic.co/guide/en/elasticsearch/reference/current/elasticsearch-intro.html)
--   [elasticsearch vscode extension](https://marketplace.visualstudio.com/items?itemName=ria.elastic)
+-   [Elasticsearch for VSCode extension](https://marketplace.visualstudio.com/items?itemName=ria.elastic)
 
 ### Convert timestamps in the frontmatter
 

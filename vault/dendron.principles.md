@@ -17,7 +17,7 @@ Design principles are used to guide product decisions and feature work.
 
 Dendron aims to create a world class developer experience for managing knowledge.
 
-Our goal is to provide a tool with the efficiency of vim, the extensibility of emacs, and the approachability of VSCode.
+Our goal is to provide a tool with the efficiency of vim, the extensibility of emacs, and the approachability of VS Code.
 
 What this means:
 

@@ -19,7 +19,7 @@ A big **thanks** to the following gardeners that brought up issues, contribution
 You can see an overview of all roles [[here|community.roles]]
 
 - [Julien Muniak](https://github.com/Darune)
-  - [Crash when vscode is run with unsupported LOG_LEVEL](https://github.com/dendronhq/dendron/issues/466)
+  - [Crash when VS Code is run with unsupported LOG_LEVEL](https://github.com/dendronhq/dendron/issues/466)
 - [Stedag](https://github.com/Stedag)
   - [Refactoring results in md auto-correct](https://github.com/dendronhq/dendron/issues/467)
 
@@ -35,7 +35,7 @@ This release comes with the following versions:
 
 - dendron 11ty: 1.26.2
 
-- dendron plugin and dendron markdown preview will be auto-installed by VSCode
+- dendron plugin and dendron markdown preview will be auto-installed by VS Code
 
 - See the upgrade instructions [[here for dendron-11ty and dendron cli|dendron.guides.upgrading#dendron-cli-and-dendron-11ty]]
 

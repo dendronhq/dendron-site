@@ -26,5 +26,5 @@ Git and github, while traditionally used for collaborating on code, works out gr
 
 ## Live Share
 
-VSCode provides a live share extension that let you do google doc style like collab. You can the extension and read the docs about it [here](https://visualstudio.microsoft.com/services/live-share/).
+VS Code provides a live share extension that let you do google doc style like collab. You can the extension and read the docs about it [here](https://visualstudio.microsoft.com/services/live-share/).
 

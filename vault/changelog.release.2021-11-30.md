@@ -8,7 +8,7 @@ created: 1638290092689
 
 Dendron 0.71 has sprouted  🌱
 
-Who wouldn't love some autocomplete when using VSCode? Now you can! **Tab autocompletion** for lookup can help you get to where you need to be, faster.
+Who wouldn't love some autocomplete when using VS Code? Now you can! **Tab autocompletion** for lookup can help you get to where you need to be, faster.
 
 <div style="position: relative; padding-bottom: 50.847457627118644%; height: 0;"><iframe src="https://www.loom.com/embed/e2e6cd06c05d45fb9ed60542b96a069e" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
@@ -21,11 +21,11 @@ rm -rf .next
 dendron publish init
 ```
 
-**Dendron Preview:** A common pain point for all new users is opening the markdown preview. The default VSCode Markdown Preview displays a menu item that cannot be disabled, even if an extension had its own markdown preview.
+**Dendron Preview:** A common pain point for all new users is opening the markdown preview. The default VS Code Markdown Preview displays a menu item that cannot be disabled, even if an extension had its own markdown preview.
 
-We submitted an upstream contribution to VSCode, which is currently active in the Insiders Build. It will be included in the 1.63 release next month. This will mean that Dendron Workspaces can, by default, display a menu item for `Dendron: Show Preview` as the markdown preview! Note that `Markdown: Open Preview...` options will continue to exist within the command palette as an optional preview method.
+We submitted an upstream contribution to VS Code, which is currently active in the Insiders Build. It will be included in the 1.63 release next month. This will mean that Dendron Workspaces can, by default, display a menu item for `Dendron: Show Preview` as the markdown preview! Note that `Markdown: Open Preview...` options will continue to exist within the command palette as an optional preview method.
 
-The nice thing is that ALL VSCode extension authors can now use this feature to provide a better experience for their users!
+The nice thing is that ALL VS Code extension authors can now use this feature to provide a better experience for their users!
 
 ### Highlights
 - feat(workspace): hide default markdown preview button

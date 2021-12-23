@@ -23,8 +23,8 @@ Images
 Gifs
 - uploading gifs is the same process as uploading images
 - to create gifs, we recommend using the [Kap](https://getkap.co/) app or making a [Loom video](http://loom.com/)
-- if you are making a gif from within vscode, please turn on [screencast mode](https://scotch.io/bar-talk/vs-code-screencast-mode) so we can see what awesome keyboard shortcuts you're using :) 
+- if you are making a gif from within VS Code, please turn on [screencast mode](https://scotch.io/bar-talk/vs-code-screencast-mode) so we can see what awesome keyboard shortcuts you're using :) 
 
 ### Making Changes via Pull Request
 
-For more involved changes, you can clone our github [repo](https://github.com/dendronhq/dendron-site) and opening `dendron.code-workspace` using VSCode.  [Dendron.so](https://www.dendron.so) is built from the contents of `vault/dendron.*`. Make a change in the corresponding file and send us a pull request to update the documentation. You can preview your changes using the `Dendron Markdown Enhanced` extension.
+For more involved changes, you can clone our github [repo](https://github.com/dendronhq/dendron-site) and opening `dendron.code-workspace` using VS Code.  [Dendron.so](https://www.dendron.so) is built from the contents of `vault/dendron.*`. Make a change in the corresponding file and send us a pull request to update the documentation. You can preview your changes using the `Dendron Markdown Enhanced` extension.

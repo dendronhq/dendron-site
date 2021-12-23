@@ -101,15 +101,15 @@ Dendron will show you a `?` next to the result in future results but otherwise w
 
 ## VS Code
 
-Dendron is built on top of VSCode, the open-source IDE from Microsoft.
+Dendron is built on top of VS Code, the open-source IDE from Microsoft.
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/code-banner.jpg)
 
-Dendron runs as a plugin inside VSCode. If you use VSCode today, it means that all your current knowledge, settings and extensions will carry over into Dendron. If you don't, no sweat, because Dendron will create an optimal workspace with recommended settings and extensions when you first launch it.
+Dendron runs as a plugin inside VS Code. If you use VS Code today, it means that all your current knowledge, settings and extensions will carry over into Dendron. If you don't, no sweat, because Dendron will create an optimal workspace with recommended settings and extensions when you first launch it.
 
 ## Recommended Extensions
 
-Since Dendron runs on top of VSCode, it means that you also have access to thousands of extensions to customize Dendron exactly how you like it.
+Since Dendron runs on top of VS Code, it means that you also have access to thousands of extensions to customize Dendron exactly how you like it.
 
 By default, Dendron will initialize your first workspace with the following extensions and features.
 
@@ -145,7 +145,7 @@ Did we mention we're local first? We'll never send your notes off your system un
 
 ## Extensible and open-source
 
-Dendron is built into VSCode and can take advantage of all the extensions you've come to love. Whether you want vim keybindings, mermaid diagram support or snippet support, the extension ecosystem has you covered. And if you can't find something that you need, we also offer [[dendron.topic.hooks]] so you can build advanced workflows, right into Dendron.
+Dendron is built into VS Code and can take advantage of all the extensions you've come to love. Whether you want vim keybindings, mermaid diagram support or snippet support, the extension ecosystem has you covered. And if you can't find something that you need, we also offer [[dendron.topic.hooks]] so you can build advanced workflows, right into Dendron.
 
 ## Additional Features
 

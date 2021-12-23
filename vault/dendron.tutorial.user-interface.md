@@ -9,11 +9,11 @@ nav_order: 0
 
 Let's do a brief overview on how to navigate the Dendron User Interace (UI), which is called the **[[Workbench|dendron://dendron.dendron-site/dendron.topic.workbench]]**.
 
-> 💡 **TIP:** If you're unfamiliar with VSCode, the [command palette](https://code.visualstudio.com/docs/getstarted/userinterface#_command-palette) is used to quickly run commands, including Dendron commands. To bring up the command palette, use `Ctrl+Shift+P` / `Cmd+Shift+P` and start typing the command. If you see instructions telling you to run a command, remember to bring up the command palette and type the command name to run it.
+> 💡 **TIP:** If you're unfamiliar with VS Code, the [command palette](https://code.visualstudio.com/docs/getstarted/userinterface#_command-palette) is used to quickly run commands, including Dendron commands. To bring up the command palette, use `Ctrl+Shift+P` / `Cmd+Shift+P` and start typing the command. If you see instructions telling you to run a command, remember to bring up the command palette and type the command name to run it.
 
 ![[dendron://dendron.dendron-site/asset.preview#tutorial-dendron-layout-dark,1:#*]]
 
-> 💡 TIP: VSCode lets you re-position any of these windows, so feel free to rearrange the windows to work best for you! Refer to [VSCode documentation for more information on the VSCode UI](https://code.visualstudio.com/docs/getstarted/userinterface).
+> 💡 TIP: VS Code lets you re-position any of these windows, so feel free to rearrange the windows to work best for you! Refer to [VS Code documentation for more information on the VS Code UI](https://code.visualstudio.com/docs/getstarted/userinterface).
 
 ## 1. Editor View
 

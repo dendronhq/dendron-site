@@ -324,7 +324,7 @@ This is how it looks
      * Sub bullets
 </details>
 
-## VSCode Specific Commands
+## VS Code Specific Commands
 
 ### Markdown Smart Select
 

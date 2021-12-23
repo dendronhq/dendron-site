@@ -13,7 +13,7 @@ Support custom colorization of tabs in Dendron, specified by schema.
 
 ## Details
 
-VSCode has the following settings for tabs. 
+VS Code has the following settings for tabs. 
 
 ```
 "workbench.colorCustomizations": {

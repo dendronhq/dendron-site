@@ -59,7 +59,7 @@ You can see an overview of all roles [[here|community.roles]]
 - [Kim Sia Sim](https://github.com/simkimsia) `@kimsia#3035` 
     - #dendron.bugcatcher
     - #dendron.environmentalist
-    - [Helpful "Edit in GitHub" link missing in tutorial when vscode](https://github.com/dendronhq/dendron/issues/1582)
+    - [Helpful "Edit in GitHub" link missing in tutorial when VS Code](https://github.com/dendronhq/dendron/issues/1582)
     - [Dendron COmmand palette > sign in / Sign up > leads to broken auth link](https://github.com/dendronhq/dendron/issues/1580)
 - [demorganslaw](https://github.com/demorganslaw) `@demorganslaw#3718` 
     - #dendron.bugcatcher

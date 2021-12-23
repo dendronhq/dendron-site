@@ -11,7 +11,7 @@ created: 1627282431859
 * big
   * Non-blocking Workspace Initialization
     * everything should be faster
-    * you can use vscode while dendron is initializing
+    * you can use VS Code while dendron is initializing
   * deprecate old preview
     * If you enable the old markdown, you'll have to install Dendron markdown specifically. 
     * won't remove the old preview till end of August.

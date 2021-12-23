@@ -43,7 +43,7 @@ New GitHub discussions to get involved in:
 - [Cross-linking across workspaces](https://github.com/dendronhq/dendron/discussions/1761)
 
 Blog posts:
-- [Highlights from VSCode 1.62](https://blog.dendron.so/notes/V2Cjla9vzM69Z280j5bXB/)
+- [Highlights from VS Code 1.62](https://blog.dendron.so/notes/V2Cjla9vzM69Z280j5bXB/)
 
 #### Dendron Reading Series
 
@@ -88,7 +88,7 @@ You can see an overview of all roles [[here|community.roles]].
   - [Tree view doesn't get updated after rename Note](https://github.com/dendronhq/dendron/issues/1734)
 - [Im](https://github.com/immartian)
   - #dendron.bugcatcher
-  - [Macro name in [xxxx] can't be seen in editor under VSC "Highly Contrast" color scheme](https://github.com/dendronhq/dendron/issues/1738)
+  - [Macro name in [xxxx] can't be seen in editor under VS Code "Highly Contrast" color scheme](https://github.com/dendronhq/dendron/issues/1738)
 - [David Paquet Pitts](https://github.com/davidpp) `@davidpp#5603`
   - #dendron.bugcatcher
   [Wiki - Search bar is on top of navigation and hidden a portion of it (Safari 15+)](https://github.com/dendronhq/dendron/issues/1740)

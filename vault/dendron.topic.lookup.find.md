@@ -94,6 +94,6 @@ We use FuseJS for our note lookup and support the [extended search syntax](https
 
  Note: `.` have special behavior in Dendron (Example [[#hierarchy-ordered-querying]]) Hence when using complex extended syntax searches in general its advised to avoid dots `.` if possible.  
 
-## VSCode Search
+## VS Code Search
 
 ![[dendron://dendron.dendron-site/dendron.topic.search]]

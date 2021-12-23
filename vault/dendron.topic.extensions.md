@@ -8,7 +8,7 @@ stub: false
 ---
 ## Bundled
 
-Since Dendron runs on top of VSCode, it means that you also have access to thousands of extensions to customize Dendron exactly how you like it. By default, Dendron will initialize your first workspace with the following extensions and features.
+Since Dendron runs on top of VS Code, it means that you also have access to thousands of extensions to customize Dendron exactly how you like it. By default, Dendron will initialize your first workspace with the following extensions and features.
 
 - [Dendron Paste Image](https://link.dendron.so/vscode-paste-image)
   - easily add images from your clipboard to your markdown files

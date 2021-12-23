@@ -72,7 +72,7 @@ A scratch note is a self contained note that is meant to be used as scratchpad. 
 
 ### Markdown Preview will now Open Local Links ([9a3418](https://github.com/dendronhq/dendron/commit/10a3418f7a633fa9b5294794e1a912cb4ea6c066))
 
-Issue were the newest VSCode broken links. This fixes that.
+Issue were the newest VS Code broken links. This fixes that.
 
 ## Enhancements
 

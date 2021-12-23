@@ -24,7 +24,7 @@ This project discusses how to best incorporate org-mode functionality into dendr
 - have dendron support .org files
 
 - pros:
-  - works with existing vscode extensions (eg. [vscode org-mode](https://marketplace.visualstudio.com/items?itemName=tootone.org-mode)
+  - works with existing VS Code extensions (eg. [VS Code Org Mode](https://marketplace.visualstudio.com/items?itemName=tootone.org-mode)
   - can be edited in emacs
 
 - cons:
@@ -44,7 +44,7 @@ This project discusses how to best incorporate org-mode functionality into dendr
 
 Currently i'm leaning towards 1). folks that want org-mode support in dendron can create markdown files and manually set the filetype to org mode. it's not ideal since you lose the preview but other functions like lookup still work. 
 
-Changing filetype has a custom command. VSCode has a default shortcut (`cmd+k m` on mac) that can be re-mapped. 
+Changing filetype has a custom command. VS Code has a default shortcut (`cmd+k m` on mac) that can be re-mapped. 
 
 ```
 "command": "workbench.action.editor.changeLanguageMode",

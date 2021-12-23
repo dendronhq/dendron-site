@@ -48,13 +48,13 @@ That being said, I'm all in on Dendron and this is my full time gig. I want to m
 
 Paid for features will be 100% optional and will not be necessary for any client side functionality in Dendron.
 
-### Why is Dendron built on top of VSCode?
+### Why is Dendron built on top of VS Code?
 
 As with all things, its a matter of tradeoffs. Dendron started its life as a standalone app (eg. think Obsidian) but I quickly realized I was spending most of my time building undifferentiated editor scaffolding instead of focusing on the hierarchies and schemas that made Dendron unique.
 
-I wanted to spend more time building out features that supported Dendron's [hiearchy first approach](https://www.kevinslin.com/notes/3dd58f62-fee5-4f93-b9f1-b0f0f59a9b64.html) to note taking which is what led me to re-write it for VSCode.
+I wanted to spend more time building out features that supported Dendron's [hiearchy first approach](https://www.kevinslin.com/notes/3dd58f62-fee5-4f93-b9f1-b0f0f59a9b64.html) to note taking which is what led me to re-write it for VS Code.
 
-That being said, the core dendron engine is not vscode specific and there are folks that are experimenting with porting it over to other editors (eg. sublime, vim). We also have plans for a standalone editor in the future (most likely, this will be a fork of VSCode optimized for note taking)
+That being said, the core dendron engine is not VS Code specific and there are folks that are experimenting with porting it over to other editors (eg. sublime, vim). We also have plans for a standalone editor in the future (most likely, this will be a fork of VS Code optimized for note taking)
 
 ## Notes
 
@@ -68,7 +68,7 @@ For more context, you can see the original markdown declaration [here](https://d
 
 You can use Dendron with existing repositories of markdown notes.
 
-Open the `Command Palette` in vscode and use the `Dendron: Change Workspace` command. It will ask you for a folder path as input.
+Open the `Command Palette` in VS Code and use the `Dendron: Change Workspace` command. It will ask you for a folder path as input.
 
 Dendron will create a `dendron.code-workspace` file in specified directory and then open the workspace (if a workspace file already exists, it will use that). It will also create a `root.md` file in that directory if it doesn't exist (currently this is part of the internal working of dendron).
 
@@ -82,7 +82,7 @@ Dendron automatically saves when you change focus (switch tabs or applications).
 
 There are 3 ways to go back to my previous note:
 
-1. `ctrl-tab` (go to previous tab with default VSCode settings)
+1. `ctrl-tab` (go to previous tab with default VS Code settings)
 2. click on the previous tab
 3. using the open editors pane
 
@@ -184,7 +184,7 @@ What this will be in the future:
 
 ### Git Doc and other extensions don't recognize my repos for multi-vault
 
-Many VSCode extensions that work across multiple git repositories won't recognize repos nested another repo. The way to fix this is by having your workspace be the last entry inside `folders` in your code workspace file (Dendron does this by default for new workspaces and if you add new vaults using `Vault Add`). You can see an example below. You can see a published example of this setup [here](https://github.com/kevinslin/kevin-garden)
+Many VS Code extensions that work across multiple git repositories won't recognize repos nested another repo. The way to fix this is by having your workspace be the last entry inside `folders` in your code workspace file (Dendron does this by default for new workspaces and if you add new vaults using `Vault Add`). You can see an example below. You can see a published example of this setup [here](https://github.com/kevinslin/kevin-garden)
 
 ```json
     "folders": [
@@ -266,15 +266,15 @@ We recommend using one of the following extensions to do flashcards:
 
 ### Does Dendron support video?
 
-We currently don't support video playback from within iframes inside of VSCode. This works when publishing but not inside the VSCode preview. 
-This is a limitation in the VSCode webview, see more details [here](https://github.com/microsoft/vscode/issues/54097).
+We currently don't support video playback from within iframes inside of VS Code. This works when publishing but not inside the VS Code preview. 
+This is a limitation in the VS Code webview, see more details [here](https://github.com/microsoft/vscode/issues/54097).
 
 Currently, the recommendation is to link to your video (using a regular markdown link if its online or a wikilink if its local). See [[File Links|dendron://dendron.dendron-site/dendron.topic.links#file-links]].
 ## Other
 
 ### How to launch dendron with most recent vault quickly?
 
-In menu bar of VSCode, select `File` -> `New Window` and click the Dendron workspace in Recent section of the Welcome tab.
+In menu bar of VS Code, select `File` -> `New Window` and click the Dendron workspace in Recent section of the Welcome tab.
 
 ### Why are there `root` files in my notes?
 
@@ -303,13 +303,13 @@ Dendron has a list of keyboard shortcuts that you can access using `Dendron: Sho
 
 The reason you see this is because Dendron will create [[stub|dendron.concepts#stubs]] notes when creating notes that have parents that don't exist. These notes are placeholders and will only be visible in the Dendron Tree View with a `+` sign next to the name. The reason we do stubs is because we don't want to litter your file system with empty files. Stubs are a compromise - they let you see the hierarchy of your newly created notes without forcing you to create intermediary files.
 
-### Why custom markdown preview instead of the VSC one?
+### Why custom markdown preview instead of the VS Code one?
 
-Our custom markdown preview gives us much more functionality then the vscode one -> eg. note references, checkboxes, etc.
+Our custom markdown preview gives us much more functionality then the VS Code one -> eg. note references, checkboxes, etc.
 
 In addition, the markdown preview that Dendron uses is platform agnostic (eg. it's also available on atom). This means that other editors could potentially adopt it as well.
 
-### VSCode Snippets are not working in Frontmatter
+### VS Code Snippets are not working in Frontmatter
 
 The default snippets are scoped to markdown. You can create [global snippets](https://code.visualstudio.com/docs/editor/userdefinedsnippets#_create-your-own-snippets) file to have snippets that work across all languages.
 
@@ -332,11 +332,11 @@ After we synced, we synced 11ty versioning and brought it down to 0.x. every min
 
 Its a bit of a hack and something that should go away in July 2021, when we switch to NextJs based publishing. 
 
-### VSCode is telling me I have to authorize Dendron to run some code
+### VS Code is telling me I have to authorize Dendron to run some code
 
-VSCode recently introduced a feature called [**_workspace trust_**](https://code.visualstudio.com/docs/editor/workspace-trust), which lets you choose whether or not you trust a project folder in VSCode for automatic code execution.
+VS Code recently introduced a feature called [**_workspace trust_**](https://code.visualstudio.com/docs/editor/workspace-trust), which lets you choose whether or not you trust a project folder in VS Code for automatic code execution.
 
-Since Dendron creates a workspace for your notes, VSCode is asking you if you trust the workspace Dendron just created for you.
+Since Dendron creates a workspace for your notes, VS Code is asking you if you trust the workspace Dendron just created for you.
 
 You can choose not to trust the workspace and be in **_restricted mode_**.
 

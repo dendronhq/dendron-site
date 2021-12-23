@@ -45,7 +45,7 @@ It's useful to check if all your links work before publishing your notes. You ca
     cd {wsRoot}
     mkdir reports
     ```
-  - add `reports` to your vscode workspace in order to browse it via vscode
+  - add `reports` to your VS Code workspace in order to browse it via VS Code
 
 - check links
   - build your site using the `Build Pod` command

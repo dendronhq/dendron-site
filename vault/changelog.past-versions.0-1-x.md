@@ -120,7 +120,7 @@ You can now natively add published Dendron git repos as a _remote vault_ inside 
 
 ### House Cleaning
 
-- breaking: the go to sibling commands have a new keyboard shortcut since the old one was conflicting with the vscode default. the new shortcuts are `ctrl+shift+]` and `ctrl+shift+[`
+- breaking: the go to sibling commands have a new keyboard shortcut since the old one was conflicting with the VS Code default. the new shortcuts are `ctrl+shift+]` and `ctrl+shift+[`
 
 ## 0.17.2
 
@@ -130,7 +130,7 @@ You can now natively add published Dendron git repos as a _remote vault_ inside 
 
 During office hours and onboardings, many of you said how you loved Dendron's functionality but wished that it was a little easier to use, especially on the UI front.
 
-This is why I'm excited to introduce Dendron's first Web UI - an interface build using modern web technologies integrated into VSCode. 
+This is why I'm excited to introduce Dendron's first Web UI - an interface build using modern web technologies integrated into VS Code. 
 
 This initial launch features the Dendron Configuration editor. Prior to the UI, you would have to manually edit YAML to update the configuration. With the web ui, you no longer have to understand YAML and your changes will be validated before being saved. 
 
@@ -722,7 +722,7 @@ Today's update makes **updated** update!
 
 #### (Local) Server Side Indexing
 
-Dendron can now index and manage your notes as a standalone **local** server independent from VSCode. 
+Dendron can now index and manage your notes as a standalone **local** server independent from VS Code. 
 
 This is part of the [[server migration milestone|dendron.roadmap.project.n.2020.server-migration]] which we took on for October. 
 

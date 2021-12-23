@@ -27,7 +27,7 @@ Dendron configuration can be overwhelming - we are working on making it less so 
 
 ### Community
 
-#### Greenhouse Series - Typescript Development with Dendron and VSCode
+#### Greenhouse Series - Typescript Development with Dendron and VS Code
 
 ![[dendron://dendron.dendron-site/community.greenhouse#^Ddu3OTwrJYvI:#*]]
 

@@ -43,7 +43,7 @@ You can see an overview of all roles [[here|community.roles]]
 	- [Updated field not updating when body text is changed and file is saved ](https://github.com/dendronhq/dendron/issues/967)
 - [Joshua Hublar](https://github.com/jmhublar) @Cognomen#7996 
 	- `+bugcatcher`
-	- [cli note creation is not reflected on vscode client](https://github.com/dendronhq/dendron/issues/970)
+	- [cli note creation is not reflected on VS Code client](https://github.com/dendronhq/dendron/issues/970)
 - [golergka](https://github.com/golergka)
 	- `+horticulturalist`
 	- `+taxonomist`

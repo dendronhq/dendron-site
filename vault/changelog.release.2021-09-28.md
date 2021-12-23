@@ -43,7 +43,7 @@ Dendron 0.61 has sprouted  🌱
 - fix(workspace): no-op on hover provider if dendron non active 
 - fix(workspace): fixes in providers when not in dendron workspace 
 - fix(workspace): no completion when dendron isn't active 
-- fix(workspace): support activation for older vscode version (#1426)
+- fix(workspace): support activation for older VS Code version (#1426)
 
 
 ### Ongoing 

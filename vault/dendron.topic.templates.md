@@ -9,7 +9,7 @@ stub: false
 
 Templates in Dendron are a simple way to lower the effort of creating similar notes. There are two supported ways of using templates:
 
-1. The easiest way is to have a templates.\* hierarchy in your vault and store commonly used note templates there. You can then re-use these templates in other notes by using the `Dendron: Insert Note` command in vscode. By default, this hasn't been assigned a keybinding, but you can always map this to something easy to remember if you find yourself using a lot of templates.
+1. The easiest way is to have a templates.\* hierarchy in your vault and store commonly used note templates there. You can then re-use these templates in other notes by using the `Dendron: Insert Note` command in VS Code. By default, this hasn't been assigned a keybinding, but you can always map this to something easy to remember if you find yourself using a lot of templates.
 
 <div style="position: relative; padding-bottom: 59.900166389351085%; height: 0;"><iframe src="https://www.loom.com/embed/7de6f7aa9f474a0c8555e7d66928c3ac" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 

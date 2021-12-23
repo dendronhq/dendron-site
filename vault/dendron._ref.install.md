@@ -6,7 +6,7 @@ updated: 1639537944604
 created: 1595537796868
 ---
 
-Dendron can be installed as a [vscode plugin](https://link.dendron.so/vscode). If you don't already have VSCode, you can download it [here](https://code.visualstudio.com/).
+Dendron can be installed as a [VS Code plugin](https://link.dendron.so/vscode). If you don't already have VS Code, you can download it [here](https://code.visualstudio.com/).
 
 ## Next Steps
 - Go through the [[Dendron Tutorial|dendron.tutorial]]

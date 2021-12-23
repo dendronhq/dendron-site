@@ -28,7 +28,7 @@ stub: false
 ```
 
 - dendron.code-workspace
-  - vscode and dendron configuration
+  - VS Code and dendron configuration
 - dendron.yml 
   - dendron specific settings
 - .dendron.port

@@ -71,7 +71,7 @@ Command failed with ENOENT: npm install
 This could be due to multiple reasons:
 
 ```
-- Make sure the default shell you have for VSCode is set to a shell that has npm in it. See [here](https://stackoverflow.com/questions/37823194/cannot-find-runtime-node-on-path-visual-studio-code-and-node-js) for changing your default shell.
+- Make sure the default shell you have for VS Code is set to a shell that has npm in it. See [here](https://stackoverflow.com/questions/37823194/cannot-find-runtime-node-on-path-visual-studio-code-and-node-js) for changing your default shell.
 - Make sure that `package.json` is not open during installation (you might see `operation not permitted` on windows)
 ```
 

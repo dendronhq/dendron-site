@@ -7,7 +7,7 @@ created: 1595010631247
 stub: false
 nav_order: 1.1
 ---
-VSCode auto updates outdated extensions periodically but if you want to trigger it manually, you can click the extensions tab and look for dendron. If there's an update available, it will be done at this point.
+VS Code auto updates outdated extensions periodically but if you want to trigger it manually, you can click the extensions tab and look for dendron. If there's an update available, it will be done at this point.
 
 <a href="https://www.loom.com/share/796a10cab7204733877e7f708b6aaaca">
 <img style="" src="https://cdn.loom.com/sessions/thumbnails/796a10cab7204733877e7f708b6aaaca-with-play.gif"> 

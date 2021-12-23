@@ -16,7 +16,7 @@ Dendron 0.48 has sprouted  🌱
 - Bad frontmatter no longer crashes Dendron. 
 - Cursor moves to the end of opened notes and frontmatter folds by default. 
 - Support filtering graph by regex and stubs
-- Dendron functionality (except Hooks) works when `limited in restricted mode` through VSCode Workspace Trust. 
+- Dendron functionality (except Hooks) works when `limited in restricted mode` through VS Code Workspace Trust. 
 
 ### Docs
 

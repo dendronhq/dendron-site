@@ -87,7 +87,7 @@ Schemas now automatically apply their description to newly created notes that ma
 
 ### Make Dendron available on [Open VSX Registry](https://open-vsx.org/) ([docs](https://dendron.so/notes/9134f160-31a6-4ab0-a640-1fce466f9526.html#open-vsx))
 
-Maybe you just don't like Microsoft. Maybe you want to see other people. Whatever the reason, Dendron is now available on all VSCode compatible editors like [VSCodium](https://vscodium.com/) and [Gitpod](https://www.gitpod.io/).
+Maybe you just don't like Microsoft. Maybe you want to see other people. Whatever the reason, Dendron is now available on all VS Code compatible editors like [VSCodium](https://vscodium.com/) and [Gitpod](https://www.gitpod.io/).
 
 ## Thank You
 

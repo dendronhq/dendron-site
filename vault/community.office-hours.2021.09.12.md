@@ -20,7 +20,7 @@ created: 1631637704455
 
 ## Discussions
 
-* Update navigation pane in vscode
+* Update navigation pane in VS Code
     - [https://github.com/dendronhq/nextjs-template/blob/main/components/DendronTreeMenu.tsx#L31:L31](https://github.com/dendronhq/nextjs-template/blob/main/components/DendronTreeMenu.tsx#L31:L31)
 * Sort Logic
     - [https://github.com/dendronhq/dendron/blob/master/packages/common-frontend/src/utils/tree-view.tsx#L102:L102](https://github.com/dendronhq/dendron/blob/master/packages/common-frontend/src/utils/tree-view.tsx#L102:L102)

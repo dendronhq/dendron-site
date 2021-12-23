@@ -260,7 +260,7 @@ It is now possible to use variables defined in your note frontmatter inside your
 <!--
 #### Publishing V2 Integration with Plugin
 
-You can now both build your notes for publication and preview it from inside vscode.
+You can now both build your notes for publication and preview it from inside VS Code.
 
 ![[dendron.ref.commands#site-build:#dev]]
 -->

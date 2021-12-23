@@ -147,7 +147,7 @@ This is not a valid schema.
 
 ### Why can't I click the checkbox?
 
-It could be that you are using the VSCode default markdown instead of Dendron's Markdown Preview. 
+It could be that you are using the VS Code default markdown instead of Dendron's Markdown Preview. 
 
 ![[dendron.guides.troubleshooting#using-the-wrong-preview,1:#*]]
 
@@ -232,7 +232,7 @@ Run `Dendron: Open Logs` and search for `"level":50` (these are lines with error
 ### Check if its a conflicting extension
 
 Sometimes existing extensions will not play nicely with Dendron. To see if a problem is a Dendron specific issue and not another extension, you can do the following:
-- do a clean install of a VSCode flavor you do not currently have (eg. VSCodium if you have VSCode or vice versa, see instructions [[here|dendron://dendron.dendron-site/dendron.tutorial#pre-requisites]])
+- do a clean install of a VS Code flavor you do not currently have (eg. VSCodium if you have VS Code or vice versa, see instructions [[here|dendron://dendron.dendron-site/dendron.tutorial#pre-requisites]])
 - install only the Dendron extension 
 - see if your issue reproduces
 
@@ -243,7 +243,7 @@ Markdown Notes, Markdown Preview Enhanced, and Markdown All in One are known to 
 
 ### Reload Dendron
 
-Sometimes Dendron views can get out of sync with notes. To fix, run `Dendron: Reload Index` to manually sync. If that doesn't work, you can also try `Developer: Reload Window` to restart VSCode.
+Sometimes Dendron views can get out of sync with notes. To fix, run `Dendron: Reload Index` to manually sync. If that doesn't work, you can also try `Developer: Reload Window` to restart VS Code.
 
 ### Remove notes that extend from root
 
@@ -251,7 +251,7 @@ We currently don't support creating children of `root.md` This note is special. 
 
 ### Run Dendron inside a Workspace
 
-Dendron requires a VSCode [workspace file](https://code.visualstudio.com/docs/editor/multi-root-workspaces#_opening-workspace-files) to operate. Make sure to open the **dendron.code-workspace** file by following the instructions [here](https://code.visualstudio.com/docs/editor/multi-root-workspaces#_opening-workspace-files)
+Dendron requires a VS Code [workspace file](https://code.visualstudio.com/docs/editor/multi-root-workspaces#_opening-workspace-files) to operate. Make sure to open the **dendron.code-workspace** file by following the instructions [here](https://code.visualstudio.com/docs/editor/multi-root-workspaces#_opening-workspace-files)
 
 You can have Dendron create one if you hold down "Cmd+Shift+P" (CTRL+SHIFT+P on windows) and use the [[Launch Tutorial Command|dendron.ref.commands#launch-tutorial]]
 

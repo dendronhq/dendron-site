@@ -25,7 +25,7 @@ There are several approaches that can be taken to install Node.js to your deskto
 
 ### Verify Node.js
 
-- Verify that node is available in vscode in a terminal.
+- Verify that node is available in VS Code in a terminal.
 
 - Run the command: [`Terminal: Create New Terminal`](https://code.visualstudio.com/docs/editor/integrated-terminal)
 - Run the following in the terminal: `node --version`

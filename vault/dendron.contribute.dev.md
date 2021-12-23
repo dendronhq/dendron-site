@@ -17,13 +17,13 @@ Leave a comment in the issue if you decide to work on it. Issues that are being 
 
 Remember that you are always welcome to ask for help inside the [#dev discord channel](https://link.dendron.so/discord).
 
-## VSCode Extension Development
+## VS Code Extension Development
 
-If you're not familiar with VSCode Extension Development, have no fear. There are lots of great resources for that. 
+If you're not familiar with VS Code Extension Development, have no fear. There are lots of great resources for that. 
 
-The VSCode guide to [making your first extension](https://code.visualstudio.com/api/get-started/your-first-extension) is a great place to start. 
+The VS Code guide to [making your first extension](https://code.visualstudio.com/api/get-started/your-first-extension) is a great place to start. 
 
-Afterwards, you can see how specific features are implemented through the [vscode extension samples library](https://github.com/microsoft/vscode-extension-samples). 
+Afterwards, you can see how specific features are implemented through the [VS Code Extension Samples library](https://github.com/microsoft/vscode-extension-samples). 
 
 ## Pull Request Checklist
 

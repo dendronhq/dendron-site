@@ -7,7 +7,7 @@ created: 1595170237255
 stub: false
 ---
 
-The Dendron workbench is the overall Dendron User Interface (UI) that surrounds the editor. It is equivalent to the [VSCode workbench](https://code.visualstudio.com/api/extension-capabilities/extending-workbench).
+The Dendron workbench is the overall Dendron User Interface (UI) that surrounds the editor. It is equivalent to the [VS Code workbench](https://code.visualstudio.com/api/extension-capabilities/extending-workbench).
 
 ![workbench](https://code.visualstudio.com/assets/api/extension-capabilities/extending-workbench/workbench-contribution.png)
 
@@ -74,7 +74,7 @@ The Backlinks view is located in the Explorer side bar.
 
 You can focus on the Backlinks view by:
   - using the `Explorer: Focus on Backlinks View` command, or
-  - clicking on the Explorer icon in the VSCode Activity Bar and navigating to the Backlinks view at the bottom.
+  - clicking on the Explorer icon in the VS Code Activity Bar and navigating to the Backlinks view at the bottom.
   
 `Candidates` feature is currently disabled by default. In order to enable link candidates, add the following configuration in `dendron.yml`:
 
@@ -114,11 +114,11 @@ Clicking on a link candidate item will open the note that contains the candidate
 
 ## Contextual UI
 
-Dendron has a number of built-in commands to the VSCode workbench environment. Right clicking a file will allow for the option to run Dendron specific commands over it. The details of this feature are discussed in depth [[here|dendron://dendron.docs/rfc.29-contextual-ui]].
+Dendron has a number of built-in commands to the VS Code workbench environment. Right clicking a file will allow for the option to run Dendron specific commands over it. The details of this feature are discussed in depth [[here|dendron://dendron.docs/rfc.29-contextual-ui]].
 
 ## Working with Multiple Columns
 
-VSCode lets you create multiple columns of your editor and arrange them any way you want them.
+VS Code lets you create multiple columns of your editor and arrange them any way you want them.
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/workbench.windows.gif)
 

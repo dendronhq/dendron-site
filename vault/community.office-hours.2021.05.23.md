@@ -47,4 +47,4 @@ created: 1621785443334
         -   JSON schema will be the blueprint for schema file
         -   What’s allowed, descriptions of keys.
         -   “The type definition for the type definition” :)
-    -   custom vscode editor
+    -   custom VS Code editor

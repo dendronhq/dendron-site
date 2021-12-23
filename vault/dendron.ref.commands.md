@@ -137,7 +137,7 @@ You can also pass it as a command argument through a custom keybinding as below:
 This modifier enables different alias modes.
 
 Here is the list of available alias modes:
-1. `snippet`: Inserted note link resolves into a VSCode snippet string
+1. `snippet`: Inserted note link resolves into a VS Code snippet string
 1. `selection`: Extracts the selection of the active note and use it as the alias.
 1. `title`: Use the note title of the linked note as alias.
 1. `prompt`: Open an input box that will prompt for an input for the alias.
@@ -171,7 +171,7 @@ You can also pass it as a command argument through a custom keybinding as below:
   ```
 
 ##### snippet
-Inserted note link will resolve into a [VSCode snippet](https://code.visualstudio.com/docs/editor/userdefinedsnippets) in the form of
+Inserted note link will resolve into a [VS Code snippet](https://code.visualstudio.com/docs/editor/userdefinedsnippets) in the form of
 
 `[[{$1: alias}|note-name]]$0`
 
@@ -599,7 +599,7 @@ Environmentalists are users that can support Dendron financially through a month
 
 Takes the path currently in the clipboard, copies the file into `{vault}/assets`, and inserts markdown link in the current note. This is the file equivalent of Dendron's [[Paste Image|dendron.topic.images]] command
 
-Note that most file types won't be natively supported in the preview. You'll need to use the vscode built-in `> Open Link` command to open the file. 
+Note that most file types won't be natively supported in the preview. You'll need to use the VS Code built-in `> Open Link` command to open the file. 
 
 If you are on macOs, you can find instructions for getting the path to the current file [here](https://www.switchingtomac.com/tutorials/osx/5-ways-to-reveal-the-path-of-a-file-on-macos/#:~:text=To%20see%20it%20for%20yourself,your%20file%20is%20located%20in)
 
@@ -701,11 +701,11 @@ Copy last 3000 lines of all logs and config to clipboard. Use when submitting an
 
 #### New File
 
-Dendron recognises a new markdown file created from vscode context menu and populate it with the frontmatter.
+Dendron recognises a new markdown file created from VS Code context menu and populate it with the frontmatter.
 
 #### Rename Note 
 
-Dendron recognises the vscode rename and updates all the backlinks to the old file with new name.
+Dendron recognises the VS Code rename and updates all the backlinks to the old file with new name.
 
 ### Code Actions
 

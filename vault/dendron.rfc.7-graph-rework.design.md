@@ -6,13 +6,13 @@ updated: 1622042726673
 created: 1621277234750
 ---
 
-> This design document pertains to the Next.js/VSCode graph implementation. If you're looking for the GraphViz export pod, [[you can find its documentation here. | dendron.topic.pod.builtin.graphviz]]
+> This design document pertains to the Next.js/VS Code graph implementation. If you're looking for the GraphViz export pod, [[you can find its documentation here. | dendron.topic.pod.builtin.graphviz]]
 
 ## Summary
 
 <!-- High level overview of solution -->
 
-The goal of this graph redesign is to create a better-performing, filterable graph view useable by both a published Next.js site and within VSCode.
+The goal of this graph redesign is to create a better-performing, filterable graph view useable by both a published Next.js site and within VS Code.
 
 ## Lookup
 
@@ -77,7 +77,7 @@ Create a more or less 1 to 1 drop in replacement for `markdown-links`, accessibl
 -   [ ] Create graph structure in Cytoscape out of Redux-stored notes
 -   [ ] Initialize graph, layout nodes
 -   [ ] Display graph
--   [ ] Embedding capability in VSCode
+-   [ ] Embedding capability in VS Code
 
 After this initial integration, work will be done on:
 
@@ -94,4 +94,4 @@ After this initial integration, work will be done on:
 -   [ ] Local graph view
     -   Display on individual note pages, much like Obsidian
 -   [ ] Multi-vault graph view
-    -   Likely most useful for VSCode
+    -   Likely most useful for VS Code

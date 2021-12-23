@@ -21,7 +21,7 @@ We call this the [hierarchy first approach](https://www.kevinslin.com/notes/3dd5
 
 ## How do I get started?
 
-1. Launch the _command palette_ inside vscode:
+1. Launch the _command palette_ inside VS Code:
    - Linux: `Ctrl+Shift+P`
    - macOS: `Cmd+Shift+P`
    - Windows: `Ctrl+Shift+P`

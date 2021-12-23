@@ -10,7 +10,7 @@ Dendron 0.25 has sprouted 🌱
 ### Highlights
 
 - native publication 
-  - preview and build your notes for publication from within VSCode ([[docs|dendron.ref.commands#site-build]])
+  - preview and build your notes for publication from within VS Code ([[docs|dendron.ref.commands#site-build]])
 - custom header support
   - include your own headers when publishing ([[docs|dendron.topic.publish-legacy.configuration#customheaderpath-optional]])
 - bunch of bug fixes and enhancements
@@ -57,7 +57,7 @@ This release comes with the following versions:
 
 - dendron 11ty: 1.25
 
-- dendron plugin and dendron markdown preview will be auto-installed by VSCode
+- dendron plugin and dendron markdown preview will be auto-installed by VS Code
 
 - See the upgrade instructions [[here for dendron-11ty and dendron cli|dendron.guides.upgrading#dendron-cli-and-dendron-11ty]]
 

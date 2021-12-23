@@ -35,7 +35,7 @@ Check out this [extension](https://marketplace.visualstudio.com/items?itemName=r
 
 Once Dendron is initialized, to import an individual markdown file to your Dendron project.
 
-1. drag the markdown file into VSCode
+1. drag the markdown file into VS Code
 2. run `Dendron Doctor`so Dendron recognizes the imported file. 
 
 The second step will add some front matter to the head of the file.

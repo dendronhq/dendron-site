@@ -18,7 +18,7 @@ All documentation pertaining to the original extension can be found [here](https
 
 If you want to enable the legacy preview, please install it from the extension registry.
 
-- [link](https://marketplace.visualstudio.com/items?itemName=dendron.dendron-markdown-preview-enhanced) for VSCode users
+- [link](https://marketplace.visualstudio.com/items?itemName=dendron.dendron-markdown-preview-enhanced) for VS Code users
 - [link](https://open-vsx.org/extension/dendron/dendron-markdown-preview-enhanced) for VSCodium users
 
 ### Issues

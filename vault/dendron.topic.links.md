@@ -34,7 +34,7 @@ Wiki links support **autocomplete**. To initiate:
 - link to specific sections of notes using the `[[wiki link#header]]` syntax.
   - NOTE: relative links will not go to the anchor if clicked on the preview, in that case, it becomes a normal link to the file
   - NOTE2: doesn't work when exported through a pod
-- use the vscode [intellisense shortcut](https://code.visualstudio.com/docs/editor/intellisense#_key-bindings) to trigger the autocomplete
+- use the VS Code [intellisense shortcut](https://code.visualstudio.com/docs/editor/intellisense#_key-bindings) to trigger the autocomplete
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/links-autocomplete.gif)
 
@@ -109,6 +109,6 @@ You can also use cross vault links for [[note references|dendron.topic.note-refe
 
 ### Markdown links
 
-Markdown links can be used for local files and stuff on the internet (websites, images, blogs etc.). The `Markdown Shortcuts: Toggle hyperlink` command makes this operation really easy. You can even bind this to a shortcut key combination. We'd recommend using 'cmd/ctrl + K' to get the usual application behavior or 'cmd/ctrl + U' if you want to continue using ctrl+k as part of the usual VSCode combo operation.
+Markdown links can be used for local files and stuff on the internet (websites, images, blogs etc.). The `Markdown Shortcuts: Toggle hyperlink` command makes this operation really easy. You can even bind this to a shortcut key combination. We'd recommend using 'cmd/ctrl + K' to get the usual application behavior or 'cmd/ctrl + U' if you want to continue using ctrl+k as part of the usual VS Code combo operation.
 
 

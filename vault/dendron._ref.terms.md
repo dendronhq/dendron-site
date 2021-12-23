@@ -8,7 +8,7 @@ created: 1610064859384
 
 ### Command Palette
 
-The [command palette](https://code.visualstudio.com/docs/getstarted/userinterface#_command-palette) lets you access all command based functionality inside vscode. You can bring up by using `CMD+SHIFT+P` on mac or `CTRL+SHIFT+P` on windows and linux.
+The [command palette](https://code.visualstudio.com/docs/getstarted/userinterface#_command-palette) lets you access all command based functionality inside VS Code. You can bring up by using `CMD+SHIFT+P` on mac or `CTRL+SHIFT+P` on windows and linux.
 
 ### Early Seed Release
 

@@ -19,7 +19,7 @@ created: 1622398067339
     -   Build out more of these (AWS, NPM etc.)
 -   Design system
     -   Moving native view -> web view.
-    -   Using the same components for native view in vscode preview and for publishing.
+    -   Using the same components for native view in VS Code preview and for publishing.
 -   Update on Windows integration tests
     -   Mac/Linux is working
     -   Windows is high on tech-debt list.

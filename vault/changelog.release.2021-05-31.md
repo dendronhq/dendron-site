@@ -62,7 +62,7 @@ You can see an overview of all roles [[here|community.roles]]
   - [Design system RFC updated with ANTD](https://github.com/dendronhq/dendron-site/pull/101)
 - [Dickson Tan](https://github.com/Neurrone) @Neurrone#4285
   - `+bugcatcher`
-  - [Dendron should warn users about VSCode errors](https://github.com/dendronhq/dendron/issues/772)
+  - [Dendron should warn users about VS Code errors](https://github.com/dendronhq/dendron/issues/772)
 - [Darren Brierton](https://github.com/ddbrierton)
   - `bugcatcher`
   - [Paste file for non-URI chars](https://github.com/dendronhq/dendron/issues/765)

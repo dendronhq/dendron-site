@@ -175,12 +175,12 @@ created: 1629505311218
 ### Enhancements
 
 -   Rename and Refactor will now replace links without formatting the file
--   Dendron respects VSCode Telemetry settgs ([[docs|dendron.ref.telemetry#how-to-opt-out-of-data-collection]])
+-   Dendron respects VS Code Telemetry settgs ([[docs|dendron.ref.telemetry#how-to-opt-out-of-data-collection]])
 
 ### Bug Fixes
 
 -   Dendron Preview `Go to Text` will sometimes not appear for note references
--   Dendron Preview links not working in VsCode 1.57
+-   Dendron Preview links not working in VS Code 1.57
 -   Dendron Preview renders the first line of note ref as markdown
 -   Dendron Preview removes `#` from links
 

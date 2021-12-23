@@ -115,9 +115,9 @@ nav_order: 2
 
 ### Features
 - feat(workspace): hide default markdown preview button (#1636) @kaan
-  - We merged an upstream change with VSCode to enable toggling of the default preview. This was one of the most confusing UX parts of Dendron.
-  - If wanted, the VSCode Markdown preview can still be opened via the command palette (`Ctrl+Shift P`) with: `Markdown: Open Preview` or `Markdown: Open Preview to The Side`
-  - NOTE: requires VSCode 1.63
+  - We merged an upstream change with VS Code to enable toggling of the default preview. This was one of the most confusing UX parts of Dendron.
+  - If wanted, the VS Code Markdown preview can still be opened via the command palette (`Ctrl+Shift P`) with: `Markdown: Open Preview` or `Markdown: Open Preview to The Side`
+  - NOTE: requires VS Code 1.63
 
 ### Enhancements
 - enhance(workspace): add Dendron preview button (#1744) @kann
@@ -453,7 +453,7 @@ dendron dev run_migration --migrationVersion 0.64.1
 
 ### Bug Fixes
 - fix(lookup): picked schema matching name was not creating the expected note (#1425) @nickolay
-- fix(workspace): support activation for older vscode version (#1426) @jonathan
+- fix(workspace): support activation for older VS Code version (#1426) @jonathan
 
 ## 0.60.2
 
@@ -543,5 +543,5 @@ dendron dev run_migration --migrationVersion 0.64.1
 ## 0.59.1
 
 ### Bug Fixes
-- fix(workspace): Dendron now sets minimum vscode version to 1.58
+- fix(workspace): Dendron now sets minimum VS Code version to 1.58
 - fix(publish): update 11ty version

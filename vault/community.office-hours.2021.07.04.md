@@ -10,7 +10,7 @@ created: 1625498459946
 
 -   Native Dendron Preview
     -   Built using dendron web ui
-    -   Will be common between vscode and upcoming nextjs based publishing so everything is consistent
+    -   Will be common between VS Code and upcoming nextjs based publishing so everything is consistent
     -   Easier to ship new features
     -   Much faster
     -   Reduce initial download size by +100MB

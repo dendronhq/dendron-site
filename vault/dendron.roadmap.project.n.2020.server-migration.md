@@ -15,7 +15,7 @@ Migrate the Dendron to (local) client &lt;-> server architecture
 
 ## Details
 
-Dendron's current architecture can be found [here](https://dendron.so/notes/c160ddce-edec-4f6e-841b-418d6030fa37.html). Currently, all of Dendron's indexing capabilities is provided by the `dendron engine` as a library which is included in every extension that uses it. This has many drawbacks - every extension re-indexes all notes and also blocks the client (vscode) during this process.
+Dendron's current architecture can be found [here](https://dendron.so/notes/c160ddce-edec-4f6e-841b-418d6030fa37.html). Currently, all of Dendron's indexing capabilities is provided by the `dendron engine` as a library which is included in every extension that uses it. This has many drawbacks - every extension re-indexes all notes and also blocks the client (VS Code) during this process.
 
 The Dendron server migration is to move Dendron to a client server architecture. Note that the migration will involve standing up **two servers**: one for language server functionality (the lsp server), and another for dendron's [lookup](https://dendron.so/notes/a7c3a810-28c8-4b47-96a6-8156b1524af3.html) capabilities (the express server). 
 
@@ -89,7 +89,7 @@ To enable server mode, update the following setting in your workspace settings `
 
 ### Design
 - components
-    - [[p.dendron-extension]]: vscode extension
+    - [[p.dendron-extension]]: VS Code extension
     - [[p.engine-v0]]: current dendron engine
     - [[p.engine-server]]: dendron lsp engine
     - [[p.engine-client]]: dendron lsp client
@@ -99,7 +99,7 @@ To enable server mode, update the following setting in your workspace settings `
     - [[p.dendron-extension]] -> [[p.engine-v0]]
 - architecture after migration
     - user commands: [[p.dendron-extension]] -> [[p.engine-client]] -> [[p.engine-server]]
-    - lsp specific actions: vscode -> [[p.engine-server]]
+    - lsp specific actions: VS Code -> [[p.engine-server]]
 
 ### Challenges
 

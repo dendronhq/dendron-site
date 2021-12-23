@@ -6,7 +6,7 @@ updated: 1626553341209
 created: 1610844337503
 ---
 
-## VSCode
+## VS Code
 
 ### Pre-requisites 
 - This assumes you have a github repository. 

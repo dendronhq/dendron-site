@@ -8,7 +8,7 @@ created: 1599755804490
 
 ## Summary
 
-Intellisense is the auto completion mechanism used inside VSCode. 
+Intellisense is the auto completion mechanism used inside VS Code. 
 
 You can read the docs about it [here](https://code.visualstudio.com/docs/editor/intellisense#_intellisense-features).
 

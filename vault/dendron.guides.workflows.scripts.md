@@ -29,9 +29,9 @@ For example, images are saved under `assets/images/` and referenced as `/assets/
 
 You can do the same with scripts by keeping them under a `scripts` directory. 
 
-You can navigate to them via regular vscode `(cmd|ctrl+p)`, and then include them as code chunks in your markdown. 
+You can navigate to them via regular VS Code `(cmd|ctrl+p)`, and then include them as code chunks in your markdown. 
 
 The dendron preview accepts running code chunks. You can see the instructions [here](https://shd101wyy.github.io/markdown-preview-enhanced/#/code-chunk)
 
-Vscode is also adding native support for notebooks so as that support becomes more mature, we'll probably look into making this process less kludgy. 
+VS Code is also adding native support for notebooks so as that support becomes more mature, we'll probably look into making this process less kludgy. 
 

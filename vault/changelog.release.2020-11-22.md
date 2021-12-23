@@ -29,7 +29,7 @@ Dendron 0.17 has sprouted 🌱
   - prior to 0.17, Dendron used the aforementioned extension for language features like auto completion and following links
   - with 0.17, all language features is now being handled with Dendron
   - Dendron Markdown Notes is no longer required and can interfere with new definitions
-  - You can uninstall Dendron Markdown Notes through the extensions panel inside VSCode
+  - You can uninstall Dendron Markdown Notes through the extensions panel inside VS Code
       ![uninstall ](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/etc.install.jpg)
 - Version Number in DendronConfig
   - `dendron.yml` now has an added `version` field. It's automatically set to `0` for all current configurations. we'll be coming out with a new version in the near future to support additional multi-vault features
