@@ -56,7 +56,7 @@ social:
 ![[dendron.topic.pod.import#configuration,1]]
 
 ## token
-- description: github personal access token
+- description: GitHub personal access token
 - type: string
 - required: true
 

@@ -41,7 +41,7 @@ Options
     - values: `json|markdown_gfm|markdown_dendron`
         - json: json output
         - markdown_dendron: Dendron Markdown
-        - markdown_gfm: github flavored Markdown 
+        - markdown_gfm: GitHub Flavored Markdown 
 
 
 Examples
@@ -60,7 +60,7 @@ dendron note lookup --query "hello"
 dendron note lookup --query "hello" 
 ```
 
-#### Querying a note with github flavored Markdown output
+#### Querying a note with GitHub Flavored Markdown output
 
 ```bash
 # retrieves hello.md if it does exist

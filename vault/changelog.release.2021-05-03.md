@@ -20,7 +20,7 @@ Dendron 0.40 has sprouted  🌱
 
 ### RFCS
 
-The following are specifications for new features we will be working on this month. If you have input, please leave them in the corresponding github discussion that is linked to the bottom of each respective RFC.
+The following are specifications for new features we will be working on this month. If you have input, please leave them in the corresponding GitHub discussion that is linked to the bottom of each respective RFC.
 
 - [[7 Graph Rework|rfc.7-graph-rework]]
 - [[9 Note Lifecycle Plugins|rfc.9-note-lifecycle-hooks]]

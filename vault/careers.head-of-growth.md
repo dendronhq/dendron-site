@@ -15,7 +15,7 @@ We're looking for someone with an affinity for both technology and Personal Know
 
 ## What you'll do
 - own the customer acquisition funnel across all channels
-- engage with our community (Discord & Github) and coordinate channels and events
+- engage with our community (Discord & GitHub) and coordinate channels and events
 - engage with other relevant PKM/tech communities across various channels (eg. Slack, Reddit, Quora, etc)
 - work with engineering to shape the product roadmap
 - optimize [publishing features](https://wiki.dendron.so/notes/579e379b-3eca-4676-b51c-c66eb26a11b8.html) and [knowledge registry](https://blog.dendron.so/notes/qTeL51LFD0Y8uC9ect7QV.html) for SEO and organic growth
@@ -44,4 +44,4 @@ You can see all our values and processes in the [Dendron Handbook](http://handbo
 
 ## Apply
 
-To apply, email kevin@dendron.so with resume/linkedin/github and we can proceed from there.
+To apply, email kevin@dendron.so with resume/linkedin/GitHub and we can proceed from there.

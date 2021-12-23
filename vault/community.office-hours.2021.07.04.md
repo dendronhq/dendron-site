@@ -33,7 +33,7 @@ created: 1625498459946
 
 #### Questions
 
--   How is publishing a seed different from publishing as a public page on Github?
+-   How is publishing a seed different from publishing as a public page on GitHub?
     -   Difference: discovery and download
 -   If I want to publish _just_ a hierarchy to a seed. How would I do that?
     -   We currently only support publishing a vault at a time.

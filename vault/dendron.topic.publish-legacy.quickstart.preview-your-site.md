@@ -79,7 +79,7 @@ When your done, run the pre
 
 ### Build for deployment
 
-When you are ready to publish to github, make sure to change the stage to `prod`.
+When you are ready to publish to GitHub, make sure to change the stage to `prod`.
 
 ```bash
 npx dendron buildSite --stage prod 

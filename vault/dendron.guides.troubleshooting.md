@@ -298,7 +298,7 @@ If all else fails, schedule a diagnostic session.
 
 ## Send a support request
 
-If none of the troubleshooting methods work, you can ping kevin on Discord or submit a github issue.
+If none of the troubleshooting methods work, you can ping kevin on Discord or submit a GitHub issue.
 
 When doing either of these things, please include the following information:
 

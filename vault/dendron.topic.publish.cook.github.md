@@ -8,36 +8,36 @@ created: 1631132196609
 
 ## Summary
 
-You can publish your notes using Dendron Next.js Publishing and Github pages
+You can publish your notes using Dendron Next.js Publishing and GitHub pages
 
 ### Pre-requisites 
-- This assumes you have a github repository. 
+- This assumes you have a GitHub repository. 
     - If not, you can create one [here](https://github.com/new) from your existing workspace
 - You have [[Dendron CLI|dendron.ref.cli]] installed (version `0.70.0` or greater)
 
 ### Example Deployments
 You can see deployed examples of these instructions in the following repositories
 
-- [Publish a regular github page](https://github.com/dendronhq/template.publish.github)
+- [Publish a regular GitHub page](https://github.com/dendronhq/template.publish.github)
 - [Publish with custom CNAME](https://github.com/dendronhq/dendron-blog)
 
-## Process - Setup Github
+## Process - Setup GitHub
 
-### Create a github repo
-- Follow the instructions [here](https://pages.github.com/) to create a repository named `{username}.github.io` where `{username}` is your username on Github
+### Create a GitHub repo
+- Follow the instructions [here](https://pages.github.com/) to create a repository named `{username}.github.io` where `{username}` is your username on GitHub
 
 ### Add your notes 
-Navigate to your existing [[Dendron workspace|dendron.topic.workspace]].  Follow instructions provided by github to push your workspace to github. 
+Navigate to your existing [[Dendron workspace|dendron.topic.workspace]].  Follow instructions provided by GitHub to push your workspace to GitHub. 
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/publishv2.github.jpg)
 
-### Turn on github pages
+### Turn on GitHub Pages
 
 Go to settings
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/publishv2.github-settings.jpg)
 
-Go down to github pages and select the main branch
+Go down to GitHub Pages and select the main branch
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/publishv2.github-pages.jpg)
 
@@ -106,7 +106,7 @@ site:
 
 ### Publish your notes
 
-- NOTE: we're running export with the github target
+- NOTE: we're running export with the GitHub target
 
 ```sh
 dendron publish export --target github
@@ -121,7 +121,7 @@ git push
 
 The first push will take a bit because Next.js generates a bunch of assets on initial publishing. Subsequent pushes will only commit changes and will be much faster. 
 
-You can see the status of your page by going clicking github pages in your github repo.
+You can see the status of your page by going clicking GitHub pages in your GitHub repo.
 
 - NOTE: since this is your first deployment, it might take a minute before you page shows up
 

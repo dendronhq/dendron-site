@@ -39,5 +39,5 @@ You can see all our values and processes in the [Dendron Handbook](https://handb
 
 ## Apply
 
-To apply, email kevinlin@dendron.so with resume/linkedin/github and we can proceed from there. 
+To apply, email kevinlin@dendron.so with resume/linkedin/GitHub and we can proceed from there. 
 

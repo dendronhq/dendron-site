@@ -8,12 +8,12 @@ created: 1625747404839
 
 ## Summary
 
-The Github Issue Import Pod imports all the issues of a github repository into your selected vault as notes.
-The import config has additional options to select the owner, repository, and status of the github issues. 
+The GitHub Issue Import Pod imports all the issues of a GitHub repository into your selected vault as notes.
+The import config has additional options to select the owner, repository, and status of the GitHub issues. 
 
 ## Authentication
 
-To communicate with the Github server, you'll need an OAuth token with the right scopes.
+To communicate with the GitHub server, you'll need an OAuth token with the right scopes.
 Follow the steps in [Creating a personal access token](https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token) to create a token. The scopes you require depends on the type of data you're trying to request, you can even select all and you are good to go.
 
 
@@ -76,7 +76,7 @@ Line 12 of the links page ( https://github.com/dendronhq/dendron-site/edit/maste
 * required: true
 
 ## repository
-- description: github repository to import from
+- description: GitHub repository to import from
 - type: string
 - required: true
 
@@ -97,7 +97,7 @@ Line 12 of the links page ( https://github.com/dendronhq/dendron-site/edit/maste
 - format: YYYY-MM-DD
 
 ## token
-- description: github personal access token
+- description: GitHub personal access token
 - type: string
 - required: true
 

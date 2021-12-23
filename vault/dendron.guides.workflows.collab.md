@@ -8,21 +8,21 @@ stub: false
 ---
 Because knowledge is like kit kat - it's better shared. 
 
-## Git/Github
+## Git/GitHub
 
-Git and github, while traditionally used for collaborating on code, works out great for notes as well. 
+Git and GitHub, while traditionally used for collaborating on code, works out great for notes as well. 
 
 ### Git
 
 - use `git blame` to see line level authorship of all your notes
 - use the git feature branch workflow to have multiple people working on separate parts of the knowledge base at the same time
 
-### Github
+### GitHub
 
 - use pull requests to contribute and collection contributions for your notes
 - use the wiki to have meta discussions about notes
 - use issues to request changes
-- use github projects to share publishing roadmap
+- use GitHub projects to share publishing roadmap
 
 ## Live Share
 

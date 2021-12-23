@@ -195,7 +195,7 @@ gitignore
   git checkout -b pages
   git push -u origin HEAD
   ```
-  5. Update pages branch on github
+  5. Update pages branch on GitHub
   - go to the pages settings, eg. `https://github.com/dendronhq/seed.services/settings/pages`
     - choose the following
     ```

@@ -90,8 +90,8 @@ created: 1616647136455
 - [ ] respond to missed discussions
 - [ ] file tasks from yesterday
 - [ ] file discussions
-- [ ] github issues
-- [ ] github pull request
+- [ ] GitHub issues
+- [ ] GitHub pull request
 - [ ] update weekly release
 - [ ] commit all notes for the day
 

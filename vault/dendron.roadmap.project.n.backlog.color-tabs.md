@@ -5,7 +5,7 @@ desc: ''
 updated: 1603426502775
 created: 1602430633050
 ---
-- [github issue](https://github.com/dendronhq/dendron/issues/261)
+- [GitHub issue](https://github.com/dendronhq/dendron/issues/261)
 
 ## Goals
 

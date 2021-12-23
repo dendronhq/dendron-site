@@ -9,7 +9,7 @@ created: 1631659388102
 Dendron 0.59 has sprouted  🌱
 
 ### Highlights
-- feat(publish): publish using Next.js and github pages ([[docs|dendron.topic.publishing-next.cook.github#summary]])
+- feat(publish): publish using Next.js and GitHub pages ([[docs|dendron.topic.publishing-next.cook.github#summary]])
 - feat(markdown): custom css for images ([[docs|dendron.topic.images#extended-images]])
 - enhance(pods) Markdown import to update asset links
 
@@ -36,7 +36,7 @@ Dendron 0.59 has sprouted  🌱
 
 #### RFCs
 
-We've had quite a number of [[Rfc|rfc]] in flight. This is a highlight of things that are currently being worked on. Click through the RFCs for more details and link to the github discussion page.
+We've had quite a number of [[Rfc|rfc]] in flight. This is a highlight of things that are currently being worked on. Click through the RFCs for more details and link to the GitHub discussion page.
 
 - [[22 Queries|rfc.22-queries]]
 - [[23 Consolidate Configurations|rfc.23-config-consolidation]]

@@ -12,7 +12,7 @@ Video of the talk can be found [here](https://www.youtube.com/watch?v=UfZgSN8w9U
 
 ## Agenda
 - Initializing Next.js Publishing [Quickstart](https://wiki.dendron.so/notes/e5st4LFLtIwwbQmC6JBaF.html)
-- Exporting notes to Github Pages [Tutorial](https://wiki.dendron.so/notes/yg3EL1x9fEe4NMqxUC3jP.html)
+- Exporting notes to GitHub Pages [Tutorial](https://wiki.dendron.so/notes/yg3EL1x9fEe4NMqxUC3jP.html)
 
 ## Questions
 * Can you show what version of yarn you are running pls? **Nvm, I see it's v1.22. Thx.**
@@ -25,7 +25,7 @@ Video of the talk can be found [here](https://www.youtube.com/watch?v=UfZgSN8w9U
     - .next/
 
 ## Related
-* Publishing using a github action:
+* Publishing using a GitHub action:
     - [https://wiki.dendron.so/notes/FnK2ws6w1uaS1YzBUY3BR.html](https://wiki.dendron.so/notes/FnK2ws6w1uaS1YzBUY3BR.html)
 * Today’s Walkthrough Repo
     - [https://github.com/kevinslin/dendron-publish-demo](https://github.com/kevinslin/dendron-publish-demo)

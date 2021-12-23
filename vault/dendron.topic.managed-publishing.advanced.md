@@ -13,7 +13,7 @@ created: 1615417851956
 ### Pre-prequisites 
 
 - have a domain that you own and control the CNAME records for
-- have your github repo hooked up to Dendron (see [[Creating a site|dendron.topic.managed-publishing.quickstart#creating-a-site]])
+- have your Gitub repo hooked up to Dendron (see [[Creating a site|dendron.topic.managed-publishing.quickstart#creating-a-site]])
 
 ### Steps
 1. Decide on a CNAME that you want to use. Lets call this YOUR_CNAME
@@ -40,7 +40,7 @@ created: 1615417851956
 ### Pre-prequisites 
 
 - have a domain that you own and control the name server records for
-- have your github repo hooked up to Dendron (see [[Creating a site|dendron.topic.managed-publishing.quickstart#creating-a-site]])
+- have your GitHub repo hooked up to Dendron (see [[Creating a site|dendron.topic.managed-publishing.quickstart#creating-a-site]])
 
 ### Steps
 1. Email support@dendron.so with the subject: `NS Request: YOUR_DOMAIN` 

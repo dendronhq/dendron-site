@@ -13,7 +13,7 @@ nav_order: 3.1
 
 - shortcuts: None
 
-Open the github repository (if it exists) of the current note. If you have a [[multi vault|dendron.topic.multi-vault]] workspace with different git repositories, this command will
+Open the GitHub repository (if it exists) of the current note. If you have a [[multi vault|dendron.topic.multi-vault]] workspace with different git repositories, this command will
 
 ### Create Daily Journal Note
 
@@ -521,7 +521,7 @@ Modify Dendron Config using Dendron UI
 
 - shortcuts: none
 
-Build your notes for export. Currently, only export to github pages is supported.
+Build your notes for export. Currently, only export to GitHub pages is supported.
 
 ### Configure Pod
 

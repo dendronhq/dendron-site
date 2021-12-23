@@ -25,7 +25,7 @@ created: 1632543447542
 
 ![[dendron.topic.images#extended-images,1:#*]]
 
-#### Publish to Github Pages using Next.js
+#### Publish to GitHub Pages using Next.js
 
 ![[dendron.topic.publish.cook.github#summary,1:#*]]
 
@@ -153,7 +153,7 @@ Seed Browser is a new view that let's you view Seeds that are available in the S
 
 - improve hover message for missing notes 
 - ability to set selection type to `none` ([[docs|dendron.ref.config]])
-- use github publish to create new issues ([[docs|dendron.topic.pod.builtin.github-issue.publish]])
+- use GitHub publish to create new issues ([[docs|dendron.topic.pod.builtin.github-issue.publish]])
 - nicer refactor preview 
 - treeview improvements when publishing using Next.js
 - added Dendron cache to .gitignore on vault add
@@ -161,7 +161,7 @@ Seed Browser is a new view that let's you view Seeds that are available in the S
 
 ### Bug Fixes
 - backlinks properly update on frontmatter tag changes
-- slugify github issue title when importing
+- slugify GitHub issue title when importing
 
 ## 0.56
 
@@ -286,7 +286,7 @@ The [[Calendar View|dendron._ref.web-ui#calendar-view]] is no longer hidden behi
 
 ### Features
 
-#### Github Publish Pod
+#### GitHub Publish Pod
 - ![[dendron.topic.pod.builtin.github-issue.publish#summary,1:#*]]
 
 #### Custom Colors for Tags

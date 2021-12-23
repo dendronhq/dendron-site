@@ -27,7 +27,7 @@ You can see a deployed example of these instructions in the following repository
 - [Dendron on Netlify Template: `template.publish.netlify`](https://link.dendron.so/6WuI)
   - The template, with every update, publishes to [this example website](https://link.dendron.so/netlify-demo)
 
-## Create a github repo
+## Create a GitHub repo
 
 Follow the instructions [here](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-new-repository) to create a repository. Netlify can publish both private and public repositories, leaving it up to you for the source code to be publicly available for viewing or contributions.
 

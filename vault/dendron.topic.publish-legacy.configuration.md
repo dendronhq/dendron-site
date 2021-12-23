@@ -41,7 +41,7 @@ site:
 
 Prefix for assets. 
 
-By default, assets are served from the root. If you are publishing to github pages and followed the instructions [here](https://pages.github.com/) by creating a repo named `{username}.github.io`, then no further action is needed. This is because github will make your site available at `https://{username}.github.io`. If you created a custom repo, you will need to set the prefix to the name of your repo because github will make your site available at `https://{username}.github.io/{your-repo-name/}`
+By default, assets are served from the root. If you are publishing to GitHub pages and followed the instructions [here](https://pages.github.com/) by creating a repo named `{username}.github.io`, then no further action is needed. This is because GitHub will make your site available at `https://{username}.github.io`. If you created a custom repo, you will need to set the prefix to the name of your repo because GitHub will make your site available at `https://{username}.github.io/{your-repo-name/}`
 
 ### copyAssets
 
@@ -89,7 +89,7 @@ Your ga tracking number if you want to add google analytics.
 ### githubCname
 - default: none
 
-Cname used for github pages
+CNAME used for GitHub pages
 
 ### logo 
 
@@ -145,13 +145,13 @@ Location of the directory where site will be build. Relative to your workspace
 - default: none
 - status: NOT currently supported 
 
-Location of the github repo where your site notes are located. By default, this is assumed to be your `workspaceRoot` if not set. This is used with the `Publish Notes` command -->
+Location of the GitHub repo where your site notes are located. By default, this is assumed to be your `workspaceRoot` if not set. This is used with the `Publish Notes` command -->
 
 ### siteUrl 
 - required
 
 Set to the URL that you plan on publishing to. All links will be prefixed with this. 
-If you are publishing with github pages, the format is `https://{username}.github.io/{repo}/`
+If you are publishing with GitHub pages, the format is `https://{username}.github.io/{repo}/`
 
 ### usePrettyRefs 
 - status: optional
@@ -189,12 +189,12 @@ Writing a stub will create an empty note in your vault with the name of the stub
 
 Writing stubs is important to guarantee permanent urls as Dendron will randomize stub ids whenever Dendron restarts. 
 
-### Github Options
+### GitHub Options
 
 #### gh_edit_link
 
 - default: true
-  Show a edit on github link at the bottom of the page
+  Show a edit on GitHub link at the bottom of the page
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/publish.edit-on-github.jpg)
 
@@ -212,7 +212,7 @@ the branch that the docs site is served from
 
 #### gh_edit_view_mode
 
-- default: tree (brings user to github page)
+- default: tree (brings user to GitHub page)
 
 switch to "edit" to bring the user directly into editing mode
 
@@ -364,7 +364,7 @@ publish:
     └── dendron.zen
 ```
 
-### Examples of CNAME, Github and SEO Options
+### Examples of CNAME, GitHub and SEO Options
 
 ```yml
 site:
@@ -454,7 +454,7 @@ Disable git linking for this page
 
 ### gitNotePath
 
-When set, override how we generate the URL for the [[edit on github|dendron.topic.publish-legacy.features#edit-on-github]] link.
+When set, override how we generate the URL for the [[edit on GitHub|dendron.topic.publish-legacy.features#edit-on-github]] link.
 
 There are a few special variables you can set:
 

@@ -19,9 +19,9 @@ You can see at a glance which notes have children and explore them from the nav 
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/dendron.jekyll.gif)
 
-### Edit on Github
+### Edit on GitHub
 
-Every page can accept one-click contributions as long as the contributor has a github account. 
+Every page can accept one-click contributions as long as the contributor has a GitHub account. 
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/jekyll.edit.jpg)
 
@@ -41,7 +41,7 @@ Every page is published using its unique ID which means that urls will never cha
 
 <img style="max-width: 720px;" src="https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/site-ids.jpg" />
 
-If you have a free github account, then you can host your Dendron notes for free using [github pages](https://pages.github.com/) 
+If you have a free GitHub account, then you can host your Dendron notes for free using [GitHub Pages](https://pages.github.com/) 
 
 <img style="max-width: 720px;" src="https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/site-domain.jpg" />
 

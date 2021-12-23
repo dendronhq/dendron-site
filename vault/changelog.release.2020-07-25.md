@@ -113,11 +113,11 @@ Some notable items we are working on for the next release. You can see the full 
 
 Be able to refactor hierarchies and have all file names and links automatically update.
 
-### Publish to Github Pages
+### Publish to GitHub Pages
 
 - [issue](https://github.com/dendronhq/dendron/issues/60)
 
-Be able to publish a vault as a github page
+Be able to publish a vault as a GitHub page
 
 ## Thank You
 

@@ -218,7 +218,7 @@ Note graph commands lose their `V2` suffix and are now simply `Dendron: Show Not
 * enhance(schemas): cmd create-schema-from-hierarchy allow schema to end with '*' (#1680) @nickolay
 
 ### Fix
-- fix(pods): github import pod handle deleted authors (#1621) @kevin
+- fix(pods): GitHub import pod handle deleted authors (#1621) @kevin
 - fix(workspace): warning to remove stub property if the note has content (#1662) @joshi
 
 ## 0.67.2
@@ -352,7 +352,7 @@ dendron dev run_migration --migrationVersion 0.64.1
 - enhance(lookup): lookup wikilinks @nickolay
 - fix(lookup): better hierarchy look up when inside parts of the hierarchy are omitted (#1522) @nickolay
 - enhance(lookup): allow configuration of workspace to make 'Create New' not bubble up in note lookup. (#1528) @nickolay
-- enhance(pods): asignees in github issue publish pod ([[docs|dendron://dendron.dendron-site/dendron.topic.pod.builtin.github-issue.publish#updating-an-issue]])@joshi 
+- enhance(pods): asignees in GitHub issue publish pod ([[docs|dendron://dendron.dendron-site/dendron.topic.pod.builtin.github-issue.publish#updating-an-issue]])@joshi 
 
 ### Bug Fixes
 - fix(markdown): better footnote rendering in note references (#1520) @kaan
@@ -367,7 +367,7 @@ dendron dev run_migration --migrationVersion 0.64.1
 - feat(publish): add `dendron publish export` command ([[docs|dendron://dendron.dendron-site/dendron.topic.publish.cli#export]]) @kevin
 
 ### Enhancements
-- enhance(publish): support publishing to github as a export template @kevin
+- enhance(publish): support publishing to GitHub as a export template @kevin
 - enhance(publish): support `--yes` flag when exporting to skip prompts @kevin
 - enhance(publish): initialize template will also install dependencies @kevin
 - enhance(publish): warn when `assetsPrefix` isn't set @kevin
@@ -522,11 +522,11 @@ dendron dev run_migration --migrationVersion 0.64.1
 
 ### Enhancements
 - @joshi enhance(publish): Add Google Analytics to Published Site (#1300)
-- @joshi enhance(pods): various github pod improvements ([[docs|dendron.topic.pod.builtin.github-issue]]) (#1345)
+- @joshi enhance(pods): various GitHub pod improvements ([[docs|dendron.topic.pod.builtin.github-issue]]) (#1345)
   - imported issues now have `author` field for user who submitted issue
   - you can now update the `milestone` using pods
-  - you can now create a new github discussion using pods
-  - renamed to github issue pod #breaking
+  - you can now create a new GitHub discussion using pods
+  - renamed to GitHub issue pod #breaking
 
 ### Bug Fixes
 - @kevin fix(commands): rename note leaves incorrect metadata if parent is a stub (#1348)

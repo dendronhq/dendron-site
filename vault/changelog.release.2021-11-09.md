@@ -25,7 +25,7 @@ Take a look at the latest [Dendron wiki](https://wiki.dendron.so), and you'll se
 * enhance(schema): update schemas on save instead of having to reload workspace
 * enhance(commands): move header supports multi vault
 * enhance(commands): allow creation of new notes when move header destination doesn't exist yet
-* fix(pods): github import pod handle deleted authors
+* fix(pods): GitHub import pod handle deleted authors
 * fix(workspace): warning to remove stub property if the note has content
 * fix(publish): table of contents layout
 * fix(server): improving error response on api server

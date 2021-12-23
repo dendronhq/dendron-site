@@ -17,11 +17,11 @@ Dendron 0.60 has sprouted  🌱
 - add Google Analytics to Next.js template
 - add optional image and imageAlt props to Next.js template
 - notice for running in dev mode 
-- various github pod improvements ([[docs|dendron.topic.pod.builtin.github-issue]])
+- various GitHub pod improvements ([[docs|dendron.topic.pod.builtin.github-issue]])
   - imported issues now have `author` field for user who submitted issue
   - you can now update the `milestone` using pods
-  - you can now create a new github discussion using pods
-  - renamed to github issue pod #breaking
+  - you can now create a new GitHub discussion using pods
+  - renamed to GitHub issue pod #breaking
 - rename note can leave incorrect metadata if parent is a stub 
 - lots of fixes for Next.js publishing
     - fix `siteUrl` resolution with `assetPrefix`
@@ -53,7 +53,7 @@ You can see an overview of all roles [[here|community.roles]]
 - [Jack](https://github.com/imalightbulb) `@I'm a lightbulb#6986`
     - backlinks don't update
 - `@Maxotronic#1632`
-    - issue with publishing 11ty using old github action
+    - issue with publishing 11ty using old GitHub action
     - issue with publishing using assetPrefix in 11ty
 - [lenamio](https://github.com/lenamio)
     - [Tag autocomplete suggestion only appears if # symbol is first in line](https://github.com/dendronhq/dendron/issues/1352)

@@ -11,7 +11,7 @@ excerpt: 'Export to folders, better handling of merges, and lots of QoL improvem
 Dendron 0.48 has sprouted  🌱
 
 ### Highlights
-- Markdown pod supports exporting to folders. You can now export your Dendron vault to Github/Gitlab native wikis! 
+- Markdown pod supports exporting to folders. You can now export your Dendron vault to GitHub/Gitlab native wikis! 
 - No more merge conflicts in a shared vault! The `updated` timestamp will no longer update if you have no material updates to the notes (simply opening and saving a file doesn't count). 
 - Bad frontmatter no longer crashes Dendron. 
 - Cursor moves to the end of opened notes and frontmatter folds by default. 

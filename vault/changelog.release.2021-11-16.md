@@ -39,7 +39,7 @@ Note graph commands lose their `V2` suffix and are now simply `Dendron: Show Not
 
 #### Wiki site reorg
 
-You may have noticed changes in the Dendron wiki docs with our recent site reorg. The changes are described in [this github discussion](https://github.com/dendronhq/dendron/discussions/1665) and represent a major rehaul of how our website is organized.
+You may have noticed changes in the Dendron wiki docs with our recent site reorg. The changes are described in [this GitHub discussion](https://github.com/dendronhq/dendron/discussions/1665) and represent a major rehaul of how our website is organized.
 
 We are happy to announce that those changes are now live and you can see them by visiting the [Dendron wiki](https://wiki.dendron.so/).
 
@@ -58,7 +58,7 @@ In Dendron, it took a few hours (most of the time was spent making additional co
 
 Our goal with Dendron is to build a tool to help humans organize, reference, and work with any amount of knowledge. This exercise was a small demonstration of that.
 
-Thanks, everyone for your continued support and please leave feedback about the new organization in the github discussion or in the `#feedback` channel on Discord!
+Thanks, everyone for your continued support and please leave feedback about the new organization in the GitHub discussion or in the `#feedback` channel on Discord!
 
 #### Dendron Reading Series
 

@@ -9,24 +9,24 @@ created: 1610844337503
 ## VS Code
 
 ### Pre-requisites 
-- This assumes you have a github repository. 
+- This assumes you have a GitHub repository. 
     - If not, you can create one [here](https://github.com/new) from your existing workspace
 
-### Create a github repo
-- Follow the instructions [here](https://pages.github.com/) to create a repository named `{username}.github.io` where `{username}` is your username on Github
+### Create a GitHub repo
+- Follow the instructions [here](https://pages.github.com/) to create a repository named `{username}.github.io` where `{username}` is your username on GitHub
 
 ### Add your notes 
 Follow the instructions to push to an existing repository
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/publishv2.github.jpg)
 
-### Turn on github pages
+### Turn on GitHub Pages
 
 Go to settings
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/publishv2.github-settings.jpg)
 
-Go down to github pages and select the main branch
+Go down to GitHub Pages and select the main branch
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/publishv2.github-pages.jpg)
 
@@ -63,11 +63,11 @@ site:
     siteUrl: {SITE_URL}
 ```
 
-- NOTE: you can get your SITE_URL from the settings page in github. (As in the example screen cap below, the url shown is `https://kevinslin.github.io/dendron-publish-sample/`, then the SITE_URL would be ` https://kevinslin.github.io`)
+- NOTE: you can get your SITE_URL from the settings page in GitHub. (As in the example screen cap below, the url shown is `https://kevinslin.github.io/dendron-publish-sample/`, then the SITE_URL would be ` https://kevinslin.github.io`)
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/publishv2.github-url.jpg)
 - NOTE: 
-    - if you setup your github repository name as `{username}.github.io`, your SITE_URL will be `{username}.github.io`
-    - if you use an arbitrary name for your github repository (as in the example above, the repo name is `dendron-publish-sample`)
+    - if you setup your GitHub repository name as `{username}.github.io`, your SITE_URL will be `{username}.github.io`
+    - if you use an arbitrary name for your GitHub repository (as in the example above, the repo name is `dendron-publish-sample`)
       - your SITE_URL will be `{username}.github.io`
       - And you will need to add the suffix using the `assetsPrefix` property (eg. `assetsPrefix: dendron-publish-sample`)
 

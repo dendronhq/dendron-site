@@ -8,7 +8,7 @@ created: 1631306630307
 
 ## Summary
 
-Publishing Dendron using a github action
+Publishing Dendron using a GitHub action
 
 ### Code
 You can see deployed examples of these instructions in the following repositories
@@ -23,7 +23,7 @@ You can see deployed examples of these instructions in the following repositorie
   git checkout -b pages
   git push -u origin HEAD
   ```
-1. Turn on github actions for the pages branch
+1. Turn on GitHub actions for the pages branch
   - your settings should look like [this](https://www.loom.com/i/5f0cbb6eb23a48e89942d76406413303)
 1. Switch back to your main branch
   ```sh

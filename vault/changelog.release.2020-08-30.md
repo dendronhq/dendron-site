@@ -78,7 +78,7 @@ Lookup will complete &lt;100ms even as you scale to thousands of notes.
 - Refresh tree view on note deletion 
 - Add sort to tree view 
 - Keyboard shortcuts don't require editor focus 
-- Update default theme to [github light](https://marketplace.visualstudio.com/items?itemname=github.github-vscode-theme) 
+- Update default theme to [GitHub light](https://marketplace.visualstudio.com/items?itemname=github.github-vscode-theme) 
 - Loading indicator when workspace is first starting 
 - Always initialize first workspace with walkthrough 
 - Show create new option in schema lookup 

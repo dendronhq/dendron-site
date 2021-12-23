@@ -25,7 +25,7 @@ You can see an overview of all roles [[here|community.roles]]
 - [8brandon](https://github.com/8brandon) @8brandon#3208  `+horticulturalist`
   - Dendron design system proposal: https://github.com/dendronhq/dendron-site/pull/75
 - [Alexandre Zanni](https://github.com/noraj)
-  - Add website link to Github repo
+  - Add website link to GitHub repo
 - [Aditya](https://github.com/xypnox) @xypnox#1354 
   - new Dendron SVG assets
 - [Lars Solberg](https://github.com/xeor) @Lars Solberg#6519  `+bugcatcher`

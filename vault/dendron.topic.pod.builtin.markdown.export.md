@@ -24,7 +24,7 @@ Since this is still an experimental feature, there are some features that are st
 
  - Note Ref links currently will not be modified. In later builds, they can either be converted to a regular Markdown link and/or have the referenced content in-lined.
 
-If you have additional features that are not listed, please add them in this [github issue](https://github.com/dendronhq/dendron/issues/541#issue-831219413)
+If you have additional features that are not listed, please add them in this [GitHub issue](https://github.com/dendronhq/dendron/issues/541#issue-831219413)
 
 In addition, there are some features we currently can't convert to regular Markdown because they have no Markdown equivalent:
 - mermaid diagrams

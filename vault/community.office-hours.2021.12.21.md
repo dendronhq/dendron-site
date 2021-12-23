@@ -21,7 +21,7 @@ What was a highlight of 2021 for Dendron?  Just one, and you can include a ‘lo
 
 - 
 
-- Are the publish tutorials up to date ?There is a GitHub one and the publish one but they are no coherentThe publish one:[https://wiki.dendron.so/notes/230d0ccf-5758-4a8f-b39b-3b68e1482e2b/](https://wiki.dendron.so/notes/230d0ccf-5758-4a8f-b39b-3b68e1482e2b/)The Github one:[https://wiki.dendron.so/notes/yg3EL1x9fEe4NMqxUC3jP/](https://wiki.dendron.so/notes/yg3EL1x9fEe4NMqxUC3jP/)I ask the question because I struggle to build a proper Git Repo and get errors when running >Dendron: Publish Export OK Thank you
+- Are the publish tutorials up to date ?There is a GitHub one and the publish one but they are no coherentThe publish one:[https://wiki.dendron.so/notes/230d0ccf-5758-4a8f-b39b-3b68e1482e2b/](https://wiki.dendron.so/notes/230d0ccf-5758-4a8f-b39b-3b68e1482e2b/)The GitHub one:[https://wiki.dendron.so/notes/yg3EL1x9fEe4NMqxUC3jP/](https://wiki.dendron.so/notes/yg3EL1x9fEe4NMqxUC3jP/)I ask the question because I struggle to build a proper Git Repo and get errors when running >Dendron: Publish Export OK Thank you
 
 What percentage of the original expectations for Dendron has been accomplished?
 

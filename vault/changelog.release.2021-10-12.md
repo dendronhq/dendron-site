@@ -57,7 +57,7 @@ You can see an overview of all roles [[here|community.roles]]
     - #dendron.bugcatcher
     - [Apostrophes are not allowed in link labels · Issue #1498 · dendronhq/dendron](https://github.com/dendronhq/dendron/issues/1498)
 - [Jack](https://github.com/imalightbulb) `@I'm a lightbulb#6986`
-    - issue with github link on dendron-site
+    - issue with GitHub link on dendron-site
 
 ### Changelog
 ![[changelog#0630,1:#062]]

@@ -10,7 +10,7 @@ created: 1616447140240
 Dendron 0.34 has sprouted  🌱
 
 ### Highlights
-- open local notes on github (multi-vault aware)
+- open local notes on GitHub (multi-vault aware)
 - importing Markdown is now 5x faster 🚀 🚀 🚀
 - xkcd now available as vault preset
 - lots of bug fixes and performance improvements

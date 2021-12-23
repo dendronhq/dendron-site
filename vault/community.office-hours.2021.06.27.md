@@ -13,7 +13,7 @@ created: 1624886952891
         -   Timestamp no longer updates if you don’t update the note. Way less merge conflicts in a shared workspace!
         -   Bad frontmatter no longer crashes Dendron. We now differentiate between major and minor errors that don’t affect the whole system.
     -   Markdown export will be significant:
-        -   We can now interface with Github teams/Gitlab teams where they export a folder structure of Markdown files.
+        -   We can now interface with GitHub teams/Gitlab teams where they export a folder structure of Markdown files.
     -   When you create a note, you can just start typing. Frontmatter _should_ now fold by default and then cursor moves till the end.
 -   Trends
     -   Focusing on polishing existing features and improving user experience
@@ -56,7 +56,7 @@ created: 1624886952891
 -   What’s the latest on the Seed Bank?
     -   Blog post coming tomorrow
     -   Initial implementation is ready - CLI only.
-    -   Background - seed bank will index github repos with properly formatted vaults that anyone with Dendron can download.
+    -   Background - seed bank will index GitHub repos with properly formatted vaults that anyone with Dendron can download.
         -   Currently have ~ 6 vaults. 1st party vaults for now but we plan to get community partners to help get more knowledge.
         -   Seed bank should be able to reference every piece of documentation we see or use in a readme.
 -   Are we making any tactical changes given the goal of performance/smoothening of experience?

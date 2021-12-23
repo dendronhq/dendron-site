@@ -20,7 +20,7 @@ created: 1629505311218
 ### Bug Fixes
 - image preview not showing up on hover
 - gracefully handle a bad wiki link
-- only generate alphanumeric ids to be compatible with github pages urls
+- only generate alphanumeric ids to be compatible with GitHub pages urls
 
 ## 0.49.1
 
@@ -159,7 +159,7 @@ created: 1629505311218
 
 ### House Cleaning
 
--   remove `dendorn markdonw links` and `github theme` as recommended extensions at startup
+-   remove `Dendron Markdown Links` and `GitHub theme` as recommended extensions at startup
 -   defaultJournal\* commands have been moved to `journal` property in `dendron.yml` ([[docs|dendron.ref.config#journal]])
 
 ## 0.46.1

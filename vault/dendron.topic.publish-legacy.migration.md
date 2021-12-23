@@ -51,14 +51,14 @@ site:
 
 ### Sample repo
 
-- [github repo](https://github.com/kevinslin/dendron-11ty-test/deployments/activity_log?environment=github-pages)
-- [github page](https://kevinslin.github.io/dendron-11ty-test/)
+- [GitHub repo](https://github.com/kevinslin/dendron-11ty-test/deployments/activity_log?environment=github-pages)
+- [GitHub page](https://kevinslin.github.io/dendron-11ty-test/)
 
 ## Gaps
 
 11ty publishing is currently not at full feature parity with Jekyll publishing. Notably, the following features are missing:
 
-- ~~`edit on github` links~~
+- ~~`edit on GitHub` links~~
 - ~~`jekyll-seo` functionality~~
 - ~~math~~
 - ~~anchor headers~~

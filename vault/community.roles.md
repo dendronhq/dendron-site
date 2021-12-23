@@ -19,7 +19,7 @@ Common keys are:
 - code
 - financial
 
-You can either use the bot in the relevant Github issue OR in the [gratitude issue](https://github.com/dendronhq/dendron/issues/714).
+You can either use the bot in the relevant GitHub issue OR in the [gratitude issue](https://github.com/dendronhq/dendron/issues/714).
 
 You can see the list of contributors [here](https://github.com/dendronhq/dendron#contributors-).
 

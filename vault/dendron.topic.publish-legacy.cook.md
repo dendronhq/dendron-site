@@ -21,7 +21,7 @@ To publish with vercel, you can use [this repo](https://github.com/dendronhq/wor
 3. After deployment, update the `dendron.yml` `siteUrl` field to the url of your domain
 
     
-### Custom Domain on Github Pages
+### Custom Domain on GitHub Pages
 
 1. Set the url as well as the `githubCname` property
     ```yml

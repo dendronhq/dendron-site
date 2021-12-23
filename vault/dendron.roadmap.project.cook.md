@@ -10,7 +10,7 @@ stub: false
 
 - this might require that you have VS Code insiders
 
-- this might be useful to do even if you don't plan on working on the code since it lets you interact with github issues from inside VS Code
+- this might be useful to do even if you don't plan on working on the code since it lets you interact with GitHub issues from inside VS Code
 
 - [ ] checkout the [dendron repo](https://link.dendron.so/github)
 

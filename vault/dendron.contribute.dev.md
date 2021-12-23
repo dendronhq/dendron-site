@@ -7,11 +7,11 @@ created: 1604236041570
 ---
 ## Summary
 
-If you would like to contribute to the development of Dendron, checkout out the [repo](https://link.dendron.so/github) from github.
+If you would like to contribute to the development of Dendron, checkout out the [repo](https://link.dendron.so/github) from GitHub.
 
 You can then follow the [setup instructions](https://docs.dendron.so/notes/64f0e2d5-2c83-43df-9144-40f2c68935aa.html)
 
-A great place to start is with issues labelled with the [size.small](https://github.com/dendronhq/dendron/labels/size.small) label on github. These are small, self contained tasks that are well suited for first time contributors.
+A great place to start is with issues labelled with the [size.small](https://github.com/dendronhq/dendron/labels/size.small) label on GitHub. These are small, self contained tasks that are well suited for first time contributors.
 
 Leave a comment in the issue if you decide to work on it. Issues that are being worked on will be assigned to a person already. 
 

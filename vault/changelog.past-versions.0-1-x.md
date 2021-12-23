@@ -56,7 +56,7 @@ One of our most requested features for multi-vault is now out. Refactor will now
 - add remote vault to gitignore if exist ([1c252db](https://github.com/dendronhq/dendron/commit/1c252db60c0ea69be8dd10c1768c2dd302711e13))
 - initialize all remote vaults on startup ([1919fe4](https://github.com/dendronhq/dendron/commit/1919fe4e6d853d1f6ef63564ebbcc9af1e11a41a))
 - write remote url to Dendron config ([2a285ea](https://github.com/dendronhq/dendron/commit/2a285eacaeef8224d2a3530dc991b4977443c039))
-- add github sponsor badge on github repository to recruit more [[environmentalists|community.roles#environmentalist]] 👨‍🌾 👩‍🌾
+- add GitHub sponsor badge on GitHub repository to recruit more [[environmentalists|community.roles#environmentalist]] 👨‍🌾 👩‍🌾
 
 ### Bug Fixes
 
@@ -213,7 +213,7 @@ You can now preview notes and references inside the editor as a hover without ev
 
 You can now navigate to a specific section within a note using relative wiki links: `[[foo#header]]` 
 
-Note that the header is expected in [github slug](https://github.com/gosimple/slug) format. This means that spaces and special characters should be replaced with `-`. 
+Note that the header is expected in [GitHub slug](https://github.com/gosimple/slug) format. This means that spaces and special characters should be replaced with `-`. 
 
 - **NOTE**: Relative wiki links currently don't work in the Markdown preview
 

@@ -16,7 +16,7 @@ nav_exclude: true
 
 ## Infra
 - our infrastructure consists of serverless technologies built on top of AWS
-- we build on top of github actions
+- we build on top of GitHub actions
 
 ## Operations
 - we use [sentry](https://sentry.io/for/javascript/) for error reporting

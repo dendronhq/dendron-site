@@ -137,7 +137,7 @@ If set, specifies the workspace that this vault belongs
 - added property for [[remote vaults|dendron.ref.vaults#remote]]
 - properties
     - type: currently only `git` is supported (in the future, we might add additional types)
-    - url: url to github repo
+    - url: url to GitHub repo
 
 
 ### sync

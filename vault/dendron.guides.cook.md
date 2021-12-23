@@ -207,7 +207,7 @@ If you use VS Code, you can use the [Markdown Kit](https://marketplace.visualstu
 
 ### Syncing Dendron between devices
 
-#### Using git and github
+#### Using git and GitHub
 
 One of our users published a great guide on this [here](https://mstempl.netlify.app/post/dendron-git/)
 
@@ -233,7 +233,7 @@ With Dendron, you can export your notes using the [[JSON Export Pod|dendron.topi
 This video walkthrough walks you through that process.
 <a href="https://www.loom.com/share/c85c7c81d8aa4e97b4bbdf2245ca8f9b"> <img style="" src="https://cdn.loom.com/sessions/thumbnails/c85c7c81d8aa4e97b4bbdf2245ca8f9b-with-play.gif"> </a>
 
-You can download the repo used in this walkthrough from [github](https://github.com/dendronhq/sample-elasticsearch-demo)
+You can download the repo used in this walkthrough from [GitHub](https://github.com/dendronhq/sample-elasticsearch-demo)
 
 Pre-requisites:
 

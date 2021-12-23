@@ -10,7 +10,7 @@ created: 1624965063661
 
 Git is the preferred version control system because it integrates with VS Code and GitHub. 
 
-The most likely case is you have a local repository that you need to now add to Git. Follow these steps to add your local vault to Git and push up to Github. 
+The most likely case is you have a local repository that you need to now add to Git. Follow these steps to add your local vault to Git and push up to GitHub. 
 
 - [Join GitHub](https://github.com/join)
 - Further reading, to better understand these tools: [Learn Git and GitHub](https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/GitHub)

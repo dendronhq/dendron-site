@@ -16,14 +16,14 @@ More streamlined publishing as well as lots of fixes and enhancements to existin
 - fix(publish): optimize Next.js publishing search
 
 ### Everything Else
-- enhance(publish): support publishing to github as a export template
+- enhance(publish): support publishing to GitHub as a export template
 - enhance(publish): support --yes flag when exporting to skip prompts
 - enhance(publish): initialize template will also install dependencies
 - enhance(publish): warn when assetsPrefix isn't set
 - enhance(lookup): lookup wikilinks 
 - fix(lookup): better hierarchy look up when inside parts of the hierarchy are omitted 
 - enhance(lookup): allow configuration of workspace to make 'Create New' not bubble up in note lookup
-- enhance(pods): asignees in github issue publish pod ([[docs|dendron://dendron.dendron-site/dendron.topic.pod.builtin.github-issue.publish#updating-an-issue]])@joshi 
+- enhance(pods): asignees in GitHub issue publish pod ([[docs|dendron://dendron.dendron-site/dendron.topic.pod.builtin.github-issue.publish#updating-an-issue]])@joshi 
 - fix(workspace): possible error if open note is changed quickly after edit
 - fix(markdown): better footnote rendering in note references 
 - fix(markdown): user tags & hashtags inside links should be parsed as regular text 

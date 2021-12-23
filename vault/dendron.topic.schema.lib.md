@@ -11,4 +11,4 @@ created: 1621288257610
 
 The schema library is a collection of existing schemas contributed by the community. You can find the full library as well as instructions on getting started [here](https://github.com/dendronhq/schema-library).
 
-This project is still in its early stages so if you have ideas on how to make it better, please leave a comment in this [github discussion](https://github.com/dendronhq/dendron/discussions/735).
+This project is still in its early stages so if you have ideas on how to make it better, please leave a comment in this [GitHub discussion](https://github.com/dendronhq/dendron/discussions/735).

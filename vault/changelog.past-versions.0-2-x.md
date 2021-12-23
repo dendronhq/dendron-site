@@ -51,10 +51,10 @@ Extremely powerful templating capabilities with [[nunjuck templates|dendron.topi
 The initial release comes with the ability to publish a Dendron workspace under {username}.dendron.wiki.
 Dendron takes care of configuring your domain and building your site.
 
-After you connect your github repo with Dendron, we'll kick off the initial publication.
+After you connect your GitHub repo with Dendron, we'll kick off the initial publication.
 Every subsequent time you push to your repo, Dendron will automatically build your site with the latest changes.
 
-At launch, we are supporting publishing from a connected github repo.
+At launch, we are supporting publishing from a connected GitHub repo.
 Instructions to get started are [[here|dendron.topic.managed-publishing.quickstart]]
 
 ### Enhancements
@@ -342,7 +342,7 @@ You can now both build your notes for publication and preview it from inside VS 
 ### Enhancements
 
 -   add seo tags ([[docs|dendron.topic.publish-legacy.configuration#seo-options]])
--   enable edit on github link ([[docs|dendron.topic.publish-legacy.configuration#github-options]])
+-   enable edit on GitHub link ([[docs|dendron.topic.publish-legacy.configuration#github-options]])
 -   migrate all Jekyll `_config.yml` settings to `dendron.yml`
 
 ### Bug Fixes
@@ -354,7 +354,7 @@ You can now both build your notes for publication and preview it from inside VS 
 ### Docs
 
 -   [dendron.so](https://dendron.so) is now published using the new 11ty framework
--   add [[publishing to github guide|dendron.topic.publish-legacy.github]] using github actions
+-   add [[publishing to GitHub guide|dendron.topic.publish-legacy.github]] using GitHub actions
 
 ## 0.20.2
 
@@ -367,7 +367,7 @@ You can now both build your notes for publication and preview it from inside VS 
 ### Enhancements
 
 -   creating engine via cli also initializes meta files ([d72f097](https://github.com/dendronhq/dendron/commit/d72f097e63d1fda065ac7ad50f85bebe99d6da66))([[docs|dendron.ref.cli#launchengineserver]])
--   remove github light theme from Dendron bundle ([33d5708](https://github.com/dendronhq/dendron/commit/33d57086510cdaefbb8af8f72c945d6f5e02be5c))
+-   remove GitHub light theme from Dendron bundle ([33d5708](https://github.com/dendronhq/dendron/commit/33d57086510cdaefbb8af8f72c945d6f5e02be5c))
 -   support [[note refs for multi-vault|dendron.topic.multi-vault#note-references]]
 -   support relative links in Dendron preview ([[docs|dendron.topic.links#wiki-links]])
 -   further speed enhancements to publishing using 11ty resulting in another 5x improvement
@@ -432,7 +432,7 @@ There are additional optimizations still on the table that will further drive do
 11ty publishing is currently not at full feature parity with Jekyll publishing. Notably, the following features are missing:
 
 -   setting a custom color theme
--   `edit on github` links
+-   `edit on GitHub` links
 -   `jekyll-seo` functionality
 -   mathjax
 
@@ -481,8 +481,8 @@ site:
 
 #### Sample repo
 
--   [github repo](https://github.com/kevinslin/dendron-11ty-test/deployments/activity_log?environment=github-pages)
--   [github page](https://kevinslin.github.io/dendron-11ty-test/)
+-   [GitHub repo](https://github.com/kevinslin/dendron-11ty-test/deployments/activity_log?environment=github-pages)
+-   [GitHub page](https://kevinslin.github.io/dendron-11ty-test/)
 
 #### CLI Command Reference
 

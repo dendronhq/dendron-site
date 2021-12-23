@@ -40,7 +40,7 @@ Dendron, the client, is free and will always remain free. It is also open source
 
 That being said, I'm all in on Dendron and this is my full time gig. I want to make sure that developing Dendron remains sustainable. To that end, I plan on introducing value add server side functionality that folks may pay for. Examples of paid for features include:
 
--   private hosting (for folks who want to publish but not use github pages or want to add authentication)
+-   private hosting (for folks who want to publish but not use GitHub pages or want to add authentication)
 -   enterprisy things
     -   eg. on premise installations of Dendron with single sign on, active directory, and fine grained permissions
 -   offering private subscription based vaults (eg. think [substack](https://substack.com) but having people subscribe to vaults instead of newsletters )

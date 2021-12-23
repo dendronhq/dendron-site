@@ -9,9 +9,9 @@ created: 1604235766390
 ## Summary
 If you would like to contribute to the docs, you can do so by either making changes on github directly or by cloning our website repo and sending us a pull request.
 
-### Making Changes on Github
+### Making Changes on GitHub
 
-Click `Edit this page on github` at the bottom left corner of every page. This is recommended way of making a change. The only pre-requisite is that you have a [github](https://github.com/) account.
+Click `Edit this page on GitHub` at the bottom left corner of every page. This is recommended way of making a change. The only pre-requisite is that you have a [GitHub](https://github.com/) account.
     <a href="https://www.loom.com/share/4a1b67f3fd1a40dab16949e9ea5e53dc"> <img style="" src="https://cdn.loom.com/sessions/thumbnails/4a1b67f3fd1a40dab16949e9ea5e53dc-with-play.gif"> </a>
 
 Images
@@ -27,4 +27,4 @@ Gifs
 
 ### Making Changes via Pull Request
 
-For more involved changes, you can clone our github [repo](https://github.com/dendronhq/dendron-site) and opening `dendron.code-workspace` using VS Code.  [Dendron.so](https://www.dendron.so) is built from the contents of `vault/dendron.*`. Make a change in the corresponding file and send us a pull request to update the documentation. You can preview your changes using the `Dendron Markdown Enhanced` extension.
+For more involved changes, you can clone our GitHub [repo](https://github.com/dendronhq/dendron-site) and opening `dendron.code-workspace` using VS Code.  [Dendron.so](https://www.dendron.so) is built from the contents of `vault/dendron.*`. Make a change in the corresponding file and send us a pull request to update the documentation. You can preview your changes using the `Dendron Markdown Enhanced` extension.

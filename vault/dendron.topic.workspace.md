@@ -111,7 +111,7 @@ Inside your workspace, run the following
     git commit -m "initial commit"
     ```
 2. Add a remote
-    - go to github, and [create a new workspace](https://github.com/new)
+    - go to GitHub, and [create a new workspace](https://github.com/new)
     - follow instructions to add an existing git repo to the repository
 
 ### Syncing your workspace with Git

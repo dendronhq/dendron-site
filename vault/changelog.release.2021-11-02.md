@@ -70,7 +70,7 @@ You can see an overview of all roles [[here|community.roles]]
   - [Fuzzy search in Lookup (note) has stopped working](https://github.com/dendronhq/dendron/issues/1634)
 - [Ragamroll](https://github.com/ragamroll)
   - #dendron.bugcatcher
-  - [Links in published Next.js site exported for github display a spinner](https://github.com/dendronhq/dendron/issues/1588)
+  - [Links in published Next.js site exported for GitHub display a spinner](https://github.com/dendronhq/dendron/issues/1588)
 - [Tika](https://github.com/SR--) `Tika#9526`
   - [Logo and flavicon do not work on published sites](https://github.com/dendronhq/dendron/issues/1616)
   - [GH_EDIT_LINK setting does not work](https://github.com/dendronhq/dendron/issues/1612)
