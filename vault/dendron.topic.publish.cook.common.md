@@ -2,7 +2,7 @@
 id: 2340KhiZJWUy31Nrn37Fd
 title: Common
 desc: ''
-updated: 1639680358256
+updated: 1640281565127
 created: 1631132278348
 ---
 
@@ -54,7 +54,7 @@ You can see the manual steps for running nextjs [here](https://github.com/dendro
 ### Upgrade Dendron Nextjs Template
 
 ```sh
-cd .next && git reset --hard && git clean -f && git pull && npm install 
+rm .next && dendron publish init
 ```
 
 ### Reinstall Dendron Nextjs Template
