@@ -8,7 +8,7 @@ stub: false
 ---
 
 ## Summary
-As you end up creating more notes, it can be hard to keep track of it all. This is why Dendron has **schemas** to help you manage your notes at scale. Think of schemas as an **optional type system** for your notes. They describe the hierarchy of your data and are themselves, represented as a hierarchy.
+As you end up creating more notes, it can be hard to keep track of them all. This is why Dendron has **schemas** to help you manage your notes at scale. Think of schemas as an **optional type system** for your notes. They describe the hierarchy of your data and are themselves, represented as a hierarchy.
 
 Schemas show up as icons next to lookup results.
 
