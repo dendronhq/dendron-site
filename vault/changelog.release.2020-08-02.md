@@ -2,7 +2,7 @@
 id: e32aa1e2-9780-4183-927e-2f46372050aa
 title: "0.05"
 desc: ''
-updated: 1630728498576
+updated: 1640368755102
 created: 1596374984386
 date: '2020-08-02'
 ---
@@ -53,19 +53,19 @@ Pods are the mechanisms Dendron uses to import and export notes. Dendron has a d
 
 ([e063732](https://github.com/dendronhq/dendron/commit/e063732d1ff082dd8520a479926e7ceb1b0893ab)) ([[docs|pkg.dendron-publishing]])
 
-Dendron lets you publish the contents of your vault, either in its entirety or only a subset. Notes are published under the [Dendron-Jekyll theme](https://github.com/dendronhq/dendron-jekyll). 
+Dendron lets you publish the contents of your vault, either in its entirety or only a subset. Notes are published under the [Dendron Jekyll theme](https://github.com/dendronhq/dendron-jekyll). 
 
 ### Features
 
 #### Nested Hierarchies
 
-Dendron-Jekyll supports the same nested hierarchies as your notes and allows you to navigate via the sidebar.
+Dendron Jekyll supports the same nested hierarchies as your notes and allows you to navigate via the sidebar.
 
 <img style="max-width: 720px;" src="https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/site-hierarchy.gif" />
 
 #### Lookup
 
-If you'd rather not click, Dendron-Jekyll also supports path-based lookup.
+If you'd rather not click, Dendron Jekyll also supports path-based lookup.
 
 <img style="max-width: 720px;" src="https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/site-lookup.gif" />
 

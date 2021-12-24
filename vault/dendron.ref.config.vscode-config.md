@@ -2,13 +2,13 @@
 id: 19a0ea9d-7292-4a68-bc6f-ffd462a54bc5
 title: VS Code Config
 desc: ''
-updated: 1636539674755
+updated: 1640381907612
 created: 1619541378119
 ---
 
 ## Access
 
-You can access these Configurations through the [VS Code Settings](https://code.visualstudio.com/docs/getstarted/settings), you will find them if you search for "Dendron".
+You can access these configurations through the [VS Code Settings](https://code.visualstudio.com/docs/getstarted/settings) if you search for "Dendron".
 
 ![[dendron.ref.config#legend:#*]]
 

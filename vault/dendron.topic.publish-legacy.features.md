@@ -2,7 +2,7 @@
 id: 2fe96d3a-dcf9-409b-8a09-fdaa5a664433
 title: Features
 desc: ''
-updated: 1623882260851
+updated: 1640368764334
 created: 1608528227846
 nav_order: 1
 ---
@@ -31,7 +31,7 @@ Example of making a contribution to Dendron.
 
 ### Lookup
 
-If you'd rather not click, Dendron-Jekyll also supports path based lookup.
+If you'd rather not click, Dendron Jekyll also supports path based lookup.
 
 <img style="max-width: 720px;" src="https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/site-lookup.gif" />
 

@@ -2,7 +2,7 @@
 id: 4xE1QfsVQAvD6MqtkqoV8
 title: '05'
 desc: ''
-updated: 1630942729067
+updated: 1640368938901
 created: 1630942729067
 ---
 <!-- Output copied to clipboard! -->
@@ -39,7 +39,7 @@ created: 1630942729067
 
   + if so, what is the set up I need?
 
-## ## Using Next.js template
+## Using Next.js template
 
 ```sh
 
