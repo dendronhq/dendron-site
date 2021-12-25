@@ -2,10 +2,14 @@
 id: eea2b078-1acc-4071-a14e-18299fc28f47
 title: Commands
 desc: ''
-updated: 1639769305176
+updated: 1640446818971
 created: 1595261816971
 nav_order: 3.1
 ---
+
+## Doctor
+
+![[dendron://dendron.dendron-site/dendron.topic.doctor#commands,1:#*c]]
 
 ## Notes
 
@@ -633,47 +637,6 @@ Preview your notes on localhost using publishing v2.
 
 ## Dev
 
-### Doctor
-
-- shortcuts: none
-
-Automatically fix various issues with Dendron. 
-
-You can pick among various actions for the doctor to perform.
-
-- Doctor performs it's actions on **_the entire workspace_** by default
-- You can toggle this behavior with the `Change Scope` button on the top right corner of panel so that it runs **_only on the active open document_**.
-- This requires you to have a note open and in focus before running the doctor command.
-
-#### Actions
-
-##### fixFrontmatter
-
-- Fixes notes that are missing the frontmatter, or that have broken frontmatter.
-- Setup a `docs` folder if it doesn't exist. Required if you want to [[publish|dendron.topic.publish]] your notes
-
-<a href="https://www.loom.com/share/bd045f708f8e474193de8e3de0dc820f"> <img style="" src="https://cdn.loom.com/sessions/thumbnails/bd045f708f8e474193de8e3de0dc820f-with-play.gif"> </a>
-
-##### h1ToTitle 
-- Remove initial `h1` header and use it to replace contents of `title` field in frontmatter
-##### h1ToH2
-- Convert all initial `h1` header to `h2` header
-##### removeStubs:
-- Remove all stub docs
-##### oldNoteRefToNew
-- Convert legacy note refs to new style note refs
-
-##### createMissingLinkedNotes
-- Create notes that do not exist yet but has a wikilink to it.
-- A preview pane will appear with the notes that will be created before proceeding.
-- In a multi-vault workspace, wikilinks that do not specify a vault prefix will be omitted from the candidates.
-  - In a workspace that has 2 vaults named `foo` and `bar`, the wikilink `[[missing-note]]` will not be a candidate for missing note creation with this command.
-  - However, `[[dendron://foo/missing-note]]` and / or `[[dendron://bar/missing-note]]` will be recognized as a missing note and will be listed as candidates.
-
-##### findBrokenLinks
-
-![[findBrokenLinks|dendron://dendron.dendron-site/dendron.topic.navigation#findbrokenlinks,1:#*]]
-
 ### Dump State
 
 - shortcuts: none
@@ -707,34 +670,7 @@ Dendron recognises a new markdown file created from vscode context menu and popu
 
 Dendron recognises the vscode rename and updates all the backlinks to the old file with new name.
 
-### Code Actions
 
-#### Rename Symbol
-
-![[Rename Symbol|dendron://dendron.dendron-site/dendron.topic.refactoring#rename-symbol,1:#*]]
-
-#### Rename Header
-
-Dendron autosuggests to rename a header if you tap on a header or highlight it.
-![Rename Header](https://org-dendron-public-assets.s3.amazonaws.com/images/rename-header.png)
-
-#### Copy Header Reference
-Dendron autosuggests to copy the note ref with the selected header if you tap on a header or highlight it.
-
-![Copy Header Reference](https://org-dendron-public-assets.s3.amazonaws.com/images/copy_header_ref.png)
-
-
-#### Refactor Extract
-
-You can extract highlighted text to a new note by clicking on the refactor extract lightbulb next to the selection, and click on `Extract text to new note`.
-
-![Refactor Exttract](https://org-dendron-public-assets.s3.amazonaws.com/images/refactor-extract-codeaction.png)
-
-#### Broken links
-
-You can fix a broken wikilink, tags or user mentions, by selecting `Add missing note for wikilink declaration` from the code action lightbulb displayed after taping on or next to the broken link.
-
-![Broken Links Code Action](https://org-dendron-public-assets.s3.amazonaws.com/images/fix-broken-link.png)
 
 
 

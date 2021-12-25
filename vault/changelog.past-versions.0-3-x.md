@@ -148,7 +148,7 @@ You can see the full list of information we collect and why we do it in our [[te
 
 ### House Cleaning
 
--   remove legacy note references, use [[doctor|dendron.ref.commands#actions]] with `oldNoteRefToNew` to convert your old note references
+-   remove legacy note references, use [[doctor|dendron.topic.doctor#actions]] with `oldNoteRefToNew` to convert your old note references
 
 ## 0.36.2
 
@@ -231,7 +231,7 @@ Dendron doctor has been updated with a bunch of new options including the abilit
 -   support hiding hierarchy view on published page ([[docs|dendron.ref.config#hierarchydisplay]])
 -   GitPunchcard support multi-vault ([[docs|dendron.topic.pod.builtin#gitpod]])
 -   support toggling vault initialization behavior at startup ([[docs|dendron.ref.config#initializeremotevaults]])
--   support migrating old note refs to new note refs ([[docs|dendron.ref.commands#actions]])
+-   support migrating old note refs to new note refs ([[docs|dendron.topic.doctor#actions]])
 
 ### Bug Fixes
 

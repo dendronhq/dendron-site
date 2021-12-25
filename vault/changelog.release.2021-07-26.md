@@ -11,11 +11,11 @@ Dendron 0.52 has sprouted  🌱
 ### Highlights
 - Non-blocking workspace initialization ([[docs|changelog#non-blocking-workspace-initialization]])
 - Dendron Markdown Preview Enhanced no longer required ([[docs|changelog#deprecate-markdown-preview-enhanced]])
-- Find missing links in entire workspace  ([[docs|dendron.ref.commands#createmissinglinkednotes]])
+- Find missing links in entire workspace  ([[docs|dendron.topic.doctor#createmissinglinkednotes]])
 - Hide the filter view in the note graph 
-- Warn against missing frontmatter ([[docs|dendron.ref.commands#fixfrontmatter]])
+- Warn against missing frontmatter ([[docs|dendron.topic.doctor#fixfrontmatter]])
 - Hashtag autocomplete improvements ([[docs|dendron.topic.tags#autocomplete-intellisense]])
-- Doctor command to automatically fix the frontmatter ([[docs|dendron.ref.commands#fixfrontmatter]])
+- Doctor command to automatically fix the frontmatter ([[docs|dendron.topic.doctor#fixfrontmatter]])
 - Google Doc Import Pod ([[docs|dendron.topic.pod.builtin.google-docs.import]])
 - Ability to control graph zoom sensitivity 
 - Bug Fixes

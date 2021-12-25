@@ -66,7 +66,7 @@ nav_order: 2
 ## 0.72.1
 
 ### Features
-- feat(commands): find broken links ([[docs|dendron://dendron.dendron-site/dendron.ref.commands#findbrokenlinks]]) (#1847) @hikchoi
+- feat(commands): find broken links ([[docs|dendron.topic.doctor#findbrokenlinks]]) (#1847) @hikchoi
 - feat(notes): Note Trait System Prototype (Phase 1) ([[docs|dendron://dendron.dendron-site/dendron.topic.traits.quickstart]]) (#1658) @jonathan
 
 ### Enhancements

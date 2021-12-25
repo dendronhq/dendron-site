@@ -410,11 +410,11 @@ We have offloaded the local server to a separate process so that all engine oper
 What this means in practice is that you can use VSCode immediately when the workspace is open. It also means you'll notice better responsiveness across all engine related features (eg. refactoring, preview, etc)
 
 ### Enhancements
-- find missing links in entire workspace  ([[docs|dendron.ref.commands#createmissinglinkednotes]])
+- find missing links in entire workspace  ([[docs|dendron.topic.doctor#createmissinglinkednotes]])
 - hide the filter view in the note graph 
-- warn against missing frontmatter ([[docs|dendron.ref.commands#fixfrontmatter]])
+- warn against missing frontmatter ([[docs|dendron.topic.doctor#fixfrontmatter]])
 - hashtag autocomplete improvements ([[docs|dendron.topic.tags#autocomplete-intellisense]])
-- doctor command to automatically fix the frontmatter ([[docs|dendron.ref.commands#fixfrontmatter]])
+- doctor command to automatically fix the frontmatter ([[docs|dendron.topic.doctor#fixfrontmatter]])
 
 ### Bug Fixes
 - hashtag links duplicate following text

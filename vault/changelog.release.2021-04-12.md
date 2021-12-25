@@ -14,7 +14,7 @@ Dendron 0.37 has sprouted  🌱
 - bunch of bug fixes and enhancements
 
 ### Spring Cleaning
-- legacy note references are now removed - use [[doctor|dendron.ref.commands#actions]] with `oldNoteRefToNew` to convert your old note references
+- legacy note references are now removed - use [[doctor|dendron.topic.doctor#actions]] with `oldNoteRefToNew` to convert your old note references
 
 ### Docs
 - @fudo created [[a rfc|rfc.7-graph-rework]] for better Dendron Graphs. Take a look and please leave comments in #feedback
