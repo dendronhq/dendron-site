@@ -2,7 +2,7 @@
 id: NWuXh9ZreX3XKI6NhRIBJ
 title: '0.69'
 desc: ''
-updated: 1637087804071
+updated: 1640428613848
 created: 1637081497904
 ---
 
@@ -22,7 +22,7 @@ Native workspaces are a new addition to Dendron. They let you use Dendron inside
 ### Everything Else
 - enhance(pods): add `configPath` and `query` parameters to pods ([[docs|dendron.topic.pod.cli]])
 - enhance(views): support setting `sort_order` in tree view ([[docs|dendron.topic.publish-legacy.configuration#sort_order]])
-- enhance(pods): include name of note with error when airtable pod encounters error
+- enhance(pods): include name of note with error when Airtable pod encounters error
 - enhance(schema): Add `Go to File` navigation prompt when schema malformation errors appear
 - fix(workspace): apply enableUser/HashTags to broken wikilinks code action
 - fix(views): `nav_order` property not respected in tree view

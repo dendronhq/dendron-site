@@ -2,7 +2,7 @@
 id: K6ssYNLMW27BSV6rSZJ5P
 title: "0.62"
 desc: ''
-updated: 1634062968647
+updated: 1640428604255
 created: 1633454409770
 ---
 
@@ -14,9 +14,9 @@ Dendron 0.62 has sprouted  🌱
 - fix(views): preview will now update when note reference change
 
 ### Everything Else
-- feat(pods): airtable publish pod ([[docs|dendron://dendron.dendron-site/dendron.topic.pod.builtin.airtable.publish#summary]]) 
-- enhance(pods): airtable export pod is now [idempotent](https://en.wikipedia.org/wiki/Idempotence) ([[docs|dendron://dendron.dendron-site/dendron.topic.pod.builtin.airtable.export#idempotency]])
-- enahnce(pods): airtable export pod has better support for mapping [[Tags|dendron://dendron.dendron-site/dendron.topic.tags]] and dates ([[docs|dendron://dendron.dendron-site/dendron.topic.pod.builtin.airtable.export#object-value]]) 
+- feat(pods): Airtable publish pod ([[docs|dendron://dendron.dendron-site/dendron.topic.pod.builtin.airtable.publish#summary]]) 
+- enhance(pods): Airtable export pod is now [idempotent](https://en.wikipedia.org/wiki/Idempotence) ([[docs|dendron://dendron.dendron-site/dendron.topic.pod.builtin.airtable.export#idempotency]])
+- enahnce(pods): Airtable export pod has better support for mapping [[Tags|dendron://dendron.dendron-site/dendron.topic.tags]] and dates ([[docs|dendron://dendron.dendron-site/dendron.topic.pod.builtin.airtable.export#object-value]]) 
 - enhance(commands): OpenLink can open more links and works on partial selection (thank you `@Stephen#8544` for the PR)
 - enhance(commands): Improve user messaging on node delete by specifying the vault of the deleted node 
 - enhance(lookup): Allow creation of duplicate file name if there is a vault without such file name 
@@ -29,7 +29,7 @@ Dendron 0.62 has sprouted  🌱
 
 #### New Website
 
-We updated our [website](https://www.dendron.so/) to better showcase Dendron's capabilities. Please take a look and leave any `#feedback` you might have in discord or at `support@dendron.so`!
+We updated our [website](https://www.dendron.so/) to better showcase Dendron's capabilities. Please take a look and leave any `#feedback` you might have in Discord or at `support@dendron.so`!
 
 ### Community
 

@@ -2,7 +2,7 @@
 id: 6e87249b-358f-4f4b-8049-dff6e6a8463b
 title: Better Graph View – Design
 desc: ""
-updated: 1622042726673
+updated: 1640425555933
 created: 1621277234750
 ---
 
@@ -87,7 +87,7 @@ After this initial integration, work will be done on:
 
 -   [ ] Filtering
 -   [ ] Styling
-    -   [ ] Coloring based on schema/hierarchy/etc?
+    -   [ ] Coloring based on schema/hierarchy/etc.?
 
 ### Stage 3: Secondary Features
 

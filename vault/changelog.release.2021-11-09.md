@@ -2,7 +2,7 @@
 id: EjPEcAkZIDgzHaVMk4teA
 title: "0.68"
 desc: ''
-updated: 1639537554017
+updated: 1640428518936
 created: 1636478484110
 ---
 
@@ -48,7 +48,7 @@ Transitioning site build and previewing commands to use Next.js (instead of 11ty
 
 #### Google Docs Import Pod: Sign up for the beta
 
-We're rolling out [[direct integration with google docs|dendron.topic.pod.builtin.google-docs.import]] from inside of Dendron. we have used this extensively, internally, and are now looking for external beta testers before rolling it out generally. If interested, please [fill out the survey](https://airtable.com/shrP1yKjIDPFU4wHN) to get access to the beta, as we'll need to whitelist your gmail account with our Google App API.
+We're rolling out [[direct integration with Google Docs|dendron.topic.pod.builtin.google-docs.import]] from inside of Dendron. we have used this extensively, internally, and are now looking for external beta testers before rolling it out generally. If interested, please [fill out the survey](https://airtable.com/shrP1yKjIDPFU4wHN) to get access to the beta, as we'll need to whitelist your Gmail account with our Google App API.
 
 #### Dendron Reading Series
 

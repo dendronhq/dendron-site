@@ -2,7 +2,7 @@
 id: a6c03f9b-8959-4d67-8394-4d204ab69bfe
 title: Troubleshooting
 desc: ''
-updated: 1640381741016
+updated: 1640427207720
 created: 1595952505025
 nav_order: 7.1
 ---
@@ -14,7 +14,7 @@ This goes over diagnosing issues in Dendron. Troubleshooting issues are grouped 
 <!-- 
 ## Diagnosing
 
-You can get a better idea of what went wrong by checking out the [[logs|dendron.guides.cook#checking-logs]]. At that point, you should be able to narrow down the root cause to one of the issues below. If not, please bring it up on the [discord](https://link.dendron.so/discord) or file a [bug report](https://github.com/dendronhq/dendron/issues/new?assignees=&labels=&template=bug_report.md&title=)
+You can get a better idea of what went wrong by checking out the [[logs|dendron.guides.cook#checking-logs]]. At that point, you should be able to narrow down the root cause to one of the issues below. If not, please bring it up on the [Discord](https://link.dendron.so/discord) or file a [bug report](https://github.com/dendronhq/dendron/issues/new?assignees=&labels=&template=bug_report.md&title=)
 
 ### Dendron-CLI
 
@@ -97,7 +97,7 @@ To get snippets to autocomplete, make sure you don't have snippets disabled
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/trouble.upgrade.png)
 
-Dendron will update keybindings/settings/etc to the latest defaults if not currently set on upgrade. If you see the above error, it means that Dendron had trouble parsing one of your settings files. This doesn't stop Dendron from starting but it does mean that the latest settings aren't being applied.
+Dendron will update keybindings/settings/etc. to the latest defaults if not currently set on upgrade. If you see the above error, it means that Dendron had trouble parsing one of your settings files. This doesn't stop Dendron from starting but it does mean that the latest settings aren't being applied.
 
 The most likely culprit of this error is a bad snippets file. To fix, bring up the command prompt, type `>Configure User Snippets`, open `dendron.code-snippets` and see if there's anything funky with the JSON on the line mentioned by the error. You can also use tools like [jsonlint](https://jsonlint.com/) to validate your JSON.
 

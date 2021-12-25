@@ -2,7 +2,7 @@
 id: f9540bb6-7a5a-46db-ae7c-e1a606f28c73
 title: 'Cheatsheet'
 desc: ''
-updated: 1639201224958
+updated: 1640425925508
 created: 1596374871110
 nav_exclude: true
 ---
@@ -234,7 +234,7 @@ Remove a vault from your workspace. Note that the underlying files wil **not** b
 ---
 ## Pods
 ### Dendron: Build Pod
-- description: Build your notes for export. Currently, only export to GitHub pages is supported.
+- description: Build your notes for export. Currently, only export to GitHub Pages is supported.
 - shortcuts: none
 
 

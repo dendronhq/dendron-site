@@ -2,7 +2,7 @@
 id: 6aed338c-df05-420d-aa7b-59dfd2214349
 title: '0.04'
 desc: ''
-updated: 1630790746247
+updated: 1640426876493
 created: 1595984607502
 date: '2020-07-25'
 ---
@@ -105,7 +105,7 @@ Dendron now has an example video. You can watch it [here](https://youtu.be/6rwWU
 
 ## Next
 
-Some notable items we are working on for the next release. You can see the full roadmap [here](https://github.com/orgs/dendronhq/projects/1). You can join the discussion on upcoming roadmap items in our [#roadmap discord channel](https://link.dendron.so/discord).
+Some notable items we are working on for the next release. You can see the full roadmap [here](https://github.com/orgs/dendronhq/projects/1). You can join the discussion on upcoming roadmap items in our [#roadmap Discord channel](https://link.dendron.so/discord).
 
 ### Refactor Hierarchies
 

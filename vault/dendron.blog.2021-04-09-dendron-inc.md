@@ -2,7 +2,7 @@
 id: 8d6bb6c6-f2b5-4fb4-a7f0-1930b528051f
 title: Dendron Inc
 desc: ''
-updated: 1619908073931
+updated: 1640427931883
 created: 1618003135690
 canonicalUrl: 'https://blog.dendron.so/notes/N9VxT7G5SovmncezBAGO2.html'
 ---
@@ -23,7 +23,7 @@ Moving forward, we will further expand on Dendron's capabilities to make it a fu
 
 Rest assured that nothing is changing about the way we do things - Dendron will remain open source and the client will always be local first and free. We plan to make money by charging teams and enterprises who want access to additional features like single sign-on, private registries and fine-grained access control.
 
-As part of our growth from a project to a company, we are also publishing the [Dendron Handbook](https://handbook.dendron.so/). This is **heavily inspired** from the [Gitlab Handbook](https://about.gitlab.com/handbook/) and will document our mission, values, and roadmap as a company.
+As part of our growth from a project to a company, we are also publishing the [Dendron Handbook](https://handbook.dendron.so/). This is **heavily inspired** from the [GitLab Handbook](https://about.gitlab.com/handbook/) and will document our mission, values, and roadmap as a company.
 
 From day one, the words of Vannevar Bush, originator of the [memex](https://en.wikipedia.org/wiki/Memex), has been our north star
 

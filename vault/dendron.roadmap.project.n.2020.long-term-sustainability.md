@@ -2,7 +2,7 @@
 id: d892da5f-3667-4bfe-a8ba-e5ea3da4eb72
 title: Long term sustainability v0
 desc: ''
-updated: 1604945094990
+updated: 1640428640004
 created: 1599501881180
 stub: false
 start: 2020.10.07
@@ -26,7 +26,7 @@ Kevin wants to work on Dendron full time for the forseeable future and would lik
   - re-curring payment to support development of Dendron
   - access to special once a month zoom chat about features
   - swag
-  - discord icon
+  - Discord icon
   - discount for server side features
 
 ## Next
@@ -34,7 +34,7 @@ Kevin wants to work on Dendron full time for the forseeable future and would lik
 - server side features 
   - private hosting
   - native sync
-  - server side pods (eg. everytime you add data to airtable, add an entry to Dendron)
+  - server side pods (eg. everytime you add data to Airtable, add an entry to Dendron)
 
 ## Links
 
@@ -47,7 +47,7 @@ Kevin wants to work on Dendron full time for the forseeable future and would lik
 
 - pro status
   - support Dendron development using one time or recurring fee
-  - get a Dendron sticker and special discord badge
+  - get a Dendron sticker and special Discord badge
   - get discount when we launch sever feature rates
 - workshops
 - server features

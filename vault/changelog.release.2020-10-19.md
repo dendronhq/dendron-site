@@ -2,7 +2,7 @@
 id: 1b1aef8e-c9d5-42de-b850-d1b1467cf88b
 title: "0.13"
 desc: ''
-updated: 1616949985965
+updated: 1640426925875
 created: 1603123991664
 ---
 Dendron 0.13 is here 🌱
@@ -45,7 +45,7 @@ Aside from features, we've also launched two [[seeds|dendron.topic.seeds]]. Seed
 
 ## Sustainability
 
-Finally, a bunch of you have asked if you can support Dendron financially. The answer is coming at the end of the month! Dendron will be coming out of **preview** in November, at which point we will launch our **Environmentalist Plan** 🌲. This is a monthly subscription to support the development of Dendron. **Environmentalist** will get a special badge on Discord, priority email/discord access to the development team, and stickers! More details on this soon.
+Finally, a bunch of you have asked if you can support Dendron financially. The answer is coming at the end of the month! Dendron will be coming out of **preview** in November, at which point we will launch our **Environmentalist Plan** 🌲. This is a monthly subscription to support the development of Dendron. **Environmentalist** will get a special badge on Discord, priority email/Discord access to the development team, and stickers! More details on this soon.
 
 ## Thank You
 

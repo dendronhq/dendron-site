@@ -2,7 +2,7 @@
 id: MK4LipIh-9EVprKf5na9V
 title: '04'
 desc: ''
-updated: 1625498459946
+updated: 1640425484764
 created: 1625498459946
 ---
 
@@ -16,7 +16,7 @@ created: 1625498459946
     -   Reduce initial download size by +100MB
 -   Updated onboarding experience
     -   Initial implementation for workspace templates
-    -   Easy initialization for common scenarios (eg. team workspace, individual todos, blogs, etc)
+    -   Easy initialization for common scenarios (eg. team workspace, individual todos, blogs, etc.)
     -   `Dendron: Launch Tutorial`
 -   LOTS of stability/performance improvements
     -   anchors/headers are now updated in real time (used to be on save)

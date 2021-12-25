@@ -2,7 +2,7 @@
 id: 0eq1mz_b-gpdSZVJqruOg
 title: 0.2.X
 desc: ''
-updated: 1636507348579
+updated: 1640428199520
 created: 1623536541355
 ---
 
@@ -208,7 +208,7 @@ You can now publish and build your notes without going to the command line ([[do
 -   use enhanced filter when creating 403 links ([65afe8c](https://github.com/dendronhq/dendron/commit/65afe8c084d1a657e943edb3ef1b497f3fd97ea6))
 -   custom header support ([[docs|dendron.topic.publish-legacy.configuration#customheaderpath-optional]])
     -   [[add custom headers|scratch.2021.01.12.085012.add-custom-headers]]
--   google analytics support ([[docs|dendron.topic.publish-legacy.configuration#ga_tracking-optional]])
+-   Google Analytics support ([[docs|dendron.topic.publish-legacy.configuration#ga_tracking-optional]])
 -   Multi Vault Edit on GitHub
 
 ### Bug Fixes
@@ -354,7 +354,7 @@ You can now both build your notes for publication and preview it from inside VS 
 ### Docs
 
 -   [dendron.so](https://dendron.so) is now published using the new 11ty framework
--   add [[publishing to GitHub guide|dendron.topic.publish-legacy.github]] using GitHub actions
+-   add [[publishing to GitHub guide|dendron.topic.publish-legacy.github]] using GitHub Actions
 
 ## 0.20.2
 

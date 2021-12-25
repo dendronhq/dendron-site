@@ -2,7 +2,7 @@
 id: 08b2e6ea-bd3e-4f4b-b2b9-676a7b743a65
 title: "0.10"
 desc: ''
-updated: 1630794040065
+updated: 1640426911633
 created: 1596374871110
 date: '2020-09-06'
 ---
@@ -16,7 +16,7 @@ In that time, we've built an awesome community of Dendrites on Discord now numbe
 
 Speaking of community, I would like to recognize two new **Dendrologist** - [Fayçal](https://github.com/d3vr) (@bsqrd#9701 ) and [Janne Ojanaho](https://github.com/jojanaho) (@jojanaho#3766 ) 👨‍🌾👩‍🌾
 
-Dendrologists are active members of the Dendron community that will be helping me shape our roadmap, answer questions, and collect feedback from all of you. If you've spent any time in our discord, you've probably already had chats with one or both of the folks I just mentioned.
+Dendrologists are active members of the Dendron community that will be helping me shape our roadmap, answer questions, and collect feedback from all of you. If you've spent any time in our Discord, you've probably already had chats with one or both of the folks I just mentioned.
 
 That's all for last week's release. Stay tuned for some big announcements later this week :) 
 

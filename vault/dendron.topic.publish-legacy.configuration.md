@@ -2,7 +2,7 @@
 id: f2ed8639-a604-4a9d-b76c-41e205fb8713
 title: Configuration
 desc: ''
-updated: 1639542456600
+updated: 1640428501432
 created: 1608528797892
 nav_order: 3
 ---
@@ -41,7 +41,7 @@ site:
 
 Prefix for assets. 
 
-By default, assets are served from the root. If you are publishing to GitHub pages and followed the instructions [here](https://pages.github.com/) by creating a repo named `{username}.github.io`, then no further action is needed. This is because GitHub will make your site available at `https://{username}.github.io`. If you created a custom repo, you will need to set the prefix to the name of your repo because GitHub will make your site available at `https://{username}.github.io/{your-repo-name/}`
+By default, assets are served from the root. If you are publishing to GitHub Pages and followed the instructions [here](https://pages.github.com/) by creating a repo named `{username}.github.io`, then no further action is needed. This is because GitHub will make your site available at `https://{username}.github.io`. If you created a custom repo, you will need to set the prefix to the name of your repo because GitHub will make your site available at `https://{username}.github.io/{your-repo-name/}`
 
 ### copyAssets
 
@@ -80,7 +80,7 @@ duplicateNoteBehavior:
 ```
 
 ### ga_tracking 
-Your ga tracking number if you want to add google analytics. 
+Your ga tracking number if you want to add Google Analytics. 
 
 - NOTE: 
   - won't be included in `dev` preview.
@@ -89,7 +89,7 @@ Your ga tracking number if you want to add google analytics.
 ### githubCname
 - default: none
 
-CNAME used for GitHub pages
+CNAME used for GitHub Pages
 
 ### logo 
 
@@ -151,7 +151,7 @@ Location of the GitHub repo where your site notes are located. By default, this 
 - required
 
 Set to the URL that you plan on publishing to. All links will be prefixed with this. 
-If you are publishing with GitHub pages, the format is `https://{username}.github.io/{repo}/`
+If you are publishing with GitHub Pages, the format is `https://{username}.github.io/{repo}/`
 
 ### usePrettyRefs 
 - status: optional
@@ -278,9 +278,9 @@ site:
 - default: false
 - status: NOT currently supported
 
-If set to true, Dendron will add the following meta tag `<meta name="robots" content="noindex, nofollow”>` which will tell google to not index your page
+If set to true, Dendron will add the following meta tag `<meta name="robots" content="noindex, nofollow”>` which will tell Google to not index your page
 
-When google indexes a page, it will penalize sites that have duplicate content from other sites. this is useful if you are using your hiearchy as a [[cache|dendron.guides.workflows.cache]]
+When Google indexes a page, it will penalize sites that have duplicate content from other sites. this is useful if you are using your hiearchy as a [[cache|dendron.guides.workflows.cache]]
 
 ### customFrontmatter
 
@@ -441,7 +441,7 @@ Same example where `Bravo` has `nav_order: 2` and `Charlie` has `nav_order: 1`
 
 - default: false
 
-To tell google to not index a page, you can add the following tag to the frontmatter. You can also have this as a default for a given hierarchy by setting `noIndexByDefault: true` in the site config.
+To tell Google to not index a page, you can add the following tag to the frontmatter. You can also have this as a default for a given hierarchy by setting `noIndexByDefault: true` in the site config.
 
 ```yml
 ...

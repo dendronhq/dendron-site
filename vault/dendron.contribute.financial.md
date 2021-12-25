@@ -2,7 +2,7 @@
 id: abda4d2a-d8a2-4dd6-8ea0-4a5661fa13c1
 title: Financial
 desc: ""
-updated: 1640117751855
+updated: 1640427169298
 created: 1604236189356
 ---
 
@@ -54,7 +54,7 @@ Environmentalists are special members of our community that help to keep Dendron
 ### Forest
 
 - Everything in **Tree**
-- access to teams discord channel
+- access to teams Discord channel
 - personalized training sessions 
 - business-level support
 
@@ -78,4 +78,4 @@ You can change or cancel your subscription at any time by updating your membersh
 
 ### I'm a Tree. How do I gift a seed membership?
 
-Send Kevin a message on Discord with the discord alias of the user you would like to gift a seed membership to and we'll make it happen!
+Send Kevin a message on Discord with the Discord alias of the user you would like to gift a seed membership to and we'll make it happen!

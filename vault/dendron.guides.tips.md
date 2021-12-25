@@ -2,7 +2,7 @@
 id: 692fa114-f798-467f-a0b9-3cccc327aa6f
 title: Tips
 desc: ''
-updated: 1640381677222
+updated: 1640428023674
 created: 1595614204291
 nav_order: 4.1
 ---
@@ -82,7 +82,7 @@ You can collapse headers at different levels and bullets at different indentatio
 
 
 ### Create a new note in a deeply nested hierarchy 
-- [discord thread](https://discordapp.com/channels/717965437182410783/735365126227493004/758235198403117087)
+- [Discord thread](https://discordapp.com/channels/717965437182410783/735365126227493004/758235198403117087)
 
 - Problem: 
    - You are currently in `foo` and you want to create the note `foo.child1.child2.my-note`. You don't want to type out the full path. Is there an easier way to create `my-note` than typing out the full path?
@@ -96,7 +96,7 @@ You can collapse headers at different levels and bullets at different indentatio
 
 
 ### Automate Git Tasks
-- [discord thread](https://discordapp.com/channels/717965437182410783/742532267058004098/759130627781558403)
+- [Discord thread](https://discordapp.com/channels/717965437182410783/742532267058004098/759130627781558403)
 - Problem:
   - You want an easier way to `git add && git commit && git push`
 - Solution #1:
@@ -111,7 +111,7 @@ You can collapse headers at different levels and bullets at different indentatio
 
 ### Publish to GitHub Pages with Actions
 
-- [discord thread](https://discordapp.com/channels/717965437182410783/749641193322971238/759190468671438848)
+- [Discord thread](https://discordapp.com/channels/717965437182410783/749641193322971238/759190468671438848)
 
 It's possible to publish your Dendron site to GitHub Pages without the shadow copy of your notes in the `docs` directory.
 
@@ -234,7 +234,7 @@ You can streamline this process by assigning a keyboard shortcut to the command.
 
 ### Copy and Paste Web Content into Dendron
 
-First copy it into Notion or use the notion web clipper to clip it. This will format it nicely in Markdown. You can then paste it into Dendron with Markdown and everything :)
+First copy it into Notion or use the Notion web clipper to clip it. This will format it nicely in Markdown. You can then paste it into Dendron with Markdown and everything :)
 
 <!-- 
 
@@ -270,7 +270,7 @@ One easy way of navigating hierarchies it to click on the file name. This will r
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/guide.siblings.jpg)
 
 ### Remove Markdown Buttons in Menu Bar
-- [discord thread](https://discordapp.com/channels/717965437182410783/739186036495876126/758408534848831558)
+- [Discord thread](https://discordapp.com/channels/717965437182410783/739186036495876126/758408534848831558)
 
 ```json
 "markdownShortcuts.icons.bold": false,
@@ -297,7 +297,7 @@ This is helpful for looking at your notes side by side.
 
 You can pin tabs in VS Code by right clicking on a tab and selecting `Pin Tab`. 
 
-The latest VS Code lets you control pin behavior for tabs. It's not currently documented as of 2020.09.28 but as of the latest insider build, it has a few different options to control the pinned behavior. 
+The latest VS Code lets you control pin behavior for tabs. It's not currently documented as of 2020.09.28 but as of the latest Insiders build, it has a few different options to control the pinned behavior. 
 
 - options:
   - normal (default), normal tab size with a pin icon
@@ -449,5 +449,5 @@ This is a list of other tools that work well with Dendron.
 ## Other Browser Extensions
 
 ### Web Clipper
-- [Markdown Web](https://chrome.google.com/webstore/detail/markdownload-markdown-web/pcmpcfapbekmbjjkdalcgopdkipoggdi?hl=en-GB): Markdown based web clipper
+- [MarkDownload](https://chrome.google.com/webstore/detail/markdownload-markdown-web/pcmpcfapbekmbjjkdalcgopdkipoggdi?hl=en-GB): Markdown-based web clipper
 - [Roam Highlighter](https://chrome.google.com/webstore/detail/mcoimieglmhdjdoplhpcmifgplkbfibp)

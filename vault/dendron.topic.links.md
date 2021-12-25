@@ -2,7 +2,7 @@
 id: 3472226a-ff3c-432d-bf5d-10926f39f6c2
 title: Links
 desc: ''
-updated: 1640102109898
+updated: 1640425601205
 created: 1595003088839
 ---
 
@@ -12,7 +12,7 @@ Dendron supports multiple types of links and formats.
 - `[[wiki links]]`
 - `[[labelled|wiki links]]`
 - `![image links](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/logo-256.png)`
-- links to `[local files](assets/think.pdf)` (eg. pdfs, psds, etc)
+- links to `[local files](assets/think.pdf)` (eg. PDFs, PSDs, etc.)
 
 ## Concepts
 

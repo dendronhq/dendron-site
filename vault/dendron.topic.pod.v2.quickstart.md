@@ -2,7 +2,7 @@
 id: j5wgTcRHQZomzSHsg41O8
 title: Quickstart
 desc: ''
-updated: 1640383312179
+updated: 1640428470614
 created: 1638871404471
 published: false
 ---
@@ -56,7 +56,7 @@ This specifies the podType. It must be one of the following values:
 
 #### connectionId (required for some pods)
 
-This specifies the ID for the [[connection|dendron.topic.pod.v2.connections]] that will be used to connect to the external service when running this pod. Pods that require this include GoogleDocs and Airtable.  Pods that don't require this include Markdown or Json pods.
+This specifies the ID for the [[connection|dendron.topic.pod.v2.connections]] that will be used to connect to the external service when running this pod. Pods that require this include Google Docs and Airtable.  Pods that don't require this include Markdown or Json pods.
 
 ### Getting User Input for a Property at Runtime
 

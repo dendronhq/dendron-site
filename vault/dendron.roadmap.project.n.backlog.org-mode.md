@@ -2,7 +2,7 @@
 id: c3800271-dd56-46fb-8de7-e850f3c006b7
 title: Org Mode
 desc: ''
-updated: 1608485548393
+updated: 1640425567542
 created: 1602131829574
 stub: false
 ---
@@ -28,7 +28,7 @@ This project discusses how to best incorporate org-mode functionality into Dendr
   - can be edited in Emacs
 
 - cons:
-  - uncertain how to implement Dendron specific syntax and features (eg. note references, schemas, etc)
+  - uncertain how to implement Dendron specific syntax and features (eg. note references, schemas, etc.)
 
 ## 2. support `org` syntax within `md` files
 

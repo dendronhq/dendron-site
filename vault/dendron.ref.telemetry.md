@@ -2,7 +2,7 @@
 id: 84df871b-9442-42fd-b4c3-0024e35b5f3c
 title: Telemetry
 desc: ''
-updated: 1637883969136
+updated: 1640425546026
 created: 1619460500071
 nav_order: 6.1
 ---
@@ -117,7 +117,7 @@ Events
 | --------------: | :--------: | ---------------------------------------------------------------------------------- |
 | `flavor`        | _string_   | What kind of lookup ("schema" or "note")                                           |
 | `error`         | _boolean_  | Did an error happen during this phase?                                             |
-| `source`        | _string_   | What initiated the lookup? ("onValueChange", "updatePickerBehavior:journal", etc ) |
+| `source`        | _string_   | What initiated the lookup? ("onValueChange", "updatePickerBehavior:journal", etc.) |
 | `createNewNote` | _boolean_  | Was a new note created during this phase?                                          |
 
 ### Commands

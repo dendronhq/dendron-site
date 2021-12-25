@@ -2,7 +2,7 @@
 id: 7K1nizLK9AJkOwjQ
 title: Head of Growth
 desc: ''
-updated: 1626881369794
+updated: 1640425307862
 created: 1626839523125
 published: true
 ---
@@ -16,7 +16,7 @@ We're looking for someone with an affinity for both technology and Personal Know
 ## What you'll do
 - own the customer acquisition funnel across all channels
 - engage with our community (Discord & GitHub) and coordinate channels and events
-- engage with other relevant PKM/tech communities across various channels (eg. Slack, Reddit, Quora, etc)
+- engage with other relevant PKM/tech communities across various channels (eg. Slack, Reddit, Quora, etc.)
 - work with engineering to shape the product roadmap
 - optimize [publishing features](https://wiki.dendron.so/notes/579e379b-3eca-4676-b51c-c66eb26a11b8.html) and [knowledge registry](https://blog.dendron.so/notes/qTeL51LFD0Y8uC9ect7QV.html) for SEO and organic growth
 - create partnerships with relevant projects and companies

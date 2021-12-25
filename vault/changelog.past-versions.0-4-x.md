@@ -2,7 +2,7 @@
 id: C0HMems1EODnxGsNDVD7Z
 title: 0.4.X
 desc: ''
-updated: 1636507361492
+updated: 1640425887894
 created: 1629505311218
 ---
 
@@ -20,7 +20,7 @@ created: 1629505311218
 ### Bug Fixes
 - image preview not showing up on hover
 - gracefully handle a bad wiki link
-- only generate alphanumeric ids to be compatible with GitHub pages urls
+- only generate alphanumeric ids to be compatible with GitHub Pages urls
 
 ## 0.49.1
 

@@ -2,7 +2,7 @@
 id: f09162ec-6b20-4b53-bd5c-68aaa4698ed8
 title: "0.17"
 desc: ''
-updated: 1639201323396
+updated: 1640426948610
 created: 1606074212157
 ---
 Dendron 0.17 has sprouted 🌱
@@ -21,7 +21,7 @@ Dendron 0.17 has sprouted 🌱
 ### Community
 
 - Dendron Office Hours
-  - We had our first live office hours this week. Thanks to everyone that participated! You can find the recording [here](https://discord.com/channels/717965437182410783/737323300967022732/778798279658962944). A reminder that you can submit questions ahead of time in the #office-hours channel in [discord](https://link.dendron.so/discord). We'll send another survey this week for scheduling the next office hours at the end of the month. 
+  - We had our first live office hours this week. Thanks to everyone that participated! You can find the recording [here](https://discord.com/channels/717965437182410783/737323300967022732/778798279658962944). A reminder that you can submit questions ahead of time in the #office-hours channel in [Discord](https://link.dendron.so/discord). We'll send another survey this week for scheduling the next office hours at the end of the month. 
 
 ### House Cleaning
 

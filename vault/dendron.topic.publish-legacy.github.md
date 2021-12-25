@@ -2,7 +2,7 @@
 id: 877f4347-f013-43ba-aec4-87412b2e1bec
 title: GitHub
 desc: ''
-updated: 1632178769581
+updated: 1640426006522
 created: 1608770937168
 ---
 
@@ -16,7 +16,7 @@ This guide describes publishing to GitHub using GitHub Actions
 ## Checklist
 
 -   [ ] create `pages` branch
--   [ ] enable GitHub pages on pages branch
+-   [ ] enable GitHub Pages on pages branch
 -   [ ] have `package.json`
 -   [ ] create GitHub action
 -   [ ] enable actions on your repo
@@ -117,7 +117,7 @@ git commit -m "add publishing via gh-action"
 git push
 ```
 
-6. Update your GitHub pages setting to build GitHub pages from the `pages` branch and using the root folder.
+6. Update your GitHub Pages setting to build GitHub Pages from the `pages` branch and using the root folder.
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/publishv2.pages.jpg)
 

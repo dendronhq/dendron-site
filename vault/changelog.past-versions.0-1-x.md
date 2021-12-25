@@ -2,7 +2,7 @@
 id: ed4162aa-5474-4483-9fbc-c0b505310c59
 title: 0.1.X
 desc: ''
-updated: 1638899331848
+updated: 1640426859179
 created: 1610397097347
 ---
 ## 0.19.3
@@ -480,7 +480,7 @@ This is the last phase in Dendron's server mode migration. All new workspaces ar
 
 As a reminder, [[server mode|dendron.roadmap.project.n.2020.server-migration]] is a re-architecture of Dendron that enables both better performance and a vast array of new features. 
 
-Finally, we do have an escape valve in things something goes terribly wrong. You can set the following option to revert server mode behavior. If you end up using this, please also cut as [a ticket](https://github.com/dendronhq/dendron/issues/new?assignees=&labels=&template=bug_report.md&title=) or a message in [discord](https://link.dendron.so/discord). 
+Finally, we do have an escape valve in things something goes terribly wrong. You can set the following option to revert server mode behavior. If you end up using this, please also cut as [a ticket](https://github.com/dendronhq/dendron/issues/new?assignees=&labels=&template=bug_report.md&title=) or a message in [Discord](https://link.dendron.so/discord). 
 
 ### Enhancements
 
@@ -511,7 +511,7 @@ Excited to welcome a new dendrologist --> @I'm a lightbulb#6986
 
 @I'm a lightbulb#6986 was one of our earliest users and one of the first to [publish](https://dendron.so/notes/3a82c5ff-7945-46ae-8bf9-3b2275fc6642.html#jacks-page) using Dendron. 
 
-As a reminder, dendrologist are active members of the community who are recognized with said title and a few additional discord super powers. 
+As a reminder, dendrologist are active members of the community who are recognized with said title and a few additional Discord super powers. 
 
 ## [0.13.3](https://github.com/dendronhq/dendron/compare/v0.13.3-alpha.1...v0.13.3) (2020-10-24)
 

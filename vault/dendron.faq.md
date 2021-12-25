@@ -2,7 +2,7 @@
 id: 683740e3-70ce-4a47-a1f4-1f140e80b558
 title: FAQ
 desc: ''
-updated: 1640370075189
+updated: 1640428632874
 created: 1595952505025
 stub: false
 nav_order: 3.01
@@ -40,11 +40,11 @@ Dendron, the client, is free and will always remain free. It is also open source
 
 That being said, I'm all in on Dendron and this is my full time gig. I want to make sure that developing Dendron remains sustainable. To that end, I plan on introducing value add server side functionality that folks may pay for. Examples of paid for features include:
 
--   private hosting (for folks who want to publish but not use GitHub pages or want to add authentication)
+-   private hosting (for folks who want to publish but not use GitHub Pages or want to add authentication)
 -   enterprisy things
     -   eg. on premise installations of Dendron with single sign on, active directory, and fine grained permissions
 -   offering private subscription based vaults (eg. think [substack](https://substack.com) but having people subscribe to vaults instead of newsletters )
--   server side IFTTT like functionality (eg. everytime I add an entry to airtable, add a note to Dendron)
+-   server side IFTTT like functionality (eg. everytime I add an entry to Airtable, add a note to Dendron)
 
 Paid for features will be 100% optional and will not be necessary for any client side functionality in Dendron.
 
@@ -137,7 +137,7 @@ If you have a hard time deciding which ideas belong closer to root, think which 
 
 ### Do I have to use hierarchies? What if I want to use another approach?
 
-Despite our emphasis on hierarchies, Dendron also supports non-hierarchal ways of organizing notes (eg. backlinks, zettelkasten, etc).
+Despite our emphasis on hierarchies, Dendron also supports non-hierarchal ways of organizing notes (eg. backlinks, zettelkasten, etc.).
 
 You can, and are encouraged to, combine these other workflows with Dendron hierarchies in order to create your own workflow that takes the best parts of each system!
 
@@ -219,7 +219,7 @@ Many VS Code extensions that work across multiple git repositories won't recogni
 
 Pods are a means of data migration. You can import/export notes from other tools in and out of Dendron
 
-Internally for example, we use google docs to take meeting notes collaboratively and then we use the gdoc import pod to turn it into a Dendron note
+Internally for example, we use Google Docs to take meeting notes collaboratively and then we use the gdoc import pod to turn it into a Dendron note
 
 You can read more about them [[here|dendron.topic.pod]].
 
@@ -245,7 +245,7 @@ For now, we recommend you use the [[search editor|dendron.guides.tips#search-edi
 
 ### Does Dendron support a data view similar to Obsidian and Notion?
 
-We support having a data view but not in the same way. For data views, we have an [[Airtable Pod|dendron://dendron.dendron-site/dendron.topic.pod.builtin.airtable]] which lets you map frontmatter from your notes and export it to airtable. This way, you can use the full power of airtable for a fully featured data view (This is how we manage tasks in Dendron)
+We support having a data view but not in the same way. For data views, we have an [[Airtable Pod|dendron://dendron.dendron-site/dendron.topic.pod.builtin.airtable]] which lets you map frontmatter from your notes and export it to Airtable. This way, you can use the full power of Airtable for a fully featured data view (This is how we manage tasks in Dendron)
 
 ### Can Dendron auto format Markdown tables?
 

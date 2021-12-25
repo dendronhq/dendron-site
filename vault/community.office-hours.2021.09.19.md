@@ -2,7 +2,7 @@
 id: exBtuUU1huhHQtHPTi9oN
 title: '19'
 desc: ''
-updated: 1632244025187
+updated: 1640427434067
 created: 1632243986238
 ---
 
@@ -56,7 +56,7 @@ Conversion notes:
     - Confluence server, no support Markdown
 * Pods for Citations
     - [https://github.com/timwoelfle/Local-Citation-Network](https://github.com/timwoelfle/Local-Citation-Network)
-    - [Dendron Rfc](https://wiki.dendron.so/notes/f143ca38-dcc6-4cd3-b84b-997aec1160ef.html)
+    - [Dendron RFC](https://wiki.dendron.so/notes/f143ca38-dcc6-4cd3-b84b-997aec1160ef.html)
 
 Next
 

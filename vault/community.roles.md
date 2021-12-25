@@ -2,7 +2,7 @@
 id: 7c00d606-7b75-4d28-b563-d75f33f8e0d7
 title: Roles
 desc: ''
-updated: 1634070295684
+updated: 1640427091270
 created: 1604237102230
 ---
 
@@ -29,13 +29,13 @@ You can see the list of contributors [here](https://github.com/dendronhq/dendron
 
 **Dendrologist** are active members of the Dendron community. They play a vital role in helping new members get started and setting best practices for Dendron and its community.
 
-Dendrologist help shape Dendron's roadmap and community standards. They also gain additional discord super powers like creating channels, pinning messages, and other moderation capabilities.
+Dendrologist help shape Dendron's roadmap and community standards. They also gain additional Discord super powers like creating channels, pinning messages, and other moderation capabilities.
 
 ### Environmentalist
 
 **Environmentalist** are members that show their support by making monthly [financial contributions](https://accounts.dendron.so/account/subscribe) to Dendron.
 
-Environmentalist get a special discord role, early access to new features, special channels, and other goodies.
+Environmentalist get a special Discord role, early access to new features, special channels, and other goodies.
 
 There are currently four levels of environmentalist plans:
 

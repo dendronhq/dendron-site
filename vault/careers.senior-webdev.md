@@ -2,7 +2,7 @@
 id: BtTEc9Kp7IbB1zKNh35pI
 title: Senior Frontend Engineer
 desc: ''
-updated: 1630627698338
+updated: 1640425318941
 created: 1630463515362
 ---
 
@@ -11,8 +11,8 @@ Dendron is an open source knowledge management platform built inside the IDE. We
 We're looking for engineers that can build out our feature set across multiple platforms and form factors. Help us build the IDE for general knowledge.  We're looking for a partner that is passionate about knowledge management and that can help us shape how it should be done moving forward.
 
 ## What you'll do
-- Build Dendron's frontend for desktops, browsers, and alternative form factors (eg. browser extension, CLI, etc) 
-- Take full ownership of Dendron's client architecture (design system, style guide, build process, etc)
+- Build Dendron's frontend for desktops, browsers, and alternative form factors (eg. browser extension, CLI, etc.) 
+- Take full ownership of Dendron's client architecture (design system, style guide, build process, etc.)
 - Participate and set the norms in a remote first, open source, docs first culture
 
 ## Who you are

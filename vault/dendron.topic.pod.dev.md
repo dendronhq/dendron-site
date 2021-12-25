@@ -2,7 +2,7 @@
 id: 5de219e6-d9b9-4abf-9367-998109cd57cd
 title: Developing a Pod
 desc: ''
-updated: 1639201031131
+updated: 1640427272573
 created: 1614201272488
 ---
 ## Summary
@@ -88,7 +88,7 @@ Here are the basics of Dendron so you can get started growing your knowledge bas
 - [ ] Insert an [image](https://www.dendron.so/notes/a91fd8da-6895-49fe-8164-a17acd8d9a17.html)
 - [ ] Create some [links](https://www.dendron.so/notes/3472226a-ff3c-432d-bf5d-10926f39f6c2.html)
 - [ ] [[Publish|dendron.topic.publish-legacy.selective-publication]] your vault
-- [ ] Join us on [discord](https://link.dendron.so/discord) and discuss all things knowledge management with your fellow trail blazers.
+- [ ] Join us on [Discord](https://link.dendron.so/discord) and discuss all things knowledge management with your fellow trail blazers.
 - [ ] For more information, see Dendron's basic [concepts](https://www.dendron.so/notes/c6fd6bc4-7f75-4cbb-8f34-f7b99bfe2d50.html)
 ```
 

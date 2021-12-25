@@ -2,7 +2,7 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1640103338684
+updated: 1640428573341
 created: 1601508213606
 nav_order: 2
 ---
@@ -84,7 +84,7 @@ nav_order: 2
 
 ### Fix
 - fix(workspace): decorator lag problems (#1822) @kaan ([[docs|dendron.ref.config.workspace]]) ([diff](https://github.com/dendronhq/dendron-site/pull/311/files))
-- fix(pods): minor error in airtable v2 export pod (#1846) @jonathan
+- fix(pods): minor error in Airtable v2 export pod (#1846) @jonathan
 - fix(views): re-introduce preview command enablement (#1806) @hikchoi
 - fix(views): update tree view when new note is created
 - fix(lookup): corner cases for auto complete @nickolay
@@ -172,7 +172,7 @@ nav_order: 2
 
 ### Enhancements
 - enhance(pods): add `configPath` and `query` parameters to pods ([[docs|dendron.topic.pod.cli]]) @kevin
-- enhance(pods): include name of note with error when airtable pod encounters error @kevin
+- enhance(pods): include name of note with error when Airtable pod encounters error @kevin
 
 ### Fix
 - fix(markdown): footnote definitions including links are rendered incorrectly (#1704) @kaan
@@ -416,13 +416,13 @@ dendron dev run_migration --migrationVersion 0.64.1
 ## 0.61.2
 
 ### Feature
-- feat(pods): airtable publish pod ([[docs|dendron://dendron.dendron-site/dendron.topic.pod.builtin.airtable.publish#summary]]) @kevin
+- feat(pods): Airtable publish pod ([[docs|dendron://dendron.dendron-site/dendron.topic.pod.builtin.airtable.publish#summary]]) @kevin
 
 ### Enhancements
  - fix(lookup): vault selection use wrong label #1463  @kevin
  - fix(markdown): highlighting for wildcard note refs with header offsets #1460  @kaan
- - enhance(pods): airtable export pod is now [idempotent](https://en.wikipedia.org/wiki/Idempotence) ([[docs|dendron://dendron.dendron-site/dendron.topic.pod.builtin.airtable.export#idempotency]] @kevin 
- - enahnce(pods): airtable export pod has better support for mapping [[Tags|dendron://dendron.dendron-site/dendron.topic.tags]] and dates ([[docs|dendron://dendron.dendron-site/dendron.topic.pod.builtin.airtable.export#object-value]]) @kevin
+ - enhance(pods): Airtable export pod is now [idempotent](https://en.wikipedia.org/wiki/Idempotence) ([[docs|dendron://dendron.dendron-site/dendron.topic.pod.builtin.airtable.export#idempotency]] @kevin 
+ - enahnce(pods): Airtable export pod has better support for mapping [[Tags|dendron://dendron.dendron-site/dendron.topic.tags]] and dates ([[docs|dendron://dendron.dendron-site/dendron.topic.pod.builtin.airtable.export#object-value]]) @kevin
  - enhance(pods): export pods support `ignore` and `vault` filters ([[docs|dendron://dendron.dendron-site/dendron.topic.pod.export#configuration]]) @kevin
 
 ## 0.61.1

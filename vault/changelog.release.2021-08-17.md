@@ -2,7 +2,7 @@
 id: fYU3mSfr096DYui0O2cRp
 title: '0.55'
 desc: ''
-updated: 1640368826850
+updated: 1640427363207
 created: 1629234795602
 ---
 
@@ -34,7 +34,7 @@ Details and rationale behind this change is [here](https://wiki.dendron.so/notes
 
 We've created a GitHub discussion thread for comments about the new web client [here](https://github.com/dendronhq/dendron/discussions/1145)
 
-If you'd like to help us work on this, you can find an (incomplete) list of mvp milestone items [here](https://wiki.dendron.so/notes/eQ5w4eqHrf4m1peq.html#mvp-milestones). Ping me on [discord](https://link.dendron.so/discord) `@kevins8#0590 ` if you do and I'll make sure to create a corresponding GitHub issue as well as provide more context.
+If you'd like to help us work on this, you can find an (incomplete) list of mvp milestone items [here](https://wiki.dendron.so/notes/eQ5w4eqHrf4m1peq.html#mvp-milestones). Ping me on [Discord](https://link.dendron.so/discord) `@kevins8#0590 ` if you do and I'll make sure to create a corresponding GitHub issue as well as provide more context.
 
 ### Community
 
@@ -59,7 +59,7 @@ You can see an overview of all roles [[here|community.roles]]
 - [Derek Ardolf](https://github.com/ScriptAutomate) @ScriptAutomate#6833 @icanteven#0264 
   - make license clear on the dendron-site
 - [Jack](https://github.com/imalightbulb) @I'm a lightbulb#6986
-  - rfc for spaced repetition
+  - RFC for spaced repetition
 - [Bassmann](https://github.com/Bassmann) @Bassmann#5300 
   - issue with  schema in template seed
   - [lookup with `lookuupOnConfirmVault` not working](https://github.com/dendronhq/dendron/pull/1150)

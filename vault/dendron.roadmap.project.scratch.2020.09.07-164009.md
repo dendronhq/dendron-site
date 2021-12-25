@@ -2,7 +2,7 @@
 id: 700b02fc-1e6c-46b1-8d68-5d8e17a55d33
 title: Evernote Pod Proposal
 desc: ''
-updated: 1599522009420
+updated: 1640428652243
 created: 1599522009420
 stub: false
 ---
@@ -99,5 +99,5 @@ destinations:
 
 ## Example Use Cases
 
-&lt;e.g. Sync notes from meetings with an airtable tracking meetings across days and people> 
+&lt;e.g. Sync notes from meetings with an Airtable tracking meetings across days and people> 
 

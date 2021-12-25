@@ -2,7 +2,7 @@
 id: Tf4vuVLV3rSdpzD8la9FP
 title: 0.5.X
 desc: ''
-updated: 1640368665118
+updated: 1640425359611
 created: 1632543447542
 ---
 
@@ -407,7 +407,7 @@ When you open a Dendron workspace, you might have noticed that you needed to wai
 
 We have offloaded the local server to a separate process so that all engine operations (eg. indexing) no longer affect the main VS Code process. 
 
-What this means in practice is that you can use VS Code immediately when the workspace is open. It also means you'll notice better responsiveness across all engine related features (eg. refactoring, preview, etc)
+What this means in practice is that you can use VS Code immediately when the workspace is open. It also means you'll notice better responsiveness across all engine related features (eg. refactoring, preview, etc.)
 
 ### Enhancements
 - find missing links in entire workspace  ([[docs|dendron.ref.commands#createmissinglinkednotes]])

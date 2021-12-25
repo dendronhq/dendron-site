@@ -2,7 +2,7 @@
 id: eea2b078-1acc-4071-a14e-18299fc28f47
 title: Commands
 desc: ''
-updated: 1639769305176
+updated: 1640425947171
 created: 1595261816971
 nav_order: 3.1
 ---
@@ -521,7 +521,7 @@ Modify Dendron Config using Dendron UI
 
 - shortcuts: none
 
-Build your notes for export. Currently, only export to GitHub pages is supported.
+Build your notes for export. Currently, only export to GitHub Pages is supported.
 
 ### Configure Pod
 
@@ -593,7 +593,7 @@ Remove a [[seed|dendron.topic.seeds]] from your current workspace.
 Become an environmentalist and keep Dendron sustainable
 
 This command takes you to Dendron's [Environmentalist](https://accounts.dendron.so/account/subscribe) plans.
-Environmentalists are users that can support Dendron financially through a monthly contribution. Environmentalist get access to insider builds, priority support, and access to exclusive dev channels.
+Environmentalists are users that can support Dendron financially through a monthly contribution. Environmentalist get access to Insiders builds, priority support, and access to exclusive dev channels.
 
 ### Paste File
 

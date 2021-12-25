@@ -2,7 +2,7 @@
 id: zhXmCnOFUWeKBSTNTy9Dq
 title: What We Run On
 desc: ''
-updated: 1636510055449
+updated: 1640424975333
 created: 1630626418349
 nav_exclude: true
 ---
@@ -16,7 +16,7 @@ nav_exclude: true
 
 ## Infra
 - our infrastructure consists of serverless technologies built on top of AWS
-- we build on top of GitHub actions
+- we build on top of GitHub Actions
 
 ## Operations
 - we use [sentry](https://sentry.io/for/javascript/) for error reporting

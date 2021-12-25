@@ -77,7 +77,7 @@ Every page is published using its unique ID which means that URLs will never cha
 
 #### Free hosting, custom domain names and SSL Certs
 
-If you have a free GitHub account, then you can host your Dendron notes for free using [GitHub pages](https://pages.github.com/) 
+If you have a free GitHub account, then you can host your Dendron notes for free using [GitHub Pages](https://pages.github.com/) 
 
 <img style="max-width: 720px;" src="https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/site-domain.jpg" />
 

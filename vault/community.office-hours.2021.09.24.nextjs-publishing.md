@@ -1,8 +1,8 @@
 ---
 id: lawPd77y3U3PQDEuotWb5
-title: Nextjs Publishing - Getting Started
+title: Next.js Publishing - Getting Started
 desc: ''
-updated: 1632845099839
+updated: 1640424736624
 created: 1632630257636
 ---
 

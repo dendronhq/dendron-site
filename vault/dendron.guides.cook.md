@@ -2,7 +2,7 @@
 id: 401c5889-20ae-4b3a-8468-269def4b4865
 title: Cookbook
 desc: ''
-updated: 1639617173832
+updated: 1640425855067
 created: 1595952505024
 nav_order: 6.1
 toc: true
@@ -134,7 +134,7 @@ There are usually two scenarios:
 -   for 1, create a new window and initialize a new workspace in some directory that is different from your first workspace
 -   for 2, you have a few options
     -   a. initialize a new workspace in a different directory. open the settings using `> Open User Workspace settings (JSON)`. change the folder to the path of your vault in the initial workspace. run `> Reload Window` for the changes to take affect
-    -   b. use a different version of VS Code to open the same workspace (eg. VS Code Insider, VSCodium, VS Code regular). you need to do this because VS Code will re-use the same window when opening the same workspace
+    -   b. use a different version of VS Code to open the same workspace (eg. VS Code Insiders, VSCodium, VS Code regular). you need to do this because VS Code will re-use the same window when opening the same workspace
 
 ### Add Dendron to application launchers on Linux desktops
 
@@ -224,11 +224,11 @@ code --user-data-dir=/path/to/code-dendron --extensions-dir=/path/to/code-dendro
 Dendron doesn't currently provide native support for this. You can download the [Bookmarks](https://marketplace.visualstudio.com/items?itemName=alefragnani.Bookmarks) extension to achieve the functionality in the interim.
 
 
-### Analyze notes using elasticsearch
+### Analyze notes using Elasticsearch
 
 -   WARNING: this is advanced material
 
-With Dendron, you can export your notes using the [[JSON Export Pod|dendron.topic.pod]] and then use that data to analyze your notes using elasticsearch.
+With Dendron, you can export your notes using the [[JSON Export Pod|dendron.topic.pod]] and then use that data to analyze your notes using Elasticsearch.
 
 This video walkthrough walks you through that process.
 <a href="https://www.loom.com/share/c85c7c81d8aa4e97b4bbdf2245ca8f9b"> <img style="" src="https://cdn.loom.com/sessions/thumbnails/c85c7c81d8aa4e97b4bbdf2245ca8f9b-with-play.gif"> </a>
@@ -237,12 +237,12 @@ You can download the repo used in this walkthrough from [GitHub](https://github.
 
 Pre-requisites:
 
--   download and run elasticsearch
+-   download and run Elasticsearch
 
 Steps:
 
 1. Export your data using the JSON Export Pod
-2. Create an index in elasticsearch (we're using version 7.9)
+2. Create an index in Elasticsearch (we're using version 7.9)
 
 ```json
 PUT notes
@@ -266,7 +266,7 @@ cat /path/to/exported/notes.json | jq -c '.[] | {"index": {"_index": "notes", "n
 
 4. Profit!
 
-Some potential use cases you can do using elasticsearch and Dendron:
+Some potential use cases you can do using Elasticsearch and Dendron:
 
 -   filter your notes by any logical combination of custom attributes
 -   make a heatmap of notes created by date
@@ -275,7 +275,7 @@ Some potential use cases you can do using elasticsearch and Dendron:
 
 Some useful additional links:
 
--   [elasticsearch docs](https://www.elastic.co/guide/en/elasticsearch/reference/current/elasticsearch-intro.html)
+-   [Elasticsearch docs](https://www.elastic.co/guide/en/elasticsearch/reference/current/elasticsearch-intro.html)
 -   [Elasticsearch for VSCode extension](https://marketplace.visualstudio.com/items?itemName=ria.elastic)
 
 ### Convert timestamps in the frontmatter

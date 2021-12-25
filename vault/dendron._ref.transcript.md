@@ -2,7 +2,7 @@
 id: 097cf7ed-e9aa-4580-86cf-0347bf7a623d
 title: Dendron Onboarding Transcript
 desc: ''
-updated: 1599235587751
+updated: 1640427118449
 created: 1599235587751
 stub: false
 ---
@@ -16,7 +16,7 @@ Um, I've opened it and read a little bit of the doc in it. And that's all I've d
 Okay, cool. That's perfect. And so right now,
 
 0:17  
-when you turned up in the, in the, in the couple of discord threads was really the first point that I looked at it at all, and I haven't spent much time looking. And then you throw this out, like, Okay, this jumpstart.
+when you turned up in the, in the, in the couple of Discord threads was really the first point that I looked at it at all, and I haven't spent much time looking. And then you throw this out, like, Okay, this jumpstart.
 
 0:33  
 Cool. Yeah. And that's kind of what this onboarding is for. It's, it's, you know, today's help, even if you haven't even opened it up just to give you the idea of, you know, why you might want to. And so right now, what you're looking at is identity and workspace, and the way so let's back up and tension. We manage your notes and our work states and if you use VS code, it's the equivalent of the VS code workspace. So that's a one to one match in there. And the way that you start off is you can initialize the workspace. And right now, I did me, we can just make a new one, like lead you. And so this is saying the workspace should be at this location. And so when we create a workspace, we can either create one with intention tutorial notes, and that has right or you can do an empty one. So I'm just going to do an empty one in this case. And so when you create an empty workspace, you have one file, which is the root file. And this is just there for this is kind of like your phone. And the way that denture and works is if you want to create a file, you can just type command L. I'm going to toggle screencast mode, command l triggers to look up bar, and most of the things you'll do in engine will involve this one have you used tools like Notational Velocity no So Notational Velocity, it's it was a tool where basically when you are looking for a file, for example, if I type Python, if the file doesn't exist, then it creates it for you. If it does, if that if it does exist, it will fetch it. So it's this idea that you never really have to think about

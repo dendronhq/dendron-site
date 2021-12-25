@@ -2,7 +2,7 @@
 id: 20b23165-d803-4eb2-98aa-0f0934dd3bd9
 title: Terms
 desc: ''
-updated: 1617212531464
+updated: 1640426092545
 created: 1610064859384
 ---
 
@@ -16,7 +16,7 @@ Early builds of Dendron. Only availble to [[Environmentalist|community.roles#env
 
 ### Slug
 
-Human readable part of url. See [wikipedia article](https://en.wikipedia.org/wiki/Clean_URL#Slug) for more details. 
+Human readable part of url. See [Wikipedia article](https://en.wikipedia.org/wiki/Clean_URL#Slug) for more details. 
 
 Dendron uses [github-slugger](https://github.com/Flet/github-slugger) to generate slugs.
 

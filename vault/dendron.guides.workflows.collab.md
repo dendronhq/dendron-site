@@ -2,7 +2,7 @@
 id: 058d298a-1b1e-4340-8ebd-7dbcc5a6f119
 title: Collab
 desc: ''
-updated: 1599751228313
+updated: 1640428313606
 created: 1599751228313
 stub: false
 ---
@@ -26,5 +26,5 @@ Git and GitHub, while traditionally used for collaborating on code, works out gr
 
 ## Live Share
 
-VS Code provides a live share extension that let you do google doc style like collab. You can the extension and read the docs about it [here](https://visualstudio.microsoft.com/services/live-share/).
+VS Code provides a live share extension that let you do Google Doc style like collab. You can the extension and read the docs about it [here](https://visualstudio.microsoft.com/services/live-share/).
 

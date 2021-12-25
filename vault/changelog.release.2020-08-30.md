@@ -2,13 +2,13 @@
 id: 1a79e2a1-c906-4ed4-a528-15bd34c4e649
 title: "0.09"
 desc: ''
-updated: 1638899295502
+updated: 1640426897180
 created: 1596374871110
 date: '2020-08-30'
 ---
 This week's focus was on improving the initial Dendron startup experience as well as the overall usability. To that end, we introduced our own tree view, overhauled the getting started experience and created a cheatsheet of all commands (with GIFs of course). 
 
-We also took time to fix bugs and improve performance across Dendron's core features (eg. Lookup, Markdown Preview, etc). 
+We also took time to fix bugs and improve performance across Dendron's core features (eg. Lookup, Markdown Preview, etc.). 
 
 These release notes are summary of the more notable changes, for the full list, please look at our [CHANGELOG](https://github.com/dendronhq/dendron/blob/master/CHANGELOG.md)
 
@@ -101,7 +101,7 @@ Lookup will complete &lt;100ms even as you scale to thousands of notes.
 
 We introduced our first Dendrologist this week. [Kiran Pathakoda](https://github.com/kpathakota) has been one of the first to adopt Dendron as his primary note taking platform and will be helping out with the development of Dendron.
 
-In practice, this means Kiran will be hanging around the discord, help triage issues, and help me put together a more comprehensive public roadmap for the project!
+In practice, this means Kiran will be hanging around the Discord, help triage issues, and help me put together a more comprehensive public roadmap for the project!
 
 If you're interested in being more involved with the development of Dendron (and this doesn't have to involve coding), feel free to ping me on Discord or by email at [kevin@dendron.so](mailto:kevin@dendron.so).
 

@@ -2,7 +2,7 @@
 id: e81d2800-83c0-4ba6-8f00-34c3557da43d
 title: "0.23"
 desc: ''
-updated: 1609787304398
+updated: 1640425465384
 created: 1609786176221
 ---
 Dendron 0.23.0 has sprouted :seedling:
@@ -42,7 +42,7 @@ Last and most of all, a big **thanks** to the following gardeners that brought u
   - [Devashish](https://github.com/ric03uec) @ric03uec#5826
     - [publish V2 throws error locally](https://github.com/dendronhq/dendron/issues/434)
   - [Simon J S Liu](https://github.com/wind13) @Simon Liu#7080
-    - [Improve the import pod feature for import Hugo/Hexo etc](https://github.com/dendronhq/dendron/issues/432)
+    - [Improve the import pod feature for import Hugo/Hexo etc.](https://github.com/dendronhq/dendron/issues/432)
   - [BC](https://github.com/generic-user)
     - [Ctrl + hover creates a note, it should only create one on Ctrl + Click #430](https://github.com/dendronhq/dendron/issues/430)
   - [Luke Carrier](https://github.com/LukeCarrier) @lukecarrier#2081

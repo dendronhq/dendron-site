@@ -2,7 +2,7 @@
 id: eX8OclhlYdGzO_WjzfCtZ
 title: '27'
 desc: ''
-updated: 1624886995531
+updated: 1640427540390
 created: 1624886952891
 ---
 
@@ -13,7 +13,7 @@ created: 1624886952891
         -   Timestamp no longer updates if you don’t update the note. Way less merge conflicts in a shared workspace!
         -   Bad frontmatter no longer crashes Dendron. We now differentiate between major and minor errors that don’t affect the whole system.
     -   Markdown export will be significant:
-        -   We can now interface with GitHub teams/Gitlab teams where they export a folder structure of Markdown files.
+        -   We can now interface with GitHub teams/GitLab teams where they export a folder structure of Markdown files.
     -   When you create a note, you can just start typing. Frontmatter _should_ now fold by default and then cursor moves till the end.
 -   Trends
     -   Focusing on polishing existing features and improving user experience
@@ -25,7 +25,7 @@ created: 1624886952891
     -   The work is less adding new features and more about helping users get value immediately and consistently while using Dendron.
     -   Dendron is currently multiple (huge) extensions.
         -   Pull more functionality into single extension.
-        -   DeprecateMarkdown Preview Enhanced (MPE)
+        -   Deprecate Markdown Preview Enhanced (MPE)
     -   Get value 10 minutes into using Dendron.
 -   New folks!
     -   Jonathan

@@ -2,13 +2,13 @@
 id: yg3EL1x9fEe4NMqxUC3jP
 title: GitHub
 desc: ''
-updated: 1637988427495
+updated: 1640426053995
 created: 1631132196609
 ---
 
 ## Summary
 
-You can publish your notes using Dendron Next.js Publishing and GitHub pages
+You can publish your notes using Dendron Next.js Publishing and GitHub Pages
 
 ### Pre-requisites 
 - This assumes you have a GitHub repository. 
@@ -71,7 +71,7 @@ site:
 
 #### GitHub Pages URLs
 
-Your `SITE_URL` for github pages will be in the following format: `https://{GITHUB_USERNAME}.github.io/{REPO_NAME}/`.
+Your `SITE_URL` for GitHub Pages will be in the following format: `https://{GITHUB_USERNAME}.github.io/{REPO_NAME}/`.
 
 - NOTE: Some special considerations for the `SITE_URL`
     - if your `REPO_NAME` is the same as your `GITHUB_USERNAME` 

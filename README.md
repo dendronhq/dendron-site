@@ -33,7 +33,7 @@ Some popular use cases include:
 
 ## Join Us
 
-To stay up to date on Dendron developments and all things knowledge management, you can follow us at [@dendronhq](https://twitter.com/dendronhq) or join us on [discord](https://discord.gg/6j85zNX)! 
+To stay up to date on Dendron developments and all things knowledge management, you can follow us at [@dendronhq](https://twitter.com/dendronhq) or join us on [Discord](https://discord.gg/6j85zNX)! 
 
 ## Contributing
 

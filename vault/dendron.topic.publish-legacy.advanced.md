@@ -2,7 +2,7 @@
 id: e9f26a4b-ddce-41b3-9619-8f4f64761f86
 title: Advanced
 desc: ''
-updated: 1614535629477
+updated: 1640428477249
 created: 1600564193281
 ---
 ### Exclude from publication
@@ -16,7 +16,7 @@ published: false
 
 ### Exclude from indexing
 
-To tell google to not index a page, you can add the following tag to the frontmatter. You can also have this as a default for a given hierarchy by setting `noIndexByDefault: true` in the site config.
+To tell Google to not index a page, you can add the following tag to the frontmatter. You can also have this as a default for a given hierarchy by setting `noIndexByDefault: true` in the site config.
 
 ```yml
 ...

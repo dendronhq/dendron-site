@@ -2,7 +2,7 @@
 id: 9PXYLuvnSMwMPVwh
 title: Transcript
 desc: ''
-updated: 1627661787342
+updated: 1640425271483
 created: 1627661784348
 ---
 
@@ -19,7 +19,7 @@ Unknown Speaker  1:42
 let's see.
 
 Unknown Speaker  1:48  
-Let's start with how I found Dendron. I found Dendron. Out of out of random chance, to be honest, I thought I would, it would be a great good idea to learn how to roll out my own static website. So it was a good excuse to learn things like react, Gatsby, stuff like that. And at the end, I did I did kind of revive my personal website that I've been neglecting for almost 10 years. During the process, I learned about MDX. And I was intrigued by how people were just using Markdown to manage their content for for publishing. And this got me kind of exciting because this meant I can I can start writing just simply writing notes, and then can become like blog posts or anything really that kind of that I can publish on my website.
+Let's start with how I found Dendron. I found Dendron. Out of out of random chance, to be honest, I thought I would, it would be a great good idea to learn how to roll out my own static website. So it was a good excuse to learn things like React, Gatsby, stuff like that. And at the end, I did I did kind of revive my personal website that I've been neglecting for almost 10 years. During the process, I learned about MDX. And I was intrigued by how people were just using Markdown to manage their content for for publishing. And this got me kind of exciting because this meant I can I can start writing just simply writing notes, and then can become like blog posts or anything really that kind of that I can publish on my website.
 
 Unknown Speaker  3:07  
 And then I cut that idea. Then like all personal kind of portfolio websites go, I had to write an about page for me. And I'm not really I really struggle with introducing myself to other people who I am. So I was really struggling How do I how do I write this and like a concise, like, like a cool way. And I found out about the now page and it's basically just the page where you list things that are going on in your life right now. And and I have an app and I have a link. I can link in later but someone started it and has like, has like a compilation of everyone's now page that they submitted. And let me do while while checking out other people's now page. And that's when I discovered the concept of digital gardens. And then a lot of searching later, I found a lot of tools and then yeah, that's how I got to got to Dendron I started using it. I actually felt like it was a project that I want to contribute for the first time in life. And I and I did. And it felt great. And I kind of never looked back. I think that was like seven or eight months ago. Yeah. So that was How I found Dendron. That's when I started actually

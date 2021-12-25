@@ -2,7 +2,7 @@
 id: N9X7MArddruHw3FXxZv8X
 title: "0.60"
 desc: ''
-updated: 1632244185738
+updated: 1640425250362
 created: 1632174465899
 ---
 
@@ -59,7 +59,7 @@ You can see an overview of all roles [[here|community.roles]]
     - [Tag autocomplete suggestion only appears if # symbol is first in line](https://github.com/dendronhq/dendron/issues/1352)
 - `@binary#0486`
     - #dendron.taxonomist
-    - [add react style guide by viztor](https://github.com/dendronhq/dendron-site/pull/207)
+    - [add React style guide by viztor](https://github.com/dendronhq/dendron-site/pull/207)
 
 
 ### Changelog

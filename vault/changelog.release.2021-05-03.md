@@ -2,7 +2,7 @@
 id: 2979e42c-a945-4483-912a-ad4f9560fdb7
 title: '0.40'
 desc: ''
-updated: 1639201302488
+updated: 1640426972872
 created: 1620073147992
 ---
 Dendron 0.40 has sprouted  🌱
@@ -16,7 +16,7 @@ Dendron 0.40 has sprouted  🌱
 ### Office Hours
 
 - Minutes for last weeks office hours [here](https://wiki.dendron.so/notes/693cf49f-1351-44fb-bca3-4bc183a0cccd.html)
-- We will be holding office hours again this Sunday at 9AM PST in our [discord](https://link.dendron.so/discord) group
+- We will be holding office hours again this Sunday at 9AM PST in our [Discord](https://link.dendron.so/discord) group
 
 ### RFCS
 
