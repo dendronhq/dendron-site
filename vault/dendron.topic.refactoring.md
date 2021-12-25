@@ -2,7 +2,7 @@
 id: srajljj10V2dl19nCSFiC
 title: Refactoring
 desc: ''
-updated: 1639515355222
+updated: 1640417481567
 created: 1638900089932
 ---
 
@@ -23,6 +23,8 @@ If the title is the same as what Dendron would autogenerate (kebab-case capitali
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/command-rename.gif)
 
 You can also simply rename a file in VSCode's explorer panel, and all of the backlinks to that note will be updated automatically. Here is an example loom [video](https://www.loom.com/share/dcc2df8f598a463894278f9b5926a92e)
+
+- NOTE: Dendron will not allow you to rename a note to a note that already exists
 
 #### Rename Symbol
 
