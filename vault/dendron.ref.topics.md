@@ -1,15 +1,19 @@
 ---
 id: qW89iJ4vP5UQpC7mRZXKJ
-title: Features
+title: Topics
 desc: ''
-updated: 1636499311092
+updated: 1640447253501
 created: 1636499205863
 nav_order: 4.1
 ---
 
+This is a reference of all Dendron topics (features), sorted alphabetically. For a more functional organization, see the [[User Guide|dendron://dendron.dendron-site/dendron.user-guide]]
+
 - [[Dendron CLI|dendron://dendron.dendron-site/dendron.ref.cli]]
+- [[dendron.topic.code-actions]]
 - [[Commands|dendron://dendron.dendron-site/dendron.ref.commands]]
 - [[Config|dendron://dendron.dendron-site/dendron.ref.config]]
+- [[dendron.topic.doctor]]
 - [[Extensions|dendron://dendron.dendron-site/dendron.topic.extensions]]
 - [[Frontmatter|dendron://dendron.dendron-site/dendron.topic.frontmatter]]
 - [[Git|dendron://dendron.dendron-site/dendron.topic.git]]

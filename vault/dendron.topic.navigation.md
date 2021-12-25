@@ -2,13 +2,13 @@
 id: cphUwSPk12j4lS0tKjBdC
 title: Navigation
 desc: ''
-updated: 1640418764204
+updated: 1640447134851
 created: 1638899506405
 ---
 
 ## Summary
 
-This covers features that are focused on navigation.
+General navigation features
 
 ## References
 
