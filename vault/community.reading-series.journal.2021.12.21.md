@@ -1,8 +1,8 @@
 ---
 id: xtjtc30VU8BreoeZuFUK1
-title: '21'
+title: '12 - I was stuck on a side project for 5 years. Here’s how I finished it'
 desc: ''
-updated: 1640113843330
+updated: 1640710365524
 created: 1640108567710
 ---
 
