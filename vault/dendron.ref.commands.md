@@ -2,7 +2,7 @@
 id: eea2b078-1acc-4071-a14e-18299fc28f47
 title: Commands
 desc: ''
-updated: 1640712391581
+updated: 1640712557295
 created: 1595261816971
 nav_order: 3.1
 ---
@@ -268,26 +268,7 @@ Transform URL in clipboard to nicely formatted markdown link
 
 ### Convert Link
 
-Converts links of various statuses and kinds.
-
-#### Broken links
-
-You can use `Convert Link` to convert broken links into either plaintext or a different link to an existing note.
-These are the available options for converting broken links:
-- alias: use link's alias if exists (otherwise option isn't suggested)
-- note name: use link destination's note name (basename excluding all parent hierarchies)
-- hierarchy: use link destination's entire hierarchy
-- prompt: user is prompted to manually input text to use
-- change destination: user is prompted a lookup to choose a different existing note to link.
-
-#### Valid links
-
-You can use `Convert Link` to convert a limited set of valid links to other types of links.
-These are the available operations:
-- when cursor is above a usertag, user is asked if they want to convert it to a regular wikilink
-- when cursor is above a regular wikilink with user.* hierarchy, user is asked if they want to convert it to a usertag
-- when cursor is above a hashtag, user is asked if they want to convert it to a regular wikilink
-- when cursor is above a regular wikilink with tags.* hierarchy, user is asked if they want to convert it to a hashtag
+![[dendron://dendron.dendron-site/dendron.topic.refactoring#convert-link,1:#*]]
 
 ### Random Note
 
