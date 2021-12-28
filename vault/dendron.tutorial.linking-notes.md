@@ -2,7 +2,7 @@
 id: 9MZBqhrijEM4QpZRa5t08
 title: Linking Notes
 desc: Linking Notes
-updated: 1640153788122
+updated: 1640714585719
 created: 1625563999532
 nav_order: 2
 ---
@@ -60,8 +60,8 @@ The [[Rename Note|dendron://dendron.dendron-site/dendron.topic.refactoring#renam
 The [[Rename Header|dendron://dendron.dendron-site/dendron.topic.refactoring#rename-header]] command is used to change the name of, and all links to, a single header.
 
 > 🌱 **ACTION:** Use the lookup to navigate to `[[recipes.italian.desserts.gelato]]`. Then:
-> - Place the cursor in `## Ingredients`, and run the command `Dendron: Rename Note`
-> - Rename the note to `## Best Ingredients`
+> - Place the cursor in `## Ingredients`, and run the command `Dendron: Rename Header`
+> - Rename the header to `## Best Ingredients`
 > - Use the lookup to navigate to `[[recipes.ingredients.shopping-list]]`. You should see the wikilink there has updated from `[[recipes.italian.desserts.gelato#ingredients]]` to `[[recipes.italian.desserts.gelato#best-ingredients]]`, ensuring links are updated!
 
 If you want to migrate a section beneath a certain header to a different note entirely, [[Move Header|dendron://dendron.dendron-site/dendron.topic.refactoring#move-header]] will do the job and ensure links are updated.
