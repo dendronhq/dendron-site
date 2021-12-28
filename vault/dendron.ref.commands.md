@@ -2,7 +2,7 @@
 id: eea2b078-1acc-4071-a14e-18299fc28f47
 title: Commands
 desc: ''
-updated: 1640712557295
+updated: 1640719408190
 created: 1595261816971
 nav_order: 3.1
 ---
@@ -81,13 +81,15 @@ If you use this command in a [[multi vault|dendron.topic.multi-vault]] workspace
 ### Delete Node
 
 - shortcuts:
-  - key: `ctrl+shift+d`e
+  - key: `ctrl+shift+d`
   - mac: `cmd+shift+d`
 
-Delete a note or schema
+Delete a note or schema. A prompt will occur before deletion if any links will break that are referencing the note.
 
-You can also delete a note from the explorer by: 
-Right Click on the note > Dendron: Delete Node
+You can also delete a note from the explorer:
+
+- Right Click on the note
+- `Dendron: Delete Node`
 
 ### Insert Note
 

@@ -1,6 +1,6 @@
 ---
 id: SRqCvd66cO4L5OZ-B0PKG
-title: "0.47"
+title: '0.47'
 desc: ''
 updated: 1625167081472
 created: 1624287990476

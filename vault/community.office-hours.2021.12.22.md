@@ -2,7 +2,7 @@
 id: BXA8UBHOQGyvdH7QbrIGf
 title: '22'
 desc: ''
-updated: 1640614527896
+updated: 1640718832749
 created: 1640614495775
 documentId: 1FEEo_0aNiNfnW_tzo58m_HAM8wI_YMujHmKUaNBSzBk
 revisionId: >-
@@ -11,12 +11,16 @@ commentsUpdated: true
 ---
 ## Office Hours
 
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/nSh2IvWFceI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Notes
+
 December 22nd, 2021
 
 Release notes:
 
-- 0.73: [https://wiki.dendron.so/notes/fRAyMtRmwkCwdRBj24eb0/](https://wiki.dendron.so/notes/fRAyMtRmwkCwdRBj24eb0/)
-- 0.74: [https://wiki.dendron.so/notes/NWLX4IYsgJ6tjM93ZjVnt/](https://wiki.dendron.so/notes/NWLX4IYsgJ6tjM93ZjVnt/) 
+- [[0.73: Release Notes|changelog.release.2021-12-14]]
+- [[0.74: Release Notes|changelog.release.2021-12-21]]
 
 ### Highlights
 
@@ -35,16 +39,11 @@ Release notes:
   - Conclusion tab updated (trail, forest, wilderness sections)
   - User guide with different areas
 
-  - 
-- **Note traits:**Dendron's new trait system allows you to create custom behavior and apply it to certain notes. This means you can have special actions take place at note creation, like automated updates to the name and title. Jump into the[ ](https://wiki.dendron.so/notes/EQoaBI8A0ZcswKQC3UMpO)[note traits quickstart](https://wiki.dendron.so/notes/EQoaBI8A0ZcswKQC3UMpO) to take it for a test drive.
-
--still under experimental
-
--control how hierarchies are generated
-
--adding customer behavior on your notes
-
--define type of notes
+- **Note traits:**Dendron's new trait system allows you to create custom behavior and apply it to certain notes. This means you can have special actions take place at note creation, like automated updates to the name and title. Jump into the [note traits quickstart](https://wiki.dendron.so/notes/EQoaBI8A0ZcswKQC3UMpO) to take it for a test drive.
+  -still under experimental
+  -control how hierarchies are generated
+  -adding customer behavior on your notes
+  -define type of notes
 
 ### Notes
 
@@ -54,9 +53,7 @@ _Notes around questions asked during office hours_
 
 1. _Note traits, how it relates to existing functionality of hooks?_
 1. _How to convince others to use Dendron instead of notion?_
-- _Dendron has functionality to pods_
-- _Provide resources /links_
-  - _Livestream Demo:__[https://youtu.be/dW6m4_O0qvQ](https://youtu.be/dW6m4_O0qvQ)_
-  - _Ness Lab Interview__[https://nesslabs.com/dendron-featured-tool](https://nesslabs.com/dendron-featured-tool)_
-  - 
-
+  - _Dendron has functionality to pods_
+  - _Provide resources /links_
+    - _Livestream Demo:__[https://youtu.be/dW6m4_O0qvQ](https://youtu.be/dW6m4_O0qvQ)_
+    - _Ness Lab Interview__[https://nesslabs.com/dendron-featured-tool](https://nesslabs.com/dendron-featured-tool)_
