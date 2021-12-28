@@ -83,7 +83,7 @@ If set to false, the default body for Discussion would be : Discussion for `<tit
 - type: object
 - required: false
 
-Github issues make it possible to provide aliases to the frontmatter fields so that it can support task note mappings. It allows us to directly use a GitHub issue as a task note and then publish the results back to GitHub when we update the task status.
+GitHub issues make it possible to provide aliases to the frontmatter fields so that it can support task note mappings. It allows us to directly use a GitHub issue as a task note and then publish the results back to GitHub when we update the task status.
 
 ```ts
 type AliasMapping = {
