@@ -58,7 +58,7 @@ You can create a hierarchy at any level.
 
 > 🌱 **ACTION:** Type the following into lookup and hit enter: `recipes.italian.desserts.tiramisu`
 
-You'll there is a `+` sign next to `italian` and `desserts` when viewing in the lookup or tree view. The plus sign indicates that this note is a stub. A **[[stub|dendron://dendron.dendron-site/dendron.concepts#stubs]]** is a placeholder for a note that hasn't been created. Dendron uses stubs to avoid cluttering your file system with empty notes when creating hierarchies.
+You'll see there is a `+` sign next to `italian` and `desserts` when viewing in the lookup or tree view. The plus sign indicates that this note is a stub. A **[[stub|dendron://dendron.dendron-site/dendron.concepts#stubs]]** is a placeholder for a note that hasn't been created. Dendron uses stubs to avoid cluttering your file system with empty notes when creating hierarchies.
 
 ![[dendron://dendron.dendron-site/asset.preview#tree-view-dark,1:#*]]
 
