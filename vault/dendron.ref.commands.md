@@ -2,7 +2,7 @@
 id: eea2b078-1acc-4071-a14e-18299fc28f47
 title: Commands
 desc: ''
-updated: 1640446818971
+updated: 1640712557295
 created: 1595261816971
 nav_order: 3.1
 ---
@@ -265,6 +265,10 @@ You can also move an open note from the explorer by: Right Click on the note > D
 ### Paste Link
 
 Transform URL in clipboard to nicely formatted markdown link
+
+### Convert Link
+
+![[dendron://dendron.dendron-site/dendron.topic.refactoring#convert-link,1:#*]]
 
 ### Random Note
 
