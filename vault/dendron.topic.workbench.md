@@ -68,6 +68,17 @@ When you create a link anywhere in Dendron, it becomes a backlink to the destina
 ![](https://cdn.loom.com/images/originals/25fce495c52a475b9a952e1901b93e4c.jpg?Expires=1626335459&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jZG4ubG9vbS5jb20vaW1hZ2VzL29yaWdpbmFscy8yNWZjZTQ5NWM1MmE0NzViOWE5NTJlMTkwMWI5M2U0Yy5qcGciLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE2MjYzMzU0NTl9fX1dfQ__&Signature=HvqcgNlMGeafss5bfNHzXg1yj6alFAtAuTIOvdunRRUHPUH05AGHr6Cv0uv0rrHVuIRzOXHflqLjKVmrYaF5Xms5NBURrQ8qu0TC6s541TLHr0G3vrkd8hZYkkx7-r08WgjKJeAKP9BxmhazRYggwE4SPLD0pK39PKHQ8SPHmIln9E504NHOUgvfyXlR-YCcjrjgxpyNMIEIkJ~9GsKxZ74qVO8fs5yAnRybXQHIlTEzzE3~eCQh6CxdDEWdD5TPw1gj9Nz-Nb3Qh9bk60vaeqiuvVuHyWTzhEHX95z4aSZT5-n2a9FVS90wDyQwxQfnwzkHP2ittDDX~cY8nKMToA__&Key-Pair-Id=APKAJQIC5BGSW7XXK7FQ)
 > The Backlinks view (fully expanded) is shown above with an example note 'eggs.md' open. You can see one link and 3 link candidates shown in the panel.
 
+### Backlink View: Command Palette 
+#### Change Sort Order
+Change sort order of the backlinks:
+* Lexigraphically: sorts the backlinks by the name of the note.
+* By Update time: sorts the backlinks by descending update timestamp of the note (most recently updated notes first). 
+
+Default: Lexigraphically. 
+
+#### Expand All/Collapse all 
+* Expand All: Expands all the backlinks in the backlink view.
+* Collapse All: Collapses all the backlinks in the backlink view.
 
 ### Accessing the Backlinks view
 The Backlinks view is located in the Explorer side bar.
