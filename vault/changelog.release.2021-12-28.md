@@ -2,7 +2,7 @@
 id: N1Mn5p6O2tVVkdDM0Ys1w
 title: '0.75'
 desc: ''
-updated: 1640719141612
+updated: 1640720199403
 created: 1640715852170
 ---
 
@@ -14,7 +14,7 @@ When deleting notes, did you just break some links elsewhere? Now Dendron makes 
 
 Speaking of broken links, Dendron has an entirely new command: **Convert Link**! Have links you need to update, or links you'd like to otherwise transform into other formats (like usertags or hashtags)? Take a look at [[Convert Link|dendron://dendron.dendron-site/dendron.topic.refactoring#convert-link]] and give it a shot.
 
-By default, backlinks are listed in alphabetical order. Now you choose to sort those backlinks by last update timestamp (`updated` attribute in note frontmatter). Learn more ([[here|dendron://dendron.dendron-site/dendron.topic.workbench#backlink-view-command-palette]]).
+By default, backlinks are listed in alphabetical order. Now you can choose to sort those backlinks by last update timestamp (`updated` attribute in note frontmatter). Learn more ([[here|dendron://dendron.dendron-site/dendron.topic.workbench#backlink-view-command-palette]]).
 
 ### Highlights
 
