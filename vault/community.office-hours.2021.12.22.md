@@ -2,7 +2,7 @@
 id: BXA8UBHOQGyvdH7QbrIGf
 title: '22'
 desc: ''
-updated: 1640614527896
+updated: 1640716388708
 created: 1640614495775
 documentId: 1FEEo_0aNiNfnW_tzo58m_HAM8wI_YMujHmKUaNBSzBk
 revisionId: >-
@@ -11,12 +11,16 @@ commentsUpdated: true
 ---
 ## Office Hours
 
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/nSh2IvWFceI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Notes
+
 December 22nd, 2021
 
 Release notes:
 
-- 0.73: [https://wiki.dendron.so/notes/fRAyMtRmwkCwdRBj24eb0/](https://wiki.dendron.so/notes/fRAyMtRmwkCwdRBj24eb0/)
-- 0.74: [https://wiki.dendron.so/notes/NWLX4IYsgJ6tjM93ZjVnt/](https://wiki.dendron.so/notes/NWLX4IYsgJ6tjM93ZjVnt/) 
+- [[0.73: Release Notes|changelog.release.2021-12-14]]
+- [[0.74: Release Notes|changelog.release.2021-12-21]]
 
 ### Highlights
 

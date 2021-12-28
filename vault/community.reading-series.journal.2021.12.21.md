@@ -2,11 +2,11 @@
 id: xtjtc30VU8BreoeZuFUK1
 title: '12 - I was stuck on a side project for 5 years. Here’s how I finished it'
 desc: ''
-updated: 1640710365524
+updated: 1640717640374
 created: 1640108567710
 ---
 
-- [I was stuck on a side project for 5 years. Here’s how I finished it.](https://cassandraxia.com/writing/shed.html)
+- [I was stuck on a side project for 5 years. Here’s how I finished it.](https://link.dendron.so/6pOd)
 
 > Sheds are never finished. You just decide you are done.
 

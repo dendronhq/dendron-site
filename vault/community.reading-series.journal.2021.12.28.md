@@ -2,11 +2,11 @@
 id: jLiUw9ObEt2C66FB9zJBg
 title: '13 - Tsundoku: The Art of Buying Books and Never Reading Them'
 desc: ''
-updated: 1640713857920
+updated: 1640717597751
 created: 1640710374963
 ---
 
-- [Tsundoku: The Art of Buying Books and Never Reading Them](https://getpocket.com/explore/item/tsundoku-the-art-of-buying-books-and-never-reading-them)
+- [Tsundoku: The Art of Buying Books and Never Reading Them](https://link.dendron.so/6pOc)
 
 Nearing the end of the year, you may have a habit of expanding your collections: piling up unread books, unplayed games, unused devices.
 

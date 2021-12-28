@@ -2,7 +2,7 @@
 id: srajljj10V2dl19nCSFiC
 title: Refactoring
 desc: ''
-updated: 1640712470851
+updated: 1640715792988
 created: 1638900089932
 ---
 
@@ -136,19 +136,19 @@ Converts links of various statuses and kinds.
 
 You can use `Convert Link` to convert broken links into either plaintext or a different link to an existing note.
 These are the available options for converting broken links:
-- alias: use link's alias if exists (otherwise option isn't suggested)
-- note name: use link destination's note name (basename excluding all parent hierarchies)
-- hierarchy: use link destination's entire hierarchy
-- prompt: user is prompted to manually input text to use
-- change destination: user is prompted a lookup to choose a different existing note to link.
+- `alias`: use link's alias if exists (otherwise option isn't suggested)
+- `note name`: use link destination's note name (basename excluding all parent hierarchies)
+- `hierarchy`: use link destination's entire hierarchy
+- `prompt`: user is prompted to manually input text to use
+- `change destination`: user is prompted a lookup to choose a different existing note to link.
 
 #### Valid links
 
 You can use `Convert Link` to convert a limited set of valid links to other types of links.
 These are the available operations:
 - when cursor is above a usertag, user is asked if they want to convert it to a regular wikilink
-- when cursor is above a regular wikilink with user.* hierarchy, user is asked if they want to convert it to a usertag
+- when cursor is above a regular wikilink with `user.*` hierarchy, user is asked if they want to convert it to a usertag (ex. `@person`)
 - when cursor is above a hashtag, user is asked if they want to convert it to a regular wikilink
-- when cursor is above a regular wikilink with tags.* hierarchy, user is asked if they want to convert it to a hashtag
+- when cursor is above a regular wikilink with `tags.*` hierarchy, user is asked if they want to convert it to a hashtag (ex. `#my.tag`)
 
 ##
