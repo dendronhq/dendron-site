@@ -69,6 +69,7 @@ When you create a link anywhere in Dendron, it becomes a backlink to the destina
 > The Backlinks view (fully expanded) is shown above with an example note 'eggs.md' open. You can see one link and 3 link candidates shown in the panel.
 
 ### Backlink View: Command Palette 
+
 #### Change Sort Order
 Change sort order of the backlinks:
 * Lexigraphically: sorts the backlinks by the name of the note.
