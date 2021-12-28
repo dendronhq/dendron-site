@@ -2,7 +2,7 @@
 id: j5wgTcRHQZomzSHsg41O8
 title: Quickstart
 desc: ''
-updated: 1639981332601
+updated: 1640655573595
 created: 1638871404471
 published: false
 ---
@@ -73,6 +73,8 @@ To run a saved pod configuration, use the `Dendron: Export Pod V2`.  In the Quic
 You can also add a command shortcut to ru your particular pod configuration.  Bring up your VSCode `keybindings.json` file by running `Preferences: Open Keyboard Shortcuts (JSON)`.  Then add the following shortcut definition: 
 
 For "args", replace with your pod-ID.
+
+MacOS example, using `cmd+k t`. For Windows or Linux, this could be `ctrl+k t` instead.
 
 ```json
 {
