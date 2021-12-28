@@ -2,7 +2,7 @@
 id: N1Mn5p6O2tVVkdDM0Ys1w
 title: '0.75'
 desc: ''
-updated: 1640720449975
+updated: 1640720719200
 created: 1640715852170
 ---
 
@@ -10,9 +10,9 @@ Dendron 0.75 has sprouted  🌱
 
 This is the last release of the year!
 
-When deleting notes, did you just break some links elsewhere? Now Dendron makes sure to give you a heads up, about any links that will break, with the latest update to the `Dendron: Delete Node` command.
+Make any mistakes this year you wish you could take back? Moving forward, if those mistakes involve accidentally deleting a note, Dendron will now ask for confirmation when deleting as well as show a preview of all links that will be broken from the operation. This is all thanks to the latest `Dendron: Delete Node` command enhancements!
 
-Speaking of broken links, Dendron has an entirely new command: **Convert Link**! Have links you need to update, or links you'd like to otherwise transform into other formats (like usertags or hashtags)? Take a look at [[Convert Link|dendron://dendron.dendron-site/dendron.topic.refactoring#convert-link]] and give it a shot.
+Speaking of broken links, Dendron has an entirely new command: **Convert Link**! This command lets you convert broken links to plaintext, replacing the link with the link alias, note name, or text of your choosing. You can also use it to convert existing wiki links into other [[types|dendron://dendron.dendron-site/dendron.topic.refactoring#valid-links]] of wiki links.
 
 By default, backlinks are listed in alphabetical order. Now you can choose to sort those backlinks by last update timestamp (`updated` attribute in note frontmatter). Learn more ([[here|dendron://dendron.dendron-site/dendron.topic.workbench#backlink-view-command-palette]]).
 
