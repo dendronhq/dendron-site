@@ -25,6 +25,7 @@ A scope is the area of the product a feature belongs in
 - #scope.unsorted
 - #scope.views
 - #scope.workspace
+- #scope.docs
 
 ## Dev
 ![[Dev|dendron://dendron.dendron-site/tags.scope.dev]]
