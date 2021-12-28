@@ -2,7 +2,7 @@
 id: eea2b078-1acc-4071-a14e-18299fc28f47
 title: Commands
 desc: ''
-updated: 1640715528115
+updated: 1640719408190
 created: 1595261816971
 nav_order: 3.1
 ---
@@ -84,7 +84,7 @@ If you use this command in a [[multi vault|dendron.topic.multi-vault]] workspace
   - key: `ctrl+shift+d`
   - mac: `cmd+shift+d`
 
-Delete a note or schema. Deleting a node will warn about any broken links after deletion.
+Delete a note or schema. A prompt will occur before deletion if any links will break that are referencing the note.
 
 You can also delete a note from the explorer:
 
