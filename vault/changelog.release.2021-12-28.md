@@ -2,7 +2,7 @@
 id: N1Mn5p6O2tVVkdDM0Ys1w
 title: '0.75'
 desc: ''
-updated: 1640720199403
+updated: 1640720449975
 created: 1640715852170
 ---
 
@@ -62,15 +62,9 @@ To see what _Office Hours_, _New User Tuesdays_, and other events are coming up,
 A big **thanks** to the following gardeners that brought up issues, contributions, and fixes to this release :man_farmer: :woman_farmer: 
 You can see an overview of all roles [[here|dendron://dendron.dendron-site/community.roles]]
 
-- [Carlos Cámara](https://github.com/ccamara) `@ccamara#5131`
-  - #dendron.taxonomist
-  - [docs: Fix typos on note lookup output formats](https://github.com/dendronhq/dendron/issues/1919)
-  - [docs: Fix typo on unique `id` value is unique to the hook](https://github.com/dendronhq/dendron-site/pull/331)
-  - [docs: Fix typo for foo/bar instead of foot/bar](https://github.com/dendronhq/dendron-site/pull/330)
-  - [docs: Fix typo in Tree benefits for financial contributors to Dendron](https://github.com/dendronhq/dendron-site/pull/328)
 - [Jim Tittsler](https://github.com/jimt) `@jimt#5534`
-  - #dendron.taxonomist
-  - [docs: Fix typos](https://github.com/dendronhq/dendron-site/pull/332)
+    - #dendron.taxonomist
+    - [docs: Fix typos](https://github.com/dendronhq/dendron-site/pull/332)
 - [Zero King](https://github.com/l2dy) `@l2dy#9201`
     - [Publish commands still generate package.json for @dendronhq/dendron-11ty-legacy](https://github.com/dendronhq/dendron/issues/1946)
 - [Rick Berger](https://github.com/rickbsgu) `@rickbsgu#4922`
@@ -79,6 +73,12 @@ You can see an overview of all roles [[here|dendron://dendron.dendron-site/commu
 - [Denis Novikov](https://github.com/voothi) `@voothi#3159`
     - [Wikilinks (backlinks) is corrupted (view color and rename change) if there's too much text visible on the screen](https://github.com/dendronhq/dendron/issues/1976)
 - [Claus Conrad](https://github.com/cconrad) `@cconrad#0514`
+    - #dendron.taxonomist
+    - [docs: Fix typos on note lookup output formats](https://github.com/dendronhq/dendron-site/pull/327)
+    - [docs: Fix typo on unique `id` value is unique to the hook](https://github.com/dendronhq/dendron-site/pull/331)
+    - [docs: Fix typo for foo/bar instead of foot/bar](https://github.com/dendronhq/dendron-site/pull/330)
+    - [docs: Fix typo in Tree benefits for financial contributors to Dendron](https://github.com/dendronhq/dendron-site/pull/328)
+    - #dendron.bugcatcher
     - [Broken link in GitHub issue template "Bug report"](https://github.com/dendronhq/dendron/issues/1988)
     - [Preview ignores wikilink label in rare case](https://github.com/dendronhq/dendron/issues/1989)
 - [Ryan Hill](https://github.com/rlh1994) `@rlh1994#9754`
