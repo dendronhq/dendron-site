@@ -2,8 +2,11 @@
 id: 4ushYTDoX0TYQ1FDtGQSg
 title: Publish
 desc: ''
-updated: 1639600098780
+updated: 1640726512437
 created: 1635379320910
+config:
+  global:
+    enableChildLinks: false
 ---
 
 ## Summary
@@ -17,3 +20,14 @@ Checkout our [[quickstart guide|dendron://dendron.dendron-site/dendron.topic.pub
 ## Details
 
 Dendron publishes your notes using a custom [Next.js](https://nextjs.org/) application, also available on [github](https://github.com/dendronhq/nextjs-template).
+
+## Topics
+- [[Getting Started|dendron://dendron.dendron-site/dendron.topic.publish.quickstart]]: How to get started
+- [[Features|dendron://dendron.dendron-site/dendron.topic.publish.features]]: Dendron publishing features
+- [[CLI|dendron://dendron.dendron-site/dendron.topic.publish.cli]]: The Command Line Interface for publishing
+- [[Configuration|dendron://dendron.dendron-site/dendron.topic.publish.config]]: Customizing publishing
+- [[Cookbook|dendron://dendron.dendron-site/dendron.topic.publish.cook]]: Various workflows for publishing
+- [[Faq|dendron://dendron.dendron-site/dendron.topic.publish.faq]]: Frequently asked questions
+- [[Migration|dendron://dendron.dendron-site/dendron.topic.publish.migration]]: Migrating from 11ty (legacy publishing)
+- [[Troubleshooting|dendron://dendron.dendron-site/dendron.topic.publish.trouble]]: Diagnose common issues
+- [[Upgrade|dendron://dendron.dendron-site/dendron.topic.publish.upgrade]]: Upgrading 

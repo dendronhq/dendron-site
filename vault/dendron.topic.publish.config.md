@@ -2,7 +2,7 @@
 id: fabYbPyk3DMCMoG92lIrq
 title: Config
 desc: ''
-updated: 1638398609395
+updated: 1640727025047
 created: 1637772506823
 ---
 
@@ -12,31 +12,27 @@ Publishing configuration for Dendron NextJS Publishing.
 
 - NOTE: this is a work in progress, currently, refer to configuration options [[here|dendron://dendron.dendron-site/dendron.topic.publish-legacy.configuration]]
 
-<!-- ## General
+## Scopes
 
-### Note Properties
+Configuration introduced here have three different scopes:
+- vault: applies over a vault
+- hierarchy: apply over a hierarchy
+- note: apply over a single note
 
-#### permalink
-- default: ""
+## Organization
 
-Override URL for the note -->
+Controls the structure of notes in published page
 
-## Static Assets
+### Collection
+- scopes: [note]
 
-### Workspace Properties
-
-#### copyAssets
-
-- default: true
-
-Copy assets from vault to site.
-
-## Page Visibility
-
-### Note Properties
+This feature is inspired by [jekyll collections](https://jekyllrb.com/docs/collections/).
+When set on a note, marks the given note and all children of it as a collection. 
 
 
 ## SEO
+
+Search engine optimization related settings
 
 ### Note Properties
 
@@ -54,3 +50,14 @@ Copy assets from vault to site.
 Sets image url for the page. Image shows up in image preview on social media sites
 
 
+## Static Assets
+
+Publishing non dendron notes (eg. pictures, css, scripts, etc)
+
+### Workspace Properties
+
+#### copyAssets
+
+- default: true
+
+Copy assets from vault to site.
