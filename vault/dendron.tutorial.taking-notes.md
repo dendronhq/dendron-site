@@ -19,7 +19,7 @@ The **Lookup Bar** is the main way to interact with Dendron. You can use it for 
 
 > 🌱 **ACTION:** Let's use the lookup to create a note! Open the lookup bar with `Ctrl+L` / `Cmd+L`. Type `recipes` and hit `Enter`. Afterward, you can use the `Ctrl+Tab` / `Cmd+Tab` shortcut to get back to the previous note you were viewing.
 
-This creates a note named `recipes.md`. Notes in Dendron are just plaintext [[markdown|dendron://dendron.dendron-site/dendron.topic.markdown]]. Notes:
+This creates a note named `recipes.md`. Notes in Dendron are just plaintext [[Markdown|dendron://dendron.dendron-site/dendron.topic.markdown]]. Notes:
 
 - Live locally on your file system.
 - Are portable across operating systems and a variety of software.

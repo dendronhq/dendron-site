@@ -2,7 +2,7 @@
 id: f2ed8639-a604-4a9d-b76c-41e205fb8713
 title: Configuration
 desc: ''
-updated: 1639542456600
+updated: 1640428501432
 created: 1608528797892
 nav_order: 3
 ---
@@ -14,7 +14,7 @@ Dendron lets you control publication behavior at multiple levels:
 - **globally** using `dendronConfig.site` 
 - **per hiearchy** through `dendronConfig.site.config` 
 - **per note** through the publication related frontmatter
-- **per line** through custom dendron directives inside the note
+- **per line** through custom Dendron directives inside the note
 
 ## Global Configuration
 
@@ -41,7 +41,7 @@ site:
 
 Prefix for assets. 
 
-By default, assets are served from the root. If you are publishing to github pages and followed the instructions [here](https://pages.github.com/) by creating a repo named `{username}.github.io`, then no further action is needed. This is because github will make your site available at `https://{username}.github.io`. If you created a custom repo, you will need to set the prefix to the name of your repo because github will make your site available at `https://{username}.github.io/{your-repo-name/}`
+By default, assets are served from the root. If you are publishing to GitHub Pages and followed the instructions [here](https://pages.github.com/) by creating a repo named `{username}.github.io`, then no further action is needed. This is because GitHub will make your site available at `https://{username}.github.io`. If you created a custom repo, you will need to set the prefix to the name of your repo because GitHub will make your site available at `https://{username}.github.io/{your-repo-name/}`
 
 ### copyAssets
 
@@ -80,7 +80,7 @@ duplicateNoteBehavior:
 ```
 
 ### ga_tracking 
-Your ga tracking number if you want to add google analytics. 
+Your ga tracking number if you want to add Google Analytics. 
 
 - NOTE: 
   - won't be included in `dev` preview.
@@ -89,7 +89,7 @@ Your ga tracking number if you want to add google analytics.
 ### githubCname
 - default: none
 
-Cname used for github pages
+CNAME used for GitHub Pages
 
 ### logo 
 
@@ -112,7 +112,7 @@ Set a different port when using the [[buildSite|dendron.ref.cli#buildsite]] comm
 
 Path to favicon. Relative to workspace.
 
-- NOTE: this is deprecated in nextjs publishing (favicon can be placed directly in the `/public` dir)
+- NOTE: this is deprecated in Next.js publishing (favicon can be placed directly in the `/public` dir)
 
 ### siteHierarchies 
 
@@ -145,13 +145,13 @@ Location of the directory where site will be build. Relative to your workspace
 - default: none
 - status: NOT currently supported 
 
-Location of the github repo where your site notes are located. By default, this is assumed to be your `workspaceRoot` if not set. This is used with the `Publish Notes` command -->
+Location of the GitHub repo where your site notes are located. By default, this is assumed to be your `workspaceRoot` if not set. This is used with the `Publish Notes` command -->
 
 ### siteUrl 
 - required
 
 Set to the URL that you plan on publishing to. All links will be prefixed with this. 
-If you are publishing with github pages, the format is `https://{username}.github.io/{repo}/`
+If you are publishing with GitHub Pages, the format is `https://{username}.github.io/{repo}/`
 
 ### usePrettyRefs 
 - status: optional
@@ -189,12 +189,12 @@ Writing a stub will create an empty note in your vault with the name of the stub
 
 Writing stubs is important to guarantee permanent urls as Dendron will randomize stub ids whenever Dendron restarts. 
 
-### Github Options
+### GitHub Options
 
 #### gh_edit_link
 
 - default: true
-  Show a edit on github link at the bottom of the page
+  Show a edit on GitHub link at the bottom of the page
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/publish.edit-on-github.jpg)
 
@@ -212,7 +212,7 @@ the branch that the docs site is served from
 
 #### gh_edit_view_mode
 
-- default: tree (brings user to github page)
+- default: tree (brings user to GitHub page)
 
 switch to "edit" to bring the user directly into editing mode
 
@@ -225,7 +225,7 @@ switch to "edit" to bring the user directly into editing mode
 
 #### description
 
-- eg: `Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.`
+- eg: `Dendron is a local-first, Markdown-based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size.`
 
 #### author
 
@@ -258,7 +258,7 @@ To set options for **all** hierarchies, set `{hiearchy name}` to **root**.
 - default: true 
 - values: true|false|hashByVault
 
-If set to false, dendron will only publish notes within the hierarchy that have `published: true` set in the frontmatter
+If set to false, Dendron will only publish notes within the hierarchy that have `published: true` set in the frontmatter
 
 If set as a hash, you can further specify `publishByDefault` settings on a per vault basis. The key is the name of the vault and the value is a boolean. 
 
@@ -278,15 +278,15 @@ site:
 - default: false
 - status: NOT currently supported
 
-If set to true, dendron will add the following meta tag `<meta name="robots" content="noindex, nofollow”>` which will tell google to not index your page
+If set to true, Dendron will add the following meta tag `<meta name="robots" content="noindex, nofollow”>` which will tell Google to not index your page
 
-When google indexes a page, it will penalize sites that have duplicate content from other sites. this is useful if you are using your hiearchy as a [[cache|dendron.guides.workflows.cache]]
+When Google indexes a page, it will penalize sites that have duplicate content from other sites. this is useful if you are using your hiearchy as a [[cache|dendron.guides.workflows.cache]]
 
 ### customFrontmatter
 
 - default: \[]
 
-If set, dendron will add the specified frontmatter to each published note in the hierarchy. note that this will override existing keys with the same name when publishing
+If set, Dendron will add the specified frontmatter to each published note in the hierarchy. note that this will override existing keys with the same name when publishing
 
 - eg. add `toc: true` to all notes published under the `iam.*` hierarchy
 
@@ -364,7 +364,7 @@ publish:
     └── dendron.zen
 ```
 
-### Examples of CNAME, Github and SEO Options
+### Examples of CNAME, GitHub and SEO Options
 
 ```yml
 site:
@@ -378,7 +378,7 @@ site:
     title: Dendron
     author: "dendronhq"
     twitter: "dendronhq"
-    description: "Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size."
+    description: "Dendron is a local-first, Markdown-based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size."
 vaults:
     - fsPath: vault
 ```
@@ -441,7 +441,7 @@ Same example where `Bravo` has `nav_order: 2` and `Charlie` has `nav_order: 1`
 
 - default: false
 
-To tell google to not index a page, you can add the following tag to the frontmatter. You can also have this as a default for a given hierarchy by setting `noIndexByDefault: true` in the site config.
+To tell Google to not index a page, you can add the following tag to the frontmatter. You can also have this as a default for a given hierarchy by setting `noIndexByDefault: true` in the site config.
 
 ```yml
 ...
@@ -454,7 +454,7 @@ Disable git linking for this page
 
 ### gitNotePath
 
-When set, override how we generate the URL for the [[edit on github|dendron.topic.publish-legacy.features#edit-on-github]] link.
+When set, override how we generate the URL for the [[edit on GitHub|dendron.topic.publish-legacy.features#edit-on-github]] link.
 
 There are a few special variables you can set:
 
@@ -522,7 +522,7 @@ You can control publication on a per line basis.
 
 ### LOCAL_ONLY_LINE
 
-Sometimes, you just want to keep a few lines private while publishing the rest of your vault. You can do that with `Local only`. In order to mark a line as `Local Only`, add the following markdown comment at the end of the line: 
+Sometimes, you just want to keep a few lines private while publishing the rest of your vault. You can do that with `Local only`. In order to mark a line as `Local Only`, add the following Markdown comment at the end of the line: 
 
 ```markdown
 Hello World!  <!-- Will be published -->

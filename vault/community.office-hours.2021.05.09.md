@@ -15,8 +15,8 @@ created: 1621280102641
 ### Minutes
 
 -   What’s the roadmap for Dendron (specifically for UI).
-    -   NextJS UI
-    -   Tree view going to be replaced with the NextJS app
+    -   Next.js UI
+    -   Tree view going to be replaced with the Next.js app
     -   Publishing
     -   UX component
 -   How do we do NPM publishing of the design package?

@@ -2,7 +2,7 @@
 id: 7Y1f7gPmzhdLaepIfBvcj
 title: '0.63'
 desc: ''
-updated: 1634068566278
+updated: 1640368882353
 created: 1634061545899
 ---
 
@@ -27,7 +27,7 @@ Dendron configuration can be overwhelming - we are working on making it less so 
 
 ### Community
 
-#### Greenhouse Series - Typescript Development with Dendron and VSCode
+#### Greenhouse Series - Typescript Development with Dendron and VS Code
 
 ![[dendron://dendron.dendron-site/community.greenhouse#^Ddu3OTwrJYvI:#*]]
 
@@ -48,7 +48,7 @@ You can see an overview of all roles [[here|community.roles]]
     - #dendron.bugcatcher
     - mermaid not working in preview
 - [Miguel Pereira](https://github.com/doctorboyMP) `doctorboy#9882`
-    - issue with dendron snapshots
+    - issue with Dendron snapshots
 - [Laurentiu Nicola](https://github.com/lnicola)
     - #dendron.bugcatcher
     - ["Taking Notes" tutorial link doesn't work in the preview pane · Issue #1476 · dendronhq/dendron](https://github.com/dendronhq/dendron/issues/1476)
@@ -57,7 +57,7 @@ You can see an overview of all roles [[here|community.roles]]
     - #dendron.bugcatcher
     - [Apostrophes are not allowed in link labels · Issue #1498 · dendronhq/dendron](https://github.com/dendronhq/dendron/issues/1498)
 - [Jack](https://github.com/imalightbulb) `@I'm a lightbulb#6986`
-    - issue with github link on dendron-site
+    - issue with GitHub link on dendron-site
 
 ### Changelog
 ![[changelog#0630,1:#062]]

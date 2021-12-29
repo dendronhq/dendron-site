@@ -17,7 +17,7 @@ Dendron 0.50 has sprouted  🌱
 - **Block reference autocomplete**. Any block in the current not can be referenced (and the reference is automatically added). Just type `[[^` to find all arbitrary blocks you can reference in your current note. More details [[here|dendron._ref.intellisense]]. 
 - **Better ux for block anchors**. They are now faded in the text editor and hidden on published sites
 - **Show/hide labels in graph view** and date to be a minimalist.
-- **Github import pod.** Now, you can import issues directly from Github and have them show up as notes! Learn more [[here|dendron.topic.pod.builtin.github-issue]]
+- **Github import pod.** Now, you can import issues directly from GitHub and have them show up as notes! Learn more [[here|dendron.topic.pod.builtin.github-issue]]
 - **Direct child filter ignores stubs.** There's now an easy way to filter notes in the current hierarchy without the clutter of stub notes. Last week's CROP shipped! 
 - **Fix windows preview issue** where links fail top open
 
@@ -28,7 +28,7 @@ Our documentation changes a lot week by week. Below is a highlight of some updat
 - The revamped [[dendron.tutorial]] is on the Dendron site. Go check it out if you're starting out (or would just like a refresher on all things Dendron).  
 - Added [[dendron.guides.best-practices]] around using Dendron across machines and repo synchronization. 
 - Docs for [[dendron._ref.intellisense]]. 
-- Documented the [[Github Pod|dendron.topic.pod.builtin.github-issue.import]]
+- Documented the [[GitHub Pod|dendron.topic.pod.builtin.github-issue.import]]
 
 
 ### Pruning

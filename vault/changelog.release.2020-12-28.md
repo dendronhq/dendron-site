@@ -7,7 +7,7 @@ created: 1609180024902
 ---
 Dendron 0.22 is here 🌱
 
-This release focuses on Dendron's [[Publishing v2|dendron.topic.publish]]. With this release, v2 is functionally at feature parity with our legacy jekyll based publishing (and over 30x faster). You can see the remaining gaps [[here|dendron.topic.publish-legacy.migration#gaps]]. These should be closed by the end of this week. 
+This release focuses on Dendron's [[Publishing v2|dendron.topic.publish]]. With this release, v2 is functionally at feature parity with our legacy Jekyll based publishing (and over 30x faster). You can see the remaining gaps [[here|dendron.topic.publish-legacy.migration#gaps]]. These should be closed by the end of this week. 
 
 - NOTE: to get the latest publishing changes, make sure to run the following commands in your workspace. See [[here|dendron.topic.publish-legacy.quickstart]] for setup instructions
 
@@ -18,10 +18,10 @@ npm install @dendronhq/dendron-11ty@latest
 
 ### Highlights
 
-- dendron v2 publishing functionally at feature parity with legacy publishing
+- Dendron v2 publishing functionally at feature parity with legacy publishing
   - we're using it to host [dendron.so](https://dendron.so/) now :)
-- [[github actions based publishing workflow|dendron.topic.publish-legacy.github]] 
-  - keep a clean git history by having github manage building your website 
+- [[GitHub Actions based publishing workflow|dendron.topic.publish-legacy.github]] 
+  - keep a clean git history by having GitHub manage building your website 
 - bug fixes and performance improvements
 
 ### In the Works

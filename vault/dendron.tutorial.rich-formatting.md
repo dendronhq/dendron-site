@@ -7,7 +7,7 @@ created: 1625573403967
 nav_order: 3
 ---
 
-Dendron extends regular markdown with additional syntax. This covers everything in [GitHub Flavored Markdown (GFM)](https://github.github.com/gfm/) with additional features that are unique to Dendron. Take a look at some examples in this note to see what's possible. Have the preview view opened (`Dendron: Show Preview`) to see how these will get rendered.
+Dendron extends regular Markdown with additional syntax. This covers everything in [GitHub Flavored Markdown (GFM)](https://github.github.com/gfm/) with additional features that are unique to Dendron. Take a look at some examples in this note to see what's possible. Have the preview view opened (`Dendron: Show Preview`) to see how these will get rendered.
 
 ## Markdown Formatting Options
 

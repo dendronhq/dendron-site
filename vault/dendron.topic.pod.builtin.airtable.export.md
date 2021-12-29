@@ -2,7 +2,7 @@
 id: zIBErZ8tT7oU6nm0JESFc
 title: Export
 desc: ''
-updated: 1633394322239
+updated: 1640428757015
 created: 1623502889261
 ---
 
@@ -15,7 +15,7 @@ Transfer contents of Dendron to a table on [Airtable](https://airtable.com/)
 
 ### Checkpointing
 
-The pod maintains a checkpointing file to keep track of the latest file that has been successfully exported to airtable.
+The pod maintains a checkpointing file to keep track of the latest file that has been successfully exported to Airtable.
 
 ### Idempotency
 
@@ -40,7 +40,7 @@ hen enabled, disables [[#checkpointing]]
 
 ## Quickstart
 
-1. Create an airtable table with fields (all fields are text fields)
+1. Create an Airtable table with fields (all fields are text fields)
 
     | DendronId | Title | Summary |
     | --------- | ----- | ------- |
@@ -60,7 +60,7 @@ hen enabled, disables [[#checkpointing]]
         ├── books.harrypotter.md
         └── books.alchemist.md
     ```
-4. Run [[Export Pod|dendron://dendron.dendron-site/dendron.ref.commands#export-pod]] and select `airtable.export`. You should get the following results on airtable
+4. Run [[Export Pod|dendron://dendron.dendron-site/dendron.ref.commands#export-pod]] and select `airtable.export`. You should get the following results on Airtable
 
     | DendronId     | Title       | Summary                                                                                                                                                                                          |
     | ------------- | ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |

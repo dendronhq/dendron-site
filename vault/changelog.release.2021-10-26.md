@@ -37,7 +37,7 @@ dendron dev run_migration --migrationVersion 0.64.1
 - fix(markdown): email parsed as user tag & option to disable user tags and hashtags 
 - fix(markdown): footnote links move view in publishing & preview 
 - fix(publish): remove .next dir if it exists in publish init 
-- fix(publish): title parts duplicated in Next publishing search 
+- fix(publish): title parts duplicated in Next.js publishing search 
 - fix(commands): move header command modifying unrelated note content 
 
 ### Community
@@ -59,7 +59,7 @@ You can see an overview of all roles [[here|community.roles]]
 - [Kim Sia Sim](https://github.com/simkimsia) `@kimsia#3035` 
     - #dendron.bugcatcher
     - #dendron.environmentalist
-    - [Helpful "Edit in GitHub" link missing in tutorial when vscode](https://github.com/dendronhq/dendron/issues/1582)
+    - [Helpful "Edit in GitHub" link missing in tutorial when VS Code](https://github.com/dendronhq/dendron/issues/1582)
     - [Dendron COmmand palette > sign in / Sign up > leads to broken auth link](https://github.com/dendronhq/dendron/issues/1580)
 - [demorganslaw](https://github.com/demorganslaw) `@demorganslaw#3718` 
     - #dendron.bugcatcher

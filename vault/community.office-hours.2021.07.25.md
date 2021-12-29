@@ -11,9 +11,9 @@ created: 1627282431859
 * big
   * Non-blocking Workspace Initialization
     * everything should be faster
-    * you can use vscode while dendron is initializing
+    * you can use VS Code while Dendron is initializing
   * deprecate old preview
-    * If you enable the old markdown, you'll have to install Dendron markdown specifically. 
+    * If you enable the old Markdown, you'll have to install Dendron Markdown specifically. 
     * won't remove the old preview till end of August.
     * A few smaller features aren't completely there yet: 
       * Contrast/references
@@ -27,10 +27,10 @@ created: 1627282431859
 * next
   * Iterating on the preview v2
   * More integration of seed bank into plugin 
-  * Work on new nextjs publishing 
+  * Work on new Next.js publishing 
 	* Same code as internal preview so you'll know how your website looks 
-	* Regular nextjs app - dendron publishing is just building out a nextjs blog 
-		* Full power of nextjs, react, webapp, take it wherever you want to
+	* Regular Next.js app - Dendron publishing is just building out a Next.js blog 
+		* Full power of Next.js, React, webapp, take it wherever you want to
 	* Features like i8n, theming, seo built in 
 	* We don't have to reinvent anything here: Lookup 
 

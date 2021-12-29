@@ -25,7 +25,7 @@ There are several approaches that can be taken to install Node.js to your deskto
 
 ### Verify Node.js
 
-- Verify that node is available in vscode in a terminal.
+- Verify that node is available in VS Code in a terminal.
 
 - Run the command: [`Terminal: Create New Terminal`](https://code.visualstudio.com/docs/editor/integrated-terminal)
 - Run the following in the terminal: `node --version`
@@ -98,13 +98,13 @@ LOG_LEVEL=info LOG_DST=stdout dendron doctor --wsRoot . --action h1ToTitle --lim
 
 ### launchEngineServer
 
-Launch the [[dendron server|dendron.roadmap.project.n.2020.server-migration]]. Useful for development purposes or to launch the server in a specified port
+Launch the [[Dendron server|dendron.roadmap.project.n.2020.server-migration]]. Useful for development purposes or to launch the server in a specified port
 
 The CLI will also write out `.dendron.*` [[metadata files|dendron._ref.layout#file-tree]] in the workspace root just the same as the Dendron plugin. 
 
 
 ```sh
-launch instance of dendron engine
+launch instance of Dendron engine
 
 Options:
   --version  Show version number                                       [boolean]

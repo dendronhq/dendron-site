@@ -2,7 +2,7 @@
 id: 4H5j2CImfxRMNFLHnpzbH
 title: Note
 desc: ''
-updated: 1632703181959
+updated: 1640425498231
 created: 1632703052150
 ---
 
@@ -26,7 +26,7 @@ export type DNodeProps<T = any, TCustom = any> = {
    */
   desc: string;
   /**
-   * Node links (eg. backlinks, wikilinks, etc)
+   * Node links (eg. backlinks, wikilinks, etc.)
    */
   links: DLink[];
   /**

@@ -29,7 +29,7 @@ You can use [[intellisense|dendron._ref.intellisense]] to preview snippets and u
 
 ### Variables
 
-You can use custom variables in your snippets. You can read more about it [here](https://code.visualstudio.com/docs/editor/userdefinedsnippets#_variables). An excerpt of VSCode variables is pasted below:
+You can use custom variables in your snippets. You can read more about it [here](https://code.visualstudio.com/docs/editor/userdefinedsnippets#_variables). An excerpt of VS Code variables is pasted below:
 
 The following variables can be used:
 * TM_SELECTED_TEXT The currently selected text or the empty string

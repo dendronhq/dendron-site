@@ -71,7 +71,7 @@ New config syntax unifies a bunch of different configuration options and renames
 
 - Auto migrate old-style site config to new style site config 
 - Always read config before publishing. no more reloading the workspace after updating dendron.yml! 
-- Update site config on dendron starter template 
+- Update site config on Dendron starter template 
 - Use rsync to copy assets when building pods 
 
 ### Fixes
@@ -172,7 +172,7 @@ This will match the following queries
 
 ### Fixes
 
-- A misconfigured POSIX path causes dendron to not load on windows 
+- A misconfigured POSIX path causes Dendron to not load on windows 
 
 ## Thank You
 

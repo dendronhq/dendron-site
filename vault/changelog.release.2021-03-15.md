@@ -12,8 +12,8 @@ Dendron 0.33 has sprouted  🌱
 ### Highlights
 
 - password protected sites
-- export to regular markdown
-- create github style commit visualization
+- export to regular Markdown
+- create GitHub style commit visualization
 - lots of new customization options
 - bug fixes and performance improvements
 

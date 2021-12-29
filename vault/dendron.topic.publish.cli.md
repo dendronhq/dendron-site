@@ -10,11 +10,11 @@ created: 1631401993170
 
 ### init
 
-Initialize nextjs template and all dependencies
+Initialize Next.js template and all dependencies
 
 ### build
 
-Prepare notes for publication. Runs [[Nextjs|dendron.topic.pod.builtin.nextjs]] pod in the background. 
+Prepare notes for publication. Runs [[Next.js|dendron.topic.pod.builtin.nextjs]] pod in the background. 
 
 #### options
 - `--attach`: attach to running engine instead of a new engine ^bfvLB8BY4nLb

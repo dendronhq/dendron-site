@@ -13,22 +13,22 @@ created: 1623673321337
     -   Schema graph
     -   Filter between links + hierarchy
     -   What’s next?
-        -   Graph styling (css from Obsidian may be used for Dendron)
+        -   Graph styling (CSS from Obsidian may be used for Dendron)
 -   Block references
     -   Compiling/embedding etc. work now.
     -   What’s next?
         -   Copy block references across a range.
--   VSCode Telemetry
-    -   If people disabled VSCode telemetry - this is auto-reflected.
+-   VS Code Telemetry
+    -   If people disabled VS Code telemetry - this is auto-reflected.
 -   Lots of bug fixes!
     -   Publishing on Windows (11ty specific)
-    -   VSCode links stopped working
+    -   VS Code links stopped working
     -   Lots of preview fixes …
 -   We’ll support workspace trust on Monday.
     -   If that’s not true, people should tell us.
     -   Base features should work.
         -   Hooks will not though.
-    -   If you want an interesting read, read the vscode release notes: [Visual Studio Code May 2021](https://code.visualstudio.com/updates/v1_57)
+    -   If you want an interesting read, read the VS Code release notes: [Visual Studio Code May 2021](https://code.visualstudio.com/updates/v1_57)
 -   Updates on seed registry
     -   NPM commands but for vaults
     -   Goal will be to convert remote vaults into seeds.

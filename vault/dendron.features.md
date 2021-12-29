@@ -101,15 +101,15 @@ Dendron will show you a `?` next to the result in future results but otherwise w
 
 ## VS Code
 
-Dendron is built on top of VSCode, the open-source IDE from Microsoft.
+Dendron is built on top of VS Code, the open-source IDE from Microsoft.
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/code-banner.jpg)
 
-Dendron runs as a plugin inside VSCode. If you use VSCode today, it means that all your current knowledge, settings and extensions will carry over into Dendron. If you don't, no sweat, because Dendron will create an optimal workspace with recommended settings and extensions when you first launch it.
+Dendron runs as a plugin inside VS Code. If you use VS Code today, it means that all your current knowledge, settings and extensions will carry over into Dendron. If you don't, no sweat, because Dendron will create an optimal workspace with recommended settings and extensions when you first launch it.
 
 ## Recommended Extensions
 
-Since Dendron runs on top of VSCode, it means that you also have access to thousands of extensions to customize Dendron exactly how you like it.
+Since Dendron runs on top of VS Code, it means that you also have access to thousands of extensions to customize Dendron exactly how you like it.
 
 By default, Dendron will initialize your first workspace with the following extensions and features.
 
@@ -122,7 +122,7 @@ By default, Dendron will initialize your first workspace with the following exte
     -   Easily generate URLs
     -   Convert tabular data to tables
 -   [Markdown Preview Enhanced](https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced)
-    -   [live markdown preview](https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced)
+    -   [live Markdown preview](https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced)
     -   [math](https://shd101wyy.github.io/markdown-preview-enhanced/#/math) (KaTeX or MathJax)
     -   [sequence diagrams](https://shd101wyy.github.io/markdown-preview-enhanced/#/diagrams?id=mermaid) (mermaid)
     -   [pandoc support](https://shd101wyy.github.io/markdown-preview-enhanced/#/pandoc)
@@ -131,7 +131,7 @@ By default, Dendron will initialize your first workspace with the following exte
 -   [Material Theme](https://marketplace.visualstudio.com/items?itemName=equinusocio.vsc-material-theme)
     -   beautiful colors built using the [Material design system](https://material.io/)
 -   [Paste Image](https://marketplace.visualstudio.com/items?itemName=mushan.vscode-paste-image)
-    -   easily add images from your clipboard to your markdown files
+    -   easily add images from your clipboard to your Markdown files
 -   [Spell Right](https://marketplace.visualstudio.com/items?itemName=ban.spellright)
     -   Spell Check
 
@@ -141,11 +141,11 @@ Dendron operates completely on local data and is able serve your notes to you wi
 
 ## Local-first
 
-Did we mention we're local first? We'll never send your notes off your system unless you want to explicitly. We also have easy guides for syncing with Github or you can always use your own service (Dropbox, Onedrive) to sync your notes wherever you want. Because you own your data.
+Did we mention we're local first? We'll never send your notes off your system unless you want to explicitly. We also have easy guides for syncing with GitHub or you can always use your own service (Dropbox, Onedrive) to sync your notes wherever you want. Because you own your data.
 
 ## Extensible and open-source
 
-Dendron is built into VSCode and can take advantage of all the extensions you've come to love. Whether you want vim keybindings, mermaid diagram support or snippet support, the extension ecosystem has you covered. And if you can't find something that you need, we also offer [[dendron.topic.hooks]] so you can build advanced workflows, right into Dendron.
+Dendron is built into VS Code and can take advantage of all the extensions you've come to love. Whether you want Vim keybindings, mermaid diagram support or snippet support, the extension ecosystem has you covered. And if you can't find something that you need, we also offer [[dendron.topic.hooks]] so you can build advanced workflows, right into Dendron.
 
 ## Additional Features
 

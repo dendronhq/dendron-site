@@ -29,7 +29,7 @@ Dendron seeds is a project to to curate notes from existing open source material
 
 ## Next
 
-- use seeds from within the dendron extension
+- use seeds from within the Dendron extension
 - automatically keep seeded vaults up to date
 - create index of high quality seeds
 

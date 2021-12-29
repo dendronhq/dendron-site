@@ -8,7 +8,7 @@ stub: false
 ---
 
 ## Summary
-Dendron uses VSCode [keybinding](https://code.visualstudio.com/docs/getstarted/keybindings) functionality to define its own keybindings. 
+Dendron uses VS Code [keybinding](https://code.visualstudio.com/docs/getstarted/keybindings) functionality to define its own keybindings. 
 
 To update your keybindings, open the command prompt and type `Open Keyboard Shortcuts`.
 
@@ -23,7 +23,7 @@ You can read more about keybinding syntax [here](https://code.visualstudio.com/d
 
 ### Add, Reset and Remove
 
-- Add: Every command in VSCode can be bound to a keybinding, even if it doesn't have one
+- Add: Every command in VS Code can be bound to a keybinding, even if it doesn't have one
 - Reset: If you want to go back to a default binding, reset it
 - Remove: If you don't use an existing binding, you can remove it
 

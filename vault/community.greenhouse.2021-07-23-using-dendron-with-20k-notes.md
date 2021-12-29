@@ -18,11 +18,11 @@ In this talk, Kevin, Dendron founder, will go over how he uses Dendron to manage
 ## Agenda
 - daily knowledge accretion using journal notes, scratch notes, and hierarchies
 - finding anything in seconds using lookup and search
-- vscode specific shortcuts and settings 
-- various dendron optimizations 
+- VS Code specific shortcuts and settings 
+- various Dendron optimizations 
 - process for switching between windows, tabs, and workspaces
 - multi-desktop multi-vault setup
 
 ## Resources
 - [Recording](https://www.youtube.com/watch?v=1mXGyG9ikD4)
-- [Kevin's VSCode Keybindings](https://gist.github.com/kevinslin/8f17cbc9ba03c9137c41351e2cec6a7a)
+- [Kevin's VS Code Keybindings](https://gist.github.com/kevinslin/8f17cbc9ba03c9137c41351e2cec6a7a)

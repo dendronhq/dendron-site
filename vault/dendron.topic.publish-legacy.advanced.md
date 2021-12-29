@@ -2,7 +2,7 @@
 id: e9f26a4b-ddce-41b3-9619-8f4f64761f86
 title: Advanced
 desc: ''
-updated: 1614535629477
+updated: 1640428477249
 created: 1600564193281
 ---
 ### Exclude from publication
@@ -16,7 +16,7 @@ published: false
 
 ### Exclude from indexing
 
-To tell google to not index a page, you can add the following tag to the frontmatter. You can also have this as a default for a given hierarchy by setting `noIndexByDefault: true` in the site config.
+To tell Google to not index a page, you can add the following tag to the frontmatter. You can also have this as a default for a given hierarchy by setting `noIndexByDefault: true` in the site config.
 
 ```yml
 ...
@@ -25,7 +25,7 @@ noindex: true
 
 <!-- ### Exclude line from publication
 
-Sometimes, you just want to keep a few lines private while publishing the rest of your vault. You can do that with `Local only`. In order to mark a line as `Local Only`, add the following markdown comment at the end of the line: `<!--LOCAL_ONLY_LINE-->`
+Sometimes, you just want to keep a few lines private while publishing the rest of your vault. You can do that with `Local only`. In order to mark a line as `Local Only`, add the following Markdown comment at the end of the line: `<!--LOCAL_ONLY_LINE-->`
 
 ```markdown
 Hello World!  <!-- Will be published -->
@@ -45,7 +45,7 @@ It's useful to check if all your links work before publishing your notes. You ca
     cd {wsRoot}
     mkdir reports
     ```
-  - add `reports` to your vscode workspace in order to browse it via vscode
+  - add `reports` to your VS Code workspace in order to browse it via VS Code
 
 - check links
   - build your site using the `Build Pod` command

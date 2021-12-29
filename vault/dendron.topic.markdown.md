@@ -2,10 +2,10 @@
 id: ba97866b-889f-4ac6-86e7-bb2d97f6e376
 title: Markdown
 desc: ''
-updated: 1639620141514
+updated: 1640383276152
 created: 1598673110284
 ---
-- Notice: all references of `MPE` in this guide is in reference to `Dendron Markdown Preview Enhanced`, the default markdown renderer of Dendron
+- Notice: all references of `MPE` in this guide is in reference to `Dendron Markdown Preview Enhanced`, the default Markdown renderer of Dendron
 
 
 ## Markdown Basics
@@ -164,7 +164,7 @@ puts markdown.to_html
 
 ## Extended Syntax
 
-These are non-standard markdown syntax used in Dendron. Everything here is both available in Dendron's preview as well as when publishing.
+These are non-standard Markdown syntax used in Dendron. Everything here is both available in Dendron's preview as well as when publishing.
 
 ### Tables
 
@@ -256,7 +256,7 @@ stage: "🌱"
 - {{ fm.alist[2] }}
 ```
 
-When this note is rendered in preview / publishing, it would be equivalent to rendering the markdown below:
+When this note is rendered in preview / publishing, it would be equivalent to rendering the Markdown below:
 ```
 > this note is in it's 🌱 stage
 >
@@ -324,11 +324,11 @@ This is how it looks
      * Sub bullets
 </details>
 
-## VSCode Specific Commands
+## VS Code Specific Commands
 
 ### Markdown Smart Select
 
-This allows you to expand and shrink selections of markdown using a keyboard shortcut.
+This allows you to expand and shrink selections of Markdown using a keyboard shortcut.
 
 - Expand: ⌃⇧⌘→
 - Shrink: ⌃⇧⌘←
@@ -352,7 +352,7 @@ Selection applies to the following, and follows a traditional hierarchical patte
 
 When possible, Dendron will try to stay to `CommonMark` spec for syntax. That being said, many of the features we have (eg. block based note references) have no common mark equivalent which is why we've had to invent new syntax.
 
-You can use the [[markdown pod|dendron.topic.pod.builtin.markdown]] to migrate both individual notes and your entire vault to a CommonMark compatible format.
+You can use the [[Markdown pod|dendron.topic.pod.builtin.markdown]] to migrate both individual notes and your entire vault to a CommonMark compatible format.
 
 ## Other Resources
 
@@ -365,6 +365,6 @@ You can use the [[markdown pod|dendron.topic.pod.builtin.markdown]] to migrate b
 
 The content of this page is derived from the following sources:
 
-1. [markdown preview enhanced docs](https://shd101wyy.github.io/markdown-preview-enhanced/#/markdown-basics) published under the [University of Illinois/NCSA Open Source License](https://github.com/shd101wyy/markdown-preview-enhanced/blob/master/LICENSE.md)
-2. [markdown shortcuts docs](https://marketplace.visualstudio.com/items?itemName=mdickin.markdown-shortcuts) published under the [MIT License](https://marketplace.visualstudio.com/items/mdickin.markdown-shortcuts/license)
+1. [Markdown Preview Enhanced docs](https://shd101wyy.github.io/markdown-preview-enhanced/#/markdown-basics) published under the [University of Illinois/NCSA Open Source License](https://github.com/shd101wyy/markdown-preview-enhanced/blob/master/LICENSE.md)
+2. [Markdown Shortcuts docs](https://marketplace.visualstudio.com/items?itemName=mdickin.markdown-shortcuts) published under the [MIT License](https://marketplace.visualstudio.com/items/mdickin.markdown-shortcuts/license)
 

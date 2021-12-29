@@ -2,7 +2,7 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1640719134132
+updated: 1640744229508
 created: 1601508213606
 nav_order: 2
 ---
@@ -99,12 +99,12 @@ nav_order: 2
 ## 0.72.0
 
 ### Enhancements
-- enhance: "find all references" for markdown headers (#1833) @hikchoi
+- enhance: "find all references" for Markdown headers (#1833) @hikchoi
 - enhance: add fuzzy threshold configuration (#1811) @nickolay ([[docs|dendron://dendron.dendron-site/dendron.ref.config.commands#fuzzthreshold]])
 
 ### Fix
 - fix(workspace): decorator lag problems (#1822) @kaan ([[docs|dendron.ref.config.workspace]]) ([diff](https://github.com/dendronhq/dendron-site/pull/311/files))
-- fix(pods): minor error in airtable v2 export pod (#1846) @jonathan
+- fix(pods): minor error in Airtable v2 export pod (#1846) @jonathan
 - fix(views): re-introduce preview command enablement (#1806) @hikchoi
 - fix(views): update tree view when new note is created
 - fix(lookup): corner cases for auto complete @nickolay
@@ -117,7 +117,7 @@ nav_order: 2
 - enhance(views): allow navigation to preview links that do not have vault specified (#1805) @nickolay
 
 ### Fix
-- fix(publish): UI shifting issues with nextjs layout @kevin
+- fix(publish): UI shifting issues with Next.js layout @kevin
 - fix(cli): cli migration now handles JSONC for wsConfig (#1825) @hikchoi
 - fix(schema): When applying a schema template, do not override the body but append to the end to it (#1812) [tma66](https://github.com/tma66)
 
@@ -125,7 +125,7 @@ nav_order: 2
 
 ### Enhancements
 - enhance(publish): support adding sitemaps ([[docs|dendron.topic.publish.cli#options]]) @kevin
-- enahnce(publish): upgrade to [nextjs 12](https://nextjs.org/blog/next-12) @kevin
+- enahnce(publish): upgrade to [Next.js 12](https://nextjs.org/blog/next-12) @kevin
 - enhance(lookup): add auto complete to note lookup (#1781) @nickolay
 
 ### Fix
@@ -134,10 +134,10 @@ nav_order: 2
 ## 0.70.1
 
 ### Features
-- feat(workspace): hide default markdown preview button (#1636) @kaan
-  - We merged an upstream change with VSCode to enable toggling of the default preview. This was one of the most confusing UX parts of Dendron.
-  - If wanted, the VSCode Markdown preview can still be opened via the command palette (`Ctrl+Shift P`) with: `Markdown: Open Preview` or `Markdown: Open Preview to The Side`
-  - NOTE: requires VSCode 1.63
+- feat(workspace): hide default Markdown preview button (#1636) @kaan
+  - We merged an upstream change with VS Code to enable toggling of the default preview. This was one of the most confusing UX parts of Dendron.
+  - If wanted, the VS Code Markdown preview can still be opened via the command palette (`Ctrl+Shift P`) with: `Markdown: Open Preview` or `Markdown: Open Preview to The Side`
+  - NOTE: requires VS Code 1.63
 
 ### Enhancements
 - enhance(workspace): add Dendron preview button (#1744) @kann
@@ -192,7 +192,7 @@ nav_order: 2
 
 ### Enhancements
 - enhance(pods): add `configPath` and `query` parameters to pods ([[docs|dendron.topic.pod.cli]]) @kevin
-- enhance(pods): include name of note with error when airtable pod encounters error @kevin
+- enhance(pods): include name of note with error when Airtable pod encounters error @kevin
 
 ### Fix
 - fix(markdown): footnote definitions including links are rendered incorrectly (#1704) @kaan
@@ -238,7 +238,7 @@ Note graph commands lose their `V2` suffix and are now simply `Dendron: Show Not
 * enhance(schemas): cmd create-schema-from-hierarchy allow schema to end with '*' (#1680) @nickolay
 
 ### Fix
-- fix(pods): github import pod handle deleted authors (#1621) @kevin
+- fix(pods): GitHub import pod handle deleted authors (#1621) @kevin
 - fix(workspace): warning to remove stub property if the note has content (#1662) @joshi
 
 ## 0.67.2
@@ -253,7 +253,7 @@ An enhancement in this release delivers breaking changes announced last week: [[
 
 ### Enhancements
 * enhance(schema): update schemas on save instead of having to reload workspace. (#1597) @nickolay
-* enhance(publish): migrate publish related commands to nextjs @hikchoi
+* enhance(publish): migrate publish related commands to Next.js @hikchoi
   * _**Note:** This is the breaking change mentioned above._
 * enhance(commands): move header supports multi vault (#1646) @hikchoi
 * enhance(commands): allow creation of new notes when move header destination doesn't exist yet (#1646) @hikchoi
@@ -275,25 +275,25 @@ An enhancement in this release delivers breaking changes announced last week: [[
 
 ### Breaking changes
 
-1. Deprecation notice for `Site Preview` and `Site Build`. These currently build using our legacy 11ty publishing method. Starting next week, these will be upgraded to publish using NextJS. In addition, the notes will be renamed: ^kSChN1jT6OMc
+1. Deprecation notice for `Site Preview` and `Site Build`. These currently build using our legacy 11ty publishing method. Starting next week, these will be upgraded to publish using Next.js. In addition, the notes will be renamed: ^kSChN1jT6OMc
     * `Site Preview` will be renamed to `Publish Dev`
     * `Site Build` will be renamed to `Publish Export`
 2. We have updated the enablement of our preview features to reduce clutter in the command palette and prevent confusion.
     * `Dendron: Show Preview` is now called `Dendron: Show Preview (legacy)`
     * `Dendron: Show Preview V2` is now called `Dendron: Show Preview`
-    * Both preview commands and their keybindings are now disabled if you are in a non-Dendron workspace or if your active open document is not a markdown file. This means they will not be accessible in the command palette or triggered with a keybinding.
+    * Both preview commands and their keybindings are now disabled if you are in a non-Dendron workspace or if your active open document is not a Markdown file. This means they will not be accessible in the command palette or triggered with a keybinding.
 
 ### Enhancements
 - enhance(workspace): add seeds directory to gitignore on workspace creation (#1629) @hikchoi
 - enhance(workspace): preview command enablement (#1619) @hikchoi
-- enhance(workspace): add custom icons to dendron tree view (#1635)  @kevin
+- enhance(workspace): add custom icons to Dendron tree view (#1635)  @kevin
 - enhance(workspace): Copy Header Reference code action (#1598) @joshi
 
 ### Fix
-- fix(publishing): markdown publish to hide block reference anchors (#1577)  @joshi
+- fix(publishing): Markdown publish to hide block reference anchors (#1577)  @joshi
 - fix(workspace): file watcher updates backlinks (#1618) @kaan
 - fix(workspace): hover & goto note should respect enableUser/HashTags (#1620) @kaan
-- fix(pods): resolve same level dir wikilinks in markdown import (#1615) @joshi
+- fix(pods): resolve same level dir wikilinks in Markdown import (#1615) @joshi
 - fix(schemas): replace auto generated ids with readable descriptions (#1632) @nickolay
 
 ## 0.65.1
@@ -324,7 +324,7 @@ vault with new convert vault command ([[docs|dendron.topic.vaults#vault-convert]
 - fix(markdown): email parsed as user tag & option to disable user tags and hashtags (#1562) @kaan
 - fix(markdown): footnote links move view in publishing & preview (#1568) @kaan
 - fix(publish): remove .next dir if it exists in publish init (#1548) @jonathan
-- fix(publish): title parts duplicated in Next publishing search (#1573)
+- fix(publish): title parts duplicated in Next.js publishing search (#1573)
 - fix(commands): move header command modifying unrelated note content (#1574) @hikchoi
 
 ## 0.64.1
@@ -372,7 +372,7 @@ dendron dev run_migration --migrationVersion 0.64.1
 - enhance(lookup): lookup wikilinks @nickolay
 - fix(lookup): better hierarchy look up when inside parts of the hierarchy are omitted (#1522) @nickolay
 - enhance(lookup): allow configuration of workspace to make 'Create New' not bubble up in note lookup. (#1528) @nickolay
-- enhance(pods): asignees in github issue publish pod ([[docs|dendron://dendron.dendron-site/dendron.topic.pod.builtin.github-issue.publish#updating-an-issue]])@joshi 
+- enhance(pods): asignees in GitHub issue publish pod ([[docs|dendron://dendron.dendron-site/dendron.topic.pod.builtin.github-issue.publish#updating-an-issue]])@joshi 
 
 ### Bug Fixes
 - fix(markdown): better footnote rendering in note references (#1520) @kaan
@@ -387,14 +387,14 @@ dendron dev run_migration --migrationVersion 0.64.1
 - feat(publish): add `dendron publish export` command ([[docs|dendron://dendron.dendron-site/dendron.topic.publish.cli#export]]) @kevin
 
 ### Enhancements
-- enhance(publish): support publishing to github as a export template @kevin
+- enhance(publish): support publishing to GitHub as a export template @kevin
 - enhance(publish): support `--yes` flag when exporting to skip prompts @kevin
 - enhance(publish): initialize template will also install dependencies @kevin
 - enhance(publish): warn when `assetsPrefix` isn't set @kevin
 
 ### Fix
 - fix(workspace): possible error if open note is changed quickly after edit (#1486) @kaan
-- fix(publish): optimize nextjs publishing search (#1519) @kaan
+- fix(publish): optimize Next.js publishing search (#1519) @kaan
 
 [[pkg.nextjs-template]] 
 
@@ -436,13 +436,13 @@ dendron dev run_migration --migrationVersion 0.64.1
 ## 0.61.2
 
 ### Feature
-- feat(pods): airtable publish pod ([[docs|dendron://dendron.dendron-site/dendron.topic.pod.builtin.airtable.publish#summary]]) @kevin
+- feat(pods): Airtable publish pod ([[docs|dendron://dendron.dendron-site/dendron.topic.pod.builtin.airtable.publish#summary]]) @kevin
 
 ### Enhancements
  - fix(lookup): vault selection use wrong label #1463  @kevin
  - fix(markdown): highlighting for wildcard note refs with header offsets #1460  @kaan
- - enhance(pods): airtable export pod is now [idempotent](https://en.wikipedia.org/wiki/Idempotence) ([[docs|dendron://dendron.dendron-site/dendron.topic.pod.builtin.airtable.export#idempotency]] @kevin 
- - enahnce(pods): airtable export pod has better support for mapping [[Tags|dendron://dendron.dendron-site/dendron.topic.tags]] and dates ([[docs|dendron://dendron.dendron-site/dendron.topic.pod.builtin.airtable.export#object-value]]) @kevin
+ - enhance(pods): Airtable export pod is now [idempotent](https://en.wikipedia.org/wiki/Idempotence) ([[docs|dendron://dendron.dendron-site/dendron.topic.pod.builtin.airtable.export#idempotency]] @kevin 
+ - enahnce(pods): Airtable export pod has better support for mapping [[Tags|dendron://dendron.dendron-site/dendron.topic.tags]] and dates ([[docs|dendron://dendron.dendron-site/dendron.topic.pod.builtin.airtable.export#object-value]]) @kevin
  - enhance(pods): export pods support `ignore` and `vault` filters ([[docs|dendron://dendron.dendron-site/dendron.topic.pod.export#configuration]]) @kevin
 
 ## 0.61.1
@@ -453,7 +453,7 @@ dendron dev run_migration --migrationVersion 0.64.1
 - enhance(lookup): Allow creation of duplicate file name if there is a vault without such file name (#1441) @nickolay
 
 ### Bug Fixes
-- fix(publish): nextjs search not working (#1433) @kaan
+- fix(publish): Next.js search not working (#1433) @kaan
 - fix(views): preview caching invalidation when notes with `![[ref]]` links change (#1385) @nickolay
 - fix(view): enable anchor links to work in preview (#1375) @nickolay
 
@@ -467,13 +467,13 @@ dendron dev run_migration --migrationVersion 0.64.1
 
 ### Enhancements
 - enhance(markdown): option to add `#` symbols for FM tags (#1421) @kaan ([[docs|dendron://dendron.dendron-site/dendron.topic.publish-legacy.configuration#usehashesforfmtags]])
-- enhance(publish): add published, modified, and tags to NextJS SEO (#1412) @nwehner
+- enhance(publish): add published, modified, and tags to Next.js SEO (#1412) @nwehner
 - enhance(workspace): mini optimization in looking up notes by filename (#1427) @nickolay
 - enhance(workspace): Leave trace on source note while using selectionExtract @joshi
 
 ### Bug Fixes
 - fix(lookup): picked schema matching name was not creating the expected note (#1425) @nickolay
-- fix(workspace): support activation for older vscode version (#1426) @jonathan
+- fix(workspace): support activation for older VS Code version (#1426) @jonathan
 
 ## 0.60.2
 
@@ -486,10 +486,10 @@ dendron dev run_migration --migrationVersion 0.64.1
 
 ### Enhancements
 - enhance(publish): support [g4a tags](https://support.google.com/analytics/answer/10089681?hl=en) @kevin
-- enhance(publish): support twitter card @kevin ([[docs|dendron://dendron.dendron-site/dendron.topic.publish-legacy.configuration#twitter]])
+- enhance(publish): support Twitter card @kevin ([[docs|dendron://dendron.dendron-site/dendron.topic.publish-legacy.configuration#twitter]])
 - enhance(publish): add border color to table (#1387) @viztor
-- enhance(publish): filter body out of generated notes.json for next (#1380) @viztor
-- enhance(pods): resolve relative links on markdown import @joshi
+- enhance(publish): filter body out of generated notes.json for Next.js (#1380) @viztor
+- enhance(pods): resolve relative links on Markdown import @joshi
 - enhance(markdown): Don't throw a fatal exception when missing note is parsed as noteRef @kevin
 - enhance(workspace): option to disable randomly colored tags in editor (#1372) @kaan ([[docs|dendron.topic.tags#disabling-automatic-colors]])
 
@@ -497,15 +497,15 @@ dendron dev run_migration --migrationVersion 0.64.1
 - fix(commands): selection2link doesn't update note with link #1383  @kaan
 - fix(commands): fix single letter not showing results @nickolay
 - fix(commands): cleanup error popup when schema lookup is closed @nickolay
-- fix(publish): mistakes in nextjs start instructions from CLI @viztor
+- fix(publish): mistakes in Next.js start instructions from CLI @viztor
 - fix(publish): hashtags not at the start of line don't autocomplete (#1370) @kaan
 - fix(publish): links in note reference point to wrong url  @kevin
 - fix(publish): footer did not show on first load (#1413) @viztor
 - fix(workspace): notes added outside Dendron are missed (#1406) @kaan
 - fix(workspace): next gen views in remote workspaces (#1401) @kaan
-- fix(workspace): no-op on hover provider if dendron non active (#1398)
-- fix(workspace): fixes in providers when not in dendron workspace (#1405) @jonathan
-- fix(workspace): no completion when dendron isn't active @jonathan
+- fix(workspace): no-op on hover provider if Dendron non active (#1398)
+- fix(workspace): fixes in providers when not in Dendron workspace (#1405) @jonathan
+- fix(workspace): no completion when Dendron isn't active @jonathan
 
 ## 0.60.1
 
@@ -538,15 +538,15 @@ dendron dev run_migration --migrationVersion 0.64.1
 ## 0.59.3
 
 ### Features
-- @kaan feat(publish): nextjs publishing supports fulltext search (#1334)
+- @kaan feat(publish): Next.js publishing supports fulltext search (#1334)
 
 ### Enhancements
 - @joshi enhance(publish): Add Google Analytics to Published Site (#1300)
-- @joshi enhance(pods): various github pod improvements ([[docs|dendron.topic.pod.builtin.github-issue]]) (#1345)
+- @joshi enhance(pods): various GitHub pod improvements ([[docs|dendron.topic.pod.builtin.github-issue]]) (#1345)
   - imported issues now have `author` field for user who submitted issue
   - you can now update the `milestone` using pods
-  - you can now create a new github discussion using pods
-  - renamed to github issue pod #breaking
+  - you can now create a new GitHub discussion using pods
+  - renamed to GitHub issue pod #breaking
 
 ### Bug Fixes
 - @kevin fix(commands): rename note leaves incorrect metadata if parent is a stub (#1348)
@@ -563,5 +563,5 @@ dendron dev run_migration --migrationVersion 0.64.1
 ## 0.59.1
 
 ### Bug Fixes
-- fix(workspace): Dendron now sets minimum vscode version to 1.58
+- fix(workspace): Dendron now sets minimum VS Code version to 1.58
 - fix(publish): update 11ty version

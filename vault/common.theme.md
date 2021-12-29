@@ -12,7 +12,7 @@ We use the react-css-theme-switcher[^1] hook to manage themes.
 import { ThemeSwitcherProvider } from "react-css-theme-switcher";
 ```
 
-It works by looking for css to load in `./public/{name}.css`
+It works by looking for CSS to load in `./public/{name}.css`
 
 
 [^1]: [react-css-theme-switcher](https://www.npmjs.com/package/react-css-theme-switcher)

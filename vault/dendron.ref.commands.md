@@ -17,7 +17,7 @@ nav_order: 3.1
 
 - shortcuts: None
 
-Open the github repository (if it exists) of the current note. If you have a [[multi vault|dendron.topic.multi-vault]] workspace with different git repositories, this command will
+Open the GitHub repository (if it exists) of the current note. If you have a [[multi vault|dendron.topic.multi-vault]] workspace with different git repositories, this command will
 
 ### Create Daily Journal Note
 
@@ -37,7 +37,7 @@ Create a global journal note
   - mac: `cmd+shift+c`
   - when: `editorFocus`
 
-Copy wiki link to note. The title of the note will be applied as the note alias. If you highlight a header, dendron will create a relative link to the header with the alias set to the header value.
+Copy wiki link to note. The title of the note will be applied as the note alias. If you highlight a header, Dendron will create a relative link to the header with the alias set to the header value.
 
 You can also highlight any line of text, and Dendron will create a link to it by inserting a block anchor, or copy an existing anchor.
 
@@ -143,7 +143,7 @@ You can also pass it as a command argument through a custom keybinding as below:
 This modifier enables different alias modes.
 
 Here is the list of available alias modes:
-1. `snippet`: Inserted note link resolves into a VSCode snippet string
+1. `snippet`: Inserted note link resolves into a VS Code snippet string
 1. `selection`: Extracts the selection of the active note and use it as the alias.
 1. `title`: Use the note title of the linked note as alias.
 1. `prompt`: Open an input box that will prompt for an input for the alias.
@@ -177,7 +177,7 @@ You can also pass it as a command argument through a custom keybinding as below:
   ```
 
 ##### snippet
-Inserted note link will resolve into a [VSCode snippet](https://code.visualstudio.com/docs/editor/userdefinedsnippets) in the form of
+Inserted note link will resolve into a [VS Code snippet](https://code.visualstudio.com/docs/editor/userdefinedsnippets) in the form of
 
 `[[{$1: alias}|note-name]]$0`
 
@@ -266,7 +266,7 @@ You can also move an open note from the explorer by: Right Click on the note > D
 
 ### Paste Link
 
-Transform URL in clipboard to nicely formatted markdown link
+Transform URL in clipboard to nicely formatted Markdown link
 
 ### Convert Link
 
@@ -365,7 +365,7 @@ Initiate schema lookup
 
 - shortcuts: none
 
-Open link to external file (eg. pdf, .mov, etc) use system default. Relative files paths will be opened relative to the vault that the note is in.
+Open link to external file (eg. PDF, .mov, etc.) use system default. Relative files paths will be opened relative to the vault that the note is in.
 
 <a href="https://www.loom.com/share/01250485e20a4cdca2a053dd6047ac68"><img src="https://cdn.loom.com/sessions/thumbnails/01250485e20a4cdca2a053dd6047ac68-with-play.gif"> </a>
 
@@ -531,7 +531,7 @@ Modify Dendron Config using Dendron UI
 
 - shortcuts: none
 
-Build your notes for export. Currently, only export to github pages is supported.
+Build your notes for export. Currently, only export to GitHub Pages is supported.
 
 ### Configure Pod
 
@@ -603,13 +603,13 @@ Remove a [[seed|dendron.topic.seeds]] from your current workspace.
 Become an environmentalist and keep Dendron sustainable
 
 This command takes you to Dendron's [Environmentalist](https://accounts.dendron.so/account/subscribe) plans.
-Environmentalists are users that can support Dendron financially through a monthly contribution. Environmentalist get access to insider builds, priority support, and access to exclusive dev channels.
+Environmentalists are users that can support Dendron financially through a monthly contribution. Environmentalist get access to Insiders builds, priority support, and access to exclusive dev channels.
 
 ### Paste File
 
-Takes the path currently in the clipboard, copies the file into `{vault}/assets`, and inserts markdown link in the current note. This is the file equivalent of Dendron's [[Paste Image|dendron.topic.images]] command
+Takes the path currently in the clipboard, copies the file into `{vault}/assets`, and inserts Markdown link in the current note. This is the file equivalent of Dendron's [[Paste Image|dendron.topic.images]] command
 
-Note that most file types won't be natively supported in the preview. You'll need to use the vscode built-in `> Open Link` command to open the file. 
+Note that most file types won't be natively supported in the preview. You'll need to use the VS Code built-in `> Open Link` command to open the file. 
 
 If you are on macOs, you can find instructions for getting the path to the current file [here](https://www.switchingtomac.com/tutorials/osx/5-ways-to-reveal-the-path-of-a-file-on-macos/#:~:text=To%20see%20it%20for%20yourself,your%20file%20is%20located%20in)
 
@@ -670,11 +670,11 @@ Copy last 3000 lines of all logs and config to clipboard. Use when submitting an
 
 #### New File
 
-Dendron recognises a new markdown file created from vscode context menu and populate it with the frontmatter.
+Dendron recognises a new Markdown file created from VS Code context menu and populate it with the frontmatter.
 
 #### Rename Note 
 
-Dendron recognises the vscode rename and updates all the backlinks to the old file with new name.
+Dendron recognises the VS Code rename and updates all the backlinks to the old file with new name.
 
 
 

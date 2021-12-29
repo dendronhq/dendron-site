@@ -83,7 +83,7 @@ Turn on to enable [[mermaid support|dendron.topic.markdown#diagrams]] for publis
 
 ### noCaching
 
-Disable dendron [[caching|dendron._ref.caching]]
+Disable Dendron [[caching|dendron._ref.caching]]
 
 ### noTelemetry
 > This setting is scheduled for deprecation 📆
@@ -96,7 +96,7 @@ Disable [[telemetry|dendron.ref.telemetry]]
 - default: true
 - frontmatter: true
 
-Disable dendron showing hierarchies on published pages
+Disable Dendron showing hierarchies on published pages
 
 ### initializeRemoteVaults
 > This setting is scheduled for deprecation 📆
@@ -105,7 +105,7 @@ Disable dendron showing hierarchies on published pages
 
 - default: true
 
-Determines if dendron pulls in un-initialized [[remote vault|dendron.topic.vaults#remote]] at startup
+Determines if Dendron pulls in un-initialized [[remote vault|dendron.topic.vaults#remote]] at startup
 
 ### noAutoCreateOnDefinition 
 > This setting is scheduled for deprecation 📆

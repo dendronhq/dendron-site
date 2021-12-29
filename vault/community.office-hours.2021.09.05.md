@@ -2,7 +2,7 @@
 id: 4xE1QfsVQAvD6MqtkqoV8
 title: '05'
 desc: ''
-updated: 1630942729067
+updated: 1640368938901
 created: 1630942729067
 ---
 <!-- Output copied to clipboard! -->
@@ -15,7 +15,7 @@ created: 1630942729067
 
 * More fuzzy lookup
 
-* NextJS Publishing in Beta
+* Next.js Publishing in Beta
 
 * Autocomplete and refactor for user tags
 
@@ -25,7 +25,7 @@ created: 1630942729067
 
 ## Questions
 
-* Getting started with nextjs publication
+* Getting started with Next.js publication
 
 * [https://wiki.dendron.so/notes/PgwAXFfotfgpFVqHQRlBl.html](https://wiki.dendron.so/notes/PgwAXFfotfgpFVqHQRlBl.html)
 
@@ -39,15 +39,15 @@ created: 1630942729067
 
   + if so, what is the set up I need?
 
-## ## Using NextJS Tempalte
+## Using Next.js template
 
 ```sh
 
-echo "clone git repo for nextjs..."
+echo "clone git repo for Next.js..."
 
 git clone github.com:dendronhq/nextjs-template.git
 
-echo "create metadata for nextjs..."
+echo "create metadata for Next.js..."
 
 dendron exportPod --podId dendron.nextjs --config="dest=/Users/kevinlin/code/dendron/packages/nextjs-template"
 

@@ -6,4 +6,4 @@ updated: 1631729179200
 created: 1631729103658
 ---
 
-The command prompt is used to execute commands in VSCode. You can bring it up by using `CMD+SHIFT+P` on Mac or `CTRL+SHIFT+P` on Linux and windows.
+The command prompt is used to execute commands in VS Code. You can bring it up by using `CMD+SHIFT+P` on Mac or `CTRL+SHIFT+P` on Linux and windows.

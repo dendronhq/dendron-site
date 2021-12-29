@@ -52,7 +52,7 @@ For teams, we now offer dedicated business support as well as the ability to pay
 The diff of changes:
 - The **Seed** tier is now a one time contribution tier (pay what you want with a minimum):
 - The **Sprout** tier is unchanged
-- The **Tree** tier has new benefits (hand made dendron illustrations and ability to give away seed memberships)
+- The **Tree** tier has new benefits (hand made Dendron illustrations and ability to give away Seed memberships)
 - The **Forest** tier has been overhauled to focus on teams and businesses
 
 Full details can be found [[here|dendron://dendron.dendron-site/dendron.contribute.financial]]!

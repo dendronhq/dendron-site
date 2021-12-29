@@ -11,7 +11,7 @@ Dendron 0.15 is here 🌱
 
 - [lookup multi-select](https://dendron.so/notes/ad270a7d-2aed-4273-8319-eb6536e38b29.html#multiselect)
 - [copy links](https://dendron.so/notes/ad270a7d-2aed-4273-8319-eb6536e38b29.html#copywikilink) from lookup
-- better [obsidian markdown import](https://dendron.so/notes/13c4a608-0a32-4c62-9c7e-2b7f9f2d18bf.html#links)
+- better [Obsidian Markdown import](https://dendron.so/notes/13c4a608-0a32-4c62-9c7e-2b7f9f2d18bf.html#links)
 - multiple bug fixes
 - better code hygiene after removing ~8000 lines of code
 
@@ -19,7 +19,7 @@ Dendron 0.15 is here 🌱
 
 I'm thrilled to announce our latest **Dendrologist**! Meet Luke (@lukecarrier#2081) 👨‍🌾
 
-> Hey 👋 I’m Luke and I’m going to be picking up some development work. Ask me about the markdown editing experience, publishing and integrating external tools.
+> Hey 👋 I’m Luke and I’m going to be picking up some development work. Ask me about the Markdown editing experience, publishing and integrating external tools.
 
 ![[community.roles#dendrologist,1:#*]]
 

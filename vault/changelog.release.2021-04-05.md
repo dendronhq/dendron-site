@@ -11,7 +11,7 @@ Dendron 0.36 has sprouted  🌱
 ### Highlights
 - add and commit all vaults in a multi-vault workspace
 - use note references on un-published notes
-- more options when importing markdown notes
+- more options when importing Markdown notes
 - general performance and stability improvements
 
 ### Spring Cleaning
@@ -23,13 +23,13 @@ A big **thanks** to the following gardeners that brought up issues, contribution
 You can see an overview of all roles [[here|community.roles]]
 
 - [8brandon](https://github.com/8brandon) @8brandon#3208  `+horticulturalist`
-  - dendron design system proposal: https://github.com/dendronhq/dendron-site/pull/75
+  - Dendron design system proposal: https://github.com/dendronhq/dendron-site/pull/75
 - [Alexandre Zanni](https://github.com/noraj)
-  - Add website link to Github repo
+  - Add website link to GitHub repo
 - [Aditya](https://github.com/xypnox) @xypnox#1354 
-  - new dendron svg assets
+  - new Dendron SVG assets
 - [Lars Solberg](https://github.com/xeor) @Lars Solberg#6519  `+bugcatcher`
-  - issues running dendron on theia
+  - issues running Dendron on theia
 - [Kevin Poorman](https://github.com/codefriar) @codefriar#4876  `+bugcatcher`
   - Unable to use triple-tilde code blocks in a template
 - [Aleksey Rowan](https://github.com/aleksey-rowan) @aleksey#5276 `+taxonomist`

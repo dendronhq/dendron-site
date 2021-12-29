@@ -10,23 +10,23 @@ created: 1617327868887
 - status: [[Experimental 🚧|dendron._ref.status#experimental-]]
 Export notes from Dendron
 
-The export markdown pod will take Dendron markdown and convert it to regular markdown. Dendron specific markup like wikilinks will be converted to their markdown equivalent.
+The export Markdown pod will take Dendron Markdown and convert it to regular Markdown. Dendron specific markup like wikilinks will be converted to their Markdown equivalent.
 
 #### Supported Features
 
- - Converting dendron hierarchy into regular folder hierarchy
- - Converting dendron wikilinks into regular links `(foo.bar -> foo/bar.md)`
+ - Converting Dendron hierarchy into regular folder hierarchy
+ - Converting Dendron wikilinks into regular links `(foo.bar -> foo/bar.md)`
  - Migrating assets
 
 #### Limitations
 
 Since this is still an experimental feature, there are some features that are still missing:
 
- - Note Ref links currently will not be modified. In later builds, they can either be converted to a regular markdown link and/or have the referenced content in-lined.
+ - Note Ref links currently will not be modified. In later builds, they can either be converted to a regular Markdown link and/or have the referenced content in-lined.
 
-If you have additional features that are not listed, please add them in this [github issue](https://github.com/dendronhq/dendron/issues/541#issue-831219413)
+If you have additional features that are not listed, please add them in this [GitHub issue](https://github.com/dendronhq/dendron/issues/541#issue-831219413)
 
-In addition, there are some features we currently can't convert to regular markdown because they have no markdown equivalent:
+In addition, there are some features we currently can't convert to regular Markdown because they have no Markdown equivalent:
 - mermaid diagrams
 - Latex formulas
 - footnotes

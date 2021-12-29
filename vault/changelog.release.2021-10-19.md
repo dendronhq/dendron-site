@@ -11,19 +11,19 @@ Dendron 0.64 has sprouted  🌱
 More streamlined publishing as well as lots of fixes and enhancements to existing features 
 
 ### Highlights
-- feat(publish): add dendron publish dev command ([[docs|dendron://dendron.dendron-site/dendron.topic.publish.cli#dev]])
-- feat(publish): add dendron publish export command ([[docs|dendron://dendron.dendron-site/dendron.topic.publish.cli#export]])
-- fix(publish): optimize nextjs publishing search
+- feat(publish): add `dendron publish dev` command ([[docs|dendron://dendron.dendron-site/dendron.topic.publish.cli#dev]])
+- feat(publish): add `dendron publish export` command ([[docs|dendron://dendron.dendron-site/dendron.topic.publish.cli#export]])
+- fix(publish): optimize Next.js publishing search
 
 ### Everything Else
-- enhance(publish): support publishing to github as a export template
+- enhance(publish): support publishing to GitHub as a export template
 - enhance(publish): support --yes flag when exporting to skip prompts
 - enhance(publish): initialize template will also install dependencies
 - enhance(publish): warn when assetsPrefix isn't set
 - enhance(lookup): lookup wikilinks 
 - fix(lookup): better hierarchy look up when inside parts of the hierarchy are omitted 
 - enhance(lookup): allow configuration of workspace to make 'Create New' not bubble up in note lookup
-- enhance(pods): asignees in github issue publish pod ([[docs|dendron://dendron.dendron-site/dendron.topic.pod.builtin.github-issue.publish#updating-an-issue]])@joshi 
+- enhance(pods): asignees in GitHub issue publish pod ([[docs|dendron://dendron.dendron-site/dendron.topic.pod.builtin.github-issue.publish#updating-an-issue]])@joshi 
 - fix(workspace): possible error if open note is changed quickly after edit
 - fix(markdown): better footnote rendering in note references 
 - fix(markdown): user tags & hashtags inside links should be parsed as regular text 
@@ -36,7 +36,7 @@ More streamlined publishing as well as lots of fixes and enhancements to existin
 
 #### General Updates
 - Recording and notes from last week's greenhouse talk posted [[here|dendron://dendron.dendron-site/community.greenhouse.2021-10-15-ts-dev-vscode#outputs]]
-- Dendron wiki is now moved to the [[NextJS Publishing|dendron://dev/dendron.topic.publish]]
+- Dendron wiki is now moved to the [[Next.js Publishing|dendron://dev/dendron.topic.publish]]
 
 #### Dendron Reading Series
 
@@ -62,7 +62,7 @@ You can see an overview of all roles [[here|community.roles]]
     #dendron.taxonomist
     - fix typo on job post
 - [Jminding](https://github.com/Jminding) `@Jminding#0001`
-    - update dendron troubleshooting guide
+    - update Dendron troubleshooting guide
 
 ### Changelog
 ![[changelog#064,1:#063]]

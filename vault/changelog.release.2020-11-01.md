@@ -26,7 +26,7 @@ As part of getting out of preview, we are launching on [Product Hunt](https://ww
 - complete [[server migration|dendron.roadmap.project.n.2020.server-migration]] for all users
 - create [[snapshots|dendron.topic.capabilities.snapshot]] of your vault and restore them back to a specific point in time
 - introduce [Environmentalist Plans](https://accounts.dendron.so/account/subscribe) for folks that want to support Dendron financially
-- add [[publishing|dendron.topic.pod#publish]] capability to pods (with ability to publish to json and regular markdown)
+- add [[publishing|dendron.topic.pod#publish]] capability to pods (with ability to publish to JSON and regular Markdown)
 - support creating generated table of contents when publishing
 - realtime schema validation when saving
 - numerous enhancements 

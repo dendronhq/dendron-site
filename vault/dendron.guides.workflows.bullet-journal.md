@@ -2,7 +2,7 @@
 id: e65dfe53-41f7-4b16-b870-dadec1775497
 title: Bullet Journaling
 desc: ''
-updated: 1638899415198
+updated: 1640381834426
 created: 1601684760121
 stub: false
 ---
@@ -23,7 +23,7 @@ Bullet journalling is a way of quickly getting your thoughts down for the day. I
 
 ![[dendron.topic.schema#template,1:#*]]
 
-## VSCode Commands
+## VS Code Commands
 
 ### Move Editor Command
 

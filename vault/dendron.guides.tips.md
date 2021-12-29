@@ -2,7 +2,7 @@
 id: 692fa114-f798-467f-a0b9-3cccc327aa6f
 title: Tips
 desc: ''
-updated: 1631027580881
+updated: 1640428023674
 created: 1595614204291
 nav_order: 4.1
 ---
@@ -28,7 +28,7 @@ When working with lines, you can move entire lines at a time using `option-up|do
 
 - [docs](https://code.visualstudio.com/updates/v1_43#_search-editors)
 
-Also known as the coolest feature in vscode that most people have never heard of. This lets you view and save your search results in a full blown text editor. You can combine it with Dendron's hierarchies to do some amazing things, like aggregating all your todos and scoping your search to a specific hierarchy. 
+Also known as the coolest feature in VS Code that most people have never heard of. This lets you view and save your search results in a full blown text editor. You can combine it with Dendron's hierarchies to do some amazing things, like aggregating all your todos and scoping your search to a specific hierarchy. 
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/tips.search-editor.gif)
 
@@ -76,18 +76,18 @@ The result looks like this:
 
 ### Collapsing Headers and Bullets
 
-You can collapse headers at different levels and bullets at different indentation levels inside VSCode. 
+You can collapse headers at different levels and bullets at different indentation levels inside VS Code. 
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/tips.toggle-bullets.gif)
 
 
 ### Create a new note in a deeply nested hierarchy 
-- [discord thread](https://discordapp.com/channels/717965437182410783/735365126227493004/758235198403117087)
+- [Discord thread](https://discordapp.com/channels/717965437182410783/735365126227493004/758235198403117087)
 
 - Problem: 
    - You are currently in `foo` and you want to create the note `foo.child1.child2.my-note`. You don't want to type out the full path. Is there an easier way to create `my-note` than typing out the full path?
 - Solution: 
-  - VSCode doesn't support autocomplete inside the quick input widget which Dendron uses for lookups. We are experimenting with different ways of getting around this. 
+  - VS Code doesn't support autocomplete inside the quick input widget which Dendron uses for lookups. We are experimenting with different ways of getting around this. 
   - Today, the workaround is to create a wiki-link inside another note and navigate via link to create it. 
   - Another method, if you know you will be creating multiple children under a single deeply nested parent, is to pin the parent and create the child from the parent 
 
@@ -96,7 +96,7 @@ You can collapse headers at different levels and bullets at different indentatio
 
 
 ### Automate Git Tasks
-- [discord thread](https://discordapp.com/channels/717965437182410783/742532267058004098/759130627781558403)
+- [Discord thread](https://discordapp.com/channels/717965437182410783/742532267058004098/759130627781558403)
 - Problem:
   - You want an easier way to `git add && git commit && git push`
 - Solution #1:
@@ -111,7 +111,7 @@ You can collapse headers at different levels and bullets at different indentatio
 
 ### Publish to GitHub Pages with Actions
 
-- [discord thread](https://discordapp.com/channels/717965437182410783/749641193322971238/759190468671438848)
+- [Discord thread](https://discordapp.com/channels/717965437182410783/749641193322971238/759190468671438848)
 
 It's possible to publish your Dendron site to GitHub Pages without the shadow copy of your notes in the `docs` directory.
 
@@ -187,7 +187,7 @@ gitignore
   3. Commit all your changes
   ```
   git add .
-  git commit -m "add dendron action"
+  git commit -m "add Dendron action"
   ```
   4. Create the pages branch
   Configure your repository's Pages settings as follows:
@@ -195,7 +195,7 @@ gitignore
   git checkout -b pages
   git push -u origin HEAD
   ```
-  5. Update pages branch on github
+  5. Update pages branch on GitHub
   - go to the pages settings, eg. `https://github.com/dendronhq/seed.services/settings/pages`
     - choose the following
     ```
@@ -234,7 +234,7 @@ You can streamline this process by assigning a keyboard shortcut to the command.
 
 ### Copy and Paste Web Content into Dendron
 
-First copy it into Notion or use the notion web clipper to clip it. This will format it nicely in markdown. You can then paste it into Dendron with markdown and everything :)
+First copy it into Notion or use the Notion web clipper to clip it. This will format it nicely in Markdown. You can then paste it into Dendron with Markdown and everything :)
 
 <!-- 
 
@@ -270,7 +270,7 @@ One easy way of navigating hierarchies it to click on the file name. This will r
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/guide.siblings.jpg)
 
 ### Remove Markdown Buttons in Menu Bar
-- [discord thread](https://discordapp.com/channels/717965437182410783/739186036495876126/758408534848831558)
+- [Discord thread](https://discordapp.com/channels/717965437182410783/739186036495876126/758408534848831558)
 
 ```json
 "markdownShortcuts.icons.bold": false,
@@ -281,7 +281,7 @@ One easy way of navigating hierarchies it to click on the file name. This will r
 
 ### Moving Panes
 
-You can move vscode tabs using the following builtin commands:
+You can move VS Code tabs using the following builtin commands:
 - `View: Move Editor Into Next Group`
 - `View: Move Editor Into Previous Group`
 
@@ -295,9 +295,9 @@ This is helpful for looking at your notes side by side.
 
 ### Pinning Tabs
 
-You can pin tabs in VSCode by right clicking on a tab and selecting `Pin Tab`. 
+You can pin tabs in VS Code by right clicking on a tab and selecting `Pin Tab`. 
 
-The latest VSCode lets you control pin behavior for tabs. It's not currently documented as of 2020.09.28 but as of the latest insider build, it has a few different options to control the pinned behavior. 
+The latest VS Code lets you control pin behavior for tabs. It's not currently documented as of 2020.09.28 but as of the latest Insiders build, it has a few different options to control the pinned behavior. 
 
 - options:
   - normal (default), normal tab size with a pin icon
@@ -311,7 +311,7 @@ The latest VSCode lets you control pin behavior for tabs. It's not currently doc
 
 ### Zen Mode
 
-VSCode can be visually noisy. You can hide most of the UI by toggling `Zen Mode` with a three panel layout. 
+VS Code can be visually noisy. You can hide most of the UI by toggling `Zen Mode` with a three panel layout. 
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/tips.zen.jpg)
 
@@ -320,7 +320,7 @@ The following setting overrides are useful:
 ```json
 // by default, zen mode will open a new "workspace" which I don't like
 "zenMode.fullScreen": false,
-// I'm a vim user so I like my line numbers
+// I'm a Vim user so I like my line numbers
 "zenMode.hideLineNumbers": false,
 ```
 
@@ -343,7 +343,7 @@ You can see a video of this workflow in the video below.
 
 - Update your settings to the following
 ```json
-// The following settings will only apply to markdown files:
+// The following settings will only apply to Markdown files:
   "[markdown]": {
     // quickSuggestions true will provide suggestions as you type.
     // If you turn this on and DO NOT want suggestions
@@ -351,11 +351,11 @@ You can see a video of this workflow in the video below.
     "editor.quickSuggestions": true,
     // This is poorly documented, but seems to offer suggestions
     // from any word in open document when turned on, which
-    // can be a little distracting in markdown docs:
+    // can be a little distracting in Markdown docs:
     "editor.wordBasedSuggestions": false,
     "editor.tabSize": 2,
     // Set this to false if you turn on quickSuggestions
-    // but don't want suggestions for markdown related snippets
+    // but don't want suggestions for Markdown related snippets
     // as you type:
     "editor.suggest.showSnippets": false,
   },
@@ -366,7 +366,7 @@ You can see a video of this workflow in the video below.
 ### Always have the preview open
 
 
-You can add the following setting to your workspace to always have a markdown editor show up with your content. 
+You can add the following setting to your workspace to always have a Markdown editor show up with your content. 
 
 ```json
 "markdown-preview-enhanced.automaticallyShowPreviewOfMarkdownBeingEdited": true,
@@ -374,13 +374,13 @@ You can add the following setting to your workspace to always have a markdown ed
 
 ### Symbol search
 
-When using the standard file-search in vscode (`ctrl-P`), you can search for all titles in your workspace if you use the starting keyword `#`
+When using the standard file-search in VS Code (`ctrl-P`), you can search for all titles in your workspace if you use the starting keyword `#`
 
 Example: if i know i had a header with the title "cheatsheet", i can type in `# cheatsheet`
 
 ### Auto bullet list
 
-VSCode doesn't support auto-formatting by default. You can use the following workaround to mimic the behavior.
+VS Code doesn't support auto-formatting by default. You can use the following workaround to mimic the behavior.
 
 
 - Add list-item below current position. Using `-`
@@ -425,22 +425,22 @@ Once you've made similar schema and template files, when you make a new file usi
 ## Other Tools
 
 This is a list of other tools that work well with Dendron.
-- [nvAlt](https://brettterpstra.com/projects/nvalt/): local markdown editor that works well with Dendron notes (mac only)
+- [nvAlt](https://brettterpstra.com/projects/nvalt/): local Markdown editor that works well with Dendron notes (mac only)
 
-## Other VSCode Extensions
+## Other VS Code Extensions
 
 ### Git
 - [Git Automator](https://marketplace.visualstudio.com/items?itemName=ivangabriele.vscode-git-add-and-commit): one command to commit and push all changes
 - [Git Doc](https://marketplace.visualstudio.com/items?itemName=vsls-contrib.gitdoc): auto-commit and (optionally) auto push your notes at fixed intervals
 - [Gitlens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens): Repository/File/Line history and annotations of all your files
-- [Path AutoComplete](https://github.com/ionutvmi/path-autocomplete): Path autocomplete for VSCode
+- [Path AutoComplete](https://github.com/ionutvmi/path-autocomplete): Path autocomplete for Visual Studio Code
 
 ### Coding
 - [Code Runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner)
 
 ### Other
 - [Macros](https://marketplace.visualstudio.com/items?itemName=geddski.macros): Define custom macros 
-- [Vim](https://marketplace.visualstudio.com/items?itemName=vscodevim.vim): VIM key bindings 😍
+- [Vim](https://marketplace.visualstudio.com/items?itemName=vscodevim.vim): Vim key bindings 😍
 - [Bookmarks](https://marketplace.visualstudio.com/items?itemName=alefragnani.Bookmarks): Bookmark lines within File [Vertical Limit](https://marketplace.visualstudio.com/items?itemName=generik.vertical-limit): Work with multiple cursors and blocks of text
 - [CodeUI](https://marketplace.visualstudio.com/items?itemName=ryanraposo.codeui): Easier customization of every part of the VSCode UI
 - [Open in Typora](https://marketplace.visualstudio.com/items?itemName=cyberbiont.vscode-open-in-typora&utm_source=VSCode.pro&utm_campaign=AhmadAwais): Open note in Typora
@@ -449,5 +449,5 @@ This is a list of other tools that work well with Dendron.
 ## Other Browser Extensions
 
 ### Web Clipper
-- [Markdown Web](https://chrome.google.com/webstore/detail/markdownload-markdown-web/pcmpcfapbekmbjjkdalcgopdkipoggdi?hl=en-GB): markdown based web clipper
+- [MarkDownload](https://chrome.google.com/webstore/detail/markdownload-markdown-web/pcmpcfapbekmbjjkdalcgopdkipoggdi?hl=en-GB): Markdown-based web clipper
 - [Roam Highlighter](https://chrome.google.com/webstore/detail/mcoimieglmhdjdoplhpcmifgplkbfibp)

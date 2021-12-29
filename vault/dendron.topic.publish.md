@@ -12,8 +12,8 @@ Dendron lets you publish all your notes as static HTML which you can host anywhe
 
 This site that you are looking at is published using Dendron. 
 
-Checkout our [[quickstart guide|dendron://dendron.dendron-site/dendron.topic.publish.cook.github]] for publishing to github pages to get started
+Checkout our [[quickstart guide|dendron://dendron.dendron-site/dendron.topic.publish.cook.github]] for publishing to GitHub Pages to get started
 
 ## Details
 
-Dendron publishes your notes using a custom [Next.js](https://nextjs.org/) application, also available on [github](https://github.com/dendronhq/nextjs-template).
+Dendron publishes your notes using a custom [Next.js](https://nextjs.org/) application, also available on [GitHub](https://github.com/dendronhq/nextjs-template).

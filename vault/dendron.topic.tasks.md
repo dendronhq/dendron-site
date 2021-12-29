@@ -13,7 +13,7 @@ track and manage your work.
 
 ## Plain Tasks
 
-The simplest method to keep track of tasks is to simply use markdown checkmarks. Here's what that can look like:
+The simplest method to keep track of tasks is to simply use Markdown checkmarks. Here's what that can look like:
 
 ```
 - [ ] Prepare for the party
@@ -39,7 +39,7 @@ it in the task.
 
 ## Task Notes
 
-Writing down your tasks in plain markdown is easy and most easily compatible
+Writing down your tasks in plain Markdown is easy and most easily compatible
 with other tools, but it doesn't work for everyone. If you ever find yourself
 looking for more comprehensive features, you should go for task notes. This is
 an upcoming feature that's currently in development, so send your feedback to

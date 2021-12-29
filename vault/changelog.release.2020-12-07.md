@@ -40,7 +40,7 @@ Last and most of all, a big **thanks** to the following gardeners that brought u
   - [can't add local vault](https://github.com/dendronhq/dendron/issues/396)
   - [issue creating journal notes in multi-vault](https://github.com/dendronhq/dendron/issues/395)
 - [Franco Barbeite](https://github.com/FrancoB411)
-  - [markdown import breaks latex](https://github.com/dendronhq/dendron/issues/389)
+  - [Markdown import breaks latex](https://github.com/dendronhq/dendron/issues/389)
 - Kevin
   - errors when running doctor command
 - Mike

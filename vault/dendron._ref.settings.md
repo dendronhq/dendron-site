@@ -5,7 +5,7 @@ desc: ''
 updated: 1604238328894
 created: 1600729806764
 ---
-You can update Dendron settings by using the VSCode workspace settings by using the command prompt to `Preferences: Open Workspace Settings`
+You can update Dendron settings by using the VS Code workspace settings by using the command prompt to `Preferences: Open Workspace Settings`
 
 <a href="https://www.loom.com/share/2d8eaeb6fddf4c76a390d3894b497435"> 
 <img style="" src="https://cdn.loom.com/sessions/thumbnails/2d8eaeb6fddf4c76a390d3894b497435-with-play.gif"> </a>

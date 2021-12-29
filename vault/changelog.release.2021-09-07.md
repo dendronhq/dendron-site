@@ -15,7 +15,7 @@ Documentation as well as additional notes for each of the changes can be found i
 - feat(workspace) lookup now matches words that are out of order and with much improved fuzzyness
 - feat(workspace) much faster preview rendering thanks to preview caching 🚀
 - feat(workspace) Dendron bundle size is now 50% smaller which means faster updates and startup 🚀
-- feat(publishing) nextjs publishing integrated with dendron cli #stage.seed
+- feat(publishing) Next.js publishing integrated with Dendron CLI #stage.seed
 
 ### Enhancements
 - enhance(workspace) add multi-select for Dendron: Move Note command
@@ -25,8 +25,8 @@ Documentation as well as additional notes for each of the changes can be found i
 - enhance(workspace) progress bar when refactoring a hierarchy
 - enhance(publishing) nextjs-template sidebar style improvements in published docs
 - enhance(publishing) frontmatter tags are displayed similarly to regular tags when published
-- enhance(publishing) support for `collections` in nextjs 
-- enhance(publishing) support for `customHeaderPath` in nextjs
+- enhance(publishing) support for `collections` in Next.js 
+- enhance(publishing) support for `customHeaderPath` in Next.js
 
 ### Fixes
 - fix(publishing) block anchor in list with single top level element

@@ -2,7 +2,7 @@
 id: nB_CscjeWXqMfdcHfP7iX
 title: '0.48'
 desc: ''
-updated: 1624910601530
+updated: 1640427528696
 created: 1624886454307
 excerpt: 'Export to folders, better handling of merges, and lots of QoL improvements'
 ---
@@ -11,12 +11,12 @@ excerpt: 'Export to folders, better handling of merges, and lots of QoL improvem
 Dendron 0.48 has sprouted  🌱
 
 ### Highlights
-- Markdown pod supports exporting to folders. You can now export your Dendron vault to Github/Gitlab native wikis! 
+- Markdown pod supports exporting to folders. You can now export your Dendron vault to GitHub/GitLab native wikis! 
 - No more merge conflicts in a shared vault! The `updated` timestamp will no longer update if you have no material updates to the notes (simply opening and saving a file doesn't count). 
 - Bad frontmatter no longer crashes Dendron. 
 - Cursor moves to the end of opened notes and frontmatter folds by default. 
 - Support filtering graph by regex and stubs
-- Dendron functionality (except Hooks) works when `limited in restricted mode` through VSCode Workspace Trust. 
+- Dendron functionality (except Hooks) works when `limited in restricted mode` through VS Code Workspace Trust. 
 
 ### Docs
 

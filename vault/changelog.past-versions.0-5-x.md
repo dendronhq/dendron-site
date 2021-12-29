@@ -2,7 +2,7 @@
 id: Tf4vuVLV3rSdpzD8la9FP
 title: 0.5.X
 desc: ''
-updated: 1636507366017
+updated: 1640425359611
 created: 1632543447542
 ---
 
@@ -25,15 +25,15 @@ created: 1632543447542
 
 ![[dendron.topic.images#extended-images,1:#*]]
 
-#### Publish to Github Pages using Next
+#### Publish to GitHub Pages using Next.js
 
 ![[dendron.topic.publish.cook.github#summary,1:#*]]
 
 ### Enhancements
-- enhance(publish) support `assetPrefix` option with nextjs publishing
-- enhance(publish) initialize nextjs template with `https` protocol 
-- enhance(publish) autoset sane defaults for nextjs publishing
-- enhance(pods) markdown import to update asset links
+- enhance(publish) support `assetPrefix` option with Next.js publishing
+- enhance(publish) initialize Next.js template with `https` protocol 
+- enhance(publish) autoset sane defaults for Next.js publishing
+- enhance(pods) Markdown import to update asset links
 
 ### Bug Fixes
 - fix(workspace) stop calendar from auto expanding when the last note is closed 
@@ -55,12 +55,12 @@ created: 1632543447542
 ## 0.58.2
 
 ### Fixes
-- issue with initilaize tutorial workspace from non-dendron workspace
+- issue with initilaize tutorial workspace from non-Dendron workspace
 
 ## 0.58.1
 
 ### Fixes
-- issue with initilaize template workspace from non-dendron workspace
+- issue with initilaize template workspace from non-Dendron workspace
 
 ## 0.58
 
@@ -74,9 +74,9 @@ Lookup can match words that are out of order, with better fuzziness, and will so
 
 ![[dendron.topic.lookup#lookups,1:#*]]
 
-#### CLI for Next Publishing
+#### CLI for Next.js Publishing
 
-Dendron now has limited CLI support for NextJS Publishing. You can read about how to get started [[here|dendron.topic.publish]]
+Dendron now has limited CLI support for Next.js Publishing. You can read about how to get started [[here|dendron.topic.publish]]
 
 #### Leaner Extension
 Bundle extension size is reduced by 50%
@@ -84,8 +84,8 @@ Bundle extension size is reduced by 50%
 ### Enhancements
 - autocomplete and refactoring for users notes ([[docs|dendron.topic.users]])
 - frontmatter tags displayed similarly to regular tags when published 
-- support [[customHeaderPath|dendron.topic.publish-legacy.configuration#customheaderpath]] for Next publishing
-- support [[collection options|dendron.topic.publish-legacy.configuration#collection-options]] for Next publishing
+- support [[customHeaderPath|dendron.topic.publish-legacy.configuration#customheaderpath]] for Next.js publishing
+- support [[collection options|dendron.topic.publish-legacy.configuration#collection-options]] for Next.js publishing
 - progress bar for [[refactoring|dendron.topic.refactoring#refactor-hierarchy]]
 
 ### Bug Fixes
@@ -131,7 +131,7 @@ When using preview, navigating back to a page that has already been recently vis
 - significant (+60%) improvements to workspace startup speed
 - tag color display improvements
 - progress indicators for all long running tasks
-- additional styling improvements for nextjs publishing
+- additional styling improvements for Next.js publishing
 
 ### Bug Fixes
 - issue with "Browse Note" command for windows
@@ -153,15 +153,15 @@ Seed Browser is a new view that let's you view Seeds that are available in the S
 
 - improve hover message for missing notes 
 - ability to set selection type to `none` ([[docs|dendron.ref.config]])
-- use github publish to create new issues ([[docs|dendron.topic.pod.builtin.github-issue.publish]])
+- use GitHub publish to create new issues ([[docs|dendron.topic.pod.builtin.github-issue.publish]])
 - nicer refactor preview 
-- treeview improvements when publishing using nextjs
-- added dendron cache to .gitignore on vault add
+- treeview improvements when publishing using Next.js
+- added Dendron cache to .gitignore on vault add
 - added various alias modes for insert note link command ([[docs|dendron.ref.commands#insert-note-link]])
 
 ### Bug Fixes
 - backlinks properly update on frontmatter tag changes
-- slugify github issue title when importing
+- slugify GitHub issue title when importing
 
 ## 0.56
 
@@ -271,7 +271,7 @@ The [[Calendar View|dendron._ref.web-ui#calendar-view]] is no longer hidden behi
     - apply journal title override
 - Colored tags in the tree view ([[docs|dendron.topic.tags#custom-colors]])
 - Tags inherit color of ancestors ([[docs|dendron.topic.tags#custom-colors]])
-- Add leading slash to markdown links during export 
+- Add leading slash to Markdown links during export 
 
 ### Bug Fixes
 - calendar: errors when switching between month/year
@@ -286,7 +286,7 @@ The [[Calendar View|dendron._ref.web-ui#calendar-view]] is no longer hidden behi
 
 ### Features
 
-#### Github Publish Pod
+#### GitHub Publish Pod
 - ![[dendron.topic.pod.builtin.github-issue.publish#summary,1:#*]]
 
 #### Custom Colors for Tags
@@ -296,7 +296,7 @@ The [[Calendar View|dendron._ref.web-ui#calendar-view]] is no longer hidden behi
 - [[Rename Header Command|dendron.topic.refactoring#rename-header]] which updates links to that header
 
 ### Enhancements
-- automatically resolve conflicting keybinding caused by vim extension
+- automatically resolve conflicting keybinding caused by Vim extension
 
 ### Bug Fixes
 - lookup was not setting [[splitType|dendron.topic.lookup.modifiers#splittype]] when executed with a custom keybinding
@@ -312,7 +312,7 @@ The [[Calendar View|dendron._ref.web-ui#calendar-view]] is no longer hidden behi
 
 ### Bug Fixes
 
-- fix missing dependency in dendron-cli
+- fix missing dependency in Dendron CLI
 
 ## 0.53.1
 
@@ -403,11 +403,11 @@ By default, all new users will get [[Preview|dendron.topic.preview]] as the defa
 
 #### Non-Blocking Workspace initialization
 
-When you open a Dendron workspace, you might have noticed that you needed to wait for the workspace to initialize before VSCode itself became usable. This is because even though Dendron uses a local server to index your files, this server ran on the same process as VSCode. 
+When you open a Dendron workspace, you might have noticed that you needed to wait for the workspace to initialize before VS Code itself became usable. This is because even though Dendron uses a local server to index your files, this server ran on the same process as VS Code. 
 
-We have offloaded the local server to a separate process so that all engine operations (eg. indexing) no longer affect the main VSCode process. 
+We have offloaded the local server to a separate process so that all engine operations (eg. indexing) no longer affect the main VS Code process. 
 
-What this means in practice is that you can use VSCode immediately when the workspace is open. It also means you'll notice better responsiveness across all engine related features (eg. refactoring, preview, etc)
+What this means in practice is that you can use VS Code immediately when the workspace is open. It also means you'll notice better responsiveness across all engine related features (eg. refactoring, preview, etc.)
 
 ### Enhancements
 - find missing links in entire workspace  ([[docs|dendron.topic.doctor#createmissinglinkednotes]])
@@ -425,7 +425,7 @@ What this means in practice is that you can use VSCode immediately when the work
 ## 0.51.1
 
 ### Enhancements
-- reduce size of dendron-cli
+- reduce size of Dendron CLI
 
 ## 0.51
 
@@ -447,7 +447,7 @@ This experimental feature will allow you to pull down a set of templates for com
 - show preview will no longer ask you to load
 
 ### Bug Fixes
-- dendron not updating journal behavior based on journal config in dendron.yml
+- Dendron not updating journal behavior based on journal config in dendron.yml
 
 ### Pruning
 

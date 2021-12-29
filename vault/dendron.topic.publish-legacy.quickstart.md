@@ -7,7 +7,7 @@ created: 1608528402469
 nav_order: 2
 ---
 
-NOTE: it's possible to publish Dendron on any platform that can host static sites. This guide covers publishing to [Github Pages](https://pages.github.com/)
+NOTE: it's possible to publish Dendron on any platform that can host static sites. This guide covers publishing to [GitHub Pages](https://pages.github.com/)
 
 This is divided into two parts
 1. Setting up your local workspace for publication

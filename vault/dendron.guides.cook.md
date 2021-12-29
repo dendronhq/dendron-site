@@ -2,7 +2,7 @@
 id: 401c5889-20ae-4b3a-8468-269def4b4865
 title: Cookbook
 desc: ''
-updated: 1639617173832
+updated: 1640425855067
 created: 1595952505024
 nav_order: 6.1
 toc: true
@@ -12,7 +12,7 @@ toc: true
 
 ### Launch the command palette
 
-This lets you execute commands inside vscode
+This lets you execute commands inside VS Code
 
 -   Linux: `Ctrl+Shift+P`
 -   macOS: `Cmd+Shift+P`
@@ -42,7 +42,7 @@ You can get logs of the previous session by following instructions [here](https:
 
 > A comparison of mobile apps for Markdown can be found on the [Dendron blog: Best Mobile Note-Taking Apps for Markdown](https://blog.dendron.so/notes/fDCVPEo3guCFWPdxokXHU/). For a more in-depth comparison of text editors focusing on iOS devices, also take a look at [this iOS Text Editor roundup by Brett Terpstra](https://brettterpstra.com/ios-text-editors/).
 
-Dendron does not have a dedicated mobile client at this time. There are numerous mobile markdown editors that can be used to view and edit Dendron notes. Some popular options are listed below, based on feedback in the Dendron community:
+Dendron does not have a dedicated mobile client at this time. There are numerous mobile Markdown editors that can be used to view and edit Dendron notes. Some popular options are listed below, based on feedback in the Dendron community:
 
 - [GitJournal](https://github.com/GitJournal/GitJournal)
 - [iA Writer](https://ia.net/writer)
@@ -134,7 +134,7 @@ There are usually two scenarios:
 -   for 1, create a new window and initialize a new workspace in some directory that is different from your first workspace
 -   for 2, you have a few options
     -   a. initialize a new workspace in a different directory. open the settings using `> Open User Workspace settings (JSON)`. change the folder to the path of your vault in the initial workspace. run `> Reload Window` for the changes to take affect
-    -   b. use a different version of vscode to open the same workspace (eg. vscode insider, vscodium, vscode regular). you need to do this because vscode will re-use the same window when opening the same workspace
+    -   b. use a different version of VS Code to open the same workspace (eg. VS Code Insiders, VSCodium, VS Code regular). you need to do this because VS Code will re-use the same window when opening the same workspace
 
 ### Add Dendron to application launchers on Linux desktops
 
@@ -151,7 +151,7 @@ Keywords=dendron;notes;pkm;
 Categories=Utility;TextEditor;
 ```
 
-Make sure the path to the dendron workspace matches your setup. Then, run `update-desktop-database ~/.local/share/applications/` in a terminal or restart your system. You should now see Dendron in the launcher under the Utilities section, or if you search for Dendron in your launcher. Launching Dendron from here will launch VSCode with your Dendron workspace open.
+Make sure the path to the Dendron workspace matches your setup. Then, run `update-desktop-database ~/.local/share/applications/` in a terminal or restart your system. You should now see Dendron in the launcher under the Utilities section, or if you search for Dendron in your launcher. Launching Dendron from here will launch VS Code with your Dendron workspace open.
 
 ### Change the sorting order in the Outline Panel
 
@@ -163,7 +163,7 @@ Click the three little dots next to outline to change the sorting order. You can
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/cook.drag.jpg)
 
-To drag files into Dendron, open the workspace pane on the side to drag and drop. We currently recommend you only do this for non-markdown files that you want to link to inside your vaults.
+To drag files into Dendron, open the workspace pane on the side to drag and drop. We currently recommend you only do this for non-Markdown files that you want to link to inside your vaults.
 
 ### Find Installed Extensions
 
@@ -176,7 +176,7 @@ To drag files into Dendron, open the workspace pane on the side to drag and drop
 
 ![[dendron.ref.commands#initialize-workspace:#*]]
 
-2. by default, dendron uses a `vaults` folder underneath your workspace to store you vaults. Update your [[settings|dendron._ref.settings]] and change `vault` to the path of your current notes (alternatively, you can also copy your current notes into `vault`)
+2. by default, Dendron uses a `vaults` folder underneath your workspace to store you vaults. Update your [[settings|dendron._ref.settings]] and change `vault` to the path of your current notes (alternatively, you can also copy your current notes into `vault`)
 
 ```
 "folders": [
@@ -191,7 +191,7 @@ To drag files into Dendron, open the workspace pane on the side to drag and drop
 
 ### Using Multiple Workspaces
 
-The easiest current way to do this is to have multiple instances of VSCode open and toggle between the two. If you are very adventurous, you might even have [multiple versions of vscode](https://www.kevinslin.com/notes/7f197479-279e-4b1e-9edd-21bf2da423b0.html#dendron-setup) for different contexts.
+The easiest current way to do this is to have multiple instances of VS Code open and toggle between the two. If you are very adventurous, you might even have [multiple versions of VS Code](https://www.kevinslin.com/notes/7f197479-279e-4b1e-9edd-21bf2da423b0.html#dendron-setup) for different contexts.
 
 We are working on being able to run Dendron without the need for a workspace. You can track the progress of this on this [issue](https://github.com/dendronhq/dendron/issues/322)
 
@@ -203,11 +203,11 @@ We are working on being able to run Dendron without the need for a workspace. Yo
 
 ### How can I paste HTML content as Markdown?
 
-If you use VSCode, you can use the [Markdown Kit](https://marketplace.visualstudio.com/items?itemName=svsool.markdown-kit) extension. Unfortunately this is not available in VSCodium at this time.
+If you use VS Code, you can use the [Markdown Kit](https://marketplace.visualstudio.com/items?itemName=svsool.markdown-kit) extension. Unfortunately this is not available in VSCodium at this time.
 
 ### Syncing Dendron between devices
 
-#### Using git and github
+#### Using git and GitHub
 
 One of our users published a great guide on this [here](https://mstempl.netlify.app/post/dendron-git/)
 
@@ -224,25 +224,25 @@ code --user-data-dir=/path/to/code-dendron --extensions-dir=/path/to/code-dendro
 Dendron doesn't currently provide native support for this. You can download the [Bookmarks](https://marketplace.visualstudio.com/items?itemName=alefragnani.Bookmarks) extension to achieve the functionality in the interim.
 
 
-### Analyze notes using elasticsearch
+### Analyze notes using Elasticsearch
 
 -   WARNING: this is advanced material
 
-With Dendron, you can export your notes using the [[JSON Export Pod|dendron.topic.pod]] and then use that data to analyze your notes using elasticsearch.
+With Dendron, you can export your notes using the [[JSON Export Pod|dendron.topic.pod]] and then use that data to analyze your notes using Elasticsearch.
 
 This video walkthrough walks you through that process.
 <a href="https://www.loom.com/share/c85c7c81d8aa4e97b4bbdf2245ca8f9b"> <img style="" src="https://cdn.loom.com/sessions/thumbnails/c85c7c81d8aa4e97b4bbdf2245ca8f9b-with-play.gif"> </a>
 
-You can download the repo used in this walkthrough from [github](https://github.com/dendronhq/sample-elasticsearch-demo)
+You can download the repo used in this walkthrough from [GitHub](https://github.com/dendronhq/sample-elasticsearch-demo)
 
 Pre-requisites:
 
--   download and run elasticsearch
+-   download and run Elasticsearch
 
 Steps:
 
 1. Export your data using the JSON Export Pod
-2. Create an index in elasticsearch (we're using version 7.9)
+2. Create an index in Elasticsearch (we're using version 7.9)
 
 ```json
 PUT notes
@@ -266,7 +266,7 @@ cat /path/to/exported/notes.json | jq -c '.[] | {"index": {"_index": "notes", "n
 
 4. Profit!
 
-Some potential use cases you can do using elasticsearch and Dendron:
+Some potential use cases you can do using Elasticsearch and Dendron:
 
 -   filter your notes by any logical combination of custom attributes
 -   make a heatmap of notes created by date
@@ -275,8 +275,8 @@ Some potential use cases you can do using elasticsearch and Dendron:
 
 Some useful additional links:
 
--   [elasticsearch docs](https://www.elastic.co/guide/en/elasticsearch/reference/current/elasticsearch-intro.html)
--   [elasticsearch vscode extension](https://marketplace.visualstudio.com/items?itemName=ria.elastic)
+-   [Elasticsearch docs](https://www.elastic.co/guide/en/elasticsearch/reference/current/elasticsearch-intro.html)
+-   [Elasticsearch for VSCode extension](https://marketplace.visualstudio.com/items?itemName=ria.elastic)
 
 ### Convert timestamps in the frontmatter
 
@@ -288,7 +288,7 @@ Currently, Dendron notes show timestamps in epoch time which is not the most par
 
 ### WebClipper
 
-You can use the [markdownload-markdown-web](https://chrome.google.com/webstore/detail/markdownload-markdown-web/pcmpcfapbekmbjjkdalcgopdkipoggdi) extension to clip content as markdown from Chrome.
+You can use the [markdownload-markdown-web](https://chrome.google.com/webstore/detail/markdownload-markdown-web/pcmpcfapbekmbjjkdalcgopdkipoggdi) extension to clip content as Markdown from Chrome.
 
 ### Regex
 

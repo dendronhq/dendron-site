@@ -9,8 +9,8 @@ created: 1621888251389
 Dendron 0.43 has sprouted  🌱
 
 ### Highlights
-- basic block reference support inside vscode
-- new tree view based on dendron's custom web ui
+- basic block reference support inside VS Code
+- new tree view based on Dendron's custom web ui
 - paste file command
 - export your notes as a graphviz file
 - bug fixes

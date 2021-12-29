@@ -14,7 +14,7 @@ This goes over some best practices when using Dendron for teams.
 
 ## Workspace
 
-We recommend getting started by using the example in our [github template](https://github.com/dendronhq/org-workspace-template). 
+We recommend getting started by using the example in our [GitHub template](https://github.com/dendronhq/org-workspace-template). 
 
 This will create a workspace with the following structure
 
@@ -25,7 +25,7 @@ This will create a workspace with the following structure
     └── org-dev
 ```
 
-Follow the instructions of [[converting a local vault to a remote vault|dendron.guides.cook#converting-a-local-vault-to-a-remote-vault]] if you wish to make each individual vault a github repository
+Follow the instructions of [[converting a local vault to a remote vault|dendron.guides.cook#converting-a-local-vault-to-a-remote-vault]] if you wish to make each individual vault a GitHub repository
 
 ## Vaults
 

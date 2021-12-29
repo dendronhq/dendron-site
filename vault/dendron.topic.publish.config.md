@@ -8,7 +8,7 @@ created: 1637772506823
 
 ## Summary
 
-Publishing configuration for Dendron NextJS Publishing.
+Publishing configuration for Dendron Next.js Publishing.
 
 - NOTE: this is a work in progress, currently, refer to configuration options [[here|dendron://dendron.dendron-site/dendron.topic.publish-legacy.configuration]]
 

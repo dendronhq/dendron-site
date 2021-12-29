@@ -11,7 +11,7 @@ Dendron 0.49 has sprouted 🌱
 
 ### Highlights
 
--   **Native Dendron Preview.** Try out the brand new component with `Dendron: Show Preview v2`. This has been built from the ground up to be a common component between vscode and the upcoming NextJS based publishing. It is also _much_ faster and will reduce the initial download size by over 100MB by removing the dependency on Markdown Preview Enhanced.
+-   **Native Dendron Preview.** Try out the brand new component with `Dendron: Show Preview v2`. This has been built from the ground up to be a common component between VS Code and the upcoming Next.js based publishing. It is also _much_ faster and will reduce the initial download size by over 100MB by removing the dependency on Markdown Preview Enhanced.
 -   **Streamlined Onboarding.** We continue to make first-use a smoother ramp, and this week we're shipping a brand new onboarding experience. Use `Dendron: Launch Tutorial` to see for yourself.
 -   **Seed Bank Updates.** We continue to add seeds to the seed bank. See the announcement blog post [here](https://blog.dendron.so/notes/qTeL51LFD0Y8uC9ect7QV.html)
 -   **Enhancements, Stability and Performance.**

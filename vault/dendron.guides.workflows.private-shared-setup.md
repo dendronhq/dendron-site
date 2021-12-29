@@ -8,7 +8,7 @@ created: 1638820992694
 
 ## Rationale
 
-You want to use dendron for personal and professional use, keeping some notes private, while sharing others with other team members (or even yourself! -i.e. different machines). Some of these notes, in turn, may be [[published|dendron.topic.publish]], whereas others, not.
+You want to use Dendron for personal and professional use, keeping some notes private, while sharing others with other team members (or even yourself! -i.e. different machines). Some of these notes, in turn, may be [[published|dendron.topic.publish]], whereas others, not.
 
 Some specific use cases in which following a [[dendron.topic.multi-vault]] strategy would be recommended are:
 

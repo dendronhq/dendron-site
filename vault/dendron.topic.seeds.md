@@ -10,7 +10,7 @@ published: false
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/seeds.png)
 
-Seeds represent existing knowledge out in the world. A seed could be a wikipedia article, a github repo, or an arbitrary website. 
+Seeds represent existing knowledge out in the world. A seed could be a Wikipedia article, a GitHub repo, or an arbitrary website. 
 
 You can use a **Dendron Seed** to ingest data from existing sources and import them into your vault. Data ingestion is also referred to as **planting**.
 
@@ -40,7 +40,7 @@ You can add seeds within the UI of the `Seed Browse` command but also directly b
 
 #### Pre-requisites
 
-Make sure you have the dendron-cli installed.
+Make sure you have the Dendron CLI installed.
 
 ![[dendron.ref.cli#installation,1:#*]]
 

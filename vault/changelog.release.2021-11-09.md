@@ -2,7 +2,7 @@
 id: EjPEcAkZIDgzHaVMk4teA
 title: '0.68'
 desc: ''
-updated: 1639537554017
+updated: 1640428518936
 created: 1636478484110
 ---
 
@@ -25,16 +25,16 @@ Take a look at the latest [Dendron wiki](https://wiki.dendron.so), and you'll se
 * enhance(schema): update schemas on save instead of having to reload workspace
 * enhance(commands): move header supports multi vault
 * enhance(commands): allow creation of new notes when move header destination doesn't exist yet
-* fix(pods): github import pod handle deleted authors
+* fix(pods): GitHub import pod handle deleted authors
 * fix(workspace): warning to remove stub property if the note has content
 * fix(publish): table of contents layout
 * fix(server): improving error response on api server
 * fix(workspace): Change Workspace command recognizes native workspaces
 
 #### Breaking Changes
-* enhance(publish): migrate publish related commands to nextjs @hikchoi
+* enhance(publish): migrate publish related commands to Next.js @hikchoi
 
-Transitioning site build and previewing commands to use nextjs (instead of 11ty), along with the renaming of commands to be more inline with CLI:
+Transitioning site build and previewing commands to use Next.js (instead of 11ty), along with the renaming of commands to be more inline with CLI:
 * `Dendron: Site Preview` is renamed to `Dendron: Publish Dev`
 * `Dendron: Site Build` is renamed to `Dendron: Publish Export`
 
@@ -48,7 +48,7 @@ Transitioning site build and previewing commands to use nextjs (instead of 11ty)
 
 #### Google Docs Import Pod: Sign up for the beta
 
-We're rolling out [[direct integration with google docs|dendron.topic.pod.builtin.google-docs.import]] from inside of Dendron. we have used this extensively, internally, and are now looking for external beta testers before rolling it out generally. If interested, please [fill out the survey](https://airtable.com/shrP1yKjIDPFU4wHN) to get access to the beta, as we'll need to whitelist your gmail account with our Google App API.
+We're rolling out [[direct integration with Google Docs|dendron.topic.pod.builtin.google-docs.import]] from inside of Dendron. we have used this extensively, internally, and are now looking for external beta testers before rolling it out generally. If interested, please [fill out the survey](https://airtable.com/shrP1yKjIDPFU4wHN) to get access to the beta, as we'll need to whitelist your Gmail account with our Google App API.
 
 #### Dendron Reading Series
 
@@ -64,7 +64,7 @@ You can see an overview of all roles [[here|community.roles]]
 - [SR--](https://github.com/SR--) `Tika#9526`
   - [typo in RFC: Todo Notes](https://github.com/dendronhq/dendron-site/pull/259)
 - [NZ John](https://github.com/nz-john) `@NZ-John#0569`
-  - [HTML tables in NextJS is not formatted and ugly - basic formatting would help](https://github.com/dendronhq/dendron/issues/1674)
+  - [HTML tables in Next.js is not formatted and ugly - basic formatting would help](https://github.com/dendronhq/dendron/issues/1674)
 - [Aleksey Rowan](https://github.com/aleksey-rowan) `@aleksey#5276`
   - #dendron.bugcatcher
   - [Schema note template overrides selection extract](https://github.com/dendronhq/dendron/issues/1675)

@@ -45,11 +45,11 @@ These goals lead us to the following set of features. These can definitely chang
 -   [Synchronization Pods](https://github.com/dendronhq/dendron/issues/732)
 -   [Better Pods](https://github.com/dendronhq/dendron/issues/701)
 
-We'll be sure to add more issues here, but go over to the [Github project](https://github.com/orgs/dendronhq/projects/1) if you want the latest info.
+We'll be sure to add more issues here, but go over to the [GitHub project](https://github.com/orgs/dendronhq/projects/1) if you want the latest info.
 
 ## Feedback
 
-If you have questions or comments, share them either as [Github issues](https://github.com/dendronhq/dendron/issues/new/choose) or in the `#feedback` channel [in Discord](https://link.dendron.so/discord).
+If you have questions or comments, share them either as [GitHub issues](https://github.com/dendronhq/dendron/issues/new/choose) or in the `#feedback` channel [in Discord](https://link.dendron.so/discord).
 
 In addition to the content of the roadmap being updated regularly, we will also iterate on the format of the roadmap itself. We see the potential of reactions, issue comments, and even GitHub Discussions being useful for receiving direct signals back from the community about what we’ve planned. If you have feedback about the roadmap repository itself, such as how the issues are presented, let us know on Discord as well.
 

@@ -8,18 +8,18 @@ created: 1627560101451
 
 ## Summary
 
-The Github Issue Publish Pod lets you update the status, milestone, assignees and labels of issues in your github repository that have previously been imported into Dendron. It also supports creating a new issue and a discussion in github from a note authored in dendron. 
+The GitHub Issue Publish Pod lets you update the status, milestone, assignees and labels of issues in your GitHub repository that have previously been imported into Dendron. It also supports creating a new issue and a discussion in GitHub from a note authored in Dendron. 
 
 
 ## Actions
 
 ## Creating an Issue
 
-A new github issue can be created by publishing any note with publish pod that does not have issueID and status in note's frontmatter.
+A new GitHub issue can be created by publishing any note with publish pod that does not have issueID and status in note's frontmatter.
 
 ### Updating an issue
 
-Upon publishing the note below, for this issue #86, the status will be updated to `CLOSED`, milestone will be updated as v57, the tags will be updated to `wontfix` and `documentation` as issue labels and will be assigned to username `john-doe`(github username). The issue URL is copied to the clipboard.
+Upon publishing the note below, for this issue #86, the status will be updated to `CLOSED`, milestone will be updated as v57, the tags will be updated to `wontfix` and `documentation` as issue labels and will be assigned to username `john-doe`(GitHub username). The issue URL is copied to the clipboard.
 
 To add multiple assignee, add assignees in frontmatter as yaml array. 
 
@@ -61,12 +61,12 @@ This is the discussion for [RFC 28 - Notifications](https://wiki.dendron.so/note
 * required: true
 
 ### repository
-- description: github repository of the issue
+- description: GitHub repository of the issue
 - type: string
 - required: true
 
 ### token
-- description: github personal access token
+- description: GitHub personal access token
 - type: string
 - required: true
 
@@ -115,11 +115,11 @@ aliasMapping: {
 
 ### Authentication (Populating the token field in the configuration)
 
-To communicate with the Github server, you'll need an OAuth token with the right scopes.
+To communicate with the GitHub server, you'll need an OAuth token with the right scopes.
 Follow the steps in [Creating a personal access token](https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token) to create a token.
 
 ## Example Workflow
 
-When importing issues through [Github Issue Import](https://wiki.dendron.so/notes/2H9FBzagX9wf4b0V0ADGG.html), a note is created for each issue. The note frontmatter is populated with the title, url, status, existing tags, author and an issueID. You can add the field milestone with the milestone title, update the status of the issue (OPEN/CLOSED) and modify the tags within Dendron; after publishing with the publish pod, the changes in status, milestone and tags will be reflected in Github.
+When importing issues through [GitHub Issue Import](https://wiki.dendron.so/notes/2H9FBzagX9wf4b0V0ADGG.html), a note is created for each issue. The note frontmatter is populated with the title, url, status, existing tags, author and an issueID. You can add the field milestone with the milestone title, update the status of the issue (OPEN/CLOSED) and modify the tags within Dendron; after publishing with the publish pod, the changes in status, milestone and tags will be reflected in GitHub.
 
 

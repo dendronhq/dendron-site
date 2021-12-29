@@ -1,7 +1,7 @@
 ---
 id: b33d1803-6e4e-418f-a269-c4d4bde967cf
 title: Dendron Alternatives
-desc: ""
+desc: ''
 updated: 1622997336593
 created: 1615999699967
 nav_exclude: true

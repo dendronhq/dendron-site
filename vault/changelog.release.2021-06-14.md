@@ -15,7 +15,7 @@ Dendron 0.46 has sprouted  🌱
 - Note identifier switched to NanoID (makes URLs shorter)
 - Rename and refactor no longer format notes  
 - Random note command - helps review notes you may have lost track of over time.   
-- Telemetry respects vscode preferences
+- Telemetry respects VS Code preferences
 
 ### Docs
 

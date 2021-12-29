@@ -2,13 +2,13 @@
 id: e32aa1e2-9780-4183-927e-2f46372050aa
 title: '0.05'
 desc: ''
-updated: 1630728498576
+updated: 1640368755102
 created: 1596374984386
 date: '2020-08-02'
 ---
 With the coming of August, 2020 is officially on the wane. I think many of us are ready for a fresh start. In the meantime, you can prepare for better times by playing with new Dendron features. Happy gardening! 🌱
 
-With this release, we are also conducting our first dendron user survey. It's a short survey that should take no more than 3 minutes to fill out and will help inform me on the future growth of Dendron. Your participation is immensely appreciated 🙏
+With this release, we are also conducting our first Dendron user survey. It's a short survey that should take no more than 3 minutes to fill out and will help inform me on the future growth of Dendron. Your participation is immensely appreciated 🙏
 
 <https://forms.gle/PPqe2axvwEmpXj4v5>
 
@@ -53,19 +53,19 @@ Pods are the mechanisms Dendron uses to import and export notes. Dendron has a d
 
 ([e063732](https://github.com/dendronhq/dendron/commit/e063732d1ff082dd8520a479926e7ceb1b0893ab)) ([[docs|pkg.dendron-publishing]])
 
-Dendron lets you publish the contents of your vault, either in its entirety or only a subset. Notes are published under the [dendron-jekyll theme](https://github.com/dendronhq/dendron-jekyll). 
+Dendron lets you publish the contents of your vault, either in its entirety or only a subset. Notes are published under the [Dendron Jekyll theme](https://github.com/dendronhq/dendron-jekyll). 
 
 ### Features
 
 #### Nested Hierarchies
 
-dendron-Jekyll supports the same nested hierarchies as your notes and allows you to navigate via the sidebar.
+Dendron Jekyll supports the same nested hierarchies as your notes and allows you to navigate via the sidebar.
 
 <img style="max-width: 720px;" src="https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/site-hierarchy.gif" />
 
 #### Lookup
 
-If you'd rather not click, dendron-Jekyll also supports path-based lookup.
+If you'd rather not click, Dendron Jekyll also supports path-based lookup.
 
 <img style="max-width: 720px;" src="https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/site-lookup.gif" />
 
@@ -77,13 +77,13 @@ Every page is published using its unique ID which means that URLs will never cha
 
 #### Free hosting, custom domain names and SSL Certs
 
-If you have a free GitHub account, then you can host your Dendron notes for free using [github pages](https://pages.github.com/) 
+If you have a free GitHub account, then you can host your Dendron notes for free using [GitHub Pages](https://pages.github.com/) 
 
 <img style="max-width: 720px;" src="https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/site-domain.jpg" />
 
 #### Jekyll Liquid Tags and Variables
 
-- NOTE: this will only be "compiled" in the published site but won't be rendered in the regular markdown 
+- NOTE: this will only be "compiled" in the published site but won't be rendered in the regular Markdown 
 
 <img style="max-width: 720px;" src="https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/site-liquid.gif" />
 

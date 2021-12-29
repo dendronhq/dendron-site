@@ -2,14 +2,14 @@
 id: tO6EFCHd2rw350zh
 title: Import
 desc: ''
-updated: 1635272725238
+updated: 1640428452164
 created: 1626365094547
 ---
 
 
 ## Summary
 
-The Google Docs Import Pod imports contents of a google document to a specified hierarchy in your selected vault as a note. It can parse all the _headings_, _links_, _lists_, _tables_, _user-mentions_ and _images_ present in the document.
+The Google Docs Import Pod imports contents of a Google document to a specified hierarchy in your selected vault as a note. It can parse all the _headings_, _links_, _lists_, _tables_, _user-mentions_ and _images_ present in the document.
 The images are downloaded in the assets folder and are referenced from the note. User mentions are interpreted as a user tag and parsed as `@firstname-lastname`
 The import config has additional options to import comments in the doc.
 
@@ -35,8 +35,8 @@ After getting your Google Account onboarded with us, simply run the GDoc import 
 To communicate with the Google Docs, you'll need to manually obtain OAuth token with the right scopes.
 Follow the steps below to create a token. The scopes you require depends on the type of data you're trying to request, you can even select all and you are good to go.
 
-1. Go to [Google Oauth2 Playground](https://developers.google.com/oauthplayground/) and select the `Google Docs API v1` with scope as `https://www.googleapis.com/auth/documents` and `https://www.googleapis.com/auth/drive` and click on Authorize APIs button. Authorize yourself by selecting your google account from the oauth popup.
-1. On Step 2 in Oauth2 Playground, click on exchange authorization code for tokens. Copy the access token, refresh token and store it in the  dendron gdoc import pod config file.
+1. Go to [Google Oauth2 Playground](https://developers.google.com/oauthplayground/) and select the `Google Docs API v1` with scope as `https://www.googleapis.com/auth/documents` and `https://www.googleapis.com/auth/drive` and click on Authorize APIs button. Authorize yourself by selecting your Google account from the oauth popup.
+1. On Step 2 in Oauth2 Playground, click on exchange authorization code for tokens. Copy the access token, refresh token and store it in the  Dendron gdoc import pod config file.
 
 ### Choosing which Document to Import
 
@@ -90,7 +90,7 @@ CommentsUpdated: true
 ---
 ## Dendron
 
-Dendron is an **open-source**, **local-first**, **markdown-based**, **note-taking** tool built on top of [VSCode](https://code.visualstudio.com/). Like most such tools, Dendron supports all the usual features you would expect like :
+Dendron is an **open-source**, **local-first**, **Markdown-based**, **note-taking** tool built on top of [VS Code](https://code.visualstudio.com/). Like most such tools, Dendron supports all the usual features you would expect like :
 
 - Tagging
 - Backlink
@@ -115,13 +115,13 @@ Dendron is an **open-source**, **local-first**, **markdown-based**, **note-takin
 ### Additional Google Doc Pod Specific Configurations:
 
 ### accessToken
-- description: google doc personal access token
+- description: Google Doc personal access token
 - type: string
 - required: true
 
 ### refreshToken
 
-- description: google doc refresh token. This will be used to automatically refresh the access token once it passes its expiration time.
+- description: Google Doc refresh token. This will be used to automatically refresh the access token once it passes its expiration time.
 - type: string
 - required: false
 
@@ -132,7 +132,7 @@ Dendron is an **open-source**, **local-first**, **markdown-based**, **note-takin
 - required: false
 
 ### importComments
-- description: import comments from the doc in text or json format
+- description: import comments from the doc in text or JSON format
 - required: false
 - type: object
 - example: : {enable: true, format: text} 

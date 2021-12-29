@@ -39,10 +39,9 @@ Options
 - for common options, see [[common options|dendron.ref.cli#common-options]]
 - `--output`: controls how note is formatted
     - values: `json|md_gfm|md_dendron`
-        - json: json output
+        - json: JSON output
         - md_dendron: dendron markdown
         - md_gfm: github flavored markdown 
-
 
 Examples
 
@@ -60,7 +59,7 @@ dendron note lookup --query "hello"
 dendron note lookup --query "hello" 
 ```
 
-#### Querying a note with github flavored markdown output
+#### Querying a note with GitHub Flavored Markdown output
 
 ```bash
 # retrieves hello.md if it does exist

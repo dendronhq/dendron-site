@@ -9,7 +9,7 @@ stub: false
 
 ## Summary
 
-The `---` section at the top of each note is **frontmatter**. Frontmatter contains custom attributes at the top of each markdown file, autogenerating some at creation time. Dendron uses it to store metadata about each note for features like publishing.
+The `---` section at the top of each note is **frontmatter**. Frontmatter contains custom attributes at the top of each Markdown file, autogenerating some at creation time. Dendron uses it to store metadata about each note for features like publishing.
 
 ## Example
 
@@ -26,7 +26,7 @@ nav_order: 1
 
 ## Details
 
-Frontmatter is [YAML](https://yaml.org/) that you can add to the front of your markdown file. It was first introduced by [jekyll](https://jekyllrb.com/docs/front-matter/) and is a convenient way of adding metadata to your plaintext documents.
+Frontmatter is [YAML](https://yaml.org/) that you can add to the front of your Markdown file. It was first introduced by [Jekyll](https://jekyllrb.com/docs/front-matter/) and is a convenient way of adding metadata to your plaintext documents.
 
 Dendron supports frontmatter. By default, we add the following keys to a new note created with Dendron:
 
@@ -44,7 +44,7 @@ Feel free to add your attributes. As long as it doesn't conflict with a Dendron 
 
 # Reserved Keys
 
-Note that not all the keys are written out to the markdown file. Dendron merges the attributes from the markdown frontmatter to its own internal set of attributes.
+Note that not all the keys are written out to the Markdown file. Dendron merges the attributes from the Markdown frontmatter to its own internal set of attributes.
 
 ### id
 

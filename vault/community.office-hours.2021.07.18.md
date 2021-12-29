@@ -19,7 +19,7 @@ created: 1626731383626
     * Plan is to remove existing preview at the beginning of August. 
 * Graph styling 
     * Right now, we only have light/dark. 
-    * In the next release, you can apply custom css to the graph. 
+    * In the next release, you can apply custom CSS to the graph. 
 * Workspace templates
     * Initialize with a blank workspace OR use templates
         * Daily journal
@@ -30,7 +30,7 @@ created: 1626731383626
         * Will iterate on it going forward. 
 * QOL Enhancements
     * Link completion - 
-    * VSCode snippet improvements - when you use the insert note command, will also resolve snippet. 
+    * VS Code snippet improvements - when you use the insert note command, will also resolve snippet. 
     * Syntax highlighting of wiki links. Links in different states. 
         * Missing note - warning color
         * Regular note

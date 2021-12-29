@@ -1,7 +1,7 @@
 ---
 id: 9de065ab-4802-4580-93a6-769e94a599c8
 title: Notion Vs Dendron
-desc: ""
+desc: ''
 updated: 1639682774475
 created: 1622545672148
 ---

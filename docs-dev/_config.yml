@@ -14,7 +14,7 @@ kramdown:
 
 # seo
 tagline: "A better way to know"
-description: "Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size."
+description: "Dendron is a local-first, Markdown-based, hierarchical note taking tool. It is meant to help you create, organize, and collaborate on knowledge bases of any size."
 url: "https://www.dendron.so"
 twitter:
   card: summary
