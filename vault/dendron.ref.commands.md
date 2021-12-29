@@ -2,7 +2,7 @@
 id: eea2b078-1acc-4071-a14e-18299fc28f47
 title: Commands
 desc: ''
-updated: 1640719408190
+updated: 1640795851532
 created: 1595261816971
 nav_order: 3.1
 ---
@@ -261,8 +261,7 @@ Running it in the note `recipe.eggs` will insert the following at cursor positio
 
 ### Move Note
 
-Move a note. Also includes option to move a note between vaults
-You can also move an open note from the explorer by: Right Click on the note > Dendron: Move Note
+![[dendron://dendron.dendron-site/dendron.topic.refactoring#move-note,1:#*]]
 
 ### Paste Link
 
@@ -674,9 +673,9 @@ Dendron recognises a new Markdown file created from VS Code context menu and pop
 
 #### Rename Note 
 
-Dendron recognises the VS Code rename and updates all the backlinks to the old file with new name.
+![[dendron://dendron.dendron-site/dendron.topic.refactoring#rename-note,1:#*]]
 
-
+##
 
 
 

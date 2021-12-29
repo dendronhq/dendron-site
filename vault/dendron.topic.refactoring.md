@@ -2,7 +2,7 @@
 id: srajljj10V2dl19nCSFiC
 title: Refactoring
 desc: ''
-updated: 1640715792988
+updated: 1640796176615
 created: 1638900089932
 ---
 
@@ -14,6 +14,8 @@ Features that help update the structure of Dendron
 
 ### Rename Note
 
+> If looking to move a note to a different vault, within a [[dendron.topic.multi-vault]] workspace, use [[Move Note|dendron://dendron.dendron-site/dendron.topic.refactoring#move-note]] instead.
+
 - shortcuts: none
 
 Rename a note and all backlinks.
@@ -22,9 +24,12 @@ If the title is the same as what Dendron would autogenerate (kebab-case capitali
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/command-rename.gif)
 
-You can also simply rename a file in VS Code's explorer panel, and all of the backlinks to that note will be updated automatically. Here is an example loom [video](https://www.loom.com/share/dcc2df8f598a463894278f9b5926a92e)
+You can also rename a note from the explorer, and all of the backlinks to that note will be updated automatically (see an [example loom video](https://www.loom.com/share/dcc2df8f598a463894278f9b5926a92e)):
 
-- NOTE: Dendron will not allow you to rename a note to a note that already exists
+- Right Click on the note
+- Select `Dendron: Rename Note`
+
+> NOTE: Dendron will not allow you to rename a note to a note that already exists
 
 #### Rename Symbol
 
@@ -39,6 +44,21 @@ Dendron currently supports the following symbols:
 
 - [[Wiki Links|dendron://dendron.dendron-site/dendron.topic.links#wiki-links]]
 - [[File Links|dendron://dendron.dendron-site/dendron.topic.links#file-links]]
+
+### Move Note
+
+> If looking to move a note within a hierarchy in a local vault, or just to rename the note, use [[Rename Note|dendron://dendron.dendron-site/dendron.topic.refactoring#rename-note]]
+
+- shortcuts: none
+
+Move a note between vaults when in a [[dendron://dendron.dendron-site/dendron.topic.multi-vault]] workspace, and update all backlinks.
+
+You can also move a note from the explorer, and all of the backlinks to that note will be updated automatically:
+
+- Right Click on the note
+- Select `Dendron: Move Note`
+
+> NOTE: Dendron will not allow you to move a note to a note that already exists
 
 ### Refactor Hierarchy
 
