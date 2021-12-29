@@ -1,6 +1,6 @@
 ---
 id: 63ea2e72-4eba-406c-9f4c-7300fa0b8935
-title: "0.15"
+title: '0.15'
 desc: ''
 updated: 1630732490664
 created: 1604882865662
@@ -21,7 +21,7 @@ I'm thrilled to announce our latest **Dendrologist**! Meet Luke (@lukecarrier#20
 
 > Hey 👋 I’m Luke and I’m going to be picking up some development work. Ask me about the Markdown editing experience, publishing and integrating external tools.
 
-![[community.roles#dendrologist,1:#*]]
+![[community.discord.roles#dendrologist,1:#*]]
 
 ### In the Works
 

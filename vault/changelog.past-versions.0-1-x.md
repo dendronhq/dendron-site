@@ -56,7 +56,7 @@ One of our most requested features for multi-vault is now out. Refactor will now
 - add remote vault to gitignore if exist ([1c252db](https://github.com/dendronhq/dendron/commit/1c252db60c0ea69be8dd10c1768c2dd302711e13))
 - initialize all remote vaults on startup ([1919fe4](https://github.com/dendronhq/dendron/commit/1919fe4e6d853d1f6ef63564ebbcc9af1e11a41a))
 - write remote url to Dendron config ([2a285ea](https://github.com/dendronhq/dendron/commit/2a285eacaeef8224d2a3530dc991b4977443c039))
-- add GitHub sponsor badge on GitHub repository to recruit more [[environmentalists|community.roles#environmentalist]] 👨‍🌾 👩‍🌾
+- add GitHub sponsor badge on GitHub repository to recruit more [[environmentalists|community.discord.roles#environmentalist]] 👨‍🌾 👩‍🌾
 
 ### Bug Fixes
 

@@ -31,7 +31,7 @@ Our documentation changes a lot week by week. Below is a highlight of some updat
 
 #### Office Hours
 
-You can find notes from our latest office hours [[here|community.office-hours.2021.06.27]]
+You can find notes from our latest office hours [[here|community.events.office-hours.2021.06.27]]
 
 #### Thank You's
 
@@ -58,7 +58,7 @@ A big **thanks** to the following gardeners that brought up issues, contribution
   - [Having '.md' anywhere inside new note name will break title generation](https://github.com/dendronhq/dendron/issues/856)
 
 
-You can see an overview of all roles [[here|community.roles]]
+You can see an overview of all roles [[here|community.discord.roles]]
 
 ### Changelog
 ![[changelog#048,1:#047]]

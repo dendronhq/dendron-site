@@ -1,7 +1,7 @@
 ---
 id: nzqCi64LGetqAWqdDT2lK
 title: Lookup
-desc: 'Anything lookup related'
+desc: Anything lookup related
 updated: 1640425626079
 created: 1631657275412
 ---

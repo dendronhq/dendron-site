@@ -22,7 +22,7 @@ Dendron 0.7 has sprouted  🌱
 
 #### Dendron Reading Series
 
-This week's entry in the [[Dendron Reading Series|community.reading-series]]. 
+This week's entry in the [[Dendron Reading Series|community.events.reading-series]]. 
 
 #### Office Hours
 <!-- TODO: update the link. Office hours are bi-weekly, delete this section if not appliacble -->
@@ -31,7 +31,7 @@ You can find notes from our latest office hours [[here|community.office-hours.20
 #### Thank You's
 
 A big **thanks** to the following gardeners that brought up issues, contributions, and fixes to this release :man_farmer: :woman_farmer: 
-You can see an overview of all roles [[here|community.roles]]
+You can see an overview of all roles [[here|community.discord.roles]]
 
 ### Changelog
 ![[changelog#064,1:#063]]

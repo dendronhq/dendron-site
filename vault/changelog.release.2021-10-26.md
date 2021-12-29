@@ -44,14 +44,14 @@ dendron dev run_migration --migrationVersion 0.64.1
 
 #### Dendron Reading Series
 
-This week's entry in the [[Dendron Reading Series|community.reading-series]]. 
+This week's entry in the [[Dendron Reading Series|community.events.reading-series]]. 
 
-![[dendron://dendron.dendron-site/community.reading-series.journal.2021.10.26]]
+![[dendron://dendron.dendron-site/community.events.reading-series.2021.10.26]]
 
 #### Thank You's
 
 A big **thanks** to the following gardeners that brought up issues, contributions, and fixes to this release :man_farmer: :woman_farmer: 
-You can see an overview of all roles [[here|community.roles]]
+You can see an overview of all roles [[here|community.discord.roles]]
 
 - [Ikko Ashimine](https://github.com/eltociear)
     - #dendron.taxonomist

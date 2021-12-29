@@ -34,7 +34,7 @@ npm install @dendronhq/dendron-11ty@latest
 
 Last and most of all, a big **thanks** to the following gardeners that brought up issues, contributions, and fixes to this release 👨‍🌾 👩‍🌾
 
-- first timer (see [[roles here|community.roles]])
+- first timer (see [[roles here|community.discord.roles]])
   - bug catchers: @Metalsmf#7744 @Stephen#8544 @muon#1974 @Francobar#1299 
   - taxonomist: @eeBaiQuai#1157 
 - all contributions

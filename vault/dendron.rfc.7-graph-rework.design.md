@@ -1,7 +1,7 @@
 ---
 id: 6e87249b-358f-4f4b-8049-dff6e6a8463b
 title: Better Graph View – Design
-desc: ""
+desc: ''
 updated: 1640425555933
 created: 1621277234750
 ---

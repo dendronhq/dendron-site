@@ -52,14 +52,14 @@ We're rolling out [[direct integration with Google Docs|dendron.topic.pod.builti
 
 #### Dendron Reading Series
 
-This week's entry in the [[Dendron Reading Series|community.reading-series]].
+This week's entry in the [[Dendron Reading Series|community.events.reading-series]].
 
-![[community.reading-series.journal.2021.11.09]]
+![[community.events.reading-series.2021.11.09]]
 
 #### Thank You's
 
 A big **thanks** to the following gardeners that brought up issues, contributions, and fixes to this release :man_farmer: :woman_farmer: 
-You can see an overview of all roles [[here|community.roles]]
+You can see an overview of all roles [[here|community.discord.roles]]
 
 - [SR--](https://github.com/SR--) `Tika#9526`
   - [typo in RFC: Todo Notes](https://github.com/dendronhq/dendron-site/pull/259)

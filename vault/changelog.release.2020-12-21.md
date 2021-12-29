@@ -1,6 +1,6 @@
 ---
 id: e543ad13-1108-448c-b3a6-9976fd7a65ce
-title: "0.21"
+title: '0.21'
 desc: ''
 updated: 1616950042304
 created: 1608580995965
@@ -27,7 +27,7 @@ There's still some work left to integrate publishing into the Dendron plugin - m
 - new bug catchers: @rasmuse#4440 @Contessa#0861 @TokyoMike#2771 
 - new environmentalist: @Stephen#8544 
 
-You can find a description of all roles [[here|community.roles]]
+You can find a description of all roles [[here|community.discord.roles]]
 
 ### In the Works
 

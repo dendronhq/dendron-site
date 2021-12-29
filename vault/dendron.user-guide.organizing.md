@@ -1,6 +1,6 @@
 ---
 id: BWYKFQ8297OgfWWyV7Bgn
-title: Organizing 
+title: Organizing
 desc: ''
 updated: 1640484720369
 created: 1636496012985

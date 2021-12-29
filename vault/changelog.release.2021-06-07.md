@@ -20,7 +20,7 @@ Dendron 0.45 has sprouted 🌱
 
 #### Office Hours
 
-You can find notes from our latest office hours [[here|community.office-hours.2021.06.06]]
+You can find notes from our latest office hours [[here|community.events.office-hours.2021.06.06]]
 
 #### Ongoing Community Request (CROP)
 
@@ -43,7 +43,7 @@ A big **thanks** to the following gardeners that brought up issues, contribution
     - `bugcatcher` 
     - copyAssets doesn't respect publish config
 
-You can see an overview of all roles [[here|community.roles]]
+You can see an overview of all roles [[here|community.discord.roles]]
 
 ### Changelog
 

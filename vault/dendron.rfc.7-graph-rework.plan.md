@@ -1,7 +1,7 @@
 ---
 id: 55577c37-0943-44e7-9c85-c0327bdc9212
 title: Plan
-desc: ""
+desc: ''
 updated: 1621888788892
 created: 1619793470844
 issue: 692
