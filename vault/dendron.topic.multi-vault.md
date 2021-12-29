@@ -2,7 +2,7 @@
 id: 24b176f1-685d-44e1-a1b0-1704b1a92ca0
 title: Multi Vault
 desc: ''
-updated: 1639542227313
+updated: 1640795133525
 created: 1605630383515
 ---
 
@@ -45,6 +45,12 @@ version: 0
 ...
 lookupConfirmVaultOnCreate: true
 ```
+
+### Moving Notes Between Vaults
+
+This can be done with the `Move Note` command.
+
+![[dendron://dendron.dendron-site/dendron.topic.refactoring#move-note,1:#*]]
 
 ### Navigating Links
 
