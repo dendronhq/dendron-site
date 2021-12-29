@@ -2,9 +2,11 @@
 id: 1eec6c7b-242e-4102-93f1-fc285702ecd2
 title: Office Hours
 desc: ''
-updated: 1640816917274
+updated: 1640818609738
 created: 1619981785169
 ---
+
+## Summary
 
 We hold office hours in our [Discord Channel](https://discordapp.com/channels/717965437182410783/776450886230605845/837055285042348046). During Dendron Office Hours, the Dendron team highlights new features and open the floor to community Q&A in the Dendron Discord. Please ask questions and drop on by if you can!
 
