@@ -2,18 +2,18 @@
 id: 9wND5ZkFaEyOI1QtqrZA3
 title: Assign Category to Task
 desc: ''
-updated: 1636560748020
+updated: 1640763206212
 created: 1636474909745
 ---
 
 ## Summary
-How we assign `types` to tasks.
+How we assign `category` to tasks.
 
 ## Prerequisites
 None
 
 ## Process
-1. Read over the different [[categories|#type]] and use your best judgement to apply the correct type
+1. Read over the different [[categories|#categories]] and use your best judgement to apply the correct type
 1. If the commit involves [[#breaking-changes]], add a `BREAKING: <desc>` in a newline after the commit
 1. When in doubt, add a question in `#dendron-team` channel 
 
@@ -44,10 +44,6 @@ None
     chore(commands): rename search to lookup
     BREAKING: this changes the `Dendron: Search` command to `Dendron: Lookup`
     ```
-
-## Checklist
-
-## Templates
 
 ## Reference
 
