@@ -1,6 +1,6 @@
 ---
 id: 16qtgkcY-tgiYZWafX9Sp
-title: "0.50"
+title: '0.50'
 desc: ''
 updated: 1626731345926
 created: 1626100738632

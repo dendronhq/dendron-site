@@ -2,7 +2,7 @@
 id: 9MZBqhrijEM4QpZRa5t08
 title: Linking Notes
 desc: Linking Notes
-updated: 1640679868585
+updated: 1640714585719
 created: 1625563999532
 nav_order: 2
 ---
@@ -15,11 +15,11 @@ Dendron helps you create links between notes. These links help you organically d
 
 - Example (remember to remove the surrounding backticks): `[[recipes.vegetarian]]`
 
-To navigate to the note in the link, click the link in the preview view. In the editor pane, move the cursor into the link and hit `Ctrl+Enter`. You might wonder what will do if the note doesn't exist: it will create the note!
+To navigate to the note in the link, click the link in the preview view. In the editor pane, move the cursor into the link and hit `Ctrl+Enter`. You might wonder what will happen if the note doesn't exist: it will create the note!
 
 You can switch back to the previous note with the tab switching shortcut: `Ctrl+Tab` on most systems.
 
-> 💡 **TIP:** When you create a wikilink, Dendron automatically registers the link as a **backlink** for the destination note. These are what appear in the [[Backlinks Pane|dendron.tutorial.user-interface#7-backlinks-pane]]. For more information on backlinks:
+> 💡 **TIP:** When you create a wikilink, Dendron automatically registers the link as a **backlink** for the destination note. These appear in the [[Backlinks Pane|dendron.tutorial.user-interface#7-backlinks-pane]] when the destination note is open. For more information on backlinks:
 > - [[Links: Backlinks|dendron://dendron.dendron-site/dendron.topic.links#backlinks]]
 > - [[Workbench: Backlinks Panel|dendron://dendron.dendron-site/dendron.topic.workbench#backlinks-view]]
 
@@ -45,7 +45,7 @@ This is the **[[graph view|dendron://dendron.dendron-site/dendron.topic.graph-vi
 
 ## Refactoring in Dendron
 
-You may wonder what happens to your links if you want to change the name of a note or header. Dendron keeps this in mind and provides commands to update your notes. All the while, Dendron updates any all wikilinks in your notes.
+You may wonder what happens to your links if you want to change the name of a note or header. Dendron keeps this in mind and provides commands to update your notes. All the while, Dendron updates any and all wikilinks in your notes.
 
 ### Rename Note
 
@@ -64,7 +64,7 @@ The [[Rename Header|dendron://dendron.dendron-site/dendron.topic.refactoring#ren
 > - Rename the header to `## Best Ingredients`
 > - Use the lookup to navigate to `[[recipes.ingredients.shopping-list]]`. You should see the wikilink there has updated from `[[recipes.italian.desserts.gelato#ingredients]]` to `[[recipes.italian.desserts.gelato#best-ingredients]]`, ensuring links are updated!
 
-If wanting to migrate a section beneath a certain header, to a different note entirely, [[Move Header|dendron://dendron.dendron-site/dendron.topic.refactoring#move-header]] will do the job and ensure links are updated.
+If you want to migrate a section beneath a certain header to a different note entirely, [[Move Header|dendron://dendron.dendron-site/dendron.topic.refactoring#move-header]] will do the job and ensure links are updated.
 
 ### Refactor Hierarchy
 
@@ -76,7 +76,7 @@ The [[Refactor Hierarchy|dendron.topic.refactoring#refactor-hierarchy]] command 
   - `[[recipes.vegetarian.tikka-masala]]`
   - `[[recipes.vegetarian.aloo-paratha]]`
   - `[[recipes.vegetarian.dosa]]`
-- Each of these are indian food! Let's move them into the `indian` hierarchy.
+- Each of these are Indian food! Let's move them into the `indian` hierarchy.
   - Run the command `Dendron: Refactor Hierarchy`
   - At the first prompt, enter `recipes.vegetarian` (note hierarchy you are targeting)
   - At the second prompt, enter `recipes.indian` (renaming the targeted hierarchy)
@@ -94,7 +94,7 @@ recipes.vegetarian.aloo-paratha.md  -->	recipes.indian.aloo-paratha.md
 recipes.vegetarian.dosa.md          -->	recipes.indian.dosa.md
 ```
 
-Selecting `Proceed` renames all the notes! No need to worry about any broken links throughout your notes, as those are updated by `Refactor Hierarchy`, too.
+Selecting `Proceed` renames all the notes! There's no need to worry about any broken links throughout your notes, as those are updated by `Refactor Hierarchy`, too.
 
 > 💡 **TIP:** We could have chosen to move them all to `[[recipes.indian.vegetarian]]`, too, if wanting to add `vegetarian` to recipe hierarchies. Doing this would make it easy to do a lookup against all vegetarian recipes with `recipes. vegetarian`. Another alternative is to take a look at using [[Tags|dendron://dendron.dendron-site/dendron.topic.tags]].
 

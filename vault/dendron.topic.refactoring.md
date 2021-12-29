@@ -2,7 +2,7 @@
 id: srajljj10V2dl19nCSFiC
 title: Refactoring
 desc: ''
-updated: 1639515355222
+updated: 1640715792988
 created: 1638900089932
 ---
 
@@ -23,6 +23,8 @@ If the title is the same as what Dendron would autogenerate (kebab-case capitali
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/command-rename.gif)
 
 You can also simply rename a file in VS Code's explorer panel, and all of the backlinks to that note will be updated automatically. Here is an example loom [video](https://www.loom.com/share/dcc2df8f598a463894278f9b5926a92e)
+
+- NOTE: Dendron will not allow you to rename a note to a note that already exists
 
 #### Rename Symbol
 
@@ -123,3 +125,30 @@ Rename the selected header.
 
 You must put the caret on the header you want to rename.
 All wikilinks that link to this header (like `[[note#header]]`) will automatically get updated to the new header.
+
+## Links
+
+### Convert Link
+
+Converts links of various statuses and kinds.
+
+#### Broken links
+
+You can use `Convert Link` to convert broken links into either plaintext or a different link to an existing note.
+These are the available options for converting broken links:
+- `alias`: use link's alias if exists (otherwise option isn't suggested)
+- `note name`: use link destination's note name (basename excluding all parent hierarchies)
+- `hierarchy`: use link destination's entire hierarchy
+- `prompt`: user is prompted to manually input text to use
+- `change destination`: user is prompted a lookup to choose a different existing note to link.
+
+#### Valid links
+
+You can use `Convert Link` to convert a limited set of valid links to other types of links.
+These are the available operations:
+- when cursor is above a usertag, user is asked if they want to convert it to a regular wikilink
+- when cursor is above a regular wikilink with `user.*` hierarchy, user is asked if they want to convert it to a usertag (ex. `@person`)
+- when cursor is above a hashtag, user is asked if they want to convert it to a regular wikilink
+- when cursor is above a regular wikilink with `tags.*` hierarchy, user is asked if they want to convert it to a hashtag (ex. `#my.tag`)
+
+##

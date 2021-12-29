@@ -2,11 +2,16 @@
 id: BWYKFQ8297OgfWWyV7Bgn
 title: Organizing 
 desc: ''
-updated: 1636496012985
+updated: 1640484720369
 created: 1636496012985
 nav_order: 4.1
 ---
 
+## Summary
+
+Maintaining your notes
+
+## Topics
 - Hierarchies
     - [[Hierarchies|dendron://dendron.dendron-site/dendron.topic.hierarchies]]
     - [[Schemas|dendron://dendron.dendron-site/dendron.topic.schema]]

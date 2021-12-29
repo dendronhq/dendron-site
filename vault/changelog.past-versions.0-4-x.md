@@ -253,7 +253,7 @@ created: 1629505311218
 -   improved startup speed
 -   block references fully supported in publishing and preview
     @hikchoi
--   toggle scope when running the doctor command ([[plugin docs|dendron.ref.commands#doctor]]) ([[cli docs|dendron.ref.cli#doctor]])
+-   toggle scope when running the doctor command ([[plugin docs|dendron.topic.doctor#doctor]]) ([[cli docs|dendron.ref.cli#doctor]])
 
 ### Bug Fixes
 

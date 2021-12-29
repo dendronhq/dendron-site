@@ -1,6 +1,6 @@
 ---
 id: f240676a-a003-46e2-ac79-784bd142c7f0
-title: "0.36"
+title: '0.36'
 desc: ''
 updated: 1617645692821
 created: 1617644812612

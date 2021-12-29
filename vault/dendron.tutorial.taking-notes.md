@@ -4,7 +4,7 @@ title: Taking Notes
 desc: >-
   Creating notes, understanding hierarchy, and using Lookup to quickly find your
   notes
-updated: 1639681343554
+updated: 1640714558512
 created: 1625563944736
 nav_order: 1
 ---
@@ -44,7 +44,7 @@ You can try to add some content to the body of your `recipes` note now.
 
 You've created your first hierarchy! **[[Hierarchies|dendron://dendron.dendron-site/dendron.topic.hierarchies]]** in Dendron are created by having a `.` ("dot") delimiter in the file name. For more information on how this works, see [[What's with the .'s?|dendron://dendron.dendron-site/dendron.topic.hierarchies#whats-with-the-s]]
 
-Take a look at the tree view to see the `vegetarian` note under the `recipes` hierarchy. You can also see the the note stored as `recipes.vegetarian.md` in the File Explorer Pane.
+Take a look at the tree view to see the `vegetarian` note under the `recipes` hierarchy. You can also see the note stored as `recipes.vegetarian.md` in the File Explorer Pane.
 
 ### Children
 
@@ -62,7 +62,7 @@ You'll see there is a `+` sign next to `italian` and `desserts` when viewing in 
 
 ![[dendron://dendron.dendron-site/asset.preview#tree-view-dark,1:#*]]
 
-Following this recipes example, you can create other related. Some examples:
+Following this recipes example, you can create other related notes. Some examples:
 
 ```
 recipes.favorites

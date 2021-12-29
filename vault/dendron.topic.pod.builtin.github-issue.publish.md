@@ -2,7 +2,7 @@
 id: 8JECQzntY2P5ha3U
 title: Publish
 desc: ''
-updated: 1634292422749
+updated: 1640713294033
 created: 1627560101451
 ---
 
@@ -78,12 +78,39 @@ This is the discussion for [RFC 28 - Notifications](https://wiki.dendron.so/note
 
 If set to false, the default body for Discussion would be : Discussion for `<title of the note>`
 
+### aliasMapping
+- description : aliases to the frontmatter fields to support task note mappings.
+- type: object
+- required: false
+
+GitHub issues make it possible to provide aliases to the frontmatter fields so that it can support task note mappings. It allows us to directly use a GitHub issue as a task note and then publish the results back to GitHub when we update the task status.
+
+```ts
+type AliasMapping = {
+  assignees: AliasMappingFields;
+  status: AliasMappingFields;
+};
+type AliasMappingFields = {
+  value?: { [key: string]: string };
+  alias?: string;
+};
+```
+
+
 ### Example Configuration:
 ```yml
 owner: dendronhq
 repository: dendron-site
 token: ***
 includeNoteBodyInDiscussion: true
+aliasMapping: {
+        #this says that another name for `assignees` is `owner`
+        assignees: {
+            alias: 'owner', 
+        },
+        # this says that 'x' in status should be interpretesd as `CLOSED`
+        status: { value: {x: 'CLOSED'} }
+    }
 ```
 
 ### Authentication (Populating the token field in the configuration)

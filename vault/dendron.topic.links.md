@@ -2,7 +2,7 @@
 id: 3472226a-ff3c-432d-bf5d-10926f39f6c2
 title: Links
 desc: ''
-updated: 1640425601205
+updated: 1640712547616
 created: 1595003088839
 ---
 
@@ -112,3 +112,8 @@ You can also use cross vault links for [[note references|dendron.topic.note-refe
 Markdown links can be used for local files and stuff on the internet (websites, images, blogs etc.). The `Markdown Shortcuts: Toggle hyperlink` command makes this operation really easy. You can even bind this to a shortcut key combination. We'd recommend using 'cmd/ctrl + K' to get the usual application behavior or 'cmd/ctrl + U' if you want to continue using ctrl+k as part of the usual VS Code combo operation.
 
 
+## Commands
+
+### Convert Link
+
+![[dendron://dendron.dendron-site/dendron.topic.refactoring#convert-link,1:#*]]

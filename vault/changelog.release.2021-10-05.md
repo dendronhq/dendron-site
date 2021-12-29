@@ -1,6 +1,6 @@
 ---
 id: K6ssYNLMW27BSV6rSZJ5P
-title: "0.62"
+title: '0.62'
 desc: ''
 updated: 1640428604255
 created: 1633454409770

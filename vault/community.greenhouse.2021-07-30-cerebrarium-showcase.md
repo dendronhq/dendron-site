@@ -2,7 +2,7 @@
 id: WUy5xtqQt3MwxcPG
 title: Cerebrarium
 desc: ''
-updated: 1627662156124
+updated: 1640670996446
 created: 1627318749859
 ---
 
@@ -27,6 +27,6 @@ In this talk, Mark will walk you through his personal digital garden [Cerebrariu
 - [[Transcript|community.greenhouse.2021-07-30-cerebrarium-showcase.transcript]]
 
 ## Links to things talked about
-- [Cerebrarium - cerebrarium](https://cerebrarium.garden/): Mark's digital garden
+- [Cerebrarium - cerebrarium](https://cerebrarium.garden): Mark's digital garden
 - [The Open PKM Catalogue - PKM](https://pkm.dendron.so/): lists out most of the concepts we talked about
-- [Mark's Rules to classify external information](https://cerebrarium.garden/notes/Y_H6rBwXIinOO1QtrsNLV.html)
+- [Mark's Rules to classify external information](https://cerebrarium.garden/notes/Y_H6rBwXIinOO1QtrsNLV/)

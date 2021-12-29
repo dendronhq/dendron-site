@@ -1,6 +1,6 @@
 ---
 id: Ihy02jENwD3m6LBOzakeS
-title: "0.71"
+title: '0.71'
 desc: ''
 updated: 1638292696753
 created: 1638290092689

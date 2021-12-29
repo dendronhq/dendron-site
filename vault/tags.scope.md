@@ -12,14 +12,23 @@ color: green
 A scope is the area of the product a feature belongs in
 
 ## Index
+
+- #scope.analytics
 - #scope.cli
 - #scope.commands
+- #scope.community
 - #scope.dev
+- #scope.docs
+- #scope.editor
+- #scope.extension
+- #scope.internal
 - #scope.lookup
 - #scope.markdown
+- #scope.navigation
 - #scope.notes
 - #scope.pod
 - #scope.publish
+- #scope.refactor
 - #scope.schema
 - #scope.server
 - #scope.unsorted

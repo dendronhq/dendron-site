@@ -2,12 +2,16 @@
 id: F5ly88oU0ecUiACLxET5E
 title: Basics
 desc: ''
-updated: 1639245386755
+updated: 1640484533942
 created: 1636495993010
 nav_order: 1.1
 ---
 
+## Summary
+
 This goes over fundamental Dendron features
+
+## Topics
 
 - [[Lookup|dendron://dendron.dendron-site/dendron.topic.lookup]] 
 - [[Hierarchies|dendron://dendron.dendron-site/dendron.topic.hierarchies]]

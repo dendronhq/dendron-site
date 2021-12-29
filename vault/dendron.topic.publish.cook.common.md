@@ -54,7 +54,7 @@ You can see the manual steps for running Next.js [here](https://github.com/dendr
 ### Upgrade Dendron Next.js Template
 
 ```sh
-cd .next && git reset --hard && git clean -f && git pull && npm install 
+rm .next && dendron publish init
 ```
 
 ### Reinstall Dendron Next.js Template

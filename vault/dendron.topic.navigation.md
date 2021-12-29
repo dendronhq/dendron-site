@@ -2,13 +2,13 @@
 id: cphUwSPk12j4lS0tKjBdC
 title: Navigation
 desc: ''
-updated: 1639515637280
+updated: 1640447134851
 created: 1638899506405
 ---
 
 ## Summary
 
-This covers features that are focused on navigation.
+General navigation features
 
 ## References
 
@@ -23,15 +23,6 @@ When you highlight a header, you can run `> References: Find All References` to 
     <p>Code - Insiders - hello.md — dendron (Workspace) - 7 December 2021 - Watch Video</p>
     <img style="" src="https://cdn.loom.com/sessions/thumbnails/c4fdd88be98d4fc58b4a4f9765eb9e89-with-play.gif">
 </a>
-
-#### findBrokenLinks
-
-Similar to [[createMissingLinkedNotes|dendron://dendron.dendron-site/dendron.ref.commands#createmissinglinkednotes]]: find all broken links (that have a vault prefix). This does note create new notes.
-
-- Command: `Dendron: Doctor`
-- Option: `findBrokenLinks`
-
-This simply lists all broken links in the scope.
 
 ## Go to
 

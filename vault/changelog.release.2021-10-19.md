@@ -1,6 +1,6 @@
 ---
 id: FVOrdEJKn5SdJ3dxREkJL
-title: "0.64"
+title: '0.64'
 desc: ''
 updated: 1634667993707
 created: 1634660763551

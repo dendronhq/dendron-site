@@ -2,18 +2,17 @@
 id: 587e6d62-3c5b-49b0-aedc-02f62f0448e6
 title: Graph View
 desc: ''
-updated: 1639620391705
+updated: 1640447500697
 created: 1595120707814
-stub: false
 ---
 
 ## Summary
 
--   Visualize the notes and schemas in your workspace in a graph view
--   Click on a node to open up the corresponding note/schema in your workspace
--   Filter graph view to show only desired data
--   Much faster startup times than the legacy note/schema graph
-    -   Scales to virtually any size graph
+The graph view lets you explore your workspace using a graph
+
+## Features
+- Click on a node to open up the corresponding note/schema in your workspace
+- Filter graph view to show only desired data
 
 ## Types
 
