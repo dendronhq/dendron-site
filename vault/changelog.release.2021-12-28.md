@@ -2,7 +2,7 @@
 id: N1Mn5p6O2tVVkdDM0Ys1w
 title: '0.75'
 desc: ''
-updated: 1640720719200
+updated: 1640756136975
 created: 1640715852170
 ---
 
@@ -66,7 +66,7 @@ You can see an overview of all roles [[here|dendron://dendron.dendron-site/commu
     - #dendron.taxonomist
     - [docs: Fix typos](https://github.com/dendronhq/dendron-site/pull/332)
 - [Zero King](https://github.com/l2dy) `@l2dy#9201`
-    - [Publish commands still generate package.json for @dendronhq/dendron-11ty-legacy](https://github.com/dendronhq/dendron/issues/1946)
+    - [Publish commands still generate package.json for `@dendronhq/dendron-11ty-legacy`](https://github.com/dendronhq/dendron/issues/1946)
 - [Rick Berger](https://github.com/rickbsgu) `@rickbsgu#4922`
     - #dendron.bugcatcher
     - [File with subcategory that starts with 'md' does not show up in the Tree View properly](https://github.com/dendronhq/dendron/issues/1972)
