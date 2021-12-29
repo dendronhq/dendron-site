@@ -2,7 +2,7 @@
 id: 5U4eAiqshI67VxIL40KWH
 title: Making Your First Schema
 desc: 'Learn to harness the powers of schema and automatically insert templates into new notes'
-updated: 1640802690663
+updated: 1640802797249
 created: 1640784965050
 ---
 
@@ -124,7 +124,7 @@ schemas:
                   template: templates.journal.daily.5mj
 ```
 
-You now have a new schema with the 5MJ outline.
+You now have a new schema using the 5MJ template.
 
 ### Explanation of Schema Logic
 
