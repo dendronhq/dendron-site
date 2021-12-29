@@ -2,7 +2,7 @@
 id: 683740e3-70ce-4a47-a1f4-1f140e80b558
 title: FAQ
 desc: ''
-updated: 1639682490947
+updated: 1640428632874
 created: 1595952505025
 stub: false
 nav_order: 3.01
@@ -20,7 +20,7 @@ A Dendron is many things.
 2. Dendron is another word for [dendrite](https://en.wikipedia.org/wiki/Dendrite) which is an extension of the nerve cell that sends and receives signals in the brain. Think of Dendron(3) as a digital nervous system that helps you consolidate all the information that you care about in the fastest and most efficient way possible.
    ![](https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Neuron_Hand-tuned.svg/2880px-Neuron_Hand-tuned.svg.png)
     - Image by Quasar Jarosz at English Wikipedia
-3. Dendron is a local-first, markdown based, hierarchical note taking tool. It is meant to help you organize, manage, publish, and collaborate on knowledge bases of any size.
+3. Dendron is a local-first, Markdown-based, hierarchical note taking tool. It is meant to help you organize, manage, publish, and collaborate on knowledge bases of any size.
 
 ### How is Dendron different from X note taking tool?
 
@@ -40,37 +40,37 @@ Dendron, the client, is free and will always remain free. It is also open source
 
 That being said, I'm all in on Dendron and this is my full time gig. I want to make sure that developing Dendron remains sustainable. To that end, I plan on introducing value add server side functionality that folks may pay for. Examples of paid for features include:
 
--   private hosting (for folks who want to publish but not use github pages or want to add authentication)
+-   private hosting (for folks who want to publish but not use GitHub Pages or want to add authentication)
 -   enterprisy things
     -   eg. on premise installations of Dendron with single sign on, active directory, and fine grained permissions
 -   offering private subscription based vaults (eg. think [substack](https://substack.com) but having people subscribe to vaults instead of newsletters )
--   server side IFTTT like functionality (eg. everytime I add an entry to airtable, add a note to Dendron)
+-   server side IFTTT like functionality (eg. everytime I add an entry to Airtable, add a note to Dendron)
 
 Paid for features will be 100% optional and will not be necessary for any client side functionality in Dendron.
 
-### Why is Dendron built on top of VSCode?
+### Why is Dendron built on top of VS Code?
 
 As with all things, its a matter of tradeoffs. Dendron started its life as a standalone app (eg. think Obsidian) but I quickly realized I was spending most of my time building undifferentiated editor scaffolding instead of focusing on the hierarchies and schemas that made Dendron unique.
 
-I wanted to spend more time building out features that supported Dendron's [hiearchy first approach](https://www.kevinslin.com/notes/3dd58f62-fee5-4f93-b9f1-b0f0f59a9b64.html) to note taking which is what led me to re-write it for VSCode.
+I wanted to spend more time building out features that supported Dendron's [hiearchy first approach](https://www.kevinslin.com/notes/3dd58f62-fee5-4f93-b9f1-b0f0f59a9b64.html) to note taking which is what led me to re-write it for VS Code.
 
-That being said, the core dendron engine is not vscode specific and there are folks that are experimenting with porting it over to other editors (eg. sublime, vim). We also have plans for a standalone editor in the future (most likely, this will be a fork of VSCode optimized for note taking)
+That being said, the core Dendron engine is not VS Code specific and there are folks that are experimenting with porting it over to other editors (eg. Sublime Text, Vim). We also have plans for a standalone editor in the future (most likely, this will be a fork of VS Code optimized for note taking)
 
 ## Notes
 
-### Why markdown?
+### Why Markdown?
 
-Markdown lets you write text in a simple human readable notation that is platform independent. You don't need to have microsoft word to read a markdown file and now a days, all new note taking tools support importing and displaying markdown.
+Markdown lets you write text in a simple human readable notation that is platform independent. You don't need to have Microsoft Word to read a Markdown file and nowadays, all new note taking tools support importing and displaying Markdown.
 
-For more context, you can see the original markdown declaration [here](https://daringfireball.net/projects/markdown/)
+For more context, you can see the original Markdown declaration [here](https://daringfireball.net/projects/markdown/)
 
 ### Can I use Dendron with existing notes?
 
-You can use Dendron with existing repositories of markdown notes.
+You can use Dendron with existing repositories of Markdown notes.
 
-Open the `Command Palette` in vscode and use the `Dendron: Change Workspace` command. It will ask you for a folder path as input.
+Open the `Command Palette` in VS Code and use the `Dendron: Change Workspace` command. It will ask you for a folder path as input.
 
-Dendron will create a `dendron.code-workspace` file in specified directory and then open the workspace (if a workspace file already exists, it will use that). It will also create a `root.md` file in that directory if it doesn't exist (currently this is part of the internal working of dendron).
+Dendron will create a `dendron.code-workspace` file in specified directory and then open the workspace (if a workspace file already exists, it will use that). It will also create a `root.md` file in that directory if it doesn't exist (currently this is part of the internal working of Dendron).
 
 Dendron **does not** delete or overwrite any files during the **Change Workspace** operation.
 
@@ -82,7 +82,7 @@ Dendron automatically saves when you change focus (switch tabs or applications).
 
 There are 3 ways to go back to my previous note:
 
-1. `ctrl-tab` (go to previous tab with default VSCode settings)
+1. `ctrl-tab` (go to previous tab with default VS Code settings)
 2. click on the previous tab
 3. using the open editors pane
 
@@ -99,7 +99,7 @@ There are 3 ways to go back to my previous note:
 
 ### What can I do with the `root` note?
 
-The root note is a special note that comes with every dendron vault. You can't rename it and we don't advise that you create a hierarchy from it. You can add custom frontmatter variables and change all existing variables except the `id` field. 
+The root note is a special note that comes with every Dendron vault. You can't rename it and we don't advise that you create a hierarchy from it. You can add custom frontmatter variables and change all existing variables except the `id` field. 
 
 You are also free to use the body however you wish. 
 
@@ -137,7 +137,7 @@ If you have a hard time deciding which ideas belong closer to root, think which 
 
 ### Do I have to use hierarchies? What if I want to use another approach?
 
-Despite our emphasis on hierarchies, Dendron also supports non-hierarchal ways of organizing notes (eg. backlinks, zettelkasten, etc).
+Despite our emphasis on hierarchies, Dendron also supports non-hierarchal ways of organizing notes (eg. backlinks, zettelkasten, etc.).
 
 You can, and are encouraged to, combine these other workflows with Dendron hierarchies in order to create your own workflow that takes the best parts of each system!
 
@@ -152,9 +152,9 @@ This comes up a lot especially when your dealing with organizing collections of 
 
 It is possible though most of the approaches we've thought of would take a large amount of effort and deliver questionable benefit on top of what's already planned (for more info, see the discussion [here](https://github.com/dendronhq/dendron/issues/210)). 
 
-If you want the ability to collapse folders, you can use the [[dendron tree view|dendron.topic.workbench#dendron-tree-view]]. For existing folder based notes and assets, you can use the [[markdown pod|dendron.topic.pod.builtin.markdown.import]] to import them into Dendron.
+If you want the ability to collapse folders, you can use the [[Dendron tree view|dendron.topic.workbench#dendron-tree-view]]. For existing folder based notes and assets, you can use the [[Markdown pod|dendron.topic.pod.builtin.markdown.import]] to import them into Dendron.
 
-At the end of the day, folders are meant to be an implementation detail for dendron. The underlying primitive of a note is an object that has metadata, content, and links. You can think of dendron as a flat file based database and lookup and the tree view as the UI to said database. For use cases involving external tools that require folders, you'll soon be able to use the [[markdown export pod|dendron.topic.pod.builtin.markdown.export]] to do just that.
+At the end of the day, folders are meant to be an implementation detail for Dendron. The underlying primitive of a note is an object that has metadata, content, and links. You can think of Dendron as a flat file based database and lookup and the tree view as the UI to said database. For use cases involving external tools that require folders, you'll soon be able to use the [[Markdown export pod|dendron.topic.pod.builtin.markdown.export]] to do just that.
 
 ## Schemas
 
@@ -184,7 +184,7 @@ What this will be in the future:
 
 ### Git Doc and other extensions don't recognize my repos for multi-vault
 
-Many VSCode extensions that work across multiple git repositories won't recognize repos nested another repo. The way to fix this is by having your workspace be the last entry inside `folders` in your code workspace file (Dendron does this by default for new workspaces and if you add new vaults using `Vault Add`). You can see an example below. You can see a published example of this setup [here](https://github.com/kevinslin/kevin-garden)
+Many VS Code extensions that work across multiple git repositories won't recognize repos nested another repo. The way to fix this is by having your workspace be the last entry inside `folders` in your code workspace file (Dendron does this by default for new workspaces and if you add new vaults using `Vault Add`). You can see an example below. You can see a published example of this setup [here](https://github.com/kevinslin/kevin-garden)
 
 ```json
     "folders": [
@@ -207,7 +207,7 @@ Many VSCode extensions that work across multiple git repositories won't recogniz
 
 ### How do I share my notes with others?
 1. The *easiest* way to share public documents *for consumers* is to publish it as a site. Instructions [[here|dendron.topic.publish-legacy.quickstart]]
-2. If folks are comfortable with markdown, you can use the markdown pod to export your entire workspace or just a specific page to markdown. Instructions [[here|dendron.topic.pod.builtin.markdown]]
+2. If folks are comfortable with Markdown, you can use the Markdown pod to export your entire workspace or just a specific page to Markdown. Instructions [[here|dendron.topic.pod.builtin.markdown]]
     - NOTE: this doesn't preserve backlinks or assets
 3. The full experience is committing your workspace as a git repo and having collaborators use Dendron to add it as a [[Remote Vault|dendron.topic.vaults#remote-vault]]
 
@@ -219,7 +219,7 @@ Many VSCode extensions that work across multiple git repositories won't recogniz
 
 Pods are a means of data migration. You can import/export notes from other tools in and out of Dendron
 
-Internally for example, we use google docs to take meeting notes collaboratively and then we use the gdoc import pod to turn it into a dendron note
+Internally for example, we use Google Docs to take meeting notes collaboratively and then we use the gdoc import pod to turn it into a Dendron note
 
 You can read more about them [[here|dendron.topic.pod]].
 
@@ -245,9 +245,9 @@ For now, we recommend you use the [[search editor|dendron.guides.tips#search-edi
 
 ### Does Dendron support a data view similar to Obsidian and Notion?
 
-We support having a data view but not in the same way. For data views, we have an [[Airtable Pod|dendron://dendron.dendron-site/dendron.topic.pod.builtin.airtable]] which lets you map frontmatter from your notes and export it to airtable. This way, you can use the full power of airtable for a fully featured data view (This is how we manage tasks in Dendron)
+We support having a data view but not in the same way. For data views, we have an [[Airtable Pod|dendron://dendron.dendron-site/dendron.topic.pod.builtin.airtable]] which lets you map frontmatter from your notes and export it to Airtable. This way, you can use the full power of Airtable for a fully featured data view (This is how we manage tasks in Dendron)
 
-### Can Dendron auto format markdown tables?
+### Can Dendron auto format Markdown tables?
 
 We don't natively support this but we recommend you do this today using the [Text Tables Extension](https://marketplace.visualstudio.com/items?itemName=RomanPeshkov.vscode-text-tables)
 
@@ -266,15 +266,15 @@ We recommend using one of the following extensions to do flashcards:
 
 ### Does Dendron support video?
 
-We currently don't support video playback from within iframes inside of VSCode. This works when publishing but not inside the VSCode preview. 
-This is a limitation in the VSCode webview, see more details [here](https://github.com/microsoft/vscode/issues/54097).
+We currently don't support video playback from within iframes inside of VS Code. This works when publishing but not inside the VS Code preview. 
+This is a limitation in the VS Code webview, see more details [here](https://github.com/microsoft/vscode/issues/54097).
 
-Currently, the recommendation is to link to your video (using a regular markdown link if its online or a wikilink if its local). See [[File Links|dendron://dendron.dendron-site/dendron.topic.links#file-links]].
+Currently, the recommendation is to link to your video (using a regular Markdown link if its online or a wikilink if its local). See [[File Links|dendron://dendron.dendron-site/dendron.topic.links#file-links]].
 ## Other
 
-### How to launch dendron with most recent vault quickly?
+### How to launch Dendron with most recent vault quickly?
 
-In menu bar of VSCode, select `File` -> `New Window` and click the Dendron workspace in Recent section of the Welcome tab.
+In menu bar of VS Code, select `File` -> `New Window` and click the Dendron workspace in Recent section of the Welcome tab.
 
 ### Why are there `root` files in my notes?
 
@@ -303,15 +303,15 @@ Dendron has a list of keyboard shortcuts that you can access using `Dendron: Sho
 
 The reason you see this is because Dendron will create [[stub|dendron.concepts#stubs]] notes when creating notes that have parents that don't exist. These notes are placeholders and will only be visible in the Dendron Tree View with a `+` sign next to the name. The reason we do stubs is because we don't want to litter your file system with empty files. Stubs are a compromise - they let you see the hierarchy of your newly created notes without forcing you to create intermediary files.
 
-### Why custom markdown preview instead of the VSC one?
+### Why custom Markdown preview instead of the VS Code one?
 
-Our custom markdown preview gives us much more functionality then the vscode one -> eg. note references, checkboxes, etc.
+Our custom Markdown preview gives us much more functionality then the VS Code one -> eg. note references, checkboxes, etc.
 
-In addition, the markdown preview that Dendron uses is platform agnostic (eg. it's also available on atom). This means that other editors could potentially adopt it as well.
+In addition, the Markdown preview that Dendron uses is platform agnostic (eg. it's also available on atom). This means that other editors could potentially adopt it as well.
 
-### VSCode Snippets are not working in Frontmatter
+### VS Code Snippets are not working in Frontmatter
 
-The default snippets are scoped to markdown. You can create [global snippets](https://code.visualstudio.com/docs/editor/userdefinedsnippets#_create-your-own-snippets) file to have snippets that work across all languages.
+The default snippets are scoped to Markdown. You can create [global snippets](https://code.visualstudio.com/docs/editor/userdefinedsnippets#_create-your-own-snippets) file to have snippets that work across all languages.
 
 ### I want to push all my note to my git repository periodically
 
@@ -330,13 +330,13 @@ Dendron 11ty used to be published outside of the monorepo and started with 1.x v
 
 After we synced, we synced 11ty versioning and brought it down to 0.x. every minor release, we also publish the 1.x version of the 11ty package to make it consistent but during patch releases, we just keep the 0.x numbering. 
 
-Its a bit of a hack and something that should go away in July 2021, when we switch to NextJs based publishing. 
+Its a bit of a hack and something that should go away in July 2021, when we switch to Next.js based publishing. 
 
-### VSCode is telling me I have to authorize Dendron to run some code
+### VS Code is telling me I have to authorize Dendron to run some code
 
-VSCode recently introduced a feature called [**_workspace trust_**](https://code.visualstudio.com/docs/editor/workspace-trust), which lets you choose whether or not you trust a project folder in VSCode for automatic code execution.
+VS Code recently introduced a feature called [**_workspace trust_**](https://code.visualstudio.com/docs/editor/workspace-trust), which lets you choose whether or not you trust a project folder in VS Code for automatic code execution.
 
-Since Dendron creates a workspace for your notes, VSCode is asking you if you trust the workspace Dendron just created for you.
+Since Dendron creates a workspace for your notes, VS Code is asking you if you trust the workspace Dendron just created for you.
 
 You can choose not to trust the workspace and be in **_restricted mode_**.
 

@@ -2,21 +2,21 @@
 id: MK4LipIh-9EVprKf5na9V
 title: '04'
 desc: ''
-updated: 1625498459946
+updated: 1640425484764
 created: 1625498459946
 ---
 
 #### Company updates
 
 -   Native Dendron Preview
-    -   Built using dendron web ui
-    -   Will be common between vscode and upcoming nextjs based publishing so everything is consistent
+    -   Built using Dendron web ui
+    -   Will be common between VS Code and upcoming Next.js based publishing so everything is consistent
     -   Easier to ship new features
     -   Much faster
     -   Reduce initial download size by +100MB
 -   Updated onboarding experience
     -   Initial implementation for workspace templates
-    -   Easy initialization for common scenarios (eg. team workspace, individual todos, blogs, etc)
+    -   Easy initialization for common scenarios (eg. team workspace, individual todos, blogs, etc.)
     -   `Dendron: Launch Tutorial`
 -   LOTS of stability/performance improvements
     -   anchors/headers are now updated in real time (used to be on save)
@@ -33,7 +33,7 @@ created: 1625498459946
 
 #### Questions
 
--   How is publishing a seed different from publishing as a public page on Github?
+-   How is publishing a seed different from publishing as a public page on GitHub?
     -   Difference: discovery and download
 -   If I want to publish _just_ a hierarchy to a seed. How would I do that?
     -   We currently only support publishing a vault at a time.

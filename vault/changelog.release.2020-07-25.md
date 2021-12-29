@@ -2,7 +2,7 @@
 id: 6aed338c-df05-420d-aa7b-59dfd2214349
 title: '0.04'
 desc: ''
-updated: 1630790746247
+updated: 1640426876493
 created: 1595984607502
 date: '2020-07-25'
 ---
@@ -54,7 +54,7 @@ A bunch of you have been submitting issues to our issue tracker. To make the pro
 
 - [[docs|dendron.topic.links]]
 
-Be able to open non-markdown files using native apps (eg. use preview to open pdfs on mac).
+Be able to open non-Markdown files using native apps (eg. use preview to open PDFs on mac).
 
 ### Journal Notes ([5e1236f](https://github.com/dendronhq/dendron/commit/5e1236fddbf1e0fddf4c27d1a40e9841cc99974f))
 
@@ -72,7 +72,7 @@ A scratch note is a self contained note that is meant to be used as scratchpad. 
 
 ### Markdown Preview will now Open Local Links ([9a3418](https://github.com/dendronhq/dendron/commit/10a3418f7a633fa9b5294794e1a912cb4ea6c066))
 
-Issue were the newest VSCode broken links. This fixes that.
+Issue were the newest VS Code broken links. This fixes that.
 
 ## Enhancements
 
@@ -105,7 +105,7 @@ Dendron now has an example video. You can watch it [here](https://youtu.be/6rwWU
 
 ## Next
 
-Some notable items we are working on for the next release. You can see the full roadmap [here](https://github.com/orgs/dendronhq/projects/1). You can join the discussion on upcoming roadmap items in our [#roadmap discord channel](https://link.dendron.so/discord).
+Some notable items we are working on for the next release. You can see the full roadmap [here](https://github.com/orgs/dendronhq/projects/1). You can join the discussion on upcoming roadmap items in our [#roadmap Discord channel](https://link.dendron.so/discord).
 
 ### Refactor Hierarchies
 
@@ -113,11 +113,11 @@ Some notable items we are working on for the next release. You can see the full 
 
 Be able to refactor hierarchies and have all file names and links automatically update.
 
-### Publish to Github Pages
+### Publish to GitHub Pages
 
 - [issue](https://github.com/dendronhq/dendron/issues/60)
 
-Be able to publish a vault as a github page
+Be able to publish a vault as a GitHub page
 
 ## Thank You
 

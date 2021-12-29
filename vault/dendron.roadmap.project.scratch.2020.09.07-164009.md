@@ -2,7 +2,7 @@
 id: 700b02fc-1e6c-46b1-8d68-5d8e17a55d33
 title: Evernote Pod Proposal
 desc: ''
-updated: 1599522009420
+updated: 1640428652243
 created: 1599522009420
 stub: false
 ---
@@ -15,9 +15,9 @@ stub: false
 
 - are there existing (preferably javascript compatible) libraries that can import and/or export to this pod? (if so, please list them. if there aren't libraries, an example of importing is also good): yes
   - import:
-    - import del.icio.us bookmarks into evernote: <https://github.com/jorgemanrubia/evernicious> #ruby #example
+    - import del.icio.us bookmarks into Evernote: <https://github.com/jorgemanrubia/evernicious> #ruby #example
   - export:
-    - export evernote notes: <https://github.com/akosbalasko/yarle> #typescript
+    - export Evernote notes: <https://github.com/akosbalasko/yarle> #typescript
 
 - are there existing (preferably javascript compatible) libraries that can convert from/to the data format used in this pod? (if so, please list them): yes
   - convert from
@@ -35,7 +35,7 @@ stub: false
 
 ### example
 
-- evernote
+- Evernote
 
 ```
 - Cookbook (notebook stack)
@@ -47,7 +47,7 @@ stub: false
         - ...
 ```
 
-- dendron
+- Dendron
 
 ```
 - cookbook
@@ -71,7 +71,7 @@ stub: false
 
 -
 
-- dendron
+- Dendron
 
 ```
 - cookbook.meat
@@ -99,5 +99,5 @@ destinations:
 
 ## Example Use Cases
 
-&lt;e.g. Sync notes from meetings with an airtable tracking meetings across days and people> 
+&lt;e.g. Sync notes from meetings with an Airtable tracking meetings across days and people> 
 

@@ -2,7 +2,7 @@
 id: RxnYiCjR7BQajXrpTqhDQ
 title: Publish
 desc: ''
-updated: 1633394326691
+updated: 1640428777083
 created: 1633392768530
 ---
 
@@ -27,7 +27,7 @@ created: 1633392768530
 
 ## Quickstart
 
-1. Create an airtable table with fields (all fields are text fields)
+1. Create an Airtable table with fields (all fields are text fields)
 
     | DendronId | Title | Summary |
     | --------- | ----- | ------- |
@@ -45,7 +45,7 @@ created: 1633392768530
     └── vault
         └── books.alchemist.md
     ```
-4. Run [[Publish Pod|dendron://dendron.dendron-site/dendron.ref.commands#publish-pod]] and select `airtable.publish`. You should get the following results on airtable
+4. Run [[Publish Pod|dendron://dendron.dendron-site/dendron.ref.commands#publish-pod]] and select `airtable.publish`. You should get the following results on Airtable
 
     | DendronId     | Title       | Summary                                                                                                                                                                                          |
     | ------------- | ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |

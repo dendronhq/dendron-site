@@ -2,28 +2,28 @@
 id: N9X7MArddruHw3FXxZv8X
 title: '0.60'
 desc: ''
-updated: 1632244185738
+updated: 1640425250362
 created: 1632174465899
 ---
 
 Dendron 0.60 has sprouted  🌱
 
 ### Highlights
-- nextjs publishing supports fulltext search 
-- nextjs publishing upgraded to next 11 - 50% faster local development experience 🚀
+- Next.js publishing supports fulltext search 
+- Next.js publishing upgraded to Next.js 11 - 50% faster local development experience 🚀
 - better performance for notes with lots of highlights
 
 ### Everything Else
-- add Google Analytics to nextjs template
-- add optional image and imageAlt props to nextjs template
+- add Google Analytics to Next.js template
+- add optional image and imageAlt props to Next.js template
 - notice for running in dev mode 
-- various github pod improvements ([[docs|dendron.topic.pod.builtin.github-issue]])
+- various GitHub pod improvements ([[docs|dendron.topic.pod.builtin.github-issue]])
   - imported issues now have `author` field for user who submitted issue
   - you can now update the `milestone` using pods
-  - you can now create a new github discussion using pods
-  - renamed to github issue pod #breaking
+  - you can now create a new GitHub discussion using pods
+  - renamed to GitHub issue pod #breaking
 - rename note can leave incorrect metadata if parent is a stub 
-- lots of fixes for nextjs publishing
+- lots of fixes for Next.js publishing
     - fix `siteUrl` resolution with `assetPrefix`
     - fix `seoProps` not being set on static page
     - do not publish extra page for siteIndex under /notes
@@ -53,13 +53,13 @@ You can see an overview of all roles [[here|community.roles]]
 - [Jack](https://github.com/imalightbulb) `@I'm a lightbulb#6986`
     - backlinks don't update
 - `@Maxotronic#1632`
-    - issue with publishing 11ty using old github action
+    - issue with publishing 11ty using old GitHub action
     - issue with publishing using assetPrefix in 11ty
 - [lenamio](https://github.com/lenamio)
     - [Tag autocomplete suggestion only appears if # symbol is first in line](https://github.com/dendronhq/dendron/issues/1352)
 - `@binary#0486`
     - #dendron.taxonomist
-    - [add react style guide by viztor](https://github.com/dendronhq/dendron-site/pull/207)
+    - [add React style guide by viztor](https://github.com/dendronhq/dendron-site/pull/207)
 
 
 ### Changelog

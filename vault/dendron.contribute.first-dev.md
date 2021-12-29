@@ -17,5 +17,5 @@ If you are completely new to software development, I would encourage you to look
 
 When you are ready to make a contribution, you can follow the instructions in the [[development page|dendron.contribute.dev]]
 
-I'm also planning on streaming some dendron development on twitch in the coming weeks to show my workflow for working with Dendron and will give you a heads up when I'm doing them.
+I'm also planning on streaming some Dendron development on twitch in the coming weeks to show my workflow for working with Dendron and will give you a heads up when I'm doing them.
 

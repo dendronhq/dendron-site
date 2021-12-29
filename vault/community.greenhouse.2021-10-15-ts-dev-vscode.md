@@ -1,6 +1,6 @@
 ---
 id: gxnwBlVKDivSDH1daqejk
-title: Typescript Development with Dendron and VSCode
+title: Typescript Development with Dendron and VS Code
 desc: ''
 updated: 1639201287844
 created: 1634063154566
@@ -9,7 +9,7 @@ created: 1634063154566
 
 ## Summary
 
-In this talk, Kevin, Dendron founder, will go over his workflow for Dendron development using typescript and VSCode. 
+In this talk, Kevin, Dendron founder, will go over his workflow for Dendron development using typescript and VS Code. 
 
 - Date: 2021.10.15
 - Time: 7:30AM PST
@@ -17,7 +17,7 @@ In this talk, Kevin, Dendron founder, will go over his workflow for Dendron deve
 - Calendar link: https://lu.ma/373tr1ap
 
 ## Agenda
-- vscode setup: extensions and settings
+- VS Code setup: extensions and settings
 - process for breaking down a task
 - using Dendron to augment the development process
 - test and debug process
@@ -41,7 +41,7 @@ The following were my personal notes for the talk
 - quicktime test
 - note: [[Support Format Option for Dendron Note CLI|dendron://private/scratch.2021.10.14.195007.support-format-for-dendron-note-cli]]
 
-### VSCode
+### VS Code
 - installed
     - gitlens
     - prettier

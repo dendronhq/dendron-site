@@ -18,7 +18,7 @@ Oct 17 - Office Hours
   - https://github.com/flancian/agora
 - Dendron Web Client
   - Working on adding write capability to the Dendron web client
-  - Make it possible for users to edit dendron vaults via web
+  - Make it possible for users to edit Dendron vaults via web
     - Would commit to remote git backend on the backend
     - Think https://github.com/gollum/gollum
 - Pluggable storage backends

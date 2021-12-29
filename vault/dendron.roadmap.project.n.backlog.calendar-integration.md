@@ -2,13 +2,13 @@
 id: 61833b7d-1cfe-4500-b78d-b30962a906cd
 title: Google Calendar Pod
 desc: ''
-updated: 1608485512280
+updated: 1640428414056
 created: 1602708411014
 stub: false
 ---
 ## Goals
 
-Support integrating calendars like google calendar with Dendron
+Support integrating calendars like Google Calendar with Dendron
 
 ## Proposal
 

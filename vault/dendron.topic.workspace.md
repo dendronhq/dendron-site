@@ -111,11 +111,11 @@ Inside your workspace, run the following
     git commit -m "initial commit"
     ```
 2. Add a remote
-    - go to github, and [create a new workspace](https://github.com/new)
+    - go to GitHub, and [create a new workspace](https://github.com/new)
     - follow instructions to add an existing git repo to the repository
 
 ### Syncing your workspace with Git
 
 `Workspace Sync` does not sync the workspace if all your vaults are separate git repos. In order to synchronize your workspace, you need to explicitly do a `git pull` from the workspace folder.
 
-If you are inside VSCode, you should be able to run `> Create Integrated Terminal...`, choose the folder containing your workspace, and launch the terminal. After launching, run a `git pull` inside of it. 
+If you are inside VS Code, you should be able to run `> Create Integrated Terminal...`, choose the folder containing your workspace, and launch the terminal. After launching, run a `git pull` inside of it. 

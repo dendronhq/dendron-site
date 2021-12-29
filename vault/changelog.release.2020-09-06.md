@@ -2,7 +2,7 @@
 id: 08b2e6ea-bd3e-4f4b-b2b9-676a7b743a65
 title: "0.10"
 desc: ''
-updated: 1630794040065
+updated: 1640426911633
 created: 1596374871110
 date: '2020-09-06'
 ---
@@ -16,7 +16,7 @@ In that time, we've built an awesome community of Dendrites on Discord now numbe
 
 Speaking of community, I would like to recognize two new **Dendrologist** - [Fayçal](https://github.com/d3vr) (@bsqrd#9701 ) and [Janne Ojanaho](https://github.com/jojanaho) (@jojanaho#3766 ) 👨‍🌾👩‍🌾
 
-Dendrologists are active members of the Dendron community that will be helping me shape our roadmap, answer questions, and collect feedback from all of you. If you've spent any time in our discord, you've probably already had chats with one or both of the folks I just mentioned.
+Dendrologists are active members of the Dendron community that will be helping me shape our roadmap, answer questions, and collect feedback from all of you. If you've spent any time in our Discord, you've probably already had chats with one or both of the folks I just mentioned.
 
 That's all for last week's release. Stay tuned for some big announcements later this week :) 
 
@@ -26,7 +26,7 @@ These release notes are summary of the more notable changes, for the full list, 
 
 ### Fixes
 
-- Bad import causes dendron to not compile in case-sensitive file systems 
+- Bad import causes Dendron to not compile in case-sensitive file systems 
 
 ## Engine
 
@@ -51,8 +51,8 @@ A note reference offset is a way to skip a number of lines when using a note ref
 
 ### Fixes
 
-- Fix issue with preview checkbox not updating markdown 
-- Fix issue with backslash causing in certain markdown blocks 
+- Fix issue with preview checkbox not updating Markdown 
+- Fix issue with backslash causing in certain Markdown blocks 
 
 ## Pods
 
@@ -84,7 +84,7 @@ You can see at a glance which notes have children and explore them from the nav 
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/dendron.jekyll.gif)
 
-### Edit on Github ([[docs|dendron.topic.publish]])
+### Edit on GitHub ([[docs|dendron.topic.publish]])
 
 Every page can accept one-click contributions as long as the contributor has a GitHub account.
 
@@ -128,7 +128,7 @@ Go down the hierarchy
 - Don't update color theme on upgrade 
 - Upgrade settings sometimes override existing settings 
 - Issues with note refs not displaying in some cases 
-- Rename note will not update dendron tree view 
+- Rename note will not update Dendron tree view 
 
 ## Thank You
 
@@ -153,7 +153,7 @@ Last and most of all, a big **thanks** to the following gardeners that brought u
   - [Issue with blof refs not resolving](https://github.com/dendronhq/dendron/issues/146)
 
 - [eflinfoki](https://github.com/eflinfoki)
-  - [Update dendron troubleshooting guide](https://github.com/dendronhq/dendron-template/pull/6)
+  - [Update Dendron troubleshooting guide](https://github.com/dendronhq/dendron-template/pull/6)
 
 - [Janne Ojanaho](https://github.com/jojanaho)
   - [Updating Dendron FAQ](https://github.com/dendronhq/dendron-template/commit/9252d12f21dc21fca0a2e2bf36da9edc84202227)
@@ -162,7 +162,7 @@ Last and most of all, a big **thanks** to the following gardeners that brought u
   - [Providing a transcript of Dendron's onboarding video](https://www.dendron.so/#onboarding)
 
 - [Rhaynes](https://github.com/rhaynes74)
-  - [Issue with markdown preview not rendering math elements correctly](https://github.com/dendronhq/dendron/issues/156)
+  - [Issue with Markdown preview not rendering math elements correctly](https://github.com/dendronhq/dendron/issues/156)
 
 - [Howard](https://github.com/runlevelrobot)
   - [Issue with tree view making sidebar visible when not wanted](https://github.com/dendronhq/dendron/issues/150)

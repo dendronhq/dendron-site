@@ -2,7 +2,7 @@
 id: 8e59e25f-808c-42f1-a82a-e9ce4fd8edd8
 title: "0.12"
 desc: ''
-updated: 1630733055585
+updated: 1640426918796
 created: 1596374871110
 date: '2020-09-20'
 ---
@@ -18,11 +18,11 @@ Moving forward, we will be doing patch updates every few days and a minor releas
 
 The move to this new release cycle is a reflection that Dendron is growing rapidly and starting to mature. 
 
-We will be working on some major changes in October to stabilize the core feature set and make them easier to use. We will also be shifting our underlying architecture from a VSCode plugin to the [Language Server Protocol](https://microsoft.github.io/language-server-protocol/) which will result in a richer feature set and the ability for Dendron to be more easily integrated into additional editors.
+We will be working on some major changes in October to stabilize the core feature set and make them easier to use. We will also be shifting our underlying architecture from a VS Code plugin to the [Language Server Protocol](https://microsoft.github.io/language-server-protocol/) which will result in a richer feature set and the ability for Dendron to be more easily integrated into additional editors.
 
 As part of this update, we've put out the first version of the [Dendron principles](https://dendron.so//notes/7fcebd7d-6411-4c9d-8baf-65629dc018a1.html) which reflects our design philosophies and the direction we are taking Dendron. 
 
-This is a work in progress so feel free to make suggestions and comments in the discord.
+This is a work in progress so feel free to make suggestions and comments in the Discord.
 
 I've mentioned this before but we will also be releasing our formal roadmap by the end of the month. This roadmap will cover all major projects we plan on doing in 2020. 
 

@@ -8,7 +8,7 @@ created: 1626056573800
 
 > Dendron is your IDE for General Knowledge, see how it stacks up vs. Foam.
 
-Foam is a personal knowledge management system built as a collection of various tools that can expand its capabilities. Like Dendron, Foam is built on top of VSCode and can benefit from the endless list of extensions existing in the ecosystem. 
+Foam is a personal knowledge management system built as a collection of various tools that can expand its capabilities. Like Dendron, Foam is built on top of VS Code and can benefit from the endless list of extensions existing in the ecosystem. 
 
 A core difference between Dendron and Foam - Foam is a PKM inside your IDE. Dendron brings the capabilities of your IDE to PKM.
 

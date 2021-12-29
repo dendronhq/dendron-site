@@ -20,7 +20,7 @@ This project discusses the best way to implement a mind-map view into Dendron th
 
 ## Proposal
 
-Create a view in Dendron that will visualise a note in dendron using a mindmap format, and show it's siblings, parents and children organised legibly and semantically. This can be implemented using the React Sortable Tree plugin, which will also be used for creating schemas.
+Create a view in Dendron that will visualise a note in Dendron using a mindmap format, and show it's siblings, parents and children organised legibly and semantically. This can be implemented using the React Sortable Tree plugin, which will also be used for creating schemas.
 
 #### Organising the information connected to a node in a semantic and legible manner
 

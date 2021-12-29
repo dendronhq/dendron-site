@@ -8,17 +8,17 @@ created: 1624965063661
 
 ## Summary
 
-Git is the preferred version control system because it integrates with VSCode and GitHub. 
+Git is the preferred version control system because it integrates with VS Code and GitHub. 
 
-The most likely case is you have a local repository that you need to now add to Git. Follow these steps to add your local vault to Git and push up to Github. 
+The most likely case is you have a local repository that you need to now add to Git. Follow these steps to add your local vault to Git and push up to GitHub. 
 
 - [Join GitHub](https://github.com/join)
 - Further reading, to better understand these tools: [Learn Git and GitHub](https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/GitHub)
 
 ## Using git with Dendron
 
-1. VSCode ships with an extension that manages [Git source control support](https://code.visualstudio.com/docs/editor/versioncontrol). 
-> Note: VSCode uses your computer's Git installation, so you need to [install Git](https://git-scm.com/download) first before you get these features. Make sure you install at least version 2.0.0.
+1. VS Code ships with an extension that manages [Git source control support](https://code.visualstudio.com/docs/editor/versioncontrol). 
+> Note: VS Code uses your computer's Git installation, so you need to [install Git](https://git-scm.com/download) first before you get these features. Make sure you install at least version 2.0.0.
 2. Open your local Dendron workspace. 
 > Note: If you are new to Git, the [gt-scm website](https://git-scm.com/doc) is a good place to start, with a popular [online book](https://git-scm.com/book), [Getting Started](https://git-scm.com/video/what-is-git) videos and [cheat sheets](https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf). This documentation assumes you are already familiar with Git. 
 3. Click on `Initialize Repository` to set up a git repo in the Dendron vault. 

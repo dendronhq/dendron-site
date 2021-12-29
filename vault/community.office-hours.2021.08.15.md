@@ -13,12 +13,12 @@ ChitChat
 
 Company Updates
 * Dendron.yml Validation & Completion Enabled
-* NextJS Publishing RFC -> [https://wiki.dendron.so/notes/nB75cmdPhL7CTOATG6wpT.html](https://wiki.dendron.so/notes/nB75cmdPhL7CTOATG6wpT.html)
+* Next.js Publishing RFC -> [https://wiki.dendron.so/notes/nB75cmdPhL7CTOATG6wpT.html](https://wiki.dendron.so/notes/nB75cmdPhL7CTOATG6wpT.html)
     * Alpha should be ready this week
     * Aiming for general release later this month
 * Standalone Vaults 
     * Make Dendron work everywhere 
     * Starting to spec this out 
     * Goal is to have Dendron work without starting a new workspace
-    * You can turn /docs folder in your projec tinto a dendron workspace
+    * You can turn /docs folder in your project into a Dendron workspace
     * Integrate seeds 

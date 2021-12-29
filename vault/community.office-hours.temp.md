@@ -19,7 +19,7 @@ published: false
 - [ ] update title to `Office Hours`
 
 - *** after office hours
-- [ ] upload stream to youtube
+- [ ] upload stream to YouTube
 - [ ] import office hours gdoc ino this note
 - [ ] comment out the checklist when done
 - [ ] set `published` to `true` in the frontmatter

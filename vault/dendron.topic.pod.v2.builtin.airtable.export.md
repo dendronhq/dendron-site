@@ -2,7 +2,7 @@
 id: oTW7BFzKIlOd6iQnnNulg
 title: Export
 desc: ''
-updated: 1638945970366
+updated: 1640428840537
 created: 1638945970366
 published: false
 ---
@@ -49,9 +49,9 @@ type SrcFieldMapping =
     }
 ```
 
-In all cases, the key represents the name of the column in airtable.
+In all cases, the key represents the name of the column in Airtable.
 
-- NOTE: the key must exist in airtable before you are able to create a new value
+- NOTE: the key must exist in Airtable before you are able to create a new value
 
 #### string value
 
@@ -63,11 +63,11 @@ srcFieldMapping: {Note ID : id, Title : title, Summary: body}
 
 #### object value
 - `to`: the name of the field in Dendron
-- `type`: what type this field is on airtable
+- `type`: what type this field is on Airtable
     - `string`: regular string
-    - `date`: will convert a unix time liked the `updated` prop in a Dendron note to an airtable date
-    - `singleTag`: creates a `Single Select` field on airtable that is populated with [[Tags|dendron://dendron.dendron-site/dendron.topic.tags]] found in Dendron note
-        - NOTE: airtable does not let you create new values in single select via API. Make sure that all values exist or set the field as a string on airtable before exporting and then convert back into a `Single Select` field
+    - `date`: will convert a unix time liked the `updated` prop in a Dendron note to an Airtable date
+    - `singleTag`: creates a `Single Select` field on Airtable that is populated with [[Tags|dendron://dendron.dendron-site/dendron.topic.tags]] found in Dendron note
+        - NOTE: Airtable does not let you create new values in single select via API. Make sure that all values exist or set the field as a string on Airtable before exporting and then convert back into a `Single Select` field
 - `filter`: used with `type: singleTag`, used to restrict what tags are parsed from Dendron
     - eg: `{type: "singleTag", filter: "tags.foo.*"}` -> this will add tags that start with `#foo.*` but will ignore all `#bar.*` tags
 
@@ -102,12 +102,12 @@ connectionId: dendron-airtable
 # required: true
 baseId: appKOgvtfSzZyj1YM
 
-# description: Name of the airtable
+# description: Name of the Airtable
 # type: string
 # required: true
 tableName: tblLjBKhYtXnZ2t1w
 
-# description: mapping of airtable fields with the note eg: {Created On: created, Notes: body}
+# description: mapping of Airtable fields with the note eg: {Created On: created, Notes: body}
 # type: object
 # required: true
 sourceFieldMapping:  {

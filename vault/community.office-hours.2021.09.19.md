@@ -2,7 +2,7 @@
 id: exBtuUU1huhHQtHPTi9oN
 title: '19'
 desc: ''
-updated: 1632244025187
+updated: 1640427434067
 created: 1632243986238
 ---
 
@@ -32,11 +32,11 @@ Conversion notes:
 
 ## Company Updates
 
-* full text search for nextjs template
+* full text search for Next.js template
 
-* lots of fixes and enhancements across nextjs
+* lots of fixes and enhancements across Next.js
 
-* update minimum vscode version to 1.58
+* update minimum VS Code version to 1.58
 
 ## Discussions
 
@@ -53,11 +53,11 @@ Conversion notes:
 * Block level previews
     - Note reference + preview
 * Confluence support
-    - Confluence server, no support markdown
+    - Confluence server, no support Markdown
 * Pods for Citations
     - [https://github.com/timwoelfle/Local-Citation-Network](https://github.com/timwoelfle/Local-Citation-Network)
-    - [Dendron Rfc](https://wiki.dendron.so/notes/f143ca38-dcc6-4cd3-b84b-997aec1160ef.html)
+    - [Dendron RFC](https://wiki.dendron.so/notes/f143ca38-dcc6-4cd3-b84b-997aec1160ef.html)
 
 Next
 
-* upcoming greenhouse talk on working with vscode + typescript
+* upcoming greenhouse talk on working with VS Code + typescript

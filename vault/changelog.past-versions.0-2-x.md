@@ -2,7 +2,7 @@
 id: 0eq1mz_b-gpdSZVJqruOg
 title: 0.2.X
 desc: ''
-updated: 1636507348579
+updated: 1640428199520
 created: 1623536541355
 ---
 
@@ -22,7 +22,7 @@ Extremely powerful templating capabilities with [[nunjuck templates|dendron.topi
 
 ### Bug Fixes
 
--   support turning off pretty refs for dendron preview ([[docs|dendron.ref.config#useprettyrefs]])
+-   support turning off pretty refs for Dendron preview ([[docs|dendron.ref.config#useprettyrefs]])
 
 ## 0.29.1
 
@@ -48,13 +48,13 @@ Extremely powerful templating capabilities with [[nunjuck templates|dendron.topi
 
 #### Managed Publishing (Early Preview)
 
-The initial release comes with the ability to publish a dendron workspace under {username}.dendron.wiki.
+The initial release comes with the ability to publish a Dendron workspace under {username}.dendron.wiki.
 Dendron takes care of configuring your domain and building your site.
 
-After you connect your github repo with Dendron, we'll kick off the initial publication.
+After you connect your GitHub repo with Dendron, we'll kick off the initial publication.
 Every subsequent time you push to your repo, Dendron will automatically build your site with the latest changes.
 
-At launch, we are supporting publishing from a connected github repo.
+At launch, we are supporting publishing from a connected GitHub repo.
 Instructions to get started are [[here|dendron.topic.managed-publishing.quickstart]]
 
 ### Enhancements
@@ -68,7 +68,7 @@ Instructions to get started are [[here|dendron.topic.managed-publishing.quicksta
 ### Bug Fixes
 
 -   11ty build issues
--   dendron `move note` command can fail when parents are stubs
+-   Dendron `move note` command can fail when parents are stubs
 -   preview can get out of sync with Dendron
 
 ### House Cleaning
@@ -102,7 +102,7 @@ yarn bootstrap:build
 ### Enhancements
 
 -   add path customization to build-site ([[docs|dendron.ref.cli#buildsitev2]])
--   Add default description option to dendron config ([[docs|dendron.topic.publish-legacy.configuration#description]])
+-   Add default description option to Dendron config ([[docs|dendron.topic.publish-legacy.configuration#description]])
 -   add config to publish multi-vault when adding vault ([[docs|dendron.topic.publish-legacy.configuration#duplicatenotebehavior-optional]])
 
 ### Bug Fixes
@@ -152,7 +152,7 @@ yarn bootstrap:build
 
 ### House Cleaning
 
--   remove `sync_vault` as a step when building dendron for the first time
+-   remove `sync_vault` as a step when building Dendron for the first time
 
 ## 0.25.2
 
@@ -195,7 +195,7 @@ You can now publish and build your notes without going to the command line ([[do
 
 ### House Cleaning
 
--   jekyll based publishing is now deprecated
+-   Jekyll based publishing is now deprecated
 -   [[dendron.copyNoteUrlRoot|dendron.ref.config.vscode-config#dendroncopynoteurlroot]] deprecated for `siteUrl`
 
 ## 0.24.1
@@ -208,7 +208,7 @@ You can now publish and build your notes without going to the command line ([[do
 -   use enhanced filter when creating 403 links ([65afe8c](https://github.com/dendronhq/dendron/commit/65afe8c084d1a657e943edb3ef1b497f3fd97ea6))
 -   custom header support ([[docs|dendron.topic.publish-legacy.configuration#customheaderpath-optional]])
     -   [[add custom headers|scratch.2021.01.12.085012.add-custom-headers]]
--   google analytics support ([[docs|dendron.topic.publish-legacy.configuration#ga_tracking-optional]])
+-   Google Analytics support ([[docs|dendron.topic.publish-legacy.configuration#ga_tracking-optional]])
 -   Multi Vault Edit on GitHub
 
 ### Bug Fixes
@@ -260,7 +260,7 @@ It is now possible to use variables defined in your note frontmatter inside your
 <!--
 #### Publishing V2 Integration with Plugin
 
-You can now both build your notes for publication and preview it from inside vscode.
+You can now both build your notes for publication and preview it from inside VS Code.
 
 ![[dendron.ref.commands#site-build:#dev]]
 -->
@@ -290,7 +290,7 @@ You can now both build your notes for publication and preview it from inside vsc
 
 ### Bug Fixes
 
--   markdown preview delay in showing newly created notes
+-   Markdown preview delay in showing newly created notes
 -   `buildSiteV2` not connect to running workspace
 
 ## 0.22.1
@@ -342,8 +342,8 @@ You can now both build your notes for publication and preview it from inside vsc
 ### Enhancements
 
 -   add seo tags ([[docs|dendron.topic.publish-legacy.configuration#seo-options]])
--   enable edit on github link ([[docs|dendron.topic.publish-legacy.configuration#github-options]])
--   migrate all jekyll `_config.yml` settings to `dendron.yml`
+-   enable edit on GitHub link ([[docs|dendron.topic.publish-legacy.configuration#github-options]])
+-   migrate all Jekyll `_config.yml` settings to `dendron.yml`
 
 ### Bug Fixes
 
@@ -354,7 +354,7 @@ You can now both build your notes for publication and preview it from inside vsc
 ### Docs
 
 -   [dendron.so](https://dendron.so) is now published using the new 11ty framework
--   add [[publishing to github guide|dendron.topic.publish-legacy.github]] using github actions
+-   add [[publishing to GitHub guide|dendron.topic.publish-legacy.github]] using GitHub Actions
 
 ## 0.20.2
 
@@ -367,16 +367,16 @@ You can now both build your notes for publication and preview it from inside vsc
 ### Enhancements
 
 -   creating engine via cli also initializes meta files ([d72f097](https://github.com/dendronhq/dendron/commit/d72f097e63d1fda065ac7ad50f85bebe99d6da66))([[docs|dendron.ref.cli#launchengineserver]])
--   remove github light theme from dendron bundle ([33d5708](https://github.com/dendronhq/dendron/commit/33d57086510cdaefbb8af8f72c945d6f5e02be5c))
+-   remove GitHub light theme from Dendron bundle ([33d5708](https://github.com/dendronhq/dendron/commit/33d57086510cdaefbb8af8f72c945d6f5e02be5c))
 -   support [[note refs for multi-vault|dendron.topic.multi-vault#note-references]]
--   support relative links in dendron preview ([[docs|dendron.topic.links#wiki-links]])
+-   support relative links in Dendron preview ([[docs|dendron.topic.links#wiki-links]])
 -   further speed enhancements to publishing using 11ty resulting in another 5x improvement
 -   configure [[writeStubs|dendron.topic.publish-legacy.configuration#writestubs-optional]] from `dendron.yml`
 
 ### Bug Fixes
 
 -   refactor hierarchy miss self referential links ([00b385d](https://github.com/dendronhq/dendron/commit/00b385dd0d13e5809da012bbc88388886012b837))
--   reduce frequency of `engine not connecting` error when launching dendron preview
+-   reduce frequency of `engine not connecting` error when launching Dendron preview
 
 ### House Cleaning
 
@@ -388,11 +388,11 @@ You can now both build your notes for publication and preview it from inside vsc
 
 We've re-build publishing for Dendron from the ground up to be faster, better, and easier to use.
 
-Besides for schemas, publishing has consistently been one of the hardest to use features in Dendron. Dendron currently publishes using [jekyll](https://jekyllrb.com/) using our own [template](https://github.com/dendronhq/dendron-jekyll). While this has served as well initially, slow compile times for large sites and difficulty of getting started has made it a growing pain point.
+Besides for schemas, publishing has consistently been one of the hardest to use features in Dendron. Dendron currently publishes using [Jekyll](https://jekyllrb.com/) using our own [template](https://github.com/dendronhq/dendron-jekyll). While this has served us well initially, slow compile times for large sites and difficulty of getting started has made it a growing pain point.
 
 To address this, we've migrated our publishing stack to [11ty](https://www.11ty.dev/), a super fast javascript based static generator. This means much faster, and perhaps more importantly, easier publishing.
 
-There's still some work left to integrate publishing into the Dendron plugin - meanwhile, you can take the new publishing workflow for a spin using the [[dendron cli|dendron.ref.cli]]
+There's still some work left to integrate publishing into the Dendron plugin - meanwhile, you can take the new publishing workflow for a spin using the [[Dendron CLI|dendron.ref.cli]]
 
 In order to to use the 11ty based publishing, initialize your workspace with the following commands.
 
@@ -420,10 +420,10 @@ This will build your site to the path specified by [[siteRootDir|dendron.topic.p
 
 #### Benchmarks
 
-Publishing V2 is ~10x faster than jekyll based publishing for sites with +100 pages. For comparison, below is the compilation difference between building the dendron site using 11ty vs jekyll.
+Publishing V2 is ~10x faster than Jekyll based publishing for sites with +100 pages. For comparison, below is the compilation difference between building the Dendron site using 11ty vs Jekyll.
 
 -   11ty: 24.45s
--   jekyll: 220.33s
+-   Jekyll: 220.33s
 
 There are additional optimizations still on the table that will further drive down he compilation time by another order of magnitude for future releases.
 
@@ -432,7 +432,7 @@ There are additional optimizations still on the table that will further drive do
 11ty publishing is currently not at full feature parity with Jekyll publishing. Notably, the following features are missing:
 
 -   setting a custom color theme
--   `edit on github` links
+-   `edit on GitHub` links
 -   `jekyll-seo` functionality
 -   mathjax
 
@@ -481,8 +481,8 @@ site:
 
 #### Sample repo
 
--   [github repo](https://github.com/kevinslin/dendron-11ty-test/deployments/activity_log?environment=github-pages)
--   [github page](https://kevinslin.github.io/dendron-11ty-test/)
+-   [GitHub repo](https://github.com/kevinslin/dendron-11ty-test/deployments/activity_log?environment=github-pages)
+-   [GitHub page](https://kevinslin.github.io/dendron-11ty-test/)
 
 #### CLI Command Reference
 

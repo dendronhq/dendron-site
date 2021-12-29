@@ -25,7 +25,7 @@ November 14 - Office Hours
     - CLI Development Process: [https://wiki.dendron.so/notes/gxnwBlVKDivSDH1daqejk.html](https://wiki.dendron.so/notes/gxnwBlVKDivSDH1daqejk.html)
     - If you raise a feature request, I can add docs and guidance on the CLI
 - Faster time to note
-  - You can launch dendron engine in the background
+  - You can launch Dendron engine in the background
   - launchEngineServer: [https://wiki.dendron.so/notes/23a1b942-99af-45c8-8116-4f4bb7dccd21.html#launchengineserver](https://wiki.dendron.so/notes/23a1b942-99af-45c8-8116-4f4bb7dccd21.html#launchengineserver)
 ```
 

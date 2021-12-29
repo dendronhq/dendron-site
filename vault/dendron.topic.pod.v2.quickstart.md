@@ -56,7 +56,7 @@ This specifies the podType. It must be one of the following values:
 
 #### connectionId (required for some pods)
 
-This specifies the ID for the [[connection|dendron.topic.pod.v2.connections]] that will be used to connect to the external service when running this pod. Pods that require this include GoogleDocs and Airtable.  Pods that don't require this include Markdown or Json pods.
+This specifies the ID for the [[connection|dendron.topic.pod.v2.connections]] that will be used to connect to the external service when running this pod. Pods that require this include Google Docs and Airtable.  Pods that don't require this include Markdown or Json pods.
 
 ### Getting User Input for a Property at Runtime
 
@@ -68,9 +68,9 @@ For example, say that you want to save a configuration to export to your persona
 
 To run a saved pod configuration, use the `Dendron: Export Pod V2`.  In the QuickPick, select the id of your configuration to run it.
 
-## Adding a VSCode Shortcut
+## Adding a VS Code Shortcut
 
-You can also add a command shortcut to ru your particular pod configuration.  Bring up your VSCode `keybindings.json` file by running `Preferences: Open Keyboard Shortcuts (JSON)`.  Then add the following shortcut definition: 
+You can also add a command shortcut to ru your particular pod configuration.  Bring up your VS Code `keybindings.json` file by running `Preferences: Open Keyboard Shortcuts (JSON)`.  Then add the following shortcut definition: 
 
 For "args", replace with your pod-ID.
 

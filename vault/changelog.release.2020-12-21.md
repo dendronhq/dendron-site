@@ -16,7 +16,7 @@ There's still some work left to integrate publishing into the Dendron plugin - m
 ### Highlights
 
 - publishing v2
-  - v2 is over 30x faster (compiling the dendron site takes 6s for 200 pages vs 220s in v1) 🚀🚀🚀
+  - v2 is over 30x faster (compiling the Dendron site takes 6s for 200 pages vs 220s in v1) 🚀🚀🚀
   - v2 supports publishing with multi-vault
   - v2 is all javascript (no more download ruby just to publish)
 - support note references for multi-vault

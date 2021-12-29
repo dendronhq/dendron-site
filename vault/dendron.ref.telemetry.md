@@ -2,7 +2,7 @@
 id: 84df871b-9442-42fd-b4c3-0024e35b5f3c
 title: Telemetry
 desc: ''
-updated: 1637883969136
+updated: 1640425546026
 created: 1619460500071
 nav_order: 6.1
 ---
@@ -42,7 +42,7 @@ The below is a collection of common fields that are collected
 | `anonymousId` | _string_   | Random, non-identifiable signature nanoID (e.g. `JC6NXxDa0lDFD1Mu7U2Ga`) |
 | `timestamp`   | _string_   | When the request was made                                                |
 | `appVersion`  | _string_   | Version of currently installed Dendron plugin                            |  
-| `cliVersion`  | _string_   | Version of currently installed `dendron-cli`                             |  
+| `cliVersion`  | _string_   | Version of currently installed Dendron CLI                             |  
 
 ## When is data collected?
 
@@ -117,7 +117,7 @@ Events
 | --------------: | :--------: | ---------------------------------------------------------------------------------- |
 | `flavor`        | _string_   | What kind of lookup ("schema" or "note")                                           |
 | `error`         | _boolean_  | Did an error happen during this phase?                                             |
-| `source`        | _string_   | What initiated the lookup? ("onValueChange", "updatePickerBehavior:journal", etc ) |
+| `source`        | _string_   | What initiated the lookup? ("onValueChange", "updatePickerBehavior:journal", etc.) |
 | `createNewNote` | _boolean_  | Was a new note created during this phase?                                          |
 
 ### Commands

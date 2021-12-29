@@ -7,13 +7,13 @@ created: 1613009015603
 ---
 
 ## Pre-requisites
-- a workspace pushed to Github
+- a workspace pushed to GitHub
     - if you don't have one ready, you can use the [starter template](https://github.com/dendronhq/workspace-sample) 
 - create an account on https://app.dendron.so
 
 ## Creating a site
 1. Go to https://app.dendron.so Create an account if you don't already have one. 
-1. After you login, use "publish a site from Github"
+1. After you login, use "publish a site from GitHub"
 1. Enter the url of the repo that you want to publish
 1. Enter a [[personal access token|rfc.2-managed-publishing.ref.github-token]]
 

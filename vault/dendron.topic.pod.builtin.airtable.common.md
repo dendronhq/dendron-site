@@ -2,14 +2,14 @@
 id: NcvPTWlmdaFfB0fcWQ8RC
 title: Common
 desc: ''
-updated: 1633394316942
+updated: 1640428733219
 created: 1633392951754
 ---
 
 ## Requirements
-- the table must exist in airtable
-- all collumns that you want to write to must exist in airtable
-- you must have a collumn named `DendronId` (case sensitive)
+- the table must exist in Airtable
+- all columns that you want to write to must exist in Airtable
+- you must have a column named `DendronId` (case sensitive)
 
 ## Side Effects
 - this pod will add `airtableId` in the frontmatter of your note 
@@ -17,17 +17,17 @@ created: 1633392951754
 ## Configuration
 
 ### apiKey  
-airtable api key
+Airtable api key
 
 ### baseId  
-base ID of airtable base.
+base ID of Airtable base.
 
 ### tableName  
 name of resulting table.
 
 ### srcFieldMapping  
 
-Mapping of airtable fields with the note.  This can either be a plain string or a dictionary that specifics additional properties. You can see the type definition below
+Mapping of Airtable fields with the note.  This can either be a plain string or a dictionary that specifics additional properties. You can see the type definition below
 
 ```ts
 type SrcFieldMapping =
@@ -38,9 +38,9 @@ type SrcFieldMapping =
     }
 ```
 
-In all cases, the key represents the name of the column in airtable.
+In all cases, the key represents the name of the column in Airtable.
 
-- NOTE: the key must exist in airtable before you are able to create a new value
+- NOTE: the key must exist in Airtable before you are able to create a new value
 
 #### string value
 
@@ -52,11 +52,11 @@ srcFieldMapping: {Note ID : id, Title : title, Summary: body}
 
 #### object value
 - `to`: the name of the field in Dendron
-- `type`: what type this field is on airtable
+- `type`: what type this field is on Airtable
     - `string`: regular string
-    - `date`: will convert a unix time liked the `updated` prop in a Dendron note to an airtable date
-    - `singleTag`: creates a `Single Select` field on airtable that is populated with [[Tags|dendron://dendron.dendron-site/dendron.topic.tags]] found in Dendron note
-        - NOTE: airtable does not let you create new values in single select via API. Make sure that all values exist or set the field as a string on airtable before exporting and then convert back into a `Single Select` field
+    - `date`: will convert a unix time liked the `updated` prop in a Dendron note to an Airtable date
+    - `singleTag`: creates a `Single Select` field on Airtable that is populated with [[Tags|dendron://dendron.dendron-site/dendron.topic.tags]] found in Dendron note
+        - NOTE: Airtable does not let you create new values in single select via API. Make sure that all values exist or set the field as a string on Airtable before exporting and then convert back into a `Single Select` field
 - `filter`: used with `type: singleTag`, used to restrict what tags are parsed from Dendron
     - eg: `{type: "singleTag", filter: "tags.foo.*"}` -> this will add tags that start with `#foo.*` but will ignore all `#bar.*` tags
 

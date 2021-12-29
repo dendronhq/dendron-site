@@ -2,7 +2,7 @@
 id: rHxjw4xX6EynKAWSUxAo6
 title: Airtable
 desc: ''
-updated: 1640080531018
+updated: 1640428897203
 created: 1638945959590
 published: false
 ---
@@ -81,17 +81,17 @@ Currently, the way to do this is to run the following steps:
     # required: true
     connectionId: dendron-airtable
     
-    # description: airtable base id
+    # description: Airtable base id
     # type: string
     # required: true
     baseId: appKOgvtfSzZyj1YM
     
-    # description: Name of the airtable
+    # description: Name of the Airtable
     # type: string
     # required: true
     tableName: tblLjBKhYtXnZ2t1w
     
-    # description: mapping of airtable fields with the note eg: {Created On: created, Notes: body}
+    # description: mapping of Airtable fields with the note eg: {Created On: created, Notes: body}
     # type: object
     # required: true
     sourceFieldMapping:  {
@@ -111,7 +111,7 @@ Currently, the way to do this is to run the following steps:
 
 ### Run the Pod to Export a Task to Airtable
 
-1. Open a task note that you want to export to airtable.  An example task note is [[task.pod.podsv2-support-export-hierarchy]]
+1. Open a task note that you want to export to Airtable.  An example task note is [[task.pod.podsv2-support-export-hierarchy]]
 1. Run `Dendron: Export Pod V2` while your task note is in focus.
 1. Select your new `dendron-tasks` config.
 1. Check the [task view here](https://airtable.com/appKOgvtfSzZyj1YM/tblLjBKhYtXnZ2t1w/viwzfUhwxGiomaGjt?blocks=hide) in our Airtable here to see if the task was successfully added.
@@ -125,7 +125,7 @@ Currently, the way to do this is to run the following steps:
     "Error while running Airtable Export Pod: {\"error\":\"INVALID_MULTIPLE_CHOICE_OPTIONS\",\"message\":\"Insufficient permissions to create new select option \\\"\\\"NON-REPRO\\\"\\\"\",\"statusCode\":422}"
     ```
 
-    Some fields in Airtable are like enums - if you try to upload a value that's not in the enum set, then you'll get this error. Scope, Size, and Status are enum fields. Scope must match a value in [[tags.scope]].  When in doubt, check what values are allowed in airtable.
+    Some fields in Airtable are like enums - if you try to upload a value that's not in the enum set, then you'll get this error. Scope, Size, and Status are enum fields. Scope must match a value in [[tags.scope]].  When in doubt, check what values are allowed in Airtable.
 
 ### (Optional) Add another configuration to export an entire hierarchy
 
@@ -160,17 +160,17 @@ podType: AirtableExportV2
 # required: true
 connectionId: dendron-airtable
 
-# description: airtable base id
+# description: Airtable base id
 # type: string
 # required: true
 baseId: appKOgvtfSzZyj1YM
 
-# description: Name of the airtable
+# description: Name of the Airtable
 # type: string
 # required: true
 tableName: tblLjBKhYtXnZ2t1w
 
-# description: mapping of airtable fields with the note eg: {Created On: created, Notes: body}
+# description: mapping of Airtable fields with the note eg: {Created On: created, Notes: body}
 # type: object
 # required: true
 sourceFieldMapping:  {

@@ -10,8 +10,8 @@ created: 1627891135972
 
 - Stability updates
   - Will be around the same Dendron, but just faster and more stable. 
-- New publishing will be using NextJS
-  - Will be launched as a NextJS Repo
+- New publishing will be using Next.js
+  - Will be launched as a Next.js Repo
     - Custom styles + layouts are fair game. 
   - Publish as HTML and do a lookup on it. 
 - Focus for August - Get Seeds out of Beta.

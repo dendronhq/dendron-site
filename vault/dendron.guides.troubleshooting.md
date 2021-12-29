@@ -2,7 +2,7 @@
 id: a6c03f9b-8959-4d67-8394-4d204ab69bfe
 title: Troubleshooting
 desc: ''
-updated: 1639201155786
+updated: 1640427207720
 created: 1595952505025
 nav_order: 7.1
 ---
@@ -14,7 +14,7 @@ This goes over diagnosing issues in Dendron. Troubleshooting issues are grouped 
 <!-- 
 ## Diagnosing
 
-You can get a better idea of what went wrong by checking out the [[logs|dendron.guides.cook#checking-logs]]. At that point, you should be able to narrow down the root cause to one of the issues below. If not, please bring it up on the [discord](https://link.dendron.so/discord) or file a [bug report](https://github.com/dendronhq/dendron/issues/new?assignees=&labels=&template=bug_report.md&title=)
+You can get a better idea of what went wrong by checking out the [[logs|dendron.guides.cook#checking-logs]]. At that point, you should be able to narrow down the root cause to one of the issues below. If not, please bring it up on the [Discord](https://link.dendron.so/discord) or file a [bug report](https://github.com/dendronhq/dendron/issues/new?assignees=&labels=&template=bug_report.md&title=)
 
 ### Dendron-CLI
 
@@ -52,7 +52,7 @@ npm info @dendronhq/dendron-cli
 
 ### Lookup Shortcut is not working
 - causes:
-  - you have the vim extension installed and its overriding the default dendron shortcut
+  - you have the Vim extension installed and it's overriding the default Dendron shortcut
 - fix: 
   1. open command palette and run `Open Keyboard Shortcuts (JSON)`
   2. add the following shortcut override
@@ -82,7 +82,7 @@ journal:
 
 To get snippets to autocomplete, make sure you don't have snippets disabled
 
-1. go to > workspace: open user settings (json)
+1. go to > workspace: open user settings (JSON)
 2. change the following line to `true`
 
 ```json
@@ -97,9 +97,9 @@ To get snippets to autocomplete, make sure you don't have snippets disabled
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/trouble.upgrade.png)
 
-Dendron will update keybindings/settings/etc to the latest defaults if not currently set on upgrade. If you see the above error, it means that Dendron had trouble parsing one of your settings files. This doesn't stop dendron from starting but it does mean that the latest settings aren't being applied.
+Dendron will update keybindings/settings/etc. to the latest defaults if not currently set on upgrade. If you see the above error, it means that Dendron had trouble parsing one of your settings files. This doesn't stop Dendron from starting but it does mean that the latest settings aren't being applied.
 
-The most likely culprit of this error is a bad snippets file. To fix, bring up the command prompt, type `>Configure User Snippets`, open `dendron.code-snippets` and see if there's anything funky with the json on the line mentioned by the error. You can also use tools like [jsonlint](https://jsonlint.com/) to validate your JSON.
+The most likely culprit of this error is a bad snippets file. To fix, bring up the command prompt, type `>Configure User Snippets`, open `dendron.code-snippets` and see if there's anything funky with the JSON on the line mentioned by the error. You can also use tools like [jsonlint](https://jsonlint.com/) to validate your JSON.
 
 ## Schemas
 
@@ -147,7 +147,7 @@ This is not a valid schema.
 
 ### Why can't I click the checkbox?
 
-It could be that you are using the VSCode default markdown instead of Dendron's Markdown Preview. 
+It could be that you are using the VS Code default Markdown instead of Dendron's Markdown Preview. 
 
 ![[dendron.guides.troubleshooting#using-the-wrong-preview,1:#*]]
 
@@ -232,7 +232,7 @@ Run `Dendron: Open Logs` and search for `"level":50` (these are lines with error
 ### Check if its a conflicting extension
 
 Sometimes existing extensions will not play nicely with Dendron. To see if a problem is a Dendron specific issue and not another extension, you can do the following:
-- do a clean install of a VSCode flavor you do not currently have (eg. VSCodium if you have VSCode or vice versa, see instructions [[here|dendron://dendron.dendron-site/dendron.tutorial#pre-requisites]])
+- do a clean install of a VS Code flavor you do not currently have (eg. VSCodium if you have VS Code or vice versa, see instructions [[here|dendron://dendron.dendron-site/dendron.tutorial#pre-requisites]])
 - install only the Dendron extension 
 - see if your issue reproduces
 
@@ -243,7 +243,7 @@ Markdown Notes, Markdown Preview Enhanced, and Markdown All in One are known to 
 
 ### Reload Dendron
 
-Sometimes Dendron views can get out of sync with notes. To fix, run `Dendron: Reload Index` to manually sync. If that doesn't work, you can also try `Developer: Reload Window` to restart VSCode.
+Sometimes Dendron views can get out of sync with notes. To fix, run `Dendron: Reload Index` to manually sync. If that doesn't work, you can also try `Developer: Reload Window` to restart VS Code.
 
 ### Remove notes that extend from root
 
@@ -251,13 +251,13 @@ We currently don't support creating children of `root.md` This note is special. 
 
 ### Run Dendron inside a Workspace
 
-Dendron requires a VSCode [workspace file](https://code.visualstudio.com/docs/editor/multi-root-workspaces#_opening-workspace-files) to operate. Make sure to open the **dendron.code-workspace** file by following the instructions [here](https://code.visualstudio.com/docs/editor/multi-root-workspaces#_opening-workspace-files)
+Dendron requires a VS Code [workspace file](https://code.visualstudio.com/docs/editor/multi-root-workspaces#_opening-workspace-files) to operate. Make sure to open the **dendron.code-workspace** file by following the instructions [here](https://code.visualstudio.com/docs/editor/multi-root-workspaces#_opening-workspace-files)
 
 You can have Dendron create one if you hold down "Cmd+Shift+P" (CTRL+SHIFT+P on windows) and use the [[Launch Tutorial Command|dendron.ref.commands#launch-tutorial]]
 
 ### Clear the cache
 
-Delete dendron [[cache|dendron._ref.caching#summary]] files.
+Delete Dendron [[cache|dendron._ref.caching#summary]] files.
 
 ### Whitelisting localhost
 
@@ -298,7 +298,7 @@ If all else fails, schedule a diagnostic session.
 
 ## Send a support request
 
-If none of the troubleshooting methods work, you can ping kevin on Discord or submit a github issue.
+If none of the troubleshooting methods work, you can ping kevin on Discord or submit a GitHub issue.
 
 When doing either of these things, please include the following information:
 

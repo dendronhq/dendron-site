@@ -2,7 +2,7 @@
 id: ed4162aa-5474-4483-9fbc-c0b505310c59
 title: 0.1.X
 desc: ''
-updated: 1638899331848
+updated: 1640426859179
 created: 1610397097347
 ---
 ## 0.19.3
@@ -55,8 +55,8 @@ One of our most requested features for multi-vault is now out. Refactor will now
 - nicer refactor formatting ([0e7749a](https://github.com/dendronhq/dendron/commit/0e7749a175a0ce80903cde5c9773649779100a9c))
 - add remote vault to gitignore if exist ([1c252db](https://github.com/dendronhq/dendron/commit/1c252db60c0ea69be8dd10c1768c2dd302711e13))
 - initialize all remote vaults on startup ([1919fe4](https://github.com/dendronhq/dendron/commit/1919fe4e6d853d1f6ef63564ebbcc9af1e11a41a))
-- write remote url to dendron config ([2a285ea](https://github.com/dendronhq/dendron/commit/2a285eacaeef8224d2a3530dc991b4977443c039))
-- add github sponsor badge on github repository to recruit more [[environmentalists|community.roles#environmentalist]] 👨‍🌾 👩‍🌾
+- write remote url to Dendron config ([2a285ea](https://github.com/dendronhq/dendron/commit/2a285eacaeef8224d2a3530dc991b4977443c039))
+- add GitHub sponsor badge on GitHub repository to recruit more [[environmentalists|community.roles#environmentalist]] 👨‍🌾 👩‍🌾
 
 ### Bug Fixes
 
@@ -75,7 +75,7 @@ One of our most requested features for multi-vault is now out. Refactor will now
 - support image hover ([8fee313](https://github.com/dendronhq/dendron/commit/8fee313785dfc4ac2564f74911a4b51879be0673))
 
   ```
-  - you can now hover over markdown image links and get the image preview
+  - you can now hover over Markdown image links and get the image preview
   ```
 
   <div style="position: relative; padding-bottom: 62.5%; height: 0;"><iframe src="https://www.loom.com/embed/82119bc9ee184e3ca8e619c3d7e48209" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
@@ -120,7 +120,7 @@ You can now natively add published Dendron git repos as a _remote vault_ inside 
 
 ### House Cleaning
 
-- breaking: the go to sibling commands have a new keyboard shortcut since the old one was conflicting with the vscode default. the new shortcuts are `ctrl+shift+]` and `ctrl+shift+[`
+- breaking: the go to sibling commands have a new keyboard shortcut since the old one was conflicting with the VS Code default. the new shortcuts are `ctrl+shift+]` and `ctrl+shift+[`
 
 ## 0.17.2
 
@@ -130,7 +130,7 @@ You can now natively add published Dendron git repos as a _remote vault_ inside 
 
 During office hours and onboardings, many of you said how you loved Dendron's functionality but wished that it was a little easier to use, especially on the UI front.
 
-This is why I'm excited to introduce Dendron's first Web UI - an interface build using modern web technologies integrated into VSCode. 
+This is why I'm excited to introduce Dendron's first Web UI - an interface build using modern web technologies integrated into VS Code. 
 
 This initial launch features the Dendron Configuration editor. Prior to the UI, you would have to manually edit YAML to update the configuration. With the web ui, you no longer have to understand YAML and your changes will be validated before being saved. 
 
@@ -166,7 +166,7 @@ Special thanks to [Tyler Nieman](https://github.com/tsnieman) for the UI work!
 
 - add hover provider ([8d19a1b](https://github.com/dendronhq/dendron/commit/8d19a1b47f114ae738f7483fd751b62f68b46d24))
 
-You can now preview notes and references inside the editor as a hover without ever opening the link. Previews are compatible with note references and will show references as inlined markdown.
+You can now preview notes and references inside the editor as a hover without ever opening the link. Previews are compatible with note references and will show references as inlined Markdown.
 
 <div style="position: relative; padding-bottom: 62.5%; height: 0;"><iframe src="https://www.loom.com/embed/aee387226d5c4bb0a4e38cee76a1aa3e" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
@@ -196,7 +196,7 @@ You can now preview notes and references inside the editor as a hover without ev
 
 - **language**: re-enable preview functionality when peeking at a definition ([afe71c4](https://github.com/dendronhq/dendron/commit/afe71c41daff3acc935cb5bed7b51d20ef8e6267))
 - **language**: creating a note by going to its definition now respects schema templates
-- **workbench**: initialize dendron in the absence of a workspace file ([c1aabb4](https://github.com/dendronhq/dendron/commit/c1aabb4a6b2084990269ea169c1a90d800b430c3))
+- **workbench**: initialize Dendron in the absence of a workspace file ([c1aabb4](https://github.com/dendronhq/dendron/commit/c1aabb4a6b2084990269ea169c1a90d800b430c3))
 - **workbench**: cancel adding a vault if input is blank ([86baed6](https://github.com/dendronhq/dendron/commit/86baed6e0938132709e4cfbd2008f1f8fadc77cb))
 - **pods:** publish issue when multi-vault is enabled ([cc50327](https://github.com/dendronhq/dendron/commit/cc503276a0ca0545e2793449f7382bc810216377))
 - **ui:** note will show up in wrong place in treeview when multi-vault is enabled ([6daeebc](https://github.com/dendronhq/dendron/commit/6daeebc7bd2bbc68fc105766d30bc10444bcaf61))
@@ -213,9 +213,9 @@ You can now preview notes and references inside the editor as a hover without ev
 
 You can now navigate to a specific section within a note using relative wiki links: `[[foo#header]]` 
 
-Note that the header is expected in [github slug](https://github.com/gosimple/slug) format. This means that spaces and special characters should be replaced with `-`. 
+Note that the header is expected in [GitHub slug](https://github.com/gosimple/slug) format. This means that spaces and special characters should be replaced with `-`. 
 
-- **NOTE**: Relative wiki links currently don't work in the markdown-preview
+- **NOTE**: Relative wiki links currently don't work in the Markdown preview
 
 <div style="position: relative; padding-bottom: 62.5%; height: 0;"><iframe src="https://www.loom.com/embed/b21501b47e64449882a369590a630d7f" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
@@ -249,7 +249,7 @@ You can now auto complete notes that have aliases. This was a common issue for f
 
 ### Bug Fixes
 
-- new dendron installation missing welcome note
+- new Dendron installation missing welcome note
 
 ## 0.15.3
 
@@ -276,7 +276,7 @@ Changelog:
   - we'll let you know if you need to submit an issue instead of giving you the silent treatment
 
 - keep old log files ([3f1362c](https://github.com/dendronhq/dendron/commit/3f1362c224ff7dae5de721dd2f2c8cba22db4d84))
-  - dendron currently wipes all logs on startup. this change makes it keep around the last log for debugging purposes
+  - Dendron currently wipes all logs on startup. this change makes it keep around the last log for debugging purposes
 
 ### Bug Fixes
 
@@ -367,17 +367,17 @@ This is a quick way to update the `dendron.yml` file. You can run it by using `D
 
 ### Enhancements
 
-- **pods:** better markdown import pod  (d1eaa264)
+- **pods:** better Markdown import pod  (d1eaa264)
   - address multiple edge cases that would cause import pod to fail
-  - auto-convert wiki-links from folder-based systems like obsidian into dendron
+  - auto-convert wiki-links from folder-based systems like Obsidian into Dendron
 - **cli:** launch engine server using cli ([25eae3f](https://github.com/dendronhq/dendron/commit/25eae3fddd6a2d26dcf9e2f3e664b377c2cca978))
 
 ![[dendron.ref.cli#launchengineserver:#*]]
 
 - **workspace:** write server port in workspace ([6a0ff84](https://github.com/dendronhq/dendron/commit/6a0ff845ebbf010073b271123779fc3f56ac2821))
-  - used by bundled extensions to talk to dendron server
+  - used by bundled extensions to talk to Dendron server
 - **engine:** add sync method ([ec58d39](https://github.com/dendronhq/dendron/commit/ec58d395003640384b7764f4f8b483429cc1ece3))
-  - used by bundled extensions to talk to dendron server
+  - used by bundled extensions to talk to Dendron server
 
 ### Bug Fixes
 
@@ -480,7 +480,7 @@ This is the last phase in Dendron's server mode migration. All new workspaces ar
 
 As a reminder, [[server mode|dendron.roadmap.project.n.2020.server-migration]] is a re-architecture of Dendron that enables both better performance and a vast array of new features. 
 
-Finally, we do have an escape valve in things something goes terribly wrong. You can set the following option to revert server mode behavior. If you end up using this, please also cut as [a ticket](https://github.com/dendronhq/dendron/issues/new?assignees=&labels=&template=bug_report.md&title=) or a message in [discord](https://link.dendron.so/discord). 
+Finally, we do have an escape valve in things something goes terribly wrong. You can set the following option to revert server mode behavior. If you end up using this, please also cut as [a ticket](https://github.com/dendronhq/dendron/issues/new?assignees=&labels=&template=bug_report.md&title=) or a message in [Discord](https://link.dendron.so/discord). 
 
 ### Enhancements
 
@@ -494,7 +494,7 @@ Finally, we do have an escape valve in things something goes terribly wrong. You
 
 ### Bug Fixes
 
-- **workbench:** read json config with comments ([1741553](https://github.com/dendronhq/dendron/commit/1741553695b1c7cced54bf04b26700076a38a19c))
+- **workbench:** read JSON config with comments ([1741553](https://github.com/dendronhq/dendron/commit/1741553695b1c7cced54bf04b26700076a38a19c))
   - Dendron gets sad if your workspace has comments
 
 ### Community
@@ -509,9 +509,9 @@ Kudos to **@britt#3020** and **@lukecarrier#2081** for being the first to earn t
 
 Excited to welcome a new dendrologist --> @I'm a lightbulb#6986 
 
-@I'm a lightbulb#6986 was one of our earliest users and one of the first to [publish](https://dendron.so/notes/3a82c5ff-7945-46ae-8bf9-3b2275fc6642.html#jacks-page) using dendron. 
+@I'm a lightbulb#6986 was one of our earliest users and one of the first to [publish](https://dendron.so/notes/3a82c5ff-7945-46ae-8bf9-3b2275fc6642.html#jacks-page) using Dendron. 
 
-As a reminder, dendrologist are active members of the community who are recognized with said title and a few additional discord super powers. 
+As a reminder, dendrologist are active members of the community who are recognized with said title and a few additional Discord super powers. 
 
 ## [0.13.3](https://github.com/dendronhq/dendron/compare/v0.13.3-alpha.1...v0.13.3) (2020-10-24)
 
@@ -536,7 +536,7 @@ As a reminder, dendrologist are active members of the community who are recogniz
 ![[dendron.topic.schema#schema-templates,1:#*]]
 
 - **workbench:** reload index re-create root if not exist ([c66e242](https://github.com/dendronhq/dendron/commit/c66e242bac91c73404a5dd21ed3813c0dc2f022b))
-  - dendron requires `root.md` and `root.schema.yml` to start indexing and would previously throw an error if these files were deleted
+  - Dendron requires `root.md` and `root.schema.yml` to start indexing and would previously throw an error if these files were deleted
   - this change will create these files within the vault instead of throwing said error
 
 ### Bug Fixes
@@ -574,7 +574,7 @@ You will now get a warning if you are trying to save a badly formatted schema.
 
 - **publishing:** preserve abbreviations ([06d9191](https://github.com/dendronhq/dendron/commit/06d91912b34bc5f81b20fce77652366c501865ec)) --> thank you [Luke Carrier](https://github.com/LukeCarrier) for the pull request
 - **pods:** add json publish pod ([127dd7c](https://github.com/dendronhq/dendron/commit/127dd7c02a0081b027e06c40d6189904c5da0694))
-- **pods:** add markdown publish pod ([127dd7c](https://github.com/dendronhq/dendron/commit/127dd7c02a0081b027e06c40d6189904c5da0694))
+- **pods:** add Markdown publish pod ([127dd7c](https://github.com/dendronhq/dendron/commit/127dd7c02a0081b027e06c40d6189904c5da0694))
 - **pods:** update placeholder text ([57a4af8](https://github.com/dendronhq/dendron/commit/57a4af8887404c21d07b45a3a565516bf73cc944))
 - **refs:** render error when ref doesn't exist ([ba1be1a](https://github.com/dendronhq/dendron/commit/ba1be1a12c4a1742e93ab4058d0f132b320be539))
 
@@ -641,7 +641,7 @@ Documentation for pods has been re-written to reflect recent changes with pods
 
 #### Rename and Refactor Commands an Order of Magnitude Faster Now (server mode) 🚀🚀🚀
 
-These commands have been completely re-written and use a proper markdown parser to find links (vs many fragile regex statements). 
+These commands have been completely re-written and use a proper Markdown parser to find links (vs many fragile regex statements). 
 The re-write results in both much faster performance as well as a more correct implementation. 
 
 ### Enhancements
@@ -670,7 +670,7 @@ Timestamps now have human friendly decorators on the side.
 ### Enhancements
 
 - **copyAssets configuration**: when publishing, you can now toggle whether you want to copy assets or not
-- **dump state**: dendron now has a `Dump State` command which will dump the internal state into the logs (useful for debugging)
+- **dump state**: Dendron now has a `Dump State` command which will dump the internal state into the logs (useful for debugging)
 
 ### Bug Fixes
 
@@ -722,7 +722,7 @@ Today's update makes **updated** update!
 
 #### (Local) Server Side Indexing
 
-Dendron can now index and manage your notes as a standalone **local** server independent from VSCode. 
+Dendron can now index and manage your notes as a standalone **local** server independent from VS Code. 
 
 This is part of the [[server migration milestone|dendron.roadmap.project.n.2020.server-migration]] which we took on for October. 
 
@@ -732,9 +732,9 @@ Server site indexing is a pre-cursor enables our upcoming roadmap items which in
 
 - [[multi-vault support|dendron.roadmap.project.n.2020.multi-vault]]
 - rich graphical interfaces for schemas, pods, and publishing
-- unified index for all dendron extensions (currently each extension makes a separate index of your notes and requires manual reloading)
+- unified index for all Dendron extensions (currently each extension makes a separate index of your notes and requires manual reloading)
 - realtime updates for graph extensions
-- custom dendron extensions written in any language 
+- custom Dendron extensions written in any language 
 
 Server side indexing is currently off by default since it's still a beta feature. You can turn it on by adding the following in your settings.
 
@@ -756,7 +756,7 @@ You can switch back to regular indexing at anytime by changing the above setting
 
 - **Additional Arguments for lookup**: You can now use `noConfirm` and `value` arguments when creating custom lookup shortcuts ([docs](https://dendron.so/notes/a7c3a810-28c8-4b47-96a6-8156b1524af3.html#passing-arguments-to-lookup))
 - **Update Default Snippets**: default todo snippet now leaves a space after insertion
-- **Set custom log levels**: you can now define the verbosity of dendron logs using the `dendron.logLevel` configuration
+- **Set custom log levels**: you can now define the verbosity of Dendron logs using the `dendron.logLevel` configuration
 - **Upgraded Schema defaults** (server only): new schemas will be created using version one defaults
 - **Cleaner note frontmatter** (server only): new notes won't have the optional attributes in frontmatter
 
@@ -823,7 +823,7 @@ This section tracks our progress against the milestones in our [[public roadmap|
 
 #### Seeds
 
-- We launched two [[seeds|dendron.topic.seeds]]. A seed is a dendron site that tries to be be a all encompassing reference for a particular vertical. Dendron provides specific libraries and CLIs that make it easy for users to create seeds from existing open source content as well as personal notes.
+- We launched two [[seeds|dendron.topic.seeds]]. A seed is a Dendron site that tries to be be a all encompassing reference for a particular vertical. Dendron provides specific libraries and CLIs that make it easy for users to create seeds from existing open source content as well as personal notes.
 
 Current Seeds:
 

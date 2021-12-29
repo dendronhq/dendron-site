@@ -2,7 +2,7 @@
 id: 4ushYTDoX0TYQ1FDtGQSg
 title: Publish
 desc: ''
-updated: 1640726512437
+updated: 1640745663543
 created: 1635379320910
 config:
   global:
@@ -15,7 +15,7 @@ Dendron lets you publish all your notes as static HTML which you can host anywhe
 
 This site that you are looking at is published using Dendron. 
 
-Checkout our [[quickstart guide|dendron://dendron.dendron-site/dendron.topic.publish.cook.github]] for publishing to github pages to get started
+Checkout our [[quickstart guide|dendron://dendron.dendron-site/dendron.topic.publish.cook.github]] for publishing to GitHub Pages to get started
 
 ## Details
 

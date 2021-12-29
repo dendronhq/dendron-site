@@ -8,7 +8,7 @@ created: 1631033401707
 
 ## Summary 
 
-This guide walks you through publishing with NextJS. 
+This guide walks you through publishing with Next.js. 
 
 <!-- - NOTE: if you are migrating from 11ty publishing, please read the [[migration guide|dendron://dendron.dendron-site/dendron.topic.publish.migration]] for changes. -->
 
@@ -26,7 +26,7 @@ npm install -g yarn
 ## Process
 
 ### Setup
-Run the following commands at the root of your dendron [[workspace|dendron.topic.workspace]]
+Run the following commands at the root of your Dendron [[workspace|dendron.topic.workspace]]
 
 ![[dendron.topic.publish.cook.common#setup-notes,1:#*]]
 
@@ -39,4 +39,4 @@ Run the following commands at the root of your dendron [[workspace|dendron.topic
 
 ![[dendron.topic.publish.cook.common#export-notes,1:#*]]
 
-Congrats, you did it! At this point, you have a folder of static HTML which you can host and deploy anywhere. You can checkout our [[cookbook|dendron.topic.publish.cook]] for examples of deploying to popular destinations like Github Pages.
+Congrats, you did it! At this point, you have a folder of static HTML which you can host and deploy anywhere. You can checkout our [[cookbook|dendron.topic.publish.cook]] for examples of deploying to popular destinations like GitHub Pages.

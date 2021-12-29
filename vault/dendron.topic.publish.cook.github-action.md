@@ -2,13 +2,13 @@
 id: FnK2ws6w1uaS1YzBUY3BR
 title: GitHub Action
 desc: ''
-updated: 1637026165234
+updated: 1640425053867
 created: 1631306630307
 ---
 
 ## Summary
 
-Publishing Dendron using a github action
+Publishing Dendron using a GitHub action
 
 ### Code
 You can see deployed examples of these instructions in the following repositories
@@ -16,14 +16,14 @@ You can see deployed examples of these instructions in the following repositorie
 [dendronhq/template.publish.github-action](https://github.com/dendronhq/template.publish.github-action)
 
 ## Process
-1. Create package.json with dendron-cli
+1. Create package.json with Dendron CLI
 ![[dendron://dendron.dendron-site/dendron.topic.publish.cook.common#setup-dendron-cli,1:#*]]
 1. Create a pages branch
   ```sh
   git checkout -b pages
   git push -u origin HEAD
   ```
-1. Turn on github actions for the pages branch
+1. Turn on GitHub Actions for the pages branch
   - your settings should look like [this](https://www.loom.com/i/5f0cbb6eb23a48e89942d76406413303)
 1. Switch back to your main branch
   ```sh
@@ -72,8 +72,8 @@ You can see deployed examples of these instructions in the following repositorie
       - name: Install npm dependencies
         run: yarn
 
-      - name: Initialize or pull nextjs template
-        run: "(test -d .next) && (echo 'updating dendron next...' && cd .next && git reset --hard && git clean -f && git pull) || (echo 'init dendron next' && npx dendron publish init)"
+      - name: Initialize or pull Next.js template
+        run: "(test -d .next) && (echo 'updating Dendron next...' && cd .next && git reset --hard && git clean -f && git pull) || (echo 'init Dendron next' && npx dendron publish init)"
 
       - name: Install dependencies
         run: cd .next && yarn && cd ..

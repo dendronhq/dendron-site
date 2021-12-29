@@ -2,7 +2,7 @@
 id: C0HMems1EODnxGsNDVD7Z
 title: 0.4.X
 desc: ''
-updated: 1636507361492
+updated: 1640425887894
 created: 1629505311218
 ---
 
@@ -20,7 +20,7 @@ created: 1629505311218
 ### Bug Fixes
 - image preview not showing up on hover
 - gracefully handle a bad wiki link
-- only generate alphanumeric ids to be compatible with github pages urls
+- only generate alphanumeric ids to be compatible with GitHub Pages urls
 
 ## 0.49.1
 
@@ -56,7 +56,7 @@ created: 1629505311218
 
 ### Features
 
-- native dendron preview ([[docs|dendron._ref.web-ui#preview]])
+- native Dendron preview ([[docs|dendron._ref.web-ui#preview]])
 - updated onboarding experience ([[docs|dendron.ref.commands#launch-tutorial]])
 
 ### Enhancements
@@ -105,7 +105,7 @@ created: 1629505311218
 -   don't update update time in note if content hasn't changed
 -   bad note frontmatter won't crash workspace
 -   support canonical url option when publishing ([[docs|dendron.topic.publish-legacy.configuration#canonicalurl]])
--   dendron cli doesn't need `wsRoot` option if executing inside subdirectory of a workspace
+-   Dendron CLI doesn't need `wsRoot` option if executing inside subdirectory of a workspace
 -   - VS Code Workspace Trust: Dendron now supports Workspace Trust as 'limited in restricted mode' - all Dendron functionality will work except for hooks. For more information see [VS Code Workspace Trust](https://code.visualstudio.com/docs/editor/workspace-trust)
 
 
@@ -159,14 +159,14 @@ created: 1629505311218
 
 ### House Cleaning
 
--   remove `dendorn markdonw links` and `github theme` as recommended extensions at startup
+-   remove `Dendron Markdown Links` and `GitHub theme` as recommended extensions at startup
 -   defaultJournal\* commands have been moved to `journal` property in `dendron.yml` ([[docs|dendron.ref.config#journal]])
 
 ## 0.46.1
 
 ### Bug Fixes
 
--   issue with publishing using dendron cli
+-   issue with publishing using Dendron CLI
 
 ## 0.46
 
@@ -175,13 +175,13 @@ created: 1629505311218
 ### Enhancements
 
 -   Rename and Refactor will now replace links without formatting the file
--   Dendron respects VSCode Telemetry settgs ([[docs|dendron.ref.telemetry#how-to-opt-out-of-data-collection]])
+-   Dendron respects VS Code Telemetry settgs ([[docs|dendron.ref.telemetry#how-to-opt-out-of-data-collection]])
 
 ### Bug Fixes
 
 -   Dendron Preview `Go to Text` will sometimes not appear for note references
--   Dendron Preview links not working in VsCode 1.57
--   Dendron Preview renders the first line of note ref as markdown
+-   Dendron Preview links not working in VS Code 1.57
+-   Dendron Preview renders the first line of note ref as Markdown
 -   Dendron Preview removes `#` from links
 
 ### House Cleaning
@@ -320,7 +320,7 @@ created: 1629505311218
 
 -   welcome page not showing up unless workspace is initialized
 -   paste file command should handle names with spaces and special characters
--   markdown import pod not working
+-   Markdown import pod not working
 
 ## 0.43
 

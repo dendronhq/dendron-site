@@ -9,13 +9,13 @@ created: 1614636249937
 Dendron 0.31 has sprouted  🌱
 
 This is probably the biggest release we've had in 2021!
-Lots of goodies to make dendron and [[multi vault|dendron.topic.multi-vault]] work better. Enjoy responsibility :)
+Lots of goodies to make Dendron and [[multi vault|dendron.topic.multi-vault]] work better. Enjoy responsibility :)
 
 ### Highlights
 - [[cross vault links|dendron.topic.links#cross-vault-links]] let you specify links to notes in multi-vault workspaces
 - note references now work across vaults
 - backlinks are also generated during publishing
-- you can now extend dendron with [[custom pods|dendron.topic.pod.custom]] to publish your notes to different destinations
+- you can now extend Dendron with [[custom pods|dendron.topic.pod.custom]] to publish your notes to different destinations
 - usual round of bug fixes and performance improvements
 
 ### Community

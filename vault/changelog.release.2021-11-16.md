@@ -2,7 +2,7 @@
 id: NWuXh9ZreX3XKI6NhRIBJ
 title: '0.69'
 desc: ''
-updated: 1637087804071
+updated: 1640428613848
 created: 1637081497904
 ---
 
@@ -22,7 +22,7 @@ Native workspaces are a new addition to Dendron. They let you use Dendron inside
 ### Everything Else
 - enhance(pods): add `configPath` and `query` parameters to pods ([[docs|dendron.topic.pod.cli]])
 - enhance(views): support setting `sort_order` in tree view ([[docs|dendron.topic.publish-legacy.configuration#sort_order]])
-- enhance(pods): include name of note with error when airtable pod encounters error
+- enhance(pods): include name of note with error when Airtable pod encounters error
 - enhance(schema): Add `Go to File` navigation prompt when schema malformation errors appear
 - fix(workspace): apply enableUser/HashTags to broken wikilinks code action
 - fix(views): `nav_order` property not respected in tree view
@@ -39,7 +39,7 @@ Note graph commands lose their `V2` suffix and are now simply `Dendron: Show Not
 
 #### Wiki site reorg
 
-You may have noticed changes in the Dendron wiki docs with our recent site reorg. The changes are described in [this github discussion](https://github.com/dendronhq/dendron/discussions/1665) and represent a major rehaul of how our website is organized.
+You may have noticed changes in the Dendron wiki docs with our recent site reorg. The changes are described in [this GitHub discussion](https://github.com/dendronhq/dendron/discussions/1665) and represent a major rehaul of how our website is organized.
 
 We are happy to announce that those changes are now live and you can see them by visiting the [Dendron wiki](https://wiki.dendron.so/).
 
@@ -47,7 +47,7 @@ In terms of changes, running `git stat` yields the following after the refactor:
 
 - dendron-site
   - 227 files changed, 1131 insertions(+), 950 deletions(-)
-- org-private (internal vault used by the dendron team)
+- org-private (internal vault used by the Dendron team)
   - 132 files changed, 541 insertions(+), 198 deletions(-)
 
 In total, Dendron refactored **over 300 files and made over 2k line changes as part of this reorg!**
@@ -58,7 +58,7 @@ In Dendron, it took a few hours (most of the time was spent making additional co
 
 Our goal with Dendron is to build a tool to help humans organize, reference, and work with any amount of knowledge. This exercise was a small demonstration of that.
 
-Thanks, everyone for your continued support and please leave feedback about the new organization in the github discussion or in the `#feedback` channel on Discord!
+Thanks, everyone for your continued support and please leave feedback about the new organization in the GitHub discussion or in the `#feedback` channel on Discord!
 
 #### Dendron Reading Series
 
@@ -77,7 +77,7 @@ You can see an overview of all roles [[here|community.roles]].
 
 - `@orang2tang#7760`
   - #dendron.bugcatcher
-  - issue with dendron site on edge browser
+  - issue with Dendron site on Edge browser
 - [Aaron Meese](https://github.com/ajmeese7)
   - #dendron.taxonomist
   - [Update dendron.faq.md by ajmeese7 · Pull Request #273 · dendronhq/dendron-site](https://github.com/dendronhq/dendron-site/pull/273)

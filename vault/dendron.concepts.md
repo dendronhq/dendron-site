@@ -10,11 +10,11 @@ Below are some concepts that are helpful to know when using Dendron. Note that f
 
 ### Markdown
 
-Dendron supports markdown, a popular markup syntax that is like HTML but 1000x simpler. If you are new to markdown, you can read about the syntax [here](https://docs.gitbook.com/editing-content/markdown).
+Dendron supports Markdown, a popular markup syntax that is like HTML but 1000x simpler. If you are new to Markdown, you can read about the syntax [here](https://docs.gitbook.com/editing-content/markdown).
 
 ### Frontmatter
 
-Frontmatter is a convenient way of adding extra information to your documents like a shorthand title or longer description (think any extra information you can use to describe a note). This type of information is generally called metadata and the structure used is called [YAML](https://yaml.org/). You can add it to the front of your markdown file and it won't show up in the preview. It was first introduced by [jekyll](https://jekyllrb.com/docs/front-matter/). 
+Frontmatter is a convenient way of adding extra information to your documents like a shorthand title or longer description (think any extra information you can use to describe a note). This type of information is generally called metadata and the structure used is called [YAML](https://yaml.org/). You can add it to the front of your Markdown file and it won't show up in the preview. It was first introduced by [Jekyll](https://jekyllrb.com/docs/front-matter/). 
 
 You can read more about the frontmatter used in Dendron [[here|dendron.topic.frontmatter]]
 
@@ -91,7 +91,7 @@ There are two reasons why these suggested notes might show up:
 
 ### Command Palette
 
-The command palette is native to `vscode`. You can use it to run dendron commands, which will all be prefixed with `Dendron:`. You can use the following shortcut to open the command palette.
+The command palette is native to `VS Code`. You can use it to run Dendron commands, which will all be prefixed with `Dendron:`. You can use the following shortcut to open the command palette.
 
 - <img src="https://www.kernel.org/theme/images/logos/favicon.png" width=16 height=16/> <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf">Linux</a> `Ctrl+Shift+P`
 - <img src="https://developer.apple.com/favicon.ico" width=16 height=16/> <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf">macOS</a> `Cmd+Shift+P`

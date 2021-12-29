@@ -32,14 +32,14 @@ dendron importPod --podId dendron.markdown --wsRoot .
 
 ### Publish Pod
 
-- eg: Publish a note as regular markdown
+- eg: Publish a note as regular Markdown
 
 #### Options
 - --query: name of note to publish
 
 #### Examples
 
-Publish `dendron.md` note as markdown
+Publish `dendron.md` note as Markdown
 ```sh
 dendron publishPod --wsRoot . --podId dendron.markdown --query dendron
 ```

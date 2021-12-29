@@ -2,7 +2,7 @@
 id: 3e7baac6-f120-4378-a667-92e7a0869dca
 title: Caching
 desc: ''
-updated: 1616950292464
+updated: 1640428305225
 created: 1599842689882
 stub: false
 ---
@@ -26,7 +26,7 @@ You can see a public example of what this might look like on [Kevin's project re
 Some things to note: 
 
 - when using your notes as a cache, you might have duplicate content from other sites. be aware of copyright laws and check that you can re-publish said content
-- when re-publishing content, google will penalize your site if you have duplicate content from other sites. you can tell google to not index specific pages or hierarchies
+- when re-publishing content, Google will penalize your site if you have duplicate content from other sites. you can tell Google to not index specific pages or hierarchies
     
 
 ## Exclude page from index

@@ -39,7 +39,7 @@ Exporting lets you bulk export notes and snippets from Dendron into another dest
 
 There are two types of pods:
 
-- builtin: created by dendron 
+- builtin: created by Dendron 
 - remote: created by third parties
 
 ![[dendron.topic.pod.builtin#summary,1:]]

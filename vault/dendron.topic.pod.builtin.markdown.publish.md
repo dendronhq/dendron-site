@@ -7,13 +7,13 @@ created: 1617328001523
 ---
 
 ## Summary
-Publish Dendron Markdown to regular markdown. Convert note references and dendron specific syntax to regular markdown.
+Publish Dendron Markdown to regular Markdown. Convert note references and Dendron specific syntax to regular Markdown.
 
 ## Config
 ### wikiLinkToUrl
 - default: false
 
-If set to true and `siteUrl` is set, convert wiki links to markdown links that use `siteUrl` as root. 
+If set to true and `siteUrl` is set, convert wiki links to Markdown links that use `siteUrl` as root. 
 
 
 ## Quickstart

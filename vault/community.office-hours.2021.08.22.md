@@ -22,7 +22,7 @@ Discussion
 * Community-chat
     * start it in environmentalist group and then see about rolling it out everywhere
 * Initiatives
-    * NextJs Publishing
+    * Next.js Publishing
     * Seeds
     * standalone vaults
 * Getting started with Dendron Development (as a new dev)

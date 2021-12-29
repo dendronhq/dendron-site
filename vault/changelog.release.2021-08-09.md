@@ -15,9 +15,9 @@ Dendron 0.54 has sprouted  🌱
 - custom tag colors: create the perfect color palette for each of your tags ([[docs|changelog#custom-colors-for-tags]])
 - rename headers: like **Rename Note** but for headers ([[docs|changelog#rename-header-command]])
 - integrated seeds: seed commands are now available from within the plugin ([[docs|changelog#seed-commands]])
-- github publish pod: update the status of github issues from inside of Dendron ([[docs|changelog#github-publish-pod]])
+- GitHub publish pod: update the status of GitHub issues from inside of Dendron ([[docs|changelog#github-publish-pod]])
 - quality of life improvements
-    - auto-resolve conflicting keybinding from vim 
+    - auto-resolve conflicting keybinding from Vim 
 - lots of fixes
   - issue with non-highlighting wikilinks
   - broken links in the extension README
@@ -32,7 +32,7 @@ We're hiring at Dendron!
 - [[Head of Content|careers.head-of-content]]
 
 Work is going on for last weeks CROP ([Create Index Note](https://github.com/dendronhq/dendron/issues/603)).
-Because this is a more involved feature, we've created an [[RFC|rfc.18-add-note-indexes]] to discuss the implementation details. Please leave any feedback in [this github discussion](https://github.com/dendronhq/dendron/discussions/1076)
+Because this is a more involved feature, we've created an [[RFC|rfc.18-add-note-indexes]] to discuss the implementation details. Please leave any feedback in [this GitHub discussion](https://github.com/dendronhq/dendron/discussions/1076)
 
 ### Community
 

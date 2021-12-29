@@ -21,9 +21,9 @@ Select the option to create a native workspace and follow the prompts.
 
 Dendron looks at files that are added to non-Dendron workspaces to automatically
 start everything if a native Dendron workspace is created. This typically should
-not affect your experience with VSCode, but you can disable it if you experience
+not affect your experience with VS Code, but you can disable it if you experience
 any issues using the [[dendron.watchForNativeWorkspace|dendron://dendron.dendron-site/dendron.ref.config.vscode-config#dendronwatchfornativeworkspace]]
 option in the extension settings.
 
 If you disable this setting, you'll need to reload your window with `Developer: Reload Windows`
-or otherwise restart VSCode to load the Dendron workspace when you [[create a Dendron Native workspace|#setup]].
+or otherwise restart VS Code to load the Dendron workspace when you [[create a Dendron Native workspace|#setup]].

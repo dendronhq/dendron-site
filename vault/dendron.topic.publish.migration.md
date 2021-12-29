@@ -10,4 +10,4 @@ created: 1632351743935
 ## Breaking Changes
 
 ### Pretty Links
-Dendron Next publishing uses pretty urls which means pages will no longer have a `.html` suffix.  If you are migrating an existing 11ty based Dendron site to Next, make sure to redirect `.html` pages to preserve existing links
+Dendron Next.js publishing uses pretty urls which means pages will no longer have a `.html` suffix.  If you are migrating an existing 11ty based Dendron site to Next.js, make sure to redirect `.html` pages to preserve existing links

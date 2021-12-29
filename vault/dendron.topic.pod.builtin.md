@@ -8,7 +8,7 @@ toc: true
 ---
 
 ## Summary
-Builtin pods are managed by Dendron and are available when you install Dendron. They can be used with either the `dendron-cli` or from within the Dendron extension to import/export/publish your notes from/to anywhere
+Builtin pods are managed by Dendron and are available when you install Dendron. They can be used with either the Dendron CLI or from within the Dendron extension to import/export/publish your notes from/to anywhere
 
 ## JSON Pod
 

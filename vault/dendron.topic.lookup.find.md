@@ -2,7 +2,7 @@
 id: 84a0366a-eab5-4862-9bef-360f92a196dc
 title: Finding Notes
 desc: ''
-updated: 1639195903619
+updated: 1640424451536
 created: 1608494616703
 ---
 
@@ -94,6 +94,6 @@ We use FuseJS for our note lookup and support the [extended search syntax](https
 
  Note: `.` have special behavior in Dendron (Example [[#hierarchy-ordered-querying]]) Hence when using complex extended syntax searches in general its advised to avoid dots `.` if possible.  
 
-## VSCode Search
+## VS Code Search
 
 ![[dendron://dendron.dendron-site/dendron.topic.search]]

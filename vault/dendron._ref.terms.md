@@ -2,13 +2,13 @@
 id: 20b23165-d803-4eb2-98aa-0f0934dd3bd9
 title: Terms
 desc: ''
-updated: 1617212531464
+updated: 1640426092545
 created: 1610064859384
 ---
 
 ### Command Palette
 
-The [command palette](https://code.visualstudio.com/docs/getstarted/userinterface#_command-palette) lets you access all command based functionality inside vscode. You can bring up by using `CMD+SHIFT+P` on mac or `CTRL+SHIFT+P` on windows and linux.
+The [command palette](https://code.visualstudio.com/docs/getstarted/userinterface#_command-palette) lets you access all command based functionality inside VS Code. You can bring up by using `CMD+SHIFT+P` on mac or `CTRL+SHIFT+P` on windows and linux.
 
 ### Early Seed Release
 
@@ -16,7 +16,7 @@ Early builds of Dendron. Only availble to [[Environmentalist|community.roles#env
 
 ### Slug
 
-Human readable part of url. See [wikipedia article](https://en.wikipedia.org/wiki/Clean_URL#Slug) for more details. 
+Human readable part of url. See [Wikipedia article](https://en.wikipedia.org/wiki/Clean_URL#Slug) for more details. 
 
 Dendron uses [github-slugger](https://github.com/Flet/github-slugger) to generate slugs.
 

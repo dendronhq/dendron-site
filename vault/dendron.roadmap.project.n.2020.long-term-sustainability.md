@@ -2,7 +2,7 @@
 id: d892da5f-3667-4bfe-a8ba-e5ea3da4eb72
 title: Long term sustainability v0
 desc: ''
-updated: 1604945094990
+updated: 1640428640004
 created: 1599501881180
 stub: false
 start: 2020.10.07
@@ -26,7 +26,7 @@ Kevin wants to work on Dendron full time for the forseeable future and would lik
   - re-curring payment to support development of Dendron
   - access to special once a month zoom chat about features
   - swag
-  - discord icon
+  - Discord icon
   - discount for server side features
 
 ## Next
@@ -34,7 +34,7 @@ Kevin wants to work on Dendron full time for the forseeable future and would lik
 - server side features 
   - private hosting
   - native sync
-  - server side pods (eg. everytime you add data to airtable, add an entry to Dendron)
+  - server side pods (eg. everytime you add data to Airtable, add an entry to Dendron)
 
 ## Links
 
@@ -46,26 +46,26 @@ Kevin wants to work on Dendron full time for the forseeable future and would lik
 ### Revenue Ideas
 
 - pro status
-  - support dendron development using one time or recurring fee
-  - get a dendron sticker and special discord badge
+  - support Dendron development using one time or recurring fee
+  - get a Dendron sticker and special Discord badge
   - get discount when we launch sever feature rates
 - workshops
 - server features
-  - use **code-server** or something equivalent to run dendron inside a browser
+  - use **code-server** or something equivalent to run Dendron inside a browser
   - dedicated end2end sync
   - hosted pods 
     - do daily import/export of notes from/to diff places
-- dendron private catalogues
+- Dendron private catalogues
   - give people the option to build a paying subscription base for their published notes (eg. substack)
 - enterprise features
   - active directory and support
   - support remote mount point
 - mobile app 
 - standalone client
-  - standalone dendron app  
-    - maybe modified vscode (without coding)
+  - standalone Dendron app  
+    - maybe modified VS Code (without coding)
     - theia 
-    - vscodium
+    - VSCodium
   - charge a pay what you can model?
 - wyswg client
 

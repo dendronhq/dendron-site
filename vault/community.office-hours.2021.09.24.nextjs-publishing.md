@@ -1,8 +1,8 @@
 ---
 id: lawPd77y3U3PQDEuotWb5
-title: Nextjs Publishing - Getting Started
+title: Next.js Publishing - Getting Started
 desc: ''
-updated: 1632845099839
+updated: 1640424736624
 created: 1632630257636
 ---
 
@@ -11,12 +11,12 @@ created: 1632630257636
 Video of the talk can be found [here](https://www.youtube.com/watch?v=UfZgSN8w9UM&t=9s) (Apologies, forgot sound on this recording)
 
 ## Agenda
-- Initializing Next Publishing [Quickstart](https://wiki.dendron.so/notes/e5st4LFLtIwwbQmC6JBaF.html)
-- Exporting notes to Github Pages [Tutorial](https://wiki.dendron.so/notes/yg3EL1x9fEe4NMqxUC3jP.html)
+- Initializing Next.js Publishing [Quickstart](https://wiki.dendron.so/notes/e5st4LFLtIwwbQmC6JBaF.html)
+- Exporting notes to GitHub Pages [Tutorial](https://wiki.dendron.so/notes/yg3EL1x9fEe4NMqxUC3jP.html)
 
 ## Questions
 * Can you show what version of yarn you are running pls? **Nvm, I see it's v1.22. Thx.**
-* What’s the equiv of the output folders for NextJS (in 11ty, it was /build /docs)?
+* What’s the equiv of the output folders for Next.js (in 11ty, it was /build /docs)?
     - Export is **/.next/out**
     - Dev is **/.next/public /.next/data(?)**
     - Data generated from `dendron publish build`
@@ -25,7 +25,7 @@ Video of the talk can be found [here](https://www.youtube.com/watch?v=UfZgSN8w9U
     - .next/
 
 ## Related
-* Publishing using a github action:
+* Publishing using a GitHub action:
     - [https://wiki.dendron.so/notes/FnK2ws6w1uaS1YzBUY3BR.html](https://wiki.dendron.so/notes/FnK2ws6w1uaS1YzBUY3BR.html)
 * Today’s Walkthrough Repo
     - [https://github.com/kevinslin/dendron-publish-demo](https://github.com/kevinslin/dendron-publish-demo)

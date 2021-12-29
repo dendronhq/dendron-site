@@ -53,7 +53,7 @@ Dendron will also be featured in the next VS Code livestream!
 
 > In our talk, we'll go over the basics of how Dendron works and do a walkthrough of the core features that let individuals and teams manage tens of thousands of notes inside of VS Code.
 
-- [VSCode Livestreams](https://code.visualstudio.com/livestream): Note taking inside of VS Code (with Dendron)
+- [VS Code Livestreams](https://code.visualstudio.com/livestream): Note taking inside of VS Code (with Dendron)
   - **Thursday, December 16, 8:00 AM PST**
 
 #### Dendron Reading Series

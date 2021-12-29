@@ -1,6 +1,6 @@
 ---
 id: 5fGMHyXmErIV9odz01BBH
-title: Nextjs Pod
+title: Next.js Pod
 desc: ''
 updated: 1637355140896
 created: 1628955339442
@@ -29,7 +29,7 @@ Running this pod will create the following files in `dest`.
 
 ### dendron.json
 
-This is a json version of [[dendron.yml|dendron.ref.config]]. It's used to enable/disable various language features
+This is a JSON version of [[dendron.yml|dendron.ref.config]]. It's used to enable/disable various language features
 
 ### fuse.json
 
@@ -45,7 +45,7 @@ These files contain the HTML rentered note bodies.
 
 ### notes/{id}.md
 
-These files contain the markdown note bodies.
+These files contain the Markdown note bodies.
 
 ### notes.json
 

@@ -31,11 +31,11 @@ You can see an overview of all roles [[here|community.roles]]
 
 ### Version Number
 This release comes with the following versions:
-- dendron plugin: 0.28
-- dendron cli: 0.28.2
-- dendron 11ty: 1.28.3
-- dendron plugin and dendron markdown preview will be auto-installed by VSCode
+- Dendron plugin: 0.28
+- Dendron CLI: 0.28.2
+- Dendron 11ty: 1.28.3
+- Dendron plugin and Dendron Markdown Preview will be auto-installed by VS Code
 
-- See the upgrade instructions [[here for dendron-11ty and dendron cli|dendron.guides.upgrading#dendron-cli-and-dendron-11ty]]
+- See the upgrade instructions [[here for dendron-11ty and Dendron CLI|dendron.guides.upgrading#dendron-cli-and-dendron-11ty]]
 
 ![[changelog#0272:#0261]]

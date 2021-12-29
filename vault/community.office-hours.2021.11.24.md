@@ -22,7 +22,7 @@ revisionId: >-
 
 			-use Dendron inside of subfolders or anywhere else
 
-			-have existing VS code project, add dendron vault or dendron workspace                    
+			-have existing VS code project, add Dendron vault or Dendron workspace                    
 
  into that project
 
@@ -32,7 +32,7 @@ Future improvements:
 
 - Leave inline code by wiki link, do goto note and navigate to the part of the code
 
-- Integration of dendron workspace into existing user projects 
+- Integration of Dendron workspace into existing user projects 
 
 - Integration within IDE
 

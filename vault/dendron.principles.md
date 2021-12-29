@@ -17,19 +17,19 @@ Design principles are used to guide product decisions and feature work.
 
 Dendron aims to create a world class developer experience for managing knowledge.
 
-Our goal is to provide a tool with the efficiency of vim, the extensibility of emacs, and the approachability of VSCode.
+Our goal is to provide a tool with the efficiency of Vim, the extensibility of Emacs, and the approachability of VS Code.
 
 What this means:
 
-- dendron features are text centric and composables
-- dendron provides the lowest friction interface for working with your knowledge base
-- dendron optimizes for efficiency, speed, and keyboard focused ux
-- dendron comes with sane defaults and the ability to customize to your liking
-- dendron can be extended along any dimension
+- Dendron features are text centric and composables
+- Dendron provides the lowest friction interface for working with your knowledge base
+- Dendron optimizes for efficiency, speed, and keyboard focused ux
+- Dendron comes with sane defaults and the ability to customize to your liking
+- Dendron can be extended along any dimension
 
 ### Gradual Structure
 
-Dendron extends markdown with structural primitives to make it easier to manage at scale and tooling on top to work with this structure.
+Dendron extends Markdown with structural primitives to make it easier to manage at scale and tooling on top to work with this structure.
 
 Different knowledge bases require different levels of structure - a PKM used for keeping daily journals is different than a company wide knowledge base used by thousands of developers.
 

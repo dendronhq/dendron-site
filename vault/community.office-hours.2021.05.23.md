@@ -42,9 +42,9 @@ created: 1621785443334
     -   Database vs. Git
         -   Still need a review solution
 -   JSON schema
-    -   It’s a way of validating json docs.
+    -   It’s a way of validating JSON docs.
     -   How does it merge with schema?
         -   JSON schema will be the blueprint for schema file
         -   What’s allowed, descriptions of keys.
         -   “The type definition for the type definition” :)
-    -   custom vscode editor
+    -   custom VS Code editor

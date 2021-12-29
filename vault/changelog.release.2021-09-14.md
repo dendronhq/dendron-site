@@ -2,21 +2,21 @@
 id: aURuqCucZegsCpJSb5m90
 title: '0.59'
 desc: ''
-updated: 1631679038644
+updated: 1640427417047
 created: 1631659388102
 ---
 
 Dendron 0.59 has sprouted  🌱
 
 ### Highlights
-- feat(publish): publish using next and github pages ([[docs|dendron.topic.publishing-next.cook.github#summary]])
-- feat(markdown): custom css for images ([[docs|dendron.topic.images#extended-images]])
-- enhance(pods) markdown import to update asset links
+- feat(publish): publish using Next.js and GitHub Pages ([[docs|dendron.topic.publishing-next.cook.github#summary]])
+- feat(markdown): custom CSS for images ([[docs|dendron.topic.images#extended-images]])
+- enhance(pods) Markdown import to update asset links
 
 ### Everything Else
-- enhance(publish) support `assetPrefix` option with nextjs publishing
-- enhance(publish) initialize nextjs template with `https` protocol 
-- enhance(publish) autoset sane defaults for nextjs publishing
+- enhance(publish) support `assetPrefix` option with Next.js publishing
+- enhance(publish) initialize Next.js template with `https` protocol 
+- enhance(publish) autoset sane defaults for Next.js publishing
 - enhance(publish) unpublished notes replaced with link to [[unpublished pages|dendron._ref.unpublished-pages]]
 - enhance(publish) support attach option for CLI ([[docs|dendron.topic.publish.cli#^bfvLB8BY4nLb]])
 - enhance(lookup) "Create New" will be first result if no exact match
@@ -36,7 +36,7 @@ Dendron 0.59 has sprouted  🌱
 
 #### RFCs
 
-We've had quite a number of [[Rfc|rfc]] in flight. This is a highlight of things that are currently being worked on. Click through the RFCs for more details and link to the github discussion page.
+We've had quite a number of [[RFCs|rfc]] in flight. This is a highlight of things that are currently being worked on. Click through the RFCs for more details and link to the GitHub discussion page.
 
 - [[22 Queries|rfc.22-queries]]
 - [[23 Consolidate Configurations|rfc.23-config-consolidation]]

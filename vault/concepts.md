@@ -8,5 +8,5 @@ created: 1636430465147
 
 ## Launch Task
 
-A launch task is any task that is started from the VSCode [Launch and Debug](https://code.visualstudio.com/docs/editor/debugging#_run-view) view. They are defined in a `launch.json` file
+A launch task is any task that is started from the VS Code [Launch and Debug](https://code.visualstudio.com/docs/editor/debugging#_run-view) view. They are defined in a `launch.json` file
 

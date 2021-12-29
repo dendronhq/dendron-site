@@ -15,9 +15,9 @@ Migrate the Dendron to (local) client &lt;-> server architecture
 
 ## Details
 
-Dendron's current architecture can be found [here](https://dendron.so/notes/c160ddce-edec-4f6e-841b-418d6030fa37.html). Currently, all of Dendron's indexing capabilities is provided by the `dendron engine` as a library which is included in every extension that uses it. This has many drawbacks - every extension re-indexes all notes and also blocks the client (vscode) during this process.
+Dendron's current architecture can be found [here](https://dendron.so/notes/c160ddce-edec-4f6e-841b-418d6030fa37.html). Currently, all of Dendron's indexing capabilities is provided by the `Dendron engine` as a library which is included in every extension that uses it. This has many drawbacks - every extension re-indexes all notes and also blocks the client (VS Code) during this process.
 
-The Dendron server migration is to move Dendron to a client server architecture. Note that the migration will involve standing up **two servers**: one for language server functionality (the lsp server), and another for dendron's [lookup](https://dendron.so/notes/a7c3a810-28c8-4b47-96a6-8156b1524af3.html) capabilities (the express server). 
+The Dendron server migration is to move Dendron to a client server architecture. Note that the migration will involve standing up **two servers**: one for language server functionality (the lsp server), and another for Dendron's [lookup](https://dendron.so/notes/a7c3a810-28c8-4b47-96a6-8156b1524af3.html) capabilities (the express server). 
 
 The rationale for having two servers is discussed [here](https://discordapp.com/channels/717965437182410783/748936364283920495/759153642644701285).
 
@@ -29,7 +29,7 @@ Instead of calling the engine directly, the Dendron extension, as well as relate
 
 - [x] add LSP server to Dendron (0.12)
 - [x] add api server to Dendron (0.12)
-- [x] hook server into dendron startup (0.12.4)
+- [x] hook server into Dendron startup (0.12.4)
 - [x] migrate lookup to server model 
   - [x] support query notes (0.12.6)
   - [x] support query notes with schema (0.12.6)
@@ -41,7 +41,7 @@ Instead of calling the engine directly, the Dendron extension, as well as relate
   - [x] support delete schema  (0.12.7)
 - [x] optimize server lookup performance (0.12.7)
 - [x] enable file watcher (0.12.7)
-- [x] dendron tree view (0.12.7)
+- [x] Dendron tree view (0.12.7)
 - [x] migrate commands
   - [x] scratch note (0.12.7)
   - [x] journal note (0.12.7)
@@ -89,17 +89,17 @@ To enable server mode, update the following setting in your workspace settings `
 
 ### Design
 - components
-    - [[p.dendron-extension]]: vscode extension
-    - [[p.engine-v0]]: current dendron engine
-    - [[p.engine-server]]: dendron lsp engine
-    - [[p.engine-client]]: dendron lsp client
+    - [[p.dendron-extension]]: VS Code extension
+    - [[p.engine-v0]]: current Dendron engine
+    - [[p.engine-server]]: Dendron lsp engine
+    - [[p.engine-client]]: Dendron lsp client
 - concepts
     - all links: note refs, wiki links, md links
 - architecture today:
     - [[p.dendron-extension]] -> [[p.engine-v0]]
 - architecture after migration
     - user commands: [[p.dendron-extension]] -> [[p.engine-client]] -> [[p.engine-server]]
-    - lsp specific actions: vscode -> [[p.engine-server]]
+    - lsp specific actions: VS Code -> [[p.engine-server]]
 
 ### Challenges
 
@@ -112,7 +112,7 @@ LSP provides language specific features but doesn't provide us with the equivale
 ### Flows
 
 #### initialization
-- user activates dendron workspace
+- user activates Dendron workspace
 - activates [[p.engine-server]] and [[p.engine-client]]
 - [[p.engine-server]] indexes all files in workspace and sets file watcher to watch for changes
 - [[p.engine-client]] gets notified when indexing is complete
@@ -122,7 +122,7 @@ LSP provides language specific features but doesn't provide us with the equivale
     - frontmatter updates
     - note updates
     - schema updates
-    - dendron specifc config
+    - Dendron specifc config
 
 #### commands
 

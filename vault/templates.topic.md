@@ -19,7 +19,7 @@ created: 1635992238170
 <!-- Specific features-->
 
 ## Commands
-<!-- VSCode specific commands if applicable -->
+<!-- VS Code specific commands if applicable -->
 
 ## CLI
 <!-- cli specific commands if applicable -->

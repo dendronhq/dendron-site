@@ -43,7 +43,7 @@ we can also introduce a vault specific prefix (eg. {vault}/{path}) to un-ambiguo
 
 user would type `kevin-vault/python.hello` to specify they want to access `kevin-vault`
 
-"why don't we just show all matches for an unprefixed link" - this would work inside vscode, but if the user just publishes the workspace with conflicting vaults, I guess the link must point to some single pre-selected place(?). Also, I think the intent behind the link is to point to a single location, so asking user to fix it would probably be reasonable.
+"why don't we just show all matches for an unprefixed link" - this would work inside VS Code, but if the user just publishes the workspace with conflicting vaults, I guess the link must point to some single pre-selected place(?). Also, I think the intent behind the link is to point to a single location, so asking user to fix it would probably be reasonable.
 There's probably all kind of complex scenarios that we could envision (e.g. what if the user would like to merge domains across vaults and show all merged notes in the published page as a merged web page?), but then again 99.9% of the real cases probably just want to use multiple folders and avoid conflicts. Showing errors would probably be the easiest and still sufficient solution.
 
 ### Kevin

@@ -17,7 +17,7 @@ You can see all currently available seeds [here](https://github.com/dendronhq/de
 
 <!-- If you have a vault that you think would make a good addition to the seed bank, you can submit a vault by following the instructions below:
 
-1. make sure your vault is pushed to a public git registry like github
+1. make sure your vault is pushed to a public git registry like GitHub
 2. make sure that your vault has a public `README.md` and `LICENSE.md` inside the vault
 3. ping kevin on Discord or by email at [kevin@dendron.so](mailto:kevin@dendron.so) :)
  -->

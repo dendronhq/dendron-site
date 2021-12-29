@@ -2,7 +2,7 @@
 id: a929ff5a-b6c0-417b-a3af-d70af3626aa5
 title: "0.18"
 desc: ''
-updated: 1639201317332
+updated: 1640426957466
 created: 1606679635868
 ---
 Dendron 0.18 has sprouted 🌱
@@ -11,8 +11,8 @@ Dendron 0.18 has sprouted 🌱
 
 - instant link previews
   - peek into links without opening them
-- dendron web ui (for configuration updates)
-  - configure dendron using shiny new graphics
+- Dendron web ui (for configuration updates)
+  - configure Dendron using shiny new graphics
 - more multi-vault enhancements
   - support more commands 
 - lots of bug fixes
@@ -21,7 +21,7 @@ Dendron 0.18 has sprouted 🌱
 ### Community
 
 - Dendron Office Hours
-  - Our next live office hours will take place this Wednesday (12/02) at 11AM PST on [twitch](https://www.twitch.tv/dendronhq). A reminder that you can submit questions ahead of time in the #office-hours channel in [discord](https://link.dendron.so/discord). We'll send another survey this week for scheduling the next office hours at the end of the month. 
+  - Our next live office hours will take place this Wednesday (12/02) at 11AM PST on [twitch](https://www.twitch.tv/dendronhq). A reminder that you can submit questions ahead of time in the #office-hours channel in [Discord](https://link.dendron.so/discord). We'll send another survey this week for scheduling the next office hours at the end of the month. 
 
 ### In the Works
 
@@ -34,7 +34,7 @@ Dendron 0.18 has sprouted 🌱
 Last and most of all, a big **thanks** to the following gardeners that brought up issues, contributions, and fixes to this release 👨‍🌾 👩‍🌾
 
 - [Gabriel Horner](https://github.com/cldwalker) 
-  - [fix out of date jekyll config](https://github.com/dendronhq/dendron/pull/372)
+  - [fix out of date Jekyll config](https://github.com/dendronhq/dendron/pull/372)
 - [Kiran Pathakoda](https://github.com/kpathakota)
   - [fix build issues](https://github.com/dendronhq/dendron/pull/379)
 - [Ilia Auerbach-Ziogas](https://github.com/iliaaz)

@@ -1,14 +1,14 @@
 ---
 id: 19a0ea9d-7292-4a68-bc6f-ffd462a54bc5
-title: VSCode Config
+title: VS Code Config
 desc: ''
-updated: 1636539674755
+updated: 1640381907612
 created: 1619541378119
 ---
 
 ## Access
 
-You can access these Configurations through the [VSCode Settings,](https://code.visualstudio.com/docs/getstarted/settings) you will find them if you search for dendron.
+You can access these configurations through the [VS Code Settings](https://code.visualstudio.com/docs/getstarted/settings) if you search for "Dendron".
 
 ![[dendron.ref.config#legend:#*]]
 
@@ -132,20 +132,20 @@ when creating a new note with selected text, define behavior for selected text
 - type: string
 - default: 
 
-location of dendron workspace
+location of Dendron workspace
 
 ## dendron.dendronDir
 - type: string
 - default: 
 
-location of dendron configuration
+location of Dendron configuration
 
 ## dendron.logLevel
 - type: string
 - default: info
 - options:  ['debug', 'info', 'error']
 
-control verbosity of dendron logs
+control verbosity of Dendron logs
 
 ## dendron.trace.server
 - type: string

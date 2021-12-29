@@ -2,7 +2,7 @@
 id: fYU3mSfr096DYui0O2cRp
 title: '0.55'
 desc: ''
-updated: 1639201293579
+updated: 1640427363207
 created: 1629234795602
 ---
 
@@ -14,27 +14,27 @@ Dendron 0.55 has sprouted  🌱
 - views: calendar view is now generally available ([[docs|dendron._ref.web-ui#calendar-view]])
 - markdown: set custom colors 
 - markdown: colored tags now show up decorated in tree view 
-- pods: markdown export will now export notes with leading slash
-- pods: markdown publish pod will can resolve `siteUrl` 
+- pods: Markdown export will now export notes with leading slash
+- pods: Markdown publish pod will can resolve `siteUrl` 
 - lots of bug fixes
 
-### Next(js) Publishing (preview)
+### Next.js Publishing (preview)
 
-Excited to announce that Dendron's new publishing experience using NextJS and React is now available in developer preview. You can get a feel for the new web client at https://wiki-next.dendron.so. 
+Excited to announce that Dendron's new publishing experience using Next.js and React is now available in developer preview. You can get a feel for the new web client at https://wiki-next.dendron.so. 
 
 Some features of note:
 - even though this is now a React app, all pages are still statically generated which means you still get full SEO benefits 
 - after the first load, all links are pre-fetched and loaded client side which which results in instant page transitions :rocket:
 - the lookup for the web client uses the same lookup that exists in the desktop application
-- the web client is a vanilla nextjs app with some dendron defaults - this means you will be able to customize it like you would a regular nextjs/react app
+- the web client is a vanilla Next.js app with some Dendron defaults - this means you will be able to customize it like you would a regular Next.js/React app
 - the frontend for the web client re-uses the same code that we use internally for the web ui which means published pages will look near identical online and inside your workspace
 
 You can find setup instructions [here](https://wiki.dendron.so/notes/PgwAXFfotfgpFVqHQRlBl.html)
 Details and rationale behind this change is [here](https://wiki.dendron.so/notes/nB75cmdPhL7CTOATG6wpT.html)
 
-We've created a github discussion thread for comments about the new web client [here](https://github.com/dendronhq/dendron/discussions/1145)
+We've created a GitHub discussion thread for comments about the new web client [here](https://github.com/dendronhq/dendron/discussions/1145)
 
-If you'd like to help us work on this, you can find an (incomplete) list of mvp milestone items [here](https://wiki.dendron.so/notes/eQ5w4eqHrf4m1peq.html#mvp-milestones). Ping me on [discord](https://link.dendron.so/discord) `@kevins8#0590 ` if you do and I'll make sure to create a corresponding github issue as well as provide more context.
+If you'd like to help us work on this, you can find an (incomplete) list of mvp milestone items [here](https://wiki.dendron.so/notes/eQ5w4eqHrf4m1peq.html#mvp-milestones). Ping me on [Discord](https://link.dendron.so/discord) `@kevins8#0590 ` if you do and I'll make sure to create a corresponding GitHub issue as well as provide more context.
 
 ### Community
 
@@ -59,7 +59,7 @@ You can see an overview of all roles [[here|community.roles]]
 - [Derek Ardolf](https://github.com/ScriptAutomate) @ScriptAutomate#6833 @icanteven#0264 
   - make license clear on the dendron-site
 - [Jack](https://github.com/imalightbulb) @I'm a lightbulb#6986
-  - rfc for spaced repetition
+  - RFC for spaced repetition
 - [Bassmann](https://github.com/Bassmann) @Bassmann#5300 
   - issue with  schema in template seed
   - [lookup with `lookuupOnConfirmVault` not working](https://github.com/dendronhq/dendron/pull/1150)

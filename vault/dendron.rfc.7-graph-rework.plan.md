@@ -20,7 +20,7 @@ issue: 692
     -   Embedding
 -   Performance Improvements
     -   Scalability to thousands of notes
--   Implementation useable by published site and within VSCode
+-   Implementation useable by published site and within VS Code
 
 ### Secondary Functionality
 

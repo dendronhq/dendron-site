@@ -2,7 +2,7 @@
 id: 11c9f170-3864-4406-9631-053241553b35
 title: "0.16"
 desc: ''
-updated: 1616950016820
+updated: 1640426940920
 created: 1605459905174
 ---
 Dendron 0.16 has sprouted 🌱
@@ -24,8 +24,8 @@ Dendron 0.16 has sprouted 🌱
 - Dendron Office Hours
   - We are kicking off our live bi-monthly office hours this week! The first session will be held this Wednesday (11/18) at 12PM PST on [Twitch](https://www.twitch.tv/dendronhq)
   - Office hours are a channel to get answers to all the questions you're not afraid to ask during a live stream
-  - For people that can't make the time, we will have the session recorded and are taking questions ahead of time in the #office-hours channel on discord
-  - link to the original [discord announcement](https://discord.com/channels/717965437182410783/737323300967022732/776567468356927568)
+  - For people that can't make the time, we will have the session recorded and are taking questions ahead of time in the #office-hours channel on Discord
+  - link to the original [Discord announcement](https://discord.com/channels/717965437182410783/737323300967022732/776567468356927568)
 
 ### In the Works
 
