@@ -30,7 +30,7 @@ You can see an overview of all roles [[here|community.roles]]
     - [Error when running dendron.snapshot](https://github.com/dendronhq/dendron/issues/542)
     - [Refactoring a hierarchy resets dendron.yml, resetting previously configured vaults](https://github.com/dendronhq/dendron/issues/529)
 - [Dickson Tan](https://github.com/Neurrone)
-  - [Site preview doesn't pick up changes made until vs code is restarted](https://github.com/dendronhq/dendron/issues/539)
+  - [Site preview doesn't pick up changes made until VS Code is restarted](https://github.com/dendronhq/dendron/issues/539)
 - [John Meyer](https://github.com/af4jm) @John AF4JM#5463 `+bugcatcher`
   - [enhanced preview doesn't handle partial word italics](https://github.com/dendronhq/dendron/issues/538)
 - [absconditus87](https://github.com/absconditus87)

@@ -1,0 +1,46 @@
+extends: substitution
+message: "Use '%s' instead of '%s'."
+link: ''
+level: warning
+ignorecase: false
+action:
+  name: replace
+swap:
+  '(?:cli|command-line ?tool)': CLI
+  '(?:vscode |vs code| vscode)': VS Code
+  '(?:cell ?phone|smart ?phone)': phone|mobile phone
+  '(?:e-mail|Email|E-mail)': email
+  '(?:file ?path|path ?name)': path
+  '(?:kill|terminate|abort)': stop|exit|cancel|end
+  '(?:ok|Okay)': OK|okay
+  'un(?:check|select)': clear
+  above: preceding
+  account name: username
+  application: app
+  autoupdate: automatically update
+  chapter: documents|pages|sections
+  check box: checkbox
+  check: select
+  click on: click|click in
+  data are: data is
+  disabled?: turn off|off
+  file name: filename
+  functionality: capability|feature
+  Google account: Google Account
+  Google accounts: Google Accounts
+  Googling: search with Google
+  grayed-out: unavailable
+  HTTPs: HTTPS
+  in order to: to
+  ingest: import|load
+  open-source: open source
+  regex: regular expression
+  sign into: sign in to
+  stylesheet: style sheet
+  synch: sync
+  tablename: table name
+  tablet: device
+  touch: tap
+  url:  URL
+  vs\.: versus
+  World Wide Web: web

@@ -32,4 +32,4 @@ Or `hsl`:
 color: "hsl(234, 80%, 51%)"
 ```
 
-You can actually use any [[CSS color|https://developer.mozilla.org/en-US/docs/Web/CSS/color_value]] you'd like, but Dendron only recognizes the ones listed above. Dendron adds translucency to any color it recognizes, which makes the colors fit better both in the editor and in publishing. If you are using some other color type Dendron doesn't recognize, make sure to check that it looks okay.
+You can actually use any [[CSS color|https://developer.mozilla.org/en-US/docs/Web/CSS/color_value]] you'd like, but Dendron only recognizes the ones listed. Dendron adds translucency to any color it recognizes, which makes the colors fit better both in the editor and in publishing. If you are using some other color type Dendron doesn't recognize, make sure to verify that it looks okay.
