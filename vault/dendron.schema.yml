@@ -53,3 +53,6 @@ schemas:
   namespace: true
 - id: testing
 - id: debug
+- id: tutorial
+  template: templates.tutorial
+  desc: used for tutorial content

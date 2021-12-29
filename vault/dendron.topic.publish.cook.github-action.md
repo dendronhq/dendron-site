@@ -2,7 +2,7 @@
 id: FnK2ws6w1uaS1YzBUY3BR
 title: GitHub Action
 desc: ''
-updated: 1640425053867
+updated: 1640815976638
 created: 1631306630307
 ---
 
@@ -66,30 +66,20 @@ You can see deployed examples of these instructions in the following repositorie
         with:
           path: |
             node_modules
-            .next
+            .next/node_modules
           key: node-modules-${{ hashFiles('yarn.lock')}}
 
       - name: Install npm dependencies
         run: yarn
 
-      - name: Initialize or pull Next.js template
-        run: "(test -d .next) && (echo 'updating Dendron next...' && cd .next && git reset --hard && git clean -f && git pull) || (echo 'init Dendron next' && npx dendron publish init)"
+      - name: Initialize or pull nextjs template
+        run: "(test -d .next) && (echo 'updating dendron next...' && cd .next && git reset --hard && git clean -f && git pull && yarn && cd ..) || (echo 'init dendron next' && npx dendron publish init)"
 
-      - name: Install dependencies
-        run: cd .next && yarn && cd ..
+      - name: Delete next cache
+        run: "(test -d .next/.next) && (rm -rf .next/.next && echo 'delete Next.js cache') || echo 'no Next.js cache found'"
 
       - name: Export notes
-        run: npx dendron publish build
-
-      - name: Prep notes for publish
-        run: cd .next && yarn export && cd ..
-
-      - name: Remove docs if exist
-        run: '(test -d docs && rm -rf docs) || echo skipping'
-
-      - name: Update Notes
-        run: |
-          cd .next && mv out ../docs && touch ../docs/.nojekyll && cd ..
+        run: npx dendron publish export --target github --yes
 
       - name: Deploy site
         uses: peaceiris/actions-gh-pages@v3
@@ -97,7 +87,7 @@ You can see deployed examples of these instructions in the following repositorie
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: pages
           publish_dir: docs/
-          force_orphan: true
+          force_orphan: true  
   ```
 1. Commit your changes
   ```sh
