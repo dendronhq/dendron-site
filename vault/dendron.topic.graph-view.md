@@ -2,7 +2,7 @@
 id: 587e6d62-3c5b-49b0-aedc-02f62f0448e6
 title: Graph View
 desc: ''
-updated: 1640447500697
+updated: 1641167616980
 created: 1595120707814
 ---
 
@@ -203,6 +203,6 @@ If styles are not showing up in the graph, try the following steps:
 
 ## RFCs
 
--   [[7 Graph Rework|rfc.7-graph-rework]]
+- [7 Graph Rework](https://docs.dendron.so/notes/c998c642-a748-4f77-9285-cfec35330251/)
 
 ---

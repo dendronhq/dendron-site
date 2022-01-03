@@ -2,7 +2,7 @@
 id: f7ebd4aa-8ba7-4bc5-bd00-a1efc5315f07
 title: Workbench
 desc: ''
-updated: 1639525764325
+updated: 1641168143525
 created: 1595170237255
 stub: false
 ---
@@ -126,7 +126,7 @@ Clicking on a link candidate item will open the note that contains the candidate
 
 ## Contextual UI
 
-Dendron has a number of built-in commands to the VS Code workbench environment. Right clicking a file will allow for the option to run Dendron specific commands over it. The details of this feature are discussed in depth [[here|dendron://dendron.docs/rfc.29-contextual-ui]].
+Dendron has a number of built-in commands to the VS Code workbench environment. Right clicking a file will allow for the option to run Dendron specific commands over it. The details of this feature are discussed in depth [here](https://docs.dendron.so/notes/VellOqHuzrUyzrWc0ajvg/).
 
 ## Working with Multiple Columns
 

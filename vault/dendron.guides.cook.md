@@ -2,7 +2,7 @@
 id: 401c5889-20ae-4b3a-8468-269def4b4865
 title: Cookbook
 desc: ''
-updated: 1640425855067
+updated: 1640884751786
 created: 1595952505024
 nav_order: 6.1
 toc: true
@@ -196,7 +196,6 @@ The easiest current way to do this is to have multiple instances of VS Code open
 We are working on being able to run Dendron without the need for a workspace. You can track the progress of this on this [issue](https://github.com/dendronhq/dendron/issues/322)
 
 ### Updating a workspace
-
 
 
 ## Other

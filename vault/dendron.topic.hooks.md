@@ -2,7 +2,7 @@
 id: 12551d19-04c2-4d26-ac1e-d23ff3181a9c
 title: Hooks
 desc: ''
-updated: 1623706759532
+updated: 1641167670821
 created: 1620426131596
 ---
 
@@ -18,4 +18,4 @@ Hooks allow users to attach custom scripts to various parts of Dendron's lifecyc
 - automatically add citations to all images in a note on save
 
 ## Related
-- [[9 Note Lifecycle Hooks|rfc.9-note-lifecycle-hooks]]
+- [9 Note Lifecycle Hooks](https://docs.dendron.so/notes/d2f8fe67-36c7-4600-b745-c22bdcb5b2cf/)

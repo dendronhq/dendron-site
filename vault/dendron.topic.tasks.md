@@ -2,7 +2,7 @@
 id: SEASewZSteDK7ry1AshNG
 title: Tasks
 desc: ''
-updated: 1637695024745
+updated: 1641168050053
 created: 1635451738215
 ---
 
@@ -43,7 +43,7 @@ Writing down your tasks in plain Markdown is easy and most easily compatible
 with other tools, but it doesn't work for everyone. If you ever find yourself
 looking for more comprehensive features, you should go for task notes. This is
 an upcoming feature that's currently in development, so send your feedback to
-the [[Todo Notes RFC|rfc.13.todo-notes]] and look out for updates!
+the [Task Notes RFC](https://docs.dendron.so/notes/716e2699-42e1-44bd-9b97-124f03173ddc/) and look out for updates!
 
 ### Creating a task note
 

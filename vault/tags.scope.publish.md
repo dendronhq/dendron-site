@@ -6,6 +6,7 @@ desc: >-
   your notes.
 updated: 1638340383656
 created: 1631512882518
+airtableId: recjakOtXmNySHA3L
 ---
 
 Static site generation, sending note links and anything to do with publishing your notes.
