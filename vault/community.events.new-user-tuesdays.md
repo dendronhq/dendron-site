@@ -2,8 +2,12 @@
 id: JkX8ODMH9oO45LGicNRIy
 title: New User Tuesdays
 desc: ''
-updated: 1640816933227
+updated: 1641253128637
 created: 1640808498736
+skipLevels: 2
+has_collection: true
+sort_by: date
+sort_order: reverse
 ---
 
 ## Summary
