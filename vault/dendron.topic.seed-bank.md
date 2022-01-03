@@ -2,7 +2,7 @@
 id: 6ff8cbb6-e4b8-449b-a967-277b76e4ecef
 title: Seed Bank
 desc: ''
-updated: 1624296683433
+updated: 1641168003165
 created: 1607621369889
 ---
 
@@ -24,17 +24,10 @@ You can see all currently available seeds [here](https://github.com/dendronhq/de
 
 ## CLI
 
-### add
-![[dendron://dendron.docs/rfc.14-seed-bank.methods#add,1:#*]]
-
-### info
-![[dendron://dendron.docs/rfc.14-seed-bank.methods#info,1:#*]]
-
-### init
-![[dendron://dendron.docs/rfc.14-seed-bank.methods#init,1:#publish]]
-
-### remove
-![[dendron://dendron.docs/rfc.14-seed-bank.methods#remove,1:#*]]
+- [add](https://docs.dendron.so/notes/945a1bf2-2d6c-4792-87d0-bf87b7f94182/#add)
+- [info](https://docs.dendron.so/notes/945a1bf2-2d6c-4792-87d0-bf87b7f94182/#info)
+- [init](https://docs.dendron.so/notes/945a1bf2-2d6c-4792-87d0-bf87b7f94182/#init)
+- [remove](https://docs.dendron.so/notes/945a1bf2-2d6c-4792-87d0-bf87b7f94182/#remove)
 
 ## Requesting new Seeds
 
@@ -45,4 +38,4 @@ created the [Seed Request Template](https://github.com/dendronhq/dendron/issues/
 - [[Work In Progress 🚧|dendron._ref.status#work-in-progress-]]
 
 ## Lookup
-- [[RFC|rfc.14-seed-bank]]
+- [RFC 14 - Seed Bank](https://docs.dendron.so/notes/4039fc46-06b2-4f83-b817-fc490bafbcb3/)

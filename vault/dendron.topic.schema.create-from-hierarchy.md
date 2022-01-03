@@ -2,7 +2,7 @@
 id: gHERCRoEXzASfXorBgZN0
 title: Create Schema From Note Hierarchy
 desc: ''
-updated: 1636463417133
+updated: 1641167798236
 created: 1636386619301
 ---
 
@@ -87,4 +87,4 @@ You can edit this schema to your liking. For example, you can add a [[template|d
 
 If you want to remake the schema for this hierarchy, delete the schema file and start from step 1. 
 ## Related
-* [[rfc.35-easier-schemas]]
+* [RFC 35 - Easier Schemas](https://docs.dendron.so/notes/xSSUw9GWcnsF35y597Vof/)
