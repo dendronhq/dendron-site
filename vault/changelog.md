@@ -2,7 +2,7 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1641319682018
+updated: 1641322194494
 created: 1601508213606
 nav_order: 2
 ---
@@ -17,7 +17,7 @@ Dendron previously published backlinks and child links as header/anchor sections
 
 - deprecate(publishing): 11ty publishing will be removed with the next release, and is no longer maintained. This does not affect you if you use the current Next.js publishing
   - If you wish to continue using 11ty, you will need to lock `@dendronhq/dendron-cli@0.76`
-- deprecate(unsorted): Dendron Doctor will no longer include `oldNoteRefToNew`, which was used in the past to convert between `((ref: foo))` to `![[foo]]`
+- deprecate(refactor): Dendron Doctor will no longer include `oldNoteRefToNew`, which was used in the past to convert between `((ref: foo))` to `![[foo]]`
 
 ### Enhancements
 - enhance(schema): support date variable substitution for templates ([[docs|dendron://dendron.dendron-site/dendron.topic.templates#template-variables]]) (#1971) @tuling
