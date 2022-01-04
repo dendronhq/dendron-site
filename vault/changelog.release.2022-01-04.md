@@ -2,18 +2,18 @@
 id: MQpi87qLnzKK5iK3FlxUp
 title: 0.76
 desc: ''
-updated: 1641321822620
+updated: 1641321878137
 created: 1641314638791
 ---
 
 Dendron 0.76 has sprouted  🌱
 
-Do you find yourself updating date values in the content of your inserted templates? That can now be inserted automatically with [[template variables|dendron.topic.templates#template-variables]]:
+Do you find yourself updating date values in the content of your inserted templates? That can now be inserted automatically with [[template variables|dendron://dendron.dendron-site/dendron.topic.templates#template-variables]]:
 
 - Example: `Today is {{ CURRENT_YEAR }}.{{ CURRENT_MONTH }}.{{ CURRENT_DAY }}`
 - Template output: `Today is 2022.01.04`
 
-Speaking of templates: we've added a new tutorial on [[Making Your First Schema|dendron.topic.schema.tutorial.first-schema]]. This week there will be a blog post version of the tutorial for sharing with the broader community. Take a look!
+Speaking of templates: we've added a new tutorial on [[Making Your First Schema|dendron://dendron.dendron-site/dendron.topic.schema.tutorial.first-schema]]. This week there will be a blog post version of the tutorial for sharing with the broader community. Take a look!
 
 Another major quality of life improvement we're launching today is the ability to preview regular markdown using the `Dendron: Show Preview` command. Now you can use the same Dendron preview on all your markdown files, even if they're not inside a Dendron workspace!
 
