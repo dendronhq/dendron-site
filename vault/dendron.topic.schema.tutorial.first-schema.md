@@ -4,7 +4,7 @@ title: Making Your First Schema
 desc: >-
   Learn to harness the powers of schema and automatically insert templates into
   new notes
-updated: 1641255942825
+updated: 1641256374720
 created: 1640784965050
 ---
 
@@ -20,7 +20,7 @@ You may find yourself wanting to use templates in your notes, especially when fi
 
 ## Steps
 
-### Create the 5MJ template
+### Create 5MJ template
 
 - Open [[lookup|dendron://dendron.dendron-site/dendron.topic.lookup]] (`Ctrl+L` / `Cmd+L`)
 - Type `templates.daily-5mj` in the text prompt and hit enter to create the template
@@ -75,14 +75,12 @@ I could have made today better by
 
 You now have a new template with the 5MJ outline.
 
-### Create the 5MJ Schema
+### Create 5MJ schema
 
-> Keep in mind: templates can be used with or without schemas automatically applying them. Run [[Insert Note|dendron.ref.commands#insert-note]] to insert a template into the currently opened note.
+> Templates can be used with or without schemas. Run [[Insert Note|dendron.ref.commands#insert-note]] to insert a template into the currently opened note.
 
 - Open [[schema lookup|dendron://dendron.dendron-site/dendron.topic.lookup.schemas]] (`Ctrl+Shift+L` / `Cmd+Shift+L`)
-- Type `5mj` in the text prompt and hit enter to create the schema
-
-This creates `5mj.schema.yml`, which should have default content looking like the following:
+- Type `5mj` in the text prompt and hit enter to create the schema, which should look like the following:
 
 ```yml
 version: 1
@@ -95,9 +93,11 @@ schemas:
 
 ```
 
-### Update the 5MJ Schema
+### Update 5MJ schema contents
 
-We are going to use [[Inline Schema|dendron://dendron.dendron-site/dendron.topic.schema#inline-schema-anatomy]]. Replace the content of `5mj.schema.yml` with the following:
+We are going to use [[Inline Schema|dendron://dendron.dendron-site/dendron.topic.schema#inline-schema-anatomy]], which is a simpler form of schema taking less configuration lines while using indentation for visual understanding.
+
+Replace the content of `5mj.schema.yml` with the following:
 
 ```yml
 version: 1
@@ -138,7 +138,7 @@ The `pattern` attribute is using a globbing to match with the daily journal stru
 
 This means all new daily journal items will be within the pattern ranges.
 
-### Create a 5MJ Daily Journal
+### Create a 5MJ daily journal
 
 Creating a daily journal entry should result in the `templates.daily-5mj` template automatically inserted.
 
@@ -148,7 +148,7 @@ You should see a new daily journal note with the 5MJ template inserted.
 
 ## Congratulations!
 
-### Key Takeaways
+### Key takeaways
 
 After doing this, you've now:
 
@@ -156,6 +156,6 @@ After doing this, you've now:
 - Created a 5MJ schema
 - Created your first daily journal with the 5MJ template applied via schema
 
-### Next Steps
+### Next steps
 
-
+#todo
