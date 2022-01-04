@@ -2,17 +2,18 @@
 id: c5e5adde-5459-409b-b34d-a0d75cbb1052
 title: Schemas
 desc: ''
-updated: 1635916714034
+updated: 1641257671875
 created: 1595952505039
 stub: false
 ---
 
 ## Summary
-As you end up creating more notes, it can be hard to keep track of them all. This is why Dendron has **schemas** to help you manage your notes at scale. Think of schemas as an **optional type system** for your notes. They describe the hierarchy of your data and are themselves, represented as a hierarchy.
 
-Schemas show up as icons next to lookup results.
+**Schema** help you apply consistent structure to all your notes.
 
-![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/schema.intro.gif)
+As you end up creating more notes, it can be hard to manage them at scale. Think of schemas as an **optional type system** for your notes that describe the hierarchy of your data and are represented as a hierarchy, themselves.
+
+One of the primary capabilities for schema is to automatically insert [[templates|dendron://dendron.dendron-site/dendron.topic.templates]] into new notes.
 
 <!-- ## Why Use Schemas
 
@@ -25,6 +26,12 @@ Schemas help you categorize your notes by making sure your hierarchies are consi
 Schemas will autosuggest valid children when you create a new project.
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/schema.suggest.gif)
+
+### Schema Hints
+
+Schemas show up as icons next to lookup results.
+
+![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/schema.intro.gif)
 
 ### Find Non-Compliant Hierarchies
 

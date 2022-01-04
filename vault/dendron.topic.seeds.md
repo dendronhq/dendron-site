@@ -1,8 +1,8 @@
 ---
 id: 4fdf54ac-599e-42e7-90a5-38964913a9a7
-title: "Seeds \U0001F6A7"
+title: "Seeds"
 desc: ''
-updated: 1628215369814
+updated: 1640789890840
 created: 1600219243498
 published: false
 ---
@@ -22,9 +22,9 @@ You can see an example of a published seeded vault [here](https://aws.dendron.so
 
 ## Browsing the Seed Registry
 
-You can browse the seeds in the registry by running the `Seed Browse` command:
+You can browse the seeds in the registry by running the `Browse the Seed Registry` command:
 
-![[dendron://dendron.dendron-site/dendron.ref.commands#seed-browse:#seed-add]]
+![[dendron://dendron.dendron-site/dendron.ref.commands#browse-the-seed-registry,1:#*]]
 
 ## Adding Seeds to your Workspace
 
@@ -32,9 +32,9 @@ You can add a seed to your workspace from either within the extension or with th
 
 ### Adding through the VS Code Extension
 
-You can add seeds within the UI of the `Seed Browse` command but also directly by running the commands below.
+You can add seeds within the UI of the `Add Seed to Workspace` command but also directly by running the commands below.
 
-![[dendron://dendron.dendron-site/dendron.ref.commands#seed-add:#Misc]]
+![[dendron://dendron.dendron-site/dendron.ref.commands#add-seed-to-workspace,1:#*]]
 
 ### Adding through the CLI
 
@@ -52,7 +52,7 @@ Make sure you have the Dendron CLI installed.
    yarn init
    ```
 2. Install seeds that you want to plant
-   - currently, the only available seed is @dendronhq/og-aws-seed
+   - currently, the only available seed is `@dendronhq/og-aws-seed`
      - this seed gets data from [og-aws guide](https://github.com/open-guides/og-aws)
    ```bash
    yarn add @dendronhq/og-aws-seed

@@ -2,7 +2,7 @@
 id: c6fd6bc4-7f75-4cbb-8f34-f7b99bfe2d50
 title: Concepts
 desc: ''
-updated: 1639680214244
+updated: 1640804575093
 created: 1595169512265
 nav_order: 5.01
 ---
@@ -49,6 +49,10 @@ A domain is the root of a hierarchy. In the example below, `project1` would be t
 ├── project1.tasks.task1.md
 └── project1.tasks.task2.md
 ```
+
+### Templates
+
+![[dendron.topic.templates#summary,1:#*]]
 
 ### Schema
 

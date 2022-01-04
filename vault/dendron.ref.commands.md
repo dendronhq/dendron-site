@@ -578,15 +578,15 @@ The url is taken from the [[siteUrl|dendron.topic.publish-legacy.configuration#s
 
 ## Seeds
 
-### Seed Browse
+### Browse the Seed Registry
 
 Browse the Seeds available in the Seed Registry and view detailed information about each one. You can also add seeds to your workspace through the UI.
 
-### Seed Add
+### Add Seed to Workspace
 
 Add a [[seed|dendron.topic.seeds]] to your current workspace.
 
-### Seed Remove
+### Remove Seed from Workspace
 
 Remove a [[seed|dendron.topic.seeds]] from your current workspace.
 
