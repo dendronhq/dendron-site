@@ -2,7 +2,7 @@
 id: MQpi87qLnzKK5iK3FlxUp
 title: 0.76
 desc: ''
-updated: 1641321878137
+updated: 1641325667153
 created: 1641314638791
 ---
 
@@ -13,7 +13,7 @@ Do you find yourself updating date values in the content of your inserted templa
 - Example: `Today is {{ CURRENT_YEAR }}.{{ CURRENT_MONTH }}.{{ CURRENT_DAY }}`
 - Template output: `Today is 2022.01.04`
 
-Speaking of templates: we've added a new tutorial on [[Making Your First Schema|dendron://dendron.dendron-site/dendron.topic.schema.tutorial.first-schema]]. This week there will be a blog post version of the tutorial for sharing with the broader community. Take a look!
+We've also added a new tutorial on [[Making Your First Schema|dendron://dendron.dendron-site/dendron.topic.schema.tutorial.first-schema]]. This walks you through creating a schema for your daily journal and automatically applying a template to it.
 
 Another major quality of life improvement we're launching today is the ability to preview regular markdown using the `Dendron: Show Preview` command. Now you can use the same Dendron preview on all your markdown files, even if they're not inside a Dendron workspace!
 
@@ -47,10 +47,7 @@ Dendron previously published backlinks and child links as header/anchor sections
 
 ## Community
 
-### General Updates
-<!-- TODO: update the link. Office hours are bi-weekly, delete this section if not appliacble -->
-
-## Documentation Update
+### Documentation Update
 
 - Site reorg progress: The [[Community|dendron://dendron.dendron-site/community]] hierarchy has been updated. Visit [the PR for more details](https://github.com/dendronhq/dendron-site/pull/342).
 
