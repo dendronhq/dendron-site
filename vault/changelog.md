@@ -2,15 +2,44 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1640971038104
+updated: 1641322194494
 created: 1601508213606
 nav_order: 2
 ---
 
+## 0.76.0
+
+### Breaking Changes
+
+Dendron previously published backlinks and child links as header/anchor sections at the end of each note. They are now changing from `<h2>` to `<strong>`. Backlinks and child links won't appear as header sections in the local TOC for a page, and will no longer have anchors to link to (ex. `#backlinks`).
+
+### Deprecation Notices
+
+- deprecate(publishing): 11ty publishing will be removed with the next release, and is no longer maintained. This does not affect you if you use the current Next.js publishing
+  - If you wish to continue using 11ty, you will need to lock `@dendronhq/dendron-cli@0.76`
+- deprecate(refactor): Dendron Doctor will no longer include `oldNoteRefToNew`, which was used in the past to convert between `((ref: foo))` to `![[foo]]`
+
+### Enhancements
+- enhance(schema): support date variable substitution for templates ([[docs|dendron://dendron.dendron-site/dendron.topic.templates#template-variables]]) (#1971) @tuling
+- enhance(lookup): add auto completion to `Go Down` command ([[docs|dendron.topic.navigation#go-down]]) and `Create Task Note` command ([[docs|dendron://dendron.dendron-site/dendron.ref.commands#create-task-note]]) (#1987) @nickolay
+- enhance(views): `Dendron: Show Preview` works for regular markdown files ([[docs|dendron://dendron.dendron-site/dendron.ref.commands#show-preview]]) (#1906) @kaan
+- enhance(views): adds a `Dendron: Show Preview` button in the context menu when right-clicking a markdown file in the file explorer, as well as when right-clicking a tab in the editor (#1906) @kaan
+- enhance(workspace): improve note highlighting and autocomplete performance (#1942) @kaan
+
+### Fix
+- fix(workspace): typo in convert vault command (#1999) [Ryan Hill](https://github.com/rlh1994) `@rlh1994#9754`
+- fix(workspace): frontmatter tags are not highlighted (#2001) @kaan
+- fix(publish): compiler issue with nextjs @kevin
+- fix(lookup): full length word matches should be case insensitive (#1990) @nickolay
+- fix(views): update tree order when a note changes order (#2014)
+- fix(workspace): don't show calendar view unless dendron tree view is active (#2017) @kevin
+- fix(workspace): rename operations modify unnecessary files @hikchoi
+- fix(lookup): regression on `onTriggerButton` not scoping properly (#2037) @hikchoi
+
 ## 0.75.1
 
 ### Fix
--  fix(server): speciy localhost when starting server (#2019 ) @kevin
+- fix(server): specify `localhost` when starting server (#2019) @kevin
 
 ## 0.75.0
 

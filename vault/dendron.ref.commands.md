@@ -2,7 +2,7 @@
 id: eea2b078-1acc-4071-a14e-18299fc28f47
 title: Commands
 desc: ''
-updated: 1640795851532
+updated: 1641314240103
 created: 1595261816971
 nav_order: 3.1
 ---
@@ -296,8 +296,7 @@ This pattern would specify a set including all notes under `alpha` _except_ for 
   - windows: `windows+ctrl+p`
   - mac: `cmd+ctrl+p`
 
-Shows Markdown Preview.
-See [[Preview V2|dendron.topic.preview-v2]] for more details.
+Shows a Markdown preview view. This preview supports rendering Dendron features, such as note refs, wikilinks, custom image properties, and more. `Show Preview` supports previewing Dendron notes and regular Markdown files such as a project `README.md`.
 
 ### Show Preview (legacy)
 > ⚠️ This is a deprecated command. Please consider using [[Show Preview|dendron.ref.commands#show-preview]] instead.
@@ -346,11 +345,13 @@ Initiate note lookup with scratch note pre-selected
 
 Initiate a note lookup. This is the successor to the [[Lookup|dendron.ref.commands#lookup]] command, limited to just notes. It is significantly faster on large workspaces when compared to its predecessor and also comes with addiitional [[modifiers|dendron.topic.lookup.modifiers]]. 
 
-### Task Create
+### Create Task Note
 - shortcuts: none
 
 Creates a [[task note|dendron.topic.tasks#task-notes]], which comes with some
 extra features to keep track of work items.
+
+The `Create Task Note` lookup supports tabbing for autocompletion.
 
 ### Lookup Schema
 
