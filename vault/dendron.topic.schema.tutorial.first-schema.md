@@ -4,25 +4,23 @@ title: Making Your First Schema
 desc: >-
   Learn to harness the powers of schema and automatically insert templates into
   new notes
-updated: 1641255236259
+updated: 1641255942825
 created: 1640784965050
 ---
 
 ## Summary
 
-[[Schemas|dendron://dendron.dendron-site/dendron.topic.schema]] help you apply consistent structure to all your notes. One of its primary capabilities is to automatically insert [[templates|dendron://dendron.dendron-site/dendron.topic.templates]] into new notes. This guide will walkthrough making a template for daily journaling, using [The Five Minute Journal](https://www.intelligentchange.com/products/the-five-minute-journal) (5MJ) method, and automatically applying that template whenever you create a new journal.
-
-## Examples
-
-- [5MJ Template](https://github.com/dendronhq/templates/tree/main/templates/templates.journal.5mj.md)
+You may find yourself wanting to use templates in your notes, especially when finding yourself using the same outline and headers over time. This tutorial will walkthrough making a template for daily journaling, using [The Five Minute Journal](https://www.intelligentchange.com/products/the-five-minute-journal) (5MJ) method, as an example, and automatically applying that template whenever you create a new journal.
 
 ## Concepts
 
 - **[[Daily Journal|dendron.topic.special-notes#daily-journal]]**: Special notes meant to be easily made with the `Create Daily Journal Note` (`Ctrl+Shift+I` / `Cmd+Shift+I`) command. These are also what appear in the [[Calendar View|dendron._ref.web-ui#calendar-view]].
 - **[[Templates|dendron.topic.templates]]**: Notes containing content meant to reuse in new notes, such as outlines meant to guide you throught specific note types or journal entries.
-- **Schemas**:
+- **[[Schemas|dendron://dendron.dendron-site/dendron.topic.schema]]**: These help you apply consistent structure to all your notes. One of its primary capabilities is to automatically insert [[templates|dendron://dendron.dendron-site/dendron.topic.templates]] into new notes. 
 
-## Creating the 5MJ template
+## Steps
+
+### Create the 5MJ template
 
 - Open [[lookup|dendron://dendron.dendron-site/dendron.topic.lookup]] (`Ctrl+L` / `Cmd+L`)
 - Type `templates.daily-5mj` in the text prompt and hit enter to create the template
@@ -73,13 +71,13 @@ I am...
 I could have made today better by
 ```
 
-- Save the file. You now have a new template with the 5MJ outline.
+- Save the file.
 
-## 5MJ Schema
+You now have a new template with the 5MJ outline.
+
+### Create the 5MJ Schema
 
 > Keep in mind: templates can be used with or without schemas automatically applying them. Run [[Insert Note|dendron.ref.commands#insert-note]] to insert a template into the currently opened note.
-
-### Creating the 5MJ Schema
 
 - Open [[schema lookup|dendron://dendron.dendron-site/dendron.topic.lookup.schemas]] (`Ctrl+Shift+L` / `Cmd+Shift+L`)
 - Type `5mj` in the text prompt and hit enter to create the schema
@@ -97,7 +95,7 @@ schemas:
 
 ```
 
-#### 5MJ Schema Contents
+### Update the 5MJ Schema
 
 We are going to use [[Inline Schema|dendron://dendron.dendron-site/dendron.topic.schema#inline-schema-anatomy]]. Replace the content of `5mj.schema.yml` with the following:
 
@@ -115,10 +113,13 @@ schemas:
   children:
     - pattern: journal
       children:
+          # This pattern matches the YYYY (year) child hierarchy
         - pattern: "[0-2][0-9][0-9][0-9]"
           children:
+              # This pattern matches the MM (month) child hierarchy
             - pattern: "[0-1][0-9]"
               children:
+                  # This pattern matches the DD (day) child hierarchy
                 - pattern: "[0-3][0-9]"
                   # As with regular schema we can set the template to be used with
                   # the match of our notes. Below is an example usage of shorthand template
@@ -126,8 +127,6 @@ schemas:
                   desc: Five Minute Journal
                   template: templates.daily-5mj
 ```
-
-### Explanation of Schema Logic
 
 The `pattern` attribute is using a globbing to match with the daily journal structure:
 
@@ -139,7 +138,7 @@ The `pattern` attribute is using a globbing to match with the daily journal stru
 
 This means all new daily journal items will be within the pattern ranges.
 
-## 5MJ Daily Journal
+### Create a 5MJ Daily Journal
 
 Creating a daily journal entry should result in the `templates.daily-5mj` template automatically inserted.
 
