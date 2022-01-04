@@ -2,7 +2,7 @@
 id: 861cbdf8-102e-4633-9933-1f3d74df53d2
 title: Templates
 desc: ""
-updated: 1641263451066
+updated: 1641318448778
 created: 1602033087611
 stub: false
 ---
@@ -28,3 +28,26 @@ You can also pick from a set of built-in templates that contain a set of commonl
 ![[dendron://dendron.dendron-site/dendron.topic.seed-bank.quickstart#adding-a-seed-to-an-existing-workspace]]
 
 We are continually working to expand the types of templates available in the `dendron.template` seed.
+
+## Template Variables
+
+Dendron supports various template variables.
+
+- For inserting the current date and time:
+    * CURRENT_YEAR: The current year
+    * CURRENT_MONTH: The month as two digits (example '02')
+    * CURRENT_DAY: The day of the month as two digits (example '08')
+    * CURRENT_HOUR: The current hour in 24-hour clock format
+    * CURRENT_MINUTE: The current minute as two digits
+    * CURRENT_SECOND: The current second as two digits
+
+Example:
+
+- template
+    ```
+    Today is {{ CURRENT_YEAR }}.{{ CURRENT_MONTH }}.{{ CURRENT_DAY }},
+    ```
+- output
+    ```
+    Today is 2022.01.04
+    ```
