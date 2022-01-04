@@ -2,7 +2,7 @@
 id: MQpi87qLnzKK5iK3FlxUp
 title: 0.76
 desc: ''
-updated: 1641320737273
+updated: 1641321329159
 created: 1641314638791
 ---
 
@@ -74,6 +74,9 @@ To see what _Office Hours_, _New User Tuesdays_, and other events are coming up,
 A big **thanks** to the following gardeners that brought up issues, contributions, and fixes to this release :man_farmer: :woman_farmer: 
 You can see an overview of all roles [[here|dendron://dendron.dendron-site/community.discord.roles]]
 
+- [emmjayvee](https://github.com/emmjayvee)
+    - #dendron.taxonomist
+    - [Update dendron.faq.md: Typo and re-wording](https://github.com/dendronhq/dendron-site/pull/343)
 - [Claus Conrad](https://github.com/cconrad) `@cconrad#0514`
     - [docs: Fix inconsistent capitalization](https://github.com/dendronhq/dendron-site/pull/334)
     - ["Select Vault" shows duplicate vaults, if no note is active](https://github.com/dendronhq/dendron/issues/2016)
@@ -83,7 +86,7 @@ You can see an overview of all roles [[here|dendron://dendron.dendron-site/commu
     - [Issue with moving non-leaf notes between vaults; broken links, stub flags in non-stubs](https://github.com/dendronhq/dendron/issues/2003)
 - [redsolver](https://github.com/redsolver) `@redsolver#0372`
     - #dendron.bugcatcher
-    - Dendron server should restrict connections to localhost
+    - [Dendron server should restrict connections to localhost](https://discord.com/channels/717965437182410783/735365126227493004/926507322895925299)
 - [jquesada2016](https://github.com/jquesada2016)
     - [Improve accessibility in Preview Pane](https://github.com/dendronhq/dendron/issues/2012)
 - [Bryan Jenks](https://github.com/tallguyjenks) `@tallguyjenks#3567` 
