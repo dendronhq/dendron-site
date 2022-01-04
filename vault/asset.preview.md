@@ -92,6 +92,10 @@ created: 1639113925844
 
 ![Create Daily Journal from Calendar](https://org-dendron-public-assets.s3.amazonaws.com/images/create-daily-journal-calendar.gif)
 
+### Create 5MJ Daily Journal from Schema and Template
+
+![Create 5MJ Daily Journal from Schema and Template](https://org-dendron-public-assets.s3.amazonaws.com/images/5mj-new-daily-journal.gif)
+
 ## Lookup
 
 ![Using Lookup to Navigate the Tutorial](https://org-dendron-public-assets.s3.amazonaws.com/images/tutorial-lookup.gif)
