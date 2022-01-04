@@ -2,7 +2,7 @@
 id: MQpi87qLnzKK5iK3FlxUp
 title: 0.76
 desc: ''
-updated: 1641320560355
+updated: 1641320737273
 created: 1641314638791
 ---
 
@@ -15,12 +15,22 @@ We're adding some super powers to your templates with [[template variables|dendr
 
 Have you found yourself switching between the `Dendron: Show Preview` and `Markdown: Open Preview` commands, in order to view Markdown files that aren't Dendron notes? Say no more: now `Dendron: Show Preview` can show you what your project `README.md` and other files look like, too.
 
-### Highlights
+## Breaking Changes
+
+Dendron previously published backlinks and child links as header/anchor sections at the end of each note. They are now changing from `<h2>` to `<strong>`. Backlinks and child links won't appear as header sections in the local TOC for a page, and will no longer have anchors to link to (ex. `#backlinks`).
+
+## Deprecation Notices
+
+- deprecate(publishing): 11ty publishing will be removed with the next release, and is no longer maintained. This does not affect you if you use the current Next.js publishing
+  - If you wish to continue using 11ty, you will need to lock `@dendronhq/dendron-cli@0.76`
+- deprecate(unsorted): Dendron Doctor will no longer include `oldNoteRefToNew`, which was used in the past to convert between `((ref: foo))` to `![[foo]]`
+
+## Highlights
 - enhance(schema): support date variable substitution for templates ([[docs|dendron://dendron.dendron-site/dendron.topic.templates#template-variables]])
 - enhance(views): `Dendron: Show Preview` works for regular markdown files ([[docs|dendron://dendron.dendron-site/dendron.ref.commands#show-preview]])
 - enhance(views): adds a `Dendron: Show Preview` button in the context menu when right-clicking a markdown file in the file explorer, as well as when right-clicking a tab in the editor
 
-### Everything Else
+## Everything Else
 - enhance(lookup): add auto completion to `Go Down` command ([[docs|dendron.topic.navigation#go-down]]) and `Create Task Note` command ([[docs|dendron://dendron.dendron-site/dendron.ref.commands#create-task-note]])
 - enhance(workspace): improve note highlighting and autocomplete performance
 - fix(workspace): typo in convert vault command
@@ -33,12 +43,12 @@ Have you found yourself switching between the `Dendron: Show Preview` and `Markd
 - fix(lookup): regression on `onTriggerButton` not scoping properly
 - fix(server): specify `localhost` when starting server
 
-### Community
+## Community
 
-#### General Updates
+### General Updates
 <!-- TODO: update the link. Office hours are bi-weekly, delete this section if not appliacble -->
 
-#### Starboard and TIL Highlights
+### Starboard and TIL Highlights
 
 > These are highlights from the [[Dendron Discord|dendron://dendron.dendron-site/community.discord.channels]] `#starboard` and `#today-i-learned` channels.
 
@@ -47,19 +57,19 @@ Have you found yourself switching between the `Dendron: Show Preview` and `Markd
 - :star: `@kevins8#0590` shared a link to [Getting a Computer Science PhD in the USA](https://parentheticallyspeaking.org/articles/us-cs-phd-faq/): _"Since we have a bunch of phds and folks considering it, this provides a good lens into current phd landscape for computer science."_
 - :bulb: `@kevins8#0590` shared a link to [Semantics and the Web: An Awkward History](https://news.ycombinator.com/item?id=29232814): _"A history of markup on the web as told through a lego playmation talk. See some parallels between web browsers back in the day and note taking tools today in terms of interoperability. Hopefully we'll avoid the xhtml phase..."_
 
-#### Dendron Reading Series
+### Dendron Reading Series
 
 This week's entry in the [[Dendron Reading Series|dendron://dendron.dendron-site/community.events.reading-series]]. 
 
 ![[dendron://dendron.dendron-site/community.events.reading-series.2022.01.04]]
 
-#### Office Hours
+### Office Hours
 
 You can find notes from our latest office hours [[here|dendron://dendron.dendron-site/community.events.office-hours.2021.12.22]].
 
 To see what _Office Hours_, _New User Tuesdays_, and other events are coming up, take a look at the [Dendron Event Calendar](https://link.dendron.so/luma). The next Office Hours is on **January 5th, 2022 at 9AM PST.**
 
-#### Thank You's
+### Thank You's
 
 A big **thanks** to the following gardeners that brought up issues, contributions, and fixes to this release :man_farmer: :woman_farmer: 
 You can see an overview of all roles [[here|dendron://dendron.dendron-site/community.discord.roles]]
@@ -92,5 +102,5 @@ You can see an overview of all roles [[here|dendron://dendron.dendron-site/commu
     - #dendron.bugcatcher
     - [`\begin` elements not working](https://github.com/dendronhq/dendron/issues/2021)
 
-### Changelog
+## Changelog
 ![[dendron://dendron.dendron-site/changelog#0760,1:#0750]]
