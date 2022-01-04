@@ -2,7 +2,7 @@
 id: gHdxXlNMr1w4xqee0n-Mb
 title: User Interface
 desc: 1. User Interface
-updated: 1640153049560
+updated: 1641314308662
 created: 1625563862198
 nav_order: 0
 ---
@@ -13,7 +13,7 @@ Let's do a brief overview on how to navigate the Dendron User Interace (UI), whi
 
 ![[dendron://dendron.dendron-site/asset.preview#tutorial-dendron-layout-dark,1:#*]]
 
-> 💡 TIP: VS Code lets you re-position any of these windows, so feel free to rearrange the windows to work best for you! Refer to [VS Code documentation for more information on the VS Code UI](https://code.visualstudio.com/docs/getstarted/userinterface).
+> 💡 **TIP:** VS Code lets you re-position any of these windows, so feel free to rearrange the windows to work best for you! Refer to [VS Code documentation for more information on the VS Code UI](https://code.visualstudio.com/docs/getstarted/userinterface).
 
 ## 1. Editor View
 
@@ -25,7 +25,7 @@ Shows the rendered Markdown of your currently opened note. If you close this pan
 
 You may see two additional sections at the bottom of the preview view, **Children** and **Backlinks**, which will be covered later in the tutorial.
 
->💡 TIP: The preview view is **read-only** and cannot be used to edit notes. All editing must be done in the editor view.
+>💡 **TIP:** The preview view is **read-only** and cannot be used to edit notes. All editing must be done in the editor view.
 
 ## 3. File Explorer Pane
 
