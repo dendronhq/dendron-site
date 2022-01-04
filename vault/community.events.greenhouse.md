@@ -2,8 +2,11 @@
 id: PqtlCsRPWBjKp3RR
 title: Greenhouse Talks
 desc: ''
-updated: 1627662015818
+updated: 1641261811040
 created: 1626809567579
+has_collection: true
+sort_by: date
+sort_order: reverse
 ---
 
 ## Summary
@@ -28,27 +31,8 @@ Before the talk, make sure that you have zoom installed and that you have given 
 
 ## Upcoming talk
 
-![[community.events.greenhouse.2021-07-30-cerebrarium-showcase]]
-
+TBA
 
 ## Past Talks
 
 An archive of all previous talks can be found on [YouTube](https://www.youtube.com/playlist?list=PLrXlRqY7c8J-lPtS82muQd4VD8pR7Vn4E).
-
-
-### A Day in Dendron
-![[community.events.greenhouse.2021-07-23-using-dendron-with-20k-notes]]
-
-### Data Races
-- date: 2021.06.29
-
-Kaan Genc, Dendron's summer intern, goes over the intricacies of data races, why they are bad, why they are so hard to debug and what you can do about them. 
-
-[Video](https://www.youtube.com/watch?v=iIuzWkSlZd8&list=PLrXlRqY7c8J-lPtS82muQd4VD8pR7Vn4E&index=3) 
-
-### Bluetooth for Beginners
-- date: 2021.07.01
-
-Kiran Pathakota, one of the first Dendrologist's, covers the basics of Bluetooth technology. 
-
-[Video](https://www.youtube.com/watch?v=gzJdYicUjUs&list=PLrXlRqY7c8J-lPtS82muQd4VD8pR7Vn4E&index=1)

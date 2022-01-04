@@ -2,8 +2,12 @@
 id: oPAmN7EszcykwLCByobb3
 title: Dendron Reading Series
 desc: ''
-updated: 1634067189013
+updated: 1641261442392
 created: 1634067161369
+skipLevels: 2
+has_collection: true
+sort_by: date
+sort_order: reverse
 ---
 
 ## Summary
