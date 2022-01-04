@@ -32,7 +32,7 @@ Our documentation changes a lot week by week. Below is a highlight of some updat
 
 #### Office Hours
 
-You can find notes from our latest office hours [[here|community.office-hours.2021.06.20]]
+You can find notes from our latest office hours [[here|community.events.office-hours.2021.06.20]]
 
 #### Thank You's
 
@@ -51,7 +51,7 @@ A big **thanks** to the following gardeners that brought up issues, contribution
   - Called out misaligned getting started instructions.
 
 
-You can see an overview of all roles [[here|community.roles]]
+You can see an overview of all roles [[here|community.discord.roles]]
 
 ### Changelog
 ![[changelog#047,1:#046]]

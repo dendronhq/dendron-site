@@ -51,12 +51,12 @@ Our documentation changes a lot week by week. Below is a highlight of some updat
 #### Office Hours
 
 <!-- TODO: update the link -->
-You can find notes from our latest office hours [[here|community.office-hours.2021.09.05]]
+You can find notes from our latest office hours [[here|community.events.office-hours.2021.09.05]]
 
 #### Thank You's
 
 A big **thanks** to the following gardeners that brought up issues, contributions, and fixes to this release :man_farmer: :woman_farmer: 
-You can see an overview of all roles [[here|community.roles]]
+You can see an overview of all roles [[here|community.discord.roles]]
 
 - [Britt](https://github.com/bs) @britt#3020
     - [Update dendron.topic.config.dendron.md by bs · Pull Request #184 · dendronhq/dendron-site](https://github.com/dendronhq/dendron-site/pull/184)

@@ -22,7 +22,7 @@ This week is a stability release. We've spent time fixing bugs and improving def
 ### Community
 
 A big **thanks** to the following gardeners that brought up issues, contributions, and fixes to this release :man_farmer: :woman_farmer: 
-You can see an overview of all roles [[here|community.roles]]
+You can see an overview of all roles [[here|community.discord.roles]]
 
 - [Mark H. Choi](https://github.com/hikchoi/cerebrarium) @hikchoi#8934 
     - [don't delete text when extracting fro non-vault file](https://github.com/dendronhq/dendron/pull/471)

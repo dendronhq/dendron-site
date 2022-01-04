@@ -58,18 +58,18 @@ Dendron will also be featured in the next VS Code livestream!
 
 #### Dendron Reading Series
 
-This week's entry in the [[Dendron Reading Series|community.reading-series]]. 
+This week's entry in the [[Dendron Reading Series|community.events.reading-series]]. 
 
-![[11 - Cal Newport's Study Hacks Blog: In Defense of Thinking|dendron://dendron.dendron-site/community.reading-series.journal.2021.12.14]]
+![[dendron://dendron.dendron-site/community.events.reading-series.2021.12.14]]
 
 #### Office Hours
 
 - We will be hosting Office Hours on **[Wed, Dec 22, 9:00 AM - 10:00 AM PST](https://link.dendron.so/6cqo)**
-- Notes, and the recording, of the previous Office Hours can be found [[here|dendron://dendron.dendron-site/community.office-hours.2021.12.08]]
+- Notes, and the recording, of the previous Office Hours can be found [[here|dendron://dendron.dendron-site/community.events.office-hours.2021.12.08]]
 
 #### Thank You's
 
-A big **thanks** to the following gardeners that brought up issues, contributions, and fixes to this release! You can see an overview of all roles [[here|dendron://dendron.dendron-site/community.roles]]
+A big **thanks** to the following gardeners that brought up issues, contributions, and fixes to this release! You can see an overview of all roles [[here|dendron://dendron.dendron-site/community.discord.roles]]
 
 - [Carlos Cámara](https://github.com/ccamara) `@ccamara#5131`
   - #dendron.taxonomist

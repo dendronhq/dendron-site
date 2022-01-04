@@ -47,20 +47,20 @@ By default, backlinks are listed in alphabetical order. Now you can choose to so
 
 #### Dendron Reading Series
 
-This week's entry in the [[Dendron Reading Series|dendron://dendron.dendron-site/community.reading-series]]. 
+This week's entry in the [[Dendron Reading Series|dendron://dendron.dendron-site/community.events.reading-series]]. 
 
-![[13 - Tsundoku: The Art of Buying Books and Never Reading Them|community.reading-series.journal.2021.12.28]]
+![[community.events.reading-series.2021.12.28]]
 
 #### Office Hours
 
-You can find notes from our latest office hours [[here|dendron://dendron.dendron-site/community.office-hours.2021.12.22]].
+You can find notes from our latest office hours [[here|dendron://dendron.dendron-site/community.events.office-hours.2021.12.22]].
 
 To see what _Office Hours_, _New User Tuesdays_, and other events are coming up, take a look at the [Dendron Event Calendar](https://link.dendron.so/luma). The next Office Hours is on **January 5th, 2022 at 9AM PST.**
 
 #### Thank You's
 
 A big **thanks** to the following gardeners that brought up issues, contributions, and fixes to this release :man_farmer: :woman_farmer: 
-You can see an overview of all roles [[here|dendron://dendron.dendron-site/community.roles]]
+You can see an overview of all roles [[here|dendron://dendron.dendron-site/community.discord.roles]]
 
 - [Jim Tittsler](https://github.com/jimt) `@jimt#5534`
     - #dendron.taxonomist

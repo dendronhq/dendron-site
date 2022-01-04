@@ -17,7 +17,7 @@ Dendron 0.32 has sprouted  🌱
 ### Community
 
 A big **thanks** to the following gardeners that brought up issues, contributions, and fixes to this release :man_farmer: :woman_farmer: 
-You can see an overview of all roles [[here|community.roles]]
+You can see an overview of all roles [[here|community.discord.roles]]
 
 - [Cameron Yick](https://github.com/hydrosquall) @cameron#9185 
   - [Paste link command](https://github.com/dendronhq/dendron/pull/512)

@@ -59,19 +59,19 @@ Full details can be found [[here|dendron://dendron.dendron-site/dendron.contribu
 
 #### Dendron Reading Series
 
-This week's entry in the [[Dendron Reading Series|community.reading-series]]. 
+This week's entry in the [[Dendron Reading Series|community.events.reading-series]]. 
 
-![[dendron://dendron.dendron-site/community.reading-series.journal.2021.12.21]]
+![[dendron://dendron.dendron-site/community.events.reading-series.2021.12.21]]
 
 #### Office Hours
 We will be hosting the last Office Hours of 2021 on **[Wed, Dec 22, 9:00 AM - 10:00 AM PST](https://link.dendron.so/6cqo)**
 
-Notes, and the recording, of the previous Office Hours can be found [[here|dendron://dendron.dendron-site/community.office-hours.2021.12.08]]
+Notes, and the recording, of the previous Office Hours can be found [[here|dendron://dendron.dendron-site/community.events.office-hours.2021.12.08]]
 
 #### Thank You's
 
 A big **thanks** to the following gardeners that brought up issues, contributions, and fixes to this release :man_farmer: :woman_farmer: 
-You can see an overview of all roles [[here|community.roles]]
+You can see an overview of all roles [[here|community.discord.roles]]
 
 - [icedwater](https://github.com/icedwater) `@icedwater#8514`
   - [feat: replaced instances of 'spwan' with 'spawn'](https://github.com/dendronhq/dendron/pull/1792)

@@ -1,6 +1,6 @@
 ---
 id: 44fd6c57-b7f4-47f5-a632-d352d4f4fa7b
-title: "0.20"
+title: '0.20'
 desc: ''
 updated: 1616950035971
 created: 1607890901199
@@ -25,7 +25,7 @@ Dendron 0.20 is here 🌱
 - new horticulturalist: @dolearning (Kevin)#3551, @ianjones#3696, @bublucious#1002 
 - new taxonomist: @dolearning (Kevin)#3551, @fudo#1010 
 
-You can find a description of all roles [[here|community.roles]]
+You can find a description of all roles [[here|community.discord.roles]]
 
 ### In the Works
 

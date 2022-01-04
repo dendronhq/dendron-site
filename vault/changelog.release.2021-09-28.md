@@ -62,12 +62,12 @@ We are officially launching `#teatime` for all Dendron contributors.
 
 #### Office Hours
 
-Office hours are now every other week. No regular office hours from this week but we had a speical session of getting started with [[Next.js Publishing|dendron://dendron.dendron-site/dendron.topic.publish]] which you can find [[here|dendron://dendron.dendron-site/community.office-hours.2021.09.24.nextjs-publishing]]
+Office hours are now every other week. No regular office hours from this week but we had a speical session of getting started with [[Next.js Publishing|dendron://dendron.dendron-site/dendron.topic.publish]] which you can find [[here|dendron://dendron.dendron-site/community.events.office-hours.2021.09.24]]
 
 #### Thank You's
 
 A big **thanks** to the following gardeners that brought up issues, contributions, and fixes to this release :man_farmer: :woman_farmer: 
-You can see an overview of all roles [[here|community.roles]]
+You can see an overview of all roles [[here|community.discord.roles]]
 
 - `@Jminding#0001`
     - #dendron.taxonomist
