@@ -2,19 +2,26 @@
 id: MQpi87qLnzKK5iK3FlxUp
 title: 0.76
 desc: ''
-updated: 1641319403783
+updated: 1641320560355
 created: 1641314638791
 ---
 
 Dendron 0.76 has sprouted  🌱
 
+We're adding some super powers to your templates with [[template variables|dendron.topic.templates#template-variables]], starting with dates. Do you find yourself updating date values in the content of your inserted templates? Now that can be taken care of automatically:
+
+- Example: `Today is {{ CURRENT_YEAR }}.{{ CURRENT_MONTH }}.{{ CURRENT_DAY }}`
+- Template output: `Today is 2022.01.04`
+
+Have you found yourself switching between the `Dendron: Show Preview` and `Markdown: Open Preview` commands, in order to view Markdown files that aren't Dendron notes? Say no more: now `Dendron: Show Preview` can show you what your project `README.md` and other files look like, too.
+
 ### Highlights
-- enhance(schema): support date variable substitution for templates
+- enhance(schema): support date variable substitution for templates ([[docs|dendron://dendron.dendron-site/dendron.topic.templates#template-variables]])
 - enhance(views): `Dendron: Show Preview` works for regular markdown files ([[docs|dendron://dendron.dendron-site/dendron.ref.commands#show-preview]])
 - enhance(views): adds a `Dendron: Show Preview` button in the context menu when right-clicking a markdown file in the file explorer, as well as when right-clicking a tab in the editor
 
 ### Everything Else
-- enhance(lookup): add auto completion to `Go Down` and `Create Task Note` commands ([[docs: Create Task Note|dendron://dendron.dendron-site/dendron.ref.commands#create-task-note]]) ([[docs: Go Down|dendron://dendron.dendron-site/dendron.topic.navigation#go-down]])
+- enhance(lookup): add auto completion to `Go Down` command ([[docs|dendron.topic.navigation#go-down]]) and `Create Task Note` command ([[docs|dendron://dendron.dendron-site/dendron.ref.commands#create-task-note]])
 - enhance(workspace): improve note highlighting and autocomplete performance
 - fix(workspace): typo in convert vault command
 - fix(workspace): frontmatter tags are not highlighted
@@ -35,10 +42,10 @@ Dendron 0.76 has sprouted  🌱
 
 > These are highlights from the [[Dendron Discord|dendron://dendron.dendron-site/community.discord.channels]] `#starboard` and `#today-i-learned` channels.
 
-- :star: `amar#9880` shared a write-up on [How to use a custom theme with Dendron](https://amar.io/memo/notes/lr2RxTLuy85mXFFN24lQ8/): _"Here's a write-up. Though I'm still in the process of figuring things out!"_
-- :star: `kzilla#8818` shared a [VS Code customization](https://gist.github.com/ScriptAutomate/2c7bd7ccf8987f40f4125d8272333d55): _"Simple VS Code customization (in `settings.json`) to change heading colors and section folding shading. Makes reading markdown heck of a lot easier."_
-- :star: `kevins8#0590` shared a link to [Getting a Computer Science PhD in the USA](https://parentheticallyspeaking.org/articles/us-cs-phd-faq/): _"Since we have a bunch of phds and folks considering it, this provides a good lens into current phd landscape for computer science."_
-- :bulb: `kevins8#0590` shared a link to [Semantics and the Web: An Awkward History](https://news.ycombinator.com/item?id=29232814): _"A history of markup on the web as told through a lego playmation talk. See some parallels between web browsers back in the day and note taking tools today in terms of interoperability. Hopefully we'll avoid the xhtml phase..."_
+- :star: `@amar#9880` shared a write-up on [How to use a custom theme with Dendron](https://amar.io/memo/notes/lr2RxTLuy85mXFFN24lQ8/): _"Here's a write-up. Though I'm still in the process of figuring things out!"_
+- :star: `@kzilla#8818` shared a [VS Code customization](https://gist.github.com/ScriptAutomate/2c7bd7ccf8987f40f4125d8272333d55): _"Simple VS Code customization (in `settings.json`) to change heading colors and section folding shading. Makes reading markdown heck of a lot easier."_
+- :star: `@kevins8#0590` shared a link to [Getting a Computer Science PhD in the USA](https://parentheticallyspeaking.org/articles/us-cs-phd-faq/): _"Since we have a bunch of phds and folks considering it, this provides a good lens into current phd landscape for computer science."_
+- :bulb: `@kevins8#0590` shared a link to [Semantics and the Web: An Awkward History](https://news.ycombinator.com/item?id=29232814): _"A history of markup on the web as told through a lego playmation talk. See some parallels between web browsers back in the day and note taking tools today in terms of interoperability. Hopefully we'll avoid the xhtml phase..."_
 
 #### Dendron Reading Series
 
@@ -57,7 +64,33 @@ To see what _Office Hours_, _New User Tuesdays_, and other events are coming up,
 A big **thanks** to the following gardeners that brought up issues, contributions, and fixes to this release :man_farmer: :woman_farmer: 
 You can see an overview of all roles [[here|dendron://dendron.dendron-site/community.discord.roles]]
 
-
+- [Claus Conrad](https://github.com/cconrad) `@cconrad#0514`
+    - [docs: Fix inconsistent capitalization](https://github.com/dendronhq/dendron-site/pull/334)
+    - ["Select Vault" shows duplicate vaults, if no note is active](https://github.com/dendronhq/dendron/issues/2016)
+- [Ryan Hill](https://github.com/rlh1994) `@rlh1994#9754`
+    - #dendron.horticulturalist
+    - [fix(workspace): convertVault Typo](https://github.com/dendronhq/dendron/pull/1999)
+    - [Issue with moving non-leaf notes between vaults; broken links, stub flags in non-stubs](https://github.com/dendronhq/dendron/issues/2003)
+- [redsolver](https://github.com/redsolver) `@redsolver#0372`
+    - #dendron.bugcatcher
+    - Dendron server should restrict connections to localhost
+- [jquesada2016](https://github.com/jquesada2016)
+    - [Improve accessibility in Preview Pane](https://github.com/dendronhq/dendron/issues/2012)
+- [Bryan Jenks](https://github.com/tallguyjenks) `@tallguyjenks#3567` 
+    - #dendron.bugcatcher
+    - [CONTRIBUTING link on website home page 404'd](https://github.com/dendronhq/dendron/issues/2024)
+- [Nahom Befekadu](https://github.com/NahomBefekadu) `@That_G_LexLuther#5100`
+    - #dendron.bugcatcher
+    - [Unable to preview/delete notes, and see them in tree view or graph](https://github.com/dendronhq/dendron/issues/2030)
+- [Jaroslav Knotek](https://github.com/jaroslavknotek)
+    - #dendron.bugcatcher
+    - [Cannot create scratch note when no file is opened](https://github.com/dendronhq/dendron/issues/2002)
+- [Matthew Giallourakis](https://github.com/foldsters) `@Foldster#7441`
+    - #dendron.bugcatcher
+    - [Markdown Preview never renders when accessing a remote dendron workspace over Remote-SSH](https://github.com/dendronhq/dendron/issues/2010)
+- [Murtaza Nazir](https://github.com/themurtazanazir)
+    - #dendron.bugcatcher
+    - [`\begin` elements not working](https://github.com/dendronhq/dendron/issues/2021)
 
 ### Changelog
 ![[dendron://dendron.dendron-site/changelog#0760,1:#0750]]

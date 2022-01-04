@@ -2,7 +2,7 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1641317634037
+updated: 1641319682018
 created: 1601508213606
 nav_order: 2
 ---
@@ -20,11 +20,11 @@ Dendron previously published backlinks and child links as header/anchor sections
 - deprecate(unsorted): Dendron Doctor will no longer include `oldNoteRefToNew`, which was used in the past to convert between `((ref: foo))` to `![[foo]]`
 
 ### Enhancements
+- enhance(schema): support date variable substitution for templates ([[docs|dendron://dendron.dendron-site/dendron.topic.templates#template-variables]]) (#1971) @tuling
+- enhance(lookup): add auto completion to `Go Down` command ([[docs|dendron.topic.navigation#go-down]]) and `Create Task Note` command ([[docs|dendron://dendron.dendron-site/dendron.ref.commands#create-task-note]]) (#1987) @nickolay
 - enhance(views): `Dendron: Show Preview` works for regular markdown files ([[docs|dendron://dendron.dendron-site/dendron.ref.commands#show-preview]]) (#1906) @kaan
 - enhance(views): adds a `Dendron: Show Preview` button in the context menu when right-clicking a markdown file in the file explorer, as well as when right-clicking a tab in the editor (#1906) @kaan
-- enhance(lookup): add auto completion to `Go Down` and `Create Task Note` commands ([[docs: Create Task Note|dendron://dendron.dendron-site/dendron.ref.commands#create-task-note]]) ([[docs: Go Down|dendron.topic.navigation#go-down]]) (#1987) @nickolay
 - enhance(workspace): improve note highlighting and autocomplete performance (#1942) @kaan
-- enhance(schema): support date variable substitution for templates (#1971) @tuling
 
 ### Fix
 - fix(workspace): typo in convert vault command (#1999) [Ryan Hill](https://github.com/rlh1994) `@rlh1994#9754`
