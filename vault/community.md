@@ -2,7 +2,7 @@
 id: 6f4cd441-f883-4e75-871b-b7f93895c91b
 title: Community
 desc: ''
-updated: 1641260427320
+updated: 1641276623398
 created: 1604236612582
 nav_order: 1
 ---
@@ -17,7 +17,7 @@ We have a bunch of community events that we host throughout the week. You can st
 
 ## Dendron Newsletter
 
-- [Subscribe to the Dendron Newsletter](https://link.dendron.so/newsletter)
+* [Subscribe to the Dendron Newsletter](https://link.dendron.so/newsletter)
 
 Dendron sends out a weekly newsletter highlighting:
 - Latest release features

@@ -2,13 +2,13 @@
 id: ogIUqY5VDCJP28G3cAJhd
 title: Daily Journal Note
 desc: ''
-updated: 1641257306247
+updated: 1641267367809
 created: 1641256835508
 ---
 
 ## Summary
 
-Daily journal notes are special notes meant to be easily track your everyday life. Dendron has a built-in [[Calendar View|dendron://dendron.dendron-site/dendron._ref.web-ui#calendar-view]] that helps you visually navigate and create new journal entries.
+Daily journal notes are special notes meant to easily track your everyday life. Dendron also has a built-in [[Calendar View|dendron://dendron.dendron-site/dendron._ref.web-ui#calendar-view]] that helps you visually navigate and create new journal entries.
 
 ## Details
 <!-- In depth explanation of feature -->

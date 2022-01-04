@@ -4,8 +4,9 @@ title: Making Your First Schema
 desc: >-
   Learn to harness the powers of schema and automatically insert templates into
   new notes
-updated: 1641257668806
+updated: 1641267318999
 created: 1640784965050
+canonicalUrl: https://blog.dendron.so/notes/P1DL2uXHpKUCa7hLiFbFA/
 ---
 
 ## Summary

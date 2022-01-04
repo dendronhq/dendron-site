@@ -2,79 +2,173 @@
 id: b0fe6ef7-1553-4280-bc45-a71824c2ce36
 title: Dendron
 desc: ''
-updated: 1640427220803
+updated: 1641277435284
 created: 1595952505017
 ---
 
-![Dendron logo](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/logo-256.png)
+[![dendronhq on Twitter](https://img.shields.io/twitter/follow/dendronhq?style=social)](https://link.dendron.so/twitter)
+[![Dendron on YouTube](https://img.shields.io/youtube/channel/subscribers/UC8GQLj4KZhN8WcJPiKXtcRQ?style=social)](https://link.dendron.so/youtube)
+[![Discord](https://img.shields.io/discord/717965437182410783?color=blueviolet&label=Discord&style=flat-square)](https://link.dendron.so/discord)
+[![VS Code Installs of Dendron](https://img.shields.io/visual-studio-marketplace/i/dendron.dendron?label=VS%20Code%20Installs%20of%20Dendron&color=blue&style=flat-square)](https://link.dendron.so/vscode)
 
-The **hierarchical** note taking tool that **grows** as you do!
+![Dendron Logo](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/logo-256.png)
 
-Dendron is an **open-source, local-first, Markdown-based, note-taking tool** built on top of [VS Code](https://code.visualstudio.com/). Like most such tools,  Dendron supports all the usual features you would expect like tagging, backlinks, a graph view, split panes, and so forth. But it doesn't stop there - whereas most tools (try to) make it easy to **get notes in**, they tend to make it **hard to get them back out** later, and it only **gets worse as you add more notes**. Dendron helps you **get notes back out** and **works better** the **more notes you have**.
+Dendron is an **open-source, local-first, markdown-based, note-taking tool**. It's a personal knowledge management solution (PKM) built specifically for developers and integrates natively with IDEs like [VS Code](https://code.visualstudio.com/) and [VSCodium](https://vscodium.com/).
 
-I originally created Dendron because I'd accumulated over **20k notes** on programming and various other topics and couldn't find a tool that would let me easily add and find notes from within my knowledge base. 
+## Why
 
-Traditional note-taking tools are often **too rigid** by having an in-flexible hierarchy that doesn't let you file a note in multiple places. Newer tools are **too flexible** by eschewing hierarchies altogether in favour of relying solely on backlinks. 
+Most PKM tools help you create notes but slam into a wall retrieving them once your knowledge base reaches a certain size threshold. That threshold varies with the tool, but virtually everything stops working past 10k notes unless the user was extremely diligent about organizing their knowledge. Past this threshold, entropy wins and every query becomes a keyword search and scrolling through pages of results.
 
-Dendron finds the **usable center** between the two extremes by supporting backlinks of any two arbitrary notes while also maintaining a **canonical hierarchy** for every note. We do this through our **[hierarchal first approach to note taking](https://www.kevinslin.com/notes/3dd58f62-fee5-4f93-b9f1-b0f0f59a9b64.html)** that relies on the combination of [[hierarchies|dendron.topic.hierarchies]], [[schemas|dendron.topic.schema]], and [[path based lookups|dendron.topic.lookup]]. 
+> Dendron's mission is to help **humans organize, find, and work with any amount of knowledge**.
 
-With Dendron, you can **create, find, and collaborate** on information that **matters to you**.
+It not only helps you create notes but also retrieve them - retrieval works as well with ten notes as it does with ten thousand.
 
-![Dendron screenshot](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/graph-intro.gif)
+## How
 
-## Use Cases
+Dendron builds on top of the past five decades of programming languages and developer tooling. We apply the key lessons from software to the management of general knowledge. 
+We make managing general knowledge like managing code and your PKM like an IDE.
 
-Whether you organize your notes with [PARA](https://fortelabs.co/blog/para/) or [Zettelkasten](https://zettelkasten.de/), link notes together like [Roam](https://roamresearch.com/), or simply create notes in an ad-hoc manner, Dendron can help.
+## Design Principles
 
-Think of it as a [second brain](https://www.buildingasecondbrain.com/) to help you **make sense** of all the information you care about.
+### Developer Centric
 
-Some popular use cases include:
+Dendron aims to create a world class developer experience for managing knowledge.
 
-- project management 
-- learning & academia
-- personal knowledge base 
-- journaling of all forms
-- CRM to keep track of clients, friends and enemies
-- {Your Use Case Here}
+Our goal is to provide a tool with the efficiency of Vim, the extensibility of Emacs, and the approachability of VS Code.
 
-## Getting Started
-![[dendron._ref.install]]
+What this means:
 
-## Onboarding
+- dendron features are text centric and composables
+- dendron provides the lowest friction interface for working with your knowledge base
+- dendron optimizes for efficiency, speed, and keyboard focused ux
+- dendron comes with sane defaults and the ability to customize to your liking
+- dendron can be extended along any dimension
 
-[Kevin](https://kevinslin.com/), the founder of Dendron, does a personal onboarding with new users. This onboarding is customized to your note taking goals and familiarity with Dendron. You can see an example onboarding below and book your own [here](https://calendly.com/d/mqtk-rf7q/onboard).
+### Gradual Structure
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/3io2fHRmZsE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+Dendron extends markdown with structural primitives to make it easier to manage at scale and tooling on top to work with this structure.
 
-You can find a rough transcript of this onboarding [[here|dendron._ref.transcript]] for reference (thank you Tom Diaz for providing the transcript).
+Different knowledge bases require different levels of structure - a PKM used for keeping daily journals is different than a company wide knowledge base used by thousands of developers.
 
-## Join Us
+Dendron works with any level of structure, meaning you can take free form notes when starting out and gradually layer on more structure as your knowledge base grows more.
 
-<iframe src="https://ghbtns.com/github-btn.html?user=dendronhq&repo=dendron&type=star&count=true&size=large" frameborder="0" scrolling="0" width="170" height="30" title="GitHub"></iframe>
+### Flexible and Consistent
 
-To stay up to date on Dendron developments and all things knowledge management, you can follow us at [`@dendronhq`](https://twitter.com/dendronhq) or join us on [Discord](https://link.dendron.so/discord)! 
+Dendron is both flexible and consistent. It provides a consistent structure for all your notes and gives you the flexibility to change that structure.
+
+In Dendron, you can refactor notes and Dendron will make sure that your PKM is consistent throughout. This means that you have the best of both worlds: a basic structure for the organization but the flexibility to change it.
 
 ## Features
 
-See our core [[features|dendron.features]] that help you manage your notes.
+Dendron has hundreds of features. The following is a list of highlights.
 
-## Motivation
+### It's just Plaintext
 
-> "We are overwhelmed with information and we don't have the tools to properly index and filter through it. [The development of these tools, which] will give society access to and command over the inherited knowledge of the ages [should] be the first objective of our scientist" - Vannevar Bush, 1945
+- manage using git
+- use git blame to see individual edits
+- edit in anything that works on text files (eg. Vim)
 
-## You Are Here
+<a href="https://www.loom.com/share/67b90027de974702a78753158822e96b">
+    <img style="" src="https://org-dendron-public-assets.s3.amazonaws.com/images/67b90027de974702a78753158822e96b.gif">
+</a>
 
-This project is about 1% complete, both in the sense that it is in **preview** but also that there's so much more to build. The north star of this project is to achieve _Vannevar Bush's_ original vision - to build a tool of thought that can give humanity _"**access to** and **command over** the inherited **knowledge of the ages**"_.
+### Markdown and More
 
-If you are reading this, you too, are now part of the journey. Let's take back control of our information and use it to build something better, together!
+- create diagrams using mermaid
+- write math using katex
+- embed notes (and parts of notes) in multiple places using note references
 
-## FAQ
+<a href="https://www.loom.com/share/f7e710a3c3454e75a2938d2cbed359d9">
+    <img style="" src="https://org-dendron-public-assets.s3.amazonaws.com/images/f7e710a3c3454e75a2938d2cbed359d9.gif">
+</a>
 
-See the [[FAQ|dendron.faq]] for answers for common questions.
+### Lookup
 
-## Contributing
+- one unified way to find and create notes
+- quickly traverse and create new hierarchies
 
-We welcome community contributions and pull requests. See [CONTRIBUTING](https://github.com/dendronhq/dendron/blob/master/docs/CONTRIBUTING.md) for information on how to set up a development environment and submit code.
+<a href="https://www.loom.com/share/29ec0fe0964648feae08387a7bb8c45f">
+    <img style="" src="https://org-dendron-public-assets.s3.amazonaws.com/images/29ec0fe0964648feae08387a7bb8c45f.gif">
+</a>
+
+### Schema
+
+- ensure consistency for your knowledge base
+- get autocomplete hints when creating new notes
+- automatically apply common templates to notes on creation
+
+<a href="https://www.loom.com/share/faee68959647441e86b9c4c183384ce5">
+    <img style="" src="https://org-dendron-public-assets.s3.amazonaws.com/images/faee68959647441e86b9c4c183384ce5.gif">
+</a>
+
+### Navigation
+
+- explore relationships using backlinks
+- navigate to notes, headers and arbitrary blocks
+- visualize your knowledge base using the graph view
+
+<a href="https://www.loom.com/share/2d365d965c104af2a1501d789aa2d2b1">
+    <img style="" src="https://org-dendron-public-assets.s3.amazonaws.com/images/2d365d965c104af2a1501d789aa2d2b1.gif">
+  </a>
+
+### Refactor
+
+- restructure your knowledge base without breaking links
+- rename a single note or refactor using arbitrary regex
+- rename and move individual sections within notes
+
+<a href="https://www.loom.com/share/b1a84decc53f4639b5bc60c885c56543">
+    <img style="" src="https://org-dendron-public-assets.s3.amazonaws.com/images/b1a84decc53f4639b5bc60c885c56543.gif">
+</a>
+
+### Vaults
+
+- mix and match knowledge using vaults, a git backed folder for your notes
+- use vaults to separate concerns, like personal notes and work notes
+- publish vaults on git to collaborate and share knowledge with others
+
+<a href="https://www.loom.com/share/c51e457ac2b0415ca91a8929411add64">
+    <img style="" src="https://org-dendron-public-assets.s3.amazonaws.com/images/c51e457ac2b0415ca91a8929411add64.gif">
+  </a>
+
+### Publish
+
+- export your knowledge base as a static (nextjs) site
+- lookup locally and share globally with generated links
+- manage what you publish using fine grained permissions on a per vault, per hiearchy and per note basis
+
+<a href="https://www.loom.com/share/727537e0fd49481cac2accc2b3362fa3">
+    <img style="" src="https://org-dendron-public-assets.s3.amazonaws.com/images/727537e0fd49481cac2accc2b3362fa3.gif">
+  </a>
+
+## Use Cases
+
+- personal knowledge management (PKM)
+- documentation
+- meeting notes
+- tasks and todos
+- blogging
+- customer relationship management
+
+## Getting Started
+
+Interested in trying out Dendron? Jump right in with the [[Getting Started guide|dendron://dendron.dendron-site/dendron.tutorial]]!
+
+## Join Us
+
+![[dendron://dendron.dendron-site/community]]
+
+## Developer Getting Started
+
+If you are interested in contributing to the Dendron source code, please see the [Dendron Development README](https://github.com/dendronhq/dendron/blob/master/docs/README.md) to get started.
+
+## Contributors ✨
+
+Dendron wouldn't be what it is today without help from the wonderful gardeners 👨‍🌾👩‍🌾
+
+If you would like to contribute (docs, code, finance, or advocacy), you can find instructions to do so [[here|dendron://dendron.dendron-site/dendron.contribute]]. 
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. We welcome community contributions and pull requests. See [CONTRIBUTING](https://github.com/dendronhq/dendron/blob/master/docs/CONTRIBUTING.md) for information on how to set up a development environment and submit code.
 
 ## License
 
@@ -82,3 +176,4 @@ Dendron is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE Version 3.
 
 See [LICENSE](https://github.com/dendronhq/dendron/blob/master/LICENSE.md) and [NOTICE](https://github.com/dendronhq/dendron/blob/master/NOTICE.md) for more information.
 
+> The above license information is in regard to the Dendron software project in the `dendronhq/dendron` repository. When it comes to this repository, the `dendronhq/dendron-site` repository of documentation, this is released under the [MIT License](https://github.com/dendronhq/dendron-site/blob/master/LICENSE.md)
