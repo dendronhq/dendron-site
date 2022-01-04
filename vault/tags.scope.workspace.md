@@ -4,6 +4,7 @@ title: Workspace
 desc: 'VS Code workspace, vaults, intellisense/autocomplete, Dendron settings'
 updated: 1638341038879
 created: 1632764333519
+airtableId: rectCR9AOy93xvWQh
 ---
 
 VS Code workspace, vaults, intellisense/autocomplete, Dendron settings
