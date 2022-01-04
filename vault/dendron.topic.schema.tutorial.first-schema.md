@@ -146,7 +146,7 @@ To match with the daily journal structure:
   - Month: `[0-1][0-9]` means match the range `00 - 19`
   - Day: `[0-3][0-9]` means match the range `00 - 39`
 
-This means all new daily journal items will be within the pattern ranges.
+This means all new daily journal notes are the pattern ranges.
 
 ### Create a new daily journal
 
@@ -155,6 +155,8 @@ Creating a daily journal entry should result in the `templates.daily-5mj` templa
 - Run `Create Daily Journal Note` (`Ctrl+Shift+I` / `Cmd+Shift+I`)
 
 You should see a new daily journal note with the 5MJ template inserted.
+
+![[dendron://dendron.dendron-site/asset.preview#create-5mj-daily-journal-from-schema-and-template,1:#*]]
 
 ## Congratulations!
 
