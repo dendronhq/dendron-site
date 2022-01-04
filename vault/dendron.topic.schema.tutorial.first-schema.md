@@ -4,7 +4,7 @@ title: Making Your First Schema
 desc: >-
   Learn to harness the powers of schema and automatically insert templates into
   new notes
-updated: 1641256374720
+updated: 1641256563818
 created: 1640784965050
 ---
 
@@ -25,7 +25,7 @@ You may find yourself wanting to use templates in your notes, especially when fi
 - Open [[lookup|dendron://dendron.dendron-site/dendron.topic.lookup]] (`Ctrl+L` / `Cmd+L`)
 - Type `templates.daily-5mj` in the text prompt and hit enter to create the template
 
-Copy and paste the following markdown:
+- Copy and paste the following markdown:
 
 ```markdown
 <!--
@@ -97,7 +97,7 @@ schemas:
 
 We are going to use [[Inline Schema|dendron://dendron.dendron-site/dendron.topic.schema#inline-schema-anatomy]], which is a simpler form of schema taking less configuration lines while using indentation for visual understanding.
 
-Replace the content of `5mj.schema.yml` with the following:
+- Replace the content of `5mj.schema.yml` with the following:
 
 ```yml
 version: 1
@@ -138,7 +138,7 @@ The `pattern` attribute is using a globbing to match with the daily journal stru
 
 This means all new daily journal items will be within the pattern ranges.
 
-### Create a 5MJ daily journal
+### Create a new daily journal
 
 Creating a daily journal entry should result in the `templates.daily-5mj` template automatically inserted.
 
