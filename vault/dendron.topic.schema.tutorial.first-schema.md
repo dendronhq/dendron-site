@@ -10,7 +10,9 @@ created: 1640784965050
 
 ## Summary
 
-You may find yourself wanting to use templates in your notes, especially when finding yourself using the same outline and headers over time. This tutorial will walkthrough making a template for daily journaling, using [The Five Minute Journal](https://www.intelligentchange.com/products/the-five-minute-journal) (5MJ) method, as an example, and automatically applying that template whenever you create a new journal.
+As you write more notes, you might find yourself re-using the same template across multiple notes. You can use schemas to automatically apply a template to notes at a given hierarchy.
+
+In this tutorial, we will walkthrough creating a schema for your [[daily journal|dendron.topic.daily-journal-note]] that can automatically apply [The Five Minute Journal](https://github.com/dendronhq/templates/blob/main/templates/templates.journal.daily.5mj.md) to all your entries.
 
 ## Concepts
 
@@ -164,10 +166,14 @@ You should see a new daily journal note with the 5MJ template inserted.
 
 After doing this, you've now:
 
-- Created a 5MJ template, or added the `templates` seed to use our 5MJ template
+- Created a 5MJ template
 - Created a 5MJ schema
 - Created your first daily journal with the 5MJ template applied via schema
 
 ### Next steps
 
-#todo
+- Learn to [[swiftly create schema targeting existing note hierarchies|dendron.topic.schema.create-from-hierarchy]]
+- Learn to level-up your daily life with [[the bullet journaling workflow|dendron://dendron.dendron-site/dendron.guides.workflows.bullet-journal]]
+- Learn to explore your schema visually using the [[schema graph|dendron://dendron.dendron-site/dendron.topic.graph-view#schema-graph]]
+- Check out an end-to-end workstyle, managing 20k notes, using schemas and daily journals from [[A Day in Dendron|dendron://dendron.dendron-site/community.greenhouse.2021-07-23-using-dendron-with-20k-notes]]
+
