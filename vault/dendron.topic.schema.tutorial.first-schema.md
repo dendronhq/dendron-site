@@ -1,8 +1,10 @@
 ---
 id: 5U4eAiqshI67VxIL40KWH
 title: Making Your First Schema
-desc: 'Learn to harness the powers of schema and automatically insert templates into new notes'
-updated: 1640804525220
+desc: >-
+  Learn to harness the powers of schema and automatically insert templates into
+  new notes
+updated: 1641255236259
 created: 1640784965050
 ---
 
@@ -16,17 +18,9 @@ created: 1640784965050
 
 ## Concepts
 
-### Daily Journal
-
-![[dendron://dendron.dendron-site/dendron.topic.special-notes#daily-journal,1:#*]]
-
-### Templates
-
-![[dendron://dendron.dendron-site/dendron.topic.templates#summary,1:#*]]
-
-### Schema
-
-![[dendron.topic.schema#summary,1:#*]]
+- **[[Daily Journal|dendron.topic.special-notes#daily-journal]]**: Special notes meant to be easily made with the `Create Daily Journal Note` (`Ctrl+Shift+I` / `Cmd+Shift+I`) command. These are also what appear in the [[Calendar View|dendron._ref.web-ui#calendar-view]].
+- **[[Templates|dendron.topic.templates]]**: Notes containing content meant to reuse in new notes, such as outlines meant to guide you throught specific note types or journal entries.
+- **Schemas**:
 
 ## Creating the 5MJ template
 
@@ -153,10 +147,16 @@ Creating a daily journal entry should result in the `templates.daily-5mj` templa
 
 You should see a new daily journal note with the 5MJ template inserted.
 
-## Summary
+## Congratulations!
+
+### Key Takeaways
 
 After doing this, you've now:
 
 - Created a 5MJ template, or added the `templates` seed to use our 5MJ template
 - Created a 5MJ schema
 - Created your first daily journal with the 5MJ template applied via schema
+
+### Next Steps
+
+
