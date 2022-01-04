@@ -2,7 +2,7 @@
 id: eea2b078-1acc-4071-a14e-18299fc28f47
 title: Commands
 desc: ''
-updated: 1640795851532
+updated: 1641278780644
 created: 1595261816971
 nav_order: 3.1
 ---
@@ -540,6 +540,13 @@ Update your pod configuration
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/pods.configure.gif)
 
+### Configure Export Pod V2
+
+Update your export pod v2 configuration.
+
+### Configure Service Connection
+
+Update your service [[Connections|dendron://dendron.dendron-site/dendron.topic.pod.v2.connections]] config.
 ### Import Pod
 
 - shortcuts: none
