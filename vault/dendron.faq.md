@@ -32,7 +32,7 @@ It not only helps you create notes but also retrieve them - retrieval works as w
 
 Our main differentiator is our focus on structure - we provide [[gradual structure|dendron://dendron.dendron-site/dendron.principles#gradual-structure]] for your PKM that is both [[flexible and consistent|dendron://dendron.dendron-site/dendron.principles#flexible-and-consistent]].
 
-This means you can start with [[daily journals|dendron://dendron.dendron-site/dendron.topic.special-notes#daily-journal]], capture thoughts in [[zettel's|dendron://dendron.dendron-site/dendron.topic.special-notes#scratch-note]] and create consistent hierarchies over time which you can enforce using [[schemas|dendron://dendron.dendron-site/dendron.topic.schema]] and change through [[refactoring|dendron://dendron.dendron-site/dendron.topic.refactoring]].
+This means you can start with [[daily journals|dendron.topic.daily-journal-note#details]], capture thoughts in [[zettel's|dendron://dendron.dendron-site/dendron.topic.special-notes#scratch-note]] and create consistent hierarchies over time which you can enforce using [[schemas|dendron://dendron.dendron-site/dendron.topic.schema]] and change through [[refactoring|dendron://dendron.dendron-site/dendron.topic.refactoring]].
 
 ### Is Dendron free? Will it stay free?
 

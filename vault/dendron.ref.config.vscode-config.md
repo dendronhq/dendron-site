@@ -58,7 +58,7 @@ Date format used for journal notes. Use [luxon style formatting][luxon-style-for
 - options:  ['childOfDomain', 'childOfDomainNamespace', 'childOfCurrent', 'asOwnDomain']
 
 strategy for adding new journal notes
-- NOTE: this only applies to regular journal notes but not to  [[daily journal|dendron.topic.special-notes#daily-journal]] notes.
+- NOTE: this only applies to regular journal notes but not to  [[Details|dendron.topic.daily-journal-note#details]] notes.
 
 ## dendron.defaultScratchName
 - type: string

@@ -2,26 +2,12 @@
 id: 5c213aa6-e4ba-49e8-85c5-1bdcb33ce202
 title: Special Notes
 desc: ''
-updated: 1641254745288
+updated: 1641256903565
 created: 1595004457029
 stub: false
 ---
 
 Dendron has built-in support for a variety of special note formats. These notes can be created using regular lookup - these commands provide convenient shortcuts for frequently used notes.
-
-## Daily Journal
-
-One of the most common ways of note taking is the daily journal.  
-
-You can create a daily journal by typing `> Dendron: Create Daily Journal Note` in the Command Palette. You'll also see the corresponding keyboard shortcut for your operating system when you use this command (`Ctrl+Shift+I` / `Cmd+Shift+I`).
-
-![[dendron://dendron.dendron-site/asset.preview#create-daily-journal,1:#*]]
-
-By default, it will create the journal under `daily.{date}` though this is configurable by setting the [[dendron.dailyJournalDomain|dendron.ref.config.vscode-config#dendrondailyjournaldomain]] in your `dendron.yml` config.
-
-New daily journal notes can also be created, interactively, with [[Calendar View|dendron://dendron.dendron-site/dendron._ref.web-ui#calendar-view]].
-
-![[dendron://dendron.dendron-site/asset.preview#create-daily-journal-from-calendar,1:#*]]
 
 ## Journal Note
 
