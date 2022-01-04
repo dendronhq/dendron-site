@@ -2,11 +2,11 @@
 id: axOETzHjAB9S0an4yfuzp
 title: '14 - Cultivating and Connecting Using Modular Notes and Personal Memos'
 desc: ''
-updated: 1641317575180
+updated: 1641325828120
 created: 1641315969749
 ---
 
-- [Cultivating and Connecting Using Modular Notes and Personal Memos](https://thesweetsetup.com/cultivating-and-connecting-notes-using-modular-notes-and-personal-memos/)
+- [Cultivating and Connecting Using Modular Notes and Personal Memos](https://link.dendron.so/6tho)
 
 > Credit to `foureyedsoul#0796` from the Dendron community for sharing this link, as I added it to my reading list for this week's reading series!
 
