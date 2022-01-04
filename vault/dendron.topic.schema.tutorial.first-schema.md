@@ -4,7 +4,7 @@ title: Making Your First Schema
 desc: >-
   Learn to harness the powers of schema and automatically insert templates into
   new notes
-updated: 1641256563818
+updated: 1641256789270
 created: 1640784965050
 ---
 
@@ -128,7 +128,9 @@ schemas:
                   template: templates.daily-5mj
 ```
 
-The `pattern` attribute is using a globbing to match with the daily journal structure:
+The `pattern` attribute is using a [[Glob Pattern|dendron://dendron.dendron-site/dendron.concepts#glob-pattern]], which is an expression used to match ranges and combinations of characters.
+
+To match with the daily journal structure:
 
 - Example: `daily.journal.2021.12.31`
 - Patterns:
