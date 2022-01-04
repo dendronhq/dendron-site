@@ -164,7 +164,7 @@ The short answer is no, you don't **need** to use schemas. That being said, sche
 
 If you're familiar with typescript - Dendron schemas are similar to the types offered by typescript. You can compile your typescript code into javascript even if the types don't match (subject to your tsconfig). Types help make your projects maintainable, especially as they grow.
 
-Currently, Dendron will do is show you an indicator if your schema doesn't match. In the future, we'll have a strict mode where we will actually prevent you from creating notes that don't match your schema.
+Dendron will show an indicator if your schema doesn't match. In the future, we'll have a strict mode where we will prevent you from creating notes that don't match your schema.
 
 Schemas at the end of the day help you construct consistent hierarchies for your notes. Consistent hierarchies alleviate the cognitive overhead of needing to understand and track N things where N can be very big. Instead, you can construct a single schema that encompasses the common areas of all N things.
 
