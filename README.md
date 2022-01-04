@@ -183,10 +183,6 @@ There are a variety of ways to connect with Dendron devs, contributors, and othe
 - Read the [Dendron Blog](https://blog.dendron.so/)
 - Subscribe to the [Dendron Newsletter](https://link.dendron.so/newsletter)
 
-## Developer Getting Started
-
-If you are interested in contributing to the Dendron source code, please see the [Dendron Development README](https://github.com/dendronhq/dendron/blob/master/docs/README.md) to get started.
-
 ## Contributors ✨
 
 Dendron wouldn't be what it is today without help from the wonderful gardeners 👨‍🌾👩‍🌾
