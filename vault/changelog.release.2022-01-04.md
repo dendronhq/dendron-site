@@ -2,18 +2,20 @@
 id: MQpi87qLnzKK5iK3FlxUp
 title: 0.76
 desc: ''
-updated: 1641321329159
+updated: 1641321759890
 created: 1641314638791
 ---
 
 Dendron 0.76 has sprouted  🌱
 
-We're adding some super powers to your templates with [[template variables|dendron.topic.templates#template-variables]], starting with dates. Do you find yourself updating date values in the content of your inserted templates? Now that can be taken care of automatically:
+Do you find yourself updating date values in the content of your inserted templates? That can now be inserted automatically with [[template variables|dendron.topic.templates#template-variables]]:
 
 - Example: `Today is {{ CURRENT_YEAR }}.{{ CURRENT_MONTH }}.{{ CURRENT_DAY }}`
 - Template output: `Today is 2022.01.04`
 
-Have you found yourself switching between the `Dendron: Show Preview` and `Markdown: Open Preview` commands, in order to view Markdown files that aren't Dendron notes? Say no more: now `Dendron: Show Preview` can show you what your project `README.md` and other files look like, too.
+Speaking of templates: we've added a new tutorial on [[Making Your First Schema|dendron.topic.schema.tutorial.first-schema]]. This week there will be a blog post version of the tutorial for sharing with the broader community. Take a look!
+
+Another major quality of life improvement we're launching today is the ability to preview regular markdown using the Dendron Preview. Now you can use the same Dendron Preview on all your markdown files, even if they're not inside a Dendron workspace!
 
 ## Breaking Changes
 
@@ -23,7 +25,7 @@ Dendron previously published backlinks and child links as header/anchor sections
 
 - deprecate(publishing): 11ty publishing will be removed with the next release, and is no longer maintained. This does not affect you if you use the current Next.js publishing
   - If you wish to continue using 11ty, you will need to lock `@dendronhq/dendron-cli@0.76`
-- deprecate(unsorted): Dendron Doctor will no longer include `oldNoteRefToNew`, which was used in the past to convert between `((ref: foo))` to `![[foo]]`
+- deprecate(refactor): Dendron Doctor will no longer include `oldNoteRefToNew`, which was used in the past to convert between `((ref: foo))` to `![[foo]]`
 
 ## Highlights
 - enhance(schema): support date variable substitution for templates ([[docs|dendron://dendron.dendron-site/dendron.topic.templates#template-variables]])
@@ -47,6 +49,10 @@ Dendron previously published backlinks and child links as header/anchor sections
 
 ### General Updates
 <!-- TODO: update the link. Office hours are bi-weekly, delete this section if not appliacble -->
+
+## Documentation Update
+
+- Site reorg progress: The [[Community|dendron://dendron.dendron-site/community]] hierarchy has been updated. Visit [the PR for more details](https://github.com/dendronhq/dendron-site/pull/342).
 
 ### Starboard and TIL Highlights
 
