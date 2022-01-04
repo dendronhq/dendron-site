@@ -2,11 +2,11 @@
 id: PIPLLg61HYfjK361B9Jm6
 title: Channels
 desc: ''
-updated: 1640815349912
+updated: 1641260660562
 created: 1640809094657
 ---
 
-![[community#join-other-dendrologists,1]]
+![[Community|dendron://dendron.dendron-site/community#^dendron-discord]]
 
 Learn about all of the Discord channels below.
 
@@ -27,7 +27,7 @@ If you'd like to connect with folks with similar goals for note taking, the easi
 
 ### root
 
-This is the same as the [[landing page of Discord|community.discord]].
+This is the same as the [[landing page of Discord|dendron://dendron.dendron-site/community.discord]].
 
 ### roles
 
@@ -46,9 +46,9 @@ Product releases, events, and more.
 
 ### feedback
 
-What do you want to see us build next? Give us feedback on Dendron here, and don't forget to vote on a [[community.events.crop]] every week.
+What do you want to see us build next? Give us feedback on Dendron here, and don't forget to vote on a [[dendron://dendron.dendron-site/community.events.crop]] every week.
 
-![[community.events.crop]]
+![[dendron://dendron.dendron-site/community.events.crop]]
 
 ### questions
 
@@ -60,15 +60,15 @@ Share your cool note taking tricks and VS Code ninjutsu!
 
 ### schemas
 
-Share and discuss [[schemas|dendron.topic.schema]].
+Share and discuss [[schemas|dendron://dendron.dendron-site/dendron.topic.schema]].
 
 ### multi-vault
 
-Troubleshooting, implementation, and other discussion around using [[dendron.topic.multi-vault]] workspaces.
+Troubleshooting, implementation, and other discussion around using [[dendron://dendron.dendron-site/dendron.topic.multi-vault]] workspaces.
 
 ### mobile
 
-Discussions on working with your [[Dendron notes on mobile devices|dendron.guides.cook#mobile-support]].
+Discussions on working with your [[Dendron notes on mobile devices|dendron://dendron.dendron-site/dendron.guides.cook#mobile-support]].
 
 ### github
 
@@ -82,7 +82,7 @@ Members looking to contribute to the Dendron project: the channels under the **C
 
 This is a private channel for `@Environmentalist` members.
 
-![[community.discord.roles#environmentalist,1:#*]]
+![[dendron://dendron.dendron-site/community.discord.roles#environmentalist,1:#*]]
 
 ### dev
 
@@ -96,7 +96,7 @@ The voice channel for dev contributors.
 
 All about using Dendron: the channels under the **Community** category are a good place to interact with fellow members during events, general chat, and for sharing workflows.
 
-## starboard
+### starboard
 
 If you feel more people need to see a particular message, then give it a star emoji reaction. When messages are given more than one star emoji, in the other public Dendron Discord channels, a bot shares them to this channel.
 
@@ -106,17 +106,13 @@ General chat about all the things.
 
 ### teatime
 
-This text channel is used during events like [[dendron://dendron.dendron-site/community.office-hours]] and [[dendron://dendron.dendron-site/community.events.new-user-tuesdays]]. Voice chat is referenced in the `#teatime` _voice_ channel.
+This text channel is used during events like [[dendron://dendron.dendron-site/community.events.office-hours]] and [[dendron://dendron.dendron-site/community.events.new-user-tuesdays]]. Voice chat is referenced in the `#teatime` _voice_ channel.
 
 You're free to discuss anything at all in the `#teatime` channel. To help, we encourage using the pinned [[dendron://dendron.dendron-site/community.events.reading-series]] read as a starting point.
 
 #### teatime voice channel
 
-This voice channel is used during events like [[dendron://dendron.dendron-site/community.office-hours]] and [[dendron://dendron.dendron-site/community.events.new-user-tuesdays]]. Text chat is referenced in the `#teatime` channel.
-
-### note-taking
-
-How do you take notes? [PARA](https://fortelabs.co/blog/para/)? [Zettelkasten](https://zettelkasten.de/posts/overview/)? Something else entirely? Talk about it here.
+This voice channel is used during events like [[dendron://dendron.dendron-site/community.events.office-hours]] and [[dendron://dendron.dendron-site/community.events.new-user-tuesdays]]. Text chat is referenced in the `#teatime` channel.
 
 ### academia
 
@@ -124,7 +120,7 @@ Discussion of academia-related subjects. A great place for students, teachers, a
 
 ### workflows
 
-#todo
+How do you take notes? [PARA](https://fortelabs.co/blog/para/)? [Zettelkasten](https://zettelkasten.de/posts/overview/)? Something else entirely? Talk about it here.
 
 ### showcase
 

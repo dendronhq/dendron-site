@@ -2,7 +2,7 @@
 id: 6f4cd441-f883-4e75-871b-b7f93895c91b
 title: Community
 desc: ''
-updated: 1640815464128
+updated: 1641260427320
 created: 1604236612582
 nav_order: 1
 ---
@@ -30,7 +30,7 @@ Dendron sends out a weekly newsletter highlighting:
 
 There are a variety of ways to connect with Dendron devs, contributors, and other members of the Dendron community:
 
-* Join the [Dendron on Discord](https://link.dendron.so/discord)
+* Join the [Dendron on Discord](https://link.dendron.so/discord) ^dendron-discord
 * Follow [Dendron on Twitter (`@dendronhq`)](https://link.dendron.so/twitter)
 * Checkout [Dendron on GitHub](https://link.dendron.so/github)
 * Read the [Dendron Blog](https://blog.dendron.so/)

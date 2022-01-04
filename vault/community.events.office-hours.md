@@ -2,7 +2,7 @@
 id: 1eec6c7b-242e-4102-93f1-fc285702ecd2
 title: Office Hours
 desc: ''
-updated: 1641250731190
+updated: 1641260990049
 created: 1619981785169
 skipLevels: 2
 has_collection: true
@@ -23,7 +23,7 @@ Currently for 2022 Q1
 <iframe
   src="https://lu.ma/embed-checkout/evt-ooKD5BczLsZeuYl"
   width="600"
-  height="450"
+  height="1100"
   frameborder="0"
   style="border:1px solid #bfcbda88;border-radius:4px;"
   allowfullscreen=""

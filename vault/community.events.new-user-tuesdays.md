@@ -2,7 +2,7 @@
 id: JkX8ODMH9oO45LGicNRIy
 title: New User Tuesdays
 desc: ''
-updated: 1641253128637
+updated: 1641261243139
 created: 1640808498736
 skipLevels: 2
 has_collection: true
@@ -22,7 +22,7 @@ Currently for 2022 Q1
 <iframe
   src="https://lu.ma/embed-checkout/evt-D3azaOfrb5MM5RW"
   width="600"
-  height="450"
+  height="1100"
   frameborder="0"
   style="border:1px solid #bfcbda88;border-radius:4px;"
   allowfullscreen=""
