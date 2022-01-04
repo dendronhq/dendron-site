@@ -54,13 +54,13 @@ New GitHub discussions to get involved in:
 
 #### Dendron Reading Series
 
-This week's entry in the [[Dendron Reading Series|community.reading-series]].
+This week's entry in the [[Dendron Reading Series|community.events.reading-series]].
 
-![[community.reading-series.journal.2021.11.29]]
+![[community.events.reading-series.2021.11.29]]
 
 #### Office hours
 
-Notes for the previous Office Hours can be found [[here|community.office-hours.2021.11.24]], with [the recording on YouTube](https://www.youtube.com/watch?v=LuoD8ibOazE).
+Notes for the previous Office Hours can be found [[here|community.events.office-hours.2021.11.24]], with [the recording on YouTube](https://www.youtube.com/watch?v=LuoD8ibOazE).
 
 The next Office Hours will be:
 
@@ -69,7 +69,7 @@ The next Office Hours will be:
 #### Thank You's
 
 A big **thanks** to the following gardeners that brought up issues, contributions, and fixes to this release.
-You can see an overview of all roles [[here|community.roles]].
+You can see an overview of all roles [[here|community.discord.roles]].
 
 - [Luke Carrier](https://github.com/LukeCarrier) `@lukecarrier#2081`
     - #dendron.bugcatcher

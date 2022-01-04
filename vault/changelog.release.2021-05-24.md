@@ -19,12 +19,12 @@ Dendron 0.43 has sprouted  🌱
 
 #### Office Hours
 
-You can find notes from our latest office hours [[here|community.office-hours.2021.05.23]]
+You can find notes from our latest office hours [[here|community.events.office-hours.2021.05.23]]
 
 #### Thank You's
 
 A big **thanks** to the following gardeners that brought up issues, contributions, and fixes to this release :man_farmer: :woman_farmer: 
-You can see an overview of all roles [[here|community.roles]]
+You can see an overview of all roles [[here|community.discord.roles]]
 
 - [Jack](https://github.com/imalightbulb) @I'm a lightbulb#6986
   - [update tag docs on site](https://github.com/dendronhq/dendron-site/pull/94)

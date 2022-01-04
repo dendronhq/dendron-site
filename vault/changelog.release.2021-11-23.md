@@ -47,9 +47,9 @@ Blog posts:
 
 #### Dendron Reading Series
 
-This week's entry in the [[Dendron Reading Series|community.reading-series]].
+This week's entry in the [[Dendron Reading Series|community.events.reading-series]].
 
-![[community.reading-series.journal.2021.11.23]]
+![[community.events.reading-series.2021.11.23]]
 
 #### Office hours
 
@@ -70,7 +70,7 @@ During my life hours, I like to dabble in all kinds of hobbies (volleyball, ice 
 #### Thank You's
 
 A big **thanks** to the following gardeners that brought up issues, contributions, and fixes to this release.
-You can see an overview of all roles [[here|community.roles]].
+You can see an overview of all roles [[here|community.discord.roles]].
 
 - [Zero King](https://github.com/l2dy) `@l2dy#9201`
   - #dendron.horticulturalist

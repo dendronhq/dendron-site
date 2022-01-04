@@ -50,12 +50,12 @@ We've had quite a number of [[RFCs|rfc]] in flight. This is a highlight of thing
 ### Community
 #### Office Hours
 
-You can find notes from our latest office hours [[here|community.office-hours.2021.09.12]]
+You can find notes from our latest office hours [[here|community.events.office-hours.2021.09.12]]
 
 #### Thank You's
 
 A big **thanks** to the following gardeners that brought up issues, contributions, and fixes to this release :man_farmer: :woman_farmer: 
-You can see an overview of all roles [[here|community.roles]]
+You can see an overview of all roles [[here|community.discord.roles]]
 
 - [kzilla](https://github.com/dendronhq/dendron/issues/1312) `@kzilla#8818`
     - #dendron.bugcatcher

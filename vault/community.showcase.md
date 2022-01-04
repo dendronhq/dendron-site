@@ -2,10 +2,11 @@
 id: 3a82c5ff-7945-46ae-8bf9-3b2275fc6642
 title: Showcase
 desc: ''
-updated: 1630790917267
+updated: 1640814855933
 created: 1600010740851
 ---
-Below are examples of published Dendron vaults
+
+Below are examples of published Dendron vaults.
 
 ## Official
 
@@ -27,6 +28,8 @@ Below are examples of published Dendron vaults
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/showcase.aws.jpg)
 
 ## Members
+
+For more showcases being shared by the community, visit the `#showcase` channel in the [Dendron Discord](https://link.dendron.so/discord).
 
 ### Kevin's page
 

@@ -2,7 +2,7 @@
 id: Tf4vuVLV3rSdpzD8la9FP
 title: 0.5.X
 desc: ''
-updated: 1640425359611
+updated: 1640789575433
 created: 1632543447542
 ---
 
@@ -326,7 +326,7 @@ The [[Calendar View|dendron._ref.web-ui#calendar-view]] is no longer hidden behi
 
 Seed Commands now available within the extension. You can add seeds to your workspace with the `Dendron: Seed Add` command, which was previously only available in the CLI.
 
-![[dendron://dendron.dendron-site/dendron.ref.commands#seed-add:#Misc]]
+![[dendron://dendron.dendron-site/dendron.ref.commands#add-seed-to-workspace,1:#*]]
 
 #### Better Lookup
 

@@ -1,7 +1,7 @@
 ---
 id: 35d7d7bc-64a6-4850-9a54-7de7f43ad751
 title: Principles and Values
-desc: ""
+desc: ''
 updated: 1599499842665
 created: 1599499842665
 stub: false

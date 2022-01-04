@@ -29,20 +29,20 @@ Dendron configuration can be overwhelming - we are working on making it less so 
 
 #### Greenhouse Series - Typescript Development with Dendron and VS Code
 
-![[dendron://dendron.dendron-site/community.greenhouse#^Ddu3OTwrJYvI:#*]]
+![[dendron://dendron.dendron-site/community.events.greenhouse#^Ddu3OTwrJYvI:#*]]
 
-![[dendron://dendron.dendron-site/community.greenhouse.2021-10-15-ts-dev-vscode]]
+![[dendron://dendron.dendron-site/community.events.greenhouse.2021-10-15-ts-dev-vscode]]
 
 #### Dendron Reading Series
 
-This week's entry in the [[Dendron Reading Series|community.reading-series]]. Small update to the format - the entry for the reading series will now be pinned in the `#teatime` channel which is now open for everyone!
+This week's entry in the [[Dendron Reading Series|community.events.reading-series]]. Small update to the format - the entry for the reading series will now be pinned in the `#teatime` channel which is now open for everyone!
 
-![[community.reading-series.journal.2021.10.12]]
+![[community.events.reading-series.2021.10.12]]
 
 #### Thank You's
 
 A big **thanks** to the following gardeners that brought up issues, contributions, and fixes to this release :man_farmer: :woman_farmer: 
-You can see an overview of all roles [[here|community.roles]]
+You can see an overview of all roles [[here|community.discord.roles]]
 
 - Philippe Leveque `@ZorbaCodium#9873`
     - #dendron.bugcatcher

@@ -1,7 +1,7 @@
 ---
 id: 9kovmyM4T0ZBeWvp5oH62
 title: Obsidian Style
-desc: ""
+desc: ''
 updated: 1628800428336
 created: 1628800356882
 ---

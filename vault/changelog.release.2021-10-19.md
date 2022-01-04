@@ -35,23 +35,23 @@ More streamlined publishing as well as lots of fixes and enhancements to existin
 ### Community
 
 #### General Updates
-- Recording and notes from last week's greenhouse talk posted [[here|dendron://dendron.dendron-site/community.greenhouse.2021-10-15-ts-dev-vscode#outputs]]
+- Recording and notes from last week's greenhouse talk posted [[here|dendron://dendron.dendron-site/community.events.greenhouse.2021-10-15-ts-dev-vscode#outputs]]
 - Dendron wiki is now moved to the [[Next.js Publishing|dendron://dev/dendron.topic.publish]]
 
 #### Dendron Reading Series
 
-This week's entry in the [[Dendron Reading Series|community.reading-series]]. 
+This week's entry in the [[Dendron Reading Series|community.events.reading-series]]. 
 
-![[dendron://dendron.dendron-site/community.reading-series.journal.2021.10.19]]
+![[dendron://dendron.dendron-site/community.events.reading-series.2021.10.19]]
 
 #### Office Hours
 
-You can find notes from our latest office hours [[here|dendron://dendron.dendron-site/community.office-hours.2021.10.17]]
+You can find notes from our latest office hours [[here|dendron://dendron.dendron-site/community.events.office-hours.2021.10.17]]
 
 #### Thank You's
 
 A big **thanks** to the following gardeners that brought up issues, contributions, and fixes to this release :man_farmer: :woman_farmer: 
-You can see an overview of all roles [[here|community.roles]]
+You can see an overview of all roles [[here|community.discord.roles]]
 
 - [Jonathan Dorety](https://github.com/jdorety)
     - #dendron.taxonomist

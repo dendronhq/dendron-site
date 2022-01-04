@@ -20,7 +20,7 @@ Dendron 0.33 has sprouted  🌱
 ### Community
 
 A big **thanks** to the following gardeners that brought up issues, contributions, and fixes to this release :man_farmer: :woman_farmer: 
-You can see an overview of all roles [[here|community.roles]]
+You can see an overview of all roles [[here|community.discord.roles]]
 
 - [Fayçal](https://github.com/d3vr) @bsqrd#9701 
   - call out bad link on new landing page

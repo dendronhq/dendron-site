@@ -96,7 +96,7 @@ Use [luxon style formatting](https://moment.github.io/luxon/#/formatting)
 ### addBehavior
 
 Sets the strategy for adding new journal notes.
-This only applies to regular journal notes but not to [[daily journal|dendron.topic.special-notes#daily-journal]] notes.
+This only applies to regular journal notes but not to [[Details|dendron.topic.daily-journal-note#details]] notes.
 
 - default: "childOfDomain"
 

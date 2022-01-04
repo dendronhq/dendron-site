@@ -351,7 +351,7 @@ You can now use managed publishing with a password. Note that you'll need [sprou
 
 #### Custom Domain Names
 
-Dendron now supports custom domain names for [[managed publishing|dendron.topic.managed-publishing]]. You can find docs [[here|dendron.topic.managed-publishing.quickstart#adding-a-custom-domain-via-cname]]. Note that this feature is currently limited to [[environmentalist|community.roles#environmentalist]] .
+Dendron now supports custom domain names for [[managed publishing|dendron.topic.managed-publishing]]. You can find docs [[here|dendron.topic.managed-publishing.quickstart#adding-a-custom-domain-via-cname]]. Note that this feature is currently limited to [[environmentalist|community.discord.roles#environmentalist]] .
 
 ### Enhancements
 

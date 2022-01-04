@@ -31,12 +31,12 @@ Our documentation changes a lot week by week. Below is a highlight of some updat
 ### Community
 
 #### Office Hours
-You can find notes from our latest office hours [[here|community.office-hours.2021.07.18]]
+You can find notes from our latest office hours [[here|community.events.office-hours.2021.07.18]]
 
 #### Thank You's
 
 A big **thanks** to the following gardeners that brought up issues, contributions, and fixes to this release :man_farmer: :woman_farmer: 
-You can see an overview of all roles [[here|community.roles]]
+You can see an overview of all roles [[here|community.discord.roles]]
 
 - [ apastuszak ](https://github.com/apastuszak) @plazman30#1232 
 	- `+bugcatcher`

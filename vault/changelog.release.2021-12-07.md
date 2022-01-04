@@ -33,9 +33,9 @@ Dendron 0.72 has sprouted  🌱
 
 #### Dendron Reading Series
 
-This week's entry in the [[Dendron Reading Series|community.reading-series]]. 
+This week's entry in the [[Dendron Reading Series|community.events.reading-series]]. 
 
-![[10 - The values of Emacs, the Neovim revolution, and the VSCode gorilla|dendron://dendron.dendron-site/community.reading-series.journal.2021.12.07]]
+![[dendron://dendron.dendron-site/community.events.reading-series.2021.12.07]]
 
 #### Office Hours
 
@@ -44,7 +44,7 @@ We will be hosting Office Hours this Wednesday! Event details [here](https://lu.
 #### Thank You's
 
 A big **thanks** to the following gardeners that brought up issues, contributions, and fixes to this release :man_farmer: :woman_farmer: 
-You can see an overview of all roles [[here|community.roles]]
+You can see an overview of all roles [[here|community.discord.roles]]
 
 - [David Bethune](https://github.com/garranplum) `@Garran Plum#2686`
   - #dendron.horticulturalist

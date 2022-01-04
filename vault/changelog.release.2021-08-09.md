@@ -39,7 +39,7 @@ Because this is a more involved feature, we've created an [[RFC|rfc.18-add-note-
 #### Thank You's
 
 A big **thanks** to the following gardeners that brought up issues, contributions, and fixes to this release :man_farmer: :woman_farmer: 
-You can see an overview of all roles [[here|community.roles]]
+You can see an overview of all roles [[here|community.discord.roles]]
 
 Docs:
 - [Mandar Vaze](https://github.com/mandarvaze) @mandarvaze#4457

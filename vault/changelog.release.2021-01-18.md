@@ -43,7 +43,7 @@ Last and most of all, a big **thanks** to the following gardeners that brought u
 - [Micharris42](https://github.com/micharris42) 
   - [issue with backslash in preview](https://github.com/dendronhq/dendron/issues/450)
 
-You can see an overview of all roles [[here|community.roles]]
+You can see an overview of all roles [[here|community.discord.roles]]
 
 ### Version Numbers
 

@@ -40,9 +40,9 @@ This release also includes some breaking changes due to some renaming of command
 
 #### Dendron Reading Series
 
-This week's entry in the [[Dendron Reading Series|community.reading-series]]. 
+This week's entry in the [[Dendron Reading Series|community.events.reading-series]]. 
 
-![[dendron://dendron.dendron-site/community.reading-series.journal.2021.11.02]]
+![[dendron://dendron.dendron-site/community.events.reading-series.2021.11.02]]
 
 ### New Team Member: Derek Ardolf - Dendron Evangelist
 
@@ -60,7 +60,7 @@ I'm Derek, and I go by `@ScriptAutomate` in most places.
 #### Thank You's
 
 A big **thanks** to the following gardeners that brought up issues, contributions, and fixes to this release :man_farmer: :woman_farmer: 
-You can see an overview of all roles [[here|community.roles]]
+You can see an overview of all roles [[here|community.discord.roles]]
 
 - [Kimsia Sim](https://github.com/simkimsia) `@kimsia#3035`
   - #dendron.taxonomist
