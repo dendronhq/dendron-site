@@ -4,7 +4,7 @@ title: Making Your First Schema
 desc: >-
   Learn to harness the powers of schema and automatically insert templates into
   new notes
-updated: 1641257248301
+updated: 1641257668806
 created: 1640784965050
 ---
 
@@ -14,9 +14,17 @@ You may find yourself wanting to use templates in your notes, especially when fi
 
 ## Concepts
 
-- **[[Daily Journal Notes|dendron.topic.daily-journal-note]]**: Special notes meant to be easily made with the `Create Daily Journal Note` (`Ctrl+Shift+I` / `Cmd+Shift+I`) command. These are also what appear in the [[Calendar View|dendron._ref.web-ui#calendar-view]].
-- **[[Templates|dendron.topic.templates]]**: Notes containing content meant to reuse in new notes, such as outlines meant to guide you throught specific note types or journal entries.
-- **[[Schemas|dendron://dendron.dendron-site/dendron.topic.schema]]**: These help you apply consistent structure to all your notes. One of its primary capabilities is to automatically insert [[templates|dendron://dendron.dendron-site/dendron.topic.templates]] into new notes. 
+### Daily journal notes
+
+![[dendron://dendron.dendron-site/dendron.topic.daily-journal-note#summary,1:#*]]
+
+### Templates
+
+![[dendron://dendron.dendron-site/dendron.topic.templates#summary,1:#*]]
+
+### Schemas
+
+![[dendron://dendron.dendron-site/dendron.topic.schema#summary,1:#*]]
 
 ## Steps
 
