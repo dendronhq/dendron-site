@@ -2,7 +2,7 @@
 id: axOETzHjAB9S0an4yfuzp
 title: '14 - Cultivating and Connecting Using Modular Notes and Personal Memos'
 desc: ''
-updated: 1641325828120
+updated: 1641422492849
 created: 1641315969749
 ---
 
@@ -26,5 +26,5 @@ My favorite thoughts from this article are around being able to use your garden 
 ## Related
 
 - [Atomic notes: How to use Zettelkasten to boost your creativity and productivity](https://zapier.com/blog/zettelkasten-method/)
-- Conversations around workflows and note taking strategies happen across a variety of the Dendron [[Discord Channels in the Community category|community.discord.channels#community]].
+- Conversations around workflows and note taking strategies happen across a variety of the Dendron [[Discord Channels in the Community category|dendron://dendron.dendron-site/community.discord.channels#community]].
 - Dendron's [Open PKM Catalog](https://pkm.dendron.so/): a reference of all things PKM (Personal knowledge management)! Feel free to browse and contribute.
