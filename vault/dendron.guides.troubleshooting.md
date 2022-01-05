@@ -2,7 +2,7 @@
 id: a6c03f9b-8959-4d67-8394-4d204ab69bfe
 title: Troubleshooting
 desc: ''
-updated: 1640427207720
+updated: 1641341080572
 created: 1595952505025
 nav_order: 7.1
 ---
@@ -147,9 +147,10 @@ This is not a valid schema.
 
 ### Why can't I click the checkbox?
 
-It could be that you are using the VS Code default Markdown instead of Dendron's Markdown Preview. 
+Clicking on the checkbox was a feature of the [[Legacy Dendron Preview|dendron://dendron.dendron-site/dendron.topic.preview-legacy]]
 
-![[dendron.guides.troubleshooting#using-the-wrong-preview,1:#*]]
+The current preview doesn't currently allow clicking the checkboxes while in preview
+
 
 ### Still initializing.  Please close this window and try again after Dendron has been initialized.
 
