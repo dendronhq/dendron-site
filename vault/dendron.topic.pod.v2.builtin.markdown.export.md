@@ -44,7 +44,7 @@ To change the default behavior,
 1. Add the following
   ```Yml
   wikiLinkToURL: true
-  convertTagNotesToLinks: true
-  convertTagNotesToLinks: true
+  convertTagNotesToLinks: false
+  convertTagNotesToLinks: false
   ```
 1. Run `Dendron: Export Pod V2` and select your config.
