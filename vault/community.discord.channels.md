@@ -2,7 +2,7 @@
 id: PIPLLg61HYfjK361B9Jm6
 title: Channels
 desc: ''
-updated: 1641422858677
+updated: 1641494792027
 created: 1640809094657
 ---
 
@@ -42,7 +42,11 @@ All about using Dendron: the channels under the **Product** category are a good 
 
 ### announcements
 
-Product releases, events, and more.
+General announcements about Dendron, the community, and more: those go out here.
+
+### releases
+
+Latest release highlights!
 
 ### feedback
 
