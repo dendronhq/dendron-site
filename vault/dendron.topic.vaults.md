@@ -2,7 +2,7 @@
 id: 6682fca0-65ed-402c-8634-94cd51463cc4
 title: Vaults
 desc: ''
-updated: 1639543094987
+updated: 1641501358022
 created: 1622841137387
 ---
 
@@ -198,11 +198,11 @@ This will have the following file layout
 ```yml
 vaults:
     -
-        fsPath: handbook-vault
+        fsPath: handbook
         workspace: handbook-workspace
         name: handbook
 workspaces:
-    handbook:
+    handbook-workspace:
         remote:
             type: git
             url: 'git@github.com:dendronhq/handbook.git'
