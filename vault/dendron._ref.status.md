@@ -23,7 +23,7 @@ Sometimes, you'll see a `status` underneath certain features or options. This pa
 
 ### Early Seed 🌱
 
-The feature or option was recently added and might only be available in Dendron's [[early seed release|dendron._ref.terms#early-seed-release]]. Early seed features are considured beta and may change at any time.
+The feature or option was recently added and might only be available in Dendron's [[early seed release|dendron.concepts#early-seed-release]]. Early seed features are considured beta and may change at any time.
 
 ### Experimental 🧪 
 

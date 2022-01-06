@@ -249,7 +249,7 @@ When you [[publish|dendron.topic.publish]] a note with a note reference, Dendron
 
 ## Configuration
 
-- note references by default come with an outline. They are called [[pretty refs|dendron._ref.terms#pretty-ref]].
+- note references by default come with an outline. They are called [[pretty refs|dendron.concepts#pretty-ref]].
 
 Toggle the following configuration to turn off this setting.
 
