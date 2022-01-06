@@ -2,7 +2,7 @@
 id: oTW7BFzKIlOd6iQnnNulg
 title: Export
 desc: ''
-updated: 1640428840537
+updated: 1641434034122
 created: 1638945970366
 published: false
 ---
@@ -33,7 +33,6 @@ The ID of an Airtable connection. See [[Airtable Connection|connections-dendron.
 ### baseId
 
 
-
 ### tableName
 
 ### sourceFieldMapping
@@ -60,6 +59,52 @@ String value is the name of the field in Dendron. You can use any valid [[NotePr
 ```yml
 srcFieldMapping: {Note ID : id, Title : title, Summary: body}
 ```
+
+#### multiSelect
+
+This fields let you pick multiple values. You can either select an arbitrary frontmatter field or use the special `tags` key to select tags in the note.
+
+Example of multi select using frontmatter field
+
+Config
+```yml
+# sourceFieldMapping
+Role: {type: "multiSelect", to: "foo"},
+```
+
+Note
+```md
+---
+foo: ["two", "three"]
+---
+```
+
+Export
+```
+foo: ["two", "three"]
+```
+
+
+Example of multi select using tags
+```yml
+Role: {type: "multiSelect", filter: "tags.dendron.role.*", to: "tags"},
+```
+
+Note
+```md
+---
+...
+---
+
+#role.foo
+#role.bar
+```
+
+Export
+```
+foo: ["role.foo", "role.bar"]
+```
+
 
 #### object value
 - `to`: the name of the field in Dendron
