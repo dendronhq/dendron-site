@@ -2,7 +2,7 @@
 id: ba97866b-889f-4ac6-86e7-bb2d97f6e376
 title: Markdown
 desc: ''
-updated: 1640383276152
+updated: 1641506657563
 created: 1598673110284
 ---
 - Notice: all references of `MPE` in this guide is in reference to `Dendron Markdown Preview Enhanced`, the default Markdown renderer of Dendron
@@ -192,7 +192,9 @@ Content in the first column | Content in the second column
 
 You can create a table from existing content using `> Markdown Shortcuts: Add Table` command.
 
-![](https://raw.githubusercontent.com/mdickin/vscode-markdown-shortcuts/master/media/demo/table_with_header.gif)
+![add table shortcut](https://raw.githubusercontent.com/mdickin/vscode-markdown-shortcuts/master/media/demo/table_with_header.gif)
+
+- TIP: for additional table operations, try the [text tables extension](https://marketplace.visualstudio.com/items?itemName=RomanPeshkov.vscode-text-tables)
 
 ### Abbreviation
 
