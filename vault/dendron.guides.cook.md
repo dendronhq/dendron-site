@@ -2,7 +2,7 @@
 id: 401c5889-20ae-4b3a-8468-269def4b4865
 title: Cookbook
 desc: ''
-updated: 1640884751786
+updated: 1641493086691
 created: 1595952505024
 nav_order: 6.1
 toc: true
@@ -71,7 +71,7 @@ If using GitHub with SSH keys or access tokens, here is an alternative: SSH keys
 
 If you haven't already done so, install Dendron and initialize a workspace by following the instructions [[here|dendron._ref.install]].
 
-Use the [[Vault Add|dendron.ref.commands#remote-vault]] command via the [[command palette|dendron._ref.terms#command-palette]], select remote vault, and paste the git url of the vault that you like to add
+Use the [[Vault Add|dendron.ref.commands#vault-add]] command via the [[command palette|dendron.concepts#command-palette]], select remote vault, and paste the git url of the vault that you like to add
 
 
 ### Converting a local vault to a remote vault
