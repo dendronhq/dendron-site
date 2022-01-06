@@ -39,7 +39,7 @@ Render wikilink with linked note's frontmatter title when the wikilink does not 
 - default: true
 
 ## enablePrettyRefs
-Render note references as [[pretty refs|dendron._ref.terms#pretty-ref]]
+Render note references as [[pretty refs|dendron.concepts#pretty-ref]]
 
 - default: true
 

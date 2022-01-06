@@ -186,7 +186,7 @@ If set to true, the inserted note index block will be wrapped between a marker l
 ### usePrettyRefs
 - default: true
 
-If set to false, don't use [[pretty refs|dendron._ref.terms#pretty-ref]] when publishing.
+If set to false, don't use [[pretty refs|dendron.concepts#pretty-ref]] when publishing.
 
 ### noRandomlyColoredTags
 - default: false
