@@ -2,7 +2,7 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1641579966611
+updated: 1641580265137
 created: 1601508213606
 nav_order: 2
 ---
@@ -10,7 +10,7 @@ nav_order: 2
 ## 0.76.1
 
 ### Features
-- feat(lookup): Lookup View for lookup modifiers when a note lookup is active ([[docs|dendron://dendron.dendron-site/dendron.topic.workbench#lookup-view]]) (#1977) @hikchoi
+- feat(lookup): new Lookup View for modifiers when a note lookup is active ([[docs|dendron://dendron.dendron-site/dendron.topic.workbench#lookup-view]]) (#1977) @hikchoi
 
 ### Enhancements
 - enhance(workspace): `Dendron: Change Workspace` can use file picker to select destination, instead of typing it out ([[docs|dendron://dendron.dendron-site/dendron.ref.commands#change-workspace]]) (#2044) @tuling
