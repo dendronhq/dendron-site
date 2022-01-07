@@ -1,6 +1,15 @@
 name: URL validator
 
-on: [push, pull_request]
+on:
+  push:
+    branches:
+    - master
+    - main
+  pull_request:
+    branches:
+    - master
+    - main
+    - dev
 
 jobs:
   Pre-Commit:
