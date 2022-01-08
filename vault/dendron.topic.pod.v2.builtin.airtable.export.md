@@ -2,7 +2,7 @@
 id: oTW7BFzKIlOd6iQnnNulg
 title: Export
 desc: ''
-updated: 1641655826206
+updated: 1641678620309
 created: 1638945970366
 published: false
 ---
@@ -80,6 +80,15 @@ In all cases, the key represents the name of the column in Airtable.
 
 - NOTE: the key must exist in Airtable before you are able to create a new value
 
+
+#### common options
+
+The following options apply for `string`, `boolean`, and `number` values
+
+- required: if set, throw error if field is not present
+- strictNullChecks: if set, throw error if field is null 
+
+
 #### string value
 
 String value is the name of the field in Dendron. You can use any valid [[NoteProps|dendron://dendron.docs/pkg.common-all#noteprops]] as the value
@@ -88,10 +97,10 @@ String value is the name of the field in Dendron. You can use any valid [[NotePr
 srcFieldMapping: {Note ID : id, Title : title, Summary: body}
 ```
 
-#### checkbox
+#### boolean
 - value: boolean
 
-You can represent a checkbox by using the `boolean` type
+You can represent a boolean by using the `boolean` type
 
 ```yml
 IsChecked: {type: boolean, to: "custom.checked" }
