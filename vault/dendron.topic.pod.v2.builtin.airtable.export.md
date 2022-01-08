@@ -2,7 +2,7 @@
 id: oTW7BFzKIlOd6iQnnNulg
 title: Export
 desc: ''
-updated: 1641643917359
+updated: 1641649260855
 created: 1638945970366
 published: false
 ---
@@ -86,6 +86,15 @@ String value is the name of the field in Dendron. You can use any valid [[NotePr
 
 ```yml
 srcFieldMapping: {Note ID : id, Title : title, Summary: body}
+```
+
+#### checkbox
+- value: boolean
+
+You can represent a checkbox by using the `boolean` type
+
+```yml
+IsChecked: {type: boolean, to: "custom.checked" }
 ```
 
 #### multiSelect
