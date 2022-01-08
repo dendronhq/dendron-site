@@ -61,7 +61,7 @@ You can see an overview of all roles [[here|community.discord.roles]]
 - [Britt](https://github.com/bs) @britt#3020
     - [Update dendron.topic.config.dendron.md by bs · Pull Request #184 · dendronhq/dendron-site](https://github.com/dendronhq/dendron-site/pull/184)
 - [Dave Richardson](https://github.com/djradon) @gunaar#9077 
-    #dendron.bugcatcher
+    #role.bugcatcher
     - issue with add and commit
 - [Funnym0nk3y](https://github.com/funnym0nk3y)
     - [[Bug/Feature] HTML-images · Issue #1273 · dendronhq/dendron](https://github.com/dendronhq/dendron/issues/1273)

@@ -72,18 +72,18 @@ A big **thanks** to the following gardeners that brought up issues, contribution
 You can see an overview of all roles [[here|community.discord.roles]].
 
 - [Luke Carrier](https://github.com/LukeCarrier) `@lukecarrier#2081`
-    - #dendron.bugcatcher
+    - #role.bugcatcher
     - [Migrations read dendron.code-workspace as JSON, not JSONC](https://github.com/dendronhq/dendron/issues/1790)
 - [maximilianigl](https://github.com/maximilianigl)
-    - #dendron.bugcatcher
+    - #role.bugcatcher
     - [Schema nodes cannot be reused in two parents in schema hierarchy](https://github.com/dendronhq/dendron/issues/1799)
 - [Kimsia Sim](https://github.com/simkimsia) `@kimsia#3035`
     - [docs: 4 reference type using numbered list](https://github.com/dendronhq/dendron-site/pull/294/files)
 - [Byron Wall](https://github.com/byronwall)
-    - #dendron.taxonomist
+    - #role.taxonomist
     - [docs: Correct npm package name](https://github.com/dendronhq/dendron-site/pull/295)
 - [Carlos Cámara](https://github.com/ccamara)
-    - #dendron.taxonomist
+    - #role.taxonomist
     - [docs: Adds a note to schema](https://github.com/dendronhq/dendron-site/pull/306)
     - [docs: typo](https://github.com/dendronhq/dendron-site/pull/305)
     - [docs: removes lost sentence](https://github.com/dendronhq/dendron-site/pull/304)

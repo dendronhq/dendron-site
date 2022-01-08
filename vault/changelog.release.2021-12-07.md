@@ -47,26 +47,26 @@ A big **thanks** to the following gardeners that brought up issues, contribution
 You can see an overview of all roles [[here|community.discord.roles]]
 
 - [David Bethune](https://github.com/garranplum) `@Garran Plum#2686`
-  - #dendron.horticulturalist
-  - #dendron.bugcatcher
+  - #role.horticulturalist
+  - #role.bugcatcher
   - [chore: add cross-env for win build script](https://github.com/dendronhq/dendron/pull/1824)
   - [Ignore assetPrefix in preview window to support GitHub pages which require it](https://github.com/dendronhq/dendron/issues/1848)
 - [Tuling Ma](https://github.com/tma66) `@Nidoling#2917`
-  - #dendron.horticulturalist
+  - #role.horticulturalist
   - [fix(schema): When applying a schema template, do not override the body but append to the end to it](https://github.com/dendronhq/dendron/pull/1812)
 - [not-so-smart](https://github.com/not-so-smart)
-  - #dendron.taxonomist
+  - #role.taxonomist
   - [Replace `dendron` CLI commands with `npx dendron`](https://github.com/dendronhq/dendron-site/pull/310)
 - [Jules Sam Randolph](https://github.com/jsamr) `@jsamr#1838`
-  - #dendron.bugcatcher
+  - #role.bugcatcher
   - [Vertical bars enclosed in backticks inside table cells are not rendered according to GFM spec](https://github.com/dendronhq/dendron/issues/1839)
 - [Mario Kahlhofer](https://github.com/blu3r4y") `@blu3r4y#6264`
-  - #dendron.bugcatcher
+  - #role.bugcatcher
   - [Error t.assertUnreachable when trying Export Pod V2 on a new vault on Windows](https://github.com/dendronhq/dendron/issues/1838)
 - [Aleksey Rowan](https://github.com/aleksey-rowan) `@aleksey#5276`
   - [Autocomplete clears the line after if the closing pair `]]`is missing](https://github.com/dendronhq/dendron/issues/1834)
 - [Anatoliy Kostin](https://github.com/tolikkostin)
-  - #dendron.bugcatcher
+  - #role.bugcatcher
   - [Link is opening twice in browser](https://github.com/dendronhq/dendron/issues/1851)
 - [Carlos Cámara](https://github.com/ccamara) `@ccamara#5131`
   - [Embeds kebab case](https://github.com/dendronhq/dendron-site/pull/307)

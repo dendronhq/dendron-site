@@ -52,7 +52,7 @@ A big **thanks** to the following gardeners that brought up issues, contribution
 You can see an overview of all roles [[here|community.discord.roles]]
 
 - @Belesiu#4701
-  - #dendron.bugcatcher
+  - #role.bugcatcher
   - preview v2 not opening links to external files
 - [Chris Na](https://github.com/buxel) @Buxel#7181 
   - [guide on publishing to azure static pages](https://github.com/dendronhq/dendron-site/pull/160)
@@ -64,13 +64,13 @@ You can see an overview of all roles [[here|community.discord.roles]]
   - issue with  schema in template seed
   - [lookup with `lookuupOnConfirmVault` not working](https://github.com/dendronhq/dendron/pull/1150)
 - [Denis Di Fazio](https://github.com/denisdifazio) @denisdifazio#6427 
-  - #dendron.bugcatcher
+  - #role.bugcatcher
   - [No backlink from frontmatter tags · Issue #1143 · dendronhq/dendron](https://github.com/dendronhq/dendron/issues/1143)
 - [craSH](https://github.com/craSH) craSH#0159
-  - #dendron.horticulturalist
+  - #role.horticulturalist
   - [Add support for Linux/Wayland with wl-paste by craSH · Pull Request #1 · dendronhq/dendron-paste-image](https://github.com/dendronhq/dendron-paste-image/pull/1)
 - [r-neal-kelly](https://github.com/r-neal-kelly)
-  - #dendron.bugcatcher
+  - #role.bugcatcher
   - [Faulty CSS Classes Disabling Reference Links · Issue #1148 · dendronhq/dendron](https://github.com/dendronhq/dendron/issues/1148)
 
 ### Changelog

@@ -78,34 +78,34 @@ A big **thanks** to the following gardeners that brought up issues, contribution
 You can see an overview of all roles [[here|dendron://dendron.dendron-site/community.discord.roles]]
 
 - [emmjayvee](https://github.com/emmjayvee)
-    - #dendron.taxonomist
+    - #role.taxonomist
     - [Update dendron.faq.md: Typo and re-wording](https://github.com/dendronhq/dendron-site/pull/343)
 - [Claus Conrad](https://github.com/cconrad) `@cconrad#0514`
     - [docs: Fix inconsistent capitalization](https://github.com/dendronhq/dendron-site/pull/334)
     - ["Select Vault" shows duplicate vaults, if no note is active](https://github.com/dendronhq/dendron/issues/2016)
 - [Ryan Hill](https://github.com/rlh1994) `@rlh1994#9754`
-    - #dendron.horticulturalist
+    - #role.horticulturalist
     - [fix(workspace): convertVault Typo](https://github.com/dendronhq/dendron/pull/1999)
     - [Issue with moving non-leaf notes between vaults; broken links, stub flags in non-stubs](https://github.com/dendronhq/dendron/issues/2003)
 - [redsolver](https://github.com/redsolver) `@redsolver#0372`
-    - #dendron.bugcatcher
+    - #role.bugcatcher
     - [Dendron server should restrict connections to localhost](https://discord.com/channels/717965437182410783/735365126227493004/926507322895925299)
 - [jquesada2016](https://github.com/jquesada2016)
     - [Improve accessibility in Preview Pane](https://github.com/dendronhq/dendron/issues/2012)
 - [Bryan Jenks](https://github.com/tallguyjenks) `@tallguyjenks#3567` 
-    - #dendron.bugcatcher
+    - #role.bugcatcher
     - [CONTRIBUTING link on website home page 404'd](https://github.com/dendronhq/dendron/issues/2024)
 - [Nahom Befekadu](https://github.com/NahomBefekadu) `@That_G_LexLuther#5100`
-    - #dendron.bugcatcher
+    - #role.bugcatcher
     - [Unable to preview/delete notes, and see them in tree view or graph](https://github.com/dendronhq/dendron/issues/2030)
 - [Jaroslav Knotek](https://github.com/jaroslavknotek)
-    - #dendron.bugcatcher
+    - #role.bugcatcher
     - [Cannot create scratch note when no file is opened](https://github.com/dendronhq/dendron/issues/2002)
 - [Matthew Giallourakis](https://github.com/foldsters) `@Foldster#7441`
-    - #dendron.bugcatcher
+    - #role.bugcatcher
     - [Markdown Preview never renders when accessing a remote dendron workspace over Remote-SSH](https://github.com/dendronhq/dendron/issues/2010)
 - [Murtaza Nazir](https://github.com/themurtazanazir)
-    - #dendron.bugcatcher
+    - #role.bugcatcher
     - [`\begin` elements not working](https://github.com/dendronhq/dendron/issues/2021)
 
 ## Changelog

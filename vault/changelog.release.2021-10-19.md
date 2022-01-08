@@ -54,12 +54,12 @@ A big **thanks** to the following gardeners that brought up issues, contribution
 You can see an overview of all roles [[here|community.discord.roles]]
 
 - [Jonathan Dorety](https://github.com/jdorety)
-    - #dendron.taxonomist
+    - #role.taxonomist
     - [Fix typo in GH action config example by jdorety](https://github.com/dendronhq/dendron-site/pull/230)
 - [Tika](https://github.com/SR--) `@Tika#9526`
     - issue with wikilinks inside note reference on new published website
 - [Buck DeFore](https://github.com/bdefore)
-    #dendron.taxonomist
+    #role.taxonomist
     - fix typo on job post
 - [Jminding](https://github.com/Jminding) `@Jminding#0001`
     - update Dendron troubleshooting guide

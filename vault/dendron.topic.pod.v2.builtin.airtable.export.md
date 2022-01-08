@@ -2,7 +2,7 @@
 id: oTW7BFzKIlOd6iQnnNulg
 title: Export
 desc: ''
-updated: 1641649260855
+updated: 1641655826206
 created: 1638945970366
 published: false
 ---
@@ -96,6 +96,13 @@ You can represent a checkbox by using the `boolean` type
 ```yml
 IsChecked: {type: boolean, to: "custom.checked" }
 ```
+
+#### number
+
+```yml
+ANumber: {type: number, to: "custom.anumber" }
+```
+
 
 #### multiSelect
 

@@ -66,17 +66,17 @@ You can see an overview of all roles [[here|community.discord.roles]]
 - [NZ John](https://github.com/nz-john) `@NZ-John#0569`
   - [HTML tables in Next.js is not formatted and ugly - basic formatting would help](https://github.com/dendronhq/dendron/issues/1674)
 - [Aleksey Rowan](https://github.com/aleksey-rowan) `@aleksey#5276`
-  - #dendron.bugcatcher
+  - #role.bugcatcher
   - [Schema note template overrides selection extract](https://github.com/dendronhq/dendron/issues/1675)
 - [Claus Conrad](https://github.com/cconrad) `@cconrad#0514`
-	- #dendron.bugcatcher
+	- #role.bugcatcher
 	- [Next letter after non-ascii character capitalized](https://github.com/dendronhq/dendron/issues/1668)
 - [Dave Richardson](https://github.com/djradon) `@djradon#9077`
 	- [lookup (without spaces) should be case-insensitive](https://github.com/dendronhq/dendron/issues/1654)
 - [Guilherme Costa](https://github.com/guilhermesfc) `@Guilherme Costa#9124`
 	- [Mardown Preview Enhanced does not open](https://github.com/dendronhq/dendron/issues/1657)
 - [Johndendron](https://github.com/johndendron) `@johndendron29#1873`
-	- #dendron.bugcatcher
+	- #role.bugcatcher
 	- [Show Preview does not show contents of all children under a scope](https://github.com/dendronhq/dendron/issues/1663)
 
 ### Changelog

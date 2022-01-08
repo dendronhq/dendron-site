@@ -42,28 +42,28 @@ A big **thanks** to the following gardeners that brought up issues, contribution
 You can see an overview of all roles [[here|community.discord.roles]]
 
 - [Dave Richardson](https://github.com/djradon) @gunaar#9077 
-  - #dendron.taxonomist
+  - #role.taxonomist
   - bad config in journal notes
   - [References to list items include sub-items when rendered in Preview v2 · Issue #1233 · dendronhq/dendron](https://github.com/dendronhq/dendron/issues/1233)
   - [Preview v2 inconsistent behaviour around block-referenced list items · Issue #1235 · dendronhq/dendron](https://github.com/dendronhq/dendron/issues/1235)
 - [Ding](https://github.com/Ding-Fan) @rainmaker#7370 
-  - #dendron.taxonomist
+  - #role.taxonomist
   - add Markor to list of mobile apps 
 - [Bassmann](https://github.com/Bassmann) @Bassmann#5300 
   - issue with browse note
 - NZ-John#0569
-  - #dendron.bugcatcher
+  - #role.bugcatcher
   - [Logo and site name when published, does not apply consistently across pages · Issue #1236 · dendronhq/dendron](https://github.com/dendronhq/dendron/issues/1236)
 - [HopperTech](https://github.com/HopperTech)
-  - #dendron.bugcatcher
+  - #role.bugcatcher
   - [New note stuck in with "stub: true" · Issue #1231 · dendronhq/dendron](https://github.com/dendronhq/dendron/issues/1231)
 - [Aleksey Rowan](https://github.com/aleksey-rowan) @aleksey#5276
   - [Cross-vault reference links are not rendered in V2 without `dendron://` prefix · Issue #1213 · dendronhq/dendron](https://github.com/dendronhq/dendron/issues/1213)
 - [Ryan Randall](https://github.com/ryan-p-randall)
-  - #dendron.bugcatcher
+  - #role.bugcatcher
   - [Rename note command doesn't update wikilinks to the renamed note if they are inside the renamed note · Issue #1207 · dendronhq/dendron](https://github.com/dendronhq/dendron/issues/1207)
 - [CyberFoxar](https://github.com/CyberFoxar)
-  - #dendron.bugcatcher
+  - #role.bugcatcher
   - [Preview v2 does not properly follow anchor links · Issue #1203 · dendronhq/dendron](https://github.com/dendronhq/dendron/issues/1203)
 - [Tika](https://github.com/SR--) Tika#9526
   - [Rename Note should apply to the Schema ID in the case of templates · Issue #1245 · dendronhq/dendron](https://github.com/dendronhq/dendron/issues/1245)

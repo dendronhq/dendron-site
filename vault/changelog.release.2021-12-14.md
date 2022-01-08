@@ -72,17 +72,17 @@ This week's entry in the [[Dendron Reading Series|community.events.reading-serie
 A big **thanks** to the following gardeners that brought up issues, contributions, and fixes to this release! You can see an overview of all roles [[here|dendron://dendron.dendron-site/community.discord.roles]]
 
 - [Carlos Cámara](https://github.com/ccamara) `@ccamara#5131`
-  - #dendron.taxonomist
+  - #role.taxonomist
   - [Workflow for workspaces with private and shared notes](https://github.com/dendronhq/dendron-site/pull/318)
 - [Tika](https://github.com/SR--) `@Tika#9526`
-  - #dendron.bugcatcher
+  - #role.bugcatcher
   - [Preview does not display images](https://github.com/dendronhq/dendron/issues/1856)
 - [r-good](https://github.com/r-good)`@rgood#4010`
-  - #dendron.bugcatcher
+  - #role.bugcatcher
   - [Refactor Hierarchy causing error with mixed case parent](https://github.com/dendronhq/dendron/issues/1870)
 - [Sagar Behere](https://github.com/sagarbehere)
   - [UI issues in published site](https://github.com/dendronhq/dendron/issues/1871)
-  - #dendron.bugcatcher
+  - #role.bugcatcher
 
 ### Changelog
 ![[dendron://dendron.dendron-site/changelog#0730:#0720]]

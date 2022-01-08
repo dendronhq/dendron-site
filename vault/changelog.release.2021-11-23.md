@@ -73,31 +73,31 @@ A big **thanks** to the following gardeners that brought up issues, contribution
 You can see an overview of all roles [[here|community.discord.roles]].
 
 - [Zero King](https://github.com/l2dy) `@l2dy#9201`
-  - #dendron.horticulturalist
+  - #role.horticulturalist
   - [fix: remove duplicate CSS](https://github.com/dendronhq/dendron/pull/1707)
   - [fix(workspace): remove trailing whitespace in note](https://github.com/dendronhq/dendron/pull/1736)
   - [chore(publish): remove unused API routes](https://github.com/dendronhq/dendron/pull/1765)
 - [benhsm] `@Jack of some quantity of trades#3247`
-  - #dendron.taxonomist
+  - #role.taxonomist
   - [docs: Make special note lookup keybinds more obvious](https://github.com/dendronhq/dendron-site/pull/286)
 - [icedwater](https://github.com/icedwater) `@icedwater#8514`
-  - #dendron.bugcatcher
+  - #role.bugcatcher
   - `dendron workspace info` has invalid output
 - [Bassmann](https://github.com/Bassmann) `@Bassmann#5300`
   - [Calendar view doesn't honor the journal config](https://github.com/dendronhq/dendron/issues/1733)
   - [Tree view doesn't get updated after rename Note](https://github.com/dendronhq/dendron/issues/1734)
 - [Im](https://github.com/immartian)
-  - #dendron.bugcatcher
+  - #role.bugcatcher
   - [Macro name in [xxxx] can't be seen in editor under VS Code "Highly Contrast" color scheme](https://github.com/dendronhq/dendron/issues/1738)
 - [David Paquet Pitts](https://github.com/davidpp) `@davidpp#5603`
-  - #dendron.bugcatcher
+  - #role.bugcatcher
   [Wiki - Search bar is on top of navigation and hidden a portion of it (Safari 15+)](https://github.com/dendronhq/dendron/issues/1740)
 - [Aleksey Rowan](https://github.com/aleksey-rowan) `@aleksey#5276`
   - [Strip whitespace when using Paste Link command](https://github.com/dendronhq/dendron/issues/1741)
 - [Funnym0nk3y](https://github.com/funnym0nk3y)
   - [Math rendering broken](https://github.com/dendronhq/dendron/issues/1747)
 - [John Wells](https://github.com/d1rewolf) `@d1rewolf#0381`
-  - #dendron.taxonomist
+  - #role.taxonomist
   - [Cmd + Enter doesn't navigate to links from editor on macOS](https://github.com/dendronhq/dendron/issues/1750)
 - [Kimsia Sim](https://github.com/simkimsia) `@kimsia#3035`
   - [Move Header Works Differently When the Header Is the First Section](https://github.com/dendronhq/dendron/issues/1762)

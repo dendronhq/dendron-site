@@ -48,7 +48,7 @@ A big **thanks** to the following gardeners that brought up issues, contribution
 You can see an overview of all roles [[here|community.discord.roles]]
 
 - `@doctorboy#9882`
-    - #dendron.bugcatcher
+    - #role.bugcatcher
     - schema match no longer works unless full path is typed in
 - [Jack](https://github.com/imalightbulb) `@I'm a lightbulb#6986`
     - backlinks don't update
@@ -58,7 +58,7 @@ You can see an overview of all roles [[here|community.discord.roles]]
 - [lenamio](https://github.com/lenamio)
     - [Tag autocomplete suggestion only appears if # symbol is first in line](https://github.com/dendronhq/dendron/issues/1352)
 - `@binary#0486`
-    - #dendron.taxonomist
+    - #role.taxonomist
     - [add React style guide by viztor](https://github.com/dendronhq/dendron-site/pull/207)
 
 

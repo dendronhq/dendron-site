@@ -76,24 +76,24 @@ A big **thanks** to the following gardeners that brought up issues, contribution
 You can see an overview of all roles [[here|community.discord.roles]].
 
 - `@orang2tang#7760`
-  - #dendron.bugcatcher
+  - #role.bugcatcher
   - issue with Dendron site on Edge browser
 - [Aaron Meese](https://github.com/ajmeese7)
-  - #dendron.taxonomist
+  - #role.taxonomist
   - [Update dendron.faq.md by ajmeese7 · Pull Request #273 · dendronhq/dendron-site](https://github.com/dendronhq/dendron-site/pull/273)
 - `@Jack of some quantity of trades#3247`
   - CLI issue when `enginePort` is passed
 - [sidwellr](https://github.com/sidwellr)
-  - #dendron.bugcatcher
+  - #role.bugcatcher
   - [Clicking links to pasted files in Dendron Preview doesn't work](https://github.com/dendronhq/dendron/issues/1695)
 - [Jeff Teter](https://github.com/JeffTeter)
-  - #dendron.bugcatcher
+  - #role.bugcatcher
   - [Preview copied and pasted should not include background colors](https://github.com/dendronhq/dendron/issues/1703)
 - [Kimsia Sim](https://github.com/simkimsia) `@kimsia#3035`
-  - #dendron.bugcatcher
+  - #role.bugcatcher
   - [forEach of undefined bug when using native workspace](https://github.com/dendronhq/dendron/issues/1705)
 - [Mari Rajaram](https://github.com/mrajaram)
-  - #dendron.taxonomist
+  - #role.taxonomist
   - [space character not visible in docs by mrajaram · Pull Request #275 · dendronhq/dendron-site](https://github.com/dendronhq/dendron-site/pull/275)
 
 ### Changelog
