@@ -2,7 +2,7 @@
 id: oTW7BFzKIlOd6iQnnNulg
 title: Export
 desc: ''
-updated: 1641434034122
+updated: 1641643917359
 created: 1638945970366
 published: false
 ---
@@ -32,8 +32,36 @@ The ID of an Airtable connection. See [[Airtable Connection|connections-dendron.
 
 ### baseId
 
-
 ### tableName
+
+### filters
+- type: `{fname: string[]}`
+
+Filter export scope by given patterns. Filter currently only supports the `fname` filter which filters by the file name.
+
+Example:
+
+Given the following notes:
+
+```
+- foo
+- foo.one
+- foo.one.alpha
+- foo.two
+```
+
+and the following filter
+
+```yml
+filters:
+  fname: [foo, foo.one*]
+```
+
+Then the following notes would be exported
+
+```
+- foo.two
+```
 
 ### sourceFieldMapping
 
