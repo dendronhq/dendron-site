@@ -2,7 +2,7 @@
 id: 8DCgctK-RMD4EeHjC5_hI
 title: Rich Formatting
 desc: ''
-updated: 1639681635630
+updated: 1641840215927
 created: 1625573403967
 nav_order: 3
 ---
@@ -31,13 +31,15 @@ The above table becomes rendered as the following, in the preview pane:
 
 ## Images
 
-> 🌱 **ACTION:** Copy any image onto your clipboard, and then use the `Paste Image` command while focused in your editor pane. This will automatically create a link for you and copy the file contents into the assets directory in your workspace. This relies on the **Dendron Paste Image** extension which is installed by default alongside Dendron.
+> 🌱 **ACTION:** Copy any image onto your clipboard, and then use the `Paste Image` command while focused in your editor pane. This will automatically create a link for you and copy the file contents into the assets directory in your workspace.
 
 Sample Image Link: `![Dendron Logo](assets/images/logo_small.png)`
 
 Result:
 
 ![Dendron Logo](https://org-dendron-public-assets.s3.amazonaws.com/images/tutorial-logo_small.png)
+
+> 💡 **TIP:** This relies on the **Dendron Paste Image** extension which is installed by default alongside Dendron. For Linux users, you'll need to have [`xclip`](https://opensource.com/article/19/7/xclip) (or [`wl-paste`](https://github.com/bugaevc/wl-clipboard) if using Wayland) installed.
 
 ## Equations
 
