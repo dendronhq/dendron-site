@@ -2,7 +2,7 @@
 id: MQpi87qLnzKK5iK3FlxUp
 title: '0.76'
 desc: ''
-updated: 1641330122132
+updated: 1641838506603
 created: 1641314638791
 ---
 
@@ -55,10 +55,10 @@ Dendron previously published backlinks and child links as header/anchor sections
 
 > These are highlights from the [[Dendron Discord|dendron://dendron.dendron-site/community.discord.channels]] `#starboard` and `#today-i-learned` channels.
 
-- :star: `@amar#9880` shared a write-up on [How to use a custom theme with Dendron](https://amar.io/memo/notes/lr2RxTLuy85mXFFN24lQ8/): _"Here's a write-up. Though I'm still in the process of figuring things out!"_
-- :star: `@kzilla#8818` shared a [VS Code customization](https://gist.github.com/ScriptAutomate/2c7bd7ccf8987f40f4125d8272333d55): _"Simple VS Code customization (in `settings.json`) to change heading colors and section folding shading. Makes reading markdown heck of a lot easier."_
-- :star: `@kevins8#0590` shared a link to [Getting a Computer Science PhD in the USA](https://parentheticallyspeaking.org/articles/us-cs-phd-faq/): _"Since we have a bunch of phds and folks considering it, this provides a good lens into current phd landscape for computer science."_
-- :bulb: `@kevins8#0590` shared a link to [Semantics and the Web: An Awkward History](https://news.ycombinator.com/item?id=29232814): _"A history of markup on the web as told through a lego playmation talk. See some parallels between web browsers back in the day and note taking tools today in terms of interoperability. Hopefully we'll avoid the xhtml phase..."_
+- ⭐ `@amar#9880` shared a write-up on [How to use a custom theme with Dendron](https://amar.io/memo/notes/lr2RxTLuy85mXFFN24lQ8/): _"Here's a write-up. Though I'm still in the process of figuring things out!"_
+- ⭐ `@kzilla#8818` shared a [VS Code customization](https://gist.github.com/ScriptAutomate/2c7bd7ccf8987f40f4125d8272333d55): _"Simple VS Code customization (in `settings.json`) to change heading colors and section folding shading. Makes reading markdown heck of a lot easier."_
+- ⭐ `@kevins8#0590` shared a link to [Getting a Computer Science PhD in the USA](https://parentheticallyspeaking.org/articles/us-cs-phd-faq/): _"Since we have a bunch of phds and folks considering it, this provides a good lens into current phd landscape for computer science."_
+- 💡 `@kevins8#0590` shared a link to [Semantics and the Web: An Awkward History](https://news.ycombinator.com/item?id=29232814): _"A history of markup on the web as told through a lego playmation talk. See some parallels between web browsers back in the day and note taking tools today in terms of interoperability. Hopefully we'll avoid the xhtml phase..."_
 
 ### Dendron Reading Series
 
