@@ -2,7 +2,7 @@
 id: eea2b078-1acc-4071-a14e-18299fc28f47
 title: Commands
 desc: ''
-updated: 1641314240103
+updated: 1641845971979
 created: 1595261816971
 nav_order: 3.1
 ---
@@ -64,7 +64,10 @@ This lets you quickly create a [[note reference|dendron.topic.note-reference]] t
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/ref-note.gif)
 
 #### Header Selection
+
 If you have a header selected while running this command, it will copy the note ref with the selected header to the next note ref.
+
+Having the cursor within a header will also show a lightbulb for the [[Contextual UI Header Operations|dendron://dendron.dendron-site/dendron.ref.commands#header-operations]], which includes a [[Copy Header Reference|dendron://dendron.dendron-site/dendron.ref.commands#copy-header-reference]] quick fix. This will copy the note ref to your clipboard.
 
 #### Block Selection
 If you have some text selected, Dendron can insert block anchors to reference the region you have selected.
@@ -675,6 +678,22 @@ Dendron recognises a new Markdown file created from VS Code context menu and pop
 #### Rename Note 
 
 ![[dendron://dendron.dendron-site/dendron.topic.refactoring#rename-note,1:#*]]
+
+### Header Operations
+
+These are Dendron-specific features made available as [Quick Fix operations in VS Code](https://code.visualstudio.com/docs/editor/refactoring#_code-actions-quick-fixes-and-refactorings).
+
+A header action is announced by a lightbulb when the cursor is within a header. Clicking on the Code Action lightbulb or using the Quick Fix command `Ctrl+.` will display the following quick fixes.
+
+> 💡 **TIP:** If you prefer to not see the Code Action lightbulb in your editor, you can disable lightbulbs with the `editor.lightbulb.enable` [setting](https://code.visualstudio.com/docs/getstarted/settings). You can still open Quick Fixes through Quick Fix command and `Ctrl+.` keyboard shortcut.
+
+#### Rename Header
+
+![[dendron://dendron.dendron-site/dendron.topic.refactoring#rename-header,1:#*]]
+
+#### Copy Header Reference
+
+![[dendron://dendron.dendron-site/dendron.ref.commands#header-selection,1:#*]]
 
 ##
 
