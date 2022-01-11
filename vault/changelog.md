@@ -2,10 +2,19 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1641580265137
+updated: 1641924279346
 created: 1601508213606
 nav_order: 2
 ---
+
+## 0.77.0
+
+### Fix
+- fix(workspace): warn for frontmatter issues even if the frontmatter is not visible (#2034) @kaan
+- fix(publish): Publishing dev server keeps running after exiting on Windows (#2035) @kaan
+- fix(views): tree view refresh and circular dependency removal (#2082) @jonathan
+- fix(views): `Show Preview` errors on Windows (#2094) @kaan
+- fix(cli): using `--noBuild` with export from CLI will cause command to hang (#2109) @kevin
 
 ## 0.76.1
 
@@ -16,7 +25,7 @@ nav_order: 2
 - enhance(workspace): `Dendron: Change Workspace` can use file picker to select destination, instead of typing it out ([[docs|dendron://dendron.dendron-site/dendron.ref.commands#change-workspace]]) (#2044) @tuling
 
 ### Fix
-- fix(refactor): move header issues (#2040) @hikchoi
+- fix(refactor): `Move Header` issues (#2040) @hikchoi
 - fix(schema): ensure month/day/time has two digits when doing data variable substitution (#2064) @tuling
 
 ## 0.76.0
