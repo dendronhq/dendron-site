@@ -2,7 +2,7 @@
 id: SknlI45uuo5XNaM5qROJo
 title: '0.77'
 desc: ''
-updated: 1641926102162
+updated: 1641926539080
 created: 1641924011077
 ---
 
@@ -33,7 +33,7 @@ Changing your workspace has just become easier: `Dendron: Change Workspace` now 
 #### General Updates
 
 - Blog post: [The Five Minute Journal with Dendron and Visual Studio Code](https://blog.dendron.so/notes/P1DL2uXHpKUCa7hLiFbFA/)
-- Discord: New releases channel, in order to separate release announcements from other Dendron announcements.
+- Discord: New `#releases` channel, in order to separate release announcements from other Dendron `#announcements`.
 - `awesome-dendron`: Do you know of VS Code extensions, note taking workflow links, and other resources you want to share with the Dendron community? [Contribute to the discussion about an awesome list](https://github.com/dendronhq/dendron/discussions/2118)!
 
 ### Starboard and TIL Highlights
@@ -62,15 +62,35 @@ This week's entry in the [[Dendron Reading Series|dendron://dendron.dendron-site
 A big **thanks** to the following gardeners that brought up issues, contributions, and fixes to this release :man_farmer: :woman_farmer: 
 You can see an overview of all roles [[here|community.discord.roles]]
 
-#todo
-
 - [Dan Gilleland](https://github.com/dagilleland) `@dagilleland#6290`
     - #role.taxonomist
     - [Pin longstanding issue for Typo Fixes and Grammar Corrections](https://github.com/dendronhq/dendron-blog/issues/17)
     - [General Typos and Grammar Corrections](https://github.com/dendronhq/dendron-blog/issues/15)
+    
 - [Harman](https://github.com/hrmnjt) `hrmnjt#1959`
     - #role.taxonomist
     - [Site reorg: Merged `[[dendron._ref.terms]]` with `[[dendron.concepts]]`](https://github.com/dendronhq/dendron-site/pull/348)
+
+- [Luke Carrier](https://github.com/LukeCarrier) `@lukecarrier#2081`
+    - #role.taxonomist
+    - #role.horticulturalist
+    - [Document Draw.io diagram export](https://github.com/dendronhq/dendron-site/pull/352)
+
+- [Adam Gluck](https://github.com/aglucky) `@glucinater21#0869`
+  - #role.bugcatcher
+  - [Markdown rendering with<br>](https://github.com/dendronhq/dendron/issues/2117)
+
+- [Chisomo Chiweza](https://github.com/Chisomo-Chiweza) `@thatmalawianprogrammer#5060`
+  - #role.bugcatcher
+  - [`lookupConfirm` no longer works](https://discord.com/channels/717965437182410783/735365126227493004/930145979464814662)
+
+- [Ross Dickerson](https://github.com/rzd-test) `@bitdryvr#4860`
+  - #role.bugcatcher
+  - [If you embed a note link into itself you create an endless loop and hang preview](https://github.com/dendronhq/dendron/issues/2126)
+
+- [Carmen Bianca Bakker](https://github.com/carmenbianca)
+    - #role.taxonomist
+    - [Make multi-vault example reflect reality](https://github.com/dendronhq/dendron-site/pull/349)
 
 ### Changelog
 ![[changelog#0770,1:#0760]]
