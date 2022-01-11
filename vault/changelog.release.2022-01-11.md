@@ -2,7 +2,7 @@
 id: SknlI45uuo5XNaM5qROJo
 title: '0.77'
 desc: ''
-updated: 1641926539080
+updated: 1641927170434
 created: 1641924011077
 ---
 
@@ -60,7 +60,7 @@ This week's entry in the [[Dendron Reading Series|dendron://dendron.dendron-site
 #### Thank You's
 
 A big **thanks** to the following gardeners that brought up issues, contributions, and fixes to this release :man_farmer: :woman_farmer: 
-You can see an overview of all roles [[here|community.discord.roles]]
+You can see an overview of all roles [[here|dendron://dendron.dendron-site/community.discord.roles]]
 
 - [Dan Gilleland](https://github.com/dagilleland) `@dagilleland#6290`
     - #role.taxonomist
