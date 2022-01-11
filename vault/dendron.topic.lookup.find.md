@@ -2,7 +2,7 @@
 id: 84a0366a-eab5-4862-9bef-360f92a196dc
 title: Finding Notes
 desc: ''
-updated: 1641816865799
+updated: 1641893921957
 created: 1608494616703
 ---
 
@@ -20,11 +20,11 @@ Below is an example of a simple two level hierarchy with notes on various [comma
 ## Sort Ordering
 When there are multiple matches they will be sorted in the following grouped order:
   1. By FuseJS match score.
-  1. By whether the note stub or not (stubs go to the bottom of the score group).
-  1. By levenshtein distance to original query (closer non-stub values go to the top within the score group).
-  1. By last update time. (Most recently updated notes with same levenshtein distance will bubble up within score group). 
+  1. By whether the note is a stub or not (stubs go to the bottom of the score group).
+  1. By Levenshtein distance to original query (closer non-stub values go to the top within the score group).
+  1. By last update time. (Most recently updated notes with same Levenshtein distance will bubble up within score group). 
 
-We first will group the results by FuseJS match scores and bubble up the groups of notes in the lookup results that have the best FuseJS match score. When there are notes with the same FuseJS match score we will apply further sorting on those notes within that FuseJS score group. First we will check if its a stub note or not. All the stub notes will be pushed down within the score group. Then we will check the levenshtein distance to the original query string and the closer levenshtein distance matches (that are not stubs) for will be bubbled (within the score group). Finally if there are notes with the same FuseJS score and same levenshtein distance (most likely use case are journal notes) we will use last updated date to bubble up the notes within the group that were most recently updated. 
+We first will group the results by FuseJS match scores and bubble up the groups of notes in the lookup results that have the best FuseJS match score. When there are notes with the same FuseJS match score we will apply further sorting on those notes within that FuseJS score group. First we will check if its a stub note or not. All the stub notes will be pushed down within the score group. Then we will check the Levenshtein distance to the original query string and the closer Levenshtein distance matches (that are not stubs) for will be bubbled (within the score group). Finally if there are notes with the same FuseJS score and same Levenshtein distance (most likely use case are journal notes) we will use last updated date to bubble up the notes within the group that were most recently updated. 
 
 ## Example queries
 ### Non ordered querying
