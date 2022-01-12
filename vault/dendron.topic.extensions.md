@@ -2,7 +2,7 @@
 id: 301e4129-6933-4be7-a4bd-8125171360d8
 title: Extensions
 desc: ''
-updated: 1639538167440
+updated: 1642009687936
 created: 1596643515473
 stub: false
 ---
@@ -33,4 +33,4 @@ Since Dendron runs on top of VS Code, it means that you also have access to thou
 
 ## Other VS Code Extensions
 
-![[dendron.guides.tips#other-vscode-extensions,1:#other-browser-extensions]]
+![[dendron.guides.tips#other-vs-code-extensions,1:#other-browser-extensions]]
