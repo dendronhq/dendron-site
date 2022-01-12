@@ -2,7 +2,7 @@
 id: cebe5393-5da0-484c-a24a-0939f0cef768
 title: Meeting Notes
 desc: ''
-updated: 1616692732239
+updated: 1642007210658
 created: 1599059373505
 ---
 This is a video of keeping meeting notes in Dendron. Meeting notes are kept as **journal notes** on a per-project basis. 
@@ -41,7 +41,7 @@ created: 1616645801530
 
 Settings and files used for the above video. 
 
-- project schema
+- Configuring project [[schemas|dendron://dendron.dendron-site/dendron.topic.schema]]
 
 ```yml
 - id: pro
@@ -60,12 +60,16 @@ Settings and files used for the above video.
 - id: retrospective
 ```
 
-- journal specific settings
+- Settings in [[Dendron Workspace configuration: journal|dendron://dendron.dendron-site/dendron.ref.config.workspace#journal]]
 
-```json
-{
-    "dendron.defaultJournalAddBehavior": "childOfDomainNamespace",
-    "dendron.defaultJournalDateFormat": "Y.MM.DD",
-}
+```yml
+# Within your workspace dendron.yml
+workspace:
+    journal:
+        dailyDomain: daily
+        name: journal
+        dateFormat: y.MM.dd
+        addBehavior: childOfDomainNamespace
 ```
 
+##
