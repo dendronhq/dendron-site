@@ -2,7 +2,7 @@
 id: 692fa114-f798-467f-a0b9-3cccc327aa6f
 title: Tips
 desc: ''
-updated: 1641506554082
+updated: 1642010896506
 created: 1595614204291
 nav_order: 4.1
 ---
@@ -408,7 +408,7 @@ VS Code doesn't support auto-formatting by default. You can use the following wo
 }
 ```
 
-> Credit for this recipe goes to @Stigs#0135 
+> Credit for this recipe goes to Discord user `@Stigs#0135`
 
 ### Academic Notes with Templates  
 
