@@ -17,7 +17,7 @@ Dendron 0.24 has sprouted :seedling:
 - bugs and performance related changes
 
 ### Breaking Changes
-- update date format for journal and scratch notes to use [Luxon style formatting](https://moment.github.io/luxon/#/formatting) ([[docs|dendron.ref.config.vscode-config#dendrondefaultjournaldateformat]])
+- update date format for journal and scratch notes to use [Luxon style formatting](https://moment.github.io/luxon/#/formatting) ([[docs|dendron.ref.config.vscode-config.deprecated#dendrondefaultjournaldateformat]])
   - this affects you if you updated `dendron.default*DateFormat` to something other than the default 
   - we made this change because [moment.js](https://momentjs.com/docs/#/-project-status/), our original date library, is now a legacy project and won't be receiving any new updates
 

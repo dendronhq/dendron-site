@@ -2,7 +2,7 @@
 id: 19a0ea9d-7292-4a68-bc6f-ffd462a54bc5
 title: VS Code Config
 desc: ''
-updated: 1640381907612
+updated: 1642008659735
 created: 1619541378119
 ---
 
@@ -33,52 +33,6 @@ Each folder entry has the following structure
     ]
 }
 ```
-
-## dendron.dailyJournalDomain
-- type: string
-- default: daily
-
-domain where daily journals are kept
-
-## dendron.defaultJournalName
-- type: string
-- default: journal
-
-name used for journal notes
-
-## dendron.defaultJournalDateFormat
-- type: string
-- default: y.MM.dd
-
-Date format used for journal notes. Use [luxon style formatting][luxon-style-formatting].
-
-## dendron.defaultJournalAddBehavior
-- type: string
-- default: childOfDomain
-- options:  ['childOfDomain', 'childOfDomainNamespace', 'childOfCurrent', 'asOwnDomain']
-
-strategy for adding new journal notes
-- NOTE: this only applies to regular journal notes but not to  [[Details|dendron.topic.daily-journal-note#details]] notes.
-
-## dendron.defaultScratchName
-- type: string
-- default: scratch
-
-Name used for scratch notes. Date format used for scratch notes. Use [luxon style formatting][luxon-style-formatting].
-
-## dendron.defaultScratchDateFormat
-- type: string
-- default: y.MM.dd.HHmmss
-
-date format used for scratch notes
-
-## dendron.defaultScratchAddBehavior
-- type: string
-- default: asOwnDomain
-- options:  ['childOfDomain', 'childOfDomainNamespace', 'childOfCurrent', 'asOwnDomain']
-
-strategy for adding new scratch notes
-
 
 ## dendron.defaultTimestampDecorationFormat 
 - default: DATETIME_MED
@@ -133,12 +87,6 @@ when creating a new note with selected text, define behavior for selected text
 - default: 
 
 location of Dendron workspace
-
-## dendron.dendronDir
-- type: string
-- default: 
-
-location of Dendron configuration
 
 ## dendron.logLevel
 - type: string
