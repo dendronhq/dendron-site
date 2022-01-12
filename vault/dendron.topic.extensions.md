@@ -13,7 +13,7 @@ Since Dendron runs on top of VS Code, it means that you also have access to thou
 - [Dendron Paste Image](https://link.dendron.so/vscode-paste-image)
   - easily add images from your clipboard to your Markdown files
 
-### Optional
+### Recommended
 
 Extensions officially published by Dendron, but aren't bundled by default when Dendron is installed.
 
