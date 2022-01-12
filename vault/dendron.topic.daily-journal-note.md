@@ -2,7 +2,7 @@
 id: ogIUqY5VDCJP28G3cAJhd
 title: Daily Journal Note
 desc: ''
-updated: 1641267367809
+updated: 1642008935019
 created: 1641256835508
 ---
 
@@ -19,7 +19,7 @@ You can create a daily journal by typing `> Dendron: Create Daily Journal Note` 
 
 ![[dendron://dendron.dendron-site/asset.preview#create-daily-journal,1:#*]]
 
-By default, it will create the journal under `daily.{date}` though this is configurable by setting the [[dendron.dailyJournalDomain|dendron.ref.config.vscode-config#dendrondailyjournaldomain]] in your `dendron.yml` config.
+By default, it will create the journal under `daily.{date}` though this is configurable by setting the [[dailyDomain|dendron://dendron.dendron-site/dendron.ref.config.workspace#dailydomain]] in your `dendron.yml` config.
 
 New daily journal notes can also be created, interactively, with [[Calendar View|dendron://dendron.dendron-site/dendron._ref.web-ui#calendar-view]].
 
