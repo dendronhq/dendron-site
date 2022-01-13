@@ -2,7 +2,7 @@
 id: 19a0ea9d-7292-4a68-bc6f-ffd462a54bc5
 title: VS Code Config
 desc: ''
-updated: 1642008659735
+updated: 1642067977633
 created: 1619541378119
 ---
 
@@ -112,7 +112,10 @@ port for server. If not set, will be randomly generated at startup.
 
 ## dendron.watchForNativeWorkspace
 - type: boolean
-- default: true
+- default: false
 
 When true, Dendron will watch workspaces to detect when a native workspace is
-created to simplify initialization. See [[Native Workspaces|dendron.topic.workspace.native]] for details.
+created to simplify initialization. This is no longer required, Dendron instead
+initializes itself when a native workspace is created. Enabling this may cause
+performance issues and crashes in workspaces that contain lots of files, it's
+recommended that you keep this `false`.
