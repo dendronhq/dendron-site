@@ -2,7 +2,7 @@
 id: f1af56bb-db27-47ae-8406-61a98de6c78c
 title: Note Reference
 desc: ""
-updated: 1641892781670
+updated: 1642067848058
 created: 1597356582509
 stub: false
 ---
@@ -257,11 +257,11 @@ Toggle the following configuration to turn off this setting.
 ![[dendron.ref.config#useprettyrefs:#*]]
 
 You can override this configuration for individual notes if you want (or don't want) pretty refs for only some notes.
-Just add `usePrettyRefs: true` (or `false`) to the [[frontmatter|dendron.topic.frontmatter]] of that note, like this:
+Just add `config: {global: {enablePrettyRefs: true}}` (or `false`) to the [[frontmatter|dendron.topic.frontmatter]] of that note, like this:
 
 ```
 ...
 updated: 1636492098692
-usePrettyRefs: true
+config: { global: { enablePrettyRefs: false}}
 ---
 ```
