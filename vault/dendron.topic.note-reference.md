@@ -1,15 +1,15 @@
 ---
 id: f1af56bb-db27-47ae-8406-61a98de6c78c
 title: Note Reference
-desc: ''
-updated: 1636492098692
+desc: ""
+updated: 1642067848058
 created: 1597356582509
 stub: false
 ---
 
 ## Summary
 
-Dendron allows you to reference content from other notes and **embed** them in your current note.  This is also known as [transclusion](https://en.wikipedia.org/wiki/Transclusion).  
+Dendron allows you to reference content from other notes and **embed** them in your current note. This is also known as [transclusion](https://en.wikipedia.org/wiki/Transclusion).
 
 Note references are different from regular [[links|dendron://dendron.dendron-site/dendron.topic.links]] in that they actually include the content of the destination in the current note.
 
@@ -43,9 +43,9 @@ Another example with a header range:
 > NOTE: When referencing headers with spaces in them, the note ref needs to use `-` instead of spaces within the name. This is a limitation of adopting GitHub-style slugger references. This is also useful for when multiple subheaders on a page may have the same name, which would expect something else `#foo` vs. `#foo-1` vs. `#foo-2`. This can be automatically taken care of by highlighting a header, and using `cmd+shift+r` / `ctrl+shift+r` to add a properly-formatted note ref to the clipboard.
 >
 > For more information:
+>
 > - [StackOverflow: How to escape symbols in GitHub-flavored Markdown internal links / heading anchors?](https://stackoverflow.com/a/48760076/5340149)
 > - [Anchors in Markdown gist](https://gist.github.com/asabaylus/3071099)
-
 
 ## Reference Types
 
@@ -75,7 +75,7 @@ Block references let you link or embed blocks of text into different parts of yo
 ![[example.my-note#^my-list]]
 ```
 
-Block References allow you to embed a block marked by an anchor in another note. 
+Block References allow you to embed a block marked by an anchor in another note.
 
 Here are a few examples:
 
@@ -119,7 +119,7 @@ Below is an example to a block reference to an earlier part of this page.
 
 #### Block Anchor
 
-A block anchor is a `^` character, followed by one or more digits, letters, dashes, and underscores. Dendron can automatically generate these, or you can add in custom anchors. 
+A block anchor is a `^` character, followed by one or more digits, letters, dashes, and underscores. Dendron can automatically generate these, or you can add in custom anchors.
 
 To have Dendron automatically generate random block anchors, select the target line or lines (or parts thereof) and run the `Copy Note Link` or `Copy Note Ref` commands. If multiple lines are selected, `Copy Note Ref` will generate two block anchors: one for the initial line, and one for the final line.
 
@@ -144,12 +144,13 @@ Lorem ipsum dolor amet ^1234
 ```
 
 `^whole-list`, `^whole-table`, and `^1234` reference the blocks they are attached to. List item block anchors reference the item they are attached to and any sub-items, e.g.
-* `^second-item` references "Item 2", "Item 2a", and "Item 2b"
-* `^third-item` references "Item 3"
+
+- `^second-item` references "Item 2", "Item 2a", and "Item 2b"
+- `^third-item` references "Item 3"
 
 #### Block Links
 
-Block Anchors can also be used as links. A block link has the following format. It is created in a note that is referencing a piece of text. When navigating the link, users should be taken to the block anchor. 
+Block Anchors can also be used as links. A block link has the following format. It is created in a note that is referencing a piece of text. When navigating the link, users should be taken to the block anchor.
 
 ```
 [[somelink#^1234]]
@@ -254,3 +255,13 @@ When you [[publish|dendron.topic.publish]] a note with a note reference, Dendron
 Toggle the following configuration to turn off this setting.
 
 ![[dendron.ref.config#useprettyrefs:#*]]
+
+You can override this configuration for individual notes if you want (or don't want) pretty refs for only some notes.
+Just add `config: {global: {enablePrettyRefs: true}}` (or `false`) to the [[frontmatter|dendron.topic.frontmatter]] of that note, like this:
+
+```
+...
+updated: 1636492098692
+config: { global: { enablePrettyRefs: false}}
+---
+```
