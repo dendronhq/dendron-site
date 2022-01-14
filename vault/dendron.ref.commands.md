@@ -544,6 +544,13 @@ Update your pod configuration
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/pods.configure.gif)
 
+### Configure Export Pod V2
+
+Update your export pod v2 configuration.
+
+### Configure Service Connection
+
+Update your service [[Connections|dendron://dendron.dendron-site/dendron.topic.pod.v2.connections]] config.
 ### Import Pod
 
 - shortcuts: none
