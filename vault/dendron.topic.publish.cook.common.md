@@ -9,7 +9,7 @@ created: 1631132278348
 ### Setup Dendron CLI
 ```
 npm init -y 
-npm install @dendronhq/dendron-cli
+npm install @dendronhq/dendron-cli@latest
 ```
 
 ### Setup Notes
@@ -32,7 +32,7 @@ npx dendron publish build
 ### Preview Notes
 
 - Run this command inside the root of your [[workspace|dendron.topic.workspace]]
-- This command launches a development server which previews how your published website will look like.  Visit [http://localhost:3000](http://localhost:3000) to accesss your site. 
+- This command launches a development server which previews how your published website will look like.  Visit `http://localhost:3000` to accesss your site. 
 - Enter `CTRL-C` on the terminal to exit the preview
 ```sh
 npx dendron publish dev

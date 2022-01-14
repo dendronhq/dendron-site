@@ -1,33 +1,39 @@
 ---
 id: yg3EL1x9fEe4NMqxUC3jP
-title: GitHub
+title: GitHub Pages
 desc: ''
-updated: 1640426053995
+updated: 1642134244617
 created: 1631132196609
 ---
 
 ## Summary
 
-You can publish your notes using Dendron Next.js Publishing and GitHub Pages
+You can publish your notes using Dendron Next.js Publishing and GitHub Pages.
 
-### Pre-requisites 
-- This assumes you have a GitHub repository. 
-    - If not, you can create one [here](https://github.com/new) from your existing workspace
+## Not Recommended
+
+Before continuing: **we do not recommend this path for publishing.** If possible, visit [[GitHub Pages publishing with GitHub Actions|dendron://dendron.dendron-site/dendron.topic.publish.cook.github-action]] for generating and publishing your website, instead!
+
+![[dendron://dendron.dendron-site/dendron.topic.publish.cook.github-action#why,1:#*]]
+
+## Prerequisites 
+- This assumes you have a GitHub account.
+    - If not, you can create one [here](https://github.com/new).
 - You have [[Dendron CLI|dendron.ref.cli]] installed (version `0.70.0` or greater)
 
-### Example Deployments
-You can see deployed examples of these instructions in the following repositories
+## Example Deployments
+You can see deployed examples of these instructions in the following repositories.
 
 - [Publish a regular GitHub page](https://github.com/dendronhq/template.publish.github)
-- [Publish with custom CNAME](https://github.com/dendronhq/dendron-blog)
 
 ## Process - Setup GitHub
 
 ### Create a GitHub repo
-- Follow the instructions [here](https://pages.github.com/) to create a repository named `{username}.github.io` where `{username}` is your username on GitHub
+
+Follow the instructions in the [GitHub Pages documentation](https://pages.github.com/) to create a repository named `{username}.github.io` where `{username}` is your username on GitHub.
 
 ### Add your notes 
-Navigate to your existing [[Dendron workspace|dendron.topic.workspace]].  Follow instructions provided by GitHub to push your workspace to GitHub. 
+Navigate to your existing [[Dendron workspace|dendron.topic.workspace]]. Follow instructions provided by GitHub to push your workspace to GitHub.
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/publishv2.github.jpg)
 
@@ -109,7 +115,7 @@ site:
 - NOTE: we're running export with the GitHub target
 
 ```sh
-dendron publish export --target github
+npx dendron publish export --target github
 ```
 
 ### Deploy your changes
@@ -119,12 +125,33 @@ git commit -m "Dendron page update"
 git push
 ```
 
+### First Deployments
+
 The first push will take a bit because Next.js generates a bunch of assets on initial publishing. Subsequent pushes will only commit changes and will be much faster. 
 
 You can see the status of your page by going clicking GitHub pages in your GitHub repo.
 
-- NOTE: since this is your first deployment, it might take a minute before you page shows up
+> Since this is your first deployment, it might take a minute before you page shows up.
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/kevinslin_dendron-next-test.png)
+
+## Updating dendron and published content
+
+One major reason that [[GitHub Pages publishing with GitHub Actions|dendron://dendron.dendron-site/dendron.topic.publish.cook.github-action]] is preferred, as opposed to this path, is that the GitHub Actions can automatically manage updates to your website.
+
+If not using GitHub Actions, the following needs to be done whenever you'd like to publish a new version of your website.
+
+```sh
+rm -rf docs
+rm -rf .next
+rm -rf node_modules
+rm -rf package*.json
+npm install @dendronhq/dendron-cli@latest
+npx dendron publish init
+npx dendron publish export --target github
+git add .
+git commit -m "Dendron page update"
+git push
+```
 
 ### Congratulations, you just published your first note 🌱
