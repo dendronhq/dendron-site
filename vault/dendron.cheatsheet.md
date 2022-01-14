@@ -2,7 +2,7 @@
 id: f9540bb6-7a5a-46db-ae7c-e1a606f28c73
 title: Cheatsheet
 desc: ''
-updated: 1640425925508
+updated: 1642189427624
 created: 1596374871110
 nav_exclude: true
 ---
@@ -192,8 +192,6 @@ Remove a vault from your workspace. Note that the underlying files wil **not** b
 ### Dendron: Initialize Workspace
 - description: Create a new workspace
 - shortcuts: none
-
-![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/workspace-init.gif)
 
 ### Dendron: Change Workspace
 - description: Change into existing workspace
