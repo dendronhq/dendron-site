@@ -45,16 +45,16 @@ A big **thanks** to the following gardeners that brought up issues, contribution
 You can see an overview of all roles [[here|community.discord.roles]]
 
 - Philippe Leveque `@ZorbaCodium#9873`
-    - #dendron.bugcatcher
+    - #role.bugcatcher
     - mermaid not working in preview
 - [Miguel Pereira](https://github.com/doctorboyMP) `doctorboy#9882`
     - issue with Dendron snapshots
 - [Laurentiu Nicola](https://github.com/lnicola)
-    - #dendron.bugcatcher
+    - #role.bugcatcher
     - ["Taking Notes" tutorial link doesn't work in the preview pane · Issue #1476 · dendronhq/dendron](https://github.com/dendronhq/dendron/issues/1476)
     - [Preview is not updated when editing the front matter · Issue #1477 · dendronhq/dendron](https://github.com/dendronhq/dendron/issues/1477)
 - [Eric Marthinsen](https://github.com/emarthinsen)
-    - #dendron.bugcatcher
+    - #role.bugcatcher
     - [Apostrophes are not allowed in link labels · Issue #1498 · dendronhq/dendron](https://github.com/dendronhq/dendron/issues/1498)
 - [Jack](https://github.com/imalightbulb) `@I'm a lightbulb#6986`
     - issue with GitHub link on dendron-site

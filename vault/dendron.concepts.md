@@ -2,7 +2,7 @@
 id: c6fd6bc4-7f75-4cbb-8f34-f7b99bfe2d50
 title: Concepts
 desc: ''
-updated: 1640804575093
+updated: 1641483917278
 created: 1595169512265
 nav_order: 5.01
 ---
@@ -101,6 +101,8 @@ The command palette is native to `VS Code`. You can use it to run Dendron comman
 - <img src="https://developer.apple.com/favicon.ico" width=16 height=16/> <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf">macOS</a> `Cmd+Shift+P`
 - <img src="https://www.microsoft.com/favicon.ico" width=16 height=16/> <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf">Windows</a> `Ctrl+Shift+P`
 
+The [command palette](https://code.visualstudio.com/docs/getstarted/userinterface#_command-palette) lets you access all command based functionality inside VS Code. 
+
 ### Lookup Bar
 
 The lookup bar is how you interact with notes inside of Dendron. Use it to create, find, and delete notes. You can type `> Dendron: Lookup` in the `Command Palette` or use the `Ctrl+L` shortcut. 
@@ -121,3 +123,26 @@ Glob patterns are a way of pattern matching characters. You can test and see mor
 ### Kebab Case
 
 ![[dendron.guides.best-practices#naming,1:#*]]
+
+### Early Seed Release
+
+Early builds of Dendron. Only availble to [[Environmentalist|community.discord.roles#environmentalist]].
+
+### Slug
+
+Human readable part of url. See [Wikipedia article](https://en.wikipedia.org/wiki/Clean_URL#Slug) for more details. 
+
+Dendron uses [github-slugger](https://github.com/Flet/github-slugger) to generate slugs.
+
+### Pretty Ref
+
+A pretty ref is a [[note ref|dendron.topic.note-reference]] rendered with an outline.
+
+You can see an example below
+
+![Pretty Note refs](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/topic.note-ref-pretty.jpg)
+
+A regular note ref is embedded inline in the text. 
+
+![Regular Note Ref](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/topic.note-ref-normal.jpg)
+

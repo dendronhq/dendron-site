@@ -63,29 +63,29 @@ A big **thanks** to the following gardeners that brought up issues, contribution
 You can see an overview of all roles [[here|dendron://dendron.dendron-site/community.discord.roles]]
 
 - [Jim Tittsler](https://github.com/jimt) `@jimt#5534`
-    - #dendron.taxonomist
+    - #role.taxonomist
     - [docs: Fix typos](https://github.com/dendronhq/dendron-site/pull/332)
 - [Zero King](https://github.com/l2dy) `@l2dy#9201`
     - [Publish commands still generate package.json for `@dendronhq/dendron-11ty-legacy`](https://github.com/dendronhq/dendron/issues/1946)
 - [Rick Berger](https://github.com/rickbsgu) `@rickbsgu#4922`
-    - #dendron.bugcatcher
+    - #role.bugcatcher
     - [File with subcategory that starts with 'md' does not show up in the Tree View properly](https://github.com/dendronhq/dendron/issues/1972)
 - [Denis Novikov](https://github.com/voothi) `@voothi#3159`
     - [Wikilinks (backlinks) is corrupted (view color and rename change) if there's too much text visible on the screen](https://github.com/dendronhq/dendron/issues/1976)
 - [Claus Conrad](https://github.com/cconrad) `@cconrad#0514`
-    - #dendron.taxonomist
+    - #role.taxonomist
     - [docs: Fix typos on note lookup output formats](https://github.com/dendronhq/dendron-site/pull/327)
     - [docs: Fix typo on unique `id` value is unique to the hook](https://github.com/dendronhq/dendron-site/pull/331)
     - [docs: Fix typo for foo/bar instead of foot/bar](https://github.com/dendronhq/dendron-site/pull/330)
     - [docs: Fix typo in Tree benefits for financial contributors to Dendron](https://github.com/dendronhq/dendron-site/pull/328)
-    - #dendron.bugcatcher
+    - #role.bugcatcher
     - [Broken link in GitHub issue template "Bug report"](https://github.com/dendronhq/dendron/issues/1988)
     - [Preview ignores wikilink label in rare case](https://github.com/dendronhq/dendron/issues/1989)
 - [Ryan Hill](https://github.com/rlh1994) `@rlh1994#9754`
-    - #dendron.bugcatcher
+    - #role.bugcatcher
     - [Typo in VaultConvert.ts](https://github.com/dendronhq/dendron/issues/1991)
 - [Thibault Nocchi](https://github.com/ThibaultNocchi) 
-    - #dendron.bugcatcher
+    - #role.bugcatcher
     - [Workspace setting "files.autoSave" is re-added each time the VSCode extension is updated](https://github.com/dendronhq/dendron/issues/1992)
 
 ### Changelog

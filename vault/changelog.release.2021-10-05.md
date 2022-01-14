@@ -55,18 +55,18 @@ A big **thanks** to the following gardeners that brought up issues, contribution
 You can see an overview of all roles [[here|community.discord.roles]]
 
 - [Stedag](https://github.com/Stedag) `@Stephen#8544`
-    - #dendron.horticulturalist
+    - #role.horticulturalist
     - [Updated OpenLink command](https://github.com/dendronhq/dendron/pull/1317)
 - [doctorboyMP](https://github.com/doctorboyMP) `@doctorboy#9882`
-    - #dendron.taxonomist
+    - #role.taxonomist
     - fixing a few typos in publishing docs
 - [codeluggage](https://github.com/codeluggage) `codeluggage#5635`
-    - #dendron.taxonomist
+    - #role.taxonomist
     - fixing ctrl+tab documentation in tutorial and site docs
 - [Aleksey Rowan](https://github.com/aleksey-rowan) `@aleksey#5276`
     - [A list of block references is not recognized correctly](https://github.com/dendronhq/dendron/issues/1443)
 - [Tycholiz](https://github.com/Tycholiz) `Tychronos#6624`
-    - #dendron.bugcatcher
+    - #role.bugcatcher
     - [Select vault smart status/always prompt config option](https://github.com/dendronhq/dendron/issues/1462)
 
 ### Changelog

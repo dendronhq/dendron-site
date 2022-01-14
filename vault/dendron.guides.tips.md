@@ -2,7 +2,7 @@
 id: 692fa114-f798-467f-a0b9-3cccc327aa6f
 title: Tips
 desc: ''
-updated: 1640428023674
+updated: 1642010896506
 created: 1595614204291
 nav_order: 4.1
 ---
@@ -408,7 +408,7 @@ VS Code doesn't support auto-formatting by default. You can use the following wo
 }
 ```
 
-> Credit for this recipe goes to @Stigs#0135 
+> Credit for this recipe goes to Discord user `@Stigs#0135`
 
 ### Academic Notes with Templates  
 
@@ -445,6 +445,7 @@ This is a list of other tools that work well with Dendron.
 - [CodeUI](https://marketplace.visualstudio.com/items?itemName=ryanraposo.codeui): Easier customization of every part of the VSCode UI
 - [Open in Typora](https://marketplace.visualstudio.com/items?itemName=cyberbiont.vscode-open-in-typora&utm_source=VSCode.pro&utm_campaign=AhmadAwais): Open note in Typora
 - [Profile Switcher](https://marketplace.visualstudio.com/items?itemName=aaronpowell.vscode-profile-switcher): Create different set of extension profiles
+- [Advanced Table Functionality](https://marketplace.visualstudio.com/items?itemName=RomanPeshkov.vscode-text-tables): Do more with markdown tables ^UJhO4Ps5qCWn
 
 ## Other Browser Extensions
 

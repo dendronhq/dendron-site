@@ -70,16 +70,16 @@ A big **thanks** to the following gardeners that brought up issues, contribution
 You can see an overview of all roles [[here|community.discord.roles]]
 
 - `@Jminding#0001`
-    - #dendron.taxonomist
+    - #role.taxonomist
     - document cloudflare vpn issue
 - [Lukas Orsvarn](https://github.com/lukors)
-    - #dendron.bugcatcher
+    - #role.bugcatcher
     - [Dendron Tree widget not updating on new note creation (regression) · Issue #1430 · dendronhq/dendron](https://github.com/dendronhq/dendron/issues/1430)
 - [Aleksey Rowan](https://github.com/aleksey-rowan) `@aleksey#5276`
     - [Probable vault name collision breaks V2 preview · Issue #1411 · dendronhq/dendron](https://github.com/dendronhq/dendron/issues/1411)
     - [Automatic title extraction doesn't work in cross-vault links without `dendron://` prefix · Issue #1429 · dendronhq/dendron](https://github.com/dendronhq/dendron/issues/1429)
 - [NZ John](https://github.com/nz-john) `@NZ-John#0569`
-    - #dendron.bugcatcher
+    - #role.bugcatcher
     - [.html remains at end of reference note card links (in Next.js) and breaks links · Issue #1400 · dendronhq/dendron](https://github.com/dendronhq/dendron/issues/1400)
 
 ### Changelog

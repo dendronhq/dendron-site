@@ -2,7 +2,7 @@
 id: cphUwSPk12j4lS0tKjBdC
 title: Navigation
 desc: ''
-updated: 1640447134851
+updated: 1641313664558
 created: 1638899506405
 ---
 
@@ -84,7 +84,9 @@ Siblings with numeric names will be sorted numerically, whereas siblings with al
   - key: `ctrl+shift+down`
   - when: `editorFocus`
 
-Go down the hierarchy
+Go down the hierarchy.
+
+The `Go Down` lookup supports tabbing for autocompletion.
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/hierarchy.go-down.gif)
 

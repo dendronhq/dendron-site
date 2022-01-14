@@ -1,8 +1,8 @@
 ---
 id: 401c5889-20ae-4b3a-8468-269def4b4865
 title: Cookbook
-desc: ''
-updated: 1640884751786
+desc: ""
+updated: 1641749912779
 created: 1595952505024
 nav_order: 6.1
 toc: true
@@ -14,9 +14,9 @@ toc: true
 
 This lets you execute commands inside VS Code
 
--   Linux: `Ctrl+Shift+P`
--   macOS: `Cmd+Shift+P`
--   Windows: `Ctrl+Shift+P`
+- Linux: `Ctrl+Shift+P`
+- macOS: `Cmd+Shift+P`
+- Windows: `Ctrl+Shift+P`
 
 ### Manual Install
 
@@ -60,8 +60,8 @@ Dendron does not have a dedicated mobile client at this time. There are numerous
 
 Most mobile apps do not have git support. Here are some third-party guides that have been written up to assist:
 
--   If you are on iOS, you can follow the instructions [here](https://victoria.dev/blog/a-remote-sync-solution-for-ios-and-linux-git-and-working-copy/) to sync your git backed Dendron with any note taking tool on iOS.
--   If you are on Android, you can read [this writeup](https://mstempl.netlify.app/post/working-with-git-on-android/) by a user on having Git Sync on Android devices. [MGit](https://manichord.com/projects/mgit.html) is also recommended for Android users when it comes to syncing your git backed Dendron with any note taking tool on Android.
+- If you are on iOS, you can follow the instructions [here](https://victoria.dev/blog/a-remote-sync-solution-for-ios-and-linux-git-and-working-copy/) to sync your git backed Dendron with any note taking tool on iOS.
+- If you are on Android, you can read [this writeup](https://mstempl.netlify.app/post/working-with-git-on-android/) by a user on having Git Sync on Android devices. [MGit](https://manichord.com/projects/mgit.html) is also recommended for Android users when it comes to syncing your git backed Dendron with any note taking tool on Android.
 
 If using GitHub with SSH keys or access tokens, here is an alternative: SSH keys that have project/repo-limited permissions as [Deploy Keys on GitHub](https://docs.github.com/en/developers/overview/managing-deploy-keys#deploy-keys) (with `Allow write access` enabled). This prevents users from setting up SSH keys with user-wide permissions across GitHub, making it more secure and limited.
 
@@ -71,21 +71,20 @@ If using GitHub with SSH keys or access tokens, here is an alternative: SSH keys
 
 If you haven't already done so, install Dendron and initialize a workspace by following the instructions [[here|dendron._ref.install]].
 
-Use the [[Vault Add|dendron.ref.commands#remote-vault]] command via the [[command palette|dendron._ref.terms#command-palette]], select remote vault, and paste the git url of the vault that you like to add
-
+Use the [[Vault Add|dendron.ref.commands#vault-add]] command via the [[command palette|dendron.concepts#command-palette]], select remote vault, and paste the git url of the vault that you like to add
 
 ### Converting a local vault to a remote vault
 
 1. If your vault is committed along with your workspace, use `git rm --cached` to remove it from the workspace repo and use `git init` to initialze your vault as a standalone repo
 1. Navigate to the root of your vault and initialize a git repository
-    ```sh
-    cd {vaultName}
-    git init
-    git add .
-    git commit -m "initial commit"
-    git add origin {your origin}
-    git push -u origin HEAD
-    ```
+   ```sh
+   cd {vaultName}
+   git init
+   git add .
+   git commit -m "initial commit"
+   git add origin {your origin}
+   git push -u origin HEAD
+   ```
 1. Run [[Configure (yaml)|dendron.ref.commands#configure-yaml]] and add the git [[remote|dendron.topic.vaults#remote]] urls to the repo. the entries should look like what you see below
 
 ![[dendron://dendron.dendron-site/dendron.topic.vaults#^NiCCqLjTG2nbM6Qi:#*]]
@@ -93,6 +92,7 @@ Use the [[Vault Add|dendron.ref.commands#remote-vault]] command via the [[comman
 ### Create note in a specific vault
 
 There are multiple ways to create a note in a specific vault
+
 - open a note that is already in the vault (all vaults have a `root` note by default so thats a quick way to select a particular vault)
 - use the [[vaultSelectionMode|dendron.topic.lookup.modifiers#vaultselectionmode]] modifier on lookup to select a new vault on creation
 
@@ -104,7 +104,7 @@ We currently haven't implemented a command to do but you can use the current man
 1. Update the name property on the corresponding [[workspace folders|dendron.ref.config.vscode-config#folders]]
 1. Replace any [[cross Vault Links|dendron.topic.links#cross-vault-links]] with the name of the new workspace
 
--   ctrl search `dendron://{vaultName}` and replace it with the new vaultName
+- ctrl search `dendron://{vaultName}` and replace it with the new vaultName
 
 1. Run `> Reload Window` when these steps are completed
 
@@ -114,13 +114,20 @@ You can create private vaults that won't be published or initialized when others
 
 ```yml
 vaults:
-    - fsPath: vault
-      visibility: private
+  - fsPath: vault
+    visibility: private
 ```
 
 ## Publishing
 
 ### How do I exclude certain vaults from being published?
+
+## Transferring
+
+### Export your notes as a PDF
+
+Our current guidance is to use [pandoc](https://pandoc.org/) to export your notes.
+Pandoc supports a wide variety of export formats including pdf, doc, and HTML.
 
 ## Workspace
 
@@ -131,10 +138,10 @@ There are usually two scenarios:
 1. you want two windows of different workspaces
 2. you want two windows of the same workspace
 
--   for 1, create a new window and initialize a new workspace in some directory that is different from your first workspace
--   for 2, you have a few options
-    -   a. initialize a new workspace in a different directory. open the settings using `> Open User Workspace settings (JSON)`. change the folder to the path of your vault in the initial workspace. run `> Reload Window` for the changes to take affect
-    -   b. use a different version of VS Code to open the same workspace (eg. VS Code Insiders, VSCodium, VS Code regular). you need to do this because VS Code will re-use the same window when opening the same workspace
+- for 1, create a new window and initialize a new workspace in some directory that is different from your first workspace
+- for 2, you have a few options
+  - a. initialize a new workspace in a different directory. open the settings using `> Open User Workspace settings (JSON)`. change the folder to the path of your vault in the initial workspace. run `> Reload Window` for the changes to take affect
+  - b. use a different version of VS Code to open the same workspace (eg. VS Code Insiders, VSCodium, VS Code regular). you need to do this because VS Code will re-use the same window when opening the same workspace
 
 ### Add Dendron to application launchers on Linux desktops
 
@@ -197,7 +204,6 @@ We are working on being able to run Dendron without the need for a workspace. Yo
 
 ### Updating a workspace
 
-
 ## Other
 
 ### How can I paste HTML content as Markdown?
@@ -222,10 +228,9 @@ code --user-data-dir=/path/to/code-dendron --extensions-dir=/path/to/code-dendro
 
 Dendron doesn't currently provide native support for this. You can download the [Bookmarks](https://marketplace.visualstudio.com/items?itemName=alefragnani.Bookmarks) extension to achieve the functionality in the interim.
 
-
 ### Analyze notes using Elasticsearch
 
--   WARNING: this is advanced material
+- WARNING: this is advanced material
 
 With Dendron, you can export your notes using the [[JSON Export Pod|dendron.topic.pod]] and then use that data to analyze your notes using Elasticsearch.
 
@@ -236,7 +241,7 @@ You can download the repo used in this walkthrough from [GitHub](https://github.
 
 Pre-requisites:
 
--   download and run Elasticsearch
+- download and run Elasticsearch
 
 Steps:
 
@@ -267,15 +272,15 @@ cat /path/to/exported/notes.json | jq -c '.[] | {"index": {"_index": "notes", "n
 
 Some potential use cases you can do using Elasticsearch and Dendron:
 
--   filter your notes by any logical combination of custom attributes
--   make a heatmap of notes created by date
--   get a full list of tags used across your vault and on a per hierarchy basis
--   anything else you can thin of :)
+- filter your notes by any logical combination of custom attributes
+- make a heatmap of notes created by date
+- get a full list of tags used across your vault and on a per hierarchy basis
+- anything else you can thin of :)
 
 Some useful additional links:
 
--   [Elasticsearch docs](https://www.elastic.co/guide/en/elasticsearch/reference/current/elasticsearch-intro.html)
--   [Elasticsearch for VSCode extension](https://marketplace.visualstudio.com/items?itemName=ria.elastic)
+- [Elasticsearch docs](https://www.elastic.co/guide/en/elasticsearch/reference/current/elasticsearch-intro.html)
+- [Elasticsearch for VSCode extension](https://marketplace.visualstudio.com/items?itemName=ria.elastic)
 
 ### Convert timestamps in the frontmatter
 
@@ -283,7 +288,7 @@ Currently, Dendron notes show timestamps in epoch time which is not the most par
 
 ### Use Dendron with Anki
 
--   [Anki for VSCode](https://marketplace.visualstudio.com/items?itemName=jasew.anki)
+- [Anki for VSCode](https://marketplace.visualstudio.com/items?itemName=jasew.anki)
 
 ### WebClipper
 

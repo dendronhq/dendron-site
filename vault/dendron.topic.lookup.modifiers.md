@@ -2,13 +2,17 @@
 id: ad270a7d-2aed-4273-8319-eb6536e38b29
 title: Modifiers
 desc: ''
-updated: 1635975545548
+updated: 1641577841605
 created: 1604883459208
 ---
 
 Modifiers allow you to change the behavior of lookup.
 
-You can toggle a modifier by clicking on the respective modifier icons in the lookup bar or passing custom arguments to `dendron.lookupNote` when defining a custom keyboard shortcut in `keybindings.json`
+You can toggle a modifier in three different ways:
+
+- Using the [[Lookup View|dendron://dendron.dendron-site/dendron.topic.workbench#lookup-view]] that appears in the explorer when a note lookup is active
+- Clicking on the respective modifier icons in the lookup bar
+- Passing custom arguments to `dendron.lookupNote` when defining a custom keyboard shortcut in `keybindings.json`
 
 ## Overview
 

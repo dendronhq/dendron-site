@@ -290,6 +290,6 @@ vaults:
 
 ## Discussions
 
-- [[name collision thread|dendron.roadmap.project.scratch.2020.09.07-121834]]
-- [[sharing materials between vaults|dendron.roadmap.project.scratch.2020.09.07-121952]]
+- [[name collision thread|dendron.roadmap.project.n.2020.multi-vault.xvault-wikilinks]]
+- [[sharing materials between vaults|dendron.roadmap.project.n.2020.multi-vault.targeted-publishing]]
 

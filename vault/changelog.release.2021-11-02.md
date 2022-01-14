@@ -63,23 +63,23 @@ A big **thanks** to the following gardeners that brought up issues, contribution
 You can see an overview of all roles [[here|community.discord.roles]]
 
 - [Kimsia Sim](https://github.com/simkimsia) `@kimsia#3035`
-  - #dendron.taxonomist
+  - #role.taxonomist
   - [Replace with canonical url for schema example at by simkimsia · Pull Request #255 · dendronhq/dendron-site](https://github.com/dendronhq/dendron-site/pull/255)
 - [Hoppertech](https://github.com/HopperTech)
-  - #dendron.bugcatcher
+  - #role.bugcatcher
   - [Fuzzy search in Lookup (note) has stopped working](https://github.com/dendronhq/dendron/issues/1634)
 - [Ragamroll](https://github.com/ragamroll)
-  - #dendron.bugcatcher
+  - #role.bugcatcher
   - [Links in published Next.js site exported for GitHub display a spinner](https://github.com/dendronhq/dendron/issues/1588)
 - [Tika](https://github.com/SR--) `Tika#9526`
   - [Logo and flavicon do not work on published sites](https://github.com/dendronhq/dendron/issues/1616)
   - [GH_EDIT_LINK setting does not work](https://github.com/dendronhq/dendron/issues/1612)
 - [Denis Novikov](https://github.com/voothi) `@voothi#3159`
-  - #dendron.bugcatcher
+  - #role.bugcatcher
   - [Import Pod Markdown is modified my own notes body content](https://github.com/dendronhq/dendron/issues/1608)
   - [Backlinks lists not contain wikilinks after import pod Markdown](https://github.com/dendronhq/dendron/issues/1607)
 - [Mhijazi1](https://github.com/mhijazi1)
-  - #dendron.bugcatcher
+  - #role.bugcatcher
   - [Move Header does not create a note if it does not already exists](https://github.com/dendronhq/dendron/issues/1606)
 - [Guilherme Costa](https://github.com/guilhermesfc) `@Guilherme Costa#9124`
   - [Note references sometimes do not work in Preview V2](https://github.com/dendronhq/dendron/issues/1601)

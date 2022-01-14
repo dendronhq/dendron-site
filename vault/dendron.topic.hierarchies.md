@@ -2,7 +2,7 @@
 id: f3a41725-c5e5-4851-a6ed-5f541054d409
 title: Hierarchies
 desc: ''
-updated: 1639680133398
+updated: 1641841664033
 created: 1595611213607
 ---
 
@@ -16,13 +16,13 @@ Below is a hypothetical hierarchy for a file tree:
 ```
 .
 └── project1/
-    ├── project1/designs/
-    │   └── project1/designs/promotion.png
-    ├── project1/paperwork/
-    │   └── project1/paperwork/legal.md
-    └── project1/tasks/
-        ├── project1/tasks/task1.md
-        └── project1/tasks/task2.md
+    ├── designs/
+    │   └── promotion.png
+    ├── paperwork/
+    │   └── legal.md
+    └── tasks/
+        ├── task1.md
+        └── task2.md
 ```
 
 The same hierarchy in Dendron would look like the following:

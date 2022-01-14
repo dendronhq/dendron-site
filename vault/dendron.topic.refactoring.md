@@ -2,7 +2,7 @@
 id: srajljj10V2dl19nCSFiC
 title: Refactoring
 desc: ''
-updated: 1640796176615
+updated: 1641845401310
 created: 1638900089932
 ---
 
@@ -145,6 +145,8 @@ Rename the selected header.
 
 You must put the caret on the header you want to rename.
 All wikilinks that link to this header (like `[[note#header]]`) will automatically get updated to the new header.
+
+Having the cursor within a header will also show a lightbulb for the [[Contextual UI Header Operations|dendron://dendron.dendron-site/dendron.ref.commands#header-operations]], which includes a [[Rename Note|dendron://dendron.dendron-site/dendron.ref.commands#rename-note]] quick fix.
 
 ## Links
 

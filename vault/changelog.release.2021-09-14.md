@@ -58,7 +58,7 @@ A big **thanks** to the following gardeners that brought up issues, contribution
 You can see an overview of all roles [[here|community.discord.roles]]
 
 - [kzilla](https://github.com/dendronhq/dendron/issues/1312) `@kzilla#8818`
-    - #dendron.bugcatcher
+    - #role.bugcatcher
     - ['Extension host terminated unexpectedly' - Argdown · Issue #1312 · dendronhq/dendron](https://github.com/dendronhq/dendron/issues/1312)
 - [Aleksey Rowan](https://github.com/aleksey-rowan) `@aleksey#5276`
     - [Frontmatter Variable Substitution doesn't work in V2 Preview/Publishing · Issue #1322 · dendronhq/dendron](https://github.com/dendronhq/dendron/issues/1322)

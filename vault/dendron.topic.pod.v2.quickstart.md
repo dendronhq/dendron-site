@@ -2,7 +2,7 @@
 id: j5wgTcRHQZomzSHsg41O8
 title: Quickstart
 desc: ''
-updated: 1640655573595
+updated: 1640713545610
 created: 1638871404471
 published: false
 ---
@@ -53,6 +53,7 @@ However, not all pods may support exporting of each scope.
 This specifies the podType. It must be one of the following values:
 - AirtableExportV2
 - MarkdownExportV2
+- GoogleDocsExportV2
 
 #### connectionId (required for some pods)
 

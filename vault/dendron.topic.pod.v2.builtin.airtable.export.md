@@ -2,7 +2,7 @@
 id: oTW7BFzKIlOd6iQnnNulg
 title: Export
 desc: ''
-updated: 1640428840537
+updated: 1641678620309
 created: 1638945970366
 published: false
 ---
@@ -32,9 +32,36 @@ The ID of an Airtable connection. See [[Airtable Connection|connections-dendron.
 
 ### baseId
 
-
-
 ### tableName
+
+### filters
+- type: `{fname: string[]}`
+
+Filter export scope by given patterns. Filter currently only supports the `fname` filter which filters by the file name.
+
+Example:
+
+Given the following notes:
+
+```
+- foo
+- foo.one
+- foo.one.alpha
+- foo.two
+```
+
+and the following filter
+
+```yml
+filters:
+  fname: [foo, foo.one*]
+```
+
+Then the following notes would be exported
+
+```
+- foo.two
+```
 
 ### sourceFieldMapping
 
@@ -53,6 +80,15 @@ In all cases, the key represents the name of the column in Airtable.
 
 - NOTE: the key must exist in Airtable before you are able to create a new value
 
+
+#### common options
+
+The following options apply for `string`, `boolean`, and `number` values
+
+- required: if set, throw error if field is not present
+- strictNullChecks: if set, throw error if field is null 
+
+
 #### string value
 
 String value is the name of the field in Dendron. You can use any valid [[NoteProps|dendron://dendron.docs/pkg.common-all#noteprops]] as the value
@@ -60,6 +96,68 @@ String value is the name of the field in Dendron. You can use any valid [[NotePr
 ```yml
 srcFieldMapping: {Note ID : id, Title : title, Summary: body}
 ```
+
+#### boolean
+- value: boolean
+
+You can represent a boolean by using the `boolean` type
+
+```yml
+IsChecked: {type: boolean, to: "custom.checked" }
+```
+
+#### number
+
+```yml
+ANumber: {type: number, to: "custom.anumber" }
+```
+
+
+#### multiSelect
+
+This fields let you pick multiple values. You can either select an arbitrary frontmatter field or use the special `tags` key to select tags in the note.
+
+Example of multi select using frontmatter field
+
+Config
+```yml
+# sourceFieldMapping
+Role: {type: "multiSelect", to: "foo"},
+```
+
+Note
+```md
+---
+foo: ["two", "three"]
+---
+```
+
+Export
+```
+foo: ["two", "three"]
+```
+
+
+Example of multi select using tags
+```yml
+Role: {type: "multiSelect", filter: "tags.dendron.role.*", to: "tags"},
+```
+
+Note
+```md
+---
+...
+---
+
+#role.foo
+#role.bar
+```
+
+Export
+```
+foo: ["role.foo", "role.bar"]
+```
+
 
 #### object value
 - `to`: the name of the field in Dendron

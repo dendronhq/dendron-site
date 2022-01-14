@@ -47,5 +47,5 @@ If you have ideas about pods and pod related workflows that you would like to se
 ## Related
 
 - [[dendron.topic.pod]]
-- [[pod proposal issue|dendron.roadmap.project.scratch.2020.09.07-164009]]	
+- [[pod proposal issue|dendron.roadmap.project.n.2020.pods.evernote-proposal]]	
 

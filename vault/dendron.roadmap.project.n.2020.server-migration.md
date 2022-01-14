@@ -76,7 +76,7 @@ To enable server mode, update the following setting in your workspace settings `
 ## Related
 
 - [[dendron.topic.pod]]
-- [[pod proposal issue|dendron.roadmap.project.scratch.2020.09.07-164009]]	
+- [[pod proposal issue|dendron.roadmap.project.n.2020.pods.evernote-proposal]]	
 
 <!-- 
 ### Breakdown

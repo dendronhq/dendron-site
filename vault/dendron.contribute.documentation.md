@@ -2,7 +2,7 @@
 id: b58801fc-43a9-4d42-a58b-eabc3e8538cb
 title: Documentation
 desc: ''
-updated: 1629206482226
+updated: 1641926778938
 created: 1604235766390
 ---
 
@@ -23,7 +23,7 @@ Images
 Gifs
 - uploading gifs is the same process as uploading images
 - to create gifs, we recommend using the [Kap](https://getkap.co/) app or making a [Loom video](http://loom.com/)
-- if you are making a gif from within VS Code, please turn on [screencast mode](https://scotch.io/bar-talk/vs-code-screencast-mode) so we can see what awesome keyboard shortcuts you're using :) 
+- if you are making a gif from within VS Code, please turn on [screencast mode](https://code.visualstudio.com/updates/v1_31#_screencast-mode) so we can see what awesome keyboard shortcuts you're using :)
 
 ### Making Changes via Pull Request
 

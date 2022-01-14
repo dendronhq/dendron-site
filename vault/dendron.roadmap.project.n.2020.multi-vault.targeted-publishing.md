@@ -1,6 +1,6 @@
 ---
 id: 02b1c04d-fc7e-4af9-9ffc-a661ac3da394
-title: Log
+title: Targeted Publishing
 desc: ''
 updated: 1599506392418
 created: 1599506392418

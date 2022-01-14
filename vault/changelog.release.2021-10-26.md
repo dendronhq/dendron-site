@@ -54,27 +54,27 @@ A big **thanks** to the following gardeners that brought up issues, contribution
 You can see an overview of all roles [[here|community.discord.roles]]
 
 - [Ikko Ashimine](https://github.com/eltociear)
-    - #dendron.taxonomist
+    - #role.taxonomist
     - fix typo in test-workspace
 - [Kim Sia Sim](https://github.com/simkimsia) `@kimsia#3035` 
-    - #dendron.bugcatcher
-    - #dendron.environmentalist
+    - #role.bugcatcher
+    - #role.env
     - [Helpful "Edit in GitHub" link missing in tutorial when VS Code](https://github.com/dendronhq/dendron/issues/1582)
     - [Dendron COmmand palette > sign in / Sign up > leads to broken auth link](https://github.com/dendronhq/dendron/issues/1580)
 - [demorganslaw](https://github.com/demorganslaw) `@demorganslaw#3718` 
-    - #dendron.bugcatcher
+    - #role.bugcatcher
     - [CLI getting "DendronError: no root found for <file_stem>](https://github.com/dendronhq/dendron/issues/1579)
 - [Guilherme Costa](https://github.com/guilhermesfc) `@Guilherme Costa#9124`
-    - #dendron.bugcatcher
+    - #role.bugcatcher
     - [lookupConfirmVaultOnCreate: true does not prompt which vault to create notes](https://github.com/dendronhq/dendron/issues/1570)
 - [Idan Gazit](https://github.com/idan) `@idan#8549`
-    - #dendron.bugcatcher
+    - #role.bugcatcher
     - [.gitignore should include seeds by default ](https://github.com/dendronhq/dendron/issues/1576)
 - [Tycholiz](https://github.com/Tycholiz) `Tychronos#6624`
     - [Refactor Hierarchy does not obey stubs with content](https://github.com/dendronhq/dendron/issues/1563)
     - [Lookup tool shows + sign on already existing notes](https://github.com/dendronhq/dendron/issues/1558)
 - [Laurentiu Nicola](https://github.com/lnicola) `@lnicola#6853`
-    - #dendron.taxonomist
+    - #role.taxonomist
     - fix typo in issue templates
 ### Changelog
 ![[changelog#065,1:#0640]]

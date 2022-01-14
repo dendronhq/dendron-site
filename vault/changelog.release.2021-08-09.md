@@ -46,17 +46,17 @@ Docs:
   - fixed docs
 Issues:
 - [imalightbulb](https://github.com/imalightbulb)
-    - #dendron.taxonomist
+    - #role.taxonomist
     - [RFC - Integrated Space Repetition](https://github.com/dendronhq/dendron/issues/1109)
 - [ConnorSMaynes](https://github.com/ConnorSMaynes)
     - [Dendron: Paste File from clipboard, just like for image](https://github.com/dendronhq/dendron/issues/1090)
 - [manunamz](https://github.com/manunamz)
     - [Allow User To Set alphabet and size For Nanoid ID in Config](https://github.com/dendronhq/dendron/issues/1091)
 - [Micharris42](https://github.com/micharris42) @micharris42#6073
-    - #dendron.bugcatcher
+    - #role.bugcatcher
     - [Wikilinks Changing Colors](https://github.com/dendronhq/dendron/issues/1093)
 - [craSH](https://github.com/craSH) craSH#0159
-    - #dendron.bugcatcher
+    - #role.bugcatcher
     - [Dendron Paste Image command is not aware of wayland CLI tools for interacting with clipboard](https://github.com/dendronhq/dendron/issues/1095)
 - [bj0](https://github.com/bj0)
     - [Feature Request Adding date with schema autocomplete](https://github.com/dendronhq/dendron/issues/1107)

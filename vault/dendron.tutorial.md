@@ -2,7 +2,7 @@
 id: 678c77d9-ef2c-4537-97b5-64556d6337f1
 title: Getting Started
 desc: ''
-updated: 1639680970300
+updated: 1641314370382
 created: 1608051264282
 nav_order: 1.1
 ---
@@ -22,7 +22,7 @@ When you install Dendron, you'll see the following page. Click the `Get Started`
 
 ![[dendron://dendron.dendron-site/asset.preview#tutorial-welcome-screen,1:#*]]
 
-> 💡 TIP: If you don't see this Welcome screen, you can open it up by typing `Ctrl+Shift+P` / `Cmd+Shift+P` to bring up the [command palette](https://code.visualstudio.com/docs/getstarted/userinterface#_command-palette), and then running `Dendron: Launch Tutorial` to create a workspace.
+> 💡 **TIP:** If you don't see this Welcome screen, you can open it up by typing `Ctrl+Shift+P` / `Cmd+Shift+P` to bring up the [command palette](https://code.visualstudio.com/docs/getstarted/userinterface#_command-palette), and then running `Dendron: Launch Tutorial` to create a workspace.
 >
 > ![[dendron://dendron.dendron-site/asset.preview#tutorial-launch-command,1:#*]]
 

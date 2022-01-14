@@ -2,7 +2,7 @@
 id: b0fe6ef7-1553-4280-bc45-a71824c2ce36
 title: Dendron
 desc: ''
-updated: 1641277435284
+updated: 1641310676938
 created: 1595952505017
 ---
 
@@ -158,17 +158,11 @@ Interested in trying out Dendron? Jump right in with the [[Getting Started guide
 
 ![[dendron://dendron.dendron-site/community]]
 
-## Developer Getting Started
-
-If you are interested in contributing to the Dendron source code, please see the [Dendron Development README](https://github.com/dendronhq/dendron/blob/master/docs/README.md) to get started.
-
 ## Contributors ✨
 
 Dendron wouldn't be what it is today without help from the wonderful gardeners 👨‍🌾👩‍🌾
 
 If you would like to contribute (docs, code, finance, or advocacy), you can find instructions to do so [[here|dendron://dendron.dendron-site/dendron.contribute]]. 
-
-This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. We welcome community contributions and pull requests. See [CONTRIBUTING](https://github.com/dendronhq/dendron/blob/master/docs/CONTRIBUTING.md) for information on how to set up a development environment and submit code.
 
 ## License
 

@@ -1,8 +1,8 @@
 ---
 id: 8de4209d-84d3-45f8-96a4-34282e34507d
-title: Preview Legacy
+title: Legacy Dendron Preview
 desc: ''
-updated: 1627320748582
+updated: 1641341038932
 created: 1603383580067
 ---
 
@@ -20,9 +20,3 @@ If you want to enable the legacy preview, please install it from the extension r
 
 - [link](https://marketplace.visualstudio.com/items?itemName=dendron.dendron-markdown-preview-enhanced) for VS Code users
 - [link](https://open-vsx.org/extension/dendron/dendron-markdown-preview-enhanced) for VSCodium users
-
-### Issues
-
-- Preview does not persist between reloads/restarts
-  - Workaround: [[Always show preview of md being edited|dendron.guides.tips#always-show-preview-of-md-being-edited]]
-

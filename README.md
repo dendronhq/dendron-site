@@ -183,17 +183,11 @@ There are a variety of ways to connect with Dendron devs, contributors, and othe
 - Read the [Dendron Blog](https://blog.dendron.so/)
 - Subscribe to the [Dendron Newsletter](https://link.dendron.so/newsletter)
 
-## Developer Getting Started
-
-If you are interested in contributing to the Dendron source code, please see the [Dendron Development README](https://github.com/dendronhq/dendron/blob/master/docs/README.md) to get started.
-
 ## Contributors ✨
 
 Dendron wouldn't be what it is today without help from the wonderful gardeners 👨‍🌾👩‍🌾
 
-If you would like to contribute (docs, code, finance, or advocacy), you can find instructions to do so [here](https://wiki.dendron.so/notes/125c990b-6fe7-4ada-a65f-44cbde8b33f0.html). 
-
-This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. We welcome community contributions and pull requests. See [CONTRIBUTING](https://github.com/dendronhq/dendron/blob/master/docs/CONTRIBUTING.md) for information on how to set up a development environment and submit code.
+If you would like to contribute (docs, code, finance, or advocacy), you can find instructions to do so [here](https://wiki.dendron.so/notes/125c990b-6fe7-4ada-a65f-44cbde8b33f0.html)
 
 ## License
 
