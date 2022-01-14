@@ -19,7 +19,7 @@ Below is an example of a simple two level hierarchy with notes on various [comma
 
 ## Sort Ordering
 When there are multiple matches they will be sorted in the following grouped order:
-  1. By FuseJS match score.
+  1. By [FuseJS match score](https://fusejs.io/concepts/scoring-theory.html).
   1. By whether the note is a stub or not (stubs go to the bottom of the score group).
   1. By [Levenshtein distance](https://medium.com/@ethannam/understanding-the-levenshtein-distance-equation-for-beginners-c4285a5604f0) to original query (closer non-stub values go to the top within the score group).
   1. By last update time. (Most recently updated notes with same Levenshtein distance will bubble up within score group). 
