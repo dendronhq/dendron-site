@@ -2,7 +2,7 @@
 id: rHxjw4xX6EynKAWSUxAo6
 title: Airtable
 desc: ''
-updated: 1640428897203
+updated: 1642405085935
 created: 1638945959590
 published: false
 ---
@@ -56,7 +56,7 @@ Currently, the way to do this is to run the following steps:
     ```
 11. Check final result. The config should look like below, if it isn't, you can just copy/replace the contents with the value below.
 
-    ```yml
+```yml
     # description: configuration ID
     # type: string
     # required: true
@@ -68,8 +68,8 @@ Currently, the way to do this is to run the following steps:
     
     # description: export scope of the pod
     # type: string
-    # required: true
-    exportScope: Note
+    # NOTE: When a setting is missing from this config, you will get a UI prompt to select a value for that setting while running the export pod. For this particular exportScope setting, if you would rather not be prompted and always have the same exportScope, simply uncomment the line below.
+    # exportScope: Note
     
     # description: type of pod
     # type: string
@@ -107,7 +107,7 @@ Currently, the way to do this is to run the following steps:
           Creator: creator,
           Status: status,
         }
-    ```
+```
 
 ### Run the Pod to Export a Task to Airtable
 
@@ -126,64 +126,3 @@ Currently, the way to do this is to run the following steps:
     ```
 
     Some fields in Airtable are like enums - if you try to upload a value that's not in the enum set, then you'll get this error. Scope, Size, and Status are enum fields. Scope must match a value in [[tags.scope]].  When in doubt, check what values are allowed in Airtable.
-
-### (Optional) Add another configuration to export an entire hierarchy
-
-You can also add a second configuration that allows you to export an entire hierarchy worth of tasks at once (for example, everything under `task.pod`).  Repeat the same steps as above, but with 2 changes: 
-- A different ID, perhaps `dendron-tasks-hierarchy`
-- `exportScope` set to `Hierarchy`
-
-Full config example below:
-
-```yml
-# description: configuration ID
-# type: string
-# required: true
-podId: dendron-tasks-hierarchy
-
-# description: optional description for the pod
-# type: string
-description: Exports Full Hierarchy for Dendron Tasks
-
-# description: export scope of the pod
-# type: string
-# required: true
-exportScope: Hierarchy
-
-# description: type of pod
-# type: string
-# required: true
-podType: AirtableExportV2
-
-# description: ID of the Airtable Connected Service
-# type: string
-# required: true
-connectionId: dendron-airtable
-
-# description: Airtable base id
-# type: string
-# required: true
-baseId: appKOgvtfSzZyj1YM
-
-# description: Name of the Airtable
-# type: string
-# required: true
-tableName: tblLjBKhYtXnZ2t1w
-
-# description: mapping of Airtable fields with the note eg: {Created On: created, Notes: body}
-# type: object
-# required: true
-sourceFieldMapping:  {
-  DendronId: id, 
-  Name: title,
-  Owner: owner,
-  Notes: body, 
-  Updated: {to: updated, type: date}, 
-  Created: {to: created, type: date},
-  Scope: {type: "singleTag", filter: "tags.scope.*"},
-  Size: {type: "singleTag", filter: "tags.size.*"},
-  Sprint.Tag: {type: "singleTag", filter: "tags.sprint.*"},
-  Status: status,
-  Creator: creator
-}
-```
