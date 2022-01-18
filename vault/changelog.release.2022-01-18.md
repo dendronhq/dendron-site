@@ -2,7 +2,7 @@
 id: 3UMZl74UsgY9by8BgbDDW
 title: '0.78'
 desc: ''
-updated: 1642486202604
+updated: 1642518650025
 created: 1642485037509
 ---
 
@@ -53,7 +53,7 @@ git clone --separate-git-dir=C:/Users/username/my_workspace/dendron-site-git/.gi
 
 This week's entry in the [[Dendron Reading Series|dendron://dendron.dendron-site/community.events.reading-series]].
 
-#todo
+![[16 - How to be spontaneous and grab some unexpected fun|dendron://dendron.dendron-site/community.events.reading-series.2022.01.18]]
 
 #### Office Hours and New User Tuesdays
 
@@ -68,7 +68,44 @@ This week's entry in the [[Dendron Reading Series|dendron://dendron.dendron-site
 A big **thanks** to the following gardeners that brought up issues, contributions, and fixes to this release :man_farmer: :woman_farmer: 
 Visit [[Discord Roles|dendron://dendron.dendron-site/community.discord.roles]] for more information.
 
-#todo
+- [Kamil](https://github.com/KamQb) `@qKi#0849`
+  - #role.horticulturalist
+  - [fix/paste-link-title-trim](https://github.com/dendronhq/dendron/pull/1961)
+
+- [Sahil](https://github.com/sahil48)
+  - #role.bugcatcher
+  - [Long Titles in Search Results Overflow in Full Text Search](https://github.com/dendronhq/dendron/issues/2127)
+  - [Search Bar Results to not stay anchored to the search bar when scrolling up](https://github.com/dendronhq/dendron/issues/2128)
+
+- [Jeff Hopper](https://github.com/HopperTech)
+  - [Search result link jumps to top of page](https://github.com/dendronhq/dendron/issues/2144)
+
+- [Adam Gluck](https://github.com/aglucky) `@glucinater21#0869`
+  - [Mobile Logo Issue](https://github.com/dendronhq/dendron/issues/2159)
+
+- [Tsvetomir Bonev](https://github.com/invakid404)
+  - #role.bugcatcher
+  - [logo url doesn't take assetsPrefix into account](https://github.com/dendronhq/dendron/issues/2161)
+
+- [Andrey Jef](https://github.com/andrey-jef) `@evanAndiez#9559`
+  - #role.bugcatcher
+  - [Inconsistent layout of mobile view of published pages](https://github.com/dendronhq/dendron/issues/2175)
+
+- [Jack](https://github.com/imalightbulb) `@I'm a lightbulb#6986`
+  - #role.bugcatcher
+  - [numbering with no text are squashed together in the preview](https://github.com/dendronhq/dendron/issues/2178)
+
+- [James Henry](https://github.com/henry-js) `@henry-js#6283`
+  - #role.bugcatcher
+  - [dendron-site: Troubleshooting `#lookup-shortcut-is-not-working`?](https://github.com/dendronhq/dendron-site/issues/357)
+
+- [Michael Harrison](https://github.com/micharris42) `@micharris42#6073`
+  - #role.taxonomist
+  - [dendron-site: Updates to the Extensions page on the Dendron Wiki](https://github.com/dendronhq/dendron-site/issues/359)
+
+- [Callum Mcdonald](https://github.com/chmac) `@chmac#2931`
+  - #role.horticulturalist
+  - [dendron-site: Minor typo fix](https://github.com/dendronhq/dendron-site/pull/365)
 
 ### Changelog
 ![[changelog#0780,1:#0770]]
