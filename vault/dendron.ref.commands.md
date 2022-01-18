@@ -2,7 +2,7 @@
 id: eea2b078-1acc-4071-a14e-18299fc28f47
 title: Commands
 desc: ''
-updated: 1642189415954
+updated: 1642547284566
 created: 1595261816971
 nav_order: 3.1
 ---
@@ -670,6 +670,17 @@ Open Dendron logs for current session
 - shortcuts: none
 
 Copy last 3000 lines of all logs and config to clipboard. Use when submitting an issue to Dendron
+
+Information displayed:
+- workspace type
+- current dendron version
+- previous workspace version
+- previous global version
+- extension install status
+- contents of `dendron.yml`
+- contents of `dendron.code-workspace`
+- telemetry status
+- last 3000 lines of logs from client and server
 
 
 ## Contextual UI
