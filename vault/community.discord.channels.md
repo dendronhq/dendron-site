@@ -2,7 +2,7 @@
 id: PIPLLg61HYfjK361B9Jm6
 title: Channels
 desc: ''
-updated: 1642485824445
+updated: 1642520721951
 created: 1640809094657
 ---
 
@@ -103,6 +103,16 @@ All about using Dendron: the channels under the **Community** category are a goo
 ### starboard
 
 If you feel more people need to see a particular message, then give it a star emoji reaction. When messages are given more than one star emoji, in the other public Dendron Discord channels, a bot shares them to this channel.
+
+### kudos
+
+Give recognition to gardeners that have helped you out!
+
+Example:
+
+```
+@{username}: what you appreciate them for
+```
 
 ### chat
 

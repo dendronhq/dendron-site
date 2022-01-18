@@ -2,7 +2,7 @@
 id: 3UMZl74UsgY9by8BgbDDW
 title: '0.78'
 desc: ''
-updated: 1642518650025
+updated: 1642520832730
 created: 1642485037509
 ---
 
@@ -32,6 +32,7 @@ Lookup search results are leveling up when it comes to the displayed order of no
 #### General Updates
 
 - Discord: Starting this week, we'll be using an [[events|dendron://dendron.dendron-site/community.discord.channels#events]] stage channel for Dendron (such as _Office Hours_ and _New User Tuesdays_).
+- Discord: Use the new [[kudos|dendron://dendron.dendron-site/community.discord.channels#kudos]] channel to give recognition to other community members!
 - `awesome-dendron`: Do you know of VS Code extensions, note taking workflow links, and other resources you want to share with the Dendron community? [Contribute to the discussion about an awesome list](https://github.com/dendronhq/dendron/discussions/2118)!
 
 #### Starboard and TIL Highlights
