@@ -2,10 +2,25 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1641924279346
+updated: 1642485114942
 created: 1601508213606
 nav_order: 2
 ---
+
+## 0.78.0
+
+### Enhancements
+- enhance(pod): Markdown import pod avoids reformatting files ([[docs|dendron://dendron.dendron-site/dendron.topic.pod.builtin.markdown.import]]) (#2084) @kaan
+- enhance(workspace): `Dendron: Initialize Workspace` can use file picker to select destination, instead of typing it out ([[docs|dendron://dendron.dendron-site/dendron.ref.commands#initialize-workspace]]) (#2130) @tuling
+- enhance(markdown): allow notes to override the pretty refs setting ([[docs|dendron://dendron.dendron-site/dendron.topic.note-reference#configuration]]) (#2124) @kaan
+- enhance(workspace): detect config / client compatibility mismatch in cli (#2113) @hikchoi
+
+### Fix
+- fix(lookup): add sort by levenshtein distance prior to sorting by update date to lookup results of the same match score ([[docs|dendron://dendron.dendron-site/dendron.topic.lookup.find#sort-ordering]]) (#2111) @nickolay
+- fix(commands): paste-link-title-trim (#1961) [KamQb](https://github.com/KamQb) `@qKi#0849`
+- fix(workspace): insert note index enablement (#2133) @hikchoi
+- fix(views): hover preview containing local images on Windows (#2047) @kaan
+- fix(views): enable copy plaintext from preview (#2152) @kevin
 
 ## 0.77.0
 
