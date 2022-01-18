@@ -75,7 +75,7 @@ Use the [[Vault Add|dendron.ref.commands#vault-add]] command via the [[command p
 
 ### Converting a local vault to a remote vault
 
-1. If your vault is committed along with your workspace, use `git rm --cached` to remove it from the workspace repo and use `git init` to initialze your vault as a standalone repo
+1. If your vault is committed along with your workspace, use `git rm --cached` to remove it from the workspace repo and use `git init` to initialize your vault as a standalone repo
 1. Navigate to the root of your vault and initialize a git repository
    ```sh
    cd {vaultName}
