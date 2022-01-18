@@ -2,7 +2,7 @@
 id: 3UMZl74UsgY9by8BgbDDW
 title: '0.78'
 desc: ''
-updated: 1642521605242
+updated: 1642522065686
 created: 1642485037509
 ---
 
@@ -106,7 +106,7 @@ Visit [[Discord Roles|dendron://dendron.dendron-site/community.discord.roles]] f
   - [dendron-site: Updates to the Extensions page on the Dendron Wiki](https://github.com/dendronhq/dendron-site/issues/359)
 
 - [Callum Mcdonald](https://github.com/chmac) `@chmac#2931`
-  - #role.horticulturalist
+  - #role.taxonomist
   - [dendron-site: Minor typo fix](https://github.com/dendronhq/dendron-site/pull/365)
 
 ### Changelog
