@@ -2,7 +2,7 @@
 id: 3UMZl74UsgY9by8BgbDDW
 title: '0.78'
 desc: ''
-updated: 1642486015886
+updated: 1642486202604
 created: 1642485037509
 ---
 
@@ -15,17 +15,17 @@ The Markdown Import Pod now imports markdown in a cleaner fashion without reform
 Lookup search results are leveling up when it comes to the displayed order of notes you may be looking for. For more information on these improvements, visit the docs on Lookup [[Sort Ordering|dendron://dendron.dendron-site/dendron.topic.lookup.find#sort-ordering]].
 
 ### Highlights
-- enhance(pod): Markdown import pod avoids reformatting files ([[docs|dendron://dendron.dendron-site/dendron.topic.pod.builtin.markdown.import]]) (#2084) @kaan
-- enhance(workspace): `Dendron: Initialize Workspace` can use file picker to select destination, instead of typing it out ([[docs|dendron://dendron.dendron-site/dendron.ref.commands#initialize-workspace]]) (#2130) @tuling
-- fix(lookup): add sort by levenshtein distance prior to sorting by update date to lookup results of the same match score ([[docs|dendron://dendron.dendron-site/dendron.topic.lookup.find#sort-ordering]]) (#2111) @nickolay
+- enhance(pod): Markdown import pod avoids reformatting files ([[docs|dendron://dendron.dendron-site/dendron.topic.pod.builtin.markdown.import]])
+- enhance(workspace): `Dendron: Initialize Workspace` can use file picker to select destination, instead of typing it out ([[docs|dendron://dendron.dendron-site/dendron.ref.commands#initialize-workspace]])
+- fix(lookup): add sort by levenshtein distance prior to sorting by update date to lookup results of the same match score ([[docs|dendron://dendron.dendron-site/dendron.topic.lookup.find#sort-ordering]])
 
 ### Everything Else
-- enhance(markdown): allow notes to override the pretty refs setting ([[docs|dendron://dendron.dendron-site/dendron.topic.note-reference#configuration]]) (#2124) @kaan
-- enhance(workspace): detect config / client compatibility mismatch in cli (#2113) @hikchoi
-- fix(commands): paste-link-title-trim (#1961) [KamQb](https://github.com/KamQb) `@qKi#0849`
-- fix(workspace): insert note index enablement (#2133) @hikchoi
-- fix(views): hover preview containing local images on Windows (#2047) @kaan
-- fix(views): enable copy plaintext from preview (#2152) @kevin
+- enhance(markdown): allow notes to override the pretty refs setting ([[docs|dendron://dendron.dendron-site/dendron.topic.note-reference#configuration]])
+- enhance(workspace): detect config / client compatibility mismatch in cli
+- fix(commands): paste-link-title-trim
+- fix(workspace): insert note index enablement
+- fix(views): hover preview containing local images on Windows
+- fix(views): enable copy plaintext from preview
 
 ### Community
 
