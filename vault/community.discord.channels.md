@@ -120,17 +120,17 @@ General chat about all the things.
 
 ### events
 
-This is a [Discord _stage_ channel](https://discord.com/stages). This channel is used for Dendron events such as [[dendron://dendron.dendron-site/community.events.office-hours]] and [[dendron://dendron.dendron-site/community.events.new-user-tuesdays]].
+This is a [Discord _stage_ channel](https://discord.com/stages). It may be used more in the future, but due to lacking video or screensharing support, this only makes sense for things like panel discussions.
 
 ### teatime
 
-This text channel is used during events like [[dendron://dendron.dendron-site/community.events.office-hours]] and [[dendron://dendron.dendron-site/community.events.new-user-tuesdays]]. Voice chat is referenced in the [[events|dendron://dendron.dendron-site/community.discord.channels#events]] _stage_ channel.
+This text channel is used during events like [[dendron://dendron.dendron-site/community.events.office-hours]] and [[dendron://dendron.dendron-site/community.events.new-user-tuesdays]]. Voice chat is referenced in the `teatime` _voice_ channel.
 
 You're free to discuss anything at all in the `#teatime` channel. To help, we encourage using the pinned [[dendron://dendron.dendron-site/community.events.reading-series]] read as a starting point.
 
 #### teatime voice channel
 
-Want to voice chat with your fellow dendronites? Jump in here. Text chat is referenced in the `#teatime` channel.
+Want to voice chat with your fellow dendronites? Jump in here. Text chat is referenced in the `#teatime` channel. This channel is also used for Dendron events such as [[dendron://dendron.dendron-site/community.events.office-hours]] and [[dendron://dendron.dendron-site/community.events.new-user-tuesdays]].
 
 ### academia
 
