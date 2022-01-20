@@ -2,7 +2,7 @@
 id: f9b4fc21-7613-4c8a-9257-cec4c06b67f9
 title: Migrating from Other Tools
 desc: ''
-updated: 1618154129829
+updated: 1642712231393
 created: 1603982164242
 nav_order: 2.1
 ---
@@ -29,7 +29,10 @@ This note covers migrating your notes from other tools
 
 ## Joplin
 
-Check out this [extension](https://marketplace.visualstudio.com/items?itemName=rxliuli.joplin-vscode-plugin)
+In 2021, Joplin introduced the ability to [export Markdown + Frontmatter](https://github.com/laurent22/joplin/pull/5465). This makes importing into Dendron a smooth process.
+
+1. In Joplin: `File` -> `Export all` -> `MD - Markdown + Front Matter`
+2. In Dendron: use the [[Markdown pod|dendron.topic.pod.builtin.markdown]] to import your notes
 
 ## Importing Files
 
