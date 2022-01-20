@@ -2,7 +2,7 @@
 id: e32aa1e2-9780-4183-927e-2f46372050aa
 title: '0.05'
 desc: ''
-updated: 1640368755102
+updated: 1642721440863
 created: 1596374984386
 date: '2020-08-02'
 ---
@@ -153,7 +153,7 @@ Bugfixes for this release
 
 ## Next
 
-A teaser of some items we are working on for the next release. You can see the full roadmap [here](https://github.com/orgs/dendronhq/projects/1). To join the discussion on upcoming roadmap items, check out the  [#roadmap](https://link.dendron.so/discord) channel on Discord. 
+A teaser of some items we are working on for the next release. You can join the [GitHub Discussions](https://github.com/dendronhq/dendron/discussions), and also take a look at the [[Dendron Public Roadmap|dendron://dendron.dendron-site/dendron.roadmap]] docs.
 
 ### Refactor Hierarchies
 
