@@ -2,7 +2,7 @@
 id: f23a6290-2dec-45dc-b616-c218ee53db6b
 title: Import
 desc: ''
-updated: 1642500333008
+updated: 1642671398879
 created: 1617327950468
 ---
 
@@ -93,11 +93,11 @@ If you set `indexName` to `index` (matching is case insensitive and doesn't requ
 In this example, the contents of `index.md` were combined with `foo.md`
 
 ### importFrontmatter
-- default: false
+- default: true
 - type: boolean
 
 If set, imports the note metadata as well. If there is any conflict between note's metadata and dendron's frontmatter, the Markdown Import Pod appends `_imported` to the metadata. If you want to have your conflicted metadata map to a key, you can define that in the `frontmatterMapping` config.
-By default, dendron adds `id`, `created`, `updated` and `title` fields to the frontmatter.
+By default, Dendron adds `id`, `created`, `updated` and `title` fields to the frontmatter.
 
 ### frontmatterMapping
 - type: object
@@ -139,7 +139,7 @@ status: In progress
 tags:
   - scope.reading
   - size.medium
-obsidianId: testing
+obsidianId: foo
 ---
 
 The story in the book was recounted by a male voice called Death, who proved to be caring yet morose throughout the book.
