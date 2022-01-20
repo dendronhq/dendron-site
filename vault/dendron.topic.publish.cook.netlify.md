@@ -35,7 +35,7 @@ Follow the instructions [here](https://docs.github.com/en/repositories/creating-
 
 ![[dendron.topic.publish.cook.github#add-your-notes:#turn-on-github-pages]]
 
-## Process - Setup Dendron
+## Steps - Setup Dendron
 
 ![[dendron.topic.publish.cook.github#setup-dendron-next-publishing:#github-pages-urls]]
 
@@ -137,7 +137,7 @@ This configuration expects the `dendron-publish-site.sh` script to exist in the 
   package = "@netlify/plugin-lighthouse"
 ```
 
-## Process - Setup Netlify
+## Steps - Setup Netlify
 
 ### Import GitHub project
 

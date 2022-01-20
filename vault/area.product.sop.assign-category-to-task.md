@@ -14,7 +14,7 @@ How we assign `category` to tasks.
 
 None
 
-## Process
+## Steps
 
 1. Read over the different [[categories|#categories]] and use your best judgement to apply the correct type
 1. If the commit involves [[#breaking-changes]], add a `BREAKING: <desc>` in a newline after the commit

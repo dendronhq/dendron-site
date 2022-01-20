@@ -39,11 +39,11 @@ Follow the instructions [here](https://docs.github.com/en/repositories/creating-
 
 ![[dendron.topic.publish.cook.github#add-your-notes:#turn-on-github-pages]]
 
-## Process - Setup Dendron
+## Steps - Setup Dendron
 
 ![[dendron://dendron.dendron-site/dendron.topic.publish.cook.github#setup-dendron-nextjs-publishing,1:#publish-your-notes]]
 
-## Process - Setup GitHub Pages
+## Steps - Setup GitHub Pages
 
 1. Create a pages branch
   ```sh
@@ -55,7 +55,7 @@ Follow the instructions [here](https://docs.github.com/en/repositories/creating-
     - `pages` branch
     - `/ (root)` folder
 
-## Process - Setup GitHub Actions
+## Steps - Setup GitHub Actions
 
 1. Switch back to your main branch
   ```sh
