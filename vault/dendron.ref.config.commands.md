@@ -2,7 +2,7 @@
 id: F9LWJEjscrGkxnYi2JNby
 title: Commands
 desc: ''
-updated: 1642785396445
+updated: 1642787181210
 created: 1633485423674
 ---
 
@@ -49,7 +49,7 @@ Prompt for vault selection when creating new note.
 
 - default: true
 
-#### vaultModeOnCreate
+#### vaultSelectionModeOnCreate
 Configuration of prompting on vault creation this setting is active if [[confirmVaultOnCreate|#confirmvaultoncreate]] is set to true.
 
 - default: `smart`
