@@ -43,7 +43,7 @@ Follow the [GitHub docs on contributing to projects](https://docs.github.com/en/
 - [ ] Check rendered output to ensure formatting is correct for renderings of wikilinks, note refs, tables, and images. `Dendron: Show Preview` can be used in your workspace to confirm the page renders as expected. Sometimes, `Dendron: Reload Index` needs to be ran if certain wikilinks aren't working as expected.
   - Other helpful docs: [[Troubleshooting Dendron|dendron://dendron.dendron-site/dendron.guides.troubleshooting]]
 
-> Verify GitHub Actions tests are passing, if they exist within the repository you are contributing to. These can be seen in the `Checks` tab of the PR.
+> Verify GitHub Actions tests are passing, if they exist within the repository you are contributing to. These can be seen in the `Checks` tab of the PR. If you are a new contributor, a maintainer will need to provide approval for GitHub Actions to run on your PRs.
 
 - [ ] `URL validator` GitHub Action is passing. If it is failing, review whether any URLs are in need of fixing in your PR. If the broken link exists elsewhere in the documentation, or you are uncertain on how to fix, note within the PR discussion and a reviewer will take a look.
   - If the link works, but is behind a login wall or can't properly be validated easily from the CLI, adding the URL to `.brokignore`.
