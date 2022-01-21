@@ -2,7 +2,7 @@
 id: f2ed8639-a604-4a9d-b76c-41e205fb8713
 title: Configuration
 desc: ''
-updated: 1640428501432
+updated: 1642753803134
 created: 1608528797892
 nav_order: 3
 ---
@@ -94,11 +94,18 @@ CNAME used for GitHub Pages
 ### logo 
 
 - default: none
-- eg: `vault/assets/images/logo.png`
+- examples:
+  - `vault/assets/images/logo.png`
+  - `http://example.com/logo.png`
+
 
 Used to add a logo image to site. Logo will appear in:
 - site header
 - as the default image if no `image` property is set for a note
+
+The logo can be a path, which will be relative to the root Dendron is published under
+(including [[assetsPrefix|dendron://dendron.dendron-site/dendron.topic.publish-legacy.configuration#assetsprefix]]).
+It also can be a web URL starting with `http` or `https`, in which case Dendron will use that url as-is.
 
 ### previewPort
 
