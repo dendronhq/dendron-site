@@ -2,7 +2,7 @@
 id: 3abd00eb-1c1e-4253-aaf5-dcbe20c21850
 title: Early Seed
 desc: ''
-updated: 1642189773207
+updated: 1642787802114
 created: 1604539200840
 published: true
 nav_exclude: true
@@ -10,16 +10,24 @@ nav_exclude: true
 
 > This page documents the features, enhancements, and fixes in the latest early seed release. The early seed is a preview of the weekly release, so you'll see the next minor version when installing (ex. `0.78.0` instead of `0.77.1`). When dendron ships the general release, the currently installed extension will automatically be updated (but will still have same version).
 
-## Enhancements
-- enhance(pod): Markdown import pod avoids reformatting files ([[docs|dendron://dendron.dendron-site/dendron.topic.pod.builtin.markdown.import]]) (#2084) @kaan
-- enhance(workspace): `Dendron: Initialize Workspace` can use file picker to select destination, instead of typing it out ([[docs|dendron://dendron.dendron-site/dendron.ref.commands#initialize-workspace]]) (#2130) @tuling
-- enhance(markdown): allow notes to override the pretty refs setting ([[docs|dendron://dendron.dendron-site/dendron.topic.note-reference#configuration]]) (#2124) @kaan
-- enhance(workspace): detect config / client compatibility mismatch in cli (#2113) @hhikchoi
+## 0.79.0
 
-## Fix
-- fix(lookup): add sort by levenshtein distance prior to sorting by update date to lookup results of the same match score ([[docs|dendron://dendron.dendron-site/dendron.topic.lookup.find#sort-ordering]]) (#2111) @nickolay
-- fix(commands): paste-link-title-trim (#1961) [KamQb](https://github.com/KamQb) `@qKi#0849`
-- fix(workspace): insert note index enablement (#2133) @hikchoi
-- fix(views): hover preview containing local images on Windows (#2047) @kaan
-- fix(views): enable copy plaintext from preview (#2152) @kevin
+### Breaking changes
+
+Since we are disabling [[date variable substitution|dendron://dendron.dendron-site/dendron.topic.templates#template-variables]], current users will not be able to use it for the time being.
+
+### Enhancements
+- enhance(publish): logo can reference a full URL path to external image ([[docs|dendron://dendron.dendron-site/dendron.topic.publish.faq#how-do-i-add-a-logo-to-my-website]]) (#2189) @kaan
+- enhance(lookup): add configuration for vault selection behavior, change prompt vault selection default to true ([[docs|dendron://dendron.dendron-site/dendron.ref.config.commands#vaultselectionmodeoncreate]]) (#1960) @nickolay
+- enhance(publish): attempt to update nextjs template in-place (#2162) [Luke Carrier](https://github.com/LukeCarrier) `lukecarrier#2081`
+- enhance(publish): add lockfile to nextjs (#2215) @kevin
+
+### Fix
 - fix(server): highlighting breaks when there's too much text (#2163) @kaan
+- fix(workspace): stop link candidate logic when disabled (#2136) @hikchoi
+- fix(commands): renamed command from goto note to go to note by skfile [skfile](https://github.com/skfile)
+- fix(markdown): Exclude parenthesis from tags (#2182) [[people.nicklas-gummesson]]
+- fix(publish): logo doesn't respect assetsPrefix (#2189) @kaan
+- fix(workspace): cursor moves to top when opening file through the search (#2193) @kaan
+- fix(schema): Use string replace instead of lodash for date variable substitution (breaking change)
+- fix(publish): some published pages will show error (#2199) @kaan
