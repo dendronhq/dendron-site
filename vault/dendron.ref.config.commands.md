@@ -2,7 +2,7 @@
 id: F9LWJEjscrGkxnYi2JNby
 title: Commands
 desc: ''
-updated: 1638272876590
+updated: 1642420588181
 created: 1633485423674
 ---
 
@@ -47,8 +47,12 @@ Sets the default selection modifier for Note Lookup.
 #### confirmVaultOnCreate
 Prompt for vault selection when creating new note.
 
-- default: false
+- default: true
+#### vaultModeOnCreate
+Configuration of prompting on vault creation this setting is active if [[confirmVaultOnCreate|#confirmvaultoncreate]] is set to true.
 
+- default: `smart`
+- options: `smart`, `alwaysPrompt`
 #### leaveTrace
 Leaves a reference of the destination note in the source note while using selection `extract` mode. 
 
