@@ -2,7 +2,7 @@
 id: 861cbdf8-102e-4633-9933-1f3d74df53d2
 title: Templates
 desc: ""
-updated: 1641319881788
+updated: 1642785004021
 created: 1602033087611
 stub: false
 ---
@@ -30,6 +30,10 @@ You can also pick from a set of built-in templates that contain a set of commonl
 We are continually working to expand the types of templates available in the `dendron.template` seed.
 
 ## Template Variables
+
+![[dendron://dendron.dendron-site/dendron._ref.status#work-in-progress-:#*]]
+
+> Date variables currently does not work in version `0.79` and later releases.
 
 Dendron supports various template variables.
 
