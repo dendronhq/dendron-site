@@ -2,7 +2,7 @@
 id: 3abd00eb-1c1e-4253-aaf5-dcbe20c21850
 title: Early Seed
 desc: ''
-updated: 1642788022927
+updated: 1642789748028
 created: 1604539200840
 published: true
 nav_exclude: true
@@ -18,14 +18,14 @@ Since we are disabling [[date variable substitution|dendron://dendron.dendron-si
 
 ### Enhancements
 - enhance(publish): logo can reference a full URL path to external image ([[docs|dendron://dendron.dendron-site/dendron.topic.publish.faq#how-do-i-add-a-logo-to-my-website]]) (#2189) @kaan
-- enhance(lookup): add configuration for vault selection behavior, change prompt vault selection default to true ([[docs|dendron://dendron.dendron-site/dendron.ref.config.commands#vaultselectionmodeoncreate]]) (#1960) @nickolay
+- enhance(lookup): add configuration for vault selection behavior with new `vaultSelectionModeOnCreate` config option, and change `confirmVaultOnCreate` default to `true` ([[docs|dendron://dendron.dendron-site/dendron.ref.config.commands#vaultselectionmodeoncreate]]) (#1960) @nickolay
 - enhance(publish): attempt to update nextjs template in-place (#2162) [Luke Carrier](https://github.com/LukeCarrier) `lukecarrier#2081`
 - enhance(publish): add lockfile to nextjs (#2215) @kevin
 
 ### Fix
 - fix(server): highlighting breaks when there's too much text (#2163) @kaan
 - fix(workspace): stop link candidate logic when disabled (#2136) @hikchoi
-- fix(commands): renamed command from goto note to go to note by skfile [skfile](https://github.com/skfile)
+- fix(commands): renamed command from `Goto Note` to `Go to Note` [skfile](https://github.com/skfile)
 - fix(markdown): Exclude parenthesis from tags (#2182) [Nicklas Gummesson](https://github.com/viddo) `viddo#9229`
 - fix(publish): logo doesn't respect assetsPrefix (#2189) @kaan
 - fix(workspace): cursor moves to top when opening file through the search (#2193) @kaan
