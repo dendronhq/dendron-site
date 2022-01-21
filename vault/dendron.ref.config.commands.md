@@ -2,7 +2,7 @@
 id: F9LWJEjscrGkxnYi2JNby
 title: Commands
 desc: ''
-updated: 1642787181210
+updated: 1642788941350
 created: 1633485423674
 ---
 
@@ -47,10 +47,13 @@ Sets the default selection modifier for Note Lookup.
 #### confirmVaultOnCreate
 Prompt for vault selection when creating new note.
 
-- default: true
+- default: `true`
 
 #### vaultSelectionModeOnCreate
-Configuration of prompting on vault creation this setting is active if [[confirmVaultOnCreate|#confirmvaultoncreate]] is set to true.
+
+Configuration of prompting logic on vault creation.
+
+> This setting is active if [[confirmVaultOnCreate|dendron://dendron.dendron-site/dendron.ref.config.commands#confirmvaultoncreate]] is set to `true`.
 
 - default: `smart`
 - options: `smart`, `alwaysPrompt`
