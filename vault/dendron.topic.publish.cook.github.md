@@ -17,8 +17,9 @@ Before continuing: **we do not recommend this path for publishing.** If possible
 ![[dendron://dendron.dendron-site/dendron.topic.publish.cook.github-action#why,1:#*]]
 
 ## Prerequisites 
-- This assumes you have a GitHub account.
-    - If not, you can create one [here](https://github.com/new).
+
+![[dendron://dendron.dendron-site/dendron.topic.git#prerequisites,1:#*]]
+
 - You have [[Dendron CLI|dendron.ref.cli]] installed (version `0.70.0` or greater)
 
 ## Example Deployments

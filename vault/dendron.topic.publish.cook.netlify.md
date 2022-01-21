@@ -12,7 +12,7 @@ You can publish your notes using Dendron publishing and [Netlify](https://www.ne
 
 ### Pre-requisites 
 - This assumes you have a Netlify account.
-    - If not, you can create one [here](https://app.netlify.com/signup).
+    - If not, you can [create one](https://app.netlify.com/signup).
 
 ![[dendron://dendron.dendron-site/dendron.topic.publish.cook.github#prerequisites,1:#*]]
 

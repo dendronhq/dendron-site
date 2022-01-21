@@ -12,7 +12,11 @@ Git is the preferred version control system because it integrates with VS Code a
 
 The most likely case is you have a local repository that you need to now add to Git. Follow these steps to add your local vault to Git and push up to GitHub. 
 
+## Prerequisites
+
+- Install [`git`](https://git-scm.com/download)
 - [Join GitHub](https://github.com/join)
+  - If new to GitHub, follow the [GitHub Quickstart](https://docs.github.com/en/get-started/quickstart) to become familiar with GitHub
 - Further reading, to better understand these tools: [Learn Git and GitHub](https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/GitHub)
 
 ## Using git with Dendron

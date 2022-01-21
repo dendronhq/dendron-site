@@ -7,9 +7,10 @@ created: 1604235766390
 ---
 
 ## Summary
+
 If you would like to contribute to the docs, you can do so by either making changes on github directly or by cloning our website repo and sending us a pull request.
 
-### Making Changes on GitHub
+## Making Changes on GitHub
 
 Click `Edit this page on GitHub` at the bottom left corner of every page. This is recommended way of making a change. The only pre-requisite is that you have a [GitHub](https://github.com/) account.
     <a href="https://www.loom.com/share/4a1b67f3fd1a40dab16949e9ea5e53dc"> <img style="" src="https://cdn.loom.com/sessions/thumbnails/4a1b67f3fd1a40dab16949e9ea5e53dc-with-play.gif"> </a>
@@ -25,6 +26,28 @@ Gifs
 - to create gifs, we recommend using the [Kap](https://getkap.co/) app or making a [Loom video](http://loom.com/)
 - if you are making a gif from within VS Code, please turn on [screencast mode](https://code.visualstudio.com/updates/v1_31#_screencast-mode) so we can see what awesome keyboard shortcuts you're using :)
 
-### Making Changes via Pull Request
+## Making Changes via Pull Request
 
-For more involved changes, you can clone our GitHub [repo](https://github.com/dendronhq/dendron-site) and opening `dendron.code-workspace` using VS Code.  [Dendron.so](https://www.dendron.so) is built from the contents of `vault/dendron.*`. Make a change in the corresponding file and send us a pull request to update the documentation. You can preview your changes using the `Dendron Markdown Enhanced` extension.
+For more involved changes, you can fork our GitHub repositories and clone them locally.
+
+For example, the [wiki.dendron.so](https://www.dendron.so) website is built from the contents of [`dendronhq/dendron-site`](https://github.com/dendronhq/dendron-site). Make changes in the corresponding file and send us a pull request to update the documentation. You can preview your changes using [[Show Preview|dendron://dendron.dendron-site/dendron.ref.commands#show-preview]].
+
+### Prerequisites
+
+![[dendron://dendron.dendron-site/dendron.topic.git#prerequisites,1:#*]]
+
+Follow the [GitHub docs on contributing to projects](https://docs.github.com/en/get-started/quickstart/contributing-to-projects).
+
+## Docs Pull Request Checklist
+
+- [ ] Check rendered output to ensure formatting is correct for renderings of wikilinks, note refs, tables, and images. `Dendron: Show Preview` can be used in your workspace to confirm the page renders as expected. Sometimes, `Dendron: Reload Index` needs to be ran if certain wikilinks aren't working as expected.
+  - Other helpful docs: [[Troubleshooting Dendron|dendron://dendron.dendron-site/dendron.guides.troubleshooting]]
+
+> Verify GitHub Actions tests are passing, if they exist within the repository you are contributing to. These can be seen in the `Checks` tab of the PR.
+
+- [ ] `URL validator` GitHub Action is passing. If it is failing, review whether any URLs are in need of fixing in your PR. If the broken link exists elsewhere in the documentation, or you are uncertain on how to fix, note within the PR discussion and a reviewer will take a look.
+  - If the link works, but is behind a login wall or can't properly be validated easily from the CLI, adding the URL to `.brokignore`.
+    - Example [`.brokignore` file in `dendron-site`](https://github.com/dendronhq/dendron-site/blob/master/.brokignore)
+- [ ] `Dendron site build` GitHub Action is passing. If it is failing, verify that the site can build locally on your machine. View [[how to publish the documentation|dendron://dendron.dendron-site/dendron.topic.publish.cook.common]], and follow the setup steps until you can complete the [[Preview Notes|dendron://dendron.dendron-site/dendron.topic.publish.cook.common#preview-notes]] section without errors.
+  - Other helpful docs: [[Troubleshooting Dendron|dendron://dendron.dendron-site/dendron.guides.troubleshooting]]
+  - Other helpful docs: [[Troubleshooting Dendron Publishing|dendron://dendron.dendron-site/dendron.topic.publish.trouble]]
