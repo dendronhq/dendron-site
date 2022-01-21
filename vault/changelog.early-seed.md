@@ -2,7 +2,7 @@
 id: 3abd00eb-1c1e-4253-aaf5-dcbe20c21850
 title: Early Seed
 desc: ''
-updated: 1642787645351
+updated: 1642787802114
 created: 1604539200840
 published: true
 nav_exclude: true
@@ -18,7 +18,7 @@ Since we are disabling [[date variable substitution|dendron://dendron.dendron-si
 
 ### Enhancements
 - enhance(publish): logo can reference a full URL path to external image ([[docs|dendron://dendron.dendron-site/dendron.topic.publish.faq#how-do-i-add-a-logo-to-my-website]]) (#2189) @kaan
-- enhance(lookup): add configuration for vault selection behavior, change prompt vault selection default to true ([[docs|dendron://dendron.dendron-site/dendron.ref.config.commands#vaultSelectionModeOnCreate]]) (#1960) @nickolay
+- enhance(lookup): add configuration for vault selection behavior, change prompt vault selection default to true ([[docs|dendron://dendron.dendron-site/dendron.ref.config.commands#vaultselectionmodeoncreate]]) (#1960) @nickolay
 - enhance(publish): attempt to update nextjs template in-place (#2162) [Luke Carrier](https://github.com/LukeCarrier) `lukecarrier#2081`
 - enhance(publish): add lockfile to nextjs (#2215) @kevin
 
