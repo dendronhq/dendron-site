@@ -170,7 +170,7 @@ You can see the full list of information we collect and why we do it in our [[te
 
 ### Features
 
-#### Goto Note command
+#### Go to Note command
 
 -   NOTE: this fixes [issue 564](https://github.com/dendronhq/dendron/issues/564) which causes a new note to be created on hover when combined with `noAutoCreateOnDefinition` set to `true`. We introduced [[noAutoCreateOnDefinition|dendron.ref.config#noautocreateondefinition]] configuration to help folks transition to the new behavior. Auto creating on definition will be deprecated in a future release
 

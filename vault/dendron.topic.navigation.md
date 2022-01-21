@@ -26,12 +26,12 @@ When you highlight a header, you can run `> References: Find All References` to 
 
 ## Go to
 
-### Goto Note
+### Go to Note
 - shortcuts:
   - key: `ctrl+enter`
   - when: `editorFocus`
 
-Goto to the note in the [[wikilinks|dendron://dendron.dendron-site/dendron.topic.links#wiki-links]] or the [[File Links|dendron://dendron.dendron-site/dendron.topic.links#file-links]] under the cursor, creating them if they doesn't exist.
+Go to the note in the [[wikilinks|dendron://dendron.dendron-site/dendron.topic.links#wiki-links]] or the [[File Links|dendron://dendron.dendron-site/dendron.topic.links#file-links]] under the cursor, creating them if they doesn't exist.
 
 ### Go to Definition
 

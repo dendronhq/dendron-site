@@ -2,7 +2,7 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1642485114942
+updated: 1642784456748
 created: 1601508213606
 nav_order: 2
 ---
@@ -136,13 +136,13 @@ Dendron previously published backlinks and child links as header/anchor sections
 ## 0.73.0
 
 ### Features
-- feat(navigation): `Goto Note` can open links to non-note files ([[docs|dendron://dendron.dendron-site/dendron.topic.links#file-links]]) (#1844) @kaan
+- feat(navigation): `Go to Note` can open links to non-note files ([[docs|dendron://dendron.dendron-site/dendron.topic.links#file-links]]) (#1844) @kaan
 - feat(refactor): support `Rename Symbol` with Dendron wikilinks ([[docs|dendron://dendron.dendron-site/dendron.topic.refactoring#rename-symbol]]) (#1879) @hikchoi
 - feat(navigation): implement `Go to Definition` for non-note files ([[docs|dendron://dendron.dendron-site/dendron.topic.navigation#go-to-definition]]) (#1888) @kaan
 - feat(pods): early version of Orbit import pod ([[docs|dendron://dendron.dendron-site/dendron.topic.pod.builtin.orbit]]) (#1637) @joshi
 
 ### Enhancements
-- enhance(navigation): allow `Goto Note` to work inside code blocks (#1878) @kaan
+- enhance(navigation): allow `Go to Note` to work inside code blocks (#1878) @kaan
 - enhance(markdown): add `depth` metadata to header anchors (#1877) @kevin
 - enahnce(workspace): simplify `InitializeWorkspace` command (#1886) @jonathan
 - enhance(publish): better layout for Table of Contents / TOC (#1882) @kevin
@@ -362,7 +362,7 @@ An enhancement in this release delivers breaking changes announced last week: [[
 ### Fix
 - fix(publishing): Markdown publish to hide block reference anchors (#1577)  @joshi
 - fix(workspace): file watcher updates backlinks (#1618) @kaan
-- fix(workspace): hover & goto note should respect enableUser/HashTags (#1620) @kaan
+- fix(workspace): hover & `Go to Note` should respect enableUser/HashTags (#1620) @kaan
 - fix(pods): resolve same level dir wikilinks in Markdown import (#1615) @joshi
 - fix(schemas): replace auto generated ids with readable descriptions (#1632) @nickolay
 

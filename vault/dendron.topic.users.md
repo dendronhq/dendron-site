@@ -2,7 +2,7 @@
 id: ESqOqSOEo54lqvGLlQXM6
 title: Users
 desc: ''
-updated: 1634799968265
+updated: 1642784543811
 created: 1630388973002
 ---
 
@@ -25,7 +25,7 @@ In Dendron, user tags are just a shorthand for writing `[[@my-example|user.examp
 
 ### Navigation
 
-To look at the user note, you can click on the user tag while holding down `Ctrl`, press `Ctrl+Enter` on your keyboard, or use the "Dendron: Goto Note" command.
+To look at the user note, you can click on the user tag while holding down `Ctrl`, press `Ctrl+Enter` on your keyboard, or use the `Dendron: Go to Note` command.
 
 ### Punctuation
 
