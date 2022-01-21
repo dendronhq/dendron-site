@@ -2,7 +2,7 @@
 id: 3abd00eb-1c1e-4253-aaf5-dcbe20c21850
 title: Early Seed
 desc: ''
-updated: 1642787802114
+updated: 1642788022927
 created: 1604539200840
 published: true
 nav_exclude: true
@@ -26,7 +26,7 @@ Since we are disabling [[date variable substitution|dendron://dendron.dendron-si
 - fix(server): highlighting breaks when there's too much text (#2163) @kaan
 - fix(workspace): stop link candidate logic when disabled (#2136) @hikchoi
 - fix(commands): renamed command from goto note to go to note by skfile [skfile](https://github.com/skfile)
-- fix(markdown): Exclude parenthesis from tags (#2182) [[people.nicklas-gummesson]]
+- fix(markdown): Exclude parenthesis from tags (#2182) [Nicklas Gummesson](https://github.com/viddo) `viddo#9229`
 - fix(publish): logo doesn't respect assetsPrefix (#2189) @kaan
 - fix(workspace): cursor moves to top when opening file through the search (#2193) @kaan
 - fix(schema): Use string replace instead of lodash for date variable substitution (breaking change)
