@@ -2,7 +2,7 @@
 id: PqtlCsRPWBjKp3RR
 title: Greenhouse Talks
 desc: ''
-updated: 1641261811040
+updated: 1642734897471
 created: 1626809567579
 has_collection: true
 sort_by: date
@@ -17,7 +17,7 @@ All talks are recorded and made available on YouTube after the fact.
 
 ## Talk Schedule
 
-You can subscribe to our [community calendar](https://calendar.google.com/calendar/embed?src=0s84hkmgkb4p699ahgicq0j16o%40group.calendar.google.com&ctz=America%2FLos_Angeles) to stay up to date on upcoming talks. 
+![[Community Calendar|dendron://dendron.dendron-site/community#community-calendar]]
 
 ## Proposing a talk
 

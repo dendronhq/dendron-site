@@ -2,7 +2,7 @@
 id: 6f4cd441-f883-4e75-871b-b7f93895c91b
 title: Community
 desc: ''
-updated: 1641276623398
+updated: 1642734879083
 created: 1604236612582
 nav_order: 1
 ---
@@ -11,7 +11,7 @@ Dendron wouldn't be what it is today without our wonderful set of members and su
 
 ## Community Calendar
 
-We have a bunch of community events that we host throughout the week. You can stay up to date on whats happening by taking a look at our community calendar!
+We have a bunch of community events that we host both weekly and monthly. You can stay up to date on whats happening by taking a look at our community calendar!
 
 * View and register for upcoming [Dendron Community Events on Luma](https://link.dendron.so/luma)
 
