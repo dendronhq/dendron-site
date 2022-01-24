@@ -242,3 +242,15 @@ It will work by adding it under the `dev` section (which is not created in defau
 dev:
     enableWebUI: true
 ```
+
+### enableExportPodV2
+- default: false
+
+When set to true, this config enables the new `Dendron: Export Pod V2`, `Dendron: Configure Export Pod V2` and `Dendron: Configure Service Connection` commands. By default, these commands are hidden.
+
+#### Example
+It will work by adding it under the `dev` section (which is not created in default).  
+```yml
+dev:
+    enableExportPodV2: true
+```
