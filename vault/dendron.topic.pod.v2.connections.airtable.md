@@ -2,9 +2,8 @@
 id: 4H0f18bLxzzU3cH7lFbVS
 title: Airtable
 desc: ''
-updated: 1638943644506
+updated: 1643092599294
 created: 1638943509560
-published: false
 ---
 ## Summary
 

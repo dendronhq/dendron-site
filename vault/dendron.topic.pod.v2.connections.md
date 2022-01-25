@@ -2,9 +2,8 @@
 id: GV1L9D5E3LzctpypdYzQe
 title: Connections
 desc: ''
-updated: 1642169893691
+updated: 1643092657854
 created: 1638871305698
-published: false
 ---
 
 ## Summary
@@ -19,6 +18,7 @@ You can connect to various external services with your pods for importing and ex
 - [[Notion|dendron://dendron.dendron-site/dendron.topic.pod.v2.connections.notion]]
 
 ### Editing a saved Service Connection Configuration
+
 
 To edit a saved service connection configuration, run the `Dendron: Configure Service Connection` command, select your pod type and then select your configuration ID.  Pod Configurations are stored as YAML files in your local file system.
 

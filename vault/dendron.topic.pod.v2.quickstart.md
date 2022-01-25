@@ -2,7 +2,7 @@
 id: j5wgTcRHQZomzSHsg41O8
 title: Quickstart
 desc: ''
-updated: 1642165951080
+updated: 1643092850838
 created: 1638871404471
 published: false
 ---
@@ -46,8 +46,6 @@ Specifies what to export. Possible values are
 - Workspace - exports all notes in the Dendron workspace
 - LinksInSelection - exports all notes in wikilinks of current selected portion of text in the open note editor
 
-
-However, not all pods may support exporting of each scope. 
 
 ### podType (required)
 

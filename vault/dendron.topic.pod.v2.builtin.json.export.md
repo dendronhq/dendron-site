@@ -2,27 +2,25 @@
 id: PTj1tVa4wp2PaaJ2bEY6r
 title: Export
 desc: ''
-updated: 1642174846529
+updated: 1643092235186
 created: 1642172814070
 ---
 
 ## Summary
 
 The JSON export pod will take Dendron Markdown and convert it to JSON object.
-It supports all the [[export scope|dendron://dendron.dendron-site/dendron.topic.pod.v2.quickstart#exportscope]]. 
-
 
 ## Configuration
 
-In addition to the [[Common Properties|dendron://dendron.dendron-site/dendron.topic.pod.v2.quickstart#common-properties]], the Notion Pod has the following properties:
+In addition to the [[Common Properties|dendron://dendron.dendron-site/dendron.topic.pod.v2.quickstart#common-properties]], the JSON Pod has the following properties:
 
 ### podType
 
-This is actually a common property, but for the Notion Export pod this **must** be set to `JSONExportV2`.
+This is actually a common property, but for the JSON Export pod this **must** be set to `JSONExportV2`.
 
 ### destination
 
-For single note export(`Note` as export scope), you can choose either clipboard or local file system as destination. Multi Note export prompts for a file picker to select the export destination
+For single note export(`Note` as export scope), you can choose either clipboard or local file system as destination. Multi Note export prompts for a file picker to select the export destination.
 
 ### Example Configuration
 

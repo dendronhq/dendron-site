@@ -2,14 +2,14 @@
 id: cYOPq6mbS7lqeSdCVgjlU
 title: Export
 desc: ''
-updated: 1642403385365
+updated: 1643092590391
 created: 1642167410506
 ---
 
 ## Summary
 
 The [Notion](https://www.notion.so/) export pod can export notes authored in Dendron to a Notion workspace.
-It supports all the [[export scope|dendron://dendron.dendron-site/dendron.topic.pod.v2.quickstart#exportscope]]. 
+
 You can view the example video [here](https://www.loom.com/share/d3d68896c1534405b2664b0d50806280)
 
 ## Workflow

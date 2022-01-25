@@ -2,9 +2,8 @@
 id: oTW7BFzKIlOd6iQnnNulg
 title: Export
 desc: ''
-updated: 1642405033356
+updated: 1643092072959
 created: 1638945970366
-published: false
 ---
 ## Summary
 
@@ -32,8 +31,10 @@ The ID of an Airtable connection. See [[Airtable|dendron://dendron.dendron-site/
 
 ### baseId
 base ID of Airtable base.
+
 ### tableName
-name of resulting table.
+Name of the destination table in Airtable.
+
 ### filters
 - type: `{fname: string[]}`
 

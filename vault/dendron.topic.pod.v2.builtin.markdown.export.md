@@ -2,14 +2,13 @@
 id: Un0n1ql7LfvMtmA9JEi4n
 title: Export
 desc: ''
-updated: 1642405226549
+updated: 1643092403008
 created: 1642170379669
 ---
 
 ## Summary
 
 The Markdown export pod will take Dendron Markdown and convert it to a regular Markdown. Dendron specific markup like wikilinks will be converted to their Markdown equivalent.
-It supports all the [[export scope|dendron://dendron.dendron-site/dendron.topic.pod.v2.quickstart#exportscope]]. 
 For single note export(`Note` as export scope), you can choose either clipboard or local file system as destination. You can view the example video [here](https://www.loom.com/share/fefb0fac51bc43a1bb3b508a08a8bf6d).
 
 ### Supported Features
@@ -37,15 +36,16 @@ In addition to the [[Common Properties|dendron://dendron.dendron-site/dendron.to
 
 ### podType
 
-This is actually a common property, but for the Notion Export pod this **must** be set to `MarkdownExportV2`.
+This is actually a common property, but for the Markdown Export pod this **must** be set to `MarkdownExportV2`.
 
 ### destination
 
-For single note export(`Note` as export scope), you can choose either clipboard or local file system as destination. Multi Note export prompts for a folder picker to select the export destination
+For single note export(`Note` as export scope), you can choose either clipboard or local file system as destination. Multi Note export prompts for a folder picker to select the export destination.
 
 ### wikiLinkToURL
 
 This config option when set to true, converts a wiki link to a url instead of a markdown link. By default, this option is configured to false.
+
 If a markdown file has the following 
 content: 
 ```markdown
