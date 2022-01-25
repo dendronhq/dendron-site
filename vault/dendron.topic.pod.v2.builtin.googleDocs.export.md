@@ -1,15 +1,15 @@
 ---
 id: hA02kromgLKegxaG2VHKE
-title: export
+title: Export
 desc: ''
-updated: 1643092094287
+updated: 1643118455703
 created: 1640102463646
 ---
 
 ## Summary
 
 The Google Docs Export Pod exports notes authored in Dendron to google docs. It overwrites an existing google doc if the note has `documentId` in frontmatter, else creates a new document. The title of the new google document will be same as the filename. 
-The google docs export pod supports all the [[export scope|dendron://dendron.dendron-site/dendron.topic.pod.v2.quickstart#exportscope]]. You can view the example video [here](https://www.loom.com/share/5a1fbc85d77040ae8c1dacd7c0395cad)
+ You can view the example video [here](https://www.loom.com/share/5a1fbc85d77040ae8c1dacd7c0395cad)
 
 ## Requirements
 - Your Google Account must be onboarded to our service.
@@ -18,6 +18,12 @@ _**Note**: This feature is currently in Beta and requires your Google Account to
 
 ## Side Effects
 -  this pod will add `documentId` and `revisionId` in the frontmatter of your note.
+
+## Limitations
+
+Since this is still an experimental feature, there are some features that are still missing:
+- exporting images.
+- exporting links with anchor.
 ## Configuration
 
 In addition to the [[Common Properties|dendron://dendron.dendron-site/dendron.topic.pod.v2.quickstart#common-properties]], the Google Docs has the following properties:

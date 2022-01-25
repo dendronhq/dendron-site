@@ -2,7 +2,7 @@
 id: oTW7BFzKIlOd6iQnnNulg
 title: Export
 desc: ''
-updated: 1643092072959
+updated: 1643118602635
 created: 1638945970366
 ---
 ## Summary
@@ -12,7 +12,7 @@ You can view the example video [here](https://www.loom.com/share/ed27a420fd79471
 ## Requirements
 - the table must already exist in Airtable
 - all columns that you want to write to must exist in Airtable
-- you must have a columns named `DendronId` (case sensitive)
+- you must have a column named `DendronId` (case sensitive)
 
 ## Side Effects
 - this pod will add `airtableId` in the frontmatter of your note 
@@ -190,7 +190,7 @@ podType: AirtableExportV2
 # description: ID of the Airtable Connected Service
 # type: string
 # required: true
-connectionId: joshi-airtable
+connectionId: test-airtable
 
 # description: airtable base id
 # type: string
