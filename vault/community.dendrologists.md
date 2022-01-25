@@ -2,13 +2,13 @@
 id: 0QQNklzyOweaOez8E7iTX
 title: Dendrologists
 desc: ''
-updated: 1643087824949
+updated: 1643087950830
 created: 1643087178878
 ---
 
 ## Summary
 
-Dendrologists are community members that help foster, grow, and nurture our growing community.
+Dendrologists are community moderators that help foster, grow, and nurture our growing community.
 
 ## Details
 

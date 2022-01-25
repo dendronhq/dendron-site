@@ -2,7 +2,7 @@
 id: 2O1bIbvJ7w1NkO7OyvSys
 title: '0.79'
 desc: ''
-updated: 1643078003836
+updated: 1643088536760
 created: 1643076020482
 ---
 
@@ -34,10 +34,12 @@ Breaking change: A fix in this release will disable [date variable substitution]
 
 #### Announcing our Dendrologists
 
+We'd love to introduce the Dendron community to our new [[Dendrologists|dendron://dendron.dendron-site/community.dendrologists]]! They'll be focusing on growing and fostering the Dendron community by covering key [[focus areas|dendron://dendron.dendron-site/community.dendrologists]] such as contributor experience, coordinating community events, improving the docs, and maintaining community gardens.
 
+![[community.dendrologists#meet-the-dendrologists,1:#*]]
 
 #### Starboard and TIL Highlights
-<!-- TODO: update links. Delete section is no new items-->
+
 > These are highlights from the [[Dendron Discord|dendron://dendron.dendron-site/community.discord.channels]] `#starboard` and `#today-i-learned` channels.
 
 - ⭐ `viddo#9229` shared a link to [a Tweet about new VS Code insider features](https://twitter.com/mattbierner/status/1483590058066149376): _The latest VS Code insiders adds completions for Markdown links, including: path/file links, header links, and reference links_
@@ -51,6 +53,8 @@ Breaking change: A fix in this release will disable [date variable substitution]
 #### Dendron Reading Series
 
 This week's entry in the [[Dendron Reading Series|dendron://dendron.dendron-site/community.events.reading-series]].
+
+#todo
 
 #### Office Hours and New User Tuesdays
 
