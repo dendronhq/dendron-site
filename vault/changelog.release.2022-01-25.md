@@ -2,7 +2,7 @@
 id: 2O1bIbvJ7w1NkO7OyvSys
 title: '0.79'
 desc: ''
-updated: 1643127004984
+updated: 1643130403170
 created: 1643076020482
 ---
 
@@ -54,7 +54,7 @@ We'd love to introduce the Dendron community to our new [[Dendrologists|dendron:
 
 This week's entry in the [[Dendron Reading Series|dendron://dendron.dendron-site/community.events.reading-series]].
 
-#todo
+![[community.events.reading-series.2022.01.25]]
 
 #### Office Hours and New User Tuesdays
 
