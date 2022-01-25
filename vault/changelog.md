@@ -2,7 +2,7 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1643077987599
+updated: 1643125864161
 created: 1601508213606
 nav_order: 2
 ---
@@ -11,11 +11,11 @@ nav_order: 2
 
 ### Breaking changes
 
-Since we are disabling [[date variable substitution|dendron://dendron.dendron-site/dendron.topic.templates#template-variables]], current users will not be able to use it for the time being.
-
+[[Date variable substitution|dendron://dendron.dendron-site/dendron.topic.templates#template-variables]] has been temporarily reverted as it conflicts with existing template substitutions. Details discussed [here](https://github.com/dendronhq/dendron/discussions/2207). We're aiming to re-introduce next week - apologies for the churn!
 ### Enhancements
 - enhance(publish): logo can reference a full URL path to external image ([[docs|dendron://dendron.dendron-site/dendron.topic.publish.faq#how-do-i-add-a-logo-to-my-website]]) (#2189) @kaan
-- enhance(lookup): add configuration for vault selection behavior with new `vaultSelectionModeOnCreate` config option, and change `confirmVaultOnCreate` default to `true` ([[docs|dendron://dendron.dendron-site/dendron.ref.config.commands#vaultselectionmodeoncreate]]) (#1960) @nickolay
+- enhance(lookup): add configuration for vault selection behavior with new `vaultSelectionModeOnCreate` config option @nickolay ([[docs|dendron://dendron.dendron-site/dendron.ref.config.commands#vaultselectionmodeoncreate]])
+- enhance(lookup): change `confirmVaultOnCreate` default to `true` (#1960) @nickolay
 - enhance(publish): attempt to update Next.js template in-place (#2162) [Luke Carrier](https://github.com/LukeCarrier) `lukecarrier#2081`
 - enhance(publish): add lockfile to Next.js (#2215) @kevin
 

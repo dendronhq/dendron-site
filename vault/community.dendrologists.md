@@ -2,7 +2,7 @@
 id: 0QQNklzyOweaOez8E7iTX
 title: Dendrologists
 desc: ''
-updated: 1643087950830
+updated: 1643126633752
 created: 1643087178878
 ---
 
@@ -29,7 +29,7 @@ The following are specific focus areas that a Dendrologist can choose to lead.
 
 ### Members and Guidelines
 
-> We need help from the community, as we currently don't have a Dendrologist in this focus! Feel free to reach out to a Dendron team member, or Dendrologist, in the community [[Discord|dendron://dendron.dendron-site/community.discord]] for more information.
+> We need help from the community, as we currently don't have a Dendrologist in this focus! Please ping `kevins8#0590` in [[Discord|dendron://dendron.dendron-site/community.discord]] if you are interested. 
 
 Help come up with guidelines for conduct and discussion. Find new ways of recognizing outstanding members (eg. swag, roles, starboard, etc) and contributions. 
 

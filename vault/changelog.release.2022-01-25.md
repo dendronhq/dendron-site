@@ -2,17 +2,17 @@
 id: 2O1bIbvJ7w1NkO7OyvSys
 title: '0.79'
 desc: ''
-updated: 1643088536760
+updated: 1643126576688
 created: 1643076020482
 ---
 
 Dendron 0.79 has sprouted  🌱
 
-Are you interested in using a logo for your website without needing to include it in the local repository? Now you can publish by referencing a URL (`https://example.com/logo.png`) in your `dendron.yml` configs.
+Publishing got a lot faster for existing deployments. Builds are now 10x [faster](https://discord.com/channels/717965437182410783/928801649265352764/931303712641658900) when publishing with cached dependencies. 
 
-When creating new notes, in multi-vault workspaces, `confirmVaultOnCreate` now defaults to `true`. We've added another config option where you can have Dendron _always_ prompt where a new note should exist with `vaultSelectionModeOnCreate`.
+We also made multi-vault easier to work with by default.  When creating new notes, in multi-vault workspaces, [[confirmVaultOnCreate|dendron.ref.config.commands#confirmvaultoncreate]] now defaults to `true`. 
 
-Breaking change: A fix in this release will disable [date variable substitution](https://wiki.dendron.so/notes/861cbdf8-102e-4633-9933-1f3d74df53d2.html#template-variables), so current users will not be able to use it for the time being.
+Breaking change: A fix in this release will disable [date variable substitution](https://wiki.dendron.so/notes/861cbdf8-102e-4633-9933-1f3d74df53d2.html#template-variables), so current users will not be able to use it for the time being. We're aiming to re-introduce next week - apologies for the churn!
 
 ### Highlights
 - enhance(publish): logo can reference a full URL path to external image ([[docs|dendron://dendron.dendron-site/dendron.topic.publish.faq#how-do-i-add-a-logo-to-my-website]]) 
