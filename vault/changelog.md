@@ -2,10 +2,32 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1642784456748
+updated: 1643077987599
 created: 1601508213606
 nav_order: 2
 ---
+
+## 0.79.0
+
+### Breaking changes
+
+Since we are disabling [[date variable substitution|dendron://dendron.dendron-site/dendron.topic.templates#template-variables]], current users will not be able to use it for the time being.
+
+### Enhancements
+- enhance(publish): logo can reference a full URL path to external image ([[docs|dendron://dendron.dendron-site/dendron.topic.publish.faq#how-do-i-add-a-logo-to-my-website]]) (#2189) @kaan
+- enhance(lookup): add configuration for vault selection behavior with new `vaultSelectionModeOnCreate` config option, and change `confirmVaultOnCreate` default to `true` ([[docs|dendron://dendron.dendron-site/dendron.ref.config.commands#vaultselectionmodeoncreate]]) (#1960) @nickolay
+- enhance(publish): attempt to update Next.js template in-place (#2162) [Luke Carrier](https://github.com/LukeCarrier) `lukecarrier#2081`
+- enhance(publish): add lockfile to Next.js (#2215) @kevin
+
+### Fix
+- fix(server): highlighting breaks when there's too much text (#2163) @kaan
+- fix(workspace): stop link candidate logic when disabled (#2136) @hikchoi
+- fix(commands): renamed command from `Goto Note` to `Go to Note` (#2187) [skfile](https://github.com/skfile)
+- fix(markdown): Exclude parenthesis from tags (#2182) [Nicklas Gummesson](https://github.com/viddo) `viddo#9229`
+- fix(publish): logo doesn't respect `assetsPrefix` (#2189) @kaan
+- fix(workspace): cursor moves to top when opening file through the search (#2193) @kaan
+- fix(schema): Use string replace instead of lodash for date variable substitution (breaking change)
+- fix(publish): some published pages will show error (#2199) @kaan
 
 ## 0.78.0
 
