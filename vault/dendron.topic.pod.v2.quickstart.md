@@ -2,7 +2,7 @@
 id: j5wgTcRHQZomzSHsg41O8
 title: Quickstart
 desc: ''
-updated: 1643099846447
+updated: 1643099901005
 created: 1638871404471
 ---
 
@@ -84,7 +84,7 @@ MacOS example, using `cmd+k t`. For Windows or Linux, this could be `ctrl+k t` i
     "args": {"podId": "my-pod-id"}
 }
 ```
-You can also provide export scope as an argument to the command. It has higher precedence to the `exportScope` saved in the configuration file. 
+You can also provide export scope as an argument to the command. __If provided, this will override__ the `exportScope` saved in the configuration file. This way, you can configure different keybindings to run the same pod configuration but with different export scopes
 
 ```json
 {
