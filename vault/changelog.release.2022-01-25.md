@@ -2,7 +2,7 @@
 id: 2O1bIbvJ7w1NkO7OyvSys
 title: '0.79'
 desc: ''
-updated: 1643126576688
+updated: 1643127004984
 created: 1643076020482
 ---
 
@@ -69,7 +69,41 @@ This week's entry in the [[Dendron Reading Series|dendron://dendron.dendron-site
 A big **thanks** to the following gardeners that brought up issues, contributions, and fixes to this release :man_farmer: :woman_farmer: 
 Visit [[Discord Roles|dendron://dendron.dendron-site/community.discord.roles]] for more information.
 
-#todo
+- [Vik](https://github.com/skfile) `@constantpresent#2695`
+  - #role.horticulturalist
+  - [fix: renamed command from goto note to go to note](https://github.com/dendronhq/dendron/pull/2187)
+
+- [Luke Carrier](https://github.com/LukeCarrier) `@lukecarrier#2081`
+  - [enhance(publish): attempt to update template in-place](https://github.com/dendronhq/dendron/pull/2162)
+
+- [Nicklas Gummesson](https://github.com/viddo) `@viddo#9229`
+  - #role.horticulturalist
+  - [fix(tags): Exclude parenthesis from tags](https://github.com/dendronhq/dendron/pull/2182)
+
+- [Tsvetomir Bonev](https://github.com/invakid404)
+  - #role.horticulturalist
+  - [chore: fix typo in github-actions username](https://github.com/dendronhq/dendron/pull/2218)
+
+- [Adam Gluck](https://github.com/aglucky) `@glucinater21#0869`
+  - #role.taxonomist
+  - [Fixed error in Markdown References](https://github.com/dendronhq/dendron-site/pull/371)
+  - [File links with spaces](https://github.com/dendronhq/dendron/issues/2228)
+
+- [Callum Mcdonald](https://github.com/chmac) `@chmac#2931`
+  - #role.bugcatcher
+  - [Graph view resets options on every load](https://github.com/dendronhq/dendron/issues/2205)
+  - [Dendron Tree View changes sort after note rename](https://github.com/dendronhq/dendron/issues/2209)
+  - [Journal trait is not activated from lookup](https://github.com/dendronhq/dendron/issues/2211)
+  
+- [David Gomes](https://github.com/LegendL3n)
+  - #role.bugcatcher
+  - [Imported Markdown's relative links don't work](https://github.com/dendronhq/dendron/issues/2251)
+
+- [Binly42](https://github.com/Binly42)
+  - #role.bugcatcher
+  - [Command `dendron.copyNoteLink` fake success for anchor in readonly editor](https://github.com/dendronhq/dendron/issues/2262)
+  - [Preview would fail on last item of a nested list if it is trailed by a normal text paragraph](https://github.com/dendronhq/dendron/issues/2264)
+
 
 ### Changelog
 ![[changelog#0790,1:#0780]]
