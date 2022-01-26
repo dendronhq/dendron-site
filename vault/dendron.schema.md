@@ -8,7 +8,7 @@ published: false
 ---
 
 ## Schema
-- [dendron](./dendron.schema.yml)
+- [[seeds/dendron.dendron-site/vault/dendron.schema.yml]]
 
 ## Wildcards
 
