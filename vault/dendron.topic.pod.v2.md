@@ -4,7 +4,6 @@ title: V2
 desc: ''
 updated: 1638946098806
 created: 1638942415808
-published: false
 ---
 
 <img src="https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/pods.png" height="300px"/>

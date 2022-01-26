@@ -2,7 +2,7 @@
 id: j5wgTcRHQZomzSHsg41O8
 title: Quickstart
 desc: ''
-updated: 1640713545610
+updated: 1643092850838
 created: 1638871404471
 published: false
 ---
@@ -17,7 +17,7 @@ To create a pod configuration, run the `Dendron: Export Pod V2` command, and sel
 
 ## Editing a Saved Pod Configuration
 
-To edit a saved pod configuration, run the `TODO` command, and select your pod configuration ID.  Pod Configurations are stored as YAML files in your local file system.
+To edit a saved pod configuration, run the `Dendron: Configure Export Pod V2` command, select your pod type and then select your configuration ID.  Pod Configurations are stored as YAML files in your local file system.
 
 ## Understanding the Pod Configuration
 
@@ -35,18 +35,17 @@ A unique ID to identify this configuration.
 
 A description of the Pod. This will appear as additional information in the QuickPick UI.
 
-#### exportScope (required)
+#### exportScope 
 
 Specifies what to export. Possible values are
 
-- Clipboard - exports the current contents of the clipboard
-- Selection - exports the current contents of the selected portion of text in the open note editor
 - Note - exports the currently opened note
+- Lookup - Prompts user to select note(s) for export 
 - Hierarchy - exports all notes that fall under a hierarchy
 - Vault - exports all notes within a vault
 - Workspace - exports all notes in the Dendron workspace
+- LinksInSelection - exports all notes in wikilinks of current selected portion of text in the open note editor
 
-However, not all pods may support exporting of each scope. 
 
 ### podType (required)
 
@@ -54,10 +53,12 @@ This specifies the podType. It must be one of the following values:
 - AirtableExportV2
 - MarkdownExportV2
 - GoogleDocsExportV2
+- NotionExportV2
+- JSONExportV2
 
 #### connectionId (required for some pods)
 
-This specifies the ID for the [[connection|dendron.topic.pod.v2.connections]] that will be used to connect to the external service when running this pod. Pods that require this include Google Docs and Airtable.  Pods that don't require this include Markdown or Json pods.
+This specifies the ID for the [[connection|dendron.topic.pod.v2.connections]] that will be used to connect to the external service when running this pod. Pods that require this include Notion, Google Docs and Airtable.  Pods that don't require this include Markdown or Json pods.
 
 ### Getting User Input for a Property at Runtime
 

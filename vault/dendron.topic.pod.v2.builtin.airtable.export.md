@@ -2,18 +2,17 @@
 id: oTW7BFzKIlOd6iQnnNulg
 title: Export
 desc: ''
-updated: 1641678620309
+updated: 1643118602635
 created: 1638945970366
-published: false
 ---
 ## Summary
 
 The Airtable export pod will export a Dendron note to a row in an Airtable. Various aspects of the note can be exported - from frontmatter fields to the note body.
-
+You can view the example video [here](https://www.loom.com/share/ed27a420fd794715873f87667572e245)
 ## Requirements
 - the table must already exist in Airtable
 - all columns that you want to write to must exist in Airtable
-- you must have a columns named `DendronId` (case sensitive)
+- you must have a column named `DendronId` (case sensitive)
 
 ## Side Effects
 - this pod will add `airtableId` in the frontmatter of your note 
@@ -28,11 +27,13 @@ This is actually a common property, but for the Airtable Export pod this **must*
 
 ### connectionId (required)
 
-The ID of an Airtable connection. See [[Airtable Connection|connections-dendron.topic.pod.v2.connections.airtable]].
+The ID of an Airtable connection. See [[Airtable|dendron://dendron.dendron-site/dendron.topic.pod.v2.connections.airtable]].
 
 ### baseId
+base ID of Airtable base.
 
 ### tableName
+Name of the destination table in Airtable.
 
 ### filters
 - type: `{fname: string[]}`
@@ -174,16 +175,12 @@ foo: ["role.foo", "role.bar"]
 # description: configuration ID
 # type: string
 # required: true
-podId: dendron-tasks
+podId: novels-airtable
 
-# description: optional description for the pod
+# description: export scope of the pod.
 # type: string
-description: Exports to Dendron Tasks Airtable
-
-# description: export scope of the pod
-# type: string
-# required: true
-exportScope: Note
+# NOTE: When a setting is missing from this config, you will get a UI prompt to select a value for that setting while running the export pod. For this particular exportScope setting, if you would rather not be prompted and always have the same exportScope, simply uncomment the line below.
+# exportScope: Note
 
 # description: type of pod
 # type: string
@@ -193,32 +190,32 @@ podType: AirtableExportV2
 # description: ID of the Airtable Connected Service
 # type: string
 # required: true
-connectionId: dendron-airtable
+connectionId: test-airtable
 
 # description: airtable base id
 # type: string
 # required: true
-baseId: appKOgvtfSzZyj1YM
+baseId: appCuzX6AAg7gw3RF
 
-# description: Name of the Airtable
+# description: Name of the airtable
 # type: string
 # required: true
-tableName: tblLjBKhYtXnZ2t1w
+tableName: Novels
 
-# description: mapping of Airtable fields with the note eg: {Created On: created, Notes: body}
+# description: mapping of airtable fields with the note eg: {Created On: created, Notes: body}
 # type: object
 # required: true
-sourceFieldMapping:  {
-      DendronId: id, 
-      Name: title,
-      Owner: owner,
-      Notes: body, 
-      Updated: {to: updated, type: date}, 
-      Created: {to: created, type: date},
-      Scope: {type: "singleTag", filter: "tags.scope.*"},
-      Size: {type: "singleTag", filter: "tags.size.*"},
-      Status: status,
-    }
+sourceFieldMapping: {
+  Author: author,
+  Summary: body,
+  Title: title,
+  Status: status,
+  DendronId: id
+}
+
+# description: undefined
+# type: object
+# filters: TODO
 ```
 
 ## Troubleshooting
