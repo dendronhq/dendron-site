@@ -126,7 +126,7 @@ Glob patterns are a way of pattern matching characters. You can test and see mor
 
 ### Early Seed Release
 
-Early builds of Dendron. Only availble to [[Environmentalist|community.discord.roles#environmentalist]].
+Early builds of Dendron. Only available to [[Environmentalist|community.discord.roles#environmentalist]].
 
 ### Slug
 
