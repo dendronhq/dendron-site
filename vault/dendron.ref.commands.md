@@ -1,8 +1,8 @@
 ---
 id: eea2b078-1acc-4071-a14e-18299fc28f47
 title: Commands
-desc: ''
-updated: 1642547284566
+desc: ""
+updated: 1643270649337
 created: 1595261816971
 nav_order: 3.1
 ---
@@ -70,17 +70,21 @@ If you have a header selected while running this command, it will copy the note 
 Having the cursor within a header will also show a lightbulb for the [[Contextual UI Header Operations|dendron://dendron.dendron-site/dendron.ref.commands#header-operations]], which includes a [[Copy Header Reference|dendron://dendron.dendron-site/dendron.ref.commands#copy-header-reference]] quick fix. This will copy the note ref to your clipboard.
 
 #### Block Selection
+
 If you have some text selected, Dendron can insert block anchors to reference the region you have selected.
 
 <div style="position: relative; padding-bottom: 57.78491171749599%; height: 0;"><iframe src="https://www.loom.com/embed/b72a562626a0483f967e724ef8f2d457" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 #### Range Selection
-If you highlight multiple blocks, Dendron can create a range selection that spans the blocks selected. Watch the following video starting at the 10s mark for an example. 
+
+If you highlight multiple blocks, Dendron can create a range selection that spans the blocks selected. Watch the following video starting at the 10s mark for an example.
 
 <div style="position: relative; padding-bottom: 57.78491171749599%; height: 0;"><iframe src="https://www.loom.com/embed/b72a562626a0483f967e724ef8f2d457" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 #### MultiVault
+
 If you use this command in a [[multi vault|dendron.topic.multi-vault]] workspace, Dendron will create a [[cross vault link|dendron.topic.links#cross-vault-links]] to the note in question.
+
 ### Delete Node
 
 - shortcuts:
@@ -107,45 +111,50 @@ When inserting a note, all snippet [[variables|dendron.topic.snippets#variables]
 Insert the note link into the current document using lookup.
 
 There are two modifiers that can be passed into this command:
+
 1. `multiSelect`
 1. `aliasMode`
 
 #### multiSelect
+
 This modifier enables the multi-select mode.
 With multi-select enabled, you can select all the notes you want the links to be inserted.
 
 This can be toggled on by clicking on the <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="currentColor"><path d="M3 3v10h10V3H3zm9 9H4V4h8v8z"/></svg> button, or setting `multiSelect: true` in `dendron.yml` as below:
 
-  ```yaml
+```yaml
+---
+insertNoteLink:
+  multiSelect: true
   ...
-  insertNoteLink:
-    multiSelect: true
-  ...
-  ```
+---
+```
 
 You can also pass it as a command argument through a custom keybinding as below:
 
-  ```json
-  /* in keybindings.json. 
-  * Use `Preference: Open Keyboard Shortcuts (JSON)` to open.
-  */ 
-  [
-    ...
-    {
-      "key": "{desired keybinding}",
-      "command": "dendron.insertNoteLink",
-      "args": {
-        "multiSelect": true
-      }
-    },
-    ...
-  ]
-  ```
+```json
+/* in keybindings.json.
+* Use `Preference: Open Keyboard Shortcuts (JSON)` to open.
+*/
+[
+  ...
+  {
+    "key": "{desired keybinding}",
+    "command": "dendron.insertNoteLink",
+    "args": {
+      "multiSelect": true
+    }
+  },
+  ...
+]
+```
 
 #### aliasMode
+
 This modifier enables different alias modes.
 
 Here is the list of available alias modes:
+
 1. `snippet`: Inserted note link resolves into a VS Code snippet string
 1. `selection`: Extracts the selection of the active note and use it as the alias.
 1. `title`: Use the note title of the linked note as alias.
@@ -162,24 +171,25 @@ insertNoteLink:
 
 You can also pass it as a command argument through a custom keybinding as below:
 
-  ```json
-  /* in keybindings.json. 
-  * Use `Preference: Open Keyboard Shortcuts (JSON)` to open.
-  */ 
-  [
-    ...
-    {
-      "key": "{desired keybinding}",
-      "command": "dendron.insertNoteLink",
-      "args": {
-        "aliasMode": "snippet" // choose one from the list
-      }
-    },
-    ...
-  ]
-  ```
+```json
+/* in keybindings.json.
+* Use `Preference: Open Keyboard Shortcuts (JSON)` to open.
+*/
+[
+  ...
+  {
+    "key": "{desired keybinding}",
+    "command": "dendron.insertNoteLink",
+    "args": {
+      "aliasMode": "snippet" // choose one from the list
+    }
+  },
+  ...
+]
+```
 
 ##### snippet
+
 Inserted note link will resolve into a [VS Code snippet](https://code.visualstudio.com/docs/editor/userdefinedsnippets) in the form of
 
 `[[{$1: alias}|note-name]]$0`
@@ -197,6 +207,7 @@ If multi-select is enabled, each subsequent alias field will be available as sep
 ```
 
 ##### selection
+
 Selection present in the active editor will be extracted and used as the alias.
 
 The original selection will be replaced by the link inserted.
@@ -204,14 +215,17 @@ The original selection will be replaced by the link inserted.
 If multi-select is enabled, all inserted note links will have identical aliases.
 
 ##### title
+
 The title of the note that is being linked is used as the link's alais.
 
 ##### prompt
+
 An input box will be prompted that will let you type in the desired alias.
 
 If multi-select is enabled, you will be prompted for each of the note links you want to insert.
 
 ##### none
+
 No alias will be used for the inserted note link(s).
 
 ### Insert Note Index
@@ -219,15 +233,18 @@ No alias will be used for the inserted note link(s).
 Insert a block that lists the direct children of the current note to cursor position.
 
 The format of the block is as follows:
+
 ```md
 ## Index
+
 - [[{ch1}|{noteName}]]
-...
+  ...
 ```
 
 If used in a multi-vault workspace and [[noXVaultWikiLink|dendron.ref.config#noxvaultwikilink]] is not set, the wikilinks will have a vault prefix added to avoid ambiguity.
 
 Given the following hierarchy:
+
 ```
 ├── recipe
 ├── recipe.eggs
@@ -235,7 +252,7 @@ Given the following hierarchy:
 ├── recipe.eggs.deviled
 ├── recipe.eggs.benedict
 ├── recipe.eggs.florentine
-├── recipe.bagel 
+├── recipe.bagel
 ├── recipe.bagel.with-gravlax
 ├── recipe.chicken
 └── recipe.chicken.curry
@@ -245,6 +262,7 @@ Running this command with the note `recipe` open will insert the following at cu
 
 ```md
 ## Index
+
 - [[Eggs|recipe.eggs]]
 - [[Bagel|recipe.bagel]]
 - [[Chicken|recipe.chicken]]
@@ -254,6 +272,7 @@ Running it in the note `recipe.eggs` will insert the following at cursor positio
 
 ```md
 ## Index
+
 - [[Royale|recipe.eggs.royale]]
 - [[Deviled|recipe.eggs.deviled]]
 - [[Benedict|recipe.eggs.benedict]]
@@ -281,11 +300,11 @@ Navigates to a random note in the workspace. By default, all notes are included 
 ```yaml
 # Sample configuration in dendron.yml:
 randomNote:
-    include:
-        - alpha
-        - beta.foo
-    exclude:
-        - alpha.bar
+  include:
+    - alpha
+    - beta.foo
+  exclude:
+    - alpha.bar
 ```
 
 This pattern would specify a set including all notes under `alpha` _except_ for notes in the alpha.bar hierarchy. The set would also include notes under `beta.foo*`.
@@ -302,6 +321,7 @@ This pattern would specify a set including all notes under `alpha` _except_ for 
 Shows a Markdown preview view. This preview supports rendering Dendron features, such as note refs, wikilinks, custom image properties, and more. `Show Preview` supports previewing Dendron notes and regular Markdown files such as a project `README.md`.
 
 ### Show Preview (legacy)
+
 > ⚠️ This is a deprecated command. Please consider using [[Show Preview|dendron.ref.commands#show-preview]] instead.
 
 - shortcuts:
@@ -325,30 +345,30 @@ Initiate note lookup
 
 ![[dendron.topic.lookup]]
 
-### Lookup (Journal Note)
+### Lookup Journal Note
 
 - shortcuts:
   - key: `ctrl+shift+j`
   - mac: `cmd+shift+j`
-  - args: `{'noteType': 'journal'}`
 
 Initiate note lookup with journal note pre-selected
 
-### Lookup (Scratch Note)
+### Lookup Scratch Note
 
 - shortcuts:
   - key: `ctrl+shift+s`
   - mac: `cmd+shift+s`
-  - args: `{'noteType': 'scratch', 'selectionType': 'selection2link'}`
 
 Initiate note lookup with scratch note pre-selected
 
 ### Lookup Note
+
 - shortcuts: none
 
-Initiate a note lookup. This is the successor to the [[Lookup|dendron.ref.commands#lookup]] command, limited to just notes. It is significantly faster on large workspaces when compared to its predecessor and also comes with addiitional [[modifiers|dendron.topic.lookup.modifiers]]. 
+Initiate a note lookup. This is the successor to the [[Lookup|dendron.ref.commands#lookup]] command, limited to just notes. It is significantly faster on large workspaces when compared to its predecessor and also comes with addiitional [[modifiers|dendron.topic.lookup.modifiers]].
 
 ### Create Task Note
+
 - shortcuts: none
 
 Creates a [[task note|dendron.topic.tasks#task-notes]], which comes with some
@@ -373,14 +393,19 @@ Open link to external file (eg. PDF, .mov, etc.) use system default. Relative fi
 <a href="https://www.loom.com/share/01250485e20a4cdca2a053dd6047ac68"><img src="https://cdn.loom.com/sessions/thumbnails/01250485e20a4cdca2a053dd6047ac68-with-play.gif"> </a>
 
 ### Go to Commands
+
 - See [[Go to|dendron://dendron.dendron-site/dendron.topic.navigation#go-to]]
 
 ### Find all References
+
 - See [[Find All References|dendron://dendron.dendron-site/dendron.topic.navigation#find-all-references]]
 
--- 
+--
+
 ## Organizing
+
 - [[Refactoring Commands|dendron://dendron.dendron-site/dendron.topic.refactoring]]
+
 ---
 
 ## Hierarchies
@@ -404,8 +429,6 @@ This is a convenience method around `Refactor Hierarchy` for the case of archivi
 
 <a href="https://www.loom.com/share/9698d5a4451b49d8b107f3ff67d97877"> <img style="" src="https://cdn.loom.com/sessions/thumbnails/9698d5a4451b49d8b107f3ff67d97877-with-play.gif"> </a>
 
-
-
 ---
 
 ## Hooks
@@ -416,19 +439,19 @@ Create a custom [[hook|dendron.topic.hooks]] to trigger during Dendron's lifecyc
 
 - hookName: name of your hook
 - hookFilter: a glob pattern that filters what notes your hook applies to
-    - default: `*`, apply hook to all notes by default
+  - default: `*`, apply hook to all notes by default
 - hookType: where to attach the hook (coming soon - we only support `onCreate` at the moment)
-    - types: onCreate|onDelete|onChange
-    - default: onCreate
+  - types: onCreate|onDelete|onChange
+  - default: onCreate
 
 ### Hook Delete
 
 Delete a custom [[hook|dendron.topic.hooks]]. Will remove the hook from `dendron.yml` and optionally, remove `{workspace}/hooks/{hookName}.js`
 
 Parameters:
-- hookName: name of the hook to remove
-- shouldDeleteScript: whether you should also delete the hook script 
 
+- hookName: name of the hook to remove
+- shouldDeleteScript: whether you should also delete the hook script
 
 ---
 
@@ -446,14 +469,14 @@ Enable [[telemetry|dendron.ref.telemetry]] across all workspaces with Dendron
 
 ![[dendron://dendron.dendron-site/dendron.topic.vaults#vault-add,1:#*]]
 
-You can also add a vault from the explorer by: 
+You can also add a vault from the explorer by:
 Right Click on the explorer > Dendron: Vault Add
 
 ### Vault Remove
 
 ![[dendron://dendron.dendron-site/dendron.topic.vaults#vault-remove,1:#*]]
 
-You can also remove a vault from the explorer by: 
+You can also remove a vault from the explorer by:
 Right Click on the vault > Dendron: Vault Remove
 
 ### Vault Convert
@@ -515,7 +538,6 @@ Modify Dendron Config using Dendron UI
 
  <div style="position: relative; padding-bottom: 62.5%; height: 0;"><iframe src="https://www.loom.com/embed/5b6689eb76344fbb814a3d4405ef62b8" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-
 ### Workspace: Add and Commit
 
 ![[dendron://dendron.dendron-site/dendron.topic.workspace#workspace-add-and-commit,1:#*]]
@@ -549,6 +571,7 @@ Update your export pod v2 configuration.
 ### Configure Service Connection
 
 Update your service [[Connections|dendron://dendron.dendron-site/dendron.topic.pod.v2.connections]] config.
+
 ### Import Pod
 
 - shortcuts: none
@@ -599,10 +622,9 @@ Add a [[seed|dendron.topic.seeds]] to your current workspace.
 
 Remove a [[seed|dendron.topic.seeds]] from your current workspace.
 
---- 
+---
 
 ## Misc
-
 
 ### Contribute
 
@@ -617,7 +639,7 @@ Environmentalists are users that can support Dendron financially through a month
 
 Takes the path currently in the clipboard, copies the file into `{vault}/assets`, and inserts Markdown link in the current note. This is the file equivalent of Dendron's [[Paste Image|dendron.topic.images]] command
 
-Note that most file types won't be natively supported in the preview. You'll need to use the VS Code built-in `> Open Link` command to open the file. 
+Note that most file types won't be natively supported in the preview. You'll need to use the VS Code built-in `> Open Link` command to open the file.
 
 If you are on macOs, you can find instructions for getting the path to the current file [here](https://www.switchingtomac.com/tutorials/osx/5-ways-to-reveal-the-path-of-a-file-on-macos/#:~:text=To%20see%20it%20for%20yourself,your%20file%20is%20located%20in)
 
@@ -672,6 +694,7 @@ Open Dendron logs for current session
 Copy last 3000 lines of all logs and config to clipboard. Use when submitting an issue to Dendron
 
 Information displayed:
+
 - workspace type
 - current dendron version
 - previous workspace version
@@ -682,7 +705,6 @@ Information displayed:
 - telemetry status
 - last 3000 lines of logs from client and server
 
-
 ## Contextual UI
 
 ### File Operations
@@ -691,7 +713,7 @@ Information displayed:
 
 Dendron recognises a new Markdown file created from VS Code context menu and populate it with the frontmatter.
 
-#### Rename Note 
+#### Rename Note
 
 ![[dendron://dendron.dendron-site/dendron.topic.refactoring#rename-note,1:#*]]
 
@@ -712,6 +734,3 @@ A header action is announced by a lightbulb when the cursor is within a header. 
 ![[dendron://dendron.dendron-site/dendron.ref.commands#header-selection,1:#*]]
 
 ##
-
-
-
