@@ -2,7 +2,7 @@
 id: e8d6241e-1708-4bde-bd3d-93b440a1eaad
 title: Dendron Onboarding
 desc: ''
-updated: 1643245657754
+updated: 1643305728881
 created: 1598579955124
 stub: false
 ---
@@ -18,6 +18,15 @@ This is an example of features and philosophy we love to show new users.
 ## Onboarding preparation
 
 Here are some helpful tips for new users preparing for onboarding sessions:
+
+### Onboarding repository
+
+We recommend having the sample, onboarding repository cloned to your local system as a Dendron playground.
+
+![[dendron://dendron.dendron-site/dendron.topic.git#prerequisites,1:#*]]
+- Clone the [sample repository](https://github.com/dendronhq/seed.dendron.onboarding)
+
+### Discord
 
 - Join the [[Dendron Discord|dendron://dendron.dendron-site/community.discord]]
   - Create a [Discord](https://discord.com/) account if you don't have one ahead of time
