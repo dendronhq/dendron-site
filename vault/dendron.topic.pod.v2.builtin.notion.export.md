@@ -42,7 +42,7 @@ The Pod will automatically query for pages on your Notion workspace and provide 
 
 ## Configuration
 
-In addition to the [[Common Properties|dendron://dendron.dendron-site/dendron.topic.pod.v2.quickstart#common-properties]], the Notion Pod has the following properties:
+In addition to the [[Common Properties|dendron://dendron.dendron-site/dendron.topic.pod.v2.config#common-properties]], the Notion Pod has the following properties:
 
 ### podType
 

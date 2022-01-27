@@ -2,7 +2,7 @@
 id: oTW7BFzKIlOd6iQnnNulg
 title: Export
 desc: ''
-updated: 1643118602635
+updated: 1643294568625
 created: 1638945970366
 ---
 ## Summary
@@ -19,7 +19,7 @@ You can view the example video [here](https://www.loom.com/share/ed27a420fd79471
 
 ## Configuration
 
-In addition to the [[Common Properties|dendron://dendron.dendron-site/dendron.topic.pod.v2.quickstart#common-properties]], the Airtable has the following properties:
+In addition to the [[Common Properties|dendron://dendron.dendron-site/dendron.topic.pod.v2.config#common-properties]], the Airtable has the following properties:
 
 ### podType
 
