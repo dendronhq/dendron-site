@@ -2,7 +2,7 @@
 id: c4cf5519-f7c2-4a23-b93b-1c9a02880f6b
 title: Workspace
 desc: ""
-updated: 1643180008803
+updated: 1643363301298
 created: 1622841295415
 ---
 
@@ -86,15 +86,8 @@ Don't do any synchronization. This may be useful if you use some other tool to s
 
 #### Gotchas
 
-##### Pulling with 'noCommit` vaults
-
-If you have a vault or workspace configured with `noCommit`, and the workspace
-has uncommitted changes to tracked files, then Workspace Sync will try to stash
-your changes, pull remote changes, then restore your changes. This is necessary
-because git will otherwise refuse to pull remote changes.
-
-If Dendron were to crash in the middle of the sync (which we have never seen in practice),
-there's a small chance that the stashed changes might not get restored. If that happens,
+- [[Synchronizing your workspace|dendron://dendron.dendron-site/dendron.topic.workspace.sync-gotchas#synchronizing-your-workspace]]
+- [[Pulling with noCommit vaults|dendron://dendron.dendron-site/dendron.topic.workspace.sync-gotchas#pulling-with-nocommit-vaults]]
 
 ## Workspace Types
 
