@@ -1,11 +1,10 @@
 ---
 id: ZeC74FYVECsf9bpyngVMU
 title: Doctor
-desc: ''
-updated: 1640418755217
+desc: ""
+updated: 1643352249329
 created: 1640418184682
 ---
-
 
 ## Summary
 
@@ -54,6 +53,11 @@ Similar to [[createMissingLinkedNotes|dendron.topic.doctor#createmissinglinkedno
 - Option: `findBrokenLinks`
 
 This simply lists all broken links in the scope.
+
+### findIncompatibleExtensions
+
+- Detects if the user has enabled extensions that are known to be incompatible when used with Dendron concurrently, and provides a guide on how to fix the issue.
+- A full list of incompatible extensions is listed in [[dendron.guides.troubleshooting.incompatible-extensions]]
 
 ## CLI
 
