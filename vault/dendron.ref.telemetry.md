@@ -2,7 +2,7 @@
 id: 84df871b-9442-42fd-b4c3-0024e35b5f3c
 title: Telemetry
 desc: ""
-updated: 1642341713196
+updated: 1643350399399
 created: 1619460500071
 nav_order: 6.1
 ---
@@ -94,13 +94,13 @@ When a configuration or client version does not meet the minimum compatibility r
 | `minCompatClientVersion` |      _string_      | Minimum compatible client version when mismatch happened |
 | `minCompatConfigVersion` |      _string_      | Minimum compatible config version when mismatch happened |
 
-#### Conflicting extensions
+#### Incompatible extensions
 
-When we detect that a user has extensions that conflict with Dendron's capabilities, we warn the user on startup that they may cause problems. We track which extensions were warned to the user, and also whether they have been redirected to an instruction on how to resolve the conflict. This helps us make Dendron more compatible with existing third party extensions in the marketplace.
+When we detect that a user has extensions that incompatible with Dendron's capabilities, we warn the user on startup that they may cause problems. We track which extensions were warned to the user, and also whether they have been redirected to an instruction on how to resolve the conflict. This helps us make Dendron more compatible with existing third party extensions in the marketplace.
 
-|                    Field |     Attributes     | Description                                                             |
-| -----------------------: | :----------------: | ----------------------------------------------------------------------- |
-|    `installedExtensions` | _string[]_         | extension ID of the pre-defined extension(s) that may cause a conflict  |
+|                 Field | Attributes | Description                                                                        |
+| --------------------: | :--------: | ---------------------------------------------------------------------------------- |
+| `installedExtensions` | _string[]_ | extension ID of the pre-defined extension(s) that may cause incompatibility issues |
 
 ### Tutorial Progression
 
