@@ -2,7 +2,7 @@
 id: MK4LipIh-9EVprKf5na9V
 title: 2021-07-04 Office Hours
 desc: ''
-updated: 1641252442225
+updated: 1643389301583
 created: 1625498459946
 ---
 
@@ -28,7 +28,7 @@ created: 1625498459946
     -   As you build out expertise/research and your seed of knowledge grows into a “tree”, we want to enable a forest so other people can benefit.
     -   Create, find and share knowledge.
     -   Examples
-        -   [https://saas.dendron.so](https://saas.dendron.so)
+        -   [https://pkm.dendron.so](https://pkm.dendron.so)
         -   [https://aws.dendron.so](https://aws.dendron.so)
 
 #### Questions
