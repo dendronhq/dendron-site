@@ -4,6 +4,7 @@ title: Builtin Pods
 desc: ''
 updated: 1643388257680
 created: 1643388257680
+nav_exclude: true
 config:
   global:
     enableChildLinks: false
@@ -20,7 +21,7 @@ Builtin pods are managed by Dendron and are available when you install Dendron.
 ### [[Pod Configuration|dendron://dendron.dendron-site/dendron._ref.concept.pod-configuration]]
 ![[dendron://dendron.dendron-site/dendron._ref.concept.pod-configuration]]
 
-## Pods
+## Topics
 
 ### [[Airtable|dendron://dendron.dendron-site/dendron.topic.pod-v2.builtin.airtable]]
 

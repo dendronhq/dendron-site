@@ -10,6 +10,8 @@ created: 1638871404471
 
 To run a pod, you must first create a pod configuration, which specifies things like the type of pod, what data it should act on, connection information, and data translation behavior. After creating a configuration, you may optionally choose to persist that configuration, or to run it immediately without saving it.  If you persist the configuration, then you can easily re-run the pod later without having to set the configuration settings again.
 
+## Enable PodV2
+
 ## Creating a Pod Configuration
 
 To create a pod configuration, run the `Dendron: Export Pod V2` command, and select 'New Export'.

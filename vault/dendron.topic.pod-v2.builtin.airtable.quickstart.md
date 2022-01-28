@@ -98,8 +98,7 @@ This example demonstrates how to setup an Export Pod V2 to Airtable for managing
 
 ### Run the Pod to Export a Task to Airtable
 
-1. Open a task note that you want to export to Airtable. For example, you can copy and paste the below note 
-![[dendron://dendron.dendron-site/dendron._ref.eg.sample-task-note]]
+1. Create a task that you want to export
 1. Run `Dendron: Export Pod V2` while your task note is in focus.
 1. Select your new `me.tasks` config.
 1. Check the [task view here](https://airtable.com/appKOgvtfSzZyj1YM/tblLjBKhYtXnZ2t1w/viwzfUhwxGiomaGjt?blocks=hide) in our Airtable here to see if the task was successfully added.

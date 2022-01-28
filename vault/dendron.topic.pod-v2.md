@@ -4,6 +4,7 @@ title: Pod V2
 desc: ''
 updated: 1638946098806
 created: 1638942415808
+nav_exclude: true
 config:
   global:
     enableChildLinks: false
@@ -27,5 +28,5 @@ The V2 version of pods is a overhaul of existing dendron [[pods|dendron://dendro
 - we don't have 100% coverage of existing pods yet 
 - podv2 doesn't support CLI 
 
-## Children
+## Topics
 - [[Builtin Pods|dendron://dendron.dendron-site/dendron.topic.pod-v2.builtin]]
