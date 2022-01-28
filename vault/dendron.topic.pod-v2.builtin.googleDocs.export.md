@@ -26,7 +26,7 @@ Since this is still an experimental feature, there are some features that are st
 - exporting links with anchor.
 ## Configuration
 
-In addition to the [[Common Properties|dendron://dendron.dendron-site/dendron.topic.pod.v2.config#common-properties]], the Google Docs has the following properties:
+In addition to the [[Common Properties|dendron://dendron.dendron-site/dendron.topic.pod-v2.config#common-properties]], the Google Docs has the following properties:
 
 ### podType
 
@@ -34,7 +34,7 @@ This is actually a common property, but for the Google Docs Export pod this **mu
 
 ### connectionId (required)
 
-The ID of an google docs connection. See [[Google Docs Connection | dendron.topic.pod.v2.connections.google]]
+The ID of an google docs connection. See [[Google Docs Connection|dendron.topic.pod-v2.connections.google]]
 
 
 ### Example Complete Configuration

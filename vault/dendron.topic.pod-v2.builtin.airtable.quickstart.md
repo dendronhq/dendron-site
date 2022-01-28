@@ -1,27 +1,25 @@
 ---
-id: rHxjw4xX6EynKAWSUxAo6
-title: Airtable
+id: jClXr7kEH96nMiANga12W
+title: Quickstart
 desc: ''
-updated: 1643092087024
-created: 1638945959590
+updated: 1643388849397
+created: 1643388849397
 ---
 
-## Example
+## Summary
 
-> Note: This workflow is in flux and is subject to change
+This example demonstrates how to setup an Export Pod V2 to Airtable for managing taskks
 
-This example demonstrates how to setup an Export Pod V2 to Airtable for Dendron Tasks
+## Steps
 
 ### Create a new Airtable Connection
 
-Currently, the way to do this is to run the following steps:
-
-1. `Dendron: Export Pod V2`
+1. Use `> Dendron: Export Pod V2`
 1. Select `New Export`
 1. Select `Airtable Export`
 1. Select `Create new Airtable Connection`
-1. Name the id `dendron-airtable`
-1. A YAML config file should show up. Obtain the apiKey via RPass and enter that value for the `apiKey` field:
+1. Name the id `me.tasks`
+1. A YAML config file should show up. You can obtain your API key by following the instructions [here](https://support.airtable.com/hc/en-us/articles/219046777-How-do-I-get-my-API-key-)
     ```yml
     apiKey: TODO
     ```
@@ -31,35 +29,30 @@ Currently, the way to do this is to run the following steps:
 1. Run `Dendron: Export Pod V2`
 1. Select `New Export`
 1. Select `Airtable Export`
-1. Select the connection you just created in the previous step, `dendron-airtable`
+1. Select the connection you just created in the previous step, `me.tasks`
 1. Select 'Note' (This is the export scope, lookup UI tweaks WIP)
-1. For base-id, enter `appKOgvtfSzZyj1YM`
-1. For table-id, enter `tblLjBKhYtXnZ2t1w`
-1. For configuration-id, let's call it `dendron-tasks`
-1. Hit Enter, you should now see an editor for `config.dendron-tasks.yml` open.
+1. For base-id, enter the [base id](https://support.airtable.com/hc/en-us/articles/4405741487383-Understanding-Airtable-IDs)
+1. For table-id, enter the [table id](https://support.airtable.com/hc/en-us/articles/4405741487383-Understanding-Airtable-IDs)
+1. For configuration-id, let's call it `me.tasks`
+1. Hit Enter, you should now see an editor for `config.me.tasks.yml` open.
 1. Add the following value for `sourceFieldMapping`:
     ```yml
     sourceFieldMapping:  {
-      DendronId: id, 
-      Name: title,
-      Owner: owner,
-      Notes: body, 
+      DendronId: {to: id, type: string}, 
+      Name: {to: title, type: string},
+      Notes: {to: body, type: string}, 
       Updated: {to: updated, type: date}, 
       Created: {to: created, type: date},
-      Scope: {type: "singleTag", filter: "tags.scope.*"},
-      Size: {type: "singleTag", filter: "tags.size.*"},
-      Sprint.Tag: {type: "singleTag", filter: "tags.sprint.*"},
-      Creator: creator,
-      Status: status,
+      Status: {to: status, type: string},
     }
     ```
-11. Check final result. The config should look like below, if it isn't, you can just copy/replace the contents with the value below.
+1. Check final result. The config should look like below, if it isn't, you can just copy/replace the contents with the value below.
 
 ```yml
     # description: configuration ID
     # type: string
     # required: true
-    podId: dendron-tasks
+    podId: me.tasks
     
     # description: optional description for the pod
     # type: string
@@ -78,41 +71,37 @@ Currently, the way to do this is to run the following steps:
     # description: ID of the Airtable Connected Service
     # type: string
     # required: true
-    connectionId: dendron-airtable
+    connectionId: me.tasks
     
     # description: Airtable base id
     # type: string
     # required: true
-    baseId: appKOgvtfSzZyj1YM
+    baseId: ***
     
     # description: Name of the Airtable
     # type: string
     # required: true
-    tableName: tblLjBKhYtXnZ2t1w
+    tableName: ***
     
     # description: mapping of Airtable fields with the note eg: {Created On: created, Notes: body}
     # type: object
     # required: true
     sourceFieldMapping:  {
-          DendronId: id, 
-          Name: title,
-          Owner: owner,
-          Notes: body, 
-          Updated: {to: updated, type: date}, 
-          Created: {to: created, type: date},
-          Scope: {type: "singleTag", filter: "tags.scope.*"},
-          Size: {type: "singleTag", filter: "tags.size.*"},
-          Sprint.Tag: {type: "singleTag", filter: "tags.sprint.*"},
-          Creator: creator,
-          Status: status,
-        }
+      DendronId: {to: id, type: string}, 
+      Name: {to: title, type: string},
+      Notes: {to: body, type: string}, 
+      Updated: {to: updated, type: date}, 
+      Created: {to: created, type: date},
+      Status: {to: status, type: string},
+    }
 ```
 
 ### Run the Pod to Export a Task to Airtable
 
-1. Open a task note that you want to export to Airtable.  An example task note is [[task.pod.podsv2-support-export-hierarchy]]
+1. Open a task note that you want to export to Airtable. For example, you can copy and paste the below note 
+![[dendron://dendron.dendron-site/dendron._ref.eg.sample-task-note]]
 1. Run `Dendron: Export Pod V2` while your task note is in focus.
-1. Select your new `dendron-tasks` config.
+1. Select your new `me.tasks` config.
 1. Check the [task view here](https://airtable.com/appKOgvtfSzZyj1YM/tblLjBKhYtXnZ2t1w/viwzfUhwxGiomaGjt?blocks=hide) in our Airtable here to see if the task was successfully added.
 1. If it's not added, then check out common errors below
 

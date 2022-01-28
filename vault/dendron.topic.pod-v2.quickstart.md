@@ -20,7 +20,7 @@ To edit a saved pod configuration, run the `Dendron: Configure Export Pod V2` co
 
 ## Understanding the Pod Configuration
 
-![[dendron://dendron.dendron-site/dendron.topic.pod.v2.config#common-properties:#keybindings]]
+![[dendron://dendron.dendron-site/dendron.topic.pod-v2.config#common-properties:#keybindings]]
 
 ### Getting User Input for a Property at Runtime
 
@@ -34,4 +34,4 @@ To run a saved pod configuration, use the `Dendron: Export Pod V2`.  In the Quic
 
 ## Adding a VS Code Shortcut
 
-![[dendron://dendron.dendron-site/dendron.topic.pod.v2.config#keybindings,1]]
+![[dendron://dendron.dendron-site/dendron.topic.pod-v2.config#keybindings,1]]
