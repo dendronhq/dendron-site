@@ -2,7 +2,7 @@
 id: FnK2ws6w1uaS1YzBUY3BR
 title: GitHub Pages with GitHub Actions
 desc: ''
-updated: 1642521496783
+updated: 1643346419652
 created: 1631306630307
 ---
 
@@ -127,6 +127,7 @@ Follow the instructions [here](https://docs.github.com/en/repositories/creating-
           publish_branch: pages
           publish_dir: docs/
           force_orphan: true
+          #cname: example.com
   ```
 
 1. Commit your changes
