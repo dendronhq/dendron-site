@@ -564,8 +564,7 @@ Update your export pod v2 configuration.
 
 ### Configure Service Connection
 
-Update your service [[Connections|dendron://dendron.dendron-site/dendron.topic.pod.v2.connections]] config.
-
+Update your service [[Connections|dendron://dendron.dendron-site/dendron.topic.pod-v2.connections]] config.
 ### Import Pod
 
 - shortcuts: none

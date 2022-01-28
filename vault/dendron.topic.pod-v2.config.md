@@ -45,7 +45,7 @@ This specifies the podType. It must be one of the following values:
 
 #### connectionId (required for some pods)
 
-This specifies the ID for the [[connection|dendron.topic.pod.v2.connections]] that will be used to connect to the external service when running this pod. Pods that require this include Notion, Google Docs and Airtable.  Pods that don't require this include Markdown or Json pods.
+This specifies the ID for the [[connection|dendron.topic.pod-v2.connections]] that will be used to connect to the external service when running this pod. Pods that require this include Notion, Google Docs and Airtable.  Pods that don't require this include Markdown or Json pods.
 
 
 ### Keybindings

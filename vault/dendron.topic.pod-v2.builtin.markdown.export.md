@@ -32,7 +32,7 @@ In addition, there are some features we currently can't convert to regular Markd
 
 ## Configuration
 
-In addition to the [[Common Properties|dendron://dendron.dendron-site/dendron.topic.pod.v2.config#common-properties]], the Markdown Pod has the following properties:
+In addition to the [[Common Properties|dendron://dendron.dendron-site/dendron.topic.pod-v2.config#common-properties]], the Markdown Pod has the following properties:
 
 ### podType
 

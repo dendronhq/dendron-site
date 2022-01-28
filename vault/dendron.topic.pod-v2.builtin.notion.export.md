@@ -42,7 +42,7 @@ The Pod will automatically query for pages on your Notion workspace and provide 
 
 ## Configuration
 
-In addition to the [[Common Properties|dendron://dendron.dendron-site/dendron.topic.pod.v2.config#common-properties]], the Notion Pod has the following properties:
+In addition to the [[Common Properties|dendron://dendron.dendron-site/dendron.topic.pod-v2.config#common-properties]], the Notion Pod has the following properties:
 
 ### podType
 
@@ -50,7 +50,7 @@ This is actually a common property, but for the Notion Export pod this **must** 
 
 ### connectionId (required)
 
-The ID of an notion connection. See [[Notion Connection|dendron://dendron.dendron-site/dendron.topic.pod.v2.connections.notion]]
+The ID of an notion connection. See [[Notion Connection|dendron://dendron.dendron-site/dendron.topic.pod-v2.connections.notion]]
 
 ### parentPage (required)
 
