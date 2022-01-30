@@ -2,7 +2,7 @@
 id: a6c03f9b-8959-4d67-8394-4d204ab69bfe
 title: Troubleshooting
 desc: ''
-updated: 1641341080572
+updated: 1643581831637
 created: 1595952505025
 nav_order: 7.1
 ---
@@ -236,6 +236,8 @@ Sometimes existing extensions will not play nicely with Dendron. To see if a pro
 - do a clean install of a VS Code flavor you do not currently have (eg. VSCodium if you have VS Code or vice versa, see instructions [[here|dendron://dendron.dendron-site/dendron.tutorial#pre-requisites]])
 - install only the Dendron extension 
 - see if your issue reproduces
+
+Another way of finding the problematic extension is using VSCode's built-in [extension bisect](https://code.visualstudio.com/blogs/2021/02/16/extension-bisect) capability
 
 ## Common Fixes
 
