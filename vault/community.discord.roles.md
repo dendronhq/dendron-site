@@ -2,7 +2,7 @@
 id: 7c00d606-7b75-4d28-b563-d75f33f8e0d7
 title: Roles
 desc: ''
-updated: 1640809841915
+updated: 1643476488985
 created: 1604237102230
 ---
 
@@ -46,7 +46,7 @@ There are currently four levels of environmentalist plans:
 
 ### Horticulturalist
 
-**Horticulturalist** are members who have contributed to the Dendron code base.
+![[dendron://dendron.dendron-site/tags.role.horticulturalist]]
 
 ### Taxonomist
 
