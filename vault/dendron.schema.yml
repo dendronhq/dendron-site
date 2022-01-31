@@ -37,7 +37,18 @@ schemas:
   desc: "Major feature areas"
   children:
     - pattern: quickstart
+      desc: how to get started with this given feature
+      template: templates.module.quickstart
     - pattern: upgrade 
+      desc: If coming from a previous version, how to upgrade
+      template: templates.upgrade
+    - pattern: concepts
+      desc: concepts for this feature
+    - pattern: config
+      desc: configuration for this feature
+    - pattern: "*"
+      title: feature
+      desc: Sub feature of this given feature
 - id: template
   template:
     id: dendron.template.example

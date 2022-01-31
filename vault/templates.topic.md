@@ -1,37 +1,35 @@
 ---
 id: ZljuAhFuNWEOUlFtPlC0h
-title: Topic
+title: Feature Template
 desc: ''
-updated: 1639763773136
+updated: 1643649604206
 created: 1635992238170
+comment: "see [[Ref|dendron://dendron.dendron-site/templates.topic.ref]] for description of all sections"
+config:
+  global:
+    enableChildLinks: false
 ---
 
 ## Summary
-<!-- 3 sentence description of the feature -->
-
-## Details
-<!-- In depth explanation of feature -->
-
-## Concepts
-<!-- Concepts that relate particular topic-->
 
 ## Features
-<!-- Specific features-->
+
+## Concepts
+
+## Details
+
+## Migration
 
 ## Commands
-<!-- VS Code specific commands if applicable -->
 
 ## CLI
-<!-- cli specific commands if applicable -->
 
 ## Config
-<!-- configuration if applicable -->
+
+## Topics
 
 ## FAQ
-<!-- Commonly asked questions -->
 
 ## Examples
-<!-- showcase sample use cases -->
 
 ## Cookbook
-<!-- Commonly used commands -->
