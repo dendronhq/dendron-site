@@ -2,7 +2,7 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1643727245188
+updated: 1643738020228
 created: 1601508213606
 nav_order: 2
 ---
@@ -14,7 +14,6 @@ nav_order: 2
 - enhance(workspace): conflicting extension warning (#2176) @hikchoi
 - enhance(publish): show lookup without waiting for notes to fetch (#2304) @eleweek
 - enhance(publish): faster search results (#2304) @eleweek
-- enhance(workspace): separate journal scratch commands (#2299) @hikchoi
 
 ### Fix
 - fix(lookup): bad title text when creating new schema (#2253) @eleweek
