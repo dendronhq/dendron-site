@@ -62,7 +62,8 @@ vaults:
     -
         fsPath: my-notes
         sync: sync
-        type: git
+        remote:
+            type: git
             url: 'git@github.com:my-username/my-notes.git'
 ```
 
