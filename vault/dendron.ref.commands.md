@@ -9,7 +9,7 @@ nav_order: 3.1
 
 ## Doctor
 
-![[dendron://dendron.dendron-site/dendron.topic.doctor#commands,1:#*c]]
+![[dendron://dendron.dendron-site/dendron.topic.doctor#commands,1:#*]]
 
 ## Notes
 
@@ -361,6 +361,12 @@ Initiate note lookup with journal note pre-selected
 
 Initiate note lookup with scratch note pre-selected
 
+### Lookup Note
+
+- shortcuts: none
+
+Initiate a note lookup. This is the successor to the [[Lookup|dendron.ref.commands#lookup]] command, limited to just notes. It is significantly faster on large workspaces when compared to its predecessor and also comes with addiitional [[modifiers|dendron.topic.lookup.modifiers]].
+
 ### Create Task Note
 
 - shortcuts: none
@@ -565,6 +571,7 @@ Update your export pod v2 configuration.
 ### Configure Service Connection
 
 Update your service [[Connections|dendron://dendron.dendron-site/dendron.topic.pod-v2.connections]] config.
+
 ### Import Pod
 
 - shortcuts: none
