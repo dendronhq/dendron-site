@@ -2,7 +2,7 @@
 id: 2pRvTG91s3JFlLFhJz3H4
 title: '0.80'
 desc: ''
-updated: 1643733671769
+updated: 1643733773670
 created: 1643732119168
 ---
 
@@ -12,9 +12,9 @@ The Markdown import pod will now include existing frontmatter metadata! For more
 
 ### Highlights
 - enhance(pods): import note metadata on markdown import
+- enhance(workspace): conflicting extension warning
 
 ### Everything Else
-- enhance(workspace): conflicting extension warning
 - enhance(publish): show lookup without waiting for notes to fetch
 - enhance(publish): faster search results
 - enhance(workspace): separate journal scratch commands
