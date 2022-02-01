@@ -2,7 +2,7 @@
 id: c5e5adde-5459-409b-b34d-a0d75cbb1052
 title: Schemas
 desc: ''
-updated: 1643330752535
+updated: 1643737563262
 created: 1595952505039
 stub: false
 ---
@@ -279,15 +279,7 @@ If the vault does not exist, a warning message will be shown and the note will c
 
 ## Schema Templates
 
-Schema templates let you designate a note as a **template**. Newly created notes that match a schema with a template will have both the contents and custom frontmatter of the template note applied at creation.
-
-This is extremely useful whenever you want to re-use the outline of a note. Examples include daily journals, weekly shopping lists, and weekly reviews.  
-
-- NOTE: you'll need to run `Reload Workspace` for any schemas that were deleted within a schema.yml file (without deleting the schema file itself).
-
-<a href="https://www.loom.com/share/481b7ab051394c1caa383383bd265755"> 
-<img style="" src="https://cdn.loom.com/sessions/thumbnails/481b7ab051394c1caa383383bd265755-with-play.gif"> 
-</a>
+![[dendron://dendron.dendron-site/dendron.topic.templates.schema-template#summary,1]]
 
 ## Unknown Schema
 
