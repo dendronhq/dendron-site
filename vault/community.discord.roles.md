@@ -2,7 +2,7 @@
 id: 7c00d606-7b75-4d28-b563-d75f33f8e0d7
 title: Roles
 desc: ''
-updated: 1643476488985
+updated: 1643738937910
 created: 1604237102230
 ---
 
@@ -55,6 +55,10 @@ A **Taxonomist** is a member who improved the Dendron documentation.
 ### Planter
 
 A **Planter** is a member who published their notes using Dendron
+
+### Farmer
+
+A **Farmer** is a member who has contributed to Dendron-related tooling or Dendron-compatible projects.
 
 ### Bug Catcher
 
