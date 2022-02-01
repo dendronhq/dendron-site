@@ -2,16 +2,16 @@
 id: 2pRvTG91s3JFlLFhJz3H4
 title: '0.80'
 desc: ''
-updated: 1643733178407
+updated: 1643733671769
 created: 1643732119168
 ---
 
 Dendron 0.80 has sprouted  🌱
 
-The Markdown import pod will now include existing frontmatter metadata! For more information on how this is handled, and how it can be configured when there are conflicting attributes, reference the documentation:
+The Markdown import pod will now include existing frontmatter metadata! For more information on how this is handled, and how it can be configured when there are conflicting attributes, reference the documentation on [[importFrontmatter configuration|dendron://dendron.dendron-site/dendron.topic.pod.builtin.markdown.import#importfrontmatter]].
 
 ### Highlights
-- enhance(pods): import note metadata on markdown import ([[docs|dendron://dendron.dendron-site/dendron.topic.pod.builtin.markdown.import#importfrontmatter]])
+- enhance(pods): import note metadata on markdown import
 
 ### Everything Else
 - enhance(workspace): conflicting extension warning
@@ -32,6 +32,7 @@ The Markdown import pod will now include existing frontmatter metadata! For more
 #### General Updates
 
 - [`awesome-dendron`](https://github.com/dendronhq/awesome-dendron/) list was released this week: A big list of Dendron docs, talks, tools, examples, articles, extensions, vaults, showcases, and more that the internet has to offer. 
+- For all documentarians: You may be interested to know that the [Write The Docs (WTD) Portland 2022](https://www.writethedocs.org/conf/portland/2022/) conference will be held virtually, and is scheduled for May 22nd to 24th.
 
 #### Starboard and TIL Highlights
 <!-- TODO: update links. Delete section is no new items-->
@@ -47,7 +48,7 @@ The Markdown import pod will now include existing frontmatter metadata! For more
 
 - ⭐ `lukecarrier#2081` shared a link to [Publish to Netlify via GitHub Actions](https://luke.carrier.im/notes/soaskhwfxi1em8dzidvbn/): _"Something I learned the other day is that `@actions/setup-node` will preserve the per-user `npm` cache for you if you set `with:cache: npm`, and similar for `yarn`. This has been enough to get my Actions->Netlify pipeline down to around ~90s."_
 - ⭐ `cameron#9185` shared a link to [Draw.io Integration for VS Code](https://marketplace.visualstudio.com/items?itemName=hediet.vscode-drawio): _"Check out the 'code link' feature in the draw io extension - it could be nifty if it supported opening links to dendron pages instead of code symbols."_
-- 💡 `seadude#7058` shared a link to [StackOverflow on targeted git cloning](https://stackoverflow.com/questions/600079/how-do-i-clone-a-subdirectory-only-of-a-git-repository/52269934#52269934): _"TIL, you can sync a specific subdirectory only from an entire Git repo!"_
+- 💡 `seadude#7058` shared a link to [StackOverflow on targeted git cloning](https://stackoverflow.com/questions/600079/how-do-i-clone-a-subdirectory-only-of-a-git-repository/52269934#52269934): _"TIL, you can sync a specific subdirectory only from an entire Git repo! Instead of cloning an entire Git repo in, say, `Users/me/Documents` (and the disconnect between my Dendron workspace and the repo contents), I can instead clone one subdirectory from the repo (like `blog-posts/`!!) to my `Dendron/vault/blog-posts` directory!_"
 - 💡 `bsqrd#9701` shared a link to [Google's Ngram Viewer](https://books.google.com/ngrams/): _"TIL, Google Books has a tool called Ngram Viewer. Could be a very interesting tool for doing research...and [here are the docs](https://books.google.com/ngrams/info)"_
 
 #### Dendron Reading Series
