@@ -2,13 +2,15 @@
 id: 2pRvTG91s3JFlLFhJz3H4
 title: '0.80'
 desc: ''
-updated: 1643733773670
+updated: 1643737511228
 created: 1643732119168
 ---
 
 Dendron 0.80 has sprouted  🌱
 
-The Markdown import pod will now include existing frontmatter metadata! For more information on how this is handled, and how it can be configured when there are conflicting attributes, reference the documentation on [[importFrontmatter configuration|dendron://dendron.dendron-site/dendron.topic.pod.builtin.markdown.import#importfrontmatter]].
+The Markdown import pod will now include existing frontmatter metadata! This means that your frontmatter can follow you from other tools, such as Obsidian, Logseq, Joplin, and others that use Markdown-formatted notes with frontmatter. For more information on how this is handled, and how it can be configured when there are conflicting attributes, reference the documentation on [[importFrontmatter configuration|dendron://dendron.dendron-site/dendron.topic.pod.builtin.markdown.import#importfrontmatter]].
+
+This release also includes lots of bug fixes and performance improvements.
 
 ### Highlights
 - enhance(pods): import note metadata on markdown import
@@ -17,7 +19,6 @@ The Markdown import pod will now include existing frontmatter metadata! For more
 ### Everything Else
 - enhance(publish): show lookup without waiting for notes to fetch
 - enhance(publish): faster search results
-- enhance(workspace): separate journal scratch commands
 - fix(lookup): bad title text when creating new schema
 - fix(publish): numbered lists without content stack on top of each other
 - fix(publish): bad logo text position on mobile
@@ -35,7 +36,7 @@ The Markdown import pod will now include existing frontmatter metadata! For more
 - For all documentarians: You may be interested to know that the [Write The Docs (WTD) Portland 2022](https://www.writethedocs.org/conf/portland/2022/) conference will be held virtually, and is scheduled for May 22nd to 24th.
 
 #### Starboard and TIL Highlights
-<!-- TODO: update links. Delete section is no new items-->
+
 > These are highlights from the [[Dendron Discord|dendron://dendron.dendron-site/community.discord.channels]] `#starboard` and `#today-i-learned` channels.
 
 - ⭐ `moksha#0720` shared a link to [Mdnotes Zotera Plugin](https://github.com/argenos/zotero-mdnotes): _"Found a neat way to get your journal articles or web annotations onto your notes...I have found this works extremely well as it create proper tags, backlinks and bibliography for all media (web annotations, journal articles, articles, books)."_
@@ -70,7 +71,49 @@ This week's entry in the [[Dendron Reading Series|dendron://dendron.dendron-site
 A big **thanks** to the following gardeners that brought up issues, contributions, and fixes to this release :man_farmer: :woman_farmer: 
 Visit [[Discord Roles|dendron://dendron.dendron-site/community.discord.roles]] for more information.
 
-#todo
+- [Alexander Putilin](https://github.com/eleweek) `@sashasasha#5383`
+  - #role.horticulturalist
+  - [fix(lookup): "Note does not exist. Create?" should read "Schema does not exist. Create?" in Schema Lookup](https://github.com/dendronhq/dendron/pull/2253)
+  
+- [Pavel Varona](https://github.com/pvorona) `@Pavel Varona#1368`
+  - #role.horticulturalist
+  - [fix: title wrap and hamburger offset on mobile](https://github.com/dendronhq/dendron/pull/2183)
+
+- [Tycholiz](https://github.com/Tycholiz) `@Tychronos#6624`
+  - #role.taxonomist
+  - [docs: add documentation for publishing some vaults while keeping others private and unpublished](https://github.com/dendronhq/dendron-site/pull/362)
+
+- [d1onysus](https://github.com/dweisiger) `@d1onysus#1514`
+  - #role.taxonomist
+  - [docs: Fix a few small typos](https://github.com/dendronhq/dendron-site/pull/377)
+
+- [Bill Moriarty](https://github.com/BillMoriarty) `@Bill M#4550`
+  - #role.bugcatcher
+  - [CSS is a bit off on iPad](https://github.com/dendronhq/dendron/issues/2290)
+
+- [Tsvetomir Bonev](https://github.com/invakid404) `@invakid404#6400`
+  - #role.farmer
+  - [incrementally autoupdate tldr pages](https://github.com/kevinslin/seed-tldr/pull/1#pullrequestreview-868612529)
+
+- [Jamie Bilinski](https://github.com/jbilinski)
+  - #role.taxonomist
+  - [docs: missing 'remote' mapping](https://github.com/dendronhq/dendron-site/pull/368)
+
+- [Callum Mcdonald](https://github.com/chmac) `@chmac#2931`
+  - #role.bugcatcher
+  - [CLI does not report invalid commands](https://github.com/dendronhq/dendron/issues/2300)
+
+- [Thanos Lefteris](https://github.com/alefteris) `@alefteris#6114`
+  - #role.bugcatcher
+  - [Code blocks and spans in preview are html encoded](https://github.com/dendronhq/dendron/issues/2301)
+
+- [Yi Seunggi](https://github.com/hotSixRedBull)
+  - #role.bugcatcher
+  - [Import Pod for markdown shows me an error message](https://github.com/dendronhq/dendron/issues/2309)
+
+- [Joshua Jeschek](https://github.com/joshuajeschek) `@vanitasboi#0252`
+  - #role.bugcatcher
+  - [Clicking on text based logo URLs results in 404](https://github.com/dendronhq/dendron/issues/2313)
 
 ### Changelog
 ![[changelog#0800,1:#0790]]
