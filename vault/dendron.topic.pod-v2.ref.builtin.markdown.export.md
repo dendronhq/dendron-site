@@ -2,7 +2,7 @@
 id: Un0n1ql7LfvMtmA9JEi4n
 title: Export
 desc: ''
-updated: 1643092403008
+updated: 1643294429008
 created: 1642170379669
 ---
 
@@ -32,7 +32,7 @@ In addition, there are some features we currently can't convert to regular Markd
 
 ## Configuration
 
-In addition to the [[Common Properties|dendron://dendron.dendron-site/dendron.topic.pod.v2.quickstart#common-properties]], the Markdown Pod has the following properties:
+In addition to the [[Common Properties|dendron://dendron.dendron-site/dendron.topic.pod-v2.config#common-properties]], the Markdown Pod has the following properties:
 
 ### podType
 

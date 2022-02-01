@@ -94,6 +94,14 @@ When a configuration or client version does not meet the minimum compatibility r
 | `minCompatClientVersion` |      _string_      | Minimum compatible client version when mismatch happened |
 | `minCompatConfigVersion` |      _string_      | Minimum compatible config version when mismatch happened |
 
+#### Incompatible extensions
+
+When we detect that a user has extensions that incompatible with Dendron's capabilities, we warn the user on startup that they may cause problems. We track which extensions were warned to the user, and also whether they have been redirected to an instruction on how to resolve the conflict. This helps us make Dendron more compatible with existing third party extensions in the marketplace.
+
+|                 Field | Attributes | Description                                                                        |
+| --------------------: | :--------: | ---------------------------------------------------------------------------------- |
+| `installedExtensions` | _string[]_ | extension ID of the pre-defined extension(s) that may cause incompatibility issues |
+
 ### Tutorial Progression
 
 When Dendron starts for the first time, it launches users into a tutorial workflow. We track how far along the tutorial you get using the `Tutorial_{num}_Show` event. This helps us figure out how effective our intro documentation is.

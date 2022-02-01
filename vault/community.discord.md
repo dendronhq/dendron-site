@@ -35,6 +35,8 @@ We are absolutely thrilled to have you here. Below are some good channels to get
 
 ![[community.discord.channels#intros:#*]]
 
+![[community.discord.channels#questions:#*]]
+
 ![[community.discord.channels#chat:#*]]
 
 ## Onboarding

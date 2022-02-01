@@ -2,7 +2,7 @@
 id: PTj1tVa4wp2PaaJ2bEY6r
 title: Export
 desc: ''
-updated: 1643092235186
+updated: 1643294457099
 created: 1642172814070
 ---
 
@@ -12,7 +12,7 @@ The JSON export pod will take Dendron Markdown and convert it to JSON object.
 
 ## Configuration
 
-In addition to the [[Common Properties|dendron://dendron.dendron-site/dendron.topic.pod.v2.quickstart#common-properties]], the JSON Pod has the following properties:
+In addition to the [[Common Properties|dendron://dendron.dendron-site/dendron.topic.pod-v2.config#common-properties]], the JSON Pod has the following properties:
 
 ### podType
 

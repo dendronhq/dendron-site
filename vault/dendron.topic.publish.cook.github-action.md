@@ -2,7 +2,7 @@
 id: FnK2ws6w1uaS1YzBUY3BR
 title: GitHub Pages with GitHub Actions
 desc: ''
-updated: 1642521496783
+updated: 1643389741638
 created: 1631306630307
 ---
 
@@ -28,6 +28,8 @@ You can see a deployed example of these instructions in the following repository
 
 - [Dendron on GitHub Pages with GitHub Actions Template: `template.publish.github-action`](https://github.com/dendronhq/template.publish.github-action)
   - The template, with every update, publishes to [this example website](https://dendronhq.github.io/template.publish.github-action/)
+
+- NOTE: you'll need to change the  `assetsPrefix` field in `dendron.yml` from `/template.publish.github-action` to your own prefix!
 
 ## Create a GitHub repo
 
@@ -91,37 +93,32 @@ Follow the instructions [here](https://docs.github.com/en/repositories/creating-
         with:
           fetch-depth: 0
 
-      - name: Delete cache if present
-        run: "rm -rf .next && rm -rf docs && rm -rf node_modules"
+      - name: Restore Node modules cache
+        uses: actions/cache@v2
+        id: node-modules-cache
+        with:
+          path: |
+            node_modules
+            .next/*
+            !.next/.next/cache
+            !.next/.env.*
+          key: ${{ runner.os }}-dendronv2-${{ hashFiles('**/yarn.lock', '**/package-lock.json') }}
 
-      - name: Install npm dependencies
-        ## Install latest version
-        # This always publishes with the latest dendron version
-        # Uncomment the next line, and comment out any other `npm install ...` line
-        run: npm install @dendronhq/dendron-cli@latest
+      - name: Install dependencies
+        run: yarn
 
-        ## OPTIONALLY: Install specific version
-        # Available versions: https://www.npmjs.com/package/@dendronhq/dendron-cli
-        # This example pins to 0.77.0
-        # Uncomment the next line, and comment out any other `npm install ...` line
-        #run: npm install @dendronhq/dendron-cli@0.77.0
-
-        ## OPTIONALLY: Install dependencies from package-lock.json
-        # Install version of Dendron from package-lock.json in workspace root
-        # To use:
-        # - Remove package-lock.json and package.json from .gitignore
-        # - Commit package.json and package-lock.json to repository
-        # - Uncomment the next line, and comment out the other `npm install ...` line
-        #run: npm install
-
-      - name: Output dependency tree to log
-        run: cat package*.json
+      - name: Restore Next cache
+        uses: actions/cache@v2
+        with:
+          path: .next/.next/cache
+          # Generate a new cache whenever packages or source files change.
+          key: ${{ runner.os }}-nextjs-${{ hashFiles('.next/yarn.lock', '.next/package-lock.json') }}-${{ hashFiles('.next/**.[jt]s', '.next/**.[jt]sx') }}
 
       - name: Initialize or pull nextjs template
-        run: npx dendron publish init
+        run: "(test -d .next) && (echo 'updating dendron next...' && cd .next && git reset --hard && git clean -f && git pull && yarn && cd ..) || (echo 'init dendron next' && yarn dendron publish init)"
 
       - name: Export notes
-        run: npx dendron publish export --target github --yes
+        run: yarn dendron publish export --target github --yes
 
       - name: Deploy site
         uses: peaceiris/actions-gh-pages@v3
@@ -132,6 +129,7 @@ Follow the instructions [here](https://docs.github.com/en/repositories/creating-
           force_orphan: true
           #cname: example.com
   ```
+
 1. Commit your changes
   ```sh
   git add .

@@ -2,12 +2,16 @@
 id: 66727a39-d0a7-449b-a10d-f6c438185d7f
 title: Pods
 desc: ''
-updated: 1640105586688
+updated: 1643648482652
 created: 1602958663144
 ---
+
+## Summary
+
 <img src="https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/pods.png" height="300px"/>
 
 > Pod image courtesy of [Ilana Lin](https://www.instagram.com/ilana_lin/)
+
 
 Dendron refers to pods as any tool or location that is used to hold information. Tools like Evernote and Roam are pods. Social media services like Twitter and Facebook are pods. Publication destinations like static sites and Medium are pods. Everything is a pod.
 
