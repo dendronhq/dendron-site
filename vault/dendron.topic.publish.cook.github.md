@@ -17,8 +17,9 @@ Before continuing: **we do not recommend this path for publishing.** If possible
 ![[dendron://dendron.dendron-site/dendron.topic.publish.cook.github-action#why,1:#*]]
 
 ## Prerequisites 
-- This assumes you have a GitHub account.
-    - If not, you can create one [here](https://github.com/new).
+
+![[dendron://dendron.dendron-site/dendron.topic.git#prerequisites,1:#*]]
+
 - You have [[Dendron CLI|dendron.ref.cli]] installed (version `0.70.0` or greater)
 
 ## Example Deployments
@@ -26,7 +27,7 @@ You can see deployed examples of these instructions in the following repositorie
 
 - [Publish a regular GitHub page](https://github.com/dendronhq/template.publish.github)
 
-## Process - Setup GitHub
+## Steps - Setup GitHub
 
 ### Create a GitHub repo
 
@@ -51,7 +52,7 @@ Select the docs folder and click save.
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/publishv2.github-docs.jpg)
 
-## Process - Setup Dendron
+## Steps - Setup Dendron
 
 ### Setup Dendron Next.js Publishing
 

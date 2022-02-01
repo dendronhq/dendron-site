@@ -2,7 +2,7 @@
 id: c5e5adde-5459-409b-b34d-a0d75cbb1052
 title: Schemas
 desc: ''
-updated: 1641340888902
+updated: 1643330752535
 created: 1595952505039
 stub: false
 ---
@@ -258,6 +258,8 @@ template:
   # what sort of template we are creating. currently, only 'note' is supported
   type: note
 ```
+If a template does not exist, a warning message will be shown and the note will created without a schema applied.
+
 ##### Shortened template syntax
 ```yml
 # identifier for the template (the name of the note)
@@ -265,6 +267,16 @@ template:
 template: journal.template.daily
 ```
 Shortened template syntax will always uses `type: note` 
+
+If there are multiple templates with the same identifier in multiple vaults, you will be prompted to pick the vault when trying to apply a note template.
+
+##### Cross-vault template syntax
+```yml
+# Use this to specify a template (If there are multiple or if it lies in a vault separate from your schema)
+template: dendron://myVault/journal.template.daily
+```
+If the vault does not exist, a warning message will be shown and the note will created without a schema applied.
+
 ## Schema Templates
 
 Schema templates let you designate a note as a **template**. Newly created notes that match a schema with a template will have both the contents and custom frontmatter of the template note applied at creation.

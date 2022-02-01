@@ -1,8 +1,8 @@
 ---
 id: eea2b078-1acc-4071-a14e-18299fc28f47
 title: Commands
-desc: ""
-updated: 1643351987219
+desc: ''
+updated: 1643365411917
 created: 1595261816971
 nav_order: 3.1
 ---
@@ -126,6 +126,8 @@ This can be toggled on by clicking on the <svg width="16" height="16" viewBox="0
 ---
 insertNoteLink:
   multiSelect: true
+  ...
+---
 ```
 
 You can also pass it as a command argument through a custom keybinding as below:
@@ -333,7 +335,7 @@ See [[Preview|dendron.topic.preview]] for more details.
 
 ## Navigation
 
-### Lookup
+### Lookup Note
 
 - shortcuts:
   - mac: `cmd+L`
@@ -343,21 +345,19 @@ Initiate note lookup
 
 ![[dendron.topic.lookup]]
 
-### Lookup (Journal Note)
+### Lookup Journal Note
 
 - shortcuts:
   - key: `ctrl+shift+j`
   - mac: `cmd+shift+j`
-  - args: `{'noteType': 'journal'}`
 
 Initiate note lookup with journal note pre-selected
 
-### Lookup (Scratch Note)
+### Lookup Scratch Note
 
 - shortcuts:
   - key: `ctrl+shift+s`
   - mac: `cmd+shift+s`
-  - args: `{'noteType': 'scratch', 'selectionType': 'selection2link'}`
 
 Initiate note lookup with scratch note pre-selected
 
@@ -570,7 +570,7 @@ Update your export pod v2 configuration.
 
 ### Configure Service Connection
 
-Update your service [[Connections|dendron://dendron.dendron-site/dendron.topic.pod.v2.connections]] config.
+Update your service [[Connections|dendron://dendron.dendron-site/dendron.topic.pod-v2.connections]] config.
 
 ### Import Pod
 
@@ -692,6 +692,18 @@ Open Dendron logs for current session
 - shortcuts: none
 
 Copy last 3000 lines of all logs and config to clipboard. Use when submitting an issue to Dendron
+
+Information displayed:
+
+- workspace type
+- current dendron version
+- previous workspace version
+- previous global version
+- extension install status
+- contents of `dendron.yml`
+- contents of `dendron.code-workspace`
+- telemetry status
+- last 3000 lines of logs from client and server
 
 ## Contextual UI
 

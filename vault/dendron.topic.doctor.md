@@ -59,6 +59,17 @@ This simply lists all broken links in the scope.
 - Detects if the user has enabled extensions that are known to be incompatible when used with Dendron concurrently, and provides a guide on how to fix the issue.
 - A full list of incompatible extensions is listed in [[dendron.guides.troubleshooting.incompatible-extensions]]
 
+### regenerateNoteId
+
+Regenerates the IDs of your notes.
+
+- Command: `Dendron: Doctor`
+- Option: `regenerateNoteId`
+
+If you publish your notes, this **will break the published links to your notes.**
+
+To change the scope of using this command (single note vs. workspace), remember to follow the notice in [[Dendron Doctor Details|dendron://dendron.dendron-site/dendron.topic.doctor#details]].
+
 ## CLI
 
 Doctor commands are also available via the CLI. Note that not all doctor commands are available in the CLI

@@ -2,7 +2,7 @@
 id: 8bc9b3f1-8508-4d3a-a2de-be9f12ef1821
 title: Tags
 desc: ''
-updated: 1638384548702
+updated: 1642784513103
 created: 1601910058115
 tags:
   - example.from-frontmatter
@@ -27,7 +27,7 @@ In Dendron, tags are just a shorthand for writing `[[#example.my-example|tags.ex
 
 ### Navigation
 
-To find all notes that were tagged with this tag, you can click on it while holding down `Ctrl`, press `Ctrl+Enter` on your keyboard, or use the "Dendron: Goto Note" command.  Once you open the tag, expand the Backlinks section on your editor to see everywhere this tag was used.
+To find all notes that were tagged with this tag, you can click on it while holding down `Ctrl`, press `Ctrl+Enter` on your keyboard, or use the `Dendron: Go to Note` command.  Once you open the tag, expand the Backlinks section on your editor to see everywhere this tag was used.
 
 ### Punctuation
 
@@ -41,7 +41,7 @@ sentences.
 
 Tags support autocomplete (intellisense), but tag notes must be created for
 autocomplete to work. To create a tag note, select the
-tag and use "Dendron: Goto Note" command or hit "Ctrl+enter".
+tag and use `Dendron: Go to Note` command or hit `Ctrl+Enter`.
 
 ### Custom colors
 

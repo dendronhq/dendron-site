@@ -16,7 +16,7 @@ You can include SVG exports of your Diagrams.net (formerly known as Draw.io) dia
 - You embed your diagram pages in your notes as you would any other image, e.g. `![](assets/diagrams/nerve.svg)`.
   - To export a specific page, include the page number in the path, e.g. `![](assets/diagrams/nerve.svg#2)`. Page numbers are indexed from 0.
 
-## Process
+## Steps
 
 ### Install the package
 

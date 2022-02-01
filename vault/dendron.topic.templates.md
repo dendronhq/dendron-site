@@ -2,7 +2,7 @@
 id: 861cbdf8-102e-4633-9933-1f3d74df53d2
 title: Templates
 desc: ""
-updated: 1641319881788
+updated: 1643331797317
 created: 1602033087611
 stub: false
 ---
@@ -31,6 +31,10 @@ We are continually working to expand the types of templates available in the `de
 
 ## Template Variables
 
+![[dendron://dendron.dendron-site/dendron._ref.status#work-in-progress-:#*]]
+
+> Date variables currently does not work in version `0.79` and later releases.
+
 Dendron supports various template variables.
 
 - For inserting the current date and time:
@@ -45,7 +49,7 @@ Example:
 
 - template
     ```jinja2
-    Today is {{ CURRENT_YEAR }}.{{ CURRENT_MONTH }}.{{ CURRENT_DAY }},
+    Today is <%=CURRENT_YEAR%>.<%= CURRENT_MONTH%>.<%= CURRENT_DAY%>,
     ```
 - output
     ```

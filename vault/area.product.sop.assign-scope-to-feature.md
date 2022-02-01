@@ -12,7 +12,7 @@ How we assign scopes to features.
 ## Prerequisites
 None
 
-## Process
+## Steps
 1. Read over the different [[scopes|dendron://dendron.dendron-site/tags.scope]] and use your best judgement to apply the correct type
 1. When in doubt, add a question in `#dendron-team` channel 
 

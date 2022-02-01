@@ -2,7 +2,7 @@
 id: bjhsGLyqME7QcNV6GueUb
 title: Discord
 desc: ''
-updated: 1640811287166
+updated: 1642721497339
 created: 1640809069591
 ---
 
@@ -35,6 +35,8 @@ We are absolutely thrilled to have you here. Below are some good channels to get
 
 ![[community.discord.channels#intros:#*]]
 
+![[community.discord.channels#questions:#*]]
+
 ![[community.discord.channels#chat:#*]]
 
 ## Onboarding
@@ -45,7 +47,8 @@ We are absolutely thrilled to have you here. Below are some good channels to get
 
 - [[dendron.tutorial]]
 - [Dendron homepage](https://dendron.so/)
-- [Dendron roadmap](https://github.com/orgs/dendronhq/projects/1)
+- [GitHub Discussions](https://github.com/dendronhq/dendron/discussions)
+- [[Dendron Public Roadmap|dendron://dendron.dendron-site/dendron.roadmap]]
 - [[dendron.guides.workflows.amoeba]]: A typical Dendron Workflow for taking notes
 - Submit a feature request](https://github.com/dendronhq/dendron/issues/new?assignees=&labels=&template=feature_request.md&title=
 - [Submit a bug report](https://github.com/dendronhq/dendron/issues/new?assignees=&labels=&template=bug_report.md&title=)

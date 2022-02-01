@@ -23,7 +23,7 @@ This guide walks you through publishing with Next.js.
 npm install -g yarn
 ```
 
-## Process
+## Steps
 
 ### Setup
 Run the following commands at the root of your Dendron [[workspace|dendron.topic.workspace]]

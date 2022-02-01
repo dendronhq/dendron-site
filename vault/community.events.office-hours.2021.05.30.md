@@ -2,14 +2,13 @@
 id: 3da0e9c2-c6cb-468c-a0bf-be2a267a1a41
 title: 2021-05-30 Office Hours
 desc: ''
-updated: 1641252555924
+updated: 1642721536886
 created: 1622398067339
 ---
 
 ## Company updates
 
--   Roadmap now has a timeline - [https://github.com/orgs/dendronhq/projects/1](https://github.com/orgs/dendronhq/projects/1)
-    -   Rationale: [Dendron Public Roadmap - Dendron](https://wiki.dendron.so/notes/6e4c4f61-80a3-46fa-9ad3-04b99d9e9695.html)
+-   Rationale: [Dendron Public Roadmap - Dendron](https://wiki.dendron.so/notes/6e4c4f61-80a3-46fa-9ad3-04b99d9e9695.html)
 -   Product update
     -   Block references
     -   Graph Viz.

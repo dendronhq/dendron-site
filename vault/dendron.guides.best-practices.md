@@ -2,7 +2,7 @@
 id: 8d3c8142-7481-40da-9a5c-69a3d4bab697
 title: Best Practices
 desc: ''
-updated: 1627660513029
+updated: 1643389205538
 created: 1619103186948
 nav_order: 3.1
 ---
@@ -59,10 +59,10 @@ In this setup, only your `dendron.yml` and other metadata files are comitted whe
 	git commit -m "initial commit"
 	```
 1. Convert your vault to a remote vault by following the instructions [[here|dendron.guides.cook#converting-a-local-vault-to-a-remote-vault]].
-1. Create a remote git host (GitHub is the most popular and probably easiest to setup) and push your workspace changes there
+1. Create a remote host (GitHub is the most popular and probably easiest to setup) and push your workspace changes there
 1. Clone the workspace on any computer you want to use Dendron on
 
-- NOTE: If you have non-public vaults, make sure each computer that you clone Dendron on has the necessary permissions to clone said vault. Instructions for doing this with GitHub can be found [here](https://saas.dendron.so/notes/L80sFsAAcOO_0ztqZrN1J.html)
+> If you have non-public vaults, make sure each computer that you clone Dendron on has the necessary permissions to clone said vault. If using GitHub, refer to [troubleshooting cloning errors](https://docs.github.com/en/repositories/creating-and-managing-repositories/troubleshooting-cloning-errors) from the GitHub Docs.
 
 
 

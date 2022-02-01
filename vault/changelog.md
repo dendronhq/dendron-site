@@ -2,10 +2,47 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1641924279346
+updated: 1643125864161
 created: 1601508213606
 nav_order: 2
 ---
+
+## 0.79.0
+
+### Breaking changes
+
+[[Date variable substitution|dendron://dendron.dendron-site/dendron.topic.templates#template-variables]] has been temporarily reverted as it conflicts with existing template substitutions. Details discussed [here](https://github.com/dendronhq/dendron/discussions/2207). We're aiming to re-introduce next week - apologies for the churn!
+### Enhancements
+- enhance(publish): logo can reference a full URL path to external image ([[docs|dendron://dendron.dendron-site/dendron.topic.publish.faq#how-do-i-add-a-logo-to-my-website]]) (#2189) @kaan
+- enhance(lookup): add configuration for vault selection behavior with new `vaultSelectionModeOnCreate` config option @nickolay ([[docs|dendron://dendron.dendron-site/dendron.ref.config.commands#vaultselectionmodeoncreate]])
+- enhance(lookup): change `confirmVaultOnCreate` default to `true` (#1960) @nickolay
+- enhance(publish): attempt to update Next.js template in-place (#2162) [Luke Carrier](https://github.com/LukeCarrier) `lukecarrier#2081`
+- enhance(publish): add lockfile to Next.js (#2215) @kevin
+
+### Fix
+- fix(server): highlighting breaks when there's too much text (#2163) @kaan
+- fix(workspace): stop link candidate logic when disabled (#2136) @hikchoi
+- fix(commands): renamed command from `Goto Note` to `Go to Note` (#2187) [skfile](https://github.com/skfile)
+- fix(markdown): Exclude parenthesis from tags (#2182) [Nicklas Gummesson](https://github.com/viddo) `viddo#9229`
+- fix(publish): logo doesn't respect `assetsPrefix` (#2189) @kaan
+- fix(workspace): cursor moves to top when opening file through the search (#2193) @kaan
+- fix(schema): Use string replace instead of lodash for date variable substitution (breaking change)
+- fix(publish): some published pages will show error (#2199) @kaan
+
+## 0.78.0
+
+### Enhancements
+- enhance(pod): Markdown import pod avoids reformatting files ([[docs|dendron://dendron.dendron-site/dendron.topic.pod.builtin.markdown.import]]) (#2084) @kaan
+- enhance(workspace): `Dendron: Initialize Workspace` can use file picker to select destination, instead of typing it out ([[docs|dendron://dendron.dendron-site/dendron.ref.commands#initialize-workspace]]) (#2130) @tuling
+- enhance(markdown): allow notes to override the pretty refs setting ([[docs|dendron://dendron.dendron-site/dendron.topic.note-reference#configuration]]) (#2124) @kaan
+- enhance(workspace): detect config / client compatibility mismatch in cli (#2113) @hikchoi
+
+### Fix
+- fix(lookup): add sort by levenshtein distance prior to sorting by update date to lookup results of the same match score ([[docs|dendron://dendron.dendron-site/dendron.topic.lookup.find#sort-ordering]]) (#2111) @nickolay
+- fix(commands): paste-link-title-trim (#1961) [KamQb](https://github.com/KamQb) `@qKi#0849`
+- fix(workspace): insert note index enablement (#2133) @hikchoi
+- fix(views): hover preview containing local images on Windows (#2047) @kaan
+- fix(views): enable copy plaintext from preview (#2152) @kevin
 
 ## 0.77.0
 
@@ -121,13 +158,13 @@ Dendron previously published backlinks and child links as header/anchor sections
 ## 0.73.0
 
 ### Features
-- feat(navigation): `Goto Note` can open links to non-note files ([[docs|dendron://dendron.dendron-site/dendron.topic.links#file-links]]) (#1844) @kaan
+- feat(navigation): `Go to Note` can open links to non-note files ([[docs|dendron://dendron.dendron-site/dendron.topic.links#file-links]]) (#1844) @kaan
 - feat(refactor): support `Rename Symbol` with Dendron wikilinks ([[docs|dendron://dendron.dendron-site/dendron.topic.refactoring#rename-symbol]]) (#1879) @hikchoi
 - feat(navigation): implement `Go to Definition` for non-note files ([[docs|dendron://dendron.dendron-site/dendron.topic.navigation#go-to-definition]]) (#1888) @kaan
 - feat(pods): early version of Orbit import pod ([[docs|dendron://dendron.dendron-site/dendron.topic.pod.builtin.orbit]]) (#1637) @joshi
 
 ### Enhancements
-- enhance(navigation): allow `Goto Note` to work inside code blocks (#1878) @kaan
+- enhance(navigation): allow `Go to Note` to work inside code blocks (#1878) @kaan
 - enhance(markdown): add `depth` metadata to header anchors (#1877) @kevin
 - enahnce(workspace): simplify `InitializeWorkspace` command (#1886) @jonathan
 - enhance(publish): better layout for Table of Contents / TOC (#1882) @kevin
@@ -347,7 +384,7 @@ An enhancement in this release delivers breaking changes announced last week: [[
 ### Fix
 - fix(publishing): Markdown publish to hide block reference anchors (#1577)  @joshi
 - fix(workspace): file watcher updates backlinks (#1618) @kaan
-- fix(workspace): hover & goto note should respect enableUser/HashTags (#1620) @kaan
+- fix(workspace): hover & `Go to Note` should respect enableUser/HashTags (#1620) @kaan
 - fix(pods): resolve same level dir wikilinks in Markdown import (#1615) @joshi
 - fix(schemas): replace auto generated ids with readable descriptions (#1632) @nickolay
 

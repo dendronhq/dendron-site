@@ -2,7 +2,7 @@
 id: 3abd00eb-1c1e-4253-aaf5-dcbe20c21850
 title: Early Seed
 desc: ''
-updated: 1642189773207
+updated: 1643390434310
 created: 1604539200840
 published: true
 nav_exclude: true
@@ -10,16 +10,14 @@ nav_exclude: true
 
 > This page documents the features, enhancements, and fixes in the latest early seed release. The early seed is a preview of the weekly release, so you'll see the next minor version when installing (ex. `0.78.0` instead of `0.77.1`). When dendron ships the general release, the currently installed extension will automatically be updated (but will still have same version).
 
-## Enhancements
-- enhance(pod): Markdown import pod avoids reformatting files ([[docs|dendron://dendron.dendron-site/dendron.topic.pod.builtin.markdown.import]]) (#2084) @kaan
-- enhance(workspace): `Dendron: Initialize Workspace` can use file picker to select destination, instead of typing it out ([[docs|dendron://dendron.dendron-site/dendron.ref.commands#initialize-workspace]]) (#2130) @tuling
-- enhance(markdown): allow notes to override the pretty refs setting ([[docs|dendron://dendron.dendron-site/dendron.topic.note-reference#configuration]]) (#2124) @kaan
-- enhance(workspace): detect config / client compatibility mismatch in cli (#2113) @hhikchoi
+## 0.80.0
 
-## Fix
-- fix(lookup): add sort by levenshtein distance prior to sorting by update date to lookup results of the same match score ([[docs|dendron://dendron.dendron-site/dendron.topic.lookup.find#sort-ordering]]) (#2111) @nickolay
-- fix(commands): paste-link-title-trim (#1961) [KamQb](https://github.com/KamQb) `@qKi#0849`
-- fix(workspace): insert note index enablement (#2133) @hikchoi
-- fix(views): hover preview containing local images on Windows (#2047) @kaan
-- fix(views): enable copy plaintext from preview (#2152) @kevin
-- fix(server): highlighting breaks when there's too much text (#2163) @kaan
+### Enhancements
+- enhance(pods): import note metadata on markdown import ([[docs|dendron://dendron.dendron-site/dendron.topic.pod.builtin.markdown.import#importfrontmatter]]) (#2195) @joshi
+
+### Fix
+- fix(lookup): bad title text when creating new schema (#2253) @eleweek
+- fix(publish): numbered lists without content stack on top of each other (#2219) @kaan
+- fix(publish): bad logo text position on mobile (#2183) [Pvorona](https://github.com/pvorona)
+- fix(publish): Search Bar Results to not stay anchored to the search bar when scrolling up (#2292) @eleweek
+- fix(schema): fix schema template match when there is same grandchild from two different schema parents (#2158) @nickolay
