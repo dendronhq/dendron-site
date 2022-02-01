@@ -2,10 +2,28 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1643125864161
+updated: 1643738020228
 created: 1601508213606
 nav_order: 2
 ---
+
+## 0.80.0
+
+### Enhancements
+- enhance(pods): import note metadata on markdown import ([[docs|dendron://dendron.dendron-site/dendron.topic.pod.builtin.markdown.import#importfrontmatter]]) (#2195) @joshi
+- enhance(workspace): conflicting extension warning (#2176) @hikchoi
+- enhance(publish): show lookup without waiting for notes to fetch (#2304) @eleweek
+- enhance(publish): faster search results (#2304) @eleweek
+
+### Fix
+- fix(lookup): bad title text when creating new schema (#2253) @eleweek
+- fix(publish): numbered lists without content stack on top of each other (#2219) @kaan
+- fix(publish): bad logo text position on mobile (#2183) [Pvorona](https://github.com/pvorona)
+- fix(publish): Search Bar Results to not stay anchored to the search bar when scrolling up (#2292) @eleweek
+- fix(schema): fix schema template match when there is same grandchild from two different schema parents (#2158) @nickolay
+- fix(navigation): decode urlencoded spaces in asset path before opening (#2279) @hikchoi
+- fix(pods): improve error feedback to user (#2266) @joshi
+- fix(publish): CSS sidebar is off on smaller screens like iPad (#2305) @eleweek
 
 ## 0.79.0
 
