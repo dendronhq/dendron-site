@@ -2,7 +2,7 @@
 id: 84df871b-9442-42fd-b4c3-0024e35b5f3c
 title: Telemetry
 desc: ""
-updated: 1643350399399
+updated: 1643196019722
 created: 1619460500071
 nav_order: 6.1
 ---
@@ -108,14 +108,21 @@ When Dendron starts for the first time, it launches users into a tutorial workfl
 
 ### User Survey
 
-We ask users if they want to answer survey questions that would help use improve Dendron. These surveys are prompted when the user first initializes the tutorial, or has been inactive for a month after actively using Dendron on their first week, or has never initialized a workspace after install.
+We ask users if they want to answer survey questions that would help use improve Dendron. These surveys are prompted when the user first initializes the tutorial, or has been inactive for two weeks after actively using Dendron on their first week, or has never initialized a workspace after install. To determine inactivity, we track specific points of time when a notable event happens.
 
 We use the results to customize the onboarding experience and help users get started. We track if the user accepted the prompt, and what answer they gave for the survey. For each survey question, the following fields are collected.
 
-|     Field | Attributes | Description                                      |
-| --------: | :--------: | ------------------------------------------------ |
-| `results` | _string[]_ | List of selected survey answers                  |
-|   `other` |  _other_   | User submitted answer when they selected _other_ |
+|                     Field | Attributes | Description                                      |
+| ------------------------: | :--------: | ------------------------------------------------ |
+|                 `results` | _string[]_ | List of selected survey answers                  |
+|                   `other` |  _other_   | User submitted answer when they selected _other_ |
+|              firstInstall |   number   | timestamp of first install event                 |
+|         firstWsInitialize |   number   | timestamp of first workspace initialization      |
+|     lapsedUserMsgSendTime |   number   | timestamp of last lapsed user message            |
+|   inactiveUserMsgSendTime |   number   | timestamp of last inactive user message          |
+| dendronWorkspaceActivated |   number   | timestamp of last workspace activation           |
+|           firstLookupTime |   number   | timestamp of first lookup accept                 |
+|            lastLookupTime |   number   | timestamp of last lookup accept                  |
 
 ### Installation/Upgrade/Uninstall
 
