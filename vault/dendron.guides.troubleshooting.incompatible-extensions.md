@@ -6,15 +6,21 @@ updated: 1642341217950
 created: 1642340936718
 ---
 
+## Summary
+
+Over the course of Dendron's existence, we have been making note of VSCode extensions that can cause issues when used with Dendron. These are extensions that were either reported by our community members, or have been identified by the Dendron team.
+
+To audit whether you may be running incompatible extensions, run `Dendron: Doctor` -> [[findIncompatibleExtensions|dendron://dendron.dendron-site/dendron.topic.doctor#findincompatibleextensions]].
+
+> If you find an extension that is not described here but may conflict with Dendron, please let us know.
+
+## Details
+
 Dendron strives to make your notes compatible with a lot of other note taking tools available. We also put great effort in building a tool that can complement other tools in the Extensions Marketplace so that users can have a richer note taking experience.
 
 To facilitate maximum compatibility, Dendron builds on top of standard Markdown. Unfortunately, this means users will eventually run into incompatible behaviors if they use another tool that also builds on top of Markdown concurrently.
 
 It is often not immediately obvious why the incompatible behavior is happening, and require the users to use VSCode's [extension bisect](https://code.visualstudio.com/blogs/2021/02/16/extension-bisect) feature to detect which extensions are incompatible with Dendron.
-
-Over the course of Dendron's existence, we have been making note of VSCode extensions that can cause issues when used with Dendron.
-
-These are extensions that were either reported by our community members, or have been identified by the Dendron team. If you find an extension that is not described here but may conflict with Dendron, please let us know.
 
 If you think the incompatibility listed here are resolved, or want them resolved so they could be used along with Dendron, please leave us an [issue](https://github.com/dendronhq/dendron/issues/new/choose) for a request of the feature that you want to see natively supported in Dendron, or a request to resolve the issue with a particular extension.
 

@@ -2,7 +2,7 @@
 id: ZeC74FYVECsf9bpyngVMU
 title: Doctor
 desc: ""
-updated: 1643352249329
+updated: 1643834010821
 created: 1640418184682
 ---
 
@@ -57,7 +57,11 @@ This simply lists all broken links in the scope.
 ### findIncompatibleExtensions
 
 - Detects if the user has enabled extensions that are known to be incompatible when used with Dendron concurrently, and provides a guide on how to fix the issue.
-- A full list of incompatible extensions is listed in [[dendron.guides.troubleshooting.incompatible-extensions]]
+- This command is automatically run the first time Dendron is installed, and notifies the user if any conflicts are discovered.
+- A full list of incompatible extensions is listed in [[dendron.guides.troubleshooting.incompatible-extensions]].
+
+- Command: `Dendron: Doctor`
+- Option: `findIncompatibleExtensions`
 
 ### regenerateNoteId
 
