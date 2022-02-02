@@ -2,7 +2,7 @@
 id: f23a6290-2dec-45dc-b616-c218ee53db6b
 title: Import
 desc: ''
-updated: 1642671398879
+updated: 1643834585856
 created: 1617327950468
 ---
 
@@ -96,12 +96,36 @@ In this example, the contents of `index.md` were combined with `foo.md`
 - default: true
 - type: boolean
 
-If set, imports the note metadata as well. If there is any conflict between note's metadata and dendron's frontmatter, the Markdown Import Pod appends `_imported` to the metadata. If you want to have your conflicted metadata map to a key, you can define that in the `frontmatterMapping` config.
-By default, Dendron adds `id`, `created`, `updated` and `title` fields to the frontmatter.
+If set, imports the note metadata as well. If there is any conflict between note's metadata and dendron's frontmatter, the Markdown Import Pod appends `_imported` to the metadata. If you want to have your conflicted metadata map to a key, you can define that in the [[frontmatterMapping|dendron://dendron.dendron-site/dendron.topic.pod.builtin.markdown.import#frontmattermapping]] config.
+
+By default, Dendron adds `id`, `created`, `updated`, `desc`, and `title` fields to the frontmatter.
+
+#### Example
+
+Frontmatter within markdown note that will be imported:
+
+```yml
+id: original-note-id
+title: original-note-title
+author: Markus Zusak
+```
+
+Frontmatter of new Dendron note after import, if file was named `markus-zusak-writings.md`:
+
+```yml
+id: ERSdVKMDkkwFnJGHUBGFR
+title: Markus Zusak Writings 
+author: Markus Zusak
+id_imported: original-note-id
+title_imported: original-note-title
+```
 
 ### frontmatterMapping
 - type: object
 - description: mapping of metadata keys.
+
+> You **cannot** map keys to default Dendron keys such as `id`, `created`, `updated`, `desc`, and `title`. These are reserved by Dendron.
+
 #### Example
 - config
 ```yml
