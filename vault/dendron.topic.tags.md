@@ -12,6 +12,8 @@ tags:
 
 Dendron supports adding tags to your notes. Tags can be added either inline as a hashtag (eg. `#foo`) or in the [[dendron.topic.frontmatter]].
 
+> **Note:** To avoid clashing with GitHub issue and PR numbers (ex. `#6778`), tags do not support starting with a number. All issues must start with a letter.
+
 ## Hashtags
 
 A hashtag is anything following `#` without any spaces. 
