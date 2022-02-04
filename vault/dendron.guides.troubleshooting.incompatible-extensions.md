@@ -2,7 +2,7 @@
 id: 9Id5LUZFfM1m9djl6KgpP
 title: Incompatible Extensions
 desc: ""
-updated: 1642341217950
+updated: 1643865712223
 created: 1642340936718
 ---
 
@@ -10,7 +10,7 @@ created: 1642340936718
 
 Over the course of Dendron's existence, we have been making note of VSCode extensions that can cause issues when used with Dendron. These are extensions that were either reported by our community members, or have been identified by the Dendron team.
 
-To audit whether you may be running incompatible extensions, run `Dendron: Doctor` -> [[findIncompatibleExtensions|dendron://dendron.dendron-site/dendron.topic.doctor#findincompatibleextensions]].
+To audit whether you may be running incompatible extensions, run `Dendron: Doctor` and select [[findIncompatibleExtensions|dendron://dendron.dendron-site/dendron.topic.doctor#findincompatibleextensions]].
 
 > If you find an extension that is not described here but may conflict with Dendron, please let us know.
 
@@ -42,7 +42,7 @@ This extension has also been known to have conflicting behavior with VSCode's sn
 
 extension id: `fantasy.markdown-all-in-one-for-web`
 
-This extensions is a forked version of [[Markdown All in One|dendron://dendron.dendron-site/dendron.guides.troubleshooting.conflicting-extensions#markdown-all-in-one]].
+This extensions is a forked version of [[Markdown All in One|dendron://dendron.dendron-site/dendron.guides.troubleshooting.incompatible-extensions#markdown-all-in-one]].
 
 This extension has identical issues with the upstream version.
 
@@ -58,7 +58,7 @@ Foam and Dendron differs in how the notes are parsed and how metadata is attache
 
 extension id: `brianibbotson.add-double-bracket-notation-to-selection`
 
-This extension is intended to be used with [[Foam|dendron://dendron.dendron-site/dendron.guides.troubleshooting.conflicting-extensions#foam]] and is incompatible with Dendron.
+This extension is intended to be used with [[Foam|dendron://dendron.dendron-site/dendron.guides.troubleshooting.incompatible-extensions#foam]] and is incompatible with Dendron.
 
 Similar feature is natively provided by Dendron's `Insert Note Link` command and Intellisense.
 
@@ -74,7 +74,7 @@ This capability is natively provided by Dendron's `Show Note Graph` command.
 
 extension id: `ianjsikes.md-graph`
 
-This is a fork of [[Markdown Links|dendron://dendron.dendron-site/dendron.guides.troubleshooting.conflicting-extensions#markdown-links]] and has identical issues.
+This is a fork of [[Markdown Links|dendron://dendron.dendron-site/dendron.guides.troubleshooting.incompatible-extensions#markdown-links]] and has identical issues.
 
 ## [Markdown Wiki-links preview](https://marketplace.visualstudio.com/items?itemName=thomaskoppelaar.markdown-wiki-links-preview)
 
@@ -104,4 +104,4 @@ Most features provided by this extension is natively supported by Dendron.
 
 extension id: `maxedmands.vscode-zettel-markdown-notes`
 
-This is a forked version of [[Markdown Notes|dendron://dendron.dendron-site/dendron.guides.troubleshooting.conflicting-extensions#markdown-notes]] and has identical issues.
+This is a forked version of [[Markdown Notes|dendron://dendron.dendron-site/dendron.guides.troubleshooting.incompatible-extensions#markdown-notes]] and has identical issues.
