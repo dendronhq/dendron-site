@@ -2,7 +2,7 @@
 id: ad270a7d-2aed-4273-8319-eb6536e38b29
 title: Modifiers
 desc: ''
-updated: 1641577841605
+updated: 1643908968262
 created: 1604883459208
 ---
 
@@ -374,12 +374,12 @@ There are two ways to enable the `copyNoteLink` modifier:
 
 The `vaultSelectionMode` modifier is a multimode modifier that determines how lookup should select vaults when creating new notes.
 
-This mode is disabled by default, and is only configurable if `lookupConfirmVaultOnCreate` is set to true in `dendron.yml`
+This mode is disabled by default, and is only configurable if `confirmVaultOnCreate` is set to true in `dendron.yml`
 
 ```yaml
 # in dendron.yml
   ...
-  lookupConfirmVaultOnCreate: true
+  confirmVaultOnCreate: true
   ...
 ```
 
