@@ -2,7 +2,7 @@
 id: EKIsWI7XklGDWkRq7jpSi
 title: Feature
 desc: ''
-updated: 1643983245692
+updated: 1643983245805
 created: 1642207217318
 ---
 
@@ -16,7 +16,7 @@ created: 1642207217318
 - #feature.collaboration
 - #feature.community
 - #feature.complexity
-- #feature.conflicts
+- #feature.extension-conflicts
 - #feature.daily-journal
 - #feature.data-portability
 - #feature.development-pace
@@ -56,7 +56,7 @@ created: 1642207217318
 - #feature.pod-integrations
 - #feature.preview
 - #feature.publishing
-- #feature.publishing.i8n
+- #feature.publishing.i18n
 - #feature.publishing-customization
 - #feature.publishing.full-text-search
 - #feature.queries
