@@ -13,3 +13,4 @@ Importing and exporting your notes
 
 ## Topics
 - [[Pods|dendron://dendron.dendron-site/dendron.topic.pod]]
+- [[Pods V2|dendron://dendron.dendron-site/dendron.topic.pod-v2]]

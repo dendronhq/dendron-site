@@ -7,8 +7,7 @@ created: 1638942415808
 config:
   global:
     enableChildLinks: false
-nav_exclude: true
-published: false
+published: true
 ---
 
 ## Summary
@@ -36,3 +35,4 @@ Dendron Pods are a way of transferring information from Dendron to and from othe
   - [[CLI|dendron://dendron.dendron-site/dendron.topic.pod-v2.cli]]
 - How-to
   - [[Cookbook|dendron://dendron.dendron-site/dendron.topic.pod-v2.cook]]
+  - [[Tutorials|dendron://dendron.dendron-site/dendron.topic.pod-v2.tutorial]]
