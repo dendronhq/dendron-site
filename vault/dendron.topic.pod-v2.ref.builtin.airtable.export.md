@@ -1,10 +1,11 @@
 ---
 id: oTW7BFzKIlOd6iQnnNulg
-title: Export
+title: Airtable Export Pod
 desc: ''
-updated: 1643294568625
+updated: 1644005531052
 created: 1638945970366
 ---
+
 ## Summary
 
 The Airtable export pod will export a Dendron note to a row in an Airtable. Various aspects of the note can be exported - from frontmatter fields to the note body.

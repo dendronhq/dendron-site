@@ -1,8 +1,8 @@
 ---
 id: hA02kromgLKegxaG2VHKE
-title: Export
+title: Google Doc Export Pod
 desc: ''
-updated: 1643294471074
+updated: 1644005702794
 created: 1640102463646
 ---
 
@@ -14,7 +14,7 @@ The Google Docs Export Pod exports notes authored in Dendron to google docs. It 
 ## Requirements
 - Your Google Account must be onboarded to our service.
 
-_**Note**: This feature is currently in Beta and requires your Google Account to be onboarded to our service. If you're interested in testing out this feature, please contact us at support@dendron.so or on Discord._
+_**Note**: This feature is currently in Beta and requires your Google Account to be onboarded to our service. If you're interested in testing out this feature, please [sign up for the beta here](https://airtable.com/shrP1yKjIDPFU4wHN)
 
 ## Side Effects
 -  this pod will add `documentId` and `revisionId` in the frontmatter of your note.
