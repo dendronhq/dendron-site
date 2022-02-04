@@ -2,7 +2,7 @@
 id: H9HVUUG1Z9ws2ngofKyWt
 title: Pod V2
 desc: ''
-updated: 1643913380597
+updated: 1644005201765
 created: 1638942415808
 config:
   global:
@@ -22,17 +22,19 @@ Dendron Pods are a way of transferring information from Dendron to and from othe
 
 ## Features
 - Flexible Note Exports: Export a single note, a hierarchy, a vault, or your entire workspace
-- Customizable Export Mappings: When exporting using pods, you can select the fields that you want to export
+<!-- - Many Destinations: Choose from the built in export destinations or create your own  #todo
+- Customizable Export Mappings: When exporting using pods, you can select the fields that you want to export #todo -->
 
 ## Children
 - Essential
+  - [[Upgrading|dendron://dendron.dendron-site/dendron.topic.pod-v2.upgrade]]
   - [[Quickstart|dendron://dendron.dendron-site/dendron.topic.pod-v2.quickstart]]
   - [[Concepts|dendron://dendron.dendron-site/dendron.topic.pod-v2.concepts]]
 - Reference
   - [[Builtin Pods|dendron://dendron.dendron-site/dendron.topic.pod-v2.ref.builtin]]
-  - [[Commands|dendron://dendron.dendron-site/dendron.topic.pod-v2.commands]] 
   - [[Config|dendron://dendron.dendron-site/dendron.topic.pod-v2.config]]
-  - [[CLI|dendron://dendron.dendron-site/dendron.topic.pod-v2.cli]]
-- How-to
-  - [[Cookbook|dendron://dendron.dendron-site/dendron.topic.pod-v2.cook]]
-  - [[Tutorials|dendron://dendron.dendron-site/dendron.topic.pod-v2.tutorial]]
+  <!-- - [[Commands|dendron://dendron.dendron-site/dendron.topic.pod-v2.commands]]  -->
+  <!-- - [[CLI|dendron://dendron.dendron-site/dendron.topic.pod-v2.cli]] -->
+<!-- - How-to -->
+  <!-- - [[Cookbook|dendron://dendron.dendron-site/dendron.topic.pod-v2.cook]] -->
+  <!-- - [[Tutorials|dendron://dendron.dendron-site/dendron.topic.pod-v2.tutorial]] -->

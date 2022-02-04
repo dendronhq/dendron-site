@@ -1,8 +1,8 @@
 ---
 id: Un0n1ql7LfvMtmA9JEi4n
-title: Export
+title: Markdown Export Pod
 desc: ''
-updated: 1643294429008
+updated: 1644005381204
 created: 1642170379669
 ---
 
@@ -18,17 +18,12 @@ For single note export(`Note` as export scope), you can choose either clipboard 
  - Migrating assets
 
 ### Limitations
-
-Since this is still an experimental feature, there are some features that are still missing:
-
- - Note Ref links currently will not be modified. In later builds, they can either be converted to a regular Markdown link and/or have the referenced content in-lined.
-
-If you have additional features that are not listed, please add them in this [GitHub issue](https://github.com/dendronhq/dendron/issues/541#issue-831219413)
-
-In addition, there are some features we currently can't convert to regular Markdown because they have no Markdown equivalent:
+There are some features we currently can't convert to regular Markdown because they have no Markdown equivalent:
 - mermaid diagrams
 - Latex formulas
 - footnotes
+
+If you have additional features that are not listed, please add them in this [GitHub issue](https://github.com/dendronhq/dendron/issues/541#issue-831219413)
 
 ## Configuration
 

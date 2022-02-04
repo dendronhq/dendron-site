@@ -2,7 +2,7 @@
 id: DpLiN7iGpVvlu0zLcqVit
 title: Upgrade
 desc: ''
-updated: 1643649816506
+updated: 1644003048175
 created: 1643649760068
 ---
 
@@ -10,13 +10,15 @@ created: 1643649760068
 
 How to upgrade from [[Pods V1|dendron://dendron.dendron-site/dendron.topic.pod]]
 
-## Changelog
+## Changes
 - no separate pods for `export` and `publish` (this has been a major point of confusion), this is simply known as `export` now
-- #todo
 
-## Breaking Changes
-- no v2 version of import pods yet
-- we don't have 100% coverage of existing pods yet 
-- podv2 doesn't support CLI 
+## Restrictions
+- NOTE: the following restrictions are temporary until we have features rolled out
 
-- #todo
+- following pods have no v2 equivalent
+    - [[Next.js Pod|dendron://dendron.dendron-site/dendron.topic.pod.builtin.nextjs]]
+    - [[HTML|dendron://dendron.dendron-site/dendron.topic.pod.builtin.html]]
+    - [[Summary|dendron://dendron.dendron-site/dendron.topic.pod.builtin.github-issue#summary]]
+- CLI support
+- Importing 
