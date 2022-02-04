@@ -17,6 +17,8 @@ The [[Airtable pod|dendron://dendron.dendron-site/dendron.topic.pod-v2.ref.built
 - This assumes you have an Airtable account.
     - If not, you can [create one](https://airtable.com/signup).
 
+![[dendron://dendron.dendron-site/dendron.topic.pod-v2.quickstart#enable-podv2:#*]]
+
 ## Concepts
 
 ### Pods
