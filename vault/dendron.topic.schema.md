@@ -2,7 +2,7 @@
 id: c5e5adde-5459-409b-b34d-a0d75cbb1052
 title: Schemas
 desc: ''
-updated: 1643737563262
+updated: 1644016750303
 created: 1595952505039
 stub: false
 ---
@@ -205,7 +205,7 @@ schemas:
 
 #### pattern
 
-glob pattern that schema matches. by default, this is the `id` of the schema. you can override this. 
+The glob pattern that schema matches. by default, this is the `id` of the schema. you can override this. 
 
 For example, take a look at the journal schema below
 
@@ -242,6 +242,21 @@ This will match the following queries
 # journal.2020.09.12
 # journal.2020.09.12.foo.md
 ```
+
+The glob patterns used here are the same as the Bash Extended Glob patterns, with a few ![discrepancies](https://github.com/isaacs/minimatch#comparisons-to-other-fnmatchglob-implementations).
+We can use the extended globs to match interesting patterns. Here's a few examples:
+- `"[0-9]"` will match any digit
+- `"[!0-9]"` will match anything that's not a digit
+- `"*([0-9])"` will match 0 or more digits
+- `"+([0-9])"` will match 1 or more digits
+- `"*"` will match 0 or more of any character
+- `"+([!])"` will match 1 or more of any character
+- `"@(left|right)"` will match `left` or `right`, but nothing else
+- `"!(thing)"` will match anything other than `thing`
+
+We can then combine these to get interesting patters. Here are more examples:
+- `"+([0-9])-+([!])"` matches `10-test`, but not `test` or `10` or `10-`.
+- `"!(temp|scratch)"` matches `notes`, `recipes` etc. but not `temp` or `scratch`, if you are trying to exclude just those hierarchies
 
 #### children
 
