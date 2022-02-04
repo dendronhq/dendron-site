@@ -2,10 +2,15 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1643738020228
+updated: 1643996794257
 created: 1601508213606
 nav_order: 2
 ---
+
+## 0.80.3
+
+### Fix
+- fix(preview): preview opens wrong path on Windows (#2326) @kaan
 
 ## 0.80.0
 

@@ -2,7 +2,7 @@
 id: 3abd00eb-1c1e-4253-aaf5-dcbe20c21850
 title: Early Seed
 desc: ''
-updated: 1643996560337
+updated: 1643996775337
 created: 1604539200840
 published: true
 nav_exclude: true
@@ -28,7 +28,6 @@ nav_exclude: true
 
 ### Fix
 
-- fix(preview): preview opens wrong path on Windows (#2326) @kaan
 - fix(views): show preview doesn't display targeted files when using file explorer(#2327)
 - fix(views): windows hover preview now shows images @kaan
 - fix(schemas): Do not include stubs as part of template suggestions when applying a template (#2357)
