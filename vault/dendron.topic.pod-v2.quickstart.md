@@ -12,6 +12,14 @@ To run a pod, you must first create a pod configuration, which specifies things 
 
 ## Enable PodV2
 
+1. Open `dendron.yml` from the root of your workspace
+1. Ensure `enableExportPodV2: true` is present:
+
+```yml
+dev:
+    enableExportPodV2: true
+```
+
 ## Creating a Pod Configuration
 
 To create a pod configuration, run the `Dendron: Export Pod V2` command, and select 'New Export'.
