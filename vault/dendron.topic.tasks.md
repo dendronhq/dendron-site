@@ -2,9 +2,11 @@
 id: SEASewZSteDK7ry1AshNG
 title: Tasks
 desc: ''
-updated: 1641168050053
+updated: 1643923705562
 created: 1635451738215
 ---
+
+## Summary
 
 One of the important use cases for Dendron is productivity and task management.
 Whether it's a student keeping track of their homework assignments or a large
@@ -48,7 +50,7 @@ the [Task Notes RFC](https://docs.dendron.so/notes/716e2699-42e1-44bd-9b97-124f0
 ### Creating a task note
 
 There are 2 ways to create a task note, you can either use the toggle in your
-regular lookup bar, or you can use the [[Task Create|dendron.ref.commands#task-create]] command.
+regular lookup bar, or you can use the [[Create Task Note|dendron://dendron.dendron-site/dendron.ref.commands#create-task-note]] command.
 They both achieve the same result, although the task create command comes with some default 
 settings.
 
