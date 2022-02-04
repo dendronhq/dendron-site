@@ -2,7 +2,7 @@
 id: y84kARyQhdUcyRG33pT2i
 title: Visualize Task Notes with Airtable
 desc: 'Use the Airtable Pod to export task notes from Dendron'
-updated: 1643995037072
+updated: 1644006658077
 created: 1643995037072
 ---
 
@@ -151,8 +151,8 @@ apiKey: key*
 1. Run `Dendron: Export Pod V2`
 1. Select `New Export`
 1. Select `Airtable Export`
-1. Select the connection you just created in the previous step, `personal.tasks`
-1. Select 'Note' (This is the export scope, lookup UI tweaks WIP)
+1. Select the connection you just created in the previous step, `personal.airtable`
+1. Select `Note` (Exports the currently opened note)
 1. For base-id, enter the [base id](https://support.airtable.com/hc/en-us/articles/4405741487383-Understanding-Airtable-IDs)
 1. For table-id, enter the [table id](https://support.airtable.com/hc/en-us/articles/4405741487383-Understanding-Airtable-IDs)
 1. For configuration-id, let's call it `personal.tasks`
@@ -226,20 +226,28 @@ sourceFieldMapping: {
 ### Create a task note
 
 1. Run `Create Task Note`
-1. Create `task.yyyy.mm.dd.write-short-story`
-  - Ex. `task.2022.02.04.write-short-story`
+1. Create `task.yyyy.mm.dd.write-short-story` (example: `task.2022.02.04.write-short-story`)
 1. Update the frontmatter values (don't update `id`, `created`, or `updated` values):
+  ```yml
+  title: Write Short Story
+  desc: Write about the Sun swallowing Earth
+  tags:
+    - type.art
+  status: wip
+  due: '2022-03-01'
+  priority: M
+  owner: alice
+  ```
+1. Add content to the body of the note:
+  ```markdown
+  ## Summary
 
-```yml
-title: Write Short Story
-desc: Write about the Sun swallowing Earth
-tags:
-  - type.art
-status: wip
-due: '2022-03-01'
-priority: M
-owner: alice
-```
+  Whoa! This is a test!
+
+  ## Details
+
+  The Sun is hungry. Planet-eating hungry.
+  ```
 
 ### Export task note
 
