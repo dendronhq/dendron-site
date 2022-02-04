@@ -1,8 +1,8 @@
 ---
 id: c4cf5519-f7c2-4a23-b93b-1c9a02880f6b
 title: Workspace
-desc: ""
-updated: 1643363301298
+desc: ''
+updated: 1643917357029
 created: 1622841295415
 ---
 
@@ -46,6 +46,10 @@ Add and commit all notes across all vaults to git.
 Synchronizes all notes across all vaults with git. Any changes you made will be pushed back to remote, and any changes in the remote will be pulled.
 
 In more detail: Dendron will first commit all your changes, then pull changes from the remote, and finally push everything back to the remote. This workflow is good in most cases: private notes, internal shared vaults, or your personal writings. This workflow doesn't work as well in some cases however, so we offer per-vault configuration options which you can use to adjust how your notes are synchronized.
+
+Dendron can automatically detect merge conflicts and rebases, stash and restore your local changes when pulling if needed, and warn you about misconfigured remotes. Make sure to look at the message Dendron shows you after the sync is completed to see if there were any errors.
+
+![](https://org-dendron-public-assets.s3.amazonaws.com/images/dendron-sync-success.png)
 
 You can set these configuration options in your `dendron.yml`, either for each vault with the `sync` option, or for all [[workspace vaults|dendron.topic.vaults#workspace-vault]] with the `workspaceVaultSync` option. The configuration will look like this:
 
