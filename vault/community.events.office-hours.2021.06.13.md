@@ -36,7 +36,7 @@ created: 1623673321337
 -   Design updates.
     -
 -   PKM Vault
-    -   Implementation for Bujo - [Implementation - PKM (dendron.so)](https://pkm.dendron.so/notes/7c64cee9-69a8-48c3-9c0b-5dd031243204.html)
+    -   Implementation for Bujo - [Implementation - PKM (dendron.so)](https://pkm.dendron.so/notes/7c64cee9-69a8-48c3-9c0b-5dd031243204/)
         -   see the template vault: [dendronhq/bujo-vault (github.com)](https://github.com/dendronhq/bujo-vault)
 -   Mark’s garden: [Cerebrarium - cerebrarium](https://cerebrarium.garden/)
 -   A guided walk through someone else’s garden.

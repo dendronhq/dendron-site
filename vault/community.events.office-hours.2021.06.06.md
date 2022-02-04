@@ -32,7 +32,7 @@ created: 1623006800621
     -   Let us know if you have suggestions
 -   PKM
     -   [https://pkm.dendron.so](https://pkm.dendron.so)
-    -   [Implementation - PKM (dendron.so)](https://pkm.dendron.so/notes/7c64cee9-69a8-48c3-9c0b-5dd031243204.html)
+    -   [Implementation - PKM (dendron.so)](https://pkm.dendron.so/notes/7c64cee9-69a8-48c3-9c0b-5dd031243204/)
         -   Like TodoMVC for note taking: https://todomvc.com/
 -   Seed Registry Updates
     -   RFC later today.
