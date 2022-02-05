@@ -1,6 +1,6 @@
 ---
 id: HUFx2Yjyw8klA7l0KLYoZ
-title: Editor
+title: Edit
 desc: About the VS Code editing experience
 updated: 1639633578264
 created: 1639633464112

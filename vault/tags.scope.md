@@ -20,7 +20,7 @@ A scope is the area of the product a feature belongs in
 - #scope.community
 - #scope.dev
 - #scope.docs
-- #scope.editor
+- #scope.edit
 - #scope.extension
 - #scope.internal
 - #scope.lookup
