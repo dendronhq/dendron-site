@@ -1,6 +1,6 @@
 ---
 id: DC0XJBdzxmuuLPzuIfFvk
-title: Navigation
+title: Navigate
 desc: Relating to navigating between notes
 updated: 1639773832652
 created: 1639016411150

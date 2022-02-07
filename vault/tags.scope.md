@@ -25,7 +25,7 @@ A scope is the area of the product a feature belongs in
 - #scope.internal
 - #scope.lookup
 - #scope.markdown
-- #scope.navigation
+- #scope.navigate
 - #scope.notes
 - #scope.pod
 - #scope.publish
