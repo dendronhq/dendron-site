@@ -65,3 +65,12 @@ For more showcases being shared by the community, visit the `#showcase` channel 
 - discord: `@cameron#9185`
 
 ![](https://p-qkfgo2.t2.n0.cdn.getcloudapp.com/items/WnuBJ0L1/8befb6dd-740d-4088-bbeb-b5c21954e308.jpg?v=4e54f3d2ffbbe051c195eab04c72971f)
+
+### Kiran's digital garden
+
+- homepage: <https://kpathakota.github.io/>
+- discord: `kpats#8761`
+- topics: electronics, processes, technology
+
+![image](https://user-images.githubusercontent.com/1484475/152729122-6c18e4e5-4fb5-4b84-95ed-0dff46ca0c24.png)
+
