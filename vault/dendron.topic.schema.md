@@ -207,6 +207,8 @@ schemas:
 
 The glob pattern that schema matches. by default, this is the `id` of the schema. you can override this. 
 
+> **NOTE:** Patterns are not supported at the first level of a hierarchy, and can only be defined within children.
+
 For example, take a look at the journal schema below
 
 ```yml
