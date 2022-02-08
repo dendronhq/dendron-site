@@ -2,7 +2,7 @@
 id: PIPLLg61HYfjK361B9Jm6
 title: Channels
 desc: ''
-updated: 1643240896027
+updated: 1644345157214
 created: 1640809094657
 ---
 
@@ -82,15 +82,23 @@ Discussions on working with your [[Dendron notes on mobile devices|dendron://den
 
 A bot-managed feed from Dendron's [GitHub Discussions](https://link.dendron.so/6WvK).
 
+### publishing
+
+A channel for all things related to [[Dendron Publishing|dendron://dendron.dendron-site/dendron.topic.publish]]
+
 ## Contributors
 
 Members looking to contribute to the Dendron project: the channels under the **Contributors** category are a good place to get involved.
 
 ### environmentalist
 
-This is a private channel for `@Environmentalist` members.
+This is a private chat/text channel for [[Environmentalist|dendron://dendron.dendron-site/community.discord.roles#environmentalist]] members.
 
 ![[dendron://dendron.dendron-site/community.discord.roles#environmentalist,1:#*]]
+
+#### env-talk
+
+This is a private voice channel for [[Environmentalist|dendron://dendron.dendron-site/community.discord.roles#environmentalist]] members.
 
 ### dev
 
