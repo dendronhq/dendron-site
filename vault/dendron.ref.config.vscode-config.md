@@ -27,7 +27,7 @@ Each folder entry has the following structure
         {
             // relative path to vault from workspace
             "path": "vault",
-            // name for folder (default to folder anme)
+            // name for folder (default to folder name)
             "name": "optional"
         }
     ]
