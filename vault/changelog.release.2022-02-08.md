@@ -2,13 +2,13 @@
 id: E1Zgn2za7n3QVfm3MtIBe
 title: '0.81'
 desc: ''
-updated: 1644341926802
+updated: 1644345213773
 created: 1644289547625
 ---
 
 Dendron 0.81 has sprouted  🌱
 
-[[Pod V2|dendron://dendron.dendron-site/dendron.topic.pod-v2]], the new and improved Dendron pod system, is now in preview! Improvements include flexibility that helps you export a single note, a hierarchy, a vault, or your entire workspace. Pod V2 also includes customizable export mappings where you can select frontmatter fields that you want to export.
+[[Pod V2|dendron://dendron.dendron-site/dendron.topic.pod-v2]], the new and improved Dendron pod system, is now in preview! Improvements include flexibility that helps you export a single note, a hierarchy, a vault, or your entire workspace.
 
 In addition, Dendron includes a built-in [[Airtable Export Pod|dendron://dendron.dendron-site/dendron.topic.pod-v2.ref.builtin.airtable.export]]! Have you wanted to visualize your task notes in a Kanban? With Airtable, now you can.
 
@@ -23,6 +23,7 @@ More on PodV2:
 Schemas have leveled up: you can now use [[cross-vault references to templates|dendron://dendron.dendron-site/dendron.topic.schema#cross-vault-template-syntax]] applied by schemas. This helps in multi-vault workspaces where templates with the same names can exist in multiple vaults.
 
 ## Highlights
+- feature(pods): announcing a new version of dendron pods: Pods V2
 - enhance(schemas) support cross vault links in schema templates
 - enhance(schemas) support template prompt when multiple templates match a schema
 - enhance(sync): Workspace Sync now can detect merge conflicts and ongoing rebases to avoid committing bad notes
@@ -46,6 +47,8 @@ Schemas have leveled up: you can now use [[cross-vault references to templates|d
 
 ### General Updates
 
+- Discord: [[Environmentalists|dendron://dendron.dendron-site/community.discord.roles#environmentalist]] now have a voice talk channel: [[env-talk|dendron://dendron.dendron-site/community.discord.channels#env-talk]]
+- Discord: New [[publishing|dendron://dendron.dendron-site/community.discord.channels#publishing]] channel to talk about all things related to [[Dendron Publishing|dendron://dendron.dendron-site/dendron.topic.publish]]
 - [Dendron is now officially publisher verified](https://marketplace.visualstudio.com/publishers/dendron) on the VS Code Marketplace. This means all official plugins, published by Dendron, will include a shiny blue checkmark of authenticity.
 - [WriteTheDocs (WTD) Portland 2022 Conference](https://www.writethedocs.org/conf/portland/2022/): The conference will be focused on documentation systems, tech writing theory, and information delivery. It's a good opportunity to share insights and experience with the wider documentation-writing community. If you are interested in attending or presenting, the deadline for submitting proposals is **11:59PM PT on February 25, 2022,** and event tickets are now on sale.
   - [WriteTheDocs Conference Proposal Workshop](https://www.meetup.com/virtual-write-the-docs-east-coast-quorum/events/283502054/): Haven't submitted a proposal or spoken at a conference before? On **Thurs. February 10th,** there is a conference proposal workshop that can help you out if you are looking to present at WTD 2022.
@@ -53,6 +56,8 @@ Schemas have leveled up: you can now use [[cross-vault references to templates|d
 ### 2021 Dendron New User Survey Results
 
 The new user survey was open for several months in 2021, where we were prompting new Dendron users within VS Code itself. We had a few thousand respondents take that opportunity to give us feedback. [These are the results!](https://blog.dendron.so/notes/AitIUzlK955P5EFojPjxz/)
+
+We'd love to hear how you are using Dendron! Take the [2022 Dendron User Survey](https://airtable.com/shrRgTHt0CDiEZZp3?prefill_SurveyName=UserSurvey2022) and help us build a better tool for thought 🌱
 
 ### Dendron Greenhouse Talks Rebooting
 

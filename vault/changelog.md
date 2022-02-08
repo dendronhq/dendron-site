@@ -2,12 +2,15 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1644334105284
+updated: 1644344949960
 created: 1601508213606
 nav_order: 2
 ---
 
 ## 0.81.0
+
+### Features
+- feature(pods): announcing a new version of dendron pods: Pods V2. Too many changes to list, see [[0.81 release notes|dendron://dendron.dendron-site/changelog.release.2022-02-08]] for more details
 
 ### Enhancements
 - enhance(schemas) support cross vault links in schema templates ([[docs|dendron://dendron.dendron-site/dendron.topic.schema#cross-vault-template-syntax]]) (#2274) @tuling
