@@ -2,10 +2,30 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1643997167259
+updated: 1644291629265
 created: 1601508213606
 nav_order: 2
 ---
+
+## 0.81.0
+
+### Enhancements
+- enhance(schemas) support cross vault links in schema templates ([[docs|dendron://dendron.dendron-site/dendron.topic.schema#cross-vault-template-syntax]]) (#2274) @tuling
+- enhance(schemas) support template prompt when multiple templates match a schema ([[docs|dendron.topic.schema#shortened-template-syntax]]) (#2274) @tuling
+- enhance(views) improve hover preview performance (#2312) @kaan
+- enhance(sync): Workspace Sync now stash and unstash local changes to pull even when there are uncommitted changes ([[docs|dendron://dendron.dendron-site/dendron.topic.workspace#workspace-sync]]) @kaan
+- enhance(sync): Workspace Sync now can detect merge conflicts and ongoing rebases to avoid committing bad notes ([[docs|dendron://dendron.dendron-site/dendron.topic.workspace#workspace-sync]]) @kaan
+- enhance(sync): Workspace Sync now can detect bad or misconfigured remotes and warn about them ([[docs|dendron://dendron.dendron-site/dendron.topic.workspace#workspace-sync]]) @kaan
+- enhance(sync): Workspace Sync now can detect that a push would fail, and avoid pushing to remote ([[docs|dendron://dendron.dendron-site/dendron.topic.workspace#workspace-sync]]) @kaan
+- enhance(sync): Workspace Sync now can detect that a push is not needed, and skip pushing ([[docs|dendron://dendron.dendron-site/dendron.topic.workspace#workspace-sync]]) @kaan
+- enhance(sync): Workspace Sync now has better error messages if something went wrong ([[docs|dendron://dendron.dendron-site/dendron.topic.workspace#workspace-sync]]) @kaan
+- enhance(sync): Workspace Sync commit messages now include the version of Dendron, the names of vaults in that repository, and the hostname of the committing machine ([[docs|dendron://dendron.dendron-site/dendron.topic.workspace#workspace-sync]]) @kaan
+
+### Fix
+- fix(views): preview opens wrong path on Windows (#2326) @kaan
+- fix(views): show preview doesn't display targeted files when using file explorer (#2327) @kaan
+- fix(views): windows hover preview now shows images (#2312) @kaan
+- fix(schemas): Do not include stubs as part of template suggestions when applying a template (#2357) [tma66](https://github.com/tma66)
 
 ## 0.80.0
 
