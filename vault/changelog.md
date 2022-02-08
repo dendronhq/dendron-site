@@ -2,7 +2,7 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1644291629265
+updated: 1644334105284
 created: 1601508213606
 nav_order: 2
 ---
@@ -26,6 +26,8 @@ nav_order: 2
 - fix(views): show preview doesn't display targeted files when using file explorer (#2327) @kaan
 - fix(views): windows hover preview now shows images (#2312) @kaan
 - fix(schemas): Do not include stubs as part of template suggestions when applying a template (#2357) [tma66](https://github.com/tma66)
+- fix(pods): update asset references on markdown import (#2350) @joshi
+- fix(publish): skip adding asset prefix to images with web url (#2362) @joshi
 
 ## 0.80.0
 

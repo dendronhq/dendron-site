@@ -2,7 +2,7 @@
 id: E1Zgn2za7n3QVfm3MtIBe
 title: '0.81'
 desc: ''
-updated: 1644291498548
+updated: 1644341926802
 created: 1644289547625
 ---
 
@@ -39,6 +39,8 @@ Schemas have leveled up: you can now use [[cross-vault references to templates|d
 - fix(views): show preview doesn't display targeted files when using file explorer
 - fix(views): windows hover preview now shows images
 - fix(schemas): Do not include stubs as part of template suggestions when applying a template
+- fix(pods): update asset references on markdown import
+- fix(publish): skip adding asset prefix to images with web url
 
 ## Community
 
@@ -106,7 +108,42 @@ This week's entry in the [[Dendron Reading Series|dendron://dendron.dendron-site
 A big **thanks** to the following gardeners that brought up issues, contributions, and fixes to this release :man_farmer: :woman_farmer: 
 Visit [[Discord Roles|dendron://dendron.dendron-site/community.discord.roles]] for more information.
 
-#todo
+- [SkepticMystic](https://github.com/SkepticMystic) `@Kamholtz#6006`
+  - #role.farmer
+  - [GitHub - SkepticMystic/breadcrumbs: Visualise a custom hierarchy in your Obsidian vault](https://github.com/SkepticMystic/breadcrumbs)
+  
+- [Joshua Jeschek](https://github.com/joshuajeschek) `@vanitasboi#0252`
+  - [Path is malformatted when starting preview](https://github.com/dendronhq/dendron/issues/2325)
+  
+- [Bassmann](https://github.com/Bassmann) `@Bassmann#5300` 
+  - [Journal notes frontmatter differs between lookup and new daily note](https://github.com/dendronhq/dendron/issues/2341)
+
+- [Funnym0nk3y](https://github.com/funnym0nk3y)
+  - [Allow LaTeX comments in math blocks](https://github.com/dendronhq/dendron/issues/2330)
+
+- [raeyulca](https://github.com/raeyulca)
+  - [Scratch note sometimes auto-creates with bad frontmatter](https://github.com/dendronhq/dendron/issues/2329)
+  - #role.bugcatcher
+
+- [Sam Wagner](https://github.com/Kyleskiller) `@KylesKiller#4352`
+  - [Site Publishing: .next not being added to git-ignore](https://github.com/dendronhq/dendron/issues/2355)
+  - [Images not being displayed after adding `siteUrl` and `assetPrefix` lines to YML](https://github.com/dendronhq/dendron/issues/2356)
+  - #role.bugcatcher
+  
+- [Tika](https://github.com/SR--) `Tika#9526`
+  - [Text copied from Preview loses formatting/styling on Paste](https://github.com/dendronhq/dendron/issues/2367)
+
+- [Callum Mcdonald](https://github.com/chmac) `@chmac#2931`
+    - [cmd+shift+i sometimes overwrites existing journal](https://github.com/dendronhq/dendron/issues/2368)
+
+- [Sai Kishore Komanduri](https://github.com/fatman-)
+  - #role.taxonomist
+  - [Update tags.stage.forest.md](https://github.com/dendronhq/dendron-site/pull/391)
+  - [Update dendron.ref.stages.md](https://github.com/dendronhq/dendron-site/pull/390)
+  
+- [Shein Lin Phyo](https://github.com/Penguinlay) `@Shein#0001`
+  - #role.taxonomist
+  - [Update spelling](https://github.com/dendronhq/dendron-site/pull/393)
 
 ## Changelog
 ![[changelog#0810,1:#0800]]
