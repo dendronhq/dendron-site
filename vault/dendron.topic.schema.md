@@ -83,7 +83,7 @@ Below is another way of representing the above schema
 
 Another way to specify schemas is to use inline schemas. Which can be simpler to create and maintain. 
 
-When we are creating inline schemas only the topmost schema must have an identifier `id` (this identifier will be used when looking up schemas). Child schemas are inlined under `children` and just require to contain `pattern`. 
+When we are creating inline schemas only the topmost schema must have an identifier `id` (this identifier will be used when looking up schemas). Note that this identifier is global and will be applied across all vaults. Child schemas are inlined under `children` and just require to contain `pattern`. 
 
 While using inline schemas you can take advantage of collapsibility of YAML config. 
 
