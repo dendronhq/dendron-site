@@ -5,7 +5,7 @@ desc: ''
 updated: 1644430609390
 created: 1644430495081
 documentId: 1AdMpuoRvNJfKv3C5ZTAzgWxrc8vSmINQDVuOlklB92c
-commentsUpdated: true
+commentsUpdated: false
 ---
 ## New User Tuesdays
 
@@ -44,22 +44,10 @@ commentsUpdated: true
 ### Q&A
 
 - For questions, please add your `@{discord-handle}: question`
-- File based links
-  - Best practices in a native workspace
-  - Refactoring when renaming non-note files
-  - File based links to header sections in comments?
-
-
-### Comments
-
- - Kevin Lin:  you're helping us find all the issues
-- Kevin Lin:  now that i look at it, we not correct formatting on that
-
-	 replies to this comment: 
-
-	 - Kevin Lin: will fix that now
-- Kevin Lin:  thank you!
-
-	 replies to this comment: 
-
-	 - Ross Dickerson: Done
+- File links in native workspaces
+  - [Native workspaces](https://wiki.dendron.so/notes/lamzybrD6SgQlJ9BpwkQk/)
+  - [File links](https://wiki.dendron.so/notes/3472226a-ff3c-432d-bf5d-10926f39f6c2/#file-links)
+  - Refactoring when renaming non-note files, file based links to header sections in comments, etc.
+    - [GitHub Discussion on Linking to Non-Note Files](https://github.com/dendronhq/dendron/discussions/1975)
+    - [GitHub Discussion on Note Traits](https://github.com/dendronhq/dendron/discussions/1876)
+    - [Related GitHub issues](https://github.com/dendronhq/dendron/discussions/1975#discussioncomment-1873760) (include links I add in comment thread)
