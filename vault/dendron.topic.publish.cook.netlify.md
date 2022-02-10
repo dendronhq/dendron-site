@@ -2,7 +2,7 @@
 id: yetuum6o9wZi6eVJQBbQb
 title: Netlify
 desc: ''
-updated: 1638832254617
+updated: 1644522624817
 created: 1637987493080
 ---
 
@@ -37,7 +37,7 @@ Follow the instructions [here](https://docs.github.com/en/repositories/creating-
 
 ## Steps - Setup Dendron
 
-![[dendron.topic.publish.cook.github#setup-dendron-next-publishing:#github-pages-urls]]
+![[dendron://dendron.dendron-site/dendron.topic.publish.cook.github#setup-dendron-nextjs-publishing:#github-pages-urls]]
 
 #### Netlify URLs
 
