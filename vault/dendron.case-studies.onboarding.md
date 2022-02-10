@@ -33,6 +33,9 @@ We recommend having the sample, onboarding repository cloned to your local syste
 - Configure your voice and video settings in Discord
   - [Discord Docs: How to Talk and Hang Out in Your Server](https://support.discord.com/hc/en-us/articles/360045138571-Beginner-s-Guide-to-Discord#h_7a0a7888-3021-45dc-9ca5-22ae77af69f6)
   - For troubleshooting, view the [Discord Voice and Video Troubleshooting Guide](https://support.discord.com/hc/en-us/articles/360045138471-Discord-Voice-and-Video-Troubleshooting-Guide)
+
+#### Join onboarding channel
+
 - Join the [[onboarding channel in the Dendron Discord|dendron://dendron.dendron-site/community.discord.channels#onboarding]] when your scheduled onboarding begins
 
 ![Joining the onboarding channel in the Dendron Discord](https://org-dendron-public-assets.s3.amazonaws.com/images/discord-joining-onboarding-voice-channel.gif)
