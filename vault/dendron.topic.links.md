@@ -2,7 +2,7 @@
 id: 3472226a-ff3c-432d-bf5d-10926f39f6c2
 title: Links
 desc: ''
-updated: 1640712547616
+updated: 1644604248817
 created: 1595003088839
 ---
 
@@ -46,11 +46,12 @@ Wiki links also have support for highlighting in the editor. Existing notes will
 
 ### File Links
 
-![[dendron://dendron.dendron-site/tags.stage.seed]]
+![[dendron://dendron.dendron-site/tags.stage.sprout]]
 
-You can link to files in your workspace that are not notes using wikilinks. The
+You can link to files in your workspace that are not notes (or not in a vault) using wikilinks. The
 easiest way to link to a file is using the [[Copy Note Link|dendron.ref.commands#copy-note-link]]
-command, which will automatically create a link for you.
+command, which will automatically create a link for you. As with note files, copy note link
+will create an anchor for you if you have a region of text selected.
 
 Otherwise, you need to write inside a wikilink the relative path to the file
 from where your `dendron.yml` file is located. For example, if the root of your
