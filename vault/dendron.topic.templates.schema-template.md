@@ -28,6 +28,7 @@ Full list of currently supported template variables
 - For inserting the current date and time:
     * `CURRENT_YEAR`: The current year
     * `CURRENT_MONTH`: The month as two digits (example '02')
+    * `CURRENT_WEEK`: The week of the year as two digits (example '17')
     * `CURRENT_DAY`: The day of the month as two digits (example '08')
     * `CURRENT_HOUR`: The current hour in 24-hour clock format
     * `CURRENT_MINUTE`: The current minute as two digits
