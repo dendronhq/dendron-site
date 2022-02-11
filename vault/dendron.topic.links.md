@@ -84,7 +84,7 @@ There are currently two types of backlinks available in the Backlinks view: `Lin
 
 Dendron has a [[backlinks panel|dendron.topic.workbench#backlinks]] which shows all notes with links to the current note. This will also show up underneath [[children links|dendron.topic.links#children-links]] on published pages.
 
-![[dendron://dendron.dendron-site/asset.preview#backlinks,1:#*]]
+![[dendron://dendron.dendron-site/asset.preview#backlinks-dark,1:#*]]
 
 You can find further documentation about it [[here|dendron.topic.workbench#backlinks-view]].
 

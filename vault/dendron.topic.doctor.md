@@ -21,7 +21,6 @@ The doctor family of commands will automatically fix various issues with Dendron
 ### fixFrontmatter
 
 - Fixes notes that are missing the frontmatter, or that have broken frontmatter.
-- Setup a `docs` folder if it doesn't exist. Required if you want to [[publish|dendron.topic.publish]] your notes
 
 <a href="https://www.loom.com/share/bd045f708f8e474193de8e3de0dc820f"> <img style="" src="https://cdn.loom.com/sessions/thumbnails/bd045f708f8e474193de8e3de0dc820f-with-play.gif"> </a>
 

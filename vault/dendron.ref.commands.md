@@ -354,27 +354,21 @@ Initiate note lookup
 
 ![[dendron.topic.lookup]]
 
-### Lookup Journal Note
+### Create Journal Note
 
 - shortcuts:
   - key: `ctrl+shift+j`
   - mac: `cmd+shift+j`
 
-Initiate note lookup with journal note pre-selected
+Creates a [[Journal Note|dendron://dendron.dendron-site/dendron.topic.special-notes#journal-note]].
 
-### Lookup Scratch Note
+### Create Scratch Note
 
 - shortcuts:
   - key: `ctrl+shift+s`
   - mac: `cmd+shift+s`
 
-Initiate note lookup with scratch note pre-selected
-
-### Lookup Note
-
-- shortcuts: none
-
-Initiate a note lookup. This is the successor to the [[Lookup|dendron.ref.commands#lookup]] command, limited to just notes. It is significantly faster on large workspaces when compared to its predecessor and also comes with addiitional [[modifiers|dendron.topic.lookup.modifiers]].
+Creates a [[Scratch Note|dendron://dendron.dendron-site/dendron.topic.special-notes#scratch-note]].
 
 ### Create Task Note
 

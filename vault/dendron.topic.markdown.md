@@ -233,7 +233,8 @@ Note that `fm.created` and `fm.updated` are pre-formatted with the default forma
 Here is an some examples of how you can use variable substitution
 
 Given a Dendron note and format option set to `DATETIME_MED`,
-```
+
+```markdown
 ---
 id: M9rOflmkDfdDRoyyt9KHa
 title: Variables
@@ -259,7 +260,8 @@ stage: "🌱"
 ```
 
 When this note is rendered in preview / publishing, it would be equivalent to rendering the Markdown below:
-```
+
+```markdown
 > this note is in it's 🌱 stage
 >
 > Created: 11/5/2021 
@@ -303,7 +305,7 @@ graph TD;
 ### Folding
 You can create special folded sections with the below syntax.
 
-```
+```markdown
 <details>
   <summary>Click to expand!</summary>
   
