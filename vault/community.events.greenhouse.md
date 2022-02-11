@@ -2,7 +2,7 @@
 id: PqtlCsRPWBjKp3RR
 title: Greenhouse Talks
 desc: ''
-updated: 1642734897471
+updated: 1644606499734
 created: 1626809567579
 has_collection: true
 sort_by: date
@@ -37,7 +37,9 @@ Take a look at the [Dendron Event Calendar](https://link.dendron.so/luma) for th
 
 ## Preparing a talk
 
-If you're giving a talk, you can use the following [[template|templates.greenhouse-talk]] to structure your talk.
+If you're giving a talk, you can use the following template to structure your talk.
+
+![[dendron://dendron.dendron-site/templates.greenhouse-talk]]
 
 ### Preparing Discord
 

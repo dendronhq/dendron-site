@@ -2,25 +2,29 @@
 id: VqnXkUy1TuCYYaza
 title: Greenhouse Talk
 desc: ''
-updated: 1627661799950
+updated: 1644606522834
 created: 1627661446322
 ---
 
+```markdown
 ## Summary
 
-- Date: $0
-- Time: $1
-- Location: [Zoom]($2)
+- Title: 
+- Date: 
+- Time: 
+- Location: [Discord / Dendron Teatime Voice Channel](https://link.dendron.so/discord)
 
 ## Agenda
 
-<!-- Uncomment and fill this out after the talk
-
 ## Output
+
+> Fill this section out after the talk
+
 - [Recording]()
 - [Slides]()
 - Transcript
 
 ## Links to things talked about
 
--->
+> Resource links mentioned in presentation, and in Q&A 
+```
