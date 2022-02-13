@@ -27,7 +27,7 @@ A scope is the area of the product a feature belongs in
 - #scope.common.markdown
 - #scope.navigate
 - #scope.notes
-- #scope.pod
+- #scope.sync.pod
 - #scope.publish
 - #scope.structure.refactor
 - #scope.structure.schema
@@ -49,7 +49,7 @@ A scope is the area of the product a feature belongs in
 ![[Notes|dendron://dendron.dendron-site/tags.scope.notes]]
 
 ## Pod
-![[Pod|dendron://dendron.dendron-site/tags.scope.pod]]
+#scope.sync.pod
 
 ## Publish
 ![[Publish|dendron://dendron.dendron-site/tags.scope.publish]]
