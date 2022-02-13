@@ -29,8 +29,8 @@ A scope is the area of the product a feature belongs in
 - #scope.notes
 - #scope.pod
 - #scope.publish
-- #scope.refactor
-- #scope.schema
+- #scope.structure.refactor
+- #scope.structure.schema
 - #scope.server
 - #scope.unsorted
 - #scope.common.views
@@ -55,7 +55,7 @@ A scope is the area of the product a feature belongs in
 ![[Publish|dendron://dendron.dendron-site/tags.scope.publish]]
 
 ## Schema
-![[Schema|dendron://dendron.dendron-site/tags.scope.schema]]
+#scope.structure.schema
 
 ## Views
 #scope.common.views
