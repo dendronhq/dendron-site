@@ -24,7 +24,7 @@ A scope is the area of the product a feature belongs in
 - #scope.extension
 - #scope.internal
 - #scope.lookup
-- #scope.markdown
+- #scope.common.markdown
 - #scope.navigate
 - #scope.notes
 - #scope.pod
@@ -43,7 +43,7 @@ A scope is the area of the product a feature belongs in
 ![[Lookup|dendron://dendron.dendron-site/tags.scope.lookup]]
 
 ## Markdown
-![[Markdown|dendron://dendron.dendron-site/tags.scope.markdown]]
+#scope.common.markdown
 
 ## Notes
 ![[Notes|dendron://dendron.dendron-site/tags.scope.notes]]
