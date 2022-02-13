@@ -8,3 +8,6 @@ airtableId: recZJjTHwjQW3rpHA
 ---
 
 Related to Dendron CLI
+
+## Feature nodes
+	- #feature.scripting

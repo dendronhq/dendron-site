@@ -20,3 +20,4 @@ VS Code workspace, vaults, intellisense/autocomplete, Dendron settings
 - #feature.easy-start
 - #feature.extension-conflicts
 - #feature.multi-vault
+- #feature.asset-support

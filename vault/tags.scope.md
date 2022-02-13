@@ -14,11 +14,11 @@ A scope is the area of the product a feature belongs in
 
 ## Index
 
-- #scope.analytics
+- #scope.internal.analytics
 - #scope.extend.cli
 - #scope.commands
 - #scope.community
-- #scope.dev
+- #scope.internal.dev
 - #scope.docs
 - #scope.edit
 - #scope.extend
@@ -32,12 +32,12 @@ A scope is the area of the product a feature belongs in
 - #scope.structure.refactor
 - #scope.structure.schema
 - #scope.server
-- #scope.unsorted
+- #scope.etc
 - #scope.common.views
 - #scope.workspace
 
 ## Dev
-![[Dev|dendron://dendron.dendron-site/tags.scope.dev]]
+#scope.internal.dev
 
 ## Lookup
 #scope.common.lookup
