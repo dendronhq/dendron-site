@@ -15,13 +15,13 @@ A scope is the area of the product a feature belongs in
 ## Index
 
 - #scope.analytics
-- #scope.cli
+- #scope.extend.cli
 - #scope.commands
 - #scope.community
 - #scope.dev
 - #scope.docs
 - #scope.edit
-- #scope.extension
+- #scope.extend
 - #scope.internal
 - #scope.common.lookup
 - #scope.common.markdown
