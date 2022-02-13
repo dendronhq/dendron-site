@@ -33,7 +33,7 @@ A scope is the area of the product a feature belongs in
 - #scope.schema
 - #scope.server
 - #scope.unsorted
-- #scope.views
+- #scope.common.views
 - #scope.workspace
 
 ## Dev
@@ -58,7 +58,7 @@ A scope is the area of the product a feature belongs in
 ![[Schema|dendron://dendron.dendron-site/tags.scope.schema]]
 
 ## Views
-![[Views|dendron://dendron.dendron-site/tags.scope.views]]
+#scope.common.views
 
 ## Workspace
 ![[Workspace|dendron://dendron.dendron-site/tags.scope.workspace]] 

@@ -14,4 +14,4 @@ airtableId: reco9ZYB6M2OEYwsD
 ## Anti-examples
 
 - A new command in VS Code (should be [[tags.scope.commands]])
-- A new view in VS Code (should be [[tags.scope.views]])
+- A new view in VS Code (should be #scope.common.views)
