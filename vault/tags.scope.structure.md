@@ -2,8 +2,9 @@
 id: le8mukn4RuMfZ8SxD0doj
 title: Structure
 desc: ''
-updated: 1644724680784
+updated: 1644724680892
 created: 1644724514813
+airtableId: recctrkafGKsa0IIt
 ---
 
 Related to keeping notes in a structured, ordered fashion. 

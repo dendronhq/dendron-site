@@ -12,62 +12,73 @@ airtableId: reccwIfrJd2saG2SO
 
 A scope is the area of the product a feature belongs in
 
-## Index
+### Common
 
-- #scope.internal.analytics
-- #scope.extend.cli
-- #scope.commands
-- #scope.community
-- #scope.internal.dev
-- #scope.docs
-- #scope.edit
-- #scope.extend
-- #scope.internal
-- #scope.common.lookup
-- #scope.common.markdown
-- #scope.navigate
-- #scope.notes
-- #scope.sync.pod
-- #scope.publish
-- #scope.structure.refactor
-- #scope.structure.schema
-- #scope.server
-- #scope.etc
+Common scopes are applicable across all of Dendron. These are horizontal improvements that benefit features across the product.
+
 - #scope.common.views
+- #scope.common.markdown
+- #scope.common.lookup
+
+### Basics
+
 - #scope.workspace
 
-## Dev
-#scope.internal.dev
+### Edit
 
-## Lookup
-#scope.common.lookup
+- #scope.edit
+- #scope.edit.note-preview
 
-## Markdown
-#scope.common.markdown
+### Retrieve
 
-## Notes
-![[Notes|dendron://dendron.dendron-site/tags.scope.notes]]
+- #scope.retrieve
+- #scope.retrieve.note-lookup
 
-## Pod
-#scope.sync.pod
+### Navigate
 
-## Publish
-![[Publish|dendron://dendron.dendron-site/tags.scope.publish]]
+- #scope.navigate
 
-## Schema
-#scope.structure.schema
+### Structure
 
-## Views
-#scope.common.views
+- #scope.structure
+- #scope.structure.refactor
+- #scope.structure.schema
+- #scope.structure.note-types
 
-## Workspace
-![[Workspace|dendron://dendron.dendron-site/tags.scope.workspace]] 
+### Sync
+
+- #scope.sync
+- #scope.sync.mobile
+- #scope.sync.pod
+
+### Publish
+- #scope.publish
 
 
-<!-- - Editing
-- Retrieving
-- Organizing
-- Sharing
-- Transferring
-- Extending 
--->
+### Extend
+
+- #scope.extend
+- #scope.extend.cli
+
+### Growth
+
+- #scope.growth
+- #scope.growth.community
+
+*** 
+
+These are special areas that are not user facing
+
+### Internal
+
+- #scope.internal
+- #scope.internal.analytics
+- #scope.internal.dev
+- #scope.etc
+
+### Admin
+
+- #scope.admin
+
+
+

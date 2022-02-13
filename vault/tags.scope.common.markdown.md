@@ -11,3 +11,6 @@ Relating to Markdown features.
 
 ## Examples
 - new language syntax
+
+## Feature nodes
+	- #feature.outlining

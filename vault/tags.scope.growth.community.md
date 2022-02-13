@@ -1,9 +1,9 @@
 ---
-id: lIv4olNqSXUkT0xIS1rDX
+id: JZC9b4ycm3m3JPwbCQCzy
 title: Community
-desc: ''
-updated: 1644726194243
-created: 1644726194243
+desc: Community related
+updated: 1640029936863
+created: 1640029930957
+airtableId: rec7MeQxoqAFHjMRa
 ---
 
-Efforts to improve the community built around the Dendron product. 
