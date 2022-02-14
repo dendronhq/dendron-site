@@ -2,7 +2,7 @@
 id: a6c03f9b-8959-4d67-8394-4d204ab69bfe
 title: Troubleshooting
 desc: ''
-updated: 1644857255426
+updated: 1644857330410
 created: 1595952505025
 nav_order: 7.1
 ---
@@ -231,6 +231,8 @@ To check if there is something wrong with Dendron vs your particular workspace s
 Run `Dendron: Open Logs` and search for `"level":50` (these are lines with errors in them). The logs provide a more detailed description of what went wrong and can point what is happening. 
 
 If Dendron has crashed and you need to access logs from the previous session, click on "dendron.logs" in the bread crumb and choose `dendron.logs.old` to get logs from a previous session. See screenshot [here](https://www.loom.com/i/01f2cb0958b9489686a572c1da12a59a)
+
+- NOTE: Dendron only has logs for current session or previous session (a session being defined as when you last ran "Initialize Workspace")
 
 ### Check if its a conflicting extension
 
