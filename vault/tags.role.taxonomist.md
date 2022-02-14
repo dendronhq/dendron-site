@@ -8,5 +8,5 @@ airtableId: recMfJzwK2sCNKNC9
 ---
 
 
-![[community.discord.roles#taxonomist,1:#*]]
+![[dendron://dendron.dendron-site/community.discord.roles#taxonomist,1:#*]]
 
