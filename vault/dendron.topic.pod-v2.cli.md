@@ -2,7 +2,7 @@
 id: D4b67Wzu8th1MW21euFRp
 title: CLI
 desc: ''
-updated: 1644581008773
+updated: 1644929235183
 created: 1643651440692
 ---
 
@@ -64,11 +64,15 @@ dendron exportPodV2 --podConfig /pods/custom/config.dendron.markdown.yml --wsRoo
 
 #### Exporting a Vault
 
+In a multi-vault workspace, you need to specify the vault with `--vault` argument. It can be skipped for a single vault workspace.
+
 ```sh
 dendron exportPodV2 --podId dendron.markdown --inlineConfig Key=exportScope,Value=Vault --vault vault1 --wsRoot .
 ```
 
 #### Exporting a Note
+
+In a multi-vault workspace, you need to specify the vault with `--vault` argument. It can be skipped for a single vault workspace.
 
 - exporting to file system
 ```sh
