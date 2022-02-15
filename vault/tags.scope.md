@@ -2,7 +2,7 @@
 id: OuLI06rJAJurTZ2WYTCtT
 title: Scope
 desc: ''
-updated: 1644731711563
+updated: 1639779822694
 created: 1629753418643
 color: green
 airtableId: reccwIfrJd2saG2SO
@@ -24,7 +24,7 @@ Common scopes are applicable across all of Dendron. These are horizontal improve
 
 ### Basics
 
-- #scope.workspace
+- #scope.basics
 
 ### Edit
 
