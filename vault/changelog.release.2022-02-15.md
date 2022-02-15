@@ -2,20 +2,16 @@
 id: egxM8X43CqrQLuhYQ6Wu8
 title: '0.82'
 desc: ''
-updated: 1644943065435
+updated: 1644943654030
 created: 1644902103166
 ---
 
 Dendron 0.82 has sprouted  🌱
 
-[[Schema Template Variables|dendron://dendron.dendron-site/dendron.topic.templates.schema-template#template-variables]] can now include `CURRENT_WEEK`!
-
-![[dendron://dendron.dendron-site/dendron.topic.templates.schema-template#template-variables,1:#*]]
-
 Smaller changelog this week as the team is working on some bigger architectural changes to increase the general stability and performance of Dendron (our focus for this month). More updates on those in upcoming releases!
 
 ## Highlights
-- enhance(schemas): Extend date subsitution to include week numbers
+- enhance(schemas): Extend date subsitution to include week numbers with `CURRENT_WEEK` ([[docs|dendron://dendron.dendron-site/dendron.topic.templates.schema-template#template-variables]])
 
 ## Everything Else
 - fix(workspace): avoid workspace watcher crashing if folder is deleted

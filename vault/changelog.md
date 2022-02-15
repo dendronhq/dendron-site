@@ -2,7 +2,7 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1644902083697
+updated: 1644943670603
 created: 1601508213606
 nav_order: 2
 ---
@@ -10,7 +10,7 @@ nav_order: 2
 ## 0.82.0
 
 ### Enhancements
-- enhance(schemas): Extend date subsitution to include week numbers ([[docs|dendron://dendron.dendron-site/dendron.topic.templates.schema-template#template-variables]]) (#2372) [`opcon`](https://github.com/opcon)
+- enhance(schemas): Extend date subsitution to include week numbers with `CURRENT_WEEK` ([[docs|dendron://dendron.dendron-site/dendron.topic.templates.schema-template#template-variables]]) (#2372) [`opcon`](https://github.com/opcon)
 
 ### Fix
 - fix(workspace): avoid workspace watcher crashing if folder is deleted (#2359) @kaan
