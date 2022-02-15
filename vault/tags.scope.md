@@ -2,7 +2,7 @@
 id: OuLI06rJAJurTZ2WYTCtT
 title: Scope
 desc: ''
-updated: 1639779822694
+updated: 1644731711563
 created: 1629753418643
 color: green
 airtableId: reccwIfrJd2saG2SO
@@ -19,6 +19,8 @@ Common scopes are applicable across all of Dendron. These are horizontal improve
 - #scope.common.views
 - #scope.common.markdown
 - #scope.common.lookup
+
+## Product
 
 ### Basics
 
@@ -60,16 +62,18 @@ Common scopes are applicable across all of Dendron. These are horizontal improve
 - #scope.extend
 - #scope.extend.cli
 
-### Growth
+
+## Growth
 
 - #scope.growth
 - #scope.growth.community
 
 *** 
 
+## Internal
 These are special areas that are not user facing
 
-### Internal
+### Growth
 
 - #scope.internal
 - #scope.internal.analytics
@@ -79,6 +83,7 @@ These are special areas that are not user facing
 ### Admin
 
 - #scope.admin
+
 
 
 
