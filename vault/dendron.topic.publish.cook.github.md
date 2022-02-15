@@ -2,7 +2,7 @@
 id: yg3EL1x9fEe4NMqxUC3jP
 title: GitHub Pages
 desc: ''
-updated: 1642134244617
+updated: 1644901277564
 created: 1631132196609
 ---
 
@@ -73,21 +73,27 @@ Make the following modification under `site`:
 ...
 site:
     ...
-    siteUrl: {SITE_URL}
+    siteUrl: {WEBSITE_URL}
 ```
 
 #### GitHub Pages URLs
 
-Your `SITE_URL` for GitHub Pages will be in the following format: `https://{GITHUB_USERNAME}.github.io/{REPO_NAME}/`.
+Your `WEBSITE_URL` for GitHub Pages will be in the following format: `https://{GITHUB_USERNAME}.github.io/{REPO_NAME}/`.
 
-- NOTE: Some special considerations for the `SITE_URL`
+- NOTE: Some special considerations for the `WEBSITE_URL`
     - if your `REPO_NAME` is the same as your `GITHUB_USERNAME` 
-        - set `SITE_URL` to `https://{GITHUB_USERNAME}.github.io`
+        - set `siteUrl` to `https://{GITHUB_USERNAME}.github.io` in `dendron.yml`
     - if your `REPO_NAME` is anything else 
-        - set `SITE_URL` to `https://{GITHUB_USERNAME}.github.io`
-        - set `assetsPrefix`to `/REPO_NAME`
+        - set `siteUrl` to `https://{GITHUB_USERNAME}.github.io` in `dendron.yml`
+        - set `assetsPrefix`to `/REPO_NAME` in `dendron.yml`
     <!-- - if you want to set a custom cname
         - set `SITE_URL` to `https://{YOUR_CNAME}` -->
+
+#### Custom Domain Names
+
+![[dendron://dendron.dendron-site/dendron.topic.publish.cook.github-action#^github-custom-domain-names]]
+
+![[dendron://dendron.dendron-site/dendron.topic.publish.cook.github-action#siteurl-with-custom-domains,1:#*]]
 
 #### Examples
 - publishing the repo named `kevinslin.github.io`
