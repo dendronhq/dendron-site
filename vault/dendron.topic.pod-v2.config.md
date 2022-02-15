@@ -2,7 +2,7 @@
 id: yTnBABnepuIcSJ5zxfwR4
 title: Config
 desc: ''
-updated: 1643284835807
+updated: 1644909017768
 created: 1643282297207
 ---
 
@@ -28,7 +28,7 @@ Specifies what to export. Possible values are
 
 - Note - exports the currently opened note
 - Lookup - Prompts user to select note(s) for export 
-- Hierarchy - exports all notes that fall under a hierarchy
+- Hierarchy - exports all notes that fall under a hierarchy **(specific to a single vault)**
 - Vault - exports all notes within a vault
 - Workspace - exports all notes in the Dendron workspace
 - LinksInSelection - exports all notes in wikilinks of current selected portion of text in the open note editor
