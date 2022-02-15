@@ -2,9 +2,11 @@
 id: lamzybrD6SgQlJ9BpwkQk
 title: Native Workspaces
 desc: ''
-updated: 1642068127969
+updated: 1644903756279
 created: 1634020995541
 ---
+
+## Summary
 
 Native workspaces allow you to use Dendron inside an existing workspace. For
 example if you use Visual Studio Code to develop a program, you can use Dendron
