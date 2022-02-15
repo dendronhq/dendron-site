@@ -2,7 +2,7 @@
 id: fabYbPyk3DMCMoG92lIrq
 title: Config
 desc: ''
-updated: 1640727025047
+updated: 1644912281079
 created: 1637772506823
 ---
 
@@ -10,7 +10,7 @@ created: 1637772506823
 
 Publishing configuration for Dendron Next.js Publishing.
 
-- NOTE: this is a work in progress, currently, refer to configuration options [[here|dendron://dendron.dendron-site/dendron.topic.publish-legacy.configuration]]
+- NOTE: this is a work in progress, currently, refer to configuration options [[here|dendron://dendron.dendron-site/dendron.ref.config.publishing]]
 
 ## Scopes
 
