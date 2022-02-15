@@ -2,7 +2,7 @@
 id: FnK2ws6w1uaS1YzBUY3BR
 title: GitHub Pages with GitHub Actions
 desc: ''
-updated: 1643389741638
+updated: 1644904747809
 created: 1631306630307
 ---
 
@@ -29,7 +29,7 @@ You can see a deployed example of these instructions in the following repository
 - [Dendron on GitHub Pages with GitHub Actions Template: `template.publish.github-action`](https://github.com/dendronhq/template.publish.github-action)
   - The template, with every update, publishes to [this example website](https://dendronhq.github.io/template.publish.github-action/)
 
-- NOTE: you'll need to change the  `assetsPrefix` field in `dendron.yml` from `/template.publish.github-action` to your own prefix!
+- NOTE: You'll need to change the `assetsPrefix` field in `dendron.yml` from `/template.publish.github-action` to your own prefix, unless you are planning to go with a [[Custom Domain Name|dendron://dendron.dendron-site/dendron.topic.publish.cook.github-action#custom-domain-names]].
 
 ## Create a GitHub repo
 
@@ -143,7 +143,7 @@ Follow the instructions [here](https://docs.github.com/en/repositories/creating-
 
 ## Custom Domain Names
 
-If you are wanting to use your own domain name, follow the GitHub documentation [about custom domains and GitHub Pages](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/about-custom-domains-and-github-pages).
+If you are wanting to use your own domain name, follow the GitHub documentation [about custom domains and GitHub Pages](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/about-custom-domains-and-github-pages). ^github-custom-domain-names
 
 One requirement is to have a `CNAME` file in the root of your published docs, which the workflow file can automatically do for you.
 
@@ -159,5 +159,16 @@ The workflow YAML includes a commented out value, `cname`, at the very bottom of
         force_orphan: true
         cname: example.com
 ```
+
+### siteUrl with Custom Domains
+
+Also ensure that your `siteUrl` is adjusted properly in `dendron.yml`:
+
+```yaml
+site:
+    siteUrl: https://example.com
+```
+
+- NOTE: When using custom domain names, `assetsPrefix` isn't required like it otherwise would be with GitHub Pages. Remove `assetsPrefix` if it is present in your `dendron.yml`, otherwise the website may not load as expected.
 
 ## Congratulations, you just published your first note 🌱

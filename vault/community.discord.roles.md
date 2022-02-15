@@ -2,7 +2,7 @@
 id: 7c00d606-7b75-4d28-b563-d75f33f8e0d7
 title: Roles
 desc: ''
-updated: 1643738937910
+updated: 1644870703201
 created: 1604237102230
 ---
 
@@ -46,7 +46,7 @@ There are currently four levels of environmentalist plans:
 
 ### Horticulturalist
 
-![[dendron://dendron.dendron-site/tags.role.horticulturalist]]
+A **Horticulturalist** is a member who contributed to the Dendron code base.
 
 ### Taxonomist
 
@@ -67,3 +67,7 @@ A **Bug Catcher** is a member who found a reproducible bug in Dendron.
 ### Seeder
 
 A **Seeder** is a member who referred a fellow gardener to Dendron.
+
+### Surveyor
+
+A **Surveyor** is a member who completed at least one Dendron survey. For information on community surveys: [Dendron Blog - Community Reports](https://blog.dendron.so/notes/j60ZNmx1IcdXtGZRdRb6X/).

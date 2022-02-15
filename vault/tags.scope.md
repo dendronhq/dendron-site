@@ -20,9 +20,11 @@ Common scopes are applicable across all of Dendron. These are horizontal improve
 - #scope.common.markdown
 - #scope.common.lookup
 
+## Product
+
 ### Basics
 
-- #scope.workspace
+- #scope.basics
 
 ### Edit
 
@@ -60,16 +62,18 @@ Common scopes are applicable across all of Dendron. These are horizontal improve
 - #scope.extend
 - #scope.extend.cli
 
-### Growth
+
+## Growth
 
 - #scope.growth
 - #scope.growth.community
 
 *** 
 
+## Internal
 These are special areas that are not user facing
 
-### Internal
+### Growth
 
 - #scope.internal
 - #scope.internal.analytics
@@ -79,6 +83,7 @@ These are special areas that are not user facing
 ### Admin
 
 - #scope.admin
+
 
 
 
