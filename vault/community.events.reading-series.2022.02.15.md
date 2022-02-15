@@ -2,7 +2,8 @@
 id: OGhGvTM9GlW0jXjXDLiBl
 title: >-
     20 - Your future self will thank you: Building your personal documentation 
-desc: 'From the ReadME Project GitHub Blog: Monica explains how to build a second brain of knowledge you'll use over and over.'
+desc: >-
+    From the ReadME Project GitHub Blog: Monica explains how to build a second brain of knowledge you'll use over and over.
 updated: 1644861410288
 created: 1644856540588
 ---
