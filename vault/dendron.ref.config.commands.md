@@ -2,7 +2,7 @@
 id: F9LWJEjscrGkxnYi2JNby
 title: Commands
 desc: ''
-updated: 1644605075082
+updated: 1644954424667
 created: 1633485423674
 ---
 
@@ -121,8 +121,8 @@ Copy Note Link settings that only relate to non-note files: files that are not
 note files or files that are not in any vault.
 
 #### anchorType
-
-- options: `line`, `block`
+- default: `block` 
+- options: `line`, `block`, `prompt`
 
 In non-note files, Copy Note Link can use both block anchors and line numbers.
 
@@ -134,3 +134,6 @@ Block anchors are more reliable because they will always refer to the marked
 line, but Dendron has to modify the file to insert a block anchor which looks
 like `^this`. You are free to move the anchor anywhere in the file or to put
 comment markers like `//` or `#` or anything else before them.
+
+You can also set it to `prompt`. When set to prompt, Dendron will instead prompt
+which type of anchor to use each time.
