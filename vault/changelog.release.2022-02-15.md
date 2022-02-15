@@ -2,7 +2,7 @@
 id: egxM8X43CqrQLuhYQ6Wu8
 title: '0.82'
 desc: ''
-updated: 1644942024537
+updated: 1644942390732
 created: 1644902103166
 ---
 
@@ -78,7 +78,7 @@ Visit [[Discord Roles|dendron://dendron.dendron-site/community.discord.roles]] f
 
 #### Dendron User Survey
 
-A huge thanks to the following Dendrologist that provided feedback in the [2022 Dendron User Survey](https://link.dendron.so/74EI). If you would like to help us improve dendron, please checkout the survey (and earn a shiny [[Surveyor|dendron://dendron.dendron-site/community.discord.roles#surveyor]] discord badge in the process)!
+A huge thanks to the following Dendronites that provided feedback in the [2022 Dendron User Survey](https://link.dendron.so/74EI). If you would like to help us improve Dendron, please checkout the survey (and earn a shiny [[Surveyor|dendron://dendron.dendron-site/community.discord.roles#surveyor]] Discord badge in the process)!
 
 ### Changelog
 ![[changelog#0820,1:#0810]]
