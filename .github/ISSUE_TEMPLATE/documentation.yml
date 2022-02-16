@@ -48,7 +48,7 @@ body:
       label: Issue description
       description: |2
         **Please describe, as clear and concise as possible, where the documentation can be improved - for example:**
-        * Was the documentation incorrect for your/the most recent version of Dendron?
+        * Was the documentation incorrect for your version, or the most recent version, of Dendron?
         * Outdated screenshots or movies?
         * Did the documentation contain invalid usage examples, e.g. missing/renamed commands?
         * Feel free to attach screenshots
