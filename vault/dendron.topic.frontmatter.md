@@ -50,7 +50,7 @@ Note that not all the keys are written out to the Markdown file. Dendron merges 
 
 A globally unique identifier for the note. This identifier is used for two things: (1) generating unique URLs when notes are published and (2) ensuring each note in the index is unique.
 
-A dendron id is lower case alphanumeric and 32 characters long. 
+By default, a Dendron ID is lowercase, alphanumeric, and 32 characters long. Otherwise, IDs can be any string.
 
 ### title
 
