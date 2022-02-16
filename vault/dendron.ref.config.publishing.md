@@ -2,7 +2,7 @@
 id: q960Z622o0RLO32w0B8SP
 title: Publishing
 desc: ''
-updated: 1644916119697
+updated: 1644997346611
 created: 1644903086084
 ---
 
@@ -10,7 +10,7 @@ created: 1644903086084
 
 This is the configuration namespace that holds all Dendron Publishing related settings.
 
-Below is an overview of what the publishing namespace looks like.
+Below is an overview of what the publishing namespace looks like:
 
 ```yml
 publishing:
@@ -33,7 +33,6 @@ publishing:
   siteHierarchies:
   enableSiteLastModified:
   siteRootDir:
-  siteRepoDir:
   siteUrl:
   enableFrontmatterTags:
   enableHashesForFMTags:
@@ -58,51 +57,48 @@ publishing:
     editRepository:
   enableContainers:
   generateChangelog:
-  previewPort:
-  segmentKey:
-  cognitoUserPoolId:
-  cognitoClientId:
   enablePrettyLinks:
 };
 ```
 
 ## enableFMTitle
-Enable rendering frontmatter title property as title of the note.
+Enable rendering frontmatter property `title` as title of the note in links.
 
-- default: true
+- default: `true`
 
 ## enableHierarchyDisplay
-Enable rendering hierarchies (Children) at the end of the note.
+Enable rendering hierarchies (Children) list at the end of the note.
 
-- default: true
-- frontmatter: true
+- default: 
+  - dendron.yml: `true`
+  - frontmatter: `true`
 
 ## hierarchyDisplayTitle
 Text to be used for [[children links|dendron.topic.links#children-links]], when enabled by [[enableHierarchyDisplay|dendron://dendron.dendron-site/dendron.ref.config.publishing#enablehierarchydisplay]].
 
-- default: "Children"
+- default: `Children`
 
 ## enableNoteTitleForLink
-Enable using note titles when displaying naked links in a published note. This also applies to note references.
+Enable using note titles when displaying naked links in a published note. This also applies to note references. If set to false, the entire hierarchy string will be used for rendering the links.
 
 Note that this is not yet fully supported for multi-vault. Specifically, cross vault links are not supported.
 
-- default: true
+- default: `true`
 
 ## enableMermaid
 Enable rendering [[Mermaid diagrams|dendron.topic.markdown#diagrams]] in published notes.
 
-- default: true
+- default: `true`
 
 ## enablePrettyRefs
 Enable rendering note references as [[pretty refs|dendron.concepts#pretty-ref]] in published notes.
 
-- default: true
+- default: `true`
 
 ## enableKatex
 Enable rendering [Katex](https://katex.org/) typesetting in published notes.
 
-- default: true
+- default: `true`
 
 ## assetsPrefix
 Set the asset prefix for the published website.
@@ -112,7 +108,7 @@ By default, assets are served from the root. If you are publishing to GitHub Pag
 ## copyAssets
 Copy assets from vault to published website
 
-- default: true
+- default: `true`
 
 ## canonicalBaseUrl
 Set the base canonical URL for published notes.
@@ -124,7 +120,6 @@ This is relative to the workspace root.
 ## ga
 Namespace for Google Analytics related settings
 
-
 ```yml
 ...
 publishing:
@@ -133,9 +128,11 @@ publishing:
 ```
 
 ### tracking
-Set the Google Analytics tracking number if you wish to track analytics using Google Analytics.
+Set the [Google Analytics](https://analytics.google.com/) tracking number if you wish to track analytics for your published site using Google Analytics.
 
-Please note that GA tracking is not enabled when using dev preview, and we (Dendron as an organization) do not track analytics on user's personal published websites. This configuration option is for providing your own tracking number if you wish to do so.
+GA tracking is not enabled when previewing your site with `Dendron: Publish Dev`
+
+> ❗ Please note that , and we (__Dendron__ as an organization) __do not__ track analytics on user's personal published sites. This configuration option is for providing your own tracking number if you wish to do so for your own purposes.
 
 ## logoPath
 Set the path to a logo image.
@@ -159,19 +156,19 @@ Set the note that will be the home of your published site.
 - default: first element of [[siteHierarchies|dendron://dendron.dendron-site/dendron.ref.config.publishing#sitehierarchies]]
 
 ## siteHierarchies
-Set the of hierarchies to publish. `root` is a special value that you can use to publish everything.
+Set the of list of hierarchies to publish. `root` is a special value that you can use to publish everything.
 
-- default: [root]
+- default: `[root]`
 
 ## enableSiteLastModified
 Enable displaying the last modified date at the bottom of your published notes.
 
-- default: true
+- default: `true`
 
 ## siteRootDir
 Set the directory where your website will be built. This path is relative to your workspace root.
 
-- default: "docs"
+- default: `docs`
 
 ## siteUrl
 Set the URL that the site will be published to. All links will be prefixed with this URL.
@@ -183,19 +180,19 @@ If you are publishing with GitHub Pages, the format is `https://{username}.githu
 ## enableFrontmatterTags
 Enable rendering [[frontmatter tags|dendron.topic.tags#frontmatter-tags]] in published notes.
 
-- default: true
+- default: `true`
 
 ## enableHashesForFMTags
 Enable rendering the [[frontmatter tags|dendron.topic.tags#frontmatter-tags]] with the `#` symbol prepended in published notes.
 
-- default: false
+- default: `false`
 
 ## enableRandomlyColoredTags
 Enable automatically generated colors for tags when the tag color isn't specified.
 
 If disabled, only the tags that have colors explicitly set will have the color rendered, and the rest will be rendered identical to regular links.
 
-- default: true
+- default: `true`
 
 ## hierarchy
 Set per-hierarchy publishing configuration.
@@ -213,15 +210,15 @@ e.g.) Make all notes under the hierarchy `finance.*` be published by default, if
 ...
 publishing:
   hierarchy:
-    finance:
+    finance: # for the hierarchy `finance.*`
       publishByDefault:
-        public: true
-        private: false
+        public: true # publish by default in `public` vault
+        private: false # don't publish by default in `private` vault
 ...
 ```
 
-- default: true
-- values: true | false | { vaultName: boolean }
+- default: `true`
+- values: `true | false | { vaultName: boolean }`
 
 ### customFrontmatter
 Set custom frontmatter to be added to each published note in the hierarchy.
@@ -234,23 +231,22 @@ e.g.) Add `toc: true` to all notes published under the `iam.*` hierarchy.
 ...
 publishing:
   hierarchy:
-    iam:
+    iam: # for all notes under the hierarchy `iam.*`
       customFrontmatter:
         - 
-          key: toc
-          value: true
+          key: toc # add custom frontmatter property `toc`
+          value: true # and set it to `true`
 ...
-
-- default: [] (empty list)
-
 ```
+
+- default: `[]` (empty list)
 
 ## duplicateNoteBehavior
 Set the strategy to handle duplicate notes in a multi-vault workspace.
 
 Currently, only the `useVault` option is allowed.
 
-It takes a list of valut names. When a duplicate is found, Dendron will go through the provided list sequentially and resolve to the first vault that matches.
+It takes a list of vault names. When a duplicate is found, Dendron will go through the provided list sequentially and resolve to the first vault that matches.
 
 Note that this is done automatically when you run the [[Vault Add|dendron.ref.commands#vault-add]] command.
 
@@ -259,9 +255,9 @@ e.g.) If a duplicate note is found, try resolving them in `vault1` first, then f
 ```yml
 ...
 publishing: 
-  duplicateNoteBehavior:
+  duplicateNoteBehavior: # if a duplcate note is found,
     action: useVault
-    payload:
+    payload: # try resolving them in this order of vault match
       - vault1
       - vault2
       - vault3
@@ -271,11 +267,11 @@ publishing:
 ## writeStubs
 Set how [stub|dendron.concepts#stubs]] notes are handled when publishing.
 
-If set to true, all stub notes that are getting published will be written to the file system as an empty note in your vault.
+If set to `true`, all stub notes that are getting published will be written to the file system as an empty note in your vault.
 
 This is done to guarantee a permanent URL for the published stub note.
 
-If set to false, stub notes will not be written to the file system.
+If set to `false`, stub notes will not be written to the file system.
 Note that any link to the stub notes will not be pernament, and will be randomized every time it is published. This is because a stub note that isn't written to the filesystem will always have randomly generated temporary note id.
 
 ## seo
@@ -298,12 +294,12 @@ publishing:
 ### title
 Set the title of the page
 
-- default: "Dendron"
+- default: `Dendron`
 
 ### description
 Set the description of the page
 
-- default: "Personal Knowledge Space"
+- default: `Personal Knowledge Space`
 
 ### author
 Set the author
@@ -354,19 +350,17 @@ Set the CNAME used for GitHub Pages publishing.
 ### enableEditLink
 Enable adding a link at the bottom of a published page that lets users edit the page.
 
-![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/publish.edit-on-github.jpg)
-
-- default: true
+- default: `true`
 
 ### editLinkText
 Set the text to be used with the edit link when enabled by [[enableEditLink|dendron://dendron.dendron-site/dendron.ref.config.publishing#enableeditlink]]
 
-- default: Edit this page on GitHub
+- default: `Edit this page on GitHub`
 
 ### editBranch
 Set the branch that the published site is being served from.
 
-- default: main
+- default: `main`
 
 ### editViewMode
 Set how the users should be redirected when clicking on the edit link.
@@ -374,7 +368,7 @@ Set how the users should be redirected when clicking on the edit link.
 - `tree` mode will open the note's location in the repository.
 - `edit` mode will open an editor that could be used to commit / create pull request with changes.
 
-- default: tree
+- default: `tree`
 
 ### editRepository
 Set the URL of the project's GitHub repository
@@ -384,7 +378,7 @@ Note that if you are using [[remote vaults|dendron.topic.vaults#remote]], this v
 ## enableContainers
 Enable rendering of [remark-container](https://github.com/Nevenall/remark-containers)
 
-- default: false
+- default: `false`
 
 ## generateChangelog
 Enable generating the changelog for you published site.
@@ -397,13 +391,12 @@ The current version of changelogs is deliberately limited as we are iterating on
 
 Also note that this currently **won't** work with when publishing using Github Actions.
 
-- default: false
+- default: `false`
 - status: experimental 🚧
 
-## previewPort
-Set the port to use when 
-
-## segmentKey
-## cognitoUserPoolId
-## cognitoClientId
 ## enablePrettyLinks
+Enable pretty links.
+
+Setting this to `true` will remove `.html` from all of the links in a published site.
+
+- default: `true`
