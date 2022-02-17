@@ -2,7 +2,7 @@
 id: OuLI06rJAJurTZ2WYTCtT
 title: Scope
 desc: ''
-updated: 1645070808634
+updated: 1645117676709
 created: 1629753418643
 color: green
 airtableId: reccwIfrJd2saG2SO
@@ -91,3 +91,21 @@ These are special areas that are not user facing
 
 
 
+## Index
+- #scope.basics
+- #scope.edit
+- #scope.retrieve
+- #scope.structure
+- #scope.navigate
+
+- #scope.sync
+- #scope.publish
+- #scope.extend
+- #scope.common
+- #scope.collab
+
+
+- #scope.etc
+- #scope.notes
+- #scope.server
+- #scope.commands
