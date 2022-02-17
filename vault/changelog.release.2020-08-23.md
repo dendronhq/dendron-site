@@ -2,7 +2,7 @@
 id: 075e9806-0367-40a2-8154-2e84d5a1110
 title: '0.08'
 desc: ''
-updated: 1630791648807
+updated: 1645122377027
 created: 1596374871110
 date: '2020-08-23'
 ---
@@ -50,7 +50,7 @@ You can create a daily journal using `> Dendron: Create Daily Journal Note` or `
 
 You can now set different publishing defaults for each hierarchy (as well as general defaults for your entire vault.)
 
-As an example, below is the config for [my website](https://kevinslin.com). It publishes everything under the `home` and `blog` hierarchies but will only publish notes under `books` if `published: true` is set on the frontmatter. 
+As an example, below is the config for [my website](http://www.kevinslin.com/). It publishes everything under the `home` and `blog` hierarchies but will only publish notes under `books` if `published: true` is set on the frontmatter.
 
 - `dendron.yml`
 
