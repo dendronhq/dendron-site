@@ -59,9 +59,17 @@ npm info @dendronhq/dendron-cli
     - NOTE: replace `cmd+l` with `ctrl+l` if you are on windows
   ```json
   {
-    "key": "cmd+l",
+    "key": "ctrl+l",
     "command": "-expandLineSelection",
     "when": "textInputFocus"
+  }
+  ```
+    - You may need also add the following shortcut override, the above doesn't work by itself
+  ```json
+  {
+    "key": "ctrl+l",
+    "command": "-extension.vim_navigateCtrlL",
+    "when": "editorTextFocus && vim.active && vim.use<C-l> && !inDebugRepl"
   }
   ```
 
