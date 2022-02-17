@@ -47,33 +47,6 @@ You can open search editor via keyboard shortcut. I use it to start a search wit
   }
 ```
 
-### Stylized Tags Using Custom CSS
-
-To customize the look and feel of your tags, you can do so by using the following convention and [CSS edits](https://www.dendron.so/notes/683740e3-70ce-4a47-a1f4-1f140e80b558.html#can-i-customize-the-markdown-preview-css).
-
-Let's say you have a `books` hierarchy and you have a `books.high-growth-handbook` note. You have all the tags you use for books under a `books.tags.` namespace.
-
-If you use links for tags: `[[#business|books.tags.business]]`, you can use this CSS to customize their look:
-
-```css
-/* General tag styling */
-a[href*="tag."] {
-    color: #000;
-    background: #fff;
-    display: inline-block;
-    padding: 0 10px;
-    border-radius: 4px;
-}
-/* Customizing the look of specific tags */
-a[href*=".tags.business"] {
-    color: #fff;
-    background: rgb(36, 89, 233);
-}
-```
-
-The result looks like this:
-![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/tips.tags.png)
-
 ### Collapsing Headers and Bullets
 
 You can collapse headers at different levels and bullets at different indentation levels inside VS Code. 
