@@ -2,9 +2,12 @@
 id: fd26b3ef-7978-41c9-8f45-4c4f8414951d
 title: Migration
 desc: ''
-updated: 1630794922064
+updated: 1645121282832
 created: 1608528487798
 ---
+
+![[dendron://dendron.dendron-site/dendron.topic.publish-legacy#deprecated,1]]
+
 All values that used to be written into `_config.yml` will now be moved into `dendron.yml`. You can see the currently supported configuration values here: `https://github.com/dendronhq/dendron/blob/master/packages/common-all/src/types/typesv2.ts`
 
 If you currently have a Jekyll based Dendron page, note that the following settings have changed:

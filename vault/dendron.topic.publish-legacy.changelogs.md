@@ -2,9 +2,11 @@
 id: e1b84d7e-9b0d-4616-917f-f3af1e7541b0
 title: Changelogs
 desc: ''
-updated: 1640425016997
+updated: 1645121270673
 created: 1615241095799
 ---
+
+![[dendron://dendron.dendron-site/dendron.topic.publish-legacy#deprecated,1]]
 
 ## Summary
 - status: 🚧

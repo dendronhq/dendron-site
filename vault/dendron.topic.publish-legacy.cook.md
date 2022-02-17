@@ -2,10 +2,11 @@
 id: 1d9c4d11-1536-449b-af6b-a4a1acb203e4
 title: Cook
 desc: ''
-updated: 1611351277601
+updated: 1645120327322
 created: 1611351130281
 ---
 
+![[dendron://dendron.dendron-site/dendron.topic.publish-legacy#deprecated,1]]
 
 ### Publishing on Vercel
 

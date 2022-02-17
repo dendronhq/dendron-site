@@ -2,9 +2,12 @@
 id: e4ea4fe3-0350-492e-863a-687d9fc15993
 title: Collections
 desc: ''
-updated: 1614538231995
+updated: 1645121293427
 created: 1609433737726
 ---
+
+![[dendron://dendron.dendron-site/dendron.topic.publish-legacy#deprecated,1]]
+
 Sometimes, you might want to publish a page that has all its children listed like in a blog archive format. 
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/publishv2.collection.jpg)
