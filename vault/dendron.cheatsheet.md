@@ -2,7 +2,7 @@
 id: f9540bb6-7a5a-46db-ae7c-e1a606f28c73
 title: Cheatsheet
 desc: ''
-updated: 1642189427624
+updated: 1645122299784
 created: 1596374871110
 nav_exclude: true
 ---
@@ -13,7 +13,7 @@ This is a cheatsheet for Dendron.
 
 # Useful Links
 - [Dendron Discord](https://link.dendron.so/discord): Get answers to all your questions here
-- [Dendron Onboarding](https://calendly.com/d/mqtk-rf7q/onboard): If you are a new user, [Kevin](http://kevinslin.com/), our founder, does a personal onboarding to help you setup your workspace. You can see an example of said onboarding [here](https://www.dendron.so/notes/e8d6241e-1708-4bde-bd3d-93b440a1eaad.html).
+- [Dendron Onboarding](https://calendly.com/d/mqtk-rf7q/onboard): If you are a new user, [Kevin](http://www.kevinslin.com/), our founder, does a personal onboarding to help you setup your workspace. You can see an example of said onboarding [here](https://www.dendron.so/notes/e8d6241e-1708-4bde-bd3d-93b440a1eaad.html).
 - [GitHub Issues](https://github.com/dendronhq/dendron/issues): If you found a bug or want to submit a feature request, you can file a ticket
 - [Hierarchal First Approach to Note Taking](https://www.kevinslin.com/notes/3dd58f62-fee5-4f93-b9f1-b0f0f59a9b64.html): An article about the principle that Dendron was built around
 - [VS Code Keyboard Shortcuts](https://code.visualstudio.com/docs/getstarted/keybindings#_keyboard-shortcuts-reference)

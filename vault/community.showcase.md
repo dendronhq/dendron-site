@@ -2,7 +2,7 @@
 id: 3a82c5ff-7945-46ae-8bf9-3b2275fc6642
 title: Showcase
 desc: ''
-updated: 1640814855933
+updated: 1645122323230
 created: 1600010740851
 ---
 
@@ -33,7 +33,7 @@ For more showcases being shared by the community, visit the `#showcase` channel 
 
 ### Kevin's page
 
-- homepage: <https://kevinslin.com/>
+- homepage: <http://www.kevinslin.com/>
 - discord: `@kevins8#0590`
   ![](/assets/images/2020-09-13-08-45-00.png)
 
