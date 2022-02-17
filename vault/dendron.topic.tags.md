@@ -126,9 +126,3 @@ tags: [my.example, other.one]
 ```
 
 This note actually has a frontmatter tag set. You can see what it looks like published at the bottom of the page.
-
-## Additional Customizations
-
-You can further customize the look of tags in the preview by using the following CSS modification.
-
-![[dendron.guides.tips#stylized-tags-using-custom-css:#*]]
