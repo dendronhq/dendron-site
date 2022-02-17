@@ -2,9 +2,12 @@
 id: e9f26a4b-ddce-41b3-9619-8f4f64761f86
 title: Advanced
 desc: ''
-updated: 1640428477249
+updated: 1645121261657
 created: 1600564193281
 ---
+
+![[dendron://dendron.dendron-site/dendron.topic.publish-legacy#deprecated,1]]
+
 ### Exclude from publication
 
 To exclude a page from publication, you can add the following to the frontmatter. If you set `publishByDefault: false` for a hierarchy, this needs to be set to `true` to publish

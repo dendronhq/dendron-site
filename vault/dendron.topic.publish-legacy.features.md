@@ -2,10 +2,12 @@
 id: 2fe96d3a-dcf9-409b-8a09-fdaa5a664433
 title: Features
 desc: ''
-updated: 1640368764334
+updated: 1645121253522
 created: 1608528227846
 nav_order: 1
 ---
+
+![[dendron://dendron.dendron-site/dendron.topic.publish-legacy#deprecated,1]]
 
 ### Nested Hierarchies
 

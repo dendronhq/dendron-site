@@ -2,9 +2,12 @@
 id: 5f23182f-2936-4790-8d04-00bd502df723
 title: Navigation
 desc: ''
-updated: 1627941717046
+updated: 1645121300759
 created: 1609563320271
 ---
+
+![[dendron://dendron.dendron-site/dendron.topic.publish-legacy#deprecated,1]]
+
 Dendron has two navigation sections: the nav bar on the left and the table of contents on the bottom of each note. 
 
 ![publishing](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/publishv2.nav.jpg)

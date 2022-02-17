@@ -2,10 +2,11 @@
 id: 6d21fd60-e564-4a55-b4c0-d2586293b908
 title: Blogging
 desc: ''
-updated: 1614547898424
+updated: 1645121306842
 created: 1614547017272
 ---
 
+![[dendron://dendron.dendron-site/dendron.topic.publish-legacy#deprecated,1]]
 
 You can use Dendron for blogging. To do so, add [[collection specific options|dendron.topic.publish-legacy.configuration#collection-options]] to your frontmatter. 
 

@@ -2,9 +2,11 @@
 id: 877f4347-f013-43ba-aec4-87412b2e1bec
 title: GitHub
 desc: ''
-updated: 1640426006522
+updated: 1645121080086
 created: 1608770937168
 ---
+
+![[dendron://dendron.dendron-site/dendron.topic.publish-legacy#deprecated,1]]
 
 This guide describes publishing to GitHub using GitHub Actions
 
