@@ -2,7 +2,7 @@
 id: eea2b078-1acc-4071-a14e-18299fc28f47
 title: Commands
 desc: ""
-updated: 1644954277748
+updated: 1645208135690
 created: 1595261816971
 nav_order: 3.1
 ---
@@ -55,7 +55,7 @@ You can use this command in any file inside your workspace, including files that
 any vault to get [[links to those files|dendron://dendron.dendron-site/dendron.topic.links#file-links]].
 
 Similar to regular notes, you can also highlight a line of text to create a link
-to that line. Dendron will automatically insert a block anchor like it does in notes, but you can change
+to that line. Dendron will automatically insert a [[Block Anchor|dendron://dendron.dendron-site/dendron.topic.note-reference#block-anchor]] like it does in notes, but you can change
 what kind of anchor to use with the [[anchorType|dendron://dendron.dendron-site/dendron.ref.config.commands#anchortype]] configuration.
 
 ### Copy Note Ref
