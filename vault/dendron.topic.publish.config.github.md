@@ -1,6 +1,6 @@
 ---
 id: l0jasjfkFhVag7c9NQMdY
-title: GitHub
+title: github
 desc: 'Configuration namespace that holds all GitHub related publishing settings.'
 updated: 1645166295673
 created: 1645165252267
@@ -12,7 +12,7 @@ config:
 ## Summary
 {{fm.desc}}
 
-Below is an overview of what the github namespace looks like:
+Below is an overview of what the {{fm.title}} namespace looks like:
 ```yml
 publishing:
   github:

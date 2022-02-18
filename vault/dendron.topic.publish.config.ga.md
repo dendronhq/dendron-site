@@ -14,7 +14,7 @@ config:
 ## Summary
 {{fm.desc}}
 
-Below is an overview of what the ga namespace looks like:
+Below is an overview of what the {{fm.title}} namespace looks like:
 
 ```yml
   publishing:

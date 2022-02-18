@@ -1,6 +1,6 @@
 ---
 id: JO0IZSY74i76fkM6DYFKl
-title: Seo
+title: seo
 desc: 'Configuration namespace that holds all SEO related publishing settings.'
 updated: 1645168490926
 created: 1645165246189
@@ -12,7 +12,7 @@ config:
 ## Summary
 {{fm.desc}}
 
-Below is an overview of what the seo namespace looks like:
+Below is an overview of what the {{fm.title}} namespace looks like:
 
 ```yml
   publishing:
