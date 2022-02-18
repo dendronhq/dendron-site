@@ -2,10 +2,21 @@
 id: rYbs1qLh9VJBXCJlSzMt4
 title: Migration
 desc: ''
-updated: 1632352047837
+updated: 1645151071750
 created: 1632351743935
 ---
 
+## Upgrade Instructions
+
+If you are coming from Dendron's legacy publishing (based on 11ty), you can look at the following guides for publishing. 
+
+If you were publishing using github pages without using github actions, follow the [[GitHub Pages|dendron://dendron.dendron-site/dendron.topic.publish.cook.github]] guide
+
+If you were publishing using github pages with github actions, follow the [[GitHub Pages with GitHub Actions|dendron://dendron.dendron-site/dendron.topic.publish.cook.github-action]] guide.
+
+If you are publishing using an alternate platform, consult the [[GitHub Pages|dendron://dendron.dendron-site/dendron.topic.publish.cook.github]] guide and adapt it for your specfic platform. 
+
+If you run into any issues or have general questions, post in the [[publishing|dendron://dendron.dendron-site/community.discord.channels#publishing]] channel in discord for help. 
 
 ## Breaking Changes
 
