@@ -2,12 +2,13 @@
 id: f23a6290-2dec-45dc-b616-c218ee53db6b
 title: Import
 desc: ''
-updated: 1643834585856
+updated: 1645229064730
 created: 1617327950468
 ---
 
 ## Summary
-Import Markdown files stored locally. 
+
+Import Markdown files stored locally with the [[Import Pod|dendron://dendron.dendron-site/dendron.ref.commands#import-pod]] command, and `dendron.markdown`.
 
 The pod finds all files from the `root`, and copies over the files into your vault, cleaning the file names to fit Dendron's naming hierarchy. You can see an example below. 
 
