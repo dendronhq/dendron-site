@@ -31,6 +31,7 @@ This is a reference of all Dendron topics (features), sorted alphabetically. For
 - [[Pods|dendron://dendron.dendron-site/dendron.topic.pod]]
 - [[Preview|dendron://dendron.dendron-site/dendron.topic.preview]]
 - [[Publish|dendron://dendron.dendron-site/dendron.topic.publish]]
+- [[Publish|dendron://dendron.dendron-site/dendron.topic.refactoring]]
 - [[Schemas|dendron://dendron.dendron-site/dendron.topic.schema]]
 - [[Search|dendron://dendron.dendron-site/dendron.topic.search]]
 - [[Special Notes|dendron://dendron.dendron-site/dendron.topic.special-notes]]
