@@ -1,8 +1,8 @@
 ---
 id: zvFzP2vGufKPBZJ2KvvfQ
 title: assetsPrefix
-desc: 'Set the asset prefix for the published website.'
-updated: 1645176662926
+desc: 'Set the assets prefix for the published website.'
+updated: 1645464834236
 created: 1645176362328
 ---
 
