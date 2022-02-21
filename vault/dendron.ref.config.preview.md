@@ -2,7 +2,7 @@
 id: l4MoqPhFvcca6Vf5T84e0
 title: Preview
 desc: ''
-updated: 1640103185746
+updated: 1645453729651
 created: 1637309100103
 ---
 
@@ -17,6 +17,8 @@ preview:
   automaticallyShowPreview:
   enableFMTitle:
   enableNoteTitleForLink:
+  enableFrontmatterTags:
+  enableHashesForFMTags:
   enablePrettyRefs:
   enableMermaid:
   enableKatex:
@@ -37,6 +39,16 @@ Render frontmatter title property as title of the note.
 Render wikilink with linked note's frontmatter title when the wikilink does not have a link alias.
 
 - default: true
+
+## enableFrontmatterTags
+Render frontmatter tags in note preview if they exist.
+
+- default: true
+
+## enableHashesForFMTags
+Render frontmatter tags with hashtags (#) prepended, if they exist.
+
+- default: false
 
 ## enablePrettyRefs
 Render note references as [[pretty refs|dendron.concepts#pretty-ref]]
