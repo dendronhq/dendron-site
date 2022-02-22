@@ -1,7 +1,7 @@
 ---
 id: XDpVGHqZ1aqSiG1j0VYGO
 title: enableFrontmatterTags
-desc: 'Enable rendering [[frontmatter tags|dendron.topic.tags#frontmatter-tags]] in published notes.'
+desc: 'Enable rendering frontmatter tags in published notes.'
 updated: 1645177663367
 created: 1645177553669
 ---
@@ -14,6 +14,8 @@ created: 1645177553669
 
 ## Description
 {{fm.desc}}
+
+See [[Frontmatter tags|dendron://dendron.dendron-site/dendron.topic.tags#frontmatter-tags]] for more information.
 
 ## Example
 

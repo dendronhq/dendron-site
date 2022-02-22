@@ -1,7 +1,7 @@
 ---
 id: N5NAXJXFTXsBkKIY6ST1K
 title: enableHashesForFMTags
-desc: 'Enable rendering the [[frontmatter tags|dendron.topic.tags#frontmatter-tags]] with the `#` symbol prefix in published notes.'
+desc: 'Enable rendering frontmatter tags  with the `#` symbol prefix in published notes.'
 updated: 1645177730445
 created: 1645177671451
 ---
@@ -14,6 +14,8 @@ created: 1645177671451
 
 ## Description
 {{fm.desc}}
+
+See [[Frontmatter tags|dendron://dendron.dendron-site/dendron.topic.tags#frontmatter-tags]] for more information.
 
 ## Example
 
