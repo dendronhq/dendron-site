@@ -1,8 +1,8 @@
 ---
 id: eUjRCBdQQC8umERKqinMF
 title: editBranch
-desc: Set the branch that the published site is being served from.
-updated: 1645167857723
+desc: Set the branch that the edit link should redirect to.
+updated: 1645529687083
 created: 1645167510945
 ---
 
