@@ -1,7 +1,7 @@
 ---
 id: bcB4lCpLTOjnGHFGv0VRM
 title: Tracking
-desc: 'Set the [Google Analytics](https://analytics.google.com/) tracking number if you wish to do so.'
+desc: 'Set the optional [Google Analytics](https://analytics.google.com/) [tracking ID](https://support.google.com/analytics/answer/7372977) to embed in your published website.'
 updated: 1645170279044
 created: 1645170104715
 ---

@@ -18,5 +18,5 @@ created: 1645167510945
 ```yml
   publishing:
     github:
-    editBranch: staging
+      editBranch: staging
 ```

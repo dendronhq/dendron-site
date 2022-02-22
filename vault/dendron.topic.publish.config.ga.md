@@ -11,7 +11,7 @@ config:
 
 > ❗ Please note that, we (__Dendron__ as an organization) __do not__ track analytics on user's personal published sites. This configuration option is for providing your own tracking number if you wish to do so for your own purposes.
 
-## Summary
+## Description
 {{fm.desc}}
 
 Below is an overview of what the {{fm.title}} namespace looks like:

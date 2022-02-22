@@ -6,7 +6,7 @@ updated: 1645172043635
 created: 1645171968108
 ---
 
-> ❗ Note that this is not yet fully supported for multi-vault. Specifically, cross vault links are not supported.
+> ❗ Note that this is not yet fully supported for multi-vault. Specifically, [[cross vault links|dendron.topic.links#cross-vault-links]] are not supported.
 
 - type: `boolean`
 - default: `true` 
@@ -17,7 +17,7 @@ created: 1645171968108
 
 This also applies to note references. 
 
-If set to false, the entire hierarchy string will be used for rendering the links.
+If set to `false`, the entire hierarchy string will be used for rendering the links.
 
 ## Example
 

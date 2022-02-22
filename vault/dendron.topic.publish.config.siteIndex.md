@@ -7,7 +7,7 @@ created: 1645170356393
 ---
 
 - type: `string`
-- default: first element of first element of [[siteHierarchies|dendron://dendron.dendron-site/dendron.topic.publishing.config.siteHierarchies]]
+- default: first element of [[siteHierarchies|dendron://dendron.dendron-site/dendron.topic.publishing.config.siteHierarchies]]
 - required: `false`
 
 ## Description

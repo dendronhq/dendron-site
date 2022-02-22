@@ -1,7 +1,7 @@
 ---
 id: fJtzFwKpMU9hrYBBvwTcY
 title: hierarchyDisplayTitle
-desc: "Set the text to be used as the heirarchy display block's title"
+desc: "Set the text to be used as the heirarchy display block's title."
 updated: 1645171955040
 created: 1645171858085
 ---

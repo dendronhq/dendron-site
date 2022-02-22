@@ -6,10 +6,10 @@ updated: 1645155025898
 created: 1632351743935
 ---
 
-## Upgrade dendron CLI
-Please note that if you have an automated pipeline set up for publishing that uses `dendron-cli`, you need to manually upgrade `dendron-cli` that is compatible to the current configuration version to avoid errors due to configuration mismatch.
+## Upgrade Dendron CLI
+Please note that if you have an automated pipeline set up for publishing that uses `dendron-cli`, you need to manually upgrade `dendron-cli` so that is compatible with the current configuration version. Upgrading helps avoid errors due to configuration mismatch.
 
-If there is a compatibility mismatch, running the CLI will display message that the version does not meet the minimum version compatible. If you see this message, please upgrade `dendron-cli` to the latest version.
+If there is a compatibility mismatch, running the CLI will display a message that the version does not meet the minimum compatible version. If you see this message, please upgrade `dendron-cli` to the latest version.
 
 ## Upgrade Instructions
 

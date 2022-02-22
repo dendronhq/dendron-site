@@ -1,7 +1,7 @@
 ---
 id: u5MPJXb5LR5TIoMSG5gNJ
 title: Title
-desc: 'Set the title of the page'
+desc: 'Set the title of the page.'
 updated: 1645168418927
 created: 1645168351735
 ---

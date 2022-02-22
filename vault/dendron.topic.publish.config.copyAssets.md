@@ -1,7 +1,7 @@
 ---
 id: rdlj5swXCOyaIqdk98f93
 title: copyAssets
-desc: 'Copy assets from vault to published website'
+desc: 'Copy assets from vault to published website.'
 updated: 1645176877872
 created: 1645176679546
 ---

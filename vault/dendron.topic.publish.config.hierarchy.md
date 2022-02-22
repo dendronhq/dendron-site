@@ -13,7 +13,7 @@ created: 1645178048428
 ## Description
 {{fm.desc}}
 
-For each hierarchy you wish to set per-hierarchy configurations, you can set the hierarchy name as the key, and use the following properties under the hierarchy:
+For each hierarchy you wish to configure, you can set the hierarchy name as the key and use the following properties:
 
 - [[publishByDefault|dendron.topic.publish.config.hierarchy.publishByDefault]]
 - [[customFrontmatter|dendron.topic.publish.config.hierarchy.customFrontmatter]]
