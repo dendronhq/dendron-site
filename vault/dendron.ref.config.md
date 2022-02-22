@@ -2,7 +2,7 @@
 id: f83c1d87-eac0-48f3-a5cf-8a69989d8ec1
 title: Configuration
 desc: ''
-updated: 1638231042325
+updated: 1644915680730
 created: 1619539817122
 nav_order: 2.1
 ---
@@ -21,6 +21,7 @@ All commands are grouped by [[scope|tags.scope]] except those mentioned undernea
 - [[Commands|dendron://dendron.dendron-site/dendron.ref.config.commands]]
 - [[Preview|dendron://dendron.dendron-site/dendron.ref.config.preview]]
 - [[Workspace|dendron://dendron.dendron-site/dendron.ref.config.workspace]]
+- [[Publishing|dendron://dendron.dendron-site/dendron.ref.config.publishing]]
 
 ## Validation and AutoComplete
 
@@ -57,6 +58,10 @@ Execute [[Insert Note|dendron.topic.commands#insert-note]] with the hierarchy pr
 Turn on to enable [[changelogs|dendron.topic.publish-legacy.changelogs]]
 
 ### hierarchyDisplayTitle
+> This setting is scheduled for deprecation 📆
+>
+> Use [[hierarchyDisplayTitle|dendron://dendron.dendron-site/dendron.ref.config.publishing#hierarchydisplaytitle]] instead.
+
 - default: Children
 
 Controls the title for [[children links|dendron.topic.links#children-links]] in published sites
@@ -77,6 +82,10 @@ With this set, you will be prompted to select the vault location each time you c
 With this set to `true`: `Create new` will NOT bubble up to the top when using [[Note Lookup|dendron.topic.lookup]]. Use this setting when your workflow largely consists of lookups and you want to keep `Create new` as the last entry in the look up results. 
 
 ### mermaid
+> This setting is scheduled for deprecation 📆
+>
+> Use [[enableMermaid|dendron://dendron.dendron-site/dendron.ref.config.publishing#enablemermaid]] for publishing, or [[enableMermaid|dendron://dendron.dendron-site/dendron.ref.config.preview#enablemermaid]] for preview instead.
+
 - default: true
 
 Turn on to enable [[mermaid support|dendron.topic.markdown#diagrams]] for publishing.
@@ -93,6 +102,10 @@ Disable Dendron [[caching|dendron._ref.caching]]
 Disable [[telemetry|dendron.ref.telemetry]]
 
 ### hierarchyDisplay
+> This setting is scheduled for deprecation 📆
+>
+> Use [[enableHierarchyDisplay|dendron://dendron.dendron-site/dendron.ref.config.publishing#enablehierarchydisplay]] instead.
+
 - default: true
 - frontmatter: true
 
@@ -131,15 +144,26 @@ If set, disable [[Cross Vault Links|dendron.topic.links#cross-vault-links]] when
 Configures the set of notes to include and exclude when using the [[Random Note|dendron.topic.commands#random-note]] command.
 
 ### useContainers
+> This setting is scheduled for deprecation 📆 
+>
+> Use [[enableContainers|dendron://dendron.dendron-site/dendron.ref.config.publishing#enablecontainers]] instead.
+
 - default: false
 
 Turn on to enable [remark-container support](https://github.com/Nevenall/remark-containers)
 
 ### useFMTitle
+> This setting is scheduled for deprecation 📆 
+>
+> Use [[enableFMTitle|dendron://dendron.dendron-site/dendron.ref.config.publishing#enablefmtitle]] for publishing or [[enableFMTitle|dendron://dendron.dendron-site/dendron.ref.config.preview#enablefmtitle]] for preview instead.
 
 When set to true, use frontmatter as title when publishing.
 
 ### useKatex
+> This setting is scheduled for deprecation 📆 
+>
+> Use [[enableKatex|dendron://dendron.dendron-site/dendron.ref.config.publishing#enablekatex]] for publishing or [[enableKatex|dendron://dendron.dendron-site/dendron.ref.config.preview#enablekatex]] for preview instead.
+
 - default: true
 
 Turn on [Katex](https://katex.org/) support for publishing.
@@ -155,6 +179,10 @@ Enables [[user tags|dendron.topic.users#user-tags]] support.
 Enables [[hashtags|dendron.topic.tags#hashtags]] support.
 
 ### useNoteTitleForLink
+> This setting is scheduled for deprecation 📆
+>
+> Use [[enableNoteTitleForLink|dendron://dendron.dendron-site/dendron.ref.config.publishing#enablenotetitleforlink]] instead.
+
 
 If true, use the note title when displaying naked links when published. This also applies to note references. 
 
@@ -184,6 +212,10 @@ If set to true, the inserted note index block will be wrapped between a marker l
 ```
 
 ### usePrettyRefs
+> This setting is scheduled for deprecation 📆
+>
+> Use [[enablePrettyRefs|dendron://dendron.dendron-site/dendron.ref.config.publishing#enableprettyrefs]] for publishing, or [[enablePrettyRefs|dendron://dendron.dendron-site/dendron.ref.config.preview#enableprettyrefs]] for preview instead.
+
 - default: true
 
 If set to false, don't use [[pretty refs|dendron.concepts#pretty-ref]] when publishing.
