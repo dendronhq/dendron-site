@@ -58,6 +58,8 @@ publishing:
     editRepository:
 ```
 
+> Please note that the properties listed below are not strictly categorized by namespace, but by what they do. Use the namespace described in the summary section of this note to reference the actual organization of these properties.
+
 ## Site properties
 These are properties related to how and where the site is being published, as well as what part of your workspace is being published.
 
@@ -110,7 +112,7 @@ These are properties related to analytics of the published site.
 - [[ga|dendron.topic.publish.config.ga]]
   - [[tracking|dendron.topic.publish.config.ga.tracking]]
 
-## SEO
+## SEO properties
 These are properties related to SEO of the published site.
 
 - [[seo|dendron.topic.publish.config.seo]]
@@ -120,7 +122,7 @@ These are properties related to SEO of the published site.
   - [[twitter|dendron.topic.publish.config.seo.twitter]]
   - [[image|dendron.topic.publish.config.seo.image]]
 
-## GitHib
+## GitHib properties
 These are properties related to GitHub.
 
 - [[github|dendron.topic.publish.config.github]]
