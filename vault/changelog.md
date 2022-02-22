@@ -2,10 +2,25 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1644943670603
+updated: 1645488376404
 created: 1601508213606
 nav_order: 2
 ---
+
+## 0.83.0
+
+### Enhancements
+- enhance(pods): add vault filter for pods-v2 hierarchy export ([[docs|dendron://dendron.dendron-site/dendron.topic.pod-v2.config#exportscope]]) (#2419) @joshi
+- enhance(notes): change dendron id format to be alphanumeric lowercase ([[docs|dendron://dendron.dendron-site/dendron.topic.frontmatter#id]]) (#2403) @kevin
+- enhance(workspace): Block Anchor support for non-note files ([[docs|dendron://dendron.dendron-site/dendron.topic.links#file-links]]) (#2377) @kaan
+- enhance(workspace): calculate backlinks and anchors in engine for improved editor responsiveness (#2389) @kaan
+
+### Fix
+- fix(workspace): Journal Note Consistency with Title and Traits (#2401) @jonathan
+- fix(workspace): Dendron will try to parse non-dendron files in `onFirstOpen` (#2405) @kevin
+- fix(workspace): error message to be readable in error toast (#2426) @joshi
+- fix(publish): horizontal line's height in publishing (#2441) @kaan
+- fix(publish): properly set siteIndex when it's not explicitly set by config (#2443) @hikchoi
 
 ## 0.82.0
 
