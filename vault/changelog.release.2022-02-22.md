@@ -2,7 +2,7 @@
 id: ixhyxsx79zqjy25s7q9liud
 title: '0.83'
 desc: ''
-updated: 1645552850817
+updated: 1645553218223
 created: 1645488383028
 ---
 
@@ -41,6 +41,10 @@ File Links now support block anchors (` ^block-anchor`)! This means that you can
 ### General
 
 - We added [bookmark bot](https://top.gg/bot/453939662168260612) to the Dendron Discord, meaning that users can now react to a message with `:bookmark:` 🔖 and Bookmarker will save it for them in a direct message.
+
+### Publishing Documentation Updates
+
+A significant review and refresh of publishing settings can be seen in the [[Publishing configuration reference documentation|dendron.ref.config.publishing]]. Make sure to take a look at all of the configuration options currently available when publishing websites with Dendron!
 
 ### Starboard and TIL Highlights
 <!-- TODO: update links. Delete section is no new items-->
