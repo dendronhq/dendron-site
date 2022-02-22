@@ -2,13 +2,13 @@
 id: ixhyxsx79zqjy25s7q9liud
 title: '0.83'
 desc: ''
-updated: 1645493812159
+updated: 1645552134043
 created: 1645488383028
 ---
 
 Dendron 0.83 has sprouted  🌱
 
-**Breaking changes:** This release of Dendron updates the publishing configuration within `dendron.yml`. This update is not backwards compatible, meaning that older versions of `dendron-cli` will not be able to publish a migrated workspace.
+**Breaking changes:** This release of Dendron updates the publishing configuration within `dendron.yml`. Updated workspaces will not work with older version of `dendron-cli`, so make sure to update.
 
 - More information: [[0.83 Changelog|dendron://dendron.dendron-site/changelog.release.2022-02-22#changelog]].
 
@@ -16,7 +16,7 @@ Pod V2 preview continues to grow: you can now export the contents of a hierarchy
 
 - More information: [[Pod v2 exportScope|dendron://dendron.dendron-site/dendron.topic.pod-v2.config#exportscope]]
 
-File Links now support block anchors (` ^block-anchor`)! This means that you can create comments in your code, and link directly to the comment blocks. Optionally, you can link line numbers.
+File Links now support block anchors (` ^block-anchor`)! This means that you can create comments in your code, and link directly to the comment blocks. This is configurable to use the older method of linking to line numbers.
 
 > Block anchors are more reliable because they will always refer to the marked line, but Dendron has to modify the file to insert a block anchor which looks like `^this`. You are free to move the anchor anywhere in the file or to put comment markers like `//` or `#` or anything else before them.
 
@@ -30,7 +30,7 @@ File Links now support block anchors (` ^block-anchor`)! This means that you can
 
 ## Everything Else
 - enhance(workspace): calculate backlinks and anchors in engine for improved editor responsiveness
-- fix(workspace): Journal Note Consistency with Title and Traits
+- fix(workspace): Fixed instances where Journal note `title` values weren't properly formatted as `yyyy-MM-dd` and the `traitID` of `journalNote` wasn't being applied
 - fix(workspace): Dendron will try to parse non-dendron files in `onFirstOpen`
 - fix(workspace): error message to be readable in error toast
 - fix(publish): horizontal line's height in publishing
@@ -125,6 +125,36 @@ This week's entry in the [[Dendron Reading Series|dendron://dendron.dendron-site
 
 A big **thanks** to the following gardeners that brought up issues, contributions, and fixes to this release :man_farmer: :woman_farmer: 
 Visit [[Discord Roles|dendron://dendron.dendron-site/community.discord.roles]] for more information.
+
+- [Im](https://github.com/immartian)
+  - [Issue: Feedback on Graph View](https://github.com/dendronhq/dendron-site/issues/395)
+  
+- [Callum Mcdonald](https://github.com/chmac) `@chmac#2931`
+  - [Issue: Greenhouse Event link to A Day in Dendron is broken](https://github.com/dendronhq/dendron-site/issues/370)
+  
+- [Vincent Dansereau](https://github.com/13013SwagR)
+  - #role.taxonomist
+  - [Issue: css edit link points to documentation that doesn't exists anymore](https://github.com/dendronhq/dendron-site/issues/383)
+
+- [James Henry](https://github.com/henry-js) `@henry-js#6283`
+  - #role.taxonomist
+  - [Troubleshooting `#lookup-shortcut-is-not-working` for Vim extension conflicts](https://github.com/dendronhq/dendron-site/issues/357)
+  
+- [Tycholiz](https://github.com/Tycholiz) `@Tychronos#6624`
+  - [Issue: Select vault not working as intended: not all vaults showing up](https://github.com/dendronhq/dendron/issues/2445)
+  
+- [Ryan Hill](https://github.com/rlh1994) `@rlh1994#9754`
+  - [Issue: Page not publishing with publishByDefault: false and front matter published: true](https://github.com/dendronhq/dendron/issues/2463)
+
+#### Surveyors
+
+A huge thanks to the following Dendronites that provided feedback in the [2022 Dendron User Survey](https://link.dendron.so/74EI). If you would like to help us improve Dendron, please checkout the survey (and earn a shiny [[Surveyor|dendron://dendron.dendron-site/community.discord.roles#surveyor]] Discord badge in the process)!
+
+- `@Idan#8549`
+- `@aleksey#5276`
+- `@d1onysus#1514`
+- `@foureyedsoul#0796`
+- `@cro#4610`
 
 ## Changelog
 ![[dendron://dendron.dendron-site/changelog#0830,1:#0820]]
