@@ -2,7 +2,7 @@
 id: ixhyxsx79zqjy25s7q9liud
 title: '0.83'
 desc: ''
-updated: 1645552134043
+updated: 1645552850817
 created: 1645488383028
 ---
 
@@ -52,7 +52,7 @@ File Links now support block anchors (` ^block-anchor`)! This means that you can
     - Example:
 
     ```html
-    <img src="https://c.pxhere.com/photos/70/93/egg_hammer_threaten_violence_fear_intimidate_hit_beat-767438.jpg!d" usemap="#map" height="550"/>
+    <img src="https://example.com/image.jpg" usemap="#map" height="550"/>
 
     <map name="map">
         <area shape="circle" coords="330,350,50" alt="egg" href=".\assets\pdfs\timeline2.pdf" target="_blank">
