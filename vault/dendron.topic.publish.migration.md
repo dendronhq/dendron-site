@@ -13,9 +13,9 @@ If there is a compatibility mismatch, running the CLI will display a message tha
 
 ## Upgrade Instructions
 
-If you are coming from Dendron's legacy publishing (based on 11ty), you can look at the following guides for publishing. 
+If you are coming from Dendron's legacy publishing (based on 11ty), you can look at the following guides for publishing.
 
-If you were publishing using github pages without using github actions, follow the [[GitHub Pages|dendron://dendron.dendron-site/dendron.topic.publish.cook.github]] guide
+If you were publishing using github pages without using github actions, follow the [[GitHub Pages|dendron://dendron.dendron-site/dendron.topic.publish.cook.github]] guide.
 
 If you were publishing using github pages with github actions, follow the [[GitHub Pages with GitHub Actions|dendron://dendron.dendron-site/dendron.topic.publish.cook.github-action]] guide.
 
