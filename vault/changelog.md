@@ -2,7 +2,7 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1645493875831
+updated: 1645544640720
 created: 1601508213606
 nav_order: 2
 ---
@@ -11,11 +11,19 @@ nav_order: 2
 
 ### Breaking changes
 
-- The latest release of Dendron will prompt users to automatically migrate their `dendron.yml` configurations to use the latest publishing configuration. This update is not backwards compatible, meaning that updated workspace configurations won't work with older versions of `dendron-cli` used for publishing.
-  - Optionally, users can migrate their configurations via `dendron-cli`
-  ```sh
-  dendron dev run_migration --migrationVersion 0.83.0
-  ```
+The latest release of Dendron will prompt users to automatically migrate their `dendron.yml` configurations to use the latest publishing configuration. **This update is not backwards compatible**, meaning that updated workspace configurations (`version: 5`) won't work with older versions of `dendron-cli` used for publishing.
+
+If `dendron-cli` is not updated, you will encounter the following error message:
+
+```
+Cannot find minimum compatible client version. This error should never occur! Please report a bug if you have encountered this.
+```
+
+If running the latest `dendron-cli`, users can optionally migrate their configurations directly from `dendron-cli`:
+
+```sh
+dendron dev run_migration --migrationVersion 0.83.0
+```
 
 ### Deprecation Notices
 
