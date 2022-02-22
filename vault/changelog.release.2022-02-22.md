@@ -2,11 +2,15 @@
 id: ixhyxsx79zqjy25s7q9liud
 title: '0.83'
 desc: ''
-updated: 1645493265012
+updated: 1645493812159
 created: 1645488383028
 ---
 
 Dendron 0.83 has sprouted  🌱
+
+**Breaking changes:** This release of Dendron updates the publishing configuration within `dendron.yml`. This update is not backwards compatible, meaning that older versions of `dendron-cli` will not be able to publish a migrated workspace.
+
+- More information: [[0.83 Changelog|dendron://dendron.dendron-site/changelog.release.2022-02-22#changelog]].
 
 Pod V2 preview continues to grow: you can now export the contents of a hierarchy, filtered by a target vault. This means the multi-vault workspaces can be more targeted in their exports without including notes from undesired vaults.
 
@@ -18,17 +22,11 @@ File Links now support block anchors (` ^block-anchor`)! This means that you can
 
 - More information: [[File Links|dendron://dendron.dendron-site/dendron.topic.links#file-links]]
 
-New defaults on Dendron `id` in new note frontmatter:
-- lowercase
-- alphanumeric
-- 23 characters long
-
-- More information: [[Frontmatter id|dendron://dendron.dendron-site/dendron.topic.frontmatter#id]]
-
 ## Highlights
 - enhance(pods): add vault filter for pods-v2 hierarchy export
 - enhance(notes): change dendron id format to be alphanumeric lowercase
 - enhance(workspace): Block Anchor support for non-note files
+- deprecate(publishing): Legacy publishing has now been removed from `dendron-cli`. Dendron users that haven't yet migrated from `dendron buildSite` commands must migrate to using the `dendron publish` commands.
 
 ## Everything Else
 - enhance(workspace): calculate backlinks and anchors in engine for improved editor responsiveness
@@ -39,6 +37,10 @@ New defaults on Dendron `id` in new note frontmatter:
 - fix(publish): properly set siteIndex when it's not explicitly set by config
 
 ## Community
+
+### General
+
+- We added [bookmark bot](https://top.gg/bot/453939662168260612) to the Dendron Discord, meaning that users can now react to a message with `:bookmark:` 🔖 and Bookmarker will save it for them in a direct message.
 
 ### Starboard and TIL Highlights
 <!-- TODO: update links. Delete section is no new items-->

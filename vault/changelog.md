@@ -2,12 +2,26 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1645488376404
+updated: 1645493875831
 created: 1601508213606
 nav_order: 2
 ---
 
 ## 0.83.0
+
+### Breaking changes
+
+- The latest release of Dendron will prompt users to automatically migrate their `dendron.yml` configurations to use the latest publishing configuration. This update is not backwards compatible, meaning that updated workspace configurations won't work with older versions of `dendron-cli` used for publishing.
+  - Optionally, users can migrate their configurations via `dendron-cli`
+  ```sh
+  dendron dev run_migration --migrationVersion 0.83.0
+  ```
+
+### Deprecation Notices
+
+- deprecate(publishing): Legacy publishing has now been removed from `dendron-cli`. Dendron users that haven't yet migrated from `dendron buildSite` commands must migrate to using the `dendron publish` commands.
+  - [[Common commands for Next.js publishing with dendron-cli|dendron://dendron.dendron-site/dendron.topic.publish.cook.common]]
+  - [[Upgrade Instructions|dendron://dendron.dendron-site/dendron.topic.publish.migration]]
 
 ### Enhancements
 - enhance(pods): add vault filter for pods-v2 hierarchy export ([[docs|dendron://dendron.dendron-site/dendron.topic.pod-v2.config#exportscope]]) (#2419) @joshi
