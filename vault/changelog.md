@@ -2,10 +2,47 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1644943670603
+updated: 1645551755948
 created: 1601508213606
 nav_order: 2
 ---
+
+## 0.83.0
+
+### Breaking changes
+
+The latest release of Dendron will prompt users to automatically migrate their `dendron.yml` configurations to use the latest publishing configuration. Updated workspace configurations (`version: 5`) won't work with older versions of `dendron-cli`.
+
+If `dendron-cli` is not updated, you will encounter the following error message:
+
+```
+Cannot find minimum compatible client version. This error should never occur! Please report a bug if you have encountered this.
+```
+
+If running the latest `dendron-cli`, users can optionally migrate their configurations directly from `dendron-cli`:
+
+```sh
+dendron dev run_migration --migrationVersion 0.83.0
+```
+
+### Deprecation Notices
+
+- deprecate(publishing): Legacy publishing has now been removed from `dendron-cli`. Dendron users that haven't yet migrated from `dendron buildSite` commands must migrate to using the `dendron publish` commands.
+  - [[Common commands for Next.js publishing with dendron-cli|dendron://dendron.dendron-site/dendron.topic.publish.cook.common]]
+  - [[Upgrade Instructions|dendron://dendron.dendron-site/dendron.topic.publish.migration]]
+
+### Enhancements
+- enhance(pods): add vault filter for pods-v2 hierarchy export ([[docs|dendron://dendron.dendron-site/dendron.topic.pod-v2.config#exportscope]]) (#2419) @joshi
+- enhance(notes): change dendron id format to be alphanumeric lowercase ([[docs|dendron://dendron.dendron-site/dendron.topic.frontmatter#id]]) (#2403) @kevin
+- enhance(workspace): Block Anchor support for non-note files ([[docs|dendron://dendron.dendron-site/dendron.topic.links#file-links]]) (#2377) @kaan
+- enhance(workspace): calculate backlinks and anchors in engine for improved editor responsiveness (#2389) @kaan
+
+### Fix
+- fix(workspace): Fixed instances where Journal note `title` values weren't properly formatted as `yyyy-MM-dd` and the `traitID` of `journalNote` wasn't being applied (#2401) @jonathan
+- fix(workspace): Dendron will try to parse non-dendron files in `onFirstOpen` (#2405) @kevin
+- fix(workspace): error message to be readable in error toast (#2426) @joshi
+- fix(publish): horizontal line's height in publishing (#2441) @kaan
+- fix(publish): properly set siteIndex when it's not explicitly set by config (#2443) @hikchoi
 
 ## 0.82.0
 
