@@ -176,5 +176,5 @@ After doing this, you've now:
 - Learn to [[swiftly create schema targeting existing note hierarchies|dendron.topic.schema.create-from-hierarchy]]
 - Learn to level-up your daily life with [[the bullet journaling workflow|dendron://dendron.dendron-site/dendron.guides.workflows.bullet-journal]]
 - Learn to explore your schema visually using the [[schema graph|dendron://dendron.dendron-site/dendron.topic.graph-view#schema-graph]]
-- Check out an end-to-end workstyle, managing 20k notes, using schemas and daily journals from [[A Day in Dendron|dendron://dendron.dendron-site/community.greenhouse.2021-07-23-using-dendron-with-20k-notes]]
+- Check out an end-to-end workstyle, managing 20k notes, using schemas and daily journals from [[A Day in Dendron|dendron://dendron.dendron-site/community.events.greenhouse.2021-07-23-using-dendron-with-20k-notes]]
 

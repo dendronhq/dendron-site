@@ -1,35 +1,7 @@
-useFMTitle: true
-useNoteTitleForLink: true
-mermaid: true
-useKatex: true
 dev:
     enableWebUI: true
     enablePreviewV2: true
-site:
-    siteHierarchies:
-        - dendron
-        - community
-        - changelog
-        - careers
-        - tags
-    siteRootDir: docs
-    gh_edit_repository: 'https://github.com/dendronhq/dendron-site'
-    gh_edit_branch: master
-    usePrettyRefs: true
-    copyAssets: true
-    logo: vault/assets/images/logo.png
-    siteUrl: 'https://wiki.dendron.so'
-    siteLastModified: true
-    githubCname: wiki.dendron.so
-    title: Dendron
-    author: dendronhq
-    twitter: dendronhq
-    description: >-
-        Dendron is a local-first, Markdown-based, hierarchical note taking tool.
-        It is meant to help you create, organize, and collaborate on knowledge
-        bases of any size.
-    ga_tracking: G-B0JN2HHCNY
-version: 4
+version: 5
 useTitleForLink: true
 commands:
     lookup:
@@ -39,6 +11,7 @@ commands:
             leaveTrace: false
             bubbleUpCreateNew: true
             fuzzThreshold: 0.2
+            vaultSelectionModeOnCreate: smart
     randomNote: {}
     insertNote:
         initialValue: templates
@@ -47,8 +20,9 @@ commands:
         enableMultiSelect: false
     insertNoteIndex:
         enableMarker: false
+    copyNoteLink: {}
 workspace:
-    dendronVersion: 0.72.0
+    dendronVersion: 0.83.0
     vaults:
         -
             fsPath: vault
@@ -100,3 +74,43 @@ preview:
     enableMermaid: true
     enablePrettyRefs: true
     enableKatex: true
+    automaticallyShowPreview: false
+publishing:
+    enableFMTitle: true
+    enableNoteTitleForLink: true
+    enableMermaid: true
+    enablePrettyRefs: true
+    enableKatex: true
+    copyAssets: true
+    ga:
+        tracking: G-B0JN2HHCNY
+    logoPath: vault/assets/images/logo.png
+    siteHierarchies:
+        - dendron
+        - community
+        - changelog
+        - careers
+        - tags
+    enableSiteLastModified: true
+    siteRootDir: docs
+    siteUrl: 'https://wiki.dendron.so'
+    enableFrontmatterTags: true
+    enableHashesForFMTags: false
+    enableRandomlyColoredTags: true
+    writeStubs: false
+    seo:
+        title: Dendron
+        description: >-
+            Dendron is a local-first, Markdown-based, hierarchical note taking
+            tool. It is meant to help you create, organize, and collaborate on
+            knowledge bases of any size.
+        author: dendronhq
+        twitter: dendronhq
+    github:
+        cname: wiki.dendron.so
+        enableEditLink: true
+        editLinkText: Edit this page on GitHub
+        editBranch: master
+        editViewMode: tree
+        editRepository: 'https://github.com/dendronhq/dendron-site'
+    enablePrettyLinks: true

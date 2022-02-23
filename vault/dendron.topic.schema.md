@@ -2,7 +2,7 @@
 id: c5e5adde-5459-409b-b34d-a0d75cbb1052
 title: Schemas
 desc: ''
-updated: 1644016750303
+updated: 1645166295598
 created: 1595952505039
 stub: false
 ---
@@ -33,11 +33,15 @@ Schemas show up as icons next to lookup results.
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/schema.intro.gif)
 
+<!-- Removed the following section temporarily because the feature no longer works, but will be readded soon.
+
 ### Find Non-Compliant Hierarchies
 
 If you accidentally do a typo, your schema will let you know that you have an inconsistency. 
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/schema.unknown.gif)
+
+-->
 
 ## Schema Anatomy
 

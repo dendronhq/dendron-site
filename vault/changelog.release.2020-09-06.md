@@ -135,7 +135,7 @@ Go down the hierarchy
 Last and most of all, a big **thanks** to the following gardeners that brought up issues, contributions, and fixes to this release.
 
 - [Fayçal](https://github.com/d3vr)
-  - [Stylyzed Tag CSS](https://www.dendron.so/notes/692fa114-f798-467f-a0b9-3cccc327aa6f.html#stylized-tags-using-custom-css)
+  - Stylized Tag CSS
   - [Dendron Tag Search Extension](https://marketplace.visualstudio.com/items?itemName=d3vr.tag-search)
 
 - [Ed](https://github.com/ens100)

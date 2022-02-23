@@ -2,9 +2,11 @@
 id: 5ca2fe99-0abc-413d-aa06-50f9a66e13e0
 title: Troubleshooting
 desc: ''
-updated: 1623863531700
+updated: 1645121320515
 created: 1609525003662
 ---
+
+![[dendron://dendron.dendron-site/dendron.topic.publish-legacy#deprecated,1]]
 
 ## Diagnostics
 

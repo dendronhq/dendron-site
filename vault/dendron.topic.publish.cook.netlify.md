@@ -10,7 +10,7 @@ created: 1637987493080
 
 You can publish your notes using Dendron publishing and [Netlify](https://www.netlify.com/).
 
-### Pre-requisites 
+### Prerequisites
 - This assumes you have a Netlify account.
     - If not, you can [create one](https://app.netlify.com/signup).
 
