@@ -2,7 +2,7 @@
 id: CUEwuYsbutHeJJf6aKM3g
 title: Basics
 desc: 'VS Code workspace, vaults, intellisense/autocomplete, Dendron settings'
-updated: 1645523496605
+updated: 1645636794111
 created: 1632764333519
 airtableId: rectCR9AOy93xvWQh
 ---
@@ -15,13 +15,14 @@ VS Code workspace, vaults, intellisense/autocomplete, Dendron settings
 
 - validating settings on startup
 - opening a file
-- intellisense (autocomplete)
-- vault and workspace
+- autocomplete works for note linking (test vault with at least 100 notes)
+- remote vault add
 
 ## Sub-scopes
 - #scope.basics.workspace
 
-## Feature
+## Features
+
 1. Lookup
     - Note creation
     - Note retrieval
@@ -54,10 +55,20 @@ VS Code workspace, vaults, intellisense/autocomplete, Dendron settings
     - Resize windows
     - Tree view 
     - Backlinks
+9. Vaults
+    - Add vault works
+    - Remove vault works
 
+
+## Feature nodes (WIP)
+
+- #feature.daily-journal
+- #feature.easy-start
+- #feature.extension-conflicts
+- #feature.asset-support
 
 ##  Extension scopes
-Since the basics scope covers what a typical customer would do in two weeks, further functionality can be found: 
+Since the basics scope only covers what a typical customer would do in two weeks, more functionality related to each vertical can be categorized under the following scopes: 
 - Lookup -> #scope.retrieve.note-lookup
 - Hierarchies -> #scope.structure
 - Markdown -> #scope.edit
@@ -68,8 +79,3 @@ Since the basics scope covers what a typical customer would do in two weeks, fur
 - Workbench -> #scope.basics.workspace
          
 
-## Feature nodes
-- #feature.daily-journal
-- #feature.easy-start
-- #feature.extension-conflicts
-- #feature.asset-support
