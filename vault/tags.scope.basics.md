@@ -21,7 +21,7 @@ VS Code workspace, vaults, intellisense/autocomplete, Dendron settings
 ## Sub-scopes
 - #scope.basics.workspace
 
-## Functionality
+## Feature
 1. Lookup
     - Note creation
     - Note retrieval
@@ -48,6 +48,8 @@ VS Code workspace, vaults, intellisense/autocomplete, Dendron settings
     - Create template
     - Insert template 
 7. Journals
+    - Create note through command palette
+    - Calendar view 
 8. Workbench
     - Resize windows
     - Tree view 
