@@ -2,11 +2,7 @@
 id: 84df871b-9442-42fd-b4c3-0024e35b5f3c
 title: Telemetry
 desc: ""
-<<<<<<< Updated upstream
-updated: 1644395507756
-=======
-updated: 1645727000441
->>>>>>> Stashed changes
+updated: 1645727109358
 created: 1619460500071
 nav_order: 6.1
 ---
@@ -170,6 +166,7 @@ We collect an invocation metric when a [[commands|dendron.ref.commands]] is invo
 | `duration` |  _number_  | How long did it take to execute this command |
 
 #### Lookup commands
+
 For commands that utilize the core lookup module, we additionally collect the state of the lookup modifiers when the user accepts as well as on manual button triggers.
 
 |     Field | Attributes | Description                                   |
@@ -179,13 +176,13 @@ For commands that utilize the core lookup module, we additionally collect the st
 | `pressed` | _boolean_  | What is the state of the button after toggle? |
 
 #### Copy Note Link
+
 For the Copy Note Link command, we also collect some information to understand where it is used the most.
 
-|     Field    | Attributes | Description                                     |
-| -----------: | :--------: | ----------------------------------------------- |
-|    `type`    |  _string_  | What type of file was this, a note or non-note? |
+|        Field | Attributes | Description                                                         |
+| -----------: | :--------: | ------------------------------------------------------------------- |
+|       `type` |  _string_  | What type of file was this, a note or non-note?                     |
 | `anchorType` |  _string_  | If an anchor was created, what type was it? Block, header, or line? |
-
 
 ### CLI commands
 
