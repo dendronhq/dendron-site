@@ -2,7 +2,7 @@
 id: vsAxYld4zsbD2XjKoh7OP
 title: Git
 desc: ''
-updated: 1639609234517
+updated: 1645737555902
 created: 1624965063661
 ---
 
@@ -18,6 +18,22 @@ The most likely case is you have a local repository that you need to now add to 
 - [Join GitHub](https://github.com/join)
   - If new to GitHub, follow the [GitHub Quickstart](https://docs.github.com/en/get-started/quickstart) to become familiar with GitHub
 - Further reading, to better understand these tools: [Learn Git and GitHub](https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/GitHub)
+
+### git defaults
+
+By default, `git` will initialize repositories with a `master` branch. Modifications to this behavior can be done at the CLI:
+
+```sh
+# Change default branch names in initialized git repos
+git config --global init.defaultBranch main
+```
+
+If wanting to make a change in a current repository:
+
+```sh
+# Change current main branch name
+git branch -m main
+```
 
 ## Using git with Dendron
 
