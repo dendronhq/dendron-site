@@ -2,7 +2,7 @@
 id: 3abd00eb-1c1e-4253-aaf5-dcbe20c21850
 title: Early Seed
 desc: ''
-updated: 1645810556795
+updated: 1645810945698
 created: 1604539200840
 published: true
 nav_exclude: true
@@ -27,3 +27,4 @@ nav_exclude: true
 - fix(views): clicking preview links for non-note files (#2455) @kaan
 - fix(views): Code blocks and spans in preview are html encoded (#2471) [flammehawk](https://github.com/flammehawk)
 - fix(workspace): don't call reload index if action is findIncompatibleExtension (#2458) @hikchoi
+- fix(views): don't refresh tree view if note visible (#2487) @hikchoi
