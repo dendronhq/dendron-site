@@ -2,7 +2,7 @@
 id: 3abd00eb-1c1e-4253-aaf5-dcbe20c21850
 title: Early Seed
 desc: ''
-updated: 1645809945378
+updated: 1645810087258
 created: 1604539200840
 published: true
 nav_exclude: true
@@ -25,4 +25,4 @@ nav_exclude: true
 - fix(publish): Table of Contents is missing user tags, inline code, dashes and underlines (#2465) @kaan
 - fix(workspace): dendron can hang when trying to provide hover for large non-dendron file (#2457)  @kevin
 - fix(views): clicking preview links for non-note files (#2455) @kaan
-- fix(views): Code blocks and spans in preview are html encoded (#2471) [[people.fudo]]
+- fix(views): Code blocks and spans in preview are html encoded (#2471) [flammehawk](https://github.com/flammehawk)
