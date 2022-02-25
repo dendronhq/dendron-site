@@ -8,10 +8,16 @@ created: 1598673110284
 - Notice: all references of `MPE` in this guide is in reference to `Dendron Markdown Preview Enhanced`, the default Markdown renderer of Dendron
 
 
-## Markdown Basics
+## Markdown Features
 
 This article is a brief introduction to [GitHub Flavored Markdown writing](https://guides.github.com/features/mastering-markdown/).
 
+## Basics
+- Create different levels of headers
+- Create bulleted/numbered lists
+- Add links/images
+- Create task lists
+- Tabulate information
 ## What is Markdown?
 
 `Markdown` is a way to style text on the web. You control the display of the document; formatting words as bold or italic, adding images, and creating lists are just a few of the things we can do with Markdown. Mostly, Markdown is just regular text with a few non-alphabetic characters thrown in, like `#` or `*`.

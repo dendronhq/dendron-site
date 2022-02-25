@@ -2,7 +2,7 @@
 id: le8mukn4RuMfZ8SxD0doj
 title: Structure
 desc: ''
-updated: 1645523756856
+updated: 1645813094767
 created: 1644724514813
 airtableId: recctrkafGKsa0IIt
 ---
@@ -26,3 +26,5 @@ Related to keeping notes in a structured, ordered fashion.
 	- #feature.templates
 	- #feature.todos
 
+## Documentation
+- [[dendron.topic.hierarchies]]

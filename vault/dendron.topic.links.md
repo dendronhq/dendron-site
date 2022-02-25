@@ -14,6 +14,10 @@ Dendron supports multiple types of links and formats.
 - `![image links](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/logo-256.png)`
 - links to `[local files](assets/think.pdf)` (eg. PDFs, PSDs, etc.)
 
+## Basics
+- Backlinks
+- Wiki Links
+- File Links
 ## Concepts
 
 ### Note Files

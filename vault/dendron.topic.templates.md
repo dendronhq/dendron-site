@@ -34,3 +34,7 @@ We are continually working to expand the types of templates available in the `de
 ## Children
 - Topics
     - [[Schema Template|dendron://dendron.dendron-site/dendron.topic.templates.schema-template]]
+
+## Basics
+- Create template
+- Insert template

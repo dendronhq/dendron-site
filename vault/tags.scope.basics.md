@@ -2,7 +2,7 @@
 id: CUEwuYsbutHeJJf6aKM3g
 title: Basics
 desc: 'VS Code workspace, vaults, intellisense/autocomplete, Dendron settings'
-updated: 1645636794111
+updated: 1645813192549
 created: 1632764333519
 airtableId: rectCR9AOy93xvWQh
 ---
@@ -21,43 +21,51 @@ VS Code workspace, vaults, intellisense/autocomplete, Dendron settings
 ## Sub-scopes
 - #scope.basics.workspace
 
-## Features
+## Functionalities
 
-1. Lookup
-    - Note creation
-    - Note retrieval
-2. Hierarchies
-    - 1,2 and 3 depth nodes can be created in a hierarchy. 
-    - Create a note within a note
-3.  Markdown
-    - Create different levels of headers
-    - Create bulleted/numbered lists
-    - Add links/images
-    - Create task lists
-    - Tabulate information
-    - Add-In Footnotes
-4.  Images
-    - Insert images
-    - Resize images
-    - Align images
-    - Outline images
-5. Links
-    - Link between Notes
-    - Include Wikilinks in note
-    - Add link to external files  
-6. Template
-    - Create template
-    - Insert template 
-7. Journals
-    - Create note through command palette
-    - Calendar view 
-8. Workbench
-    - Resize windows
-    - Tree view 
-    - Backlinks
-9. Vaults
-    - Add vault works
-    - Remove vault works
+1. #scope.retrieve.note-lookup
+
+![[dendron://dendron.dendron-site/dendron.topic.lookup#basics,1]]
+
+2. #scope.structure
+
+![[dendron://dendron.dendron-site/dendron.topic.hierarchies#basics,1]]
+ 
+3.  #scope.common.markdown
+
+![[dendron://dendron.dendron-site/dendron.topic.markdown#basics,1:#*]]
+
+4.  #feature.asset-support
+
+![[dendron://dendron.dendron-site/dendron.topic.images#basics,1:#*]]
+
+5. #feature.backlinks
+
+![[dendron://dendron.dendron-site/dendron.topic.links#backlinks,1:#*]]
+
+6. #feature.wikilinks
+
+![[dendron://dendron.dendron-site/dendron.topic.links#wiki-links,1:#*]]
+
+7. #feature.link-to-files
+
+![[dendron://dendron.dendron-site/dendron.topic.links#file-links,1:#*]]
+
+8. #feature.templates
+
+![[dendron://dendron.dendron-site/dendron.topic.templates#basics,1]]
+
+9. #feature.daily-journal
+    
+![[dendron://dendron.dendron-site/dendron.topic.daily-journal-note#basics,1]]
+
+10. #feature.vscode
+
+![[dendron://dendron.dendron-site/dendron.topic.workbench#basics,1:#*]]
+
+11. #feature.vaults
+
+![[dendron://dendron.dendron-site/dendron.topic.vaults#basics,1:#*]]
 
 
 ## Feature nodes (WIP)

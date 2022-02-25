@@ -24,3 +24,6 @@ By default, it will create the journal under `daily.{date}` though this is confi
 New daily journal notes can also be created, interactively, with [[Calendar View|dendron://dendron.dendron-site/dendron._ref.web-ui#calendar-view]].
 
 ![[dendron://dendron.dendron-site/asset.preview#create-daily-journal-from-calendar,1:#*]]
+
+## Basics
+- Create note through command palette

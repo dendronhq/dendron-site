@@ -24,6 +24,10 @@ Your workspace is made up of one or more **vaults**. A Dendron vault stores a co
 
 By default, when you look for notes in Dendron, it will search over all vaults.
 
+## Basics
+
+- Add vault works
+- Remove vault works
 ## Commands
 
 ### Vault Add

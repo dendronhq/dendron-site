@@ -2,7 +2,7 @@
 id: f3a41725-c5e5-4851-a6ed-5f541054d409
 title: Hierarchies
 desc: ''
-updated: 1641841664033
+updated: 1645812976476
 created: 1595611213607
 ---
 
@@ -107,4 +107,6 @@ The domain is the root of a specific hierarchy. In our example vault, we have on
    └── a-parent.child-a.grandchild-a.great-grandchild-a.md
    ```
 
-##
+## Basics
+    - Create a parent note
+    - Create a child note under a parent note

@@ -6,6 +6,11 @@ updated: 1639537832456
 created: 1595562035825
 stub: false
 ---
+## Basics
+- Insert images
+- Resize images
+- Align images
+    
 ## Copy & Paste
 
 Dendron automatically inserts images in your clipboard using the `> Paste Image` command. The image is saved to `${currentFileDir}/assets` by default. This feature requires the [Paste Image](https://link.dendron.so/vscode-paste-image) VS Code extension.
