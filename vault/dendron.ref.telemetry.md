@@ -2,7 +2,7 @@
 id: 84df871b-9442-42fd-b4c3-0024e35b5f3c
 title: Telemetry
 desc: ""
-updated: 1644395507756
+updated: 1645765332037
 created: 1619460500071
 nav_order: 6.1
 ---
@@ -61,6 +61,20 @@ When Dendron initializes, we collect data about on initialization time. This hel
 |            `noCaching` | _boolean_  | Check whether caching is disabled                                   |
 |        `workspaceType` |  _string_  | The type of Dendron workspace.                                      |
 | `codeWorkspacePresent` | _boolean_  | Whether a `dendron.code-workspace` file was present                 |
+
+### Automatic Fixes
+
+When Dendron is initializing, it can automatically fix some issues that would
+break the initialization. If that happens, we collect how many issues were
+fixed. This helps us learn if these automatic fixes are actually able to fix
+problems.
+
+|                Field | Attributes | Description                                                                          |
+| -------------------: | :--------: | ------------------------------------------------------------------------------------ |
+| `create root schema` |  _number_  | Number of vaults that had a root schema missing                                      |
+|   `create root note` |  _number_  | Number of vaults that had a root note missing                                        |
+|   `set remote vault` |  _number_  | Number of vaults that were in a remote repository, but weren't configured correctly  |
+
 
 ### Configuration
 

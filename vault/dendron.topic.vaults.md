@@ -2,7 +2,7 @@
 id: 6682fca0-65ed-402c-8634-94cd51463cc4
 title: Vaults
 desc: ''
-updated: 1641501358022
+updated: 1645765648838
 created: 1622841137387
 ---
 
@@ -100,7 +100,10 @@ vaults:
 ```
 ^NiCCqLjTG2nbM6Qi
 
-When someone pulls down a workspace with a `dendron.yml` that contains a remote vault, Dendron will automatically initialize the vault at the given `fsPath`. If the vault is a [[Workspace Vault|dendron.ref.vaults#workspace-vault]], Dendron will pull down the workspace to `{workspaceName}/fsPath`. 
+When someone pulls down a workspace with a `dendron.yml` that contains a remote vault, Dendron will automatically initialize the vault at the given `fsPath`. If the vault is a [[Workspace Vault|#workspace-vault]], Dendron will pull down the workspace to `{workspaceName}/fsPath`. 
+
+If you put a vault in a git repository with a remote without using the [[Vault Convert|dendron.ref.commands#vault-convert]] command,
+then Dendron will automatically update the configuration for you during the next startup to set the remote configuration.
 
 ## Vault Types
 
@@ -134,7 +137,7 @@ If set to private, notes in this vault will not be published regardless of any o
 If set, specifies the workspace that this vault belongs
 
 ### remote
-- added property for [[remote vaults|dendron.ref.vaults#remote]]
+- added property for [[remote vaults|#remote]]
 - properties
     - type: currently only `git` is supported (in the future, we might add additional types)
     - url: url to GitHub repo
@@ -145,7 +148,7 @@ If set, specifies the workspace that this vault belongs
 
 See [[workspace sync configuration options|dendron.topic.workspace#configuration-options]] for valid options.
 
-Sets the [[synchronization strategy|dendron.topic.workspace#Workspace: Sync]] for this vault. This overrides the [[workspace vault sync option|dendron.ref.config#workspaceVaultSync]] if it is set.
+Sets the [[synchronization strategy|dendron.topic.workspace#workspace-sync]] for this vault. This overrides the [[workspace vault sync option|dendron.ref.config#workspacevaultsync]] if it is set.
 
 ### Configuration Examples
 
