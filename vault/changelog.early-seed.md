@@ -2,7 +2,7 @@
 id: 3abd00eb-1c1e-4253-aaf5-dcbe20c21850
 title: Early Seed
 desc: ''
-updated: 1645810945698
+updated: 1645811111087
 created: 1604539200840
 published: true
 nav_exclude: true
@@ -18,7 +18,7 @@ nav_exclude: true
 ### Enhancements
 - enhance(views): separate tag configuration for preview and publish ([[docs|dendron://dendron.dendron-site/dendron.ref.config.preview]]) (#2460) @hikchoi
 - enhance(views): preview can now load images directly (#2432) @kaan
-- enhance(views): faster webviews by reducing engine sync operations @jonathan
+- enhance(views): faster webviews by reducing engine sync operations (#2472) @jonathan
 
 ### Fix
 - fix(schema): Apply schema template for goto-note-command if template is in different vault (#2429) @tuling
