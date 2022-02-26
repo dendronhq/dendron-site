@@ -6,4 +6,5 @@ updated: 1642562867345
 created: 1639677731848
 airtableId: recczMnfTKQZX2Bu8
 ---
-
+## Documentation 
+[[dendron.topic.daily-journal-note]]

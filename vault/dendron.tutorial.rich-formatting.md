@@ -2,7 +2,7 @@
 id: 8DCgctK-RMD4EeHjC5_hI
 title: Rich Formatting
 desc: ''
-updated: 1641840215927
+updated: 1645804078843
 created: 1625573403967
 nav_order: 3
 ---

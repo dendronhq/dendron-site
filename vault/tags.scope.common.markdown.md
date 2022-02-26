@@ -14,3 +14,6 @@ Relating to Markdown features.
 
 ## Feature nodes
 	- #feature.outlining
+
+## Documentation
+[[dendron.topic.markdown]]

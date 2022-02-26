@@ -20,5 +20,5 @@ This goes over fundamental Dendron features
 - [[Links|dendron://dendron.dendron-site/dendron.topic.links]]
 - [[Note Reference|dendron://dendron.dendron-site/dendron.topic.note-reference]]
 - [[Templates|dendron://dendron.dendron-site/dendron.topic.templates]]
-- Journals #todo
+- [[Daily Journal Note|dendron://dendron.dendron-site/dendron.topic.daily-journal-note]]
 - [[Workbench|dendron://dendron.dendron-site/dendron.topic.workbench]]

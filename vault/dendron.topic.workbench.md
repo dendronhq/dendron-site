@@ -175,8 +175,11 @@ This switch lets you toggle the [[horizontal|dendron://dendron.dendron-site/dend
 ### Apply Direct Child Filter
 This switch lets you toggle the [[direct child only|dendron://dendron.dendron-site/dendron.topic.lookup.modifiers#directchildonly]] filter behavior for the currently active note lookup.
 
-
-
+## Basics
+- Resize windows
+- Create window splits
+- Tree view 
+- Backlinks
 
 
 <!-- TODO

@@ -2,7 +2,7 @@
 id: CUEwuYsbutHeJJf6aKM3g
 title: Basics
 desc: 'VS Code workspace, vaults, intellisense/autocomplete, Dendron settings'
-updated: 1645465469946
+updated: 1645813192549
 created: 1632764333519
 airtableId: rectCR9AOy93xvWQh
 ---
@@ -15,13 +15,75 @@ VS Code workspace, vaults, intellisense/autocomplete, Dendron settings
 
 - validating settings on startup
 - opening a file
-- intellisense (autocomplete)
-- vault and workspace
+- autocomplete works for note linking (test vault with at least 100 notes)
+- remote vault add
 
 ## Sub-scopes
 - #scope.basics.workspace
-## Feature nodes
+
+## Functionalities
+
+1. #scope.retrieve.note-lookup
+
+![[dendron://dendron.dendron-site/dendron.topic.lookup#basics,1]]
+
+2. #scope.structure
+
+![[dendron://dendron.dendron-site/dendron.topic.hierarchies#basics,1]]
+ 
+3.  #scope.common.markdown
+
+![[dendron://dendron.dendron-site/dendron.topic.markdown#basics,1:#*]]
+
+4.  #feature.asset-support
+
+![[dendron://dendron.dendron-site/dendron.topic.images#basics,1:#*]]
+
+5. #feature.backlinks
+
+![[dendron://dendron.dendron-site/dendron.topic.links#backlinks,1:#*]]
+
+6. #feature.wikilinks
+
+![[dendron://dendron.dendron-site/dendron.topic.links#wiki-links,1:#*]]
+
+7. #feature.link-to-files
+
+![[dendron://dendron.dendron-site/dendron.topic.links#file-links,1:#*]]
+
+8. #feature.templates
+
+![[dendron://dendron.dendron-site/dendron.topic.templates#basics,1]]
+
+9. #feature.daily-journal
+    
+![[dendron://dendron.dendron-site/dendron.topic.daily-journal-note#basics,1]]
+
+10. #feature.vscode
+
+![[dendron://dendron.dendron-site/dendron.topic.workbench#basics,1:#*]]
+
+11. #feature.vaults
+
+![[dendron://dendron.dendron-site/dendron.topic.vaults#basics,1:#*]]
+
+
+## Feature nodes (WIP)
+
 - #feature.daily-journal
 - #feature.easy-start
 - #feature.extension-conflicts
 - #feature.asset-support
+
+##  Extension scopes
+Since the basics scope only covers what a typical customer would do in two weeks, more functionality related to each vertical can be categorized under the following scopes: 
+- Lookup -> #scope.retrieve.note-lookup
+- Hierarchies -> #scope.structure
+- Markdown -> #scope.edit
+- Images -> #feature.asset-support
+- Links -> #scope.navigate
+- Note references -> #scope.retrieve (#feature.note-refs)
+- Templates -> #scope.structure (#feature.templates)
+- Workbench -> #scope.basics.workspace
+         
+

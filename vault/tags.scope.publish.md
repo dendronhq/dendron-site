@@ -19,3 +19,4 @@ Static site generation, sending note links and anything to do with publishing yo
   - #feature.mobile-optimization
   - #feature.seo
   - #feature.pwa
+  
