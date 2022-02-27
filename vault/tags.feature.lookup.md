@@ -7,8 +7,7 @@ created: 1643215679473
 airtableId: recZ8JWO8soa3pBxA
 ---
 
-## Basics
-    - Note creation
-    - Note retrieval
-## Advanced functionality
 
+## Documentation
+
+[[dendron.topic.lookup]]

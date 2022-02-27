@@ -2,7 +2,7 @@
 id: 861cbdf8-102e-4633-9933-1f3d74df53d2
 title: Templates
 desc: ""
-updated: 1643737816765
+updated: 1645931014514
 created: 1602033087611
 config:
   global:
@@ -36,5 +36,6 @@ We are continually working to expand the types of templates available in the `de
     - [[Schema Template|dendron://dendron.dendron-site/dendron.topic.templates.schema-template]]
 
 ## Basics
+
 - Create template
 - Insert template

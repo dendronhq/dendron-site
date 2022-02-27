@@ -2,7 +2,7 @@
 id: 6682fca0-65ed-402c-8634-94cd51463cc4
 title: Vaults
 desc: ''
-updated: 1641501358022
+updated: 1645931128753
 created: 1622841137387
 ---
 
@@ -28,6 +28,7 @@ By default, when you look for notes in Dendron, it will search over all vaults.
 
 - Add vault works
 - Remove vault works
+
 ## Commands
 
 ### Vault Add

@@ -11,20 +11,26 @@ Related to keeping notes in a structured, ordered fashion.
 
 
 ## Sub-scopes
+
 - #scope.structure.refactor
 - #scope.structure.schema
 - #scope.structure.note-types
 
 ## Examples
+
 - Fixing up broken links post-refactor
 
 ## Anti-examples
+
 - Copy note link (that should go in #scope.navigate)
 ## Feature nodes
+
 - #scope.structure.note-types #new
 	- #feature.tag
 	- #feature.templates
 	- #feature.todos
+	- #feature.daily-journal
 
 ## Documentation
+
 - [[dendron.topic.hierarchies]]

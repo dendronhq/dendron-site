@@ -38,9 +38,11 @@ A scope without any children
 ## Vertical Scopes
 
 ### Basics
+
 - #scope.basics
 
 ### Edit
+
 - #scope.edit
 - #scope.edit.note-preview
 
@@ -67,9 +69,11 @@ A scope without any children
 - #scope.sync.pod
 
 ### Publish
+
 - #scope.publish
 
 ## Collaboration
+
 - #scope.collab
 
 ### Extend

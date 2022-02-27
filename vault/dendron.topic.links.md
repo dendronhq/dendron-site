@@ -2,7 +2,7 @@
 id: 3472226a-ff3c-432d-bf5d-10926f39f6c2
 title: Links
 desc: ''
-updated: 1645208164226
+updated: 1645931599022
 created: 1595003088839
 ---
 
@@ -15,9 +15,11 @@ Dendron supports multiple types of links and formats.
 - links to `[local files](assets/think.pdf)` (eg. PDFs, PSDs, etc.)
 
 ## Basics
-- Backlinks
-- Wiki Links
-- File Links
+
+- Backlinks functional and show up in workbench
+- Wiki Links resolve to the correct note
+- File Links resolve to the correct file. 
+
 ## Concepts
 
 ### Note Files
@@ -122,3 +124,5 @@ Markdown links can be used for local files and stuff on the internet (websites, 
 ### Convert Link
 
 ![[dendron://dendron.dendron-site/dendron.topic.refactoring#convert-link,1:#*]]
+
+

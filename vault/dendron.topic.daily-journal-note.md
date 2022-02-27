@@ -2,7 +2,7 @@
 id: ogIUqY5VDCJP28G3cAJhd
 title: Daily Journal Note
 desc: ''
-updated: 1642008935019
+updated: 1645931024740
 created: 1641256835508
 ---
 
@@ -26,4 +26,5 @@ New daily journal notes can also be created, interactively, with [[Calendar View
 ![[dendron://dendron.dendron-site/asset.preview#create-daily-journal-from-calendar,1:#*]]
 
 ## Basics
+
 - Create note through command palette

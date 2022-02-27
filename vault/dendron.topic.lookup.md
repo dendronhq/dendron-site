@@ -2,7 +2,7 @@
 id: a7c3a810-28c8-4b47-96a6-8156b1524af3
 title: Lookup
 desc: ''
-updated: 1645812949709
+updated: 1645930916585
 created: 1595952505038
 stub: false
 ---
@@ -30,5 +30,6 @@ Scoring is explained [here](https://fusejs.io/concepts/scoring-theory.html).
 You can see the pseudo code for how fusejs integrates with lookup [[here|pkg.plugin-core.t.lookup.ref.note-lookup]].
 
 ## Basics
+
 - Note creation
 - Note retrieval

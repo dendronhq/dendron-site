@@ -2,7 +2,7 @@
 id: f7ebd4aa-8ba7-4bc5-bd00-a1efc5315f07
 title: Workbench
 desc: ''
-updated: 1641579000802
+updated: 1645931104257
 created: 1595170237255
 stub: false
 ---
@@ -176,6 +176,7 @@ This switch lets you toggle the [[horizontal|dendron://dendron.dendron-site/dend
 This switch lets you toggle the [[direct child only|dendron://dendron.dendron-site/dendron.topic.lookup.modifiers#directchildonly]] filter behavior for the currently active note lookup.
 
 ## Basics
+
 - Resize windows
 - Create window splits
 - Tree view 

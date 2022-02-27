@@ -2,11 +2,12 @@
 id: a91fd8da-6895-49fe-8164-a17acd8d9a17
 title: Images
 desc: ''
-updated: 1639537832456
+updated: 1645930991117
 created: 1595562035825
 stub: false
 ---
 ## Basics
+
 - Insert images
 - Resize images
 - Align images
