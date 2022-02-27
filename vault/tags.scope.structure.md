@@ -2,7 +2,7 @@
 id: le8mukn4RuMfZ8SxD0doj
 title: Structure
 desc: ''
-updated: 1645813094767
+updated: 1645935335659
 created: 1644724514813
 airtableId: recctrkafGKsa0IIt
 ---
@@ -25,12 +25,10 @@ Related to keeping notes in a structured, ordered fashion.
 - Copy note link (that should go in #scope.navigate)
 ## Feature nodes
 
-- #scope.structure.note-types #new
+- #feature.hierarchy
+- #scope.structure.note-types
 	- #feature.tag
 	- #feature.templates
 	- #feature.todos
 	- #feature.daily-journal
 
-## Documentation
-
-- [[dendron.topic.hierarchies]]

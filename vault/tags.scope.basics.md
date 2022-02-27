@@ -2,7 +2,7 @@
 id: CUEwuYsbutHeJJf6aKM3g
 title: Basics
 desc: 'VS Code workspace, vaults, intellisense/autocomplete, Dendron settings'
-updated: 1645932208315
+updated: 1645935600987
 created: 1632764333519
 airtableId: rectCR9AOy93xvWQh
 ---
@@ -22,17 +22,17 @@ VS Code workspace, vaults, intellisense/autocomplete, Dendron settings
 
 - #scope.basics.workspace
 
-## Functionalities
+## Features
 
 1. #feature.lookup
 
 ![[dendron://dendron.dendron-site/dendron.topic.lookup#basics,1]]
 
-2. #scope.structure
+2. #feature.hierarchy
 
 ![[dendron://dendron.dendron-site/dendron.topic.hierarchies#basics,1]]
  
-3.  #scope.common.markdown
+3.  #feature.markdown
 
 ![[dendron://dendron.dendron-site/dendron.topic.markdown#basics,1:#*]]
 
@@ -40,7 +40,7 @@ VS Code workspace, vaults, intellisense/autocomplete, Dendron settings
 
 ![[dendron://dendron.dendron-site/dendron.topic.images#basics,1:#*]]
 
-5 #feature.links
+5. #feature.links
 
 ![[dendron://dendron.dendron-site/dendron.topic.links#basics,1:#*]]
 
@@ -52,21 +52,13 @@ VS Code workspace, vaults, intellisense/autocomplete, Dendron settings
     
 ![[dendron://dendron.dendron-site/dendron.topic.daily-journal-note#basics,1]]
 
-10. #feature.vscode
+10. #feature.workbench
 
 ![[dendron://dendron.dendron-site/dendron.topic.workbench#basics,1:#*]]
 
 11. #feature.vaults
 
 ![[dendron://dendron.dendron-site/dendron.topic.vaults#basics,1:#*]]
-
-
-## Feature nodes (WIP)
-
-- #feature.daily-journal
-- #feature.easy-start
-- #feature.extension-conflicts
-- #feature.asset-support
 
 ##  Extension scopes
 Since the basics scope only covers what a typical customer would do in two weeks, more functionality related to each vertical can be categorized under the following scopes: 

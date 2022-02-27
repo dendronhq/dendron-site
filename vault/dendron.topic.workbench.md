@@ -2,7 +2,7 @@
 id: f7ebd4aa-8ba7-4bc5-bd00-a1efc5315f07
 title: Workbench
 desc: ''
-updated: 1645931104257
+updated: 1645935819250
 created: 1595170237255
 stub: false
 ---
@@ -179,9 +179,6 @@ This switch lets you toggle the [[direct child only|dendron://dendron.dendron-si
 
 - Resize windows
 - Create window splits
-- Tree view 
-- Backlinks
-
 
 <!-- TODO
 

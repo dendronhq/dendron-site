@@ -55,7 +55,7 @@ created: 1642207217318
 - #feature.stability
 - #feature.tags
 - #feature.templates
-- #feature.vscode
+- #feature.workbench
 - #feature.tree-view
 - #feature.vscode-remote-session
 - #feature.context-switching
