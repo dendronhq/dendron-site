@@ -2,21 +2,30 @@
 id: EKIsWI7XklGDWkRq7jpSi
 title: Feature
 desc: ''
-updated: 1645811779398
+updated: 1646057011270
 created: 1642207217318
 ---
 
 ## Index
 
+- #feature.lookup
+- #feature.hierarchy
+- #feature.markdown
 - #feature.asset-support
-- #feature.backlinks
+- #feature.links
+-   #feature.wikilinks
+-   #feature.link-to-files
+-   #feature.backlinks
+- #feature.templates
+- #feature.daily-journal
+- #feature.workbench
+- #feature.vaults
 - #feature.bugs
 - #feature.calendar
 - #feature.code-highlighting
 - #feature.community
 - #feature.complexity
 - #feature.extension-conflicts
-- #feature.daily-journal
 - #feature.development-pace
 - #feature.docs
 - #feature.docs.workflows
@@ -29,9 +38,6 @@ created: 1642207217318
 - #feature.images
 - #feature.import
 - #feature.instant-note-writing
-- #feature.link-to-files
-- #feature.markdown
-- #feature.lookup
 - #feature.math
 - #feature.mermaid
 - #feature.methodology
@@ -54,8 +60,6 @@ created: 1642207217318
 - #feature.refactoring
 - #feature.stability
 - #feature.tags
-- #feature.templates
-- #feature.workbench
 - #feature.tree-view
 - #feature.vscode-remote-session
 - #feature.context-switching
@@ -68,11 +72,9 @@ created: 1642207217318
 - #feature.ux
 - #feature.todos
 - #feature.video-examples
-- #feature.wikilinks
 
 - #benefit.flexibility
 - #benefit.data-portability
-- #benefit.hierarchy
 - #benefit.local-first
 - #benefit.multi-device
 - #benefit.no-lock-in
