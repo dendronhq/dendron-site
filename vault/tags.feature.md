@@ -2,12 +2,13 @@
 id: EKIsWI7XklGDWkRq7jpSi
 title: Feature
 desc: ''
-updated: 1646057011270
+updated: 1646057131945
 created: 1642207217318
 ---
 
 ## Index
 
+### Basics
 - #feature.lookup
 - #feature.hierarchy
 - #feature.markdown
@@ -20,6 +21,8 @@ created: 1642207217318
 - #feature.daily-journal
 - #feature.workbench
 - #feature.vaults
+
+### Advanced
 - #feature.bugs
 - #feature.calendar
 - #feature.code-highlighting
