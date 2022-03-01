@@ -2,10 +2,14 @@
 id: ba97866b-889f-4ac6-86e7-bb2d97f6e376
 title: Markdown
 desc: ''
-updated: 1646113771197
+updated: 1646119670104
 created: 1598673110284
 ---
 - Notice: all references of `MPE` in this guide is in reference to `Dendron Markdown Preview Enhanced`, the default Markdown renderer of Dendron
+
+## Summary
+
+Markdown is how you edit text in Dendron. It's a lightweight markup language. 
 
 
 ## Markdown Features

@@ -2,7 +2,7 @@
 id: QwIimdJmhOypbz7Mv0ZMo
 title: Feature Template Reference
 desc: 'describes the headers in [[Topic|dendron://dendron.dendron-site/templates.topic]]'
-updated: 1644277426103
+updated: 1646069283850
 created: 1643648373498
 ---
 
@@ -35,6 +35,11 @@ Concepts that relate particular topic.
 - example: [[Features|dendron://dendron.dendron-site/dendron.topic.pod-v2#features]]
 
 Specific features. Describes what they do. Each feature should be a `h3` heading
+
+### Basics
+Basic features are what you should be able to pick up within the first 10 minutes 
+
+### Advanced
 
 ## Commands
 VS Code specific commands if applicable

@@ -2,7 +2,7 @@
 id: 1MV8179GbxnfK3q76P19e
 title: Product Scopes
 desc: ''
-updated: 1645153647636
+updated: 1646074120455
 created: 1645153440338
 ---
 
@@ -10,36 +10,17 @@ created: 1645153440338
 
 Scopes track common areas of functionality in Dendron. 
 
-There are broadly speaking, two types of scopes:
-- vertical scopes track a specific area of functionality
-- horizontal scopes track a common property across multiple verticals
+Scopes are organized along two categorization schemes:
+- [[Horizontal Categorization|dendron://dendron.dendron-site/dendron.ref.scopes.concepts#horizontal-categorization]]: track a common, non-primary, trait across many domains
+- [[Vertical Categorization|dendron://dendron.dendron-site/dendron.ref.scopes.concepts#vertical-categorization]]: track a common primary trait in a given domain
 
-Some scopes have sub-scopes that go into more specific functionality. 
+- NOTE: Some scopes have sub-scopes that go into more specific functionality. 
 
 ## Concepts
 
-### Vertical Scopes
-
-Scopes that track a specific area of functionality
-
-### Horizontal Scopes
-
-Scopes that track a common property across multiple verticals
-
-### Top Level Scopes
-
-Direct children of #scope
-
-### Leaf Scopes
-
-A scope without any children
-
+![[dendron://dendron.dendron-site/dendron.ref.scopes.concepts]]
 
 ## Vertical Scopes
-
-### Basics
-
-- #scope.basics
 
 ### Edit
 
@@ -86,6 +67,7 @@ A scope without any children
 
 Horizontal scopes are tracked under #scope.common
 
+- #scope.basics
 - #scope.common.views
 - #scope.common.markdown
 - #scope.common.lookup
