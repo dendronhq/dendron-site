@@ -25,6 +25,10 @@ You can see the list of contributors [here](https://github.com/dendronhq/dendron
 
 ## Roles
 
+### Bug Catcher
+
+A **Bug Catcher** is a member who found a reproducible bug in Dendron.
+
 ### Dendrologist
 
 **Dendrologist** are active members of the Dendron community. They play a vital role in helping new members get started and setting best practices for Dendron and its community.
@@ -44,25 +48,21 @@ There are currently four levels of environmentalist plans:
 -   tree
 -   forest
 
+### Farmer
+
+A **Farmer** is a member who has contributed to Dendron-related tooling or Dendron-compatible projects.
+
 ### Horticulturalist
 
 A **Horticulturalist** is a member who contributed to the Dendron code base.
-
-### Taxonomist
-
-A **Taxonomist** is a member who improved the Dendron documentation.
 
 ### Planter
 
 A **Planter** is a member who published their notes using Dendron
 
-### Farmer
+### Scout
 
-A **Farmer** is a member who has contributed to Dendron-related tooling or Dendron-compatible projects.
-
-### Bug Catcher
-
-A **Bug Catcher** is a member who found a reproducible bug in Dendron.
+A **Scout** is a member who submitted at least one Dendron Reading Series suggestion that gets published. For information on community surveys: [Dendron Blog - Community Reports](https://blog.dendron.so/notes/j60ZNmx1IcdXtGZRdRb6X/).
 
 ### Seeder
 
@@ -71,3 +71,7 @@ A **Seeder** is a member who referred a fellow gardener to Dendron.
 ### Surveyor
 
 A **Surveyor** is a member who completed at least one Dendron survey. For information on community surveys: [Dendron Blog - Community Reports](https://blog.dendron.so/notes/j60ZNmx1IcdXtGZRdRb6X/).
+
+### Taxonomist
+
+A **Taxonomist** is a member who improved the Dendron documentation.
