@@ -58,6 +58,7 @@ created: 1646092796099
 - [[Daily Journal Note|dendron://dendron.dendron-site/dendron.topic.daily-journal-note]]
 - [[Block Anchors / References|dendron://dendron.dendron-site/dendron.topic.note-reference#block-anchor]]
 - [[Visualize Task Notes with Airtable|dendron://dendron.dendron-site/dendron.topic.pod-v2.tutorial.airtable-task-notes]]
+- [[Making Your First Schema with Journal Templates|dendron://dendron.dendron-site/dendron.topic.schema.tutorial.first-schema]]
 
 ## Resources
 
@@ -68,3 +69,13 @@ created: 1646092796099
 - [Taskwarrior](https://github.com/GothenburgBitFactory/taskwarrior) - CLI-based task management tool and TUI (Terminal User Interface).
 - [Focalboard](https://github.com/mattermost/focalboard) - Free Desktop app, or server-hosted, open source Trello-alternative.
 - [I have no capslock and I must scream](https://memex.marginalia.nu/log/48-i-have-no-capslock.gmi) - Article referenced
+- [SearchEditor in VS Code](https://code.visualstudio.com/updates/v1_43#_search-editors) - A way to create and save search files for VS Code using `Search Editor: *` commands.
+- [`sidebar-markdown-notes`](https://marketplace.visualstudio.com/items?itemName=assisrMatheus.sidebar-markdown-notes) - VS Code extension for creating a Markdown notes buffer as a sidebar view.
+
+### More from Kevin's workflow
+
+- [keybindings](https://gist.github.com/kevinslin/e849cbf3a13603fed8e4de5830b72209#file-keybindings-json)
+- [vscode settings](https://gist.github.com/kevinslin/e849cbf3a13603fed8e4de5830b72209#file-vscode-settings-json)
+- [kevin daily journal](https://gist.github.com/kevinslin/e849cbf3a13603fed8e4de5830b72209#file-user-kevin-temp-journal-md)
+- [weekly journal template](https://gist.github.com/kevinslin/e849cbf3a13603fed8e4de5830b72209#file-weekly-template-md)
+- [team daily user schema](https://gist.github.com/kevinslin/e849cbf3a13603fed8e4de5830b72209#file-user-schema-yml)
