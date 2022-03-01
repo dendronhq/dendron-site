@@ -73,6 +73,13 @@ If you publish your notes, this **will break the published links to your notes.*
 
 To change the scope of using this command (single note vs. workspace), remember to follow the notice in [[Dendron Doctor Details|dendron://dendron.dendron-site/dendron.topic.doctor#details]].
 
+### fixRemoteVaults
+
+If you have a [[remote vault|dendron.topic.vaults#remote-vault]] that is not correctly marked as such in the configuration, this action will fix your config file for you.
+
+- Command: `Dendron: Doctor`
+- Option: `fixRemoteVaults`
+
 ## CLI
 
 Doctor commands are also available via the CLI. Note that not all doctor commands are available in the CLI

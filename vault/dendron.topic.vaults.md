@@ -1,8 +1,8 @@
 ---
 id: 6682fca0-65ed-402c-8634-94cd51463cc4
 title: Vaults
-desc: ''
-updated: 1645765648838
+desc: ""
+updated: 1646117404331
 created: 1622841137387
 ---
 
@@ -79,10 +79,11 @@ vault using this command. Simply run the command and follow the prompts.
 ## Vault Sources
 
 When adding new vaults, your vault can come from either of the following sources:
-- local 
+
+- local
 - remote
 
-### Local 
+### Local
 
 A local vault is what you start off with. Its a vault that is local to your file system.
 
@@ -90,60 +91,67 @@ A local vault is what you start off with. Its a vault that is local to your file
 
 A remote vault is what you get when you run the [[Vault Add|dendron.ref.commands#vault-add]] command and select a remote vault. This is a vault that is cloned from a git repo. It should be a similar format as what you see below
 
-```yml 
+```yml
 vaults:
-    -
-        fsPath: dendron
-        remote:
-            type: git
-            url: 'git@github.com:dendronhq/dendron.git'
+  - fsPath: dendron
+    remote:
+      type: git
+      url: "git@github.com:dendronhq/dendron.git"
 ```
+
 ^NiCCqLjTG2nbM6Qi
 
-When someone pulls down a workspace with a `dendron.yml` that contains a remote vault, Dendron will automatically initialize the vault at the given `fsPath`. If the vault is a [[Workspace Vault|#workspace-vault]], Dendron will pull down the workspace to `{workspaceName}/fsPath`. 
+When someone pulls down a workspace with a `dendron.yml` that contains a remote vault, Dendron will automatically initialize the vault at the given `fsPath`. If the vault is a [[Workspace Vault|#workspace-vault]], Dendron will pull down the workspace to `{workspaceName}/fsPath`.
 
 If you put a vault in a git repository with a remote without using the [[Vault Convert|dendron.ref.commands#vault-convert]] command,
-then Dendron will automatically update the configuration for you during the next startup to set the remote configuration.
+then it will be missing the correct configuration.
+Dendron can fix the configuration for you with the [[fix remote vaults|dendron.topic.doctor#fixremotevaults]] doctor action.
 
 ## Vault Types
 
 ### Regular Vault
 
-A regular vault is what you get by default when you first initialize your workspace. 
+A regular vault is what you get by default when you first initialize your workspace.
 
 ### Workspace Vault
-A workspace vault is a vault that belongs to another [[workspace|dendron.topic.workspace]]. It is automatically created when you run [[Vault Add|dendron.topic.vaults#vault-add]] on a [[workspace|dendron.topic.workspace]]. Upon adding a workspace, Dendron will add all the vaults of the given workspace inside your `dendron.yml` 
+
+A workspace vault is a vault that belongs to another [[workspace|dendron.topic.workspace]]. It is automatically created when you run [[Vault Add|dendron.topic.vaults#vault-add]] on a [[workspace|dendron.topic.workspace]]. Upon adding a workspace, Dendron will add all the vaults of the given workspace inside your `dendron.yml`
 
 You can see an example of the configuration [[here|dendron.topic.vaults#remote-workspace-vault]].
 
 ## Configuration
 
 ### fsPath
+
 - file path to vault
 
 ### name
+
 - default: last component of `fsPath`
 
 vault name
 
 ### visibility
+
 - choices: "private|public"
 
-If set to private, notes in this vault will not be published regardless of any other configuration. This takes precedences over everything. 
+If set to private, notes in this vault will not be published regardless of any other configuration. This takes precedences over everything.
 
 ### workspace
+
 - required: false
 
 If set, specifies the workspace that this vault belongs
 
 ### remote
+
 - added property for [[remote vaults|#remote]]
 - properties
-    - type: currently only `git` is supported (in the future, we might add additional types)
-    - url: url to GitHub repo
-
+  - type: currently only `git` is supported (in the future, we might add additional types)
+  - url: url to GitHub repo
 
 ### sync
+
 - default: `sync`
 
 See [[workspace sync configuration options|dendron.topic.workspace#configuration-options]] for valid options.
@@ -156,7 +164,7 @@ Sets the [[synchronization strategy|dendron.topic.workspace#workspace-sync]] for
 
 ```yml
 vaults:
-    - fsPath: vault
+  - fsPath: vault
 ```
 
 This will have the following file layout
@@ -168,26 +176,26 @@ This will have the following file layout
 
 ```
 
-#### Remote Vault 
+#### Remote Vault
+
 ```yml
 vaults:
-    -
-        fsPath: dendron-vault
-        remote:
-            type: git
-            url: 'git@github.com:kevinslin/dendron-vault.git'
-        name: dendron
-        sync: sync
-    -
-        fsPath: yc-vault
-        remote:
-            type: git
-            url: 'git@github.com:kevinslin/yc-vault.git'
-        name: yc
-        sync: noPush
+  - fsPath: dendron-vault
+    remote:
+      type: git
+      url: "git@github.com:kevinslin/dendron-vault.git"
+    name: dendron
+    sync: sync
+  - fsPath: yc-vault
+    remote:
+      type: git
+      url: "git@github.com:kevinslin/yc-vault.git"
+    name: yc
+    sync: noPush
 ```
 
 This will have the following file layout
+
 ```
 .
 └── workspace
@@ -200,19 +208,18 @@ This will have the following file layout
 
 ```yml
 vaults:
-    -
-        fsPath: handbook
-        workspace: handbook-workspace
-        name: handbook
+  - fsPath: handbook
+    workspace: handbook-workspace
+    name: handbook
 workspaces:
-    handbook-workspace:
-        remote:
-            type: git
-            url: 'git@github.com:dendronhq/handbook.git'
-
+  handbook-workspace:
+    remote:
+      type: git
+      url: "git@github.com:dendronhq/handbook.git"
 ```
 
 This will have the following file layout
+
 ```
 .
 └── workspace

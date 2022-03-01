@@ -69,12 +69,10 @@ break the initialization. If that happens, we collect how many issues were
 fixed. This helps us learn if these automatic fixes are actually able to fix
 problems.
 
-|                Field | Attributes | Description                                                                          |
-| -------------------: | :--------: | ------------------------------------------------------------------------------------ |
-| `create root schema` |  _number_  | Number of vaults that had a root schema missing                                      |
-|   `create root note` |  _number_  | Number of vaults that had a root note missing                                        |
-|   `set remote vault` |  _number_  | Number of vaults that were in a remote repository, but weren't configured correctly  |
-
+|                Field | Attributes | Description                                     |
+| -------------------: | :--------: | ----------------------------------------------- |
+| `create root schema` |  _number_  | Number of vaults that had a root schema missing |
+|   `create root note` |  _number_  | Number of vaults that had a root note missing   |
 
 ### Configuration
 
