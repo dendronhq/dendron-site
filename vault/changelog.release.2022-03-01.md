@@ -2,7 +2,7 @@
 id: e56k4ih40ajj5wptx1ppae1
 title: '0.84'
 desc: ''
-updated: 1646114171055
+updated: 1646152951747
 created: 1646109207637
 ---
 
@@ -84,7 +84,34 @@ This week's entry in the [[Dendron Reading Series|dendron://dendron.dendron-site
 A big **thanks** to the following gardeners that brought up issues, contributions, and fixes to this release :man_farmer: :woman_farmer: 
 Visit [[Discord Roles|dendron://dendron.dendron-site/community.discord.roles]] for more information.
 
-#todo
+- [Kyle Tycholiz](https://github.com/Tycholiz) `@Tychronos#6624`
+  - #role.seeder 
+  - [add Kyle's public vault to showcase doc](https://github.com/dendronhq/dendron-site/pull/416)
+
+- [Flammehawk](https://github.com/flammehawk) `@fudo#1010`
+  - #role.horticulturalist 
+  - [fix(views): Code blocks and spans in preview are html encoded](https://github.com/dendronhq/dendron/pull/2471/files)
+  
+- [Ryan Hill](https://github.com/rlh1994) `@rlh1994#9754`
+  - [Publish pages in a non-published hierarchy](https://github.com/dendronhq/dendron/issues/2473)
+  
+- [Joshua Jeschek](https://github.com/joshuajeschek) `@vanitasboi#0252`
+  - [Katex not working in Publish](https://github.com/dendronhq/dendron/issues/2470)
+  
+- [Raffaello Fraboni](https://github.com/novelhawk)
+  - #role.bugcatcher
+  - [Katex fonts not included in extension](https://github.com/dendronhq/dendron/issues/2477)
+  
+- [Xanaxus](https://github.com/Xanaxus) `@Xanaus#9249`
+  - #role.bugcatcher
+  - [unable differentiate b/w the numbered sublist from the non-numbered sublist](https://github.com/dendronhq/dendron/issues/2481)
+  
+- [Callum Mcdonald](https://github.com/chmac) `@chmac#2931`
+  - [Exact match (=) searches in lookup don't work](https://github.com/dendronhq/dendron/issues/2485)
+
+- [Gander7](https://github.com/Gander7) `@Gander7#5328`
+  - #role.bugcatcher
+  - [Parent Note not auto updated after a child is created](https://github.com/dendronhq/dendron/issues/2489)
 
 ## Changelog
 ![[changelog#0840,1:#0830]]
