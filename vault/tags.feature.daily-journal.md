@@ -2,7 +2,7 @@
 id: 9cu7TDfMFf6YxMIF7wALW
 title: Daily Journal
 desc: ''
-updated: 1646113879203
+updated: 1646154811793
 created: 1639677731848
 airtableId: recczMnfTKQZX2Bu8
 ---
@@ -12,4 +12,4 @@ airtableId: recczMnfTKQZX2Bu8
 
 ## Basics
 
-- Create note through command palette
+- Create note through command palette/keyboard shortcut

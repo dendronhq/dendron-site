@@ -2,7 +2,7 @@
 id: v23z6C51ZghcBheA9UAkT
 title: Templates
 desc: ''
-updated: 1646113863225
+updated: 1646154788979
 created: 1642037853376
 airtableId: recp8owyBBanDWgy6
 ---
@@ -13,4 +13,5 @@ airtableId: recp8owyBBanDWgy6
 ## Basics
 
 - Create template
-- Insert template
+- Manually insert template (‘Insert Note’ command)
+- Auto-insert template using schemas

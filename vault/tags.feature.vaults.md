@@ -2,7 +2,7 @@
 id: xSa04jHJUzOXscV0bvRlD
 title: Vaults
 desc: ''
-updated: 1646113925051
+updated: 1646155069613
 created: 1645245539360
 ---
 ## Documentation
@@ -11,5 +11,4 @@ created: 1645245539360
 
 ## Basics
 
-- Add vault works
-- Remove vault works
+- Open vault
