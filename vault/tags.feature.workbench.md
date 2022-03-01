@@ -1,10 +1,10 @@
 ---
 id: FNXbNZ24dIT4xLBc1F6Mz
 title: Workbench
-desc: ''
-updated: 1646154907621
+desc: 'Refers to the Dendron Workbench i.e. VS Code workbench'
+updated: 1646158274297
 created: 1643216242194
-airtableId: recgunflvqOgykx5k
+airtableId: recuabq2HK5mGeMn7
 ---
 
 Refers to the Dendron Workbench i.e. VS Code workbench
