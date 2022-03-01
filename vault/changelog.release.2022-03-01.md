@@ -2,7 +2,7 @@
 id: e56k4ih40ajj5wptx1ppae1
 title: '0.84'
 desc: ''
-updated: 1646113905856
+updated: 1646114171055
 created: 1646109207637
 ---
 
@@ -32,7 +32,6 @@ Pod V2 Preview features continue growing: `dendron exportPodV2` is now available
 ## Community
 
 ### General Updates
-<!-- TODO: Delete this section if not appliacble -->
 
 - **Share articles with the Dendron Community:** Have you stumbled upon articles you'd like to share with the community? The [[Dendron Reading Series is accepting submissions|community.events.reading-series#submissions]], and it can be how you earn a shiny [[Scout|community.discord.roles#scout]] badge in the Discord!
 - **Dendron on Mastodon:** Dendron can now be followed on [Fosstodon](https://fosstodon.org/@dendronhq), a federated [Mastodon](https://joinmastodon.org/) server, where we will be sending toots. You read that right, I said toots! Join this alternative to Twitter, where open source is front and center at Fosstodon.
@@ -45,7 +44,7 @@ Pod V2 Preview features continue growing: `dendron exportPodV2` is now available
 - **Hangout with the Dendron team:** Our event calendar keeps on growing! Join us during [Community Teatime](https://link.dendron.so/luma) where we drink tea, eat food, and hangout. These will now appear in the [[Event Reminders|changelog.release.2022-03-01#event-reminders]] section each week.
 
 ### Starboard and TIL Highlights
-<!-- TODO: update links. Delete section is no new items-->
+
 > These are highlights from the [[Dendron Discord|dendron://dendron.dendron-site/community.discord.channels]] `#starboard` and `#today-i-learned` channels.
 
 - 💡 `seadude#7058` shared a link on [How to reduce image on Stack Overflow](https://meta.stackoverflow.com/questions/253403/how-to-reduce-image-size-on-stack-overflow): _"TIL that you can add a single 'size designator' character to control image size for images uploaded to StackOverflow."_
