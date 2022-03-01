@@ -2,7 +2,7 @@
 id: 4q80h4fvcic3pgmav73dqc9
 title: Links
 desc: ''
-updated: 1645934101956
+updated: 1646113844339
 created: 1645934101956
 ---
 
@@ -15,3 +15,9 @@ created: 1645934101956
 ## Documentation
 
 [[dendron.topic.links]]
+
+## Basics
+
+- Backlinks functional and show up in workbench
+- Wiki Links resolve to the correct note
+- File Links resolve to the correct file. 

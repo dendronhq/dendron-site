@@ -2,7 +2,7 @@
 id: 6682fca0-65ed-402c-8634-94cd51463cc4
 title: Vaults
 desc: ''
-updated: 1645931128753
+updated: 1646113917543
 created: 1622841137387
 ---
 
@@ -23,11 +23,6 @@ Your workspace is made up of one or more **vaults**. A Dendron vault stores a co
 ```
 
 By default, when you look for notes in Dendron, it will search over all vaults.
-
-## Basics
-
-- Add vault works
-- Remove vault works
 
 ## Commands
 
