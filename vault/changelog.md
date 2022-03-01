@@ -2,10 +2,29 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1645551755948
+updated: 1646109134796
 created: 1601508213606
 nav_order: 2
 ---
+
+## 0.84.0
+
+### Features
+- feat(pods): support pods v2 in CLI ([[docs|dendron://dendron.dendron-site/dendron.topic.pod-v2.cli]]) (#2402) @joshi
+
+### Enhancements
+- enhance(views): separate tag configuration for preview and publish ([[docs|dendron://dendron.dendron-site/dendron.ref.config.preview]]) (#2460) @hikchoi
+- enhance(views): faster image preview by using native vscode webview urls (#2432) @kaan
+- enhance(views): faster webviews by reducing engine sync operations (#2472) @jonathan
+
+### Fix
+- fix(schema): Apply schema template for goto-note-command if template is in different vault (#2429) @tuling
+- fix(publish): Table of Contents is missing user tags, inline code, dashes and underlines (#2465) @kaan
+- fix(workspace): dendron can hang when trying to provide hover for large non-dendron file (#2457)  @kevin
+- fix(views): clicking preview links for non-note files (#2455) @kaan
+- fix(views): Code blocks and spans in preview are html encoded (#2471) [flammehawk](https://github.com/flammehawk)
+- fix(workspace): don't call reload index if action is findIncompatibleExtension (#2458) @hikchoi
+- fix(views): don't refresh tree view if note visible (#2487) @hikchoi
 
 ## 0.83.0
 

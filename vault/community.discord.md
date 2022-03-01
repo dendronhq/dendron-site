@@ -2,7 +2,7 @@
 id: bjhsGLyqME7QcNV6GueUb
 title: Discord
 desc: ''
-updated: 1642721497339
+updated: 1646112778596
 created: 1640809069591
 ---
 
@@ -33,23 +33,23 @@ Some links to check out when you have time:
 
 We are absolutely thrilled to have you here. Below are some good channels to get started in:
 
-![[community.discord.channels#intros:#*]]
+![[dendron://dendron.dendron-site/community.discord.channels#intros:#*]]
 
-![[community.discord.channels#questions:#*]]
+![[dendron://dendron.dendron-site/community.discord.channels#questions:#*]]
 
-![[community.discord.channels#chat:#*]]
+![[dendron://dendron.dendron-site/community.discord.channels#chat:#*]]
 
 ## Onboarding
 
-![[dendron.case-studies.onboarding]]
+![[dendron://dendron.dendron-site/dendron.case-studies.onboarding]]
 
 ## Resource links
 
-- [[dendron.tutorial]]
+- [[dendron://dendron.dendron-site/dendron.tutorial]]
 - [Dendron homepage](https://dendron.so/)
 - [GitHub Discussions](https://github.com/dendronhq/dendron/discussions)
 - [[Dendron Public Roadmap|dendron://dendron.dendron-site/dendron.roadmap]]
-- [[dendron.guides.workflows.amoeba]]: A typical Dendron Workflow for taking notes
+- [[dendron://dendron.dendron-site/dendron.guides.workflows.amoeba]]: A typical Dendron Workflow for taking notes
 - Submit a feature request](https://github.com/dendronhq/dendron/issues/new?assignees=&labels=&template=feature_request.md&title=
 - [Submit a bug report](https://github.com/dendronhq/dendron/issues/new?assignees=&labels=&template=bug_report.md&title=)
 - [Dendron user documentation](https://wiki.dendron.so/)
