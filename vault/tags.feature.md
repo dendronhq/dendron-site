@@ -2,7 +2,7 @@
 id: EKIsWI7XklGDWkRq7jpSi
 title: Feature
 desc: ''
-updated: 1646057131945
+updated: 1646245803600
 created: 1642207217318
 ---
 
@@ -21,71 +21,82 @@ created: 1642207217318
 - #feature.daily-journal
 - #feature.workbench
 - #feature.vaults
+- #feature.easy-start
 
 ### Advanced
-- #feature.bugs
-- #feature.calendar
+
+#### Common
+- #feature.outlining
+#### Edit
 - #feature.code-highlighting
-- #feature.community
-- #feature.complexity
-- #feature.extension-conflicts
-- #feature.development-pace
-- #feature.docs
-- #feature.docs.workflows
-- #feature.docs.tutorials
-- #feature.e2e-encryption
-- #feature.easy-start
-- #feature.export
-- #feature.goto-note
-- #feature.graph
 - #feature.images
-- #feature.import
-- #feature.instant-note-writing
 - #feature.math
 - #feature.mermaid
-- #feature.methodology
-- #feature.multi-vault
-- #feature.node-types
-- #feature.note
-- #feature.null
-- #feature.open-app-links
-- #feature.oneoff.finding-the-workspace
-- #benefit.open-source
-- #feature.other
-- #feature.outlining
-- #feature.preview
-- #feature.publishing
-- #feature.publishing.i18n
-- #feature.publishing-customization
-- #feature.publishing.full-text-search
-- #feature.queries
-- #feature.pod-integrations
-- #feature.refactoring
-- #feature.stability
-- #feature.tags
+
+#### Retrieve
+- #feature.file-refs
+
+#### Navigate
+
+- #feature.calendar
+- #feature.goto-note
+- #feature.graph
+- #feature.backlinks
 - #feature.tree-view
+
+#### Structure
+- #feature.refactor
+- #feature.multi-vault
+	- #feature.scratch-notes
+	- #feature.tag
+	- #feature.templates
+	- #feature.todos
+#### Sync
+- #feature.pod-integrations
+- #feature.import
+- #feature.export
+#### Publish
+  - #feature.i18n
+  - #feature.publishing-customization
+  - #feature.full-text-search
+  - #feature.accessibility
+  - #feature.mobile-optimization
+  - #feature.seo
+  - #feature.pwa
+  
+
+
+#### Collaboration
+
+#### Extend
+#### Growth
+- #feature.community
+
+#### ETC
+
+- #feature.queries
+- #feature.open-app-links
+- #feature.extension-conflicts
 - #feature.vscode-remote-session
-- #feature.context-switching
-- #feature.discovery
-- #feature.reference-handling
-- #feature.schema
-- #feature.scripting
-- #feature.search
-- #feature.speed
-- #feature.ux
-- #feature.todos
-- #feature.video-examples
+- #feature.other
 
-- #benefit.flexibility
-- #benefit.data-portability
-- #benefit.local-first
-- #benefit.multi-device
-- #benefit.no-lock-in
-- #benefit.rebinding
+## Notes
 
-- #ask.directory-hierarchy
-- #ask.mobile
-- #ask.collaboration
-- #ask.standalone-app
-- #ask.web-client
-- #ask.wyswg
+### Deleted from Airtable
+- feature.bugs
+- feature.complexity
+- feature.development-pace
+- feature.instant-note-writing
+- feature.methodology
+- feature.node-types
+- feature.null
+- feature.oneoff
+- feature.publishing
+- feature.stability
+- feature.docs
+- feature.note
+
+### Pending Airtable deletion
+
+Need to figure out what to do with this feature, lots of linked issues
+- #feature.preview

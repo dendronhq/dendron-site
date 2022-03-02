@@ -2,7 +2,7 @@
 id: CUEwuYsbutHeJJf6aKM3g
 title: Basics
 desc: 'VS Code workspace, vaults, intellisense/autocomplete, Dendron settings'
-updated: 1646113986585
+updated: 1646242122716
 created: 1632764333519
 airtableId: rectCR9AOy93xvWQh
 ---
@@ -33,6 +33,7 @@ VS Code workspace, vaults, intellisense/autocomplete, Dendron settings
 9. #feature.daily-journal
 10.#feature.workbench
 11.#feature.vaults
+
 ##  Extension scopes
 Since the basics scope only covers what a typical customer would do in two weeks, more functionality related to each vertical can be categorized under the following scopes: 
 
