@@ -2,7 +2,7 @@
 id: CUEwuYsbutHeJJf6aKM3g
 title: Basics
 desc: 'VS Code workspace, vaults, intellisense/autocomplete, Dendron settings'
-updated: 1646242122716
+updated: 1646272436654
 created: 1632764333519
 airtableId: rectCR9AOy93xvWQh
 ---
@@ -40,10 +40,5 @@ Since the basics scope only covers what a typical customer would do in two weeks
 - Lookup -> #scope.retrieve.note-lookup
 - Hierarchies -> #scope.structure
 - Markdown -> #scope.edit
-- Images -> #feature.asset-support
 - Links -> #scope.navigate
 - Note references -> #scope.retrieve (#feature.note-refs)
-- Templates -> #scope.structure (#feature.templates)
-- Workbench -> #scope
-         
-
