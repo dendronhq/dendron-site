@@ -2,7 +2,7 @@
 id: HUFx2Yjyw8klA7l0KLYoZ
 title: Edit
 desc: About the VS Code editing experience
-updated: 1645461259033
+updated: 1645935222371
 created: 1639633464112
 airtableId: reco9ZYB6M2OEYwsD
 ---
@@ -20,3 +20,4 @@ airtableId: reco9ZYB6M2OEYwsD
 - #feature.code-highlighting
 - #feature.math
 - #feature.mermaid
+- #feature.asset-support

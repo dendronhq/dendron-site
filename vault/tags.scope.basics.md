@@ -2,7 +2,7 @@
 id: CUEwuYsbutHeJJf6aKM3g
 title: Basics
 desc: 'VS Code workspace, vaults, intellisense/autocomplete, Dendron settings'
-updated: 1645636794111
+updated: 1646242122716
 created: 1632764333519
 airtableId: rectCR9AOy93xvWQh
 ---
@@ -19,56 +19,24 @@ VS Code workspace, vaults, intellisense/autocomplete, Dendron settings
 - remote vault add
 
 ## Sub-scopes
+
 - #scope.basics.workspace
 
 ## Features
 
-1. Lookup
-    - Note creation
-    - Note retrieval
-2. Hierarchies
-    - 1,2 and 3 depth nodes can be created in a hierarchy. 
-    - Create a note within a note
-3.  Markdown
-    - Create different levels of headers
-    - Create bulleted/numbered lists
-    - Add links/images
-    - Create task lists
-    - Tabulate information
-    - Add-In Footnotes
-4.  Images
-    - Insert images
-    - Resize images
-    - Align images
-    - Outline images
-5. Links
-    - Link between Notes
-    - Include Wikilinks in note
-    - Add link to external files  
-6. Template
-    - Create template
-    - Insert template 
-7. Journals
-    - Create note through command palette
-    - Calendar view 
-8. Workbench
-    - Resize windows
-    - Tree view 
-    - Backlinks
-9. Vaults
-    - Add vault works
-    - Remove vault works
-
-
-## Feature nodes (WIP)
-
-- #feature.daily-journal
-- #feature.easy-start
-- #feature.extension-conflicts
-- #feature.asset-support
+1. #feature.lookup
+2. #feature.hierarchy
+3. #feature.markdown
+4. #feature.asset-support
+5. #feature.links
+8. #feature.templates
+9. #feature.daily-journal
+10.#feature.workbench
+11.#feature.vaults
 
 ##  Extension scopes
 Since the basics scope only covers what a typical customer would do in two weeks, more functionality related to each vertical can be categorized under the following scopes: 
+
 - Lookup -> #scope.retrieve.note-lookup
 - Hierarchies -> #scope.structure
 - Markdown -> #scope.edit
@@ -76,6 +44,6 @@ Since the basics scope only covers what a typical customer would do in two weeks
 - Links -> #scope.navigate
 - Note references -> #scope.retrieve (#feature.note-refs)
 - Templates -> #scope.structure (#feature.templates)
-- Workbench -> #scope.basics.workspace
+- Workbench -> #scope
          
 

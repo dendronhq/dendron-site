@@ -2,7 +2,7 @@
 id: DC0XJBdzxmuuLPzuIfFvk
 title: Navigate
 desc: Relating to navigating between notes
-updated: 1645523778809
+updated: 1645931455212
 created: 1639016411150
 airtableId: rechaazgsu6ER3oUp
 ---
@@ -14,18 +14,20 @@ See [[Navigating|dendron://dendron.dendron-site/dendron.user-guide.navigating]]
 ## Sub-scopes
 
 ## Examples
+
 - Navigating between wikilinks
 - Graph visualizations
 - Copying note links
 
 
 ## Anti-examples
+
 - Fixing up broken links post-refactor (should go to #scope.structure)
 
 ## Feature nodes
+
+	- #feature.links
 	- #feature.tree-view
-	- #feature.backlinks
-	- #feature.wikilinks
 	- #feature.goto-note
 	- #feature.graph
 	- #feature.calendar

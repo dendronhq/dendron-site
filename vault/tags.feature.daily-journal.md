@@ -2,8 +2,14 @@
 id: 9cu7TDfMFf6YxMIF7wALW
 title: Daily Journal
 desc: ''
-updated: 1642562867345
+updated: 1646154811793
 created: 1639677731848
 airtableId: recczMnfTKQZX2Bu8
 ---
+## Documentation 
 
+[[dendron.topic.daily-journal-note]]
+
+## Basics
+
+- Create note through command palette/keyboard shortcut

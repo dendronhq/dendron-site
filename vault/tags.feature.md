@@ -2,84 +2,101 @@
 id: EKIsWI7XklGDWkRq7jpSi
 title: Feature
 desc: ''
-updated: 1643983245805
+updated: 1646245803600
 created: 1642207217318
 ---
 
 ## Index
 
-- #feature.asset-support
-- #feature.backlinks
-- #feature.bugs
-- #feature.calendar
-- #feature.code-highlighting
-- #ask.collaboration
-- #feature.community
-- #feature.complexity
-- #feature.extension-conflicts
-- #feature.daily-journal
-- #benefit.data-portability
-- #feature.development-pace
-- #feature.docs
-- #feature.docs.workflows
-- #feature.docs.tutorials
-- #feature.e2e-encryption
-- #feature.easy-start
-- #feature.export
-- #benefit.flexibility
-- #feature.goto-note
-- #feature.graph
-- #benefit.hierarchy
-- #feature.images
-- #feature.import
-- #feature.instant-note-writing
-- #feature.link-to-files
-- #benefit.local-first
+### Basics
 - #feature.lookup
+- #feature.hierarchy
 - #feature.markdown
+- #feature.asset-support
+- #feature.links
+-   #feature.wikilinks
+-   #feature.link-to-files
+-   #feature.backlinks
+- #feature.templates
+- #feature.daily-journal
+- #feature.workbench
+- #feature.vaults
+- #feature.easy-start
+
+### Advanced
+
+#### Common
+- #feature.outlining
+#### Edit
+- #feature.code-highlighting
+- #feature.images
 - #feature.math
 - #feature.mermaid
-- #feature.methodology
-- #ask.mobile
-- #benefit.multi-device
-- #feature.multi-vault
-- #benefit.no-lock-in
-- #feature.node-types
-- #feature.note
-- #feature.null
-- #ask.directory-hierarchy
-- #feature.oneoff.finding-the-workspace
-- #feature.open-app-links
-- #benefit.open-source
-- #feature.other
-- #feature.outlining
-- #feature.pod-integrations
-- #feature.preview
-- #feature.publishing
-- #feature.publishing.i18n
-- #feature.publishing-customization
-- #feature.publishing.full-text-search
-- #feature.queries
-- #benefit.rebinding
-- #feature.refactoring
-- #feature.stability
-- #ask.standalone-app
-- #feature.tags
-- #feature.templates
-- #feature.todos
-- #feature.vscode
+
+#### Retrieve
+- #feature.file-refs
+
+#### Navigate
+
+- #feature.calendar
+- #feature.goto-note
+- #feature.graph
+- #feature.backlinks
 - #feature.tree-view
+
+#### Structure
+- #feature.refactor
+- #feature.multi-vault
+	- #feature.scratch-notes
+	- #feature.tag
+	- #feature.templates
+	- #feature.todos
+#### Sync
+- #feature.pod-integrations
+- #feature.import
+- #feature.export
+#### Publish
+  - #feature.i18n
+  - #feature.publishing-customization
+  - #feature.full-text-search
+  - #feature.accessibility
+  - #feature.mobile-optimization
+  - #feature.seo
+  - #feature.pwa
+  
+
+
+#### Collaboration
+
+#### Extend
+#### Growth
+- #feature.community
+
+#### ETC
+
+- #feature.queries
+- #feature.open-app-links
+- #feature.extension-conflicts
 - #feature.vscode-remote-session
-- #ask.web-client
-- #ask.wyswg
-- #feature.context-switching
-- #feature.discovery
-- #feature.reference-handling
-- #feature.schema
-- #feature.scripting
-- #feature.search
-- #feature.speed
+- #feature.other
 
-- #feature.ux
-- #feature.video-examples
+## Notes
 
+### Deleted from Airtable
+- feature.bugs
+- feature.complexity
+- feature.development-pace
+- feature.instant-note-writing
+- feature.methodology
+- feature.node-types
+- feature.null
+- feature.oneoff
+- feature.publishing
+- feature.stability
+- feature.docs
+- feature.note
+
+### Pending Airtable deletion
+
+Need to figure out what to do with this feature, lots of linked issues
+- #feature.preview

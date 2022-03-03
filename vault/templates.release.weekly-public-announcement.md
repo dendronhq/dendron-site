@@ -2,7 +2,7 @@
 id: 1ec8d588-7c8a-47a2-b79e-1dd02d10b600
 title: Weekly Public Announcement
 desc: ''
-updated: 1645491261234
+updated: 1646111245018
 created: 1622484182130
 ---
 
@@ -36,13 +36,15 @@ This week's entry in the [[Dendron Reading Series|dendron://dendron.dendron-site
 - **Greenhouse Talks:** Visit the [[Greenhouse Talks|dendron://dendron.dendron-site/community.events.greenhouse]] for notes from previous sessions.
     - Subject: _Getting Things Done (GTD) and Other Task-Management Workflows (with Dendron!)_
     - Description: _Interested speakers from the community will take 5 - 10 minutes each to present their workflows for managing actionable information, followed by an open discussion. The event will be recorded and later published online._
-    - Next: [Fri, Feb 25, 4:00 PM PST / 00:00 UTC](https://link.dendron.so/luma)
+    - Next: [Fri, Feb 25, 04:00 PM PST / 00:00 UTC](https://link.dendron.so/luma)
     - [Greenhouse Talk Recordings - YouTube Playlist](https://link.dendron.so/greenhouse)
 - **Office Hours:** Visit the [[Office Hours page|dendron://dendron.dendron-site/community.events.office-hours]] for notes from previous sessions.
-    - Next: [Wed, Mar 02, 9:00 AM - 9:30 AM PST](https://link.dendron.so/luma)
+    - Next: [Wed, Mar 02, 09:00 AM PST / 17:00 UTC](https://link.dendron.so/luma)
     - [Office Hour Recordings - YouTube Playlist](https://link.dendron.so/6yPa)
+- **Community Teatime:** Drink tea, eat food, and hangout with the Dendron crew!
+    - Next: [Thu, Mar 03, 11:00 AM PST / 19:00 UTC](https://link.dendron.so/luma)
 - **New User Tuesdays:** Visit the [[New User Tuesdays page|dendron://dendron.dendron-site/community.events.new-user-tuesdays]] for notes from previous sessions.
-    - Next: [Tue, Mar 08, 8:30 AM - 9:00 AM PST](https://link.dendron.so/luma)
+    - Next: [Tue, Mar 08, 8:30 AM PST / 16:30 UTC](https://link.dendron.so/luma)
 
 ### Thank You's
 

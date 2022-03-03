@@ -74,3 +74,12 @@ For more showcases being shared by the community, visit the `#showcase` channel 
 
 ![image](https://user-images.githubusercontent.com/1484475/152729122-6c18e4e5-4fb5-4b84-95ed-0dff46ca0c24.png)
 
+### Kyle's digital garden
+
+- homepage: <https://tech.kyletycholiz.com/>
+- discord: `Tychronos#6624`
+- topics: technology
+
+<img width="1131" alt="image" src="https://user-images.githubusercontent.com/39745457/155426018-3618048b-89ef-474f-b55e-2d47114af2ba.png">
+
+

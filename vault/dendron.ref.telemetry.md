@@ -15,7 +15,7 @@ This page describes the overall telemetry approach for Dendron, what kind of dat
 
 ## Why does Dendron collect metrics?
 
-Telemetry helps us better understand _how many users_ are using our products and _how often_ they are using our products. Unlike many telemetry services, our telemetry implementation is intentionally **limited in scope**.
+Telemetry helps us better understand _how many users_ are using our products and _how often_ they are using our products.
 
 We use telemetry to answer the following questions:
 
@@ -32,18 +32,24 @@ Dendron will **never** collect data inside your notes. We believe that your pers
 
 The below is a collection of common fields that are collected
 
-|         Field | Attributes | Description                                                              |
-| ------------: | :--------: | ------------------------------------------------------------------------ |
-|         `app` |  _string_  | Currently installed version of the product (e.g. `1.0.0-rc0`)            |
-|  `ideVersion` |  _string_  | Currently installed version of the IDE (e.g. `1.0.0-rc0`)                |
-|   `userAgent` |  _string_  | The specific IDE in question(e.g. `VSCodium`)                            |
-|        `arch` |  _string_  | Client's operating system architecture (e.g. `amd64`).                   |
-|          `os` |  _string_  | Client's operating system (e.g. `darwin`).                               |
-| `nodeVersion` |  _string_  | Client's node version (e.g. `v12.12.0`).                                 |
-| `anonymousId` |  _string_  | Random, non-identifiable signature nanoID (e.g. `JC6NXxDa0lDFD1Mu7U2Ga`) |
-|   `timestamp` |  _string_  | When the request was made                                                |
-|  `appVersion` |  _string_  | Version of currently installed Dendron plugin                            |
-|  `cliVersion` |  _string_  | Version of currently installed Dendron CLI                               |
+|                Field | Attributes | Description                                                              |
+| -------------------: | :--------: | ------------------------------------------------------------------------ |
+|                `app` |  _string_  | Currently installed version of the product (e.g. `1.0.0-rc0`)            |
+|         `ideVersion` |  _string_  | Currently installed version of the IDE (e.g. `1.0.0-rc0`)                |
+|          `userAgent` |  _string_  | The specific IDE in question(e.g. `VSCodium`)                            |
+|               `arch` |  _string_  | Client's operating system architecture (e.g. `amd64`).                   |
+|                 `os` |  _string_  | Client's operating system (e.g. `darwin`).                               |
+|        `nodeVersion` |  _string_  | Client's node version (e.g. `v12.12.0`).                                 |
+|        `anonymousId` |  _string_  | Random, non-identifiable signature nanoID (e.g. `JC6NXxDa0lDFD1Mu7U2Ga`) |
+|          `timestamp` |  _string_  | When the request was made                                                |
+|         `appVersion` |  _string_  | Version of currently installed Dendron plugin                            |
+|         `cliVersion` |  _string_  | Version of currently installed Dendron CLI                               |
+|    `isNewAppInstall` | _boolean_  | response from vscode.env.isNewAppInstall                                 |
+| `isTelemetryEnabled` | _boolean_  | response from vscode.env.isTelemetryEnabled                              |
+|           `language` |  _string_  | response from vscode.env.language                                        |
+|          `machineId` |  _string_  | response from vscode.env.machineId                                       |
+|              `shell` |  _string_  | response from vscode.env.shell                                           |
+|          `sessionId` |  _number_  | response from vscode.env.sessionId                                       |
 
 ## When is data collected?
 
@@ -172,6 +178,7 @@ We collect an invocation metric when a [[commands|dendron.ref.commands]] is invo
 | `duration` |  _number_  | How long did it take to execute this command |
 
 #### Lookup commands
+
 For commands that utilize the core lookup module, we additionally collect the state of the lookup modifiers when the user accepts as well as on manual button triggers.
 
 |     Field | Attributes | Description                                   |
@@ -181,13 +188,13 @@ For commands that utilize the core lookup module, we additionally collect the st
 | `pressed` | _boolean_  | What is the state of the button after toggle? |
 
 #### Copy Note Link
+
 For the Copy Note Link command, we also collect some information to understand where it is used the most.
 
-|     Field    | Attributes | Description                                     |
-| -----------: | :--------: | ----------------------------------------------- |
-|    `type`    |  _string_  | What type of file was this, a note or non-note? |
+|        Field | Attributes | Description                                                         |
+| -----------: | :--------: | ------------------------------------------------------------------- |
+|       `type` |  _string_  | What type of file was this, a note or non-note?                     |
 | `anchorType` |  _string_  | If an anchor was created, what type was it? Block, header, or line? |
-
 
 ### CLI commands
 
@@ -253,8 +260,6 @@ When telemetry is disabled or enabled, we collect information about the event to
 | `reason` |   _enum_   | Why telemetry was disabled. See values [here](https://github.com/dendronhq/dendron/blob/master/packages/common-server/src/analytics.ts#L73:L73) |
 
 ## How to opt out of data collection
-
-If you've disabled telemetry from the [Visual Studio Code Telemetry setting](https://code.visualstudio.com/docs/getstarted/telemetry), no further action is needed. You can set this option in your workspace settings, or user settings.
 
 To disable telemetry in Dendron specifically, run the [[Disable Telemetry|dendron.ref.commands#disable-telemetry]] command.
 You can also disable telemetry using the cli by using the [[disable_telemetry|etc.cli#disable_telemetry]] command.

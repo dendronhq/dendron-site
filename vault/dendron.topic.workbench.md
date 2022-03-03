@@ -2,7 +2,7 @@
 id: f7ebd4aa-8ba7-4bc5-bd00-a1efc5315f07
 title: Workbench
 desc: ''
-updated: 1641579000802
+updated: 1646113890634
 created: 1595170237255
 stub: false
 ---
@@ -174,10 +174,6 @@ This switch lets you toggle the [[horizontal|dendron://dendron.dendron-site/dend
 
 ### Apply Direct Child Filter
 This switch lets you toggle the [[direct child only|dendron://dendron.dendron-site/dendron.topic.lookup.modifiers#directchildonly]] filter behavior for the currently active note lookup.
-
-
-
-
 
 <!-- TODO
 

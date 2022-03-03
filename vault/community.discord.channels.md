@@ -2,7 +2,7 @@
 id: PIPLLg61HYfjK361B9Jm6
 title: Channels
 desc: ''
-updated: 1644345157214
+updated: 1645737865991
 created: 1640809094657
 ---
 
@@ -20,7 +20,9 @@ If you'd like to connect with folks with similar goals for note taking, the easi
 
 ```markdown
 :earth_asia: where you're based
-:smiley_cat: one fun fact about you!
+:briefcase:  what you do
+:map: how you found out about dendron
+:head_bandage: biggest challenge with note taking
 :call_me: things you're interested in being messaged about
 :bird: a link to your social media
 ```
