@@ -148,4 +148,8 @@ If wanting to further restrict access to your Azure Static Web Apps:
 
 [Read the docs](https://docs.microsoft.com/en-us/azure/static-web-apps/authentication-authorization?tabs=invitations#roles) for more information on RBAC in Azure Static Web Apps.
 
+## Upgrading
+
+![[dendron://dendron.dendron-site/dendron.topic.publish.cook.common#upgrading,1:#*]]
+
 ### Congratulations, you just published your notes 🌱

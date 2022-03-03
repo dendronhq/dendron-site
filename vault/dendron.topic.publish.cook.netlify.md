@@ -153,7 +153,11 @@ If the workspace requires notes from remote vaults, then they need to be added t
 
 The Netlify documentation covers this in [Repository Permissions and Linking: Access other repositories at build](https://docs.netlify.com/configure-builds/repo-permissions-linking/#access-other-repositories-at-build). More information is available in [Netlify Support Guide: How do I access private repositories in the build environment?](https://answers.netlify.com/t/support-guide-how-do-i-access-private-repositories-in-the-build-environment/723)
 
-### Related
+## Upgrading
+
+![[dendron://dendron.dendron-site/dendron.topic.publish.cook.common#upgrading,1:#*]]
+
+## Related
 
 - [Netlify Docs: Get started with build configuration](https://docs.netlify.com/)
 - [Netlify Docs: Custom domains](https://docs.netlify.com/domains-https/custom-domains/)

@@ -1,9 +1,9 @@
 ---
 id: kuq3eyaorex6swauqc8a1g8
 title: >-
-    '22 - Spaced repetition: a hack to make your brain store information'
+    22 - Spaced repetition: a hack to make your brain store information
 desc: ''
-updated: 1646113888163
+updated: 1646156825053
 created: 1646112646075
 ---
 
