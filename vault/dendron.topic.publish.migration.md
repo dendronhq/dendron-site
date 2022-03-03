@@ -2,7 +2,7 @@
 id: rYbs1qLh9VJBXCJlSzMt4
 title: Migration
 desc: ''
-updated: 1646267468228
+updated: 1646332526178
 created: 1632351743935
 ---
 
@@ -44,7 +44,7 @@ Migrate a config to the target version.
 
 ```bash
 # Example
-dendron dev run_migration --migrationVersion=0.84.0
+dendron dev run_migration --migrationVersion=0.83.0
 ```
 
 ### Upgrading from Leagacy 11ty
