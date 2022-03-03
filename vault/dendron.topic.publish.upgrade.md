@@ -6,7 +6,7 @@ updated: 1637714523949
 created: 1637714364533
 ---
 
-In order to uupgrade to the latest version of publishing, make sure to run the following.
+In order to upgrade to the latest version of publishing, make sure to run the following.
 
 1. Navigate to your workspace
     ```sh

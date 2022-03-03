@@ -171,4 +171,8 @@ site:
 
 - NOTE: When using custom domain names, `assetsPrefix` isn't required like it otherwise would be with GitHub Pages. Remove `assetsPrefix` if it is present in your `dendron.yml`, otherwise the website may not load as expected.
 
+## Upgrading
+
+![[dendron://dendron.dendron-site/dendron.topic.publish.cook.common#upgrading,1:#*]]
+
 ## Congratulations, you just published your first note 🌱

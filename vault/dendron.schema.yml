@@ -49,6 +49,8 @@ schemas:
     - pattern: "*"
       title: feature
       desc: Sub feature of this given feature
+    - pattern: cli
+      desc: CLI commands for this feature
 - id: template
   template:
     id: dendron.template.example

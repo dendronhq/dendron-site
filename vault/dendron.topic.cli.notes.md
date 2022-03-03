@@ -36,7 +36,7 @@ Options:
 
 Options
 
-- for common options, see [[common options|dendron.ref.cli#common-options]]
+- for common options, see [[common options|dendron.topic.cli.quickstart#common-options]]
 - `--output`: controls how note is formatted
     - values: `json|md_gfm|md_dendron`
         - json: JSON output
