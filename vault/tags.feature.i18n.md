@@ -1,7 +1,9 @@
 ---
-id: l28v57gmf74lgpwy4pxuilo
+id: p9ZkFpachspEODQSX1YJI
 title: I18n
 desc: ''
-updated: 1646243475730
-created: 1646243448302
+updated: 1641400436483
+created: 1641400436483
+airtableId: recsoTj9G4ByCXTOF
 ---
+

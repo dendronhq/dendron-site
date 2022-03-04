@@ -1,6 +1,6 @@
 ---
 id: WZV4gZatdlH345dXJQGWV
-title: Publishing Customization
+title: Customization
 desc: ''
 updated: 1643424160020
 created: 1643424158633

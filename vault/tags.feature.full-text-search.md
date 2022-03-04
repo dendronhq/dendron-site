@@ -1,8 +1,9 @@
 ---
-id: 87r58jw3mybyp78lvctdvvk
+id: CuwdFWEQxlD5ntz9zqjBo
 title: Full Text Search
 desc: ''
-updated: 1646243479704
-created: 1646243479704
+updated: 1643524818026
+created: 1643524818026
+airtableId: rec8IteLOcT8Mci2A
 ---
 

@@ -2,10 +2,11 @@
 id: EKIsWI7XklGDWkRq7jpSi
 title: Feature
 desc: ''
-updated: 1646245803600
+updated: 1646413469552
 created: 1642207217318
 ---
 
+The Scope to Feature mapping is maintained [[on airtable (##groupBy: Scope)|dendron://private/s.airtable.ref.base.users.features#groupbyscope]].
 ## Index
 
 ### Basics
@@ -17,6 +18,7 @@ created: 1642207217318
 #### Common.Markdown
 
 ![[dendron://dendron.dendron-site/tags.scope.common.markdown#features,1]]
+
 #### Edit
 
 ![[dendron://dendron.dendron-site/tags.scope.edit#features,1]]
@@ -31,6 +33,8 @@ created: 1642207217318
 #### Structure
 
 ![[dendron://dendron.dendron-site/tags.scope.structure#features,1]]
+![[dendron://dendron.dendron-site/tags.scope.structure.refactor#features,1]]
+![[dendron://dendron.dendron-site/tags.scope.structure.schema#features,1]]
 
 #### Structure.note-types
 
@@ -49,6 +53,7 @@ created: 1642207217318
 #### Extend
 
 #### Extend.CLI
+
 ![[dendron://dendron.dendron-site/tags.scope.extend.cli#features,1]]
 
 #### Growth
@@ -57,23 +62,3 @@ created: 1642207217318
 
 ![[dendron://dendron.dendron-site/tags.scope.etc#features,1]]
 
-## Notes
-
-### Deleted from Airtable
-- feature.bugs
-- feature.complexity
-- feature.development-pace
-- feature.instant-note-writing
-- feature.methodology
-- feature.node-types
-- feature.null
-- feature.oneoff
-- feature.publishing
-- feature.stability
-- feature.docs
-- feature.note
-
-### Pending Airtable deletion
-
-Need to figure out what to do with this feature, lots of linked issues
-- #feature.preview

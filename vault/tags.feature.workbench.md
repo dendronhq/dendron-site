@@ -14,6 +14,7 @@ Refers to the Dendron Workbench i.e. VS Code workbench
 [[dendron.topic.workbench]]
 
 ## Sub-features
+
 - #feature.workbench-dendron
 - #feature.workbench-vscode
 ## Basics
