@@ -122,7 +122,7 @@ These are properties related to SEO of the published site.
   - [[twitter|dendron.topic.publish.config.seo.twitter]]
   - [[image|dendron.topic.publish.config.seo.image]]
 
-## GitHib properties
+## GitHub properties
 These are properties related to GitHub.
 
 - [[github|dendron.topic.publish.config.github]]
