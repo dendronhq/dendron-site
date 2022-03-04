@@ -8,8 +8,10 @@ airtableId: recAOCcldKtOHkuhy
 ---
 
 Encompasses the various note-types in Dendron to help people structure their notes. 
-## Feature nodes
+## Features
 
-	- #feature.tag
-	- #feature.templates
-	- #feature.todos
+- #feature.tag
+- #feature.templates
+- #feature.todos
+- #feature.scratch-notes
+- #feature.daily-journal

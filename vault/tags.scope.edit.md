@@ -16,8 +16,10 @@ airtableId: reco9ZYB6M2OEYwsD
 - A new view in VS Code (should be #scope.common.views)
 
 
-## Feature nodes
+## Features
+
 - #feature.code-highlighting
 - #feature.math
 - #feature.mermaid
 - #feature.asset-support
+- #feature.images

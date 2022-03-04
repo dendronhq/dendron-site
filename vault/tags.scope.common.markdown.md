@@ -13,7 +13,7 @@ Relating to Markdown features.
 
 - new language syntax
 
-## Feature nodes
+## Features
 
 - #feature.outlining
 - #feature.markdown

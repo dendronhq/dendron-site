@@ -9,76 +9,53 @@ created: 1642207217318
 ## Index
 
 ### Basics
-- #feature.lookup
-- #feature.hierarchy
-- #feature.markdown
-- #feature.asset-support
-- #feature.links
--   #feature.wikilinks
--   #feature.link-to-files
--   #feature.backlinks
-- #feature.templates
-- #feature.daily-journal
-- #feature.workbench
-- #feature.vaults
-- #feature.easy-start
+
+![[dendron://dendron.dendron-site/tags.scope.basics#features,1:#*]]
 
 ### Advanced
 
-#### Common
-- #feature.outlining
+#### Common.Markdown
+
+![[dendron://dendron.dendron-site/tags.scope.common.markdown#features,1]]
 #### Edit
-- #feature.code-highlighting
-- #feature.images
-- #feature.math
-- #feature.mermaid
+
+![[dendron://dendron.dendron-site/tags.scope.edit#features,1]]
 
 #### Retrieve
-- #feature.file-refs
+
+![[dendron://dendron.dendron-site/tags.scope.retrieve#features,1]]
 
 #### Navigate
 
-- #feature.calendar
-- #feature.goto-note
-- #feature.graph
-- #feature.backlinks
-- #feature.tree-view
-
+![[dendron://dendron.dendron-site/tags.scope.navigate#features,1]]
 #### Structure
-- #feature.refactor
-- #feature.multi-vault
-	- #feature.scratch-notes
-	- #feature.tag
-	- #feature.templates
-	- #feature.todos
-#### Sync
-- #feature.pod-integrations
-- #feature.import
-- #feature.export
+
+![[dendron://dendron.dendron-site/tags.scope.structure#features,1]]
+
+#### Structure.note-types
+
+![[dendron://dendron.dendron-site/tags.scope.structure.note-types#features,1]]
+
+#### Sync.pod
+
+![[dendron://dendron.dendron-site/tags.scope.sync.pod#features,1]]
+
 #### Publish
-  - #feature.i18n
-  - #feature.publishing-customization
-  - #feature.full-text-search
-  - #feature.accessibility
-  - #feature.mobile-optimization
-  - #feature.seo
-  - #feature.pwa
+
+![[dendron://dendron.dendron-site/tags.scope.publish#features,1]]
   
-
-
 #### Collaboration
 
 #### Extend
+
+#### Extend.CLI
+![[dendron://dendron.dendron-site/tags.scope.extend.cli#features,1]]
+
 #### Growth
-- #feature.community
 
 #### ETC
 
-- #feature.queries
-- #feature.open-app-links
-- #feature.extension-conflicts
-- #feature.vscode-remote-session
-- #feature.other
+![[dendron://dendron.dendron-site/tags.scope.etc#features,1]]
 
 ## Notes
 

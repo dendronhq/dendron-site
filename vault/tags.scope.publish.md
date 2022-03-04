@@ -11,9 +11,10 @@ airtableId: recjakOtXmNySHA3L
 
 Static site generation, sending note links and anything to do with publishing your notes.
 
-## Feature nodes
+## Features
+
   - #feature.i18n
-  - #feature.customization
+  - #feature.publishing-customization
   - #feature.full-text-search
   - #feature.accessibility
   - #feature.mobile-optimization

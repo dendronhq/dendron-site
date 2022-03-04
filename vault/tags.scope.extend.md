@@ -18,7 +18,6 @@ See [[Extending|dendron://dendron.dendron-site/dendron.user-guide.extending]]
 - Writing a custom script run on Dendron load. 
 ## Anti-examples
 
-## Feature nodes
+## Features
 
-- #benefit.rebinding
 

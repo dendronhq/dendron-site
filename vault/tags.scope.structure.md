@@ -23,12 +23,9 @@ Related to keeping notes in a structured, ordered fashion.
 ## Anti-examples
 
 - Copy note link (that should go in #scope.navigate)
-## Feature nodes
+
+## Features
 
 - #feature.hierarchy
-- #scope.structure.note-types
-	- #feature.tag
-	- #feature.templates
-	- #feature.todos
-	- #feature.daily-journal
+- #feature.multi-vault
 

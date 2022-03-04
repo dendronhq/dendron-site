@@ -39,9 +39,9 @@ Scopes are organized along two categorization schemes:
 ### Structure
 
 - #scope.structure
+- #scope.structure.note-types
 - #scope.structure.refactor
 - #scope.structure.schema
-- #scope.structure.note-types
 
 ### Sync
 

@@ -19,6 +19,7 @@ Area of Dendron related to retrieval of notes. Any feature that helps a customer
 ## Anti-examples
 - Schema, that would be #scope.structure.schema
 
-## Feature nodes
-	- #feature.note-refs
-	- #feature.file-refs
+## Features
+
+- #feature.note-refs
+- #feature.file-refs

@@ -9,9 +9,10 @@ airtableId: rec1PASZ8fWmzjGJA
 
 Grab bag of features that don't fit neatly into the other Dendron scopes. Or something that is not assigned yet. 
 
-## Feature nodes
-	- #feature.instant-note-writing
-	- #feature.link-to-files
-	- #feature.queries
-	- #feature.vscode
-	- #feature.vscode-remote-session
+## Features
+
+- #feature.queries
+- #feature.open-app-links
+- #feature.extension-conflicts
+- #feature.vscode-remote-session
+- #feature.other

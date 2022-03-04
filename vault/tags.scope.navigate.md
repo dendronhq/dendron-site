@@ -24,10 +24,10 @@ See [[Navigating|dendron://dendron.dendron-site/dendron.user-guide.navigating]]
 
 - Fixing up broken links post-refactor (should go to #scope.structure)
 
-## Feature nodes
+## Features
 
-	- #feature.links
-	- #feature.tree-view
-	- #feature.goto-note
-	- #feature.graph
-	- #feature.calendar
+- #feature.links
+- #feature.tree-view
+- #feature.goto-note
+- #feature.graph
+- #feature.calendar
