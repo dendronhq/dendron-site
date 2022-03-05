@@ -141,7 +141,7 @@ Dendron operates completely on local data and is able serve your notes to you wi
 
 ## Local-first
 
-Did we mention we're local first? We'll never send your notes off your system unless you want to explicitly. We also have easy guides for syncing with GitHub or you can always use your own service (Dropbox, Onedrive) to sync your notes wherever you want. Because you own your data.
+Did we mention we're local first? We'll never send your notes off your system unless you want to explicitly. We also have easy guides for syncing with GitHub or you can always use your own service (Dropbox, Onedrive, Nextcloud...) to sync your notes wherever you want. Because you own your data.
 
 ## Extensible and open-source
 
