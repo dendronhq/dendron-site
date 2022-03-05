@@ -2,7 +2,7 @@
 id: fabYbPyk3DMCMoG92lIrq
 title: Config
 desc: 'Configuration namespace that holds all Dendron Publishing related settings.'
-updated: 1645182877105
+updated: 1646440481478
 created: 1637772506823
 config:
   global:
@@ -21,6 +21,7 @@ publishing:
   siteIndex:
   siteHierarchies:
   hierarchy:
+  enableBackLinks:
   enableFMTitle:
   enablePrettyRefs:
   enableSiteLastModified:
@@ -60,6 +61,12 @@ publishing:
 
 > Please note that the properties listed below are not strictly categorized by namespace, but by what they do. Use the namespace described in the summary section of this note to reference the actual organization of these properties.
 
+## Property Reference
+
+Configuration properties have the following fields
+
+![[dendron://dendron.dendron-site/templates.topic.config.property.ref]]
+
 ## Site properties
 These are properties related to how and where the site is being published, as well as what part of your workspace is being published.
 
@@ -75,6 +82,7 @@ These are properties related to how and where the site is being published, as we
 These are properties related to togglable behaviors when the site is being published.
 
 ### Related to Dendron features
+- [[enableBackLinks|dendron://dendron.dendron-site/dendron.topic.publish.config.enableBackLinks]]
 - [[enableFMTitle|dendron.topic.publish.config.enableFMTitle]]
 - [[enablePrettyRefs|dendron.topic.publish.config.enablePrettyRefs]]
 - [[enableSiteLastModified|dendron.topic.publish.config.enableSiteLastModified]]
