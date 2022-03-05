@@ -17,7 +17,7 @@ Bullet journalling is a way of quickly getting your thoughts down for the day. I
 
 ### Create Daily Journal Notes Command
 
-![[dendron.topic.special-notes#daily-journal,1:#*]]
+![[dendron.topic.special-notes#journal-note,1:#*]]
 
 ### Schema Templates
 
