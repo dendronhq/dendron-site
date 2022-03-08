@@ -2,7 +2,7 @@
 id: CUEwuYsbutHeJJf6aKM3g
 title: Basics
 desc: 'VS Code workspace, vaults, intellisense/autocomplete, Dendron settings'
-updated: 1646410459202
+updated: 1646585786428
 created: 1632764333519
 airtableId: rectCR9AOy93xvWQh
 ---
