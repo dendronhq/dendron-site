@@ -2,7 +2,7 @@
 id: buq00kb185zpm8sqa9jozj2
 title: '0.85'
 desc: ''
-updated: 1646759757462
+updated: 1646759922803
 created: 1646706808485
 ---
 
@@ -30,11 +30,6 @@ A variety of fixes in this release, along with a new `Dendron: Doctor` command: 
 - fix(views): fix race condition in tree view v2 initialization logic
 
 ## Community
-
-### General Updates
-
-#todo
-
 ### Starboard and TIL Highlights
 
 > These are highlights from the [[Dendron Discord|dendron://dendron.dendron-site/community.discord.channels]] `#starboard` and `#today-i-learned` channels.
