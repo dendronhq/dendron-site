@@ -2,7 +2,7 @@
 id: buq00kb185zpm8sqa9jozj2
 title: '0.85'
 desc: ''
-updated: 1646709857036
+updated: 1646759757462
 created: 1646706808485
 ---
 
@@ -15,10 +15,9 @@ A variety of fixes in this release, along with a new `Dendron: Doctor` command: 
 - More information: [[fixRemoteVaults|dendron://dendron.dendron-site/dendron.topic.doctor#fixremotevaults]]
 
 ## Highlights
-- enhance(workspace): doctor command, `fixRemoteVaults`, to fix remote vaults that don't have a remote set
-- enhance(workspace): auto fix vaults that have missing root files
-- enhance(publish): static tree menu
-- enhance(views): faster loading of markdown due to parsing improvements
+- enhance(workspace): add new doctor command, `fixRemoteVaults`, to fix remote vaults that don't have a remote set ([[docs|dendron://dendron.dendron-site/dendron.topic.doctor#fixremotevaults]]) (#2484) 
+- enhance(publish): faster first load by reducing size of the tree menu (#2379) 
+- enhance(views): faster loading of markdown due to parsing improvements (#2505) 
 
 ## Everything Else
 - fix(publish): properly render mermaid and katex when published
@@ -69,7 +68,27 @@ This week's entry in the [[Dendron Reading Series|dendron://dendron.dendron-site
 A big **thanks** to the following gardeners that brought up issues, contributions, and fixes to this release :man_farmer: :woman_farmer: 
 Visit [[Discord Roles|dendron://dendron.dendron-site/community.discord.roles]] for more information.
 
-#todo
+- [jgmpjgmp](https://github.com/jgmpjgmp)
+    - #role.bugcatcher
+    - [Tree View is Empty](https://github.com/dendronhq/dendron/issues/2534)
+    
+- [Jirawut Thongraar](https://github.com/Non-J) `@no_n1e#8561`
+    - #role.bugcatcher
+    - [Reference anchor shows up the in preview](https://github.com/dendronhq/dendron/issues/2531)
+    
+- [Jody Foo](https://github.com/fnurl)
+    - #role.bugcatcher
+    - [Unable to View Full Graph](https://github.com/dendronhq/dendron/issues/2522)
+
+#### Surveyors
+A huge thanks to the following Dendronites that provided feedback in the [2022 Dendron User Survey](https://link.dendron.so/74EI). If you would like to help us improve Dendron, please checkout the survey (and earn a shiny [[Surveyor|dendron://dendron.dendron-site/community.discord.roles#surveyor]] Discord badge in the process)!
+- `@JBonilla1#9017`
+- `@Juan_SA#2594`
+- `@mavemob#6890`
+- `@bomboloni#7545`
+- `@RzLnx88#1569`
+- `@vicrerdgz#9278`
+- `@mikhail#3816`
 
 ## Changelog
 ![[changelog#0850,1:#0840]]

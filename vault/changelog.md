@@ -2,7 +2,7 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1646710131376
+updated: 1646756983720
 created: 1601508213606
 nav_order: 2
 ---
@@ -10,9 +10,8 @@ nav_order: 2
 ## 0.85.0
 
 ### Enhancements
-- enhance(workspace): doctor command, `fixRemoteVaults`, to fix remote vaults that don't have a remote set ([[docs|dendron://dendron.dendron-site/dendron.topic.doctor#fixremotevaults]]) (#2484) @kaan
-- enhance(workspace): auto fix vaults that have missing root files (#2484) @jonathan
-- enhance(publish): static tree menu (#2379) @eleweek
+- enhance(workspace): add new doctor command, `fixRemoteVaults`, to fix remote vaults that don't have a remote set ([[docs|dendron://dendron.dendron-site/dendron.topic.doctor#fixremotevaults]]) (#2484) @kaan
+- enhance(publish): faster first load by reducing size of the tree menu (#2379) @eleweek
 - enhance(views): faster loading of markdown due to parsing improvements (#2505) @jonathan
 
 ### Fix
