@@ -2,23 +2,19 @@
 id: buq00kb185zpm8sqa9jozj2
 title: '0.85'
 desc: ''
-updated: 1646709857036
+updated: 1646766413670
 created: 1646706808485
 ---
 
 Dendron 0.85 has sprouted  🌱
 
-Speed improvements in Markdown.
+Speed improvements across how we parse markdown links and publishing - you should notice a snappier workspace and faster first page loads across you published sites.
 
-A variety of fixes in this release, along with a new `Dendron: Doctor` command: `fixRemoteVaults`. This command can assist in properly marking remote vaults in your `dendron.yml` configuration, if they are misconfigured.
-
-- More information: [[fixRemoteVaults|dendron://dendron.dendron-site/dendron.topic.doctor#fixremotevaults]]
-
+This week also features a slew of bug fixes across multiple areas.
 ## Highlights
-- enhance(workspace): doctor command, `fixRemoteVaults`, to fix remote vaults that don't have a remote set
-- enhance(workspace): auto fix vaults that have missing root files
-- enhance(publish): static tree menu
-- enhance(views): faster loading of markdown due to parsing improvements
+- enhance(workspace): doctor command, `fixRemoteVaults`, to fix remote vaults that don't have a remote set ([[docs|dendron://dendron.dendron-site/dendron.topic.doctor#fixremotevaults]]) (#2484) 
+- enhance(publish): published pages have faster first load due to optimizations to the tree menu (#2379) 
+- enhance(views): faster loading of markdown due to parsing improvements (#2505) 
 
 ## Everything Else
 - fix(publish): properly render mermaid and katex when published
@@ -31,11 +27,6 @@ A variety of fixes in this release, along with a new `Dendron: Doctor` command: 
 - fix(views): fix race condition in tree view v2 initialization logic
 
 ## Community
-
-### General Updates
-
-#todo
-
 ### Starboard and TIL Highlights
 
 > These are highlights from the [[Dendron Discord|dendron://dendron.dendron-site/community.discord.channels]] `#starboard` and `#today-i-learned` channels.
@@ -69,7 +60,33 @@ This week's entry in the [[Dendron Reading Series|dendron://dendron.dendron-site
 A big **thanks** to the following gardeners that brought up issues, contributions, and fixes to this release :man_farmer: :woman_farmer: 
 Visit [[Discord Roles|dendron://dendron.dendron-site/community.discord.roles]] for more information.
 
-#todo
+## Community
+- [jgmpjgmp](https://github.com/jgmpjgmp)
+    - #role.bugcatcher
+    - [Tree View is Empty](https://github.com/dendronhq/dendron/issues/2534)
+    
+- [Jirawut Thongraar](https://github.com/Non-J) `@no_n1e#8561`
+    - #role.bugcatcher
+    - [Reference anchor shows up the in preview](https://github.com/dendronhq/dendron/issues/2531)
+    
+- [Jody Foo](https://github.com/fnurl)
+    - #role.bugcatcher
+    - [Unable to View Full Graph](https://github.com/dendronhq/dendron/issues/2522)
+
+#### Surveyors
+
+A huge thanks to the following Dendronites that provided feedback in the [2022 Dendron User Survey](https://link.dendron.so/74EI). If you would like to help us improve Dendron, please checkout the survey (and earn a shiny [[Surveyor|dendron://dendron.dendron-site/community.discord.roles#surveyor]] Discord badge in the process)!
+- `@JBonilla1#9017`
+- `@Juan_SA#2594`
+- `@mavemob#6890`
+- `@bomboloni#7545`
+- `@RzLnx88#1569`
+- `@vicrerdgz#9278`
+- `@mikhail#3816`
+
+
+
+
 
 ## Changelog
 ![[changelog#0850,1:#0840]]
