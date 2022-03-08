@@ -2,10 +2,28 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1646109134796
+updated: 1646710131376
 created: 1601508213606
 nav_order: 2
 ---
+
+## 0.85.0
+
+### Enhancements
+- enhance(workspace): doctor command, `fixRemoteVaults`, to fix remote vaults that don't have a remote set ([[docs|dendron://dendron.dendron-site/dendron.topic.doctor#fixremotevaults]]) (#2484) @kaan
+- enhance(workspace): auto fix vaults that have missing root files (#2484) @jonathan
+- enhance(publish): static tree menu (#2379) @eleweek
+- enhance(views): faster loading of markdown due to parsing improvements (#2505) @jonathan
+
+### Fix
+- fix(publish): properly render mermaid and katex when published (#2480) @hikchoi
+- fix(lookup): add selection2link button for CreateScratchNoteCommand (#2496)  @hikchoi
+- fix(pods): fix issue with url links not showing up when using markdown export inside a note reference (#2486) @joshi
+- fix(vaults): sometimes see same vault multiple times in vault dropdown (#2501) @tuling
+- fix(internal): some edge cases when deleting a note that interferred with tree view and refactoring @hikchoi
+- fix(cli): add omitted migration entries (#2519) @hikchoi
+- fix(workspace): add validation for enableFrontmatterTags and enableHashesForFMTags (#2524) @hikchoi
+- fix(views): fix race condition in tree view v2 initialization logic (#2528) @jonathan
 
 ## 0.84.0
 
