@@ -2,7 +2,7 @@
 id: bjhsGLyqME7QcNV6GueUb
 title: Discord
 desc: ''
-updated: 1646112778596
+updated: 1646861382215
 created: 1640809069591
 ---
 
@@ -34,6 +34,8 @@ Some links to check out when you have time:
 We are absolutely thrilled to have you here. Below are some good channels to get started in:
 
 ![[dendron://dendron.dendron-site/community.discord.channels#intros:#*]]
+
+![[dendron://dendron.dendron-site/community.discord.channels#roles,1:#*]]
 
 ![[dendron://dendron.dendron-site/community.discord.channels#questions:#*]]
 
