@@ -2,7 +2,7 @@
 id: c5e5adde-5459-409b-b34d-a0d75cbb1052
 title: Schemas
 desc: ''
-updated: 1645166295598
+updated: 1646850700688
 created: 1595952505039
 stub: false
 ---
@@ -175,6 +175,10 @@ foo.bar.one #match
 #### id
 
 the identifier of the schema. also designates the glob pattern match. this is the **only** required part of a schema. all other fields are optional
+
+#### title
+
+This value shows up in the lookup bar, if you have it in your schema configuration file, instead of just showing the pattern value. The `title` is also applied within the [[Schema Graph View|dendron://dendron.dendron-site/dendron.topic.graph-view#schema-graph]].
 
 #### desc
 
