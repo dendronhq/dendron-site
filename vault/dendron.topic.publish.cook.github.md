@@ -2,7 +2,7 @@
 id: yg3EL1x9fEe4NMqxUC3jP
 title: GitHub Pages
 desc: ''
-updated: 1646863833579
+updated: 1646864660018
 created: 1631132196609
 ---
 
@@ -22,7 +22,7 @@ Before continuing: **we do not recommend this path for publishing.** If possible
 
 - You have [[Dendron CLI|dendron.ref.cli]] installed (version `0.84.0` or greater)
 
-![[dendron://dendron.dendron-site/dendron.topic.publish.cook.github-action#why,1:#*]]
+![[Local directory|dendron://dendron.dendron-site/dendron.topic.cli#installation:#common-options]]
 
 ## Example Deployments
 You can see deployed examples of these instructions in the following repositories.
