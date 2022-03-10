@@ -15,7 +15,7 @@ Sometimes, you'll see a `status` underneath certain features or options. This pa
 	- [[Work In Progress 🚧|dendron._ref.status#work-in-progress-]]
 	- [[Early Seed 🌱|dendron._ref.status#early-seed-]]
 - existing features
-	- [[Experimental 🧪|dendron._ref.status#experimental-🧪]]
+	- [[Experimental 🧪|dendron._ref.status#experimental-]]
 	- [[Next Phase ⏩|dendron._ref.status#next-phase-]]
 	- [[Pruning ✂️|dendron._ref.status#pruning-️]]
 

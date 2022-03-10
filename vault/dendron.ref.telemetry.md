@@ -59,14 +59,16 @@ Data is collected in scenarios that are described below.
 
 When Dendron initializes, we collect data about on initialization time. This helps us measure the performance impact of changes that run before startup as well as improvements to our indexing performance over time.
 
-|                  Field | Attributes | Description                                                         |
-| ---------------------: | :--------: | ------------------------------------------------------------------- |
-|             `duration` |  _number_  | Number of seconds for startup                                       |
-|             `numNotes` |  _number_  | Number of notes across all vaults (rounded to the nearest 10 notes) |
-|            `numVaults` |  _number_  | Number of vaults in workspace                                       |
-|            `noCaching` | _boolean_  | Check whether caching is disabled                                   |
-|        `workspaceType` |  _string_  | The type of Dendron workspace.                                      |
-| `codeWorkspacePresent` | _boolean_  | Whether a `dendron.code-workspace` file was present                 |
+|                        Field | Attributes | Description                                                                                                                   |
+| ---------------------------: | :--------: | ----------------------------------------------------------------------------------------------------------------------------- |
+|                   `duration` |  _number_  | Number of seconds for startup                                                                                                 |
+|                   `numNotes` |  _number_  | Number of notes across all vaults (rounded to the nearest 10 notes)                                                           |
+|                  `numVaults` |  _number_  | Number of vaults in workspace                                                                                                 |
+|                  `noCaching` | _boolean_  | Check whether caching is disabled                                                                                             |
+|              `workspaceType` |  _string_  | The type of Dendron workspace.                                                                                                |
+|       `codeWorkspacePresent` | _boolean_  | Whether a `dendron.code-workspace` file was present                                                                           |
+| `selfContainedVaultsEnabled` | _boolean_  | `true` if the experimental [self contained vaults](https://wiki.dendron.so/notes/o4i7a81j778jyh7wql0nacb/) feature is enabled |
+|     `numSelfContainedVaults` |  _number_  | Number of [self contained vaults](https://wiki.dendron.so/notes/o4i7a81j778jyh7wql0nacb/) in workspace                        |
 
 ### Automatic Fixes
 
