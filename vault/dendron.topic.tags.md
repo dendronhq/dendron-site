@@ -2,7 +2,7 @@
 id: 8bc9b3f1-8508-4d3a-a2de-be9f12ef1821
 title: Tags
 desc: ''
-updated: 1642784513103
+updated: 1646587789452
 created: 1601910058115
 tags:
   - example.from-frontmatter
@@ -94,7 +94,7 @@ You might have already noticed this when you opened the tag, but tags are just n
 
 #### Configuration
 
-Don't like hashtags? You can disable them by setting the [[enableUserTags|dendron.ref.config#enablehashtags]] configuration to false.
+Don't like hashtags? You can disable them by setting the [[enableHashTags|dendron.ref.config#enablehashtags]] configuration to false.
 
 ## Frontmatter tags
 
