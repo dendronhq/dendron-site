@@ -2,7 +2,7 @@
 id: yg3EL1x9fEe4NMqxUC3jP
 title: GitHub Pages
 desc: ''
-updated: 1646266876564
+updated: 1646864660018
 created: 1631132196609
 ---
 
@@ -21,6 +21,8 @@ Before continuing: **we do not recommend this path for publishing.** If possible
 ![[dendron://dendron.dendron-site/dendron.topic.git#prerequisites,1:#*]]
 
 - You have [[Dendron CLI|dendron.ref.cli]] installed (version `0.84.0` or greater)
+
+![[Local directory|dendron://dendron.dendron-site/dendron.topic.cli#installation:#common-options]]
 
 ## Example Deployments
 You can see deployed examples of these instructions in the following repositories.
@@ -67,11 +69,11 @@ Select the docs folder and click save.
 
 In order for to build your notes for publication, open the command prompt and type `>Dendron: Configure (yaml)`
 
-Make the following modification under `site`:
+Make the following modification under `publishing`:
 
 ```yml
 ...
-site:
+publishing:
     ...
     siteUrl: {WEBSITE_URL}
 ```
@@ -99,14 +101,14 @@ Your `WEBSITE_URL` for GitHub Pages will be in the following format: `https://{G
 - publishing the repo named `kevinslin.github.io`
 
 ```yml
-site:
+publishing:
     siteUrl: https://kevinslin.github.io
 ```
 
 - publishing the repo named `dendron-publish-sample`
 
 ```yml
-site:
+publishing:
     assetsPrefix: /dendron-publish-sample
     siteUrl: https://kevinslin.github.io
 ```

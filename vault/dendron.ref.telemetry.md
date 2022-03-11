@@ -2,7 +2,7 @@
 id: 84df871b-9442-42fd-b4c3-0024e35b5f3c
 title: Telemetry
 desc: ""
-updated: 1645765332037
+updated: 1646981689466
 created: 1619460500071
 nav_order: 6.1
 ---
@@ -205,6 +205,14 @@ For the Doctor command, we also collect what doctor action was performed and at 
 | `action` |  _string_  | Name of the doctor action if one was performed, like "fixFrontMatter". |
 | `scope`  |  _string_  | The scope of the action, either "workspace" or "file".                 |
 
+#### Workspace Sync
+
+To understand how users take advantage of our synchronization features, we also
+collect the following data if the Workspace Sync command is used.
+
+|               Field | Attributes | Description                                                               |
+| ------------------: | :--------: | ------------------------------------------------------------------------- |
+| `hasMultiVaultRepo` | _boolean_  | True if there was a repo that had multiple vaults in it, false otherwise. |
 
 ### CLI commands
 

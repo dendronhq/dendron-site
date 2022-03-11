@@ -17,7 +17,7 @@ Static site generation, sending note links and anything to do with publishing yo
 - #feature.customization
 - #feature.full-text-search
 - #feature.accessibility
-- #feature.mobile-optimization
+- #feature.mobile-optimization-for-publishing
 - #feature.site-preview
 - #feature.seo
 - #feature.pwa

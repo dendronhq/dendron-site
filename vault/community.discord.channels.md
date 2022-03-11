@@ -2,7 +2,7 @@
 id: PIPLLg61HYfjK361B9Jm6
 title: Channels
 desc: ''
-updated: 1645737865991
+updated: 1646861478777
 created: 1640809094657
 ---
 
@@ -37,6 +37,7 @@ Here you can assign yourself special roles in the Dendron Discord within this ch
 
 - Set the **ServerNotify** role if you're interested in getting notified (a few times a week) about CROP requests, office hours and more (in addition to regular release announcements). You will be notified with any messages using the `@ServerNotify` tag.
 - Set the **Dev** Role if you are interested in getting notified about dev-specific Dendron announcements. You will be notified with any messages using the `@Dev` tag.
+- Set the **PublishNotify** role if you are interested in getting notified about Dendron announcements related to using Dendron's publishing features, [publishing templates](https://github.com/dendronhq/?q=template.publish&type=all&language=&sort=), and documentation. You will be notified with any messages using the `@PublishNotify` tag.
 
 ### onboarding
 
