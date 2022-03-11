@@ -2,7 +2,7 @@
 id: 84df871b-9442-42fd-b4c3-0024e35b5f3c
 title: Telemetry
 desc: ""
-updated: 1645765332037
+updated: 1646981689466
 created: 1619460500071
 nav_order: 6.1
 ---
@@ -195,6 +195,15 @@ For the Copy Note Link command, we also collect some information to understand w
 | -----------: | :--------: | ------------------------------------------------------------------- |
 |       `type` |  _string_  | What type of file was this, a note or non-note?                     |
 | `anchorType` |  _string_  | If an anchor was created, what type was it? Block, header, or line? |
+
+#### Workspace Sync
+
+To understand how users take advantage of our synchronization features, we also
+collect the following data if the Workspace Sync command is used.
+
+|               Field | Attributes | Description                                                               |
+| ------------------: | :--------: | ------------------------------------------------------------------------- |
+| `hasMultiVaultRepo` | _boolean_  | True if there was a repo that had multiple vaults in it, false otherwise. |
 
 ### CLI commands
 
