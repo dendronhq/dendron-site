@@ -2,7 +2,7 @@
 id: oTW7BFzKIlOd6iQnnNulg
 title: Airtable Export Pod
 desc: ''
-updated: 1644005531052
+updated: 1646743051558
 created: 1638945970366
 ---
 
@@ -114,6 +114,15 @@ IsChecked: {type: boolean, to: "custom.checked" }
 ANumber: {type: number, to: "custom.anumber" }
 ```
 
+#### date
+
+```yml
+endDate: {type: date, to: "custom.endDate" }
+```
+By default, this would skip exporting a field if value is empty. To bypass this, you can update `skipOnEmpty` to false.
+```yml
+endDate: {type: date, to: "custom.endDate", skipOnEmpty: false }
+```
 
 #### multiSelect
 
