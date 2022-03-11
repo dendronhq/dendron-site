@@ -196,6 +196,15 @@ For the Copy Note Link command, we also collect some information to understand w
 |       `type` |  _string_  | What type of file was this, a note or non-note?                     |
 | `anchorType` |  _string_  | If an anchor was created, what type was it? Block, header, or line? |
 
+#### Doctor
+
+For the Doctor command, we also collect what doctor action was performed and at what scope.
+
+|    Field | Attributes | Description                                                            |
+| -------: | :--------: | ---------------------------------------------------------------------- |
+| `action` |  _string_  | Name of the doctor action if one was performed, like "fixFrontMatter". |
+| `scope`  |  _string_  | The scope of the action, either "workspace" or "file".                 |
+
 #### Workspace Sync
 
 To understand how users take advantage of our synchronization features, we also
