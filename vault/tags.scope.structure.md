@@ -2,7 +2,7 @@
 id: le8mukn4RuMfZ8SxD0doj
 title: Structure
 desc: ''
-updated: 1645935335659
+updated: 1647025717510
 created: 1644724514813
 airtableId: recctrkafGKsa0IIt
 ---
@@ -28,4 +28,5 @@ Related to keeping notes in a structured, ordered fashion.
 
 - #feature.hierarchy
 - #feature.multi-vault
+- #feature.frontmatter
 
