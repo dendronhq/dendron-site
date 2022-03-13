@@ -7,3 +7,5 @@ created: 1642037942944
 airtableId: recyme9SwuL4kvyYx
 ---
 
+Export notes from dendron to other tools
+
