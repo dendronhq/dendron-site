@@ -75,3 +75,9 @@ A **Surveyor** is a member who completed at least one Dendron survey. For inform
 ### Taxonomist
 
 A **Taxonomist** is a member who improved the Dendron documentation.
+
+## Internal Roles
+
+### Dendron Team
+
+This role is to update everyone in the Dendron core team
