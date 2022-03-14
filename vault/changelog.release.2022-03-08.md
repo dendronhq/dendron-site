@@ -2,7 +2,7 @@
 id: buq00kb185zpm8sqa9jozj2
 title: '0.85'
 desc: ''
-updated: 1646766413670
+updated: 1647297502626
 created: 1646706808485
 ---
 
@@ -12,9 +12,9 @@ Speed improvements across how we parse markdown links and publishing - you shoul
 
 This week also features a slew of bug fixes across multiple areas.
 ## Highlights
-- enhance(workspace): doctor command, `fixRemoteVaults`, to fix remote vaults that don't have a remote set ([[docs|dendron://dendron.dendron-site/dendron.topic.doctor#fixremotevaults]]) (#2484) 
-- enhance(publish): published pages have faster first load due to optimizations to the tree menu (#2379) 
-- enhance(views): faster loading of markdown due to parsing improvements (#2505) 
+- enhance(workspace): doctor command, `fixRemoteVaults`, to fix remote vaults that don't have a remote set ([[docs|dendron://dendron.dendron-site/dendron.topic.doctor#fixremotevaults]]) 
+- enhance(publish): published pages have faster first load due to optimizations to the tree menu 
+- enhance(views): faster loading of markdown due to parsing improvements 
 
 ## Everything Else
 - fix(publish): properly render mermaid and katex when published
@@ -45,8 +45,8 @@ This week's entry in the [[Dendron Reading Series|dendron://dendron.dendron-site
 - **Community Teatime:** Drink tea, eat food, and hangout with the Dendron crew!
     - Next: [Thu, Mar 09, 09:00 PM PST / 05:00 UTC](https://link.dendron.so/luma)
 - **Greenhouse Talks:** Visit the [[Greenhouse Talks|dendron://dendron.dendron-site/community.events.greenhouse]] for notes from previous sessions.
-    - Subject: _Getting Things Done (GTD) and Other Task-Management Workflows (with Dendron!)_
-    - Description: _Interested speakers from the community will take 5 - 10 minutes each to present their workflows for managing actionable information, followed by an open discussion. The event will be recorded and later published online._
+    - Subject: TBD
+    - Description: TBD
     - Next: [Fri, Mar 25, 04:00 PM PST / 00:00 UTC](https://link.dendron.so/luma)
     - [Greenhouse Talk Recordings - YouTube Playlist](https://link.dendron.so/greenhouse)
 - **Office Hours:** Visit the [[Office Hours page|dendron://dendron.dendron-site/community.events.office-hours]] for notes from previous sessions.
