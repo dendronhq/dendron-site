@@ -2,7 +2,7 @@
 id: zcoTwnMKikNVEWhqQr7YY
 title: Retrieve
 desc: ''
-updated: 1645248553350
+updated: 1647025655351
 created: 1644724254507
 airtableId: recqrUqNtZHHt264B
 ---
@@ -23,3 +23,4 @@ Area of Dendron related to retrieval of notes. Any feature that helps a customer
 
 - #feature.note-refs
 - #feature.file-refs
+- #feature.note-as-directory
