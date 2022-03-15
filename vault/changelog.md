@@ -2,10 +2,23 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1646766226137
+updated: 1647357479039
 created: 1601508213606
 nav_order: 2
 ---
+
+## 0.86.0
+
+### Enhancements
+- enhance(pods): support null entries for dates in Airtable export pod v2 ([[docs|dendron://dendron.dendron-site/dendron.topic.pod-v2.ref.builtin.airtable.export#date]]) (#2520) @joshi
+- enhance(basics): improve performance around reference rendering including hover (#2543) @jonathan
+- enhance(workspace): Dendron still loads if there's a missing local vault (#2526) @kaan
+
+### Fix
+- fix(basics): ensure note title is always a string to avoid errors (#2551) @kaan
+- fix(pods): Google Docs Export pod displays Bad Request error on export (#2529) @joshi
+- fix(publish): better error messages when publishing (#2538) @kevin
+- fix(views): block anchors showing up in the preview (#2548) @kaan
 
 ## 0.85.0
 
