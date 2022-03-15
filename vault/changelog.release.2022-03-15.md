@@ -2,7 +2,7 @@
 id: 4i7t856tu1wygd2o540lc6e
 title: '0.86'
 desc: ''
-updated: 1647358062791
+updated: 1647359626553
 created: 1647295787428
 ---
 
@@ -23,7 +23,7 @@ This release includes a variety of other fixes and improvements.
 - fix(pods): Google Docs Export pod displays Bad Request error on export
 - fix(publish): better error messages when publishing
 - fix(views): block anchors showing up in the preview
-- fix(basics): ensure note title is always a string to avoid errors (#2551) @kaan
+- fix(basics): ensure note title is always a string to avoid errors
 
 ## Community
 
