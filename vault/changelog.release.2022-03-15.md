@@ -31,8 +31,7 @@ This release includes a variety of other fixes and improvements.
 <!-- TODO: update links. Delete section is no new items-->
 > These are highlights from the [[Dendron Discord|dendron://dendron.dendron-site/community.discord.channels]] `#starboard` and `#today-i-learned` channels.
 
-- ⭐ `mikhail#3816` shared a link to [dendron-citations](https://github.com/mivanit/dendron-citations): _" I've put out a major update to dendron-citations. Now, tag notes are automatically created for each keyword and author -- this lets you use dendron backlinks to see which papers a certain author has written, or which papers have a certain keyword! I've also put out a lot of other minor improvements.
-"_
+- ⭐ `mikhail#3816` shared a link to [dendron-citations](https://github.com/mivanit/dendron-citations): _"I've put out a major update to dendron-citations. Now, tag notes are automatically created for each keyword and author -- this lets you use dendron backlinks to see which papers a certain author has written, or which papers have a certain keyword! I've also put out a lot of other minor improvements."_
 
 - 💡 `Bo Vandenberg [utc -5]#4626` shared a link to [Jupiter: The Only Planet in our Solar System That Doesn’t Orbit the Sun](https://www.thespaceacademy.org/2021/04/jupiter-only-planet-in-our-solar-system.html): _"Too cool not to share. (Not about Dendron)"_
 
