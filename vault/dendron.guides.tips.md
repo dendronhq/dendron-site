@@ -2,7 +2,7 @@
 id: 692fa114-f798-467f-a0b9-3cccc327aa6f
 title: Tips
 desc: ''
-updated: 1642010896506
+updated: 1647379706047
 created: 1595614204291
 nav_order: 4.1
 ---
@@ -273,9 +273,9 @@ You can pin tabs in VS Code by right clicking on a tab and selecting `Pin Tab`.
 The latest VS Code lets you control pin behavior for tabs. It's not currently documented as of 2020.09.28 but as of the latest Insiders build, it has a few different options to control the pinned behavior. 
 
 - options:
-  - normal (default), normal tab size with a pin icon
-  - shrink: reduced tab size with some text visible
-  - compact: only icon visible
+  - `normal`: (default) normal tab size with a pin icon
+  - `shrink`: reduced tab size with some text visible
+  - `compact`: only icon visible
 
 ```json
 "workbench.editor.pinnedTabSizing": "shrink"
@@ -309,6 +309,21 @@ You can see a video of this workflow in the video below.
 <a href="https://www.loom.com/share/dd27df6d556d4ba6b28b2028ca7d1455"> 
 <img style="" src="https://cdn.loom.com/sessions/thumbnails/dd27df6d556d4ba6b28b2028ca7d1455-with-play.gif"> </a>
 
+### Indenting Wrapped Text
+
+Other PKM editors like Obsidian will automatically further indent lines in places like bulletpoints. VS Code offers the following setting to control the identation of wrapped lines:
+
+```json
+    "editor.wrappingIndent": "same",
+```
+
+- options:
+  - `none`: No indentation. Wrapped lines begin at column 1.
+  - `same`: Wrapped lines get the same indentation as the parent.
+  - `indent`: Wrapped lines get +1 indentation toward the parent.
+  - `deepIndent`: Wrapped lines get +2 indentation toward the parent.
+
+Changing the value to indent may provide better visual understanding of indentation, otherwise `same` is the default.
 
 ## Snippets
 
