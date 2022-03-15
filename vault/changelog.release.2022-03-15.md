@@ -2,7 +2,7 @@
 id: 4i7t856tu1wygd2o540lc6e
 title: '0.86'
 desc: ''
-updated: 1647359626553
+updated: 1647363084235
 created: 1647295787428
 ---
 
@@ -62,9 +62,44 @@ This week's entry in the [[Dendron Reading Series|dendron://dendron.dendron-site
 A big **thanks** to the following gardeners that brought up issues, contributions, and fixes to this release :man_farmer: :woman_farmer: 
 Visit [[Discord Roles|dendron://dendron.dendron-site/community.discord.roles]] for more information.
 
-#todo
+- [Raymond K](https://github.com/dagriefaa) `@dagriefaa#2892`
+  - #role.bugcatcher
+  - [Favicon not rendering when assetPrefix is set](https://github.com/dendronhq/dendron/issues/2536)
+  - [Publishing crashes when customHeaderPath contains hyphen in the header filename](https://github.com/dendronhq/dendron/issues/2549)
 
+- [Callum Mcdonald](https://github.com/chmac) `@chmac#2931`
+  - [Lookup stops working properly after pressing tab](https://github.com/dendronhq/dendron/issues/2550)
 
+- [Claus Conrad](https://github.com/cconrad) `@cconrad#0514`
+  - [docs: fix typo](https://github.com/dendronhq/dendron-site/pull/428)
+
+- [Carlos Cámara](https://github.com/ccamara) `@ccamara#5131`
+  - [Fixes broken anchor](https://github.com/dendronhq/dendron-site/pull/427)
+  - [Adds nextcloud mention](https://github.com/dendronhq/dendron-site/pull/426)
+
+- [John Hoang](https://github.com/jhoan2) `@jhoang.eth#0757`
+  - #role.bugcatcher
+  - [Preview shows "Start anchor ... not found" when linking notes](https://github.com/dendronhq/dendron/issues/2568)
+
+- [Andrey Jef](https://github.com/andrey-jef) `@evanAndiez#9559`
+  - [The ()s in the url's image cause error with Dendron's extended image parser](https://github.com/dendronhq/dendron/issues/2564)
+
+- [Matias Forbord](https://github.com/codeluggage) `@codeluggage#5635`
+    - [chore: fix lifecycle migration doc link by codeluggage · Pull Request #2559 · dendronhq/dendron](https://github.com/dendronhq/dendron/pull/2559)
+
+#### Surveyors
+
+The following community members provided feedback in the Dendron user survey:
+
+- `@WildMagic#5137`
+- `@TomDuffield#6008`
+- `@ccamara#5131`
+- `@michaelvolk#0415`
+- `@mihaiconstantin#9440`
+- `@Xanaus#9249`
+- `@tsqrl#1307`
+- `@xerinox`
+- `@Json_online#2575`
 
 ## Changelog
 ![[changelog#0860,1:#0850]]
