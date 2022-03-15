@@ -2,7 +2,7 @@
 id: 4i7t856tu1wygd2o540lc6e
 title: '0.86'
 desc: ''
-updated: 1647297632209
+updated: 1647358062791
 created: 1647295787428
 ---
 
@@ -10,16 +10,20 @@ Dendron 0.86 has sprouted  🌱
 
 The Airtable Export Pod now supports null entries for dates. Before this, an empty/null value for date would prompt issues when attempting to export notes to Airtable. Learn more here: ([[docs|dendron://dendron.dendron-site/dendron.topic.pod-v2.ref.builtin.airtable.export#date]]) 
 
+In addition, we've improved the speed of note references - you should notice a significantly faster experience when using note references and hover previews. 
+
 This release includes a variety of other fixes and improvements.
 
 ## Highlights
 - enhance(pods): support null entries for dates in Airtable export pod v2 
+- enhance(basics): improve performance around reference rendering including hover
 
 ## Everything Else
 - enhance(workspace): Dendron still loads if there's a missing local vault
 - fix(pods): Google Docs Export pod displays Bad Request error on export
 - fix(publish): better error messages when publishing
 - fix(views): block anchors showing up in the preview
+- fix(basics): ensure note title is always a string to avoid errors (#2551) @kaan
 
 ## Community
 
