@@ -9,6 +9,10 @@ frontend:
         - yarn add @dendronhq/dendron-cli@latest
     build:
       commands: 
+        - '# Execute Amplify CLI with the helper script'
+        - envCache --set stackInfo ""
+        - amplifyPush --environment $USER_BRANCH --simple
+        - '--- separator'
         - nvm use 14
         - "(test -d .next) && (echo 'updating Dendron Next...' && cd .next && git reset --hard && git clean -f && git pull && yarn) || (echo 'init Dendron Next' && npx dendron publish init)"
         # - '[ $AWS_BRANCH = "dev" ] && cd .next && git fetch && git checkout dev && cd .. || echo 0' 
