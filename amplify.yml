@@ -5,12 +5,12 @@ frontend:
       commands:
         - nvm install 14
         - nvm use 14
+        - 'rm -rf node_modules || echo 0'
+        - 'rm -rf .next || echo 0'
         - yarn
         - yarn add @dendronhq/dendron-cli@latest
     build:
       commands: 
-        - 'rm -rf node_modules || echo 0'
-        - 'rm -rf .next || echo 0'
         - "echo starting over"
         - nvm use 14
         - "(test -d .next) && (echo 'updating Dendron Next...' && cd .next && git reset --hard && git clean -f && git pull && yarn) || (echo 'init Dendron Next' && yarn dendron publish init)"
