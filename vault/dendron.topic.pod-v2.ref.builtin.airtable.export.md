@@ -2,7 +2,7 @@
 id: oTW7BFzKIlOd6iQnnNulg
 title: Airtable Export Pod
 desc: ''
-updated: 1646743051558
+updated: 1647518382710
 created: 1638945970366
 ---
 
@@ -16,7 +16,12 @@ You can view the example video [here](https://www.loom.com/share/ed27a420fd79471
 - you must have a column named `DendronId` (case sensitive)
 
 ## Side Effects
-- this pod will add `airtableId` in the frontmatter of your note 
+- this will add Airtable pod metadata in the frontmatter of your note under pods namespace.
+```yml
+pods:
+  airtable:
+    <pod-id>: "airtableId"
+```
 
 ## Configuration
 
@@ -73,7 +78,7 @@ This contains a mapping of Airtable fields with the note contents and properties
 type SrcFieldMapping =
   | {
       to?: string;
-      type: "string" | "date" | "singleTag";
+      type: "string" | "date" | "singleSelect" | "multiSelect" | "linkedRecord";
       filter?: string;
     }
 ```
@@ -124,6 +129,18 @@ By default, this would skip exporting a field if value is empty. To bypass this,
 endDate: {type: date, to: "custom.endDate", skipOnEmpty: false }
 ```
 
+#### linkedRecord 
+
+This field lets you link to another records present in Airtable. 
+
+In the below example, the `Tasks` field of table A is a link to a record present in table B
+```yml
+Tasks: {
+    type: "linkedRecord",
+    filter: "task.*",
+    podId: "dendron.task"
+  }
+```
 #### multiSelect
 
 This fields let you pick multiple values. You can either select an arbitrary frontmatter field or use the special `tags` key to select tags in the note.
