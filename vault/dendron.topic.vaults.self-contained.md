@@ -18,8 +18,7 @@ unless you want to help us test out this upcoming feature.
 
 ## Configuration
 
-Because it is still in development, self contained vaults are not enabled until
-they are enabled. Please see the [[enableSelfContainedVaults|dendron://dendron.dendron-site/dendron.ref.config#enableselfcontainedvaults]]
+Because it is still in development, self contained vaults are not enabled by default. Please see the [[enableSelfContainedVaults|dendron://dendron.dendron-site/dendron.ref.config#enableselfcontainedvaults]]
 option.
 
 ## Usage
@@ -29,4 +28,4 @@ created. Self contained vaults are placed under the `dependencies` folder. This
 works for both local and remote vaults. Different from regular vaults, self contained local vaults are not included in the git repository of the workspace they are in.
 
 > ⚠️ Adding workspace vaults or seed vaults, using the `Vault Convert` or `Vault Remove` command are not supported. Many other features have not been
-> thoroughly tested with self contained vault, and may not work correctly.
+> thoroughly tested with self contained vault, and may not work correctly yet.
