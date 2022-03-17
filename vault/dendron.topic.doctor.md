@@ -2,7 +2,7 @@
 id: ZeC74FYVECsf9bpyngVMU
 title: Doctor
 desc: ""
-updated: 1643834010821
+updated: 1647533705859
 created: 1640418184682
 ---
 
@@ -61,6 +61,14 @@ This simply lists all broken links in the scope.
 
 - Command: `Dendron: Doctor`
 - Option: `findIncompatibleExtensions`
+
+### fixKeybindingConflicts
+
+- Detects if the user has enabled extensions that are known to have default keybindings that conflict with ones that Dendron defines, and provides a guide on how to fix the conflicts.
+- This command is automatically run the first time Dendron is installed, and notifies the user if any keybinding conflicts should be resolved.
+
+- Command: `Dendron: Doctor`
+- Option: 'fixKeybindingConflicts`
 
 ### regenerateNoteId
 
