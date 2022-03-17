@@ -2,7 +2,7 @@
 id: E1Zgn2za7n3QVfm3MtIBe
 title: '0.81'
 desc: ''
-updated: 1644345213773
+updated: 1647541618868
 created: 1644289547625
 ---
 
@@ -57,7 +57,7 @@ Schemas have leveled up: you can now use [[cross-vault references to templates|d
 
 The new user survey was open for several months in 2021, where we were prompting new Dendron users within VS Code itself. We had a few thousand respondents take that opportunity to give us feedback. [These are the results!](https://blog.dendron.so/notes/AitIUzlK955P5EFojPjxz/)
 
-We'd love to hear how you are using Dendron! Take the [2022 Dendron User Survey](https://airtable.com/shrRgTHt0CDiEZZp3?prefill_SurveyName=UserSurvey2022) and help us build a better tool for thought 🌱
+We'd love to hear how you are using Dendron! Take the [2022 Dendron User Survey](https://airtable.com/shrRgTHt0CDiEZZp3?prefill_SurveyName=UserSurvey2022&hide_SurveyName=true) and help us build a better tool for thought 🌱
 
 ### Dendron Greenhouse Talks Rebooting
 
@@ -65,8 +65,8 @@ In these talks, Dendron community members share the fruits of their learning. Th
 
 Recordings of Greenhouse talks from the past year can be viewed on the [Dendron's The Greenhouse YouTube Playlist](https://www.youtube.com/playlist?list=PLrXlRqY7c8J-lPtS82muQd4VD8pR7Vn4E).
 
-- If you are interested in giving a Greenhouse talk, please fill out the [Greenhouse Proposal Form](https://airtable.com/shrHMMl1NwefpM689?prefill_SurveyName=GreenhouseProposal).
-- If there is a Greenhouse talk you would like to see, please fill out the [Greenhouse Request Form](https://airtable.com/shrig560yLNVSb79y?prefill_SurveyName=GreenhouseRequest).
+- If you are interested in giving a Greenhouse talk, please fill out the [Greenhouse Proposal Form](https://airtable.com/shrHMMl1NwefpM689?prefill_SurveyName=GreenhouseProposal&hide_SurveyName=true).
+- If there is a Greenhouse talk you would like to see, please fill out the [Greenhouse Request Form](https://airtable.com/shrig560yLNVSb79y?prefill_SurveyName=GreenhouseRequest&hide_SurveyName=true).
 
 In upcoming weeks, you will also have the chance to vote on which talk topic should be next.
 

@@ -2,7 +2,7 @@
 id: PqtlCsRPWBjKp3RR
 title: Greenhouse Talks
 desc: ''
-updated: 1644606499734
+updated: 1647541649102
 created: 1626809567579
 has_collection: true
 sort_by: date
@@ -32,8 +32,8 @@ Take a look at the [Dendron Event Calendar](https://link.dendron.so/luma) for th
 
 ## Proposing a talk
 
-- If you are interested in giving a Greenhouse talk, please fill out the [Greenhouse Proposal Form](https://airtable.com/shrHMMl1NwefpM689?prefill_SurveyName=GreenhouseProposal).
-- If there is a Greenhouse talk you would like to see, please fill out the [Greenhouse Request Form](https://airtable.com/shrig560yLNVSb79y?prefill_SurveyName=GreenhouseRequest).
+- If you are interested in giving a Greenhouse talk, please fill out the [Greenhouse Proposal Form](https://airtable.com/shrHMMl1NwefpM689?prefill_SurveyName=GreenhouseProposal&hide_SurveyName=true).
+- If there is a Greenhouse talk you would like to see, please fill out the [Greenhouse Request Form](https://airtable.com/shrig560yLNVSb79y?prefill_SurveyName=GreenhouseRequest&hide_SurveyName=true).
 
 ## Preparing a talk
 
