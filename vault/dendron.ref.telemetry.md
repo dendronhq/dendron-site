@@ -2,7 +2,7 @@
 id: 84df871b-9442-42fd-b4c3-0024e35b5f3c
 title: Telemetry
 desc: ""
-updated: 1646981689466
+updated: 1647618227862
 created: 1619460500071
 nav_order: 6.1
 ---
@@ -122,6 +122,15 @@ When we detect that a user has extensions that incompatible with Dendron's capab
 | --------------------: | :--------: | ---------------------------------------------------------------------------------- |
 | `installedExtensions` | _string[]_ | extension ID of the pre-defined extension(s) that may cause incompatibility issues |
 
+#### Keybinding conflicts
+
+When we detect that a user has an extension that has keybindings that are known to conflict with Dendron's default keybindings, we warn the users and give guidance on how to resolve them. When Dendron is first installed, a user will be prompted with a warning message if keybinding conflicts are detected. We track if the user accepted the message and proceeded with conflict resolution. After initial installation, this feature is available as a doctor command [[fixKeybindingConflicts|dendron://dendron.dendron-site/dendron.topic.doctor#fixkeybindingconflicts]]. In both initial install and every doctor command execution, we track if keybinding conflicts were detected.
+
+|                 Field | Attributes | Description                                                                        |
+| --------------------: | :--------: | ---------------------------------------------------------------------------------- |
+| `source` | _string_ | Where the detection event happened. Either `activation` or `doctor` |
+
+
 ### Tutorial Progression
 
 When Dendron starts for the first time, it launches users into a tutorial workflow. We track how far along the tutorial you get using the `Tutorial_{num}_Show` event. This helps us figure out how effective our intro documentation is.
@@ -215,6 +224,15 @@ collect the following data if the Workspace Sync command is used.
 |               Field | Attributes | Description                                                               |
 | ------------------: | :--------: | ------------------------------------------------------------------------- |
 | `hasMultiVaultRepo` | _boolean_  | True if there was a repo that had multiple vaults in it, false otherwise. |
+
+#### Copy To Clipboard
+
+Copy To Clipboard is a command that could only be invoked by clicking on a Markdown Link in a VSCode Webview.
+We use this as a simple way to simulate a copy button within a rendered markdown preview. We track the source of this command's invocation to better understand the user experience of markdown based webviews.
+
+|               Field | Attributes | Description                                                               |
+| ------------------: | :--------: | ------------------------------------------------------------------------- |
+| `source` | _string_  | Name of the webview that this command was invoked. |
 
 ### CLI commands
 
