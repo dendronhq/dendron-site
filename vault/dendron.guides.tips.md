@@ -313,8 +313,7 @@ You can see a video of this workflow in the video below.
 
 ### Indenting Wrapped Text
 
-Some PKM editors like Obsidian will automatically further indent lines in places like bulletpoints. VS Code offers this functionality via the `wrappingIndent` settings:
-
+Some PKM editors like Obsidian will automatically further indent lines in places like bulletpoints. VS Code offers this functionality via the `wrappingIndent` setting:
 
 ```json
     "editor.wrappingIndent": "same",
@@ -325,7 +324,6 @@ Some PKM editors like Obsidian will automatically further indent lines in places
   - `same`: Wrapped lines get the same indentation as the parent.
   - `indent`: Wrapped lines get +1 indentation toward the parent.
   - `deepIndent`: Wrapped lines get +2 indentation toward the parent.
-
 
 Changing the value to indent may provide better visual understanding of indentation, otherwise `same` is the default.
 
