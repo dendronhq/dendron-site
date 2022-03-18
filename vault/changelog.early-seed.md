@@ -13,7 +13,7 @@ nav_exclude: true
 ## 0.87.0
 
 ### Features
-- early implementation of self contained vaults (#2517) @kaan [[docs|dendron://dendron.dendron-site/dendron.topic.vaults.self-contained]]
+- feat(vaults): early implementation of self contained vaults ([[docs|dendron://dendron.dendron-site/dendron.topic.vaults.self-contained]]) (#2517) @kaan
 
 ### Enhancements
 - enhance(workspace): faster preview refresh (#2527) @tuling
