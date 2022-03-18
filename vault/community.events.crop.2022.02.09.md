@@ -1,6 +1,6 @@
 ---
 id: 1uuy2ptgxkgarst685kya9t
-title: CROP - 2022-02-09
+title: 'CROP - 2022-02-09'
 desc: ''
 updated: 1645585464259
 created: 1645585368026
