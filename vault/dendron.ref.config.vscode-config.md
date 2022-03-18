@@ -119,10 +119,3 @@ created to simplify initialization. This is no longer required, Dendron instead
 initializes itself when a native workspace is created. Enabling this may cause
 performance issues and crashes in workspaces that contain lots of files, it's
 recommended that you keep this `false`.
-
-## dendron.enableSelfContainedVaultWorkspace
-- type: boolean
-- default: false
-
-When true, any new workspaces created with the [[Initialize Workspace|dendron.ref.commands#initialize-workspace]] command
-will be created as a self contained vault. This is an experimental new feature, please see [[dendron.topic.vaults.self-contained]] for details.
