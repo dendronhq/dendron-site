@@ -18,7 +18,7 @@ nav_exclude: true
 ### Enhancements
 - enhance(workspace): faster preview refresh (#2527) @tuling
 - enhance(workspace): faster editing in large workspaces (#2527) @tuling
-- enhance(internal): provide a standard way to create and read backup files #2521 [[docs|dendron.ref.commands#open-backup]] @hikchoi
+- enhance(internal): provide a standard way to create and read backup files ([[docs|dendron://dendron.dendron-site/dendron.ref.commands#open-backup]]) (#2521) @hikchoi
 
 
 ### Fix
