@@ -2,7 +2,7 @@
 id: eea2b078-1acc-4071-a14e-18299fc28f47
 title: Commands
 desc: ""
-updated: 1645208135690
+updated: 1647267578206
 created: 1595261816971
 nav_order: 3.1
 ---
@@ -392,6 +392,19 @@ Initiate schema lookup
 Open link to external file (eg. PDF, .mov, etc.) use system default. Relative files paths will be opened relative to the vault that the note is in.
 
 <a href="https://www.loom.com/share/01250485e20a4cdca2a053dd6047ac68"><img src="https://cdn.loom.com/sessions/thumbnails/01250485e20a4cdca2a053dd6047ac68-with-play.gif"> </a>
+
+### Open Backup
+
+- shortcuts: none
+
+Open backup files created by Dendron.
+
+When triggered, you will be prompted to select the key of the backup file. Once selected, you will be prompted again
+with a list of all backups saved under the key.
+
+Currently Dendron only creates backups for `dendron.yml`, and these are saved with the key `config`.
+
+This command is a convenience command to open backup files saved under `{workspaceRoot}/.backup/{key}/`.
 
 ### Go to Commands
 
