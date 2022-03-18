@@ -165,7 +165,7 @@ The workflow YAML includes a commented out value, `cname`, at the very bottom of
 Also ensure that your `siteUrl` is adjusted properly in `dendron.yml`:
 
 ```yaml
-publish:
+publishing:
     siteUrl: https://example.com
 ```
 
