@@ -310,7 +310,6 @@ You can see a video of this workflow in the video below.
 <img style="" src="https://cdn.loom.com/sessions/thumbnails/dd27df6d556d4ba6b28b2028ca7d1455-with-play.gif"> </a>
 
 
-
 ### Indenting Wrapped Text
 
 Some PKM editors like Obsidian will automatically further indent lines in places like bulletpoints. VS Code offers this functionality via the `wrappingIndent` setting:
