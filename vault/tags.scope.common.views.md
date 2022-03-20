@@ -7,4 +7,14 @@ created: 1629779306913
 airtableId: reckFMSzOaPwRisVL
 ---
 
+## Summary
 Dendron Preview, Tree View, Side Panels in the UI
+
+## Sub-scopes
+
+## Examples
+- any editor related decoratinos (eg. tag colors)
+
+## Anti-examples
+
+## Features

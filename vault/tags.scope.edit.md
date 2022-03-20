@@ -7,9 +7,14 @@ created: 1639633464112
 airtableId: reco9ZYB6M2OEYwsD
 ---
 
+## Summary
+
+Anything that effects the editing experience. Edit also involves creating new notes
+
 ## Examples
 - Autocomplete
 - Editor highlighting
+- Commands that copy links 
 
 ## Anti-examples
 
