@@ -39,6 +39,7 @@ workspace:
   enableAutoFoldFrontmatter:
   maxPreviewsCached:
   maxNoteLength:
+  enableFullHierarchyNoteTitle:
 ```
 
 ## dendronVersion
@@ -194,3 +195,9 @@ highlighted, task note information will not be displayed, and Dendron will not
 warn for broken note frontmatter.
 
 - default: true
+
+## enableFullHierarchyNoteTitle
+
+When enabled, the note title will utilize the full hierarchy to generate the title when a note is created. For example, if the note being created is `one.two.three`, the title will become `One Two Three` instead of `Three`. 
+
+- default: false
