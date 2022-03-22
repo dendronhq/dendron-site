@@ -104,6 +104,5 @@ A huge thanks to the following Dendronites that provided feedback in the [2022 D
 - `@siddacious#3905`
 - `@Tychronos#6624`
 
-
 ## Changelog
 ![[changelog#0870,1:#0860]]
