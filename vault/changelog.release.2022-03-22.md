@@ -2,19 +2,30 @@
 id: qcwfzax4uaqj54evgp8li5y
 title: '0.87'
 desc: ''
-updated: 1647972267686
+updated: 1647974107111
 created: 1647909143435
 ---
 
 Dendron 0.87 has sprouted  🌱
 
-We are now in early preview of self contained vaults. This lets you make use of and share your Dendron vaults without the need of a workspace (see more information about it [in our RFC about self contained vaults](https://docs.dendron.so/notes/aOOBYTowLEKJDEtLWFiHb/)).
+**Breaking changes:** We updated the airtableId format to be a dictionary instead of a single value. This makes it possible to export a single note to multiple tables.
 
-If you are interested in trying this out, please fill out this [survey](https://airtable.com/shr0cwk0a9tujeipZ ) and we'll add you to early-preview where we'll be holding discussions and offering support. We'll also send you specialized instructions for how to set up self contained vaults!
+If you are using v2 of the airtable pod, you can migrate to the new version by following the [[instructions here|dendron://dendron.dendron-site/dendron.topic.pod-v2.ref.builtin.airtable.migration#migrating-to-0870]].
+
+- More information in the [RFC on standardizing source-field mapping for Pods](https://docs.dendron.so/notes/N0G4s23hFDGVnsjHhh6dt.html)
+
+**Self Contained Vaults:** We are now in early preview of self contained vaults. This lets you use and share your Dendron vaults without the need of a workspace.
+
+If you are interested in trying this out, please fill out this [survey](https://airtable.com/shr0cwk0a9tujeipZ) and we'll add you to early-preview where we'll be holding discussions and offering support. We'll also send you specialized instructions for how to set up self contained vaults!
+
+- More information in [in our RFC about self contained vaults](https://docs.dendron.so/notes/aOOBYTowLEKJDEtLWFiHb/)
+
 
 **Speed Improvements**: `Dendron: Show Preview` refreshes faster and editing larger workspaces is more responsive.
 
-This release also includes a number of fixes and improvements, including a new command to aid in creating and reading backup files (see more information about it [in our documentation on open backup]([[docs|dendron://dendron.dendron-site/dendron.ref.commands#open-backup]])).
+This release also includes a number of fixes and improvements, including a new command to aid in creating and reading backup files.
+
+- More information [in our documentation on open backup]([[docs|dendron://dendron.dendron-site/dendron.ref.commands#open-backup]]).
 
 ## Highlights
 - feat(vaults): early implementation of self contained vaults
