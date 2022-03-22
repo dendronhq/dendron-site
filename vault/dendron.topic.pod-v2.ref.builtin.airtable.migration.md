@@ -13,3 +13,5 @@ To migrate, run the following doctor command in all affected hierarchies
 
 ![[dendron://dendron.dendron-site/dendron.topic.pod-v2.ref.builtin.airtable.export#side-effects,1:#*]]
 
+After doctor has run, it will convert all scalar airtable destinations to the new value. Note that this doesn't fix any `linkedRecord` attributes. 
+If you have `linkedRecords`, you need to manually update the pod config with a [[podId|dendron://dendron.dendron-site/dendron.topic.pod-v2.ref.builtin.airtable.export#linkedrecord]] 
