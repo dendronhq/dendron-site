@@ -1,7 +1,7 @@
 ---
 id: s1qpx3pjuklqmv3x2sfx802
 title: >-
-    25 - 'Bizarro World'
+    25 - Bizarro World
 desc: >-
     25 - Lori is the world's best (official) Tetris player and doesn't know it. A chance conversation will change all that. 
 updated: 1647916675223
