@@ -2,7 +2,7 @@
 id: qcwfzax4uaqj54evgp8li5y
 title: '0.87'
 desc: ''
-updated: 1647972192174
+updated: 1647972267686
 created: 1647909143435
 ---
 
@@ -32,17 +32,15 @@ This release also includes a number of fixes and improvements, including a new c
 - fix(workspace): race condition when backing up configuration
 - feat(workspace): doctor command to find (and suggest fix for) keyboard conflicts
 - enhance(workspace): warn on keyboard conflicts on first install
-- enhance(pods): support exporting a note to multiple Airtable destination
+- enhance(pods): support exporting a note to multiple Airtable destinations
 - fix(views): unblock preview rendering when backlink is invalid
 - fix(workspace): race condition when loading native workspace
 - fix(workspace): prevent errors in Open Backup Command and Run Migration Command in native workspaces
-
 
 ## Community
 
 ### General Updates
 Check out our founder, Kevin, discuss his background and how he started Dendron on the *From Zero to One* podcast! Find out more details in the [episode blurb](https://www.0011.one/posts/S3E10) and listen on [Spotify](https://open.spotify.com/episode/5JhPoOCvXl3om7m905dhC4?si=cf6240803a4940e7&nd=1) and [Xiaoyuzhoufm](https://www.xiaoyuzhoufm.com/episode/621f25f2761e0799b628feca).
-
 
 ### Starboard and TIL Highlights
 <!-- TODO: update links. Delete section is no new items-->
@@ -50,9 +48,7 @@ Check out our founder, Kevin, discuss his background and how he started Dendron 
 
 - 💡 `xg#6522` shared a fun fact: [the distance between Dendron and Hugo is 1988km by car, a 25h drive](https://pk.2markers.com/363114-369224). "I am tempted to see if I can write an exporter for my needs in less than 25h 😁"
     - We say go for it!
-
-
-
+    
 ### Dendron Reading Series
 
 This week's entry in the [[Dendron Reading Series|dendron://dendron.dendron-site/community.events.reading-series]].
@@ -113,7 +109,6 @@ A huge thanks to the following Dendronites that provided feedback in the [2022 D
 - `@yiming#8413`
 - `@siddacious#3905`
 - `@Tychronos#6624`
-
 
 ## Changelog
 ![[changelog#0870,1:#0860]]

@@ -18,7 +18,7 @@ nav_order: 2
 - enhance(workspace): faster editing in large workspaces (#2527) @tuling
 - enhance(internal): provide a standard way to create and read backup files ([[docs|dendron://dendron.dendron-site/dendron.ref.commands#open-backup]]) (#2521) @hikchoi
 - enhance(workspace): warn on keyboard conflicts on first install (#2578) @hikchoi
-- enhance(pods): support exporting a note to multiple Airtable destination ([[docs|dendron://dendron.dendron-site/dendron.topic.pod-v2.ref.builtin.airtable.export]]) (#2582) @Joshi
+- enhance(pods): support exporting a note to multiple Airtable destinations ([[docs|dendron://dendron.dendron-site/dendron.topic.pod-v2.ref.builtin.airtable.export]]) (#2582) @Joshi
 
 ### Fix
 - fix(workspace): fix crash that can happen when bad frontmatter is present during doc save (#2535) @jonathan
