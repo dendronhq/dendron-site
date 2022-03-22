@@ -25,7 +25,7 @@ If you are interested in trying this out, please fill out this [survey](https://
 
 This release also includes a number of fixes and improvements, including a new command to aid in creating and reading backup files.
 
-- More information [in our documentation on open backup]([[docs|dendron://dendron.dendron-site/dendron.ref.commands#open-backup]]).
+- More information [[in our documentation on open backup|dendron://dendron.dendron-site/dendron.ref.commands#open-backup]].
 
 ## Highlights
 - feat(vaults): early implementation of self contained vaults
