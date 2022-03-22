@@ -1,10 +1,10 @@
 ---
 id: j417alkbv84mluz5ign7rnc
 title: >-
-    24 - The Internet SearcHandbook
+    24 - The Internet Searcher's Handbook
 desc: >-
     Excerpts from Peter Morville's "The Internet Searcher’s Handbook" on  pre-Google Internet research
-updated: 1647295788203
+updated: 1647916421515
 created: 1647295360335
 ---
 - [The Internet Searcher's Handbook](https://intertwingled.org/the-internet-searchers-handbook/)

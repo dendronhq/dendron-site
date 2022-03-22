@@ -1,0 +1,79 @@
+---
+id: qcwfzax4uaqj54evgp8li5y
+title: '0.87'
+desc: ''
+updated: 1647910727763
+created: 1647909143435
+---
+
+Dendron 0.87 has sprouted  🌱
+
+We are now in early preview of self contained vaults. This lets you make use of and share your Dendron vaults without the need of a workspace (see more information about it [in our RFC about self contained vaults](https://docs.dendron.so/notes/aOOBYTowLEKJDEtLWFiHb/)).
+
+If you are interested in trying this out, please fill out this [survey](https://airtable.com/shr0cwk0a9tujeipZ ) and we'll add you to early-preview where we'll be holding discussions and offering support. We'll also send you specialized instructions for how to set up self contained vaults!
+
+**Speed Improvements**: `Dendron: Show Preview` refreshes faster and editing larger workspaces is more responsive
+
+This release also includes a number of fixes and improvements, including a new command to aid in creating and reading backup files (see more information about it [in our documentation on open backup]([[docs|dendron://dendron.dendron-site/dendron.ref.commands#open-backup]])).
+
+## Highlights
+- feat(vaults): early implementation of self contained vaults
+- enhance(workspace): faster preview refresh
+- enhance(workspace): faster editing in large workspaces
+- enhance(internal): provide a standard way to create and read backup files
+
+## Everything Else
+- fix(workspace): fix crash that can happen when bad frontmatter is present during doc save
+- fix(publish): customHeaderPath breaks publishing if value is set to anything except `header.html`
+- fix(basics): ensure note title is always a string to avoid errors
+- fix(sync): better error message on `Workspace Add and Commit`
+- fix(lookup): lookup (without spaces) should be case-insensitive
+- fix(workspace): issue with notes not being saved on export
+- fix(workspace): race condition when backing up configuration
+
+
+
+## Community
+
+### General Updates
+<!-- TODO: Fill in if any requested -->
+#todo
+### Dendron Reading Series
+
+This week's entry in the [[Dendron Reading Series|dendron://dendron.dendron-site/community.events.reading-series]].
+<!-- TODO: Fill in with incoming -->
+#todo
+
+### Event Reminders
+
+
+- **Community Teatime:** Drink tea, eat food, and hangout with the Dendron crew!
+    - Next: [Wed, Mar 23, 9:00 PM PDT / 04:00 UTC](https://link.dendron.so/luma)
+- **Greenhouse Talks:** Visit the [[Greenhouse Talks page|dendron://dendron.dendron-site/community.events.greenhouse]] for notes from previous sessions.
+    - Subject: Publishing workflows with Dendron.
+    - Description: Interested speakers will present their workflows for publishing content, followed by an open discussion. The event will be recorded and later published online.
+    
+    This is a good opportunity to share tips and tricks about nifty things about your workflow, and ask for advice and input on challenges and pain-points in your current system.
+    - Next: [Fri, Mar 25, 04:00 PM PDT / 23:00 UTC](https://link.dendron.so/luma)
+    - [Greenhouse Talk Recordings - YouTube Playlist](https://link.dendron.so/greenhouse)
+- **Office Hours:** Visit the [[Office Hours page|dendron://dendron.dendron-site/community.events.office-hours]] for notes from previous sessions.
+    - Next: [Wed, Apr 06, 09:00 AM PDT / 16:00 UTC](https://link.dendron.so/luma)
+    - [Office Hour Recordings - YouTube Playlist](https://link.dendron.so/6yPa)
+- **New User Tuesdays:** Visit the [[New User Tuesdays page|dendron://dendron.dendron-site/community.events.new-user-tuesdays]] for notes from previous sessions.
+    - Next: [Tue, Apr 12, 8:30 AM PDT / 15:30 UTC](https://link.dendron.so/luma)
+
+### Thank You's
+
+A big **thanks** to the following gardeners that brought up issues, contributions, and fixes to this release :man_farmer: :woman_farmer: 
+Visit [[Discord Roles|dendron://dendron.dendron-site/community.discord.roles]] for more information.
+
+<!-- TODO: Fill in with incoming -->
+#todo
+
+
+#### Surveyors
+
+A huge thanks to the following Dendronites that provided feedback in the [2022 Dendron User Survey](https://link.dendron.so/74EI). If you would like to help us improve Dendron, please checkout the survey (and earn a shiny [[Surveyor|dendron://dendron.dendron-site/community.discord.roles#surveyor]] Discord badge in the process)!
+
+## Changelog
+![[changelog#0870,1:#0860]]

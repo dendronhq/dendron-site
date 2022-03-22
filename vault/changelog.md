@@ -2,10 +2,30 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1647357479039
+updated: 1647909080208
 created: 1601508213606
 nav_order: 2
 ---
+
+## 0.87.0
+
+### Features
+- feat(vaults): early implementation of self contained vaults ([[docs|dendron://dendron.dendron-site/dendron.topic.vaults.self-contained]]) (#2517) @kaan
+
+### Enhancements
+- enhance(workspace): faster preview refresh (#2527) @tuling
+- enhance(workspace): faster editing in large workspaces (#2527) @tuling
+- enhance(internal): provide a standard way to create and read backup files ([[docs|dendron://dendron.dendron-site/dendron.ref.commands#open-backup]]) (#2521) @hikchoi
+
+
+### Fix
+- fix(workspace): fix crash that can happen when bad frontmatter is present during doc save (#2535) @jonathan
+- fix(publish): customHeaderPath breaks publishing if value is set to anything except `header.html` (#2565) @joshi
+- fix(basics): ensure note title is always a string to avoid errors (#2551) @kaan
+- fix(sync): better error message on `Workspace Add and Commit` (#2552) @joshi
+- fix(lookup): lookup (without spaces) should be case-insensitive (#2570) @joshi
+- fix(workspace): issue with notes not being saved on export (#2574) @tuling
+- fix(workspace): race condition when backing up configuration  (#2581) @kevin
 
 ## 0.86.0
 
