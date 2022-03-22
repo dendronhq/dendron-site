@@ -4,7 +4,9 @@ title: Daily Journal
 desc: ''
 updated: 1646154811793
 created: 1639677731848
-airtableId: recczMnfTKQZX2Bu8
+pods:
+  airtable:
+    dendron.features: recczMnfTKQZX2Bu8
 ---
 ## Documentation 
 

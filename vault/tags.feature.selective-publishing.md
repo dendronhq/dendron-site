@@ -4,6 +4,8 @@ title: Selective Publishing
 desc: ''
 updated: 1647025776161
 created: 1647025776161
-airtableId: recRR2PHpZxjBUqzY
+pods:
+  airtable:
+    dendron.features: recRR2PHpZxjBUqzY
 ---
 

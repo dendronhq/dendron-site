@@ -4,6 +4,8 @@ title: Mobile Optimization for Publishing
 desc: ''
 updated: 1646243483027
 created: 1646243483027
-airtableId: recFwrGJuvm6GUxxg
+pods:
+  airtable:
+    dendron.features: recFwrGJuvm6GUxxg
 ---
 

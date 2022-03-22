@@ -4,6 +4,8 @@ title: Pod Integrations
 desc: ''
 updated: 1643069804758
 created: 1643054639845
-airtableId: recvN9QbIfhKUIJig
+pods:
+  airtable:
+    dendron.features: recvN9QbIfhKUIJig
 ---
 
