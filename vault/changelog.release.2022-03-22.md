@@ -37,7 +37,6 @@ This release also includes a number of fixes and improvements, including a new c
 - fix(workspace): race condition when loading native workspace
 - fix(workspace): prevent errors in Open Backup Command and Run Migration Command in native workspaces
 
-
 ## Community
 
 ### General Updates
