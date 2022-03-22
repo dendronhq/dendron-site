@@ -33,4 +33,3 @@ See [[Navigating|dendron://dendron.dendron-site/dendron.user-guide.navigating]]
 - #feature.goto-note
 - #feature.graph
 - #feature.calendar
-- #feature.context-switching
