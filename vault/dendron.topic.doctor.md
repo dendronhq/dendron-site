@@ -88,6 +88,15 @@ If you have a [[remote vault|dendron.topic.vaults#remote-vault]] that is not cor
 - Command: `Dendron: Doctor`
 - Option: `fixRemoteVaults`
 
+### fixAirtableMetadata
+
+Converts `airtableId` in Note from a single scalar value to a hashmap. This will prompt you to select hierarchy of notes you would want to update and pod id used to export note(s) to Airtable. The doctor action will update airtable id under pods namespace in Note's frontmatter.
+```yml
+pods:
+  airtable:
+    <your_pod_id>: adfg1234
+```
+
 ## CLI
 
 Doctor commands are also available via the CLI. Note that not all doctor commands are available in the CLI
