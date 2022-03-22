@@ -43,8 +43,6 @@ This release also includes a number of fixes and improvements, including a new c
 ### General Updates
 Check out our founder, Kevin, discuss his background and how he started Dendron on the *From Zero to One* podcast! Find out more details in the [episode blurb](https://www.0011.one/posts/S3E10) and listen on [Spotify](https://open.spotify.com/episode/5JhPoOCvXl3om7m905dhC4?si=cf6240803a4940e7&nd=1) and [Xiaoyuzhoufm](https://www.xiaoyuzhoufm.com/episode/621f25f2761e0799b628feca).
 
-
-
 ### Dendron Reading Series
 
 This week's entry in the [[Dendron Reading Series|dendron://dendron.dendron-site/community.events.reading-series]].
