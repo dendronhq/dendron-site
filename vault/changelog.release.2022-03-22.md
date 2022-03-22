@@ -32,7 +32,7 @@ This release also includes a number of fixes and improvements, including a new c
 - fix(workspace): race condition when backing up configuration
 - feat(workspace): doctor command to find (and suggest fix for) keyboard conflicts
 - enhance(workspace): warn on keyboard conflicts on first install
-- enhance(pods): support exporting a note to multiple Airtable destination
+- enhance(pods): support exporting a note to multiple Airtable destinations
 - fix(views): unblock preview rendering when backlink is invalid
 - fix(workspace): race condition when loading native workspace
 - fix(workspace): prevent errors in Open Backup Command and Run Migration Command in native workspaces
