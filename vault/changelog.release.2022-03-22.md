@@ -2,7 +2,7 @@
 id: qcwfzax4uaqj54evgp8li5y
 title: '0.87'
 desc: ''
-updated: 1647968725434
+updated: 1647972192174
 created: 1647909143435
 ---
 
@@ -42,6 +42,14 @@ This release also includes a number of fixes and improvements, including a new c
 
 ### General Updates
 Check out our founder, Kevin, discuss his background and how he started Dendron on the *From Zero to One* podcast! Find out more details in the [episode blurb](https://www.0011.one/posts/S3E10) and listen on [Spotify](https://open.spotify.com/episode/5JhPoOCvXl3om7m905dhC4?si=cf6240803a4940e7&nd=1) and [Xiaoyuzhoufm](https://www.xiaoyuzhoufm.com/episode/621f25f2761e0799b628feca).
+
+
+### Starboard and TIL Highlights
+<!-- TODO: update links. Delete section is no new items-->
+> These are highlights from the [[Dendron Discord|dendron://dendron.dendron-site/community.discord.channels]] `#starboard` and `#today-i-learned` channels.
+
+- 💡 `xg#6522` shared a fun fact: [the distance between Dendron and Hugo is 1988km by car, a 25h drive](https://pk.2markers.com/363114-369224). "I am tempted to see if I can write an exporter for my needs in less than 25h 😁"
+    - We say go for it!
 
 
 
