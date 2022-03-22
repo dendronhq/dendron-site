@@ -2,7 +2,7 @@
 id: 7c00d606-7b75-4d28-b563-d75f33f8e0d7
 title: Roles
 desc: ''
-updated: 1644870703201
+updated: 1647974278021
 created: 1604237102230
 ---
 
@@ -64,6 +64,12 @@ A **Planter** is a member who published their notes using Dendron
 
 A **Scout** is a member who submitted at least one Dendron Reading Series suggestion that gets published. For information on community surveys: [Dendron Blog - Community Reports](https://blog.dendron.so/notes/j60ZNmx1IcdXtGZRdRb6X/).
 
+### Early Bird
+
+An **Early Bird** is a member who has submitted at least one feedback survey as part of testing features in preview.  ^bwwwe07g4x44
+
+These members also get access to the [[early-preview|dendron://dendron.dendron-site/community.discord.channels#early-preview]] channel.
+
 ### Seeder
 
 A **Seeder** is a member who referred a fellow gardener to Dendron.
@@ -75,3 +81,9 @@ A **Surveyor** is a member who completed at least one Dendron survey. For inform
 ### Taxonomist
 
 A **Taxonomist** is a member who improved the Dendron documentation.
+
+## Internal Roles
+
+### Dendron Team
+
+This role is to update everyone in the Dendron core team

@@ -261,7 +261,7 @@ Tracks [[vaults|dendron.concepts#vaults]] for the workspace. You shouldn't have 
 See [[Vault Configuration|dendron.topic.vaults#workspace-vault,1:#configuration-1]]
 
 ## Dev
-Development configuration covers option to enable [[experimental 🧪|dendron._ref.status#experimental-🧪]] features and when working on Dendron. 
+Development configuration covers option to enable [[experimental 🧪|dendron._ref.status#experimental-]] features and when working on Dendron. 
 
 ### enableWebUI
 - default: false
@@ -286,3 +286,9 @@ It will work by adding it under the `dev` section (which is not created in defau
 dev:
     enableExportPodV2: true
 ```
+
+### enableSelfContainedVaults
+- default: false
+
+If set to true, this config enables [[Self Contained Vaults|dendron://dendron.dendron-site/dendron.topic.vaults.self-contained]],
+which is the upcoming vault type for Dendron that simplifies how vaults work.

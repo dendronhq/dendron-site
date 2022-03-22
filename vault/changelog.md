@@ -2,10 +2,48 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1646766226137
+updated: 1647966906935
 created: 1601508213606
 nav_order: 2
 ---
+
+## 0.87.0
+
+### Features
+- feat(vaults): early implementation of self contained vaults ([[docs|dendron://dendron.dendron-site/dendron.topic.vaults.self-contained]]) (#2517) @kaan
+- feat(workspace): doctor command to find (and suggest fix for) keyboard conflicts ([[docs|dendron://dendron.dendron-site/dendron.topic.doctor]]) (#2578) @hikchoi
+
+### Enhancements
+- enhance(workspace): faster preview refresh (#2527) @tuling
+- enhance(workspace): faster editing in large workspaces (#2527) @tuling
+- enhance(internal): provide a standard way to create and read backup files ([[docs|dendron://dendron.dendron-site/dendron.ref.commands#open-backup]]) (#2521) @hikchoi
+- enhance(workspace): warn on keyboard conflicts on first install (#2578) @hikchoi
+- enhance(pods): support exporting a note to multiple Airtable destinations ([[docs|dendron://dendron.dendron-site/dendron.topic.pod-v2.ref.builtin.airtable.export]]) (#2582) @Joshi
+
+### Fix
+- fix(workspace): fix crash that can happen when bad frontmatter is present during doc save (#2535) @jonathan
+- fix(publish): customHeaderPath breaks publishing if value is set to anything except `header.html` (#2565) @joshi
+- fix(basics): ensure note title is always a string to avoid errors (#2551) @kaan
+- fix(sync): better error message on `Workspace Add and Commit` (#2552) @joshi
+- fix(lookup): lookup (without spaces) should be case-insensitive (#2570) @joshi
+- fix(workspace): issue with notes not being saved on export (#2574) @tuling
+- fix(workspace): race condition when backing up configuration  (#2581) @kevin
+- fix(views): unblock preview rendering when backlink is invalid (#2586) @jonathan
+- fix(workspace): race condition when loading native workspace (#2604) @kevin
+- fix(workspace): prevent errors in Open Backup Command and Run Migration Command in native workspaces (#2607) @hikchoi
+
+## 0.86.0
+
+### Enhancements
+- enhance(pods): support null entries for dates in Airtable export pod v2 ([[docs|dendron://dendron.dendron-site/dendron.topic.pod-v2.ref.builtin.airtable.export#date]]) (#2520) @joshi
+- enhance(basics): improve performance around reference rendering including hover (#2543) @jonathan
+- enhance(workspace): Dendron still loads if there's a missing local vault (#2526) @kaan
+
+### Fix
+- fix(basics): ensure note title is always a string to avoid errors (#2551) @kaan
+- fix(pods): Google Docs Export pod displays Bad Request error on export (#2529) @joshi
+- fix(publish): better error messages when publishing (#2538) @kevin
+- fix(views): block anchors showing up in the preview (#2548) @kaan
 
 ## 0.85.0
 

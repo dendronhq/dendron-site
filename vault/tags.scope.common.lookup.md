@@ -4,7 +4,9 @@ title: Lookup
 desc: Anything lookup related
 updated: 1645246024617
 created: 1631657275412
-airtableId: recdeBYF1cA0yL8Sr
+pods:
+  airtable:
+    dendron.scopes: recdeBYF1cA0yL8Sr
 ---
 
 Anything lookup related. This means anything to do with how results display in the lookup widget. 

@@ -2,7 +2,7 @@
 id: FnK2ws6w1uaS1YzBUY3BR
 title: GitHub Pages with GitHub Actions
 desc: ''
-updated: 1644904747809
+updated: 1647633491859
 created: 1631306630307
 ---
 
@@ -165,7 +165,7 @@ The workflow YAML includes a commented out value, `cname`, at the very bottom of
 Also ensure that your `siteUrl` is adjusted properly in `dendron.yml`:
 
 ```yaml
-site:
+publishing:
     siteUrl: https://example.com
 ```
 

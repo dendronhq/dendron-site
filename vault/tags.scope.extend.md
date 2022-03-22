@@ -4,7 +4,9 @@ title: Extend
 desc: Related to the functional area of providing extension points to Dendron
 updated: 1645521908505
 created: 1639424337257
-airtableId: recvOpqfo2DhfEeEi
+pods:
+  airtable:
+    dendron.scopes: recvOpqfo2DhfEeEi
 ---
 
 Related to the functional area of providing extension points to Dendron

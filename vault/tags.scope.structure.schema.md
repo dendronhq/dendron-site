@@ -4,7 +4,9 @@ title: Schema
 desc: Related to Schema Functionality
 updated: 1646409719588
 created: 1634265996571
-airtableId: recv1pP9XeFeJqM4j
+pods:
+  airtable:
+    dendron.scopes: recv1pP9XeFeJqM4j
 ---
 
 ## Examples

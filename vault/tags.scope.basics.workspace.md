@@ -4,7 +4,9 @@ title: Workspace
 desc: ''
 updated: 1645245792535
 created: 1645245012242
-airtableId: rec4HYy6raEZ6Kzgr
+pods:
+  airtable:
+    dendron.scopes: rec4HYy6raEZ6Kzgr
 ---
 ## Examples
 

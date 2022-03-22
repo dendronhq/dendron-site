@@ -2,7 +2,7 @@
 id: 84df871b-9442-42fd-b4c3-0024e35b5f3c
 title: Telemetry
 desc: ""
-updated: 1645765332037
+updated: 1647618227862
 created: 1619460500071
 nav_order: 6.1
 ---
@@ -59,14 +59,16 @@ Data is collected in scenarios that are described below.
 
 When Dendron initializes, we collect data about on initialization time. This helps us measure the performance impact of changes that run before startup as well as improvements to our indexing performance over time.
 
-|                  Field | Attributes | Description                                                         |
-| ---------------------: | :--------: | ------------------------------------------------------------------- |
-|             `duration` |  _number_  | Number of seconds for startup                                       |
-|             `numNotes` |  _number_  | Number of notes across all vaults (rounded to the nearest 10 notes) |
-|            `numVaults` |  _number_  | Number of vaults in workspace                                       |
-|            `noCaching` | _boolean_  | Check whether caching is disabled                                   |
-|        `workspaceType` |  _string_  | The type of Dendron workspace.                                      |
-| `codeWorkspacePresent` | _boolean_  | Whether a `dendron.code-workspace` file was present                 |
+|                        Field | Attributes | Description                                                                                                                   |
+| ---------------------------: | :--------: | ----------------------------------------------------------------------------------------------------------------------------- |
+|                   `duration` |  _number_  | Number of seconds for startup                                                                                                 |
+|                   `numNotes` |  _number_  | Number of notes across all vaults (rounded to the nearest 10 notes)                                                           |
+|                  `numVaults` |  _number_  | Number of vaults in workspace                                                                                                 |
+|                  `noCaching` | _boolean_  | Check whether caching is disabled                                                                                             |
+|              `workspaceType` |  _string_  | The type of Dendron workspace.                                                                                                |
+|       `codeWorkspacePresent` | _boolean_  | Whether a `dendron.code-workspace` file was present                                                                           |
+| `selfContainedVaultsEnabled` | _boolean_  | `true` if the experimental [self contained vaults](https://wiki.dendron.so/notes/o4i7a81j778jyh7wql0nacb/) feature is enabled |
+|     `numSelfContainedVaults` |  _number_  | Number of [self contained vaults](https://wiki.dendron.so/notes/o4i7a81j778jyh7wql0nacb/) in workspace                        |
 
 ### Automatic Fixes
 
@@ -119,6 +121,15 @@ When we detect that a user has extensions that incompatible with Dendron's capab
 |                 Field | Attributes | Description                                                                        |
 | --------------------: | :--------: | ---------------------------------------------------------------------------------- |
 | `installedExtensions` | _string[]_ | extension ID of the pre-defined extension(s) that may cause incompatibility issues |
+
+#### Keybinding conflicts
+
+When we detect that a user has an extension that has keybindings that are known to conflict with Dendron's default keybindings, we warn the users and give guidance on how to resolve them. When Dendron is first installed, a user will be prompted with a warning message if keybinding conflicts are detected. We track if the user accepted the message and proceeded with conflict resolution. After initial installation, this feature is available as a doctor command [[fixKeybindingConflicts|dendron://dendron.dendron-site/dendron.topic.doctor#fixkeybindingconflicts]]. In both initial install and every doctor command execution, we track if keybinding conflicts were detected.
+
+|                 Field | Attributes | Description                                                                        |
+| --------------------: | :--------: | ---------------------------------------------------------------------------------- |
+| `source` | _string_ | Where the detection event happened. Either `activation` or `doctor` |
+
 
 ### Tutorial Progression
 
@@ -195,6 +206,33 @@ For the Copy Note Link command, we also collect some information to understand w
 | -----------: | :--------: | ------------------------------------------------------------------- |
 |       `type` |  _string_  | What type of file was this, a note or non-note?                     |
 | `anchorType` |  _string_  | If an anchor was created, what type was it? Block, header, or line? |
+
+#### Doctor
+
+For the Doctor command, we also collect what doctor action was performed and at what scope.
+
+|    Field | Attributes | Description                                                            |
+| -------: | :--------: | ---------------------------------------------------------------------- |
+| `action` |  _string_  | Name of the doctor action if one was performed, like "fixFrontMatter". |
+| `scope`  |  _string_  | The scope of the action, either "workspace" or "file".                 |
+
+#### Workspace Sync
+
+To understand how users take advantage of our synchronization features, we also
+collect the following data if the Workspace Sync command is used.
+
+|               Field | Attributes | Description                                                               |
+| ------------------: | :--------: | ------------------------------------------------------------------------- |
+| `hasMultiVaultRepo` | _boolean_  | True if there was a repo that had multiple vaults in it, false otherwise. |
+
+#### Copy To Clipboard
+
+Copy To Clipboard is a command that could only be invoked by clicking on a Markdown Link in a VSCode Webview.
+We use this as a simple way to simulate a copy button within a rendered markdown preview. We track the source of this command's invocation to better understand the user experience of markdown based webviews.
+
+|               Field | Attributes | Description                                                               |
+| ------------------: | :--------: | ------------------------------------------------------------------------- |
+| `source` | _string_  | Name of the webview that this command was invoked. |
 
 ### CLI commands
 

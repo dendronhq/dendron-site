@@ -4,7 +4,9 @@ title: Hierarchy
 desc: The feature that started it all
 updated: 1646156995474
 created: 1639677691719
-airtableId: recAcze4qWUS1iTWv
+pods:
+  airtable:
+    dendron.features: recAcze4qWUS1iTWv
 ---
 ## Documentation
 

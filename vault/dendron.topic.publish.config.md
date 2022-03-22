@@ -60,6 +60,8 @@ publishing:
 
 > Please note that the properties listed below are not strictly categorized by namespace, but by what they do. Use the namespace described in the summary section of this note to reference the actual organization of these properties.
 
+Note that in addition to dendron.yml configuration, individual notes can also have publishing specific options in the [[frontmatter|dendron://dendron.dendron-site/dendron.topic.frontmatter.config.publishing]]
+
 ## Site properties
 These are properties related to how and where the site is being published, as well as what part of your workspace is being published.
 

@@ -131,4 +131,4 @@ git push
 
 ## [Lookup](https://handbook.dendron.so/notes/b89ba854-72fb-4ebc-a8a0-55960b89e9dc.html#lookup)
 
--   this guide is heavily inspired by [[the GitHub Action guide|dendron.guides.tips#publish-to-github-pages-with-actions]] originally published by [Luke Carrier](https://github.com/LukeCarrier)
+> Credit to [Luke Carrier](https://github.com/LukeCarrier) for his initial contributions to publishing Dendron with GitHub.

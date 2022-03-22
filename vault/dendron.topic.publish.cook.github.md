@@ -20,9 +20,9 @@ Before continuing: **we do not recommend this path for publishing.** If possible
 
 ![[dendron://dendron.dendron-site/dendron.topic.git#prerequisites,1:#*]]
 
-- You have [[Dendron CLI|dendron.ref.cli]] installed (version `0.84.0` or greater)
+- You have [[Dendron CLI|dendron.ref.cli]] installed locally(version `0.84.0` or greater)
 
-![[Local directory|dendron://dendron.dendron-site/dendron.topic.cli#installation:#common-options]]
+![[dendron.topic.cli#local-directory,1:#*]]
 
 ## Example Deployments
 You can see deployed examples of these instructions in the following repositories.

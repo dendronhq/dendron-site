@@ -4,6 +4,10 @@ title: Export
 desc: ''
 updated: 1642037942944
 created: 1642037942944
-airtableId: recyme9SwuL4kvyYx
+pods:
+  airtable:
+    dendron.features: recyme9SwuL4kvyYx
 ---
+
+Export notes from dendron to other tools
 

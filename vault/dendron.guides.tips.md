@@ -2,7 +2,7 @@
 id: 692fa114-f798-467f-a0b9-3cccc327aa6f
 title: Tips
 desc: ''
-updated: 1642010896506
+updated: 1647380307165
 created: 1595614204291
 nav_order: 4.1
 ---
@@ -84,99 +84,7 @@ You can collapse headers at different levels and bullets at different indentatio
 
 ### Publish to GitHub Pages with Actions
 
-- [Discord thread](https://discordapp.com/channels/717965437182410783/749641193322971238/759190468671438848)
-
-It's possible to publish your Dendron site to GitHub Pages without the shadow copy of your notes in the `docs` directory.
-
-You can create a GitHub Actions workflow to perform the export process using the Dendron CLI and push the result to your `pages` branch, triggering a Pages build.
-
-Note that this configuration won't retain any history on the `paths` branch. Paths below are relative to your workspace root.
-
-Ignore the shadow directories in `.gitignore`:
-
-```
-gitignore
-# Dendron
-/docs/assets/
-/docs/notes/
-/docs/_site/
-
-# npm
-/node_modules/
-```
-
-1. Create a `package.json` to install the package:
-  ```json
-  {
-    "scripts": {
-      "dendron": "dendron-cli"
-    },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/{{username}}/{{repo}}.git"
-    },
-    "license": "Creative Commons Attribution 4.0 International",
-    "devDependencies": {
-      "@dendronhq/dendron-cli": "*"
-    }
-  }
-  ```
-2.  Create the workflow 
-  ```
-  mkdir -p .github/workflows
-  touch .github/workflows/dendron.yml
-  ```
-  Add the following
-  ```yaml
-  name: Dendron
-
-  on:
-    push:
-      branches:
-      - main
-
-  jobs:
-    build:
-      runs-on: ubuntu-latest
-      steps:
-      - name: Checkout source
-        uses: actions/checkout@v2
-
-      - name: Install npm dependencies
-        run: npm install
-
-      - name: Build pod
-        run: npm run dendron-cli -- buildSite --wsRoot . --stage prod
-
-      - name: Deploy site
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_branch: pages
-          publish_dir: docs/
-          force_orphan: true
-          enable_jekyll: false
-  ```
-  3. Commit all your changes
-  ```
-  git add .
-  git commit -m "add Dendron action"
-  ```
-  4. Create the pages branch
-  Configure your repository's Pages settings as follows:
-  ```
-  git checkout -b pages
-  git push -u origin HEAD
-  ```
-  5. Update pages branch on GitHub
-  - go to the pages settings, eg. `https://github.com/dendronhq/seed.services/settings/pages`
-    - choose the following
-    ```
-    * _Branch_: `pages`
-    * _Folder_: _/ (root)_
-    ```
-
-Finally, commit these three files and push them to your `master` branch. Within a few seconds you should see the workflow run, your `pages` branch get updated and your Pages build start.
+- [[GitHub Pages with GitHub Actions|dendron://dendron.dendron-site/dendron.topic.publish.cook.github-action]]
 
 ### Go back to previous Note
 
@@ -273,9 +181,9 @@ You can pin tabs in VS Code by right clicking on a tab and selecting `Pin Tab`.
 The latest VS Code lets you control pin behavior for tabs. It's not currently documented as of 2020.09.28 but as of the latest Insiders build, it has a few different options to control the pinned behavior. 
 
 - options:
-  - normal (default), normal tab size with a pin icon
-  - shrink: reduced tab size with some text visible
-  - compact: only icon visible
+  - `normal`: (default) normal tab size with a pin icon
+  - `shrink`: reduced tab size with some text visible
+  - `compact`: only icon visible
 
 ```json
 "workbench.editor.pinnedTabSizing": "shrink"
@@ -309,6 +217,22 @@ You can see a video of this workflow in the video below.
 <a href="https://www.loom.com/share/dd27df6d556d4ba6b28b2028ca7d1455"> 
 <img style="" src="https://cdn.loom.com/sessions/thumbnails/dd27df6d556d4ba6b28b2028ca7d1455-with-play.gif"> </a>
 
+
+### Indenting Wrapped Text
+
+Some PKM editors like Obsidian will automatically further indent lines in places like bulletpoints. VS Code offers this functionality via the `wrappingIndent` setting:
+
+```json
+    "editor.wrappingIndent": "same",
+```
+
+- options
+  - `none`: No indentation. Wrapped lines begin at column 1.
+  - `same`: Wrapped lines get the same indentation as the parent.
+  - `indent`: Wrapped lines get +1 indentation toward the parent.
+  - `deepIndent`: Wrapped lines get +2 indentation toward the parent.
+
+Changing the value to indent may provide better visual understanding of indentation, otherwise `same` is the default.
 
 ## Snippets
 

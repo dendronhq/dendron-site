@@ -78,3 +78,4 @@ _This is for people that want to explore the cutting edge. Explore here to maste
     - Learn the [[best practices and guidance on using Dendron collaboratively with Teams|dendron://dendron.dendron-site/dendron.topic.teams]].
 - Extending
     - Learn how to [[access the API and the extend the power of Dendron's capabilities, with Hooks|dendron://dendron.dendron-site/dendron.topic.hooks]].
+    - Visit and comment on new feature and design ideas, for Dendron, with our [Request For Comments (RFCs)](https://docs.dendron.so/notes/f143ca38-dcc6-4cd3-b84b-997aec1160ef/) in our [GitHub Discussions](https://github.com/dendronhq/dendron/discussions).

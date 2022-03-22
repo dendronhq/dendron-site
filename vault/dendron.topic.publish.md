@@ -24,6 +24,7 @@ Dendron publishes your notes using a custom [Next.js](https://nextjs.org/) appli
 ## Topics
 - [[Getting Started|dendron://dendron.dendron-site/dendron.topic.publish.quickstart]]: How to get started
 - [[Features|dendron://dendron.dendron-site/dendron.topic.publish.features]]: Dendron publishing features
+- [[Concepts|dendron://dendron.dendron-site/dendron.topic.publish.concepts]]
 - [[CLI|dendron://dendron.dendron-site/dendron.topic.publish.cli]]: The Command Line Interface for publishing
 - [[Configuration|dendron://dendron.dendron-site/dendron.topic.publish.config]]: Customizing publishing
 - [[Cookbook|dendron://dendron.dendron-site/dendron.topic.publish.cook]]: Various workflows for publishing

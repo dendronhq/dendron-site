@@ -2,9 +2,11 @@
 id: DC0XJBdzxmuuLPzuIfFvk
 title: Navigate
 desc: Relating to navigating between notes
-updated: 1645931455212
+updated: 1647025505612
 created: 1639016411150
-airtableId: rechaazgsu6ER3oUp
+pods:
+  airtable:
+    dendron.scopes: rechaazgsu6ER3oUp
 ---
 
 Relating to navigating between notes
