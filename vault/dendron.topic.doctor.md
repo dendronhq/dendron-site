@@ -2,7 +2,7 @@
 id: ZeC74FYVECsf9bpyngVMU
 title: Doctor
 desc: ""
-updated: 1643834010821
+updated: 1647963138660
 created: 1640418184682
 ---
 
@@ -52,6 +52,14 @@ Similar to [[createMissingLinkedNotes|dendron.topic.doctor#createmissinglinkedno
 - Option: `findBrokenLinks`
 
 This simply lists all broken links in the scope.
+
+### addMissingDefaultConfigs
+
+- Detects if there are any missing configurations that are required or has a default value in `dendron.yml`.
+- When a missing configuration exists, a backup of `dendron.yml` is created and the missing keys are added with their corresponding default values.
+
+- Command: `Dendron: Doctor`
+- Option: `addMissingDefaultConfigs`
 
 ### findIncompatibleExtensions
 
