@@ -12,6 +12,6 @@ created: 1647916399883
 
 > Credit to `johnknowles#1154` for contributing the link for this week's Dendron Reading Series!
 
-It can be interesting to consider the role that games play in our lives. In the era of arcade and video games, the notion of a *high score* an object of much attention—a single metric  to judge all players of the game against. The *high score* becomes as much as an adversary as the monsters in the game, or the friends at our side. 
+It can be interesting to consider the role that games play in our lives. In the era of arcade and video games, the notion of a *high score* is an object of much attention—a single metric to judge all players of the game against. The *high score* becomes as much an adversary as the monsters in the game, or the friends at our side. 
 
 And what does the ability to put up high scores in games tell us about the player? Have they figured something out, have a foolproof strategy, secret moves or know-how? Or is it something more innate—a natural knack for the game—a set of intuitions, feelings, instincts that guide the player? And does this ability speak to other aspects of the player’s life? Does it suggest something about reaction speed, cognitive ability or general strategic reasoning skills? 
