@@ -2,7 +2,7 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1647909080208
+updated: 1647966906935
 created: 1601508213606
 nav_order: 2
 ---
@@ -11,12 +11,14 @@ nav_order: 2
 
 ### Features
 - feat(vaults): early implementation of self contained vaults ([[docs|dendron://dendron.dendron-site/dendron.topic.vaults.self-contained]]) (#2517) @kaan
+- feat(workspace): doctor command to find (and suggest fix for) keyboard conflicts ([[docs|dendron://dendron.dendron-site/dendron.topic.doctor]]) (#2578) @hikchoi
 
 ### Enhancements
 - enhance(workspace): faster preview refresh (#2527) @tuling
 - enhance(workspace): faster editing in large workspaces (#2527) @tuling
 - enhance(internal): provide a standard way to create and read backup files ([[docs|dendron://dendron.dendron-site/dendron.ref.commands#open-backup]]) (#2521) @hikchoi
-
+- enhance(workspace): warn on keyboard conflicts on first install (#2578) @hikchoi
+- enhance(pods): support exporting a note to multiple Airtable destination ([[docs|dendron://dendron.dendron-site/dendron.topic.pod-v2.ref.builtin.airtable.export]]) (#2582) @Joshi
 
 ### Fix
 - fix(workspace): fix crash that can happen when bad frontmatter is present during doc save (#2535) @jonathan
@@ -26,6 +28,9 @@ nav_order: 2
 - fix(lookup): lookup (without spaces) should be case-insensitive (#2570) @joshi
 - fix(workspace): issue with notes not being saved on export (#2574) @tuling
 - fix(workspace): race condition when backing up configuration  (#2581) @kevin
+- fix(views): unblock preview rendering when backlink is invalid (#2586) @jonathan
+- fix(workspace): race condition when loading native workspace (#2604) @kevin
+- fix(workspace): prevent errors in Open Backup Command and Run Migration Command in native workspaces (#2607) @hikchoi
 
 ## 0.86.0
 

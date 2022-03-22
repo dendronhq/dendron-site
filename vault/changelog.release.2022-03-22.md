@@ -2,7 +2,7 @@
 id: qcwfzax4uaqj54evgp8li5y
 title: '0.87'
 desc: ''
-updated: 1647910727763
+updated: 1647968725434
 created: 1647909143435
 ---
 
@@ -12,7 +12,7 @@ We are now in early preview of self contained vaults. This lets you make use of 
 
 If you are interested in trying this out, please fill out this [survey](https://airtable.com/shr0cwk0a9tujeipZ ) and we'll add you to early-preview where we'll be holding discussions and offering support. We'll also send you specialized instructions for how to set up self contained vaults!
 
-**Speed Improvements**: `Dendron: Show Preview` refreshes faster and editing larger workspaces is more responsive
+**Speed Improvements**: `Dendron: Show Preview` refreshes faster and editing larger workspaces is more responsive.
 
 This release also includes a number of fixes and improvements, including a new command to aid in creating and reading backup files (see more information about it [in our documentation on open backup]([[docs|dendron://dendron.dendron-site/dendron.ref.commands#open-backup]])).
 
@@ -30,22 +30,28 @@ This release also includes a number of fixes and improvements, including a new c
 - fix(lookup): lookup (without spaces) should be case-insensitive
 - fix(workspace): issue with notes not being saved on export
 - fix(workspace): race condition when backing up configuration
-
+- feat(workspace): doctor command to find (and suggest fix for) keyboard conflicts
+- enhance(workspace): warn on keyboard conflicts on first install
+- enhance(pods): support exporting a note to multiple Airtable destination
+- fix(views): unblock preview rendering when backlink is invalid
+- fix(workspace): race condition when loading native workspace
+- fix(workspace): prevent errors in Open Backup Command and Run Migration Command in native workspaces
 
 
 ## Community
 
 ### General Updates
-<!-- TODO: Fill in if any requested -->
-#todo
+Check out our founder, Kevin, discuss his background and how he started Dendron on the *From Zero to One* podcast! Find out more details in the [episode blurb](https://www.0011.one/posts/S3E10) and listen on [Spotify](https://open.spotify.com/episode/5JhPoOCvXl3om7m905dhC4?si=cf6240803a4940e7&nd=1) and [Xiaoyuzhoufm](https://www.xiaoyuzhoufm.com/episode/621f25f2761e0799b628feca).
+
+
+
 ### Dendron Reading Series
 
 This week's entry in the [[Dendron Reading Series|dendron://dendron.dendron-site/community.events.reading-series]].
-<!-- TODO: Fill in with incoming -->
-#todo
+
+![[dendron://dendron.dendron-site/community.events.reading-series.2022.03.22]]
 
 ### Event Reminders
-
 
 - **Community Teatime:** Drink tea, eat food, and hangout with the Dendron crew!
     - Next: [Wed, Mar 23, 9:00 PM PDT / 04:00 UTC](https://link.dendron.so/luma)
@@ -67,13 +73,39 @@ This week's entry in the [[Dendron Reading Series|dendron://dendron.dendron-site
 A big **thanks** to the following gardeners that brought up issues, contributions, and fixes to this release :man_farmer: :woman_farmer: 
 Visit [[Discord Roles|dendron://dendron.dendron-site/community.discord.roles]] for more information.
 
-<!-- TODO: Fill in with incoming -->
-#todo
+- [raeyulca](https://github.com/raeyulca)
+  - [Config frontmatter in schema template isn't copied when creating a new note](https://github.com/dendronhq/dendron/issues/2590)
 
+- [Jeff Hopper](https://github.com/HopperTech)
+  - [Hitting tab in Lookup Note to complete the path and then adding to the path does not work](https://github.com/dendronhq/dendron/issues/2579)
+
+- [Jody Foo](https://github.com/fnurl)
+  - [Unable to create wikilink alias that only differs in case from page title](https://github.com/dendronhq/dendron/issues/2575)
+
+- [Aleksey Rowan](https://github.com/aleksey-rowan) `@aleksey#5276`
+  - [Updating backlinks can lead to conflicts in dirty editors](https://github.com/dendronhq/dendron/issues/2573)
+  - [Adding past CROP events](https://github.com/dendronhq/dendron-site/pull/444)
+
+- [Nickolay Kondratyev](https://github.com/nickolay-kondratyev) `@nickolay-kond#9861`
+  - #role.bugcatcher
+  - [Create New does not show after auto complete is used to complete something](https://github.com/dendronhq/dendron/issues/2588)
+
+- [John Knowles](https://github.com/jpknwls) `@johnknowles#1154`
+  - #role.taxonomist
+  - [Updated local CLI installation link](https://github.com/dendronhq/dendron-site/pull/438)
+  - [update Academic Workflows](https://github.com/dendronhq/dendron-site/pull/440)
+  - [Adds "Indenting Wrapped Text" and Edits "Pinned Tabs"](https://github.com/dendronhq/dendron-site/pull/443)
+  - [Update Publish.Cook.GithubPages to reflect current yaml](https://github.com/dendronhq/dendron-site/pull/451)
 
 #### Surveyors
 
 A huge thanks to the following Dendronites that provided feedback in the [2022 Dendron User Survey](https://link.dendron.so/74EI). If you would like to help us improve Dendron, please checkout the survey (and earn a shiny [[Surveyor|dendron://dendron.dendron-site/community.discord.roles#surveyor]] Discord badge in the process)!
+
+- `@Gander7#5328`
+- `@yiming#8413`
+- `@siddacious#3905`
+- `@Tychronos#6624`
+
 
 ## Changelog
 ![[changelog#0870,1:#0860]]
