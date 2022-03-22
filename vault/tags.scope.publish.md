@@ -6,7 +6,9 @@ desc: >-
   your notes.
 updated: 1647025775593
 created: 1631512882518
-airtableId: recjakOtXmNySHA3L
+pods:
+  airtable:
+    dendron.scopes: recjakOtXmNySHA3L
 ---
 
 Static site generation, sending note links and anything to do with publishing your notes.

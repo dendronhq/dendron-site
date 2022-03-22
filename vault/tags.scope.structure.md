@@ -4,7 +4,9 @@ title: Structure
 desc: ''
 updated: 1647025717510
 created: 1644724514813
-airtableId: recctrkafGKsa0IIt
+pods:
+  airtable:
+    dendron.scopes: recctrkafGKsa0IIt
 ---
 
 Related to keeping notes in a structured, ordered fashion. 

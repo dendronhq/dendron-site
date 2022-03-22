@@ -4,7 +4,9 @@ title: Common
 desc: ''
 updated: 1647026761499
 created: 1645113185297
-airtableId: recRZp3u0FQwKbfPQ
+pods:
+  airtable:
+    dendron.scopes: recRZp3u0FQwKbfPQ
 ---
 
 ## Index

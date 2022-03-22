@@ -2,7 +2,7 @@
 id: ZeC74FYVECsf9bpyngVMU
 title: Doctor
 desc: ""
-updated: 1647533705859
+updated: 1647969942485
 created: 1640418184682
 ---
 
@@ -17,6 +17,15 @@ The doctor family of commands will automatically fix various issues with Dendron
 - This requires you to have a note open and in focus before running the doctor command.
 
 ## Commands
+
+### fixAirtableMetadata
+
+Update airtable export pod metadata to latest version. Before running this command, Navigate to the domain of the hiearchy (eg. `tasks`) that is currently exported
+When run, the doctor will ask for the following:
+- hierarchy to export (same hierarchy you are currently on)
+- pod id that this hierarchy is exported to (select the relevant pod config)
+
+After doctor has run, it will convert all scalar airtable destinations to the new value
 
 ### fixFrontmatter
 

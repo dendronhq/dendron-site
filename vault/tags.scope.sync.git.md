@@ -4,7 +4,9 @@ title: Git
 desc: Issues with syncing Dendron workspaces with Git
 updated: 1645523000334
 created: 1645522175361
-airtableId: rec7xrQdgQjXavGeD
+pods:
+  airtable:
+    dendron.scopes: rec7xrQdgQjXavGeD
 ---
 
 Anything to do with notes getting sync'd with Git local or remote vaults. 

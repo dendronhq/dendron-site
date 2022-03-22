@@ -4,7 +4,9 @@ title: Note Types
 desc: ''
 updated: 1645935359919
 created: 1644724740315
-airtableId: recAOCcldKtOHkuhy
+pods:
+  airtable:
+    dendron.scopes: recAOCcldKtOHkuhy
 ---
 
 Encompasses the various note-types in Dendron to help people structure their notes. 

@@ -2,7 +2,7 @@
 id: oTW7BFzKIlOd6iQnnNulg
 title: Airtable Export Pod
 desc: ''
-updated: 1647519543605
+updated: 1647969758093
 created: 1638945970366
 ---
 
@@ -10,6 +10,7 @@ created: 1638945970366
 
 The Airtable export pod will export a Dendron note to a row in an Airtable. Various aspects of the note can be exported - from frontmatter fields to the note body.
 You can view the example video [here](https://www.loom.com/share/ed27a420fd794715873f87667572e245)
+
 ## Requirements
 - the table must already exist in Airtable
 - all columns that you want to write to must exist in Airtable

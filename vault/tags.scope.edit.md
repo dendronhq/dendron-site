@@ -4,7 +4,9 @@ title: Edit
 desc: About the VS Code editing experience
 updated: 1645935222371
 created: 1639633464112
-airtableId: reco9ZYB6M2OEYwsD
+pods:
+  airtable:
+    dendron.scopes: reco9ZYB6M2OEYwsD
 ---
 
 ## Summary

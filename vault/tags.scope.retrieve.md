@@ -4,7 +4,9 @@ title: Retrieve
 desc: ''
 updated: 1647025655351
 created: 1644724254507
-airtableId: recqrUqNtZHHt264B
+pods:
+  airtable:
+    dendron.scopes: recqrUqNtZHHt264B
 ---
 
 ## Summary
