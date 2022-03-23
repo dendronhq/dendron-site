@@ -29,66 +29,13 @@ We use telemetry to answer the following questions:
 Dendron will **never** collect data inside your notes. We believe that your personal knowledge is for your eyes alone.
 
 ## What is collected
+- [Events Collected](https://airtable.com/appj5CMxAVa0OatfV/tblIPbbHICd8JTogN/viwYEwkGiZSLo1XC9?blocks=hide)
+- [Event Properties Collected](https://airtable.com/appj5CMxAVa0OatfV/tblYOJisys1O3i56Z/viwi3YF2G3i6F2isg?blocks=hide)
 
-The below is a collection of common fields that are collected
-
-|                Field | Attributes | Description                                                              |
-| -------------------: | :--------: | ------------------------------------------------------------------------ |
-|                `app` |  _string_  | Currently installed version of the product (e.g. `1.0.0-rc0`)            |
-|         `ideVersion` |  _string_  | Currently installed version of the IDE (e.g. `1.0.0-rc0`)                |
-|          `userAgent` |  _string_  | The specific IDE in question(e.g. `VSCodium`)                            |
-|               `arch` |  _string_  | Client's operating system architecture (e.g. `amd64`).                   |
-|                 `os` |  _string_  | Client's operating system (e.g. `darwin`).                               |
-|        `nodeVersion` |  _string_  | Client's node version (e.g. `v12.12.0`).                                 |
-|        `anonymousId` |  _string_  | Random, non-identifiable signature nanoID (e.g. `JC6NXxDa0lDFD1Mu7U2Ga`) |
-|          `timestamp` |  _string_  | When the request was made                                                |
-|         `appVersion` |  _string_  | Version of currently installed Dendron plugin                            |
-|         `cliVersion` |  _string_  | Version of currently installed Dendron CLI                               |
-|    `isNewAppInstall` | _boolean_  | response from vscode.env.isNewAppInstall                                 |
-| `isTelemetryEnabled` | _boolean_  | response from vscode.env.isTelemetryEnabled                              |
-|           `language` |  _string_  | response from vscode.env.language                                        |
-|          `machineId` |  _string_  | response from vscode.env.machineId                                       |
-|              `shell` |  _string_  | response from vscode.env.shell                                           |
-|          `sessionId` |  _number_  | response from vscode.env.sessionId                                       |
 
 ## When is data collected?
 
 Data is collected in scenarios that are described below.
-
-### Startup
-
-When Dendron initializes, we collect data about on initialization time. This helps us measure the performance impact of changes that run before startup as well as improvements to our indexing performance over time.
-
-|                        Field | Attributes | Description                                                                                                                   |
-| ---------------------------: | :--------: | ----------------------------------------------------------------------------------------------------------------------------- |
-|                   `duration` |  _number_  | Number of seconds for startup                                                                                                 |
-|                   `numNotes` |  _number_  | Number of notes across all vaults (rounded to the nearest 10 notes)                                                           |
-|                  `numVaults` |  _number_  | Number of vaults in workspace                                                                                                 |
-|                  `noCaching` | _boolean_  | Check whether caching is disabled                                                                                             |
-|              `workspaceType` |  _string_  | The type of Dendron workspace.                                                                                                |
-|       `codeWorkspacePresent` | _boolean_  | Whether a `dendron.code-workspace` file was present                                                                           |
-| `selfContainedVaultsEnabled` | _boolean_  | `true` if the experimental [self contained vaults](https://wiki.dendron.so/notes/o4i7a81j778jyh7wql0nacb/) feature is enabled |
-|     `numSelfContainedVaults` |  _number_  | Number of [self contained vaults](https://wiki.dendron.so/notes/o4i7a81j778jyh7wql0nacb/) in workspace                        |
-
-### Automatic Fixes
-
-When Dendron is initializing, it can automatically fix some issues that would
-break the initialization. If that happens, we collect how many issues were
-fixed. This helps us learn if these automatic fixes are actually able to fix
-problems.
-
-|                Field | Attributes | Description                                     |
-| -------------------: | :--------: | ----------------------------------------------- |
-| `create root schema` |  _number_  | Number of vaults that had a root schema missing |
-|   `create root note` |  _number_  | Number of vaults that had a root note missing   |
-
-### Configuration
-
-When Dendron initializes, we collect data about how Dendron is configured. This helps us figure out the number of users who are actively using a legacy (deprecated or scheduled to be deprecated) configuration to better understand the impact of configuration changes.
-
-| Field | Attributes | Description                                              |
-| ----: | :--------: | -------------------------------------------------------- |
-| `key` |  _string_  | Key of the configuration that has not been migrated yet. |
 
 #### Migration
 
