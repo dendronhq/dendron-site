@@ -32,22 +32,13 @@ Dendron will **never** collect data inside your notes. We believe that your pers
 - [Events Collected](https://airtable.com/appj5CMxAVa0OatfV/tblIPbbHICd8JTogN/viwYEwkGiZSLo1XC9?blocks=hide)
 - [Event Properties Collected](https://airtable.com/appj5CMxAVa0OatfV/tblYOJisys1O3i56Z/viwi3YF2G3i6F2isg?blocks=hide)
 
-
 ## When is data collected?
 
 Data is collected in scenarios that are described below.
 
-#### Migration
+### Startup
 
-In addition to the above field, we track the result of configuration migrations. This helps us make sure deprecating old configurations and introducing new configurations work seamlessly.
-
-|           Field |   Attributes    | Description                                        |
-| --------------: | :-------------: | -------------------------------------------------- |
-|       `version` |    _string_     | Migration version (e.g. "0.63.0")                  |
-|    `changeName` |    _string_     | Migration name (e.g. "v63-command-migration")      |
-|        `status` | "ok" \| "error" | Migration status                                   |
-| `dendronConfig` |    _string_     | Snapshot of dendron.yml after migration            |
-|      `wsConfig` |    _string_     | Snapshot of dendron.code-workspace after migration |
+When Dendron initializes, we collect data about on initialization time. This helps us measure the performance impact of changes that run before startup as well as improvements to our indexing performance over time.  In addition to the above field, we track the result of configuration migrations. This helps us make sure deprecating old configurations and introducing new configurations work seamlessly.
 
 #### Config / Client compatibility mismatch
 
