@@ -20,7 +20,8 @@ Before continuing: **we do not recommend this path for publishing.** If possible
 
 ![[dendron://dendron.dendron-site/dendron.topic.git#prerequisites,1:#*]]
 
-- You have [[Dendron CLI|dendron.ref.cli]] installed locally(version `0.84.0` or greater)
+- Install [[Dendron CLI Prerequisites|dendron://dendron.dendron-site/dendron.topic.cli#prerequisites]]
+- You have [[Dendron CLI|dendron.ref.cli]] installed locally (version `0.84.0` or greater)
 
 ![[dendron.topic.cli#local-directory,1:#*]]
 
@@ -59,8 +60,6 @@ Select the docs folder and click save.
 ### Setup Dendron Next.js Publishing
 
 1. Navigate to the root of your workspace (directory with `dendron.yml`) 
-1. Initialize Dendron CLI
-![[dendron://dendron.dendron-site/dendron.topic.publish.cook.common#setup-dendron-cli,1:#*]]
 1. Initialize Dendron Next.js publishing
 ![[dendron://dendron.dendron-site/dendron.topic.publish.cook.common#setup-notes,1:#*]]
 
