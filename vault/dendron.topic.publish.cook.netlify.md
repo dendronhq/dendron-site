@@ -48,7 +48,7 @@ Your `SITE_URL` for Netlify websites will be in the following format: `https://{
 If you decide to go with a [custom domain on Netlify](https://docs.netlify.com/domains-https/custom-domains/), then make sure that `siteUrl` is configured appropriately:
 
 ```yaml
-site:
+publishing:
     siteUrl: https://example.com
 ```
 
@@ -71,6 +71,7 @@ build
 seeds
 .next
 docs
+.backup
 ```
 
 ### Publishing script
@@ -84,28 +85,27 @@ The following shell script is meant be executed within a build/deployment pipeli
 # dendron-publish-site.sh
 # This script should exist in the root of your workspace
 
-# Remove cached or otherwise present directories meant to be replaced
-rm -rf .next
+# Remove docs directory if present
 rm -rf docs
-rm -rf node_modules
+
+# Uncomment if wishing to remove cache
+# Recommended: Leave cache alone to increase speed of deployments
+#rm -rf .next
+#rm -rf node_modules
 
 # Install latest version of Dendron
-npm install @dendronhq/dendron-cli@latest
-
-## OPTIONALLY: Install specific version
-# This example pins to 0.77.0
-# Uncomment the next line, and comment out any other `npm install ...` line
-#npm install @dendronhq/dendron-cli@0.77.0
-
-## OPTIONALLY: Install dependencies from package-lock.json
-# Install version of Dendron from package-lock.json in workspace root
+# yarn add @dendronhq/dendron-cli@latest
+# OPTIONALLY
+# Install version of Dendron from yarn.lock in workspace root
 # To use:
-# Uncomment the next line, and comment out the other `npm install ...` line
-#npm install
+# Uncomment the next line, and comment out the other `yarn install ...` line
+yarn
 
-# Generate static site with Next.js
-npx dendron publish init
-npx dendron publish export
+# Update Dendron Next.js if needed
+(test -d .next) && (echo 'updating dendron next...' && cd .next && git reset --hard && git pull && yarn && cd ..) || (echo 'init dendron next' && yarn dendron publish init)
+
+# Generate static site with nextjs
+yarn dendron publish export
 
 # Move generated website to docs directory in workspace root
 mv .next/out docs
@@ -132,9 +132,17 @@ This configuration expects the `dendron-publish-site.sh` script to exist in the 
   # Use the build script at root of repo
   command = "./dendron-publish-site.sh"
 
+[build.environment]
+NETLIFY_NEXT_PLUGIN_SKIP = "true"
+
 [[plugins]]
   # Installs the Lighthouse Build Plugin for all deploy contexts
   package = "@netlify/plugin-lighthouse"
+
+[[plugins]]
+  # Next.js plugin, to implement caching, etc.
+  # https://github.com/netlify/netlify-plugin-nextjs
+  package = "@netlify/plugin-nextjs"
 ```
 
 ## Steps - Setup Netlify

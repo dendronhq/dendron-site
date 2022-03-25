@@ -2,7 +2,7 @@
 id: PIPLLg61HYfjK361B9Jm6
 title: Channels
 desc: ''
-updated: 1646861478777
+updated: 1647974344035
 created: 1640809094657
 ---
 
@@ -88,6 +88,12 @@ A bot-managed feed from Dendron's [GitHub Discussions](https://link.dendron.so/6
 ### publishing
 
 A channel for all things related to [[Dendron Publishing|dendron://dendron.dendron-site/dendron.topic.publish]]
+
+### early-preview
+
+A channel for [[Early Bird|dendron://dendron.dendron-site/community.discord.roles#early-bird]] users.
+
+![[dendron://dendron.dendron-site/community.discord.roles#^bwwwe07g4x44:#*]]
 
 ## Contributors
 

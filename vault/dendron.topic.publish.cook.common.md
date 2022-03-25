@@ -37,7 +37,7 @@ npx dendron publish build
 ## Preview Notes
 
 - Run this command inside the root of your [[workspace|dendron.topic.workspace]]
-- This command launches a development server which previews how your published website will look like.  Visit `http://localhost:3000` to accesss your site. 
+- This command launches a development server which previews how your published website will look like.  Visit `http://localhost:3000` to access your site.
 - Enter `CTRL-C` on the terminal to exit the preview
 ```sh
 npx dendron publish dev
@@ -59,7 +59,7 @@ You can see the manual steps for running Next.js [here](https://github.com/dendr
 ## Upgrade Dendron Next.js Template
 
 ```sh
-rm .next && dendron publish init
+rm .next && npx dendron publish init
 ```
 
 ## Reinstall Dendron Next.js Template

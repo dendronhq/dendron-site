@@ -29,27 +29,8 @@ We use telemetry to answer the following questions:
 Dendron will **never** collect data inside your notes. We believe that your personal knowledge is for your eyes alone.
 
 ## What is collected
-
-The below is a collection of common fields that are collected
-
-|                Field | Attributes | Description                                                              |
-| -------------------: | :--------: | ------------------------------------------------------------------------ |
-|                `app` |  _string_  | Currently installed version of the product (e.g. `1.0.0-rc0`)            |
-|         `ideVersion` |  _string_  | Currently installed version of the IDE (e.g. `1.0.0-rc0`)                |
-|          `userAgent` |  _string_  | The specific IDE in question(e.g. `VSCodium`)                            |
-|               `arch` |  _string_  | Client's operating system architecture (e.g. `amd64`).                   |
-|                 `os` |  _string_  | Client's operating system (e.g. `darwin`).                               |
-|        `nodeVersion` |  _string_  | Client's node version (e.g. `v12.12.0`).                                 |
-|        `anonymousId` |  _string_  | Random, non-identifiable signature nanoID (e.g. `JC6NXxDa0lDFD1Mu7U2Ga`) |
-|          `timestamp` |  _string_  | When the request was made                                                |
-|         `appVersion` |  _string_  | Version of currently installed Dendron plugin                            |
-|         `cliVersion` |  _string_  | Version of currently installed Dendron CLI                               |
-|    `isNewAppInstall` | _boolean_  | response from vscode.env.isNewAppInstall                                 |
-| `isTelemetryEnabled` | _boolean_  | response from vscode.env.isTelemetryEnabled                              |
-|           `language` |  _string_  | response from vscode.env.language                                        |
-|          `machineId` |  _string_  | response from vscode.env.machineId                                       |
-|              `shell` |  _string_  | response from vscode.env.shell                                           |
-|          `sessionId` |  _number_  | response from vscode.env.sessionId                                       |
+- [Events Collected](https://airtable.com/appj5CMxAVa0OatfV/tblIPbbHICd8JTogN/viwYEwkGiZSLo1XC9?blocks=hide)
+- [Event Properties Collected](https://airtable.com/appj5CMxAVa0OatfV/tblYOJisys1O3i56Z/viwi3YF2G3i6F2isg?blocks=hide)
 
 ## When is data collected?
 
@@ -57,50 +38,7 @@ Data is collected in scenarios that are described below.
 
 ### Startup
 
-When Dendron initializes, we collect data about on initialization time. This helps us measure the performance impact of changes that run before startup as well as improvements to our indexing performance over time.
-
-|                        Field | Attributes | Description                                                                                                                   |
-| ---------------------------: | :--------: | ----------------------------------------------------------------------------------------------------------------------------- |
-|                   `duration` |  _number_  | Number of seconds for startup                                                                                                 |
-|                   `numNotes` |  _number_  | Number of notes across all vaults (rounded to the nearest 10 notes)                                                           |
-|                  `numVaults` |  _number_  | Number of vaults in workspace                                                                                                 |
-|                  `noCaching` | _boolean_  | Check whether caching is disabled                                                                                             |
-|              `workspaceType` |  _string_  | The type of Dendron workspace.                                                                                                |
-|       `codeWorkspacePresent` | _boolean_  | Whether a `dendron.code-workspace` file was present                                                                           |
-| `selfContainedVaultsEnabled` | _boolean_  | `true` if the experimental [self contained vaults](https://wiki.dendron.so/notes/o4i7a81j778jyh7wql0nacb/) feature is enabled |
-|     `numSelfContainedVaults` |  _number_  | Number of [self contained vaults](https://wiki.dendron.so/notes/o4i7a81j778jyh7wql0nacb/) in workspace                        |
-
-### Automatic Fixes
-
-When Dendron is initializing, it can automatically fix some issues that would
-break the initialization. If that happens, we collect how many issues were
-fixed. This helps us learn if these automatic fixes are actually able to fix
-problems.
-
-|                Field | Attributes | Description                                     |
-| -------------------: | :--------: | ----------------------------------------------- |
-| `create root schema` |  _number_  | Number of vaults that had a root schema missing |
-|   `create root note` |  _number_  | Number of vaults that had a root note missing   |
-
-### Configuration
-
-When Dendron initializes, we collect data about how Dendron is configured. This helps us figure out the number of users who are actively using a legacy (deprecated or scheduled to be deprecated) configuration to better understand the impact of configuration changes.
-
-| Field | Attributes | Description                                              |
-| ----: | :--------: | -------------------------------------------------------- |
-| `key` |  _string_  | Key of the configuration that has not been migrated yet. |
-
-#### Migration
-
-In addition to the above field, we track the result of configuration migrations. This helps us make sure deprecating old configurations and introducing new configurations work seamlessly.
-
-|           Field |   Attributes    | Description                                        |
-| --------------: | :-------------: | -------------------------------------------------- |
-|       `version` |    _string_     | Migration version (e.g. "0.63.0")                  |
-|    `changeName` |    _string_     | Migration name (e.g. "v63-command-migration")      |
-|        `status` | "ok" \| "error" | Migration status                                   |
-| `dendronConfig` |    _string_     | Snapshot of dendron.yml after migration            |
-|      `wsConfig` |    _string_     | Snapshot of dendron.code-workspace after migration |
+When Dendron initializes, we collect data about on initialization time. This helps us measure the performance impact of changes that run before startup as well as improvements to our indexing performance over time.  In addition to the above field, we track the result of configuration migrations. This helps us make sure deprecating old configurations and introducing new configurations work seamlessly.
 
 #### Config / Client compatibility mismatch
 
@@ -125,6 +63,15 @@ When we detect that a user has extensions that incompatible with Dendron's capab
 |                 Field | Attributes | Description                                                                        |
 | --------------------: | :--------: | ---------------------------------------------------------------------------------- |
 | `installedExtensions` | _string[]_ | extension ID of the pre-defined extension(s) that may cause incompatibility issues |
+
+#### Keybinding conflicts
+
+When we detect that a user has an extension that has keybindings that are known to conflict with Dendron's default keybindings, we warn the users and give guidance on how to resolve them. When Dendron is first installed, a user will be prompted with a warning message if keybinding conflicts are detected. We track if the user accepted the message and proceeded with conflict resolution. After initial installation, this feature is available as a doctor command [[fixKeybindingConflicts|dendron://dendron.dendron-site/dendron.topic.doctor#fixkeybindingconflicts]]. In both initial install and every doctor command execution, we track if keybinding conflicts were detected.
+
+|                 Field | Attributes | Description                                                                        |
+| --------------------: | :--------: | ---------------------------------------------------------------------------------- |
+| `source` | _string_ | Where the detection event happened. Either `activation` or `doctor` |
+
 
 ### Tutorial Progression
 
@@ -219,6 +166,15 @@ collect the following data if the Workspace Sync command is used.
 |               Field | Attributes | Description                                                               |
 | ------------------: | :--------: | ------------------------------------------------------------------------- |
 | `hasMultiVaultRepo` | _boolean_  | True if there was a repo that had multiple vaults in it, false otherwise. |
+
+#### Copy To Clipboard
+
+Copy To Clipboard is a command that could only be invoked by clicking on a Markdown Link in a VSCode Webview.
+We use this as a simple way to simulate a copy button within a rendered markdown preview. We track the source of this command's invocation to better understand the user experience of markdown based webviews.
+
+|               Field | Attributes | Description                                                               |
+| ------------------: | :--------: | ------------------------------------------------------------------------- |
+| `source` | _string_  | Name of the webview that this command was invoked. |
 
 ### CLI commands
 

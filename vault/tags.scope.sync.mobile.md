@@ -4,6 +4,8 @@ title: Mobile
 desc: ''
 updated: 1644724989589
 created: 1644724989001
-airtableId: recHFJeay27siNlzK
+pods:
+  airtable:
+    dendron.scopes: recHFJeay27siNlzK
 ---
 

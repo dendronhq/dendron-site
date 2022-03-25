@@ -4,7 +4,9 @@ title: Lookup
 desc: ''
 updated: 1646119665503
 created: 1643215679473
-airtableId: recZ8JWO8soa3pBxA
+pods:
+  airtable:
+    dendron.features: recZ8JWO8soa3pBxA
 ---
 
 

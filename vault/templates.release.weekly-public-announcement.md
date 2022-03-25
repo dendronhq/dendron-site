@@ -11,6 +11,16 @@ title: 0.7
 
 Dendron 0.7 has sprouted  🌱
 
+<!-- [[Release Highlights|dendron://dendron.handbook/area.product.sop.release-highlights]] -->
+
+**Highlight type:** Description here.
+
+- More information: `[[Title of Docs and Header if Used|dendron://dendron.dendron-site/example.docs]]`
+
+**Highlight type:** Description here.
+
+- More information: [Title of Docs and Header if Used](https://docs.dendron.so/)
+
 ## Highlights
 
 ## Everything Else

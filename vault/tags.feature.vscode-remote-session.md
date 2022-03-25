@@ -4,6 +4,8 @@ title: Vscode Remote Session
 desc: ''
 updated: 1642564198916
 created: 1642564198916
-airtableId: recDi78EnDsi3xZcO
+pods:
+  airtable:
+    dendron.features: recDi78EnDsi3xZcO
 ---
 

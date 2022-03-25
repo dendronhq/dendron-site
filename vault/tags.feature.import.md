@@ -4,7 +4,9 @@ title: Import
 desc: ''
 updated: 1646409188833
 created: 1642210468096
-airtableId: recCB01EDia2NTsr9
+pods:
+  airtable:
+    dendron.features: recCB01EDia2NTsr9
 ---
 
 

@@ -4,6 +4,8 @@ title: Mermaid
 desc: ''
 updated: 1643215755053
 created: 1643215754176
-airtableId: rec1azDjK3rboOlFT
+pods:
+  airtable:
+    dendron.features: rec1azDjK3rboOlFT
 ---
 

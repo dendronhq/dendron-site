@@ -2,7 +2,7 @@
 id: oTW7BFzKIlOd6iQnnNulg
 title: Airtable Export Pod
 desc: ''
-updated: 1646743051558
+updated: 1647969758093
 created: 1638945970366
 ---
 
@@ -10,14 +10,19 @@ created: 1638945970366
 
 The Airtable export pod will export a Dendron note to a row in an Airtable. Various aspects of the note can be exported - from frontmatter fields to the note body.
 You can view the example video [here](https://www.loom.com/share/ed27a420fd794715873f87667572e245)
+
 ## Requirements
 - the table must already exist in Airtable
 - all columns that you want to write to must exist in Airtable
 - you must have a column named `DendronId` (case sensitive)
 
 ## Side Effects
-- this pod will add `airtableId` in the frontmatter of your note 
-
+- this will add Airtable pod metadata in the frontmatter of your note under pods namespace.
+```yml
+pods:
+  airtable:
+    <pod-id>: "airtableId"
+```
 ## Configuration
 
 In addition to the [[Common Properties|dendron://dendron.dendron-site/dendron.topic.pod-v2.config#common-properties]], the Airtable has the following properties:
@@ -73,7 +78,7 @@ This contains a mapping of Airtable fields with the note contents and properties
 type SrcFieldMapping =
   | {
       to?: string;
-      type: "string" | "date" | "singleTag";
+      type: "string" | "date" | "singleSelect" | "multiSelect" | "linkedRecord";
       filter?: string;
     }
 ```
@@ -122,6 +127,16 @@ endDate: {type: date, to: "custom.endDate" }
 By default, this would skip exporting a field if value is empty. To bypass this, you can update `skipOnEmpty` to false.
 ```yml
 endDate: {type: date, to: "custom.endDate", skipOnEmpty: false }
+```
+#### linkedRecord 
+This field lets you link to another records present in Airtable. 
+In the below example, the `Tasks` field of table A is a link to a record present in table B
+```yml
+Tasks: {
+    type: "linkedRecord",
+    filter: "task.*",
+    podId: "dendron.task"
+  }
 ```
 
 #### multiSelect

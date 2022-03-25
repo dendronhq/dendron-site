@@ -18,6 +18,15 @@ The doctor family of commands will automatically fix various issues with Dendron
 
 ## Commands
 
+### fixAirtableMetadata
+
+Update airtable export pod metadata to latest version. Before running this command, Navigate to the domain of the hiearchy (eg. `tasks`) that is currently exported
+When run, the doctor will ask for the following:
+- hierarchy to export (same hierarchy you are currently on)
+- pod id that this hierarchy is exported to (select the relevant pod config)
+
+After doctor has run, it will convert all scalar airtable destinations to the new value
+
 ### fixFrontmatter
 
 - Fixes notes that are missing the frontmatter, or that have broken frontmatter.
@@ -70,6 +79,14 @@ This simply lists all broken links in the scope.
 - Command: `Dendron: Doctor`
 - Option: `findIncompatibleExtensions`
 
+### fixKeybindingConflicts
+
+- Detects if the user has enabled extensions that are known to have default keybindings that conflict with ones that Dendron defines, and provides a guide on how to fix the conflicts.
+- This command is automatically run the first time Dendron is installed, and notifies the user if any keybinding conflicts should be resolved.
+
+- Command: `Dendron: Doctor`
+- Option: 'fixKeybindingConflicts`
+
 ### regenerateNoteId
 
 Regenerates the IDs of your notes.
@@ -87,6 +104,15 @@ If you have a [[remote vault|dendron.topic.vaults#remote-vault]] that is not cor
 
 - Command: `Dendron: Doctor`
 - Option: `fixRemoteVaults`
+
+### fixAirtableMetadata
+
+Converts `airtableId` in Note from a single scalar value to a hashmap. This will prompt you to select hierarchy of notes you would want to update and pod id used to export note(s) to Airtable. The doctor action will update airtable id under pods namespace in Note's frontmatter.
+```yml
+pods:
+  airtable:
+    <your_pod_id>: adfg1234
+```
 
 ## CLI
 

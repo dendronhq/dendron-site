@@ -44,10 +44,10 @@ Migrate a config to the target version.
 
 ```bash
 # Example
-dendron dev run_migration --migrationVersion=0.83.0
+npx dendron dev run_migration --migrationVersion=0.83.0
 ```
 
-### Upgrading from Leagacy 11ty
+### Upgrading from Legacy 11ty
 
 If you are coming from Dendron's legacy publishing (based on 11ty), you can look at the following guides for publishing.
 

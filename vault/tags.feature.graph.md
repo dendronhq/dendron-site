@@ -4,6 +4,8 @@ title: Graph
 desc: ''
 updated: 1641841273661
 created: 1641841273661
-airtableId: rec9aFVNt6DObwAV3
+pods:
+  airtable:
+    dendron.features: rec9aFVNt6DObwAV3
 ---
 
