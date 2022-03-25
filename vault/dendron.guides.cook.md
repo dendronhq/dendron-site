@@ -301,3 +301,9 @@ To get familiar with regex syntax, try [regexr](https://regexr.com/) is a great 
 ### Automatically Convert Casing on a Note
 
 You can use the [string converter](https://marketplace.visualstudio.com/items?itemName=adamwalzer.string-converter) extension to change `[[normal note with spaces]]` to `[[normal-note-with-spaces]]` as well as a series of other text transformations.
+
+### Displaying Dendron tree in its own side bar icon
+
+You can drag the Dendron tree view, or any other view, to the side bar, it will get its own container.
+
+<a href="https://www.loom.com/share/1fe35abb30d544aea6468db6eeef2974"> <img style="" src="https://cdn.loom.com/sessions/thumbnails/1fe35abb30d544aea6468db6eeef2974-with-play.gif"> </a>
