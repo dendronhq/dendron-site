@@ -4,14 +4,10 @@ title: Contribute
 desc: ''
 updated: 1624382448407
 created: 1596817278150
-stub: false
 nav_order: 6.01
-toc: true
 ---
-## Table of Contents
 
 ## Development
-
 
 ![[dendron.contribute.dev#summary,1:#*]]
 
@@ -30,3 +26,9 @@ toc: true
 ## Spread the word! 
 
 ![[dendron.contribute.spread-the-word]]
+
+## Adding to the Dendron Awesome List
+
+We'd love for you to share information about related, useful tools (your own creations, or those you use!) to the [`awesome-dendron`](https://github.com/dendronhq/awesome-dendron/) list.
+
+> A big list of Dendron docs, talks, tools, examples, articles, extensions, vaults, showcases, and more that the internet has to offer. 

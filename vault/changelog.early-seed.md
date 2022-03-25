@@ -10,22 +10,13 @@ nav_exclude: true
 
 > This page documents the features, enhancements, and fixes in the latest early seed release. The early seed is a preview of the weekly release, so you'll see the next minor version when installing (ex. `0.78.0` instead of `0.77.1`). When dendron ships the general release, the currently installed extension will automatically be updated (but will still have same version).
 
-## 0.87.0
-
-### Features
-- feat(vaults): early implementation of self contained vaults ([[docs|dendron://dendron.dendron-site/dendron.topic.vaults.self-contained]]) (#2517) @kaan
+## 0.88.0
 
 ### Enhancements
-- enhance(workspace): faster preview refresh (#2527) @tuling
-- enhance(workspace): faster editing in large workspaces (#2527) @tuling
-- enhance(internal): provide a standard way to create and read backup files ([[docs|dendron://dendron.dendron-site/dendron.ref.commands#open-backup]]) (#2521) @hikchoi
+- enhance(workspace): improve the error message for bad or missing code-workspace file (#2600) @kaan
+- enhance(workspace): initialize workspace can create self contained vaults ([[docs|dendron://dendron.dendron-site/dendron.topic.vaults.self-contained##configuration]]) (#2569) @kaan
+
 
 
 ### Fix
-- fix(workspace): fix crash that can happen when bad frontmatter is present during doc save (#2535) @jonathan
-- fix(publish): customHeaderPath breaks publishing if value is set to anything except `header.html` (#2565) @joshi
-- fix(basics): ensure note title is always a string to avoid errors (#2551) @kaan
-- fix(sync): better error message on `Workspace Add and Commit` (#2552) @joshi
-- fix(lookup): lookup (without spaces) should be case-insensitive (#2570) @joshi
-- fix(workspace): issue with notes not being saved on export (#2574) @tuling
-- fix(workspace): race condition when backing up configuration  (#2581) @kevin
+- fix(workspace): fix dropped keystrokes issue in lookup (#2626) @jonathan
