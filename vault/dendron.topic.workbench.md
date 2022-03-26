@@ -4,14 +4,11 @@ title: Workbench
 desc: ''
 updated: 1646113890634
 created: 1595170237255
-stub: false
 ---
 
-The Dendron workbench is the overall Dendron User Interface (UI) that surrounds the editor. It is equivalent to the [VS Code workbench](https://code.visualstudio.com/api/extension-capabilities/extending-workbench).
+The Dendron workbench is the overall Dendron User Interface (UI) that surrounds the editor. 
 
-![workbench](https://code.visualstudio.com/assets/api/extension-capabilities/extending-workbench/workbench-contribution.png)
-
-> Image from [Visual Studio Docs](https://code.visualstudio.com/api/extension-capabilities/extending-workbench)
+![[dendron://dendron.dendron-site/dendron.concepts.workbench]]
 
 Dendron has a few custom workbench components to deal with hierarchal notes.
 
