@@ -7,6 +7,23 @@ created: 1601508213606
 nav_order: 2
 ---
 
+## 0.88.0
+### Deprecation Notices
+- deprecate(views): Tree view V2 will be removed with the next release along with the feature flag [[enableWebUI|dendron://dendron.dendron-site/dendron.ref.config#enablewebui]] that enabled it. We will be focusing on improving Tree view V1 moving forward. 
+
+### Enhancements
+- enhance(workspace): improve the error message for bad or missing code-workspace file (#2600) @kaan
+- enhance(workspace): initialize workspace can create self contained vaults ([[docs|dendron://dendron.dendron-site/dendron.topic.vaults.self-contained##configuration]]) (#2569) @kaan
+- enhance(common): don't reload workspace when running doctor airtable command (#2620) @kevin
+
+### Fix
+- fix(workspace): fix dropped keystrokes issue in lookup (#2626) @jonathan
+- fix(internal): Engine updateNote not properly firing update events (#2622) @tuling
+- fix(markdown): support parenthesis in the image URL (#2634) @kaan
+- fix(views): Backlinks will no longer disappear in preview upon editing (#2608) @tuling
+- fix(lookup): autocomplete causes notes to be created in wrong vault  (#2623) @kevin
+- fix(views): Pass in a port-forwarded URL to preview for remote workspaces (#2624) @kaan
+
 ## 0.87.0
 
 ### Features

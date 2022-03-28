@@ -16,7 +16,5 @@ nav_exclude: true
 - enhance(workspace): improve the error message for bad or missing code-workspace file (#2600) @kaan
 - enhance(workspace): initialize workspace can create self contained vaults ([[docs|dendron://dendron.dendron-site/dendron.topic.vaults.self-contained##configuration]]) (#2569) @kaan
 
-
-
 ### Fix
 - fix(workspace): fix dropped keystrokes issue in lookup (#2626) @jonathan
