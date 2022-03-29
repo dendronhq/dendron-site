@@ -9,7 +9,7 @@ nav_order: 2
 
 ## 0.88.0
 ### Deprecation Notices
-- deprecate(views): Tree view V2 and the feature flag [[enableWebUI|dendron://dendron.dendron-site/dendron.ref.config#enablewebui]] will be removed in the near future. We will be focusing on improving Tree view V1 moving forward, and will give another notice one week prior to the removal of Tree view V2.
+- deprecate(views): Tree view V2 and the feature flag [[enableWebUI|dendron://dendron.dendron-site/dendron.ref.config#enablewebui]] will be removed in the near future. We will be focusing on improving Tree view V1 moving forward. 
 
 ### Enhancements
 - enhance(workspace): improve the error message for bad or missing code-workspace file (#2600) @kaan

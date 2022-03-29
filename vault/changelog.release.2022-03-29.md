@@ -10,13 +10,15 @@ Dendron 0.88 has sprouted  🌱
 
 <!-- [[Release Highlights|dendron://dendron.handbook/area.product.sop.release-highlights]] -->
 
-**Self Contained Vaults:** Description here.
+**Self Contained Vaults:** 
+We are continuing to add features to self contained vaults as part of the early preview process. Self contained vaults let you use and share your Dendron vaults without the need of a workspace. 
+
+If you'd like to participate in our early preview, please fill out this [survey](https://airtable.com/shr0cwk0a9tujeipZ). We'll send you special instructions, and you'll be added to `#early-preview` on our Discord where we'll offer support and hold discussions. 
 
 - More information: ([[docs|dendron://dendron.dendron-site/dendron.topic.vaults.self-contained##configuration]]) 
 
 **Deprecation Notice:**
-- Tree view V2 
-    - We will be focusing on improving Tree view V1 moving forward and will be removing V2. We will give a week's notice prior to removal.
+- We will be focusing on improving Tree view V1 and will be removing V2 in the near future. The [[enableWebUI|dendron://dendron.dendron-site/dendron.ref.config#enablewebui]]  feature flag will also be removed.
 
 ## Highlights
 - enhance(workspace): initialize workspace can create self contained vaults 
@@ -36,6 +38,10 @@ Dendron 0.88 has sprouted  🌱
 
 ### General Updates
 <!-- TODO: Delete this section if not appliacble -->
+We are now experimenting with Discord role Emojis! 
+
+If you have an Emoji or icon you think would fit any of our [[roles|dendron://dendron.dendron-site/community.discord.roles]], please let us know at 
+
 
 ### Starboard and TIL Highlights
 <!-- TODO: update links. Delete section is no new items-->
@@ -43,15 +49,13 @@ Dendron 0.88 has sprouted  🌱
 
 - ⭐ `aleksey#5276` shared a link to [a tool for finding out the size of Github repos](https://citizendot.github.io/gh-info/): _"A handy app to assess the size of a repo before cloning"_
 - 💡 `aleksey#5276` also shared [a way to write Latex mathematical equations in all Markdown editors](latex.codecogs.com): _"TIL you can write equations in Markdown even if your md editor doesn't support Latex:"_
-
 - 💡 `icanteven#0264` shared a link to [the Github changelog](): _"TIL I should be paying more attention to the GitHub Changelog. You can now follow organizations, and a new dashboard feed tab is in public beta and viewable now. I like it better than the current feed."_
+
 ### Dendron Reading Series
 
 This week's entry in the [[Dendron Reading Series|dendron://dendron.dendron-site/community.events.reading-series]].
 
 ### Event Reminders
-
-
 - **Community Teatime:** Drink tea, eat food, and hangout with the Dendron crew!
     - Next: [Thu, Mar 31, 11:00 AM PDT / 18:00 UTC](https://link.dendron.so/luma)
 - **Office Hours:** Visit the [[Office Hours page|dendron://dendron.dendron-site/community.events.office-hours]] for notes from previous sessions.
