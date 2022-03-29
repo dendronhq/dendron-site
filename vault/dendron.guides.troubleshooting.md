@@ -251,6 +251,10 @@ Sometimes existing extensions will not play nicely with Dendron. To see if a pro
 
 Another way of finding the problematic extension is using VSCode's built-in [extension bisect](https://code.visualstudio.com/blogs/2021/02/16/extension-bisect) capability
 
+### Set Dendron to debug mode
+
+Go into your workspace settings. Set [[dendron.logLevel|dendron://dendron.dendron-site/dendron.ref.config.vscode-config#dendronloglevel]] to `DEBUG`. Restart Dendron. All logs should now be printed in debug mode. 
+
 ## Common Fixes
 
 ### Uninstall Conflicting Extensions
