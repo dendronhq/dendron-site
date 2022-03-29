@@ -47,13 +47,15 @@ If you have an Emoji or icon you think would fit one of our [[Discord roles|dend
 <!-- TODO: update links. Delete section is no new items-->
 > These are highlights from the [[Dendron Discord|dendron://dendron.dendron-site/community.discord.channels]] `#starboard` and `#today-i-learned` channels.
 
-- ⭐ `aleksey#5276` shared a link to [a tool for finding out the size of Github repos](https://citizendot.github.io/gh-info/): _"A handy app to assess the size of a repo before cloning"_
-- 💡 `aleksey#5276` also shared [a way to write Latex mathematical equations in all Markdown editors](latex.codecogs.com): _"TIL you can write equations in Markdown even if your md editor doesn't support Latex:"_
-- 💡 `icanteven#0264` shared a link to [the Github changelog](): _"TIL I should be paying more attention to the GitHub Changelog. You can now follow organizations, and a new dashboard feed tab is in public beta and viewable now. I like it better than the current feed."_
+- ⭐ `@aleksey#5276` shared a link to [a tool for finding out the size of Github repos](https://citizendot.github.io/gh-info/): _"A handy app to assess the size of a repo before cloning"_
+- 💡 `@aleksey#5276` also shared [a way to write Latex mathematical equations in all Markdown editors](latex.codecogs.com): _"TIL you can write equations in Markdown even if your md editor doesn't support Latex:"_
+- 💡 `@icanteven#0264` shared a link to [the Github changelog](): _"TIL I should be paying more attention to the GitHub Changelog. You can now follow organizations, and a new dashboard feed tab is in public beta and viewable now. I like it better than the current feed."_
 
 ### Dendron Reading Series
 
 This week's entry in the [[Dendron Reading Series|dendron://dendron.dendron-site/community.events.reading-series]].
+
+![[dendron://dendron.dendron-site/community.events.reading-series.2022.03.29]]
 
 ### Event Reminders
 - **Community Teatime:** Drink tea, eat food, and hangout with the Dendron crew!
@@ -73,8 +75,27 @@ This week's entry in the [[Dendron Reading Series|dendron://dendron.dendron-site
 
 ### Thank You's
 
-A big **thanks** to the following gardeners that brought up issues, contributions, and fixes to this release :man_farmer: :woman_farmer: 
+A big **thanks** to the following gardeners that brought up issues, contributions, and fixes to this release 👨‍🌾 👩‍🌾
+
 Visit [[Discord Roles|dendron://dendron.dendron-site/community.discord.roles]] for more information.
+
+- [mysoonyu](https://github.com/mysoonyu)
+  - #role.bugcatcher
+  - [Dendron: show preview - always in loading mode (in remote windows)](https://github.com/dendronhq/dendron/issues/2606)
+
+- [Jody Foo](https://github.com/fnurl)
+  - [Correct vault is not selected when creating note with lookup autocomplete](https://github.com/dendronhq/dendron/issues/2617)
+
+- [gbieging](https://github.com/gbieging)
+  - #role.bugcatcher
+  - [Wrong preview/linking when hierarchy segment starts with "md"](https://github.com/dendronhq/dendron/issues/2644)
+
+#### Surveyors
+
+The following community members provided feedback in the Dendron user survey:
+
+- `@micharris42#6073`
+- `@codeluggage#5635`
 
 ## Changelog
 ![[changelog#0880,1:#0870]]
