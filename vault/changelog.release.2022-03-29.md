@@ -18,7 +18,7 @@ If you'd like to participate in our early preview, please fill out this [survey]
 - More information: ([[docs|dendron://dendron.dendron-site/dendron.topic.vaults.self-contained##configuration]]) 
 
 **Deprecation Notice:**
-- We will be focusing on improving Tree view V1 and will be removing V2 in the near future. The [[enableWebUI|dendron://dendron.dendron-site/dendron.ref.config#enablewebui]]  feature flag will also be removed.
+- We will be focusing on improving Tree view V1 and will be removing V2 in the near future. The [[enableWebUI|dendron://dendron.dendron-site/dendron.ref.config#enablewebui]] feature flag will also be removed.
 
 ## Highlights
 - enhance(workspace): initialize workspace can create self contained vaults 
@@ -40,7 +40,7 @@ If you'd like to participate in our early preview, please fill out this [survey]
 <!-- TODO: Delete this section if not appliacble -->
 We are now experimenting with Discord role Emojis! 
 
-If you have an Emoji or icon you think would fit any of our [[roles|dendron://dendron.dendron-site/community.discord.roles]], please let us know at 
+If you have an Emoji or icon you think would fit one of our [[Discord roles|dendron://dendron.dendron-site/community.discord.roles]], please let us know in `#feedback` on Discord. 
 
 
 ### Starboard and TIL Highlights
