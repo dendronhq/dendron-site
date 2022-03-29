@@ -14,25 +14,23 @@ Dendron 0.88 has sprouted  🌱
 
 - More information: ([[docs|dendron://dendron.dendron-site/dendron.topic.vaults.self-contained##configuration]]) 
 
-**Deprecating Notice:** 
-
-- We will be focusing on improving Tree view V1 moving forward.  
-
+**Deprecation Notice:**
+- Tree view V2 
+    - We will be focusing on improving Tree view V1 moving forward and will be removing V2. We will give a week's notice prior to removal.
 
 ## Highlights
 - enhance(workspace): initialize workspace can create self contained vaults 
-- deprecate(views): tree view V2 will be removed with the next release
+- deprecate(views): tree view V2 and enableWebUI feature flag will be removed in the near future
 
 ## Everything Else
 - enhance(workspace): improve the error message for bad or missing code-workspace file 
 - enhance(common): don't reload workspace when running doctor airtable command
 - fix(workspace): fix dropped keystrokes issue in lookup
-- fix(internal): Engine updateNote not properly firing update events
-
+- fix(internal): Engine `updateNote` not properly firing update events
 - fix(markdown): support parenthesis in the image URL
 - fix(views): Backlinks will no longer disappear in preview upon editing
 - fix(lookup): autocomplete causes notes to be created in wrong vault
-- fix(views): Pass in a port-forwarded URL to preview for remote workspaces
+- fix(views): Preview now works in remote workspaces
 
 ## Community
 
@@ -46,6 +44,7 @@ Dendron 0.88 has sprouted  🌱
 - ⭐ `aleksey#5276` shared a link to [a tool for finding out the size of Github repos](https://citizendot.github.io/gh-info/): _"A handy app to assess the size of a repo before cloning"_
 - 💡 `aleksey#5276` also shared [a way to write Latex mathematical equations in all Markdown editors](latex.codecogs.com): _"TIL you can write equations in Markdown even if your md editor doesn't support Latex:"_
 
+- 💡 `icanteven#0264` shared a link to [the Github changelog](): _"TIL I should be paying more attention to the GitHub Changelog. You can now follow organizations, and a new dashboard feed tab is in public beta and viewable now. I like it better than the current feed."_
 ### Dendron Reading Series
 
 This week's entry in the [[Dendron Reading Series|dendron://dendron.dendron-site/community.events.reading-series]].
