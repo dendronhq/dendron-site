@@ -14,7 +14,7 @@ Dendron 0.88 has sprouted  🌱
 
 - More information: ([[docs|dendron://dendron.dendron-site/dendron.topic.vaults.self-contained##configuration]]) 
 
-**Depracating Notice:** 
+**Deprecating Notice:** 
 
 - We will be focusing on improving Tree view V1 moving forward.  
 
