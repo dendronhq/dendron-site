@@ -6,7 +6,7 @@ updated: 1648503477252
 created: 1648503477252
 ---
 
-Dendron 0.88 has sprouted  🌱
+Dendron 0.88 has sprouted  🌱 ^71zw33gw6mli
 
 <!-- [[Release Highlights|dendron://dendron.handbook/area.product.sop.release-highlights]] -->
 
@@ -48,8 +48,8 @@ If you have an Emoji or icon you think would fit one of our [[Discord roles|dend
 > These are highlights from the [[Dendron Discord|dendron://dendron.dendron-site/community.discord.channels]] `#starboard` and `#today-i-learned` channels.
 
 - ⭐ `@aleksey#5276` shared a link to [a tool for finding out the size of Github repos](https://citizendot.github.io/gh-info/): _"A handy app to assess the size of a repo before cloning"_
-- 💡 `@aleksey#5276` also shared [a way to write Latex mathematical equations in all Markdown editors](latex.codecogs.com): _"TIL you can write equations in Markdown even if your md editor doesn't support Latex:"_
-- 💡 `@icanteven#0264` shared a link to [the Github changelog](): _"TIL I should be paying more attention to the GitHub Changelog. You can now follow organizations, and a new dashboard feed tab is in public beta and viewable now. I like it better than the current feed."_
+- 💡 `@aleksey#5276` also shared [a way to write Latex mathematical equations in all Markdown editors](https://latex.codecogs.com): _"TIL you can write equations in Markdown even if your md editor doesn't support Latex:"_
+- 💡 `@icanteven#0264` shared a link to [the Github changelog](https://github.blog/changelog/l): _"TIL I should be paying more attention to the GitHub Changelog. You can now follow organizations, and a new dashboard feed tab is in public beta and viewable now. I like it better than the current feed."_
 
 ### Dendron Reading Series
 
@@ -99,3 +99,4 @@ The following community members provided feedback in the Dendron user survey:
 
 ## Changelog
 ![[changelog#0880,1:#0870]]
+

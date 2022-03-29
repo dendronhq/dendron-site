@@ -10,7 +10,7 @@ created: 1648573629557
 
 - [Deep Work](https://www.feval.ca/posts/Deep-Work)
 
-> Credit to `johnknowles#1154` for contributing the link for this week's Dendron Reading Series!
+> Credit to `@Gander7#5328` for sharing the link in our `#what-are-you-reading` channel for this week's Dendron Reading Series!
 
 Do you struggle to get *deep* into your work? In this weeks reading series, we look at Charles Féval's cliff notes on Cal Newport's book *Deep Work* and consider Newport's hypothesis that deep work (as opposed to *shallow* work) is becoming increasingly rare, and 
 increasingly valuable. 
