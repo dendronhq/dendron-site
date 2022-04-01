@@ -50,6 +50,8 @@ To create a hierarchy, do the following:
 3. Press **Enter**.
 You've created your first hierarchy! 
 
+> 💡 **TIP:** Lookup support tab-autocomplete. Typing `rec` in the Lookup Bar, and hitting `tab` should automatically spell out `recipes`.
+
 Click **Tree View** to see the `vegetarian` note under the `recipes` hierarchy. You can also see the note stored as `recipes.vegetarian.md` in the File Explorer Pane.
 
 **[[Hierarchies|dendron://dendron.dendron-site/dendron.topic.hierarchies]]** in Dendron are created by having a `.` ("dot") delimiter in the file name. See [[What's with the .'s?|dendron://dendron.dendron-site/dendron.topic.hierarchies#whats-with-the-s]] for detailed information on how hierarchy works.

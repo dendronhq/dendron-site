@@ -60,7 +60,6 @@ This can be done with the `Move Note` command.
 
 - navigating  to `[[foo]]` will result in a display prompting the user to select the vault to navigate to 
 - navigating to `[[foo.two]]` will directly navigate to the note since it is unique across all vaults
-- navigating to `[[vault1/foo]]` will open `foo` from vault1 
 - navigating to `[[dendron://vault2/foo]]` will open `foo` from vault2
 
 ### Note References

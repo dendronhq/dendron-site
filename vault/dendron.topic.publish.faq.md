@@ -17,3 +17,7 @@ them. Once published, the pages are built ahead of time so there won't be any de
 You should add the logo image under the `assets` folder, inside a vault you are publishing.
 Alternatively, you can also put the image on an external image host like imgur.
 Then, set the [[logo configuration|dendron://dendron.dendron-site/dendron.topic.publish-legacy.configuration#logo]] to use that logo.
+
+### How do customize the style/theme of my website?
+
+You can use the [[customHeaderPath|dendron.ref.config.publishing#customheaderpath]] configuration to add your own CSS and customize the look.

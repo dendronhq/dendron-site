@@ -32,6 +32,8 @@ Dendron will **never** collect data inside your notes. We believe that your pers
 - [Events Collected](https://airtable.com/appj5CMxAVa0OatfV/tblIPbbHICd8JTogN/viwYEwkGiZSLo1XC9?blocks=hide)
 - [Event Properties Collected](https://airtable.com/appj5CMxAVa0OatfV/tblYOJisys1O3i56Z/viwi3YF2G3i6F2isg?blocks=hide)
 
+- NOTE: we are currently in the process of migrating events from this page to the airtable. this is why you might see some events on this page that are not on the airtable
+
 ## When is data collected?
 
 Data is collected in scenarios that are described below.
@@ -40,7 +42,7 @@ Data is collected in scenarios that are described below.
 
 When Dendron initializes, we collect data about on initialization time. This helps us measure the performance impact of changes that run before startup as well as improvements to our indexing performance over time.  In addition to the above field, we track the result of configuration migrations. This helps us make sure deprecating old configurations and introducing new configurations work seamlessly.
 
-#### Config / Client compatibility mismatch
+#### CLI_Client_Config_Mismatch
 
 When a configuration or client version does not meet the minimum compatibility requirement, we track the mismatch. This helps us make sure migrations are ran successfully and understand ways to prevent users from running into compatibility issues.
 
@@ -60,18 +62,9 @@ During upgrade, if there is a missing configuration key in `dendron.yml`, we pro
 
 When we detect that a user has extensions that incompatible with Dendron's capabilities, we warn the user on startup that they may cause problems. We track which extensions were warned to the user, and also whether they have been redirected to an instruction on how to resolve the conflict. This helps us make Dendron more compatible with existing third party extensions in the marketplace.
 
-|                 Field | Attributes | Description                                                                        |
-| --------------------: | :--------: | ---------------------------------------------------------------------------------- |
-| `installedExtensions` | _string[]_ | extension ID of the pre-defined extension(s) that may cause incompatibility issues |
-
 #### Keybinding conflicts
 
 When we detect that a user has an extension that has keybindings that are known to conflict with Dendron's default keybindings, we warn the users and give guidance on how to resolve them. When Dendron is first installed, a user will be prompted with a warning message if keybinding conflicts are detected. We track if the user accepted the message and proceeded with conflict resolution. After initial installation, this feature is available as a doctor command [[fixKeybindingConflicts|dendron://dendron.dendron-site/dendron.topic.doctor#fixkeybindingconflicts]]. In both initial install and every doctor command execution, we track if keybinding conflicts were detected.
-
-|                 Field | Attributes | Description                                                                        |
-| --------------------: | :--------: | ---------------------------------------------------------------------------------- |
-| `source` | _string_ | Where the detection event happened. Either `activation` or `doctor` |
-
 
 ### Tutorial Progression
 

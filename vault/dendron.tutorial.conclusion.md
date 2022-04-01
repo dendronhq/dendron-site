@@ -39,7 +39,7 @@ _This is your immediate jumping off point after finishing the tutorial. It cover
     - [x] Learn the basics of Dendron with the [[Getting Started tutorial|dendron.tutorial]].
 - Navigation
     - Learn how to [[find all note references to a header|dendron://dendron.dendron-site/dendron.topic.navigation#find-all-references]].
-    - Learn how to [[find all broken, internal reference links|dendron://dendron.dendron-site/dendron.topic.navigation#findbrokenlinks]].
+    - Learn how to [[find all broken, internal reference links|dendron://dendron.dendron-site/dendron.topic.doctor#findbrokenlinks]].
     - Learn how to navigate quickly to related notes using [[Go to Commands|dendron://dendron.dendron-site/dendron.topic.navigation#go-to]].
 - Organizing
     - Learn to expand your organization beyond hierarchies by [[using tags|dendron://dendron.dendron-site/dendron.topic.tags]].
@@ -51,6 +51,7 @@ _This is your immediate jumping off point after finishing the tutorial. It cover
     - Learn how to automatically make use of [[Templates|dendron.topic.templates]] in new notes, in specific hierarchies, with [[Schemas|dendron://dendron.dendron-site/dendron.topic.schema]].
 - Sharing
     - Learn how to backup your vaults online, privately or accessible to the public, with [[git and GitHub|dendron://dendron.dendron-site/dendron.topic.git]].
+    - Learn about popular VS Code extensions, helpful tools, and other resources from the Dendron community from [`awesome-dendron`](https://github.com/dendronhq/awesome-dendron/).
 
 ### Forest
 
