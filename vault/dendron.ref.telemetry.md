@@ -2,7 +2,7 @@
 id: 84df871b-9442-42fd-b4c3-0024e35b5f3c
 title: Telemetry
 desc: ""
-updated: 1647618227862
+updated: 1647962982565
 created: 1619460500071
 nav_order: 6.1
 ---
@@ -45,6 +45,18 @@ When Dendron initializes, we collect data about on initialization time. This hel
 #### CLI_Client_Config_Mismatch
 
 When a configuration or client version does not meet the minimum compatibility requirement, we track the mismatch. This helps us make sure migrations are ran successfully and understand ways to prevent users from running into compatibility issues.
+
+|                    Field |     Attributes     | Description                                              |
+| -----------------------: | :----------------: | -------------------------------------------------------- |
+|                 `reason` | "client"\|"config" | Reason for mismatch                                      |
+|          `clientVersion` |      _string_      | Client version when the mismatch happened                |
+|          `configVersion` |      _string_      | Config version when the mismatch happened                |
+| `minCompatClientVersion` |      _string_      | Minimum compatible client version when mismatch happened |
+| `minCompatConfigVersion` |      _string_      | Minimum compatible config version when mismatch happened |
+
+#### Missing configuration
+
+During upgrade, if there is a missing configuration key in `dendron.yml`, we prompt users if they want to fill the missing configuration with a default value. When doing so, we track that we have prompted, and also track if the user has accepted or rejected the prompt. This helps us identify pain points with faulty configurations and understand ways to improve the troubleshooting process.
 
 #### Incompatible extensions
 
