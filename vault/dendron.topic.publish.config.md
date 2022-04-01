@@ -1,6 +1,6 @@
 ---
 id: fabYbPyk3DMCMoG92lIrq
-title: Config
+title: Configuration
 desc: 'Configuration namespace that holds all Dendron Publishing related settings.'
 updated: 1645182877105
 created: 1637772506823
