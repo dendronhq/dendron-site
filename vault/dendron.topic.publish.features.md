@@ -2,7 +2,7 @@
 id: SsMGHoFVgyBdydzI5mn78
 title: Features
 desc: ''
-updated: 1636140701348
+updated: 1649007617441
 created: 1631895790486
 ---
 
@@ -20,3 +20,13 @@ Next Generation Publishing includes a combined lookup and search bar:
 Next Generation Publishing includes a _table of contents_ (TOC) in the left-hand nav, as a tree of the site. On the right-hand side, a TOC is generated for the current page.
 
 ![Right-hanv navigation table of contents demo](https://org-dendron-public-assets.s3.amazonaws.com/images/publishing-local-toc-right-nav.gif)
+
+## Permanent Ids
+
+Every page is published using its unique ID which means that urls will never change, even if the filenames do.
+
+<img style="max-width: 720px;" src="https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/site-ids.jpg" />
+
+If you have a free GitHub account, then you can host your Dendron notes for free using [GitHub Pages](https://pages.github.com/) 
+
+<img style="max-width: 720px;" src="https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/site-domain.jpg" />

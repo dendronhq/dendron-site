@@ -2,7 +2,7 @@
 id: 2fe96d3a-dcf9-409b-8a09-fdaa5a664433
 title: Features
 desc: ''
-updated: 1645121253522
+updated: 1649007610047
 created: 1608528227846
 nav_order: 1
 ---
@@ -36,16 +36,6 @@ Example of making a contribution to Dendron.
 If you'd rather not click, Dendron Jekyll also supports path based lookup.
 
 <img style="max-width: 720px;" src="https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/site-lookup.gif" />
-
-### Permanent Ids
-
-Every page is published using its unique ID which means that urls will never change, even if the filenames do.
-
-<img style="max-width: 720px;" src="https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/site-ids.jpg" />
-
-If you have a free GitHub account, then you can host your Dendron notes for free using [GitHub Pages](https://pages.github.com/) 
-
-<img style="max-width: 720px;" src="https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/site-domain.jpg" />
 
 ### Selective Publication
 
