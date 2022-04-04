@@ -82,4 +82,11 @@ For more showcases being shared by the community, visit the `#showcase` channel 
 
 <img width="1131" alt="image" src="https://user-images.githubusercontent.com/39745457/155426018-3618048b-89ef-474f-b55e-2d47114af2ba.png">
 
+### Kaan's Recipes
+
+- homepage: <https://bgenc.net/recipes/>
+- discord: `SeriousBug#6848`
+- topics: recipes, cooking
+
+![](https://user-images.githubusercontent.com/1008124/161607476-3a3cd1fe-a08b-468d-843d-da60926d028d.png)
 
