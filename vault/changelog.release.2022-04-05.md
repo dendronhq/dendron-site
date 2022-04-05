@@ -29,12 +29,11 @@ Dendron 0.89 has sprouted  🌱
 ## Community
 
 ### General Updates
-<!-- TODO: Delete this section if not appliacble -->
 
 #### Blog post
 [Growing Knowledge Bases from the Bottom Up](https://blog.dendron.so/notes/072ed07tikrhv6e4ilwcv2q/)
 
-> Curious how to go about adding new knowledge to Dendron? Read our newest blog post to find out how you can grow your knowledge base in **smart** and **simple** ways. 
+Curious how to go about adding new knowledge to Dendron? Read our newest blog post to find out how you can grow your knowledge base in **smart** and **simple** ways. 
 
 #### Derek Sendoff
 
@@ -57,10 +56,9 @@ Some big draws for me, about Dendron, were:
 >
 That's just a snapshot. Dendron reminded me of what pop was doing in Python, approaching development as plugin-oriented knowledge from the start. The idea of pulling down vaults of knowledge, related to your favorite subjects and tools, directly into your own personal knowledge base like lego pieces was something I hadn't seen before. I want to work toward making it a norm.
 >
-There are many things I'm interested in doing that include Dendron, and I want to make use of it wherever I can. I feel that I can serve Dendron well, as a community member, as I move forward to work on other content creation and open source projects (which will continue to include Dendron!) :dendron: 🌱
+There are many things I'm interested in doing that include Dendron, and I want to make use of it wherever I can. I feel that I can serve Dendron well, as a community member, as I move forward to work on other content creation and open source projects (which will continue to include Dendron!) 🌱
 
 ### Starboard and TIL Highlights
-<!-- TODO: update links. Delete section is no new items-->
 > These are highlights from the [[Dendron Discord|dendron://dendron.dendron-site/community.discord.channels]] `#starboard` and `#today-i-learned` channels.
 
 - ⭐ `cameron#9185` shared a link to [a Google Docs update](http://workspaceupdates.googleblog.com/2022/03/compose-with-markdown-in-google-docs-on.html): _"Google Docs is getting in on the Markdown game"_
@@ -91,6 +89,38 @@ This week's entry in the [[Dendron Reading Series|dendron://dendron.dendron-site
 
 A big **thanks** to the following gardeners that brought up issues, contributions, and fixes to this release :man_farmer: :woman_farmer: 
 Visit [[Discord Roles|dendron://dendron.dendron-site/community.discord.roles]] for more information.
+
+- [Grndstt](https://github.com/oolonek) `@grndstt#1420`
+  - #role.bugcatcher
+  - [npx dendron publish init not finishing](https://github.com/dendronhq/dendron/issues/2659)
+
+
+- [Tika](https://github.com/SR--) `@Tika#9526`
+  - [Journal sorting in Loookup does not work](https://github.com/dendronhq/dendron/issues/2661)
+
+
+- [Nickolay Kondratyev](https://github.com/nickolay-kondratyev) `@nickolay-kond#9861`
+  - [Lookup & Auto complete: lookup does not do full search after completion is used](https://github.com/dendronhq/dendron/issues/2666)
+  - [Refactoring does not work across vaults](https://github.com/dendronhq/dendron/issues/2686)
+
+
+- [Andrey Jef](https://github.com/andrey-jef) `@evanAndiez#9559`
+  - [Rename Header command does not update header reference](https://github.com/dendronhq/dendron/issues/2674)
+
+
+- [Saine](https://github.com/Mettcon) `@Saine#4136`
+  - #role.bugcatcher
+  - [Backlink points to wrong URL](https://github.com/dendronhq/dendron/issues/2675)
+
+
+- [Slay](https://github.com/LamentConfiguration) `@Slaytanical#9737`
+  - #role.bugcatcher
+  - [Floating node dots in Note Graph](https://github.com/dendronhq/dendron/issues/2680)
+
+
+- [IrishAndyB](https://github.com/irishandyb) `@IrishAndyB#8566`
+  - #role.bugcatcher
+  - [siteUrl is undefined on publish dev command · Issue #2685 · dendronhq/dendron](https://github.com/dendronhq/dendron/issues/2685)
 
 ## Changelog
 ![[changelog#0890,1:#0880]]
