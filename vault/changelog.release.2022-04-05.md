@@ -33,7 +33,7 @@ Dendron 0.89 has sprouted  🌱
 #### Blog post
 [Growing Knowledge Bases from the Bottom Up](https://blog.dendron.so/notes/072ed07tikrhv6e4ilwcv2q/)
 
-Traditionally, we view Dendron as a top-down hierarchy to sort information into. In our newest blog post, we'll take a different angle and explore how using bottom-up approaches like links and tags can help us grow our knowledge bases in **smart** and **simple** ways.
+Traditionally, we view Dendron as a top-down hierarchy to sort information into. In our newest blog post, we'll take a different angle and explore how using bottom-up approaches like links and tags can help us make the right decisions about how to extend our hierarchy.  
 
 #### Derek Sendoff
 
