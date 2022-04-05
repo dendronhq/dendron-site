@@ -17,7 +17,7 @@ Dendron 0.89 has sprouted 🌱
 Interested in contributing to the development of Dendron? We've added a [CONTRIBUTING.md](https://github.com/dendronhq/dendron/blob/master/CONTRIBUTING.md) file so that you can find out how to get started shaping the future of Dendron!
 
 ### Features
-- feat(workspace): detect and fill missing default configs on extension upgrade ([[docs|dendron://dendron.dendron-site/dendron.topic.doctor#addmissingdefaultconfigs]]) @hikchoi
+- feat(workspace): detect and fill missing default configs on extension upgrade ([[docs|dendron://dendron.dendron-site/dendron.topic.doctor#addmissingdefaultconfigs]]) (#2602)  @hikchoi
 
 ### Enhancements
 - enhance: create CONTRIBUTING.md file (#2567) @kevin

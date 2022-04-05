@@ -7,6 +7,21 @@ created: 1601508213606
 nav_order: 2
 ---
 
+## 0.89.0
+### Features
+- feat(workspace): detect and fill missing default configs on extension upgrade ([[docs|dendron://dendron.dendron-site/dendron.topic.doctor#addmissingdefaultconfigs]]) (#2602) @hikchoi
+
+### Enhancements
+- enhance: create CONTRIBUTING.md file (#2567) @kevin
+
+### Fix
+- fix(workspace): typo in dendron.yml (#2636) @kevin
+- fix(markdown): issue with angle brackets syntax in mermaid  (#2637) @kaan
+- fix(workspace): updated timestamp not updating properly on save (#2651) @tuling
+- fix(workspace): copyNoteLink not getting updated title if note isn't saved (#2631) @tuling
+- fix(views): dendron-next-server to pass port-forwarded url (#2671) @joshi
+
+
 ## 0.88.0
 ### Deprecation Notices
 - deprecate(views): Tree view V2 and the feature flag [[enableWebUI|dendron://dendron.dendron-site/dendron.ref.config#enablewebui]] will be removed in the near future. We will be focusing on improving Tree view V1 moving forward. 
