@@ -2,7 +2,7 @@
 id: 84df871b-9442-42fd-b4c3-0024e35b5f3c
 title: Telemetry
 desc: ""
-updated: 1647962982565
+updated: 1649328298064
 created: 1619460500071
 nav_order: 6.1
 ---
@@ -168,6 +168,15 @@ We use this as a simple way to simulate a copy button within a rendered markdown
 |               Field | Attributes | Description                                                               |
 | ------------------: | :--------: | ------------------------------------------------------------------------- |
 | `source` | _string_  | Name of the webview that this command was invoked. |
+
+#### Show Note Graph
+
+To understand how the users take advantage of our graph view feature, we also collect the following data if `Show Note Graph` command is used.
+
+|               Field | Attributes | Description                                                               |
+| ------------------: | :--------: | ------------------------------------------------------------------------- |
+| `timespan` | _number_  | The duration for which Note Graph was used. |
+| `message` | _string_  | Was the graph view used for navigation? |
 
 ### CLI commands
 
