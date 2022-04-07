@@ -2,7 +2,7 @@
 id: 84df871b-9442-42fd-b4c3-0024e35b5f3c
 title: Telemetry
 desc: ""
-updated: 1649328298064
+updated: 1649412483697
 created: 1619460500071
 nav_order: 6.1
 ---
@@ -175,7 +175,7 @@ To understand how the users take advantage of our graph view feature, we also co
 
 |               Field | Attributes | Description                                                               |
 | ------------------: | :--------: | ------------------------------------------------------------------------- |
-| `timespan` | _number_  | The duration for which Note Graph was used. |
+| `timeOpen` | _number_  | The duration for which Note Graph was used. |
 | `message` | _string_  | Was the graph view used for navigation? |
 
 ### CLI commands
