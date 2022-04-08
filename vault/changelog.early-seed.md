@@ -2,7 +2,7 @@
 id: 3abd00eb-1c1e-4253-aaf5-dcbe20c21850
 title: Early Seed
 desc: ''
-updated: 1649437435333
+updated: 1649439584096
 created: 1604539200840
 published: true
 nav_exclude: true
@@ -14,10 +14,10 @@ nav_exclude: true
 
 Dendron 0.90 has sprouted 🌱
 
-**Vault-Level URLs**: Vaults can now be configured with their own URL. These URLs will be used when copying, exporting or publishing notes, replacing wikilinks with the correct URL for the vault.
+**Vault-Level URLs**: We're improving the experience with published vaults. Vaults can now be configured with their own URL. These URLs will be used when copying or exporting notes, replacing wikilinks with the correct URL for the vault. 
 
 ### Features
-- feature(publish): support publishing urls on vaults ([[docs|dendron://dendron.dendron-site/dendron.topic.vaults.config#publishing-properties]]) (#2641) @kevin
+- feature(publish): support custom urls for vaults ([[docs|dendron://dendron.dendron-site/dendron.topic.vaults.config#publishing-properties]]) (#2641) @kevin
 
 ### Enhancements
 - enhance(publish): open published tree view links in new tab (#2662) @kaan
