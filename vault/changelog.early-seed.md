@@ -2,7 +2,7 @@
 id: 3abd00eb-1c1e-4253-aaf5-dcbe20c21850
 title: Early Seed
 desc: ''
-updated: 1647629183354
+updated: 1649436665342
 created: 1604539200840
 published: true
 nav_exclude: true
@@ -10,21 +10,22 @@ nav_exclude: true
 
 > This page documents the features, enhancements, and fixes in the latest early seed release. The early seed is a preview of the weekly release, so you'll see the next minor version when installing (ex. `0.78.0` instead of `0.77.1`). When dendron ships the general release, the currently installed extension will automatically be updated (but will still have same version).
 
-## 0.89.0
+## 0.90.0
 
-Dendron 0.89 has sprouted 🌱
+Dendron 0.90 has sprouted 🌱
 
-Interested in contributing to the development of Dendron? We've added a [CONTRIBUTING.md](https://github.com/dendronhq/dendron/blob/master/CONTRIBUTING.md) file so that you can find out how to get started shaping the future of Dendron!
+**Vault-Level URLs**: Vaults can now be configured with their own URL. These URLs will be used when copying, exporting or publishing notes, replacing wikilinks with the correct URL for the vault.
 
 ### Features
-- feat(workspace): detect and fill missing default configs on extension upgrade ([[docs|dendron://dendron.dendron-site/dendron.topic.doctor#addmissingdefaultconfigs]]) (#2602)  @hikchoi
+- feature(publish): support publishing urls on vaults ([[docs|dendron://dendron.dendron-site/dendron.topic.vaults.config#publishing-properties]]) (#2641) @kevin
 
 ### Enhancements
-- enhance: create CONTRIBUTING.md file (#2567) @kevin
+
+- enhance(publish): use a link instead of a clickable item for the tree view menu (#2662) @kaan
 
 ### Fix
-- fix(workspace): typo in dendron.yml (#2636) @kevin
-- fix(markdown): issue with angle brackets syntax in mermaid  (#2637) @kaan
-- fix(workspace): updated timestamp not updating properly on save (#2651) @tuling
-- fix(workspace): copyNoteLink not getting updated title if note isn't saved (#2631) @tuling
-- fix(views): dendron-next-server to pass port-forwarded url (#2671) @joshi
+- fix(workspace): error when adding a self contained vault inside a native workspace (#2660) @kaan
+- fix(publish): publish issues with latest version of nextjs due to swc module (#2673) @kevin
+- fix(workspace): preserve wikilink metadata on export (#2676) @kevin
+- fix(workspace): typo "hierarchy", "should" (#2699) [PabloLION](https://github.com/PabloLION)
+- fix(workspace): consistent tree item sort order (#2665) @hikchoi
