@@ -2,7 +2,7 @@
 id: yg3EL1x9fEe4NMqxUC3jP
 title: GitHub Pages
 desc: ''
-updated: 1646863021824
+updated: 1649352082787
 created: 1631132196609
 ---
 
@@ -92,7 +92,7 @@ Your `WEBSITE_URL` for GitHub Pages will be in the following format: `https://{G
 
 #### Custom Domain Names
 
-![[dendron://dendron.dendron-site/dendron.topic.publish.cook.github-action#^github-custom-domain-names]]
+![[dendron://dendron.dendron-site/dendron.topic.publish.cook.github-action#custom-domain-names,1:#*]]
 
 ![[dendron://dendron.dendron-site/dendron.topic.publish.cook.github-action#siteurl-with-custom-domains,1:#*]]
 
