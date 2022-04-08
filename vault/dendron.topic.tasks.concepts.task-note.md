@@ -2,21 +2,17 @@
 id: e0b7gfedck8mvq8q4yrv2jf
 title: Task Note
 desc: ''
-updated: 1649282160836
+updated: 1649439023722
 created: 1649192105844
 ---
 
-task notes are a **special note** in dendron
-        - other examples: scratch, tag
-
-
-task notes contain some special **keys** in their frontmatter 
+## Summary
+Task notes are a **special note** in Dendron like Scratch notes or Tag Notes. Task notes contain some special **keys** in their frontmatter that allow for their *special* properties.
 
 ![[dendron.topic.tasks#task-note-internals,1:#custom-configuration]]
 
 
-
-some front matter property symbols can be mapped to different displayed matter
+Some front matter property symbols can be mapped to different displayed matter.
 
 ![[dendron.topic.tasks#custom-configuration,2]]
 
