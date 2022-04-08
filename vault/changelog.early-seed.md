@@ -2,7 +2,7 @@
 id: 3abd00eb-1c1e-4253-aaf5-dcbe20c21850
 title: Early Seed
 desc: ''
-updated: 1649436665342
+updated: 1649437435333
 created: 1604539200840
 published: true
 nav_exclude: true
@@ -20,8 +20,7 @@ Dendron 0.90 has sprouted 🌱
 - feature(publish): support publishing urls on vaults ([[docs|dendron://dendron.dendron-site/dendron.topic.vaults.config#publishing-properties]]) (#2641) @kevin
 
 ### Enhancements
-
-- enhance(publish): use a link instead of a clickable item for the tree view menu (#2662) @kaan
+- enhance(publish): open published tree view links in new tab (#2662) @kaan
 
 ### Fix
 - fix(workspace): error when adding a self contained vault inside a native workspace (#2660) @kaan
