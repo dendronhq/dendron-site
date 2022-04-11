@@ -2,10 +2,25 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1647966906935
+updated: 1649716462709
 created: 1601508213606
 nav_order: 2
 ---
+
+
+## 0.90.0
+### Features
+- feature(publish): support custom urls for vaults ([[docs|dendron://dendron.dendron-site/dendron.topic.vaults.config#publishing-properties]]) (#2641) @kevin
+
+### Enhancements
+- enhance(publish): open published tree view links in new tab (#2662) @kaan
+
+### Fix
+- fix(workspace): error when adding a self contained vault inside a native workspace (#2660) @kaan
+- fix(publish): publish issues with latest version of nextjs due to swc module (#2673) @kevin
+- fix(workspace): preserve wikilink metadata on export (#2676) @kevin
+- fix(workspace): typo "hierarchy", "should" (#2699) [PabloLION](https://github.com/PabloLION)
+- fix(workspace): consistent tree item sort order (#2665) @hikchoi
 
 ## 0.89.0
 ### Features
