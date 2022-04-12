@@ -3,8 +3,8 @@ id: tlx4zu46kus0yyd94u5pf9w
 title: >-
     28 - Programmable Notes
 desc: >-
-   
-updated: 1649718613371
+   Thoughts on an agent-based note-taking system for custom workflows
+updated: 1649785628159
 created: 1649717996165
 ---
 
