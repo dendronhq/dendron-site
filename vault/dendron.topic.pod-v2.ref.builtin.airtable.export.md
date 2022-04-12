@@ -2,7 +2,7 @@
 id: oTW7BFzKIlOd6iQnnNulg
 title: Airtable Export Pod
 desc: ''
-updated: 1647969758093
+updated: 1649605613169
 created: 1638945970366
 ---
 
@@ -94,6 +94,8 @@ The following options apply for `string`, `boolean`, and `number` values
 
 - required: if set, throw error if field is not present
 - strictNullChecks: if set, throw error if field is null 
+- skipOnEmpty: if set, don't try to upload if field is empty
+  - NOTE: this is only valid on `date` field
 
 
 #### string value
