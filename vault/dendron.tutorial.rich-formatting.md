@@ -2,7 +2,7 @@
 id: 8DCgctK-RMD4EeHjC5_hI
 title: Rich Formatting
 desc: ''
-updated: 1645804078843
+updated: 1649711794414
 created: 1625573403967
 nav_order: 3
 ---
@@ -55,6 +55,15 @@ Various types of diagrams are supported with the [mermaid](https://mermaid-js.gi
 
 ### Flow Charts
 
+````
+```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+```
+````
+
+
 ```mermaid
 graph TD;
     A-->B;
@@ -62,6 +71,18 @@ graph TD;
 ```
 
 ### Sequence Diagrams
+
+````
+```mermaid
+sequenceDiagram
+    participant Alice
+    participant Bob
+    Alice->>John: Hello John, how are you?
+    John-->>Alice: Great!
+    John->>Bob: How about you?
+    Bob-->>John: Jolly good!
+```
+````
 
 ```mermaid
 sequenceDiagram
