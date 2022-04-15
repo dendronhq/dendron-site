@@ -16,7 +16,7 @@ Dendron 0.91 has sprouted 🌱
 
 **Note Title Configuaration**: This release introduces an configuration setting to allow notes to display their full hierarchy in their note title. For example, if this setting is enabled, a new note named `one.two.three` will be titled  `One Two Three`.
 
-**Go to Assets**: We've expanded functionality for file assets in Dendron. For wikilinks that link to non-note files, `Dendron: Go to Note` and `Go to Definition` now support opening these in a native way. 
+**Go to Assets**: We've expanded functionality for file assets in Dendron. For wikilinks that link to non-note files, `Dendron: Go to Note` and `Go to Definition` will now open them using your OS default app.gi
 
 ### Features
 - feat(workspace): option to gen title using full hierarchy ([[docs|dendron://dendron.dendron-site/dendron.ref.config.workspace#enablefullhierarchynotetitle]])(#2593) @jonathan 
@@ -31,4 +31,4 @@ Dendron 0.91 has sprouted 🌱
 - fix(workspace): Dendron causes errors in non-Dendron workspaces (#2731) @kaan
 - fix(vaults): self contained vaults sync (#2758) @kaan
 - fix(view): support custom styles for Note Graph (#2760) @joshi
-- fix(view): apply current theme when vscode reduce motion setting is on (#2749) @joshi
+- fix(view): vscode reduce motion setting changes theme (#2749) @joshi
