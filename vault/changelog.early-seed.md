@@ -22,8 +22,6 @@ Dendron 0.91 has sprouted 🌱
 
 ### Features
 - feat(workspace): option to gen title using full hierarchy ([[docs|dendron://dendron.dendron-site/dendron.ref.config.workspace#enablefullhierarchynotetitle]])(#2593) @jonathan 
-- feat(cli): Add rename functionality to CLI (#2408)
-[benhsm](https://github.com/benhsm)
 
 ### Enhancements
 
