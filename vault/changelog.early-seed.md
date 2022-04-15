@@ -14,17 +14,14 @@ nav_exclude: true
 
 Dendron 0.91 has sprouted 🌱
 
-
 **Note Title Configuaration**: This release introduces an configuration setting to allow notes to display their full hierarchy in their note title. For example, if this setting is enabled, a new note named `one.two.three` will be titled  `One Two Three`.
 
 **Go to Assets**: We've expanded functionality for file assets in Dendron. For wikilinks that link to non-note files, `Dendron: Go to Note` and `Go to Definition` now support opening these in a native way. 
-
 
 ### Features
 - feat(workspace): option to gen title using full hierarchy ([[docs|dendron://dendron.dendron-site/dendron.ref.config.workspace#enablefullhierarchynotetitle]])(#2593) @jonathan 
 
 ### Enhancements
-
 - enhance(navigation): Goto Note and go to definition support assets in wikilinks (#2688) @kaan
 - enhance(workspace): workspace vault support for self contained vaults (#2728) @kaan 
 
