@@ -2,7 +2,7 @@
 id: RjBkTbGuKCXJNuE4dyV6G
 title: CLI
 desc: ''
-updated: 1646940072318
+updated: 1649972734461
 created: 1636500007852
 ---
 
@@ -64,6 +64,10 @@ npm install -g @dendronhq/dendron-cli@latest
 
 ![[dendron://dendron.dendron-site/dendron.ref.cli#engine-commands,1:#publishing-commands]]
 
+## Note Command
+
+![[dendron://dendron.dendron-site/dendron.topic.cli.notes]]
+
 ## Publishing Commands
 
 ![[dendron://dendron.dendron-site/dendron.ref.cli#publishing-commands,1:#pod-commands]]
@@ -71,6 +75,7 @@ npm install -g @dendronhq/dendron-cli@latest
 ## Pod Commands
 
 ![[dendron://dendron.dendron-site/dendron.ref.cli#pod-commands,1:#*]]
+
 
 ## Vault Commands
 
