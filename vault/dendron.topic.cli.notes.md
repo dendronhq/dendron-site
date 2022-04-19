@@ -2,12 +2,11 @@
 id: xI97d5GKk7qU6EwstIAXe
 title: Note Commands
 desc: ''
-updated: 1635113460281
+updated: 1649972738081
 created: 1635113127689
 ---
 
 ## Synopsis
-
 
 ```bash
 dendron note <cmd>
