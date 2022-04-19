@@ -2,7 +2,7 @@
 id: 7ls6rdbaikfogdptx1xsskb
 title: 0.91
 desc: ''
-updated: 1650388408123
+updated: 1650388835453
 created: 1650337147498
 ---
 
@@ -58,7 +58,7 @@ This week's entry in the [[Dendron Reading Series|dendron://dendron.dendron-site
 ### Event Reminders
 
 - **Community Teatime:** Drink tea, eat food, and hangout with the Dendron crew!
-    - Next: [Thu, Apr 14, 11:00 AM PDT / 18:00 UTC](https://link.dendron.so/luma)
+    - Next: [Wed, Apr 20, 9:00 PM PDT / 4:00 UTC](https://link.dendron.so/luma)
 - **Greenhouse Talks:** Visit the [[Greenhouse Talks page|dendron://dendron.dendron-site/community.events.greenhouse]] for notes from previous sessions.
     - Subject: Publishing workflows with Dendron.
     - Description: Interested speakers will present their workflows for publishing content, followed by an open discussion. The event will be recorded and later published online.
