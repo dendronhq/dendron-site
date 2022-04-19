@@ -2,7 +2,7 @@
 id: eea2b078-1acc-4071-a14e-18299fc28f47
 title: Commands
 desc: ""
-updated: 1647267578206
+updated: 1650336747208
 created: 1595261816971
 nav_order: 3.1
 ---
@@ -376,6 +376,12 @@ Creates a [[task note|dendron.topic.tasks#task-notes]], which comes with some
 extra features to keep track of work items.
 
 The `Create Task Note` lookup supports tabbing for autocompletion.
+
+### Create Meeting Note
+
+- shortcuts: none
+
+Creates a [[meeting note|dendron://dendron.dendron-site/dendron.topic.special-notes#meeting-note]], which applied a pre-built template to help you take notes during a meeting. The template is fully customizable.
 
 ### Lookup Schema
 
