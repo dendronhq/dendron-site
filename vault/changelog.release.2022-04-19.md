@@ -2,7 +2,7 @@
 id: 7ls6rdbaikfogdptx1xsskb
 title: 0.91
 desc: ''
-updated: 1650383573675
+updated: 1650388408123
 created: 1650337147498
 ---
 
@@ -20,19 +20,19 @@ Dendron 0.91 has sprouted  🌱
 
 
 ## Highlights
-- feat(workspace): Meeting Notes ([[docs|dendron://dendron.dendron-site/dendron.topic.special-notes#meeting-note]])(#2727) @jonathan 
-- feat(workspace): option to gen title using full hierarchy ([[docs|dendron://dendron.dendron-site/dendron.ref.config.workspace#enablefullhierarchynotetitle]]) (#2593) @jonathan 
-- enhance(navigation): `Dendron: Go to Note` and `Go to Definition` support assets in wikilinks (#2688) @kaan
+- feat(workspace): Meeting Notes 
+- feat(workspace): option to gen title using full hierarchy 
+- enhance(navigation): `Dendron: Go to Note` and `Go to Definition` support assets in wikilinks
 
 ## Everything Else
-- feat(cli): Add rename functionality to CLI (#2408) [[people.ben-ang]]
-- enhance(workspace): workspace vault support for self contained vaults (#2728) @kaan 
-- fix(airtable): Exporting to airtable automatically saves current document (#2696) @tuling
-- fix(publish): add luxon as dev dependency (#2713) @kevin
-- fix(workspace): Dendron causes errors in non-Dendron workspaces (#2731) @kaan
-- fix(vaults): self contained vaults sync (#2758) @kaan
-- fix(view): support custom styles for Note Graph (#2760) @joshi
-- fix(view): apply current theme when vscode reduce motion setting is on (#2749) @joshi
+- feat(cli): Add rename functionality to CLI
+- enhance(workspace): workspace vault support for self contained vaults
+- fix(airtable): Exporting to airtable automatically saves current document
+- fix(publish): add luxon as dev dependency
+- fix(workspace): Dendron causes errors in non-Dendron workspaces
+- fix(vaults): self contained vaults sync
+- fix(view): support custom styles for Note Graph
+- fix(view): apply current theme when vscode reduce motion setting is on
 
 ## Community
 
