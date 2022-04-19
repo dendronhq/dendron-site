@@ -2,7 +2,7 @@
 id: 7ls6rdbaikfogdptx1xsskb
 title: 0.91
 desc: ''
-updated: 1650342965543
+updated: 1650383573675
 created: 1650337147498
 ---
 
@@ -38,7 +38,7 @@ Dendron 0.91 has sprouted  🌱
 
 ### General Updates
 - **Task Management Tutorial**: Have you ever wondered how you can keep track of your todos and projects in Dendron? Well, you're in luck because we've published a new tutorial on that *exact* topic! Learn how you can use bullet lists, task notes, configurations and more to manage your tasks.
-    - [[Plaintext Task Management with Dendron and VSCode |blog.2022.2022-04-19-plaintext-task-management-vscode]]
+    - [[Plaintext Task Management with Dendron and VSCode|dendron://dendron.blog/blog.2022.2022-04-19-plaintext-task-management-vscode]]
 
 - **Share articles with the Dendron Community:** Have you stumbled upon articles you'd like to share with the community? The [[Dendron Reading Series is accepting submissions|community.events.reading-series#submissions]], and it can be how you earn a shiny [[Scout|community.discord.roles#scout]] badge in the Discord!
 
@@ -52,6 +52,8 @@ Dendron 0.91 has sprouted  🌱
 ### Dendron Reading Series
 
 This week's entry in the [[Dendron Reading Series|dendron://dendron.dendron-site/community.events.reading-series]].
+
+![[dendron://dendron.dendron-site/community.events.reading-series.2022.04.19]]
 
 ### Event Reminders
 
@@ -75,6 +77,30 @@ This week's entry in the [[Dendron Reading Series|dendron://dendron.dendron-site
 
 A big **thanks** to the following gardeners that brought up issues, contributions, and fixes to this release :man_farmer: :woman_farmer: 
 Visit [[Discord Roles|dendron://dendron.dendron-site/community.discord.roles]] for more information.
+
+- [Thanos Lefteris](https://github.com/alefteris) `@alefteris#6114`
+    - [Preview and Calendar widget use light colors when reduced motion vs code setting is on](https://github.com/dendronhq/dendron/issues/2738)
+    
+    
+- [Lukáš Kucharczyk](https://github.com/KucharczykL)
+    - #role.bugcatcher
+    - [Browse Note doesn't work with Gitea](https://github.com/dendronhq/dendron/issues/2776)
+
+
+- [Ben Ang](https://github.com/benhsm) `@Jack of some quantity of trades#3247`
+    - #role.horticulturalist
+    - [feat(cli): Add rename functionality to CLI](https://github.com/dendronhq/dendron/pull/2408)
+
+
+- [Byron Wall](https://github.com/byronwall) `@byronwall#1313`
+    - #role.taxonomist
+    - [Update dendron.topic.templates.schema-template.md](https://github.com/dendronhq/dendron-site/pull/475)
+
+#### Surveyors
+
+The following community members provided feedback in the Dendron user survey:
+
+- `@FiveFinger#8140`
 
 ## Changelog
 ![[changelog#0910,1:#0900]]
