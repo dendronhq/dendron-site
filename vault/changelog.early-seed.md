@@ -2,7 +2,7 @@
 id: 3abd00eb-1c1e-4253-aaf5-dcbe20c21850
 title: Early Seed
 desc: ''
-updated: 1650044828407
+updated: 1650339050375
 created: 1604539200840
 published: true
 nav_exclude: true
@@ -14,7 +14,7 @@ nav_exclude: true
 
 Dendron 0.91 has sprouted 🌱
 
-**Note Title Configuaration**: This release introduces an configuration setting to allow notes to display their full hierarchy in their note title. For example, if this setting is enabled, a new note named `one.two.three` will be titled  `One Two Three`.
+**Note Title Configuration**: This release introduces a configuration setting to allow notes to display their full hierarchy in their note title. For example, if this setting is enabled, a new note named `one.two.three` will be titled  `One Two Three`.
 
 **Go to Assets**: We've expanded functionality for file assets in Dendron. For wikilinks that link to non-note files, `Dendron: Go to Note` and `Go to Definition` will now open them using your OS default app.
 

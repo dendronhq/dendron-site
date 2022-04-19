@@ -2,11 +2,28 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1649716462709
+updated: 1650338849979
 created: 1601508213606
 nav_order: 2
 ---
 
+## 0.91.0
+### Features
+- feat(workspace): option to gen title using full hierarchy ([[docs|dendron://dendron.dendron-site/dendron.ref.config.workspace#enablefullhierarchynotetitle]]) (#2593) @jonathan 
+- feat(cli): Add rename functionality to CLI (#2408) [[people.ben-ang]]
+- feat(workspace): Meeting Notes (#2727) @jonathan 
+
+### Enhancements 
+- enhance(navigation): `Dendron: Go to Note` and `Go to Definition` support assets in wikilinks (#2688) @kaan
+- enhance(workspace): workspace vault support for self contained vaults (#2728) @kaan 
+
+### Fix
+- fix(airtable): Exporting to airtable automatically saves current document (#2696) @tuling
+- fix(publish): add luxon as dev dependency (#2713) @kevin
+- fix(workspace): Dendron causes errors in non-Dendron workspaces (#2731) @kaan
+- fix(vaults): self contained vaults sync (#2758) @kaan
+- fix(view): support custom styles for Note Graph (#2760) @joshi
+- fix(view): apply current theme when vscode reduce motion setting is on (#2749) @joshi
 
 ## 0.90.0
 ### Features
