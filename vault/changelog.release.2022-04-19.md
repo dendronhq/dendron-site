@@ -2,21 +2,25 @@
 id: 7ls6rdbaikfogdptx1xsskb
 title: 0.91
 desc: ''
-updated: 1650339010716
+updated: 1650342965543
 created: 1650337147498
 ---
 
 Dendron 0.91 has sprouted  🌱
 
-**Meeting Notes**:
+**Meeting Notes**: We're introducing a new type of special note: **meeting notes**. Meeting notes help you quickly create meeting-specific notes by applying a customizable template. Try them out with the `Dendron: Create Meeting Note` command!
+
+- More information [[in our documentation on special notes|dendron://dendron.dendron-site/dendron.topic.special-notes#meeting-note]]
 
 **Note Title Configuration**: This release introduces a configuration setting to allow notes to display their full hierarchy in their note title. For example, if this setting is enabled, a new note named `one.two.three` will be titled  `One Two Three`.
+
+- More information [[in our documentation on workspace configuration|dendron://dendron.dendron-site/dendron.ref.config.workspace#enablefullhierarchynotetitle]]
 
 **Opening Assets**: We've expanded functionality for file assets in Dendron. For wikilinks that link to non-note files, `Dendron: Go to Note` and `Go to Definition` will now open them using your OS default app.
 
 
 ## Highlights
-- feat(workspace): Meeting Notes (#2727) @jonathan 
+- feat(workspace): Meeting Notes ([[docs|dendron://dendron.dendron-site/dendron.topic.special-notes#meeting-note]])(#2727) @jonathan 
 - feat(workspace): option to gen title using full hierarchy ([[docs|dendron://dendron.dendron-site/dendron.ref.config.workspace#enablefullhierarchynotetitle]]) (#2593) @jonathan 
 - enhance(navigation): `Dendron: Go to Note` and `Go to Definition` support assets in wikilinks (#2688) @kaan
 
@@ -33,8 +37,10 @@ Dendron 0.91 has sprouted  🌱
 ## Community
 
 ### General Updates
-- task tutorial announcements
+- **Task Management Tutorial**: Have you ever wondered how you can keep track of your todos and projects in Dendron? Well, you're in luck because we've published a new tutorial on that *exact* topic! Learn how you can use bullet lists, task notes, configurations and more to manage your tasks.
+    - [[Plaintext Task Management with Dendron and VSCode |blog.2022.2022-04-19-plaintext-task-management-vscode]]
 
+- **Share articles with the Dendron Community:** Have you stumbled upon articles you'd like to share with the community? The [[Dendron Reading Series is accepting submissions|community.events.reading-series#submissions]], and it can be how you earn a shiny [[Scout|community.discord.roles#scout]] badge in the Discord!
 
 ### Starboard and TIL Highlights
 > These are highlights from the [[Dendron Discord|dendron://dendron.dendron-site/community.discord.channels]] `#starboard` and `#today-i-learned` channels.
