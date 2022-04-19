@@ -2,7 +2,7 @@
 id: 5c213aa6-e4ba-49e8-85c5-1bdcb33ce202
 title: Special Notes
 desc: ''
-updated: 1641256903565
+updated: 1650339639069
 created: 1595004457029
 stub: false
 ---
@@ -28,6 +28,23 @@ A scratch note is a self contained note that is meant to be used as scratchpad. 
 
 <a href="https://www.loom.com/share/2fd3042119124df8bb4592d8ffe6d708"> 
 <img style="" src="https://cdn.loom.com/sessions/thumbnails/2fd3042119124df8bb4592d8ffe6d708-with-play.gif"> </a>
+
+## Meeting Note
+
+A meeting note can be used to quickly create a note to help you record information during your meetings.  To create a meeting note, run the [[Create Meeting Note|dendron://dendron.dendron-site/dendron.ref.commands#create-meeting-note]] command from the command palette.
+
+### The Meeting Note Template
+
+When you first run the `Create Meeting Note` command, a template and a schema will be created for you. This template will be applied to new meeting notes whenever you create a new meeting note. You can fully customize the template by changing the contents of the `dendron.templates.meet` note.
+
+The template gets applied to your meeting notes because of the [[schema|dendron://dendron.dendron-site/dendron.topic.schema]] that gets auto-generated the first time you run the `Create Meeting Note` command. By default, this will apply the meeting template to all notes that follow the patterns `meet.yyyy.mm.dd`, or `meet.yyyy.mm.dd.suffix` - for example, `meet.2022.04.01` or `meet.2022.04.01.weekly-planning`. If you want to change the pattern of your meeting note names and still want the template to apply, you can edit the schema definition in the file `dendron.meet.schema.yml`. 
+
+### Additional Features
+
+Enhance your meeting notes with additional capabilities provided by Dendron:
+
+- To keep track of attendees and any follow up tasks they may have, you can create notes for each user and then add [[user tags|dendron://dendron.dendron-site/dendron.topic.users#user-tags]] to each follow up task. Then, from the user note, you can quickly search the backlinks panel to see which tasks they have assigned to them.
+- For any follow up tasks that require more information, you can try out [[task notes|dendron://dendron.dendron-site/dendron.ref.commands#create-task-note]] to create a note with more details and track task completion.
 
 ## Configuration
 
