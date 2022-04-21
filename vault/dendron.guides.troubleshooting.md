@@ -2,7 +2,7 @@
 id: a6c03f9b-8959-4d67-8394-4d204ab69bfe
 title: Troubleshooting
 desc: ''
-updated: 1644857330410
+updated: 1650550495928
 created: 1595952505025
 nav_order: 7.1
 ---
@@ -254,6 +254,10 @@ Another way of finding the problematic extension is using VSCode's built-in [ext
 ### Set Dendron to debug mode
 
 Go into your workspace settings. Set [[dendron.logLevel|dendron://dendron.dendron-site/dendron.ref.config.vscode-config#dendronloglevel]] to `DEBUG`. Restart Dendron. All logs should now be printed in debug mode. 
+
+### Keyboard Diagnostics
+1. Run `>toggle keyboard shortcuts troubleshooting` 
+1. Run a keyboard shortcut and see the output
 
 ## Common Fixes
 
