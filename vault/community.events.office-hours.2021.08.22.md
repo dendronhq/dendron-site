@@ -2,7 +2,7 @@
 id: sYYfFNBFfXr9mLUVUkzXc
 title: 2021-08-22 Office Hours
 desc: ''
-updated: 1641252429133
+updated: 1650500630453
 created: 1629837963680
 ---
 
@@ -12,7 +12,6 @@ Discussion
 * Front end development
     * Lots of stuff
 * Using Dendron as a citation graph, mirror of Zotero 
-    * ​​[https://www.meta.org/](https://www.meta.org/)
     * [https://discord.com/channels/717965437182410783/735365126227493004/878276052705746985](https://discord.com/channels/717965437182410783/735365126227493004/878276052705746985)
     * [https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-on-github/about-citation-files](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-on-github/about-citation-files)
 * better lookups
