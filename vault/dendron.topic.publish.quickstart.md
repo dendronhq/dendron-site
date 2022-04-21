@@ -33,7 +33,7 @@ Run the following commands at the root of your Dendron [[workspace|dendron.topic
 ### Preview
 1. Build and preview
     ```sh
-    dendron publish dev
+    npx dendron publish dev
     ```
 ### Export
 
