@@ -22,8 +22,6 @@ Dendron 0.92 has sprouted 🌱
 
 - More information can be found in our [[documentation on vaults|dendron.topic.vaults#vault-convert]]
 
-
-
 ### Enhancements
 - enhance(workspace): `vault convert` now works with self contained vaults (#2745) @kaan
 - enhance(views): optimize graph view load times - 100x improvement on large workspaces (#2797) @jonathan 
