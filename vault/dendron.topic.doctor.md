@@ -2,7 +2,7 @@
 id: ZeC74FYVECsf9bpyngVMU
 title: Doctor
 desc: ""
-updated: 1647963138660
+updated: 1650549222612
 created: 1640418184682
 ---
 
@@ -16,7 +16,16 @@ The doctor family of commands will automatically fix various issues with Dendron
 - You can toggle this behavior with the `Change Scope` button on the top right corner of panel so that it runs **_only on the active open document_**.
 - This requires you to have a note open and in focus before running the doctor command.
 
+
 ## Commands
+
+### Common Options
+
+#### scope toggle
+
+All doctor commands have a scope toggle that controls what files the doctor runs over. 
+
+Screenshot: https://www.loom.com/i/c252579a4eca4da4bab92edee55611ee
 
 ### fixAirtableMetadata
 

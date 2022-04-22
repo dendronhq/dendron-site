@@ -2,7 +2,7 @@
 id: e5st4LFLtIwwbQmC6JBaF
 title: Quickstart
 desc: ''
-updated: 1640726064785
+updated: 1650459622002
 created: 1631033401707
 ---
 
@@ -33,7 +33,7 @@ Run the following commands at the root of your Dendron [[workspace|dendron.topic
 ### Preview
 1. Build and preview
     ```sh
-    dendron publish dev
+    npx dendron publish dev
     ```
 ### Export
 
