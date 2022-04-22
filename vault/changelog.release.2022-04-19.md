@@ -2,7 +2,7 @@
 id: 7ls6rdbaikfogdptx1xsskb
 title: 0.91
 desc: ''
-updated: 1650388835453
+updated: 1650425593186
 created: 1650337147498
 ---
 
@@ -38,7 +38,7 @@ Dendron 0.91 has sprouted  🌱
 
 ### General Updates
 - **Task Management Tutorial**: Have you ever wondered how you can keep track of your todos and projects in Dendron? Well, you're in luck because we've published a new tutorial on that *exact* topic! Learn how you can use bullet lists, task notes, configurations and more to manage your tasks.
-    - [[Plaintext Task Management with Dendron and VSCode|dendron://dendron.blog/blog.2022.2022-04-19-plaintext-task-management-vscode]]
+    - [Plaintext Task Management with Dendron and VSCode](https://blog.dendron.so/notes/1jynrsx70fh3mihhrhikrf8)
 
 - **Share articles with the Dendron Community:** Have you stumbled upon articles you'd like to share with the community? The [[Dendron Reading Series is accepting submissions|community.events.reading-series#submissions]], and it can be how you earn a shiny [[Scout|community.discord.roles#scout]] badge in the Discord!
 

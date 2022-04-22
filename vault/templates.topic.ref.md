@@ -2,7 +2,7 @@
 id: QwIimdJmhOypbz7Mv0ZMo
 title: Feature Template Reference
 desc: 'describes the headers in [[Topic|dendron://dendron.dendron-site/templates.topic]]'
-updated: 1646069283850
+updated: 1650548658111
 created: 1643648373498
 ---
 
@@ -29,7 +29,7 @@ In depth explanation of feature. One or multiple paragraphs long
 ## Concepts
 - required: false
 
-Concepts that relate particular topic.
+Concepts that relate particular topic. 
 
 ## Features
 - example: [[Features|dendron://dendron.dendron-site/dendron.topic.pod-v2#features]]
@@ -43,6 +43,9 @@ Basic features are what you should be able to pick up within the first 10 minute
 
 ## Commands
 VS Code specific commands if applicable
+
+### Common Options
+Global options for all commands
 
 ## CLI
 cli specific commands if applicable

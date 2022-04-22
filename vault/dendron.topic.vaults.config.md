@@ -2,7 +2,7 @@
 id: o55qc0bc18ykz7qrhxvapbq
 title: Configuration
 desc: 'All vault related settings'
-updated: 1648839983354
+updated: 1650500590769
 created: 1648839983354
 ---
 
@@ -59,7 +59,7 @@ workspace:
   vaults: 
         -
             fsPath: vault2
-            siteUrl: "https://vault2.com"    
+            siteUrl: "https://dendron.so"    
 ```
 
 ### Configuration Examples
