@@ -14,13 +14,14 @@ nav_exclude: true
 
 Dendron 0.92 has sprouted 🌱
 
+**Graph View**: We've improved the loading speed of the graph view. You should notice a drastic improvement in load times-up to 100x in larger workspaces 🚀🚀🚀.
+
+**Tree View**: We've improved the stability of the tree view and fixed an error with `Dendron: Rename Note` that caused the tree view to fall out of sync. 
+
 **Self Contained Vaults**: You can now move self contained vaults between local and remote locations using the `Dendron: Vault Convert` command. 
 
 - More information can be found in our [[documentation on vaults|dendron.topic.vaults#vault-convert]]
 
-**Graph View**: We've increased the speed of the graph view. You should notice a drastic improvement in load times–especially for larger workspaces. 
-
-**Tree View**: We've improved the stability of the tree view and fixed an error with `Dendron: Rename Note` that caused the tree view to fall out of sync. 
 
 
 ### Enhancements
