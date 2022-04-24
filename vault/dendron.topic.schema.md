@@ -122,7 +122,7 @@ schemas:
 ### version (optional): number
 
 - values: `0|1`
-- default: 0
+- default: 1
 - description: schema version number
 
 ### imports 
