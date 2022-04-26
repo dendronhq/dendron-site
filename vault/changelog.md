@@ -2,10 +2,24 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1650338849979
+updated: 1650943589528
 created: 1601508213606
 nav_order: 2
 ---
+## 0.92.0
+### Enhancements 
+- enhance(workspace): `vault convert` now works with self contained vaults (#2745) @kaan 
+- enhance(views): optimize graph view load times - 100x improvement on large workspaces (#2797) @jonathan
+- enhance(workspace): general speed ups across multipel commands (#2798) @jonathan 
+- enhance(workspace): doctor command can detect and fix misconfigured self contained vaults (#2768) @kaan
+
+### Fix
+- fix(pods): exporting as markdown will add `.md` extension to markdown files (#2771)  @kevin
+- fix(views): multiple stability fixes for tree view (#2757) @hikchoi
+- fix(workspace): hovering an asset link while holding `ctrl` no longer opens the asset (#2784) @kaan
+- fix(view): some views don't update for new notes with self contained vaults (#2790) @kaan
+- fix(view): broken preview for links with sub-hierarchy starting with .md (#2781) @joshi
+- fix(workspace): remove stale entries from cache when initializing (#2756) @tuling
 
 ## 0.91.0
 ### Features
