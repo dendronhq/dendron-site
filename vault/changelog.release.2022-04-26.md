@@ -2,7 +2,7 @@
 id: 2kb9bl9378k9w45wfrtkrnr
 title: 0.92
 desc: ''
-updated: 1650944038068
+updated: 1650990784880
 created: 1650943220412
 ---
 
@@ -82,6 +82,43 @@ This week's entry in the [[Dendron Reading Series|dendron://dendron.dendron-site
 
 A big **thanks** to the following gardeners that brought up issues, contributions, and fixes to this release :man_farmer: :woman_farmer: 
 Visit [[Discord Roles|dendron://dendron.dendron-site/community.discord.roles]] for more information.
+
+- [Kumudan](https://github.com/kzilla-git) `@kzilla#8818`
+  - [Error rendering note/image in Preview](https://github.com/dendronhq/dendron/issues/2802)
+  
+- [Aleksey Rowan](https://github.com/aleksey-rowan) `@aleksey#5276`
+  - [Renamed note is shown in the wrong vault when its parent hierarchy is the same](https://github.com/dendronhq/dendron/issues/2817)
+  
+- [Daniel Bradenburg](https://github.com/danbburg)
+  - #role.bugcatcher
+  - [[Bug] Dendron preview broken in code-server](https://github.com/dendronhq/dendron/issues/2788)
+  
+- [Jody Foo](https://github.com/fnurl)
+  - #role.taxonomist
+  - [Less ambigous link examples](https://github.com/dendronhq/dendron-site/pull/424)
+  
+- [Paolo Dina](https://github.com/paolodina) `@pdina#0608`
+  - #role.taxonomist
+  - [Update dendron.topic.schema.md](https://github.com/dendronhq/dendron-site/pull/481)
+  
+- [Alexandru Ichim](https://github.com/agichim) `@ichimga#3577`
+  - #role.taxonomist
+  - [Update dendron.topic.publish.quickstart.md](https://github.com/dendronhq/dendron-site/pull/479)
+  
+- [Derek Ardolf](https://github.com/ScriptAutomate) `@icanteven#0264`
+  - #role.taxonomist
+  - [Fix note ref on upgrading CLI in publish notes](https://github.com/dendronhq/dendron-site/pull/478)
+  
+- [Byron Wall](https://github.com/byronwall) `@byronwall#1313`
+  - [Update dendron.topic.templates.schema-template.md](https://github.com/dendronhq/dendron-site/pull/475)
+
+
+#### Surveyors
+
+The following community members provided feedback in the Dendron user survey:
+
+- `@marshyon#6669`
+- `@Bill M#4550`
 
 ## Changelog
 ![[changelog#0920,1:#0910]]
