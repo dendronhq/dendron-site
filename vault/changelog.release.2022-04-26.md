@@ -2,7 +2,7 @@
 id: 2kb9bl9378k9w45wfrtkrnr
 title: 0.92
 desc: ''
-updated: 1650990784880
+updated: 1650993982293
 created: 1650943220412
 ---
 
@@ -33,7 +33,11 @@ Dendron 0.92 has sprouted  🌱
 ## Community
 
 ### General Updates
-<!-- TODO: Delete this section if not appliacble -->
+
+**Greenhouse Talk**: Interested in learning about how other Dendron users go about sharing their notes? Have a cool workflow of your own to share? We are having a Greenhouse Talk on Friday (04/29) at 4PM PST to discuss workflows for publishing Dendron content. 
+
+We are still looking for a few last minute speakers, so please don't hesitate to sign up. Prospective speakers are invited to fill out [a proposal form](https://airtable.com/shrHMMl1NwefpM689?prefill_SurveyName=GreenhouseProposal). If you have something to share or are just curious, we'd love to see you there!
+- For more information on Greenhouse Talks, see [[details here|dendron://dendron.dendron-site/community.events.greenhouse]]
 
 ### Starboard and TIL Highlights
 > These are highlights from the [[Dendron Discord|dendron://dendron.dendron-site/community.discord.channels]] `#starboard` and `#today-i-learned` channels.
