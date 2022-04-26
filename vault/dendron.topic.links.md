@@ -2,17 +2,20 @@
 id: 3472226a-ff3c-432d-bf5d-10926f39f6c2
 title: Links
 desc: ''
-updated: 1646113835552
+updated: 1646419689384
 created: 1595003088839
 ---
 
 Dendron supports multiple types of links and formats.
 
-- `[Markdown links](./dendron.md)`
-- `[[wiki links]]`
-- `[[labelled|wiki links]]`
-- `![image links](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/logo-256.png)`
-- links to `[local files](assets/think.pdf)` (eg. PDFs, PSDs, etc.)
+- Markdown links (can link to any file):
+    - `[link text](dendron.note.name.md)` -> [link text](dendron.note.name.md)
+    - `[link text](./path/to/filename.md)` -> [link text](./path/to/filename.md)
+    - `[link text](assets/filename.pdf)` -> [link text](assets/filename.pdf)
+- Wiki links: `[[dendron.note.name]]` -> [[dendron.note.name]]
+- Labelled wiki links: `[[visible text|dendron.note.name]]` -> [[visible text|dendron.note.name]]
+- Image links: `![image alt text](http://image.url/or/path/to/image)`
+
 
 ## Concepts
 
