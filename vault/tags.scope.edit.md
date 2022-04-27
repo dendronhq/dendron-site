@@ -2,7 +2,7 @@
 id: HUFx2Yjyw8klA7l0KLYoZ
 title: Edit
 desc: About the VS Code editing experience
-updated: 1645935222371
+updated: 1651079436051
 created: 1639633464112
 pods:
   airtable:
@@ -30,3 +30,4 @@ Anything that effects the editing experience. Edit also involves creating new no
 - #feature.mermaid
 - #feature.asset-support
 - #feature.images
+- #feature.note-preview
