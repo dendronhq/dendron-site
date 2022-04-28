@@ -11,7 +11,7 @@ created: 1642170379669
 The Markdown export pod will take Dendron Markdown and convert it to a regular Markdown. Dendron specific markup like wikilinks will be converted to their Markdown equivalent.
 For single note export(`Note` as export scope), you can choose either clipboard or local file system as destination. You can view the example video [here](https://www.loom.com/share/fefb0fac51bc43a1bb3b508a08a8bf6d).
 
-Make sure to enable PodV2 as explained [here](https://wiki.dendron.so/notes/j5wgTcRHQZomzSHsg41O8/#enable-podv2) before.
+Make sure to enable PodV2 as explained in [[PodV2 Quickstart|dendron://dendron.dendron-site/dendron.topic.pod-v2.quickstart#enable-podv2]] before.
 
 ### Supported Features
 
