@@ -2,14 +2,16 @@
 id: ffec2853-c0e0-4165-a368-339db12c8e4b
 title: Frontmatter
 desc: ''
-updated: 1645204196357
+updated: 1651105283667
 created: 1595352354163
 stub: false
 ---
 
 ## Summary
 
-The `---` section at the top of each note is **frontmatter**. Frontmatter contains custom attributes at the top of each Markdown file, autogenerating some at creation time. Dendron uses it to store metadata about each note for features like publishing.
+The `---` section at the top of each note is **frontmatter**. 
+
+![[dendron://dendron.dendron-site/dendron.concepts.frontmatter]]
 
 ## Example
 

@@ -2,7 +2,7 @@
 id: 692fa114-f798-467f-a0b9-3cccc327aa6f
 title: Tips
 desc: ''
-updated: 1647380307165
+updated: 1651243836836
 created: 1595614204291
 nav_order: 4.1
 ---
@@ -26,9 +26,9 @@ When working with lines, you can move entire lines at a time using `option-up|do
 
 ### Search Editor
 
-- [docs](https://code.visualstudio.com/updates/v1_43#_search-editors)
+![[dendron://dendron.dendron-site/dendron.topic.vscode.concepts.search-editor]]
 
-Also known as the coolest feature in VS Code that most people have never heard of. This lets you view and save your search results in a full blown text editor. You can combine it with Dendron's hierarchies to do some amazing things, like aggregating all your todos and scoping your search to a specific hierarchy. 
+You can combine it with Dendron's hierarchies to do some amazing things, like aggregating all your todos and scoping your search to a specific hierarchy. 
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/tips.search-editor.gif)
 

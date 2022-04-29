@@ -2,7 +2,7 @@
 id: 1MV8179GbxnfK3q76P19e
 title: Product Scopes
 desc: ''
-updated: 1646074120455
+updated: 1651079431229
 created: 1645153440338
 ---
 
@@ -25,7 +25,6 @@ Scopes are organized along two categorization schemes:
 ### Edit
 
 - #scope.edit
-- #scope.edit.note-preview
 
 ### Retrieve
 

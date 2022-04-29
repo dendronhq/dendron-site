@@ -2,11 +2,11 @@
 id: DudqhDdPiMZXlWr7JNRWx
 title: Note Preview
 desc: ''
-updated: 1644723826018
+updated: 1651079012406
 created: 1644723814628
 pods:
   airtable:
-    dendron.scopes: recZsGG4q4MeuRewc
+    dendron.features: rec6cl2mLZ6y6SLa4
 ---
 
 

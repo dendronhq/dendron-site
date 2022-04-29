@@ -2,7 +2,7 @@
 id: SEASewZSteDK7ry1AshNG
 title: Tasks
 desc: ''
-updated: 1643923705562
+updated: 1651049340760
 created: 1635451738215
 ---
 
@@ -102,7 +102,31 @@ When referencing a task note, rendering works differently when compared to other
 ```
 -->
 
-#### Custom configuration
+### Configuration
+
+You can control where the task notes are created in the configuration file. Use [[Configure (yaml)|dendron.ref.commands#configure-yaml]] command, or open the `dendron.yml` file at the root of your workspace and look for the following options.
+
+```yaml
+workspace:
+  task:
+    name: 'task'
+    dateFormat: 'y.MM.dd'
+    addBehavior: asOwnDomain
+```
+
+#### addBehavior
+- possible values: `asOwnDomain`, `childOfCurrent`, `childOfDomain`, `childOfDomainNamespace`
+
+See [[dendron.topic.special-notes#defaultnodetypeaddbehavior]] for an explanation of how these values work.
+
+#### name
+This is the name that all notes will be under. For example if this is set to `task`, then all tasks will go under `task.…`. Leave it empty to skip it.
+
+#### dateFormat
+
+Set this to a format to add a date to the task note names. See [[dendron.topic.special-notes#defaultnodetypedateformat]] for an explanation of how it works.
+
+### Customizing display
 
 You can see how the task note displays the keys like due and owner. Some like the status and priority are a little more complicated, but you can figure them out once you take a look at the default configuration.
 
