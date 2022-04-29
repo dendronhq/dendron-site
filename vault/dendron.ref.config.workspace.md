@@ -2,7 +2,7 @@
 id: 3i4ABJutl7NGeXRHTnUEC
 title: Workspace
 desc: ''
-updated: 1638518870049
+updated: 1651245228402
 created: 1634646633536
 ---
 
@@ -134,6 +134,22 @@ See [[Graph view|dendron.topic.graph-view]]
 Determines the zoom speed in the graph view.
 
 - default: 1
+
+## views
+
+Namespace for view related configurations.
+
+### treeView
+
+Namespace for tree view related configurations.
+
+#### treeItemLabelType
+
+Sets how the tree items are labeled in the tree view.
+This is also tied to how the tree items are sorted.
+
+- default: "title"
+- options: ["title", "filename"]
 
 ## disableTelemetry
 
