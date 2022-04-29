@@ -2,7 +2,7 @@
 id: 3abd00eb-1c1e-4253-aaf5-dcbe20c21850
 title: Early Seed
 desc: ''
-updated: 1651251246765
+updated: 1651252041586
 created: 1604539200840
 published: true
 nav_exclude: true
@@ -16,9 +16,9 @@ Dendron 0.93 has sprouted 🌱
 
 
 ### Breaking changes
-This release removes Tree view V2, and the [[enableWebUI|dendron://dendron.dendron-site/dendron.ref.config#enableWebUI]]feature flag will also be removed. We will be focusing on Tree view V1 moving forward. 
+This release removes web view version of tree view, and the [[enableWebUI|dendron://dendron.dendron-site/dendron.ref.config#enableWebUI]]feature flag will also be removed.
 
-**Tree View**: This release contains a number of fixes to improve the stability and synchronization of the tree view. 
+**Tree View**: This release contains a number of fixes to improve the stability of the tree view. 
 
 ### Enhancements
 - enhance(views): remove web view version of tree view (#2822) @hikchoi
