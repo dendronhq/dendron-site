@@ -2,7 +2,7 @@
 id: 5c213aa6-e4ba-49e8-85c5-1bdcb33ce202
 title: Special Notes
 desc: ''
-updated: 1650339639069
+updated: 1651331473564
 created: 1595004457029
 stub: false
 ---
@@ -38,6 +38,15 @@ A meeting note can be used to quickly create a note to help you record informati
 When you first run the `Create Meeting Note` command, a template and a schema will be created for you. This template will be applied to new meeting notes whenever you create a new meeting note. You can fully customize the template by changing the contents of the `dendron.templates.meet` note.
 
 The template gets applied to your meeting notes because of the [[schema|dendron://dendron.dendron-site/dendron.topic.schema]] that gets auto-generated the first time you run the `Create Meeting Note` command. By default, this will apply the meeting template to all notes that follow the patterns `meet.yyyy.mm.dd`, or `meet.yyyy.mm.dd.suffix` - for example, `meet.2022.04.01` or `meet.2022.04.01.weekly-planning`. If you want to change the pattern of your meeting note names and still want the template to apply, you can edit the schema definition in the file `dendron.meet.schema.yml`. 
+
+## Proxy Notes
+
+- status: #stage.seed
+
+A [[Proxy Note|dendron://dendron.docs/rfc.38-links-to-non-note-files#proxy-notes]] is a note that contain a special property in their
+frontmatter to specify that they are a proxy for a specific uri.
+
+By adding a uri property to the frontmatter, executing [[dendron.ref.commands.goto]] over the link will open the uri instead of navigating to the note.  
 
 ### Additional Features
 

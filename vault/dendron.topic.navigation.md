@@ -2,7 +2,7 @@
 id: cphUwSPk12j4lS0tKjBdC
 title: Navigation
 desc: ''
-updated: 1641313664558
+updated: 1651331181877
 created: 1638899506405
 ---
 
@@ -24,7 +24,11 @@ When you highlight a header, you can run `> References: Find All References` to 
     <img style="" src="https://cdn.loom.com/sessions/thumbnails/c4fdd88be98d4fc58b4a4f9765eb9e89-with-play.gif">
 </a>
 
-## Go to
+## Commands
+
+### [[Go to|dendron://dendron.dendron-site/dendron.ref.commands.goto]]
+
+![[dendron://dendron.dendron-site/dendron.ref.commands.goto]]
 
 ### Go to Note
 - shortcuts:
@@ -89,6 +93,10 @@ Go down the hierarchy.
 The `Go Down` lookup supports tabbing for autocompletion.
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/hierarchy.go-down.gif)
+
+### [[Open Link|dendron://dendron.dendron-site/dendron.ref.commands.open-link]]
+
+![[dendron://dendron.dendron-site/dendron.ref.commands.open-link]]
 
 ## Graph View
 Dendron lets you explore your notes via a graph. Read about the [[Graph View|dendron://dendron.dendron-site/dendron.topic.graph-view]] here.

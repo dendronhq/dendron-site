@@ -1,8 +1,8 @@
 ---
 id: eea2b078-1acc-4071-a14e-18299fc28f47
 title: Commands
-desc: ""
-updated: 1650336747208
+desc: ''
+updated: 1651331236693
 created: 1595261816971
 nav_order: 3.1
 ---
@@ -391,14 +391,6 @@ Creates a [[meeting note|dendron://dendron.dendron-site/dendron.topic.special-no
 
 Initiate schema lookup
 
-### Open Link
-
-- shortcuts: none
-
-Open link to external file (eg. PDF, .mov, etc.) use system default. Relative files paths will be opened relative to the vault that the note is in.
-
-<a href="https://www.loom.com/share/01250485e20a4cdca2a053dd6047ac68"><img src="https://cdn.loom.com/sessions/thumbnails/01250485e20a4cdca2a053dd6047ac68-with-play.gif"> </a>
-
 ### Open Backup
 
 - shortcuts: none
@@ -414,7 +406,7 @@ This command is a convenience command to open backup files saved under `{workspa
 
 ### Go to Commands
 
-- See [[Go to|dendron://dendron.dendron-site/dendron.topic.navigation#go-to]]
+- See [[Navigation Commands|dendron://dendron.dendron-site/dendron.topic.navigation#commands]]
 
 ### Find all References
 
