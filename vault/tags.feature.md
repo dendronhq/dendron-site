@@ -38,7 +38,7 @@ The Scope to Feature mapping is maintained [[on airtable (##groupBy: Scope)|dend
 
 #### Structure.note-types
 
-![[dendron://dendron.dendron-site/tags.scope.structure.note-types#features,1]]
+#feature.note-traits
 
 #### Sync.pod
 

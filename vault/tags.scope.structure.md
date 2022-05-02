@@ -2,7 +2,7 @@
 id: le8mukn4RuMfZ8SxD0doj
 title: Structure
 desc: ''
-updated: 1647025717510
+updated: 1651486653744
 created: 1644724514813
 pods:
   airtable:
@@ -16,7 +16,7 @@ Related to keeping notes in a structured, ordered fashion.
 
 - #scope.structure.refactor
 - #scope.structure.schema
-- #scope.structure.note-types
+- #feature.note-traits
 
 ## Examples
 
@@ -31,4 +31,8 @@ Related to keeping notes in a structured, ordered fashion.
 - #feature.hierarchy
 - #feature.multi-vault
 - #feature.frontmatter
-
+- #feature.tag
+- #feature.templates
+- #feature.todos
+- #feature.scratch-notes
+- #feature.daily-journal
