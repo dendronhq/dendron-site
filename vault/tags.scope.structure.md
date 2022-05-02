@@ -2,7 +2,7 @@
 id: le8mukn4RuMfZ8SxD0doj
 title: Structure
 desc: ''
-updated: 1651486653744
+updated: 1651487988555
 created: 1644724514813
 pods:
   airtable:
@@ -36,3 +36,4 @@ Related to keeping notes in a structured, ordered fashion.
 - #feature.todos
 - #feature.scratch-notes
 - #feature.daily-journal
+- #feature.note-traits
