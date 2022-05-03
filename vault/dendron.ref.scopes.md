@@ -2,7 +2,7 @@
 id: 1MV8179GbxnfK3q76P19e
 title: Product Scopes
 desc: ''
-updated: 1651487446283
+updated: 1651575702344
 created: 1645153440338
 ---
 
@@ -38,7 +38,6 @@ Scopes are organized along two categorization schemes:
 ### Structure
 
 - #scope.structure
-- #feature.note-traits 
 - #scope.structure.refactor
 - #scope.structure.schema
 
@@ -59,7 +58,6 @@ Scopes are organized along two categorization schemes:
 ### Extend
 
 - #scope.extend
-- #scope.extend.cli
 
 
 ## Horizontal Scopes

@@ -2,7 +2,7 @@
 id: s1R1nLkW7y2meU32sNHya
 title: Sync
 desc: Related to syncing with remote sources
-updated: 1645522157182
+updated: 1651562534676
 created: 1642531423151
 pods:
   airtable:
@@ -14,10 +14,12 @@ Dendron can be used as the backing data source for many tools. Dendron workspace
 
 - #scope.sync.mobile
 - #scope.sync.pod
-- #scope.sync.git
+
 
 ## Examples
 
 ## Anti-examples
 
 ## Feature nodes
+- #feature.workspace-sync
+- #feature.git

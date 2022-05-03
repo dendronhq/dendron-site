@@ -2,7 +2,7 @@
 id: 2kb9bl9378k9w45wfrtkrnr
 title: 0.92
 desc: ''
-updated: 1651538045074
+updated: 1650998076621
 created: 1650943220412
 ---
 
@@ -67,7 +67,7 @@ This week's entry in the [[Dendron Reading Series|dendron://dendron.dendron-site
     - Notes for this past weeks Office Hours can be found [[here|dendron://dendron.dendron-site/community.events.office-hours.2022.04.06]], and the [recording here](https://www.youtube.com/watch?v=-CK7DmkvNzA).
 - **New User Tuesdays:** Visit the [[New User Tuesdays page|dendron://dendron.dendron-site/community.events.new-user-tuesdays]] for notes from previous sessions.
     - Next: [Tue, May 10, 8:30 AM PDT / 15:30 UTC](https://link.dendron.so/luma)
-
+    - 
 ### Thank You's
 
 A big **thanks** to the following gardeners that brought up issues, contributions, and fixes to this release :man_farmer: :woman_farmer: 

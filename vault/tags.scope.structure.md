@@ -2,7 +2,7 @@
 id: le8mukn4RuMfZ8SxD0doj
 title: Structure
 desc: ''
-updated: 1651487988555
+updated: 1651490360904
 created: 1644724514813
 pods:
   airtable:
@@ -16,7 +16,6 @@ Related to keeping notes in a structured, ordered fashion.
 
 - #scope.structure.refactor
 - #scope.structure.schema
-- #feature.note-traits
 
 ## Examples
 

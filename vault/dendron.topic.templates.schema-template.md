@@ -19,7 +19,7 @@ This is extremely useful whenever you want to re-use the outline of a note. Exam
 ## Template Variable Replacement
 
 Template variable replacement lets you replace the text of a schema template prior to application. 
-The syntax for variable replacement is `<%= YOUR_VARIABLE =>`.
+The syntax for variable replacement is `<%= YOUR_VARIABLE %>`.
 
 ### Template Variables
 

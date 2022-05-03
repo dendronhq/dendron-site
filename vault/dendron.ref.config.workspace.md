@@ -170,7 +170,7 @@ See [[workspace sync configuration options|dendron.topic.workspace#configuration
 ## enableAutoFoldFrontmatter
 
 Sets the frontmatter folding behaviour.
-When set to `true`, Dendron will automatically fod the frontmatter when opening new notes.
+When set to `true`, Dendron will automatically fold the frontmatter when opening new notes.
 This includes newly created notes, and existing notes that are being opened for the first time in the current session of VS Code.
 
 - default: false
