@@ -2,10 +2,21 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1650943589528
+updated: 1651536643578
 created: 1601508213606
 nav_order: 2
 ---
+
+## 0.93.0
+### Features
+- feat(views): Dendron Side Panel (#2832) @jonathan 
+
+### Enhancements
+- enhance(views): remove web view version of tree view (#2822) @hikchoi
+
+### Fix
+- fix(views): fix various issues with tree view not updating (#2805) @hikchoi
+
 ## 0.92.0
 ### Enhancements 
 - enhance(workspace): `vault convert` now works with self contained vaults (#2745) @kaan 
