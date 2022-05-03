@@ -2,7 +2,7 @@
 id: ba97866b-889f-4ac6-86e7-bb2d97f6e376
 title: Markdown
 desc: ''
-updated: 1646119670104
+updated: 1649730163972
 created: 1598673110284
 ---
 - Notice: all references of `MPE` in this guide is in reference to `Dendron Markdown Preview Enhanced`, the default Markdown renderer of Dendron
@@ -313,7 +313,7 @@ You can create special folded sections with the below syntax.
 ```markdown
 <details>
   <summary>Click to expand!</summary>
-  
+
   ## Heading
   1. A numbered
   2. list
@@ -325,13 +325,15 @@ This is how it looks
 
 <details>
   <summary>Click to expand!</summary>
-  
+
   ## Heading
   1. A numbered
   2. list
      * With some
      * Sub bullets
 </details>
+
+_Note: To properly render the inner content, make sure there is a blank line below the summary tag with no white-spaces._
 
 ## VS Code Specific Commands
 
