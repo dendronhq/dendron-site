@@ -2,7 +2,7 @@
 id: nwnxrcwwj58goq80hrdm0la
 title: 0.93
 desc: ''
-updated: 1651554828362
+updated: 1651597664842
 created: 1651536734751
 ---
 
@@ -24,19 +24,12 @@ Dendron 0.93 has sprouted  🌱
 
 ## Community
 
-### General Updates
-**Office Hours** Join us for Office Hours this week on Wednesday May 4th at 16:00 UTC (9AM PST). We'll gather in our [Discord](https://link.dendron.so/discord) to highlight new features and answer your questions. Recordings of previous office ours are available on our [Youtube channel](https://link.dendron.so/6yPa)
-
 ### Dendron Reading Series
 This week's entry in the [[Dendron Reading Series|dendron://dendron.dendron-site/community.events.reading-series]].
 
 ![[dendron://dendron.dendron-site/community.events.reading-series.2022.05.03]]
 
 ### Event Reminders
-- **Office Hours:** Visit the [[Office Hours page|dendron://dendron.dendron-site/community.events.office-hours]] for notes from previous sessions.
-    - Next: [Wed, May 04, 09:00 AM PDT / 16:00 UTC](https://link.dendron.so/luma)
-    - [Office Hour Recordings - YouTube Playlist](https://link.dendron.so/6yPa)
-    - Notes for this past weeks Office Hours can be found [[here|dendron://dendron.dendron-site/community.events.office-hours.2022.04.06]], and the [recording here](https://www.youtube.com/watch?v=-CK7DmkvNzA).
 - **New User Tuesdays:** Visit the [[New User Tuesdays page|dendron://dendron.dendron-site/community.events.new-user-tuesdays]] for notes from previous sessions.
     - Next: [Tue, May 10, 8:30 AM PDT / 15:30 UTC](https://link.dendron.so/luma)
 - **Greenhouse Talks:** Visit the [[Greenhouse Talks page|dendron://dendron.dendron-site/community.events.greenhouse]] for notes from previous sessions.
