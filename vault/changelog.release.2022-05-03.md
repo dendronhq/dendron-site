@@ -2,7 +2,7 @@
 id: nwnxrcwwj58goq80hrdm0la
 title: 0.93
 desc: ''
-updated: 1651546543540
+updated: 1651554828362
 created: 1651536734751
 ---
 
@@ -10,6 +10,7 @@ Dendron 0.93 has sprouted  🌱
 
 **Dendron Side Bar:** You might notice something new in the Activity Bar in VSCode...Dendron now has its own Side Bar! Your Dendron views (the Tree View, Backlinks, Calendar View, Lookup View) will now show up in their own view container in the Side Bar. If you like things the way they are, dont fear! You can still drag them anywhere you want in your side panels. 
 
+- More information: [Dendron View| [[topic dendron]]
 **Tip of the Day**: Along with a new Side Bar, we are also releasing a new `Tip of the Day` view, which will show a rotating tip to help you get the most out of Dendron. 
 
 ### Breaking changes
