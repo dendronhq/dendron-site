@@ -6,7 +6,7 @@ updated: 1651562440396
 created: 1645522175361
 pods:
   airtable:
-    
+    dendron.features: recJRU3KXy20oAsG7
 ---
 
 Anything to do with notes getting sync'd with Git local or remote vaults. 
