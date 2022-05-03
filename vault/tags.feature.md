@@ -54,7 +54,7 @@ The Scope to Feature mapping is maintained [[on airtable (##groupBy: Scope)|dend
 
 #### Extend.CLI
 
-![[dendron://dendron.dendron-site/tags.scope.extend.cli#features,1]]
+#feature.cli
 
 #### Growth
 

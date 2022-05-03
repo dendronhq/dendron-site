@@ -2,7 +2,7 @@
 id: CUEwuYsbutHeJJf6aKM3g
 title: Basics
 desc: 'VS Code workspace, vaults, intellisense/autocomplete, Dendron settings'
-updated: 1651566934198
+updated: 1651567375825
 created: 1632764333519
 pods:
   airtable:
@@ -19,7 +19,6 @@ VS Code workspace, vaults, intellisense/autocomplete, Dendron settings
 - opening a file
 - autocomplete works for note linking (test vault with at least 100 notes)
 - remote vault add
-
 
 ## Features
 
