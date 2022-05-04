@@ -2,7 +2,7 @@
 id: rYbs1qLh9VJBXCJlSzMt4
 title: Migration
 desc: ''
-updated: 1646332526178
+updated: 1650378725026
 created: 1632351743935
 ---
 
@@ -16,7 +16,7 @@ Please note that if you have an automated pipeline set up for publishing that us
 
 If there is a compatibility mismatch, running the CLI will display a message that the version does not meet the minimum compatible version. If you see this message, please upgrade `dendron-cli` to the latest version.
 
-![[dendron://dendron.dendron-site/dendron.topic.cli.upgrade#steps,1:#*]]
+![[dendron://dendron.dendron-site/dendron.topic.cli.upgrade#steps,1]]
 
 ## Upgrade dendron.yml configurations
 
