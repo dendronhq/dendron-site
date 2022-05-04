@@ -16,7 +16,7 @@ Static site generation, sending note links and anything to do with publishing yo
 ## Features
 
 - #feature.i18n
-- #feature.customization
+- #feature.site-customization
 - #feature.full-text-search
 - #feature.accessibility
 - #feature.mobile-optimization-for-publishing
