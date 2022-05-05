@@ -2,7 +2,7 @@
 id: EKIsWI7XklGDWkRq7jpSi
 title: Feature
 desc: ''
-updated: 1651655254038
+updated: 1651750435310
 created: 1642207217318
 ---
 
@@ -33,7 +33,7 @@ The Scope to Feature mapping is maintained [[on airtable (##groupBy: Scope)|dend
 #### Structure
 
 ![[dendron://dendron.dendron-site/tags.scope.structure#features,1]]
-![[dendron://dendron.dendron-site/tags.scope.structure.refactor#features,1]]
+![[dendron://dendron.dendron-site/tags.feature.refactor#features,1]]
 ![[dendron://dendron.dendron-site/tags.scope.structure.schema#features,1]]
 
 #### Structure.note-types
