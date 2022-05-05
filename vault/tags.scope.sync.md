@@ -2,7 +2,7 @@
 id: s1R1nLkW7y2meU32sNHya
 title: Sync
 desc: Related to syncing with remote sources
-updated: 1651583231411
+updated: 1651747772514
 created: 1642531423151
 pods:
   airtable:
