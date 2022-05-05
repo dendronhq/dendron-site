@@ -2,7 +2,7 @@
 id: o4i7a81j778jyh7wql0nacb
 title: Self Contained Vaults
 desc: ""
-updated: 1650054145213
+updated: 1651741716305
 created: 1646953890139
 ---
 
@@ -39,7 +39,7 @@ config
 [[enableSelfContainedVaults|dendron://dendron.dendron-site/dendron.ref.config#enableselfcontainedvaults]]
 in your existing workspace to make any new vaults you create self contained.
 Dendron doesn't have an automated way to migrate your existing vaults yet, but
-it will be available soon!
+you can follow the [[migration guide|dendron://dendron.dendron-site/dendron.topic.vaults.self-contained.migrate]] to migrate your vaults manually.
 
 ## What's different about self contained vaults?
 
