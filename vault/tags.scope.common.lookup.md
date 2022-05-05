@@ -2,7 +2,7 @@
 id: nzqCi64LGetqAWqdDT2lK
 title: Lookup
 desc: Anything lookup related
-updated: 1645246024617
+updated: 1651751499362
 created: 1631657275412
 pods:
   airtable:
@@ -22,7 +22,7 @@ Logic for the particular commands should be grouped by their section. Anything t
 - Things to do with lookup widget.
 
 ## Anti-examples
-- Note lookup slow (or bad results). That should go into #scope.retrieve.note-lookup
+- Note lookup slow (or bad results). That should go into #feature.lookup
 - refactor command would belong to #scope.structure
 - note lookup would belong to #scope.retrieve
 

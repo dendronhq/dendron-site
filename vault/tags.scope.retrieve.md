@@ -2,7 +2,7 @@
 id: zcoTwnMKikNVEWhqQr7YY
 title: Retrieve
 desc: ''
-updated: 1647025655351
+updated: 1651751743438
 created: 1644724254507
 pods:
   airtable:
@@ -14,7 +14,7 @@ pods:
 Area of Dendron related to retrieval of notes. Any feature that helps a customer find what they're looking for. 
 
 ## Sub-scopes
-- #scope.retrieve.note-lookup
+- #feature.lookup
 
 ## Examples
 - Note Lookups
@@ -30,3 +30,5 @@ Area of Dendron related to retrieval of notes. Any feature that helps a customer
 - #feature.file-refs
 - #feature.note-as-directory
 - #feature.backlinks
+- #feature.lookup
+- 
