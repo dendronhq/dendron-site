@@ -7,6 +7,7 @@ created: 1643922281465
 pods:
   airtable:
     dendron.scopes: recEf2bN9XAqV6VcC
+    task.scopes: reczG2PnFDBDaT2Ey
 ---
 
 Issues related to hiring, legal, etc. 

@@ -7,6 +7,7 @@ created: 1638843134642
 pods:
   airtable:
     dendron.scopes: recWXRZJdeOOx2KG0
+    task.scopes: recay4vYNXlaMKRMg
 ---
 
 Related to analytics

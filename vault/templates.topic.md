@@ -2,7 +2,7 @@
 id: ZljuAhFuNWEOUlFtPlC0h
 title: Feature Template
 desc: ''
-updated: 1644277437299
+updated: 1651709231342
 created: 1635992238170
 comment: "see [[Ref|dendron://dendron.dendron-site/templates.topic.ref]] for description of all sections"
 config:
@@ -12,9 +12,13 @@ config:
 
 ## Summary
 
+## Use Cases
+
 ## Features
 
 ## Concepts
+
+## Limitations
 
 ## Details
 

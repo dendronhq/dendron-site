@@ -2,15 +2,21 @@
 id: le8mukn4RuMfZ8SxD0doj
 title: Structure
 desc: ''
-updated: 1651753817619
+updated: 1651490360904
 created: 1644724514813
 pods:
   airtable:
     dendron.scopes: recctrkafGKsa0IIt
+    task.scopes: recmJAKtN4nZNl50l
 ---
 
 Related to keeping notes in a structured, ordered fashion. 
 
+
+## Sub-scopes
+
+- #scope.structure.refactor
+- #scope.structure.schema
 
 ## Examples
 
@@ -31,5 +37,3 @@ Related to keeping notes in a structured, ordered fashion.
 - #feature.scratch-notes
 - #feature.daily-journal
 - #feature.note-traits
-- #feature.refactor
-- #feature.schema

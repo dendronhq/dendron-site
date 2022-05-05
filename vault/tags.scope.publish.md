@@ -9,6 +9,7 @@ created: 1631512882518
 pods:
   airtable:
     dendron.scopes: recjakOtXmNySHA3L
+    task.scopes: recXI5qYtlOPDSrC7
 ---
 
 Static site generation, sending note links and anything to do with publishing your notes.

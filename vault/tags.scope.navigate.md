@@ -7,6 +7,7 @@ created: 1639016411150
 pods:
   airtable:
     dendron.scopes: rechaazgsu6ER3oUp
+    task.scopes: recib9AmugNdeKQUf
 ---
 
 Relating to navigating between notes

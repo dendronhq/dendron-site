@@ -7,6 +7,7 @@ created: 1645245012242
 pods:
   airtable:
     dendron.scopes: rec4HYy6raEZ6Kzgr
+    task.scopes: rectpbckxPSqBW2nE
 ---
 ## Examples
 
