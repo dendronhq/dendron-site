@@ -41,7 +41,7 @@ Scopes are organized along two categorization schemes:
 ### Sync
 
 - #scope.sync
-- #scope.sync.mobile
+- #feature.mobile
 - #feature.pod-integrations
 
 ### Publish
