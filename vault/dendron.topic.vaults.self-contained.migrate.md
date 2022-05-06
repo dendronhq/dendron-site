@@ -2,18 +2,18 @@
 id: aikv0yamnfkcowlol7qeldy
 title: Migrating to Self Contained Vaults
 desc: ''
-updated: 1651741756808
+updated: 1651827188676
 created: 1651741592127
 ---
 
 Migrating to self contained vaults is not automated yet, so you'll have to do it
 manually if you want to try them out right now with your existing vaults.
 
-Before migrating your vaults, make sure your notes are backed up. If you are
-collaborating with other people in this vault, you also should let them know you
-are migrating so they can sync their vaults before and after you migrate. Also
-make sure you have the latest version of VSCode and Dendron installed for the
-best experience.
+Before migrating your vaults:
+- Make sure your notes are backed up: put them on a remote git repository, use backup software, or at least copy them to a second location.
+- Check that you have the latest versions of Dendron and VSCode.
+- Make sure you have the latest config version (`dendron.yml` should say `version: 5`). Dendron should prompt you to upgrade when you start, or you can use [[Run Migration|dendron://dendron.dendron-site/dendron.ref.commands#dendrondev-run-migration]] if you didn't get the prompt.
+- If you are collaborating with other people in this vault, let them know you are migrating. They should sync their workspace before and after you migrate to avoid merge conflicts.
 
 ## Migrating a workspace with a single vault
 
