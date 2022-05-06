@@ -2,7 +2,7 @@
 id: 3abd00eb-1c1e-4253-aaf5-dcbe20c21850
 title: Early Seed
 desc: ''
-updated: 1651857682293
+updated: 1651858414589
 created: 1604539200840
 published: true
 nav_exclude: true
@@ -18,13 +18,11 @@ Dendron 0.94 has sprouted 🌱
 
 - More information: [[Go To Command|dendron://dendron.dendron-site/dendron.ref.commands.goto]]
 
-**Graph Themes: ** It's time your graph got a facelift! You can now choose between 3 graph themes: Block, Classic and Monokai, or create your own custom theme styled to your liking. 
+**Graph Themes:** It's time your graph got a facelift! You can now choose between 3 graph themes: Block, Classic and Monokai, or create your own custom theme styled to your liking. 
 
 - More information: [[Graph Themes|dendron://dendron.dendron-site/dendron.topic.graph-view.md#graph-theme]]
 
-**Help and Feedback Panel**
-We're rolling out a new Panel in VSCode to give you convenient access to our starting guide and documentation, as well as a direct way to give us feedback. Check it out!
-
+**Help and Feedback Panel:** We're rolling out a new Panel in VSCode to give you convenient access to our starting guide and documentation, as well as a direct way to give us feedback. Check it out!
 
 ### Features
 - feat(navigation): add goto command: ([[docs|dendron://dendron.dendron-site/dendron.ref.commands.goto]]) (#2852) @kevin
