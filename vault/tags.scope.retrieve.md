@@ -2,7 +2,7 @@
 id: zcoTwnMKikNVEWhqQr7YY
 title: Retrieve
 desc: ''
-updated: 1647025655351
+updated: 1651836716249
 created: 1644724254507
 pods:
   airtable:
@@ -23,7 +23,7 @@ Area of Dendron related to retrieval of notes. Any feature that helps a customer
 - Autocomplete of notes inside of #feature.wikilinks
 
 ## Anti-examples
-- Schema, that would be #scope.structure.schema
+- Schema, that would be #feature.schema
 
 ## Features
 

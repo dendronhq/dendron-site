@@ -2,7 +2,7 @@
 id: Vc3pbCDyfOEHvAQAnRfQt
 title: Note Lookup
 desc: ''
-updated: 1645812822763
+updated: 1651835781226
 created: 1644724292296
 pods:
   airtable:
