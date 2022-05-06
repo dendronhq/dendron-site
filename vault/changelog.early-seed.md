@@ -2,7 +2,7 @@
 id: 3abd00eb-1c1e-4253-aaf5-dcbe20c21850
 title: Early Seed
 desc: ''
-updated: 1651858414589
+updated: 1651858541783
 created: 1604539200840
 published: true
 nav_exclude: true
@@ -26,7 +26,7 @@ Dendron 0.94 has sprouted 🌱
 
 ### Features
 - feat(navigation): add goto command: ([[docs|dendron://dendron.dendron-site/dendron.ref.commands.goto]]) (#2852) @kevin
-- feat: Add doctor command to remove deprecated config and prompt on upgrade (#2841) @hikchoi
+- feat: Add doctor command to remove deprecated config and prompt on upgrade ([[docs|dendron://dendron.dendron-site/dendron.topic.doctor.md#removeDeprecatedConfigs]]) (#2841) @hikchoi
 
 ### Enhancements
 - enhance(view): graph themes ([[docs|dendron://dendron.dendron-site/dendron.topic.graph-view.md#graph-theme]]) (#2806) @joshi
