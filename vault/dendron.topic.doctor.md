@@ -2,7 +2,7 @@
 id: ZeC74FYVECsf9bpyngVMU
 title: Doctor
 desc: ""
-updated: 1650549222612
+updated: 1651082523945
 created: 1640418184682
 ---
 
@@ -78,6 +78,14 @@ This simply lists all broken links in the scope.
 
 - Command: `Dendron: Doctor`
 - Option: `addMissingDefaultConfigs`
+
+### removeDeprecatedConfigs
+
+- Detects if there are any deprecated configurations that are still in `dendron.yml`.
+- When a deprecated configuration key exists, a backup of `dendron.yml` is created and the deprecated keys are removed.
+
+- Command: `Dendron: Doctor`
+- Option: `removeDeprecatedConfigs`
 
 ### findIncompatibleExtensions
 
