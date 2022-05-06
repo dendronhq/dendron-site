@@ -2,7 +2,7 @@
 id: 1MV8179GbxnfK3q76P19e
 title: Product Scopes
 desc: ''
-updated: 1651758278428
+updated: 1651843712550
 created: 1645153440338
 ---
 
@@ -41,8 +41,6 @@ Scopes are organized along two categorization schemes:
 ### Sync
 
 - #scope.sync
-- #feature.mobile
-- #feature.pod-integrations
 
 ### Publish
 
