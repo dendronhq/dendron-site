@@ -2,7 +2,7 @@
 id: CUEwuYsbutHeJJf6aKM3g
 title: Basics
 desc: 'VS Code workspace, vaults, intellisense/autocomplete, Dendron settings'
-updated: 1651567375825
+updated: 1651837499334
 created: 1632764333519
 pods:
   airtable:
@@ -41,8 +41,8 @@ VS Code workspace, vaults, intellisense/autocomplete, Dendron settings
 ##  Extension scopes
 Since the basics scope only covers what a typical customer would do in two weeks, more functionality related to each vertical can be categorized under the following scopes: 
 
-- Lookup -> #scope.retrieve.note-lookup
-- Hierarchies -> #scope.structure
+- Lookup -> #scope.retrieve (#feature.lookup)
+- Hierarchies -> #scope.structure (#feature.hierarchy)
 - Markdown -> #scope.edit
 - Links -> #scope.navigate
 - Note references -> #scope.retrieve (#feature.note-refs)
