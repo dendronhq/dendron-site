@@ -2,7 +2,7 @@
 id: 3abd00eb-1c1e-4253-aaf5-dcbe20c21850
 title: Early Seed
 desc: ''
-updated: 1651857194335
+updated: 1651857682293
 created: 1604539200840
 published: true
 nav_exclude: true
@@ -44,4 +44,3 @@ We're rolling out a new Panel in VSCode to give you convenient access to our sta
 - fix: insert note index `#undefined` in case missing tags (#2789) [[people.huland]]
 - fix: highlighting misidentified capitalized header anchors on links as missing (#2872) @kaan
 - fix: CLI writes "cli" as the version into the meta file which breaks initialization (#2871) @kaan
-- fix: self contained vaults get cloned into the wrong directory (#2873) @kaan
