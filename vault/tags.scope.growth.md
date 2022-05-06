@@ -7,6 +7,7 @@ created: 1644726164826
 pods:
   airtable:
     dendron.scopes: recSGsZjdc7LTuYg8
+    task.scopes: rec0vfPXDWuWLDuVy
 ---
 
 Growth related efforts for Dendron. 

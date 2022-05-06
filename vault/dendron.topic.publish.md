@@ -2,7 +2,7 @@
 id: 4ushYTDoX0TYQ1FDtGQSg
 title: Publish
 desc: ''
-updated: 1640745663543
+updated: 1651793872870
 created: 1635379320910
 config:
   global:
@@ -17,13 +17,13 @@ This site that you are looking at is published using Dendron.
 
 Checkout our [[GitHub Pages with GitHub Actions|dendron://dendron.dendron-site/dendron.topic.publish.cook.github-action]] for publishing to GitHub Pages to get started.
 
-## Details
+## Features
+![[dendron://dendron.dendron-site/dendron.topic.publish.features]]
 
-Dendron publishes your notes using a custom [Next.js](https://nextjs.org/) application, also available on [github](https://github.com/dendronhq/nextjs-template).
+## Getting Started
+See [[dendron://dendron.dendron-site/dendron.topic.publish.quickstart]]
 
 ## Topics
-- [[Getting Started|dendron://dendron.dendron-site/dendron.topic.publish.quickstart]]: How to get started
-- [[Features|dendron://dendron.dendron-site/dendron.topic.publish.features]]: Dendron publishing features
 - [[Concepts|dendron://dendron.dendron-site/dendron.topic.publish.concepts]]
 - [[CLI|dendron://dendron.dendron-site/dendron.topic.publish.cli]]: The Command Line Interface for publishing
 - [[Configuration|dendron://dendron.dendron-site/dendron.topic.publish.config]]: Customizing publishing

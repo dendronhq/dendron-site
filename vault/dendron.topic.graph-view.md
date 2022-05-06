@@ -2,7 +2,7 @@
 id: 587e6d62-3c5b-49b0-aedc-02f62f0448e6
 title: Graph View
 desc: ''
-updated: 1641167616980
+updated: 1651225100103
 created: 1595120707814
 ---
 
@@ -46,7 +46,7 @@ Use the filter view in the top left to filter and modify the data shown by the g
 
 ### Show Schema Graph
 
-Launch the command palette (see [[docs|dendron.guides.cook#launch-the-command-palette]]): `> Dendron: Show Schema Graph V2`
+Launch the command palette (see [[docs|dendron.guides.cook#launch-the-command-palette]]): `> Dendron: Show Schema Graph`
 
 Click on a node to open up the corresponding schema in your workspace.
 
@@ -103,6 +103,17 @@ Primarily for debugging, this section has information about graph size. Edge cou
 -   **Linked Edges**: Number of linked connections between nodes
 -   **Hierarchical Edges**: Number of hierarchical connections between nodes
 -   **Nodes**: Number of nodes in the graph
+
+### Graph Theme
+
+This view contains a list of available Graph Themes. Presently, Dendron provides three built-in graph themes:
+- Block
+- Classic
+- Monokai
+
+This list also appends `Custom` if custom graph stylings are provided.
+To create your own [[Custom Styling|dendron.topic.graph-view#custom-styling]] for Graph, click on the `Create Your Own` button next to the themes or by running `> Dendron: Configure Graph Style (css)`. You can view the example video [here](https://www.loom.com/share/54d9731560444016b400fa27e1a1d97b). 
+If you are new to cytoscape styling, use [[Built-in Snippet|dendron.topic.graph-view#built-in-snippet]] provided by Dendron to help you get started.
 
 ## Config
 
@@ -192,6 +203,86 @@ Some common edge style properties are listed below.
 | `width`      | The width of the edge line.                                  |
 | `line-color` | The color of the edge line.                                  |
 | `line-style` | The style of the edge line (`solid`, `dotted`, or `dashed`). |
+
+### Built-in Snippet
+
+Use these snippets as a starting point for curating custom styles for graph.
+
+- Monokai Theme
+```css
+/* Any graph node */
+node {
+    color: #ff6188;
+    font-family: cursive;
+ }
+
+/* Any graph edge */
+edge {
+   width: 0.5;
+   line-color :#78dce8;
+   target-distance-from-node: 5;
+   source-distance-from-node: 5;
+   source-endpoint: outside-to-line-or-label;
+   target-endpoint: outside-to-line-or-label;
+}
+
+/* Any selected node */
+:selected {
+   color: #fc9867;
+}
+/** AC2065 **/
+/* Any parent nodes (local note graph only) */
+.parent {
+   color: #a9dc76;
+}
+
+/* Any link connection edge */
+.links {
+   curve-style: bezier;
+}
+
+/* Any hierarchy connection edge */
+.hierarchy {
+   curve-style: bezier;
+}
+```
+
+- Block Theme
+```css
+/* Any graph node */
+node {
+   background-color: #BB86FC;
+   color: #BB86FC;
+ }
+
+edge {
+   line-color: #B591D9;
+   target-distance-from-node: 5;
+   source-distance-from-node: 5;
+}
+
+/* Any selected node */
+:selected {
+   background-color: #C7FC86;
+   color: #C7FC86;
+}
+
+/* Any parent nodes (local note graph only) */
+.parent {
+   color: coral;
+   background-color: coral;
+}
+
+/* Any link connection edge */
+.links {
+   curve-style: unbundled-bezier;
+}
+
+/* Any hierarchy connection edge */
+.hierarchy {
+   curve-style: taxi;
+}
+```
 
 ### Troubleshooting
 

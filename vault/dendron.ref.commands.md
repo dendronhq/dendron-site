@@ -2,7 +2,7 @@
 id: eea2b078-1acc-4071-a14e-18299fc28f47
 title: Commands
 desc: ''
-updated: 1651331236693
+updated: 1651827081063
 created: 1595261816971
 nav_order: 3.1
 ---
@@ -716,6 +716,15 @@ Information displayed:
 - contents of `dendron.code-workspace`
 - telemetry status
 - last 3000 lines of logs from client and server
+
+### Dendron:Dev: Run Migration
+
+- shortcuts: none
+
+If your `dendron.yml` configuration file is out of date, you can use this
+command to update it. Dendron should automatically prompt you and run the
+migration for you, but you can use this command if you didn't get the prompt for
+any reason.
 
 ## Contextual UI
 

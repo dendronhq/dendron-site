@@ -7,6 +7,7 @@ created: 1639424337257
 pods:
   airtable:
     dendron.scopes: recvOpqfo2DhfEeEi
+    task.scopes: recCIXACCwkMTO6j5
 ---
 
 Related to the functional area of providing extension points to Dendron

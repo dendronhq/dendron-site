@@ -7,6 +7,7 @@ created: 1639521562924
 pods:
   airtable:
     dendron.scopes: recfW5dxW4FxwyZsK
+    task.scopes: recZ3BsQn3t15SWVK
 ---
 
 Related to internal process like build and code tooling

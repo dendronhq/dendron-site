@@ -7,6 +7,7 @@ created: 1647026762213
 pods:
   airtable:
     dendron.scopes: recGntj5MM55lZSc9
+    task.scopes: recp5eaZawfiqPMyk
 ---
 
 Anything that is related to both editing and retrieving

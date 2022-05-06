@@ -7,6 +7,7 @@ created: 1631656881512
 pods:
   airtable:
     dendron.scopes: recPDnjLGASfkjp3K
+    task.scopes: recBUFLZ95g4qaOEB
 ---
 
 Relating to Markdown features.
