@@ -2,8 +2,8 @@
 id: nbs6rjmscczj4bs9iv7ffw0
 title: A Tale of Complexity – Structural Layers in Note Taking
 desc: >-
-    
-updated: 1651595341746
+    A zettelkasten user describes his strucuturing of notes
+updated: 1652157225552
 created: 1651546580687
 ---
 
