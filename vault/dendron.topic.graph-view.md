@@ -2,7 +2,7 @@
 id: 587e6d62-3c5b-49b0-aedc-02f62f0448e6
 title: Graph View
 desc: ''
-updated: 1651225100103
+updated: 1652084299926
 created: 1595120707814
 ---
 
@@ -112,7 +112,7 @@ This view contains a list of available Graph Themes. Presently, Dendron provides
 - Monokai
 
 This list also appends `Custom` if custom graph stylings are provided.
-To create your own [[Custom Styling|dendron.topic.graph-view#custom-styling]] for Graph, click on the `Create Your Own` button next to the themes or by running `> Dendron: Configure Graph Style (css)`. You can view the example video [here](https://www.loom.com/share/54d9731560444016b400fa27e1a1d97b). 
+To create your own [[Custom Styling|dendron.topic.graph-view#custom-styling]] for Graph, click on the `Create Your Own` button next to the themes or by running `> Dendron: Configure Graph Style (css)`. You can view the example video [here](https://www.loom.com/share/f2c53d2a5aeb48209b5587a3dfbb1015). 
 If you are new to cytoscape styling, use [[Built-in Snippet|dendron.topic.graph-view#built-in-snippet]] provided by Dendron to help you get started.
 
 ## Config

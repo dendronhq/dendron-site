@@ -2,10 +2,33 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1651536643578
+updated: 1652154457179
 created: 1601508213606
 nav_order: 2
 ---
+
+## 0.94.0
+### Features
+- feat(navigation): add goto command: ([[docs|dendron.ref.commands.goto]])
+- feat: Add doctor command to remove deprecated config and prompt on upgrade (#2841) @hikchoi
+
+### Enhancements
+- enhance(view): graph themes (#2806) ([[docs|dendron://dendron.dendron-site/dendron.topic.graph-view#graph-theme]] )@joshi
+<!-- this is a common issue when people c/p notes. will now be auto-detected -->
+- enhance(workspace): detect and warn for duplicate note IDs (#2879) @kaan
+- enhance(view): help and feedback panel (#2877) @jonathan 
+- enhance(workspace): use better defaults for `Create Task Note` ([[docs|dendron://dendron.dendron-site/dendron.topic.tasks#configuration]]) (#2855) @kaan
+- enhance(commands): prefix paste-image command with "Dendron" for uniformity (dendronhq/dendron-paste-image#4)  @kaan
+- enhance(cli): cli will report invalid commands (#2876) `@Jack of some quantity of trades#3247`
+- enhance(view): make dendron side bar visible when dendron not active (#2881) @jonathan
+
+### Fix
+- fix: bad wikilink is created with selection2link if selection is multi-line (#2856) @kaan
+- fix: insert note index `#undefined` in case missing tags (#2789) `huland#6948`
+- fix: highlighting misidentified capitalized header anchors on links as missing (#2872) @kaan
+- fix: CLI writes "cli" as the version into the meta file which breaks initialization (#2871) @kaan
+- fix: self contained vaults get cloned into the wrong directory (#2873) @kaan
+
 
 ## 0.93.0
 ### Features

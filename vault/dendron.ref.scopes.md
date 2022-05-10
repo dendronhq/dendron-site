@@ -2,7 +2,7 @@
 id: 1MV8179GbxnfK3q76P19e
 title: Product Scopes
 desc: ''
-updated: 1651843712550
+updated: 1652177630861
 created: 1645153440338
 ---
 
@@ -14,7 +14,6 @@ Scopes are organized along two categorization schemes:
 - [[Horizontal Categorization|dendron://dendron.dendron-site/dendron.ref.scopes.concepts#horizontal-categorization]]: track a common, non-primary, trait across many domains
 - [[Vertical Categorization|dendron://dendron.dendron-site/dendron.ref.scopes.concepts#vertical-categorization]]: track a common primary trait in a given domain
 
-- NOTE: Some scopes have sub-scopes that go into more specific functionality. 
 
 ## Concepts
 
@@ -24,8 +23,7 @@ Scopes are organized along two categorization schemes:
 
 ### Edit
 
-- #scope.edit
-
+- #scope.edit 
 ### Retrieve
 
 - #scope.retrieve
@@ -54,12 +52,13 @@ Scopes are organized along two categorization schemes:
 
 - #scope.extend
 
-
 ## Horizontal Scopes
 
-Horizontal scopes are tracked under #scope.common
+Horizontal scopes are tracked under #scope.common and #scope.basics
 
-- #scope.basics
-- #scope.common.views
-- #scope.common.markdown
+- #scope.common.edit-and-retrieve
 - #scope.common.lookup
+- #scope.common.markdown
+- #scope.common.views
+- #scope.common.performance
+- #scope.common.workspace
