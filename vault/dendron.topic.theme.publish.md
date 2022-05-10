@@ -1,16 +1,18 @@
 ---
 id: jknrdi492m8nhq7mw4faydu
-title: Theming
-desc: ''
-updated: 1651827500292
+title: Publish
+desc: ""
+updated: 1652220370374
 created: 1651827497940
 ---
 
 ## Summary
 
-You can customize the style of Dendron! Right now you can only customize
-published sites, but we'll make customizations available for the Dendron preview
-soon.
+status: #stage.seed
+
+You can customize the style of sites published with Dendron!
+
+![](https://org-dendron-public-assets.s3.amazonaws.com/images/publishing-custom-theme-example.png)
 
 ## Details
 
@@ -22,23 +24,38 @@ publishing:
   theme: custom
 ```
 
+> If you decide to go back to the default theme, you can remove `theme: custom`.
+
 Next, create a `custom.css` file in the same folder as your `dendron.yml` file.
 If you can't see `dendron.yml` in the VSCode explorer, VSCode may be hiding it
-so use your operating system's file explorer to find it.
+so use your operating system's file explorer to find it. The folder should look like this when everything is set up:
+
+```
+.
+├── custom.css
+├── dendron.code-workspace
+├── dendron.yml
+└── notes
+   └── ...
+```
 
 We have an [[example custom theme|#examples]] you can use below. Copy and paste this into the
 `custom.css` you created, and you're ready! The theme will
 now be applied when you preview your dendron site locally or when your export as
 static html. See
 [[Quickstart|dendron://dendron.dendron-site/dendron.topic.publish.quickstart]]
-for instructions.
+for instructions on how to publish.
 
 > ⚠️ When using the local preview, the custom theme will not automatically
 > update when you make changes. You'll need to run the command again and refresh
 > the page.
 
-
 ## Examples
+
+Below is a basic example that makes the published site blue. You can start with
+this example and then tweak the values or add new CSS rules later. Feel free to
+ask for help at our [[Discord|community.discord]] if you need help customizing
+the theme!
 
 ```css
 /* Customizing the theme for the published Dendron site. This is a theme that darkens the background slightly, and uses blue for links and highlights.
@@ -139,9 +156,14 @@ footer .ant-typography.ant-typography-secondary {
   color: #002b5c;
 }
 
-.dendron-tree-menu.ant-menu .ant-menu-submenu > .ant-menu-submenu-title::after {
+.dendron-tree-menu.ant-menu .ant-menu-inline .ant-menu-item-selected::after {
   /* The color for the bar on the right side of the currently selected sidebar item. */
   border-color: #002b5c;
+}
+
+.ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
+  /* The color for the background of the currently selected sidebar item. */
+  background-color: #c3cbdb;
 }
 
 .dendron-toc .ant-anchor-ink-ball {
