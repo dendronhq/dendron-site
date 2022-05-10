@@ -2,13 +2,13 @@
 id: g1ez7c803vqoq4maa7kufsn
 title: 0.94
 desc: ''
-updated: 1652200374889
+updated: 1652201550302
 created: 1652154281573
 ---
 
 Dendron 0.94 has sprouted  🌱
 
-**Go To:** We're bringing goto back! Use `Dendron: Go to` to navigate to regular notes and newly introduced [[proxy notes|...]". See the [external notes](https://github.com/dendronhq/handbook/blob/main/handbook/ext.md#L8:L8) section of the Dendron handbook for an example of how we use this feature to manage bookmarks!
+**Go To:** We're bringing goto back! Use `Dendron: Go to` to navigate to regular notes and newly introduced [[proxy notes|dendron://dendron.dendron-site/dendron.topic.special-notes#proxy-notes]]. See the [external notes](https://github.com/dendronhq/handbook/blob/main/handbook/ext.md#L8:L8) section of the Dendron handbook for an example of how we use this feature to manage bookmarks!
 
 - More information: [[Go To Command|dendron://dendron.dendron-site/dendron.ref.commands.goto]]
 
