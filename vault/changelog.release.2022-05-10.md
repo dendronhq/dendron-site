@@ -2,13 +2,13 @@
 id: g1ez7c803vqoq4maa7kufsn
 title: 0.94
 desc: ''
-updated: 1652160905638
+updated: 1652200374889
 created: 1652154281573
 ---
 
 Dendron 0.94 has sprouted  🌱
 
-**Go To:** We've added a `Go To` command to help support navigating to different types of links in Dendron. Now, Dendron will respond appropriately when navigating to a note, markdown link or [[Proxy note|dendron://dendron.dendron-site/dendron.topic.special-notes#proxy-notes]].
+**Go To:** We're bringing goto back! Use `Dendron: Go to` to navigate to regular notes and newly introduced [[proxy notes|...]". See the [external notes](https://github.com/dendronhq/handbook/blob/main/handbook/ext.md#L8:L8) section of the Dendron handbook for an example of how we use this feature to manage bookmarks!
 
 - More information: [[Go To Command|dendron://dendron.dendron-site/dendron.ref.commands.goto]]
 
@@ -28,7 +28,7 @@ Dendron 0.94 has sprouted  🌱
 - enhance(workspace): detect and warn for duplicate note IDs
 
 ## Everything Else
-- feat: Add doctor command to remove deprecated config and prompt on upgrade
+- feat(workspace): Add doctor command to remove deprecated config and prompt on upgrade
 - enhance(view): help and feedback panel
 - enhance(workspace): use better defaults for `Create Task Note`
 - enhance(commands): prefix paste-image command with "Dendron" for uniformity
@@ -116,6 +116,13 @@ Visit [[Discord Roles|dendron://dendron.dendron-site/community.discord.roles]] f
   - #role.taxonomist
   - [Update dendron.ref.config.workspace.md](https://github.com/dendronhq/dendron-site/pull/490)
 
+- [aodhagan](https://github.com/aodhagan)
+  - #role.bugcatcher
+  - [Dendron snippets not working](https://github.com/dendronhq/dendron/issues/2891)
+
+- [harrijer](https://github.com/harrijer) `@harrijer#3513`
+  - #role.bugcatcher
+  - [Journal notes front matter title breaks if you change value of journal:dateFormat](https://github.com/dendronhq/dendron/issues/2895)
 
 ## Changelog
 ![[changelog#0940,1:#0930]]
