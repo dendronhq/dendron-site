@@ -2,7 +2,7 @@
 id: g1ez7c803vqoq4maa7kufsn
 title: 0.94
 desc: ''
-updated: 1652158601440
+updated: 1652160905638
 created: 1652154281573
 ---
 
@@ -14,9 +14,9 @@ Dendron 0.94 has sprouted  🌱
 
 **Graph Themes:** It's time your graph got a facelift! You can now choose between 3 graph themes: Block, Classic and Monokai, or create your own custom theme styled to your liking. 
 
-![[]]
+![examples of different graph themes](https://org-dendron-public-assets.s3.amazonaws.com/images/graph-theme-gif.gif)
 
-- More information: [[Graph Themes|dendron://dendron.dendron-site/dendron.topic.graph-view.md#graph-theme]]
+- More information: [[Graph Themes Documentation|dendron://dendron.dendron-site/dendron.topic.graph-view.md#graph-theme]]
 
 **Help and Feedback Panel:** We're rolling out a new Panel in VSCode to give you convenient access to our starting guide and documentation, as well as a direct way to give us feedback. Check it out in the Side Bar!
 
