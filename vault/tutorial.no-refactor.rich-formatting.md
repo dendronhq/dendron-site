@@ -1,8 +1,8 @@
 ---
-id: lxrp006mal1tfsd7nxmsobe
+id: ie5x2bq5yj7uvenylblnhyr
 title: Rich Formatting
 desc: ""
-updated: 1652123135299
+updated: 1652280786678
 created: 1625573403967
 nav_order: 3
 ---
