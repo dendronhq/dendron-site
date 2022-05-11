@@ -2,7 +2,7 @@
 id: ZljuAhFuNWEOUlFtPlC0h
 title: Feature Template
 desc: ''
-updated: 1651794060694
+updated: 1652227036890
 created: 1635992238170
 config:
   global:
@@ -11,7 +11,6 @@ config:
 
 ## Summary
 <!-- 
-- required: true
 - recommended: include a picture
 - eg: [[Summary|dendron://dendron.dendron-site/dendron.topic.publish#summary]]
 
@@ -20,19 +19,39 @@ config:
 
 ## Use Cases
 <!--
-- bullet points with examples of how this feature could be used
+Bullet points with examples of how this feature could be used
 -->
 
 ## Features
 <!-- 
+- required: false
 - example: [[Features|dendron://dendron.dendron-site/dendron.topic.publish.features]]
 
-If the feature has sub features, list them out here
+If the feature has sub features, list them out here 
 -->
+
+### Limitations
+<!-- Optional. If there are any limitations to call out -->
 
 ## Getting Started
 <!-- 
-How to get started using the feature. Should have a link to the quickstart doc
 - eg: [[Quickstart|dendron://dendron.dendron-site/dendron.topic.publish.quickstart]]
+
+How to get started using the feature. Should have a link to the quickstart doc
 -->
+
+### Child Pages
+<!-- 
+Link to children 
+
+Should have following order
+
+- Concepts
+- Config
+- CLI
+- Commands
+-->
+
+## 
+<!-- Index of all things -->
 
