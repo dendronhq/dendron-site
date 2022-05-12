@@ -3,7 +3,7 @@ id: 8hwz4bvyy556frx9y04c1cv
 title: Task Management
 desc: >-
     Learn to use different features in Dendron to manage your tasks
-updated: 1650385620585
+updated: 1652355197557
 created: 1650385442920
 canonicalUrl: https://blog.dendron.so/notes/1jynrsx70fh3mihhrhikrf8/
 ---
@@ -72,7 +72,7 @@ Your bullet list should now render Markdown checkboxes in [Preview](https://wiki
 
 ### Create a task note
 
-Not that we have the ingredients, it's time to bake. Looking at our `bake cookies` task, something feels missing...we don't know the steps involved in baking! Let's fix that...
+Now that we have the ingredients, it's time to bake. Looking at our `bake cookies` task, something feels missing...we don't know the steps involved in baking! Let's fix that...
 
 - Delete the bracket next to `bake cookies`. Your note should look like the following:
 
