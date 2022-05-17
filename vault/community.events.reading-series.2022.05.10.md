@@ -3,8 +3,8 @@ id: znssdsa8ah7fn7o2wmsxksf
 title: >-
     If headers did not exist, it would be necessary to invent them
 desc: >-
-    
-updated: 1652162427707
+    An exploration into digital protocols and headers as metadata
+updated: 1652756322389
 created: 1652157202641
 ---
 
