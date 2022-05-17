@@ -2,7 +2,7 @@
 id: o674526ctxg6rt8bc144rdz
 title: 0.95
 desc: ''
-updated: 1652758889658
+updated: 1652806373844
 created: 1652755065976
 ---
 
@@ -17,7 +17,6 @@ Dendron 0.95 has sprouted  🌱
 - Learn more about [[custom themes|dendron://dendron.dendron-site/dendron.topic.theme.publish.md]]
 
 **Initialization Speed-Up:** But wait, there's more: less waiting! This release drastically improves workspace initialization speed (10x faster for large workspaces 🚀 ).
-
 
 ## Highlights
 - feat(chore): germ stage implementation of config overrides 
@@ -34,10 +33,9 @@ Dendron 0.95 has sprouted  🌱
 ## Community
 
 ### General Updates
-<!-- TODO: Delete this section if not appliacble -->
+**Self Contained Vaults:**  We hope you're as excited about self contained vaults as we are! To learn more about the newest changes to vaults, check out our [[release notes on self contained vaults|dendron://dendron.blog/blog.2022.2022-05-10-self-contained-vaults-release]]. To see an example of self contained vaults in action, read about how we [use them at Dendron](https://github.com/dendronhq/handbook/blob/main/notes/area.team.sop.use-personal-vault-alongside-team-vaults.md#L8:L8).
 
 ### Starboard and TIL Highlights
-<!-- TODO: update links. Delete section is no new items-->
 > These are highlights from the [[Dendron Discord|dendron://dendron.dendron-site/community.discord.channels]] `#starboard` and `#today-i-learned` channels.
 
 - ⭐  `kzilla#8818` shared a custom trait for [creating a monthly journal](https://discord.com/channels/717965437182410783/742532267058004098/969247847365107762)
@@ -66,6 +64,21 @@ This week's entry in the [[Dendron Reading Series|dendron://dendron.dendron-site
 
 A big **thanks** to the following gardeners that brought up issues, contributions, and fixes to this release :man_farmer: :woman_farmer: 
 Visit [[Discord Roles|dendron://dendron.dendron-site/community.discord.roles]] for more information.
+
+- [Tika](https://github.com/SR--) `@Tika#9526`
+  - #role.horticulturalist
+  - [typo](https://github.com/dendronhq/dendron-blog/pull/22)
+  - [fixed the language](https://github.com/dendronhq/dendron-blog/pull/23#pullrequestreview-966870394)
+  - [Fix alignment on published notes in the children section](https://github.com/dendronhq/dendron/issues/2921)
+
+- [lexthanthree](https://github.com/lexthanthree) `@alexis<3#7889`
+  - [Ordered list nesting behaves unexpectedly](https://github.com/dendronhq/dendron/issues/2927)
+
+#### Surveyors
+
+The following community members provided feedback in the Dendron user survey:
+
+- `@NorbertK#2895`
 
 ## Changelog
 ![[changelog#0950,1:#0940]]
