@@ -2,13 +2,13 @@
 id: o674526ctxg6rt8bc144rdz
 title: 0.95
 desc: ''
-updated: 1652809279352
+updated: 1652809945030
 created: 1652755065976
 ---
 
 Dendron 0.95 has sprouted  🌱
 
-**Local Configuration:** We are releasing an early build of Config Overrides, which allows a local configuration to override values in the default configuration. This lets you use your own settings and vaults within a shared team workspace.
+**Local Configuration:** We are releasing an early build of local configuration overrides, which allows a local configuration to override values in the default configuration. This lets you use your own settings and vaults within a shared team workspace.
 
 - More information here about [[local configurations|dendron://dendron.dendron-site/dendron.topic.local-config-override]]
 
@@ -33,7 +33,7 @@ Dendron 0.95 has sprouted  🌱
 ## Community
 
 ### General Updates
-**Self Contained Vaults:**  [Self contained vaults](https://blog.dendron.so/notes/g98s3m6jft4gnb546y7i4xg/) make it easier to sync and share your notes with others. They are backwards compatible with existing vaults which means you can experiment with them without breaking your current flow. Starting next week, we will be flipping the defaults so that newly created vaults will be self contained by default. If you would like to preserve the current behavior, you can manually set [[dendron.enableSelfContainedVaultWorkspace|dendron://dendron.dendron-site/dendron.ref.config.vscode-config#dendronenableselfcontainedvaultworkspace]] to false
+**Self Contained Vaults:**  [Self contained vaults](https://blog.dendron.so/notes/g98s3m6jft4gnb546y7i4xg/) make it easier to sync and share your notes with others. They are backwards compatible with existing vaults which means you can experiment with them without breaking your current flow. Starting next week, we will be flipping the defaults so that newly created vaults will be self contained by default. 
 
 ### Starboard and TIL Highlights
 > These are highlights from the [[Dendron Discord|dendron://dendron.dendron-site/community.discord.channels]] `#starboard` and `#today-i-learned` channels.

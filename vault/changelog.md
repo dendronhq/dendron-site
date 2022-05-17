@@ -2,20 +2,20 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1652756129254
+updated: 1652810020343
 created: 1601508213606
 nav_order: 2
 ---
 
 ## 0.95.0
 ### Features
-- feat(chore): germ stage implementation of config overrides ([[docs|dendron://dendron.dendron-site/dendron.topic.local-config-override]]) (#2794) @kevin
+- feat(chore): preview support for local configuration overrides ([[docs|dendron://dendron.dendron-site/dendron.topic.local-config-override]]) (#2794) @kevin
 - feat(views): allow customization of tree view display and sorting behavior (#2858) @hikchoi
-- feat(publish): Custom theme support for publishing ([[docs|dendron://dendron.dendron-site/dendron.topic.theme.publish]]) (#2887) @kaan 
+- feat(publish): custom theme support for publishing  ([[docs|dendron://dendron.dendron-site/dendron.topic.theme.publish]]) (#2887) @kaan 
 
 ### Enhancements
-- enhance(workspace): Speed up workspace initialization (#2903) @tuling
-- enhance(views): make full graph view as default (#2890) @joshi
+- enhance(workspace): speed up workspace initialization (up to 10x speed up of workspace initialization) (#2903) @tuling
+- enhance(views): set `full graph` as default(#2890) @joshi
 - enhance(views): display workspace information in full graph view (#2886) @joshi
 - enhance(workspace): new user tutorials (#2889) @hikchoi
 
