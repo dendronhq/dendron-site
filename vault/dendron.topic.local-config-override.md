@@ -2,7 +2,7 @@
 id: 7tlxi5ejnnb8idhc1943zmp
 title: Local Config Override
 desc: ''
-updated: 1651854647507
+updated: 1652463584587
 created: 1651708524625
 published: false
 ---
@@ -35,6 +35,7 @@ These are vaults that are added via a local dendronrc.yml file
     - you will not be able to use `cmd+p` to navigate notes inside LCV
     - you will not be able to use the native code explorer pane to navigate inside a LCV
     - the vscode breadcrump will show you the full path to a note inside a LCV
+    - the default source control view will not show a LCV (workspace sync will still work)
 - LCVs will not be automatically added to `.gitignore` - you will need to manually do this
 - LC can extend existing vaults but not delete or remove existing vaults
 - there is currently no built-in command to create/update/delete a LC 
