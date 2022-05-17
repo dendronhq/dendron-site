@@ -2,7 +2,7 @@
 id: o674526ctxg6rt8bc144rdz
 title: 0.95
 desc: ''
-updated: 1652806373844
+updated: 1652809279352
 created: 1652755065976
 ---
 
@@ -19,13 +19,13 @@ Dendron 0.95 has sprouted  🌱
 **Initialization Speed-Up:** But wait, there's more: less waiting! This release drastically improves workspace initialization speed (10x faster for large workspaces 🚀 ).
 
 ## Highlights
-- feat(chore): germ stage implementation of config overrides 
-- feat(publish): Custom theme support for publishing 
-- enhance(workspace): Speed up workspace initialization 
+- feat(chore): preview support for local configuration overrides
+- feat(publish): custom theme support for publishing 
+- enhance(workspace): speed up workspace initialization (up to 10x speed up of workspace initialization)
 
 ## Everything Else
 - feat(views): allow customization of tree view display and sorting behavior
-- enhance(views): make full graph view as default
+- enhance(views): set `full graph` as default
 - enhance(views): display workspace information in full graph view
 - enhance(workspace): new user tutorials
 - fix(publish): published images missing leading forward slashes
@@ -33,7 +33,7 @@ Dendron 0.95 has sprouted  🌱
 ## Community
 
 ### General Updates
-**Self Contained Vaults:**  We hope you're as excited about self contained vaults as we are! To learn more about the newest changes to vaults, check out our [[release notes on self contained vaults|dendron://dendron.blog/blog.2022.2022-05-10-self-contained-vaults-release]]. To see an example of self contained vaults in action, read about how we [use them at Dendron](https://github.com/dendronhq/handbook/blob/main/notes/area.team.sop.use-personal-vault-alongside-team-vaults.md#L8:L8).
+**Self Contained Vaults:**  [Self contained vaults](https://blog.dendron.so/notes/g98s3m6jft4gnb546y7i4xg/) make it easier to sync and share your notes with others. They are backwards compatible with existing vaults which means you can experiment with them without breaking your current flow. Starting next week, we will be flipping the defaults so that newly created vaults will be self contained by default. If you would like to preserve the current behavior, you can manually set [[dendron.enableSelfContainedVaultWorkspace|dendron://dendron.dendron-site/dendron.ref.config.vscode-config#dendronenableselfcontainedvaultworkspace]] to false
 
 ### Starboard and TIL Highlights
 > These are highlights from the [[Dendron Discord|dendron://dendron.dendron-site/community.discord.channels]] `#starboard` and `#today-i-learned` channels.
