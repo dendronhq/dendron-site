@@ -2,7 +2,7 @@
 id: aikv0yamnfkcowlol7qeldy
 title: Migrating to Self Contained Vaults
 desc: ""
-updated: 1652342717971
+updated: 1652776135488
 created: 1651741592127
 ---
 
@@ -27,6 +27,32 @@ vault you would like to migrate and Dendron will handle the rest.
 If you don't see the vault you wanted to migrate on this list, then that vault
 is either already a self contained vault or we don't support migrating it yet.
 In that case you can follow the manual migration instructions listed below.
+
+### How it works
+
+The migration tool works by temporarily renaming the old vault, creating a new
+self contained vault with the same name, then moving the old vault into the self
+contained vault to complete the migration. This allows the tool to move all your
+notes and any other files you have inside the vault quickly. In more detail:
+
+1. The folder for the vault selected to be migrated (old) is renamed with a
+   unique name like `vault-migrate-aiky0`
+1. A self contained vault (new) with the same name is created in place of the old vault
+1. The old vault is moved into the new vault as the `notes` folder
+1. The vault is marked as self contained in the configuration files
+1. If there's a `.git` folder inside the old vault, it's moved up to the new vault
+
+While unlikely, should the automatic migration tool fail after renaming your
+existing vault, you can abort the migration by renaming the vault folder to what
+it used to be before. This is usually the same as the name of the vault, you can
+confirm what it is by looking at the `fsPath` value in the `dendron.yml`
+configuration file.
+
+If you have any files inside the vault that you want to keep at the root of the
+vault, for example a README file, VSCode configuration files, or a gitignore,
+you can move these files out of the `notes` folder and into the root of the
+vault afterwards.
+
 
 ## Manual Migration Instructions
 
