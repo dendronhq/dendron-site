@@ -2,7 +2,7 @@
 id: f1af56bb-db27-47ae-8406-61a98de6c78c
 title: Note Reference
 desc: ""
-updated: 1642067848058
+updated: 1652859742811
 created: 1597356582509
 stub: false
 ---
@@ -140,13 +140,18 @@ Lorem ipsum dolor amet ^1234
 | Sapiente | accusamus |
 |----------|-----------|
 | Laborum  | libero    |
-| Ullam    | optio     | ^whole-table
+| Ullam    | optio     |
+
+^whole-table
 ```
 
 `^whole-list`, `^whole-table`, and `^1234` reference the blocks they are attached to. List item block anchors reference the item they are attached to and any sub-items, e.g.
 
 - `^second-item` references "Item 2", "Item 2a", and "Item 2b"
 - `^third-item` references "Item 3"
+
+Please mind that block anchors can't be added into tables.
+`| Ullam | optio | ^table` is not valid.
 
 #### Block Links
 
