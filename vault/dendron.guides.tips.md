@@ -119,6 +119,8 @@ First copy it into Notion or use the Notion web clipper to clip it. This will fo
 
 ### Open Dendron from terminal
 
+#### Linux & Mac & WSL
+
 You can create an alias in your `.bashrc` / `.zshrc` file. Remember to replace `path/to/your/` with your `code-workspace` file path.
 
 ```sh
