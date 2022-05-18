@@ -117,6 +117,15 @@ You can streamline this process by assigning a keyboard shortcut to the command.
 
 First copy it into Notion or use the Notion web clipper to clip it. This will format it nicely in Markdown. You can then paste it into Dendron with Markdown and everything :)
 
+### Open Dendron from terminal
+
+You can create an alias in your `.bashrc` / `.zshrc` file. Remember to replace `path/to/your/` with your `code-workspace` file path.
+
+```sh
+alias dendron="code path/to/your/dendron.code-workspace"
+```
+
+
 <!-- 
 
 ### Custom Outlines
