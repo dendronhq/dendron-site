@@ -2,7 +2,7 @@
 id: EKIsWI7XklGDWkRq7jpSi
 title: Feature
 desc: ''
-updated: 1652691581339
+updated: 1652865486824
 created: 1642207217318
 ---
 
@@ -34,10 +34,6 @@ The Scope to Feature mapping is maintained [[on airtable (##groupBy: Scope)|dend
 
 ![[dendron://dendron.dendron-site/tags.scope.structure#features,1]]
 
-#### Structure.note-types
-
-#feature.note-traits
-
 #### Sync
 
 ![[dendron://dendron.dendron-site/tags.scope.sync#feature-nodes,1]]
@@ -46,15 +42,9 @@ The Scope to Feature mapping is maintained [[on airtable (##groupBy: Scope)|dend
 
 ![[dendron://dendron.dendron-site/tags.scope.publish#features,1]]
   
-#### Collaboration
-
 #### Extend
 
-#### Extend.CLI
-
-#feature.cli
-
-#### Growth
+![[dendron://dendron.dendron-site/tags.scope.extend#features,1]]
 
 #### ETC
 
