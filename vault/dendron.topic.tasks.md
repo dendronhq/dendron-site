@@ -1,8 +1,8 @@
 ---
 id: SEASewZSteDK7ry1AshNG
 title: Tasks
-desc: ''
-updated: 1651049340760
+desc: ""
+updated: 1652942837322
 created: 1635451738215
 ---
 
@@ -27,8 +27,8 @@ The simplest method to keep track of tasks is to simply use Markdown checkmarks.
 And here's how it looks like in the preview or publishing:
 
 > - [ ] Prepare for the party
->     - [ ] Send invitations
->     - [ ] Order food
+>   - [ ] Send invitations
+>   - [ ] Order food
 > - [x] Rent payment #important
 
 You can put these in a [[Journal|dendron.guides.workflows.bullet-journal]] to keep
@@ -51,7 +51,7 @@ the [Task Notes RFC](https://docs.dendron.so/notes/716e2699-42e1-44bd-9b97-124f0
 
 There are 2 ways to create a task note, you can either use the toggle in your
 regular lookup bar, or you can use the [[Create Task Note|dendron://dendron.dendron-site/dendron.ref.commands#create-task-note]] command.
-They both achieve the same result, although the task create command comes with some default 
+They both achieve the same result, although the task create command comes with some default
 settings.
 
 ![A screenshot displaying an open note that lists 3 tasks, each showing off different features of task notes. On the top right of the image is a lookup bar with the task toggle selected.](https://org-dendron-public-assets.s3.amazonaws.com/images/task-note-create-example.png)
@@ -60,13 +60,12 @@ Task notes are same as regular notes, except that they contain some special keys
 in their [[frontmatter|dendron.topic.frontmatter]]. These keys are inserted by
 default when you use the toggle or the command, but you can also add them
 yourself. Whenever you link to a task note, these keys will display the status
-of that task. This currently only works in the editor, but keep an eye out for
-updates as we enable it for preview and publishing as well!
+of that task: this works in the editor, preview, and published sites.
 
 ### Marking tasks as complete
 
 We are working on enhancing the task note experience. In the meantime, you can
-edit the task note and change the status to `x` to display a completed checkmark.
+edit the task note and change the status to `x` or `done` to display a completed checkmark.
 
 ### Task note internals
 
@@ -74,13 +73,13 @@ edit the task note and change the status to `x` to display a completed checkmark
 ---
 id: sEnzNEw04L4BZ2lN00zuI
 title: Task Example
-desc: 'This is an example of task note frontmatter'
+desc: "This is an example of task note frontmatter"
 updated: 1635228981637
 created: 1635228506689
-status: 'x'
-due: '2021.10.29'
-priority: 'H'
-owner: 'kaan'
+status: "x"
+due: "2021.10.29"
+priority: "H"
+owner: "kaan"
 tags:
   - size.small
 ---
@@ -109,17 +108,19 @@ You can control where the task notes are created in the configuration file. Use 
 ```yaml
 workspace:
   task:
-    name: 'task'
-    dateFormat: 'y.MM.dd'
+    name: "task"
+    dateFormat: "y.MM.dd"
     addBehavior: asOwnDomain
 ```
 
 #### addBehavior
+
 - possible values: `asOwnDomain`, `childOfCurrent`, `childOfDomain`, `childOfDomainNamespace`
 
 See [[dendron.topic.special-notes#defaultnodetypeaddbehavior]] for an explanation of how these values work.
 
 #### name
+
 This is the name that all notes will be under. For example if this is set to `task`, then all tasks will go under `task.…`. Leave it empty to skip it.
 
 #### dateFormat
@@ -142,6 +143,41 @@ workspace:
             H: "high"
             M: "medium"
             L: "low"
+        taskCompleteStatus: ["x", "done"]
 ```
 
 Dendron uses this configuration to map the priority and status symbols used in the frontmatter to what gets displayed on the screen. By changing these configurations, you can change what gets displayed.
+
+#### statusSymbols
+
+You can use these to map note statuses to symbols, emojis, or anything else you
+want. The mapped symbol is what will be displayed for a task that has that
+status.
+
+The key portion (left side of `:`) is the status of the task, and value portion
+(right side of `:`) is what will displayed in the editor, preview, and
+publishing for that task.
+
+#### prioritySymbols
+
+You can use these to map note priorities to symbols, emojis, or anything else you
+want. The mapped symbol is what will be displayed for a task that has that
+priority.
+
+The key portion (left side of `:`) is the priority of the task, and value portion
+(right side of `:`) is what will displayed in the editor, preview, and
+publishing for that task.
+
+#### taskCompleteStatus
+
+A list of statuses that represent a task that is complete. If a task note has a
+status that matches anything in this list, the task is considered to be
+complete.
+
+This is used in the preview and publishing, where a link to a completed task is
+displayed with a checked box, as opposed to an empty checkbox for all other
+tasks.
+
+You'll likely want to use this only for tasks that are considered "successful",
+so tasks that have been dropped, blocked, or failed are not displayed with a
+checkmark.
