@@ -59,8 +59,11 @@ settings.
 Task notes are same as regular notes, except that they contain some special keys
 in their [[frontmatter|dendron.topic.frontmatter]]. These keys are inserted by
 default when you use the toggle or the command, but you can also add them
-yourself. Whenever you link to a task note, these keys will display the status
-of that task: this works in the editor, preview, and published sites.
+yourself.
+
+Whenever you link to a task note, these keys will display the status of that
+task: this works in the editor, preview, and published sites. You can disable
+the status view in preview and publishing by setting [[enableTaskNotes|dendron://dendron.dendron-site/dendron.topic.publish.config.enableTaskNotes]].
 
 ### Marking tasks as complete
 
