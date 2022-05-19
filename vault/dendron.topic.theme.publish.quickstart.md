@@ -1,8 +1,8 @@
 ---
 id: mtx2kb16qzr37zanpoai41y
 title:  Quickstart
-desc: 'Getting started with publishing a custom theme'
-updated: 1652803890535
+desc: 'Getting started changing the theme in your published site.'
+updated: 1652930451015
 created: 1652803417376
 ---
 
@@ -14,7 +14,25 @@ created: 1652803417376
 - Make sure `dendron-cli` is version `0.95.0` or above. If not, upgrade by following instructions [[here|dendron://dendron.dendron-site/dendron.topic.cli.upgrade]]
 - Have publishing setup. If not, follow the instructions in the [[publishing quickstart|dendron://dendron.dendron-site/dendron.topic.publish.quickstart]]
 
-## Steps
+## Using the built-in dark theme
+
+There's a built-in dark theme for publishing which you can switch to.
+
+1. To use a custom style, first set `publishing.theme` in `dendron.yml` to `dark`.  It will look like this:
+    ```yaml
+    publishing:
+        theme: dark
+    ```
+    - > TIP: If you decide to go back to the default theme, you can remove `theme: custom`.
+1. You can now preview when viewing your site locally 
+    ```
+    npx dendron publish dev
+    ```
+1. Congrats, you've now switched to the dark theme!
+
+## Using a custom theme
+
+### Steps
 
 1. To use a custom style, first set `publishing.theme` in `dendron.yml` to `custom`.  It will look like this:
     ```yaml
