@@ -2,7 +2,7 @@
 id: 3abd00eb-1c1e-4253-aaf5-dcbe20c21850
 title: Early Seed
 desc: ''
-updated: 1653032617724
+updated: 1653034790644
 created: 1604539200840
 published: true
 nav_exclude: true
@@ -13,6 +13,8 @@ nav_exclude: true
 ## 0.96.0
 
 Dendron 0.96 has sprouted 🌱
+
+**Graph Panel:** We're experimenting with a new note graph panel that lets you visualize relationships between notes. Check it out in the Side Bar!
 
 ### Features
 - feat(workspace): local graph view in the Dendron Side Panel (#2901) @joshi
