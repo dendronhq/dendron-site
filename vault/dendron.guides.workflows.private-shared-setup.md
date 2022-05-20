@@ -29,7 +29,7 @@ Create a blank worspace that will have [[multiple vaults|dendron.topic.multi-vau
    3. Select `blank`
 2. Add as many [[dendron.topic.vaults]] as needed, each one serving different purposes or audiences.
    
-   1. Create a **local note** for notes that will not be shared ([[more info here|dendron.topic.vaults#vault-add]]):
+   1. Create a **local vault** for notes that will not be shared ([[more info here|dendron.topic.vaults#vault-add]]):
       1. Run `Dendron: Vault Add`
       2. Select `local`
       3. Type the location where you want it to be stored
