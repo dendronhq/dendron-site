@@ -2,7 +2,7 @@
 id: 3abd00eb-1c1e-4253-aaf5-dcbe20c21850
 title: Early Seed
 desc: ''
-updated: 1652461116124
+updated: 1653064872154
 created: 1604539200840
 published: true
 nav_exclude: true
@@ -10,25 +10,21 @@ nav_exclude: true
 
 > This page documents the features, enhancements, and fixes in the latest early seed release. The early seed is a preview of the weekly release, so you'll see the next minor version when installing (ex. `0.78.0` instead of `0.77.1`). When dendron ships the general release, the currently installed extension will automatically be updated (but will still have same version).
 
-## 0.95.0
+## 0.96.0
 
-Dendron 0.95 has sprouted 🌱
+Dendron 0.96 has sprouted 🌱
 
-**Local Configuration:** We are releasing an early build of Config Overrides, which allows a local configuration to override values in the default configuration. This lets you use your own settings and vaults within a shared team workspace.
+**Graph Panel:** We're experimenting with a new note graph panel that lets you visualize relationships between notes. Check it out in the Side Bar!
 
-- More information in [[docs|dendron://dendron.dendron-site/dendron.topic.local-config-override]]
+**Self Contained Vaults:** Self contained vaults is the new way Dendron is handling vaults. Starting with this release, new vaults will now default to being self contained. 
 
-**Initialization Speed-Up:** Good news for the impatient! This release drastically improves workspace initialization time (10x faster for large workspaces 🚀 ).
+- More information on [[self contained vaults|dendron://dendron.dendron-site/dendron.topic.vaults.self-contained]]
 
 ### Features
-- feat(workspace): germ stage implementation of config overrides ([[docs|dendron://dendron.dendron-site/dendron.topic.local-config-override]])  (#2794) @kevin
-- feat(views): allow customization of tree view label / sorting to preserve old tree view behavior ([[docs|dendron://dendron.dendron-site/dendron.ref.config.workspace]])(#2858) @hikchoi
+- feat(workspace): local graph view in the Dendron Side Panel (#2901) @joshi
 
 ### Enhancements
-- enhance(views): make full graph view as default (#2890) @joshi
-- enhance(views): display workspace information in full graph view (#2886) @joshi
-- enhance(workspace): Speed up workspace initialization (#2903) @tuling
-- enhance(workspace): new user tutorials (#2889) @hikchoi
+- enhance(workspace): make self contained vaults default for all new workspaces (#2935) @kaan
 
 ### Fixes
-- fix(publish): published images missing leading forward slashes (#2899) @kaan
+- fix(workspace): block anchor after table crashes preview (#2936) @kaan
