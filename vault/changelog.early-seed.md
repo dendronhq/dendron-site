@@ -2,7 +2,7 @@
 id: 3abd00eb-1c1e-4253-aaf5-dcbe20c21850
 title: Early Seed
 desc: ''
-updated: 1653034790644
+updated: 1653064872154
 created: 1604539200840
 published: true
 nav_exclude: true
@@ -15,6 +15,10 @@ nav_exclude: true
 Dendron 0.96 has sprouted 🌱
 
 **Graph Panel:** We're experimenting with a new note graph panel that lets you visualize relationships between notes. Check it out in the Side Bar!
+
+**Self Contained Vaults:** Self contained vaults is the new way Dendron is handling vaults. Starting with this release, new vaults will now default to being self contained. 
+
+- More information on [[self contained vaults|dendron://dendron.dendron-site/dendron.topic.vaults.self-contained]]
 
 ### Features
 - feat(workspace): local graph view in the Dendron Side Panel (#2901) @joshi
