@@ -2,7 +2,7 @@
 id: aikv0yamnfkcowlol7qeldy
 title: Migrating to Self Contained Vaults
 desc: ''
-updated: 1651827188676
+updated: 1653331651174
 created: 1651741592127
 ---
 
@@ -41,6 +41,7 @@ Before migrating your vaults:
     }
   ]
   ```
+1. If you are publishing your vault and you have a logo set, make sure to update your [[logoPath|dendron://dendron.dendron-site/dendron.topic.publish.config.logoPath]].
 
 Restart VSCode to make sure everything is updated, and you are done!
 Try doing a lookup, you should be able to access the notes in your vault.
