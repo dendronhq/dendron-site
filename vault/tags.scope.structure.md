@@ -2,7 +2,7 @@
 id: le8mukn4RuMfZ8SxD0doj
 title: Structure
 desc: ''
-updated: 1651836748479
+updated: 1653383717947
 created: 1644724514813
 pods:
   airtable:
@@ -24,7 +24,9 @@ Related to keeping notes in a structured, ordered fashion.
 ## Features
 
 - #feature.hierarchy
+- #feature.vaults
 - #feature.multi-vault
+- #feature.self-contained-vaults
 - #feature.frontmatter
 - #feature.tag
 - #feature.templates
@@ -34,3 +36,4 @@ Related to keeping notes in a structured, ordered fashion.
 - #feature.note-traits
 - #feature.refactor
 - #feature.schema
+- #feature.task-notes

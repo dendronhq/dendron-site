@@ -2,7 +2,7 @@
 id: oC1wonjSDL805WjRvzI6Y
 title: Workspace
 desc: ''
-updated: 1645245792535
+updated: 1653376930510
 created: 1645245012242
 pods:
   airtable:
@@ -21,4 +21,4 @@ pods:
 
 - #feature.vaults
 - #feature.multi-vault
-
+- #feature.self-contained-vaults
