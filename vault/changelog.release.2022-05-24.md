@@ -2,11 +2,11 @@
 id: mf89gy2bqbqb1nkx03h344b
 title: 0.96
 desc: ''
-updated: 1653413461587
+updated: 1653413845977
 created: 1653412567810
 ---
 
-Dendron 0.95 has sprouted  🌱
+Dendron 0.96 has sprouted  🌱
 
 ## Highlights
 
