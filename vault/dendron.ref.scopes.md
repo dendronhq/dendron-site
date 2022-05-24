@@ -2,7 +2,7 @@
 id: 1MV8179GbxnfK3q76P19e
 title: Product Scopes
 desc: ''
-updated: 1652177630861
+updated: 1653375596623
 created: 1645153440338
 ---
 
@@ -56,7 +56,6 @@ Scopes are organized along two categorization schemes:
 
 Horizontal scopes are tracked under #scope.common and #scope.basics
 
-- #scope.common.edit-and-retrieve
 - #scope.common.lookup
 - #scope.common.markdown
 - #scope.common.views
