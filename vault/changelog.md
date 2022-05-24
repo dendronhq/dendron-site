@@ -2,10 +2,22 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1652810020343
+updated: 1653412451172
 created: 1601508213606
 nav_order: 2
 ---
+
+## 0.96.0
+
+### Features
+- feat(workspace): local graph view in the Dendron Side Panel (#2901) @joshi
+
+### Enhancements
+- enhance(workspace): make self contained vaults default for all new workspaces (#2935) @kaan
+
+### Fixes
+- fix(workspace): block anchor after table crashes preview (#2936) @kaan
+- fix(workspace): doctor removeStubs resulting in 'no data' prompt (#2944) @joshi
 
 ## 0.95.0
 ### Features
