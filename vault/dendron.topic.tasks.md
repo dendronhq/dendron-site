@@ -2,7 +2,7 @@
 id: SEASewZSteDK7ry1AshNG
 title: Tasks
 desc: ''
-updated: 1651049340760
+updated: 1653371715129
 created: 1635451738215
 ---
 
@@ -145,3 +145,16 @@ workspace:
 ```
 
 Dendron uses this configuration to map the priority and status symbols used in the frontmatter to what gets displayed on the screen. By changing these configurations, you can change what gets displayed.
+
+### Todo Tree integration
+
+You can integrate your tasks with [Todo Tree](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree).
+If you set `todoIntegration` to true, task notes will create a TODO:  keyword in the frontmatter that should be picked up by TODO tree.
+
+```yaml
+workspace:
+    ...
+    task:
+      todoIntegration: true
+```
+
