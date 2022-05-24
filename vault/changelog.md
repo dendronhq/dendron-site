@@ -397,7 +397,7 @@ Dendron previously published backlinks and child links as header/anchor sections
 - feat(refactor): New `Dendron: Convert Link` command ([[docs|dendron://dendron.dendron-site/dendron.topic.refactoring#convert-link]]) (#1933) @hikchoi
 
 ### Enhancements
-- enhance(views): adding optional _last update_ sort ordering for backlinks view ([[docs|dendron://dendron.dendron-site/dendron.topic.workbench#backlink-view-command-palette]]) (#1924) @nickolay
+- enhance(views): adding optional _last update_ sort ordering for backlinks view ([[docs|dendron://dendron.dendron-site/dendron.topic.workbench#commands]]) (#1924) @nickolay
 - enhance(pods): better support for GitHub Issue and task notes ([[docs|dendron://dendron.dendron-site/dendron.topic.pod.builtin.github-issue.publish#aliasmapping]]) (#1918) @joshi
 - enhance(commands): `Dendron: Delete Node` command warns about links that will break, prompting users before deletion ([[docs|dendron://dendron.dendron-site/dendron.ref.commands#delete-node]]) (#1885) @hikchoi
 - enhance(lookup): better error message when using schema lookup (#1914) @tuling
