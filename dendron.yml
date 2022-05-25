@@ -66,9 +66,13 @@ workspace:
             L: low
         todoIntegration: false
         createTaskSelectionType: selection2link
+        taskCompleteStatus:
+            - done
+            - x
     enableUserTags: true
     enableHashTags: true
     enableEditorDecorations: true
+    enableFullHierarchyNoteTitle: false
 preview:
     enableFMTitle: true
     enableNoteTitleForLink: true
@@ -76,6 +80,8 @@ preview:
     enablePrettyRefs: true
     enableKatex: true
     automaticallyShowPreview: false
+    enableFrontmatterTags: true
+    enableHashesForFMTags: false
 publishing:
     enableFMTitle: true
     enableNoteTitleForLink: true
@@ -94,7 +100,7 @@ publishing:
         - tags
     enableSiteLastModified: true
     siteRootDir: docs
-    siteUrl: 'https://wiki.dendron.so'
+    siteUrl: https://wiki.dendron.so
     enableFrontmatterTags: true
     enableHashesForFMTags: false
     enableRandomlyColoredTags: true
@@ -113,5 +119,5 @@ publishing:
         editLinkText: Edit this page on GitHub
         editBranch: master
         editViewMode: tree
-        editRepository: 'https://github.com/dendronhq/dendron-site'
+        editRepository: https://github.com/dendronhq/dendron-site
     enablePrettyLinks: true
