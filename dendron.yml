@@ -39,6 +39,7 @@ workspace:
     graph:
         zoomSpeed: 1
     enableAutoCreateOnDefinition: false
+    enableHandlebarTemplates: true
     enableXVaultWikiLink: true
     enableRemoteVaultInit: true
     workspaceVaultSyncMode: noCommit
