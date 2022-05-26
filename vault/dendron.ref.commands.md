@@ -2,7 +2,7 @@
 id: eea2b078-1acc-4071-a14e-18299fc28f47
 title: Commands
 desc: ''
-updated: 1651827081063
+updated: 1653537440874
 created: 1595261816971
 nav_order: 3.1
 ---
@@ -106,6 +106,7 @@ You can also delete a note from the explorer:
 - `Dendron: Delete Node`
 
 ### Insert Note
+> DEPRECATED: This feature is deprecated and will be removed in future versions of Dendron - please use [[Template Apply|dendron://dendron.dendron-site/dendron.topic.templates.commands.template-apply]] instead
 
 Insert the contents from a note into another note. You can configure a starting hierarchy for this command. Useful if you designated a hierarchy (eg. `templates`) for insertions.
 
