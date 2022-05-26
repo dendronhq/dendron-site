@@ -2,7 +2,7 @@
 id: FnK2ws6w1uaS1YzBUY3BR
 title: GitHub Pages with GitHub Actions
 desc: ''
-updated: 1647633491859
+updated: 1653577437442
 created: 1631306630307
 ---
 
@@ -112,15 +112,15 @@ Follow the instructions [here](https://docs.github.com/en/repositories/creating-
       - name: Install dependencies
         run: yarn
 
+      - name: Initialize or pull nextjs template
+        run: "(test -d .next) && (echo 'updating dendron next...' && cd .next && git reset --hard && git pull && yarn && cd ..) || (echo 'init dendron next' && yarn dendron publish init)"
+
       - name: Restore Next cache
         uses: actions/cache@v2
         with:
           path: .next/.next/cache
           # Generate a new cache whenever packages or source files change.
           key: ${{ runner.os }}-nextjs-${{ hashFiles('.next/yarn.lock', '.next/package-lock.json') }}-${{ hashFiles('.next/**.[jt]s', '.next/**.[jt]sx') }}
-
-      - name: Initialize or pull nextjs template
-        run: "(test -d .next) && (echo 'updating dendron next...' && cd .next && git reset --hard && git pull && yarn && cd ..) || (echo 'init dendron next' && yarn dendron publish init)"
 
       - name: Export notes
         run: yarn dendron publish export --target github --yes
@@ -141,6 +141,8 @@ Follow the instructions [here](https://docs.github.com/en/repositories/creating-
   git commit -m "add workflow"
   git push
   ```
+
+- NOTE: if you are interested in what exactly the github action script is doing, see [[Action Detail|dendron://dendron.dendron-site/dendron.topic.publish.cook.github-action.action-detail]]
 
 ## First Deployments
 
