@@ -2,7 +2,7 @@
 id: pn7ifmqn73981mwz4rwse3o
 title: has_collection
 desc: 'Does this page represent a collection?'
-updated: 1653351750845
+updated: 1653581627114
 created: 1647814089787
 ---
 
@@ -17,7 +17,7 @@ created: 1647814089787
 
 ![[dendron://dendron.dendron-site/dendron.topic.publish.concepts#collection]]
 
-- NOTE: setting this to true also sets [[nav_children_exclude|dendron://dendron.dendron-site/dendron.topic.publish.config.nav_children_exclude]] to `true`
+- NOTE: setting this to true also sets [[nav_exclude_children|dendron://dendron.dendron-site/dendron.topic.publish.config.nav_exclude_children]] to `true`
 
 ## Example
 

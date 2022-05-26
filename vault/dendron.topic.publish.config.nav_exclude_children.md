@@ -1,8 +1,8 @@
 ---
 id: 4l0mnzhwcos8kdn5aif1we9
-title: nav_children_exclude
-desc: 'Should exclude children from the published tree view'
-updated: 1653351656415
+title: nav_exclude_children
+desc: Should exclude children from the published tree view
+updated: 1653581627112
 created: 1653351506224
 ---
 
@@ -18,5 +18,5 @@ created: 1653351506224
 
 ```yml
 id: asdlkfjasdlkf
-nav_children_exclude: false
+nav_exclude_children: false
 ```
