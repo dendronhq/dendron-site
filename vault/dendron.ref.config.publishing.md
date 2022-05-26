@@ -2,12 +2,14 @@
 id: q960Z622o0RLO32w0B8SP
 title: Publishing
 desc: ''
-updated: 1645183292834
+updated: 1653351490853
 created: 1644903086084
 config:
   global:
     enableChildLinks: false
 ---
+
+# Global
 
 ## siteUrl
 ![[siteUrl|dendron.topic.publish.config.siteUrl]]
@@ -86,3 +88,7 @@ config:
 
 ## github
 ![[github|dendron.topic.publish.config.github]]
+
+# Note 
+
+### nav_children_exclude
