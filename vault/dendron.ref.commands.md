@@ -1,8 +1,8 @@
 ---
 id: eea2b078-1acc-4071-a14e-18299fc28f47
 title: Commands
-desc: ''
-updated: 1651827081063
+desc: ""
+updated: 1652345505309
 created: 1595261816971
 nav_order: 3.1
 ---
@@ -494,6 +494,11 @@ Right Click on the vault > Dendron: Vault Remove
 ### Vault Convert
 
 ![[dendron://dendron.dendron-site/dendron.topic.vaults#vault-convert,1:#*]]
+
+### Migrate to Self Contained Vault
+
+Converts an existing vault into a [[self contained vault|dendron.topic.vaults.self-contained]].
+See [[migrating a regular vault|dendron://dendron.dendron-site/dendron.topic.vaults.self-contained.migrate#migrating-a-regular-vault]] for details.
 
 ### Launch Tutorial
 
