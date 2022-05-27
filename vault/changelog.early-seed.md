@@ -2,7 +2,7 @@
 id: 3abd00eb-1c1e-4253-aaf5-dcbe20c21850
 title: Early Seed
 desc: ''
-updated: 1653684962171
+updated: 1653686721371
 created: 1604539200840
 published: true
 nav_exclude: true
@@ -21,11 +21,11 @@ Dendron 0.97 has sprouted 🌱
 **Clean up your published sidebarn:** It's not too late for spring cleaning! You can now configure whether or not a published note should show it's children in the tree view.
 
 ### Features
-- feat(markdown): handlebar based templates (#2954) ([[docs|dendron://dendron.dendron-site/dendron.topic.templates.handlebars]]) @kevin 
-- feat(edit): add command to apply a template @kevin ([[docs|dendron://dendron.dendron-site/dendron.topic.templates.commands.apply-template]])
+- feat(markdown): handlebar based templates ([[docs|dendron://dendron.dendron-site/dendron.topic.templates.handlebars]]) (#2954)  @kevin 
+- feat(edit): add command to apply a template ([[docs|dendron://dendron.dendron-site/dendron.topic.templates.commands.apply-template]]) (#2982) @kevin 
 - feat(views): display task note status when linking to task notes in publishing and in preview (#2931) @kaan
-- feat(workspace): Add a command to migrate regular vaults into self contained vaults (#2915) ([[docs|dendron://dendron.dendron-site/dendron.ref.commands#migrate-to-self-contained-vault]]) @kaan
-- feat(publish): dark theme support (#2941) @kaan ([[docs|dendron://dendron.dendron-site/dendron.topic.theme.publish.quickstart#using-the-built-in-dark-theme]])
+- feat(workspace): Add a command to migrate regular vaults into self contained vaults ([[docs|dendron://dendron.dendron-site/dendron.ref.commands#migrate-to-self-contained-vault]]) (#2915) @kaan
+- feat(publish): dark theme support ([[docs|dendron://dendron.dendron-site/dendron.topic.theme.publish.quickstart#using-the-built-in-dark-theme]]) (#2941) @kaan 
 - feat(publish): ability to exclude children in dendron side nav ([[docs|dendron://dendron.dendron-site/dendron.topic.publish.config.nav_exclude_children]]) (#2962) @kevin
 
 ### Enhancements
