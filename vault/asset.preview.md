@@ -2,7 +2,7 @@
 id: ChcCM1Q2qrDTy7YnLUHiL
 title: Preview
 desc: ''
-updated: 1640360808366
+updated: 1653409628830
 created: 1639113925844
 ---
 
@@ -55,6 +55,10 @@ created: 1639113925844
 #### Tree View Dark
 
 ![Tree View Dark](https://org-dendron-public-assets.s3.amazonaws.com/images/tutorial-tree-view-dark.png)
+
+## Graph Panel
+
+![Graph Panel](https://org-dendron-public-assets.s3.amazonaws.com/images/graph_panel_dark.JPG)
 
 ## Graph View
 
@@ -112,4 +116,4 @@ created: 1639113925844
 
 ![Refactor Hierarchy Preview prompt](https://org-dendron-public-assets.s3.amazonaws.com/images/refactor-hierarchy-preview-prompt.png)
 
-##
+

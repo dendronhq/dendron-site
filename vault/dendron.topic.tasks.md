@@ -184,3 +184,15 @@ tasks.
 You'll likely want to use this only for tasks that are considered "successful",
 so tasks that have been dropped, blocked, or failed are not displayed with a
 checkmark.
+
+### Todo Tree integration
+
+You can integrate your tasks with [Todo Tree](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree).
+If you set `todoIntegration` to true, task notes will create a TODO:  keyword in the frontmatter that should be picked up by TODO tree.
+
+```yaml
+workspace:
+    ...
+    task:
+      todoIntegration: true
+```

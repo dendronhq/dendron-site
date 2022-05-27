@@ -2,7 +2,7 @@
 id: TN1mWtMTcgmdnmtpcD1LL
 title: Navigating
 desc: ''
-updated: 1640484585619
+updated: 1653410702264
 created: 1638898367663
 nav_order: 3.2
 ---
@@ -18,3 +18,6 @@ Navigate across your notes
 
 ### Graph View
 ![[dendron://dendron.dendron-site/dendron.topic.graph-view#summary,1:#*]]
+
+### SideBar
+![[dendron://dendron.dendron-site/dendron.topic.sidebar#summary,1:#*]]

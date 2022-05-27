@@ -71,6 +71,12 @@ Set start of week (eg. `0` for sunday, `1` for monday, `2` for tuesday, etc.)  f
 
 </details>
 
+### Graph Panel
+
+Dendron Graph Panel lets you visualize the relationships between active note in the editor and its immediate neighbors.
+
+![[dendron://dendron.dendron-site/asset.preview#graph-panel,1:#*]]
+
 ### Preview
 
 ![[dendron://dendron.dendron-site/dendron.topic.preview#summary,1]]
@@ -83,3 +89,4 @@ Brings up the native Dendron Preview
 ## Theming
 
 Dendron Web UI supports a dark and light theme and will switch according to your current IDE theme. If you switched themes, you'll need to run `Reload Window` for Dendron to update its theme
+
