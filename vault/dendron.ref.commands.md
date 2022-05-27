@@ -496,6 +496,11 @@ Right Click on the vault > Dendron: Vault Remove
 
 ![[dendron://dendron.dendron-site/dendron.topic.vaults#vault-convert,1:#*]]
 
+### Migrate to Self Contained Vault
+
+Converts an existing vault into a [[self contained vault|dendron.topic.vaults.self-contained]].
+See [[migrating a regular vault|dendron://dendron.dendron-site/dendron.topic.vaults.self-contained.migrate#migrating-a-regular-vault]] for details.
+
 ### Launch Tutorial
 
 Prompt user to create an initial tutorial workspace and takes user through new tutorial
