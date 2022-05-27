@@ -35,6 +35,7 @@ schemas:
 - id: topic
   namespace: true
   desc: "Major feature areas"
+  template: templates.topic
   children:
     - pattern: quickstart
       desc: how to get started with this given feature

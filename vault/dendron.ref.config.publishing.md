@@ -2,7 +2,7 @@
 id: q960Z622o0RLO32w0B8SP
 title: Publishing
 desc: ''
-updated: 1653351490853
+updated: 1653581676999
 created: 1644903086084
 config:
   global:
@@ -56,6 +56,9 @@ config:
 ## enableRandomlyColoredTags
 ![[enableRandomlyColoredTags|dendron.topic.publish.config.enableRandomlyColoredTags]]
 
+## enableTaskNotes
+![[enableTaskNotes|dendron.topic.publish.config.enableTaskNotes]]
+
 ## copyAssets
 ![[copyAssets|dendron.topic.publish.config.copyAssets]]
 
@@ -91,4 +94,5 @@ config:
 
 # Note 
 
-### nav_children_exclude
+### nav_exclude_children
+![[dendron.topic.publish.config.nav_exclude_children]]

@@ -44,7 +44,11 @@
         "editor.suggest.snippetsPreventQuickSuggestions": false,
         "editor.suggest.showSnippets": true,
         "editor.tabCompletion": "on",
-        "workbench.editor.showTabs": true
+        "workbench.editor.showTabs": true,
+        "explorer.fileNesting.enabled": true,
+        "explorer.fileNesting.patterns": {
+            "*": "${basename}.*.md",
+        }
     },
     "extensions": {
         "recommendations": []
