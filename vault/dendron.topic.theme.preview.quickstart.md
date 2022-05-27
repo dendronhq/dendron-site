@@ -2,7 +2,7 @@
 id: 0fbg5vbv5jzb0623pbi4v3t
 title: Quickstart
 desc: "Getting started customizing the theme for the preview"
-updated: 1653545404371
+updated: 1653621191422
 created: 1653544545225
 ---
 
@@ -61,7 +61,8 @@ You can apply a custom theme by writing a custom CSS file.
    }
    ```
 
-### Going back to the default theme (automatically apply theme matching VSCode)
+### Going back to the default theme (use your current VSCode theme colors)
 
 1. Open the `dendron.yml` file, at the root of your Dendron workspace.
 1. Remove the `preview.theme` configuration.
+1. Close and reopen the note preview.
