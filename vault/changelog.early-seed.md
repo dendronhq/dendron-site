@@ -2,7 +2,7 @@
 id: 3abd00eb-1c1e-4253-aaf5-dcbe20c21850
 title: Early Seed
 desc: ''
-updated: 1653683616562
+updated: 1653684962171
 created: 1604539200840
 published: true
 nav_exclude: true
@@ -29,7 +29,7 @@ Dendron 0.97 has sprouted 🌱
 - feat(publish): ability to exclude children in dendron side nav ([[docs|dendron://dendron.dendron-site/dendron.topic.publish.config.nav_exclude_children]]) (#2962) @kevin
 
 ### Enhancements
-- enhance(edit): additional built-in variables for templates ([[docs|dendron://dendron.dendron-site/dendron.topic.templates.template-variables#handlebar-only]])
+- enhance(edit): additional built-in variables for templates ([[docs|dendron://dendron.dendron-site/dendron.topic.templates.template-variables#handlebar-only]]) (#2954) @kevin
 - enhance(views): upgrade mermaid to v9.1.1 (#2951) @kaan
 - enhance(navigate): make wikilinks clickable in hover (#2949) @jonathan
 - enhance(workspace): better feedback to users for invalid dendron.yml (#2940) @hikchoi
