@@ -2,7 +2,7 @@
 id: 3abd00eb-1c1e-4253-aaf5-dcbe20c21850
 title: Early Seed
 desc: ''
-updated: 1653672794318
+updated: 1653683616562
 created: 1604539200840
 published: true
 nav_exclude: true
@@ -14,28 +14,28 @@ nav_exclude: true
 
 Dendron 0.97 has sprouted 🌱
 
+**Task Note Status:** Wait, did I finish that task? Dendron now displays task status information in the preview as well as when publishing.
 
-**Task Note Status:** Wait, did I finish that task? Dendron now displays the status of a linked task note in preview and on published pages so you are always up-to-date with your tasks. 
+**Handlebar Templates:** Get a handle on templates - Dendron now supports [Handlebars](https://handlebarsjs.com/guide/), a minimal templating language that lets you create flexible templates!
 
-**Handlebar Templates:** Dendron adds a powerful tool for templating: [Handlebars](https://handlebarsjs.com/guide/), enabling you to use variables, conditionals, for loops and more in your notes. 
-
-**Publishing Configuration**: This release also extends your ability to customize the Side Nav of your published notes. You can now configure whether or not a published note should show it's children in the tree view, allowing you to prevent overcrowding or undesired navigational destinations. 
-
+**Clean up your published sidebarn:** It's not too late for spring cleaning! You can now configure whether or not a published note should show it's children in the tree view.
 
 ### Features
-- feat(workspace): Add a command to migrate regular vaults into self contained vaults ([[docs|dendron://dendron.dendron-site/dendron.topic.vaults.self-contained.migrate.md]]) (#2915) @kaan
-- feat(views): display task note status when linking to task notes in publishing and in preview  ([[docs|dendron://dendron.dendron-site/dendron.topic.publish.config.enableTaskNotes.md]]) (#2931) @kaan
-- feat(markdown): handlebar based templates ([[docs|dendron://dendron.dendron-site/dendron.topic.templates.handlebars]]) (#2954) @kevin
+- feat(markdown): handlebar based templates (#2954) ([[docs|dendron://dendron.dendron-site/dendron.topic.templates.handlebars]]) @kevin 
+- feat(edit): add command to apply a template @kevin ([[docs|dendron://dendron.dendron-site/dendron.topic.templates.commands.apply-template]])
+- feat(views): display task note status when linking to task notes in publishing and in preview (#2931) @kaan
+- feat(workspace): Add a command to migrate regular vaults into self contained vaults (#2915) ([[docs|dendron://dendron.dendron-site/dendron.ref.commands#migrate-to-self-contained-vault]]) @kaan
+- feat(publish): dark theme support (#2941) @kaan ([[docs|dendron://dendron.dendron-site/dendron.topic.theme.publish.quickstart#using-the-built-in-dark-theme]])
 - feat(publish): ability to exclude children in dendron side nav ([[docs|dendron://dendron.dendron-site/dendron.topic.publish.config.nav_exclude_children]]) (#2962) @kevin
 
 ### Enhancements
-- enhance(publish): implement dark theme support ([[docs|dendron://dendron.dendron-site/dendron.topic.theme.publish.md]]) (#2941) @kaan
+- enhance(edit): additional built-in variables for templates ([[docs|dendron://dendron.dendron-site/dendron.topic.templates.template-variables#handlebar-only]])
 - enhance(views): upgrade mermaid to v9.1.1 (#2951) @kaan
 - enhance(navigate): make wikilinks clickable in hover (#2949) @jonathan
+- enhance(workspace): better feedback to users for invalid dendron.yml (#2940) @hikchoi
 
 ### Fixes
 - fix(publish): publishing to respect enableHierarchyDisplay (#2946) @joshi
-- fix(workspace): give better feedback to users for invalid dendron.yml (#2940) @hikchoi
 - fix(publish): assetsPrefix breaks images (#2963) @kaan
 - fix(publish): "edit this page on ..." link uses the wrong path for self contained vaults (#2966) @kaan
-- fix(workspace): Help and Feedback Panel shows info when not in Dendron WS (#2974) @jonathan
+- fix(workspace): Help and Feedback Panel not empty outside of dendron ws (#2974) @jonathan
