@@ -56,6 +56,9 @@ config:
 ## enableRandomlyColoredTags
 ![[enableRandomlyColoredTags|dendron.topic.publish.config.enableRandomlyColoredTags]]
 
+## enableTaskNotes
+![[enableTaskNotes|dendron.topic.publish.config.enableTaskNotes]]
+
 ## copyAssets
 ![[copyAssets|dendron.topic.publish.config.copyAssets]]
 
