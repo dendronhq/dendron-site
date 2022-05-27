@@ -84,6 +84,8 @@ workspace:
 ]
 ```
 
+1. If you are publishing your vault and you have a logo set, make sure to update your [[logoPath|dendron://dendron.dendron-site/dendron.topic.publish.config.logoPath]].
+
 Restart VSCode to make sure everything is updated, and you are done!
 Try doing a lookup, you should be able to access the notes in your vault.
 

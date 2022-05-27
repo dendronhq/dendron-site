@@ -2,10 +2,38 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1652154457179
+updated: 1653412451172
 created: 1601508213606
 nav_order: 2
 ---
+
+## 0.96.0
+
+### Features
+- feat(workspace): local graph view in the Dendron Side Panel (#2901) @joshi
+
+### Enhancements
+- enhance(workspace): make self contained vaults default for all new workspaces (#2935) @kaan
+
+### Fixes
+- fix(workspace): block anchor after table crashes preview (#2936) @kaan
+- fix(workspace): doctor removeStubs resulting in 'no data' prompt (#2944) @joshi
+
+## 0.95.0
+### Features
+- feat(chore): preview support for local configuration overrides ([[docs|dendron://dendron.dendron-site/dendron.topic.local-config-override]]) (#2794) @kevin
+- feat(views): allow customization of tree view display and sorting behavior (#2858) @hikchoi
+- feat(publish): custom theme support for publishing  ([[docs|dendron://dendron.dendron-site/dendron.topic.theme.publish]]) (#2887) @kaan 
+
+### Enhancements
+- enhance(workspace): speed up workspace initialization (up to 10x speed up of workspace initialization) (#2903) @tuling
+- enhance(views): set `full graph` as default(#2890) @joshi
+- enhance(views): display workspace information in full graph view (#2886) @joshi
+- enhance(workspace): new user tutorials (#2889) @hikchoi
+
+### Fixes
+- fix(publish): published images missing leading forward slashes (#2899) @kaan
+
 
 ## 0.94.0
 ### Features
@@ -381,7 +409,7 @@ Dendron previously published backlinks and child links as header/anchor sections
 - feat(refactor): New `Dendron: Convert Link` command ([[docs|dendron://dendron.dendron-site/dendron.topic.refactoring#convert-link]]) (#1933) @hikchoi
 
 ### Enhancements
-- enhance(views): adding optional _last update_ sort ordering for backlinks view ([[docs|dendron://dendron.dendron-site/dendron.topic.workbench#backlink-view-command-palette]]) (#1924) @nickolay
+- enhance(views): adding optional _last update_ sort ordering for backlinks view ([[docs|dendron://dendron.dendron-site/dendron.topic.workbench#commands]]) (#1924) @nickolay
 - enhance(pods): better support for GitHub Issue and task notes ([[docs|dendron://dendron.dendron-site/dendron.topic.pod.builtin.github-issue.publish#aliasmapping]]) (#1918) @joshi
 - enhance(commands): `Dendron: Delete Node` command warns about links that will break, prompting users before deletion ([[docs|dendron://dendron.dendron-site/dendron.ref.commands#delete-node]]) (#1885) @hikchoi
 - enhance(lookup): better error message when using schema lookup (#1914) @tuling

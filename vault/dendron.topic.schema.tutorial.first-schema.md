@@ -4,7 +4,7 @@ title: Making Your First Schema
 desc: >-
   Learn to harness the powers of schema and automatically insert templates into
   new notes
-updated: 1641267318999
+updated: 1652866426847
 created: 1640784965050
 canonicalUrl: https://blog.dendron.so/notes/P1DL2uXHpKUCa7hLiFbFA/
 ---
@@ -16,6 +16,9 @@ As you write more notes, you might find yourself re-using the same template acro
 In this tutorial, we will walkthrough creating a schema for your [[daily journal|dendron.topic.daily-journal-note]] that can automatically apply [The Five Minute Journal](https://github.com/dendronhq/templates/blob/main/templates/templates.journal.daily.5mj.md) to all your entries.
 
 ## Concepts
+
+- Schemas are cross vault. If you have multiple schemas with same starting pattern, the last schema loaded takes precedence.
+- Every level in the schema needs to have children
 
 ### Daily journal notes
 

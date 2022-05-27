@@ -2,7 +2,7 @@
 id: ZljuAhFuNWEOUlFtPlC0h
 title: Feature Template
 desc: ''
-updated: 1652227036890
+updated: 1653436451405
 created: 1635992238170
 config:
   global:
@@ -10,17 +10,16 @@ config:
 ---
 
 ## Summary
-<!-- 
+{{! 
 - recommended: include a picture
 - eg: [[Summary|dendron://dendron.dendron-site/dendron.topic.publish#summary]]
-
 3 sentence description of the feature
--->
+}}
 
 ## Use Cases
-<!--
+{{! 
 Bullet points with examples of how this feature could be used
--->
+}}
 
 ## Features
 <!-- 

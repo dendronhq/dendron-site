@@ -4,7 +4,7 @@ title: Publish
 desc: >-
   Static site generation, sending note links and anything to do with publishing
   your notes.
-updated: 1647025775593
+updated: 1652353381385
 created: 1631512882518
 pods:
   airtable:
@@ -25,4 +25,3 @@ Static site generation, sending note links and anything to do with publishing yo
 - #feature.selective-publishing
 - #feature.seo
 - #feature.pwa
-  

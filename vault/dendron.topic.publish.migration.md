@@ -55,7 +55,7 @@ If you were publishing using github pages without using github actions, follow t
 
 If you were publishing using github pages with github actions, follow the [[GitHub Pages with GitHub Actions|dendron://dendron.dendron-site/dendron.topic.publish.cook.github-action]] guide.
 
-If you are publishing using an alternate platform, consult the [[GitHub Pages|dendron://dendron.dendron-site/dendron.topic.publish.cook.github]] guide and adapt it for your specfic platform. 
+If you are publishing using an alternate platform, consult the [[GitHub Pages|dendron://dendron.dendron-site/dendron.topic.publish.cook.github]] guide and adapt it for your specific platform. 
 
 If you run into any issues or have general questions, post in the [[publishing|dendron://dendron.dendron-site/community.discord.channels#publishing]] channel in discord for help. 
 

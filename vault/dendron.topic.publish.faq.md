@@ -2,7 +2,7 @@
 id: yYMuhi2TmTC63MysmtwqH
 title: Faq
 desc: ''
-updated: 1642754279569
+updated: 1653331811729
 created: 1631989493092
 ---
 
@@ -20,4 +20,8 @@ Then, set the [[logo configuration|dendron://dendron.dendron-site/dendron.topic.
 
 ### How do customize the style/theme of my website?
 
-You can use the [[customHeaderPath|dendron.ref.config.publishing#customheaderpath]] configuration to add your own CSS and customize the look.
+Dendron supports [[custom themes for publishing|dendron.topic.theme.publish]],
+which you can use to add your own colors and customize the look.
+
+If you need something more advanced like adding new fonts or custom scripts,
+you can use the [[customHeaderPath|dendron.ref.config.publishing#customheaderpath]] configuration to add them to the page header.
