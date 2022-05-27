@@ -2,7 +2,7 @@
 id: 861cbdf8-102e-4633-9933-1f3d74df53d2
 title: Templates
 desc: "Templates are notes whose content can be copied to other notes"
-updated: 1653441058277
+updated: 1653537360821
 created: 1602033087611
 completion: sprout
 config:
@@ -13,7 +13,7 @@ config:
 ## Summary
 
 {{fm.desc}}
-Templates can either be inserted into an open note with `Dendron: Insert Note`, or automatically applied at note creation with [[dendron://dendron.dendron-site/dendron.topic.schema]]. 
+Templates can either be applied into an open note with the [[Template Apply Command|dendron://dendron.dendron-site/dendron.topic.templates.commands.template-apply]], or automatically applied at note creation with [[dendron://dendron.dendron-site/dendron.topic.schema]]. 
 These are meant to reduce friction in the creation of new content, providing standardized outlines to your notes.
 
 ## Features
@@ -118,3 +118,4 @@ A template is just a regular note. While any note can be a template, we recommen
 - [[Handlebar Templates|dendron.topic.templates.handlebars]]: Use [handlebars](https://handlebarsjs.com/guide/), a powerful templating language which enables conditionals, for loops and custom helpers to apply to your templates without executing code
 - [[Schema Template|dendron://dendron.dendron-site/dendron.topic.templates.schema-template]]: Automatically apply a template when it matches a particular hierarchy pattern
 - [[Template Variables|dendron.topic.templates.template-variables]]: Pre-defined template variables that are automatically included in your templates at run time
+- [[Commands|dendron://dendron.dendron-site/dendron.topic.templates.commands]]: Template Specific Commands
