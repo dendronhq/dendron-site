@@ -11,4 +11,4 @@ config:
 
 ## Template Apply
 
-![[dendron://dendron.dendron-site/dendron.topic.templates.commands.template-apply]]
+![[dendron://dendron.dendron-site/dendron.topic.templates.commands.apply-template]]

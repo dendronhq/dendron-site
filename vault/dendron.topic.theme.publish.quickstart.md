@@ -2,7 +2,7 @@
 id: mtx2kb16qzr37zanpoai41y
 title:  Quickstart
 desc: 'Getting started changing the theme in your published site.'
-updated: 1652930451015
+updated: 1653681418243
 created: 1652803417376
 ---
 
@@ -50,7 +50,7 @@ There's a built-in dark theme for publishing which you can switch to.
     └── notes
     └── ...
     ```
-1. We have an [[example custom theme|#examples]] you can use below which will change the background color of your page. Copy and paste this into the `custom.css` you created. 
+1. We have an example custom theme you can use below which will change the background color of your page. Copy and paste this into the `custom.css` you created. 
     > ⚠️ When using the local preview, the custom theme will not automatically
     > update when you make changes. You'll need to run the command again and refresh
     > the page.
