@@ -115,7 +115,7 @@ You can streamline this process by assigning a keyboard shortcut to the command.
 
 ### Copy and Paste Web Content into Dendron
 
-First copy it into Notion or use the Notion web clipper to clip it. This will format it nicely in Markdown. You can then paste it into Dendron with Markdown and everything :)
+First copy it into Notion or use the Notion web clipper to clip it. This will format it nicely in Markdown. You can then paste it into Dendron with Markdown and everything :) . You can also use a browser extension like MarkDownload ( see below ). 
 
 ### Open Dendron from terminal
 
