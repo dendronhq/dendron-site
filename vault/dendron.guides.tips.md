@@ -117,6 +117,50 @@ You can streamline this process by assigning a keyboard shortcut to the command.
 
 First copy it into Notion or use the Notion web clipper to clip it. This will format it nicely in Markdown. You can then paste it into Dendron with Markdown and everything :)
 
+### Open Dendron from terminal
+
+#### Linux & Mac & WSL
+
+You can create an alias in your `.bashrc` / `.zshrc` file. Remember to replace `path/to/your/` with your `code-workspace` file path.
+
+```sh
+alias dendron="code path/to/your/dendron.code-workspace"
+```
+
+##### Windows
+
+###### CMD
+
+To achieve something similar for the CMD prompt of windows you can do the following: 
+
+Create a `alias.txt`(for example in your user dir):
+
+```txt
+
+dendron=code {path/to/your/dendron.code-workspace}
+
+``` 
+
+Then you can do the following
+
+```cmd
+doskey /macrofile=C:\Users\example\alias.txt
+``` 
+
+After doing that dendron becomes available in the cmd prompt. 
+To automate this you can take a look here: [Setting Init script for Windows Command Prompt](https://sukhbinder.wordpress.com/2021/06/16/setting-init-script-for-windows-command-prompt/)
+
+#### All
+
+##### Powershell
+
+For powershell you add the following to your Powershell `$PROFILE`:
+ 
+```ps
+Set-Alias -Name dendron -Value code {path/to/your/dendron.code-workspace}
+```
+
+
 <!-- 
 
 ### Custom Outlines
