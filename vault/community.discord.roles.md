@@ -2,7 +2,7 @@
 id: 7c00d606-7b75-4d28-b563-d75f33f8e0d7
 title: Roles
 desc: ''
-updated: 1647974278021
+updated: 1654006940979
 created: 1604237102230
 ---
 
@@ -62,7 +62,7 @@ A **Planter** is a member who published their notes using Dendron
 
 ### Scout
 
-A **Scout** is a member who submitted at least one Dendron Reading Series suggestion that gets published. For information on community surveys: [Dendron Blog - Community Reports](https://blog.dendron.so/notes/j60ZNmx1IcdXtGZRdRb6X/).
+A **Scout** is a member who submitted an entry for crop or submitted at least one Dendron Reading Series suggestion that gets published. For information on community surveys: [Dendron Blog - Community Reports](https://blog.dendron.so/notes/j60ZNmx1IcdXtGZRdRb6X/).
 
 ### Early Bird
 
@@ -86,4 +86,4 @@ A **Taxonomist** is a member who improved the Dendron documentation.
 
 ### Dendron Team
 
-This role is to update everyone in the Dendron core team
+This role is to update everyone in the Dendron core team ^tji3qsp8bnuq
