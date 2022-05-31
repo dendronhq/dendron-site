@@ -2,7 +2,7 @@
 id: 5h7bbwppataybwelrryepks
 title: 0.97
 desc: ''
-updated: 1654015127780
+updated: 1654018315888
 created: 1653971746953
 ---
 
@@ -37,7 +37,7 @@ Dendron 0.97 has sprouted 🌱
 ### General Updates
 **Troubleshooting Issues:** We've been working on a better way to diagnose, answer, and troubleshoot common user issues. Today, we are releasing a public dataview of frequently asked questions and how to fix them. We will continuously update this list with issues we seen on discord and when working with community members. Check it out [here](https://airtable.com/embed/shrJDpaQfCwVbfU0l/tblNpzKRMsmKz7hpc?backgroundColor=green&viewControls=on) and please give us feedback in the [[#feedback|dendron://dendron.dendron-site/community.discord.channels#feedback]] channel or at `support@dendron.so`. 
 
-**Latest Greenhouse Talk:** Interested in learning about *Getting Things Done* and other task management workflows in Dendron? Lookout for the recording and notes from the latest [[Greenhouse Talk|dendron://dendron.dendron-site/community.events.greenhouse]], which will be posted later this week. 
+**Latest Greenhouse Talk:** Our latest greenhouse focused on GTD, local workspaces, and publishing public and private content. Notes & recording will be released later this week!
 
 ### Starboard and TIL Highlights
 > These are highlights from the [[Dendron Discord|dendron://dendron.dendron-site/community.discord.channels]] `#starboard` and `#today-i-learned` channels.
