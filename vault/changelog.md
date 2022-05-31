@@ -2,10 +2,32 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1653412451172
+updated: 1653971733422
 created: 1601508213606
 nav_order: 2
 ---
+## 0.97.0
+
+### Features
+- feat(markdown): handlebar based templates ([[docs|dendron://dendron.dendron-site/dendron.topic.templates.handlebars]]) (#2954)  @kevin 
+- feat(edit): add command to apply a template ([[docs|dendron://dendron.dendron-site/dendron.topic.templates.commands.apply-template]]) (#2982) @kevin 
+- feat(views): display task note status when linking to task notes in publishing and in preview (#2931) @kaan
+- feat(workspace): Add a command to migrate regular vaults into self contained vaults ([[docs|dendron://dendron.dendron-site/dendron.ref.commands#migrate-to-self-contained-vault]]) (#2915) @kaan
+- feat(publish): dark theme support ([[docs|dendron://dendron.dendron-site/dendron.topic.theme.publish.quickstart#using-the-built-in-dark-theme]]) (#2941) @kaan 
+- feat(publish): ability to exclude children in dendron side nav ([[docs|dendron://dendron.dendron-site/dendron.topic.publish.config.nav_exclude_children]]) (#2962) @kevin
+
+### Enhancements
+- enhance(edit): additional built-in variables for templates ([[docs|dendron://dendron.dendron-site/dendron.topic.templates.template-variables#handlebar-only]]) (#2954) @kevin
+- enhance(views): upgrade mermaid to v9.1.1 (#2951) @kaan
+- enhance(navigate): make wikilinks clickable in hover (#2949) @jonathan
+- enhance(workspace): better feedback to users for invalid dendron.yml (#2940) @hikchoi
+
+### Fixes
+- fix(publish): publishing to respect enableHierarchyDisplay (#2946) @joshi
+- fix(publish): assetsPrefix breaks images (#2963) @kaan
+- fix(publish): "edit this page on ..." link uses the wrong path for self contained vaults (#2966) @kaan
+- fix(workspace): Help and Feedback Panel not empty outside of dendron ws (#2974) @jonathan
+
 
 ## 0.96.0
 

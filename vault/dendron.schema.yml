@@ -48,8 +48,7 @@ schemas:
     - pattern: config
       desc: configuration for this feature
     - pattern: "*"
-      title: feature
-      desc: Sub feature of this given feature
+      title: sub feature or component
     - pattern: cli
       desc: CLI commands for this feature
 - id: template
