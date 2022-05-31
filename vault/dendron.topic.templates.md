@@ -2,7 +2,7 @@
 id: 861cbdf8-102e-4633-9933-1f3d74df53d2
 title: Templates
 desc: "Templates are notes whose content can be copied to other notes"
-updated: 1653955226123
+updated: 1653956627815
 created: 1602033087611
 completion: sprout
 config:
@@ -125,4 +125,4 @@ A template is just a regular note. While any note can be a template, we recommen
 - Components
   - [[Handlebar Templates|dendron.topic.templates.handlebars]]: Use [handlebars](https://handlebarsjs.com/guide/), a powerful templating language which enables conditionals, for loops and custom helpers to apply to your templates without executing code
 - Commands
-- [[Commands|dendron://dendron.dendron-site/dendron.topic.templates.commands]]: Template Specific Commands
+  - [[Commands|dendron://dendron.dendron-site/dendron.topic.templates.commands]]: Template Specific Commands
