@@ -2,7 +2,7 @@
 id: 5h7bbwppataybwelrryepks
 title: 0.97
 desc: ''
-updated: 1653972308101
+updated: 1653998635078
 created: 1653971746953
 ---
 
@@ -36,6 +36,7 @@ Dendron 0.97 has sprouted 🌱
 
 ### General Updates
 <!-- TODO: Delete this section if not appliacble -->
+- The [[Troubleshooting|dendron://dendron.dendron-site/dendron.guides.troubleshooting]] guide just got an update and we have the Dendron community to thank for it. Check out the new FAQ section sourced directly from user-submitted questions. 
 
 ### Starboard and TIL Highlights
 <!-- TODO: update links. Delete section is no new items-->
@@ -67,6 +68,9 @@ This week's entry in the [[Dendron Reading Series|dendron://dendron.dendron-site
 
 A big **thanks** to the following gardeners that brought up issues, contributions, and fixes to this release :man_farmer: :woman_farmer: 
 Visit [[Discord Roles|dendron://dendron.dendron-site/community.discord.roles]] for more information.
+- [abunavas](https://github.com/abunavas)
+    - [submitted this week's CROP that got shipped, and triggered new feature creation](https://github.com/dendronhq/dendron/issues/2311)
+    - [feat(edit): add command to apply a template · Pull Request #2982 · dendronhq/dendron](https://github.com/dendronhq/dendron/pull/2982)
 
 ## Changelog
 ![[changelog#0970,1:#0960]]
