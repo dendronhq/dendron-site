@@ -2,7 +2,7 @@
 id: 5h7bbwppataybwelrryepks
 title: 0.97
 desc: ''
-updated: 1654015049307
+updated: 1654015127780
 created: 1653971746953
 ---
 
@@ -35,14 +35,11 @@ Dendron 0.97 has sprouted 🌱
 ## Community
 
 ### General Updates
-<!-- TODO: Delete this section if not appliacble -->
-
 **Troubleshooting Issues:** We've been working on a better way to diagnose, answer, and troubleshoot common user issues. Today, we are releasing a public dataview of frequently asked questions and how to fix them. We will continuously update this list with issues we seen on discord and when working with community members. Check it out [here](https://airtable.com/embed/shrJDpaQfCwVbfU0l/tblNpzKRMsmKz7hpc?backgroundColor=green&viewControls=on) and please give us feedback in the [[#feedback|dendron://dendron.dendron-site/community.discord.channels#feedback]] channel or at `support@dendron.so`. 
 
-**Greenhouse Talk:** Interested in learning about *Getting Things Done* and other task management workflows in Dendron? Lookout for the recording and notes from the latest [[Greenhouse Talk|dendron://dendron.dendron-site/community.events.greenhouse]], which will be posted later this week. 
+**Latest Greenhouse Talk:** Interested in learning about *Getting Things Done* and other task management workflows in Dendron? Lookout for the recording and notes from the latest [[Greenhouse Talk|dendron://dendron.dendron-site/community.events.greenhouse]], which will be posted later this week. 
 
 ### Starboard and TIL Highlights
-<!-- TODO: update links. Delete section is no new items-->
 > These are highlights from the [[Dendron Discord|dendron://dendron.dendron-site/community.discord.channels]] `#starboard` and `#today-i-learned` channels.
 
 - ⭐ `@Maarrk#9537` shared a video of [a Zotero integration](https://discord.com/channels/717965437182410783/766135383335370783/977542864496103426): _"Hi everyone, I think I have a cool setup for Zotero integration so I thought I'd share here."_
