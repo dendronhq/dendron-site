@@ -2,7 +2,7 @@
 id: 5h7bbwppataybwelrryepks
 title: 0.97
 desc: ''
-updated: 1653998635078
+updated: 1654015049307
 created: 1653971746953
 ---
 
@@ -36,7 +36,10 @@ Dendron 0.97 has sprouted 🌱
 
 ### General Updates
 <!-- TODO: Delete this section if not appliacble -->
-- The [[Troubleshooting|dendron://dendron.dendron-site/dendron.guides.troubleshooting]] guide just got an update and we have the Dendron community to thank for it. Check out the new FAQ section sourced directly from user-submitted questions. 
+
+**Troubleshooting Issues:** We've been working on a better way to diagnose, answer, and troubleshoot common user issues. Today, we are releasing a public dataview of frequently asked questions and how to fix them. We will continuously update this list with issues we seen on discord and when working with community members. Check it out [here](https://airtable.com/embed/shrJDpaQfCwVbfU0l/tblNpzKRMsmKz7hpc?backgroundColor=green&viewControls=on) and please give us feedback in the [[#feedback|dendron://dendron.dendron-site/community.discord.channels#feedback]] channel or at `support@dendron.so`. 
+
+**Greenhouse Talk:** Interested in learning about *Getting Things Done* and other task management workflows in Dendron? Lookout for the recording and notes from the latest [[Greenhouse Talk|dendron://dendron.dendron-site/community.events.greenhouse]], which will be posted later this week. 
 
 ### Starboard and TIL Highlights
 <!-- TODO: update links. Delete section is no new items-->
@@ -68,9 +71,27 @@ This week's entry in the [[Dendron Reading Series|dendron://dendron.dendron-site
 
 A big **thanks** to the following gardeners that brought up issues, contributions, and fixes to this release :man_farmer: :woman_farmer: 
 Visit [[Discord Roles|dendron://dendron.dendron-site/community.discord.roles]] for more information.
+
+- [Taran Lu](https://github.com/taranlu-houzz)
+    - #role.bugcatcher
+    - [Caching for `Next.js` in GitHub actions workflow does not use correct key](https://github.com/dendronhq/dendron/issues/2967)
+
+- [Ding Fan](https://github.com/Ding-Fan) `@rainmaker#7370`
+    - #role.taxonomist
+    - [open dendron from terminal](https://github.com/dendronhq/dendron-site/pull/503)
+
+- [Norbert Klamann](https://github.com/nklamann) `@NorbertK#2895`
+    - #role.taxonomist
+    - [Amend the copy/paste description](https://github.com/dendronhq/dendron-site/pull/515)
+
+- [Marek Lukasiewicz](https://github.com/Maarrk) `@Maarrk#9537`
+    - #role.taxonomist
+    - [Add gibcite](https://github.com/dendronhq/awesome-dendron/pull/3)
+    
 - [abunavas](https://github.com/abunavas)
+    - #role.scout
     - [submitted this week's CROP that got shipped, and triggered new feature creation](https://github.com/dendronhq/dendron/issues/2311)
-    - [feat(edit): add command to apply a template · Pull Request #2982 · dendronhq/dendron](https://github.com/dendronhq/dendron/pull/2982)
+    - [feat(edit): add command to apply a template](https://github.com/dendronhq/dendron/pull/2982)
 
 ## Changelog
 ![[changelog#0970,1:#0960]]
