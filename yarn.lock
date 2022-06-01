@@ -42,14 +42,14 @@
     lodash "^4.17.21"
     node-fetch "^2.6.1"
 
-"@dendronhq/api-server@^0.87.0":
-  version "0.87.0"
-  resolved "https://registry.yarnpkg.com/@dendronhq/api-server/-/api-server-0.87.0.tgz#9270f3866d43003e0331cc8d17e54a141a69df77"
-  integrity sha512-EyrWGU5vQeu50+ouRw0oAqUrsnQbUQHRWT0WKd5T7lCeKXgei7TEVnPw/pC6ePMjo9NqtxKuMMM4gjzrp3L0Eg==
+"@dendronhq/api-server@^0.97.0":
+  version "0.97.0"
+  resolved "https://registry.npmjs.org/@dendronhq/api-server/-/api-server-0.97.0.tgz#2055ce9dc809067db077d5293e260aafabfa7bc7"
+  integrity sha512-/mUfmIn/0RXhiS1aP/6DJq9dYyUiLxJV0FaPZIa4MyEWbrFYT1gF6cjFuqNCMBilXPBM41pdIFurQBLTBv+ExA==
   dependencies:
-    "@dendronhq/common-all" "^0.87.0"
-    "@dendronhq/common-server" "^0.87.0"
-    "@dendronhq/engine-server" "^0.87.0"
+    "@dendronhq/common-all" "^0.97.0"
+    "@dendronhq/common-server" "^0.97.0"
+    "@dendronhq/engine-server" "^0.97.0"
     "@sentry/integrations" "^6.13.1"
     "@sentry/node" "^6.13.1"
     cors "^2.8.5"
@@ -61,10 +61,10 @@
     morgan "^1.10.0"
     querystring "^0.2.1"
 
-"@dendronhq/common-all@^0.87.0":
-  version "0.87.0"
-  resolved "https://registry.yarnpkg.com/@dendronhq/common-all/-/common-all-0.87.0.tgz#6ebb13f81adb0d92fbfbcaa3e4e80fbc9a129a45"
-  integrity sha512-oSOwpdAt5unO7xeR1f4xApHTnD/up3tezElcYWPLMHiaC5MSdHTo7GmYnjRkPpvysM0CcWa13Eu5GKT2TCm8wA==
+"@dendronhq/common-all@^0.97.0":
+  version "0.97.0"
+  resolved "https://registry.npmjs.org/@dendronhq/common-all/-/common-all-0.97.0.tgz#ecddf5aed2d322880540b3e0de1d697e5723dc71"
+  integrity sha512-MwjWg9HrxpTgvWnWnhfzI2Y8hGJ8FzGfQFmZLRmC3gkvDLydXo784FmWWr7aswddc189im6AYTBanRw5iQ3O8A==
   dependencies:
     axios "^0.21.4"
     dropbox "^4.0.30"
@@ -80,15 +80,16 @@
     nanoid "^3.1.23"
     qs "^6.10.1"
     semver "^7.3.2"
+    spark-md5 "^3.0.2"
     title "^3.4.4"
     vscode-uri "^2.1.2"
 
-"@dendronhq/common-server@^0.87.0":
-  version "0.87.0"
-  resolved "https://registry.yarnpkg.com/@dendronhq/common-server/-/common-server-0.87.0.tgz#bdc0e28adc4068d4fa401fe9c3c6c6c95ee839d2"
-  integrity sha512-rdIJJ/m0bX1eJi4a88k6ehl1p4qn8ru/rwFWRcDfJRLkKDG89ATqz45DTEFgJK2f4FEKU57eQnzX2ipudH590Q==
+"@dendronhq/common-server@^0.97.0":
+  version "0.97.0"
+  resolved "https://registry.npmjs.org/@dendronhq/common-server/-/common-server-0.97.0.tgz#bb88d915bc4633d1ec70fa77509a71b754c9aa3f"
+  integrity sha512-qOupvRHqWFgcW87Djlk5bijuSR9SSjszyR3K3P6v9wGbKvap2yYMMpYCz+C8wlAnkKdkqVML7ffAbqjdg1RMEg==
   dependencies:
-    "@dendronhq/common-all" "^0.87.0"
+    "@dendronhq/common-all" "^0.97.0"
     "@sentry/integrations" "^6.13.3"
     "@sentry/node" "^6.13.3"
     ajv "^8.6.0"
@@ -99,26 +100,29 @@
     execa "^5.0.0"
     fs-extra "^9.0.1"
     gray-matter "^4.0.2"
+    handlebars "^4.7.7"
     js-yaml "^4.1.0"
     lodash "^4.17.15"
     minimatch "^3.0.4"
     pino "^6.3.2"
     pino-pretty "^4.3.0"
     simple-git "^3.3.0"
+    spark-md5 "^3.0.2"
+    textextensions "^5.15.0"
     tmp "^0.2.1"
     vscode-uri "^2.1.2"
     yaml-unist-parser "^1.3.1"
 
-"@dendronhq/dendron-cli@*":
-  version "0.87.0"
-  resolved "https://registry.yarnpkg.com/@dendronhq/dendron-cli/-/dendron-cli-0.87.0.tgz#946ae7d8e13effb843135d34c5e995bc60817177"
-  integrity sha512-fbCUiwHdUQKC89GFecBDVOlhqw3epySOkl7HOihb+x2AaRU58iNnAdmDvStkT2vHqYNcNqtly/bk03xu9zjoIw==
+"@dendronhq/dendron-cli@^0.97.0":
+  version "0.97.0"
+  resolved "https://registry.npmjs.org/@dendronhq/dendron-cli/-/dendron-cli-0.97.0.tgz#7e547fde69c7e6ff30120ec94a8dbad4b547033b"
+  integrity sha512-UF5EbpqciYQHcY3LhA9r99hQs2VM90e5QVwqpWd/OwmXybTqOT7CtKxkXoxRORcX2+RvFzlW61KdaICNa2soKg==
   dependencies:
-    "@dendronhq/api-server" "^0.87.0"
-    "@dendronhq/common-all" "^0.87.0"
-    "@dendronhq/common-server" "^0.87.0"
-    "@dendronhq/engine-server" "^0.87.0"
-    "@dendronhq/pods-core" "^0.87.0"
+    "@dendronhq/api-server" "^0.97.0"
+    "@dendronhq/common-all" "^0.97.0"
+    "@dendronhq/common-server" "^0.97.0"
+    "@dendronhq/engine-server" "^0.97.0"
+    "@dendronhq/pods-core" "^0.97.0"
     "@jcoreio/async-throttle" "^1.3.2"
     "@types/prompts" "^2.0.14"
     clipboardy "2.3.0"
@@ -131,14 +135,14 @@
     ts-json-schema-generator "^0.95.0"
     yargs "^15.4.1"
 
-"@dendronhq/engine-server@^0.87.0":
-  version "0.87.0"
-  resolved "https://registry.yarnpkg.com/@dendronhq/engine-server/-/engine-server-0.87.0.tgz#f4a52369ba717c10eaf5b5ac470f6bdc08140141"
-  integrity sha512-S5b0vkJk/NYgy1s+TFeA2VljviNNpAOL1ePw7rundcZaDgyB+4tzNuRGYDAzOAxT4zbSLKm4ukRN29OdTB2MyA==
+"@dendronhq/engine-server@^0.97.0":
+  version "0.97.0"
+  resolved "https://registry.npmjs.org/@dendronhq/engine-server/-/engine-server-0.97.0.tgz#a03de84d3331fe7c5fd40b92d4818ae95a0dbeb0"
+  integrity sha512-Bq+JL2HfF/AEXiJXbGIcqbxZeyaLU/fDWrWQo/z6DHP+163zfwOf9E03pgroUY5WwK/P2ArPhQX+eVB2gOjtHw==
   dependencies:
-    "@dendronhq/common-all" "^0.87.0"
-    "@dendronhq/common-server" "^0.87.0"
-    "@dendronhq/remark-mermaid" "^0.2.0"
+    "@dendronhq/common-all" "^0.97.0"
+    "@dendronhq/common-server" "^0.97.0"
+    "@dendronhq/remark-mermaid" "^0.3.0"
     "@jcoreio/async-throttle" "^1.4.3"
     "@mapbox/rehype-prism" "^0.5.0"
     axios "^0.21.1"
@@ -182,15 +186,15 @@
     unist-util-visit "^2.0.3"
     vscode-uri "^2.1.2"
 
-"@dendronhq/pods-core@^0.87.0":
-  version "0.87.0"
-  resolved "https://registry.yarnpkg.com/@dendronhq/pods-core/-/pods-core-0.87.0.tgz#2683c737aa1cd4a9d047bb4f1f5b1b08c7dfd63f"
-  integrity sha512-uvvCKMs99i8KUt6cSgJCt3UxHuNLGml9AoHF2x1ck2tZco4atQazJHl8liM9c9ULhVPOgmR1F80TD4OYnE1ekw==
+"@dendronhq/pods-core@^0.97.0":
+  version "0.97.0"
+  resolved "https://registry.npmjs.org/@dendronhq/pods-core/-/pods-core-0.97.0.tgz#2f1589eb6a21052b175ca416390fe530535b5f2c"
+  integrity sha512-lwZjP9+4Yi+Fkv5gUI1OGC0H9GTTbRbTVIWRQewTN8VPTSiEIVFduBtDZIg/en24E1MrJbZczZNy+Papg3t+xg==
   dependencies:
     "@dendronhq/airtable" "^0.11.1"
-    "@dendronhq/common-all" "^0.87.0"
-    "@dendronhq/common-server" "^0.87.0"
-    "@dendronhq/engine-server" "^0.87.0"
+    "@dendronhq/common-all" "^0.97.0"
+    "@dendronhq/common-server" "^0.97.0"
+    "@dendronhq/engine-server" "^0.97.0"
     "@instantish/martian" "1.0.3"
     "@notionhq/client" "^0.1.9"
     "@octokit/graphql" "^4.6.4"
@@ -210,10 +214,10 @@
     through2 "^4.0.2"
     vscode-uri "^2.1.2"
 
-"@dendronhq/remark-mermaid@^0.2.0":
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/@dendronhq/remark-mermaid/-/remark-mermaid-0.2.0.tgz#e617cd6904c4c435fcd85bd6ed75443cf815b7e8"
-  integrity sha512-8BwEtYghUJEGTGV77afmXbZgt3zKFcykb3mgUEW6lGoEIrmG5Kz1/AdWNccIMy5qCmH7efBhbDYjqUK09Ag7NQ==
+"@dendronhq/remark-mermaid@^0.3.0":
+  version "0.3.0"
+  resolved "https://registry.npmjs.org/@dendronhq/remark-mermaid/-/remark-mermaid-0.3.0.tgz#5e943020fbfbce4ae4c9cc7cba25a93e5a880fb6"
+  integrity sha512-CL2DbhBHAXXPN+0GNoW2xi8jl4YkslZLY3ElGUB+F5v12on58jjAbnkvKo3JLgMTuaSXw1KNz2crJuPo43UJOA==
   dependencies:
     fs-extra "^4.0.1"
     unist-util-visit "^1.1.3"
@@ -1731,6 +1735,18 @@ gtoken@^5.0.4:
     google-p12-pem "^3.1.3"
     jws "^4.0.0"
 
+handlebars@^4.7.7:
+  version "4.7.7"
+  resolved "https://registry.npmjs.org/handlebars/-/handlebars-4.7.7.tgz#9ce33416aad02dbd6c8fafa8240d5d98004945a1"
+  integrity sha512-aAcXm5OAfE/8IXkcZvCepKU3VzW1/39Fb5ZuqMtgI/hT8X2YgoMvBY5dLhq/cpOvw7Lk1nK/UF71aLG/ZnVYRA==
+  dependencies:
+    minimist "^1.2.5"
+    neo-async "^2.6.0"
+    source-map "^0.6.1"
+    wordwrap "^1.0.0"
+  optionalDependencies:
+    uglify-js "^3.1.4"
+
 has-flag@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/has-flag/-/has-flag-2.0.0.tgz#e8207af1cc7b30d446cc70b734b5e8be18f88d51"
@@ -2702,6 +2718,11 @@ minimatch@^3.0.4:
   dependencies:
     brace-expansion "^1.1.7"
 
+minimist@^1.2.5:
+  version "1.2.6"
+  resolved "https://registry.npmjs.org/minimist/-/minimist-1.2.6.tgz#8637a5b759ea0d6e98702cfb3a9283323c93af44"
+  integrity sha512-Jsjnk4bw3YJqYzbdyBiNsPWHPfO++UGG749Cxs6peCu5Xg4nrena6OVxOYxrQTqww0Jmwt+Ref8rggumkTLz9Q==
+
 mkdirp@0.3.0:
   version "0.3.0"
   resolved "https://registry.yarnpkg.com/mkdirp/-/mkdirp-0.3.0.tgz#1bbf5ab1ba827af23575143490426455f481fe1e"
@@ -2752,6 +2773,11 @@ negotiator@0.6.3:
   version "0.6.3"
   resolved "https://registry.yarnpkg.com/negotiator/-/negotiator-0.6.3.tgz#58e323a72fedc0d6f9cd4d31fe49f51479590ccd"
   integrity sha512-+EUsqGPLsM+j/zdChZjsnX51g4XrHFOIXwfnCVPGlQk/k5giakcKsuxCObBRu6DSm9opw/O6slWbJdghQM4bBg==
+
+neo-async@^2.6.0:
+  version "2.6.2"
+  resolved "https://registry.npmjs.org/neo-async/-/neo-async-2.6.2.tgz#b4aafb93e3aeb2d8174ca53cf163ab7d7308305f"
+  integrity sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw==
 
 nice-try@^1.0.4:
   version "1.0.5"
@@ -3534,14 +3560,19 @@ sonic-boom@^1.0.2:
     atomic-sleep "^1.0.0"
     flatstr "^1.0.12"
 
+source-map@^0.6.1:
+  version "0.6.1"
+  resolved "https://registry.npmjs.org/source-map/-/source-map-0.6.1.tgz#74722af32e9614e9c287a8d0bbde48b5e2f1a263"
+  integrity sha512-UjgapumWlbMhkBgzT7Ykc5YXUT46F0iKu8SGXq0bcwP5dz/h0Plj6enJqjz1Zbq2l5WaqYnrVbwWOWMyF3F47g==
+
 space-separated-tokens@^1.0.0:
   version "1.1.5"
   resolved "https://registry.yarnpkg.com/space-separated-tokens/-/space-separated-tokens-1.1.5.tgz#85f32c3d10d9682007e917414ddc5c26d1aa6899"
   integrity sha512-q/JSVd1Lptzhf5bkYm4ob4iWPjx0KiRe3sRFBNrVqbJkFaBm5vbbowy1mymoPNLRa52+oadOhJ+K49wsSeSjTA==
 
-spark-md5@^3.0.1:
+spark-md5@^3.0.1, spark-md5@^3.0.2:
   version "3.0.2"
-  resolved "https://registry.yarnpkg.com/spark-md5/-/spark-md5-3.0.2.tgz#7952c4a30784347abcee73268e473b9c0167e3fc"
+  resolved "https://registry.npmjs.org/spark-md5/-/spark-md5-3.0.2.tgz#7952c4a30784347abcee73268e473b9c0167e3fc"
   integrity sha512-wcFzz9cDfbuqe0FZzfi2or1sgyIrsDwmPwfZC4hiNidPdPINjeUwNfv5kldczoEAcjl9Y1L3SM7Uz2PUEQzxQw==
 
 split2@^3.1.1:
@@ -3660,6 +3691,11 @@ supports-color@^7.1.0:
   dependencies:
     has-flag "^4.0.0"
 
+textextensions@^5.15.0:
+  version "5.15.0"
+  resolved "https://registry.npmjs.org/textextensions/-/textextensions-5.15.0.tgz#4bb3296ad6fc111cf4b39c589dd028d8aaaf7060"
+  integrity sha512-MeqZRHLuaGamUXGuVn2ivtU3LA3mLCCIO5kUGoohTCoGmCBg/+8yPhWVX9WSl9telvVd8erftjFk9Fwb2dD6rw==
+
 through2@^4.0.2:
   version "4.0.2"
   resolved "https://registry.yarnpkg.com/through2/-/through2-4.0.2.tgz#a7ce3ac2a7a8b0b966c80e7c49f0484c3b239764"
@@ -3764,6 +3800,11 @@ typescript@~4.3.4:
   version "4.3.5"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.3.5.tgz#4d1c37cc16e893973c45a06886b7113234f119f4"
   integrity sha512-DqQgihaQ9cUrskJo9kIyW/+g0Vxsk8cDtZ52a3NGh0YNTfpUSArXSohyUGnvbPazEPLu398C0UxmKSOrPumUzA==
+
+uglify-js@^3.1.4:
+  version "3.15.5"
+  resolved "https://registry.npmjs.org/uglify-js/-/uglify-js-3.15.5.tgz#2b10f9e0bfb3f5c15a8e8404393b6361eaeb33b3"
+  integrity sha512-hNM5q5GbBRB5xB+PMqVRcgYe4c8jbyZ1pzZhS6jbq54/4F2gFK869ZheiE5A8/t+W5jtTNpWef/5Q9zk639FNQ==
 
 unherit@^1.0.4:
   version "1.1.3"
@@ -4065,6 +4106,11 @@ which@^2.0.1:
   integrity sha512-BLI3Tl1TW3Pvl70l3yq3Y64i+awpwXqsGBYWkkqMtnbXgrMD+yj7rhW0kuEDxzJaYXGjEW5ogapKNMEKNMjibA==
   dependencies:
     isexe "^2.0.0"
+
+wordwrap@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.npmjs.org/wordwrap/-/wordwrap-1.0.0.tgz#27584810891456a4171c8d0226441ade90cbcaeb"
+  integrity sha1-J1hIEIkUVqQXHI0CJkQa3pDLyus=
 
 wrap-ansi@^6.2.0:
   version "6.2.0"
