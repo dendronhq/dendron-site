@@ -2,7 +2,7 @@
 id: 861cbdf8-102e-4633-9933-1f3d74df53d2
 title: Templates
 desc: "Templates are notes whose content can be copied to other notes"
-updated: 1653956627815
+updated: 1654131085565
 created: 1602033087611
 completion: sprout
 config:
@@ -82,13 +82,13 @@ To whom it may concern,
 {{/if}}
 ```
 
-### Iteration
+### Built-in Helpers
 
-> NOTE: only available when [[Handlebar Templates|dendron.topic.templates.handlebars]] are enabled
+![[dendron://dendron.dendron-site/dendron.topic.templates.template-helpers#summary,1:#*]]
 
-<!-- #todo -->
+Example: Conditionally add a block depending on day of week
 
-See https://handlebarsjs.com/guide/builtin-helpers.html#each
+![[dendron://dendron.dendron-site/dendron.topic.templates.template-helpers#conditionally-add-a-block-depending-on-day-of-week,1]]
 
 ## Components
 
@@ -122,6 +122,7 @@ A template is just a regular note. While any note can be a template, we recommen
 - Features
   - [[Schema Template|dendron://dendron.dendron-site/dendron.topic.templates.schema-template]]: Automatically apply a template when it matches a particular hierarchy pattern
   - [[Template Variables|dendron.topic.templates.template-variables]]: Pre-defined template variables that are automatically included in your templates at run time
+  - [[Template Helpers|dendron://dendron.dendron-site/dendron.topic.templates.template-helpers]]: Built-in helper functions that can be used with handlebar templates
 - Components
   - [[Handlebar Templates|dendron.topic.templates.handlebars]]: Use [handlebars](https://handlebarsjs.com/guide/), a powerful templating language which enables conditionals, for loops and custom helpers to apply to your templates without executing code
 - Commands
