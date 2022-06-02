@@ -1,8 +1,8 @@
 ---
 id: 587e6d62-3c5b-49b0-aedc-02f62f0448e6
 title: Graph View
-desc: ''
-updated: 1652084299926
+desc: ""
+updated: 1654171947547
 created: 1595120707814
 ---
 
@@ -11,6 +11,7 @@ created: 1595120707814
 The graph view lets you explore your workspace using a graph
 
 ## Features
+
 - Click on a node to open up the corresponding note/schema in your workspace
 - Filter graph view to show only desired data
 
@@ -64,8 +65,8 @@ This view contains a list of each vault in the workspace. The visibility of each
 
 ### Connections
 
--   **Hierarchy:** When checked, include hierarchical graph connections
--   **Links:** When checked, include linked note connections
+- **Hierarchy:** When checked, include hierarchical graph connections
+- **Links:** When checked, include linked note connections
 
 ### Filter
 
@@ -75,44 +76,45 @@ This view contains various options to filter the graph.
 
 Use these string filters to include/exclude graph nodes by filename or name. These fields support multiple arguments in the form of a comma-separated or space-separated list.
 
--   **Allowlist**: Graph nodes including any of these string arguments will be **included** in the graph
--   **Blocklist**: Graph nodes including any of these string arguments will be **excluded** from the graph
+- **Allowlist**: Graph nodes including any of these string arguments will be **included** in the graph
+- **Blocklist**: Graph nodes including any of these string arguments will be **excluded** from the graph
 
 Here's a quick example:
 
--   Allow: `journal.2021, dog`
-    -   Include any notes that include either `journal.2021` or `dog` in their name or filename
--   Block: `cat`
-    -   Exclude any notes with `cat` in their name or filename
+- Allow: `journal.2021, dog`
+  - Include any notes that include either `journal.2021` or `dog` in their name or filename
+- Block: `cat`
+  - Exclude any notes with `cat` in their name or filename
 
 #### Other Filters
 
--   **Show Stubs**: When checked, show stub notes in the graph
+- **Show Stubs**: When checked, show stub notes in the graph
 
 ### Options
 
--   **Show Local Graph (Note Only)**: When checked, show local graph centered around the current open note. Otherwise, show the full workspace-wide note graph. ^Ev8p1L5P0IzDGjAs
+- **Show Local Graph (Note Only)**: When checked, show local graph centered around the current open note. Otherwise, show the full workspace-wide note graph. ^Ev8p1L5P0IzDGjAs
 
--   **Allow Relayout**: When checked, layout the graph again when the graph configuration is updated.
-    -   This is useful in instances you'd like to preserve the current layout but add/remove information, e.g. adding link connections to a hierarchical graph while maintaining readability
+- **Allow Relayout**: When checked, layout the graph again when the graph configuration is updated.
+  - This is useful in instances you'd like to preserve the current layout but add/remove information, e.g. adding link connections to a hierarchical graph while maintaining readability
 
 ### Information
 
 Primarily for debugging, this section has information about graph size. Edge counts are calculated individually from the actual rendered edges, so may not represent the true rendered count if a certain type of edge is hidden.
 
--   **Linked Edges**: Number of linked connections between nodes
--   **Hierarchical Edges**: Number of hierarchical connections between nodes
--   **Nodes**: Number of nodes in the graph
+- **Linked Edges**: Number of linked connections between nodes
+- **Hierarchical Edges**: Number of hierarchical connections between nodes
+- **Nodes**: Number of nodes in the graph
 
 ### Graph Theme
 
 This view contains a list of available Graph Themes. Presently, Dendron provides three built-in graph themes:
+
 - Block
 - Classic
 - Monokai
 
 This list also appends `Custom` if custom graph stylings are provided.
-To create your own [[Custom Styling|dendron.topic.graph-view#custom-styling]] for Graph, click on the `Create Your Own` button next to the themes or by running `> Dendron: Configure Graph Style (css)`. You can view the example video [here](https://www.loom.com/share/f2c53d2a5aeb48209b5587a3dfbb1015). 
+To create your own [[Custom Styling|dendron.topic.graph-view#custom-styling]] for Graph, click on the `Create Your Own` button next to the themes or by running `> Dendron: Configure Graph Style (css)`. You can view the example video [here](https://www.loom.com/share/f2c53d2a5aeb48209b5587a3dfbb1015).
 If you are new to cytoscape styling, use [[Built-in Snippet|dendron.topic.graph-view#built-in-snippet]] provided by Dendron to help you get started.
 
 ## Config
@@ -123,15 +125,23 @@ See example below
 
 ```yml
 graph:
-    zoomSpeed: 1 # The speed at which the graph zooms in and out. Lower is slower, higher is faster.
+  zoomSpeed: 1 # The speed at which the graph zooms in and out. Lower is slower, higher is faster.
+  createStub: false # When enabled, creates a note if it hasn't been created already when clicked on a graph node
 ```
 
 ### Zoom Speed
 
--   type: number
--   default: 1
+- type: number
+- default: 1
 
 The speed at which the graph zooms in and out. Lower is slower, higher is faster.
+
+### Create Stub
+
+- type: boolean
+- default: false
+
+When enabled, creates a note if it hasn't been created already when clicked on a graph node.
 
 ## Custom Styling
 
@@ -209,78 +219,80 @@ Some common edge style properties are listed below.
 Use these snippets as a starting point for curating custom styles for graph.
 
 - Monokai Theme
+
 ```css
 /* Any graph node */
 node {
-    color: #ff6188;
-    font-family: cursive;
- }
+  color: #ff6188;
+  font-family: cursive;
+}
 
 /* Any graph edge */
 edge {
-   width: 0.5;
-   line-color :#78dce8;
-   target-distance-from-node: 5;
-   source-distance-from-node: 5;
-   source-endpoint: outside-to-line-or-label;
-   target-endpoint: outside-to-line-or-label;
+  width: 0.5;
+  line-color: #78dce8;
+  target-distance-from-node: 5;
+  source-distance-from-node: 5;
+  source-endpoint: outside-to-line-or-label;
+  target-endpoint: outside-to-line-or-label;
 }
 
 /* Any selected node */
 :selected {
-   color: #fc9867;
+  color: #fc9867;
 }
 /** AC2065 **/
 /* Any parent nodes (local note graph only) */
 .parent {
-   color: #a9dc76;
+  color: #a9dc76;
 }
 
 /* Any link connection edge */
 .links {
-   curve-style: bezier;
+  curve-style: bezier;
 }
 
 /* Any hierarchy connection edge */
 .hierarchy {
-   curve-style: bezier;
+  curve-style: bezier;
 }
 ```
 
 - Block Theme
+
 ```css
 /* Any graph node */
 node {
-   background-color: #BB86FC;
-   color: #BB86FC;
- }
+  background-color: #bb86fc;
+  color: #bb86fc;
+}
 
 edge {
-   line-color: #B591D9;
-   target-distance-from-node: 5;
-   source-distance-from-node: 5;
+  line-color: #b591d9;
+  target-distance-from-node: 5;
+  source-distance-from-node: 5;
 }
 
 /* Any selected node */
 :selected {
-   background-color: #C7FC86;
-   color: #C7FC86;
+  background-color: #c7fc86;
+  color: #c7fc86;
 }
 
 /* Any parent nodes (local note graph only) */
 .parent {
-   color: coral;
-   background-color: coral;
+  color: coral;
+  background-color: coral;
 }
 
 /* Any link connection edge */
 .links {
-   curve-style: unbundled-bezier;
+  curve-style: unbundled-bezier;
 }
 
 /* Any hierarchy connection edge */
 .hierarchy {
-   curve-style: taxi;
+  curve-style: taxi;
 }
 ```
 
