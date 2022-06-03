@@ -2,7 +2,7 @@
 id: a6c03f9b-8959-4d67-8394-4d204ab69bfe
 title: Troubleshooting
 desc: ''
-updated: 1653993075570
+updated: 1654261673969
 created: 1595952505025
 nav_order: 7.1
 ---
@@ -23,11 +23,6 @@ Check the version numbers of your dependencies. You can get version numbers by r
 ```sh
 npm info @dendronhq/dendron-cli
 ``` -->
-
-## FAQ
-- Common questions we get from our users. If you can't find what you are looking for in this section, take a look at the other sub-sections that cover solutions for other specific feature-related issues. 
-
-<iframe class="airtable-embed" src="https://airtable.com/embed/shrJDpaQfCwVbfU0l?backgroundColor=green&viewControls=on" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
 
 ## Workspace
 
