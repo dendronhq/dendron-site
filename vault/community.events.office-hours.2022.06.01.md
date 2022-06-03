@@ -1,68 +1,68 @@
 ---
 id: d77cwi04q007gz34uwpycrm
-title: '2022-06-01 Office Hours'
+title: 2022-06-01 Office Hours
 desc: ''
-updated: 1654101709430
+updated: 1654268869765
 created: 1654101687715
+commentsUpdated: true
+revisionId: >-
+  ALm37BX9o4LZf87w_cUKH7mBZgPTxtKi9j-zhw3W80ZEKSrd8ayuXABx7KNI-yePD37ZENR_ydpJ3GYzES1qjw
 ---
+### Office Hours
 
-Office Hours
-------------
+#### Highlights
 
--   date: 2022-06-01
+workspace
 
-### Highlights
+- tree view improvements
+- self contained vaults default
+- faster initialization
+- local config overrides #star
 
-Side bar for Dendron-specific navigation and resources, additional customization, faster initialization
+dendron sidebar
 
-### Side bar
+- help and feedback panel
+- tip of the day
+- local graph view #star
 
--   Tip of the Day
+publishing
 
--   Tree View
+- custom themes in publishing #star
+- dark theme in publishing
+- clean up your published sidebar
 
--   Backlinks
+other
 
--   Calendar View
+- task note status
+- handlebar templates #star
+- go to command
+- graph themes
 
--   Help & Feedback
+#### Notes
 
--   Graph View
+Dendron SideBar
 
-### Customization
+- Consolidated existing views
+- Added graph view
+ - can customize theme and view
+	 - selection of views
 
--   Graph view themes
+Customization of Dendron Publishing
 
--   Publish themes
+- Custom CSS file which can be modified
+- At the moment, we only support one custom theme
 
-### Performance
+Self Contained Vaults
 
--   Faster initialization
+- Is now turned on by default
+- Can be shared to anyone and open it right away
 
--   Tree view not updating
+#### Q&A
 
--   Various crashes
+- For questions, please add your @{discord-handle}: question
+- @kevins8: how do I ask questions on the google doc? (example)
 
-### Self contained vaults (by default)
+_Notes around questions asked during office hours_
+1. @Xanaus#9249: How can one export the notes the way we see in the preview? like in pdf format?Ans: We currently do not support it. We suggest that you use Pandoc, which is a universal program that can convert between any formats. So you can take markdown converted into PDF or HTML or whatever you want. 
 
-We launched self contained vaults in preview last month. They are now default. This means a vault can be shared and it will run as you would expect by itself, as the configurations will be inside.
-
-### Notes
-
-### Q&A
-
--   For questions, please add your @{discord-handle}: question
-
--   @kevins8: how do I ask questions on the google doc? (example)
-
-Notes around questions asked during office hours
-
-Xanaus#9249 - How can one export the notes the way we see in the preview? like in pdf format
-
-> We recommend using pandoc to convert markdown to pdf, but publishing to pdf natively is something we are looking into
-
-rlh1994#9754 - Did something change with importing markdown? We had to rollback
-
-> We'll look into it, importing from markdown, Obsidian etc. is on our roadmap for this month
-
-### Comments
+#### Comments
