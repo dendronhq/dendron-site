@@ -2,7 +2,7 @@
 id: hkirhn3t0z3x2wfsuujwd87
 title: Template Helpers
 desc: Built-in helper functions that can be used with handlebar templates
-updated: 1654179404499
+updated: 1654265460135
 created: 1654041750829
 ---
 
@@ -57,5 +57,5 @@ Given a day, return the day of the week. This is the same as [javascript getDay]
 ```hbs
 {{#if (eq (getDayOfWeek (fnameToDate)) 0) }}
 - [ ] do laundry
-{{/fi}}
+{{/if}}
 ```
