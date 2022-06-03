@@ -2,7 +2,7 @@
 id: 3abd00eb-1c1e-4253-aaf5-dcbe20c21850
 title: Early Seed
 desc: ''
-updated: 1653686721371
+updated: 1654241849851
 created: 1604539200840
 published: true
 nav_exclude: true
@@ -10,32 +10,26 @@ nav_exclude: true
 
 > This page documents the features, enhancements, and fixes in the latest early seed release. The early seed is a preview of the weekly release, so you'll see the next minor version when installing (ex. `0.78.0` instead of `0.77.1`). When dendron ships the general release, the currently installed extension will automatically be updated (but will still have same version).
 
-## 0.97.0
+## 0.98.0
 
-Dendron 0.97 has sprouted 🌱
+Dendron 0.98 has sprouted 🌱
 
-**Task Note Status:** Wait, did I finish that task? Dendron now displays task status information in the preview as well as when publishing.
-
-**Handlebar Templates:** Get a handle on templates - Dendron now supports [Handlebars](https://handlebarsjs.com/guide/), a minimal templating language that lets you create flexible templates!
-
-**Clean up your published sidebarn:** It's not too late for spring cleaning! You can now configure whether or not a published note should show it's children in the tree view.
+**Template Helpers:** Templates just got more powerful in Dendron. Make your notes programable using built-in helpers like equality checking or date fetching. 
+- More information: [[Template Helpers|dendron://dendron.dendron-site/dendron.topic.templates.template-helpers]]
 
 ### Features
-- feat(markdown): handlebar based templates ([[docs|dendron://dendron.dendron-site/dendron.topic.templates.handlebars]]) (#2954)  @kevin 
-- feat(edit): add command to apply a template ([[docs|dendron://dendron.dendron-site/dendron.topic.templates.commands.apply-template]]) (#2982) @kevin 
-- feat(views): display task note status when linking to task notes in publishing and in preview (#2931) @kaan
-- feat(workspace): Add a command to migrate regular vaults into self contained vaults ([[docs|dendron://dendron.dendron-site/dendron.ref.commands#migrate-to-self-contained-vault]]) (#2915) @kaan
-- feat(publish): dark theme support ([[docs|dendron://dendron.dendron-site/dendron.topic.theme.publish.quickstart#using-the-built-in-dark-theme]]) (#2941) @kaan 
-- feat(publish): ability to exclude children in dendron side nav ([[docs|dendron://dendron.dendron-site/dendron.topic.publish.config.nav_exclude_children]]) (#2962) @kevin
+- feat(views): Preview uses your VSCode theme colors, and supports custom themes ([[docs|dendron://dendron.dendron-site/dendron.topic.theme]]) (#2984) @kaan 
+- feat(navigate): Backlink Panel with Hover ([[docs|dendron://dendron.dendron-site/dendron.topic.sidebar.backlinks]]) (#2904) @jonathan
+- feat(edit): template helpers ([[docs|dendron://dendron.dendron-site/dendron.topic.templates.template-helpers]]) (#3029) @kevin
 
 ### Enhancements
-- enhance(edit): additional built-in variables for templates ([[docs|dendron://dendron.dendron-site/dendron.topic.templates.template-variables#handlebar-only]]) (#2954) @kevin
-- enhance(views): upgrade mermaid to v9.1.1 (#2951) @kaan
-- enhance(navigate): make wikilinks clickable in hover (#2949) @jonathan
-- enhance(workspace): better feedback to users for invalid dendron.yml (#2940) @hikchoi
+- enhance(view): decrease min zoomed font-size for node labels in graph panel (#2996) @joshi
+- enhance(workspace): "Migrate to Self Contained Vault" updates logoPath and moves gitignore file (#2998) @kaan
+- enhance(extend): add axios to hook function ([[docs|dendron://dendron.dendron-site/dendron.topic.hooks.quickstart#setup]]) (#3001) [[Maarrk 9537|dendron://users/people.maarrk-9537]]
 
 ### Fixes
-- fix(publish): publishing to respect enableHierarchyDisplay (#2946) @joshi
-- fix(publish): assetsPrefix breaks images (#2963) @kaan
-- fix(publish): "edit this page on ..." link uses the wrong path for self contained vaults (#2966) @kaan
-- fix(workspace): Help and Feedback Panel not empty outside of dendron ws (#2974) @jonathan
+- fix(publish): Export gets stuck if `logoPath` is set but the logo doesn't exist (#2959) @kaan
+- fix(views): added default initial theme for webviews (#3013) @joshi
+- fix(views): bullet points missing in new theme-matching style (#3023) @kaan
+- fix(views): Backlinks Panel Tweaks (#3031) @jonathan
+- fix(views): images with encoded URI are not rendered in the Preview (#3006) [tenheadedlion](https://github.com/tenheadedlion)
