@@ -1,8 +1,8 @@
 ---
 id: xI97d5GKk7qU6EwstIAXe
-title: Note Commands
+title: Note CLI
 desc: ''
-updated: 1649972738081
+updated: 1654386983784
 created: 1635113127689
 ---
 
