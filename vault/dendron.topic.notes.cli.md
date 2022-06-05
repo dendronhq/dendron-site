@@ -2,7 +2,7 @@
 id: xI97d5GKk7qU6EwstIAXe
 title: Note CLI
 desc: ''
-updated: 1654386983784
+updated: 1654438988066
 created: 1635113127689
 ---
 
@@ -39,37 +39,7 @@ Options:
 
 ### lookup
 
-Options
-
-- for common options, see [[common options|dendron.topic.cli.quickstart#common-options]]
-- `--output`: controls how note is formatted
-    - values: `json|md_gfm|md_dendron`
-        - json: JSON output
-        - md_dendron: dendron markdown
-        - md_gfm: github flavored markdown 
-
-Examples
-
-#### creating a note
-
-```bash
-# creates hello if it does not exist
-dendron note lookup --query "hello" 
-```
-
-#### Querying a note
-
-```bash
-# retrieves hello.md if it does exist
-dendron note lookup --query "hello" 
-```
-
-#### Querying a note with GitHub Flavored Markdown output
-
-```bash
-# retrieves hello.md if it does exist
-dendron note lookup --query "hello" --output md_gfm
-```
+![[dendron://dendron.dendron-site/dendron.topic.notes.cli.lookup]]
 
 ### delete
 
