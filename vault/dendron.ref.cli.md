@@ -2,7 +2,7 @@
 id: 23a1b942-99af-45c8-8116-4f4bb7dccd21
 title: CLI
 desc: ''
-updated: 1646265902605
+updated: 1654535739474
 created: 1600033791071
 nav_order: 1.1
 ---
@@ -20,6 +20,10 @@ This only needs to be set if you are not executing the CLI from within the root 
 ### vault
 
 Path to a [[vaults|dendron.concepts#vaults]]. If not given and not a [[multi vault|dendron.topic.multi-vault]] workspace, Dendron will use the only existing vault. Otherwise, will ask for you to specify a vault
+
+
+### useLocalEngine
+Runs the command called using the in memory engine instead of connecting to a server.
 
 ## Engine Commands
 
@@ -56,11 +60,13 @@ Options:
 
 #### available actions
 
-![[dendron.ref.commands#actions,1:#*]]
+- NOTE: not all doctor commands are available in the CLI, please review above list of actions.
+
+![[dendron.topic.doctor#commands,1:#CLI]]
 
 #### examples
 
-- convert all `h1` tags to frontmatter `title` values for the `readings` hiearchy
+- convert all `h1` tags to frontmatter `title` values for the `readings` hierarchy
 
 ```bash
 dendron doctor --wsRoot . --action h1ToTitle --limit 10 --query "readings.*" 
@@ -97,7 +103,7 @@ Options:
 
 #### Example
 
-```
+```bash
 dendron launchEngineServer --wsRoot ~/Dendron/ --port 3005
 ```
 
@@ -127,7 +133,7 @@ Options:
   --overrides  override existing siteConfig properties                  [string]
 ```
 
-See [[dendron.topic.publish]] for more info.
+See [[dendron.topic.publish]] for more information about publishing your notes.
 
 #### examples
 
@@ -195,7 +201,6 @@ dendron vault convert --vaultPath kevin-test --wsRoot . --type remote --remoteUR
 
 ## Workspace Command
 
-
 ```sh
 dendron workspace <cmd>
 
@@ -248,6 +253,156 @@ Run `addAndCommit`, `pull`, and `push` on all vaults inside the workspace. This 
 #### info 
 -->
 
+## Note Commands
+```bash
+dendron note <cmd>
+
+note related commands
+
+Positionals:
+  cmd  a command to run[string] [required] [choices: "lookup", "delete", "move"]
+
+Options:
+  --version         Show version number                                [boolean]
+  --help            Show help                                          [boolean]
+  --wsRoot          location of workspace
+  --vault           name of vault
+  --quiet           don't print output to stdout
+  --enginePort      If set, connect to to running engine. If not set, create new
+                    instance of Dendron Engine
+  --attach          Use existing engine instead of spawning a new one
+  --useLocalEngine  If set, use in memory engine instead of connecting to a
+                    server                                             [boolean]
+  --query           the query to run                                    [string]
+  --output          format to output in
+            [string] [choices: "json", "md_gfm", "md_dendron"] [default: "json"]
+  --destFname       name to change to (for move)                        [string]
+  --destVaultName   vault to move to (for move)                         [string]
+```
+
+### Actions
+
+#### lookup
+
+Options
+- `--output`: controls how note is formatted
+    - values: `json|md_gfm|md_dendron`
+        - json: JSON output
+        - md_dendron: dendron markdown
+        - md_gfm: github flavored markdown 
+
+Examples
+- Creating a note
+
+```bash
+# creates hello if it does not exist
+dendron note lookup --query "hello" 
+```
+
+- Querying a note
+
+```bash
+# retrieves hello.md if it does exist
+dendron note lookup --query "hello" 
+```
+
+- Querying a note with GitHub Flavored Markdown output
+
+```bash
+# retrieves hello.md if it does exist
+dendron note lookup --query "hello" --output md_gfm
+```
+
+#### delete
+
+Examples
+
+- Deleting a note
+```bash
+dendron note delete --query "foo" 
+```
+
+- Deleting a note within a multi-vault workspace
+```bash
+dendron note delete --vault vault2 --query "foo" 
+```
+
+#### move
+
+Examples
+
+- Moving a note
+```bash
+# renames the note "foo" to "bar" within a single-vault workspace
+#   if there is no note in the vault already named "bar"
+dendron note move --query "foo" --destFname "bar"
+```
+
+- Moving a note in a multi-vault workspace
+```bash
+# moves the note "foo" to vault2 and changes its name to "bar"
+#    if there is no note in vault2 already named "bar"
+dendron note move --vault vault --query "foo" --destFname "bar" --destVaultName vault2
+```
+
 ## Dev Command
 
-![[etc.cli]]
+```bash
+dendron dev <cmd>
+
+commands related to development of Dendron
+
+Positionals:
+  cmd  a command to run
+      [string] [required] [choices: "generate_json_schema_from_config", "build",
+       "bump_version", "publish", "sync_assets", "sync_tutorial", "prep_plugin",
+    "package_plugin", "install_plugin", "enable_telemetry", "disable_telemetry",
+                           "show_telemetry", "show_migrations", "run_migration"]
+
+Options:
+  --version           Show version number                              [boolean]
+  --help              Show help                                        [boolean]
+  --wsRoot            root directory of the Dendron workspace
+  --vault             name of vault
+  --quiet             don't print output to stdout
+  --upgradeType       how to do upgrade
+                              [choices: "major", "minor", "patch", "prerelease"]
+  --publishEndpoint   where to publish              [choices: "local", "remote"]
+  --extensionTarget   extension name to publish in the marketplace
+                                                 [choices: "dendron", "nightly"]
+  --fast              skip some checks
+  --skipSentry        skip upload source map to sentry
+  --migrationVersion  migration version to run
+                     [choices: "0.83.0", "0.55.2", "0.51.4", "0.47.1", "0.46.0"]
+
+```
+
+<!-- ### Actions
+
+#### generate_json_schema_from_config
+
+#### build
+
+#### bump_version
+
+#### publish
+
+#### sync_assets
+
+#### sync_tutorial
+
+#### prep_plugin
+
+#### package_plugin
+
+#### install_plugin
+
+#### enable_telemetry
+
+#### disable_telemetry
+
+#### show_telemetry
+
+#### show_migrations
+
+#### run_migration -->
