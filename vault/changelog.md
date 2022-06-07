@@ -15,15 +15,14 @@ nav_order: 2
 
 ### Enhancements
 - enhance(view): decrease min zoomed font-size for node labels in graph panel (#2996) @joshi
-- enhance(workspace): "Migrate to Self Contained Vault" updates logoPath and moves gitignore file (#2998) @kaan
-- enhance(extend): add axios to hook function (#3001) [[Maarrk 9537|dendron://users/people.maarrk-9537]] ([[docs|dendron://dendron.dendron-site/dendron.topic.hooks.quickstart#setup]])
+- enhance(workspace): "migrate to self contained vault" updates `logoPath` and moves gitignore file (#2998) @kaan
+- enhance(extend): add axios to hook function ([[docs|dendron://dendron.dendron-site/dendron.topic.hooks.quickstart#setup]]) (#3001) [[Maarrk 9537|dendron://users/people.maarrk-9537]]
 
 ### Fix
-
-- fix(publish): Export gets stuck if `logoPath` is set but the logo doesn't exist (#2959) @kaan
+- fix(publish): export gets stuck if `logoPath` is set but the logo doesn't exist (#2959) @kaan
 - fix(views): added default initial theme for webviews (#3013) @joshi
 - fix(views): bullet points missing in new theme-matching style (#3023) @kaan
-- fix(views): Backlinks Panel Tweaks (#3031) @jonathan
+- fix(views): backlinks panel tweaks (#3031) @jonathan
 - fix(views): images with encoded uri are not rendered in the preview (#3006) [tenheadedlion](https://github.com/tenheadedlion)
 
 ## 0.97.0

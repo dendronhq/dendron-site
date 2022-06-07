@@ -18,22 +18,22 @@ Dendron 0.98 has sprouted  🌱
 - More information: [[Backlinks|dendron://dendron.dendron-site/dendron.topic.sidebar.backlinks]]
 
 ### Deprecated 
-**Old style templates are being replaced**: [[Handlebar Templates|dendron://dendron.dendron-site/dendron.topic.templates.handlebars]] allow for conditionals, loops, and registering custom helpers without resorting to code execution.
-- More information: [[migration guide|dendron://dendron.dendron-site/dendron.topic.templates.handlebars.migration]] for changes.
+Old style templates are being replaced with [[Handlebar Templates|dendron://dendron.dendron-site/dendron.topic.templates.handlebars]]. See the [[migration guide|dendron://dendron.dendron-site/dendron.topic.templates.handlebars.migration]] for changes.
 
 ## Highlights
-- feat(views): Preview uses your VSCode theme colors, and supports custom themes 
-- feat(navigate): Backlink Panel with Hover 
-- feat(edit): template helpers
+- feat(views): preview uses your vscode theme colors  
+- feat(views): custom theme support for preview 
+- feat(navigate): backlink panel with hover
+- feat(edit): template helpers 
 
 ## Everything Else
-- enhance(view): decrease min zoomed font-size for node labels in graph panel 
-- enhance(workspace): "Migrate to Self Contained Vault" updates logoPath and moves gitignore file 
+- enhance(view): decrease min zoomed font-size for node labels in graph panel
+- enhance(workspace): "migrate to self contained vault" updates logopath and moves gitignore file 
 - enhance(extend): add axios to hook function 
-- fix(publish): Export gets stuck if `logoPath` is set but the logo doesn't exist 
-- fix(views): added default initial theme for webviews 
-- fix(views): bullet points missing in new theme-matching style 
-- fix(views): Backlinks Panel Tweaks
+- fix(publish): export gets stuck if `logoPath` is set but the logo doesn't exist
+- fix(views): added default initial theme for webviews
+- fix(views): bullet points missing in new theme-matching style
+- fix(views): backlinks panel tweaks
 - fix(views): images with encoded uri are not rendered in the preview
 
 ## Community
@@ -41,6 +41,15 @@ Dendron 0.98 has sprouted  🌱
 ### General Updates
 
 **Notes from Previous Office Hours:** [[2022-06-01 Office Hours|dendron://dendron.dendron-site/community.events.office-hours.2022.06.01]]
+NOTE: we only have partial audio for this session. Apologies - Kevin is still figuring out how to use OBS 😅
+
+#### Greenhouse Series
+
+![[community.events.greenhouse#summary,1:#*]]
+
+Video from and notes from our last talk now available - [[Implementing Capture/Configure/Control in Dendron, and Dendron Local Config Overrides|dendron://dendron.dendron-site/community.events.greenhouse.2022-05-27-ccc-bujo-local-config-override]]
+
+Are you interested in speaking at our next greenhouse? If so, fill out the [Greenhouse Proposal Form](https://airtable.com/shrHMMl1NwefpM689?prefill_SurveyName=GreenhouseProposal&hide_SurveyName=true) to apply for a slot!
 
 ### Starboard and TIL Highlights
 > These are highlights from the [[Dendron Discord|dendron://dendron.dendron-site/community.discord.channels]] `#starboard` and `#today-i-learned` channels.
@@ -59,11 +68,6 @@ This week's entry in the [[Dendron Reading Series|dendron://dendron.dendron-site
 
 ### Event Reminders
 
-- **Greenhouse Talks:** Visit the [[Greenhouse Talks|dendron://dendron.dendron-site/community.events.greenhouse]] for notes from previous sessions.
-    - Subject: _Getting Things Done (GTD) and Other Task-Management Workflows (with Dendron!)_
-    - Description: _Interested speakers from the community will take 5 - 10 minutes each to present their workflows for managing actionable information, followed by an open discussion. The event will be recorded and later published online._
-    - Next: [Fri, Jun 24, 04:00 PM PST / 00:00 UTC](https://link.dendron.so/luma)
-    - [Greenhouse Talk Recordings - YouTube Playlist](https://link.dendron.so/greenhouse)
 - **Community Teatime:** Drink tea, eat food, and hangout with the Dendron crew!
     - Next: [Thu, Jun 09, 11:00 AM PST / 19:00 UTC](https://link.dendron.so/luma)
 - **New User Tuesdays:** Visit the [[New User Tuesdays page|dendron://dendron.dendron-site/community.events.new-user-tuesdays]] for notes from previous sessions.
@@ -95,6 +99,10 @@ Visit [[Discord Roles|dendron://dendron.dendron-site/community.discord.roles]] f
   
 - [Ryan Hill](https://github.com/rlh1994) `@rlh1994#9754`
   - [EBUSY resource when migrating to self-contained vault](https://github.com/dendronhq/dendron/issues/3021)    
+
+- [Mihai Constantin](https://github.com/mihaiconstantin) `mihaiconstantin#9440`
+    -#role.speaker
+    - Spoke at the last Dendron greenhouse!
 
 ## Changelog
 ![[changelog#0980,1:#0970]]
