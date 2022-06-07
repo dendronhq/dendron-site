@@ -2,13 +2,15 @@
 id: x4n8mvhvc0nmi9agxtnqp3t
 title: Template Variables
 desc: 'Pre-defined template variables that are automatically included in your templates at run time'
-updated: 1653440221788
+updated: 1654561896762
 created: 1653438949072
 ---
 
 ## Summary
 
 {{fm.desc}}
+
+You can apply template variables by using the following syntax: `{{ VARAIBLE }}`
 
 ### Globally Available
 
@@ -27,3 +29,5 @@ created: 1653438949072
 * CURRENT_DAY_OF_WEEK: equivalent of [javascript getDay](https://www.w3schools.com/jsref/jsref_getday.asp) method
 * FNAME: name of current file
 * DESC: description of current file (equivalent to the `desc` field in the Dendron frontmatter)
+
+## Cook
