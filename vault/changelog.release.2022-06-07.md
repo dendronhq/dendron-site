@@ -41,7 +41,7 @@ Old style templates are being replaced with [[Handlebar Templates|dendron://dend
 ### General Updates
 
 **Notes from Previous Office Hours:** [[2022-06-01 Office Hours|dendron://dendron.dendron-site/community.events.office-hours.2022.06.01]]
-NOTE: We only have partial audio for this session. Apologies - Kevin is still figuring out how to use OBS 😅
+- NOTE: We only have partial audio for this session. Apologies - Kevin is still figuring out how to use OBS 😅
 
 #### Greenhouse Series
 
@@ -101,8 +101,8 @@ Visit [[Discord Roles|dendron://dendron.dendron-site/community.discord.roles]] f
   - [EBUSY resource when migrating to self-contained vault](https://github.com/dendronhq/dendron/issues/3021)    
 
 - [Mihai Constantin](https://github.com/mihaiconstantin) `mihaiconstantin#9440`
-    -#role.speaker
-    - Spoke at the last Dendron greenhouse!
+   - #role.speaker
+   - Spoke at the last Dendron greenhouse!
 
 ## Changelog
 ![[changelog#0980,1:#0970]]
