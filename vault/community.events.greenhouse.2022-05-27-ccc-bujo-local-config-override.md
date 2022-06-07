@@ -1,10 +1,13 @@
 ---
 id: bye5c98mqeklnp1kaobewly
 title: >-
-   Implementing Capture/Configure/Control in Dendron, and Dendron Local Config Overrides
+  Implementing Capture/Configure/Control in Dendron, and Dendron Local Config
+  Overrides
 desc: >-
-  Mihai Constantin (Dendron community member) and Kevin Lin (Founder of Dendron) each present Dendron workflows. 
-  Mihai briefly explains the CCC approach to managing actitonable information, and Kevin demonstrates how to apply Dendron's local config override functionality.
+  Mihai Constantin (Dendron community member) and Kevin Lin (Founder of Dendron)
+  each present Dendron workflows.  Mihai briefly explains the CCC approach to
+  managing actitonable information, and Kevin demonstrates how to apply
+  Dendron's local config override functionality.
 updated: 1654608682383
 created: 1654607718645
 ---
