@@ -2,7 +2,7 @@
 id: d77cwi04q007gz34uwpycrm
 title: 2022-06-01 Office Hours
 desc: ''
-updated: 1654268869765
+updated: 1654563418142
 created: 1654101687715
 commentsUpdated: true
 revisionId: >-
@@ -10,31 +10,34 @@ revisionId: >-
 ---
 ### Office Hours
 
+- date: 2022-06-01
+- youtube: https://youtu.be/qB1yof4ygik
+
 #### Highlights
 
 workspace
 
 - tree view improvements
-- self contained vaults default
+- self contained vaults now default
 - faster initialization
-- local config overrides #star
+- local config overrides 
 
 dendron sidebar
 
 - help and feedback panel
 - tip of the day
-- local graph view #star
+- local graph view 
 
 publishing
 
-- custom themes in publishing #star
+- custom themes in publishing 
 - dark theme in publishing
 - clean up your published sidebar
 
 other
 
 - task note status
-- handlebar templates #star
+- handlebar templates 
 - go to command
 - graph themes
 
@@ -56,13 +59,3 @@ Self Contained Vaults
 
 - Is now turned on by default
 - Can be shared to anyone and open it right away
-
-#### Q&A
-
-- For questions, please add your @{discord-handle}: question
-- @kevins8: how do I ask questions on the google doc? (example)
-
-_Notes around questions asked during office hours_
-1. @Xanaus#9249: How can one export the notes the way we see in the preview? like in pdf format?Ans: We currently do not support it. We suggest that you use Pandoc, which is a universal program that can convert between any formats. So you can take markdown converted into PDF or HTML or whatever you want. 
-
-#### Comments

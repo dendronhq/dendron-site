@@ -2,9 +2,11 @@
 id: LCKumInKUZr1JfLBjYUfv
 title: Sprout
 desc: ''
-updated: 1640975328646
+updated: 1654536972283
 created: 1628281893929
 ---
+
+## Summary
 
 A sprout is a feature or process that has gone through a few initial iterations. It is still subject to change but is unlikely to be removed.
 

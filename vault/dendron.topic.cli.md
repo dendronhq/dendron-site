@@ -66,7 +66,7 @@ npm install -g @dendronhq/dendron-cli@latest
 
 ## Note Command
 
-![[dendron://dendron.dendron-site/dendron.topic.cli.notes]]
+![[dendron://dendron.dendron-site/dendron.topic.notes.cli]]
 
 ## Publishing Commands
 
