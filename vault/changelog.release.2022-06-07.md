@@ -28,7 +28,7 @@ Old style templates are being replaced with [[Handlebar Templates|dendron://dend
 
 ## Everything Else
 - enhance(view): decrease min zoomed font-size for node labels in graph panel
-- enhance(workspace): "migrate to self contained vault" updates logopath and moves gitignore file 
+- enhance(workspace): "migrate to self contained vault" updates `logopath` and moves gitignore file 
 - enhance(extend): add axios to hook function 
 - fix(publish): export gets stuck if `logoPath` is set but the logo doesn't exist
 - fix(views): added default initial theme for webviews
