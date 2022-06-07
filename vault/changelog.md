@@ -6,6 +6,25 @@ updated: 1653971733422
 created: 1601508213606
 nav_order: 2
 ---
+## 0.98.0
+
+### Features
+- feat(views): Preview uses your VSCode theme colors, and supports custom themes ([[docs|dendron://dendron.dendron-site/dendron.topic.theme]]) (#2984) @kaan 
+- feat(navigate): Backlink Panel with Hover ([[docs|dendron://dendron.dendron-site/dendron.topic.sidebar.backlinks]]) (#2904) @jonathan
+- feat(edit): template helpers ([[docs|dendron://dendron.dendron-site/dendron.topic.templates.template-helpers]]) (#3029) @kevin #stars
+
+### Enhancements
+- enhance(view): decrease min zoomed font-size for node labels in graph panel (#2996) @joshi
+- enhance(workspace): "migrate to self contained vault" updates `logoPath` and moves gitignore file (#2998) @kaan
+- enhance(extend): add axios to hook function ([[docs|dendron://dendron.dendron-site/dendron.topic.hooks.quickstart#setup]]) (#3001) [[Maarrk 9537|dendron://users/people.maarrk-9537]]
+
+### Fix
+- fix(publish): export gets stuck if `logoPath` is set but the logo doesn't exist (#2959) @kaan
+- fix(views): added default initial theme for webviews (#3013) @joshi
+- fix(views): bullet points missing in new theme-matching style (#3023) @kaan
+- fix(views): backlinks panel tweaks (#3031) @jonathan
+- fix(views): images with encoded uri are not rendered in the preview (#3006) [tenheadedlion](https://github.com/tenheadedlion)
+
 ## 0.97.0
 
 ### Features
