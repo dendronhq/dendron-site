@@ -41,7 +41,7 @@ Old style templates are being replaced with [[Handlebar Templates|dendron://dend
 ### General Updates
 
 **Notes from Previous Office Hours:** [[2022-06-01 Office Hours|dendron://dendron.dendron-site/community.events.office-hours.2022.06.01]]
-NOTE: we only have partial audio for this session. Apologies - Kevin is still figuring out how to use OBS 😅
+NOTE: We only have partial audio for this session. Apologies - Kevin is still figuring out how to use OBS 😅
 
 #### Greenhouse Series
 
