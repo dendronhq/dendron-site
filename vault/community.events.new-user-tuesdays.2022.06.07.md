@@ -2,7 +2,7 @@
 id: pvggwchrcc8j6vyecdggknh
 title: 2022-06-07 New User Tuesday
 desc: ''
-updated: 1654708117747
+updated: 1654708199181
 created: 1654708081549
 documentId: 1AdMpuoRvNJfKv3C5ZTAzgWxrc8vSmINQDVuOlklB92c
 revisionId: >-
@@ -54,14 +54,4 @@ Ans: You can add anything in your frontmatter and add it to your template. If yo
 
 ### Comments
 
- - Kevin Lin:  you're helping us find all the issues
-- Kevin Lin:  now that i look at it, we not correct formatting on that
 
-	 replies to this comment: 
-
-	 - Kevin Lin: will fix that now
-- Kevin Lin:  thank you!
-
-	 replies to this comment: 
-
-	 - Ross Dickerson: Done
