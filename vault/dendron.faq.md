@@ -2,7 +2,7 @@
 id: 683740e3-70ce-4a47-a1f4-1f140e80b558
 title: FAQ
 desc: ''
-updated: 1640428632874
+updated: 1654691243631
 created: 1595952505025
 stub: false
 nav_order: 3.01
@@ -11,6 +11,14 @@ nav_order: 3.01
 All the questions we thought you might ask.
 
 ## General
+
+### Public Issues 
+
+- Issues that are frequently brought up in discord are posted in this public data view
+- You can use the filter tab to filter by specific issues
+- You can group issues by scope - see [[Product Scopes|dendron://dendron.dendron-site/dendron.ref.scopes]] for more details
+
+<iframe class="airtable-embed" src="https://airtable.com/embed/shrJDpaQfCwVbfU0l?backgroundColor=green&viewControls=on" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
 
 ### What is a Dendron?
 
