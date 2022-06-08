@@ -2,7 +2,7 @@
 id: hkirhn3t0z3x2wfsuujwd87
 title: Template Helpers
 desc: Built-in helper functions that can be used with handlebar templates
-updated: 1654265460135
+updated: 1654657182628
 created: 1654041750829
 ---
 
@@ -15,7 +15,7 @@ created: 1654041750829
 ### eq
 - return: true|false
 
-Compares two arguments for equality. 
+Compares two arguments for equality.
 
 ```hbs
 ---
@@ -30,7 +30,7 @@ arg2: 1
 
 ```hbs
 {{! given file: daily.journal.2022.05.31 }}
-{{! results in new Date(2022, 05, 31) }}
+{{! results in new Date(2022, 4, 31) (javascript Date uses 0-based month) }}
 {{ fnameToDate }}
 ```
 
