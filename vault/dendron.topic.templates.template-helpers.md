@@ -15,7 +15,7 @@ created: 1654041750829
 ### eq
 - return: true|false
 
-Compares two arguments for equality. 
+Compares two arguments for equality.
 
 ```hbs
 ---
