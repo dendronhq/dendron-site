@@ -2,7 +2,7 @@
 id: 683740e3-70ce-4a47-a1f4-1f140e80b558
 title: FAQ
 desc: ''
-updated: 1654694703274
+updated: 1654694842562
 created: 1595952505025
 stub: false
 nav_order: 3.01
@@ -20,7 +20,7 @@ All the questions we thought you might ask.
 
 <iframe class="airtable-embed" src="https://airtable.com/embed/shrJDpaQfCwVbfU0l?backgroundColor=green&viewControls=on" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
 
-#### For more information on navigating the public issues: 
+#### For more information on navigating through the public issues: 
 
 <div style="position: relative; padding-bottom: 54.37499999999999%; height: 0;"><iframe src="https://www.loom.com/embed/10b0a50c0e174750aa3ce65ee072169a" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
