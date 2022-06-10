@@ -619,6 +619,12 @@ Update your service [[Connections|dendron://dendron.dendron-site/dendron.topic.p
 
 Import notes from an external data source. Currently, only the local file system is supported
 
+### Import Obsidian Vault
+
+- shortcuts: none
+
+Import Markdown notes from an Obsidian vault. This is a simplified version of [[Import Pod|dendron://dendron.dendron-site/dendron.ref.commands#import-pod]] that can be used for a one-time import of your Obsidian notes into your Dendron workspace.
+
 ### Export Pod
 
 - shortcuts: none
