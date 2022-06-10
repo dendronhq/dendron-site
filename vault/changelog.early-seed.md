@@ -2,7 +2,7 @@
 id: 3abd00eb-1c1e-4253-aaf5-dcbe20c21850
 title: Early Seed
 desc: ''
-updated: 1654868229258
+updated: 1654869904786
 created: 1604539200840
 published: true
 nav_exclude: true
@@ -24,11 +24,11 @@ More information: [[Import Obsidian Vault|dendron://dendron.dendron-site/dendron
 - feat(structure): add set task status commands (#3033) @kaan ([[docs|dendron://dendron.dendron-site/dendron.ref.commands#set-task-status]])
 - feat(structure): add complete task commands (#3033) @kaan ([[docs|dendron://dendron.dendron-site/dendron.ref.commands#complete-task]])
 - feat(sync): obsidian import flow (#3014) @jonathan ([[docs|dendron://dendron.dendron-site/dendron.ref.commands#import-obsidian-vault]])
-- feat(workspace): detect duplicate note id on lifecycle events (#2991) @hikchoi
 
 ### Enhancements
 - enhance(publish): make the private link colors customizable (#3035) @kaan ([[docs|dendron://dendron.dendron-site/dendron.topic.theme.publish.cook#change-the-color-of-a-private-link]])
 - enhance(views): configure creation of notes on click of graph node with `createStubs` #3032 @joshi ([[docs|dendron://dendron.dendron-site/dendron.topic.graph-view#create-stub]])
+- enhance(workspace): detect duplicate note id on lifecycle events (#2991) @hikchoi
 
 ### Fixes
 - fix(workspace): fix duplicated panel titles (#3016) @jonathan
