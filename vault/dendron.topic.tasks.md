@@ -2,7 +2,7 @@
 id: SEASewZSteDK7ry1AshNG
 title: Tasks
 desc: ""
-updated: 1652942837322
+updated: 1654198320134
 created: 1635451738215
 ---
 
@@ -65,10 +65,33 @@ Whenever you link to a task note, these keys will display the status of that
 task: this works in the editor, preview, and published sites. You can disable
 the status view in preview and publishing by setting [[enableTaskNotes|dendron://dendron.dendron-site/dendron.topic.publish.config.enableTaskNotes]].
 
-### Marking tasks as complete
+### Setting task status / Marking a task as complete
 
-We are working on enhancing the task note experience. In the meantime, you can
-edit the task note and change the status to `x` or `done` to display a completed checkmark.
+You can use the [[Set Task Status|dendron://dendron.dendron-site/dendron.ref.commands#set-task-status]]
+and [[Complete Task|dendron://dendron.dendron-site/dendron.ref.commands#complete-task]] commands
+to change the status of a task, or to mark it as complete. Alternatively,
+you can also manually edit the frontmatter to change the status to anything you want.
+
+#### Keyboard shortcut for a task status
+
+You can create a keyboard shortcut that sets the task to a specific status.
+
+To do so, use the `Preferences: Open Keyboard Shortcuts (JSON)` command to open
+the shortcuts file. In this file, add a section so the file will look like the following:
+
+```json
+[
+  // ... other keybindings
+  {
+    "key": "ctrl+shift+t y", // or any other shortcut you want to use
+    "command": "dendron.setTaskStatus",
+    "when": "editorFocus && dendron:pluginActive",
+    "args": {
+      "setStatus": "y" // the status you want to set
+    }
+  }
+]
+```
 
 ### Task note internals
 
@@ -188,7 +211,7 @@ checkmark.
 ### Todo Tree integration
 
 You can integrate your tasks with [Todo Tree](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree).
-If you set `todoIntegration` to true, task notes will create a TODO:  keyword in the frontmatter that should be picked up by TODO tree.
+If you set `todoIntegration` to true, task notes will create a `TODO:` keyword in the frontmatter that should be picked up by TODO tree.
 
 ```yaml
 workspace:
