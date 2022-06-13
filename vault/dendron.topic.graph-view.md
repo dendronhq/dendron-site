@@ -2,7 +2,7 @@
 id: 587e6d62-3c5b-49b0-aedc-02f62f0448e6
 title: Graph View
 desc: ""
-updated: 1654171947547
+updated: 1655111888043
 created: 1595120707814
 ---
 
@@ -89,6 +89,7 @@ Here's a quick example:
 #### Other Filters
 
 - **Show Stubs**: When checked, show stub notes in the graph
+- **Depth**: In a local graph view, the depth filter allows you to see the second or third degree of nodes from the active note.
 
 ### Options
 
