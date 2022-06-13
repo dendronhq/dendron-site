@@ -2,7 +2,7 @@
 id: eea2b078-1acc-4071-a14e-18299fc28f47
 title: Commands
 desc: ""
-updated: 1655306976878
+updated: 1655740491760
 created: 1595261816971
 nav_order: 3.1
 ---
@@ -282,7 +282,7 @@ Running it in the note `recipe.eggs` will insert the following at cursor positio
 
 ### Move Note
 
-![[dendron://dendron.dendron-site/dendron.topic.refactoring#move-note,1:#*]]
+![[dendron://dendron.dendron-site/dendron.topic.refactoring.commands.move-note#summary,1:#*]]
 
 ### Paste Link
 
@@ -290,7 +290,7 @@ Transform URL in clipboard to nicely formatted Markdown link
 
 ### Convert Link
 
-![[dendron://dendron.dendron-site/dendron.topic.refactoring#convert-link,1:#*]]
+![[dendron://dendron.dendron-site/dendron.topic.refactoring.commands.convert-link#summary,1:#*]]
 
 ### Random Note
 
@@ -759,7 +759,7 @@ Dendron recognises a new Markdown file created from VS Code context menu and pop
 
 #### Rename Note
 
-![[dendron://dendron.dendron-site/dendron.topic.refactoring#rename-note,1:#*]]
+![[dendron://dendron.dendron-site/dendron.topic.refactoring.commands.rename-note#summary,1:#*]]
 
 ### Header Operations
 
@@ -771,7 +771,7 @@ A header action is announced by a lightbulb when the cursor is within a header. 
 
 #### Rename Header
 
-![[dendron://dendron.dendron-site/dendron.topic.refactoring#rename-header,1:#*]]
+![[dendron://dendron.dendron-site/dendron.topic.refactoring.commands.rename-header#summary,1:#*]]
 
 #### Copy Header Reference
 

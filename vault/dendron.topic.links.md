@@ -2,7 +2,7 @@
 id: 3472226a-ff3c-432d-bf5d-10926f39f6c2
 title: Links
 desc: ''
-updated: 1655251218643
+updated: 1655740511986
 created: 1595003088839
 ---
 
@@ -106,6 +106,6 @@ Markdown links can be used for local files and stuff on the internet (websites, 
 
 ### Convert Link
 
-![[dendron://dendron.dendron-site/dendron.topic.refactoring#convert-link,1:#*]]
+![[dendron://dendron.dendron-site/dendron.topic.refactoring.commands.convert-link#summary,1:#*]]
 
 

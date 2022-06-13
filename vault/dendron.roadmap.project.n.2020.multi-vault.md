@@ -2,7 +2,7 @@
 id: 45cfb9f2-46cf-4f67-a41e-834818fbd06e
 title: Multi Vault Support
 desc: ''
-updated: 1640796114452
+updated: 1655136035164
 created: 1599501659137
 stub: false
 start: 2020.10.07
@@ -132,7 +132,7 @@ Cloning is the act of checking out a workspace on another machine. To clone, Den
 
 This can be done with the `Move Note` command.
 
-![[dendron://dendron.dendron-site/dendron.topic.refactoring#move-note,1:#*]]
+![[dendron://dendron.dendron-site/dendron.topic.refactoring.commands.move-note#summary,1:#*]]
 
 ### Publishing Notes
 

@@ -2,7 +2,7 @@
 id: 2gHesjl7XP5Q9QNJWRv7E
 title: Code Actions
 desc: ''
-updated: 1640446800793
+updated: 1655136128851
 created: 1640418773306
 ---
 
@@ -13,7 +13,7 @@ Code actions provide quick fixes and refactoring capabilities in the editor. For
 ## Commands
 ### Rename Symbol
 
-![[dendron://dendron.dendron-site/Rename Symbol|dendron.topic.refactoring#rename-symbol,1:#*]]
+![[dendron://dendron.dendron-site/dendron.topic.refactoring.commands.rename-note#renaming-a-note-that-is-linked-using-rename-symbol,1]]
 
 ### Rename Header
 
