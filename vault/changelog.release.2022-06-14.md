@@ -71,7 +71,7 @@ This week's entry in the [[Dendron Reading Series|dendron://dendron.dendron-site
 A big **thanks** to the following gardeners that brought up issues, contributions, and fixes to this release :man_farmer: :woman_farmer: 
 Visit [[Discord Roles|dendron://dendron.dendron-site/community.discord.roles]] for more information.
 
-- [Kevin Fischer](https://github.com/kfischer-okarin) @kfischer_okarin#2663
+- [Kevin Fischer](https://github.com/kfischer-okarin) `@kfischer_okarin#2663`
   - #role.taxonomist
   - [Clarify fnameToDate docs by kfischer-okarin · Pull Request #535 · dendronhq/dendron-site](https://github.com/dendronhq/dendron-site/pull/535) 
 
