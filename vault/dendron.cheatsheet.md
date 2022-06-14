@@ -2,7 +2,7 @@
 id: f9540bb6-7a5a-46db-ae7c-e1a606f28c73
 title: Cheatsheet
 desc: ''
-updated: 1655183646134
+updated: 1655188695200
 created: 1596374871110
 tags:
   - stage.seed
@@ -52,3 +52,5 @@ This is a cheatsheet that maps every UI element and feature in Dendron to a docu
 ![[dendron.topic.refactoring.commands.convert-link#summary,1:#*]]
 
 ## Menus
+
+## Configs
