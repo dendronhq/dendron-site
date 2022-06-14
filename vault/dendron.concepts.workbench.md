@@ -1,8 +1,8 @@
 ---
 id: 07xm7ssjzx5wb5fxmyh4kc4
 title: Workbench
-desc: 'overall VSCode UI'
-updated: 1648303896687
+desc: 'Overall VSCode UI'
+updated: 1655138316502
 created: 1648303896687
 ---
 
