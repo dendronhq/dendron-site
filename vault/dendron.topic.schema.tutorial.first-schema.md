@@ -4,7 +4,7 @@ title: Making Your First Schema
 desc: >-
   Learn to harness the powers of schema and automatically insert templates into
   new notes
-updated: 1652866426847
+updated: 1655169620625
 created: 1640784965050
 canonicalUrl: https://blog.dendron.so/notes/P1DL2uXHpKUCa7hLiFbFA/
 ---
@@ -91,7 +91,7 @@ You now have a new template with the 5MJ outline.
 
 ### Create 5MJ schema
 
-> Templates can be used with or without schemas. Run [[Insert Note|dendron.ref.commands#insert-note]] to insert a template into the currently opened note.
+> Templates can be used with or without schemas. Run [[Apply Template|dendron://dendron.dendron-site/dendron.topic.templates.commands.apply-template]] to insert a template into the currently opened note.
 
 - Open [[schema lookup|dendron://dendron.dendron-site/dendron.topic.lookup.schemas]] (`Ctrl+Shift+L` / `Cmd+Shift+L`)
 - Type `5mj` in the text prompt and hit enter to create the schema, which should look like the following:

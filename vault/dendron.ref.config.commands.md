@@ -2,7 +2,7 @@
 id: F9LWJEjscrGkxnYi2JNby
 title: Commands
 desc: ''
-updated: 1644954424667
+updated: 1655169548669
 created: 1633485423674
 ---
 
@@ -86,9 +86,6 @@ List of hierarchies to include when opening a random note.
 
 ### exclude
 List of hierarchies to exclude when opening a random note.
-
-## insertNote
-Namespace for Insert Note command related configurations.
 
 ### initialValue
 Initial value that will be filled when prompted for note to insert.

@@ -2,7 +2,7 @@
 id: f83c1d87-eac0-48f3-a5cf-8a69989d8ec1
 title: Configuration
 desc: ''
-updated: 1644915680730
+updated: 1655169573548
 created: 1619539817122
 nav_order: 2.1
 ---
@@ -42,13 +42,6 @@ Validate existing values
 ## Legacy Configuration
 
 > We are currently in the middle of a major overhaul of configuration namespaces, and is subject to change in a weekly basis. All configurations described in this section will gradually be marked as "deprecated" as we move them to a better place. 
-
-### defaultInsertHierarchy
-> This setting is scheduled for deprecation 📆
->
-> Use [[initialValue|dendron.ref.config.commands#initialvalue]] instead.
-
-Execute [[Insert Note|dendron.topic.commands#insert-note]] with the hierarchy prefilled.
 
 
 ### generateChangelog

@@ -2,7 +2,7 @@
 id: 861cbdf8-102e-4633-9933-1f3d74df53d2
 title: Templates
 desc: "Templates are notes whose content can be copied to other notes"
-updated: 1654131085565
+updated: 1655169688970
 created: 1602033087611
 completion: sprout
 config:
@@ -114,7 +114,7 @@ A template is just a regular note. While any note can be a template, we recommen
     - [ ] code does not impact performance
   ```
 1. Create a new note `task.code-check-in`
-1. Run `Dendron: Insert Note`
+1. Run [[`Dendron: Apply Template`|dendron://dendron.dendron-site/dendron.topic.templates.commands.apply-template]]
 1. Choose `template.pr-check-list`
 1. Congrats, you just applied your first template!
 
