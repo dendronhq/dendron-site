@@ -2,7 +2,7 @@
 id: 45ecrq7l5z9l1vpwtr05q3h
 title: Commands
 desc: ''
-updated: 1655133020474
+updated: 1655184644664
 created: 1655109346797
 config:
   global:
@@ -20,6 +20,10 @@ config:
 ## Refactor Hierarchy
 
 ![[dendron.topic.refactoring.commands.refactor-hierarchy]]
+
+## Archive Hierarchy
+
+![[dendron.topic.refactoring.commands.archive-hierarchy]]
 
 ## Move Header
 

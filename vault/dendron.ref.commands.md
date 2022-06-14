@@ -2,10 +2,20 @@
 id: eea2b078-1acc-4071-a14e-18299fc28f47
 title: Commands
 desc: ""
-updated: 1655740491760
+tags:
+  - stage.seed
+updated: 1655740580959
 created: 1595261816971
 nav_order: 3.1
 ---
+
+> ⚠️ This page is currently under active refactoring.
+
+![[dendron://dendron.dendron-site/dendron.topic.refactoring.commands]]
+
+***
+
+<!-- cut-off point. All content below are going to eventually be refactored -->
 
 ## Doctor
 
@@ -280,17 +290,9 @@ Running it in the note `recipe.eggs` will insert the following at cursor positio
 
 - configuration : [[insertNoteIndex|dendron.ref.config#insertnoteindex]]
 
-### Move Note
-
-![[dendron://dendron.dendron-site/dendron.topic.refactoring.commands.move-note#summary,1:#*]]
-
 ### Paste Link
 
 Transform URL in clipboard to nicely formatted Markdown link
-
-### Convert Link
-
-![[dendron://dendron.dendron-site/dendron.topic.refactoring.commands.convert-link#summary,1:#*]]
 
 ### Random Note
 
@@ -430,8 +432,6 @@ This command is a convenience command to open backup files saved under `{workspa
 
 ## Organizing
 
-- [[Refactoring Commands|dendron://dendron.dendron-site/dendron.topic.refactoring]]
-
 ---
 
 ## Hierarchies
@@ -441,19 +441,6 @@ This command is a convenience command to open backup files saved under `{workspa
 - shortcuts: none
 
 Reload the index. Necessary for Dendron to pick up on schema changes.
-
-### Archive Hierarchy
-
-- shortcuts: none
-
-Move current note and all children under the `archive` hierarchy
-
-This is a convenience method around `Refactor Hierarchy` for the case of archiving hierarchies you are no longer using. For example, if you were currently at `pro.foo`, running `Archive Hierarchy` would be equivalent to running `Refactor Hierarchy` with the following arguments:
-
-- matcher: `pro.foo`
-- replacement: `archive.pro.foo`
-
-<a href="https://www.loom.com/share/9698d5a4451b49d8b107f3ff67d97877"> <img style="" src="https://cdn.loom.com/sessions/thumbnails/9698d5a4451b49d8b107f3ff67d97877-with-play.gif"> </a>
 
 ---
 
@@ -757,10 +744,6 @@ any reason.
 
 Dendron recognises a new Markdown file created from VS Code context menu and populate it with the frontmatter.
 
-#### Rename Note
-
-![[dendron://dendron.dendron-site/dendron.topic.refactoring.commands.rename-note#summary,1:#*]]
-
 ### Header Operations
 
 These are Dendron-specific features made available as [Quick Fix operations in VS Code](https://code.visualstudio.com/docs/editor/refactoring#_code-actions-quick-fixes-and-refactorings).
@@ -768,10 +751,6 @@ These are Dendron-specific features made available as [Quick Fix operations in V
 A header action is announced by a lightbulb when the cursor is within a header. Clicking on the Code Action lightbulb or using the Quick Fix command `Ctrl+.` will display the following quick fixes.
 
 > 💡 **TIP:** If you prefer to not see the Code Action lightbulb in your editor, you can disable lightbulbs with the `editor.lightbulb.enable` [setting](https://code.visualstudio.com/docs/getstarted/settings). You can still open Quick Fixes through Quick Fix command and `Ctrl+.` keyboard shortcut.
-
-#### Rename Header
-
-![[dendron://dendron.dendron-site/dendron.topic.refactoring.commands.rename-header#summary,1:#*]]
 
 #### Copy Header Reference
 
