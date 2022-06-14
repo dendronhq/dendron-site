@@ -10,8 +10,8 @@ nav_order: 2
 ## 0.99.0
 
 ### Features
-- feat(structure): add set task status commands (#3033) @kaan ([[docs|dendron://dendron.dendron-site/dendron.ref.commands#set-task-status]])
-- feat(structure): add complete task commands (#3033) @kaan ([[docs|dendron://dendron.dendron-site/dendron.ref.commands#complete-task]])
+- feat(structure): add set task status command (#3033) @kaan ([[docs|dendron://dendron.dendron-site/dendron.ref.commands#set-task-status]])
+- feat(structure): add complete task command (#3033) @kaan ([[docs|dendron://dendron.dendron-site/dendron.ref.commands#complete-task]])
 - feat(sync): obsidian import flow (#3014) @jonathan ([[docs|dendron://dendron.dendron-site/dendron.ref.commands#import-obsidian-vault]])
 
 ### Enhancements
