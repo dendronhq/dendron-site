@@ -35,7 +35,7 @@ More information: [[Import Obsidian Vault|dendron://dendron.dendron-site/dendron
 #### Public Issues
     The public data view of frequently asked questions and how to fix them is live on our [FAQ Page](https://wiki.dendron.so/notes/683740e3-70ce-4a47-a1f4-1f140e80b558/) under 'Public Issues'. We will continuously update this list with issues we seen on discord and when working with community members. Check it out and please give us feedback in the [[#feedback|dendron://dendron.dendron-site/community.discord.channels#feedback]] channel or at support@dendron.so.
 
- #### Greenhouse Series
+#### Greenhouse Series
 
     ![[community.events.greenhouse#summary,1:#*]]
 
