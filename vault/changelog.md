@@ -6,6 +6,24 @@ updated: 1653971733422
 created: 1601508213606
 nav_order: 2
 ---
+
+## 0.99.0
+
+### Features
+- feat(structure): add set task status commands (#3033) @kaan ([[docs|dendron://dendron.dendron-site/dendron.ref.commands#set-task-status]])
+- feat(structure): add complete task commands (#3033) @kaan ([[docs|dendron://dendron.dendron-site/dendron.ref.commands#complete-task]])
+- feat(sync): obsidian import flow (#3014) @jonathan ([[docs|dendron://dendron.dendron-site/dendron.ref.commands#import-obsidian-vault]])
+
+### Enhancements
+- enhance(publish): make the private link colors customizable (#3035) @kaan ([[docs|dendron://dendron.dendron-site/dendron.topic.theme.publish.cook#change-the-color-of-a-private-link]])
+- enhance(views): configure creation of notes on click of graph node with `createStubs` #3032 @joshi ([[docs|dendron://dendron.dendron-site/dendron.topic.graph-view#create-stub]])
+- enhance(workspace): detect duplicate note id on lifecycle events (#2991) @hikchoi
+
+### Fixes
+- fix(workspace): fix duplicated panel titles (#3016) @jonathan
+- fix(edit): email addresses and hash symbols inside words are parsed as tags (#3064) @kaan
+- fix(views): gracefully handle tree view sort error to avoid crashing the tree view (#3053) @hikchoi
+
 ## 0.98.0
 
 ### Features
