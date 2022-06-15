@@ -248,7 +248,7 @@ When telemetry is disabled or enabled, we collect information about the event to
 ## How to opt out of data collection
 
 To disable telemetry in Dendron specifically, run the [[Disable Telemetry|dendron.ref.commands#disable-telemetry]] command.
-You can also disable telemetry using the cli by using the [[disable_telemetry|etc.cli#disable_telemetry]] command.
+You can also disable telemetry using the cli by using the [[disable_telemetry|dendron.topic.cli#dev]] command.
 
 ## Why not have opt-in telemetry?
 

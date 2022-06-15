@@ -40,10 +40,10 @@ nav_order: 1.1
 
 ![[dendron.topic.workspace.cli]]
 
-## Note Command
+## Note Commands
 
 ![[dendron.topic.note.lookup.cli]]
 
-## Dev Command
+## Dev Commands
 
 ![[dendron.topic.cli#dev,1:#*]]
