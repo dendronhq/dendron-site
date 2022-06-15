@@ -2,7 +2,7 @@
 id: eea2b078-1acc-4071-a14e-18299fc28f47
 title: Commands
 desc: ""
-updated: 1655169536132
+updated: 1655306976878
 created: 1595261816971
 nav_order: 3.1
 ---
@@ -611,9 +611,7 @@ Import notes from an external data source. Currently, only the local file system
 
 ### Import Obsidian Vault
 
-- shortcuts: none
-
-Import Markdown notes from an Obsidian vault. This is a simplified version of [[Import Pod|dendron://dendron.dendron-site/dendron.ref.commands#import-pod]] that can be used for a one-time import of your Obsidian notes into your Dendron workspace.
+![[dendron://dendron.dendron-site/dendron.topic.pod-v2.commands.import-obsidian-vault]]
 
 ### Export Pod
 
