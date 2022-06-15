@@ -3,7 +3,7 @@ id: 1mu1qb1vilhqr7tlatwyqxm
 title: Handlebar Templates
 desc: 'Use [handlebars](https://handlebarsjs.com/guide/), a powerful templating language which enables conditionals, for loops and custom helpers to apply to your templates without executing code.'
 completion: sprout
-updated: 1653441424498
+updated: 1655169668499
 created: 1653437075977
 ---
 
@@ -33,7 +33,7 @@ A template is just a regular note. While any note can be a template, we recommen
     - [ ] code does not impact performance
   ```
 1. Create a new note `task.code-check-in`
-1. Run `Dendron: Insert Note`
+1. Run [[`Dendron: Apply Template`|dendron://dendron.dendron-site/dendron.topic.templates.commands.apply-template]]
 1. Choose `template.pr-check-list`
 1. See the template being applied.
 
