@@ -73,19 +73,19 @@ Visit [[Discord Roles|dendron://dendron.dendron-site/community.discord.roles]] f
 
 - [Kevin Fischer](https://github.com/kfischer-okarin) `@kfischer_okarin#2663`
   - #role.taxonomist
-  - [Clarify fnameToDate docs by kfischer-okarin · Pull Request #535 · dendronhq/dendron-site](https://github.com/dendronhq/dendron-site/pull/535) 
+  - [Clarify fnameToDate docs](https://github.com/dendronhq/dendron-site/pull/535) 
 
 - [Bugfixd](https://github.com/bugfixd)
   - #role.bugcatcher
-  - [Dendon's handling of the frontmatter title attribute is inconsistent and confusing :dizzy_face: · Issue #3055 · dendronhq/dendron](https://github.com/dendronhq/dendron/issues/3055)
+  - [Dendon's handling of the frontmatter title attribute is inconsistent and confusing](https://github.com/dendronhq/dendron/issues/3055)
 
 - [Taran Lu](https://github.com/taranlu-houzz) 
   - #role.bugcatcher
-  - [Getting 404 when attempt to use the `editLink` on a published note · Issue #3074 · dendronhq/dendron](https://github.com/dendronhq/dendron/issues/3074)
+  - [Getting 404 when attempt to use the `editLink` on a published note](https://github.com/dendronhq/dendron/issues/3074)
 
 - [Nikhiljha](https://github.com/nikhiljha) 
   - #role.bugcatcher
-  - [incorrect note created on lookup (+ possible race condition?) · Issue #3075 · dendronhq/dendron](https://github.com/dendronhq/dendron/issues/3075)
+  - [incorrect note created on lookup (+ possible race condition?)](https://github.com/dendronhq/dendron/issues/3075)
 
 ## Changelog
 ![[changelog#0990,1:#0980]]
