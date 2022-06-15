@@ -2,12 +2,13 @@
 id: 4l0mnzhwcos8kdn5aif1we9
 title: nav_exclude_children
 desc: Should exclude children from the published tree view
-updated: 1653583297461
+updated: 1654536887834
 created: 1653351506224
 ---
 
 - type: boolean
 - default: false
+- frontmatter: `only`
 
 ## Description
 {{fm.desc}}

@@ -4,8 +4,9 @@ title: >-
     27 - What Colour Are Your Bits? 
 desc: >-
    This piece explores the relationship between content (bits) and meaning (colour) in the context of computer data
-updated: 1649174678239
+updated: 1654232472589
 created: 1649174678239
+canonicalUrl: https://kevinslin.com/notes/lvivxox5lucsu7zmnpzt9hj
 ---
 
 - [What Colour Are Your Bits?](https://ansuz.sooke.bc.ca/entry/23)

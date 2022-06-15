@@ -1,8 +1,8 @@
 ---
 id: eea2b078-1acc-4071-a14e-18299fc28f47
 title: Commands
-desc: ''
-updated: 1653537440874
+desc: ""
+updated: 1654198265729
 created: 1595261816971
 nav_order: 3.1
 ---
@@ -106,6 +106,7 @@ You can also delete a note from the explorer:
 - `Dendron: Delete Node`
 
 ### Insert Note
+
 > DEPRECATED: This feature is deprecated and will be removed in future versions of Dendron - please use [[Template Apply|dendron://dendron.dendron-site/dendron.topic.templates.commands.template-apply]] instead
 
 Insert the contents from a note into another note. You can configure a starting hierarchy for this command. Useful if you designated a hierarchy (eg. `templates`) for insertions.
@@ -378,6 +379,28 @@ extra features to keep track of work items.
 
 The `Create Task Note` lookup supports tabbing for autocompletion.
 
+### Set Task Status
+
+- shortcuts: none
+
+Changes the status for a [[task note|dendron.topic.tasks#task-notes]]. If you
+have a link selected, it will set the task status for that note. If you don't
+have a link selected but you have a task note open, it will set the status for
+that note.
+
+The statuses displayed when you use the command are based on the [[statusSymbols|dendron://dendron.dendron-site/dendron.topic.tasks#statussymbols]]
+configuration.
+
+You can create a keyboard shortcut that sets a task to a specific status.
+Please see [[Keyboard shortcut for a task status|dendron://dendron.dendron-site/dendron.topic.tasks#keyboard-shortcut-for-a-task-status]] for details.
+
+### Complete Task
+
+- shortcuts: none
+
+Marks a [[task note|dendron.topic.tasks#task-notes]] as complete. This works in the same way as [[Set Task Status|dendron://dendron.dendron-site/dendron.ref.commands#set-task-status]],
+but doesn't prompt for the status to use. Instead, it will use the first status set in the [[taskCompleteStatus|dendron://dendron.dendron-site/dendron.topic.tasks#taskcompletestatus]] configuration.
+
 ### Create Meeting Note
 
 - shortcuts: none
@@ -595,6 +618,12 @@ Update your service [[Connections|dendron://dendron.dendron-site/dendron.topic.p
 - shortcuts: none
 
 Import notes from an external data source. Currently, only the local file system is supported
+
+### Import Obsidian Vault
+
+- shortcuts: none
+
+Import Markdown notes from an Obsidian vault. This is a simplified version of [[Import Pod|dendron://dendron.dendron-site/dendron.ref.commands#import-pod]] that can be used for a one-time import of your Obsidian notes into your Dendron workspace.
 
 ### Export Pod
 

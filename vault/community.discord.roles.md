@@ -2,7 +2,7 @@
 id: 7c00d606-7b75-4d28-b563-d75f33f8e0d7
 title: Roles
 desc: ''
-updated: 1654006940979
+updated: 1654619987027
 created: 1604237102230
 ---
 
@@ -73,6 +73,10 @@ These members also get access to the [[early-preview|dendron://dendron.dendron-s
 ### Seeder
 
 A **Seeder** is a member who referred a fellow gardener to Dendron.
+
+### Speaker
+
+A **Speaker** is a member who spoke at a Dendron event (eg. Greenhouse)
 
 ### Surveyor
 

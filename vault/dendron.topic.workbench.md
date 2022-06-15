@@ -2,7 +2,7 @@
 id: f7ebd4aa-8ba7-4bc5-bd00-a1efc5315f07
 title: Workbench
 desc: ''
-updated: 1653411369901
+updated: 1655139087259
 created: 1595170237255
 ---
 
@@ -10,53 +10,43 @@ created: 1595170237255
 
 The Dendron workbench is the overall Dendron User Interface (UI) that surrounds the editor. 
 
-![[dendron://dendron.dendron-site/dendron.concepts.workbench]]
+## Components
+The Dendron Workbench consists of the following components:
 
-<!-- Dendron has a few custom workbench components to deal with hierarchal notes. -->
+1. The Dendron SideBar
+1. The Editor
+1. Custom Web Views
+4. VSCode Built-in Sidebar Views
 
-We divide available views between:
-- dendron side panel views: custom components created by Dendron to manage your notes
-- built-in views: native vscode components that integrate with Dendron to manage your notes
+![Dendron Wrokbench](https://ik.imagekit.io/fpjzhqpv1/comp.workbench_dsFfFLepH.v2?ik-sdk-version=javascript-1.4.3&updatedAt=1655138693996)
 
-## Dendron Side Panel Views
+
+## The Dendron SideBar
 
 ![[dendron://dendron.dendron-site/dendron.topic.sidebar#summary,1:#*]]
 
 ### Backlinks View
 
-![[dendron://dendron.dendron-site/dendron.topic.sidebar.backlinks#summary,1]]
+![[dendron://dendron.dendron-site/dendron.topic.sidebar.backlinks#summary,1:#*]]
 
 ### Dendron Calendar View
 ![[dendron://dendron.dendron-site/dendron._ref.web-ui#calendar-view,1:#*]]
 
 ### Dendron Tree View
 
-The Dendron Tree View lets you view your hierarchal notes as a traditional folder hierarchy.
+![[dendron://dendron.dendron-site/dendron.topic.sidebar.tree-view#summary,1:#*]]
 
-![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/workbench.treeview.gif)
+## The Editor
 
-The Dendron Tree View has the following capabilities:
+The editor is the text editor where you edit notes in Dendron.
 
-- click to open note
+## Custom WebViews
 
-- show indicators for `stub` and `schema` notes
+These are custom components built by Dendron.
 
-- show title using tooltip
+## VSCode Built-in Sidebar Views
 
-- realtime update when you create/delete notes
-
-- toggle all functionality
-
-- click to create from stub
-  ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/workbench.treeview.stub.gif)
-
-- reveal currently open text document
-
-![tree view](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/workbench.treeview-active-doc.gif)
-
-## Built-in Views
-
-Built-in views are native to VSCode and provide integration with Dendron
+VSCode native side panel views that work well with Dendron
 
 ### Outline View
 
@@ -78,29 +68,7 @@ You can filter the output by application by using the dropdown menu.
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/output.jpg)
 
-<!-- #TODO: move -->
-## Contextual UI
 
-Dendron has a number of built-in commands to the VS Code workbench environment. Right clicking a file will allow for the option to run Dendron specific commands over it. The details of this feature are discussed in depth [here](https://docs.dendron.so/notes/VellOqHuzrUyzrWc0ajvg/).
-
-## Working with Multiple Columns
-
-VS Code lets you create multiple columns of your editor and arrange them any way you want them.
-
-![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/workbench.windows.gif)
-
-### Expanding the Current Editor
-
-You can use the `toggleEditorWidth` command with a hotkey to quickly expand the current editor.
-
-```json
-{
-    "command": "workbench.action.toggleEditorWidths",
-    "key": "ctrl+cmd+m"
-}
-```
-
-![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/workbench.toggle-editor.gif)
 
 <!-- TODO
 

@@ -122,6 +122,11 @@ There's a built-in dark theme for publishing which you can switch to.
     color: #002b5c;
     }
 
+    a.private {
+    /* Color for links to private (not published) or missing notes. */
+    color: #cc5d1a;
+    }
+
     .dendron-toc .ant-anchor-link-title {
     /* Color for items in the table of contents. */
     color: #0c0c0c;

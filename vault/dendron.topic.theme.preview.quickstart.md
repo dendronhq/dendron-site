@@ -2,7 +2,7 @@
 id: 0fbg5vbv5jzb0623pbi4v3t
 title: Quickstart
 desc: "Getting started customizing the theme for the preview"
-updated: 1653621191422
+updated: 1654578075011
 created: 1653544545225
 ---
 
@@ -39,7 +39,7 @@ You can apply a custom theme by writing a custom CSS file.
 1. Create a file named `custom.css` at the root of your workspace, next to the `dendron.yml` file. Inside this file, add the following contents. Modify the colors used however you'd like.
 
    ```css
-   body {
+   body, .ant-layout {
      /* The background color of the preview. */
      background-color: #002b5c;
    }

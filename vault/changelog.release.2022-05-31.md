@@ -2,7 +2,7 @@
 id: 5h7bbwppataybwelrryepks
 title: 0.97
 desc: ''
-updated: 1654018315888
+updated: 1654053362436
 created: 1653971746953
 ---
 
@@ -12,7 +12,7 @@ Dendron 0.97 has sprouted 🌱
 
 **Handlebar Templates:** Get a handle on templates - Dendron now supports [Handlebars](https://handlebarsjs.com/guide/), a minimal templating language that lets you create flexible templates!
 
-**Clean up your published sidebarn:** It's not too late for spring cleaning! You can now configure whether or not a published note should show it's children in the tree view.
+**Clean up your published sidebar:** It's not too late for spring cleaning! You can now configure whether or not a published note should show it's children in the tree view.
 
 ## Highlights
 - feat(markdown): handlebar based templates

@@ -2,7 +2,7 @@
 id: HUFx2Yjyw8klA7l0KLYoZ
 title: Edit
 desc: About the VS Code editing experience
-updated: 1652963882479
+updated: 1654754122169
 created: 1639633464112
 pods:
   airtable:
@@ -12,7 +12,7 @@ pods:
 
 ## Summary
 
-Anything that effects the editing experience. Edit also involves creating new notes
+Anything that affects the editing experience. Edit also involves creating new notes.
 
 ## Examples
 - Autocomplete
