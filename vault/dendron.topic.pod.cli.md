@@ -1,45 +1,30 @@
 ---
 id: W5bX7FK5WujZms84ZMcyU
-title: CLI
-desc: ''
+title: Pod CLI
+desc: 'CLI commands for interacting with pods'
 updated: 1636827226117
 created: 1636827226117
 ---
+## Summary
 
-## Common Options
+{{fm.desc}}
 
-- --configPath: path to a custom yml configuration for the pod
+> NOTE: you can find pod ids in the [[pods|dendron.topic.pod]] page
 
 ## Commands
+### Common Options
+
+- `--configPath`: path to a custom yml configuration for the pod
 
 ### Export Pod
+![[dendron.topic.pod.export.cli]]
 
-- export a pod
-
-- eg: Export notes to JSONPod
-
-```
-dendron exportPod --podId dendron.json --wsRoot . 
-```
 
 ### Import Pod
-
-- eg: Import notes from FilePod
-
-```
-dendron importPod --podId dendron.markdown --wsRoot . 
-```
+![[dendron.topic.pod.import.cli]]
 
 ### Publish Pod
 
-- eg: Publish a note as regular Markdown
+![[dendron.topic.pod.publish.cli]]
 
-#### Options
-- --query: name of note to publish
 
-#### Examples
-
-Publish `dendron.md` note as Markdown
-```sh
-dendron publishPod --wsRoot . --podId dendron.markdown --query dendron
-```
