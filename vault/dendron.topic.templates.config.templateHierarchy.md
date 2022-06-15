@@ -2,7 +2,7 @@
 id: dfkoxc9nxq4io4l5585200i
 title: templateHierarchy
 desc: 'Default hierarchy for templates'
-updated: 1653536950528
+updated: 1654822919737
 created: 1653536898647
 ---
 
@@ -18,6 +18,6 @@ created: 1653536898647
 ## Example
 
 ```yml
-workspace:
+commands:
   templateHierarchy: template
 ```
