@@ -2,7 +2,7 @@
 id: hkirhn3t0z3x2wfsuujwd87
 title: Template Helpers
 desc: Built-in helper functions that can be used with handlebar templates
-updated: 1654265460135
+updated: 1655309685779
 created: 1654041750829
 ---
 
@@ -11,6 +11,20 @@ created: 1654041750829
 {{fm.desc}}
 
 ## Helpers
+
+### capture
+- parameters:
+    - text: text where pattern will be applied against
+    - pattern: pattern to capture
+- return: capture text or error
+
+```hbs
+{{! given file: daily.journal.2022.05.31 }}
+{{! results in: [[writing.journal.2022.05.31]] }}
+[[writing.journal.`{{ capture FNAME "\\d{4}.\\d{2}.\\d{2}" }}`]];
+```
+
+On error, will return the following text: `ERROR: no match found for ${pattern} in ${text}`
 
 ### eq
 - return: true|false
