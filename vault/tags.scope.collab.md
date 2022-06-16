@@ -2,7 +2,7 @@
 id: 4VLd4Ir1HulZDFvZWv571
 title: Collab
 desc: ''
-updated: 1645245636678
+updated: 1655394854310
 created: 1645076505517
 pods:
   airtable:
@@ -10,9 +10,9 @@ pods:
     task.scopes: recaZuBQCC26G3gnw
 ---
 
-Collaboration related items. Intended for use to categorize items in the following areas:
-- Teams
-- Seeds
+## Summary 
+
+Collaboration related items. Intended for use to categorize work for teams and seeds. 
 
 ## Sub-scopes
 

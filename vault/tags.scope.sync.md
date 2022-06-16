@@ -2,7 +2,7 @@
 id: s1R1nLkW7y2meU32sNHya
 title: Sync
 desc: Related to syncing with remote sources
-updated: 1651837956966
+updated: 1655394791927
 created: 1642531423151
 pods:
   airtable:
@@ -10,9 +10,14 @@ pods:
     task.scopes: recEDU9mdnKbxl1X4
 ---
 
-Dendron can be used as the backing data source for many tools. Dendron workspaces are often tracked in a git repo and sync'd with Github. 
+## Summary
 
+Dendron workspaces can be sync'd with a variety of sources (git, airtable, mobile). Any issues with that go here. 
 ## Examples
+
+- Syncing via git to remote repo
+- Syncing to Airtable via export
+- Mobile sync options. 
 
 ## Anti-examples
 

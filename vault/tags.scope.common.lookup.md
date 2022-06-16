@@ -2,7 +2,7 @@
 id: nzqCi64LGetqAWqdDT2lK
 title: Lookup
 desc: Anything lookup related
-updated: 1651837599674
+updated: 1655394965885
 created: 1631657275412
 pods:
   airtable:
@@ -10,8 +10,11 @@ pods:
     task.scopes: recSc2AwMLA7GpNdD
 ---
 
+## Summary
+
 Anything lookup related. This means anything to do with how results display in the lookup widget. 
 
+## Details
 This is used across a range of commands:
 - NoteLookup, Rename, InsertNoteIndex, etc.
 
