@@ -2,7 +2,7 @@
 id: eea2b078-1acc-4071-a14e-18299fc28f47
 title: Commands
 desc: ""
-updated: 1654198265729
+updated: 1655306976878
 created: 1595261816971
 nav_order: 3.1
 ---
@@ -104,16 +104,6 @@ You can also delete a note from the explorer:
 
 - Right Click on the note
 - `Dendron: Delete Node`
-
-### Insert Note
-
-> DEPRECATED: This feature is deprecated and will be removed in future versions of Dendron - please use [[Template Apply|dendron://dendron.dendron-site/dendron.topic.templates.commands.template-apply]] instead
-
-Insert the contents from a note into another note. You can configure a starting hierarchy for this command. Useful if you designated a hierarchy (eg. `templates`) for insertions.
-
-When inserting a note, all snippet [[variables|dendron.topic.snippets#variables]] will also be resolved.
-
-- configuration: [[defaultInsertHierarchy|dendron.ref.config#defaultinserthierarchy]]
 
 ### Insert Note Link
 
@@ -621,9 +611,7 @@ Import notes from an external data source. Currently, only the local file system
 
 ### Import Obsidian Vault
 
-- shortcuts: none
-
-Import Markdown notes from an Obsidian vault. This is a simplified version of [[Import Pod|dendron://dendron.dendron-site/dendron.ref.commands#import-pod]] that can be used for a one-time import of your Obsidian notes into your Dendron workspace.
+![[dendron://dendron.dendron-site/dendron.topic.pod-v2.commands.import-obsidian-vault]]
 
 ### Export Pod
 

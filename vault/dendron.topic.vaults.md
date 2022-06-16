@@ -2,7 +2,7 @@
 id: 6682fca0-65ed-402c-8634-94cd51463cc4
 title: Vaults
 desc: ""
-updated: 1650052895884
+updated: 1655317082844
 created: 1622841137387
 ---
 
@@ -91,7 +91,7 @@ A local vault is what you start off with. Its a vault that is local to your file
 
 ### Remote
 
-A remote vault is what you get when you run the [[Vault Add|dendron.ref.commands#vault-add]] command and select a remote vault. This is a vault that is cloned from a git repo. It should be a similar format as what you see below
+A remote vault is what you get when you run the [[Vault Add|dendron.ref.commands#vault-add]] command and select a remote vault. This is a vault that is cloned from a git repo. It will be listed in a similar format as what you see below in your configuration file.
 
 ```yml
 vaults:
