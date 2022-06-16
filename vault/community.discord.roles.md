@@ -50,7 +50,7 @@ There are currently four levels of environmentalist plans:
 
 ### Farmer
 
-A **Farmer** is a member who has contributed to Dendron-related tooling or Dendron-compatible projects.
+A **Farmer** is a member who has contributed to Dendron-related tooling or Dendron-compatible projects. Also includes a member who submitted a #crop. 
 
 ### Horticulturalist
 
