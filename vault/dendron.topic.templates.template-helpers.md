@@ -12,20 +12,6 @@ created: 1654041750829
 
 ## Helpers
 
-### capture
-- parameters:
-    - text: text where pattern will be applied against
-    - pattern: pattern to capture
-- return: capture text or error
-
-```hbs
-{{! given file: daily.journal.2022.05.31 }}
-{{! results in: [[writing.journal.2022.05.31]] }}
-[[writing.journal.`{{ capture FNAME "\\d{4}.\\d{2}.\\d{2}" }}`]];
-```
-
-On error, will return the following text: `ERROR: no match found for ${pattern} in ${text}`
-
 ### eq
 - return: true|false
 
@@ -62,6 +48,28 @@ You can override by passing in a custom format as long as you used [named captur
 Given a day, return the day of the week. This is the same as [javascript getDay](https://www.w3schools.com/jsref/jsref_getday.asp) method (0 = sunday, 6 = saturday)
 
 - NOTE: be sure to add parenthesis `()` when using with `fnameToDate` due to how handlebars handles [subexpressions](https://handlebarsjs.com/guide/expressions.html#subexpressions)
+
+
+### match
+- parameters:
+    - text: text where pattern will be applied against
+    - pattern: pattern to capture
+- return: capture text or `false`
+
+```hbs
+{{! given file: daily.journal.2022.05.31 }}
+{{! results in: [[writing.journal.2022.05.31]] }}
+[[writing.journal.{{ match FNAME "\\d{4}.\\d{2}.\\d{2}" }}]];
+```
+
+On error, will return `false` which means you can use it inside of `if` statements
+```hbs
+{{#if (match FNAME 2022) }}
+It's still 2022
+{{else}}
+It's no longer 2022
+{{/if}}
+```
 
 ## Examples
 
