@@ -14,21 +14,19 @@ nav_exclude: true
 
 Dendron 1.00 has sprouted 🌱
 
+**v100:** We will be releasing version 100 of Dendron next week! This will mark 100 releases and over 600 features shipped! We'll be launching on product hunt on Tuesday June 21st, 12:01AM PST. If Dendron has been of use to you, please leave feedback on our <a href="https://www.producthunt.com/posts/dendron-v100%22%3Elaunch page</a> at that time - this would help us out a lot! 🙏
+
 **Recent Workspaces Panel:** Navigating through multiple workspaces has never been easier! This new panel will show you your last 5 opened Dendron workspaces and you can access them with just a click.
 - More information: [[Recent Workspaces|dendron://dendron.dendron-site/dendron.topic.sidebar.recent-workspaces]]
 
-**Faster Link Completions:** Tired of manually looking through all your notes to complete your links? Now you can delegate that to lookup. On initial trigger, instead of showing you all the possible results, you will only see the top level notes. 
-- More information: _need confirmation on docs_
-
 **BREAKING:** Handlebars are now set as the default template format. Users that were using <% %> syntax for template variables will no longer work. Please see the [[Migration|dendron://dendron.dendron-site/dendron.topic.templates.handlebars.migration]] guide to switch to handlebar based templates. 
 
-**DEPRECATED:** `Insert Note` command replaced by the `Apply Template` command to [[Create a template|dendron://dendron.dendron-site/dendron.topic.templates.handlebars#create-a-template]]. 
+**BREAKING:** `Insert Note` command no longer exists. It is replaced by the `Apply Template` command to [[Create a template|dendron://dendron.dendron-site/dendron.topic.templates.handlebars#create-a-template]]. 
 
 ### Features
 - feat(views): recent workspaces panel (#3052) @jonathan ([[docs|dendron://dendron.dendron-site/dendron.topic.sidebar.recent-workspaces]])
 
 ### Enhancements
-- enhance(cli): updated dendron lookup command (#3043) @kevin ([[docs|dendron://dendron.dendron-site/dendron.topic.notes.cli.lookup]])
 - enhance(views): add tooltip on hover for graph nodes (#3060) @joshi ([[docs|dendron://dendron.dendron-site/dendron.topic.graph-view#features]])
 - enhance(edit): this sets handlebars as the default template format (#3070) @kevin
 - enhance(edit): configure templateHierarchy when applying template (#3069) @kevin ([[docs|dendron://dendron.dendron-site/dendron.topic.templates.config.templateHierarchy]])
@@ -40,4 +38,4 @@ Dendron 1.00 has sprouted 🌱
 ### Fixes
 - fix(workspace): migrate to self contained vault causes `EBUSY` errors on Windows (#3067) @kaan
 - fix(refactor): updated refactor hierarchy message to include no. of files changed (#3078) @joshi
-- fix(views): double click issue on help and feedback panel (#3089) @jonathan
+- fix(views): issue with help and feedback panel launching a link once even if was clicked multiple times (#3089) @jonathan
