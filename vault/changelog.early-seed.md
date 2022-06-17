@@ -10,9 +10,9 @@ nav_exclude: true
 
 > This page documents the features, enhancements, and fixes in the latest early seed release. The early seed is a preview of the weekly release, so you'll see the next minor version when installing (ex. `0.78.0` instead of `0.77.1`). When dendron ships the general release, the currently installed extension will automatically be updated (but will still have same version).
 
-## 1.00.0
+## 0.100.0
 
-Dendron 1.00 has sprouted 🌱
+Dendron 0.100 has sprouted 🌱
 
 **v100:** We will be releasing version 100 of Dendron next week! This will mark 100 releases and over 600 features shipped! We'll be launching on product hunt on Tuesday June 21st, 12:01AM PST. If Dendron has been of use to you, please leave feedback on our [product hunt page](https://www.producthunt.com/posts/dendron-v100) at that time - this would help us out a lot! 🙏
 
