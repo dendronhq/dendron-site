@@ -1,8 +1,8 @@
 ---
 id: c877f1204xn2ev5djgwc7do
 title: Help and Feedback
-desc: 'The Help and Feedback panel provides a cheatsheet of links and resources for usiing Dendron'
-updated: 1655137580282
+desc: 'The Help and Feedback panel provides a cheatsheet of links and resources for using Dendron'
+updated: 1655460620237
 created: 1655137242909
 ---
 
