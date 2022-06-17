@@ -14,7 +14,7 @@ nav_exclude: true
 
 Dendron 1.00 has sprouted 🌱
 
-**v100:** We will be releasing version 100 of Dendron next week! This will mark 100 releases and over 600 features shipped! We'll be launching on product hunt on Tuesday June 21st, 12:01AM PST. If Dendron has been of use to you, please leave feedback on our <a href="https://www.producthunt.com/posts/dendron-v100%22%3Elaunch page</a> at that time - this would help us out a lot! 🙏
+**v100:** We will be releasing version 100 of Dendron next week! This will mark 100 releases and over 600 features shipped! We'll be launching on product hunt on Tuesday June 21st, 12:01AM PST. If Dendron has been of use to you, please leave feedback on our [product hunt page](https://www.producthunt.com/posts/dendron-v100) at that time - this would help us out a lot! 🙏
 
 **Recent Workspaces Panel:** Navigating through multiple workspaces has never been easier! This new panel will show you your last 5 opened Dendron workspaces and you can access them with just a click.
 - More information: [[Recent Workspaces|dendron://dendron.dendron-site/dendron.topic.sidebar.recent-workspaces]]
