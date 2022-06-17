@@ -2,7 +2,7 @@
 id: 3a82c5ff-7945-46ae-8bf9-3b2275fc6642
 title: Showcase
 desc: ''
-updated: 1645122323230
+updated: 1655401518429
 created: 1600010740851
 ---
 
@@ -13,7 +13,7 @@ Below are examples of published Dendron vaults.
 ### Dendron homepage
 
 - homepage: <https://dendron.so>
-  ![](/assets/images/2020-09-13-09-05-45.png)
+  ![Dendron Home page](https://ik.imagekit.io/fpjzhqpv1/Cursor_and_Dendron__r6Of2QIa.png?ik-sdk-version=javascript-1.4.3&updatedAt=1655401472072)
 
 ### Open PKM Catalogue
 
