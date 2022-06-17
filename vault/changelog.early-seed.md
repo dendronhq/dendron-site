@@ -10,27 +10,34 @@ nav_exclude: true
 
 > This page documents the features, enhancements, and fixes in the latest early seed release. The early seed is a preview of the weekly release, so you'll see the next minor version when installing (ex. `0.78.0` instead of `0.77.1`). When dendron ships the general release, the currently installed extension will automatically be updated (but will still have same version).
 
-## 0.99.0
+## 1.00.0
 
-Dendron 0.99 has sprouted 🌱
+Dendron 1.00 has sprouted 🌱
 
-**Better Task Notes**: Get things done - task notes now have custom commands to set their status and mark them as complete.
-More information: [[Set Task Status|dendron://dendron.dendron-site/dendron.ref.commands#set-task-status]]
+**Recent Workspaces Panel:** Navigating through multiple workspaces has never been easier! This new panel will show you your last 5 opened Dendron workspaces and you can access them with just a click.
+- More information: [[Recent Workspaces|dendron://dendron.dendron-site/dendron.topic.sidebar.recent-workspaces]]
 
-**Obsidian Import**: Vault to vault - we now have a dedicated command to import your notes from obsidian into Dendron!
-More information: [[Import Obsidian Vault|dendron://dendron.dendron-site/dendron.ref.commands#import-obsidian-vault]]
+**Faster Link Completions:** Tired of manually looking through all your notes to complete your links? Now you can delegate that to lookup. On initial trigger, instead of showing you all the possible results, you will only see the top level notes. 
+- More information: _need confirmation on docs_
+
+**BREAKING:** Handlebars are now set as the default template format. Users that were using <% %> syntax for template variables will no longer work. Please see the [[Migration|dendron://dendron.dendron-site/dendron.topic.templates.handlebars.migration]] guide to switch to handlebar based templates. 
+
+**DEPRECATED:** `Insert Note` command replaced by the `Apply Template` command to [[Create a template|dendron://dendron.dendron-site/dendron.topic.templates.handlebars#create-a-template]]. 
 
 ### Features
-- feat(structure): add set task status commands (#3033) @kaan ([[docs|dendron://dendron.dendron-site/dendron.ref.commands#set-task-status]])
-- feat(structure): add complete task commands (#3033) @kaan ([[docs|dendron://dendron.dendron-site/dendron.ref.commands#complete-task]])
-- feat(sync): obsidian import flow (#3014) @jonathan ([[docs|dendron://dendron.dendron-site/dendron.ref.commands#import-obsidian-vault]])
+- feat(views): recent workspaces panel (#3052) @jonathan ([[docs|dendron://dendron.dendron-site/dendron.topic.sidebar.recent-workspaces]])
 
 ### Enhancements
-- enhance(publish): make the private link colors customizable (#3035) @kaan ([[docs|dendron://dendron.dendron-site/dendron.topic.theme.publish.cook#change-the-color-of-a-private-link]])
-- enhance(views): configure creation of notes on click of graph node with `createStubs` #3032 @joshi ([[docs|dendron://dendron.dendron-site/dendron.topic.graph-view#create-stub]])
-- enhance(workspace): detect duplicate note id on lifecycle events (#2991) @hikchoi
+- enhance(cli): updated dendron lookup command (#3043) @kevin ([[docs|dendron://dendron.dendron-site/dendron.topic.notes.cli.lookup]])
+- enhance(views): add tooltip on hover for graph nodes (#3060) @joshi ([[docs|dendron://dendron.dendron-site/dendron.topic.graph-view#features]])
+- enhance(edit): this sets handlebars as the default template format (#3070) @kevin
+- enhance(edit): configure templateHierarchy when applying template (#3069) @kevin ([[docs|dendron://dendron.dendron-site/dendron.topic.templates.config.templateHierarchy]])
+- enhance(retrieve): faster link completions (#3044)  @kevin
+- enhance(edit): remove deprecated `Insert Note` command (#3083) @kevin
+- enhance(workspace): prompt to update seed vault configuration during sync if the seed configuration changed (#3080) @kaan
+- enhance(workspace): v100 landing page (#3103) @jonathan
 
 ### Fixes
-- fix(workspace): fix duplicated panel titles (#3016) @jonathan
-- fix(edit): email addresses and hash symbols inside words are parsed as tags (#3064) @kaan
-- fix(views): gracefully handle tree view sort error to avoid crashing the tree view (#3053) @hikchoi
+- fix(workspace): migrate to self contained vault causes `EBUSY` errors on Windows (#3067) @kaan
+- fix(refactor): updated refactor hierarchy message to include no. of files changed (#3078) @joshi
+- fix(views): double click issue on help and feedback panel (#3089) @jonathan
