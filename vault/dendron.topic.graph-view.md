@@ -2,7 +2,7 @@
 id: 587e6d62-3c5b-49b0-aedc-02f62f0448e6
 title: Graph View
 desc: ""
-updated: 1654171947547
+updated: 1655466396631
 created: 1595120707814
 ---
 
@@ -12,7 +12,8 @@ The graph view lets you explore your workspace using a graph
 
 ## Features
 
-- Click on a node to open up the corresponding note/schema in your workspace
+- Click on a node to open up the corresponding note/schema in your workspace.
+- Hover over a node to see its full name
 - Filter graph view to show only desired data
 
 ## Types
