@@ -21,7 +21,7 @@ Dendron 0.100 has sprouted 🌱
 
 **BREAKING:** Handlebars are now set as the default template format. Users that were using <% %> syntax for template variables will no longer work. Please see the [[Migration|dendron://dendron.dendron-site/dendron.topic.templates.handlebars.migration]] guide to switch to handlebar based templates. 
 
-**BREAKING:** `Insert Note` command no longer exists. It is replaced by the `Apply Template` command to [[Create a template|dendron://dendron.dendron-site/dendron.topic.templates.handlebars#create-a-template]]. 
+**BREAKING:** The `Insert Note` command has now been removed. Use [[Apply Template|dendron://dendron.dendron-site/dendron.topic.templates.commands.apply-template]] command instead.
 
 ### Features
 - feat(views): recent workspaces panel (#3052) @jonathan ([[docs|dendron://dendron.dendron-site/dendron.topic.sidebar.recent-workspaces]])
