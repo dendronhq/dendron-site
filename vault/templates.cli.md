@@ -2,7 +2,7 @@
 id: 39menlcx30lpo1ci4px7aew
 title: CLI
 desc: ''
-updated: 1655414733603
+updated: 1655631320910
 created: 1654385553923
 templateId: "39menlcx30lpo1ci4px7aew"
 ---
@@ -20,17 +20,11 @@ Options:
     ...
 ```
 
-### Options
-<!-- Key value list for any non-obvious options, with sub lists as need for allowed values and definitions of them e.g.
-    - `--output`: controls how note is formatted
-        - values: `json|md_gfm|md_dendron`
-            - `json`: JSON output
-            - `md_dendron`: dendron markdown
-            - `md_gfm`: github flavored markdown 
--->
+### Commands
+<!-- Remove if not required: Use level 4 headers per command, describing the purpose of each command -->
 
-### Actions
-<!-- Use level 4 headers per action, describing the purpose of each action -->
+### Options
+<!-- Use level 4 headers per option, describing the purpose of each option, then any values and their meaning in a list if required-->
 
 ## Examples
 <!-- Bullet description of the example followed by the code, e.g. 
