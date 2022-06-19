@@ -2,7 +2,7 @@
 id: yQVhJtdQ40n3SLHJKAeeU
 title: Publish CLI
 desc: 'Commands for publishing your notes'
-updated: 1637886602285
+updated: 1655632041252
 created: 1631401993170
 ---
 
@@ -38,11 +38,7 @@ Options:
 
 See [[dendron.topic.publish]] for more information about publishing your notes.
 
-<!-- ### Options -->
-<!-- - `--target {target}`: export to specific destination
-    - syntax.target: 
-        - github: creates a `/docs` directory and export notes there. If a `docs` folder exists, will issue prompt before deleting contents -->
-### Actions
+### Commands
 
 #### init
 Initialize Next.js template and all dependencies
@@ -55,6 +51,13 @@ Builds notes and starts a local dev server. Behind the scenes, runs `dendron pub
 
 #### export
 Export notes as static HTML
+
+<!-- ### Options -->
+<!-- #### `--target {target}`
+Export to specific destination
+
+Values: 
+- github: creates a `/docs` directory and export notes there. If a `docs` folder exists, will issue prompt before deleting contents -->
 
 ## Examples
 

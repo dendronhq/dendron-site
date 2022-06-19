@@ -42,7 +42,7 @@ nav_order: 1.1
 
 ## Note Commands
 
-![[dendron.topic.note.lookup.cli]]
+![[dendron.topic.notes.cli]]
 
 ## Dev Commands
 

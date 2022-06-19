@@ -1,20 +1,19 @@
 ---
-id: xI97d5GKk7qU6EwstIAXe
-title: Note CLI
-desc: ''
-updated: 1655577664402
-created: 1635113127689
+id: wti0omzx9zzfsfg67vc1kj0
+title: CLI
+desc: Manipulate notes using the CLI
+updated: 1655658145629
+created: 1655311792352
 ---
 
-## Synopsis
+## Summary
 
-```bash
-dendron note <cmd>
-
+## Usage
+```sh
 note related commands
 
 Positionals:
-  cmd  a command to run        [string] [required] [choices: "lookup", "delete", "move"]
+  cmd  a command to run[string] [required] [choices: "lookup", "delete", "move"]
 
 Options:
   --version         Show version number                                [boolean]
@@ -29,45 +28,80 @@ Options:
                     server                                             [boolean]
   --query           the query to run                                    [string]
   --output          format to output in
-              [string] [choices: "json", "md_gfm", "md_dendron"] [default: "json"]
+            [string] [choices: "json", "md_gfm", "md_dendron"] [default: "json"]
   --destFname       name to change to (for move)                        [string]
   --destVaultName   vault to move to (for move)                         [string]
-
 ```
 
-## Commands
+### Commands
 
-### delete
+#### lookup
 
-Examples
+Find or create a note if one does not exist, outputting in a specified format.
 
-#### Deleting a note
-```bash
+#### delete
+
+Delete a note from a vault.
+
+#### move
+
+Move a note to another vault, or rename a note within a workspace.
+
+
+### Options
+#### `--query`
+Note to query for. Same syntax as [[dendron.topic.lookup]]
+
+#### `--output`
+Controls how note is formatted
+
+Values:
+- `json`: JSON output
+- `md_dendron`: dendron markdown
+- `md_gfm`: github flavored markdown 
+
+
+## Examples
+- Creating a note
+
+```sh
+# creates hello if it does not exist
+dendron note lookup --query "hello" 
+```
+
+- Querying a note
+
+```sh
+# retrieves hello.md if it does exist
+dendron note lookup --query "hello" 
+```
+
+- Querying a note with GitHub Flavored Markdown output
+
+```sh
+# retrieves hello.md if it does exist
+dendron note lookup --query "hello" --output md_gfm
+```
+
+- Deleting a note
+```sh
 dendron note delete --query "foo" 
 ```
 
-#### Deleting a note within a multi-vault workspace
-```bash
+- Deleting a note within a multi-vault workspace
+```sh
 dendron note delete --vault vault2 --query "foo" 
 ```
 
-
-### lookup
-![[dendron://dendron.dendron-site/dendron.topic.notes.cli.lookup#summary,1:#*]]
-
-### move
-
-Examples
-
-#### Moving a note
-```bash
+- Moving a note
+```sh
 # renames the note "foo" to "bar" within a single-vault workspace
 #   if there is no note in the vault already named "bar"
 dendron note move --query "foo" --destFname "bar"
 ```
 
-#### Moving a note in a multi-vault workspace
-```bash
+- Moving a note in a multi-vault workspace
+```sh
 # moves the note "foo" to vault2 and changes its name to "bar"
 #    if there is no note in vault2 already named "bar"
 dendron note move --vault vault --query "foo" --destFname "bar" --destVaultName vault2

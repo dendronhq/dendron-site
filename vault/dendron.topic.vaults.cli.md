@@ -2,7 +2,7 @@
 id: x9li78kk08yxpatyf68je4h
 title: Vaults CLI
 desc: 'Manage your vaults via the CLI'
-updated: 1655310549913
+updated: 1655631894840
 created: 1655310549913
 ---
 
@@ -38,10 +38,14 @@ Options:
                                            [string] [choices: "remote", "local"]
 ```
 
+### Commands
+#### create 
+Create a new vault within the workspace
+
+#### convert
+Convert a vault from remote to local, or local to remote
+
 <!-- ### Options -->
-
-<!-- ### Actions -->
-
 
 ## Examples
 - Create a new vault 
