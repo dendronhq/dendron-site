@@ -2,7 +2,7 @@
 id: nlzj5ygmtlk68q0vj2lin23
 title: Workspace CLI
 desc: 'Manage your workspace via the CLI'
-updated: 1655311542393
+updated: 1655631982068
 created: 1655311542393
 ---
 
@@ -35,7 +35,7 @@ Options:
                     server                                             [boolean]
 ```
 
-<!-- ### Options -->
+### Commands
 
 #### init
 
@@ -62,6 +62,8 @@ Run `addAndCommit`, `pull`, and `push` on all vaults inside the workspace. This 
 <!-- #### removeCache -->
 
 <!-- #### info  -->
+
+<!-- ### Options -->
 
 <!-- ## Examples -->
 
