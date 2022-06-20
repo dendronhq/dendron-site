@@ -2,13 +2,15 @@
 id: 14h74cnp9no9joxavmo7gr6
 title: 0.100
 desc: ''
-updated: 1655744379419
+updated: 1655749209042
 created: 1655737056633
 ---
 
 Dendron 0.100 has sprouted  🌱
 
-**v100:** We will be releasing version 100 of Dendron next week! This will mark 100 releases and over 600 features shipped! We'll be launching on Product Hunt on Tuesday June 21st, 12:01AM PST. If Dendron has been of use to you, please leave feedback on our [product hunt page](https://www.producthunt.com/posts/dendron-v100) at that time - this would help us out a lot! 🙏
+**v100:** Today marks 100 releases of Dendron! Two years ago, we launched Dendron because we believed there was a better way of managing knowledge. Over six hundred feature releases later, we think we're 5% of the way there in building such a system.
+
+To celebrate the v100 milestone, we're also launching on product hunt today! If Dendron has been of use to you, please leave feedback on our [product hunt page](https://www.producthunt.com/posts/dendron-v100) today (product hunt is heavily skewed for launch day feedback) - this would help us out a lot! 🙏
 
 **Recent Workspaces Panel:** Navigating through multiple workspaces has never been easier! This new panel will show you your last 5 opened Dendron workspaces and you can access them with just a click.
 - More information: [[Recent Workspaces|dendron://dendron.dendron-site/dendron.topic.sidebar.recent-workspaces]]
@@ -50,8 +52,6 @@ This week's entry in the [[Dendron Reading Series|dendron://dendron.dendron-site
 ### Event Reminders
 
 - **Greenhouse Talks:** Visit the [[Greenhouse Talks|dendron://dendron.dendron-site/community.events.greenhouse]] for notes from previous sessions.
-    - Subject: _Getting Things Done (GTD) and Other Task-Management Workflows (with Dendron!)_
-    - Description: _Interested speakers from the community will take 5 - 10 minutes each to present their workflows for managing actionable information, followed by an open discussion. The event will be recorded and later published online._
     - Next: [Fri, Jun 24, 04:00 PM PST / 00:00 UTC](https://link.dendron.so/luma)
     - [Greenhouse Talk Recordings - YouTube Playlist](https://link.dendron.so/greenhouse)
 - **Office Hours:** Visit the [[Office Hours page|dendron://dendron.dendron-site/community.events.office-hours]] for notes from previous sessions.

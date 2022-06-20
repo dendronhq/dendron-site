@@ -8,6 +8,7 @@ nav_order: 2
 ---
 
 ## 0.100.0
+
 ### Features
 - feat(views): recent workspaces panel (#3052) @jonathan ([[docs|dendron://dendron.dendron-site/dendron.topic.sidebar.recent-workspaces]])
 
@@ -18,14 +19,14 @@ nav_order: 2
 - enhance(edit): configute templateHierarchy when applying template #3069 @kevin ([[docs|dendron://dendron.dendron-site/dendron.topic.templates.config.templateHierarchy]])
 - enhance(retrieve): faster link completions #3044  @kevin #star
 - enhance(edit): remove deprecated `Insert Note` command #3083 @kevin
-- enhance(workspace): Prompt to update seed vault configuration during sync if the seed configuration changed (#3080) @kaan
+- enhance(workspace): prompt to update seed vault configuration during sync if the seed configuration changed (#3080) @kaan
 - enhance(workspace): v100 landing page (#3103) @jonathan
 - enhance(publish): Support a custom banner on published page (#3111) @kevin
 
 ### Fixes
-- fix(workspace): Migrate to Self Contained Vault causes EBUSY errors on Windows #3067 @kaan
+- fix(workspace): migrate to self contained vault causes `EBUSY` errors on Windows #3067 @kaan
 - fix(refactor): updated refactor hierarchy message to include no. of files changed #3078 @joshi
-- fix(views): double click issue on help and feedback panel (#3089) @jonathan
+- fix(views): issue with help and feedback panel launching a link once even if was clicked multiple times (#3089) @jonathan
 - fix(edit): autocomplete issues with tags and mentions (#3107) @kevin
 
 ## 0.99.0
