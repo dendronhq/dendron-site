@@ -1,8 +1,8 @@
 ---
 id: 4ushYTDoX0TYQ1FDtGQSg
 title: Publish
-desc: ''
-updated: 1652226843103
+desc: 'Dendron lets you export any subset of your notes as static HTML via a custom nextjs template'
+updated: 1655748793215
 created: 1635379320910
 config:
   global:
@@ -11,7 +11,7 @@ config:
 
 ## Summary
 
-Dendron lets you publish all your notes as static HTML which you can host anywhere.
+{{fm.desc}}.
 
 This site that you are looking at is published using Dendron. 
 
