@@ -2,7 +2,7 @@
 id: 24b176f1-685d-44e1-a1b0-1704b1a92ca0
 title: Multi Vault
 desc: ''
-updated: 1655317757328
+updated: 1655740525819
 created: 1605630383515
 ---
 
@@ -50,7 +50,7 @@ lookupConfirmVaultOnCreate: true
 
 This can be done with the `Move Note` command.
 
-![[dendron://dendron.dendron-site/dendron.topic.refactoring#move-note,1:#*]]
+![[dendron://dendron.dendron-site/dendron.topic.refactoring.commands.move-note#summary,1:#*]]
 
 ### Navigating Links
 

@@ -107,6 +107,6 @@ Markdown links can be used for local files and stuff on the internet (websites, 
 
 ### Convert Link
 
-![[dendron://dendron.dendron-site/dendron.topic.refactoring#convert-link,1:#*]]
+![[dendron://dendron.dendron-site/dendron.topic.refactoring.commands.convert-link#summary,1:#*]]
 
 
