@@ -1,16 +1,14 @@
 ---
 id: 98f6d928-3f61-49fb-9c9e-70c27d25f838
 title: Teams
-desc: ''
-updated: 1655136280364
+desc: 'Collaborate on knowledge with Dendron'
+updated: 1655748851855
 created: 1617062224981
 ---
 
 ## Summary
 
-This goes over some best practices when using Dendron for teams. 
-
-<!-- To get started, you can use this [[quickstart|dendron.topic.teams.quickstart]]. -->
+{{fm.desc}}
 
 ## Workspace
 
