@@ -2,7 +2,7 @@
 id: vyjmifzlvu4w85suec4vd6x
 title: Top Level Feature
 desc: ''
-updated: 1653955956352
+updated: 1655764567861
 created: 1653954523395
 ---
 
@@ -10,6 +10,7 @@ created: 1653954523395
 1. Create a new note under [[dendron.topic]]
 1. This will apply the [[Feature Template|dendron://dendron.dendron-site/templates.topic]]
 1. Fill out all areas to the best of your ability (note: all sections that don't have `required: false` should be filled out)
+1. See [[Topics|dendron://dendron.handbook/leaflet.journal.2022.05.10.standard-documentation.topics]] for more details about each section 
 
 ## Documenting topic children
 
