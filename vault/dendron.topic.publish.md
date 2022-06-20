@@ -2,7 +2,7 @@
 id: 4ushYTDoX0TYQ1FDtGQSg
 title: Publish
 desc: 'Dendron lets you export any subset of your notes as static HTML via a custom nextjs template'
-updated: 1655748793215
+updated: 1655749725337
 created: 1635379320910
 config:
   global:
@@ -13,9 +13,9 @@ config:
 
 {{fm.desc}}.
 
-This site that you are looking at is published using Dendron. 
 
-Checkout our [[GitHub Pages with GitHub Actions|dendron://dendron.dendron-site/dendron.topic.publish.cook.github-action]] for publishing to GitHub Pages to get started.
+![Publishing](https://ik.imagekit.io/fpjzhqpv1/Fullscreen_6_20_22__11_27_AM_s2U2_vT6u.png?ik-sdk-version=javascript-1.4.3&updatedAt=1655749690995)
+
 
 ## Features
 ![[dendron://dendron.dendron-site/dendron.topic.publish.features]]

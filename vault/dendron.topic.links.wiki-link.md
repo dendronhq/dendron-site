@@ -2,7 +2,7 @@
 id: 90mrtp10ucyyvt60qekuj4y
 title: Wiki Link
 desc: ''
-updated: 1655252104726
+updated: 1655758748037
 created: 1655250901385
 ---
 
@@ -12,14 +12,14 @@ Wiki links are surrounded by the two pairs of opening and closing brackes (eg. `
 ## Features
 
 ### Autocomplete
-Wiki links support **autocomplete**. To initiate:
-- create wikilink brackets and start typing
-- link to specific sections of notes using the `[[wiki link#header]]` syntax.
+
+![Wikilink Autocomplete](https://ik.imagekit.io/fpjzhqpv1/feature.autocomplete_kKSluZQRh.gif?ik-sdk-version=javascript-1.4.3&updatedAt=1655758517724)
+
+- type `[[` to trigger the autocomplete
+- link to specific sections of notes using the `[[wiki link#header]]` syntax
   - NOTE: relative links will not go to the anchor if clicked on the preview, in that case, it becomes a normal link to the file
   - NOTE2: doesn't work when exported through a pod
 - use the VS Code [intellisense shortcut](https://code.visualstudio.com/docs/editor/intellisense#_key-bindings) to trigger the autocomplete
-
-![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/links-autocomplete.gif)
 
 ### Highlights
 

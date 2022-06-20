@@ -2,7 +2,7 @@
 id: 3472226a-ff3c-432d-bf5d-10926f39f6c2
 title: Links
 desc: 'Dendron supports many ways of linking notes and files'
-updated: 1655748970201
+updated: 1655758531152
 created: 1595003088839
 ---
 
