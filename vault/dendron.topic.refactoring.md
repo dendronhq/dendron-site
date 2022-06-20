@@ -2,7 +2,7 @@
 id: srajljj10V2dl19nCSFiC
 title: Refactoring
 desc: ''
-updated: 1655132195560
+updated: 1655765667842
 created: 1638900089932
 ---
 
@@ -12,13 +12,13 @@ Features that help update the structure of Dendron.
 
 ## Use Cases
 
-- Renaming a note.
-- Renaming a linked note.
-- Moving a note.
-- Refactoring a hierarchy.
-- Moving a Markdown header.
-- Renaming a Markdown header.
-- Converting a link.
+- Renaming a note
+- Renaming a linked note
+- Moving a note
+- Refactoring a hierarchy
+- Moving a Markdown header
+- Renaming a Markdown header
+- Converting a link
 
 ## Getting Started
 
