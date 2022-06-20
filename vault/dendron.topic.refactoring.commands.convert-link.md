@@ -2,28 +2,19 @@
 id: u8qgpl5l7r4t001meo0n0qr
 title: 'Dendron: Convert Link'
 desc: Convert selected link to other types of links or plaintext.
-updated: 1655131992450
+updated: 1655739333889
 created: 1655131185651
-commandId: dendron.convertLink
-keybindings:
-  mac: none
-  windows: none
-  linux: none
 ---
 
 ## Summary
 {{fm.desc}}
 
-- Command Title: **{{fm.title}}**
-- Command ID: **{{fm.commandId}}**
-- keybindings:
-  - mac: **{{fm.keybindings.mac}}**
-  - windows: **{{fm.keybindings.windows}}**
-  - linux: **{{fm.keybindings.linux}}**
+## Keybindings
+none
 
 ## Details
 
-{{fm.title}} is a command that lets you select a link and convert it to various other types of links.
+**{{fm.title}}** is a command that lets you select a link and convert it to various other types of links.
 
 This command works on both broken and valid links, and provide different capabilities depending on the validity of the selected link.
 

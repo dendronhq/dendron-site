@@ -2,24 +2,15 @@
 id: hdnewljy94gvsnlwwwft6zq
 title: 'Dendron: Move Header'
 desc: Move the selected header to another note.
-updated: 1655130677907
+updated: 1655739303941
 created: 1655130405782
-commandId: dendron.moveHeader
-keybindings:
-  mac: none
-  windows: none
-  linux: none
 ---
 
 ## Summary
 {{fm.desc}}
 
-- Command Title: **{{fm.title}}**
-- Command ID: **{{fm.commandId}}**
-- keybindings:
-  - mac: **{{fm.keybindings.mac}}**
-  - windows: **{{fm.keybindings.windows}}**
-  - linux: **{{fm.keybindings.linux}}**
+## Keybindings
+none
 
 ## Details
 

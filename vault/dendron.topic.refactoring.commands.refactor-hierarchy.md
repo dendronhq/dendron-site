@@ -2,28 +2,19 @@
 id: 9zwkp44wnlaa8p8dpt4w8tq
 title: 'Dendron: Refactor Hierarchy'
 desc: Rename multiple notes using regular expressions.
-updated: 1655130388659
+updated: 1655739540902
 created: 1655129668280
-commandId: dendron.refactorHierarchy
-keybindings:
-  mac: none
-  windows: none
-  linux: none
 ---
 
 ## Summary
 {{fm.desc}}
 
-- Command Title: **{{fm.title}}**
-- Command ID: **{{fm.commandId}}**
-- keybindings:
-  - mac: **{{fm.keybindings.mac}}**
-  - windows: **{{fm.keybindings.windows}}**
-  - linux: **{{fm.keybindings.linux}}**
+## Keybindings
+none
 
 ## Details
 
-{{fm.title}} is a command that works like [[Dendron: Rename Note|dendron://dendron.dendron-site/dendron.topic.refactoring.commands.rename-note]], but on multiple notes. To specify which note should be renamed, you will be prompted for three inputs:
+**{{fm.title}}** is a command that works like [[Dendron: Rename Note|dendron://dendron.dendron-site/dendron.topic.refactoring.commands.rename-note]], but on multiple notes. To specify which note should be renamed, you will be prompted for three inputs:
 
 - Scope: The set of notes you want to apply the regular expression to.
 - Match text: Regular expression that matches text you want to capture for replacement.
@@ -32,7 +23,7 @@ keybindings:
 
 ### Scope
 
-{{fm.title}} will first prompt you to decide the scope of the operation. 
+**{{fm.title}}** will first prompt you to decide the scope of the operation. 
 
 - If you have a selection in your active editor that contains at least one wikilink, the command will prompt you if you want to use the notes in the selection as the scope of refactor.
 - If you do not wish to limit the scope with selection, don't select anything in your active note. The behavior will default to the entire workspace and you will not be asked to determine the scope of refactor.
@@ -82,6 +73,6 @@ Recall that part of our match text were capture groups. The first and second cap
 
 ### Refactor Preview
 
-After providing the three inputs after running {{fm.title}}, Dendron will open a preview that shows all files that will be affected if you confirm. You will be given an option in a dropdown to either proceed with the refactor or cancel the operation.
+After providing the three inputs after running **{{fm.title}}**, Dendron will open a preview that shows all files that will be affected if you confirm. You will be given an option in a dropdown to either proceed with the refactor or cancel the operation.
 
 - NOTE: Dendron will warn you if refactoring will overwrite existing files. You will need to either change your `replace text` or move the affected files before Dendron will perform a refactor. If the preview shows any overwrites, Dendron will not allow you to proceed.

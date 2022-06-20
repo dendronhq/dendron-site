@@ -2,13 +2,8 @@
 id: g0iqmyiyxje6ndjmecshb8b
 title: 'Dendron: Rename Note'
 desc: Rename a note and update all backlinks to that note.
-updated: 1655136188599
+updated: 1655739187896
 created: 1655109426539
-commandId: dendron.renameNote
-keybindings:
-  mac: none
-  windows: none
-  linux: none
 ---
 
 > Dendron will not allow you to rename a note to a note that already exists
@@ -18,18 +13,14 @@ keybindings:
 ## Summary
 {{fm.desc}}
 
-- Command Title: **{{fm.title}}**
-- Command ID: **{{fm.commandId}}**
-- keybindings:
-  - mac: **{{fm.keybindings.mac}}**
-  - windows: **{{fm.keybindings.windows}}**
-  - linux: **{{fm.keybindings.linux}}**
+## Keybindings
+none
 
 ## Details
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/command-rename.gif)
 
-{{fm.title}} is a command that lets you rename a note. When renaming, it will also update all references in other notes of that note.
+**{{fm.title}}** is a command that lets you rename a note. When renaming, it will also update all references in other notes of that note.
 
 ### Title generation
 If the title of the note is the default title that Dendron generated when the note was created, this command will also create a new title as if a new note was created with the renamed filename.
