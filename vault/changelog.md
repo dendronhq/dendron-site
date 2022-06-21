@@ -2,7 +2,7 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1655743579734
+updated: 1655818356415
 created: 1601508213606
 nav_order: 2
 ---
@@ -21,7 +21,6 @@ nav_order: 2
 - enhance(edit): remove deprecated `Insert Note` command #3083 @kevin
 - enhance(workspace): prompt to update seed vault configuration during sync if the seed configuration changed (#3080) @kaan
 - enhance(workspace): v100 landing page (#3103) @jonathan
-- enhance(publish): Support a custom banner on published page (#3111) @kevin
 
 ### Fixes
 - fix(workspace): migrate to self contained vault causes `EBUSY` errors on Windows #3067 @kaan

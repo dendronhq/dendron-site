@@ -27,7 +27,6 @@ To celebrate the v100 milestone, we're also launching on product hunt today! If 
 - enhance(edit): remove deprecated `Insert Note` command
 - enhance(workspace): prompt to update seed vault configuration during sync if the seed configuration changed
 - enhance(workspace): v100 landing page
-- enhance(publish): support a custom banner on published page
 - fix(workspace): migrate to self contained vault causes `EBUSY` errors on Windows
 - fix(refactor): updated refactor hierarchy message to include no. of files changed
 - fix(views): issue with help and feedback panel launching a link once even if was clicked multiple times
