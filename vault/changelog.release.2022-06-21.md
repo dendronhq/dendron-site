@@ -8,7 +8,7 @@ created: 1655737056633
 
 Dendron 0.100 has sprouted  🌱
 
-**v100:** Today marks 100 releases of Dendron! Two years ago, we launched Dendron because we believed there was a better way of managing knowledge. Over six hundred feature releases later, we think we're 5% of the way there in building such a system.
+**v100:** Today marks 100 releases of Dendron! Two years ago, we launched Dendron because we believed there was a better way of managing knowledge. Over six hundred feature releases later, we think we're 3% of the way there 😅!
 
 To celebrate the v100 milestone, we're also launching on product hunt today! If Dendron has been of use to you, please leave feedback on our [product hunt page](https://www.producthunt.com/posts/dendron-v100) today (product hunt is heavily skewed for launch day feedback) - this would help us out a lot! 🙏
 
