@@ -4,7 +4,7 @@ title: Commands
 desc: ""
 tags:
   - stage.seed
-updated: 1655740580959
+updated: 1655799464710
 created: 1595261816971
 nav_order: 3.1
 ---
@@ -742,7 +742,7 @@ any reason.
 
 #### New File
 
-Dendron recognises a new Markdown file created from VS Code context menu and populate it with the frontmatter.
+Dendron recognizes a new Markdown file created from VS Code context menu and populate it with the frontmatter.
 
 ### Header Operations
 
