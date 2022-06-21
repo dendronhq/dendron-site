@@ -2,9 +2,11 @@
 id: lb9wd7z62ch7b4slscp05i4
 title: Preview
 desc: ""
-updated: 1653621115339
+updated: 1655572047201
 created: 1652220053823
 ---
+
+## Summary
 
 Dendron's [[Preview|dendron.ref.commands#show-preview]] will automatically
 change it's appearance based on the current VSCode theme. You can also override

@@ -2,12 +2,13 @@
 id: ZljuAhFuNWEOUlFtPlC0h
 title: Feature Template
 desc: ''
-updated: 1654469692068
+updated: 1655764530232
 created: 1635992238170
 config:
   global:
     enableChildLinks: false
 ---
+
 {{!
 See [[Top Level Feature|dendron://dendron.dendron-site/dendron.contribute.documentation.tutorial.top-level-feature]] for instructions on filling out this template
 }}

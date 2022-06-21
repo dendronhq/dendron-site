@@ -2,7 +2,7 @@
 id: xI97d5GKk7qU6EwstIAXe
 title: Note CLI
 desc: ''
-updated: 1654438988066
+updated: 1655577664402
 created: 1635113127689
 ---
 
@@ -35,11 +35,7 @@ Options:
 
 ```
 
-## Methods
-
-### lookup
-
-![[dendron://dendron.dendron-site/dendron.topic.notes.cli.lookup]]
+## Commands
 
 ### delete
 
@@ -54,6 +50,10 @@ dendron note delete --query "foo"
 ```bash
 dendron note delete --vault vault2 --query "foo" 
 ```
+
+
+### lookup
+![[dendron://dendron.dendron-site/dendron.topic.notes.cli.lookup#summary,1:#*]]
 
 ### move
 

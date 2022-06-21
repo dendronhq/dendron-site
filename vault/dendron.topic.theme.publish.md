@@ -1,25 +1,23 @@
 ---
 id: jknrdi492m8nhq7mw4faydu
-title: Publish
-desc: ""
-updated: 1652930466833
+title: Customize Publish Theme
+desc: "You can choose between a built-in light/dark theme or create your own custom theme"
+updated: 1655577470822
 created: 1651827497940
 ---
 
 ## Summary
+- status: #stage.seed
 
-status: #stage.seed
+{{fm.desc}}
 
-You can customize the style of sites published with Dendron!
+## Features
 
-The built-in dark theme:
+### Dark Theme
 ![A dendron page, with a dark gray background and white text.](https://org-dendron-public-assets.s3.amazonaws.com/images/publishing-dark-theme-example.png)
 
-A customized light theme:
+### Custom Theme
 ![A dendron page, with a white background and black text, with blue accents.](https://org-dendron-public-assets.s3.amazonaws.com/images/publishing-custom-theme-example.png)
-
-
-You can pick between a light (default) or dark theme, or a completely custom one.
 
 ## Getting Started
 

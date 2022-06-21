@@ -2,7 +2,7 @@
 id: v23z6C51ZghcBheA9UAkT
 title: Templates
 desc: ''
-updated: 1646154788979
+updated: 1655505397387
 created: 1642037853376
 pods:
   airtable:
@@ -15,5 +15,4 @@ pods:
 ## Basics
 
 - Create template
-- Manually insert template (‘Insert Note’ command)
-- Auto-insert template using schemas
+- Manually insert template 
