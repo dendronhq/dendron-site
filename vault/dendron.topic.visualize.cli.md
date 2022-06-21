@@ -1,19 +1,10 @@
 ---
-id: ppom8vmsp8xbh0zbq726dkn
-title: Concepts
-desc: ""
-updated: 1655853165681
-created: 1655853156473
----
-
----
-
-id: chdawqol33tc986pwxdfst9
+id: ztfe0hyxje2z0x6qyv244ez
 title: CLI
-desc: ''
-updated: 1655852891826
-created: 1655341127405
-
+desc: ""
+updated: 1655853503693
+created: 1655853461335
+templateId: 39menlcx30lpo1ci4px7aew
 ---
 
 ## Synopsis
