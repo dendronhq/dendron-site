@@ -1,8 +1,8 @@
 ---
 id: CUEwuYsbutHeJJf6aKM3g
-title: Basics
+title: Basic horizontal with the simplest functionality from each scope
 desc: 'VS Code workspace, vaults, intellisense/autocomplete, Dendron settings'
-updated: 1651837499334
+updated: 1655980649961
 created: 1632764333519
 pods:
   airtable:

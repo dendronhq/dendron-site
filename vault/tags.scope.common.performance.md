@@ -1,8 +1,8 @@
 ---
 id: KedULjHfobkxqWmOU2dbR
 title: Performance
-desc: ''
-updated: 1655395116663
+desc: Making Dendron faster and more reliable
+updated: 1655895314413
 created: 1645635184418
 pods:
   airtable:

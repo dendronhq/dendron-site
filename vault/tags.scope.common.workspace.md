@@ -1,8 +1,8 @@
 ---
 id: oC1wonjSDL805WjRvzI6Y
 title: Workspace
-desc: ''
-updated: 1655395166308
+desc: Setting VSCode workspace and how it relates to Dendron
+updated: 1655895345871
 created: 1645245012242
 pods:
   airtable:
@@ -13,6 +13,7 @@ pods:
 ## Summary
 
 Functionality relating to the VSCode workspaces and their usage inside Dendron. 
+
 ## Examples
 
 - Vaults 

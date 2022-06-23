@@ -1,8 +1,8 @@
 ---
 id: 4VLd4Ir1HulZDFvZWv571
 title: Collab
-desc: ''
-updated: 1655394854310
+desc: To categorize work for teams and seeds
+updated: 1655895162631
 created: 1645076505517
 pods:
   airtable:
