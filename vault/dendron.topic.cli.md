@@ -2,7 +2,7 @@
 id: RjBkTbGuKCXJNuE4dyV6G
 title: CLI
 desc: ''
-updated: 1654537548641
+updated: 1656018298115
 created: 1636500007852
 ---
 
@@ -20,7 +20,6 @@ There are several approaches that can be taken to install Node.js to your deskto
 - [MacOS or Linux: Install Node.js via `nvm` (Node Version Manager)](https://github.com/nvm-sh/nvm)
 - [MacOS or Linux: Install Node.js via `nodenv` (instead of `nvm`)](https://github.com/nodenv/nodenv)
 - Microsoft docs: [Windows: Install Node.js via `nvm-windows`](https://docs.microsoft.com/en-us/windows/dev-environment/javascript/nodejs-on-windows)
-- Microsoft docs: [Ubuntu running in Windows Subsystem for Linux (WSL2): Install Node.js via `nvm`](https://docs.microsoft.com/en-us/windows/dev-environment/javascript/nodejs-on-wsl)
 
 ### Verify Node.js
 
