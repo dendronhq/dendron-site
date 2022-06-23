@@ -2,7 +2,7 @@
 id: W5bX7FK5WujZms84ZMcyU
 title: Pod CLI
 desc: 'CLI commands for interacting with pods'
-updated: 1636827226117
+updated: 1655632257031
 created: 1636827226117
 ---
 ## Summary
@@ -11,11 +11,9 @@ created: 1636827226117
 
 > NOTE: you can find pod ids in the [[pods|dendron.topic.pod]] page
 
-## Commands
-### Common Options
+## Usage
 
-- `--configPath`: path to a custom yml configuration for the pod
-
+### Commands
 ### Export Pod
 ![[dendron.topic.pod.export.cli]]
 
@@ -26,5 +24,10 @@ created: 1636827226117
 ### Publish Pod
 
 ![[dendron.topic.pod.publish.cli]]
+
+### Common Options
+#### `--configPath`
+Path to a custom yml configuration for the pod
+
 
 

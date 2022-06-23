@@ -2,7 +2,7 @@
 id: 8u22iemj3j2bhgukmyxx16y
 title: Import Pod CLI
 desc: 'Use pods to import your notes from another pod type'
-updated: 1655309563232
+updated: 1655631936122
 created: 1655309563232
 ---
 
@@ -35,9 +35,9 @@ Options:
   --podSource       podSource[choices: "custom", "builtin"] [default: "builtin"]
 ```
 
-<!-- ### Options -->
+<!-- ### Commands -->
 
-<!-- ### Actions -->
+<!-- ### Options -->
 
 
 ## Examples

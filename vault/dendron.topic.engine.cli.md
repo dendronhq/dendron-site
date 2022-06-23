@@ -2,7 +2,7 @@
 id: chghz9bvq2wvwuzhojehf2w
 title: Engine CLI
 desc: 'Launch an instance of dendron engine'
-updated: 1655278431695
+updated: 1655632194693
 created: 1655278431696
 ---
 
@@ -32,9 +32,9 @@ Options:
   --fast         launch engine without indexing                        [boolean]
 ```
 
-<!-- ### Options -->
+<!-- ### Commands -->
 
-<!-- ### Actions -->
+<!-- ### Options -->
 
 ## Examples
 

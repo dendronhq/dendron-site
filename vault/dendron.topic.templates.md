@@ -2,7 +2,7 @@
 id: 861cbdf8-102e-4633-9933-1f3d74df53d2
 title: Templates
 desc: "Templates are notes whose content can be copied to other notes"
-updated: 1655169688970
+updated: 1655748702356
 created: 1602033087611
 completion: sprout
 config:
@@ -12,7 +12,8 @@ config:
 
 ## Summary
 
-{{fm.desc}}
+{{fm.desc}}.
+
 Templates can either be applied into an open note with the [[Apply Template|dendron://dendron.dendron-site/dendron.topic.templates.commands.apply-template]], or automatically applied at note creation with [[dendron://dendron.dendron-site/dendron.topic.schema]]. 
 
 ## Use Cases
