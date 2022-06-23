@@ -1,8 +1,8 @@
 ---
 id: 1BrQQ4LHRLxo5ykQJT9KV
-title: Common Horizontal Scopes
-desc: ''
-updated: 1655980581659
+title: Common
+desc: Common Horizontal Scopes
+updated: 1655980753961
 created: 1645113185297
 pods:
   airtable:
