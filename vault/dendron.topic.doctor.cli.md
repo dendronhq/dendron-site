@@ -38,44 +38,24 @@ Options:
   --podId           podId used to export note(s) to Airtable            [string]
 ```
 
-<!-- ### Options -->
+<!-- ### Commands -->
 
+### Options
+#### `--action`
+What action should the doctor take to mend the notes.
 
-### Actions
-The below provide an overview of the purpose of action the doctor command can run.
-
-#### h1ToTitle
-![[dendron.topic.doctor#h1totitle,1:#*]]
-
-#### h1ToH2
-![[dendron.topic.doctor#h1ToH2,1:#*]]
-
-#### removeStubs
-![[dendron.topic.doctor#removeStubs,1:#*]]
-
-#### createMissingLinkedNotes
-![[dendron.topic.doctor#createMissingLinkedNotes,1:#*]]
-
-#### regenerateNoteId
-![[dendron.topic.doctor#regenerateNoteId,1:#*]]
-
-#### findBrokenLinks
-![[dendron.topic.doctor#findBrokenLinks,1:#*]]
-
-#### fixRemoteVaults
-![[dendron.topic.doctor#fixRemoteVaults,1:#*]]
-
-#### fixAirtableMetadata
-![[dendron.topic.doctor#fixAirtableMetadata,1:#*]]
-
-#### addMissingDefaultConfigs
-![[dendron.topic.doctor#addMissingDefaultConfigs,1:#*]]
-
-#### removeDeprecatedConfigs
-![[dendron.topic.doctor#removeDeprecatedConfigs,1:#*]]
-
-#### fixSelfContainedVaultsInConfig
-- Fixes issues in the `dendron.yml` when using/moving to a self-contained vault
+Values:
+- h1ToTitle: ![[dendron.topic.doctor#h1totitle,1:#*]]
+- h1ToH2: ![[dendron.topic.doctor#h1ToH2,1:#*]]
+- removeStubs: ![[dendron.topic.doctor#removeStubs,1:#*]]
+- createMissingLinkedNotes: ![[dendron.topic.doctor#createMissingLinkedNotes,1:#*]]
+- regenerateNoteId: ![[dendron.topic.doctor#regenerateNoteId,1:#*]]
+- findBrokenLinks: ![[dendron.topic.doctor#findBrokenLinks,1:#*]]
+- fixRemoteVaults: ![[dendron.topic.doctor#fixRemoteVaults,1:#*]]
+- fixAirtableMetadata: ![[dendron.topic.doctor#fixAirtableMetadata,1:#*]]
+- addMissingDefaultConfigs: ![[dendron.topic.doctor#addMissingDefaultConfigs,1:#*]]
+- removeDeprecatedConfigs: ![[dendron.topic.doctor#removeDeprecatedConfigs,1:#*]]
+- fixSelfContainedVaultsInConfig: Fixes issues in the `dendron.yml` when using/moving to a self-contained vault
 
 ## Examples
 

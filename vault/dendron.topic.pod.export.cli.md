@@ -2,7 +2,7 @@
 id: rmvbsf3t0fx130zlbqazwkm
 title: Export Pod CLI
 desc: 'Use pods to export your notes to another pod type'
-updated: 1655286838041
+updated: 1655631919604
 created: 1655286838041
 ---
 
@@ -39,9 +39,9 @@ Options:
   --podSource       podSource[choices: "custom", "builtin"] [default: "builtin"]
 ```
 
-<!-- ### Options -->
+<!-- ### Commands -->
 
-<!-- ### Actions -->
+<!-- ### Options -->
 
 ## Examples
 - export note to a JSONpod
