@@ -2,7 +2,7 @@
 id: hkirhn3t0z3x2wfsuujwd87
 title: Template Helpers
 desc: Built-in helper functions that can be used with handlebar templates
-updated: 1655943559015
+updated: 1655944478973
 created: 1654041750829
 ---
 
@@ -58,7 +58,7 @@ Given a day, return the day of the week. This is the same as [javascript getDay]
 ```hbs
 {{! given file: daily.journal.2022.05.31 }}
 {{! results in: [[writing.journal.2022.05.31]] }}
-[[writing.journal.{{ match FNAME "\\d{4}.\\d{2}.\\d{2}" }}]];
+[[writing.journal.{{ match FNAME "\d{4}.\d{2}.\d{2}" }}]];
 ```
 
 On error, will return `false` which means you can use it inside of `if` statements
