@@ -33,7 +33,7 @@ color:
 Tim ate a apple
 ```
 
-When a template is applied, it looks at all `{{ }}` blocks and tries to resolve them. If you do not want the tempalte to do this, you will need to escape your templates using the followng syntax
+When a template is applied, it looks at all `{{ }}` blocks and tries to resolve them. If you do not want the template to do this, you will need to escape your templates using the followng syntax
 
 ```md
 ---
