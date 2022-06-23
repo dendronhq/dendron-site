@@ -13,7 +13,7 @@ created: 1645170580284
 ## Description
 {{fm.desc}}
 
-`root` is a special value that you can use to publishing all hierarchies.
+`root` is a special value that you can use to publish all hierarchies.
 
 ## Example
 
