@@ -1,8 +1,8 @@
 ---
 id: 1BrQQ4LHRLxo5ykQJT9KV
 title: Common
-desc: ''
-updated: 1653375613117
+desc: Common Horizontal Scopes
+updated: 1655980753961
 created: 1645113185297
 pods:
   airtable:
@@ -16,3 +16,4 @@ pods:
 - #scope.common.views
 - #scope.common.performance
 - #scope.common.workspace
+- #scope.common.cli

@@ -1,8 +1,8 @@
 ---
 id: zcoTwnMKikNVEWhqQr7YY
 title: Retrieve
-desc: ''
-updated: 1651837441177
+desc: Any feature that helps a customer find what they're looking for
+updated: 1655894928103
 created: 1644724254507
 pods:
   airtable:
@@ -12,7 +12,7 @@ pods:
 
 ## Summary
 
-Area of Dendron related to retrieval of notes. Any feature that helps a customer find what they're looking for. 
+Area of Dendron related to retrieval of notes.  
 
 ## Examples
 - Note Lookups

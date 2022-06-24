@@ -2,7 +2,7 @@
 id: yxkn87ohgomk0tgs12dppur
 title: Backlinks
 desc: ''
-updated: 1653630796554
+updated: 1655252159138
 created: 1653410188509
 ---
 
@@ -11,10 +11,13 @@ This view lets you see all [[backlinks|dendron.topic.links#backlinks]] to the cu
 
 When you create a link anywhere in Dendron, it becomes a backlink to the destination note and will appear in the backlinks view of the destination note.
 
-![Backlinks Panel with Hover](https://org-dendron-public-assets.s3.amazonaws.com/images/vscode-hover-in-backlinks-panel.gif)
-> The Backlinks view (fully expanded) is shown above with an example note `dendron.ref.links` open. You can see 1 link and 1 link candidate shown in the panel.
 
 ## Features
+
+### Hovers
+
+![Backlinks Panel with Hover](https://org-dendron-public-assets.s3.amazonaws.com/images/vscode-hover-in-backlinks-panel.gif)
+> The Backlinks view (fully expanded) is shown above with an example note `dendron.ref.links` open. You can see 1 link and 1 link candidate shown in the panel.
 
 ### Explicit and Candidate Backlinks
 

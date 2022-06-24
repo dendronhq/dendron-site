@@ -2,7 +2,7 @@
 id: 9MZBqhrijEM4QpZRa5t08
 title: Linking Notes
 desc: Linking Notes
-updated: 1645804061198
+updated: 1655136360661
 created: 1625563999532
 nav_order: 2
 ---
@@ -49,7 +49,7 @@ You may wonder what happens to your links if you want to change the name of a no
 
 ### Rename Note
 
-The [[Rename Note|dendron://dendron.dendron-site/dendron.topic.refactoring#rename-note]] command is used to change the name of, and all links to, a single note.
+The [[Rename Note|dendron://dendron.dendron-site/dendron.topic.refactoring.commands.rename-note]] command is used to change the name of, and all links to, a single note.
 
 > 🌱 **ACTION:** Use the lookup to navigate to `[[recipes.italian.desserts.tiramisu]]`. Then:
 > - Run the command `Dendron: Rename Note` to change the title to `[[recipes.italian.desserts.gelato]]`.
@@ -57,18 +57,18 @@ The [[Rename Note|dendron://dendron.dendron-site/dendron.topic.refactoring#renam
 
 ### Rename Header
 
-The [[Rename Header|dendron://dendron.dendron-site/dendron.topic.refactoring#rename-header]] command is used to change the name of, and all links to, a single header.
+The [[Rename Header|dendron://dendron.dendron-site/dendron.topic.refactoring.commands.rename-header]] command is used to change the name of, and all links to, a single header.
 
 > 🌱 **ACTION:** Use the lookup to navigate to `[[recipes.italian.desserts.gelato]]`. Then:
 > - Place the cursor in `## Ingredients`, and run the command `Dendron: Rename Header`
 > - Rename the header to `## Best Ingredients`
 > - Use the lookup to navigate to `[[recipes.ingredients.shopping-list]]`. You should see the wikilink there has updated from `[[recipes.italian.desserts.gelato#ingredients]]` to `[[recipes.italian.desserts.gelato#best-ingredients]]`, ensuring links are updated!
 
-If you want to migrate a section beneath a certain header to a different note entirely, [[Move Header|dendron://dendron.dendron-site/dendron.topic.refactoring#move-header]] will do the job and ensure links are updated.
+If you want to migrate a section beneath a certain header to a different note entirely, [[Move Header|dendron://dendron.dendron-site/dendron.topic.refactoring.commands.move-header]] will do the job and ensure links are updated.
 
 ### Refactor Hierarchy
 
-The [[Refactor Hierarchy|dendron.topic.refactoring#refactor-hierarchy]] command is used to change the name of, and all links to, a collection of notes.
+The [[Refactor Hierarchy|dendron.topic.refactoring.commands.refactor-hierarchy]] command is used to change the name of, and all links to, a collection of notes.
 
 > 🌱 **ACTION:** This section will be all about creating and refactoring notes, in order to get an idea for how it all works.
 

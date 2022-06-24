@@ -2,7 +2,7 @@
 id: DC0XJBdzxmuuLPzuIfFvk
 title: Navigate
 desc: Relating to navigating between notes
-updated: 1647025505612
+updated: 1655394684543
 created: 1639016411150
 pods:
   airtable:
@@ -10,7 +10,9 @@ pods:
     task.scopes: recib9AmugNdeKQUf
 ---
 
-Relating to navigating between notes
+## Summary
+
+Relating to navigating between notes, wikilinks, graph, note links etc. 
 
 See [[Navigating|dendron://dendron.dendron-site/dendron.user-guide.navigating]]
 

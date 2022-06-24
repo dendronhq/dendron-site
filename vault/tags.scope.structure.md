@@ -1,14 +1,16 @@
 ---
 id: le8mukn4RuMfZ8SxD0doj
 title: Structure
-desc: ''
-updated: 1653383717947
+desc: Related to structuring and ordering notes
+updated: 1655894975141
 created: 1644724514813
 pods:
   airtable:
     dendron.scopes: recctrkafGKsa0IIt
     task.scopes: recmJAKtN4nZNl50l
 ---
+
+## Summary
 
 Related to keeping notes in a structured, ordered fashion. 
 

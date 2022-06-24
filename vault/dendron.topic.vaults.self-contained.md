@@ -2,9 +2,11 @@
 id: o4i7a81j778jyh7wql0nacb
 title: Self Contained Vaults
 desc: ""
-updated: 1651741716305
+updated: 1655571728037
 created: 1646953890139
 ---
+
+## Summary
 
 [Self contained vaults](https://docs.dendron.so/notes/aOOBYTowLEKJDEtLWFiHb/) is
 the new way Dendron is handling vaults. Self contained vaults make sharing,

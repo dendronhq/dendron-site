@@ -2,7 +2,7 @@
 id: oOIEFJc6DTgS71mmh89WQ
 title: API
 desc: ''
-updated: 1639157690633
+updated: 1655883676296
 created: 1638844803983
 ---
 
@@ -43,40 +43,30 @@ See [[Creation Properties|dendron://dendron.dendron-site/dendron.topic.traits.ap
 
 A string containing the modified title.
 
+### setTemplate
 
-## Example
+When implemented, a template will be applied to the note being created.
 
-This shows an example implementation of a note trait. Note, this is just the default template that is applied when you create a new note trait.
+#### Arguments
 
-```javascript
-module.exports = {
-  /**
-   * Specify behavior to modify the name of the note. If
-   * promptUserForModification is true, the modified name will appear in a
-   * lookup control to allow the user to further edit the note name before
-   * confirming.
-   */
-  OnWillCreate: {
-    setNameModifier(props) {
-      return {
-        name: [props.currentNoteName, props.selectedText, props.clipboard].join(','),
-        promptUserForModification: true
-      };
-    }
-  },
-  /**
-   * Specify behavior for altering the title of the note when it is created.
-   */
-  OnCreate: {
-    setTitle(props) {
-      return [props.currentNoteName, props.selectedText, props.clipboard].join(',');
-    }
-  }
-}
-```
+_None_
+
+#### What Needs to be Returned
+
+The name of the note to use as the template. This should be another note in your workspace. Examples: `root`, `templates.meeting-note`.
+
+![[Examples|dendron://dendron.dendron-site/dendron.topic.traits.examples]]
 
 ## Creation Properties
 
 - currentNoteName - for `setNameModifier()`, this contains the name of the Dendron note that is currently in focus in the editor. If no note is in focus, then this returns `undefined`.  For `setTitle()`, this contains the note name returned from `setNoteModifier()`.
 - selectedText - contains the text that has been highlighted in the current editor of a Dendron Note. If no text is highlighted, or if the highlighted text is not in a Dendron note, this returns `undefined`.
 - clipboard - contains any text currently on the clipboard, or `undefined` if there is no text.
+
+## Included Modules
+
+[Lodash](https://lodash.com/docs) and [Luxon](https://moment.github.io/luxon/api-docs/index.html) modules are accessible in the code you write for your traits. There is no need to include any import statements.
+
+## Examples
+
+For example Javascript implementations of Traits, see the [[examples|dendron://dendron.dendron-site/dendron.topic.traits.examples]] hierarchy.

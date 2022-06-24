@@ -2,7 +2,7 @@
 id: 3a82c5ff-7945-46ae-8bf9-3b2275fc6642
 title: Showcase
 desc: ''
-updated: 1645122323230
+updated: 1654657943210
 created: 1600010740851
 ---
 
@@ -13,7 +13,7 @@ Below are examples of published Dendron vaults.
 ### Dendron homepage
 
 - homepage: <https://dendron.so>
-  ![](/assets/images/2020-09-13-09-05-45.png)
+  ![Dendron Home page](https://ik.imagekit.io/fpjzhqpv1/Cursor_and_Dendron__r6Of2QIa.png?ik-sdk-version=javascript-1.4.3&updatedAt=1655401472072)
 
 ### Open PKM Catalogue
 
@@ -90,3 +90,10 @@ For more showcases being shared by the community, visit the `#showcase` channel 
 
 ![](https://user-images.githubusercontent.com/1008124/161607476-3a3cd1fe-a08b-468d-843d-da60926d028d.png)
 
+### Kevin Fischer's Digital Garden
+
+- homepage: <https://kfischer-okarin.github.io/digital-garden/>
+- discord: `kfischer_okarin#2663`
+- topics: technology, gamedev, faith
+
+![](https://raw.githubusercontent.com/kfischer-okarin/digital-garden/main/public/digital-garden-screenshot.png)

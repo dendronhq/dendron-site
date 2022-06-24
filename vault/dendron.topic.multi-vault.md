@@ -2,7 +2,7 @@
 id: 24b176f1-685d-44e1-a1b0-1704b1a92ca0
 title: Multi Vault
 desc: ''
-updated: 1640795133525
+updated: 1655740525819
 created: 1605630383515
 ---
 
@@ -50,17 +50,14 @@ lookupConfirmVaultOnCreate: true
 
 This can be done with the `Move Note` command.
 
-![[dendron://dendron.dendron-site/dendron.topic.refactoring#move-note,1:#*]]
+![[dendron://dendron.dendron-site/dendron.topic.refactoring.commands.move-note#summary,1:#*]]
 
 ### Navigating Links
 
-- Sample workspace
-
-![[dendron://dendron.dendron-site/dendron.roadmap.project.n.2020.multi-vault#file-layout-for-multi-vault-workspace,1:#*]]
-
-- navigating  to `[[foo]]` will result in a display prompting the user to select the vault to navigate to 
-- navigating to `[[foo.two]]` will directly navigate to the note since it is unique across all vaults
-- navigating to `[[dendron://vault2/foo]]` will open `foo` from vault2
+- Using plain links like `[[recipes.pasta]]`:
+    - If there is only one note with that name across all vaults, Dendron will open that note
+    - If there are notes in multiple notes with that name across different vaults, Dendron will ask which one you wanted to open
+- Using cross-vault links like `[[dendron://cooking/recipes.pasta]]`, it will always open `recipes.pasta` in the vault `cooking` even if there are notes with the same name in other vaults.
 
 ### Note References
 
@@ -74,15 +71,26 @@ We have added a new configuration, `duplicateNoteBehavior`, which [[controls|den
 
 ### Version Control
 
-For multi-vault, there are several approaches to version control. If you are using Git, you can either commit everything as one repo or version control your workspace and each vault separately as distinct repos.
+For multi-vault, there are several approaches to version control. If you are using Git, you can either commit everything as one repo or version control each vault separately as separate, distinct repos.
 
-If you use `Vault: Add` with a remote vault, Dendron will automatically add the remote properties to your `dendron.yml` file. See example below.
+#### Separate Repositories
+If you want to keep your vaults in separate repositories, then you'll want to use remote vaults. You can [[convert existing local vaults to remote vaults|dendron://dendron.dendron-site/dendron.topic.vaults#vault-convert]], or if you already have vaults in git repositories you can add them into your workspace as remote vaults.
 
-![[dendron://dendron.dendron-site/dendron.topic.vaults#remote-workspace-vault,1]]
+![[dendron://dendron.dendron-site/dendron.topic.vaults#remote,1:#*]]
 
-Versioned controlled vaults will be auto-initialized when someone pulls in the workspace. 
+#### Single Repository
 
-If you want to convert a local vault to a remote vault, you can follow the instructions [[here|dendron://dendron.dendron-site/dendron.guides.cook#convert-local-vault-to-a-remote-vault]].
+If you want to keep all your vaults in the same repository, pick `local` when
+using [[Vault Add|dendron://dendron.dendron-site/dendron.topic.vaults#vault-add]], and don't convert them to remote vaults.
+
+Instead, open the `.gitignore` file at the root of your workspace and remove any
+lines that that reference vaults, for example `dependencies/localhost/vaultName`
+should be removed. Then you should be able to add and commit these vaults into
+the same repository.
+
+> ⚠️ If you add multiple vaults into the same repository, you won't be able to
+> use that vault as a remote vault in another workspace. You'll need to set up
+> separate repositories if you need that.
 
 #### File Layout for Multi-Vault Workspace
 
@@ -92,20 +100,31 @@ If you want to convert a local vault to a remote vault, you can follow the instr
     ├── .git
     ├── dendron.code-workspace
     ├── dendron.yml
-    ├── ...
-    ├── vault1
-    │   ├── .git
+    ├── notes
     │   ├── root.md
     │   └── ...
-    └── vault2
-        ├── .git
-        ├── root.md
-        └── ...
+    └── dependencies
+        ├── github.com
+        │  └── dendronhq
+        │     └── dendron-site
+        │         ├── root.md
+        │         └── ...
+        └── gitlab.com
+           └── username
+              └── vault
+                  ├── root.md
+                  └── ...
 ```
 
 ## Examples
 
-- Sample Multi-Vault workspace
+Dendron uses a multi-vault setup with remote vaults to document the Dendron code.
+You can look at [our public repository](https://github.com/dendronhq/dendron/tree/master/docs)
+to see what our setup looks like. Because the vaults are remote, you won't see them in the folder itself: they get cloned automatically if you open the repository with Dendron.
+
+This setup allows us to access the documentation when coding, while also
+allowing us to access these vaults in other workspaces and publish them
+independently.
 
 ## Related
 

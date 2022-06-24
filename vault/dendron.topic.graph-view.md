@@ -12,7 +12,8 @@ The graph view lets you explore your workspace using a graph
 
 ## Features
 
-- Click on a node to open up the corresponding note/schema in your workspace
+- Click on a node to open up the corresponding note/schema in your workspace.
+- Hover over a node to see its full name
 - Filter graph view to show only desired data
 
 ## Types

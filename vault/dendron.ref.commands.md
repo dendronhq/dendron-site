@@ -2,10 +2,20 @@
 id: eea2b078-1acc-4071-a14e-18299fc28f47
 title: Commands
 desc: ""
-updated: 1654198265729
+tags:
+  - stage.seed
+updated: 1655799464710
 created: 1595261816971
 nav_order: 3.1
 ---
+
+> ⚠️ This page is currently under active refactoring.
+
+![[dendron://dendron.dendron-site/dendron.topic.refactoring.commands]]
+
+***
+
+<!-- cut-off point. All content below are going to eventually be refactored -->
 
 ## Doctor
 
@@ -104,16 +114,6 @@ You can also delete a note from the explorer:
 
 - Right Click on the note
 - `Dendron: Delete Node`
-
-### Insert Note
-
-> DEPRECATED: This feature is deprecated and will be removed in future versions of Dendron - please use [[Template Apply|dendron://dendron.dendron-site/dendron.topic.templates.commands.template-apply]] instead
-
-Insert the contents from a note into another note. You can configure a starting hierarchy for this command. Useful if you designated a hierarchy (eg. `templates`) for insertions.
-
-When inserting a note, all snippet [[variables|dendron.topic.snippets#variables]] will also be resolved.
-
-- configuration: [[defaultInsertHierarchy|dendron.ref.config#defaultinserthierarchy]]
 
 ### Insert Note Link
 
@@ -290,17 +290,9 @@ Running it in the note `recipe.eggs` will insert the following at cursor positio
 
 - configuration : [[insertNoteIndex|dendron.ref.config#insertnoteindex]]
 
-### Move Note
-
-![[dendron://dendron.dendron-site/dendron.topic.refactoring#move-note,1:#*]]
-
 ### Paste Link
 
 Transform URL in clipboard to nicely formatted Markdown link
-
-### Convert Link
-
-![[dendron://dendron.dendron-site/dendron.topic.refactoring#convert-link,1:#*]]
 
 ### Random Note
 
@@ -440,8 +432,6 @@ This command is a convenience command to open backup files saved under `{workspa
 
 ## Organizing
 
-- [[Refactoring Commands|dendron://dendron.dendron-site/dendron.topic.refactoring]]
-
 ---
 
 ## Hierarchies
@@ -451,19 +441,6 @@ This command is a convenience command to open backup files saved under `{workspa
 - shortcuts: none
 
 Reload the index. Necessary for Dendron to pick up on schema changes.
-
-### Archive Hierarchy
-
-- shortcuts: none
-
-Move current note and all children under the `archive` hierarchy
-
-This is a convenience method around `Refactor Hierarchy` for the case of archiving hierarchies you are no longer using. For example, if you were currently at `pro.foo`, running `Archive Hierarchy` would be equivalent to running `Refactor Hierarchy` with the following arguments:
-
-- matcher: `pro.foo`
-- replacement: `archive.pro.foo`
-
-<a href="https://www.loom.com/share/9698d5a4451b49d8b107f3ff67d97877"> <img style="" src="https://cdn.loom.com/sessions/thumbnails/9698d5a4451b49d8b107f3ff67d97877-with-play.gif"> </a>
 
 ---
 
@@ -621,9 +598,7 @@ Import notes from an external data source. Currently, only the local file system
 
 ### Import Obsidian Vault
 
-- shortcuts: none
-
-Import Markdown notes from an Obsidian vault. This is a simplified version of [[Import Pod|dendron://dendron.dendron-site/dendron.ref.commands#import-pod]] that can be used for a one-time import of your Obsidian notes into your Dendron workspace.
+![[dendron://dendron.dendron-site/dendron.topic.pod-v2.commands.import-obsidian-vault]]
 
 ### Export Pod
 
@@ -767,11 +742,7 @@ any reason.
 
 #### New File
 
-Dendron recognises a new Markdown file created from VS Code context menu and populate it with the frontmatter.
-
-#### Rename Note
-
-![[dendron://dendron.dendron-site/dendron.topic.refactoring#rename-note,1:#*]]
+Dendron recognizes a new Markdown file created from VS Code context menu and populate it with the frontmatter.
 
 ### Header Operations
 
@@ -780,10 +751,6 @@ These are Dendron-specific features made available as [Quick Fix operations in V
 A header action is announced by a lightbulb when the cursor is within a header. Clicking on the Code Action lightbulb or using the Quick Fix command `Ctrl+.` will display the following quick fixes.
 
 > 💡 **TIP:** If you prefer to not see the Code Action lightbulb in your editor, you can disable lightbulbs with the `editor.lightbulb.enable` [setting](https://code.visualstudio.com/docs/getstarted/settings). You can still open Quick Fixes through Quick Fix command and `Ctrl+.` keyboard shortcut.
-
-#### Rename Header
-
-![[dendron://dendron.dendron-site/dendron.topic.refactoring#rename-header,1:#*]]
 
 #### Copy Header Reference
 
