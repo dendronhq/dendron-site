@@ -2,7 +2,7 @@
 id: ZljuAhFuNWEOUlFtPlC0h
 title: Feature Template
 desc: ''
-updated: 1655764530232
+updated: 1655765961703
 created: 1635992238170
 config:
   global:
@@ -24,10 +24,10 @@ See [[Top Level Feature|dendron://dendron.dendron-site/dendron.contribute.docume
 
 ## Use Cases
 {{! 
-- eg: [[Use Cases|dendron://dendron.dendron-site/dendron.topic.templates#use-cases]]
-
-Bullet points with examples of how this feature could be used 
+See [[Use Cases|dendron://dendron.handbook/leaflet.journal.2022.05.10.standard-documentation.topics#use-cases]]
 }}
+
+### {usecase1}
 
 ## Features
 {{! 
@@ -36,6 +36,8 @@ Bullet points with examples of how this feature could be used
 
 If the feature has sub features, list them out here. 
 }}
+
+### {feature1}
 
 ### Limitations
 {{! 

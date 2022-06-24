@@ -2,7 +2,7 @@
 id: jjaarpk5z6qqptievefgak0
 title: Publish Pod CLI
 desc: 'Publish a note to a pod'
-updated: 1655310044440
+updated: 1655631859806
 created: 1655310044440
 ---
 
@@ -36,12 +36,12 @@ Options:
   --podSource       podSource[choices: "custom", "builtin"] [default: "builtin"]
 ```
 
+<!-- ### Commands -->
+
 ### Options
 
-- `--query`: name of note to publish
-
-<!-- ### Actions -->
-
+#### `--query`
+Name of note to publish
 
 ## Examples
 - Publish `dendron.md` note as Markdown

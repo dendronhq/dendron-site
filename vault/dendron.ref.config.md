@@ -25,7 +25,7 @@ All commands are grouped by [[scope|tags.scope]] except those mentioned undernea
 
 ## Validation and AutoComplete
 
-Dendron can provide validation when you edit the raw yaml using the[[Configure (yaml) Command|dendron.topic.commands#configure-yaml]]. In order to do so, you must have the `redhat.vscode-yaml` extension installed (this is a recommended extension for Dendron) The validator provides autocomplete, documentation & warnings when editing dendron.yml. Here's a few examples of what it looks like:
+Dendron can provide validation when you edit the raw yaml using the [[Configure (yaml) Command|dendron.topic.commands#configure-yaml]]. In order to do so, you must have the `redhat.vscode-yaml` extension installed (this is a recommended extension for Dendron) The validator provides autocomplete, documentation & warnings when editing dendron.yml. Here's a few examples of what it looks like:
 
 Hover over values to see documentation
 

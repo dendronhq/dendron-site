@@ -2,7 +2,7 @@
 id: 1MV8179GbxnfK3q76P19e
 title: Product Scopes
 desc: ''
-updated: 1655395173543
+updated: 1655980682377
 created: 1645153440338
 ---
 
@@ -85,3 +85,7 @@ Horizontal scopes are tracked under #scope.common and #scope.basics
 ### Workspace
 - #scope.common.workspace
 ![[dendron://dendron.dendron-site/tags.scope.common.workspace#summary,1:#*]]
+
+### CLI
+- #scope.common.cli
+![[dendron://dendron.dendron-site/tags.scope.common.cli#summary,1:#*]]

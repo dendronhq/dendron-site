@@ -2,7 +2,7 @@
 id: 587e6d62-3c5b-49b0-aedc-02f62f0448e6
 title: Graph View
 desc: ""
-updated: 1655466396631
+updated: 1656047836681
 created: 1595120707814
 ---
 
@@ -90,6 +90,7 @@ Here's a quick example:
 #### Other Filters
 
 - **Show Stubs**: When checked, show stub notes in the graph
+- **Depth**: In a __local graph__ view, the depth filter allows you to see the second or third degree of nodes from the active note. See video [here](https://www.loom.com/share/4a9cc500487c4dccbb6a0f0fdbea486b).
 
 ### Options
 

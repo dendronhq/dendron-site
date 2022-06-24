@@ -2,7 +2,7 @@
 id: 3i4ABJutl7NGeXRHTnUEC
 title: Workspace
 desc: ''
-updated: 1638518870049
+updated: 1655718960854
 created: 1634646633536
 ---
 
@@ -97,7 +97,7 @@ Use [luxon style formatting](https://moment.github.io/luxon/#/formatting)
 ### addBehavior
 
 Sets the strategy for adding new journal notes.
-This only applies to regular journal notes but not to [[Details|dendron.topic.daily-journal-note#details]] notes.
+This only applies to regular journal notes but not to [[Daily Journal Notes|dendron.topic.daily-journal-note#details]]. For possible options, see [[addBehavior options|dendron://dendron.dendron-site/dendron.topic.special-notes#defaultnodetypeaddbehavior]]
 
 - default: "childOfDomain"
 
@@ -120,7 +120,7 @@ Use [luxon style formatting](https://moment.github.io/luxon/#/formatting)
 
 ### addBehavior
 
-Sets the strategy for adding new scratch notes.
+Sets the strategy for adding new scratch notes. For possible options, see [[addBehavior options|dendron://dendron.dendron-site/dendron.topic.special-notes#defaultnodetypeaddbehavior]]
 
 - default: "asOwnDomain"
 
