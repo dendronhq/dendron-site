@@ -2,7 +2,7 @@
 id: 3abd00eb-1c1e-4253-aaf5-dcbe20c21850
 title: Early Seed
 desc: ''
-updated: 1656077960647
+updated: 1656080391979
 created: 1604539200840
 published: true
 nav_exclude: true
@@ -15,10 +15,10 @@ June 24, 2022
 
 Dendron 0.101 has sprouted 🌱
 
-**Depth Filter for Local Graph**: Interested in navigating beyond an active note's immediate parent, child or links in the local graph panel? With new depth filters, you can customize the graph view experience to also see an active note's grandchildren and grandparents. 
+**Depth Filter for Local Graphs:** Want to see the bigger picture? The graph depth filter now lets you control how much context you see in the [[Local Graph View|dendron://dendron.dendron-site/dendron.topic.sidebar.local-graph-view]]
 - More Information: [[Other Filters|dendron://dendron.dendron-site/dendron.topic.graph-view#other-filters]]
 
-**Improved Note Traits**: We've made some improvements to note traits to make them easier to use. If you've ever wanted to further customize the way Journal and Scratch Notes work or if you've wanted to add your own types, now's your chance!
+**Improved Note Traits:** Rust isn't the only language with traits! We've made a bunch of improvements to traits, including hot reloading, the ability to apply a template, bundling libraries like lodash and luxon, as well as better docs and error handling. 
 - More Information: [[Traits|dendron://dendron.dendron-site/dendron.topic.traits]]
 
 ### Features
