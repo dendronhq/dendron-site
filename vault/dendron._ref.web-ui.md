@@ -2,7 +2,7 @@
 id: 25287595-96bb-410b-ab46-eb9a26b0e259
 title: Web UI
 desc: ''
-updated: 1639200460320
+updated: 1656048022118
 created: 1621552722494
 ---
 
@@ -76,6 +76,10 @@ Set start of week (eg. `0` for sunday, `1` for monday, `2` for tuesday, etc.)  f
 Dendron Graph Panel lets you visualize the relationships between active note in the editor and its immediate neighbors.
 
 ![[dendron://dendron.dendron-site/asset.preview#graph-panel,1:#*]]
+
+#### Graph Depth
+
+The depth filter allows you to see the second or third degree of nodes from the active note. See video [here](https://www.loom.com/share/e3a7b026e88b4fb4ae728658d3faf13b)
 
 ### Preview
 
