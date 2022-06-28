@@ -2,7 +2,7 @@
 id: ba97866b-889f-4ac6-86e7-bb2d97f6e376
 title: Markdown
 desc: ''
-updated: 1649730163972
+updated: 1656262783539
 created: 1598673110284
 ---
 - Notice: all references of `MPE` in this guide is in reference to `Dendron Markdown Preview Enhanced`, the default Markdown renderer of Dendron
@@ -334,6 +334,8 @@ This is how it looks
 </details>
 
 _Note: To properly render the inner content, make sure there is a blank line below the summary tag with no white-spaces._
+
+- TIP: we don't officially support images when folding. there's a workaround to make it work by adding extra spaces as mentioned [here](https://github.com/dendronhq/dendron/issues/2814)
 
 ## VS Code Specific Commands
 
