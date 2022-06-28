@@ -2,13 +2,15 @@
 id: 4kaa0j0a3t02zjvgtd476nd
 title: 0.101
 desc: ''
-updated: 1656430568168
+updated: 1656431600975
 created: 1656411101601
 ---
 
 Dendron 0.101 has sprouted  🌱
 
 June 28, 2022
+
+**We are #5 on Product Hunt:** Thank you to all our users who voted for us and commented about their experience with Dendron on our [Product Hunt Page](https://www.producthunt.com/posts/dendron-v100)! Couldn't have done it without y'all!
 
 **Depth Filter for Local Graphs:** Want to see the bigger picture? The graph depth filter now lets you control how much context you see in the [[Local Graph View|dendron://dendron.dendron-site/dendron.topic.sidebar.local-graph-view]]
 - More Information: 
@@ -51,6 +53,8 @@ June 28, 2022
 ### Dendron Reading Series
 
 This week's entry in the [[Dendron Reading Series|dendron://dendron.dendron-site/community.events.reading-series]]
+
+[[My awakening moment about how smartphones fragment our attention span|dendron://dendron.dendron-site/community.events.reading-series.2022.06.28]]
 
 ### Event Reminders
 
