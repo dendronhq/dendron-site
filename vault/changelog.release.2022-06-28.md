@@ -2,7 +2,7 @@
 id: 4kaa0j0a3t02zjvgtd476nd
 title: 0.101
 desc: ''
-updated: 1656431600975
+updated: 1656431758189
 created: 1656411101601
 ---
 
@@ -36,7 +36,7 @@ June 28, 2022
 - enhance(sync): adding import hint to tutorial (#3135) @jonathan
 - fix(workspace): try to patch `EPERM` issues for windows (#3082) @kaan
 - fix(workspace): adding an existing remote vault avoids creating workspace files (#3096) @kaan
-- fix(publish): issue publishing note with ref without a code-worksapce file #3114  @kevin
+- fix(publish): issue publishing note with ref without a code-worksapce file (#3114)  @kevin
 - fix(cli): dendron publish --help to display full list of arguments (#3127) @joshi
 - fix(workspace): error when native workspaces are initializing (#3123) @kaan
 - fix(publish): compile error with no banner present(#3133) @kevin
