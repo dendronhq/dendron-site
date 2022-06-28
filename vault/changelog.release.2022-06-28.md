@@ -2,7 +2,7 @@
 id: 4kaa0j0a3t02zjvgtd476nd
 title: 0.101
 desc: ''
-updated: 1656423867502
+updated: 1656424655559
 created: 1656411101601
 ---
 
@@ -13,7 +13,9 @@ June 28, 2022
 **Highlight type:** Description here.
 
 **Depth Filter for Local Graphs:** Want to see the bigger picture? The graph depth filter now lets you control how much context you see in the [[Local Graph View|dendron://dendron.dendron-site/dendron.topic.sidebar.local-graph-view]]
-- More Information: [[Other Filters|dendron://dendron.dendron-site/dendron.topic.graph-view#other-filters]]
+- More Information: 
+    - [[Other Filters|dendron://dendron.dendron-site/dendron.topic.graph-view#other-filters]]
+    - [[Graph Depth|dendron://dendron.dendron-site/dendron._ref.web-ui#graph-depth]]
 
 **Improved Note Traits:** Rust isn't the only language with traits! We've made a bunch of improvements to traits, including hot reloading, the ability to apply a template, bundling libraries like lodash and luxon, as well as better docs and error handling. 
 - More Information: [[Traits|dendron://dendron.dendron-site/dendron.topic.traits]]
