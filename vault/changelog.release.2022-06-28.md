@@ -2,15 +2,13 @@
 id: 4kaa0j0a3t02zjvgtd476nd
 title: 0.101
 desc: ''
-updated: 1656424655559
+updated: 1656430568168
 created: 1656411101601
 ---
 
 Dendron 0.101 has sprouted  🌱
 
 June 28, 2022
-
-**Highlight type:** Description here.
 
 **Depth Filter for Local Graphs:** Want to see the bigger picture? The graph depth filter now lets you control how much context you see in the [[Local Graph View|dendron://dendron.dendron-site/dendron.topic.sidebar.local-graph-view]]
 - More Information: 
@@ -44,14 +42,6 @@ June 28, 2022
 
 ## Community
 
-### General Updates
-
-#### Greenhouse Series
-
-![[community.events.greenhouse#summary,1:#*]]
-
-Are you interested in speaking at our next greenhouse? If so, fill out the [Greenhouse Proposal Form](https://airtable.com/shrHMMl1NwefpM689?prefill_SurveyName=GreenhouseProposal&hide_SurveyName=true) to apply for a slot!
-
 ### TIL Highlights
 
 > These are highlights from the [[Dendron Discord|dendron://dendron.dendron-site/community.discord.channels]] `#today-i-learned` channel.
@@ -60,7 +50,7 @@ Are you interested in speaking at our next greenhouse? If so, fill out the [Gree
 
 ### Dendron Reading Series
 
-This week's entry in the [[Dendron Reading Series|dendron://dendron.dendron-site/community.events.reading-series]].
+This week's entry in the [[Dendron Reading Series|dendron://dendron.dendron-site/community.events.reading-series]]
 
 ### Event Reminders
 
@@ -80,5 +70,30 @@ This week's entry in the [[Dendron Reading Series|dendron://dendron.dendron-site
 A big **thanks** to the following gardeners that brought up issues, contributions, and fixes to this release :man_farmer: :woman_farmer: 
 Visit [[Discord Roles|dendron://dendron.dendron-site/community.discord.roles]] for more information.
 
+- [Arne Vanheesbeke](https://github.com/avhb) `@avhb#0567`
+    - [improve phrasing of sync message](https://github.com/dendronhq/dendron/pull/3115)
+    - #role.horticulturalist
+
+- [Derek Ardolf](https://github.com/ScriptAutomate) `@icanteven#0264`
+    - [Self Contained Vaults throw initialization errors with latest Dendron version, but still function](https://github.com/dendronhq/dendron/issues/3122)
+
+- [Ryan Hill](https://github.com/rlh1994) `@rlh1994#9754`
+    - [Align cli to template](https://github.com/dendronhq/dendron-site/pull/551)
+    - [Need to reload VScode to have new backlinks show in preview](https://github.com/dendronhq/dendron/issues/3143)
+
+- [Aaron Meese](https://github.com/ajmeese7) `@ajmeese7#4835`
+    - [Update dendron.topic.publish.config.siteHierarchies.md](https://github.com/dendronhq/dendron-site/pull/552)
+    - [Added a space between words](https://github.com/dendronhq/dendron-site/pull/554/)
+  
+- [cquick01](https://github.com/cquick01)
+    - [Nested unordered bullets aren't rendering properly in preview](https://github.com/dendronhq/dendron/issues/3139)
+    - #role.bugcatcher
+  
+- [Funnym0nk3y](https://github.com/funnym0nk3y) `@funnym0nk3y#2324`
+    - [Autosuggestion of notes fails](https://github.com/dendronhq/dendron/issues/3144)
+
+- [Adam Gluck](https://github.com/aglucky) `@glucinater21#0869`
+    - [Root backlink not working](https://github.com/dendronhq/dendron/issues/3156)
+    
 ## Changelog
-![[changelog#01000,1:#01010]]
+![[changelog#01010,1:#01000]]
