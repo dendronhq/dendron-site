@@ -2,7 +2,7 @@
 id: 4kaa0j0a3t02zjvgtd476nd
 title: 0.101
 desc: ''
-updated: 1656423652542
+updated: 1656423867502
 created: 1656411101601
 ---
 
@@ -30,7 +30,7 @@ June 28, 2022
 - enhance(edit): add match helper for hb templates (#3094) @kevin  ([[docs|dendron://dendron.dendron-site/dendron.topic.templates.template-helpers#match]])
 - enhance(workspace): improve phrasing of sync message (#3115) @avhb
 - enhance(workspace): support single-vault workspace vaults for self contained vault migration (#3118) @kaan
-- enhance(edit): debounce completion provider trigger to reduce lag when autocompleting wikilinks (#3116) @hikchoi
+- enhance(edit): reduce lag on autocomplete by adding a debounce (#3116) @hikchoi
 - enhance(sync): adding import hint to tutorial (#3135) @jonathan
 - fix(workspace): try to patch `EPERM` issues for windows (#3082) @kaan
 - fix(workspace): adding an existing remote vault avoids creating workspace files (#3096) @kaan
