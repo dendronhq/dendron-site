@@ -2,7 +2,7 @@
 id: 4kaa0j0a3t02zjvgtd476nd
 title: 0.101
 desc: ''
-updated: 1656431912108
+updated: 1656431968948
 created: 1656411101601
 ---
 
@@ -39,8 +39,8 @@ Last week, we launched on [product hunt](https://www.producthunt.com/posts/dendr
 - fix(publish): issue publishing note with ref without a code-worksapce file (#3114)  @kevin
 - fix(cli): dendron publish --help to display full list of arguments (#3127) @joshi
 - fix(workspace): error when native workspaces are initializing (#3123) @kaan
-- fix(publish): compile error with no banner present(#3133) @kevin
-- fix(structure): hot reload in note traits + no template by default #3154 @jonathan
+- fix(publish): compile error with no banner present (#3133) @kevin
+- fix(structure): hot reload in note traits + no template by default (#3154) @jonathan
 
 ## Community
 
