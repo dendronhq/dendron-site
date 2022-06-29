@@ -2,7 +2,7 @@
 id: 401c5889-20ae-4b3a-8468-269def4b4865
 title: Cookbook
 desc: ""
-updated: 1641749912779
+updated: 1656515719615
 created: 1595952505024
 nav_order: 6.1
 toc: true
@@ -205,10 +205,6 @@ We are working on being able to run Dendron without the need for a workspace. Yo
 ### Updating a workspace
 
 ## Other
-
-### How can I paste HTML content as Markdown?
-
-If you use VS Code, you can use the [Markdown Kit](https://marketplace.visualstudio.com/items?itemName=svsool.markdown-kit) extension. Unfortunately this is not available in VSCodium at this time.
 
 ### Syncing Dendron between devices
 

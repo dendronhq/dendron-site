@@ -8,7 +8,7 @@ desc: >-
   each present Dendron workflows.  Mihai briefly explains the CCC approach to
   managing actitonable information, and Kevin demonstrates how to apply
   Dendron's local config override functionality.
-updated: 1654608682383
+updated: 1656515576339
 created: 1654607718645
 ---
 
@@ -61,10 +61,10 @@ Notes for Kevin's talk are included below:
   - add a dendronrc.yml when publishing that has your private vault
   - use the dendron-cli to initialize and pull down missing workspaces
   - publish
-- example: [kevin's repo](https://github.com/kevinslin/kevin-pu...)
-  - example page: (https://kevinslin.com/notes/6hen2t6hm...) with private content
+- example: [kevin's repo](https://github.com/kevinslin/kevin-public-garden)
+  - example page: (https://kevinslin.com/notes/6hen2t6hm3c0cneyrj99hno) with private content
   - in this case, I'm using AWS Amplify as the publishing frontend and github as the publishing backend (depending on your choice for frontend/backend, instructions will differ)
-  - [amplify file](https://github.com/kevinslin/kevin-pu...)
+  - [amplify file](https://github.com/kevinslin/kevin-public-garden/blob/main/amplify.yml)
 ```yml
 version: 1
 frontend:
