@@ -2,7 +2,7 @@
 id: 4kaa0j0a3t02zjvgtd476nd
 title: 0.101
 desc: ''
-updated: 1656432058551
+updated: 1656501483390
 created: 1656411101601
 ---
 
@@ -21,26 +21,26 @@ Last week, we launched on [product hunt](https://www.producthunt.com/posts/dendr
 - More Information: [[Traits|dendron://dendron.dendron-site/dendron.topic.traits]]
 
 ## Highlights
-- feat(views): view more note links in local graph panel with depth customization (#3072) @joshi ([[docs|dendron://dendron.dendron-site/dendron.topic.graph-view#other-filters]])
+- feat(views): view more note links in local graph panel with depth customization
 
-- enhance(structure): improved note traits (#3098) @jonathan ([[docs|dendron://dendron.dendron-site/dendron.topic.traits]])
+- enhance(structure): improved note traits
 
 ## Everything Else
-- enhance(workspace): `Vault Add` command warns for unsupported transitive dependencies (#3087) @kaan [docs](https://wiki.dendron.so/notes/q9yo0y7czv8mxlkbnw1ugj1/)
-- enhance(workspace): vaults always use UNIX style separators in config files (#3096) @kaan
-- enhance(workspace): validate dendronrc.yml and emit error if invalid (#3106) @kevin
-- enhance(edit): add match helper for hb templates (#3094) @kevin  ([[docs|dendron://dendron.dendron-site/dendron.topic.templates.template-helpers#match]])
-- enhance(workspace): improve phrasing of sync message (#3115) @avhb
-- enhance(workspace): support single-vault workspace vaults for self contained vault migration (#3118) @kaan
-- enhance(edit): reduce lag on autocomplete by adding a debounce (#3116) @hikchoi
-- enhance(sync): adding import hint to tutorial (#3135) @jonathan
-- fix(workspace): try to patch `EPERM` issues for windows (#3082) @kaan
-- fix(workspace): adding an existing remote vault avoids creating workspace files (#3096) @kaan
-- fix(publish): issue publishing note with ref without a code-worksapce file (#3114)  @kevin
-- fix(cli): dendron publish --help to display full list of arguments (#3127) @joshi
-- fix(workspace): error when native workspaces are initializing (#3123) @kaan
-- fix(publish): compile error with no banner present (#3133) @kevin
-- fix(structure): hot reload in note traits + no template by default (#3154) @jonathan
+- enhance(workspace): `Vault Add` command warns for unsupported transitive dependencies
+- enhance(workspace): vaults always use UNIX style separators in config files
+- enhance(workspace): validate dendronrc.yml and emit error if invalid
+- enhance(edit): add match helper for hb templates
+- enhance(workspace): improve phrasing of sync message
+- enhance(workspace): support single-vault workspace vaults for self contained vault migration 
+- enhance(edit): reduce lag on autocomplete by adding a debounce
+- enhance(sync): adding import hint to tutorial
+- fix(workspace): try to patch `EPERM` issues for windows
+- fix(workspace): adding an existing remote vault avoids creating workspace files 
+- fix(publish): issue publishing note with ref without a code-worksapce file
+- fix(cli): dendron publish --help to display full list of arguments 
+- fix(workspace): error when native workspaces are initializing
+- fix(publish): compile error with no banner present
+- fix(structure): hot reload in note traits + no template by default
 
 ## Community
 
