@@ -1,8 +1,8 @@
 ---
 id: qw0iw9ymf725eoqnptzafd2
-title: Examples
+title: Trait Examples
 desc: ''
-updated: 1655883851061
+updated: 1656468391128
 created: 1655717385086
 ---
 
