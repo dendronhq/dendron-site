@@ -1,8 +1,8 @@
 ---
 id: PqtlCsRPWBjKp3RR
-title: Greenhouse Talks
-desc: ''
-updated: 1647541649102
+title: Dendron Greenhouse
+desc: 'A tool thing on all things knowledge management'
+updated: 1656466998128
 created: 1626809567579
 has_collection: true
 sort_by: date
