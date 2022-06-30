@@ -3,8 +3,8 @@ id: eea2b078-1acc-4071-a14e-18299fc28f47
 title: Commands
 desc: ""
 tags:
-  - stage.seed
-updated: 1655799464710
+    - stage.seed
+updated: 1656618219394
 created: 1595261816971
 nav_order: 3.1
 ---
@@ -13,7 +13,7 @@ nav_order: 3.1
 
 ![[dendron://dendron.dendron-site/dendron.topic.refactoring.commands]]
 
-***
+---
 
 <!-- cut-off point. All content below are going to eventually be refactored -->
 
@@ -25,16 +25,16 @@ nav_order: 3.1
 
 ### Browse Note
 
-- shortcuts: None
+-   shortcuts: None
 
 Open the GitHub repository (if it exists) of the current note. If you have a [[multi vault|dendron.topic.multi-vault]] workspace with different git repositories, this command will
 
 ### Create Daily Journal Note
 
-- shortcuts:
-  - key: `ctrl+shift+i`
-  - mac: `cmd+shift+i`
-  - when: `editorFocus`
+-   shortcuts:
+    -   key: `ctrl+shift+i`
+    -   mac: `cmd+shift+i`
+    -   when: `editorFocus`
 
 Create a global journal note
 
@@ -42,10 +42,10 @@ Create a global journal note
 
 ### Copy Note Link
 
-- shortcuts:
-  - key: `ctrl+shift+c`
-  - mac: `cmd+shift+c`
-  - when: `editorFocus`
+-   shortcuts:
+    -   key: `ctrl+shift+c`
+    -   mac: `cmd+shift+c`
+    -   when: `editorFocus`
 
 Copy wiki link to note. The title of the note will be applied as the note alias. If you highlight a header, Dendron will create a relative link to the header with the alias set to the header value.
 
@@ -70,10 +70,10 @@ what kind of anchor to use with the [[anchorType|dendron://dendron.dendron-site/
 
 ### Copy Note Ref
 
-- shortcuts:
-  - key: `ctrl+shift+r`
-  - mac: `cmd+shift+r`
-  - when: `editorFocus`
+-   shortcuts:
+    -   key: `ctrl+shift+r`
+    -   mac: `cmd+shift+r`
+    -   when: `editorFocus`
 
 Copies a reference to the current open document
 
@@ -104,16 +104,16 @@ If you use this command in a [[multi vault|dendron.topic.multi-vault]] workspace
 
 ### Delete Node
 
-- shortcuts:
-  - key: `ctrl+shift+d`
-  - mac: `cmd+shift+d`
+-   shortcuts:
+    -   key: `ctrl+shift+d`
+    -   mac: `cmd+shift+d`
 
 Delete a note or schema. A prompt will occur before deletion if any links will break that are referencing the note.
 
 You can also delete a note from the explorer:
 
-- Right Click on the note
-- `Dendron: Delete Node`
+-   Right Click on the note
+-   `Dendron: Delete Node`
 
 ### Insert Note Link
 
@@ -246,8 +246,8 @@ The format of the block is as follows:
 ```md
 ## Index
 
-- [[{ch1}|{noteName}]]
-  ...
+-   [[{ch1}|{noteName}]]
+    ...
 ```
 
 If used in a multi-vault workspace and [[noXVaultWikiLink|dendron.ref.config#noxvaultwikilink]] is not set, the wikilinks will have a vault prefix added to avoid ambiguity.
@@ -272,9 +272,9 @@ Running this command with the note `recipe` open will insert the following at cu
 ```md
 ## Index
 
-- [[Eggs|recipe.eggs]]
-- [[Bagel|recipe.bagel]]
-- [[Chicken|recipe.chicken]]
+-   [[Eggs|recipe.eggs]]
+-   [[Bagel|recipe.bagel]]
+-   [[Chicken|recipe.chicken]]
 ```
 
 Running it in the note `recipe.eggs` will insert the following at cursor position:
@@ -282,13 +282,13 @@ Running it in the note `recipe.eggs` will insert the following at cursor positio
 ```md
 ## Index
 
-- [[Royale|recipe.eggs.royale]]
-- [[Deviled|recipe.eggs.deviled]]
-- [[Benedict|recipe.eggs.benedict]]
-- [[Florentine|recipe.eggs.florentine]]
+-   [[Royale|recipe.eggs.royale]]
+-   [[Deviled|recipe.eggs.deviled]]
+-   [[Benedict|recipe.eggs.benedict]]
+-   [[Florentine|recipe.eggs.florentine]]
 ```
 
-- configuration : [[insertNoteIndex|dendron.ref.config#insertnoteindex]]
+-   configuration : [[insertNoteIndex|dendron.ref.config#insertnoteindex]]
 
 ### Paste Link
 
@@ -301,33 +301,37 @@ Navigates to a random note in the workspace. By default, all notes are included 
 ```yaml
 # Sample configuration in dendron.yml:
 randomNote:
-  include:
-    - alpha
-    - beta.foo
-  exclude:
-    - alpha.bar
+    include:
+        - alpha
+        - beta.foo
+    exclude:
+        - alpha.bar
 ```
 
 This pattern would specify a set including all notes under `alpha` _except_ for notes in the alpha.bar hierarchy. The set would also include notes under `beta.foo*`.
 
-- If `include` is not specified, then the `include` matching pattern will match all notes.
-- `exclude` takes precedence over `include`, so if the patterns are identical, no notes will match.
+-   If `include` is not specified, then the `include` matching pattern will match all notes.
+-   `exclude` takes precedence over `include`, so if the patterns are identical, no notes will match.
 
 ### Show Preview
 
-- shortcuts:
-  - windows: `windows+ctrl+p`
-  - mac: `cmd+ctrl+p`
+-   shortcuts:
+    -   windows: `windows+ctrl+p`
+    -   mac: `cmd+ctrl+p`
 
 Shows a Markdown preview view. This preview supports rendering Dendron features, such as note refs, wikilinks, custom image properties, and more. `Show Preview` supports previewing Dendron notes and regular Markdown files such as a project `README.md`.
+
+### Toggle Preview
+
+Toggles a Markdown preview view. Same functionality as `Dendron: Show Preview` but `Toggle Preview` closes the preview view when it's already open.
 
 ### Show Preview (legacy)
 
 > ⚠️ This is a deprecated command. Please consider using [[Show Preview|dendron.ref.commands#show-preview]] instead.
 
-- shortcuts:
-  - windows: `windows+ctrl+p`
-  - mac: `cmd+ctrl+p`
+-   shortcuts:
+    -   windows: `windows+ctrl+p`
+    -   mac: `cmd+ctrl+p`
 
 Show Markdown Preview.
 See [[Preview|dendron.topic.preview]] for more details.
@@ -338,9 +342,9 @@ See [[Preview|dendron.topic.preview]] for more details.
 
 ### Lookup Note
 
-- shortcuts:
-  - mac: `cmd+L`
-  - key: `ctrl+l`
+-   shortcuts:
+    -   mac: `cmd+L`
+    -   key: `ctrl+l`
 
 Initiate note lookup
 
@@ -348,23 +352,23 @@ Initiate note lookup
 
 ### Create Journal Note
 
-- shortcuts:
-  - key: `ctrl+shift+j`
-  - mac: `cmd+shift+j`
+-   shortcuts:
+    -   key: `ctrl+shift+j`
+    -   mac: `cmd+shift+j`
 
 Creates a [[Journal Note|dendron://dendron.dendron-site/dendron.topic.special-notes#journal-note]].
 
 ### Create Scratch Note
 
-- shortcuts:
-  - key: `ctrl+shift+s`
-  - mac: `cmd+shift+s`
+-   shortcuts:
+    -   key: `ctrl+shift+s`
+    -   mac: `cmd+shift+s`
 
 Creates a [[Scratch Note|dendron://dendron.dendron-site/dendron.topic.special-notes#scratch-note]].
 
 ### Create Task Note
 
-- shortcuts: none
+-   shortcuts: none
 
 Creates a [[task note|dendron.topic.tasks#task-notes]], which comes with some
 extra features to keep track of work items.
@@ -373,7 +377,7 @@ The `Create Task Note` lookup supports tabbing for autocompletion.
 
 ### Set Task Status
 
-- shortcuts: none
+-   shortcuts: none
 
 Changes the status for a [[task note|dendron.topic.tasks#task-notes]]. If you
 have a link selected, it will set the task status for that note. If you don't
@@ -388,28 +392,28 @@ Please see [[Keyboard shortcut for a task status|dendron://dendron.dendron-site/
 
 ### Complete Task
 
-- shortcuts: none
+-   shortcuts: none
 
 Marks a [[task note|dendron.topic.tasks#task-notes]] as complete. This works in the same way as [[Set Task Status|dendron://dendron.dendron-site/dendron.ref.commands#set-task-status]],
 but doesn't prompt for the status to use. Instead, it will use the first status set in the [[taskCompleteStatus|dendron://dendron.dendron-site/dendron.topic.tasks#taskcompletestatus]] configuration.
 
 ### Create Meeting Note
 
-- shortcuts: none
+-   shortcuts: none
 
 Creates a [[meeting note|dendron://dendron.dendron-site/dendron.topic.special-notes#meeting-note]], which applied a pre-built template to help you take notes during a meeting. The template is fully customizable.
 
 ### Lookup Schema
 
-- shortcuts:
-  - mac: `cmd+shift+L`
-  - key: `ctrl+shift+l`
+-   shortcuts:
+    -   mac: `cmd+shift+L`
+    -   key: `ctrl+shift+l`
 
 Initiate schema lookup
 
 ### Open Backup
 
-- shortcuts: none
+-   shortcuts: none
 
 Open backup files created by Dendron.
 
@@ -422,11 +426,11 @@ This command is a convenience command to open backup files saved under `{workspa
 
 ### Go to Commands
 
-- See [[Navigation Commands|dendron://dendron.dendron-site/dendron.topic.navigation#commands]]
+-   See [[Navigation Commands|dendron://dendron.dendron-site/dendron.topic.navigation#commands]]
 
 ### Find all References
 
-- See [[Find All References|dendron://dendron.dendron-site/dendron.topic.navigation#find-all-references]]
+-   See [[Find All References|dendron://dendron.dendron-site/dendron.topic.navigation#find-all-references]]
 
 --
 
@@ -438,7 +442,7 @@ This command is a convenience command to open backup files saved under `{workspa
 
 ### Reload Index
 
-- shortcuts: none
+-   shortcuts: none
 
 Reload the index. Necessary for Dendron to pick up on schema changes.
 
@@ -450,12 +454,12 @@ Reload the index. Necessary for Dendron to pick up on schema changes.
 
 Create a custom [[hook|dendron.topic.hooks]] to trigger during Dendron's lifecycle. This command takes two parameters:
 
-- hookName: name of your hook
-- hookFilter: a glob pattern that filters what notes your hook applies to
-  - default: `*`, apply hook to all notes by default
-- hookType: where to attach the hook (coming soon - we only support `onCreate` at the moment)
-  - types: onCreate|onDelete|onChange
-  - default: onCreate
+-   hookName: name of your hook
+-   hookFilter: a glob pattern that filters what notes your hook applies to
+    -   default: `*`, apply hook to all notes by default
+-   hookType: where to attach the hook (coming soon - we only support `onCreate` at the moment)
+    -   types: onCreate|onDelete|onChange
+    -   default: onCreate
 
 ### Hook Delete
 
@@ -463,8 +467,8 @@ Delete a custom [[hook|dendron.topic.hooks]]. Will remove the hook from `dendron
 
 Parameters:
 
-- hookName: name of the hook to remove
-- shouldDeleteScript: whether you should also delete the hook script
+-   hookName: name of the hook to remove
+-   shouldDeleteScript: whether you should also delete the hook script
 
 ---
 
@@ -507,19 +511,19 @@ Prompt user to create an initial tutorial workspace and takes user through new t
 
 ### Initialize Workspace
 
-- shortcuts: none
+-   shortcuts: none
 
 Create a new workspace
 
 ### Change Workspace
 
-- shortcuts: none
+-   shortcuts: none
 
 Change into existing workspace
 
 ### Snapshot Vault
 
-- shortcuts: none
+-   shortcuts: none
 
 Create a snapshot of your vault
 
@@ -528,7 +532,7 @@ Snapshots are saved under {workspace}/snapshots/{timestamp}
 
 ### Restore Vault
 
-- shortcuts: none
+-   shortcuts: none
 
 Restore your vault from a snapshot
 
@@ -536,7 +540,7 @@ Restores your vault based on a snapshot. When restoring, it will over-write any 
 
 ### Show Help
 
-- shortcuts: none
+-   shortcuts: none
 
 Dendron will open your current browser to the [[cheatsheet|dendron.cheatsheet]] page.
 
@@ -544,13 +548,13 @@ Dendron will open your current browser to the [[cheatsheet|dendron.cheatsheet]] 
 
 ### Configure (yaml)
 
-- shortcuts: none
+-   shortcuts: none
 
 Modify Dendron Config as raw YAML
 
 ### Configure
 
-- shortcuts: none
+-   shortcuts: none
 
 Modify Dendron Config using Dendron UI
 
@@ -570,13 +574,13 @@ Modify Dendron Config using Dendron UI
 
 ### Build Pod
 
-- shortcuts: none
+-   shortcuts: none
 
 Build your notes for export. Currently, only export to GitHub Pages is supported.
 
 ### Configure Pod
 
-- shortcuts: none
+-   shortcuts: none
 
 Update your pod configuration
 
@@ -592,7 +596,7 @@ Update your service [[Connections|dendron://dendron.dendron-site/dendron.topic.p
 
 ### Import Pod
 
-- shortcuts: none
+-   shortcuts: none
 
 Import notes from an external data source. Currently, only the local file system is supported
 
@@ -602,7 +606,7 @@ Import notes from an external data source. Currently, only the local file system
 
 ### Export Pod
 
-- shortcuts: none
+-   shortcuts: none
 
 Export notes to an external data source. Currently only JSON is supported.
 
@@ -610,15 +614,15 @@ Export notes to an external data source. Currently only JSON is supported.
 
 ### Publish Pod
 
-- shortcuts: none
+-   shortcuts: none
 
 Publish your note to a different format/location
 
 ### Copy Note URL
 
-- shortcuts:
-  - mac: `cmd+shift+u`
-  - windows: `ctrl+shift+u`
+-   shortcuts:
+    -   mac: `cmd+shift+u`
+    -   windows: `ctrl+shift+u`
 
 Get URL of current note from published site
 
@@ -650,7 +654,7 @@ Remove a [[seed|dendron.topic.seeds]] from your current workspace.
 
 ### Contribute
 
-- shortcuts: none
+-   shortcuts: none
 
 Become an environmentalist and keep Dendron sustainable
 
@@ -671,23 +675,23 @@ If you are on macOs, you can find instructions for getting the path to the curre
 
 ### Publish
 
-- shortcuts: none
+-   shortcuts: none
 
 Build, commit and publish your notes with a single command
 
-- NOTE: this is meant for v1 publishing. V2 publishing currently does not have a publish command.
+-   NOTE: this is meant for v1 publishing. V2 publishing currently does not have a publish command.
 
 <a href="https://www.loom.com/share/c58edf543e234a8fa164095237579ccc"> <img style="" src="https://cdn.loom.com/sessions/thumbnails/c58edf543e234a8fa164095237579ccc-with-play.gif"> </a>
 
 ### Publish Export
 
-- shortcuts: none
+-   shortcuts: none
 
 Build and export your notes using publishing v2
 
 ### Publish Dev
 
-- shortcuts: none
+-   shortcuts: none
 
 Preview your notes on localhost using publishing v2.
 
@@ -697,7 +701,7 @@ Preview your notes on localhost using publishing v2.
 
 ### Dump State
 
-- shortcuts: none
+-   shortcuts: none
 
 Dump internal state of Dendron inside logs
 
@@ -705,31 +709,31 @@ This is useful when diagnosing issues in Dendron
 
 ### Dendron:Dev: Open Logs
 
-- shortcuts: none
+-   shortcuts: none
 
 Open Dendron logs for current session
 
 ### Dendron:Dev: Diagnostics Report
 
-- shortcuts: none
+-   shortcuts: none
 
 Copy last 3000 lines of all logs and config to clipboard. Use when submitting an issue to Dendron
 
 Information displayed:
 
-- workspace type
-- current dendron version
-- previous workspace version
-- previous global version
-- extension install status
-- contents of `dendron.yml`
-- contents of `dendron.code-workspace`
-- telemetry status
-- last 3000 lines of logs from client and server
+-   workspace type
+-   current dendron version
+-   previous workspace version
+-   previous global version
+-   extension install status
+-   contents of `dendron.yml`
+-   contents of `dendron.code-workspace`
+-   telemetry status
+-   last 3000 lines of logs from client and server
 
 ### Dendron:Dev: Run Migration
 
-- shortcuts: none
+-   shortcuts: none
 
 If your `dendron.yml` configuration file is out of date, you can use this
 command to update it. Dendron should automatically prompt you and run the
