@@ -2,20 +2,29 @@
 id: cnslfarfqeclfb6iqodb71f
 title: Product Manager
 desc: ''
-updated: 1646593701245
+updated: 1656605821016
 created: 1646592355496
 published: false
 ---
 
-
 ## What you'll do
-- gather and maintain requirements for company priorities
-- work closely with the engineering team to deliver on company priorities
-- identify pain points from team members and the wider Dendron community 
-- manage the delivery of complex projects
-- holding individuals accountable for tasks
-- use Dendron for role-related duties and give feedback on how to improve the workflow
-- help identify and shape company priorities by listening to community feedback and aligning them with business milestones
+- familiarity with product and domain
+    - understanding & use of dendron
+    - understanding of user base
+    - understanding of problem space
+- optimize team effectiveness
+    - find 80/20 areas where we can optimize our internal processes to be more reliable and take less time
+    - make sure team is aligned on process changes and that they are carried through
+- organization and delivery of priorities
+    - gather and maintain requirements for company priorities
+    - work closely with the engineering team to deliver on company priorities
+    - holding individuals accountable for tasks
+- voice of customer
+    - relay public pain points to team
+    - understand, triage, and prioritize customer pain points
+    - help identify and shape company priorities by listening to community feedback and aligning them with business milestones
+- manage our public facing promises
+    - relay internal objectives to the public
 
 ## Who you are
 - be able to context switch and think on your feet
