@@ -2,7 +2,7 @@
 id: 3abd00eb-1c1e-4253-aaf5-dcbe20c21850
 title: Early Seed
 desc: ''
-updated: 1656679777260
+updated: 1656679822589
 created: 1604539200840
 published: true
 nav_exclude: true
@@ -22,7 +22,7 @@ Dendron 0.102 has sprouted 🌱
 - enhance(markdown): add new template variables (#3159) @hayata [[docs|dendron://dendron.dendron-site/dendron.topic.templates.template-variables]]
 
 ### Fixes
-- fix(workspace): Sync fails in shared workspaces if users update workspace config first before syncing migrated vaults (#3141) @kaan
+- fix(workspace): sync fails in shared workspaces if users update workspace config first before syncing migrated vaults (#3141) @kaan
 - fix(structure): quickpick stuck issue for refactor hierarchy cmd (#3152) @jonathan
 - fix(workspace): removing vault with a name different than their `fsPath` doesn't remove them from `duplicateNoteBehavior` (#3151) @kaan
 - fix(workspace): duplicate note id detected even after a file is removed #3155 @hikchoi
