@@ -2,7 +2,7 @@
 id: f1af56bb-db27-47ae-8406-61a98de6c78c
 title: Note Reference
 desc: ""
-updated: 1652859742811
+updated: 1656701966307
 created: 1597356582509
 stub: false
 ---
@@ -59,7 +59,7 @@ The simplest type is a full note reference, which will include the entire conten
 
 ### Header References
 
-A header reference will include the entire contents of a note starting from a specified heading.
+A header reference will include the entire contents of a note starting from a specified heading. A note reference will transclude everything from the given header to the next header of equal or lesser depth
 
 ```
 ![[demo.embed.block#head1]]
