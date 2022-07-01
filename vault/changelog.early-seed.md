@@ -2,7 +2,7 @@
 id: 3abd00eb-1c1e-4253-aaf5-dcbe20c21850
 title: Early Seed
 desc: ''
-updated: 1656683706604
+updated: 1656688055883
 created: 1604539200840
 published: true
 nav_exclude: true
@@ -22,5 +22,5 @@ Dendron 0.102 has sprouted 🌱
 - fix(workspace): sync fails in shared workspaces if users update workspace config first before syncing migrated vaults (#3141) @kaan
 - fix(structure): quickpick lose focus when running refactor hierarchy (#3152) @jonathan
 - fix(workspace): removing vault with a name different than their `fsPath` doesn't remove them from `duplicateNoteBehavior` (#3151) @kaan
-- fix(workspace): duplicate note id detected even after a file is removed #3155 @hikchoi
-- fix(views): backlink tree item labels are trimmed excessively #3169 @hikchoi
+- fix(workspace): duplicate note id detected even after a file is removed (#3155) @hikchoi
+- fix(views): backlink tree item labels are trimmed excessively (#3169) @hikchoi
