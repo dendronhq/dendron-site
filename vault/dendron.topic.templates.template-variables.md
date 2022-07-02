@@ -10,7 +10,7 @@ created: 1653438949072
 
 {{fm.desc}}
 
-You can apply template variables by using the following syntax: `{{ VARAIBLE }}`
+You can apply template variables by using the following syntax: `{{ VARIABLE }}`
 
 ### Globally Available
 
