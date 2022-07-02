@@ -2,7 +2,7 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1656423670063
+updated: 1656719587812
 created: 1601508213606
 nav_order: 2
 ---
@@ -80,7 +80,7 @@ nav_order: 2
 ### Enhancements
 - enhance(view): decrease min zoomed font-size for node labels in graph panel (#2996) @joshi
 - enhance(workspace): "migrate to self contained vault" updates `logoPath` and moves gitignore file (#2998) @kaan
-- enhance(extend): add axios to hook function ([[docs|dendron://dendron.dendron-site/dendron.topic.hooks.quickstart#setup]]) (#3001) [[Maarrk 9537|dendron://users/people.maarrk-9537]]
+- enhance(extend): add axios to hook function ([[docs|dendron://dendron.dendron-site/dendron.topic.hooks.quickstart#setup]]) (#3001) @Maarrk#9537
 
 ### Fix
 - fix(publish): export gets stuck if `logoPath` is set but the logo doesn't exist (#2959) @kaan

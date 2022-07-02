@@ -6,12 +6,11 @@ export default function BannerAlert() {
       message={
         <span>
           {" "}
-          Dendron is launching on product hunt today. If Dendron has been of use
-          to you, please leave feedback on our{" "}
-          <a href="https://www.producthunt.com/posts/dendron-v100">
-            launch page
+          If Dendron has been of use to you, consider {" "}
+          <a href="https://github.com/dendronhq/dendron" target="_blank">
+            starring us on github!
           </a>{" "}
-          - this would help us out a lot 🙏
+          This helps us grow 🌱
         </span>
       }
       type="info"
