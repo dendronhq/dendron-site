@@ -2,10 +2,29 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1656719587812
+updated: 1657018648882
 created: 1601508213606
 nav_order: 2
 ---
+
+## 0.102.0
+
+### Features
+- feat(cli): add a cli command that generates a packed-circles visualization of workspace (#3057) @hayata ([[docs|dendron://dendron.dendron-site/dendron.topic.packed-circles]])
+
+### Enhancements
+- enhance(markdown): add new template variables (#3159) @hayata [[docs|dendron://dendron.dendron-site/dendron.topic.templates.template-variables]]
+- enhance(publish): add "link to anchor" icon by headings and block anchors (#3132) @kaan
+- enhance(publish): faster rendering of sidebar in published site (#3121) @joshi
+
+### Fix
+- fix(workspace): sync fails in shared workspaces if users update workspace config first before syncing migrated vaults (#3141) @kaan
+- fix(structure): quickpick stuck issue for refactor hierarchy cmd (#3152) @jonathan
+- fix(workspace): removing vault with a name different than their `fsPath` doesn't remove them from `duplicateNoteBehavior` (#3151) @kaan
+- fix(workspace): duplicate note id detected even after a file is removed (#3155) @hikchoi
+- fix(views): backlink tree item labels are trimmed excessively (#3169) @hikchoi
+- fix(publish): regression where publishing fails if note doesn't exist (#3178)  @kevin
+- fix(workspace): fix init in workspace without workspace folders (#3181) @kevin
 
 ## 0.101.0
 
