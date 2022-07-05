@@ -2,7 +2,7 @@
 id: ijgipdvbffakeq7n0b6k9eq
 title: 0.102
 desc: ''
-updated: 1657021307341
+updated: 1657035409159
 created: 1657018178037
 ---
 
@@ -53,5 +53,28 @@ This week's entry in the [[Dendron Reading Series|dendron://dendron.dendron-site
 A big **thanks** to the following gardeners that brought up issues, contributions, and fixes to this release :man_farmer: :woman_farmer: 
 Visit [[Discord Roles|dendron://dendron.dendron-site/community.discord.roles]] for more information.
 
+- [Cameron Yick](https://github.com/hydrosquall) `@cameron#9185`
+    - [docs: fix template variable documentation spelling](https://github.com/dendronhq/dendron-site/pull/574)
+
+- [Weiming](https://github.com/woodwm)
+    - #role.taxonomist
+    - [Correct a latex equation in the tutorial](https://github.com/dendronhq/dendron/pull/3182)
+
+- [José Longo](https://github.com/jlongo) `@José Longo#4828`
+    - #role.bugcatcher
+    - [parse error of wikilinks ?](https://github.com/dendronhq/dendron/issues/3179)
+    
+- [hateyouinfinity](https://github.com/hateyouinfinity)
+    - #role.bugcatcher
+    - [Templates get reapplied if previous application is immediately undone](https://github.com/dendronhq/dendron/issues/3185)
+
+- [Phoebian](https://github.com/Phoebian) `@Phoebian#1004`
+    - #role.taxonomist
+    - [Blank journal pages](https://github.com/dendronhq/dendron-site/pull/571)
+
+- [Patrik Grip-Jansson](https://github.com/kap42)
+    - #role.taxonomist
+    - [Corrected a spelling error](https://github.com/dendronhq/dendron-site/pull/562)
+    
 ## Changelog
 ![[changelog#01020,1:#01010]]
