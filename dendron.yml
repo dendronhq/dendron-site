@@ -97,6 +97,7 @@ publishing:
         - community
         - changelog
         - careers
+        - navigation
         - tags
     enableSiteLastModified: true
     siteRootDir: docs

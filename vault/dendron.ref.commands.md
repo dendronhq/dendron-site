@@ -377,25 +377,11 @@ The `Create Task Note` lookup supports tabbing for autocompletion.
 
 ### Set Task Status
 
--   shortcuts: none
-
-Changes the status for a [[task note|dendron.topic.tasks#task-notes]]. If you
-have a link selected, it will set the task status for that note. If you don't
-have a link selected but you have a task note open, it will set the status for
-that note.
-
-The statuses displayed when you use the command are based on the [[statusSymbols|dendron://dendron.dendron-site/dendron.topic.tasks#statussymbols]]
-configuration.
-
-You can create a keyboard shortcut that sets a task to a specific status.
-Please see [[Keyboard shortcut for a task status|dendron://dendron.dendron-site/dendron.topic.tasks#keyboard-shortcut-for-a-task-status]] for details.
+![[dendron://dendron.dendron-site/dendron.topic.tasks.commands.set-task-status]]
 
 ### Complete Task
 
--   shortcuts: none
-
-Marks a [[task note|dendron.topic.tasks#task-notes]] as complete. This works in the same way as [[Set Task Status|dendron://dendron.dendron-site/dendron.ref.commands#set-task-status]],
-but doesn't prompt for the status to use. Instead, it will use the first status set in the [[taskCompleteStatus|dendron://dendron.dendron-site/dendron.topic.tasks#taskcompletestatus]] configuration.
+![[dendron://dendron.dendron-site/dendron.topic.tasks.commands.complete-task]]
 
 ### Create Meeting Note
 

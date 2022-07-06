@@ -2,11 +2,9 @@
 id: wti0omzx9zzfsfg67vc1kj0
 title: CLI
 desc: Manipulate notes using the CLI
-updated: 1655658425784
+updated: 1656957886126
 created: 1655311792352
 ---
-
-## Summary
 
 ## Usage
 ```sh

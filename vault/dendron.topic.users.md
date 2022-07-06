@@ -1,14 +1,18 @@
 ---
 id: ESqOqSOEo54lqvGLlQXM6
-title: Users
-desc: ''
-updated: 1642784543811
+title: User Notes
+desc: 'User notes help you track people'
+updated: 1657075320090
 created: 1630388973002
 ---
 
 ## Summary
 
-Dendron allows you to tag users in your notes. You can tag users inline like `@example`. They are similar to [[tags|dendron.topic.tags]], except that they are meant to reference users. In a vault shared with many people, where each person can have their own user note. Or you can also use it yourself to keep track of information about people you know.
+{{fm.desc}}
+
+## Details
+
+You can tag users inline like `@example`. They are similar to [[tags|dendron.topic.tags]], except that they are meant to reference users. In a vault shared with many people, where each person can have their own user note. Or you can also use it yourself to keep track of information about people you know.
 
 ## User tags
 
