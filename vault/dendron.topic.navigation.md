@@ -2,7 +2,7 @@
 id: cphUwSPk12j4lS0tKjBdC
 title: Navigation
 desc: ''
-updated: 1651331181877
+updated: 1657145921970
 created: 1638899506405
 ---
 
@@ -67,6 +67,8 @@ Go to the next sibling
 
 Siblings with numeric names will be sorted numerically, whereas siblings with alphabetical names will be sorted alphabetically when determining the next sibling.
 
+When the active note is a journal note, the sibling navigation is in chronological order (`journal.dateFormat` of `dendron.yml` needs to be the default setting `y.MM.dd` to utilize chronological navigation)
+
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/hierarchy.go-sibling.gif)
 
 ### Go Previous Sibling
@@ -78,6 +80,8 @@ Siblings with numeric names will be sorted numerically, whereas siblings with al
 Go to the previous sibling
 
 Siblings with numeric names will be sorted numerically, whereas siblings with alphabetical names will be sorted alphabetically when determining the previous sibling.
+
+When the active note is a journal note, the sibling navigation is in chronological order (`journal.dateFormat` of `dendron.yml` needs to be the default setting `y.MM.dd` to utilize chronological navigation)
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/hierarchy.go-sibling.gif)
 
