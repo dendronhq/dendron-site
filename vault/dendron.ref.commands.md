@@ -4,7 +4,7 @@ title: Commands
 desc: ""
 tags:
     - stage.seed
-updated: 1656618219394
+updated: 1657145392886
 created: 1595261816971
 nav_order: 3.1
 ---
@@ -313,7 +313,7 @@ This pattern would specify a set including all notes under `alpha` _except_ for 
 -   If `include` is not specified, then the `include` matching pattern will match all notes.
 -   `exclude` takes precedence over `include`, so if the patterns are identical, no notes will match.
 
-### Show Preview
+### Show Preview (being deprecated)
 
 -   shortcuts:
     -   windows: `windows+ctrl+p`
@@ -321,9 +321,15 @@ This pattern would specify a set including all notes under `alpha` _except_ for 
 
 Shows a Markdown preview view. This preview supports rendering Dendron features, such as note refs, wikilinks, custom image properties, and more. `Show Preview` supports previewing Dendron notes and regular Markdown files such as a project `README.md`.
 
+When run while there is already a dendron preview open, the command closes the preview.
+
+> ⚠️ This is a deprecated command. Please consider using [[Show Preview|dendron.ref.commands#show-preview]] instead.
+
 ### Toggle Preview
 
-Toggles a Markdown preview view. Same functionality as `Dendron: Show Preview` but `Toggle Preview` closes the preview view when it's already open.
+Shows a Markdown preview view. This preview supports rendering Dendron features, such as note refs, wikilinks, custom image properties, and more. `Show Preview` supports previewing Dendron notes and regular Markdown files such as a project `README.md`.
+
+When run while there is already a dendron preview open, the command closes the preview.
 
 ### Show Preview (legacy)
 
