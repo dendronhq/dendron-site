@@ -2,7 +2,7 @@
 id: 5c213aa6-e4ba-49e8-85c5-1bdcb33ce202
 title: Special Notes
 desc: ''
-updated: 1651331473564
+updated: 1657070895753
 created: 1595004457029
 stub: false
 ---
@@ -31,7 +31,7 @@ A scratch note is a self contained note that is meant to be used as scratchpad. 
 
 ## Meeting Note
 
-A meeting note can be used to quickly create a note to help you record information during your meetings.  To create a meeting note, run the [[Create Meeting Note|dendron://dendron.dendron-site/dendron.ref.commands#create-meeting-note]] command from the command palette.
+![[dendron://dendron.dendron-site/dendron.topic.special-notes.meeting-note]]
 
 ### The Meeting Note Template
 
