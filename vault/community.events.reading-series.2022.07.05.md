@@ -1,7 +1,7 @@
 ---
 id: b2v409lg19j9ka3ce0nnnex
 title: 'Double Shipping'
-desc: 'The author talks about double shipping - the process of talking about something you've created, publically, more than once'
+desc: "The author talks about double shipping - the process of talking about something you've created, publically, more than once"
 updated: 1656970484337
 created: 1656969009524
 ---
@@ -19,4 +19,3 @@ While this certainly exists, when done responsibly, promotion, or sales, is real
 Towards this end, double shipping is a useful technique in achieving this end.
 
 As a bonus, if you adopt a zettelkasten like workflow, double-shipping becomes easier the more you write.  Not only is this a useful way of recalling related areas of interest for yourself, its also an effective way of spreading the word outwards to other people. 
-
