@@ -2,11 +2,10 @@
 id: EKIsWI7XklGDWkRq7jpSi
 title: Feature
 desc: ''
-updated: 1653376277284
+updated: 1656719478732
 created: 1642207217318
 ---
 
-The Scope to Feature mapping is maintained [[on airtable (##groupBy: Scope)|dendron://private/s.airtable.ref.base.users.features#groupbyscope]].
 ## Index
 
 ### Basics
