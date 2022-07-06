@@ -1,16 +1,16 @@
 ---
 id: bdZhT3nF8Yz3WDzKp7hqh
-title: Traits
-desc: ''
-updated: 1656468624871
+title: Note Traits
+desc: 'Note traits let you customize the data of notes using code'
+updated: 1657121699475
 created: 1638842998292
 ---
 
 ## Summary
 
-Dendron's trait system allows you to create custom behavior and apply it to certain notes. An analogy for note traits is a typed system for programming languages.
+- _Note: This is a [[germ stage|dendron://dendron.dendron-site/tags.stage.germ]] feature that may have breaking changes in future versions of Dendron!_
 
-_Note: This is a [[germ stage|dendron://dendron.dendron-site/tags.stage.germ]] feature that may have breaking changes in future versions of Dendron!_
+{{fm.desc}}
 
 ## Use Cases
 - You want to have some of the characteristics of Dendron's built-in [[journal notes|dendron://dendron.dendron-site/dendron.topic.special-notes#journal-note]] or [[scratch notes|dendron://dendron.dendron-site/dendron.topic.special-notes#scratch-note]], but you want to customize the behavior yourself
