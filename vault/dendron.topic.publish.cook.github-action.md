@@ -1,8 +1,8 @@
 ---
 id: FnK2ws6w1uaS1YzBUY3BR
 title: GitHub Pages with GitHub Actions
-desc: ''
-updated: 1653577437442
+desc: ""
+updated: 1657228417676
 created: 1631306630307
 ---
 
@@ -16,7 +16,7 @@ GitHub Actions help provide an automated form of publishing where your notes are
 
 The generated site is also written to the `pages` branch of your repository, which keeps the published site contents separate from your `main` branch commit history.
 
-## Prerequisites 
+## Prerequisites
 
 ![[dendron://dendron.dendron-site/dendron.topic.publish.cook.github#prerequisites,1:#*]]
 
@@ -26,9 +26,9 @@ Looking for an easy button?
 
 You can see a deployed example of these instructions in the following repository, **which can be used as a template** (recommended):
 
-- [Dendron on GitHub Pages with GitHub Actions Template: `template.publish.github-action`](https://github.com/dendronhq/template.publish.github-action)
-  - Make sure to select `Include all branches` when creating a new repository from this template.
-  - The template, with every update, publishes to [this example website](https://dendronhq.github.io/template.publish.github-action/)
+-   [Dendron on GitHub Pages with GitHub Actions Template: `template.publish.github-action`](https://github.com/dendronhq/template.publish.github-action)
+    -   Make sure to select `Include all branches` when creating a new repository from this template.
+    -   The template, with every update, publishes to [this example website](https://dendronhq.github.io/template.publish.github-action/)
 
 > You'll need to change both the `siteUrl` and `assetsPrefix` fields in `dendron.yml` to your own location, unless you are planning to go with a [[Custom Domain Name|dendron://dendron.dendron-site/dendron.topic.publish.cook.github-action#custom-domain-names]].
 
@@ -48,101 +48,119 @@ Follow the instructions [here](https://docs.github.com/en/repositories/creating-
 
 ## Steps - Setup GitHub Pages
 
-- Create a pages branch
-  ```sh
-  git checkout -b pages
-  git push -u origin HEAD
-  ```
+-   Create a pages branch
+    ```sh
+    git checkout -b pages
+    git push -u origin HEAD
+    ```
 
 ### Enable GitHub Pages
 
-- Turn on GitHub Pages for the `pages` branch
-  - Follow the [Choosing a publishing source](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site) GitHub documentation with:
-    - `pages` branch
-    - `/ (root)` folder
+-   Turn on GitHub Pages for the `pages` branch
+    -   Follow the [Choosing a publishing source](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site) GitHub documentation with:
+        -   `pages` branch
+        -   `/ (root)` folder
 
 ## Steps - Setup GitHub Actions
 
 1. Switch back to your main branch
-  ```sh
-  git checkout main
-  ```
+
+```sh
+git checkout main
+```
+
 1. Create a workflow
-  - mac and linux
+
+-   mac and linux
     ```sh
     mkdir -p .github/workflows
     touch .github/workflows/publish.yml
     ```
-  - windows
-  ```powershell
-  mkdir -p .github/workflows
-  New-Item .github/workflows/publish.yml
-  ```
+-   windows
+
+```powershell
+mkdir -p .github/workflows
+New-Item .github/workflows/publish.yml
+```
 
 1. Setup workflow
-  ```yml
-  name: Build Dendron Static Site
 
-  on:
+```yml
+name: Build Dendron Static Site
+
+on:
     workflow_dispatch: # Enables on-demand/manual triggering
     push:
-      branches:
-      - main
+        branches:
+            - main
 
-  jobs:
+jobs:
     build:
-      runs-on: ubuntu-latest
-      steps:
-      - name: Checkout source
-        uses: actions/checkout@v2
-        with:
-          fetch-depth: 0
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout source
+              uses: actions/checkout@v2
+              with:
+                  fetch-depth: 0
 
-      - name: Restore Node modules cache
-        uses: actions/cache@v2
-        id: node-modules-cache
-        with:
-          path: |
-            node_modules
-            .next/*
-            !.next/.next/cache
-            !.next/.env.*
-          key: ${{ runner.os }}-dendronv2-${{ hashFiles('**/yarn.lock', '**/package-lock.json') }}
+            - name: Restore Node modules cache
+              uses: actions/cache@v2
+              id: node-modules-cache
+              with:
+                  path: |
+                      node_modules
+                      .next/*
+                      !.next/.next/cache
+                      !.next/.env.*
+                  key: ${{ runner.os }}-dendronv2-${{ hashFiles('**/yarn.lock', '**/package-lock.json') }}
 
-      - name: Install dependencies
-        run: yarn
+            - name: Install dependencies
+              run: yarn
 
-      - name: Initialize or pull nextjs template
-        run: "(test -d .next) && (echo 'updating dendron next...' && cd .next && git reset --hard && git pull && yarn && cd ..) || (echo 'init dendron next' && yarn dendron publish init)"
+            - name: Initialize or pull nextjs template
+              run: "(test -d .next) && (echo 'updating dendron next...' && cd .next && git reset --hard && git pull && yarn && cd ..) || (echo 'init dendron next' && yarn dendron publish init)"
 
-      - name: Restore Next cache
-        uses: actions/cache@v2
-        with:
-          path: .next/.next/cache
-          # Generate a new cache whenever packages or source files change.
-          key: ${{ runner.os }}-nextjs-${{ hashFiles('.next/yarn.lock', '.next/package-lock.json') }}-${{ hashFiles('.next/**.[jt]s', '.next/**.[jt]sx') }}
+            - name: Restore Next cache
+              uses: actions/cache@v2
+              with:
+                  path: .next/.next/cache
+                  # Generate a new cache whenever packages or source files change.
+                  key: ${{ runner.os }}-nextjs-${{ hashFiles('.next/yarn.lock', '.next/package-lock.json') }}-${{ hashFiles('.next/**.[jt]s', '.next/**.[jt]sx') }}
 
-      - name: Export notes
-        run: yarn dendron publish export --target github --yes
+            - name: Export notes
+              run: yarn dendron publish export --target github --yes
 
-      - name: Deploy site
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_branch: pages
-          publish_dir: docs/
-          force_orphan: true
-          #cname: example.com
-  ```
+            - name: Deploy site
+              uses: peaceiris/actions-gh-pages@v3
+              with:
+                  github_token: ${{ secrets.GITHUB_TOKEN }}
+                  publish_branch: pages
+                  publish_dir: docs/
+                  force_orphan: true
+                  #cname: example.com
+```
 
 1. Commit your changes
-  ```sh
-  git add .
-  git commit -m "add workflow"
-  git push
-  ```
 
-- NOTE: if you are interested in what exactly the github action script is doing, see [[Action Detail|dendron://dendron.dendron-site/dendron.topic.publish.cook.github-action.action-detail]]
+```sh
+git add .
+git commit -m "add workflow"
+git push
+```
+
+-   NOTE: if you are interested in what exactly the github action script is doing, see [[Action Detail|dendron://dendron.dendron-site/dendron.topic.publish.cook.github-action.action-detail]]
+
+## Add Repo Visualization
+
+Using [[Dendron: Visualize|dendron.topic.visualize.cli]] cli command as a job, you can automatically create a svg file that contains packed circled visualization for each Dendron vault upon publishing. You can reference these svgs in your notes. To create visualization as part of Github Actions workflow, add the following snippet after exporting your notes.
+
+```yml
+- name: Generate packed circled visualization of vaults
+  run: "yarn dendron visualize --out ./docs/assets"
+  working-directory: "."
+```
+
+The above snippets produces svg files in `./doc/assets` directory. If you prefer another location, change the argument to `--out` flag.
 
 ## First Deployments
 
@@ -157,14 +175,14 @@ One requirement is to have a `CNAME` file in the root of your published docs, wh
 The workflow YAML includes a commented out value, `cname`, at the very bottom of the configuration. You can uncomment this line, and use your own domain name as so.
 
 ```yaml
-    - name: Deploy site
-      uses: peaceiris/actions-gh-pages@v3
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_branch: pages
-        publish_dir: docs/
-        force_orphan: true
-        cname: example.com
+- name: Deploy site
+  uses: peaceiris/actions-gh-pages@v3
+  with:
+      github_token: ${{ secrets.GITHUB_TOKEN }}
+      publish_branch: pages
+      publish_dir: docs/
+      force_orphan: true
+      cname: example.com
 ```
 
 ### siteUrl with Custom Domains
@@ -176,7 +194,7 @@ publishing:
     siteUrl: https://example.com
 ```
 
-- NOTE: When using custom domain names, `assetsPrefix` isn't required like it otherwise would be with GitHub Pages. Remove `assetsPrefix` if it is present in your `dendron.yml`, otherwise the website may not load as expected.
+-   NOTE: When using custom domain names, `assetsPrefix` isn't required like it otherwise would be with GitHub Pages. Remove `assetsPrefix` if it is present in your `dendron.yml`, otherwise the website may not load as expected.
 
 ## Upgrading
 
@@ -184,7 +202,7 @@ publishing:
 
 ## Next Steps
 
-- Review and further customize your [[Publishing Configurations|dendron://dendron.dendron-site/dendron.topic.publish.config]] as needed.
-- If you intend for your published site to be publicly viewable, make sure to add it to the [`awesome-dendron`](https://github.com/dendronhq/awesome-dendron/) repo so that the community can see your digital garden.
+-   Review and further customize your [[Publishing Configurations|dendron://dendron.dendron-site/dendron.topic.publish.config]] as needed.
+-   If you intend for your published site to be publicly viewable, make sure to add it to the [`awesome-dendron`](https://github.com/dendronhq/awesome-dendron/) repo so that the community can see your digital garden.
 
 ## Congratulations, you just published your first note 🌱
