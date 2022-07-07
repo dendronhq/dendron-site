@@ -1,8 +1,8 @@
 ---
 id: xUh9GJgBLYk5HoEHLCopP
 title: Property
-desc: 'Template for individual configuration property documents.'
-updated: 1655221222784
+desc: ''
+updated: 1657226661592
 created: 1645167115254
 ---
 
