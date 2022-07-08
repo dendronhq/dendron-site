@@ -2,7 +2,7 @@
 id: 3abd00eb-1c1e-4253-aaf5-dcbe20c21850
 title: Early Seed
 desc: ''
-updated: 1657295392329
+updated: 1657295467459
 created: 1604539200840
 published: true
 nav_exclude: true
@@ -29,4 +29,4 @@ Open Link command is deprecated as it is now merged with the [[Go to|dendron://d
 - enhance(workspace): show notice for manual migration if upgrading from from legacy versions (#3161) @hikchoi
 
 ### Fixes
-- fix(retrieve): bad parsing of xvault wikilink with space #3180 @~~kevin~~
+- fix(retrieve): bad parsing of xvault wikilink with space #3180 @kevin
