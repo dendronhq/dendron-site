@@ -2,7 +2,7 @@
 id: 90mrtp10ucyyvt60qekuj4y
 title: Wiki Link
 desc: ''
-updated: 1655758748037
+updated: 1657294951511
 created: 1655250901385
 ---
 
@@ -30,5 +30,9 @@ Wiki links also have support for highlighting in the editor. Existing notes will
 ### Hovers
 
 ![Wikilink Hover](https://ik.imagekit.io/fpjzhqpv1/hover.wikilink_xV937-Kir.gif?ik-sdk-version=javascript-1.4.3&updatedAt=1655252086550)
+
+### Block Links
+
+![[dendron.topic.links.block-link#summary]]
 
 ##

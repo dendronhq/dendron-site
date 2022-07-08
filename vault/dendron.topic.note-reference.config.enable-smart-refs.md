@@ -1,8 +1,8 @@
 ---
 id: 65h7pdzxe43tupzsvik9sf1
-title: Enable Smart Ref
+title: enableSmartRefs
 desc: Template for individual configuration property documents.
-updated: 1656702038111
+updated: 1657292693354
 created: 1656701913295
 ---
 
@@ -13,3 +13,9 @@ created: 1656701913295
 ## Description
 
 Toggle behavior for [[Header References|dendron://dendron.dendron-site/dendron.topic.note-reference#header-references]] to reference everything from the given header to the next header of equal or lesser depth. If turned off, will transclude to the end of the note instead.
+
+## Example
+```yml
+commands:
+	enableSmartRefs: true
+```
