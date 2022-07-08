@@ -2,7 +2,7 @@
 id: 3abd00eb-1c1e-4253-aaf5-dcbe20c21850
 title: Early Seed
 desc: ''
-updated: 1657279235401
+updated: 1657288808336
 created: 1604539200840
 published: true
 nav_exclude: true
@@ -23,10 +23,10 @@ Open Link command is deprecated as it is now merged into the [[Go to|dendron://d
 
 ### Features
 - feat(workspace): smart note refs (#3174) @kevin [[docs|dendron://dendron.dendron-site/dendron.topic.note-reference.config.enable-smart-ref]]
-- feat(workspace): show notice for manual migration if upgrading from from legacy versions (#3161) @hikchoi
 
 ### Enhancements
 - enhance(navigate): make `Go To` command also open external links #3175 @hayata [[docs|dendron://dendron.dendron-site/dendron.ref.commands.goto]]
+- enhance(workspace): show notice for manual migration if upgrading from from legacy versions (#3161) @hikchoi
 
 ### Fixes
-- fix(retrieve): bad parsing of xvault wikilink with space #3180 @kevin
+- fix(retrieve): bad parsing of xvault wikilink with space #3180 @~~kevin~~
