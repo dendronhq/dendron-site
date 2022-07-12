@@ -2,7 +2,7 @@
 id: 2aeg4dbvo7h9dicskivpa2x
 title: 0.103
 desc: ''
-updated: 1657631762411
+updated: 1657632041407
 created: 1657620741057
 ---
 
@@ -22,7 +22,7 @@ July 12, 2022
 
 ## Everything Else
 - enhance(workspace): Show notice for manual migration if upgrading from from legacy versions
-- enhance(plugin-core): make `Go To` command also open external links
+- enhance(navigate): `Go To` command also open external links
 - enhance(workspace): remove getting started from initial tutorial
 - enhance(edit): delete command also closes current window
 - fix(retrieve): bad parsing of xvault wikilink with space
