@@ -2,7 +2,7 @@
 id: 2aeg4dbvo7h9dicskivpa2x
 title: 0.103
 desc: ''
-updated: 1657632041407
+updated: 1657632224875
 created: 1657620741057
 ---
 
@@ -10,7 +10,7 @@ Dendron 0.103 has sprouted  🌱
 July 12, 2022
 
 
-**Smart Note References:** With this new format for note referencing, you will only see the contents of the intended referenced section. No more, no less! 
+**Smart Note References:** Check your references! With smart note refs, a reference to a header will now include everything between the header and the next header of equal or lesser depth.
 - More Information: [[enableSmartRefs|dendron://dendron.dendron-site/dendron.topic.note-reference.config.enable-smart-refs]]
 
 ### Deprecated
