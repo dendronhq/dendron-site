@@ -2,7 +2,7 @@
 id: gxnwBlVKDivSDH1daqejk
 title: Typescript Development with Dendron and VS Code
 desc: ''
-updated: 1639201287844
+updated: 1656719461161
 created: 1634063154566
 ---
 
@@ -39,7 +39,6 @@ The following were my personal notes for the talk
 
 ### Pre-req
 - quicktime test
-- note: [[Support Format Option for Dendron Note CLI|dendron://private/scratch.2021.10.14.195007.support-format-for-dendron-note-cli]]
 
 ### VS Code
 - installed

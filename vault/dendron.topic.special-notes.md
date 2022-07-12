@@ -2,7 +2,7 @@
 id: 5c213aa6-e4ba-49e8-85c5-1bdcb33ce202
 title: Special Notes
 desc: ''
-updated: 1651331473564
+updated: 1657075105247
 created: 1595004457029
 stub: false
 ---
@@ -31,13 +31,7 @@ A scratch note is a self contained note that is meant to be used as scratchpad. 
 
 ## Meeting Note
 
-A meeting note can be used to quickly create a note to help you record information during your meetings.  To create a meeting note, run the [[Create Meeting Note|dendron://dendron.dendron-site/dendron.ref.commands#create-meeting-note]] command from the command palette.
-
-### The Meeting Note Template
-
-When you first run the `Create Meeting Note` command, a template and a schema will be created for you. This template will be applied to new meeting notes whenever you create a new meeting note. You can fully customize the template by changing the contents of the `dendron.templates.meet` note.
-
-The template gets applied to your meeting notes because of the [[schema|dendron://dendron.dendron-site/dendron.topic.schema]] that gets auto-generated the first time you run the `Create Meeting Note` command. By default, this will apply the meeting template to all notes that follow the patterns `meet.yyyy.mm.dd`, or `meet.yyyy.mm.dd.suffix` - for example, `meet.2022.04.01` or `meet.2022.04.01.weekly-planning`. If you want to change the pattern of your meeting note names and still want the template to apply, you can edit the schema definition in the file `dendron.meet.schema.yml`. 
+![[dendron://dendron.dendron-site/dendron.topic.special-notes.meeting-note]]
 
 ## Proxy Notes
 

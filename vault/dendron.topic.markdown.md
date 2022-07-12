@@ -5,7 +5,6 @@ desc: ''
 updated: 1656262783539
 created: 1598673110284
 ---
-- Notice: all references of `MPE` in this guide is in reference to `Dendron Markdown Preview Enhanced`, the default Markdown renderer of Dendron
 
 ## Summary
 

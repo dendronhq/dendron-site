@@ -1,17 +1,16 @@
 ---
 id: bdZhT3nF8Yz3WDzKp7hqh
-title: Traits
-desc: ''
-updated: 1655883537966
+title: Note Traits
+desc: 'Note traits let you customize the data of notes using code'
+updated: 1657121699475
 created: 1638842998292
 ---
 
 ## Summary
 
-Dendron's trait system allows you to create custom behavior and apply it to certain notes. An analogy for note traits is a typed system for programming languages.
+- _Note: This is a [[germ stage|dendron://dendron.dendron-site/tags.stage.germ]] feature that may have breaking changes in future versions of Dendron!_
 
-_Note: This is a [[germ stage|dendron://dendron.dendron-site/tags.stage.germ]] feature that may have breaking changes in future versions of Dendron_
-!
+{{fm.desc}}
 
 ## Use Cases
 - You want to have some of the characteristics of Dendron's built-in [[journal notes|dendron://dendron.dendron-site/dendron.topic.special-notes#journal-note]] or [[scratch notes|dendron://dendron.dendron-site/dendron.topic.special-notes#scratch-note]], but you want to customize the behavior yourself
@@ -23,7 +22,7 @@ This example will show you how you can create your own note traits and apply the
 
 ### 1. Create a new Note Trait
 
-Run the command `Dendron: Register Note Trait`. Give your new trait a unique name.  In this example, we'll call the trait professional-connections. Hit `Enter` and a `professional-connections.js` file will appear in your editor. This is where you define your custom trait logic.
+Run the command `Dendron: Configure Note Traits`. Give your new trait a unique name.  In this example, we'll call the trait professional-connections. Hit `Enter` and a `professional-connections.js` file will appear in your editor. This is where you define your custom trait logic.
 
 ### 2. Add the trait behavior
 
@@ -117,3 +116,7 @@ For every note trait, a command is registered called `dendron.customCommand.your
 ```
 
 _Note: The name of this command may change in future versions of Dendron_
+
+### More Examples
+
+For more examples including how to replicate [[journal|dendron://dendron.dendron-site/dendron.topic.special-notes#journal-note]] or [[scratch note|dendron://dendron.dendron-site/dendron.topic.special-notes#scratch-note]] behavior, see the [[examples|dendron://dendron.dendron-site/dendron.topic.traits.examples]] note.
