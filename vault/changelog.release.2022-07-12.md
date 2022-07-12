@@ -2,7 +2,7 @@
 id: 2aeg4dbvo7h9dicskivpa2x
 title: 0.103
 desc: ''
-updated: 1657637736537
+updated: 1657638165062
 created: 1657620741057
 ---
 
@@ -17,7 +17,7 @@ July 12, 2022
 - `Delete node` command is deprecated and will be renamed to [[Delete|dendron://dendron.dendron-site/dendron.ref.commands#delete]] command
 
 ## Highlights
-- feat(workspace): smart note refs [[docs|dendron://dendron.dendron-site/dendron.topic.note-reference.config.enable-smart-refs]]
+- feat(workspace): smart note refs
 
 ## Everything Else
 - enhance(workspace): Show notice for manual migration if upgrading from from legacy versions
