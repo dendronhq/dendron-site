@@ -2,7 +2,7 @@
 id: 2aeg4dbvo7h9dicskivpa2x
 title: 0.103
 desc: ''
-updated: 1657638245734
+updated: 1657641442145
 created: 1657620741057
 ---
 
@@ -31,6 +31,8 @@ July 12, 2022
 ### Dendron Reading Series
 
 This week's entry in the [[Dendron Reading Series|dendron://dendron.dendron-site/community.events.reading-series]].
+
+[[How to know everything |dendron://dendron.dendron-site/community.events.reading-series.2022.07.12]]
 
 ### Event Reminders
 
