@@ -2,7 +2,7 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1657641734242
+updated: 1657642429734
 created: 1601508213606
 nav_order: 2
 ---
@@ -14,16 +14,12 @@ nav_order: 2
 
 ### Enhancements
 - enhance(workspace): Show notice for manual migration if upgrading from from legacy versions (#3161) @hikchoi
-- enhance(navigate): `Go To` command also open external links #3175 @hayata ([[docs|dendron://dendron.dendron-site/dendron.ref.commands.goto]])
+- enhance(navigate): `Go To` command also open external links (#3175) @hayata ([[docs|dendron://dendron.dendron-site/dendron.ref.commands.goto]])
 - enhance(workspace): remove getting started from initial tutorial (#3205) @kevin
 - enhance(edit): delete command also closes current window (#3215) @hayata
 
 ### Fix
-- fix(retrieve): bad parsing of xvault wikilink with space #3180 @kevin
-
-### Internal
-- chore(workspace): proper handling of invalid data for write note ops (#3137) @jonathan
-- chore(workspace): improve initial startup experience (#3183) @kevin
+- fix(retrieve): bad parsing of xvault wikilink with space (#3180) @kevin
 
 ## 0.102.0
 
