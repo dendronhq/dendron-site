@@ -2,7 +2,7 @@
 id: 2aeg4dbvo7h9dicskivpa2x
 title: 0.103
 desc: ''
-updated: 1657641442145
+updated: 1657641819539
 created: 1657620741057
 ---
 
@@ -44,8 +44,6 @@ This week's entry in the [[Dendron Reading Series|dendron://dendron.dendron-site
     - [Office Hour Recordings - YouTube Playlist](https://link.dendron.so/6yPa)
 - **Community Teatime:** Drink tea, eat food, and hangout with the Dendron crew!
     - Next: [Thu, Jul 21, 11:00 AM PST / 19:00 UTC](https://link.dendron.so/luma)
-- **New User Tuesdays:** Visit the [[New User Tuesdays page|dendron://dendron.dendron-site/community.events.new-user-tuesdays]] for notes from previous sessions.
-    - Next: [Tue, Jul 12, 8:30 AM PST / 16:30 UTC](https://link.dendron.so/luma)
 
 ### Thank You's
 

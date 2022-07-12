@@ -2,7 +2,7 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1657631266368
+updated: 1657641734242
 created: 1601508213606
 nav_order: 2
 ---
@@ -14,7 +14,7 @@ nav_order: 2
 
 ### Enhancements
 - enhance(workspace): Show notice for manual migration if upgrading from from legacy versions (#3161) @hikchoi
-- enhance(plugin-core): make `Go To` command also open external links #3175 @hayata ([[docs|dendron://dendron.dendron-site/dendron.ref.commands.goto]])
+- enhance(navigate): make `Go To` command also open external links #3175 @hayata ([[docs|dendron://dendron.dendron-site/dendron.ref.commands.goto]])
 - enhance(workspace): remove getting started from initial tutorial (#3205) @kevin
 - enhance(edit): delete command also closes current window (#3215) @hayata
 
