@@ -1,9 +1,9 @@
 ---
-id: nISb8ctZKwMj7ya4U2GxW
+id: onvxgcfxkb10tykzf6t6e10
 title: enableNoteTitleForLink
-desc: 'Enable using note titles when displaying naked links in a published note.'
-updated: 1657586357580
-created: 1645171968108
+desc: ''
+updated: 1657586412050
+created: 1657586371677
 ---
 
 - type: `boolean`
@@ -20,6 +20,6 @@ If set to `false`, the entire hierarchy string will be used for rendering the li
 ## Example
 
 ```yml
-  publishing:
+  preview:
     enableNoteTitleForLink: true
 ```

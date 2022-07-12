@@ -2,7 +2,7 @@
 id: l4MoqPhFvcca6Vf5T84e0
 title: Preview
 desc: ''
-updated: 1645453729651
+updated: 1657586432786
 created: 1637309100103
 ---
 
@@ -36,9 +36,7 @@ Render frontmatter title property as title of the note.
 - default: true
 
 ## enableNoteTitleForLink
-Render wikilink with linked note's frontmatter title when the wikilink does not have a link alias.
-
-- default: true
+![[dendron://dendron.dendron-site/dendron.ref.config.preview.enableNoteTitleForLink]]
 
 ## enableFrontmatterTags
 Render frontmatter tags in note preview if they exist.
