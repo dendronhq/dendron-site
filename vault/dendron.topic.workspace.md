@@ -96,7 +96,7 @@ Don't do any synchronization. This may be useful if you use some other tool to s
 
 ## Workspace Types
 
-Dendron recognizes 2 types of workspaces, Code and Native. When you initialize your workspace with
+Dendron recognizes two types of workspaces, Code and Native. When you initialize your workspace with
 the [[Initialize Workspace|dendron.ref.commands#initialize-workspace]] command, you get a Code
 workspace. Code workspaces include a `dendron.code-workspace` file which sets up vaults and
 recommends installing some useful extensions. Code workspaces are great when you are setting up a
