@@ -45,4 +45,4 @@ jobs:
         dpkg -i brok-1.1.0_x86-64-linux.deb
     - name: Run brok
       run: |
-        brok --ignore $(cat .brokignore) $(find . -path -type f -name "*.yml") $(find . -type f -name "*.md") > /dev/null
+        brok --ignore $(cat .brokignore) $(find . -type f -name "*.yml") $(find path -type f -name "*.yml") $(find . -type f -name "*.md") > /dev/null
