@@ -2,7 +2,7 @@
 id: 9Id5LUZFfM1m9djl6KgpP
 title: Incompatible Extensions
 desc: ""
-updated: 1651210910978
+updated: 1657585585468
 created: 1642340936718
 ---
 
@@ -70,7 +70,7 @@ Markdown links adds the capability to view links between Markdown files as a gra
 
 This capability is natively provided by Dendron's `Show Note Graph` command.
 
-## [Dendron Markdown Links](https://marketplace.visualstudio.com/items?itemName=dendron.dendron-markdown-links)
+## Dendron Markdown Links
 
 extension id: `dendron.dendron-markdown-links`
 

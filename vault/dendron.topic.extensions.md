@@ -2,7 +2,7 @@
 id: 301e4129-6933-4be7-a4bd-8125171360d8
 title: Extensions
 desc: ''
-updated: 1642014857234
+updated: 1657583713248
 created: 1596643515473
 stub: false
 ---
@@ -28,7 +28,7 @@ Extensions officially published by Dendron, but aren't bundled by default when D
 
 These extensions were previously bundled or recommended for installation with the Dendron extension. They no longer are, and are only listed here for the purposes of showing they are no longer recommended or supported.
 
-- [Dendron Markdown Links](https://marketplace.visualstudio.com/items?itemName=dendron.dendron-markdown-links)
+- **Dendron Markdown Links**
   - Graph View
 - [Dendron Markdown Preview Enhanced](https://marketplace.visualstudio.com/items?itemName=dendron.dendron-markdown-preview-enhanced) 
   - live Markdown preview
