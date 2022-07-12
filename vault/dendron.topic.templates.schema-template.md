@@ -1,45 +1,58 @@
 ---
 id: GelEQPZrSgr3CK9y10Nrg
 title: Schema Template
-desc: ''
-updated: 1643737795410
+desc: 'Automatically apply a template when it matches a particular hierarchy pattern'
+updated: 1653440497387
 created: 1643737499035
 ---
 
 ## Summary
 
-Schema templates let you designate a note as a **template**. Newly created notes that match a schema with a template will have both the contents and custom frontmatter of the template note applied at creation.
-
+{{fm.desc}}
 This is extremely useful whenever you want to re-use the outline of a note. Examples include daily journals, weekly shopping lists, and weekly reviews.  
+
+## Getting Started
+<!-- #todo: written examples -->
 
 <a href="https://www.loom.com/share/481b7ab051394c1caa383383bd265755"> 
 <img style="" src="https://cdn.loom.com/sessions/thumbnails/481b7ab051394c1caa383383bd265755-with-play.gif"> 
 </a>
 
-## Template Variable Replacement
 
-Template variable replacement lets you replace the text of a schema template prior to application. 
-The syntax for variable replacement is `<%= YOUR_VARIABLE =>`.
+## [[Template Variables|dendron.topic.templates#template-variables]]
 
-### Template Variables
+![[dendron.topic.templates.template-variables#summary,1:#^w9f1tyetgq6z]]
 
-Full list of currently supported template variables
+To use template variables, use the angle bracked syntax `<%= VARIABLE %>` 
 
-- For inserting the current date and time:
-    * `CURRENT_YEAR`: The current year
-    * `CURRENT_MONTH`: The month as two digits (example '02')
-    * `CURRENT_WEEK`: The week of the year as two digits (example '17')
-    * `CURRENT_DAY`: The day of the month as two digits (example '08')
-    * `CURRENT_HOUR`: The current hour in 24-hour clock format
-    * `CURRENT_MINUTE`: The current minute as two digits
-    * `CURRENT_SECOND`: The current second as two digits
+> NOTE: the text enclosed in `<%= VARIABLE %>` will be replaced when the template is applied
 
-#### Example
-- template
+An example of using template variables in your template:
+- input
     ```md
     Today is <%=CURRENT_YEAR%>.<%= CURRENT_MONTH%>.<%= CURRENT_DAY%>,
     ```
 - output
     ```
     Today is 2022.01.04
+    ```
+
+## [[Variable Substitution|dendron.topic.templates#variable-substitution]]
+
+To use variable substitution in your template, use `{{ VARIABLE }}`. 
+
+> NOTE: the text enclosed in `{{ VARIABLE }}` will not be replaced but rendered dynamically in the preview/publishing based on the value in the frontmatter. 
+
+- input:
+    ```md
+    ---
+    name: John
+    ---
+
+    Hello {{fm.name}}
+    ```
+- output (in preview):
+
+    ```md
+    Hello John!
     ```

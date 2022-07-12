@@ -2,37 +2,51 @@
 id: o4i7a81j778jyh7wql0nacb
 title: Self Contained Vaults
 desc: ""
-updated: 1646955005466
+updated: 1655571728037
 created: 1646953890139
 ---
 
-[Self contained vaults](https://docs.dendron.so/notes/aOOBYTowLEKJDEtLWFiHb/) is
-the new way Dendron will handle vaults in the future. Self contained vaults
-simplify Dendron by combining together the concepts of vaults, workspaces,
-native and code vaults, and workspace vaults.
+## Summary
 
-Right now self contained vaults is an [[Early Seed 🌱|dendron://dendron.dendron-site/dendron._ref.status#early-seed-]]
-feature, which is to say it is in early development. Not all Dendron features
-work with self contained vaults yet, and you should avoid self contained vaults
-unless you want to help us test out this upcoming feature.
+[Self contained vaults](https://docs.dendron.so/notes/aOOBYTowLEKJDEtLWFiHb/) is
+the new way Dendron is handling vaults. Self contained vaults make sharing,
+publishing, and synchronizing your vaults easier.
+
+## Features
+
+Self contained vaults include all the files Dendron needs to open the vault and use it. This means:
+
+- You can publish any vault you have by itself
+- You can share the vault with someone, and Dendron will work immediately when they open it in VSCode without having to set up workspaces
+- When you [[convert your vault|dendron.ref.commands#vault-convert]] to a remote vault, it will include all your settings and everything you need for Dendron
 
 ## Configuration
 
-Because it is still in development, self contained vaults are not enabled by default.
-You can enable the [[dendron.enableSelfContainedVaultWorkspace|dendron://dendron.dendron-site/dendron.ref.config.vscode-config#dendronenableselfcontainedvaultworkspace]]
-VSCode configuration to create new workspaces that are entirely made up of self contained vaults.
-Then, you can create a new workspace and test out the new features.
+Self contained vaults are a new feature that's in active development, so you should make sure to update to the latest Dendron version if you want to try them.
 
-You can also enable the 
+Self contained vaults are currently being rolled out to some of our new users
+for testing. For users who are randomly chosen for this test, any workspaces and
+vaults they create will be self contained vaults.
+
+If you would like to join the test, or if you are in the test but would like to
+leave it, then you can change the
 [[enableSelfContainedVaults|dendron://dendron.dendron-site/dendron.ref.config#enableselfcontainedvaults]]
-config under the `dev` section of your workspace, which will turn all new vaults
-added to your workspace into self contained vaults.
+configuration in VSCode. You can find this setting by going to the settings page and searching for self contained vaults.
 
-## Usage
+![VSCode settings page, with "self contained vaults" typed in the search bar, and a setting titled "Enable Self Contained Vault Workspace" below.](https://org-dendron-public-assets.s3.amazonaws.com/images/self-contained-vaults-settings.png)
 
-When enabled, creating a new vault will cause a self contained vault to be
-created. Self contained vaults are placed under the `dependencies` folder. This
-works for both local and remote vaults. Different from regular vaults, self contained local vaults are not included in the git repository of the workspace they are in.
+For existing users, self contained vaults are not enabled by default. You can
+enable the setting above to create a new self contained workspace, or set the
+config
+[[enableSelfContainedVaults|dendron://dendron.dendron-site/dendron.ref.config#enableselfcontainedvaults]]
+in your existing workspace to make any new vaults you create self contained.
+Dendron doesn't have an automated way to migrate your existing vaults yet, but
+you can follow the [[migration guide|dendron://dendron.dendron-site/dendron.topic.vaults.self-contained.migrate]] to migrate your vaults manually.
 
-> ⚠️ Adding workspace vaults or seed vaults, or using the `Vault Convert` or `Vault Remove` command are not supported. Many other features have not been
-> thoroughly tested with self contained vault, and may not work correctly yet. Keep an eye out for release notes to see our progress!
+## What's different about self contained vaults?
+
+There are a few key differences between self contained vaults and regular vaults.
+
+- Self contained vaults always include the `dendron.yml` and `dendron.code-workspace` files.
+- Self contained vaults keep their notes under the `notes` folder.
+- When you add a new vault when using self contained vaults, the new vault will go under the `dependencies` folder.

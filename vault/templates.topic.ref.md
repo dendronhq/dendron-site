@@ -2,50 +2,15 @@
 id: QwIimdJmhOypbz7Mv0ZMo
 title: Feature Template Reference
 desc: 'describes the headers in [[Topic|dendron://dendron.dendron-site/templates.topic]]'
-updated: 1646069283850
+updated: 1651792757532
 created: 1643648373498
 ---
-
-
-## Summary
-- required: true
-- recommended: include a picture
-- example: [[Summary|dendron://dendron.dendron-site/dendron.topic.pod-v2#summary]]
-
-3 sentence description of the feature
-
-## Migration
-- required: false
-- example: [[Migration|dendron://dendron.dendron-site/dendron.topic.pod-v2#migration]]
-
-Only use when this is a major upgrade of an existing feature
-
-## Details
-- required: false
-- example: [[Details|dendron://dendron.dendron-site/dendron.topic.pod-v2#details]]
-
-In depth explanation of feature. One or multiple paragraphs long
-
-## Concepts
-- required: false
-
-Concepts that relate particular topic.
-
-## Features
-- example: [[Features|dendron://dendron.dendron-site/dendron.topic.pod-v2#features]]
-
-Specific features. Describes what they do. Each feature should be a `h3` heading
-
-### Basics
-Basic features are what you should be able to pick up within the first 10 minutes 
-
-### Advanced
 
 ## Commands
 VS Code specific commands if applicable
 
-## CLI
-cli specific commands if applicable
+### Common Options
+Global options for all commands
 
 ## Config
 configuration if applicable

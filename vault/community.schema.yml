@@ -5,6 +5,11 @@ schemas:
     title: community
     parent: root
     children: 
+      - pattern: events
+        children:
+        - pattern: greenhouse
+          namespace: true
+          template: community.events.greenhouse.temp.event
       - pattern: office-hours
         children:
           - pattern: "[0-2][0-9][0-9][0-9]"

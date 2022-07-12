@@ -35,6 +35,7 @@ schemas:
 - id: topic
   namespace: true
   desc: "Major feature areas"
+  template: templates.topic
   children:
     - pattern: quickstart
       desc: how to get started with this given feature
@@ -46,11 +47,11 @@ schemas:
       desc: concepts for this feature
     - pattern: config
       desc: configuration for this feature
-    - pattern: "*"
-      title: feature
-      desc: Sub feature of this given feature
     - pattern: cli
       desc: CLI commands for this feature
+      template: templates.cli
+    - pattern: "*"
+      title: sub feature or component
 - id: template
   template:
     id: dendron.template.example

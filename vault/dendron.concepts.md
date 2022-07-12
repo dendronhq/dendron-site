@@ -2,7 +2,7 @@
 id: c6fd6bc4-7f75-4cbb-8f34-f7b99bfe2d50
 title: Concepts
 desc: ''
-updated: 1646073953422
+updated: 1650323751080
 created: 1595169512265
 nav_order: 5.01
 ---
@@ -10,7 +10,7 @@ Below are some concepts that are helpful to know when using Dendron. Note that f
 
 ### Markdown
 
-Dendron supports Markdown, a popular markup syntax that is like HTML but 1000x simpler. If you are new to Markdown, you can read about the syntax [here](https://docs.gitbook.com/editing-content/markdown).
+![[dendron://dendron.dendron-site/dendron.concepts.markdown]]
 
 ### Frontmatter
 

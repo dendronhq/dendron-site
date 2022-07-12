@@ -2,36 +2,82 @@
 id: ZljuAhFuNWEOUlFtPlC0h
 title: Feature Template
 desc: ''
-updated: 1644277437299
+updated: 1655765961703
 created: 1635992238170
-comment: "see [[Ref|dendron://dendron.dendron-site/templates.topic.ref]] for description of all sections"
 config:
   global:
     enableChildLinks: false
 ---
 
+{{!
+See [[Top Level Feature|dendron://dendron.dendron-site/dendron.contribute.documentation.tutorial.top-level-feature]] for instructions on filling out this template
+}}
+
 ## Summary
+{{! 
+- recommended: include a picture
+- eg: [[Summary|dendron://dendron.dendron-site/dendron.topic.templates#summary]]
+
+3 sentence description of the feature . First sentence should be contents of the description
+
+}}
+
+## Use Cases
+{{! 
+See [[Use Cases|dendron://dendron.handbook/leaflet.journal.2022.05.10.standard-documentation.topics#use-cases]]
+}}
+
+### {usecase1}
 
 ## Features
+{{! 
+- required: false
+- example: [[Features|dendron://dendron.dendron-site/dendron.topic.templates#features]]
 
-## Concepts
+If the feature has sub features, list them out here. 
+}}
 
-## Details
+### {feature1}
 
-## Migration
+### Limitations
+{{! 
+- required: false
 
-## Commands
+If there are any limitations to call out 
+}}
 
-## CLI
+## Components
+{{! 
+- required: false
 
-## Config
+If there are subcomponents, list them out here
+}}
 
-## Topics
+## Getting Started
+{{! 
+- eg: [[Getting Started|dendron://dendron.dendron-site/dendron.topic.templates#getting-started]]
 
-## FAQ
+How to get started using the feature. A user should be able to complete this in under 3min
+}}
 
-## Best Practices
+### Children
+{{! 
+- eg: [[Children|dendron://dendron.dendron-site/dendron.topic.templates#children]]
 
-## Examples
+Link to children. 
+Should be in the following order. Delete any fields that aren't applicable.
 
-## Cookbook
+- Concepts
+- Features
+- Components
+- Commands
+- CLI
+- Config
+- FAQ
+- Upgrade 
+- Details: detailed description on inner working of topic. **not necessary** for using the command
+- Tutorials
+- Guides
+}}
+
+## 

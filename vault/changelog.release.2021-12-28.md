@@ -14,7 +14,7 @@ Make any mistakes this year you wish you could take back? Moving forward, if tho
 
 Speaking of broken links, Dendron has an entirely new command: **Convert Link**! This command lets you convert broken links to plaintext, replacing the link with the link alias, note name, or text of your choosing. You can also use it to convert existing wiki links into other [[types|dendron://dendron.dendron-site/dendron.topic.refactoring#valid-links]] of wiki links.
 
-By default, backlinks are listed in alphabetical order. Now you can choose to sort those backlinks by last update timestamp (`updated` attribute in note frontmatter). Learn more ([[here|dendron://dendron.dendron-site/dendron.topic.workbench#backlink-view-command-palette]]).
+By default, backlinks are listed in alphabetical order. Now you can choose to sort those backlinks by last update timestamp (`updated` attribute in note frontmatter). Learn more ([[here|dendron://dendron.dendron-site/dendron.topic.workbench#commands]]).
 
 ### Highlights
 

@@ -2,7 +2,7 @@
 id: 3abd00eb-1c1e-4253-aaf5-dcbe20c21850
 title: Early Seed
 desc: ''
-updated: 1650044828407
+updated: 1657295467459
 created: 1604539200840
 published: true
 nav_exclude: true
@@ -10,25 +10,23 @@ nav_exclude: true
 
 > This page documents the features, enhancements, and fixes in the latest early seed release. The early seed is a preview of the weekly release, so you'll see the next minor version when installing (ex. `0.78.0` instead of `0.77.1`). When dendron ships the general release, the currently installed extension will automatically be updated (but will still have same version).
 
-## 0.91.0
+## 0.103.0
+July 08, 2022
 
-Dendron 0.91 has sprouted 🌱
+Dendron 0.103 has sprouted 🌱
 
-**Note Title Configuaration**: This release introduces an configuration setting to allow notes to display their full hierarchy in their note title. For example, if this setting is enabled, a new note named `one.two.three` will be titled  `One Two Three`.
+**Smart Note References:** With this new format for note referencing, you will only see the contents of the intended referenced section. No more, no less! 
+- More Information: [[enableSmartRefs|dendron://dendron.dendron-site/dendron.topic.note-reference.config.enable-smart-refs]]
 
-**Go to Assets**: We've expanded functionality for file assets in Dendron. For wikilinks that link to non-note files, `Dendron: Go to Note` and `Go to Definition` will now open them using your OS default app.
+### Deprecated
+Open Link command is deprecated as it is now merged with the [[Go to|dendron://dendron.dendron-site/dendron.ref.commands.goto]] command
 
 ### Features
-- feat(workspace): option to gen title using full hierarchy ([[docs|dendron://dendron.dendron-site/dendron.ref.config.workspace#enablefullhierarchynotetitle]])(#2593) @jonathan 
+- feat(workspace): smart note refs (#3174) @kevin ([[docs|dendron://dendron.dendron-site/dendron.topic.note-reference.config.enable-smart-refs]])
 
 ### Enhancements
-- enhance(navigation): Goto Note and go to definition support assets in wikilinks (#2688) @kaan
-- enhance(workspace): workspace vault support for self contained vaults (#2728) @kaan 
+- enhance(navigate): `Go To` command now also opens external links #3175 @hayata [[docs|dendron://dendron.dendron-site/dendron.ref.commands.goto]]
+- enhance(workspace): show notice for manual migration if upgrading from from legacy versions (#3161) @hikchoi
 
-### Fix
-- fix(airtable): Exporting to airtable automatically saves current document (#2696) @tuling
-- fix(publish): add luxon as dev dependency (#2713) @kevin
-- fix(workspace): Dendron causes errors in non-Dendron workspaces (#2731) @kaan
-- fix(vaults): self contained vaults sync (#2758) @kaan
-- fix(view): support custom styles for Note Graph (#2760) @joshi
-- fix(view): vscode reduce motion setting changes theme (#2749) @joshi
+### Fixes
+- fix(retrieve): bad parsing of xvault wikilink with space #3180 @kevin

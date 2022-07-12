@@ -7,6 +7,7 @@ created: 1632764259348
 pods:
   airtable:
     dendron.scopes: recgIrlW8HdMQsdr7
+    task.scopes: rec7576K1fA4js2gR
 ---
 
 Improve development process. Usually used for `chore` like tasks

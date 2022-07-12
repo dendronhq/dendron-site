@@ -2,7 +2,7 @@
 id: 9Id5LUZFfM1m9djl6KgpP
 title: Incompatible Extensions
 desc: ""
-updated: 1643865712223
+updated: 1651210910978
 created: 1642340936718
 ---
 
@@ -69,6 +69,15 @@ extension id: `tchayen.markdown-links`
 Markdown links adds the capability to view links between Markdown files as a graph.
 
 This capability is natively provided by Dendron's `Show Note Graph` command.
+
+## [Dendron Markdown Links](https://marketplace.visualstudio.com/items?itemName=dendron.dendron-markdown-links)
+
+extension id: `dendron.dendron-markdown-links`
+
+The note graph functionality used to be included inside this extension, but it
+is now built into Dendron itself with the `Show Note Graph` command.
+
+"Dendron Markdown Links" also no longer works with recent versions of Dendron.
 
 ## [md-graph](https://marketplace.visualstudio.com/items?itemName=ianjsikes.md-graph)
 

@@ -2,7 +2,7 @@
 id: 84df871b-9442-42fd-b4c3-0024e35b5f3c
 title: Telemetry
 desc: ""
-updated: 1649412483697
+updated: 1653014473746
 created: 1619460500071
 nav_order: 6.1
 ---
@@ -53,6 +53,10 @@ When a configuration or client version does not meet the minimum compatibility r
 |          `configVersion` |      _string_      | Config version when the mismatch happened                |
 | `minCompatClientVersion` |      _string_      | Minimum compatible client version when mismatch happened |
 | `minCompatConfigVersion` |      _string_      | Minimum compatible config version when mismatch happened |
+
+#### Duplicate configuration key
+
+During activation, if there is a duplicate key mapping in `dendron.yml`, we prompt users that they should remove the duplicate mappings. When doing so, we track that we have prompted, and also track if the user has accepted or rejected the prompt. This helps us understand how users troubleshoot configuration errors and let us improve the way we present instructions.
 
 #### Missing configuration
 
@@ -244,7 +248,7 @@ When telemetry is disabled or enabled, we collect information about the event to
 ## How to opt out of data collection
 
 To disable telemetry in Dendron specifically, run the [[Disable Telemetry|dendron.ref.commands#disable-telemetry]] command.
-You can also disable telemetry using the cli by using the [[disable_telemetry|etc.cli#disable_telemetry]] command.
+You can also disable telemetry using the cli by using the [[disable_telemetry|dendron.topic.cli#dev]] command.
 
 ## Why not have opt-in telemetry?
 

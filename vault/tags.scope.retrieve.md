@@ -1,20 +1,18 @@
 ---
 id: zcoTwnMKikNVEWhqQr7YY
 title: Retrieve
-desc: ''
-updated: 1647025655351
+desc: Any feature that helps a customer find what they're looking for
+updated: 1655894928103
 created: 1644724254507
 pods:
   airtable:
     dendron.scopes: recqrUqNtZHHt264B
+    task.scopes: rec3Ii6pbP3J9FWv9
 ---
 
 ## Summary
 
-Area of Dendron related to retrieval of notes. Any feature that helps a customer find what they're looking for. 
-
-## Sub-scopes
-- #scope.retrieve.note-lookup
+Area of Dendron related to retrieval of notes.  
 
 ## Examples
 - Note Lookups
@@ -22,7 +20,7 @@ Area of Dendron related to retrieval of notes. Any feature that helps a customer
 - Autocomplete of notes inside of #feature.wikilinks
 
 ## Anti-examples
-- Schema, that would be #scope.structure.schema
+- Schema, that would be #feature.schema
 
 ## Features
 
@@ -30,3 +28,4 @@ Area of Dendron related to retrieval of notes. Any feature that helps a customer
 - #feature.file-refs
 - #feature.note-as-directory
 - #feature.backlinks
+- #feature.lookup

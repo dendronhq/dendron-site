@@ -2,7 +2,7 @@
 id: yAuiMNdBK0IDWBoSAAQ4D
 title: Hierarchy
 desc: 'Set per-hierarchy publishing configurations.'
-updated: 1645178633277
+updated: 1656262854234
 created: 1645178048428
 ---
 
@@ -21,12 +21,9 @@ For each hierarchy you wish to configure, you can set the hierarchy name as the 
 ## Example
 
 ```yml
-  publishing:
-    someHierarchyName:
+publishing:
+  hierarchy:
+    fooHiearchy:
       publishByDefault: ...
-      customFrontmatter: ...
-    anotherHierarchy:
-      publishByDefault: ...
-    more:
       customFrontmatter: ...
 ```

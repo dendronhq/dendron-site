@@ -2,7 +2,7 @@
 id: RjBkTbGuKCXJNuE4dyV6G
 title: CLI
 desc: ''
-updated: 1646940072318
+updated: 1656018298115
 created: 1636500007852
 ---
 
@@ -20,7 +20,6 @@ There are several approaches that can be taken to install Node.js to your deskto
 - [MacOS or Linux: Install Node.js via `nvm` (Node Version Manager)](https://github.com/nvm-sh/nvm)
 - [MacOS or Linux: Install Node.js via `nodenv` (instead of `nvm`)](https://github.com/nodenv/nodenv)
 - Microsoft docs: [Windows: Install Node.js via `nvm-windows`](https://docs.microsoft.com/en-us/windows/dev-environment/javascript/nodejs-on-windows)
-- Microsoft docs: [Ubuntu running in Windows Subsystem for Linux (WSL2): Install Node.js via `nvm`](https://docs.microsoft.com/en-us/windows/dev-environment/javascript/nodejs-on-wsl)
 
 ### Verify Node.js
 
@@ -58,28 +57,76 @@ npm install -g @dendronhq/dendron-cli@latest
 
 ## Common Options
 
-![[dendron://dendron.dendron-site/dendron.ref.cli#common-options,1:#engine-commands]]
+### wsRoot
 
-## Engine Commands
+This only needs to be set if you are not executing the CLI from within the root of your [[workspace|dendron.concepts#workspace]] or in a subdirectory of an existing workspace
 
-![[dendron://dendron.dendron-site/dendron.ref.cli#engine-commands,1:#publishing-commands]]
+### vault
 
-## Publishing Commands
+Path to a [[vaults|dendron.concepts#vaults]]. If not given and not a [[multi vault|dendron.topic.multi-vault]] workspace, Dendron will use the only existing vault. Otherwise, will ask for you to specify a vault
 
-![[dendron://dendron.dendron-site/dendron.ref.cli#publishing-commands,1:#pod-commands]]
+### useLocalEngine
+Runs the command called using the in memory engine instead of connecting to a server.
 
-## Pod Commands
 
-![[dendron://dendron.dendron-site/dendron.ref.cli#pod-commands,1:#*]]
+## dev
 
-## Vault Commands
+```sh
+dendron dev <cmd>
 
-![[dendron://dendron.dendron-site/dendron.ref.cli#vault-commands,1:#*]]
+commands related to development of Dendron
 
-## Workspace Commands
+Positionals:
+  cmd  a command to run
+      [string] [required] [choices: "generate_json_schema_from_config", "build",
+       "bump_version", "publish", "sync_assets", "sync_tutorial", "prep_plugin",
+    "package_plugin", "install_plugin", "enable_telemetry", "disable_telemetry",
+                           "show_telemetry", "show_migrations", "run_migration"]
 
-![[dendron://dendron.dendron-site/dendron.ref.cli#workspace-command,1:#*]]
+Options:
+  --version           Show version number                              [boolean]
+  --help              Show help                                        [boolean]
+  --wsRoot            root directory of the Dendron workspace
+  --vault             name of vault
+  --quiet             don't print output to stdout
+  --upgradeType       how to do upgrade
+                              [choices: "major", "minor", "patch", "prerelease"]
+  --publishEndpoint   where to publish              [choices: "local", "remote"]
+  --extensionTarget   extension name to publish in the marketplace
+                                                 [choices: "dendron", "nightly"]
+  --fast              skip some checks
+  --skipSentry        skip upload source map to sentry
+  --migrationVersion  migration version to run
+                     [choices: "0.83.0", "0.55.2", "0.51.4", "0.47.1", "0.46.0"]
 
-## Dev Commands
+```
 
-![[dendron://dendron.dendron-site/dendron.ref.cli#dev-command,1]]
+<!-- ### Actions
+
+#### generate_json_schema_from_config
+
+#### build
+
+#### bump_version
+
+#### publish
+
+#### sync_assets
+
+#### sync_tutorial
+
+#### prep_plugin
+
+#### package_plugin
+
+#### install_plugin
+
+#### enable_telemetry
+
+#### disable_telemetry
+
+#### show_telemetry
+
+#### show_migrations
+
+#### run_migration -->

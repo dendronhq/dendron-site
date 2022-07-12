@@ -2,7 +2,7 @@
 id: TflY5kn29HOLpp1pWT9tP
 title: Conclusion
 desc: ''
-updated: 1639678353333
+updated: 1651330996022
 created: 1625564254964
 nav_order: 4
 ---
@@ -37,10 +37,11 @@ _This is your immediate jumping off point after finishing the tutorial. It cover
 
 - Basics
     - [x] Learn the basics of Dendron with the [[Getting Started tutorial|dendron.tutorial]].
+    - [ ] Read up on the [[dendron.guides.workflows.amoeba]] - a highly effective way of taking notes in Dendron
 - Navigation
     - Learn how to [[find all note references to a header|dendron://dendron.dendron-site/dendron.topic.navigation#find-all-references]].
     - Learn how to [[find all broken, internal reference links|dendron://dendron.dendron-site/dendron.topic.doctor#findbrokenlinks]].
-    - Learn how to navigate quickly to related notes using [[Go to Commands|dendron://dendron.dendron-site/dendron.topic.navigation#go-to]].
+    - Learn how to navigate between notes using [[navigation commands|dendron://dendron.dendron-site/dendron.topic.navigation#commands]].
 - Organizing
     - Learn to expand your organization beyond hierarchies by [[using tags|dendron://dendron.dendron-site/dendron.topic.tags]].
     - Learn how to [[tag other Users|dendron://dendron.dendron-site/dendron.topic.users]] in your notes.

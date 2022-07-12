@@ -1,8 +1,8 @@
 ---
 id: 4ushYTDoX0TYQ1FDtGQSg
 title: Publish
-desc: ''
-updated: 1640745663543
+desc: 'Dendron lets you export any subset of your notes as static HTML via a custom nextjs template'
+updated: 1655749725337
 created: 1635379320910
 config:
   global:
@@ -11,24 +11,27 @@ config:
 
 ## Summary
 
-Dendron lets you publish all your notes as static HTML which you can host anywhere.
+{{fm.desc}}.
 
-This site that you are looking at is published using Dendron. 
 
-Checkout our [[GitHub Pages with GitHub Actions|dendron://dendron.dendron-site/dendron.topic.publish.cook.github-action]] for publishing to GitHub Pages to get started.
+![Publishing](https://ik.imagekit.io/fpjzhqpv1/Fullscreen_6_20_22__11_27_AM_s2U2_vT6u.png?ik-sdk-version=javascript-1.4.3&updatedAt=1655749690995)
 
-## Details
 
-Dendron publishes your notes using a custom [Next.js](https://nextjs.org/) application, also available on [github](https://github.com/dendronhq/nextjs-template).
+## Features
+![[dendron://dendron.dendron-site/dendron.topic.publish.features]]
 
-## Topics
-- [[Getting Started|dendron://dendron.dendron-site/dendron.topic.publish.quickstart]]: How to get started
-- [[Features|dendron://dendron.dendron-site/dendron.topic.publish.features]]: Dendron publishing features
-- [[Concepts|dendron://dendron.dendron-site/dendron.topic.publish.concepts]]
-- [[CLI|dendron://dendron.dendron-site/dendron.topic.publish.cli]]: The Command Line Interface for publishing
-- [[Configuration|dendron://dendron.dendron-site/dendron.topic.publish.config]]: Customizing publishing
-- [[Cookbook|dendron://dendron.dendron-site/dendron.topic.publish.cook]]: Various workflows for publishing
-- [[Faq|dendron://dendron.dendron-site/dendron.topic.publish.faq]]: Frequently asked questions
-- [[Migration|dendron://dendron.dendron-site/dendron.topic.publish.migration]]: Migrating from 11ty (legacy publishing)
-- [[Troubleshooting|dendron://dendron.dendron-site/dendron.topic.publish.trouble]]: Diagnose common issues
-- [[Upgrade|dendron://dendron.dendron-site/dendron.topic.publish.upgrade]]: Upgrading 
+## Getting Started
+See [[dendron://dendron.dendron-site/dendron.topic.publish.quickstart]]
+
+## Child Pages
+- Basics
+  - [[Concepts|dendron://dendron.dendron-site/dendron.topic.publish.concepts]]
+  - [[Configuration|dendron://dendron.dendron-site/dendron.topic.publish.config]]: Customizing publishing
+  - [[CLI|dendron://dendron.dendron-site/dendron.topic.publish.cli]]: The Command Line Interface for publishing
+  - [[Upgrade|dendron://dendron.dendron-site/dendron.topic.publish.upgrade]]: Upgrading 
+- How tos
+  - [[Cookbook|dendron://dendron.dendron-site/dendron.topic.publish.cook]]: Various workflows for publishing
+  - [[Migrate from 11ty|dendron://dendron.dendron-site/dendron.topic.publish.migration]]: Migrating from 11ty (legacy publishing)
+- Resources
+  - [[Faq|dendron://dendron.dendron-site/dendron.topic.publish.faq]]: Frequently asked questions
+  - [[Troubleshooting|dendron://dendron.dendron-site/dendron.topic.publish.trouble]]: Diagnose common issues

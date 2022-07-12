@@ -7,6 +7,7 @@ created: 1630332158701
 pods:
   airtable:
     dendron.scopes: rec1PASZ8fWmzjGJA
+    task.scopes: rec239KnnCU6zaqsO
 ---
 
 Grab bag of features that don't fit neatly into the other Dendron scopes. Or something that is not assigned yet. 

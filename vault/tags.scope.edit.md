@@ -2,16 +2,17 @@
 id: HUFx2Yjyw8klA7l0KLYoZ
 title: Edit
 desc: About the VS Code editing experience
-updated: 1645935222371
+updated: 1654754122169
 created: 1639633464112
 pods:
   airtable:
     dendron.scopes: reco9ZYB6M2OEYwsD
+    task.scopes: reclKA34hYrOo6otI
 ---
 
 ## Summary
 
-Anything that effects the editing experience. Edit also involves creating new notes
+Anything that affects the editing experience. Edit also involves creating new notes.
 
 ## Examples
 - Autocomplete
@@ -30,3 +31,8 @@ Anything that effects the editing experience. Edit also involves creating new no
 - #feature.mermaid
 - #feature.asset-support
 - #feature.images
+- #feature.markdown
+- #feature.markdown.preview
+- #feature.outlining
+
+

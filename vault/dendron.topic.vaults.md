@@ -2,7 +2,7 @@
 id: 6682fca0-65ed-402c-8634-94cd51463cc4
 title: Vaults
 desc: ""
-updated: 1646117404331
+updated: 1655317082844
 created: 1622841137387
 ---
 
@@ -76,6 +76,8 @@ vault using this command. Simply run the command and follow the prompts.
 
 <div style="position: relative; padding-bottom: 62.5%; height: 0;"><iframe src="https://www.loom.com/embed/48fe047324c14949b0917861c79fd985" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
+If you are using [[Self Contained Vaults|dendron.topic.vaults.self-contained]], then this command will also move the vault folder to be in the correct directory.
+
 ## Vault Sources
 
 When adding new vaults, your vault can come from either of the following sources:
@@ -89,7 +91,7 @@ A local vault is what you start off with. Its a vault that is local to your file
 
 ### Remote
 
-A remote vault is what you get when you run the [[Vault Add|dendron.ref.commands#vault-add]] command and select a remote vault. This is a vault that is cloned from a git repo. It should be a similar format as what you see below
+A remote vault is what you get when you run the [[Vault Add|dendron.ref.commands#vault-add]] command and select a remote vault. This is a vault that is cloned from a git repo. It will be listed in a similar format as what you see below in your configuration file.
 
 ```yml
 vaults:

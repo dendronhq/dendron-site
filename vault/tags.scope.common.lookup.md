@@ -2,15 +2,19 @@
 id: nzqCi64LGetqAWqdDT2lK
 title: Lookup
 desc: Anything lookup related
-updated: 1645246024617
+updated: 1655394965885
 created: 1631657275412
 pods:
   airtable:
     dendron.scopes: recdeBYF1cA0yL8Sr
+    task.scopes: recSc2AwMLA7GpNdD
 ---
+
+## Summary
 
 Anything lookup related. This means anything to do with how results display in the lookup widget. 
 
+## Details
 This is used across a range of commands:
 - NoteLookup, Rename, InsertNoteIndex, etc.
 
@@ -22,7 +26,7 @@ Logic for the particular commands should be grouped by their section. Anything t
 - Things to do with lookup widget.
 
 ## Anti-examples
-- Note lookup slow (or bad results). That should go into #scope.retrieve.note-lookup
+- Note lookup slow (or bad results). That should go into #feature.lookup
 - refactor command would belong to #scope.structure
 - note lookup would belong to #scope.retrieve
 

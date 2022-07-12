@@ -2,7 +2,7 @@
 id: rYbs1qLh9VJBXCJlSzMt4
 title: Migration
 desc: ''
-updated: 1646332526178
+updated: 1650378725026
 created: 1632351743935
 ---
 
@@ -16,7 +16,7 @@ Please note that if you have an automated pipeline set up for publishing that us
 
 If there is a compatibility mismatch, running the CLI will display a message that the version does not meet the minimum compatible version. If you see this message, please upgrade `dendron-cli` to the latest version.
 
-![[dendron://dendron.dendron-site/dendron.topic.cli.upgrade#steps,1:#*]]
+![[dendron://dendron.dendron-site/dendron.topic.cli.upgrade#steps,1]]
 
 ## Upgrade dendron.yml configurations
 
@@ -55,7 +55,7 @@ If you were publishing using github pages without using github actions, follow t
 
 If you were publishing using github pages with github actions, follow the [[GitHub Pages with GitHub Actions|dendron://dendron.dendron-site/dendron.topic.publish.cook.github-action]] guide.
 
-If you are publishing using an alternate platform, consult the [[GitHub Pages|dendron://dendron.dendron-site/dendron.topic.publish.cook.github]] guide and adapt it for your specfic platform. 
+If you are publishing using an alternate platform, consult the [[GitHub Pages|dendron://dendron.dendron-site/dendron.topic.publish.cook.github]] guide and adapt it for your specific platform. 
 
 If you run into any issues or have general questions, post in the [[publishing|dendron://dendron.dendron-site/community.discord.channels#publishing]] channel in discord for help. 
 

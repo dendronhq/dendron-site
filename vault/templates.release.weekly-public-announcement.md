@@ -2,7 +2,7 @@
 id: 1ec8d588-7c8a-47a2-b79e-1dd02d10b600
 title: Weekly Public Announcement
 desc: ''
-updated: 1646111245018
+updated: 1655978903912
 created: 1622484182130
 ---
 
@@ -10,6 +10,7 @@ created: 1622484182130
 title: 0.7
 
 Dendron 0.7 has sprouted  🌱
+<!-- Insert date of release -->
 
 <!-- [[Release Highlights|dendron://dendron.handbook/area.product.sop.release-highlights]] -->
 

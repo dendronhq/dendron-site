@@ -1,8 +1,8 @@
 ---
 id: SsMGHoFVgyBdydzI5mn78
-title: Features
+title: Publishing Features
 desc: ''
-updated: 1649007617441
+updated: 1655749758079
 created: 1631895790486
 ---
 
@@ -30,3 +30,8 @@ Every page is published using its unique ID which means that urls will never cha
 If you have a free GitHub account, then you can host your Dendron notes for free using [GitHub Pages](https://pages.github.com/) 
 
 <img style="max-width: 720px;" src="https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/site-domain.jpg" />
+
+
+## Powerful open source publishing platform (via Next.js)
+
+Dendron publishes your notes using a custom build [Next.js](https://nextjs.org/) [template](https://github.com/dendronhq/nextjs-template) that is optimized for rendering Dendron notes. 

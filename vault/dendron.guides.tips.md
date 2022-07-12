@@ -2,7 +2,7 @@
 id: 692fa114-f798-467f-a0b9-3cccc327aa6f
 title: Tips
 desc: ''
-updated: 1647380307165
+updated: 1651243836836
 created: 1595614204291
 nav_order: 4.1
 ---
@@ -26,9 +26,9 @@ When working with lines, you can move entire lines at a time using `option-up|do
 
 ### Search Editor
 
-- [docs](https://code.visualstudio.com/updates/v1_43#_search-editors)
+![[dendron://dendron.dendron-site/dendron.topic.vscode.concepts.search-editor]]
 
-Also known as the coolest feature in VS Code that most people have never heard of. This lets you view and save your search results in a full blown text editor. You can combine it with Dendron's hierarchies to do some amazing things, like aggregating all your todos and scoping your search to a specific hierarchy. 
+You can combine it with Dendron's hierarchies to do some amazing things, like aggregating all your todos and scoping your search to a specific hierarchy. 
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/tips.search-editor.gif)
 
@@ -115,7 +115,51 @@ You can streamline this process by assigning a keyboard shortcut to the command.
 
 ### Copy and Paste Web Content into Dendron
 
-First copy it into Notion or use the Notion web clipper to clip it. This will format it nicely in Markdown. You can then paste it into Dendron with Markdown and everything :)
+First copy it into Notion or use the Notion web clipper to clip it. This will format it nicely in Markdown. You can then paste it into Dendron with Markdown and everything :) . You can also use a browser extension like MarkDownload ( see below ). 
+
+### Open Dendron from terminal
+
+#### Linux & Mac & WSL
+
+You can create an alias in your `.bashrc` / `.zshrc` file. Remember to replace `path/to/your/` with your `code-workspace` file path.
+
+```sh
+alias dendron="code path/to/your/dendron.code-workspace"
+```
+
+##### Windows
+
+###### CMD
+
+To achieve something similar for the CMD prompt of windows you can do the following: 
+
+Create a `alias.txt`(for example in your user dir):
+
+```txt
+
+dendron=code {path/to/your/dendron.code-workspace}
+
+``` 
+
+Then you can do the following
+
+```cmd
+doskey /macrofile=C:\Users\example\alias.txt
+``` 
+
+After doing that dendron becomes available in the cmd prompt. 
+To automate this you can take a look here: [Setting Init script for Windows Command Prompt](https://sukhbinder.wordpress.com/2021/06/16/setting-init-script-for-windows-command-prompt/)
+
+#### All
+
+##### Powershell
+
+For powershell you add the following to your Powershell `$PROFILE`:
+ 
+```ps
+Set-Alias -Name dendron -Value code {path/to/your/dendron.code-workspace}
+```
+
 
 <!-- 
 

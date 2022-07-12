@@ -2,7 +2,7 @@
 id: 070f5adf-3ea3-4e83-b468-75d1b4b6094a
 title: Quickstart
 desc: ''
-updated: 1620495903491
+updated: 1654102787281
 created: 1620494177780
 nav_order: 1
 ---
@@ -24,8 +24,9 @@ This should lead to a page like the following:
  @params NoteUtils: utilities for working with notes. [code](https://github.com/dendronhq/dendron/blob/master/packages/common-all/src/dnode.ts#L307:L307)
  @params execa: instance of [execa](https://github.com/sindresorhus/execa#execacommandcommand-options)
  @params _: instance of [lodash](https://lodash.com/docs)
+ @params axios: instance of [axios](https://axios-http.com/docs/example)
  */
-module.exports = async function({wsRoot, note, NoteUtils, execa, _}) {
+module.exports = async function({wsRoot, note, NoteUtils, execa, axios, _}) {
     // do some changes
     return {note};
 };

@@ -1,18 +1,22 @@
 ---
 id: 3472226a-ff3c-432d-bf5d-10926f39f6c2
 title: Links
-desc: ''
-updated: 1646113835552
+desc: 'Dendron supports many ways of linking notes and files'
+updated: 1656515737658
 created: 1595003088839
 ---
 
-Dendron supports multiple types of links and formats.
+## Summary
 
-- `[Markdown links](./dendron.md)`
-- `[[wiki links]]`
-- `[[labelled|wiki links]]`
-- `![image links](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/logo-256.png)`
-- links to `[local files](assets/think.pdf)` (eg. PDFs, PSDs, etc.)
+{{fm.desc}}.
+
+## Types
+- Markdown links (can link to any file):
+    - `[link text](dendron.note.name.md)` -> [link text](dendron.note.name.md)
+    - `[link text](./path/to/filename.md)` -> [link text](./path/to/filename.md)
+    - `[link text](assets/filename.pdf)` -> [link text](assets/filename.pdf)
+- Wiki links: `[[dendron.note.name]]` -> [[dendron.note.name]]
+- Image links: `![image alt text](http://example.com/or/path/to/image)`
 
 ## Concepts
 
@@ -28,21 +32,7 @@ Regular files are any assets that are not Dendron Markdown notes.
 
 ### Wiki Links
 
-Wiki links support **autocomplete**. To initiate:
-
-- create wikilink brackets and start typing
-- link to specific sections of notes using the `[[wiki link#header]]` syntax.
-  - NOTE: relative links will not go to the anchor if clicked on the preview, in that case, it becomes a normal link to the file
-  - NOTE2: doesn't work when exported through a pod
-- use the VS Code [intellisense shortcut](https://code.visualstudio.com/docs/editor/intellisense#_key-bindings) to trigger the autocomplete
-
-![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/links-autocomplete.gif)
-
-#### Highlights
-
-Wiki links also have support for highlighting in the editor. Existing notes will be highlighted in blue, and missing notes will be highlighted in yellow. The exact shade of color depends on your theme.
-
-![](https://i.imgur.com/aBcgyZX.png)
+![[dendron://dendron.dendron-site/dendron.topic.links.wiki-link]]
 
 ### File Links
 
@@ -117,6 +107,6 @@ Markdown links can be used for local files and stuff on the internet (websites, 
 
 ### Convert Link
 
-![[dendron://dendron.dendron-site/dendron.topic.refactoring#convert-link,1:#*]]
+![[dendron://dendron.dendron-site/dendron.topic.refactoring.commands.convert-link#summary,1:#*]]
 
 

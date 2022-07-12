@@ -1,22 +1,19 @@
 ---
 id: le8mukn4RuMfZ8SxD0doj
 title: Structure
-desc: ''
-updated: 1647025717510
+desc: Related to structuring and ordering notes
+updated: 1655894975141
 created: 1644724514813
 pods:
   airtable:
     dendron.scopes: recctrkafGKsa0IIt
+    task.scopes: recmJAKtN4nZNl50l
 ---
+
+## Summary
 
 Related to keeping notes in a structured, ordered fashion. 
 
-
-## Sub-scopes
-
-- #scope.structure.refactor
-- #scope.structure.schema
-- #scope.structure.note-types
 
 ## Examples
 
@@ -29,6 +26,16 @@ Related to keeping notes in a structured, ordered fashion.
 ## Features
 
 - #feature.hierarchy
+- #feature.vaults
 - #feature.multi-vault
+- #feature.self-contained-vaults
 - #feature.frontmatter
-
+- #feature.tag
+- #feature.templates
+- #feature.todos
+- #feature.scratch-notes
+- #feature.daily-journal
+- #feature.note-traits
+- #feature.refactor
+- #feature.schema
+- #feature.task-notes

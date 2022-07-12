@@ -2,7 +2,7 @@
 id: 5c213aa6-e4ba-49e8-85c5-1bdcb33ce202
 title: Special Notes
 desc: ''
-updated: 1641256903565
+updated: 1657075105247
 created: 1595004457029
 stub: false
 ---
@@ -28,6 +28,26 @@ A scratch note is a self contained note that is meant to be used as scratchpad. 
 
 <a href="https://www.loom.com/share/2fd3042119124df8bb4592d8ffe6d708"> 
 <img style="" src="https://cdn.loom.com/sessions/thumbnails/2fd3042119124df8bb4592d8ffe6d708-with-play.gif"> </a>
+
+## Meeting Note
+
+![[dendron://dendron.dendron-site/dendron.topic.special-notes.meeting-note]]
+
+## Proxy Notes
+
+- status: #stage.seed
+
+A [[Proxy Note|dendron://dendron.docs/rfc.38-links-to-non-note-files#proxy-notes]] is a note that contain a special property in their
+frontmatter to specify that they are a proxy for a specific uri.
+
+By adding a uri property to the frontmatter, executing [[dendron.ref.commands.goto]] over the link will open the uri instead of navigating to the note.  
+
+### Additional Features
+
+Enhance your meeting notes with additional capabilities provided by Dendron:
+
+- To keep track of attendees and any follow up tasks they may have, you can create notes for each user and then add [[user tags|dendron://dendron.dendron-site/dendron.topic.users#user-tags]] to each follow up task. Then, from the user note, you can quickly search the backlinks panel to see which tasks they have assigned to them.
+- For any follow up tasks that require more information, you can try out [[task notes|dendron://dendron.dendron-site/dendron.ref.commands#create-task-note]] to create a note with more details and track task completion.
 
 ## Configuration
 

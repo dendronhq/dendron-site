@@ -2,11 +2,228 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1649716462709
+updated: 1657018648882
 created: 1601508213606
 nav_order: 2
 ---
 
+## 0.102.0
+
+### Features
+- feat(cli): add a cli command that generates a packed-circles visualization of workspace (#3057) @hayata ([[docs|dendron://dendron.dendron-site/dendron.topic.packed-circles]])
+
+### Enhancements
+- enhance(markdown): add new template variables (#3159) @hayata [[docs|dendron://dendron.dendron-site/dendron.topic.templates.template-variables]]
+- enhance(publish): add "link to anchor" icon by headings and block anchors (#3132) @kaan
+- enhance(publish): faster rendering of sidebar in published site (#3121) @joshi
+
+### Fix
+- fix(workspace): sync fails in shared workspaces if users update workspace config first before syncing migrated vaults (#3141) @kaan
+- fix(structure): quickpick stuck issue for refactor hierarchy cmd (#3152) @jonathan
+- fix(workspace): removing vault with a name different than their `fsPath` doesn't remove them from `duplicateNoteBehavior` (#3151) @kaan
+- fix(workspace): duplicate note id detected even after a file is removed (#3155) @hikchoi
+- fix(views): backlink tree item labels are trimmed excessively (#3169) @hikchoi
+- fix(publish): regression where publishing fails if note doesn't exist (#3178)  @kevin
+- fix(workspace): fix init in workspace without workspace folders (#3181) @kevin
+
+## 0.101.0
+
+### Features
+- feat(views): view more note links in local graph panel with depth customization (#3072) @joshi ([[docs|dendron://dendron.dendron-site/dendron.topic.graph-view#other-filters]])
+
+### Enhancements
+- enhance(workspace): `Vault Add` command warns for unsupported transitive dependencies (#3087) @kaan [docs](https://wiki.dendron.so/notes/q9yo0y7czv8mxlkbnw1ugj1/)
+- enhance(workspace): vaults always use UNIX style separators in config files (#3096) @kaan
+- enhance(workspace): validate dendronrc.yml and emit error if invalid (#3106) @kevin
+- enhance(edit): add match helper for hb templates (#3094) @kevin  ([[docs|dendron://dendron.dendron-site/dendron.topic.templates.template-helpers#match]])
+- enhance(workspace): improve phrasing of sync message (#3115) @avhb
+- enhance(workspace): support single-vault workspace vaults for self contained vault migration (#3118) @kaan
+- enhance(edit): reduce lag on autocomplete by adding a debounce (#3116) @hikchoi
+- enhance(structure): improved note traits (#3098) @jonathan ([[docs|dendron://dendron.dendron-site/dendron.topic.traits]])
+- enhance(sync): adding import hint to tutorial (#3135) @jonathan
+
+### Fixes
+- fix(workspace): try to patch `EPERM` issues for windows (#3082) @kaan
+- fix(workspace): Adding an existing remote vault avoids creating workspace files (#3096) @kaan
+- fix(publish): issue publishing note with ref without a code-worksapce file #3114  @kevin
+- fix(cli): dendron publish --help to display full list of arguments (#3127) @joshi
+- fix(workspace): error when native workspaces are initializing (#3123) @kaan
+- fix(publish): compile error with no banner present(#3133) @kevin
+- fix(structure): hot reload in note traits + no template by default #3154 @jonathan
+
+## 0.100.0
+
+### Features
+- feat(views): recent workspaces panel (#3052) @jonathan ([[docs|dendron://dendron.dendron-site/dendron.topic.sidebar.recent-workspaces]])
+
+### Enhancements
+- enhance(cli): updated dendron lookup command #3043 @kevin ([[docs|dendron://dendron.dendron-site/dendron.topic.notes.cli.lookup-legacy]])
+- enhance(views): add tooltip on hover for graph nodes #3060 @joshi ([[docs|dendron://dendron.dendron-site/dendron.topic.graph-view#features]])
+- enhance(edit): this sets handlebars as the default template format #3070 @kevin
+- enhance(edit): configute templateHierarchy when applying template #3069 @kevin ([[docs|dendron://dendron.dendron-site/dendron.topic.templates.config.templateHierarchy]])
+- enhance(retrieve): faster link completions #3044  @kevin #star
+- enhance(edit): remove deprecated `Insert Note` command #3083 @kevin
+- enhance(workspace): prompt to update seed vault configuration during sync if the seed configuration changed (#3080) @kaan
+- enhance(workspace): v100 landing page (#3103) @jonathan
+
+### Fixes
+- fix(workspace): migrate to self contained vault causes `EBUSY` errors on Windows #3067 @kaan
+- fix(refactor): updated refactor hierarchy message to include no. of files changed #3078 @joshi
+- fix(views): issue with help and feedback panel launching a link once even if was clicked multiple times (#3089) @jonathan
+- fix(edit): autocomplete issues with tags and mentions (#3107) @kevin
+
+## 0.99.0
+
+### Features
+- feat(structure): add set task status command (#3033) @kaan ([[docs|dendron://dendron.dendron-site/dendron.ref.commands#set-task-status]])
+- feat(structure): add complete task command (#3033) @kaan ([[docs|dendron://dendron.dendron-site/dendron.ref.commands#complete-task]])
+- feat(sync): obsidian import flow (#3014) @jonathan ([[docs|dendron://dendron.dendron-site/dendron.ref.commands#import-obsidian-vault]])
+
+### Enhancements
+- enhance(publish): make the private link colors customizable (#3035) @kaan ([[docs|dendron://dendron.dendron-site/dendron.topic.theme.publish.cook#change-the-color-of-a-private-link]])
+- enhance(views): configure creation of notes on click of graph node with `createStubs` #3032 @joshi ([[docs|dendron://dendron.dendron-site/dendron.topic.graph-view#create-stub]])
+- enhance(workspace): detect duplicate note id on lifecycle events (#2991) @hikchoi
+
+### Fixes
+- fix(workspace): fix duplicated panel titles (#3016) @jonathan
+- fix(edit): email addresses and hash symbols inside words are parsed as tags (#3064) @kaan
+- fix(views): gracefully handle tree view sort error to avoid crashing the tree view (#3053) @hikchoi
+
+## 0.98.0
+
+### Features
+- feat(views): Preview uses your VSCode theme colors, and supports custom themes ([[docs|dendron://dendron.dendron-site/dendron.topic.theme]]) (#2984) @kaan 
+- feat(navigate): Backlink Panel with Hover ([[docs|dendron://dendron.dendron-site/dendron.topic.sidebar.backlinks]]) (#2904) @jonathan
+- feat(edit): template helpers ([[docs|dendron://dendron.dendron-site/dendron.topic.templates.template-helpers]]) (#3029) @kevin #stars
+
+### Enhancements
+- enhance(view): decrease min zoomed font-size for node labels in graph panel (#2996) @joshi
+- enhance(workspace): "migrate to self contained vault" updates `logoPath` and moves gitignore file (#2998) @kaan
+- enhance(extend): add axios to hook function ([[docs|dendron://dendron.dendron-site/dendron.topic.hooks.quickstart#setup]]) (#3001) @Maarrk#9537
+
+### Fix
+- fix(publish): export gets stuck if `logoPath` is set but the logo doesn't exist (#2959) @kaan
+- fix(views): added default initial theme for webviews (#3013) @joshi
+- fix(views): bullet points missing in new theme-matching style (#3023) @kaan
+- fix(views): backlinks panel tweaks (#3031) @jonathan
+- fix(views): images with encoded uri are not rendered in the preview (#3006) [tenheadedlion](https://github.com/tenheadedlion)
+
+## 0.97.0
+
+### Features
+- feat(markdown): handlebar based templates ([[docs|dendron://dendron.dendron-site/dendron.topic.templates.handlebars]]) (#2954)  @kevin 
+- feat(edit): add command to apply a template ([[docs|dendron://dendron.dendron-site/dendron.topic.templates.commands.apply-template]]) (#2982) @kevin 
+- feat(views): display task note status when linking to task notes in publishing and in preview (#2931) @kaan
+- feat(workspace): Add a command to migrate regular vaults into self contained vaults ([[docs|dendron://dendron.dendron-site/dendron.ref.commands#migrate-to-self-contained-vault]]) (#2915) @kaan
+- feat(publish): dark theme support ([[docs|dendron://dendron.dendron-site/dendron.topic.theme.publish.quickstart#using-the-built-in-dark-theme]]) (#2941) @kaan 
+- feat(publish): ability to exclude children in dendron side nav ([[docs|dendron://dendron.dendron-site/dendron.topic.publish.config.nav_exclude_children]]) (#2962) @kevin
+
+### Enhancements
+- enhance(edit): additional built-in variables for templates ([[docs|dendron://dendron.dendron-site/dendron.topic.templates.template-variables#handlebar-only]]) (#2954) @kevin
+- enhance(views): upgrade mermaid to v9.1.1 (#2951) @kaan
+- enhance(navigate): make wikilinks clickable in hover (#2949) @jonathan
+- enhance(workspace): better feedback to users for invalid dendron.yml (#2940) @hikchoi
+
+### Fixes
+- fix(publish): publishing to respect enableHierarchyDisplay (#2946) @joshi
+- fix(publish): assetsPrefix breaks images (#2963) @kaan
+- fix(publish): "edit this page on ..." link uses the wrong path for self contained vaults (#2966) @kaan
+- fix(workspace): Help and Feedback Panel not empty outside of dendron ws (#2974) @jonathan
+
+
+## 0.96.0
+
+### Features
+- feat(workspace): local graph view in the Dendron Side Panel (#2901) @joshi
+
+### Enhancements
+- enhance(workspace): make self contained vaults default for all new workspaces (#2935) @kaan
+
+### Fixes
+- fix(workspace): block anchor after table crashes preview (#2936) @kaan
+- fix(workspace): doctor removeStubs resulting in 'no data' prompt (#2944) @joshi
+
+## 0.95.0
+### Features
+- feat(chore): preview support for local configuration overrides ([[docs|dendron://dendron.dendron-site/dendron.topic.local-config-override]]) (#2794) @kevin
+- feat(views): allow customization of tree view display and sorting behavior (#2858) @hikchoi
+- feat(publish): custom theme support for publishing  ([[docs|dendron://dendron.dendron-site/dendron.topic.theme.publish]]) (#2887) @kaan 
+
+### Enhancements
+- enhance(workspace): speed up workspace initialization (up to 10x speed up of workspace initialization) (#2903) @tuling
+- enhance(views): set `full graph` as default(#2890) @joshi
+- enhance(views): display workspace information in full graph view (#2886) @joshi
+- enhance(workspace): new user tutorials (#2889) @hikchoi
+
+### Fixes
+- fix(publish): published images missing leading forward slashes (#2899) @kaan
+
+
+## 0.94.0
+### Features
+- feat(navigation): add goto command: ([[docs|dendron.ref.commands.goto]])
+- feat: Add doctor command to remove deprecated config and prompt on upgrade (#2841) @hikchoi
+
+### Enhancements
+- enhance(view): graph themes (#2806) ([[docs|dendron://dendron.dendron-site/dendron.topic.graph-view#graph-theme]] )@joshi
+<!-- this is a common issue when people c/p notes. will now be auto-detected -->
+- enhance(workspace): detect and warn for duplicate note IDs (#2879) @kaan
+- enhance(view): help and feedback panel (#2877) @jonathan 
+- enhance(workspace): use better defaults for `Create Task Note` ([[docs|dendron://dendron.dendron-site/dendron.topic.tasks#configuration]]) (#2855) @kaan
+- enhance(commands): prefix paste-image command with "Dendron" for uniformity (dendronhq/dendron-paste-image#4)  @kaan
+- enhance(cli): cli will report invalid commands (#2876) `@Jack of some quantity of trades#3247`
+- enhance(view): make dendron side bar visible when dendron not active (#2881) @jonathan
+
+### Fix
+- fix: bad wikilink is created with selection2link if selection is multi-line (#2856) @kaan
+- fix: insert note index `#undefined` in case missing tags (#2789) `huland#6948`
+- fix: highlighting misidentified capitalized header anchors on links as missing (#2872) @kaan
+- fix: CLI writes "cli" as the version into the meta file which breaks initialization (#2871) @kaan
+- fix: self contained vaults get cloned into the wrong directory (#2873) @kaan
+
+
+## 0.93.0
+### Features
+- feat(views): Dendron Side Panel (#2832) @jonathan 
+
+### Enhancements
+- enhance(views): remove web view version of tree view (#2822) @hikchoi
+
+### Fix
+- fix(views): fix various issues with tree view not updating (#2805) @hikchoi
+
+## 0.92.0
+### Enhancements 
+- enhance(workspace): `vault convert` now works with self contained vaults (#2745) @kaan 
+- enhance(views): optimize graph view load times - 100x improvement on large workspaces (#2797) @jonathan
+- enhance(workspace): general speed ups across multipel commands (#2798) @jonathan 
+- enhance(workspace): doctor command can detect and fix misconfigured self contained vaults (#2768) @kaan
+
+### Fix
+- fix(pods): exporting as markdown will add `.md` extension to markdown files (#2771)  @kevin
+- fix(views): multiple stability fixes for tree view (#2757) @hikchoi
+- fix(workspace): hovering an asset link while holding `ctrl` no longer opens the asset (#2784) @kaan
+- fix(view): some views don't update for new notes with self contained vaults (#2790) @kaan
+- fix(view): broken preview for links with sub-hierarchy starting with .md (#2781) @joshi
+- fix(workspace): remove stale entries from cache when initializing (#2756) @tuling
+
+## 0.91.0
+### Features
+- feat(workspace): option to gen title using full hierarchy ([[docs|dendron://dendron.dendron-site/dendron.ref.config.workspace#enablefullhierarchynotetitle]]) (#2593) @jonathan 
+- feat(cli): Add rename functionality to CLI (#2408) [[people.ben-ang]]
+- feat(workspace): Meeting Notes (#2727) @jonathan 
+
+### Enhancements 
+- enhance(navigation): `Dendron: Go to Note` and `Go to Definition` support assets in wikilinks (#2688) @kaan
+- enhance(workspace): workspace vault support for self contained vaults (#2728) @kaan 
+
+### Fix
+- fix(airtable): Exporting to airtable automatically saves current document (#2696) @tuling
+- fix(publish): add luxon as dev dependency (#2713) @kevin
+- fix(workspace): Dendron causes errors in non-Dendron workspaces (#2731) @kaan
+- fix(vaults): self contained vaults sync (#2758) @kaan
+- fix(view): support custom styles for Note Graph (#2760) @joshi
+- fix(view): apply current theme when vscode reduce motion setting is on (#2749) @joshi
 
 ## 0.90.0
 ### Features
@@ -316,7 +533,7 @@ Dendron previously published backlinks and child links as header/anchor sections
 - feat(refactor): New `Dendron: Convert Link` command ([[docs|dendron://dendron.dendron-site/dendron.topic.refactoring#convert-link]]) (#1933) @hikchoi
 
 ### Enhancements
-- enhance(views): adding optional _last update_ sort ordering for backlinks view ([[docs|dendron://dendron.dendron-site/dendron.topic.workbench#backlink-view-command-palette]]) (#1924) @nickolay
+- enhance(views): adding optional _last update_ sort ordering for backlinks view ([[docs|dendron://dendron.dendron-site/dendron.topic.workbench#commands]]) (#1924) @nickolay
 - enhance(pods): better support for GitHub Issue and task notes ([[docs|dendron://dendron.dendron-site/dendron.topic.pod.builtin.github-issue.publish#aliasmapping]]) (#1918) @joshi
 - enhance(commands): `Dendron: Delete Node` command warns about links that will break, prompting users before deletion ([[docs|dendron://dendron.dendron-site/dendron.ref.commands#delete-node]]) (#1885) @hikchoi
 - enhance(lookup): better error message when using schema lookup (#1914) @tuling

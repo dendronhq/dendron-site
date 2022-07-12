@@ -1,16 +1,23 @@
 ---
 id: xUh9GJgBLYk5HoEHLCopP
 title: Property
-desc: 'Template for individual configuration property documents.'
-updated: 1645168284443
+desc: ''
+updated: 1657226661592
 created: 1645167115254
 ---
 
 ## Summary
-
+{{!
+- type values: number|string|object|boolean
+}}
 - type: ``
 - default: `` 
 - required: ``
+{{!
+Is this option available in the frontmatter?
+- values: true|false|only
+}}
+- frontmatter: ``
 
 ## Description
 {{fm.desc}}
