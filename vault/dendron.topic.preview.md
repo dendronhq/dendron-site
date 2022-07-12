@@ -2,7 +2,7 @@
 id: Lnp1URddmWEWweyf
 title: Preview
 desc: ''
-updated: 1653385529025
+updated: 1657586875968
 created: 1626382220182
 ---
 
@@ -24,6 +24,9 @@ If you discover any issues that are not listed above, please submit a bug repo [
 ## Cook
 
 ### Uninstall Dendron Markdown Preview Enhanced
+
+> Dendron Markdown Preview Enhanced is deprecated, and no longer supported. If installed, it should be uninstalled.
+
 1. Enable Preview V2 in your dendron.yml 
 2. Uninstall Dendron Markdown Preview Enhanced
 
