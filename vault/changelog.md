@@ -14,7 +14,7 @@ nav_order: 2
 
 ### Enhancements
 - enhance(workspace): Show notice for manual migration if upgrading from from legacy versions (#3161) @hikchoi
-- enhance(navigate): make `Go To` command also open external links #3175 @hayata ([[docs|dendron://dendron.dendron-site/dendron.ref.commands.goto]])
+- enhance(navigate): `Go To` command also open external links #3175 @hayata ([[docs|dendron://dendron.dendron-site/dendron.ref.commands.goto]])
 - enhance(workspace): remove getting started from initial tutorial (#3205) @kevin
 - enhance(edit): delete command also closes current window (#3215) @hayata
 
