@@ -2,7 +2,7 @@
 id: 683740e3-70ce-4a47-a1f4-1f140e80b558
 title: FAQ
 desc: ""
-updated: 1657703742196
+updated: 1657703918681
 created: 1595952505025
 stub: false
 nav_order: 3.01
@@ -119,8 +119,8 @@ You are also free to use the body however you wish.
 
 Yes. You can move notes manually outside of Dendron or between different vaults. Some things to keep in mind:
 
--   you should keep the `id` of the note since features like publishing depend on it to find the right link
--   if your notes have [[Cross Vault Links|dendron.topic.links#cross-vault-links]] (only applicable for [[Multi Vault|dendron.topic.multi-vault]]), those links might break if they are moved to a different workspace that doesn't have reference to the original vault
+-   You should keep the `id` of the note since features like publishing depend on it to find the right link.
+-   If your notes have [[Cross Vault Links|dendron.topic.links#cross-vault-links]] (only applicable for [[Multi Vault|dendron.topic.multi-vault]]), those links might break if they are moved to a different workspace that doesn't have a reference to the original vault.
 
 ## Hierarchies
 
