@@ -2,7 +2,7 @@
 id: 683740e3-70ce-4a47-a1f4-1f140e80b558
 title: FAQ
 desc: ""
-updated: 1657701872707
+updated: 1657701979581
 created: 1595952505025
 stub: false
 nav_order: 3.01
@@ -198,7 +198,7 @@ What this will be in the future:
 
 ### Git Doc and other extensions don't recognize my repos for multi-vault
 
-Many VS Code extensions that work across multiple git repositories won't recognize repos nested another repo. The way to fix this is by having your workspace be the last entry inside `folders` in your code workspace file (Dendron does this by default for new workspaces and if you add new vaults using `Vault Add`). You can see an example below. You can see a published example of this setup [here](https://github.com/kevinslin/kevin-garden)
+Many VS Code extensions that work across multiple Git repositories won't recognize repos nested in another repo. The way to fix this is by having your workspace be the last entry inside `folders` in your code workspace file (Dendron does this by default for new workspaces and if you add new vaults using `Vault Add`). You can see an example below. You can find a published example of this setup [here](https://github.com/kevinslin/kevin-garden).
 
 ```json
     "folders": [
