@@ -1,8 +1,8 @@
 ---
 id: 683740e3-70ce-4a47-a1f4-1f140e80b558
 title: FAQ
-desc: ''
-updated: 1654694842562
+desc: ""
+updated: 1657698136797
 created: 1595952505025
 stub: false
 nav_order: 3.01
@@ -12,15 +12,15 @@ All the questions we thought you might ask.
 
 ## General
 
-### Public Issues 
+### Public Issues
 
-- Issues that are frequently brought up in discord are posted in this public data view
-- You can use the filter tab to filter by specific issues
-- You can group issues by scope - see [[Product Scopes|dendron://dendron.dendron-site/dendron.ref.scopes]] for more details
+-   Issues that are frequently brought up in discord are posted in this public data view
+-   You can use the filter tab to filter by specific issues
+-   You can group issues by scope - see [[Product Scopes|dendron://dendron.dendron-site/dendron.ref.scopes]] for more details
 
 <iframe class="airtable-embed" src="https://airtable.com/embed/shrJDpaQfCwVbfU0l?backgroundColor=green&viewControls=on" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
 
-#### For more information on navigating through the public issues: 
+#### For more information on navigating through the public issues:
 
 <div style="position: relative; padding-bottom: 54.37499999999999%; height: 0;"><iframe src="https://www.loom.com/embed/10b0a50c0e174750aa3ce65ee072169a" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
@@ -109,17 +109,18 @@ There are 3 ways to go back to my previous note:
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/faq.go-back.gif)
 
-### What can I do with the `root` note?
+### What can I do with the&nbsp;`root`&nbsp;note?
 
-The root note is a special note that comes with every Dendron vault. You can't rename it and we don't advise that you create a hierarchy from it. You can add custom frontmatter variables and change all existing variables except the `id` field. 
+The root note is a special note that comes with every Dendron vault. You can't rename it and we don't advise that you create a hierarchy from it. You can add custom frontmatter variables and change all existing variables except the `id` field.
 
-You are also free to use the body however you wish. 
+You are also free to use the body however you wish.
 
 ### Can I manually move notes?
 
 Yes. You can move notes manually outside of Dendron or between different vaults. Some things to keep in mind:
-- you should keep the `id` of the note since features like publishing depend on it to find the right link
-- if your notes have [[Cross Vault Links|dendron.topic.links#cross-vault-links]] (only applicable for [[Multi Vault|dendron.topic.multi-vault]]), those links might break if they are moved to a different workspace that doesn't have reference to the original vault
+
+-   you should keep the `id` of the note since features like publishing depend on it to find the right link
+-   if your notes have [[Cross Vault Links|dendron.topic.links#cross-vault-links]] (only applicable for [[Multi Vault|dendron.topic.multi-vault]]), those links might break if they are moved to a different workspace that doesn't have reference to the original vault
 
 ## Hierarchies
 
@@ -127,9 +128,9 @@ Yes. You can move notes manually outside of Dendron or between different vaults.
 
 Users of other note-taking tools often balk at Dendron's focus on hierarchies. The common counterpoint is that the real world is not constrained by hierarchy and that this approach isn’t flexible enough for what they want to do. These users argue for [[graphs|dendron://dendron.dendron-site/dendron.topic.graph-view]] and [[backlinks|dendron://dendron.dendron-site/dendron.topic.links#backlinks]] as a better primary model for managing knowledge.
 
-A graph is indeed more flexible. If we were building a digital brain for computers to perfectly model the world, we would probably go with this approach. But we’re not building a tool for computers to capture every facet of the world, we’re building a tool to help humans make sense of it. The challenge we face as humans is information overload. There is too much of it and we need ways of constraining that complexity. Filtering large amounts of information into exponentially smaller subsets is what hierarchies are built for (and why they are used as the core primitive in every database ever created). 
+A graph is indeed more flexible. If we were building a digital brain for computers to perfectly model the world, we would probably go with this approach. But we’re not building a tool for computers to capture every facet of the world, we’re building a tool to help humans make sense of it. The challenge we face as humans is information overload. There is too much of it and we need ways of constraining that complexity. Filtering large amounts of information into exponentially smaller subsets is what hierarchies are built for (and why they are used as the core primitive in every database ever created).
 
-With a hierarchy, you have one source of truth where a note can be filed and a filtering process to help you find the right place to file. Note that this doesn't limit you to creating secondary associations using backlinks, tags, and keywords.  
+With a hierarchy, you have one source of truth where a note can be filed and a filtering process to help you find the right place to file. Note that this doesn't limit you to creating secondary associations using backlinks, tags, and keywords.
 
 The traditional failings of past hierarchies were that they were too rigid. Most people’s experience with hierarchies are folder hierarchies that ossify from the moment that they are created. These hierarchies are hard to change and so people don’t change them, even as their underlying understanding of the domain changes. It is because of this friction that most new tools focus on note creation without any predefined structure. This approach makes creating notes easy but finding notes hard.
 
@@ -159,10 +160,9 @@ This comes up a lot especially when your dealing with organizing collections of 
 
 1. Use [[tags|dendron.topic.tags]]. Tags work best with categorical data. If you use **Dendron Tags** (aka they're really hierarchies), then you have the added advantage of being able to refactor and track your tags using Dendron's existing hierarchal tooling.
 
-
 ### Will Dendron ever support folders?
 
-It is possible though most of the approaches we've thought of would take a large amount of effort and deliver questionable benefit on top of what's already planned (for more info, see the discussion [here](https://github.com/dendronhq/dendron/issues/210)). 
+It is possible though most of the approaches we've thought of would take a large amount of effort and deliver questionable benefit on top of what's already planned (for more info, see the discussion [here](https://github.com/dendronhq/dendron/issues/210)).
 
 If you want the ability to collapse folders, you can use the [[Dendron tree view|dendron.topic.workbench#dendron-tree-view]]. For existing folder based notes and assets, you can use the [[Markdown pod|dendron.topic.pod.builtin.markdown.import]] to import them into Dendron.
 
@@ -184,13 +184,15 @@ But even if you don't have a lot of notes, schemas are helpful because they prov
 
 ### How do schemas work with multi-vault?
 
-The short answer currently is *not very well* 😅
-- if two schemas overlap between different vaults, the last schema wins
-- schema imports don't currently work x-vault
+The short answer currently is _not very well_ 😅
+
+-   if two schemas overlap between different vaults, the last schema wins
+-   schema imports don't currently work x-vault
 
 What this will be in the future:
-- schemas should only work on the vault that they are declared in, and you can have an option to specify (in `dendron.yml` if you want a schema to be global)
-- schema imports should work xvault (import syntax will be `{vaultName}.{schemaName}`)
+
+-   schemas should only work on the vault that they are declared in, and you can have an option to specify (in `dendron.yml` if you want a schema to be global)
+-   schema imports should work xvault (import syntax will be `{vaultName}.{schemaName}`)
 
 ## Vaults
 
@@ -218,12 +220,11 @@ Many VS Code extensions that work across multiple git repositories won't recogni
 ## Humans
 
 ### How do I share my notes with others?
-1. The *easiest* way to share public documents *for consumers* is to publish it as a site. Instructions [[here|dendron.topic.publish-legacy.quickstart]]
+
+1. The _easiest_ way to share public documents _for consumers_ is to publish it as a site. Instructions [[here|dendron.topic.publish-legacy.quickstart]]
 2. If folks are comfortable with Markdown, you can use the Markdown pod to export your entire workspace or just a specific page to Markdown. Instructions [[here|dendron.topic.pod.builtin.markdown]]
     - NOTE: this doesn't preserve backlinks or assets
 3. The full experience is committing your workspace as a git repo and having collaborators use Dendron to add it as a [[Remote Vault|dendron.topic.vaults#remote-vault]]
-
-
 
 ## Pods
 
@@ -236,6 +237,7 @@ Internally for example, we use Google Docs to take meeting notes collaboratively
 You can read more about them [[here|dendron.topic.pod]].
 
 ## Publishing
+
 ![[dendron://dendron.dendron-site/dendron.topic.publish-legacy.faq]]
 
 ## Search and Filtering
@@ -267,21 +269,23 @@ We don't natively support this but we recommend you do this today using the [Tex
 
 We recommend using one of the following tools to clip articles:
 
-- [Markdown Web](https://chrome.google.com/webstore/detail/markdownload-markdown-web/pcmpcfapbekmbjjkdalcgopdkipoggdi?hl=en-GB)
-- [Roam Highlighter](https://chrome.google.com/webstore/detail/mcoimieglmhdjdoplhpcmifgplkbfibp)
+-   [Markdown Web](https://chrome.google.com/webstore/detail/markdownload-markdown-web/pcmpcfapbekmbjjkdalcgopdkipoggdi?hl=en-GB)
+-   [Roam Highlighter](https://chrome.google.com/webstore/detail/mcoimieglmhdjdoplhpcmifgplkbfibp)
 
 ### Does Dendron support flashcards?
 
 We recommend using one of the following extensions to do flashcards:
-- [Recall - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=frenya.vscode-recall)
-- [Anki for VSCode - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=jasew.anki)
+
+-   [Recall - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=frenya.vscode-recall)
+-   [Anki for VSCode - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=jasew.anki)
 
 ### Does Dendron support video?
 
-We currently don't support video playback from within iframes inside of VS Code. This works when publishing but not inside the VS Code preview. 
+We currently don't support video playback from within iframes inside of VS Code. This works when publishing but not inside the VS Code preview.
 This is a limitation in the VS Code webview, see more details [here](https://github.com/microsoft/vscode/issues/54097).
 
 Currently, the recommendation is to link to your video (using a regular Markdown link if its online or a wikilink if its local). See [[File Links|dendron://dendron.dendron-site/dendron.topic.links#file-links]].
+
 ## Other
 
 ### How to launch Dendron with most recent vault quickly?
@@ -303,7 +307,6 @@ root.schema.yml is a schema that is global for all hierarchies (normally, a sche
 Now this isn't required per-say, we could just do away with **root** notes and stick strictly to hierarchies and this might be an option in the future but this is the reasoning at the current time
 
 ps. root.schema.yml doesn't work right now as described in the sense that we haven't implemented global schemas yet
-
 
 ### Is there a list of keyboard shortcuts I can see?
 
@@ -335,14 +338,13 @@ This can be done with some extensions that are external to Dendron such as:
 
 It is also described in our [[tip|dendron.guides.tips#automate-git-tasks,1:#*]] note.
 
-
 ### Dendron 11ty Package Version is Confusing
 
 Dendron 11ty used to be published outside of the monorepo and started with 1.x version whereas the monorepo started with 0.x .
 
-After we synced, we synced 11ty versioning and brought it down to 0.x. every minor release, we also publish the 1.x version of the 11ty package to make it consistent but during patch releases, we just keep the 0.x numbering. 
+After we synced, we synced 11ty versioning and brought it down to 0.x. every minor release, we also publish the 1.x version of the 11ty package to make it consistent but during patch releases, we just keep the 0.x numbering.
 
-Its a bit of a hack and something that should go away in July 2021, when we switch to Next.js based publishing. 
+Its a bit of a hack and something that should go away in July 2021, when we switch to Next.js based publishing.
 
 ### VS Code is telling me I have to authorize Dendron to run some code
 
