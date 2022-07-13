@@ -2,7 +2,7 @@
 id: 683740e3-70ce-4a47-a1f4-1f140e80b558
 title: FAQ
 desc: ""
-updated: 1657703918681
+updated: 1657704100267
 created: 1595952505025
 stub: false
 nav_order: 3.01
@@ -92,9 +92,9 @@ Dendron automatically saves when you change focus (switch tabs or applications).
 
 ### How do I go back to the previous note?
 
-There are 3 ways to go back to my previous note:
+There are three ways to go back to your previous note:
 
-1. `ctrl-tab` (go to previous tab with default VS Code settings)
+1. `ctrl-tab` ("Go to the previous tab" when using the default VS Code settings).
 2. click on the previous tab
 3. using the open editors pane
 
