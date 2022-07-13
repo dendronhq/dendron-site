@@ -2,7 +2,7 @@
 id: 683740e3-70ce-4a47-a1f4-1f140e80b558
 title: FAQ
 desc: ""
-updated: 1657700876862
+updated: 1657701025772
 created: 1595952505025
 stub: false
 nav_order: 3.01
@@ -290,7 +290,7 @@ Currently, the recommendation is to link to your video (using a regular Markdown
 
 ### How to launch Dendron with most recent vault quickly?
 
-In menu bar of VS Code, select `File` -> `New Window` and click the Dendron workspace in Recent section of the Welcome tab.
+In the menu bar of VS Code, select `File` -> `New Window` and click the Dendron workspace in the Recent section of the Welcome tab.
 
 ### Why are there&nbsp;`root`&nbsp;files in my notes?
 
