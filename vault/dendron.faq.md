@@ -2,7 +2,7 @@
 id: 683740e3-70ce-4a47-a1f4-1f140e80b558
 title: FAQ
 desc: ""
-updated: 1657701025772
+updated: 1657701247141
 created: 1595952505025
 stub: false
 nav_order: 3.01
@@ -282,7 +282,8 @@ We recommend using one of the following extensions to do flashcards:
 ### Does Dendron support video?
 
 We currently don't support video playback from within iframes inside of VS Code. This works when publishing but not inside the VS Code preview.
-This is a limitation in the VS Code webview, see more details [here](https://github.com/microsoft/vscode/issues/54097).
+
+This is a limitation in VS Code's webview, for more details see [this](https://github.com/microsoft/vscode/issues/54097).
 
 Currently, the recommendation is to link to your video (using a regular Markdown link if its online or a wikilink if its local). See [[File Links|dendron://dendron.dendron-site/dendron.topic.links#file-links]].
 
