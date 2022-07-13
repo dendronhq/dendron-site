@@ -2,7 +2,7 @@
 id: 683740e3-70ce-4a47-a1f4-1f140e80b558
 title: FAQ
 desc: ""
-updated: 1657701247141
+updated: 1657701357778
 created: 1595952505025
 stub: false
 nav_order: 3.01
@@ -263,7 +263,7 @@ We support having a data view but not in the same way. For data views, we have a
 
 ### Can Dendron auto format Markdown tables?
 
-We don't natively support this but we recommend you do this today using the [Text Tables Extension](https://marketplace.visualstudio.com/items?itemName=RomanPeshkov.vscode-text-tables)
+We don't natively support this but we recommend you do this using the [Text Tables Extension](https://marketplace.visualstudio.com/items?itemName=RomanPeshkov.vscode-text-tables)
 
 ### Does Dendron support web clipping?
 
