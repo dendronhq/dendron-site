@@ -2,7 +2,7 @@
 id: 683740e3-70ce-4a47-a1f4-1f140e80b558
 title: FAQ
 desc: ""
-updated: 1657701357778
+updated: 1657701432360
 created: 1595952505025
 stub: false
 nav_order: 3.01
@@ -259,7 +259,7 @@ For now, we recommend you use the [[search editor|dendron.guides.tips#search-edi
 
 ### Does Dendron support a data view similar to Obsidian and Notion?
 
-We support having a data view but not in the same way. For data views, we have an [[Airtable Pod|dendron://dendron.dendron-site/dendron.topic.pod.builtin.airtable]] which lets you map frontmatter from your notes and export it to Airtable. This way, you can use the full power of Airtable for a fully featured data view (This is how we manage tasks in Dendron)
+We support having a data view but not in the same way. For data views, we have an [[Airtable Pod|dendron://dendron.dendron-site/dendron.topic.pod.builtin.airtable]] which lets you map frontmatter from your notes and export it to Airtable. This way, you can use the full power of Airtable for a fully featured data view (This is how we manage tasks in Dendron).
 
 ### Can Dendron auto format Markdown tables?
 
