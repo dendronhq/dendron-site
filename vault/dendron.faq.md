@@ -2,7 +2,7 @@
 id: 683740e3-70ce-4a47-a1f4-1f140e80b558
 title: FAQ
 desc: ""
-updated: 1657702814287
+updated: 1657703159517
 created: 1595952505025
 stub: false
 nav_order: 3.01
@@ -156,9 +156,7 @@ You can, and are encouraged to, combine these other workflows with Dendron hiera
 
 ### What if I have a note that belongs in multiple hierarchies?
 
-This comes up a lot especially when your dealing with organizing collections of things, like music or books. There are a few approaches we recommend here.
-
-1. Use [[tags|dendron.topic.tags]]. Tags work best with categorical data. If you use **Dendron Tags** (aka they're really hierarchies), then you have the added advantage of being able to refactor and track your tags using Dendron's existing hierarchal tooling.
+This comes up a lot especially when you are dealing with organizing collections of things, like music or books. The approach that we recommend is to use [[tags|dendron.topic.tags]]. Tags work best with categorical data. If you use **Dendron Tags** (they are really hierarchies), then you have the added advantage of being able to refactor and track your tags using Dendron's existing hierarchal tooling.
 
 ### Will Dendron ever support folders?
 
