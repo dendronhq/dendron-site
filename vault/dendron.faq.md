@@ -2,7 +2,7 @@
 id: 683740e3-70ce-4a47-a1f4-1f140e80b558
 title: FAQ
 desc: ""
-updated: 1657704473599
+updated: 1657705046083
 created: 1595952505025
 stub: false
 nav_order: 3.01
@@ -48,17 +48,17 @@ This means you can start with [[daily journals|dendron.topic.daily-journal-note#
 
 ### Is Dendron free? Will it stay free?
 
-Dendron, the client, is free and will always remain free. It is also open source so anyone is free to make their own fork of Dendron.
+Dendron, the client, is free and will always remain free. It is also open source, so anyone is free to make their own fork of Dendron.
 
-That being said, I'm all in on Dendron and this is my full time gig. I want to make sure that developing Dendron remains sustainable. To that end, I plan on introducing value add server side functionality that folks may pay for. Examples of paid for features include:
+That being said, I'm all in on Dendron, and this is my full-time gig. I want to make sure that developing Dendron remains sustainable. To that end, I plan on introducing value-add server-side functionality that folks may pay for. Examples of paid-for features include:
 
--   private hosting (for folks who want to publish but not use GitHub Pages or want to add authentication)
--   enterprisy things
-    -   eg. on premise installations of Dendron with single sign on, active directory, and fine grained permissions
--   offering private subscription based vaults (eg. think [substack](https://substack.com) but having people subscribe to vaults instead of newsletters )
--   server side IFTTT like functionality (eg. everytime I add an entry to Airtable, add a note to Dendron)
+-   Private hosting (for folks who want to publish but not use GitHub Pages or want to add authentication)
+-   enterprisy things:
+    -   eg. on-premise installations of Dendron with single sign-on, Active Directory, and fine grained permissions.
+-   Offering private subscription-based vaults (eg. think [substack](https://substack.com) but having people subscribe to vaults instead of newsletters ).
+-   Server-side IFTTT like functionality (eg. everytime I add an entry to Airtable, add a note to Dendron).
 
-Paid for features will be 100% optional and will not be necessary for any client side functionality in Dendron.
+Paid for features will be 100% optional and will not be necessary for any client-side functionality in Dendron.
 
 ### Why is Dendron built on top of VS Code?
 
