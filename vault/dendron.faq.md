@@ -2,7 +2,7 @@
 id: 683740e3-70ce-4a47-a1f4-1f140e80b558
 title: FAQ
 desc: ""
-updated: 1657699397459
+updated: 1657699504154
 created: 1595952505025
 stub: false
 nav_order: 3.01
@@ -360,7 +360,7 @@ You can still use all of Dendron's features in restricted mode except [[hooks|de
 
 Dendron has a client-server architecture.
 
-The extension talks to a (local) express server for a lot of the features and this is why it's opening new ports.
+The extension talks to a (local) Express server for a lot of the features and this is why it's opening new ports.
 
 ### How do I setup Dendron to work between multiple machines?
 
