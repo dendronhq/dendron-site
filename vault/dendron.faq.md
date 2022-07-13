@@ -2,7 +2,7 @@
 id: 683740e3-70ce-4a47-a1f4-1f140e80b558
 title: FAQ
 desc: ""
-updated: 1657703159517
+updated: 1657703742196
 created: 1595952505025
 stub: false
 nav_order: 3.01
@@ -128,7 +128,7 @@ Yes. You can move notes manually outside of Dendron or between different vaults.
 
 Users of other note-taking tools often balk at Dendron's focus on hierarchies. The common counterpoint is that the real world is not constrained by hierarchy and that this approach isn’t flexible enough for what they want to do. These users argue for [[graphs|dendron://dendron.dendron-site/dendron.topic.graph-view]] and [[backlinks|dendron://dendron.dendron-site/dendron.topic.links#backlinks]] as a better primary model for managing knowledge.
 
-A graph is indeed more flexible. If we were building a digital brain for computers to perfectly model the world, we would probably go with this approach. But we’re not building a tool for computers to capture every facet of the world, we’re building a tool to help humans make sense of it. The challenge we face as humans is information overload. There is too much of it and we need ways of constraining that complexity. Filtering large amounts of information into exponentially smaller subsets is what hierarchies are built for (and why they are used as the core primitive in every database ever created).
+A graph is indeed more flexible. If we were building a digital brain for computers to perfectly model the world, we would probably go with this approach. But we are not building a tool for computers to capture every facet of the world; we are building a tool to help humans make sense of it. The challenge we face as humans is information overload. There is too much of it and we need ways of constraining that complexity. Filtering large amounts of information into exponentially smaller subsets is what hierarchies are built for (and why they are used as the core primitive in every database ever created).
 
 With a hierarchy, you have one source of truth where a note can be filed and a filtering process to help you find the right place to file. Note that this doesn't limit you to creating secondary associations using backlinks, tags, and keywords.
 
