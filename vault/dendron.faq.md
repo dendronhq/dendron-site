@@ -2,7 +2,7 @@
 id: 683740e3-70ce-4a47-a1f4-1f140e80b558
 title: FAQ
 desc: ""
-updated: 1657699735011
+updated: 1657699853450
 created: 1595952505025
 stub: false
 nav_order: 3.01
@@ -330,7 +330,7 @@ The default snippets are scoped to Markdown. You can create [global snippets](ht
 
 ### I want to push all my note to my git repository periodically
 
-This can be done with some extensions that are external to Dendron such as:
+This can be done using some extensions that are external to Dendron such as:
 
 1. [autogit](https://marketplace.visualstudio.com/items?itemName=zeitnergmbh.auto-git)
 2. [gitdoc](https://marketplace.visualstudio.com/items?itemName=vsls-contrib.gitdoc)
