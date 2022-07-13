@@ -2,7 +2,7 @@
 id: 683740e3-70ce-4a47-a1f4-1f140e80b558
 title: FAQ
 desc: ""
-updated: 1657698832156
+updated: 1657699397459
 created: 1595952505025
 stub: false
 nav_order: 3.01
@@ -348,13 +348,13 @@ Its a bit of a hack and something that should go away in July 2021, when we swit
 
 ### VS Code is telling me I have to authorize Dendron to run some code
 
-VS Code recently introduced a feature called [**_workspace trust_**](https://code.visualstudio.com/docs/editor/workspace-trust), which lets you choose whether or not you trust a project folder in VS Code for automatic code execution.
+VS Code have introduced a feature called [**_workspace trust_**](https://code.visualstudio.com/docs/editor/workspace-trust), which lets you choose whether or not you trust a project folder in VS Code for automatic code execution.
 
-Since Dendron creates a workspace for your notes, VS Code is asking you if you trust the workspace Dendron just created for you.
+Since Dendron creates a workspace for your notes, VS Code is asking you if you trust the workspace that Dendron just created for you.
 
-You can choose not to trust the workspace and be in **_restricted mode_**.
+If you choose not to trust the workspace and you will be in **_restricted mode_**.
 
-You can still use all of Dendron's feature in restricted mode except [[hooks|dendron.topic.hooks]].
+You can still use all of Dendron's features in restricted mode except [[hooks|dendron.topic.hooks]].
 
 ### My firewall is asking if I wanted to open new ports when I use Dendron. Why is this?
 
