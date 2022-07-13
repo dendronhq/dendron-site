@@ -2,7 +2,7 @@
 id: 683740e3-70ce-4a47-a1f4-1f140e80b558
 title: FAQ
 desc: ""
-updated: 1657701979581
+updated: 1657702303121
 created: 1595952505025
 stub: false
 nav_order: 3.01
@@ -186,13 +186,13 @@ But even if you don't have a lot of notes, schemas are helpful because they prov
 
 The short answer currently is _not very well_ 😅
 
--   if two schemas overlap between different vaults, the last schema wins
--   schema imports don't currently work x-vault
+-   If two schemas overlap between different vaults, the last schema wins.
+-   Schema imports don't currently work x-vault.
 
 What this will be in the future:
 
--   schemas should only work on the vault that they are declared in, and you can have an option to specify (in `dendron.yml` if you want a schema to be global)
--   schema imports should work xvault (import syntax will be `{vaultName}.{schemaName}`)
+-   Schemas should only work on the vault that they are declared in, and you can have an option to specify (in `dendron.yml`) if you want a schema to be global.
+-   Schema imports should work x-vault (import syntax will be `{vaultName}.{schemaName}`).
 
 ## Vaults
 
