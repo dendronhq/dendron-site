@@ -2,7 +2,7 @@
 id: 683740e3-70ce-4a47-a1f4-1f140e80b558
 title: FAQ
 desc: ""
-updated: 1657705146885
+updated: 1657705364261
 created: 1595952505025
 stub: false
 nav_order: 3.01
@@ -74,7 +74,7 @@ That being said, the core Dendron engine is not VS Code specific and there are f
 
 Markdown lets you write text in a simple human-readable notation that is platform-independent. You don't need to have Microsoft Word to read a Markdown file and nowadays, all new note-taking tools support importing and displaying Markdown.
 
-For more context, you can see the original Markdown declaration [here](https://daringfireball.net/projects/markdown/)
+For more context, you can see the original Markdown declaration [here](https://daringfireball.net/projects/markdown/).
 
 ### Can I use Dendron with existing notes?
 
@@ -88,7 +88,7 @@ Dendron **does not** delete or overwrite any files during the **Change Workspace
 
 ### How do I save?
 
-Dendron automatically saves when you change focus (switch tabs or applications). You can also manually save using `Cmd+S` or `Ctrl+S` depending on your operating system
+Dendron automatically saves when you change focus (switch tabs or applications). You can also manually save using `Cmd+S` or `Ctrl+S` depending on your operating system.
 
 ### How do I go back to the previous note?
 
