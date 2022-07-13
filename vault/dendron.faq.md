@@ -2,7 +2,7 @@
 id: 683740e3-70ce-4a47-a1f4-1f140e80b558
 title: FAQ
 desc: ""
-updated: 1657701432360
+updated: 1657701600517
 created: 1595952505025
 stub: false
 nav_order: 3.01
@@ -244,16 +244,16 @@ You can read more about them [[here|dendron.topic.pod]].
 
 ### Can I filter by the metadata in Dendron?
 
-Metadata is currently under utilized because we don't have a built in way of easily querying by it. We currently have [this issue](https://github.com/dendronhq/dendron/issues/152) tracking the progress of advanced query work.
+Metadata is currentlyunder utilized because we don't have a built-in way of easily querying by it. We currently have [this issue](https://github.com/dendronhq/dendron/issues/152) tracking the progress of advanced query work.
 
 In the future, we want to support:
 
 -   querying by custom frontmatter attributes: <https://github.com/dendronhq/dendron/issues/152>
 -   query by attributes with logical operators: <https://github.com/dendronhq/dendron/issues/159>
 
-We also want to support some subset of the queries as note references so that the results can be included in page.
+We also want to support some subset of the queries as note references so that the results can be included in a page.
 
-For now, we recommend you use the [[search editor|dendron.guides.tips#search-editor]] capability for liimited querying capabilities.
+For now, we recommend you use the [[search editor|dendron.guides.tips#search-editor]] capability for limited querying capabilities.
 
 ## Other Features
 
