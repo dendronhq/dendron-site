@@ -2,7 +2,7 @@
 id: 683740e3-70ce-4a47-a1f4-1f140e80b558
 title: FAQ
 desc: ""
-updated: 1657699853450
+updated: 1657700876862
 created: 1595952505025
 stub: false
 nav_order: 3.01
@@ -292,21 +292,21 @@ Currently, the recommendation is to link to your video (using a regular Markdown
 
 In menu bar of VS Code, select `File` -> `New Window` and click the Dendron workspace in Recent section of the Welcome tab.
 
-### Why are there `root` files in my notes?
+### Why are there&nbsp;`root`&nbsp;files in my notes?
 
 When you initialize a vault, `root.md` and `root.schema.yml` get created inside each vault.
 
 They serve as the "roots" of your vault for your notes and schema respectively.
 
-root.md is used as the parent of all hierarchies, root.schema as the parent of all schemas
+root.md is used as the parent of all hierarchies and root.schema is the parent of all schemas.
 
-root.md is what shows up when you do a lookup with an empty line ""
+root.md is what shows up when you do a lookup with an empty line "".
 
-root.schema.yml is a schema that is global for all hierarchies (normally, a schema is scoped to a particular hierarchy)
+root.schema.yml is a schema that is global for all hierarchies (normally, a schema is scoped to a particular hierarchy).
 
-Now this isn't required per-say, we could just do away with **root** notes and stick strictly to hierarchies and this might be an option in the future but this is the reasoning at the current time
+Now this isn't required per-say, we could just do away with **root** notes and stick strictly to hierarchies and this might be an option in the future but this is the reasoning at the current time.
 
-ps. root.schema.yml doesn't work right now as described in the sense that we haven't implemented global schemas yet
+PS. root.schema.yml doesn't work as described right now in the sense that we haven't implemented global schemas yet.
 
 ### Is there a list of keyboard shortcuts I can see?
 
