@@ -2,7 +2,7 @@
 id: 683740e3-70ce-4a47-a1f4-1f140e80b558
 title: FAQ
 desc: ""
-updated: 1657699504154
+updated: 1657699735011
 created: 1595952505025
 stub: false
 nav_order: 3.01
@@ -320,9 +320,9 @@ The reason you see this is because Dendron will create [[stub|dendron.concepts#s
 
 ### Why custom Markdown preview instead of the VS Code one?
 
-Our custom Markdown preview gives us much more functionality then the VS Code one -> eg. note references, checkboxes, etc.
+Our custom Markdown preview gives us much more functionality than the VS Code one -> eg. note references, checkboxes, etc.
 
-In addition, the Markdown preview that Dendron uses is platform agnostic (eg. it's also available on atom). This means that other editors could potentially adopt it as well.
+In addition, the Markdown preview that Dendron uses is platform agnostic (eg. it's also available on Atom). This means that other editors could potentially adopt it as well.
 
 ### VS Code Snippets are not working in Frontmatter
 
