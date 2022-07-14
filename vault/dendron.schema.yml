@@ -47,6 +47,7 @@ schemas:
       desc: concepts for this feature
     - pattern: config
       desc: configuration for this feature
+    - pattern: commands
     - pattern: cli
       desc: CLI commands for this feature
       template: templates.cli

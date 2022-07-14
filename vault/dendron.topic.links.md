@@ -2,7 +2,7 @@
 id: 3472226a-ff3c-432d-bf5d-10926f39f6c2
 title: Links
 desc: 'Dendron supports many ways of linking notes and files'
-updated: 1656515737658
+updated: 1657672646811
 created: 1595003088839
 ---
 
@@ -51,9 +51,11 @@ workspace contains `dendron.yml` and a `src` folder, you can write
 
 ### Children Links
 
-When you [[publish|dendron.topic.publish]] your notes, Dendron shows all children of the note at the bottom.
+When you view notes using the [[preview|dendron://dendron.dendron-site/dendron.topic.preview]] or the [[published|dendron.topic.publish]] site, Dendron will auto-generate a `Children` section at the end of the note.
 
-![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/Quickstart_-_Dendron.jpg)
+![Children](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/Quickstart_-_Dendron.jpg)
+
+- TIP: this can be turned off using the [[nav_exclude_children|dendron://dendron.dendron-site/dendron.topic.publish.config.nav_exclude_children]] option (publishing only)
 
 ### Backlinks
 

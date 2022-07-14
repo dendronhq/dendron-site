@@ -2,7 +2,7 @@
 id: wti0omzx9zzfsfg67vc1kj0
 title: CLI
 desc: Manipulate notes using the CLI
-updated: 1656957886126
+updated: 1657649411857
 created: 1655311792352
 ---
 
@@ -11,7 +11,7 @@ created: 1655311792352
 note related commands
 
 Positionals:
-  cmd  a command to run[string] [required] [choices: "lookup", "delete", "move"]
+  cmd  a command to run[string] [required] [choices: "get", "lookup", "delete", "move"]
 
 Options:
   --version         Show version number                                [boolean]
