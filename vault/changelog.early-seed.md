@@ -2,7 +2,7 @@
 id: 3abd00eb-1c1e-4253-aaf5-dcbe20c21850
 title: Early Seed
 desc: ''
-updated: 1657631164760
+updated: 1657890864810
 created: 1604539200840
 published: true
 nav_exclude: true
@@ -10,23 +10,21 @@ nav_exclude: true
 
 > This page documents the features, enhancements, and fixes in the latest early seed release. The early seed is a preview of the weekly release, so you'll see the next minor version when installing (ex. `0.78.0` instead of `0.77.1`). When dendron ships the general release, the currently installed extension will automatically be updated (but will still have same version).
 
-## 0.103.0
-July 08, 2022
+## 0.104.0
+July 15, 2022
 
-Dendron 0.103 has sprouted 🌱
-
-**Smart Note References:** With this new format for note referencing, you will only see the contents of the intended referenced section. No more, no less! 
-- More Information: [[enableSmartRefs|dendron://dendron.dendron-site/dendron.topic.note-reference.config.enable-smart-refs]]
-
-### Deprecated
-Open Link command is deprecated as it is now merged with the [[Go to|dendron://dendron.dendron-site/dendron.ref.commands.goto]] command
+Dendron 0.104 has sprouted 🌱
 
 ### Features
-- feat(workspace): smart note refs (#3174) @kevin ([[docs|dendron://dendron.dendron-site/dendron.topic.note-reference.config.enable-smart-refs]])
+- feat(edit): support note references on beginning of a doc (#3186) @kevin
 
 ### Enhancements
-- enhance(navigate): `Go To` command now also opens external links (#3175) @hayata ([[docs|dendron://dendron.dendron-site/dendron.ref.commands.goto]])
-- enhance(workspace): show notice for manual migration if upgrading from from legacy versions (#3161) @hikchoi
+- enchance(navigation): navigate through journal notes in chronological order (#3184) @hayata ([[docs|dendron://dendron.dendron-site/dendron.topic.navigation#go-next-sibling]])
+- enhance(workspace): show names of duplicate vaults in error message (#3199) @hayata
+- enhance(retrieve): add toggle preview command (#3164) @hayata
+- enhance: add uri field to gdoc pod (#3210) @hayata
+- enhance(views): filter backlinks and outward links from graph panel (#3207) @joshi ([[docs|dendron://dendron.dendron-site/dendron.topic.sidebar.graph-panel]])
 
 ### Fixes
-- fix(retrieve): bad parsing of xvault wikilink with space (#3180) @kevin
+- fix(edit): template gets applied twice if user undoes initial template (#3186) @kevin
+- fix(workspace): workspace sync will maintain proper engine state (#3233) @jonathan
