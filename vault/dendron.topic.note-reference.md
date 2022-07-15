@@ -2,7 +2,7 @@
 id: f1af56bb-db27-47ae-8406-61a98de6c78c
 title: Note Reference
 desc: "Dendron allows you to reference content from other notes and **embed** them in your current note"
-updated: 1657295172864
+updated: 1657895944533
 created: 1597356582509
 stub: false
 ---
@@ -15,36 +15,29 @@ stub: false
 
 Note references are different from regular [[links|dendron://dendron.dendron-site/dendron.topic.links]] in that they actually include the content of the destination in the current note.
 
-Dendron supports 4 types of references:
+Dendron supports the following reference types:
 1. note references
 2. header references
 3. block references
-4. range references
+4. positional references
 
 References have the following syntax:
 
 ```
-![[name.of.note]]
+![[note]]
 ```
 
-Here's an example with a block anchor:
+You can create a reference with an anchor to reference a specific part of the note.
 
 ```
-![[name.of.note#^important-paragraph]]
+![[note#hello]]
 ```
 
-Another example with a header range:
-
-```
-![[name.of.note#starting-header:#ending-header]]
-```
-
-> NOTE: When referencing headers with spaces in them, the note ref needs to use `-` instead of spaces within the name. This is a limitation of adopting GitHub-style slugger references. This is also useful for when multiple subheaders on a page may have the same name, which would expect something else `#foo` vs. `#foo-1` vs. `#foo-2`. This can be automatically taken care of by highlighting a header, and using `cmd+shift+r` / `ctrl+shift+r` to add a properly-formatted note ref to the clipboard.
+> NOTE: When referencing headers with spaces in them, the note ref needs to use `-` instead of spaces within the name
 >
 > For more information:
 >
 > - [StackOverflow: How to escape symbols in GitHub-flavored Markdown internal links / heading anchors?](https://stackoverflow.com/a/48760076/5340149)
-> - [Anchors in Markdown gist](https://gist.github.com/asabaylus/3071099)
 
 ## Reference Types
 
@@ -90,13 +83,26 @@ Header 1.1 Content ^1f1egthix10t
 
 ![[dendron.topic.note-reference.sample#^1f1egthix10t]]
 
-### Range Reference
+### Positional Reference
 
-A range reference will include the contents of a note starting from a starting header or block anchor, and ending at an ending header or block anchor. 
+A positional reference references the position of a note. It has a special case of [[#block-references]]. 
 
-- Syntax
+#### Begin Positional Reference
+
+This reference will reference the start of a note until it encounters the first header
+
+```md
+![[dendron.topic.note-reference.sample#^begin]]
 ```
-![[note#start:#end]]
+
+![[dendron.topic.note-reference.sample#^begin]]
+
+## Range Reference
+
+References can also include a range which will cause it to transclude from the `start-anchor` to the `end-anchor`.
+
+```
+![[note#{start-anchor}:#{end-anchor}]]
 ```
 
 - Example from a header to a header
