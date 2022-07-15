@@ -2,7 +2,7 @@
 id: 2tfkgolv6di8g4j0yyskz2i
 title: Go Next Sibling
 desc: 'Go to the next sibling in the hierarchy'
-updated: 1657896883618
+updated: 1657897066315
 created: 1657896704306
 ---
 
@@ -18,7 +18,7 @@ created: 1657896704306
 
 Siblings with numeric names will be sorted numerically, whereas siblings with alphabetical names will be sorted alphabetically when determining the next sibling.
 
-When the active note is a [[Daily Journal Note|dendron://dendron.dendron-site/dendron.topic.daily-journal-note]], this command will traverse month boundaries (eg. `daily.journal.2022.01.31` -> `daily.journal.2022.02.01`)
+When the active note is a [[Daily Journal Note|dendron://dendron.dendron-site/dendron.topic.daily-journal-note]], this command will traverse month boundaries (eg. `daily.journal.2022.01.31` -> `daily.journal.2022.02.01`) ^x8aubxke0i61
 
 - NOTE: this currently only works when `journal.dateFormat` is left as the default (`y.MM.dd`) 
 
