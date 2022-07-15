@@ -1,6 +1,6 @@
 ---
 id: 4kaa0j0a3t02zjvgtd476nd
-title: 0.101
+title: '0.101'
 desc: ''
 updated: 1656501483390
 created: 1656411101601
@@ -12,7 +12,7 @@ June 28, 2022
 
 Last week, we launched on [product hunt](https://www.producthunt.com/posts/dendron-v100) and asked folks leave feedback. Thanks to the community, Dendron ended as the 5th most upvoted product of the day. Thank you everyone for your support 🙇‍♂️
 
-**Depth Filter for Local Graphs:** Want to see the bigger picture? The graph depth filter now lets you control how much context you see in the [[Local Graph View|dendron://dendron.dendron-site/dendron.topic.sidebar.local-graph-view]]
+**Depth Filter for Local Graphs:** Want to see the bigger picture? The graph depth filter now lets you control how much context you see in the [[Graph Panel|dendron://dendron.dendron-site/dendron.topic.sidebar.graph-panel]]
 - More Information: 
     - [[Other Filters|dendron://dendron.dendron-site/dendron.topic.graph-view#other-filters]]
     - [[Graph Depth|dendron://dendron.dendron-site/dendron._ref.web-ui#graph-depth]]
