@@ -2,7 +2,7 @@
 id: 3abd00eb-1c1e-4253-aaf5-dcbe20c21850
 title: Early Seed
 desc: ''
-updated: 1657898972309
+updated: 1657899770416
 created: 1604539200840
 published: true
 nav_exclude: true
@@ -19,7 +19,7 @@ Dendron 0.104 has sprouted 🌱
 - feat(edit): support note references on beginning of a doc (#3186) @kevin([[docs|dendron://dendron.dendron-site/dendron.topic.note-reference#positional-reference]])
 
 ### Enhancements
-- enchance(navigation): navigate through journal notes in chronological order (#3184) @hayata ([[docs|dendron://dendron.dendron-site/dendron.topic.navigation.commands.go-next-sibling#^x8aubxke0i61]])
+- enhance(navigation): navigate through journal notes in chronological order (#3184) @hayata ([[docs|dendron://dendron.dendron-site/dendron.topic.navigation.commands.go-next-sibling#^x8aubxke0i61]])
 - enhance(workspace): show names of duplicate vaults in error message (#3199) @hayata
 - enhance(retrieve): add toggle preview command (#3164) @hayata ([[docs|dendron://dendron.dendron-site/dendron.topic.preview.commands.toggle-preview]])
 - enhance: add uri field to gdoc pod (#3210) @hayata ([[docs|dendron://dendron.dendron-site/dendron.topic.pod-v2.ref.builtin.google-docs.export#side-effects]])
