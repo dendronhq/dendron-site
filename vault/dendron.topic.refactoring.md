@@ -1,8 +1,8 @@
 ---
 id: srajljj10V2dl19nCSFiC
 title: Refactoring
-desc: ''
-updated: 1656530936932
+desc: ""
+updated: 1657867234229
 created: 1638900089932
 ---
 
@@ -14,13 +14,13 @@ Features that help update the structure of Dendron.
 
 ### Automatic Link Synchronization
 
-- With refactoring, you can organize your notes without breaking links that exists to the notes you are organizing.
-- When you are renaming a note, moving a note to another vault, refactoring an entire hierarchy, or even renaming / moving a header section of a note, refactor will ensure that all the affected link are updated accordingly.
+-   With refactoring, you can organize your notes without breaking links that exists to the notes you are organizing.
+-   When you are renaming a note, moving a note to another vault, refactoring an entire hierarchy, or even renaming / moving a header section of a note, refactor will ensure that all the affected link are updated accordingly.
 
 ### Reorganize knowledge at any scale
 
-- Refactor lets you reorganize your knowledge with a single command regardless of scale; You can refactor a header in a note, an entire note, or multiple notes.
-- Beyond notes, entire hierarchies can be refactored by leveraging the power of regular expression to match and replace parts of the hierarchy.
+-   Refactor lets you reorganize your knowledge with a single command regardless of scale; You can refactor a header in a note, an entire note, or multiple notes.
+-   Beyond notes, entire hierarchies can be refactored by leveraging the power of regular expression to match and replace parts of the hierarchy.
 
 ## Getting Started
 
@@ -29,19 +29,21 @@ Features that help update the structure of Dendron.
 > See [[dendron.topic.refactoring.commands.move-header]] and [[dendron.topic.refactoring.commands.move-header]] for more information
 
 1. Create a note called `foo` with the following content:
+
     ```md
     ## One
 
-    - Some content
+    -   Some content
 
     ## Two
 
-    - More content
+    -   More content
 
     ### Let's go deeper
 
-    - Deep content
+    -   Deep content
     ```
+
 2. Create a note called `bar` with the following content:
     ```md
     [[foo#two]]
@@ -54,7 +56,9 @@ Features that help update the structure of Dendron.
 8. A new note `baz` is created and the header `Second` is moved to this note along with the child header `Let's go deeper`
 9. Notice that the link in the note `bar` has been updated to `[[baz#second]]`
 
-### Renaming a note
+### Refactoring notes
+
+#### Renaming a note
 
 > See [[dendron.topic.refactoring.commands.rename-note]] for more information
 
@@ -64,7 +68,7 @@ Features that help update the structure of Dendron.
 4. Type `baz` in the lookup bar.
 5. The note `foo` is now renamed to `baz`, and the link in the note is also updated to `[[baz]]`
 
-### Moving a note or multiple notes
+#### Moving a note or multiple notes
 
 > See [[dendron.topic.refactoring.commands.move-note]] for more information
 
@@ -89,4 +93,5 @@ Features that help update the structure of Dendron.
 7. Hitting enter will rename all notes as listed in the preview, and links to all affected notes are also updated.
 
 ### Children
-- [[Commands|dendron://dendron.dendron-site/dendron.topic.refactoring.commands]]: Refactoring Commands
+
+-   [[Commands|dendron://dendron.dendron-site/dendron.topic.refactoring.commands]]: Refactoring Commands
