@@ -2,7 +2,7 @@
 id: cphUwSPk12j4lS0tKjBdC
 title: Navigation
 desc: ''
-updated: 1651331181877
+updated: 1657896997925
 created: 1638899506405
 ---
 
@@ -59,27 +59,11 @@ Go to closet non-stub parent of the currently open note
 
 ### Go Next Sibling
 
-- shortcuts:
-  - key: `ctrl+shift+]`
-  - when: `editorFocus`
-
-Go to the next sibling
-
-Siblings with numeric names will be sorted numerically, whereas siblings with alphabetical names will be sorted alphabetically when determining the next sibling.
-
-![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/hierarchy.go-sibling.gif)
+![[dendron://dendron.dendron-site/dendron.topic.navigation.commands.go-next-sibling]]
 
 ### Go Previous Sibling
 
-- shortcuts:
-  - key: `ctrl+shift+[`
-  - when: `editorFocus`
-
-Go to the previous sibling
-
-Siblings with numeric names will be sorted numerically, whereas siblings with alphabetical names will be sorted alphabetically when determining the previous sibling.
-
-![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/hierarchy.go-sibling.gif)
+![[dendron://dendron.dendron-site/dendron.topic.navigation.commands.go-previous-sibling]]
 
 ### Go Down
 

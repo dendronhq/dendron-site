@@ -2,7 +2,7 @@
 id: 9b059u38o0b7fydjgoazt06
 title: Sidebar
 desc: ''
-updated: 1655745786008
+updated: 1657285176763
 created: 1653407988962
 ---
 
@@ -16,9 +16,9 @@ The Dendron Sidebar contains a list of custom Dendron views that help you naviga
 
 ![[dendron://dendron.dendron-site/dendron.topic.sidebar.backlinks#summary,1]]
 
-### Local Graph View
+### Graph Panel
 
-![[dendron.topic.sidebar.local-graph-view#summary,1]]
+![[dendron.topic.sidebar.graph-panel#summary,1]]
 
 ### Lookup View
 ![[dendron://dendron.dendron-site/dendron.topic.sidebar.lookup-view#summary,1:#*]]
