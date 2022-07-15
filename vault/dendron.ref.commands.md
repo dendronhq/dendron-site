@@ -4,7 +4,7 @@ title: Commands
 desc: ""
 tags:
     - stage.seed
-updated: 1657557943214
+updated: 1657896473439
 created: 1595261816971
 nav_order: 3.1
 ---
@@ -314,24 +314,8 @@ This pattern would specify a set including all notes under `alpha` _except_ for 
 -   If `include` is not specified, then the `include` matching pattern will match all notes.
 -   `exclude` takes precedence over `include`, so if the patterns are identical, no notes will match.
 
-### Show Preview
-
--   shortcuts:
-    -   windows: `windows+ctrl+p`
-    -   mac: `cmd+ctrl+p`
-
-Shows a Markdown preview view. This preview supports rendering Dendron features, such as note refs, wikilinks, custom image properties, and more. `Show Preview` supports previewing Dendron notes and regular Markdown files such as a project `README.md`.
-
-### Show Preview (legacy)
-
-> ⚠️ This is a deprecated command. Please consider using [[Show Preview|dendron.ref.commands#show-preview]] instead.
-
--   shortcuts:
-    -   windows: `windows+ctrl+p`
-    -   mac: `cmd+ctrl+p`
-
-Show Markdown Preview.
-See [[Preview|dendron.topic.preview]] for more details.
+### Preview
+![[dendron://dendron.dendron-site/dendron.topic.preview.commands]]
 
 ---
 
