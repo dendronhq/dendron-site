@@ -2,7 +2,7 @@
 id: wti0omzx9zzfsfg67vc1kj0
 title: CLI
 desc: Manipulate notes using the CLI
-updated: 1657649411857
+updated: 1657910207917
 created: 1655311792352
 ---
 
@@ -11,7 +11,7 @@ created: 1655311792352
 note related commands
 
 Positionals:
-  cmd  a command to run[string] [required] [choices: "get", "lookup", "delete", "move"]
+  cmd  a command to run[string] [required] [choices: "get", "find", "lookup", "delete", "move"]
 
 Options:
   --version         Show version number                                [boolean]
@@ -32,6 +32,14 @@ Options:
 ```
 
 ### Commands
+
+#### get
+
+Get a note by id.
+
+### find
+
+Find notes by note properties
 
 #### lookup
 
@@ -65,6 +73,16 @@ Values:
 ```sh
 # creates hello if it does not exist
 dendron note lookup --query "hello" 
+```
+
+- Getting a note
+```sh
+dendron note get --query "noteId"
+```
+
+- Finding notes
+```sh
+dendron note find --fname "foo"
 ```
 
 - Querying a note
