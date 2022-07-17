@@ -2,7 +2,7 @@
 id: 6ff8cbb6-e4b8-449b-a967-277b76e4ecef
 title: Seed Bank
 desc: ''
-updated: 1641168003165
+updated: 1658067521349
 created: 1607621369889
 ---
 
@@ -10,7 +10,7 @@ created: 1607621369889
 
 The Seed Bank is an open database of [[workspaces|dendron.topic.workspace]] (seeds) that anyone can access and contribute to. 
 
-You can see all currently available seeds [here](https://github.com/dendronhq/dendron/blob/dev/packages/engine-server/src/seed/registry.ts#L8:L8)
+You can see all currently available seeds [here](https://github.com/dendronhq/dendron/blob/master/packages/common-all/src/types/seed.ts#L48)
 
 ## Quickstart
 ![[dendron://dendron.dendron-site/dendron.topic.seed-bank.quickstart]]
