@@ -2,7 +2,7 @@
 id: f1af56bb-db27-47ae-8406-61a98de6c78c
 title: Note Reference
 desc: "Dendron allows you to reference content from other notes and **embed** them in your current note"
-updated: 1657895944533
+updated: 1658111315934
 created: 1597356582509
 stub: false
 ---
@@ -96,6 +96,18 @@ This reference will reference the start of a note until it encounters the first 
 ```
 
 ![[dendron.topic.note-reference.sample#^begin]]
+
+#### End Positional Reference
+
+This reference will reference the end of a note. 
+
+- NOTE: the `end` positional reference cannot be used in the `start-anchor` position of a [[#range-reference]]
+
+```md
+![[dendron.topic.note-reference.sample#^end]]
+```
+
+![[dendron.topic.note-reference.sample#^end]]
 
 ## Range Reference
 
