@@ -2,7 +2,7 @@
 id: f1af56bb-db27-47ae-8406-61a98de6c78c
 title: Note Reference
 desc: "Dendron allows you to reference content from other notes and **embed** them in your current note"
-updated: 1658111315934
+updated: 1658179297646
 created: 1597356582509
 stub: false
 ---
@@ -83,6 +83,14 @@ Header 1.1 Content ^1f1egthix10t
 
 ![[dendron.topic.note-reference.sample#^1f1egthix10t]]
 
+#### Reserved Anchors
+
+Block references are generated automatically when you use the [[Copy Note Reference|dendron://dendron.dendron-site/dendron.topic.note-reference.commands.copy-note-ref]] command.
+You can also manually add human readable block anchors. If so, note that the following anchors are reserved:
+
+- `begin`
+- `end`
+
 ### Positional Reference
 
 A positional reference references the position of a note. It has a special case of [[#block-references]]. 
@@ -104,10 +112,10 @@ This reference will reference the end of a note.
 - NOTE: the `end` positional reference cannot be used in the `start-anchor` position of a [[#range-reference]]
 
 ```md
-![[dendron.topic.note-reference.sample#^end]]
+![[dendron.topic.note-reference.sample#header-1:#^end]]
 ```
 
-![[dendron.topic.note-reference.sample#^end]]
+![[dendron.topic.note-reference.sample#header-1:#^end]]
 
 ## Range Reference
 
@@ -133,7 +141,7 @@ References can also include a range which will cause it to transclude from the `
 
 You can create a reference either by hand or using the `Copy Note Ref` command.
 
-![[dendron.ref.commands#copy-note-ref:#*]]
+![[dendron://dendron.dendron-site/dendron.topic.note-reference.commands.copy-note-ref]]
 
 ## Advanced Options
 ### Line Offset
