@@ -2,7 +2,7 @@
 id: r50ffhwvk6c1ykmbj0q187q
 title: 0.104
 desc: ''
-updated: 1658248163016
+updated: 1658248392170
 created: 1658222480416
 ---
 
@@ -16,11 +16,11 @@ Dendron 0.104 has sprouted  🌱
 
 ## Highlights
 - feat(edit): navigate through journal notes in chronological order
+- feat(retrieve): add toggle preview command
 
 ## Everything Else
 - enhance(navigation): sib nav journal notes in chronological order
 - enhance(workspace): show names of duplicate vaults in error message
-- enhance(retrieve): add toggle preview command
 - enhance(sync): add uri field to gdoc pod
 - enhance(views): filter linked edges(backlinks and outward links) from graph panel
 - fix(edit): template gets applied twice if user undoes initial template
