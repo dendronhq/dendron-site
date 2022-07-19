@@ -2,7 +2,7 @@
 id: r50ffhwvk6c1ykmbj0q187q
 title: 0.104
 desc: ''
-updated: 1658235786924
+updated: 1658242864871
 created: 1658222480416
 ---
 
@@ -56,5 +56,25 @@ This week's entry in the [[Dendron Reading Series|dendron://dendron.dendron-site
 A big **thanks** to the following gardeners that brought up issues, contributions, and fixes to this release :man_farmer: :woman_farmer: 
 Visit [[Discord Roles|dendron://dendron.dendron-site/community.discord.roles]] for more information.
 
+- [Patrick Wilkie](https://github.com/patchworquill) `@patchwork#5510`
+    - #role.bugcatcher
+    - [Graph neighbour depth buttons do not work](https://github.com/dendronhq/dendron/issues/3246)
+
+- [Michael Greene](https://github.com/VoltCruelerz)
+    - #role.bugcatcher
+    - [Invalid Casing during Export](https://github.com/dendronhq/dendron/issues/3255)
+
+- [Tika](https://github.com/SR--) `Tika#9526`
+    - [Footnote superscripts affects the spacing between lines](https://github.com/dendronhq/dendron/issues/3231)
+
+- [d1onysus](https://github.com/dweisiger) `@d1onysus#1514`
+    - [As a user, I'd like to visit a dendron link, and have the note highlighted in the expanded sidebar view](https://github.com/dendronhq/dendron/issues/3240)
+
+- [Ryan Hill](https://github.com/rlh1994) `@rlh1994#9754`
+    - [Headered note refs do not work for headers with comments](https://github.com/dendronhq/dendron/issues/3242)
+    
+- [Taran Lu](https://github.com/taranlu-houzz)
+    - [Spaces seem to be ignored when using inline code in headings](https://github.com/dendronhq/dendron/issues/3247)
+    
 ## Changelog
 ![[changelog#01040,1:#01030]]
