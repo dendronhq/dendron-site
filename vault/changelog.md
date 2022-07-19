@@ -2,7 +2,7 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1658234731860
+updated: 1658249180078
 created: 1601508213606
 nav_order: 2
 ---
@@ -10,19 +10,16 @@ nav_order: 2
 ## 0.104.0
 
 ### Features
-
-- feat(edit): support note references on beginning of a doc (#3186) ([[docs|dendron://dendron.dendron-site/dendron.topic.note-reference#positional-reference]])
+- feat(edit): support note references on beginning of a doc (#3186) @kevin ([[docs|dendron://dendron.dendron-site/dendron.topic.note-reference#positional-reference]])
+- feat(retrieve): add toggle preview command (#3164) @hayata ([[docs|dendron://dendron.dendron-site/dendron.topic.preview.commands.toggle-preview]])
+- feat(navigation): navigate through journal notes in chronological order (#3184) @hayata ([[docs|dendron://dendron.dendron-site/dendron.topic.navigation.commands.go-next-sibling#^x8aubxke0i61]])
 
 ### Enhancements
-
-- enhance(navigation): sib nav journal notes in chronological order (#3184) @hayata ([[docs|dendron://dendron.dendron-site/dendron.topic.navigation.commands.go-next-sibling#^x8aubxke0i61]])
 - enhance(workspace): show names of duplicate vaults in error message (#3199) @hayata
-- enhance(retrieve): add toggle preview command (#3164) @hayata ([[docs|dendron://dendron.dendron-site/dendron.topic.preview.commands.toggle-preview]])
 - enhance(sync): add uri field to gdoc pod (#3210) @hayata ([[docs|dendron://dendron.dendron-site/dendron.topic.pod-v2.ref.builtin.google-docs.export#side-effects]])
 - enhance(views): filter linked edges(backlinks and outward links) from graph panel (#3207) @joshi ([[docs|dendron://dendron.dendron-site/dendron.topic.sidebar.graph-panel]])
 
 ### Fix
-
 - fix(edit): template gets applied twice if user undoes initial template (#3186) @kevin
 - fix(views): graph panel depth increase / decrease button not working (#3252) @hikchoi
 

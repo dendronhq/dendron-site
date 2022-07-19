@@ -2,24 +2,24 @@
 id: r50ffhwvk6c1ykmbj0q187q
 title: 0.104
 desc: ''
-updated: 1658248392170
+updated: 1658249131183
 created: 1658222480416
 ---
 
 Dendron 0.104 has sprouted  🌱
 
-**Jump Notes in Chronological Order**: Navigate seamlessly between sibling notes in the hierarchy of the note open with the new `Dendron: Go Next Sibling` command. 
-- More Information: ([[docs|dendron://dendron.dendron-site/dendron.topic.navigation.commands.go-next-sibling#^x8aubxke0i61]])
+**Chronological Sibling Navigation (for daily journal notes):** You can now navigate across month and year boundaries across your daily journals!
+- More Information: ([[Go Next Sibling|dendron://dendron.dendron-site/dendron.topic.navigation.commands.go-next-sibling#^x8aubxke0i61]])
 
 ### Deprecated
 - `Show Preview` command is now deprecated and replaced with [[Toggle Preview|dendron://dendron.dendron-site/dendron.topic.preview.commands.toggle-preview]]
 
 ## Highlights
-- feat(edit): navigate through journal notes in chronological order
+- feat(edit): support note references on beginning of a doc 
 - feat(retrieve): add toggle preview command
+- feat(navigation): navigate through journal notes in chronological order
 
 ## Everything Else
-- enhance(navigation): sib nav journal notes in chronological order
 - enhance(workspace): show names of duplicate vaults in error message
 - enhance(sync): add uri field to gdoc pod
 - enhance(views): filter linked edges(backlinks and outward links) from graph panel
