@@ -2,17 +2,20 @@
 id: r50ffhwvk6c1ykmbj0q187q
 title: 0.104
 desc: ''
-updated: 1658242864871
+updated: 1658248163016
 created: 1658222480416
 ---
 
 Dendron 0.104 has sprouted  🌱
 
+**Jump Notes in Chronological Order**: Navigate seamlessly between sibling notes in the hierarchy of the note open with the new `Dendron: Go Next Sibling` command. 
+- More Information: ([[docs|dendron://dendron.dendron-site/dendron.topic.navigation.commands.go-next-sibling#^x8aubxke0i61]])
+
 ### Deprecated
 - `Show Preview` command is now deprecated and replaced with [[Toggle Preview|dendron://dendron.dendron-site/dendron.topic.preview.commands.toggle-preview]]
 
 ## Highlights
-- feat(edit): support note references on beginning of a doc
+- feat(edit): navigate through journal notes in chronological order
 
 ## Everything Else
 - enhance(navigation): sib nav journal notes in chronological order
@@ -37,6 +40,8 @@ The team worked on a [[Hackathon|dendron://dendron.dendron-site/community.event.
 ### Dendron Reading Series
 
 This week's entry in the [[Dendron Reading Series|dendron://dendron.dendron-site/community.events.reading-series]].
+
+[[How to Intentionally Structure & Scale Company Communications|dendron://dendron.dendron-site/community.events.reading-series.2022.07.19]]
 
 ### Event Reminders
 
