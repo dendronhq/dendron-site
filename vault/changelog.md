@@ -2,7 +2,7 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1658226490709
+updated: 1658234731860
 created: 1601508213606
 nav_order: 2
 ---
@@ -23,7 +23,7 @@ nav_order: 2
 
 ### Fix
 
-- fix(edit): template gets applied twice if user undoes initial template (#3186)
+- fix(edit): template gets applied twice if user undoes initial template (#3186) @kevin
 - fix(views): graph panel depth increase / decrease button not working (#3252) @hikchoi
 
 ## 0.103.0
