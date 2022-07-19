@@ -2,7 +2,7 @@
 id: 2aeg4dbvo7h9dicskivpa2x
 title: 0.103
 desc: ''
-updated: 1657641819539
+updated: 1658226843082
 created: 1657620741057
 ---
 
@@ -37,7 +37,7 @@ This week's entry in the [[Dendron Reading Series|dendron://dendron.dendron-site
 ### Event Reminders
 
 - **Greenhouse Talks:** Visit the [[Greenhouse Talks|dendron://dendron.dendron-site/community.events.greenhouse]] for notes from previous sessions.
-    - Next: [Fri, Jul 30, 04:00 PM PST / 00:00 UTC](https://link.dendron.so/luma)
+    - Next: [Fri, Jul 29, 04:00 PM PST / 00:00 UTC](https://link.dendron.so/luma)
     - [Greenhouse Talk Recordings - YouTube Playlist](https://link.dendron.so/greenhouse)
 - **Office Hours:** Visit the [[Office Hours page|dendron://dendron.dendron-site/community.events.office-hours]] for notes from previous sessions.
     - Next: [Wed, Aug 03, 09:00 AM PST / 17:00 UTC](https://link.dendron.so/luma)
