@@ -2,7 +2,7 @@
 id: r50ffhwvk6c1ykmbj0q187q
 title: 0.104
 desc: ''
-updated: 1658234636948
+updated: 1658235786924
 created: 1658222480416
 ---
 
@@ -26,10 +26,10 @@ Dendron 0.104 has sprouted  🌱
 ## Community
 
 ### General Updates
-<!-- TODO: Delete this section if not appliacble -->
+
+The team worked on a [[Hackathon|dendron://dendron.dendron-site/community.event.hackathon]]! Check out the projects the team worked on for our very first Hackathon, and find out how you can participate in the next one!
 
 ### Starboard and TIL Highlights
-<!-- TODO: update links. Delete section is no new items-->
 > These are highlights from the [[Dendron Discord|dendron://dendron.dendron-site/community.discord.channels]] `#starboard` and `#today-i-learned` channels.
 
 - 💡 `bitNomad#0817` shared his learnings on new [domain suffixes](https://www.name.com/domains) and while searching around for clever names also learned what an engram is
