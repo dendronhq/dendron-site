@@ -2,13 +2,13 @@
 id: r50ffhwvk6c1ykmbj0q187q
 title: 0.104
 desc: ''
-updated: 1658249131183
+updated: 1658249227272
 created: 1658222480416
 ---
 
 Dendron 0.104 has sprouted  🌱
 
-**Chronological Sibling Navigation (for daily journal notes):** You can now navigate across month and year boundaries across your daily journals!
+**Chronological Sibling Navigation (For Daily Journal Notes):** You can now navigate across month and year boundaries across your daily journals!
 - More Information: ([[Go Next Sibling|dendron://dendron.dendron-site/dendron.topic.navigation.commands.go-next-sibling#^x8aubxke0i61]])
 
 ### Deprecated
