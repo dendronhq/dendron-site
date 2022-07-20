@@ -4,7 +4,7 @@ title: Commands
 desc: ""
 tags:
     - stage.seed
-updated: 1657896473439
+updated: 1658179213638
 created: 1595261816971
 nav_order: 3.1
 ---
@@ -70,15 +70,7 @@ what kind of anchor to use with the [[anchorType|dendron://dendron.dendron-site/
 
 ### Copy Note Ref
 
--   shortcuts:
-    -   key: `ctrl+shift+r`
-    -   mac: `cmd+shift+r`
-    -   when: `editorFocus`
-
-Copies a reference to the current open document
-
-This lets you quickly create a [[note reference|dendron.topic.note-reference]] to the current note.
-![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/ref-note.gif)
+![[dendron://dendron.dendron-site/dendron.topic.note-reference.commands.copy-note-ref]]
 
 #### Header Selection
 
