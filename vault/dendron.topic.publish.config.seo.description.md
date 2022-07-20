@@ -1,8 +1,8 @@
 ---
 id: NDMKzlG6GpZE5VuMuyRxO
 title: Description
-desc: 'Set the description of the page.'
-updated: 1645168518909
+desc: 'Default description for the site'
+updated: 1658332086267
 created: 1645168428331
 ---
 
@@ -11,12 +11,14 @@ created: 1645168428331
 - required: `false`
 
 ## Description
-{{fm.desc}}
+{{fm.desc}}.
+
+If the note has a `desc` property, it will be overwritten by the content from `desc`
 
 ## Example
 
 ```yml
-  publishing:
-    seo:
-      description: Everything I know
+publishing:
+  seo:
+    description: Everything I know
 ```
