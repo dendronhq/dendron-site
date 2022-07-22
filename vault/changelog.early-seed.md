@@ -2,7 +2,7 @@
 id: 3abd00eb-1c1e-4253-aaf5-dcbe20c21850
 title: Early Seed
 desc: ''
-updated: 1658501264556
+updated: 1658503046177
 created: 1604539200840
 published: true
 nav_exclude: true
@@ -17,7 +17,7 @@ Dendron 0.105 has sprouted 🌱
 
 ### Enhancements
 - enhance(views): option to filter hierarchical edges from graph panel (#3243) @joshi ([[docs|dendron://dendron.dendron-site/dendron.topic.sidebar.graph-panel#toggle-edges]])
-- enhance(publish): use note's `desc`field for SEO description (#3261) @sam ([[docs|dendron://dendron.dendron-site/dendron.topic.publish.config.seo.description#^ygk9kha1hgzy]])
+- enhance(publish): use note's `desc` field for SEO description (#3261) @sam ([[docs|dendron://dendron.dendron-site/dendron.topic.publish.config.seo.description#^ygk9kha1hgzy]])
 - enhance(retrieve): support end block anchor (#3248) @kevin ([[docs|dendron://dendron.dendron-site/dendron.topic.note-reference#end-positional-reference]])
 
 ### Fixes
