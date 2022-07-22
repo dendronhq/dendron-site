@@ -2,7 +2,7 @@
 id: 3abd00eb-1c1e-4253-aaf5-dcbe20c21850
 title: Early Seed
 desc: ''
-updated: 1658226357212
+updated: 1658501264556
 created: 1604539200840
 published: true
 nav_exclude: true
@@ -10,21 +10,19 @@ nav_exclude: true
 
 > This page documents the features, enhancements, and fixes in the latest early seed release. The early seed is a preview of the weekly release, so you'll see the next minor version when installing (ex. `0.78.0` instead of `0.77.1`). When dendron ships the general release, the currently installed extension will automatically be updated (but will still have same version).
 
-## 0.104.0
-July 15, 2022
+## 0.105.0
+July 22, 2022
 
-Dendron 0.104 has sprouted 🌱
-
-### Features
-- feat(edit): support note references on beginning of a doc (#3186) @kevin([[docs|dendron://dendron.dendron-site/dendron.topic.note-reference#positional-reference]])
+Dendron 0.105 has sprouted 🌱
 
 ### Enhancements
-- enhance(navigation): navigate through journal notes in chronological order (#3184) @hayata ([[docs|dendron://dendron.dendron-site/dendron.topic.navigation.commands.go-next-sibling#^x8aubxke0i61]])
-- enhance(workspace): show names of duplicate vaults in error message (#3199) @hayata
-- enhance(retrieve): add toggle preview command (#3164) @hayata ([[docs|dendron://dendron.dendron-site/dendron.topic.preview.commands.toggle-preview]])
-- enhance(sync): add uri field to gdoc pod (#3210) @hayata ([[docs|dendron://dendron.dendron-site/dendron.topic.pod-v2.ref.builtin.google-docs.export#side-effects]])
-- enhance(views): filter backlinks and outward links from graph panel (#3207) @joshi ([[docs|dendron://dendron.dendron-site/dendron.topic.sidebar.graph-panel]])
+- enhance(views): option to filter hierarchical edges from graph panel (#3243) @joshi ([[docs|dendron://dendron.dendron-site/dendron.topic.sidebar.graph-panel#toggle-edges]])
+- enhance(publish): use note's `desc`field for SEO description (#3261) @sam ([[docs|dendron://dendron.dendron-site/dendron.topic.publish.config.seo.description#^ygk9kha1hgzy]])
+- enhance(retrieve): support end block anchor (#3248) @kevin ([[docs|dendron://dendron.dendron-site/dendron.topic.note-reference#end-positional-reference]])
 
 ### Fixes
-- fix(edit): template gets applied twice if user undoes initial template (#3186) @kevin
-- fix(workspace): workspace sync will maintain proper engine state (#3233) @jonathan
+- fix(workspace): information modal to uninstall 'dendron markdown links' extension (#3238) @joshi
+- fix(publish): hide sidebar when clicking a non-submenu note on mobile (#3253) @hunter
+- fix(publish): current menu item on the sidebar wont collapse for a published site (#3244) @joshi
+- fix(views): properly focus tree view to active note when it is first shown (#3251) @hikchoi
+- fix(workspace): fix typos in getting started tutorial (#3279) @kevin

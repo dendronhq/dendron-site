@@ -2,7 +2,7 @@
 id: ffec2853-c0e0-4165-a368-339db12c8e4b
 title: Frontmatter
 desc: ''
-updated: 1651105283667
+updated: 1658332135180
 created: 1595352354163
 stub: false
 ---
@@ -34,7 +34,7 @@ Dendron supports frontmatter. By default, we add the following keys to a new not
 
 -   `id`: a globally unique identifier for the note
 -   `title`: your note title. Used to label nodes in [[graph view|dendron.topic.graph-view]]
--   `desc`: optional description about your note. Will show up in lookup results
+-   `desc`: optional description about your note. Will show up in lookup results as well as the `metadata` when [[publishing|dendron://dendron.dendron-site/dendron.topic.publish.config.seo.description]]
 -   `updated`: unix timestamp of when note was updated
 -   `created`: unix timestamp of when note was created
 
