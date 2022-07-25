@@ -2,7 +2,7 @@
 id: 3472226a-ff3c-432d-bf5d-10926f39f6c2
 title: Links
 desc: 'Dendron supports many ways of linking notes and files'
-updated: 1657672646811
+updated: 1658768400279
 created: 1595003088839
 ---
 
@@ -58,25 +58,8 @@ When you view notes using the [[preview|dendron://dendron.dendron-site/dendron.t
 - TIP: this can be turned off using the [[nav_exclude_children|dendron://dendron.dendron-site/dendron.topic.publish.config.nav_exclude_children]] option (publishing only)
 
 ### Backlinks
+![[dendron://dendron.dendron-site/dendron.topic.links.backlink]]
 
-Backlinks are links that point to the current note. 
-
-#### Types of Backlinks
-There are currently two types of backlinks available in the Backlinks view: `Linked` and `Candidates`. 
-
-##### Linked Backlink
-`Linked` backlinks are regular [[wiki links|dendron.topic.links#wiki-links]] that are pointing to the current note.
-
-- NOTE: The link candidate feature of the backlinks panel is currently disabled by default. 'Accessing the Backlinks view' section below goes over how to enable it.
-
-##### Candidate Backlink
-`Candidate` backlinks are plain text words that match the name of the current note, which can potentially be converted into a (linked) backlink.
-
-#### Backlink View
-
-Dendron has a [[backlinks panel|dendron.topic.workbench#backlinks]] which shows all notes with links to the current note. This will also show up underneath [[children links|dendron.topic.links#children-links]] on published pages.
-
-![[dendron://dendron.dendron-site/asset.preview#backlinks-dark,1:#*]]
 
 You can find further documentation about it [[here|dendron.topic.workbench#backlinks-view]].
 
