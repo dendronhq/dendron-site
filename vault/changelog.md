@@ -2,10 +2,26 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1658249180078
+updated: 1658759707340
 created: 1601508213606
 nav_order: 2
 ---
+
+## 0.105.0
+
+### Enhancements
+
+- enhance(views): option to filter hierarchical edges from graph panel (#3243) @joshi ([[docs|dendron://dendron.dendron-site/dendron.topic.sidebar.graph-panel#toggle-edges]])
+- enhance(publish): use note's `desc`field for SEO description (#3261) @sam ([[docs|dendron://dendron.dendron-site/dendron.topic.publish.config.seo.description#^ygk9kha1hgzy]])
+- enhance(retrieve): support end block anchor (#3248) @kevin ([[docs|dendron://dendron.dendron-site/dendron.topic.note-reference#end-positional-reference]])
+
+### Fix
+
+- fix(workspace): information modal to uninstall 'dendron markdown links' extension (#3238) @joshi
+- fix(publish): hide sidebar when clicking a non-submenu note on mobile (#3253) @hunter
+- fix(publish): current menu item on the sidebar wont collapse for a published site (#3244) @joshi
+- fix(views): properly focus tree view to active note when it is first shown (#3251) @hikchoi
+- fix(workspace): fix typos in getting started tutorial (#3279) @kevin
 
 ## 0.104.0
 
