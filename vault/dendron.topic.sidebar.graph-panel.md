@@ -2,7 +2,7 @@
 id: xjcyijjuq7tmrewfarpfpan
 title: Graph Panel
 desc: ''
-updated: 1658768199907
+updated: 1658768820452
 created: 1655745687424
 ---
 
@@ -23,10 +23,8 @@ The depth filter allows you to see the second or third degree of nodes from the 
 
 ### Toggle Edges Links
 
-#### Show Backlinks
-This controls displaying of links to 
-- `Show Backlinks` 
-- and `Show OutwardLinks` options allow you to toggle display of linked edges in graph panel. 
-- The `Show Hierarchy` option allows you to toggle display of hierarchical edges in graph panel.
+- `Show Backlinks`: toggle display of [[backlinks|dendron://dendron.dendron-site/dendron.topic.links.backlink]]
+- `Show OutwardLinks`:  toggle display of outward [[wiki links|dendron://dendron.dendron-site/dendron.topic.links.wiki-link]]
+- `Show Hierarchy`: toggle display of hierarchal links 
 
 <div style="position: relative; padding-bottom: 53.28125%; height: 0;"><iframe src="https://www.loom.com/embed/88c169c981244c289dde63eac2419bd1" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
