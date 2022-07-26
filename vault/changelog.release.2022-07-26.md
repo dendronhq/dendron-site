@@ -2,7 +2,7 @@
 id: xhcrzg39oqahvb89jb2m1ur
 title: 0.105
 desc: ''
-updated: 1658848766081
+updated: 1658851585523
 created: 1658758655969
 ---
 
@@ -59,7 +59,6 @@ Are you interested in an issue being included as part of the next CROP? If so, l
 ### Dendron Reading Series
 
 This week's entry in the [[Dendron Reading Series|dendron://dendron.dendron-site/community.events.reading-series]].
-
 ### Event Reminders
 
 - **Greenhouse Talks:** Visit the [[Greenhouse Talks|dendron://dendron.dendron-site/community.events.greenhouse]] for notes from previous sessions.
