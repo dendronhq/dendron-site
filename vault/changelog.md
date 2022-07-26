@@ -2,7 +2,7 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1658849914588
+updated: 1658856871637
 created: 1601508213606
 nav_order: 2
 ---
@@ -14,7 +14,7 @@ nav_order: 2
 - enhance(views): option to filter hierarchical edges from graph panel (#3243) @joshi ([[docs|dendron://dendron.dendron-site/dendron.topic.sidebar.graph-panel#toggle-edges]])
 - enhance(publish): use note's `desc`field for SEO description (#3261) @sam ([[docs|dendron://dendron.dendron-site/dendron.topic.publish.config.seo.description#^ygk9kha1hgzy]])
 - enhance(retrieve): support end block anchor (#3248) @kevin ([[docs|dendron://dendron.dendron-site/dendron.topic.note-reference#end-positional-reference]])
-- enhance(preview): open note in different editor group then preview (#3278) @kevin([[docs|dendron://dendron.dendron-site/dendron.topic.preview#details]])
+- enhance(preview): open note in different editor group then preview (#3278) @kevin ([[docs|dendron://dendron.dendron-site/dendron.topic.preview#details]])
 
 ### Fix
 
