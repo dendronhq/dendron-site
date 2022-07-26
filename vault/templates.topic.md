@@ -2,7 +2,7 @@
 id: ZljuAhFuNWEOUlFtPlC0h
 title: Feature Template
 desc: ''
-updated: 1655765961703
+updated: 1658768084059
 created: 1635992238170
 config:
   global:
@@ -38,6 +38,14 @@ If the feature has sub features, list them out here.
 }}
 
 ### {feature1}
+
+## Options
+{{! 
+- required: false
+- example: [[Options|dendron://dendron.dendron-site/dendron.topic.sidebar.graph-panel#options]]
+
+Describe configuration for a topic. Sub options have their own h3 headers
+}}
 
 ### Limitations
 {{! 
