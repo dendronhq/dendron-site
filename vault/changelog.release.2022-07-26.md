@@ -2,7 +2,7 @@
 id: xhcrzg39oqahvb89jb2m1ur
 title: 0.105
 desc: ''
-updated: 1658762256849
+updated: 1658848766081
 created: 1658758655969
 ---
 
@@ -11,7 +11,8 @@ July 26, 2022
 
 **New Display Options in Graph Panel:** You can now toggle the display of linked and hierarchal edges in graph panel.
 
-- More information: [[Toggle Edges|dendron://dendron.dendron-site/dendron.topic.sidebar.graph-panel#toggle-edges]]
+- More information: [[Toggle Edges Links|dendron://dendron.dendron-site/dendron.topic.sidebar.graph-panel#toggle-edges-links]]
+
 
 <div style="position: relative; padding-bottom: 53.28125%; height: 0;"><iframe src="https://www.loom.com/embed/88c169c981244c289dde63eac2419bd1" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
@@ -23,6 +24,7 @@ July 26, 2022
 
 - enhance(publish): use note's `desc`field for SEO description 
 - enhance(retrieve): support end block anchor
+- enhance(preview): open note in different editor group then preview
 - fix(workspace): information modal to uninstall 'dendron markdown links' extension
 - fix(publish): hide sidebar when clicking a non-submenu note on mobile
 - fix(publish): current menu item on the sidebar wont collapse for a published site
@@ -33,6 +35,12 @@ July 26, 2022
 ## Community
 
 ### General Updates
+
+**Greenhouse this Friday!**
+
+We have a [[Greenhouse Talk|dendron://dendron.dendron-site/community.events.greenhouse]] this week! Come listen to Derek Ardolf (icanteven#0264) speak on 'Expanding Your Second Brain: Modularizing public documentation for Dendron consumption'
+
+- [Greenhouse Talk](https://lu.ma/knu8uopf) (Fri, Jul 29, 04:00 PM PST / 00:00 UTC)
 
 #### CROP Updates
 
@@ -69,6 +77,23 @@ This week's entry in the [[Dendron Reading Series|dendron://dendron.dendron-site
 
 A big **thanks** to the following gardeners that brought up issues, contributions, and fixes to this release :man_farmer: :woman_farmer: 
 Visit [[Discord Roles|dendron://dendron.dendron-site/community.discord.roles]] for more information.
+
+- [Lodrus](https://github.com/Lodrus)
+  - #role.bugcatcher
+  - [Using dendronrc.yaml can cause dnedron to fail to load](https://github.com/dendronhq/dendron/issues/3290)
+
+- [rogue2971](https://github.com/rogue2971)
+  - #role.bugcatcher    
+  - [Import Pod fails importing to Dendron a portion of my content](https://github.com/dendronhq/dendron/issues/3295)
+    
+- [Aleksey Rowan](https://github.com/aleksey-rowan) `@aleksey#5276`
+  - [Tree view uses the default `Date()` format for journal notes where title is not wrapped in quotes](https://github.com/dendronhq/dendron/issues/3298)
+
+#### Surveyors
+
+The following community members provided feedback in the Dendron user survey:
+
+- `@DorianB#1674`
 
 ## Changelog
 ![[changelog#01050,1:#01040]]
