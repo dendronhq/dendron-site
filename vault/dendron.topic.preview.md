@@ -2,7 +2,7 @@
 id: Lnp1URddmWEWweyf
 title: Preview
 desc: ''
-updated: 1657896198091
+updated: 1658849786471
 created: 1626382220182
 ---
 
@@ -10,9 +10,15 @@ created: 1626382220182
 
 The Dendron Preview gives you a rich HTML preview for your notes. 
 
+## Details
+
+- when a note is open by clicking a link in the preview, that note will open in an editor group that is not the preview 
+- the preview does not support scroll sync 
+
 ## Config
 
 ![[dendron://dendron.dendron-site/dendron.ref.config.preview#summary,1]]
+
 
 ## FAQ
 1. Can you pin a particular note's preview, and open a different preview pane for any notes opened thereafter? 

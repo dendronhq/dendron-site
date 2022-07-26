@@ -1,16 +1,16 @@
 ---
 id: yxkn87ohgomk0tgs12dppur
-title: Backlinks
+title: Backlinks Panel
 desc: ''
-updated: 1655252159138
+updated: 1658768467592
 created: 1653410188509
 ---
 
 ## Summary
-This view lets you see all [[backlinks|dendron.topic.links#backlinks]] to the current note.
 
-When you create a link anywhere in Dendron, it becomes a backlink to the destination note and will appear in the backlinks view of the destination note.
+The backlinks panel shows you all [[backlinks|dendron.topic.links#backlinks]] to the current note.
 
+![[dendron://dendron.dendron-site/asset.preview#backlinks-dark,1:#*]]
 
 ## Features
 

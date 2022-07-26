@@ -1,8 +1,6 @@
 dev:
-    enableWebUI: true
     enablePreviewV2: true
 version: 5
-useTitleForLink: true
 commands:
     lookup:
         note:
@@ -13,14 +11,13 @@ commands:
             fuzzThreshold: 0.2
             vaultSelectionModeOnCreate: smart
     randomNote: {}
-    insertNote:
-        initialValue: templates
     insertNoteLink:
         aliasMode: none
         enableMultiSelect: false
     insertNoteIndex:
         enableMarker: false
     copyNoteLink: {}
+    templateHierarchy: template
 workspace:
     dendronVersion: 0.83.0
     vaults:
@@ -38,6 +35,7 @@ workspace:
         addBehavior: asOwnDomain
     graph:
         zoomSpeed: 1
+        createStub: false
     enableAutoCreateOnDefinition: false
     enableHandlebarTemplates: true
     enableXVaultWikiLink: true
@@ -73,6 +71,7 @@ workspace:
     enableHashTags: true
     enableEditorDecorations: true
     enableFullHierarchyNoteTitle: false
+    enableSmartRefs: false
 preview:
     enableFMTitle: true
     enableNoteTitleForLink: true
@@ -106,6 +105,7 @@ publishing:
     enableHashesForFMTags: false
     enableRandomlyColoredTags: true
     writeStubs: false
+    siteBanner: "custom"
     seo:
         title: Dendron
         description: >-
@@ -122,4 +122,4 @@ publishing:
         editViewMode: tree
         editRepository: https://github.com/dendronhq/dendron-site
     enablePrettyLinks: true
-      #siteBanner: "custom"
+    enableTaskNotes: true
