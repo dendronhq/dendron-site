@@ -2,7 +2,7 @@
 id: xhcrzg39oqahvb89jb2m1ur
 title: 0.105
 desc: ''
-updated: 1658851669613
+updated: 1658853669926
 created: 1658758655969
 ---
 
@@ -19,11 +19,11 @@ July 26, 2022
 ## Highlights
 
 - enhance(views): option to filter hierarchical edges from graph panel
+- enhance(retrieve): support end block anchor
 
 ## Everything Else
 
 - enhance(publish): use note's `desc`field for SEO description 
-- enhance(retrieve): support end block anchor
 - enhance(preview): open note in different editor group then preview
 - fix(workspace): information modal to uninstall 'dendron markdown links' extension
 - fix(publish): hide sidebar when clicking a non-submenu note on mobile
