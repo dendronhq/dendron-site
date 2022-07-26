@@ -2,7 +2,7 @@
 id: xhcrzg39oqahvb89jb2m1ur
 title: 0.105
 desc: ''
-updated: 1658853669926
+updated: 1658854002837
 created: 1658758655969
 ---
 
@@ -18,19 +18,18 @@ July 26, 2022
 
 ## Highlights
 
-- enhance(views): option to filter hierarchical edges from graph panel
-- enhance(retrieve): support end block anchor
+- enhance(views): option to filter hierarchical edges from graph panel ([[docs|dendron://dendron.dendron-site/dendron.topic.sidebar.graph-panel#toggle-edges]])
+- enhance(retrieve): support end block anchor ([[docs|dendron://dendron.dendron-site/dendron.topic.note-reference#end-positional-reference]])
 
 ## Everything Else
 
-- enhance(publish): use note's `desc`field for SEO description 
-- enhance(preview): open note in different editor group then preview
+- enhance(publish): use note's `desc`field for SEO description ([[docs|dendron://dendron.dendron-site/dendron.topic.publish.config.seo.description#^ygk9kha1hgzy]])
+- enhance(preview): open note in different editor group then preview ([[docs|dendron://dendron.dendron-site/dendron.topic.preview#details]])
 - fix(workspace): information modal to uninstall 'dendron markdown links' extension
 - fix(publish): hide sidebar when clicking a non-submenu note on mobile
 - fix(publish): current menu item on the sidebar wont collapse for a published site
 - fix(views): properly focus tree view to active note when it is first shown 
 - fix(workspace): fix typos in getting started tutorial
-
 
 ## Community
 
