@@ -2,7 +2,7 @@
 id: vsvy65bfczmjtmpznpg58yc
 title: 'THE MAINTENANCE RACE'
 desc: 'The story of three sailors competing to be the first to solo-sail around the world and their approach to maintenance which led to three very different outcomes'
-updated: 1658847698236
+updated: 1658848735028
 created: 1658846396286
 ---
 
@@ -14,6 +14,7 @@ created: 1658846396286
 {{fm.desc}}.
 
 tldr - in 1968, a race was held to sail around the world on a sailboat, by oneself, without stopping. The three sailors highlighted in this article had three different approaches to maintenance - one fixed things as they came up, another placed (too much) faith in technology and did not consider maintenance, and the last did maintenance pre-emptively and ahead of time. 
+
 
 I won't spoil the ending but highly recommend reading the piece in full (set aside some time as it's a long article).
 
