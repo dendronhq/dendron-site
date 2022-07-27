@@ -3,7 +3,7 @@ id: ldt8dqn41k80emerw5w88by
 title: Toggle Preview
 desc: |
     Toggle display of the markdown preview
-updated: 1657896301254
+updated: 1658935570350
 created: 1657896210724
 ---
 
@@ -13,5 +13,5 @@ created: 1657896210724
 
 ## Keybindings
 - shortcuts:
-  - windows: `windows+ctrl+p`
+  - windows: `ctrl+k v`
   - mac: `cmd+ctrl+p`
