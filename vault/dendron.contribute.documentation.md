@@ -2,7 +2,7 @@
 id: b58801fc-43a9-4d42-a58b-eabc3e8538cb
 title: Documentation
 desc: ''
-updated: 1641926778938
+updated: 1659026651980
 created: 1604235766390
 ---
 
@@ -30,7 +30,7 @@ Gifs
 
 For more involved changes, you can fork our GitHub repositories and clone them locally.
 
-For example, the [wiki.dendron.so](https://www.dendron.so) website is built from the contents of [`dendronhq/dendron-site`](https://github.com/dendronhq/dendron-site). Make changes in the corresponding file and send us a pull request to update the documentation. You can preview your changes using [[Show Preview|dendron://dendron.dendron-site/dendron.ref.commands#show-preview]].
+For example, the [wiki.dendron.so](https://www.dendron.so) website is built from the contents of [`dendronhq/dendron-site`](https://github.com/dendronhq/dendron-site). Make changes in the corresponding file and send us a pull request to update the documentation. You can preview your changes using [[dendron://dendron.dendron-site/dendron.topic.preview.commands.toggle-preview]].
 
 ### Prerequisites
 
