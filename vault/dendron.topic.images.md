@@ -2,7 +2,7 @@
 id: a91fd8da-6895-49fe-8164-a17acd8d9a17
 title: Images
 desc: ''
-updated: 1646113795863
+updated: 1659026813451
 created: 1595562035825
 stub: false
 ---
@@ -28,7 +28,7 @@ An easy way to insert an image which is saved locally to your Markdown note is t
 
 Dendron allows you to extend your images by adding custom CSS properties to
 them. This can allow you to display an image at a specific size, make it float
-(text wrapping around image), add a border, or much more. Extended images work both in [[Preview V2|dendron.ref.commands#show-preview-v2]] and in [[Publish|dendron.topic.publish]].
+(text wrapping around image), add a border, or much more. Extended images work both in [[dendron://dendron.dendron-site/dendron.topic.preview]] and in [[Publishing|dendron.topic.publish]].
 
 ### Syntax
 

@@ -2,7 +2,7 @@
 id: x1d18w46rxu34tksct3d4lh
 title: Meeting Note
 desc: 'Meeting notes help you keep track of meetings by providing a structured default to capture notes, attendes and next steps'
-updated: 1657074948632
+updated: 1658947585935
 created: 1657070789093
 ---
 
@@ -21,4 +21,6 @@ The template gets applied to your meeting notes because of the [[schema|dendron:
 
 ## Getting Started
 
-To create a meeting note, run the [[Create Meeting Note|dendron://dendron.dendron-site/dendron.ref.commands#create-meeting-note]] command
+To create a meeting note, run the [[Create Meeting Note|dendron://dendron.dendron-site/dendron.ref.commands#create-meeting-note]] command. We recommend you add a suffix to the meeting note to make it easier to identify
+
+<div style="position: relative; padding-bottom: 64.5933014354067%; height: 0;"><iframe src="https://www.loom.com/embed/951e6bb301cf430895c6c9539351bbb3" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>

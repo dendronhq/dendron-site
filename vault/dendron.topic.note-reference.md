@@ -2,7 +2,7 @@
 id: f1af56bb-db27-47ae-8406-61a98de6c78c
 title: Note Reference
 desc: "Dendron allows you to reference content from other notes and **embed** them in your current note"
-updated: 1658179297646
+updated: 1659091999579
 created: 1597356582509
 stub: false
 ---
@@ -38,6 +38,9 @@ You can create a reference with an anchor to reference a specific part of the no
 > For more information:
 >
 > - [StackOverflow: How to escape symbols in GitHub-flavored Markdown internal links / heading anchors?](https://stackoverflow.com/a/48760076/5340149)
+
+> NOTE: The Note Preview can only resolve chained note refs within a limit of 3.
+> For e.g.: It the content of note a has `![[b]]`, note b has `![[c]]`, note c has `![[d]]` and note d has `![[e]]`, then the preview of note a will not display contents of note e.
 
 ## Reference Types
 
