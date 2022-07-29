@@ -2,7 +2,7 @@
 id: 3abd00eb-1c1e-4253-aaf5-dcbe20c21850
 title: Early Seed
 desc: ''
-updated: 1659017290594
+updated: 1659106198353
 created: 1604539200840
 published: true
 nav_exclude: true
@@ -24,7 +24,6 @@ Dendron 0.106 has sprouted 🌱
 - enhance(edit): remove delete node command (#3285) @kevin
 - enhance(workspace): 'Fix It' button in warning toaster for duplicate note id (#3237) @joshi
 - enhance(retrieve): remove `Show Preview` command (#3276) @kevin
-- enhance(retrieve): fix default keyboard shortcut of toggle preview (#3276) @kevin
 
 ### Fix
 - fix(workspace): List dendron.dendron-markdown-preview-enhanced as unwanted (#3281) @derek
