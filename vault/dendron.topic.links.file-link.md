@@ -2,19 +2,30 @@
 id: lzviz9odglotrbsgcp678i6
 title: File Link
 desc: ''
-updated: 1658828617828
+updated: 1659078529005
 created: 1658828603919
 ---
 
-![[dendron://dendron.dendron-site/tags.stage.sprout]]
+> File link feature is at #stage.sprout
 
-You can link to files in your workspace that are not notes (or not in a vault) using wikilinks. The
-easiest way to link to a file is using the [[Copy Note Link|dendron.ref.commands#copy-note-link]]
-command, which will automatically create a link for you. As with note files, copy note link
-will create a [[Block Anchor|dendron://dendron.dendron-site/dendron.topic.note-reference#block-anchor]] for you if you have a region of text selected.
+## Summary
 
-Otherwise, you need to write inside a wikilink the relative path to the file
-from where your `dendron.yml` file is located. For example, if the root of your
-workspace contains `dendron.yml` and a `src` folder, you can write
-`[[src/index.js]]`. Alternatively, if you are linking to a file inside the
-`assets` folder of a vault, you can simply type `[[assets/example.py]]` to link to it.
+A file link is a [[dendron.topic.links.wiki-link]] that links to files in your workspace that are not Dendron notes, or not in a Dendron vault.
+
+### Getting started
+
+#### Automatically creating file links
+
+The easiest way to link to a file is using the [[Copy Note Link|dendron.topic.links.commands.copy-note-link]] command, which will automatically create a link for you. 
+
+Similar to notes, [[Copy Note Link|dendron.topic.links.commands.copy-note-link]] command will create a [[Block Anchors|dendron://dendron.dendron-site/dendron.topic.note-reference.concepts.block-anchors]] for you if you have a region of text selected.
+
+#### Manually creating file links
+
+To manually create file links, you need to write the relative path to the file in a [[dendron.topic.links.wiki-link]]
+
+The path should be relative to where your `dendron.yml` file is located. 
+
+For example, if the root of your workspace contains `dendron.yml` and a folder called `src` in your project, you can write `[[src/index.js]]`. 
+
+Alternatively, if you are linking to a file inside the `assets` folder of a vault, you can type `[[assets/example.py]]` to link to it.

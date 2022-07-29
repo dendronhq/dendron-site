@@ -1,8 +1,8 @@
 ---
 id: 3472226a-ff3c-432d-bf5d-10926f39f6c2
 title: Links
-desc: "Create links to various locations using basic and extended syntax"
-updated: 1658831456674
+desc: Create links to various locations using basic and extended syntax
+updated: 1659082798415
 created: 1595003088839
 config:
   global:
@@ -40,21 +40,21 @@ Dendron provides many ways to create links between notes and assets. This range 
 
 ![[dendron://dendron.dendron-site/dendron.topic.links.wiki-link]]
 
+### Block Links
+
+![[dendron://dendron.dendron-site/dendron.topic.links.block-link]]
+
 ### File Links
 
 ![[dendron://dendron.dendron-site/dendron.topic.links.file-link]]
 
-### Children Links
+### Child Links
 
-![[Children Link|dendron://dendron.dendron-site/dendron.topic.links.children-link]]
+![[dendron://dendron.dendron-site/dendron.topic.links.child-link]]
 
 ### Backlinks
 
 ![[dendron://dendron.dendron-site/dendron.topic.links.backlink]]
-
-### Naked Links
-
-![[Naked Link|dendron://dendron.dendron-site/dendron.topic.links.naked-link]]
 
 ### Cross Vault Links
 
@@ -73,9 +73,8 @@ Dendron provides many ways to create links between notes and assets. This range 
   - [[dendron://dendron.dendron-site/dendron.topic.links.backlink]]
   - [[dendron://dendron.dendron-site/dendron.topic.links.file-link]]
   - [[dendron://dendron.dendron-site/dendron.topic.links.wiki-link]]
-  - [[dendron://dendron.dendron-site/dendron.topic.links.naked-link]]
   - [[dendron://dendron.dendron-site/dendron.topic.links.block-link]]
   - [[dendron://dendron.dendron-site/dendron.topic.links.markdown-link]]
-  - [[dendron://dendron.dendron-site/dendron.topic.links.children-link]]
+  - [[dendron://dendron.dendron-site/dendron.topic.links.child-link]]
   - [[dendron://dendron.dendron-site/dendron.topic.links.cross-vault-link]]
 - [[dendron://dendron.dendron-site/dendron.topic.links.commands]]
