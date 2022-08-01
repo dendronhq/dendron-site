@@ -3,7 +3,7 @@ id: k5zg3zk1ffmsrmojnvn8uxw
 title: >-
     Seeding Digital Gardens and Connecting Second Brains
 desc: 'Greenhouse Talk on modularizing public documentation, ebooks, and other web content for Dendron consumption.'
-updated: 1659368654945
+updated: 1659284818559
 created: 1659284597998
 ---
 
@@ -185,5 +185,3 @@ What I liked from the import pod, and adopted:
 - [[Seed Bank|dendron://dendron.dendron-site/dendron.topic.seed-bank]]
 - [[canonicalUrl|dendron://dendron.dendron-site/dendron.topic.publish-legacy.configuration#canonicalurl]]
   - [[Legacy Note Configuration|dendron://dendron.dendron-site/dendron.topic.publish-legacy.configuration#note-configuration]] needs to be reviewed and migrated to a new location since values like `canonicalUrl` still work in note frontmatter with newer publishing.
-
-
