@@ -2,7 +2,7 @@
 id: 25287595-96bb-410b-ab46-eb9a26b0e259
 title: Web UI
 desc: ''
-updated: 1656048022118
+updated: 1659026889885
 created: 1621552722494
 ---
 
@@ -85,10 +85,6 @@ The depth filter allows you to see the second or third degree of nodes from the 
 
 ![[dendron://dendron.dendron-site/dendron.topic.preview#summary,1]]
 
-#### Methods
-
-##### Show Preview V2
-Brings up the native Dendron Preview
 
 ## Theming
 
