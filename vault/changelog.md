@@ -2,11 +2,32 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1658856871637
+updated: 1659456790639
 created: 1601508213606
 nav_order: 2
 ---
+## 0.106.0
 
+### Breaking
+
+- the `Delete Node` command is now replaced with the `Delete` command (if you haven't set any custom keyboard shortcuts for `Delete Node`, no change is necessary)
+- the `Show Preview` command is now replaced with the `Toggle Preview` command (if you haven't set any custom keyboard shortcuts for `Show Preview`, no change is necessary)
+
+### Enhancements
+
+- enhance(edit): remove `Delete Node` command (#3285) @kevin
+- enhance(retrieve): remove `Show Preview` command (#3276) @kevin
+- enhance(workspace): `Fix It` button in warning toaster for duplicate note id (#3237) @joshi
+
+### Fix
+
+- fix(publish): sidebar pop on initial load (#3265) @hunter
+- fix(publish): renders consistent layout on mobile and non-mobile (#3272) @sam
+- fix(workspace): List `dendron.dendron-markdown-preview-enhanced` as unwanted (#3281) @derek
+- fix(views): toggle preview doesnt toggle preview off when focus is on the preview itself (#3317) @joshi
+- fix(retrieve): remove references of show preview (#3315) @joshi
+- fix(views): remove forced tree view focus on workspace activation (#3313) @hikchoi
+- fix(retrieve): windows keybindings for toggle preview (#3323) @kevin
 ## 0.105.0
 
 ### Enhancements

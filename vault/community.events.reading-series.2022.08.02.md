@@ -2,7 +2,7 @@
 id: pc0s0cjzeb6tayngmfsb3v5
 title: 'The Danger of Journaling IS Introspection'
 desc: 'Introspection as a double-edged sword'
-updated: 1659456227372
+updated: 1659456892104
 created: 1659454718665
 ---
 
