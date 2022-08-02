@@ -2,7 +2,7 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1659449794002
+updated: 1659450263651
 created: 1601508213606
 nav_order: 2
 ---
@@ -26,7 +26,7 @@ nav_order: 2
 - fix(workspace): List `dendron.dendron-markdown-preview-enhanced` as unwanted (#3281) @derek
 - fix(views): toggle preview doesnt toggle preview off when focus is on the preview itself (#3317) @joshi
 - fix(retrieve): remove references of show preview (#3315) @joshi
-- fix(views): remove forced tree view focus on workspace activation #3313 @hikchoi
+- fix(views): remove forced tree view focus on workspace activation (#3313) @hikchoi
 - fix(retrieve): windows keybindings for toggle preview (#3323) @kevin
 ## 0.105.0
 
