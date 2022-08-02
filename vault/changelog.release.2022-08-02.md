@@ -2,7 +2,7 @@
 id: ts7a4ba891ctryu35gxcc3m
 title: 0.106
 desc: ''
-updated: 1659456759511
+updated: 1659457090305
 created: 1659372767472
 ---
 
@@ -54,6 +54,7 @@ Are you interested in speaking at our next greenhouse? If so, fill out the [Gree
 This week's entry in the [[Dendron Reading Series|dendron://dendron.dendron-site/community.events.reading-series]].
 
 [[The Danger of Journaling IS Introspection|dendron://dendron.dendron-site/community.events.reading-series.2022.08.02]]
+
 ### Event Reminders
 
 - **Greenhouse Talks:** Visit the [[Greenhouse Talks|dendron://dendron.dendron-site/community.events.greenhouse]] for notes from previous sessions.
