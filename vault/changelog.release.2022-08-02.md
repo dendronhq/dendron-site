@@ -2,19 +2,19 @@
 id: ts7a4ba891ctryu35gxcc3m
 title: 0.106
 desc: ''
-updated: 1659450027598
+updated: 1659456759511
 created: 1659372767472
 ---
 
 Dendron 0.106 has sprouted  🌱
 August 02, 2022
 
-**Remove Delete Node and Show Preview commands** The `Delete Node` command is now replaced with the `Delete` command and `Show Preview` command is now replaced with the `Toggle Preview` command. Time to change your custom keyboard shortcuts to reflect the changes!
+**Remove Delete Node and Show Preview commands** The `Delete Node` command is now replaced with the `Delete` command and `Show Preview` command is now replaced with the `Toggle Preview` command. If you've set custom keyboard shortcuts for these commands, a reminder to change them now!
 
 
 ## Highlights
 
-- enhance(edit): remove delete node command
+- enhance(edit): remove `Delete Node` command
 - enhance(retrieve): remove `Show Preview` command
 
 ## Everything Else
@@ -53,6 +53,7 @@ Are you interested in speaking at our next greenhouse? If so, fill out the [Gree
 
 This week's entry in the [[Dendron Reading Series|dendron://dendron.dendron-site/community.events.reading-series]].
 
+[[The Danger of Journaling IS Introspection|dendron://dendron.dendron-site/community.events.reading-series.2022.08.02]]
 ### Event Reminders
 
 - **Greenhouse Talks:** Visit the [[Greenhouse Talks|dendron://dendron.dendron-site/community.events.greenhouse]] for notes from previous sessions.

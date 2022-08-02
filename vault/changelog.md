@@ -2,7 +2,7 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1659450263651
+updated: 1659456790639
 created: 1601508213606
 nav_order: 2
 ---
@@ -15,7 +15,7 @@ nav_order: 2
 
 ### Enhancements
 
-- enhance(edit): remove delete node command (#3285) @kevin
+- enhance(edit): remove `Delete Node` command (#3285) @kevin
 - enhance(retrieve): remove `Show Preview` command (#3276) @kevin
 - enhance(workspace): `Fix It` button in warning toaster for duplicate note id (#3237) @joshi
 
