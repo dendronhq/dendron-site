@@ -2,7 +2,7 @@
 id: ts7a4ba891ctryu35gxcc3m
 title: 0.106
 desc: ''
-updated: 1659373463380
+updated: 1659450027598
 created: 1659372767472
 ---
 
@@ -20,12 +20,13 @@ August 02, 2022
 ## Everything Else
 
 - enhance(workspace): `Fix It` button in warning toaster for duplicate note id
-- enhance(retrieve): fix default keyboard shortcut of toggle preview on windows
 - fix(publish): sidebar pop on initial load
 - fix(publish): renders consistent layout on mobile and non-mobile
 - fix(workspace): List `dendron.dendron-markdown-preview-enhanced` as unwanted
 - fix(views): toggle preview doesnt toggle preview off when focus is on the preview itself
 - fix(retrieve): remove references of show preview
+- fix(views): remove forced tree view focus on workspace activation
+- fix(retrieve): windows keybindings for toggle preview
 
 ## Community
 
@@ -65,11 +66,20 @@ This week's entry in the [[Dendron Reading Series|dendron://dendron.dendron-site
 - **New User Tuesdays:** Visit the [[New User Tuesdays page|dendron://dendron.dendron-site/community.events.new-user-tuesdays]] for notes from previous sessions.
     - Next: [Tue, Aug 09, 8:30 AM PST / 16:30 UTC](https://link.dendron.so/luma)
 
-
 ### Thank You's
 
 A big **thanks** to the following gardeners that brought up issues, contributions, and fixes to this release :man_farmer: :woman_farmer: 
 Visit [[Discord Roles|dendron://dendron.dendron-site/community.discord.roles]] for more information.
+
+- [doylejg](https://github.com/doylejg)
+  - #role.bugcatcher
+  - [Dendron views and some command doesn't work as expected with remote vault](https://github.com/dendronhq/dendron/issues/3301)
+
+- [Derek Ardolf](https://github.com/ScriptAutomate) `@icanteven#0264`
+  - [fix(workspace): List dendron.dendron-markdown-preview-enhanced as unwantedRecommendation](https://github.com/dendronhq/dendron/pull/3281)
+
+- [Callum Mcdonald](https://github.com/chmac) `@chmac#2931`
+  - [Go to previous sibling skips 31st](https://github.com/dendronhq/dendron/issues/3330)
 
 ## Changelog
 ![[changelog#01060,1:#01050]]
