@@ -2,9 +2,8 @@
 id: 5c213aa6-e4ba-49e8-85c5-1bdcb33ce202
 title: Special Notes
 desc: ''
-updated: 1657075105247
+updated: 1659483887989
 created: 1595004457029
-stub: false
 ---
 
 Dendron has built-in support for a variety of special note formats. These notes can be created using regular lookup - these commands provide convenient shortcuts for frequently used notes.

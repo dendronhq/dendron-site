@@ -4,7 +4,7 @@ title: Commands
 desc: ""
 tags:
     - stage.seed
-updated: 1658179213638
+updated: 1659483984401
 created: 1595261816971
 nav_order: 3.1
 ---
@@ -358,10 +358,7 @@ The `Create Task Note` lookup supports tabbing for autocompletion.
 
 ### Create Meeting Note
 
--   shortcuts: none
-
-Creates a [[meeting note|dendron://dendron.dendron-site/dendron.topic.special-notes#meeting-note]], which applied a pre-built template to help you take notes during a meeting. The template is fully customizable.
-
+![[dendron.topic.special-notes.commands.create-meeting-note]]
 ### Lookup Schema
 
 -   shortcuts:
