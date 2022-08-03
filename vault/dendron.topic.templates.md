@@ -2,7 +2,7 @@
 id: 861cbdf8-102e-4633-9933-1f3d74df53d2
 title: Templates
 desc: "Templates are notes whose content can be copied to other notes"
-updated: 1655748702356
+updated: 1659529269917
 created: 1602033087611
 completion: sprout
 config:
@@ -71,8 +71,6 @@ Comment your template to remember the context.
 
 ### Conditionals 
 
-> NOTE: only available when [[Handlebar Templates|dendron.topic.templates.handlebars]] are enabled
-
 Use if/else clauses to conditionally apply templates
 
 ```handlebars
@@ -93,13 +91,8 @@ Example: Conditionally add a block depending on day of week
 
 ## Components
 
-Dendron has 2 types of templates
-
 ### Handlebar Templates
 ![[dendron.topic.templates.handlebars#summary,1:#*]]
-
-### Regular Templates
-Regular templates are text based templates without handlebar functionality. They will be deprecated in future versions of Dendron. 
 
 ## Getting Started
 

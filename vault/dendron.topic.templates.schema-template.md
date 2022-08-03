@@ -2,7 +2,7 @@
 id: GelEQPZrSgr3CK9y10Nrg
 title: Schema Template
 desc: 'Automatically apply a template when it matches a particular hierarchy pattern'
-updated: 1653440497387
+updated: 1659529081337
 created: 1643737499035
 ---
 
@@ -21,21 +21,7 @@ This is extremely useful whenever you want to re-use the outline of a note. Exam
 
 ## [[Template Variables|dendron.topic.templates#template-variables]]
 
-![[dendron.topic.templates.template-variables#summary,1:#^w9f1tyetgq6z]]
-
-To use template variables, use the angle bracked syntax `<%= VARIABLE %>` 
-
-> NOTE: the text enclosed in `<%= VARIABLE %>` will be replaced when the template is applied
-
-An example of using template variables in your template:
-- input
-    ```md
-    Today is <%=CURRENT_YEAR%>.<%= CURRENT_MONTH%>.<%= CURRENT_DAY%>,
-    ```
-- output
-    ```
-    Today is 2022.01.04
-    ```
+![[dendron.topic.templates.template-variables#summary]]
 
 ## [[Variable Substitution|dendron.topic.templates#variable-substitution]]
 
