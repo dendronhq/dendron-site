@@ -1,7 +1,6 @@
 ---
 id: wwh6hv4gb0idvrmuzxjbhhe
-title: >-
-	Create Note With Custom Trait
+title: Create Note With Custom Trait
 desc: ''
 updated: 1659494773525
 created: 1659494419904

@@ -2,7 +2,7 @@
 id: a6c03f9b-8959-4d67-8394-4d204ab69bfe
 title: Troubleshooting
 desc: ''
-updated: 1654261673969
+updated: 1659218311771
 created: 1595952505025
 nav_order: 7.1
 ---
@@ -258,6 +258,10 @@ Go into your workspace settings. Set [[dendron.logLevel|dendron://dendron.dendro
 ### Keyboard Diagnostics
 1. Run `>toggle keyboard shortcuts troubleshooting` 
 1. Run a keyboard shortcut and see the output
+
+### See installed extensions
+
+See https://www.kindacode.com/article/how-to-show-all-installed-extensions-in-vs-code-2020/
 
 ## Common Fixes
 
