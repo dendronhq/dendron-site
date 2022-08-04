@@ -2,7 +2,7 @@
 id: 3abd00eb-1c1e-4253-aaf5-dcbe20c21850
 title: Early Seed
 desc: ''
-updated: 1659106198353
+updated: 1659628459754
 created: 1604539200840
 published: true
 nav_exclude: true
@@ -10,20 +10,23 @@ nav_exclude: true
 
 > This page documents the features, enhancements, and fixes in the latest early seed release. The early seed is a preview of the weekly release, so you'll see the next minor version when installing (ex. `0.78.0` instead of `0.77.1`). When dendron ships the general release, the currently installed extension will automatically be updated (but will still have same version).
 
-## 0.106.0
-July 29, 2022
+## 0.107.0
+August 05, 2022
 
-Dendron 0.106 has sprouted 🌱
+Dendron 0.107 has sprouted 🌱
 
-### Breaking
 
-- the `Delete Node` command is now replaced with the `Delete` command (if you haven't set any custom keyboard shortcuts for `Delete Node`, no change is necessary)
-- the `Show Preview` command is now replaced with the `Toggle Preview` command (if you haven't set any custom keyboard shortcuts for `Show Preview`, no change is necessary)
+**Add Toggle Preview Lock command**: You can now lock in the preview of a specific note and navigate other notes without changing your preview.
+
+### Features
+- feat(views): add "Toggle Preview Lock" command (#3293) @sam ([[dendron://dendron.dendron-site/dendron.topic.preview.commands.toggle-preview-lock]])
 
 ### Enhancements
-- enhance(edit): remove delete node command (#3285) @kevin
-- enhance(workspace): 'Fix It' button in warning toaster for duplicate note id (#3237) @joshi
-- enhance(retrieve): remove `Show Preview` command (#3276) @kevin
+- enhance(structure): support xvault template in note traits (#3329) @joshi
+- enhance(views): toggle preview lock from inside preview (#3327) @sam
 
-### Fix
-- fix(workspace): List dendron.dendron-markdown-preview-enhanced as unwanted (#3281) @derek
+### Fixes
+- fix(views): nested bullets in preview (#3326) [cquick01](https://github.com/cquick01)
+- fix(lookup): validate file name on note lookup (#3312) @hikchoi
+- fix(workspace): remote vault not recognized by dendron for windows (#3316) @joshi
+- fix(workspace): correctly decorate begin and end anchors (#3339) @hikchoi
