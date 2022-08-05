@@ -2,7 +2,7 @@
 id: a7c3a810-28c8-4b47-96a6-8156b1524af3
 title: Lookup
 desc: 'Lookup lets you find or create a note'
-updated: 1655748905535
+updated: 1659715122710
 created: 1595952505038
 ---
 
@@ -32,3 +32,4 @@ Scoring is explained [here](https://fusejs.io/concepts/scoring-theory.html).
 
 You can see the pseudo code for how fusejs integrates with lookup [[here|pkg.plugin-core.t.lookup.ref.note-lookup]].
 
+![[dendron.topic.lookup.ref.restrictions]]
