@@ -2,7 +2,7 @@
 id: oOIEFJc6DTgS71mmh89WQ
 title: API
 desc: ''
-updated: 1655883676296
+updated: 1659706336126
 created: 1638844803983
 ---
 
@@ -53,7 +53,7 @@ _None_
 
 #### What Needs to be Returned
 
-The name of the note to use as the template. This should be another note in your workspace. Examples: `root`, `templates.meeting-note`.
+The name of the note to use as the template. This should be another note in your workspace. Examples: `root`, `templates.meeting-note`, `dendron://vaultX/templates.user`.
 
 ![[Examples|dendron://dendron.dendron-site/dendron.topic.traits.examples]]
 
