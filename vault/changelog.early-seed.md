@@ -2,7 +2,7 @@
 id: 3abd00eb-1c1e-4253-aaf5-dcbe20c21850
 title: Early Seed
 desc: ''
-updated: 1659709211380
+updated: 1659717683085
 created: 1604539200840
 published: true
 nav_exclude: true
@@ -22,11 +22,11 @@ Dendron 0.107 has sprouted 🌱
 - feat(views): add "Toggle Preview Lock" command (#3293) @sam ([[dendron://dendron.dendron-site/dendron.topic.preview.commands.toggle-preview-lock]])
 
 ### Enhancements
-- enhance(structure): support xvault template in note traits (#3329) @joshi ([[docs|dendron://dendron.dendron-site/dendron.topic.traits.api#what-needs-to-be-returned]])
-- enhance(views): toggle preview lock from inside preview (#3327) @sam
+- enhance(structure): support xvault template in note traits (#3329) @joshi ([[docs|dendron://dendron.dendron-site/dendron.topic.traits.api#return]])
+- enhance(views): toggle preview lock from inside preview (#3327) @sam ([[docs|dendron.topic.preview.commands.toggle-preview-lock]])
 
 ### Fixes
 - fix(views): nested bullets in preview (#3326) [cquick01](https://github.com/cquick01)
 - fix(lookup): validate file name on note lookup (#3312) @hikchoi
 - fix(workspace): remote vault not recognized by dendron for windows (#3316) @joshi
-- fix(workspace): correctly decorate begin and end anchors (#3339) @hikchoi
+- fix(workspace): alwayys treat `begin|end` block anchors as valid (#3339) @hikchoi
