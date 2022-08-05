@@ -2,7 +2,7 @@
 id: 3abd00eb-1c1e-4253-aaf5-dcbe20c21850
 title: Early Seed
 desc: ''
-updated: 1659628459754
+updated: 1659709211380
 created: 1604539200840
 published: true
 nav_exclude: true
@@ -22,7 +22,7 @@ Dendron 0.107 has sprouted 🌱
 - feat(views): add "Toggle Preview Lock" command (#3293) @sam ([[dendron://dendron.dendron-site/dendron.topic.preview.commands.toggle-preview-lock]])
 
 ### Enhancements
-- enhance(structure): support xvault template in note traits (#3329) @joshi
+- enhance(structure): support xvault template in note traits (#3329) @joshi ([[docs|dendron://dendron.dendron-site/dendron.topic.traits.api#what-needs-to-be-returned]])
 - enhance(views): toggle preview lock from inside preview (#3327) @sam
 
 ### Fixes
