@@ -3,7 +3,7 @@ id: 1mu1qb1vilhqr7tlatwyqxm
 title: Handlebar Templates
 desc: 'Use [handlebars](https://handlebarsjs.com/guide/), a powerful templating language which enables conditionals, for loops and custom helpers to apply to your templates without executing code.'
 completion: sprout
-updated: 1655169668499
+updated: 1659528445578
 created: 1653437075977
 ---
 
@@ -12,14 +12,6 @@ created: 1653437075977
 {{fm.desc}}
 
 ## Getting Started
-
-### Enable Handlebars Based Tempaltes
-1. Run `Dendron: Configure (yaml)`
-1. Under `workspace`, add the following setting:
-  ```yml
-  enableHandlebarTemplates: true
-  ```
-1. Run `> Reload Workspace`
 
 ### Create a template
 A template is just a regular note. While any note can be a template, we recommend adding templates in the `[[template]]` hierarchy of your vault. 
