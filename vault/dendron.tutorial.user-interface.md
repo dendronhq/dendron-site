@@ -2,7 +2,7 @@
 id: gHdxXlNMr1w4xqee0n-Mb
 title: User Interface
 desc: 1. User Interface
-updated: 1660038393108
+updated: 1660038870069
 created: 1625563862198
 nav_order: 0
 ---
@@ -29,7 +29,7 @@ You may see two additional sections at the bottom of the preview view, **Childre
 
 ## 3. File Explorer Pane
 
-This shows the files and folders in your vault. A **[[vault|dendron://dendron.dendron-site/dendron.topic.vaults]]** stores your notes and assets (ex. images, PDFs, etc.).
+This shows the files and folders in your vault. A **[[vault|dendron://dendron.dendron-site/dendron.topic.vaults]]** stores your notes and assets (e.g., images, PDFs, etc.).
 
 > 💡 **TIP:** We encourage using the **[tree view](#6-tree-view-pane)**, as opposed to the file explorer pane, for navigating your notes.
 
