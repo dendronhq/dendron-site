@@ -2,7 +2,7 @@
 id: 482bl67lvjd0r8ht0cngxmk
 title: 0.107
 desc: ''
-updated: 1660059938644
+updated: 1660061933928
 created: 1659968708044
 ---
 
@@ -33,8 +33,6 @@ August 09, 2022
 - fix(views): resolve issues with preview lock button
 
 ## Community
-
-### General Updates
 
 ### TIL Highlights
 
