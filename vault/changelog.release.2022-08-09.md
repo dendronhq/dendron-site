@@ -2,7 +2,7 @@
 id: 482bl67lvjd0r8ht0cngxmk
 title: 0.107
 desc: ''
-updated: 1660059894289
+updated: 1660059938644
 created: 1659968708044
 ---
 
@@ -49,7 +49,7 @@ August 09, 2022
 
 This week's entry in the [[Dendron Reading Series|dendron://dendron.dendron-site/community.events.reading-series]].
 
- [[Things I've learned about writing good READMEs|dendron://dendron.dendron-site/community.events.reading-series.2022.08.09]]
+[[Things I've learned about writing good READMEs|dendron://dendron.dendron-site/community.events.reading-series.2022.08.09]]
 
 ### Event Reminders
 
