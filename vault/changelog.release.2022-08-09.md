@@ -2,7 +2,7 @@
 id: 482bl67lvjd0r8ht0cngxmk
 title: 0.107
 desc: ''
-updated: 1660015273752
+updated: 1660055379876
 created: 1659968708044
 ---
 
@@ -29,7 +29,6 @@ August 09, 2022
 - fix(views): nested bullets formatted correctly in preview
 - fix(lookup): validate file name on note lookup ([[docs|dendron.topic.lookup.ref.restrictions]])
 - fix(workspace): remote vault not recognized by dendron for windows
-- fix(workspace): always treat `begin|end` block anchors as valid
 - fix(views): resolve issues with preview lock button
 
 ## Community
@@ -66,6 +65,21 @@ This week's entry in the [[Dendron Reading Series|dendron://dendron.dendron-site
 
 A big **thanks** to the following gardeners that brought up issues, contributions, and fixes to this release :man_farmer: :woman_farmer: 
 Visit [[Discord Roles|dendron://dendron.dendron-site/community.discord.roles]] for more information.
+
+- [cquick01](https://github.com/cquick01)
+  - #role.horticulturalist
+  - [fix: nested bullets in preview](https://github.com/dendronhq/dendron/pull/3326)
+  
+- [d1onysus](https://github.com/dweisiger) `@d1onysus#1514`
+  - #role.bugcatcher
+  - [Viewing header links scrolls past the header text](https://github.com/dendronhq/dendron/issues/3354)
+
+- [Virile](https://github.com/eshoberg)  
+  - #role.bugcatcher  
+  - [GoToSiblingCommand: You found a bug!](https://github.com/dendronhq/dendron/issues/3355)
+
+- [Patrik Grip-Jansson](https://github.com/kap42)  
+  - [Many minor changes to the "dendron.faq.md" note](https://github.com/dendronhq/dendron-site/pull/590)
 
 ## Changelog
 ![[changelog#01070,1:#01060]]

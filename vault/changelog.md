@@ -2,7 +2,7 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1660014367544
+updated: 1660053501172
 created: 1601508213606
 nav_order: 2
 ---
@@ -28,7 +28,6 @@ nav_order: 2
 - fix(views): nested bullets formatted correctly in preview (#3326) [cquick01](https://github.com/cquick01)
 - fix(lookup): validate file name on note lookup (#3312) @hikchoi ([[docs|dendron.topic.lookup.ref.restrictions]])
 - fix(workspace): remote vault not recognized by dendron for windows (#3316) @joshi
-- fix(workspace): always treat `begin|end` block anchors as valid (#3339) @hikchoi
 - fix(views): resolve issues with preview lock button (#3353) @sam
 
 
