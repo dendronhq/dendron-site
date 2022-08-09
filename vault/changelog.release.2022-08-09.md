@@ -2,14 +2,14 @@
 id: 482bl67lvjd0r8ht0cngxmk
 title: 0.107
 desc: ''
-updated: 1659972909881
+updated: 1660015273752
 created: 1659968708044
 ---
 
 Dendron 0.107 has sprouted  🌱
 August 09, 2022
 
-**Add Toggle Preview Lock command**: You can now lock in the preview of a specific note and navigate other notes without changing your preview.
+**Preview Locking**: You can now lock the preview to a specific note which will remain pinned even as you navigate to different notes.
 
 - More information: [[Toggle Preview Lock|dendron://dendron.dendron-site/dendron.topic.preview.commands.toggle-preview-lock]]
 
@@ -21,16 +21,16 @@ August 09, 2022
 
 ## Everything Else
 
-- enhance(structure): support xvault template in note traits (#3329) @joshi ([[docs|dendron://dendron.dendron-site/dendron.topic.traits.api#return]])
-- enhance(publish): speed up published site (#3336) @hunter
-- enhance(views): toggle preview lock from inside preview (#3327) @sam ([[docs|dendron.topic.preview.commands.toggle-preview-lock]])
-- enhance(workspace): only show the feature showcase once @kevin
-- enhance(lookup): add space between note title and vault name (#3347)[Sean Li](https://github.com/saifahn)
-- fix(views): nested bullets formatted correctly in preview (#3326) [cquick01](https://github.com/cquick01)
-- fix(lookup): validate file name on note lookup (#3312) @hikchoi ([[docs|dendron.topic.lookup.ref.restrictions]])
-- fix(workspace): remote vault not recognized by dendron for windows (#3316) @joshi
-- fix(workspace): always treat `begin|end` block anchors as valid (#3339) @hikchoi
-- fix(views): resolve issues with preview lock button (#3353) @sam
+- enhance(structure): support xvault template in note traits ([[docs|dendron://dendron.dendron-site/dendron.topic.traits.api#return]])
+- enhance(publish): speed up published site
+- enhance(views): toggle preview lock from inside preview ([[docs|dendron.topic.preview.commands.toggle-preview-lock]])
+- enhance(workspace): only show the feature showcase once 
+- enhance(lookup): add space between note title and vault name
+- fix(views): nested bullets formatted correctly in preview
+- fix(lookup): validate file name on note lookup ([[docs|dendron.topic.lookup.ref.restrictions]])
+- fix(workspace): remote vault not recognized by dendron for windows
+- fix(workspace): always treat `begin|end` block anchors as valid
+- fix(views): resolve issues with preview lock button
 
 ## Community
 
@@ -60,7 +60,7 @@ This week's entry in the [[Dendron Reading Series|dendron://dendron.dendron-site
 - **Community Teatime:** Drink tea, eat food, and hangout with the Dendron crew!
     - Next: [Thu, Aug 18, 11:00 AM PST / 19:00 UTC](https://link.dendron.so/luma)
 - **New User Tuesdays:** Visit the [[New User Tuesdays page|dendron://dendron.dendron-site/community.events.new-user-tuesdays]] for notes from previous sessions.
-    - Next: [Tue, Aug 09, 8:30 AM PST / 16:30 UTC](https://link.dendron.so/luma)
+    - Next: [Tue, Sep 20, 8:30 AM PST / 16:30 UTC](https://link.dendron.so/luma)
 
 ### Thank You's
 
