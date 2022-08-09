@@ -2,7 +2,7 @@
 id: gHdxXlNMr1w4xqee0n-Mb
 title: User Interface
 desc: 1. User Interface
-updated: 1645804002675
+updated: 1660038393108
 created: 1625563862198
 nav_order: 0
 ---
@@ -17,11 +17,11 @@ Let's do a brief overview on how to navigate the Dendron User Interace (UI), whi
 
 ## 1. Editor View
 
-Where you can write and edit your notes. **Notes** in Dendron are [[Markdown|dendron://dendron.dendron-site/dendron.topic.markdown]] files (ex. `my.note.md`).
+Where you can write and edit your notes. **Notes** in Dendron are [[Markdown|dendron://dendron.dendron-site/dendron.topic.markdown]] files (e.g., `my.note.md`).
 
 ## 2. Preview View
 
-Shows the rendered Markdown of your currently opened note. If you close this pane, you can bring it back with the `Dendron: Show Preview` command.
+Shows the rendered Markdown of your currently opened note. If you close this pane, you can bring it back with the `Dendron: Toggle Preview` command.
 
 You may see two additional sections at the bottom of the preview view, **Children** and **Backlinks**, which will be covered later in the tutorial.
 
