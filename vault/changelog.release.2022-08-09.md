@@ -2,7 +2,7 @@
 id: 482bl67lvjd0r8ht0cngxmk
 title: 0.107
 desc: ''
-updated: 1660055379876
+updated: 1660059499368
 created: 1659968708044
 ---
 
@@ -14,6 +14,7 @@ August 09, 2022
 - More information: [[Toggle Preview Lock|dendron://dendron.dendron-site/dendron.topic.preview.commands.toggle-preview-lock]]
 
 <div style="position: relative; padding-bottom: 64.5933014354067%; height: 0;"><iframe src="https://www.loom.com/embed/6e35934a0c534f3585e750e5eef2e739" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
 
 ## Highlights
 
