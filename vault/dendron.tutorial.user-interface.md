@@ -2,7 +2,7 @@
 id: gHdxXlNMr1w4xqee0n-Mb
 title: User Interface
 desc: 1. User Interface
-updated: 1660109661190
+updated: 1660110223951
 created: 1625563862198
 nav_order: 0
 ---
@@ -35,7 +35,7 @@ This shows the files and folders in your vault. A **[[vault|dendron://dendron.de
 
 ## 4. Outline Pane
 
-Shows an outline of the currently opened note by listing the headers for navigation. Jump around areas of larger notes by clicking on the headers in this pane.
+Shows an outline of the currently opened note by listing the headers for navigation. Jump around sections of larger notes by clicking on the headers in this pane.
 
 ## 5. Calendar View Pane
 
