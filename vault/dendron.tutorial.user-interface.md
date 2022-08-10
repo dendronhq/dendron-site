@@ -2,7 +2,7 @@
 id: gHdxXlNMr1w4xqee0n-Mb
 title: User Interface
 desc: 1. User Interface
-updated: 1660038870069
+updated: 1660109661190
 created: 1625563862198
 nav_order: 0
 ---
@@ -39,7 +39,7 @@ Shows an outline of the currently opened note by listing the headers for navigat
 
 ## 5. Calendar View Pane
 
-Shows days where you've created a **[[Details|dendron.topic.daily-journal-note#details]]** entry. If no journal entry exists for a given day, clicking on the date in the calendar will automatically create it.
+Shows days where you've created a **[[Details|dendron.topic.daily-journal-note#details]]** entry. If no journal entry exists for a given day, clicking on the date in the calendar will automatically create one.
 
 ![[dendron://dendron.dendron-site/asset.preview#create-daily-journal-from-calendar,1:#*]]
 
