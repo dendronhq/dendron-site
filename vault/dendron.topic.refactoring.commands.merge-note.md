@@ -2,7 +2,7 @@
 id: nxarb351z0kfbl5mkw3arw6
 title: 'Dendron: Merge Note'
 desc: Merge a note into another note and update all backlinks
-updated: 1660043063628
+updated: 1660100186850
 created: 1660042742775
 ---
 
@@ -19,4 +19,6 @@ none
 
 ## Details
 
-**{{fm.title}}** is a command that lets you merge the content of your active note into another note of your choice. Once the note is merged, all backlinks that the source note had will be updated so that it points to the merge destination, and the source note will be deleted.
+**{{fm.title}}** is a command that lets you merge the content of your active note into another note of your choice.
+When merged, the entire body of the source note is appended to the end of the destination note.
+Also, all backlinks that the source note had will be updated so that it points to the merge destination, and finally the source note will be deleted.
