@@ -2,10 +2,35 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1659456790639
+updated: 1660053501172
 created: 1601508213606
 nav_order: 2
 ---
+## 0.107.0
+
+### Deprecation Notices
+
+- deprecate(structure): `enableHandlerbarTemplates` has been removed as a configuration option (because it is now always on). No extra action is needed but you will be prompted to remove the deprecated configuration on upgrade.
+### Features
+
+- feat(view): add "Toggle PreviewLock" command (#3293) @sam ([[docs|dendron.topic.preview.commands.toggle-preview-lock]])
+
+### Enhancements
+
+- enhance(structure): support xvault template in note traits (#3329) @joshi ([[docs|dendron://dendron.dendron-site/dendron.topic.traits.api#return]])
+- enhance(publish): speed up published site (#3336) @hunter
+- enhance(views): toggle preview lock from inside preview (#3327) @sam ([[docs|dendron.topic.preview.commands.toggle-preview-lock]])
+- enhance(workspace): only show the feature showcase once @kevin
+- enhance(lookup): add space between note title and vault name (#3347)[Sean Li](https://github.com/saifahn)
+
+### Fix
+
+- fix(views): nested bullets formatted correctly in preview (#3326) [cquick01](https://github.com/cquick01)
+- fix(lookup): validate file name on note lookup (#3312) @hikchoi ([[docs|dendron.topic.lookup.ref.restrictions]])
+- fix(workspace): remote vault not recognized by dendron for windows (#3316) @joshi
+- fix(views): resolve issues with preview lock button (#3353) @sam
+
+
 ## 0.106.0
 
 ### Breaking
