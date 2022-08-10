@@ -2,7 +2,7 @@
 id: 401c5889-20ae-4b3a-8468-269def4b4865
 title: Cookbook
 desc: ""
-updated: 1656515719615
+updated: 1659550894151
 created: 1595952505024
 nav_order: 6.1
 toc: true
@@ -22,7 +22,7 @@ This lets you execute commands inside VS Code
 
 To manually install a custom version of Dendron, first obtain the Dendron vsix file (most likely, Kevin will send you a dropbox link 😅). Afterwards, you can install it by the extended options in the extensions pane.
 
-![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/trouble.install.gif)
+![Manual Instal](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/trouble.install.gif)
 
 ### Checking Logs
 
