@@ -2,7 +2,7 @@
 id: wti0omzx9zzfsfg67vc1kj0
 title: CLI
 desc: Manipulate notes using the CLI
-updated: 1657910207917
+updated: 1660333637177
 created: 1655311792352
 ---
 
@@ -27,6 +27,8 @@ Options:
   --query           the query to run                                    [string]
   --output          format to output in
             [string] [choices: "json", "md_gfm", "md_dendron"] [default: "json"]
+  --fname           name of file to find/write                          [string]
+  --body            body of file to write                               [string]
   --destFname       name to change to (for move)                        [string]
   --destVaultName   vault to move to (for move)                         [string]
 ```
@@ -49,6 +51,9 @@ Find or create a note if one does not exist, outputting in a specified format.
 
 Delete a note from a vault.
 
+### write
+Creates a new note if fname/vault doesn't exist or updates body of existing note
+
 #### move
 
 Move a note to another vault, or rename a note within a workspace.
@@ -68,11 +73,11 @@ Values:
 
 
 ## Examples
-- Creating a note
+- Creating a note (or updating an existing note)
 
 ```sh
-# creates hello if it does not exist
-dendron note lookup --query "hello" 
+# creates hello if it does not exist. updates hello if it does exist.
+dendron note write --fname "mytest" --vault "vaultName" --body "this is a body"
 ```
 
 - Getting a note
@@ -101,24 +106,24 @@ dendron note lookup --query "hello" --output md_gfm
 
 - Deleting a note
 ```sh
-dendron note delete --query "foo" 
+dendron note delete --fname "foo"
 ```
 
 - Deleting a note within a multi-vault workspace
 ```sh
-dendron note delete --vault vault2 --query "foo" 
+dendron note delete --vault vault2 --fname "foo"
 ```
 
 - Moving a note
 ```sh
 # renames the note "foo" to "bar" within a single-vault workspace
 #   if there is no note in the vault already named "bar"
-dendron note move --query "foo" --destFname "bar"
+dendron note move --fname "foo" --destFname "bar"
 ```
 
 - Moving a note in a multi-vault workspace
 ```sh
 # moves the note "foo" to vault2 and changes its name to "bar"
 #    if there is no note in vault2 already named "bar"
-dendron note move --vault vault --query "foo" --destFname "bar" --destVaultName vault2
+dendron note move --vault vault --fname "foo" --destFname "bar" --destVaultName vault2
 ```
