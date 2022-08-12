@@ -2,7 +2,7 @@
 id: 3abd00eb-1c1e-4253-aaf5-dcbe20c21850
 title: Early Seed
 desc: ''
-updated: 1660314441758
+updated: 1660316340112
 created: 1604539200840
 published: true
 nav_exclude: true
@@ -15,10 +15,9 @@ August 12, 2022
 
 Dendron 0.108 has sprouted 🌱
 
-**New Improved Calendar View:** You'll now have a better user interface to suit your preferences and work environment as VS Code theme is now integrated to your Calendar View!
-
 ### Enhancements
 - enhance(views): integrated calendar with vscode theme (#3340) @sam
+
 ### Fixes
 - fix(workspace): always treat `begin|end` block anchors as valid (#3339) @hikchoi
 - fix(workspace): remove bad dependency which was causing error on parsing notes @kevin
