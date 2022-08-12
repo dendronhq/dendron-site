@@ -2,7 +2,7 @@
 id: 3abd00eb-1c1e-4253-aaf5-dcbe20c21850
 title: Early Seed
 desc: ''
-updated: 1659718128908
+updated: 1660316340112
 created: 1604539200840
 published: true
 nav_exclude: true
@@ -10,23 +10,17 @@ nav_exclude: true
 
 > This page documents the features, enhancements, and fixes in the latest early seed release. The early seed is a preview of the weekly release, so you'll see the next minor version when installing (ex. `0.78.0` instead of `0.77.1`). When dendron ships the general release, the currently installed extension will automatically be updated (but will still have same version).
 
-## 0.107.0
-August 05, 2022
+## 0.108.0
+August 12, 2022
 
-Dendron 0.107 has sprouted 🌱
-
-
-**Add Toggle Preview Lock command**: You can now lock in the preview of a specific note and navigate other notes without changing your preview.
-
-### Features
-- feat(views): add "Toggle Preview Lock" command (#3293) @sam ([[docs|dendron.topic.preview.commands.toggle-preview-lock]])
+Dendron 0.108 has sprouted 🌱
 
 ### Enhancements
-- enhance(structure): support xvault template in note traits (#3329) @joshi ([[docs|dendron://dendron.dendron-site/dendron.topic.traits.api#return]])
-- enhance(views): toggle preview lock from inside preview (#3327) @sam ([[docs|dendron.topic.preview.commands.toggle-preview-lock]])
+- enhance(views): integrated calendar with vscode theme (#3340) @sam
 
 ### Fixes
-- fix(views): nested bullets formatted correctly in preview (#3326) [cquick01](https://github.com/cquick01)
-- fix(lookup): validate file name on note lookup (#3312) @hikchoi ([[docs|dendron.topic.lookup.ref.restrictions]])
-- fix(workspace): remote vault not recognized by dendron for windows (#3316) @joshi
-- fix(workspace): alwayys treat `begin|end` block anchors as valid (#3339) @hikchoi
+- fix(workspace): always treat `begin|end` block anchors as valid (#3339) @hikchoi
+- fix(workspace): remove bad dependency which was causing error on parsing notes @kevin
+- fix(navigate): do not run goto sibling if not in a dendron note (#3363) @hayata
+- fix(workspace): correctly focus tree view on tutorial activation (#3380) @hikchoi
+- fix(views): removes semicolon in preview (#3383) @sam
