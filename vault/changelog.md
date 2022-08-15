@@ -2,10 +2,29 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1660053501172
+updated: 1660571788144
 created: 1601508213606
 nav_order: 2
 ---
+## 0.108.0
+
+
+### Deprecation Notices
+
+- Enable Smart Refs change to default
+
+### Enhancements
+- enhance(views): integrated calendar with vscode theme (#3340) @sam
+
+### Fix
+- fix(workspace): always treat `begin|end` block anchors as valid (#3339) @hikchoi
+- fix(workspace): remove bad dependency which was causing error on parsing notes @kevin
+- fix(navigate): do not run goto sibling if not in a dendron note (#3363) @hayata
+- fix(publish): deprecate Dendron: Publish Dev command (#3368) @joshi
+- fix(workspace): correctly focus tree view on tutorial activation (#3380) @hikchoi
+- fix(views): removes semicolon in preview (#3383) @sam
+
+
 ## 0.107.0
 
 ### Deprecation Notices
