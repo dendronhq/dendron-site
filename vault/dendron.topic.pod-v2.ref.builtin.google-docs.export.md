@@ -2,7 +2,7 @@
 id: hA02kromgLKegxaG2VHKE
 title: Google Doc Export Pod
 desc: ''
-updated: 1657897205281
+updated: 1659624767806
 created: 1640102463646
 ---
 
@@ -36,6 +36,10 @@ This is actually a common property, but for the Google Docs Export pod this **mu
 
 The ID of an google docs connection. See [[Google Docs Connection|dendron.topic.pod-v2.connections.google]]
 
+### parentFolderId
+
+The folder ID where the document should be exported. Upon exporting a document, Dendron asks for a destination folder. The folder ID `root` exports the document outside of all folders. Click [here](https://www.loom.com/share/75d1f0396cc041519c7060931b6dd080) to see video.
+
 
 ### Example Complete Configuration
 ```yml
@@ -62,4 +66,8 @@ podType: GoogleDocsExportV2
 # type: string
 # required: true
 connectionId: dendron-gdoc
+
+# description: ID of parent folder in google drive
+# type: string
+parentFolderId: 1RqFIRc-iQDqpGwKRUv_
 ```
