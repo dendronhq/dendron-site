@@ -2,7 +2,7 @@
 id: zuzn72m7uu8drj59m63ssa6
 title: 0.108
 desc: ''
-updated: 1660660989326
+updated: 1660661655171
 created: 1660571806685
 ---
 
@@ -24,10 +24,8 @@ August 16, 2022
 ## Community
 
 #### CROP Updates
-
 ##### CROP Shipped
 This week's [CROP Shipped](https://github.com/dendronhq/dendron/issues/2467) submitted by [cconrad](https://github.com/cconrad), led to 'enhance(lookup): add space between note title and vault name.'
-    
 ##### CROP In Progress
 This week's Merge Notes command [CROP Selection](https://github.com/dendronhq/dendron/issues/906) was submitted by [SR--](https://github.com/SR--). 
     
