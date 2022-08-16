@@ -2,7 +2,7 @@
 id: zuzn72m7uu8drj59m63ssa6
 title: 0.108
 desc: ''
-updated: 1660661655171
+updated: 1660662994124
 created: 1660571806685
 ---
 
@@ -12,7 +12,6 @@ August 16, 2022
 
 ## Everything Else
 
-- enhance(views): integrated calendar with vscode theme
 - fix(workspace): always treat `begin|end` block anchors as valid
 - fix(workspace): remove bad dependency which was causing error on parsing notes
 - fix(navigate): do not run goto sibling if not in a dendron note
