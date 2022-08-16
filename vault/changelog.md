@@ -2,7 +2,7 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1660571788144
+updated: 1660659024278
 created: 1601508213606
 nav_order: 2
 ---
@@ -11,7 +11,7 @@ nav_order: 2
 
 ### Deprecation Notices
 
-- Enable Smart Refs change to default
+- [[enableSmartRefs|dendron://dendron.dendron-site/dendron.topic.note-reference.config.enable-smart-refs]] will be removed in future releases of dendron (it will always be enabled by default). To preserve the current behavior when upgrading, see the [[upgrade guide|dendron://dendron.dendron-site/dendron.topic.note-reference.upgrade]]
 
 ### Enhancements
 - enhance(views): integrated calendar with vscode theme (#3340) @sam

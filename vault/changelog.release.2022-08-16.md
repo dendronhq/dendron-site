@@ -2,7 +2,7 @@
 id: zuzn72m7uu8drj59m63ssa6
 title: 0.108
 desc: ''
-updated: 1660574714166
+updated: 1660660989326
 created: 1660571806685
 ---
 
@@ -12,21 +12,16 @@ August 16, 2022
 
 ## Everything Else
 
-- enhance(views): integrated calendar with vscode theme (#3340) @sam
-- fix(workspace): always treat `begin|end` block anchors as valid (#3339) @hikchoi
-- fix(workspace): remove bad dependency which was causing error on parsing notes @kevin
-- fix(navigate): do not run goto sibling if not in a dendron note (#3363) @hayata
-- fix(publish): deprecate Dendron: Publish Dev command (#3368) @joshi
-- fix(workspace): correctly focus tree view on tutorial activation (#3380) @hikchoi
-- fix(views): removes semicolon in preview (#3383) @sam
+- enhance(views): integrated calendar with vscode theme
+- fix(workspace): always treat `begin|end` block anchors as valid
+- fix(workspace): remove bad dependency which was causing error on parsing notes
+- fix(navigate): do not run goto sibling if not in a dendron note
+- fix(publish): deprecate Dendron: Publish Dev command
+- fix(workspace): correctly focus tree view on tutorial activation
+- fix(views): removes semicolon in preview
 
 
 ## Community
-
-### General Updates
-
-The working name for dendron managed services is `dendron cloud`. 
-
 
 #### CROP Updates
 
@@ -34,7 +29,7 @@ The working name for dendron managed services is `dendron cloud`.
 This week's [CROP Shipped](https://github.com/dendronhq/dendron/issues/2467) submitted by [cconrad](https://github.com/cconrad), led to 'enhance(lookup): add space between note title and vault name.'
     
 ##### CROP In Progress
-This week's [CROP Selection](https://github.com/dendronhq/dendron/issues/906) was submitted by [SR--](https://github.com/SR--). 
+This week's Merge Notes command [CROP Selection](https://github.com/dendronhq/dendron/issues/906) was submitted by [SR--](https://github.com/SR--). 
     
 Are you interested in an issue being included as part of the next CROP? If so, let us know in the [#feedback](https://discordapp.com/channels/717965437182410783/739186036495876126) channel! We have a bi-weekly rotation of issues so, even if it doesn't get picked for the next harvest, it is bound to make a comeback in the upcoming weeks!
 
@@ -52,6 +47,7 @@ Are you interested in an issue being included as part of the next CROP? If so, l
 
 This week's entry in the [[Dendron Reading Series|dendron://dendron.dendron-site/community.events.reading-series]].
 
+[[Write a Note to Your Spouse Every Day|dendron://dendron.dendron-site/community.events.reading-series.2022.08.16]]
 
 ### Event Reminders
 
@@ -71,6 +67,35 @@ This week's entry in the [[Dendron Reading Series|dendron://dendron.dendron-site
 
 A big **thanks** to the following gardeners that brought up issues, contributions, and fixes to this release :man_farmer: :woman_farmer: 
 Visit [[Discord Roles|dendron://dendron.dendron-site/community.discord.roles]] for more information.
+
+- [Christophe Benz](https://github.com/cbenz)
+  - #role.taxonomist
+  - [Fix sentence](https://github.com/dendronhq/dendron-site/pull/610)
+
+- [Patrik Grip-Jansson](https://github.com/kap42)
+  - [Minor changes to "user-interface.md"](https://github.com/dendronhq/dendron-site/pull/611)
+  - [Accessibility issues with HTML publishing of "Backlinks" and "Children"](https://github.com/dendronhq/dendron/issues/3369)
+  
+- [ebromberg](https://github.com/ebromberg)
+  - #role.bugcatcher
+  - [Can't create new note](https://github.com/dendronhq/dendron/issues/3366)
+  - [Block Anchors to Non Notes](https://github.com/dendronhq/dendron/issues/3372)
+
+- [Ryan Hill](https://github.com/rlh1994) `@rlh1994#9754`
+  - [Schema template does not get populated when \`namespace: true\` is set](https://github.com/dendronhq/dendron/issues/3381)
+
+- [Tanamr](https://github.com/samuelxyz) `@Tanamr#3739`
+  - #role.bugcatcher
+  - [Lookup stops working after updating schema](https://github.com/dendronhq/dendron/issues/3384)
+  - [Note preview does not render spaces around links in headers](https://github.com/dendronhq/dendron/issues/3396)
+
+- [cwtowns](https://github.com/cwtowns)
+  - #role.bugcatcher
+  - [note preview only update when editor obtains focus](https://github.com/dendronhq/dendron/issues/3391)
+
+- [Henry](https://github.com/HenryC-3)
+  - #role.bugcatcher
+  - [Dendron preview won't update when using selection extract to create a note](https://github.com/dendronhq/dendron/issues/3398)
 
 ## Changelog
 ![[changelog#01080,1:#01070]]
