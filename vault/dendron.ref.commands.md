@@ -4,7 +4,7 @@ title: Commands
 desc: ""
 tags:
     - stage.seed
-updated: 1659483984401
+updated: 1660748181770
 created: 1595261816971
 nav_order: 3.1
 ---
@@ -671,21 +671,7 @@ Open Dendron logs for current session
 
 ### Dendron:Dev: Diagnostics Report
 
--   shortcuts: none
-
-Copy last 3000 lines of all logs and config to clipboard. Use when submitting an issue to Dendron
-
-Information displayed:
-
--   workspace type
--   current dendron version
--   previous workspace version
--   previous global version
--   extension install status
--   contents of `dendron.yml`
--   contents of `dendron.code-workspace`
--   telemetry status
--   last 3000 lines of logs from client and server
+![[dendron://dendron.dendron-site/dendron.topic.dev.commands.diagnostic-report]]
 
 ### Dendron:Dev: Run Migration
 
