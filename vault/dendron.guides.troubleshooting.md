@@ -2,7 +2,7 @@
 id: a6c03f9b-8959-4d67-8394-4d204ab69bfe
 title: Troubleshooting
 desc: ''
-updated: 1660749924607
+updated: 1660750019510
 created: 1595952505025
 nav_order: 7.1
 ---
@@ -263,10 +263,10 @@ Go into your workspace settings. Set [[dendron.logLevel|dendron://dendron.dendro
 
 - via the CLI:
   ```sh
-  code --list-extension
+  code --list-extension --show-versions
 
   # if you are running insider
-  code-insider --list-extension
+  code-insider --list-extension --show-versions
   ```
 - via the GUI: See https://www.kindacode.com/article/how-to-show-all-installed-extensions-in-vs-code-2020/
 
