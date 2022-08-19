@@ -3,7 +3,7 @@ id: eea2b078-1acc-4071-a14e-18299fc28f47
 title: Commands
 desc: ""
 tags:
-updated: 1660633332953
+updated: 1660920182266
 created: 1595261816971
 nav_order: 3.1
 ---
@@ -312,7 +312,7 @@ This pattern would specify a set including all notes under `alpha` _except_ for 
 
 ## Navigation
 
-### Lookup Note
+### Lookup Note / Create Note
 
 -   shortcuts:
     -   mac: `cmd+L`
