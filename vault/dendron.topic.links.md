@@ -1,8 +1,8 @@
 ---
 id: 3472226a-ff3c-432d-bf5d-10926f39f6c2
 title: Links
-desc: Create links to various locations using basic and extended syntax
-updated: 1659082798415
+desc: Create links to various locations using basic and extended syntax.
+updated: 1660885698686
 created: 1595003088839
 config:
   global:
@@ -11,46 +11,56 @@ config:
 
 ## Summary
 
-{{fm.desc}}.
+{{fm.desc}}
 
-Dendron provides many ways to create links between notes and assets. This range from regular markdown links to extended syntax such as wikilinks, file links, and much more.
+Dendron provides many ways to create links between notes and assets.
+This range from regular markdown links to extended syntax such as wikilinks, file links, and much more.
 
 ## Features
 
-### Link to various locations with both regular Markdown links and extended link syntax
+### Link to anything
 
-- Dendron is built on top of Markdown, and regular Markdown links work out of the box. 
-- Furthermore, Dendron extends the syntax of regular Markdown links and support Wikilinks. Many convenient features are built around wikilinks to support various use cases when creating links between notes in your knowledge base.
+Whether the resource you're linking to is on your hard drive or on the internet, Dendron lets you quickly create a link to it.
 
-### Manipulate links using various commands
+## Links in Context
 
-- Linking is a powerful feature that helps you grow your knowledge base. Dendron provides various ways facilitate this through commands. You can easily create, copy, and convert your links in your notes using these commands so you can focus on what's important.
+See at a glance all notes that link to the current note with [[backlinks|dendron://dendron.dendron-site/dendron.topic.links.backlink]].
 
-### Navigating easily through linked notes
+## Link Previews
 
-- Once links are created, you can explore your knowledge base in an organic way. Dendron provides various ways you can navigate through linked notes.
+Hover over links to get rich previews to get the context before opening navigating to the link.
+
+## Quick Link Creation
+
+Use autocomplete or the [[dendron://dendron.dendron-site/dendron.topic.links.commands.insert-note-link]] command to create a link to an existing note.
+You can also use [[dendron://dendron.dendron-site/dendron.topic.links.commands.copy-note-link]] to create a link from an open note or file.
+
+## Quick Link Traversal
+
+Navigate through links without leaving the keyboard using [[Dendron: Go to|dendron://dendron.dendron-site/dendron.topic.links.commands.go-to]].
+If the link is a website or a custom file format, Dendron will use your system default program to open the link
 
 ### Visualize links
 
-- Dendron provides a way to visualize the links between your notes. See [[Graph View|dendron://dendron.dendron-site/dendron.topic.graph-view]] for more information.
+Connect the docts using the [[Graph View|dendron://dendron.dendron-site/dendron.topic.graph-view]]
 
 ## Components
 
 ### Wiki Links
 
-![[dendron://dendron.dendron-site/dendron.topic.links.wiki-link]]
+![[dendron://dendron.dendron-site/dendron.topic.links.wiki-link#summary,1]]
 
 ### Block Links
 
-![[dendron://dendron.dendron-site/dendron.topic.links.block-link]]
+![[dendron://dendron.dendron-site/dendron.topic.links.block-link#summary,1]]
 
 ### File Links
 
-![[dendron://dendron.dendron-site/dendron.topic.links.file-link]]
+![[dendron://dendron.dendron-site/dendron.topic.links.file-link#summary,1]]
 
 ### Child Links
 
-![[dendron://dendron.dendron-site/dendron.topic.links.child-link]]
+![[dendron://dendron.dendron-site/dendron.topic.links.child-link#summary,1]]
 
 ### Backlinks
 

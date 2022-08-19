@@ -2,7 +2,7 @@
 id: lzviz9odglotrbsgcp678i6
 title: File Link
 desc: ''
-updated: 1659078529005
+updated: 1660886247945
 created: 1658828603919
 ---
 
@@ -11,6 +11,8 @@ created: 1658828603919
 ## Summary
 
 A file link is a [[dendron.topic.links.wiki-link]] that links to files in your workspace that are not Dendron notes, or not in a Dendron vault.
+
+## Details
 
 ### Getting started
 

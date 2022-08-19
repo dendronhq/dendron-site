@@ -2,18 +2,34 @@
 id: wb1k8li6r5kfzhla7p3ty80
 title: Cross Vault Link
 desc: ''
-updated: 1658828701252
+updated: 1660886614612
 created: 1658828701252
 ---
 
-Cross vault links are a way of exactly specifying a note in a [[multi vault|dendron.topic.multi-vault]] workspace. You can turn a regular link into a cross vault link by adding `dendron://$vaultName/` prefix where `$vaultName` is the [[name|dendron.ref.config#name]] of your vault.
+## Summary
 
-Some examples:
+Wikilinks that specify which vault it belongs to in a [[multi vault|dendron.topic.multi-vault]] workspace.
 
--   regular wiki link: `[[dendron://vault/foo]]`
--   wiki link with alias: `[[Foo Note|dendron://vault/foo]]`
--   relative link: `[[Foo Note|dendron://vault/foo#header1]]`
+## Details
 
-You can also use cross vault links for [[note references|dendron.topic.note-reference]].
+### Getting started
 
--   note ref: `![[dendron://vault/foo]]`
+You can turn a regular link into a cross vault link by adding `dendron://$vaultName/` prefix where `$vaultName` is the name of your vault.
+
+Here are some examples of different types of wikilinks with the vault prefix included:
+
+This is a cross vault wikilink to the note `foo` that is in the vault named `vault`:
+
+`[[dendron://vault/foo]]`
+
+This is a cross vault wikilink to the note `foo` that is in the vault named `vault`, that has an alias:
+
+`[[Foo Note|dendron://vault/foo]]`
+
+This is a cross vault wikilink to the header `Header1`, in the note `foo`, that is in the vault named `vault`, that has an alias:
+
+`[[Foo Note|dendron://vault/foo#header1]]`
+
+You can also use cross vault links for [[note references|dendron.topic.note-reference]] like so:
+
+`![[dendron://vault/foo]]`

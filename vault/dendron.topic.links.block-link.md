@@ -2,13 +2,15 @@
 id: v0hffykaq2g5xxlgrrbiz70
 title: Block Link
 desc: ''
-updated: 1659079102233
+updated: 1660886234591
 created: 1657294885741
 ---
 
 ## Summary
 
 A block link is a [[dendron.topic.links.wiki-link]] that links to [[dendron.topic.note-reference.concepts.block-anchors]].
+
+## Details
 
 ### Getting started
 

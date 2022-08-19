@@ -2,15 +2,17 @@
 id: 4ah3xgz20oylzu3v5segyge
 title: Child Link
 desc: ''
-updated: 1659080332215
+updated: 1660886265146
 created: 1658828670537
 ---
 
 ## Summary
 
-![Children](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/Quickstart_-_Dendron.jpg)
-
 A child link is a link to a child note created at the end of the note when you view your notes using [[note preview|dendron://dendron.dendron-site/dendron.topic.preview]], or in a [[published|dendron.topic.publish]] site.
+
+## Details
+
+![Children](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/Quickstart_-_Dendron.jpg)
 
 ### Getting started
 

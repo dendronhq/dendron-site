@@ -1,11 +1,22 @@
 ---
 id: 30es53y4x7ex0rp8qawzcng
-title: Open Link
-desc: ''
-updated: 1659082771284
+title: "Dendron: Open Link"
+desc: 'Open a regular link under your cursor'
+updated: 1660875499918
 created: 1658831109680
 ---
 
-For regular links, you can highlight the link and use `> Dendron: Open Link` to open the file using your operating system default for that file. This also applies to opening paths to folders.
+> {{fm.title}} is scheduled for deprecation. Please use the [[Dendron: Go to|dendron://dendron.dendron-site/dendron.ref.commands.goto]] command.
+
+## Summary
+{{fm.desc}}.
+
+## Keybidings
+none
+
+## Details
 
 <a href="https://www.loom.com/share/01250485e20a4cdca2a053dd6047ac68"><img src="https://cdn.loom.com/sessions/thumbnails/01250485e20a4cdca2a053dd6047ac68-with-play.gif"> </a>
+
+**{{fm.title}}** is a command that lets you open a regular link under under your cursor.
+The link will be opened with the system default application for the link.

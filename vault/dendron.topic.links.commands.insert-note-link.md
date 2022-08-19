@@ -1,12 +1,25 @@
 ---
 id: mmi3gcxq9m0kz6ozocbqhok
-title: Insert Note Link
-desc: ''
-updated: 1658831418732
+title: 'Dendron: Insert Note Link'
+desc: 'Lookup a note and insert a link to that note into the current cursor position.'
+updated: 1660881608833
 created: 1658831128582
 ---
 
-Insert the note link into the current document using lookup.
+## Summary
+
+{{fm.desc}}
+
+## Keybindings
+
+none
+
+## Details
+
+**{{fm.title}}** is a command that lets you look up a note and insert a link to that note into the current cursor position.
+You can choose how this command behaves by setting modifiers described below.
+
+## Modifiers
 
 There are two modifiers that can be passed into this command:
 
@@ -21,11 +34,11 @@ With multi-select enabled, you can select all the notes you want the links to be
 This can be toggled on by clicking on the <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="currentColor"><path d="M3 3v10h10V3H3zm9 9H4V4h8v8z"/></svg> button, or setting `multiSelect: true` in `dendron.yml` as below:
 
 ```yaml
----
-insertNoteLink:
-  multiSelect: true
+commands:
+  insertNoteLink:
+    enableMultiSelect: true
+    ...
   ...
----
 ```
 
 You can also pass it as a command argument through a custom keybinding as below:
@@ -63,8 +76,9 @@ You can override the default alias mode in `dendron.yml` as below:
 
 ```yaml
 // dendron.yml
-insertNoteLink:
-  aliasMode: "snippet" // choose one from the list
+commands:
+  insertNoteLink:
+    aliasMode: "snippet" // choose one from the list
 ```
 
 You can also pass it as a command argument through a custom keybinding as below:
@@ -86,9 +100,9 @@ You can also pass it as a command argument through a custom keybinding as below:
 ]
 ```
 
-##### snippet
+##### Snippet mode
 
-Inserted note link will resolve into a [VS Code snippet](https://code.visualstudio.com/docs/editor/userdefinedsnippets) in the form of
+In snippet mode, inserted note links will resolve into a [VS Code snippet](https://code.visualstudio.com/docs/editor/userdefinedsnippets) in the form of
 
 `[[{$1: alias}|note-name]]$0`
 
@@ -104,24 +118,25 @@ If multi-select is enabled, each subsequent alias field will be available as sep
 [[{$n: alias}|note1]]$0
 ```
 
-##### selection
+##### Selection mode
 
-Selection present in the active editor will be extracted and used as the alias.
+In selection mode, selection present in the active editor will be extracted and used as the alias.
 
 The original selection will be replaced by the link inserted.
 
 If multi-select is enabled, all inserted note links will have identical aliases.
 
-##### title
+##### Title mode
 
-The title of the note that is being linked is used as the link's alais.
+In title mode, the title of the note that is being linked is used as the link's alias.
 
-##### prompt
+##### Prompt mode
 
-An input box will be prompted that will let you type in the desired alias.
+In prompt mode, an input box will be prompted that will let you type in the desired alias.
 
 If multi-select is enabled, you will be prompted for each of the note links you want to insert.
 
 ##### none
 
 No alias will be used for the inserted note link(s).
+This is the default behavior if you do not specify an alias mode.
