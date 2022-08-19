@@ -2,7 +2,7 @@
 id: 7tlxi5ejnnb8idhc1943zmp
 title: Local Config Override
 desc: ''
-updated: 1652904998931
+updated: 1660919573812
 created: 1651708524625
 published: true
 ---
@@ -39,6 +39,19 @@ These are vaults that are added via a local dendronrc.yml file
 - LCVs will not be automatically added to `.gitignore` - you will need to manually do this
 - LC can extend existing vaults but not delete or remove existing vaults
 - there is currently no built-in command to create/update/delete a LC 
+
+## Commands
+
+### Configure Local Override
+
+This command opens up `dendronrc.yml` file for a specified scope.
+
+User is prompted to choose the configuration scope when running the command: `WORKSPACE` or `GLOBAL`.
+
+`WORKSPACE` -> `dendronrc.yml` under `$WS_ROOT`: affects currently opened workpsace
+`GLOBAL` -> `dendronrc.yml` under `$HOME`: affects all local workspaces of the current user
+
+If `dendronrc.yml` doesn't exist for the specified scope, the command creates one.
 
 ## Examples
 

@@ -2,7 +2,7 @@
 id: cphUwSPk12j4lS0tKjBdC
 title: Navigation
 desc: ''
-updated: 1657896997925
+updated: 1660884980339
 created: 1638899506405
 ---
 
@@ -26,9 +26,9 @@ When you highlight a header, you can run `> References: Find All References` to 
 
 ## Commands
 
-### [[Go to|dendron://dendron.dendron-site/dendron.ref.commands.goto]]
+### [[Dendron: Go to|dendron://dendron.dendron-site/dendron.topic.links.commands.go-to]]
 
-![[dendron://dendron.dendron-site/dendron.ref.commands.goto]]
+![[Dendron: Go to|dendron://dendron.dendron-site/dendron.topic.links.commands.go-to]]
 
 ### Go to Note
 - shortcuts:

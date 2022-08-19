@@ -2,7 +2,7 @@
 id: 5c213aa6-e4ba-49e8-85c5-1bdcb33ce202
 title: Special Notes
 desc: ''
-updated: 1659483887989
+updated: 1660887018450
 created: 1595004457029
 ---
 
@@ -39,7 +39,7 @@ A scratch note is a self contained note that is meant to be used as scratchpad. 
 A [[Proxy Note|dendron://dendron.docs/rfc.38-links-to-non-note-files#proxy-notes]] is a note that contain a special property in their
 frontmatter to specify that they are a proxy for a specific uri.
 
-By adding a uri property to the frontmatter, executing [[dendron.ref.commands.goto]] over the link will open the uri instead of navigating to the note.  
+By adding a uri property to the frontmatter, executing [[Dendron: Go to|dendron://dendron.dendron-site/dendron.topic.links.commands.go-to]] over the link will open the uri instead of navigating to the note.  
 
 ### Additional Features
 
