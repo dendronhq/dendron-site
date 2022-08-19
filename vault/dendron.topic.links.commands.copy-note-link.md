@@ -2,7 +2,7 @@
 id: 00pqmil4m2u0xasoyd26wta
 title: "Dendron: Copy Note Link"
 desc: 'Copy the wikilink to the current note to clipboard.'
-updated: 1660880160814
+updated: 1660921383914
 created: 1658831124334
 ---
 
@@ -22,6 +22,11 @@ created: 1658831124334
 If you use this command in a [[multi vault|dendron.topic.multi-vault]] workspace, Dendron will create a [[cross vault link|dendron.topic.links#cross-vault-links]] to this note.
 
 You can also use this by right clicking in the note and selecting **{{fm.title}}** from the menu.
+
+## Configuration
+![[dendron://dendron.dendron-site/dendron.topic.links.commands.copy-note-link.config]]
+
+## Examples
 
 ### Copying a link to a note
 

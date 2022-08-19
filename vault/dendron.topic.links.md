@@ -2,7 +2,7 @@
 id: 3472226a-ff3c-432d-bf5d-10926f39f6c2
 title: Links
 desc: Create links to various locations using basic and extended syntax.
-updated: 1660887910098
+updated: 1660920582709
 created: 1595003088839
 config:
   global:
@@ -90,12 +90,4 @@ Here is a list of resource that will help you start using links in your notes:
 ## Children
 
 - [[Concepts|dendron://dendron.dendron-site/dendron.topic.links.concepts]]
-- Components
-  - [[dendron://dendron.dendron-site/dendron.topic.links.backlink]]
-  - [[dendron://dendron.dendron-site/dendron.topic.links.file-link]]
-  - [[dendron://dendron.dendron-site/dendron.topic.links.wiki-link]]
-  - [[dendron://dendron.dendron-site/dendron.topic.links.block-link]]
-  - [[dendron://dendron.dendron-site/dendron.topic.links.markdown-link]]
-  - [[dendron://dendron.dendron-site/dendron.topic.links.child-link]]
-  - [[dendron://dendron.dendron-site/dendron.topic.links.cross-vault-link]]
 - [[dendron://dendron.dendron-site/dendron.topic.links.commands]]
