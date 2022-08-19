@@ -12,7 +12,7 @@ created: 1654902793635
 
 ## Details
 
-Dendron's code base is a monorepo. Documentation is sotred in the `docs/` folder.
+Dendron's code base is a monorepo. Documentation is sorted in the `docs/` folder.
 The docs folder represent a dendron workspace. Note that this is a separate git repo.
 When a user opens up the dendron workspace using vscode, dendron recognizes the `dendron.yml` file under `docs` and pulls down remote vaults (in this case, https://github.com/dendronhq/dendron-docs.git)
 
