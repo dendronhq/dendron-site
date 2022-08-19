@@ -39,33 +39,6 @@ Create a global journal note
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/notes.daily.gif)
 
-### Copy Note Link
-
--   shortcuts:
-    -   key: `ctrl+shift+c`
-    -   mac: `cmd+shift+c`
-    -   when: `editorFocus`
-
-Copy wiki link to note. The title of the note will be applied as the note alias. If you highlight a header, Dendron will create a relative link to the header with the alias set to the header value.
-
-You can also highlight any line of text, and Dendron will create a link to it by inserting a block anchor, or copy an existing anchor.
-
-<a href="https://www.loom.com/share/06d0689d548941219db9708f5b1b70d2"> <img src="https://cdn.loom.com/sessions/thumbnails/06d0689d548941219db9708f5b1b70d2-with-play.gif"> </a>
-
-If you use this command in a [[multi vault|dendron.topic.multi-vault]] workspace, Dendron will create a [[cross vault link|dendron.topic.links#cross-vault-links]] to the note in question.
-
-![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/command.copy-link.gif)
-
-You can also copy note link by Right Click on editor and select `Dendron: Copy Note Link` from the context menu.
-
-#### Files that are not notes, or files outside your vaults
-
-You can use this command in any file inside your workspace, including files that aren't notes or files that are not in
-any vault to get [[links to those files|dendron://dendron.dendron-site/dendron.topic.links#file-links]].
-
-Similar to regular notes, you can also highlight a line of text to create a link
-to that line. Dendron will automatically insert a [[Block Anchor|dendron://dendron.dendron-site/dendron.topic.note-reference#block-anchor]] like it does in notes, but you can change
-what kind of anchor to use with the [[anchorType|dendron://dendron.dendron-site/dendron.ref.config.commands#anchortype]] configuration.
 
 ### Copy Note Ref
 
@@ -107,127 +80,6 @@ You can also delete a note from the explorer:
 
 > ⚠️ This is a deprecated command. Please consider using [[Delete|dendron.ref.commands#delete]] instead.
 
-### Insert Note Link
-
-Insert the note link into the current document using lookup.
-
-There are two modifiers that can be passed into this command:
-
-1. `multiSelect`
-1. `aliasMode`
-
-#### multiSelect
-
-This modifier enables the multi-select mode.
-With multi-select enabled, you can select all the notes you want the links to be inserted.
-
-This can be toggled on by clicking on the <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="currentColor"><path d="M3 3v10h10V3H3zm9 9H4V4h8v8z"/></svg> button, or setting `multiSelect: true` in `dendron.yml` as below:
-
-```yaml
----
-insertNoteLink:
-  multiSelect: true
-  ...
----
-```
-
-You can also pass it as a command argument through a custom keybinding as below:
-
-```json
-/* in keybindings.json.
-* Use `Preference: Open Keyboard Shortcuts (JSON)` to open.
-*/
-[
-  ...
-  {
-    "key": "{desired keybinding}",
-    "command": "dendron.insertNoteLink",
-    "args": {
-      "multiSelect": true
-    }
-  },
-  ...
-]
-```
-
-#### aliasMode
-
-This modifier enables different alias modes.
-
-Here is the list of available alias modes:
-
-1. `snippet`: Inserted note link resolves into a VS Code snippet string
-1. `selection`: Extracts the selection of the active note and use it as the alias.
-1. `title`: Use the note title of the linked note as alias.
-1. `prompt`: Open an input box that will prompt for an input for the alias.
-1. `none`: Does not add alias. (default)
-
-You can override the default alias mode in `dendron.yml` as below:
-
-```yaml
-// dendron.yml
-insertNoteLink:
-  aliasMode: "snippet" // choose one from the list
-```
-
-You can also pass it as a command argument through a custom keybinding as below:
-
-```json
-/* in keybindings.json.
-* Use `Preference: Open Keyboard Shortcuts (JSON)` to open.
-*/
-[
-  ...
-  {
-    "key": "{desired keybinding}",
-    "command": "dendron.insertNoteLink",
-    "args": {
-      "aliasMode": "snippet" // choose one from the list
-    }
-  },
-  ...
-]
-```
-
-##### snippet
-
-Inserted note link will resolve into a [VS Code snippet](https://code.visualstudio.com/docs/editor/userdefinedsnippets) in the form of
-
-`[[{$1: alias}|note-name]]$0`
-
-If multi-select is enabled, each subsequent alias field will be available as separate tabstops like so:
-
-```
-[[{$1: alias}|note1]]
-[[{$2: alias}|note1]]
-[[{$3: alias}|note1]]
-[[{$4: alias}|note1]]
-[[{$5: alias}|note1]]
-...
-[[{$n: alias}|note1]]$0
-```
-
-##### selection
-
-Selection present in the active editor will be extracted and used as the alias.
-
-The original selection will be replaced by the link inserted.
-
-If multi-select is enabled, all inserted note links will have identical aliases.
-
-##### title
-
-The title of the note that is being linked is used as the link's alais.
-
-##### prompt
-
-An input box will be prompted that will let you type in the desired alias.
-
-If multi-select is enabled, you will be prompted for each of the note links you want to insert.
-
-##### none
-
-No alias will be used for the inserted note link(s).
 
 ### Insert Note Index
 
@@ -282,9 +134,6 @@ Running it in the note `recipe.eggs` will insert the following at cursor positio
 
 -   configuration : [[insertNoteIndex|dendron.ref.config#insertnoteindex]]
 
-### Paste Link
-
-Transform URL in clipboard to nicely formatted Markdown link
 
 ### Random Note
 

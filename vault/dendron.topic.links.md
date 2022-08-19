@@ -1,97 +1,101 @@
 ---
 id: 3472226a-ff3c-432d-bf5d-10926f39f6c2
 title: Links
-desc: 'Dendron supports many ways of linking notes and files'
-updated: 1658768400279
+desc: Create links to various locations using basic and extended syntax.
+updated: 1660887910098
 created: 1595003088839
+config:
+  global:
+    enableChildLinks: false
 ---
 
 ## Summary
 
-{{fm.desc}}.
+{{fm.desc}}
 
-## Types
-- Markdown links (can link to any file):
-    - `[link text](dendron.note.name.md)` -> [link text](dendron.note.name.md)
-    - `[link text](./path/to/filename.md)` -> [link text](./path/to/filename.md)
-    - `[link text](assets/filename.pdf)` -> [link text](assets/filename.pdf)
-- Wiki links: `[[dendron.note.name]]` -> [[dendron.note.name]]
-- Image links: `![image alt text](http://example.com/or/path/to/image)`
-
-## Concepts
-
-### Note Files
-
-A note file is a Dendron Markdown note.
-
-### Regular Files
-
-Regular files are any assets that are not Dendron Markdown notes. 
+Dendron provides many ways to create links between notes and assets.
+This range from regular markdown links to extended syntax such as wikilinks, file links, and much more.
 
 ## Features
 
+### Link to anything
+
+Whether the resource you're linking to is on your hard drive or on the internet, Dendron lets you quickly create a link to it.
+
+## Links in Context
+
+See at a glance all notes that link to the current note with [[backlinks|dendron://dendron.dendron-site/dendron.topic.links.backlink]].
+
+## Link Previews
+
+Hover over links to get rich previews to get the context before opening navigating to the link.
+
+## Quick Link Creation
+
+Use autocomplete or the [[dendron://dendron.dendron-site/dendron.topic.links.commands.insert-note-link]] command to create a link to an existing note.
+You can also use [[dendron://dendron.dendron-site/dendron.topic.links.commands.copy-note-link]] to create a link from an open note or file.
+
+## Quick Link Traversal
+
+Navigate through links without leaving the keyboard using [[Dendron: Go to|dendron://dendron.dendron-site/dendron.topic.links.commands.go-to]].
+If the link is a website or a custom file format, Dendron will use your system default program to open the link
+
+### Visualize links
+
+Connect the docts using the [[Graph View|dendron://dendron.dendron-site/dendron.topic.graph-view]]
+
+## Getting Started
+
+Here is a list of resource that will help you start using links in your notes:
+
+- [[Using wikilinks|dendron://dendron.dendron-site/dendron.topic.links.wiki-link#getting-started]]
+- [[Linking to specific part of a note|dendron://dendron.dendron-site/dendron.topic.links.block-link#getting-started]]
+- [[Linking to files that are not notes|dendron://dendron.dendron-site/dendron.topic.links.file-link#getting-started]]
+- [[Changing how links are rendered in preview and publishing|dendron://dendron.dendron-site/dendron.topic.links.child-link#getting-started]]
+- [[Viewing all notes that have links to this note|dendron://dendron.dendron-site/dendron.topic.links.backlink#getting-started]]
+- [[Linking to notes in a different vault|dendron://dendron.dendron-site/dendron.topic.links.cross-vault-link#getting-started]]
+- [[Linking to files using regular Markdown links|dendron://dendron.dendron-site/dendron.topic.links.markdown-link#getting-started]]
+
+## Components
+
 ### Wiki Links
 
-![[dendron://dendron.dendron-site/dendron.topic.links.wiki-link]]
+![[dendron://dendron.dendron-site/dendron.topic.links.wiki-link#summary,1]]
+
+### Block Links
+
+![[dendron://dendron.dendron-site/dendron.topic.links.block-link#summary,1]]
 
 ### File Links
 
-![[dendron://dendron.dendron-site/tags.stage.sprout]]
+![[dendron://dendron.dendron-site/dendron.topic.links.file-link#summary,1]]
 
-You can link to files in your workspace that are not notes (or not in a vault) using wikilinks. The
-easiest way to link to a file is using the [[Copy Note Link|dendron.ref.commands#copy-note-link]]
-command, which will automatically create a link for you. As with note files, copy note link
-will create a [[Block Anchor|dendron://dendron.dendron-site/dendron.topic.note-reference#block-anchor]] for you if you have a region of text selected.
+### Child Links
 
-Otherwise, you need to write inside a wikilink the relative path to the file
-from where your `dendron.yml` file is located. For example, if the root of your
-workspace contains `dendron.yml` and a `src` folder, you can write
-`[[src/index.js]]`. Alternatively, if you are linking to a file inside the
-`assets` folder of a vault, you can simply type `[[assets/example.py]]` to link to it.
-
-### Children Links
-
-When you view notes using the [[preview|dendron://dendron.dendron-site/dendron.topic.preview]] or the [[published|dendron.topic.publish]] site, Dendron will auto-generate a `Children` section at the end of the note.
-
-![Children](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/Quickstart_-_Dendron.jpg)
-
-- TIP: this can be turned off using the [[nav_exclude_children|dendron://dendron.dendron-site/dendron.topic.publish.config.nav_exclude_children]] option (publishing only)
+![[dendron://dendron.dendron-site/dendron.topic.links.child-link#summary,1]]
 
 ### Backlinks
-![[dendron://dendron.dendron-site/dendron.topic.links.backlink]]
 
-
-You can find further documentation about it [[here|dendron.topic.workbench#backlinks-view]].
-
-### Naked Links
-
-For regular links, you can highlight the link and use `> Dendron: Open Link` to open the file using your operating system default for that file. This also applies to opening paths to folders.
-
-<a href="https://www.loom.com/share/01250485e20a4cdca2a053dd6047ac68"><img src="https://cdn.loom.com/sessions/thumbnails/01250485e20a4cdca2a053dd6047ac68-with-play.gif"> </a>
+![[dendron://dendron.dendron-site/dendron.topic.links.backlink#summary,1]]
 
 ### Cross Vault Links
 
-Cross vault links are a way of exactly specifying a note in a [[multi vault|dendron.topic.multi-vault]] workspace. You can turn a regular link into a cross vault link by adding `dendron://$vaultName/` prefix where `$vaultName` is the [[name|dendron.ref.config#name]] of your vault.
-
-Some examples:
-
-- regular wiki link: `[[dendron://vault/foo]]`
-- wiki link with alias: `[[Foo Note|dendron://vault/foo]]`
-- relative link: `[[Foo Note|dendron://vault/foo#header1]]`
-
-You can also use cross vault links for [[note references|dendron.topic.note-reference]].
-
-- note ref: `![[dendron://vault/foo]]`
+![[dendron://dendron.dendron-site/dendron.topic.links.cross-vault-link#summary,1]]
 
 ### Markdown links
 
-Markdown links can be used for local files and stuff on the internet (websites, images, blogs etc.). The `Markdown Shortcuts: Toggle hyperlink` command makes this operation really easy. You can even bind this to a shortcut key combination. We'd recommend using 'cmd/ctrl + K' to get the usual application behavior or 'cmd/ctrl + U' if you want to continue using ctrl+k as part of the usual VS Code combo operation.
+![[dendron://dendron.dendron-site/dendron.topic.links.markdown-link#summary,1]]
 
 
-## Commands
+## Children
 
-### Convert Link
-
-![[dendron://dendron.dendron-site/dendron.topic.refactoring.commands.convert-link#summary,1:#*]]
-
-
+- [[Concepts|dendron://dendron.dendron-site/dendron.topic.links.concepts]]
+- Components
+  - [[dendron://dendron.dendron-site/dendron.topic.links.backlink]]
+  - [[dendron://dendron.dendron-site/dendron.topic.links.file-link]]
+  - [[dendron://dendron.dendron-site/dendron.topic.links.wiki-link]]
+  - [[dendron://dendron.dendron-site/dendron.topic.links.block-link]]
+  - [[dendron://dendron.dendron-site/dendron.topic.links.markdown-link]]
+  - [[dendron://dendron.dendron-site/dendron.topic.links.child-link]]
+  - [[dendron://dendron.dendron-site/dendron.topic.links.cross-vault-link]]
+- [[dendron://dendron.dendron-site/dendron.topic.links.commands]]
