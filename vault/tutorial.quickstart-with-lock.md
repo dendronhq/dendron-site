@@ -1,9 +1,9 @@
 ---
-id: c1bs7wsjfbhb0zipaywqv1
-title: Tutorial
+id: wv8pjhxjjrp5bnwlz2kznsg
+title: Quickstart with Lock
 desc: ""
-updated: 1658931733078
-created: 1654223767390
+updated: 1659722874353
+created: 1659721741451
 currentStep: 0
 totalSteps: 0
 ---
@@ -19,14 +19,14 @@ You are currently in the tutorial vault (a vault is the folder where your notes 
 
 - > NOTE: After you press enter, Dendron will create and open the `dendron` note. Use `<CTRL>-<TAB>` to come back to this note
 
-You just created your first note!
+You just created your first note! Notes in Dendron are just plain text markdown with some [frontmatter](https://wiki.dendron.so/notes/ffec2853-c0e0-4165-a368-339db12c8e4b) on the top. You can edit them in Dendron or using ~~vim~~ your favourite text editor.
 
-- > NOTE: Notes in Dendron are just plain text markdown with some [frontmatter](https://wiki.dendron.so/notes/ffec2853-c0e0-4165-a368-339db12c8e4b) on the top. You can edit them in Dendron or using ~~vim~~ your favourite text editor.
+- > NOTE: You might have noticed that the tutorial has not changed - this is because it is currently `locked`. This keeps the preview from changing as you change notes. Well teach you at the end how to unlock the tutorial
 
 ## Find a Note
 
 1. Use `Ctrl+L` / `Cmd+L` to bring up the lookup prompt again
-1. Type `dendron` and press `<ENTER>`
+1. Type `tutorial` and press `<ENTER>`
 
 - > TIP: you don't have to type out the entire query, press `<TAB>` to autocomplete
 
@@ -43,11 +43,11 @@ You just created your first hierarchy!
 
 - > NOTE: hierarchies in Dendron are just `.` delimited files. This makes each note both a file and a folder and makes it easy to keep your notes organized
 
-- > TIP: You can use the [Dendron Tree View](https://wiki.dendron.so/notes/hur7r6gr3kqa56s2vme986j) to view your hierarchy. If it's not currently in focus, you can use `CTRL+SHIFT+P`/`CMD+SHIFT+P` to open the command prompt and type in `Dendron: focus on tree view` to make it appear
+- > TIP: You can use the [Dendron Tree View](https://wiki.dendron.so/notes/hur7r6gr3kqa56s2vme986j) to view your hierarchy. If it's not currently in focus, you can use `CTRL+SHIFT+P`/`CMD+SHIFT+P` to open the command prompt and type in [`Dendron: focus on tree view`](command:dendron.treeView.focus) to make it appear
 
 ## Create a link
 
-1. In the current note, type `[[` - this should trigger the autocomplete. You can type `one` to narrow it down to the note you just created and hit enter
+1. In the current note, type `[[` - this should trigger the autocomplete. You can type `den` to narrow it down to `dendron` and hit enter
 <!-- Enter '[[' below-->
 
 <!-- End space-->
@@ -67,12 +67,17 @@ You just navigated the link!
 
 ## Refactor a Note
 
-1. Open [[tutorial.one]], bring up the command prompt (`CTRL+SHIFT+P`/`CMD+SHIFT+P`) and type `Dendron: Rename Note`
-1. Replace `tutorial` with `my-note` and then press `<ENTER>`
+1. Inside [[my-note]], bring up the command prompt (`CTRL+SHIFT+P`/`CMD+SHIFT+P`) and type `Dendron: Rename Note`
+1. Replace `dendron` with `my-note` and then press `<ENTER>`
+1. Go back to [[tutorial one|tutorial.one]] - you should see the updated link!
 1. You just refactored the note!
 
 - > NOTE: when you rename a note, Dendron updates all links and references of the original note being renamed. Try switching back to [[tutorial]] to see the updated link!
 - > TIP: in addition to renaming one note at a time, dendron has [an entire collection](https://wiki.dendron.so/notes/srajljj10V2dl19nCSFiC) of refactoring commands that let you change headers, move around sections, and refactor entire hierarchies!
+
+## Unlock the Preview
+
+To unlock, click the lock icon on the top right of the page or use the [Dendron: Toggle Preview Lock](command:dendron.togglePreviewLock) command. Now click on the editor again on a new page. You should see the preview change.
 
 ## Conclusion
 

@@ -2,7 +2,7 @@
 id: 3abd00eb-1c1e-4253-aaf5-dcbe20c21850
 title: Early Seed
 desc: ''
-updated: 1660924985578
+updated: 1660929665208
 created: 1604539200840
 published: true
 nav_exclude: true
@@ -22,7 +22,7 @@ Dendron 0.109 has sprouted 🌱
 
 ### Enhancements
 - enhance(views): integrated calendar with vscode theme (#3340) @sam
-- enhance(edit): option to not create an alias when copying a wiki link (#3393) @hayata ([[docs|dendron.dendron-site/dendron.topic.links.commands.copy-note-link.config.alias-mode]])
+- enhance(edit): option to not create an alias when copying a wiki link (#3393) @hayata ([[docs|dendron://dendron.dendron-site/dendron.topic.links.commands.copy-note-link.config.alias-mode]])
 
 ### Fixes
 - fix(structure): correctly match namespace schema nodes, and correctly apply schema to new note when note existed as stub (#3388) @hikchoi
