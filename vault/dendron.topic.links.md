@@ -2,7 +2,7 @@
 id: 3472226a-ff3c-432d-bf5d-10926f39f6c2
 title: Links
 desc: Create links to various locations using basic and extended syntax.
-updated: 1660885698686
+updated: 1660887910098
 created: 1595003088839
 config:
   global:
@@ -44,6 +44,18 @@ If the link is a website or a custom file format, Dendron will use your system d
 
 Connect the docts using the [[Graph View|dendron://dendron.dendron-site/dendron.topic.graph-view]]
 
+## Getting Started
+
+Here is a list of resource that will help you start using links in your notes:
+
+- [[Using wikilinks|dendron://dendron.dendron-site/dendron.topic.links.wiki-link#getting-started]]
+- [[Linking to specific part of a note|dendron://dendron.dendron-site/dendron.topic.links.block-link#getting-started]]
+- [[Linking to files that are not notes|dendron://dendron.dendron-site/dendron.topic.links.file-link#getting-started]]
+- [[Changing how links are rendered in preview and publishing|dendron://dendron.dendron-site/dendron.topic.links.child-link#getting-started]]
+- [[Viewing all notes that have links to this note|dendron://dendron.dendron-site/dendron.topic.links.backlink#getting-started]]
+- [[Linking to notes in a different vault|dendron://dendron.dendron-site/dendron.topic.links.cross-vault-link#getting-started]]
+- [[Linking to files using regular Markdown links|dendron://dendron.dendron-site/dendron.topic.links.markdown-link#getting-started]]
+
 ## Components
 
 ### Wiki Links
@@ -64,17 +76,16 @@ Connect the docts using the [[Graph View|dendron://dendron.dendron-site/dendron.
 
 ### Backlinks
 
-![[dendron://dendron.dendron-site/dendron.topic.links.backlink]]
+![[dendron://dendron.dendron-site/dendron.topic.links.backlink#summary,1]]
 
 ### Cross Vault Links
 
-![[Cross Vault Link|dendron://dendron.dendron-site/dendron.topic.links.cross-vault-link]]
+![[dendron://dendron.dendron-site/dendron.topic.links.cross-vault-link#summary,1]]
 
 ### Markdown links
 
-![[Markdown Link|dendron://dendron.dendron-site/dendron.topic.links.markdown-link]]
+![[dendron://dendron.dendron-site/dendron.topic.links.markdown-link#summary,1]]
 
-## Getting Started
 
 ## Children
 
