@@ -3,8 +3,7 @@ id: eea2b078-1acc-4071-a14e-18299fc28f47
 title: Commands
 desc: ""
 tags:
-    - stage.seed
-updated: 1660886965499
+updated: 1660920182266
 created: 1595261816971
 nav_order: 3.1
 ---
@@ -162,7 +161,7 @@ This pattern would specify a set including all notes under `alpha` _except_ for 
 
 ## Navigation
 
-### Lookup Note
+### Lookup Note / Create Note
 
 -   shortcuts:
     -   mac: `cmd+L`
@@ -357,13 +356,13 @@ Dendron will open your current browser to the [[cheatsheet|dendron.cheatsheet]] 
 
 Modify Dendron Config as raw YAML
 
-### Configure
+### Configure (UI)
 
 -   shortcuts: none
 
 Modify Dendron Config using Dendron UI
 
- <div style="position: relative; padding-bottom: 62.5%; height: 0;"><iframe src="https://www.loom.com/embed/5b6689eb76344fbb814a3d4405ef62b8" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+ <div style="position: relative; padding-bottom: 53.75%; height: 0;"><iframe src="https://www.loom.com/embed/3eba0f8523ac4d1ab150e8d3af9f1b0b" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 ### Workspace: Add and Commit
 
