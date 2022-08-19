@@ -2,9 +2,63 @@
 id: 5c213aa6-e4ba-49e8-85c5-1bdcb33ce202
 title: Special Notes
 desc: ''
-updated: 1659483887989
+updated: 1660899148136
 created: 1595004457029
+config:
+    global:
+        enableChildLinks: false
 ---
+
+## Summary
+
+Built-in special notes for variety of use cases.
+
+## Features
+
+### Start writing notes instantly
+
+### Easily create and open frequently used notes
+
+### Expand based on your use case
+
+## Components
+
+### Journal Note
+
+![[dendron://dendron.dendron-site/dendron.topic.special-notes.journal-note#summary,1]]
+
+### Daily Journal Note
+
+![[dendron://dendron.dendron-site/dendron.topic.special-notes.daily-journal-note#summary,1]]
+
+### Scratch Note
+
+![[dendron://dendron.dendron-site/dendron.topic.special-notes.scratch-note#summary,1]]
+
+### Meeting Note
+
+![[dendron://dendron.dendron-site/dendron.topic.special-notes.meeting-note#summary,1]]
+
+### Proxy Note
+
+![[dendron://dendron.dendron-site/dendron.topic.special-notes.proxy-note#summary,1]]
+
+## Getting Started
+
+<!-- TODO: showcase simple use case of creating / writing / extending with special notes -->
+
+## Children
+- components
+  - [[dendron://dendron.dendron-site/dendron.topic.special-notes.journal-note]]
+  - [[dendron://dendron.dendron-site/dendron.topic.special-notes.daily-journal-note]]
+  - [[dendron://dendron.dendron-site/dendron.topic.special-notes.scratch-note]]
+  - [[dendron://dendron.dendron-site/dendron.topic.special-notes.meeting-note]]
+  - [[dendron://dendron.dendron-site/dendron.topic.special-notes.proxy-note]]
+- config
+- [[Commands|dendron://dendron.dendron-site/dendron.topic.special-notes.commands]]
+
+----------------
+<!-- old -->
 
 Dendron has built-in support for a variety of special note formats. These notes can be created using regular lookup - these commands provide convenient shortcuts for frequently used notes.
 
