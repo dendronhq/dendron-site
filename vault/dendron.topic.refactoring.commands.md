@@ -2,7 +2,7 @@
 id: 45ecrq7l5z9l1vpwtr05q3h
 title: Commands
 desc: ''
-updated: 1655739692915
+updated: 1660042737685
 created: 1655109346797
 config:
   global:
@@ -16,6 +16,10 @@ config:
 ## Move Note
 
 ![[dendron.topic.refactoring.commands.move-note#summary,1:#*]]
+
+## Merge Note
+
+![[dendron.topic.refactoring.commands.merge-note#summary,1:#*]]
 
 ## Refactor Hierarchy
 
