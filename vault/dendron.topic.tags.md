@@ -2,7 +2,7 @@
 id: 8bc9b3f1-8508-4d3a-a2de-be9f12ef1821
 title: Tags
 desc: ''
-updated: 1655136223643
+updated: 1660662502633
 created: 1601910058115
 tags:
   - example.from-frontmatter
@@ -12,7 +12,7 @@ tags:
 
 Dendron supports adding tags to your notes. Tags can be added either inline as a hashtag (eg. `#foo`) or in the [[dendron.topic.frontmatter]].
 
-> **Note:** To avoid clashing with GitHub issue and PR numbers (ex. `#6778`), tags do not support starting with a number. All issues must start with a letter.
+> **Note:** To avoid clashing with GitHub issue and PR numbers (ex. `#6778`), tags do not support starting with a number. All tags must start with a letter.
 
 ## Hashtags
 
@@ -59,8 +59,6 @@ example, the tag #example is set to color red, so #example.my-example is also
 red. This allows you to organize your tags with color codes. You can always
 override the color deeper within the hierarchy, we could set
 `#example.my-example` to green while keeping `#example` red.
-
-Note that the color you assign your tag will also be displayed in the [[Dendron Tree View|dendron.topic.workbench#dendron-tree-view]].
 
 #### Disabling automatic colors
 

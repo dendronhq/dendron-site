@@ -2,7 +2,7 @@
 id: czSRhQRxDU13kQv4VocBX
 title: Concepts
 desc: ''
-updated: 1643652090441
+updated: 1659624432164
 created: 1643649041240
 ---
 
@@ -22,5 +22,3 @@ A pod configuration is the set of configuration that describes how notes will be
 ### Pod Target
 
 The tool or destination that Dendron is transferring information between. 
-
-##

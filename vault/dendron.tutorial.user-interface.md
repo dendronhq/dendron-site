@@ -2,7 +2,7 @@
 id: gHdxXlNMr1w4xqee0n-Mb
 title: User Interface
 desc: 1. User Interface
-updated: 1645804002675
+updated: 1660110223951
 created: 1625563862198
 nav_order: 0
 ---
@@ -17,11 +17,11 @@ Let's do a brief overview on how to navigate the Dendron User Interace (UI), whi
 
 ## 1. Editor View
 
-Where you can write and edit your notes. **Notes** in Dendron are [[Markdown|dendron://dendron.dendron-site/dendron.topic.markdown]] files (ex. `my.note.md`).
+Where you can write and edit your notes. **Notes** in Dendron are [[Markdown|dendron://dendron.dendron-site/dendron.topic.markdown]] files (e.g., `my.note.md`).
 
 ## 2. Preview View
 
-Shows the rendered Markdown of your currently opened note. If you close this pane, you can bring it back with the `Dendron: Show Preview` command.
+Shows the rendered Markdown of your currently opened note. If you close this pane, you can bring it back with the `Dendron: Toggle Preview` command.
 
 You may see two additional sections at the bottom of the preview view, **Children** and **Backlinks**, which will be covered later in the tutorial.
 
@@ -29,17 +29,17 @@ You may see two additional sections at the bottom of the preview view, **Childre
 
 ## 3. File Explorer Pane
 
-This shows the files and folders in your vault. A **[[vault|dendron://dendron.dendron-site/dendron.topic.vaults]]** stores your notes and assets (ex. images, PDFs, etc.).
+This shows the files and folders in your vault. A **[[vault|dendron://dendron.dendron-site/dendron.topic.vaults]]** stores your notes and assets (e.g., images, PDFs, etc.).
 
 > 💡 **TIP:** We encourage using the **[tree view](#6-tree-view-pane)**, as opposed to the file explorer pane, for navigating your notes.
 
 ## 4. Outline Pane
 
-Shows an outline of the currently opened note by listing the headers for navigation. Jump around areas of larger notes by clicking on the headers in this pane.
+Shows an outline of the currently opened note by listing the headers for navigation. Jump around sections of larger notes by clicking on the headers in this pane.
 
 ## 5. Calendar View Pane
 
-Shows days where you've created a **[[Details|dendron.topic.daily-journal-note#details]]** entry. If no journal entry exists for a given day, clicking on the date in the calendar will automatically create it.
+Shows days where you've created a **[[Details|dendron.topic.daily-journal-note#details]]** entry. If no journal entry exists for a given day, clicking on the date in the calendar will automatically create one.
 
 ![[dendron://dendron.dendron-site/asset.preview#create-daily-journal-from-calendar,1:#*]]
 
