@@ -2,7 +2,7 @@
 id: 482bl67lvjd0r8ht0cngxmk
 title: 0.107
 desc: ''
-updated: 1660061933928
+updated: 1661099938003
 created: 1659968708044
 ---
 
@@ -28,7 +28,7 @@ August 09, 2022
 - enhance(workspace): only show the feature showcase once 
 - enhance(lookup): add space between note title and vault name
 - fix(views): nested bullets formatted correctly in preview
-- fix(lookup): validate file name on note lookup ([[docs|dendron.topic.lookup.ref.restrictions]])
+- fix(lookup): validate file name on note lookup ([[docs|dendron.topic.lookup.ref.restrictions]]) 
 - fix(workspace): remote vault not recognized by dendron for windows
 - fix(views): resolve issues with preview lock button
 

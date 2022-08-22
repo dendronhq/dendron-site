@@ -2,7 +2,7 @@
 id: mmqulakecwvn0qd0u7ve9lj
 title: CLI
 desc: ''
-updated: 1660956290080
+updated: 1661122128623
 created: 1654385374172
 ---
 
@@ -52,3 +52,6 @@ Prepare plugin by updating `package.json`. Performs the following operations:
 
 ### package_plugin
 ![[dendron://dendron.dendron-site/dendron.topic.dev.cli.package-plugin]]
+
+### build
+![[dendron://dendron.dendron-site/dendron.topic.dev.cli.build]]
