@@ -1,8 +1,8 @@
 ---
 id: x1d18w46rxu34tksct3d4lh
 title: Meeting Note
-desc: 'Meeting notes help you keep track of meetings by providing a structured default to capture notes, attendes and next steps'
-updated: 1658947585935
+desc: 'Meeting notes help you keep track of meetings by providing a structured default to capture notes, attendees and next steps'
+updated: 1661158390422
 created: 1657070789093
 ---
 
@@ -10,7 +10,9 @@ created: 1657070789093
 
 {{fm.desc}}
 
-## Components
+## Details
+
+### Use Case
 
 ### Meeting Note Template
 
@@ -19,7 +21,7 @@ When you first run the `Create Meeting Note` command, a template and a schema wi
 
 The template gets applied to your meeting notes because of the [[schema|dendron://dendron.dendron-site/dendron.topic.schema]] that gets auto-generated the first time you run the `Create Meeting Note` command. By default, this will apply the meeting template to all notes that follow the patterns `meet.yyyy.mm.dd`, or `meet.yyyy.mm.dd.suffix` - for example, `meet.2022.04.01` or `meet.2022.04.01.weekly-planning`. If you want to change the pattern of your meeting note names and still want the template to apply, you can edit the schema definition in the file `dendron.meet.schema.yml`. 
 
-## Getting Started
+### Getting Started
 
 To create a meeting note, run the [[Create Meeting Note|dendron://dendron.dendron-site/dendron.ref.commands#create-meeting-note]] command. We recommend you add a suffix to the meeting note to make it easier to identify
 

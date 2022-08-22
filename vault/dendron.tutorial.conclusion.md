@@ -47,7 +47,7 @@ _This is your immediate jumping off point after finishing the tutorial. It cover
     - Learn how to [[tag other Users|dendron://dendron.dendron-site/dendron.topic.users]] in your notes.
     - Learn how to [[manage and track tasks with special Task Notes|dendron://dendron.dendron-site/dendron.topic.tasks]].
     - Learn how to quickly take notes that may note have a home quite yet, like a scratchpad, using [[Scratch Notes|dendron://dendron.dendron-site/dendron.topic.special-notes#scratch-note]].
-    - Learn how to log your activities with [[Daily Journal Notes|dendron.topic.daily-journal-note#details]] and other generic [[Journal Notes|dendron://dendron.dendron-site/dendron.topic.special-notes#journal-note]].
+    - Learn how to log your activities with [[Daily Journal Notes|dendron.topic.special-notes.daily-journal-note#details]] and other generic [[Journal Notes|dendron://dendron.dendron-site/dendron.topic.special-notes#journal-note]].
     - Learn the _how_ and the _why_ behind [[Hierarchies in Dendron|dendron://dendron.dendron-site/dendron.topic.hierarchies]].
     - Learn how to automatically make use of [[Templates|dendron.topic.templates]] in new notes, in specific hierarchies, with [[Schemas|dendron://dendron.dendron-site/dendron.topic.schema]].
 - Sharing

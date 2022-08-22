@@ -2,7 +2,7 @@
 id: 5c213aa6-e4ba-49e8-85c5-1bdcb33ce202
 title: Special Notes
 desc: ''
-updated: 1660899148136
+updated: 1661169281423
 created: 1595004457029
 config:
     global:
@@ -39,6 +39,10 @@ Built-in special notes for variety of use cases.
 
 ![[dendron://dendron.dendron-site/dendron.topic.special-notes.meeting-note#summary,1]]
 
+### Task Note
+
+![[dendron://dendron.dendron-site/dendron.topic.special-notes.task-note#summary,1]]
+
 ### Proxy Note
 
 ![[dendron://dendron.dendron-site/dendron.topic.special-notes.proxy-note#summary,1]]
@@ -61,39 +65,6 @@ Built-in special notes for variety of use cases.
 <!-- old -->
 
 Dendron has built-in support for a variety of special note formats. These notes can be created using regular lookup - these commands provide convenient shortcuts for frequently used notes.
-
-## Journal Note
-
-A journal note is a self contained note that is meant to track something over time. Examples of journals include recording **workout sessions**, making **meeting notes**, and keeping a **mood journal**.
-
-To create a journal note, trigger a lookup and then click on the calendar icon, or use the `Ctrl+Shift+J`/`Cmd+Shift+J` shortcut (depending on operating system).
-
-<a href="https://www.loom.com/share/3c3ddc1dc63547cea8bf186bec31f71b"> 
-<img style="" src="https://cdn.loom.com/sessions/thumbnails/3c3ddc1dc63547cea8bf186bec31f71b-with-play.gif"> </a>
-
-By default, Dendron will create the journal note with the following hierarchy `{domain}.journal.{y.MM.dd}`. `{domain}` is the **domain** of the current active note when you execute `New Journal Note`.
-
-A reference for date formatting tokens can be found [here](https://moment.github.io/luxon/#/formatting)
-
-## Scratch Note
-
-A scratch note is a self contained note that is meant to be used as scratchpad. Use it for thoughts or when you want to expand on a bullet point. Scratch notes are created in the `scratch` domain and have the following format: `scratch.{y.MM.dd.HHmmss}`. To create a scratch note, trigger a lookup and then click the "create scratch note" icon, or use the keybind `Ctrl+Shift+S`/`Cmd+Shift+S` (depending on operating system).
-
-<a href="https://www.loom.com/share/2fd3042119124df8bb4592d8ffe6d708"> 
-<img style="" src="https://cdn.loom.com/sessions/thumbnails/2fd3042119124df8bb4592d8ffe6d708-with-play.gif"> </a>
-
-## Meeting Note
-
-![[dendron://dendron.dendron-site/dendron.topic.special-notes.meeting-note]]
-
-## Proxy Notes
-
-- status: #stage.seed
-
-A [[Proxy Note|dendron://dendron.docs/rfc.38-links-to-non-note-files#proxy-notes]] is a note that contain a special property in their
-frontmatter to specify that they are a proxy for a specific uri.
-
-By adding a uri property to the frontmatter, executing [[dendron.ref.commands.goto]] over the link will open the uri instead of navigating to the note.  
 
 ### Additional Features
 

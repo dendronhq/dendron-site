@@ -6,14 +6,14 @@ desc: >-
   new notes
 updated: 1655169620625
 created: 1640784965050
-canonicalUrl: https://blog.dendron.so/notes/P1DL2uXHpKUCa7hLiFbFA/
+canonicalUrl: 'https://blog.dendron.so/notes/P1DL2uXHpKUCa7hLiFbFA/'
 ---
 
 ## Summary
 
 As you write more notes, you might find yourself re-using the same template across multiple notes. You can use schemas to automatically apply a template to notes at a given hierarchy.
 
-In this tutorial, we will walkthrough creating a schema for your [[daily journal|dendron.topic.daily-journal-note]] that can automatically apply [The Five Minute Journal](https://github.com/dendronhq/templates/blob/main/templates/templates.journal.daily.5mj.md) to all your entries.
+In this tutorial, we will walkthrough creating a schema for your [[daily journal|dendron.topic.special-notes.daily-journal-note]] that can automatically apply [The Five Minute Journal](https://github.com/dendronhq/templates/blob/main/templates/templates.journal.daily.5mj.md) to all your entries.
 
 ## Concepts
 
@@ -22,7 +22,7 @@ In this tutorial, we will walkthrough creating a schema for your [[daily journal
 
 ### Daily journal notes
 
-![[dendron://dendron.dendron-site/dendron.topic.daily-journal-note#summary,1:#*]]
+![[dendron://dendron.dendron-site/dendron.topic.special-notes.daily-journal-note#summary,1:#*]]
 
 ### Templates
 
