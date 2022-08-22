@@ -2,7 +2,7 @@
 id: eojyowzxe8ufiqoi9jf5830
 title: 0.109
 desc: ''
-updated: 1661189882403
+updated: 1661189975808
 created: 1661178597754
 ---
 
@@ -33,7 +33,7 @@ August 23, 2022
 - fix(structure): correctly match namespace schema nodes, and correctly apply schema to new note when note existed as stub
 - fix(workspace): duplicate Dendron Delete command in contextual menu
 - fix(views): show whitespace for links in headers
-- fix(workspace): proper visibility on views and commands for web ext (#3423)
+- fix(workspace): proper visibility on views and commands for web ext
 ## Community
 
 ### General Updates
