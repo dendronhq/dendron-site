@@ -1,0 +1,79 @@
+---
+id: eojyowzxe8ufiqoi9jf5830
+title: 0.109
+desc: ''
+updated: 1661188340680
+created: 1661178597754
+---
+
+Dendron 0.109 has sprouted  🌱
+August 23, 2022
+
+**Merge Note Command**: In some cases, one is better than two. With the new merge notes command, you can now combine redundant notes. This command also makes sure that all links are refactored to point to the merged note!
+
+- More information: [[Dendron: Merge Note|dendron://dendron.dendron-site/dendron.topic.refactoring.commands.merge-note]]
+
+**Configuration UI**: `dendron.yml` is turning a new leaf! You can now manage configuration using a visual UI!
+
+- More information: [[Configure (UI)|dendron://dendron.dendron-site/dendron.ref.commands#configure-ui]]
+
+## Highlights
+
+- feat(workspace): tree view in web ext (#3386) @jonathan  #highlight
+    - #todo(wait until regular release to announce)
+    - docs(#todo merge): https://github.com/dendronhq/dendron-site/pull/617 
+- feat(views): UI to configure `dendron.yml` (#3211) @joshi ([[docs|dendron://dendron.dendron-site/dendron.ref.commands#configure-ui]])
+- feat(structure): merge note command (#3349) @hikchoi ([[docs|dendron://dendron.dendron-site/dendron.topic.refactoring.commands.merge-note]])
+
+## Everything Else
+
+- feat(workspace): Create Note Command (#3408) @joshi ([[docs|dendron://dendron.dendron-site/dendron.ref.commands#lookup-note--create-note]])
+- enhance(views): integrated calendar with vscode theme (#3340) @sam
+- enhance(edit): option to not create an alias when copying a wiki link (#3393) @hayata ([[docs|dendron://dendron.dendron-site/dendron.topic.links.commands.copy-note-link.config.alias-mode]])
+- fix(structure): correctly match namespace schema nodes, and correctly apply schema to new note when note existed as stub (#3388) @hikchoi
+- fix(workspace): duplicate Dendron Delete command in contextual menu (#3406) @joshi
+- fix(views): show whitespace for links in headers (#3403) @sam
+- fix(workspace): proper visibility on views and commands for web ext (#3423) @jonathan
+
+
+## Community
+
+### General Updates
+
+**Greenhouse this Friday!**
+
+
+
+### TIL Highlights
+<!-- TODO: update links. Delete section is no new items-->
+> These are highlights from the [[Dendron Discord|dendron://dendron.dendron-site/community.discord.channels]] `#today-i-learned` channel.
+
+- 💡 `bitNomad#0817` shared his learning that there are places in Denver as scary/sketchy as his hometown Det[riot] where the po-po do not consider stopping at any signal
+- 💡 `grndstt#1420` shared a link to [Frictionless Data Software and Standards](https://frictionlessdata.io/) and [Livemark framework](https://livemark.frictionlessdata.io/)
+
+
+### Dendron Reading Series
+
+This week's entry in the [[Dendron Reading Series|dendron://dendron.dendron-site/community.events.reading-series]].
+
+### Event Reminders
+
+- **Greenhouse Talks:** Visit the [[Greenhouse Talks|dendron://dendron.dendron-site/community.events.greenhouse]] for notes from previous sessions.
+    - Next: [Fri, Aug 26, 09:00 AM PST / 00:00 UTC](https://link.dendron.so/luma)
+    - [Greenhouse Talk Recordings - YouTube Playlist](https://link.dendron.so/greenhouse)
+- **Office Hours:** Visit the [[Office Hours page|dendron://dendron.dendron-site/community.events.office-hours]] for notes from previous sessions.
+    - Next: [Wed, Sep 07, 09:00 AM PST / 17:00 UTC](https://link.dendron.so/luma)
+    - [Office Hour Recordings - YouTube Playlist](https://link.dendron.so/6yPa)
+- **Community Teatime:** Drink tea, eat food, and hangout with the Dendron crew!
+    - Next: [Thu, Aug 18, 11:00 AM PST / 19:00 UTC](https://link.dendron.so/luma)
+- **New User Tuesdays:** Visit the [[New User Tuesdays page|dendron://dendron.dendron-site/community.events.new-user-tuesdays]] for notes from previous sessions.
+    - Next: [Tue, Sep 20, 8:30 AM PST / 16:30 UTC](https://link.dendron.so/luma)
+    
+
+### Thank You's
+
+A big **thanks** to the following gardeners that brought up issues, contributions, and fixes to this release :man_farmer: :woman_farmer: 
+Visit [[Discord Roles|dendron://dendron.dendron-site/community.discord.roles]] for more information.
+
+## Changelog
+![[changelog#01090,1:#01080]]
