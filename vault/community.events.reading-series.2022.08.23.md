@@ -1,9 +1,9 @@
 ---
-id: rngvliz9rfpof8y2j28ilxt
+id: ko15s9xhq36m1nij7lhnrew
 title: 'The world map that reboots your brain'
 desc: ''
-updated: 1661226741628
-created: 1661222937423
+updated: 1661267725096
+created: 1661267695109
 ---
 
 [The world map that reboots your brain](https://axbom.com/world-map/)
@@ -19,5 +19,3 @@ This serves as a good reminder of why its important to understand the tools we u
 What tools do you use on a regular basis (besides Dendron of course) and what tradeoffs are they making in the way that they present information?
 
 [^1]: The Mercator projection is a technique for mapping out a three dimensional globe on a two dimensional surface - a consequence is that the further a land mass is from the equator, the larger it will appear to be
-
-
