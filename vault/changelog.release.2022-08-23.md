@@ -2,7 +2,7 @@
 id: eojyowzxe8ufiqoi9jf5830
 title: 0.109
 desc: ''
-updated: 1661270678603
+updated: 1661270931483
 created: 1661178597754
 ---
 
@@ -10,6 +10,8 @@ Dendron 0.109 has sprouted  🌱
 August 23, 2022
 
 **Dendron now supports CodeSpaces 🌌**: [Codespaces](https://github.com/features/codespaces) allows you to use VSCode in the browser and on any Github repo by pressing `.`. With this release, you can now use Dendron whereever you have a browser!
+
+<div style="position: relative; padding-bottom: 64.5933014354067%; height: 0;"><iframe src="https://www.loom.com/embed/c8e00408f4314174b3014879f243c9f4" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 - More information: [[Web|dendron://dendron.dendron-site/dendron.topic.vscode.web]]
 
