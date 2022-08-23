@@ -2,7 +2,7 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1661188323107
+updated: 1661268426239
 created: 1601508213606
 nav_order: 2
 ---
@@ -11,9 +11,7 @@ nav_order: 2
 
 ### Features
 
-- feat(workspace): tree view in web ext (#3386) @jonathan  #highlight
-    - #todo(wait until regular release to announce)
-    - docs(#todo merge): https://github.com/dendronhq/dendron-site/pull/617 
+- feat(workspace): tree view in web ext ([[docs|dendron://dendron.dendron-site/dendron.topic.vscode.web]])
 - feat(views): UI to configure `dendron.yml` (#3211) @joshi ([[docs|dendron://dendron.dendron-site/dendron.ref.commands#configure-ui]])
 - feat(structure): merge note command (#3349) @hikchoi ([[docs|dendron://dendron.dendron-site/dendron.topic.refactoring.commands.merge-note]])
 - feat(workspace): Create Note Command (#3408) @joshi ([[docs|dendron://dendron.dendron-site/dendron.ref.commands#lookup-note--create-note]])
