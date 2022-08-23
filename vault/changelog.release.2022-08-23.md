@@ -2,12 +2,16 @@
 id: eojyowzxe8ufiqoi9jf5830
 title: 0.109
 desc: ''
-updated: 1661189975808
+updated: 1661265801405
 created: 1661178597754
 ---
 
 Dendron 0.109 has sprouted  🌱
 August 23, 2022
+
+**Dendron now supports CodeSpaces 🌌**: [Codespaces](https://github.com/features/codespaces) allows you to use VSCode in the browser and on any Github repo by pressing `.`. With this release, you can now use Dendron whereever you have a browser!
+
+- More information: [[Web|dendron://dendron.dendron-site/dendron.topic.vscode.web]]
 
 **Merge Note Command**: In some cases, one is better than two. With the new merge notes command, you can now combine redundant notes. This command also makes sure that all links are refactored to point to the merged note!
 
@@ -19,9 +23,7 @@ August 23, 2022
 
 ## Highlights
 
-- feat(workspace): tree view in web ext (#3386) @jonathan  #highlight
-    - #todo(wait until regular release to announce)
-    - docs(#todo merge): https://github.com/dendronhq/dendron-site/pull/617 
+- feat(workspace): tree view in web ext ([[docs|dendron://dendron.dendron-site/dendron.topic.vscode.web]] )
 - feat(views): UI to configure `dendron.yml` ([[docs|dendron://dendron.dendron-site/dendron.ref.commands#configure-ui]])
 - feat(structure): merge note command ([[docs|dendron://dendron.dendron-site/dendron.topic.refactoring.commands.merge-note]])
 
@@ -72,6 +74,19 @@ This week's entry in the [[Dendron Reading Series|dendron://dendron.dendron-site
 
 A big **thanks** to the following gardeners that brought up issues, contributions, and fixes to this release :man_farmer: :woman_farmer: 
 Visit [[Discord Roles|dendron://dendron.dendron-site/community.discord.roles]] for more information.
+
+- [Patrik Grip-Jansson](https://github.com/kap42)
+  - [The body of published html pages overflows](https://github.com/dendronhq/dendron/issues/3419)
+
+- [Brian Parma](https://github.com/bj0) `@bj0#2741`
+  - #role.bugcatcher
+  - [Publishing: assets are still copied to output directory even if `copyAssets=false`](https://github.com/dendronhq/dendron/issues/3425)
+  - [Publishing: siteHierarchies copies all notes to output directory](https://github.com/dendronhq/dendron/issues/3426)
+  - [Publishing: siteRootDir ignored](https://github.com/dendronhq/dendron/issues/3427)
+
+- [Vladimir Sanchez](https://github.com/vladsanchez) `@vladsanchez#1890`
+  - #role.taxonomist
+  - [Update dendron.guides.workflows.code-with-docs.md](https://github.com/dendronhq/dendron-site/pull/601)
 
 ## Changelog
 ![[changelog#01090,1:#01080]]
