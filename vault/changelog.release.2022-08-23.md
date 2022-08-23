@@ -2,7 +2,7 @@
 id: eojyowzxe8ufiqoi9jf5830
 title: 0.109
 desc: ''
-updated: 1661270931483
+updated: 1661275239810
 created: 1661178597754
 ---
 
@@ -77,7 +77,7 @@ This week's entry in the [[Dendron Reading Series|dendron://dendron.dendron-site
     - Next: [Wed, Sep 07, 09:00 AM PST / 17:00 UTC](https://link.dendron.so/luma)
     - [Office Hour Recordings - YouTube Playlist](https://link.dendron.so/6yPa)
 - **Community Teatime:** Drink tea, eat food, and hangout with the Dendron crew!
-    - Next: [Thu, Aug 18, 11:00 AM PST / 19:00 UTC](https://link.dendron.so/luma)
+    - Next: [Thu, Sep 01, 11:00 AM PST / 19:00 UTC](https://link.dendron.so/luma)
 - **New User Tuesdays:** Visit the [[New User Tuesdays page|dendron://dendron.dendron-site/community.events.new-user-tuesdays]] for notes from previous sessions.
     - Next: [Tue, Sep 20, 8:30 AM PST / 16:30 UTC](https://link.dendron.so/luma)
     
