@@ -2,7 +2,7 @@
 id: eojyowzxe8ufiqoi9jf5830
 title: 0.109
 desc: ''
-updated: 1661270205162
+updated: 1661270678603
 created: 1661178597754
 ---
 
@@ -36,6 +36,7 @@ August 23, 2022
 - fix(workspace): duplicate Dendron Delete command in contextual menu
 - fix(views): show whitespace for links in headers
 - fix(workspace): proper visibility on views and commands for web ext
+
 ## Community
 
 ### General Updates
