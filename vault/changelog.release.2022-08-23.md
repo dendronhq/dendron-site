@@ -2,7 +2,7 @@
 id: eojyowzxe8ufiqoi9jf5830
 title: 0.109
 desc: ''
-updated: 1661265718092
+updated: 1661265801405
 created: 1661178597754
 ---
 
@@ -11,7 +11,7 @@ August 23, 2022
 
 **Dendron now supports CodeSpaces 🌌**: [Codespaces](https://github.com/features/codespaces) allows you to use VSCode in the browser and on any Github repo by pressing `.`. With this release, you can now use Dendron whereever you have a browser!
 
-- More information: <!-- Docs link here -->
+- More information: [[Web|dendron://dendron.dendron-site/dendron.topic.vscode.web]]
 
 **Merge Note Command**: In some cases, one is better than two. With the new merge notes command, you can now combine redundant notes. This command also makes sure that all links are refactored to point to the merged note!
 
