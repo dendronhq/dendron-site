@@ -2,7 +2,7 @@
 id: eojyowzxe8ufiqoi9jf5830
 title: 0.109
 desc: ''
-updated: 1661269870203
+updated: 1661270205162
 created: 1661178597754
 ---
 
@@ -42,13 +42,18 @@ August 23, 2022
 
 **Greenhouse this Friday!**
 
-We have a [[Greenhouse Talk|dendron://dendron.dendron-site/community.events.greenhouse]] this week! Come listen to Matt Bierner speak on 'Markdown Language Server and Progressive Summarization for Developers'
+We have a [[Greenhouse Talk|dendron://dendron.dendron-site/community.events.greenhouse]] this week! 
+
+Two awesome speakers this week:
+
+- [Matt Bierner](https://twitter.com/mattbierner), Maintainer of JS/TS in VS Code, speak on 'Markdown Language Server'
+- [Kevin Lin](https://twitter.com/kevins8), Founder of Dendron, speak on Progressive Summarization for Developers
 
 - [Greenhouse Talk](https://lu.ma/knu8uopf) (Fri, August 26, 09:00 AM PST / 00:00 UTC)
 
 
 ### TIL Highlights
-<!-- TODO: update links. Delete section is no new items-->
+
 > These are highlights from the [[Dendron Discord|dendron://dendron.dendron-site/community.discord.channels]] `#today-i-learned` channel.
 
 - 💡 `bitNomad#0817` shared his learning that there are places in Denver as scary/sketchy as his hometown Det[riot] where the po-po do not consider stopping at any signal
