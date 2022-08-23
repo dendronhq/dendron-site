@@ -2,7 +2,7 @@
 id: eojyowzxe8ufiqoi9jf5830
 title: 0.109
 desc: ''
-updated: 1661268452003
+updated: 1661269870203
 created: 1661178597754
 ---
 
@@ -42,6 +42,9 @@ August 23, 2022
 
 **Greenhouse this Friday!**
 
+We have a [[Greenhouse Talk|dendron://dendron.dendron-site/community.events.greenhouse]] this week! Come listen to Matt Bierner speak on 'Markdown Language Server and Progressive Summarization for Developers'
+
+- [Greenhouse Talk](https://lu.ma/knu8uopf) (Fri, August 26, 09:00 AM PST / 00:00 UTC)
 
 
 ### TIL Highlights
@@ -56,6 +59,7 @@ August 23, 2022
 
 This week's entry in the [[Dendron Reading Series|dendron://dendron.dendron-site/community.events.reading-series]].
 
+[[The world map that reboots your brain|dendron://dendron.dendron-site/community.events.reading-series.2022.08.23]]
 ### Event Reminders
 
 - **Greenhouse Talks:** Visit the [[Greenhouse Talks|dendron://dendron.dendron-site/community.events.greenhouse]] for notes from previous sessions.
