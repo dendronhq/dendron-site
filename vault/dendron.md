@@ -2,36 +2,29 @@
 id: b0fe6ef7-1553-4280-bc45-a71824c2ce36
 title: Dendron
 desc: ''
-updated: 1660835672650
+updated: 1660951930114
 created: 1595952505017
 ---
 
 [![dendronhq on Twitter](https://img.shields.io/twitter/follow/dendronhq?style=social)](https://link.dendron.so/twitter)
 [![Dendron on YouTube](https://img.shields.io/youtube/channel/subscribers/UC8GQLj4KZhN8WcJPiKXtcRQ?style=social)](https://link.dendron.so/youtube)
 [![Discord](https://img.shields.io/discord/717965437182410783?color=blueviolet&label=Discord&style=flat-square)](https://link.dendron.so/discord)
-[![VS Code Installs of Dendron](https://img.shields.io/visual-studio-marketplace/i/dendron.dendron?label=VS%20Code%20Installs%20of%20Dendron&color=blue&style=flat-square)](https://link.dendron.so/vscode)
 
-<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-132-orange.svg?style=flat-square)](#contributors-)
-<!-- ALL-CONTRIBUTORS-BADGE:END -->
+[![VS Code Installs](https://img.shields.io/visual-studio-marketplace/i/dendron.dendron?label=VS%20Code%20Installs&color=blue&style=flat-square)](https://link.dendron.so/vscode)
+[![VSCodium Installs of Dendron](https://img.shields.io/open-vsx/dt/dendron/dendron?label=VSCodium%20Installs&style=flat-square)](https://open-vsx.org/extension/dendron/dendron)
+
 
 ![Dendron Logo](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/logo-256.png)
 
-Dendron is an **open-source, local-first, markdown-based, note-taking tool**. It's a personal knowledge management solution (PKM) built specifically for developers and integrates natively with IDEs like [VS Code](https://code.visualstudio.com/) and [VSCodium](https://vscodium.com/).
+Dendron is an **open-source, local-first, markdown-based, note-taking tool**. 
+Think of it as a **cache for everything that you care about** - if you've spent **more then five minutes** solving a problem, you should **never** spent any more time solving the same exact problem. 
+
+Dendron is a knowledge base built by and for developers and integrates natively with IDEs like [VS Code](https://code.visualstudio.com/) and [VSCodium](https://vscodium.com/).
+
 
 ## Motivation
 
 > "We are overwhelmed with information and we don't have the tools to properly index and filter through it. [The development of these tools, which] will give society access to and command over the inherited knowledge of the ages [should] be the first objective of our scientist" - Vannevar Bush, 1945
-
-## Why
-
-
-Most PKM tools help you create notes but slam into a wall retrieving them once your knowledge base reaches a certain size threshold. That threshold varies with the tool, but virtually everything stops working past 10k notes unless the user was extremely diligent about organizing their knowledge. Past this threshold, entropy wins and every query becomes a keyword search and scrolling through pages of results.
-
-
-> Dendron's mission is to help **humans organize, find, and work with any amount of knowledge**.
-
-It not only helps you create notes but also retrieve them - retrieval works as well with ten notes as it does with ten thousand.
 
 ## How
 

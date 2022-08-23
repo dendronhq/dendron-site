@@ -1,4 +1,5 @@
 ---
+- vscode web, cmd+l needs to be active when dendron is ative (not just inside a editor)
 id: k5zg3zk1ffmsrmojnvn8uxw
 title: >-
     Seeding Digital Gardens and Connecting Second Brains

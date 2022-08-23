@@ -2,7 +2,7 @@
 id: svmryfk3iwexs7pfty1j6at
 title: Web
 desc: ''
-updated: 1660915053669
+updated: 1661265419175
 created: 1660914228125
 ---
 
@@ -37,3 +37,5 @@ Lookup can be used to find and create notes. There are a few limitations compare
 1. Press the `.` button on your keyboard while you have the Github page open in your browser. This will launch you to `https://github.dev/dendronhq/dendron-site`
 1. Install Dendron for your browser VS Code if you haven't done so before. 
 1. After Dendron finishes installing, try running lookup. Keyboard shortcuts will still work in the browser.
+
+

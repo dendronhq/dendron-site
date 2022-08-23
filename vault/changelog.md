@@ -2,10 +2,32 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1660663043711
+updated: 1661268868005
 created: 1601508213606
 nav_order: 2
 ---
+## 0.109.0
+
+
+### Features
+
+- feat(workspace): tree view in web ext (#3386) @jonathan ([[docs|dendron://dendron.dendron-site/dendron.topic.vscode.web]])
+- feat(views): UI to configure `dendron.yml` (#3211) @joshi ([[docs|dendron://dendron.dendron-site/dendron.ref.commands#configure-ui]])
+- feat(structure): merge note command (#3349) @hikchoi ([[docs|dendron://dendron.dendron-site/dendron.topic.refactoring.commands.merge-note]])
+- feat(workspace): Create Note Command (#3408) @joshi ([[docs|dendron://dendron.dendron-site/dendron.ref.commands#lookup-note--create-note]])
+
+### Enhancements
+
+- enhance(views): integrated calendar with vscode theme (#3340) @sam
+- enhance(edit): option to not create an alias when copying a wiki link (#3393) @hayata ([[docs|dendron://dendron.dendron-site/dendron.topic.links.commands.copy-note-link.config.alias-mode]])
+
+### Fix
+
+- fix(structure): correctly match namespace schema nodes, and correctly apply schema to new note when note existed as stub (#3388) @hikchoi
+- fix(workspace): duplicate Dendron Delete command in contextual menu (#3406) @joshi
+- fix(views): show whitespace for links in headers (#3403) @sam
+- fix(workspace): proper visibility on views and commands for web ext (#3423) @jonathan
+
 ## 0.108.0
 
 
