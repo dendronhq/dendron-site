@@ -2,7 +2,7 @@
 id: eojyowzxe8ufiqoi9jf5830
 title: 0.109
 desc: ''
-updated: 1661265801405
+updated: 1661268452003
 created: 1661178597754
 ---
 
@@ -23,7 +23,7 @@ August 23, 2022
 
 ## Highlights
 
-- feat(workspace): tree view in web ext ([[docs|dendron://dendron.dendron-site/dendron.topic.vscode.web]] )
+- feat(workspace): tree view in web ext ([[docs|dendron://dendron.dendron-site/dendron.topic.vscode.web]])
 - feat(views): UI to configure `dendron.yml` ([[docs|dendron://dendron.dendron-site/dendron.ref.commands#configure-ui]])
 - feat(structure): merge note command ([[docs|dendron://dendron.dendron-site/dendron.topic.refactoring.commands.merge-note]])
 
