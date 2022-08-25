@@ -1,8 +1,8 @@
 ---
 id: oOIEFJc6DTgS71mmh89WQ
 title: API
-desc: 'This contains API documentation for trait behavior'
-updated: 1659714599999
+desc: "This contains API documentation for trait behavior"
+updated: 1661455328472
 created: 1638844803983
 tags: [stage.germ]
 ---
@@ -24,9 +24,11 @@ This contains properties that are functions that will run as a note is being cre
 See [[Creation Properties|dendron://dendron.dendron-site/dendron.topic.traits.api#creation-properties]]
 
 #### Return
+
 A JSON Object with the following properties:
-- name: a string with the name of the note which is about to be created
-- promptUserForModfication: a boolean value. If true, before the note is created, then a lookup control will appear, allowing the user to further modify the note name. The lookup will be pre-filled with the contents of the `name` property. If false, then no lookup control will appear and the note will be created with the name set by the `name` property.
+
+-   name: a string with the name of the note which is about to be created
+-   promptUserForModfication: a boolean value. If true, before the note is created, then a lookup control will appear, allowing the user to further modify the note name. The lookup will be pre-filled with the contents of the `name` property. If false, then no lookup control will appear and the note will be created with the name set by the `name` property.
 
 > ❗️ Note: Dendron may further format the note name to make sure it is compatible. Spaces will be replaced with `-` and the note name will be converted to lower case.
 
@@ -54,9 +56,10 @@ _None_
 
 #### Return
 
-The name of the note to use as the template. You can use a [[xvault link|dendron.topic.links#cross-vault-links]] to specify the vault in a multi-vault setting, otherwise, this will use the same vault as the current open note. 
+The name of the note to use as the template. You can use a [[xvault link|dendron.topic.links#cross-vault-links]] to specify the vault in a multi-vault setting, otherwise, this will use the same vault as the current open note.
 
 Example:
+
 ```js
   OnCreate: {
 		...
@@ -66,11 +69,19 @@ Example:
   },
 ```
 
+### setVault
+
+Specify the vault in which a new note is created.
+
+#### Return
+
+The name of the vault in which to create a new note.
+
 ## Creation Properties
 
-- currentNoteName - for `setNameModifier()`, this contains the name of the Dendron note that is currently in focus in the editor. If no note is in focus, then this returns `undefined`.  For `setTitle()`, this contains the note name returned from `setNoteModifier()`.
-- selectedText - contains the text that has been highlighted in the current editor of a Dendron Note. If no text is highlighted, or if the highlighted text is not in a Dendron note, this returns `undefined`.
-- clipboard - contains any text currently on the clipboard, or `undefined` if there is no text.
+-   currentNoteName - for `setNameModifier()`, this contains the name of the Dendron note that is currently in focus in the editor. If no note is in focus, then this returns `undefined`. For `setTitle()`, this contains the note name returned from `setNoteModifier()`.
+-   selectedText - contains the text that has been highlighted in the current editor of a Dendron Note. If no text is highlighted, or if the highlighted text is not in a Dendron note, this returns `undefined`.
+-   clipboard - contains any text currently on the clipboard, or `undefined` if there is no text.
 
 ## Included Modules
 
