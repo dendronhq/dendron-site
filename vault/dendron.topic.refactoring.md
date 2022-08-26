@@ -2,7 +2,7 @@
 id: srajljj10V2dl19nCSFiC
 title: Refactoring
 desc: ""
-updated: 1657867234229
+updated: 1660043244156
 created: 1638900089932
 ---
 
@@ -79,6 +79,17 @@ Features that help update the structure of Dendron.
 5. Select note(s) you want to move to the new vault and hit enter. Clicking the square icon in the lookup bar will enable multi-select.
 6. You will be prompted to select the vault you want to move the selected note(s) to.
 7. Notice the notes have been moved to the selected vault and links to those notes have also been updated.
+
+#### Merge one note with another note
+
+> See [[dendron.topic.refactoring.commands.merge-note]] for more information
+
+1. Create notes called `source`, `dest`, with any content, and `ref` with wikilinks that point to `source`.
+2. Open the note `source`.
+3. Run [[dendron.topic.refactoring.commands.merge-note]] in the command palette
+4. When prompted for the destination, select `dest`.
+5. Notice that the note `source` is deleted, and the content of `source` is appended at the end of note `dest`.
+6. Also note that the wikilinks in `ref` that used to point to `source` is now updated to point to the note `dest`.
 
 ### Refactoring an entire hierarchy
 

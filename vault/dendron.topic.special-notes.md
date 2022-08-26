@@ -42,6 +42,7 @@ Each special note also describes related configurations, templates, and schemas 
 
 ### Daily Journal Note
 
+
 ![[dendron://dendron.dendron-site/dendron.topic.special-notes.daily-journal-note#summary,1]]
 
 ### Scratch Note

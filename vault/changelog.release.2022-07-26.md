@@ -2,7 +2,7 @@
 id: xhcrzg39oqahvb89jb2m1ur
 title: 0.105
 desc: ''
-updated: 1658854002837
+updated: 1661100194308
 created: 1658758655969
 ---
 
@@ -27,9 +27,9 @@ July 26, 2022
 - enhance(preview): open note in different editor group then preview ([[docs|dendron://dendron.dendron-site/dendron.topic.preview#details]])
 - fix(workspace): information modal to uninstall 'dendron markdown links' extension
 - fix(publish): hide sidebar when clicking a non-submenu note on mobile
-- fix(publish): current menu item on the sidebar wont collapse for a published site
-- fix(views): properly focus tree view to active note when it is first shown 
-- fix(workspace): fix typos in getting started tutorial
+- fix(publish): current menu item on the sidebar wont collapse for a published site ^tyvcdezfkubf
+- fix(views): properly focus tree view to active note when it is first shown  ^osmf0zyhfsx3
+- fix(workspace): fix typos in getting started tutorial ^i77c8mfpjypk
 
 ## Community
 
