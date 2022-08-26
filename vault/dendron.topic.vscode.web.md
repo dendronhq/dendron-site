@@ -2,7 +2,7 @@
 id: svmryfk3iwexs7pfty1j6at
 title: Web
 desc: ''
-updated: 1661265419175
+updated: 1661525088238
 created: 1660914228125
 ---
 
@@ -19,7 +19,7 @@ _Note, this is a #stage.germ feature. The supported commands and features may ha
 
 ## Features
 
-Dendron on the web is limited to just a few features right now, but we are working on bringing more of the full Dendron capabilities to the web:
+> NOTE: Dendron on the web is limited to just a few features right now, but we are working on bringing more of the full Dendron capabilities to the web:
 
 ### Lookup
 
@@ -28,8 +28,14 @@ Lookup can be used to find and create notes. There are a few limitations compare
 - Schema information is not available in the lookup results, and notes created will not have schema templates applied.
 
 ### Tree View
-- The Dendron tree view is available for quickly navigating between your notes.
 
+![[dendron://dendron.dendron-site/dendron.topic.sidebar.tree-view]]
+
+### Copy Note URL
+
+![[dendron://dendron.dendron-site/dendron.ref.commands#copy-note-url]]
+
+> NOTE: Copy URL of the selected header set as the anchor is not supported yet
 
 ## Quickstart
 
@@ -38,4 +44,4 @@ Lookup can be used to find and create notes. There are a few limitations compare
 1. Install Dendron for your browser VS Code if you haven't done so before. 
 1. After Dendron finishes installing, try running lookup. Keyboard shortcuts will still work in the browser.
 
-
+<div style="position: relative; padding-bottom: 64.5933014354067%; height: 0;"><iframe src="https://www.loom.com/embed/c8e00408f4314174b3014879f243c9f4" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>

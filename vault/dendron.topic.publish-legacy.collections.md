@@ -2,7 +2,7 @@
 id: e4ea4fe3-0350-492e-863a-687d9fc15993
 title: Collections
 desc: ''
-updated: 1645121293427
+updated: 1661524401732
 created: 1609433737726
 ---
 
@@ -13,8 +13,6 @@ Sometimes, you might want to publish a page that has all its children listed lik
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/publishv2.collection.jpg)
 
 This format is called a `collection` in Dendron. You can designate that a page be published as a collection by setting the [[has_collection|dendron.topic.publish-legacy.configuration#has_collection]] property in the note frontmatter. 
-
-You can see an example of it [here](https://www.kevinslin.com/notes/e9c72b4f-adb8-4f15-a6aa-9f9d81538561.html).
 
 ## Sorting
 
