@@ -2,7 +2,7 @@
 id: 98ywiw4211q9sx0v98lbo88
 title: 'Dendron: Move Note'
 desc: Move a note to another vault and update all backlinks to that note.
-updated: 1661417009316
+updated: 1661522331039
 created: 1655129267874
 ---
 
@@ -25,7 +25,7 @@ none
    1. (Optional) If you want to move a note and all their children, type the parent's note and click on the square icon on the right of the panel (see image below)
 3. Select the vault you want to move the note(s) to
 
-![**{{fm.title}}**: Selecting several notes at once](assets/images/move-note.png)
+![**{{fm.title}}**: Selecting several notes at once](https://org-dendron-public-assets.s3.amazonaws.com/images/move-multiple-notes.png))
 
 
 ### Moving a note using the file explorer
