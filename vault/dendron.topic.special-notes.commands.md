@@ -2,11 +2,8 @@
 id: lfrgtlezdz180svvwulvewb
 title: Commands
 desc: ''
-updated: 1661171624637
+updated: 1661498952927
 created: 1660898822789
-config:
-  global:
-    enableChildLinks: false
 ---
 
 ## Create Daily Journal Note
