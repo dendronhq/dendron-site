@@ -2,7 +2,7 @@
 id: svmryfk3iwexs7pfty1j6at
 title: Web
 desc: ''
-updated: 1661265419175
+updated: 1661522463849
 created: 1660914228125
 ---
 
@@ -30,7 +30,9 @@ Lookup can be used to find and create notes. There are a few limitations compare
 ### Tree View
 - The Dendron tree view is available for quickly navigating between your notes.
 
-
+### Copy Note URL
+- Get URL of current note from published site. The url is taken from the [[siteUrl|dendron.topic.publish-legacy.configuration#siteurl]] property.
+- Copy URL of the selected header set as the anchor is not supported yet
 ## Quickstart
 
 1. Open a Dendron repository in Github, such as `https://github.com/dendronhq/dendron-site`.
