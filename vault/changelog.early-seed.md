@@ -2,7 +2,7 @@
 id: 3abd00eb-1c1e-4253-aaf5-dcbe20c21850
 title: Early Seed
 desc: ''
-updated: 1661524204151
+updated: 1661525303516
 created: 1604539200840
 published: true
 nav_exclude: true
@@ -16,7 +16,7 @@ August 26, 2022
 Dendron 0.110 has sprouted 🌱
 
 ### Features
-- feat(workspace): introduce sqlite as a plugabble metadata store (#3401) @kevin
+- feat(workspace): introduce sqlite as a plugabble metadata store (#3401) @kevin ([[docs|dendron://dendron.dendron-site/dendron.topic.workspace.sqlite]])
 - feat(workspace): copy note url command for codespaces (#3411) @joshi ([[docs|dendron://dendron.dendron-site/dendron.topic.vscode.web#copy-note-url]])
 
 ### Enhancements
@@ -27,3 +27,4 @@ Dendron 0.110 has sprouted 🌱
 - fix(workspace): case insensitive tree view sorting (#3420) @jonathan
 - fix(workspace): updated visibility of copy note url command in codespaces (#3447) @joshi
 - fix(workspace): sqlite store properly update from cache when encountering existing notes (#3451) @kevin
+
