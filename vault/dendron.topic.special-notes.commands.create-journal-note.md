@@ -1,14 +1,14 @@
 ---
 id: yddujnt9s4glcudcwczdobl
 title: "Dendron: Create Journal Note"
-desc: Create a journal note.
-updated: 1661498393820
+desc: Create a journal note
+updated: 1661750001551
 created: 1661169220970
 ---
 
 ## Summary
 
-{{fm.desc}}
+{{fm.desc}}.
 
 ## Keybindings
 - windows: `ctrl+shift+j`

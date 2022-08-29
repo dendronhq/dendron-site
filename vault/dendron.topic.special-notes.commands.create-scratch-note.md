@@ -1,14 +1,14 @@
 ---
 id: z2gv1b7yc986fv93lunx6rc
 title: "Dendron: Create Scratch Note"
-desc: Create a scratch note.
-updated: 1661498674949
+desc: Create a scratch note
+updated: 1661750015330
 created: 1661169226535
 ---
 
 ## Summary
 
-{{fm.desc}}
+{{fm.desc}}.
 
 ## Keybindings
 - windows: `ctrl+shift+s`

@@ -1,14 +1,14 @@
 ---
 id: efwxnfqyyuyex7d9dlaidyy
 title: "Dendron: Create Task Note"
-desc: Create a task note.
-updated: 1661498815717
+desc: Create a task note
+updated: 1661750021787
 created: 1661169246182
 ---
 
 ## Summary
 
-{{fm.desc}}
+{{fm.desc}}.
 
 ## Keybindings
 - `none`

@@ -1,14 +1,14 @@
 ---
 id: 9stxbnf9hxmxt76se5dtx2b
 title: "Dendron: Create Daily Journal Note"
-desc: "Create a daily journal note."
-updated: 1661498852805
+desc: "Create a daily journal note"
+updated: 1661749951443
 created: 1661171483488
 ---
 
 ## Summary
 
-{{fm.desc}}
+{{fm.desc}}.
 
 ## Keybindings
 - mac: `cmd+shift+i`

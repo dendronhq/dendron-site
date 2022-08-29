@@ -1,8 +1,8 @@
 ---
 id: ns09dicjf4pz3lcu8aowbfa
 title: Proxy Note
-desc: 'Proxy notes are notes that contain special property in their frontmatter to specify that they are a proxy for a specific uri.'
-updated: 1661494798190
+desc: 'Proxy notes are notes that contain special property in their frontmatter to specify that they are a proxy for a specific uri'
+updated: 1661749933894
 created: 1660898704360
 ---
 
@@ -12,9 +12,9 @@ created: 1660898704360
 
 ## Summary
 
-{{fm.desc}}
+{{fm.desc}}.
 
-## Details
+## Use Case
 
 The core features of Dendron are built to make managing and navigating through notes easily. 
 While external resources can be linked with the Markdown link syntax, it is hard to navigate and manage them in a straightforward manner.
@@ -28,19 +28,19 @@ By creating a note that acts as a proxy to an external resource, you can:
 - open the proxy notes and check their [[backlinks|dendron.topic.links.backlink]]
 - and [[refactor|dendron.topic.refactoring]] them
 
-### Getting Started
+## Getting Started
 
-#### Creating a proxy note
+### Creating a proxy note
 Proxy notes are simply regular notes that have the frontmatter property `uri`.
 
 Create a note and add the frontmatter property `uri`, and set its value to be a link to an external resource.
 
-#### Opening a proxy note
+### Opening a proxy note
 When a note is recognized as a proxy note, Dendron will attempt to open the link specified in the `uri` frontmatter directly using your system's default application for that resource type when you use the [[dendron.ref.commands.goto]] command.
 
 To open the note itself in VSCode, use the [[Go to Note|dendron://dendron.dendron-site/dendron.topic.navigation#go-to-note]] command instead.
 
-### Example
+## Example
 
 This is a hypothetical example of how to use proxy notes to manage your web browser bookmarks.
 

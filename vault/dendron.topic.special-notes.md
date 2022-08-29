@@ -2,7 +2,7 @@
 id: 5c213aa6-e4ba-49e8-85c5-1bdcb33ce202
 title: Special Notes
 desc: ''
-updated: 1661500585942
+updated: 1661752577139
 created: 1595004457029
 config:
     global:
@@ -17,16 +17,13 @@ Dendron comes with built-in special notes that could be used out of the box for 
 
 ### Start writing notes instantly
 
-With special notes, you can choose a specific type of note that fits your use case and start writing notes instantly without thinking about the format or structure.
+Special notes are well structured and automatically organized.
+This means you can start writing and stop worrying about where your notes should go.
 
-### Easily create and open frequently used notes
+### Built-in Best Practices
 
-Each special note comes with dedicated commands that help you navigate / create and manage them.
-They could also be creating using lookup by applying [[lookup modifiers|dendron.topic.lookup.modifiers]]
-
-### Expand based on your use case
-
-Special notes have predefined [[dendron.topic.schema]] and [[dendron.topic.templates]] applied to them out of the box, and you can freely modify them as your use case evolves over time.
+Special notes come with built-in [[schemas|dendron.topic.schema]] and [[templates|dendron.topic.templates]] applied to them out of the box.
+You can use this as-is, or customize them for your own needs.
 
 ## Getting Started
 

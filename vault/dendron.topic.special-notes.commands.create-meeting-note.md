@@ -1,14 +1,14 @@
 ---
 id: 7q3wyp0dcvn2qhfnb4vdnlv
 title: "Dendron: Create Meeting Note"
-desc: Create a meeting note.
-updated: 1661498479781
+desc: Create a meeting note
+updated: 1661750009204
 created: 1659483968504
 ---
 
 ## Summary
 
-{{fm.desc}}
+{{fm.desc}}.
 
 ## Keybindings
 none

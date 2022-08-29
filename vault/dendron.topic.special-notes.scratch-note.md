@@ -1,16 +1,16 @@
 ---
 id: 7cm2e0qrn0t29q9huszerqo
 title: Scratch Note
-desc: 'Scratch notes are self contained notes that are meant to be used as scratch pads.'
-updated: 1661497492243
+desc: 'Scratch notes are self contained notes that are meant to be used as scratch pads'
+updated: 1661749919066
 created: 1660898700748
 ---
 
 ## Summary
 
-{{fm.desc}}
+{{fm.desc}}.
 
-## Details
+## Use Case
 
 Scratch notes are analogous to scratch pads in real life.
 They are meant for quick notes that you may come later to move to a more suitable place or for one-off memos that are useful in that specific moment.
@@ -21,7 +21,7 @@ If the information needs to persist, you can use various [[dendron.topic.refacto
 
 If the information has served its purpose and is no longer needed, you can archive them or delete them.
 
-### Getting Started
+## Getting Started
 
 ![scratch note](https://cdn.loom.com/sessions/thumbnails/2fd3042119124df8bb4592d8ffe6d708-with-play.gif)
 
