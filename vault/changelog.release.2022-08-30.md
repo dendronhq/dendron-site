@@ -2,7 +2,7 @@
 id: 2fbbket7taz53ocm9o1s7ht
 title: 0.110
 desc: ''
-updated: 1661788283457
+updated: 1661810802539
 created: 1661784579096
 ---
 
@@ -38,12 +38,6 @@ Video from and notes from our last talk now available - [[August Greenhouse: Mar
 
 Are you interested in speaking at our next greenhouse? If so, fill out the [Greenhouse Proposal Form](https://airtable.com/shrHMMl1NwefpM689?prefill_SurveyName=GreenhouseProposal&hide_SurveyName=true) to apply for a slot!
 
-
-### Published Sites Highlights
-Publishing is one of the core functionalities of Dendron. Here's a list of some sites published by our users during their knowledge management journey:
-1. https://mjvolk3.github.io/Mjvolk3/notes/14eo221bhkk4w9lk1h9rjpd/
-
-If you would be interested in being featured in our weekly release notes and newsletter, drop us a message on the [`#publishing` channel](https://discordapp.com/channels/717965437182410783/940064438910865460) and tag @DendronTeam.
 
 ### Starboard and TIL Highlights
 
