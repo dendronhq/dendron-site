@@ -2,7 +2,7 @@
 id: 6DZiBObwhZNYRjnokQ422
 title: Private and shared vaults
 desc: Using Dendron for private and shared use
-updated: 1639246566164
+updated: 1661572373055
 created: 1638820992694
 ---
 
@@ -54,7 +54,7 @@ Create a blank worspace that will have [[multiple vaults|dendron.topic.multi-vau
 
 Alternatively, you can use this template from the [[Teams page|dendron.topic.teams]]:
 
-![[dendron.topic.teams#workspace:#*]]
+![[dendron://dendron.dendron-site/dendron.topic.teams.ref.public-private-workspace]]
 
 
 ## Acknowledgement

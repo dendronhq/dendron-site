@@ -2,25 +2,27 @@
 id: 31cb97b5-4ac7-48dd-abcf-107ce78ea8ae
 title: Quickstart
 desc: ''
-updated: 1635531184427
+updated: 1661572715686
 created: 1617296496891
 ---
 
+This guide will go over setting up the workspace for a team of engineers. 
 
-This guide will cover setting up the layout describe above. 
+## Steps when using Github
+1. Go to [eng-workspace-starter](https://github.com/dendronhq/eng-workspace-starter) and click [use this template](https://github.com/dendronhq/eng-workspace-starter/generate) to create your own copy of the repo.
+2. Share the repo with team members and make sure they have permission to read/write to this repository
 
-1. Run [[Initialize Workspace|dendron.ref.commands#initialize-workspace]] to create a new company workspace
-1. Run [[Vault Add|dendron.ref.commands#vault-add]] and a new local vault named `org-private` 
-1. Run [[Vault Remove|dendron.ref.commands#vault-remove]] to remove the default `vault` that got created when you created the workspace
-1. For every vault you created, create a git repository and convert it to a remote vault by following the instructions [[here|dendron.guides.cook#converting-a-local-vault-to-a-remote-vault]]. When your done, the vaults section of your `dendron.yml` should look something like the below.
-  ```yml
-  vaults:
-      -
-          fsPath: dendron
-          remote:
-              type: git
-              url: 'git@github.com:dendronhq/dendron.git'
+
+## Steps when using another git provider
+1. Clone [eng-workspace-starter](https://github.com/dendronhq/eng-workspace-starter) locally 
+  ```sh
+  git clone https://github.com/dendronhq/eng-workspace-starter.git
   ```
-1. Create a repo for your workspace and push this as well (eg. `workspace-{company}`)
-1. For each user in your team, have them clone the workspace repo. They can run [[Change Workspace|dendron.ref.commands#change-workspace]] with the path to the workspace to initialize it. Dendron will initiate all remote vaults during the process.
-1. (Optional): Add the [schema vault](https://github.com/dendronhq/schema-library/tree/main/vault) as a [[remote vault|dendron.topic.vaults#remote]] to get access to some useful schemas
+  1. Remove the existing origin and add your own
+  ```sh
+  git remote remove orgiin
+  git remote add origin {YOUR_ORIGIN}
+  git branch -M main
+  git push -u origin main
+  ```
+2. Share the repo with team members and make sure they have permission to read/write to this repository
