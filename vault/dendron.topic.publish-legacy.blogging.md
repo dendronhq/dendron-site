@@ -2,7 +2,7 @@
 id: 6d21fd60-e564-4a55-b4c0-d2586293b908
 title: Blogging
 desc: ''
-updated: 1661757922445
+updated: 1661758028863
 created: 1614547017272
 ---
 
@@ -13,7 +13,7 @@ You can use Dendron for blogging. To do so, add [[collection specific options|de
 
 ### Using Collections
 
-You can use the following frontmatter:
+You can use the following frontmatter:l
 
 ```yml
 has_collection: true
