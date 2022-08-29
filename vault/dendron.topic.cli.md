@@ -2,7 +2,7 @@
 id: RjBkTbGuKCXJNuE4dyV6G
 title: CLI
 desc: ''
-updated: 1656018298115
+updated: 1661797238811
 created: 1636500007852
 ---
 
@@ -34,14 +34,13 @@ There are several approaches that can be taken to install Node.js to your deskto
 
 ### Local directory
 
-> Dendron recommends installing `dendron-cli` in the local directory in order to avoid conflicts at the global level, and to keep Dendron versions isolated to each workspace. This is also beneficial for CI/CD systems, sharing repositories, and publishing your notes since `package-lock.json` or `yarn.lock` can ensure all users/systems are using the same `dendron-cli`.
+If dendron-cli is installed in the local directory via npm
+- Creates a package.json and package-lock.json
+- dendron-cli is only accessible in the directory this is ran in
+- dendron commands must be run like: `npx dendron <cmd>`
+- This is best practice for repos doing publishing, etc.
 
 ```sh
-# If dendron-cli is installed in the local directory via npm
-# - Creates a package.json and package-lock.json
-# - dendron-cli is only accessible in the directory this is ran in
-# - dendron commands must be run like: `npx dendron <cmd>`
-# - This is best practice for repos doing publishing, etc.
 npm install @dendronhq/dendron-cli@latest
 ```
 

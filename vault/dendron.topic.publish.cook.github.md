@@ -2,7 +2,7 @@
 id: yg3EL1x9fEe4NMqxUC3jP
 title: GitHub Pages
 desc: ''
-updated: 1649352082787
+updated: 1661799263128
 created: 1631132196609
 ---
 
@@ -14,16 +14,18 @@ You can publish your notes using Dendron Next.js Publishing and GitHub Pages.
 
 Before continuing: **we do not recommend this path for publishing.** If possible, visit [[GitHub Pages publishing with GitHub Actions|dendron://dendron.dendron-site/dendron.topic.publish.cook.github-action]] for generating and publishing your website, instead!
 
-![[dendron://dendron.dendron-site/dendron.topic.publish.cook.github-action#why,1:#*]]
-
 ## Prerequisites 
 
-![[dendron://dendron.dendron-site/dendron.topic.git#prerequisites,1:#*]]
+- Install [git](https://git-scm.com/download)
+- Initializes a npm repo at the root of your workspace (where `dendron.yml` is located)
+```sh
+npm init -y
+```
+- Install [[dendron-cli|dendron://dendron.dendron-site/dendron.topic.cli#prerequisites]]
+```sh
+npm install @dendronhq/dendron-cli@latest
+```
 
-- Install [[Dendron CLI Prerequisites|dendron://dendron.dendron-site/dendron.topic.cli#prerequisites]]
-- You have [[Dendron CLI|dendron.ref.cli]] installed locally (version `0.84.0` or greater)
-
-![[dendron.topic.cli#local-directory,1:#*]]
 
 ## Example Deployments
 You can see deployed examples of these instructions in the following repositories.
@@ -60,7 +62,7 @@ Select the docs folder and click save.
 ### Setup Dendron Next.js Publishing
 
 1. Navigate to the root of your workspace (directory with `dendron.yml`) 
-1. Initialize Dendron Next.js publishing
+1. Initialize publishing
 ![[dendron://dendron.dendron-site/dendron.topic.publish.cook.common#setup-notes,1:#*]]
 
 
@@ -77,7 +79,7 @@ publishing:
     siteUrl: {WEBSITE_URL}
 ```
 
-#### GitHub Pages URLs
+### GitHub Pages URLs
 
 Your `WEBSITE_URL` for GitHub Pages will be in the following format: `https://{GITHUB_USERNAME}.github.io/{REPO_NAME}/`.
 
@@ -87,14 +89,8 @@ Your `WEBSITE_URL` for GitHub Pages will be in the following format: `https://{G
     - if your `REPO_NAME` is anything else 
         - set `siteUrl` to `https://{GITHUB_USERNAME}.github.io` in `dendron.yml`
         - set `assetsPrefix`to `/REPO_NAME` in `dendron.yml`
-    <!-- - if you want to set a custom cname
-        - set `SITE_URL` to `https://{YOUR_CNAME}` -->
 
-#### Custom Domain Names
-
-![[dendron://dendron.dendron-site/dendron.topic.publish.cook.github-action#custom-domain-names,1:#*]]
-
-![[dendron://dendron.dendron-site/dendron.topic.publish.cook.github-action#siteurl-with-custom-domains,1:#*]]
+- NOTE: if you want to publish with a custom domain, see [[dendron://dendron.dendron-site/dendron.topic.publish.cook.github-with-custom-domain]]
 
 #### Examples
 - publishing the repo named `kevinslin.github.io`
@@ -141,7 +137,7 @@ You can see the status of your page by going clicking GitHub pages in your GitHu
 
 > Since this is your first deployment, it might take a minute before you page shows up.
 
-![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/kevinslin_dendron-next-test.png)
+![Github First Deployment](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/kevinslin_dendron-next-test.png)
 
 ## Updating dendron and published content
 
