@@ -1,10 +1,9 @@
 ---
 id: r6e3yl55oa3bpvyhjq3wkt2
-title: Sqlite
+title: SQLite
 desc: ''
-updated: 1661190995148
+updated: 1661814351537
 created: 1661190786019
-published: false
 ---
 
 ## Summary
@@ -12,6 +11,8 @@ published: false
 This is documentation for running Dendron using sqlite as the metadata backend. It is currently a #stage.germ feature
 
 ## Details
+
+> WARNING: we currently do not support windows for the SQLite metadata backend
 
 Switching to using sqlite as the metadatacan result in 30x speed up on lookup queries (50k notes, queries complete in ~5ms vs +150ms). The search is based off the SQLite's built-in [FTS5 extension](https://www.sqlite.org/fts5.html).
 
