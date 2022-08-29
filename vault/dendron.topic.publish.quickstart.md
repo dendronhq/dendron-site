@@ -1,8 +1,8 @@
 ---
 id: e5st4LFLtIwwbQmC6JBaF
-title: Quickstart
+title: Publishing Quickstart
 desc: ''
-updated: 1651792989967
+updated: 1661744321114
 created: 1631033401707
 ---
 
@@ -12,29 +12,19 @@ This guide walks you through publishing with Next.js.
 
 ## Prerequisites
 1. Install the latest version of the [[Dendron CLI|dendron://dendron.dendron-site/dendron.ref.cli]]
-
 1. Make sure you have git installed
-
-1. Install yarn (optional)
-
-- NOTE: we use yarn to manage all our js commands. npm works as well if you'd rather use it instead. All code examples will use `yarn`
-
-```sh
-npm install -g yarn
-```
 
 ## Steps
 
 ### Setup
-Run the following commands at the root of your Dendron [[workspace|dendron.topic.workspace]]
+Run the following commands at the root of your Dendron [[workspace|dendron.topic.workspace]] (the folder where `dendron.yml` is in)
 
 ![[dendron.topic.publish.cook.common#setup-notes,1:#*]]
 
 ### Preview
-1. Build and preview
-    ```sh
-    npx dendron publish dev
-    ```
+
+![[dendron://dendron.dendron-site/dendron.topic.publish.cook.common#preview-notes]]
+
 ### Export
 
 ![[dendron.topic.publish.cook.common#export-notes,1:#*]]
