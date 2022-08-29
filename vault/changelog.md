@@ -2,10 +2,31 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1661268868005
+updated: 1661788477187
 created: 1601508213606
 nav_order: 2
 ---
+## 0.110.0
+
+
+### Features
+
+- feat(workspace): introduce sqlite as a plugabble metadata store (#3401) @kevin [docs](https://github.com/dendronhq/dendron-site/blob/dev/vault/dendron.topic.workspace.sqlite.md#L9:L9)
+- feat(workspace): copy note url command for codespaces (#3411) @joshi ([[docs|dendron://dendron.dendron-site/dendron.topic.vscode.web#copy-note-url]])
+
+### Enhancements
+- enhance(cli): New write notes CLI command (#3392) @tuling ([[docs|dendron://dendron.dendron-site/dendron.topic.notes.cli.write]])
+-  enhance(lookup): fill in current hierarchy for Move Header (#3430) [Sean Li](https://github.com/saifahn)
+
+
+### Fix
+
+- fix(lookup): allow lookup accept for existing invalid hierarchy (#3421) @hikchoi
+- fix(workspace): case insensitive tree view sorting (#3420) @jonathan
+- fix(workspace): updated visibility of copy note url command in codespaces (#3447) @joshi
+- fix(workspace): sqlite store properly update from cache when encountering existing notes (#3451) @kevin
+- fix(views): tree view init problem on web (#3459) @jonathan
+
 ## 0.109.0
 
 
@@ -1216,3 +1237,5 @@ dendron dev run_migration --migrationVersion 0.64.1
 ### Bug Fixes
 - fix(workspace): Dendron now sets minimum VS Code version to 1.58
 - fix(publish): update 11ty version
+
+
