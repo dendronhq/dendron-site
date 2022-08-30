@@ -2,7 +2,7 @@
 id: 2fbbket7taz53ocm9o1s7ht
 title: 0.110
 desc: ''
-updated: 1661870797465
+updated: 1661870988101
 created: 1661784579096
 ---
 
@@ -30,7 +30,6 @@ As a refresher, Dendron currently creates a [[cache|dendron://dendron.dendron-si
 - fix(lookup): allow lookup accept for existing invalid hierarchy (#3421) @hikchoi
 - fix(workspace): case insensitive tree view sorting (#3420) @jonathan
 - fix(workspace): updated visibility of copy note url command in codespaces (#3447) @joshi
-- fix(workspace): sqlite store properly update from cache when encountering existing notes (#3451) @kevin
 - fix(views): tree view init problem on web (#3459) @jonathan
 
 
@@ -45,7 +44,6 @@ As a refresher, Dendron currently creates a [[cache|dendron://dendron.dendron-si
 Video from and notes from our last talk now available - [[August Greenhouse: Markdown Language Server and Progressive Summarization for Developers|dendron://dendron.dendron-site/community.events.greenhouse.2022-08-26-markdown-language-server-and-progressive-summarization]]
 
 Are you interested in speaking at our next greenhouse? If so, fill out the [Greenhouse Proposal Form](https://airtable.com/shrHMMl1NwefpM689?prefill_SurveyName=GreenhouseProposal&hide_SurveyName=true) to apply for a slot!
-
 
 ### Starboard and TIL Highlights
 
