@@ -2,7 +2,7 @@
 id: 6d21fd60-e564-4a55-b4c0-d2586293b908
 title: Blogging
 desc: ''
-updated: 1661524274573
+updated: 1661758948065
 created: 1614547017272
 ---
 
@@ -29,7 +29,7 @@ blog.thoughts.2021-02-03-bar.md
 ```
 
 ### Using Journal Notes
-You can also designate a journal hierarchy as a collection. The following frontmatter is responsible for the page [here](https://www.kevinslin.com/notes/b9bc4aa1-4369-446d-91a9-13d4f2a4b8e5.html)
+You can also designate a journal hierarchy as a collection. 
 
 ```yml
 has_collection: true
