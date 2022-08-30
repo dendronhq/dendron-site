@@ -2,7 +2,7 @@
 id: 2fbbket7taz53ocm9o1s7ht
 title: 0.110
 desc: ''
-updated: 1661870988101
+updated: 1661871030849
 created: 1661784579096
 ---
 
@@ -45,6 +45,7 @@ Video from and notes from our last talk now available - [[August Greenhouse: Mar
 
 Are you interested in speaking at our next greenhouse? If so, fill out the [Greenhouse Proposal Form](https://airtable.com/shrHMMl1NwefpM689?prefill_SurveyName=GreenhouseProposal&hide_SurveyName=true) to apply for a slot!
 
+
 ### Starboard and TIL Highlights
 
 > These are highlights from the [[Dendron Discord|dendron://dendron.dendron-site/community.discord.channels]] `#starboard` and `#today-i-learned` channels.
@@ -53,11 +54,13 @@ Are you interested in speaking at our next greenhouse? If so, fill out the [Gree
 - 💡 `kevins8#0590` shared his learning that git pathspec can be used to filter out files during git add/diff/etc
 - ⭐ `michaelvolk#0415` shared a link to his thesis in Dendron: https://mjvolk3.github.io/Mjvolk3/notes/14eo221bhkk4w9lk1h9rjpd/
 
+
 ### Dendron Reading Series
 
 This week's entry in the [[Dendron Reading Series|dendron://dendron.dendron-site/community.events.reading-series]].
 
 [[A plain-text file format for todos and check lists|dendron://dendron.dendron-site/community.events.reading-series.2022.08.30]]
+
 
 ### Event Reminders
 
