@@ -120,6 +120,6 @@ publishing:
         editLinkText: Edit this page on GitHub
         editBranch: master
         editViewMode: tree
-        editRepository: https://github.com/dendronhq/cascadia-js-2022
+        editRepository: https://github.com/dendronhq/dendron-site
     enablePrettyLinks: true
     enableTaskNotes: true
