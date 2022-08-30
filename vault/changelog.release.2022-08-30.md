@@ -2,7 +2,7 @@
 id: 2fbbket7taz53ocm9o1s7ht
 title: 0.110
 desc: ''
-updated: 1661871030849
+updated: 1661872951992
 created: 1661784579096
 ---
 
@@ -61,7 +61,13 @@ This week's entry in the [[Dendron Reading Series|dendron://dendron.dendron-site
 
 [[A plain-text file format for todos and check lists|dendron://dendron.dendron-site/community.events.reading-series.2022.08.30]]
 
+<a href=“{url}”> {title} </a>
 
+[[ \[x] it! – A plain-text file format for todos and check lists|dendron://dendron.dendron-site/community.events.reading-series.2022.08.30]] 
+
+\[\[\[x]it!A plain-text file format for todos and check lists|dendron://dendron.dendron-site/community.events.reading-series.2022.08.30]]
+
+[[\[x]it! – A plain-text file format for todos and check lists|dendron://dendron.dendron-site/community.events.reading-series.2022.08.30]]
 ### Event Reminders
 
 - **Greenhouse Talks:** Visit the [[Greenhouse Talks|dendron://dendron.dendron-site/community.events.greenhouse]] for notes from previous sessions.
