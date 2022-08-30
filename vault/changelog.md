@@ -2,7 +2,7 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1661868315264
+updated: 1661869827605
 created: 1601508213606
 nav_order: 2
 ---
@@ -19,7 +19,6 @@ nav_order: 2
 
 - enhance(cli): dendron note create command for CLI (#3392) @tuling ([[docs|dendron://dendron.dendron-site/dendron.topic.notes.cli.write]])
 - enhance(lookup): fill in current hierarchy for Move Header (#3430) [Sean Li](https://github.com/saifahn)
-
 
 ### Fix
 
