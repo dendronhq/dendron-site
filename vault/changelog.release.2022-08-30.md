@@ -2,15 +2,12 @@
 id: 2fbbket7taz53ocm9o1s7ht
 title: 0.110
 desc: ''
-updated: 1661873125350
+updated: 1661874163649
 created: 1661784579096
 ---
 
 Dendron 0.110 has sprouted  🌱
 August 30, 2022
-
-
-## Highlights
 
 **SQLite for Metadata Support**: Dendron now supports using SQLite as an backend for metadata.
 
@@ -20,17 +17,17 @@ As a refresher, Dendron currently creates a [[cache|dendron://dendron.dendron-si
 
 ## Highlights
 
-- feat(workspace): introduce sqlite as a plugabble metadata store (#3401) @kevin ([[docs|dendron://dendron.dendron-site/dendron.topic.workspace.sqlite]])
+- feat(workspace): introduce sqlite as a plugabble metadata store ([[docs|dendron://dendron.dendron-site/dendron.topic.workspace.sqlite]])
 
 ## Everything Else
 
-- feat(workspace): copy note url command for codespaces (#3411) @joshi ([[docs|dendron://dendron.dendron-site/dendron.topic.vscode.web#copy-note-url]])
-- enhance(cli): New write notes CLI command (#3392) @tuling ([[docs|dendron://dendron.dendron-site/dendron.topic.notes.cli.write]])
-- enhance(lookup): fill in current hierarchy for Move Header (#3430) [Sean Li](https://github.com/saifahn)
-- fix(lookup): allow lookup accept for existing invalid hierarchy (#3421) @hikchoi
-- fix(workspace): case insensitive tree view sorting (#3420) @jonathan
-- fix(workspace): updated visibility of copy note url command in codespaces (#3447) @joshi
-- fix(views): tree view init problem on web (#3459) @jonathan
+- feat(workspace): copy note url command for codespaces ([[docs|dendron://dendron.dendron-site/dendron.topic.vscode.web#copy-note-url]])
+- enhance(cli): New write notes CLI command ([[docs|dendron://dendron.dendron-site/dendron.topic.notes.cli.write]])
+- enhance(lookup): fill in current hierarchy for Move Header
+- fix(lookup): allow lookup accept for existing invalid hierarchy
+- fix(workspace): case insensitive tree view sorting
+- fix(workspace): updated visibility of copy note url command in codespaces
+- fix(views): tree view init problem on web
 
 
 ## Community
