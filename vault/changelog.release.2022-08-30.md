@@ -2,17 +2,13 @@
 id: 2fbbket7taz53ocm9o1s7ht
 title: 0.110
 desc: ''
-updated: 1661876308117
+updated: 1661877533849
 created: 1661784579096
 ---
 
 Dendron 0.110 has sprouted  🌱
 August 30, 2022
 
-
-## Highlights
-
-- feat(workspace): introduce sqlite as a plugabble metadata store ([[docs|dendron://dendron.dendron-site/dendron.topic.workspace.sqlite]])
 
 ## Everything Else
 
@@ -51,7 +47,8 @@ Are you interested in speaking at our next greenhouse? If so, fill out the [Gree
 
 This week's entry in the [[Dendron Reading Series|dendron://dendron.dendron-site/community.events.reading-series]].
 
-[[dendron://dendron.dendron-site/community.events.reading-series.2022.08.30]]
+[[【x】it! – A plain-text file format for todos and check lists|dendron://dendron.dendron-site/community.events.reading-series.2022.08.30]]
+
 
 ### Event Reminders
 
