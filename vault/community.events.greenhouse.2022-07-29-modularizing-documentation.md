@@ -3,7 +3,7 @@ id: k5zg3zk1ffmsrmojnvn8uxw
 title: >-
     Seeding Digital Gardens and Connecting Second Brains
 desc: 'Greenhouse Talk on modularizing public documentation, ebooks, and other web content for Dendron consumption.'
-updated: 1659284818559
+updated: 1661824704713
 created: 1659284597998
 ---
 
@@ -13,7 +13,7 @@ created: 1659284597998
 
 ## Video
 
-<iframe width="1280" height="720" src="https://www.youtube.com/embed/IQusAQGxTyg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="640" height="360" src="https://www.youtube.com/embed/IQusAQGxTyg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Details
 
