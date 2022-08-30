@@ -2,7 +2,7 @@
 id: 2fbbket7taz53ocm9o1s7ht
 title: 0.110
 desc: ''
-updated: 1661810898365
+updated: 1661869628175
 created: 1661784579096
 ---
 
@@ -12,13 +12,21 @@ August 30, 2022
 
 ## Highlights
 
+**SQLite for Metadata Support**: Dendron now supports using SQLite as an backend for metadata.
+
+As a refresher, Dendron currently creates a [[cache|dendron://dendron.dendron-site/dendron._ref.caching]] of your workspace metadata as a local json file. With this change, you can opt-in to use sqlite as the backend cache.
+
+- More information: [[Sqlite|dendron://dendron.dendron-site/dendron.topic.workspace.sqlite#details]]
+
+## Highlights
+
 - feat(workspace): introduce sqlite as a plugabble metadata store (#3401) @kevin [docs](https://github.com/dendronhq/dendron-site/blob/dev/vault/dendron.topic.workspace.sqlite.md#L9:L9)
 
 ## Everything Else
 
 - feat(workspace): copy note url command for codespaces (#3411) @joshi ([[docs|dendron://dendron.dendron-site/dendron.topic.vscode.web#copy-note-url]])
 - enhance(cli): New write notes CLI command (#3392) @tuling ([[docs|dendron://dendron.dendron-site/dendron.topic.notes.cli.write]])
--  enhance(lookup): fill in current hierarchy for Move Header (#3430) [Sean Li](https://github.com/saifahn)
+- enhance(lookup): fill in current hierarchy for Move Header (#3430) [Sean Li](https://github.com/saifahn)
 - fix(lookup): allow lookup accept for existing invalid hierarchy (#3421) @hikchoi
 - fix(workspace): case insensitive tree view sorting (#3420) @jonathan
 - fix(workspace): updated visibility of copy note url command in codespaces (#3447) @joshi
@@ -51,6 +59,8 @@ Are you interested in speaking at our next greenhouse? If so, fill out the [Gree
 
 This week's entry in the [[Dendron Reading Series|dendron://dendron.dendron-site/community.events.reading-series]].
 
+[[dendron://dendron.dendron-site/community.events.reading-series.2022.08.30]]
+
 ### Event Reminders
 
 - **Greenhouse Talks:** Visit the [[Greenhouse Talks|dendron://dendron.dendron-site/community.events.greenhouse]] for notes from previous sessions.
@@ -69,6 +79,24 @@ This week's entry in the [[Dendron Reading Series|dendron://dendron.dendron-site
 
 A big **thanks** to the following gardeners that brought up issues, contributions, and fixes to this release :man_farmer: :woman_farmer: 
 Visit [[Discord Roles|dendron://dendron.dendron-site/community.discord.roles]] for more information.
+
+- [Wilhelm Payne](https://github.com/wbpayne22902)
+  - #role.bugcatcher
+  - [ENOENT error when opening repository from GitHub Repositories Extension with Dendron installed](https://github.com/dendronhq/dendron/issues/3449)
+  
+- [Yttrium Zhao](https://github.com/Alecton4)
+  - #role.bugcatcher
+  - [Unable to Convert Self-contained Local Vault to Remote Vault](https://github.com/dendronhq/dendron/issues/3463)
+
+- [Sean Li](https://github.com/saifahn)
+  - #role.horticulturalist
+  - [enhance(plugin-core): fill in current hierarchy for Move Header](https://github.com/dendronhq/dendron/pull/3430)
+
+- [Carlos Cámara](https://github.com/ccamara) `@ccamara#5131`
+  - #role.bugcatcher
+  - [`Dendron: Migrate to self contained vault` does not migrate the vault correctly](https://github.com/dendronhq/dendron/issues/3466)
+  - [Add instructions for moving multiple notes](https://github.com/dendronhq/dendron-site/pull/629)
+  - [Remove broken link](https://github.com/dendronhq/dendron-site/pull/630)
 
 ## Changelog
 ![[changelog#01100,1:#01090]]
