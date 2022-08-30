@@ -2,7 +2,7 @@
 id: 2fbbket7taz53ocm9o1s7ht
 title: 0.110
 desc: ''
-updated: 1661869628175
+updated: 1661870797465
 created: 1661784579096
 ---
 
@@ -20,7 +20,7 @@ As a refresher, Dendron currently creates a [[cache|dendron://dendron.dendron-si
 
 ## Highlights
 
-- feat(workspace): introduce sqlite as a plugabble metadata store (#3401) @kevin [docs](https://github.com/dendronhq/dendron-site/blob/dev/vault/dendron.topic.workspace.sqlite.md#L9:L9)
+- feat(workspace): introduce sqlite as a plugabble metadata store (#3401) @kevin ([[docs|dendron://dendron.dendron-site/dendron.topic.workspace.sqlite]])
 
 ## Everything Else
 
@@ -59,7 +59,7 @@ Are you interested in speaking at our next greenhouse? If so, fill out the [Gree
 
 This week's entry in the [[Dendron Reading Series|dendron://dendron.dendron-site/community.events.reading-series]].
 
-[[dendron://dendron.dendron-site/community.events.reading-series.2022.08.30]]
+[[A plain-text file format for todos and check lists|dendron://dendron.dendron-site/community.events.reading-series.2022.08.30]]
 
 ### Event Reminders
 
