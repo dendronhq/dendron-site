@@ -2,7 +2,7 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1661874272928
+updated: 1661875561967
 created: 1601508213606
 nav_order: 2
 ---
@@ -11,8 +11,6 @@ nav_order: 2
 
 ### Features
 
-- feat(workspace): introduce sqlite as a plugabble metadata store (#3401) @kevin ([[docs|dendron://dendron.dendron-site/dendron.topic.workspace.sqlite]])
-  - NOTE: currently does not work for Windows
 - feat(workspace): copy note url command for codespaces (#3411) @joshi ([[docs|dendron://dendron.dendron-site/dendron.topic.vscode.web#copy-note-url]])
 
 ### Enhancements

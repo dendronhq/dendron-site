@@ -2,18 +2,13 @@
 id: 2fbbket7taz53ocm9o1s7ht
 title: 0.110
 desc: ''
-updated: 1661874163649
+updated: 1661876308117
 created: 1661784579096
 ---
 
 Dendron 0.110 has sprouted  🌱
 August 30, 2022
 
-**SQLite for Metadata Support**: Dendron now supports using SQLite as an backend for metadata.
-
-As a refresher, Dendron currently creates a [[cache|dendron://dendron.dendron-site/dendron._ref.caching]] of your workspace metadata as a local json file. With this change, you can opt-in to use sqlite as the backend cache.
-
-- More information: [[Sqlite|dendron://dendron.dendron-site/dendron.topic.workspace.sqlite#details]]
 
 ## Highlights
 
@@ -56,8 +51,7 @@ Are you interested in speaking at our next greenhouse? If so, fill out the [Gree
 
 This week's entry in the [[Dendron Reading Series|dendron://dendron.dendron-site/community.events.reading-series]].
 
-<a href=“{dendron://dendron.dendron-site/community.events.reading-series.2022.08.30}”> {[x]it! – A plain-text file format for todos and check lists} </a>
-
+[[dendron://dendron.dendron-site/community.events.reading-series.2022.08.30]]
 
 ### Event Reminders
 
