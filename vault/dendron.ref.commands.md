@@ -28,6 +28,13 @@ nav_order: 3.1
 
 Open the GitHub repository (if it exists) of the current note. If you have a [[multi vault|dendron.topic.multi-vault]] workspace with different git repositories, this command will
 
+### Copy Codespace URL
+
+- shortcuts: none
+
+Copy the Codespace URL (if it exists) of the current note.
+<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/adbedb82743440a688c3c52f940e4699" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
 ### Create Daily Journal Note
 
 -   shortcuts:
