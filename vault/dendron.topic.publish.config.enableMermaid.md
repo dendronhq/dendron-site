@@ -2,8 +2,9 @@
 id: wT7zkio7u4hnQc1vk5Dpg
 title: enableMermaid
 desc: 'Enable rendering Mermaid diagrams in published notes.'
-updated: 1645530416713
+updated: 1661977585631
 created: 1645172053639
+nav_exclude: true
 ---
 
 - type: `boolean`
