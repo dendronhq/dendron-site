@@ -2,7 +2,7 @@
 id: 3abd00eb-1c1e-4253-aaf5-dcbe20c21850
 title: Early Seed
 desc: ''
-updated: 1661534610809
+updated: 1662056047038
 created: 1604539200840
 published: true
 nav_exclude: true
@@ -10,21 +10,17 @@ nav_exclude: true
 
 > This page documents the features, enhancements, and fixes in the latest early seed release. The early seed is a preview of the weekly release, so you'll see the next minor version when installing (ex. `0.78.0` instead of `0.77.1`). When dendron ships the general release, the currently installed extension will automatically be updated (but will still have same version).
 
-## 0.110.0
-August 26, 2022
+## 0.111.0
+September 02, 2022
 
-Dendron 0.110 has sprouted 🌱
-
-### Features
-- feat(workspace): introduce sqlite as a plugabble metadata store (#3401) @kevin [docs](https://github.com/dendronhq/dendron-site/blob/dev/vault/dendron.topic.workspace.sqlite.md#L9:L9)
-- feat(workspace): copy note url command for codespaces (#3411) @joshi ([[docs|dendron://dendron.dendron-site/dendron.topic.vscode.web#copy-note-url]])
+Dendron 0.111 has sprouted 🌱
 
 ### Enhancements
-- enhance(cli): New write notes CLI command (#3392) @tuling ([[docs|dendron://dendron.dendron-site/dendron.topic.notes.cli.write]])
+- enhance(view): context menu for tree view (#3442) @joshi ([[docs|dendron://dendron.dendron-site/dendron.topic.sidebar.tree-view#context-menu]])
+- enhance(structure): new api for onCreate of note traits (#3450) @hayata ([[docs|dendron://dendron.dendron-site/dendron.topic.traits.api#return]])
+- enhance(view): added settings UI tip (#3470) @joshi
 
 ### Fixes
-- fix(lookup): allow lookup accept for existing invalid hierarchy (#3421) @hikchoi
-- fix(workspace): case insensitive tree view sorting (#3420) @jonathan
-- fix(workspace): updated visibility of copy note url command in codespaces (#3447) @joshi
-- fix(workspace): sqlite store properly update from cache when encountering existing notes (#3451) @kevin
-
+- fix(workspace): diagnostics regression (#3424) @hayata
+- fix(sync): nextjs export pod to fetch latest dendron config (#3455) @joshi
+- fix(workspace): noisy warnings in engine startup (#3452) @kevin
