@@ -55,7 +55,7 @@ created: 1646092796099
 
 - [[Bullet Journaling|dendron://dendron.dendron-site/dendron.guides.workflows.bullet-journal]]
 - [[Mobile Workflows|dendron://dendron.dendron-site/dendron.guides.workflows.mobile]]
-- [[Daily Journal Note|dendron://dendron.dendron-site/dendron.topic.daily-journal-note]]
+- [[Daily Journal Note|dendron://dendron.dendron-site/dendron.topic.special-notes.daily-journal-note]]
 - [[Block Anchors / References|dendron://dendron.dendron-site/dendron.topic.note-reference#block-anchor]]
 - [[Visualize Task Notes with Airtable|dendron://dendron.dendron-site/dendron.topic.pod-v2.tutorial.airtable-task-notes]]
 - [[Making Your First Schema with Journal Templates|dendron://dendron.dendron-site/dendron.topic.schema.tutorial.first-schema]]

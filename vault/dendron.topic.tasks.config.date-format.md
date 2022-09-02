@@ -1,8 +1,8 @@
 ---
 id: k5s3fpricnca8vk5zhvgsf6
 title: dateFormat
-desc: Fromat for date of task note
-updated: 1657226611619
+desc: Date format to be used for journal notes
+updated: 1662093389847
 created: 1657226526651
 ---
 
@@ -14,4 +14,4 @@ created: 1657226526651
 
 {{fm.desc}}
 
-See [[dendron.topic.special-notes#defaultnodetypedateformat]] for an explanation of how it works.
+See [luxon style formatting](https://moment.github.io/luxon/#/formatting)

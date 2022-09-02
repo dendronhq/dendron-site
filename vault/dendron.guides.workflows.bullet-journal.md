@@ -4,7 +4,6 @@ title: Bullet Journaling
 desc: ''
 updated: 1640381834426
 created: 1601684760121
-stub: false
 ---
 Bullet journalling is a way of quickly getting your thoughts down for the day. In many ways, its more akin to a GTD and task management than traditional journalism. 
 
@@ -17,7 +16,7 @@ Bullet journalling is a way of quickly getting your thoughts down for the day. I
 
 ### Create Daily Journal Notes Command
 
-![[dendron://dendron.dendron-site/dendron.topic.daily-journal-note#details,1]]
+![[dendron://dendron.dendron-site/dendron.topic.special-notes.daily-journal-note#details,1]]
 
 ### Schema Templates
 

@@ -2,7 +2,7 @@
 id: 3i4ABJutl7NGeXRHTnUEC
 title: Workspace
 desc: ''
-updated: 1655718960854
+updated: 1661499546107
 created: 1634646633536
 ---
 
@@ -29,6 +29,10 @@ workspace:
     name:
     dateFormat:
     addBehavior:
+  task:
+    statusSymbols:
+    prioritySymbols:
+    taskCompleteStatus:
   graph:
     zoomSpeed:
   disableTelemetry:
@@ -97,7 +101,7 @@ Use [luxon style formatting](https://moment.github.io/luxon/#/formatting)
 ### addBehavior
 
 Sets the strategy for adding new journal notes.
-This only applies to regular journal notes but not to [[Daily Journal Notes|dendron.topic.daily-journal-note#details]]. For possible options, see [[addBehavior options|dendron://dendron.dendron-site/dendron.topic.special-notes#defaultnodetypeaddbehavior]]
+This only applies to regular journal notes but not to [[Daily Journal Notes|dendron.topic.special-notes.daily-journal-note#details]]. For possible options, see [[addBehavior options|dendron://dendron.dendron-site/dendron.topic.special-notes#defaultnodetypeaddbehavior]]
 
 - default: "childOfDomain"
 
@@ -123,6 +127,10 @@ Use [luxon style formatting](https://moment.github.io/luxon/#/formatting)
 Sets the strategy for adding new scratch notes. For possible options, see [[addBehavior options|dendron://dendron.dendron-site/dendron.topic.special-notes#defaultnodetypeaddbehavior]]
 
 - default: "asOwnDomain"
+
+## task
+
+![[dendron://dendron.dendron-site/dendron.topic.tasks.config]]
 
 ## graph
 
