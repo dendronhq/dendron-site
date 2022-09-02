@@ -2,7 +2,7 @@
 id: n46dp3fj5cwetdyo777q8at
 title: Task Note
 desc: 'Task notes are a special type of note that represent a task'
-updated: 1661749927772
+updated: 1662094027047
 created: 1661169291351
 ---
 
@@ -18,7 +18,7 @@ If a task's scope goes beyond what you can describe in a single line of text, ta
 
 ![[Tasks|dendron://dendron.dendron-site/dendron.topic.tasks#^g9e24kq5g9q7]]
 
-To learn more about task management using task notes, check out [[Tasks|dendron://dendron.dendron-site/dendron.topic.tasks]]
+To learn more about task management using task notes, check out [[Task Notes|dendron://dendron.dendron-site/dendron.topic.tasks#task-notes]]
 
 ## Getting Started
 

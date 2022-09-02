@@ -2,13 +2,14 @@
 id: 9stxbnf9hxmxt76se5dtx2b
 title: "Dendron: Create Daily Journal Note"
 desc: "Create a daily journal note"
-updated: 1661749951443
+updated: 1662097355091
 created: 1661171483488
 ---
 
 ## Summary
 
 {{fm.desc}}.
+![[dendron.topic.special-notes.daily-journal-note#summary,1]]
 
 ## Keybindings
 - mac: `cmd+shift+i`
@@ -16,4 +17,8 @@ created: 1661171483488
 
 ## Details
 
-**{{fm.title}}** is a command that lets you create a [[daily journal note|dendron.topic.special-notes.daily-journal-note]] if it doesn't exist yet, or open the already existing one for today.
+When the command is triggered, a lookup bar will appear with the query prefilled as per the [[journal configuration|dendron://dendron.dendron-site/dendron.ref.config.workspace#journal]].
+
+As a default, it will be pre-filled with `daily.journal.{year}.{month}.{day}`.
+
+To learn more about daily journal notes, see [[dendron.topic.special-notes.daily-journal-note]]. 
