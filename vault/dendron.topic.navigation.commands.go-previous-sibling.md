@@ -19,7 +19,7 @@ created: 1657896924975
 
 Siblings with numeric names will be sorted numerically, whereas siblings with alphabetical names will be sorted alphabetically when determining the next sibling.
 
-When the active note is a [[Daily Journal Note|dendron://dendron.dendron-site/dendron.topic.daily-journal-note]], this command will traverse month boundaries (eg. `daily.journal.2022.02.01` -> `daily.journal.2022.01.31`)
+When the active note is a [[Daily Journal Note|dendron://dendron.dendron-site/dendron.topic.special-notes.daily-journal-note]], this command will traverse month boundaries (eg. `daily.journal.2022.02.01` -> `daily.journal.2022.01.31`)
 
 - NOTE: this currently only works when `journal.dateFormat` is left as the default (`y.MM.dd`) 
 

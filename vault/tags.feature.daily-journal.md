@@ -10,7 +10,7 @@ pods:
 ---
 ## Documentation 
 
-[[dendron.topic.daily-journal-note]]
+[[dendron.topic.special-notes.daily-journal-note]]
 
 ## Basics
 

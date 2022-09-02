@@ -2,7 +2,7 @@
 id: f7ebd4aa-8ba7-4bc5-bd00-a1efc5315f07
 title: Workbench
 desc: ''
-updated: 1655139087259
+updated: 1661487758941
 created: 1595170237255
 ---
 
@@ -30,7 +30,7 @@ The Dendron Workbench consists of the following components:
 ![[dendron://dendron.dendron-site/dendron.topic.sidebar.backlinks#summary,1:#*]]
 
 ### Dendron Calendar View
-![[dendron://dendron.dendron-site/dendron._ref.web-ui#calendar-view,1:#*]]
+![[dendron://dendron.dendron-site/dendron.topic.sidebar.calendar-view#summary,1:#*]]
 
 ### Dendron Tree View
 

@@ -1,9 +1,9 @@
 ---
 id: OGhGvTM9GlW0jXjXDLiBl
-title: >-
-    20 - Your future self will thank you: Building your personal documentation
+title: '20 - Your future self will thank you: Building your personal documentation'
 desc: >-
-    From the ReadME Project GitHub Blog: Monica explains how to build a second brain of knowledge you'll use over and over.
+  From the ReadME Project GitHub Blog: Monica explains how to build a second
+  brain of knowledge you'll use over and over.
 updated: 1645491620419
 created: 1644856540588
 ---
@@ -20,7 +20,7 @@ _Personal Knowledge Management_ (PKM) and ["Second Brains"](https://fortelabs.co
 
 This format can be seen in [Josh Branchaud's `til` repository](https://github.com/jbranchaud/til/).
 
-TIL can be a way to create daily notes outside of [[Daily Journal Notes|dendron.topic.daily-journal-note]], or even as an extension of them. Though Josh has his TIL published publicly, it could be helpful for your mind even if the notes stay as a private log of daily learnings.
+TIL can be a way to create daily notes outside of [[Daily Journal Notes|dendron.topic.special-notes.daily-journal-note]], or even as an extension of them. Though Josh has his TIL published publicly, it could be helpful for your mind even if the notes stay as a private log of daily learnings.
 
 ## Optimized for search
 
@@ -34,7 +34,7 @@ The Dendron approach to these:
 
 - Ease in creation (with or without keybinding shortcuts)
     - [[Lookup: Creating Notes|dendron.topic.lookup.create]]
-    - [[Daily Journal Notes|dendron.topic.daily-journal-note]]
+    - [[Daily Journal Notes|dendron.topic.special-notes.daily-journal-note]]
     - [[Task Notes|dendron.topic.tasks]]
     - [[Special Notes|dendron.topic.special-notes]] (scratch notes, etc.)
     - [[Templates|dendron.topic.templates]]

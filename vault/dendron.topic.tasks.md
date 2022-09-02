@@ -2,7 +2,7 @@
 id: SEASewZSteDK7ry1AshNG
 title: Tasks
 desc: ""
-updated: 1657227523191
+updated: 1662093951844
 created: 1635451738215
 ---
 
@@ -90,10 +90,8 @@ settings.
 
 ![A screenshot displaying an open note that lists 3 tasks, each showing off different features of task notes. On the top right of the image is a lookup bar with the task toggle selected.](https://org-dendron-public-assets.s3.amazonaws.com/images/task-note-create-example.png)
 
-Task notes are same as regular notes, except that they contain some special keys
-in their [[frontmatter|dendron.topic.frontmatter]]. These keys are inserted by
-default when you use the toggle or the command, but you can also add them
-yourself.
+Task notes are same as regular notes, except that they contain some special keys in their [[frontmatter|dendron.topic.frontmatter]]. ^g9e24kq5g9q7
+These keys are inserted by default when you use the toggle or the command, but you can also add them yourself.
 
 Whenever you link to a task note, these keys will display the status of that
 task: this works in the editor, preview, and published sites. You can disable

@@ -1,7 +1,7 @@
 ---
 id: paWj2hk2FV5UDDbIp7uhr
 title: Deprecated Configs
-desc: 'Deprecated VS Code configurations for the Dendron extension.'
+desc: Deprecated VS Code configurations for the Dendron extension.
 updated: 1642008830311
 created: 1642008453632
 ---
@@ -44,7 +44,7 @@ Date format used for journal notes. Use [luxon style formatting][luxon-style-for
 - options:  ['childOfDomain', 'childOfDomainNamespace', 'childOfCurrent', 'asOwnDomain']
 
 strategy for adding new journal notes
-- NOTE: this only applies to regular journal notes but not to  [[Details|dendron.topic.daily-journal-note#details]] notes.
+- NOTE: this only applies to regular journal notes but not to  [[Details|dendron.topic.special-notes.daily-journal-note#details]] notes.
 
 ## dendron.defaultScratchName
 
