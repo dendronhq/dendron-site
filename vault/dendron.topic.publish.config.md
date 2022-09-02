@@ -2,7 +2,7 @@
 id: fabYbPyk3DMCMoG92lIrq
 title: Configuration
 desc: 'Configuration namespace that holds all Dendron Publishing related settings.'
-updated: 1645182877105
+updated: 1661977742537
 created: 1637772506823
 config:
   global:
@@ -26,8 +26,6 @@ publishing:
   enableSiteLastModified:
   enableNoteTitleForLink:
   enableHierarchyDisplay:
-  enableKatex:
-  enableMermaid:
   enableFrontmatterTags:
   enableHashesForFMTags:
   enableRandomlyColoredTags:
@@ -73,24 +71,12 @@ These are properties related to how and where the site is being published, as we
   - [[publishByDefault|dendron.topic.publish.config.hierarchy.publishByDefault]]
   - [[customFrontmatter|dendron.topic.publish.config.hierarchy.customFrontmatter]]
 
-## Feature properties
+## Features
 These are properties related to togglable behaviors when the site is being published.
 
-### Related to Dendron features
 - [[enableFMTitle|dendron.topic.publish.config.enableFMTitle]]
-- [[enablePrettyRefs|dendron.topic.publish.config.enablePrettyRefs]]
-- [[enableSiteLastModified|dendron.topic.publish.config.enableSiteLastModified]]
 - [[enableNoteTitleForLink|dendron.topic.publish.config.enableNoteTitleForLink]]
 - [[enableHierarchyDisplay|dendron.topic.publish.config.enableHierarchyDisplay]]
-
-### Related to third party support
-- [[enableKatex|dendron.topic.publish.config.enableKatex]]
-- [[enableMermaid|dendron.topic.publish.config.enableMermaid]]
-
-### Related to rendering tags
-- [[enableFrontmatterTags|dendron.topic.publish.config.enableFrontmatterTags]]
-- [[enableHashesForFMTags|dendron.topic.publish.config.enableHashesForFMTags]]
-- [[enableRandomlyColoredTags|dendron.topic.publish.config.enableRandomlyColoredTags]]
 
 ## Asset properties
 These are properties related to how assets should be handled when the site is being published.
@@ -103,7 +89,6 @@ These are properties related to how assets should be handled when the site is be
 ## Customization properties
 These are properties related to customizing how certain elements in the published site are displayed.
 
-- [[writeStubs|dendron.topic.publish.config.writeStubs]]
 - [[customHeaderPath|dendron.topic.publish.config.customHeaderPath]]
 - [[duplicateNoteBehavior|dendron.topic.publish.config.duplicateNoteBehavior]]
 - [[hierarchyDisplayTitle|dendron.topic.publish.config.hierarchyDisplayTitle]]
@@ -134,3 +119,14 @@ These are properties related to GitHub.
   - [[editViewMode|dendron.topic.publish.config.github.editViewMode]]
   - [[editBranch|dendron.topic.publish.config.github.editBranch]]
   - [[editRepository|dendron.topic.publish.config.github.editRepository]]
+
+## Advanced Properties
+
+Properties to finue tune your published site. Unless you require specific customization, you probably don't need this
+
+- [[enablePrettyRefs|dendron.topic.publish.config.enablePrettyRefs]]
+- [[enableSiteLastModified|dendron.topic.publish.config.enableSiteLastModified]]
+- [[enableFrontmatterTags|dendron.topic.publish.config.enableFrontmatterTags]]
+- [[enableHashesForFMTags|dendron.topic.publish.config.enableHashesForFMTags]]
+- [[enableRandomlyColoredTags|dendron.topic.publish.config.enableRandomlyColoredTags]]
+- [[writeStubs|dendron.topic.publish.config.writeStubs]]

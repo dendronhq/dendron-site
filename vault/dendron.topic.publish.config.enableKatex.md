@@ -2,8 +2,9 @@
 id: Zd7lTBczTogu74cPxF9LO
 title: enableKatex
 desc: 'Enable rendering Katex typesetting in published notes.'
-updated: 1645172367451
+updated: 1661977596685
 created: 1645172335856
+nav_exclude: true
 ---
 
 - type: `boolean`
