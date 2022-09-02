@@ -1,8 +1,10 @@
 ---
 id: vxwt27afcjgwqtduz51dced
-title: "Dendron: Move To"
-desc: Move the currently selected block of text to another note and update all backlinks.
-updated: 1661486076936
+title: 'Dendron: Move Selection To'
+desc: >-
+  Move the currently selected block of text to another note and update all
+  backlinks.
+updated: 1662087488037
 created: 1661484643912
 ---
 

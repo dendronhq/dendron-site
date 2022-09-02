@@ -2,7 +2,7 @@
 id: 45ecrq7l5z9l1vpwtr05q3h
 title: Commands
 desc: ''
-updated: 1661486206307
+updated: 1662087578759
 created: 1655109346797
 config:
   global:
@@ -11,9 +11,9 @@ config:
 
 ## Content-level refactoring
 
-### Move To
+### Move Selection To
 
-![[dendron.topic.refactoring.commands.move-to#summary,1:#*]]
+![[dendron.topic.refactoring.commands.move-selection-to#summary,1:#*]]
 
 ### Move Header
 
