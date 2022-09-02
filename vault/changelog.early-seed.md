@@ -2,7 +2,7 @@
 id: 3abd00eb-1c1e-4253-aaf5-dcbe20c21850
 title: Early Seed
 desc: ''
-updated: 1662056047038
+updated: 1662126560757
 created: 1604539200840
 published: true
 nav_exclude: true
@@ -17,10 +17,9 @@ Dendron 0.111 has sprouted 🌱
 
 ### Enhancements
 - enhance(view): context menu for tree view (#3442) @joshi ([[docs|dendron://dendron.dendron-site/dendron.topic.sidebar.tree-view#context-menu]])
-- enhance(structure): new api for onCreate of note traits (#3450) @hayata ([[docs|dendron://dendron.dendron-site/dendron.topic.traits.api#return]])
-- enhance(view): added settings UI tip (#3470) @joshi
+
 
 ### Fixes
-- fix(workspace): diagnostics regression (#3424) @hayata
-- fix(sync): nextjs export pod to fetch latest dendron config (#3455) @joshi
+- fix(workspace): diagnostics command doesn't show full output (#3424) @hayata
+- fix(sync): nextjs export pod always fetches latest dendron config (#3455) @joshi
 - fix(workspace): noisy warnings in engine startup (#3452) @kevin
