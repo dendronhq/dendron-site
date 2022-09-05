@@ -3,7 +3,7 @@ id: eea2b078-1acc-4071-a14e-18299fc28f47
 title: Commands
 desc: ""
 tags:
-updated: 1660920182266
+updated: 1662400195767
 created: 1595261816971
 nav_order: 3.1
 ---
@@ -32,7 +32,9 @@ Open the GitHub repository (if it exists) of the current note. If you have a [[m
 
 - shortcuts: none
 
-Copy the Codespace URL (if it exists) of the current note.
+The current note's Codespace URL is copied to the clipboard for a Github backed workspace. The information toaster also has a button to open the note in codespaces. 
+
+
 <div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/adbedb82743440a688c3c52f940e4699" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 ### Create Daily Journal Note
