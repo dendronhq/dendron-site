@@ -2,7 +2,7 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1662388781112
+updated: 1662481418464
 created: 1601508213606
 nav_order: 2
 ---
@@ -11,17 +11,19 @@ nav_order: 2
 
 ### Features
 
-- feat(publishing): enable giscus widgets in published notes (#3469) @hikchoi 
+- feat(publishing): enable giscus widgets in published notes (#3469) @hikchoi ([[docs|dendron://dendron.dendron-site/dendron.topic.publish.config.giscus]])
 
 ### Enhancements
 
-- enhance(view): context menu for tree view (#3442) @joshi [[Context Menu|dendron://dendron.dendron-site/dendron.topic.sidebar.tree-view#context-menu]]
+- enhance(view): context menu for tree view (#3442) @joshi ([[docs|dendron://dendron.dendron-site/dendron.topic.sidebar.tree-view#context-menu]])
+- enhance(plugin): reduce bundle size 5x, should result in faster plugin upgrades @kevin
 
 ### Fix
 
 - fix(workspace): diagnostics command doesn't show full output (#3424) @hayata
 - fix(sync): nextjs export pod always fetches latest dendron config (#3455) @joshi
 - fix(workspace): noisy warnings in engine startup (#3452) @kevin
+
 ## 0.110.0
 
 

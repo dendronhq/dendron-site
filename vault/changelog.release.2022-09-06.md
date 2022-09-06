@@ -2,7 +2,7 @@
 id: jw87p9mmryvjrrrd43nhx00
 title: 0.111
 desc: ''
-updated: 1662391773065
+updated: 1662481498917
 created: 1662388950185
 ---
 
@@ -16,11 +16,11 @@ September 06, 2022
 
 ## Highlights
 
-- feat(publishing): enable giscus widgets in published notes
+- feat(publishing): enable giscus widgets in published notes ([[docs|dendron://dendron.dendron-site/dendron.topic.publish.config.giscus]])
 
 ## Everything Else
 
-- enhance(view): context menu for tree view [[Context Menu|dendron://dendron.dendron-site/dendron.topic.sidebar.tree-view#context-menu]]
+- enhance(view): context menu for tree view ([[docs|dendron://dendron.dendron-site/dendron.topic.sidebar.tree-view#context-menu]])
 - fix(workspace): diagnostics command doesn't show full output
 - fix(sync): nextjs export pod always fetches latest dendron config
 - fix(workspace): noisy warnings in engine startup
@@ -40,6 +40,8 @@ September 06, 2022
 
 This week's entry in the [[Dendron Reading Series|dendron://dendron.dendron-site/community.events.reading-series]].
 
+[[dendron://dendron.dendron-site/community.events.reading-series.2022.09.06]]
+
 ### Event Reminders
 
 - **Greenhouse Talks:** Visit the [[Greenhouse Talks|dendron://dendron.dendron-site/community.events.greenhouse]] for notes from previous sessions.
@@ -57,6 +59,14 @@ This week's entry in the [[Dendron Reading Series|dendron://dendron.dendron-site
 
 A big **thanks** to the following gardeners that brought up issues, contributions, and fixes to this release :man_farmer: :woman_farmer: 
 Visit [[Discord Roles|dendron://dendron.dendron-site/community.discord.roles]] for more information.
+
+- [bigheadghost](https://github.com/bigheadghost)
+  - #role.bugcatcher
+  - [Nested lists aren't rendering properly in preview](https://github.com/dendronhq/dendron/issues/3473)
+  - [hash comments in code block are wrongly taken as hashtag in editor](https://github.com/dendronhq/dendron/issues/3485)
+  
+- [Henry](https://github.com/HenryC-3)
+  - [Tree view shows nothing after adding the dendron site seed](https://github.com/dendronhq/dendron/issues/3487)
 
 ## Changelog
 ![[changelog#01110,1:#01100]]
