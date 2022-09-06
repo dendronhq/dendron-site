@@ -2,7 +2,7 @@
 id: q960Z622o0RLO32w0B8SP
 title: Publishing
 desc: ''
-updated: 1653581676999
+updated: 1662436304428
 created: 1644903086084
 config:
   global:
@@ -91,6 +91,9 @@ config:
 
 ## github
 ![[github|dendron.topic.publish.config.github]]
+
+## giscus
+![[giscus|dendron.topic.publish.config.giscus]]
 
 # Note 
 
