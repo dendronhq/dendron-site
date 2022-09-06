@@ -2,7 +2,7 @@
 id: jw87p9mmryvjrrrd43nhx00
 title: 0.111
 desc: ''
-updated: 1662482721596
+updated: 1662482906942
 created: 1662388950185
 ---
 
@@ -14,7 +14,7 @@ September 06, 2022
 
 - feat(publishing): enable giscus widgets in published notes ([[docs|dendron://dendron.dendron-site/dendron.topic.publish.config.giscus]])
 - enhance(view): context menu for tree view ([[docs|dendron://dendron.dendron-site/dendron.topic.sidebar.tree-view#context-menu]])
-- enhance(plugin): reduce bundle size 5x, should result in faster plugin upgrades @kevin
+- enhance(plugin): reduce bundle size 5x, should result in faster plugin upgrades
 - fix(workspace): diagnostics command doesn't show full output
 - fix(sync): nextjs export pod always fetches latest dendron config
 - fix(workspace): noisy warnings in engine startup
