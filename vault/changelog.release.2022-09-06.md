@@ -2,25 +2,19 @@
 id: jw87p9mmryvjrrrd43nhx00
 title: 0.111
 desc: ''
-updated: 1662481498917
+updated: 1662482721596
 created: 1662388950185
 ---
 
 Dendron 0.111 has sprouted  🌱
 September 06, 2022
 
-**Highlight type:** Description here.
-
-- More information: `[[Title of Docs and Header if Used|dendron://dendron.dendron-site/example.docs]]`
-
-
-## Highlights
-
-- feat(publishing): enable giscus widgets in published notes ([[docs|dendron://dendron.dendron-site/dendron.topic.publish.config.giscus]])
 
 ## Everything Else
 
+- feat(publishing): enable giscus widgets in published notes ([[docs|dendron://dendron.dendron-site/dendron.topic.publish.config.giscus]])
 - enhance(view): context menu for tree view ([[docs|dendron://dendron.dendron-site/dendron.topic.sidebar.tree-view#context-menu]])
+- enhance(plugin): reduce bundle size 5x, should result in faster plugin upgrades @kevin
 - fix(workspace): diagnostics command doesn't show full output
 - fix(sync): nextjs export pod always fetches latest dendron config
 - fix(workspace): noisy warnings in engine startup
@@ -30,8 +24,8 @@ September 06, 2022
 
 
 ### Starboard Highlights
-<!-- TODO: update links. Delete section is no new items-->
-> These are highlights from the [[Dendron Discord|dendron://dendron.dendron-site/community.discord.channels]] `#starboard` and `#today-i-learned` channels.
+
+> These are highlights from the [[Dendron Discord|dendron://dendron.dendron-site/community.discord.channels]] `#starboard` channel.
 
 - ⭐ `RzLnx88#1569` shared a link to [Create Schema From Note Hierarchy](https://wiki.dendron.so/notes/gHERCRoEXzASfXorBgZN0/). He also shared the newer feature of "Create Schema from Note Hierarchy" is a game changer. He was able to knock out 3 schemas with relative ease! [link to message](https://discord.com/channels/717965437182410783/749357067843666032/1015328287179931698)
 
@@ -40,7 +34,8 @@ September 06, 2022
 
 This week's entry in the [[Dendron Reading Series|dendron://dendron.dendron-site/community.events.reading-series]].
 
-[[dendron://dendron.dendron-site/community.events.reading-series.2022.09.06]]
+[[The Latency/Throughput Tradeoff: Why Fast Services Are Slow And Vice Versa|dendron://dendron.dendron-site/community.events.reading-series.2022.09.06]]
+
 
 ### Event Reminders
 
@@ -70,3 +65,4 @@ Visit [[Discord Roles|dendron://dendron.dendron-site/community.discord.roles]] f
 
 ## Changelog
 ![[changelog#01110,1:#01100]]
+
