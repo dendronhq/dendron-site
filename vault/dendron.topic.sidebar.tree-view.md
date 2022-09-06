@@ -2,7 +2,7 @@
 id: hur7r6gr3kqa56s2vme986j
 title: Tree View
 desc: 'The Tree View shows you the hierarchy of your notes'
-updated: 1662044892898
+updated: 1662480196360
 created: 1654469579591
 ---
 
@@ -12,8 +12,7 @@ created: 1654469579591
 ![Dendron Tree View](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/workbench.treeview.gif)
 
 ## Features
-- show note name and title
-- refactoring capabilities like moving and renaming a note
+- show note by filename or title
 - reveal current focused note in hierarchy
 
 ![tree view](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/workbench.treeview-active-doc.gif)

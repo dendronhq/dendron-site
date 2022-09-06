@@ -2,7 +2,7 @@
 id: fabYbPyk3DMCMoG92lIrq
 title: Configuration
 desc: 'Configuration namespace that holds all Dendron Publishing related settings.'
-updated: 1661977742537
+updated: 1662440551621
 created: 1637772506823
 config:
   global:
@@ -54,6 +54,22 @@ publishing:
     editBranch:
     editViewMode:
     editRepository:
+  giscus:
+    id:
+    host:
+    repo:
+    repoId:
+    category:
+    categoryId:
+    mapping:
+    term:
+    theme:
+    strict:
+    reactionsEnabled:
+    emitMetadata:
+    inputPosition:
+    lang:
+    loading:
 ```
 
 > Please note that the properties listed below are not strictly categorized by namespace, but by what they do. Use the namespace described in the summary section of this note to reference the actual organization of these properties.
@@ -119,6 +135,26 @@ These are properties related to GitHub.
   - [[editViewMode|dendron.topic.publish.config.github.editViewMode]]
   - [[editBranch|dendron.topic.publish.config.github.editBranch]]
   - [[editRepository|dendron.topic.publish.config.github.editRepository]]
+
+## Giscus properties
+These are properties related to Giscus widgets.
+
+- [[giscus|dendron.topic.publish.config.giscus]]
+  - [[category|dendron://dendron.dendron-site/dendron.topic.publish.config.giscus.category]]
+  - [[host|dendron://dendron.dendron-site/dendron.topic.publish.config.giscus.host]]
+  - [[id|dendron://dendron.dendron-site/dendron.topic.publish.config.giscus.id]]
+  - [[lang|dendron://dendron.dendron-site/dendron.topic.publish.config.giscus.lang]]
+  - [[loading|dendron://dendron.dendron-site/dendron.topic.publish.config.giscus.loading]]
+  - [[mapping|dendron://dendron.dendron-site/dendron.topic.publish.config.giscus.mapping]]
+  - [[repo|dendron://dendron.dendron-site/dendron.topic.publish.config.giscus.repo]]
+  - [[strict|dendron://dendron.dendron-site/dendron.topic.publish.config.giscus.strict]]
+  - [[term|dendron://dendron.dendron-site/dendron.topic.publish.config.giscus.term]]
+  - [[theme|dendron://dendron.dendron-site/dendron.topic.publish.config.giscus.theme]]
+  - [[categoryId|dendron://dendron.dendron-site/dendron.topic.publish.config.giscus.categoryId]]
+  - [[emitMetadata|dendron://dendron.dendron-site/dendron.topic.publish.config.giscus.emitMetadata]]
+  - [[inputPosition|dendron://dendron.dendron-site/dendron.topic.publish.config.giscus.inputPosition]]
+  - [[reactionsEnabled|dendron://dendron.dendron-site/dendron.topic.publish.config.giscus.reactionsEnabled]]
+  - [[repoId|dendron://dendron.dendron-site/dendron.topic.publish.config.giscus.repoId]]
 
 ## Advanced Properties
 
