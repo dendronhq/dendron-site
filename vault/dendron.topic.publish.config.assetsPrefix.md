@@ -1,8 +1,8 @@
 ---
 id: zvFzP2vGufKPBZJ2KvvfQ
 title: assetsPrefix
-desc: 'Set the assets prefix for the published website.'
-updated: 1645464834236
+desc: 'Prefix all urls with the given prefix'
+updated: 1662592240133
 created: 1645176362328
 ---
 
@@ -13,16 +13,12 @@ created: 1645176362328
 ## Description
 {{fm.desc}}
 
-By default, assets are served from the root. 
-
-- If you are publishing to GitHub Pages and followed the instructions [here](https://pages.github.com/) by creating a repo named `{username}.github.io`, then no further action is needed. 
-  - This is because GitHub will make your site available at `https://{username}.github.io`. 
-- If you created a custom repo, you will need to set the prefix to the name of your repo 
-  - This is because GitHub will make your site available at `https://{username}.github.io/{your-repo-name/}`
+By default, assets are served from the root (`/`). Adding an `assetsPrefix` will change the url that pages are served from. 
 
 ## Example
 
 ```yml
-  publishing:
-    assetsPrefix: foo
+# in this case, it will serve requests from /foo
+publishing:
+  assetsPrefix: foo
 ```
