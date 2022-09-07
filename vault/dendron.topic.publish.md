@@ -27,8 +27,9 @@ See [[dendron://dendron.dendron-site/dendron.topic.publish.quickstart]]
 - Basics
   - [[Concepts|dendron://dendron.dendron-site/dendron.topic.publish.concepts]]
   - [[Configuration|dendron://dendron.dendron-site/dendron.topic.publish.config]]: Customizing publishing
+  - [[Sidebar|dendron://dendron.dendron-site/dendron.topic.publish.sidebar]]: Configuring a custom sidebar
   - [[CLI|dendron://dendron.dendron-site/dendron.topic.publish.cli]]: The Command Line Interface for publishing
-  - [[Upgrade|dendron://dendron.dendron-site/dendron.topic.publish.upgrade]]: Upgrading 
+  - [[Upgrade|dendron://dendron.dendron-site/dendron.topic.publish.upgrade]]: Upgrading
 - How tos
   - [[Cookbook|dendron://dendron.dendron-site/dendron.topic.publish.cook]]: Various workflows for publishing
   - [[Migrate from 11ty|dendron://dendron.dendron-site/dendron.topic.publish.migration]]: Migrating from 11ty (legacy publishing)

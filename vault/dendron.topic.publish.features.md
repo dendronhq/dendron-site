@@ -2,7 +2,7 @@
 id: SsMGHoFVgyBdydzI5mn78
 title: Publishing Features
 desc: ''
-updated: 1655749758079
+updated: 1662572861091
 created: 1631895790486
 ---
 
@@ -17,7 +17,7 @@ Next Generation Publishing includes a combined lookup and search bar:
 
 ## Table of Contents
 
-Next Generation Publishing includes a _table of contents_ (TOC) in the left-hand nav, as a tree of the site. On the right-hand side, a TOC is generated for the current page.
+Next Generation Publishing includes a _table of contents_ (TOC) in the left-hand nav, as a [[tree of the site|dendron.topic.publish.sidebar]]. On the right-hand side, a TOC is generated for the current page.
 
 ![Right-hanv navigation table of contents demo](https://org-dendron-public-assets.s3.amazonaws.com/images/publishing-local-toc-right-nav.gif)
 
