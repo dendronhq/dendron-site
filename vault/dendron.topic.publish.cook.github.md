@@ -21,7 +21,7 @@ Before continuing: **we do not recommend this path for publishing.** If possible
 ```sh
 npm init -y
 ```
-- Install [[dendron-cli|dendron://dendron.dendron-site/dendron.topic.cli#prerequisites]]
+- Install [[dendron-cli|dendron://dendron.dendron-site/dendron.topic.cli#setup]]
 ```sh
 npm install @dendronhq/dendron-cli@latest
 ```
