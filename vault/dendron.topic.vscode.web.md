@@ -2,7 +2,7 @@
 id: svmryfk3iwexs7pfty1j6at
 title: Web
 desc: ''
-updated: 1661525088238
+updated: 1662654682487
 created: 1660914228125
 ---
 
@@ -36,6 +36,9 @@ Lookup can be used to find and create notes. There are a few limitations compare
 ![[dendron://dendron.dendron-site/dendron.ref.commands#copy-note-url]]
 
 > NOTE: Copy URL of the selected header set as the anchor is not supported yet
+
+### Preview
+- The Dendron Preview is available in the web extension. Some rendering capabilities such as Note References are currently not supported.
 
 ## Quickstart
 
