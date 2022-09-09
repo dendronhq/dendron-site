@@ -2,7 +2,7 @@
 id: RjBkTbGuKCXJNuE4dyV6G
 title: CLI
 desc: ''
-updated: 1662604916675
+updated: 1662659879765
 created: 1636500007852
 ---
 
@@ -27,8 +27,6 @@ There are several approaches that can be taken to install Node.js to your deskto
 ```sh
 npm install -g @dendronhq/dendron-cli@latest
 ```
-
-[[dendron://dendron.dendron-site/dendron.topic.cli#globally-accessible]]
 
 ## Local Insallation
 
@@ -57,64 +55,10 @@ Path to a [[vaults|dendron.concepts#vaults]]. If not given and not a [[multi vau
 Runs the command called using the in memory engine instead of connecting to a server.
 
 
-## dev
+## Debug Mode
+
+To enable debug logging, set `LOG_LEVEL` to `debug`. 
 
 ```sh
-dendron dev <cmd>
-
-commands related to development of Dendron
-
-Positionals:
-  cmd  a command to run
-      [string] [required] [choices: "generate_json_schema_from_config", "build",
-       "bump_version", "publish", "sync_assets", "sync_tutorial", "prep_plugin",
-    "package_plugin", "install_plugin", "enable_telemetry", "disable_telemetry",
-                           "show_telemetry", "show_migrations", "run_migration"]
-
-Options:
-  --version           Show version number                              [boolean]
-  --help              Show help                                        [boolean]
-  --wsRoot            root directory of the Dendron workspace
-  --vault             name of vault
-  --quiet             do not print output to stdout
-  --upgradeType       how to do upgrade
-                              [choices: "major", "minor", "patch", "prerelease"]
-  --publishEndpoint   where to publish              [choices: "local", "remote"]
-  --extensionTarget   extension name to publish in the marketplace
-                                                 [choices: "dendron", "nightly"]
-  --fast              skip some checks
-  --skipSentry        skip upload source map to sentry
-  --migrationVersion  migration version to run
-                     [choices: "0.83.0", "0.55.2", "0.51.4", "0.47.1", "0.46.0"]
-
+LOG_LEVEL=debug dendron {your-command}
 ```
-
-<!-- ### Actions
-
-#### generate_json_schema_from_config
-
-#### build
-
-#### bump_version
-
-#### publish
-
-#### sync_assets
-
-#### sync_tutorial
-
-#### prep_plugin
-
-#### package_plugin
-
-#### install_plugin
-
-#### enable_telemetry
-
-#### disable_telemetry
-
-#### show_telemetry
-
-#### show_migrations
-
-#### run_migration -->

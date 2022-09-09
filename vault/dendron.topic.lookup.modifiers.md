@@ -2,7 +2,7 @@
 id: ad270a7d-2aed-4273-8319-eb6536e38b29
 title: Modifiers
 desc: ''
-updated: 1643908968262
+updated: 1661486039316
 created: 1604883459208
 ---
 
@@ -10,7 +10,7 @@ Modifiers allow you to change the behavior of lookup.
 
 You can toggle a modifier in three different ways:
 
-- Using the [[Lookup View|dendron://dendron.dendron-site/dendron.topic.workbench#lookup-view]] that appears in the explorer when a note lookup is active
+- Using the [[Lookup View|dendron://dendron.dendron-site/dendron.topic.sidebar.lookup-view]] that appears in the explorer when a note lookup is active
 - Clicking on the respective modifier icons in the lookup bar
 - Passing custom arguments to `dendron.lookupNote` when defining a custom keyboard shortcut in `keybindings.json`
 
@@ -71,7 +71,7 @@ There are two ways to enable this filter:
 
 ## selectionType
 
-The `selectionType` modifiers determine the behavior of selected text in the active editor when creating a new note using lookup.
+The `selectionType` modifiers determine the behavior of selected text in the active editor when looking up a note.
 
 The default `selectionType` set by lookup is `selectionExtract`.
 
@@ -83,11 +83,14 @@ There are currently two types that you can choose: `selectionExtract` and `selec
 
 #### Description
 
-If the `selectionExtract` modifier is on, selection in the active text editor will be extracted to be included in the body of the newly created note.
+If the `selectionExtract` modifier is on, selection in the active text editor will be extracted to be appended to the note that you looked up.
 
-The selected text will be removed from the active text editor and used to fill the initial body of the new note.
+If you look up an existing note, the selection will be removed and appended to the destination.
+If you look up a new note, the selection will be used as the initial body of the new note.
 
 If the source of this selection is a non-Dendron file, the selection will not be removed from the source, but will still use it to prefill the new note.
+
+If [[leaveTrace|dendron://dendron.dendron-site/dendron.ref.config.commands#leavetrace]] is set to true, a note reference to the extracted and moved text will be created in the place of the selection.
 
 #### Enabling `selectionExtract` modifier
 
