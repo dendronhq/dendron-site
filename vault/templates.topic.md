@@ -24,7 +24,7 @@ See [[Top Level Feature|dendron://dendron.dendron-site/dendron.contribute.docume
 
 ## Use Cases
 {{! 
-See [[Use Cases|dendron://dendron.handbook/leaflet.journal.2022.05.10.standard-documentation.topics#use-cases]]
+See [[Use Cases|dendron://dendron.dendron-site/dendron.topic.templates#use-cases]]
 }}
 
 ### {usecase1}
