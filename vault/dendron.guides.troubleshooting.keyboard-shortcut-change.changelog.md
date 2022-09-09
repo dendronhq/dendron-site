@@ -2,9 +2,8 @@
 id: 50kdbcwwda3gphjhccb0e5t
 title: Changelog
 desc: ''
-updated: 1662699737208
+updated: 1662733959150
 created: 1662695712727
-manager: [[user.hikchoi]]
 ---
 
 ## 2022-09-13
