@@ -2,7 +2,7 @@
 id: svmryfk3iwexs7pfty1j6at
 title: Web
 desc: ''
-updated: 1662654720459
+updated: 1662734105776
 created: 1660914228125
 ---
 
@@ -21,6 +21,10 @@ _Note, this is a #stage.germ feature. The supported commands and features may ha
 
 > NOTE: Dendron on the web is limited to just a few features right now, but we are working on bringing more of the full Dendron capabilities to the web:
 
+### Copy Note URL
+
+![[dendron://dendron.dendron-site/dendron.ref.commands#copy-note-url]]
+
 ### Lookup
 
 Lookup can be used to find and create notes. There are a few limitations compared with the desktop version:
@@ -31,14 +35,14 @@ Lookup can be used to find and create notes. There are a few limitations compare
 
 ![[dendron://dendron.dendron-site/dendron.topic.sidebar.tree-view]]
 
-### Copy Note URL
-
-![[dendron://dendron.dendron-site/dendron.ref.commands#copy-note-url]]
 
 > NOTE: Copy URL of the selected header set as the anchor is not supported yet
 
 ### Preview
-- The Dendron Preview is available in the web extension. Some rendering capabilities such as Note References are currently not supported.
+
+![[dendron://dendron.dendron-site/dendron.topic.preview#summary]]
+
+> NOTE: some capabilities like note references are currently not supported
 
 ## Quickstart
 
