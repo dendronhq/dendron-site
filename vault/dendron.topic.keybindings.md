@@ -2,7 +2,7 @@
 id: c8e99b84-8a5a-42d3-838d-3d5cdebf32e5
 title: Keybindings
 desc: ''
-updated: 1616950201425
+updated: 1662695460482
 created: 1597950074331
 stub: false
 ---
@@ -17,7 +17,7 @@ To update your keybindings, open the command prompt and type `Open Keyboard Shor
 
 If you prefer to work with JSON, you can use `Open Keyboard Shortcuts (JSON)`.
 
-You can read more about keybinding syntax [here](https://code.visualstudio.com/docs/getstarted/keybindings)
+If you want to learn more about how keybindings work in VSCode, please read the official documents [here](https://code.visualstudio.com/docs/getstarted/keybindings)
 
 # Tips
 
