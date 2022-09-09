@@ -2,7 +2,7 @@
 id: 3abd00eb-1c1e-4253-aaf5-dcbe20c21850
 title: Early Seed
 desc: ''
-updated: 1662735107375
+updated: 1662736732455
 created: 1604539200840
 published: true
 nav_exclude: true
@@ -24,6 +24,7 @@ Dendron 0.112 has sprouted 🌱
 ### Enhancements
 - enhance(structure): new api for onCreate of note traits (#3450) @hayata ([[docs|dendron://dendron.dendron-site/dendron.topic.traits.api]])
 - enhance(workspace): speed up md export (#3493) @kevin
+
 
 ### Fixes
 - fix(workspace): migrate self contained vaults command does not migrate the vault correctly (#3483) @joshi
