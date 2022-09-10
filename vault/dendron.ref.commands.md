@@ -3,7 +3,7 @@ id: eea2b078-1acc-4071-a14e-18299fc28f47
 title: Commands
 desc: ""
 tags:
-updated: 1660920182266
+updated: 1662734514945
 created: 1595261816971
 nav_order: 3.1
 ---
@@ -27,6 +27,15 @@ nav_order: 3.1
 -   shortcuts: None
 
 Open the GitHub repository (if it exists) of the current note. If you have a [[multi vault|dendron.topic.multi-vault]] workspace with different git repositories, this command will
+
+### Copy Codespace URL
+
+- shortcuts: none
+
+The current note's Codespace URL is copied to the clipboard for a Github backed workspace. The information toaster also has a button to open the note in codespaces. 
+
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/adbedb82743440a688c3c52f940e4699" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 ### Create Daily Journal Note
 
@@ -422,20 +431,6 @@ Export notes to an external data source. Currently only JSON is supported.
 
 Publish your note to a different format/location
 
-### Copy Note URL
-
--   shortcuts:
-    -   mac: `cmd+shift+u`
-    -   windows: `ctrl+shift+u`
-
-Get URL of current note from published site
-
-If you highlight a header, will copy the url with the header set as the anchor
-
-The url is taken from the [[siteUrl|dendron.topic.publish-legacy.configuration#siteurl]] property.
-
-![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/notes.copy-url.gif)
-
 ---
 
 ## Seeds
@@ -476,6 +471,21 @@ If you are on macOs, you can find instructions for getting the path to the curre
 ---
 
 ## Publishing
+
+### Copy Note URL
+
+-   shortcuts:
+    -   mac: `cmd+shift+u`
+    -   windows: `ctrl+shift+u`
+
+Get URL of current note from published site
+
+If you highlight a header, will copy the url with the header set as the anchor
+
+The url is taken from the [[siteUrl|dendron.topic.publish-legacy.configuration#siteurl]] property.
+
+![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/notes.copy-url.gif)
+
 
 ### Publish
 

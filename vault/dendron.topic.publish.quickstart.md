@@ -2,7 +2,7 @@
 id: e5st4LFLtIwwbQmC6JBaF
 title: Publishing Quickstart
 desc: ''
-updated: 1661744321114
+updated: 1662604954475
 created: 1631033401707
 ---
 
@@ -11,7 +11,7 @@ created: 1631033401707
 This guide walks you through publishing with Next.js. 
 
 ## Prerequisites
-1. Install the latest version of the [[Dendron CLI|dendron://dendron.dendron-site/dendron.ref.cli]]
+1. Install the latest version of the [[dendron-cli|dendron://dendron.dendron-site/dendron.topic.cli#setup]]
 1. Make sure you have git installed
 
 ## Steps

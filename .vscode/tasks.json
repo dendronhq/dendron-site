@@ -27,5 +27,11 @@
             "command": "./scripts/update-deps.sh",
             "problemMatcher": []
         },
+        {
+            "label": "sync",
+            "type": "shell",
+            "command": " git add . && git commit -m 'sync' && git push",
+            "problemMatcher": []
+        },
     ]
 }

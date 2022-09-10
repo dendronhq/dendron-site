@@ -8,7 +8,7 @@ created: 1631132278348
 
 ## Setup Dendron CLI
 
-- [[Dendron CLI Prerequisites|dendron://dendron.dendron-site/dendron.topic.cli#prerequisites]]
+- [[Dendron CLI Prerequisites|dendron://dendron.dendron-site/dendron.topic.cli#setup]]
 - [[Dendron CLI Installation|dendron://dendron.dendron-site/dendron.topic.cli#installation]]
 
 ## Upgrading
