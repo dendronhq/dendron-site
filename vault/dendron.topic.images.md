@@ -2,12 +2,20 @@
 id: a91fd8da-6895-49fe-8164-a17acd8d9a17
 title: Images
 desc: ''
-updated: 1659026813451
+updated: 1662866092517
 created: 1595562035825
-stub: false
 ---
-    
-## Copy & Paste
+## Summary
+
+Dendron extends regular Markdown image support by allowing custom CSS properties. Images can also be pasted into a file from your clipboard.
+
+## Use Cases
+
+* add images and screenshots to notes
+* modify images using inline YAML map
+
+## Features
+### Copy & Paste
 
 Dendron automatically inserts images in your clipboard using the `> Paste Image` command. The image is saved to `${currentFileDir}/assets` by default. This feature requires the [Paste Image](https://link.dendron.so/vscode-paste-image) VS Code extension.
 
@@ -15,7 +23,7 @@ Dendron automatically inserts images in your clipboard using the `> Paste Image`
 <img style="" src="https://cdn.loom.com/sessions/thumbnails/e1f6d207a1134f42b7a1a7750658acec-with-play.gif"> </a>
 </a>
 
-## Inserting Saved Images
+### Inserting Saved Images
 
 An easy way to insert an image which is saved locally to your Markdown note is to do the following:
 
@@ -24,13 +32,13 @@ An easy way to insert an image which is saved locally to your Markdown note is t
 - `![Image_Description](assets/images/File_Name.png)`
   - Be sure to replace `Image_Description` and `File_Name.png` with the description of the image and the actual filename
 
-## Extended Images
+### Extended Images
 
 Dendron allows you to extend your images by adding custom CSS properties to
 them. This can allow you to display an image at a specific size, make it float
 (text wrapping around image), add a border, or much more. Extended images work both in [[dendron://dendron.dendron-site/dendron.topic.preview]] and in [[Publishing|dendron.topic.publish]].
 
-### Syntax
+#### Syntax
 
 Extended images are the same as regular images, except that you add CSS properties at the end of it using an inline YAML map. This is simpler than it sounds, it looks like this:
 
@@ -84,6 +92,7 @@ This image should be floating to the left, and should have a 3-D effect on it! T
 
 One important thing in this example is the `transform: " ... "` part. Note the quotes: they are optional in most cases, but in complex cases they might be required. We don't have anything to warn you if your YAML is broken for now, but you can check the Preview V2, and the previewed image won't apply the CSS if it's broken.
 
+## Options 
 ### Allowed CSS properties
 
 For safety reasons, Dendron doesn't allow you to set just any CSS property. Here's a list of ones that are allowed:
