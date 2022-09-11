@@ -2,7 +2,7 @@
 id: a91fd8da-6895-49fe-8164-a17acd8d9a17
 title: Images
 desc: ''
-updated: 1662866092517
+updated: 1662866892933
 created: 1595562035825
 ---
 ## Summary
@@ -17,7 +17,7 @@ Dendron extends regular Markdown image support by allowing custom CSS properties
 ## Features
 ### Copy & Paste
 
-Dendron automatically inserts images in your clipboard using the `> Paste Image` command. The image is saved to `${currentFileDir}/assets` by default. This feature requires the [Paste Image](https://link.dendron.so/vscode-paste-image) VS Code extension.
+Dendron automatically inserts images in your clipboard using the `> Paste Image` command. The image is saved to `${currentFileDir}/assets/images` by default. This feature requires the [Paste Image](https://link.dendron.so/vscode-paste-image) VS Code extension.
 
 <a href="https://www.loom.com/share/e1f6d207a1134f42b7a1a7750658acec">
 <img style="" src="https://cdn.loom.com/sessions/thumbnails/e1f6d207a1134f42b7a1a7750658acec-with-play.gif"> </a>
@@ -27,10 +27,9 @@ Dendron automatically inserts images in your clipboard using the `> Paste Image`
 
 An easy way to insert an image which is saved locally to your Markdown note is to do the following:
 
-- Copy / save the image in your `assets/images` folder located in your vault,
-- In Dendron navigate to the note where you wish to input the image(s), and type:
-- `![Image_Description](assets/images/File_Name.png)`
-  - Be sure to replace `Image_Description` and `File_Name.png` with the description of the image and the actual filename
+1. Copy / save the image in your `assets/images` folder located in your vault,
+2. In Dendron navigate to the note where you wish to input the image(s), and type:
+3. `![Image_Description](assets/images/File_Name.png)`. Be sure to replace `Image_Description` and `File_Name.png` with the description of the image and the actual filename
 
 ### Extended Images
 
