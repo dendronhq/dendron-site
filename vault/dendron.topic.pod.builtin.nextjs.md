@@ -2,7 +2,7 @@
 id: 5fGMHyXmErIV9odz01BBH
 title: Next.js Pod
 desc: ''
-updated: 1637355140896
+updated: 1662941084648
 created: 1628955339442
 ---
 
@@ -16,16 +16,28 @@ created: 1628955339442
 Running this pod will create the following files in `dest`.
 
 ```
-- dendron.json
-- fuse.json
-- meta/
-  - {id}.json
-- notes/
-  - {id}.html
-- notes.json
+- .env.production
+- data
+    * dendron.json
+    * fuse.json
+    * meta/
+        - *.json
+        - 403.json
+        - root.json
+    * notes/
+        - *.html
+        - *.md
+    * notes.json
+    * tree.json
+- public
+    - assets/
+    - data/   # this is a copy of whats in `data`
 ```
 
 ## References
+
+### .env.production
+This is used to pass variables to next template. If [[dendron.topic.publish.config.assetsPrefix]] is set, it is set in here
 
 ### dendron.json
 
