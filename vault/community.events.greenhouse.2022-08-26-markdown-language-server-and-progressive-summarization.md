@@ -3,7 +3,7 @@ id: slklff1t4qs9od0l0dwvkx4
 title: >-
     August Greenhouse: Markdown Language Server and Progressive Summarization for Developers
 desc: 'Two Greenhouse talks, one on the new VS Code markdown language server and the other on adapting the method of progressive summarization for developers.'
-updated: 1661825253229
+updated: 1663012918718
 created: 1661226904533
 ---
 
@@ -27,6 +27,8 @@ In this talk, I'll discuss why we decided to build a language server for Markdow
 
 References:
 - A blog post Matt mentioned in the talk: <https://code.visualstudio.com/blogs/2022/08/16/markdown-language-server>
+- [GitHub - microsoft/vscode-markdown-languageservice: The language service that powers VS Code's Markdown support, extracted so that it can be reused by other editors and tools](https://github.com/microsoft/vscode-markdown-languageservice)
+- [vscode/extensions/markdown-language-features/server at main · microsoft/vscode](https://github.com/microsoft/vscode/tree/main/extensions/markdown-language-features/server)
 
 ### Progressive Summarization for Developers
 
