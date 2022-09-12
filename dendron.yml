@@ -115,6 +115,9 @@ publishing:
             knowledge bases of any size.
         author: dendronhq
         twitter: dendronhq
+        image:
+          url: https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/logo-256.png
+          alt: Dendron
     github:
         cname: wiki.dendron.so
         enableEditLink: true
