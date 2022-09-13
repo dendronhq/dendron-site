@@ -2,13 +2,12 @@
 id: 4li0gn572gw4q4jaqtca0pm
 title: 0.112
 desc: ''
-updated: 1663088147784
+updated: 1663088251730
 created: 1662992204979
 ---
 
 Dendron 0.112 has sprouted  🌱
 September 13, 2022
-
 
 **Preview for the web**: Dendron on Codespaces now supports the Dendron Preview! With this change, you can now access all the core functionality of Dendron from a web browser with zero setup!
 
