@@ -2,7 +2,7 @@
 id: 4li0gn572gw4q4jaqtca0pm
 title: 0.112
 desc: ''
-updated: 1663086400686
+updated: 1663086631429
 created: 1662992204979
 ---
 
@@ -26,7 +26,7 @@ September 13, 2022
 
 ## Everything Else
 
-- feat(workspace): Support Copy Note Url for Dendron Codespaces ([[docs|dendron://dendron.dendron-site/dendron.topic.vscode.web#copy-note-url]])
+- feat(workspace): Add  Copy Codespace URL command ([[docs|dendron://dendron.dendron-site/dendron.topic.vscode.web#copy-note-url]])
 - enhance(workspace): speed up md export
 - fix(publish): giscuss integration
 - fix(publish): inconsistent layout on mobile
