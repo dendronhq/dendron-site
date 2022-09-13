@@ -2,7 +2,7 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1663084493636
+updated: 1663086040819
 created: 1601508213606
 nav_order: 2
 ---
@@ -13,22 +13,21 @@ nav_order: 2
 
 - feat(workspace): support "Toggle Preview" for Dendron Codespaces (#3462) @jonathan ([[docs|dendron://dendron.dendron-site/dendron.topic.vscode.web#preview]])
 - feat(structure): Add Move Selection To command (#3440) @hikchoi ([[docs|dendron://dendron.dendron-site/dendron.topic.refactoring.commands.move-selection-to]])
-- feat(workspace): copy codespace url command (#3480) @joshi ([[docs|dendron://dendron.dendron-site/dendron.ref.commands#copy-codespace-url]])
+- feat(workspace): Support Copy Note Url for Dendron Codespaces (#3480) @joshi ([[docs|dendron://dendron.dendron-site/dendron.topic.vscode.web#copy-note-url]])
 
 ### Enhancements
 
-- enhance(structure): new api for onCreate of note traits (#3450) @hayata ([[docs|dendron://dendron.dendron-site/dendron.topic.traits.api]])
 - enhance(workspace): speed up md export (#3493) @kevin
 
 ### Fix
 
 - fix(publish): giscuss integration (#3474) @kevin
-- fix(publish): restores inconsistent layout on mobilea (#3346) @sam
+- fix(publish): inconsistent layout on mobile (#3346) @sam
 - fix(workspace): migrate self contained vaults command does not migrate the vault correctly (#3483) @joshi
 - fix(publish): correctly handle asset prefix in markdown link (#3497) @hikchoi
 - fix(workspace): bad error message when importing notes without a configuration (#3494) @kevin
 - fix(workspace): tree view empty when note title is number (#3495) @kevin
-- fix(views): fix mermaid diagrams (#3503) @jonathan
+- fix(views): mermaid diagrams not appearing (#3503) @jonathan
 - fix(schema): schemas being overwritten on save (#3504) @kevin
 
 

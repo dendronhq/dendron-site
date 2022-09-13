@@ -2,7 +2,7 @@
 id: 4li0gn572gw4q4jaqtca0pm
 title: 0.112
 desc: ''
-updated: 1663085355550
+updated: 1663086400686
 created: 1662992204979
 ---
 
@@ -10,20 +10,31 @@ Dendron 0.112 has sprouted  🌱
 September 13, 2022
 
 
-## Everything Else
+**Preview for the web**: Dendron on Codespaces now supports the Dendron Preview! With this change, you can now access all the core functionality of Dendron from a web browser with zero setup!
+
+- More information: [[Preview|dendron://dendron.dendron-site/dendron.topic.vscode.web#preview]]
+
+**Move Selection to**: You can now highlight selections of text and merge them into other notes. Dendron will take care of refactoring the links!
+
+- More information: [[Dendron: Move Selection To|dendron://dendron.dendron-site/dendron.topic.refactoring.commands.move-selection-to]]
+
+## Highlights
 
 - feat(workspace): support "Toggle Preview" for Dendron Codespaces ([[docs|dendron://dendron.dendron-site/dendron.topic.vscode.web#preview]])
 - feat(structure): Add Move Selection To command ([[docs|dendron://dendron.dendron-site/dendron.topic.refactoring.commands.move-selection-to]])
-- feat(workspace): copy codespace url command ([[docs|dendron://dendron.dendron-site/dendron.ref.commands#copy-codespace-url]])
-- enhance(structure): new api for onCreate of note traits ([[docs|dendron://dendron.dendron-site/dendron.topic.traits.api]])
+
+
+## Everything Else
+
+- feat(workspace): Support Copy Note Url for Dendron Codespaces ([[docs|dendron://dendron.dendron-site/dendron.topic.vscode.web#copy-note-url]])
 - enhance(workspace): speed up md export
 - fix(publish): giscuss integration
-- fix(publish): restores inconsistent layout on mobilea
+- fix(publish): inconsistent layout on mobile
 - fix(workspace): migrate self contained vaults command does not migrate the vault correctly
 - fix(publish): correctly handle asset prefix in markdown link
 - fix(workspace): bad error message when importing notes without a configuration
 - fix(workspace): tree view empty when note title is number
-- fix(views): fix mermaid diagrams
+- fix(views): mermaid diagrams not appearing
 - fix(schema): schemas being overwritten on save
 
 
