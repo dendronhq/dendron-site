@@ -56,14 +56,15 @@ module.exports = [
     {
       type: 'category',
       label: 'Dendron',
+      link: { type: 'note', id: 'note2', }
       items: [
         {
           type: 'note',
-          id: 'note2',
+          id: 'note3',
         },
         {
           type: 'note',
-          id: 'note3',
+          id: 'note4',
         },
       ],
     },
