@@ -2,7 +2,7 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1663087342926
+updated: 1663087474369
 created: 1601508213606
 nav_order: 2
 ---
@@ -12,7 +12,7 @@ nav_order: 2
 ### Features
 
 - feat(workspace): support "Toggle Preview" for Dendron Codespaces (#3462) @jonathan ([[docs|dendron://dendron.dendron-site/dendron.topic.vscode.web#preview]])
-- feat(structure): Add Move Selection To command (#3440) @hikchoi ([[docs|dendron://dendron.dendron-site/dendron.topic.refactoring.commands.move-selection-to]])
+- feat(structure): Add `Move Selection To` command (#3440) @hikchoi ([[docs|dendron://dendron.dendron-site/dendron.topic.refactoring.commands.move-selection-to]])
 - feat(workspace): Add  Copy Codespace URL command (#3480) @joshi ([[docs|dendron://dendron.dendron-site/dendron.ref.commands#copy-codespace-url]])
 
 ### Enhancements

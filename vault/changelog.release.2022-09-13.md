@@ -2,7 +2,7 @@
 id: 4li0gn572gw4q4jaqtca0pm
 title: 0.112
 desc: ''
-updated: 1663087351882
+updated: 1663087498258
 created: 1662992204979
 ---
 
@@ -21,7 +21,7 @@ September 13, 2022
 ## Highlights
 
 - feat(workspace): support "Toggle Preview" for Dendron Codespaces ([[docs|dendron://dendron.dendron-site/dendron.topic.vscode.web#preview]])
-- feat(structure): Add Move Selection To command ([[docs|dendron://dendron.dendron-site/dendron.topic.refactoring.commands.move-selection-to]])
+- feat(structure): Add `Move Selection To` command ([[docs|dendron://dendron.dendron-site/dendron.topic.refactoring.commands.move-selection-to]])
 
 
 ## Everything Else
