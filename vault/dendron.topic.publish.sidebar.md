@@ -134,13 +134,14 @@ module.exports = [
   {
     type: 'category',
     label: 'Guides',
+    link: { type: 'note',id: 'note1' },
     items: [
       {
         type: 'category',
         label: 'Docs',
         items: [{
           type: 'note',
-          id: 'note1'
+          id: 'note2'
         }],
       },
     ],
