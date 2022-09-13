@@ -2,7 +2,7 @@
 id: ZeC74FYVECsf9bpyngVMU
 title: Doctor
 desc: ""
-updated: 1651082523945
+updated: 1662469983603
 created: 1640418184682
 ---
 
@@ -130,6 +130,19 @@ pods:
   airtable:
     <your_pod_id>: adfg1234
 ```
+
+### fixInvalidFileNames
+
+Finds all notes that have invalid file names as per the [[restrictions|dendron.topic.lookup.ref.restrictions]] listed.
+
+A preview will open with the following information:
+1. all the found invalid file names,
+2. whether they could be automatically fixed, and
+3. if so to what file names they are going to be fixed
+
+You will also be prompted to confirm that you wish to proceed with the fix, at which point the automatic fix described in the preview will be executed.
+
+If there are pending notes that cannot be fixed automatically, please manually rename them so that they conform the [[restrictions|dendron.topic.lookup.ref.restrictions]]
 
 ## CLI
 
