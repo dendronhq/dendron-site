@@ -2,13 +2,15 @@
 id: 6682fca0-65ed-402c-8634-94cd51463cc4
 title: Vaults
 desc: ""
-updated: 1655317082844
+updated: 1663090732387
 created: 1622841137387
 ---
 
 ## Summary
 
-Your workspace is made up of one or more **vaults**. A Dendron vault stores a collection of related notes. If you're familiar with git, it's just like a code repo. By default, Dendron creates a _vaults_ folder when you first initialize a **workspace**. All your notes are stored on a per vault basis.
+![[dendron://dendron.dendron-site/dendron.concepts.vault]]
+
+If you're familiar with git, it's just like a code repo. By default, Dendron creates a _vaults_ folder when you first initialize a **workspace**. All your notes are stored on a per vault basis.
 
 ```
 .

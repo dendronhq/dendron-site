@@ -2,19 +2,19 @@
 id: c4cf5519-f7c2-4a23-b93b-1c9a02880f6b
 title: Workspace
 desc: ''
-updated: 1657825519258
+updated: 1663091186851
 created: 1622841295415
 ---
 
 ## Summary
 
-A Dendron workspace is a collection of one or more [[vaults|dendron://dendron.dendron-site/dendron.topic.vaults]] (folders with notes).
+![[dendron://dendron.dendron-site/dendron.concepts.workspace]]
 
 ## Details
 
-Every workspace has a [[dendron.yml|dendron://dendron.dendron-site/dendron.ref.config]] which specifies all vaults and configurations for a particular workspace.
+The workspace is the top most folder you create when you run `Dendron: Initialize Workspace`. It is at the same level where the `dendron.yml` file is located.
 
-Most workspaces only have a single vault. See [[Multi Vault|dendron://dendron.dendron-site/dendron.topic.multi-vault]] for scenarios of adding additional vaults.
+A workspace contains one or more [[vaults|dendron://dendron.dendron-site/dendron.concepts.vault]], with a single vault being the most common (see [[when you might want multiple vaults|dendron://dendron.dendron-site/dendron.topic.multi-vault]] for scenarios that might require additional vaults)
 
 ## Concepts
 
@@ -37,13 +37,9 @@ You can have a **bare code workspace** or a **bare native workspace**.
 
 ## Commands
 
-### Workspace: Add and Commit
-
-Add and commit all notes across all vaults to git.
-
 ### Workspace: Sync
 
-![[dendron://dendron.dendron-site/dendron.topic.workspace.commands.sync]]
+![[dendron://dendron.dendron-site/dendron.topic.workspace.commands.sync#summary,1]]
 
 ## Workspace Types
 
