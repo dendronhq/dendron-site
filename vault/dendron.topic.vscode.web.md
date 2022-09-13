@@ -52,3 +52,4 @@ Lookup can be used to find and create notes. There are a few limitations compare
 1. After Dendron finishes installing, try running lookup. Keyboard shortcuts will still work in the browser.
 
 <div style="position: relative; padding-bottom: 64.5933014354067%; height: 0;"><iframe src="https://www.loom.com/embed/c8e00408f4314174b3014879f243c9f4" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
