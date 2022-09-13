@@ -2,7 +2,7 @@
 id: 4li0gn572gw4q4jaqtca0pm
 title: 0.112
 desc: ''
-updated: 1662994550841
+updated: 1663085355550
 created: 1662992204979
 ---
 
@@ -12,7 +12,7 @@ September 13, 2022
 
 ## Everything Else
 
-- feat(workspace): preview for web extension ([[docs|dendron://dendron.dendron-site/dendron.topic.preview]])
+- feat(workspace): support "Toggle Preview" for Dendron Codespaces ([[docs|dendron://dendron.dendron-site/dendron.topic.vscode.web#preview]])
 - feat(structure): Add Move Selection To command ([[docs|dendron://dendron.dendron-site/dendron.topic.refactoring.commands.move-selection-to]])
 - feat(workspace): copy codespace url command ([[docs|dendron://dendron.dendron-site/dendron.ref.commands#copy-codespace-url]])
 - enhance(structure): new api for onCreate of note traits ([[docs|dendron://dendron.dendron-site/dendron.topic.traits.api]])
@@ -42,6 +42,8 @@ September 13, 2022
 
 This week's entry in the [[Dendron Reading Series|dendron://dendron.dendron-site/community.events.reading-series]].
 
+[[Why UML "Really" Died|dendron://dendron.dendron-site/community.events.reading-series.2022.09.13]]
+
 
 ### Event Reminders
 
@@ -57,11 +59,14 @@ This week's entry in the [[Dendron Reading Series|dendron://dendron.dendron-site
     - Next: [Tue, Sep 20, 8:30 AM PST / 16:30 UTC](https://link.dendron.so/luma)
     
 
-
 ### Thank You's
 
 A big **thanks** to the following gardeners that brought up issues, contributions, and fixes to this release :man_farmer: :woman_farmer: 
 Visit [[Discord Roles|dendron://dendron.dendron-site/community.discord.roles]] for more information.
+
+- [Swithun Liu](https://github.com/swithun-liu?) `@swithun#1863`
+  - #role.bugcatcher
+  - [no hash hint for code block](https://github.com/dendronhq/dendron/issues/3510)
 
 ## Changelog
 ![[changelog#01120,1:#01110]]
