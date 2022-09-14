@@ -2,7 +2,7 @@
 id: cphUwSPk12j4lS0tKjBdC
 title: Navigation
 desc: ''
-updated: 1660884980339
+updated: 1663121664070
 created: 1638899506405
 ---
 
@@ -77,10 +77,6 @@ Go down the hierarchy.
 The `Go Down` lookup supports tabbing for autocompletion.
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/hierarchy.go-down.gif)
-
-### [[Open Link|dendron://dendron.dendron-site/dendron.ref.commands.open-link]]
-
-![[dendron://dendron.dendron-site/dendron.ref.commands.open-link]]
 
 ## Graph View
 Dendron lets you explore your notes via a graph. Read about the [[Graph View|dendron://dendron.dendron-site/dendron.topic.graph-view]] here.
