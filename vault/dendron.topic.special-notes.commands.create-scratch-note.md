@@ -2,7 +2,7 @@
 id: z2gv1b7yc986fv93lunx6rc
 title: "Dendron: Create Scratch Note"
 desc: Create a scratch note
-updated: 1662097396698
+updated: 1662715199264
 created: 1661169226535
 ---
 
@@ -12,8 +12,8 @@ created: 1661169226535
 ![[dendron://dendron.dendron-site/dendron.topic.special-notes.scratch-note#summary,1]]
 
 ## Keybindings
-- windows: `ctrl+shift+s`
-- mac: `cmd+shift+s`
+- windows: `ctrl+k s`
+- mac: `cmd+k s`
 
 ## Details
 
