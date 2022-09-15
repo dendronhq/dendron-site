@@ -2,7 +2,7 @@
 id: pn7ifmqn73981mwz4rwse3o
 title: has_collection
 desc: 'Does this page represent a collection?'
-updated: 1653581627114
+updated: 1661340689558
 created: 1647814089787
 ---
 
@@ -22,5 +22,5 @@ created: 1647814089787
 ## Example
 
 ```yml
-has_collectioN: true
+has_collection: true
 ```

@@ -7,7 +7,7 @@ created: 1645170580284
 ---
 
 - type: `string[]`
-- default: `[root]` 
+- default: `[root]`
 - required: `true`
 
 ## Description
