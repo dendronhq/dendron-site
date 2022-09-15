@@ -2,7 +2,7 @@
 id: 3abd00eb-1c1e-4253-aaf5-dcbe20c21850
 title: Early Seed
 desc: ''
-updated: 1663251681663
+updated: 1663252887633
 created: 1604539200840
 published: true
 nav_exclude: true
@@ -17,12 +17,11 @@ Dendron 0.113 has sprouted 🌱
 
 
 ### Features
-- feat(views): create note button in tree view (#3524) @joshi
- #todo-merge docs: https://github.com/dendronhq/dendron-site/pull/649
+- feat(views): create note button in tree view (#3524) @joshi ([[docs|dendron://dendron.dendron-site/dendron.topic.sidebar.tree-view#create-a-new-note]])
 
 
 ### Enhancements
-- enhance(workspace): Change default keybinding for Create Scratch Note (#3502) @hikchoi
+- enhance(workspace): Change default keybinding for Create Scratch Note (#3502) @hikchoi ([[docs|dendron://dendron.dendron-site/dendron.topic.special-notes.commands.create-scratch-note]])
 
 
 ### Fixes
