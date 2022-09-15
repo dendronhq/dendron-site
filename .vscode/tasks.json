@@ -30,7 +30,7 @@
         {
             "label": "sync",
             "type": "shell",
-            "command": " git add . && git commit -m 'sync' && git push",
+            "command": " git add . && git commit -m 'sync' && git pull && git push",
             "problemMatcher": []
         },
     ]
