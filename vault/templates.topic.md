@@ -2,7 +2,7 @@
 id: ZljuAhFuNWEOUlFtPlC0h
 title: Feature Template
 desc: ''
-updated: 1658768084059
+updated: 1663101445929
 created: 1635992238170
 config:
   global:
