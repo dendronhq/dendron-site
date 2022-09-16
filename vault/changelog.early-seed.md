@@ -2,7 +2,7 @@
 id: 3abd00eb-1c1e-4253-aaf5-dcbe20c21850
 title: Early Seed
 desc: ''
-updated: 1662743852163
+updated: 1663252887633
 created: 1604539200840
 published: true
 nav_exclude: true
@@ -10,24 +10,20 @@ nav_exclude: true
 
 > This page documents the features, enhancements, and fixes in the latest early seed release. The early seed is a preview of the weekly release, so you'll see the next minor version when installing (ex. `0.78.0` instead of `0.77.1`). When dendron ships the general release, the currently installed extension will automatically be updated (but will still have same version).
 
-## 0.112.0
-September 09, 2022
+## 0.113.0
+September 16, 2022
 
-Dendron 0.112 has sprouted 🌱
+Dendron 0.113 has sprouted 🌱
 
 
 ### Features
-- feat(workspace): preview for web extension (#3462) @jonathan ([[docs|dendron://dendron.dendron-site/dendron.topic.preview]])
-- feat(structure): Add Move Selection To command (#3440) @hikchoi ([[docs|dendron://dendron.dendron-site/dendron.topic.refactoring.commands.move-selection-to]])
-- feat(workspace): copy codespace url command (#3480) @joshi ([[docs|dendron://dendron.dendron-site/dendron.ref.commands#copy-codespace-url]])
+- feat(views): create note button in tree view (#3524) @joshi ([[docs|dendron://dendron.dendron-site/dendron.topic.sidebar.tree-view#create-a-new-note]])
 
 
 ### Enhancements
-- enhance(structure): new api for onCreate of note traits (#3450) @hayata ([[docs|dendron://dendron.dendron-site/dendron.topic.traits.api]])
-- enhance(workspace): speed up md export (#3493) @kevin
+- enhance(workspace): Change default keybinding for Create Scratch Note (#3502) @hikchoi ([[docs|dendron://dendron.dendron-site/dendron.topic.special-notes.commands.create-scratch-note]])
 
 
 ### Fixes
-- fix(workspace): migrate self contained vaults command does not migrate the vault correctly (#3483) @joshi
-- fix(workspace): bad error message when importing notes without a configuration (#3494) @kevin
-- fix(workspace): tree view empty when note title is number (#3495) @kevin
+- fix(workspace): initial value incorrect in lookup for webext(windows) (#3512) @joshi
+- fix(workspace): visibility of Toggle Preview in codespace (#3526) @joshi
