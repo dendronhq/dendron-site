@@ -2,7 +2,7 @@
 id: l4MoqPhFvcca6Vf5T84e0
 title: Preview
 desc: ''
-updated: 1657586432786
+updated: 1663347091427
 created: 1637309100103
 ---
 
@@ -20,7 +20,6 @@ preview:
   enableFrontmatterTags:
   enableHashesForFMTags:
   enablePrettyRefs:
-  enableMermaid:
   enableKatex:
 ```
 
@@ -50,11 +49,6 @@ Render frontmatter tags with hashtags (#) prepended, if they exist.
 
 ## enablePrettyRefs
 Render note references as [[pretty refs|dendron.concepts#pretty-ref]]
-
-- default: true
-
-## enableMermaid
-Render Mermaid diagrams.
 
 - default: true
 

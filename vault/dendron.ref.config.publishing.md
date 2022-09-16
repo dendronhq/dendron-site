@@ -44,9 +44,6 @@ config:
 ## enableKatex
 ![[enableKatex|dendron.topic.publish.config.enableKatex]]
 
-## enableMermaid
-![[enableMermaid|dendron.topic.publish.config.enableMermaid]]
-
 ## enableFrontmatterTags
 ![[enableFrontmatterTags|dendron.topic.publish.config.enableFrontmatterTags]]
 
