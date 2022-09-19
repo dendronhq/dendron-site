@@ -2,10 +2,30 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1663088139811
+updated: 1663597955008
 created: 1601508213606
 nav_order: 2
 ---
+## 0.113.0
+
+
+### Features
+
+- feat(views): create note button in tree view (#3524) @joshi ([[docs|dendron://dendron.dendron-site/dendron.topic.sidebar.tree-view#create-a-new-note]])
+- feat(publish): add configuration option for sidebar (#3448) @sam ([[docs|dendron://dendron.dendron-site/dendron.topic.publish.sidebar]])
+
+### Enhancements
+
+- enhance(workspace): Change default keybinding for Create Scratch Note (#3502) @hikchoi ([[docs|dendron://dendron.dendron-site/dendron.topic.special-notes.commands.create-scratch-note]])
+
+### Fix
+
+- fix(workspace): initial value incorrect in lookup for webext(windows) (#3512) @joshi
+- fix: visibilty of Toggle Preview in codespace (#3526) @joshi
+- fix(workspace): wikilinks appear broken + pod fixes (#3532) @jonathan
+- fix(publish): click into "empty area" on sidebar submenuitem (#3523) @sam
+
+
 ## 0.112.0
 
 
