@@ -2,7 +2,7 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1663610400700
+updated: 1663610497090
 created: 1601508213606
 nav_order: 2
 ---
@@ -15,11 +15,9 @@ nav_order: 2
 - feat(structure): Add `Move Selection To` command (#3440) @hikchoi ([[docs|dendron://dendron.dendron-site/dendron.topic.refactoring.commands.move-selection-to]])
 - feat(workspace): Add `Copy Codespace URL` command (#3480) @joshi ([[docs|dendron://dendron.dendron-site/dendron.ref.commands#copy-codespace-url]])
 
-
 ### Enhancements
 
 - enhance(workspace): speed up md export (#3493) @kevin
-
 
 ### Fix
 
