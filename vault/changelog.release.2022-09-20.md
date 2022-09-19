@@ -2,7 +2,7 @@
 id: hlk8ao751acf4hgsxzcxfqz
 title: 0.113
 desc: ''
-updated: 1663599466250
+updated: 1663610794996
 created: 1663598049262
 ---
 
@@ -52,7 +52,6 @@ This week's entry in the [[Dendron Reading Series|dendron://dendron.dendron-site
 A big **thanks** to the following gardeners that brought up issues, contributions, and fixes to this release :man_farmer: :woman_farmer: 
 Visit [[Discord Roles|dendron://dendron.dendron-site/community.discord.roles]] for more information.
 
-info here
 
 ## Changelog
 ![[changelog#01130,1:#01120]]
