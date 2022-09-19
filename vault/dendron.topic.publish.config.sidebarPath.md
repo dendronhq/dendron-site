@@ -1,7 +1,7 @@
 ---
 id: j2xipr21p44rc7h8pcy2w5d
 title: sidebarPath
-desc: 'Set the path to a sidebar config file'
+desc: Set the path to a sidebar config file
 updated: 1662571436782
 created: 1662570297996
 ---
