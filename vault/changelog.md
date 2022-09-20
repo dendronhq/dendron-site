@@ -2,12 +2,11 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1663684562082
+updated: 1663687399589
 created: 1601508213606
 nav_order: 2
 ---
 ## 0.113.0
-
 
 ### Features
 
