@@ -2,7 +2,7 @@
 id: hlk8ao751acf4hgsxzcxfqz
 title: 0.113
 desc: ''
-updated: 1663684595145
+updated: 1663687378918
 created: 1663598049262
 ---
 
@@ -46,7 +46,7 @@ This week's entry in the [[Dendron Reading Series|dendron://dendron.dendron-site
 - **Community Teatime:** Drink tea, eat food, and hangout with the Dendron crew!
     - Next: [Thu, Sep 29, 11:00 AM PST / 19:00 UTC](https://link.dendron.so/luma)
 - **New User Tuesdays:** Visit the [[New User Tuesdays page|dendron://dendron.dendron-site/community.events.new-user-tuesdays]] for notes from previous sessions.
-    - Next: [Tue, Sep 20, 8:30 AM PST / 16:30 UTC](https://link.dendron.so/luma)
+    - Next: [Tue, Oct 18, 8:30 AM PST / 16:30 UTC](https://link.dendron.so/luma)
 
 
 ### Thank You's
