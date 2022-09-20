@@ -2,7 +2,7 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1663610911409
+updated: 1663683985411
 created: 1601508213606
 nav_order: 2
 ---
@@ -12,7 +12,6 @@ nav_order: 2
 ### Features
 
 - feat(views): create note button in tree view (#3524) @joshi ([[docs|dendron://dendron.dendron-site/dendron.topic.sidebar.tree-view#create-a-new-note]])
-- feat(publish): add configuration option for sidebar (#3448) @sam ([[docs|dendron://dendron.dendron-site/dendron.topic.publish.sidebar]])
 
 ### Enhancements
 
@@ -23,8 +22,6 @@ nav_order: 2
 - fix(workspace): initial value incorrect in lookup for webext(windows) (#3512) @joshi
 - fix: visibilty of Toggle Preview in codespace (#3526) @joshi
 - fix(workspace): wikilinks appear broken + pod fixes (#3532) @jonathan
-- fix(publish): click into "empty area" on sidebar submenuitem (#3523) @sam
-
 
 
 ## 0.112.0

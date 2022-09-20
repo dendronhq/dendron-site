@@ -2,7 +2,7 @@
 id: hlk8ao751acf4hgsxzcxfqz
 title: 0.113
 desc: ''
-updated: 1663610794996
+updated: 1663684008022
 created: 1663598049262
 ---
 
@@ -15,7 +15,7 @@ September 20, 2022
 - feat(publish): add configuration option for sidebar ([[docs|dendron://dendron.dendron-site/dendron.topic.publish.sidebar]])
 - enhance(workspace): Change default keybinding for Create Scratch Note ([[docs|dendron://dendron.dendron-site/dendron.topic.special-notes.commands.create-scratch-note]])
 - fix(workspace): initial value incorrect in lookup for webext(windows)
-- fix: visibilty of Toggle Preview in codespace
+- fix: visibility of Toggle Preview in codespace
 - fix(workspace): wikilinks appear broken + pod fixes
 - fix(publish): click into "empty area" on sidebar submenuitem
 
@@ -33,6 +33,7 @@ September 20, 2022
 
 This week's entry in the [[Dendron Reading Series|dendron://dendron.dendron-site/community.events.reading-series]].
 
+[[dendron://dendron.dendron-site/community.events.reading-series.2022.09.20]]
 ### Event Reminders
 
 - **Greenhouse Talks:** Visit the [[Greenhouse Talks|dendron://dendron.dendron-site/community.events.greenhouse]] for notes from previous sessions.
@@ -51,6 +52,24 @@ This week's entry in the [[Dendron Reading Series|dendron://dendron.dendron-site
 
 A big **thanks** to the following gardeners that brought up issues, contributions, and fixes to this release :man_farmer: :woman_farmer: 
 Visit [[Discord Roles|dendron://dendron.dendron-site/community.discord.roles]] for more information.
+
+- [NuclearPowerNerd](https://github.com/NuclearPowerNerd)
+  - #role.bugcatcher
+  - [Markdown Header Links Possibly Broken in Preview?](https://github.com/dendronhq/dendron/discussions/3529)
+
+- [Vikram Ghangurde](https://github.com/ghanvik) `@Muffin#3725`
+  - #role.horticulturalist
+  - [Edited image topic doc to adhere to template](https://github.com/dendronhq/dendron-site/pull/645#pullrequestreview-1110671523)
+
+- [ericthomas1](https://github.com/ericthomas1)
+  - #role.bugcatcher
+  - [Unknown Error when trying to export NextJS site](https://github.com/dendronhq/dendron/issues/3545)
+
+- [Derek Ardolf](https://github.com/ScriptAutomate) `@icanteven#0264`
+  - [Upgrade Dendron to 0.112.0, upgrade Dendron config, add more links to README](https://gitlab.com/dendronhq/template.publish.gitlab/-/merge_requests/2)
+  - [Dendron: Go To Note on a link to a non-existent note does not respect vaultSelectionModeOnCreate when alwaysPrompt](https://github.com/dendronhq/dendron/issues/3546)
+  - [Move Selection To to a non-existent note does not respect vaultSelectionModeOnCreate when alwaysPrompt](https://github.com/dendronhq/dendron/issues/3547)
+  - [Dendron: Move Header on a link to a non-existent note does not respect when leaveTrace is true](https://github.com/dendronhq/dendron/issues/3548)
 
 
 ## Changelog
