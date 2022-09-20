@@ -2,7 +2,7 @@
 id: hlk8ao751acf4hgsxzcxfqz
 title: 0.113
 desc: ''
-updated: 1663684008022
+updated: 1663684595145
 created: 1663598049262
 ---
 
@@ -12,13 +12,12 @@ September 20, 2022
 ## Everything Else
 
 - feat(views): create note button in tree view ([[docs|dendron://dendron.dendron-site/dendron.topic.sidebar.tree-view#create-a-new-note]])
-- feat(publish): add configuration option for sidebar ([[docs|dendron://dendron.dendron-site/dendron.topic.publish.sidebar]])
 - enhance(workspace): Change default keybinding for Create Scratch Note ([[docs|dendron://dendron.dendron-site/dendron.topic.special-notes.commands.create-scratch-note]])
 - fix(workspace): initial value incorrect in lookup for webext(windows)
-- fix: visibility of Toggle Preview in codespace
+- fix(workspace): visibility of Toggle Preview in codespace
 - fix(workspace): wikilinks appear broken + pod fixes
-- fix(publish): click into "empty area" on sidebar submenuitem
-
+- fix(sync): nextjs export issue
+- fix(markdown): same page header links
 
 ## Community
 
@@ -33,7 +32,9 @@ September 20, 2022
 
 This week's entry in the [[Dendron Reading Series|dendron://dendron.dendron-site/community.events.reading-series]].
 
-[[dendron://dendron.dendron-site/community.events.reading-series.2022.09.20]]
+[[Have I reached the Douglas Adams Inflection point (or is modern tech just a bit rubbish)?|dendron://dendron.dendron-site/community.events.reading-series.2022.09.20]]
+
+
 ### Event Reminders
 
 - **Greenhouse Talks:** Visit the [[Greenhouse Talks|dendron://dendron.dendron-site/community.events.greenhouse]] for notes from previous sessions.

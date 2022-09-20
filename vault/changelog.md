@@ -2,7 +2,7 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1663683985411
+updated: 1663684562082
 created: 1601508213606
 nav_order: 2
 ---
@@ -20,8 +20,10 @@ nav_order: 2
 ### Fix
 
 - fix(workspace): initial value incorrect in lookup for webext(windows) (#3512) @joshi
-- fix: visibilty of Toggle Preview in codespace (#3526) @joshi
+- fix(workspace): visibility of Toggle Preview in codespace (#3526) @joshi
 - fix(workspace): wikilinks appear broken + pod fixes (#3532) @jonathan
+- fix(sync): nextjs export issue (#3539) @jonathan
+- fix(markdown): same page header links (#3543) @jonathan
 
 
 ## 0.112.0
