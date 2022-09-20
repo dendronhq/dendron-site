@@ -2,7 +2,7 @@
 id: 5fGMHyXmErIV9odz01BBH
 title: Next.js Pod
 desc: ''
-updated: 1662941084648
+updated: 1663296639278
 created: 1628955339442
 ---
 
@@ -37,7 +37,7 @@ Running this pod will create the following files in `dest`.
 ## References
 
 ### .env.production
-This is used to pass variables to next template. If [[dendron.topic.publish.config.assetsPrefix]] is set, it is set in here
+This is used to pass variables to next template. If [[dendron.topic.publish.config.assetsPrefix]] is set, it is set in here as `NEXT_PUBLIC_ASSET_PREFIX`
 
 ### dendron.json
 

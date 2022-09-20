@@ -1,7 +1,7 @@
 ---
 id: 2k083y52jny5grqgdbhlayw
 title: Keyboard Shortcut Change
-desc: 'Troubleshooting for keyboard shortcut related issues'
+desc: Troubleshooting for keyboard shortcut related issues
 updated: 1662709273426
 created: 1662694843326
 ---
