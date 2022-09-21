@@ -2,7 +2,7 @@
 id: f83c1d87-eac0-48f3-a5cf-8a69989d8ec1
 title: Configuration
 desc: ''
-updated: 1655169573548
+updated: 1663347070306
 created: 1619539817122
 nav_order: 2.1
 ---
@@ -73,15 +73,6 @@ With this set, you will be prompted to select the vault location each time you c
 - default: false
 
 With this set to `true`: `Create new` will NOT bubble up to the top when using [[Note Lookup|dendron.topic.lookup]]. Use this setting when your workflow largely consists of lookups and you want to keep `Create new` as the last entry in the look up results. 
-
-### mermaid
-> This setting is scheduled for deprecation 📆
->
-> Use [[enableMermaid|dendron://dendron.dendron-site/dendron.ref.config.publishing#enablemermaid]] for publishing, or [[enableMermaid|dendron://dendron.dendron-site/dendron.ref.config.preview#enablemermaid]] for preview instead.
-
-- default: true
-
-Turn on to enable [[mermaid support|dendron.topic.markdown#diagrams]] for publishing.
 
 ### noCaching
 
