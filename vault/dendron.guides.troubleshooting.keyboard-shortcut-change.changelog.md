@@ -26,6 +26,6 @@ To revert back to using the original keyboard shortcut,
   {
     "command": "dendron.createScratchNote",
     "key": "shift+cmd+s", // "shift+ctrl+s" if you are on a Windows system
-    "when": "dednron:pluginActive"
+    "when": "dendron:pluginActive"
   }
 ```
