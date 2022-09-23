@@ -2,7 +2,7 @@
 id: 3abd00eb-1c1e-4253-aaf5-dcbe20c21850
 title: Early Seed
 desc: ''
-updated: 1663863268966
+updated: 1663940060305
 created: 1604539200840
 published: true
 nav_exclude: true
@@ -14,13 +14,6 @@ nav_exclude: true
 September 23, 2022
 
 Dendron 0.114 has sprouted 🌱
-
-
-### Features
-
-
-### Enhancements
-
 
 ### Fixes
 - fix(views): make preview theme background color render correctly (#3552) @sam
