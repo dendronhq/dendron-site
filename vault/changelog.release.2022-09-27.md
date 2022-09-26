@@ -2,20 +2,12 @@
 id: 9qwkfmnftzlj6f0oqi2wj35
 title: 0.114
 desc: ''
-updated: 1664209354261
+updated: 1664217381061
 created: 1664203197858
 ---
 
 Dendron 0.114 has sprouted  🌱
 September 27, 2022
-
-
-**Highlight type:** Description here.
-
-- More information: `[[Title of Docs and Header if Used|dendron://dendron.dendron-site/example.docs]]`
-
-
-## Highlights
 
 ## Everything Else
 
