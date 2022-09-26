@@ -2,7 +2,7 @@
 id: 9qwkfmnftzlj6f0oqi2wj35
 title: 0.114
 desc: ''
-updated: 1664205334176
+updated: 1664209354261
 created: 1664203197858
 ---
 
@@ -29,6 +29,14 @@ September 27, 2022
 - fix(workspace): Update backlinks after engine updates
 
 ## Community
+
+### General Updates
+
+**Greenhouse this Friday!**
+
+We have a [[Greenhouse Talk|dendron://dendron.dendron-site/community.events.greenhouse]] this week! Come listen to Bob Doto (https://twitter.com/thehighpony), a pulished author and zettlekasten enthusiast, speak on 'Zettelkasten 101: Terminology and methods of keeping a slip-box' 
+
+- [Greenhouse Talk](https://lu.ma/knu8uopf) (Fri, Sep 30, 09:00 AM PST / 16:00 UTC)
 
 
 ### Starboard and TIL Highlights
