@@ -2,7 +2,7 @@
 id: 0e57f8d1-e501-49db-974c-01eb64c20c22
 title: Creating Notes
 desc: ''
-updated: 1631252987241
+updated: 1664168248412
 created: 1608494562268
 ---
 ## Summary
@@ -11,7 +11,26 @@ While we call it the `Lookup Bar`, you can also use it to create notes that don'
 
 To try it yourself, bring up the lookup bar. Type `hello` and hit `Enter`.
 
-When looking up a note that does NOT have any special characters [" ","|","*","^","$","!","=","'"] (note: space is deemed as special character), and does NOT yet exist, `Create New` will bubble up to the top of query results to make it convenient to create a new note. 
+## Creating new note
+
+When looking up a note that does NOT have any special characters [" ","|","*","^","$","!","=","'"] (note: space is deemed as special character), and does NOT yet exist, `Create New` will bubble up to the top of query results to make it convenient to create a new note.
+
+A new note will be created when you hit `Enter` while `Create New` is selected.
+
+## Creating Notes with template applied
+
+Similar to how you can [[create a new note|dendron://dendron.dendron-site/dendron.topic.lookup.create#creating-new-note]], you can create a new note and select a template to be applied upon creation.
+
+If you hit `Enter` while `Create New with Template` is highlighted, you will be prompted again to select the template to be applied.
+If you hit `Enter` again after selecting the template, a new note will be created with the template already applied.
+
+> Lookup modifiers that can conflict with the template application will be disabled when you create notes this way.  
+> 
+> This means [[selectionExtract|dendron://dendron.dendron-site/dendron.topic.lookup.modifiers#selectionextract]] will have no effect even when selected.
+
+> Lookup modifiers that apply templates or modify the note themselves in any way will disable this behavior.
+>
+> This means `Create New with Template` will not appear if you are [[creating a task note|dendron://dendron.dendron-site/dendron.topic.tasks#creating-a-task-note]]
 
 ## Creating Special Notes
 
