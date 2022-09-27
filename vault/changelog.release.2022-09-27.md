@@ -2,7 +2,7 @@
 id: 9qwkfmnftzlj6f0oqi2wj35
 title: 0.114
 desc: ''
-updated: 1664217381061
+updated: 1664286535719
 created: 1664203197858
 ---
 
@@ -19,10 +19,35 @@ September 27, 2022
 - fix(workspace): Disallow note creation through go to note if filename is invalid
 - fix(publish): display headings pleasantly when containing non-text content nodes
 - fix(workspace): Update backlinks after engine updates
+- fix(workspace): engine init with note candidates enabled
 
 ## Community
 
 ### General Updates
+
+
+#### Updated Release Schedule
+
+We're changing our release schedule starting October. Instead of weekly, we will release every two weeks. 
+An early preview of changes will be available to [[supporters|dendron://dendron.dendron-site/dendron.contribute.financial]] on a weekly basis. 
+
+Dendron has been on a weekly release cycle since our inception and we've shipped hundreds of features within the last two years under this model.
+This has allowed us to iterate quickly based on community feedback but it also came with some downsides - many of you have told us that it was becoming hard to keep up with all the changes, it made it hard to work on bigger issues, and sometimes, our releases would break things.
+
+Dendron is now approaching 100k installs and has become an essential part of the daily workflow of thousands of developers. 
+We want to ensure that you can always rely on Dendron to be available when you need it and at the same time, do some of the groundwork to address larger issues that many of you have been asking for for years.
+
+Some projects we're working on: real-time performance on all operations (<100ms), a sqlite based backend, mobile support, and a managed publishing service. 
+
+
+### A new blog post has sprouted
+
+Many of you have asked us for more examples of how to take notes in Dendron. 
+
+Our [[latest blog post|dendron://dendron.blog/blog.2022.09-27-cache-all-the-things]] goes over our recommended workflow for building a personal knowledge base of any size. 
+
+Please let us know what you think and consider [subscribing](https://buttondown.email/dendron) to our blog to stay up to date on new posts!
+
 
 **Greenhouse this Friday!**
 
@@ -32,7 +57,7 @@ We have a [[Greenhouse Talk|dendron://dendron.dendron-site/community.events.gree
 
 
 ### Starboard and TIL Highlights
-<!-- TODO: update links. Delete section is no new items-->
+
 > These are highlights from the [[Dendron Discord|dendron://dendron.dendron-site/community.discord.channels]] `#starboard` and `#today-i-learned` channels.
 
 - ⭐ `Streetlamp#7680` shared a tip on writing code blocks where you can add the name of the language to make the code block follow that programming language's syntax and make the code block more readable. Shared his sample syntax here [link to message](https://discord.com/channels/717965437182410783/742532267058004098/1021298351997730897)

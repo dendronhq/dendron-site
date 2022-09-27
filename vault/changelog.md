@@ -2,7 +2,7 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1664203672120
+updated: 1664286380998
 created: 1601508213606
 nav_order: 2
 ---
@@ -24,7 +24,7 @@ nav_order: 2
 - fix(workspace): Disallow note creation through go to note if filename is invalid (#3551) @hikchoi
 - fix(publish): display headings pleasantly when containing non-text content nodes (#3525) @sam
 - fix(workspace): Update backlinks after engine updates (#3535) @tuling
-
+- fix(workspace): engine init with note candidates enabled (#3585) @jonathan
 
 ## 0.113.0
 
