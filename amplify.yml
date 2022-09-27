@@ -11,6 +11,7 @@ frontend:
       commands: 
         - nvm use 14
         - rm -rf .next/node_modules
+        - rm -rf .next/yarn.lock
         - "(test -d .next) && (echo 'updating Dendron Next...' && cd .next && git reset --hard && git clean -f && git pull && yarn) || (echo 'init Dendron Next' && yarn dendron publish init)"
         - "(test -d .next/.next) && (rm -rf .next/.next && echo 'delete Next.js cache' && cd ..) || echo 'no Next.js cache found'"
         - "echo 'version check...' && yarn dendron --version"
