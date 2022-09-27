@@ -2,24 +2,20 @@
 id: 9qwkfmnftzlj6f0oqi2wj35
 title: '0.114'
 desc: ''
-updated: 1664318373209
+updated: 1664320531778
 created: 1664203197858
 ---
 
 Dendron 0.114 has sprouted  🌱
 September 27, 2022
 
-**Custom Sidebar Support**: You can now customize the contents of the menu in the published dendron sidebar. This gives you greater flexibility in what to showcase and lets you nest content from different hierarchies under a common category.
-
-- More information: [[Sidebar|dendron://dendron.dendron-site/dendron.topic.publish.sidebar]]
-
 ## Highlights
 
-- feat(publish): add configuration option for sidebar ([[docs|dendron://dendron.dendron-site/dendron.topic.publish.sidebar]])
+- ~~feat(publish): add configuration option for sidebar ([[docs|dendron://dendron.dendron-site/dendron.topic.publish.sidebar]])~~ (some users reported some regressions on the site after this update - we've reverted this change and making some fixes in the meantime)
 
 ## Everything Else
 
-- enhance(publish): upgrade nextjs to [12.3.0](https://nextjs.org/blog/next-12-3) with 7x faster minification when building
+<!-- - enhance(publish): upgrade nextjs to [12.3.0](https://nextjs.org/blog/next-12-3) with 7x faster minification when building -->
 - fix(publish): click into "empty area" on sidebar submenu item
 - fix(views): make preview theme background color render correctly
 - fix(workspace): Disallow note creation through go to note if filename is invalid
