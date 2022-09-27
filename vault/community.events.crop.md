@@ -2,7 +2,7 @@
 id: tayowNP4tMvcqH7AraoQ4
 title: CROP Event
 desc: ''
-updated: 1654782174242
+updated: 1664039729854
 created: 1628730733281
 skipLevels: 2
 has_collection: true
@@ -16,6 +16,8 @@ Every two weeks, we post three issues in the [#feedback](https://discordapp.com/
 1. Requested by the community (with >5 upvotes),
 2. New issues that people have recently expressed interest in, or
 3. Feasible to do (or make substantial progress) within a week.
+
+A list of all current crops can be found on [github](https://github.com/orgs/dendronhq/projects/7#card-84287943)
 
 ## Details
 We take a quick poll over the weekend (opens Wednesday and closes on Monday) and put the most popular issue in our immediate sprint backlog. However, we don't commit to any specific timeline for delivering on CROP issues, so not to create expectations, but the development team will start working on them.

@@ -2,7 +2,7 @@
 id: fabYbPyk3DMCMoG92lIrq
 title: Configuration
 desc: 'Configuration namespace that holds all Dendron Publishing related settings.'
-updated: 1662440551621
+updated: 1663727813161
 created: 1637772506823
 config:
   global:
@@ -20,6 +20,7 @@ publishing:
   siteRootDir:
   siteIndex:
   siteHierarchies:
+
   hierarchy:
   enableFMTitle:
   enablePrettyRefs:
@@ -38,38 +39,9 @@ publishing:
   hierarchyDisplayTitle:
   duplicateNoteBehavior:
   ga:
-    tracking:
   seo:
-    title:
-    description:
-    author:
-    twitter:
-    image:
-      url:
-      alt:
   github:
-    cname:
-    enableEditLink:
-    editLinkText:
-    editBranch:
-    editViewMode:
-    editRepository:
   giscus:
-    id:
-    host:
-    repo:
-    repoId:
-    category:
-    categoryId:
-    mapping:
-    term:
-    theme:
-    strict:
-    reactionsEnabled:
-    emitMetadata:
-    inputPosition:
-    lang:
-    loading:
 ```
 
 > Please note that the properties listed below are not strictly categorized by namespace, but by what they do. Use the namespace described in the summary section of this note to reference the actual organization of these properties.
