@@ -2,17 +2,24 @@
 id: 9qwkfmnftzlj6f0oqi2wj35
 title: 0.114
 desc: ''
-updated: 1664293958307
+updated: 1664296353210
 created: 1664203197858
 ---
 
 Dendron 0.114 has sprouted  🌱
 September 27, 2022
 
-## Everything Else
+**Custom Sidebar Support**: You can now customize the contents of the menu in the published dendron sidebar. This gives you greater flexibility in what to showcase and lets you nest content from different hierarchies under a common category.
+
+- More information: [[Sidebar|dendron://dendron.dendron-site/dendron.topic.publish.sidebar]]
+
+## Highlights
 
 - feat(publish): add configuration option for sidebar ([[docs|dendron://dendron.dendron-site/dendron.topic.publish.sidebar]])
-- enhance(publish): upgrade nextjs and various other improvements
+
+## Everything Else
+
+- enhance(publish): upgrade nextjs to [12.3.0](https://nextjs.org/blog/next-12-3) with 7x faster minification when building
 - fix(publish): click into "empty area" on sidebar submenu item
 - fix(publish): incompatibilities with new sidebar implementation
 - fix(views): make preview theme background color render correctly
@@ -54,6 +61,13 @@ Please let us know what you think and consider [subscribing](https://buttondown.
 We have a [[Greenhouse Talk|dendron://dendron.dendron-site/community.events.greenhouse]] this week! Come listen to Bob Doto (https://twitter.com/thehighpony), a pulished author and zettlekasten enthusiast, speak on 'Zettelkasten 101: Terminology and methods of keeping a slip-box' 
 
 - [Greenhouse Talk](https://lu.ma/knu8uopf) (Fri, Sep 30, 09:00 AM PST / 16:00 UTC)
+
+#### CROP Updates
+##### CROP Shipped
+A CROP is an issue that is submitted and voted on by the community. This week, we shipped the following CROP:
+- [Rename note command doesn't update wikilinks to the renamed note if they are inside the renamed note](https://github.com/dendronhq/dendron/issues/1207) ships this week, submitted by `@foureyedsoul#0796`
+
+A list of all current crops can be found on [github](https://github.com/orgs/dendronhq/projects/7#card-84287943)
 
 
 ### Starboard and TIL Highlights

@@ -2,7 +2,7 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1664286380998
+updated: 1664296432677
 created: 1601508213606
 nav_order: 2
 ---
@@ -14,12 +14,11 @@ nav_order: 2
 
 ### Enhancements
 
-- enhance(publish): upgrade nextjs and various other improvements (#3533) @kevin
+- enhance(publish): upgrade nextjs to [12.3.0](https://nextjs.org/blog/next-12-3) with 7x faster minification when building (#3533) @kevin
 
 ### Fix
 
 - fix(publish): click into "empty area" on sidebar submenu item (#3523) @sam
-- fix(publish): incompatibilities with new sidebar implementation (#3542) @sam
 - fix(views): make preview theme background color render correctly (#3552) @sam
 - fix(workspace): Disallow note creation through go to note if filename is invalid (#3551) @hikchoi
 - fix(publish): display headings pleasantly when containing non-text content nodes (#3525) @sam
