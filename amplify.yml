@@ -5,17 +5,15 @@ frontend:
       commands:
         - nvm install 14
         - nvm use 14
-        - yarn
+         # - yarn
          # - yarn add @dendronhq/dendron-cli@latest
     build:
       commands: 
         - nvm use 14
-        - rm -rf .next/node_modules
-        - rm -rf .next/yarn.lock
-        - "(test -d .next) && (echo 'updating Dendron Next...' && cd .next && git reset --hard && git clean -f && git pull && yarn) || (echo 'init Dendron Next' && yarn dendron publish init)"
+        - "(test -d .next) && (echo 'updating Dendron Next...' && cd .next && git reset --hard && git clean -f && git pull && npm install) || (echo 'init Dendron Next' && npx dendron publish init)"
         - "(test -d .next/.next) && (rm -rf .next/.next && echo 'delete Next.js cache' && cd ..) || echo 'no Next.js cache found'"
-        - "echo 'version check...' && yarn dendron --version"
-        - "echo 'build and export...' && yarn dendron publish export"
+        - "echo 'version check...' && npx dendron --version"
+        - "echo 'build and export...' && npx dendron publish export"
   artifacts:
     baseDirectory: .next/out
     files:
