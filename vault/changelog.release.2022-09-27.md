@@ -2,7 +2,7 @@
 id: 9qwkfmnftzlj6f0oqi2wj35
 title: 0.114
 desc: ''
-updated: 1664297312295
+updated: 1664300851751
 created: 1664203197858
 ---
 
@@ -57,7 +57,7 @@ Please let us know what you think and consider [subscribing](https://buttondown.
 
 **Greenhouse this Friday!**
 
-We have a [[Greenhouse Talk|dendron://dendron.dendron-site/community.events.greenhouse]] this week! Come listen to Bob Doto (https://twitter.com/thehighpony), a pulished author and zettlekasten enthusiast, speak on 'Zettelkasten 101: Terminology and methods of keeping a slip-box' 
+We have a [[Greenhouse Talk|dendron://dendron.dendron-site/community.events.greenhouse]] this week! Come listen to Bob Doto (https://twitter.com/thehighpony), a published author and zettlekasten enthusiast, speak on 'Zettelkasten 101: Terminology and methods of keeping a slip-box' 
 
 - [Greenhouse Talk](https://lu.ma/knu8uopf) (Fri, Sep 30, 09:00 AM PST / 16:00 UTC)
 
