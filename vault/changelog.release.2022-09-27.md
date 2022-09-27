@@ -2,7 +2,7 @@
 id: 9qwkfmnftzlj6f0oqi2wj35
 title: 0.114
 desc: ''
-updated: 1664296353210
+updated: 1664296727818
 created: 1664203197858
 ---
 
@@ -63,6 +63,7 @@ We have a [[Greenhouse Talk|dendron://dendron.dendron-site/community.events.gree
 - [Greenhouse Talk](https://lu.ma/knu8uopf) (Fri, Sep 30, 09:00 AM PST / 16:00 UTC)
 
 #### CROP Updates
+
 ##### CROP Shipped
 A CROP is an issue that is submitted and voted on by the community. This week, we shipped the following CROP:
 - [Rename note command doesn't update wikilinks to the renamed note if they are inside the renamed note](https://github.com/dendronhq/dendron/issues/1207) ships this week, submitted by `@foureyedsoul#0796`
