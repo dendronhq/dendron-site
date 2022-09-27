@@ -1,8 +1,8 @@
 ---
 id: e780000d-c784-4945-8e42-35218a3ecf10
-title: Amoeba Workflow
+title: Amoeba Pattern
 desc: ''
-updated: 1663268353515
+updated: 1664118040253
 created: 1600729134898
 ---
 The amoeba pattern is way of creating notes and schemas using an iterative process.
