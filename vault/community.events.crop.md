@@ -2,7 +2,7 @@
 id: tayowNP4tMvcqH7AraoQ4
 title: CROP Event
 desc: ''
-updated: 1664039729854
+updated: 1664295291228
 created: 1628730733281
 skipLevels: 2
 has_collection: true
@@ -11,6 +11,8 @@ sort_order: reverse
 ---
 
 ## Summary
+A CROP (Community Request ) is an issue that is submitted and voted on by the community. 
+
 Every two weeks, we post three issues in the [#feedback](https://discordapp.com/channels/717965437182410783/739186036495876126) ([Discord invite](https://discord.com/invite/xrKTUStHNZ)) channel. These are a combination of issues that are:
 
 1. Requested by the community (with >5 upvotes),

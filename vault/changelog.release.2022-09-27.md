@@ -1,8 +1,8 @@
 ---
 id: 9qwkfmnftzlj6f0oqi2wj35
-title: 0.114
+title: '0.114'
 desc: ''
-updated: 1664300851751
+updated: 1664318373209
 created: 1664203197858
 ---
 
@@ -50,7 +50,7 @@ Some projects we're working on: real-time performance on all operations (<100ms)
 
 Many of you have asked us for more examples of how to take notes in Dendron. 
 
-Our [[latest blog post|dendron://dendron.blog/blog.2022.09-27-cache-all-the-things]] goes over our recommended workflow for building a personal knowledge base of any size. 
+Our [latest blog post](https://blog.dendron.so/notes/o2qlr31o99tycon4hlhgjhw) goes over our recommended workflow for building a personal knowledge base of any size. 
 
 Please let us know what you think and consider [subscribing](https://buttondown.email/dendron) to our blog to stay up to date on new posts!
 

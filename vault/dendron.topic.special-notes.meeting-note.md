@@ -2,7 +2,7 @@
 id: x1d18w46rxu34tksct3d4lh
 title: Meeting Note
 desc: 'Meeting notes help you keep track of meetings by providing a structured default to capture notes, attendees and next steps'
-updated: 1661748090214
+updated: 1664239793788
 created: 1657070789093
 ---
 
@@ -34,4 +34,3 @@ By default, this will apply the meeting template to all notes that follow the pa
 For example, `meet.2022.04.01` or `meet.2022.04.01.weekly-planning` will have the content of `templates.meet` applied to them when they are created.
 
 If you want to change the pattern of your meeting note names and still want the template to apply, you can edit the schema definition in the file `dendron.meet.schema.yml`.
-
