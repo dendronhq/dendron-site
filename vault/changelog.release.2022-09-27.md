@@ -2,7 +2,7 @@
 id: 9qwkfmnftzlj6f0oqi2wj35
 title: 0.114
 desc: ''
-updated: 1664296727818
+updated: 1664297312295
 created: 1664203197858
 ---
 
@@ -21,7 +21,6 @@ September 27, 2022
 
 - enhance(publish): upgrade nextjs to [12.3.0](https://nextjs.org/blog/next-12-3) with 7x faster minification when building
 - fix(publish): click into "empty area" on sidebar submenu item
-- fix(publish): incompatibilities with new sidebar implementation
 - fix(views): make preview theme background color render correctly
 - fix(workspace): Disallow note creation through go to note if filename is invalid
 - fix(publish): display headings pleasantly when containing non-text content nodes
