@@ -2,7 +2,7 @@
 id: 9qwkfmnftzlj6f0oqi2wj35
 title: 0.114
 desc: ''
-updated: 1664286535719
+updated: 1664288048454
 created: 1664203197858
 ---
 
@@ -67,6 +67,9 @@ We have a [[Greenhouse Talk|dendron://dendron.dendron-site/community.events.gree
 
 This week's entry in the [[Dendron Reading Series|dendron://dendron.dendron-site/community.events.reading-series]].
 
+[[How I’m a Productive Programmer With a Memory of a Fruit Fly|dendron://dendron.dendron-site/community.events.reading-series.2022.09.27]]
+
+
 ### Event Reminders
 
 - **Greenhouse Talks:** Visit the [[Greenhouse Talks|dendron://dendron.dendron-site/community.events.greenhouse]] for notes from previous sessions.
@@ -85,5 +88,24 @@ This week's entry in the [[Dendron Reading Series|dendron://dendron.dendron-site
 A big **thanks** to the following gardeners that brought up issues, contributions, and fixes to this release :man_farmer: :woman_farmer: 
 Visit [[Discord Roles|dendron://dendron.dendron-site/community.discord.roles]] for more information.
 
+- [Ryan Hill](https://github.com/rlh1994) `@rlh1994#9754`
+  - [Unable to use ` type text in note title](https://github.com/dendronhq/dendron/issues/3557)
+
+- [frstlvl](https://github.com/frstlvl)
+  - #role.taxonomist
+  - ["dendron" misspelled in "when" clause](https://github.com/dendronhq/dendron-site/pull/658)
+
+- [Joe Peterson](https://github.com/jeep) `@jeep#0301`
+  - #role.bugcatcher
+  - [Email autolinks not working](https://github.com/dendronhq/dendron/issues/3558)
+  
+- [Vianney Stroebel](https://github.com/vibl)
+  - #role.bugcatcher
+  - [Clicking on any internal link in the doc site (apart from the TOC) reloads the page](https://github.com/dendronhq/dendron/issues/3570)
+  
+- [Tanamr](https://github.com/samuelxyz) `@Tanamr#3739`
+  - [Task notes do not render correctly inside note references (in the preview)](https://github.com/dendronhq/dendron/issues/3578)
+
+  
 ## Changelog
 ![[changelog#01140,1:#01130]]
