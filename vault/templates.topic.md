@@ -10,7 +10,7 @@ config:
 ---
 
 {{!
-See [[Top Level Feature|dendron://dendron.dendron-site/dendron.contribute.documentation.tutorial.top-level-feature]] for instructions on filling out this template
+See [[Topic|dendron://dendron.dendron-site/dendron.contribute.documentation.tutorial.topic]] for instructions on filling out this template
 }}
 
 ## Summary

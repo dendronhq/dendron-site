@@ -86,7 +86,6 @@ Here is a list of resource that will help you start using links in your notes:
 
 ![[dendron://dendron.dendron-site/dendron.topic.links.markdown-link#summary,1]]
 
-
 ## Children
 
 - [[Concepts|dendron://dendron.dendron-site/dendron.topic.links.concepts]]

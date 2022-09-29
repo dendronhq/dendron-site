@@ -12,7 +12,7 @@ created: 1653438949072
 
 You can apply template variables by using the following syntax: `{{ VARIABLE }}`
 
-### Globally Available
+## Globally Available
 
 - `CURRENT_YEAR`: The current year
 - `CURRENT_MONTH`: The month as two digits (example '02')
