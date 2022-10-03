@@ -2,7 +2,7 @@
 id: fabYbPyk3DMCMoG92lIrq
 title: Configuration
 desc: 'Configuration namespace that holds all Dendron Publishing related settings.'
-updated: 1663727813161
+updated: 1664187254597
 created: 1637772506823
 config:
   global:
@@ -42,6 +42,7 @@ publishing:
   seo:
   github:
   giscus:
+  searchMode:
 ```
 
 > Please note that the properties listed below are not strictly categorized by namespace, but by what they do. Use the namespace described in the summary section of this note to reference the actual organization of these properties.
@@ -65,6 +66,7 @@ These are properties related to togglable behaviors when the site is being publi
 - [[enableFMTitle|dendron.topic.publish.config.enableFMTitle]]
 - [[enableNoteTitleForLink|dendron.topic.publish.config.enableNoteTitleForLink]]
 - [[enableHierarchyDisplay|dendron.topic.publish.config.enableHierarchyDisplay]]
+- [[searchMode|dendron.topic.publish.config.searchMode]]
 
 ## Asset properties
 These are properties related to how assets should be handled when the site is being published.
