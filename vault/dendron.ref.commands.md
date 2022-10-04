@@ -168,7 +168,7 @@ This pattern would specify a set including all notes under `alpha` _except_ for 
     -   key: `ctrl+k ctrl+c`
     -   mac: `cmd+k cmd+c`
 
-Modify your note to a different format and copy it to the clipboard.
+Modify your selected text from a note to a different format and copy it to the clipboard.
 Presently supports `JSON` and `Markdown` format.
 
 <div style="position: relative; padding-bottom: 53.28125%; height: 0;"><iframe src="https://www.loom.com/embed/2dcabd41467944e8a09a326843a3c911" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
