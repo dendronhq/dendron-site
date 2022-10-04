@@ -2,7 +2,7 @@
 id: 3abd00eb-1c1e-4253-aaf5-dcbe20c21850
 title: Early Seed
 desc: ''
-updated: 1664894096525
+updated: 1664898428616
 created: 1604539200840
 published: true
 nav_exclude: true
@@ -19,7 +19,6 @@ Dendron 0.115 has sprouted 🌱
 **Autocomplete everywhere**: Tab-autocomplete now works on all commands. This was previously just limited to `Lookup`
 
 ### Features
-- feat(workspace): copy as command (#3544) @joshi
 - feat(lookup): Add Create New with Template label to note lookup (#3563) @hikchoi ([[docs|dendron://dendron.dendron-site/dendron.topic.lookup.create]])
 
 ### Enhancements
