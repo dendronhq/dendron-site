@@ -2,7 +2,7 @@
 id: r6440eigzebewsv6shlhid7
 title: 0.115
 desc: ''
-updated: 1665416324781
+updated: 1665417846862
 created: 1665411531341
 ---
 
@@ -36,7 +36,7 @@ October 11, 2022
 
 ![[community.events.greenhouse#summary,1:#*]]
 
-Video from and notes from our last talk now available - <!-- TODO: update links. Delete section is no new items-->
+Video from and notes from our last talk now available - [[September Greenhouse: Zettlekasten 101 with Bob Doto|dendron://dendron.dendron-site/community.events.greenhouse.2022-09-30-zettlekasten-101]]
 
 Are you interested in speaking at our next greenhouse? If so, fill out the [Greenhouse Proposal Form](https://airtable.com/shrHMMl1NwefpM689?prefill_SurveyName=GreenhouseProposal&hide_SurveyName=true) to apply for a slot!
 
