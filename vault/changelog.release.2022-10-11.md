@@ -2,7 +2,7 @@
 id: r6440eigzebewsv6shlhid7
 title: 0.115
 desc: ''
-updated: 1665414331624
+updated: 1665416324781
 created: 1665411531341
 ---
 
@@ -70,4 +70,4 @@ A big **thanks** to the following gardeners that brought up issues, contribution
 Visit [[Discord Roles|dendron://dendron.dendron-site/community.discord.roles]] for more information.
 
 ## Changelog
-![[changelog#0760,1:#0750]]
+![[changelog#01150,1:#01140]]
