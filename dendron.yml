@@ -16,7 +16,8 @@ commands:
         enableMultiSelect: false
     insertNoteIndex:
         enableMarker: false
-    copyNoteLink: {}
+    copyNoteLink:
+        aliasMode: title
     templateHierarchy: template
 workspace:
     dendronVersion: 0.83.0
@@ -37,7 +38,6 @@ workspace:
         zoomSpeed: 1
         createStub: false
     enableAutoCreateOnDefinition: false
-    enableHandlebarTemplates: true
     enableXVaultWikiLink: true
     enableRemoteVaultInit: true
     workspaceVaultSyncMode: noCommit
@@ -71,11 +71,9 @@ workspace:
     enableHashTags: true
     enableEditorDecorations: true
     enableFullHierarchyNoteTitle: false
-    enableSmartRefs: false
 preview:
     enableFMTitle: true
     enableNoteTitleForLink: true
-    enableMermaid: true
     enablePrettyRefs: true
     enableKatex: true
     automaticallyShowPreview: false
@@ -84,7 +82,6 @@ preview:
 publishing:
     enableFMTitle: true
     enableNoteTitleForLink: true
-    enableMermaid: true
     enablePrettyRefs: true
     enableKatex: true
     copyAssets: true
@@ -106,7 +103,7 @@ publishing:
     enableHashesForFMTags: false
     enableRandomlyColoredTags: true
     writeStubs: false
-    siteBanner: "custom"
+    siteBanner: custom
     seo:
         title: Dendron
         description: >-
@@ -116,8 +113,9 @@ publishing:
         author: dendronhq
         twitter: dendronhq
         image:
-          url: https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/logo-256.png
-          alt: Dendron
+            url: >-
+                https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/logo-256.png
+            alt: Dendron
     github:
         cname: wiki.dendron.so
         enableEditLink: true
@@ -127,3 +125,22 @@ publishing:
         editRepository: https://github.com/dendronhq/dendron-site
     enablePrettyLinks: true
     enableTaskNotes: true
+    hierarchy:
+        dendron:
+            customFrontmatter:
+                -
+                    key: enableGiscus
+                    value: true
+    giscus:
+        repo: dendronhq/dendron-site
+        repoId: MDEwOlJlcG9zaXRvcnkyODAyMjc1NTU=
+        category: Announcements
+        categoryId: DIC_kwDOELPu484CR5V2
+        mapping: pathname
+        theme: preferred_color_scheme
+        strict: '0'
+        reactionsEnabled: '1'
+        emitMetadata: '0'
+        inputPosition: top
+        lang: en
+        loading: lazy
