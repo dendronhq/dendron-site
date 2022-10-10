@@ -2,10 +2,33 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1664296432677
+updated: 1665411478681
 created: 1601508213606
 nav_order: 2
 ---
+## 0.115.0
+
+### Features
+
+- feat(lookup): Add Create New with Template label to note lookup (#3563) @hikchoi ([[docs|dendron://dendron.dendron-site/dendron.topic.lookup.create]])
+
+### Enhancements
+
+- enhance(publish): make search mode as default for search bar in published site (#3575) @joshi
+- enhance(lookup): tab autocomplete in all lookup controls (#3559) @jonathan
+- enhance(structure): Add day of week string template variables (#3595) @hikchoi ([[docs|dendron://dendron.dendron-site/dendron.topic.templates.template-variables]])
+
+### Fix
+
+- fix(publish): render favicon when assetsPrefix is set (#3571) @joshi
+- fix (workspace): correctly update dendron.yml when adding / deleting vaults with dendronrc.yml (#3588) @hikchoi
+- fix(workspace): autocomplete past first level of hierarchy for mentions and tags (#3610) @joshi
+- fix(views): remove schema icon from tree view and published sidebar (#3620) @joshi
+- fix(publish): prevent "Table of content" overflowing container (#3624)  @sam
+- fix(structure): regression in apply template command (#3623) @kevin
+
+
+
 ## 0.114.0
 
 ### Features
