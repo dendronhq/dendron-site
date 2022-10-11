@@ -2,7 +2,7 @@
 id: r6440eigzebewsv6shlhid7
 title: 0.115
 desc: ''
-updated: 1665417846862
+updated: 1665499412677
 created: 1665411531341
 ---
 
@@ -19,7 +19,7 @@ October 11, 2022
 ## Everything Else
 
 - feat(lookup): Add Create New with Template label to note lookup ([[docs|dendron://dendron.dendron-site/dendron.topic.lookup.create]])
-- enhance(publish): make search mode as default for search bar in published site
+- enhance(publish): make search mode as default for search bar in published site ([[docs|dendron://dendron.dendron-site/dendron.topic.publish.config.searchMode]])
 - enhance(structure): Add day of week string template variables ([[docs|dendron://dendron.dendron-site/dendron.topic.templates.template-variables]])
 - fix(publish): render favicon when assetsPrefix is set
 - fix (workspace): correctly update dendron.yml when adding / deleting vaults with dendronrc.yml
@@ -30,7 +30,6 @@ October 11, 2022
 
 
 ## Community
-
 
 #### Greenhouse Series
 
@@ -50,6 +49,8 @@ Are you interested in speaking at our next greenhouse? If so, fill out the [Gree
 
 This week's entry in the [[Dendron Reading Series|dendron://dendron.dendron-site/community.events.reading-series]].
 
+[[Learn Exponentially|dendron://dendron.dendron-site/community.events.reading-series.2022.10.11]]
+
 
 ### Event Reminders
 
@@ -64,10 +65,50 @@ This week's entry in the [[Dendron Reading Series|dendron://dendron.dendron-site
 - **New User Tuesdays:** Visit the [[New User Tuesdays page|dendron://dendron.dendron-site/community.events.new-user-tuesdays]] for notes from previous sessions.
     - Next: [Tue, Oct 18, 8:30 AM PST / 15:30 UTC](https://link.dendron.so/luma)
 
+
 ### Thank You's
 
 A big **thanks** to the following gardeners that brought up issues, contributions, and fixes to this release :man_farmer: :woman_farmer: 
 Visit [[Discord Roles|dendron://dendron.dendron-site/community.discord.roles]] for more information.
+
+- [Joe Peterson](https://github.com/jeep) `@jeep#0301`
+  - [Trace not being updated when renaming a note after move selection](https://github.com/dendronhq/dendron/issues/3611)
+  - [Nesting note references don't work across vaults](https://github.com/dendronhq/dendron/issues/3613)
+  - [Links to anchors are not updated when migrated with "move selection"](https://github.com/dendronhq/dendron/issues/3644)
+  
+- [Michael Ivanitskiy](https://github.com/mivanit) `@mikhail#3816`
+  - #role.farmer
+  - [GitHub - mivanit/dendron-ical-integration: allows gathering events from dendron tags and serializing in iCal format](https://github.com/mivanit/dendron-ical-integration)
+  
+- [tjr357](https://github.com/tjr357)
+  - #role.bugcatcher
+  - [Error Reading File - Wildcard in Transclusion Links](https://github.com/dendronhq/dendron/issues/3612)
+
+- [Pedro Lima](https://github.com/pedrolimasi)
+  - #role.bugcatcher
+  - [User tag in yaml frontmatter breaks preview](https://github.com/dendronhq/dendron/issues/3614)
+  
+- [JM-Laurel](https://github.com/JM-Laurel)
+  - #role.bugcatcher
+  - [Refactoring hierarchies issue](https://github.com/dendronhq/dendron/issues/3622)
+
+- [Rob Lourens](https://github.com/roblourens)
+  - #role.bugcatcher
+  - [Dendron fails to activate on web](https://github.com/dendronhq/dendron/issues/3626)
+
+- [Emily Marigold Klassen](https://github.com/forivall)
+  - #role.bugcatcher
+  - [Toggling between dark and light theme visually breaks calendar](https://github.com/dendronhq/dendron/issues/3633)
+
+- [Nickolay Kondratyev](https://github.com/nickolay-kondratyev) `@nickolay-kond#9861`
+  - [Preview infinitely expands circular ![[]] reference](https://github.com/dendronhq/dendron/issues/3635)
+
+- [Aleksey Rowan](https://github.com/aleksey-rowan) `@aleksey#5276`
+  - [Can no longer create a note from a stub using the "+" button in the tree view](https://github.com/dendronhq/dendron/issues/3643)
+
+- [Harshita Joshi](https://github.com/Harshita-mindfire) `@Joshi#5537`
+  - #role.bugcatcher
+  - [Vault Remove command doesn't updates the folders in code-workspace file](https://github.com/dendronhq/dendron/issues/3648)
 
 ## Changelog
 ![[changelog#01150,1:#01140]]

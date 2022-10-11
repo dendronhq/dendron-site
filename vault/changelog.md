@@ -2,7 +2,7 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1665411478681
+updated: 1665499437184
 created: 1601508213606
 nav_order: 2
 ---
@@ -14,7 +14,7 @@ nav_order: 2
 
 ### Enhancements
 
-- enhance(publish): make search mode as default for search bar in published site (#3575) @joshi
+- enhance(publish): make search mode as default for search bar in published site (#3575) @joshi ([[docs|dendron://dendron.dendron-site/dendron.topic.publish.config.searchMode]])
 - enhance(lookup): tab autocomplete in all lookup controls (#3559) @jonathan
 - enhance(structure): Add day of week string template variables (#3595) @hikchoi ([[docs|dendron://dendron.dendron-site/dendron.topic.templates.template-variables]])
 
@@ -26,8 +26,6 @@ nav_order: 2
 - fix(views): remove schema icon from tree view and published sidebar (#3620) @joshi
 - fix(publish): prevent "Table of content" overflowing container (#3624)  @sam
 - fix(structure): regression in apply template command (#3623) @kevin
-
-
 
 ## 0.114.0
 
