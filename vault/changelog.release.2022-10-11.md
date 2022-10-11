@@ -2,7 +2,7 @@
 id: r6440eigzebewsv6shlhid7
 title: 0.115
 desc: ''
-updated: 1665499412677
+updated: 1665502251584
 created: 1665411531341
 ---
 
@@ -39,7 +39,7 @@ Video from and notes from our last talk now available - [[September Greenhouse: 
 
 Are you interested in speaking at our next greenhouse? If so, fill out the [Greenhouse Proposal Form](https://airtable.com/shrHMMl1NwefpM689?prefill_SurveyName=GreenhouseProposal&hide_SurveyName=true) to apply for a slot!
 
-### Starboard and TIL Highlights
+### TIL Highlights
 
 > These are highlights from the [[Dendron Discord|dendron://dendron.dendron-site/community.discord.channels]] `#today-i-learned` channel.
 
