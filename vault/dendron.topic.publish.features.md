@@ -2,18 +2,21 @@
 id: SsMGHoFVgyBdydzI5mn78
 title: Publishing Features
 desc: ''
-updated: 1662572861091
+updated: 1664194842835
 created: 1631895790486
 ---
 
 ## Lookup and Search
 
 Next Generation Publishing includes a combined lookup and search bar:
+- Search through the titles and contents of your notes using the search bar. 
+If you want the search to work the same way as the "Lookup Note" command does in your editor, add a prefix `/` like `/root`.
 
-* This can work the same way that the "Lookup Note" command does in your editor. The bar will display the name of the current note, and you can use the bar to look up other notes.
-* You can search through the titles and contents of your notes, if not using it like "Lookup Note", by using `?` as a prefix. Example: `? Onboarding`
+- To change the default behavior similar to that of lookup, update the [[search mode | dendron.topic.publish.config.searchMode]] to `lookup`. 
+To do full text search add a prefix `?` like `? Onboarding`.
 
-![Lookup and search in combined search bar demo](https://org-dendron-public-assets.s3.amazonaws.com/images/publishing-combined-search-bar.gif)
+<div style="position: relative; padding-bottom: 53.28125%; height: 0;"><iframe src="https://www.loom.com/embed/d1a3ea8114a74588b904a92b8eb9100e" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
 
 ## Table of Contents
 
