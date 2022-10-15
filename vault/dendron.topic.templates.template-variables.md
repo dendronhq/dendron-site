@@ -20,7 +20,7 @@ You can apply template variables by using the following syntax: `{{ VARIABLE }}`
 - `CURRENT_DAY`: The day of the month as two digits (example: `08`)
 - `CURRENT_HOUR`: The current hour in 24-hour clock format (example: `23`)
 - `CURRENT_MINUTE`: The current minute as two digits (example: `05`)
-- `CURRENT_SECOND`: The current second as two digits (exmplae: `32`)
+- `CURRENT_SECOND`: The current second as two digits (example: `32`)
 - `CURRENT_QUARTER`: The current quarter as one-indexed single digit number (example: `1` for first quarter)
 - `CURRENT_MONTH_NAME`: The month as string name (example: `January`)
 - `CURRENT_MONTH_NAME_SHORT`: The month as abbreviated string name (example: `Jan` for January)
