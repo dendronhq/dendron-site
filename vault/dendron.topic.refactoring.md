@@ -2,7 +2,7 @@
 id: srajljj10V2dl19nCSFiC
 title: Refactoring
 desc: ""
-updated: 1660043244156
+updated: 1665988665715
 created: 1638900089932
 ---
 
@@ -73,7 +73,7 @@ Features that help update the structure of Dendron.
 > See [[dendron.topic.refactoring.commands.move-note]] for more information
 
 1. Create notes called `foo`, `bar`, and `baz` with any content
-2. Create a new local vault by running [[Dendron: Vault Add|dendron://dendron.dendron-site/dendron.topic.vaults#vault-add]]
+2. Create a new local vault by running [[Create New Vault|dendron://dendron.dendron-site/dendron.topic.vaults#create-new-vault]]
 3. Create another note in any vault that links to any of these notes.
 4. Run [[dendron.topic.refactoring.commands.move-note]] in the command palette
 5. Select note(s) you want to move to the new vault and hit enter. Clicking the square icon in the lookup bar will enable multi-select.
