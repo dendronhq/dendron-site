@@ -3,7 +3,7 @@ id: eea2b078-1acc-4071-a14e-18299fc28f47
 title: Commands
 desc: ""
 tags:
-updated: 1665984530735
+updated: 1666014995050
 created: 1595261816971
 nav_order: 3.1
 ---
@@ -303,13 +303,7 @@ Enable [[telemetry|dendron.ref.telemetry]] across all workspaces with Dendron
 
 ### Vault Add
 
-> ⚠️ This is a deprecated command and will be removed in upcoming release. Please consider using [[Delete|dendron.ref.commands#delete]] instead.
-
-
-![[dendron://dendron.dendron-site/dendron.topic.vaults#vault-add,1:#*]]
-
-You can also add a vault from the explorer by:
-Right Click on the explorer > Dendron: Vault Add
+> ⚠️ This is a deprecated command and will be removed in upcoming release. Please consider using [[Create New Vault| dendron://dendron.dendron-site/dendron.topic.vaults#create-new-vault]] instead.
 
 ### Remove Vault
 

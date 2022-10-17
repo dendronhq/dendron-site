@@ -2,7 +2,7 @@
 id: 6682fca0-65ed-402c-8634-94cd51463cc4
 title: Vaults
 desc: ''
-updated: 1665988139075
+updated: 1666015245442
 created: 1622841137387
 ---
 
@@ -34,14 +34,28 @@ By default, when you look for notes in Dendron, it will search over all vaults.
 
 Create a new local vault in your workspace. You can change this later to a remote vault with the [[Convert Vault|dendron.topic.vaults#convert-vault]] command.
 
+<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/1a334119bf584de2b340ac4b2527e32a" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
 
 ### Add Existing Vault
 
 - shortcuts: none
 
 Add an existing vault to your workspace.
-
 When you add a vault, you can choose between adding a local vault or a remote vault. You can change this later with the [[Convert Vault|dendron.topic.vaults#convert-vault]] command.
+
+#### Local Vault
+
+A local vault is a folder in your file system.
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/2b5f0d2b819641278d9d3074f7e296d0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
+#### Remote Vault
+
+A remote vault is a git repository. If you choose a remote vault, you can choose from a vault from the registry or enter a custom git url.
+
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/2c676f0b48c04a0ca4b703e62ad29fd4" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 ### Vault Add
 
@@ -51,13 +65,6 @@ Add a new vault to your workspace.
 
 When you add a vault, you can choose between adding a local vault or a remote vault. You can change this later with the [[Convert Vault|dendron.topic.vaults#convert-vault]] command.
 
-#### Local Vault
-
-A local vault is a folder in your file system.
-
-#### Remote Vault
-
-A remote vault is a git repository. If you choose a remote vault, you can choose from a vault from the registry or enter a custom git url.
 
 ##### Choosing from the registry
 
