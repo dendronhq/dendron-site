@@ -2,7 +2,7 @@
 id: 3abd00eb-1c1e-4253-aaf5-dcbe20c21850
 title: Early Seed
 desc: ''
-updated: 1666019706794
+updated: 1666022755645
 created: 1604539200840
 published: true
 nav_exclude: true
@@ -16,6 +16,7 @@ October 18, 2022
 Dendron 0.116 has sprouted 🌱
 
 ### Features
+- feat(workspace): copy as command (#3544) @joshi ([[docs|dendron://dendron.dendron-site/dendron.ref.commands]])
 
 ### Enhancements
 - enhance(sync): selection export scope for pods v2 (#3619) @joshi ([[docs|dendron://dendron.dendron-site/dendron.ref.commands]])
