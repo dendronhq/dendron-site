@@ -1,7 +1,7 @@
 ---
 id: u629jmg6o5s6x3p1gpush12
 title: searchMode
-desc: 'Behavior of search bar in a published site'
+desc: Behavior of search bar in a published site
 updated: 1664188872128
 created: 1664188872128
 ---
