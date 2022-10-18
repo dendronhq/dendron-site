@@ -12,6 +12,7 @@ frontend:
         - nvm use 14
         - "(test -d .next) && (echo 'updating Dendron Next...' && cd .next && git reset --hard && git clean -f && git pull && npm install) || (echo 'init Dendron Next' && npx dendron publish init)"
         - "(test -d .next/.next) && (rm -rf .next/.next && echo 'delete Next.js cache' && cd ..) || echo 'no Next.js cache found'"
+        - yarn
         - "echo 'version check...' && npx dendron --version"
         - "echo 'build and export...' && npx dendron publish export"
   artifacts:
