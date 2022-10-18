@@ -2,7 +2,7 @@
 id: 3abd00eb-1c1e-4253-aaf5-dcbe20c21850
 title: Early Seed
 desc: ''
-updated: 1666022755645
+updated: 1666103992120
 created: 1604539200840
 published: true
 nav_exclude: true
@@ -26,6 +26,4 @@ Dendron 0.116 has sprouted 🌱
 - fix(lookup): cancel note creation during "Create Note with Template" if template was not selected (#3645) @hikchoi
 - fix(views): task notes inside of note references should render correctly (#3640) @kevin
 - fix(workspace): custom color decoration for hashtags (#3637) @joshi
-- fix(internal): apply correct accessing of error track (#3647) @sam
-- fix(lookup): lookup sometimes omits last keystrokes in new note when under load (#3671) @kevin
 
