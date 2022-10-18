@@ -1,6 +1,6 @@
 ---
 id: dakdzzjb9lq0l6tf6h3ij0v
-title: 'Learn Exponentially'
+title: Learn Exponentially
 desc: ''
 updated: 1665438399211
 created: 1665438399211
