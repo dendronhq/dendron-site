@@ -373,7 +373,7 @@
   resolved "https://registry.npmjs.org/@octokit/types/-/types-6.39.0.tgz"
   integrity sha512-Mq4N9sOAYCitTsBtDdRVrBE80lIrMBhL9Jbrw0d+j96BAzlq4V+GLHFJbHokEsVvO/9tQupQdoFdgVYhD2C8UQ==
   dependencies:
-    "@octokit/openapi-types" "^12.7.0"
+    "@octokit/openapi-types" "^12.11.0"
 
 "@segment/loosely-validate-event@^2.0.0":
   version "2.0.0"
