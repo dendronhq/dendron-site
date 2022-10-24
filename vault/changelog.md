@@ -2,7 +2,7 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1666621214111
+updated: 1666624818721
 created: 1601508213606
 nav_order: 2
 ---
@@ -1358,5 +1358,6 @@ dendron dev run_migration --migrationVersion 0.64.1
 ### Bug Fixes
 - fix(workspace): Dendron now sets minimum VS Code version to 1.58
 - fix(publish): update 11ty version
+
 
 
