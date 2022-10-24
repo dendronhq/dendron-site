@@ -2,10 +2,31 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1665499437184
+updated: 1666621214111
 created: 1601508213606
 nav_order: 2
 ---
+## 0.116.0
+
+### Features
+
+- feat(workspace): copy as command (#3544) @joshi ([[docs|dendron://dendron.dendron-site/dendron.ref.commands]])
+
+### Enhancements
+
+- enhance(sync): selection export scope for pods v2 (#3619) @joshi ([[docs|dendron://dendron.dendron-site/dendron.ref.commands]])
+- enhance(workspace): validate dendron config before use (#3649) @sam ([[docs|dendron://dendron.docs/pkg.common-all.dev.cook.add-new-config]])
+
+### Fix
+
+- fix(workspace): go to definition for wikilink with header (#3632) @joshi
+- fix(lookup): cancel note creation during "Create Note with Template" if template was not selected (#3645) @hikchoi
+- fix(views): task notes inside of note references should render correctly (#3640) @kevin
+- fix(workspace): custom color decoration for hashtags (#3637) @joshi
+- fix(internal): apply correct accessing of error track (#3647) @sam
+- fix(commands): lookup sometimes omits last keystrokes in new note when under load (#3671) @kevin
+- fix(publish): use fuzzThreshold config option for search (#3684) @sam
+
 ## 0.115.0
 
 ### Features
