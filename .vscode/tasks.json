@@ -33,5 +33,11 @@
             "command": " git add . && git commit -m 'sync' && git pull && git push",
             "problemMatcher": []
         },
+        {
+            "label": "amplify.yml",
+            "type": "shell",
+            "command": "code-insiders ./amplify.yml",
+            "problemMatcher": []
+        },
     ]
 }
