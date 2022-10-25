@@ -2,7 +2,7 @@
 id: t5o6gd1p96q1c5v17r94lfu
 title: '0.116'
 desc: ''
-updated: 1666720078767
+updated: 1666721303634
 created: 1666620917865
 ---
 
@@ -29,7 +29,7 @@ October 25, 2022
 
 **Greenhouse this Friday!**
 
-This week's [[Greenhouse Talk|dendron://dendron.dendron-site/community.events.greenhouse]] {10,000 tables when all you need is a note} by Ryan Hill (https://twitter.com/RLH1994)
+This week's [[Greenhouse Talk|dendron://dendron.dendron-site/community.events.greenhouse]]:**10,000 tables when all you need is a note** by [Ryan Hill](https://twitter.com/RLH1994)
 
 When you have over 10K undocumented tables in a database, knowledge locked in people's heads, and a hungry group of new starters who need to know where to find what they need - what do you do? (Spoilers: the answer is use Dendron). He'll explore why Dendron was the choice, how it and the repo were set up, and how they generated additional capability in their process with some Python - and what the outcome was!
 
