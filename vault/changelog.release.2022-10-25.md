@@ -2,7 +2,7 @@
 id: t5o6gd1p96q1c5v17r94lfu
 title: '0.116'
 desc: ''
-updated: 1666711163251
+updated: 1666716917534
 created: 1666620917865
 ---
 
@@ -22,8 +22,15 @@ October 25, 2022
 - fix(publish): bad breadcumbs display
 - fix(publish): runtime error on undefined dendron config
 
-## Community
 
+## Community
+### General Updates
+
+**Greenhouse this Friday!**
+
+We have a [[Greenhouse Talk|dendron://dendron.dendron-site/community.events.greenhouse]] this week! Let's listen to an amazing speaker, Ryan Hill, speak on '10,000 tables when all you need is a note' 
+
+- [Greenhouse Talk](https://lu.ma/upwj3mtn) (Fri, Oct 28, 09:00 AM PST / 16:00 UTC)
 
 ### Starboard Highlights
 
