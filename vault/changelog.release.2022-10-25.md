@@ -2,7 +2,7 @@
 id: t5o6gd1p96q1c5v17r94lfu
 title: '0.116'
 desc: ''
-updated: 1666717134811
+updated: 1666719515246
 created: 1666620917865
 ---
 
@@ -29,7 +29,7 @@ October 25, 2022
 
 **Greenhouse this Friday!**
 
-We have a [[Greenhouse Talk|dendron://dendron.dendron-site/community.events.greenhouse]] this week! Let's listen to an amazing speaker, Ryan Hill, speak on '10,000 tables when all you need is a note' 
+This week's [[Greenhouse Talk|dendron://dendron.dendron-site/community.events.greenhouse]] Talk: 10,000 tables when all you need is a note by Ryan Hill (https://twitter.com/RLH1994)
 
 - [Greenhouse Talk](https://lu.ma/upwj3mtn) (Fri, Oct 28, 09:00 AM PST / 16:00 UTC)
 
