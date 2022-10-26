@@ -6,7 +6,7 @@ frontend:
         - nvm install 14
         - nvm use 14
         - yarn
-        - yarn add @dendronhq/dendron-cli@0.115.1
+        - yarn add @dendronhq/dendron-cli@latest
     build:
       commands: 
         - nvm use 14
