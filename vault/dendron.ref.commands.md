@@ -3,7 +3,7 @@ id: eea2b078-1acc-4071-a14e-18299fc28f47
 title: Commands
 desc: ""
 tags:
-updated: 1662734514945
+updated: 1663940750386
 created: 1595261816971
 nav_order: 3.1
 ---
@@ -18,7 +18,7 @@ nav_order: 3.1
 
 ## Doctor
 
-![[dendron://dendron.dendron-site/dendron.topic.doctor#commands,1:#*]]
+![[dendron://dendron.dendron-site/dendron.topic.doctor#commands]]
 
 ## Notes
 
@@ -83,11 +83,7 @@ If you use this command in a [[multi vault|dendron.topic.multi-vault]] workspace
 
 Delete a note or schema. A prompt will occur before deletion if any links will break that are referencing the note. When deleting a note and when the note is on the active editor, that editor is closed after running the command.
 
-You can also delete a note from the explorer:
-
-### Delete Node
-
-> ⚠️ This is a deprecated command. Please consider using [[Delete|dendron.ref.commands#delete]] instead.
+You can also delete a note from the explorer.
 
 
 ### Insert Note Index
@@ -165,6 +161,27 @@ This pattern would specify a set including all notes under `alpha` _except_ for 
 
 ### Preview
 ![[dendron://dendron.dendron-site/dendron.topic.preview.commands]]
+
+### Copy As
+
+-   shortcuts:
+    -   key: `ctrl+k ctrl+c`
+    -   mac: `cmd+k cmd+c`
+
+Modify your selected text from a note to a different format and copy it to the clipboard.
+Presently supports `JSON` and `Markdown` format.
+
+<div style="position: relative; padding-bottom: 53.28125%; height: 0;"><iframe src="https://www.loom.com/embed/2dcabd41467944e8a09a326843a3c911" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
+You can also add a command shortcut to run a particular copy as format. Bring up your VS Code `keybindings.json` file by running `Preferences: Open Keyboard Shortcuts (JSON)`.  Then add the following shortcut definition: 
+
+```json
+{
+    "key": "ctrl+k c",
+    "command": "dendron.copyAs",
+    "args": "Markdown" // valid values: Markdown | JSON
+}
+```
 
 ---
 
