@@ -118,7 +118,7 @@ If a note doesn't exist, don't create it via the `GoToDefinition`
 >
 > Use [[enableXVaultWikiLink|dendron.ref.config.workspace#enablexvaultwikilink]] instead.
 
-If set, disable [[Cross Vault Links|dendron.topic.links#cross-vault-links]] when using [[Dendron: Copy Note Link|dendron.topic.links.commands.copy-note-link]] and [[Insert Note Index|dendron.ref.commands#insert-note-index]].
+If set, disable [[Cross Vault Links|dendron.topic.links#cross-vault-links]] when using [[Copy Note Link|dendron.topic.links.commands.copy-note-link]] and [[Insert Note Index|dendron.ref.commands#insert-note-index]].
 
 ### randomNote
 > This setting is scheduled for deprecation 📆 
