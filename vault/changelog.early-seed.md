@@ -2,7 +2,7 @@
 id: 3abd00eb-1c1e-4253-aaf5-dcbe20c21850
 title: Early Seed
 desc: ''
-updated: 1667400155468
+updated: 1667400998709
 created: 1604539200840
 published: true
 nav_exclude: true
@@ -22,9 +22,8 @@ Dendron 0.117 has sprouted 🌱
 - enhance(workspace): Create enableEngineV3 dev config (#3703) @tuling
 
 ([[docs|dendron://dendron.dendron-site/dendron.topic.vaults#vault-convert]])
-
 ([[docs|dendron://dendron.dendron-site/dendron.topic.vaults#convert-vault]])
-[[documentation on vaults|dendron.topic.vaults#convert-vault]]
+
 ### Fixes
 - fix(workspace): go to definition for wikilink with header (#3632) @joshi
 - fix(lookup): cancel note creation during "Create Note with Template" if template was not selected (#3645) @hikchoi
