@@ -2,7 +2,7 @@
 id: 19f4e85e-da75-44cf-881c-51c43bf8aeea
 title: Vaults
 desc: ''
-updated: 1625638258072
+updated: 1665988936215
 created: 1608098066514
 nav_order: 10
 published: false
@@ -12,11 +12,11 @@ published: false
 
 In this module, you'll learn how to add additional vaults to your workspace.
 
-![[dendron.topic.multi-vault#summary,1:#concepts]]
+![[dendron.topic.multi-vault#summary]]
 
-### Adding a Local vault
+### Creating a new Local vault
 
-Use the [[Vault Add|dendron.ref.commands#vault-add]] command and select a `local vault`. For the name, you can call it `vault2`. You will be prompted for a path to the vault. If you leave it blank, Dendron will create the vault under `{workspace}/{vaultName}`. After you make a selection, Dendron will reload the workspace with your new vault.
+Use the [[Create New Vault|dendron://dendron.dendron-site/dendron.topic.vaults#create-new-vault]] command to create a `local vault`. For the name, you can call it `vault2`. You will be prompted for a path to the vault. The new vault is created in this path. After you make a selection, Dendron will reload the workspace with your new vault.
 
 ### Adding files to your second vault
 
@@ -30,7 +30,7 @@ To do so, update the [[lookupConfirmVaultOnCreate|dendron.ref.config#lookupconfi
 
 ### Adding a Remote Vault
 
-In addition to adding a vault locally, you can add any valid Dendron vault that is available at an accessible git origin. Run the `Vault Add` command again and this time select `remote vault`. At this point, you can either paste the git url of a vault that you know or select from one of the presets.
+In addition to adding a vault locally, you can add any valid Dendron vault that is available at an accessible git origin. Run the `Add Existing Vault` command and select `remote vault`. At this point, you can either paste the git url of a vault that you know or select from one of the presets.
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/remote-vault.jpg)
 
@@ -40,7 +40,7 @@ Afterwards, Dendron will clone the vault and reload your workspace. Congratulati
 
 ### Cleaning Up (optional)
 
-In order to remove a vault, you can use [[Vault Remove|dendron.ref.commands#vault-remove]]. Note that this command removes the vault from Dendron but not from your filesystem. You'll need to manually delete the folder to do that. 
+In order to remove a vault, you can use [[Remove Vault|dendron.ref.commands#remove-vault]]. Note that this command removes the vault from Dendron but not from your filesystem. You'll need to manually delete the folder to do that. 
 
 ### Files
 
