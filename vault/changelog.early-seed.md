@@ -2,7 +2,7 @@
 id: 3abd00eb-1c1e-4253-aaf5-dcbe20c21850
 title: Early Seed
 desc: ''
-updated: 1667402150428
+updated: 1667402905234
 created: 1604539200840
 published: true
 nav_exclude: true
@@ -17,7 +17,6 @@ Dendron 0.117 has sprouted 🌱
 
 ### Enhancements
 - enhance(workspace): support adding existing vault to the workspace (#3655) @joshi ([[docs|dendron://dendron.dendron-site/dendron.ref.commands]])
-- enhance(workspace): Create enableEngineV3 dev config (#3703) @tuling
 
 ### Fixes
 - fix(workspace): convert local vault to remote (#3685) @joshi
