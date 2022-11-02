@@ -2,7 +2,7 @@
 id: ba97866b-889f-4ac6-86e7-bb2d97f6e376
 title: Markdown
 desc: ''
-updated: 1656262783539
+updated: 1666853241598
 created: 1598673110284
 ---
 
@@ -303,8 +303,6 @@ graph TD;
     B-->D;
     C-->D;
 ```
-
-- NOTE: in order to publish diagrams, you'll need to enable [[mermaid in the config|dendron.ref.config#mermaid-optional]]
 
 ### Folding
 You can create special folded sections with the below syntax.

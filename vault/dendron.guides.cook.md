@@ -2,7 +2,7 @@
 id: 401c5889-20ae-4b3a-8468-269def4b4865
 title: Cookbook
 desc: ""
-updated: 1659550894151
+updated: 1665988468741
 created: 1595952505024
 nav_order: 6.1
 toc: true
@@ -71,7 +71,7 @@ If using GitHub with SSH keys or access tokens, here is an alternative: SSH keys
 
 If you haven't already done so, install Dendron and initialize a workspace by following the instructions [[here|dendron._ref.install]].
 
-Use the [[Vault Add|dendron.ref.commands#vault-add]] command via the [[command palette|dendron.concepts#command-palette]], select remote vault, and paste the git url of the vault that you like to add
+Use the [[Add existing Vault | dendron://dendron.dendron-site/dendron.topic.vaults#add-existing-vault]] command via the [[command palette|dendron.concepts#command-palette]], select remote vault, and paste the git url of the vault that you like to add
 
 ### Converting a local vault to a remote vault
 
@@ -110,7 +110,7 @@ We currently haven't implemented a command to do but you can use the current man
 
 ### Private Vaults
 
-You can create private vaults that won't be published or initialized when others clone the workspace. To do this, run [[Vault Add|dendron.ref.commands#vault-add]] and add your private vault as a local vault. After it's been added, run [[Configure (yaml)|dendron.ref.commands#configure-yaml]] and set the [[visibility|dendron.ref.config#visibility]] of the vault to "private" in `dendron.yml`.
+You can create private vaults that won't be published or initialized when others clone the workspace. To do this, run [[Add Existing Vault | dendron://dendron.dendron-site/dendron.topic.vaults#add-existing-vault]] and add your private vault as a local vault. After it's been added, run [[Configure (yaml)|dendron.ref.commands#configure-yaml]] and set the [[visibility|dendron.ref.config#visibility]] of the vault to "private" in `dendron.yml`.
 
 ```yml
 vaults:

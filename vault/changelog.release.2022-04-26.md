@@ -1,6 +1,6 @@
 ---
 id: 2kb9bl9378k9w45wfrtkrnr
-title: 0.92
+title: '0.92'
 desc: ''
 updated: 1650998076621
 created: 1650943220412
@@ -14,7 +14,7 @@ Dendron 0.92 has sprouted  🌱
 
 **Self Contained Vaults**: You can now move self contained vaults between local and remote locations using the `Dendron: Vault Convert` command. 
 
-- More information can be found in our [[documentation on vaults|dendron.topic.vaults#vault-convert]]
+- More information can be found in our [[documentation on vaults|dendron.topic.vaults#convert-vault]]
 
 ## Highlights
 - enhance(views): optimize graph view load times - 100x improvement on large workspaces

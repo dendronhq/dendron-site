@@ -17,7 +17,7 @@ This release also includes some breaking changes due to some renaming of command
 
 ### Highlights
 - feat(notes): task notes (create modifier & editor highlighting) ([[docs|dendron.topic.tasks]])
-- feat(workspace): users can convert a local vault to a remote vault, or a remote vault to a local vault with new convert vault command ([[docs|dendron.topic.vaults#vault-convert]])
+- feat(workspace): users can convert a local vault to a remote vault, or a remote vault to a local vault with new convert vault command ([[docs|dendron.topic.vaults#convert-vault]])
 
 ### Everything Else
 - enhance(schema): allow untyped templates in schemas ([[docs|dendron.topic.schema#shortened-template-syntax]])

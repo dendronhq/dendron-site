@@ -2,7 +2,7 @@
 id: 24b176f1-685d-44e1-a1b0-1704b1a92ca0
 title: Multi Vault Setup
 desc: ''
-updated: 1663091336591
+updated: 1665988615313
 created: 1605630383515
 ---
 
@@ -75,17 +75,17 @@ We have added a new configuration, `duplicateNoteBehavior`, which [[controls|den
 For multi-vault, there are several approaches to version control. If you are using Git, you can either commit everything as one repo or version control each vault separately as separate, distinct repos.
 
 #### Separate Repositories
-If you want to keep your vaults in separate repositories, then you'll want to use remote vaults. You can [[convert existing local vaults to remote vaults|dendron://dendron.dendron-site/dendron.topic.vaults#vault-convert]], or if you already have vaults in git repositories you can add them into your workspace as remote vaults.
+If you want to keep your vaults in separate repositories, then you'll want to use remote vaults. You can [[convert existing local vaults to remote vaults|dendron://dendron.dendron-site/dendron.topic.vaults#convert-vault]], or if you already have vaults in git repositories you can add them into your workspace as remote vaults.
 
 ![[dendron://dendron.dendron-site/dendron.topic.vaults#remote,1:#*]]
 
 #### Single Repository
 
-If you want to keep all your vaults in the same repository, pick `local` when
-using [[Vault Add|dendron://dendron.dendron-site/dendron.topic.vaults#vault-add]], and don't convert them to remote vaults.
+If you want to keep all your vaults in the same repository, then create a local vault using
+using [[Create New Vault | dendron://dendron.dendron-site/dendron.topic.vaults#create-new-vault]] command, and don't convert them to remote vaults.
 
 Instead, open the `.gitignore` file at the root of your workspace and remove any
-lines that that reference vaults, for example `dependencies/localhost/vaultName`
+lines that that reference vaults, for example `<path-to-your-vault>/vaultName`
 should be removed. Then you should be able to add and commit these vaults into
 the same repository.
 
