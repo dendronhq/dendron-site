@@ -1094,7 +1094,7 @@ An enhancement in this release delivers breaking changes announced last week: [[
 
 ### Features
 - feat(workspace): users can convert a local vault to a remote vault, or a remote vault to a local
-vault with new convert vault command ([[docs|dendron.topic.vaults#vault-convert]]) (#1542) @kaan
+vault with new convert vault command ([[docs|dendron.topic.vaults#convert-vault]]) (#1542) @kaan
 - feat(notes): task notes (create modifier & editor highlighting) ([[docs|dendron.topic.tasks]]) (#1583) @kaan
 
 ### Enhancements
