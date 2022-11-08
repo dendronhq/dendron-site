@@ -2,7 +2,7 @@
 id: f6xgd8d61cziht4n4lubzat
 title: 0.117
 desc: ''
-updated: 1667838189944
+updated: 1667919054733
 created: 1667835048286
 ---
 
@@ -12,24 +12,33 @@ November 08, 2022
 ## Everything Else
 
 - enhance(workspace): support adding existing vault to the workspace ([[docs|dendron://dendron.dendron-site/dendron.ref.commands]])
-- enhance(workspace): Create enableEngineV3 dev config
 - enhance(views): remove stub icon from tree view
-- fix(workspace): convert local vault to remote
+- fix(workspace): convert local vault to remote vault functions correctly
 - fix(publish): runtime error on undefined dendron config
-- fix(publish): weird breadcumbs display
-- fix(workspace): correctly add quickpick label highlight functionality
-- fix(publish): make safe access to iframe
-- fix(workspace): duplicate vaults prompt with go to note command
+- fix(publish): breadcrumbs will not show full hierarchy in some circumstances
+- fix(publish): client failure when accessing page with iframe 
+- fix(workspace): duplicate vault entries when using go to note command
 - fix(publish): correct hashtag parsing
 - fix(workspace): duplicate note entries in lookup bar
 
 
 ## Community
 
+#### Greenhouse Series
+
+![[community.events.greenhouse#summary,1:#*]]
+
+Video from and notes from our last talk now available - [[community.events.greenhouse.2022-10-28-10k-notes-when-all-you-need-is-a-note]]
+
+Are you interested in speaking at our next greenhouse? If so, fill out the [Greenhouse Proposal Form](https://airtable.com/shrHMMl1NwefpM689?prefill_SurveyName=GreenhouseProposal&hide_SurveyName=true) to apply for a slot!
+
 
 ### Dendron Reading Series
 
 This week's entry in the [[Dendron Reading Series|dendron://dendron.dendron-site/community.events.reading-series]].
+
+[[community.events.reading-series.2022.11.08]]
+
 
 ### Event Reminders
 
@@ -48,6 +57,54 @@ This week's entry in the [[Dendron Reading Series|dendron://dendron.dendron-site
 
 A big **thanks** to the following gardeners that brought up issues, contributions, and fixes to this release :man_farmer: :woman_farmer: 
 Visit [[Discord Roles|dendron://dendron.dendron-site/community.discord.roles]] for more information.
+
+- [Preston](https://github.com/LiminalCrab) `@Preston#8485` 
+  - became a sprout
+
+- [Ellis] `@ellis#9193`
+  - became a sprout
+
+- [Karsten Gresch](https://github.com/karstengresch) `@gresch#6940`
+
+  - became a sprout
+
+- [Ryan Hill](https://github.com/rlh1994) `@rlh1994#9754`
+    - #role.speaker
+
+- [d1onysus](https://github.com/dweisiger) `@d1onysus#1514`
+  - [After refactoring a note the old filename still comes up in the lookup menu](https://github.com/dendronhq/dendron/issues/3713)
+  - [Markdown preview doesn't update for non-dendron managed markdown files](https://github.com/dendronhq/dendron/issues/3750)
+
+- [Matthew Falkowski](https://github.com/wookiefriseur)
+  - #role.bugcatcher
+  - [Deleted files being treated as a note](https://github.com/dendronhq/dendron/issues/3718)
+
+- [Tanamr](https://github.com/samuelxyz) `@Tanamr#3739`
+  - [\`Move Selection To\` does not update some backlinks](https://github.com/dendronhq/dendron/issues/3728)
+
+- [Joe Peterson](https://github.com/jeep) `@jeep#0301`
+  - [\`Dendron: Move Header\` sometimes moves wrong header](https://github.com/dendronhq/dendron/issues/3731)
+  - [Dendron: Move Note almost never updates links in other vaults in multi-vault](https://github.com/dendronhq/dendron/issues/3739)
+  - [Extreme lag when editing 100 line file](https://github.com/dendronhq/dendron/issues/3758)
+  
+- [Markus May](https://github.com/triplem)
+  - #role.bugcatcher
+  - [Wildcard in Reference matches same file itself](https://github.com/dendronhq/dendron/issues/3732)
+  - [Wildcard in Reference should exclude containing file itself](https://github.com/dendronhq/dendron/issues/3743)
+  - [Embedding User-Notes with Wildcard does not work](https://github.com/dendronhq/dendron/issues/3749)
+  
+- [Pablo Lion](https://github.com/PabloLION) `@Pablo LION#3433`
+  - #role.bugcatcher
+  - [Very weird bug on importing markdown](https://github.com/dendronhq/dendron/issues/3735)
+
+- [Riccardo Dozzo](https://github.com/rioka) `@rioka#2156`
+  - [In Windows, new notes always uses LF instead of CRLF](https://github.com/dendronhq/dendron/issues/3736)
+  
+- [Nickolay Kondratyev](https://github.com/nickolay-kondratyev) `@nickolay-kond#9861`
+  - [Backlinks panel gets out of date](https://github.com/dendronhq/dendron/issues/3737)
+  
+- [uRohan](https://github.com/uRohan)
+  - [Preset remote vaults are missing](https://github.com/dendronhq/dendron/issues/3760)
 
 ## Changelog
 ![[changelog#01170,1:#01160]]
