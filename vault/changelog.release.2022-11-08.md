@@ -2,7 +2,7 @@
 id: f6xgd8d61cziht4n4lubzat
 title: 0.117
 desc: ''
-updated: 1667919054733
+updated: 1667919377245
 created: 1667835048286
 ---
 
@@ -28,7 +28,7 @@ November 08, 2022
 
 ![[community.events.greenhouse#summary,1:#*]]
 
-Video from and notes from our last talk now available - [[community.events.greenhouse.2022-10-28-10k-notes-when-all-you-need-is-a-note]]
+Video from and notes from our last talk now available - [[10,000 Tables When All You Need is a Note|dendron://dendron.dendron-site/community.events.greenhouse.2022-10-28-10k-notes-when-all-you-need-is-a-note]]
 
 Are you interested in speaking at our next greenhouse? If so, fill out the [Greenhouse Proposal Form](https://airtable.com/shrHMMl1NwefpM689?prefill_SurveyName=GreenhouseProposal&hide_SurveyName=true) to apply for a slot!
 
@@ -37,7 +37,7 @@ Are you interested in speaking at our next greenhouse? If so, fill out the [Gree
 
 This week's entry in the [[Dendron Reading Series|dendron://dendron.dendron-site/community.events.reading-series]].
 
-[[community.events.reading-series.2022.11.08]]
+[[MDN converted to Markdown|dendron://dendron.dendron-site/community.events.reading-series.2022.11.08]]
 
 
 ### Event Reminders
@@ -59,17 +59,16 @@ A big **thanks** to the following gardeners that brought up issues, contribution
 Visit [[Discord Roles|dendron://dendron.dendron-site/community.discord.roles]] for more information.
 
 - [Preston](https://github.com/LiminalCrab) `@Preston#8485` 
-  - became a sprout
+  - contributed to dendron #role.env.sprout
 
 - [Ellis] `@ellis#9193`
-  - became a sprout
+  - contributed to dendron #role.env.sprout
 
 - [Karsten Gresch](https://github.com/karstengresch) `@gresch#6940`
-
-  - became a sprout
+  - contributed to dendron #role.env.sprout
 
 - [Ryan Hill](https://github.com/rlh1994) `@rlh1994#9754`
-    - #role.speaker
+  - gave the last Dendron Greenhouse Talk #role.speaker
 
 - [d1onysus](https://github.com/dweisiger) `@d1onysus#1514`
   - [After refactoring a note the old filename still comes up in the lookup menu](https://github.com/dendronhq/dendron/issues/3713)
