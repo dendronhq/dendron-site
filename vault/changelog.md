@@ -2,10 +2,28 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1666707855927
+updated: 1667918762470
 created: 1601508213606
 nav_order: 2
 ---
+## 0.117.0
+
+### Enhancements
+
+- enhance(workspace): support adding existing vault to the workspace (#3655) @joshi ([[docs|dendron://dendron.dendron-site/dendron.ref.commands]])
+- enhance(views): remove stub icon from tree view (#3697) @joshi
+
+### Fix
+
+- fix(workspace): convert local vault to remote vault functions correctly (#3685) @joshi
+- fix(publish): runtime error on undefined dendron config (#3688) @sam
+- fix(publish): breadcrumbs will not show full hierarchy in some circumstances (#3689) @sam
+- fix(publish): client failure when accessing page with iframe (#3707) @sam
+- fix(workspace): duplicate vault entries when using go to note command (#3711) @joshi
+- fix(publish): correct hashtag parsing (#3708) @sam
+- fix(workspace): duplicate note entries in lookup bar (#3725) @joshi
+
+
 ## 0.116.0
 
 ### Features
