@@ -2,7 +2,7 @@
 id: 3abd00eb-1c1e-4253-aaf5-dcbe20c21850
 title: Early Seed
 desc: ''
-updated: 1668525869648
+updated: 1668530128373
 created: 1604539200840
 published: true
 nav_exclude: true
@@ -15,12 +15,7 @@ November 15, 2022
 
 Dendron 0.118 has sprouted 🌱
 
-### Enhancements
-- enhance(workspace): Move fuseEngine into MetadataStore (#3730) @tuling
-
 ### Fixes
-- fix(workspace): completionProvider and other bulk operations for engine v3 (#3747) @jonathan
-- fix(sync): next js export pod fix on engine v3 (#3751) @jonathan
 - fix(workspace): decoration does not display correct custom color for hashtags (#3761) @joshi
 - fix(workspace): correctly handle deleted notes in editor when checking for duplicate entries (#3719) [Matthew Falkowski](https://github.com/wookiefriseur)
 - fix(sync): needless modified notes after workspace sync (#3768) @joshi
