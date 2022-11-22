@@ -2,7 +2,7 @@
 id: alm6fkd30r0zv04pf23h8jt
 title: 0.118
 desc: ''
-updated: 1669047991601
+updated: 1669129691034
 created: 1669043747185
 ---
 
@@ -23,7 +23,6 @@ November 22, 2022
 
 ## Community
 
-
 ### Starboard and TIL Highlights
 
 > These are highlights from the [[Dendron Discord|dendron://dendron.dendron-site/community.discord.channels]] `#starboard` and `#today-i-learned` channels.
@@ -36,6 +35,9 @@ November 22, 2022
 ### Dendron Reading Series
 
 This week's entry in the [[Dendron Reading Series|dendron://dendron.dendron-site/community.events.reading-series]].
+
+[[Less is exponentially more|dendron://dendron.dendron-site/community.events.reading-series.2022.11.21]]
+
 
 ### Event Reminders
 
@@ -50,11 +52,33 @@ This week's entry in the [[Dendron Reading Series|dendron://dendron.dendron-site
 - **New User Tuesdays:** Visit the [[New User Tuesdays page|dendron://dendron.dendron-site/community.events.new-user-tuesdays]] for notes from previous sessions.
     - Next: [Tue, Dec 20, 8:30 AM PST / 15:30 UTC](https://link.dendron.so/luma)
 
-
 ### Thank You's
 
 A big **thanks** to the following gardeners that brought up issues, contributions, and fixes to this release :man_farmer: :woman_farmer: 
 Visit [[Discord Roles|dendron://dendron.dendron-site/community.discord.roles]] for more information.
+
+- [Matthew Falkowski](https://github.com/wookiefriseur)
+  - #role.horticulturalist
+  - [fix(workspace): correctly handle deleted notes in editor when checking for duplicate entries](https://github.com/dendronhq/dendron/pull/3719)
+ 
+- [Nickolay Kondratyev](https://github.com/nickolay-kondratyev) `@nickolay-kond#9861`
+  - [Rename note under user hierarchy breaks expansion links](https://github.com/dendronhq/dendron/issues/3780)
+
+- [Paul Mullins](https://github.com/dentropy) `@dentropy#7527`
+  - #role.bugcatcher
+  - [Can't build Dendron Site](https://github.com/dendronhq/dendron/issues/3774)
+
+- [estivaltromie](https://github.com/estivaltromie) `@jake_hi00#7401`
+  - #role.bugcatcher
+  - [Lookup: Fill entire note title on autocomplete](https://github.com/dendronhq/dendron/issues/3784)
+
+- [Marek Lukasiewicz](https://github.com/Maarrk) `@Maarrk#9537`
+  - #role.bugcatcher
+  - [Hooks configured to run onCreate are run when note is refactored](https://github.com/dendronhq/dendron/issues/3785)
+
+- [Rėdas Peškaitis](https://github.com/re-pe)
+  - #role.bugcatcher
+  - [Definitions of abbreviations are visible in Dendron preview](https://github.com/dendronhq/dendron/issues/3789)
 
 ## Changelog
 ![[changelog#01180,1:#01170]]
