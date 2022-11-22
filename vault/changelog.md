@@ -2,10 +2,25 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1667918762470
+updated: 1669043638729
 created: 1601508213606
 nav_order: 2
 ---
+## 0.118.0
+
+### Fix
+
+- fix(workspace): decoration does not display correct custom color for hashtags (#3761) @joshi
+- fix(workspace): correctly handle deleted notes in editor when checking for duplicate entries (#3719) [Matthew Falkowski](https://github.com/wookiefriseur)
+- fix(sync): needless modified notes after workspace sync (#3768) @joshi
+- fix(workspace): correctly populate backlink when creating new note using go to note (#3769) @hikchoi
+- fix(structure): correctly handle reference updates after move selection to (#3767) @hikchoi
+- fix(views): calendar view broken when toggling theme (#3765) @sam
+- fix(publish): broken breadcrumbs for sidebar excluded notes (#3742) @sam
+- fix(workspace): correctly read and apply local override config in engine v3 (#3781) @hikchoi
+- fix(workspace): rename note breaks noteref for user hierarchy (#3782) @joshi
+
+
 ## 0.117.0
 
 ### Enhancements
