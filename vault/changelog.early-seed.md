@@ -2,7 +2,7 @@
 id: 3abd00eb-1c1e-4253-aaf5-dcbe20c21850
 title: Early Seed
 desc: ''
-updated: 1669732739781
+updated: 1669733281846
 created: 1604539200840
 published: true
 nav_exclude: true
@@ -17,4 +17,4 @@ Dendron 0.119 has sprouted 🌱
 
 ### Fixes
 
-- fix: autocomplete properly fills out value if user manually selected an item (#3787) @jonathan
+- fix(lookup): autocomplete properly fills out value if user manually selected an item (#3787) @jonathan
