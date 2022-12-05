@@ -2,7 +2,7 @@
 id: 0xf2l3fcvls82brq417oaxx
 title: 0.119
 desc: ''
-updated: 1670256291860
+updated: 1670256439336
 created: 1670253744694
 ---
 
@@ -12,6 +12,7 @@ December 06, 2022
 ## Everything Else
 
 - fix(lookup): autocomplete properly fills out value if user manually selected an item
+
 
 ## Community
 
