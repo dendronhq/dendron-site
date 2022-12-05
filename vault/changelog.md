@@ -2,10 +2,17 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1669043638729
+updated: 1670254035385
 created: 1601508213606
 nav_order: 2
 ---
+## 0.119.0
+
+### Fix
+
+- fix(lookup): autocomplete properly fills out value if user manually selected an item (#3787) @jonathan
+
+
 ## 0.118.0
 
 ### Fix
