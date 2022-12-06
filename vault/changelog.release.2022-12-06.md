@@ -2,7 +2,7 @@
 id: 0xf2l3fcvls82brq417oaxx
 title: 0.119
 desc: ''
-updated: 1670338910471
+updated: 1670344127780
 created: 1670253744694
 ---
 
@@ -26,6 +26,9 @@ December 06, 2022
 ### Dendron Reading Series
 
 This week's entry in the [[Dendron Reading Series|dendron://dendron.dendron-site/community.events.reading-series]].
+
+[[Stack Overflow questions are being flooded with answers from ChatGPT|dendron://dendron.dendron-site/community.events.reading-series.2022.12.06]]
+
 
 ### Event Reminders
 
