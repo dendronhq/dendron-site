@@ -2,7 +2,7 @@
 id: 0xf2l3fcvls82brq417oaxx
 title: 0.119
 desc: ''
-updated: 1670256439336
+updated: 1670338910471
 created: 1670253744694
 ---
 
@@ -44,6 +44,17 @@ This week's entry in the [[Dendron Reading Series|dendron://dendron.dendron-site
 
 A big **thanks** to the following gardeners that brought up issues, contributions, and fixes to this release :man_farmer: :woman_farmer: 
 Visit [[Discord Roles|dendron://dendron.dendron-site/community.discord.roles]] for more information.
+
+- [Jeremy Whitman](https://github.com/jeremy-whitman) `@jeremyW#5722`
+  - #role.bugcatcher
+  - [Pasting Images Over Text Causes Weird Results](https://github.com/dendronhq/dendron/issues/3812)
+
+- [yviansu](https://github.com/yviansu)
+  - #role.bugcatcher
+  - [npm run build returns \`TypeError: Cannot read properties of undefined (reading 'id')\`](https://github.com/dendronhq/dendron/issues/3813)
+
+- [Wiktoria Mielcarek](https://github.com/Braweria)
+  - [Graph view showing notes connected to filtered out notes](https://github.com/dendronhq/dendron/issues/3840) 
 
 ## Changelog
 ![[changelog#01190,1:#01180]]
