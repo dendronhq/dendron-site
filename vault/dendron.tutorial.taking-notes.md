@@ -4,7 +4,7 @@ title: Taking Notes
 desc: >-
   Creating notes, understanding hierarchy, and using Lookup to quickly find your
   notes
-updated: 1645804032664
+updated: 1670372812493
 created: 1625563944736
 nav_order: 1
 ---
@@ -46,7 +46,7 @@ You can add metadata information to your note using frontmatter attributes.
 ![[dendron://dendron.dendron-site/dendron.topic.hierarchies#summary,1:#concepts]]
 To create a hierarchy, do the following:
 1. Enter `Ctrl+L` / `Cmd+L` to open the lookup bar. 
-2. Enter a name with  a `.` ("dot") delimiter.  For example, you can type `recipes.vegetarian` to create a note to store your vegetarian recipes.
+2. Enter a name with a `.` ("dot") delimiter. For example, you can type `recipes.vegetarian` to create a note to store your vegetarian recipes.
 3. Press **Enter**.
 You've created your first hierarchy! 
 
@@ -90,7 +90,7 @@ To find your notes, do the following:
 2. Enter the name of your note. For example, you can type `vege` to find your `recipes.vegetarian` note.
 3. Press **Enter**. The note is opened.
 
-> 💡 **INFO:** Lookup uses _fuzzy search_, which means you can type out partial queries and still see the  results.Entering multiple keywords delimited by space will lookup matching notes regardless of order of the > keywords.
+> 💡 **INFO:** Lookup uses _fuzzy search_, which means you can type out partial queries and still see the results. Entering multiple keywords delimited by space will lookup matching notes regardless of order of the > keywords.
 > - Example: `vege rec` or `rec vege` will match the `recipes.vegetarian` note.
 
 > 💡 **TIP:** Read [[dendron://dendron.dendron-site/dendron.topic.lookup.find]] to understand the different ways of querying the lookup.
