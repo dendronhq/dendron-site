@@ -17,7 +17,7 @@ created: 1595952505017
 ![Dendron Logo](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/logo-256.png)
 
 Dendron is an **open-source, local-first, markdown-based, note-taking tool**. 
-Think of it as a **cache for everything that you care about** - if you've spent **more then five minutes** solving a problem, you should **never** spent any more time solving the same exact problem. 
+Think of it as a **cache for everything that you care about** - if you've spent **more then five minutes** solving a problem, you should **never** spend any more time solving the same exact problem. 
 
 Dendron is a knowledge base built by and for developers and integrates natively with IDEs like [VS Code](https://code.visualstudio.com/) and [VSCodium](https://vscodium.com/).
 
