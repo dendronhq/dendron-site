@@ -20,7 +20,7 @@ This guide will go over setting up the workspace for a team of engineers.
   ```
   1. Remove the existing origin and add your own
   ```sh
-  git remote remove orgiin
+  git remote remove origin
   git remote add origin {YOUR_ORIGIN}
   git branch -M main
   git push -u origin main
