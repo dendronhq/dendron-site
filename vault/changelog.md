@@ -2,10 +2,17 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1670254035385
+updated: 1671462432077
 created: 1601508213606
 nav_order: 2
 ---
+## 0.120.0
+
+### Fix
+
+- fix(views): broken preview for note having links to non-existent note refs (#3862) @joshi
+
+
 ## 0.119.0
 
 ### Fix
