@@ -24,7 +24,7 @@ You can apply template variables by using the following syntax: `{{ VARIABLE }}`
 - `CURRENT_QUARTER`: The current quarter as one-indexed single digit number (example: `1` for first quarter)
 - `CURRENT_MONTH_NAME`: The month as string name (example: `January`)
 - `CURRENT_MONTH_NAME_SHORT`: The month as abbreviated string name (example: `Jan` for January)
-- `CURRENT_DAY_OF_WEEK`: equivalent of [javascript getDay](https://www.w3schools.com/jsref/jsref_getday.asp) method (example: `3` for Monday)
+- `CURRENT_DAY_OF_WEEK`: equivalent of [javascript getDay](https://www.w3schools.com/jsref/jsref_getday.asp) method (example: `3` for Wednesday)
 - `CURRENT_DAY_OF_WEEK_ABBR`: The day of week, as an abbreviated localized string (example: `Wed` for Wednesday)
 - `CURRENT_DAY_OF_WEEK_FULL` The day of week, as an unabbreviated localized string (example: `Wednesday`),
 - `CURRENT_DAY_OF_WEEK_SINGLE` (example: `W` for Wednesday),
