@@ -25,7 +25,7 @@ All commands are grouped by [[scope|tags.scope]] except those mentioned undernea
 
 ## Validation and AutoComplete
 
-Dendron can provide validation when you edit the raw yaml using the [[Configure (yaml) Command|dendron.topic.commands#configure-yaml]]. In order to do so, you must have the `redhat.vscode-yaml` extension installed (this is a recommended extension for Dendron) The validator provides autocomplete, documentation & warnings when editing dendron.yml. Here's a few examples of what it looks like:
+Dendron can provide validation when you edit the raw yaml using the [[Configure (yaml) command|dendron://dendron.dendron-site/dendron.ref.commands#configure-yaml]]. In order to do so, you must have the `redhat.vscode-yaml` extension installed (this is a recommended extension for Dendron) The validator provides autocomplete, documentation & warnings when editing dendron.yml. Here's a few examples of what it looks like:
 
 Hover over values to see documentation
 
@@ -57,7 +57,7 @@ Turn on to enable [[changelogs|dendron.topic.publish-legacy.changelogs]]
 
 - default: Children
 
-Controls the title for [[children links|dendron.topic.links#children-links]] in published sites
+Controls the title for [[children links|dendron.topic.links#child-links]] in published sites
 
 ### lookupConfirmVaultOnCreate
 > This setting is scheduled for deprecation 📆 
@@ -69,7 +69,7 @@ With this set, you will be prompted to select the vault location each time you c
 ### lookupDontBubbleUpCreateNew
 > This setting is scheduled for deprecation 📆
 >
-> Use [[bubbleUpCreateNew|dendron.ref.config.command#bubbleupCreateNew]] instead.
+> Use [[bubbleUpCreateNew|dendron.ref.config.commands#bubbleupCreateNew]] instead.
 - default: false
 
 With this set to `true`: `Create new` will NOT bubble up to the top when using [[Note Lookup|dendron.topic.lookup]]. Use this setting when your workflow largely consists of lookups and you want to keep `Create new` as the last entry in the look up results. 
@@ -118,14 +118,14 @@ If a note doesn't exist, don't create it via the `GoToDefinition`
 >
 > Use [[enableXVaultWikiLink|dendron.ref.config.workspace#enablexvaultwikilink]] instead.
 
-If set, disable [[Cross Vault Links|dendron.topic.links#cross-vault-links]] when using [[Copy Note Link|dendron.topic.commands#copy-note-link]] and [[Insert Note Index|dendron.topic.commands#insert-note-index]].
+If set, disable [[Cross Vault Links|dendron.topic.links#cross-vault-links]] when using [[Copy Note Link|dendron.topic.links.commands.copy-note-link]] and [[Insert Note Index|dendron.ref.commands#insert-note-index]].
 
 ### randomNote
 > This setting is scheduled for deprecation 📆 
 >
 > Use [[randomNote|dendron.ref.config.commands#randomnote]] instead.
 
-Configures the set of notes to include and exclude when using the [[Random Note|dendron.topic.commands#random-note]] command.
+Configures the set of notes to include and exclude when using the [[Random Note|dendron.ref.commands#random-note]] command.
 
 ### useContainers
 > This setting is scheduled for deprecation 📆 
@@ -177,7 +177,7 @@ If true, use the note title when displaying naked links when published. This als
 >
 > Use [[insertNoteIndex|dendron.ref.config.commands#insertnoteindex]] instead.
 
-Configures how [[Insert Note Index|dendron.topic.commands#insert-note-index]] works.
+Configures how [[Insert Note Index|dendron.ref.commands#insert-note-index]] works.
 
 #### marker
 > This setting is scheduled for deprecation 📆
