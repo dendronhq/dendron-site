@@ -3,7 +3,7 @@ id: eea2b078-1acc-4071-a14e-18299fc28f47
 title: Commands
 desc: ""
 tags:
-updated: 1662734514945
+updated: 1666014995050
 created: 1595261816971
 nav_order: 3.1
 ---
@@ -295,23 +295,26 @@ Disable [[telemetry|dendron.ref.telemetry]] across all workspaces with Dendron
 
 Enable [[telemetry|dendron.ref.telemetry]] across all workspaces with Dendron
 
+
+### Add Existing Vault
+
+
+### Create New Vault
+
 ### Vault Add
 
-![[dendron://dendron.dendron-site/dendron.topic.vaults#vault-add,1:#*]]
+> ⚠️ This is a deprecated command and will be removed in upcoming release. Please consider using [[Create New Vault| dendron://dendron.dendron-site/dendron.topic.vaults#create-new-vault]] instead.
 
-You can also add a vault from the explorer by:
-Right Click on the explorer > Dendron: Vault Add
+### Remove Vault
 
-### Vault Remove
-
-![[dendron://dendron.dendron-site/dendron.topic.vaults#vault-remove,1:#*]]
+![[dendron://dendron.dendron-site/dendron.topic.vaults#remove-vault]]
 
 You can also remove a vault from the explorer by:
 Right Click on the vault > Dendron: Vault Remove
 
-### Vault Convert
+### Convert Vault
 
-![[dendron://dendron.dendron-site/dendron.topic.vaults#vault-convert,1:#*]]
+![[dendron://dendron.dendron-site/dendron.topic.vaults#convert-vault]]
 
 ### Migrate to Self Contained Vault
 

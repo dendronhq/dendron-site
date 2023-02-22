@@ -2,10 +2,50 @@
 id: 9bc92432-a24c-492b-b831-4d5378c1692b
 title: Changelog
 desc: ''
-updated: 1666707855927
+updated: 1670254035385
 created: 1601508213606
 nav_order: 2
 ---
+## 0.119.0
+
+### Fix
+
+- fix(lookup): autocomplete properly fills out value if user manually selected an item (#3787) @jonathan
+
+
+## 0.118.0
+
+### Fix
+
+- fix(workspace): decoration does not display correct custom color for hashtags (#3761) @joshi
+- fix(workspace): correctly handle deleted notes in editor when checking for duplicate entries (#3719) [Matthew Falkowski](https://github.com/wookiefriseur)
+- fix(sync): needless modified notes after workspace sync (#3768) @joshi
+- fix(workspace): correctly populate backlink when creating new note using go to note (#3769) @hikchoi
+- fix(structure): correctly handle reference updates after move selection to (#3767) @hikchoi
+- fix(views): calendar view broken when toggling theme (#3765) @sam
+- fix(publish): broken breadcrumbs for sidebar excluded notes (#3742) @sam
+- fix(workspace): correctly read and apply local override config in engine v3 (#3781) @hikchoi
+- fix(workspace): rename note breaks noteref for user hierarchy (#3782) @joshi
+
+
+## 0.117.0
+
+### Enhancements
+
+- enhance(workspace): support adding existing vault to the workspace (#3655) @joshi ([[docs|dendron://dendron.dendron-site/dendron.ref.commands]])
+- enhance(views): remove stub icon from tree view (#3697) @joshi
+
+### Fix
+
+- fix(workspace): convert local vault to remote vault functions correctly (#3685) @joshi
+- fix(publish): runtime error on undefined dendron config (#3688) @sam
+- fix(publish): breadcrumbs will not show full hierarchy in some circumstances (#3689) @sam
+- fix(publish): client failure when accessing page with iframe (#3707) @sam
+- fix(workspace): duplicate vault entries when using go to note command (#3711) @joshi
+- fix(publish): correct hashtag parsing (#3708) @sam
+- fix(workspace): duplicate note entries in lookup bar (#3725) @joshi
+
+
 ## 0.116.0
 
 ### Features
@@ -1094,7 +1134,7 @@ An enhancement in this release delivers breaking changes announced last week: [[
 
 ### Features
 - feat(workspace): users can convert a local vault to a remote vault, or a remote vault to a local
-vault with new convert vault command ([[docs|dendron.topic.vaults#vault-convert]]) (#1542) @kaan
+vault with new convert vault command ([[docs|dendron.topic.vaults#convert-vault]]) (#1542) @kaan
 - feat(notes): task notes (create modifier & editor highlighting) ([[docs|dendron.topic.tasks]]) (#1583) @kaan
 
 ### Enhancements
