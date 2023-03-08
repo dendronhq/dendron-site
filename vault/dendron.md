@@ -17,7 +17,7 @@ created: 1595952505017
 ![Dendron Logo](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/logo-256.png)
 
 Dendron is an **open-source, local-first, markdown-based, note-taking tool**. 
-Think of it as a **cache for everything that you care about** - if you've spent **more then five minutes** solving a problem, you should **never** spent any more time solving the same exact problem. 
+Think of it as a **cache for everything that you care about** - if you've spent **more than five minutes** solving a problem, you should **never** spend any more time solving the same exact problem. 
 
 Dendron is a knowledge base built by and for developers and integrates natively with IDEs like [VS Code](https://code.visualstudio.com/) and [VSCodium](https://vscodium.com/).
 
@@ -138,7 +138,7 @@ Dendron has hundreds of features. The following is a list of highlights.
 
 - export your knowledge base as a static (nextjs) site
 - lookup locally and share globally with generated links
-- manage what you publish using fine grained permissions on a per vault, per hiearchy and per note basis
+- manage what you publish using fine grained permissions on a per vault, per hierarchy and per note basis
 
 <a href="https://www.loom.com/share/727537e0fd49481cac2accc2b3362fa3">
     <img style="" src="https://org-dendron-public-assets.s3.amazonaws.com/images/727537e0fd49481cac2accc2b3362fa3.gif">
@@ -163,7 +163,7 @@ Dendron wouldn't be what it is today without our wonderful set of members and su
 
 ### Community Calendar
 
-We have a bunch of community events that we host throughout the week. You can stay up to date on whats happening by taking a look at our community calendar!
+We have a bunch of community events that we host throughout the week. You can stay up to date on what's happening by taking a look at our community calendar!
 
 - View and register for upcoming [Dendron Community Events on Luma](https://link.dendron.so/luma)
 
