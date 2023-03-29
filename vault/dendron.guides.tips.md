@@ -2,7 +2,7 @@
 id: 692fa114-f798-467f-a0b9-3cccc327aa6f
 title: Tips
 desc: ''
-updated: 1651243836836
+updated: 1680106616395
 created: 1595614204291
 nav_order: 4.1
 ---
@@ -14,9 +14,8 @@ nav_order: 4.1
 It is possible to [peek](https://code.visualstudio.com/docs/editor/editingevolved#_peek) at wiki-links in Dendron. This lets you see content without actually navigating to the page.
 
 <a href="https://www.loom.com/share/2289613674ac4a4183ed5db8630120dc">
-<img style="" src="https://cdn.loom.com/sessions/thumbnails/2289613674ac4a4183ed5db8630120dc-with-play.gif"> 
+<img style="" src="https://cdn.loom.com/sessions/thumbnails/2289613674ac4a4183ed5db8630120dc-with-play.gif">
 </a>
-
 
 ### Moving Lines
 
@@ -28,7 +27,7 @@ When working with lines, you can move entire lines at a time using `option-up|do
 
 ![[dendron://dendron.dendron-site/dendron.topic.vscode.concepts.search-editor]]
 
-You can combine it with Dendron's hierarchies to do some amazing things, like aggregating all your todos and scoping your search to a specific hierarchy. 
+You can combine it with Dendron's hierarchies to do some amazing things, like aggregating all your todos and scoping your search to a specific hierarchy.
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/tips.search-editor.gif)
 
@@ -49,33 +48,34 @@ You can open search editor via keyboard shortcut. I use it to start a search wit
 
 ### Collapsing Headers and Bullets
 
-You can collapse headers at different levels and bullets at different indentation levels inside VS Code. 
+You can collapse headers at different levels and bullets at different indentation levels inside VS Code.
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/tips.toggle-bullets.gif)
 
+### Create a new note in a deeply nested hierarchy
 
-### Create a new note in a deeply nested hierarchy 
 - [Discord thread](https://discordapp.com/channels/717965437182410783/735365126227493004/758235198403117087)
 
-- Problem: 
-   - You are currently in `foo` and you want to create the note `foo.child1.child2.my-note`. You don't want to type out the full path. Is there an easier way to create `my-note` than typing out the full path?
-- Solution: 
-  - VS Code doesn't support autocomplete inside the quick input widget which Dendron uses for lookups. We are experimenting with different ways of getting around this. 
-  - Today, the workaround is to create a wiki-link inside another note and navigate via link to create it. 
-  - Another method, if you know you will be creating multiple children under a single deeply nested parent, is to pin the parent and create the child from the parent 
+- Problem:
+  - You are currently in `foo` and you want to create the note `foo.child1.child2.my-note`. You don't want to type out the full path. Is there an easier way to create `my-note` than typing out the full path?
+- Solution:
+  - VS Code doesn't support autocomplete inside the quick input widget which Dendron uses for lookups. We are experimenting with different ways of getting around this.
+  - Today, the workaround is to create a wiki-link inside another note and navigate via link to create it.
+  - Another method, if you know you will be creating multiple children under a single deeply nested parent, is to pin the parent and create the child from the parent
 
 <a href="https://www.loom.com/share/f0bbfc9cae0a474a99f8a1169b7b96c7">
 <img style="" src="https://cdn.loom.com/sessions/thumbnails/f0bbfc9cae0a474a99f8a1169b7b96c7-with-play.gif"> </a>
 
-
 ### Automate Git Tasks
+
 - [Discord thread](https://discordapp.com/channels/717965437182410783/742532267058004098/759130627781558403)
 - Problem:
   - You want an easier way to `git add && git commit && git push`
 - Solution #1:
   - Use [git automator](https://marketplace.visualstudio.com/items?itemName=ivangabriele.vscode-git-add-and-commit).
 - Solution #2:
-  - Add alias to your bashrc/zshrc along the lines of 
+  - Add alias to your bashrc/zshrc along the lines of
+
   ```
   # WARNING: pushes straight to the main/master branch. Do not use on source code. 
   alias gitaddcommitpushmain='git add . && git commit -m "update"; git fetch origin main && git rebase origin/main; git push origin main'
@@ -89,14 +89,14 @@ You can collapse headers at different levels and bullets at different indentatio
 ### Go back to previous Note
 
 Use "> Quick Open Previous Recently Used...` to navigate through recently opened notes
-  - default shortcut: `CTRL-TAB`
+
+- default shortcut: `CTRL-TAB`
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/tips.tabs.most-recent.gif)
 
-
 ### Keep Track of Tabs
 
-It's really easy to lose sight of your tabs, especially with menu items occluding the little horizontal space you have for tabs. 
+It's really easy to lose sight of your tabs, especially with menu items occluding the little horizontal space you have for tabs.
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/tips.tabs.nav.jpg)
 
@@ -105,6 +105,7 @@ Instead of relying on the menu, you can use `Show All Editors` to see all tabs v
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/tips.tabs.editors.gif)
 
 You can streamline this process by assigning a keyboard shortcut to the command. Below is an example.
+
   ```json
   {
     "key": "ctrl+t",
@@ -112,26 +113,31 @@ You can streamline this process by assigning a keyboard shortcut to the command.
   }
   ```
 
-
 ### Copy and Paste Web Content into Dendron
 
-First copy it into Notion or use the Notion web clipper to clip it. This will format it nicely in Markdown. You can then paste it into Dendron with Markdown and everything :) . You can also use a browser extension like MarkDownload ( see below ). 
+First copy it into Notion or use the Notion web clipper to clip it. This will format it nicely in Markdown. You can then paste it into Dendron with Markdown and everything :) . You can also use a browser extension like MarkDownload ( see below ).
 
 ### Open Dendron from terminal
 
 #### Linux & Mac & WSL
 
-You can create an alias in your `.bashrc` / `.zshrc` file. Remember to replace `path/to/your/` with your `code-workspace` file path.
+You can create a wrapper script that launches Dendron. Remember to adjust the path to your `.code-workspace` file if it's not in the default `~/Dendron` directory.
 
 ```sh
-alias dendron="code path/to/your/dendron.code-workspace"
+cat <<EOF | sudo tee /usr/local/bin/dendron
+#!/usr/bin/env bash
+
+exec code --new-window "\$HOME/Dendron/dendron.code-workspace" "\$@"
+EOF
+
+sudo chmod +x /usr/local/bin/dendron
 ```
 
-##### Windows
+#### Windows
 
-###### CMD
+##### CMD
 
-To achieve something similar for the CMD prompt of windows you can do the following: 
+To achieve something similar for the CMD prompt of windows you can do the following:
 
 Create a `alias.txt`(for example in your user dir):
 
@@ -139,15 +145,15 @@ Create a `alias.txt`(for example in your user dir):
 
 dendron=code {path/to/your/dendron.code-workspace}
 
-``` 
+```
 
 Then you can do the following
 
 ```cmd
 doskey /macrofile=C:\Users\example\alias.txt
-``` 
+```
 
-After doing that dendron becomes available in the cmd prompt. 
+After doing that dendron becomes available in the cmd prompt.
 To automate this you can take a look here: [Setting Init script for Windows Command Prompt](https://sukhbinder.wordpress.com/2021/06/16/setting-init-script-for-windows-command-prompt/)
 
 #### All
@@ -155,11 +161,10 @@ To automate this you can take a look here: [Setting Init script for Windows Comm
 ##### Powershell
 
 For powershell you add the following to your Powershell `$PROFILE`:
- 
+
 ```ps
 Set-Alias -Name dendron -Value code {path/to/your/dendron.code-workspace}
 ```
-
 
 <!-- 
 
@@ -190,11 +195,12 @@ https://stackoverflow.com/questions/25701265/how-to-generate-a-list-of-all-dates
 
 ### Navigating a hierarchy
 
-One easy way of navigating hierarchies it to click on the file name. This will reveal a dropdown that shows you all siblings of the current note. 
+One easy way of navigating hierarchies it to click on the file name. This will reveal a dropdown that shows you all siblings of the current note.
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/guide.siblings.jpg)
 
 ### Remove Markdown Buttons in Menu Bar
+
 - [Discord thread](https://discordapp.com/channels/717965437182410783/739186036495876126/758408534848831558)
 
 ```json
@@ -207,22 +213,24 @@ One easy way of navigating hierarchies it to click on the file name. This will r
 ### Moving Panes
 
 You can move VS Code tabs using the following builtin commands:
+
 - `View: Move Editor Into Next Group`
 - `View: Move Editor Into Previous Group`
 
 They are mapped on to the following keyboard shortcuts:
+
 - mac: `cmd+ctrl+left|right`
 
-This is helpful for looking at your notes side by side. 
+This is helpful for looking at your notes side by side.
 
-<a href="https://www.loom.com/share/d99ec9cce8ff4d869cf8c36955152808"> 
+<a href="https://www.loom.com/share/d99ec9cce8ff4d869cf8c36955152808">
 <img style="" src="https://cdn.loom.com/sessions/thumbnails/d99ec9cce8ff4d869cf8c36955152808-with-play.gif"> </a>
 
 ### Pinning Tabs
 
-You can pin tabs in VS Code by right clicking on a tab and selecting `Pin Tab`. 
+You can pin tabs in VS Code by right clicking on a tab and selecting `Pin Tab`.
 
-The latest VS Code lets you control pin behavior for tabs. It's not currently documented as of 2020.09.28 but as of the latest Insiders build, it has a few different options to control the pinned behavior. 
+The latest VS Code lets you control pin behavior for tabs. It's not currently documented as of 2020.09.28 but as of the latest Insiders build, it has a few different options to control the pinned behavior.
 
 - options:
   - `normal`: (default) normal tab size with a pin icon
@@ -233,14 +241,13 @@ The latest VS Code lets you control pin behavior for tabs. It's not currently do
 "workbench.editor.pinnedTabSizing": "shrink"
 ```
 
-
 ### Zen Mode
 
-VS Code can be visually noisy. You can hide most of the UI by toggling `Zen Mode` with a three panel layout. 
+VS Code can be visually noisy. You can hide most of the UI by toggling `Zen Mode` with a three panel layout.
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/tips.zen.jpg)
 
-The following setting overrides are useful: 
+The following setting overrides are useful:
 
 ```json
 // by default, zen mode will open a new "workspace" which I don't like
@@ -258,9 +265,8 @@ breadcrumbs.focusAndSelect -> cmd + t
 
 You can see a video of this workflow in the video below.
 
-<a href="https://www.loom.com/share/dd27df6d556d4ba6b28b2028ca7d1455"> 
+<a href="https://www.loom.com/share/dd27df6d556d4ba6b28b2028ca7d1455">
 <img style="" src="https://cdn.loom.com/sessions/thumbnails/dd27df6d556d4ba6b28b2028ca7d1455-with-play.gif"> </a>
-
 
 ### Indenting Wrapped Text
 
@@ -283,6 +289,7 @@ Changing the value to indent may provide better visual understanding of indentat
 ### Have links auto-complete without additional key presses
 
 - Update your settings to the following
+
 ```json
 // The following settings will only apply to Markdown files:
   "[markdown]": {
@@ -306,8 +313,7 @@ Changing the value to indent may provide better visual understanding of indentat
 
 ### Always have the preview open
 
-
-You can add the following setting to your workspace to always have a Markdown editor show up with your content. 
+You can add the following setting to your workspace to always have a Markdown editor show up with your content.
 
 ```json
 "markdown-preview-enhanced.automaticallyShowPreviewOfMarkdownBeingEdited": true,
@@ -323,8 +329,8 @@ Example: if i know i had a header with the title "cheatsheet", i can type in `# 
 
 VS Code doesn't support auto-formatting by default. You can use the following workaround to mimic the behavior.
 
-
 - Add list-item below current position. Using `-`
+
 ```json
 {
         "key": "shift+enter",
@@ -366,21 +372,25 @@ Once you've made similar schema and template files, when you make a new file usi
 ## Other Tools
 
 This is a list of other tools that work well with Dendron.
+
 - [nvAlt](https://brettterpstra.com/projects/nvalt/): local Markdown editor that works well with Dendron notes (mac only)
 
 ## Other VS Code Extensions
 
 ### Git
+
 - [Git Automator](https://marketplace.visualstudio.com/items?itemName=ivangabriele.vscode-git-add-and-commit): one command to commit and push all changes
 - [Git Doc](https://marketplace.visualstudio.com/items?itemName=vsls-contrib.gitdoc): auto-commit and (optionally) auto push your notes at fixed intervals
 - [Gitlens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens): Repository/File/Line history and annotations of all your files
 - [Path AutoComplete](https://github.com/ionutvmi/path-autocomplete): Path autocomplete for Visual Studio Code
 
 ### Coding
+
 - [Code Runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner)
 
 ### Other
-- [Macros](https://marketplace.visualstudio.com/items?itemName=geddski.macros): Define custom macros 
+
+- [Macros](https://marketplace.visualstudio.com/items?itemName=geddski.macros): Define custom macros
 - [Vim](https://marketplace.visualstudio.com/items?itemName=vscodevim.vim): Vim key bindings 😍
 - [Bookmarks](https://marketplace.visualstudio.com/items?itemName=alefragnani.Bookmarks): Bookmark lines within File [Vertical Limit](https://marketplace.visualstudio.com/items?itemName=generik.vertical-limit): Work with multiple cursors and blocks of text
 - [CodeUI](https://marketplace.visualstudio.com/items?itemName=ryanraposo.codeui): Easier customization of every part of the VSCode UI
@@ -391,5 +401,6 @@ This is a list of other tools that work well with Dendron.
 ## Other Browser Extensions
 
 ### Web Clipper
+
 - [MarkDownload](https://chrome.google.com/webstore/detail/markdownload-markdown-web/pcmpcfapbekmbjjkdalcgopdkipoggdi?hl=en-GB): Markdown-based web clipper
 - [Roam Highlighter](https://chrome.google.com/webstore/detail/mcoimieglmhdjdoplhpcmifgplkbfibp)
