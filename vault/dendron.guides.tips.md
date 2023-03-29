@@ -2,7 +2,7 @@
 id: 692fa114-f798-467f-a0b9-3cccc327aa6f
 title: Tips
 desc: ''
-updated: 1680106616395
+updated: 1680107013706
 created: 1595614204291
 nav_order: 4.1
 ---
@@ -164,6 +164,28 @@ For powershell you add the following to your Powershell `$PROFILE`:
 
 ```ps
 Set-Alias -Name dendron -Value code {path/to/your/dendron.code-workspace}
+```
+
+### Add Dendron to your app launcher and/or desktop
+
+#### Linux
+
+Create a `.desktop` file for Dendron in a location that will be picked up by your system (i.e. a [path covered by `$XDG_DATA_DIRS`](https://specifications.freedesktop.org/basedir-spec/basedir-spec-latest.html)) and optionally download the Dendron icon:
+
+```sh
+cat <<EOF | sudo tee /usr/local/share/applications/dendron.desktop
+[Desktop Entry]
+Name=Dendron
+Comment=Dendron - The personal knowledge management (PKM) tool that grows as you do!
+Icon=dendron
+Type=Application
+GenericName=Notes & Calendar
+Categories=Office;Development;Utility;TextEditor;Calendar;ProjectManagement;IDE;
+Exec=dendron
+Terminal=false
+EOF
+
+curl -fsSL https://avatars.githubusercontent.com/u/66193563 | sudo tee /usr/share/pixmaps/dendron.png 1>/dev/null
 ```
 
 <!-- 
