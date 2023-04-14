@@ -9,7 +9,7 @@ created: 1653577416327
 ### 1st Run
 1. Restore Node modules cache
     - This step restores all nodejs dependencies and nextjs dependencies 
-    - The frist time this is run, you will get a cache miss and see a message like this `Cache not found for input keys: Linux-dendronv2-99cb51177fdf291e959222d9bb8562af297a2b2733d7ab2441e4c17504a7cfbd-3`
+    - The first time this is run, you will get a cache miss and see a message like this `Cache not found for input keys: Linux-dendronv2-99cb51177fdf291e959222d9bb8562af297a2b2733d7ab2441e4c17504a7cfbd-3`
     ```
     - dendron.yml
     - notes/
@@ -22,7 +22,7 @@ created: 1653577416327
     - node_modules/
     ```
 1. Initialize or pull nextjs template
-    - This checks if the dnedron nextjs template is installed. if it is, pull down latest version. if not, clone the repo
+    - This checks if the dendron nextjs template is installed. if it is, pull down latest version. if not, clone the repo
     ```
     - dendron.yml
     - notes/
