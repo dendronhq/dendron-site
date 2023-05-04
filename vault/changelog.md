@@ -6,6 +6,14 @@ updated: 1670254035385
 created: 1601508213606
 nav_order: 2
 ---
+
+## 0.120.0
+
+### Fix
+
+- fix(commands): remove deprecated "DumpState" command
+- fix(commands): improve output of diagnostics command
+
 ## 0.119.0
 
 ### Fix
