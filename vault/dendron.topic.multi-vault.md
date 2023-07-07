@@ -62,7 +62,7 @@ This can be done with the `Move Note` command.
 
 ### Note References
 
-When you make a reference, Dendron will include the note from the same note. You can create a reference to a note in a different vault by using [[cross vault links|dendron://dendron.dendron-site/dendron.topic.links#cross-vault-links]].
+When you make a reference, Dendron will include the note from the same vault. You can create a reference to a note in a different vault by using [[cross vault links|dendron://dendron.dendron-site/dendron.topic.links#cross-vault-links]].
 
 ### Publishing
 
