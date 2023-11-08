@@ -191,7 +191,7 @@ If you would like to contribute (docs, code, finance, or advocacy), you can find
 
 ## License
 
-Dendron is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE Version 3.
+Dendron is distributed under the APACHE LICENSE Version 2.0.
 
 See [LICENSE](https://github.com/dendronhq/dendron/blob/master/LICENSE.md) and [NOTICE](https://github.com/dendronhq/dendron/blob/master/NOTICE.md) for more information.
 
