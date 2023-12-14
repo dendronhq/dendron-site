@@ -20,7 +20,7 @@ It is possible to [peek](https://code.visualstudio.com/docs/editor/editingevolve
 
 ### Moving Lines
 
-When working with lines, you can move entire lines at a time using `option-up|down` shortcut on mac. This is really helpful for prioritizing todos among other things ✅
+When working with lines, you can move entire lines at a time using the shortcut `option-up|down` on Mac or `alt-up|down` on Windows. This is really helpful for prioritizing todos among other things ✅
 
 ![](https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/tips-move-lines.gif)
 
@@ -211,7 +211,8 @@ You can move VS Code tabs using the following builtin commands:
 - `View: Move Editor Into Previous Group`
 
 They are mapped on to the following keyboard shortcuts:
-- mac: `cmd+ctrl+left|right`
+- Mac: `cmd+ctrl+left|right`
+- Windows: `ctrl+alt+left|right`
 
 This is helpful for looking at your notes side by side. 
 
