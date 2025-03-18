@@ -28,7 +28,7 @@ There are several approaches that can be taken to install Node.js to your deskto
 npm install -g @dendronhq/dendron-cli@latest
 ```
 
-## Local Insallation
+## Local Installation
 
 If dendron-cli is installed in the local directory via npm
 - Creates a package.json and package-lock.json
